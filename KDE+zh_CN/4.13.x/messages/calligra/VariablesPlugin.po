@@ -1,0 +1,291 @@
+# translation of VariablesPlugin.po to 简体中文
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: VariablesPlugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-02-25 02:04+0100\n"
+"PO-Revision-Date: 2013-02-21 12:52-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ChapterVariable.cpp:214 UserVariableOptionsWidget.cpp:66
+msgid "Format:"
+msgstr "格式："
+
+#: ChapterVariable.cpp:219
+msgid "Number"
+msgstr "编号"
+
+#: ChapterVariable.cpp:219
+msgid "Name"
+msgstr "名称"
+
+#: ChapterVariable.cpp:219
+msgid "Number and name"
+msgstr "编号和名称"
+
+#: ChapterVariable.cpp:219
+msgid "Number without separator"
+msgstr "无分隔符编号"
+
+#: ChapterVariable.cpp:219
+msgid "Number and name without separator"
+msgstr "无分隔符的编号和名称"
+
+#: ChapterVariable.cpp:223
+msgid "Level:"
+msgstr "级别："
+
+#: ChapterVariableFactory.cpp:34
+msgid "Chapter"
+msgstr "章节"
+
+#: DateVariableFactory.cpp:35
+msgctxt "date that can not be changed later"
+msgid "Date (Fixed)"
+msgstr "日期(固定)"
+
+#: FixedDateFormat.cpp:46
+msgid "Locale date format"
+msgstr "语系日期格式"
+
+#: FixedDateFormat.cpp:47
+msgid "Short locale date format"
+msgstr "语系短日期格式"
+
+#: FixedDateFormat.cpp:48
+msgid "Locale date & time format"
+msgstr "语系日期和时间格式"
+
+#: FixedDateFormat.cpp:49
+msgid "Short locale date & time format"
+msgstr "语系短日期和时间格式"
+
+#: FixedDateFormat.cpp:124
+msgid "Day"
+msgstr "天数"
+
+#: FixedDateFormat.cpp:125
+msgid "Month"
+msgstr "月数"
+
+#: FixedDateFormat.cpp:126
+msgid "Year"
+msgstr "年数"
+
+#: FixedDateFormat.cpp:127
+msgid "Hour"
+msgstr "小时数"
+
+#: FixedDateFormat.cpp:128
+msgid "Minute"
+msgstr "分钟数"
+
+#: FixedDateFormat.cpp:129
+msgid "Second"
+msgstr "秒数"
+
+#: FixedDateFormat.cpp:137
+msgid "Flexible Digits (1-31)"
+msgstr "弹性数位(1-31)"
+
+#: FixedDateFormat.cpp:138
+msgid "2 Digits (01-31)"
+msgstr "2 位数(01-31)"
+
+#: FixedDateFormat.cpp:139 FixedDateFormat.cpp:143
+msgid "Abbreviated Name"
+msgstr "缩略名"
+
+#: FixedDateFormat.cpp:140 FixedDateFormat.cpp:144
+msgid "Long Name"
+msgstr "长名"
+
+#: FixedDateFormat.cpp:141
+msgid "Flexible Digits (1-12)"
+msgstr "弹性数位(1-12)"
+
+#: FixedDateFormat.cpp:142
+msgid "2 Digits (01-12)"
+msgstr "2 位数(01-12)"
+
+#: FixedDateFormat.cpp:145
+msgid "Possessive Abbreviated Name"
+msgstr "所有缩略名"
+
+#: FixedDateFormat.cpp:146
+msgid "Possessive Long Name"
+msgstr "所有长名"
+
+#: FixedDateFormat.cpp:147
+msgid "2 Digits (01-99)"
+msgstr "2 位数(01-99)"
+
+#: FixedDateFormat.cpp:148
+msgid "4 Digits"
+msgstr "4 位数"
+
+#: FixedDateFormat.cpp:149
+msgid "Flexible Digits (1-23)"
+msgstr "弹性数位(1-23)"
+
+#: FixedDateFormat.cpp:150
+msgid "2 Digits (01-23)"
+msgstr "2 位数(01-23)"
+
+#: FixedDateFormat.cpp:151 FixedDateFormat.cpp:153
+msgid "Flexible Digits (1-59)"
+msgstr "弹性数位(1-59)"
+
+#: FixedDateFormat.cpp:152 FixedDateFormat.cpp:154
+msgid "2 Digits (01-59)"
+msgstr "2 位数(01-59)"
+
+#: FixedDateFormat.cpp:155
+msgid "am/pm"
+msgstr "am/pm"
+
+#: FixedDateFormat.cpp:156
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: FixedDateFormat.ui:21
+msgid "Date Correction:"
+msgstr "日期校正："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, correction)
+#: FixedDateFormat.ui:28
+msgid " days"
+msgstr " 天"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: FixedDateFormat.ui:53
+msgid "Select the way the date should be displayed:"
+msgstr "选择日期的显示方式："
+
+#. i18n: ectx: property (text), widget (QCheckBox, custom)
+#: FixedDateFormat.ui:60
+msgid "Custom format"
+msgstr "自定义格式"
+
+#. i18n: ectx: property (text), widget (QToolButton, formatButton)
+#: FixedDateFormat.ui:101
+msgid "..."
+msgstr "..."
+
+#: InfoVariableFactory.cpp:37
+msgid "Author Name"
+msgstr "作者姓名"
+
+#: InfoVariableFactory.cpp:45
+msgid "Title"
+msgstr "标题"
+
+#: InfoVariableFactory.cpp:53
+msgid "Subject"
+msgstr "主题"
+
+#: InfoVariableFactory.cpp:61
+msgid "File Name"
+msgstr "文件名"
+
+#: InfoVariableFactory.cpp:69
+msgid "Keywords"
+msgstr "关键字"
+
+#: InfoVariableFactory.cpp:77
+msgid "Comments"
+msgstr "注释"
+
+#: PageVariableFactory.cpp:35
+msgid "Page Count"
+msgstr "页数"
+
+#: PageVariableFactory.cpp:43
+msgid "Page Number"
+msgstr "页号"
+
+#: UserVariableFactory.cpp:34
+msgid "Custom"
+msgstr "自定义"
+
+#: UserVariableOptionsWidget.cpp:44
+msgid "Name:"
+msgstr "名称："
+
+#: UserVariableOptionsWidget.cpp:55
+msgid "New"
+msgstr "新建"
+
+#: UserVariableOptionsWidget.cpp:59
+msgid "Delete"
+msgstr "删除"
+
+#: UserVariableOptionsWidget.cpp:72
+msgid "String"
+msgstr "字符串"
+
+#: UserVariableOptionsWidget.cpp:73
+msgid "Boolean"
+msgstr "布尔值"
+
+#: UserVariableOptionsWidget.cpp:74
+msgid "Float"
+msgstr "浮点数"
+
+#: UserVariableOptionsWidget.cpp:75
+msgid "Percentage"
+msgstr "百分数"
+
+#: UserVariableOptionsWidget.cpp:76
+msgid "Currency"
+msgstr "货币"
+
+#: UserVariableOptionsWidget.cpp:77
+msgid "Date"
+msgstr "日期"
+
+#: UserVariableOptionsWidget.cpp:78
+msgid "Time"
+msgstr "时间"
+
+#: UserVariableOptionsWidget.cpp:79
+msgid "Formula"
+msgstr "公式"
+
+#: UserVariableOptionsWidget.cpp:80
+msgid "Void"
+msgstr "空"
+
+#: UserVariableOptionsWidget.cpp:85
+msgid "Value:"
+msgstr "值："
+
+#: UserVariableOptionsWidget.cpp:158
+msgid "New Variable"
+msgstr "新建变量"
+
+#: UserVariableOptionsWidget.cpp:158
+msgid "Name for new variable:"
+msgstr "新变量名称："
+
+#: UserVariableOptionsWidget.cpp:174
+#, kde-format
+msgid "Delete variable <b>%1</b>?"
+msgstr "是否要删除变量 <b>%1</b>？"
+
+#: UserVariableOptionsWidget.cpp:175
+msgid "Delete Variable"
+msgstr "删除变量"
+
+#~ msgid "Fixed"
+#~ msgstr "固定"

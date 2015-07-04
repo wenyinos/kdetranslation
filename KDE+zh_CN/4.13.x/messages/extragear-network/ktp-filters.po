@@ -1,0 +1,73 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-07-25 01:34+0000\n"
+"PO-Revision-Date: 2013-09-29 21:25-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, LatexConfig)
+#: latex/latex-config.ui:14
+msgid "LatexConfig"
+msgstr "Latex 设置"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: latex/latex-config.ui:20
+msgid "LaTeX header:"
+msgstr "LaTeX 头"
+
+#. i18n: ectx: property (plainText), widget (QPlainTextEdit, kcfg_LatexHeader)
+#: latex/latex-config.ui:31
+msgid ""
+"\\documentclass{minimal}\n"
+"\\usepackage{color}\n"
+"\\pagestyle{empty}\n"
+"\\color{black}\n"
+msgstr ""
+"\\documentclass{minimal}\n"
+"\\usepackage{color}\n"
+"\\pagestyle{empty}\n"
+"\\color{black}\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: latex/latex-config.ui:38
+msgid "LaTeX command line:"
+msgstr "LaTex 命令行："
+
+#. i18n: ectx: property (text), widget (KLineEdit, kcfg_LatexCmd)
+#: latex/latex-config.ui:45
+msgid "latex -interaction=batchmode -halt-on-error"
+msgstr "latex -interaction=batchmode -halt-on-error"
+
+#: texttospeech/tts-filter.cpp:42
+msgid "KDE Instant Messaging"
+msgstr "KDE 即时通讯"
+
+#: texttospeech/tts-filter.cpp:63
+#, kde-format
+msgctxt "Text to Speech - text message %1 is name, %2 is message"
+msgid "%1 says %2"
+msgstr "%1 说 %2"
+
+#: texttospeech/tts-filter.cpp:66
+#, kde-format
+msgctxt "Text to Speech - text message %1 is name, %2 is message"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#~ msgid "New message. %1"
+#~ msgstr "新消息。%1"
+
+#~ msgid "Click to view in browser"
+#~ msgstr "点击以在浏览器中显示"

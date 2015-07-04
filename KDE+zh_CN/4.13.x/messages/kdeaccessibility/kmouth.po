@@ -1,0 +1,1173 @@
+# translation of kmouth.po to zh_CN
+# Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# Sun Fang <sun_xp@msn.com>, 2003.
+# Yan Shuangchun <yahzee@21cn.com>, 2003.
+# Lie_Ex <lilith.ex@gmail.com>,2007-2009.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmouth\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-19 04:30+0200\n"
+"PO-Revision-Date: 2011-06-17 20:30+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: configwizard.cpp:38
+msgid "Initial Configuration - KMouth"
+msgstr "初始化配置 - KMouth"
+
+#: configwizard.cpp:57
+msgid "Text-to-Speech Configuration"
+msgstr "文本到语音配置"
+
+#: configwizard.cpp:71
+msgid "Initial Phrase Book"
+msgstr "初始化词组本"
+
+#: configwizard.cpp:103 optionsdialog.cpp:144 optionsdialog.cpp:145
+msgid "Word Completion"
+msgstr "单词补全"
+
+#: kmouth.cpp:113
+msgid "&Open as History..."
+msgstr "作为历史记录打开(&O)..."
+
+#: kmouth.cpp:116 kmouth.cpp:117
+msgid "Opens an existing file as history"
+msgstr "打开一个已存在的文件作为历史记录"
+
+#: kmouth.cpp:121
+msgid "Save &History As..."
+msgstr "历史记录另存为(&H)..."
+
+#: kmouth.cpp:124 kmouth.cpp:125
+msgid "Saves the actual history as..."
+msgstr "目前的历史记录另存为..."
+
+#: kmouth.cpp:129
+msgid "&Print History..."
+msgstr "打印历史记录(&P)..."
+
+#: kmouth.cpp:132 kmouth.cpp:133
+msgid "Prints out the actual history"
+msgstr "打印目前的历史记录"
+
+#: kmouth.cpp:136 kmouth.cpp:137
+msgid "Quits the application"
+msgstr "退出程序"
+
+#: kmouth.cpp:141
+msgid "Cuts the selected section and puts it to the clipboard"
+msgstr "剪切所选的部分到剪贴板"
+
+#: kmouth.cpp:142
+msgid ""
+"Cuts the selected section and puts it to the clipboard. If there is some "
+"text selected in the edit field it is placed it on the clipboard. Otherwise "
+"the selected sentences in the history (if any) are placed on the clipboard."
+msgstr ""
+"剪切所选的部分到剪贴板。如果在编辑区域中有文本被选，所选的文本将被剪切到剪贴"
+"板。否则历史记录中所选的句子(如果有的话)将被剪切到剪贴板。"
+
+#: kmouth.cpp:145
+msgid "Copies the selected section to the clipboard"
+msgstr "复制所选的部分到剪贴板"
+
+#: kmouth.cpp:146
+msgid ""
+"Copies the selected section to the clipboard. If there is some text selected "
+"in the edit field it is copied to the clipboard. Otherwise the selected "
+"sentences in the history (if any) are copied to the clipboard."
+msgstr ""
+"复制所选的部分到剪贴板。如果在编辑区域中有文本被选，所选的文本将被复制到剪贴"
+"板。否则历史记录中所选的句子(如果有的话)将被复制到剪贴板。"
+
+#: kmouth.cpp:149 phrasebook/phrasebookdialog.cpp:412
+msgid "Pastes the clipboard contents to current position"
+msgstr "粘贴剪贴板的内容到当前位置"
+
+#: kmouth.cpp:150 phrasebook/phrasebookdialog.cpp:413
+msgid ""
+"Pastes the clipboard contents at the current cursor position into the edit "
+"field."
+msgstr "把剪切版中的内容粘贴到编辑区域中目前指针所在的位置。"
+
+#: kmouth.cpp:154
+msgctxt "Start speaking"
+msgid "&Speak"
+msgstr "朗读(&S)"
+
+#: kmouth.cpp:156
+msgid "Speaks the currently active sentence(s)"
+msgstr "朗读当前活动的句子"
+
+#: kmouth.cpp:157 phraselist.cpp:86
+msgid ""
+"Speaks the currently active sentence(s). If there is some text in the edit "
+"field it is spoken. Otherwise the selected sentences in the history (if any) "
+"are spoken."
+msgstr ""
+"朗读当前活动的句子。如果在编辑区域中有文本，这些文本将被朗读。否则在历史记录"
+"中所选的句子(如果有的话)将被朗读。"
+
+#: kmouth.cpp:161
+msgid "&Edit..."
+msgstr "编辑(&E)..."
+
+#: kmouth.cpp:172
+msgid "Show P&hrasebook Bar"
+msgstr "显示词组栏(&H)"
+
+#: kmouth.cpp:174 kmouth.cpp:175
+msgid "Enables/disables the phrasebook bar"
+msgstr "启用/禁用词组栏"
+
+#: kmouth.cpp:178 kmouth.cpp:179
+msgid "Enables/disables the statusbar"
+msgstr "打开/关闭状态栏"
+
+#: kmouth.cpp:183
+msgid "&Configure KMouth..."
+msgstr "配置 KMouth(&C)..."
+
+#: kmouth.cpp:185 kmouth.cpp:186
+msgid "Opens the configuration dialog"
+msgstr "打开配置对话框"
+
+#: kmouth.cpp:194 phraselist.cpp:83
+msgid "&Speak"
+msgstr "朗读(&S)"
+
+#: kmouth.cpp:195 kmouth.cpp:197
+msgid "Speaks the currently selected phrases in the history"
+msgstr "朗读目前在历史记录中所选的词组"
+
+#: kmouth.cpp:201 phrasebook/phrasebookdialog.cpp:417
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: kmouth.cpp:203 kmouth.cpp:204
+msgid "Deletes the currently selected phrases from the history"
+msgstr "从历史记录中删除目前所选的词组"
+
+#: kmouth.cpp:208
+msgid "Cu&t"
+msgstr "剪切(&T)"
+
+#: kmouth.cpp:210 kmouth.cpp:211
+msgid ""
+"Cuts the currently selected phrases from the history and puts them to the "
+"clipboard"
+msgstr "从历史记录中剪切目前所选的词组并把它们放置到剪贴板"
+
+#: kmouth.cpp:215
+msgid "&Copy"
+msgstr "复制(&C)"
+
+#: kmouth.cpp:217 kmouth.cpp:218
+msgid "Copies the currently selected phrases from the history to the clipboard"
+msgstr "把目前所选的词组从历史记录中复制到剪贴板"
+
+#: kmouth.cpp:221
+msgid "Select &All Entries"
+msgstr "选择全部条目(&A)"
+
+#: kmouth.cpp:223 kmouth.cpp:224
+msgid "Selects all phrases in the history"
+msgstr "选择所有在历史记录中的词组"
+
+#: kmouth.cpp:227
+msgid "D&eselect All Entries"
+msgstr "取消选择所有条目(&E)"
+
+#: kmouth.cpp:229 kmouth.cpp:230
+msgid "Deselects all phrases in the history"
+msgstr "取消选择所有在历史记录中的词组"
+
+#: kmouth.cpp:244 kmouth.cpp:262 kmouth.cpp:370 kmouth.cpp:378 kmouth.cpp:396
+#: kmouth.cpp:446 kmouth.cpp:463 kmouth.cpp:480 kmouth.cpp:497
+msgctxt "The job is done"
+msgid "Ready."
+msgstr "就绪。"
+
+#: kmouth.cpp:259 kmouth.cpp:366
+msgid "Opening file..."
+msgstr "正在打开文件..."
+
+#: kmouth.cpp:374
+msgid "Saving history with a new filename..."
+msgstr "正在以新的文件名保存历史记录..."
+
+#: kmouth.cpp:383
+msgid "Printing..."
+msgstr "正在打印..."
+
+#: kmouth.cpp:401
+msgctxt "Shutting down the application"
+msgid "Exiting..."
+msgstr "正在退出..."
+
+#: kmouth.cpp:439
+msgid "Toggling menubar..."
+msgstr "正在切换菜单栏..."
+
+#: kmouth.cpp:451
+msgid "Toggling toolbar..."
+msgstr "正在切换工具栏..."
+
+#: kmouth.cpp:468
+msgid "Toggling phrasebook bar..."
+msgstr "正在切换词组栏..."
+
+#: kmouth.cpp:485
+msgid "Toggle the statusbar..."
+msgstr "切换状态栏..."
+
+#. i18n: ectx: Menu (file)
+#: kmouthui.rc:4
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (edit)
+#: kmouthui.rc:11
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (phrasebooks)
+#: kmouthui.rc:14
+msgid "&Phrase Books"
+msgstr "词组本(&P)"
+
+#. i18n: ectx: Menu (settings)
+#: kmouthui.rc:17
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#: main.cpp:28
+msgid "A type-and-say front end for speech synthesizers"
+msgstr "一个即输即读的语音合成前端"
+
+#: main.cpp:35
+msgid "KMouth"
+msgstr "KMouth"
+
+#: main.cpp:37
+msgid "(c) 2002/2003, Gunnar Schmi Dt"
+msgstr "(c) 2002/2003，Gunnar Schmi Dt"
+
+#: main.cpp:38
+msgid "Gunnar Schmi Dt"
+msgstr "Gunnar Schmi Dt"
+
+#: main.cpp:42
+msgid "History file to open"
+msgstr "要打开的历史记录文件"
+
+#: main.cpp:45
+msgid "Olaf Schmidt"
+msgstr "Olaf Schmidt"
+
+#: main.cpp:45
+msgid "Tips, extended phrase books"
+msgstr "提示，扩展词组本"
+
+#: optionsdialog.cpp:119
+msgid "Configuration"
+msgstr "配置"
+
+#: optionsdialog.cpp:132
+msgid "&Preferences"
+msgstr "首选项(&P)"
+
+#: optionsdialog.cpp:136
+msgid "&Text-to-Speech"
+msgstr "语音合成(&T)"
+
+#: optionsdialog.cpp:138 optionsdialog.cpp:139
+msgid "General Options"
+msgstr "常规选项"
+
+#: optionsdialog.cpp:151
+msgid "Jovie Speech Service"
+msgstr "Jovie 语音服务"
+
+#: optionsdialog.cpp:153
+msgid "KDE Text-to-Speech Daemon Configuration"
+msgstr "KDE 语音合成守护进程配置"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ButtonBoxUI)
+#: phrasebook/buttonboxui.ui:13
+msgid "Currently Selected Phrase or Phrase Book"
+msgstr "目前所选的词组或词组本"
+
+#. i18n: ectx: property (title), widget (QGroupBox, phrasebox)
+#: phrasebook/buttonboxui.ui:25
+msgid "&Currently Selected Phrase or Phrase Book"
+msgstr "目前所选的词组或词组本(&C)"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, lineEdit)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel)
+#: phrasebook/buttonboxui.ui:40 phrasebook/buttonboxui.ui:74
+msgid ""
+"With this line edit you define the name of a sub-phrasebook or the contents "
+"of a phrase."
+msgstr "您可使用此行定义子词组本或词组的内容。"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, noKey)
+#: phrasebook/buttonboxui.ui:47
+msgid ""
+"If you select this option then the selected phrase will not be reachable by "
+"a keyboard shortcut."
+msgstr "如果您选择了此选项，则选中的词组将无法通过键盘快捷键访问。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, noKey)
+#: phrasebook/buttonboxui.ui:50
+msgid "&None"
+msgstr "无(&N)"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, customKey)
+#: phrasebook/buttonboxui.ui:57
+msgid ""
+"If you select this option then the selected phrase will be reachable by a "
+"keyboard shortcut. You can change the shortcut with the button next to this "
+"option."
+msgstr ""
+"如果您选中了此选项，则选中的词组将可通过键盘快捷键访问。您可以使用此选项旁边"
+"的按钮更改快捷键。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, customKey)
+#: phrasebook/buttonboxui.ui:60
+msgid "C&ustom"
+msgstr "自定义(&U)"
+
+#. i18n: ectx: property (text), widget (QLabel, shortcutLabel)
+#: phrasebook/buttonboxui.ui:67
+msgid "Shortcut for the phrase:"
+msgstr "词组的快捷键："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel)
+#: phrasebook/buttonboxui.ui:77 phrasebook/phrasebookdialog.cpp:543
+#: phrasebook/phrasebookdialog.cpp:557
+msgid "Text of the &phrase:"
+msgstr "词组的文本(&P)："
+
+#: phrasebook/phrasebook.cpp:263 phrasebook/phrasebookdialog.cpp:789
+msgid ""
+"*.phrasebook|Phrase Books (*.phrasebook)\n"
+"*.txt|Plain Text Files (*.txt)\n"
+"*|All Files"
+msgstr ""
+"*.phrasebook|词组本 (*.phrasebook)\n"
+"*.txt|纯文本文件 (*.txt)\n"
+"*|全部文件"
+
+#: phrasebook/phrasebook.cpp:265
+msgid ""
+"*.txt|Plain Text Files (*.txt)\n"
+"*.phrasebook|Phrase Books (*.phrasebook)\n"
+"*|All Files"
+msgstr ""
+"*.phrasebook|词组本 (*.phrasebook)\n"
+"*.txt|纯文本文件 (*.txt)\n"
+"*|全部文件"
+
+#: phrasebook/phrasebook.cpp:283 wordcompletion/wordcompletionwidget.cpp:259
+#, kde-format
+msgid "The file %1 already exists. Do you want to overwrite it?"
+msgstr "文件 %1 已经存在。您想要覆盖它吗？"
+
+#: phrasebook/phrasebook.cpp:284 wordcompletion/wordcompletionwidget.cpp:260
+msgid "File Exists"
+msgstr "文件存在"
+
+#: phrasebook/phrasebook.cpp:284 wordcompletion/wordcompletionwidget.cpp:260
+msgid "&Overwrite"
+msgstr "覆盖(&O)"
+
+#: phrasebook/phrasebook.cpp:295
+#, kde-format
+msgid ""
+"Your chosen filename <i>%1</i> has a different extension than <i>."
+"phrasebook</i>. Do you wish to add <i>.phrasebook</i> to the filename?"
+msgstr ""
+"您所选的文件 <i>%1</i> 的扩展名不是 <i>phrasebook</i>。您想要给此文件添加 "
+"<i>.phrasebook</i> 扩展名吗？"
+
+#: phrasebook/phrasebook.cpp:296 phrasebook/phrasebook.cpp:312
+msgid "File Extension"
+msgstr "文件扩展名"
+
+#: phrasebook/phrasebook.cpp:296
+msgid "Add"
+msgstr "添加"
+
+#: phrasebook/phrasebook.cpp:296
+msgid "Do Not Add"
+msgstr "不添加"
+
+#: phrasebook/phrasebook.cpp:311
+#, kde-format
+msgid ""
+"Your chosen filename <i>%1</i> has the extension <i>.phrasebook</i>. Do you "
+"wish to save in phrasebook format?"
+msgstr ""
+"您所选的文件 <i>%1</i> 的扩展名是 <i>phrasebook</i>。您想要以词组本格式保存它"
+"吗？"
+
+#: phrasebook/phrasebook.cpp:312
+msgid "As Phrasebook"
+msgstr "以词组本"
+
+#: phrasebook/phrasebook.cpp:312
+msgid "As Plain Text"
+msgstr "以纯文本"
+
+#: phrasebook/phrasebookdialog.cpp:142
+#, kde-format
+msgid " (%2 of 1 book selected)"
+msgid_plural " (%2 of %1 books selected)"
+msgstr[0] " (选中了 %2 本书，共 %1 本)"
+
+#: phrasebook/phrasebookdialog.cpp:156
+msgid "Please decide which phrase books you need:"
+msgstr "请选择您要使用哪本词组："
+
+#: phrasebook/phrasebookdialog.cpp:165
+msgid "Book"
+msgstr "书本"
+
+#: phrasebook/phrasebookdialog.cpp:262
+msgid ""
+"By clicking on this button you can select the keyboard shortcut associated "
+"with the selected phrase."
+msgstr "您可以点击此按钮选择要关联到选中短语的键盘快捷键。"
+
+#: phrasebook/phrasebookdialog.cpp:284
+msgid "Phrase Book"
+msgstr "词组本"
+
+#: phrasebook/phrasebookdialog.cpp:325
+msgid "Phrase"
+msgstr "词组本"
+
+#: phrasebook/phrasebookdialog.cpp:326
+msgid "Shortcut"
+msgstr "快捷键"
+
+#: phrasebook/phrasebookdialog.cpp:330
+msgid ""
+"This list contains the current phrase book in a tree structure. You can "
+"select and modify individual phrases and sub phrase books"
+msgstr ""
+"此列表以树状结构显示当前的词组本。您可以从中选择并修改个性化词组和子词组。"
+
+#: phrasebook/phrasebookdialog.cpp:352
+msgid "&New Phrase"
+msgstr "新建词组(&N)"
+
+#: phrasebook/phrasebookdialog.cpp:354 phrasebook/phrasebookdialog.cpp:355
+msgid "Adds a new phrase"
+msgstr "添加一个新词组"
+
+#: phrasebook/phrasebookdialog.cpp:359
+msgid "New Phrase &Book"
+msgstr "新建词组本(&B)"
+
+#: phrasebook/phrasebookdialog.cpp:361 phrasebook/phrasebookdialog.cpp:362
+msgid "Adds a new phrase book into which other books and phrases can be placed"
+msgstr "向可以存放词组本的地方添加新建的词组本"
+
+#: phrasebook/phrasebookdialog.cpp:365 phrasebook/phrasebookdialog.cpp:366
+msgid "Saves the phrase book onto the hard disk"
+msgstr "保存词组本到硬盘"
+
+#: phrasebook/phrasebookdialog.cpp:370 phrasebook/phrasebookdialog.cpp:375
+msgid "&Import..."
+msgstr "导入(&I)..."
+
+#: phrasebook/phrasebookdialog.cpp:372 phrasebook/phrasebookdialog.cpp:373
+#: phrasebook/phrasebookdialog.cpp:378 phrasebook/phrasebookdialog.cpp:379
+msgid "Imports a file and adds its contents to the phrase book"
+msgstr "导入一个文件并将其内容添加到词组本"
+
+#: phrasebook/phrasebookdialog.cpp:383
+msgid "I&mport Standard Phrase Book"
+msgstr "导入标准词组本(&M)"
+
+#: phrasebook/phrasebookdialog.cpp:384 phrasebook/phrasebookdialog.cpp:385
+msgid "Imports a standard phrase book and adds its contents to the phrase book"
+msgstr "导入一个标准词组本并将其内容添加到其它词组本"
+
+#: phrasebook/phrasebookdialog.cpp:389
+msgid "&Export..."
+msgstr "导出(&E)..."
+
+#: phrasebook/phrasebookdialog.cpp:391 phrasebook/phrasebookdialog.cpp:392
+msgid "Exports the currently selected phrase(s) or phrase book(s) into a file"
+msgstr "将当前所选的词组或词组本导出到一个文件"
+
+#: phrasebook/phrasebookdialog.cpp:395 phrasebook/phrasebookdialog.cpp:396
+msgid "Prints the currently selected phrase(s) or phrase book(s)"
+msgstr "打印当前所选的词组或词组本"
+
+#: phrasebook/phrasebookdialog.cpp:399 phrasebook/phrasebookdialog.cpp:400
+msgid "Closes the window"
+msgstr "关闭此窗口"
+
+#: phrasebook/phrasebookdialog.cpp:404 phrasebook/phrasebookdialog.cpp:405
+msgid ""
+"Cuts the currently selected entries from the phrase book and puts it to the "
+"clipboard"
+msgstr "从词组本中剪切目前所选的词组并把它们放置到剪贴板"
+
+#: phrasebook/phrasebookdialog.cpp:408 phrasebook/phrasebookdialog.cpp:409
+msgid ""
+"Copies the currently selected entry from the phrase book to the clipboard"
+msgstr "把目前所选的词组从词组本中复制到剪贴板"
+
+#: phrasebook/phrasebookdialog.cpp:419 phrasebook/phrasebookdialog.cpp:420
+msgid "Deletes the selected entries from the phrase book"
+msgstr "从词组本中删除目前所选的词组"
+
+#: phrasebook/phrasebookdialog.cpp:581
+msgid "Name of the &phrase book:"
+msgstr "词组本名(&P)："
+
+#: phrasebook/phrasebookdialog.cpp:600
+msgid ""
+"<qt>There are unsaved changes.<br />Do you want to apply the changes before "
+"closing the \"phrase book\" window or discard the changes?</qt>"
+msgstr ""
+"<qt>有未保存的更改。<br />您想要在关闭“词组本”窗口前先应用更改还是丢弃更改？"
+"</qt>"
+
+#: phrasebook/phrasebookdialog.cpp:601
+msgid "Closing \"Phrase Book\" Window"
+msgstr "关闭“词组本”窗口"
+
+#: phrasebook/phrasebookdialog.cpp:661
+#, kde-format
+msgid ""
+"In order to use the '%1' key as a shortcut, it must be combined with the "
+"Win, Alt, Ctrl, and/or Shift keys."
+msgstr "要使用“%1”作为快捷键，它必须和 Win、Alt、Ctrl 和/或 Shift 键组合使用。"
+
+#: phrasebook/phrasebookdialog.cpp:664
+msgid "Invalid Shortcut Key"
+msgstr "无效的快捷键"
+
+#: phrasebook/phrasebookdialog.cpp:761
+msgid "(New Phrase Book)"
+msgstr "(新词组本)"
+
+#: phrasebook/phrasebookdialog.cpp:772
+msgid "(New Phrase)"
+msgstr "(新词组)"
+
+#: phrasebook/phrasebookdialog.cpp:789
+msgid "Import Phrasebook"
+msgstr "导入词组本"
+
+#: phrasebook/phrasebookdialog.cpp:800 phraselist.cpp:480
+#, kde-format
+msgid ""
+"There was an error loading file\n"
+"%1"
+msgstr "在读取文件 %1 时发生一个错误"
+
+#: phrasebook/phrasebookdialog.cpp:809
+msgid "Export Phrase Book"
+msgstr "导出词组本"
+
+#: phrasebook/phrasebookdialog.cpp:810 phraselist.cpp:454
+#, kde-format
+msgid ""
+"There was an error saving file\n"
+"%1"
+msgstr "在保存文件 %1 时发生一个错误"
+
+#: phrasebook/phrasetree.cpp:471
+#, kde-format
+msgid ""
+"The '%1' key combination has already been allocated to %2.\n"
+"Please choose a unique key combination."
+msgstr ""
+"组合键“%1”已被指派给“%2”。\n"
+"请另选一种唯一的组合键。"
+
+#: phrasebook/phrasetree.cpp:493
+#, kde-format
+msgid "the standard \"%1\" action"
+msgstr "标准“%1”动作"
+
+#: phrasebook/phrasetree.cpp:494
+msgid "Conflict with Standard Application Shortcut"
+msgstr "与标准应用程序快捷键冲突"
+
+#: phrasebook/phrasetree.cpp:511
+#, kde-format
+msgid "the global \"%1\" action"
+msgstr "全局“%1”动作"
+
+#: phrasebook/phrasetree.cpp:512
+msgid "Conflict with Global Shortcuts"
+msgstr "与全局快捷键冲突"
+
+#: phrasebook/phrasetree.cpp:527
+msgid "an other phrase"
+msgstr "其它词组"
+
+#: phrasebook/phrasetree.cpp:528
+msgid "Key Conflict"
+msgstr "键位冲突"
+
+#: phraselist.cpp:60
+msgid ""
+"This list contains the history of spoken sentences. You can select sentences "
+"and press the speak button for re-speaking."
+msgstr ""
+"这个列表包含已朗读的句子的历史记录。您可以选择句子并按朗读按钮来再次朗读。"
+
+#: phraselist.cpp:78
+msgid ""
+"Into this edit field you can type a phrase. Click on the speak button in "
+"order to speak the entered phrase."
+msgstr "您可以在这个编辑区域输入一个词组。单击朗读按钮来朗读输入的词组。"
+
+#: phraselist.cpp:453
+msgid "Save As"
+msgstr "另存为"
+
+#: phraselist.cpp:459
+msgid ""
+"*|All Files\n"
+"*.phrasebook|Phrase Books (*.phrasebook)\n"
+"*.txt|Plain Text Files (*.txt)"
+msgstr ""
+"*|全部文件\n"
+"*.phrasebook|词组本 (*.phrasebook)\n"
+"*.txt|纯文本文件 (*.txt)"
+
+#: phraselist.cpp:459
+msgid "Open File as History"
+msgstr "打开文件作为历史记录"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PreferencesUI)
+#: preferencesui.ui:21
+msgid "Preferences"
+msgstr "首选项"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, speakLabel)
+#. i18n: ectx: property (whatsThis), widget (KComboBox, speakCombo)
+#: preferencesui.ui:49 preferencesui.ui:62
+msgid ""
+"This combo box specifies whether selected phrases of the phrase book are "
+"immediately spoken or just inserted into the edit field."
+msgstr "这个复选框指定词组本中所选的词组是立即朗读还是仅仅插入到编辑区域中。"
+
+#. i18n: ectx: property (text), widget (QLabel, speakLabel)
+#: preferencesui.ui:52
+msgid "&Selection of phrases in the phrase book:"
+msgstr "词组本中所选的词组(&S)："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, speakCombo)
+#: preferencesui.ui:66
+msgid "Speak Immediately"
+msgstr "立即朗读"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, speakCombo)
+#: preferencesui.ui:71
+msgid "Insert Into Edit Field"
+msgstr "插入到编辑区域"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, closeLabel)
+#. i18n: ectx: property (whatsThis), widget (KComboBox, closeCombo)
+#: preferencesui.ui:97 preferencesui.ui:110
+msgid ""
+"This combo box specifies whether the phrase book is automatically saved when "
+"the edit window is closed."
+msgstr "这个复选框指定词组本在编辑窗口关闭时是否自动保存。"
+
+#. i18n: ectx: property (text), widget (QLabel, closeLabel)
+#: preferencesui.ui:100
+msgid "Closing the phrase &book edit window:"
+msgstr "关闭词组本编辑窗口(&B)："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, closeCombo)
+#: preferencesui.ui:114
+msgid "Save Phrase Book"
+msgstr "保存词组本"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, closeCombo)
+#: preferencesui.ui:119
+msgid "Discard Changes"
+msgstr "放弃修改"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, closeCombo)
+#: preferencesui.ui:124
+msgid "Ask Whether to Save"
+msgstr "询问是否保存"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, texttospeechconfigurationui)
+#: texttospeechconfigurationui.ui:13
+msgid "Text-to-Speech"
+msgstr "文本到语音"
+
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#: texttospeechconfigurationui.ui:41
+msgid "C&ommand for speaking texts:"
+msgstr "朗读文本时的命令(&O)："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, urlLabel)
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, urlReq)
+#: texttospeechconfigurationui.ui:51 texttospeechconfigurationui.ui:70
+#, no-c-format
+msgid ""
+"This field specifies both the command used for speaking texts and its "
+"parameters. KMouth knows the following placeholders:\n"
+"%t -- the text that should be spoken\n"
+"%f -- the name of a file containing the text\n"
+"%l -- the language code\n"
+"%% -- a percent sign"
+msgstr ""
+"这个区域指定朗读文本时的命令及其参数。KMouth 支持下列占位符：\n"
+"%t -- 要朗读的文本\n"
+"%f -- 包含文本的文件名\n"
+"%l -- 语言代码\n"
+"%% -- 百分号"
+
+#. i18n: ectx: property (text), widget (QLabel, characterCodingLabel)
+#. i18n: ectx: property (text), widget (QLabel, encodingLabel)
+#: texttospeechconfigurationui.ui:95
+#: wordcompletion/creationsourcedetailsui.ui:46
+msgid "Character &encoding:"
+msgstr "字符编码(&E)："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, characterCodingLabel)
+#. i18n: ectx: property (whatsThis), widget (KComboBox, characterCodingBox)
+#: texttospeechconfigurationui.ui:101 texttospeechconfigurationui.ui:108
+msgid ""
+"This combo box specifies which character encoding is used for passing the "
+"text."
+msgstr "这个复选框指定传递文本时使用何种字符编码。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, stdInButton)
+#: texttospeechconfigurationui.ui:117
+msgid "Send the data as standard &input"
+msgstr "以标准输入发送数据(&I)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, stdInButton)
+#: texttospeechconfigurationui.ui:120
+msgid ""
+"This check box specifies whether the text is sent as standard input to the "
+"speech synthesizer."
+msgstr "这个单选框指定文本是否要以标准输入形式发送给语音合成器。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useKttsd)
+#: texttospeechconfigurationui.ui:127
+msgid "&Use Jovie speech service if possible"
+msgstr "如果可以则使用 Jovie 语音服务(&U)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, useKttsd)
+#: texttospeechconfigurationui.ui:130
+msgid ""
+"This check box specifies KMouth tries to use the Jovie speech service prior "
+"to calling the speech synthesizer directly. The Jovie speech service is a "
+"KDE daemon which gives KDE applications a standardized interface for speech "
+"synthesis and is currently developed in SVN."
+msgstr ""
+"此复选框指定了 KMouth 将试图使用 Jovie 语音服务来取代直接语音合成。Jovie 语音"
+"服务是一种 KDE 守护程序，它为 KDE 应用程序提供了一个标准化的接口，从而实现语"
+"音合成。"
+
+#: texttospeechconfigurationwidget.cpp:47
+#: wordcompletion/dictionarycreationwizard.cpp:100
+msgctxt "Local characterset"
+msgid "Local"
+msgstr "本地编码"
+
+#: texttospeechconfigurationwidget.cpp:50
+msgctxt "Latin1 characterset"
+msgid "Latin1"
+msgstr "Latin1"
+
+#: texttospeechconfigurationwidget.cpp:51
+#: wordcompletion/dictionarycreationwizard.cpp:104
+msgid "Unicode"
+msgstr "Unicode"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, spellCheckBox)
+#: wordcompletion/creationsourcedetailsui.ui:22
+msgid ""
+"If you select this check box the words are spell-checked before they are "
+"inserted into the new dictionary."
+msgstr "如果您选中了此复选框，则在将单词插入新字典之前将会进行拼写检查。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, spellCheckBox)
+#: wordcompletion/creationsourcedetailsui.ui:25
+#: wordcompletion/kdedocsourceui.ui:25
+msgid "C&ompare to OpenOffice.org dictionary:"
+msgstr "与 OpenOffice.org 字典进行比较(&O)："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, encodingLabel)
+#. i18n: ectx: property (whatsThis), widget (KComboBox, encodingCombo)
+#: wordcompletion/creationsourcedetailsui.ui:43
+#: wordcompletion/creationsourcedetailsui.ui:100
+msgid ""
+"With this combo box you select the character encoding used to load text "
+"files. This combo box is not used for XML files or for dictionary files."
+msgstr ""
+"您可以使用此复选框选择装入文本文件所用的字符编码。此复选框不适合 XML 文件或字"
+"典文件。"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, urlLabel)
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, url)
+#: wordcompletion/creationsourcedetailsui.ui:64
+#: wordcompletion/creationsourcedetailsui.ui:85
+msgid ""
+"With this input field you specify which file you want to load for creating "
+"the new dictionary."
+msgstr "您可使用此输入框指定您想要为新创建的字典使用哪个文件。"
+
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#: wordcompletion/creationsourcedetailsui.ui:67
+msgid "&Filename:"
+msgstr "文件名(&F)："
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, ooDictURL)
+#: wordcompletion/creationsourcedetailsui.ui:118
+#: wordcompletion/kdedocsourceui.ui:44
+msgid ""
+"With this input field you select the OpenOffice.org directory that will be "
+"used to spellcheck the words of the new dictionary."
+msgstr ""
+"您可使用此输入框选择要使用哪个 OpenOffice.org 目录来检查新字典单词的拼写。"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, languageLabel)
+#: wordcompletion/creationsourcedetailsui.ui:136
+msgid ""
+"With this combo box you decide which language should be associated with the "
+"new dictionary."
+msgstr "您可使用此复选框决定要将新字典关联到何种语言。"
+
+#. i18n: ectx: property (text), widget (QLabel, languageLabel)
+#: wordcompletion/creationsourcedetailsui.ui:139
+#: wordcompletion/kdedocsourceui.ui:67 wordcompletion/wordcompletionui.ui:51
+msgid "&Language:"
+msgstr "语言(&L)："
+
+#. i18n: ectx: property (text), widget (QRadioButton, createButton)
+#: wordcompletion/creationsourceui.ui:16
+msgid "C&reate new dictionary:"
+msgstr "创建新字典(&R)："
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, createButton)
+#: wordcompletion/creationsourceui.ui:22
+msgid ""
+"If you select this box a new dictionary is created by either loading a "
+"dictionary file or by counting the individual words in a text."
+msgstr ""
+"如果您选择了此框，则会创建新字典，方法或者是装入字典文件，或者是累计文本中的"
+"单个单词。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mergeButton)
+#: wordcompletion/creationsourceui.ui:29
+msgid "&Merge dictionaries"
+msgstr "合并字典(&M)"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, mergeButton)
+#: wordcompletion/creationsourceui.ui:32
+msgid ""
+"If you select this box a new dictionary is created by merging existing "
+"dictionaries."
+msgstr "如果您选中了此况，则会根据已有字典合并创建新字典。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, fileButton)
+#: wordcompletion/creationsourceui.ui:50
+msgid "From &file"
+msgstr "来自文件(&F)"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, fileButton)
+#: wordcompletion/creationsourceui.ui:53
+msgid ""
+"If you select this box a new dictionary is created by loading a file. You "
+"may either select an XML file, a standard text file or a file containing a "
+"word completion dictionary. If you select a standard text file or an XML "
+"file the frequentness of the individual words is detected by simply counting "
+"the occurrences of each word."
+msgstr ""
+"如果您选择此框，则会通过装入文件创建新字典。您可以选择一个 XML 文件、一个纯文"
+"本文件，或者一个包含单词补全目录的文件。如果您选择了纯文本文件或者 XML 文件，"
+"那么将只会统计每个单词出现的次数来检测单个单词的频率。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kdeDocButton)
+#: wordcompletion/creationsourceui.ui:71
+msgid "From &KDE documentation"
+msgstr "来自 &KDE 文档"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, kdeDocButton)
+#: wordcompletion/creationsourceui.ui:77
+msgid ""
+"If you select this box a new dictionary is created by parsing the KDE "
+"documentation. The frequentness of the individual words is detect by simply "
+"counting the occurrences of each word."
+msgstr ""
+"如果您选择此框，则会通过分析 KDE 文档来创建新字典。计算单个单词频率的方法是简"
+"单的统计每个单词的出现次数。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, directoryButton)
+#: wordcompletion/creationsourceui.ui:95
+msgid "From f&older"
+msgstr "来自文件夹(&O)"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, directoryButton)
+#: wordcompletion/creationsourceui.ui:98
+msgid ""
+"If you select this box a new dictionary is created by loading all files in a "
+"folder and its subdirectories."
+msgstr ""
+"如果您选择此框，则会通过装入指定文件夹及其全部子文件夹中的全部文件来创建新字"
+"典。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, emptyButton)
+#: wordcompletion/creationsourceui.ui:121
+msgid "Create an &empty wordlist"
+msgstr "创建空的单词列表(&E)"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, emptyButton)
+#: wordcompletion/creationsourceui.ui:124
+msgid ""
+"If you select this box a blank dictionary without any entries is created. As "
+"KMouth automatically adds newly typed words to the dictionaries it will "
+"learn your vocabulary with the time."
+msgstr ""
+"如果您选择此框，则会创建一个不含有任何内容的空字典。由于 KMouth 自动将新输入"
+"的单词添加到字典中，所以该字典将会随时学习您的词汇表。"
+
+#: wordcompletion/dictionarycreationwizard.cpp:49
+msgid "Source of New Dictionary (1)"
+msgstr "新建字典一来源"
+
+#: wordcompletion/dictionarycreationwizard.cpp:54
+#: wordcompletion/dictionarycreationwizard.cpp:58
+#: wordcompletion/dictionarycreationwizard.cpp:66
+#: wordcompletion/dictionarycreationwizard.cpp:71
+#: wordcompletion/dictionarycreationwizard.cpp:116
+#: wordcompletion/dictionarycreationwizard.cpp:132
+#: wordcompletion/dictionarycreationwizard.cpp:141
+#: wordcompletion/dictionarycreationwizard.cpp:150
+msgid "Source of New Dictionary (2)"
+msgstr "新建字典二来源"
+
+#: wordcompletion/dictionarycreationwizard.cpp:59
+msgctxt "In which directory is the file located?"
+msgid "&Directory:"
+msgstr "字典(&D)："
+
+#: wordcompletion/dictionarycreationwizard.cpp:60
+#: wordcompletion/dictionarycreationwizard.cpp:62
+msgid ""
+"With this input field you specify which directory you want to load for "
+"creating the new dictionary."
+msgstr "您可使用此输入框指定您想要为新创建的字典装入哪个字典文件。"
+
+#: wordcompletion/dictionarycreationwizard.cpp:103
+msgctxt "Latin characterset"
+msgid "Latin1"
+msgstr "Latin1"
+
+#: wordcompletion/dictionarycreationwizard.cpp:237
+msgid "Merge result"
+msgstr "合并结果"
+
+#: wordcompletion/dictionarycreationwizard.cpp:240
+msgctxt "In the sense of a blank word list"
+msgid "Empty list"
+msgstr "清空列表"
+
+#: wordcompletion/dictionarycreationwizard.cpp:249
+msgid "KDE Documentation"
+msgstr "KDE 文档"
+
+#: wordcompletion/dictionarycreationwizard.cpp:372
+msgctxt "Default dictionary"
+msgid "Default"
+msgstr "默认"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, spellCheckBox)
+#: wordcompletion/kdedocsourceui.ui:22
+msgid ""
+"If you select this check box the words from the KDE documentation are spell-"
+"checked before they are inserted into the new dictionary."
+msgstr ""
+"如果您选择此框，则会在将 KDE 文档中的单词插入到新字典之前先进行拼写检查。"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, languageLabel)
+#: wordcompletion/kdedocsourceui.ui:64
+msgid ""
+"With this combo box you select which of the installed languages is used for "
+"creating the new dictionary. KMouth will only parse documentation files of "
+"this language."
+msgstr ""
+"您可使用此复选框选择要使用所安装的何种语言创建新字典。KMouth 将只会处理此语言"
+"的文档文件。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, selectedDictionaryDetails)
+#: wordcompletion/wordcompletionui.ui:33
+msgid "&Selected Dictionary"
+msgstr "选中的字典(&S)"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, languageLabel)
+#: wordcompletion/wordcompletionui.ui:48
+msgid ""
+"With this combo box you select the language associated with the selected "
+"dictionary."
+msgstr "您可使用此复选框选择与选中字典关联的语言。"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, dictionaryNameLabel)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, dictionaryName)
+#: wordcompletion/wordcompletionui.ui:61 wordcompletion/wordcompletionui.ui:74
+msgid "With this input field you specify the name of the selected dictionary."
+msgstr "您可通过此输入域指定选中字典的名称。"
+
+#. i18n: ectx: property (text), widget (QLabel, dictionaryNameLabel)
+#: wordcompletion/wordcompletionui.ui:64
+msgid "&Name:"
+msgstr "名称(&M)："
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, addButton)
+#: wordcompletion/wordcompletionui.ui:100
+msgid ""
+"With this button you can add a new dictionary to the list of available "
+"dictionaries."
+msgstr "您可使用此按钮将新字典添加到可用字典列表中。"
+
+#. i18n: ectx: property (text), widget (KPushButton, addButton)
+#: wordcompletion/wordcompletionui.ui:103
+msgid "Add D&ictionary..."
+msgstr "添加字典(&I)..."
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, deleteButton)
+#: wordcompletion/wordcompletionui.ui:121
+msgid "With this button you delete the selected dictionary."
+msgstr "您可使用此按钮删除选中的字典。"
+
+#. i18n: ectx: property (text), widget (KPushButton, deleteButton)
+#: wordcompletion/wordcompletionui.ui:124
+msgid "&Delete Dictionary"
+msgstr "删除字典(&D)"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, moveUpButton)
+#: wordcompletion/wordcompletionui.ui:142
+msgid "With this button you move the selected dictionary up."
+msgstr "您可使用此按钮将选中的字典上移。"
+
+#. i18n: ectx: property (text), widget (KPushButton, moveUpButton)
+#: wordcompletion/wordcompletionui.ui:145
+msgid "Move &Up"
+msgstr "向上移动(&U)"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, moveDownButton)
+#: wordcompletion/wordcompletionui.ui:163
+msgid "With this button you move the selected dictionary down."
+msgstr "您可使用此按钮将选中的字典下移。"
+
+#. i18n: ectx: property (text), widget (KPushButton, moveDownButton)
+#: wordcompletion/wordcompletionui.ui:166
+msgid "&Move Down"
+msgstr "向下移动(&M)"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, exportButton)
+#: wordcompletion/wordcompletionui.ui:184
+msgid "With this button you export the selected dictionary to a file."
+msgstr "您可使用此按钮将选中字典导出为文件。"
+
+#. i18n: ectx: property (text), widget (KPushButton, exportButton)
+#: wordcompletion/wordcompletionui.ui:187
+msgid "&Export Dictionary..."
+msgstr "导出字典(&E)..."
+
+#. i18n: ectx: property (whatsThis), widget (K3ListView, dictionaryList)
+#: wordcompletion/wordcompletionui.ui:212
+msgid ""
+"This list contains all available dictionaries for the word completion. "
+"KMouth will display a combo box next to the edit field in the main window if "
+"this list contains more than one dictionary. You can use this combo box in "
+"order to select the dictionary that actually gets used for the word "
+"completion."
+msgstr ""
+"此列表包含了可用于单词补全的全部字典。如果此列表包含多个字典，KMouth 将在主窗"
+"口的编辑域旁显示一个组合框。您可以使用该组合框来选择实际用于单词补全的字典。"
+
+#. i18n: ectx: property (text), widget (K3ListView, dictionaryList)
+#: wordcompletion/wordcompletionui.ui:219
+msgid "Dictionary"
+msgstr "字典"
+
+#. i18n: ectx: property (text), widget (K3ListView, dictionaryList)
+#: wordcompletion/wordcompletionui.ui:224
+msgid "Language"
+msgstr "语言"
+
+#: wordcompletion/wordcompletionwidget.cpp:75
+#: wordcompletion/wordcompletionwidget.cpp:144
+#: wordcompletion/wordcompletionwidget.cpp:208
+msgid "without name"
+msgstr "佚名"
+
+#: wordcompletion/wordcompletionwidget.cpp:254
+msgid "Export Dictionary"
+msgstr "导出字典"
+
+#: wordcompletion/wordlist.cpp:114
+msgid "Creating Word List"
+msgstr "正在创建单词列表"
+
+#: wordcompletion/wordlist.cpp:114 wordcompletion/wordlist.cpp:294
+msgid "Parsing the KDE documentation..."
+msgstr "正在解析 KDE 文档..."
+
+#: wordcompletion/wordlist.cpp:241
+msgid "Merging dictionaries..."
+msgstr "正在合并字典..."
+
+#: wordcompletion/wordlist.cpp:312
+msgid "Parsing file..."
+msgstr "正在解析文件..."
+
+#: wordcompletion/wordlist.cpp:323
+msgid "Parsing directory..."
+msgstr "打印历史记录(&P)..."
+
+#: wordcompletion/wordlist.cpp:515
+msgid "Performing spell check..."
+msgstr "正在执行拼写检查..."
+
+#~ msgid "Language:"
+#~ msgstr "语言："
+
+#~ msgid "Other"
+#~ msgstr "其它"
+
+#~ msgid "Create Custom Language"
+#~ msgstr "创建自定义语言"
+
+#~ msgid "Please enter the code for the custom language:"
+#~ msgstr "请输入自定义语言的代码："

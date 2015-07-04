@@ -1,0 +1,746 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Leon Feng <rainofchaos@gmail.com>, 2010.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kigo\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-09-09 04:30+0200\n"
+"PO-Revision-Date: 2013-02-21 12:34-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国, marguerite"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org, i@marguerite.su"
+
+#: game/game.cpp:327
+#, kde-format
+msgctxt "%1 stone coordinate"
+msgid "White %1"
+msgstr "白 %1"
+
+#: game/game.cpp:330 game/game.cpp:400 gui/mainwindow.cpp:393
+msgid "White passed"
+msgstr "白棋跳过"
+
+#: game/game.cpp:336
+#, kde-format
+msgctxt "%1 stone coordinate"
+msgid "Black %1"
+msgstr "黑 %1"
+
+#: game/game.cpp:339 game/game.cpp:402 gui/mainwindow.cpp:395
+msgid "Black passed"
+msgstr "黑棋跳过"
+
+#: game/game.cpp:409
+msgid "White resigned"
+msgstr "白棋认输"
+
+#: game/game.cpp:411
+msgid "Black resigned"
+msgstr "黑棋认输"
+
+#: game/game.cpp:419
+#, kde-format
+msgctxt "%1 response from Go engine"
+msgid "White %1"
+msgstr "白 %1"
+
+#: game/game.cpp:421
+#, kde-format
+msgctxt "%1 response from Go engine"
+msgid "Black %1"
+msgstr "黑 %1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, backendGroupBox)
+#: gui/config/generalconfig.ui:17
+msgid "Backend"
+msgstr "后端"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: gui/config/generalconfig.ui:23
+msgid "Executable:"
+msgstr "可执行文件："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, engineExecutable)
+#: gui/config/generalconfig.ui:42
+msgid "Select the executable file to start the Go engine"
+msgstr "选择启动围棋引擎的可执行文件"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: gui/config/generalconfig.ui:49
+msgid "Parameters:"
+msgstr "参数："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, engineParameters)
+#: gui/config/generalconfig.ui:62
+msgid "Add here the necessary parameters to start the Engine in GTP mode"
+msgstr "在此添加在 GTP 模式下启动引擎的必要参数"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_EngineCommand)
+#: gui/config/generalconfig.ui:75
+msgid "This is the resulting engine command which will be used by Kigo"
+msgstr "这是 Kigo 将用于启动引擎的命令"
+
+#. i18n: ectx: property (toolTip), widget (KLed, engineLed)
+#: gui/config/generalconfig.ui:97
+msgid "Indicates whether the Go engine works correctly"
+msgstr "指示围棋引擎是否正常工作"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: gui/config/generalconfig.ui:111
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Please select a Go engine "
+"that supports the <span style=\" font-style:italic;\">GnuGo Text Protocol "
+"(GTP)</span>. The indicator light turns green when the selected backend is "
+"working.</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">请选择一个支持 <span style="
+"\" font-style:italic;\">GnuGo 文本协议(GTP)</span>的围棋引擎 。绿灯表示所选后"
+"端正在工作。</p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, appearanceGroupBox)
+#: gui/config/generalconfig.ui:131
+msgid "Appearance"
+msgstr "外观"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowBoardLabels)
+#: gui/config/generalconfig.ui:140
+msgid "Display Board Labels"
+msgstr "显示棋盘标签"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: gui/config/generalconfig.ui:147
+msgid "Hint Visibility Time:"
+msgstr "提示可见时间："
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, kcfg_HintVisibleTime)
+#: gui/config/generalconfig.ui:166
+msgid " Seconds"
+msgstr " 秒"
+
+#. i18n: ectx: Menu (game)
+#: gui/kigoui.rc:6
+msgctxt "@title:menu"
+msgid "&Game"
+msgstr "游戏(&G)"
+
+#. i18n: ectx: Menu (move)
+#: gui/kigoui.rc:17
+msgctxt "@title:menu"
+msgid "&Move"
+msgstr "回合(&M)"
+
+#. i18n: ectx: Menu (settings)
+#: gui/kigoui.rc:22
+msgctxt "@title:menu"
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: Menu (dockers)
+#: gui/kigoui.rc:24
+msgctxt "@title:menu"
+msgid "&Dockers"
+msgstr "停靠栏(&D)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: gui/kigoui.rc:33
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: ToolBar (moveToolBar)
+#: gui/kigoui.rc:39
+msgctxt "@title:menu"
+msgid "Move Toolbar"
+msgstr "回合工具栏"
+
+#: gui/mainwindow.cpp:106
+msgid "Set up a new game..."
+msgstr "开始新游戏..."
+
+#: gui/mainwindow.cpp:148
+msgid "Set up a loaded game..."
+msgstr "载入游戏存档..."
+
+#: gui/mainwindow.cpp:151
+msgid "Unable to load game..."
+msgstr "无法载入游戏存档..."
+
+#: gui/mainwindow.cpp:201
+msgid "Game saved..."
+msgstr "游戏已保存..."
+
+#: gui/mainwindow.cpp:203
+msgid "Unable to save game."
+msgstr "无法保存游戏。"
+
+#: gui/mainwindow.cpp:249
+msgid "Game started..."
+msgstr "游戏已开始..."
+
+#: gui/mainwindow.cpp:281
+#, kde-format
+msgid "%1 won with a score of %2."
+msgstr "%1 胜出 %2 目。"
+
+#: gui/mainwindow.cpp:284
+#, kde-format
+msgid "%1 won with a score of %2 (bounds: %3 and %4)."
+msgstr "%1 胜出 %2 目 (总 %3 和 %4)。"
+
+#: gui/mainwindow.cpp:292
+msgid "Undone move"
+msgstr "悔棋"
+
+#: gui/mainwindow.cpp:300
+msgid "Redone move"
+msgstr "重下"
+
+#: gui/mainwindow.cpp:325
+msgid "General"
+msgstr "常规"
+
+#: gui/mainwindow.cpp:326
+msgid "Themes"
+msgstr "主题"
+
+#: gui/mainwindow.cpp:343
+msgid "Backend was changed, restart necessary..."
+msgstr "后端已更改，需要重启..."
+
+#: gui/mainwindow.cpp:405 gui/mainwindow.cpp:407
+msgctxt "@action"
+msgid "Get More Games..."
+msgstr "获取更多游戏..."
+
+#: gui/mainwindow.cpp:413 gui/mainwindow.cpp:415
+msgctxt "@action"
+msgid "Start Game"
+msgstr "开始游戏"
+
+#: gui/mainwindow.cpp:419 gui/mainwindow.cpp:421
+msgctxt "@action"
+msgid "Finish Game"
+msgstr "结束游戏"
+
+#: gui/mainwindow.cpp:429
+msgctxt "@action:inmenu Move"
+msgid "Pass Move"
+msgstr "跳过回合"
+
+#: gui/mainwindow.cpp:434
+msgctxt "@action:inmenu View"
+msgid "Show Move &Numbers"
+msgstr "显示回合数(&N)"
+
+#: gui/mainwindow.cpp:447
+msgctxt "@title:window"
+msgid "Game Setup"
+msgstr "游戏设置"
+
+#: gui/mainwindow.cpp:459 gui/mainwindow.cpp:465
+msgctxt "@title:window"
+msgid "Information"
+msgstr "信息"
+
+#: gui/mainwindow.cpp:471 gui/mainwindow.cpp:480
+msgctxt "@title:window"
+msgid "Moves"
+msgstr "回合"
+
+#: gui/mainwindow.cpp:474
+msgid "No move"
+msgstr "无回合"
+
+#: gui/mainwindow.cpp:485
+msgctxt "@title:window"
+msgid "Error"
+msgstr "错误"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: gui/widgets/errorwidget.ui:21
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-size:10pt; color:#ff0000;\">Kigo was unable to "
+"find a  Go engine backend.</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Sans Serif'; font-size:10pt; color:#ff0000;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-size:10pt;\">If you are sure that you already "
+"installed a suitable Go engine, you might want to configure Kigo to use that "
+"engine. Otherwise you should install a Go engine (like GnuGo).</span></p></"
+"body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-size:10pt; color:#ff0000;\">Kigo 无法找到围棋引擎后"
+"端。</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Sans Serif'; font-size:10pt; color:#ff0000;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-size:10pt;\">如果您确信已经安装了合适的围棋引擎，请"
+"配置 Kigo 以使用它。否则请安装围棋引擎 (例如 GnuGo)。</span></p></body></"
+"html>"
+
+#. i18n: ectx: property (text), widget (KPushButton, configureButton)
+#: gui/widgets/errorwidget.ui:49
+msgid "Configure Kigo..."
+msgstr "配置 Kigo..."
+
+#: gui/widgets/gamewidget.cpp:56 gui/widgets/gamewidget.cpp:61
+#, kde-format
+msgid "Computer (level %1)"
+msgstr "电脑 (棋力 %1 段)"
+
+#: gui/widgets/gamewidget.cpp:64
+#, kde-format
+msgid "%1 Stone"
+msgid_plural "%1 Stones"
+msgstr[0] "%1 子"
+
+#: gui/widgets/gamewidget.cpp:81
+#, kde-format
+msgctxt "Indication who played the last move"
+msgid "%1 (white)"
+msgstr "%1 (白棋)"
+
+#: gui/widgets/gamewidget.cpp:83
+#, kde-format
+msgctxt "Indication who played the last move"
+msgid "%1 (black)"
+msgstr "%1 (黑棋)"
+
+#: gui/widgets/gamewidget.cpp:92
+msgid "White's turn"
+msgstr "白棋落子"
+
+#: gui/widgets/gamewidget.cpp:96
+msgid "Black's turn"
+msgstr "黑棋落子"
+
+#: gui/widgets/gamewidget.cpp:101 gui/widgets/gamewidget.cpp:102
+#, kde-format
+msgid "%1 capture"
+msgid_plural "%1 captures"
+msgstr[0] "提 %1 子"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: gui/widgets/gamewidget.ui:19 gui/widgets/setupwidget.ui:103
+msgid "Handicap:"
+msgstr "让子："
+
+#. i18n: ectx: property (text), widget (QLabel, handicapLabel)
+#: gui/widgets/gamewidget.ui:35
+msgid "2"
+msgstr "2"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, komiStaticLabel)
+#: gui/widgets/gamewidget.ui:42 gui/widgets/setupwidget.ui:154
+#: gui/widgets/setupwidget.ui:397
+msgid "Komi:"
+msgstr "贴目："
+
+#. i18n: ectx: property (text), widget (QLabel, komiLabel)
+#: gui/widgets/gamewidget.ui:58
+msgid "0.5 Points"
+msgstr "半目"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: gui/widgets/gamewidget.ui:78
+msgid "Last move:"
+msgstr "上一回合："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: gui/widgets/gamewidget.ui:101
+msgid "Move:"
+msgstr "回合："
+
+#. i18n: ectx: property (text), widget (QLabel, whiteNameLabel)
+#: gui/widgets/gamewidget.ui:184
+msgid "White Player"
+msgstr "执白"
+
+#. i18n: ectx: property (text), widget (QLabel, whiteCapturesLabel)
+#. i18n: ectx: property (text), widget (QLabel, blackCapturesLabel)
+#: gui/widgets/gamewidget.ui:191 gui/widgets/gamewidget.ui:265
+msgid "Captures:"
+msgstr "提子："
+
+#. i18n: ectx: property (text), widget (QLabel, blackNameLabel)
+#: gui/widgets/gamewidget.ui:233
+msgid "Black Player"
+msgstr "执黑"
+
+#. i18n: ectx: property (text), widget (KPushButton, finishButton)
+#: gui/widgets/gamewidget.ui:308
+msgid "Finish Game"
+msgstr "结束游戏"
+
+#: gui/widgets/setupwidget.cpp:64
+msgid " Stone"
+msgid_plural " Stones"
+msgstr[0] " 子"
+
+#: gui/widgets/setupwidget.cpp:168
+#, kde-format
+msgctxt "Time limit of a game in minutes"
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 分钟"
+
+#: gui/widgets/setupwidget.cpp:170
+#, kde-format
+msgctxt "Time limit of a game, hours, minutes"
+msgid "%1 hour, %2"
+msgid_plural "%1 hours, %2"
+msgstr[0] "%1 时，%2 分"
+
+#: gui/widgets/setupwidget.cpp:192
+#, kde-format
+msgid " of %1"
+msgstr " 共 %1"
+
+#: gui/widgets/setupwidget.cpp:235
+msgid "White to play"
+msgstr "白棋落子"
+
+#. i18n: ectx: property (text), widget (QLabel, playerLabel)
+#: gui/widgets/setupwidget.cpp:237 gui/widgets/setupwidget.ui:442
+msgid "Black to play"
+msgstr "黑棋落子"
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: gui/widgets/setupwidget.ui:30
+msgid "Board size:"
+msgstr "棋盘大小："
+
+#. i18n: ectx: property (text), widget (QRadioButton, sizeSmall)
+#: gui/widgets/setupwidget.ui:37
+msgid "Tiny (9x9)"
+msgstr "微型 (9x9)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, sizeMedium)
+#: gui/widgets/setupwidget.ui:47
+msgid "Small (13x13)"
+msgstr "小型 (13x13)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, sizeBig)
+#: gui/widgets/setupwidget.ui:54
+msgid "Normal (19x19)"
+msgstr "普通 (19x19)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, sizeOther)
+#: gui/widgets/setupwidget.ui:66
+msgid "Custom:"
+msgstr "自定义："
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, handicapSpinBox)
+#: gui/widgets/setupwidget.ui:126
+msgid ""
+"Handicap stones are an advantage for the black player.\n"
+"Black gets a number of stones on the board before the game starts."
+msgstr ""
+"\"让子\"对执黑者有利。\n"
+"因为在棋局开始前，执黑者在棋盘上已有几子。"
+
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, handicapSpinBox)
+#: gui/widgets/setupwidget.ui:129
+msgid "No handicap"
+msgstr "不让子"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, handicapSpinBox)
+#: gui/widgets/setupwidget.ui:132
+msgid " Stones"
+msgstr " 子"
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, komiSpinBox)
+#: gui/widgets/setupwidget.ui:174
+msgid ""
+"Komi are points given to the white player at the end of the game.\n"
+"It balances out the advantage black has by making the first move."
+msgstr ""
+"\"贴目\"是棋局结束后补给执白者的目数。\n"
+"它平衡了执黑先行的优势。"
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, komiSpinBox)
+#: gui/widgets/setupwidget.ui:177
+msgid " Points"
+msgstr " 目"
+
+#. i18n: ectx: property (text), widget (QLabel, eventStaticLabel)
+#: gui/widgets/setupwidget.ui:231
+msgid "Event:"
+msgstr "事件："
+
+#. i18n: ectx: property (text), widget (QLabel, locationStaticLabel)
+#: gui/widgets/setupwidget.ui:266
+msgid "Location:"
+msgstr "位置："
+
+#. i18n: ectx: property (text), widget (QLabel, dateStaticLabel)
+#: gui/widgets/setupwidget.ui:301
+msgid "Date:"
+msgstr "日期："
+
+#. i18n: ectx: property (text), widget (QLabel, roundStaticLabel)
+#: gui/widgets/setupwidget.ui:333
+msgid "Round:"
+msgstr "回合："
+
+#. i18n: ectx: property (text), widget (QLabel, scoreStaticLabel)
+#: gui/widgets/setupwidget.ui:365
+msgid "Score:"
+msgstr "目数："
+
+#. i18n: ectx: property (text), widget (QLabel, continueStaticLabel)
+#: gui/widgets/setupwidget.ui:429
+msgid "Continue:"
+msgstr "继续："
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, startMoveSpinBox)
+#: gui/widgets/setupwidget.ui:461
+msgid " of 999"
+msgstr " 共 999"
+
+#. i18n: ectx: property (prefix), widget (KIntSpinBox, startMoveSpinBox)
+#: gui/widgets/setupwidget.ui:464
+msgid "Move "
+msgstr "回合 "
+
+#. i18n: ectx: property (text), widget (QLabel, timeStaticLabel)
+#: gui/widgets/setupwidget.ui:483
+msgid "Time limit:"
+msgstr "限时："
+
+#. i18n: ectx: property (text), widget (QCheckBox, whiteIsComputerCheckBox)
+#: gui/widgets/setupwidget.ui:566
+msgid "&Computer"
+msgstr "电脑(&C)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: gui/widgets/setupwidget.ui:589 gui/widgets/setupwidget.ui:747
+msgid "Name:"
+msgstr "姓名："
+
+#. i18n: ectx: property (text), widget (QLabel, label1)
+#. i18n: ectx: property (text), widget (QLabel, label1_3)
+#: gui/widgets/setupwidget.ui:622 gui/widgets/setupwidget.ui:799
+msgid "Weak"
+msgstr "一段"
+
+#. i18n: ectx: property (text), widget (QLabel, label2)
+#. i18n: ectx: property (text), widget (QLabel, label2_3)
+#: gui/widgets/setupwidget.ui:641 gui/widgets/setupwidget.ui:780
+msgid "Strong"
+msgstr "九段"
+
+#. i18n: ectx: property (text), widget (QCheckBox, blackIsComputerCheckBox)
+#: gui/widgets/setupwidget.ui:727
+msgid "C&omputer"
+msgstr "电脑(&o)"
+
+#. i18n: ectx: property (text), widget (KPushButton, startButton)
+#: gui/widgets/setupwidget.ui:979
+msgid "Start Game"
+msgstr "开始游戏"
+
+#. i18n: ectx: label, entry (EngineList), group (Backend)
+#: kigo.kcfg:9
+msgid "List of available/configured engine backends"
+msgstr "可用/已配置的引擎后端列表"
+
+#. i18n: ectx: label, entry (EngineCommands), group (Backend)
+#: kigo.kcfg:16
+msgid "List of backend commands corresponding to the engine list"
+msgstr "与引擎列表相关的后端命令列表"
+
+#. i18n: ectx: label, entry (EngineCommand), group (Backend)
+#: kigo.kcfg:23
+msgid "The current game engine command with (optional) parameters"
+msgstr "当前的游戏引擎指令及其 (可选) 参数"
+
+#. i18n: ectx: label, entry (Theme), group (UserInterface)
+#: kigo.kcfg:32
+msgid "The graphical theme to be used"
+msgstr "要使用的图形主题"
+
+#. i18n: ectx: label, entry (ShowBoardLabels), group (UserInterface)
+#: kigo.kcfg:36
+msgid "Determines whether board labels are shown"
+msgstr "决定是否显示棋盘标签"
+
+#. i18n: ectx: label, entry (ShowMoveNumbers), group (UserInterface)
+#: kigo.kcfg:40
+msgid "Move numbers are drawn onto stones if enabled"
+msgstr "如果启用此项，棋子上会显示回合数"
+
+#. i18n: ectx: label, entry (HintVisibleTime), group (UserInterface)
+#: kigo.kcfg:44
+msgid "Number of seconds for which a hint is visible"
+msgstr "提示的显示秒数"
+
+#. i18n: ectx: label, entry (BlackPlayerHuman), group (Game)
+#: kigo.kcfg:52
+msgid "Is black a human player?"
+msgstr "黑棋是人类玩家吗？"
+
+#. i18n: ectx: label, entry (BlackPlayerName), group (Game)
+#: kigo.kcfg:56
+msgid "The name of the black player"
+msgstr "黑棋玩家的姓名"
+
+#. i18n: ectx: label, entry (BlackPlayerStrength), group (Game)
+#: kigo.kcfg:60
+msgid "The strength of the black player"
+msgstr "黑棋玩家的棋力"
+
+#. i18n: ectx: label, entry (WhitePlayerHuman), group (Game)
+#: kigo.kcfg:66
+msgid "Is white a human player?"
+msgstr "白棋是人类玩家吗？"
+
+#. i18n: ectx: label, entry (WhitePlayerName), group (Game)
+#: kigo.kcfg:70
+msgid "The name of the white player"
+msgstr "白棋玩家的姓名"
+
+#. i18n: ectx: label, entry (WhitePlayerStrength), group (Game)
+#: kigo.kcfg:74
+msgid "The strength of the white player"
+msgstr "白棋玩家的棋力"
+
+#. i18n: ectx: label, entry (BoardSize), group (Game)
+#: kigo.kcfg:80
+msgid "Go board size"
+msgstr "围棋棋盘大小"
+
+#. i18n: ectx: label, entry (Komi), group (Game)
+#: kigo.kcfg:87
+msgid "Komi"
+msgstr "贴目"
+
+#. i18n: ectx: tooltip, entry (Komi), group (Game)
+#: kigo.kcfg:88
+msgid "With komi you can give the black player some extra points"
+msgstr "您可以用贴目给执黑者一些额外目数"
+
+#. i18n: ectx: label, entry (FixedHandicapValue), group (Game)
+#: kigo.kcfg:94
+msgid "Extra stones for the black player"
+msgstr "给黑棋的贴子"
+
+#: main.cpp:41
+msgid "Kigo"
+msgstr "Kigo"
+
+#: main.cpp:42
+msgid "KDE Go Board Game"
+msgstr "KDE 围棋游戏"
+
+#: main.cpp:43
+msgid "Copyright (c) 2008-2010 Sascha Peilicke"
+msgstr "Copyright (c) 2008-2010 Sascha Peilicke"
+
+#: main.cpp:44
+msgid "Sascha Peilicke (saschpe)"
+msgstr "Sascha Peilicke (saschpe)"
+
+#: main.cpp:44
+msgid "Original author"
+msgstr "原作者"
+
+#: main.cpp:46
+msgid "Yuri Chornoivan"
+msgstr "Yuri Chornoivan"
+
+#: main.cpp:46
+msgid "Documentation editor"
+msgstr "文档编辑"
+
+#: main.cpp:48
+msgid "Arturo Silva"
+msgstr "Arturo Silva"
+
+#: main.cpp:48
+msgid "Default theme designer"
+msgstr "默认主题设计师"
+
+#: main.cpp:55
+msgctxt "@info:shell"
+msgid "Game to load (SGF file)"
+msgstr "要载入的存档 (SGF 文件)"
+
+#~ msgid "for White"
+#~ msgstr "白方"
+
+#~ msgid "for Black"
+#~ msgstr "黑方"
+
+#~ msgid "Human"
+#~ msgstr "人类"
+
+#~ msgid "New Game"
+#~ msgstr "新游戏"
+
+#~ msgid "Fixed Handicap"
+#~ msgstr "固定让子数"
+
+#~ msgid "Loaded Game"
+#~ msgstr "装载游戏"
+
+#~ msgid "Computer (Level 10)"
+#~ msgstr "电脑(10 级)"

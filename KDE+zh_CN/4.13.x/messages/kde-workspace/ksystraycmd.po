@@ -1,0 +1,136 @@
+# Copyright (C) 2010 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.net.cn>, 2001.
+# Funda Wang <fundawang@en2china.com>, 2002.
+# Feng Chao <rainofchaos@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksystraycmd\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 05:32+0200\n"
+"PO-Revision-Date: 2010-06-20 16:06+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.0\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: ksystraycmd.cpp:80
+#, kde-format
+msgid "No window matching pattern '%1' and no command specified.\n"
+msgstr "无窗口匹配模式“%1”且未指定命令。\n"
+
+#: ksystraycmd.cpp:87
+msgid "KSysTrayCmd: K3ShellProcess cannot find a shell."
+msgstr "KsysTrayCmd：K3ShellProcess 无法找到 shell。"
+
+#: ksystraycmd.cpp:248 main.cpp:26
+msgid "KSysTrayCmd"
+msgstr "KSysTrayCmd"
+
+#: ksystraycmd.cpp:249
+msgid "&Hide"
+msgstr "隐藏(&H)"
+
+#: ksystraycmd.cpp:249
+msgid "&Restore"
+msgstr "还原(&R)"
+
+#: ksystraycmd.cpp:250
+msgid "&Undock"
+msgstr "取消停靠(&U)"
+
+#: ksystraycmd.cpp:251
+msgid "&Quit"
+msgstr "退出(&Q)"
+
+#: main.cpp:28
+msgid "Allows any application to be kept in the system tray"
+msgstr "允许任何程序保留在系统托盘中"
+
+#: main.cpp:30
+msgid "(C) 2001-2002 Richard Moore (rich@kde.org)"
+msgstr "(C) 2001-2002 Richard Moore (rich@kde.org)"
+
+#: main.cpp:31
+msgid "Richard Moore"
+msgstr "Richard Moore"
+
+#: main.cpp:36
+msgid "Command to execute"
+msgstr "要执行的命令"
+
+#: main.cpp:38
+msgid ""
+"A regular expression matching the window title\n"
+"If you do not specify one, then the very first window\n"
+"to appear will be taken - not recommended."
+msgstr ""
+"匹配窗口标题的正则表达式\n"
+"如果您不指定的话，则使用第一个出现的窗口 - 不推荐。"
+
+#: main.cpp:41
+msgid ""
+"The window id of the target window\n"
+"Specifies the id of the window to use. If the id starts with 0x\n"
+"it is assumed to be in hex."
+msgstr ""
+"目标窗口的窗口 ID\n"
+"请指定要使用窗口的 ID。如果 ID 以 0x 开始，则认为是十六进制。"
+
+#: main.cpp:44
+msgid "Hide the window to the tray on startup"
+msgstr "启动时隐藏窗口到托盘"
+
+#: main.cpp:45
+msgid ""
+"Wait until we are told to show the window before\n"
+"executing the command"
+msgstr "获得显示窗口的通知后才执行命令"
+
+#: main.cpp:47
+msgid "Sets the initial tooltip for the tray icon"
+msgstr "设置托盘的初始工具提示"
+
+#: main.cpp:48
+msgid ""
+"Keep the tray icon even if the client exits. This option\n"
+"has no effect unless startonshow is specified."
+msgstr ""
+"即使客户退出仍然保留托盘图标。该选项只有在指定\n"
+" startonshow 时有效。"
+
+#: main.cpp:50
+msgid ""
+"Use ksystraycmd's icon instead of the window's icon in the systray\n"
+"(should be used with --icon to specify ksystraycmd icon)"
+msgstr ""
+"系统托盘中使用 ksystraycmd 提供的图标而不是窗口的图标\n"
+"(应该与 --icon 选项一同使用，以便指定 ksystraycmd 的图标)"
+
+#: main.cpp:52
+msgid "Try to keep the window above other windows"
+msgstr "尝试将窗口显示在其它窗口之上"
+
+#: main.cpp:53
+msgid ""
+"Quit the client when we are told to hide the window.\n"
+"This has no effect unless startonshow is specified and implies keeprunning."
+msgstr ""
+"隐藏窗口代表退出客户端。\n"
+"除非指定了 startonshow 并暗示继续运行，否则此选项无效。"
+
+#: main.cpp:91
+msgid "No command or window specified"
+msgstr "没有指定命令或窗口"

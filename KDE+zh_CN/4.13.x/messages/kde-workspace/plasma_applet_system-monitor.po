@@ -1,0 +1,224 @@
+# translation of plasma_applet_system-monitor.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2012.
+# Lie Ex <lilith.ex@gmail.com>, 2009.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_system-monitor\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-08 01:37+0000\n"
+"PO-Revision-Date: 2012-05-28 10:39+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: applet.cpp:277
+msgid "No data sources being displayed"
+msgstr "没有显示的数据源"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cpu-config.ui:23
+msgid "&CPUs:"
+msgstr "&CPU："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: cpu-config.ui:48 hdd-config.ui:48 hdd_activity-config.ui:48
+#: net-config.ui:48 ram-config.ui:48 temperature-config.ui:45
+msgid "Update &interval:"
+msgstr "更新间隔(&I)："
+
+#: cpu.cpp:47 cpu.cpp:131 hwinfo.cpp:139
+msgid "CPU"
+msgstr "CPU"
+
+#: cpu.cpp:91
+msgid "total"
+msgstr "总共"
+
+#: cpu.cpp:149 hdd_activity.cpp:201 net.cpp:167 ram.cpp:239
+#: temperature.cpp:119
+msgctxt "second"
+msgid " s"
+msgstr " 秒"
+
+#: cpu.cpp:150
+msgid "CPUs"
+msgstr "CPU"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: hdd-config.ui:23 hdd_activity-config.ui:23
+msgid "Hard &disks:"
+msgstr "硬盘(&D)："
+
+#: hdd.cpp:49
+msgid "Disk Space"
+msgstr "磁盘空间"
+
+#: hdd.cpp:85
+msgid "Mount Point"
+msgstr "挂载点"
+
+#: hdd.cpp:86 hdd_activity.cpp:165 temperature.cpp:96
+msgid "Name"
+msgstr "名称"
+
+#: hdd.cpp:110
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " 分钟"
+
+#: hdd.cpp:112
+msgid "Partitions"
+msgstr "分区"
+
+#: hdd.cpp:164
+msgctxt "the root filesystem"
+msgid "root"
+msgstr "根"
+
+#: hdd.cpp:170
+msgid "Unknown filesystem"
+msgstr "未知文件系统"
+
+#: hdd.cpp:185
+#, kde-format
+msgctxt "hard disk label (not mounted or accessible)"
+msgid "%1 (not accessible)"
+msgstr "%1 (不可访问)"
+
+#: hdd.cpp:298
+msgid "File System"
+msgstr "文件系统"
+
+#: hdd.cpp:299
+msgid "Raid"
+msgstr "磁盘阵列"
+
+#: hdd_activity.cpp:79
+msgid "Disk Activity"
+msgstr "磁盘活动"
+
+#: hdd_activity.cpp:202
+msgid "Hard Disks"
+msgstr "硬盘"
+
+#: hwinfo.cpp:57 hwinfo.cpp:156
+msgid "Hardware Info"
+msgstr "硬件信息"
+
+#: hwinfo.cpp:68
+msgid "Getting hardware information..."
+msgstr "正在获取硬件信息..."
+
+#: hwinfo.cpp:141
+msgid "GPU"
+msgstr "GPU"
+
+#: hwinfo.cpp:143
+msgid "Audio"
+msgstr "声音"
+
+#: hwinfo.cpp:146 net.cpp:46
+msgid "Network"
+msgstr "网络"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: net-config.ui:23
+msgid "&Network interfaces:"
+msgstr "网络接口(&N)："
+
+#: net.cpp:150
+msgid "Network Interface"
+msgstr "网卡"
+
+#: net.cpp:168
+msgid "Interfaces"
+msgstr "接口"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ram-config.ui:23
+msgid "&Memory:"
+msgstr "内存(&M)："
+
+#: ram.cpp:48 ram.cpp:206 ram.cpp:240
+msgid "RAM"
+msgstr "RAM"
+
+#: ram.cpp:101 ram.cpp:218
+msgctxt "noun, hardware, physical RAM/memory"
+msgid "physical"
+msgstr "物理"
+
+#: ram.cpp:103 ram.cpp:220
+msgctxt "noun, hardware, swap file/partition"
+msgid "swap"
+msgstr "交换"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: temperature-config.ui:20
+msgid "&Available temperatures:"
+msgstr "可用温度(&A)："
+
+#: temperature.cpp:57 temperature.cpp:121
+msgid "Temperature"
+msgstr "温度"
+
+#: temperature.cpp:95
+msgid "Sensor"
+msgstr "传感器"
+
+#: temperature.cpp:97
+msgid "Offset"
+msgstr "偏移"
+
+#~ msgid ""
+#~ "<tr><td>Interface:%1</td><td>Upstream:%2</td><td>Downstream:%3</td></tr>"
+#~ msgstr "<tr><td>网卡：%1</td><td>上传流：%2</td><td>下载流：%3</td></tr>"
+
+#~ msgid "%1 °C"
+#~ msgstr "%1 °C"
+
+#~ msgid "%1 °F"
+#~ msgstr "%1 °F"
+
+#~ msgid " second"
+#~ msgid_plural " seconds"
+#~ msgstr[0] " 秒"
+
+#~ msgid "Advanced"
+#~ msgstr "高级"
+
+#~ msgid "Show CPU name above the graph"
+#~ msgstr "在图形上方显示 CPU 名称"
+
+#~ msgid "Show plotter background"
+#~ msgstr "显示绘图背景"
+
+#~ msgid "Graph color:"
+#~ msgstr "图形颜色："
+
+#~ msgid "Show interface name above the graph"
+#~ msgstr "在图形上方显示接口名称"
+
+#~ msgid "In color:"
+#~ msgstr "下载颜色："
+
+#~ msgid "Out color:"
+#~ msgstr "上传颜色："
+
+#~ msgid "Show RAM name above the graph"
+#~ msgstr "在图形上方显示 RAM 名称"
+
+#~ msgid "Show plotters"
+#~ msgstr "显示绘图"
+
+#~ msgid "seconds"
+#~ msgstr "秒"

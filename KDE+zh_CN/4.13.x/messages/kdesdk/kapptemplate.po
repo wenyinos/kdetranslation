@@ -1,0 +1,264 @@
+# translation of kapptemplate.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kapptemplate\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-04-03 03:33+0200\n"
+"PO-Revision-Date: 2009-05-10 14:21+0000\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: apptemplatesmodel.cpp:137
+msgid "Templates Projects"
+msgstr "模板项目"
+
+#. i18n: ectx: property (text), widget (QLabel, pictureLabel)
+#: choice.ui:31
+msgctxt "Do not translate"
+msgid "Preview"
+msgstr "Preview"
+
+#. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
+#: choice.ui:468
+msgctxt "Do not translate"
+msgid "Description"
+msgstr "Description"
+
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: choice.ui:503
+msgid "Project name:"
+msgstr "项目名称："
+
+#: choicepage.cpp:37
+msgid "Choose your project template"
+msgstr "选择您的项目模板"
+
+#: choicepage.cpp:85
+msgid "Template description"
+msgstr "模板描述"
+
+#: generatepage.cpp:46
+msgid "Generating your project"
+msgstr "正在生成您的项目"
+
+#: generatepage.cpp:62
+#, kde-format
+msgid "%1 cannot be created."
+msgstr "无法创建 %1。"
+
+#: generatepage.cpp:92 generatepage.cpp:101
+#, kde-format
+msgid "The file %1 cannot be created."
+msgstr "无法创建文件 %1。"
+
+#: generatepage.cpp:93 generatepage.cpp:102
+#, kde-format
+msgid ""
+"\n"
+"\n"
+"The file %1 cannot be created."
+msgstr ""
+"\n"
+"\n"
+"无法创建文件 %1。"
+
+#: generatepage.cpp:166
+msgid "Generation Progress\n"
+msgstr "生成进度\n"
+
+#: generatepage.cpp:207
+msgid "Succeeded.\n"
+msgstr "成功。\n"
+
+#: generatepage.cpp:212
+#, kde-format
+msgid "Your project name is: <b>%1</b>, based on the %2 template.<br />"
+msgstr "您的项目名称是：<b>%1</b>，基于 %2 模板。<br />"
+
+#: generatepage.cpp:213
+#, kde-format
+msgid "Version: %1 <br /><br />"
+msgstr "版本：%1 <br /><br />"
+
+#: generatepage.cpp:214
+#, kde-format
+msgid "Installed in: %1 <br /><br />"
+msgstr "安装在：%1 <br /><br />"
+
+#: generatepage.cpp:215
+#, kde-format
+msgid ""
+"You will find a README in your project folder <b>%1</b><br /> to help you "
+"get started with your project."
+msgstr ""
+"您可在您项目的文件夹 <b>%1</b><br /> 中找到 README 文件以帮助您开始您的项目。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: introduction.ui:17
+msgid ""
+"This wizard will help you generate a KDE 4 project template.\n"
+"You will be able to start developing you own KDE 4 project from this "
+"template."
+msgstr ""
+"本向导能帮助您生成一个 KDE 4 项目模板。\n"
+"您可以从此模板开始开发您自己的 KDE 4 项目。"
+
+#: kapptemplate.cpp:38
+msgid "KDE 4 Template Generator"
+msgstr "KDE 4 模板生成器"
+
+#: kapptemplate.cpp:60
+msgid "Introduction"
+msgstr "介绍"
+
+#: kapptemplate.cpp:67
+msgid "Set the project properties"
+msgstr "设定项目属性"
+
+#: kapptemplate.cpp:93
+#, kde-format
+msgid "Your project name is : %1"
+msgstr "您的项目名称是：%1"
+
+#. i18n: ectx: label, entry (appName), group (Project)
+#: kapptemplate.kcfg:11
+msgid "Name of the project"
+msgstr "项目名称"
+
+#. i18n: ectx: label, entry (appVersion), group (Project)
+#: kapptemplate.kcfg:15
+msgid "Project version"
+msgstr "项目版本"
+
+#. i18n: ectx: label, entry (url), group (Project)
+#: kapptemplate.kcfg:19
+msgid "Home dir of the user"
+msgstr "用户的主目录"
+
+#. i18n: ectx: label, entry (name), group (User)
+#: kapptemplate.kcfg:27
+msgid "Name of the user"
+msgstr "用户名称"
+
+#. i18n: ectx: label, entry (email), group (User)
+#: kapptemplate.kcfg:38
+msgid "Email of the user"
+msgstr "用户电子邮件"
+
+#: main.cpp:30
+msgid "KAppTemplate is a KDE 4 project template generator"
+msgstr "KAppTemplate 是个 KDE 4 项目模板生成器"
+
+#: main.cpp:36
+msgid "KAppTemplate"
+msgstr "KAppTemplate"
+
+#: main.cpp:37
+msgid "(C) 2008 Anne-Marie Mahfouf"
+msgstr "(C) 2008 Anne-Marie Mahfouf"
+
+#: main.cpp:38
+msgid "Anne-Marie Mahfouf"
+msgstr "Anne-Marie Mahfouf"
+
+#: main.cpp:39
+msgid "Sean Wilson"
+msgstr "Sean Wilson"
+
+#: main.cpp:39
+msgid "Icons from Oxygen Team icons"
+msgstr "Oxygen 团队图标"
+
+#. i18n: ectx: property (text), widget (QLabel, versionLabel)
+#: properties.ui:448
+msgid "Version number:"
+msgstr "版本号："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_appVersion)
+#: properties.ui:458
+msgid "Project's version number"
+msgstr "项目版本号"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_appVersion)
+#: properties.ui:461
+msgid ""
+"Set your project version number. A first project should start with version "
+"0.1."
+msgstr "设定您项目的版本号。第一个项目应该从版本 0.1 开始。"
+
+#. i18n: ectx: property (inputMask), widget (KLineEdit, kcfg_appVersion)
+#: properties.ui:464
+msgid "0.0; "
+msgstr "0.0；"
+
+#. i18n: ectx: property (text), widget (KLineEdit, kcfg_appVersion)
+#: properties.ui:467
+msgid "0.1"
+msgstr "0.1"
+
+#. i18n: ectx: property (text), widget (QLabel, installLabel)
+#: properties.ui:478
+msgid "Installation directory:"
+msgstr "安装目录："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_url)
+#: properties.ui:488
+msgid "The directory where you will build your project"
+msgstr "构建您项目所在的目录"
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_url)
+#: properties.ui:491
+msgid ""
+"Choose the directory where you will build your project. Your home /src is a "
+"good default location."
+msgstr "选择构建您项目所在的目录。您主文件夹中 /src 是个不错的默认位置。"
+
+#. i18n: ectx: property (text), widget (QLabel, authorLabel)
+#: properties.ui:502
+msgid "Author name:"
+msgstr "作者姓名："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_name)
+#: properties.ui:512
+msgid "Your first name and name"
+msgstr "您的姓名"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_name)
+#: properties.ui:515
+msgid "This will set the copyright to this name"
+msgstr "会按照此姓名设定版权"
+
+#. i18n: ectx: property (text), widget (QLabel, emailLabel)
+#: properties.ui:532
+msgid "Author email:"
+msgstr "作者电子邮件："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_email)
+#: properties.ui:542
+msgid "Your email address"
+msgstr "您的电子邮件地址"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_email)
+#: properties.ui:545
+msgid ""
+"This email address will be next to your name in the copyright credit of the "
+"project files."
+msgstr "此电子邮件地址将会出现在项目文件版权信息中，位于您姓名的旁边。"

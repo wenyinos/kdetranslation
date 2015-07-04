@@ -1,0 +1,154 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2011, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2011, 2013.
+# FengChao <rainofchaos@gmail.com>, 2012.
+# Yichao Yu <yyc1992@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-06-22 01:37+0000\n"
+"PO-Revision-Date: 2013-06-21 16:41-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: eventmonitor.cpp:100
+#, kde-format
+msgid "Disk space is running low (%1 left). Suspending indexing of files."
+msgstr "磁盘空间不足(剩余 %1)。正在挂起 Strigi 文件索引操作。"
+
+#: eventmonitor.cpp:109
+msgid "Resuming indexing of files for fast searching."
+msgstr "恢复文件索引操作。"
+
+#: fileindexer.cpp:239 fileindexer.cpp:241
+msgid "Nepomuk File Indexer"
+msgstr "Nepomuk 文件索引器"
+
+#: fileindexer.cpp:243
+msgid "(c) 2008-2013, Sebastian Trüg"
+msgstr "(c) 2008-2013，Sebastian Trüg"
+
+#: fileindexer.cpp:246 indexer/main.cpp:60
+msgid "Sebastian Trüg"
+msgstr "Sebastian Trüg"
+
+#: fileindexer.cpp:246 indexer/main.cpp:60
+msgid "Developer"
+msgstr "开发者"
+
+#: fileindexer.cpp:247 indexer/main.cpp:59
+msgid "Vishesh Handa"
+msgstr "Vishesh Handa"
+
+#: fileindexer.cpp:247
+msgid "Maintainer"
+msgstr "维护者"
+
+#: indexer/main.cpp:54
+msgid "NepomukIndexer"
+msgstr "Nepomuk 文件索引器"
+
+#: indexer/main.cpp:56
+msgid ""
+"NepomukIndexer indexes the contents of a file and saves the results in "
+"Nepomuk"
+msgstr "Nepomuk 文件索引器索引文件的内容并且将结果保存在 Nepomuk 中。"
+
+#: indexer/main.cpp:58
+msgid "(C) 2011, Vishesh Handa, Sebastian Trueg"
+msgstr "(C) 2011，Vishesh Handa、Sebastian Trueg"
+
+#: indexer/main.cpp:59
+msgid "Current maintainer"
+msgstr "当前维护者"
+
+#: indexer/main.cpp:65
+msgid "The URL of the file to be indexed"
+msgstr "要索引的文件 URL"
+
+#: indexer/main.cpp:66
+msgid "Remove all indexed data of the URL provided"
+msgstr "删除所有指定 URL 的已索引数据"
+
+#: indexer/main.cpp:67
+msgid "Streams the indexed data to stdout"
+msgstr "将索引结果打印到标准输出"
+
+#: indexscheduler.cpp:432
+msgctxt "@info:status"
+msgid "File indexer is suspended."
+msgstr "文件索引器已暂停。"
+
+#: indexscheduler.cpp:435
+msgctxt "@info:status"
+msgid "Cleaning invalid file metadata"
+msgstr "清理无效的文件元数据"
+
+#: indexscheduler.cpp:438
+msgctxt "@info:status"
+msgid "Indexing files for desktop search."
+msgstr "为桌面搜索索引文件。"
+
+#: indexscheduler.cpp:441
+msgctxt "@info:status"
+msgid "Scanning for recent changes in files for desktop search"
+msgstr "为桌面搜索扫描最近文件的更改"
+
+#: indexscheduler.cpp:444
+msgctxt "@info:status"
+msgid "File indexer is idle."
+msgstr "文件索引器已休眠。"
+
+#~ msgctxt "@info:status"
+#~ msgid "Indexing %1"
+#~ msgstr "正在索引 %1"
+
+#~ msgctxt "@info:status"
+#~ msgid "Scanning for recent changes in %1"
+#~ msgstr "正在扫描 %1 中的最近更改"
+
+#~ msgctxt "@info:status"
+#~ msgid "Indexing files in %1"
+#~ msgstr "正在索引 %1 中的文件"
+
+#~ msgid ""
+#~ "First clears the existing index, and then runs both the basic and file "
+#~ "indexing"
+#~ msgstr "先清空已有索引，然后运行基本索引和文件索引"
+
+#~ msgid "Indexing files for fast searching. This process may take a while."
+#~ msgstr "对文件进行索引可以加快搜索速度，这会花费一些时间。"
+
+#~ msgid "Suspending the indexing of files to preserve resources."
+#~ msgstr "正在挂起 Strigi 文件索引操作以释放资源。"
+
+#~ msgctxt ""
+#~ "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
+#~ msgid "Initial indexing of files for fast searching finished in %1"
+#~ msgstr "初始化文件索引操作将在 %1 后完成"
+
+#~ msgid "The URI provided will be forced on the resource"
+#~ msgstr "强制为资源应用提供的 URI"
+
+#~ msgid "The modification time of the resource in time_t format"
+#~ msgstr "time_t 格式的资源修改时间"
+
+#~ msgid "Strigi plugins to disable."
+#~ msgstr "要禁用的 Strigi 插件。"

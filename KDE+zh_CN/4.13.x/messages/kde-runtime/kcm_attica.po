@@ -1,0 +1,245 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Lie Ex <lilith.ex@gmail.com>, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:50+0200\n"
+"PO-Revision-Date: 2010-06-21 23:55+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: atticamodule.cpp:44
+msgid "Social Desktop"
+msgstr "社会化桌面"
+
+#: atticamodule.cpp:46
+msgid "Copyright 2009 Eckhart Wörner"
+msgstr "Copyright 2009 Eckhart Wörner"
+
+#: atticamodule.cpp:47
+msgid "Eckhart Wörner"
+msgstr "Eckhart Wörner"
+
+#: atticamodule.cpp:48
+msgid "Dmitry Suzdalev"
+msgstr "Dmitry Suzdalev"
+
+#: atticamodule.cpp:49
+msgid "Frederik Gladhorn"
+msgstr "Frederik Gladhorn"
+
+#: atticamodule.cpp:100
+msgid "Loading provider list..."
+msgstr "正在装入提供方列表..."
+
+#. i18n: ectx: property (text), widget (QLabel, lblProviderList)
+#: atticamodule.cpp:135 providermanagement.ui:19
+msgid "Choose a provider to manage:"
+msgstr "选择要管理的提供方："
+
+#: atticamodule.cpp:145
+msgctxt "addition of an attica/knewstuff provider by entering its url"
+msgid "URL of the provider file (provider.xml)"
+msgstr "信息提供方文件的地址(provider.xml)"
+
+#: providerconfigwidget.cpp:57
+msgid "Account details"
+msgstr "账户详情"
+
+#: providerconfigwidget.cpp:59
+#, kde-format
+msgid "Account details for %1"
+msgstr "%1 的账户详情"
+
+#: providerconfigwidget.cpp:90
+msgid "Register new account"
+msgstr "注册新账户"
+
+#: providerconfigwidget.cpp:92
+#, kde-format
+msgid "Register new account at %1"
+msgstr "在 %1 注册新账户"
+
+#: providerconfigwidget.cpp:113
+msgid "Test login"
+msgstr "测试登录"
+
+#: providerconfigwidget.cpp:121
+msgid "Testing login..."
+msgstr "正在测试登录..."
+
+#: providerconfigwidget.cpp:133
+msgid "Success"
+msgstr "成功"
+
+#: providerconfigwidget.cpp:137
+msgid "Login failed"
+msgstr "登录失败"
+
+#: providerconfigwidget.cpp:167
+msgid "Not all required fields are filled"
+msgstr "未填满全部所需字段"
+
+#: providerconfigwidget.cpp:169
+msgid "Password is too short"
+msgstr "密码太短"
+
+#: providerconfigwidget.cpp:171
+msgid "Passwords do not match"
+msgstr "密码不匹配"
+
+#: providerconfigwidget.cpp:173
+msgid "All required information is provided"
+msgstr "已提供全部所需信息"
+
+#: providerconfigwidget.cpp:190 providerconfigwidget.cpp:227
+msgid "Failed to register new account."
+msgstr "注册新账户失败。"
+
+#: providerconfigwidget.cpp:208
+msgid "Failed to register new account: invalid password."
+msgstr "注册新账户失败：密码无效。"
+
+#: providerconfigwidget.cpp:212
+msgid "Failed to register new account: invalid username."
+msgstr "注册新账户失败：用户名无效。"
+
+#: providerconfigwidget.cpp:216
+msgid ""
+"Failed to register new account: the requested username is already taken."
+msgstr "注册新账户失败：指定的用户名已被使用。"
+
+#: providerconfigwidget.cpp:220
+msgid ""
+"Failed to register new account: the specified email address is already taken."
+msgstr "注册新账户失败：指定的电子邮件地址已被使用。"
+
+#: providerconfigwidget.cpp:224
+msgid "Failed to register new account: the specified email address is invalid."
+msgstr "注册新账户失败：指定的电子邮件地址无效。"
+
+#: providerconfigwidget.cpp:269
+msgid "Registration is in progress..."
+msgstr "注册进行中..."
+
+#: providerconfigwidget.cpp:282
+msgid ""
+"Registration complete. New account was successfully registered. Please "
+"<b>check your Email</b> to <b>activate</b> the account."
+msgstr "注册完成。新账户注册成功。请<b>检查您的电子邮件</b>以<b>激活</b>账户。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, loginTab)
+#: providerconfigwidget.ui:21
+msgid "Login"
+msgstr "登录"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: providerconfigwidget.ui:32
+msgid "&Username:"
+msgstr "用户名(&U)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: providerconfigwidget.ui:48 providerconfigwidget.ui:321
+msgid "&Password:"
+msgstr "密码(&P)："
+
+#. i18n: ectx: property (text), widget (QPushButton, testLoginButton)
+#: providerconfigwidget.ui:68
+msgid "&Test Login"
+msgstr "测试登录(&T)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableProviderCheckBox)
+#: providerconfigwidget.ui:149
+msgid ""
+"If a provider is not enabled, it will be ignored by the applications using "
+"the social desktop"
+msgstr "如果未启用一个提供方，所用使用到社会化桌面的应用程序都会忽略此特性"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableProviderCheckBox)
+#: providerconfigwidget.ui:152
+msgid "Enabled"
+msgstr "启用"
+
+#. i18n: ectx: property (text), widget (QLabel, infoLabelLP)
+#: providerconfigwidget.ui:198
+msgid ""
+"Do not have an account? Create one on the <a href=\"register\">Register tab</"
+"a>"
+msgstr "还没有账户？在<a href=\"register\">注册标签</a>中创建一个"
+
+#. i18n: ectx: property (text), widget (QLabel, infoLabelLP_2)
+#: providerconfigwidget.ui:210
+msgid ""
+"The Social Desktop Providers are used for \"Get Hot New Stuff\" and the "
+"\"Community\" and \"Social News\" Plasma applets."
+msgstr "社会化桌面功能可在“在线百宝箱”、“社区”小程序和“社会新闻”小程序中用到。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, registerTab)
+#: providerconfigwidget.ui:221
+msgid "Register"
+msgstr "注册"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: providerconfigwidget.ui:232
+msgid "Fill in the details below and click <b>Register...</b> button"
+msgstr "填写以下详细信息并点击<b>注册...</b>按钮"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: providerconfigwidget.ui:289
+msgid "&User name:"
+msgstr "用户名(&U)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: providerconfigwidget.ui:305
+msgid "&Email:"
+msgstr "电子邮件(&E)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: providerconfigwidget.ui:341
+msgid "Repeat password:"
+msgstr "重复密码："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: providerconfigwidget.ui:361
+msgid "&First name:"
+msgstr "名(&F)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: providerconfigwidget.ui:377
+msgid "&Last name:"
+msgstr "姓(&L)："
+
+#. i18n: ectx: property (text), widget (QPushButton, registerButton)
+#: providerconfigwidget.ui:431
+msgid "&Register..."
+msgstr "注册(&R)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, addProviderButton)
+#: providermanagement.ui:52
+msgid "Add Provider"
+msgstr "添加提供方"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeProviderButton)
+#: providermanagement.ui:59
+msgid "Remove Provider"
+msgstr "移除提供方"

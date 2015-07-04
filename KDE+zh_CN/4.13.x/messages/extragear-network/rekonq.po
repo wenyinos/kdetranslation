@@ -1,0 +1,3305 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Feng Chao <rainofchaos@gmail.com>, 2010, 2013.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010, 2011, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2012.
+# Sign <guoyunhebrave@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: rekonq\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-13 01:29+0000\n"
+"PO-Revision-Date: 2013-09-15 19:45+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui,Feng Chao"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com,rainofchaos@gmail.com"
+
+#: adblock/adblockmanager.cpp:353
+msgctxt "@title:window"
+msgid "Ad Block Settings"
+msgstr "广告屏蔽设置"
+
+#: adblock/adblocksettingwidget.cpp:52
+msgid ""
+"<qt>Filter expression (e.g. <tt>http://www.example.com/ad/*</tt>, <a href="
+"\"filterhelp\">more information</a>):"
+msgstr ""
+"<qt>过滤表达式 (例如 <tt>http://www.example.com/ad/*</tt>，<a href="
+"\"filterhelp\">更多信息</a>)："
+
+#: adblock/adblocksettingwidget.cpp:67
+msgid " day"
+msgid_plural " days"
+msgstr[0] " 天"
+
+#: adblock/adblocksettingwidget.cpp:82
+msgid ""
+"<qt><p>Enter an expression to filter. Filters can be defined as either:"
+"<ul><li>a shell-style wildcard, e.g. <tt>http://www.example.com/ads*</tt>, "
+"the wildcards <tt>*?[]</tt> may be used</li><li>a full regular expression by "
+"surrounding the string with '<tt>/</tt>', e.g. <tt>/\\/(ad|banner)\\./</tt></"
+"li></ul><p>Any filter string can be preceded by '<tt>@@</tt>' to whitelist "
+"(allow) any matching URL, which takes priority over any blacklist (blocking) "
+"filter."
+msgstr ""
+"<qt><p>输入过滤表达式。过滤可定义为： <ul><li>shell 风格的通配符，例如 "
+"<tt>http://www.example.com/ads*</tt>、 通配符 <tt>*?[]</tt> 可用在</li><li>"
+"由“<tt>/</tt>”包围起的完整正则表达式中， 例如 <tt>/\\/(ad|banner)\\./</tt></"
+"li></ul><p>任何过滤字符串都可 由“<tt>@@</tt>”开头来将任意匹配的 URL 列入白名"
+"单(允许)，这样可越过任何 其它的屏蔽过滤规则。"
+
+#. i18n: ectx: property (text), widget (QLabel, BlockedLabel)
+#: adblock/blocked_elements.ui:17
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Blocked elements</"
+"span></p></body></html>"
+msgstr ""
+"<html><head/><body><p><span style=\" font-weight:600;\">屏蔽的元素</span></"
+"p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, HidedLabel)
+#: adblock/blocked_elements.ui:101
+msgid "<b>Hidden elements</b>"
+msgstr "<b>隐藏的元素</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, syncLabel)
+#. i18n: ectx: property (text), widget (QLabel, hostLabel)
+#. i18n: ectx: property (text), widget (QLabel, certInfoLabel)
+#. i18n: ectx: property (text), widget (QLabel, subjectCN)
+#. i18n: ectx: property (text), widget (QLabel, subjectO)
+#. i18n: ectx: property (text), widget (QLabel, subjectOU)
+#. i18n: ectx: property (text), widget (QLabel, subjectSN)
+#. i18n: ectx: property (text), widget (QLabel, issuerCN)
+#. i18n: ectx: property (text), widget (QLabel, issuerOU)
+#. i18n: ectx: property (text), widget (QLabel, issuerO)
+#. i18n: ectx: property (text), widget (QLabel, issuedOn)
+#. i18n: ectx: property (text), widget (QLabel, expiresOn)
+#. i18n: ectx: property (text), widget (QLabel, md5)
+#. i18n: ectx: property (text), widget (QLabel, sha1)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: adblock/blocked_elements.ui:108 sync/sync_check.ui:30 sync/sync_check.ui:44
+#: webtab/sslinfo.ui:77 webtab/sslinfo.ui:131 webtab/sslinfo.ui:145
+#: webtab/sslinfo.ui:159 webtab/sslinfo.ui:173 webtab/sslinfo.ui:223
+#: webtab/sslinfo.ui:244 webtab/sslinfo.ui:251 webtab/sslinfo.ui:301
+#: webtab/sslinfo.ui:315 webtab/sslinfo.ui:365 webtab/sslinfo.ui:379
+msgid "TextLabel"
+msgstr "TextLabel"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkEnableAdblock)
+#: adblock/settings_adblock.ui:17
+msgid "&Enable Ad Block"
+msgstr "启用广告屏蔽(&E)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkHideAds)
+#: adblock/settings_adblock.ui:24
+msgid "&Hide filtered elements"
+msgstr "隐藏过滤的元素(&H)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: adblock/settings_adblock.ui:38
+msgid "Automatic Filters"
+msgstr "自动过滤"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: adblock/settings_adblock.ui:49
+msgid "Update enabled automatic filters every:"
+msgstr "过滤规则自动更新间隔："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: adblock/settings_adblock.ui:88
+msgid "Manual Filters"
+msgstr "手工过滤规则"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: adblock/settings_adblock.ui:96
+msgid "Search:"
+msgstr "搜索："
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, insertButton)
+#: adblock/settings_adblock.ui:130
+msgid "Add filter expression"
+msgstr "添加过滤规则表达式"
+
+#. i18n: ectx: property (text), widget (QToolButton, insertButton)
+#. i18n: ectx: property (text), widget (QToolButton, removeButton)
+#: adblock/settings_adblock.ui:133 adblock/settings_adblock.ui:143
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
+#: adblock/settings_adblock.ui:140
+msgid "Remove filter expression"
+msgstr "删除过滤规则表达式"
+
+#: application.cpp:156 application.cpp:162
+msgid "Error"
+msgstr "错误"
+
+#: application.cpp:156
+msgid "Cannot launch webapp mode without an URL to load"
+msgstr "无法启动网页应用模式，没有 URL 可加载"
+
+#: application.cpp:162
+msgid "Cannot load more than one URL in webapp mode"
+msgstr "无法在网页应用模式中加载多个 URL"
+
+#: application.cpp:557
+#, kde-format
+msgid ""
+"Malformed URL:\n"
+"%1"
+msgstr ""
+"不正确的 URL：\n"
+"%1"
+
+#: application.cpp:725
+msgid "Do you want to close the window or the whole application?"
+msgstr "您想关闭窗口还是整个应用程序？"
+
+#: application.cpp:726
+msgid "Application/Window closing..."
+msgstr "应用程序/窗口关闭..."
+
+#: application.cpp:727
+msgid "C&lose Current Window"
+msgstr "关闭当前窗口(&L)"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ClearDataWidget)
+#: application.cpp:756 cleardata.ui:17
+msgctxt "@title:window"
+msgid "Clear Private Data"
+msgstr "清除隐私数据"
+
+#: application.cpp:760
+msgid "Clear"
+msgstr "清除"
+
+#: application.cpp:844
+msgctxt "@title:window"
+msgid "Create Application Shortcut"
+msgstr "创建应用程序快捷方式"
+
+#: application.cpp:846
+msgid "Create"
+msgstr "创建"
+
+#: bookmarks/bookmarkmanager.cpp:326
+msgid "&Bookmarks"
+msgstr "书签(&B)"
+
+#: bookmarks/bookmarkowner.cpp:74 panels/historypanel.cpp:71
+msgid "Open"
+msgstr "打开"
+
+#: bookmarks/bookmarkowner.cpp:75
+msgid "Open bookmark in current tab"
+msgstr "在当前标签页打开书签"
+
+#: bookmarks/bookmarkowner.cpp:77 panels/historypanel.cpp:75
+msgid "Open in New Tab"
+msgstr "在新标签中打开"
+
+#: bookmarks/bookmarkowner.cpp:78
+msgid "Open bookmark in new tab"
+msgstr "在新标签页打开书签"
+
+#: bookmarks/bookmarkowner.cpp:80 panels/historypanel.cpp:79
+msgid "Open in New Window"
+msgstr "在新窗口中打开"
+
+#: bookmarks/bookmarkowner.cpp:81
+msgid "Open bookmark in new window"
+msgstr "在新窗口中打开书签"
+
+#: bookmarks/bookmarkowner.cpp:83 panels/historypanel.cpp:104
+msgid "Open Folder in Tabs"
+msgstr "在标签中打开文件夹"
+
+#: bookmarks/bookmarkowner.cpp:84
+msgid "Open all the bookmarks in folder in tabs"
+msgstr "将此文件夹中的全部书签打开为新标签"
+
+#: bookmarks/bookmarkowner.cpp:86 urlbar/urlbar.cpp:825
+msgid "Add Bookmark"
+msgstr "添加书签"
+
+#: bookmarks/bookmarkowner.cpp:87
+msgid "Bookmark current page"
+msgstr "添加当前为书签"
+
+#: bookmarks/bookmarkowner.cpp:89
+msgid "New Folder"
+msgstr "新建文件夹"
+
+#: bookmarks/bookmarkowner.cpp:90
+msgid "Create a new bookmark folder"
+msgstr "新建书签文件夹"
+
+#: bookmarks/bookmarkowner.cpp:92
+msgid "New Separator"
+msgstr "新建分隔符"
+
+#: bookmarks/bookmarkowner.cpp:93
+msgid "Create a new bookmark separator"
+msgstr "新建书签分隔线"
+
+#: bookmarks/bookmarkowner.cpp:95
+msgid "Copy Link"
+msgstr "复制链接"
+
+#: bookmarks/bookmarkowner.cpp:96
+msgid "Copy the bookmark's link address"
+msgstr "复制书签地址"
+
+#: bookmarks/bookmarkowner.cpp:98
+msgid "Edit"
+msgstr "编辑"
+
+#: bookmarks/bookmarkowner.cpp:99
+msgid "Edit the bookmark"
+msgstr "编辑书签"
+
+#: bookmarks/bookmarkowner.cpp:102
+msgid "Fancy Bookmark"
+msgstr "亮丽书签"
+
+#: bookmarks/bookmarkowner.cpp:103
+msgid "Link Nepomuk resources"
+msgstr "关联 Nepomuk 资源"
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: bookmarks/bookmarkowner.cpp:106 session.ui:33 urlbar/urlbar.cpp:497
+#: useragent/useragentsettings.ui:39
+msgid "Delete"
+msgstr "删除"
+
+#: bookmarks/bookmarkowner.cpp:107
+msgid "Delete the bookmark"
+msgstr "删除书签"
+
+#: bookmarks/bookmarkowner.cpp:109
+msgid "Set as toolbar folder"
+msgstr "设为工具栏文件夹"
+
+#: bookmarks/bookmarkowner.cpp:112
+msgid "Unset this folder as the toolbar folder"
+msgstr "取消设为工具栏文件夹"
+
+#: bookmarks/bookmarkowner.cpp:171 panels/historypanel.cpp:136
+#, kde-format
+msgctxt "%1=Number of tabs. Value is always >=8"
+msgid ""
+"You are about to open %1 tabs.\n"
+"Are you sure?"
+msgid_plural ""
+"You are about to open %1 tabs.\n"
+"Are you sure?"
+msgstr[0] ""
+"您将要打开 %1 个标签。\n"
+"您确定吗？"
+
+#: bookmarks/bookmarkowner.cpp:248
+msgid "New folder"
+msgstr "新建文件夹"
+
+#: bookmarks/bookmarkowner.cpp:350
+msgid "Bookmark Folder Deletion"
+msgstr "书签文件夹删除"
+
+#: bookmarks/bookmarkowner.cpp:351
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark folder\n"
+"\"%1\"?"
+msgstr ""
+"您确定想要删除书签文件夹\n"
+"“%1”吗？"
+
+#: bookmarks/bookmarkowner.cpp:355
+msgid "Separator Deletion"
+msgstr "删除分隔线"
+
+#: bookmarks/bookmarkowner.cpp:356
+msgid "Are you sure you wish to remove this separator?"
+msgstr "您确定想要删除分隔符吗？"
+
+#: bookmarks/bookmarkowner.cpp:360
+msgid "Bookmark Deletion"
+msgstr "书签删除"
+
+#: bookmarks/bookmarkowner.cpp:361
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark\n"
+"\"%1\"?"
+msgstr ""
+"您确定想要删除书签\n"
+"“%1”吗？"
+
+#: bookmarks/bookmarkstreemodel.cpp:86
+#, kde-format
+msgctxt "%1=Number of items in bookmark folder"
+msgid " (1 item)"
+msgid_plural " (%1 items)"
+msgstr[0] " (%1 项)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_syncBookmarks)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_newTabStartPage)
+#: bookmarks/bookmarkstreemodel.cpp:262 rekonqpage/newtabpage.cpp:313
+#: rekonqpage/newtabpage.cpp:347 settings/settings_tabs.ui:125
+#: sync/sync_check.ui:60 sync/sync_data.ui:32
+msgid "Bookmarks"
+msgstr "书签"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cleardata.ui:29
+msgid "<h3>Clear the following items:</h3>"
+msgstr "<h3>清除以下项目：</h3>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, clearHistory)
+#: cleardata.ui:52
+msgid "Visited pages history"
+msgstr "已访问的页面历史"
+
+#. i18n: ectx: property (text), widget (QCheckBox, clearDownloads)
+#: cleardata.ui:62
+msgid "Downloads history"
+msgstr "下载历史"
+
+#. i18n: ectx: property (text), widget (QCheckBox, clearCookies)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: cleardata.ui:72 settings/settings_privacy.ui:91
+msgid "Cookies"
+msgstr "Cookie"
+
+#. i18n: ectx: property (text), widget (QCheckBox, clearCachedPages)
+#: cleardata.ui:82
+msgid "Cached web pages"
+msgstr "缓存的网页"
+
+#. i18n: ectx: property (text), widget (QCheckBox, clearWebIcons)
+#: cleardata.ui:92
+msgid "Website icons"
+msgstr "网站图标"
+
+#. i18n: ectx: property (text), widget (QCheckBox, homePageThumbs)
+#: cleardata.ui:102
+msgid "Home page thumbs"
+msgstr "主页缩略图"
+
+#: history/historymodels.cpp:93
+msgid "Title"
+msgstr "标题"
+
+#: history/historymodels.cpp:94
+msgid "Address"
+msgstr "地址"
+
+#: history/historymodels.cpp:158
+#, kde-format
+msgid "First Visit: %1"
+msgstr "首次访问：%1"
+
+#: history/historymodels.cpp:159
+#, kde-format
+msgid "Last Visit: %1"
+msgstr "最近访问：%1"
+
+#: history/historymodels.cpp:160
+#, kde-format
+msgid "Number of Visits: %1"
+msgstr "访问次数：%1"
+
+#: history/historymodels.cpp:455
+msgid "Earlier Today"
+msgstr "今天早些时候"
+
+#: history/historymodels.cpp:460
+#, kde-format
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 项"
+
+#: main.cpp:48
+msgid "A lightweight Web Browser for KDE based on WebKit"
+msgstr "基于 WebKit 的轻量级 KDE 网页浏览器"
+
+#: main.cpp:55 webtab/webtab.cpp:493
+msgid "rekonq"
+msgstr "rekonq"
+
+#: main.cpp:59
+msgid "(C) 2008-2013 Andrea Diamantini"
+msgstr "(C) 2008-2013 Andrea Diamantini"
+
+#: main.cpp:66
+msgid "Andrea Diamantini"
+msgstr "Andrea Diamantini"
+
+#: main.cpp:67
+msgid "Project Lead, Developer, Maintainer"
+msgstr "项目领导人、开发者、维护者"
+
+#: main.cpp:71
+msgid "Johannes Tröscher"
+msgstr "Johannes Tröscher"
+
+#: main.cpp:72
+msgid "QGraphicsEffect expert. Tabbar highlight animation"
+msgstr "QGraphicsEffect 专家。标签栏突出显示动画"
+
+#: main.cpp:76
+msgid "Furkan Uzumcu"
+msgstr "Furkan Uzumcu"
+
+#: main.cpp:77
+msgid "A lot of improvements, especially on usability"
+msgstr "许多改进，尤其是易用性方面"
+
+#: main.cpp:81
+msgid "Yoann Laissus"
+msgstr "Yoann Laissus"
+
+#: main.cpp:82
+msgid "Developer, History & Bookmarks Improvements"
+msgstr "开发者、历史和书签改进"
+
+#: main.cpp:86
+msgid "Cédric Bellegarde"
+msgstr "Cédric Bellegarde"
+
+#: main.cpp:87
+msgid "Patched code quite everywhere :)"
+msgstr "到处打补丁 :)"
+
+#: main.cpp:91
+msgid "Jon Ander Peñalba"
+msgstr "Jon Ander Peñalba"
+
+#: main.cpp:92
+msgid "Bookmarks code peer reviewer. A fantastic help"
+msgstr "书签代码合作审阅。很棒"
+
+#: main.cpp:96
+msgid "Pierre Rossi"
+msgstr "Pierre Rossi"
+
+#: main.cpp:97
+msgid "Urlbar, tests, new tab page, bars... and more"
+msgstr "地址栏、测试、新标签页、工具栏..."
+
+#: main.cpp:101
+msgid "Lionel Chauvin"
+msgstr "Lionel Chauvin"
+
+#: main.cpp:102
+msgid "Development, Ideas, Mockups, rekonq Icon"
+msgstr "开发者、金点子、构想和 rekonq 图标"
+
+#: main.cpp:106
+msgid "Siteshwar Vashisht"
+msgstr "Siteshwar Vashisht"
+
+#: main.cpp:107
+msgid "Code, Ideas, sync... and IRC chats!"
+msgstr "代码、点子、同步... 和 IRC 聊天"
+
+#: main.cpp:111
+msgid "Tirtha Chatterjee"
+msgstr "Tirtha Chatterjee"
+
+#: main.cpp:112
+msgid "A lot of nice work, here and there in the code :)"
+msgstr "代码中自有黄金屋 :)"
+
+#: main.cpp:116
+msgid "Lindsay Mathieson"
+msgstr "Lindsay Mathieson"
+
+#: main.cpp:117
+msgid "Implemented inline spellcheck, provided hints, discovered bugs"
+msgstr "实现拼写检查，提供提示，发现 Bug。"
+
+#: main.cpp:123
+msgid "Dawit Alemayehu"
+msgstr "Dawit Alemayehu"
+
+#: main.cpp:124
+msgid "KDEWebKit (main) developer. And KIO. And KUriFilter. And more.."
+msgstr "KDEWebKit 主要开发者，以及 KIO、KUriFilter..."
+
+#: main.cpp:128
+msgid "Jekyll Wu"
+msgstr "Jekyll Wu"
+
+#: main.cpp:129
+msgid "Bug triaging. Impressive job about..."
+msgstr "错误分类。让人印象深刻..."
+
+#: main.cpp:133
+msgid "Dimitrios Christidis"
+msgstr "Dimitrios Christidis"
+
+#: main.cpp:134
+msgid "Provides patches, fixes and good testing"
+msgstr "提供补丁、修正和测试"
+
+#: main.cpp:138
+msgid "Panagiotis Papadopoulos"
+msgstr "Panagiotis Papadopoulos"
+
+#: main.cpp:139
+msgid "Quite everything but code"
+msgstr "除了写代码之外的所有事情"
+
+#: main.cpp:143
+msgid "Phaneendra Hedge"
+msgstr "Phaneendra Hedge"
+
+#: main.cpp:144
+msgid "Nepomuk fancy bookmarking"
+msgstr "Nepomuk 亮丽书签"
+
+#: main.cpp:148
+msgid "Jonathan Raphael Joachim Kolberg"
+msgstr "Jonathan Raphael Joachim Kolberg"
+
+#: main.cpp:149
+msgid "Handbook, Maintains a Kubuntu PPA with rekonq git packages"
+msgstr "手册、维护 rekonq git 软件包的 Kubuntu PPA"
+
+#: main.cpp:153
+msgid "Benjamin Poulain"
+msgstr "Benjamin Poulain"
+
+#: main.cpp:154
+msgid ""
+"The \"QtWebKit guy\". Adblock (new) implementation. Code quality improvements"
+msgstr "“QtWebKit 家伙”。新的广告屏蔽实现。代码质量改善"
+
+#: main.cpp:158
+msgid "Rohan Garg"
+msgstr "Rohan Garg"
+
+#: main.cpp:159
+msgid "Handbook, Maintains a Kubuntu PPA with rekonq git packages."
+msgstr "手册、维护 rekonq git 软件包的 Kubuntu PPA。"
+
+#: main.cpp:163
+msgid "Anton Kreuzkamp"
+msgstr "Anton Kreuzkamp"
+
+#: main.cpp:164
+msgid "Session Management, patches"
+msgstr "会话管理，补丁"
+
+#: main.cpp:168
+msgid "David E. Narváez"
+msgstr "David E. Narváez"
+
+#: main.cpp:169
+msgid "Implemented User Session Management and cleaned up SessionManager code"
+msgstr "实现用户会话管理和清理会话管理器代码"
+
+#: main.cpp:173
+msgid "Marc Deop"
+msgstr "Marc Deop"
+
+#: main.cpp:174
+msgid "Access Keys Navigation"
+msgstr "访问键导航"
+
+#: main.cpp:178
+msgid "Yuri Chornoivan"
+msgstr "Yuri Chornoivan"
+
+#: main.cpp:179 main.cpp:184
+msgid "Checking rekonq strings, helping with docs"
+msgstr "检查 rekonq 字符串，文档帮助"
+
+#: main.cpp:183
+msgid "Burkhard Lück"
+msgstr "Burkhard Lück"
+
+#: main.cpp:188
+msgid "Andrius da Costa Ribas"
+msgstr "Andrius da Costa Ribas"
+
+#: main.cpp:189
+msgid "Helped letting rekonq compile on Windows/MSVC and Mac OS X"
+msgstr "帮助 rekonq 在 Windows/MSVC 与 Mac OS X 上编译。"
+
+#: main.cpp:193
+msgid "Pino Toscano"
+msgstr "Pino Toscano"
+
+#: main.cpp:194
+msgid "fixuifiles ;)"
+msgstr "修正界面文件 ;)"
+
+#: main.cpp:206
+msgid "Open in incognito mode"
+msgstr "用隐身模式打开"
+
+#: main.cpp:207
+msgid "Open URL as web app (in a simple window)"
+msgstr "以网页应用模式打开 URL (在一个简单的窗口中)"
+
+#: main.cpp:208
+msgid "Location to open"
+msgstr "要打开的位置"
+
+#: nepomuk/utils/resourcemodel.cpp:149
+msgctxt ""
+"@title KCategorizedSortFilterProxyModel grouping all Nepomuk resources whose "
+"type is rdfs:Resource"
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#: nepomuk/utils/resourcemodel.cpp:175
+msgctxt "@title:column The Nepomuk resource label and icon"
+msgid "Resource"
+msgstr "资源"
+
+#: nepomuk/utils/resourcemodel.cpp:177
+msgctxt "@title:column The Nepomuk resource's RDF type"
+msgid "Resource Type"
+msgstr "资源类型"
+
+#: panels/historypanel.cpp:83
+msgid "Copy Link Address"
+msgstr "复制链接地址"
+
+#: panels/historypanel.cpp:87
+msgid "Remove Entry"
+msgstr "删除条目"
+
+#: panels/historypanel.cpp:91
+msgid "Remove all occurrences"
+msgstr "删除全部相同条目"
+
+#: panels/historypanel.cpp:108
+msgid "Remove Folder"
+msgstr "删除文件夹"
+
+#: panels/urlpanel.cpp:74
+msgid "&Search:"
+msgstr "搜索(&S)："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_newTabStartPage)
+#: rekonqpage/newtabpage.cpp:298 rekonqpage/newtabpage.cpp:341
+#: settings/settings_tabs.ui:120
+msgid "Favorites"
+msgstr "收藏"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_syncHistory)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_newTabStartPage)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rekonqpage/newtabpage.cpp:307 rekonqpage/newtabpage.cpp:353
+#: settings/settings_privacy.ui:199 settings/settings_tabs.ui:130
+#: sync/sync_check.ui:77 sync/sync_data.ui:42
+msgid "History"
+msgstr "历史"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_newTabStartPage)
+#: rekonqpage/newtabpage.cpp:319 rekonqpage/newtabpage.cpp:359
+#: settings/settings_tabs.ui:135
+msgid "Downloads"
+msgstr "下载"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_newTabStartPage)
+#: rekonqpage/newtabpage.cpp:325 rekonqpage/newtabpage.cpp:365
+#: settings/settings_tabs.ui:140
+msgid "Closed Tabs"
+msgstr "已关闭的标签"
+
+#: rekonqpage/newtabpage.cpp:388
+msgid "Add Favorite"
+msgstr "添加收藏"
+
+#: rekonqpage/newtabpage.cpp:401
+msgid ""
+"You can add a favorite by clicking the \"Add Favorite\" button in the top-"
+"right corner of this page"
+msgstr "您可以通过点击此页面右上角的“添加收藏”按钮添加收藏"
+
+#: rekonqpage/newtabpage.cpp:422
+msgid "Search History"
+msgstr "搜索历史"
+
+#: rekonqpage/newtabpage.cpp:427
+msgid "Clear History"
+msgstr "清除历史"
+
+#: rekonqpage/newtabpage.cpp:448
+msgid "Your browsing history is empty"
+msgstr "您的浏览历史为空"
+
+#: rekonqpage/newtabpage.cpp:453
+#, kde-format
+msgid "No matches for string %1 in history"
+msgstr "历史中没有匹配字符串 %1 的项目"
+
+#: rekonqpage/newtabpage.cpp:515
+msgid "Show full History"
+msgstr "显示完整历史"
+
+#: rekonqpage/newtabpage.cpp:529
+msgid "Edit Bookmarks"
+msgstr "编辑书签"
+
+#: rekonqpage/newtabpage.cpp:540
+msgid "You have no bookmarks"
+msgstr "您没有书签"
+
+#: rekonqpage/newtabpage.cpp:552
+msgid "Unsorted"
+msgstr "未排序"
+
+#: rekonqpage/newtabpage.cpp:574
+msgid "There are no recently closed tabs"
+msgstr "没有最近关闭的标签"
+
+#: rekonqpage/newtabpage.cpp:603
+msgid "Search Downloads"
+msgstr "搜索下载"
+
+#: rekonqpage/newtabpage.cpp:607
+msgid "Clear Downloads"
+msgstr "清除下载"
+
+#: rekonqpage/newtabpage.cpp:621
+msgid "There are no recently downloaded files to show"
+msgstr "没有最近下载的文件以显示"
+
+#: rekonqpage/newtabpage.cpp:666
+msgid ""
+"This download is managed by KGet. Check it to grab information about its "
+"state"
+msgstr "下载由 KGet 管理。检查 KGet 以获取它的状态信息"
+
+#: rekonqpage/newtabpage.cpp:670
+msgid "Suspended"
+msgstr "已挂起"
+
+#: rekonqpage/newtabpage.cpp:674
+msgid "Downloading now..."
+msgstr "正在下载..."
+
+#: rekonqpage/newtabpage.cpp:678
+#, kde-format
+msgctxt "%1 = Error description"
+msgid "Error: %1"
+msgstr "错误：%1"
+
+#: rekonqpage/newtabpage.cpp:688
+msgid "Open directory"
+msgstr "打开目录"
+
+#: rekonqpage/newtabpage.cpp:695
+msgid "Open file"
+msgstr "打开文件"
+
+#: rekonqpage/newtabpage.cpp:699
+msgid "Removed"
+msgstr "已删除"
+
+#: rekonqpage/newtabpage.cpp:707
+msgid "Remove from list"
+msgstr "从列表中删除"
+
+#: rekonqpage/newtabpage.cpp:718
+#, kde-format
+msgid "No matches for string %1 in downloads"
+msgstr "没有匹配字符串 %1 的下载项"
+
+#: rekonqpage/newtabpage.cpp:770
+msgid "Set a Preview..."
+msgstr "设定预览..."
+
+#: rekonqpage/newtabpage.cpp:861
+msgid "Remove favorite"
+msgstr "删除收藏"
+
+#: rekonqpage/newtabpage.cpp:866
+msgid "Reload thumbnail"
+msgstr "重新装入缩略图"
+
+#: rekonqpage/thumbupdater.cpp:57
+msgid "Loading Preview..."
+msgstr "正在装入预览..."
+
+#. i18n: ectx: property (text), widget (QPushButton, saveButton)
+#: session.ui:26
+msgid "Save"
+msgstr "保存"
+
+#: sessionmanager.cpp:488
+msgctxt "@title:window"
+msgid "Manage Session"
+msgstr "管理会话"
+
+#: sessionmanager.cpp:492
+msgid "Load"
+msgstr "装入"
+
+#: sessionwidget.cpp:93
+msgid "untitled"
+msgstr "无标题"
+
+#: settings/appearancewidget.cpp:113
+msgid ""
+"Select the default encoding to be used; normally, you will be fine with 'Use "
+"language encoding' and should not have to change this."
+msgstr ""
+"选择要使用的默认编码；选择“使用语言编码“通常可以工作得很好而无需更改此设定。"
+
+#: settings/generalwidget.cpp:107
+msgid "Install KGet to enable rekonq to use it as download manager"
+msgstr "安装 KGet 以便让 rekonq 将其用作下载管理器"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PassExceptions)
+#: settings/password_exceptions.ui:14
+msgid "Password Exceptions"
+msgstr "密码例外"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeOneButton)
+#: settings/password_exceptions.ui:38
+msgid "Remove one"
+msgstr "删除一项"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeAllButton)
+#: settings/password_exceptions.ui:45
+msgid "Remove all"
+msgstr "全部删除"
+
+#: settings/privacywidget.cpp:86
+msgid "If enabled, JavaScript programs are allowed to open new windows."
+msgstr "如果启用，则允许 JavaScript 程序打开新窗口。"
+
+#: settings/privacywidget.cpp:87
+msgid ""
+"If enabled, JavaScript programs are allowed to read from and to write to the "
+"clipboard."
+msgstr "如果启用，则允许 JavaScript 程序读写剪贴板。"
+
+#: settings/privacywidget.cpp:91
+msgid "Javascript is not enabled, cannot change these settings"
+msgstr "Javascript 未启用，无法更改这些设置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: settings/settings_advanced.ui:17
+msgid "Proxy"
+msgstr "代理"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/settings_advanced.ui:35
+#, fuzzy
+#| msgid "Rekonq is using your system's proxy settings"
+msgid "Rekonq is using system proxy settings"
+msgstr "Rekonq 正使用您的系统代理设置"
+
+#. i18n: ectx: property (text), widget (QPushButton, proxyButton)
+#: settings/settings_advanced.ui:51
+msgid "Change proxy settings"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: settings/settings_advanced.ui:66
+msgid "Custom Style Sheet"
+msgstr "自定义样式表"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: settings/settings_advanced.ui:84
+msgid "Path to custom CSS file:"
+msgstr "自定义 CSS 文件的路径："
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, kcfg_userCSS)
+#: settings/settings_advanced.ui:106
+msgid "*.css"
+msgstr "*.css"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settings/settings_advanced.ui:116
+msgid "Misc"
+msgstr "杂项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_hScrollWheelHistory)
+#: settings/settings_advanced.ui:122
+msgid "Use horizontal scroll wheel to go through web history"
+msgstr "浏览网页历史时使用横向滚动滑轮"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useFavicon)
+#: settings/settings_advanced.ui:129
+msgid "Use favicon of the current website as window icon"
+msgstr "将当前网站的图标用作窗口图标"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_smoothScrolling)
+#: settings/settings_advanced.ui:136
+msgid "Scroll pages with an eye candy effect"
+msgstr "带有视觉特效地滚动页面"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_smoothScrolling)
+#: settings/settings_advanced.ui:139
+msgid "Enable smooth scrolling"
+msgstr "启用平滑滚动"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableViShortcuts)
+#: settings/settings_advanced.ui:149
+msgid "Enable Vi-like navigation shortcuts"
+msgstr "启用 Vi 模式的导航快捷键"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_accessKeysEnabled)
+#: settings/settings_advanced.ui:156
+msgid "Enable keyboard navigation using the Ctrl key"
+msgstr "使用 Ctrl 键启用键盘导航"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_automaticSpellChecking)
+#: settings/settings_advanced.ui:163
+msgid "Enable automatic spell checking"
+msgstr "启用自动拼写检查"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: settings/settings_advanced.ui:178
+msgid "Middle click should:"
+msgstr "中键点击动作："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_middleClickAction)
+#: settings/settings_advanced.ui:201
+msgid "Auto-scroll"
+msgstr "自动滚动"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_middleClickAction)
+#: settings/settings_advanced.ui:206
+msgid "Load Clipboard URL"
+msgstr "装入剪贴板 URL"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_middleClickAction)
+#: settings/settings_advanced.ui:211
+msgid "Do Nothing"
+msgstr "无动作"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, appearance)
+#: settings/settings_appearance.ui:14 settings/settingsdialog.cpp:95
+msgid "Appearance"
+msgstr "外观"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settings/settings_appearance.ui:20
+msgid "Fonts"
+msgstr "字体"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/settings_appearance.ui:38
+msgid "Standard font:"
+msgstr "标准字体："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/settings_appearance.ui:76
+msgid "Fixed font:"
+msgstr "等宽字体："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: settings/settings_appearance.ui:114
+msgid "Serif font:"
+msgstr "衬线字体："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: settings/settings_appearance.ui:152
+msgid "Sans Serif font:"
+msgstr "无衬线字体："
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: settings/settings_appearance.ui:190
+msgid "Cursive font:"
+msgstr "手写体字体："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: settings/settings_appearance.ui:228
+msgid "Fantasy font:"
+msgstr "绚丽字体："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: settings/settings_appearance.ui:257
+msgid "Font size"
+msgstr "字体大小"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: settings/settings_appearance.ui:275
+msgid "Default font size:"
+msgstr "默认字体大小："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: settings/settings_appearance.ui:297
+msgid "Minimal font size:"
+msgstr "最小字体大小："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: settings/settings_appearance.ui:330
+#, fuzzy
+#| msgid "&Zoom"
+msgid "Zoom"
+msgstr "缩放(&Z)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: settings/settings_appearance.ui:348
+#, fuzzy
+#| msgid "Default zoom: %1%"
+msgid "Default page zoom"
+msgstr "默认缩放：%1%"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: settings/settings_appearance.ui:377
+msgid "Character Encoding"
+msgstr "字符集编码"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: settings/settings_appearance.ui:395
+msgid "Default character encoding:"
+msgstr "默认字符集编码"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, general)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settings/settings_general.ui:14 settings/settings_webkit.ui:17
+#: settings/settingsdialog.cpp:83
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settings/settings_general.ui:20
+msgid "First settings"
+msgstr "初始设置"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/settings_general.ui:41
+msgid "When starting rekonq:"
+msgstr "启动 rekonq 时："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/settings_general.ui:63
+msgid "Home page URL:"
+msgstr "主页 URL："
+
+#. i18n: ectx: property (text), widget (QPushButton, setHomeToCurrentPageButton)
+#: settings/settings_general.ui:94
+msgid "Set to Current Page"
+msgstr "设为当前页"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_startupBehaviour)
+#: settings/settings_general.ui:129
+msgid "Open the Home Page"
+msgstr "打开主页"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_startupBehaviour)
+#: settings/settings_general.ui:134
+msgid "Open the New Tab Page"
+msgstr "打开新标签页"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_startupBehaviour)
+#: settings/settings_general.ui:139
+msgid "Restore the Last Opened Tabs"
+msgstr "还原上次打开的标签"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_startupBehaviour)
+#: settings/settings_general.ui:144
+msgid "Show session dialog"
+msgstr "显示会话对话框"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: settings/settings_general.ui:155
+msgid "Downloads Management"
+msgstr "下载管理"
+
+#. i18n: ectx: property (text), widget (QRadioButton, askDownloadNo)
+#: settings/settings_general.ui:175
+msgid "Save files to:"
+msgstr "保存文件到："
+
+#. i18n: ectx: property (text), widget (QRadioButton, askDownloadYes)
+#: settings/settings_general.ui:200
+msgid "Always ask me where to save files"
+msgstr "总是询问保存文件的位置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_kgetDownload)
+#: settings/settings_general.ui:223
+msgid "Use KGet for downloading files"
+msgstr "使用 KGet 下载文件"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_kgetList)
+#: settings/settings_general.ui:230
+msgid ""
+"If enabled, rekonq will display an additional context menu entry, which, "
+"when selected, lists all available links of the current website in KGet."
+msgstr ""
+"如果启用，rekonq 将显示额外的上下文菜单项，点击后将在 KGet 中列出当前网站的全"
+"部可用链接。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_kgetList)
+#: settings/settings_general.ui:233
+msgid "List links with KGet"
+msgstr "用 KGet 列出链接"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: settings/settings_privacy.ui:17
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_javascriptCanOpenWindows)
+#: settings/settings_privacy.ui:23
+msgid "Let JavaScript open new windows"
+msgstr "允许 JavaScript 打开新窗口"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_javascriptCanAccessClipboard)
+#: settings/settings_privacy.ui:30
+msgid "Let JavaScript access clipboard"
+msgstr "允许 JavaScript 访问剪贴板"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settings/settings_privacy.ui:40
+msgid "Tracking"
+msgstr "跟踪"
+
+#. i18n: ectx: property (text), widget (QCheckBox, doNotTrackCheckBox)
+#: settings/settings_privacy.ui:46
+msgid "Tell websites you do not want to be tracked"
+msgstr "告诉网站您不想被跟踪"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_syncPasswords)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: settings/settings_privacy.ui:56 sync/sync_check.ui:101 sync/sync_data.ui:52
+msgid "Passwords"
+msgstr "密码"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_passwordSavingEnabled)
+#: settings/settings_privacy.ui:68
+msgid "Remember passwords for sites"
+msgstr "记住站点密码"
+
+#. i18n: ectx: property (text), widget (QPushButton, managePassExceptionsButton)
+#: settings/settings_privacy.ui:81
+msgid "Manage Exceptions"
+msgstr "管理例外"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/settings_privacy.ui:97
+msgid "Rekonq is sharing cookies settings with all other KDE applications"
+msgstr "Rekonq 与其它 KDE 应用程序共享 cookie 设置"
+
+#. i18n: ectx: property (text), widget (QPushButton, cookiesButton)
+#: settings/settings_privacy.ui:115
+msgid "Manage Cookies"
+msgstr "管理 Cookie"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
+#: settings/settings_privacy.ui:145
+msgid "Cache"
+msgstr "缓存"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: settings/settings_privacy.ui:151
+msgid "Rekonq is sharing cache settings with all other KDE applications"
+msgstr "Rekonq 与其它 KDE 应用程序共享缓存设置"
+
+#. i18n: ectx: property (text), widget (QPushButton, cacheButton)
+#: settings/settings_privacy.ui:169
+msgid "Manage Cache"
+msgstr "管理缓存"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/settings_privacy.ui:211
+msgid "Remove history items:"
+msgstr "删除历史项："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_expireHistory)
+#: settings/settings_privacy.ui:234
+msgid "Never"
+msgstr "从不"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_expireHistory)
+#: settings/settings_privacy.ui:239
+msgid "Every 3 months"
+msgstr "每季度"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_expireHistory)
+#: settings/settings_privacy.ui:244
+msgid "Every month"
+msgstr "每月"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_expireHistory)
+#: settings/settings_privacy.ui:249
+msgid "Every day"
+msgstr "每天"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_expireHistory)
+#: settings/settings_privacy.ui:254
+msgid "At application exit"
+msgstr "应用程序退出时"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_expireHistory)
+#: settings/settings_privacy.ui:259
+msgid "Do not even store them"
+msgstr "不存储"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, tabs)
+#: settings/settings_tabs.ui:14 settings/settingsdialog.cpp:89
+msgid "Tabs"
+msgstr "标签"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: settings/settings_tabs.ui:20
+msgid "New Tab Behavior"
+msgstr "新标签行为"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: settings/settings_tabs.ui:38
+msgid "New tab opens:"
+msgstr "新标签打开："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_newTabsBehaviour)
+#: settings/settings_tabs.ui:64
+msgid "New Tab Page"
+msgstr "新标签页"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_newTabsBehaviour)
+#: settings/settings_tabs.ui:69
+msgid "Blank Page"
+msgstr "空页面"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_newTabsBehaviour)
+#: settings/settings_tabs.ui:74
+msgctxt "@item:inlistbox"
+msgid "Home Page"
+msgstr "主页"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: settings/settings_tabs.ui:94
+msgid "New Tab Page starts with:"
+msgstr "新标签启动："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: settings/settings_tabs.ui:151
+msgid "Tabbed Browsing"
+msgstr "标签页浏览"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: settings/settings_tabs.ui:171
+msgid "When hovering a tab show:"
+msgstr "悬停标签时："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_hoveringTabOption)
+#: settings/settings_tabs.ui:197
+msgid "Tab Preview"
+msgstr "显示标签页预览"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_hoveringTabOption)
+#: settings/settings_tabs.ui:202
+msgid "Tab's Title in a Tooltip"
+msgstr "在工具提示中显示标签页标题"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_hoveringTabOption)
+#: settings/settings_tabs.ui:207
+msgid "Tab's URL in a Tooltip"
+msgstr "在工具提示中显示标签页 URL"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_hoveringTabOption)
+#: settings/settings_tabs.ui:212
+msgctxt "@item:inlistbox"
+msgid "Nothing"
+msgstr "无动作"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_openExternalLinksInNewWindow)
+#: settings/settings_tabs.ui:235
+msgid "Open as new window when URL is called externally"
+msgstr "当外部调用 URL 时在新窗口中打开"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_lastTabClosesWindow)
+#: settings/settings_tabs.ui:242
+msgid "Closing last tab closes window"
+msgstr "关闭最后一个标签时关闭窗口"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_closeTabSelectPrevious)
+#: settings/settings_tabs.ui:249
+msgid "Activate previously used tab when closing the current one"
+msgstr "关闭当前页时激活上次使用过的页面"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_openNewTabsNextToCurrent)
+#: settings/settings_tabs.ui:259
+msgid "Open new tabs next to current tab"
+msgstr "在当前标签页后面打开新标签"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_openNewTabsInForeground)
+#: settings/settings_tabs.ui:266
+msgid "Open new tabs in the foreground"
+msgstr "在后台打开新标签"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_javascriptEnabled)
+#: settings/settings_webkit.ui:29
+msgid "Enable JavaScript"
+msgstr "启用 JavaScript"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_javaEnabled)
+#: settings/settings_webkit.ui:36
+msgid "Load Java applets"
+msgstr "装入 Java 小程序"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_webGL)
+#: settings/settings_webkit.ui:43
+msgid "WebGL"
+msgstr "WebGL"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_spatialNavigation)
+#: settings/settings_webkit.ui:50
+msgid "Spatial Navigation"
+msgstr "方向导航"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_frameFlattening)
+#: settings/settings_webkit.ui:57
+msgid "Frame Flattening"
+msgstr "框架平整"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_dnsPrefetch)
+#: settings/settings_webkit.ui:64
+msgid "Prefetch DNS entries"
+msgstr "预获取 DNS 条目"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_printElementBackgrounds)
+#: settings/settings_webkit.ui:71
+msgid "Print element backgrounds"
+msgstr "显示元素背景"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_zoomTextOnly)
+#: settings/settings_webkit.ui:78
+msgid "Zoom Text only"
+msgstr "只缩放文本"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: settings/settings_webkit.ui:97
+msgid "Plugins"
+msgstr "插件"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/settings_webkit.ui:118
+msgid "When loading web pages:"
+msgstr "装入网页时："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_pluginsEnabled)
+#: settings/settings_webkit.ui:141
+msgid "Autoload Plugins"
+msgstr "自动装入插件"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_pluginsEnabled)
+#: settings/settings_webkit.ui:146
+msgid "Manually Load Plugins"
+msgstr "手动装入插件"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_pluginsEnabled)
+#: settings/settings_webkit.ui:151
+msgid "Never Load Plugins"
+msgstr "从不装入插件"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: settings/settings_webkit.ui:162
+msgid "HTML 5"
+msgstr "HTML 5"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_offlineStorageDatabaseEnabled)
+#: settings/settings_webkit.ui:168
+msgid "Offline storage database"
+msgstr "离线存储数据库"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_offlineWebApplicationCacheEnabled)
+#: settings/settings_webkit.ui:175
+msgid "Offline web application cache"
+msgstr "离线网页应用程序缓存"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_localStorageEnabled)
+#: settings/settings_webkit.ui:182
+msgid "Local Storage"
+msgstr "本地存储"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/settings_webkit.ui:197
+msgid "Offline web application quota"
+msgstr "离线网页应用程序缓存"
+
+#. i18n: ectx: property (suffix), widget (KIntNumInput, kcfg_offlineWebApplicationCacheQuota)
+#: settings/settings_webkit.ui:216
+msgid " Kb"
+msgstr " Kb"
+
+#: settings/settingsdialog.cpp:101
+msgid "WebKit"
+msgstr "WebKit"
+
+#: settings/settingsdialog.cpp:109
+msgid "Privacy"
+msgstr "隐私"
+
+#: settings/settingsdialog.cpp:115
+msgid "Advanced"
+msgstr "高级"
+
+#: settings/settingsdialog.cpp:121
+msgid "Search Engines"
+msgstr "搜索引擎"
+
+#: settings/settingsdialog.cpp:144
+msgctxt "Window title of the settings dialog"
+msgid "Configure – rekonq"
+msgstr "配置 – rekonq"
+
+#: settings/webkitwidget.cpp:61
+msgid "Enables WebGL technology"
+msgstr "启用 WebGL 技术"
+
+#: settings/webkitwidget.cpp:62
+msgid "Lets you navigating between focusable elements using arrow keys."
+msgstr "让您使用箭头键在可聚焦元素间导航。"
+
+#: settings/webkitwidget.cpp:63
+msgid "Flatten all the frames to become one scrollable page."
+msgstr "将所有框架平整作为单张可滚动的页面。"
+
+#: settings/webkitwidget.cpp:64
+msgid ""
+"Specifies whether WebKit will try to prefetch DNS entries to speed up "
+"browsing."
+msgstr "指定是否让 WebKit 预先获取 DNS 条目以加快浏览速度。"
+
+#: settings/webkitwidget.cpp:65
+msgid ""
+"If enabled, background colors and images are also drawn when the page is "
+"printed."
+msgstr "如果启用，则在打印页面时同时绘制背景颜色和图像。"
+
+#: settings/webkitwidget.cpp:66
+msgid "Enables the execution of JavaScript programs."
+msgstr "启用 JavaScript 程序的执行。"
+
+#: settings/webkitwidget.cpp:67
+msgid "Enables support for Java applets."
+msgstr "启用 Java 小程序支持。"
+
+#: settings/webkitwidget.cpp:68
+msgid "Enables support for the HTML 5 offline storage feature."
+msgstr "启用 HTML 5 离线存储特性支持。"
+
+#: settings/webkitwidget.cpp:69
+msgid "Enables support for the HTML 5 web application cache feature."
+msgstr "启用 HTML 5 网页应用程序缓存特性支持。"
+
+#: settings/webkitwidget.cpp:70
+msgid "Enables support for the HTML 5 local storage feature."
+msgstr "启用 HTML 5 本地存储特性支持。"
+
+#: sync/ftpsynchandler.cpp:148 sync/sshsynchandler.cpp:149
+msgid "Remote bookmarks file does not exists. Exporting local copy..."
+msgstr "远程书签文件不存在。正在导出本地副本..."
+
+#: sync/ftpsynchandler.cpp:161 sync/sshsynchandler.cpp:162
+msgid "Remote bookmarks file exists. Syncing local copy..."
+msgstr "远程书签文件存在。正在同步本地副本..."
+
+#: sync/ftpsynchandler.cpp:204 sync/sshsynchandler.cpp:205
+msgid "Remote history file does not exists. Exporting local copy..."
+msgstr "远程历史文件不存在。正在导出本地副本..."
+
+#: sync/ftpsynchandler.cpp:217 sync/sshsynchandler.cpp:218
+msgid "Remote history file exists. Syncing local copy..."
+msgstr "远程历史文件存在。正在同步本地副本..."
+
+#: sync/ftpsynchandler.cpp:260 sync/sshsynchandler.cpp:261
+msgid "Remote passwords file does not exists. Exporting local copy..."
+msgstr "远程密码文件不存在。正在导出本地副本..."
+
+#: sync/ftpsynchandler.cpp:273 sync/sshsynchandler.cpp:274
+msgid "Remote passwords file exists. Syncing local copy..."
+msgstr "远程密码文件存在。正在同步本地副本..."
+
+#: sync/googlesynchandler.cpp:86 sync/googlesynchandler.cpp:91
+#: sync/operasynchandler.cpp:89 sync/operasynchandler.cpp:94
+msgid "Not supported"
+msgstr "不支持"
+
+#: sync/googlesynchandler.cpp:114 sync/operasynchandler.cpp:117
+msgid "Syncing history not supported"
+msgstr "不支持同步历史"
+
+#: sync/googlesynchandler.cpp:122 sync/operasynchandler.cpp:125
+msgid "Syncing passwords not supported"
+msgstr "不支持同步密码"
+
+#: sync/googlesynchandler.cpp:144 sync/operasynchandler.cpp:147
+msgid "No username or password"
+msgstr "无用户名或密码"
+
+#: sync/googlesynchandler.cpp:164 sync/operasynchandler.cpp:202
+#, kde-format
+msgid "Error loading: %1"
+msgstr "装入出错：%1"
+
+#: sync/googlesynchandler.cpp:187 sync/operasynchandler.cpp:232
+msgid "Signing in..."
+msgstr "正在登录..."
+
+#: sync/googlesynchandler.cpp:199 sync/operasynchandler.cpp:286
+msgid "Fetching bookmarks from server..."
+msgstr "正在从服务器上获取书签..."
+
+#: sync/googlesynchandler.cpp:204 sync/operasynchandler.cpp:271
+msgid "Login failed"
+msgstr "登录失败"
+
+#: sync/googlesynchandler.cpp:233
+msgid "Adding bookmarks on server..."
+msgstr "正在向服务器添加书签..."
+
+#: sync/googlesynchandler.cpp:263 sync/operasynchandler.cpp:348
+#: sync/operasynchandler.cpp:913 urlbar/resourcelinkdialog.cpp:112
+msgid "Done"
+msgstr "完成"
+
+#: sync/googlesynchandler.cpp:284
+msgid "Reading bookmarks..."
+msgstr "正在读取书签..."
+
+#: sync/googlesynchandler.cpp:302
+msgid "Adding bookmark"
+msgstr "添加书签"
+
+#: sync/googlesynchandler.cpp:320 sync/googlesynchandler.cpp:336
+#: sync/googlesynchandler.cpp:429
+msgid "Signing out..."
+msgstr "正在登出..."
+
+#: sync/operasynchandler.cpp:172
+msgid "OAuth: Error fetching request token"
+msgstr "OAuth：获取令牌时出错"
+
+#: sync/operasynchandler.cpp:245
+msgid "OAuth: Sending verification code"
+msgstr "OAuth：正在发送验证码"
+
+#: sync/operasynchandler.cpp:252
+msgid "OAuth: Error fetching access token"
+msgstr "OAuth：获取访问令牌时出错"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: sync/sync_check.ui:17
+msgid "Data"
+msgstr "数据"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: sync/sync_check.ui:23
+msgid "Sync Handler"
+msgstr "同步处理器"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
+#: sync/sync_check.ui:37 useragent/useragentsettings.ui:24
+msgid "Host"
+msgstr "主机"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: sync/sync_check.ui:54
+msgid "Check"
+msgstr "检查"
+
+#. i18n: ectx: property (title), widget (QGroupBox, syncGroupBox)
+#: sync/sync_data.ui:23 webwindow/webwindow.cpp:370
+msgid "Sync"
+msgstr "同步"
+
+#. i18n: ectx: property (title), widget (QGroupBox, ftpGroupBox)
+#: sync/sync_ftp_settings.ui:17
+msgid "Remote FTP Host Settings"
+msgstr "远程 FTP 主机设置"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: sync/sync_ftp_settings.ui:23 sync/sync_ssh_settings.ui:26
+msgid "Server:"
+msgstr "服务器："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: sync/sync_ftp_settings.ui:33 sync/sync_google_settings.ui:26
+#: sync/sync_opera_settings.ui:26 sync/sync_ssh_settings.ui:36
+msgid "Username:"
+msgstr "用户名："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: sync/sync_ftp_settings.ui:43 sync/sync_google_settings.ui:36
+#: sync/sync_opera_settings.ui:36 sync/sync_ssh_settings.ui:46
+msgid "Password:"
+msgstr "密码："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: sync/sync_ftp_settings.ui:56 sync/sync_ssh_settings.ui:63
+msgid "Path:"
+msgstr "路径："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: sync/sync_ftp_settings.ui:66 sync/sync_ssh_settings.ui:73
+msgid "Port:"
+msgstr "端口："
+
+#. i18n: ectx: property (title), widget (QGroupBox, googleGroupBox)
+#: sync/sync_google_settings.ui:17
+msgid "Google Account Settings"
+msgstr "Google 账户设置"
+
+#. i18n: ectx: property (text), widget (QLabel, infoLabel)
+#: sync/sync_google_settings.ui:52 sync/sync_opera_settings.ui:52
+msgid "Only bookmarks will be synchronized."
+msgstr "只有书签将被同步。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_syncEnabled)
+#: sync/sync_host_type.ui:17
+msgid "Activate sync"
+msgstr "激活同步"
+
+#. i18n: ectx: property (title), widget (QGroupBox, hostGroupBox)
+#: sync/sync_host_type.ui:24
+msgid "Sync Host Type"
+msgstr "同步主机类型"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ftpRadioButton)
+#: sync/sync_host_type.ui:30 sync/synccheckwidget.cpp:58
+msgid "FTP"
+msgstr "FTP"
+
+#. i18n: ectx: property (text), widget (QRadioButton, sshRadioButton)
+#: sync/sync_host_type.ui:37 sync/synccheckwidget.cpp:73
+msgid "SSH"
+msgstr "SSH"
+
+#. i18n: ectx: property (text), widget (QRadioButton, googleRadioButton)
+#: sync/sync_host_type.ui:44
+msgid "Google Sync"
+msgstr "Google Sync"
+
+#. i18n: ectx: property (text), widget (QRadioButton, operaRadioButton)
+#: sync/sync_host_type.ui:51
+msgid "Opera Sync"
+msgstr "Opera Sync"
+
+#. i18n: ectx: property (text), widget (QRadioButton, nullRadioButton)
+#: sync/sync_host_type.ui:58
+msgid "/dev/null"
+msgstr "/dev/null"
+
+#. i18n: ectx: property (title), widget (QGroupBox, operaGroupBox)
+#: sync/sync_opera_settings.ui:17
+msgid "Opera Account Settings"
+msgstr "Opera 账户设置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, sshGroupBox)
+#: sync/sync_ssh_settings.ui:17
+msgid "SSH Host Settings"
+msgstr "SSH 主机设置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, syncWithSSHKeys)
+#: sync/sync_ssh_settings.ui:56
+msgid "Use system ssh keys to login"
+msgstr "使用系统 SSH 密钥登录"
+
+#: sync/syncassistant.cpp:45
+msgid "Sync Assistant"
+msgstr "同步助手"
+
+#: sync/synccheckwidget.cpp:63
+msgid "Google"
+msgstr "Google"
+
+#: sync/synccheckwidget.cpp:68 useragent/useragentmanager.cpp:117
+msgid "Opera"
+msgstr "Opera"
+
+#: sync/synccheckwidget.cpp:78
+msgid "No sync"
+msgstr "不同步"
+
+#: sync/synccheckwidget.cpp:79
+msgctxt "no host"
+msgid "None"
+msgstr "无"
+
+#: sync/syncoperasettingswidget.cpp:62
+msgid "Rekonq has been compiled without support for Opera Sync"
+msgstr "Rekonq 编译时没有加入 Opera Sync 支持"
+
+#: tabwindow/rekonqwindow.cpp:170 tabwindow/tabwidget.cpp:199
+msgid "Bookmarks Panel"
+msgstr "书签面板"
+
+#: tabwindow/rekonqwindow.cpp:194 tabwindow/tabwidget.cpp:206
+msgid "History Panel"
+msgstr "历史面板"
+
+#: tabwindow/tabbar.cpp:203
+msgid "Clone"
+msgstr "复制"
+
+#: tabwindow/tabbar.cpp:208 webwindow/webwindow.cpp:284
+#: webwindow/webwindow.cpp:455
+msgid "Reload"
+msgstr "刷新"
+
+#: tabwindow/tabbar.cpp:213
+msgid "Reload All"
+msgstr "全部重新装入"
+
+#: tabwindow/tabbar.cpp:219
+msgid "Detach"
+msgstr "分离标签"
+
+#: tabwindow/tabbar.cpp:227
+msgid "Unpin Tab"
+msgstr "取消固定标签"
+
+#: tabwindow/tabbar.cpp:234
+msgid "Pin Tab"
+msgstr "固定标签"
+
+#: tabwindow/tabbar.cpp:241
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#: tabwindow/tabbar.cpp:248
+msgid "Close &Other Tabs"
+msgstr "关闭其它标签(&O)"
+
+#: tabwindow/tabwidget.cpp:92 tabwindow/tabwidget.cpp:109
+#: tabwindow/tabwidget.cpp:302 tabwindow/tabwidget.cpp:355
+#: tabwindow/tabwidget.cpp:364 tabwindow/tabwidget.cpp:370
+#: tabwindow/tabwidget.cpp:400
+msgid "new tab"
+msgstr "新建标签"
+
+#: tabwindow/tabwidget.cpp:149
+msgid "New &Tab"
+msgstr "新标签(&T)"
+
+#: tabwindow/tabwidget.cpp:154
+msgid "Open Last Closed Tab"
+msgstr "打开最后关闭的标签"
+
+#: tabwindow/tabwidget.cpp:159
+msgid "&Close Tab"
+msgstr "关闭标签(&C)"
+
+#: tabwindow/tabwidget.cpp:164
+msgid "Show Next Tab"
+msgstr "显示下个标签"
+
+#: tabwindow/tabwidget.cpp:169
+msgid "Show Previous Tab"
+msgstr "显示上个标签"
+
+#: tabwindow/tabwidget.cpp:179
+msgid "Bookmark all tabs"
+msgstr "将所有标签页加为书签"
+
+#: tabwindow/tabwidget.cpp:217
+#, kde-format
+msgid "Switch to Tab %1"
+msgstr "切换到标签 %1"
+
+#: tabwindow/tabwidget.cpp:229
+#, kde-format
+msgid "Switch to Favorite Page %1"
+msgstr "切换到最爱页面 %1"
+
+#: tabwindow/tabwidget.cpp:563
+msgid "Loading..."
+msgstr "正在装入..."
+
+#: tabwindow/tabwidget.cpp:782
+#, kde-format
+msgid "Bookmarked tabs: %1"
+msgstr "已加为书签的标签页： %1"
+
+#: tabwindow/tabwidget.cpp:820 tabwindow/tabwidget.cpp:822
+msgid "restored tab"
+msgstr "恢复标签页"
+
+#: urlbar/adblockwidget.cpp:61
+msgid " AdBlock"
+msgstr " 广告屏蔽"
+
+#: urlbar/adblockwidget.cpp:78
+msgid "Enable AdBlock for this site"
+msgstr "对此站点启用广告屏蔽"
+
+#: urlbar/bookmarkwidget.cpp:85
+msgid " Bookmark"
+msgstr " 书签"
+
+#: urlbar/bookmarkwidget.cpp:92
+msgid "<a href='Remove'>Remove</a>"
+msgstr "<a href='Remove'>删除</a>"
+
+#: urlbar/bookmarkwidget.cpp:102
+msgid "Folder:"
+msgstr "文件夹："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: urlbar/bookmarkwidget.cpp:110 webappcreation.ui:19
+msgid "Name:"
+msgstr "名称："
+
+#: urlbar/bookmarkwidget.cpp:128
+msgid "Rate:"
+msgstr "评分："
+
+#: urlbar/bookmarkwidget.cpp:135
+msgid "Rate this page"
+msgstr "为此页打分"
+
+#: urlbar/bookmarkwidget.cpp:140
+msgid "Describe:"
+msgstr "描述："
+
+#: urlbar/bookmarkwidget.cpp:151
+msgid "Tags:"
+msgstr "标签："
+
+#: urlbar/bookmarkwidget.cpp:153
+msgid "add tags (comma separated)"
+msgstr "添加标签 (逗号分隔)"
+
+#: urlbar/bookmarkwidget.cpp:169
+msgid "Link Resources"
+msgstr "关联资源"
+
+#: urlbar/bookmarkwidget.cpp:179
+msgid "Nepomuk is actually disabled."
+msgstr "Nepomuk 已禁用。"
+
+#. i18n: ectx: ToolBar (bookmarkToolBar)
+#: urlbar/bookmarkwidget.cpp:242 webwindow/rekonqui.rc:178
+msgid "Bookmark Toolbar"
+msgstr "书签工具栏"
+
+#: urlbar/bookmarkwidget.cpp:259
+msgid "Root folder"
+msgstr "根文件夹"
+
+#: urlbar/listitem.cpp:272
+#, kde-format
+msgctxt "%1=search engine, e.g. Google, Wikipedia %2=text to search for"
+msgid "Search %1 for <b>%2</b>"
+msgstr "用 %1 搜索 <b>%2</b>"
+
+#: urlbar/listitem.cpp:329
+msgid "Engines:"
+msgstr "引擎："
+
+#: urlbar/newresourcedialog.cpp:63
+msgid "Link to new Resource"
+msgstr "关联新资源"
+
+#: urlbar/newresourcedialog.cpp:64 urlbar/resourcelinkdialog.cpp:113
+msgid "Link"
+msgstr "关联"
+
+#: urlbar/newresourcedialog.cpp:70
+msgid "* Resource Name:"
+msgstr "* 资源名称："
+
+#: urlbar/newresourcedialog.cpp:75
+msgid "Description (Optional)"
+msgstr "描述 (可选)"
+
+#: urlbar/resourcelinkdialog.cpp:107
+msgid "Resource Linker"
+msgstr "资源关联器"
+
+#: urlbar/resourcelinkdialog.cpp:114
+msgid "Unlink"
+msgstr "取消关联"
+
+#: urlbar/resourcelinkdialog.cpp:127
+msgid "Search resources"
+msgstr "搜索资源"
+
+#: urlbar/resourcelinkdialog.cpp:131
+msgid "Double click to link resource"
+msgstr " 双击以关联资源 "
+
+#: urlbar/resourcelinkdialog.cpp:137
+msgid "Any resource"
+msgstr "任何资源"
+
+#: urlbar/resourcelinkdialog.cpp:137
+msgid "Persons"
+msgstr "人物"
+
+#: urlbar/resourcelinkdialog.cpp:137
+msgid "Projects"
+msgstr "项目"
+
+#: urlbar/resourcelinkdialog.cpp:137
+msgid "Tasks"
+msgstr "任务"
+
+#: urlbar/resourcelinkdialog.cpp:137
+msgid "Places"
+msgstr "位置"
+
+#: urlbar/resourcelinkdialog.cpp:137
+msgid "Notes"
+msgstr "注释"
+
+#: urlbar/resourcelinkdialog.cpp:146
+msgid "Matching resources:"
+msgstr "匹配的资源："
+
+#: urlbar/resourcelinkdialog.cpp:147
+msgid "Linked Resources:"
+msgstr "关联的资源："
+
+#: urlbar/resourcelinkdialog.cpp:151
+msgid "Create New Resource"
+msgstr "创建新资源"
+
+#: urlbar/resourcelinkdialog.cpp:228
+msgid "&Unlink"
+msgstr "取消关联(&U)"
+
+#: urlbar/rsswidget.cpp:59
+msgid "Subscribe to RSS Feeds"
+msgstr "订阅 RSS 种子"
+
+#: urlbar/rsswidget.cpp:67
+msgid "Aggregator:"
+msgstr "聚合器："
+
+#: urlbar/rsswidget.cpp:79
+msgid "Feed:"
+msgstr "种子："
+
+#: urlbar/rsswidget.cpp:94
+msgid "Add Feed"
+msgstr "添加种子"
+
+#: urlbar/rsswidget.cpp:140 urlbar/rsswidget.cpp:152
+msgid "Imported Feeds"
+msgstr "导入的种子"
+
+#: urlbar/rsswidget.cpp:144
+msgid "Could not add feed to Akregator. Please add it manually:"
+msgstr "无法向 Akregator 添加种子。请手动添加："
+
+#: urlbar/rsswidget.cpp:156
+msgid ""
+"There was an error. Please verify Akregator is installed on your system."
+msgstr "发生错误。请确认您的系统上已安装了 Akregator。"
+
+#: urlbar/sslwidget.cpp:78
+msgid "Identity"
+msgstr "标识"
+
+#: urlbar/sslwidget.cpp:88
+msgid "Warning: this site is not carrying a certificate."
+msgstr "警告：此站点没有证书。"
+
+#: urlbar/sslwidget.cpp:96
+#, kde-format
+msgid ""
+"The certificate for this site is valid and has been verified by:\n"
+"%1."
+msgstr ""
+"此站点证书有效，认证者为：\n"
+"%1。"
+
+#: urlbar/sslwidget.cpp:110
+#, kde-format
+msgid ""
+"The certificate for this site is not valid, for the following reasons:\n"
+"%1."
+msgstr ""
+"此站点证书无效，原因如下：\n"
+"%1。"
+
+#: urlbar/sslwidget.cpp:119
+msgid "Certificate Information"
+msgstr "证书信息"
+
+#: urlbar/sslwidget.cpp:127
+msgid "Encryption"
+msgstr "加密"
+
+#: urlbar/sslwidget.cpp:141
+#, kde-format
+msgid "Your connection to %1 is not encrypted.\n"
+msgstr "您到 %1 的连接未加密。\n"
+
+#: urlbar/sslwidget.cpp:150
+#, kde-format
+msgid "Your connection to \"%1\" is encrypted.\n"
+msgstr "您到 “%1”的连接已加密。\n"
+
+#: urlbar/sslwidget.cpp:182
+msgid "Unknown"
+msgstr "未知"
+
+#: urlbar/sslwidget.cpp:188
+#, kde-format
+msgid "It uses protocol: %1.\n"
+msgstr "使用协议：%1。\n"
+
+#: urlbar/sslwidget.cpp:195
+#, kde-format
+msgid ""
+"It is encrypted using %1 at %2 bits, with %3 for message authentication and "
+"%4 with Auth %5 as key exchange mechanism.\n"
+"\n"
+msgstr ""
+"此网站使用 %1 进行 %2 位加密，同时使用 %3 进行信息身份验证，%4 使用 %5 作为密"
+"钥交换机制。\n"
+"\n"
+
+#: urlbar/sslwidget.cpp:212
+msgid "Site Information"
+msgstr "站点信息"
+
+#: urlbar/sslwidget.cpp:229
+msgid "It is your first time visiting this site."
+msgstr "这是您首次访问此站点。"
+
+#: urlbar/sslwidget.cpp:233
+#, kde-format
+msgid ""
+"You just visited this site.\n"
+"Your first visit was on %1.\n"
+msgstr ""
+"您刚访问了此站点。\n"
+"您首次访问时间为 %1。\n"
+
+#: urlbar/urlbar.cpp:142 urlbar/urlbar.cpp:305
+msgid "Type here to search your bookmarks, history and the web..."
+msgstr "在此输入以搜索您的书签、历史和网页..."
+
+#: urlbar/urlbar.cpp:485
+msgid "Paste && Go"
+msgstr "粘贴并转到"
+
+#: urlbar/urlbar.cpp:490
+msgid "Paste && Search"
+msgstr "粘贴并搜索"
+
+#: urlbar/urlbar.cpp:542
+msgid "List all links with KGet"
+msgstr "用 KGet 列出全部链接"
+
+#: urlbar/urlbar.cpp:546
+msgid "List all available RSS feeds"
+msgstr "列出全部可用的 RSS 种子"
+
+#: urlbar/urlbar.cpp:567
+msgid "Add search engine"
+msgstr "添加搜索引擎"
+
+#: urlbar/urlbar.cpp:576
+msgid "AdBlock is enabled on this site"
+msgstr "此站点已启用广告屏蔽"
+
+#: urlbar/urlbar.cpp:581
+msgid "AdBlock is not enabled on this site"
+msgstr "此站点未启用广告屏蔽"
+
+#: urlbar/urlbar.cpp:810
+msgid "This site does not contain SSL information."
+msgstr "此站点不包含 SSL 信息。"
+
+#: urlbar/urlbar.cpp:811
+msgctxt "Secure Sockets Layer"
+msgid "SSL"
+msgstr "SSL"
+
+#: urlbar/urlbar.cpp:830
+msgid "Edit Bookmark"
+msgstr "编辑书签"
+
+#: urlbar/urlbar.cpp:838
+msgid "Remove from Favorites"
+msgstr "从收藏夹中删除"
+
+#: urlbar/urlbar.cpp:843
+msgid "Add to Favorites"
+msgstr "添加到收藏夹"
+
+#: urlbar/urlsuggester.cpp:300
+msgctxt "Browse a website"
+msgid "Browse"
+msgstr "浏览"
+
+#: useragent/useragentinfo.cpp:135
+#, kde-format
+msgctxt "describe UA platform, eg: firefox 3.1 \"on Windows XP\""
+msgid " on %1 %2"
+msgstr " 于 %1 %2"
+
+#: useragent/useragentmanager.cpp:64 webwindow/webwindow.cpp:347
+msgid "Browser Identification"
+msgstr "浏览器标识"
+
+#: useragent/useragentmanager.cpp:72
+msgctxt "@title:window"
+msgid "User Agent Settings"
+msgstr "用户代理设置"
+
+#: useragent/useragentmanager.cpp:99
+msgctxt "Default rekonq user agent"
+msgid "Default"
+msgstr "默认"
+
+#: useragent/useragentmanager.cpp:108
+msgid "Firefox"
+msgstr "Firefox"
+
+#: useragent/useragentmanager.cpp:111
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: useragent/useragentmanager.cpp:114
+msgid "Netscape"
+msgstr "Netscape"
+
+#: useragent/useragentmanager.cpp:120
+msgid "Safari"
+msgstr "Safari"
+
+#: useragent/useragentmanager.cpp:123
+msgid "Other"
+msgstr "其它"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
+#: useragent/useragentsettings.ui:29
+msgid "Identification"
+msgstr "标识"
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
+#: useragent/useragentsettings.ui:46
+msgid "Delete All"
+msgstr "全部删除"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: webappcreation.ui:29
+msgid "Description:"
+msgstr "描述："
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, descriptionLineEdit)
+#: webappcreation.ui:39
+msgid "(optional)"
+msgstr "(可选)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: webappcreation.ui:61
+msgid "Create Application shortcuts in:"
+msgstr "创建应用程序快捷方式于："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_createDesktopAppShortcut)
+#: webappcreation.ui:68
+msgid "Desktop"
+msgstr "桌面"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_createMenuAppShortcut)
+#: webappcreation.ui:75
+msgid "Application Menu"
+msgstr "应用程序菜单"
+
+#: webtab/clicktoflash.cpp:54
+msgid "Load Plugin"
+msgstr "装入插件"
+
+#: webtab/crashmessagebar.cpp:57
+msgid "Yes"
+msgstr "是"
+
+#: webtab/crashmessagebar.cpp:61
+msgid "No"
+msgstr "否"
+
+#: webtab/networkaccessmanager.cpp:60
+msgid "Blocked by ad filter"
+msgstr "被广告过滤器屏蔽"
+
+#: webtab/previewselectorbar.cpp:61
+msgid "Please open up the webpage you want to add as favorite"
+msgstr "请打开您想要添加为收藏的网页"
+
+#: webtab/previewselectorbar.cpp:63
+msgid "Set to This Page"
+msgstr "设为此页"
+
+#: webtab/previewselectorbar.cpp:80
+msgid "You cannot add this webpage as favorite"
+msgstr "您不能将此页添加为收藏"
+
+#: webtab/previewselectorbar.cpp:88
+msgid "Page is loading..."
+msgstr "页面正在装入..."
+
+#: webtab/protocolhandler.cpp:222
+#, kde-format
+msgctxt "@info"
+msgid "rekonq does not know how to handle this protocol: %1"
+msgstr "rekonq 不知道如何处理此协议：%1"
+
+#: webtab/protocolhandler.cpp:342
+#, kde-format
+msgctxt "%1=an URL"
+msgid "<h2>Index of %1</h2>"
+msgstr "<h2>%1 的索引</h2>"
+
+#: webtab/protocolhandler.cpp:350
+msgid "Up to higher level directory"
+msgstr "转到上一级目录"
+
+#: webtab/protocolhandler.cpp:355
+msgid "Name"
+msgstr "名称"
+
+#: webtab/protocolhandler.cpp:356
+msgid "Size"
+msgstr "大小"
+
+#: webtab/protocolhandler.cpp:357
+msgid "Last Modified"
+msgstr "修改时间"
+
+#: webtab/searchenginebar.cpp:61
+msgid ""
+"You do not have a default search engine set. Without it, rekonq will not "
+"show proper URL suggestions."
+msgstr "您尚未设置默认的搜索引擎。rekonq 将无法显示合适的网址建议。"
+
+#: webtab/searchenginebar.cpp:63
+msgid "Set it"
+msgstr "设置"
+
+#: webtab/searchenginebar.cpp:67 webtab/webview.cpp:255
+msgid "Ignore"
+msgstr "忽略"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: webtab/sslinfo.ui:23
+msgid "<h2>Certificate Information</h2>"
+msgstr "<h2>证书信息</h2>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: webtab/sslinfo.ui:45
+msgid "Certificate Chain:"
+msgstr "证书链："
+
+#. i18n: ectx: property (text), widget (QLabel, label_20)
+#: webtab/sslinfo.ui:103
+msgid "<h4>Issued To:</h4>"
+msgstr "<h4>颁发给：</h4>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: webtab/sslinfo.ui:124 webtab/sslinfo.ui:216
+msgid "Common Name (CN):"
+msgstr "通用名称 (CN)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: webtab/sslinfo.ui:138 webtab/sslinfo.ui:230
+msgid "Organization (O):"
+msgstr "组织 (O)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_16)
+#: webtab/sslinfo.ui:152 webtab/sslinfo.ui:237
+msgid "Organizational Unit (OU):"
+msgstr "组织单位 (OU)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: webtab/sslinfo.ui:166
+msgid "Serial Number:"
+msgstr "序列号："
+
+#. i18n: ectx: property (text), widget (QLabel, label_21)
+#: webtab/sslinfo.ui:195
+msgid "<h4>Issued By:</h4>"
+msgstr "<h4>颁发者：</h4>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_22)
+#: webtab/sslinfo.ui:273
+msgid "<h4>Validity Period:</h4>"
+msgstr "<h4>有效期：</h4>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: webtab/sslinfo.ui:294
+msgid "Issued on:"
+msgstr "颁发时间："
+
+#. i18n: ectx: property (text), widget (QLabel, label_18)
+#: webtab/sslinfo.ui:308
+msgid "Expires on:"
+msgstr "过期时间："
+
+#. i18n: ectx: property (text), widget (QLabel, label_23)
+#: webtab/sslinfo.ui:337
+msgid "<h4>Digests:</h4>"
+msgstr "<h4>摘要：</h4>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_36)
+#: webtab/sslinfo.ui:358
+msgid "MD5:"
+msgstr "MD5:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_38)
+#: webtab/sslinfo.ui:372
+msgid "SHA-1:"
+msgstr "SHA-1："
+
+#: webtab/sslinfodialog.cpp:53
+msgid "Rekonq SSL Information"
+msgstr "Rekonq SSL 信息"
+
+#: webtab/sslinfodialog.cpp:60
+msgid "Export"
+msgstr "导出"
+
+#: webtab/sslinfodialog.cpp:122
+msgid "The certificate is valid"
+msgstr "证书有效"
+
+#: webtab/sslinfodialog.cpp:127
+msgid "The certificate for this site is not valid for the following reasons:"
+msgstr "此站点证书无效，原因如下："
+
+#: webtab/walletbar.cpp:53
+msgid "Remember"
+msgstr "记住"
+
+#: webtab/walletbar.cpp:57
+msgid "Never for This Site"
+msgstr "不对此网站"
+
+#: webtab/walletbar.cpp:61
+msgid "Not Now"
+msgstr "不是现在"
+
+#: webtab/walletbar.cpp:99
+#, kde-format
+msgid "Do you want rekonq to remember the password on %1?"
+msgstr "您想要让 rekonq 记住 %1 上的密码吗？"
+
+#: webtab/webpage.cpp:281
+msgid "Are you sure you want to send your data again?"
+msgstr "您确定想要再次发送您的数据吗？"
+
+#: webtab/webpage.cpp:282
+msgid "Resend form data"
+msgstr "重新发送表单数据"
+
+#: webtab/webpage.cpp:456
+msgid "No service can handle this file."
+msgstr "没有可处理这个文件的服务。"
+
+#: webtab/webpage.cpp:477
+msgid "rekonq cannot properly handle this, sorry"
+msgstr "抱歉，rekonq 无法正确处理"
+
+#: webtab/webpage.cpp:702
+msgid "There was a problem while loading the page"
+msgstr "装入页面时出错"
+
+#: webtab/webpage.cpp:709
+msgid "Network is not available"
+msgstr "网络不可用"
+
+#: webtab/webpage.cpp:719
+#, kde-format
+msgid ""
+"Maybe you are having problems with your network settings.<br />Try checking "
+"your <a href=\"%1\">network connections</a>, your <a href=\"%2\">proxy "
+"settings</a> and your <a href=\"%3\">firewall</a>.<br /><br />Then <a href="
+"\"%4\">try again</a>.<br />"
+msgstr ""
+"可能您的网络设置有些问题。<br />试试检查您的<a href=\"%1\">网络连接</a>， 您"
+"的 <a href=\"%2\">代理设置</a>和您的<a href=\"%3\">防火墙</a>。<br /><br />然"
+"后<a href=\"%4\">重试</a>。<br />"
+
+#: webtab/webpage.cpp:739
+msgid "Oops... Proxy problems!"
+msgstr "代理问题！"
+
+#: webtab/webpage.cpp:751
+#, kde-format
+msgid ""
+"It seems you are having problems with your <a href=\"%1\">proxy settings</"
+"a>. Try checking them, <br /><br />then <a href=\"%2\">try again</a>.<br />"
+msgstr ""
+"可能<a href=\"%1\">代理设置</a>有问题，请检查代理设置<br /><br />然后 <a "
+"href=\"%2\">重试</a>.<br />"
+
+#: webtab/webpage.cpp:769
+#, kde-format
+msgid "Oops! Cannot load <em>%1</em>"
+msgstr "哎呀！无法载入 <em>%1</em>"
+
+#: webtab/webpage.cpp:785
+#, fuzzy, kde-format
+#| msgid "Ask your default search engine about:"
+msgid ""
+"Ask your default search engine about: <a href=\"%1\">search with %2</a>.<br /"
+">"
+msgstr "询问您的默认搜索引擎关于："
+
+#: webtab/webpage.cpp:792
+#, fuzzy
+#| msgid ""
+#| "You don't have a default search engine set. We won't suggest you one."
+msgid ""
+"You do not have a default search engine set. We will not suggest you one."
+msgstr "您尚未设置默认的搜索引擎。我们不会给您推荐一个。"
+
+#: webtab/webpage.cpp:797
+#, kde-format
+msgid ""
+"Consult a cached snapshot of the site: try checking the <a href="
+"\"%1\">Wayback Machine</a> or the <a href=\"%2\">Google Cache</a>."
+msgstr ""
+
+#: webtab/webpage.cpp:803
+#, kde-format
+msgid "<a href='%1'>Try Again</a>"
+msgstr "<a href='%1'>重试</a>"
+
+#: webtab/webtab.cpp:354
+msgid ""
+"It seems rekonq was not closed properly. Do you want to restore the last "
+"saved session?"
+msgstr "rekonq 似乎未正常关闭。您想要恢复上次保存的会话吗？"
+
+#: webtab/webtab.cpp:429
+#, kde-format
+msgid "Maximum zoom reached: %1%"
+msgstr "达到最大缩放级别：%1%"
+
+#: webtab/webtab.cpp:448
+#, kde-format
+msgid "Minimum zoom reached: %1%"
+msgstr "达到最小缩放级别：%1%"
+
+#: webtab/webtab.cpp:484
+#, kde-format
+msgid "Default zoom: %1%"
+msgstr "默认缩放：%1%"
+
+#: webtab/webtab.cpp:486
+#, kde-format
+msgid "Zooming: %1%"
+msgstr "缩放：%1%"
+
+#: webtab/webview.cpp:239
+#, kde-format
+msgid "No suggestions for %1"
+msgstr "没有对 %1 的建议"
+
+#: webtab/webview.cpp:256
+msgid "Add to Dictionary"
+msgstr "添加到字典"
+
+#: webtab/webview.cpp:342
+msgid "Share page URL"
+msgstr "分享页面链接"
+
+#: webtab/webview.cpp:361
+msgid "Current Frame"
+msgstr "当前框架"
+
+#: webtab/webview.cpp:364
+msgid "Print Frame"
+msgstr "打印框架"
+
+#: webtab/webview.cpp:380
+msgid "List All Links"
+msgstr "列出全部链接"
+
+#: webtab/webview.cpp:397
+msgid "Share link"
+msgstr "分享链接"
+
+#: webtab/webview.cpp:399
+msgid "Open in New &Tab"
+msgstr "在新标签中打开(&T)"
+
+#: webtab/webview.cpp:404
+msgid "Open in New &Window"
+msgstr "在新窗口中打开(&W)"
+
+#: webtab/webview.cpp:411
+msgid "Open in Private &Window"
+msgstr "在新隐身窗口中打开(&W)"
+
+#: webtab/webview.cpp:419
+#, fuzzy
+#| msgid "Open file"
+msgid "Open &Here"
+msgstr "打开文件"
+
+#: webtab/webview.cpp:430
+msgid "Save Link..."
+msgstr "保存链接..."
+
+#: webtab/webview.cpp:432
+msgid "Save Link"
+msgstr "保存链接"
+
+#: webtab/webview.cpp:442
+msgid "Share image link"
+msgstr "分享图像链接"
+
+#: webtab/webview.cpp:446
+msgid "&View Image"
+msgstr "查看图像(&V)"
+
+#: webtab/webview.cpp:452
+msgid "Save image as..."
+msgstr "图片另存为..."
+
+#: webtab/webview.cpp:457
+msgid "&Copy Image Location"
+msgstr "复制图像位置(&C)"
+
+#: webtab/webview.cpp:464
+msgid "Block image"
+msgstr "屏蔽图像"
+
+#: webtab/webview.cpp:476
+msgid "Share selected text"
+msgstr "分享选中的文本"
+
+#: webtab/webview.cpp:486
+msgid "Copy Text"
+msgstr "复制文本"
+
+#: webtab/webview.cpp:488
+msgid "Copy"
+msgstr "复制"
+
+#: webtab/webview.cpp:512
+#, kde-format
+msgid "Open '%1' in New Tab"
+msgstr "在新标签中打开“%1”"
+
+#: webtab/webview.cpp:519
+#, kde-format
+msgid "Open '%1' in New Window"
+msgstr "在新窗口中打开“%1”"
+
+#: webtab/webview.cpp:531
+#, kde-format
+msgctxt "Search selected text with the default search engine"
+msgid "Search with %1"
+msgstr "搜索于 %1"
+
+#: webtab/webview.cpp:540
+msgctxt "@title:menu"
+msgid "Search"
+msgstr "搜索"
+
+#: webtab/webview.cpp:544
+#, kde-format
+msgctxt "@item:inmenu Search, %1 = search engine"
+msgid "With %1"
+msgstr "于 %1"
+
+#: webtab/webview.cpp:553
+msgid "On Current Page"
+msgstr "在当前页"
+
+#: webtab/webview.cpp:570
+msgid "&Bookmark link"
+msgstr "收藏链接(&B)"
+
+#: webtab/webview.cpp:600
+msgid "Exit FullScreen Mode"
+msgstr "退出全屏模式"
+
+#: webwindow/findbar.cpp:57
+msgid "&Match case"
+msgstr "区分大小写(&M)"
+
+#: webwindow/findbar.cpp:58
+msgid "&Highlight all"
+msgstr "全部突出显示(&H)"
+
+#: webwindow/findbar.cpp:74
+msgid "Find:"
+msgstr "查找："
+
+#: webwindow/findbar.cpp:87
+msgid "&Next"
+msgstr "下一个(&N)"
+
+#: webwindow/findbar.cpp:88
+msgid "&Previous"
+msgstr "上一个(&P)"
+
+#. i18n: ectx: Menu (openMenu)
+#: webwindow/rekonqui.rc:8
+msgid "&Open"
+msgstr "打开(&O)"
+
+#. i18n: ectx: Menu (zoomMenu)
+#: webwindow/rekonqui.rc:21
+msgid "&Zoom"
+msgstr "缩放(&Z)"
+
+#. i18n: ectx: Menu (toolsMenu)
+#. i18n: ectx: Menu (tools)
+#: webwindow/rekonqui.rc:30 webwindow/rekonqui.rc:136
+#: webwindow/webwindow.cpp:386
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: Menu (panelsMenu)
+#: webwindow/rekonqui.rc:51
+msgid "&Panels"
+msgstr "面板(&P)"
+
+#. i18n: ectx: Menu (help)
+#: webwindow/rekonqui.rc:61
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: Menu (file)
+#: webwindow/rekonqui.rc:84
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (edit)
+#: webwindow/rekonqui.rc:99
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (view)
+#: webwindow/rekonqui.rc:112
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: Menu (go)
+#: webwindow/rekonqui.rc:124
+msgid "&Go"
+msgstr "转到(&G)"
+
+#. i18n: ectx: Menu (settings)
+#: webwindow/rekonqui.rc:151
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: webwindow/rekonqui.rc:168
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: webwindow/webwindow.cpp:198
+msgid "Location Bar"
+msgstr "位置栏"
+
+#: webwindow/webwindow.cpp:202
+msgid "Clear Urlbar"
+msgstr ""
+
+#: webwindow/webwindow.cpp:213
+msgid "&New Window"
+msgstr "新窗口(&N)"
+
+#: webwindow/webwindow.cpp:241
+msgid "Configure Main ToolBar"
+msgstr "配置主工具栏"
+
+#: webwindow/webwindow.cpp:246
+msgid "Bookmarks Toolbar"
+msgstr "书签工具栏"
+
+#: webwindow/webwindow.cpp:257
+msgid "Downloads page"
+msgstr "下载页面"
+
+#: webwindow/webwindow.cpp:263
+msgid "History page"
+msgstr "历史页面"
+
+#: webwindow/webwindow.cpp:269
+msgid "Bookmarks page"
+msgstr "书签页面"
+
+#: webwindow/webwindow.cpp:289
+msgid "&Stop"
+msgstr "停止(&S)"
+
+#: webwindow/webwindow.cpp:295
+msgid "Open Location"
+msgstr "打开位置"
+
+#: webwindow/webwindow.cpp:303
+msgid "&Manage Sessions"
+msgstr "管理会话(&M)"
+
+#: webwindow/webwindow.cpp:308
+msgid "View Page S&ource"
+msgstr "查看页面源文件(&O)"
+
+#: webwindow/webwindow.cpp:314
+msgid "New Private Window"
+msgstr "新建隐身窗口"
+
+#: webwindow/webwindow.cpp:319
+msgid "Clear Private Data..."
+msgstr "清除隐私数据..."
+
+#: webwindow/webwindow.cpp:354
+msgid "Set Editable"
+msgstr "设定可编辑"
+
+#: webwindow/webwindow.cpp:360
+msgid "Ad Block"
+msgstr "广告屏蔽"
+
+#: webwindow/webwindow.cpp:365
+msgid "Create application shortcut"
+msgstr "创建应用程序快捷方式"
+
+#: webwindow/webwindow.cpp:375
+msgid "&Inspect"
+msgstr "检查元素(&I)"
+
+#: webwindow/webwindow.cpp:435
+msgid "Stop loading the current page"
+msgstr "停止装入当前页面"
+
+#: webwindow/webwindow.cpp:436
+msgid "Stop"
+msgstr "停止"
+
+#: webwindow/webwindow.cpp:454
+msgid "Reload the current page"
+msgstr "刷新当前页面"
+
+#: webwindow/webwindow.cpp:466 webwindow/webwindow.cpp:467
+msgid "Go"
+msgstr "转到"
+
+#: webwindow/webwindow.cpp:750
+msgid ""
+"*.html *.htm *.svg *.png *.gif *.svgz|Web Resources (*.html *.htm *.svg *."
+"png *.gif *.svgz)\n"
+"*.*|All files (*.*)"
+msgstr ""
+"*.html *.htm *.svg *.png *.gif *.svgz|网页资源(*.html *.htm *.svg *.png *."
+"gif *.svgz)\n"
+"*.*|所有文件 (*.*)"
+
+#: webwindow/webwindow.cpp:753
+msgid "Open Web Resource"
+msgstr "打开网页资源"
+
+#: webwindow/webwindow.cpp:1021
+msgid "web window"
+msgstr "网页窗口"
+
+#: webwindow/webwindow.cpp:1025
+msgid "tab window"
+msgstr "标签页窗口"
+
+#~ msgid "Change them"
+#~ msgstr "更改"
+
+#~ msgid "Google Reader"
+#~ msgstr "Google Reader"
+
+#~ msgid "none"
+#~ msgstr "无"
+
+#~ msgid ""
+#~ "The certificate for this site is NOT valid, for the following reasons:\n"
+#~ "%1."
+#~ msgstr ""
+#~ "此站点证书无效，原因如下：\n"
+#~ "%1。"
+
+#~ msgid "Md5:"
+#~ msgstr "Md5："
+
+#~ msgid "Done!"
+#~ msgstr "完成！"
+
+#~ msgid "AdBlock is NOT enabled on this site"
+#~ msgstr "此站点未启用广告屏蔽"
+
+#~ msgid "search with %1"
+#~ msgstr "搜索 %1"
+
+#~ msgid "Consult a cached snapshot of the site: "
+#~ msgstr "查阅此站点的缓存快照： "
+
+#~ msgid "try checking the <a href=\"%1\">Wayback Machine</a>"
+#~ msgstr "试试查询<a href=\"%1\">Wayback Machine</a>"
+
+#~ msgid " or the <a href=\"%1\">Google Cache</a>."
+#~ msgstr " 或者 <a href=\"%1\">Google 网页快照</a>。"
+
+#~ msgid "Hi&story"
+#~ msgstr "历史(&S)"
+
+#~ msgid "<h4>Remove this favorite?</h4>"
+#~ msgstr "<h4>删除此收藏吗？</h4>"
+
+#~ msgid "Name: %1"
+#~ msgstr "名称：%1"
+
+#~ msgid "URL: %1"
+#~ msgstr "URL：%1"
+
+#~ msgid "Bookmark this page"
+#~ msgstr "将此页加入书签"
+
+#~ msgid "Edit this bookmark"
+#~ msgstr "编辑此书签"
+
+#~ msgid "Show SSL Info"
+#~ msgstr "显示 SSL 信息"
+
+#~ msgid "Startup"
+#~ msgstr "启动"
+
+#~ msgid "Home Page"
+#~ msgstr "主页"
+
+#~ msgid "Use the New Tab Page as home page"
+#~ msgstr "使用新标签页作为主页"
+
+#~ msgctxt "@title:window"
+#~ msgid "Configure Shortcuts"
+#~ msgstr "配置快捷键"
+
+#~ msgid "data"
+#~ msgstr "数据"
+
+#~ msgid "sync"
+#~ msgstr "同步"
+
+#~ msgid "bookmarks"
+#~ msgstr "书签"
+
+#~ msgid "history"
+#~ msgstr "历史"
+
+#~ msgid "passwords"
+#~ msgstr "密码"
+
+#~ msgctxt "@title:window"
+#~ msgid "Blocked elements"
+#~ msgstr "屏蔽的元素"
+
+#~ msgid "Unblock"
+#~ msgstr "取消屏蔽"
+
+#~ msgid "There is %1 hidden element in this page."
+#~ msgid_plural "There are %1 hidden elements in this page."
+#~ msgstr[0] "此页面中有 %1 个隐藏的元素。"
+
+#~ msgid "Hiding elements is disabled."
+#~ msgstr "隐藏元素已禁用。"
+
+#~ msgid "Unblocked"
+#~ msgstr "取消屏蔽"
+
+#~ msgid "Method"
+#~ msgstr "方法"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Response"
+#~ msgstr "响应"
+
+#~ msgid "Length"
+#~ msgstr "长度"
+
+#~ msgid "Content Type"
+#~ msgstr "内容类型"
+
+#~ msgid "Info"
+#~ msgstr "信息"
+
+#~ msgid "Copy URL"
+#~ msgstr "复制 URL"
+
+#~ msgid "Pending"
+#~ msgstr "推迟"
+
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
+
+#~ msgid "Redirect: %1"
+#~ msgstr "重定向：%1"
+
+#~ msgid "<h3>Request Details</h3>"
+#~ msgstr "<h3>请求细节</h3>"
+
+#~ msgid "<h3>Response Details</h3>"
+#~ msgstr "<h3>响应细节</h3>"
+
+#~ msgid "Private &Browsing"
+#~ msgstr "隐私浏览(&B)"
+
+#~ msgid "Are you sure you want to turn on private browsing?"
+#~ msgstr "您确定想要启用隐私浏览吗？"
+
+#~ msgid ""
+#~ "<b>%1</b><p>rekonq will save your current tabs for when you'll stop "
+#~ "private browsing the net.</p>"
+#~ msgstr "<b>%1</b><p>rekonq 将会在您隐私浏览互联网前保存您当前的标签页。</p>"
+
+#~ msgid "don't ask again"
+#~ msgstr "不再询问"
+
+#~ msgid ""
+#~ "This tab contains changes that have not been submitted.\n"
+#~ "Closing the tab will discard these changes.\n"
+#~ "Do you really want to close this tab?\n"
+#~ msgstr ""
+#~ "此标签中包含尚未提交的更改。\n"
+#~ "关闭标签将会丢弃这些更改。\n"
+#~ "您真的想要关闭此标签吗？\n"
+
+#~ msgid "Closing Modified Tab"
+#~ msgstr "关闭已修改的标签"
+
+#~ msgid "Close &Tab"
+#~ msgstr "关闭标签(&T)"
+
+#~ msgid "Tab List"
+#~ msgstr "标签列表"
+
+#~ msgid "Reload Tab"
+#~ msgstr "刷新标签"
+
+#~ msgid "Web Inspector"
+#~ msgstr "网页检查器"
+
+#~ msgid "Network Analyzer"
+#~ msgstr "网络分析器"
+
+#~ msgctxt "Window title when private browsing is activated"
+#~ msgid "rekonq (Private Browsing)"
+#~ msgstr "rekonq (隐私浏览)"
+
+#~ msgctxt "window title, %1 = title of the active website"
+#~ msgid "%1 – rekonq (Private Browsing)"
+#~ msgstr "%1 – rekonq (隐私浏览)"
+
+#~ msgctxt "window title, %1 = title of the active website"
+#~ msgid "%1 – rekonq"
+#~ msgstr "%1 – rekonq"
+
+#~ msgid "Null reply"
+#~ msgstr "空响应"
+
+#~ msgid "The file is not an OpenSearch 1.1 file."
+#~ msgstr "文件不是 OpenSearch 1.1 文件。"
+
+#~ msgid "Always show tab bar"
+#~ msgstr "总是显示标签栏"
+
+#~ msgid "Don't use tabs: open links in new windows"
+#~ msgstr "不使用标签：在新窗口中打开链接"
+
+#~ msgid "Animated tab highlighting"
+#~ msgstr "标签突出显示动画"
+
+#~ msgid "Choose..."
+#~ msgstr "选择..."
+
+#, fuzzy
+#~| msgid "There are no recently closed tabs"
+#~ msgid "There are elements blocked by AdBlock"
+#~ msgstr "没有最近关闭的标签"
+
+#~ msgid "Add Search Engine"
+#~ msgstr "添加搜索引擎"
+
+#~ msgid "Shortcuts:"
+#~ msgstr "快捷方式："
+
+#~ msgid "The shortcut \"%1\" is already assigned to \"%2\"."
+#~ msgstr "快捷方式“%1”已指派给了“%2”。"
+
+#, fuzzy
+#~| msgid ""
+#~| "Check the address for errors such as <b>ww</b>.kde.org instead of "
+#~| "<b>www</b>.kde.org"
+#~ msgid ""
+#~ "Check your address for errors like <em>ww.kde.org</em> instead of <em>www."
+#~ "kde.org</em>.<br />"
+#~ msgstr "检查地址的错误，比如 <b>ww</b>.kde.org 而不是 <b>www</b>.kde.org"
+
+#~ msgid "<h2>Suggestions</h2>"
+#~ msgstr "<h2>建议</h2>"
+
+#~ msgid "Inspect Element"
+#~ msgstr "检查元素"
+
+#~ msgctxt "percentage of the website zoom"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "percentage of the website zoom"
+#~ msgid "%1%"
+#~ msgstr "%1%"
+
+#~ msgid "Provided Patches & Hints, Discovered Bugs"
+#~ msgstr "提供补丁和主意、发现错误"
+
+#~ msgid "ICON"
+#~ msgstr "图标"
+
+#~ msgid "TITLE"
+#~ msgstr "标题"
+
+#~ msgid ""
+#~ "Handbook, Maintains a Kubuntu PPA with rekonq git packages. And now he "
+#~ "also started coding.."
+#~ msgstr "手册、维护 rekonq git 软件包的 Kubuntu PPA,现亦开始编程。"
+
+#~ msgid "days"
+#~ msgstr "天"
+
+#~ msgid "misc"
+#~ msgstr "杂项"
+
+#~ msgid "Set new favorite"
+#~ msgstr "设定新收藏"
+
+#~| msgid "Bookmarks"
+#~ msgid "Google Bookmarks"
+#~ msgstr "Google 书签"
+
+#~ msgid "Edit this Bookmark"
+#~ msgstr "编辑此书签"
+
+#~ msgid "Remove this Bookmark"
+#~ msgstr "删除此书签"
+
+#~ msgctxt "%1=an URL, e.g.'kde.org'"
+#~ msgid "When connecting to: <b>%1</b>"
+#~ msgstr "当连接到：<b>%1</b>"
+
+#~ msgid "If the address is correct, try to check the network connection."
+#~ msgstr "如果地址正确，那么试着检查网络连接。"
+
+#~ msgid ""
+#~ "If your computer or network is protected by a firewall or proxy, make "
+#~ "sure that rekonq is permitted to access the network."
+#~ msgstr ""
+#~ "如果您的计算机或网络处于防火墙之后或使用代理，请确保允许 rekonq 访问网络。"
+
+#~ msgid ""
+#~ "Of course, if rekonq does not work properly, you can always say it is a "
+#~ "programmer error ;)"
+#~ msgstr "当然，要是 rekonq 工作不正常，您总是可以归咎于是程序员的错 ;)"
+
+#~ msgid "Try Again"
+#~ msgstr "重试"
+
+#~ msgid "Stylesheets"
+#~ msgstr "样式表"
+
+#~ msgid "Network"
+#~ msgstr "网络"
+
+#~ msgid ""
+#~ "\n"
+#~ " %1,\n"
+#~ " %2 (required by %3)\n"
+#~ msgstr ""
+#~ "\n"
+#~ " %1，\n"
+#~ " %2 (%3 所需)\n"
+
+#~ msgid ""
+#~ "Do you want to add the following subscriptions to your adblock settings?\n"
+#~ msgstr "您想要将以下订阅添加到广告屏蔽设置中吗？\n"
+
+#~ msgid "Add automatic subscription to the adblock"
+#~ msgstr "自动将订阅添加到广告屏蔽"
+
+#~ msgid "Add"
+#~ msgstr "添加"
+
+#~ msgid "Discard"
+#~ msgstr "丢弃"
+
+#~ msgid "Open links in new tab instead of in new window"
+#~ msgstr "在新标签中打开链接而不是新窗口"
+
+#~ msgid "Johannes Zellner"
+#~ msgstr "Johannes Zellner"
+
+#~ msgid "Patches, Suggestions, Testing, Bugfixing"
+#~ msgstr "补丁、建议、测试、错误修复"
+
+#~ msgid "Matthieu Gicquel"
+#~ msgstr "Matthieu Gicquel"
+
+#~ msgid "Developer, Ideas, New Tab Page improvements"
+#~ msgstr "开发者、金点子、新标签页改进"
+
+#~ msgid "Ronny Scholz"
+#~ msgstr "Ronny Scholz"
+
+#~ msgid "(Tons of) Patches, Testing, Bugfixing"
+#~ msgstr "(大量的)补丁、测试、错误修复"
+
+#~ msgid "Nikhil Marathe"
+#~ msgstr "Nikhil Marathe"
+
+#~ msgid "Bugfixing"
+#~ msgstr "错误修复"
+
+#~ msgid "Abdurrahman AVCI"
+#~ msgstr "Abdurrahman AVCI"
+
+#~ msgid "Provided Patches & Hints"
+#~ msgstr "提供补丁和意见"
+
+#~ msgid "Domrachev Alexandr"
+#~ msgstr "Domrachev Alexandr"
+
+#~ msgid "Former Developer"
+#~ msgstr "前任开发者"
+
+#~ msgid "Abuus"
+#~ msgstr "Abuus"
+
+#~ msgid "Webview mouse event support"
+#~ msgstr "Webview 鼠标事件支持"
+
+#~ msgid "Ivan Čukić"
+#~ msgstr "Ivan Čukić"
+
+#~ msgid "Patches, Bugfixing and Ideas"
+#~ msgstr "补丁、错误修复和金点子"
+
+#~ msgid "Adrià Arrufat"
+#~ msgstr "Adrià Arrufat"
+
+#~ msgid "New Tab Page loading animation"
+#~ msgstr "新标签页装入动画"
+
+#~ msgid "Pawel Prazak"
+#~ msgstr "Pawel Prazak"
+
+#~ msgid "Dario Freddi"
+#~ msgstr "Dario Freddi"
+
+#~ msgid "Patches, Hints, First implementation of KWallet support"
+#~ msgstr "补丁、提示、首个 KWallet 支持实现"
+
+#~ msgid "Jon de Andrés Frías"
+#~ msgstr "Jon de Andrés Frías"
+
+#~ msgid "First awesome bar implementation"
+#~ msgstr "首个令人惊叹的地址栏实现"
+
+#~ msgid "Overwrite File?"
+#~ msgstr "覆盖文件吗？"
+
+#~ msgid "Clear Private Data"
+#~ msgstr "清除隐私数据"
+
+#~ msgid "Search with"
+#~ msgstr "搜索于"
+
+#~ msgid "Links included in focus chain"
+#~ msgstr "包含于键盘焦点链中的超链接"
+
+#~ msgid "Plugin Settings"
+#~ msgstr "插件设置"
+
+#~ msgid "Specifies whether images are automatically loaded in web pages."
+#~ msgstr "指定是否自动装入网页中的图像。"
+
+#~ msgid "Enables support for plugins in web pages."
+#~ msgstr "启用网页中的插件支持。"
+
+#~ msgid "If enabled, hyperlinks are included in the keyboard focus chain."
+#~ msgstr "如果启用，则将超链接包含于键盘焦点链中。"
+
+#~ msgid "If enabled, the zoom factor on a frame is only applied to the text."
+#~ msgstr "如果启用，则框架中的缩放系数只应用于文本。"
+
+#~ msgid "Toggle automatic scrolling on middle click in a web page"
+#~ msgstr "切换中键点击网页时是否自动滚动"
+
+#~ msgid "Auto-scroll on middle-click"
+#~ msgstr "中键自动滚动"
+
+#~ msgid "Ok"
+#~ msgstr "确定"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "Are you sure you want to close the window?"
+#~ msgstr "您确定要关闭窗口吗？"
+
+#, fuzzy
+#~| msgid "&Tools"
+#~ msgid "Tools"
+#~ msgstr "工具(&T)"
+
+#~ msgid "Development"
+#~ msgstr "开发"
+
+#~ msgid "Show web developer tools"
+#~ msgstr "显示网页开发工具"
+
+#~ msgid "<h4>Edit this Bookmark</h4>"
+#~ msgstr "<h4>编辑此书签</h4>"
+
+#, fuzzy
+#~| msgctxt "%1=an URL, e.g.'kde.org'"
+#~| msgid "When connecting to: <b>%1</b>"
+#~ msgid "The connection uses %1.\n"
+#~ msgstr "当连接到：<b>%1</b>"
+
+#~ msgid "The SSL information for this site appears to be corrupt."
+#~ msgstr "此站点的 SSL 信息似乎已损坏。"
+
+#~ msgid "Continue"
+#~ msgstr "继续"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "rekonq cannot handle this URL.                         Please use an "
+#~ "appropriate application to open it."
+#~ msgstr ""
+#~ "rekonq 无法处理此 URL。                         请使用恰当的应用程序打开"
+#~ "它。"

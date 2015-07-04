@@ -1,0 +1,2320 @@
+# translation of kate.po to 简体中文
+# Message Translation for kate.
+# Copyright (C) 2000,2003, 2008 Free Software Foundation, Inc.
+#
+# Gou Zhuang <gouzhuang@bigfoot.com>, 2000.
+# Sarah Smith <sarahs@redhat.com>, 2002.
+# Jiang Xiong <jxiong@offtopic.org>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# 张忠立 <netwind2003@263.net>, 2005.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2009.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2010, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2011, 2012, 2013.
+# Phoenix Nemo <phoenixlzx@archlinuxcn.org>, 2014.
+# Feng Chao <chaofeng111@gmail.com>, 2011, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: kate\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-21 01:37+0000\n"
+"PO-Revision-Date: 2014-02-22 11:40+0800\n"
+"Last-Translator: Feng Chao <chaofeng111@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: app/kateapp.cpp:222 app/kateapp.cpp:350
+#, kde-format
+msgid ""
+"The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr "无法打开文件“%1”；它不是一个普通文件，而是一个文件夹。"
+
+#: app/kateappcommands.cpp:91
+msgid "All documents written to disk"
+msgstr "所有写入磁盘的文档"
+
+#: app/kateappcommands.cpp:94
+msgid "Document written to disk"
+msgstr "文档已写入磁盘"
+
+#: app/kateappcommands.cpp:201
+msgid ""
+"<p><b>w/wa &mdash; write document(s) to disk</b></p><p>Usage: <tt><b>w[a]</"
+"b></tt></p><p>Writes the current document(s) to disk. It can be called in "
+"two ways:<br /> <tt>w</tt> &mdash; writes the current document to disk<br /> "
+"<tt>wa</tt> &mdash; writes all documents to disk.</p><p>If no file name is "
+"associated with the document, a file dialog will be shown.</p>"
+msgstr ""
+"<p><b>w/wa &mdash; 将文档写入磁盘</b></p><p>使用：<tt><b>w[a]</b></tt></p><p>"
+"将当前文档写入磁盘。它可以通过两种方式调用：<br /> <tt>w</tt> &mdash; 将当前"
+"文档写入磁盘<br /> <tt>wa</tt> &mdash; 将所有文档写入磁盘。</p><p>如果文件未"
+"命名，将会显示文件对话框。</p>"
+
+#: app/kateappcommands.cpp:212
+msgid ""
+"<p><b>q/qa/wq/wqa &mdash; [write and] quit</b></p><p>Usage: <tt><b>[w]q[a]</"
+"b></tt></p><p>Quits the application. If <tt>w</tt> is prepended, it also "
+"writes the document(s) to disk. This command can be called in several ways:"
+"<br /> <tt>q</tt> &mdash; closes the current view.<br /> <tt>qa</tt> &mdash; "
+"closes all views, effectively quitting the application.<br /> <tt>wq</tt> "
+"&mdash; writes the current document to disk and closes its view.<br /> "
+"<tt>wqa</tt> &mdash; writes all documents to disk and quits.</p><p>In all "
+"cases, if the view being closed is the last view, the application quits. If "
+"no file name is associated with the document and it should be written to "
+"disk, a file dialog will be shown.</p>"
+msgstr ""
+"<p><b>q/qa/wq/wqa &mdash; [写入] 退出</b></p><p>使用：<tt><b>[w]q[a]</b></"
+"tt></p><p>退出程序。如果命令开头为<tt>w</tt>，它同时也会将文档写入磁盘。这条"
+"命令可以通过以下方式调用：<br /> <tt>q</tt> &mdash; 关闭当前视图。<br /> "
+"<tt>qa</tt> &mdash; 关闭所有视图，有效地退出程序。<br /> <tt>wq</tt> &mdash; "
+"将当前文档写入磁盘并关闭它的视图。<br /> <tt>wqa</tt> &mdash; 将所有文档写入"
+"磁盘并退出。</p><p>在所有方式中，如果关闭的是最后一个视图，那么程序退出。如果"
+"文件未命名，将会显示文件对话框。</p>"
+
+#: app/kateappcommands.cpp:227
+msgid ""
+"<p><b>x/xa &mdash; write and quit</b></p><p>Usage: <tt><b>x[a]</b></tt></"
+"p><p>Saves document(s) and quits (e<b>x</b>its). This command can be called "
+"in two ways:<br /> <tt>x</tt> &mdash; closes the current view.<br /> <tt>xa</"
+"tt> &mdash; closes all views, effectively quitting the application.</p><p>In "
+"all cases, if the view being closed is the last view, the application quits. "
+"If no file name is associated with the document and it should be written to "
+"disk, a file dialog will be shown.</p><p>Unlike the 'w' commands, this "
+"command only writes the document if it is modified.</p>"
+msgstr ""
+"<p><b>x/xa &mdash; 写入并退出</b></p><p>用法: <tt><b>x[a]</b></tt></p><p>保存"
+"文档并退出(e<b>x</b>its)。这个命令可以通过以下两种方式调用：<br /> <tt>x</"
+"tt> &mdash; 关闭当前视图。<br /> <tt>xa</tt> &mdash; 关闭所有视图，有效地退出"
+"程序。</p><p>在所有方式中，如果关闭的视图是最后一个视图，那么程序将退出。如果"
+"文件未命名并且它应当被写回磁盘，将会显示文件对话框。</p><p>和“w”命令不同的"
+"是，这个命令只会写入那些修改过的文档。</p>"
+
+#: app/kateappcommands.cpp:241
+msgid ""
+"<p><b>sp,split&mdash; Split horizontally the current view into two</b></"
+"p><p>Usage: <tt><b>sp[lit]</b></tt></p><p>The result is two views on the "
+"same document.</p>"
+msgstr ""
+"<p><b>sp,split&mdash; 横向分割当前视图</b></p><p>用法：<tt><b>sp[lit]</b></"
+"tt></p><p>分割的两个视图打开相同的文档。</p>"
+
+#: app/kateappcommands.cpp:247
+msgid ""
+"<p><b>vs,vsplit&mdash; Split vertically the current view into two</b></"
+"p><p>Usage: <tt><b>vs[plit]</b></tt></p><p>The result is two views on the "
+"same document.</p>"
+msgstr ""
+"<p><b>vs,vsplit&mdash; 纵向分割当前视图</b></p><p>用法：<tt><b>vs[plit]</b></"
+"tt></p><p>分割的两个视图打开相同的文档。</p>"
+
+#: app/kateappcommands.cpp:253
+msgid ""
+"<p><b>[v]new &mdash; split view and create new document</b></p><p>Usage: "
+"<tt><b>[v]new</b></tt></p><p>Splits the current view and opens a new "
+"document in the new view. This command can be called in two ways:<br /> "
+"<tt>new</tt> &mdash; splits the view horizontally and opens a new document."
+"<br /> <tt>vnew</tt> &mdash; splits the view vertically and opens a new "
+"document.<br /></p>"
+msgstr ""
+"<p><b>[v]new &mdash; 分割视图并创建新文件</b></p><p>使用：<tt><b>[v]new</b></"
+"tt></p><p>分割当前视图并在新视图中打开新文档。这个命令可以通过以下两种方式调"
+"用：<br /> <tt>new</tt> &mdash; 横向分割视图并打开新文档。<br /> <tt>vnew</"
+"tt> &mdash; 纵向分割视图并打开新文档。<br /></p>"
+
+#: app/kateappcommands.cpp:263
+msgid ""
+"<p><b>e[dit] &mdash; reload current document</b></p><p>Usage: <tt><b>e[dit]</"
+"b></tt></p><p>Starts <b>e</b>diting the current document again. This is "
+"useful to re-edit the current file, when it has been changed by another "
+"program.</p>"
+msgstr ""
+"<p><b>e[dit] &mdash; 重新加载当前文档</b></p><p>使用：<tt><b>e[dit]</b></"
+"tt></p><p>重新开始编辑(<b>e</b>diting) 当前文档。当文件被其他程序修改时，它能"
+"够帮助您重新编辑当前文件。</p>"
+
+#: app/kateconfigdialog.cpp:59
+msgid "Configure"
+msgstr "配置"
+
+#: app/kateconfigdialog.cpp:70
+msgid "Application"
+msgstr "应用程序"
+
+#: app/kateconfigdialog.cpp:72
+msgid "Application Options"
+msgstr "应用程序选项"
+
+#: app/kateconfigdialog.cpp:77
+msgid "General"
+msgstr "常规"
+
+#: app/kateconfigdialog.cpp:78
+msgid "General Options"
+msgstr "常规选项"
+
+#: app/kateconfigdialog.cpp:86
+msgid "&Behavior"
+msgstr "行为(&B)"
+
+#: app/kateconfigdialog.cpp:92
+msgid "Wa&rn about files modified by foreign processes"
+msgstr "当文件被外部进程修改时给出警告(&R)"
+
+#: app/kateconfigdialog.cpp:95
+msgid ""
+"If enabled, when Kate receives focus you will be asked what to do with files "
+"that have been modified on the hard disk. If not enabled, you will be asked "
+"what to do with a file that has been modified on the hard disk only when "
+"that file is tried to be saved."
+msgstr ""
+"启用时，Kate 会在获得焦点后询问您如何处理硬盘上已经被修改的文件。如果未启用，"
+"直到在硬盘上已被修改的文件保存到磁盘时，您才会被询问。"
+
+#: app/kateconfigdialog.cpp:106
+msgid "Meta-Information"
+msgstr "元信息"
+
+#: app/kateconfigdialog.cpp:112
+msgid "Keep &meta-information past sessions"
+msgstr "在会话中保留元信息(&M)"
+
+#: app/kateconfigdialog.cpp:115
+msgid ""
+"Check this if you want document configuration like for example bookmarks to "
+"be saved past editor sessions. The configuration will be restored if the "
+"document has not changed when reopened."
+msgstr ""
+"如果您想要在编辑器的不同会话中保存像书签这样的文档配置，请选中此项。如果重新"
+"打开文档的时候文档没有更改，则会恢复配置文件。"
+
+#: app/kateconfigdialog.cpp:125
+msgid "&Delete unused meta-information after:"
+msgstr "删除无用的元信息，等(&D)："
+
+#: app/kateconfigdialog.cpp:128
+msgid "(never)"
+msgstr "(从不)"
+
+#: app/kateconfigdialog.cpp:143
+msgid "Sessions"
+msgstr "会话"
+
+#: app/kateconfigdialog.cpp:144
+msgid "Session Management"
+msgstr "会话管理"
+
+#: app/kateconfigdialog.cpp:151
+msgid "Elements of Sessions"
+msgstr "会话元素"
+
+#: app/kateconfigdialog.cpp:157
+msgid "Include &window configuration"
+msgstr "包含窗口配置(&W)"
+
+#: app/kateconfigdialog.cpp:159
+msgid ""
+"Check this if you want all your views and frames restored each time you open "
+"Kate"
+msgstr "如果您希望在每次打开 Kate 时都恢复所有视图和框架，启用此选项。"
+
+#: app/kateconfigdialog.cpp:165
+msgid "Behavior on Application Startup"
+msgstr "应用启动时的行为"
+
+#: app/kateconfigdialog.cpp:169
+msgid "&Start new session"
+msgstr "启动新会话(&S)"
+
+#: app/kateconfigdialog.cpp:170
+msgid "&Load last-used session"
+msgstr "装入上次使用的会话(&L)"
+
+#: app/kateconfigdialog.cpp:171
+msgid "&Manually choose a session"
+msgstr "手动选择会话(&M)"
+
+#: app/kateconfigdialog.cpp:199
+msgid "Plugins"
+msgstr "插件"
+
+#: app/kateconfigdialog.cpp:200
+msgid "Plugin Manager"
+msgstr "插件管理器"
+
+#: app/kateconfigdialog.cpp:213
+msgid "Editor Component"
+msgstr "编辑器组件"
+
+#: app/kateconfigdialog.cpp:215
+msgid "Editor Component Options"
+msgstr "编辑器组件选项"
+
+#: app/kateconfigdialog.cpp:378
+msgctxt "The suffix of 'Delete unused meta-information after'"
+msgid " day"
+msgid_plural " days"
+msgstr[0] " 天"
+
+#: app/kateconfigplugindialogpage.cpp:71
+msgid "Name"
+msgstr "名称"
+
+#: app/kateconfigplugindialogpage.cpp:71
+msgid "Comment"
+msgstr "注释"
+
+#: app/kateconfigplugindialogpage.cpp:73
+msgid ""
+"Here you can see all available Kate plugins. Those with a check mark are "
+"loaded, and will be loaded again the next time Kate is started."
+msgstr ""
+"此处您可以看到所有可用的 Kate 插件。那些带有选择标记的插件已被载入，并且在 "
+"Kate 下次启动时还会被载入。"
+
+#: app/katedocmanager.cpp:67
+msgid ""
+"A KDE text-editor component could not be found.\n"
+"Please check your KDE installation."
+msgstr ""
+"无法找到 KDE 文本编辑组件。\n"
+"请检查 KDE 安装。"
+
+#: app/katedocmanager.cpp:326
+#, kde-format
+msgid ""
+"The supposedly temporary file %1 has been modified. Do you want to delete it "
+"anyway?"
+msgstr "临时文件 %1 似乎已被修改。您无论如何都要删除它吗？"
+
+#: app/katedocmanager.cpp:328
+msgid "Delete File?"
+msgstr "删除文件吗？"
+
+#: app/katedocmanager.cpp:469
+#, kde-format
+msgid ""
+"<p>The document '%1' has been modified, but not saved.</p><p>Do you want to "
+"save your changes or discard them?</p>"
+msgstr ""
+"<p>文档“%1”已经被修改，但尚未保存。</p><p>您是否想要保存更改还是丢弃更改？</"
+"p>"
+
+#: app/katedocmanager.cpp:471
+msgid "Close Document"
+msgstr "关闭文档"
+
+#: app/katedocmanager.cpp:478
+msgid "Save As"
+msgstr "另存为"
+
+#: app/katedocmanager.cpp:504 app/katemainwindow.cpp:461
+msgid "New file opened while trying to close Kate, closing aborted."
+msgstr "试图关闭 Kate 时打开了新文件，关闭被中止。"
+
+#: app/katedocmanager.cpp:505 app/katemainwindow.cpp:462
+msgid "Closing Aborted"
+msgstr "关闭被中止"
+
+#: app/katedocmanager.cpp:586
+msgid "Starting Up"
+msgstr "启动"
+
+#: app/katedocmanager.cpp:587
+msgid "Reopening files from the last session..."
+msgstr "重新打开前次会话中的文件..."
+
+#: app/katedocmanager.cpp:773
+msgid "Errors/Warnings while opening documents"
+msgstr "打开文档时出现错误/警告"
+
+#: app/katemain.cpp:81
+msgid "Kate"
+msgstr "Kate"
+
+#: app/katemain.cpp:82
+msgid "Kate - Advanced Text Editor"
+msgstr "Kate - 高级文本编辑器"
+
+#: app/katemain.cpp:83
+msgid "(c) 2000-2013 The Kate Authors"
+msgstr "(c) 2000-2013 The Kate Authors"
+
+#: app/katemain.cpp:85
+msgid "Christoph Cullmann"
+msgstr "Christoph Cullmann"
+
+#: app/katemain.cpp:85
+msgid "Maintainer"
+msgstr "维护者"
+
+#: app/katemain.cpp:86
+msgid "Anders Lund"
+msgstr "Anders Lund"
+
+#: app/katemain.cpp:86 app/katemain.cpp:87 app/katemain.cpp:88
+#: app/katemain.cpp:94
+msgid "Core Developer"
+msgstr "核心开发"
+
+#: app/katemain.cpp:87
+msgid "Joseph Wenninger"
+msgstr "Joseph Wenninger"
+
+#: app/katemain.cpp:88
+msgid "Hamish Rodda"
+msgstr "Hamish Rodda"
+
+#: app/katemain.cpp:89
+msgid "Dominik Haumann"
+msgstr "Dominik Haumann"
+
+#: app/katemain.cpp:89
+msgid "Developer & Highlight wizard"
+msgstr "开发者和突出显示向导"
+
+#: app/katemain.cpp:90
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: app/katemain.cpp:90
+msgid "The cool buffersystem"
+msgstr "极好的缓冲系统"
+
+#: app/katemain.cpp:91
+msgid "Charles Samuels"
+msgstr "Charles Samuels"
+
+#: app/katemain.cpp:91
+msgid "The Editing Commands"
+msgstr "编辑命令"
+
+#: app/katemain.cpp:92
+msgid "Matt Newell"
+msgstr "Matt Newell"
+
+#: app/katemain.cpp:92
+msgid "Testing, ..."
+msgstr "协助测试等..."
+
+#: app/katemain.cpp:93
+msgid "Michael Bartl"
+msgstr "Michael Bartl"
+
+#: app/katemain.cpp:93
+msgid "Former Core Developer"
+msgstr "先前核心开发者"
+
+#: app/katemain.cpp:94
+msgid "Michael McCallum"
+msgstr "Michael McCallum"
+
+#: app/katemain.cpp:95
+msgid "Jochen Wilhemly"
+msgstr "Jochen Wilhemly"
+
+#: app/katemain.cpp:95
+msgid "KWrite Author"
+msgstr "KWrite 作者"
+
+#: app/katemain.cpp:96
+msgid "Michael Koch"
+msgstr "Michael Koch"
+
+#: app/katemain.cpp:96
+msgid "KWrite port to KParts"
+msgstr "KWrite 移植到 KParts"
+
+#: app/katemain.cpp:97
+msgid "Christian Gebauer"
+msgstr "Christian Gebauer"
+
+#: app/katemain.cpp:98
+msgid "Simon Hausmann"
+msgstr "Simon Hausmann"
+
+#: app/katemain.cpp:99
+msgid "Glen Parker"
+msgstr "Glen Parker"
+
+#: app/katemain.cpp:99
+msgid "KWrite Undo History, Kspell integration"
+msgstr "KWrite 撤销历史，Kspell 集成"
+
+#: app/katemain.cpp:100
+msgid "Scott Manson"
+msgstr "Scott Manson"
+
+#: app/katemain.cpp:100
+msgid "KWrite XML Syntax highlighting support"
+msgstr "KWrite XML 语法加亮支持"
+
+#: app/katemain.cpp:101
+msgid "John Firebaugh"
+msgstr "John Firebaugh"
+
+#: app/katemain.cpp:101
+msgid "Patches and more"
+msgstr "补丁及其它"
+
+#: app/katemain.cpp:102
+msgid "Pablo Martín"
+msgstr "Pablo Martín"
+
+#: app/katemain.cpp:102
+msgid "Python Plugin Developer"
+msgstr "Python 插件开发者"
+
+#: app/katemain.cpp:103
+msgid "Gerald Senarclens de Grancy"
+msgstr "Gerald Senarclens de Grancy"
+
+#: app/katemain.cpp:103
+msgid "QA and Scripting"
+msgstr "QA 和脚本"
+
+#: app/katemain.cpp:105
+msgid "Matteo Merli"
+msgstr "Matteo Merli"
+
+#: app/katemain.cpp:105
+msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
+msgstr "RPM Spec 文件、Perl、Diff 和其它类型的语法加亮"
+
+#: app/katemain.cpp:106
+msgid "Rocky Scaletta"
+msgstr "Rocky Scaletta"
+
+#: app/katemain.cpp:106
+msgid "Highlighting for VHDL"
+msgstr "VHDL 语法加亮"
+
+#: app/katemain.cpp:107
+msgid "Yury Lebedev"
+msgstr "Yury Lebedev"
+
+#: app/katemain.cpp:107
+msgid "Highlighting for SQL"
+msgstr "SQL 语法加亮"
+
+#: app/katemain.cpp:108
+msgid "Chris Ross"
+msgstr "Chris Ross"
+
+#: app/katemain.cpp:108
+msgid "Highlighting for Ferite"
+msgstr "Ferite 语法加亮"
+
+#: app/katemain.cpp:109
+msgid "Nick Roux"
+msgstr "Nick Roux"
+
+#: app/katemain.cpp:109
+msgid "Highlighting for ILERPG"
+msgstr "ILERPG 语法加亮"
+
+#: app/katemain.cpp:110
+msgid "Carsten Niehaus"
+msgstr "Carsten Niehaus"
+
+#: app/katemain.cpp:110
+msgid "Highlighting for LaTeX"
+msgstr "LaTeX 语法加亮"
+
+#: app/katemain.cpp:111
+msgid "Per Wigren"
+msgstr "Per Wigren"
+
+#: app/katemain.cpp:111
+msgid "Highlighting for Makefiles, Python"
+msgstr "Makefiles、Python 语法加亮"
+
+#: app/katemain.cpp:112
+msgid "Jan Fritz"
+msgstr "Jan Fritz"
+
+#: app/katemain.cpp:112
+msgid "Highlighting for Python"
+msgstr "Python 语法加亮"
+
+#: app/katemain.cpp:113
+msgid "Daniel Naber"
+msgstr "Daniel Naber"
+
+#: app/katemain.cpp:114
+msgid "Roland Pabel"
+msgstr "Roland Pabel"
+
+#: app/katemain.cpp:114
+msgid "Highlighting for Scheme"
+msgstr "Scheme 语法加亮"
+
+#: app/katemain.cpp:115
+msgid "Cristi Dumitrescu"
+msgstr "Cristi Dumitrescu"
+
+#: app/katemain.cpp:115
+msgid "PHP Keyword/Datatype list"
+msgstr "PHP 关键字/数据类型列表"
+
+#: app/katemain.cpp:116
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: app/katemain.cpp:116
+msgid "Very nice help"
+msgstr "很好的帮助"
+
+#: app/katemain.cpp:117
+msgid "All people who have contributed and I have forgotten to mention"
+msgstr "所有做出贡献而我却没能提到的人员"
+
+#: app/katemain.cpp:124
+msgid "Start Kate with a given session"
+msgstr "以给定会话启动 Kate"
+
+#: app/katemain.cpp:125
+msgid "Start Kate with a new anonymous session, implies '-n'"
+msgstr "以新的匿名会话启动 Kate，隐含了“-n”选项"
+
+#: app/katemain.cpp:127
+msgid ""
+"Force start of a new kate instance (is ignored if start is used and another "
+"kate instance already has the given session opened), forced if no parameters "
+"and no URLs are given at all"
+msgstr ""
+"强制启动一个新的 kate 实例(如果有另一个实例已经打开了相应会话则忽略)，如果没"
+"有给定任何参数和 URL，将使用内置值。"
+
+#: app/katemain.cpp:129
+msgid ""
+"If using an already running kate instance, block until it exits, if URLs "
+"given to open"
+msgstr ""
+"如果使用一个运行的 kate 实例，且没有指定要打开的 URL，将阻塞程序直到其退出。"
+
+#: app/katemain.cpp:131
+msgid ""
+"Only try to reuse kate instance with this pid (is ignored if start is used "
+"and another kate instance already has the given session opened)"
+msgstr ""
+"只尝试重用此进程号的 kate 实例(如果有另一个实例已经打开了相应会话则忽略)"
+
+#: app/katemain.cpp:133
+msgid "Set encoding for the file to open"
+msgstr "设定打开文件所用的编码"
+
+#: app/katemain.cpp:135
+msgid "Navigate to this line"
+msgstr "转到这一行"
+
+#: app/katemain.cpp:137
+msgid "Navigate to this column"
+msgstr "转到这一列"
+
+#: app/katemain.cpp:139
+msgid "Read the contents of stdin"
+msgstr "读取标准输入设备上的内容"
+
+#: app/katemain.cpp:141
+msgid "Reuse existing Kate instance; default, only for compatibility"
+msgstr "重用现存的 Kate 实例：为兼容考虑默认启用"
+
+#: app/katemain.cpp:142
+msgid "Document to open"
+msgstr "要打开的文档"
+
+#: app/katemainwindow.cpp:230
+msgid "Use this command to show or hide the view's statusbar"
+msgstr "使用此命令来显示或隐藏视图的状态栏"
+
+#: app/katemainwindow.cpp:233
+msgid "Sho&w Path in Titlebar"
+msgstr "在标题栏显示路径(&W)"
+
+#: app/katemainwindow.cpp:236
+msgid "Show the complete document path in the window caption"
+msgstr "在窗口标题中显示完整路径"
+
+#: app/katemainwindow.cpp:270
+msgid "Create a new document"
+msgstr "创建一个新文档"
+
+#: app/katemainwindow.cpp:272
+msgid "Open an existing document for editing"
+msgstr "打开已有文档来编辑"
+
+#: app/katemainwindow.cpp:276
+msgid ""
+"This lists files which you have opened recently, and allows you to easily "
+"open them again."
+msgstr "这会列举您最近打开的文件，并能让您轻松地再打开它们。"
+
+#: app/katemainwindow.cpp:280
+msgid "Save A&ll"
+msgstr "全部保存(&L)"
+
+#: app/katemainwindow.cpp:283
+msgid "Save all open, modified documents to disk."
+msgstr "把所有打开、修改过的文档保存到磁盘上。"
+
+#: app/katemainwindow.cpp:286
+msgid "&Reload All"
+msgstr "全部重新载入(&R)"
+
+#: app/katemainwindow.cpp:288
+msgid "Reload all open documents."
+msgstr "重新载入所有打开的文档。"
+
+#: app/katemainwindow.cpp:291
+msgid "Close Orphaned"
+msgstr "关闭孤立文档"
+
+#: app/katemainwindow.cpp:293
+msgid ""
+"Close all documents in the file list that could not be reopened, because "
+"they are not accessible anymore."
+msgstr "关闭文件列表中所有不能重新打开的文档，因为它们已无法访问。"
+
+#: app/katemainwindow.cpp:296 filetree/katefiletree.cpp:58
+msgid "Close the current document."
+msgstr "关闭当前文档。"
+
+#: app/katemainwindow.cpp:299
+msgid "Close Other"
+msgstr "关闭其它文档"
+
+#: app/katemainwindow.cpp:301
+msgid "Close other open documents."
+msgstr "关闭其它打开的文档。"
+
+#: app/katemainwindow.cpp:304
+msgid "Clos&e All"
+msgstr "全部关闭(&E)"
+
+#: app/katemainwindow.cpp:306
+msgid "Close all open documents."
+msgstr "关闭所有打开的文档。"
+
+#: app/katemainwindow.cpp:311
+msgid "Close this window"
+msgstr "关闭该窗口"
+
+#: app/katemainwindow.cpp:315
+msgid "&New Window"
+msgstr "新建窗口(&W)"
+
+#: app/katemainwindow.cpp:317
+msgid "Create a new Kate view (a new window with the same document list)."
+msgstr "创建一个新的 Kate 视图(一个有同样文档列表的新窗口)。"
+
+#: app/katemainwindow.cpp:321
+msgid "&Quick Open"
+msgstr "快速打开(&Q)"
+
+#: app/katemainwindow.cpp:327
+msgid "Open a form to quick open documents."
+msgstr "打开一个窗口以快速打开文档。"
+
+#: app/katemainwindow.cpp:333
+msgid "Open W&ith"
+msgstr "打开方式(&I)"
+
+#: app/katemainwindow.cpp:335
+msgid ""
+"Open the current document using another application registered for its file "
+"type, or an application of your choice."
+msgstr ""
+"使用另一个注册用于该文件类型的应用程序或您自己选择的应用程序来打开当前文档。"
+
+#: app/katemainwindow.cpp:340
+msgid "Configure the application's keyboard shortcut assignments."
+msgstr "配置应用程序的键盘快捷键安排。"
+
+#: app/katemainwindow.cpp:343
+msgid "Configure which items should appear in the toolbar(s)."
+msgstr "配置要在工具栏上出现的项目。"
+
+#: app/katemainwindow.cpp:346
+msgid ""
+"Configure various aspects of this application and the editing component."
+msgstr "从多个方面配置本应用程序和编辑组件"
+
+#: app/katemainwindow.cpp:350
+msgid "This shows useful tips on the use of this application."
+msgstr "这会显示关于本应用程序使用的有用提示。"
+
+#: app/katemainwindow.cpp:355
+msgid "&Plugins Handbook"
+msgstr "插件手册(&P)"
+
+#: app/katemainwindow.cpp:357
+msgid "This shows help files for various available plugins."
+msgstr "这会显示各类可用插件的帮助文件。"
+
+#: app/katemainwindow.cpp:361
+msgid "&About Editor Component"
+msgstr "关于编辑器组件(&A)"
+
+#: app/katemainwindow.cpp:376
+msgctxt "Menu entry Session->New"
+msgid "&New"
+msgstr "新建(&N)"
+
+#: app/katemainwindow.cpp:381
+msgid "&Open Session"
+msgstr "打开会话(&O)"
+
+#: app/katemainwindow.cpp:386
+msgid "&Save Session"
+msgstr "保存会话(&S)"
+
+#: app/katemainwindow.cpp:390
+msgid "Save Session &As..."
+msgstr "会话另存为(&A)..."
+
+#: app/katemainwindow.cpp:394
+msgid "&Manage Sessions..."
+msgstr "管理会话(&M)..."
+
+#: app/katemainwindow.cpp:399
+msgid "&Quick Open Session"
+msgstr "快速打开会话(&Q)"
+
+#: app/katemainwindow.cpp:406
+msgid "This will close all open documents. Are you sure you want to continue?"
+msgstr "这样将关闭所有打开的文档。您确定想要继续吗？"
+
+#: app/katemainwindow.cpp:407
+msgid "Close all documents"
+msgstr "关闭所有文档"
+
+#: app/katemainwindow.cpp:577
+#, kde-format
+msgid ""
+"This will hide the menu bar completely. You can show it again by typing %1."
+msgstr "这将完全隐藏菜单栏。按下 %1 可以重新显示。"
+
+#: app/katemainwindow.cpp:579
+msgid "Hide menu bar"
+msgstr "隐藏菜单栏"
+
+#: app/katemainwindow.cpp:800 filetree/katefiletree.cpp:244
+msgid "&Other..."
+msgstr "其它(&O)..."
+
+#: app/katemainwindow.cpp:826 filetree/katefiletree.cpp:275
+#, kde-format
+msgid "Application '%1' not found."
+msgstr "找不到应用程序“%1”。"
+
+#: app/katemainwindow.cpp:826 filetree/katefiletree.cpp:275
+msgid "Application not found"
+msgstr "找不到应用程序。"
+
+#: app/katemainwindow.cpp:921
+msgid " [read only]"
+msgstr " [只读]"
+
+#: app/katemdi.cpp:122
+msgid "Tool &Views"
+msgstr "工具视图(&V)"
+
+#: app/katemdi.cpp:124
+msgid "Show Side&bars"
+msgstr "显示侧边栏(&B)"
+
+#: app/katemdi.cpp:163
+#, kde-format
+msgid "Show %1"
+msgstr "显示%1"
+
+#: app/katemdi.cpp:493
+msgid "Configure ..."
+msgstr "配置 ..."
+
+#: app/katemdi.cpp:497
+msgid "Behavior"
+msgstr "行为"
+
+#: app/katemdi.cpp:500
+msgid "Make Non-Persistent"
+msgstr "变成非永久"
+
+#: app/katemdi.cpp:500
+msgid "Make Persistent"
+msgstr "变成永久"
+
+#: app/katemdi.cpp:502
+msgid "Move To"
+msgstr "移至"
+
+#: app/katemdi.cpp:505
+msgid "Left Sidebar"
+msgstr "左侧边栏"
+
+#: app/katemdi.cpp:508
+msgid "Right Sidebar"
+msgstr "右侧边栏"
+
+#: app/katemdi.cpp:511
+msgid "Top Sidebar"
+msgstr "上侧边栏"
+
+#: app/katemdi.cpp:514
+msgid "Bottom Sidebar"
+msgstr "下侧边栏"
+
+#: app/katemdi.cpp:838
+msgid ""
+"<qt>You are about to hide the sidebars. With hidden sidebars it is not "
+"possible to directly access the tool views with the mouse anymore, so if you "
+"need to access the sidebars again invoke <b>View &gt; Tool Views &gt; Show "
+"Sidebars</b> in the menu. It is still possible to show/hide the tool views "
+"with the assigned shortcuts.</qt>"
+msgstr ""
+"<qt>您即将隐藏侧边栏。侧边栏一旦隐藏，将无法通过鼠标直接访问工具视图。如果您"
+"需要再次访问侧边栏的话，请从菜单中调用<b>视图 &gt; 工具视图 &gt; 显示侧边栏</"
+"b>。您还可以通过指派的快捷键显示/隐藏工具视图。</qt>"
+
+#: app/katemwmodonhddialog.cpp:65
+msgid "Documents Modified on Disk"
+msgstr "文档已在磁盘上修改"
+
+#: app/katemwmodonhddialog.cpp:67
+msgid "&Ignore Changes"
+msgstr "忽略更改(&I)"
+
+#: app/katemwmodonhddialog.cpp:69
+msgid "&Reload"
+msgstr "重新载入(&R)"
+
+#: app/katemwmodonhddialog.cpp:76
+msgid "Remove modified flag from selected documents"
+msgstr "从文档中移除修改过的标签"
+
+#: app/katemwmodonhddialog.cpp:78
+msgid "Overwrite selected documents, discarding disk changes"
+msgstr "覆盖选中的文档，丢弃磁盘上的更改"
+
+#: app/katemwmodonhddialog.cpp:80
+msgid "Reload selected documents from disk"
+msgstr "重新从磁盘加载选中文档"
+
+#: app/katemwmodonhddialog.cpp:93
+msgid ""
+"<qt>The documents listed below have changed on disk.<p>Select one or more at "
+"once, and press an action button until the list is empty.</p></qt>"
+msgstr ""
+"<qt>下面列出的文档在磁盘上已经发生了更改。<p>一次选择一个或多个文档，然后按下"
+"操作按钮，直到此列表变空。</p></qt>"
+
+#: app/katemwmodonhddialog.cpp:100
+msgid "Filename"
+msgstr "文件名"
+
+#: app/katemwmodonhddialog.cpp:100
+msgid "Status on Disk"
+msgstr "磁盘上的状态"
+
+#: app/katemwmodonhddialog.cpp:106
+msgid "Modified"
+msgstr "已修改"
+
+#: app/katemwmodonhddialog.cpp:106
+msgid "Created"
+msgstr "已创建"
+
+#: app/katemwmodonhddialog.cpp:106
+msgid "Deleted"
+msgstr "已删除"
+
+#: app/katemwmodonhddialog.cpp:121
+msgid "&View Difference"
+msgstr "查看差异(&V)"
+
+#: app/katemwmodonhddialog.cpp:124
+msgid ""
+"Calculates the difference between the editor contents and the disk file for "
+"the selected document, and shows the difference with the default "
+"application. Requires diff(1)."
+msgstr ""
+"计算选中文档的编辑器内容和磁盘文件之间的差异，然后用默认应用程序显示差异。需"
+"要 diff(1)。"
+
+#: app/katemwmodonhddialog.cpp:184
+#, kde-format
+msgid ""
+"Could not save the document \n"
+"'%1'"
+msgstr ""
+"无法保存文档\n"
+"“%1”"
+
+#: app/katemwmodonhddialog.cpp:284
+msgid ""
+"The diff command failed. Please make sure that diff(1) is installed and in "
+"your PATH."
+msgstr "diff 命令失败。请确定 diff(1) 已经安装并且在您的路径中。"
+
+#: app/katemwmodonhddialog.cpp:286
+msgid "Error Creating Diff"
+msgstr "创建 Diff 失败"
+
+#: app/katemwmodonhddialog.cpp:295
+msgid "Ignoring amount of white space changed, the files are identical."
+msgstr "忽略变更的空格，这些文件是相同的。"
+
+#: app/katemwmodonhddialog.cpp:296
+msgid "Diff Output"
+msgstr "Diff 输出"
+
+#: app/katequickopen.cpp:63
+msgid "Quick Open Search"
+msgstr "快速打开搜索"
+
+#: app/katesavemodifieddialog.cpp:91
+#, kde-format
+msgid "Save As (%1)"
+msgstr "另存为(%1)"
+
+#: app/katesavemodifieddialog.cpp:103
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "名为“%1”的文件已经存在。您确定要覆盖它吗？"
+
+#: app/katesavemodifieddialog.cpp:105
+msgid "Overwrite File?"
+msgstr "覆盖文件吗？"
+
+#: app/katesavemodifieddialog.cpp:181
+msgid "Save Documents"
+msgstr "保存文档"
+
+#: app/katesavemodifieddialog.cpp:198
+msgid ""
+"<qt>The following documents have been modified. Do you want to save them "
+"before closing?</qt>"
+msgstr "<qt>下列文档已经修改。您是否想要在关闭之前先保存？</qt>"
+
+#: app/katesavemodifieddialog.cpp:201 filetree/katefiletreeplugin.cpp:105
+#: filetree/katefiletreeplugin.cpp:179
+msgid "Documents"
+msgstr "文档"
+
+#: app/katesavemodifieddialog.cpp:201
+msgid "Location"
+msgstr "位置"
+
+#: app/katesavemodifieddialog.cpp:210
+msgid "Se&lect All"
+msgstr "全部选中(&L)"
+
+#: app/katesavemodifieddialog.cpp:262
+msgid ""
+"Data you requested to be saved could not be written. Please choose how you "
+"want to proceed."
+msgstr "您请求保存的数据无法写入。请选择您想要如何继续。"
+
+#: app/katesession.cpp:270
+msgid ""
+"Internal error: there is more than one instance open for a given session."
+msgstr "内部错误：已经有不止一个打开了所给会话的实例。"
+
+#: app/katesession.cpp:276
+#, kde-format
+msgid ""
+"Session '%1' is already opened in another kate instance, change there "
+"instead of reopening?"
+msgstr "已经有另一个 Kate 实例打开了会话“%1”，更改会话而非重新打开它吗？"
+
+#: app/katesession.cpp:482
+msgid "No session selected to open."
+msgstr "未选择要打开的会话。"
+
+#: app/katesession.cpp:482 app/katesession.cpp:507
+msgid "No Session Selected"
+msgstr "未选择会话"
+
+#: app/katesession.cpp:507
+msgid "No session selected to copy."
+msgstr "未选择要复制的会话。"
+
+#: app/katesession.cpp:593
+msgid "Specify New Name for Current Session"
+msgstr "为当前会话指定新名称"
+
+#: app/katesession.cpp:594
+msgid ""
+"There is already an existing session with your chosen name.\n"
+"Please choose a different one\n"
+"Session name:"
+msgstr ""
+"已经有了一个和您选择的同名的会话。\n"
+"请选择其它会话名称："
+
+#: app/katesession.cpp:594 app/katesession.cpp:910
+msgid "Session name:"
+msgstr "会话名称："
+
+#: app/katesession.cpp:601 app/katesession.cpp:917
+msgid "To save a session, you must specify a name."
+msgstr "要保存会话，您必须指定名称。"
+
+#: app/katesession.cpp:601 app/katesession.cpp:917
+msgid "Missing Session Name"
+msgstr "缺少会话名称"
+
+#: app/katesession.cpp:640
+msgid "Session Chooser"
+msgstr "会话选择器"
+
+#: app/katesession.cpp:643 app/katesession.cpp:753
+msgid "Open Session"
+msgstr "打开会话"
+
+#: app/katesession.cpp:644
+msgid "New Session"
+msgstr "新建会话"
+
+#: app/katesession.cpp:655 app/katesession.cpp:774 app/katesession.cpp:851
+msgid "Session Name"
+msgstr "会话名称"
+
+#: app/katesession.cpp:656 app/katesession.cpp:775 app/katesession.cpp:852
+msgctxt "The number of open documents"
+msgid "Open Documents"
+msgstr "打开的文档"
+
+#: app/katesession.cpp:668
+msgid "Use selected session as template"
+msgstr "将选中会话作为模板"
+
+#: app/katesession.cpp:684
+msgid "&Always use this choice"
+msgstr "总是使用此选择(&A)"
+
+#: app/katesession.cpp:757 app/katesession.cpp:837
+msgid "&Open"
+msgstr "打开(&O)"
+
+#: app/katesession.cpp:833
+msgid "Manage Sessions"
+msgstr "管理会话"
+
+#: app/katesession.cpp:869
+msgid "&Rename..."
+msgstr "重命名(&R)..."
+
+#: app/katesession.cpp:910
+msgid "Specify New Name for Session"
+msgstr "指定会话的新名称"
+
+#: app/katesession.cpp:928
+#, kde-format
+msgid ""
+"The session could not be renamed to \"%1\", there already exists another "
+"session with the same name"
+msgstr "此会话无法被重命名为“%1”，已经有了一个和它同名的会话"
+
+#: app/katesession.cpp:928
+msgid "Session Renaming"
+msgstr "会话重命名"
+
+#: app/kateviewmanager.cpp:127
+msgid "Split Ve&rtical"
+msgstr "垂直分割(&R)"
+
+#: app/kateviewmanager.cpp:131
+msgid "Split the currently active view vertically into two views."
+msgstr "把当前的活跃视图垂直分割成两个视图。"
+
+#: app/kateviewmanager.cpp:135
+msgid "Split &Horizontal"
+msgstr "水平分割(&H)"
+
+#: app/kateviewmanager.cpp:139
+msgid "Split the currently active view horizontally into two views."
+msgstr "把当前的活跃视图水平分割成两个视图。"
+
+#: app/kateviewmanager.cpp:143
+msgid "Cl&ose Current View"
+msgstr "关闭当前视图(&O)"
+
+#: app/kateviewmanager.cpp:147
+msgid "Close the currently active split view"
+msgstr "关闭当前活跃的分割视图"
+
+#: app/kateviewmanager.cpp:151
+msgid "Close Inactive Views"
+msgstr "关闭不活动视图"
+
+#: app/kateviewmanager.cpp:154
+msgid "Close every view but the active one"
+msgstr "关闭活动视图外的所有视图"
+
+#: app/kateviewmanager.cpp:157
+msgid "Next Split View"
+msgstr "下一个分割视图"
+
+#: app/kateviewmanager.cpp:161
+msgid "Make the next split view the active one."
+msgstr "使下一个分割视图成为活动视图。"
+
+#: app/kateviewmanager.cpp:164
+msgid "Previous Split View"
+msgstr "上一个分割视图"
+
+#: app/kateviewmanager.cpp:168
+msgid "Make the previous split view the active one."
+msgstr "使上一个分割视图成为活动视图。"
+
+#: app/kateviewmanager.cpp:171
+msgid "Move Splitter Right"
+msgstr "右移分割"
+
+#: app/kateviewmanager.cpp:174
+msgid "Move the splitter of the current view to the right"
+msgstr "右移当前活动的分割视图"
+
+#: app/kateviewmanager.cpp:177
+msgid "Move Splitter Left"
+msgstr "左移分割"
+
+#: app/kateviewmanager.cpp:180
+msgid "Move the splitter of the current view to the left"
+msgstr "左移当前活动的分割视图"
+
+#: app/kateviewmanager.cpp:183
+msgid "Move Splitter Up"
+msgstr "上移分割"
+
+#: app/kateviewmanager.cpp:186
+msgid "Move the splitter of the current view up"
+msgstr "上移当前活动的分割视图"
+
+#: app/kateviewmanager.cpp:189
+msgid "Move Splitter Down"
+msgstr "下移分割"
+
+#: app/kateviewmanager.cpp:192
+msgid "Move the splitter of the current view down"
+msgstr "下移活动的分割视图"
+
+#: app/kateviewmanager.cpp:197
+msgid "Show Cursor Position"
+msgstr "显示光标位置"
+
+#: app/kateviewmanager.cpp:202
+msgid "Show Characters Count"
+msgstr "显示字符数"
+
+#: app/kateviewmanager.cpp:207
+msgid "Show Insertion Mode"
+msgstr "显示插入模式"
+
+#: app/kateviewmanager.cpp:212
+msgid "Show Selection Mode"
+msgstr "显示选择模式"
+
+#: app/kateviewmanager.cpp:217
+msgid "Show Encoding"
+msgstr "显示编码"
+
+#: app/kateviewmanager.cpp:222
+msgid "Show Document Name"
+msgstr "显示文档名称"
+
+#: app/kateviewmanager.cpp:255
+msgid "Open File"
+msgstr "打开文件"
+
+#: app/kateviewmanager.cpp:274
+#, kde-format
+msgid ""
+"<p>You are attempting to open one or more large files:</p><ul>%1</ul><p>Do "
+"you want to proceed?</p><p><strong>Beware that kate may stop responding for "
+"some time when opening large files.</strong></p>"
+msgstr ""
+"<p>您正在尝试打开一个或多个大文件：</p><ul>%1</ul><p>您希望继续吗？</"
+"p><p><strong>请注意 Kate 可能会在打开大文件时停止响应。</strong></p>"
+
+#: app/kateviewmanager.cpp:276
+msgid "Opening Large File"
+msgstr "正在打开大文件"
+
+#: app/kateviewspace.cpp:277
+#, kde-format
+msgid " Line: %1 Col: %2 "
+msgstr " 行：%1 列：%2 "
+
+#: app/kateviewspace.cpp:285 app/kateviewspace.cpp:401
+#, kde-format
+msgid " Characters: %1 "
+msgstr " 字符：%1 "
+
+#: app/kateviewspace.cpp:298 app/kateviewspace.cpp:410
+msgid " LINE "
+msgstr " 行 "
+
+#: app/kateviewspace.cpp:303
+msgid " INS "
+msgstr " 插入 "
+
+#: app/kateviewspace.cpp:391
+#, kde-format
+msgid " Line: %1 of %2 Col: %3 "
+msgstr " 行：%1 总共 %2 列：%3 "
+
+#: app/kateviewspace.cpp:410
+msgid " BLOCK "
+msgstr " 块 "
+
+#. i18n: ectx: Menu (file)
+#: data/kateui.rc:5
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (edit)
+#: data/kateui.rc:36
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (view)
+#: data/kateui.rc:47 filetree/ui.rc:6
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: Menu (view-split)
+#: data/kateui.rc:54
+msgid "Split View"
+msgstr "分割视图"
+
+#. i18n: ectx: Menu (tools)
+#: data/kateui.rc:80
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: Menu (sessions)
+#: data/kateui.rc:88
+msgid "Sess&ions"
+msgstr "会话(&I)"
+
+#. i18n: ectx: Menu (settings)
+#: data/kateui.rc:99
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: Menu (help)
+#: data/kateui.rc:103
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: data/kateui.rc:108 filetree/ui.rc:14
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: Menu (viewspace_popup_statusbar)
+#: data/kateui.rc:142
+msgid "&Status Bar Items"
+msgstr "状态栏内容(&S)"
+
+#: filetree/katefiletree.cpp:56
+msgid "Close"
+msgstr "关闭"
+
+#: filetree/katefiletree.cpp:60
+msgid "Copy Filename"
+msgstr "复制文件名"
+
+#: filetree/katefiletree.cpp:62
+msgid "Copy the filename of the file."
+msgstr "复制文件的文件名。"
+
+#: filetree/katefiletree.cpp:66
+msgid "Tree Mode"
+msgstr "树状模式"
+
+#: filetree/katefiletree.cpp:67
+msgid "Set view style to Tree Mode"
+msgstr "将查看风格设为树状模式"
+
+#: filetree/katefiletree.cpp:70
+msgid "List Mode"
+msgstr "列表模式"
+
+#: filetree/katefiletree.cpp:71
+msgid "Set view style to List Mode"
+msgstr "将查看风格设为列表模式"
+
+#: filetree/katefiletree.cpp:76 filetree/katefiletreeconfigpage.cpp:87
+msgid "Document Name"
+msgstr "文档名称"
+
+#: filetree/katefiletree.cpp:77
+msgid "Sort by Document Name"
+msgstr "按文档名称排序"
+
+#: filetree/katefiletree.cpp:81
+msgid "Document Path"
+msgstr "文档路径"
+
+#: filetree/katefiletree.cpp:82
+msgid "Sort by Document Path"
+msgstr "按文档路径排序"
+
+#: filetree/katefiletree.cpp:85 filetree/katefiletreeconfigpage.cpp:86
+msgid "Opening Order"
+msgstr "打开顺序"
+
+#: filetree/katefiletree.cpp:86
+msgid "Sort by Opening Order"
+msgstr "按打开顺序排序"
+
+#: filetree/katefiletree.cpp:197
+msgid "Open With"
+msgstr "打开方式"
+
+#: filetree/katefiletree.cpp:202
+msgid "View Mode"
+msgstr "查看模式"
+
+#: filetree/katefiletree.cpp:206
+msgid "Sort By"
+msgstr "排序方式"
+
+#: filetree/katefiletreeconfigpage.cpp:60
+msgid "Background Shading"
+msgstr "背景阴影"
+
+#: filetree/katefiletreeconfigpage.cpp:67
+msgid "&Viewed documents' shade:"
+msgstr "已查看文档的阴影(&V)："
+
+#: filetree/katefiletreeconfigpage.cpp:73
+msgid "&Modified documents' shade:"
+msgstr "已修改文档的阴影(&M)："
+
+#: filetree/katefiletreeconfigpage.cpp:81
+msgid "&Sort by:"
+msgstr "排序方式(&B)"
+
+#: filetree/katefiletreeconfigpage.cpp:88
+msgid "Url"
+msgstr "URL"
+
+#: filetree/katefiletreeconfigpage.cpp:94
+msgid "&View Mode:"
+msgstr "查看模式(&V)："
+
+#: filetree/katefiletreeconfigpage.cpp:99
+msgid "Tree View"
+msgstr "工具视图"
+
+#: filetree/katefiletreeconfigpage.cpp:100
+msgid "List View"
+msgstr "列表视图"
+
+#: filetree/katefiletreeconfigpage.cpp:105
+msgid "&Show Full Path"
+msgstr "显示完整路径(&S)"
+
+#: filetree/katefiletreeconfigpage.cpp:111
+msgid ""
+"When background shading is enabled, documents that have been viewed or "
+"edited within the current session will have a shaded background. The most "
+"recent documents have the strongest shade."
+msgstr ""
+"启用背景阴影时，当前会话中已查看或已修改过的文档会产生阴影化的背景。越近期的"
+"文档阴影效果越强。"
+
+#: filetree/katefiletreeconfigpage.cpp:115
+msgid "Set the color for shading viewed documents."
+msgstr "设置已查看文档的阴影颜色。"
+
+#: filetree/katefiletreeconfigpage.cpp:117
+msgid ""
+"Set the color for modified documents. This color is blended into the color "
+"for viewed files. The most recently edited documents get most of this color."
+msgstr ""
+"设置已修改文档的颜色。它会和已查看文档的颜色混合，越近期的文档获得的色彩强度"
+"越高。"
+
+#: filetree/katefiletreeconfigpage.cpp:122
+msgid ""
+"When enabled, in tree mode, top level folders will show up with their full "
+"path rather than just the last folder name."
+msgstr "启用时，树状模式下的顶级文件夹将显示其完整路径而非最末尾的文件夹名称。"
+
+#: filetree/katefiletreemodel.cpp:509
+#, kde-format
+msgctxt "%1 is the full path"
+msgid ""
+"<p><b>%1</b></p><p>The document has been modified by another application.</p>"
+msgstr "<p><b>%1</b></p><p>文档已被其它程序修改。</p>"
+
+#: filetree/katefiletreeplugin.cpp:48
+msgid "Document Tree"
+msgstr "文档树"
+
+#: filetree/katefiletreeplugin.cpp:48
+msgid "Show open documents in a tree"
+msgstr "以树状显示打开的文档"
+
+#: filetree/katefiletreeplugin.cpp:113
+msgid "Configure Documents"
+msgstr "配置文档"
+
+#: filetree/katefiletreeplugin.cpp:230
+msgid "&Show Active"
+msgstr "显示活动(&S)"
+
+#: filetree/katefiletreeplugin.cpp:237
+msgid "Previous Document"
+msgstr "上一个文档"
+
+#: filetree/katefiletreeplugin.cpp:238
+msgid "Next Document"
+msgstr "下一个文档"
+
+#: filetree/katefiletreeplugin.cpp:506
+msgid ""
+"<p><b>b,buffer &mdash; Edit document N from the document list</b></"
+"p><p>Usage: <tt><b>b[uffer] [N]</b></tt></p>"
+msgstr ""
+"<p><b>b,buffer &mdash; 编辑文档列表中的文档 N</b></p><p>用法：<tt><b>b"
+"[uffer] [N]</b></tt></p>"
+
+#: filetree/katefiletreeplugin.cpp:511
+msgid ""
+"<p><b>bp,bprev &mdash; previous buffer</b></p><p>Usage: <tt><b>bp[revious] "
+"[N]</b></tt></p><p>Goes to <b>[N]</b>th previous document (\"<b>b</b>uffer"
+"\") in document list. </p><p> <b>[N]</b> defaults to one. </p><p>Wraps "
+"around the start of the document list.</p>"
+msgstr ""
+"<p><b>bp,bprev &mdash; 切换到上个文档</b></p><p>用法：<tt><b>bp[revious] [N]"
+"</b></tt></p><p>切换到文档列表中上面第<b>[N]</b>个文档(\"<b>b</b>uffer\") 。"
+"<b>[N]</b> 默认为1。</p><p>如遇到文档列表头部则循环计数。</p>"
+
+#: filetree/katefiletreeplugin.cpp:519
+msgid ""
+"<p><b>bn,bnext &mdash; switch to next document</b></p><p>Usage: <tt><b>bn"
+"[ext] [N]</b></tt></p><p>Goes to <b>[N]</b>th next document (\"<b>b</b>uffer"
+"\") in document list.<b>[N]</b> defaults to one. </p><p>Wraps around the end "
+"of the document list.</p>"
+msgstr ""
+"<p><b>bn,bnext &mdash; 切换到下个文档</b></p><p>用法：<tt><b>bn[ext] [N]</"
+"b></tt></p><p>切换到文档列表中下面第<b>[N]</b>个文档(\"<b>b</b>uffer\") 。<b>"
+"[N]</b> 默认为1。</p><p>如遇到文档列表尾部则循环计数。</p>"
+
+#: filetree/katefiletreeplugin.cpp:527
+msgid ""
+"<p><b>bf,bfirst &mdash; first document</b></p><p>Usage: <tt><b>bf[irst]</b></"
+"tt></p><p>Goes to the <b>f</b>irst document (\"<b>b</b>uffer\") in document "
+"list.</p>"
+msgstr ""
+"<p><b>bf,bfirst &mdash; 切换到第一个文档</b></p><p>Usage: <tt><b>bf[irst]</"
+"b></tt></p><p>切换到文档列表中第一个(<b>f</b>irst)文档(\"<b>b</b>uffer\")。</"
+"p>"
+
+#: filetree/katefiletreeplugin.cpp:533
+msgid ""
+"<p><b>bl,blast &mdash; last document</b></p><p>Usage: <tt><b>bl[ast]</b></"
+"tt></p><p>Goes to the <b>l</b>ast document (\"<b>b</b>uffer\") in document "
+"list.</p>"
+msgstr ""
+"<p><b>bl,blast &mdash; 切换到最后一个文档</b></p><p>用法：<tt><b>bl[ast]</"
+"b></tt></p><p>切换到文档列表中最后一个(<b>l</b>ast)文档(\"<b>b</b>uffer\")。"
+"</p>"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:2
+msgid ""
+"<p>Kate comes with a nice set of plugins, providing simple\n"
+"and advanced features of all sorts.</p>\n"
+"<p>You can enable/disable plugins to suit your needs in the configuration "
+"dialog,\n"
+"choose <strong>Settings -&gt;configure</strong> to launch that.</p>\n"
+msgstr ""
+"<p>Kate 附带了一组不错的插件，提供了各种简单的和高级的功能。</p><p>您可以在配"
+"置对话框中启用/禁用插件来满足您的需要，选择 <strong>设置 -&gt;configure</"
+"strong> 来启动配置对话框。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:10
+msgid ""
+"<p>You can swap the characters on each side of the cursor just by pressing\n"
+"<strong>Ctrl+T</strong></p>\n"
+msgstr "<p>您可以交换光标两侧的字符，方法是按 <strong>Ctrl+T</strong></p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:16
+msgid ""
+"<p>You can export the current document as a HTML file, including\n"
+"syntax highlighting.</p>\n"
+"<p>Just choose <strong>File -&gt; Export -&gt; HTML...</strong></p>\n"
+msgstr ""
+"<p>您可以把当前文档导出为 HTML 文件，包括语法加亮显示。</p><p>只需选择 "
+"<strong>文件 -&gt; 导出 -&gt; HTML...</strong>即可</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:23
+msgid ""
+"<p>You can split the Kate editor as many times as you like and\n"
+"in either direction. Each frame has its own status bar and\n"
+"can display any open document.</p>\n"
+"<p>Just choose <br><strong>View -&gt; Split View -&gt; Split [ Horizontal | "
+"Vertical ]</strong></p>\n"
+msgstr ""
+"<p>您可以按任意方向多次分割 Kate 编辑器。每个框架中都有它自己的状态栏，并能够"
+"显示任何打开的文件。</p><p>只需选择<br><strong>查看 -&gt; 分割视图 -&gt; [ 水"
+"平 | 垂直 ]分割</strong> 即可。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:31
+msgid ""
+"<p>You can move the Tool views to any side of the main window through the\n"
+"context menu.</p>\n"
+msgstr ""
+"<p>您可以通过右键菜单将工具视图移动到主窗口的\n"
+"任何一个边缘。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:37
+msgid ""
+"<p>Kate has a built-in terminal emulator, just click on <strong>\"Terminal"
+"\"</strong> at\n"
+"the bottom to show or hide it as you desire.</p>\n"
+msgstr ""
+"<p>Kate 有一个内建的终端仿真器，只需点击下面的<strong>“终端”</strong>来随意显"
+"示或隐藏它。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:43
+msgid ""
+"<p>Kate can highlight the current line with a\n"
+"<table bgcolor=\"yellow\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" "
+"width=\"100%\"><tr><td>different\n"
+"background color.<strong>|</strong></td></tr></table></p>\n"
+"<p>You can set the color in the <em>Colors</em> page of the configuration\n"
+"dialog.</p>\n"
+msgstr ""
+"<p>Kate 可以使用<table bgcolor=\"yellow\" border=\"0\" cellspacing=\"0\" "
+"cellpadding=\"0\" width=\"100%\"><tr><td>不同的背景颜色<strong>|</strong></"
+"td></tr></table>来突出显示当前行。</p><p>您可以在配置对话框中的<em>颜色</em>"
+"页中设置颜色。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:52
+msgid ""
+"<p>You can open the currently edited file in any other application from "
+"within\n"
+"Kate.</p>\n"
+"<p>Choose <strong>File -&gt; Open With</strong> for the list of programs\n"
+"configured\n"
+"for the document type. There is also an option <strong>Other...</strong> to\n"
+"choose any application on your system.</p>\n"
+msgstr ""
+"<p>您可以在 Kate 内用任何其它程序打开当前正在被编辑的文件。</p><p>选择"
+"<strong>文件 -&gt; 打开方式</strong> 来选择配置给该文档类型的程序。其中还有一"
+"个选项<strong>其它...</strong>，您可以用它来选择系统上的任何程序。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:62
+msgid ""
+"<p>You can configure the editor to always display the line numbers and/or\n"
+"bookmark panes when started from the <strong>Appearance</strong> page of "
+"the\n"
+"configuration dialog.</p>\n"
+msgstr ""
+"<p>您可以在配置对话框中的<strong>外观</strong>页中配置，让编辑器启动时总是显"
+"示行号和/或书签栏。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:69
+msgid ""
+"<p>You can download new or updated <em>Syntax highlight definitions</em> "
+"from\n"
+"the <strong>Open/Save</strong> page in the configuration dialog.</p>\n"
+"<p>Just click the <em>Download...</em> button on the <em>Open/Save -&gt; "
+"Modes &amp; Filetypes</em>\n"
+"tab (You have to be online, of course...).</p>\n"
+msgstr ""
+"<p>您可以在配置对话框中的<strong>打开/保存</strong>页上下载新的或更新的<em>语"
+"法加亮定义</em></p><p>只需点击<em>打开/保存 -&gt; 模式和文件类型</em>标签上的"
+"<em>下载...</em>按钮即可(当然，您必须得在线才行...)。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:77
+msgid ""
+"<p>You can cycle through all open documents by pressing <strong>Alt+Left</"
+"strong>\n"
+"or <strong>Alt+Right</strong>. The next/previous document will immediately "
+"be displayed\n"
+"in the active frame.</p>\n"
+msgstr ""
+"<p>您可以通过按 <strong>Alt+Left</strong> 或 <strong>Alt+Right</strong> 来循"
+"环浏览所有打开的文档。下一/前一文档将会被立即显示在活跃的框架中。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:84
+msgid ""
+"<p>You can do cool sed-like regular expression replacements using "
+"<em>Command Line</em>.</p>\n"
+"<p>For example, press <strong>F7</strong> and enter <code>s /oldtext/newtext/"
+"g</code>\n"
+"to replace &quot;oldtext&quot; with &quot;newtext&quot; throughout the "
+"current\n"
+"line.</p>\n"
+msgstr ""
+"<p>您可以使用 <em>编辑命令</em> 来执行类似 sed 的正则表达式替换。</p><p>例"
+"如，按 <strong>Ctrl+M</strong> 并输入<code>s/oldtext/newtext/g</code> 会把当"
+"前行中的所有“oldtext”替换为“newtext”</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:92
+msgid ""
+"<p>You can repeat your last search by just pressing <strong>F3</strong>, or\n"
+"<strong>Shift+F3</strong> if you want to search backwards.</p>\n"
+msgstr ""
+"<p>您只需按 <strong>F3</strong> 来重复刚才的搜索，或者按 <strong>Shift+F3</"
+"strong> 来反向搜索。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:98
+msgid ""
+"<p>You can filter the files displayed in the <em>Filesystem Browser</em> "
+"tool view.\n"
+"</p>\n"
+"<p>Simply enter your filter in the filter entry at the bottom, for example:\n"
+"<code>*.html *.php</code> if you only want to see HTML and PHP files in the\n"
+"current folder.</p>\n"
+"<p>The Filesystem Browser will even remember your filters for you.</p>\n"
+msgstr ""
+"<p>您可以过滤显示在 <em>文件系统浏览器</em> 工具视图中的文件。</p><p>只需在底"
+"部的过滤器框中输入您的过滤器即可。例如：输入 <code>*.html *.php</code>，如果"
+"您只想看到当前文件夹中的 HTML 和 PHP 文件。</p><p>文件系统浏览器甚至会记住您"
+"使用过的过滤器。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:108
+msgid ""
+"<p>You can have two views - or even more - of the same document in Kate. "
+"Editing\n"
+"in either will be reflected in both.</p>\n"
+"<p>So if you find yourself scrolling up and down to look at text at the "
+"other\n"
+"end of a document, just press <strong>Ctrl+Shift+T</strong> to split\n"
+"horizontally.</p>\n"
+msgstr ""
+"<p>在 Kate 中，同一文档您可以有两个视图 - 甚至更多。在任何一个视图中编辑该文"
+"档都会反映在所有视图中。</p><p>因此，如果您需要前后寻找文档另一端的文本时，只"
+"需按 <strong>Ctrl+Shift+T</strong> 来水平分割它即可。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:117
+msgid ""
+"<p>Press <strong>F8</strong> or <strong>Shift+F8</strong> to switch to the\n"
+"next/previous frame.</p>\n"
+msgstr ""
+"<p>按 <strong>F8</strong> 或 <strong>Shift+F8</strong> 来切换到下一/前一框"
+"架。</p>\n"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "C++ Source File (GPL)"
+#~ msgstr "C++ 源码文件(GPL)"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Source Code"
+#~ msgstr "源代码"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "A very simple GPL C++ source file"
+#~ msgstr "使用 GPL 授权的精简 C++ 源码文件"
+
+#~ msgctxt "@info:credit"
+#~ msgid "Anders Lund <anders@alweb.dk>"
+#~ msgstr "Anders Lund <anders@alweb.dk>"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "C++ Header (GPL)"
+#~ msgstr "C++ 头文件(GPL)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "A very simple GPL C++ header file"
+#~ msgstr "使用 GPL 授权的精简 C++ 头文件"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "C++ Source File (LGPL)"
+#~ msgstr "C++ 源码文件(LGPL)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "A very simple LGPL C++ source file"
+#~ msgstr "使用 LGPL 授权的精简 C++ 源码文件"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "C++ Header (LGPL)"
+#~ msgstr "C++ 头文件(LGPL)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid "A very simple LGPL C++ header file"
+#~ msgstr "使用 LGPL 授权的精简 C++ 头文件"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Kate Plugin Docbook Chapter"
+#~ msgstr "Kate 插件的 Docbook 章节"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Documentation"
+#~ msgstr "文档"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "This creates a suitable beginning of a docbook chapter for a Kate plugin."
+#~ msgstr "这将创建一个适用于 Kate 插件的 docbook 章节头。"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "HTML 4.01 Strict Document"
+#~ msgstr "严格的 HTML 4.01 文档"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Internet"
+#~ msgstr "互联网"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "This will create a very basic HTML file with the HTML 4.01 strict DTD."
+#~ msgstr "这将使用严格 HTML 4.01 DTD 创建一个基本的 HTML 文件。"
+
+#~ msgctxt "@item:inmenu"
+#~ msgid "Kate Highlight Definition"
+#~ msgstr "Kate 加亮定义"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "This template will create the basics of a kate highlight definition file."
+#~ msgstr "此模板将创建一个基本的 Kate 加亮定义文件。"
+
+#~ msgctxt "@info:credit"
+#~ msgid "Dominik Haumann <dhdev@gmx.de>"
+#~ msgstr "Dominik Haumann <dhdev@gmx.de>"
+
+#~ msgid "Hidden"
+#~ msgstr "隐藏"
+
+#~ msgid "Missing plugin file %1"
+#~ msgstr "缺少插件文件 %1"
+
+#~ msgid "Loaded"
+#~ msgstr "已装入"
+
+#~ msgid "Not Loaded: %1"
+#~ msgstr "未装入：%1"
+
+#~ msgid "Actions"
+#~ msgstr "动作"
+
+#~ msgid ""
+#~ "The icon associated with this action. It is shown alongside text in the "
+#~ "menu bar and in toolbars as required. A string to use KDE's image loading "
+#~ "system, or a custom QPixmap or QIcon, or None."
+#~ msgstr ""
+#~ "与此动作关联的图标。在菜单栏和工具栏 (如果需要的话) 的文本旁显示。该字符串"
+#~ "使用 KDE 图片加载系统，或者自定义的 QPixmap、QIcon，或为无。"
+
+#~ msgid ""
+#~ "The shortcut to fire this action such as 'Ctrl+1', or a QKeySequence "
+#~ "instance, or None."
+#~ msgstr "触发此动作的快捷键，如“Ctrl+1”，或者 QKeySequence 实例，或为无。"
+
+#~ msgid "Description:"
+#~ msgstr "描述："
+
+#~ msgid "Menu Item:"
+#~ msgstr "菜单项："
+
+#~ msgid ""
+#~ "The text associated with the action (used as the menu item label, etc), "
+#~ "or None."
+#~ msgstr "与此动作关联的文本 (用于菜单项标签等)，或为无。"
+
+#~ msgid ""
+#~ "The menu under which to place this item such as 'tools' or 'settings', or "
+#~ "None."
+#~ msgstr "所在的菜单位置，例如“工具”、“设置”或无。"
+
+#~ msgid "Shortcut:"
+#~ msgstr "快捷键："
+
+#~ msgid "Menu:"
+#~ msgstr "菜单："
+
+#~ msgid "Icon:"
+#~ msgstr "图标："
+
+#~ msgid "Action:"
+#~ msgstr "动作："
+
+#~ msgid "Configuration Pages"
+#~ msgstr "配置页面"
+
+#~ msgid "Title:"
+#~ msgstr "标题："
+
+#~ msgid "Name:"
+#~ msgstr "名称："
+
+#~ msgid "Page:"
+#~ msgstr "页面："
+
+#~ msgid "Programmer's Reference"
+#~ msgstr "程序员参考手册"
+
+#~ msgid "Select a Plugin or Built-in Module"
+#~ msgstr "选择插件或内建模块"
+
+#~ msgid "ERROR: The Python engine could not be initialised!"
+#~ msgstr "错误：初始化 Python 引擎失败！"
+
+#~ msgid "Manager"
+#~ msgstr "管理器"
+
+#~ msgid ""
+#~ "<html><head/><body><p>Reloading a running plugin may have unpredictable "
+#~ "effects. Consider saving your work before using this command.</p></body></"
+#~ "html>"
+#~ msgstr ""
+#~ "<html><head/><body><p>重新载入正在运行的插件将产生不可预知的影响。请考虑在"
+#~ "使用此命令前保存您的工作。</p></body></html>"
+
+#~ msgid "Reload Plugins"
+#~ msgstr "重新装入的插件"
+
+#~ msgid "Pate engine could not be initialised"
+#~ msgstr "Pate引擎未能被初始化"
+
+#~ msgid "Python Plugins"
+#~ msgstr "Python 插件"
+
+#~ msgid "Pâté host for Python plugins"
+#~ msgstr "Python 插件的 Pâté 宿主程序"
+
+#~ msgid "Documentation"
+#~ msgstr "文档"
+
+#~ msgid "Update"
+#~ msgstr "更新"
+
+#~ msgid "Same-line comment position"
+#~ msgstr "同行注释位置"
+
+#~ msgid "URL template file"
+#~ msgstr "URL 模板文件"
+
+#~ msgid "ID file:"
+#~ msgstr "ID 文件："
+
+#~ msgid "Name of ID file, as generated by mkid(1)."
+#~ msgstr "ID 文件的名称，由 mkid(1) 生成。"
+
+#~ msgid ""
+#~ "ID\n"
+#~ "*|All Files"
+#~ msgstr ""
+#~ "ID\n"
+#~ "* | 所有文件"
+
+#~ msgid "Complete tokens after:"
+#~ msgstr "于此之后补全符号："
+
+#~ msgid "Minimum length of token before completions will be shown."
+#~ msgstr "符号显示补全的最小长度。"
+
+#~ msgid "Transform Filenames"
+#~ msgstr "变换文件名"
+
+#~ msgid "Replace file prefix ending with key:"
+#~ msgstr "替换以该关键字结束的文件前缀："
+
+#~ msgid "Discard the first part of the file name ending with this key."
+#~ msgstr "丢弃名字以此关键字结束的文件的第一部分。"
+
+#~ msgid "With this file prefix:"
+#~ msgstr "以此为文件前缀："
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+#~ "weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Replacement prefix. To "
+#~ "use the prefix of the ID file ending with the key, use %{idPrefix}. This "
+#~ "can be used to work with remotely mounted Clearcase views, for example, "
+#~ "set:</p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">ID "
+#~ "file:                                   /view/myview/<span style=\" font-"
+#~ "weight:600;\">topdir</span>/ID </p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Replace prefix "
+#~ "ending:     /<span style=\" font-weight:600;\">topdir</span> </p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">With "
+#~ "prefix:                         %{idPrefix}/<span style=\" font-"
+#~ "weight:600;\">topdir</span> </p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Or, to use a pre-"
+#~ "generated ID file with a different workspace, set:</p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">ID "
+#~ "file:                                   /snapshots/<span style=\" font-"
+#~ "weight:600;\">topdir</span>/ID </p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Replace prefix "
+#~ "ending:     /<span style=\" font-weight:600;\">topdir</span> </p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">With "
+#~ "prefix:                         /myworkspace/<span style=\" font-"
+#~ "weight:600;\">topdir</span> </p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+#~ "weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">替换前缀。可以使用 "
+#~ "%{idPrefix} 来表示以此结尾的 ID 文件的前缀。可以用于远程挂载的 Clearcase "
+#~ "视图，例如，设定：</p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">ID 文"
+#~ "件:                                   /view/myview/<span style=\" font-"
+#~ "weight:600;\">顶层目录</span>/ID </p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">替换前缀结尾：     /"
+#~ "<span style=\" font-weight:600;\">topdir</span> </p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">使用前"
+#~ "缀：                         %{idPrefix}/<span style=\" font-weight:600;"
+#~ "\">顶层目录</span> </p>\n"
+#~ "<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">或者，如需使用在不同工作"
+#~ "空间预先生成的 ID 文件，设置：</p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">ID 文"
+#~ "件:                                   /snapshots/<span style=\" font-"
+#~ "weight:600;\">顶层目录</span>/ID </p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">替换前缀结尾：     /"
+#~ "<span style=\" font-weight:600;\">topdir</span> </p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">使用前"
+#~ "缀：                          /myworkspace/<span style=\" font-weight:600;"
+#~ "\">topdir</span> </p></body></html>"
+
+#~ msgid "Highlight Matches"
+#~ msgstr "突出显示匹配文本"
+
+#~ msgid "Highlight definitions using etags(1):"
+#~ msgstr "使用 etags(1) 的加亮定义："
+
+#~ msgid "Use etags(1) to find definitions, and highlight them."
+#~ msgstr "使用 etags(1) 查找定义，并高亮显示他们。"
+
+#~ msgid "Enabled"
+#~ msgstr "已启用"
+
+#~ msgid "Highlight files with suffixes:"
+#~ msgstr "高亮显示带此后缀的文件："
+
+#~ msgid "Use .h;.hxx to highlight files which may contain declarations."
+#~ msgstr "使用 .h;.hxx 高亮显示包含声明的文件。"
+
+#~ msgid ""
+#~ "A regular expression which must also be matched. Use %{token} to include "
+#~ "the token.\n"
+#~ "\n"
+#~ "This can be used to get the effect of full text searching for strings "
+#~ "which contain the token and match the filter."
+#~ msgstr ""
+#~ "同时需匹配的正则表达式。使用 %{token} 来包含符号。\n"
+#~ "\n"
+#~ "可用于获取完整文本搜索的效果，包含标记并匹配过滤器。"
+
+#~ msgid ""
+#~ "Find a symbol, filename or other token using auto-completion. Hit return "
+#~ "to lookup occurrences within files."
+#~ msgstr "使用自动完成查找符号，文件名或其他符号。单击回车查找文件内的事件。"
+
+#~ msgid "Settings..."
+#~ msgstr "设置..."
+
+#~ msgid "Token:"
+#~ msgstr "符号："
+
+#~ msgid "Filtered matches for the token. Activate a match to jump to it."
+#~ msgstr "过滤的符号匹配。激活一个匹配以跳转。"
+
+#~ msgid "Stack of previous locations. Activate an item to jump to it."
+#~ msgstr "先前位置的堆栈。激活一个项目以跳转。"
+
+#~ msgid "Filter:"
+#~ msgstr "过滤："
+
+#~ msgid "JSON config"
+#~ msgstr "JSON 配置"
+
+#~ msgid "JSON Indent"
+#~ msgstr "JSON 缩进"
+
+#~ msgid "JSON encoding"
+#~ msgstr "JSON 编码"
+
+#~ msgid "utf-8"
+#~ msgstr "UTF-8"
+
+#~ msgid "Check JSLint when save"
+#~ msgstr "保存时检查 JSLint"
+
+#~ msgid "Continuation prompt"
+#~ msgstr "继续提示符"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Main prompt"
+#~ msgstr "主提示符"
+
+#~ msgid ">>>"
+#~ msgstr ">>>"
+
+#~ msgid "Continuation Prompt:"
+#~ msgstr "继续提示符："
+
+#~ msgid "Main Prompt:"
+#~ msgstr "主提示符："
+
+#~ msgid "Main display font"
+#~ msgstr "主显示字体"
+
+#~ msgid "Highlighting"
+#~ msgstr "突出显示"
+
+#~ msgid "Prompt:"
+#~ msgstr "提示符："
+
+#~ msgid "String:"
+#~ msgstr "字符串："
+
+#~ msgid "Integer:"
+#~ msgstr "整型："
+
+#~ msgid "Float:"
+#~ msgstr "浮点："
+
+#~ msgid "Help:"
+#~ msgstr "帮助："
+
+#~ msgid "Exception:"
+#~ msgstr "异常："
+
+#~ msgid "Scrollback lines count (needs close and open kate editor)"
+#~ msgstr "回滚行数(需要关闭再打开 Kate)"
+
+#, fuzzy
+#~| msgid "Document List"
+#~ msgid "Drop List"
+#~ msgstr "文档列表"
+
+#~ msgid "Normal"
+#~ msgstr "普通"
+
+#~ msgid "PEP-8 config"
+#~ msgstr "PEP-8 配置"
+
+#~ msgid "Check PEP8 when save"
+#~ msgstr "保存时检查 PEP8"
+
+#~ msgid "Ignore PEP8 errors"
+#~ msgstr "忽略 PEP8 错误"
+
+#~ msgid "Check PyFlakes when save"
+#~ msgstr "保存时检查 PyFlakes"
+
+#~ msgid "Check Syntax Errors when save"
+#~ msgstr "保存时检查语法错误"
+
+#~ msgid "import ipdb; ipdb.set_trace()"
+#~ msgstr "导入 ipdb; ipdb.set_trace()"
+
+#~ msgid "Indent"
+#~ msgstr "缩进"
+
+#~ msgid "\\\\t"
+#~ msgstr "\\\\t"
+
+#, fuzzy
+#~| msgid "&New Window"
+#~ msgid "New Line"
+#~ msgstr "新建窗口(&W)"
+
+#~ msgid "\\\\n"
+#~ msgstr "\\\\n"
+
+#~ msgid "ConsoleConfig"
+#~ msgstr "终端配置"
+
+#~ msgid "ConfigWidget"
+#~ msgstr "配置部件"
+
+#~ msgid "tool"
+#~ msgstr "工具"
+
+#~ msgid "Module:"
+#~ msgstr "模块："
+
+#~ msgid "Reference"
+#~ msgstr "引用"
+
+#~ msgid "Text:"
+#~ msgstr "文本："
+
+#~ msgid "Reload"
+#~ msgstr "重新装入"
+
+#~ msgid "Modules"
+#~ msgstr "模块"
+
+#~ msgid ""
+#~ "<p>You can drag the Tool views (<em>File List</em> and <em>File Selector</"
+#~ "em>)\n"
+#~ "to any side that you want them in Kate, or stack them, or even tear them "
+#~ "off the\n"
+#~ "main window.</p>\n"
+#~ msgstr ""
+#~ "<p>您可以把工具视图(<em>文件列表</em>和<em>文件选择器</em>)拖放到 Kate 的"
+#~ "任何一边上，或叠放它们，甚至从主窗口中分裂出来。</p>\n"
+
+#~ msgid "&Save Selected"
+#~ msgstr "保存所选(&S)"
+
+#~ msgid "Do &Not Close"
+#~ msgstr "不关闭(&N)"
+
+#~ msgid ""
+#~ "Removes the modified flag from the selected documents and closes the "
+#~ "dialog if there are no more unhandled documents."
+#~ msgstr ""
+#~ "从选中文档中删除修改标记，如果没有其它未处理的文档的话，并关闭对话框。"
+
+#~ msgid ""
+#~ "Reloads the selected documents from disk and closes the dialog if there "
+#~ "are no more unhandled documents."
+#~ msgstr ""
+#~ "从磁盘中重新装入选中文档，如果没有其它未处理的文档的话，关闭对话框。"
+
+#~ msgid "Cannot go to the document"
+#~ msgstr "无法转到文档"
+
+#~ msgid "Configure Tree View"
+#~ msgstr "配置工具视图"
+
+#~ msgctxt "'document name [*]', [*] means modified"
+#~ msgid "%1 [*]"
+#~ msgstr "%1 [已修改]"
+
+#~ msgid "Projects"
+#~ msgstr "项目"
+
+#~ msgid "&Go"
+#~ msgstr "转到(&G)"
+
+#~ msgid "Kate File Tree"
+#~ msgstr "Kate 文件树"
+
+#~ msgid "Save Session as &Default..."
+#~ msgstr "会话另存为默认(&D)..."
+
+#~ msgid "Default Session"
+#~ msgstr "默认会话"
+
+#, fuzzy
+#~| msgid "Plugins"
+#~ msgid "GDB Plugin"
+#~ msgstr "插件"
+
+#, fuzzy
+#~| msgid "General Options"
+#~ msgid "GDB Integration"
+#~ msgstr "常规选项"
+
+#, fuzzy
+#~| msgid "Tool &Views"
+#~ msgid "Debug View"
+#~ msgstr "工具视图(&V)"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgid "Frame"
+#~ msgstr "名称"
+
+#, fuzzy
+#~| msgid "Diff Output"
+#~ msgid "GDB Output"
+#~ msgstr "Diff 输出"
+
+#, fuzzy
+#~| msgid "Starting Up"
+#~ msgid "Start Debugging"
+#~ msgstr "启动"
+
+#, fuzzy
+#~| msgid "Move To"
+#~ msgid "Move PC"
+#~ msgstr "移至"
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgid "Continue"
+#~ msgstr "配置"
+
+#~ msgid "Document List Settings"
+#~ msgstr "文档列表设置"
+
+#~ msgid "Close Selected"
+#~ msgstr "关闭所选"
+
+#~ msgid "Save Selected"
+#~ msgstr "保存所选"
+
+#~ msgid "Save selected open documents."
+#~ msgstr "保存所选打开的文档。"
+
+#~ msgid "Sort &By"
+#~ msgstr "排序方式(&B)"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Custom"
+#~ msgstr "自定义"

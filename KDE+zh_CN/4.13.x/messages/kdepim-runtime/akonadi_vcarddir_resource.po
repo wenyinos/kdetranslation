@@ -1,0 +1,115 @@
+# translation of akonadi_vcarddir_resource.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+# Feng Chao <rainofchaos@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_vcarddir_resource\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-03-04 03:32+0100\n"
+"PO-Revision-Date: 2013-10-26 20:06+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: settingsdialog.ui:20
+msgid "Directory"
+msgstr "目录"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: settingsdialog.ui:26
+msgid "Directory Name"
+msgstr "目录名称"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settingsdialog.ui:34
+msgid "&Directory:"
+msgstr "目录(&D)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: settingsdialog.ui:49
+msgid ""
+"Select the directory whose contents should be represented by this resource. "
+"If the directory does not exist, it will be created."
+msgstr "选择应由此资源展示内容的目录。如果目录不存在，则创建它。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settingsdialog.ui:62
+msgid "Access Rights"
+msgstr "访问权限"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReadOnly)
+#: settingsdialog.ui:68
+msgid "Read only"
+msgstr "只读"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settingsdialog.ui:75
+msgid ""
+"If read-only mode is enabled, no changes will be written to the directory "
+"selected above. Read-only mode will be automatically enabled if you do not "
+"have write access to the directory."
+msgstr ""
+"如果启用只读模式，那么将不会向所选目录写入任何更改。只读模式会当您没有目录写"
+"访问权限时自动启用。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: settingsdialog.ui:102
+msgid "Tuning"
+msgstr "调整"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: settingsdialog.ui:108
+msgid ""
+"The options on this page allow you to change parameters that balance data "
+"safety and consistency against performance. In general you should be careful "
+"with changing anything here, the defaults are good enough in most cases."
+msgstr ""
+"本页面中的选项允许您更改平衡数据安全一致性和性能的参数。通常来说，您应谨慎更"
+"改此处的任何参数，默认值在大多数情况下都足够良好。"
+
+#. i18n: ectx: property (text), widget (QLabel, autosaveLabel)
+#: settingsdialog.ui:120
+msgid "Autosave delay:"
+msgstr "自动保存延迟："
+
+#: vcarddirresource.cpp:106
+#, kde-format
+msgid "Contact with uid '%1' not found."
+msgstr "uid 为“%1”的联系人未找到。"
+
+#: vcarddirresource.cpp:120 vcarddirresource.cpp:154 vcarddirresource.cpp:190
+#, kde-format
+msgid "Trying to write to a read-only directory: '%1'"
+msgstr "尝试写入只读目录：“%1”"
+
+#: vcarddirresource.cpp:226
+msgid "Contacts Folder"
+msgstr "联系人目录"
+
+#. i18n: ectx: label, entry (Path), group (General)
+#: vcarddirresource.kcfg:10
+msgid "Path to vCard directory"
+msgstr "vCard 目录路径"
+
+#. i18n: ectx: label, entry (AutosaveInterval), group (General)
+#: vcarddirresource.kcfg:14
+msgid "Autosave interval time (in minutes)."
+msgstr "自动保存间隔时间(分钟)。"
+
+#. i18n: ectx: label, entry (ReadOnly), group (General)
+#: vcarddirresource.kcfg:18
+msgid "Do not change the actual backend data."
+msgstr "不更改真实的后端数据。"
+
+#~ msgid " minute"
+#~ msgid_plural " minutes"
+#~ msgstr[0] " 分钟"

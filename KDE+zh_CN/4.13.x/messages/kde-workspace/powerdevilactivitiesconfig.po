@@ -1,0 +1,154 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# FengChao <rainofchaos@gmail.com>, 2011, 2013.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-22 01:49+0000\n"
+"PO-Revision-Date: 2013-07-01 20:30+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: activitypage.cpp:56
+msgid "Activities Power Management Configuration"
+msgstr "活动中的电源管理配置"
+
+#: activitypage.cpp:57
+msgid "A per-activity configurator of KDE Power Management System"
+msgstr "单个活动的 KDE 电源管理系统配置"
+
+#: activitypage.cpp:58
+msgid "(c), 2010 Dario Freddi"
+msgstr "(c)，2010 Dario Freddi"
+
+#: activitypage.cpp:59
+msgid ""
+"From this module, you can fine tune power management settings for each of "
+"your activities."
+msgstr "可以通过此模块为每个活动定义电源管理设置。"
+
+#: activitypage.cpp:61
+msgid "Dario Freddi"
+msgstr "Dario Freddi"
+
+#: activitypage.cpp:61
+msgid "Maintainer"
+msgstr "维护者"
+
+#: activitypage.cpp:94
+msgid ""
+"The activity service is running with bare functionalities.\n"
+"Names and icons of the activities might not be available."
+msgstr ""
+"活动服务仅以基础功能运行。\n"
+"活动的名称和图标可能不可用。"
+
+#: activitypage.cpp:164
+msgid ""
+"The activity service is not running.\n"
+"It is necessary to have the activity manager running to configure activity-"
+"specific power management behavior."
+msgstr ""
+"活动服务未运行。\n"
+"配置活动特定的电源管理行为需要活动管理器。"
+
+#: activitypage.cpp:215
+msgid ""
+"The Power Management Service appears not to be running.\n"
+"This can be solved by starting or scheduling it inside \"Startup and Shutdown"
+"\""
+msgstr ""
+"电源管理服务未运行。\n"
+"可以启动它或者在“启动和关闭系统”中设置自动启动。"
+
+#: activitywidget.cpp:95
+msgid "Sleep"
+msgstr "睡眠"
+
+#: activitywidget.cpp:99
+msgid "Hibernate"
+msgstr "休眠"
+
+#: activitywidget.cpp:101
+msgid "Shutdown"
+msgstr "关机"
+
+#: activitywidget.cpp:105
+msgid "PC running on AC power"
+msgstr "电脑使用交流电"
+
+#: activitywidget.cpp:106
+msgid "PC running on battery power"
+msgstr "电脑使用电池"
+
+#: activitywidget.cpp:107
+msgid "PC running on low battery"
+msgstr "电池电量低"
+
+#: activitywidget.cpp:122
+#, kde-format
+msgctxt "This is meant to be: Act like activity %1"
+msgid "Activity \"%1\""
+msgstr "活动“%1”"
+
+#. i18n: ectx: property (text), widget (QRadioButton, noSettingsRadio)
+#: activityWidget.ui:19
+msgid "Don't use special settings"
+msgstr "不使用特殊设置"
+
+#. i18n: ectx: property (text), widget (QRadioButton, actLikeRadio)
+#: activityWidget.ui:31
+msgid "Act like"
+msgstr "行为类似"
+
+#. i18n: ectx: property (text), widget (QRadioButton, specialBehaviorRadio)
+#: activityWidget.ui:60
+msgid "Define a special behavior"
+msgstr "定义特殊行为"
+
+#. i18n: ectx: property (text), widget (QCheckBox, noShutdownScreenBox)
+#: activityWidget.ui:72
+msgid "Never shutdown the screen"
+msgstr "永不关闭屏幕"
+
+#. i18n: ectx: property (text), widget (QCheckBox, noShutdownPCBox)
+#: activityWidget.ui:79
+msgid "Never suspend or shutdown the computer"
+msgstr "永不关闭或挂起计算机"
+
+#. i18n: ectx: property (text), widget (QCheckBox, alwaysBox)
+#: activityWidget.ui:91
+msgid "Always"
+msgstr "总是"
+
+#. i18n: ectx: property (text), widget (QLabel, alwaysAfterLabel)
+#: activityWidget.ui:101
+msgid "after"
+msgstr "如果空闲"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, alwaysAfterSpin)
+#: activityWidget.ui:108
+msgid " min"
+msgstr " 分钟"
+
+#. i18n: ectx: property (text), widget (QRadioButton, separateSettingsRadio)
+#: activityWidget.ui:138
+msgid "Use separate settings (advanced users only)"
+msgstr "使用单独设置(适用于高级用户)"

@@ -1,0 +1,392 @@
+#
+# Funda Wang <fundawang@gmail.com>, 2010.
+# Ni Hui <shuizhuyuanluo@126.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: accountwizard\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-14 01:33+0000\n"
+"PO-Revision-Date: 2012-05-28 12:10+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: configfile.cpp:46
+#, kde-format
+msgid "Writing config file for %1..."
+msgstr "正在写入 %1 的配置文件..."
+
+#: configfile.cpp:57
+#, kde-format
+msgid "Config file for %1 is writing."
+msgstr "%1 的配置文件正在写入。"
+
+#: configfile.cpp:62
+#, kde-format
+msgid "Config file for %1 was not changed."
+msgstr "%1 的配置文件未更改。"
+
+#: dialog.cpp:58
+msgid "Provide personal data"
+msgstr "提供个人数据"
+
+#: dialog.cpp:71
+msgid "Select Account Type"
+msgstr "选择账户类型"
+
+#: dialog.cpp:79
+msgid "Select Provider"
+msgstr "选择供应商"
+
+#: dialog.cpp:85
+msgid "Loading Assistant"
+msgstr "正在装入助手"
+
+#: dialog.cpp:93
+msgid "Setting up Account"
+msgstr "设置账户"
+
+#: identity.cpp:44
+msgid "Setting up identity..."
+msgstr "正在设置身份..."
+
+#: identity.cpp:67
+msgid "Identity set up."
+msgstr "身份已设置。"
+
+#: identity.cpp:75
+msgctxt "Default name for new email accounts/identities."
+msgid "Unnamed"
+msgstr "未命名"
+
+#: identity.cpp:104
+msgid "Identity removed."
+msgstr "身份已删除。"
+
+#: ispdb/ispdb.cpp:73
+msgid "Lookup configuration: Email provider"
+msgstr ""
+
+#: ispdb/ispdb.cpp:79
+msgid "Lookup configuration: Trying common server name"
+msgstr ""
+
+#: ispdb/ispdb.cpp:85
+msgid "Lookup configuration: Mozilla database"
+msgstr ""
+
+#: ispdb/main.cpp:30
+#, fuzzy
+#| msgid "Loading Assistant"
+msgid "ISPDB Assistant"
+msgstr "正在装入助手"
+
+#: ispdb/main.cpp:32 main.cpp:39
+msgid "Helps setting up PIM accounts"
+msgstr "帮助设置个人账户"
+
+#: ispdb/main.cpp:34
+msgid "(c) 2010 Omat Holding B.V."
+msgstr ""
+
+#: ispdb/main.cpp:38 main.cpp:45
+msgid "Author"
+msgstr "作者"
+
+#: ispdb/main.cpp:38
+msgid "Tom Albers"
+msgstr ""
+
+#: ispdb/main.cpp:42
+msgid "Tries to fetch the settings for that email address"
+msgstr ""
+
+#: ldap.cpp:38
+msgid "Setting up LDAP server..."
+msgstr "正在设置 LDAP 服务器..."
+
+#: ldap.cpp:85
+msgid "LDAP set up."
+msgstr "LDAP 已设置。"
+
+#: ldap.cpp:90
+msgid "LDAP not configuring."
+msgstr "LDAP 尚未配置。"
+
+#: loadpage.cpp:48
+#, kde-format
+msgid "No script specified in '%1'."
+msgstr "“%1”中未指定脚本。"
+
+#: loadpage.cpp:52
+#, kde-format
+msgid "Unable to load assistant: File '%1' does not exist."
+msgstr "无法装入助手：文件“%1”不存在。"
+
+#: loadpage.cpp:55
+#, kde-format
+msgid "Loading script '%1'..."
+msgstr "正在装入脚本“%1”..."
+
+#: loadpage.cpp:63
+#, kde-format
+msgid "Failed to load script: '%1'."
+msgstr "装入脚本失败：“%1”。"
+
+#: main.cpp:37
+msgid "Account Assistant"
+msgstr "账户助手"
+
+#: main.cpp:41
+msgid "(c) 2009 the Akonadi developers"
+msgstr "(c) 2009 Akonadi 开发者"
+
+#: main.cpp:45
+msgid "Volker Krause"
+msgstr "Volker Krause"
+
+#: main.cpp:46
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:51
+msgid "Only offer accounts that support the given type."
+msgstr "仅提供支持给定类型的账户。"
+
+#: main.cpp:52
+msgid "Run the specified assistant."
+msgstr "运行指定的助手。"
+
+#: main.cpp:53
+msgid "unpack fullpath on startup and launch that assistant"
+msgstr "启动时解开完整路径，并执行助手"
+
+#: personaldatapage.cpp:82
+#, fuzzy, kde-format
+#| msgid "Smtp, %1"
+msgid "SMTP, %1"
+msgstr "Smtp，%1"
+
+#: personaldatapage.cpp:85
+#, fuzzy, kde-format
+#| msgid "Imap, %1"
+msgid "IMAP, %1"
+msgstr "Imap，%1"
+
+#: personaldatapage.cpp:89
+#, fuzzy, kde-format
+#| msgid "Pop3, %1"
+msgid "POP3, %1"
+msgstr "Pop3，%1"
+
+#: providerpage.cpp:42
+msgid "Fetching provider list..."
+msgstr "正在获取供应商列表..."
+
+#: resource.cpp:81
+#, kde-format
+msgid "Resource type '%1' is not available."
+msgstr "资源类型“%1”不可用。"
+
+#: resource.cpp:91
+#, kde-format
+msgid "Resource '%1' is already set up."
+msgstr "资源“%1”已设置。"
+
+#: resource.cpp:97
+#, kde-format
+msgid "Creating resource instance for '%1'..."
+msgstr "正在创建“%1”的资源实例..."
+
+#: resource.cpp:107
+#, kde-format
+msgid "Failed to create resource instance: %1"
+msgstr "创建资源实例失败：%1"
+
+#: resource.cpp:114
+msgid "Configuring resource instance..."
+msgstr "正在配置资源实例..."
+
+#: resource.cpp:117
+msgid "Unable to configure resource instance."
+msgstr "无法配置资源实例。"
+
+#: resource.cpp:131
+#, kde-format
+msgid "Could not convert value of setting '%1' to required type %2."
+msgstr "无法将设置值“%1”转换为所需类型 %2。"
+
+#: resource.cpp:137
+#, kde-format
+msgid "Could not set setting '%1': %2"
+msgstr "无法设置“%1”: %2"
+
+#: resource.cpp:144
+msgid "Resource setup completed."
+msgstr "资源设置完成。"
+
+#: resource.cpp:151
+#, kde-format
+msgid "Removed resource instance for '%1'."
+msgstr "删除了“%1”的资源实例。"
+
+#: servertest.cpp:57
+msgid ""
+"There seems to be a problem in reaching this server or choosing a safe way "
+"to sent the credentials to server. We advise you to check the settings of "
+"the account and adjust it manually if needed."
+msgstr ""
+"连接此服务器似乎出现了问题，可能是服务器离线或者是所选的安全方式有错。我们建"
+"议您检查账户的设置，如果需要的话手工进行调整。"
+
+#: servertest.cpp:60
+msgid "Autodetecting settings failed"
+msgstr "自动检测设置失败"
+
+#. i18n: ectx: property (text), widget (QLabel, progressLabel)
+#: setupmanager.cpp:89 ui/setuppage.ui:37
+msgid "Setting up account..."
+msgstr "正在设置账户..."
+
+#: setupmanager.cpp:135
+msgid "Setup complete."
+msgstr "设置完成。"
+
+#: setupmanager.cpp:149
+msgid "Failed to set up account, rolling back..."
+msgstr "设置账户失败，正在回滚..."
+
+#: setupmanager.cpp:161
+msgid "Failed to set up account."
+msgstr "设置账户失败。"
+
+#: transport.cpp:88
+msgid "Setting up mail transport account..."
+msgstr "正在设置邮件传送账户..."
+
+#: transport.cpp:108
+msgid "Mail transport account set up."
+msgstr "邮件传送账户已设置。"
+
+#: transport.cpp:114
+msgid "Mail transport account deleted."
+msgstr "邮件传送账户已删除。"
+
+#. i18n: ectx: property (text), widget (QLabel, statusLabel)
+#: ui/loadpage.ui:30
+msgid "Loading assistant..."
+msgstr "正在装入助手..."
+
+#. i18n: ectx: property (text), widget (QLabel, welcomeLabel)
+#: ui/personaldatapage.ui:17
+msgid ""
+"With a few simple steps we create the right settings for you. Please follow "
+"the steps of this wizard carefully."
+msgstr ""
+"我们会用简单的简单的几个步骤帮助您创建正确的设置。请按照此向导逐步进行。"
+
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: ui/personaldatapage.ui:29
+#, fuzzy
+#| msgid "Full Name"
+msgid "Full name:"
+msgstr "全名"
+
+#. i18n: ectx: property (text), widget (QLabel, emailLabel)
+#: ui/personaldatapage.ui:52
+msgid "E-mail address:"
+msgstr "电子邮件地址："
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: ui/personaldatapage.ui:88
+#, fuzzy
+#| msgid "Password"
+msgid "Password:"
+msgstr "密码"
+
+#. i18n: ectx: property (title), widget (QGroupBox, checkOnlineGroupBox)
+#: ui/personaldatapage.ui:110
+msgid "Find provider settings on the Internet"
+msgstr "在 Internet 上查找供应商设置"
+
+#. i18n: ectx: property (text), widget (QLabel, checkOnlineExplanation)
+#: ui/personaldatapage.ui:119
+msgid ""
+"Check online for the settings needed for this email provider. Only the "
+"domain name part of the e-mail address will be sent over the Internet at "
+"this point. If this option is unchecked, the account can be set up manually."
+msgstr ""
+"在线检查此电子邮件供应商的设置。此时，只有您电子邮件地址的域名部分会在 "
+"Internet 上发送。如果您取消此选项的话，可以手动设置您的账户。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, imapAccount)
+#: ui/personaldatapage.ui:145
+#, fuzzy
+#| msgid "Imap account"
+msgid "IMAP account"
+msgstr "Imap 账户"
+
+#. i18n: ectx: property (text), widget (QRadioButton, pop3Account)
+#: ui/personaldatapage.ui:158
+#, fuzzy
+#| msgid "Pop3 Account"
+msgid "POP3 account"
+msgstr "Pop3 账户"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/personaldatapage.ui:172
+msgid "Incoming:"
+msgstr "收件："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/personaldatapage.ui:189
+msgid "Outgoing:"
+msgstr "发件："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/personaldatapage.ui:206
+msgid "Username:"
+msgstr "用户名："
+
+#. i18n: ectx: property (text), widget (QPushButton, createAccountPb)
+#: ui/personaldatapage.ui:240
+msgid "Create Account"
+msgstr "创建账户"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/providerpage.ui:17
+msgid ""
+"Select your provider from the list below or click advanced if your provider "
+"is not listed"
+msgstr "从下面的列表中选择您的供应商，如果您的供应商未列在其中的话，请点击高级"
+
+#. i18n: ectx: property (text), widget (KPushButton, detailsButton)
+#: ui/setuppage.ui:62
+msgid "&Details..."
+msgstr "细节(&D)..."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/typepage.ui:17
+msgid "Select which kind of account you want to create:"
+msgstr "选择您想要创建哪种类型的账户："
+
+#. i18n: ectx: property (text), widget (QPushButton, ghnsButton)
+#: ui/typepage.ui:67
+msgid "Check for more on Internet"
+msgstr "在 Internet 上查找更多内容"
+
+#~ msgid "Sorry, you need KDE 4.5 for this...."
+#~ msgstr "抱歉，您必须使用 KDE 4.5。"

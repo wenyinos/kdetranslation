@@ -1,0 +1,161 @@
+# translation of kdevqmake.po to 简体中文
+# Copyright (C) 2002,2003, 2004, 2008, 2009 Free Software Foundation, Inc.
+#
+# Qi Liang <cavendish@eyou.com>, 2001.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003, 2004.
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevqmake\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-24 01:53+0000\n"
+"PO-Revision-Date: 2009-02-20 09:22+0000\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#: parser/main.cpp:33
+msgid "qmake-parser"
+msgstr "qmake 解析器"
+
+#: parser/main.cpp:33
+msgid "Parse QMake project files"
+msgstr "解析 QMake 工程文件。"
+
+#: parser/main.cpp:36
+msgid "Enable output of the debug AST"
+msgstr "启用调试 AST 的输出"
+
+#: parser/main.cpp:37
+msgid "QMake project files"
+msgstr "QMake 工程文件"
+
+#: qmakebuilddirchooser.cpp:103
+msgid "Please specify path to QMake binary."
+msgstr ""
+
+#: qmakebuilddirchooser.cpp:108
+#, fuzzy, kde-format
+#| msgid "QMake project files"
+msgid "Qmake binary \"%1\" does not exist."
+msgstr "QMake 工程文件"
+
+#: qmakebuilddirchooser.cpp:111
+#, fuzzy
+#| msgid "QMake project files"
+msgid "QMake binary is not a file."
+msgstr "QMake 工程文件"
+
+#: qmakebuilddirchooser.cpp:114
+msgid "QMake binary is not executable."
+msgstr ""
+
+#: qmakebuilddirchooser.cpp:119
+#, fuzzy
+#| msgid "QMake project files"
+msgid "QMake binary cannot be queried for variables."
+msgstr "QMake 工程文件"
+
+#: qmakebuilddirchooser.cpp:122
+msgid "No basic MkSpec file could be found for the given QMake binary."
+msgstr ""
+
+#: qmakebuilddirchooser.cpp:130
+msgid "Please specify a build folder."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: qmakebuilddirchooser.ui:26
+#, fuzzy
+#| msgid "QMake Manager"
+msgid "QMake &binary:"
+msgstr "QMake 管理器"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: qmakebuilddirchooser.ui:49
+msgid "&Build directory:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: qmakebuilddirchooser.ui:65
+msgid "&Install to (target.path):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: qmakebuilddirchooser.ui:88
+msgid "Build &type:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_buildType)
+#: qmakebuilddirchooser.ui:118
+msgid "(Use default from .pro file)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: qmakebuilddirchooser.ui:126
+msgid "Extra arguments:"
+msgstr ""
+
+#: qmakebuilddirchooserdialog.cpp:33
+msgid "Configure QMake build settings"
+msgstr ""
+
+#: qmakejob.cpp:50
+#, kde-format
+msgid "Run QMake in %1"
+msgstr ""
+
+#: qmakejob.cpp:160
+#, kde-format
+msgid "*** Exited with return code: %1 ***"
+msgstr ""
+
+#: qmakejob.cpp:162
+msgid "*** Process aborted ***"
+msgstr ""
+
+#: qmakejob.cpp:164
+#, kde-format
+msgid "*** Crashed with return code: %1 ***"
+msgstr ""
+
+#: qmakemanager.cpp:81
+msgid "QMake Manager"
+msgstr "QMake 管理器"
+
+#: qmakemanager.cpp:82
+msgid "Support for managing QMake projects"
+msgstr "管理 QMake 工程支持"
+
+#: qmakemanager.cpp:109
+msgid "Run QMake"
+msgstr ""
+
+#, fuzzy
+#~| msgid "QMake Manager"
+#~ msgid "QMake Builder"
+#~ msgstr "QMake 管理器"
+
+#, fuzzy
+#~| msgid "Support for managing QMake projects"
+#~ msgid "Support for building QMake projects"
+#~ msgstr "管理 QMake 工程支持"
+
+#, fuzzy
+#~| msgid "QMake project files"
+#~ msgid "No project specified."
+#~ msgstr "QMake 工程文件"

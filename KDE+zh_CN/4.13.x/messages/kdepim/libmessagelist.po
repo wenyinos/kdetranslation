@@ -1,0 +1,1532 @@
+# translation of kmail.po to 简体中文
+# Note and phrase to further translation:
+# Copyright (C) 2002,2003, 2004, 2009 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Levin Du <zsdjw@21cn.com>, 2004.
+# Funda Wang <fundawang@linux.net.cn>, 2002,2003,2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmail\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-26 01:44+0000\n"
+"PO-Revision-Date: 2010-07-14 16:01+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: core/aggregation.cpp:207
+msgctxt "No grouping of messages"
+msgid "None"
+msgstr "未分组"
+
+#: core/aggregation.cpp:208
+msgid "By Exact Date (of Thread Leaders)"
+msgstr "根据精确日期(线索发起人)"
+
+#: core/aggregation.cpp:209
+msgid "By Smart Date Ranges (of Thread Leaders)"
+msgstr "根据智能判断的日期范围(线索发起人)"
+
+#: core/aggregation.cpp:210 core/sortorder.cpp:47
+msgid "By Smart Sender/Receiver"
+msgstr "根据智能判断的发件人/收件人"
+
+#: core/aggregation.cpp:211 core/sortorder.cpp:45
+msgid "By Sender"
+msgstr "根据发件人"
+
+#: core/aggregation.cpp:212 core/sortorder.cpp:46
+msgid "By Receiver"
+msgstr "根据收件人"
+
+#: core/aggregation.cpp:222
+msgid "Never Expand Groups"
+msgstr "从不展开分组"
+
+#: core/aggregation.cpp:224
+msgid "Expand Recent Groups"
+msgstr "展开最新分组"
+
+#: core/aggregation.cpp:225
+msgid "Always Expand Groups"
+msgstr "总是展开分组"
+
+#: core/aggregation.cpp:232
+msgctxt "No threading of messages"
+msgid "None"
+msgstr "无"
+
+#: core/aggregation.cpp:233
+msgid "Perfect Only"
+msgstr "只有完整的"
+
+#: core/aggregation.cpp:234
+msgid "Perfect and by References"
+msgstr "完整的，根据索引"
+
+#: core/aggregation.cpp:235
+msgid "Perfect, by References and by Subject"
+msgstr "完整的，根据索引和主题"
+
+#: core/aggregation.cpp:244
+msgid "Topmost Message"
+msgstr "最顶端的信件"
+
+#: core/aggregation.cpp:247
+msgid "Most Recent Message"
+msgstr "最新的信件"
+
+#: core/aggregation.cpp:256
+msgid "Never Expand Threads"
+msgstr "从不展开线索"
+
+#: core/aggregation.cpp:257
+msgid "Expand Threads With Unread Messages"
+msgstr "展开含有未读信件的线索"
+
+#: core/aggregation.cpp:258
+msgid "Expand Threads With Unread or Important Messages"
+msgstr "展开含有未读或重要信件的线索"
+
+#: core/aggregation.cpp:259
+msgid "Always Expand Threads"
+msgstr "总是展开线索"
+
+#: core/aggregation.cpp:266
+msgid "Favor Interactivity"
+msgstr "易交互性优先"
+
+#: core/aggregation.cpp:267
+msgid "Favor Speed"
+msgstr "速度优先"
+
+#: core/aggregation.cpp:268
+msgid "Batch Job (No Interactivity)"
+msgstr "批处理任务(无交互)"
+
+#: core/item.cpp:217 core/messageitem.cpp:579
+msgctxt "Status of an item"
+msgid "Read"
+msgstr "已读"
+
+#: core/item.cpp:219 core/messageitem.cpp:579
+msgctxt "Status of an item"
+msgid "Unread"
+msgstr "未读"
+
+#: core/item.cpp:222
+msgctxt "Status of an item"
+msgid "Has Attachment"
+msgstr "有附件"
+
+#: core/item.cpp:225
+msgctxt "Status of an item"
+msgid "Action Item"
+msgstr "活动"
+
+#: core/item.cpp:228 core/messageitem.cpp:577
+msgctxt "Status of an item"
+msgid "Replied"
+msgstr "已回复"
+
+#: core/item.cpp:231
+msgctxt "Status of an item"
+msgid "Forwarded"
+msgstr "已转发"
+
+#: core/item.cpp:234
+msgctxt "Status of an item"
+msgid "Sent"
+msgstr "已发送"
+
+#: core/item.cpp:237
+msgctxt "Status of an item"
+msgid "Important"
+msgstr "重要"
+
+#: core/item.cpp:240
+msgctxt "Status of an item"
+msgid "Spam"
+msgstr "垃圾信"
+
+#: core/item.cpp:243
+msgctxt "Status of an item"
+msgid "Ham"
+msgstr "有害信"
+
+#: core/item.cpp:246
+msgctxt "Status of an item"
+msgid "Watched"
+msgstr "已监视"
+
+#: core/item.cpp:249
+msgctxt "Status of an item"
+msgid "Ignored"
+msgstr "已忽略"
+
+#: core/manager.cpp:98 core/model.cpp:292
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr "未知"
+
+#: core/manager.cpp:292
+msgid "Current Activity, Threaded"
+msgstr "当前，线索模式"
+
+#: core/manager.cpp:293
+msgid ""
+"This view uses smart date range groups. Messages are threaded. So for "
+"example, in \"Today\" you will find all the messages arrived today and all "
+"the threads that have been active today."
+msgstr ""
+"此视图会智能地根据日期范围对信件进行线索化分组。例如：在“今日”组内，您会找到"
+"所有今天收到的信件，以及所有在今天发起的线索。"
+
+#: core/manager.cpp:310
+msgid "Current Activity, Flat"
+msgstr "当前，平坦模式"
+
+#: core/manager.cpp:311
+msgid ""
+"This view uses smart date range groups. Messages are not threaded. So for "
+"example, in \"Today\" you will simply find all the messages arrived today."
+msgstr ""
+"此视图会智能地根据日期范围对信件进行分组，不过信件并不会按照线索方式编排。例"
+"如：在“今日”组内，您会找到所有今天收到的信件。"
+
+#: core/manager.cpp:327
+msgid "Activity by Date, Threaded"
+msgstr "按日期，线索模式"
+
+#: core/manager.cpp:328
+msgid ""
+"This view uses day-by-day groups. Messages are threaded. So for example, in "
+"\"Today\" you will find all the messages arrived today and all the threads "
+"that have been active today."
+msgstr ""
+"此视图会按日对信件进行线索化分组，例如：在“今日”组内，您会找到所有今天收到的"
+"信件，以及所有在今天发起的线索。"
+
+#: core/manager.cpp:345
+msgid "Activity by Date, Flat"
+msgstr "按日期，平坦模式"
+
+#: core/manager.cpp:346
+msgid ""
+"This view uses day-by-day groups. Messages are not threaded. So for example, "
+"in \"Today\" you will simply find all the messages arrived today."
+msgstr ""
+"此视图会按日对信件进行分组，信件并不会按照线索方式编排。例如：在“今日”组内，"
+"您会找到所有今天收到的信件。"
+
+#: core/manager.cpp:362
+msgid "Standard Mailing List"
+msgstr "标准邮件列表"
+
+#: core/manager.cpp:363
+msgid ""
+"This is a plain and old mailing list view: no groups and heavy threading."
+msgstr "这是简单传统的邮件列表视图：没有分组和热门线索特性。"
+
+#: core/manager.cpp:376
+msgid "Flat Date View"
+msgstr "平坦日期视图"
+
+#: core/manager.cpp:377
+msgid ""
+"This is a plain and old list of messages sorted by date: no groups and no "
+"threading."
+msgstr "这是简单传统的按日期查看邮件视图：没有分组和线索特性。"
+
+#: core/manager.cpp:392
+msgid "Senders/Receivers, Flat"
+msgstr "发件人/收件人，平坦"
+
+#: core/manager.cpp:393
+msgid ""
+"This view groups the messages by senders or receivers (depending on the "
+"folder type). Messages are not threaded."
+msgstr ""
+"在此视图下，程序会根据发件人或收件人对信件进行分组(具体取决于文件夹类型)，信"
+"件不会按线索形式显示。"
+
+#: core/manager.cpp:409
+msgid "Thread Starters"
+msgstr "线索发起者"
+
+#: core/manager.cpp:410
+msgid ""
+"This view groups the messages in threads and then groups the threads by the "
+"starting user."
+msgstr "在此视图下，信件会按线索形式显示，并根据线索的发起者进行分组。"
+
+#: core/manager.cpp:675
+msgctxt "Default theme name"
+msgid "Classic"
+msgstr "经典"
+
+#: core/manager.cpp:676
+msgid "A simple, backward compatible, single row theme"
+msgstr "简单，向后兼容的单排风格主题"
+
+#: core/manager.cpp:680
+msgctxt "@title:column Subject of messages"
+msgid "Subject"
+msgstr "主题"
+
+#: core/manager.cpp:718 core/theme.cpp:86
+msgid "Sender/Receiver"
+msgstr "发件人/收件人"
+
+#: core/manager.cpp:720
+msgctxt "Sender of a message"
+msgid "Sender"
+msgstr "发件人"
+
+#: core/manager.cpp:721
+msgctxt "Receiver of a message"
+msgid "Receiver"
+msgstr "收件人"
+
+#: core/manager.cpp:722
+msgctxt "Date of a message"
+msgid "Date"
+msgstr "日期"
+
+#: core/manager.cpp:723
+msgid "Most Recent Date"
+msgstr "最近日期"
+
+#: core/manager.cpp:724
+msgctxt "Size of a message"
+msgid "Size"
+msgstr "大小"
+
+#: core/manager.cpp:725
+msgctxt "Attachement indication"
+msgid "Attachment"
+msgstr "附件"
+
+#: core/manager.cpp:726
+#, fuzzy
+#| msgid "Unread"
+msgid "Read/Unread"
+msgstr "未读"
+
+#: core/manager.cpp:727
+msgid "Replied"
+msgstr "已回复"
+
+#: core/manager.cpp:728
+msgctxt "Message importance indication"
+msgid "Important"
+msgstr "重要"
+
+#: core/manager.cpp:729
+msgid "Action Item"
+msgstr "活动"
+
+#: core/manager.cpp:730
+msgid "Spam/Ham"
+msgstr "垃圾/有害"
+
+#: core/manager.cpp:731
+msgid "Watched/Ignored"
+msgstr "监视/忽略"
+
+#: core/manager.cpp:732
+msgid "Encryption"
+msgstr "加密"
+
+#: core/manager.cpp:733
+msgid "Signature"
+msgstr "签名"
+
+#: core/manager.cpp:734
+msgid "Tag List"
+msgstr "标签列表"
+
+#: core/manager.cpp:743
+msgid "Smart"
+msgstr ""
+
+#: core/manager.cpp:744
+#, fuzzy
+#| msgid "A fancy multiline and multi item theme"
+msgid "A smart multiline and multi item theme"
+msgstr "绚丽的多行多项目风格主题"
+
+#: core/manager.cpp:748
+msgid "Message"
+msgstr "信件"
+
+#: core/manager.cpp:840
+#, fuzzy
+#| msgid "Fancy with Clickable Status"
+msgid "Smart with Clickable Status"
+msgstr "绚丽(状态可点击)"
+
+#: core/manager.cpp:841
+#, fuzzy
+#| msgid ""
+#| "A fancy multiline and multi item theme with a clickable status column"
+msgid "A smart multiline and multi item theme with a clickable status column"
+msgstr "绚丽的多行多项目风格主题，含有可点击的状态栏"
+
+#: core/manager.cpp:845 core/view.cpp:2420 core/view.cpp:2423
+msgid "Status"
+msgstr "状态"
+
+#: core/model.cpp:289
+msgid "Today"
+msgstr "今日"
+
+#: core/model.cpp:290
+msgid "Yesterday"
+msgstr "昨日"
+
+#: core/model.cpp:293
+msgid "Last Week"
+msgstr "上周"
+
+#: core/model.cpp:294
+msgid "Two Weeks Ago"
+msgstr "两周前"
+
+#: core/model.cpp:295
+msgid "Three Weeks Ago"
+msgstr "三周前"
+
+#: core/model.cpp:296
+msgid "Four Weeks Ago"
+msgstr "四周前"
+
+#: core/model.cpp:297
+msgid "Five Weeks Ago"
+msgstr "五周前"
+
+#: core/model.cpp:507 utils/themeeditor.cpp:205
+msgid "Receiver"
+msgstr "收件人"
+
+#: core/model.cpp:508 utils/themeeditor.cpp:204
+msgid "Sender"
+msgstr "发件人"
+
+#: core/model.cpp:1289
+#, kde-format
+msgctxt "Message Aggregation Group Header: Month name and Year number"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: core/model.cpp:3747
+#, kde-format
+msgid "Processed 1 Message of %2"
+msgid_plural "Processed %1 Messages of %2"
+msgstr[0] "已处理 %1 封信件，共 %2 封"
+
+#: core/model.cpp:3753 core/model.cpp:3759
+#, kde-format
+msgid "Threaded 1 Message of %2"
+msgid_plural "Threaded %1 Messages of %2"
+msgstr[0] "已线索处理 %1 封信件，共 %2 封"
+
+#: core/model.cpp:3765
+#, kde-format
+msgid "Grouped 1 Thread of %2"
+msgid_plural "Grouped %1 Threads of %2"
+msgstr[0] "已分组 %1 个线索，共 %2 个"
+
+#: core/model.cpp:3771
+#, kde-format
+msgid "Updated 1 Group of %2"
+msgid_plural "Updated %1 Groups of %2"
+msgstr[0] "已更新 %1 组，共 %2 组"
+
+#: core/model.cpp:3868
+msgctxt "@info:status Finished view fill"
+msgid "Ready"
+msgstr "就绪"
+
+#: core/quicksearchline.cpp:56
+msgctxt "@action:button"
+msgid "Lock search"
+msgstr ""
+
+#: core/quicksearchline.cpp:59
+msgctxt "@info:whatsthis"
+msgid ""
+"Toggle this button if you want to keep your quick search locked when moving "
+"to other folders or when narrowing the search by message status."
+msgstr ""
+
+#: core/quicksearchline.cpp:68
+msgid "Quick Filter:"
+msgstr ""
+
+#: core/quicksearchline.cpp:74
+msgctxt "Search for messages."
+msgid "Search"
+msgstr "搜索"
+
+#: core/quicksearchline.cpp:96
+msgid "Open Full Search"
+msgstr "打开完整搜索"
+
+#: core/quicksearchline.cpp:114
+msgid "Filter message by:"
+msgstr ""
+
+#: core/quicksearchline.cpp:118
+#, fuzzy
+#| msgid "Message"
+msgid "Full Message"
+msgstr "信件"
+
+#: core/quicksearchline.cpp:125
+msgid "Body"
+msgstr ""
+
+#: core/quicksearchline.cpp:135
+#, fuzzy
+#| msgctxt "@title:column Subject of messages"
+#| msgid "Subject"
+msgid "Subject"
+msgstr "主题"
+
+#: core/quicksearchline.cpp:141 core/view.cpp:2401 core/view.cpp:2405
+msgid "From"
+msgstr "发件人"
+
+#: core/quicksearchline.cpp:147
+msgid "Bcc"
+msgstr ""
+
+#: core/quicksearchline.cpp:247
+msgctxt "@info:tooltip"
+msgid "Clear the quick search field when changing folders"
+msgstr ""
+
+#: core/quicksearchline.cpp:251
+msgctxt "@info:tooltip"
+msgid "Prevent the quick search field from being cleared when changing folders"
+msgstr ""
+
+#: core/quicksearchline.cpp:288
+msgctxt "@action:inmenu Status of a message"
+msgid "Unread"
+msgstr "未读"
+
+#: core/quicksearchline.cpp:291
+msgctxt "@action:inmenu Status of a message"
+msgid "Replied"
+msgstr "已回复"
+
+#: core/quicksearchline.cpp:295
+msgctxt "@action:inmenu Status of a message"
+msgid "Forwarded"
+msgstr "已转发"
+
+#: core/quicksearchline.cpp:299
+msgctxt "@action:inmenu Status of a message"
+msgid "Important"
+msgstr "重要"
+
+#: core/quicksearchline.cpp:303
+msgctxt "@action:inmenu Status of a message"
+msgid "Action Item"
+msgstr "活动"
+
+#: core/quicksearchline.cpp:307
+msgctxt "@action:inmenu Status of a message"
+msgid "Watched"
+msgstr "已监视"
+
+#: core/quicksearchline.cpp:311
+msgctxt "@action:inmenu Status of a message"
+msgid "Ignored"
+msgstr "已忽略"
+
+#: core/quicksearchline.cpp:315
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Attachment"
+msgstr "有附件"
+
+#: core/quicksearchline.cpp:319
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Invitation"
+msgstr "有邀请"
+
+#: core/quicksearchline.cpp:323
+msgctxt "@action:inmenu Status of a message"
+msgid "Spam"
+msgstr "垃圾信"
+
+#: core/quicksearchline.cpp:327
+msgctxt "@action:inmenu Status of a message"
+msgid "Ham"
+msgstr "有害信"
+
+#. i18n: ectx: label, entry (MessageToolTipEnabled), group (MessageListView)
+#: core/settings.kcfg:10
+msgid "Display tooltips for messages and group headers"
+msgstr "显示信件和组头的工具提示"
+
+#. i18n: ectx: whatsthis, entry (MessageToolTipEnabled), group (MessageListView)
+#: core/settings.kcfg:11
+msgid ""
+"Enable this option to display tooltips when hovering over an item in the "
+"message list."
+msgstr "如果想要当鼠标悬停在信件列表的某个条目上时显示工具提示，请启用此选项。"
+
+#. i18n: ectx: label, entry (AutoHideTabBarWithSingleTab), group (MessageListView)
+#: core/settings.kcfg:15
+msgid "Hide tab bar when only one tab is open"
+msgstr "只打开一个标签时隐藏标签栏"
+
+#. i18n: ectx: whatsthis, entry (AutoHideTabBarWithSingleTab), group (MessageListView)
+#: core/settings.kcfg:16
+msgid ""
+"With this option enabled the tab bar will be displayed only when there are "
+"two or more tabs. With this option disabled the tab bar will be always "
+"shown. When the tab bar is hidden you can always open a folder in a new tab "
+"by middle-clicking it."
+msgstr ""
+"如果启用此选项，仅当一个或更多标签被打开时才会显示标签栏。如果禁用此选项，则"
+"标签栏会总是显示。在标签栏隐藏时，您仍然可以通过鼠标中键单击的操作来在新标签"
+"中打开文件夹。"
+
+#. i18n: ectx: label, entry (TabsHaveCloseButton), group (MessageListView)
+#: core/settings.kcfg:20
+msgid "Show close button on each tab"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (TabsHaveCloseButton), group (MessageListView)
+#: core/settings.kcfg:21
+msgid "Enable this option if you want to have a close button on each tab."
+msgstr ""
+
+#: core/sortorder.cpp:41 core/sortorder.cpp:86
+msgid "None (Storage Order)"
+msgstr "无(按存储顺序)"
+
+#: core/sortorder.cpp:42
+msgid "By Date/Time"
+msgstr "根据日期/时间"
+
+#: core/sortorder.cpp:44
+msgid "By Date/Time of Most Recent in Subtree"
+msgstr "根据子树内最近的日期/时间"
+
+#: core/sortorder.cpp:48
+msgid "By Subject"
+msgstr "按主题"
+
+#: core/sortorder.cpp:49
+msgid "By Size"
+msgstr "按大小"
+
+#: core/sortorder.cpp:50
+msgid "By Action Item Status"
+msgstr "按活动状态"
+
+#: core/sortorder.cpp:51
+msgid "By Unread Status"
+msgstr "按是否读取过的状态"
+
+#: core/sortorder.cpp:52
+#, fuzzy
+#| msgid "By Unread Status"
+msgid "By Important Status"
+msgstr "按是否读取过的状态"
+
+#: core/sortorder.cpp:67 core/sortorder.cpp:109
+msgid "Least Recent on Top"
+msgstr "最早的在顶部"
+
+#: core/sortorder.cpp:68 core/sortorder.cpp:110
+msgid "Most Recent on Top"
+msgstr "最新的在顶部"
+
+#: core/sortorder.cpp:72
+msgctxt "Sort order for messages"
+msgid "Ascending"
+msgstr "升序"
+
+#: core/sortorder.cpp:73
+msgctxt "Sort order for messages"
+msgid "Descending"
+msgstr "降序"
+
+#: core/sortorder.cpp:84
+msgid "by Date/Time"
+msgstr "根据日期/时间"
+
+#: core/sortorder.cpp:87
+msgid "by Date/Time of Most Recent Message in Group"
+msgstr "根据组内最新信件的日期/时间"
+
+#: core/sortorder.cpp:91
+msgid "by Sender/Receiver"
+msgstr "根据发件人/收件人"
+
+#: core/sortorder.cpp:93
+msgid "by Sender"
+msgstr "根据发件人"
+
+#: core/sortorder.cpp:95
+msgid "by Receiver"
+msgstr "根据收件人"
+
+#: core/sortorder.cpp:113
+msgctxt "Sort order for mail groups"
+msgid "Ascending"
+msgstr "升序"
+
+#: core/sortorder.cpp:114
+msgctxt "Sort order for mail groups"
+msgid "Descending"
+msgstr "降序"
+
+#: core/theme.cpp:80
+msgctxt "Description of Type Subject"
+msgid "Subject"
+msgstr "主题"
+
+#: core/theme.cpp:83
+msgctxt "Description of Type Date"
+msgid "Date"
+msgstr "日期"
+
+#: core/theme.cpp:89
+msgctxt "Description of Type Sender"
+msgid "Sender"
+msgstr "发件人"
+
+#: core/theme.cpp:92
+msgctxt "Description of Type Receiver"
+msgid "Receiver"
+msgstr "收件人"
+
+#: core/theme.cpp:95
+msgctxt "Description of Type Size"
+msgid "Size"
+msgstr "大小"
+
+#: core/theme.cpp:98
+msgid "Unread/Read Icon"
+msgstr "未读/已读图标"
+
+#: core/theme.cpp:101
+msgid "Attachment Icon"
+msgstr "附件图标"
+
+#: core/theme.cpp:104
+msgid "Replied/Forwarded Icon"
+msgstr "已回复/已转发图标"
+
+#: core/theme.cpp:107
+msgid "Combined New/Unread/Read/Replied/Forwarded Icon"
+msgstr "联合的新/未读/已读/已回复/已转发图标"
+
+#: core/theme.cpp:110
+msgid "Action Item Icon"
+msgstr "活动项图标"
+
+#: core/theme.cpp:113
+msgid "Important Icon"
+msgstr "重要信件图标"
+
+#: core/theme.cpp:116
+msgid "Group Header Label"
+msgstr "分组信头标签"
+
+#: core/theme.cpp:119
+msgid "Spam/Ham Icon"
+msgstr "垃圾/有害信图标"
+
+#: core/theme.cpp:122
+msgid "Watched/Ignored Icon"
+msgstr "监视/忽略信件图标"
+
+#: core/theme.cpp:125
+msgid "Group Header Expand/Collapse Icon"
+msgstr "分组信头展开/折叠图标"
+
+#: core/theme.cpp:128
+msgid "Encryption State Icon"
+msgstr "加密状态图标"
+
+#: core/theme.cpp:131
+msgid "Signature State Icon"
+msgstr "签名状态图标"
+
+#: core/theme.cpp:134
+msgid "Vertical Separation Line"
+msgstr "垂直折叠行"
+
+#: core/theme.cpp:137
+msgid "Horizontal Spacer"
+msgstr "水平间距"
+
+#: core/theme.cpp:140
+msgid "Max Date"
+msgstr "最大日期"
+
+#: core/theme.cpp:143
+msgid "Message Tags"
+msgstr "信件标签"
+
+#: core/theme.cpp:146
+msgid "Note Icon"
+msgstr "便笺图标"
+
+#: core/theme.cpp:148
+msgid "Invitation Icon"
+msgstr "邀请选项"
+
+#: core/theme.cpp:150
+msgctxt "Description for an Unknown Type"
+msgid "Unknown"
+msgstr "未知"
+
+#: core/theme.cpp:615
+msgid "Unread"
+msgstr "未读"
+
+#: core/theme.cpp:776
+msgid "Never Show"
+msgstr "从不显示"
+
+#: core/theme.cpp:777
+msgid "Always Show"
+msgstr "总是显示"
+
+#: core/theme.cpp:784
+msgid "Plain Rectangles"
+msgstr "常规矩形"
+
+#: core/theme.cpp:785
+msgid "Plain Joined Rectangle"
+msgstr "常规相连矩形"
+
+#: core/theme.cpp:786
+msgid "Rounded Rectangles"
+msgstr "圆角矩形"
+
+#: core/theme.cpp:787
+msgid "Rounded Joined Rectangle"
+msgstr "圆角相连矩形"
+
+#: core/theme.cpp:788
+msgid "Gradient Rectangles"
+msgstr "渐变矩形"
+
+#: core/theme.cpp:789
+msgid "Gradient Joined Rectangle"
+msgstr "渐变相连矩形"
+
+#: core/theme.cpp:790
+msgid "Styled Rectangles"
+msgstr "风格化矩形"
+
+#: core/theme.cpp:791
+msgid "Styled Joined Rectangles"
+msgstr "风格化相连矩形"
+
+#: core/view.cpp:781
+msgid "Adjust Column Sizes"
+msgstr "调整列大小"
+
+#: core/view.cpp:785
+msgid "Show Default Columns"
+msgstr "显示默认列"
+
+#: core/view.cpp:790
+msgid "Display Tooltips"
+msgstr "显示工具提示"
+
+#: core/view.cpp:2402 core/view.cpp:2406
+#, fuzzy
+#| msgctxt "Receiver of the emial"
+#| msgid "To"
+msgctxt "Receiver of the email"
+msgid "To"
+msgstr "收件人"
+
+#: core/view.cpp:2403 core/view.cpp:2407
+msgid "Date"
+msgstr "日期"
+
+#: core/view.cpp:2421 core/view.cpp:2424
+msgid "Size"
+msgstr "大小"
+
+#: core/view.cpp:2429 core/view.cpp:2431
+msgid "Note"
+msgstr "便笺"
+
+#: core/view.cpp:2438 core/view.cpp:2440
+msgid "Preview"
+msgstr "预览"
+
+#: core/view.cpp:2459
+#, kde-format
+msgid "<b>%1</b> reply"
+msgid_plural "<b>%1</b> replies"
+msgstr[0] "<b>%1</b> 个回复"
+
+#: core/view.cpp:2463
+#, kde-format
+msgid "<b>%1</b> message in subtree (<b>%2</b> unread)"
+msgid_plural "<b>%1</b> messages in subtree (<b>%2</b> unread)"
+msgstr[0] "在子树下有 <b>%1</b> 封信件(<b>%2</b> 封未读)"
+
+#: core/view.cpp:2508
+#, kde-format
+msgctxt ""
+"@info:tooltip Formats to something like 'Threads started on 2008-12-21'"
+msgid "Threads started on %1"
+msgstr "开始于 %1 的线索"
+
+#: core/view.cpp:2514
+#, kde-format
+msgctxt "@info:tooltip Formats to something like 'Threads started Yesterday'"
+msgid "Threads started %1"
+msgstr "开始于 %1 的线索"
+
+#: core/view.cpp:2519
+#, kde-format
+msgid "Threads with messages dated %1"
+msgstr "日期为 %1 的信件线索"
+
+#: core/view.cpp:2531
+#, kde-format
+msgctxt "@info:tooltip Formats to something like 'Messages sent on 2008-12-21'"
+msgid "Messages sent on %1"
+msgstr "发送于 %1 的信件"
+
+#: core/view.cpp:2537
+#, kde-format
+msgctxt ""
+"@info:tooltip Formats to something like 'Messages received on 2008-12-21'"
+msgid "Messages received on %1"
+msgstr "接收于 %1 的线索"
+
+#: core/view.cpp:2544
+#, kde-format
+msgctxt "@info:tooltip Formats to something like 'Messages sent Yesterday'"
+msgid "Messages sent %1"
+msgstr "发送于 %1 的线索"
+
+#: core/view.cpp:2550
+#, kde-format
+msgctxt "@info:tooltip Formats to something like 'Messages received Yesterday'"
+msgid "Messages received %1"
+msgstr "接收于 %1 的信件"
+
+#: core/view.cpp:2562
+#, kde-format
+msgid "Threads started within %1"
+msgstr "线索开始于 %1"
+
+#: core/view.cpp:2565
+#, kde-format
+msgid "Threads containing messages with dates within %1"
+msgstr "线索中包含创建于 %1 的信件"
+
+#: core/view.cpp:2573
+#, kde-format
+msgid "Messages sent within %1"
+msgstr "信件由密钥 %1 签名。"
+
+#: core/view.cpp:2575
+#, kde-format
+msgid "Messages received within %1"
+msgstr "接收于 %1 的信件"
+
+#: core/view.cpp:2585
+#, kde-format
+msgid "Threads started by %1"
+msgstr "线索由 %1 发起"
+
+#: core/view.cpp:2588
+#, kde-format
+msgid "Threads with most recent message by %1"
+msgstr "包含最新信件的线索由 %1 发起"
+
+#: core/view.cpp:2598 core/view.cpp:2624
+#, kde-format
+msgid "Messages sent to %1"
+msgstr "发送到 %1 的信件"
+
+#: core/view.cpp:2600
+#, kde-format
+msgid "Messages sent by %1"
+msgstr "由 %1 发送的信件"
+
+#: core/view.cpp:2602
+#, kde-format
+msgid "Messages received from %1"
+msgstr "接收自 %1 的信件"
+
+#: core/view.cpp:2612
+#, kde-format
+msgid "Threads directed to %1"
+msgstr "跳转到 %1 的线索"
+
+#: core/view.cpp:2615
+#, kde-format
+msgid "Threads with most recent message directed to %1"
+msgstr "包含最新信件的线索跳转到 %1"
+
+#: core/view.cpp:2626
+#, kde-format
+msgid "Messages received by %1"
+msgstr "由 %1 接收的信件"
+
+#: core/view.cpp:2655
+#, kde-format
+msgid "<b>%1</b> thread"
+msgid_plural "<b>%1</b> threads"
+msgstr[0] "<b>%1</b> 个线索"
+
+#: core/view.cpp:2660
+#, kde-format
+msgid "<b>%1</b> message (<b>%2</b> unread)"
+msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
+msgstr[0] "<b>%1</b> 封信件(<b>%2</b> 封未读)"
+
+#: core/widgetbase.cpp:390 messagelistutil.cpp:136
+msgid "Theme"
+msgstr "主题"
+
+#: core/widgetbase.cpp:414 core/widgetbase.cpp:505
+#: utils/aggregationconfigbutton.cpp:45 utils/themeconfigbutton.cpp:62
+msgid "Configure..."
+msgstr "配置..."
+
+#: core/widgetbase.cpp:481 messagelistutil.cpp:130
+msgid "Aggregation"
+msgstr "聚合"
+
+#: core/widgetbase.cpp:565
+msgid "Message Sort Order"
+msgstr "信件排列顺序"
+
+#: core/widgetbase.cpp:590
+msgid "Message Sort Direction"
+msgstr "信件排列方向"
+
+#: core/widgetbase.cpp:609
+msgid "Group Sort Order"
+msgstr "分组排列顺序"
+
+#: core/widgetbase.cpp:630
+msgid "Group Sort Direction"
+msgstr "分组排列方向"
+
+#: core/widgetbase.cpp:647
+msgid "Folder Always Uses This Sort Order"
+msgstr "文件夹总是使用此排列顺序"
+
+#: messagelistutil.cpp:124
+msgid "Sorting"
+msgstr "排序"
+
+#: pane.cpp:148
+msgctxt "@info:tooltip"
+msgid "Open a new tab"
+msgstr "在新标签中打开"
+
+#: pane.cpp:150
+msgid "New tab"
+msgstr ""
+
+#: pane.cpp:159
+msgctxt "@info:tooltip"
+msgid "Close the current tab"
+msgstr "关闭当前标签"
+
+#: pane.cpp:161
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgid "Close tab"
+msgstr "关闭标签"
+
+#: pane.cpp:203
+#, kde-format
+msgid "Activate Tab %1"
+msgstr ""
+
+#: pane.cpp:215
+msgid "Show Quick Search Bar"
+msgstr "显示快速搜索栏"
+
+#: pane.cpp:233
+msgid "Message List"
+msgstr "信件列表"
+
+#: pane.cpp:239
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Open a new tab"
+msgid "Create New Tab"
+msgstr "在新标签中打开"
+
+#: pane.cpp:251
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Close Tab"
+msgid "Close Tab"
+msgstr "关闭标签"
+
+#: pane.cpp:258
+msgid "Activate Next Tab"
+msgstr ""
+
+#: pane.cpp:263
+msgid "Activate Previous Tab"
+msgstr ""
+
+#: pane.cpp:269
+msgid "Move Tab Left"
+msgstr ""
+
+#: pane.cpp:274
+msgid "Move Tab Right"
+msgstr ""
+
+#: pane.cpp:478 pane.cpp:723
+msgctxt "@title:tab Empty messagelist"
+msgid "Empty"
+msgstr "空"
+
+#: pane.cpp:655
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "关闭标签"
+
+#: pane.cpp:658
+msgctxt "@action:inmenu"
+msgid "Close All Other Tabs"
+msgstr "关闭全部其它标签"
+
+#: storagemodel.cpp:236
+msgctxt "displayed as subject when the subject of a mail is empty"
+msgid "No Subject"
+msgstr "无主题"
+
+#: storagemodel.cpp:237
+msgctxt "displayed when a mail has unknown sender, receiver or date"
+msgid "Unknown"
+msgstr "未知"
+
+#: utils/aggregationeditor.cpp:47
+msgid "Groups && Threading"
+msgstr "分组和线索"
+
+#: utils/aggregationeditor.cpp:51
+msgid "Grouping:"
+msgstr "分组："
+
+#: utils/aggregationeditor.cpp:58
+msgid "Group expand policy:"
+msgstr "分组展开策略："
+
+#: utils/aggregationeditor.cpp:62
+msgid "Threading:"
+msgstr "线索："
+
+#: utils/aggregationeditor.cpp:69
+msgid "Thread leader:"
+msgstr "线索发起人："
+
+#: utils/aggregationeditor.cpp:73
+msgid "Thread expand policy:"
+msgstr "线索展开策略："
+
+#: utils/aggregationeditor.cpp:82
+msgctxt "@title:tab Advanced settings tab for aggregation mode"
+msgid "Advanced"
+msgstr "高级"
+
+#: utils/aggregationeditor.cpp:86
+msgid "Fill view strategy:"
+msgstr "视图填充策略："
+
+#: utils/configureaggregationsdialog.cpp:100
+msgid "Customize Message Aggregation Modes"
+msgstr "自定义信件聚合模式"
+
+#: utils/configureaggregationsdialog.cpp:115
+#: utils/configureaggregationsdialog.cpp:350
+msgid "New Aggregation"
+msgstr "新建聚合"
+
+#: utils/configureaggregationsdialog.cpp:123
+msgid "Clone Aggregation"
+msgstr "复制聚合"
+
+#: utils/configureaggregationsdialog.cpp:136
+#, fuzzy
+#| msgid "Aggregation"
+msgid "Export Aggregation..."
+msgstr "聚合"
+
+#: utils/configureaggregationsdialog.cpp:142
+#, fuzzy
+#| msgid "Aggregation"
+msgid "Import Aggregation..."
+msgstr "聚合"
+
+#: utils/configureaggregationsdialog.cpp:154
+msgid "Delete Aggregation"
+msgstr "删除聚合"
+
+#: utils/configureaggregationsdialog.cpp:333
+msgid "Unnamed Aggregation"
+msgstr "未命名的聚合"
+
+#: utils/configureaggregationsdialog.cpp:399
+#, fuzzy
+#| msgid "Aggregation"
+msgid "Import Aggregation"
+msgstr "聚合"
+
+#: utils/configureaggregationsdialog.cpp:435
+#, fuzzy
+#| msgid "Aggregation"
+msgid "Export Aggregation"
+msgstr "聚合"
+
+#: utils/configurethemesdialog.cpp:96
+msgid "Customize Themes"
+msgstr "自定义主题"
+
+#: utils/configurethemesdialog.cpp:112 utils/configurethemesdialog.cpp:352
+msgid "New Theme"
+msgstr "新建主题"
+
+#: utils/configurethemesdialog.cpp:120
+msgid "Clone Theme"
+msgstr "复制主题"
+
+#: utils/configurethemesdialog.cpp:134
+msgid "Export Theme..."
+msgstr ""
+
+#: utils/configurethemesdialog.cpp:140
+msgid "Import Theme..."
+msgstr ""
+
+#: utils/configurethemesdialog.cpp:151
+msgid "Delete Theme"
+msgstr "删除主题"
+
+#: utils/configurethemesdialog.cpp:334
+msgid "Unnamed Theme"
+msgstr "未命名的主题"
+
+#: utils/configurethemesdialog.cpp:354 utils/themeeditor.cpp:1281
+msgid "New Column"
+msgstr "新建列"
+
+#: utils/configurethemesdialog.cpp:420
+#, fuzzy
+#| msgid "Clone Theme"
+msgid "Import Theme"
+msgstr "复制主题"
+
+#: utils/configurethemesdialog.cpp:455
+#, fuzzy
+#| msgid "Clone Theme"
+msgid "Export Theme"
+msgstr "复制主题"
+
+#: utils/optionseteditor.cpp:40
+msgctxt "@title:tab General options of a view mode"
+msgid "General"
+msgstr "常规"
+
+#: utils/optionseteditor.cpp:44
+msgctxt "@label:textbox Name of the option"
+msgid "Name:"
+msgstr "名称："
+
+#: utils/optionseteditor.cpp:54
+msgctxt "@label:textbox Description of the option"
+msgid "Description:"
+msgstr "描述："
+
+#: utils/themeeditor.cpp:84
+msgctxt "@label:textbox Property name"
+msgid "Name:"
+msgstr "名称："
+
+#: utils/themeeditor.cpp:88
+msgid "The label that will be displayed in the column header."
+msgstr "这里的标签会显示在列头内。"
+
+#: utils/themeeditor.cpp:91
+msgid "Header click sorts messages:"
+msgstr "点击列头时排序信件："
+
+#: utils/themeeditor.cpp:95
+msgid "The sorting order that clicking on this column header will switch to."
+msgstr "当点击列头时要切换到的排列顺序"
+
+#: utils/themeeditor.cpp:98
+msgid "Visible by default"
+msgstr "默认可见"
+
+#: utils/themeeditor.cpp:99
+msgid "Check this if this column should be visible when the theme is selected."
+msgstr "如果希望此列默认可见，请选中此项。"
+
+#: utils/themeeditor.cpp:102
+msgid "Contains \"Sender or Receiver\" field"
+msgstr "包含“发件人或收件人”字段"
+
+#: utils/themeeditor.cpp:103
+msgid ""
+"Check this if this column label should be updated depending on the folder "
+"\"inbound\"/\"outbound\" type."
+msgstr ""
+"如果希望此列标签的具体内容要根据文件夹的“接收”或“发送”类型来决定，请选中此"
+"项。"
+
+#: utils/themeeditor.cpp:125
+msgid "Unnamed Column"
+msgstr "未读列"
+
+#: utils/themeeditor.cpp:193
+msgid "Message Group"
+msgstr "信件分组"
+
+#: utils/themeeditor.cpp:197 utils/themeeditor.cpp:206
+msgid ""
+"Very long subject very long subject very long subject very long subject very "
+"long subject very long"
+msgstr ""
+"超长主题超长主题超长主题超长主题超长主题超长主题超长主题超长主题超长主题超长"
+"主题超长主题超长主题超长主题"
+
+#: utils/themeeditor.cpp:211
+msgid "Sample Tag 1"
+msgstr "范例标签 1"
+
+#: utils/themeeditor.cpp:212
+msgid "Sample Tag 2"
+msgstr "范例标签 2"
+
+#: utils/themeeditor.cpp:213
+msgid "Sample Tag 3"
+msgstr "范例标签 3"
+
+#: utils/themeeditor.cpp:429
+msgctxt "Indicates whether or not a header label is visible"
+msgid "Visible"
+msgstr "可见"
+
+#: utils/themeeditor.cpp:885
+msgctxt "@action:inmenu soften the text color"
+msgid "Soften"
+msgstr "柔和"
+
+#: utils/themeeditor.cpp:895
+msgctxt "@action:inmenu Font setting"
+msgid "Default"
+msgstr "默认"
+
+#: utils/themeeditor.cpp:900
+msgctxt "@action:inmenu Font setting"
+msgid "Custom..."
+msgstr "自定义..."
+
+#: utils/themeeditor.cpp:910
+msgid "Font"
+msgstr "字体"
+
+#: utils/themeeditor.cpp:920
+msgctxt "@action:inmenu Foreground color setting"
+msgid "Default"
+msgstr "默认"
+
+#: utils/themeeditor.cpp:925
+msgctxt "@action:inmenu Foreground color setting"
+msgid "Custom..."
+msgstr "自定义..."
+
+#: utils/themeeditor.cpp:934
+msgid "Foreground Color"
+msgstr "前景颜色"
+
+#: utils/themeeditor.cpp:945
+msgctxt ""
+"Hide a mark if the mail does not have the attribute, e.g. Important mark on "
+"a non important mail"
+msgid "Hide"
+msgstr "隐藏"
+
+#: utils/themeeditor.cpp:950
+msgctxt ""
+"Keep a empty space in the list if the mail does not have the attribute, e.g. "
+"Important mark on a non important mail"
+msgid "Keep Empty Space"
+msgstr "保留空白区间"
+
+#: utils/themeeditor.cpp:955
+msgctxt ""
+"Show the icon softened in the list if the mail does not have the attribute, "
+"e.g. Important mark on a non important mail"
+msgid "Keep Softened Icon"
+msgstr "保留柔和图标"
+
+#: utils/themeeditor.cpp:964
+msgid "When Disabled"
+msgstr "当禁用时"
+
+#: utils/themeeditor.cpp:973
+msgid "Group Header"
+msgstr "分组信头"
+
+#: utils/themeeditor.cpp:981
+msgctxt "@action:inmenu Group header background color setting"
+msgid "None"
+msgstr "无"
+
+#: utils/themeeditor.cpp:986
+msgctxt "@action:inmenu Group header background color setting"
+msgid "Automatic"
+msgstr "自动"
+
+#: utils/themeeditor.cpp:991
+msgctxt "@action:inmenu Group header background color setting"
+msgid "Custom..."
+msgstr "自定义..."
+
+#: utils/themeeditor.cpp:1001
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: utils/themeeditor.cpp:1023
+msgid "Background Style"
+msgstr "背景风格"
+
+#: utils/themeeditor.cpp:1216
+#, fuzzy
+#| msgid "Column Properties"
+msgid "Column Properties..."
+msgstr "列属性"
+
+#: utils/themeeditor.cpp:1220
+msgid "Add Column..."
+msgstr "添加列..."
+
+#: utils/themeeditor.cpp:1224
+msgid "Delete Column"
+msgstr "删除列"
+
+#: utils/themeeditor.cpp:1231
+msgid "Move Column to Left"
+msgstr ""
+
+#: utils/themeeditor.cpp:1237
+msgid "Move Column to Right"
+msgstr ""
+
+#: utils/themeeditor.cpp:1288
+msgid "Add New Column"
+msgstr "添加新列"
+
+#: utils/themeeditor.cpp:1315
+msgid "Column Properties"
+msgstr "列属性"
+
+#: utils/themeeditor.cpp:1360
+msgid "Appearance"
+msgstr "外观"
+
+#: utils/themeeditor.cpp:1364
+msgid "Content Items"
+msgstr "内容项目"
+
+#: utils/themeeditor.cpp:1505
+msgid ""
+"Right click on the header to add or modify columns. Drag the content items "
+"and drop them on the columns in order to compose your theme. Right click on "
+"the items inside the view for more options."
+msgstr ""
+"在信头上单击鼠标右键可以添加或修改栏目。将内容项目拖放到上面即可定义您自己的"
+"主题。在视图里的项目上单击鼠标右键可以看到更多选项。"
+
+#: utils/themeeditor.cpp:1514
+msgctxt "@title:tab Advanced theme settings"
+msgid "Advanced"
+msgstr "高级"
+
+#: utils/themeeditor.cpp:1518
+msgid "Header:"
+msgstr "信头："
+
+#: utils/themeeditor.cpp:1524
+msgid "Icon size:"
+msgstr "图标大小："
+
+#: utils/themeeditor.cpp:1530
+msgctxt "suffix in a spinbox"
+msgid " pixel"
+msgid_plural " pixels"
+msgstr[0] " 像素"
+
+#: widget.cpp:231
+msgid "All"
+msgstr ""
+
+#: widget.cpp:356
+#, fuzzy
+#| msgid "Collapse All Groups"
+msgid "Collapse Group"
+msgstr "折叠全部分组"
+
+#: widget.cpp:360
+#, fuzzy
+#| msgid "Expand All Groups"
+msgid "Expand Group"
+msgstr "展开全部分组"
+
+#: widget.cpp:367
+msgid "Expand All Groups"
+msgstr "展开全部分组"
+
+#: widget.cpp:371
+msgid "Collapse All Groups"
+msgstr "折叠全部分组"
+
+#: widget.cpp:435
+msgid "&Move Here"
+msgstr "移至此处(&M)"
+
+#: widget.cpp:436
+msgid "&Copy Here"
+msgstr "复制到此处(&C)"
+
+#: widget.cpp:438
+msgid "C&ancel"
+msgstr "取消(&A)"
+
+#~ msgid "Any Status"
+#~ msgstr "任何状态"
+
+#~ msgid "Fancy"
+#~ msgstr "绚丽"

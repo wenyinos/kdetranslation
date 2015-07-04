@@ -1,0 +1,965 @@
+# translation of korganizer.po to 简体中文
+# Copyright (C) 2002,2003, 2008 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.net.cn>, 2000.
+# Xiong Jiang <jxiong@offtopic.org>, 2002, 2003.
+# Funda Wang <fundawang@linux.net.cn>, 2002, 2003, 2004, 2008.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2010.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+# Feng Chao <rainofchaos@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: korganizer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-10 01:34+0000\n"
+"PO-Revision-Date: 2010-07-14 17:16+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: BulkActionComponent.qml:31
+#, fuzzy
+#| msgid "Add calendar"
+msgid "1 calendar"
+msgid_plural "%1 calendars"
+msgstr[0] "添加日历"
+
+#: ConfigDialog.qml:89
+msgid "OK"
+msgstr ""
+
+#: ConfigDialog.qml:101
+msgid "Cancel"
+msgstr ""
+
+#: configwidget.cpp:44 configwidget.cpp:49
+msgid "Category inside, calendar outside"
+msgstr ""
+
+#: configwidget.cpp:45 configwidget.cpp:50
+msgid "Calendar inside, category outside"
+msgstr ""
+
+#: configwidget.cpp:46 configwidget.cpp:51
+msgid "Only category"
+msgstr ""
+
+#: configwidget.cpp:47 configwidget.cpp:52
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Only calendar"
+msgstr "添加日历"
+
+#: configwidget.cpp:77
+#, kde-format
+msgctxt "Holday region, region language"
+msgid "%1 (%2)"
+msgstr ""
+
+#: configwidget.cpp:83
+msgctxt "No holiday region"
+msgid "None"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: configwidget.ui:25
+msgid "Time and Date"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, dayBeginsAtLabel)
+#: configwidget.ui:53
+msgid "Day begins at:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, useHolidayRegionLabel)
+#: configwidget.ui:63
+msgid "Use holiday region:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, workingPeriodLabel)
+#: configwidget.ui:73
+msgid "Working Period:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, workingPeriodMonday)
+#: configwidget.ui:86
+msgid "Monday"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, workingPeriodTuesday)
+#: configwidget.ui:93
+msgid "Tuesday"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, workingPeriodWednesday)
+#: configwidget.ui:100
+msgid "Wednesday"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, workingPeriodThursday)
+#: configwidget.ui:107
+msgid "Thursday"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, workingPeriodFriday)
+#: configwidget.ui:114
+msgid "Friday"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, workingPeriodSaturday)
+#: configwidget.ui:121
+msgid "Saturday"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, workingPeriodSunday)
+#: configwidget.ui:128
+msgid "Sunday"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, dailyStartingHourLabel)
+#: configwidget.ui:141
+msgid "Daily starting hour:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, dailyEndingHourLabel)
+#: configwidget.ui:148
+msgid "Daily ending hour:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ExcludeHolidays)
+#: configwidget.ui:160
+msgid "Exclude holidays"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: configwidget.ui:177
+#, fuzzy
+#| msgid "Actions"
+msgid "New Events"
+msgstr "动作"
+
+#. i18n: ectx: property (text), widget (QLabel, defaultAppointmentTimeLabel)
+#: configwidget.ui:202
+#, fuzzy
+#| msgid "New Appointment"
+msgid "Default appointment time:"
+msgstr "新建约会"
+
+#. i18n: ectx: property (text), widget (QLabel, defaultDurationOfNewAppointmentLabel)
+#: configwidget.ui:212
+msgid "Default duration:"
+msgstr ""
+
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, kcfg_DefaultAppointmentDuration)
+#: configwidget.ui:219
+msgid "hh:mm"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, defaultReminderTimeLabel)
+#: configwidget.ui:226
+msgid "Default reminder time:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ReminderDefaultUnit)
+#: configwidget.ui:243
+msgid "minute(s)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ReminderDefaultUnit)
+#: configwidget.ui:248
+msgid "hour(s)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ReminderDefaultUnit)
+#: configwidget.ui:253
+msgid "day(s)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RemindersForNewEvents)
+#: configwidget.ui:266
+msgid "Enable reminders for new appointments"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: configwidget.ui:283
+#, fuzzy
+#| msgid "Day view"
+msgid "Views"
+msgstr "天视图"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TodosUseCategoryColors)
+#: configwidget.ui:306
+msgid "To-dos use category colors"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, hourSizeLabel)
+#: configwidget.ui:315
+msgid "Hour size:"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_HourSize)
+#: configwidget.ui:322
+msgid " pixels"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowIconsInAgendaView)
+#: configwidget.ui:340
+msgid "Show icons in agenda view"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTodosInAgendaView)
+#: configwidget.ui:347
+msgid "Show to-dos in agenda view"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowCurrentTimeLine)
+#: configwidget.ui:354
+msgid "Show current time line"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, agendaViewColorOptionsLabel)
+#: configwidget.ui:369
+msgid "Agenda view color usage:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ColorBusyDaysInAgendaView)
+#: configwidget.ui:378
+msgid "Color busy days in agenda view"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTodosInMonthView)
+#: configwidget.ui:385
+msgid "Show to-dos in month view"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, monthViewColorUsageLabel)
+#: configwidget.ui:394
+#, fuzzy
+#| msgid "Month view"
+msgid "Month view color usage:"
+msgstr "月视图"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ColorBusyDaysInMonthView)
+#: configwidget.ui:406
+msgid "Color busy days in month view"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: configwidget.ui:423
+msgid "Colors"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: configwidget.ui:448
+msgid "Holiday color:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: configwidget.ui:458
+msgid "Agenda view background color:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: configwidget.ui:468
+msgid "Busy days background color:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: configwidget.ui:478
+msgid "Agenda view current time line color:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: configwidget.ui:488
+msgid "Working hours color:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: configwidget.ui:498
+msgid "To-do due today color:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: configwidget.ui:508
+msgid "To-do overdue color:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: configwidget.ui:530
+msgid "Group Scheduling"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseGroupwareCommunication)
+#: configwidget.ui:553
+msgid "Use Groupware communication"
+msgstr ""
+
+#: EventListView.qml:44
+msgid "%1 (%2)"
+msgstr ""
+
+#: eventsexporthandler.cpp:31
+msgid "Which events shall be exported?"
+msgstr ""
+
+#: eventsexporthandler.cpp:36
+#, fuzzy
+#| msgid "Actions"
+msgid "All Events"
+msgstr "动作"
+
+#: eventsexporthandler.cpp:41
+msgid "Events in current folder"
+msgstr ""
+
+#: eventsimporthandler.cpp:36
+msgid "Select iCal to Import"
+msgstr ""
+
+#: eventsimporthandler.cpp:41
+msgid "Select the calendar the imported event(s) shall be saved in:"
+msgstr ""
+
+#: eventsimporthandler.cpp:46
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Select Calendar"
+msgstr "添加日历"
+
+#: eventsimporthandler.cpp:51
+#, kde-format
+msgid "Importing one event to %2"
+msgid_plural "Importing %1 events to %2"
+msgstr[0] ""
+
+#: eventsimporthandler.cpp:56 mainview.cpp:163
+#, fuzzy
+#| msgid "Actions"
+msgid "Import Events"
+msgstr "动作"
+
+#: eventsimporthandler.cpp:79
+msgid "iCal Import Failed"
+msgstr ""
+
+#: eventsimporthandler.cpp:81
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Error when trying to read the iCal <filename>%1</filename>:</para>"
+msgstr ""
+
+#: eventsimporthandler.cpp:90
+msgid "No events were imported, due to errors with the iCals."
+msgstr ""
+
+#: eventsimporthandler.cpp:92
+msgid "The iCal does not contain any events."
+msgstr ""
+
+#: korganizer-mobile.qml:222
+#, fuzzy
+#| msgid ""
+#| "You have selected \n"
+#| "%1 folders\n"
+#| "from %2 accounts\n"
+#| "%3 events"
+msgctxt "%1 is e.g. 3 folders, %2 is e.g. from 2 accounts, %3 is e.g. 9 events"
+msgid ""
+"You have selected \n"
+"%1\n"
+"%2\n"
+"%3"
+msgstr ""
+"您已经从\n"
+"账户 %2 中选择了\n"
+"%1 个文件夹共 %3 个事件"
+
+#: korganizer-mobile.qml:223
+#, fuzzy
+#| msgid "Add calendar"
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "添加日历"
+
+#: korganizer-mobile.qml:224
+#, fuzzy
+#| msgid "Actions"
+msgid "from 1 account"
+msgid_plural "from %1 accounts"
+msgstr[0] "动作"
+
+#: korganizer-mobile.qml:225
+#, fuzzy
+#| msgid "Add calendar"
+msgid "1 event"
+msgid_plural "%1 events"
+msgstr[0] "添加日历"
+
+#: korganizer-mobile.qml:242
+msgid "Select"
+msgstr "选择"
+
+#: korganizer-mobile.qml:271 korganizer-mobile.qml:351
+msgid "New Appointment"
+msgstr "新建约会"
+
+#: korganizer-mobile.qml:303
+msgid "yyyy-MM-dd"
+msgstr ""
+
+#: korganizer-mobile.qml:312
+msgid "Day view"
+msgstr "天视图"
+
+#: korganizer-mobile.qml:321
+msgid "Week view"
+msgstr "周视图"
+
+#: korganizer-mobile.qml:330
+msgid "Month view"
+msgstr "月视图"
+
+#: korganizer-mobile.qml:339 KorganizerActions.qml:133
+#: KorganizerActions.qml:157
+#, fuzzy
+#| msgid "Week view"
+msgid "Timeline"
+msgstr "周视图"
+
+#: korganizer-mobile.qml:371
+msgid "Actions"
+msgstr "动作"
+
+#: korganizer-mobile.qml:553
+msgid "One event found"
+msgid_plural "%1 events found"
+msgstr[0] ""
+
+#: KorganizerActions.qml:38
+msgid "Home"
+msgstr ""
+
+#: KorganizerActions.qml:40
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Select Multiple Calendars"
+msgstr "添加日历"
+
+#: KorganizerActions.qml:50
+#, fuzzy
+#| msgid "Actions"
+msgid "Accounts"
+msgstr "动作"
+
+#: KorganizerActions.qml:58
+msgid "Account"
+msgstr ""
+
+#: KorganizerActions.qml:69 KorganizerActions.qml:97 KorganizerActions.qml:115
+#: KorganizerActions.qml:139 KorganizerActions.qml:163
+msgid "View"
+msgstr ""
+
+#: KorganizerActions.qml:70 KorganizerActions.qml:98 KorganizerActions.qml:117
+#: KorganizerActions.qml:140 KorganizerActions.qml:164
+msgid "Add View As Favorite"
+msgstr ""
+
+#: KorganizerActions.qml:71 KorganizerActions.qml:99 KorganizerActions.qml:118
+msgid "Switch To Editing Mode"
+msgstr ""
+
+#: KorganizerActions.qml:77
+msgid "Folder"
+msgstr ""
+
+#: KorganizerActions.qml:86 KorganizerActions.qml:194
+msgid "Edit"
+msgstr ""
+
+#: KorganizerActions.qml:105
+msgid "Folders"
+msgstr ""
+
+#: KorganizerActions.qml:116 KorganizerActions.qml:165
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Select Calendars"
+msgstr "添加日历"
+
+#: KorganizerActions.qml:124
+msgid "Choice"
+msgstr ""
+
+#: KorganizerActions.qml:126 KorganizerActions.qml:150
+msgid "Show Today"
+msgstr ""
+
+#: KorganizerActions.qml:127 KorganizerActions.qml:151
+#, fuzzy
+#| msgid "Day view"
+msgid "Day View"
+msgstr "天视图"
+
+#: KorganizerActions.qml:128 KorganizerActions.qml:152
+msgid "Next Three Days View"
+msgstr ""
+
+#: KorganizerActions.qml:129 KorganizerActions.qml:153
+#, fuzzy
+#| msgid "Week view"
+msgid "Week View"
+msgstr "周视图"
+
+#: KorganizerActions.qml:130 KorganizerActions.qml:154
+#, fuzzy
+#| msgid "Week view"
+msgid "Work Week View"
+msgstr "周视图"
+
+#: KorganizerActions.qml:131 KorganizerActions.qml:155
+#, fuzzy
+#| msgid "Month view"
+msgid "Month View"
+msgstr "月视图"
+
+#: KorganizerActions.qml:132 KorganizerActions.qml:156
+msgid "Event List View"
+msgstr ""
+
+#: KorganizerActions.qml:142
+#, fuzzy
+#| msgid "Save calendar selection"
+msgid "Back To Folder Selection"
+msgstr "保存所选日历"
+
+#: KorganizerActions.qml:148
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Calendars"
+msgstr "添加日历"
+
+#: KorganizerActions.qml:171
+msgid "Event"
+msgstr ""
+
+#: KorganizerActions.qml:187
+msgid "Attachments"
+msgstr ""
+
+#: KorganizerActions.qml:204 mainview.cpp:128
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Calendar"
+msgstr "添加日历"
+
+#: KorganizerActions.qml:211
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Configure Calendar"
+msgstr "添加日历"
+
+#: main.cpp:44 mainview.cpp:297 mainview.cpp:338 mainview.cpp:395
+#: mainview.cpp:414
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Kontact Touch Calendar"
+msgstr "添加日历"
+
+#: mainview.cpp:167
+msgid "Export Events From This Account"
+msgstr ""
+
+#: mainview.cpp:171
+#, fuzzy
+#| msgid "Actions"
+msgid "Export Displayed Events"
+msgstr "动作"
+
+#: mainview.cpp:175
+#, fuzzy
+#| msgid "Actions"
+msgid "Archive Old Events"
+msgstr "动作"
+
+#: mainview.cpp:179
+msgid "Publish Item Information"
+msgstr ""
+
+#: mainview.cpp:183
+msgid "Send Invitations To Attendees"
+msgstr ""
+
+#: mainview.cpp:187
+msgid "Send Status Update"
+msgstr ""
+
+#: mainview.cpp:191
+msgid "Send Cancellation To Attendees"
+msgstr ""
+
+#: mainview.cpp:195
+msgid "Request Update"
+msgstr ""
+
+#: mainview.cpp:199
+msgid "Request Change"
+msgstr ""
+
+#: mainview.cpp:203
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Send As ICalendar"
+msgstr "添加日历"
+
+#: mainview.cpp:207
+msgid "Mail Free Busy Information"
+msgstr ""
+
+#: mainview.cpp:211
+msgid "Upload Free Busy Information"
+msgstr ""
+
+#: mainview.cpp:215
+msgid "Save All"
+msgstr ""
+
+#: mainview.cpp:219
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Set Color Of Calendar"
+msgstr "添加日历"
+
+#: mainview.cpp:223
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Configure Categories"
+msgstr "添加日历"
+
+#: mainview.cpp:466
+#, fuzzy
+#| msgid "Actions"
+msgid "New Event"
+msgstr "动作"
+
+#: mainview.cpp:467
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Calendar Properties"
+msgstr "添加日历"
+
+#: mainview.cpp:468
+#, fuzzy
+#| msgid "Add calendar"
+msgid "New Sub Calendar"
+msgstr "添加日历"
+
+#: mainview.cpp:470
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Synchronize This Calendar"
+msgid_plural "Synchronize These Calendars"
+msgstr[0] "添加日历"
+
+#: mainview.cpp:471
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Delete Calendar"
+msgid_plural "Delete Calendars"
+msgstr[0] "添加日历"
+
+#: mainview.cpp:472
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Move Calendar To"
+msgstr "添加日历"
+
+#: mainview.cpp:473
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Copy Calendar To"
+msgstr "添加日历"
+
+#: mainview.cpp:475
+msgid "Synchronize All Accounts"
+msgstr ""
+
+#: mainview.cpp:493
+#, fuzzy, kde-format
+#| msgid "Actions"
+msgid "Copy Event"
+msgid_plural "Copy %1 Events"
+msgstr[0] "动作"
+
+#: mainview.cpp:494
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Copy Event To"
+msgstr "添加日历"
+
+#: mainview.cpp:495
+#, fuzzy, kde-format
+#| msgid "Add calendar"
+msgid "Delete Event"
+msgid_plural "Delete %1 Events"
+msgstr[0] "添加日历"
+
+#: mainview.cpp:496
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Move Event To"
+msgstr "添加日历"
+
+#: mainview.cpp:497
+#, fuzzy
+#| msgid "Actions"
+msgid "Edit Event"
+msgstr "动作"
+
+#: mainview.cpp:499
+#, kde-format
+msgid "Copy Task"
+msgid_plural "Copy %1 Tasks"
+msgstr[0] ""
+
+#: mainview.cpp:500
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Copy Task To"
+msgstr "添加日历"
+
+#: mainview.cpp:501
+#, fuzzy, kde-format
+#| msgid "Select"
+msgid "Delete Task"
+msgid_plural "Delete %1 Tasks"
+msgstr[0] "选择"
+
+#: mainview.cpp:502
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Move Task To"
+msgstr "添加日历"
+
+#: mainview.cpp:503
+msgid "Edit Task"
+msgstr ""
+
+#: mainview.cpp:505
+#, kde-format
+msgid "Copy Journal"
+msgid_plural "Copy %1 Journals"
+msgstr[0] ""
+
+#: mainview.cpp:506
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Copy Journal To"
+msgstr "添加日历"
+
+#: mainview.cpp:507
+#, fuzzy, kde-format
+#| msgid "Actions"
+msgid "Delete Journal"
+msgid_plural "Delete %1 Journals"
+msgstr[0] "动作"
+
+#: mainview.cpp:508
+#, fuzzy
+#| msgid "Add calendar"
+msgid "Move Journal To"
+msgstr "添加日历"
+
+#: mainview.cpp:509
+#, fuzzy
+#| msgid "Actions"
+msgid "Edit Journal"
+msgstr "动作"
+
+#: mainview.cpp:518
+#, fuzzy
+#| msgid "Actions"
+msgctxt "@title:window"
+msgid "New Account"
+msgstr "动作"
+
+#: mainview.cpp:520
+#, kde-format
+msgid "Could not create account: %1"
+msgstr ""
+
+#: mainview.cpp:522
+msgid "Account creation failed"
+msgstr ""
+
+#: mainview.cpp:525
+#, fuzzy
+#| msgid "Actions"
+msgctxt "@title:window"
+msgid "Delete Account?"
+msgstr "动作"
+
+#: mainview.cpp:527
+msgid "Do you really want to delete the selected account?"
+msgstr ""
+
+#: mainview.cpp:592 mainview.cpp:623 mainview.cpp:681 mainview.cpp:713
+msgid "Cannot fetch calendar item."
+msgstr ""
+
+#: mainview.cpp:593 mainview.cpp:624 mainview.cpp:682 mainview.cpp:714
+msgid "Item Fetch Error"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: searchwidget.ui:17
+msgid "Search for:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: searchwidget.ui:31
+msgid "In:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, inSummaries)
+#: searchwidget.ui:53
+msgid "Summaries"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, inDescriptions)
+#: searchwidget.ui:60
+#, fuzzy
+#| msgid "Actions"
+msgid "Descriptions"
+msgstr "动作"
+
+#. i18n: ectx: property (text), widget (QCheckBox, inCategories)
+#: searchwidget.ui:67
+msgid "Categories"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, inLocations)
+#: searchwidget.ui:74
+#, fuzzy
+#| msgid "Actions"
+msgid "Locations"
+msgstr "动作"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: searchwidget.ui:84
+msgid "Between:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: searchwidget.ui:106
+msgid "and"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, includeDateRange)
+#: searchwidget.ui:125
+msgid "Include events within the specified date range"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, includeTodosWithoutDueDate)
+#: searchwidget.ui:132
+msgid "Include To-Dos without a due date"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: searchwidget.ui:139
+#, fuzzy
+#| msgid "Actions"
+msgid "Located in:"
+msgstr "动作"
+
+#. i18n: ectx: property (text), widget (QRadioButton, locatedInAnyCollection)
+#: searchwidget.ui:161
+#, fuzzy
+#| msgid "Add calendar"
+msgid "any folder"
+msgstr "添加日历"
+
+#. i18n: ectx: property (text), widget (QRadioButton, locatedInSpecificCollection)
+#: searchwidget.ui:171
+#, fuzzy
+#| msgid "Add calendar"
+msgid "only in folder"
+msgstr "添加日历"
+
+#, fuzzy
+#~| msgid "Actions"
+#~ msgid "Search For Events"
+#~ msgstr "动作"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Delete"
+#~ msgstr "选择"
+
+#~ msgid "KOrganizer Mobile"
+#~ msgstr "手机 KOrganizer"
+
+#, fuzzy
+#~| msgid "Add calendar"
+#~ msgid "KDE Calendar"
+#~ msgstr "添加日历"
+
+#, fuzzy
+#~| msgid "Add calendar"
+#~ msgid "Delete folder"
+#~ msgid_plural "Delete folders"
+#~ msgstr[0] "添加日历"
+
+#, fuzzy
+#~| msgid "Add calendar"
+#~ msgid "Delete event"
+#~ msgid_plural "Delete events"
+#~ msgstr[0] "添加日历"
+
+#, fuzzy
+#~| msgid "Save calendar selection"
+#~ msgid "Change Folder Selection"
+#~ msgstr "保存所选日历"
+
+#, fuzzy
+#~| msgid "KOrganizer Mobile"
+#~ msgid "KOrganizer"
+#~ msgstr "手机 KOrganizer"
+
+#~ msgid "Add calendar"
+#~ msgstr "添加日历"
+
+#~ msgid "Save calendar selection"
+#~ msgstr "保存所选日历"
+
+#~ msgid "Configure Account"
+#~ msgstr "配置账户"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select..."
+#~ msgstr "选择"
+
+#~ msgid "Previous"
+#~ msgstr "上一项"
+
+#~ msgid "Next"
+#~ msgstr "下一项"
+
+#, fuzzy
+#~| msgid "Actions"
+#~ msgid "Context Actions"
+#~ msgstr "动作"

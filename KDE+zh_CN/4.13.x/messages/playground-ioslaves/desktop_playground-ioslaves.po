@@ -1,0 +1,235 @@
+# translation of desktop_playground-ioslaves.po to 简体中文
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop_playground-ioslaves\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-02 01:58+0000\n"
+"PO-Revision-Date: 2009-02-13 10:39+0000\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: kio-beagle/data/settings-beagle-qt.desktop:2
+msgctxt "Name"
+msgid "Search & Indexing"
+msgstr "搜索和索引"
+
+#: kio-beagle/data/settings-beagle-qt.desktop:41
+msgctxt "GenericName"
+msgid "Configure Beagle Service"
+msgstr "配置 Beagle 服务"
+
+#: kio-beagle/data/start-beagle.desktop:2
+msgctxt "Name"
+msgid "Start Beagle Service"
+msgstr "启动 Beagle 服务"
+
+#: kio-beagle/data/stop-beagle.desktop:2
+msgctxt "Name"
+msgid "Stop Beagle Service"
+msgstr "停止 Beagle 服务"
+
+#: kio-beagle/src/beagle.protocol:10
+msgctxt "Description"
+msgid ""
+"A kioslave for beagle - a Lucene based desktop search backend written in "
+"Mono. For more information visit http://beagle-project.org"
+msgstr ""
+"beagle 的 kioslave - 一个基于 Lucene 的桌面搜索后端，用 Mono 写成。更多信息请"
+"访问 http://beagle-project.org"
+
+#: kio-clucene/KCLuceneIndexerConfig/kclucene_indexer_config.desktop:3
+msgctxt "Name"
+msgid "kclucene_indexer_config"
+msgstr "kclucene_indexer_config"
+
+#: kio-clucene/KCLuceneIndexerConfig/kclucene_indexer_config.desktop:44
+msgctxt "Comment"
+msgid "kio-clucene indexer dialog"
+msgstr "kio-clucene 索引器对话框"
+
+#: kio-clucene/KCLuceneIndexerDaemon/kclucene_indexer_daemon.desktop:7
+msgctxt "Name"
+msgid "kclucene-indexer-daemon"
+msgstr "kclucene-indexer-daemon"
+
+#: kio-clucene/KCLuceneSearchDaemon/kclucene_search_daemon.desktop:5
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid " a clucene search persistent daemon service"
+msgctxt "Comment"
+msgid "A clucene search persistent daemon service"
+msgstr " 一个 clucene 搜索持续性守护进程服务"
+
+#: kio-clucene/KCLuceneSearchDaemon/kclucene_search_daemon.desktop:31
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "kclucene-search-daemon"
+msgctxt "GenericName"
+msgid "kclucene-search-daemon"
+msgstr "kclucene-search-daemon"
+
+#: kio-clucene/KCLuceneSearchDaemon/kclucene_search_daemon.desktop:57
+msgctxt "Name"
+msgid "kclucene-search-daemon"
+msgstr "kclucene-search-daemon"
+
+#: kio-clucene/KCLuceneSearchDialog/kclucene_search_dialog.desktop:6
+#: kwest/KCLuceneSearchDialog/kclucene_search_dialog.desktop:6
+msgctxt "GenericName"
+msgid "A KDE Application"
+msgstr "KDE 应用程序"
+
+#: kio-clucene/KCLuceneSearchDialog/kclucene_search_dialog.desktop:52
+#: kwest/KCLuceneSearchDialog/kclucene_search_dialog.desktop:52
+msgctxt "Name"
+msgid "kclucene-search-dialog"
+msgstr "kclucene-search-dialog"
+
+#: kio-clucene/kio_clucene/kclucene_any.desktop:6
+#: kwest/kio_kwest/kclucene_any.desktop:6
+msgctxt "Name"
+msgid "clucene any entry"
+msgstr "clucene 任意条目"
+
+#: kio-clucene/kio_clucene/kclucene_any.desktop:40
+msgctxt "Query"
+msgid "clucene:/search?query=any:\\\\{@}"
+msgstr "clucene:/search?query=any:\\\\{@}"
+
+#: kio-clucene/kio_clucene/kclucene_content.desktop:6
+#: kwest/kio_kwest/kclucene_content.desktop:6
+msgctxt "Name"
+msgid "clucene"
+msgstr "clucene"
+
+#: kio-clucene/kio_clucene/kclucene_content.desktop:44
+msgctxt "Query"
+msgid "clucene:/ \\\\{@}"
+msgstr "clucene:/ \\\\{@}"
+
+#: kio-clucene/kio_clucene/kdedmodule/kclucene_search_daemon_kded_notify.desktop:4
+msgctxt "Name"
+msgid "KDED KCLucene Base URL Notifier"
+msgstr "KDED KCLucene 基准 URL 通知器"
+
+#: kio-giobridge/giobridge/giobridge-remote-unmount.desktop:8
+msgctxt "Name"
+msgid "Unmount"
+msgstr "卸载"
+
+#: kio-giobridge/kdedmodule/giobridgeremotedirnotify.desktop:3
+msgctxt "Name"
+msgid "KDED Remote GVFS Mountlist Change Notifier"
+msgstr "KDED 远程 GVFS 挂载列表更改通知器"
+
+#: kio-locate/locate.desktop:4
+msgctxt "Name"
+msgid "locate - Search for local files"
+msgstr ""
+
+#: kio-locate/locate.desktop:33
+#, fuzzy
+#| msgctxt "Query"
+#| msgid "clucene:/ \\\\{@}"
+msgctxt "Query"
+msgid "locate:\\\\{@}"
+msgstr "clucene:/ \\\\{@}"
+
+#: kio-locate/locate.protocol:9 kio-locate/locater.protocol:9
+#: kio-locate/rlocate.protocol:9
+msgctxt "Description"
+msgid "KDE I/O Slave for the locate command"
+msgstr ""
+
+#: kwest/kio_kwest/beagle_default.desktop:6
+msgctxt "Name"
+msgid "beagle"
+msgstr "beagle"
+
+#: kwest/kio_kwest/beagle_default.desktop:45
+msgctxt "Query"
+msgid "rekwest:/beagle?query=\\\\{@}"
+msgstr "rekwest:/beagle?query=\\\\{@}"
+
+#: kwest/kio_kwest/kclucene_any.desktop:40
+msgctxt "Query"
+msgid "rekwest:/lucene?query=any:\\\\{@}"
+msgstr "rekwest:/lucene?query=any:\\\\{@}"
+
+#: kwest/kio_kwest/kclucene_content.desktop:44
+msgctxt "Query"
+msgid "rekwest:/lucene?query=\\\\{@}"
+msgstr "rekwest:/lucene?query=\\\\{@}"
+
+#: kwest/kio_kwest/kdedmodule/kwest_search_daemon_kded_notify.desktop:4
+msgctxt "Name"
+msgid "KDED Kwest Base URL Notifier"
+msgstr "KDED Kwest 基准 URL 通知器"
+
+#: kwest/KwestDaemon/kwest_search_daemon.desktop:5
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid " a west search persistent daemon service"
+msgctxt "Comment"
+msgid "A west search persistent daemon service"
+msgstr " 一个 west 搜索持续性守护进程服务"
+
+#: kwest/KwestDaemon/kwest_search_daemon.desktop:31
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "kwest-search-daemon"
+msgctxt "GenericName"
+msgid "kwest-search-daemon"
+msgstr "kwest-search-daemon"
+
+#: kwest/KwestDaemon/kwest_search_daemon.desktop:57
+msgctxt "Name"
+msgid "kwest-search-daemon"
+msgstr "kwest-search-daemon"
+
+#~ msgctxt "Description"
+#~ msgid "A kioslave for mtp"
+#~ msgstr "mtp 的 kioslave"
+
+#~ msgctxt "Name"
+#~ msgid "7zip Info"
+#~ msgstr "7zip 信息"
+
+#~ msgctxt "Description"
+#~ msgid "A kioslave for p7zip"
+#~ msgstr "p7zip 的 kioslave"
+
+#~ msgctxt "Comment"
+#~ msgid "7-zip Archive"
+#~ msgstr "7-zip 归档"
+
+#~ msgctxt "Name"
+#~ msgid "Rar Info"
+#~ msgstr "Rar 信息"
+
+#~ msgctxt "Description"
+#~ msgid "A kioslave for RAR archives"
+#~ msgstr "RAR 归档的 kioslave"
+
+#~ msgctxt "Comment"
+#~ msgid "Rar Archive"
+#~ msgstr "Rar 归档"
+
+#~ msgctxt "Description"
+#~ msgid "A kioslave for sql"
+#~ msgstr "sql 的 kioslave"
+
+#~ msgctxt "GenericName"
+#~ msgid " kclucene-search-daemon"
+#~ msgstr " kclucene-search-daemon"
+
+#~ msgctxt "GenericName"
+#~ msgid " kwest-search-daemon"
+#~ msgstr " kwest-search-daemon"

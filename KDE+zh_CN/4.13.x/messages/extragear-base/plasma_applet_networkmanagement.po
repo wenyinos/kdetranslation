@@ -1,0 +1,655 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# JimHu, 2009.
+# JimHu <jimhuyiwei@gmail.com>, 2009.
+# FengChao <rainofchaos@gmail.com>, 2011, 2012.
+# Ni Hui <shuizhuyuanluo@126.com>, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-11 02:53+0200\n"
+"PO-Revision-Date: 2013-06-21 17:17-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: connectionitem.cpp:264
+msgctxt ""
+"@info:status Notification when the networking subsystem (NetworkManager, "
+"etc) is disabled"
+msgid "Networking system disabled"
+msgstr "已禁用网络系统"
+
+#: connectionitem.cpp:268
+msgctxt "@info:status Notification for radio kill switch turned off"
+msgid "Wireless hardware disabled"
+msgstr "已禁用无线硬件"
+
+#: connectionslistmodel.cpp:454
+msgid "Connections"
+msgstr "连接"
+
+#: connectionslistmodel.cpp:458
+msgid "VPN"
+msgstr "VPN"
+
+#: connectionslistmodel.cpp:462
+msgid "Shared Connections"
+msgstr "共享连接"
+
+#: declarativenmpopup.cpp:308
+msgctxt "Warning about wrong NetworkManager version"
+msgid "NetworkManager is not running. Please start it."
+msgstr "NetworkManager 未运行。请先启动它。"
+
+#: declarativenmpopup.cpp:310
+#, kde-format
+msgctxt "Warning about wrong NetworkManager version"
+msgid ""
+"We need at least NetworkManager-%1 to work properly, found '%2'. Please "
+"upgrade to a newer version."
+msgstr "至少需要网络管理器-%1才能正常工作，找到“%2”。请升级到新版本。"
+
+#: interfacedetailswidget.cpp:116
+msgctxt "interface details"
+msgid "<b>Traffic</b>"
+msgstr "<b>流量</b>"
+
+#: interfacedetailswidget.cpp:153
+msgid "Disconnect"
+msgstr "断开连接"
+
+#: interfacedetailswidget.cpp:154
+msgctxt "@info:tooltip"
+msgid "Click here to disconnect"
+msgstr "点此断开"
+
+#: interfacedetailswidget.cpp:163
+msgctxt "disconnect button in interface details window"
+msgid "Disconnect"
+msgstr "断开连接"
+
+#: interfacedetailswidget.cpp:181
+msgctxt "@action:button"
+msgid "Back"
+msgstr "后退"
+
+#: interfacedetailswidget.cpp:215 interfacedetailswidget.cpp:337
+msgctxt "entry not available"
+msgid "not available"
+msgstr "不可用"
+
+#: interfacedetailswidget.cpp:220
+msgctxt "traffic received empty"
+msgid "Received"
+msgstr "接收"
+
+#: interfacedetailswidget.cpp:222
+msgctxt "traffic transmitted empty"
+msgid "Transmitted"
+msgstr "传输"
+
+#: interfacedetailswidget.cpp:328
+msgctxt "state of mobile broadband connection"
+msgid "not enabled"
+msgstr "未启用"
+
+#: interfacedetailswidget.cpp:364 interfacedetailswidget.cpp:408
+msgctxt "interface details"
+msgid "Type"
+msgstr "类型"
+
+#: interfacedetailswidget.cpp:366 interfacedetailswidget.cpp:409
+msgctxt "interface details"
+msgid "Connection State"
+msgstr "连接状态"
+
+#: interfacedetailswidget.cpp:368 interfacedetailswidget.cpp:411
+msgctxt "interface details"
+msgid "Connection Speed"
+msgstr "连接速度"
+
+#: interfacedetailswidget.cpp:368
+msgctxt "bitrate"
+msgid "Unknown"
+msgstr "未知"
+
+#: interfacedetailswidget.cpp:370 interfacedetailswidget.cpp:412
+msgctxt "interface details"
+msgid "System Name"
+msgstr "系统名称"
+
+#: interfacedetailswidget.cpp:372
+msgctxt "interface details"
+msgid "MAC Address"
+msgstr "MAC 地址"
+
+#: interfacedetailswidget.cpp:374 interfacedetailswidget.cpp:414
+msgctxt "interface details"
+msgid "Driver"
+msgstr "驱动"
+
+#: interfacedetailswidget.cpp:376
+msgctxt "interface details"
+msgid "IPv4 Address"
+msgstr "IPv4 地址"
+
+#: interfacedetailswidget.cpp:378
+msgctxt "interface details"
+msgid "IPv4 Gateway"
+msgstr "IPv4 网关"
+
+#: interfacedetailswidget.cpp:380
+msgctxt "interface details"
+msgid "Access Point (SSID)"
+msgstr "接入点(SSID)"
+
+#: interfacedetailswidget.cpp:382
+msgctxt "interface details"
+msgid "Access Point (MAC)"
+msgstr "接入点(MAC)"
+
+#: interfacedetailswidget.cpp:384
+msgctxt "@item:intable wireless band"
+msgid "Band"
+msgstr "频带"
+
+#: interfacedetailswidget.cpp:386
+msgctxt "@item:intable wireless channel"
+msgid "Channel"
+msgstr "频道"
+
+#: interfacedetailswidget.cpp:388
+msgctxt "interface details"
+msgid "Operator"
+msgstr "运营商"
+
+#: interfacedetailswidget.cpp:390
+msgctxt "interface details"
+msgid "Signal Quality"
+msgstr "信号质量"
+
+#: interfacedetailswidget.cpp:392
+msgctxt "interface details"
+msgid "Access Technology"
+msgstr "接入技术"
+
+#: interfacedetailswidget.cpp:394
+msgctxt "interface details"
+msgid "Frequency Band"
+msgstr "频带"
+
+#: interfacedetailswidget.cpp:396
+msgctxt "interface details"
+msgid "Allowed Mode"
+msgstr "允许模式"
+
+#: interfacedetailswidget.cpp:398
+msgctxt "interface details"
+msgid "Device Name"
+msgstr "设备名"
+
+#: interfacedetailswidget.cpp:400
+msgctxt "interface details"
+msgid "Unlock Required"
+msgstr "需要解锁"
+
+#: interfacedetailswidget.cpp:400
+msgctxt "Answer to the question: is modem unlock required?"
+msgid "No"
+msgstr "否"
+
+#: interfacedetailswidget.cpp:400
+msgctxt "Answer to the question: is modem unlock required?"
+msgid "Yes"
+msgstr "是"
+
+#: interfacedetailswidget.cpp:402
+msgctxt "interface details"
+msgid "IMEI"
+msgstr "IMEI(国际移动设备识别码)"
+
+#: interfacedetailswidget.cpp:404
+msgctxt "interface details"
+msgid "IMSI"
+msgstr "IMSI(国际移动用户识别码)"
+
+#: interfacedetailswidget.cpp:410
+msgctxt "interface details"
+msgid "Network Address (IP)"
+msgstr "网络地址(IP)"
+
+#: interfacedetailswidget.cpp:413
+msgctxt "interface details"
+msgid "Hardware Address (MAC)"
+msgstr "硬件地址(MAC)"
+
+#: interfacedetailswidget.cpp:500
+msgid "KBit/s"
+msgstr "KBit/s"
+
+#: interfacedetailswidget.cpp:502
+msgid "MBit/s"
+msgstr "MBit/s"
+
+#: interfacedetailswidget.cpp:506
+msgid "GBit/s"
+msgstr "GBit/s"
+
+#: interfacedetailswidget.cpp:530
+#, kde-format
+msgctxt ""
+"traffic, e.g. n KB/s\n"
+" m KB/s"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: interfacedetailswidget.cpp:539
+msgid "Received"
+msgstr "接收"
+
+#: interfacedetailswidget.cpp:542
+msgid "Transmitted"
+msgstr "传输"
+
+#: interfacedetailswidget.cpp:793
+msgctxt "label of the network interface"
+msgid "No IP address."
+msgstr "无 IP 地址。"
+
+#: interfacedetailswidget.cpp:794
+msgctxt "label of the network interface"
+msgid "No gateway."
+msgstr "无网关。"
+
+#: interfacedetailswidget.cpp:799
+msgctxt "label of the network interface"
+msgid "IP display error."
+msgstr "IP 显示错误。"
+
+#: networkmanager.cpp:306
+msgctxt "CheckBox to enable or disable networking completely"
+msgid "Enable networking"
+msgstr "启用网络"
+
+#: networkmanager.cpp:307
+msgctxt "@info:tooltip tooltip for the 'Enable networking' checkbox"
+msgid "Enable or disable the networking system"
+msgstr "启用或禁用网络系统"
+
+#: networkmanager.cpp:690
+msgctxt "Tooltip sub text"
+msgid "No network interfaces"
+msgstr "无网络接口"
+
+#: networkmanager.cpp:742
+msgid "VPN Connections"
+msgstr "VPN 连接"
+
+#: networkmanager.cpp:756
+msgctxt "tooltip, all interfaces are down"
+msgid "Disconnected"
+msgstr "已断开"
+
+#: networkmanager.cpp:759
+msgctxt "tooltip, wireless is disabled in software"
+msgid "Wireless disabled in software"
+msgstr "无线已被软件禁用"
+
+#: networkmanager.cpp:762
+msgctxt "tooltip, all interfaces are down"
+msgid "Networking disabled"
+msgstr "已禁用网络系统"
+
+#: networkmanager.cpp:765
+msgctxt "tooltip, wireless is disabled by hardware"
+msgid "Wireless disabled by hardware"
+msgstr "无线已被硬件禁用"
+
+#~ msgid "Signal quality: %1%"
+#~ msgstr "信号质量：%1%"
+
+#~ msgctxt "@action for creating a connection to a hidden wireless network"
+#~ msgid "<placeholder>hidden network</placeholder>"
+#~ msgstr "<placeholder>隐藏网络</placeholder>"
+
+#~ msgctxt "@label for hidden wireless network SSID entry"
+#~ msgid "Enter network name and press <placeholder>enter</placeholder>"
+#~ msgstr "输入网络名然后按<placeholder>回车</placeholder>"
+
+#~ msgctxt "@info:tooltip for hidden wireless network SSID entry"
+#~ msgid "Enter network name and press <placeholder>enter</placeholder>"
+#~ msgstr "输入网络名然后按<placeholder>回车</placeholder>"
+
+#~ msgctxt "name of the connection not known"
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgctxt "tooltip on the LHS widgets"
+#~ msgid "Click here for interface details"
+#~ msgstr "点此查看接口细节"
+
+#~ msgctxt "generic label for an interface"
+#~ msgid "<b>Network Interface</b>"
+#~ msgstr "<b>网络接口</b>"
+
+#~ msgctxt "network interface name unknown"
+#~ msgid "<b>Unknown Network Interface</b>"
+#~ msgstr "<b>未知网络接口</b>"
+
+#~ msgctxt "wired interface network cable unplugged"
+#~ msgid "Cable Unplugged"
+#~ msgstr "网线已拔出"
+
+#~ msgctxt "title on the LHS of the plasmoid"
+#~ msgid "<h3>Interfaces</h3>"
+#~ msgstr "<h3>接口</h3>"
+
+#~ msgctxt "tabbar on the left side"
+#~ msgid "Interfaces"
+#~ msgstr "接口"
+
+#~ msgctxt "button"
+#~ msgid "Connect to Another Network..."
+#~ msgstr "连接到其它网络..."
+
+#~ msgctxt "connection list"
+#~ msgid "Connections"
+#~ msgstr "连接"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Connections"
+#~ msgstr "连接"
+
+#~ msgctxt "connection list"
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "VPN Connections"
+#~ msgstr "VPN 连接"
+
+#~ msgctxt "connection list"
+#~ msgid "Shared Connections"
+#~ msgstr "共享连接"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Shared Connections"
+#~ msgstr "共享连接"
+
+#~ msgctxt "CheckBox to enable or disable wireless interface (rfkill)"
+#~ msgid "Enable wireless"
+#~ msgstr "启用无线"
+
+#~ msgctxt "CheckBox to enable or disable wwan (mobile broadband) interface)"
+#~ msgid "Enable mobile broadband"
+#~ msgstr "启用移动宽带"
+
+#~ msgctxt "settings button in applet's popup window"
+#~ msgid "Settings..."
+#~ msgstr "设置..."
+
+#~ msgctxt "show interface list in applet's popup window"
+#~ msgid "Show Interfaces"
+#~ msgstr "显示接口"
+
+#~ msgctxt "main window"
+#~ msgid "Manage your network connections"
+#~ msgstr "管理网络连接"
+
+#~ msgctxt "hide interface list in applet's popup window"
+#~ msgid "Hide Interfaces"
+#~ msgstr "隐藏接口"
+
+#~ msgctxt "details for the interface"
+#~ msgid "Details"
+#~ msgstr "细节"
+
+#~ msgctxt "text when this item is toggled"
+#~ msgid "Show less networks..."
+#~ msgstr "显示更少网络信息..."
+
+#~ msgctxt "text when this item not toggled"
+#~ msgid "Show one more network"
+#~ msgid_plural "Show %1 more networks..."
+#~ msgstr[0] "多显示 %1 个网络"
+
+#~ msgctxt "title for connect to another network window"
+#~ msgid ""
+#~ "You want to connect to a network. We see the following options for you:"
+#~ msgstr "要连接网络，我们有如下选项："
+
+#~ msgctxt "initial label for VPN connection name"
+#~ msgid "Not Available"
+#~ msgstr "不可用"
+
+#~ msgctxt "ip of vpn interface item"
+#~ msgid "not available"
+#~ msgstr "不可用"
+
+#~ msgctxt "VPN label in interfaces"
+#~ msgid "<b>%1</b>"
+#~ msgstr "<b>%1</b>"
+
+#~ msgctxt "VPN state label"
+#~ msgid "Connected"
+#~ msgstr "已连接"
+
+#~ msgctxt "VPN state label"
+#~ msgid "Connecting..."
+#~ msgstr "正在连接..."
+
+#~ msgctxt "VPN connections interface"
+#~ msgid "<b>Virtual Private Network</b>"
+#~ msgstr "<b>虚拟专用网</b>"
+
+#~ msgctxt "VPN state label"
+#~ msgid "Not Connected..."
+#~ msgstr "未连接..."
+
+#~ msgid "Strength: %1%"
+#~ msgstr "强度：%1%"
+
+#~ msgid "Configure the System Bar"
+#~ msgstr "配置系统栏"
+
+#~ msgid "<b>Appearance</b>"
+#~ msgstr "<b>外观</b>"
+
+#~ msgid "Show &wired connections"
+#~ msgstr "显示有线连接(&W)"
+
+#~ msgid "Show w&ireless connections"
+#~ msgstr "显示无线连接(&I)"
+
+#~ msgid "Show &mobile broadband"
+#~ msgstr "显示移动宽带(&M)"
+
+#~ msgid "Show &VPN connections"
+#~ msgstr "显示 VPN 连接(&V)"
+
+#~ msgid "&Show this many wireless networks"
+#~ msgstr "显示这些数量的无线网络(&S)"
+
+#, fuzzy
+#~| msgctxt "@info:tooltip tooltip for the 'Show More' button"
+#~| msgid "Show all available networks"
+#~ msgctxt "@info:tooltip tooltip for the 'Show unsaved' checkbox"
+#~ msgid "Show unsaved networks"
+#~ msgstr "显示所有可用无线网络"
+
+#~ msgctxt "tooltip on disconnect icon"
+#~ msgid "Disconnect"
+#~ msgstr "断开"
+
+#~ msgctxt "title on the RHS of the plasmoid"
+#~ msgid "<h3>Connections</h3>"
+#~ msgstr "<h3>连接</h3>"
+
+#~ msgctxt "show more button in the applet's popup"
+#~ msgid "Show More..."
+#~ msgstr "显示更多..."
+
+#~ msgctxt "show more button in the applet's popup"
+#~ msgid "Show Less..."
+#~ msgstr "显示更少..."
+
+#~ msgctxt "pressed show more button"
+#~ msgid "Show Less..."
+#~ msgstr "显示更少..."
+
+#~ msgctxt "unpressed show more button"
+#~ msgid "Show More..."
+#~ msgstr "显示更多..."
+
+#~ msgctxt "label for creating a connection to a hidden wireless network"
+#~ msgid "<hidden network>"
+#~ msgstr "<隐藏网络>"
+
+#~ msgctxt "Display of the IP (network) address in the tooltip"
+#~ msgid "<font size=\"-1\">Address: %1</font>"
+#~ msgstr "<font size=\"-1\">地址： %1</font>"
+
+#, fuzzy
+#~| msgid "Connect"
+#~ msgctxt "title on the LHS of the plasmoid"
+#~ msgid "<h3>Interface Details</h3>"
+#~ msgstr "连接"
+
+#, fuzzy
+#~| msgctxt "wireless interface is connected"
+#~| msgid "Connected to %1"
+#~ msgctxt "label of the interface: wireless interface is connected"
+#~ msgid "Connected to %1"
+#~ msgstr "已连接到 %1"
+
+#, fuzzy
+#~| msgctxt "interface is connected"
+#~| msgid "Connected"
+#~ msgctxt "wired interface is connected"
+#~ msgid "Connected"
+#~ msgstr "已连接"
+
+#~ msgctxt "wireless interface is connected"
+#~ msgid "Connected to %1"
+#~ msgstr "已连接到 %1"
+
+#~ msgctxt "wireless interface is connected"
+#~ msgid "Connected"
+#~ msgstr "已连接"
+
+#~ msgctxt "ip address of the network interface"
+#~ msgid "Address: %1"
+#~ msgstr "地址：%1"
+
+#, fuzzy
+#~| msgctxt "title of the wireless tab"
+#~| msgid "Wireless"
+#~ msgctxt "title of the wireless tab"
+#~ msgid "Wireless Networks"
+#~ msgstr "无线"
+
+#, fuzzy
+#~| msgctxt "description of unconnected network interface state"
+#~| msgid "Not connected"
+#~ msgctxt "label on the connectabel button"
+#~ msgid "%1 (connected)"
+#~ msgstr "没有连接"
+
+#, fuzzy
+#~| msgid "Manage Connections..."
+#~ msgctxt "label on the connectabel button"
+#~ msgid "%1 (connecting...)"
+#~ msgstr "管理连接..."
+
+#~ msgctxt "Label for extender"
+#~ msgid "Network Management"
+#~ msgstr "网络管理"
+
+#~ msgctxt "Extender title"
+#~ msgid "Network Management"
+#~ msgstr "网络管理"
+
+#~ msgctxt "button in general settings extender"
+#~ msgid "Manage Connections..."
+#~ msgstr "管理连接..."
+
+#~ msgctxt "title of the wired tab"
+#~ msgid "Wired"
+#~ msgstr "有线"
+
+#~ msgctxt "Warning message to deter non-developers from using this"
+#~ msgid "Network Management is changing!"
+#~ msgstr "网络管理器正在变更！"
+
+#~ msgctxt "Tooltip sub text"
+#~ msgid ""
+#~ "It is highly unstable and will crash your desktop.\n"
+#~ "  Until further notice, please use KDE 4 knetworkmanager instead."
+#~ msgstr ""
+#~ "它现在非常不稳定，并且会使您的桌面崩溃。\n"
+#~ "  在获得进一步的提示前，请使用 KDE 4 的 knetworkmanager 来代替。"
+
+#~ msgid "[not updated yet]"
+#~ msgstr "[没有更新]"
+
+#~ msgid "<b>IP Address:</b> dum.my.ip.addr"
+#~ msgstr "<b>IP 地址：</b>dum.my.ip.addr"
+
+#~ msgctxt "Network cable of interface is not plugged in"
+#~ msgid "Not plugged in"
+#~ msgstr "没有插入网线"
+
+#~ msgid "FIXME: UiUtils: connecting"
+#~ msgstr "FIXME:UiUtils:正在连接"
+
+#~ msgctxt "title of the interface widget in nm's popup"
+#~ msgid "Wired Ethernet"
+#~ msgstr "有线以太网"
+
+#~ msgctxt "title of the interface widget in nm's popup"
+#~ msgid "Wireless 802.11"
+#~ msgstr "无线 802.11"
+
+#~ msgctxt "title of the interface widget in nm's popup"
+#~ msgid "Serial Modem"
+#~ msgstr "串口调制解调器"
+
+#~ msgctxt "title of the interface widget in nm's popup"
+#~ msgid "Mobile Broadband"
+#~ msgstr "移动宽带"
+
+#~ msgctxt "description of unmanaged network interface state"
+#~ msgid "Unmanaged"
+#~ msgstr "未管理"
+
+#~ msgctxt "description of unavailable network interface state"
+#~ msgid "Unavailable"
+#~ msgstr "不可用"
+
+#~ msgctxt "description of preparing to connect network interface state"
+#~ msgid "Preparing to connect"
+#~ msgstr "准备连接"
+
+#~ msgctxt "description of configuring hardware network interface state"
+#~ msgid "Configuring interface"
+#~ msgstr "配置接口"
+
+#~ msgctxt "description of waiting for authentication network interface state"
+#~ msgid "Waiting for authorization"
+#~ msgstr "正在等待认证"
+
+#~ msgctxt "network interface connected state label"
+#~ msgid "Connected"
+#~ msgstr "已连接"
+
+#~ msgid "UNKNOWN STATE FIX ME"
+#~ msgstr "UNKNOWN STATE FIX ME"

@@ -1,0 +1,195 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2011.
+# FengChao <rainofchaos@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-21 01:45+0000\n"
+"PO-Revision-Date: 2013-07-14 15:12+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: updater/ChangelogWidget.cpp:51
+msgctxt "@action:button"
+msgid "Hide"
+msgstr "隐藏"
+
+#: updater/config/UpdaterSettingsDialog.cpp:38
+msgctxt "@title:window"
+msgid "Muon Preferences"
+msgstr "Muon 首选项"
+
+#: updater/config/UpdaterSettingsDialog.cpp:46
+msgctxt "@title:group"
+msgid "Notifications"
+msgstr "通知"
+
+#: updater/main.cpp:31
+msgid "An update manager"
+msgstr "更新管理器"
+
+#: updater/main.cpp:35
+msgid "Muon Update Manager"
+msgstr "Muon 更新管理器"
+
+#: updater/main.cpp:36
+msgid "©2010-2013 Jonathan Thomas"
+msgstr "©2010-2013 Jonathan Thomas"
+
+#: updater/main.cpp:37
+msgid "Jonathan Thomas"
+msgstr "Jonathan Thomas"
+
+#: updater/main.cpp:43
+msgid "List all the backends we'll want to have loaded, separated by coma ','."
+msgstr "列出所有我们想要加载的后端，以“,”隔开。"
+
+#: updater/MainWindow.cpp:71
+msgctxt "@title:window"
+msgid "Software Updates"
+msgstr "软件更新"
+
+#: updater/MainWindow.cpp:80
+msgctxt "@info Warning to plug in laptop before updating"
+msgid "It is safer to plug in the power adapter before updating."
+msgstr "在更新之前插入电源适配器更为保险。"
+
+#: updater/MainWindow.cpp:117
+msgctxt "@action Downloads and installs updates"
+msgid "Install Updates"
+msgstr "安装更新"
+
+#: updater/MainWindow.cpp:132
+msgid "Advanced..."
+msgstr "高级..."
+
+#: updater/ProgressWidget.cpp:118
+#, kde-format
+msgctxt "@label Download rate"
+msgid "Download rate: %1/s"
+msgstr "下载速度：%1/s"
+
+#: updater/UpdateModel/UpdateModel.cpp:117
+msgctxt "@label Column label"
+msgid "Updates"
+msgstr "更新"
+
+#: updater/UpdateModel/UpdateModel.cpp:119
+msgctxt "@label Column label"
+msgid "Version"
+msgstr "版本"
+
+#: updater/UpdateModel/UpdateModel.cpp:121
+msgctxt "@label Column label"
+msgid "Download Size"
+msgstr "下载大小"
+
+#: updater/UpdateModel/UpdateModel.cpp:235
+msgctxt "@item:inlistbox"
+msgid "Important Security Updates"
+msgstr "重要安全更新"
+
+#: updater/UpdateModel/UpdateModel.cpp:238
+msgctxt "@item:inlistbox"
+msgid "Application Updates"
+msgstr "应用更新"
+
+#: updater/UpdateModel/UpdateModel.cpp:241
+msgctxt "@item:inlistbox"
+msgid "System Updates"
+msgstr "系统升级"
+
+#: updater/UpdaterWidget.cpp:71
+msgctxt "@label"
+msgid ""
+"<em>Some packages were not marked for update.</em><p/>The update of these "
+"packages need some others to be installed or removed.<p/>Do you want to "
+"update those too?"
+msgstr ""
+"<em>某些包没有标记为要更新。</em><p/>更新这些包需要安装或移除其他包。<p/>您想"
+"也更新这些包吗？"
+
+#: updater/UpdaterWidget.cpp:74
+msgid "Mark All"
+msgstr "全部标记"
+
+#: updater/UpdaterWidget.cpp:88
+msgid ""
+"<p><b>New software is available for your computer</b></p><p>Click 'Install "
+"Updates' to keep your system up-to-date and safe</p>"
+msgstr ""
+"<p><b>您的计算机有新软件可用</b></p><p>点击“安装更新”来更新您的系统并保持安"
+"全。</p>"
+
+#: updater/UpdaterWidget.cpp:215
+msgctxt "@info"
+msgid "It is unknown when the last check for updates was."
+msgstr "上次检查更新的时间未知。"
+
+#: updater/UpdaterWidget.cpp:216 updater/UpdaterWidget.cpp:234
+msgctxt "@info"
+msgid "Please click <interface>Check for Updates</interface> to check."
+msgstr "请点击<interface>检查更新</interface>进行检查。"
+
+#: updater/UpdaterWidget.cpp:223
+msgctxt "@info"
+msgid "The software on this computer is up to date."
+msgstr "此计算机上的软件为最新。"
+
+#: updater/UpdaterWidget.cpp:224 updater/UpdaterWidget.cpp:229
+#, kde-format
+msgctxt "@info"
+msgid "Last checked %1 ago."
+msgstr "上次检查是在 %1 前。"
+
+#: updater/UpdaterWidget.cpp:228
+msgctxt "@info"
+msgid "No updates are available."
+msgstr "无更新可用。"
+
+#~ msgctxt "@info:label Refers to a software version, Ex: Version 1.2.1:"
+#~ msgid "Version %1:"
+#~ msgstr "版本 %1："
+
+#~ msgctxt "@action::inmenu"
+#~ msgid "History..."
+#~ msgstr "历史..."
+
+#~ msgctxt "@title:window"
+#~ msgid "Package History"
+#~ msgstr "软件包历史"
+
+#~ msgctxt "@action:button Cancels the download"
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#, fuzzy
+#~| msgctxt "@info:label Refers to a software version, Ex: Version 1.2.1:"
+#~| msgid "Version %1:"
+#~ msgctxt "@action Use the new config file"
+#~ msgid "Use New Version"
+#~ msgstr "版本 %1："
+
+#, fuzzy
+#~| msgctxt "@info:label Refers to a software version, Ex: Version 1.2.1:"
+#~| msgid "Version %1:"
+#~ msgctxt "@action Keep the old config file"
+#~ msgid "Keep Old Version"
+#~ msgstr "版本 %1："

@@ -1,0 +1,191 @@
+# translation of kio_trash.po to 简体中文
+#
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+# Lie Ex <lilith.ex@gmail.com>, 2009, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_trash\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-07-04 01:40+0000\n"
+"PO-Revision-Date: 2009-06-24 07:55+0000\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: kcmtrash.cpp:158 kcmtrash.cpp:256
+msgid " day"
+msgid_plural " days"
+msgstr[0] " 天"
+
+#: kcmtrash.cpp:247
+msgid "Delete files older than:"
+msgstr "删除旧于此天数的文件："
+
+#: kcmtrash.cpp:249
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Check this box to allow <b>automatic deletion</b> of files that are "
+"older than the value specified. Leave this disabled to <b>not</b> "
+"automatically delete any items after a certain timespan</para>"
+msgstr ""
+"<para>选中此项将允许<b>自动删除</b>旧于指定天数的文件。反之则<b>不会</b>自动"
+"删除任何文件</para>"
+
+#: kcmtrash.cpp:258
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Set the number of days that files can remain in the trash. Any files "
+"older than this will be automatically deleted.</para>"
+msgstr ""
+"<para>设定回收站保留文件的天数。所有旧于这个时间的文件将被自动删除。</para>"
+
+#: kcmtrash.cpp:266
+msgid "Limit to maximum size"
+msgstr "限制最大容量"
+
+#: kcmtrash.cpp:268
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Check this box to limit the trash to the maximum amount of disk space "
+"that you specify below. Otherwise, it will be unlimited.</para>"
+msgstr ""
+"<para>使用此选项限制回收站可使用的最大磁盘空间，如果不选中此项则不作限制。</"
+"para>"
+
+#: kcmtrash.cpp:286
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This is the maximum percent of disk space that will be used for the "
+"trash.</para>"
+msgstr "<para>这是回收站能使用的最大磁盘空间利用率。</para>"
+
+#: kcmtrash.cpp:291
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This is the calculated amount of disk space that will be allowed for "
+"the trash, the maximum.</para>"
+msgstr "<para>这是允许用于回收站存储的最大磁盘空间利用率。</para>"
+
+#: kcmtrash.cpp:294
+msgid "Maximum size:"
+msgstr "最大容量："
+
+#: kcmtrash.cpp:296
+msgid "When limit reached:"
+msgstr "当到达限制时："
+
+#: kcmtrash.cpp:300
+msgid "Warn Me"
+msgstr "向我发警告"
+
+#: kcmtrash.cpp:301
+msgid "Delete Oldest Files From Trash"
+msgstr "从回收站删除最旧的文件"
+
+#: kcmtrash.cpp:302
+msgid "Delete Biggest Files From Trash"
+msgstr "从回收站删除最大的文件"
+
+#: kcmtrash.cpp:304
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>When the size limit is reached, it will prefer to delete the type of "
+"files that you specify, first. If this is set to warn you, it will do so "
+"instead of automatically deleting files.</para>"
+msgstr ""
+"<para>当回收站空间超过限制时，它将首先删除您指定类型的文件而非自动删除文件。"
+"</para>"
+
+#: kio_trash.cpp:92 kio_trash.cpp:155 kio_trash.cpp:310 kio_trash.cpp:342
+#: kio_trash.cpp:510 kio_trash.cpp:522
+#, kde-format
+msgid "Malformed URL %1"
+msgstr "URL %1 格式不对"
+
+#: kio_trash.cpp:111
+#, kde-format
+msgid ""
+"The directory %1 does not exist anymore, so it is not possible to restore "
+"this item to its original location. You can either recreate that directory "
+"and use the restore operation again, or drag the item anywhere else to "
+"restore it."
+msgstr ""
+"目录 %1 不存在，所以无法将此项目恢复到原始位置。您可以重新创建该目录，然后再"
+"使用一次恢复操作；也可以将项目拖曳到其它位置进行恢复。"
+
+#: kio_trash.cpp:140 kio_trash_win.cpp:228
+msgid "This file is already in the trash bin."
+msgstr "此文件已经在回收站中了。"
+
+#: kio_trash.cpp:228 kio_trash_win.cpp:252
+msgid "Internal error in copyOrMove, should never happen"
+msgstr "复制或移动时发生内部错误，这本不应该发生"
+
+#: kio_trash_win.cpp:241
+msgid "not supported"
+msgstr "不支持"
+
+#: ktrash.cpp:32
+msgid "ktrash"
+msgstr "ktrash"
+
+#: ktrash.cpp:34
+msgid ""
+"Helper program to handle the KDE trash can\n"
+"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
+"'url' trash:/\""
+msgstr ""
+"处理 KDE 回收站的助手程序\n"
+"注意：要将文件移动到回收站，不应使用 ktrash，而应使用“kioclient move 'url' "
+"trash:/”"
+
+#: ktrash.cpp:38
+msgid "Empty the contents of the trash"
+msgstr "清空回收站内容"
+
+#: ktrash.cpp:40
+msgid "Restore a trashed file to its original location"
+msgstr "将回收站中的文件恢复到原始位置"
+
+#: ktrash.cpp:42
+msgid "Ignored"
+msgstr "已忽略"
+
+#: trashimpl.cpp:1126
+msgid ""
+"The trash has reached its maximum size!\n"
+"Cleanup the trash manually."
+msgstr ""
+"回收站已到达其最大容量！\n"
+"请手动清理回收站。"
+
+#: trashimpl.cpp:1137
+msgid "The file is too large to be trashed."
+msgstr "此文件太大，无法移入回收站。"
+
+#~ msgid "Byte"
+#~ msgstr "Byte"
+
+#~ msgid "KByte"
+#~ msgstr "KByte"
+
+#~ msgid "MByte"
+#~ msgstr "MByte"
+
+#~ msgid "GByte"
+#~ msgstr "GByte"
+
+#~ msgid "TByte"
+#~ msgstr "TByte"
+
+#~ msgctxt ""
+#~ "%1 is amount of disk space, %2 the unit, KBytes, MBytes, GBytes, TBytes, "
+#~ "etc."
+#~ msgid "(%1 %2)"
+#~ msgstr "(%1 %2)"

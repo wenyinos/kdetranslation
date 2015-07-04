@@ -1,0 +1,222 @@
+# translation of akonaditray.po to 简体中文
+# Chinese translations for PACKAGE package.
+# Copyright (C) 2008 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zhengpeng Hou <zhengpeng-hou@kubuntu.org>, 2008.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: akonaditray\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-14 01:34+0000\n"
+"PO-Revision-Date: 2011-11-19 15:25+0800\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: backupassistant.cpp:42
+msgid ""
+"The backup cannot be made. Either the mysqldump application is not "
+"installed, or the bzip2 application is not found. Please install those and "
+"make sure they can be found in the current path. Restart this Assistant when "
+"this is fixed."
+msgstr ""
+"无法创建备份。可能是程序 mysqldump 没有安装，或者程序 bzip2 没有找到。请安装"
+"这些程序，并确定可以在当前环境下可以找到。修复后再重新启动此助手。"
+
+#: backupassistant.cpp:47
+msgid ""
+"Please select the file where to store the backup, give it the extension .tar."
+"bz2"
+msgstr "请选择备份到的文件，并将扩展名添加为 .tar.bz2"
+
+#: backupassistant.cpp:50
+msgid "&Click Here to Select the Backup Location..."
+msgstr "点击此处以选择备份位置(&C)..."
+
+#: backupassistant.cpp:53
+msgid "Press 'Next' to start the Backup"
+msgstr "点击“下一步”以开始备份"
+
+#: backupassistant.cpp:57
+msgid "Welcome to the Backup Assistant"
+msgstr "欢迎使用备份助手"
+
+#: backupassistant.cpp:62
+msgid "Making the backup"
+msgstr "正在生成备份"
+
+#: backupassistant.cpp:83
+msgid "Save As"
+msgstr "另存为"
+
+#: backupassistant.cpp:99
+msgid "Please be patient, the backup is being created..."
+msgstr "请稍候，正在创建备份..."
+
+#: backupassistant.cpp:106
+msgid ""
+"The backup has been made. Please verify manually if the backup is complete. "
+"Also note that KWallet stored passwords are not in the backup, you might "
+"want to verify you have a backup of those elsewhere."
+msgstr ""
+"备份已经完成。请手工确认备份是否完成。另请注意 KWallet 保存的密码不在备份之"
+"中，也许您想确认您在别的地方有这些的备份。"
+
+#: backupassistant.cpp:112
+msgid ""
+"The backup process ended unexpectedly. Please report a bug, so we can find "
+"out what the cause is."
+msgstr "备份意外结束。请报告 bug，然后我们可以找到原因。"
+
+#: dock.cpp:64
+msgid "Akonadi"
+msgstr "Akonadi"
+
+#: dock.cpp:70
+msgid "&Stop Akonadi"
+msgstr "停止 Akonadi(&S)"
+
+#: dock.cpp:71
+msgid "S&tart Akonadi"
+msgstr "启动 Akonadi(&T)"
+
+#: dock.cpp:72
+msgid "Make &Backup..."
+msgstr "创建备份(&B)..."
+
+#: dock.cpp:73
+msgid "&Restore Backup..."
+msgstr "还原备份(&R)..."
+
+#: dock.cpp:74
+msgid "&Configure..."
+msgstr "配置(&C)..."
+
+#: dock.cpp:101 dock.cpp:155
+msgid "Akonadi available"
+msgstr "Akonadi 可用"
+
+#: dock.cpp:102 dock.cpp:156
+msgid "The Akonadi server has been started and can be used now."
+msgstr "Akonadi 服务现在已经启动，并且可用了。"
+
+#: dock.cpp:110 dock.cpp:158
+msgid "Akonadi not available"
+msgstr "Akonadi 不可用"
+
+#: dock.cpp:111 dock.cpp:159
+msgid ""
+"The Akonadi server has been stopped, Akonadi related applications can no "
+"longer be used."
+msgstr "Akonadi 服务已被停止，与之相关的程序不再可用。"
+
+#: dock.cpp:165
+msgid "Akonadi is running"
+msgstr "Akonadi 正在运行"
+
+#: dock.cpp:165
+msgid "Akonadi is not running"
+msgstr "Akonadi 未运行"
+
+#: dock.cpp:178 dock.cpp:192
+#, kde-format
+msgctxt "<source>: <error message>"
+msgid "%1: %2"
+msgstr "%1：%2"
+
+#: dock.cpp:184
+msgid "Akonadi message"
+msgstr "Akonadi 信息"
+
+#: dock.cpp:198
+msgid "Akonadi error"
+msgstr "Akonadi 错误"
+
+#: main.cpp:52
+msgid "AkonadiTray"
+msgstr "AkonadiTray"
+
+#: main.cpp:54
+msgid "System tray application to control basic Akonadi functions"
+msgstr "控制 Akonadi 基本功能的系统托盘程序"
+
+#: main.cpp:56
+msgid "(c) 2008 Omat Holding B.V."
+msgstr "(c) 2008 Omat Holding B.V."
+
+#: main.cpp:58
+msgid "Tom Albers"
+msgstr "Tom Albers"
+
+#: main.cpp:58
+msgid "Maintainer and Author"
+msgstr "作者和维护者"
+
+#: restoreassistant.cpp:41
+msgid ""
+"The backup cannot be restored. Either the mysql application is not "
+"installed, or the bzip2 application is not found. Please install those and "
+"make sure they can be found in the current path. Restart this Assistant when "
+"this is fixed."
+msgstr ""
+"无法还原备份。可能是程序 mysqldump 没有安装，或者程序 bzip2 没有找到。请安装"
+"这些程序，并确定可以在当前环境下可以找到。修复后再重新启动此助手。"
+
+#: restoreassistant.cpp:46
+msgid ""
+"Please select the file to restore. Note that restoring a backup will "
+"overwrite all existing data. You might want to make a backup first and "
+"please consider closing all Akonadi applications (but do not stop the "
+"akonadi server)."
+msgstr ""
+"请选择文件来还原。请注意，还原备份将会覆盖现有的文件。您也许想先做个备份，请"
+"考虑关闭所有的 Akonadi 程序(但不是停止 akonadi 服务)。"
+
+#: restoreassistant.cpp:51
+msgid "&Click Here to Select the File to Restore..."
+msgstr "点击此处以选择文件用来还原(&C)..."
+
+#: restoreassistant.cpp:54
+msgid "Press 'Next' to start the Restore"
+msgstr "请点击“下一步”以开始还原"
+
+#: restoreassistant.cpp:58
+msgid "Welcome to the Restore Assistant"
+msgstr "欢迎使用还原助手"
+
+#: restoreassistant.cpp:63
+msgid "Restoring"
+msgstr "还原中"
+
+#: restoreassistant.cpp:89
+msgid "Please be patient, the backup is being restored..."
+msgstr "请稍候，正在还原备份..."
+
+#: restoreassistant.cpp:96
+msgid ""
+"The backup has been restored. Note that KWallet stored passwords are not "
+"restored, so applications might ask for those."
+msgstr ""
+"已还原备份。请注意，KWallet 保存的密码没有被还原，因此程序还会查询密码。"
+
+#: restoreassistant.cpp:101
+msgid ""
+"The restore process ended unexpectedly. Please report a bug, so we can find "
+"out what the cause is."
+msgstr "还原意外结束。请报告 bug，然后我们可以找到原因。"

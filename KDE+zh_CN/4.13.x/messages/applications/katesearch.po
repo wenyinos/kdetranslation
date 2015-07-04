@@ -1,0 +1,402 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Feng Chao <chaofeng111@gmail.com>, 2011, 2012, 2013, 2014.
+# Ni Hui <shuizhuyuanluo@126.com>, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-17 01:20+0000\n"
+"PO-Revision-Date: 2014-02-26 13:11-0700\n"
+"Last-Translator: Jeff Bai <jeffbaichina@members.fsf.org>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国, Feng Chao, 安同开源社区"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org, chaofeng111@gmail.com, aosc@members.fsf.org"
+
+#: plugin_search.cpp:110
+msgid "Search & Replace"
+msgstr "搜索和替换"
+
+#: plugin_search.cpp:110
+msgid "Search & replace in files"
+msgstr "在文件中搜索和替换"
+
+#: plugin_search.cpp:231
+msgid "Search and Replace"
+msgstr "搜索和替换"
+
+#: plugin_search.cpp:239
+msgid "Search in Files"
+msgstr "多文件查找"
+
+#: plugin_search.cpp:243
+msgid "Search in Files (in new tab)"
+msgstr "多文件查找(在新标签中)"
+
+#: plugin_search.cpp:249
+msgid "Go to Next Match"
+msgstr "跳到下一个匹配"
+
+#: plugin_search.cpp:253
+msgid "Go to Previous Match"
+msgstr "跳到上一个匹配"
+
+#: plugin_search.cpp:268
+msgid ""
+"Comma separated list of file types to search in. Example: \"*.cpp,*.h\"\n"
+msgstr "在搜索中使用逗号分隔文件类型列表。例如: \"*.cpp,*.h\"\n"
+
+#: plugin_search.cpp:269
+msgid ""
+"Comma separated list of files and directories to exclude from the search. "
+"Example: \"build*\""
+msgstr "在搜索中使用要排除文件和目录的清单。例如: \"build*\""
+
+#: plugin_search.cpp:733
+msgid "SearchHighLight"
+msgstr "搜索高亮"
+
+#: plugin_search.cpp:754 plugin_search.cpp:1219 replace_matches.cpp:166
+#, kde-format
+msgid "Line: <b>%1</b>: %2"
+msgstr "行：<b>%1</b>：%2"
+
+#: plugin_search.cpp:1045
+#, kde-format
+msgid "<b><i>One match found in open files</i></b>"
+msgid_plural "<b><i>%1 matches found in open files</i></b>"
+msgstr[0] "<b><i>打开的文件中找到 %1 个匹配</i></b>"
+
+#: plugin_search.cpp:1050
+#, kde-format
+msgid "<b><i>One match found in folder %2</i></b>"
+msgid_plural "<b><i>%1 matches found in folder %2</i></b>"
+msgstr[0] "<b><i>在文件夹 %2 中找到 %1 个匹配项</i></b>"
+
+#: plugin_search.cpp:1060
+#, kde-format
+msgid "<b><i>One match found in project %2 (%3)</i></b>"
+msgid_plural "<b><i>%1 matches found in project %2 (%3)</i></b>"
+msgstr[0] "<b><i>在项目 %2 (%3) 中找到 %1 个匹配项</i></b>"
+
+#: plugin_search.cpp:1099
+#, kde-format
+msgid "<b><i>One match found</i></b>"
+msgid_plural "<b><i>%1 matches found</i></b>"
+msgstr[0] "<b><i>找到了 %1 个匹配</i></b>"
+
+#: plugin_search.cpp:1118
+#, kde-format
+msgid "<b>Searching: ...%1</b>"
+msgstr "<b>正在搜索：...%1</b>"
+
+#: plugin_search.cpp:1121
+#, kde-format
+msgid "<b>Searching: %1</b>"
+msgstr "<b>正在搜索：%1</b>"
+
+#: plugin_search.cpp:1611
+msgid "Add..."
+msgstr "添加..."
+
+#: plugin_search.cpp:1616
+msgid "Beginning of line"
+msgstr "行首"
+
+#: plugin_search.cpp:1617
+msgid "End of line"
+msgstr "行尾"
+
+#: plugin_search.cpp:1619
+msgid "Any single character (excluding line breaks)"
+msgstr "任意单个字符(不包括换行符)"
+
+#: plugin_search.cpp:1621
+msgid "One or more occurrences"
+msgstr "一次或者多次出现"
+
+#: plugin_search.cpp:1622
+msgid "Zero or more occurrences"
+msgstr "零次或者多次出现"
+
+#: plugin_search.cpp:1623
+msgid "Zero or one occurrences"
+msgstr "零次或者一次出现"
+
+#: plugin_search.cpp:1624
+msgid "<a> through <b> occurrences"
+msgstr "<a> 到 <b> 次出现"
+
+#: plugin_search.cpp:1626
+msgid "Group, capturing"
+msgstr "组，正在捕获"
+
+#: plugin_search.cpp:1627
+msgid "Or"
+msgstr "或"
+
+#: plugin_search.cpp:1628
+msgid "Set of characters"
+msgstr "一组字符"
+
+#: plugin_search.cpp:1629
+msgid "Negative set of characters"
+msgstr "一组字符之外"
+
+#: plugin_search.cpp:1630
+msgid "Group, non-capturing"
+msgstr "组，非捕获"
+
+#: plugin_search.cpp:1631
+msgid "Lookahead"
+msgstr "向前"
+
+#: plugin_search.cpp:1632
+msgid "Negative lookahead"
+msgstr "向后"
+
+#: plugin_search.cpp:1635
+msgid "Line break"
+msgstr "换行符"
+
+#: plugin_search.cpp:1636
+msgid "Tab"
+msgstr "Tab"
+
+#: plugin_search.cpp:1637
+msgid "Word boundary"
+msgstr "词边界"
+
+#: plugin_search.cpp:1638
+msgid "Not word boundary"
+msgstr "非词边界"
+
+#: plugin_search.cpp:1639
+msgid "Digit"
+msgstr "数字"
+
+#: plugin_search.cpp:1640
+msgid "Non-digit"
+msgstr "非数字"
+
+#: plugin_search.cpp:1641
+msgid "Whitespace (excluding line breaks)"
+msgstr "空白(不包括换行符)"
+
+#: plugin_search.cpp:1642
+msgid "Non-whitespace (excluding line breaks)"
+msgstr "非空白(不包括换行符)"
+
+#: plugin_search.cpp:1643
+msgid "Word character (alphanumerics plus '_')"
+msgstr "词字符(字母数字以及“_”)"
+
+#: plugin_search.cpp:1644
+msgid "Non-word character"
+msgstr "非词字符"
+
+#: plugin_search.cpp:1691
+msgid "in Project"
+msgstr "工程中"
+
+#: plugin_search.cpp:1761
+msgid "Usage: grep [pattern to search for in folder]"
+msgstr "用法： grep [在文件夹中查找的模式]"
+
+#: plugin_search.cpp:1764
+msgid "Usage: newGrep [pattern to search for in folder]"
+msgstr "用法： newgrep [在文件夹中查找的模式]"
+
+#: plugin_search.cpp:1768 plugin_search.cpp:1771
+msgid "Usage: search [pattern to search for in open files]"
+msgstr "用法： search [在打开文件中查找的模式]"
+
+#: plugin_search.cpp:1775
+msgid "Usage: pgrep [pattern to search for in current project]"
+msgstr "用法： pgrep [在当前工程中查找的模式]"
+
+#: plugin_search.cpp:1778
+msgid "Usage: newPGrep [pattern to search for in current project]"
+msgstr "用法： newPGrep [在当前工程中查找的模式]"
+
+#. i18n: ectx: property (text), widget (QToolButton, displayOptions)
+#. i18n: ectx: property (text), widget (QToolButton, newTabButton)
+#: search.ui:20 search.ui:50
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (KPushButton, replaceButton)
+#. i18n: ectx: property (text), widget (QLabel, replaceLabel)
+#: search.ui:33 search.ui:67
+msgid "Replace"
+msgstr "替换"
+
+#. i18n: ectx: property (text), widget (KPushButton, searchButton)
+#: search.ui:43
+msgid "Search"
+msgstr "搜索"
+
+#. i18n: ectx: property (text), widget (QLabel, findLabel)
+#: search.ui:57
+msgid "Find"
+msgstr "查找"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useRegExp)
+#: search.ui:138
+msgid "Regular e&xpressions"
+msgstr "正则表达式(&X)"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, folderUpButton)
+#: search.ui:161
+msgid "Go one folder up."
+msgstr "进入上层目录。"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, currentFolderButton)
+#: search.ui:168
+msgid "Use the current document's path."
+msgstr "使用当前文档的路径。"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, filterCombo)
+#: search.ui:184
+msgid "*"
+msgstr "*"
+
+#. i18n: ectx: property (text), widget (QLabel, filterLabel)
+#: search.ui:192
+msgid "Filter"
+msgstr "过滤器"
+
+#. i18n: When this is checked the result treeview will be expanded after a search
+#. i18n: ectx: property (text), widget (QCheckBox, expandResults)
+#: search.ui:205
+msgid "Expand results"
+msgstr "展开结果"
+
+#. i18n: ectx: property (text), widget (QCheckBox, recursiveCheckBox)
+#: search.ui:212
+msgid "Recursive"
+msgstr "递归"
+
+#. i18n: ectx: property (text), widget (QLabel, folderLabel)
+#: search.ui:229
+msgid "F&older"
+msgstr "文件夹(&O)"
+
+#. i18n: ectx: property (text), widget (QLabel, excludeLabel)
+#: search.ui:242
+msgid "Exclude"
+msgstr "排除"
+
+#. i18n: ectx: property (text), widget (QCheckBox, matchCase)
+#: search.ui:252
+msgid "&Match case"
+msgstr "区分大小写(&M)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, binaryCheckBox)
+#: search.ui:259
+msgid "Include binary files"
+msgstr "包含二进制文件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, hiddenCheckBox)
+#: search.ui:266
+msgid "Include hidden"
+msgstr "包含隐藏文件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, symLinkCheckBox)
+#: search.ui:273
+msgid "Follow symbolic links"
+msgstr "跟随符号链接"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: search.ui:295
+msgid "Se&arch:"
+msgstr "搜索(&A)："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, searchPlaceCombo)
+#: search.ui:306
+msgid "in Open files"
+msgstr "在打开文件"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, searchPlaceCombo)
+#: search.ui:311
+msgid "in Folder"
+msgstr "在文件夹"
+
+#. i18n: ectx: property (text), widget (KPushButton, nextButton)
+#: search.ui:353
+msgid "Next"
+msgstr "下一个"
+
+#. i18n: ectx: property (text), widget (KPushButton, stopButton)
+#: search.ui:379
+msgid "Stop"
+msgstr "停止"
+
+#. i18n: ectx: property (text), widget (KPushButton, replaceCheckedBtn)
+#: search.ui:413
+msgid "Replace checked"
+msgstr "替换选中内容"
+
+#. i18n: ectx: Menu (edit)
+#: ui.rc:5
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#, fuzzy
+#~ msgid "<b><i>Results</i></b>"
+#~ msgstr "<b><i>结果</i></b>"
+
+#~ msgid "stop"
+#~ msgstr "停止"
+
+#~ msgid "Select all 9999 matches"
+#~ msgstr "选择全部 9999 匹配"
+
+#~ msgid "Select all"
+#~ msgstr "选择全部"
+
+#~ msgid "Select %1 match"
+#~ msgid_plural "Select all %1 matches"
+#~ msgstr[0] "选择全部 %1 匹配"
+
+#, fuzzy
+#~| msgid ""
+#~| "Comma separated list of file types to search in. example: \"*.cpp,*.h\"\n"
+#~| "NOTE: Put a minus sign ('-') in front of the list to make it into an "
+#~| "exclude list. example: \"-*.o,*.obj\""
+#~ msgid ""
+#~ "Comma separated list of file types to search in. example: \"*.cpp,*.h\"\n"
+#~ "NOTE: Put a minus sign ('-') in front of an element to exclude those "
+#~ "files and directories. example: \"*.cpp,*.h,-build*\""
+#~ msgstr ""
+#~ "用逗号分隔要搜索的文件类型，如：\"*.cpp,*.h\"\n"
+#~ "注意：用减号('-')可以排除文件类型。例如：\"-*.o,*.obj\""
+
+#~ msgid "Options"
+#~ msgstr "选项"
+
+#~ msgid "Find in open files plugin"
+#~ msgstr "在打开文件查找插件"
+
+#~ msgid "File"
+#~ msgstr "文件"
+
+#~ msgid "Text"
+#~ msgstr "文本"
+
+#~ msgid "Line"
+#~ msgstr "行"

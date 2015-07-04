@@ -1,0 +1,163 @@
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998
+# Funda Wang <fundawang@linux.net.cn>, 2003, 2007.
+# Lie Ex <lilith.ex@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kstart\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-03-24 03:32+0100\n"
+"PO-Revision-Date: 2009-05-20 10:18+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: kstart.cpp:292
+msgid "KStart"
+msgstr "KStart"
+
+#: kstart.cpp:293
+msgid ""
+"Utility to launch applications with special window properties \n"
+"such as iconified, maximized, a certain virtual desktop, a special "
+"decoration\n"
+"and so on."
+msgstr ""
+"用来启动特殊窗口属性的程序的工具。这些特殊属性包括\n"
+"最小化、最大化、在特定桌面、特殊的装饰或其它。"
+
+#: kstart.cpp:298
+msgid "(C) 1997-2000 Matthias Ettrich (ettrich@kde.org)"
+msgstr "(C) 1997-2000 Matthias Ettrich (ettrich@kde.org)"
+
+#: kstart.cpp:300
+msgid "Matthias Ettrich"
+msgstr "Matthias Ettrich"
+
+#: kstart.cpp:301
+msgid "David Faure"
+msgstr "David Faure"
+
+#: kstart.cpp:302
+msgid "Richard J. Moore"
+msgstr "Richard J. Moore"
+
+#: kstart.cpp:309
+msgid "Command to execute"
+msgstr "要执行的命令"
+
+#: kstart.cpp:310
+msgid ""
+"Alternative to <command>: desktop file to start. D-Bus service will be "
+"printed to stdout"
+msgstr ""
+"指定<命令>参数的替换项：要启动的 desktop 文件。此外 D-Bus 服务路径将打印到标"
+"准输出"
+
+#: kstart.cpp:311
+msgid "Optional URL to pass <desktopfile>, when using --service"
+msgstr ""
+"当使用 --service 选项时，传递给<desktop 文件>参数的 URL 地址，这是可选项"
+
+#: kstart.cpp:313
+msgid "A regular expression matching the window title"
+msgstr "匹配窗口标题的正则表达式"
+
+#: kstart.cpp:314
+msgid ""
+"A string matching the window class (WM_CLASS property)\n"
+"The window class can be found out by running\n"
+"'xprop | grep WM_CLASS' and clicking on a window\n"
+"(use either both parts separated by a space or only the right part).\n"
+"NOTE: If you specify neither window title nor window class,\n"
+"then the very first window to appear will be taken;\n"
+"omitting both options is NOT recommended."
+msgstr ""
+"匹配窗口类(WM_CLASS 属性)的字符串\n"
+"要找出窗口类，可以运行“xprop | grep WM_CLASS”并单击窗口(用空格来分隔两部分，"
+"或者只有右侧部分)。\n"
+"注意：如果您既没有指定窗口标题也没有指定窗口类，则前面的窗\n"
+"口将会执行相应的操作；所以我们不推荐您省略全部选项。"
+
+#: kstart.cpp:321
+msgid "Desktop on which to make the window appear"
+msgstr "窗口出现的桌面"
+
+#: kstart.cpp:322
+msgid ""
+"Make the window appear on the desktop that was active\n"
+"when starting the application"
+msgstr "当启动程序时，窗口出现在活动桌面"
+
+#: kstart.cpp:323
+msgid "Make the window appear on all desktops"
+msgstr "窗口出现在所有桌面"
+
+#: kstart.cpp:324
+msgid "Iconify the window"
+msgstr "最小化窗口"
+
+#: kstart.cpp:325
+msgid "Maximize the window"
+msgstr "最大化窗口"
+
+#: kstart.cpp:326
+msgid "Maximize the window vertically"
+msgstr "垂直最大化窗口"
+
+#: kstart.cpp:327
+msgid "Maximize the window horizontally"
+msgstr "水平最大化窗口"
+
+#: kstart.cpp:328
+msgid "Show window fullscreen"
+msgstr "全屏显示窗口"
+
+#: kstart.cpp:329
+msgid ""
+"The window type: Normal, Desktop, Dock, Toolbar, \n"
+"Menu, Dialog, TopMenu or Override"
+msgstr ""
+"窗口类型：普通、桌面、嵌入、工具、\n"
+"菜单、对话框、顶级菜单或 Override"
+
+#: kstart.cpp:330
+msgid ""
+"Jump to the window even if it is started on a \n"
+"different virtual desktop"
+msgstr "即使窗口在另外一个桌面启动也切换到此窗口"
+
+#: kstart.cpp:333
+msgid "Try to keep the window above other windows"
+msgstr "保持窗口总在其它窗口之上"
+
+#: kstart.cpp:335
+msgid "Try to keep the window below other windows"
+msgstr "保持窗口总在其它窗口之下"
+
+#: kstart.cpp:336
+msgid "The window does not get an entry in the taskbar"
+msgstr "窗口不在任务栏里"
+
+#: kstart.cpp:337
+msgid "The window does not get an entry on the pager"
+msgstr "窗口不在窗口切换器里"
+
+#: kstart.cpp:350
+msgid "No command specified"
+msgstr "没有指定命令"
+
+#~ msgid "The window is sent to the system tray in Kicker"
+#~ msgstr "窗口被放在 Kicker 的系统托盘中"

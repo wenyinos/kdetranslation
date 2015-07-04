@@ -1,0 +1,2767 @@
+# translation of kivio.po to 简体中文
+# Copyright (C) 2008 Free Software Foundation, Inc.
+#
+# Xiong Jiang <jxiong@offtopic.org>, 2002.
+# Liu Songhe <jackliu9999@263.net>, 2003.
+# Funda Wang <fundawang@linux.net.cn>, 2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kivio\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-21 01:26+0000\n"
+"PO-Revision-Date: 2011-11-27 10:59+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: Menu (file)
+#: part/flow.rc:6
+msgid "&File"
+msgstr ""
+
+#. i18n: ectx: Menu (edit)
+#: part/flow.rc:12
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (view)
+#: part/flow.rc:30
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: Menu (insert)
+#: part/flow.rc:46
+msgid "&Insert"
+msgstr "插入(&I)"
+
+#. i18n: ectx: Menu (format)
+#: part/flow.rc:50
+msgid "F&ormat"
+msgstr ""
+
+#. i18n: ectx: Menu (page)
+#: part/flow.rc:56
+msgid "&Page"
+msgstr "页面(&P)"
+
+#. i18n: ectx: Menu (settings)
+#: part/flow.rc:67
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#: part/FlowAboutData.h:27
+msgid "Calligra Flowchart And Diagram Tool"
+msgstr "Calligra 流程图和图表工具"
+
+#: part/FlowAboutData.h:32
+msgctxt "application name"
+msgid "Flow"
+msgstr "Flow"
+
+#: part/FlowAboutData.h:34
+#, fuzzy
+#| msgid "(C) 2000-2011, The Flow Team"
+msgid "(C) 2000-2013, The Flow Team"
+msgstr "(C) 2000-2011，Flow 团队"
+
+#: part/FlowAboutData.h:38
+msgid "Yue Liu"
+msgstr "Yue Liu"
+
+#: part/FlowAboutData.h:38
+msgid "Maintainer"
+msgstr "维护者"
+
+#: part/FlowAboutData.h:39
+msgid "Peter Simonsson"
+msgstr "Peter Simonsson"
+
+#: part/FlowAboutData.h:39
+msgid "Former Maintainer"
+msgstr "前任维护者"
+
+#: part/FlowPart.cpp:79
+msgid "Can not find needed text component, Calligra Flow will quit now."
+msgstr ""
+
+#: part/FlowPart.cpp:84
+msgid "Can not find needed picture component, Calligra Flow will quit now."
+msgstr ""
+
+#: part/FlowPart.cpp:97
+#, fuzzy
+#| msgctxt "Stencils"
+#| msgid "UML Collections"
+msgid "Installation Error"
+msgstr "UML 集"
+
+#: part/FlowView.cpp:62
+msgid "Configure Flow..."
+msgstr "配置 Flow..."
+
+#: part/main.cpp:34
+msgid "File to open"
+msgstr "要打开的文件"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: plugins/dockers/layoutdocker/LayoutDocker.ui:39
+msgid "Auto"
+msgstr "自动"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/dockers/layoutdocker/LayoutDocker.ui:46
+msgid "Constraint "
+msgstr "固定 "
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/dockers/layoutdocker/LayoutDocker.ui:79
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/dockers/layoutdocker/LayoutDocker.ui:86
+msgid "Non-overlap"
+msgstr "不重叠"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#. i18n: ectx: property (text), widget (QPushButton, pushButton_2)
+#. i18n: ectx: property (text), widget (QPushButton, pushButton_3)
+#: plugins/dockers/layoutdocker/LayoutDocker.ui:111
+#: plugins/dockers/layoutdocker/LayoutDocker.ui:130
+#: plugins/dockers/layoutdocker/LayoutDocker.ui:149
+msgid "PushButton"
+msgstr "PushButton"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:94
+msgid "Stencil Box"
+msgstr "模板箱"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:99
+msgid "Get more stencils"
+msgstr "获得更多模板"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:100
+msgid "Install stencil"
+msgstr "按照模板"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:107
+msgid "More shapes"
+msgstr "更多形状"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:113
+msgid "Filter"
+msgstr "过滤器"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:147
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:182
+msgid "Stencils successfully installed."
+msgstr "模板已成功安装。"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:150
+msgid "Stencils successfully uninstalled."
+msgstr "模板已成功卸载。"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:159
+msgid ""
+"Calligra Stencil Packages (*.cstencil.tar, *.cstencil.tar.bz2, *.cstencil."
+"tar.gz)"
+msgstr "Calligra 模板包(*.cstencil.tar，*.cstencil.tar.bz2，*.cstencil.tar.gz)"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:165
+msgid "Could not read this package."
+msgstr "无法读取此包。"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxDocker.cpp:176
+#, kde-format
+msgid ""
+"A collection of stencils in family '%1' is already installed. Please "
+"uninstall it first."
+msgstr "分类“%1”的模板集已安装。请先卸载模板。"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxView.cpp:352
+msgid "Expand all"
+msgstr "全部展开"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxView.cpp:353
+msgid "Collapse all"
+msgstr "全部折叠"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxView.cpp:356
+msgid "List View"
+msgstr "列表视图"
+
+#: plugins/dockers/stencilboxdocker/StencilBoxView.cpp:357
+msgid "Icon View"
+msgstr "图标视图"
+
+#, fuzzy
+#~| msgid "File to open"
+#~ msgid "File not found"
+#~ msgstr "要打开的文件"
+
+#, fuzzy
+#~| msgctxt "Stencils"
+#~| msgid "Internal Storage"
+#~ msgid "Internal error"
+#~ msgstr "内部存储"
+
+#, fuzzy
+#~| msgctxt "Stencils"
+#~| msgid "Dia Shapes Collections"
+#~ msgid "Download shape collections online"
+#~ msgstr "Dia 形状集"
+
+#, fuzzy
+#~| msgctxt "Stencils"
+#~| msgid "Dia Shapes Collections"
+#~ msgid "Create a new collection"
+#~ msgstr "Dia 形状集"
+
+#~ msgctxt "Stencils"
+#~ msgid "Assorted"
+#~ msgstr "杂类"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit"
+#~ msgstr "电路"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco"
+#~ msgstr "Cisco"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil"
+#~ msgstr "民用"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric"
+#~ msgstr "电子"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw"
+#~ msgstr "Jigsaw"
+
+#~ msgctxt "Stencils"
+#~ msgid "MSE"
+#~ msgstr "MSE"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network"
+#~ msgstr "网络"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneumatic"
+#~ msgstr "Pneumatic"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL"
+#~ msgstr "SDL"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sybase"
+#~ msgstr "Sybase"
+
+#~ msgctxt "Stencils"
+#~ msgid "Card"
+#~ msgstr "卡片"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting card shape"
+#~ msgstr "基本流程图卡片形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Data"
+#~ msgstr "数据"
+
+#~ msgctxt "Stencils"
+#~ msgid "Data shape for flowcharting"
+#~ msgstr "流程图数据形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Decision"
+#~ msgstr "判定"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting decision shape"
+#~ msgstr "基本流程图判定形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Direct Data"
+#~ msgstr "直接数据"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting direct data shape"
+#~ msgstr "基本流程图直接数据形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Display"
+#~ msgstr "显示"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting display shape"
+#~ msgstr "基本流程图显示形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Document"
+#~ msgstr "文档"
+
+#~ msgctxt "Stencils"
+#~ msgid "Flowcharting Document Stencil"
+#~ msgstr "流程图文档模具"
+
+#~ msgctxt "Stencils"
+#~ msgid "Internal storage shape"
+#~ msgstr "内部存储形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Loop Limit"
+#~ msgstr "循环限制"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting loop limit shape"
+#~ msgstr "基本流程图循环限制形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Manual Input"
+#~ msgstr "手动输入"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting manual input shape"
+#~ msgstr "基本流程图手动输入形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Manual Operation"
+#~ msgstr "手动操作"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting manual operation shape"
+#~ msgstr "基本流程图手动操作形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Off-Page Reference"
+#~ msgstr "页外引用"
+
+#~ msgctxt "Stencils"
+#~ msgid "On-Page Reference"
+#~ msgstr "页内引用"
+
+#~ msgctxt "Stencils"
+#~ msgid "Paper Tape"
+#~ msgstr "纸带"
+
+#~ msgctxt "Stencils"
+#~ msgid "Flowcharting Paper Tape Stencil"
+#~ msgstr "流程图纸带模具"
+
+#~ msgctxt "Stencils"
+#~ msgid "Predefined Process"
+#~ msgstr "预定义处理"
+
+#~ msgctxt "Stencils"
+#~ msgid "Predefined process shape"
+#~ msgstr "预定义处理形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Preparation"
+#~ msgstr "保护"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting preparation shape"
+#~ msgstr "基本流程图准备形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Process"
+#~ msgstr "处理"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting process shape"
+#~ msgstr "基本流程图处理形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sequential Data"
+#~ msgstr "顺序数据"
+
+#~ msgctxt "Stencils"
+#~ msgid "Stored Data"
+#~ msgstr "存储数据"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic flowcharting stored data shape"
+#~ msgstr "基本流程图存储数据形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Terminator"
+#~ msgstr "终止"
+
+#~ msgctxt "Stencils"
+#~ msgid "Terminator shape"
+#~ msgstr "终止形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Basic Flowcharting Shapes"
+#~ msgstr "基本流程图形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Data Store"
+#~ msgstr "数据存储"
+
+#~ msgctxt "Stencils"
+#~ msgid "Data Store shape"
+#~ msgstr "数据存储形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Database"
+#~ msgstr "数据库"
+
+#~ msgctxt "Stencils"
+#~ msgid "Database shape"
+#~ msgstr "数据库形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Process shape"
+#~ msgstr "处理形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Source or Sink"
+#~ msgstr "源或槽"
+
+#~ msgctxt "Stencils"
+#~ msgid "Source or Sink shape"
+#~ msgstr "源或槽形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Flowcharting Shapes"
+#~ msgstr "流程图形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "And"
+#~ msgstr "And"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical And Gate"
+#~ msgstr "逻辑与门"
+
+#~ msgctxt "Stencils"
+#~ msgid "Buffer"
+#~ msgstr "Buffer"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Buffer Gate"
+#~ msgstr "逻辑缓冲门"
+
+#~ msgctxt "Stencils"
+#~ msgid "Connector"
+#~ msgstr "连接器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Connection Point"
+#~ msgstr "逻辑连接点"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logic Shapes"
+#~ msgstr "逻辑形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Inverter"
+#~ msgstr "Inverter"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Inverter Gate"
+#~ msgstr "逻辑翻转器门"
+
+#~ msgctxt "Stencils"
+#~ msgid "Nand"
+#~ msgstr "Nand"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Nand Gate"
+#~ msgstr "逻辑与非门"
+
+#~ msgctxt "Stencils"
+#~ msgid "Nor"
+#~ msgstr "Nor"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Nor Gate"
+#~ msgstr "逻辑或非门"
+
+#~ msgctxt "Stencils"
+#~ msgid "Not"
+#~ msgstr "Not"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Not Gate"
+#~ msgstr "逻辑非门"
+
+#~ msgctxt "Stencils"
+#~ msgid "Or"
+#~ msgstr "Or"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Or Gate"
+#~ msgstr "逻辑或门"
+
+#~ msgctxt "Stencils"
+#~ msgid "Xor"
+#~ msgstr "Xor"
+
+#~ msgctxt "Stencils"
+#~ msgid "Logical Xor Gate"
+#~ msgstr "逻辑或非门"
+
+#~ msgctxt "Stencils"
+#~ msgid "Flowcharting Collections"
+#~ msgstr "流程图集"
+
+#~ msgctxt "Stencils"
+#~ msgid "Austria"
+#~ msgstr "奥地利"
+
+#~ msgctxt "Stencils"
+#~ msgid "Belgium"
+#~ msgstr "比利时"
+
+#~ msgctxt "Stencils"
+#~ msgid "Finland"
+#~ msgstr "芬兰"
+
+#~ msgctxt "Stencils"
+#~ msgid "France"
+#~ msgstr "法国"
+
+#~ msgctxt "Stencils"
+#~ msgid "Germany"
+#~ msgstr "德国"
+
+#~ msgctxt "Stencils"
+#~ msgid "Great Britain"
+#~ msgstr "英国"
+
+#~ msgctxt "Stencils"
+#~ msgid "Greece"
+#~ msgstr "希腊"
+
+#~ msgctxt "Stencils"
+#~ msgid "Iceland"
+#~ msgstr "冰岛"
+
+#~ msgctxt "Stencils"
+#~ msgid "Ireland"
+#~ msgstr "爱尔兰"
+
+#~ msgctxt "Stencils"
+#~ msgid "Italy"
+#~ msgstr "意大利"
+
+#~ msgctxt "Stencils"
+#~ msgid "Japan"
+#~ msgstr "日本"
+
+#~ msgctxt "Stencils"
+#~ msgid "Luxembourg"
+#~ msgstr "卢森堡"
+
+#~ msgctxt "Stencils"
+#~ msgid "Netherlands"
+#~ msgstr "荷兰"
+
+#~ msgctxt "Stencils"
+#~ msgid "Norway"
+#~ msgstr "挪威"
+
+#~ msgctxt "Stencils"
+#~ msgid "Poland"
+#~ msgstr "波兰"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sweden"
+#~ msgstr "瑞典"
+
+#~ msgctxt "Stencils"
+#~ msgid "Switzerland"
+#~ msgstr "瑞士"
+
+#~ msgctxt "Stencils"
+#~ msgid "United States of America"
+#~ msgstr "美国"
+
+#~ msgctxt "Stencils"
+#~ msgid "Flags"
+#~ msgstr "旗帜"
+
+#~ msgctxt "Stencils"
+#~ msgid "Map of Belgium"
+#~ msgstr "比利时地图"
+
+#~ msgctxt "Stencils"
+#~ msgid "Europe"
+#~ msgstr "欧洲"
+
+#~ msgctxt "Stencils"
+#~ msgid "Map of Europe"
+#~ msgstr "欧洲地图"
+
+#~ msgctxt "Stencils"
+#~ msgid "Maps"
+#~ msgstr "地图"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geographic Collections"
+#~ msgstr "地理集"
+
+#~ msgctxt "Stencils"
+#~ msgid "Floppy Disk"
+#~ msgstr "软盘"
+
+#~ msgctxt "Stencils"
+#~ msgid "Floppy Disk shape"
+#~ msgstr "软盘形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Desktop PC 2D"
+#~ msgstr "平面桌面电脑"
+
+#~ msgctxt "Stencils"
+#~ msgid "Desktop PC 3D"
+#~ msgstr "立体桌面电脑"
+
+#~ msgctxt "Stencils"
+#~ msgid "HDD"
+#~ msgstr "硬盘"
+
+#~ msgctxt "Stencils"
+#~ msgid "Mini-tower Desktop PC 2D"
+#~ msgstr "小型平面桌面电脑"
+
+#~ msgctxt "Stencils"
+#~ msgid "Mini-tower Desktop PC 3D"
+#~ msgstr "小型立体桌面电脑"
+
+#~ msgctxt "Stencils"
+#~ msgid "Notebook"
+#~ msgstr "笔记本"
+
+#~ msgctxt "Stencils"
+#~ msgid "PCI card"
+#~ msgstr "PCI 卡"
+
+#~ msgctxt "Stencils"
+#~ msgid "Rack"
+#~ msgstr "架子"
+
+#~ msgctxt "Stencils"
+#~ msgid "Terminal"
+#~ msgstr "终端"
+
+#~ msgctxt "Stencils"
+#~ msgid "Workstation 3D"
+#~ msgstr "立体工作站"
+
+#~ msgctxt "Stencils"
+#~ msgid "Terminal 2D"
+#~ msgstr "平面终端"
+
+#~ msgctxt "Stencils"
+#~ msgid "X Terminal"
+#~ msgstr "X 终端"
+
+#~ msgctxt "Stencils"
+#~ msgid "Computer Hardware"
+#~ msgstr "计算机硬件"
+
+#~ msgctxt "Stencils"
+#~ msgid "Keyboard"
+#~ msgstr "键盘"
+
+#~ msgctxt "Stencils"
+#~ msgid "Printer 1"
+#~ msgstr "打印机 1"
+
+#~ msgctxt "Stencils"
+#~ msgid "Printer 2"
+#~ msgstr "打印机 2"
+
+#~ msgctxt "Stencils"
+#~ msgid "Proxy"
+#~ msgstr "代理"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cell Phone"
+#~ msgstr "蜂窝电话"
+
+#~ msgctxt "Stencils"
+#~ msgid "CD-ROM"
+#~ msgstr "CD-RO"
+
+#~ msgctxt "Stencils"
+#~ msgid "Miscellaneous Hardware"
+#~ msgstr "杂类硬件"
+
+#~ msgctxt "Stencils"
+#~ msgid "Key"
+#~ msgstr "键"
+
+#~ msgctxt "Stencils"
+#~ msgid "Key shape"
+#~ msgstr "键形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Hardware Collections"
+#~ msgstr "硬件集"
+
+#~ msgctxt "Stencils"
+#~ msgid "Arrow"
+#~ msgstr "箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Arrow shape"
+#~ msgstr "箭头形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multiple Arrow 1"
+#~ msgstr "多向箭头 1"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multiple Arrow shape 1"
+#~ msgstr "多向箭头形状 1"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multiple Arrow 2"
+#~ msgstr "多向箭头 2"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multiple Arrow shape 2"
+#~ msgstr "多向箭头形状 2"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multiple Arrow 3"
+#~ msgstr "多向箭头 3"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multiple Arrow shape 3"
+#~ msgstr "多向箭头形状 3"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sun Arrow"
+#~ msgstr "太阳箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sun Arrow shape"
+#~ msgstr "太阳箭头形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Arrow Shapes"
+#~ msgstr "箭头形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Factory"
+#~ msgstr "工厂"
+
+#~ msgctxt "Stencils"
+#~ msgid "Factory shape"
+#~ msgstr "工厂形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "House"
+#~ msgstr "房屋"
+
+#~ msgctxt "Stencils"
+#~ msgid "Large office building"
+#~ msgstr "办公大楼"
+
+#~ msgctxt "Stencils"
+#~ msgid "Building Shapes"
+#~ msgstr "制作形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Attribute"
+#~ msgstr "属性"
+
+#~ msgctxt "Stencils"
+#~ msgid "Attribute shape used in ER diagrams"
+#~ msgstr "ER 图中所使用的属性形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Derived Attribute"
+#~ msgstr "派生属性"
+
+#~ msgctxt "Stencils"
+#~ msgid "Derived Attribute shape used in ER diagrams"
+#~ msgstr "ER 图中所使用的派生属性形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Entity Relationship"
+#~ msgstr "实体关系"
+
+#~ msgctxt "Stencils"
+#~ msgid "Entity"
+#~ msgstr "实体"
+
+#~ msgctxt "Stencils"
+#~ msgid "Entity shape used in ER diagrams"
+#~ msgstr "ER 图中所使用的实体形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multivalued Attribute"
+#~ msgstr "多值属性"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multivalued Attribute shape used in ER diagrams"
+#~ msgstr "ER 图中所使用的多值属性形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Relationship"
+#~ msgstr "关系"
+
+#~ msgctxt "Stencils"
+#~ msgid "Relationship shape used in ER diagrams"
+#~ msgstr "ER 图中所使用的关系形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Weak Entity"
+#~ msgstr "弱实体"
+
+#~ msgctxt "Stencils"
+#~ msgid "Weak Entity shape used in ER diagrams"
+#~ msgstr "ER 图中所使用的弱实体形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "block"
+#~ msgstr "阻塞"
+
+#~ msgctxt "Stencils"
+#~ msgid "box"
+#~ msgstr "框"
+
+#~ msgctxt "Stencils"
+#~ msgid "call"
+#~ msgstr "调用"
+
+#~ msgctxt "Stencils"
+#~ msgid "choice-add"
+#~ msgstr "添加选择"
+
+#~ msgctxt "Stencils"
+#~ msgid "choice"
+#~ msgstr "选择"
+
+#~ msgctxt "Stencils"
+#~ msgid "conditional-head1"
+#~ msgstr "条件头1"
+
+#~ msgctxt "Stencils"
+#~ msgid "conditional-head2"
+#~ msgstr "条件头2"
+
+#~ msgctxt "Stencils"
+#~ msgid "conditional"
+#~ msgstr "条件的"
+
+#~ msgctxt "Stencils"
+#~ msgid "Nassi Shneiderman Diagram Shapes"
+#~ msgstr "N-S 流程图形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "exit"
+#~ msgstr "退出"
+
+#~ msgctxt "Stencils"
+#~ msgid "footloop"
+#~ msgstr "尾部循环"
+
+#~ msgctxt "Stencils"
+#~ msgid "headloop"
+#~ msgstr "头部循环"
+
+#~ msgctxt "Stencils"
+#~ msgid "statement"
+#~ msgstr "语句"
+
+#~ msgctxt "Stencils"
+#~ msgid "Bad"
+#~ msgstr "不好"
+
+#~ msgctxt "Stencils"
+#~ msgid "Bad shape"
+#~ msgstr "不好的形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Blue Collar Worker"
+#~ msgstr "蓝领工人"
+
+#~ msgctxt "Stencils"
+#~ msgid "Good"
+#~ msgstr "好"
+
+#~ msgctxt "Stencils"
+#~ msgid "Good shape"
+#~ msgstr "好的形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Group"
+#~ msgstr "组"
+
+#~ msgctxt "Stencils"
+#~ msgid "Man"
+#~ msgstr "男人"
+
+#~ msgctxt "Stencils"
+#~ msgid "Man shape"
+#~ msgstr "男人形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "White Collar Worker"
+#~ msgstr "白领工人"
+
+#~ msgctxt "Stencils"
+#~ msgid "Woman"
+#~ msgstr "女人"
+
+#~ msgctxt "Stencils"
+#~ msgid "Woman shape"
+#~ msgstr "女人形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Woman Shape"
+#~ msgstr "女人形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "People Shapes"
+#~ msgstr "人形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Truck"
+#~ msgstr "卡车"
+
+#~ msgctxt "Stencils"
+#~ msgid "Truck shape"
+#~ msgstr "卡车形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Transport Shapes"
+#~ msgstr "变换形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Miscellaneous Collections"
+#~ msgstr "杂类连接"
+
+#~ msgctxt "Stencils"
+#~ msgid "Activity"
+#~ msgstr "活动"
+
+#~ msgctxt "Stencils"
+#~ msgid "Branch & Merge"
+#~ msgstr "分支与合并"
+
+#~ msgctxt "Stencils"
+#~ msgid "Branch and Merge"
+#~ msgstr "分支与合并"
+
+#~ msgctxt "Stencils"
+#~ msgid "End"
+#~ msgstr "结束"
+
+#~ msgctxt "Stencils"
+#~ msgid "Fork & Join"
+#~ msgstr "分叉与联结"
+
+#~ msgctxt "Stencils"
+#~ msgid "Fork and Join"
+#~ msgstr "分叉与联结"
+
+#~ msgctxt "Stencils"
+#~ msgid "Start"
+#~ msgstr "开始"
+
+#~ msgctxt "Stencils"
+#~ msgid "Activity Diagram Shapes"
+#~ msgstr "活动图形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Class"
+#~ msgstr "类"
+
+#~ msgctxt "Stencils"
+#~ msgid "ClassConceptual"
+#~ msgstr "类概念"
+
+#~ msgctxt "Stencils"
+#~ msgid "Interface"
+#~ msgstr "接口"
+
+#~ msgctxt "Stencils"
+#~ msgid "Template Class"
+#~ msgstr "模板类"
+
+#~ msgctxt "Stencils"
+#~ msgid "TemplateClass"
+#~ msgstr "模板类"
+
+#~ msgctxt "Stencils"
+#~ msgid "Class Diagram Shapes"
+#~ msgstr "类图形状"
+
+#~ msgctxt "Stencils"
+#~ msgid "Block Arrow - Chevron"
+#~ msgstr "宽箭头 - 臂章"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Down Arrow"
+#~ msgstr "几何 - 下箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Notched Left Arrow"
+#~ msgstr "几何 - 带锯齿的左箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Left-Right-Up Arrow"
+#~ msgstr "几何 - 左右上箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Left-Right Arrow"
+#~ msgstr "几何 - 左右箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Assorted - Left-Up Arrow"
+#~ msgstr "杂类 - 左上箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Left Arrow"
+#~ msgstr "几何 - 左箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Block Arrow - Pentagon"
+#~ msgstr "宽箭头 - 五角星"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Quad Arrow"
+#~ msgstr "几何 - 四向箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Notched Right Arrow"
+#~ msgstr "几何 - 有锯齿的右箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Right Arrow"
+#~ msgstr "几何 - 右箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Up-Down-Left Arrow"
+#~ msgstr "几何 - 上下左箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Up-Down Arrow"
+#~ msgstr "几何 - 上下箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Up Arrow"
+#~ msgstr "几何 - 上箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Quarter Circle"
+#~ msgstr "几何 - 四分之一圆"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Perfect Circle"
+#~ msgstr "几何 - 正圆"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Maltese Cross"
+#~ msgstr "几何 - 马耳他十字"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Swiss Cross"
+#~ msgstr "几何 - 瑞士十字"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Diamond"
+#~ msgstr "几何 - 菱形"
+
+#~ msgctxt "Stencils"
+#~ msgid "Assorted - Heart"
+#~ msgstr "杂类 - 心"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Heptagon"
+#~ msgstr "几何 - 七角形"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Hexagon"
+#~ msgstr "几何 - 六角形"
+
+#~ msgctxt "Stencils"
+#~ msgid "Assorted - Quarter Moon"
+#~ msgstr "杂类 - 四分之一月亮"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Octagon"
+#~ msgstr "几何 - 八边形"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Horizontal Parallelogram"
+#~ msgstr "几何 - 水平平行四边形"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Vertical Parallelogram"
+#~ msgstr "几何 - 垂直平行四边形"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Pentagon"
+#~ msgstr "几何 - 五角形"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Perfect Square"
+#~ msgstr "几何 - 正方形"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Four Point Star"
+#~ msgstr "几何 - 四角星"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Curved Four Point Star"
+#~ msgstr "几何 - 曲边四角星"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Five Point Star"
+#~ msgstr "几何 - 五角星"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Six Point Star"
+#~ msgstr "几何 - 六角星"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Seven Point Star"
+#~ msgstr "几何 - 七角星"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Eight Point Star"
+#~ msgstr "几何 - 八角星"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Curved Eight Point Star"
+#~ msgstr "几何 - 曲边八角星"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Sharp Eight Point Star"
+#~ msgstr "几何 - 八角星"
+
+#~ msgctxt "Stencils"
+#~ msgid "Assorted - Sun"
+#~ msgstr "杂类 - 太阳"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Trapezoid"
+#~ msgstr "几何 - 梯形"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Isosceles Triangle"
+#~ msgstr "几何 - 等腰三角形"
+
+#~ msgctxt "Stencils"
+#~ msgid "Geometric - Right Angle Triangle"
+#~ msgstr "几何 - 直角三角形"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Ground"
+#~ msgstr "电路 - 地"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Capacitor"
+#~ msgstr "电路 - 水平电容"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Diode"
+#~ msgstr "电路 - 水平二极管"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Fuse (European)"
+#~ msgstr "电路 - 水平保险丝(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Inductor"
+#~ msgstr "电路 - 水平感应器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Inductor (European)"
+#~ msgstr "电路 - 水平感应器(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Jumper"
+#~ msgstr "电路 - 水平跳线"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Led (European)"
+#~ msgstr "电路 - 水平发光二极管(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Powersource (European)"
+#~ msgstr "电路 - 水平电源(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Resistor"
+#~ msgstr "电路 - 水平电阻"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Resistor (European)"
+#~ msgstr "电路 - 水平电阻(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Horizontal Zener Diode"
+#~ msgstr "电路 - 水平稳压二极管"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Lamp (European)"
+#~ msgstr "电路 - 灯(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Microphone (European)"
+#~ msgstr "电路 - 话筒(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - NMOS Transistor (European)"
+#~ msgstr "电路 - NMOS 晶体管(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - NPN Transistor"
+#~ msgstr "电路 - NPN 晶体管"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Op Amp"
+#~ msgstr "电路 - 运算放大器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - PMOS Transistor (European)"
+#~ msgstr "电路 - PMOS 晶体管(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - PNP Transistor"
+#~ msgstr "电路 - PNP 晶体管"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Speaker (European)"
+#~ msgstr "电路 - 扬声器(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Capacitor"
+#~ msgstr "电路 - 垂直电容"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Diode"
+#~ msgstr "电路 - 垂直二极管"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Fuse (European)"
+#~ msgstr "电路 - 垂直保险丝(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Inductor"
+#~ msgstr "电路 - 垂直感应器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Inductor (European)"
+#~ msgstr "电路 - 垂直感应器(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Led (European)"
+#~ msgstr "电路 - 垂直发光二极管(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Powersource (European)"
+#~ msgstr "电路 - 垂直电源(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Resistor"
+#~ msgstr "电路 - 垂直电阻"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Resistor (European)"
+#~ msgstr "电路 - 垂直电阻(欧洲)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Circuit - Vertical Zener Diode"
+#~ msgstr "电路 - 垂直稳压二极管"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Cisco 1000"
+#~ msgstr "Cisco - Cisco 1000"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 100BaseT Hub"
+#~ msgstr "Cisco - 100BaseT 集线器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 10700"
+#~ msgstr "Cisco - 10700"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 15200"
+#~ msgstr "Cisco - 15200"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 3174 (desktop) cluster controller"
+#~ msgstr "Cisco - 3174(桌面)簇控制器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 3X74 (floor) cluster controller"
+#~ msgstr "Cisco - 3X74(地面)簇控制器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Workgroup 5000"
+#~ msgstr "Cisco - 工作组 5000"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Workgroup 5002"
+#~ msgstr "Cisco - 工作组 5002"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Workgroup 5500"
+#~ msgstr "Cisco - 工作组 5500"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 6701"
+#~ msgstr "Cisco - 6701"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 6705"
+#~ msgstr "Cisco - 6705"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 6732"
+#~ msgstr "Cisco - 6732"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 7500ARS (7513)"
+#~ msgstr "Cisco - 7500ARS(7513)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 7505"
+#~ msgstr "Cisco - 7505"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - 7507"
+#~ msgstr "Cisco - 7507"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - AccessPoint"
+#~ msgstr "Cisco - 访问点"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ADM"
+#~ msgstr "Cisco - ADM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ASIC Processor"
+#~ msgstr "Cisco - ASIC 处理器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ATA"
+#~ msgstr "Cisco - ATA"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ATM 3800"
+#~ msgstr "Cisco - ATM 3800"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ATM Fast Gigabit Etherswitch"
+#~ msgstr "Cisco - ATM 快速千兆以太交换机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ATM Router"
+#~ msgstr "Cisco - ATM 路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ATM Switch"
+#~ msgstr "Cisco - ATM 交换机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ATM Tag Sw Gigabit Router"
+#~ msgstr "Cisco - ATM 光纤交换路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ATM Tag Switch Router"
+#~ msgstr "Cisco - ATM 交换机路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - BBFW"
+#~ msgstr "Cisco - BBFW"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - BBFW media"
+#~ msgstr "Cisco - BBFW 介质"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - BBSM"
+#~ msgstr "Cisco - BBSM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Branch office"
+#~ msgstr "Cisco - 分支办公室"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Breakout box"
+#~ msgstr "Cisco - 断接器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Bridge"
+#~ msgstr "Cisco - 网桥"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Broadband router"
+#~ msgstr "Cisco - 宽带路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - BTS 10200"
+#~ msgstr "Cisco - BTS 10200"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Cisco CA"
+#~ msgstr "Cisco - Cisco CA"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Cable Modem"
+#~ msgstr "Cisco - 有线调制解调器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - CallManager"
+#~ msgstr "Cisco - CallManager"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Car"
+#~ msgstr "Cisco - 轿车"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Catalyst Access Gateway"
+#~ msgstr "Cisco - 访问加速网关"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - CDDI-FDDI"
+#~ msgstr "Cisco - CDDI-FDDI"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - CDM Content Distribution Manager"
+#~ msgstr "Cisco - CDM 内容分发管理器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Cellular phone"
+#~ msgstr "Cisco - 蜂窝电话"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Centri Firewall"
+#~ msgstr "Cisco - Centri 防火墙"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Cisco Hub"
+#~ msgstr "Cisco - Cisco 集线器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - CiscoSecurity"
+#~ msgstr "Cisco - CiscoSecurity"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - CiscoWorks workstation"
+#~ msgstr "Cisco - CiscoWorks 工作站"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Class 4/5 switch"
+#~ msgstr "Cisco - 4/5 级交换机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Cloud"
+#~ msgstr "Cisco - 云"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Communications server"
+#~ msgstr "Cisco - 通讯服务器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Content Engine (Cache Director)"
+#~ msgstr "Cisco - 内容引擎(缓存导向器)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Content Service Router"
+#~ msgstr "Cisco - 内容服务路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Content Switch"
+#~ msgstr "Cisco - 内容交换"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Content Switch module"
+#~ msgstr "Cisco - 内容交换模块"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Content Service Switch 1100"
+#~ msgstr "Cisco - 内容服务交换机 1100"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - CSU/DSU"
+#~ msgstr "Cisco - CSU/DSU"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Content Transformation Engine (CTE)"
+#~ msgstr "Cisco - 内容变换引擎(CTE)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Directory Server"
+#~ msgstr "Cisco - 目录服务器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Diskette"
+#~ msgstr "Cisco - 磁盘"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Distributed Director"
+#~ msgstr "Cisco - 分布式导向器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Dot-Dot"
+#~ msgstr "Cisco - 点点"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - DPT"
+#~ msgstr "Cisco - DPT"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - DSLAM"
+#~ msgstr "Cisco - DSLAM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - DWDM Filter"
+#~ msgstr "Cisco - DWDM 过滤器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - End Office"
+#~ msgstr "Cisco - 末端办公室"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Fax"
+#~ msgstr "Cisco - 传真"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - FC Storage"
+#~ msgstr "Cisco - FC 存储"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - FDDI Ring"
+#~ msgstr "Cisco - FDDI 环"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - File cabinet"
+#~ msgstr "Cisco - 文件箱"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - File Server"
+#~ msgstr "Cisco - 文件服务器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Firewall"
+#~ msgstr "Cisco - 防火墙"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Front End Processor"
+#~ msgstr "Cisco - 前端处理器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - General appliance"
+#~ msgstr "Cisco - 通用设备"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Generic Building"
+#~ msgstr "Cisco - 普通大楼"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Generic gateway"
+#~ msgstr "Cisco - 通用网关"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Generic processor"
+#~ msgstr "Cisco - 通用处理器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Generic softswitch"
+#~ msgstr "Cisco - 普通软交换机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Gigabit Switch Router (ATM Tag)"
+#~ msgstr "Cisco - 千兆交换路由器(ATM Tag)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Government Building"
+#~ msgstr "Cisco - 政府大楼"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - H.323"
+#~ msgstr "Cisco - H.323"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Handheld"
+#~ msgstr "Cisco - 手持设备"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - HootPhone"
+#~ msgstr "Cisco - HootPhone"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Host"
+#~ msgstr "Cisco - 主机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - HP Mini"
+#~ msgstr "Cisco - HP 小型机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Hub"
+#~ msgstr "Cisco - 集线器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IAD router"
+#~ msgstr "Cisco - IAD 路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IBM mainframe"
+#~ msgstr "Cisco - IBM 大型主机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IBM Mini (AS400)"
+#~ msgstr "Cisco - IBM Mini (AS400)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IBM Tower"
+#~ msgstr "Cisco - IBM 立式机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ICM"
+#~ msgstr "Cisco - ICM"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ICS"
+#~ msgstr "Cisco - ICS"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IOS Firewall"
+#~ msgstr "Cisco - IOS 防火墙"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IP"
+#~ msgstr "Cisco - IP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IP DSL"
+#~ msgstr "Cisco - IP DSL"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IP Phone"
+#~ msgstr "Cisco - IP 电话"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IP Softphone"
+#~ msgstr "Cisco - IP 软电话"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IP Telephony Router"
+#~ msgstr "Cisco - IP 电话路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IPTC"
+#~ msgstr "Cisco - IPTC"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IPTV broadcast server"
+#~ msgstr "Cisco - IPTV 广播服务器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - IPTV content manager"
+#~ msgstr "Cisco - IPTV 内容管理器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ISDN switch"
+#~ msgstr "Cisco - ISDN 交换机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ITP"
+#~ msgstr "Cisco - ITP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Key"
+#~ msgstr "Cisco - 键"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - LAN to LAN"
+#~ msgstr "Cisco - LAN 到 WAN"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Laptop"
+#~ msgstr "Cisco - 便携电脑"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Layer 3 Switch"
+#~ msgstr "Cisco - 三层交换机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - LocalDirector"
+#~ msgstr "Cisco - 本地导向器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Lock"
+#~ msgstr "Cisco - 锁"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - LongReach CPE"
+#~ msgstr "Cisco - LongReach CPE"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Mac Woman"
+#~ msgstr "Cisco - Mac 女人"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Macintosh"
+#~ msgstr "Cisco - Macintosh"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Man/Woman"
+#~ msgstr "Cisco - 男人/女人"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MAS Gateway"
+#~ msgstr "Cisco - MAS 网关"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MAU"
+#~ msgstr "Cisco - MAU"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MDU"
+#~ msgstr "Cisco - MDU"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ME 1100"
+#~ msgstr "Cisco - ME 1100"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Metro 1500"
+#~ msgstr "Cisco - Metro 1500"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MGX 8220"
+#~ msgstr "Cisco - MGX 8220"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MGX 8240"
+#~ msgstr "Cisco - MGX 8240"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MGX 8260"
+#~ msgstr "Cisco - MGX 8260"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Microphone"
+#~ msgstr "Cisco - 话筒"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MicroWebserver"
+#~ msgstr "Cisco - 微型 Web 服务器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Mini VAX"
+#~ msgstr "Cisco - Mini VAX"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Modem"
+#~ msgstr "Cisco - 调制解调器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MoH server (Music on Hold)"
+#~ msgstr "Cisco - MoH(Music on Hold) 服务器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Multilayer switch"
+#~ msgstr "Cisco - 多层交换机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MultiSwitch Device"
+#~ msgstr "Cisco - 多交换机设备"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - MUX"
+#~ msgstr "Cisco - MUX"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - NetFlow router"
+#~ msgstr "Cisco - 网络流路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - NetRanger"
+#~ msgstr "Cisco - NetRanger"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - NetSonar"
+#~ msgstr "Cisco - 网络声纳"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Network Management"
+#~ msgstr "Cisco - 网络管理"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Octel"
+#~ msgstr "Cisco - Octel"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - ONS15500"
+#~ msgstr "Cisco - ONS15500"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Optical Amplifier"
+#~ msgstr "Cisco - 光学放大器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Optical Services Router"
+#~ msgstr "Cisco - 光学服务路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Optical Transport"
+#~ msgstr "Cisco - 光学传送"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PAD"
+#~ msgstr "Cisco - PAD"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PAD X.28"
+#~ msgstr "Cisco - PAD X.28"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PBX"
+#~ msgstr "Cisco - PBX"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PBX Switch"
+#~ msgstr "Cisco - PBX 交换机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PC"
+#~ msgstr "Cisco - PC"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PC Adapter Card"
+#~ msgstr "Cisco - PC 适配卡"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PC Man"
+#~ msgstr "Cisco - PC 男人"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PC Router Card"
+#~ msgstr "Cisco - PC 路由器卡"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PC Video"
+#~ msgstr "Cisco - PC 视频"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PDA"
+#~ msgstr "Cisco - PDA"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Phone"
+#~ msgstr "Cisco - 电话"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Phone/Fax"
+#~ msgstr "Cisco - 电话/传真"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PIX Firewall"
+#~ msgstr "Cisco - PIX 防火墙"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Printer"
+#~ msgstr "Cisco - 打印机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Programmable Switch"
+#~ msgstr "Cisco - 可编程交换机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Protocol Translator"
+#~ msgstr "Cisco - 协议翻译器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - PXF"
+#~ msgstr "Cisco - PXF"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Radio Tower"
+#~ msgstr "Cisco - 无线电塔"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - RateMUX"
+#~ msgstr "Cisco - RateMUX"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Relational Database"
+#~ msgstr "Cisco - 关系数据库"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Repeater"
+#~ msgstr "Cisco - 重复器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Route Switch Processor"
+#~ msgstr "Cisco - 路由切换处理器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Router"
+#~ msgstr "Cisco - 路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Router in building"
+#~ msgstr "Cisco - 楼宇路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Router with Firewall"
+#~ msgstr "Cisco - 带防火墙的路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Router with Silicon Switch"
+#~ msgstr "Cisco - 带 Silicon 交换机的路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - RPS"
+#~ msgstr "Cisco - RPS"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Running man"
+#~ msgstr "Cisco - 运动着的人"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Satellite"
+#~ msgstr "Cisco - 卫星"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Satellite dish"
+#~ msgstr "Cisco - 卫星天线"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - SC2200 (Signalling Controller)"
+#~ msgstr "Cisco - SC2200 (信号发射控制器)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - SC2200/VSC3000 host"
+#~ msgstr "Cisco - SC2200/VSC3000 主机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Scanner"
+#~ msgstr "Cisco - 扫描仪"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Server with PC Router"
+#~ msgstr "Cisco - 带 PC 路由器的服务器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - SIP Proxy server"
+#~ msgstr "Cisco - SIP 代理服务器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Sitting woman"
+#~ msgstr "Cisco - 坐着的女人"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Small Business"
+#~ msgstr "Cisco - 小型商务"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Small hub"
+#~ msgstr "Cisco - 小集线器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Softphone"
+#~ msgstr "Cisco - 软电话"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Software based server"
+#~ msgstr "Cisco - 基于软件的服务器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Speaker"
+#~ msgstr "Cisco - 扬声器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Standing Man"
+#~ msgstr "Cisco - 站着的男人"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - STB (set top box)"
+#~ msgstr "Cisco - 机顶盒"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Storage array"
+#~ msgstr "Cisco - 存储阵列"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Storage Router"
+#~ msgstr "Cisco - 存储路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - STP"
+#~ msgstr "Cisco - STP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - SUN workstation"
+#~ msgstr "Cisco - SUN 工作站"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Supercomputer"
+#~ msgstr "Cisco - 超级计算机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - SVX (interchangeable with End office)"
+#~ msgstr "Cisco - SVX(与远端办公室可互换)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - System controller"
+#~ msgstr "Cisco - 系统控制器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Tablet"
+#~ msgstr "Cisco - 片式"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - TDM router"
+#~ msgstr "Cisco - TDM 路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Telecommuter"
+#~ msgstr "Cisco - 远距离工作"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Telecommuter house"
+#~ msgstr "Cisco - 远距离房屋"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Telecommuter house/router"
+#~ msgstr "Cisco - 远程办公家庭/路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Terminal"
+#~ msgstr "Cisco - 终端"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - TokenRing"
+#~ msgstr "Cisco - 令牌环"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Transpath"
+#~ msgstr "Cisco - 变换路径"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Truck"
+#~ msgstr "Cisco - 卡车"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Turret"
+#~ msgstr "Cisco - 塔楼"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - TV"
+#~ msgstr "Cisco - 电视"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - uBR910"
+#~ msgstr "Cisco - uBR910"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Unity server"
+#~ msgstr "Cisco - Unity 服务器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Universal Gateway"
+#~ msgstr "Cisco - 通用网关"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - University"
+#~ msgstr "Cisco - 大学"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - UPS"
+#~ msgstr "Cisco - UPS"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Video camera"
+#~ msgstr "Cisco - 摄像机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - VIP"
+#~ msgstr "Cisco - VIP"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Voice ATM Switch"
+#~ msgstr "Cisco - 语音 ATM 交换机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Voice commserver"
+#~ msgstr "Cisco - 语音通讯服务器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Voice router"
+#~ msgstr "Cisco - 语音路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Voice switch"
+#~ msgstr "Cisco - 语音交换机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Voice switch 2"
+#~ msgstr "Cisco - 语音交换机 2"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - VPN concentrator"
+#~ msgstr "Cisco - VPN 集中器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - VPN Gateway"
+#~ msgstr "Cisco - VPN 网关"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Virtual switch controller (VSC 3000)"
+#~ msgstr "Cisco - 虚拟交换机控制器(VSC 3000)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Wavelength router"
+#~ msgstr "Cisco - 波长路由器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Web browser"
+#~ msgstr "Cisco - Web 浏览器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Web cluster"
+#~ msgstr "Cisco - Web 集群"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Wireless"
+#~ msgstr "Cisco - 无线"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Wireless Bridge"
+#~ msgstr "Cisco - 无线网桥"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Wireless Transport"
+#~ msgstr "Cisco - 无线传送"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Workgroup director"
+#~ msgstr "Cisco - 工作组导向器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Workgroup switch"
+#~ msgstr "Cisco - 工作组交换机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - Workstation"
+#~ msgstr "Cisco - 工作站"
+
+#~ msgctxt "Stencils"
+#~ msgid "Cisco - WWW server"
+#~ msgstr "Cisco - WWW 服务器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Bivalent Vertical Rest"
+#~ msgstr "民用 - 二价垂直平衡"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Aerator"
+#~ msgstr "民用 - 通风装置"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Right Arrow"
+#~ msgstr "民用 - 右箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Up Arrow"
+#~ msgstr "民用 - 上箭头"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Backflow Preventer"
+#~ msgstr "民用 - 回路抑止器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Basin"
+#~ msgstr "民用 - 水池"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Container"
+#~ msgstr "民用 - 容器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Final-Settling Basin"
+#~ msgstr "民用 - 最终沉淀池"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Frequency Converter"
+#~ msgstr "民用 - 变频转换器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Gas Bottle"
+#~ msgstr "民用 - 储气瓶"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Horizontal Limiting Line"
+#~ msgstr "民用 - 水平限制线"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Horizontal Valve"
+#~ msgstr "民用 - 水平阀"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Motor"
+#~ msgstr "民用 - 发动机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Preliminary Clarification Tank"
+#~ msgstr "民用 - 初步澄清池"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Rotor"
+#~ msgstr "民用 - 回转轴"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Soil"
+#~ msgstr "民用 - 土壤"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Vertical Limiting Line"
+#~ msgstr "民用 - 垂直限制线"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Vertical Propeller"
+#~ msgstr "民用 - 垂直推进器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Horizontal Compressor"
+#~ msgstr "民用 - 水平压缩机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Horizontal Pump"
+#~ msgstr "民用 - 水平泵"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Horizontal Rest"
+#~ msgstr "民用 - 水平平衡"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Reference Line"
+#~ msgstr "民用 - 参考线"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Vertical Compressor"
+#~ msgstr "民用 - 垂直压缩机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Vertical Pump"
+#~ msgstr "民用 - 垂直泵"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Vertical Rest"
+#~ msgstr "民用 - 垂直平衡"
+
+#~ msgctxt "Stencils"
+#~ msgid "Civil - Water Level"
+#~ msgstr "民用 - 吃水线"
+
+#~ msgctxt "Stencils"
+#~ msgid "Contact - if"
+#~ msgstr "Contact - if"
+
+#~ msgctxt "Stencils"
+#~ msgid "Contact - ifnot"
+#~ msgstr "Contact - ifnot"
+
+#~ msgctxt "Stencils"
+#~ msgid "Contact - lamp"
+#~ msgstr "Contact - 灯"
+
+#~ msgctxt "Stencils"
+#~ msgid "Contact - relay"
+#~ msgstr "Contact - relay"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - if"
+#~ msgstr "LADDER - if"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - ifnot"
+#~ msgstr "LADDER - ifnot"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - out"
+#~ msgstr "LADDER - out"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - outj"
+#~ msgstr "LADDER - outj"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - outnot"
+#~ msgstr "LADDER - outnot"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - outr"
+#~ msgstr "LADDER - outr"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - outrcep"
+#~ msgstr "LADDER - outrcep"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - outs"
+#~ msgstr "LADDER - outs"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - sout"
+#~ msgstr "LADDER - sout"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - soutnot"
+#~ msgstr "LADDER - soutnot"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - soutr"
+#~ msgstr "LADDER - soutr"
+
+#~ msgctxt "Stencils"
+#~ msgid "LADDER - souts"
+#~ msgstr "LADDER - souts"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - connpoint"
+#~ msgstr "电子 - connpoint"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - command"
+#~ msgstr "电子 - command"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - contact_f"
+#~ msgstr "电子 - contact_f"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - contact_o"
+#~ msgstr "电子 - contact_o"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - intpos_f"
+#~ msgstr "电子 - intpos_f"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - intpos_o"
+#~ msgstr "电子 - intpos_o"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - lamp"
+#~ msgstr "电子 - 灯"
+
+#~ msgctxt "Stencils"
+#~ msgid "Electric - relay"
+#~ msgstr "电子 - relay"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_iiii"
+#~ msgstr "Jigsaw - part_iiii"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_iiio"
+#~ msgstr "Jigsaw - part_iiio"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_iioi"
+#~ msgstr "Jigsaw - part_iioi"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_iioo"
+#~ msgstr "Jigsaw - part_iioo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_ioii"
+#~ msgstr "Jigsaw - part_ioii"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_ioio"
+#~ msgstr "Jigsaw - part_ioio"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_iooi"
+#~ msgstr "Jigsaw - part_iooi"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_iooo"
+#~ msgstr "Jigsaw - part_iooo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_oiii"
+#~ msgstr "Jigsaw - part_oiii"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_oiio"
+#~ msgstr "Jigsaw - part_oiio"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_oioi"
+#~ msgstr "Jigsaw - part_oioi"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_oioo"
+#~ msgstr "Jigsaw - part_oioo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_ooii"
+#~ msgstr "Jigsaw - part_ooii"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_ooio"
+#~ msgstr "Jigsaw - part_ooio"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_oooi"
+#~ msgstr "Jigsaw - part_oooi"
+
+#~ msgctxt "Stencils"
+#~ msgid "Jigsaw - part_oooo"
+#~ msgstr "Jigsaw - part_oooo"
+
+#~ msgctxt "Stencils"
+#~ msgid "Demultiplexer"
+#~ msgstr "信号分离器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Large Extension Node"
+#~ msgstr "大扩展结点"
+
+#~ msgctxt "Stencils"
+#~ msgid "Multiplexer"
+#~ msgstr "多路器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Node Center"
+#~ msgstr "节点中心"
+
+#~ msgctxt "Stencils"
+#~ msgid "Small Extension Node"
+#~ msgstr "小扩展结点"
+
+#~ msgctxt "Stencils"
+#~ msgid "Tactical Satellite Communications Terminal"
+#~ msgstr "战术卫星通讯终端"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Antenna"
+#~ msgstr "网络 - 天线"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - General Computer (Tower)"
+#~ msgstr "网络 - 通用计算机(立式)"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - An external DAT drive"
+#~ msgstr "网络 - 外部 DAT 设备"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Digitizing Board"
+#~ msgstr "网络 - 数字化仪"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Storage"
+#~ msgstr "网络 - 存储"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Diskette"
+#~ msgstr "网络 - 磁盘"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Firewall"
+#~ msgstr "网络 - 防火墙"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - WAN Connection"
+#~ msgstr "网络 - WAN 连接"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - General Monitor (With Stand)"
+#~ msgstr "网络 - 通用监视器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Hub"
+#~ msgstr "网络 - 集线器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Mobile Phone"
+#~ msgstr "网络 - 移动电话"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Modem"
+#~ msgstr "网络 - 调制解调器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Modular Switch"
+#~ msgstr "网络 - 模块式交换机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Workstation Monitor"
+#~ msgstr "网络 - 工作站监视器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Cloud"
+#~ msgstr "网络 - 云"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Bigtower PC"
+#~ msgstr "网络 - 大立式机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Desktop PC"
+#~ msgstr "网络 - 桌面电脑"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Midi-tower PC"
+#~ msgstr "网络 - 中立式机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Minitower PC"
+#~ msgstr "网络 - 小立式电脑"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Plotter"
+#~ msgstr "网络 - 绘图仪"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - General Printer"
+#~ msgstr "网络 - 通用打印机"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - RJ45 Wall-Plug"
+#~ msgstr "网络 - RJ45 墙插"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Router Symbol"
+#~ msgstr "网络 - 路由器符号"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - scEAD Wall-Plug"
+#~ msgstr "网络 - scEAD 墙插"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A speaker"
+#~ msgstr "Network - 扬声器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - An amplifier speaker"
+#~ msgstr "网络 - 放大扬声器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Switch ATM Symbol"
+#~ msgstr "网络 - 交换机 ATM 符号"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - Switch Symbol"
+#~ msgstr "网络 - 交换机符号"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Telephone"
+#~ msgstr "网络 - 电话"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A Workstation"
+#~ msgstr "网络 - 工作站"
+
+#~ msgctxt "Stencils"
+#~ msgid "Network - A ZIP Disk"
+#~ msgstr "网络 - ZIP 磁盘"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - connpoint"
+#~ msgstr "Pneum - connpoint"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - comelec1"
+#~ msgstr "Pneum - comelec1"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - comelec2"
+#~ msgstr "Pneum - comelec2"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - commusc"
+#~ msgstr "Pneum - commusc"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - compb"
+#~ msgstr "Pneum - compb"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - compilh"
+#~ msgstr "Pneum - compilh"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - compilp"
+#~ msgstr "Pneum - compilp"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - compush"
+#~ msgstr "Pneum - compush"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - comspr"
+#~ msgstr "Pneum - comspr"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - DEJack"
+#~ msgstr "Pneum - DEJack"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - dist22"
+#~ msgstr "Pneum - dist22"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - dist32"
+#~ msgstr "Pneum - dist32"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - dist42"
+#~ msgstr "Pneum - dist42"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - dist52"
+#~ msgstr "Pneum - dist52"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - drain"
+#~ msgstr "Pneum - drain"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - press"
+#~ msgstr "Pneum - press"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - presshy"
+#~ msgstr "Pneum - presshy"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - presspn"
+#~ msgstr "Pneum - presspn"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - SEIJack"
+#~ msgstr "Pneum - SEIJack"
+
+#~ msgctxt "Stencils"
+#~ msgid "Pneum - SEOJack"
+#~ msgstr "Pneum - SEOJack"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Block"
+#~ msgstr "SDL - 块"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Comment"
+#~ msgstr "SDL - 注释"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Decision"
+#~ msgstr "SDL - 判定"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Function"
+#~ msgstr "SDL - 函数"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Function Header"
+#~ msgstr "SDL - 函数头"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - InOut"
+#~ msgstr "SDL - 输入输出"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Macro"
+#~ msgstr "SDL - 宏"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Note"
+#~ msgstr "SDL - 笔记"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Process"
+#~ msgstr "SDL - 处理"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Receive"
+#~ msgstr "SDL - 接收"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Return"
+#~ msgstr "SDL - 返回"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Save"
+#~ msgstr "SDL - 保存"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Send"
+#~ msgstr "SDL - 发送"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Service"
+#~ msgstr "SDL - 服务"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - State"
+#~ msgstr "SDL - 状态"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Stop"
+#~ msgstr "SDL - 停止"
+
+#~ msgctxt "Stencils"
+#~ msgid "SDL - Task"
+#~ msgstr "SDL - 任务"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sybase - Client Application"
+#~ msgstr "Sybase - 客户应用程序"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sybase - Dataserver"
+#~ msgstr "Sybase - 数据服务器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sybase - Log Transfer Manager/Rep Agent"
+#~ msgstr "Sybase - 日志传送管理器/复制代理"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sybase - Replication Server"
+#~ msgstr "Sybase - 复制服务器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sybase - Replication Server Manager"
+#~ msgstr "Sybase - 复制服务器管理器"
+
+#~ msgctxt "Stencils"
+#~ msgid "Sybase - Stable Queue"
+#~ msgstr "Sybase - 稳定查询"
+
+#~ msgid "Kivio"
+#~ msgstr "Kivio"

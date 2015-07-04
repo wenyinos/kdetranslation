@@ -1,0 +1,2746 @@
+# translation of TextShape.po to 简体中文
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: TextShape\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-17 01:31+0000\n"
+"PO-Revision-Date: 2013-02-21 12:48-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: AnnotationTextShapeFactory.cpp:44 AnnotationTextShapeFactory.cpp:52
+#, fuzzy
+#| msgid "Annotation:"
+msgid "Annotation"
+msgstr "注释："
+
+#: AnnotationTextShapeFactory.cpp:46
+msgid "Annotation shape to show annotation content"
+msgstr ""
+
+#: AnnotationTextShapeFactory.cpp:54
+#, fuzzy
+#| msgid "Annotation:"
+msgid "Annotation Shape"
+msgstr "注释："
+
+#: commands/AcceptChangeCommand.cpp:45
+msgctxt "(qtundo-format)"
+msgid "Accept change"
+msgstr "应用更改"
+
+#: commands/AutoResizeCommand.cpp:37
+msgctxt "Enable Shrink To Fit"
+msgid "Enable"
+msgstr "启用"
+
+#: commands/AutoResizeCommand.cpp:37
+msgctxt "Disable Shrink To Fit"
+msgid "Disable"
+msgstr "禁用"
+
+#: commands/AutoResizeCommand.cpp:40
+#, kde-format
+msgctxt "(qtundo-format) Enable/Disable Grow To Fit Width"
+msgid "%1 Grow To Fit Width"
+msgstr "%1 增长到适合宽度"
+
+#: commands/AutoResizeCommand.cpp:43
+#, kde-format
+msgctxt "(qtundo-format) Enable/Disable Grow To Fit Height"
+msgid "%1 Grow To Fit Height"
+msgstr "%1 增长到适合高度"
+
+#: commands/AutoResizeCommand.cpp:46
+#, kde-format
+msgctxt "(qtundo-format) Enable/Disable Shrink To Fit"
+msgid "%1 Shrink To Fit"
+msgstr "%1 收缩以适应"
+
+#: commands/ChangeListLevelCommand.cpp:44
+msgctxt "(qtundo-format)"
+msgid "Change List Level"
+msgstr "更改列表级别"
+
+#: commands/RejectChangeCommand.cpp:47
+msgctxt "(qtundo-format)"
+msgid "Reject change"
+msgstr "拒绝更改"
+
+#: commands/ShowChangesCommand.cpp:53
+msgctxt "(qtundo-format)"
+msgid "Show Changes"
+msgstr "显示更改"
+
+#: commands/ShowChangesCommand.cpp:55
+msgctxt "(qtundo-format)"
+msgid "Hide Changes"
+msgstr "隐藏更改"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, TableOfContentsStyleConfigure)
+#. i18n: ectx: property (windowTitle), widget (QDialog, TableOfContentsConfigure)
+#. i18n: ectx: property (windowTitle), widget (QDialog, AcceptRejectChangeDialog)
+#: dialogs/AcceptRejectChangeDialog.ui:26
+#: dialogs/TableOfContentsConfigure.ui:14
+#: dialogs/TableOfContentsStyleConfigure.ui:14
+msgid "Dialog"
+msgstr "对话框"
+
+#. i18n: ectx: property (text), widget (QPushButton, acceptButton)
+#: dialogs/AcceptRejectChangeDialog.ui:44
+msgid "Accept"
+msgstr "接受"
+
+#. i18n: ectx: property (text), widget (QPushButton, rejectButton)
+#: dialogs/AcceptRejectChangeDialog.ui:57
+msgid "Reject"
+msgstr "拒绝"
+
+#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
+#: dialogs/AcceptRejectChangeDialog.ui:70
+msgid "Cancel"
+msgstr "取消"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/AcceptRejectChangeDialog.ui:96
+msgid "Change Log"
+msgstr "更改列表"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/AcceptRejectChangeDialog.ui:109
+msgid "Author"
+msgstr "作者"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/AcceptRejectChangeDialog.ui:122
+msgid "Date"
+msgstr "日期"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/AcceptRejectChangeDialog.ui:135
+msgid "Type"
+msgstr "类型"
+
+#: dialogs/BibliographyConfigureDialog.cpp:109
+msgid "Ascending"
+msgstr "升序"
+
+#: dialogs/BibliographyConfigureDialog.cpp:110
+msgid "Descending"
+msgstr "降序"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, BibliographyConfigureDialog)
+#. i18n: ectx: property (toolTip), widget (QToolButton, configureBibliography)
+#: dialogs/BibliographyConfigureDialog.ui:14
+#: dialogs/SimpleCitationBibliographyWidget.ui:52
+msgid "Configure bibliography"
+msgstr "更改参考文献"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: dialogs/BibliographyConfigureDialog.ui:20
+msgid "Formatting of bibliography entries"
+msgstr "格式化参考文献项"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, prefixLabel)
+#: dialogs/BibliographyConfigureDialog.ui:28
+#: dialogs/ParagraphBulletsNumbers.ui:70
+msgid "Prefix:"
+msgstr "前缀："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, suffixLabel)
+#: dialogs/BibliographyConfigureDialog.ui:48
+#: dialogs/ParagraphBulletsNumbers.ui:86
+msgid "Suffix:"
+msgstr "后缀："
+
+#. i18n: ectx: property (text), widget (QCheckBox, numberedEntries)
+#: dialogs/BibliographyConfigureDialog.ui:70
+msgid "Number entries"
+msgstr "编号项"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: dialogs/BibliographyConfigureDialog.ui:80
+msgid "Sort"
+msgstr "排序"
+
+#. i18n: ectx: property (text), widget (QCheckBox, sortByPosition)
+#: dialogs/BibliographyConfigureDialog.ui:86
+msgid "Sort by position"
+msgstr "按位置排序"
+
+#. i18n: ectx: property (title), widget (QGroupBox, sortKeyGroupBox)
+#: dialogs/BibliographyConfigureDialog.ui:93
+msgid "Sort keys"
+msgstr "排序关键字"
+
+#. i18n: ectx: property (text), widget (QPushButton, addSortKeyButton)
+#: dialogs/BibliographyConfigureDialog.ui:103
+msgid "Add sort key"
+msgstr "添加排序关键字"
+
+#. i18n: ectx: property (text), widget (QLabel, sortAlgorithmLabel)
+#: dialogs/BibliographyConfigureDialog.ui:131
+msgid "Sort algorithm:"
+msgstr "排序算法："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sortAlgorithm)
+#: dialogs/BibliographyConfigureDialog.ui:139
+msgid "Alphanumeric"
+msgstr "字母数字"
+
+#: dialogs/BibliographyTemplate.cpp:41
+msgid "Bibliography"
+msgstr "参考文献"
+
+#: dialogs/BibliographyTemplate.cpp:53 ReferencesToolFactory.cpp:32
+msgid "References"
+msgstr "引用"
+
+#: dialogs/ChangeConfigureDialog.cpp:148
+msgid "This is a line of inserted text."
+msgstr "这是一行插入的文本。"
+
+#: dialogs/ChangeConfigureDialog.cpp:154
+msgid "This is a line of deleted text."
+msgstr "这是一行删除的文本。"
+
+#: dialogs/ChangeConfigureDialog.cpp:160
+msgid "This is a line of text whose format has been changed."
+msgstr "这是一行更改过格式的文本。"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, ChangeConfigureDialog)
+#: dialogs/ChangeConfigureDialog.ui:17
+msgid "Configure Change Tracking"
+msgstr "更改修订"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/ChangeConfigureDialog.ui:30
+msgid "General Settings"
+msgstr "常规设置"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/ChangeConfigureDialog.ui:37
+msgid "Saving Format"
+msgstr "保存格式"
+
+#. i18n: ectx: property (text), widget (QRadioButton, odf12RadioButton)
+#: dialogs/ChangeConfigureDialog.ui:44
+msgid "ODF 1.2"
+msgstr "ODF 1.2"
+
+#. i18n: ectx: property (text), widget (QRadioButton, deltaXmlRadioButton)
+#: dialogs/ChangeConfigureDialog.ui:51
+msgid "DeltaXML (Experimental)"
+msgstr "DeltaXML (实验性)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/ChangeConfigureDialog.ui:58
+msgid "Author Name"
+msgstr "作者姓名"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/ChangeConfigureDialog.ui:75
+msgid "Change Visualization Settings"
+msgstr "更改可视化设置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, insertionGroupBox)
+#: dialogs/ChangeConfigureDialog.ui:89
+msgid "Insertions"
+msgstr "插入"
+
+#. i18n: ectx: property (text), widget (QLabel, insertionColorLabel)
+#. i18n: ectx: property (text), widget (QLabel, deletionColorLabel)
+#. i18n: ectx: property (text), widget (QLabel, formatColorLabel)
+#: dialogs/ChangeConfigureDialog.ui:105 dialogs/ChangeConfigureDialog.ui:188
+#: dialogs/ChangeConfigureDialog.ui:247
+msgid "Background Color"
+msgstr "背景颜色"
+
+#. i18n: ectx: property (text), widget (QToolButton, resetBackground)
+#. i18n: ectx: property (text), widget (QToolButton, resetTextColor)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_5)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_7)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_4)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_8)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_3)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_6)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_2)
+#. i18n: ectx: property (text), widget (QToolButton, customCharacter)
+#. i18n: ectx: property (text), widget (QToolButton, resetBackgroundColor)
+#. i18n: ectx: property (text), widget (QToolButton, toolAutoSpellCheck)
+#. i18n: ectx: property (text), widget (QuickTableButton, quickTable)
+#. i18n: ectx: property (text), widget (QToolButton, insertVariable)
+#. i18n: ectx: property (text), widget (QToolButton, insertSpecialChar)
+#. i18n: ectx: property (text), widget (QToolButton, insertPageBreak)
+#. i18n: ectx: property (text), widget (QToolButton, moreOptions)
+#. i18n: ectx: property (text), widget (QPushButton, insertionColorButton)
+#. i18n: ectx: property (text), widget (QPushButton, deletionColorButton)
+#. i18n: ectx: property (text), widget (QPushButton, formatColorButton)
+#. i18n: ectx: property (text), widget (FormattingButton, bulletListButton)
+#. i18n: ectx: property (text), widget (QToolButton, splitCells)
+#. i18n: ectx: property (text), widget (QToolButton, mergeCells)
+#. i18n: ectx: property (text), widget (FormattingButton, border)
+#: dialogs/ChangeConfigureDialog.ui:127 dialogs/ChangeConfigureDialog.ui:207
+#: dialogs/ChangeConfigureDialog.ui:266 dialogs/CharacterHighlighting.ui:40
+#: dialogs/CharacterHighlighting.ui:84 dialogs/FontDecorations.ui:36
+#: dialogs/FontDecorations.ui:62 dialogs/FontDecorations.ui:109
+#: dialogs/FontDecorations.ui:122 dialogs/FontDecorations.ui:135
+#: dialogs/FontDecorations.ui:148 dialogs/FontDecorations.ui:161
+#: dialogs/FontDecorations.ui:174 dialogs/FontDecorations.ui:187
+#: dialogs/FontDecorations.ui:200 dialogs/ParagraphBulletsNumbers.ui:221
+#: dialogs/ParagraphDecorations.ui:55 dialogs/SimpleCharacterWidget.ui:167
+#: dialogs/SimpleInsertWidget.ui:40 dialogs/SimpleInsertWidget.ui:72
+#: dialogs/SimpleInsertWidget.ui:91 dialogs/SimpleInsertWidget.ui:107
+#: dialogs/SimpleParagraphWidget.ui:65 dialogs/SimpleParagraphWidget.ui:189
+#: dialogs/SimpleSpellCheckingWidget.ui:23 dialogs/SimpleTableWidget.ui:128
+#: dialogs/SimpleTableWidget.ui:144 dialogs/SimpleTableWidget.ui:176
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (html), widget (QTextEdit, previewTextEdit)
+#: dialogs/ChangeConfigureDialog.ui:158
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+"style=\" font-family:'MS Shell Dlg 2'; font-size:11pt; font-weight:600; text-"
+"decoration: underline;\">Preview</span></p>\n"
+"<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px; font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:600;"
+"\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'MS Shell Dlg 2'; font-weight:600;\">Inserted Text</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text before the "
+"inserted text. This is a line of inserted text. This is a line after the "
+"inserted text.</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'MS Shell Dlg 2';\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'MS Shell Dlg 2'; font-weight:600;\">Deleted Text</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text before the "
+"deleted text. This is a line of deleted text. This is a line after the "
+"deleted text.</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'MS Shell Dlg 2';\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'MS Shell Dlg 2'; font-weight:600;\">Formatted Text</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text before the "
+"format-change text. This is a line of text whose format has been changed. "
+"This is a line of text after the format-change text.</span></p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, deletionGroupBox)
+#: dialogs/ChangeConfigureDialog.ui:172
+msgid "Deletions"
+msgstr "删除"
+
+#. i18n: ectx: property (title), widget (QGroupBox, formatGroupBox)
+#: dialogs/ChangeConfigureDialog.ui:231
+msgid "Format Changes"
+msgstr "格式更改"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ChangeTrackingOptions)
+#: dialogs/ChangeTrackingOptionsWidget.ui:14
+msgid "Change Tracking Options"
+msgstr "更改追踪选项"
+
+#. i18n: ectx: property (text), widget (QPushButton, configureChangeTrackingButton)
+#: dialogs/ChangeTrackingOptionsWidget.ui:142
+msgid "Configure Settings"
+msgstr "配置设置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, recordChangesCheckBox)
+#: dialogs/ChangeTrackingOptionsWidget.ui:175
+msgid "Record Changes"
+msgstr "记录修订"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showChangesCheckBox)
+#: dialogs/ChangeTrackingOptionsWidget.ui:182
+msgid "Show Changes"
+msgstr "显示更改"
+
+#: dialogs/CharacterGeneral.cpp:72 dialogs/FontDia.cpp:83
+#: dialogs/FormattingPreview.cpp:51
+msgid "Font"
+msgstr "字体"
+
+#. i18n: ectx: attribute (title), widget (QWidget, generalTab)
+#: dialogs/CharacterGeneral.ui:27
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/CharacterGeneral.ui:33
+msgctxt "Name of the style"
+msgid "Name:"
+msgstr "名称："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/CharacterGeneral.ui:46
+msgid "Next style:"
+msgstr "下一个样式："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/CharacterGeneral.ui:62
+msgid "Parent style:"
+msgstr "父样式："
+
+#. i18n: ectx: property (text), widget (QCheckBox, inToc)
+#: dialogs/CharacterGeneral.ui:78
+msgid "Include in table of contents"
+msgstr "在目录中包含"
+
+#: dialogs/CharacterHighlighting.cpp:281 dialogs/CharacterHighlighting.cpp:292
+msgid "Normal"
+msgstr "普通"
+
+#: dialogs/CharacterHighlighting.cpp:282
+msgid "Small Caps"
+msgstr "小型大写字母"
+
+#: dialogs/CharacterHighlighting.cpp:283
+msgid "Uppercase"
+msgstr "大写"
+
+#: dialogs/CharacterHighlighting.cpp:284
+msgid "Lowercase"
+msgstr "小写"
+
+#: dialogs/CharacterHighlighting.cpp:285
+msgid "Capitalize"
+msgstr "大写"
+
+#: dialogs/CharacterHighlighting.cpp:293 TextTool.cpp:282
+msgid "Superscript"
+msgstr "上标"
+
+#: dialogs/CharacterHighlighting.cpp:294 TextTool.cpp:288
+msgid "Subscript"
+msgstr "下标"
+
+#. i18n: ectx: property (text), widget (QLabel, textColorLabel)
+#: dialogs/CharacterHighlighting.ui:27 dialogs/FontDecorations.ui:49
+msgid "Text color:"
+msgstr "文本颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, backgroundColorLabel)
+#: dialogs/CharacterHighlighting.ui:71 dialogs/FontDecorations.ui:69
+msgid "Background color:"
+msgstr "背景颜色："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/CharacterHighlighting.ui:110
+msgid "Underlining:"
+msgstr "下划线："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/CharacterHighlighting.ui:141
+msgid "Strikethrough:"
+msgstr "删除线："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/CharacterHighlighting.ui:172
+msgid "Capitalization:"
+msgstr "大写："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/CharacterHighlighting.ui:185
+msgid "Position:"
+msgstr "位置："
+
+#: dialogs/CitationInsertionDialog.cpp:38
+msgid "Select"
+msgstr "选择"
+
+#: dialogs/CitationInsertionDialog.cpp:53 dialogs/StyleManager.cpp:439
+msgid "Warning"
+msgstr "警告"
+
+#: dialogs/CitationInsertionDialog.cpp:53
+msgid ""
+"The document already contains the bibliography entry with different data.\n"
+"Do you want to adjust existing entries?"
+msgstr ""
+
+#: dialogs/CitationInsertionDialog.cpp:68
+#: dialogs/CitationInsertionDialog.cpp:86
+#, kde-format
+msgid "Short name%1"
+msgstr "短名称%1"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, CitationInsertionDialog)
+#: dialogs/CitationInsertionDialog.ui:20
+msgid "Insert Bibliography entry"
+msgstr "插入参考文献项"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: dialogs/CitationInsertionDialog.ui:32
+msgid "Insert Bibliography Entry Details"
+msgstr "插入参考文献项细节"
+
+#. i18n: ectx: property (text), widget (QLabel, shortnameLabel)
+#: dialogs/CitationInsertionDialog.ui:38
+msgid "Short Name:"
+msgstr "短名称："
+
+#. i18n: ectx: property (text), widget (QLabel, sourcetypeLabel)
+#: dialogs/CitationInsertionDialog.ui:52
+msgid "Source:"
+msgstr "来源："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:60
+#: dialogs/InsertBibliographyDialog.ui:61
+msgid "Article"
+msgstr "文章"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:65
+#: dialogs/InsertBibliographyDialog.ui:66
+msgid "Book"
+msgstr "书籍"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:70
+#: dialogs/InsertBibliographyDialog.ui:71
+msgid "Booklet"
+msgstr "小册子"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:75
+#: dialogs/InsertBibliographyDialog.ui:76
+msgid "Conference"
+msgstr "会议"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:80
+#: dialogs/InsertBibliographyDialog.ui:81
+msgid "Email"
+msgstr "电子邮件"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:85
+msgid "Inbook"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:90
+#, fuzzy
+#| msgid "Insertion"
+msgid "Incollection"
+msgstr "插入"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:95
+msgid "Inproceedings"
+msgstr "会议"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:100
+#: dialogs/InsertBibliographyDialog.ui:101
+msgid "Journal"
+msgstr "期刊"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:105
+#: dialogs/InsertBibliographyDialog.ui:106
+msgid "Manual"
+msgstr "手册"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:110
+#: dialogs/InsertBibliographyDialog.ui:111
+msgid "Masters thesis"
+msgstr "硕士论文"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:115
+#: dialogs/InsertBibliographyDialog.ui:116
+msgid "Misc"
+msgstr "杂项"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:120
+#: dialogs/InsertBibliographyDialog.ui:121
+msgid "PhD thesis"
+msgstr "博士论文"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:125
+#: dialogs/InsertBibliographyDialog.ui:126
+msgid "Proceedings"
+msgstr "会议论文"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:130
+msgid "Tech Report"
+msgstr "技术报告"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:135
+#: dialogs/InsertBibliographyDialog.ui:136
+msgid "Unpublished"
+msgstr "未公开"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:140
+#: dialogs/InsertBibliographyDialog.ui:141
+msgid "WWW"
+msgstr "WWW"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:145
+msgid "custom 1"
+msgstr "自定义 1"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:150
+msgid "custom 2"
+msgstr "自定义 2"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:155
+msgid "custom 3"
+msgstr "自定义 3"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:160
+msgid "custom 4"
+msgstr "自定义 4"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:165
+msgid "custom 5"
+msgstr "自定义 5"
+
+#. i18n: ectx: property (text), widget (QLabel, authorLabel)
+#: dialogs/CitationInsertionDialog.ui:173
+msgid "Author:"
+msgstr "作者："
+
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#: dialogs/CitationInsertionDialog.ui:183
+#: dialogs/InsertBibliographyDialog.ui:32
+msgid "Title:"
+msgstr "标题："
+
+#. i18n: ectx: property (text), widget (QLabel, yearLabel)
+#: dialogs/CitationInsertionDialog.ui:193
+msgid "Year:"
+msgstr "年份："
+
+#. i18n: ectx: property (text), widget (QLabel, publisherLabel)
+#: dialogs/CitationInsertionDialog.ui:203
+msgid "Publisher:"
+msgstr "出版社："
+
+#. i18n: ectx: property (text), widget (QLabel, addressLabel)
+#: dialogs/CitationInsertionDialog.ui:213
+msgid "Address:"
+msgstr "地址："
+
+#. i18n: ectx: property (text), widget (QLabel, isbnLabel)
+#: dialogs/CitationInsertionDialog.ui:223
+msgid "ISBN:"
+msgstr "ISBN："
+
+#. i18n: ectx: property (text), widget (QLabel, chapterLabel)
+#: dialogs/CitationInsertionDialog.ui:233
+msgid "Chapter:"
+msgstr "章节："
+
+#. i18n: ectx: property (text), widget (QLabel, issnLabel)
+#: dialogs/CitationInsertionDialog.ui:243
+msgid "ISSN:"
+msgstr "ISSN："
+
+#. i18n: ectx: property (text), widget (QLabel, editorLabel)
+#: dialogs/CitationInsertionDialog.ui:253
+msgid "Editor:"
+msgstr "编辑："
+
+#. i18n: ectx: property (text), widget (QLabel, pagesLabel)
+#: dialogs/CitationInsertionDialog.ui:263
+msgid "Page(s):"
+msgstr "页数："
+
+#. i18n: ectx: property (text), widget (QLabel, booktitleLabel)
+#: dialogs/CitationInsertionDialog.ui:273
+msgid "Book title:"
+msgstr "书标题："
+
+#. i18n: ectx: property (text), widget (QLabel, editionLabel)
+#: dialogs/CitationInsertionDialog.ui:283
+msgid "Edition:"
+msgstr "版本："
+
+#. i18n: ectx: property (text), widget (QLabel, publicationLabel)
+#: dialogs/CitationInsertionDialog.ui:293
+msgid "Publication:"
+msgstr "出版："
+
+#. i18n: ectx: property (text), widget (QLabel, volumeLabel)
+#: dialogs/CitationInsertionDialog.ui:303
+msgid "Volume:"
+msgstr "卷号："
+
+#. i18n: ectx: property (text), widget (QLabel, institutionLabel)
+#: dialogs/CitationInsertionDialog.ui:313
+msgid "Institution:"
+msgstr "机构："
+
+#. i18n: ectx: property (text), widget (QLabel, organisationLabel)
+#: dialogs/CitationInsertionDialog.ui:323
+msgid "Organisation:"
+msgstr "组织："
+
+#. i18n: ectx: property (text), widget (QLabel, reporttypeLabel)
+#: dialogs/CitationInsertionDialog.ui:333
+msgid "Type of Report:"
+msgstr "报告类型："
+
+#. i18n: ectx: property (text), widget (QLabel, schoolLabel)
+#: dialogs/CitationInsertionDialog.ui:343
+msgid "University:"
+msgstr "大学："
+
+#. i18n: ectx: property (text), widget (QLabel, journalLabel)
+#: dialogs/CitationInsertionDialog.ui:353
+msgid "Journal:"
+msgstr "期刊："
+
+#. i18n: ectx: property (text), widget (QLabel, monthLabel)
+#: dialogs/CitationInsertionDialog.ui:363
+msgid "Month:"
+msgstr "月份："
+
+#. i18n: ectx: property (text), widget (QLabel, seriesLabel)
+#: dialogs/CitationInsertionDialog.ui:373
+msgid "Series:"
+msgstr "系列："
+
+#. i18n: ectx: property (text), widget (QLabel, numberLabel)
+#: dialogs/CitationInsertionDialog.ui:383
+msgid "Number:"
+msgstr "编号："
+
+#. i18n: ectx: property (text), widget (QLabel, noteLabel)
+#: dialogs/CitationInsertionDialog.ui:393
+msgid "Note:"
+msgstr "备注："
+
+#. i18n: ectx: property (text), widget (QLabel, annotationLabel)
+#: dialogs/CitationInsertionDialog.ui:403
+msgid "Annotation:"
+msgstr "注释："
+
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#: dialogs/CitationInsertionDialog.ui:413
+msgid "URL:"
+msgstr "URL："
+
+#. i18n: ectx: property (text), widget (QLabel, ud1Label)
+#: dialogs/CitationInsertionDialog.ui:423
+msgid "User-defined 1:"
+msgstr "用户自定义 1："
+
+#. i18n: ectx: property (text), widget (QLabel, ud3Label)
+#: dialogs/CitationInsertionDialog.ui:433
+msgid "User-defined 3:"
+msgstr "用户自定义 3："
+
+#. i18n: ectx: property (text), widget (QLabel, ud2Label)
+#: dialogs/CitationInsertionDialog.ui:440
+msgid "User-defined 2:"
+msgstr "用户自定义 2："
+
+#. i18n: ectx: property (text), widget (QLabel, ud4Label)
+#: dialogs/CitationInsertionDialog.ui:453
+msgid "User-defined 4:"
+msgstr "用户自定义 4："
+
+#. i18n: ectx: property (text), widget (QLabel, ud5Label)
+#: dialogs/CitationInsertionDialog.ui:463
+msgid "User-defined 5:"
+msgstr "用户自定义 5："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/CitationInsertionDialog.ui:485
+msgid "OR"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/CitationInsertionDialog.ui:509
+msgid "From the document:"
+msgstr "来自文档："
+
+#: dialogs/DockerStylesComboModel.cpp:72
+#, fuzzy
+#| msgid "Use styles"
+msgid "Used Styles"
+msgstr "使用样式"
+
+#: dialogs/DockerStylesComboModel.cpp:75
+#, fuzzy
+#| msgid "Use styles"
+msgid "Unused Styles"
+msgstr "使用样式"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: dialogs/FontDecorations.ui:17
+msgid "Colors"
+msgstr "颜色"
+
+#. i18n: ectx: property (title), widget (QGroupBox, shadowGroupBox)
+#: dialogs/FontDecorations.ui:95
+msgid "Text Shadow"
+msgstr "文本阴影"
+
+#. i18n: ectx: property (text), widget (QLabel, shadowColorLabel)
+#: dialogs/FontDecorations.ui:244
+msgid "Color:"
+msgstr "颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, shadowDistanceLabel)
+#: dialogs/FontDecorations.ui:257
+msgid "Distance:"
+msgstr "位距："
+
+#. i18n: ectx: property (title), widget (QGroupBox, positionGroupBox)
+#: dialogs/FontDecorations.ui:289
+msgid "Position"
+msgstr "位置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, hyphenate)
+#: dialogs/FontDecorations.ui:295
+msgid "Automatic hyphenation"
+msgstr "自动断字"
+
+#: dialogs/FontDia.cpp:49
+msgid "Select Font"
+msgstr "选择字体"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, InsertBibliographyDialog)
+#. i18n: ectx: property (text), widget (FormattingButton, addBibliography)
+#: dialogs/InsertBibliographyDialog.ui:17
+#: dialogs/SimpleCitationBibliographyWidget.ui:36 ReferencesTool.cpp:171
+msgid "Insert Bibliography"
+msgstr "插入参考文献"
+
+#. i18n: ectx: property (title), widget (QGroupBox, titlegroupBox)
+#: dialogs/InsertBibliographyDialog.ui:26
+msgid "Bibliography title"
+msgstr "参考文献标题："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: dialogs/InsertBibliographyDialog.ui:45
+msgid "Bibliography entries"
+msgstr "参考文献项"
+
+#. i18n: ectx: property (text), widget (QLabel, bibTypesLabel)
+#: dialogs/InsertBibliographyDialog.ui:53
+msgid "Bibliography type:"
+msgstr "参考文献类型："
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:86
+msgid "In book"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:91
+#, fuzzy
+#| msgid "Insertion"
+msgid "In collection"
+msgstr "插入"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:96
+msgid "In proceedings"
+msgstr "会议"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:131
+msgid "Tech report"
+msgstr "技术报告"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:146
+msgid "custom1"
+msgstr "自定义1"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:151
+msgid "custom2"
+msgstr "自定义2"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:156
+msgid "custom3"
+msgstr "自定义3"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:161
+msgid "custom4"
+msgstr "自定义4"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:166
+msgid "custom5"
+msgstr "自定义5"
+
+#. i18n: ectx: property (text), widget (QLabel, availableFieldsLabel)
+#: dialogs/InsertBibliographyDialog.ui:178
+msgid "Available fields "
+msgstr "可用字段"
+
+#. i18n: ectx: property (text), widget (QPushButton, add)
+#: dialogs/InsertBibliographyDialog.ui:192
+msgid "Add >>"
+msgstr "添加 >>"
+
+#. i18n: ectx: property (text), widget (QPushButton, span)
+#: dialogs/InsertBibliographyDialog.ui:199
+msgid "Span"
+msgstr "范围"
+
+#. i18n: ectx: property (text), widget (QPushButton, remove)
+#: dialogs/InsertBibliographyDialog.ui:206
+msgid "<<Remove"
+msgstr "<<删除"
+
+#. i18n: ectx: property (text), widget (QLabel, addedFieldsLabel)
+#: dialogs/InsertBibliographyDialog.ui:217
+msgid "Fields added"
+msgstr "添加的字段"
+
+#: dialogs/InsertCharacter.cpp:29
+msgid "Special Characters"
+msgstr "特殊字符"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonInsert)
+#: dialogs/InsertCharacter.cpp:39 dialogs/ManageBookmark.ui:34
+#: ReferencesTool.cpp:125 TextTool.cpp:2170
+msgid "Insert"
+msgstr "插入"
+
+#: dialogs/InsertCharacter.cpp:41
+msgctxt "Close dialog"
+msgid "Close"
+msgstr "关闭"
+
+#. i18n: ectx: property (text), widget (QLabel, filterLabel)
+#: dialogs/LanguageTab.ui:18
+msgid "Quick search:"
+msgstr "快速搜索："
+
+#: dialogs/LinkInsertionDialog.cpp:82 dialogs/LinkInsertionDialog.cpp:164
+#: dialogs/LinkInsertionDialog.cpp:198 dialogs/LinkInsertionDialog.cpp:291
+msgid "The URL is invalid"
+msgstr ""
+
+#: dialogs/LinkInsertionDialog.cpp:99
+msgid "Bookmark does not exist"
+msgstr ""
+
+#: dialogs/LinkInsertionDialog.cpp:202
+#, no-c-format
+msgid "Fetching the title: 0% complete"
+msgstr ""
+
+#: dialogs/LinkInsertionDialog.cpp:225
+msgid "Fetch timed out"
+msgstr ""
+
+#: dialogs/LinkInsertionDialog.cpp:280
+#, no-c-format, kde-format
+msgid "Fetching the title: %1% complete"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, LinkInsertionDialog)
+#: dialogs/LinkInsertionDialog.ui:14
+msgid "Link"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, weblinkInsertionTab)
+#: dialogs/LinkInsertionDialog.ui:30
+#, fuzzy
+#| msgid "Open Link?"
+msgid "Web Link"
+msgstr "打开链接吗？"
+
+#. i18n: ectx: attribute (toolTip), widget (QWidget, weblinkInsertionTab)
+#: dialogs/LinkInsertionDialog.ui:34
+msgid ""
+"Insert links to web documents. You can provide both URL and a label for the "
+"link,\n"
+" or just enter the URL and hit \"Fetch the title from URL\""
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
+#: dialogs/LinkInsertionDialog.ui:42
+msgid "The address of your document (Uniform Resource Locator)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/LinkInsertionDialog.ui:45
+#, fuzzy
+#| msgid "URL:"
+msgid " URL:"
+msgstr "URL："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, fetchTitleButton)
+#: dialogs/LinkInsertionDialog.ui:58
+msgid ""
+"Hit this button to get the title from the URL. Redirections are also "
+"handled. "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, fetchTitleButton)
+#: dialogs/LinkInsertionDialog.ui:61
+msgid "Fetch Title From URL"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_6)
+#: dialogs/LinkInsertionDialog.ui:81 dialogs/LinkInsertionDialog.ui:165
+msgid "The text that will be displayed for your link"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: dialogs/LinkInsertionDialog.ui:84 dialogs/LinkInsertionDialog.ui:168
+#, fuzzy
+#| msgid "Text"
+msgid " Text:"
+msgstr "文本"
+
+#. i18n: ectx: attribute (title), widget (QWidget, bookmarkLinkInsertionTab)
+#: dialogs/LinkInsertionDialog.ui:113
+msgid "Link To Bookmark"
+msgstr ""
+
+#. i18n: ectx: attribute (toolTip), widget (QWidget, bookmarkLinkInsertionTab)
+#: dialogs/LinkInsertionDialog.ui:117
+msgid ""
+"Insert links to Bookmarks. To create bookmarks,\n"
+"click \"Bookmarks\" in the Links and Bookmarks section"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_5)
+#: dialogs/LinkInsertionDialog.ui:132
+msgid "The name of the bookmark to where the link has to point to"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: dialogs/LinkInsertionDialog.ui:135
+#, fuzzy
+#| msgctxt "Name of the style"
+#| msgid "Name:"
+msgid " Name:"
+msgstr "名称："
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonRename)
+#: dialogs/ManageBookmark.ui:20
+msgid "&Rename"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonDelete)
+#: dialogs/ManageBookmark.ui:27
+#, fuzzy
+#| msgid "Delete"
+msgid "&Delete"
+msgstr "删除"
+
+#: dialogs/ManageBookmarkDialog.cpp:81
+msgid "Rename Bookmark"
+msgstr ""
+
+#: dialogs/ManageBookmarkDialog.cpp:82
+msgid "Please provide a new name for the bookmark"
+msgstr ""
+
+#: dialogs/ManageBookmarkDialog.cpp:89 dialogs/ManageBookmarkDialog.cpp:129
+#, kde-format
+msgid "A bookmark with the name \"%1\" already exists."
+msgstr ""
+
+#: dialogs/ManageBookmarkDialog.cpp:121
+#, fuzzy
+#| msgid "Insert Image"
+msgid "Insert Bookmark"
+msgstr "插入图片"
+
+#: dialogs/ManageBookmarkDialog.cpp:122
+msgid "Please provide a name for the bookmark"
+msgstr ""
+
+#: dialogs/ManageBookmarkDialog.cpp:145 ReferencesTool.cpp:201
+msgid "Manage Bookmarks"
+msgstr ""
+
+#: dialogs/NotesConfigurationDialog.cpp:35
+msgid "Footnote Settings"
+msgstr "脚注设置"
+
+#: dialogs/NotesConfigurationDialog.cpp:38
+msgid "Endnote Settings"
+msgstr "尾注设置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: dialogs/NotesConfigurationDialog.ui:54
+msgid "Automatic Numbering:"
+msgstr "自动编号："
+
+#. i18n: ectx: property (text), widget (QLabel, prefix)
+#: dialogs/NotesConfigurationDialog.ui:75
+msgid " Prefix:"
+msgstr " 前缀："
+
+#. i18n: ectx: property (text), widget (QLabel, startAt)
+#: dialogs/NotesConfigurationDialog.ui:85
+msgid " Start at:"
+msgstr " 开始于："
+
+#. i18n: ectx: property (text), widget (QLabel, numStyle)
+#: dialogs/NotesConfigurationDialog.ui:95
+msgid " Format:"
+msgstr " 格式："
+
+#. i18n: ectx: property (text), widget (QLabel, suffix)
+#: dialogs/NotesConfigurationDialog.ui:111
+msgid " Suffix:"
+msgstr " 后缀："
+
+#. i18n: ectx: property (text), widget (QLabel, beginAt)
+#: dialogs/NotesConfigurationDialog.ui:127
+msgid "Starts over at:"
+msgstr "重新开始于："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, beginAtCombo)
+#: dialogs/NotesConfigurationDialog.ui:144
+msgid "Page"
+msgstr "页"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, beginAtCombo)
+#: dialogs/NotesConfigurationDialog.ui:149
+msgid "Chapter"
+msgstr "章节"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, beginAtCombo)
+#: dialogs/NotesConfigurationDialog.ui:154
+msgid "Document"
+msgstr "文档"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#: dialogs/NotesConfigurationDialog.ui:233
+msgid "1, 2, 3, ..."
+msgstr "1, 2, 3, ..."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#: dialogs/NotesConfigurationDialog.ui:238
+msgid "a, b, c, ..., aa, ab, ..., ba, bb, ..."
+msgstr "a, b, c, ..., aa, ab, ..., ba, bb, ..."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#: dialogs/NotesConfigurationDialog.ui:243
+msgid "A, B, C, ..., AA, AB, ..., BA, BB, ..."
+msgstr "A, B, C, ..., AA, AB, ..., BA, BB, ..."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#: dialogs/NotesConfigurationDialog.ui:248
+msgid "a, b, c, ..., aa, bb, ..., aaa, bbb, ..."
+msgstr "a, b, c, ..., aa, bb, ..., aaa, bbb, ..."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#: dialogs/NotesConfigurationDialog.ui:253
+msgid "A, B, C, ..., AA, BB, ..., AAA, BBB, ..."
+msgstr "A, B, C, ..., AA, BB, ..., AAA, BBB, ..."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#: dialogs/NotesConfigurationDialog.ui:258
+msgid "i, ii, iii, ..."
+msgstr "i, ii, iii, ..."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#: dialogs/NotesConfigurationDialog.ui:263
+msgid "I,II,III, ..."
+msgstr "I,II,III, ..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, continuationBox)
+#: dialogs/NotesConfigurationDialog.ui:290
+msgid "Continuation Notice:"
+msgstr "继续提示："
+
+#. i18n: ectx: property (text), widget (QLabel, cont2)
+#: dialogs/NotesConfigurationDialog.ui:305
+msgid "Text saying it is a continuation:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, cont1)
+#: dialogs/NotesConfigurationDialog.ui:315
+msgid " Text saying it will continue:"
+msgstr ""
+
+#: dialogs/ParagraphBulletsNumbers.cpp:47
+msgid "Custom Bullet"
+msgstr "自定义项目符号"
+
+#: dialogs/ParagraphBulletsNumbers.cpp:48
+msgid "No Bullet"
+msgstr "无符号"
+
+#: dialogs/ParagraphBulletsNumbers.cpp:52
+msgctxt "Automatic horizontal alignment"
+msgid "Auto"
+msgstr "自动"
+
+#: dialogs/ParagraphBulletsNumbers.cpp:53
+msgctxt "Text alignment"
+msgid "Left"
+msgstr "左对齐"
+
+#: dialogs/ParagraphBulletsNumbers.cpp:54
+msgctxt "Text alignment"
+msgid "Right"
+msgstr "右对齐"
+
+#: dialogs/ParagraphBulletsNumbers.cpp:55
+msgctxt "Text alignment"
+msgid "Centered"
+msgstr "居中对齐"
+
+#: dialogs/ParagraphBulletsNumbers.cpp:57
+msgctxt "Tab follows the bullet or number"
+msgid "Tab Stop"
+msgstr "制表位"
+
+#: dialogs/ParagraphBulletsNumbers.cpp:58
+msgctxt "Space"
+msgid "Space"
+msgstr "空格"
+
+#: dialogs/ParagraphBulletsNumbers.cpp:59
+msgctxt "None"
+msgid "Nothing"
+msgstr "无"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/ParagraphBulletsNumbers.ui:31
+msgid "Start at:"
+msgstr "开始于："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: dialogs/ParagraphBulletsNumbers.ui:57
+msgid "Alignment:"
+msgstr "对齐："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/ParagraphBulletsNumbers.ui:105
+msgid "Depth:"
+msgstr "深度："
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: dialogs/ParagraphBulletsNumbers.ui:128
+msgid "Display Levels:"
+msgstr "显示级别："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: dialogs/ParagraphBulletsNumbers.ui:148
+#, fuzzy
+#| msgid "Bullets/Numbers"
+msgid "Bullet/Number followed by"
+msgstr "项目符号/编号"
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, doubleSpinBox)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, doubleSpinBox_2)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, doubleSpinBox_3)
+#: dialogs/ParagraphBulletsNumbers.ui:158
+#: dialogs/ParagraphBulletsNumbers.ui:175
+#: dialogs/ParagraphBulletsNumbers.ui:192
+msgid " cm"
+msgstr " 厘米"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: dialogs/ParagraphBulletsNumbers.ui:165
+#, fuzzy
+#| msgid "Paste"
+msgid "at"
+msgstr "粘贴"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: dialogs/ParagraphBulletsNumbers.ui:182
+#, fuzzy
+#| msgid "Alignment"
+msgid "Aligned at"
+msgstr "对齐"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: dialogs/ParagraphBulletsNumbers.ui:199
+#, fuzzy
+#| msgid "Indent"
+msgid "Indented at"
+msgstr "缩进"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/ParagraphBulletsNumbers.ui:211
+msgid "Custom character:"
+msgstr "自定义字符："
+
+#. i18n: ectx: property (text), widget (QCheckBox, restartNumbering)
+#: dialogs/ParagraphBulletsNumbers.ui:241
+msgid "Restart numbering at this paragraph"
+msgstr "在此段落重新开始编号"
+
+#. i18n: ectx: property (text), widget (QCheckBox, letterSynchronization)
+#: dialogs/ParagraphBulletsNumbers.ui:248
+msgid "Letter Synchronization"
+msgstr "字母同步"
+
+#. i18n: ectx: property (text), widget (QLabel, widthLabel)
+#: dialogs/ParagraphBulletsNumbers.ui:257
+msgid "Width"
+msgstr "宽度"
+
+#. i18n: ectx: property (text), widget (QLabel, insertImageLabel)
+#: dialogs/ParagraphBulletsNumbers.ui:264
+msgid "Insert Image"
+msgstr "插入图片"
+
+#. i18n: ectx: property (text), widget (QLabel, heightLabel)
+#: dialogs/ParagraphBulletsNumbers.ui:274
+msgid "Height"
+msgstr "高度"
+
+#. i18n: ectx: property (text), widget (QPushButton, insertImage)
+#: dialogs/ParagraphBulletsNumbers.ui:284
+msgid "Browse..."
+msgstr "浏览..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: dialogs/ParagraphDecorations.ui:31 TextTool.cpp:390
+msgid "Background"
+msgstr "背景"
+
+#. i18n: ectx: property (text), widget (QLabel, backgroundColorLabel)
+#: dialogs/ParagraphDecorations.ui:65
+msgid "Background color"
+msgstr "背景颜色"
+
+#: dialogs/ParagraphDropCaps.cpp:33
+msgid "Whole Word"
+msgstr "整个单词"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/ParagraphDropCaps.ui:32
+msgid "Drop caps:"
+msgstr "首字下沉："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/ParagraphDropCaps.ui:84
+msgid "Distance to paragraph:"
+msgstr "段落间距："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/ParagraphDropCaps.ui:94
+msgid "Number of characters:"
+msgstr "字符数："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/ParagraphDropCaps.ui:104
+msgid "Number of lines it covers:"
+msgstr "行数："
+
+#: dialogs/ParagraphGeneral.cpp:53
+msgid "Indent/Spacing"
+msgstr "缩进/间距"
+
+#: dialogs/ParagraphGeneral.cpp:58
+msgid "General Layout"
+msgstr "常规布局"
+
+#: dialogs/ParagraphGeneral.cpp:63
+msgid "Bullets/Numbers"
+msgstr "项目符号/编号"
+
+#: dialogs/ParagraphGeneral.cpp:68
+msgid "Decorations"
+msgstr "装饰"
+
+#: dialogs/ParagraphGeneral.cpp:73
+msgid "Drop Caps"
+msgstr "首字下沉"
+
+#: dialogs/ParagraphIndentSpacing.cpp:38
+msgctxt "Line spacing value"
+msgid "Single"
+msgstr "1 倍间距"
+
+#: dialogs/ParagraphIndentSpacing.cpp:39
+msgctxt "Line spacing value"
+msgid "1.5 Lines"
+msgstr "1.5 倍间距"
+
+#: dialogs/ParagraphIndentSpacing.cpp:40
+msgctxt "Line spacing value"
+msgid "Double"
+msgstr "2 倍间距"
+
+#: dialogs/ParagraphIndentSpacing.cpp:41
+msgctxt "Line spacing type"
+msgid "Proportional"
+msgstr "比例"
+
+#: dialogs/ParagraphIndentSpacing.cpp:42
+msgctxt "Line spacing type"
+msgid "Additional"
+msgstr "附加"
+
+#: dialogs/ParagraphIndentSpacing.cpp:43
+msgctxt "Line spacing type"
+msgid "Fixed"
+msgstr "等宽"
+
+#: dialogs/ParagraphIndentSpacing.cpp:44
+msgctxt "Line spacing type"
+msgid "At least"
+msgstr "至少"
+
+#. i18n: ectx: property (whatsThis), widget (QWidget, ParagraphIndentSpacing)
+#. i18n: ectx: property (whatsThis), widget (QGroupBox)
+#: dialogs/ParagraphIndentSpacing.ui:14 dialogs/ParagraphIndentSpacing.ui:97
+msgid "<p><ul><li><b>Single</b>: The normal linespacing</li></ul></p> "
+msgstr "<p><ul><li><b>单行</b>：正常行间距</li></ul></p> "
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: dialogs/ParagraphIndentSpacing.ui:20
+msgid "Indent"
+msgstr "缩进"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:26
+msgid "Left:"
+msgstr "左："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:55
+msgid "Right:"
+msgstr "右："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:71
+msgid "First Line:"
+msgstr "首行："
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoTextIndent)
+#: dialogs/ParagraphIndentSpacing.ui:87
+msgid "Auto-infer from text size"
+msgstr "自动依文本大小推断"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: dialogs/ParagraphIndentSpacing.ui:100
+msgid "Line Spacing"
+msgstr "行间距"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, proportional)
+#: dialogs/ParagraphIndentSpacing.ui:134
+#, no-c-format
+msgid " %"
+msgstr " %"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:180
+msgid "Use Font Metrics:"
+msgstr "使用字体矩阵："
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: dialogs/ParagraphIndentSpacing.ui:202
+msgid "Paragraph Space"
+msgstr "段落间距"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:208
+msgid "Before:"
+msgstr "之前："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:221
+msgid "After:"
+msgstr "之后："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: dialogs/ParagraphLayout.ui:17
+msgid "Alignment"
+msgstr "对齐"
+
+#. i18n: ectx: property (text), widget (QRadioButton, left)
+#: dialogs/ParagraphLayout.ui:23
+msgid "Left"
+msgstr "左对齐"
+
+#. i18n: ectx: property (text), widget (QRadioButton, center)
+#: dialogs/ParagraphLayout.ui:30
+msgid "Center"
+msgstr "居中对齐"
+
+#. i18n: ectx: property (text), widget (QRadioButton, right)
+#: dialogs/ParagraphLayout.ui:37
+msgid "Right"
+msgstr "右对齐"
+
+#. i18n: ectx: property (text), widget (QRadioButton, justify)
+#: dialogs/ParagraphLayout.ui:44
+msgid "Justify"
+msgstr "两端对齐"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: dialogs/ParagraphLayout.ui:54
+msgid "Behavior at End of Frame/Page"
+msgstr "边框/页面末段行为"
+
+#. i18n: ectx: property (text), widget (QCheckBox, keepTogether)
+#: dialogs/ParagraphLayout.ui:60
+msgid "Keep lines together"
+msgstr "保持行尾一致"
+
+#. i18n: ectx: property (text), widget (QCheckBox, breakBefore)
+#: dialogs/ParagraphLayout.ui:67
+msgid "Insert break before paragraph"
+msgstr "在段落前插入分隔符"
+
+#. i18n: ectx: property (text), widget (QCheckBox, breakAfter)
+#: dialogs/ParagraphLayout.ui:74
+msgid "Insert break after paragraph"
+msgstr "在段落后插入分隔符"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/ParagraphLayout.ui:83
+msgid "Leave at least this many lines (orphans):"
+msgstr ""
+
+#: dialogs/ParagraphSettingsDialog.cpp:40
+msgid "Paragraph Format"
+msgstr "段落格式"
+
+#: dialogs/QuickTableButton.cpp:160
+msgid "Insert a table"
+msgstr "插入表格"
+
+#. i18n: ectx: property (text), widget (QToolButton, insertAnnotation)
+#: dialogs/SimpleAnnotationWidget.ui:23
+#, fuzzy
+#| msgid "Insert a table"
+msgid "Insert Note"
+msgstr "插入表格"
+
+#. i18n: ectx: property (text), widget (QToolButton, removeAnnotation)
+#: dialogs/SimpleAnnotationWidget.ui:33
+#, fuzzy
+#| msgid "<<Remove"
+msgid "Remove Note"
+msgstr "<<删除"
+
+#. i18n: ectx: property (text), widget (QToolButton, addCitation)
+#: dialogs/SimpleCaptionsWidget.ui:34
+msgid "Add caption"
+msgstr "附加标题"
+
+#: dialogs/SimpleCharacterWidget.cpp:66
+msgid "Change font format"
+msgstr "更改字体格式"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, addCitation)
+#: dialogs/SimpleCitationBibliographyWidget.ui:23
+msgid "Insert citation at current position"
+msgstr "在当前位置插入引用"
+
+#. i18n: ectx: property (text), widget (QToolButton, addCitation)
+#: dialogs/SimpleCitationBibliographyWidget.ui:26 ReferencesTool.cpp:166
+msgid "Insert Citation"
+msgstr "插入引用"
+
+#. i18n: ectx: property (text), widget (QToolButton, configureBibliography)
+#: dialogs/SimpleCitationBibliographyWidget.ui:55
+msgid "Configure Bibliography"
+msgstr "配置参考文献"
+
+#: dialogs/SimpleFootEndNotesWidget.cpp:40
+msgid "Inserts a footnote at the current cursor position"
+msgstr "在光标处插入脚注"
+
+#: dialogs/SimpleFootEndNotesWidget.cpp:45
+msgid "Inserts an endnote at the current cursor position"
+msgstr "在光标处插入尾注"
+
+#. i18n: ectx: property (text), widget (FormattingButton, addEndnote)
+#: dialogs/SimpleFootEndNotesWidget.ui:29
+msgid "Endnote"
+msgstr "尾注"
+
+#. i18n: ectx: property (text), widget (FormattingButton, addFootnote)
+#: dialogs/SimpleFootEndNotesWidget.ui:48
+msgid "Footnote"
+msgstr "脚注"
+
+#. i18n: ectx: property (toolTip), widget (QWidget, SimpleInsertWidget)
+#: dialogs/SimpleInsertWidget.ui:20
+msgid "Other insertions from \"References\"  below and in \"Add Shape\" docker"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, insertLink)
+#: dialogs/SimpleLinksWidget.ui:34
+msgid "Hyperlinks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (FormattingButton, invokeBookmarkHandler)
+#: dialogs/SimpleLinksWidget.ui:44 ReferencesTool.cpp:197
+#, fuzzy
+#| msgid "Book"
+msgid "Bookmarks"
+msgstr "书籍"
+
+#: dialogs/SimpleParagraphWidget.cpp:85
+msgid "Change paragraph format"
+msgstr "更改段落格式"
+
+#: dialogs/SimpleParagraphWidget.cpp:181
+msgid "Change List Level"
+msgstr "更改列表级别"
+
+#: dialogs/SimpleParagraphWidget.cpp:182
+msgid "Change the level the list is at"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (FormattingButton, addToC)
+#: dialogs/SimpleTableOfContentsWidget.ui:34
+#: dialogs/TableOfContentsTemplate.cpp:51
+msgid "Contents"
+msgstr "目录"
+
+#: dialogs/SimpleTableWidget.cpp:51
+msgid "Select a border style and paint that style onto a table"
+msgstr "选择表格的边框样式和填充样式"
+
+#: dialogs/SimpleTableWidget.cpp:61
+msgid "Set Border Color..."
+msgstr "设置边框颜色..."
+
+#: dialogs/SimpleTableWidget.cpp:184
+msgctxt "No border - has to fit in 48pixels"
+msgid "None"
+msgstr "无"
+
+#: dialogs/SimpleTableWidget.cpp:185
+msgid "No Border"
+msgstr "无边框"
+
+#: dialogs/StyleManager.cpp:52
+msgid "Create a new style inheriting the current style"
+msgstr "继承当前样式创建新样式"
+
+#: dialogs/StyleManager.cpp:355 dialogs/StyleManager.cpp:369
+msgid "New Style"
+msgstr "新建样式"
+
+#: dialogs/StyleManager.cpp:439
+#, kde-format
+msgid "Another style named '%1' already exist. Please choose another name."
+msgstr "名为“%1”的样式已经存在，请选择另一个名曾。"
+
+#. i18n: ectx: attribute (title), widget (QListView, paragraphStylesListView)
+#: dialogs/StyleManager.ui:39 TextTool.cpp:2162
+msgid "Paragraph"
+msgstr "段落"
+
+#. i18n: ectx: attribute (title), widget (QListView, characterStylesListView)
+#: dialogs/StyleManager.ui:53 TextTool.cpp:2160
+msgid "Character"
+msgstr "字符"
+
+#. i18n: ectx: property (text), widget (QPushButton, bNew)
+#: dialogs/StyleManager.ui:77
+msgid "&New"
+msgstr "新建(&N)"
+
+#. i18n: ectx: property (text), widget (QPushButton, bDelete)
+#: dialogs/StyleManager.ui:84 TextTool.cpp:2498
+msgid "Delete"
+msgstr "删除"
+
+#: dialogs/StyleManagerDialog.cpp:33
+msgid "Style Manager"
+msgstr "样式管理器"
+
+#: dialogs/StyleManagerDialog.cpp:62
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: dialogs/StyleManagerDialog.cpp:62
+msgid ""
+"You have changes that are not applied. What do you want to do with those "
+"changes?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/StyleManagerWelcome.ui:42
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">It is possible to assign a "
+"named style to text and alter the style properties to change all text with "
+"that style.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Applying a style change "
+"will reformat all text that previously got the named style assigned to it. "
+"Use the Styles docker to apply styles to text.</p></body></html>"
+msgstr ""
+
+#: dialogs/StylesComboPreview.cpp:81
+msgid "Create a new style with the current properties"
+msgstr "以当前属性创建新样式"
+
+#: dialogs/StylesComboPreview.cpp:192
+msgid "New style"
+msgstr "新建样式"
+
+#: dialogs/StylesModel.cpp:51 dialogs/StylesModel.cpp:128
+#: dialogs/StylesModel.cpp:212
+msgid "None"
+msgstr "无"
+
+#: dialogs/TableDialog.cpp:27
+msgid "Insert Table"
+msgstr "插入表"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupLogical)
+#: dialogs/TableDialog.ui:23
+msgid "Columns and rows"
+msgstr "行列"
+
+#. i18n: ectx: property (text), widget (QLabel, labelColumns)
+#: dialogs/TableDialog.ui:32
+msgid "Number of columns:"
+msgstr "列数："
+
+#. i18n: ectx: property (text), widget (QLabel, labelRows)
+#: dialogs/TableDialog.ui:55
+msgid "Number of rows:"
+msgstr "行数："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupPhysical)
+#: dialogs/TableDialog.ui:97
+msgid "Width strategy"
+msgstr "宽度策略"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioFixed)
+#: dialogs/TableDialog.ui:112
+msgid "Fixed column width:"
+msgstr "固定列宽："
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioFitContents)
+#: dialogs/TableDialog.ui:125
+msgid "Fit to contents"
+msgstr "适合内容"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioFitAvail)
+#: dialogs/TableDialog.ui:138
+msgid "Fit to available surrounding"
+msgstr "适应可用环境"
+
+#: dialogs/TableOfContentsConfigure.cpp:75
+msgid "Table of Contents - Configure"
+msgstr "目录 - 配置"
+
+#: dialogs/TableOfContentsConfigure.cpp:77
+msgid "Table Title"
+msgstr "表格标题"
+
+#: dialogs/TableOfContentsConfigure.cpp:78
+msgid "Use outline"
+msgstr "使用轮廓"
+
+#: dialogs/TableOfContentsConfigure.cpp:79
+msgid "Use styles"
+msgstr "使用样式"
+
+#: dialogs/TableOfContentsConfigure.cpp:80 ReferencesTool.cpp:179
+msgid "Configure"
+msgstr "配置"
+
+#: dialogs/TableOfContentsConfigure.cpp:81
+msgid "Index"
+msgstr "索引"
+
+#: dialogs/TableOfContentsConfigure.cpp:82
+#: dialogs/TableOfContentsStyleModel.cpp:245
+msgid "Styles"
+msgstr "样式"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: dialogs/TableOfContentsConfigure.ui:49
+msgid "Tab 1"
+msgstr "标签 1"
+
+#. i18n: ectx: property (text), widget (QLabel, labelTitle)
+#: dialogs/TableOfContentsConfigure.ui:57
+#: dialogs/TableOfContentsEntryModel.cpp:40
+msgid "Title"
+msgstr "标题"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useOutline)
+#. i18n: ectx: property (text), widget (QCheckBox, useStyles)
+#: dialogs/TableOfContentsConfigure.ui:69
+#: dialogs/TableOfContentsConfigure.ui:78
+msgid "CheckBox"
+msgstr "复选框"
+
+#. i18n: ectx: property (text), widget (QPushButton, configureStyles)
+#: dialogs/TableOfContentsConfigure.ui:85
+msgid "PushButton"
+msgstr "按钮"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: dialogs/TableOfContentsConfigure.ui:108
+msgid "Tab 2"
+msgstr "标签 2"
+
+#: dialogs/TableOfContentsEntryModel.cpp:43
+#, kde-format
+msgid "Level %1"
+msgstr "级别 %1"
+
+#: dialogs/TableOfContentsEntryModel.cpp:150
+#: dialogs/TableOfContentsStyleModel.cpp:247
+msgid "Level"
+msgstr "级别"
+
+#: dialogs/TableOfContentsEntryModel.cpp:152
+msgid "Style"
+msgstr "样式"
+
+#: dialogs/TableOfContentsStyleConfigure.cpp:39
+msgid "Table of Contents - Configure Styles"
+msgstr "目录 - 配置样式"
+
+#: dialogs/TableOfContentsStyleConfigure.cpp:43
+msgid "Styles available"
+msgstr "可用样式"
+
+#. i18n: ectx: property (text), widget (QLabel, stylesAvailableLabel)
+#: dialogs/TableOfContentsStyleConfigure.ui:20
+msgid "TextLabel"
+msgstr "文本标签"
+
+#: dialogs/TableOfContentsStyleDelegate.cpp:56
+#: dialogs/TableOfContentsStyleModel.cpp:110
+msgid "Disabled"
+msgstr "已禁用"
+
+#: dialogs/TableOfContentsTemplate.cpp:40
+msgid "Table Of Contents"
+msgstr "目录"
+
+#: ReferencesTool.cpp:127
+msgid "Insert a Table of Contents into the document."
+msgstr "在文档中插入目录。"
+
+#: ReferencesTool.cpp:129 TextTool.cpp:410
+msgid "Insert Custom..."
+msgstr "插入自定义..."
+
+#: ReferencesTool.cpp:131
+msgid "Insert a custom Table of Contents into the document."
+msgstr "在文档中插入自定义目录。"
+
+#: ReferencesTool.cpp:133
+msgid "Configure..."
+msgstr "配置..."
+
+#: ReferencesTool.cpp:135
+msgid "Configure the Table of Contents"
+msgstr "配置目录"
+
+#: ReferencesTool.cpp:138
+#, fuzzy
+#| msgid "Insert a table into the document."
+msgid "Insert footnote with auto number"
+msgstr "向文档中插入表格。"
+
+#: ReferencesTool.cpp:142
+msgid "Insert Labeled Footnote"
+msgstr "插入带标记的脚注"
+
+#: ReferencesTool.cpp:143 ReferencesTool.cpp:153
+msgid "Insert with label:"
+msgstr "带标签插入："
+
+#: ReferencesTool.cpp:148
+#, fuzzy
+#| msgid "Insert a table into the document."
+msgid "Insert endnote with auto number"
+msgstr "向文档中插入表格。"
+
+#: ReferencesTool.cpp:152
+msgid "Insert Labeled Endnote"
+msgstr "插入带标记的尾注"
+
+#: ReferencesTool.cpp:158 ReferencesTool.cpp:162
+msgid "Settings..."
+msgstr "设置..."
+
+#: ReferencesTool.cpp:168
+msgid "Insert a citation into the document."
+msgstr "在文档中插入引用。"
+
+#: ReferencesTool.cpp:173
+msgid "Insert a bibliography into the document."
+msgstr "在文档中插入参考文献。"
+
+#: ReferencesTool.cpp:175
+msgid "Insert Custom Bibliography"
+msgstr "插入自定义参考文献"
+
+#: ReferencesTool.cpp:177
+msgid "Insert a custom Bibliography into the document."
+msgstr "在文档中插入自定义参考文献。"
+
+#: ReferencesTool.cpp:181
+msgid "Configure the bibliography"
+msgstr "配置参考文献"
+
+#: ReferencesTool.cpp:184
+#, fuzzy
+#| msgid "Insertion"
+msgid "Insert Link"
+msgstr "插入"
+
+#: ReferencesTool.cpp:186
+#, fuzzy
+#| msgid "Insert a bibliography into the document."
+msgid "Insert a weblink or link to a bookmark."
+msgstr "在文档中插入参考文献。"
+
+#: ReferencesTool.cpp:189
+msgid "Add Bookmark"
+msgstr ""
+
+#: ReferencesTool.cpp:190
+msgid "Add Bookmark :"
+msgstr ""
+
+#: ReferencesTool.cpp:195
+msgid ""
+"Insert a Bookmark. This is useful to create links that point to areas within "
+"the document"
+msgstr ""
+
+#: ReferencesTool.cpp:199
+msgid ""
+"Display a pop up that hosts the options to add new Bookmark or handle "
+"existing Bookmarks"
+msgstr ""
+
+#: ReferencesTool.cpp:203
+msgid ""
+"Manage your Bookmarks. Check where are they pointing to, Delete or Rename."
+msgstr ""
+
+#: ReferencesTool.cpp:239
+msgctxt "as in table of contents, list of pictures, index"
+msgid "Tables, Lists & Indexes"
+msgstr ""
+
+#: ReferencesTool.cpp:242
+msgid "Footnotes and Endnotes"
+msgstr "脚注和尾注"
+
+#: ReferencesTool.cpp:245
+msgid "Citations and Bibliography"
+msgstr "引用和参考文献"
+
+#: ReferencesTool.cpp:248
+msgid "Links and Bookmarks"
+msgstr ""
+
+#: ReferencesTool.cpp:374
+msgid "Bookmark cannot be empty"
+msgstr ""
+
+#: ReferencesTool.cpp:381
+msgid "Duplicate Name. Click \"Manage Bookmarks\""
+msgstr ""
+
+#: ReferencesTool.cpp:382
+msgid "to Rename or Delete Bookmarks"
+msgstr ""
+
+#: ReviewTool.cpp:69 ReviewTool.cpp:70
+#, fuzzy
+#| msgid "Comments"
+msgid "Remove Comment"
+msgstr "备注"
+
+#: ReviewTool.cpp:114
+#, fuzzy
+#| msgid "Spell checking"
+msgid "SpellCheck"
+msgstr "拼写检查"
+
+#: ReviewTool.cpp:117
+msgid "Comments"
+msgstr "备注"
+
+#: ReviewToolFactory.cpp:37
+msgid "Review"
+msgstr "审阅"
+
+#: TextShapeFactory.cpp:44 TextShapeFactory.cpp:54
+msgid "Text"
+msgstr "文本"
+
+#: TextShapeFactory.cpp:46
+msgid "A shape that shows text"
+msgstr "显示文本的形状"
+
+#: TextShapeFactory.cpp:56
+msgid "Text Shape"
+msgstr "文本形状"
+
+#: TextTool.cpp:217
+msgid "Paste As Text"
+msgstr "粘贴为文本"
+
+#: TextTool.cpp:222
+msgid "Bold"
+msgstr "粗体"
+
+#: TextTool.cpp:228
+msgid "Italic"
+msgstr "斜体"
+
+#: TextTool.cpp:234
+msgctxt "Text formatting"
+msgid "Underline"
+msgstr "下划线"
+
+#: TextTool.cpp:240
+msgid "Strikethrough"
+msgstr "删除线"
+
+#: TextTool.cpp:246
+msgid "Align Left"
+msgstr "左对齐"
+
+#: TextTool.cpp:253
+msgid "Align Right"
+msgstr "右对齐"
+
+#: TextTool.cpp:260
+msgid "Align Center"
+msgstr "居中对齐"
+
+#: TextTool.cpp:267
+msgid "Align Block"
+msgstr "两端对齐"
+
+#: TextTool.cpp:274
+msgid "Change text direction"
+msgstr "更改文字方向"
+
+#: TextTool.cpp:276
+msgid "Change writing direction"
+msgstr "更改书写方向"
+
+#: TextTool.cpp:298
+msgid "Increase Indent"
+msgstr "增加缩进"
+
+#: TextTool.cpp:305
+msgid "Decrease Indent"
+msgstr "减少缩进"
+
+#: TextTool.cpp:309
+msgid "Bullet list"
+msgstr "符号列表"
+
+#: TextTool.cpp:312
+msgid "Numbered list"
+msgstr "编号列表"
+
+#: TextTool.cpp:315
+msgid "Increase Font Size"
+msgstr "增大字体"
+
+#: TextTool.cpp:320
+msgid "Decrease Font Size"
+msgstr "减小字体"
+
+#: TextTool.cpp:326
+msgid "Font Family"
+msgstr "字体族"
+
+#: TextTool.cpp:331
+msgid "Variable"
+msgstr "变量"
+
+#: TextTool.cpp:335
+msgid "Insert Non-Breaking Space"
+msgstr "插入不可分空格"
+
+#: TextTool.cpp:340
+msgid "Insert Non-Breaking Hyphen"
+msgstr "插入不可分连字符"
+
+#: TextTool.cpp:345
+msgid "Insert Index"
+msgstr "插入下标"
+
+#: TextTool.cpp:350
+msgid "Insert Soft Hyphen"
+msgstr "插入软连字符"
+
+#: TextTool.cpp:356
+msgid "Line Break"
+msgstr "换行符"
+
+#: TextTool.cpp:361
+msgid "Page Break"
+msgstr "分页符"
+
+#: TextTool.cpp:365
+msgid "Insert a page break"
+msgstr "插入分页"
+
+#: TextTool.cpp:366
+msgid "All text after this point will be moved into the next page."
+msgstr "这一点之后的所有文本将被移到下一页。"
+
+#: TextTool.cpp:369
+msgid "Font..."
+msgstr "字体..."
+
+#: TextTool.cpp:372
+msgid "Change character size, font, boldface, italics etc."
+msgstr "更改字符大小、字体、粗体、斜体等"
+
+#: TextTool.cpp:373
+msgid "Change the attributes of the currently selected characters."
+msgstr "更改当前选中字符的属性。"
+
+#: TextTool.cpp:376
+msgid "Font Size"
+msgstr "字体大小"
+
+#: TextTool.cpp:382
+msgid "Text Color..."
+msgstr "文本颜色..."
+
+#: TextTool.cpp:383
+msgid "Text Color"
+msgstr "文本颜色"
+
+#: TextTool.cpp:389
+msgid "Background Color..."
+msgstr "背景颜色..."
+
+#: TextTool.cpp:394
+msgid "Grow To Fit Width"
+msgstr "增长到适合宽度"
+
+#: TextTool.cpp:399
+msgid "Grow To Fit Height"
+msgstr "增长到适合高度"
+
+#: TextTool.cpp:404
+msgid "Shrink To Fit"
+msgstr "收缩以适应"
+
+#: TextTool.cpp:412
+msgid "Insert a table into the document."
+msgstr "向文档中插入表格。"
+
+#: TextTool.cpp:415
+msgid "Row Above"
+msgstr "向上插入"
+
+#: TextTool.cpp:416
+msgid "Insert Row Above"
+msgstr "向上插入行"
+
+#: TextTool.cpp:420
+msgid "Row Below"
+msgstr "向下插入"
+
+#: TextTool.cpp:421
+msgid "Insert Row Below"
+msgstr "向下插入行"
+
+#: TextTool.cpp:425
+msgid "Column Left"
+msgstr "向左插入"
+
+#: TextTool.cpp:426
+msgid "Insert Column Left"
+msgstr "向左插入列"
+
+#: TextTool.cpp:430
+msgid "Column Right"
+msgstr "向右插入"
+
+#: TextTool.cpp:431
+msgid "Insert Column Right"
+msgstr "向右插入列"
+
+#: TextTool.cpp:435
+msgid "Column"
+msgstr "列"
+
+#: TextTool.cpp:436
+msgid "Delete Column"
+msgstr "删除列"
+
+#: TextTool.cpp:440
+msgid "Row"
+msgstr "行"
+
+#: TextTool.cpp:441
+msgid "Delete Row"
+msgstr "删除行"
+
+#: TextTool.cpp:445
+msgid "Merge Cells"
+msgstr "合并单元格"
+
+#: TextTool.cpp:449
+msgid "Split Cells"
+msgstr "分割单元格"
+
+#: TextTool.cpp:454
+msgid "Paragraph..."
+msgstr "段落..."
+
+#: TextTool.cpp:457
+msgid "Change paragraph margins, text flow, borders, bullets, numbering etc."
+msgstr "更改段落页边距、文本排版、边框、项目符号编号等"
+
+#: TextTool.cpp:458
+msgid ""
+"Change paragraph margins, text flow, borders, bullets, numbering etc."
+"<p>Select text in multiple paragraphs to change the formatting of all "
+"selected paragraphs.<p>If no text is selected, the paragraph where the "
+"cursor is located will be changed.</p>"
+msgstr ""
+
+#: TextTool.cpp:461
+msgid "Style Manager..."
+msgstr "样式管理器..."
+
+#: TextTool.cpp:463
+msgid "Change attributes of styles"
+msgstr "更改样式属性"
+
+#: TextTool.cpp:464
+msgid ""
+"Change font and paragraph attributes of styles.<p>Multiple styles can be "
+"changed using the dialog box."
+msgstr "更改样式中的字体和段落属性。<p>多个样式可通过使用对话框更改。"
+
+#: TextTool.cpp:471
+msgid "Special Character..."
+msgstr "特殊字符..."
+
+#: TextTool.cpp:475
+msgid "Insert one or more symbols or characters not found on the keyboard"
+msgstr "插入一个或多个键盘上没有的符号或字符"
+
+#: TextTool.cpp:476
+msgid "Insert one or more symbols or characters not found on the keyboard."
+msgstr "插入一个或多个键盘上没有的符号或字符。"
+
+#: TextTool.cpp:479
+msgid "Repaint"
+msgstr "重绘"
+
+#: TextTool.cpp:484
+#, fuzzy
+#| msgid "Insert Column Left"
+msgid "Insert Comment"
+msgstr "向左插入列"
+
+#: TextTool.cpp:568
+msgid "Insertion"
+msgstr "插入"
+
+#: TextTool.cpp:570
+msgid "Deletion"
+msgstr "删除"
+
+#: TextTool.cpp:572
+msgid "Formatting"
+msgstr "格式"
+
+#: TextTool.cpp:587
+msgid "Ctrl+click to go to link "
+msgstr "Ctrl+单击跳转到链接"
+
+#: TextTool.cpp:594
+msgid "Ctrl+click to go to the note "
+msgstr "Ctrl+单击跳转到注释"
+
+#: TextTool.cpp:600
+msgid "Ctrl+click to go to the note reference"
+msgstr "Ctrl+单击跳转到注释引用"
+
+#: TextTool.cpp:701
+msgid "follows along"
+msgstr "跟随"
+
+#: TextTool.cpp:731
+msgid "Press shift to not resize this"
+msgstr "按 Shift 键取消调整大小"
+
+#: TextTool.cpp:925
+msgctxt "(qtundo-format)"
+msgid "Change Border Formatting"
+msgstr "更改边框格式"
+
+#: TextTool.cpp:1118
+msgctxt "(qtundo-format)"
+msgid "Cut"
+msgstr "剪切"
+
+#: TextTool.cpp:1378
+msgctxt "(qtundo-format)"
+msgid "Adjust Column Width"
+msgstr "调整列宽"
+
+#: TextTool.cpp:1421
+msgctxt "(qtundo-format)"
+msgid "Adjust Row Height"
+msgstr "调整行高"
+
+#: TextTool.cpp:2168
+msgid "Table"
+msgstr "表格"
+
+#: TextTool.cpp:2493
+msgid "Key Press"
+msgstr "按键"
+
+#: TextTool.cpp:2493 TextTool.cpp:2498
+msgid "Autocorrection"
+msgstr "自动更正"
+
+#: TextTool.cpp:2765
+#, kde-format
+msgid ""
+"This link points to the program or script '%1'.\n"
+"Malicious programs can harm your computer. Are you sure that you want to run "
+"this program?"
+msgstr ""
+"此链接指向程序或脚本“%1”。\n"
+"恶意的程序会危害您的计算机。您确定您想要运行该程序吗？"
+
+#: TextTool.cpp:2770
+msgid "Open Link?"
+msgstr "打开链接吗？"
+
+#: TextToolFactory.cpp:31
+msgid "Text editing"
+msgstr "文本编辑"
+
+#, fuzzy
+#~| msgid " Format"
+#~ msgid "Form"
+#~ msgstr " 格式"
+
+#~ msgid "Table of Contents"
+#~ msgstr "目录"
+
+#~ msgid "Tracked change manager"
+#~ msgstr "修订管理器"
+
+#~ msgid "Configure Change Tracking..."
+#~ msgstr "配置更改追踪..."
+
+#~ msgid "Changes"
+#~ msgstr "更改"
+
+#~ msgid "Paragraph Settings"
+#~ msgstr "段落设置"
+
+#~ msgid "Insert Custom ..."
+#~ msgstr "插入列..."
+
+#, fuzzy
+#~| msgid "Foot Note"
+#~ msgid "Format Notes"
+#~ msgstr "脚注"
+
+#, fuzzy
+#~| msgid "Include in table of contents"
+#~ msgid "Configure the notes"
+#~ msgstr "在目录中包含"
+
+#~ msgid "Location"
+#~ msgstr "位置"
+
+#~ msgid "Foot Note"
+#~ msgstr "脚注"
+
+#~ msgid "End Note"
+#~ msgstr "尾注"
+
+#, fuzzy
+#~| msgid "Start at:"
+#~ msgid " Start at "
+#~ msgstr "开始于："
+
+#~ msgid " Prefix"
+#~ msgstr " 前缀"
+
+#~ msgid " Suffix"
+#~ msgstr " 后缀"
+
+#~ msgid "<b>Paragraph style properties</b>"
+#~ msgstr "<b>段落样式属性</b>"
+
+#~ msgid "Inherit style:"
+#~ msgstr "继承样式："
+
+#~ msgid "Strike Out"
+#~ msgstr "删除线"
+
+#~ msgid "Type:"
+#~ msgstr "类型："
+
+#~ msgid "Paragraph style"
+#~ msgstr "段落样式"
+
+#~ msgid "Character style"
+#~ msgstr "字符样式"
+
+#~ msgid "Create"
+#~ msgstr "创建"
+
+#~ msgid "Minimum:"
+#~ msgstr "最小："
+
+#~ msgid "Highlighting"
+#~ msgstr "突出显示"
+
+#~ msgid "["
+#~ msgstr "["
+
+#~ msgid "]"
+#~ msgstr "]"
+
+#~ msgid "address"
+#~ msgstr "地址"
+
+#~ msgid "author"
+#~ msgstr "作者"
+
+#~ msgid "chapter"
+#~ msgstr "章节"
+
+#~ msgid "edition"
+#~ msgstr "版本"
+
+#~ msgid "identifier"
+#~ msgstr "标识符"
+
+#, fuzzy
+#~| msgid "Insertion"
+#~ msgid "institution"
+#~ msgstr "插入"
+
+#~ msgid "month"
+#~ msgstr "月份"
+
+#, fuzzy
+#~| msgid "Number of rows:"
+#~ msgid "number"
+#~ msgstr "行数："
+
+#~ msgid "organizations"
+#~ msgstr "组织"
+
+#~ msgid "pages"
+#~ msgstr "页数"
+
+#~ msgid "title"
+#~ msgstr "标题"
+
+#~ msgid "url"
+#~ msgstr "url"
+
+#~ msgid "volume"
+#~ msgstr "卷号"
+
+#~ msgid "year"
+#~ msgstr "年份"
+
+#, fuzzy
+#~| msgid "Insert a table into the document."
+#~ msgid "Insert bibliography at current position"
+#~ msgstr "向文档中插入表格。"
+
+#, fuzzy
+#~| msgid "Configure Change Tracking"
+#~ msgid "Configure bibiliography"
+#~ msgstr "更改修订"
+
+#~ msgid "Offset:"
+#~ msgstr "偏移："
+
+#~ msgid "Custom"
+#~ msgstr "自定义"
+
+#~ msgid "Default Format"
+#~ msgstr "默认格式"
+
+#~ msgid "Change text attributes to their default values"
+#~ msgstr "将文本属性设为其默认值"
+
+#~ msgid "Table..."
+#~ msgstr "表格..."
+
+#~ msgctxt "Short for LeftToRight"
+#~ msgid "LTR"
+#~ msgstr "左->右"
+
+#~ msgctxt "Short for RightToLeft"
+#~ msgid "RTL"
+#~ msgstr "右->左"
+
+#~ msgctxt "Automatic direction detection"
+#~ msgid "Auto"
+#~ msgstr "自动"
+
+#~ msgid "<b>Character style properties</b>"
+#~ msgstr "<b>字符样式属性</b>"
+
+#~ msgid "Use named character style"
+#~ msgstr "使用命名的字符样式"
+
+#~ msgid "Style:"
+#~ msgstr "样式："
+
+#~ msgid "Apply %1"
+#~ msgstr "应用 %1"
+
+#, fuzzy
+#~| msgctxt "Automatic horizontal alignment"
+#~| msgid "Auto"
+#~ msgid "Auto"
+#~ msgstr "自动"
+
+#, fuzzy
+#~| msgid "Text Shape"
+#~ msgid "Label"
+#~ msgstr "文本形状"
+
+#, fuzzy
+#~| msgid "Capitalization"
+#~ msgid "Citation"
+#~ msgstr "大写"
+
+#, fuzzy
+#~| msgid "Change List Numbering"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change List Numbering"
+#~ msgstr "更改列表序数"
+
+#, fuzzy
+#~| msgid "Change List"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Change List"
+#~ msgstr "更改列表"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete"
+#~ msgstr "删除"
+
+#, fuzzy
+#~| msgid "Text"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Text"
+#~ msgstr "文本"
+
+#, fuzzy
+#~| msgid "Paste"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Paste"
+#~ msgstr "粘贴"
+
+#, fuzzy
+#~| msgid "Include in table of contents"
+#~ msgid "Table of Contents..."
+#~ msgstr "在目录中包含"
+
+#, fuzzy
+#~| msgid "Capitalization"
+#~ msgid "Captions"
+#~ msgstr "大写"
+
+#~ msgid "Arabic"
+#~ msgstr "阿拉伯语"
+
+#~ msgid "Lower Alphabetical"
+#~ msgstr "按字母顺序降序"
+
+#~ msgid "Upper Alphabetical"
+#~ msgstr "按字母顺序升序"
+
+#~ msgid "Lower Roman"
+#~ msgstr "小写罗马字母"
+
+#~ msgid "Upper Roman"
+#~ msgstr "大写罗马字母"
+
+#, fuzzy
+#~| msgid "Square Bullet"
+#~ msgid "Small Bullet"
+#~ msgstr "方形符号"
+
+#, fuzzy
+#~| msgid "Square Bullet"
+#~ msgid "Large Bullet"
+#~ msgstr "方形符号"
+
+#~ msgid "Circle Bullet"
+#~ msgstr "圆圈符号"
+
+#~ msgid "Square Bullet"
+#~ msgstr "方形符号"
+
+#~ msgid "Rhombus Bullet"
+#~ msgstr "菱形符号"
+
+#~ msgid "Check Mark Bullet"
+#~ msgstr "打勾符号"
+
+#~ msgid "Rightwards Arrow Bullet"
+#~ msgstr "右箭头符号"
+
+#~ msgid "Bengali"
+#~ msgstr "孟加拉文"
+
+#~ msgid "Gujarati"
+#~ msgstr "古吉拉特文"
+
+#~ msgid "Gurumukhi"
+#~ msgstr "锡克教文"
+
+#~ msgid "Kannada"
+#~ msgstr "卡纳达文"
+
+#~ msgid "Malayalam"
+#~ msgstr "马拉亚拉姆文"
+
+#~ msgid "Oriya"
+#~ msgstr "奥里亚文"
+
+#~ msgid "Tamil"
+#~ msgstr "泰米尔文"
+
+#~ msgid "Telugu"
+#~ msgstr "泰卢固文"
+
+#~ msgid "Tibetan"
+#~ msgstr "藏文"
+
+#~ msgid "Thai"
+#~ msgstr "泰国文"
+
+#, fuzzy
+#~ msgid "Abjad"
+#~ msgstr "Aba"
+
+#, fuzzy
+#~ msgid "ArabicAlphabet"
+#~ msgstr "阿拉伯语"
+
+#~ msgid "Disc Bullet"
+#~ msgstr "圆点符号"
+
+#~ msgid "Box Bullet"
+#~ msgstr "方框符号"
+
+#~ msgid "Create New Style"
+#~ msgstr "创建新样式"
+
+#~ msgid "Edit Paragraph Style"
+#~ msgstr "编辑段落样式"
+
+#~ msgid "Edit Character Style"
+#~ msgstr "编辑字符样式"
+
+#~ msgid "Apply selected style to text"
+#~ msgstr "应用所选样式到文本"
+
+#~ msgid "Show properties"
+#~ msgstr "显示属性"
+
+#~ msgid "Add a new style"
+#~ msgstr "添加新样式"
+
+#~ msgid "Abc"
+#~ msgstr "Abc"
+
+#~ msgid "List Style:"
+#~ msgstr "列表样式："
+
+#~ msgid "Apply again"
+#~ msgstr "再次应用"

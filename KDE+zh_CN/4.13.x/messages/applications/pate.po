@@ -1,0 +1,1670 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Feng Chao <chaofeng111@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: pate\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-30 01:23+0000\n"
+"PO-Revision-Date: 2014-02-26 13:18-0700\n"
+"Last-Translator: Jeff Bai <jeffbaichina@members.fsf.org>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.6.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国, Feng Chao"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org, chaofeng111@gmail.com"
+
+#: src/engine.cpp:220
+msgctxt "@info:tooltip "
+msgid "Cannot load built-in <icode>pate</icode> module"
+msgstr ""
+
+#: src/engine.cpp:236
+msgctxt "@info:tooltip "
+msgid "Cannot update Python paths"
+msgstr ""
+
+#: src/engine.cpp:252
+msgctxt "@info:tooltip "
+msgid "No <icode>pate</icode> built-in module"
+msgstr ""
+
+#: src/engine.cpp:308
+msgctxt "@title:column"
+msgid "Name"
+msgstr "名称"
+
+#: src/engine.cpp:310
+msgctxt "@title:column"
+msgid "Comment"
+msgstr "注释"
+
+#: src/engine.cpp:495
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Unable to find the module specified <application>%1</application>"
+msgstr ""
+
+#: src/engine.cpp:519
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Specified version has invalid format for dependency <application>%1</"
+"application>: <icode>%2</icode>. Skipped</p>"
+msgstr ""
+
+#: src/engine.cpp:599
+msgctxt "@info:tooltip"
+msgid "<title>Dependency check</title>"
+msgstr "<title>依赖检查</title>"
+
+#: src/engine.cpp:635
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Failed to check version of dependency <application>%1</application>: "
+"Module do not have PEP396 <code>__version__</code> attribute. It is not "
+"disabled, but behaviour is unpredictable...</p>"
+msgstr ""
+
+#: src/engine.cpp:655
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "<p><application>%1</application>: Unexpected module's version format"
+msgstr ""
+
+#: src/engine.cpp:670
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p><application>%1</application>: No suitable version found. Required "
+"version %2 %3, but found %4</p>"
+msgstr ""
+
+#: src/engine.cpp:687
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Failure on module load <application>%1</application>:</p><pre>%2</pre>"
+msgstr ""
+
+#: src/engine.cpp:778
+msgctxt "@info:tooltip"
+msgid "Internal engine failure"
+msgstr ""
+
+#: src/engine.cpp:784
+#, fuzzy, kde-format
+#| msgid "Not Loaded: %1"
+msgctxt "@info:tooltip"
+msgid "Module not loaded:<nl/>%1"
+msgstr "未装入：%1"
+
+#: src/kate/decorators.py:223
+msgctxt "@title:window"
+msgid "Error in action <icode>%1</icode>"
+msgstr ""
+
+#: src/kate/decorators.py:310
+msgctxt "@info:tooltip"
+msgid ""
+"Invalid <filename>%1</filename> file: No action with name <icode>%2</icode> "
+"defined"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, errorLabel)
+#: src/manager.ui:15
+#, fuzzy
+#| msgid "Pate engine could not be initialised"
+msgid "Error: The Python engine could not be initialized"
+msgstr "Pate引擎未能被初始化"
+
+#: src/plugin.cpp:68
+msgid "Pâté host for Python plugins"
+msgstr "Pâté 提供的 Python 插件"
+
+#: src/plugin.cpp:70
+#, fuzzy
+#| msgid "System Settings"
+msgid "Python interpreter settings"
+msgstr "系统设置"
+
+#: src/plugin.cpp:146
+msgctxt "@title:window"
+msgid "Pate engine could not be initialised"
+msgstr "Pate引擎未能被初始化"
+
+#: src/plugin.cpp:161
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "警告"
+
+#: src/plugin.cpp:164
+#, kde-format
+msgctxt "@info:tooltip %1 is a number of failed plugins"
+msgid ""
+"%1 plugin module couldn't be loaded. Check the Python plugins config page "
+"for details."
+msgid_plural ""
+"%1 plugin modules couldn't be loaded. Check the Python plugins config page "
+"for details."
+msgstr[0] ""
+
+#: src/plugin.cpp:239
+msgctxt "@title:row"
+msgid "Python Plugins"
+msgstr "Python 插件"
+
+#: src/plugin.cpp:254
+msgctxt "@title:tab"
+msgid "Pâté host for Python plugins"
+msgstr "Pâté 提供的 Python 插件"
+
+#: src/plugin.cpp:318
+msgid "About Pate"
+msgstr ""
+
+#: src/plugin.cpp:333
+msgctxt "@info:tooltip "
+msgid "Cannot load <icode>kate</icode> module"
+msgstr ""
+
+#: src/plugin.cpp:369
+#, kde-format
+msgctxt "Python variables, no translation needed"
+msgid "sys.version = %1<br/>sys.path = %2"
+msgstr ""
+
+#: src/plugin.cpp:374
+msgid "Paul Giannaros"
+msgstr "Paul Giannaros"
+
+#: src/plugin.cpp:374
+msgid "Out-of-tree original"
+msgstr ""
+
+#: src/plugin.cpp:375
+msgid "Shaheed Haque"
+msgstr "Shaheed Haque"
+
+#: src/plugin.cpp:375
+msgid "Rewritten and brought in-tree, V1.0"
+msgstr ""
+
+#: src/plugin.cpp:376
+msgid "Alex Turbov"
+msgstr "Alex Turbov"
+
+#: src/plugin.cpp:376
+msgid "Streamlined and updated, V2.0"
+msgstr ""
+
+#. i18n: ectx: Menu (pate)
+#: src/plugins/block_ui.rc:10 src/plugins/commentar_ui.rc:10
+#: src/plugins/expand/expand_ui.rc:10 src/plugins/format_ui.rc:10 src/ui.rc:10
+msgid "&Pate"
+msgstr "&Pate"
+
+#. i18n: ectx: Menu (block)
+#: src/plugins/block_ui.rc:12
+msgid "Block Operations"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:169
+#: src/plugins/cmake_utils/__init__.py:199
+#: src/plugins/cmake_utils/__init__.py:600
+#: src/plugins/cmake_utils/__init__.py:837
+#: src/plugins/expand/jinja_stuff.py:109 src/plugins/expand/jinja_stuff.py:130
+#: src/plugins/expand/udf.py:212 src/plugins/expand/udf.py:270
+#: src/plugins/libkatepate/errors.py:78 src/plugins/try_open_file.py:43
+#: src/plugins/try_open_file.py:68
+msgctxt "@title:window"
+msgid "Error"
+msgstr "错误"
+
+#: src/plugins/cmake_utils/__init__.py:170
+msgctxt "@info:tooltip"
+msgid "Unable to open the document: <filename>%1</filename>"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:179
+msgctxt "@title:window"
+msgid "<filename>CMakeLists.txt</filename> location"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:200
+msgctxt "@info:tooltip"
+msgid "No such file <filename>%1</filename>"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:292
+msgctxt "@label:listbox"
+msgid "CMake Auto Completion"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:339
+msgctxt "@label:listbox"
+msgid "CMake Variables Completion"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:356
+msgctxt "@label:listbox"
+msgid "CMake Commands Completion"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:425
+msgctxt "@title:window"
+msgid "Attention"
+msgstr "注意"
+
+#: src/plugins/cmake_utils/__init__.py:426
+msgctxt "@info:tooltip"
+msgid "Sorry, no completion for <command>%1()</command>"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:436
+msgctxt "@label:listbox"
+msgid "CMake <command>%1()</command> Completion"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:492
+msgctxt "@title:tab"
+msgid "CMake"
+msgstr "CMake"
+
+#: src/plugins/cmake_utils/__init__.py:510
+msgctxt "@info/plain"
+msgid "Project build directory"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:517
+msgctxt "@title:tab"
+msgid "CMake Cache Viewer"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:533
+msgctxt "@title:tab"
+msgid "CMake Help"
+msgstr "CMake 帮助"
+
+#: src/plugins/cmake_utils/__init__.py:540
+msgctxt "@title:tab"
+msgid "Tool View Settings"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:603
+msgctxt "@info:tooltip"
+msgid "Unable to get CMake cache content:<nl/><message>%1</message>"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:624
+msgctxt "@item::inlistbox/plain"
+msgid "Commands"
+msgstr "命令"
+
+#: src/plugins/cmake_utils/__init__.py:653
+msgctxt "@item:inlistbox"
+msgid "Modules from %1 (%2)"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:657
+msgctxt "@item:inlistbox"
+msgid "Standard modules (%1)"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:662
+msgctxt "@item::inlistbox/plain"
+msgid "Modules (%1)"
+msgstr "模块(%1)"
+
+#: src/plugins/cmake_utils/__init__.py:681
+msgctxt "@item::inlistbox/plain"
+msgid "Policies"
+msgstr "策略"
+
+#: src/plugins/cmake_utils/__init__.py:694
+msgctxt "@item::inlistbox/plain"
+msgid "Properties"
+msgstr "属性"
+
+#: src/plugins/cmake_utils/__init__.py:714
+msgctxt "@item::inlistbox/plain"
+msgid "Variables"
+msgstr "变量"
+
+#: src/plugins/cmake_utils/__init__.py:838
+msgctxt "@info:tooltip"
+msgid "CMake executable test run failed:<nl/><message>%1</message>"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:877
+msgctxt "@title:window"
+msgid "Select a Directory with CMake Modules"
+msgstr ""
+
+#: src/plugins/cmake_utils/__init__.py:911
+msgctxt "@item:inmenu"
+msgid "CMake Helper Plugin"
+msgstr "CMake 帮助插件"
+
+#: src/plugins/cmake_utils/__init__.py:912
+msgctxt "@title:group"
+msgid "CMake Helper Settings"
+msgstr ""
+
+#: src/plugins/cmake_utils/cmake_help_parser.py:122
+msgctxt "@item:intext"
+msgid "CMake executable is not configured"
+msgstr ""
+
+#: src/plugins/cmake_utils/cmake_help_parser.py:136
+msgctxt "@item:intext"
+msgid ""
+"Running <command>%1</command> finished with errors:<nl/><message>%2</message>"
+msgstr ""
+
+#: src/plugins/cmake_utils/cmake_help_parser.py:153
+msgctxt "@item:intext"
+msgid "Specified CMake executable <command>%1</command> looks invalid"
+msgstr ""
+
+#: src/plugins/cmake_utils/cmake_help_parser.py:160
+msgctxt "@item:intext"
+msgid "Specified CMake executable <command>%1</command> not found"
+msgstr ""
+
+#: src/plugins/cmake_utils/cmake_help_parser.py:284
+msgctxt "@item:intext/plain"
+msgid "Specified path %1 does not look like a CMake build directory"
+msgstr ""
+
+#. i18n: ectx: Menu (file)
+#: src/plugins/cmake_utils/cmake_utils_ui.rc:10
+#: src/plugins/try_open_file_ui.rc:10
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, cmakeSettings)
+#: src/plugins/cmake_utils/settings.ui:6
+msgid "CMake Settings"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (KButtonGroup, system)
+#: src/plugins/cmake_utils/settings.ui:12
+msgid "System Settings"
+msgstr "系统设置"
+
+#. i18n: ectx: property (text), widget (QLabel, cmakeBinaryLabel)
+#: src/plugins/cmake_utils/settings.ui:21
+msgid "CMake executable:"
+msgstr "CMake 可执行文件："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, cmakeBinary)
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, cmakeBinary)
+#: src/plugins/cmake_utils/settings.ui:28
+#: src/plugins/cmake_utils/settings.ui:31
+msgid "Path to CMake executable"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, parentDirsLookupCnt)
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#: src/plugins/cmake_utils/settings.ui:38
+#: src/plugins/cmake_utils/settings.ui:48
+msgid ""
+"<p>How many parent directories to check for <filename>CMakeLists.txt</"
+"filename> if the latter is absent in a current document's path</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/cmake_utils/settings.ui:51
+msgid "CMakeLists lookup parents:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/plugins/cmake_utils/settings.ui:61
+msgid "Auxiliary CMake Module Directories"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, moduleDirs)
+#: src/plugins/cmake_utils/settings.ui:67
+msgid ""
+"Auxiliary paths with CMake modules. CMake will try to parse the initial "
+"comment for every module found, so you can see a help screen for custom "
+"modules in the tool view."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addButton)
+#: src/plugins/cmake_utils/settings.ui:76
+msgid "Open a file dialog to select a path to be added."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: src/plugins/cmake_utils/settings.ui:79
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeButton)
+#: src/plugins/cmake_utils/settings.ui:86
+msgid "Removes the currently selected path from a list of auxiliary modules."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: src/plugins/cmake_utils/settings.ui:89
+msgid "Remove"
+msgstr "删除"
+
+#. i18n: ectx: property (title), widget (KButtonGroup, session)
+#: src/plugins/cmake_utils/settings.ui:114
+msgid "Session Settings"
+msgstr "会话设置"
+
+#. i18n: ectx: property (text), widget (QLabel, projectBuildDirLabel)
+#: src/plugins/cmake_utils/settings.ui:123
+msgid "Project build dir:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, projectBuildDir)
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, projectBuildDir)
+#: src/plugins/cmake_utils/settings.ui:130
+#: src/plugins/cmake_utils/settings.ui:133
+msgid "Path to a project build directory associated with a current session"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, cacheViewPage)
+#: src/plugins/cmake_utils/toolview_cacheview_page.ui:6
+msgid "CMake Cache View"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KTreeWidgetSearchLine, cacheFilter)
+#: src/plugins/cmake_utils/toolview_cacheview_page.ui:14
+msgid "Filter CMake cache items by name"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (KTreeWidgetSearchLine, helpFilter)
+#. i18n: ectx: property (placeholderText), widget (KTreeWidgetSearchLine, cacheFilter)
+#: src/plugins/cmake_utils/toolview_cacheview_page.ui:17
+#: src/plugins/cmake_utils/toolview_help_page.ui:12
+msgid "Quick search"
+msgstr "快速搜索"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, buildDir)
+#: src/plugins/cmake_utils/toolview_cacheview_page.ui:24
+msgid "<p>Select <i>top build dir</i> controlled by CMake</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, cacheItems)
+#: src/plugins/cmake_utils/toolview_cacheview_page.ui:43
+msgid "Name"
+msgstr "名称"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, cacheItems)
+#: src/plugins/cmake_utils/toolview_cacheview_page.ui:48
+msgid "Type"
+msgstr "类型"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, cacheItems)
+#: src/plugins/cmake_utils/toolview_cacheview_page.ui:53
+msgid "Value"
+msgstr "值"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, cmakeHelp)
+#: src/plugins/cmake_utils/toolview_help_page.ui:6
+msgid "CMake Help"
+msgstr "CMake 帮助"
+
+#. i18n: ectx: property (toolTip), widget (QTreeWidget, helpTargets)
+#: src/plugins/cmake_utils/toolview_help_page.ui:19
+msgid "Double-click to insert the current item to a document"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, cfgPage)
+#: src/plugins/cmake_utils/toolview_settings_page.ui:6
+msgid "Tool View Settings"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mode)
+#: src/plugins/cmake_utils/toolview_settings_page.ui:12
+msgid ""
+"<p>Same as <i>advanced mode</i> in <span style=\" font-family:'Courier New,"
+"courier';\">ccmake</span></p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, mode)
+#: src/plugins/cmake_utils/toolview_settings_page.ui:15
+msgid "Show cache items marked as advanced"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, htmlize)
+#: src/plugins/cmake_utils/toolview_settings_page.ui:23
+msgid ""
+"Try to turn plain ASCII text into HTML using simple structured text rules.\n"
+"It works quite well for builtins, but sometimes may distort results for "
+"others (custom modules)."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, htmlize)
+#: src/plugins/cmake_utils/toolview_settings_page.ui:26
+msgid "Try to beautify the help output"
+msgstr ""
+
+#: src/plugins/color_tools/color_chooser.py:58
+msgctxt "@action:button"
+msgid "&Other..."
+msgstr "其它(&O)..."
+
+#: src/plugins/color_tools/color_palette.py:61
+msgctxt "@title:tab"
+msgid "Palette"
+msgstr "调色板"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, update)
+#: src/plugins/color_tools/color_tools_toolview.ui:33
+msgid "Rescan current document for #colors"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, update)
+#: src/plugins/color_tools/color_tools_toolview.ui:36
+msgid "Update"
+msgstr "更新"
+
+#: src/plugins/commentar.py:421 src/plugins/commentar.py:473
+#: src/plugins/commentar.py:499 src/plugins/commentar.py:656
+#: src/plugins/format.py:325 src/plugins/format.py:336
+#: src/plugins/format.py:352 src/plugins/format.py:398
+#: src/plugins/format.py:409 src/plugins/format.py:425
+#: src/plugins/libkatepate/decorators.py:61
+#: src/plugins/libkatepate/decorators.py:111
+#: src/plugins/libkatepate/decorators.py:140
+msgctxt "@title:window"
+msgid "Alert"
+msgstr "警告"
+
+#: src/plugins/commentar.py:424 src/plugins/commentar.py:476
+#: src/plugins/commentar.py:502
+msgctxt "@info:tooltip"
+msgid ""
+"The cursor is not positioned in any <icode>#if0</icode>/<icode>#if1</icode> "
+"block"
+msgstr ""
+
+#: src/plugins/commentar.py:659
+msgctxt "@info:tooltip"
+msgid "Unable to detect a commented paragraph at cursor..."
+msgstr ""
+
+#: src/plugins/commentar.py:779
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@item:inmenu"
+msgid "Commentar Plugin"
+msgstr "注释"
+
+#: src/plugins/commentar.py:780
+msgctxt "@title:group"
+msgid "Commentar Plugin Settings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/commentar.ui:13
+msgid "Same-line comment position"
+msgstr "同行注释位置"
+
+#. i18n: ectx: Menu (comments)
+#: src/plugins/commentar_ui.rc:13
+msgid "&Comments"
+msgstr "注释(&C)"
+
+#: src/plugins/django_utils/django_settings.py:22
+msgid "Create Django Form"
+msgstr ""
+
+#: src/plugins/django_utils/django_settings.py:24
+msgid "Create Django Model"
+msgstr ""
+
+#: src/plugins/django_utils/django_settings.py:26
+msgid "Template Django URLs"
+msgstr ""
+
+#: src/plugins/django_utils/django_settings.py:28
+msgid "Template Import Views"
+msgstr ""
+
+#: src/plugins/django_utils/django_settings.py:30
+msgid "Template Block"
+msgstr ""
+
+#: src/plugins/django_utils/django_settings.py:32
+msgid "Close Template Tag"
+msgstr ""
+
+#: src/plugins/django_utils/django_settings.py:37
+msgid "Django Utils"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/django_utils/django_utils.ui:13
+msgid "Django tags to close when call the \"Close Template tag\" action"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/django_utils/django_utils.ui:28
+msgid "URL template file"
+msgstr "URL 模板文件"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/django_utils/django_utils.ui:43
+msgid "View import snippet"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/django_utils/django_utils.ui:58
+msgid "Pattern Model Form"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/django_utils/django_utils.ui:73
+msgid "Pattern Model"
+msgstr ""
+
+#: src/plugins/expand/expands_completion_model.py:34
+msgctxt "@label:listbox"
+msgid "Expands Available"
+msgstr ""
+
+#: src/plugins/expand/jinja_stuff.py:110
+msgctxt "@info:tooltip"
+msgid "Template file not found <filename>%1</filename>"
+msgstr ""
+
+#: src/plugins/expand/jinja_stuff.py:133
+msgctxt "@info:tooltip"
+msgid "Template file error [<filename>%1</filename>]: <status>%2</status>"
+msgstr ""
+
+#: src/plugins/expand/udf.py:125
+msgctxt "@info"
+msgid "end of file reached"
+msgstr ""
+
+#: src/plugins/expand/udf.py:131
+msgctxt "@info"
+msgid "end of line reached while searching for <icode>%1</icode>"
+msgstr ""
+
+#: src/plugins/expand/udf.py:204
+msgctxt "@title:window"
+msgid "Parse error"
+msgstr "解析出错"
+
+#: src/plugins/expand/udf.py:213
+msgctxt "@info:tooltip"
+msgid "Expansion \"<icode>%1</icode>\" not found"
+msgstr ""
+
+#: src/plugins/expand/udf.py:250
+msgctxt "@info"
+msgid "Traceback (most recent call last):<nl/>"
+msgstr ""
+
+#: src/plugins/expand/udf.py:259
+msgctxt "@info"
+msgid "<link url=\"%1\">%2</link>"
+msgstr ""
+
+#: src/plugins/expand/udf.py:264
+msgctxt "@info"
+msgid ""
+"File <filename>\"(/[^\n"
+"]+)\"</filename>, line"
+msgstr ""
+
+#: src/plugins/expand/udf.py:271
+msgctxt "@info:tooltip"
+msgid "<bcode>%1</bcode>"
+msgstr ""
+
+#: src/plugins/format.py:124 src/plugins/format.py:157
+#: src/plugins/format.py:209 src/plugins/format.py:242
+#: src/plugins/format.py:267
+msgctxt "@info"
+msgid ""
+"Misbalanced brackets: at <numid>%1</numid>,<numid>%2</numid> and <numid>%3</"
+"numid>,<numid>%4</numid>"
+msgstr ""
+
+#: src/plugins/format.py:328 src/plugins/format.py:339
+#: src/plugins/format.py:355 src/plugins/format.py:401
+#: src/plugins/format.py:412 src/plugins/format.py:428
+msgctxt "@info:tooltip"
+msgid "Failed to parse C++ expression:<nl/><message>%1</message>"
+msgstr ""
+
+#: src/plugins/format.py:340 src/plugins/format.py:413
+msgctxt "@info:tooltip"
+msgid "Did not find anything to format"
+msgstr ""
+
+#: src/plugins/gid/__init__.py:195
+msgid "File"
+msgstr "文件"
+
+#: src/plugins/gid/__init__.py:195
+msgid "Match"
+msgstr "匹配"
+
+#: src/plugins/gid/__init__.py:360
+msgid "Filter '%1' is not a valid regular expression"
+msgstr ""
+
+#: src/plugins/gid/__init__.py:360
+msgid "Invalid filter"
+msgstr ""
+
+#: src/plugins/gid/__init__.py:392
+msgid "Scanned %1 of %2 files in %3 seconds"
+msgstr ""
+
+#: src/plugins/gid/__init__.py:393
+msgid "Scan more files?"
+msgstr ""
+
+#: src/plugins/gid/__init__.py:393
+msgid "All Files"
+msgstr "全部文件"
+
+#: src/plugins/gid/__init__.py:393
+msgid "More Files"
+msgstr "更多文件"
+
+#: src/plugins/gid/__init__.py:471
+msgid "gid Search"
+msgstr ""
+
+#: src/plugins/gid/__init__.py:613
+msgid "ID database error"
+msgstr ""
+
+#: src/plugins/gid/__init__.py:630
+#, no-python-format
+msgid "'%1' does not contain '%2'"
+msgstr "“%1”不包含“%2”"
+
+#: src/plugins/gid/__init__.py:630
+#, python-format
+msgid "Cannot use %i"
+msgstr ""
+
+#: src/plugins/gid/__init__.py:711
+msgctxt "@item:inmenu"
+msgid "GNU idutils"
+msgstr ""
+
+#: src/plugins/gid/__init__.py:712
+msgctxt "@title:group"
+msgid "<command section='1'>gid</command> token Lookup and Navigation"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelIdFile)
+#: src/plugins/gid/config.ui:12
+msgid "ID file:"
+msgstr "ID 文件："
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, idFile)
+#: src/plugins/gid/config.ui:22
+msgid "Name of ID file, as generated by mkid(1)."
+msgstr "ID 文件的名称，由 mkid(1) 生成。"
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, idFile)
+#: src/plugins/gid/config.ui:26
+msgid ""
+"ID\n"
+"*|All Files"
+msgstr ""
+"ID\n"
+"* | 所有文件"
+
+#. i18n: ectx: property (text), widget (QLabel, labelKeySize)
+#: src/plugins/gid/config.ui:33
+msgid "Complete tokens after:"
+msgstr "于此之后补全符号："
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, keySize)
+#: src/plugins/gid/config.ui:43
+msgid "Minimum length of token before completions will be shown."
+msgstr "符号显示补全的最小长度。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/plugins/gid/config.ui:59
+msgid "Transform Filenames"
+msgstr "变换文件名"
+
+#. i18n: ectx: property (text), widget (QLabel, labelSrcIn)
+#: src/plugins/gid/config.ui:65
+msgid "Replace file prefix ending with key:"
+msgstr "替换以该关键字结束的文件前缀："
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, srcIn)
+#: src/plugins/gid/config.ui:75
+msgid "Discard the first part of the file name ending with this key."
+msgstr "丢弃名字以此关键字结束的文件的第一部分。"
+
+#. i18n: ectx: property (text), widget (QLabel, labelSrcOut)
+#: src/plugins/gid/config.ui:82
+msgid "With this file prefix:"
+msgstr "以此为文件前缀："
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, srcOut)
+#: src/plugins/gid/config.ui:103
+#, no-c-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Replacement prefix. To use "
+"the prefix of the ID file ending with the key, use %{idPrefix}. This can be "
+"used to work with remotely mounted Clearcase views, for example, set:</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">ID "
+"file:                                   /view/myview/<span style=\" font-"
+"weight:600;\">topdir</span>/ID </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Replace prefix "
+"ending:     /<span style=\" font-weight:600;\">topdir</span> </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">With "
+"prefix:                         %{idPrefix}/<span style=\" font-weight:600;"
+"\">topdir</span> </p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Or, to use a pre-generated "
+"ID file with a different workspace, set:</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">ID "
+"file:                                   /snapshots/<span style=\" font-"
+"weight:600;\">topdir</span>/ID </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Replace prefix "
+"ending:     /<span style=\" font-weight:600;\">topdir</span> </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">With "
+"prefix:                         /myworkspace/<span style=\" font-weight:600;"
+"\">topdir</span> </p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">替换前缀。可以使用 "
+"%{idPrefix} 来表示以此结尾的 ID 文件的前缀。可以用于远程挂载的 Clearcase 视"
+"图，例如，设定：</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">ID 文"
+"件:                                   /view/myview/<span style=\" font-"
+"weight:600;\">顶层目录</span>/ID </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">替换前缀结尾：     /<span "
+"style=\" font-weight:600;\">topdir</span> </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">使用前"
+"缀：                         %{idPrefix}/<span style=\" font-weight:600;\">顶"
+"层目录</span> </p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">或者，如需使用在不同工作空"
+"间预先生成的 ID 文件，设置：</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">ID 文"
+"件:                                   /snapshots/<span style=\" font-"
+"weight:600;\">顶层目录</span>/ID </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">替换前缀结尾：     /<span "
+"style=\" font-weight:600;\">topdir</span> </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">使用前"
+"缀：                          /myworkspace/<span style=\" font-weight:600;"
+"\">topdir</span> </p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/plugins/gid/config.ui:113
+msgid "Highlight Matches"
+msgstr "突出显示匹配文本"
+
+#. i18n: ectx: property (text), widget (QLabel, labelUseEtags)
+#: src/plugins/gid/config.ui:119
+msgid "Highlight definitions using etags(1):"
+msgstr "使用 etags(1) 的加亮定义："
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, useEtags)
+#: src/plugins/gid/config.ui:129
+msgid "Use etags(1) to find definitions, and highlight them."
+msgstr "使用 etags(1) 查找定义，并高亮显示他们。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useEtags)
+#: src/plugins/gid/config.ui:132
+msgid "Enabled"
+msgstr "已启用"
+
+#. i18n: ectx: property (text), widget (QLabel, labelUseSuffixes)
+#: src/plugins/gid/config.ui:139
+msgid "Highlight files with suffixes:"
+msgstr "高亮显示带此后缀的文件："
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, useSuffixes)
+#: src/plugins/gid/config.ui:149
+msgid "Use .h;.hxx to highlight files which may contain declarations."
+msgstr "使用 .h;.hxx 高亮显示包含声明的文件。"
+
+#. i18n: ectx: Menu (gid)
+#: src/plugins/gid/gid_ui.rc:10
+msgid "&Gid"
+msgstr "&Gid"
+
+#. i18n: ectx: property (whatsThis), widget (KHistoryComboBox, filter)
+#: src/plugins/gid/tool.ui:17
+#, no-c-format
+msgid ""
+"A regular expression which must also be matched. Use %{token} to include the "
+"token.\n"
+"\n"
+"This can be used to get the effect of full text searching for strings which "
+"contain the token and match the filter."
+msgstr ""
+"同时需匹配的正则表达式。使用 %{token} 来包含符号。\n"
+"\n"
+"可用于获取完整文本搜索的效果，包含标记并匹配过滤器。"
+
+#. i18n: ectx: property (whatsThis), widget (KHistoryComboBox, token)
+#: src/plugins/gid/tool.ui:33
+msgid ""
+"Find a symbol, filename or other token using auto-completion. Hit return to "
+"lookup occurrences within files."
+msgstr "使用自动完成查找符号，文件名或其他符号。单击回车查找文件内的事件。"
+
+#. i18n: ectx: property (text), widget (QPushButton, settings)
+#: src/plugins/gid/tool.ui:43
+msgid "Settings..."
+msgstr "设置..."
+
+#. i18n: ectx: property (text), widget (QLabel, labelToken)
+#: src/plugins/gid/tool.ui:50
+msgid "Token:"
+msgstr "符号："
+
+#. i18n: ectx: property (whatsThis), widget (QTableView, matches)
+#: src/plugins/gid/tool.ui:64
+msgid "Filtered matches for the token. Activate a match to jump to it."
+msgstr "过滤的符号匹配。激活一个匹配以跳转。"
+
+#. i18n: ectx: property (whatsThis), widget (QTableView, history)
+#: src/plugins/gid/tool.ui:84
+msgid "Stack of previous locations. Activate an item to jump to it."
+msgstr "先前位置的堆栈。激活一个项目以跳转。"
+
+#. i18n: ectx: property (text), widget (QLabel, labelFilter)
+#: src/plugins/gid/tool.ui:104
+msgid "Filter:"
+msgstr "过滤器："
+
+#: src/plugins/js_utils/__init__.py:41
+msgctxt "@item:inmenu"
+msgid "JavaScript Utilities"
+msgstr "JavaScript 工具"
+
+#: src/plugins/js_utils/__init__.py:42
+msgctxt "@title:group"
+msgid "JavaScript Utilities Options"
+msgstr ""
+
+#: src/plugins/js_utils/js_autocomplete.py:33
+msgctxt "@title:menu"
+msgid "JavaScript autocomplete"
+msgstr ""
+
+#: src/plugins/js_utils/js_autocomplete.py:52
+msgctxt "@title:menu"
+msgid "jQuery autocomplete"
+msgstr ""
+
+#: src/plugins/js_utils/js_lint.py:72
+msgctxt "@info:status"
+msgid ""
+"<p>\n"
+"            Additionally to free software licenses like GPL and MIT,\n"
+"            this functionality requires you to accept the following "
+"conditions:\n"
+"            </p><p>%1</p><p>\n"
+"            Do you want to accept and download the functionality?\n"
+"            </p>"
+msgstr ""
+
+#: src/plugins/js_utils/js_lint.py:78
+msgctxt "@title:window"
+msgid "Accept license?"
+msgstr ""
+
+#: src/plugins/js_utils/js_lint.py:88
+msgctxt "@info:status"
+msgid "No acceptable linter named %1!"
+msgstr ""
+
+#: src/plugins/js_utils/js_lint.py:111
+msgctxt "@info:status"
+msgid "Download failed"
+msgstr "下载失败"
+
+#: src/plugins/js_utils/js_lint.py:130
+msgctxt "@info:status"
+msgid "<application>%1</application> OK"
+msgstr "<application>%1</application> 确定"
+
+#: src/plugins/js_utils/js_lint.py:146
+msgctxt "@info:status"
+msgid "<application>%1</application> Errors:"
+msgstr "<application>%1</application> 错误："
+
+#. i18n: ectx: property (title), widget (QGroupBox, jsonConfig)
+#: src/plugins/js_utils/js_utils.ui:17
+msgid "JSON config"
+msgstr "JSON 配置"
+
+#. i18n: ectx: property (text), widget (QLabel, jsonIndentLabel)
+#: src/plugins/js_utils/js_utils.ui:23
+msgid "JSON Indent"
+msgstr "JSON 缩进"
+
+#. i18n: ectx: property (text), widget (QLabel, jsonEncodingLabel)
+#: src/plugins/js_utils/js_utils.ui:40
+msgid "JSON encoding"
+msgstr "JSON 编码"
+
+#. i18n: ectx: property (value), widget (QLineEdit, jsonEncoding)
+#: src/plugins/js_utils/js_utils.ui:50
+msgid "utf-8"
+msgstr "UTF-8"
+
+#. i18n: ectx: property (title), widget (QGroupBox, menuConfig)
+#: src/plugins/js_utils/js_utils.ui:60
+#, fuzzy
+#| msgid "JSON config"
+msgid "Menu config"
+msgstr "JSON 配置"
+
+#. i18n: ectx: property (text), widget (QLabel, lintOnSaveLabel)
+#: src/plugins/js_utils/js_utils.ui:66
+msgid "Lint when saving"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, jsAutocompletionLabel)
+#: src/plugins/js_utils/js_utils.ui:79
+msgid "JavaScript autocompletion"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, jQueryAutocompletionLabel)
+#: src/plugins/js_utils/js_utils.ui:92
+msgid "jQuery autocompletion"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, linterLabel)
+#: src/plugins/js_utils/js_utils.ui:105
+msgid "Linter"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, jQueryReadyConfig)
+#: src/plugins/js_utils/js_utils.ui:121
+msgid "jQuery ready Snippet"
+msgstr ""
+
+#. i18n: ectx: Menu (javascript)
+#: src/plugins/js_utils/js_utils_ui.rc:10
+msgid "&JavaScript"
+msgstr "&JavaScript"
+
+#: src/plugins/js_utils/json_pretty.py:55
+msgctxt "@info:status"
+msgid "This selected text is not valid JSON: <message>%1</message>"
+msgstr ""
+
+#: src/plugins/libkatepate/autocomplete.py:44
+msgid "Autopate"
+msgstr ""
+
+#: src/plugins/libkatepate/decorators.py:64
+msgctxt "@info:tooltip placeholder is a mime-type"
+msgid "This action has no sense for <command>%1</command> documents"
+msgstr ""
+
+#: src/plugins/libkatepate/decorators.py:84
+msgctxt "@title:window"
+msgid "Sorry..."
+msgstr "抱歉..."
+
+#: src/plugins/libkatepate/decorators.py:87
+msgctxt "@info:tooltip placeholder is a mime-type"
+msgid "<command>%1</command> is unsupported document type."
+msgstr ""
+
+#: src/plugins/libkatepate/decorators.py:114
+msgctxt "@info:tooltip"
+msgid "This operation is for block selection mode"
+msgstr ""
+
+#: src/plugins/libkatepate/decorators.py:119
+msgctxt "@info:tooltip"
+msgid "This operation is for normal selection mode"
+msgstr ""
+
+#: src/plugins/libkatepate/decorators.py:137
+msgctxt "@info:tooltip"
+msgid "This operation cannot be performed while text is selected"
+msgstr ""
+
+#: src/plugins/libkatepate/decorators.py:139
+msgctxt "@info:tooltip"
+msgid "Text must be selected to perform this operation"
+msgstr ""
+
+#: src/plugins/libkatepate/errors.py:73
+msgid ""
+"\n"
+"\n"
+"And other errors"
+msgstr ""
+
+#: src/plugins/libkatepate/errors.py:82
+msgctxt "@title:window"
+msgid "Success"
+msgstr "成功"
+
+#: src/plugins/libkatepate/errors.py:106
+msgid "~*~ Position: (%1, %2)"
+msgstr "~*~ 位置：(%1, %2)"
+
+#: src/plugins/libkatepate/errors.py:108
+msgid "~*~ Line: %1"
+msgstr "~*~ 行：%1"
+
+#: src/plugins/python_autocomplete/python_autocomplete.py:52
+msgid "Python autocomplete"
+msgstr ""
+
+#: src/plugins/python_autocomplete/python_autocomplete.py:140
+msgid "There was a syntax error in this file:"
+msgstr ""
+
+#: src/plugins/python_autocomplete/python_autocomplete.py:142
+msgctxt "%1 is error message"
+msgid ""
+"%1\n"
+"  * file: %2"
+msgstr ""
+
+#: src/plugins/python_autocomplete/python_autocomplete.py:144
+msgctxt "%1 is error message"
+msgid ""
+"%1\n"
+"  * text: %2"
+msgstr ""
+
+#: src/plugins/python_autocomplete/python_autocomplete.py:146
+msgctxt "%1 is error message"
+msgid ""
+"%1\n"
+"  * line: %2"
+msgstr ""
+
+#: src/plugins/python_autocomplete_jedi.py:75
+msgctxt "@label:listbox"
+msgid "Python Jedi autocomplete"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, generalTab)
+#: src/plugins/python_console_classic/config.ui:10
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, ps2)
+#: src/plugins/python_console_classic/config.ui:16
+msgid "Continuation prompt"
+msgstr "继续提示符"
+
+#. i18n: ectx: property (text), widget (KLineEdit, ps2)
+#: src/plugins/python_console_classic/config.ui:19
+msgid "..."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, ps1)
+#: src/plugins/python_console_classic/config.ui:26
+msgid "Main prompt"
+msgstr "主提示符"
+
+#. i18n: ectx: property (text), widget (KLineEdit, ps1)
+#: src/plugins/python_console_classic/config.ui:29
+msgid ">>>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelPs2)
+#: src/plugins/python_console_classic/config.ui:36
+msgid "Continuation Prompt:"
+msgstr "继续提示符："
+
+#. i18n: ectx: property (text), widget (QLabel, labelPs1)
+#: src/plugins/python_console_classic/config.ui:46
+msgid "Main Prompt:"
+msgstr "主提示符："
+
+#. i18n: ectx: property (whatsThis), widget (KFontChooser, font)
+#: src/plugins/python_console_classic/config.ui:56
+msgid "Main display font"
+msgstr "主显示字体"
+
+#. i18n: ectx: attribute (title), widget (QWidget, coloursTab)
+#: src/plugins/python_console_classic/config.ui:64
+msgid "Highlighting"
+msgstr "突出显示"
+
+#. i18n: ectx: property (text), widget (QLabel, promptLabel)
+#: src/plugins/python_console_classic/config.ui:70
+msgid "Prompt:"
+msgstr "提示符："
+
+#. i18n: ectx: property (text), widget (QLabel, stringLabel)
+#: src/plugins/python_console_classic/config.ui:83
+msgid "String:"
+msgstr "字符串："
+
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: src/plugins/python_console_classic/config.ui:96
+msgid "Name:"
+msgstr "名称："
+
+#. i18n: ectx: property (text), widget (QLabel, integerLabel)
+#: src/plugins/python_console_classic/config.ui:109
+msgid "Integer:"
+msgstr "整型："
+
+#. i18n: ectx: property (text), widget (QLabel, floatLabel)
+#: src/plugins/python_console_classic/config.ui:122
+msgid "Float:"
+msgstr "浮点："
+
+#. i18n: ectx: property (text), widget (QLabel, helpLabel)
+#: src/plugins/python_console_classic/config.ui:135
+msgid "Help:"
+msgstr "帮助："
+
+#. i18n: ectx: property (text), widget (QLabel, exceptionLabel)
+#: src/plugins/python_console_classic/config.ui:148
+msgid "Exception:"
+msgstr "异常："
+
+#: src/plugins/python_console_classic/python_console_classic.py:241
+msgid ""
+"Type help(object) for help on object.\n"
+"Type an expression to evaluate the expression."
+msgstr ""
+
+#: src/plugins/python_console_classic/python_console_classic.py:552
+msgctxt "@title:tab"
+msgid "Python Console"
+msgstr "Python 控制台"
+
+#: src/plugins/python_console_classic/python_console_classic.py:558
+msgctxt "@item:inmenu"
+msgid "Python Console"
+msgstr "Python 控制台"
+
+#: src/plugins/python_console_classic/python_console_classic.py:559
+#, fuzzy
+#| msgid "System Settings"
+msgctxt "@title:group"
+msgid "Python Console Settings"
+msgstr "系统设置"
+
+#: src/plugins/python_console_ipython/python_console_ipython.py:127
+msgid ""
+"\n"
+"Failed to import “%1” from “%2” reason: %3"
+msgstr ""
+
+#: src/plugins/python_console_ipython/python_console_ipython.py:130
+msgid ""
+"\n"
+"From “%1” autoload: %2"
+msgstr ""
+
+#: src/plugins/python_console_ipython/python_console_ipython.py:147
+msgid ""
+"\n"
+"\n"
+"Cannot load this project: %1. Python Version incompatible"
+msgstr ""
+
+#: src/plugins/python_console_ipython/python_console_ipython.py:155
+msgid ""
+"\n"
+"\n"
+"Load project: %1"
+msgstr ""
+
+#: src/plugins/python_console_ipython/python_console_ipython.py:179
+msgid ""
+"\n"
+"Available variables are everything from pylab, “%1”, and this console as "
+"“console”"
+msgstr ""
+
+#: src/plugins/python_console_ipython/python_console_ipython.py:266
+msgctxt "@item:inmenu"
+msgid "IPython Console"
+msgstr "IPython 终端"
+
+#: src/plugins/python_console_ipython/python_console_ipython.py:267
+#, fuzzy
+#| msgid "System Settings"
+msgctxt "@title:group"
+msgid "IPython Console Settings"
+msgstr "系统设置"
+
+#: src/plugins/python_console_ipython/python_console_ipython.py:282
+msgctxt "@title:tab"
+msgid "IPython Console"
+msgstr "IPython 终端"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/python_console_ipython/python_console_ipython.ui:9
+msgid "Scrollback lines count (needs close and open kate editor)"
+msgstr "回滚行数(需要关闭再打开 Kate)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/python_console_ipython/python_console_ipython.ui:23
+msgid "GUI completion type (needs close and open kate editor)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, guiCompletionType)
+#: src/plugins/python_console_ipython/python_console_ipython.ui:31
+msgid "Drop List"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, guiCompletionType)
+#: src/plugins/python_console_ipython/python_console_ipython.ui:36
+msgid "Normal"
+msgstr "普通"
+
+#: src/plugins/python_utils/python_checkers/all_checker.py:62
+#: src/plugins/python_utils/python_checkers/pep8_checker.py:84
+msgid "You must save the file first"
+msgstr ""
+
+#: src/plugins/python_utils/python_checkers/parse_checker.py:49
+msgid "Parse code Ok"
+msgstr ""
+
+#: src/plugins/python_utils/python_checkers/parse_checker.py:54
+msgid "Parse code Errors:"
+msgstr ""
+
+#: src/plugins/python_utils/python_checkers/pep8_checker.py:125
+msgid "Pep8 Ok"
+msgstr ""
+
+#: src/plugins/python_utils/python_checkers/pep8_checker.py:135
+msgid "Pep8 Errors:"
+msgstr ""
+
+#: src/plugins/python_utils/python_checkers/pyflakes_checker.py:78
+msgid "Problem decoding source"
+msgstr ""
+
+#: src/plugins/python_utils/python_checkers/pyflakes_checker.py:112
+msgid "Pyflakes Ok"
+msgstr ""
+
+#: src/plugins/python_utils/python_checkers/pyflakes_checker.py:125
+msgid "Pyflakes Errors:"
+msgstr ""
+
+#: src/plugins/python_utils/python_settings.py:23
+msgid "Checkers"
+msgstr "方格"
+
+#: src/plugins/python_utils/python_settings.py:28
+msgid "__init__ method"
+msgstr ""
+
+#: src/plugins/python_utils/python_settings.py:30
+msgid "call super"
+msgstr ""
+
+#: src/plugins/python_utils/python_settings.py:32
+msgid "call recursive"
+msgstr ""
+
+#: src/plugins/python_utils/python_settings.py:34
+msgid "Check all"
+msgstr "全部选中"
+
+#: src/plugins/python_utils/python_settings.py:38
+msgid "Syntax Errors"
+msgstr ""
+
+#: src/plugins/python_utils/python_settings.py:45
+msgid "Python Utils"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/plugins/python_utils/python_utils.ui:11
+msgid "PEP-8 config"
+msgstr "PEP-8 配置"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/python_utils/python_utils.ui:17
+msgid "Check PEP8 when save"
+msgstr "保存时检查 PEP8"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/python_utils/python_utils.ui:28
+msgid "Ignore PEP8 errors"
+msgstr "忽略 PEP8 错误"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/python_utils/python_utils.ui:44
+msgid "Check PyFlakes when save"
+msgstr "保存时检查 PyFlakes"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/python_utils/python_utils.ui:59
+msgid "Check Syntax Errors when save"
+msgstr "保存时检查语法错误"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/python_utils/python_utils.ui:74
+msgid "IPython pdb snippet"
+msgstr ""
+
+#. i18n: ectx: property (value), widget (QLineEdit, ipdbSnippet)
+#: src/plugins/python_utils/python_utils.ui:81
+msgid "import ipdb; ipdb.set_trace()"
+msgstr "导入 ipdb; ipdb.set_trace()"
+
+#: src/plugins/try_open_file.py:46
+msgctxt "@info:tooltip"
+msgid "Unable to open the selected document: <filename>%1</filename>"
+msgstr ""
+
+#: src/plugins/try_open_file.py:69
+msgctxt "@info:tooltip"
+msgid "Selected text doesn't looks like a valid URI"
+msgstr ""
+
+#: src/plugins/try_open_file.py:101
+msgctxt "@ation:inmenu"
+msgid "Open <filename>%1</filename>"
+msgstr "打开 <filename>%1</filename>"
+
+#: src/plugins/try_open_file.py:105
+msgctxt "@ation:inmenu"
+msgid "Open selected document"
+msgstr ""
+
+#: src/plugins/xml_pretty.py:81
+msgctxt "@info:tooltip"
+msgid "The selected text is not valid XML: %1"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/xml_pretty.ui:9
+msgid "Indent:"
+msgstr "缩进："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/plugins/xml_pretty.ui:29
+msgid "New line:"
+msgstr ""
+
+#. i18n: ectx: property (value), widget (KLineEdit, indent)
+#. i18n: ectx: property (value), widget (KLineEdit, newl)
+#: src/plugins/xml_pretty.ui:36 src/plugins/xml_pretty.ui:46
+msgid "\\\\t"
+msgstr "\\\\t"
+
+#. i18n: ectx: Menu (xml)
+#: src/plugins/xml_pretty_ui.rc:10
+msgid "&XML"
+msgstr "&XML"
+
+#. i18n: ectx: Menu (help)
+#: src/ui.rc:15
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#~ msgid "Actions"
+#~ msgstr "动作"
+
+#~ msgid ""
+#~ "The icon associated with this action. It is shown alongside text in the "
+#~ "menu bar and in toolbars as required. A string to use KDE's image loading "
+#~ "system, or a custom QPixmap or QIcon, or None."
+#~ msgstr ""
+#~ "与此动作关联的图标。在菜单栏和工具栏 (如果需要的话) 的文本旁显示。该字符串"
+#~ "使用 KDE 图片加载系统，或者自定义的 QPixmap、QIcon，或为无。"
+
+#~ msgid ""
+#~ "The shortcut to fire this action, such as 'Ctrl+1', or a QKeySequence "
+#~ "instance, or None."
+#~ msgstr "触发此动作的快捷键，如“Ctrl+1”，或者 QKeySequence 实例，或为无。"
+
+#~ msgid "Description:"
+#~ msgstr "描述："
+
+#~ msgid "Menu Item:"
+#~ msgstr "菜单项："
+
+#~ msgid ""
+#~ "The text associated with the action (used as the menu item label, etc), "
+#~ "or None."
+#~ msgstr "与此动作关联的文本 (用于菜单项标签等)，或为无。"
+
+#, fuzzy
+#~ msgid ""
+#~ "The menu under which to place this item, such as 'tools' or 'settings', "
+#~ "or None."
+#~ msgstr "所在的菜单位置，例如“工具”、“设置”或无。"
+
+#~ msgid "Shortcut:"
+#~ msgstr "快捷键："
+
+#~ msgid "Menu:"
+#~ msgstr "菜单："
+
+#~ msgid "Icon:"
+#~ msgstr "图标："
+
+#~ msgid "Action:"
+#~ msgstr "动作："
+
+#~ msgid "Configuration Pages"
+#~ msgstr "配置页面"
+
+#~ msgid ""
+#~ "The shortcut to fire this action such as 'Ctrl+1', or a QKeySequence "
+#~ "instance, or None."
+#~ msgstr "触发此动作的快捷键，如“Ctrl+1”，或者 QKeySequence 实例，或为无。"
+
+#~ msgid "Title:"
+#~ msgstr "标题："
+
+#~ msgid "Page:"
+#~ msgstr "页面："
+
+#~ msgid "Programmer's Reference"
+#~ msgstr "程序员参考手册"
+
+#~ msgid "Select a Plugin or Built-in Module"
+#~ msgstr "选择插件或内建模块"
+
+#, fuzzy
+#~| msgid "Python Plugins"
+#~ msgid "Pate Plugin"
+#~ msgstr "Python 插件"
+
+#, fuzzy
+#~ msgid "Manager"
+#~ msgstr "管理器"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head/><body><p><span style=\" font-weight:600;\">Caution:</span> "
+#~ "Reloading a running plugin may have unpredictable effects. Consider "
+#~ "saving your work before using this command.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><p>重新载入正在运行的插件将产生不可预知的影响。请考虑在"
+#~ "使用此命令前保存您的工作。</p></body></html>"
+
+#~ msgid "Reload Plugins"
+#~ msgstr "重新装入插件"
+
+#, fuzzy
+#~| msgid "Documentation"
+#~ msgctxt "@title:tab"
+#~ msgid "Documentation"
+#~ msgstr "文档"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Insert Color"
+#~ msgstr "插入颜色"
+
+#~ msgctxt "@action:inmenu a verb"
+#~ msgid "Expand"
+#~ msgstr "展开"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "gid"
+#~ msgstr "gid"
+
+#~ msgid "Hidden"
+#~ msgstr "隐藏"
+
+#~ msgid "Missing plugin file %1"
+#~ msgstr "缺少插件文件 %1"
+
+#~ msgid "Loaded"
+#~ msgstr "已装入"

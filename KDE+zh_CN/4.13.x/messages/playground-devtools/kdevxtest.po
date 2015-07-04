@@ -1,0 +1,205 @@
+# translation of kdevxtest.po to 简体中文
+# Copyright (C) 2002,2003, 2004, 2008, 2009 Free Software Foundation, Inc.
+#
+# Qi Liang <cavendish@eyou.com>, 2001.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003, 2004.
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevxtest\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-12-08 03:09+0100\n"
+"PO-Revision-Date: 2009-02-20 09:23+0000\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#: config/configwidget.cpp:115
+msgid "The path to this test executable."
+msgstr "此测试可执行文件的路径。"
+
+#: config/configwidget.cpp:121
+msgid "Remove this test executable"
+msgstr "删除此测试可执行文件"
+
+#: config/configwidget.cpp:122
+msgid "Remove this test executable from the list of tests."
+msgstr "从测试列表中删除此测试可执行文件。"
+
+#. i18n: ectx: property (whatsThis), widget (QWidget, VeritasConfig)
+#: config/veritasconfig.ui:19
+msgid ""
+"Test settings.\n"
+"\n"
+"Select the test framework used in the project and set its detailed "
+"configuration.\n"
+"\n"
+"Then you can add, edit and remove the test executables to be run. Once "
+"added, they can be run in the tool view of the framework test.\n"
+"\n"
+"Note that you may not be able to add, edit or remove tests if the test "
+"framework and the build manager support automatic test discovery. In that "
+"case, just select the project in the tool view of the framework test and the "
+"test executables will be added automatically."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, frameworkSelection)
+#: config/veritasconfig.ui:36
+msgid "Test framework to use"
+msgstr "要使用的测试框架"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, frameworkSelection)
+#: config/veritasconfig.ui:39
+msgid "Select the test framework used in this project."
+msgstr "选择用于此工程的测试框架。"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, addExecutable)
+#: config/veritasconfig.ui:46
+msgid "Add a new test executable"
+msgstr "添加新测试可执行文件"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, addExecutable)
+#: config/veritasconfig.ui:52
+msgid ""
+"Add a new test executable to be run.\n"
+"The executable must use the specified framework. \n"
+"\n"
+"Note that you may not be able to add a new test if the test framework and "
+"the build manager support automatic test discovery. In that case, just "
+"select the project in the tool view of the framework test and the test "
+"executables will be added automatically."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, expandDetails)
+#: config/veritasconfig.ui:62
+msgid "Expand framework details"
+msgstr "展开框架详情"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, expandDetails)
+#: config/veritasconfig.ui:65
+msgid "Expand the framework configuration details."
+msgstr "展开框架配置详情。"
+
+#. i18n: ectx: property (whatsThis), widget (QFrame, executables)
+#: config/veritasconfig.ui:92
+msgid ""
+"The list of test executables for the selected framework.\n"
+"\n"
+"The list may be disabled if the test framework and the build manager support "
+"automatic test discovery."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, headerLabel)
+#: qtest/classdetailspage.ui:30
+msgid "Header File"
+msgstr "头文件"
+
+#. i18n: ectx: property (text), widget (QLabel, sourceLabel)
+#: qtest/classdetailspage.ui:40
+msgid "Source File"
+msgstr "源文件"
+
+#. i18n: ectx: property (text), widget (QLabel, projectLabel)
+#: qtest/classdetailspage.ui:56
+msgid "Project"
+msgstr "工程"
+
+#. i18n: ectx: property (text), widget (QLabel, identifierLabel)
+#: qtest/classdetailspage.ui:63
+msgid "Class Name"
+msgstr "类名称"
+
+#: qtest/executable.cpp:164
+msgid "Failed to start test executable."
+msgstr "启动测试可执行文件失败。"
+
+#: qtest/executable.cpp:167
+msgid "Test executable crashed."
+msgstr "测试可执行文件已崩溃。"
+
+#: qtest/executable.cpp:170
+msgid "Test executable timed out."
+msgstr "测试可执行文件已超时。"
+
+#: qtest/executable.cpp:173
+msgid "Failed to write to test executable."
+msgstr "写入测试可执行文件失败。"
+
+#: qtest/executable.cpp:176
+msgid "Failed to read from test executable."
+msgstr "从测试可执行文件读取失败。"
+
+#: qtest/executable.cpp:179
+msgid "Unknown error occurred."
+msgstr "遇到未知错误。"
+
+#. i18n: ectx: Menu (code)
+#: qtest/kdevqtest.rc:5
+msgctxt "@title:menu"
+msgid "Code"
+msgstr "代码"
+
+#: qtest/modelbuilder.cpp:110 qtest/modelbuilder.cpp:128
+msgid "Failed to load test suite. No test executables configured."
+msgstr "装入测试套件失败。没有配置测试可执行文件。"
+
+#: qtest/modelbuilder.cpp:114
+msgid "Failed to load test suite. Wrong framework."
+msgstr "装入测试套件失败。错误的框架。"
+
+#: qtest/modelbuilder.cpp:216
+msgid "xTest"
+msgstr "xTest"
+
+#: qtest/qtestoutputjob.cpp:45
+msgid "QTest verbose output"
+msgstr "QTest 显式输出"
+
+#: qtest/qtestplugin.cpp:65
+msgid "QTest test"
+msgstr "QTest 测试"
+
+#: qtest/qtestplugin.cpp:65
+msgid "Support for running QTest unit tests"
+msgstr "运行 QTest 单元测试支持"
+
+#: qtest/qtestplugin.cpp:77
+msgctxt "@info:whatsthis Appended to the end of another WhatsThis help"
+msgid ""
+"<para>In this case, only projects configured to use QTest framework can be "
+"selected.</para>"
+msgstr ""
+
+#: qtest/qtestplugin.cpp:129
+msgid "Print each QVERIFY/QCOMPARE"
+msgstr "打印每个 QVERIFY/QCOMPARE"
+
+#: qtest/qtestplugin.cpp:134
+msgid "Print every signal emitted"
+msgstr "打印每个发出的信号"
+
+#~ msgid "Test registration XML."
+#~ msgstr "测试注册 XML。"
+
+#~ msgid "Test root."
+#~ msgstr "测试根。"
+
+#~ msgid "profile"
+#~ msgstr "配置文件"
+
+#~ msgid "Create &QTest"
+#~ msgstr "创建 QTest(&Q)"

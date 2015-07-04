@@ -1,0 +1,2145 @@
+# translation of libeventviews.po to 简体中文
+# Copyright (C) 2002,2003, 2008 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.net.cn>, 2000.
+# Xiong Jiang <jxiong@offtopic.org>, 2002, 2003.
+# Funda Wang <fundawang@linux.net.cn>, 2002, 2003, 2004, 2008.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2010.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: libeventviews\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-13 01:36+0000\n"
+"PO-Revision-Date: 2013-01-22 15:36-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#, fuzzy
+#| msgid "Full &name"
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "全名(&N)"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: agenda/agenda.cpp:999
+msgid "Unable to lock item for modification. You cannot make any changes."
+msgstr "无法锁定对项目的修改。您无法进行任何更改。"
+
+#: agenda/agenda.cpp:1001
+msgid "Locking Failed"
+msgstr "锁定失败"
+
+#: agenda/agenda.cpp:1189
+msgid "Dissociate event from recurrence"
+msgstr "从重现中分离事件"
+
+#: agenda/agenda.cpp:1207 month/monthitem.cpp:459
+msgid ""
+"Unable to add the exception item to the calendar. No change will be done."
+msgstr "无法将例外项目添加到日历。未更改。"
+
+#: agenda/agenda.cpp:1209 month/monthitem.cpp:461
+msgid "Error Occurred"
+msgstr "发生了错误"
+
+#: agenda/agendaitem.cpp:86 list/listview.cpp:427
+#, kde-format
+msgid "%2 (1 year)"
+msgid_plural "%2 (%1 years)"
+msgstr[0] "%2(%1 年)"
+
+#: agenda/agendaitem.cpp:648
+#, kde-format
+msgid "Attendee \"%1\" added to the calendar item \"%2\""
+msgstr "参与者“%1”已被添加到日历项目“%2”"
+
+#: agenda/agendaitem.cpp:650
+msgid "Attendee added"
+msgstr "参与者已添加"
+
+#: agenda/agendaitem.cpp:946 agenda/agendaitem.cpp:1052
+#, kde-format
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: agenda/agendaitem.cpp:962
+#, kde-format
+msgid "- %1"
+msgstr "- %1"
+
+#: agenda/agendaview.cpp:1146
+#, kde-format
+msgctxt "short_weekday date (e.g. Mon 13)"
+msgid "%1 %2"
+msgstr "%1月%2日"
+
+#: agenda/agendaview.cpp:1909
+msgid "Unable to modify this to-do, because it cannot be locked."
+msgstr "无法修改此待办事宜，因为无法锁定它。"
+
+#: agenda/agendaview.cpp:1918
+#, kde-format
+msgid "Unable to save %1 \"%2\"."
+msgstr "无法保存 %1“%2”。"
+
+#: agenda/timelabels.cpp:67
+msgid "Timezone:"
+msgstr "时区："
+
+#: agenda/timelabels.cpp:304
+msgid "&Add Timezones..."
+msgstr "添加时区(&A)..."
+
+#: agenda/timelabels.cpp:307
+#, kde-format
+msgid "&Remove Timezone %1"
+msgstr "删除时区 %1(&R)"
+
+#: agenda/timelabels.cpp:349
+#, kde-format
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#: agenda/timelabels.cpp:353
+#, kde-format
+msgid "<i>Country Code:</i> %1"
+msgstr "<i>国家代码：</i>%1"
+
+#: agenda/timelabels.cpp:357
+msgid "<i>Abbreviations:</i>"
+msgstr "<i>缩写：</i>"
+
+#: agenda/timelabels.cpp:367
+#, kde-format
+msgid "<i>Comment:</i> %1"
+msgstr "<i>备注：</i>%1"
+
+#: agenda/timescaleconfigdialog.cpp:79
+msgid "Timezone"
+msgstr "时区"
+
+#: eventview.cpp:127
+msgctxt "@title:window"
+msgid "Changing Recurring Item"
+msgstr "更改重现项目"
+
+#: eventview.cpp:128
+msgid "Also &Future Items"
+msgstr "只有未来(&F)"
+
+#: eventview.cpp:129
+msgid "Only &This Item"
+msgstr "只有本次(&T)"
+
+#: eventview.cpp:130
+msgid "&All Occurrences"
+msgstr "每次出现(&A)"
+
+#: eventview.cpp:147
+msgid ""
+"The item you are trying to change is a recurring item. Should the changes be "
+"applied only to this single occurrence, also to future items, or to all "
+"items in the recurrence?"
+msgstr ""
+"您正试图更改一个重现项目。想要更改仅对单次重现生效，或是对未来重现生效，还是"
+"对所有重现生效？"
+
+#: eventview.cpp:158
+msgid ""
+"The item you are trying to change is a recurring item. Should the changes be "
+"applied only to this single occurrence or to all items in the recurrence?"
+msgstr ""
+"您正试图更改一个重现项目。想要更改仅对单次重现生效，还是对所有重现生效？"
+
+#. i18n: ectx: label, entry (DefaultEmailAttachMethod), group (Personal Settings)
+#: eventviews.kcfg:16
+msgid "Default Email Attachment Method"
+msgstr "默认电子邮件附件方式"
+
+#. i18n: ectx: whatsthis, entry (DefaultEmailAttachMethod), group (Personal Settings)
+#: eventviews.kcfg:17
+msgid "The default way of attaching dropped emails to an event"
+msgstr "对一个事件默认采用的电子邮件附件方式"
+
+#. i18n: ectx: label, entry (DefaultEmailAttachMethod), group (Personal Settings)
+#. i18n: ectx: label, entry (DefaultTodoAttachMethod), group (Hidden Options)
+#: eventviews.kcfg:20 eventviews.kcfg:463
+msgid "Always ask"
+msgstr "总是询问"
+
+#. i18n: ectx: label, entry (DefaultEmailAttachMethod), group (Personal Settings)
+#. i18n: ectx: label, entry (DefaultTodoAttachMethod), group (Hidden Options)
+#: eventviews.kcfg:23 eventviews.kcfg:466
+msgid "Only attach link to message"
+msgstr "只在信件中附加链接"
+
+#. i18n: ectx: label, entry (DefaultEmailAttachMethod), group (Personal Settings)
+#. i18n: ectx: label, entry (DefaultTodoAttachMethod), group (Hidden Options)
+#: eventviews.kcfg:26 eventviews.kcfg:469
+msgid "Attach complete message"
+msgstr "附加完整信件"
+
+#. i18n: ectx: label, entry (DefaultEmailAttachMethod), group (Personal Settings)
+#: eventviews.kcfg:29
+msgid "Attach message without attachments"
+msgstr "附上无附件的信件"
+
+#. i18n: ectx: label, entry, group (Save Settings)
+#: eventviews.kcfg:39
+msgid "Export to HTML with every save"
+msgstr "每次保存都导出为 HTML"
+
+#. i18n: ectx: whatsthis, entry, group (Save Settings)
+#: eventviews.kcfg:40
+msgid ""
+"Check this box to export the calendar to a HTML-file every time you save it. "
+"By default, this file will be called calendar.html and placed in the user "
+"home folder."
+msgstr ""
+"选中此项可在每次您保存日历时将其导出为 HTML 文件。此文件默认名为 calendar."
+"html，存放在用户主目录下。"
+
+#. i18n: ectx: label, entry, group (Save Settings)
+#: eventviews.kcfg:45
+msgid "Enable automatic saving of manually opened calendar files"
+msgstr "对手动打开的日历文件启用自动保存"
+
+#. i18n: ectx: whatsthis, entry, group (Save Settings)
+#: eventviews.kcfg:46
+msgid ""
+"Check this box to save your calendar file automatically when you exit "
+"KOrganizer without asking and periodically, as you work. This setting does "
+"not affect the automatic saving of the standard calendar, which is "
+"automatically saved after each change."
+msgstr ""
+"选中此框可在您退出 KOrganizer 时不加询问且周期性地自动保存您的日历文件。此设"
+"置不会影响标准日历的自动保存设定，标准日历会在每次更改后自动被保存。"
+
+#. i18n: ectx: label, entry, group (Save Settings)
+#: eventviews.kcfg:51
+msgid "Save &interval in minutes"
+msgstr "保存间隔(分钟)(&I)："
+
+#. i18n: ectx: whatsthis, entry, group (Save Settings)
+#: eventviews.kcfg:52
+msgid ""
+"Set the interval between automatic saving of calendar events in minutes "
+"here. This setting only applies to files that are opened manually. The "
+"standard KDE-wide calendar is automatically saved after each change."
+msgstr ""
+"在此设置日历项的自动保存间隔(按分钟计)。此设置只应用于手动打开的文件，标准的"
+"KDE 全局日历会在每次更改后自动被保存。"
+
+#. i18n: ectx: label, entry (Confirm), group (Save Settings)
+#: eventviews.kcfg:58
+msgid "Confirm deletes"
+msgstr "确认删除"
+
+#. i18n: ectx: whatsthis, entry (Confirm), group (Save Settings)
+#: eventviews.kcfg:59
+msgid "Check this box to display a confirmation dialog when deleting items."
+msgstr "选中此项会在删除项目时显示确认对话框。"
+
+#. i18n: ectx: label, entry (Destination), group (Save Settings)
+#: eventviews.kcfg:64
+msgid "New Events, To-dos and Journal Entries Should"
+msgstr "新建事件、待办事宜和日记条目时的行为"
+
+#. i18n: ectx: label, entry (Destination), group (Save Settings)
+#: eventviews.kcfg:67
+msgid "Be added to the standard calendar"
+msgstr "添加到标准日历中"
+
+#. i18n: ectx: whatsthis, entry (Destination), group (Save Settings)
+#: eventviews.kcfg:68
+msgid ""
+"Select this option to always record new events, to-dos and journal entries "
+"using the standard calendar."
+msgstr "选中此项会总是以标准日历记录新建事件、待办事宜和日记条目。"
+
+#. i18n: ectx: label, entry (Destination), group (Save Settings)
+#: eventviews.kcfg:71
+msgid "Be asked which calendar to use"
+msgstr "询问要使用哪个日历"
+
+#. i18n: ectx: whatsthis, entry (Destination), group (Save Settings)
+#: eventviews.kcfg:72
+msgid ""
+"Select this option to choose the calendar to be used to record the item each "
+"time you create a new event, to-do or journal entry. This choice is "
+"recommended if you intend to use the shared folders functionality of the "
+"Kolab server or have to manage multiple accounts using Kontact as a KDE "
+"Kolab client. "
+msgstr ""
+"选中此项会在每次新建事件、待办事宜和日记条目时询问要用来记录的日历。如果您要"
+"使用 Kolab 服务器的共享文件夹功能，或需要让 Kontact 作为 KDE 的 Kolab 客户端"
+"管理多个账户，推荐使用此选项。"
+
+#. i18n: ectx: label, entry, group (System Tray)
+#: eventviews.kcfg:82
+msgid "Show Reminder Daemon in the System Tray"
+msgstr "在系统托盘中显示提醒进程"
+
+#. i18n: ectx: whatsthis, entry, group (System Tray)
+#: eventviews.kcfg:83
+msgid ""
+"Check this box to show the KOrganizer reminder daemon in the system tray."
+msgstr "选中此项可防止 KOrganizer 在假日期间标记工作时间。"
+
+#. i18n: ectx: whatsthis, entry (TimeZoneId), group (Time &amp; Date)
+#: eventviews.kcfg:91
+msgid ""
+"Select your timezone from the list of locations in this drop down box. If "
+"your city is not listed, select one which shares the same timezone. "
+"KOrganizer will automatically adjust for daylight savings."
+msgstr ""
+"从此下拉框的列表中选择您所在位置的时区。如果里面没有列出您要选的城市，请另选"
+"一个时区一致的城市。KOrganizer 会自动调整白昼设定。"
+
+#. i18n: ectx: label, entry (DayBegins), group (Time &amp; Date)
+#: eventviews.kcfg:95
+msgid "Day begins at"
+msgstr "一天开始于"
+
+#. i18n: ectx: whatsthis, entry (DayBegins), group (Time &amp; Date)
+#: eventviews.kcfg:96
+msgid ""
+"Enter the start time for events here. This time should be the earliest time "
+"that you use for events, as it will be displayed at the top."
+msgstr "在此输入事件的起始时间。它应是事件的最早时间，会被显示在顶端。"
+
+#. i18n: ectx: label, entry (WorkingHoursStart), group (Time &amp; Date)
+#: eventviews.kcfg:101
+msgid "Daily starting hour"
+msgstr "每天上班时间"
+
+#. i18n: ectx: whatsthis, entry (WorkingHoursStart), group (Time &amp; Date)
+#: eventviews.kcfg:102
+msgid ""
+"Enter the start time for the working hours here. The working hours will be "
+"marked with color by KOrganizer."
+msgstr "在此输入上班时间。在 KOrganizer 中工作时间会被标记上颜色。"
+
+#. i18n: ectx: label, entry (WorkingHoursEnd), group (Time &amp; Date)
+#: eventviews.kcfg:107
+msgid "Daily ending hour"
+msgstr "每天下班时间"
+
+#. i18n: ectx: whatsthis, entry (WorkingHoursEnd), group (Time &amp; Date)
+#: eventviews.kcfg:108
+msgid ""
+"Enter the ending time for the working hours here. The working hours will be "
+"marked with color by KOrganizer."
+msgstr "在此输入下班时间。在 KOrganizer 中工作时间会被标记上颜色。"
+
+#. i18n: ectx: label, entry, group (General View)
+#: eventviews.kcfg:117 viewerapp/settings.kcfg:16
+msgid "Enable tooltips for displaying summaries"
+msgstr "启用工具提示中的概要显示"
+
+#. i18n: ectx: whatsthis, entry, group (General View)
+#: eventviews.kcfg:118 viewerapp/settings.kcfg:17
+msgid ""
+"Check this box to display summary tooltips when hovering the mouse over an "
+"event or a to-do."
+msgstr "选中此项会在鼠标悬停在一个事件或待办事宜上时显示摘要提示。"
+
+#. i18n: ectx: label, entry, group (General View)
+#: eventviews.kcfg:123
+msgid "To-dos use category colors"
+msgstr "待办事宜使用类别颜色"
+
+#. i18n: ectx: whatsthis, entry, group (General View)
+#: eventviews.kcfg:124
+msgid ""
+"Check this box so that to-dos will use category colors and not colors "
+"specific to their due, due today or overdue state"
+msgstr ""
+"如果启用此项，待办事宜会使用类别对应的颜色，而不是根据是否到期来区分颜色。"
+
+#. i18n: ectx: label, entry, group (General View)
+#: eventviews.kcfg:129
+msgid "Next x days"
+msgstr "后几天"
+
+#. i18n: ectx: whatsthis, entry, group (General View)
+#: eventviews.kcfg:130
+msgid ""
+"Select the number of \"x\" days to be displayed in the next days view. To "
+"access the next \"x\" days view, choose the \"Next X Days\" menu item from "
+"the \"View\" menu."
+msgstr ""
+"在此选择“后几天”视图中显示的天数。要使用“后几天”视图，请在“查看”菜单中选择“后"
+"几天”菜单项。"
+
+#. i18n: ectx: tooltip, entry, group (General View)
+#: eventviews.kcfg:131
+msgid "Show this many days at a time in the Next \"x\" days view"
+msgstr "在“未来X天”视图中显示这几天的日程"
+
+#. i18n: ectx: label, entry (DailyRecur), group (General View)
+#: eventviews.kcfg:136
+msgid "Show items that recur daily"
+msgstr "显示每天重复出现的项目"
+
+#. i18n: ectx: whatsthis, entry (DailyRecur), group (General View)
+#: eventviews.kcfg:137
+msgid ""
+"Check this box to show the days containing daily recurring events in bold "
+"typeface in the Date Navigator, or uncheck it to give more prominence to "
+"other (non daily recurring) events."
+msgstr ""
+"选中此框可在日期导航器中以粗体字显示含有每日重现事件的日期，反选它则会使其它"
+"非每日重现的事件更显眼。"
+
+#. i18n: ectx: label, entry (WeeklyRecur), group (General View)
+#: eventviews.kcfg:142
+msgid "Show items that recur weekly"
+msgstr "显示每周重复出现的项目"
+
+#. i18n: ectx: whatsthis, entry (WeeklyRecur), group (General View)
+#: eventviews.kcfg:143
+msgid ""
+"Check this box to show the days containing weekly recurring events in bold "
+"typeface in the Date Navigator, or uncheck it to give more prominence to "
+"other (non weekly recurring) events."
+msgstr ""
+"选中此框可在日期导航器中以粗体字显示含有每周重现事件的日期，反选它则会使其它"
+"非每周重现的事件更显眼。"
+
+#. i18n: ectx: label, entry (HighlightTodos), group (General View)
+#: eventviews.kcfg:148
+msgid "Show to-dos instead of events when in Todo View"
+msgstr "在待办事宜视图中显示待办事宜而非事件"
+
+#. i18n: ectx: whatsthis, entry (HighlightTodos), group (General View)
+#: eventviews.kcfg:149
+msgid ""
+"Check this box to show the days containing to-dos in bold typeface in the "
+"Date Navigator when in to-do view."
+msgstr ""
+"在待办事宜视图中，选中此框可在日期导航器中以粗体字显示含有待办事宜的日期。"
+
+#. i18n: ectx: label, entry (HighlightJournals), group (General View)
+#: eventviews.kcfg:154
+msgid "Show journals instead of events when in Journal View"
+msgstr "在日记视图中显示日记而非事件"
+
+#. i18n: ectx: whatsthis, entry (HighlightJournals), group (General View)
+#: eventviews.kcfg:155
+msgid ""
+"Check this box to show the days containing journals in bold typeface in the "
+"Date Navigator when in journal view."
+msgstr "在日记视图中，选中此框可在日期导航器中以粗体字显示含有日记的日期。"
+
+#. i18n: ectx: label, entry (WeekNumbersShowWork), group (General View)
+#: eventviews.kcfg:160
+msgid "Week numbers select a work week when in work week mode"
+msgstr "在工作周模式中使用周号选择工作周"
+
+#. i18n: ectx: whatsthis, entry (WeekNumbersShowWork), group (General View)
+#: eventviews.kcfg:161
+msgid ""
+"Check this box to select a working week when clicking on the Date "
+"Navigator's week numbers, or uncheck it to choose the whole week."
+msgstr ""
+"在工作周模式中，选中此选项以在选择日期导航器的周号时选中工作周 (否则将选中整"
+"周)。"
+
+#. i18n: ectx: label, entry, group (Agenda View)
+#: eventviews.kcfg:169 viewerapp/settings.kcfg:25
+msgid "Hour size"
+msgstr "小时大小"
+
+#. i18n: ectx: whatsthis, entry, group (Agenda View)
+#: eventviews.kcfg:170 viewerapp/settings.kcfg:26
+msgid ""
+"Select the height of the hour rows in the agenda grid, in pixels. Increasing "
+"this value will make each row in the agenda grid taller."
+msgstr ""
+"选择议事日程图表中的小时轴高度，单位是像素。增加此值会使日程图中每个小时网格"
+"更高。"
+
+#. i18n: ectx: tooltip, entry, group (Agenda View)
+#: eventviews.kcfg:171 viewerapp/settings.kcfg:27
+msgid "Set the height (in pixels) for an hour in the agenda grid"
+msgstr "设定议事日程图中的小时格高度(按像素)"
+
+#. i18n: ectx: label, entry (EnableAgendaItemIcons), group (Agenda View)
+#: eventviews.kcfg:178 viewerapp/settings.kcfg:34
+msgid "Show icons in agenda view items"
+msgstr "显示议事日程视图项目的图标"
+
+#. i18n: ectx: whatsthis, entry (EnableAgendaItemIcons), group (Agenda View)
+#: eventviews.kcfg:179 viewerapp/settings.kcfg:35
+msgid ""
+"Check this box to display icons (alarm, recursion, etc.) in agenda view "
+"items."
+msgstr "选中此项会显示议事日程视图项目的图标(提醒、循环等)。"
+
+#. i18n: ectx: tooltip, entry (EnableAgendaItemIcons), group (Agenda View)
+#: eventviews.kcfg:180 viewerapp/settings.kcfg:36
+msgid "Display icons in agenda view items"
+msgstr "显示议事日程视图项目的图标"
+
+#. i18n: ectx: label, entry (ShowTodosAgendaView), group (Agenda View)
+#. i18n: ectx: label, entry (ShowTodosMonthView), group (Month View)
+#: eventviews.kcfg:185 eventviews.kcfg:289 viewerapp/settings.kcfg:41
+#: viewerapp/settings.kcfg:134
+msgid "Show to-dos"
+msgstr "显示待办事宜"
+
+#. i18n: ectx: whatsthis, entry (ShowTodosAgendaView), group (Agenda View)
+#: eventviews.kcfg:186 viewerapp/settings.kcfg:42
+msgid "Check this box to display to-dos in the agenda view."
+msgstr "选中此项会在议事日程视图内显示待办事宜。"
+
+#. i18n: ectx: tooltip, entry (ShowTodosAgendaView), group (Agenda View)
+#: eventviews.kcfg:187 viewerapp/settings.kcfg:43
+msgid "Display to-dos in the agenda view"
+msgstr "在议事日程视图内显示待办事宜"
+
+#. i18n: ectx: label, entry (MarcusBainsEnabled), group (Agenda View)
+#: eventviews.kcfg:192 viewerapp/settings.kcfg:48
+msgid "Show current-time (Marcus Bains) line"
+msgstr "显示当前时间(Marcus Bains)线"
+
+#. i18n: ectx: whatsthis, entry (MarcusBainsEnabled), group (Agenda View)
+#: eventviews.kcfg:193 viewerapp/settings.kcfg:49
+msgid ""
+"Check this box to display a line in the day or week view indicating the "
+"current-time line (Marcus Bains line)."
+msgstr "选中此项可在日或周视图中显示表明当前时间的红线，即 Marcus Bains 线。"
+
+#. i18n: ectx: tooltip, entry (MarcusBainsEnabled), group (Agenda View)
+#: eventviews.kcfg:194 viewerapp/settings.kcfg:50
+msgid "Display the current-time indicator"
+msgstr "显示当前时间标识符号"
+
+#. i18n: ectx: label, entry (MarcusBainsShowSeconds), group (Agenda View)
+#: eventviews.kcfg:199 viewerapp/settings.kcfg:55
+msgid "Show seconds on the current-time (Marcus Bains) line"
+msgstr "在当前时间(Marcus Bains)线上显示秒数"
+
+#. i18n: ectx: whatsthis, entry (MarcusBainsShowSeconds), group (Agenda View)
+#: eventviews.kcfg:200 viewerapp/settings.kcfg:56
+msgid "Check this box if you want to show seconds on the current-time line."
+msgstr "如果您想要在当前时间线上显示秒数，请选中此选项。"
+
+#. i18n: ectx: tooltip, entry (MarcusBainsShowSeconds), group (Agenda View)
+#: eventviews.kcfg:201 viewerapp/settings.kcfg:57
+msgid "Display seconds with the current-time indicator"
+msgstr "用当前时间标识符号显示秒数"
+
+#. i18n: ectx: label, entry (SelectionStartsEditor), group (Agenda View)
+#: eventviews.kcfg:206 viewerapp/settings.kcfg:62
+msgid "Time range selection in agenda view starts event editor"
+msgstr "在议事日程视图中选择时间范围时启动事件编辑器"
+
+#. i18n: ectx: whatsthis, entry (SelectionStartsEditor), group (Agenda View)
+#: eventviews.kcfg:207 viewerapp/settings.kcfg:63
+msgid ""
+"Check this box to start the event editor automatically when you select a "
+"time range in the daily and weekly view. To select a time range, drag the "
+"mouse from the start time to the end time of the event you are about to plan."
+msgstr ""
+"选中此项可当您在日和周视图中选择了一个时间范围后自动打开事件编辑器。要选择时"
+"间范围，请用鼠标从事件的起始时间拖动到预计的事件终止时间。"
+
+#. i18n: ectx: tooltip, entry (SelectionStartsEditor), group (Agenda View)
+#: eventviews.kcfg:208 viewerapp/settings.kcfg:64
+msgid "Enable automatic event editor with time range selection"
+msgstr "根据所选的时间范围启用自动事件编辑器"
+
+#. i18n: ectx: label, entry, group (Agenda View)
+#. i18n: ectx: label, entry, group (Month View)
+#: eventviews.kcfg:213 eventviews.kcfg:309 viewerapp/settings.kcfg:69
+#: viewerapp/settings.kcfg:154
+msgid "Color Usage"
+msgstr "颜色使用"
+
+#. i18n: ectx: label, entry, group (Agenda View)
+#. i18n: ectx: label, entry, group (Month View)
+#: eventviews.kcfg:216 eventviews.kcfg:312 viewerapp/settings.kcfg:72
+#: viewerapp/settings.kcfg:157
+msgid "Category inside, calendar outside"
+msgstr "在内部显示类别，在外部显示日历"
+
+#. i18n: ectx: whatsthis, entry, group (Agenda View)
+#: eventviews.kcfg:217 viewerapp/settings.kcfg:73
+msgid ""
+"Select the \"Category inside, calendar outside\" option if you would like to "
+"draw calendar items in their associated category color, with the item's "
+"border drawn in the color of its calendar. Please use the Colors and Fonts "
+"configuration page for setting these colors."
+msgstr ""
+"如需使用对应类别的颜色绘制日历项，并且使用所在日历的颜色绘制边框，请选中“内容"
+"使用类别色，边框使用日历色”。您可以在 颜色 和 字体 配置页面中设置这些颜色。"
+
+#. i18n: ectx: tooltip, entry, group (Agenda View)
+#: eventviews.kcfg:218 viewerapp/settings.kcfg:74
+msgid ""
+"Draw agenda items in their category color inside and calendar color for "
+"their border"
+msgstr "绘制议事日程图时，内部使用类别对应的颜色，边框则使用日历颜色"
+
+#. i18n: ectx: label, entry, group (Agenda View)
+#. i18n: ectx: label, entry, group (Month View)
+#: eventviews.kcfg:221 eventviews.kcfg:317 viewerapp/settings.kcfg:77
+#: viewerapp/settings.kcfg:162
+msgid "Calendar inside, category outside"
+msgstr "在内部显示类别，在外部显示日历"
+
+#. i18n: ectx: whatsthis, entry, group (Agenda View)
+#: eventviews.kcfg:222 viewerapp/settings.kcfg:78
+msgid ""
+"Select the \"Calendar inside, category outside\" option if you would like to "
+"draw calendar items in their associated calendar color, with the item's "
+"border drawn in the color of its category. Please use the Colors and Fonts "
+"configuration page for setting these colors."
+msgstr ""
+"如需使用所在日历的颜色绘制日历项，并且使用对应类别的颜色绘制边框，请选中“内容"
+"使用日历色，边框使用类别色”。您可以在 颜色 和 字体 配置页面中设置这些颜色。"
+
+#. i18n: ectx: tooltip, entry, group (Agenda View)
+#: eventviews.kcfg:223 viewerapp/settings.kcfg:79
+msgid ""
+"Draw agenda items in their calendar color inside and category color for "
+"their border"
+msgstr "绘制议事日程图时，内部使用日历颜色，边框则使用类别对应的颜色"
+
+#. i18n: ectx: label, entry, group (Agenda View)
+#. i18n: ectx: label, entry, group (Month View)
+#: eventviews.kcfg:226 eventviews.kcfg:322 viewerapp/settings.kcfg:82
+#: viewerapp/settings.kcfg:167
+msgid "Only category"
+msgstr "仅在类别"
+
+#. i18n: ectx: whatsthis, entry, group (Agenda View)
+#: eventviews.kcfg:227 viewerapp/settings.kcfg:83
+msgid ""
+"Select the \"Only category\" option if you would like to draw calendar items "
+"(both inside and border) in the color of their associated category. Please "
+"use the Colors and Fonts configuration page for setting these colors."
+msgstr ""
+"如需使用对应类别的颜色绘制日历项 (包括内容和边框)，请选中“仅使用类别色”。您可"
+"以在 颜色 和 字体 配置页面中设置这些颜色。"
+
+#. i18n: ectx: tooltip, entry, group (Agenda View)
+#: eventviews.kcfg:228 viewerapp/settings.kcfg:84
+msgid "Draw agenda items using their category color for the inside and border"
+msgstr "绘制议事日程图时，内外和边框都使用类别对应的颜色"
+
+#. i18n: ectx: label, entry, group (Agenda View)
+#. i18n: ectx: label, entry, group (Month View)
+#: eventviews.kcfg:231 eventviews.kcfg:327 viewerapp/settings.kcfg:87
+#: viewerapp/settings.kcfg:172
+msgid "Only calendar"
+msgstr "仅在日历"
+
+#. i18n: ectx: whatsthis, entry, group (Agenda View)
+#: eventviews.kcfg:232 viewerapp/settings.kcfg:88
+msgid ""
+"Select the \"Only calendar\" option if you would like to draw calendar items "
+"(both inside and border) in the color of their calendar. Please use the "
+"Colors and Fonts configuration page for setting these colors."
+msgstr ""
+"如需使用所在日历的颜色绘制日历项 (包括内容和边框)，请选中“仅使用日历色”。您可"
+"以在 颜色 和 字体 配置页面中设置这些颜色。"
+
+#. i18n: ectx: tooltip, entry, group (Agenda View)
+#: eventviews.kcfg:233 viewerapp/settings.kcfg:89
+msgid "Draw agenda items using their calendar color for the inside and border"
+msgstr "绘制议事日程图时，内部和边框都使用日历颜色"
+
+#. i18n: ectx: label, entry (ColorBusyDaysEnabled), group (Agenda View)
+#. i18n: ectx: label, entry (ColorMonthBusyDaysEnabled), group (Month View)
+#: eventviews.kcfg:239 eventviews.kcfg:336
+msgid "Color busy days with a different background color"
+msgstr "为忙碌日设置不同的背景色"
+
+#. i18n: ectx: whatsthis, entry (ColorBusyDaysEnabled), group (Agenda View)
+#: eventviews.kcfg:240
+msgid ""
+"Check this box if you want agenda's background to be filled with a different "
+"color on days which have at least one all day event marked as busy. Also, "
+"you can change the background color used for this option on the Colors "
+"configuration page. Look for the \"Busy days background color\" setting."
+msgstr ""
+"如需在日程视图中将包含至少一个全天忙碌事件的日期标为不同的颜色， 请选择此"
+"项。 您可以使用颜色配置页面中的“忙碌日的背景色”设置在此使用的颜色。"
+
+#. i18n: ectx: label, entry (AgendaViewCalendarDisplay), group (Agenda View)
+#: eventviews.kcfg:244 viewerapp/settings.kcfg:96
+msgid "Multiple Calendar Display"
+msgstr "多日历显示"
+
+#. i18n: ectx: label, entry (AgendaViewCalendarDisplay), group (Agenda View)
+#: eventviews.kcfg:247 viewerapp/settings.kcfg:99
+msgid "Merge all calendars into one view"
+msgstr "合并所有日历到一个视图"
+
+#. i18n: ectx: whatsthis, entry (AgendaViewCalendarDisplay), group (Agenda View)
+#: eventviews.kcfg:248 viewerapp/settings.kcfg:100
+msgid ""
+"Select the \"Merge all calendars into one view\" option if you would like "
+"all your calendars to be shown together in one agenda view."
+msgstr "选中“合并所有日历到一个视图”选项以在一个日程视图中显示您的全部日历。"
+
+#. i18n: ectx: tooltip, entry (AgendaViewCalendarDisplay), group (Agenda View)
+#: eventviews.kcfg:249 viewerapp/settings.kcfg:101
+msgid "Show all calendars merged together"
+msgstr "同时显示全部日历"
+
+#. i18n: ectx: label, entry (AgendaViewCalendarDisplay), group (Agenda View)
+#: eventviews.kcfg:252 viewerapp/settings.kcfg:104
+msgid "Show calendars side by side"
+msgstr "并排显示日历"
+
+#. i18n: ectx: whatsthis, entry (AgendaViewCalendarDisplay), group (Agenda View)
+#: eventviews.kcfg:253 viewerapp/settings.kcfg:105
+msgid ""
+"Select the \"Show calendars side by side\" option if you would like to see "
+"two calendars at once, in a side-by-side view."
+msgstr "选中“并排显示日历”选项以并排同时查看两个日历。"
+
+#. i18n: ectx: tooltip, entry (AgendaViewCalendarDisplay), group (Agenda View)
+#: eventviews.kcfg:254 viewerapp/settings.kcfg:106
+msgid "Show two calendars side-by-side"
+msgstr "并排显示两个日历"
+
+#. i18n: ectx: label, entry (AgendaViewCalendarDisplay), group (Agenda View)
+#: eventviews.kcfg:257 viewerapp/settings.kcfg:109
+msgid "Switch between views with tabs"
+msgstr "以标签切换视图"
+
+#. i18n: ectx: whatsthis, entry (AgendaViewCalendarDisplay), group (Agenda View)
+#: eventviews.kcfg:258 viewerapp/settings.kcfg:110
+msgid ""
+"Select \"Switch between views with tabs\" if you would like to alternate "
+"between calendars using the tab key."
+msgstr "选中“以标签切换视图”以使用标签在视图间切换"
+
+#. i18n: ectx: tooltip, entry (AgendaViewCalendarDisplay), group (Agenda View)
+#: eventviews.kcfg:259 viewerapp/settings.kcfg:111
+msgid "Tab through calendars"
+msgstr "使用 Tab 键浏览日历"
+
+#. i18n: ectx: label, entry (EnableMonthScroll), group (Month View)
+#: eventviews.kcfg:269 viewerapp/settings.kcfg:121
+msgid "Enable scrollbars in month view cells"
+msgstr "在月视图的单元格中启用滚动条"
+
+#. i18n: ectx: whatsthis, entry (EnableMonthScroll), group (Month View)
+#: eventviews.kcfg:270 viewerapp/settings.kcfg:122
+msgid ""
+"Check this box to display scrollbars when clicking on a cell in the month "
+"view; they will only appear when needed though."
+msgstr "选中此项会在月视图的单元格中显示滚动条，滚动条在必要时才会出现。"
+
+#. i18n: ectx: label, entry (EnableMonthItemIcons), group (Month View)
+#: eventviews.kcfg:275 viewerapp/settings.kcfg:127
+msgid "Show icons in month view items"
+msgstr "在月视图项目中显示图标"
+
+#. i18n: ectx: whatsthis, entry (EnableMonthItemIcons), group (Month View)
+#: eventviews.kcfg:276 viewerapp/settings.kcfg:128
+msgid ""
+"Check this box to display icons (alarm, recursion, etc.) in month view items."
+msgstr "选中此项会在月视图项目中显示图标(提醒、循环等)。"
+
+#. i18n: ectx: tooltip, entry (EnableMonthItemIcons), group (Month View)
+#: eventviews.kcfg:277 viewerapp/settings.kcfg:129
+msgid "Display icons in month view items"
+msgstr "在月视图项目中显示图标"
+
+#. i18n: ectx: label, entry (ShowTimeInMonthView), group (Month View)
+#: eventviews.kcfg:282
+msgid "Show time in month view items"
+msgstr "在月视图项目中显示时间"
+
+#. i18n: ectx: whatsthis, entry (ShowTimeInMonthView), group (Month View)
+#: eventviews.kcfg:283
+msgid "Check this box to display the time in month view items."
+msgstr "选中此项以在月视图项目中显示时间。"
+
+#. i18n: ectx: tooltip, entry (ShowTimeInMonthView), group (Month View)
+#: eventviews.kcfg:284
+msgid "Display time in month view items"
+msgstr "在月视图项目中显示时间"
+
+#. i18n: ectx: whatsthis, entry (ShowTodosMonthView), group (Month View)
+#: eventviews.kcfg:290 viewerapp/settings.kcfg:135
+msgid "Check this box to display to-dos in the month view."
+msgstr "选中此项会在月视图中显示待办事宜。"
+
+#. i18n: ectx: tooltip, entry (ShowTodosMonthView), group (Month View)
+#: eventviews.kcfg:291 viewerapp/settings.kcfg:136
+msgid "Display to-dos in the month view"
+msgstr "在月视图中显示待办事宜"
+
+#. i18n: ectx: label, entry (ShowJournalsMonthView), group (Month View)
+#: eventviews.kcfg:296 viewerapp/settings.kcfg:141
+msgid "Show journals"
+msgstr "显示日记"
+
+#. i18n: ectx: whatsthis, entry (ShowJournalsMonthView), group (Month View)
+#: eventviews.kcfg:297 viewerapp/settings.kcfg:142
+msgid "Check this box to display journals in the month view."
+msgstr "选中此项会在月视图中显示日记。"
+
+#. i18n: ectx: tooltip, entry (ShowJournalsMonthView), group (Month View)
+#: eventviews.kcfg:298 viewerapp/settings.kcfg:143
+msgid "Display journals in the month view"
+msgstr "在月视图中显示日记"
+
+#. i18n: ectx: label, entry, group (Month View)
+#: eventviews.kcfg:303 viewerapp/settings.kcfg:148
+msgid "Month view uses full window"
+msgstr "月视图使用整个窗口"
+
+#. i18n: ectx: whatsthis, entry, group (Month View)
+#: eventviews.kcfg:304 viewerapp/settings.kcfg:149
+msgid ""
+"Check this box to use the full KOrganizer window when displaying the month "
+"view. If this box is checked, you will gain some space for the monthly view, "
+"but other widgets, such as the date navigator, the item details and the "
+"calendars list, will not be displayed."
+msgstr ""
+"选中此项可在显示月视图时使用整个 KOrganizer 窗口。此时月视图会获得额外的显示"
+"空间，但一些其它构件，如日期导航器、项目细节和日历列表将不会被显示。"
+
+#. i18n: ectx: whatsthis, entry, group (Month View)
+#: eventviews.kcfg:313 viewerapp/settings.kcfg:158
+msgid ""
+"Select the \"Category inside, calendar outside\" option if you would like to "
+"draw calendar items in their associated category color, with the item's "
+"border drawn in the color of its calendar.  Please use the Colors and Fonts "
+"configuration page for setting these colors."
+msgstr ""
+"如需使用对应类别的颜色绘制日历项，并且使用所在日历的颜色绘制边框，请选中“内容"
+"使用类别色，边框使用日历色”。您可以在 颜色 和 字体 配置页面中设置这些颜色。"
+
+#. i18n: ectx: tooltip, entry, group (Month View)
+#: eventviews.kcfg:314 viewerapp/settings.kcfg:159
+msgid ""
+"Draw month items in their category color inside and calendar color for their "
+"border"
+msgstr "使用类别的颜色绘制月历内容，使用日历的颜色绘制边框"
+
+#. i18n: ectx: whatsthis, entry, group (Month View)
+#: eventviews.kcfg:318 viewerapp/settings.kcfg:163
+msgid ""
+"Select the \"Calendar inside, category outside\" option if you would like to "
+"draw calendar items in their associated calendar color, with the item's "
+"border drawn in the color of its category.  Please use the Colors and Fonts "
+"configuration page for setting these colors."
+msgstr ""
+"如需使用所在日历的颜色绘制日历项，并且使用对应类别的颜色绘制边框，请选中“内容"
+"使用日历色，边框使用类别色”。您可以在 颜色 和 字体 配置页面中设置这些颜色。"
+
+#. i18n: ectx: tooltip, entry, group (Month View)
+#: eventviews.kcfg:319 viewerapp/settings.kcfg:164
+msgid ""
+"Draw month items in their calendar color inside and category color for their "
+"border"
+msgstr "使用日历的颜色绘制月历内容，使用类别的颜色绘制边框"
+
+#. i18n: ectx: whatsthis, entry, group (Month View)
+#: eventviews.kcfg:323 viewerapp/settings.kcfg:168
+msgid ""
+"Select the \"Only category\" option if you would like to draw calendar items "
+"(both inside and border) in the color of their associated category.  Please "
+"use the Colors and Fonts configuration page for setting these colors."
+msgstr ""
+"如需使用对应类别的颜色绘制日历项 (包括内容和边框)，请选中“仅使用类别色”。您可"
+"以在 颜色 和 字体 配置页面中设置这些颜色。"
+
+#. i18n: ectx: tooltip, entry, group (Month View)
+#: eventviews.kcfg:324 viewerapp/settings.kcfg:169
+msgid "Draw month items using their category color for the inside and border"
+msgstr "使用类别的颜色绘制月历的内容和边框"
+
+#. i18n: ectx: whatsthis, entry, group (Month View)
+#: eventviews.kcfg:328 viewerapp/settings.kcfg:173
+msgid ""
+"Select the \"Only calendar\" option if you would like to draw calendar items "
+"(both inside and border) in the color of their calendar.  Please use the "
+"Colors and Fonts configuration page for setting these colors."
+msgstr ""
+"如需使用所在日历的颜色绘制日历项 (包括内容和边框)，请选中“仅使用日历色”。您可"
+"以在 颜色 和 字体 配置页面中设置这些颜色。"
+
+#. i18n: ectx: tooltip, entry, group (Month View)
+#: eventviews.kcfg:329 viewerapp/settings.kcfg:174
+msgid "Draw month items using their calendar color for the inside and border"
+msgstr "使用日历的颜色绘制月历的内容和边框"
+
+#. i18n: ectx: whatsthis, entry (ColorMonthBusyDaysEnabled), group (Month View)
+#: eventviews.kcfg:337
+msgid ""
+"Check this box if you want month view's background to be filled with a "
+"different color on days which have at least one all day event marked as "
+"busy. Also, you can change the background color used for this option on the "
+"Colors configuration page. Look for the \"Busy days background color\" "
+"setting."
+msgstr ""
+"如需在月历视图中将包含至少一个全天忙碌事件的日期标为不同的颜色， 请选择此"
+"项。 您可以使用颜色配置页面中的“忙碌日的背景色”设置在此使用的颜色。"
+
+#. i18n: ectx: label, entry, group (Todo View)
+#: eventviews.kcfg:345 viewerapp/settings.kcfg:184
+msgid "Always display completed to-dos at the bottom of the list"
+msgstr "总是在列表尾部显示已完成待办事宜"
+
+#. i18n: ectx: whatsthis, entry, group (Todo View)
+#: eventviews.kcfg:346 viewerapp/settings.kcfg:185
+msgid ""
+"Check this box if you want all completed to-dos to be always grouped at the "
+"bottom of the to-do list."
+msgstr "如果您希望所有已完成的待办事宜都在列表底部分组显示，请选中此项。"
+
+#. i18n: ectx: label, entry, group (Todo View)
+#: eventviews.kcfg:351 viewerapp/settings.kcfg:190
+msgid "To-do list view uses full window"
+msgstr "待办列表视图使用整个窗口"
+
+#. i18n: ectx: whatsthis, entry, group (Todo View)
+#: eventviews.kcfg:352 viewerapp/settings.kcfg:191
+msgid ""
+"Check this box to use the full KOrganizer window when displaying the to-do "
+"list view. If this box is checked, you will gain some space for the to-do "
+"list view, but other widgets, such as the date navigator, the to-do details "
+"and the calendars list, will not be displayed."
+msgstr ""
+"选中此项可在显示待办列表视图时使用整个 KOrganizer 窗口。此时待办列表视图会获"
+"得额外的显示空间，但一些其它构件，如日期导航器、待办事宜细节和日历列表将不会"
+"被显示。"
+
+#. i18n: ectx: label, entry, group (Todo View)
+#: eventviews.kcfg:357
+#, fuzzy
+#| msgid "Display to-dos in the month view"
+msgid "Display to-dos in a flat list"
+msgstr "在月视图中显示待办事宜"
+
+#. i18n: ectx: tooltip, entry, group (Todo View)
+#: eventviews.kcfg:358
+msgid "Display to-dos as a flat list instead of a hierarchical tree"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry, group (Todo View)
+#: eventviews.kcfg:359
+msgid ""
+"Check this box if you want to see all your to-dos in a flat list instead of "
+"being arranged in a hierarchical tree."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Todo View)
+#: eventviews.kcfg:364 viewerapp/settings.kcfg:196
+msgid "Record completed to-dos in journal entries"
+msgstr "在日记中记录已完成的待办事宜"
+
+#. i18n: ectx: whatsthis, entry, group (Todo View)
+#: eventviews.kcfg:365 viewerapp/settings.kcfg:197
+msgid ""
+"Check this box to record the completion of a to-do in a new entry of your "
+"journal automatically."
+msgstr "选中此项可使日记自动记录已完成的待办事宜。"
+
+#. i18n: ectx: label, entry, group (Colors)
+#. i18n: ectx: label, entry, group (Theming)
+#. i18n: ectx: label, entry, group (Theme/Month view)
+#: eventviews.kcfg:373 eventviews.kcfg:598 eventviews.kcfg:702
+#: viewerapp/settings.kcfg:205
+msgid "Holiday color"
+msgstr "假日颜色"
+
+#. i18n: ectx: whatsthis, entry, group (Colors)
+#. i18n: ectx: whatsthis, entry, group (Theming)
+#. i18n: ectx: whatsthis, entry, group (Theme/Month view)
+#: eventviews.kcfg:374 eventviews.kcfg:599 eventviews.kcfg:703
+#: viewerapp/settings.kcfg:206
+msgid ""
+"Select the holiday color here. The holiday color will be used for the "
+"holiday name in the month view and the holiday number in the date navigator."
+msgstr "在此选择假日颜色，此颜色用于在月视图和日期导航中显示假日名和假日序号。"
+
+#. i18n: ectx: label, entry (AgendaBgColor), group (Colors)
+#. i18n: ectx: label, entry, group (Theming)
+#: eventviews.kcfg:379 eventviews.kcfg:510 viewerapp/settings.kcfg:211
+msgid "Agenda view background color"
+msgstr "议事日程视图背景色"
+
+#. i18n: ectx: whatsthis, entry (AgendaBgColor), group (Colors)
+#. i18n: ectx: whatsthis, entry, group (Theming)
+#: eventviews.kcfg:380 eventviews.kcfg:511 viewerapp/settings.kcfg:212
+msgid "Select the agenda view background color here."
+msgstr "在此选择议事日程视图的背景色。"
+
+#. i18n: ectx: label, entry (ViewBgBusyColor), group (Colors)
+#: eventviews.kcfg:385
+#, fuzzy
+#| msgid "Agenda view background color"
+msgid "Agenda/Month view background busy color"
+msgstr "议事日程视图背景色"
+
+#. i18n: ectx: whatsthis, entry (ViewBgBusyColor), group (Colors)
+#: eventviews.kcfg:386
+msgid ""
+"When you have an all day event marked as busy, you can have a different "
+"agenda or month view background color for that day. Select the color here."
+msgstr ""
+"如果您选择将包含至少一个全天忙碌事件的日期标为不同的颜色， 您可以在这里设置使"
+"用的颜色。"
+
+#. i18n: ectx: label, entry, group (Colors)
+#: eventviews.kcfg:391 viewerapp/settings.kcfg:217
+msgid "Agenda view current-time line color"
+msgstr "议事日程视图的当前时间线颜色"
+
+#. i18n: ectx: whatsthis, entry, group (Colors)
+#: eventviews.kcfg:392 viewerapp/settings.kcfg:218
+msgid "Select a color to use for the current-time (Marcus Bains) line."
+msgstr "选择用于显示当前时间(Marcus Bains)线的颜色。"
+
+#. i18n: ectx: tooltip, entry, group (Colors)
+#: eventviews.kcfg:393 viewerapp/settings.kcfg:219
+msgid "Use this color for the Agenda View current-time (Marcus Bains) line"
+msgstr "对议事日程视图中的当前时间(Marcus Bains)线使用此颜色"
+
+#. i18n: ectx: label, entry, group (Colors)
+#. i18n: ectx: label, entry, group (Theming)
+#. i18n: ectx: label, entry, group (Theme/Month view)
+#: eventviews.kcfg:398 eventviews.kcfg:522 eventviews.kcfg:622
+#: viewerapp/settings.kcfg:224
+msgid "Working hours color"
+msgstr "上班时间颜色"
+
+#. i18n: ectx: whatsthis, entry, group (Colors)
+#: eventviews.kcfg:399 viewerapp/settings.kcfg:225
+msgid "Select the working hours color for the agenda view here."
+msgstr "在此选择议事日程视图的工作时间颜色。"
+
+#. i18n: ectx: label, entry (TodoDueTodayColor), group (Colors)
+#. i18n: ectx: label, entry, group (Theming)
+#. i18n: ectx: label, entry, group (Theme/Month view)
+#: eventviews.kcfg:404 eventviews.kcfg:569 eventviews.kcfg:673
+#: viewerapp/settings.kcfg:230
+msgid "To-do due today color"
+msgstr "今日到期的待办事宜颜色"
+
+#. i18n: ectx: whatsthis, entry (TodoDueTodayColor), group (Colors)
+#. i18n: ectx: whatsthis, entry, group (Theming)
+#. i18n: ectx: whatsthis, entry, group (Theme/Month view)
+#: eventviews.kcfg:405 eventviews.kcfg:570 eventviews.kcfg:674
+#: viewerapp/settings.kcfg:231
+msgid "Select the to-do due today color here."
+msgstr "在此选择今日到期的待办事宜颜色。"
+
+#. i18n: ectx: label, entry (TodoOverdueColor), group (Colors)
+#. i18n: ectx: label, entry, group (Theming)
+#. i18n: ectx: label, entry, group (Theme/Month view)
+#: eventviews.kcfg:410 eventviews.kcfg:583 eventviews.kcfg:687
+#: viewerapp/settings.kcfg:236
+msgid "To-do overdue color"
+msgstr "过期的待办事宜颜色"
+
+#. i18n: ectx: whatsthis, entry (TodoOverdueColor), group (Colors)
+#. i18n: ectx: whatsthis, entry, group (Theming)
+#. i18n: ectx: whatsthis, entry, group (Theme/Month view)
+#: eventviews.kcfg:411 eventviews.kcfg:584 eventviews.kcfg:688
+#: viewerapp/settings.kcfg:237
+msgid "Select the to-do overdue color here."
+msgstr "在此选择过期的待办事宜颜色。"
+
+#. i18n: ectx: label, entry, group (Fonts)
+#: eventviews.kcfg:419 viewerapp/settings.kcfg:252
+msgid "Time bar"
+msgstr "时间栏"
+
+#. i18n: ectx: whatsthis, entry, group (Fonts)
+#: eventviews.kcfg:420 viewerapp/settings.kcfg:253
+msgid ""
+"Press this button to configure the time bar font. The time bar is the widget "
+"that shows the hours in the agenda view. This button will open the \"Select "
+"Font\" dialog, allowing you to choose the hour font for the time bar."
+msgstr ""
+"点此按钮配置时间栏的字体。时间栏是一个在议事日程视图中显示钟点的构件。此按钮"
+"会打开一个“选择字体”对话框，允许您从中选择时间栏上的钟点显示字体。"
+
+#. i18n: ectx: label, entry, group (Fonts)
+#: eventviews.kcfg:424 viewerapp/settings.kcfg:257
+msgid "Month view"
+msgstr "月视图"
+
+#. i18n: ectx: whatsthis, entry, group (Fonts)
+#: eventviews.kcfg:425 viewerapp/settings.kcfg:258
+msgid ""
+"Press this button to configure the month view font. This button will open "
+"the \"Select Font\" dialog, allowing you to choose the font for the items in "
+"the month view."
+msgstr ""
+"点此按钮可配置月视图的字体。点击它将打开“选择字体”对话框，允许您从中选择月视"
+"图中项目的显示字体。"
+
+#. i18n: ectx: label, entry, group (Fonts)
+#: eventviews.kcfg:429 viewerapp/settings.kcfg:262
+msgid "Agenda view"
+msgstr "议事日程视图"
+
+#. i18n: ectx: whatsthis, entry, group (Fonts)
+#: eventviews.kcfg:430 viewerapp/settings.kcfg:263
+msgid ""
+"Press this button to configure the agenda view font. This button will open "
+"the \"Select Font\" dialog, allowing you to choose the font for the events "
+"in the agenda view."
+msgstr ""
+"点此按钮可配置议事日程视图的字体。点击它将打开“选择字体”对话框，允许您从中选"
+"择议事日程视图中的事件显示字体。"
+
+#. i18n: ectx: label, entry, group (Fonts)
+#: eventviews.kcfg:434 viewerapp/settings.kcfg:267
+msgid "Current-time line"
+msgstr "目前时间线"
+
+#. i18n: ectx: whatsthis, entry, group (Fonts)
+#: eventviews.kcfg:435 viewerapp/settings.kcfg:268
+msgid ""
+"Press this button to configure the current-time line font. This button will "
+"open the \"Select Font\" dialog, allowing you to choose the font for the "
+"current-time line in the agenda view."
+msgstr ""
+"点此按钮配置当前时间线的字体。此按钮会打开一个“选择字体”对话框，允许您从中选"
+"择议事日程视图中的时间线字体。"
+
+#. i18n: ectx: label, entry (DefaultTodoAttachMethod), group (Hidden Options)
+#: eventviews.kcfg:459
+msgid "Default todo attachment method"
+msgstr "默认待办事宜附件方式"
+
+#. i18n: ectx: whatsthis, entry (DefaultTodoAttachMethod), group (Hidden Options)
+#: eventviews.kcfg:460
+msgid "The default way of attaching dropped emails to a task"
+msgstr "对一件任务默认采用的电子邮件附件方式"
+
+#. i18n: ectx: label, entry, group (Theming)
+#. i18n: ectx: label, entry, group (Theme/Month view)
+#: eventviews.kcfg:517 eventviews.kcfg:617
+msgid "Highlight color"
+msgstr "突出显示颜色"
+
+#. i18n: ectx: whatsthis, entry, group (Theming)
+#: eventviews.kcfg:518
+msgid ""
+"Select the highlight color here. The highlight color will be used for "
+"marking the currently selected area in your agenda and in the date navigator."
+msgstr "在此选择突出显示的颜色。此颜色用于在议事日程和日期导航中标记选中区域。"
+
+#. i18n: ectx: whatsthis, entry, group (Theming)
+#: eventviews.kcfg:523
+msgid "Select the working hours background color for the agenda view here."
+msgstr "在此选择议事日程视图的工作时间背景色。"
+
+#. i18n: ectx: label, entry, group (Theme/Month view)
+#: eventviews.kcfg:610
+msgid "Month view background color"
+msgstr "月视图背景色"
+
+#. i18n: ectx: whatsthis, entry, group (Theme/Month view)
+#: eventviews.kcfg:611
+msgid "Select the Month view background color here."
+msgstr "在此选择月视图的背景色。"
+
+#. i18n: ectx: whatsthis, entry, group (Theme/Month view)
+#: eventviews.kcfg:618
+msgid ""
+"Select the highlight color here. The highlight color will be used for "
+"marking the currently selected area in your Month and in the date navigator."
+msgstr ""
+"在此选择突出显示的颜色。此颜色会被用于在日期导航器标记月份中已选择的区域。"
+
+#. i18n: ectx: whatsthis, entry, group (Theme/Month view)
+#: eventviews.kcfg:623
+msgid "Select the working hours background color for the Month view here."
+msgstr "在此选择月视图的工作时间背景色。"
+
+#. i18n: ectx: label, entry, group (Theme/Month view)
+#: eventviews.kcfg:645
+msgid "Default event color"
+msgstr "默认事件颜色"
+
+#. i18n: ectx: whatsthis, entry, group (Theme/Month view)
+#: eventviews.kcfg:646
+msgid ""
+"Select the default event color here. The default event color will be used "
+"for events categories in your Month. Note that you can specify a separate "
+"color for each event category below."
+msgstr ""
+"在此选择默认事件颜色。此颜色会被用于标识月份中的事件类别。请注意您可以在下面"
+"为每个事件指定独立的颜色。"
+
+#: journal/journalframe.cpp:169
+msgid "&Edit"
+msgstr ""
+
+#: journal/journalframe.cpp:172
+msgid "Edit this journal entry"
+msgstr ""
+
+#: journal/journalframe.cpp:173
+msgid "Opens an editor dialog for this journal entry"
+msgstr ""
+
+#: journal/journalframe.cpp:179
+msgid "&Delete"
+msgstr ""
+
+#: journal/journalframe.cpp:183 journal/journalframe.cpp:184
+#, fuzzy
+#| msgid "Record completed to-dos in journal entries"
+msgid "Delete this journal entry"
+msgstr "在日记中记录已完成的待办事宜"
+
+#: journal/journalframe.cpp:189
+msgid "&Print"
+msgstr ""
+
+#: journal/journalframe.cpp:193
+msgid "Print this journal entry"
+msgstr ""
+
+#: journal/journalframe.cpp:194
+msgid "Opens a print dialog for this journal entry"
+msgstr ""
+
+#: list/listview.cpp:70
+#, kde-format
+msgctxt "%1 is an item summary. %2 is the date when this item reoccurs"
+msgid "%1 (next: %2)"
+msgstr ""
+
+#: list/listview.cpp:273 todo/todomodel.cpp:625
+msgid "Summary"
+msgstr "摘要"
+
+#: list/listview.cpp:274
+msgid "Start Date/Time"
+msgstr "开始日期/时间"
+
+#: list/listview.cpp:275
+msgid "End Date/Time"
+msgstr "结束日期/时间"
+
+#: list/listview.cpp:276 todo/todomodel.cpp:637
+msgid "Categories"
+msgstr "类别"
+
+#: list/listview.cpp:365
+#, kde-format
+msgid "Summary [%1 - %2]"
+msgstr "摘要 [%1 - %2]"
+
+#: month/monthitem.cpp:318
+msgid "Age:"
+msgstr ""
+
+#: month/monthitem.cpp:318
+#, fuzzy, kde-format
+#| msgid "%2 (1 year)"
+#| msgid_plural "%2 (%1 years)"
+msgid "%2 1 year"
+msgid_plural "%2 %1 years"
+msgstr[0] "%2(%1 年)"
+
+#: month/monthitem.cpp:452
+#, fuzzy
+#| msgid "Split future recurrences"
+msgid "Move occurrence(s)"
+msgstr "拆分未来的重现"
+
+#: month/monthscene.cpp:201
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgctxt "monthname year"
+msgid "%1 %2"
+msgstr "%1月%2日"
+
+#: month/monthscene.cpp:350
+#, fuzzy, kde-format
+#| msgctxt "short_weekday date (e.g. Mon 13)"
+#| msgid "%1 %2"
+msgctxt "'Month day' for month view cells"
+msgid "%1 %2"
+msgstr "%1月%2日"
+
+#: month/monthview.cpp:181 month/monthview.cpp:407
+msgctxt "@info:tooltip"
+msgid "Display calendar in a normal size"
+msgstr ""
+
+#: month/monthview.cpp:183 month/monthview.cpp:411
+msgctxt "@info:tooltip"
+msgid "Display calendar in a full window"
+msgstr ""
+
+#: month/monthview.cpp:186
+msgctxt "@info:whatsthis"
+msgid ""
+"Click this button and the month view will be enlarged to fill the maximum "
+"available window space / or shrunk back to its normal size."
+msgstr ""
+
+#: month/monthview.cpp:194
+msgctxt "@info:tooltip"
+msgid "Go back one month"
+msgstr ""
+
+#: month/monthview.cpp:197
+msgctxt "@info:whatsthis"
+msgid ""
+"Click this button and the view will be scrolled back in time by 1 month."
+msgstr ""
+
+#: month/monthview.cpp:204
+msgctxt "@info:tooltip"
+msgid "Go back one week"
+msgstr ""
+
+#: month/monthview.cpp:207
+msgctxt "@info:whatsthis"
+msgid "Click this button and the view will be scrolled back in time by 1 week."
+msgstr ""
+
+#: month/monthview.cpp:214
+msgctxt "@info:tooltip"
+msgid "Go forward one week"
+msgstr ""
+
+#: month/monthview.cpp:217
+msgctxt "@info:whatsthis"
+msgid ""
+"Click this button and the view will be scrolled forward in time by 1 week."
+msgstr ""
+
+#: month/monthview.cpp:224
+msgctxt "@info:tooltip"
+msgid "Go forward one month"
+msgstr ""
+
+#: month/monthview.cpp:227
+msgctxt "@info:whatsthis"
+msgid ""
+"Click this button and the view will be scrolled forward in time by 1 month."
+msgstr ""
+
+#: month/monthview.cpp:564
+msgctxt "@item:intext delimiter for joining holiday names"
+msgid ","
+msgstr ""
+
+#: multiagenda/multiagendaview.cpp:95
+#, kde-format
+msgid "Agenda %1"
+msgstr "日程 %1"
+
+#: multiagenda/multiagendaview.cpp:162
+msgid "All Day"
+msgstr "全天"
+
+#: timeline/timelineview.cpp:224 timeline/timelineview.cpp:256
+#: timeline/timelineview.cpp:358 todo/todomodel.cpp:641
+msgid "Calendar"
+msgstr "日历"
+
+#: timespent/timespentview.cpp:63
+#, fuzzy
+#| msgid "Time bar"
+msgid "Time Tracker"
+msgstr "时间栏"
+
+#: timespent/timespentview.cpp:71
+#, fuzzy, kde-format
+#| msgid "%1 - %2"
+msgctxt "Date from - to"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: timespent/timespentview.cpp:139
+#, fuzzy
+#| msgid "Only category"
+msgid "No category"
+msgstr "仅在类别"
+
+#: timespent/timespentview.cpp:181
+#, kde-format
+msgctxt "number of hours spent"
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] ""
+
+#: timespent/timespentview.cpp:182
+#, kde-format
+msgctxt "percent of hours spent"
+msgid " (%1%)"
+msgstr ""
+
+#: todo/tododelegates.cpp:199
+msgctxt "@action:inmenu Unspecified priority"
+msgid "unspecified"
+msgstr ""
+
+#: todo/tododelegates.cpp:200 todo/todoview.cpp:432
+msgctxt "@action:inmenu highest priority"
+msgid "1 (highest)"
+msgstr ""
+
+#: todo/tododelegates.cpp:201
+msgctxt "@action:inmenu"
+msgid "2"
+msgstr ""
+
+#: todo/tododelegates.cpp:202
+msgctxt "@action:inmenu"
+msgid "3"
+msgstr ""
+
+#: todo/tododelegates.cpp:203
+msgctxt "@action:inmenu"
+msgid "4"
+msgstr ""
+
+#: todo/tododelegates.cpp:204 todo/todoview.cpp:440
+msgctxt "@action:inmenu medium priority"
+msgid "5 (medium)"
+msgstr ""
+
+#: todo/tododelegates.cpp:205
+msgctxt "@action:inmenu"
+msgid "6"
+msgstr ""
+
+#: todo/tododelegates.cpp:206
+msgctxt "@action:inmenu"
+msgid "7"
+msgstr ""
+
+#: todo/tododelegates.cpp:207
+msgctxt "@action:inmenu"
+msgid "8"
+msgstr ""
+
+#: todo/tododelegates.cpp:208 todo/todoview.cpp:448
+msgctxt "@action:inmenu lowest priority"
+msgid "9 (lowest)"
+msgstr ""
+
+#: todo/todomodel.cpp:267
+msgctxt "yes, an exception to a recurring to-do"
+msgid "Exception"
+msgstr ""
+
+#: todo/todomodel.cpp:269
+msgctxt "yes, recurring to-do"
+msgid "Yes"
+msgstr ""
+
+#: todo/todomodel.cpp:272
+msgctxt "no, not a recurring to-do"
+msgid "No"
+msgstr ""
+
+#: todo/todomodel.cpp:290
+msgctxt "delimiter for joining category names"
+msgid ","
+msgstr ""
+
+#: todo/todomodel.cpp:627
+msgid "Recurs"
+msgstr ""
+
+#: todo/todomodel.cpp:629
+msgid "Priority"
+msgstr ""
+
+#: todo/todomodel.cpp:631
+#, fuzzy
+#| msgid "Confirm deletes"
+msgctxt "@title:column percent complete"
+msgid "Complete"
+msgstr "确认删除"
+
+#: todo/todomodel.cpp:633
+#, fuzzy
+#| msgid "Start Date/Time"
+msgid "Start Date"
+msgstr "开始日期/时间"
+
+#: todo/todomodel.cpp:635
+#, fuzzy
+#| msgid "End Date/Time"
+msgid "Due Date"
+msgstr "结束日期/时间"
+
+#: todo/todomodel.cpp:639
+msgid "Description"
+msgstr ""
+
+#: todo/todomodel.cpp:731
+msgid "Cannot move to-do to itself or a child of itself."
+msgstr ""
+
+#: todo/todomodel.cpp:732
+msgid "Drop To-do"
+msgstr ""
+
+#: todo/todoview.cpp:284
+#, fuzzy
+#| msgid "To-do list view uses full window"
+msgctxt "@info:tooltip"
+msgid "Display to-do list in a full window"
+msgstr "待办列表视图使用整个窗口"
+
+#: todo/todoview.cpp:287
+msgctxt "@info:whatsthis"
+msgid "Checking this option will cause the to-do view to use the full window."
+msgstr ""
+
+#: todo/todoview.cpp:294
+#, fuzzy
+#| msgid "Display to-dos in the agenda view"
+msgctxt "@info:tooltip"
+msgid "Display to-dos in flat list instead of a tree"
+msgstr "在议事日程视图内显示待办事宜"
+
+#: todo/todoview.cpp:297
+msgctxt "@info:whatsthis"
+msgid ""
+"Checking this option will cause the to-dos to be displayed as a flat list "
+"instead of a hierarchical tree; the parental relationships are removed in "
+"the display."
+msgstr ""
+
+#: todo/todoview.cpp:335
+msgctxt "@action:inmenu show the to-do"
+msgid "&Show"
+msgstr ""
+
+#: todo/todoview.cpp:339
+msgctxt "@action:inmenu edit the to-do"
+msgid "&Edit..."
+msgstr ""
+
+#: todo/todoview.cpp:347
+msgctxt "@action:inmenu print the to-do"
+msgid "&Print..."
+msgstr ""
+
+#: todo/todoview.cpp:352
+msgctxt "@action:inmenu print preview the to-do"
+msgid "Print Previe&w..."
+msgstr ""
+
+#: todo/todoview.cpp:358
+msgctxt "@action:inmenu delete the to-do"
+msgid "&Delete"
+msgstr ""
+
+#: todo/todoview.cpp:368
+msgctxt "@action:inmenu create a new to-do"
+msgid "New &To-do..."
+msgstr ""
+
+#: todo/todoview.cpp:372
+msgctxt "@action:inmenu create a new sub-to-do"
+msgid "New Su&b-to-do..."
+msgstr ""
+
+#: todo/todoview.cpp:378
+msgctxt "@action:inmenu"
+msgid "&Make this To-do Independent"
+msgstr ""
+
+#: todo/todoview.cpp:383
+msgctxt "@action:inmenu"
+msgid "Make all Sub-to-dos &Independent"
+msgstr ""
+
+#: todo/todoview.cpp:399
+msgctxt "@title:menu"
+msgid "&Copy To"
+msgstr ""
+
+#: todo/todoview.cpp:412
+msgctxt "@title:menu"
+msgid "&Move To"
+msgstr ""
+
+#: todo/todoview.cpp:425
+msgctxt "@action:inmenu delete completed to-dos"
+msgid "Pur&ge Completed"
+msgstr ""
+
+#: todo/todoview.cpp:430
+msgctxt "@action:inmenu unspecified priority"
+msgid "unspecified"
+msgstr ""
+
+#: todo/todoview.cpp:434
+msgctxt "@action:inmenu priority value=2"
+msgid "2"
+msgstr ""
+
+#: todo/todoview.cpp:436
+msgctxt "@action:inmenu priority value=3"
+msgid "3"
+msgstr ""
+
+#: todo/todoview.cpp:438
+msgctxt "@action:inmenu priority value=4"
+msgid "4"
+msgstr ""
+
+#: todo/todoview.cpp:442
+msgctxt "@action:inmenu priority value=6"
+msgid "6"
+msgstr ""
+
+#: todo/todoview.cpp:444
+msgctxt "@action:inmenu priority value=7"
+msgid "7"
+msgstr ""
+
+#: todo/todoview.cpp:446
+msgctxt "@action:inmenu priority value=8"
+msgid "8"
+msgstr ""
+
+#: todo/todoviewquickaddline.cpp:38
+msgid "Click to add a new to-do"
+msgstr ""
+
+#: todo/todoviewquicksearch.cpp:55
+msgctxt "@info:tooltip"
+msgid "Filter on matching summaries"
+msgstr ""
+
+#: todo/todoviewquicksearch.cpp:58
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter text here to filter the to-dos that are shown by matching summaries."
+msgstr ""
+
+#: todo/todoviewquicksearch.cpp:59
+msgctxt "@label in QuickSearchLine"
+msgid "Search Summaries"
+msgstr ""
+
+#: todo/todoviewquicksearch.cpp:68
+msgctxt "@info:tooltip"
+msgid "Filter on these categories"
+msgstr ""
+
+#: todo/todoviewquicksearch.cpp:71
+msgctxt "@info:whatsthis"
+msgid ""
+"Use this combobox to filter the to-dos that are shown by a list of selected "
+"categories."
+msgstr ""
+
+#: todo/todoviewquicksearch.cpp:73
+#, fuzzy
+#| msgid "Categories"
+msgctxt "@item:inlistbox"
+msgid "Select Categories"
+msgstr "类别"
+
+#: todo/todoviewquicksearch.cpp:74
+msgctxt "@item:intext delimiter for joining category names"
+msgid ","
+msgstr ""
+
+#: todo/todoviewquicksearch.cpp:99
+msgctxt "@info:tooltip"
+msgid "Filter on these priorities"
+msgstr ""
+
+#: todo/todoviewquicksearch.cpp:102
+msgctxt "@info:whatsthis"
+msgid ""
+"Use this combobox to filter the to-dos that are shown by a list of selected "
+"priorities."
+msgstr ""
+
+#: todo/todoviewquicksearch.cpp:104
+#, fuzzy
+msgctxt "@item:inlistbox"
+msgid "Select Priority"
+msgstr "选择年"
+
+#: todo/todoviewquicksearch.cpp:175
+msgctxt "@action:inmenu priority is unspecified"
+msgid "unspecified"
+msgstr ""
+
+#: todo/todoviewquicksearch.cpp:176
+#, kde-format
+msgctxt "@action:inmenu highest priority"
+msgid "%1 (highest)"
+msgstr ""
+
+#: todo/todoviewquicksearch.cpp:179
+#, kde-format
+msgctxt "@action:inmenu medium priority"
+msgid "%1 (medium)"
+msgstr ""
+
+#: todo/todoviewquicksearch.cpp:181
+#, kde-format
+msgctxt "@action:inmenu lowest priority"
+msgid "%1 (lowest)"
+msgstr ""
+
+#: todo/todoviewquicksearch.cpp:183
+#, fuzzy, kde-format
+#| msgid "- %1"
+msgctxt "@action:inmenu"
+msgid "%1"
+msgstr "- %1"
+
+#: todo/todoviewsortfilterproxymodel.cpp:173
+msgctxt "priority is unspecified"
+msgid "unspecified"
+msgstr ""
+
+#: todo/todoviewsortfilterproxymodel.cpp:174
+#: todo/todoviewsortfilterproxymodel.cpp:176
+#: todo/todoviewsortfilterproxymodel.cpp:178
+#: todo/todoviewsortfilterproxymodel.cpp:180
+#, fuzzy, kde-format
+#| msgid "- %1"
+msgid "%1"
+msgstr "- %1"
+
+#: todo/todoviewsortfilterproxymodel.cpp:175
+#, kde-format
+msgctxt "highest priority"
+msgid "%1 (highest)"
+msgstr ""
+
+#: todo/todoviewsortfilterproxymodel.cpp:177
+#, kde-format
+msgctxt "medium priority"
+msgid "%1 (medium)"
+msgstr ""
+
+#: todo/todoviewsortfilterproxymodel.cpp:179
+#, kde-format
+msgctxt "lowest priority"
+msgid "%1 (lowest)"
+msgstr ""
+
+#: todo/todoviewview.cpp:61
+msgid "View Columns"
+msgstr ""
+
+#: viewerapp/main.cpp:26
+msgid "A test app for embedding calendarviews"
+msgstr ""
+
+#: viewerapp/main.cpp:32
+msgid "ViewerApp"
+msgstr ""
+
+#: viewerapp/main.cpp:34
+msgid ""
+"Copyright (C) 2010 Klarälvdalens Datakonsult AB, a KDAB Group company, "
+"info@kdab.net"
+msgstr ""
+
+#: viewerapp/main.cpp:35
+msgid "Kevin Krammer"
+msgstr ""
+
+#: viewerapp/main.cpp:39
+msgid "Optional list of view names to instantiate"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
+#: viewerapp/mainwindow.ui:14
+msgid "CalendarViews Viewer"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: viewerapp/mainwindow.ui:25
+msgid "Tab 1"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QMenu, addViewMenu)
+#: viewerapp/mainwindow.ui:43
+msgid "Add View"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QStatusBar, statusbar)
+#: viewerapp/mainwindow.ui:55
+#, fuzzy
+#| msgid "Agenda %1"
+msgid "Agenda"
+msgstr "日程 %1"
+
+#. i18n: ectx: property (text), widget (QStatusBar, statusbar)
+#: viewerapp/mainwindow.ui:60
+#, fuzzy
+#| msgid "Agenda %1"
+msgid "MultiAgenda"
+msgstr "日程 %1"
+
+#. i18n: ectx: property (text), widget (QStatusBar, statusbar)
+#: viewerapp/mainwindow.ui:65
+#, fuzzy
+#| msgid "Month view"
+msgid "Month"
+msgstr "月视图"
+
+#. i18n: ectx: property (text), widget (QStatusBar, statusbar)
+#: viewerapp/mainwindow.ui:70
+#, fuzzy
+#| msgid "Timezone"
+msgid "Timeline"
+msgstr "时区"
+
+#. i18n: ectx: label, entry, group (Colors)
+#: viewerapp/settings.kcfg:242
+msgid "\"No category\" color (for \"Only category\" drawing schemes)"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry, group (Colors)
+#: viewerapp/settings.kcfg:243
+msgid ""
+"Select a color to use for the \"no category\" or \"unset category\" "
+"situation, when an item does not belong to any category. This color is used "
+"when drawing items in the agenda or month views using the \"Only category\" "
+"scheme."
+msgstr ""
+
+#. i18n: ectx: tooltip, entry, group (Colors)
+#: viewerapp/settings.kcfg:244
+msgid "Use this color when drawing items without a category"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Group Scheduling)
+#: viewerapp/settings.kcfg:275
+msgid "Use Groupware communication"
+msgstr "使用群件通讯"
+
+#. i18n: ectx: whatsthis, entry, group (Group Scheduling)
+#: viewerapp/settings.kcfg:276
+msgid ""
+"Check this box to enable automatic generation of mails when creating, "
+"updating or deleting events (or to-dos) involving other attendees. You "
+"should check this box if you want to use the groupware functionality (e.g. "
+"Configuring Kontact as a KDE Kolab client)."
+msgstr ""
+"选中此项可在创建、更新或删除包含其它参与者的事件或待办事宜时，允许自动生成邮"
+"件。如果您想要使用群件功能(如将 Kontact 配置为 KDE Kolab 客户端)，请选中此"
+"项。"
+
+#: whatsnext/whatsnextview.cpp:84
+msgid "What's Next?"
+msgstr ""
+
+#: whatsnext/whatsnextview.cpp:92 whatsnext/whatsnextview.cpp:262
+#, fuzzy, kde-format
+#| msgid "%1 - %2"
+msgctxt "date from - to"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: whatsnext/whatsnextview.cpp:112
+msgid "Events:"
+msgstr ""
+
+#: whatsnext/whatsnextview.cpp:154
+msgid "To-dos:"
+msgstr ""
+
+#: whatsnext/whatsnextview.cpp:189 whatsnext/whatsnextview.cpp:209
+msgid "Events and to-dos that need a reply:"
+msgstr ""
+
+#: whatsnext/whatsnextview.cpp:269
+#, fuzzy, kde-format
+#| msgid "%1 - %2"
+msgctxt "date, from - to"
+msgid "%1, %2 - %3"
+msgstr "%1 - %2"
+
+#: whatsnext/whatsnextview.cpp:305
+#, kde-format
+msgctxt "to-do due date"
+msgid "  (Due: %1)"
+msgstr ""
+
+#~ msgid "<placeholder>undefined</placeholder>"
+#~ msgstr "<placeholder>未定义</placeholder>"
+
+#~ msgctxt "@label an elipsis"
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Split future recurrences"
+#~ msgstr "拆分未来的重现"
+
+#~ msgid ""
+#~ "Unable to add the future items to the calendar. No change will be done."
+#~ msgstr "无法将未来的项目添加到日历。未更改。"
+
+#~ msgid "Timezone: %1"
+#~ msgstr "时区：%1"
+
+#~ msgid "Use email settings from System Settings"
+#~ msgstr "使用系统设置里的电子邮件设置"
+
+#~ msgid ""
+#~ "Check this box to use the KDE-wide e-mail settings, which are defined "
+#~ "using the System Settings \"About Me\" Module. Uncheck this box to be "
+#~ "able to specify your full name and e-mail."
+#~ msgstr ""
+#~ "选中此框可使用 KDE 全局的电子邮件设置，它定义在系统设置中的“关于我”模块之"
+#~ "下。取消选中此框可自定义您的完整姓名和电子邮件。"
+
+#~ msgid "Use holiday region:"
+#~ msgstr "使用假日区域："
+
+#~ msgid ""
+#~ "Select from which region you want to use the holidays here. Defined "
+#~ "holidays are shown as non-working days in the date navigator, the agenda "
+#~ "view, etc."
+#~ msgstr ""
+#~ "选择要使用的假日区域。既定假日会在议事日程等视图的日期导航区中被标为非工作"
+#~ "日。"
+
+#~ msgid "Exclude holidays"
+#~ msgstr "假日除外"
+
+#~ msgid ""
+#~ "Check this box to prevent KOrganizer from marking the working hours on "
+#~ "holidays."
+#~ msgstr "选中此项可防止 KOrganizer 在假日期间标记工作时间。"
+
+#~ msgid "Default appointment time"
+#~ msgstr "默认约会时间"
+
+#~ msgid ""
+#~ "Enter the default time for events here. The default is used if you do not "
+#~ "supply a start time."
+#~ msgstr "在此输入事件的默认时间，如果您没有提供起始时间则使用默认值。"
+
+#~ msgid "Default duration of new appointment (HH:MM)"
+#~ msgstr "新约会的默认时间长度(HH:MM)"
+
+#~ msgid ""
+#~ "Enter default duration for events here. The default is used if you do not "
+#~ "supply an end time."
+#~ msgstr "在此输入事件的默认持续时间，如果您没有提供到期时间则使用默认值。"
+
+#~ msgid "Enable reminders for new Events"
+#~ msgstr "对新事件启用提醒"
+
+#~ msgid ""
+#~ "Check this box if you want to enable reminders for all newly created "
+#~ "Events. You can always turn-off the reminders in the Event editor dialog."
+#~ msgstr ""
+#~ "如果您想为所有新建事件启用提醒，请点击此选框。您以后可随时在事件编辑对话框"
+#~ "中关闭这些提醒。"
+
+#~ msgid "By default, enable reminders for new events"
+#~ msgstr "默认情况下，程序会为新事件启用提醒"
+
+#~ msgid "Enable reminders for new To-dos"
+#~ msgstr "对新待办启用提醒"
+
+#~ msgid ""
+#~ "Check this box if you want to enable reminders for all newly created To-"
+#~ "dos. You can always turn-off the reminders in the To-do editor dialog."
+#~ msgstr ""
+#~ "如果您希望对所有新建的待办事宜启用提醒，请选中此项。您以后随时可以在待办事"
+#~ "宜编辑对话框中关闭提醒。"
+
+#~ msgid "By default, enable reminders for new to-dos"
+#~ msgstr "默认情况下，程序会为新待办事宜启用提醒"
+
+#~ msgid "Default reminder time"
+#~ msgstr "默认提醒时间"
+
+#~ msgid ""
+#~ "Enter the default reminder time for all newly created items. The time "
+#~ "unit is specified in the adjacent combobox."
+#~ msgstr ""
+#~ "为所有新建项目输入默认的提醒时间。您可以在旁边的选框中指定时间单位。"
+
+#~ msgid "Default time for reminders"
+#~ msgstr "默认提醒时间"
+
+#~ msgid ""
+#~ "Enter the default reminder time units for all newly created items. The "
+#~ "time is specified in the adjacent spinbox."
+#~ msgstr ""
+#~ "为所有新建项目输入默认的提醒时间单位。您可以在旁边的选框中指定时间。"
+
+#~ msgid "Default time unit for reminders"
+#~ msgstr "默认的提醒时间单位"
+
+#~ msgid "Send copy to owner when mailing events"
+#~ msgstr "邮寄事件时发送副本给主人"
+
+#~ msgid ""
+#~ "Check this box to get a copy of all e-mail messages that KOrganizer sends "
+#~ "at your request to event attendees."
+#~ msgstr "选中此项可获得所有 KOrganizer 发送给事件参与者的邮件副本。"
+
+#~ msgid "Free/Busy Publish URL"
+#~ msgstr "忙/闲发布 URL"
+
+#~ msgid "URL for publishing free/busy information"
+#~ msgstr "发布忙/闲信息的 URL"
+
+#~ msgid "Free/Busy Publish Username"
+#~ msgstr "忙/闲发布用户名"
+
+#~ msgid "Username for publishing free/busy information"
+#~ msgstr "发布忙/闲信息的用户名"
+
+#~ msgid "Free/Busy Publish Password"
+#~ msgstr "忙/闲发布密码"
+
+#~ msgid "Password for publishing free/busy information"
+#~ msgstr "发布忙/闲信息的密码"
+
+#~ msgid "Enable Automatic Free/Busy Retrieval"
+#~ msgstr "允许自动获取忙/闲"
+
+#~ msgid "Use full email address for retrieval"
+#~ msgstr "获取时使用完整的电子邮件地址"
+
+#~ msgid ""
+#~ "With this setting, you can change the filename that will be fetched from "
+#~ "the server. With this checked, it will download a free/busy file called "
+#~ "user@domain.ifb, for example nn@kde.org.ifb. Without this set, it will "
+#~ "download user.ifb, for example nn.ifb."
+#~ msgstr ""
+#~ "使用此设置，您可更改要从服务器上获取的文件名。此时，程序将下载“用户名@域"
+#~ "名.ifb”作为忙/闲文件，如 nn@kde.org.ifb。如果不设置，程序将下载的文件名格"
+#~ "式是“用户名.ifb”，如 nn.ifb。"
+
+#~ msgid "Free/Busy Retrieval URL"
+#~ msgstr "获取忙/闲的 URL"
+
+#~ msgid "Free/Busy Retrieval Username"
+#~ msgstr "忙/闲获取用户名"
+
+#~ msgid "Free/Busy Retrieval Password"
+#~ msgstr "忙/闲获取密码"
+
+#~ msgid "Password for retrieving free/busy information"
+#~ msgstr "获取忙/闲信息的密码"
+
+#~ msgid "Regularly archive events"
+#~ msgstr "定期存档事件"
+
+#~ msgid ""
+#~ "If auto-archiving is enabled, events older than this amount will be "
+#~ "archived. The unit of this value is specified in another field."
+#~ msgstr ""
+#~ "如果启用自动存档，低于一定值的时间会被存档，其设定单位会在另一个字段里指"
+#~ "定。"
+
+#~ msgid "The unit in which the expiry time is expressed."
+#~ msgstr "过期时间的单位。"
+
+#~ msgid "In days"
+#~ msgstr "按天"
+
+#~ msgid "In weeks"
+#~ msgstr "按周"
+
+#~ msgid "In months"
+#~ msgstr "按月"
+
+#~ msgid "URL of the file where old events should be archived"
+#~ msgstr "旧事件存档文件的 URL"
+
+#~ msgid "Archive events"
+#~ msgstr "存档事件"
+
+#~ msgid "Archive to-dos"
+#~ msgstr "存档待办"
+
+#~ msgid "What to do when archiving"
+#~ msgstr "存档时的行为"
+
+#~ msgid "Delete old events"
+#~ msgstr "删除旧事件"
+
+#~ msgid "Archive old events to a separate file"
+#~ msgstr "将旧事件存档到一个单独文件"
+
+#~ msgid "Show timezone selectors in the event and todo editor dialog."
+#~ msgstr "在事件和待办事宜编辑对话框中显示时区选择器。"
+
+#~ msgid "Send Outlook-like pseudo counter proposals"
+#~ msgstr "发送模拟 Outlook 形式的反对意见"
+
+#~ msgid "Check whether hostname and retrieval email address match"
+#~ msgstr "检查主机名和获取邮件地址是否匹配"
+
+#~ msgid ""
+#~ "With this setting you can configure whether the domain part of the free/"
+#~ "busy URL has to match the domain part of the user ID you are looking for. "
+#~ "For example, if this option is 'true', then looking for the free/busy "
+#~ "data of joe@mydomain.com on the server www.yourdomain.com will fail."
+#~ msgstr ""
+#~ "使用此设置，您可配置忙/闲 URL 的域名部份和要搜寻的 UID 中的域名部份是否要"
+#~ "匹配。例如，若选项为“真”，那么要在服务器 www.yourdomain.com 上搜寻 "
+#~ "joe@mydomain.com 的忙/闲信息的请求将不会起效。"
+
+#~ msgid ""
+#~ "Enter your full name here. This name will be displayed as \"Organizer\" "
+#~ "in to-dos and events you create."
+#~ msgstr ""
+#~ "在此输入您的全名，它会在您创建的事件和待办事宜中以“组织者”的名义显示。"
+
+#~ msgid "E&mail address"
+#~ msgstr "电子邮件地址(&M)"
+
+#~ msgid ""
+#~ "Enter here your e-mail address. This e-mail address will be used to "
+#~ "identify the owner of the calendar, and displayed in events and to-dos "
+#~ "you create."
+#~ msgstr ""
+#~ "在此输入您的电子邮件地址，此地址用于标识日历的所有者，并会显示在您创建的事"
+#~ "件和待办事宜中。"
+
+#~ msgctxt "@option:check calendar items before a certain date"
+#~ msgid "Items before %1"
+#~ msgstr "在 %1 之前的项目"
+
+#~ msgctxt "@option:check calendar items after a certain date"
+#~ msgid "Items after %1"
+#~ msgstr "在 %1 之后的项目"
+
+#~ msgctxt "Default export file"
+#~ msgid "calendar.html"
+#~ msgstr "calendar.html"

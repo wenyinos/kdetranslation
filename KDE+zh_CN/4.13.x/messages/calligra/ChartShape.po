@@ -1,0 +1,781 @@
+# translation of ChartShape.po to 简体中文
+# Copyright (C) 2003, 2008, 2009 Free Software Foundation, Inc.
+#
+# Mai Hao Hui <mhh@126.com>, 2001.
+# Liu Songhe <jackliu9999@263.net>, 2002,2003.
+# Xiong Jiang <jxiong@offtopic.org>, 2002.
+# Funda Wang <fundawang@linux.net.cn>, 2003, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2011.
+# Sign <guoyunhebrave@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: ChartShape\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-07-01 01:30+0000\n"
+"PO-Revision-Date: 2013-02-02 15:50+0800\n"
+"Last-Translator: Sign <guoyunhebrave@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: ChartConfigWidget.cpp:344
+msgid "Bar Chart"
+msgstr "条形图"
+
+#: ChartConfigWidget.cpp:345 ChartConfigWidget.cpp:351
+#: ChartConfigWidget.cpp:357 ChartConfigWidget.cpp:371
+#: ChartConfigWidget.cpp:410 ChartConfigWidget.cpp:415
+#: ChartConfigWidget.cpp:420 ChartConfigWidget.cpp:428
+msgid "Normal"
+msgstr "普通"
+
+#: ChartConfigWidget.cpp:346 ChartConfigWidget.cpp:352
+#: ChartConfigWidget.cpp:358 ChartConfigWidget.cpp:411
+#: ChartConfigWidget.cpp:416 ChartConfigWidget.cpp:421
+msgid "Stacked"
+msgstr "堆叠"
+
+#. i18n: ectx: property (text), widget (QCheckBox, datasetShowPercent)
+#: ChartConfigWidget.cpp:347 ChartConfigWidget.cpp:353
+#: ChartConfigWidget.cpp:359 ChartConfigWidget.cpp:412
+#: ChartConfigWidget.cpp:417 ChartConfigWidget.cpp:422
+#: ChartConfigWidget.ui:625
+msgid "Percent"
+msgstr "百分数"
+
+#: ChartConfigWidget.cpp:350
+msgid "Line Chart"
+msgstr "折线图"
+
+#: ChartConfigWidget.cpp:356
+msgid "Area Chart"
+msgstr "面积图"
+
+#: ChartConfigWidget.cpp:364 ChartConfigWidget.cpp:424
+msgid "Pie Chart"
+msgstr "饼图"
+
+#: ChartConfigWidget.cpp:365 ChartConfigWidget.cpp:425
+msgid "Ring Chart"
+msgstr "环形图"
+
+#: ChartConfigWidget.cpp:370
+msgid "Polar Chart"
+msgstr "极区图"
+
+#: ChartConfigWidget.cpp:372 ChartConfigWidget.cpp:429
+msgid "Filled"
+msgstr "填充的"
+
+#: ChartConfigWidget.cpp:377 ChartConfigWidget.cpp:438
+msgid "Scatter Chart"
+msgstr "散点图"
+
+#: ChartConfigWidget.cpp:378 ChartConfigWidget.cpp:436
+msgid "Bubble Chart"
+msgstr "气泡图"
+
+#: ChartConfigWidget.cpp:383
+msgid "Stock Chart"
+msgstr "股票图"
+
+#: ChartConfigWidget.cpp:384 ChartConfigWidget.cpp:432
+msgid "HighLowClose"
+msgstr "最高最低收盘"
+
+#: ChartConfigWidget.cpp:386 ChartConfigWidget.cpp:433
+msgid "OpenHighLowClose"
+msgstr "开盘最高最低收盘"
+
+#: ChartConfigWidget.cpp:388 ChartConfigWidget.cpp:434
+msgid "Candlestick"
+msgstr "蜡烛台"
+
+#: ChartConfigWidget.cpp:391
+msgid "Surface Chart"
+msgstr "平面图"
+
+#: ChartConfigWidget.cpp:393
+msgid "Gantt Chart"
+msgstr "甘特图"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, errorType)
+#: ChartConfigWidget.cpp:454 dialogs/FormatErrorBarDialog.ui:89
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (text), widget (QCheckBox, automaticStepWidth)
+#. i18n: ectx: property (text), widget (QCheckBox, automaticSubStepWidth)
+#: ChartConfigWidget.cpp:455 dialogs/AxisScalingDialog.ui:49
+#: dialogs/AxisScalingDialog.ui:85
+msgid "Automatic"
+msgstr "自动"
+
+#: ChartConfigWidget.cpp:457
+msgid "Select"
+msgstr "选择"
+
+#: ChartConfigWidget.cpp:631
+msgid "Data Ranges..."
+msgstr "数据范围..."
+
+#: ChartConfigWidget.cpp:1087
+#, kde-format
+msgid "Axis %1"
+msgstr "轴 %1"
+
+#: ChartConfigWidget.cpp:1231
+#, kde-format
+msgid "Data Set %1"
+msgstr "数据集 %1"
+
+#: ChartConfigWidget.cpp:1826
+msgid ""
+"Are you sure you want to remove this axis? All settings specific to this "
+"axis will be lost."
+msgstr "您确定您想要删除这个轴吗？所有与此轴相关的设置将全部丢失。"
+
+#: ChartConfigWidget.cpp:1827
+msgid "Axis Removal Confirmation"
+msgstr "轴删除确认"
+
+#. i18n: ectx: property (text), widget (QCheckBox, threeDLook)
+#: ChartConfigWidget.ui:18
+msgid "3D"
+msgstr "3D"
+
+#. i18n: ectx: property (text), widget (QPushButton, editData)
+#: ChartConfigWidget.ui:25
+msgid "Edit Data..."
+msgstr "编辑数据..."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: ChartConfigWidget.ui:42
+msgid "Plot Area"
+msgstr "绘制区域"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showTitle)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: ChartConfigWidget.ui:56 ChartConfigWidget.ui:672 ChartShape.cpp:484
+msgid "Title"
+msgstr "标题"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showSubTitle)
+#: ChartConfigWidget.ui:69 ChartShape.cpp:509
+msgid "Subtitle"
+msgstr "副标题"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showFooter)
+#: ChartConfigWidget.ui:82 ChartShape.cpp:536
+msgid "Footer"
+msgstr "页脚"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ChartConfigWidget.ui:95
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><span style="
+"\" font-weight:600;\">Labels</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;\"><span style="
+"\" font-weight:600;\">标签</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ChartConfigWidget.ui:116
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">Axes</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">轴</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, axisShowTitle)
+#: ChartConfigWidget.ui:142
+msgid "Label"
+msgstr "标签"
+
+#. i18n: ectx: property (text), widget (QCheckBox, axisShowGridLines)
+#: ChartConfigWidget.ui:154
+msgid "Show Grid Lines"
+msgstr "显示网格线"
+
+#. i18n: ectx: property (text), widget (QPushButton, axisScalingButton)
+#: ChartConfigWidget.ui:163
+msgid "Scaling..."
+msgstr "缩放..."
+
+#. i18n: ectx: property (text), widget (QPushButton, axisEditFontButton)
+#. i18n: ectx: property (text), widget (QPushButton, legendEditFontButton)
+#: ChartConfigWidget.ui:170 ChartConfigWidget.ui:740
+msgid "Edit Fonts..."
+msgstr "编辑字体..."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: ChartConfigWidget.ui:196
+msgid "Data Sets"
+msgstr "数据集"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, dataSets)
+#: ChartConfigWidget.ui:202
+msgid "Select a data set"
+msgstr "选择数据集"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dataSetHasChartType)
+#: ChartConfigWidget.ui:214
+msgid "Custom Type"
+msgstr "自定义类型"
+
+#. i18n: ectx: property (text), widget (QLabel, gapBetweenBarsLabel)
+#: ChartConfigWidget.ui:266
+msgid "Gap Between Bars"
+msgstr "条间距"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, gapBetweenBars)
+#. i18n: ectx: property (suffix), widget (QSpinBox, gapBetweenSets)
+#. i18n: ectx: property (suffix), widget (QSpinBox, pieExplodeFactor)
+#: ChartConfigWidget.ui:279 ChartConfigWidget.ui:308 ChartConfigWidget.ui:370
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (text), widget (QLabel, gapBetweenSetsLabel)
+#: ChartConfigWidget.ui:301
+msgid "Gap Between Sets"
+msgstr "数据集间距"
+
+#. i18n: ectx: property (text), widget (QLabel, barPropertiesLabel)
+#: ChartConfigWidget.ui:328
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">Bar Properties</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">条形属性</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: ChartConfigWidget.ui:389
+msgid "Explode Factor"
+msgstr "爆炸因子"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ChartConfigWidget.ui:400
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-size:8pt; font-weight:600;\">Pie Properties</"
+"span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">饼图属性</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ChartConfigWidget.ui:429
+msgid "Attached Axis"
+msgstr "附加轴"
+
+#. i18n: ectx: property (text), widget (QLabel, datasetMarkerLabel)
+#: ChartConfigWidget.ui:438
+msgid "Marker"
+msgstr "标记"
+
+#. i18n: ectx: property (text), widget (QLabel, datasetPenLabel)
+#: ChartConfigWidget.ui:464
+msgid "Stroke"
+msgstr "笔画"
+
+#. i18n: ectx: property (text), widget (QLabel, datasetColorLabel)
+#: ChartConfigWidget.ui:505
+msgid "Fill"
+msgstr "填充"
+
+#. i18n: ectx: property (text), widget (QCheckBox, datasetShowErrorBar)
+#: ChartConfigWidget.ui:566
+msgid "Error Bars"
+msgstr "错误栏"
+
+#. i18n: ectx: property (text), widget (QToolButton, formatErrorBar)
+#: ChartConfigWidget.ui:591
+msgid "Insert"
+msgstr "插入"
+
+#. i18n: ectx: property (text), widget (QCheckBox, datasetShowCategory)
+#: ChartConfigWidget.ui:604
+msgid "Category"
+msgstr "类别"
+
+#. i18n: ectx: property (text), widget (QCheckBox, datasetShowSymbol)
+#: ChartConfigWidget.ui:611
+msgid "Symbol"
+msgstr "符号"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dataSetShowNumber)
+#: ChartConfigWidget.ui:618
+msgid "Number"
+msgstr "编号"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: ChartConfigWidget.ui:643
+msgid "Legend"
+msgstr "图例"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showLegend)
+#: ChartConfigWidget.ui:649
+msgid "Show Legend"
+msgstr "显示图例"
+
+#. i18n: ectx: property (text), widget (QCheckBox, legendShowFrame)
+#: ChartConfigWidget.ui:689
+msgid "Show Frame"
+msgstr "显示框架"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ChartConfigWidget.ui:696
+msgid "Orientation"
+msgstr "方向"
+
+#. i18n: ectx: property (text), widget (QRadioButton, legendOrientationIsVertical)
+#: ChartConfigWidget.ui:703
+msgid "v"
+msgstr "v"
+
+#. i18n: ectx: property (text), widget (QRadioButton, legendOrientationIsHorizontal)
+#: ChartConfigWidget.ui:716
+msgid "h"
+msgstr "h"
+
+#: ChartShape.cpp:457
+msgid ""
+"The plugin needed for displaying text labels in a chart is not available."
+msgstr "在图表内显示文本标签所需的插件不可用。"
+
+#: ChartShape.cpp:458
+msgid "Plugin Missing"
+msgstr "插件缺失"
+
+#: ChartShape.cpp:462
+msgid ""
+"The plugin needed for displaying text labels is not compatible with the "
+"current version of the chart Flake shape."
+msgstr "在图表内显示文本标签所需的插件与当前的图表 Flake 形状不兼容。"
+
+#: ChartShape.cpp:463
+msgid "Plugin Incompatible"
+msgstr "插件不兼容"
+
+#: ChartShape.cpp:909
+#, kde-format
+msgid ""
+"This document contains an external link to a remote document\n"
+"%1"
+msgstr ""
+"此文档包含一个指向远程文档的链接\n"
+"%1"
+
+#: ChartShape.cpp:910
+msgid "Confirmation Required"
+msgstr "需要确认"
+
+#: ChartShape.cpp:910
+msgid "Download"
+msgstr "下载"
+
+#: ChartShape.cpp:910
+msgid "Skip"
+msgstr "跳过"
+
+#: ChartShapeFactory.cpp:68
+msgid "Chart"
+msgstr "图表"
+
+#: ChartShapeFactory.cpp:71
+msgid "Business charts"
+msgstr "商业图表"
+
+#: ChartShapeFactory.cpp:139
+msgid "January"
+msgstr "一月"
+
+#: ChartShapeFactory.cpp:140
+msgid "July"
+msgstr "七月"
+
+#: ChartShapeFactory.cpp:141
+msgid "December"
+msgstr "十二月"
+
+#: ChartShapeFactory.cpp:144 ChartShapeFactory.cpp:145
+#: ChartShapeFactory.cpp:146 ChartShapeFactory.cpp:147
+#, kde-format
+msgid "Column %1"
+msgstr "第%1列"
+
+#: ChartShapeFactory.cpp:186
+msgid "Month"
+msgstr "月"
+
+#: ChartShapeFactory.cpp:195
+msgid "Growth in %"
+msgstr "增长百分比"
+
+#: ChartTool.cpp:103
+msgid "Do something"
+msgstr "做些事情"
+
+#: ChartTool.cpp:108
+msgid "Do something else"
+msgstr "做些别的事情"
+
+#: ChartToolFactory.cpp:42
+msgid "Chart Editing Tool"
+msgstr "图表编辑工具"
+
+#: DataSet.cpp:250
+#, kde-format
+msgid "Series %1"
+msgstr "系列 %1"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, AxisScalingDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog, CellRegionDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog, ChartTableEditor)
+#: dialogs/AxisScalingDialog.ui:13 dialogs/CellRegionDialog.ui:13
+#: dialogs/ChartTableEditor.ui:14
+msgid "Dialog"
+msgstr "对话框"
+
+#. i18n: ectx: property (text), widget (QCheckBox, logarithmicScaling)
+#: dialogs/AxisScalingDialog.ui:19
+msgid "Logarithmic Scaling"
+msgstr "对数刻度"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/AxisScalingDialog.ui:32
+msgid "Step Width:"
+msgstr "步长宽度："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/AxisScalingDialog.ui:65
+msgid "Substep Width:"
+msgstr "子步长宽度："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/CellRegionDialog.ui:48
+msgid "Y Values:"
+msgstr "Y 值："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/CellRegionDialog.ui:58
+msgid "X Values:"
+msgstr "X 值："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/CellRegionDialog.ui:71
+msgid "<b>Choose a Data Set</b>"
+msgstr "<b>选择数据集</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: dialogs/CellRegionDialog.ui:81
+msgid "Categories:"
+msgstr "分类："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: dialogs/CellRegionDialog.ui:95
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p align=\"right\" style=\" margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+"style=\" font-weight:600;\">Name:</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p align=\"right\" style=\" margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+"style=\" font-weight:600;\">名称：</span></p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: dialogs/ChartTableEditor.ui:23
+msgid "Data Format"
+msgstr "数据格式"
+
+#. i18n: ectx: property (text), widget (QRadioButton, dataSetsInRows)
+#: dialogs/ChartTableEditor.ui:29
+msgid "Data sets in rows"
+msgstr "行内数据集"
+
+#. i18n: ectx: property (text), widget (QRadioButton, dataSetsInColumns)
+#: dialogs/ChartTableEditor.ui:36
+msgid "Data sets in columns"
+msgstr "列内数据集"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: dialogs/ChartTableEditor.ui:46
+msgid "Actions"
+msgstr "动作"
+
+#. i18n: ectx: property (text), widget (QPushButton, insertRow)
+#: dialogs/ChartTableEditor.ui:52 dialogs/TableEditorDialog.cpp:68
+msgid "Insert Rows"
+msgstr "插入行"
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteRow)
+#: dialogs/ChartTableEditor.ui:62 dialogs/TableEditorDialog.cpp:69
+msgid "Delete Rows"
+msgstr "删除行"
+
+#. i18n: ectx: property (text), widget (QPushButton, insertColumn)
+#: dialogs/ChartTableEditor.ui:72 dialogs/TableEditorDialog.cpp:70
+msgid "Insert Columns"
+msgstr "插入列"
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteColumn)
+#: dialogs/ChartTableEditor.ui:82 dialogs/TableEditorDialog.cpp:71
+msgid "Delete Columns"
+msgstr "删除列"
+
+#: dialogs/FontEditorDialog.cpp:33
+msgid "Select Font"
+msgstr "选择字体"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, FormatErrorBarDialog)
+#: dialogs/FormatErrorBarDialog.ui:29
+msgid "Format Error Bars"
+msgstr "格式错误栏"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/FormatErrorBarDialog.ui:69
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Error Category</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"weight:600;\"></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">错误类别</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"weight:600;\"></p></body></html>"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, errorType)
+#: dialogs/FormatErrorBarDialog.ui:94
+msgid "Constant"
+msgstr "常量"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, errorType)
+#: dialogs/FormatErrorBarDialog.ui:99
+msgid "Percentage"
+msgstr "百分数"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, errorType)
+#: dialogs/FormatErrorBarDialog.ui:104
+msgid "Error Margin"
+msgstr "误差范围"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, errorType)
+#: dialogs/FormatErrorBarDialog.ui:109
+msgid "Standard Deviation"
+msgstr "标准差"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, errorType)
+#: dialogs/FormatErrorBarDialog.ui:114
+msgid "Variance"
+msgstr "方差"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, errorType)
+#: dialogs/FormatErrorBarDialog.ui:119
+msgid "From Data table"
+msgstr "从数据表"
+
+#. i18n: ectx: property (text), widget (QLabel, valueLabel)
+#: dialogs/FormatErrorBarDialog.ui:144
+msgid "Positive "
+msgstr "正数"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QRadioButton, negIndicator)
+#: dialogs/FormatErrorBarDialog.ui:173 dialogs/FormatErrorBarDialog.ui:338
+msgid "Negative"
+msgstr "负数"
+
+#. i18n: ectx: property (text), widget (QCheckBox, sameValueForBoth)
+#: dialogs/FormatErrorBarDialog.ui:207
+msgid "Same for both"
+msgstr "两者相同"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/FormatErrorBarDialog.ui:226
+msgid "Value"
+msgstr "值"
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, percentageValue)
+#: dialogs/FormatErrorBarDialog.ui:233
+#, no-c-format
+msgid " %"
+msgstr " %"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/FormatErrorBarDialog.ui:303
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Error Indicator</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">误差指示器</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, posIndicator)
+#: dialogs/FormatErrorBarDialog.ui:325
+msgid "Positive"
+msgstr "正数"
+
+#. i18n: ectx: property (text), widget (QRadioButton, posAndNegIndicator)
+#: dialogs/FormatErrorBarDialog.ui:351
+msgid "Both"
+msgstr "二者兼有"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, NewAxisDialog)
+#: dialogs/NewAxisDialog.ui:20
+msgid "New Axis"
+msgstr "新建轴"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/NewAxisDialog.ui:72
+msgid "Title:"
+msgstr "标题："
+
+#~ msgid "Labels"
+#~ msgstr "标签"
+
+#~ msgid "Top"
+#~ msgstr "顶部"
+
+#~ msgid "Bottom"
+#~ msgstr "底部"
+
+#~ msgid "Left"
+#~ msgstr "左边"
+
+#~ msgid "Right"
+#~ msgstr "右边"
+
+#~ msgid "Color"
+#~ msgstr "颜色"
+
+#~ msgid "sdf"
+#~ msgstr "sdf"
+
+#~ msgid "Data Area"
+#~ msgstr "数据区域"
+
+#~ msgid "Use first row for labels"
+#~ msgstr "对标签使用首行"
+
+#~ msgid "Use first column for labels"
+#~ msgstr "对标签使用首列"

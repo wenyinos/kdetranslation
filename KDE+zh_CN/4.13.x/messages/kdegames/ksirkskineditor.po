@@ -1,0 +1,1810 @@
+# translation of ksirkskineditor.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the ksirk package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+# Lie_Ex <lilith.ex@gmail.com>, 2008-2010.
+# FengChao <rainofchaos@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksirkskineditor\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 03:44+0200\n"
+"PO-Revision-Date: 2013-06-18 20:53+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: goal.cpp:99
+msgid "Error: no player to destroy"
+msgstr "错误：没有玩家被击垮"
+
+#: goal.cpp:212
+msgid "KsirK - Goal Display"
+msgstr "KsirK - 目标显示"
+
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, KsirkContinentDefinition)
+#: ksirkcontinentdefinition.ui:13
+msgid "Continent"
+msgstr "大陆"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ksirkcontinentdefinition.ui:22
+msgid "Bonus:"
+msgstr "奖励："
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, bonus)
+#: ksirkcontinentdefinition.ui:29
+msgid "Number of bonus points when owning the full continent"
+msgstr "占据整块大陆时的奖励点数"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, bonus)
+#: ksirkcontinentdefinition.ui:36
+msgid ""
+"Number of bonus points when owning the full continent.\n"
+"\n"
+"At the end of each turn a number of armies is distributed to each player. If "
+"one player owns all the countries of this continent, he/she gains this "
+"bonus.\n"
+"\n"
+"The bonus should be proportional to the continent's size and to the "
+"difficulty to conquer it or to keep it."
+msgstr ""
+"当玩家占据整块大陆时的奖励点数。\n"
+"\n"
+"一回合结束时，每名玩家都可以增兵。如果此时某玩家拥有此片大陆下的所有国家，可"
+"以得到额外的奖赏点数。\n"
+"此奖赏的具体数额和大陆的面积与征服/防守难度有关。"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, selectcountriesbutton)
+#: ksirkcontinentdefinition.ui:48
+msgid "Select the countries contained in this continent"
+msgstr "选择此大陆所包含的国家"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, selectcountriesbutton)
+#: ksirkcontinentdefinition.ui:53
+msgid ""
+"Click here to select the countries contained in this continent.\n"
+"\n"
+"A list of all the world's countries will be shown and you will be able to "
+"select the countries using the mouse and the Ctrl and Shift keys."
+msgstr ""
+"单击这里选择此大陆内囊括的国家。\n"
+"\n"
+"这将显示一份国家列表，供你使用鼠标和 Ctrl、Shift 按键来选择。"
+
+#. i18n: ectx: property (text), widget (KPushButton, selectcountriesbutton)
+#: ksirkcontinentdefinition.ui:56
+msgid "Countries:"
+msgstr "国家："
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, countrieslist)
+#: ksirkcontinentdefinition.ui:63
+msgid "Continent's countries"
+msgstr "大陆的国家"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, countrieslist)
+#: ksirkcontinentdefinition.ui:66
+msgid "This is the list of countries currently forming this continent."
+msgstr "这是此大陆上所有国家的列表。"
+
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, KsirkCountryDefinition)
+#: ksirkcountrydefinition.ui:13
+msgid "Country"
+msgstr "国家"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ksirkcountrydefinition.ui:22
+msgid "Flag:"
+msgstr "国旗："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: ksirkcountrydefinition.ui:29 ksirkcountrydefinition.ui:46
+#: ksirkcountrydefinition.ui:63 ksirkcountrydefinition.ui:97
+#: ksirkcountrydefinition.ui:148 ksirkcountrydefinition.ui:182
+#: ksirkskindefinition.ui:64
+msgid "x"
+msgstr "x"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ksirkcountrydefinition.ui:39
+msgid "Anchor:"
+msgstr "锚点："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ksirkcountrydefinition.ui:56
+msgid "Center:"
+msgstr "中心点："
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: ksirkcountrydefinition.ui:73
+msgid "Infantry:"
+msgstr "步兵："
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, infantryx)
+#: ksirkcountrydefinition.ui:80
+msgid "Infantry's sprite top left point x-coordinate"
+msgstr "步兵图示左上方的点的横坐标"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, infantryx)
+#: ksirkcountrydefinition.ui:87
+msgid ""
+"Infantry's sprite top left point x-coordinate.\n"
+"\n"
+"This is given relatively to the top left of the map, sized as defined in the "
+"main skin definition widget.\n"
+"\n"
+"This value will be automatically updated if you move the infantry."
+msgstr ""
+"步兵图示左上方的点的横坐标。\n"
+"\n"
+"这个点的位置是相对于地图左上端的，且与主外观控件的尺寸有关。\n"
+"\n"
+"在您调动步兵部队时，此数值会自动更新。"
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, infantryy)
+#: ksirkcountrydefinition.ui:107
+msgid "Infantry's sprite top left point y-coordinate"
+msgstr "步兵图示左上方的点的纵坐标"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, infantryy)
+#: ksirkcountrydefinition.ui:114
+msgid ""
+"Infantry's sprite top left point y-coordinate.\n"
+"\n"
+"This is given relatively to the top left of the map, sized as defined in the "
+"main skin definition widget.\n"
+"\n"
+"This value will be automatically updated if you move the infantry by drag "
+"and drop."
+msgstr ""
+"步兵图示左上方的点的纵坐标。\n"
+"\n"
+"这个点的位置是相对于地图左上端的，且与主外观控件的尺寸有关。\n"
+"\n"
+"当您在地图上拖动步兵部队时，此数值会自动更新。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: ksirkcountrydefinition.ui:124
+msgid "Cavalry:"
+msgstr "骑兵："
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, cavalryx)
+#: ksirkcountrydefinition.ui:131
+msgid "Cavalry's sprite top left point x-coordinate"
+msgstr "骑兵图示左上方的点的横坐标"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, cavalryx)
+#: ksirkcountrydefinition.ui:138
+msgid ""
+"Cavalry's sprite top left point x-coordinate.\n"
+"\n"
+"This is given relatively to the top left of the map, sized as defined in the "
+"main skin definition widget.\n"
+"\n"
+"This value will be automatically updated if you move the cavalry."
+msgstr ""
+"骑兵图示左上方的点的横坐标。\n"
+"\n"
+"这个点的位置是相对于地图左上端的，且与主外观控件的尺寸有关。\n"
+"\n"
+"在您调动骑兵部队时，此数值会自动更新。"
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, cavalryy)
+#: ksirkcountrydefinition.ui:158
+msgid "Cavalry's sprite top left point y-coordinate"
+msgstr "骑兵图示左上方的点的纵坐标"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, cavalryy)
+#: ksirkcountrydefinition.ui:165
+msgid ""
+"Cavalry's sprite top left point y-coordinate.\n"
+"\n"
+"This is given relatively to the top left of the map, sized as defined in the "
+"main skin definition widget.\n"
+"\n"
+"This value will be automatically updated if you move the cavalry by drag and "
+"drop."
+msgstr ""
+"骑兵图示左上方的点的纵坐标。\n"
+"\n"
+"这个点的位置是相对于地图左上端的，且与主外观控件的尺寸有关。\n"
+"\n"
+"当您在地图上拖动骑兵部队时，此数值会自动更新。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: ksirkcountrydefinition.ui:175
+msgid "Cannon:"
+msgstr "炮兵："
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, cannony)
+#: ksirkcountrydefinition.ui:192
+msgid "Cannon's sprite top left point y-coordinate"
+msgstr "炮兵图示左上方的点的纵坐标"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, cannony)
+#: ksirkcountrydefinition.ui:199
+msgid ""
+"Cannon's sprite top left point y-coordinate.\n"
+"\n"
+"This is given relatively to the top left of the map, sized as defined in the "
+"main skin definition widget.\n"
+"\n"
+"This value will be automatically updated if you move the cannon by drag and "
+"drop."
+msgstr ""
+"炮兵图示左上方的点的纵坐标。\n"
+"\n"
+"这个点的位置是相对于地图左上端的，且与主外观控件的尺寸有关。\n"
+"\n"
+"当您在地图上拖动炮兵部队时，此数值会自动更新。"
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, cannonx)
+#: ksirkcountrydefinition.ui:209
+msgid "Cannon's sprite top left point x-coordinate"
+msgstr "炮兵图示左上方的点的横坐标"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, cannonx)
+#: ksirkcountrydefinition.ui:216
+msgid ""
+"Cannon's sprite top left point x-coordinate.\n"
+"\n"
+"This is given relatively to the top left of the map, sized as defined in the "
+"main skin definition widget.\n"
+"\n"
+"This value will be automatically updated if you move the cannon."
+msgstr ""
+"炮兵图示左上方的点的横坐标。\n"
+"\n"
+"这个点的位置是相对于地图左上端的，且与主外观控件的尺寸有关。\n"
+"\n"
+"在您调动炮兵部队时，此数值会自动更新。"
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, centery)
+#: ksirkcountrydefinition.ui:226
+msgid "Point around which the country name is drawn y-coordinate"
+msgstr "国名位置的纵坐标"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, centery)
+#: ksirkcountrydefinition.ui:236
+msgid ""
+"Point around which the country name is drawn y-coordinate.\n"
+"\n"
+"Note that this point should be located inside the limits of the country on "
+"the map mask.\n"
+"\n"
+"This is given relatively to the top left of the map, sized as defined in the "
+"main skin definition widget.\n"
+"\n"
+"This value will be automatically updated if you move the country name by "
+"dragging and dropping its target icon.\n"
+msgstr ""
+"国名位置在地图上的纵坐标。\n"
+"\n"
+"请注意，该点必需在地图范围内。\n"
+"\n"
+"这个点的位置是相对于地图左上端的，且与主外观控件的尺寸有关。\n"
+"\n"
+"在您拖放国名图标时，此数值会自动更新。\n"
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, centerx)
+#: ksirkcountrydefinition.ui:246
+msgid "Point around which the country name is drawn x-coordinate"
+msgstr "国名位置的横坐标"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, centerx)
+#: ksirkcountrydefinition.ui:255
+msgid ""
+"Point around which the country name is drawn x-coordinate.\n"
+"\n"
+"Note that this point should be located inside the limits of the country on "
+"the map mask.\n"
+"\n"
+"This is given relatively to the top left of the map, sized as defined in the "
+"main skin definition widget.\n"
+"\n"
+"This value will be automatically updated if you move the country name by "
+"dragging and dropping its target icon."
+msgstr ""
+"国名位置在地图上的横坐标。\n"
+"\n"
+"请注意，该点必需在地图范围内。\n"
+"\n"
+"这个点的位置是相对于地图左上端的，且与主外观控件的尺寸有关。\n"
+"\n"
+"在您拖放国名图标时，此数值会自动更新。"
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, anchory)
+#: ksirkcountrydefinition.ui:265
+msgid "Center of the highlighting y-coordinate"
+msgstr "中心点的纵坐标"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, anchory)
+#: ksirkcountrydefinition.ui:272
+msgid ""
+"Center of the highlighting y-coordinate.\n"
+"\n"
+"This is given relatively to the top left of the map, sized as defined in the "
+"main skin definition widget.\n"
+"\n"
+"This value will be automatically updated if you move the highlighting by "
+"dragging and dropping its cross icon."
+msgstr ""
+"中心点的纵坐标。\n"
+"\n"
+"这个点的位置是相对于地图左上端的，且与主外观控件的尺寸有关。\n"
+"\n"
+"在您拖动中心点的十字图示时，此数值会自动更新。"
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, anchorx)
+#: ksirkcountrydefinition.ui:282
+msgid "Center of the highlighting x-coordinate"
+msgstr "中心点的横坐标"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, anchorx)
+#: ksirkcountrydefinition.ui:289
+msgid ""
+"Center of the highlighting x-coordinate.\n"
+"\n"
+"This is given relatively to the top left of the map, sized as defined in the "
+"main skin definition widget.\n"
+"\n"
+"This value will be automatically updated if you move the highlighting by "
+"dragging and dropping its cross icon."
+msgstr ""
+"中心点的横坐标。\n"
+"\n"
+"这个点的位置是相对于地图左上端的，且与主外观控件的尺寸有关。\n"
+"\n"
+"在您拖动中心点的十字图示时，此数值会自动更新。"
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, flagy)
+#: ksirkcountrydefinition.ui:299
+msgid "Flag's sprite top left point y-coordinate"
+msgstr "旗帜图示左上方点的纵坐标"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, flagy)
+#: ksirkcountrydefinition.ui:306
+msgid ""
+"Flag's sprite top left point y-coordinate.\n"
+"\n"
+"This is given relatively to the top left of the map, sized as defined in the "
+"main skin definition widget.\n"
+"\n"
+"This value will be automatically updated if you move the flag by drag and "
+"drop."
+msgstr ""
+"旗帜图标左上方点的纵坐标。\n"
+"\n"
+"这个点的位置是相对于地图左上端的，且与主外观控件的尺寸有关。\n"
+"\n"
+"在您拖动旗帜图示时，此数值会自动更新。"
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, flagx)
+#: ksirkcountrydefinition.ui:316
+msgid "Flag's sprite top left point x-coordinate"
+msgstr "旗帜图标左上方点的横坐标"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, flagx)
+#: ksirkcountrydefinition.ui:323
+msgid ""
+"Flag's sprite top left point x-coordinate.\n"
+"\n"
+"This is given relatively to the top left of the map, sized as defined in the "
+"main skin definition widget.\n"
+"\n"
+"This value will be automatically updated if you move the flag by drag and "
+"drop."
+msgstr ""
+"旗帜图标左上方点的横坐标。\n"
+"\n"
+"这个点的位置是相对于地图左上端的，且与主外观控件的尺寸有关。\n"
+"\n"
+"在您拖动旗帜图示时，此数值会自动更新。"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, neighboursbutton)
+#: ksirkcountrydefinition.ui:335
+msgid "Select this country's neighbors"
+msgstr "选择此国家的邻国"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, neighboursbutton)
+#: ksirkcountrydefinition.ui:340
+#, fuzzy
+#| msgid ""
+#| "Click here to select the countries contained in this continent.\n"
+#| "\n"
+#| "A list of all the world's countries will be shown and you will be able to "
+#| "select the countries using the mouse and the Ctrl and Shift keys."
+msgid ""
+"Click here to select this country's neighbors.\n"
+"\n"
+"A list of all the world's countries will be shown and you will be able to "
+"select the countries using the mouse and the Ctrl and Shift keys."
+msgstr ""
+"单击这里选择此大陆内囊括的国家。\n"
+"\n"
+"这将显示一份国家列表，供你使用鼠标和 Ctrl、Shift 按键来选择。"
+
+#. i18n: ectx: property (text), widget (KPushButton, neighboursbutton)
+#: ksirkcountrydefinition.ui:343
+msgid "Neighbors:"
+msgstr "邻国："
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, neighbourslist)
+#: ksirkcountrydefinition.ui:350
+msgid "This country's neighbors"
+msgstr "此国家的邻国"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, neighbourslist)
+#: ksirkcountrydefinition.ui:353
+#, fuzzy
+#| msgid "This is the list of countries currently forming this continent."
+msgid ""
+"This is the list of countries currently considered as neighbors of this "
+"country."
+msgstr "这是此大陆上所有国家的列表。"
+
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, KsirkGoalDefinition)
+#: ksirkgoaldefinition.ui:13
+msgid "Goal"
+msgstr "目标"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ksirkgoaldefinition.ui:26
+msgid "Goal Type"
+msgstr "目标类型"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, worldtype)
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, worldtype)
+#: ksirkgoaldefinition.ui:41 ksirkgoaldefinition.ui:44
+msgid "Conquer all the world"
+msgstr "征服世界"
+
+#. i18n: ectx: property (text), widget (QRadioButton, worldtype)
+#: ksirkgoaldefinition.ui:47
+msgid "World conquest"
+msgstr "世界征服"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, playertype)
+#: ksirkgoaldefinition.ui:54
+msgid "Eliminate a given player"
+msgstr "消灭指定玩家"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, playertype)
+#: ksirkgoaldefinition.ui:57
+msgid ""
+"<p>Eliminate a given player. If it is eliminated by another one, you will "
+"fall back to a <emphasis>Countries</emphasis> type of goal.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, playertype)
+#: ksirkgoaldefinition.ui:60
+msgid "Player"
+msgstr "玩家"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, countriestype)
+#: ksirkgoaldefinition.ui:67
+msgid "Conquer a given number of countries"
+msgstr "征服指定数目的国家"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, countriestype)
+#: ksirkgoaldefinition.ui:72
+msgid ""
+"Conquer a given number of countries.\n"
+"\n"
+"You can also make the player to have to put a given number of armies on each "
+"country."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, countriestype)
+#. i18n: ectx: attribute (title), widget (QWidget, tabCountries)
+#: ksirkgoaldefinition.ui:75 ksirkskindefinition.ui:256
+msgid "Countries"
+msgstr "国家"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, continentstype)
+#: ksirkgoaldefinition.ui:82
+msgid "Conquer a given list of continents"
+msgstr "征服指定的各个大陆"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, continentstype)
+#: ksirkgoaldefinition.ui:85
+msgid ""
+"Conquer a given list of continents. You can also let the player choose one "
+"of their target continents."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, continentstype)
+#. i18n: ectx: attribute (title), widget (QWidget, tabContinents)
+#: ksirkgoaldefinition.ui:88 ksirkskindefinition.ui:318
+msgid "Continents"
+msgstr "大陆"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ksirkgoaldefinition.ui:99 ksirkskindefinition.ui:147
+msgid "Description:"
+msgstr "描述："
+
+#. i18n: ectx: property (toolTip), widget (QTextEdit, description)
+#: ksirkgoaldefinition.ui:106
+msgid "Text describing the goal"
+msgstr "描述目标的文字"
+
+#. i18n: ectx: property (whatsThis), widget (QTextEdit, description)
+#: ksirkgoaldefinition.ui:109
+msgid ""
+"<p>Text describing the goal. It should include several placeholders for "
+"various data depending on the goal type:</p><ul><li><i>World Conquest</i>: "
+"none</li><li><i>Player</i>: one for the player name and one for the number "
+"of countries fallback</li><li><i>Countries</i>: one for the number of "
+"countries and possibly a second one for the number of armies to put on each "
+"country</li><li><i>Continents</i>: one for each continent to conquer</li></"
+"ul>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ksirkgoaldefinition.ui:125
+#, fuzzy
+#| msgid "Countries:"
+msgid "Countries nb:"
+msgstr "国家："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ksirkgoaldefinition.ui:132
+#, fuzzy
+#| msgid "Creates a new country"
+msgid "Armies by country:"
+msgstr "创建新国家"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, nbcountries)
+#: ksirkgoaldefinition.ui:139
+msgid "Number of countries to conquer"
+msgstr "要征服的国家数量"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, nbcountries)
+#: ksirkgoaldefinition.ui:142
+#, fuzzy
+#| msgid ""
+#| "<p>Number of armies to put on each country in a <i>Countries</i> goal.</p>"
+msgid ""
+"<p>Number of countries to conquer in a <i>Countries</i> goal or as a "
+"fallback in a <i>Player</i> goal.</p>"
+msgstr "<p>在以<i>国家</i>为目标的游戏模式中，部署在每个国家的部队数量。</p>"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, armiesbycountry)
+#: ksirkgoaldefinition.ui:149
+msgid "Number of armies to put on each country"
+msgstr "显示每个国家的部队数量"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, armiesbycountry)
+#: ksirkgoaldefinition.ui:152
+msgid ""
+"<p>Number of armies to put on each country in a <i>Countries</i> goal.</p>"
+msgstr "<p>在以<i>国家</i>为目标的游戏模式中，部署在每个国家的部队数量。</p>"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, selectcontinentsbutton)
+#: ksirkgoaldefinition.ui:170
+msgid "Select the continents to conquer"
+msgstr "选择要征服的大陆"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, selectcontinentsbutton)
+#: ksirkgoaldefinition.ui:173
+#, fuzzy
+#| msgid ""
+#| "Click here to select the countries contained in this continent.\n"
+#| "\n"
+#| "A list of all the world's countries will be shown and you will be able to "
+#| "select the countries using the mouse and the Ctrl and Shift keys."
+msgid ""
+"<p>Click this button to select the continents to conquer in a <i>Continents</"
+"i> goal.</p><p>You will be prompted with a list of this world's continents. "
+"Select those to conquer with the mouse and the Ctrl and Shift keys.</p>"
+msgstr ""
+"单击这里选择此大陆内囊括的国家。\n"
+"\n"
+"这将显示一份国家列表，供你使用鼠标和 Ctrl、Shift 按键来选择。"
+
+#. i18n: ectx: property (text), widget (QPushButton, selectcontinentsbutton)
+#: ksirkgoaldefinition.ui:176
+msgid "Select Continents"
+msgstr "选择大陆"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, anycontinent)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, anycontinent)
+#: ksirkgoaldefinition.ui:183 ksirkgoaldefinition.ui:186
+#, fuzzy
+#| msgid "Select the continents to conquer"
+msgid "Check to let the player choose one of the continents to conquer"
+msgstr "选择要征服的大陆"
+
+#. i18n: ectx: property (text), widget (QCheckBox, anycontinent)
+#: ksirkgoaldefinition.ui:189
+msgid "Any"
+msgstr "任意"
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, continentslist)
+#: ksirkgoaldefinition.ui:198
+msgid "List of the continents to conquer"
+msgstr "要征服的大陆列表"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, continentslist)
+#: ksirkgoaldefinition.ui:201
+msgid ""
+"<p>List of the continents to conquer in a <i>Continents</i> goal.</p><p>You "
+"can change this list by clicking on the \"Select continents\" button above.</"
+"p>"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, KsirkNationalityDefinition)
+#: ksirknationalitydefinition.ui:13
+msgid "Nationality"
+msgstr "民族"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ksirknationalitydefinition.ui:20
+msgid "Name:"
+msgstr "名称："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, name)
+#: ksirknationalitydefinition.ui:27
+msgid "Nationality name"
+msgstr "民族名称"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, name)
+#: ksirknationalitydefinition.ui:30
+msgid ""
+"<p>Nationality name. The name of the player country. Can be the name of an "
+"existing country in case of a <i>realistic</i> world.</p><p>This string "
+"should be unique in the skin.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ksirknationalitydefinition.ui:43
+msgid "Leader name:"
+msgstr "领袖名："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, leader)
+#: ksirknationalitydefinition.ui:50
+msgid "Leader name"
+msgstr "领袖名"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, leader)
+#: ksirknationalitydefinition.ui:53
+msgid ""
+"<p>Name of this nationality leader. In the case of a <i>realistic</i> skin, "
+"this could be the name of a well known king, president, etc.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ksirknationalitydefinition.ui:60
+msgid "Flag ID in pool:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, flag)
+#: ksirknationalitydefinition.ui:67
+msgid "Flag sprite id in the pool SVG"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, flag)
+#: ksirknationalitydefinition.ui:70
+msgid "Flag sprite id in the pool SVG (pool.svg)."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, skindefinition)
+#: ksirkskindefinition.ui:13
+msgid "Skin Definition"
+msgstr "皮肤定义"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ksirkskindefinition.ui:22
+msgid "Skin name:"
+msgstr "皮肤名称："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, skinNameLineEdit)
+#: ksirkskindefinition.ui:29
+msgid "The skin's short name"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, skinNameLineEdit)
+#: ksirkskindefinition.ui:35
+msgid ""
+"Type here the skin's short name. This should be an identifier-like string"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ksirkskindefinition.ui:46
+msgid "Width x Height"
+msgstr "宽度 x 高度"
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, widthLineEdit)
+#: ksirkskindefinition.ui:53
+msgid "Map's width"
+msgstr "地图宽度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, widthLineEdit)
+#: ksirkskindefinition.ui:57
+msgid ""
+"This is the map's width. The map SVG element will be by default drawn on an "
+"image of this width. All positions on the map are expressed relatively to "
+"this dimension.\n"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, heightLineEdit)
+#: ksirkskindefinition.ui:71
+msgid "Map's height"
+msgstr "地图高度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, heightLineEdit)
+#: ksirkskindefinition.ui:75
+msgid ""
+"This is the map's height. The map SVG element will be by default drawn on an "
+"image of this height All positions on the map are expressed relatively to "
+"this dimension.\n"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ksirkskindefinition.ui:90
+msgid "Map Font"
+msgstr "地图字体"
+
+#. i18n: ectx: property (toolTip), widget (KFontRequester, fontrequester)
+#: ksirkskindefinition.ui:96
+msgid "Font used to draw country names"
+msgstr "显示国家名的字体"
+
+#. i18n: ectx: property (whatsThis), widget (KFontRequester, fontrequester)
+#: ksirkskindefinition.ui:99
+#, fuzzy
+#| msgid "Font used to draw country names"
+msgid "This font will be used to draw the country names on the map"
+msgstr "显示国家名的字体"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ksirkskindefinition.ui:108
+msgid "Fg:"
+msgstr "前景："
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, fgcolorbutton)
+#: ksirkskindefinition.ui:115
+#, fuzzy
+#| msgid "Font used to draw country names"
+msgid "Foreground color for country names"
+msgstr "显示国家名的字体"
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, fgcolorbutton)
+#: ksirkskindefinition.ui:118
+msgid ""
+"This color will be used to draw the foreground of the country names on the "
+"map"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: ksirkskindefinition.ui:125
+msgid "Bg:"
+msgstr "背景："
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, bgcolorbutton)
+#: ksirkskindefinition.ui:132
+#, fuzzy
+#| msgid "Font used to draw country names"
+msgid "Background color for country names"
+msgstr "显示国家名的字体"
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, bgcolorbutton)
+#: ksirkskindefinition.ui:135
+msgid ""
+"This color will be used to draw the background of the country names on the "
+"map"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QTextEdit, descriptionTextEdit)
+#: ksirkskindefinition.ui:160
+msgid "Human readable description of the skin"
+msgstr "人类可读的皮肤描述"
+
+#. i18n: ectx: property (whatsThis), widget (QTextEdit, descriptionTextEdit)
+#: ksirkskindefinition.ui:163
+msgid ""
+"Describe here the skin, its style, its story, the intent of its author(s), "
+"etc."
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabSprites)
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, KsirkSpritesDefinition)
+#: ksirkskindefinition.ui:177 ksirkspritesdefinition.ui:13
+msgid "Sprites"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: ksirkskindefinition.ui:184
+msgid ""
+"Edit the sprite definitions\n"
+"in the right dock"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabNationalities)
+#: ksirkskindefinition.ui:192
+msgid "Nationalities"
+msgstr "民族"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, newNationalityButton)
+#: ksirkskindefinition.ui:200
+msgid "Creates a new Nationality"
+msgstr "创建新民族"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, newNationalityButton)
+#: ksirkskindefinition.ui:203
+msgid "Click here to add a new nationality. You will be prompted for its name."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, newNationalityButton)
+#: ksirkskindefinition.ui:206
+msgid "New Nationality"
+msgstr "新建民族"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, deleteNationalityButton)
+#: ksirkskindefinition.ui:226
+msgid "Removes the currently selected nationality"
+msgstr "删除当前所选的民族"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, deleteNationalityButton)
+#: ksirkskindefinition.ui:229
+msgid ""
+"Click here to remove the currently selected nationality. You will be asked "
+"for confirmation."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, deleteNationalityButton)
+#. i18n: ectx: property (text), widget (KPushButton, deleteCountryButton)
+#. i18n: ectx: property (text), widget (KPushButton, deleteContinentButton)
+#. i18n: ectx: property (text), widget (KPushButton, deleteGoalButton)
+#: ksirkskindefinition.ui:232 ksirkskindefinition.ui:296
+#: ksirkskindefinition.ui:358 ksirkskindefinition.ui:420
+msgid "X"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, nationalitieslist)
+#: ksirkskindefinition.ui:241
+msgid "Nationality list"
+msgstr "民族列表"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, nationalitieslist)
+#: ksirkskindefinition.ui:248
+msgid ""
+"This list shows the nationalities defined.\n"
+"\n"
+"Each nationality name should be unique. Select a nationality and edit its "
+"details in the right dock.\n"
+"\n"
+"During the game, each player must choose a nationality. As such, you should "
+"add at least as many nationalities as the maximum number of players for this "
+"skin."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, newCountryButton)
+#: ksirkskindefinition.ui:264
+msgid "Creates a new country"
+msgstr "创建新国家"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, newCountryButton)
+#: ksirkskindefinition.ui:267
+msgid "Click here to add a new country. You will be prompted for its name."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, newCountryButton)
+#: ksirkskindefinition.ui:270
+msgid "New Country"
+msgstr "新建国家"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, deleteCountryButton)
+#: ksirkskindefinition.ui:290
+msgid "Removes the currently selected country"
+msgstr "删除当前所选的国家"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, deleteCountryButton)
+#: ksirkskindefinition.ui:293
+msgid ""
+"Click here to remove the currently selected country. You will be asked for "
+"confirmation."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, countrieslist)
+#. i18n: ectx: property (toolTip), widget (KListWidget, countriesList)
+#: ksirkskindefinition.ui:305 ksirkskineditorcountriesselectiondialog.ui:19
+msgid "Country list"
+msgstr "国家列表"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, countrieslist)
+#: ksirkskindefinition.ui:310
+msgid ""
+"This list shows the countries defined.\n"
+"\n"
+"Each country name should be unique. Select a country and edit its details in "
+"the right dock."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, newContinentButton)
+#: ksirkskindefinition.ui:326
+msgid "Creates a new continent"
+msgstr "创建新大陆"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, newContinentButton)
+#: ksirkskindefinition.ui:329
+msgid "Click here to add a new continent. You will be prompted for its name."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, newContinentButton)
+#: ksirkskindefinition.ui:332
+msgid "New Continent"
+msgstr "新建大陆"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, deleteContinentButton)
+#: ksirkskindefinition.ui:352
+msgid "Removes the currently selected continent"
+msgstr "删除当前所选的大陆"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, deleteContinentButton)
+#: ksirkskindefinition.ui:355
+msgid ""
+"Click here to remove the currently selected continent. You will be asked for "
+"confirmation."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, continentslist)
+#: ksirkskindefinition.ui:367
+msgid "Continent list"
+msgstr "大陆列表"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, continentslist)
+#: ksirkskindefinition.ui:372
+msgid ""
+"This list shows the continents defined.\n"
+"\n"
+"Each continent name should be unique. Select a continent and edit its "
+"details in the right dock."
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabGoals)
+#: ksirkskindefinition.ui:380
+msgid "Goals"
+msgstr "目标"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, newGoalButton)
+#: ksirkskindefinition.ui:388
+msgid "Creates a new goal"
+msgstr "创建新目标"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, newGoalButton)
+#: ksirkskindefinition.ui:391
+msgid "Click here to add a new goal. It will be named automatically."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, newGoalButton)
+#: ksirkskindefinition.ui:394
+msgid "New Goal"
+msgstr "新建目标"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, deleteGoalButton)
+#: ksirkskindefinition.ui:414
+msgid "Removes the currently selected goal"
+msgstr "删除当前所选的目标"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, deleteGoalButton)
+#: ksirkskindefinition.ui:417
+msgid ""
+"Click here to remove the currently selected goal. You will be asked for "
+"confirmation."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, goalslist)
+#: ksirkskindefinition.ui:429
+msgid "Goal list"
+msgstr "目标列表"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, goalslist)
+#: ksirkskindefinition.ui:434
+msgid ""
+"This list shows the goals defined.\n"
+"\n"
+"Each goal name should be unique. Select a goal and edit its details in the "
+"right dock."
+msgstr ""
+
+#: ksirkSkinEditorConfigDialog.cpp:63
+msgid "Preferences"
+msgstr "首选项"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, CountriesSelectionDialog)
+#: ksirkskineditorcountriesselectiondialog.ui:13
+msgid "Country Selection Dialog"
+msgstr "国家选择对话框"
+
+#. i18n: ectx: property (whatsThis), widget (KListWidget, countriesList)
+#: ksirkskineditorcountriesselectiondialog.ui:22
+#, fuzzy
+#| msgid ""
+#| "Click here to select the countries contained in this continent.\n"
+#| "\n"
+#| "A list of all the world's countries will be shown and you will be able to "
+#| "select the countries using the mouse and the Ctrl and Shift keys."
+msgid ""
+"List of all the countries defined in the world. Currently selected countries "
+"are highlighted. You can modify the selection using the mouse and Ctrl and "
+"Shift keys."
+msgstr ""
+"单击这里选择此大陆内囊括的国家。\n"
+"\n"
+"这将显示一份国家列表，供你使用鼠标和 Ctrl、Shift 按键来选择。"
+
+#. i18n: ectx: Menu (game)
+#: ksirkskineditorui.rc:10
+msgid "&Game"
+msgstr "游戏(&G)"
+
+#. i18n: ectx: Menu (settings)
+#: ksirkskineditorui.rc:18
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: Menu (help)
+#: ksirkskineditorui.rc:20
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: ksirkskineditorui.rc:24
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: property (windowTitle), widget (QFrame, skinEditor)
+#: ksirkskineditorwidget.ui:20 main.cpp:36 main.cpp:45
+msgid "KsirK Skin Editor"
+msgstr "KsirK 皮肤编辑器"
+
+#. i18n: ectx: property (toolTip), widget (QScrollArea, buttonsScrollArea)
+#: ksirkskineditorwidget.ui:46
+msgid "Sprite placement buttons"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QScrollArea, buttonsScrollArea)
+#: ksirkskineditorwidget.ui:49
+msgid ""
+"Use the buttons here to do the initial placement of the corresponding sprite "
+"for the currently selected country. The buttons are available only if the "
+"sprite is not already placed. "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QScrollArea, mapScrollArea)
+#: ksirkskineditorwidget.ui:69
+msgid "Map with sprites"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QScrollArea, mapScrollArea)
+#: ksirkskineditorwidget.ui:74
+msgid ""
+"Shows the map of the skin with all already placed sprites, the country "
+"names, and the highlighting anchors.\n"
+"\n"
+"Drag and drop the sprites, the country names, and the highlighting anchors "
+"to change their place."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_26)
+#: ksirkspritesdefinition.ui:29
+msgid ""
+"Width between fighter\n"
+"and flag:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, widthDiffLineEdit)
+#: ksirkspritesdefinition.ui:39
+msgid "Empty space size between fighting cannon and flag"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, widthDiffLineEdit)
+#: ksirkspritesdefinition.ui:44
+msgid ""
+"Empty space size between fighting cannon and flag.\n"
+"\n"
+"During a battle, firing (end exploding) cannons of each player are placed in "
+"both sides of the defender country flag. This parameter is the number of "
+"pixels between the flag and each cannon, measured relatively to the map base "
+"size as set in the main skin definition panel."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KTabWidget, ktabwidget)
+#: ksirkspritesdefinition.ui:53
+#, fuzzy
+#| msgid "Data about the cavalry sprite"
+msgid "Data about all sprites"
+msgstr "骑兵团数据"
+
+#. i18n: ectx: property (toolTip), widget (QWidget, flagTab)
+#: ksirkspritesdefinition.ui:63
+#, fuzzy
+#| msgid "Data about the infantry sprite"
+msgid "Data about the flag sprite"
+msgstr "步兵团数据"
+
+#. i18n: ectx: attribute (title), widget (QWidget, flagTab)
+#: ksirkspritesdefinition.ui:66
+msgid "Flag"
+msgstr "国旗"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#. i18n: ectx: property (text), widget (QLabel, label_18)
+#. i18n: ectx: property (text), widget (QLabel, label_22)
+#: ksirkspritesdefinition.ui:74 ksirkspritesdefinition.ui:173
+#: ksirkspritesdefinition.ui:264 ksirkspritesdefinition.ui:357
+#: ksirkspritesdefinition.ui:452 ksirkspritesdefinition.ui:547
+msgid "Width:"
+msgstr "宽度"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, flagw)
+#: ksirkspritesdefinition.ui:81
+#, fuzzy
+#| msgid "Cannon individual frame width"
+msgid "Flag individual frame width"
+msgstr "炮兵图示宽度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, flagw)
+#: ksirkspritesdefinition.ui:84
+msgid ""
+"<p>Flag individual frame width.</p><p>The pool <i>flag</i> element will be "
+"rendered on a pixmap of width: <i>Width</i> * N<i>number of frames</i> and "
+"then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#. i18n: ectx: property (text), widget (QLabel, label_17)
+#. i18n: ectx: property (text), widget (QLabel, label_21)
+#: ksirkspritesdefinition.ui:91 ksirkspritesdefinition.ui:190
+#: ksirkspritesdefinition.ui:281 ksirkspritesdefinition.ui:374
+#: ksirkspritesdefinition.ui:469 ksirkspritesdefinition.ui:564
+msgid "Height:"
+msgstr "高度："
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, flagh)
+#: ksirkspritesdefinition.ui:98
+#, fuzzy
+#| msgid "Infantry individual frame height"
+msgid "Flag individual frame height"
+msgstr "步兵团高度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, flagh)
+#: ksirkspritesdefinition.ui:103
+msgid ""
+"Flag individual frame height.\n"
+"\n"
+"The pool flag element will be rendered on a pixmap of height: (Height * "
+"Number of versions) and then split into individual frames."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#. i18n: ectx: property (text), widget (QLabel, label_15)
+#. i18n: ectx: property (text), widget (QLabel, label_19)
+#. i18n: ectx: property (text), widget (QLabel, label_23)
+#: ksirkspritesdefinition.ui:110 ksirkspritesdefinition.ui:207
+#: ksirkspritesdefinition.ui:298 ksirkspritesdefinition.ui:391
+#: ksirkspritesdefinition.ui:486 ksirkspritesdefinition.ui:581
+msgid "Nb Frames:"
+msgstr "Nb 帧数："
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, flagf)
+#: ksirkspritesdefinition.ui:117
+#, fuzzy
+#| msgid "Number of flag versions"
+msgid "Number of individual flag frames"
+msgstr "旗帜版本数"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, flagf)
+#: ksirkspritesdefinition.ui:120
+msgid ""
+"<p>Number of individual flag frames.</p><p>The pool <i>flag</i> element will "
+"be rendered on a pixmap of width: (<i>Width</i> * <i>Number of frames</i>) "
+"and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#. i18n: ectx: property (text), widget (QLabel, label_16)
+#. i18n: ectx: property (text), widget (QLabel, label_20)
+#. i18n: ectx: property (text), widget (QLabel, label_24)
+#: ksirkspritesdefinition.ui:127 ksirkspritesdefinition.ui:224
+#: ksirkspritesdefinition.ui:315 ksirkspritesdefinition.ui:408
+#: ksirkspritesdefinition.ui:503 ksirkspritesdefinition.ui:598
+msgid "Nb Versions:"
+msgstr "Nb 版本："
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, flagv)
+#: ksirkspritesdefinition.ui:134
+msgid "Number of flag versions"
+msgstr "旗帜版本数"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, flagv)
+#: ksirkspritesdefinition.ui:141
+msgid ""
+"Number of flag versions.\n"
+"\n"
+"The pool flag element will be rendered on a pixmap of height: (Height * "
+"Number of versions) and then split into individual frames.\n"
+"\n"
+"Each version shows the sprite visible from one direction: the first one is "
+"directed towards the right, the second towards the left, the third one from "
+"the front and the last one from the back. However, not all sprites need all "
+"versions."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QWidget, infantryTab)
+#: ksirkspritesdefinition.ui:164
+msgid "Data about the infantry sprite"
+msgstr "步兵团数据"
+
+#. i18n: ectx: attribute (title), widget (QWidget, infantryTab)
+#: ksirkspritesdefinition.ui:167
+msgid "Infantry"
+msgstr "步兵"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, infantryw)
+#: ksirkspritesdefinition.ui:180
+msgid "Infantry individual frame width"
+msgstr "步兵图示的宽度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, infantryw)
+#: ksirkspritesdefinition.ui:183
+msgid ""
+"<p>Infantry individual frame width.</p><p>The pool <i>infantry</i> element "
+"will be rendered on a pixmap of width: <i>Width</i> * <i>number of frames</"
+"i> and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, infantryh)
+#: ksirkspritesdefinition.ui:197
+msgid "Infantry individual frame height"
+msgstr "步兵团高度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, infantryh)
+#: ksirkspritesdefinition.ui:200
+msgid ""
+"<p>Infantry individual frame height.</p><p>The pool <i>infantry</i> element "
+"will be rendered on a pixmap of height: <i>Height</i> * <i>Number of "
+"versions</i> and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, infantryf)
+#: ksirkspritesdefinition.ui:214
+#, fuzzy
+#| msgid "Number of infantry versions"
+msgid "Number of individual infantry frames"
+msgstr "步兵版本数"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, infantryf)
+#: ksirkspritesdefinition.ui:217
+msgid ""
+"<p>Infantry number of individual frames.</p><p>The pool <i>infantry</i> "
+"element will be rendered on a pixmap of width: (<i>Width</i> * <i>Number of "
+"frames</i>) and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, infantryv)
+#: ksirkspritesdefinition.ui:231
+msgid "Number of infantry versions"
+msgstr "步兵版本数"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, infantryv)
+#: ksirkspritesdefinition.ui:234
+msgid ""
+"<p>Number of infantry versions.</p><p>The pool <i>infantry</i> element will "
+"be rendered on a pixmap of height: (<i>Height</i> * <i>Number of versions</"
+"i>) and then split into individual frames.</p><p>Each version shows the "
+"sprite visible from one direction: the first one is directed towards the "
+"right, the second towards the left, the third one from front and the last "
+"one from the back. However, not all sprites need all versions.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QWidget, cavalryTab)
+#: ksirkspritesdefinition.ui:255
+msgid "Data about the cavalry sprite"
+msgstr "骑兵团数据"
+
+#. i18n: ectx: attribute (title), widget (QWidget, cavalryTab)
+#: ksirkspritesdefinition.ui:258
+msgid "Cavalry"
+msgstr "骑兵"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, cavalryw)
+#: ksirkspritesdefinition.ui:271
+msgid "Individual cavalry frame width"
+msgstr "骑兵图示宽度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, cavalryw)
+#: ksirkspritesdefinition.ui:274
+msgid ""
+"<p>Individual cavalry frame width.</p><p>The pool <i>cavalry</i> element "
+"will be rendered on a pixmap of width (<i>Width</i> * <i>Number of frames</"
+"i>) and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, cavalryh)
+#: ksirkspritesdefinition.ui:288
+msgid "Individual cavalry frame height"
+msgstr "骑兵图示高度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, cavalryh)
+#: ksirkspritesdefinition.ui:291
+msgid ""
+"<p>Individual cavalry frame height.</p><p>The pool <i>cavalry</i> element "
+"will be rendered on a pixmap of height (<i>Height</i> * <i>Number of "
+"versions</i>) and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, cavalryf)
+#: ksirkspritesdefinition.ui:305
+#, fuzzy
+#| msgid "Individual cavalry frame width"
+msgid "Number of individual cavalry frames"
+msgstr "骑兵图示宽度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, cavalryf)
+#: ksirkspritesdefinition.ui:308
+msgid ""
+"<p>Number of individual cavalry frames.</p><p>The pool <i>cavalry</i> "
+"element will be rendered on a pixmap of width: (<i>Width</i> * <i>Number of "
+"frames</i>) and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, cavalryv)
+#: ksirkspritesdefinition.ui:322
+msgid "Number of cavalry versions"
+msgstr "骑兵版本数"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, cavalryv)
+#: ksirkspritesdefinition.ui:325
+msgid ""
+"<p>Number of cavalry versions.</p><p>The pool <i>cavalry</i> element will be "
+"rendered on a pixmap of height (<i>Height</i> * <i>Number of versions</i>) "
+"and then split into individual frames.</p><p>Each version shows the sprite "
+"visible from one direction: the first one is directed towards the right, the "
+"second towards the left, the third one from front and the last one from the "
+"back. However, not all sprites need all versions.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QWidget, cannonTab)
+#: ksirkspritesdefinition.ui:346
+msgid "Data about the cannon sprite"
+msgstr "炮兵团数据"
+
+#. i18n: ectx: attribute (title), widget (QWidget, cannonTab)
+#: ksirkspritesdefinition.ui:349
+msgid "Cannon"
+msgstr "大炮"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, cannonw)
+#: ksirkspritesdefinition.ui:364
+msgid "Cannon individual frame width"
+msgstr "炮兵图示宽度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, cannonw)
+#: ksirkspritesdefinition.ui:367
+msgid ""
+"<p>Cannon individual frame width.</p><p>The pool <i>cannon</i> element will "
+"be rendered on a pixmap of width (<i>Width</i> * <i>Number of frames</i>) "
+"and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, cannonh)
+#: ksirkspritesdefinition.ui:381
+msgid "Individual cannon frame height"
+msgstr "炮兵图示高度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, cannonh)
+#: ksirkspritesdefinition.ui:384
+msgid ""
+"<p>Individual cannon frame height.</p><p>The pool <i>cannon<i> element will "
+"be rendered on a pixmap of height (<i>Height</i> * <i>Number of versions</"
+"i>) and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, cannonf)
+#: ksirkspritesdefinition.ui:398
+#, fuzzy
+#| msgid "Individual cannon frame height"
+msgid "Number of individual cannon frames"
+msgstr "炮兵图示高度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, cannonf)
+#: ksirkspritesdefinition.ui:401
+msgid ""
+"<p>Number of individual cannon frames.</p><p>The pool <i>cannon</i> element "
+"will be rendered on a pixmap of width (<i>Width</i> * <i>Number of frames</"
+"i>) and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, cannonv)
+#: ksirkspritesdefinition.ui:415
+msgid "Number of cannon versions"
+msgstr "炮兵版本数"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, cannonv)
+#: ksirkspritesdefinition.ui:418
+msgid ""
+"<p>Number of cannon versions.</p><p>The pool <i>cannon</i> element will be "
+"rendered on a pixmap of height (<i>Height</i> * <i>Number of versions</i>) "
+"and then split into individual frames.</p><p>Each version shows the sprite "
+"visible from one direction: the first one is directed towards the right, the "
+"second towards the left, the third one from front and the last one from the "
+"back. However, not all sprites need all versions.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QWidget, firingTab)
+#: ksirkspritesdefinition.ui:441
+#, fuzzy
+#| msgid "Data about the infantry sprite"
+msgid "Data about the firing sprite"
+msgstr "步兵团数据"
+
+#. i18n: ectx: attribute (title), widget (QWidget, firingTab)
+#: ksirkspritesdefinition.ui:444
+msgid "Firing"
+msgstr "开火"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, firingw)
+#: ksirkspritesdefinition.ui:459
+#, fuzzy
+#| msgid "Cannon individual frame width"
+msgid "Firing cannon individual frame width"
+msgstr "炮兵图示宽度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, firingw)
+#: ksirkspritesdefinition.ui:462
+msgid ""
+"<p>Firing cannon individual frame width.</p><p>The pool <i>firing cannon</i> "
+"element will be rendered on a pixmap of width (<i>Width</i> * <i>Number of "
+"frames</i>) and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, firingh)
+#: ksirkspritesdefinition.ui:476
+#, fuzzy
+#| msgid "Infantry individual frame height"
+msgid "Firing cannon individual frame height"
+msgstr "步兵团高度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, firingh)
+#: ksirkspritesdefinition.ui:479
+msgid ""
+"<p>Firing cannon individual frame height.</p><p>The pool <i>firing cannon</"
+"i> element will be rendered on a pixmap of height (<i>Height</i> * <i>Number "
+"of versions</i>) and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, firingf)
+#: ksirkspritesdefinition.ui:493
+#, fuzzy
+#| msgid "Number of firing cannon versions"
+msgid "Number of individual firing cannon frames"
+msgstr "攻击炮兵版本数"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, firingf)
+#: ksirkspritesdefinition.ui:496
+msgid ""
+"<p>Number of individual firing cannon frames.</p><p>The pool <i>firing "
+"cannon</i> element will be rendered on a pixmap of width (<i>Width</i> * "
+"<i>Number of frames</i>) and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, firingv)
+#: ksirkspritesdefinition.ui:510
+msgid "Number of firing cannon versions"
+msgstr "攻击炮兵版本数"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, firingv)
+#: ksirkspritesdefinition.ui:513
+msgid ""
+"<p>Number of firing cannon versions.</p><p>The pool <i>firing cannon</i> "
+"element will be rendered on a pixmap of height (<i>Height</i> * <i>Number of "
+"versions</i>) and then split into individual frames.</p><p>Each version "
+"shows the sprite visible from one direction: the first one is directed "
+"towards the right, the second towards the left, the third one from front and "
+"the last one from the back. However, not all sprites need all versions.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QWidget, explodingTab)
+#: ksirkspritesdefinition.ui:536
+#, fuzzy
+#| msgid "Data about the cannon sprite"
+msgid "Data about the exploding sprite"
+msgstr "炮兵团数据"
+
+#. i18n: ectx: attribute (title), widget (QWidget, explodingTab)
+#: ksirkspritesdefinition.ui:539
+msgid "Exploding"
+msgstr "爆炸"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, explodingw)
+#: ksirkspritesdefinition.ui:554
+#, fuzzy
+#| msgid "Cannon individual frame width"
+msgid "Exploding cannon individual frame width"
+msgstr "炮兵图示宽度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, explodingw)
+#: ksirkspritesdefinition.ui:557
+msgid ""
+"<p>Exploding cannon individual frame width.</p><p>The pool <i>exploding</i> "
+"element will be rendered on a pixmap of width (<i>Width</i> * <i>Number of "
+"frames</i>) and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, explodingh)
+#: ksirkspritesdefinition.ui:571
+#, fuzzy
+#| msgid "Infantry individual frame height"
+msgid "Exploding cannon individual frame height"
+msgstr "步兵团高度"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, explodingh)
+#: ksirkspritesdefinition.ui:574
+msgid ""
+"<p>Exploding cannon individual frame height.</p><p>The pool <i>exploding</i> "
+"element will be rendered on a pixmap of height (<i>Height</i> * <i>Number of "
+"versions</i>) and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, explodingf)
+#: ksirkspritesdefinition.ui:588
+#, fuzzy
+#| msgid "Number of firing cannon versions"
+msgid "Number of individual exploding cannon frames"
+msgstr "攻击炮兵版本数"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, explodingf)
+#: ksirkspritesdefinition.ui:591
+msgid ""
+"<p>Number of individual exploding cannon frames.</p><p>The pool "
+"<i>exploding</i> element will be rendered on a pixmap of width (<i>Width</i> "
+"* <i>Number of frames</i>) and then split into individual frames.</p>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, explodingv)
+#: ksirkspritesdefinition.ui:605
+#, fuzzy
+#| msgid "Number of firing cannon versions"
+msgid "Number of exploding cannon versions"
+msgstr "攻击炮兵版本数"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, explodingv)
+#: ksirkspritesdefinition.ui:608
+msgid ""
+"<p>Number of exploding cannon versions.</p><p>The pool <i>exploding</i> "
+"element will be rendered on a pixmap of height (<i>Height</i> * <i>Number of "
+"versions</i>) and then split into individual frames.</p><p>Each version "
+"shows the sprite visible from one direction: the first one is directed "
+"towards the right, the second towards the left, the third one from front and "
+"the last one from the back. However, not all sprites need all versions.</p>"
+msgstr ""
+
+#: main.cpp:49
+msgid "(c) 2008, Gaël de Chalendar\n"
+msgstr "(c) 2008，Gaël de Chalendar\n"
+
+#: main.cpp:50
+msgid ""
+"For help and user manual, please see\n"
+"The KsirK Web site"
+msgstr ""
+"要获得帮助和用户手册，请参看\n"
+"KsirK 网站"
+
+#: main.cpp:52
+msgid "Gael de Chalendar aka Kleag"
+msgstr "Gael de Chalendar 又名 Kleag"
+
+#: main.cpp:57
+msgid "file to open"
+msgstr "要打开的文件"
+
+#: mainwindow.cpp:136 mainwindow.cpp:694 mainwindow.cpp:822
+#: mainwindow.cpp:1209
+msgid "Cannot load anchor icon<br>Program cannot continue"
+msgstr "无法装载锚点图标<br>程序无法继续执行"
+
+#: mainwindow.cpp:136 mainwindow.cpp:150 mainwindow.cpp:694 mainwindow.cpp:723
+#: mainwindow.cpp:822 mainwindow.cpp:839 mainwindow.cpp:1209 onu.cpp:79
+#: onu.cpp:112 onu.cpp:131
+msgid "Error"
+msgstr "错误"
+
+#: mainwindow.cpp:150 mainwindow.cpp:723 mainwindow.cpp:839
+msgid "Cannot load center icon<br>Program cannot continue"
+msgstr "无法装载中心点图标<br>程序无法继续执行"
+
+#: mainwindow.cpp:334
+msgid "Open a saved skin..."
+msgstr "打开已保存的外观..."
+
+#: mainwindow.cpp:338
+msgid "Load &Recent"
+msgstr "装入最近项目(&R)"
+
+#: mainwindow.cpp:339
+msgid "Open a recently saved skin..."
+msgstr "打开最近保存的外观..."
+
+#: mainwindow.cpp:347
+msgid "Save the current skin"
+msgstr "保存当前外观"
+
+#: mainwindow.cpp:377
+msgid "Choose the root folder of the skin to open"
+msgstr "选择要打开外观所在的根文件夹"
+
+#: mainwindow.cpp:538
+msgid "There are unsaved changes. What do you want to do?"
+msgstr "有未保存的更改，您想要怎么做？"
+
+#: mainwindow.cpp:539
+msgid "Exit Anyway?"
+msgstr "无论如何都退出吗？"
+
+#: mainwindow.cpp:540
+msgid "Quit without saving"
+msgstr "不保存退出"
+
+#: mainwindow.cpp:541
+msgid "Save then quit"
+msgstr "保存并退出"
+
+#: mainwindow.cpp:542
+msgid "Do not quit"
+msgstr "不退出"
+
+#: mainwindow.cpp:1321
+msgid "New country name"
+msgstr "新国家名称"
+
+#: mainwindow.cpp:1321
+msgid "Enter the name of the new country"
+msgstr "输入新国家的名称"
+
+#: mainwindow.cpp:1330
+#, kde-format
+msgid "Do you really want to delete country '%1'?"
+msgstr "您真的想要删除国家“%1”吗？"
+
+#: mainwindow.cpp:1330
+msgid "Really delete country?"
+msgstr "真要删除国家吗？"
+
+#: mainwindow.cpp:1349
+msgid "New continent name"
+msgstr "新大陆名称"
+
+#: mainwindow.cpp:1349
+msgid "Enter the name of the new continent"
+msgstr "输入新大陆的名称"
+
+#: mainwindow.cpp:1358
+#, kde-format
+msgid "Do you really want to delete continent '%1'?"
+msgstr "您真的想要删除大陆“%1”吗？"
+
+#: mainwindow.cpp:1358
+msgid "Really delete continent?"
+msgstr "真要删除大陆吗？"
+
+#: mainwindow.cpp:1906
+#, kde-format
+msgid "Do you really want to delete goal '%1'?"
+msgstr "您真的想要删除目标“%1”吗？"
+
+#: mainwindow.cpp:1906
+msgid "Really delete goal?"
+msgstr "真要删除目标吗？"
+
+#: mainwindow.cpp:1965
+msgid "New nationality name"
+msgstr "新民族名称"
+
+#: mainwindow.cpp:1965
+msgid "Enter the name of the new nationality"
+msgstr "输入新民族的名称"
+
+#: mainwindow.cpp:1974
+#, kde-format
+msgid "Do you really want to delete nationality '%1'?"
+msgstr "您真的想要删除民族“%1”吗？"
+
+#: mainwindow.cpp:1974
+msgid "Really delete nationality?"
+msgstr "真要删除民族吗？"
+
+#: onu.cpp:78
+#, kde-format
+msgid "Error - Invalid skin definition file format. Expected %1 and got %2"
+msgstr "错误 - 无效的皮肤定义文件格式。应为 %1，但读取到 %2"
+
+#: onu.cpp:111
+msgid ""
+"Pool filename not found\n"
+"Program cannot continue"
+msgstr ""
+"找不到 Pool 文件名\n"
+"程序无法继续执行"
+
+#: onu.cpp:130
+msgid ""
+"Map mask image not found\n"
+"Program cannot continue"
+msgstr ""
+"找不到地图遮盖图像\n"
+"程序无法继续执行"
+
+#: onu.cpp:989
+#, kde-format
+msgid ""
+"Cannot read file %1:\n"
+"%2."
+msgstr ""
+"无法读取文件 %1：\n"
+"%2。"
+
+#: onu.cpp:990
+msgid "PoolLoader"
+msgstr "装载器"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KsirkSkinEditorPreferencesWidget)
+#: preferences.ui:25
+msgid "KsirK Skin Editor Preferences"
+msgstr "KsirK 皮肤编辑器首选项"
+
+#: skinSpritesData.cpp:85
+msgid "Error - Unknown skin int data: "
+msgstr "错误 - 未知的外观整数数据："
+
+#: skinSpritesData.cpp:86 skinSpritesData.cpp:102
+msgid "Fatal Error"
+msgstr "严重错误"
+
+#: skinSpritesData.cpp:101
+msgid "Error - Unknown skin string data: "
+msgstr "错误 - 未知的外观字符串数据："
+
+#, fuzzy
+#~ msgid "Cavalry number of versions"
+#~ msgstr "玩家总数："
+
+#, fuzzy
+#~ msgid "Cannon number of versions"
+#~ msgstr "玩家总数："
+
+#~ msgid "Ksirk Skin Editor"
+#~ msgstr "Ksirk 皮肤编辑器"

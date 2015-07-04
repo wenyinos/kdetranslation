@@ -1,0 +1,2723 @@
+# translation of libkcalutils.po to 简体中文
+# Copyright (C) 2002,2003, 2009 Free Software Foundation, Inc.
+#
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Funda Wang <fundawang@linux.net.cn>, 2002,2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010, 2011.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkcalutils\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-28 01:31+0000\n"
+"PO-Revision-Date: 2013-07-07 22:05-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: htmlexport.cpp:177
+#, kde-format
+msgctxt "@title month and year"
+msgid "%1 %2"
+msgstr "%2年%1月"
+
+#: htmlexport.cpp:256
+msgctxt "@title:column event start time"
+msgid "Start Time"
+msgstr "开始时间"
+
+#: htmlexport.cpp:258
+msgctxt "@title:column event end time"
+msgid "End Time"
+msgstr "结束时间"
+
+#: htmlexport.cpp:260
+msgctxt "@title:column event description"
+msgid "Event"
+msgstr "事件"
+
+#: htmlexport.cpp:263
+msgctxt "@title:column event locatin"
+msgid "Location"
+msgstr "地点"
+
+#: htmlexport.cpp:268
+msgctxt "@title:column event categories"
+msgid "Categories"
+msgstr "类别"
+
+#: htmlexport.cpp:273
+msgctxt "@title:column event attendees"
+msgid "Attendees"
+msgstr "参与者"
+
+#: htmlexport.cpp:399
+msgctxt "@title:column"
+msgid "To-do"
+msgstr "待办事宜"
+
+#: htmlexport.cpp:400
+msgctxt "@title:column to-do priority"
+msgid "Priority"
+msgstr "优先级"
+
+#: htmlexport.cpp:402
+msgctxt "@title:column to-do percent completed"
+msgid "Completed"
+msgstr "已完成"
+
+#: htmlexport.cpp:404
+msgctxt "@title:column to-do due date"
+msgid "Due Date"
+msgstr "到期日期"
+
+#: htmlexport.cpp:408
+msgctxt "@title:column to-do location"
+msgid "Location"
+msgstr "地点"
+
+#: htmlexport.cpp:412
+msgctxt "@title:column to-do categories"
+msgid "Categories"
+msgstr "类别"
+
+#: htmlexport.cpp:416
+msgctxt "@title:column to-do attendees"
+msgid "Attendees"
+msgstr "参与者"
+
+#: htmlexport.cpp:439
+msgctxt "@title:column sub-to-dos of the parent to-do"
+msgid "Sub-To-dos of: "
+msgstr "子任务所属："
+
+#: htmlexport.cpp:495
+msgctxt "@title:column sub-to-dos of the parent to-do"
+msgid "Sub-To-dos"
+msgstr "子任务"
+
+#: htmlexport.cpp:513
+#, kde-format
+msgctxt "@info/plain to-do percent complete"
+msgid "%1 %"
+msgstr "%1%"
+
+#: htmlexport.cpp:665
+msgctxt "@info/plain"
+msgid "This page was created "
+msgstr "此页面由 "
+
+#: htmlexport.cpp:674
+#, kde-format
+msgctxt "@info/plain page creator email link with name"
+msgid "by <link url='mailto:%1'>%2</link> "
+msgstr "<link url='mailto:%1'>%2</link> 创建 "
+
+#: htmlexport.cpp:678
+#, kde-format
+msgctxt "@info/plain page creator email link"
+msgid "by <link url='mailto:%1'>%2</link> "
+msgstr "<link url='mailto:%1'>%2</link> 创建 "
+
+#: htmlexport.cpp:684
+#, kde-format
+msgctxt "@info/plain page creator name only"
+msgid "by %1 "
+msgstr "%1 创建"
+
+#: htmlexport.cpp:690
+#, kde-format
+msgctxt "@info/plain page credit with name and link"
+msgid "with <link url='%1'>%2</link>"
+msgstr "<link url='%1'>%2</link> 创建"
+
+#: htmlexport.cpp:694
+#, kde-format
+msgctxt "@info/plain page credit name only"
+msgid "with %1"
+msgstr "%1 创建"
+
+#: htmlexport.cpp:761
+#, kde-format
+msgctxt "@info/plain holiday by date and name"
+msgid "%1, %2"
+msgstr "%1，%2"
+
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:13
+msgid "Full name of the calendar owner"
+msgstr "日历所有者的全名"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:14
+msgid "The full name of the calendar owner for the export"
+msgstr "用于导出的日历所有者全名"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:15
+msgid "Enter the full name to print for the owner of the calendar."
+msgstr "输入用于打印的日历所有者全名。"
+
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:18
+msgid "Email of the calendar owner"
+msgstr "日历所有者的电子邮件"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:19
+msgid "The email address of the calendar owner for the export"
+msgstr "用于导出的日历所有者电子邮件地址"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:20
+msgid "Enter the email address to print for the owner of the calendar."
+msgstr "输入用于打印的日历所有者电子邮件地址。"
+
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:23
+msgid "Creator application"
+msgstr "创建程序"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:24
+msgid "Creator application of the calendar"
+msgstr "此日历的创建程序"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:25
+msgid "Enter a creator application of the calendar, for example KOrganizer."
+msgstr "输入创建此日历的程序， 如： KOrganizer。"
+
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:28
+msgid "Creator URL"
+msgstr "创建者 URL"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:29
+msgid "URL of the creator application of the calendar."
+msgstr "此日历创建程序的 URL。"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:30
+msgid ""
+"Enter the URL of the creator application of the calendar, for example http://"
+"userbase.kde.org/KOrganizer"
+msgstr "输入创建此日历的程序的 URL， 如： http://userbase.kde.org/KOrganizer"
+
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:34
+msgid "Page Title"
+msgstr "页面标题"
+
+#: htmlexportsettings.kcfg:35 htmlexportsettings.kcfg:99
+msgid "Calendar"
+msgstr "日历"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:36
+msgid "The title of the exported page"
+msgstr "导出页面的标题"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:37
+msgid "Enter a title for the HTML page."
+msgstr "请输入 HTML 文件的标题。"
+
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:41
+msgid "Date start"
+msgstr "开始日期"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:42
+msgid "First day of the range to export"
+msgstr "要导出时间范围的第一天"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:43
+msgid "First day of the range that shall be exported to HTML."
+msgstr "要导出到 HTML 的时间范围的最早一天。"
+
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:46
+msgid "Date end"
+msgstr "结束日期"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:47
+msgid "Last day of the range to export"
+msgstr "要导出时间范围的最后一天。"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:48
+msgid "Last day of the range that shall be exported to HTML."
+msgstr "要导出到 HTML 的时间范围的最后一天。"
+
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:52
+msgid "Output filename"
+msgstr "输出文件名"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:53
+msgid "The file name for the export"
+msgstr "导出的文件名。"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:54
+msgid "The output file name for the HTML export."
+msgstr "HTML 导出的输出文件名。"
+
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:58
+msgid "Style sheet"
+msgstr "样式表"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:59
+msgid "CSS style sheet to use by the final HTML page"
+msgstr "最终 HTML 页面中使用的 CSS 样式表"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:60
+msgid ""
+"CSS style sheet to be used by the final HTML page. This string contains the "
+"actual contents of the CSS, not a path to the style sheet."
+msgstr ""
+"供最终 HTML 页面使用的 CSS 样式表。此字符串应包含 CSS 的实际内容，而非样式表"
+"所在路径。"
+
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:64
+msgid "Exclude private incidences from the export"
+msgstr "导出时排除私人事件"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:66
+msgid "Exclude private items from the export"
+msgstr "导出时排除私人项目"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:67
+msgid "Check this box if you do NOT want to export your private items."
+msgstr "若不想导出私人项目， 请选中此项。"
+
+#. i18n: ectx: label, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:70
+msgid "Exclude confidential incidences from the export"
+msgstr "导出时排除机密事件"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:72
+msgid "Exclude confidential items from the export"
+msgstr "导出时排除机密项"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-General)
+#: htmlexportsettings.kcfg:73
+msgid "Check this box if you do NOT want to export your confidential items."
+msgstr "若不想导出保密事件， 请选中此项。"
+
+#. i18n: ectx: label, entry, group ($(application)-Events)
+#: htmlexportsettings.kcfg:80
+msgid "Export events as list"
+msgstr "以列表形式导出事件"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-Events)
+#: htmlexportsettings.kcfg:82
+msgid "Export events as a list"
+msgstr "以列表形式导出事件"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-Events)
+#: htmlexportsettings.kcfg:83
+msgid "Check this box if you want your events shown as a list."
+msgstr "选中此项以使用列表导出事件。"
+
+#. i18n: ectx: label, entry, group ($(application)-Events)
+#: htmlexportsettings.kcfg:86
+msgid "Export in month view"
+msgstr "以月视图导出"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-Events)
+#: htmlexportsettings.kcfg:88
+msgid "Export events in a month view"
+msgstr "以月视图导出事件"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-Events)
+#: htmlexportsettings.kcfg:89
+msgid "Check this box if you want your events shown in a month view."
+msgstr "选中此项以使用月视图导出事件。"
+
+#. i18n: ectx: label, entry, group ($(application)-Events)
+#: htmlexportsettings.kcfg:92
+msgid "Export in week view"
+msgstr "以周视图导出"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-Events)
+#: htmlexportsettings.kcfg:94
+msgid "Export events in a week view"
+msgstr "以周视图导出事件"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-Events)
+#: htmlexportsettings.kcfg:95
+msgid "Check this box if you want your events shown in a week view."
+msgstr "选中此项以使用周视图导出事件。"
+
+#. i18n: ectx: label, entry (EventTitle), group ($(application)-Events)
+#: htmlexportsettings.kcfg:98
+msgid "Title of the calendar"
+msgstr "日历标题"
+
+#. i18n: ectx: tooltip, entry (EventTitle), group ($(application)-Events)
+#: htmlexportsettings.kcfg:100
+msgid "Title for the event calendar"
+msgstr "事件日历标题"
+
+#. i18n: ectx: whatsthis, entry (EventTitle), group ($(application)-Events)
+#: htmlexportsettings.kcfg:101
+msgid "Enter a string to use for the title of the event calendar."
+msgstr "输入一段文字用于时间日历标题。"
+
+#. i18n: ectx: label, entry (EventLocation), group ($(application)-Events)
+#: htmlexportsettings.kcfg:105
+msgid "Export location of the events"
+msgstr "导出事件的地点"
+
+#. i18n: ectx: tooltip, entry (EventLocation), group ($(application)-Events)
+#: htmlexportsettings.kcfg:107
+msgid "Include the event locations"
+msgstr "包含事件地点"
+
+#. i18n: ectx: whatsthis, entry (EventLocation), group ($(application)-Events)
+#: htmlexportsettings.kcfg:108
+msgid ""
+"Check this box if you want the event locations to be exported, only if the "
+"event has a location."
+msgstr "如需在导出时包含事件地点，请选中此项，仅当事件有地点信息时有效。"
+
+#. i18n: ectx: label, entry (EventCategories), group ($(application)-Events)
+#: htmlexportsettings.kcfg:111
+msgid "Export categories of the events"
+msgstr "导出事件的类别"
+
+#. i18n: ectx: tooltip, entry (EventCategories), group ($(application)-Events)
+#: htmlexportsettings.kcfg:113
+msgid "Include the event categories"
+msgstr "包含事件类别"
+
+#. i18n: ectx: whatsthis, entry (EventCategories), group ($(application)-Events)
+#: htmlexportsettings.kcfg:114
+msgid "Check this box if you want the event categories to be exported."
+msgstr "如需在导出时包含事件类别，请选中此项。"
+
+#. i18n: ectx: label, entry (EventAttendees), group ($(application)-Events)
+#: htmlexportsettings.kcfg:117
+msgid "Export attendees of the events"
+msgstr "导出事件的参与者"
+
+#. i18n: ectx: tooltip, entry (EventAttendees), group ($(application)-Events)
+#: htmlexportsettings.kcfg:118
+msgid "Include the event attendees"
+msgstr "包含事件参与者"
+
+#. i18n: ectx: whatsthis, entry (EventAttendees), group ($(application)-Events)
+#: htmlexportsettings.kcfg:119
+msgid "Check this box if you want the event attendees to be exported."
+msgstr "如需在导出时包含事件参与者，请选中此项。"
+
+#. i18n: ectx: label, entry, group ($(application)-Todos)
+#: htmlexportsettings.kcfg:127
+msgid "Export to-do list"
+msgstr "导出待办事宜列表"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-Todos)
+#: htmlexportsettings.kcfg:129
+msgid "Export the to-do list"
+msgstr "导出待办事宜列表"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-Todos)
+#: htmlexportsettings.kcfg:130
+msgid ""
+"Check this box if you want your to-do list to also be exported to the HTML."
+msgstr "如需在导出至 HTML 时包含待办事宜列表，请选中此项。"
+
+#. i18n: ectx: label, entry, group ($(application)-Todos)
+#: htmlexportsettings.kcfg:133
+msgid "Title of the to-do list"
+msgstr "待办事宜列表的标题"
+
+#: htmlexportsettings.kcfg:134
+msgid "To-do List"
+msgstr "待办事宜列表"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-Todos)
+#: htmlexportsettings.kcfg:135
+msgid "Title for the to-do list"
+msgstr "待办事宜列表的标题"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-Todos)
+#: htmlexportsettings.kcfg:136
+msgid "Enter a string to use for the title of the to-do list."
+msgstr "请输入待办事宜列表的标题"
+
+#. i18n: ectx: label, entry (TaskDueDate), group ($(application)-Todos)
+#: htmlexportsettings.kcfg:140
+msgid "Export due dates of the to-dos"
+msgstr "导出待办事宜列表的到期日期"
+
+#. i18n: ectx: tooltip, entry (TaskDueDate), group ($(application)-Todos)
+#: htmlexportsettings.kcfg:142
+msgid "Include to-do due dates"
+msgstr "包含待办事宜的截止日期"
+
+#. i18n: ectx: whatsthis, entry (TaskDueDate), group ($(application)-Todos)
+#: htmlexportsettings.kcfg:143
+msgid ""
+"Check this box if you want the to-do list due dates to be exported, if the "
+"to-do does have a due date."
+msgstr "如需在导出时包含待办事宜的截止日期，请选中此项。"
+
+#. i18n: ectx: label, entry (TaskLocation), group ($(application)-Todos)
+#: htmlexportsettings.kcfg:146
+msgid "Export location of the to-dos"
+msgstr "导出待办事宜列表的地点"
+
+#. i18n: ectx: tooltip, entry (TaskLocation), group ($(application)-Todos)
+#: htmlexportsettings.kcfg:148
+msgid "Include the to-do locations"
+msgstr "包含待办事宜的地点"
+
+#. i18n: ectx: whatsthis, entry (TaskLocation), group ($(application)-Todos)
+#: htmlexportsettings.kcfg:149
+msgid ""
+"Check this box if you want the to-do locations to be exported, only if the "
+"to-do has a location."
+msgstr ""
+"如需在导出时包含待办事宜的地点，请选中此项，仅当待办事宜有地点信息时有效。"
+
+#. i18n: ectx: label, entry (TaskCategories), group ($(application)-Todos)
+#: htmlexportsettings.kcfg:152
+msgid "Export categories of the to-dos"
+msgstr "导出待办事宜列表的类别"
+
+#. i18n: ectx: tooltip, entry (TaskCategories), group ($(application)-Todos)
+#: htmlexportsettings.kcfg:154
+msgid "Include the to-do categories"
+msgstr "包含待办事宜的类别"
+
+#. i18n: ectx: whatsthis, entry (TaskCategories), group ($(application)-Todos)
+#: htmlexportsettings.kcfg:155
+msgid "Check this box if you want the to-do categories to be exported."
+msgstr "如需在导出时包含待办事宜的类别，请选中此项。"
+
+#. i18n: ectx: label, entry (TaskAttendees), group ($(application)-Todos)
+#: htmlexportsettings.kcfg:158
+msgid "Export attendees of the to-dos"
+msgstr "导出待办列表的参与者"
+
+#. i18n: ectx: tooltip, entry (TaskAttendees), group ($(application)-Todos)
+#: htmlexportsettings.kcfg:160
+msgid "Include the to-do attendees"
+msgstr "包含待办事宜的参与者。"
+
+#. i18n: ectx: whatsthis, entry (TaskAttendees), group ($(application)-Todos)
+#: htmlexportsettings.kcfg:161
+msgid "Check this box if you want the to-do attendees to be exported."
+msgstr "如需在导出时包含待办事宜的参与者，请选中此项。"
+
+#. i18n: ectx: label, entry, group ($(application)-Journals)
+#. i18n: ectx: tooltip, entry, group ($(application)-Journals)
+#: htmlexportsettings.kcfg:168 htmlexportsettings.kcfg:170
+msgid "Export journals"
+msgstr "导出日记"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-Journals)
+#: htmlexportsettings.kcfg:171
+msgid "Check this box if you want to export journals as well."
+msgstr "如需在导出中包含日程，请选中此项。"
+
+#. i18n: ectx: label, entry, group ($(application)-Journals)
+#: htmlexportsettings.kcfg:174
+msgid "Title of the journal list"
+msgstr "日记列表的标题"
+
+#: htmlexportsettings.kcfg:175
+msgid "Journals"
+msgstr "日记"
+
+#. i18n: ectx: tooltip, entry, group ($(application)-Journals)
+#: htmlexportsettings.kcfg:176
+msgid "Title for the journal list"
+msgstr "日记列表的标题"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-Journals)
+#: htmlexportsettings.kcfg:177
+msgid "Enter a title for the Journal list, if Journals are exported."
+msgstr "如果您将要导出日记，请在此输入标题。"
+
+#. i18n: ectx: label, entry, group ($(application)-FreeBusy)
+#. i18n: ectx: tooltip, entry, group ($(application)-FreeBusy)
+#: htmlexportsettings.kcfg:183 htmlexportsettings.kcfg:185
+msgid "Export free/busy list"
+msgstr "导出忙碌/空闲列表"
+
+#. i18n: ectx: whatsthis, entry, group ($(application)-FreeBusy)
+#: htmlexportsettings.kcfg:186
+msgid "Check this box if you want to export free/busy information as well."
+msgstr "如需在导出时包含忙碌/空闲信息，请选中此项。"
+
+#. i18n: ectx: label, entry (FreeBusyTitle), group ($(application)-FreeBusy)
+#: htmlexportsettings.kcfg:189
+msgid "Title of the free/busy list"
+msgstr "忙/闲列表的标题"
+
+#: htmlexportsettings.kcfg:190
+msgid "Busy times"
+msgstr "忙碌时间"
+
+#. i18n: ectx: tooltip, entry (FreeBusyTitle), group ($(application)-FreeBusy)
+#: htmlexportsettings.kcfg:191
+msgid "Title for the free/busy list"
+msgstr "忙碌/空闲列表的标题"
+
+#. i18n: ectx: whatsthis, entry (FreeBusyTitle), group ($(application)-FreeBusy)
+#: htmlexportsettings.kcfg:192
+msgid "Enter a title for the free/busy list, if free/busy times are exported."
+msgstr "如需导出忙碌/空闲列表，请在此输入标题。"
+
+#: incidenceformatter.cpp:238
+msgid "Organizer Unknown"
+msgstr "组织者未知"
+
+#: incidenceformatter.cpp:260 incidenceformatter.cpp:2116
+msgid "Sender"
+msgstr "发件人"
+
+#: incidenceformatter.cpp:384 incidenceformatter.cpp:2414
+#: incidenceformatter.cpp:2475 incidenceformatter.cpp:3631
+#, kde-format
+msgid " (delegated by %1)"
+msgstr " (由 %1 代理)"
+
+#: incidenceformatter.cpp:387 incidenceformatter.cpp:2417
+#: incidenceformatter.cpp:2478 incidenceformatter.cpp:3634
+#, kde-format
+msgid " (delegated to %1)"
+msgstr " (委托给 %1)"
+
+#: incidenceformatter.cpp:411 incidenceformatter.cpp:3655
+msgid "Organizer:"
+msgstr "组织者："
+
+#: incidenceformatter.cpp:428 incidenceformatter.cpp:3667
+msgid "Chair:"
+msgstr "主席："
+
+#: incidenceformatter.cpp:437 incidenceformatter.cpp:3674
+msgid "Required Participants:"
+msgstr "必须出席者："
+
+#: incidenceformatter.cpp:446 incidenceformatter.cpp:3681
+msgid "Optional Participants:"
+msgstr "可选出席者："
+
+#: incidenceformatter.cpp:455 incidenceformatter.cpp:3688
+msgid "Observers:"
+msgstr "观察员："
+
+#: incidenceformatter.cpp:474
+msgid "Show mail"
+msgstr "显示邮件"
+
+#: incidenceformatter.cpp:504
+#, kde-format
+msgid "Creation date: %1"
+msgstr "创建日期：%1"
+
+#: incidenceformatter.cpp:586 incidenceformatter.cpp:781
+#: incidenceformatter.cpp:950 incidenceformatter.cpp:3716
+msgid "Calendar:"
+msgstr "日历："
+
+#: incidenceformatter.cpp:593 incidenceformatter.cpp:788
+#: incidenceformatter.cpp:3724
+msgid "Location:"
+msgstr "地点："
+
+#: incidenceformatter.cpp:619 incidenceformatter.cpp:626
+#: incidenceformatter.cpp:634 incidenceformatter.cpp:641
+#: incidenceformatter.cpp:956 incidenceformatter.cpp:1579
+#: incidenceformatter.cpp:1651 incidenceformatter.cpp:1868
+#: incidenceformatter.cpp:1892
+msgid "Date:"
+msgstr "日期："
+
+#: incidenceformatter.cpp:621 incidenceformatter.cpp:636
+#: incidenceformatter.cpp:651
+#, kde-format
+msgctxt "<beginTime> - <endTime>"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: incidenceformatter.cpp:628 incidenceformatter.cpp:643
+#, kde-format
+msgctxt "date as string"
+msgid "%1"
+msgstr "%1"
+
+#: incidenceformatter.cpp:648 incidenceformatter.cpp:1581
+#: incidenceformatter.cpp:1665
+msgid "Time:"
+msgstr "时间："
+
+#: incidenceformatter.cpp:667 incidenceformatter.cpp:845
+#: incidenceformatter.cpp:1606 incidenceformatter.cpp:1702
+#: incidenceformatter.cpp:1749 incidenceformatter.cpp:1833
+#: incidenceformatter.cpp:3731
+msgid "Duration:"
+msgstr "持续时间："
+
+#: incidenceformatter.cpp:674 incidenceformatter.cpp:852
+#: incidenceformatter.cpp:1610 incidenceformatter.cpp:1709
+#: incidenceformatter.cpp:1758 incidenceformatter.cpp:1847
+#: incidenceformatter.cpp:3737 incidenceformatter.cpp:3743
+msgid "Recurrence:"
+msgstr "重复："
+
+#: incidenceformatter.cpp:678 incidenceformatter.cpp:855
+#: incidenceformatter.cpp:3744
+msgid "Exception"
+msgstr "异常"
+
+#: incidenceformatter.cpp:694
+msgid "Anniversary:"
+msgstr "纪念日："
+
+#: incidenceformatter.cpp:696
+msgid "Birthday:"
+msgstr "生日："
+
+#: incidenceformatter.cpp:718 incidenceformatter.cpp:867
+#: incidenceformatter.cpp:964 incidenceformatter.cpp:1534
+#: incidenceformatter.cpp:3758
+msgid "Description:"
+msgstr "描述："
+
+#: incidenceformatter.cpp:729 incidenceformatter.cpp:878
+#: incidenceformatter.cpp:3766
+msgid "Reminder:"
+msgid_plural "Reminders:"
+msgstr[0] "提醒人："
+
+#: incidenceformatter.cpp:741 incidenceformatter.cpp:890
+#: incidenceformatter.cpp:973 incidenceformatter.cpp:3776
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "类别："
+
+#: incidenceformatter.cpp:751 incidenceformatter.cpp:922
+msgid "Attachment:"
+msgid_plural "Attachments:"
+msgstr[0] "附件："
+
+#: incidenceformatter.cpp:815
+msgctxt "to-do start date/time"
+msgid "Start:"
+msgstr "开始日期："
+
+#: incidenceformatter.cpp:834
+msgctxt "to-do due date/time"
+msgid "Due:"
+msgstr "到期日期："
+
+#: incidenceformatter.cpp:898 incidenceformatter.cpp:3495
+msgid "Priority:"
+msgstr "优先级："
+
+#: incidenceformatter.cpp:907 incidenceformatter.cpp:3501
+msgctxt "Completed: date"
+msgid "Completed:"
+msgstr "完成："
+
+#: incidenceformatter.cpp:911 incidenceformatter.cpp:1753
+#: incidenceformatter.cpp:1840 incidenceformatter.cpp:3504
+msgid "Percent Done:"
+msgstr "完成百分比："
+
+#: incidenceformatter.cpp:913 incidenceformatter.cpp:1753
+#: incidenceformatter.cpp:1837 incidenceformatter.cpp:1838
+#: incidenceformatter.cpp:2728 incidenceformatter.cpp:2729
+#: incidenceformatter.cpp:3505
+#, kde-format
+msgid "%1%"
+msgstr "%1%"
+
+#: incidenceformatter.cpp:997 incidenceformatter.cpp:3557
+#, kde-format
+msgid "Free/Busy information for %1"
+msgstr "%1 的忙/闲信息"
+
+#: incidenceformatter.cpp:1000
+#, kde-format
+msgid "Busy times in date range %1 - %2:"
+msgstr "日期范围在 %1 - %2 之间的繁忙时间段："
+
+#: incidenceformatter.cpp:1006
+msgctxt "tag for busy periods list"
+msgid "Busy:"
+msgstr "忙："
+
+#: incidenceformatter.cpp:1016 incidenceformatter.cpp:1929
+#, kde-format
+msgctxt "hours part of duration"
+msgid "1 hour "
+msgid_plural "%1 hours "
+msgstr[0] "%1 小时 "
+
+#: incidenceformatter.cpp:1020
+#, kde-format
+msgctxt "minutes part duration"
+msgid "1 minute "
+msgid_plural "%1 minutes "
+msgstr[0] "%1 分钟 "
+
+#: incidenceformatter.cpp:1024 incidenceformatter.cpp:1937
+#, kde-format
+msgctxt "seconds part of duration"
+msgid "1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 秒"
+
+#: incidenceformatter.cpp:1026 incidenceformatter.cpp:1940
+#, kde-format
+msgctxt "startDate for duration"
+msgid "%1 for %2"
+msgstr "开始于 %1，持续时间 %2"
+
+#: incidenceformatter.cpp:1032 incidenceformatter.cpp:1947
+#, kde-format
+msgctxt "date, fromTime - toTime "
+msgid "%1, %2 - %3"
+msgstr "%1, %2 - %3"
+
+#: incidenceformatter.cpp:1037 incidenceformatter.cpp:1952
+#, kde-format
+msgctxt "fromDateTime - toDateTime"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: incidenceformatter.cpp:1161
+msgid "Summary unspecified"
+msgstr "概要未指定"
+
+#: incidenceformatter.cpp:1177
+msgid "Location unspecified"
+msgstr "地点未指定"
+
+#: incidenceformatter.cpp:1195
+#, kde-format
+msgctxt "%1: Start Date, %2: Start Time"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: incidenceformatter.cpp:1199
+#, kde-format
+msgctxt "%1: Start Date"
+msgid "%1 (all day)"
+msgstr "%1(全天)"
+
+#: incidenceformatter.cpp:1210
+#, kde-format
+msgctxt "%1: End Date, %2: End Time"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: incidenceformatter.cpp:1214
+#, kde-format
+msgctxt "%1: End Date"
+msgid "%1 (all day)"
+msgstr "%1(全天)"
+
+#: incidenceformatter.cpp:1385
+msgid "Your response is requested"
+msgstr "需要提供您的应答"
+
+#: incidenceformatter.cpp:1387
+#, kde-format
+msgid "Your response as <b>%1</b> is requested"
+msgstr "需要提供您以 <b>%1</b> 身份作出的应答"
+
+#: incidenceformatter.cpp:1391
+msgid "No response is necessary"
+msgstr "不需要应答"
+
+#: incidenceformatter.cpp:1393
+#, kde-format
+msgid "No response as <b>%1</b> is necessary"
+msgstr "需要以 <b>%1</b> 身份应答"
+
+#: incidenceformatter.cpp:1404
+#, kde-format
+msgid "(<b>Note</b>: the Organizer preset your response to <b>%1</b>)"
+msgstr "(<b>注意</b>：组织者已将您的应答预设为<b>%1</b>)"
+
+#: incidenceformatter.cpp:1453
+#, kde-format
+msgctxt "name (comment)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: incidenceformatter.cpp:1544
+msgid "Comments:"
+msgstr "注释："
+
+#: incidenceformatter.cpp:1574 incidenceformatter.cpp:1641
+#: incidenceformatter.cpp:1730 incidenceformatter.cpp:1789
+#: incidenceformatter.cpp:1888
+msgid "What:"
+msgstr "内容："
+
+#: incidenceformatter.cpp:1575 incidenceformatter.cpp:1645
+#: incidenceformatter.cpp:1731 incidenceformatter.cpp:1793
+msgid "Where:"
+msgstr "位置："
+
+#: incidenceformatter.cpp:1587
+msgctxt "starting date"
+msgid "From:"
+msgstr "起始日期："
+
+#: incidenceformatter.cpp:1590
+msgctxt "starting time"
+msgid "At:"
+msgstr "于："
+
+#: incidenceformatter.cpp:1594 incidenceformatter.cpp:1601
+msgctxt "ending date"
+msgid "To:"
+msgstr "结束日期："
+
+#: incidenceformatter.cpp:1597
+msgctxt "ending time"
+msgid "At:"
+msgstr "于："
+
+#: incidenceformatter.cpp:1601 incidenceformatter.cpp:1691
+#: incidenceformatter.cpp:1694
+msgid "no end date specified"
+msgstr "结束日期未指定"
+
+#: incidenceformatter.cpp:1634 incidenceformatter.cpp:1782
+msgid "Please respond again to the original proposal."
+msgstr "请再次应答原始请求"
+
+#: incidenceformatter.cpp:1667
+msgctxt "Starting date of an event"
+msgid "From:"
+msgstr "起始日期："
+
+#: incidenceformatter.cpp:1677 incidenceformatter.cpp:1689
+msgctxt "Starting time of an event"
+msgid "At:"
+msgstr "于："
+
+#: incidenceformatter.cpp:1679 incidenceformatter.cpp:1698
+msgctxt "Ending date of an event"
+msgid "To:"
+msgstr "结束日期："
+
+#: incidenceformatter.cpp:1734 incidenceformatter.cpp:1798
+msgid "Start Date:"
+msgstr "开始日期："
+
+#: incidenceformatter.cpp:1736 incidenceformatter.cpp:1808
+msgid "Start Time:"
+msgstr "开始时间："
+
+#: incidenceformatter.cpp:1740 incidenceformatter.cpp:1745
+#: incidenceformatter.cpp:1811 incidenceformatter.cpp:1830
+msgid "Due Date:"
+msgstr "到期日期："
+
+#: incidenceformatter.cpp:1742 incidenceformatter.cpp:1821
+msgid "Due Time:"
+msgstr "到期时间："
+
+#: incidenceformatter.cpp:1745 incidenceformatter.cpp:1823
+#: incidenceformatter.cpp:1826
+msgctxt "Due Date: None"
+msgid "None"
+msgstr "无"
+
+#: incidenceformatter.cpp:1804 incidenceformatter.cpp:1806
+#: incidenceformatter.cpp:1817 incidenceformatter.cpp:1819
+msgid "All day"
+msgstr "全天"
+
+#: incidenceformatter.cpp:1867
+msgid "Summary:"
+msgstr "概要："
+
+#: incidenceformatter.cpp:1914
+msgid "Person:"
+msgstr "个人："
+
+#: incidenceformatter.cpp:1915
+msgid "Start date:"
+msgstr "开始日期："
+
+#: incidenceformatter.cpp:1916
+msgid "End date:"
+msgstr "结束日期："
+
+#: incidenceformatter.cpp:1933
+#, kde-format
+msgctxt "minutes part of duration"
+msgid "1 minute"
+msgid_plural "%1 minutes "
+msgstr[0] "%1 分钟 "
+
+#: incidenceformatter.cpp:2004
+msgid "This invitation has been published"
+msgstr "此邀请已经发布"
+
+#: incidenceformatter.cpp:2009
+#, kde-format
+msgid "This invitation has been updated by the organizer %1"
+msgstr "此邀请已被组织者 %1 更新"
+
+#: incidenceformatter.cpp:2011
+#, kde-format
+msgid "This invitation has been updated by %1 as a representative of %2"
+msgstr "此邀请已被 %2 的代表 %1 更新"
+
+#: incidenceformatter.cpp:2016
+msgid "I created this invitation"
+msgstr "我创建了此邀请"
+
+#: incidenceformatter.cpp:2020
+#, kde-format
+msgid "You received an invitation from %1"
+msgstr "您收到了来自 %1 的邀请"
+
+#: incidenceformatter.cpp:2022
+#, kde-format
+msgid "You received an invitation from %1 as a representative of %2"
+msgstr "您作为 %2 的代表收到了来自 %1 的邀请"
+
+#: incidenceformatter.cpp:2027
+msgid "This invitation was refreshed"
+msgstr "此邀请已经刷新"
+
+#: incidenceformatter.cpp:2030
+msgid "This invitation has been canceled"
+msgstr "此邀请已被取消"
+
+#: incidenceformatter.cpp:2032
+msgid "The organizer has revoked the invitation"
+msgstr "组织者已撤回邀请"
+
+#: incidenceformatter.cpp:2035
+msgid "Addition to the invitation"
+msgstr "添加到邀请"
+
+#: incidenceformatter.cpp:2039 incidenceformatter.cpp:2115
+#: incidenceformatter.cpp:2181 incidenceformatter.cpp:2266
+#, kde-format
+msgid "%1 makes this counter proposal"
+msgstr "%1 提出反对提案"
+
+#: incidenceformatter.cpp:2062
+#, kde-format
+msgid "%1 indicates this invitation still needs some action"
+msgstr "%1 指出此邀请还需要一些动作"
+
+#: incidenceformatter.cpp:2066
+#, kde-format
+msgid "This invitation has been updated by attendee %1"
+msgstr "此邀请已被参与者 %1 更新"
+
+#: incidenceformatter.cpp:2068
+msgid "This invitation has been updated by an attendee"
+msgstr "此邀请已被参与者更新"
+
+#: incidenceformatter.cpp:2072
+#, kde-format
+msgid "%1 accepts this invitation"
+msgstr "%1 接受了此邀请"
+
+#: incidenceformatter.cpp:2074
+#, kde-format
+msgid "%1 accepts this invitation on behalf of %2"
+msgstr "%1 代表 %2 接受了此邀请"
+
+#: incidenceformatter.cpp:2080
+#, kde-format
+msgid "%1 tentatively accepts this invitation"
+msgstr "%1 暂时接受了此邀请"
+
+#: incidenceformatter.cpp:2082
+#, kde-format
+msgid "%1 tentatively accepts this invitation on behalf of %2"
+msgstr "%1 代表 %2 暂时接受了此邀请"
+
+#: incidenceformatter.cpp:2087
+#, kde-format
+msgid "%1 declines this invitation"
+msgstr "%1 拒绝了此邀请"
+
+#: incidenceformatter.cpp:2089
+#, kde-format
+msgid "%1 declines this invitation on behalf of %2"
+msgstr "%1 代表 %2 拒绝了此邀请"
+
+#: incidenceformatter.cpp:2100
+#, kde-format
+msgid "%1 has delegated this invitation to %2"
+msgstr "%1 已将此邀请委托给 %2"
+
+#: incidenceformatter.cpp:2102
+#, kde-format
+msgid "%1 has delegated this invitation"
+msgstr "%1 已接受了此邀请的委托"
+
+#: incidenceformatter.cpp:2106
+msgid "This invitation is now completed"
+msgstr "此邀请已完成"
+
+#: incidenceformatter.cpp:2108
+#, kde-format
+msgid "%1 is still processing the invitation"
+msgstr "%1 仍在处理邀请"
+
+#: incidenceformatter.cpp:2110
+msgid "Unknown response to this invitation"
+msgstr "未知的邀请应答"
+
+#: incidenceformatter.cpp:2122
+#, kde-format
+msgid "%1 declines your counter proposal"
+msgstr "%1 拒绝您的反对提案"
+
+#: incidenceformatter.cpp:2124
+#, kde-format
+msgid "%1 declines your counter proposal on behalf of %2"
+msgstr "%1 代表 %2 拒绝了您的反对提案"
+
+#: incidenceformatter.cpp:2129
+msgid "Error: Event iTIP message with unknown method"
+msgstr "错误：iTIP 消息有未知的方法"
+
+#: incidenceformatter.cpp:2145
+msgid "This to-do has been published"
+msgstr "此待办事宜已经发布"
+
+#: incidenceformatter.cpp:2150
+#, kde-format
+msgid "This to-do has been updated by the organizer %1"
+msgstr "此待办事宜已被组织者 %1 更新"
+
+#: incidenceformatter.cpp:2152
+#, kde-format
+msgid "This to-do has been updated by %1 as a representative of %2"
+msgstr "此待办事宜已被 %2 的代表 %1 更新"
+
+#: incidenceformatter.cpp:2157
+msgid "I created this to-do"
+msgstr "我创建了此待办事宜"
+
+#: incidenceformatter.cpp:2161
+#, kde-format
+msgid "You have been assigned this to-do by %1"
+msgstr "您已被 %1 分派到此待办事宜"
+
+#: incidenceformatter.cpp:2163
+#, kde-format
+msgid "You have been assigned this to-do by %1 as a representative of %2"
+msgstr "您已作为 %2 的代表被 %1 分派到此待办事宜"
+
+#: incidenceformatter.cpp:2169
+msgid "This to-do was refreshed"
+msgstr "此待办事宜已经刷新"
+
+#: incidenceformatter.cpp:2172
+msgid "This to-do was canceled"
+msgstr "此待办事宜已取消"
+
+#: incidenceformatter.cpp:2174
+msgid "The organizer has revoked this to-do"
+msgstr "组织者已撤回此待办事宜"
+
+#: incidenceformatter.cpp:2177
+msgid "Addition to the to-do"
+msgstr "添加到待办事宜"
+
+#: incidenceformatter.cpp:2204
+#, kde-format
+msgid "%1 indicates this to-do assignment still needs some action"
+msgstr "%1 指出此待办事宜的分派还需要一些动作"
+
+#: incidenceformatter.cpp:2210
+#, kde-format
+msgid "This to-do has been completed by assignee %1"
+msgstr "此待办事宜已被指派者 %1 完成"
+
+#: incidenceformatter.cpp:2212
+#, kde-format
+msgid "This to-do has been updated by assignee %1"
+msgstr "此待办事宜已被指派者 %1 更新"
+
+#: incidenceformatter.cpp:2216
+msgid "This to-do has been completed by an assignee"
+msgstr "此待办事宜已被指派者完成"
+
+#: incidenceformatter.cpp:2218
+msgid "This to-do has been updated by an assignee"
+msgstr "此待办事宜已被指派者更新"
+
+#: incidenceformatter.cpp:2223
+#, kde-format
+msgid "%1 accepts this to-do"
+msgstr "%1 接受了此待办事宜"
+
+#: incidenceformatter.cpp:2225
+#, kde-format
+msgid "%1 accepts this to-do on behalf of %2"
+msgstr "%1 代表 %2 接受了此待办事宜"
+
+#: incidenceformatter.cpp:2231
+#, kde-format
+msgid "%1 tentatively accepts this to-do"
+msgstr "%1 暂时接受了此待办事宜"
+
+#: incidenceformatter.cpp:2233
+#, kde-format
+msgid "%1 tentatively accepts this to-do on behalf of %2"
+msgstr "%1 代表 %2 暂时接受了此待办事宜"
+
+#: incidenceformatter.cpp:2238
+#, kde-format
+msgid "%1 declines this to-do"
+msgstr "%1 拒绝了此待办事宜"
+
+#: incidenceformatter.cpp:2240
+#, kde-format
+msgid "%1 declines this to-do on behalf of %2"
+msgstr "%1 代表 %2 拒绝了此待办事宜"
+
+#: incidenceformatter.cpp:2251
+#, kde-format
+msgid "%1 has delegated this to-do to %2"
+msgstr "%1 已将此待办事宜委托给 %2"
+
+#: incidenceformatter.cpp:2253
+#, kde-format
+msgid "%1 has delegated this to-do"
+msgstr "%1 已接受了此待办事宜的委托"
+
+#: incidenceformatter.cpp:2257
+msgid "The request for this to-do is now completed"
+msgstr "此待办事宜的请求已完成"
+
+#: incidenceformatter.cpp:2259
+#, kde-format
+msgid "%1 is still processing the to-do"
+msgstr "%1 仍在处理待办事宜"
+
+#: incidenceformatter.cpp:2261
+msgid "Unknown response to this to-do"
+msgstr "未知的待办事宜应答"
+
+#: incidenceformatter.cpp:2272
+#, kde-format
+msgid "%1 declines the counter proposal"
+msgstr "%1 拒绝了反对提案"
+
+#: incidenceformatter.cpp:2274
+#, kde-format
+msgid "%1 declines the counter proposal on behalf of %2"
+msgstr "%1 代表 %2 拒绝了反对提案"
+
+#: incidenceformatter.cpp:2279
+msgid "Error: To-do iTIP message with unknown method"
+msgstr "错误：待办 iTIP 消息有未知的方法"
+
+#: incidenceformatter.cpp:2294
+msgid "This journal has been published"
+msgstr "此日记已经发布"
+
+#: incidenceformatter.cpp:2296
+msgid "You have been assigned this journal"
+msgstr "您已被分派到此日记"
+
+#: incidenceformatter.cpp:2298
+msgid "This journal was refreshed"
+msgstr "此日记已经刷新"
+
+#: incidenceformatter.cpp:2300
+msgid "This journal was canceled"
+msgstr "此日记已被取消"
+
+#: incidenceformatter.cpp:2302
+msgid "Addition to the journal"
+msgstr "添加到日记"
+
+#: incidenceformatter.cpp:2306 incidenceformatter.cpp:2341
+#: incidenceformatter.cpp:2372
+msgid "Sender makes this counter proposal"
+msgstr "发件人提出反对提案"
+
+#: incidenceformatter.cpp:2322
+msgid "Sender indicates this journal assignment still needs some action"
+msgstr "发件人指出此日记的分派还需要一些动作"
+
+#: incidenceformatter.cpp:2324
+msgid "Sender accepts this journal"
+msgstr "发件人接受了此日记"
+
+#: incidenceformatter.cpp:2326
+msgid "Sender tentatively accepts this journal"
+msgstr "发件人暂时接受了此日记"
+
+#: incidenceformatter.cpp:2328
+msgid "Sender declines this journal"
+msgstr "发件人拒绝了此日记"
+
+#: incidenceformatter.cpp:2330
+msgid "Sender has delegated this request for the journal"
+msgstr "发件人已代理了此日记的请求"
+
+#: incidenceformatter.cpp:2332
+msgid "The request for this journal is now completed"
+msgstr "此日记的请求已完成"
+
+#: incidenceformatter.cpp:2334
+msgid "Sender is still processing the invitation"
+msgstr "发送者仍在处理邀请"
+
+#: incidenceformatter.cpp:2336
+msgid "Unknown response to this journal"
+msgstr "未知的日记应答"
+
+#: incidenceformatter.cpp:2343 incidenceformatter.cpp:2374
+msgid "Sender declines the counter proposal"
+msgstr "发件人拒绝了反对提案"
+
+#: incidenceformatter.cpp:2345
+msgid "Error: Journal iTIP message with unknown method"
+msgstr "错误：日记 iTIP 消息有未知的方法"
+
+#: incidenceformatter.cpp:2360
+msgid "This free/busy list has been published"
+msgstr "此忙/闲列表已经发布"
+
+#: incidenceformatter.cpp:2362
+msgid "The free/busy list has been requested"
+msgstr "忙/闲列表已经请求"
+
+#: incidenceformatter.cpp:2364
+msgid "This free/busy list was refreshed"
+msgstr "此忙/闲列表已刷新"
+
+#: incidenceformatter.cpp:2366
+msgid "This free/busy list was canceled"
+msgstr "此忙/闲列表已取消"
+
+#: incidenceformatter.cpp:2368
+msgid "Addition to the free/busy list"
+msgstr "添加到忙/闲列表"
+
+#: incidenceformatter.cpp:2370
+msgid "Reply to the free/busy list"
+msgstr "回复到忙/闲列表"
+
+#: incidenceformatter.cpp:2376
+msgid "Error: Free/Busy iTIP message with unknown method"
+msgstr "错误：忙/闲列表 iTIP 消息有未知的方法"
+
+#: incidenceformatter.cpp:2390 incidenceformatter.cpp:2441
+msgid "Assignees"
+msgstr "代理人"
+
+#: incidenceformatter.cpp:2392 incidenceformatter.cpp:2443
+msgid "Invitation List"
+msgstr "邀请列表"
+
+#: incidenceformatter.cpp:2411
+msgid "organizer"
+msgstr "组织者"
+
+#: incidenceformatter.cpp:2459
+#, kde-format
+msgid "%1 (<i>unrecorded</i>)"
+msgstr "%1 (<i>未记录</i>)"
+
+#: incidenceformatter.cpp:2472
+msgid "myself"
+msgstr "我自己"
+
+#: incidenceformatter.cpp:2490
+msgctxt "no attendees"
+msgid "None"
+msgstr "无"
+
+#: incidenceformatter.cpp:2511
+msgid "Attached Documents:"
+msgstr "附件文档："
+
+#: incidenceformatter.cpp:2704
+#, kde-format
+msgid "The invitation starting time has been changed from %1 to %2"
+msgstr "邀请开始时间已从 %1 改到 %2"
+
+#: incidenceformatter.cpp:2709
+#, kde-format
+msgid "The invitation ending time has been changed from %1 to %2"
+msgstr "邀请结束时间已从 %1 改到 %2"
+
+#: incidenceformatter.cpp:2722
+msgid "The to-do has been completed"
+msgstr "此待办事宜已经完成"
+
+#: incidenceformatter.cpp:2725
+msgid "The to-do is no longer completed"
+msgstr "此待办事宜不再完成"
+
+#: incidenceformatter.cpp:2730
+#, kde-format
+msgid "The task completed percentage has changed from %1 to %2"
+msgstr "任务完成百分比已从 %1 改到 %2"
+
+#: incidenceformatter.cpp:2735
+msgid "A to-do starting time has been added"
+msgstr "待办事宜的开始时间已经添加"
+
+#: incidenceformatter.cpp:2738
+msgid "The to-do starting time has been removed"
+msgstr "待办事宜的开始时间已经删除"
+
+#: incidenceformatter.cpp:2742
+#, kde-format
+msgid "The to-do starting time has been changed from %1 to %2"
+msgstr "待办事宜的开始时间已从 %1 改到 %2"
+
+#: incidenceformatter.cpp:2748
+msgid "A to-do due time has been added"
+msgstr "代办事宜的到期时间已经添加"
+
+#: incidenceformatter.cpp:2751
+msgid "The to-do due time has been removed"
+msgstr "代办事宜的到期时间已经删除"
+
+#: incidenceformatter.cpp:2755
+#, kde-format
+msgid "The to-do due time has been changed from %1 to %2"
+msgstr "代办事宜的到期时间已经从 %1 改到 %2"
+
+#: incidenceformatter.cpp:2769
+#, kde-format
+msgid "The summary has been changed to: \"%1\""
+msgstr "概要已改为：“%1”"
+
+#: incidenceformatter.cpp:2774
+#, kde-format
+msgid "The location has been changed to: \"%1\""
+msgstr "会议地点已改为：“%1”"
+
+#: incidenceformatter.cpp:2779
+#, kde-format
+msgid "The description has been changed to: \"%1\""
+msgstr "会议描述已改为：“%1”"
+
+#: incidenceformatter.cpp:2789
+#, kde-format
+msgid "Attendee %1 has been added"
+msgstr "参会者 %1 已被添加"
+
+#: incidenceformatter.cpp:2792
+#, kde-format
+msgid "The status of attendee %1 has been changed to: %2"
+msgstr "与会者 %1 状态已被更改为： %2"
+
+#: incidenceformatter.cpp:2803
+#, kde-format
+msgid "Attendee %1 has been removed"
+msgstr "与会者 %1 已被删除"
+
+#: incidenceformatter.cpp:2881
+msgid "Record"
+msgstr "记录"
+
+#: incidenceformatter.cpp:2884
+msgid "Move to Trash"
+msgstr "移至回收站"
+
+#: incidenceformatter.cpp:2890
+msgctxt "accept invitation"
+msgid "Accept"
+msgstr "接受"
+
+#: incidenceformatter.cpp:2894
+msgctxt "Accept invitation conditionally"
+msgid "Accept cond."
+msgstr "有条件接受。"
+
+#: incidenceformatter.cpp:2898
+msgctxt "invitation counter proposal"
+msgid "Counter proposal"
+msgstr "反对"
+
+#: incidenceformatter.cpp:2902
+msgctxt "decline invitation"
+msgid "Decline"
+msgstr "拒绝"
+
+#: incidenceformatter.cpp:2908
+msgctxt "delegate inviation to another"
+msgid "Delegate"
+msgstr "委托"
+
+#: incidenceformatter.cpp:2911
+msgctxt "forward request to another"
+msgid "Forward"
+msgstr "转发"
+
+#: incidenceformatter.cpp:2916
+msgctxt "look for scheduling conflicts"
+msgid "Check my calendar"
+msgstr "检查我的日历"
+
+#: incidenceformatter.cpp:2931
+msgid "Accept"
+msgstr "接受"
+
+#: incidenceformatter.cpp:2934
+msgid "Decline"
+msgstr "拒绝"
+
+#: incidenceformatter.cpp:2939
+msgid "Check my to-do list"
+msgstr "检查待办事宜列表"
+
+#: incidenceformatter.cpp:2941
+msgid "Check my calendar"
+msgstr "检查我的日历"
+
+#: incidenceformatter.cpp:2958
+msgid "Record invitation in my to-do list"
+msgstr "将邀请记录到我的待办事宜列表"
+
+#: incidenceformatter.cpp:2961
+msgid "Record invitation in my calendar"
+msgstr "将邀请记录到我的日历"
+
+#: incidenceformatter.cpp:2978
+msgid "Record response in my to-do list"
+msgstr "将应答记录到我的待办列表"
+
+#: incidenceformatter.cpp:2981
+msgid "Record response in my calendar"
+msgstr "将应答记录到我的日历"
+
+#: incidenceformatter.cpp:2999
+msgid "Remove invitation from my to-do list"
+msgstr "从我的待办列表中删除邀请"
+
+#: incidenceformatter.cpp:3002
+msgid "Remove invitation from my calendar"
+msgstr "从我的日历中删除邀请"
+
+#: incidenceformatter.cpp:3114
+msgid "The following changes have been made by the organizer:"
+msgstr "组织者进行了下列更改："
+
+#: incidenceformatter.cpp:3116 incidenceformatter.cpp:3129
+#, kde-format
+msgid "The following changes have been made by %1:"
+msgstr "%1 进行了下列更改："
+
+#: incidenceformatter.cpp:3118
+msgid "The following changes have been made:"
+msgstr "已进行了下列更改："
+
+#: incidenceformatter.cpp:3131
+msgid "The following changes have been made by an attendee:"
+msgstr "参与者进行了下列更改："
+
+#: incidenceformatter.cpp:3181
+#, kde-format
+msgid "Your <b>%1</b> response has been recorded"
+msgstr "您的 <b>%1</b> 应答已被记录"
+
+#: incidenceformatter.cpp:3184
+#, kde-format
+msgid "Your status for this invitation is <b>%1</b>"
+msgstr "您对此邀请的状态是 <b>%1</b>"
+
+#: incidenceformatter.cpp:3189
+msgid "This invitation was canceled"
+msgstr "此邀请已被取消"
+
+#: incidenceformatter.cpp:3191
+msgid "This invitation was accepted"
+msgstr "此邀请已被接受"
+
+#: incidenceformatter.cpp:3199
+msgid "Awaiting delegation response"
+msgstr "正在等候代码响应"
+
+#: incidenceformatter.cpp:3281
+#, kde-format
+msgid "The <b>%1</b> response has been recorded"
+msgstr "<b>%1</b> 的应答已被记录"
+
+#: incidenceformatter.cpp:3436
+#, kde-format
+msgctxt "Event start"
+msgid "<i>From:</i> %1"
+msgstr "<i>从：</i> %1"
+
+#: incidenceformatter.cpp:3439
+#, kde-format
+msgctxt "Event end"
+msgid "<i>To:</i> %1"
+msgstr "<i>到：</i> %1"
+
+#: incidenceformatter.cpp:3444 incidenceformatter.cpp:3517
+#, kde-format
+msgid "<i>Date:</i> %1"
+msgstr "<i>日期：</i> %1"
+
+#: incidenceformatter.cpp:3451
+#, kde-format
+msgctxt "time for event"
+msgid "<i>Time:</i> %1"
+msgstr "<i>时间：</i> %1"
+
+#: incidenceformatter.cpp:3456
+#, kde-format
+msgctxt "time range for event"
+msgid "<i>Time:</i> %1 - %2"
+msgstr "<i>时间：</i> %1-%2"
+
+#: incidenceformatter.cpp:3476
+#, kde-format
+msgid "<i>Start:</i> %1"
+msgstr "<i>开始：</i> %1"
+
+#: incidenceformatter.cpp:3487
+#, kde-format
+msgid "<i>Due:</i> %1"
+msgstr "<i>到期：</i> %1"
+
+#: incidenceformatter.cpp:3527 incidenceformatter.cpp:3530
+#, kde-format
+msgid "<i>Period start:</i> %1"
+msgstr "<i>周期开始：</i> %1"
+
+#: incidenceformatter.cpp:3578
+#, kde-format
+msgctxt "attendee name (attendee status)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: incidenceformatter.cpp:3582
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: incidenceformatter.cpp:3607 incidenceformatter.cpp:3751
+msgctxt "elipsis"
+msgid "..."
+msgstr "..."
+
+#: incidenceformatter.cpp:3808
+#, kde-format
+msgid "Summary: %1\n"
+msgstr "概要：%1\n"
+
+#: incidenceformatter.cpp:3811
+#, kde-format
+msgid "Organizer: %1\n"
+msgstr "组织者：%1\n"
+
+#: incidenceformatter.cpp:3814
+#, kde-format
+msgid "Location: %1\n"
+msgstr "地点：%1\n"
+
+#: incidenceformatter.cpp:3844
+msgid "This is a Free Busy Object"
+msgstr "这是忙闲对象"
+
+#: incidenceformatter.cpp:3855
+msgctxt "no recurrence"
+msgid "None"
+msgstr "无"
+
+#: incidenceformatter.cpp:3856
+msgctxt "event recurs by minutes"
+msgid "Minutely"
+msgstr "每分钟"
+
+#: incidenceformatter.cpp:3857
+msgctxt "event recurs by hours"
+msgid "Hourly"
+msgstr "每小时"
+
+#: incidenceformatter.cpp:3858
+msgctxt "event recurs by days"
+msgid "Daily"
+msgstr "每天"
+
+#: incidenceformatter.cpp:3859
+msgctxt "event recurs by weeks"
+msgid "Weekly"
+msgstr "每周"
+
+#: incidenceformatter.cpp:3860
+msgctxt "event recurs same position (e.g. first monday) each month"
+msgid "Monthly Same Position"
+msgstr "每月同一时间点"
+
+#: incidenceformatter.cpp:3861
+msgctxt "event recurs same day each month"
+msgid "Monthly Same Day"
+msgstr "每月同一天"
+
+#: incidenceformatter.cpp:3862
+msgctxt "event recurs same month each year"
+msgid "Yearly Same Month"
+msgstr "每年同一月"
+
+#: incidenceformatter.cpp:3863
+msgctxt "event recurs same day each year"
+msgid "Yearly Same Day"
+msgstr "每年同一天"
+
+#: incidenceformatter.cpp:3864
+msgctxt "event recurs same position (e.g. first monday) each year"
+msgid "Yearly Same Position"
+msgstr "每年同一时间点"
+
+#: incidenceformatter.cpp:3868 incidenceformatter.cpp:3924
+#, kde-format
+msgid "Start Date: %1\n"
+msgstr "开始日期：%1\n"
+
+#: incidenceformatter.cpp:3870 incidenceformatter.cpp:3926
+#, kde-format
+msgid "Start Time: %1\n"
+msgstr "开始时间：%1\n"
+
+#: incidenceformatter.cpp:3873
+#, kde-format
+msgid "End Date: %1\n"
+msgstr "结束日期：%1\n"
+
+#: incidenceformatter.cpp:3876
+#, kde-format
+msgid "End Time: %1\n"
+msgstr "结束时间：%1\n"
+
+#: incidenceformatter.cpp:3881
+#, kde-format
+msgid "Recurs: %1\n"
+msgstr "重现：%1\n"
+
+#: incidenceformatter.cpp:3882
+#, kde-format
+msgid "Frequency: %1\n"
+msgstr "频率：%1\n"
+
+#: incidenceformatter.cpp:3885
+#, kde-format
+msgid "Repeats once"
+msgid_plural "Repeats %1 times"
+msgstr[0] "重复 %1 次"
+
+#: incidenceformatter.cpp:3896
+#, kde-format
+msgid "Repeat until: %1\n"
+msgstr "重复直到：%1\n"
+
+#: incidenceformatter.cpp:3898
+msgid "Repeats forever\n"
+msgstr "永远重复\n"
+
+#: incidenceformatter.cpp:3913 incidenceformatter.cpp:3937
+#, kde-format
+msgid ""
+"Details:\n"
+"%1\n"
+msgstr ""
+"细节：\n"
+"%1\n"
+
+#: incidenceformatter.cpp:3930
+#, kde-format
+msgid "Due Date: %1\n"
+msgstr "到期日期：%1\n"
+
+#: incidenceformatter.cpp:3932
+#, kde-format
+msgid "Due Time: %1\n"
+msgstr "到期时间：%1\n"
+
+#: incidenceformatter.cpp:3945
+#, kde-format
+msgid "Date: %1\n"
+msgstr "日期：%1\n"
+
+#: incidenceformatter.cpp:3947
+#, kde-format
+msgid "Time: %1\n"
+msgstr "时间：%1\n"
+
+#: incidenceformatter.cpp:3950
+#, kde-format
+msgid ""
+"Text of the journal:\n"
+"%1\n"
+msgstr ""
+"日记文字：\n"
+"%1\n"
+
+#: incidenceformatter.cpp:3994 incidenceformatter.cpp:4070
+msgid "No recurrence"
+msgstr "不重复"
+
+#: incidenceformatter.cpp:3998
+msgid "31st Last"
+msgstr "倒数第三十一"
+
+#: incidenceformatter.cpp:3999
+msgid "30th Last"
+msgstr "倒数第三十"
+
+#: incidenceformatter.cpp:4000
+msgid "29th Last"
+msgstr "倒数第二十九"
+
+#: incidenceformatter.cpp:4001
+msgid "28th Last"
+msgstr "倒数第二十八"
+
+#: incidenceformatter.cpp:4002
+msgid "27th Last"
+msgstr "倒数第二十七"
+
+#: incidenceformatter.cpp:4003
+msgid "26th Last"
+msgstr "倒数第二十六"
+
+#: incidenceformatter.cpp:4004
+msgid "25th Last"
+msgstr "倒数第二十五"
+
+#: incidenceformatter.cpp:4005
+msgid "24th Last"
+msgstr "倒数第二十四"
+
+#: incidenceformatter.cpp:4006
+msgid "23rd Last"
+msgstr "倒数第二十三"
+
+#: incidenceformatter.cpp:4007
+msgid "22nd Last"
+msgstr "倒数第二十二"
+
+#: incidenceformatter.cpp:4008
+msgid "21st Last"
+msgstr "倒数第二十一"
+
+#: incidenceformatter.cpp:4009
+msgid "20th Last"
+msgstr "倒数第二十"
+
+#: incidenceformatter.cpp:4010
+msgid "19th Last"
+msgstr "倒数第十九"
+
+#: incidenceformatter.cpp:4011
+msgid "18th Last"
+msgstr "倒数第十八"
+
+#: incidenceformatter.cpp:4012
+msgid "17th Last"
+msgstr "倒数第十七"
+
+#: incidenceformatter.cpp:4013
+msgid "16th Last"
+msgstr "倒数第十六"
+
+#: incidenceformatter.cpp:4014
+msgid "15th Last"
+msgstr "倒数第十五"
+
+#: incidenceformatter.cpp:4015
+msgid "14th Last"
+msgstr "倒数第十四"
+
+#: incidenceformatter.cpp:4016
+msgid "13th Last"
+msgstr "倒数第十三"
+
+#: incidenceformatter.cpp:4017
+msgid "12th Last"
+msgstr "倒数第十二"
+
+#: incidenceformatter.cpp:4018
+msgid "11th Last"
+msgstr "倒数第十一"
+
+#: incidenceformatter.cpp:4019
+msgid "10th Last"
+msgstr "倒数第十"
+
+#: incidenceformatter.cpp:4020
+msgid "9th Last"
+msgstr "倒数第九"
+
+#: incidenceformatter.cpp:4021
+msgid "8th Last"
+msgstr "倒数第八"
+
+#: incidenceformatter.cpp:4022
+msgid "7th Last"
+msgstr "倒数第七"
+
+#: incidenceformatter.cpp:4023
+msgid "6th Last"
+msgstr "倒数第六"
+
+#: incidenceformatter.cpp:4024
+msgid "5th Last"
+msgstr "倒数第五"
+
+#: incidenceformatter.cpp:4025
+msgid "4th Last"
+msgstr "倒数第四"
+
+#: incidenceformatter.cpp:4026
+msgid "3rd Last"
+msgstr "倒数第三"
+
+#: incidenceformatter.cpp:4027
+msgid "2nd Last"
+msgstr "倒数第二"
+
+#: incidenceformatter.cpp:4028
+msgctxt "last day of the month"
+msgid "Last"
+msgstr "末"
+
+#: incidenceformatter.cpp:4029
+msgctxt "unknown day of the month"
+msgid "unknown"
+msgstr "未知"
+
+#: incidenceformatter.cpp:4030
+msgid "1st"
+msgstr "第一"
+
+#: incidenceformatter.cpp:4031
+msgid "2nd"
+msgstr "第二"
+
+#: incidenceformatter.cpp:4032
+msgid "3rd"
+msgstr "第三"
+
+#: incidenceformatter.cpp:4033
+msgid "4th"
+msgstr "第四"
+
+#: incidenceformatter.cpp:4034
+msgid "5th"
+msgstr "第五"
+
+#: incidenceformatter.cpp:4035
+msgid "6th"
+msgstr "第六"
+
+#: incidenceformatter.cpp:4036
+msgid "7th"
+msgstr "第七"
+
+#: incidenceformatter.cpp:4037
+msgid "8th"
+msgstr "第八"
+
+#: incidenceformatter.cpp:4038
+msgid "9th"
+msgstr "第九"
+
+#: incidenceformatter.cpp:4039
+msgid "10th"
+msgstr "第十"
+
+#: incidenceformatter.cpp:4040
+msgid "11th"
+msgstr "第十一"
+
+#: incidenceformatter.cpp:4041
+msgid "12th"
+msgstr "第十二"
+
+#: incidenceformatter.cpp:4042
+msgid "13th"
+msgstr "第十三"
+
+#: incidenceformatter.cpp:4043
+msgid "14th"
+msgstr "第十四"
+
+#: incidenceformatter.cpp:4044
+msgid "15th"
+msgstr "第十五"
+
+#: incidenceformatter.cpp:4045
+msgid "16th"
+msgstr "第十六"
+
+#: incidenceformatter.cpp:4046
+msgid "17th"
+msgstr "第十七"
+
+#: incidenceformatter.cpp:4047
+msgid "18th"
+msgstr "第十八"
+
+#: incidenceformatter.cpp:4048
+msgid "19th"
+msgstr "第十九"
+
+#: incidenceformatter.cpp:4049
+msgid "20th"
+msgstr "第二十"
+
+#: incidenceformatter.cpp:4050
+msgid "21st"
+msgstr "第二十一"
+
+#: incidenceformatter.cpp:4051
+msgid "22nd"
+msgstr "第二十二"
+
+#: incidenceformatter.cpp:4052
+msgid "23rd"
+msgstr "第二十三"
+
+#: incidenceformatter.cpp:4053
+msgid "24th"
+msgstr "第二十四"
+
+#: incidenceformatter.cpp:4054
+msgid "25th"
+msgstr "第二十五"
+
+#: incidenceformatter.cpp:4055
+msgid "26th"
+msgstr "第二十六"
+
+#: incidenceformatter.cpp:4056
+msgid "27th"
+msgstr "第二十七"
+
+#: incidenceformatter.cpp:4057
+msgid "28th"
+msgstr "第二十八"
+
+#: incidenceformatter.cpp:4058
+msgid "29th"
+msgstr "第二十九"
+
+#: incidenceformatter.cpp:4059
+msgid "30th"
+msgstr "第三十"
+
+#: incidenceformatter.cpp:4060
+msgid "31st"
+msgstr "第三十一"
+
+#: incidenceformatter.cpp:4077
+#, kde-format
+msgid "Recurs every minute until %2"
+msgid_plural "Recurs every %1 minutes until %2"
+msgstr[0] "每隔 %1 分钟重复，到 %2 截止"
+
+#: incidenceformatter.cpp:4082 incidenceformatter.cpp:4098
+#: incidenceformatter.cpp:4113 incidenceformatter.cpp:4144
+#: incidenceformatter.cpp:4170 incidenceformatter.cpp:4197
+#: incidenceformatter.cpp:4224 incidenceformatter.cpp:4267
+#: incidenceformatter.cpp:4296
+#, kde-format
+msgctxt "number of occurrences"
+msgid " (<numid>%1</numid> occurrences)"
+msgstr " (<numid>%1</numid> 次重复)"
+
+#: incidenceformatter.cpp:4086
+#, kde-format
+msgid "Recurs every minute"
+msgid_plural "Recurs every %1 minutes"
+msgstr[0] "每隔 %1 分钟重复"
+
+#: incidenceformatter.cpp:4093
+#, kde-format
+msgid "Recurs hourly until %2"
+msgid_plural "Recurs every %1 hours until %2"
+msgstr[0] "每隔 %1 小时重复，到 %2 截止"
+
+#: incidenceformatter.cpp:4102
+#, kde-format
+msgid "Recurs hourly"
+msgid_plural "Recurs every %1 hours"
+msgstr[0] "每隔 %1 小时重复"
+
+#: incidenceformatter.cpp:4108
+#, kde-format
+msgid "Recurs daily until %2"
+msgid_plural "Recurs every %1 days until %2"
+msgstr[0] "每隔 %1 天重复，到 %2 截止"
+
+#: incidenceformatter.cpp:4117
+#, kde-format
+msgid "Recurs daily"
+msgid_plural "Recurs every %1 days"
+msgstr[0] "每隔 %1 天重复"
+
+#: incidenceformatter.cpp:4127
+msgctxt "separator for list of days"
+msgid ", "
+msgstr ", "
+
+#: incidenceformatter.cpp:4135
+msgctxt "Recurs weekly on no days"
+msgid "no days"
+msgstr "不按天"
+
+#: incidenceformatter.cpp:4139
+#, kde-format
+msgctxt "Recurs weekly on [list of days] until end-date"
+msgid "Recurs weekly on %2 until %3"
+msgid_plural "Recurs every <numid>%1</numid> weeks on %2 until %3"
+msgstr[0] "每 <numid>%1</numid> 周的 %2 重复一次，到 %3 截止"
+
+#: incidenceformatter.cpp:4149
+#, kde-format
+msgctxt "Recurs weekly on [list of days]"
+msgid "Recurs weekly on %2"
+msgid_plural "Recurs every <numid>%1</numid> weeks on %2"
+msgstr[0] "每 <numid>%1</numid> 周的 %2 重复一次"
+
+#: incidenceformatter.cpp:4162
+#, kde-format
+msgctxt "Recurs every N months on the [2nd|3rd|...] weekdayname until end-date"
+msgid "Recurs every month on the %2 %3 until %4"
+msgid_plural "Recurs every <numid>%1</numid> months on the %2 %3 until %4"
+msgstr[0] "每 <numid>%1</numid> 个月的 %2%3 重复一次，到 %4 截止"
+
+#: incidenceformatter.cpp:4175
+#, kde-format
+msgctxt "Recurs every N months on the [2nd|3rd|...] weekdayname"
+msgid "Recurs every month on the %2 %3"
+msgid_plural "Recurs every %1 months on the %2 %3"
+msgstr[0] "每 %1 个月的 %2天%3 重复一次"
+
+#: incidenceformatter.cpp:4190
+#, kde-format
+msgctxt "Recurs monthly on the [1st|2nd|...] day until end-date"
+msgid "Recurs monthly on the %2 day until %3"
+msgid_plural "Recurs every %1 months on the %2 day until %3"
+msgstr[0] "每 %1 个月的 %2 天重复一次，到 %3 截止"
+
+#: incidenceformatter.cpp:4202
+#, kde-format
+msgctxt "Recurs monthly on the [1st|2nd|...] day"
+msgid "Recurs monthly on the %2 day"
+msgid_plural "Recurs every <numid>%1</numid> month on the %2 day"
+msgstr[0] "每 <numid>%1</numid> 个月的 %2 天重复一次"
+
+#: incidenceformatter.cpp:4216
+#, kde-format
+msgctxt "Recurs Every N years on month-name [1st|2nd|...] until end-date"
+msgid "Recurs yearly on %2 %3 until %4"
+msgid_plural "Recurs every %1 years on %2 %3 until %4"
+msgstr[0] "每 %1 年的 %2%3 天重复一次，到 %4 截止"
+
+#: incidenceformatter.cpp:4231
+#, kde-format
+msgctxt "Recurs Every N years on month-name [1st|2nd|...]"
+msgid "Recurs yearly on %2 %3"
+msgid_plural "Recurs every %1 years on %2 %3"
+msgstr[0] "每 %1 年的 %2%3 天重复一次"
+
+#: incidenceformatter.cpp:4240 incidenceformatter.cpp:4246
+#, kde-format
+msgctxt "Recurs Every year on month-name [1st|2nd|...]"
+msgid "Recurs yearly on %1 %2"
+msgstr "每年的 %1%2 天重复一次"
+
+#: incidenceformatter.cpp:4259
+#, kde-format
+msgctxt "Recurs every N years on day N until end-date"
+msgid "Recurs every year on day <numid>%2</numid> until %3"
+msgid_plural ""
+"Recurs every <numid>%1</numid> years on day <numid>%2</numid> until %3"
+msgstr[0] "每 <numid>%1</numid> 年的 <numid>%2</numid> 日重复一次，到 %3 截止"
+
+#: incidenceformatter.cpp:4272
+#, kde-format
+msgctxt "Recurs every N YEAR[S] on day N"
+msgid "Recurs every year on day <numid>%2</numid>"
+msgid_plural "Recurs every <numid>%1</numid> years on day <numid>%2</numid>"
+msgstr[0] "每 <numid>%1</numid> 年的 <numid>%2</numid> 日重复一次"
+
+#: incidenceformatter.cpp:4286
+#, kde-format
+msgctxt ""
+"Every N years on the [2nd|3rd|...] weekdayname of monthname until end-date"
+msgid "Every year on the %2 %3 of %4 until %5"
+msgid_plural "Every <numid>%1</numid> years on the %2 %3 of %4 until %5"
+msgstr[0] "每 <numid>%1</numid> 年 %4 月的%2天%3重复一次，到 %5 截止"
+
+#: incidenceformatter.cpp:4302
+#, kde-format
+msgctxt "Every N years on the [2nd|3rd|...] weekdayname of monthname"
+msgid "Every year on the %2 %3 of %4"
+msgid_plural "Every <numid>%1</numid> years on the %2 %3 of %4"
+msgstr[0] "每 <numid>%1</numid> 年 %4 月的%2天%3重复一次"
+
+#: incidenceformatter.cpp:4315
+msgid "Incidence recurs"
+msgstr "重复发生"
+
+#: incidenceformatter.cpp:4325
+#, kde-format
+msgid "minute %1"
+msgstr "每 %1 分钟"
+
+#: incidenceformatter.cpp:4365 incidenceformatter.cpp:4470
+#: incidenceformatter.cpp:4496 incidenceformatter.cpp:4509
+#, kde-format
+msgid "1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 天"
+
+#: incidenceformatter.cpp:4387
+#, kde-format
+msgid "%1 (excluding %2)"
+msgstr "%1 (不计 %2)"
+
+#: incidenceformatter.cpp:4476
+#, kde-format
+msgid "1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 小时 "
+
+#: incidenceformatter.cpp:4482
+#, kde-format
+msgid "1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 分钟 "
+
+#: incidenceformatter.cpp:4500
+msgid "forever"
+msgstr "永远"
+
+#: incidenceformatter.cpp:4543
+#, kde-format
+msgctxt "N days/hours/minutes before the start datetime"
+msgid "%1 before the start"
+msgstr "开始前%1"
+
+#: incidenceformatter.cpp:4546
+#, kde-format
+msgctxt "N days/hours/minutes after the start datetime"
+msgid "%1 after the start"
+msgstr "开始后%1"
+
+#: incidenceformatter.cpp:4558
+#, kde-format
+msgctxt "N days/hours/minutes before the due datetime"
+msgid "%1 before the to-do is due"
+msgstr "待办事宜到期前%1"
+
+#: incidenceformatter.cpp:4561
+#, kde-format
+msgctxt "N days/hours/minutes before the end datetime"
+msgid "%1 before the end"
+msgstr "结束前%1"
+
+#: incidenceformatter.cpp:4566
+#, kde-format
+msgctxt "N days/hours/minutes after the due datetime"
+msgid "%1 after the to-do is due"
+msgstr "待办事宜到期后%1"
+
+#: incidenceformatter.cpp:4569
+#, kde-format
+msgctxt "N days/hours/minutes after the end datetime"
+msgid "%1 after the end"
+msgstr "结束后%1"
+
+#: incidenceformatter.cpp:4587
+#, kde-format
+msgctxt "reminder occurs at datetime"
+msgid "at %1"
+msgstr "于 %1"
+
+#: incidenceformatter.cpp:4594
+#, kde-format
+msgid "repeats once"
+msgid_plural "repeats %1 times"
+msgstr[0] "重复 %1 次"
+
+#: incidenceformatter.cpp:4596
+#, kde-format
+msgctxt "interval is N days/hours/minutes"
+msgid "interval is %1"
+msgstr "间隔为 %1"
+
+#: incidenceformatter.cpp:4599
+#, kde-format
+msgctxt "(repeat string, interval string)"
+msgid "(%1, %2)"
+msgstr "(%1，%2)"
+
+#: recurrenceactions.cpp:53
+#, kde-format
+msgctxt "@option:check calendar items before a certain date"
+msgid "Items before %1"
+msgstr "%1 之前的项"
+
+#: recurrenceactions.cpp:60
+msgctxt "@option:check currently selected calendar item"
+msgid "Selected item"
+msgstr "选中项目"
+
+#: recurrenceactions.cpp:66
+#, kde-format
+msgctxt "@option:check calendar items after a certain date"
+msgid "Items after %1"
+msgstr "%1 之后的项"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBoxPast)
+#: recurrenceactionsscopewidget.ui:70
+msgid "Select calendar items before the specified date"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, checkBoxPast)
+#: recurrenceactionsscopewidget.ui:73
+#, fuzzy
+#| msgid "Check this box if you want the event categories to be exported."
+msgid ""
+"Check this box if you want to select calendar items that occur before the "
+"specified date."
+msgstr "如需在导出时包含事件类别，请选中此项。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBoxSelected)
+#: recurrenceactionsscopewidget.ui:89
+msgid "Choose the currently selected calendar item"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, checkBoxSelected)
+#: recurrenceactionsscopewidget.ui:92
+#, fuzzy
+#| msgid "Check this box if you want the event categories to be exported."
+msgid ""
+"Check this box if you want to select calendar items that occur on the "
+"specified date."
+msgstr "如需在导出时包含事件类别，请选中此项。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBoxFuture)
+#: recurrenceactionsscopewidget.ui:108
+msgid "Select calendar items after the specified date"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, checkBoxFuture)
+#: recurrenceactionsscopewidget.ui:111
+#, fuzzy
+#| msgid "Check this box if you want the event categories to be exported."
+msgid ""
+"Check this box if you want to select calendar items that occur after the "
+"specified date."
+msgstr "如需在导出时包含事件类别，请选中此项。"
+
+#: scheduler.cpp:246
+msgctxt "@info"
+msgid ""
+"<para>You accepted an invitation update, but an earlier version of the item "
+"could not be found in your calendar.</para><para>This may have occurred "
+"because:<list><item>the organizer did not include you in the original "
+"invitation</item><item>you did not accept the original invitation yet</"
+"item><item>you deleted the original invitation from your calendar</"
+"item><item>you no longer have access to the calendar containing the "
+"invitation</item></list></para><para>This is not a problem, but we thought "
+"you should know.</para>"
+msgstr ""
+"<para>您接受了一个邀请的更新，但是已经无法在您的日历中找到之前的版本。</"
+"para><para>这可能是由于：<list><item>组织者并未将您包含于原始邀请当中</"
+"item><item>您并未接受原始邀请</item><item>您从日历中删除了原始邀请</"
+"item><item>您不再有对包含邀请的日历有访问权限</item></list></para><para>这没"
+"有什么问题，但我们认为你应该知道。</para>"
+
+#: scheduler.cpp:255
+msgctxt "@title"
+msgid "Cannot find invitation to be updated"
+msgstr "无法找到需更新的邀请"
+
+#: scheduler.cpp:350
+msgctxt "@info"
+msgid ""
+"The event or task could not be removed from your calendar. Maybe it has "
+"already been deleted or is not owned by you. Or it might belong to a read-"
+"only or disabled calendar."
+msgstr ""
+"无法从日历中移除此事件或任务。可能是因为它已被删除、或是不属于您，也可能它属"
+"于一个只读或被禁用的日历中。"
+
+#: scheduler.cpp:429
+#, kde-format
+msgctxt "@info"
+msgid "%1 wants to attend %2 but was not invited."
+msgstr "%1 想参加 %2，但没有被邀请。"
+
+#: scheduler.cpp:433
+#, kde-format
+msgctxt "@info"
+msgid "%1 wants to attend %2 on behalf of %3."
+msgstr "%1 想代表 %3 参加 %2。"
+
+#: scheduler.cpp:438
+msgctxt "@title"
+msgid "Uninvited attendee"
+msgstr "未邀请的参与者"
+
+#: scheduler.cpp:439
+msgctxt "@option"
+msgid "Accept Attendance"
+msgstr "接受参与者"
+
+#: scheduler.cpp:440
+msgctxt "@option"
+msgid "Reject Attendance"
+msgstr "拒绝参与者"
+
+#: scheduler.cpp:445
+msgctxt "@info"
+msgid "The organizer rejected your attendance at this meeting."
+msgstr "组织者拒绝您参加此次会议。"
+
+#: scheduler.cpp:475
+msgctxt "@info"
+msgid ""
+"An attendee was added to the incidence. Do you want to email the attendees "
+"an update message?"
+msgstr "一个参与者已经被添加到事件中。您想要向所有参与者发送通知信件吗？"
+
+#: scheduler.cpp:477
+msgctxt "@title"
+msgid "Attendee Added"
+msgstr "参与者已添加"
+
+#: scheduler.cpp:478
+msgctxt "@option"
+msgid "Send Messages"
+msgstr "发送信件"
+
+#: scheduler.cpp:479
+msgctxt "@option"
+msgid "Do Not Send"
+msgstr "不发送"
+
+#: stringify.cpp:53
+msgctxt "@item incidence type is event"
+msgid "event"
+msgstr "事件"
+
+#: stringify.cpp:55
+msgctxt "@item incidence type is to-do/task"
+msgid "to-do"
+msgstr "待办事宜"
+
+#: stringify.cpp:57
+msgctxt "@item incidence type is journal"
+msgid "journal"
+msgstr "日记"
+
+#: stringify.cpp:59
+msgctxt "@item incidence type is freebusy"
+msgid "free/busy"
+msgstr "忙/闲"
+
+#: stringify.cpp:77 stringify.cpp:367
+msgctxt "@item incidence access if for everyone"
+msgid "Public"
+msgstr "公开"
+
+#: stringify.cpp:79 stringify.cpp:369
+msgctxt "@item incidence access is by owner only"
+msgid "Private"
+msgstr "私有"
+
+#: stringify.cpp:81 stringify.cpp:371
+msgctxt "@item incidence access is by owner and a controlled group"
+msgid "Confidential"
+msgstr "机密"
+
+#: stringify.cpp:101
+msgctxt "@item event is tentative"
+msgid "Tentative"
+msgstr "已暂定"
+
+#: stringify.cpp:103
+msgctxt "@item event is definite"
+msgid "Confirmed"
+msgstr "已确认"
+
+#: stringify.cpp:105
+msgctxt "@item to-do is complete"
+msgid "Completed"
+msgstr "已完成"
+
+#: stringify.cpp:107
+msgctxt "@item to-do needs action"
+msgid "Needs-Action"
+msgstr "需要操作"
+
+#: stringify.cpp:109
+msgctxt "@item event orto-do is canceled; journal is removed"
+msgid "Canceled"
+msgstr "已取消"
+
+#: stringify.cpp:111
+msgctxt "@item to-do is in process"
+msgid "In-Process"
+msgstr "处理中"
+
+#: stringify.cpp:113
+msgctxt "@item journal is in draft form"
+msgid "Draft"
+msgstr "草稿"
+
+#: stringify.cpp:115
+msgctxt "@item journal is in final form"
+msgid "Final"
+msgstr "终稿"
+
+#: stringify.cpp:136
+msgctxt "@item chairperson"
+msgid "Chair"
+msgstr "主席"
+
+#: stringify.cpp:140
+msgctxt "@item participation is required"
+msgid "Participant"
+msgstr "出席者"
+
+#: stringify.cpp:143
+msgctxt "@item participation is optional"
+msgid "Optional Participant"
+msgstr "可选出席者"
+
+#: stringify.cpp:146
+msgctxt "@item non-participant copied for information"
+msgid "Observer"
+msgstr "观察员"
+
+#: stringify.cpp:167
+msgctxt "@item event, to-do or journal needs action"
+msgid "Needs Action"
+msgstr "需要操作"
+
+#: stringify.cpp:170
+msgctxt "@item event, to-do or journal accepted"
+msgid "Accepted"
+msgstr "已接受"
+
+#: stringify.cpp:173
+msgctxt "@item event, to-do or journal declined"
+msgid "Declined"
+msgstr "已拒绝"
+
+#: stringify.cpp:176
+msgctxt "@item event or to-do tentatively accepted"
+msgid "Tentative"
+msgstr "暂时接受"
+
+#: stringify.cpp:179
+msgctxt "@item event or to-do delegated"
+msgid "Delegated"
+msgstr "已委托"
+
+#: stringify.cpp:182
+msgctxt "@item to-do completed"
+msgid "Completed"
+msgstr "已完成"
+
+#: stringify.cpp:185
+msgctxt "@item to-do in process of being completed"
+msgid "In Process"
+msgstr "处理中"
+
+#: stringify.cpp:188
+msgctxt "@item event or to-do status unknown"
+msgid "Unknown"
+msgstr "未知"
+
+#: stringify.cpp:271
+msgctxt "@item"
+msgid "Load Error"
+msgstr "装入错误"
+
+#: stringify.cpp:274
+msgctxt "@item"
+msgid "Save Error"
+msgstr "保存错误"
+
+#: stringify.cpp:277
+msgctxt "@item"
+msgid "Parse Error in libical"
+msgstr "libical 解析错误"
+
+#: stringify.cpp:280
+msgctxt "@item"
+msgid "Parse Error in the kcalcore library"
+msgstr "kcalcore 库解析错误"
+
+#: stringify.cpp:283
+msgctxt "@item"
+msgid "No calendar component found."
+msgstr "未找到日历组件。"
+
+#: stringify.cpp:286 stringify.cpp:315
+msgctxt "@item"
+msgid "Expected iCalendar, got vCalendar format"
+msgstr "预期 iCalendar 格式，但得到的是 vCalendar 格式"
+
+#: stringify.cpp:289
+msgctxt "@item"
+msgid "iCalendar Version 2.0 detected."
+msgstr "检测到了 iCalendar 版本 2.0。"
+
+#: stringify.cpp:292 stringify.cpp:318
+msgctxt "@item"
+msgid "Expected iCalendar, got unknown format"
+msgstr "预期 iCalendar 格式，但得到的是未知格式"
+
+#: stringify.cpp:295
+msgctxt "@item"
+msgid "Restriction violation"
+msgstr "违反约束"
+
+#: stringify.cpp:298
+msgctxt "@item"
+msgid "No writable resource found"
+msgstr "未找到可写资源"
+
+#: stringify.cpp:302
+#, kde-format
+msgctxt "@item"
+msgid "Error saving to '%1'."
+msgstr "保存到“%1”出错。"
+
+#: stringify.cpp:306
+#, kde-format
+msgctxt "@item"
+msgid "Could not save '%1'"
+msgstr "无法保存“%1”"
+
+#: stringify.cpp:309
+msgctxt "@item"
+msgid "libical error"
+msgstr "libical 错误"
+
+#: stringify.cpp:312
+msgctxt "@item"
+msgid "No VERSION property found"
+msgstr "找不到版本属性"
+
+#: stringify.cpp:321
+msgctxt "@item"
+msgid "object is not a freebusy, event, todo or journal"
+msgstr "对象不是忙碌/空闲，事件，待办事项或日记"
+
+#: stringify.cpp:324
+msgctxt "@item"
+msgid "messageText is empty, unable to parse into a ScheduleMessage"
+msgstr "messageText 为空，无法解析成 ScheduleMessage"
+
+#: stringify.cpp:327
+msgctxt "@item"
+msgid "icalparser is unable to parse messageText into a ScheduleMessage"
+msgstr "icalparser 无法将 messageText 解析为 ScheduleMessage"
+
+#: stringify.cpp:330
+msgctxt "@item"
+msgid "message does not contain ICAL_METHOD_PROPERTY"
+msgstr "消息不包含 ICAL_METHOD_PROPERTY"
+
+#: stringify.cpp:346
+msgctxt "@item this is a new scheduling message"
+msgid "New Scheduling Message"
+msgstr "新建计划信件"
+
+#: stringify.cpp:349
+msgctxt "@item this is an update to an existing scheduling message"
+msgid "Updated Scheduling Message"
+msgstr "更新计划信件"
+
+#: stringify.cpp:351
+msgctxt "@item obsolete status"
+msgid "Obsolete"
+msgstr "遗弃"
+
+#: stringify.cpp:354
+msgctxt "@item this is a request for a new scheduling message"
+msgid "New Scheduling Message Request"
+msgstr "新建计划信件请求"
+
+#: stringify.cpp:357
+msgctxt ""
+"@item this is a request for an update to an existing scheduling message"
+msgid "Updated Scheduling Message Request"
+msgstr "更新计划信件请求"
+
+#: stringify.cpp:359
+#, kde-format
+msgctxt "@item unknown status"
+msgid "Unknown Status: %1"
+msgstr "未知状态：%1"
+
+#, fuzzy
+#~| msgid "[Check my calendar] "
+#~ msgid "Check my calendar] "
+#~ msgstr "[检查我的日历]"
+
+#~ msgid "[Accept]"
+#~ msgstr "[接受]"
+
+#~ msgid "[Decline]"
+#~ msgstr "[拒绝]"
+
+#~ msgctxt "@item new message posting"
+#~ msgid "New Message Published"
+#~ msgstr "新信件已发布"
+
+#~ msgctxt "@item request new message posting"
+#~ msgid "Request New Message"
+#~ msgstr "请求新信件"
+
+#~ msgid "WhatsThis text for FullName setting"
+#~ msgstr "全名设置的“这是什么”文字"
+
+#~ msgid "WhatsThis text for Email setting"
+#~ msgstr "电子邮件设置的“这是什么”文字"

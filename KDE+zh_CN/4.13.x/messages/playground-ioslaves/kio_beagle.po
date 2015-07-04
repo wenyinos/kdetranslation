@@ -1,0 +1,39 @@
+# translation of kio_beagle.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_beagle\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-08-02 07:21+0200\n"
+"PO-Revision-Date: 2009-02-13 10:33+0000\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: beaglesearch.cpp:74
+msgid "Beagle search service is not running."
+msgstr "Beagle 搜索服务未运行。"
+
+#: beaglesearch.cpp:106
+msgid "Error in querying beagle search service."
+msgstr "查询 beagle 搜索服务出错。"
+
+#: kio_beagle.cpp:479
+#, kde-format
+msgid "Searching via libbeagle for %1 ..."
+msgstr "正在通过 libbeagle 搜索 %1..."
+
+#: kio_beagle.cpp:562
+#, fuzzy, kde-format
+#| msgid "Found %1 search results"
+msgid "Found 1 search result"
+msgid_plural "Found %1 search results"
+msgstr[0] "找到 %1 搜索结果"

@@ -1,0 +1,389 @@
+# translation of kcm_desktopthemedetails.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008.
+# Lie Ex <lilith.ex@gmail.com>, 2009-2010.
+# Feng Chao <rainofchaos@gmail.com>, 2011, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_desktopthemedetails\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-05 01:41+0000\n"
+"PO-Revision-Date: 2014-02-22 20:49+0800\n"
+"Last-Translator: Feng Chao <chaofeng111@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: DesktopTheme.ui:21
+msgid "Theme"
+msgstr "主题"
+
+#. i18n: ectx: property (text), widget (KPushButton, m_newThemeButton)
+#: DesktopTheme.ui:46
+msgid "Get New Themes..."
+msgstr "获取新主题..."
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: DesktopTheme.ui:54
+msgid "Details"
+msgstr "细节"
+
+#: desktopthemedetails.cpp:44
+msgctxt "plasma name"
+msgid "Color Scheme"
+msgstr "配色"
+
+#: desktopthemedetails.cpp:45
+msgctxt "plasma name"
+msgid "Panel Background"
+msgstr "面板背景"
+
+#: desktopthemedetails.cpp:46
+msgctxt "plasma name"
+msgid "Kickoff"
+msgstr "Kickoff 菜单"
+
+#: desktopthemedetails.cpp:47
+msgctxt "plasma name"
+msgid "Task Items"
+msgstr "任务栏项目"
+
+#: desktopthemedetails.cpp:48
+msgctxt "plasma name"
+msgid "Widget Background"
+msgstr "部件部件"
+
+#: desktopthemedetails.cpp:49
+msgctxt "plasma name"
+msgid "Translucent Background"
+msgstr "半透明背景"
+
+#: desktopthemedetails.cpp:50
+msgctxt "plasma name"
+msgid "Dialog Background"
+msgstr "对话框背景"
+
+#: desktopthemedetails.cpp:51
+msgctxt "plasma name"
+msgid "Analog Clock"
+msgstr "模拟时钟"
+
+#: desktopthemedetails.cpp:52
+msgctxt "plasma name"
+msgid "Notes"
+msgstr "便笺"
+
+#: desktopthemedetails.cpp:53
+msgctxt "plasma name"
+msgid "Tooltip"
+msgstr "工具条提示"
+
+#: desktopthemedetails.cpp:54
+msgctxt "plasma name"
+msgid "Pager"
+msgstr "分页器"
+
+#: desktopthemedetails.cpp:55
+msgctxt "plasma name"
+msgid "Run Command Dialog"
+msgstr "运行命令对话框"
+
+#: desktopthemedetails.cpp:56
+msgctxt "plasma name"
+msgid "Shutdown Dialog"
+msgstr "关机对话框"
+
+#: desktopthemedetails.cpp:57
+msgctxt "plasma name"
+msgid "Icons"
+msgstr "图标"
+
+#: desktopthemedetails.cpp:215
+msgid "(Customized)"
+msgstr "(自定义)"
+
+#: desktopthemedetails.cpp:216
+msgid "User customized theme"
+msgstr "用户自定义主题"
+
+#: desktopthemedetails.cpp:248
+#, kde-format
+msgid ""
+"Theme items have been changed.  Do you still wish remove the \"%1\" theme?"
+msgstr "主题项目已更改。您仍然想要删除“%1”主题吗？"
+
+#: desktopthemedetails.cpp:248 desktopthemedetails.cpp:253
+#: desktopthemedetails.cpp:256
+msgid "Remove Desktop Theme"
+msgstr "删除桌面主题"
+
+#: desktopthemedetails.cpp:253
+msgid "Removal of the default desktop theme is not allowed."
+msgstr "不允许删除默认桌面主题。"
+
+#: desktopthemedetails.cpp:256
+#, kde-format
+msgid "Are you sure you wish remove the \"%1\" theme?"
+msgstr "您确定您想要删除“%1”主题吗？"
+
+#: desktopthemedetails.cpp:284
+msgid ""
+"Please apply theme item changes (with a new theme name) before attempting to "
+"export theme."
+msgstr "请在尝试导出主题前，先以新的主题名应用里面的更改。"
+
+#: desktopthemedetails.cpp:284
+msgid "Export Desktop Theme"
+msgstr "导出桌面主题"
+
+#: desktopthemedetails.cpp:291
+msgid "Export theme to file"
+msgstr "导出主题到文件"
+
+#: desktopthemedetails.cpp:291
+msgid "Archive (*.zip)"
+msgstr "压缩包(*.zip)"
+
+#: desktopthemedetails.cpp:386
+msgid "Theme Item"
+msgstr "主题项目"
+
+#: desktopthemedetails.cpp:386
+msgid "Source"
+msgstr "来源"
+
+#: desktopthemedetails.cpp:417
+#, kde-format
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: desktopthemedetails.cpp:420 desktopthemedetails.cpp:446
+msgid "File..."
+msgstr "文件..."
+
+#: desktopthemedetails.cpp:449
+#, kde-format
+msgid "Select File to Use for %1"
+msgstr "选择用于 %1 的文件"
+
+#: desktopthemedetails.cpp:492
+#, kde-format
+msgid " Author: %1"
+msgstr " 作者：%1"
+
+#: desktopthemedetails.cpp:498
+#, kde-format
+msgid "Version: %1"
+msgstr "版本：%1"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DesktopThemeItems)
+#: DesktopThemeDetails.ui:26
+msgid "Desktop Theme Details"
+msgstr "桌面主题详情"
+
+#. i18n: ectx: property (toolTip), widget (QTableWidget, m_themeItemList)
+#: DesktopThemeDetails.ui:41
+msgid "Choose an item and customize it by assigning it a theme"
+msgstr "选择一个项目并指派为主题以供调整"
+
+#. i18n: ectx: property (whatsThis), widget (QTableWidget, m_themeItemList)
+#: DesktopThemeDetails.ui:44
+msgid ""
+"You can set any theme to any item. The available themes for the item are in "
+"the dropdown box on the right."
+msgstr "您可以将任意项目指派为主题。右侧的下拉框中提供了此项目的可用主题。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_enableAdvanced)
+#: DesktopThemeDetails.ui:72
+msgid "Enable more options"
+msgstr "启用更多选项"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_enableAdvanced)
+#: DesktopThemeDetails.ui:75
+msgid ""
+"This will expand the dialog and give you options to export your custom theme "
+"as well as to remove a theme."
+msgstr "这将展开对话框并提供更多选项，以便您导出或删除自定义主题。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_enableAdvanced)
+#: DesktopThemeDetails.ui:78
+msgid "More"
+msgstr "更多"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_removeThemeButton)
+#: DesktopThemeDetails.ui:90
+msgid "Remove the selected theme"
+msgstr "删除所选主题"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_removeThemeButton)
+#: DesktopThemeDetails.ui:93
+msgid ""
+"Clicking this button will remove the selected theme. You will be asked for "
+"confirmation."
+msgstr "单击此按钮将会删除所选的主题，在此之前仍会请求您的操作确认。"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_removeThemeButton)
+#: DesktopThemeDetails.ui:96
+msgid "Remove Theme"
+msgstr "删除主题"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, m_exportThemeButton)
+#: DesktopThemeDetails.ui:106
+msgid "Save your theme in a zip archive"
+msgstr "保存您的主题到 zip 归档中"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, m_exportThemeButton)
+#: DesktopThemeDetails.ui:109
+msgid ""
+"You can save your theme in a zip archive in order to share it with the "
+"community."
+msgstr "您可以将自己的主题保存为 zip 归档，以便和社区分享。"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_exportThemeButton)
+#: DesktopThemeDetails.ui:112
+msgid "Export Theme to File..."
+msgstr "导出主题到文件..."
+
+#. i18n: ectx: property (text), widget (QLabel, m_newThemeNameLabel)
+#: DesktopThemeDetails.ui:136
+msgid "New theme name:"
+msgstr "新主题名称："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, m_newThemeName)
+#: DesktopThemeDetails.ui:149
+msgid "Custom theme name"
+msgstr "自定义主题名称"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, m_newThemeName)
+#: DesktopThemeDetails.ui:152
+msgid "Give a name to your custom theme."
+msgstr "提供您自定义主题的名称。"
+
+#. i18n: ectx: property (text), widget (QLabel, m_newThemeAuthorLabel)
+#: DesktopThemeDetails.ui:159
+msgid "Author:"
+msgstr "作者："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, m_newThemeAuthor)
+#: DesktopThemeDetails.ui:172
+msgid "Custom theme author "
+msgstr "自定义主题作者"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, m_newThemeAuthor)
+#: DesktopThemeDetails.ui:175
+msgid "Enter the author name of your custom theme."
+msgstr "输入自定义主题的作者名。"
+
+#. i18n: ectx: property (text), widget (QLabel, m_newThemeVersionLabel)
+#: DesktopThemeDetails.ui:182
+msgid "Version:"
+msgstr "版本："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, m_newThemeVersion)
+#: DesktopThemeDetails.ui:195
+msgid "Custom theme version number"
+msgstr "自定义主题版本号"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, m_newThemeVersion)
+#: DesktopThemeDetails.ui:198
+msgid "Enter the version number of your custom theme."
+msgstr "输入自定义主题的版本号。"
+
+#. i18n: ectx: property (text), widget (QLabel, m_newThemeDescriptionLabel)
+#: DesktopThemeDetails.ui:209
+msgid "Description:"
+msgstr "描述："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, m_newThemeDescription)
+#: DesktopThemeDetails.ui:228
+msgid "Custom theme description"
+msgstr "自定义主题描述"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, m_newThemeDescription)
+#: DesktopThemeDetails.ui:231
+msgid "Enter a description which will explain your custom theme."
+msgstr "输入自定义主题的描述。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: DesktopThemeDetails.ui:250
+msgid "Select theme from above to customize"
+msgstr "从上面选择要定义的主题"
+
+#. i18n: ectx: property (text), widget (QLabel, m_themeInfoAuthor)
+#: DesktopThemeDetails.ui:268
+msgid "Theme Author"
+msgstr "主题作者"
+
+#. i18n: ectx: property (text), widget (QLabel, m_themeInfoName)
+#: DesktopThemeDetails.ui:284
+msgid "Theme Name"
+msgstr "主题名称"
+
+#. i18n: ectx: property (text), widget (QLabel, m_themeInfoVersion)
+#: DesktopThemeDetails.ui:294
+msgid "Theme Version"
+msgstr "主题版本"
+
+#. i18n: ectx: property (text), widget (QLabel, m_themeInfoDescription)
+#: DesktopThemeDetails.ui:306
+msgid "The theme description goes here..."
+msgstr "主题描述在此..."
+
+#. i18n: ectx: property (toolTip), widget (QListView, m_theme)
+#: DesktopThemeDetails.ui:368
+msgid "Available themes"
+msgstr "可用主题"
+
+#. i18n: ectx: property (whatsThis), widget (QListView, m_theme)
+#: DesktopThemeDetails.ui:371
+msgid ""
+"Choose a start theme in this list then customize some items below. All less "
+"important items not listed below will use this start theme."
+msgstr ""
+"在列表中选择一个新手主题，并在下面自定义其中的细项。在此主题中一些较不重要的"
+"项目是不会列出的。"
+
+#: kcmdesktoptheme.cpp:53
+msgid ""
+"<h1>Desktop Theme</h1>This module allows you to modify the visual appearance "
+"of the desktop."
+msgstr "<h1>桌面主题</h1>此模块允许您修改桌面外观。"
+
+#: kcmdesktoptheme.cpp:68
+msgid "KCMDesktopTheme"
+msgstr "KCM 桌面主题"
+
+#: kcmdesktoptheme.cpp:69
+msgid "KDE Desktop Theme Module"
+msgstr "KDE 桌面主题模块"
+
+#: kcmdesktoptheme.cpp:71
+msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+msgstr "(c) 2002 Karol Szwed、Daniel Molkentin"
+
+#: kcmdesktoptheme.cpp:73
+msgid "Karol Szwed"
+msgstr "Karol Szwed"
+
+#: kcmdesktoptheme.cpp:74
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: kcmdesktoptheme.cpp:75
+msgid "Ralf Nolden"
+msgstr "Ralf Nolden"

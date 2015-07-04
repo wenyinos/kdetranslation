@@ -1,0 +1,2980 @@
+# translation of kftpgrabber.po to 简体中文
+# Copyright (C) 2007, 2008 Free Software Foundation, Inc.
+#
+# Hu Wei <contact@chaostone.com>, 2007.
+# Hu Wei <contact@huwei.name>, 2008.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kftpgrabber\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-01-05 02:28+0100\n"
+"PO-Revision-Date: 2008-08-28 11:49+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: engine/connectionretry.cpp:66
+#, kde-format
+msgid "Waiting 1 second before reconnect..."
+msgid_plural "Waiting %1 seconds before reconnect..."
+msgstr[0] ""
+
+#: engine/connectionretry.cpp:67 widgets/queueview/model.cpp:125
+msgid "Waiting..."
+msgstr ""
+
+#: engine/connectionretry.cpp:77
+#, kde-format
+msgid "Retrying connection (%1/%2)..."
+msgstr ""
+
+#: engine/connectionretry.cpp:79
+#, fuzzy
+#| msgid "Recent connections"
+msgid "Retrying connection..."
+msgstr "最近的连接"
+
+#: engine/connectionretry.cpp:94
+msgid "Retry aborted."
+msgstr ""
+
+#: engine/connectionretry.cpp:95 engine/socket.cpp:283
+#: widgets/browser/view.cpp:191
+msgid "Idle."
+msgstr ""
+
+#: engine/ftpsocket.cpp:258
+#, fuzzy
+#| msgid "Co&nnection"
+msgid "Connection has failed."
+msgstr "连接(&N)"
+
+#: engine/ftpsocket.cpp:261
+#, fuzzy, kde-format
+#| msgid "Server name:"
+msgid "Server said: %1"
+msgstr "服务器名："
+
+#: engine/ftpsocket.cpp:271
+msgid "SSL negotiation request failed. Login aborted."
+msgstr ""
+
+#: engine/ftpsocket.cpp:312 engine/ftpsocket.cpp:332
+msgid "Login has failed."
+msgstr ""
+
+#: engine/ftpsocket.cpp:315 engine/ftpsocket.cpp:335 engine/sftpsocket.cpp:227
+msgid "The specified login credentials were rejected by the server."
+msgstr ""
+
+#: engine/ftpsocket.cpp:391 engine/sftpsocket.cpp:267
+#, fuzzy
+#| msgid "Co&nnection"
+msgid "Connected."
+msgstr "连接(&N)"
+
+#: engine/ftpsocket.cpp:432 engine/sftpsocket.cpp:298
+#: widgets/queueview/model.cpp:123
+#, fuzzy
+#| msgid "Co&nnection"
+msgid "Connecting..."
+msgstr "连接(&N)"
+
+#: engine/ftpsocket.cpp:433 engine/sftpsocket.cpp:299
+#, kde-format
+msgid "Connecting to %1:%2..."
+msgstr ""
+
+#: engine/ftpsocket.cpp:458 engine/sftpsocket.cpp:311
+msgid "Logging in..."
+msgstr ""
+
+#: engine/ftpsocket.cpp:459
+msgid "Connected with server, waiting for welcome message..."
+msgstr ""
+
+#: engine/ftpsocket.cpp:468 engine/sftpsocket.cpp:318
+#, kde-format
+msgid "Failed to connect (%1.)"
+msgstr ""
+
+#: engine/ftpsocket.cpp:478
+#, kde-format
+msgid ""
+"SSL negotiation successful. Connection is secured with %1 bit cipher %2."
+msgstr ""
+
+#: engine/ftpsocket.cpp:505
+msgid "SSL negotiation failed. Connection aborted."
+msgstr ""
+
+#: engine/ftpsocket.cpp:538 engine/sftpsocket.cpp:360
+msgid "Aborted."
+msgstr ""
+
+#: engine/ftpsocket.cpp:838
+msgid "Incompatible address family for PORT, but EPRT not supported, aborting."
+msgstr ""
+
+#: engine/ftpsocket.cpp:880
+#, kde-format
+msgid "Establishing data connection with %1:%2..."
+msgstr ""
+
+#: engine/ftpsocket.cpp:914 engine/ftpsocket.cpp:920
+msgid "Unable to establish a listening socket."
+msgstr ""
+
+#: engine/ftpsocket.cpp:953
+#, kde-format
+msgid "Waiting for data connection on port %1..."
+msgstr ""
+
+#: engine/ftpsocket.cpp:967 engine/ftpsocket.cpp:1042
+msgid "Data connection established."
+msgstr ""
+
+#: engine/ftpsocket.cpp:1017
+#, kde-format
+msgid "Data channel secured with %1 bit SSL."
+msgstr ""
+
+#: engine/ftpsocket.cpp:1028
+#, kde-format
+msgid "Failed to establish a data connection (%1.)"
+msgstr ""
+
+#: engine/ftpsocket.cpp:1035 engine/ftpsocket.cpp:2471
+#: engine/ftpsocket.cpp:2481 engine/ftpsocket.cpp:2638
+#: engine/ftpsocket.cpp:2648
+#, fuzzy
+#| msgid "Transfer type:"
+msgid "Transfer completed."
+msgstr "传输方式："
+
+#: engine/ftpsocket.cpp:1050
+#, fuzzy
+#| msgid "Recent connections"
+msgid "Data connection closed."
+msgstr "最近的连接"
+
+#: engine/ftpsocket.cpp:1218 engine/sftpsocket.cpp:386
+#, fuzzy
+#| msgid "Use faster directory listing via STAT"
+msgid "Using cached directory listing."
+msgstr "用 STAT 命令获取更快速的目录列表"
+
+#: engine/ftpsocket.cpp:1307 engine/ftpsocket.cpp:1308
+#: engine/sftpsocket.cpp:478 engine/sftpsocket.cpp:479
+#, fuzzy
+#| msgid "Encrypt only directory listings"
+msgid "Fetching directory listing..."
+msgstr "只加密目录列表"
+
+#: engine/ftpsocket.cpp:1491 engine/ftpsocket.cpp:1835
+#: engine/ftpsocket.cpp:2659 engine/sftpsocket.cpp:537
+#: engine/sftpsocket.cpp:733 engine/sftpsocket.cpp:803
+#: engine/sftpsocket.cpp:1007
+msgid "Transferring..."
+msgstr ""
+
+#: engine/ftpsocket.cpp:1492 engine/sftpsocket.cpp:734
+#, kde-format
+msgid "Downloading file '%1'..."
+msgstr ""
+
+#: engine/ftpsocket.cpp:1836 engine/sftpsocket.cpp:1008
+#, kde-format
+msgid "Uploading file '%1'..."
+msgstr ""
+
+#: engine/ftpsocket.cpp:1920 engine/sftpsocket.cpp:1023
+msgid "Removing..."
+msgstr ""
+
+#: engine/ftpsocket.cpp:1986 engine/sftpsocket.cpp:1050
+msgid "Renaming..."
+msgstr ""
+
+#: engine/ftpsocket.cpp:2038 engine/sftpsocket.cpp:1075
+msgid "Changing mode..."
+msgstr ""
+
+#: engine/ftpsocket.cpp:2082
+#, fuzzy
+#| msgid "Local directory:"
+msgid "Making directory..."
+msgstr "本地目录："
+
+#: engine/ftpsocket.cpp:2333
+msgid ""
+"Neither server supports SSCN/CPSV but SSL data connection requested, "
+"aborting transfer."
+msgstr ""
+
+#: engine/ftpsocket.cpp:2660
+#, kde-format
+msgid "Transferring file '%1'..."
+msgstr ""
+
+#: engine/ftpsocket.cpp:2704
+msgid "Transmitting keep-alive..."
+msgstr ""
+
+#: engine/sftpsocket.cpp:136
+msgid "Unable to establish SSH connection."
+msgstr ""
+
+#: engine/sftpsocket.cpp:137
+msgid "Unknown error."
+msgstr ""
+
+#: engine/sftpsocket.cpp:151
+#, kde-format
+msgid "Unable to establish SSH connection (error code %1.)"
+msgstr ""
+
+#: engine/sftpsocket.cpp:152
+#, kde-format
+msgid "SSH handshake has failed (error code %1.)"
+msgstr ""
+
+#: engine/sftpsocket.cpp:166
+msgid "Peer verification has failed."
+msgstr ""
+
+#: engine/sftpsocket.cpp:167
+msgid "Identity of the peer cannot be established."
+msgstr ""
+
+#: engine/sftpsocket.cpp:204
+#, fuzzy
+#| msgid "Use public-key authentication"
+msgid "Public key authentication has failed."
+msgstr "使用公钥认证"
+
+#: engine/sftpsocket.cpp:205
+msgid ""
+"Unable to decrypt the public key or public key has been rejected by server."
+msgstr ""
+
+#: engine/sftpsocket.cpp:214
+#, fuzzy
+#| msgid "Use public-key authentication"
+msgid "Public key authentication succeeded."
+msgstr "使用公钥认证"
+
+#: engine/sftpsocket.cpp:226
+msgid "Authentication has failed."
+msgstr ""
+
+#: engine/sftpsocket.cpp:234
+msgid "Authentication succeeded."
+msgstr ""
+
+#: engine/sftpsocket.cpp:236 engine/sftpsocket.cpp:237
+msgid "No authentication methods available."
+msgstr ""
+
+#: engine/sftpsocket.cpp:252
+msgid "Unable to initialize SFTP channel."
+msgstr ""
+
+#: engine/sftpsocket.cpp:253
+msgid "SFTP initialization has failed."
+msgstr ""
+
+#: engine/sftpsocket.cpp:312
+msgid "Connected with server, stand by for authentication..."
+msgstr ""
+
+#: engine/sftpsocket.cpp:717 engine/sftpsocket.cpp:985
+msgid "Transfer has failed."
+msgstr ""
+
+#: engine/socket.cpp:133
+#, fuzzy
+#| msgid "Quick Connect"
+msgid "Disconnected."
+msgstr "快速连接"
+
+#: engine/socket.cpp:173
+#, fuzzy
+#| msgid "Co&nnection"
+msgid "Connection timed out."
+msgstr "连接(&N)"
+
+#: engine/socket.cpp:502 engine/socket.cpp:538
+msgid "Scan complete."
+msgstr ""
+
+#: engine/socket.cpp:552
+msgid "Starting recursive directory scan..."
+msgstr ""
+
+#: fileexistsactions.cpp:71
+#, kde-format
+msgid "On File Exists Actions (%1)"
+msgstr ""
+
+#: fileexistsactions.cpp:77
+msgid "Size/Timestamp"
+msgstr ""
+
+#: fileexistsactions.cpp:80 fileexistsactions.cpp:89
+#, fuzzy
+#| msgid "Name"
+msgid "Same"
+msgstr "名称"
+
+#: fileexistsactions.cpp:83
+#, fuzzy
+#| msgid "Other"
+msgid "Older"
+msgstr "其他"
+
+#: fileexistsactions.cpp:86
+#, fuzzy
+#| msgid "New Pattern"
+msgid "Newer"
+msgstr "新模板"
+
+#: fileexistsactions.cpp:92
+msgid "Smaller"
+msgstr ""
+
+#: fileexistsactions.cpp:95
+msgid "Bigger"
+msgstr ""
+
+#: fileexistsactions.cpp:103
+msgid "Skip"
+msgstr ""
+
+#: fileexistsactions.cpp:104
+msgid "Overwrite"
+msgstr ""
+
+#: fileexistsactions.cpp:105
+#, fuzzy
+#| msgid "Remove"
+msgid "Resume"
+msgstr "移除"
+
+#: fileexistsactions.cpp:106 widgets/filtereditor.cpp:171
+#, fuzzy
+#| msgid "Username:"
+msgid "Rename"
+msgstr "用户名："
+
+#: fileexistsactions.cpp:107
+msgid "Ask"
+msgstr ""
+
+#: kftpbookmarks.cpp:110
+msgid "Copy of"
+msgstr ""
+
+#: kftpbookmarks.cpp:397
+msgid "This bookmark file is encrypted. Please enter key for decryption."
+msgstr ""
+
+#: kftpbookmarks.cpp:421
+msgid ""
+"<qt>Bookmark file decryption has failed with provided key. Do you want to "
+"<b>overwrite</b> bookmarks with an empty file?<br><br><font color=\"red"
+"\"><b>Warning:</b> If you overwrite, all current bookmarks will be lost.</"
+"font></qt>"
+msgstr ""
+
+#: kftpbookmarks.cpp:422
+#, fuzzy
+#| msgid "Description"
+msgid "Decryption Failed"
+msgstr "描述"
+
+#: kftpbookmarks.cpp:423
+#, fuzzy
+#| msgid "&Bookmarks"
+msgid "&Overwrite Bookmarks"
+msgstr "书签(&B)"
+
+#: kftpbookmarks.cpp:480
+msgid "Enter key for bookmark file encryption."
+msgstr ""
+
+#: kftpbookmarks.cpp:543
+#, kde-format
+msgid ""
+"Bookmarks have been successfully converted from a previous version format."
+"<br/><br/>In case an unexpected problem has occurred during this conversion "
+"process, a backup version of your old-format bookmarks has been saved to the "
+"following location:<br/><b>%1</b>."
+msgstr ""
+
+#: kftpbookmarks.cpp:546
+msgid ""
+"Please note that since encoding names have changed in KDE4 all charset "
+"settings might be incorrect and you will have to change them to proper "
+"values."
+msgstr ""
+
+#: kftpbookmarks.cpp:549
+#, fuzzy
+#| msgid "Bookmark Import Wizard"
+msgid "Bookmarks Converted"
+msgstr "书签导入向导"
+
+#: kftpbookmarks.cpp:986
+msgid "Please provide your SSL private key decryption password."
+msgstr ""
+
+#: kftpbookmarks.cpp:994
+msgid "Unable to open local private key file."
+msgstr ""
+
+#: kftpbookmarks.cpp:1000
+msgid "Local SSL certificate and/or private key is not valid."
+msgstr ""
+
+#: kftpbookmarks.cpp:1028
+msgid ""
+"SSH public or private key file does not exist - pubkey authentication "
+"disabled."
+msgstr ""
+
+#: kftpbookmarks.cpp:1121
+msgid "<No Services Published>"
+msgstr ""
+
+#: kftpbookmarks.cpp:1154
+msgid "<No Sites In KWallet>"
+msgstr ""
+
+#: kftpbookmarks.cpp:1181
+msgid "Please provide your username and password for connecting to this site."
+msgstr ""
+
+#: kftpbookmarks.cpp:1182
+msgid "Site:"
+msgstr ""
+
+#: kftpbookmarks.cpp:1210 widgets/browser/actions.cpp:334
+msgid "Do you want to drop current connection?"
+msgstr ""
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kftpgrabberui.rc:17
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: kftpqueue.cpp:451 kftpsession.cpp:423 kftptransfer.cpp:347
+#: kftptransferfile.cpp:324
+msgid "Information"
+msgstr ""
+
+#: kftpqueue.cpp:451
+msgid "All queued transfers have been completed."
+msgstr ""
+
+#: kftpqueue.cpp:604
+#, fuzzy
+#| msgid "File list"
+msgid "File Exists"
+msgstr "文件列表"
+
+#: kftpsession.cpp:362
+#, kde-format
+msgid "Log (%1)"
+msgstr ""
+
+#: kftpsession.cpp:393 kftpsession.cpp:863
+msgid "Local Session"
+msgstr ""
+
+#: kftpsession.cpp:394 kftpsession.cpp:677 kftpsession.cpp:864
+#, fuzzy
+#| msgid "Not found"
+msgid "Not Connected"
+msgstr "未找到"
+
+#: kftpsession.cpp:415
+msgid "Unable to establish a connection with the remote server."
+msgstr ""
+
+#: kftpsession.cpp:423
+#, kde-format
+msgid "Connection with %1 has been successfully established."
+msgstr ""
+
+#: kftpsession.cpp:436
+msgid "Please provide your private key decryption password."
+msgstr ""
+
+#: kftpsession.cpp:678
+msgid "Session"
+msgstr ""
+
+#: kftpsession.cpp:963
+msgid "At least one session must remain open on each side."
+msgstr ""
+
+#: kftpsession.cpp:968
+msgid "Please finish all transfers before closing the session."
+msgstr ""
+
+#: kftpsession.cpp:973
+msgid ""
+"This session is currently connected. Are you sure you wish to disconnect?"
+msgstr ""
+
+#: kftpsession.cpp:973
+msgid "Close Session"
+msgstr ""
+
+#: kftptransfer.cpp:343
+msgid "Transfer of the following files is complete:"
+msgstr ""
+
+#: kftptransferfile.cpp:224
+msgid "Connection to the server has failed."
+msgstr ""
+
+#: kftptransferfile.cpp:228
+#, fuzzy
+#| msgid "Co&nnection"
+msgid "Login to the server has failed."
+msgstr "连接(&N)"
+
+#: kftptransferfile.cpp:232
+msgid "Source file cannot be found."
+msgstr ""
+
+#: kftptransferfile.cpp:236
+msgid "Permission was denied."
+msgstr ""
+
+#: kftptransferfile.cpp:240
+msgid "Unable to open local file for read or write operations."
+msgstr ""
+
+#: kftptransferfile.cpp:244
+msgid "Transfer failed for some reason."
+msgstr ""
+
+#: kftptransferfile.cpp:320
+#, kde-format
+msgid ""
+"Transfer of the following files <b>has been aborted</b> because there is not "
+"enough free space left on '%1':"
+msgstr ""
+
+#: main.cpp:51
+msgid "KFTPgrabber - an FTP client for KDE"
+msgstr ""
+
+#: main.cpp:57
+msgid "KFTPgrabber"
+msgstr ""
+
+#: main.cpp:58
+msgid "(C) 2008, The KFTPgrabber developers"
+msgstr ""
+
+#: main.cpp:59
+msgid "Jernej Kos"
+msgstr ""
+
+#: main.cpp:59
+msgid "Lead developer"
+msgstr ""
+
+#: main.cpp:60
+msgid "Markus Brüffer"
+msgstr ""
+
+#: main.cpp:60
+msgid "Developer"
+msgstr ""
+
+#: main.cpp:62
+msgid "Lee Joseph"
+msgstr ""
+
+#: main.cpp:62
+msgid ""
+"Fedora ambassador responsible for promotion, testing and debugging; also a "
+"package maintainer for Fedora-compatible distributions"
+msgstr ""
+
+#: main.cpp:63
+msgid "libssh2 Developers"
+msgstr ""
+
+#: main.cpp:63
+msgid "SSH library"
+msgstr ""
+
+#: main.cpp:64
+msgid "Anthony D. Urso"
+msgstr ""
+
+#: main.cpp:64
+msgid "otpCalc code"
+msgstr ""
+
+#: main.cpp:65
+msgid "Kopete Developers"
+msgstr ""
+
+#: main.cpp:65
+msgid "KopeteBalloon popup code"
+msgstr ""
+
+#: main.cpp:66
+msgid "KSysGuard Developers"
+msgstr ""
+
+#: main.cpp:66
+msgid "Traffic graph widget"
+msgstr ""
+
+#: main.cpp:67
+msgid "Bob Ziuchkovski"
+msgstr ""
+
+#: main.cpp:67
+msgid "Icon design"
+msgstr ""
+
+#: main.cpp:68
+msgid "Tobias Ussing"
+msgstr ""
+
+#: main.cpp:68
+msgid "Testing and debugging"
+msgstr ""
+
+#: main.cpp:69
+msgid "Tim Kosse"
+msgstr ""
+
+#: main.cpp:69
+msgid "Directory parser code"
+msgstr ""
+
+#: main.cpp:70
+msgid "Peter Penz"
+msgstr ""
+
+#: main.cpp:70
+msgid "Listview column handling code"
+msgstr ""
+
+#: main.cpp:75
+msgid "An optional URL to connect to"
+msgstr ""
+
+#: mainwindow.cpp:137
+#, kde-format
+msgid ""
+"<qt>Unable to find %1 XML GUI descriptor file. Please check that you have "
+"installed the application correctly. If you have any questions please ask on "
+"%2.<br><br><b>Warning:</b> Current GUI will be incomplete.</qt>"
+msgstr ""
+
+#: mainwindow.cpp:150
+#, fuzzy
+#| msgid "Co&nnection"
+msgid "&Connect..."
+msgstr "连接(&N)"
+
+#: mainwindow.cpp:154
+msgid "&New Session"
+msgstr ""
+
+#: mainwindow.cpp:158
+msgid "&Left Side"
+msgstr ""
+
+#: mainwindow.cpp:162
+msgid "&Right Side"
+msgstr ""
+
+#: mainwindow.cpp:170 mainwindow.cpp:480
+msgid "&Mode (Auto)"
+msgstr ""
+
+#: mainwindow.cpp:174
+msgid "&ASCII"
+msgstr ""
+
+#: mainwindow.cpp:179
+msgid "&Binary"
+msgstr ""
+
+#: mainwindow.cpp:184
+msgid "A&uto"
+msgstr ""
+
+#: mainwindow.cpp:281
+msgid ""
+"<p>Closing the main window will keep KFTPGrabber running in the system tray. "
+"Use <b>Quit</b> from the <b>KFTPGrabber</b> menu to quit the application.</"
+"p><p><center><img source=\"systray_shot\"></center></p>"
+msgstr ""
+
+#: mainwindow.cpp:284
+msgid "Docking in System Tray"
+msgstr ""
+
+#: mainwindow.cpp:291
+msgid "There is currently a transfer running."
+msgstr ""
+
+#: mainwindow.cpp:293
+msgid ""
+"\n"
+"Are you sure you want to quit?"
+msgstr ""
+
+#: mainwindow.cpp:294
+msgid "Quit"
+msgstr ""
+
+#: mainwindow.cpp:337
+#, fuzzy
+#| msgid "&Bookmarks"
+msgid "&Edit Bookmarks..."
+msgstr "书签(&B)"
+
+#: mainwindow.cpp:345
+msgid "&FTP Sites Near Me"
+msgstr ""
+
+#: mainwindow.cpp:350
+msgid "Sites in K&Wallet"
+msgstr ""
+
+#: mainwindow.cpp:358
+#, fuzzy
+#| msgid "Failed"
+msgid "idle"
+msgstr "已失败"
+
+#: mainwindow.cpp:361 mainwindow.cpp:434
+#, kde-format
+msgctxt "Download traffic rate"
+msgid "Down: %1/s"
+msgstr ""
+
+#: mainwindow.cpp:362 mainwindow.cpp:435
+#, kde-format
+msgctxt "Upload traffic rate"
+msgid "Up: %1/s"
+msgstr ""
+
+#: mainwindow.cpp:403
+msgid "Queue"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox8)
+#: mainwindow.cpp:409 ui/config_transfers.ui:523
+msgid "Failed Transfers"
+msgstr "失败的传输"
+
+#: mainwindow.cpp:416
+msgid "Log"
+msgstr ""
+
+#: mainwindow.cpp:423
+msgid "Traffic"
+msgstr ""
+
+#: mainwindow.cpp:465
+msgid "&Mode (ASCII)"
+msgstr ""
+
+#: mainwindow.cpp:473
+msgid "&Mode (Binary)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, transferType)
+#: misc/configbase.cpp:53 ui/kftpqueueeditorlayout.ui:261
+msgid "Download"
+msgstr "下载"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, transferType)
+#: misc/configbase.cpp:54 ui/kftpqueueeditorlayout.ui:266
+msgid "Upload"
+msgstr "上传"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, transferType)
+#: misc/configbase.cpp:55 ui/kftpqueueeditorlayout.ui:271
+msgid "FXP"
+msgstr "FXP"
+
+#: misc/customcommands/entry.cpp:102
+#, kde-format
+msgid ""
+"<qt>Requested operation has failed - response from server was:<br/><br /><b>"
+"%1</b></qt>"
+msgstr ""
+
+#: misc/customcommands/entry.cpp:109
+#, kde-format
+msgid ""
+"<qt>The handler named <b>%1</b> cannot be found for response parsing.</qt>"
+msgstr ""
+
+#: misc/customcommands/manager.cpp:173
+msgid "Unknown tag while parsing custom site commands."
+msgstr ""
+
+#: misc/filter.cpp:222 widgets/verifier.cpp:60
+#, fuzzy
+#| msgid "Filename pattern:"
+msgid "Filename"
+msgstr "文件名模板："
+
+#: misc/filter.cpp:223
+msgid "Entry Type"
+msgstr ""
+
+#: misc/filter.cpp:224 widgets/failedtransfers/model.cpp:70
+#: widgets/queueview/model.cpp:75
+msgid "Size"
+msgstr ""
+
+#: misc/filter.cpp:227
+msgid "Change priority"
+msgstr ""
+
+#: misc/filter.cpp:228
+#, fuzzy
+#| msgid "Skip &empty directories when queueing"
+msgid "Skip when queuing"
+msgstr "进入队列时略过空目录(&E)"
+
+#: misc/filter.cpp:229
+msgid "Colorize in list view"
+msgstr ""
+
+#: misc/filter.cpp:230
+msgid "Hide from list view"
+msgstr ""
+
+#: misc/filter.cpp:231
+#, fuzzy
+#| msgid "Destination:"
+msgid "Lowercase destination"
+msgstr "目的："
+
+#: misc/filter.cpp:319 widgets/filtereditor.cpp:231
+#: widgets/filtereditor.cpp:285
+msgid "Unnamed Rule"
+msgstr ""
+
+#: misc/filterwidgethandler.cpp:57
+msgid "contains"
+msgstr ""
+
+#: misc/filterwidgethandler.cpp:58
+msgid "does not contain"
+msgstr ""
+
+#: misc/filterwidgethandler.cpp:59 misc/filterwidgethandler.cpp:249
+msgid "equals"
+msgstr ""
+
+#: misc/filterwidgethandler.cpp:60 misc/filterwidgethandler.cpp:250
+msgid "does not equal"
+msgstr ""
+
+#: misc/filterwidgethandler.cpp:61
+msgid "matches regexp"
+msgstr ""
+
+#: misc/filterwidgethandler.cpp:62
+msgid "does not match regexp"
+msgstr ""
+
+#: misc/filterwidgethandler.cpp:150
+msgid "is"
+msgstr ""
+
+#: misc/filterwidgethandler.cpp:151
+msgid "is not"
+msgstr ""
+
+#: misc/filterwidgethandler.cpp:190
+#, fuzzy
+#| msgid "Failed"
+msgid "File"
+msgstr "已失败"
+
+#: misc/filterwidgethandler.cpp:191
+#, fuzzy
+#| msgid "Local directory:"
+msgid "Directory"
+msgstr "本地目录："
+
+#: misc/filterwidgethandler.cpp:251
+msgid "is greater than"
+msgstr ""
+
+#: misc/filterwidgethandler.cpp:252
+msgid "is smaller than"
+msgstr ""
+
+#: misc/filterwidgethandler.cpp:292
+#, fuzzy
+#| msgid "Notes"
+msgid "bytes"
+msgstr "提示"
+
+#: misc/filterwidgethandler.cpp:377
+msgid "Please select an action."
+msgstr ""
+
+#: misc/filterwidgethandler.cpp:392
+#, fuzzy
+#| msgid "Port:"
+msgid "Priority:"
+msgstr "端口："
+
+#. i18n: ectx: label, entry (size), group (MainWindow)
+#: misc/kftpgrabber.kcfg:17
+msgid "The size of the main window."
+msgstr ""
+
+#. i18n: ectx: label, entry (position), group (MainWindow)
+#: misc/kftpgrabber.kcfg:21
+msgid "The position of the main window on the screen."
+msgstr ""
+
+#. i18n: ectx: label, entry (retryCount), group (General)
+#: misc/kftpgrabber.kcfg:29
+msgid "The default retry count for new sites."
+msgstr ""
+
+#. i18n: ectx: label, entry (retryTime), group (General)
+#: misc/kftpgrabber.kcfg:35
+msgid "The default retry delay for new sites."
+msgstr ""
+
+#. i18n: ectx: label, entry (showBalloons), group (General)
+#: misc/kftpgrabber.kcfg:40
+#, fuzzy
+#| msgid "&Show balloon when transfer completes"
+msgid "Should a balloon be displayed when some actions complete."
+msgstr "传输结束后显示气球提示(&S)"
+
+#. i18n: ectx: label, entry (showBalloonWhenQueueEmpty), group (General)
+#: misc/kftpgrabber.kcfg:45
+#, fuzzy
+#| msgid "&Show balloon when transfer completes"
+msgid "Should a balloon be displayed when all queued transfers are completed."
+msgstr "传输结束后显示气球提示(&S)"
+
+#. i18n: ectx: label, entry (showRetrySuccessBalloon), group (General)
+#: misc/kftpgrabber.kcfg:50
+#, fuzzy
+#| msgid "&Show balloon when transfer completes"
+msgid ""
+"Should a balloon be displayed when a connection to the server is "
+"successfully established after retrying."
+msgstr "传输结束后显示气球提示(&S)"
+
+#. i18n: ectx: label, entry (confirmExit), group (General)
+#: misc/kftpgrabber.kcfg:55
+#, fuzzy
+#| msgid "Confirm program e&xit if there are active transfers"
+msgid "Should the user confirm exit if there are transfers running."
+msgstr "如果存在活动传输时确认程序退出(&X)"
+
+#. i18n: ectx: label, entry (encryptBookmarks), group (General)
+#: misc/kftpgrabber.kcfg:60
+#, fuzzy
+#| msgid "Encr&ypt bookmark file"
+msgid "Encryption status of the bookmarks file."
+msgstr "加密书签文件(&Y)"
+
+#. i18n: ectx: label, entry (defLocalDir), group (General)
+#: misc/kftpgrabber.kcfg:65
+#, fuzzy
+#| msgid "Local directory:"
+msgid "Default local directory."
+msgstr "本地目录："
+
+#. i18n: ectx: label, entry (exitOnClose), group (General)
+#: misc/kftpgrabber.kcfg:70
+msgid "Should the application exit when users clicks the X button."
+msgstr ""
+
+#. i18n: ectx: label, entry (startMinimized), group (General)
+#: misc/kftpgrabber.kcfg:75
+#, fuzzy
+#| msgid "Show the s&ystray icon"
+msgid "Should the application be started minimized."
+msgstr "显示系统托盘图标(&Y)"
+
+#. i18n: ectx: label, entry (showSplash), group (General)
+#: misc/kftpgrabber.kcfg:80
+#, fuzzy
+#| msgid "&Show balloon when transfer completes"
+msgid "Should the splash screen be displayed when starting the application."
+msgstr "传输结束后显示气球提示(&S)"
+
+#. i18n: ectx: label, entry (showSystrayIcon), group (General)
+#: misc/kftpgrabber.kcfg:85
+#, fuzzy
+#| msgid "Show the s&ystray icon"
+msgid "Should the systray icon be displayed."
+msgstr "显示系统托盘图标(&Y)"
+
+#. i18n: ectx: label, entry (showWalletSites), group (General)
+#: misc/kftpgrabber.kcfg:90
+#, fuzzy
+#| msgid "&Show sites from KWallet among bookmarks"
+msgid "Should the sites from KWallet be shown among the bookmarks."
+msgstr "显示书签中来自 KWallet 的站点(&S)"
+
+#. i18n: ectx: label, entry (confirmDisconnects), group (General)
+#: misc/kftpgrabber.kcfg:95
+msgid ""
+"Should a \"confirm disconnect\" dialog be displayed each time a disconnect "
+"is requested."
+msgstr ""
+
+#. i18n: ectx: label, entry (defEncoding), group (General)
+#: misc/kftpgrabber.kcfg:100
+msgid "The default site encoding."
+msgstr ""
+
+#. i18n: ectx: label, entry (recentSites), group (General)
+#: misc/kftpgrabber.kcfg:104
+msgid "Recent sites accessed via quick connect."
+msgstr ""
+
+#. i18n: ectx: label, entry (asciiList), group (Filters)
+#: misc/kftpgrabber.kcfg:125
+msgid ""
+"A list of filename patterns for which ASCII mode should be used for transfer."
+msgstr ""
+
+#. i18n: ectx: label, entry (skipEmptyDirs), group (Filters)
+#: misc/kftpgrabber.kcfg:130
+#, fuzzy
+#| msgid "Skip &empty directories when queueing"
+msgid "Should empty directories be skipped."
+msgstr "进入队列时略过空目录(&E)"
+
+#. i18n: ectx: label, entry (logCommandsColor), group (Log)
+#: misc/kftpgrabber.kcfg:137
+msgid "The color of the commands sent to the server."
+msgstr ""
+
+#. i18n: ectx: label, entry (logResponsesColor), group (Log)
+#: misc/kftpgrabber.kcfg:142
+msgid "The color of the responses from the server."
+msgstr ""
+
+#. i18n: ectx: label, entry (logMultilineColor), group (Log)
+#: misc/kftpgrabber.kcfg:147
+msgid "The color of the multiline responses from the server."
+msgstr ""
+
+#. i18n: ectx: label, entry (logErrorColor), group (Log)
+#: misc/kftpgrabber.kcfg:152
+msgid "The color of the error messages."
+msgstr ""
+
+#. i18n: ectx: label, entry (logStatusColor), group (Log)
+#: misc/kftpgrabber.kcfg:157
+msgid "The color of the status messages."
+msgstr ""
+
+#. i18n: ectx: label, entry (saveToFile), group (Log)
+#: misc/kftpgrabber.kcfg:162
+#, fuzzy
+#| msgid "Show &owner and group for each file"
+msgid "Should the log be written to a file as well."
+msgstr "每个文件显示所有者和所属组(&O)"
+
+#. i18n: ectx: label, entry (outputFilename), group (Log)
+#: misc/kftpgrabber.kcfg:166
+msgid "The file to which the log should be written."
+msgstr ""
+
+#. i18n: ectx: label, entry (activeForcePort), group (Transfers)
+#: misc/kftpgrabber.kcfg:173
+#, fuzzy
+#| msgid "Use the primary connection for transfers"
+msgid ""
+"Should a port from a specified port range be selected on active transfers."
+msgstr "使用主用连接传输"
+
+#. i18n: ectx: label, entry (activeMinPort), group (Transfers)
+#: misc/kftpgrabber.kcfg:180
+msgid "The start of the port range."
+msgstr ""
+
+#. i18n: ectx: label, entry (activeMaxPort), group (Transfers)
+#: misc/kftpgrabber.kcfg:187
+msgid "The end of the port range."
+msgstr ""
+
+#. i18n: ectx: label, entry (portForceIp), group (Transfers)
+#: misc/kftpgrabber.kcfg:192
+#, fuzzy
+#| msgid "Use the primary connection for transfers"
+msgid "Should an IP be overriden when doing active transfers."
+msgstr "使用主用连接传输"
+
+#. i18n: ectx: label, entry (portIp), group (Transfers)
+#: misc/kftpgrabber.kcfg:196
+msgid "The IP to be sent when overriding the PORT command."
+msgstr ""
+
+#. i18n: ectx: label, entry (ignoreExternalIpForLan), group (Transfers)
+#: misc/kftpgrabber.kcfg:201
+#, fuzzy
+#| msgid "&Ignore external IP for LAN connections"
+msgid "Should the external IP be ignored for LAN connections."
+msgstr "LAN 连接忽略外部 IP(&I)"
+
+#. i18n: ectx: label, entry (queueOnDND), group (Transfers)
+#: misc/kftpgrabber.kcfg:206
+msgid ""
+"Should the transfers be queued instead of started when using drag and drop."
+msgstr ""
+
+#. i18n: ectx: label, entry (diskCheckSpace), group (Transfers)
+#: misc/kftpgrabber.kcfg:211
+msgid ""
+"Should kftpgrabber check for free space and abort the transfer when there is "
+"not enough free."
+msgstr ""
+
+#. i18n: ectx: label, entry (diskCheckInterval), group (Transfers)
+#: misc/kftpgrabber.kcfg:217
+msgid "Interval for disk checking."
+msgstr ""
+
+#. i18n: ectx: label, entry (diskMinFreeSpace), group (Transfers)
+#: misc/kftpgrabber.kcfg:223
+#, fuzzy
+#| msgid "Minimum free space (MiB):"
+msgid "Minimum free space (in MiB) that must be available."
+msgstr "最小剩余空间(MiB)"
+
+#. i18n: ectx: label, entry (globalMail), group (Transfers)
+#: misc/kftpgrabber.kcfg:228
+msgid "Use global KDE e-mail address for anonymous passwords."
+msgstr ""
+
+#. i18n: ectx: label, entry (anonMail), group (Transfers)
+#: misc/kftpgrabber.kcfg:233
+msgid "The e-mail address that should be used for anonymous passwords."
+msgstr ""
+
+#. i18n: ectx: label, entry (threadCount), group (Transfers)
+#: misc/kftpgrabber.kcfg:240
+#, fuzzy
+#| msgid "Number of threads per session:"
+msgid "Number of threads to use when transferring."
+msgstr "每个会话的最大线程数："
+
+#. i18n: ectx: label, entry (threadUsePrimary), group (Transfers)
+#: misc/kftpgrabber.kcfg:245
+#, fuzzy
+#| msgid "Use the primary connection for transfers"
+msgid "Should the primary connection be used for transfers."
+msgstr "使用主用连接传输"
+
+#. i18n: ectx: label, entry (controlTimeout), group (Transfers)
+#: misc/kftpgrabber.kcfg:251
+msgid "Timeout (in seconds) for the control connection."
+msgstr ""
+
+#. i18n: ectx: label, entry (dataTimeout), group (Transfers)
+#: misc/kftpgrabber.kcfg:258
+msgid "Timeout (in seconds) for data transfers."
+msgstr ""
+
+#. i18n: ectx: label, entry (downloadSpeedLimit), group (Transfers)
+#: misc/kftpgrabber.kcfg:263
+msgid "Global download speed limit (kbytes/s)."
+msgstr ""
+
+#. i18n: ectx: label, entry (uploadSpeedLimit), group (Transfers)
+#: misc/kftpgrabber.kcfg:268
+msgid "Global upload speed limit (kbytes/s)."
+msgstr ""
+
+#. i18n: ectx: label, entry (failedAutoRetry), group (Transfers)
+#: misc/kftpgrabber.kcfg:273
+msgid "Should failed transfers be automatically retried."
+msgstr ""
+
+#. i18n: ectx: label, entry (failedAutoRetryCount), group (Transfers)
+#: misc/kftpgrabber.kcfg:280
+#, fuzzy
+#| msgid "Maximum number of retries before marking as failed:"
+msgid "Maximum number of retries before marking transfer as failed."
+msgstr "标记失败之前的最大重试数："
+
+#. i18n: ectx: label, entry (showTree), group (Display)
+#: misc/kftpgrabber.kcfg:287
+#, fuzzy
+#| msgid "Show &owner and group for each file"
+msgid "Should the directory tree be shown by default."
+msgstr "每个文件显示所有者和所属组(&O)"
+
+#. i18n: ectx: label, entry (showHiddenFiles), group (Display)
+#: misc/kftpgrabber.kcfg:292
+#, fuzzy
+#| msgid "&Show sites from KWallet among bookmarks"
+msgid "Should hidden files be shown when browsing."
+msgstr "显示书签中来自 KWallet 的站点(&S)"
+
+#. i18n: ectx: label, entry (showSizeInBytes), group (Display)
+#: misc/kftpgrabber.kcfg:297
+#, fuzzy
+#| msgid "Show filesi&ze in bytes (toggle for \"human readable\" format)"
+msgid ""
+"Should the filesize be shown in bytes rather than in \"human readable\" form."
+msgstr "用字节数显示文件大小(转换到“适合阅读”的格式)(&Z)"
+
+#. i18n: ectx: label, entry (showOwnerGroup), group (Display)
+#: misc/kftpgrabber.kcfg:302
+#, fuzzy
+#| msgid "Show &owner and group for each file"
+msgid "Should the owner and group be shown for each file."
+msgstr "每个文件显示所有者和所属组(&O)"
+
+#. i18n: ectx: label, entry (showDirectorySize), group (Display)
+#: misc/kftpgrabber.kcfg:307
+#, fuzzy
+#| msgid "Show directory &size"
+msgid "Show directory size."
+msgstr "显示目录大小(&S)"
+
+#. i18n: ectx: label, entry (showLeftSidebar), group (Display)
+#: misc/kftpgrabber.kcfg:312
+#, fuzzy
+#| msgid "Show left sidebar"
+msgid "Show left sidebar."
+msgstr "显示左边栏"
+
+#: misc/plugins/bookmarkimport/filezilla3/kftpimportfz3plugin.cpp:61
+msgid "FileZilla 3 import"
+msgstr ""
+
+#: misc/plugins/bookmarkimport/gftp/kftpimportgftpplugin.cpp:53
+msgid "gFTP import"
+msgstr ""
+
+#: misc/plugins/bookmarkimport/kftp/kftpimportkftpplugin.cpp:62
+msgid "KFTPGrabber import"
+msgstr ""
+
+#: misc/plugins/bookmarkimport/ncftp/kftpimportncftpplugin.cpp:52
+msgid "NcFtp import"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox23)
+#: ui/checksum_verifier.ui:40 widgets/queueview/model.cpp:78
+msgid "Progress"
+msgstr "进度"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: ui/checksum_verifier.ui:57
+msgid "<b>File:</b>"
+msgstr "<b>文件：</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, currentFile)
+#: ui/checksum_verifier.ui:73
+msgid "none"
+msgstr "没有"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox24)
+#: ui/checksum_verifier.ui:88
+msgid "File list"
+msgstr "文件列表"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: ui/checksum_verifier.ui:130
+msgid "Unprocessed"
+msgstr "未处理"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#: ui/checksum_verifier.ui:166
+msgid "OK"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel9)
+#: ui/checksum_verifier.ui:202
+msgid "Not found"
+msgstr "未找到"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel10)
+#: ui/checksum_verifier.ui:238
+msgid "Failed"
+msgstr "已失败"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: ui/config_display.ui:26
+msgid "Displa&y"
+msgstr "显示(&Y)"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox32)
+#: ui/config_display.ui:32
+msgid "File &Browser"
+msgstr "文件浏览器(&B)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showHiddenFiles)
+#: ui/config_display.ui:38
+msgid "Show &hidden files and directories"
+msgstr "显示隐藏文件和目录(&H)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showTree)
+#: ui/config_display.ui:45
+msgid "Show &directory tree"
+msgstr "显示目录树(&D)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showSizeInBytes)
+#: ui/config_display.ui:52
+msgid "Show filesi&ze in bytes (toggle for \"human readable\" format)"
+msgstr "用字节数显示文件大小(转换到“适合阅读”的格式)(&Z)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showOwnerGroup)
+#: ui/config_display.ui:59
+msgid "Show &owner and group for each file"
+msgstr "每个文件显示所有者和所属组(&O)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showDirectorySize)
+#: ui/config_display.ui:66
+msgid "Show directory &size"
+msgstr "显示目录大小(&S)"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox2)
+#: ui/config_display.ui:76
+msgid "&Other Interface Elements"
+msgstr "其他接口元素(&O)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showLeftSidebar)
+#: ui/config_display.ui:82
+msgid "Show left sidebar"
+msgstr "显示左边栏"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: ui/config_filters.ui:32
+msgid "ASCII E&xtensions"
+msgstr "ASCII 扩展(&X)"
+
+#. i18n: ectx: property (text), widget (KPushButton, addExtButton)
+#: ui/config_filters.ui:56
+msgid "Add Extension"
+msgstr "增加后缀"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeExtButton)
+#: ui/config_filters.ui:63 widgets/kftpfiltereditorlayout.cpp:107
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/config_filters.ui:74
+msgid "Extension:"
+msgstr "后缀："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: ui/config_general.ui:38 ui/quickconnect.ui:37
+#: widgets/bookmarks/editor.ui:23 widgets/browser/propsplugin.cpp:61
+msgid "&General"
+msgstr "常规(&G)"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox22)
+#: ui/config_general.ui:44
+msgid "E-mail &Address"
+msgstr "电子邮件地址(&A)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_globalMail)
+#: ui/config_general.ui:50
+msgid "&Use e-mail address from control center"
+msgstr "使用来自控制中心的 e-mail (&U)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#: ui/config_general.ui:59
+msgid "E-mail:"
+msgstr "电子邮件："
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox13)
+#: ui/config_general.ui:77
+msgid "Startup and Exit"
+msgstr "启动与退出"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_confirmExit)
+#: ui/config_general.ui:83
+msgid "Confirm program e&xit if there are active transfers"
+msgstr "如果存在活动传输时确认程序退出(&X)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_startMinimized)
+#: ui/config_general.ui:90
+msgid "Start the program minimi&zed to systray"
+msgstr "启动时最小化到系统托盘(&Z)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showSplash)
+#: ui/config_general.ui:97
+msgid "Show &splash screen on startup"
+msgstr "启动时显示展示画面(&S)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showSystrayIcon)
+#: ui/config_general.ui:104
+msgid "Show the s&ystray icon"
+msgstr "显示系统托盘图标(&Y)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_exitOnClose)
+#: ui/config_general.ui:111
+msgid "Ex&it by default when clicking the X button"
+msgstr "点击 X 按钮时缺省退出(&I)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
+#: ui/config_general.ui:138
+msgid "&Bookmarks"
+msgstr "书签(&B)"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox10)
+#: ui/config_general.ui:150
+msgid "Site Defaults"
+msgstr "站点默认设置"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/config_general.ui:158
+msgid "Local directory:"
+msgstr "本地目录："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: ui/config_general.ui:175
+msgid "Retry delay:"
+msgstr "重试延迟："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: ui/config_general.ui:199
+msgid "Number of retries (0 = infinite):"
+msgstr "重试次数(0 = 无限)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: ui/config_general.ui:223 ui/quickconnect.ui:409
+msgid "Encoding:"
+msgstr "编码："
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox11)
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: ui/config_general.ui:254 widgets/bookmarks/editor.ui:262
+msgid "Options"
+msgstr "选项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_encryptBookmarks)
+#: ui/config_general.ui:260
+msgid "Encr&ypt bookmark file"
+msgstr "加密书签文件(&Y)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showWalletSites)
+#: ui/config_general.ui:267
+msgid "&Show sites from KWallet among bookmarks"
+msgstr "显示书签中来自 KWallet 的站点(&S)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
+#: ui/config_general.ui:294
+msgid "&Notification"
+msgstr "通告(&N)"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox12)
+#: ui/config_general.ui:300
+msgid "Balloons"
+msgstr "气球提示"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showBalloons)
+#: ui/config_general.ui:306
+msgid "&Show balloon when transfer completes"
+msgstr "传输结束后显示气球提示(&S)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showBalloonWhenQueueEmpty)
+#: ui/config_general.ui:313
+msgid "Only show when &queue is empty after transfer"
+msgstr "只有在传输结束后队列空时显示(&Q)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showRetrySuccessBalloon)
+#: ui/config_general.ui:320
+msgid "Show balloon when connection retr&y succeeds"
+msgstr "连接成功时显示气球提示(&Y)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: ui/config_log.ui:38
+msgid "&Appearance"
+msgstr "外观(&A)"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox27)
+#: ui/config_log.ui:44
+msgid "Log Colors"
+msgstr "日志颜色"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel11)
+#: ui/config_log.ui:52
+msgid "Client command color:"
+msgstr "客户端命令颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel12)
+#: ui/config_log.ui:79
+msgid "Server response color:"
+msgstr "服务器相应颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel13)
+#: ui/config_log.ui:106
+msgid "Multiline response color:"
+msgstr "多行响应颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel14)
+#: ui/config_log.ui:133
+msgid "Error message color:"
+msgstr "错误消息颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel15)
+#: ui/config_log.ui:160
+msgid "Status message color:"
+msgstr "状态消息颜色："
+
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
+#: ui/config_log.ui:205
+msgid "&Output"
+msgstr "输出(&O)"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox28)
+#: ui/config_log.ui:211
+msgid "&File Output"
+msgstr "文件输出(&F)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_saveToFile)
+#: ui/config_log.ui:217
+msgid "&Save log to file"
+msgstr "将日志保存到文件(&S)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel16)
+#: ui/config_log.ui:229
+msgid "Output file:"
+msgstr "输出文件："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: ui/config_transfers.ui:38
+msgid "Co&nnection"
+msgstr "连接(&N)"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox19)
+#: ui/config_transfers.ui:44
+msgid "Active Connection IP"
+msgstr "激活的连接 IP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_portForceIp)
+#: ui/config_transfers.ui:50
+msgid "Force PORT/EPRT to &use configured IP"
+msgstr "强制 PORT/EPRT 使用配置的 IP(&U)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: ui/config_transfers.ui:62
+msgid "IP/hostname:"
+msgstr "IP / 主机名："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ignoreExternalIpForLan)
+#: ui/config_transfers.ui:87
+msgid "&Ignore external IP for LAN connections"
+msgstr "LAN 连接忽略外部 IP(&I)"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox5)
+#: ui/config_transfers.ui:97
+msgid "Active Connection Port Range"
+msgstr "激活的连接端口范围"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_activeForcePort)
+#: ui/config_transfers.ui:103
+msgid "Onl&y use ports from the specified port range"
+msgstr "只使用指定端口范围的端口(&Y)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/config_transfers.ui:115
+msgid "Minimum port:"
+msgstr "最小端口："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: ui/config_transfers.ui:151
+msgid "Maximum port:"
+msgstr "最大端口："
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox6)
+#: ui/config_transfers.ui:185
+msgid "Timeouts"
+msgstr "超时"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: ui/config_transfers.ui:193
+msgid "Control connection timeout (in seconds):"
+msgstr "控制连接超时(秒)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: ui/config_transfers.ui:226
+msgid "Data transfer timeout (in seconds):"
+msgstr "数据传输超时(秒)："
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox7)
+#: ui/config_transfers.ui:260
+msgid "Speed limit"
+msgstr "速率限制"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: ui/config_transfers.ui:268
+msgid "Download (KB/s):"
+msgstr "下载(KB/秒)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
+#: ui/config_transfers.ui:301
+msgid "Upload (KB/s):"
+msgstr "上传(KB/秒)："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: ui/config_transfers.ui:352
+msgid "Dis&k Space"
+msgstr "磁盘空间(&K)"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox20)
+#: ui/config_transfers.ui:358
+msgid "Free Disk Space Check"
+msgstr "剩余磁盘空间检查"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_diskCheckSpace)
+#: ui/config_transfers.ui:364
+msgid "Stop transfer if there is &not enough free space"
+msgstr "没有足够剩余空间时停止传输(&N)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: ui/config_transfers.ui:376
+msgid "Interval (sec):"
+msgstr "间隔(秒)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: ui/config_transfers.ui:406
+msgid "Minimum free space (MiB):"
+msgstr "最小剩余空间(MiB)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
+#: ui/config_transfers.ui:454
+msgid "Thre&ads"
+msgstr "线程(&A)"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox23)
+#: ui/config_transfers.ui:460
+msgid "Threads"
+msgstr "线程"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel9)
+#: ui/config_transfers.ui:468
+msgid "Number of threads per session:"
+msgstr "每个会话的最大线程数："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_threadUsePrimary)
+#: ui/config_transfers.ui:490
+msgid "Use the primary connection for transfers"
+msgstr "使用主用连接传输"
+
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
+#: ui/config_transfers.ui:517
+msgid "&Miscellaneous"
+msgstr "杂项(&M)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_failedAutoRetry)
+#: ui/config_transfers.ui:529
+msgid "Automatically retry failed transfers"
+msgstr "自动重试失败的传输"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#: ui/config_transfers.ui:541
+msgid "Maximum number of retries before marking as failed:"
+msgstr "标记失败之前的最大重试数："
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox24)
+#: ui/config_transfers.ui:569
+msgid "Other"
+msgstr "其他"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_queueOnDND)
+#: ui/config_transfers.ui:575
+msgid "&Queue files (instead of transferring) when \"dragged && dropped\""
+msgstr "当“拖放”操作时将文件放入队列而不是立即传输(&Q)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_skipEmptyDirs)
+#: ui/config_transfers.ui:582
+msgid "Skip &empty directories when queueing"
+msgstr "进入队列时略过空目录(&E)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_confirmDisconnects)
+#: ui/config_transfers.ui:589
+msgid "Confirm disconnects &before disconnecting"
+msgstr "断开连接前确认操作(&B)"
+
+#. i18n: ectx: property (caption), widget (Q3Wizard, KFTPBookmarkImportLayout)
+#: ui/kftpbookmarkimportlayout.ui:16
+msgid "Bookmark Import Wizard"
+msgstr "书签导入向导"
+
+#. i18n: ectx: attribute (title), widget (QWidget, Step1)
+#: ui/kftpbookmarkimportlayout.ui:20
+msgid "Step 1: <b>Select Import Plugin</b>"
+msgstr "第一步：<b>选择导入插件</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, m_wizardPixmap)
+#. i18n: ectx: property (text), widget (QLabel, m_wizardPixmap_2)
+#. i18n: ectx: property (text), widget (QLabel, m_wizardPixmap_3)
+#: ui/kftpbookmarkimportlayout.ui:32 ui/kftpbookmarkimportlayout.ui:124
+#: ui/kftpbookmarkimportlayout.ui:193
+msgid "Image"
+msgstr "图像"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/kftpbookmarkimportlayout.ui:44
+msgid ""
+"Please select the appropriate import plugin from the list below. Each plugin "
+"can import from one different format."
+msgstr "请从下面的列表里选择合适的导入插件。每个插件可以导入一种不同的格式。"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: ui/kftpbookmarkimportlayout.ui:73
+msgid "Available import plugins:"
+msgstr "可用导入插件"
+
+#. i18n: ectx: property (text), widget (KListView, m_pluginList)
+#: ui/kftpbookmarkimportlayout.ui:84 widgets/bookmarks/treeview.cpp:122
+#: widgets/bookmarks/treeview.cpp:140 widgets/failedtransfers/model.cpp:68
+#: widgets/queueview/model.cpp:74 widgets/queueview/threadview.cpp:150
+msgid "Name"
+msgstr "名称"
+
+#. i18n: ectx: property (text), widget (KListView, m_pluginList)
+#: ui/kftpbookmarkimportlayout.ui:95
+msgid "Description"
+msgstr "描述"
+
+#. i18n: ectx: attribute (title), widget (QWidget, Step2)
+#: ui/kftpbookmarkimportlayout.ui:112
+msgid "Step 2: <b>Select Bookmark File to Import</b>"
+msgstr "第二步：<b>选择书签文件导入</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: ui/kftpbookmarkimportlayout.ui:136
+msgid ""
+"Please select the bookmark file from which you would like to import your "
+"bookmarks. A default path has already been determined by the import plugin."
+msgstr "请选择您想要导入的书签文件。导入插件已经确定了一个缺省路径。"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: ui/kftpbookmarkimportlayout.ui:149
+msgid "<b>Bookmark path:</b>"
+msgstr "<b>书签路径：</b>"
+
+#. i18n: ectx: attribute (title), widget (QWidget, Step3)
+#: ui/kftpbookmarkimportlayout.ui:181
+msgid "Step 3: <b>Importing Bookmarks...</b>"
+msgstr "第三步：<b>导入书签...</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: ui/kftpbookmarkimportlayout.ui:205
+msgid "Please wait while the bookmarks are being imported."
+msgstr "书签正在导入时请等待。"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: ui/kftpbookmarkimportlayout.ui:215
+msgid "<b>Import progress:</b>"
+msgstr "<b>导入进度：</b>"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox1)
+#: ui/kftpfilteraddpatternlayout.ui:36
+#: widgets/kftpfilteraddpatternlayout.cpp:91
+msgid "New Pattern"
+msgstr "新模板"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/kftpfilteraddpatternlayout.ui:46
+#: widgets/kftpfilteraddpatternlayout.cpp:92
+msgid "Filename pattern:"
+msgstr "文件名模板："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: ui/kftpfilteraddpatternlayout.ui:56
+#: widgets/kftpfilteraddpatternlayout.cpp:93
+msgid "Color:"
+msgstr "颜色："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: ui/kftpqueueeditorlayout.ui:29
+msgid "Source Server Info"
+msgstr "源服务器信息"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox1)
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox1_2)
+#: ui/kftpqueueeditorlayout.ui:35 ui/kftpqueueeditorlayout.ui:126
+#: ui/kftpsearchlayout.ui:77
+msgid "Server Info"
+msgstr "服务器信息"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#: ui/kftpqueueeditorlayout.ui:41 ui/kftpqueueeditorlayout.ui:132
+#: ui/kftpsearchlayout.ui:83
+msgid "Server name:"
+msgstr "服务器名："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#. i18n: ectx: property (text), widget (QLabel, textLabel5_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: ui/kftpqueueeditorlayout.ui:51 ui/kftpqueueeditorlayout.ui:142
+#: ui/kftpsearchlayout.ui:93 ui/quickconnect.ui:171
+msgid "Host:"
+msgstr "主机："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#. i18n: ectx: property (text), widget (QLabel, textLabel7_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: ui/kftpqueueeditorlayout.ui:61 ui/kftpqueueeditorlayout.ui:152
+#: ui/kftpsearchlayout.ui:103 ui/quickconnect.ui:338
+msgid "Password:"
+msgstr "密码："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#. i18n: ectx: property (text), widget (QLabel, textLabel6_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: ui/kftpqueueeditorlayout.ui:71 ui/kftpqueueeditorlayout.ui:162
+#: ui/kftpsearchlayout.ui:113 ui/quickconnect.ui:303
+msgid "Username:"
+msgstr "用户名："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#. i18n: ectx: property (text), widget (QLabel, textLabel8_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: ui/kftpqueueeditorlayout.ui:93 ui/kftpqueueeditorlayout.ui:184
+#: ui/kftpsearchlayout.ui:135 ui/quickconnect.ui:188
+msgid "Port:"
+msgstr "端口："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: ui/kftpqueueeditorlayout.ui:120
+msgid "Destination Server Info"
+msgstr "目的服务器信息"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/kftpqueueeditorlayout.ui:214
+msgid "<b>Source:</b>"
+msgstr "<b>源：</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: ui/kftpqueueeditorlayout.ui:224
+msgid "<b>Destination:</b>"
+msgstr "<b>目的：</b>"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: ui/kftpqueueeditorlayout.ui:242
+msgid "Transfer type:"
+msgstr "传输方式："
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KFTPSearchLayout)
+#: ui/kftpsearchlayout.ui:22
+msgid "Queue Search & Replace"
+msgstr "队列搜索和替换"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/kftpsearchlayout.ui:31
+msgid ""
+"Using this dialog, you can do massive replacing of source/destination paths "
+"of the queued transfers. <b>Changes cannot be undone.</b>"
+msgstr ""
+"您可以使用这个对话框对队列里传输任务的源/目的路径替换进行批量处理。<b>变动不"
+"能撤销。</b>"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox3)
+#: ui/kftpsearchlayout.ui:41
+msgid "Search What"
+msgstr "搜索什么"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: ui/kftpsearchlayout.ui:47 ui/kftpsearchlayout.ui:176
+msgid "Destination:"
+msgstr "目的："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: ui/kftpsearchlayout.ui:57 ui/kftpsearchlayout.ui:186
+msgid "Source:"
+msgstr "源："
+
+#. i18n: ectx: property (text), widget (QCheckBox, searchServer)
+#: ui/kftpsearchlayout.ui:67
+msgid "Search only for transfers on specific server"
+msgstr "仅搜索特定服务器上的传输"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox3_2)
+#: ui/kftpsearchlayout.ui:170
+msgid "Replace With"
+msgstr "替换为"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox3)
+#: ui/quickconnect.ui:51
+msgid "Recent connections"
+msgstr "最近的连接"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: ui/quickconnect.ui:67
+msgid "Select connection:"
+msgstr "选择连接："
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox1)
+#: ui/quickconnect.ui:114 widgets/bookmarks/editor.cpp:104
+msgid "Quick Connect"
+msgstr "快速连接"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/quickconnect.ui:136
+msgid "URL:"
+msgstr "URL："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, urlBox)
+#: ui/quickconnect.ui:146
+msgid "Enter the whole url into this box"
+msgstr "在这里输入完整的 URL"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, hostBox)
+#: ui/quickconnect.ui:181
+msgid "Enter ftp's hostname"
+msgstr "输入FTP的主机名"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#: ui/quickconnect.ui:226
+msgid "Protocol:"
+msgstr "协议："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, protocolBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, protocol)
+#: ui/quickconnect.ui:245 widgets/bookmarks/editor.ui:78
+msgid "FTP"
+msgstr "FTP"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, protocolBox)
+#: ui/quickconnect.ui:250
+msgid "FTP over TLS/SSL (explicit)"
+msgstr "TLS/SSL 封装的 FTP(显式)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, protocolBox)
+#: ui/quickconnect.ui:255
+msgid "FTP over TLS/SSL (implicit)"
+msgstr "TLS/SSL 封装的 FTP(隐式)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, protocolBox)
+#: ui/quickconnect.ui:260
+msgid "SFTP over SSH2"
+msgstr "SSH2 封装的 SFTP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, anonLogin)
+#: ui/quickconnect.ui:277
+msgid "Anon&ymous login"
+msgstr "匿名登录(&Y)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, anonLogin)
+#: ui/quickconnect.ui:280
+msgid "Check for anonymous login"
+msgstr "检查匿名登录"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, usernameBox)
+#: ui/quickconnect.ui:313
+msgid "Enter account username"
+msgstr "输入账户用户名"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, passwordBox)
+#: ui/quickconnect.ui:351
+msgid "Enter account password"
+msgstr "输入账号密码"
+
+#. i18n: ectx: property (text), widget (QCheckBox, addBookmark)
+#: ui/quickconnect.ui:360
+msgid "Add to &bookmarks"
+msgstr "添加到书签(&B)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: ui/quickconnect.ui:387 widgets/bookmarks/editor.ui:327
+msgid "Advanced"
+msgstr "高级"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox14)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: ui/quickconnect.ui:393 widgets/bookmarks/editor.ui:335
+msgid "Server Encoding"
+msgstr "服务器编码："
+
+#: widgets/bookmarks/editor.cpp:86
+msgid "&Add Site"
+msgstr ""
+
+#: widgets/bookmarks/editor.cpp:87 widgets/bookmarks/treeview.cpp:96
+#: widgets/queueview/treeview.cpp:134
+#, fuzzy
+#| msgid "Remove"
+msgid "&Remove"
+msgstr "移除"
+
+#: widgets/bookmarks/editor.cpp:89
+msgid "&Add Category"
+msgstr ""
+
+#: widgets/bookmarks/editor.cpp:90
+msgid "&Duplicate Site"
+msgstr ""
+
+#: widgets/bookmarks/editor.cpp:106
+#, fuzzy
+#| msgid "&Bookmarks"
+msgid "Bookmark Editor"
+msgstr "书签(&B)"
+
+#: widgets/bookmarks/editor.cpp:109
+msgid "Connect With Selected Site"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: widgets/bookmarks/editor.ui:37
+msgid "Site Name"
+msgstr "站点名"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: widgets/bookmarks/editor.ui:67
+msgid "Protocol"
+msgstr "协议"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, protocol)
+#: widgets/bookmarks/editor.ui:83
+msgid "SFTP (via SSH)"
+msgstr "SFTP(通过 SSH)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: widgets/bookmarks/editor.ui:97
+msgid "IP Address"
+msgstr "IP 地址"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: widgets/bookmarks/editor.ui:118
+msgid "Port"
+msgstr "端口"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: widgets/bookmarks/editor.ui:143
+msgid "User Name"
+msgstr "用户名"
+
+#. i18n: ectx: property (text), widget (QCheckBox, anonymous)
+#: widgets/bookmarks/editor.ui:156
+msgid "Anonymous"
+msgstr "匿名"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: widgets/bookmarks/editor.ui:163
+msgid "Password"
+msgstr "密码"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: widgets/bookmarks/editor.ui:190
+msgid "Remote Path"
+msgstr "远程路径"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: widgets/bookmarks/editor.ui:203
+msgid "Local Path"
+msgstr "本地路径"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: widgets/bookmarks/editor.ui:218
+msgid "Notes"
+msgstr "提示"
+
+#. i18n: ectx: property (text), widget (QCheckBox, disableExtendedPassive)
+#: widgets/bookmarks/editor.ui:271
+msgid "Disable use of extended passive mode"
+msgstr "禁用扩展被动模式"
+
+#. i18n: ectx: property (text), widget (QCheckBox, disablePassive)
+#: widgets/bookmarks/editor.ui:278
+msgid "Disable use of passive mode"
+msgstr "禁用被动模式"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useSiteIp)
+#: widgets/bookmarks/editor.ui:285
+msgid "Use site IP for passive mode connections"
+msgstr "在被动模式连接里使用站点 IP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, disablePresetIp)
+#: widgets/bookmarks/editor.ui:292
+msgid "Disable pre-set active mode IP for this site"
+msgstr "为该站点禁用预设的主动模式 IP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useStat)
+#: widgets/bookmarks/editor.ui:299
+msgid "Use faster directory listing via STAT"
+msgstr "用 STAT 命令获取更快速的目录列表"
+
+#. i18n: ectx: property (text), widget (QCheckBox, disableThreads)
+#: widgets/bookmarks/editor.ui:306
+msgid "Do not use multiple transfer threads for this site"
+msgstr "不要对这个站点启用多线程传输"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: widgets/bookmarks/editor.ui:357
+msgid "Retries"
+msgstr "重试"
+
+#. i18n: ectx: property (title), widget (QGroupBox, retry)
+#: widgets/bookmarks/editor.ui:388
+msgid "Retry to connect on failure"
+msgstr "失败后重试连接"
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: widgets/bookmarks/editor.ui:403
+msgid "Retry delay"
+msgstr "重试延迟"
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: widgets/bookmarks/editor.ui:435
+msgid "Number of retries (0 = infinite)"
+msgstr "重试次数(0 = 无限)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: widgets/bookmarks/editor.ui:466
+msgid "Keepalive"
+msgstr "keepalive"
+
+#. i18n: ectx: property (title), widget (QGroupBox, keepalive)
+#: widgets/bookmarks/editor.ui:497
+msgid "Use keepalive to keep the connection open"
+msgstr "使用 keepalive 保持连接打开"
+
+#. i18n: ectx: property (text), widget (QLabel, label_15)
+#: widgets/bookmarks/editor.ui:512
+msgid "Frequency (seconds)"
+msgstr "频率(秒)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: widgets/bookmarks/editor.ui:560
+msgid "Security"
+msgstr "安全"
+
+#. i18n: ectx: property (text), widget (QLabel, label_16)
+#: widgets/bookmarks/editor.ui:605
+msgid ""
+"<i>The protocol currently selected for this site does not support any "
+"security configuration options.</i>"
+msgstr "<i>这个站点当前选用的协议不支持任何安全配置选项。</i>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_20)
+#: widgets/bookmarks/editor.ui:645
+msgid "SSL Negotiation Type"
+msgstr "SSL协商方式"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sslNegotiationType)
+#: widgets/bookmarks/editor.ui:656
+msgid "None (plain FTP)"
+msgstr "None (明文 FTP)"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sslNegotiationType)
+#: widgets/bookmarks/editor.ui:661
+msgid "AUTH TLS"
+msgstr "AUTH TLS"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sslNegotiationType)
+#: widgets/bookmarks/editor.ui:666
+msgid "Implicit SSL"
+msgstr "隐含 SSL"
+
+#. i18n: ectx: property (text), widget (QLabel, label_21)
+#: widgets/bookmarks/editor.ui:674
+msgid "Data Protection"
+msgstr "数据保护"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sslProtMode)
+#: widgets/bookmarks/editor.ui:685
+msgid "Always encrypt the data channel"
+msgstr "总是加密数据信道"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sslProtMode)
+#: widgets/bookmarks/editor.ui:690
+msgid "Encrypt only directory listings"
+msgstr "只加密目录列表"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sslProtMode)
+#: widgets/bookmarks/editor.ui:695
+msgid "Do not encrypt the data channel"
+msgstr "不要加密数据信道"
+
+#. i18n: ectx: property (title), widget (QGroupBox, sslClientCert)
+#: widgets/bookmarks/editor.ui:703
+msgid "Use client SSL certificate for authentication"
+msgstr "使用客户端 SSL 证书认证"
+
+#. i18n: ectx: property (text), widget (QLabel, label_17)
+#: widgets/bookmarks/editor.ui:718
+msgid "Certificate"
+msgstr "证书"
+
+#. i18n: ectx: property (text), widget (QLabel, label_19)
+#: widgets/bookmarks/editor.ui:728
+msgid "Key file"
+msgstr "密钥文件"
+
+#. i18n: ectx: property (title), widget (QGroupBox, sshPubkey)
+#: widgets/bookmarks/editor.ui:758
+msgid "Use public-key authentication"
+msgstr "使用公钥认证"
+
+#. i18n: ectx: property (text), widget (QLabel, label_18)
+#: widgets/bookmarks/editor.ui:773
+msgid "Public Key"
+msgstr "公钥"
+
+#. i18n: ectx: property (text), widget (QLabel, label_22)
+#: widgets/bookmarks/editor.ui:783
+msgid "Private Key"
+msgstr "私钥"
+
+#: widgets/bookmarks/importwizard.cpp:100
+msgid "Unable to load the selected import plugin."
+msgstr ""
+
+#: widgets/bookmarks/importwizard.cpp:109
+msgid "The selected file does not exist or is not readable."
+msgstr ""
+
+#: widgets/bookmarks/importwizard.cpp:131
+#, fuzzy
+#| msgid "Bookmark Import Wizard"
+msgid "Bookmark importing is complete."
+msgstr "书签导入向导"
+
+#: widgets/bookmarks/sidebar.cpp:79
+msgid "&Edit..."
+msgstr ""
+
+#: widgets/bookmarks/treeview.cpp:90
+msgid "&Create new site..."
+msgstr ""
+
+#: widgets/bookmarks/treeview.cpp:91
+msgid "Create sub&category..."
+msgstr ""
+
+#: widgets/bookmarks/treeview.cpp:99
+msgid "&Duplicate site"
+msgstr ""
+
+#: widgets/bookmarks/treeview.cpp:122
+msgid "Create site"
+msgstr ""
+
+#: widgets/bookmarks/treeview.cpp:140
+msgid "Create subcategory"
+msgstr ""
+
+#: widgets/bookmarks/treeview.cpp:145
+msgid "Are you sure you wish to remove this site or category?"
+msgstr ""
+
+#: widgets/browser/actions.cpp:103
+#, fuzzy
+#| msgid "Upload"
+msgid "&Reload"
+msgstr "上传"
+
+#: widgets/browser/actions.cpp:165
+msgid "&Toggle Tree View"
+msgstr ""
+
+#: widgets/browser/actions.cpp:170
+msgid "&Create Directory..."
+msgstr ""
+
+#: widgets/browser/actions.cpp:174
+msgid "&Change Site"
+msgstr ""
+
+#: widgets/browser/actions.cpp:176
+#, fuzzy
+#| msgid "Quick Connect"
+msgid "&Quick Connect..."
+msgstr "快速连接"
+
+#: widgets/browser/actions.cpp:180
+#, fuzzy
+#| msgid "Co&nnection"
+msgid "&Connect To"
+msgstr "连接(&N)"
+
+#: widgets/browser/actions.cpp:183
+#, fuzzy
+#| msgid "Quick Connect"
+msgid "&Disconnect"
+msgstr "快速连接"
+
+#: widgets/browser/dirlister.cpp:162
+#, kde-format
+msgid "Could not enter folder %1."
+msgstr ""
+
+#: widgets/browser/dirmodel.cpp:275
+#, fuzzy
+#| msgid "Local directory:"
+msgid "Root Directory"
+msgstr "本地目录："
+
+#: widgets/browser/dirmodel.cpp:804
+#, fuzzy
+#| msgid "Name"
+msgctxt "@title:column"
+msgid "Name"
+msgstr "名称"
+
+#: widgets/browser/dirmodel.cpp:805
+msgctxt "@title:column"
+msgid "Size"
+msgstr ""
+
+#: widgets/browser/dirmodel.cpp:806
+msgctxt "@title:column"
+msgid "Date"
+msgstr ""
+
+#: widgets/browser/dirmodel.cpp:807
+msgctxt "@title:column"
+msgid "Permissions"
+msgstr ""
+
+#: widgets/browser/dirmodel.cpp:808
+#, fuzzy
+#| msgid "Other"
+msgctxt "@title:column"
+msgid "Owner"
+msgstr "其他"
+
+#: widgets/browser/dirmodel.cpp:809
+msgctxt "@title:column"
+msgid "Group"
+msgstr ""
+
+#: widgets/browser/filterwidget.cpp:88
+#, fuzzy
+#| msgid "Options"
+msgid "Filter Options"
+msgstr "选项"
+
+#: widgets/browser/filterwidget.cpp:90
+msgid "Filter Directories"
+msgstr ""
+
+#: widgets/browser/filterwidget.cpp:93
+#, fuzzy
+#| msgid "File list"
+msgid "Filter Symlinks"
+msgstr "文件列表"
+
+#: widgets/browser/filterwidget.cpp:96
+msgid "Case Sensitive"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:80 widgets/browser/propsplugin.cpp:89
+msgid "Remote folder"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:101
+msgid "Unknown"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:151
+msgid "Type:"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:158
+#, fuzzy
+#| msgid "&Notification"
+msgid "Location:"
+msgstr "通告(&N)"
+
+#: widgets/browser/propsplugin.cpp:165
+msgid "Size:"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:180
+msgid "Created:"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:208
+msgid "&Permissions"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:242
+msgid "Access Permissions"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:249
+msgid "Class"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:253
+msgid ""
+"Show\n"
+"Entries"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:255
+msgid "Read"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:259
+#, fuzzy
+#| msgid "Retries"
+msgid ""
+"Write\n"
+"Entries"
+msgstr "重试"
+
+#: widgets/browser/propsplugin.cpp:261
+msgid "Write"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:265
+msgid "Enter folder"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:267
+msgid "Exec"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:274
+msgid "Special"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:277
+#, fuzzy
+#| msgid "Username:"
+msgid "User"
+msgstr "用户名："
+
+#: widgets/browser/propsplugin.cpp:280
+msgid "Group"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:283
+#, fuzzy
+#| msgid "Other"
+msgid "Others"
+msgstr "其他"
+
+#: widgets/browser/propsplugin.cpp:286
+msgid "Set UID"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:289
+msgid "Set GID"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:292
+msgid "Sticky"
+msgstr ""
+
+#: widgets/browser/propsplugin.cpp:313
+msgid "Apply changes to all subfolders and their contents"
+msgstr ""
+
+#: widgets/browser/view.cpp:153
+msgid "Path: "
+msgstr ""
+
+#: widgets/browser/view.cpp:499
+msgid "<b>Error</b><br />"
+msgstr ""
+
+#: widgets/browser/view.cpp:513
+#, fuzzy
+#| msgid "<b>Destination:</b>"
+msgid "<b>Information</b><br />"
+msgstr "<b>目的：</b>"
+
+#: widgets/browser/view.cpp:530
+#, fuzzy
+#| msgid "Failed Transfers"
+msgid "&Queue Transfer"
+msgstr "失败的传输"
+
+#: widgets/configdialog.cpp:92 widgets/filtereditor.cpp:533
+#, fuzzy
+#| msgid "Options"
+msgid "Actions"
+msgstr "选项"
+
+#: widgets/configdialog.cpp:96 widgets/configfilter.cpp:67
+#: widgets/filtereditor.cpp:125
+#, fuzzy
+#| msgid "File list"
+msgid "Filters"
+msgstr "文件列表"
+
+#: widgets/failedtransfers/model.cpp:69
+#, fuzzy
+#| msgid "Error message color:"
+msgid "Error Message"
+msgstr "错误消息颜色："
+
+#: widgets/failedtransfers/model.cpp:71 widgets/queueview/model.cpp:76
+#, fuzzy
+#| msgid "Source:"
+msgid "Source"
+msgstr "源："
+
+#: widgets/failedtransfers/model.cpp:72 widgets/queueview/model.cpp:77
+#, fuzzy
+#| msgid "Destination:"
+msgid "Destination"
+msgstr "目的："
+
+#: widgets/filtereditor.cpp:66
+msgid "Filter &enabled"
+msgstr ""
+
+#: widgets/filtereditor.cpp:144
+msgid "Up"
+msgstr ""
+
+#: widgets/filtereditor.cpp:145
+#, fuzzy
+#| msgid "Download"
+msgid "Down"
+msgstr "下载"
+
+#: widgets/filtereditor.cpp:168
+msgid "New"
+msgstr ""
+
+#: widgets/filtereditor.cpp:169
+msgid "Copy"
+msgstr ""
+
+#: widgets/filtereditor.cpp:170
+msgid "Delete"
+msgstr ""
+
+#: widgets/filtereditor.cpp:282
+msgid "Rename Rule"
+msgstr ""
+
+#: widgets/filtereditor.cpp:282
+#, kde-format
+msgid "Rename rule '%1' to:"
+msgstr ""
+
+#: widgets/filtereditor.cpp:359
+#, fuzzy
+#| msgid "Co&nnection"
+msgid "Conditions"
+msgstr "连接(&N)"
+
+#: widgets/filtereditor.cpp:366
+msgid "Match a&ll of the following"
+msgstr ""
+
+#: widgets/filtereditor.cpp:367
+msgid "Match an&y of the following"
+msgstr ""
+
+#: widgets/fingerprintverifydialog.cpp:49
+#, fuzzy
+#| msgid "Fingerprint"
+msgid "Fingerprint Verification"
+msgstr "指纹"
+
+#: widgets/fingerprintverifydialog.cpp:51 widgets/sslerrorsdialog.cpp:54
+#, fuzzy
+#| msgid "Co&nnection"
+msgid "Continue"
+msgstr "连接(&N)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: widgets/fingerprintverifydialog.ui:64
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:12pt; font-weight:600; color:#ff0000;\">SECURITY WARNING</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; color:"
+"#ff0000;\"><span style=\" font-weight:400; color:#000000;\">The fingerprint "
+"of the server you are connecting to cannot be verified. Please check that "
+"the fingerprint below is authentic.</span></p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:12pt; font-weight:600; color:#ff0000;\">安全警告</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; color:"
+"#ff0000;\"><span style=\" font-weight:400; color:#000000;\">无法校验您 当前连"
+"接服务器的指纹。 请确认以下的指纹 是可信的。</span></p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: widgets/fingerprintverifydialog.ui:80
+msgid "Fingerprint"
+msgstr "指纹"
+
+#. i18n: ectx: property (text), widget (QLabel, fingerprint)
+#: widgets/fingerprintverifydialog.ui:98
+msgid "<b>missing_fingerprint</b>"
+msgstr "<b>丢失_指纹</b>"
+
+#: widgets/kftpfilteraddpatternlayout.cpp:90
+#: widgets/kftpfiltereditorlayout.cpp:104
+msgid "Form1"
+msgstr ""
+
+#: widgets/kftpfiltereditorlayout.cpp:62
+#: widgets/kftpfiltereditorlayout.cpp:108
+#, fuzzy
+#| msgid "New Pattern"
+msgid "Pattern"
+msgstr "新模板"
+
+#: widgets/kftpfiltereditorlayout.cpp:63
+#: widgets/kftpfiltereditorlayout.cpp:109
+#, fuzzy
+#| msgid "Color:"
+msgid "Color"
+msgstr "颜色："
+
+#: widgets/kftpfiltereditorlayout.cpp:105
+#, fuzzy
+#| msgid "New Pattern"
+msgid "Add pattern"
+msgstr "新模板"
+
+#: widgets/kftpfiltereditorlayout.cpp:106
+msgid "Edit"
+msgstr ""
+
+#: widgets/kftpfiltereditorlayout.cpp:110
+#, fuzzy
+#| msgid "Failed"
+msgid "Enabled"
+msgstr "已失败"
+
+#: widgets/kftpfiltereditorlayout.cpp:111
+msgid "Highlighting"
+msgstr ""
+
+#: widgets/kftpfiltereditorlayout.cpp:112
+#: widgets/kftpfiltereditorlayout.cpp:114
+msgid "<b>Not yet implemented.</b>"
+msgstr ""
+
+#: widgets/kftpfiltereditorlayout.cpp:113
+msgid "Skip List"
+msgstr ""
+
+#: widgets/kftpfiltereditorlayout.cpp:115
+#, fuzzy
+#| msgid "ASCII E&xtensions"
+msgid "ASCII extensions"
+msgstr "ASCII 扩展(&X)"
+
+#: widgets/kftpserverlineedit.cpp:56
+msgid "Select..."
+msgstr ""
+
+#: widgets/kftpserverlineedit.cpp:97
+#, fuzzy
+#| msgid "Name"
+msgid "No name"
+msgstr "名称"
+
+#: widgets/logview.cpp:142
+msgid "Unable to open file for writing."
+msgstr ""
+
+#: widgets/queueview/model.cpp:79 widgets/queueview/threadview.cpp:152
+#, fuzzy
+#| msgid "Speed limit"
+msgid "Speed"
+msgstr "速率限制"
+
+#: widgets/queueview/model.cpp:80
+msgid "ETA"
+msgstr ""
+
+#: widgets/queueview/model.cpp:121
+msgid "Scanning..."
+msgstr ""
+
+#: widgets/queueview/queueview.cpp:159
+msgid "Limit download transfer speed"
+msgstr ""
+
+#: widgets/queueview/queueview.cpp:160
+msgid "Down: "
+msgstr ""
+
+#: widgets/queueview/queueview.cpp:170
+msgid "Limit upload transfer speed"
+msgstr ""
+
+#: widgets/queueview/queueview.cpp:171
+msgid "Up: "
+msgstr ""
+
+#: widgets/queueview/queueview.cpp:182
+msgid "Per-session transfer thread count"
+msgstr ""
+
+#: widgets/queueview/queueview.cpp:183
+#, fuzzy
+#| msgid "Threads"
+msgid "Threads: "
+msgstr "线程"
+
+#: widgets/queueview/queueview.cpp:213
+msgid "&Load Queue From File"
+msgstr ""
+
+#: widgets/queueview/queueview.cpp:218
+#, fuzzy
+#| msgid "&Save log to file"
+msgid "&Save Queue to File"
+msgstr "将日志保存到文件(&S)"
+
+#: widgets/queueview/queueview.cpp:223
+msgid "S&tart"
+msgstr ""
+
+#: widgets/queueview/queueview.cpp:228
+msgid "&Pause"
+msgstr ""
+
+#: widgets/queueview/queueview.cpp:233
+msgid "St&op"
+msgstr ""
+
+#: widgets/queueview/queueview.cpp:238
+#, fuzzy
+#| msgid "Queue Search & Replace"
+msgid "&Search && Replace..."
+msgstr "队列搜索和替换"
+
+#: widgets/queueview/queueview.cpp:243
+#, fuzzy
+#| msgid "Show left sidebar"
+msgid "Show &Filter"
+msgstr "显示左边栏"
+
+#: widgets/queueview/threadview.cpp:151
+msgid "Status"
+msgstr ""
+
+#: widgets/queueview/threadview.cpp:155
+msgid "There are no threads currently running."
+msgstr ""
+
+#: widgets/queueview/treeview.cpp:126
+msgid "&Abort Directory Scan"
+msgstr ""
+
+#: widgets/queueview/treeview.cpp:128
+msgid "&Abort Transfer"
+msgstr ""
+
+#: widgets/queueview/treeview.cpp:130
+#, fuzzy
+#| msgid "Failed Transfers"
+msgid "&Start Transfer"
+msgstr "失败的传输"
+
+#: widgets/queueview/treeview.cpp:137
+#, fuzzy
+#| msgid "Remove"
+msgid "R&emove All"
+msgstr "移除"
+
+#: widgets/queueview/treeview.cpp:142
+msgid "Move &Up"
+msgstr ""
+
+#: widgets/queueview/treeview.cpp:143
+msgid "Move To &Top"
+msgstr ""
+
+#: widgets/queueview/treeview.cpp:147
+msgid "Move &Down"
+msgstr ""
+
+#: widgets/queueview/treeview.cpp:148
+msgid "Move To &Bottom"
+msgstr ""
+
+#: widgets/queueview/treeview.cpp:171
+msgid "Are you sure you wish to remove this transfer?"
+msgstr ""
+
+#: widgets/queueview/treeview.cpp:171
+#, fuzzy
+#| msgid "Failed Transfers"
+msgid "Remove Transfer"
+msgstr "失败的传输"
+
+#: widgets/queueview/treeview.cpp:180
+msgid "Are you sure you wish to clear the transfer queue?"
+msgstr ""
+
+#: widgets/queueview/treeview.cpp:180
+msgid "Clear Queue"
+msgstr ""
+
+#: widgets/searchdialog.cpp:56
+#, fuzzy
+#| msgid "Queue Search & Replace"
+msgid "Search & Replace"
+msgstr "队列搜索和替换"
+
+#: widgets/sslerrorsdialog.cpp:52
+#, fuzzy
+#| msgid "SSL Negotiation Type"
+msgid "SSL Negotiation Failed"
+msgstr "SSL协商方式"
+
+#: widgets/sslerrorsdialog.cpp:55
+#, fuzzy
+#| msgid "Certificate"
+msgid "View Certificate..."
+msgstr "证书"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: widgets/sslerrorsdialog.ui:64
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:12pt; font-weight:600; color:#ff0000;\">SECURITY WARNING</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; color:"
+"#ff0000;\"><span style=\" font-weight:400; color:#000000;\">One or more "
+"errors with this connection prevent validating the authenticity of the host "
+"you are connecting to. Please review the following list of errors, and click "
+"</span><span style=\" font-weight:400; font-style:italic; color:#000000;"
+"\">Ignore</span><span style=\" font-weight:400; color:#000000;\"> to "
+"continue, or </span><span style=\" font-weight:400; font-style:italic; color:"
+"#000000;\">Cancel</span><span style=\" font-weight:400; color:#000000;\"> to "
+"abort the connection.</span></p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:12pt; font-weight:600; color:#ff0000;\">安全警告</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; color:"
+"#ff0000;\"><span style=\" font-weight:400; color:#000000;\">这个连接产生的 一"
+"个或多个错误妨碍了对连接目标主机的合法性验证。 请检查随后的错误列表，并点击 "
+"</span><span style=\" font-weight:400; font-style:italic; color:#000000;\">忽"
+"略</span><span style=\" font-weight:400; color:#000000;\"> 继续，或</"
+"span><span style=\" font-weight:400; font-style:italic; color:#000000;\">取消"
+"</span><span style=\" font-weight:400; color:#000000;\"> 中断连接。</span></"
+"p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: widgets/sslerrorsdialog.ui:74
+msgid "Errors encountered during SSL negotiation"
+msgstr "进行 SSL 协商时发生错误"
+
+#. i18n: ectx: property (text), widget (QCheckBox, trustCertificate)
+#: widgets/sslerrorsdialog.ui:98
+msgid "Trust this certificate in further communications with this site"
+msgstr "在以后和该站点的通信里信任这份证书"
+
+#: widgets/systemtray.cpp:62
+#, fuzzy
+#| msgid "&Bookmarks"
+msgid "Bookmarks"
+msgstr "书签(&B)"
+
+#: widgets/verifier.cpp:61
+msgid "Checksum"
+msgstr ""
+
+#: widgets/verifier.cpp:132
+#, fuzzy
+#| msgid "Transfer type:"
+msgid "Verification complete."
+msgstr "传输方式："
+
+#: widgets/verifier.cpp:138
+msgid "Unable to open checksum file, or file has an incorrect format."
+msgstr ""
+
+#: widgets/widgetlister.cpp:59
+msgid "More"
+msgstr ""
+
+#: widgets/widgetlister.cpp:62
+msgid "Fewer"
+msgstr ""
+
+#: widgets/widgetlister.cpp:68
+msgid "Clear"
+msgstr ""
+
+#: widgets/zeroconflistview.cpp:53
+#, fuzzy
+#| msgid "Site Name"
+msgid "Sites Near You"
+msgstr "站点名"
+
+#: widgets/zeroconflistview.cpp:55
+msgid "No sites published."
+msgstr ""
+
+#~ msgid "Ok"
+#~ msgstr "确定"

@@ -1,0 +1,269 @@
+# translation of katetabbarextension.po to 简体中文
+#
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2009.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008.
+# Feng Chao <rainofchaos@gmail.com>, 2011, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: katetabbarextension\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-07 01:24+0000\n"
+"PO-Revision-Date: 2013-03-22 20:53+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: ktinytabbarconfigdialog.cpp:37
+msgid "Configure Tab Bar"
+msgstr "配置标签栏"
+
+#: ktinytabbarconfigpage.cpp:56
+msgid "minimum size"
+msgstr "最小尺寸"
+
+#: ktinytabbarconfigpage.cpp:57
+msgid "maximum size"
+msgstr "最大尺寸"
+
+#: ktinytabbutton.cpp:161
+msgid "&Highlight Tab"
+msgstr "加亮标签(&H)"
+
+#: ktinytabbutton.cpp:162
+msgid "&None"
+msgstr "无(&N)"
+
+#: ktinytabbutton.cpp:165
+msgid "&Red"
+msgstr "红色(&R)"
+
+#: ktinytabbutton.cpp:167
+msgid "&Yellow"
+msgstr "黄色(&Y)"
+
+#: ktinytabbutton.cpp:169
+msgid "&Green"
+msgstr "绿色(&G)"
+
+#: ktinytabbutton.cpp:171
+msgid "&Cyan"
+msgstr "青色(&C)"
+
+#: ktinytabbutton.cpp:173
+msgid "&Blue"
+msgstr "蓝色(&B)"
+
+#: ktinytabbutton.cpp:175
+msgid "&Magenta"
+msgstr "洋红色(&M)"
+
+#: ktinytabbutton.cpp:178
+msgid "C&ustom Color..."
+msgstr "自定义颜色(&U)..."
+
+#: ktinytabbutton.cpp:181
+msgid "&Close Tab"
+msgstr "关闭标签(&C)"
+
+#: ktinytabbutton.cpp:182
+msgid "Close &Other Tabs"
+msgstr "关闭其它标签(&O)"
+
+#: ktinytabbutton.cpp:183
+msgid "Close &All Tabs"
+msgstr "关闭全部标签(&A)"
+
+#: plugin_katetabbarextension.cpp:45
+msgid "TabBarExtension"
+msgstr "标签栏扩展"
+
+#: plugin_katetabbarextension.cpp:45
+msgid "TabBar extension"
+msgstr "标签栏扩展"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbBehaviour)
+#: tabbarconfigwidget.ui:8
+msgid "Behavior"
+msgstr "行为"
+
+#. i18n: ectx: property (text), widget (QLabel, lblLocation)
+#: tabbarconfigwidget.ui:14
+msgid "Location:"
+msgstr "位置："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbLocation)
+#: tabbarconfigwidget.ui:25
+msgctxt "Tab bar location"
+msgid "Top"
+msgstr "顶部"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbLocation)
+#: tabbarconfigwidget.ui:30
+msgctxt "Tab bar location"
+msgid "Bottom"
+msgstr "底部"
+
+#. i18n: ectx: property (text), widget (QLabel, lblRows)
+#: tabbarconfigwidget.ui:54
+msgid "Rows:"
+msgstr "行："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbRows)
+#: tabbarconfigwidget.ui:64
+msgid " rows"
+msgstr "行"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSorting)
+#: tabbarconfigwidget.ui:77
+msgid "Sorting:"
+msgstr "排序："
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkFollowActive)
+#: tabbarconfigwidget.ui:89
+msgid "Keep activated tab visible"
+msgstr "保持活动标签为可见"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSorting)
+#: tabbarconfigwidget.ui:117
+msgid "Opening Order"
+msgstr "打开次序"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSorting)
+#: tabbarconfigwidget.ui:122
+msgid "Document Name"
+msgstr "文档名称"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSorting)
+#: tabbarconfigwidget.ui:127
+msgid "Document URL"
+msgstr "文档 URL"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbSorting)
+#: tabbarconfigwidget.ui:132
+msgid "File Extension"
+msgstr "文件扩展名"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbTabs)
+#: tabbarconfigwidget.ui:161
+msgid "Tabs"
+msgstr "标签"
+
+#. i18n: ectx: property (text), widget (QLabel, lblMinWidth)
+#: tabbarconfigwidget.ui:167
+msgid "Minimum width:"
+msgstr "最小宽度："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbMinWidth)
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbMaxWidth)
+#. i18n: ectx: property (suffix), widget (QSpinBox, sbHeight)
+#: tabbarconfigwidget.ui:177 tabbarconfigwidget.ui:216
+#: tabbarconfigwidget.ui:242
+msgid " pixels"
+msgstr "像素"
+
+#. i18n: ectx: property (text), widget (QLabel, lblMaxWidth)
+#: tabbarconfigwidget.ui:203
+msgid "Maximum width:"
+msgstr "最大标签宽度："
+
+#. i18n: ectx: property (text), widget (QSpinBox, sbMaxWidth)
+#: tabbarconfigwidget.ui:213
+msgid "20 pixels"
+msgstr "20像素"
+
+#. i18n: ectx: property (text), widget (QLabel, lblHeight)
+#: tabbarconfigwidget.ui:229
+msgid "Height:"
+msgstr "高度："
+
+#. i18n: ectx: property (text), widget (QSpinBox, sbHeight)
+#: tabbarconfigwidget.ui:239
+msgid "16 pixels"
+msgstr "16像素"
+
+#. i18n: ectx: property (text), widget (QLabel, lblStyle)
+#: tabbarconfigwidget.ui:255
+msgid "Style:"
+msgstr "样式："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
+#: tabbarconfigwidget.ui:266
+msgid "Buttons"
+msgstr "按钮"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
+#: tabbarconfigwidget.ui:271
+msgid "Flat"
+msgstr "单色"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbHighlighting)
+#: tabbarconfigwidget.ui:282
+msgid "Highlighting"
+msgstr "加亮"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkModified)
+#: tabbarconfigwidget.ui:299
+msgid "Highlight modified tabs"
+msgstr "突出显示修改过的标签"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkActive)
+#: tabbarconfigwidget.ui:313
+msgid "Highlight active tab"
+msgstr "突出显示活动标签"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkPrevious)
+#: tabbarconfigwidget.ui:327
+msgid "Highlight previous tab"
+msgstr "突出显示上一个标签"
+
+#. i18n: ectx: property (text), widget (QLabel, lblOpacity)
+#: tabbarconfigwidget.ui:334
+msgid "Opacity:"
+msgstr "透明度："
+
+#. i18n: ectx: property (text), widget (QLabel, lblNote)
+#: tabbarconfigwidget.ui:379
+msgid "Note: Use the context menu to highlight a tab"
+msgstr "注意：请使用环境菜单加亮标签"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnClearCache)
+#: tabbarconfigwidget.ui:399
+msgid "Remove all highlight marks in the current session."
+msgstr "在当前会话内删除所有加亮标记"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnClearCache)
+#: tabbarconfigwidget.ui:402
+msgid "Clear Highlight Cache"
+msgstr "清除加亮缓存"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbPreview)
+#: tabbarconfigwidget.ui:414
+msgid "Preview"
+msgstr "预览"
+
+#. i18n: ectx: ToolBar (tabbarExtensionToolBar)
+#: ui.rc:4
+msgid "Tab Bar Extension"
+msgstr "标签栏扩展"
+
+#~ msgid "Sorting Behavior"
+#~ msgstr "排序行为"
+
+#~ msgid "Sort files alphabetically"
+#~ msgstr "按字母顺序排序文件"
+
+#~ msgid "Configure Tab Bar Extension"
+#~ msgstr "配置标签栏扩展"

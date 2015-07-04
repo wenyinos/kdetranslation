@@ -1,0 +1,148 @@
+#
+# Funda Wang <fundawang@linux.net.cn>, 2007.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-16 01:33+0000\n"
+"PO-Revision-Date: 2013-07-05 23:03-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: converter.cpp:97
+#, kde-format
+msgid "Invalid XML document: %1"
+msgstr "无效的 XML 文档：%1"
+
+#: converter.cpp:110
+msgid "Unable to read style information"
+msgstr "无法读取样式信息"
+
+#: converter.cpp:157
+msgid "Unable to convert document content"
+msgstr "无法转换文档内容"
+
+#: document.cpp:29
+msgid "Document is not a valid ZIP archive"
+msgstr "文挡不是有效的 ZIP 存档"
+
+#: document.cpp:35
+msgid "Invalid document structure (main directory is missing)"
+msgstr "无效的文档结构(缺少主目录)"
+
+#: document.cpp:41
+msgid "Invalid document structure (META-INF directory is missing)"
+msgstr "无效的文档结构(缺少 META-INF 目录)"
+
+#: document.cpp:46
+msgid "Invalid document structure (META-INF/manifest.xml is missing)"
+msgstr "无效的文档结构(缺少 META-INF/meta.xml)"
+
+#: document.cpp:57
+msgid "Invalid document structure (content.xml is missing)"
+msgstr "无效的文档结构(缺少 content.xml)"
+
+#: generator_ooo.cpp:23
+msgid "OpenDocument Text Backend"
+msgstr "OpenDocument 文本后端"
+
+#: generator_ooo.cpp:25
+msgid "A renderer for OpenDocument Text documents"
+msgstr "OpenDocument 文本文档渲染器"
+
+#: generator_ooo.cpp:27
+msgid "© 2006-2008 Tobias Koenig"
+msgstr "© 2006-2008 Tobias Koenig"
+
+#: generator_ooo.cpp:29
+msgid "Tobias Koenig"
+msgstr "Tobias Koenig"
+
+#: generator_ooo.cpp:45
+msgid "OpenDocument Text"
+msgstr "OpenDocument 文本"
+
+#: generator_ooo.cpp:45
+msgid "OpenDocument Text Backend Configuration"
+msgstr "OpenDocument 文本后端配置"
+
+#: manifest.cpp:240
+msgid "Document Password"
+msgstr "文档密码"
+
+#: manifest.cpp:241
+msgid "Please enter the password to read the document:"
+msgstr "请输入阅读文档所需的密码："
+
+#: manifest.cpp:359
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a hashing "
+"plugin could not be located"
+msgstr "此文档已加密，且程序已编译了加密支持，但无法定位散列插件。"
+
+#: manifest.cpp:365
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a key "
+"derivation plugin could not be located"
+msgstr "此文档已加密，且程序已编译了加密支持，但无法定位密钥推导插件。"
+
+#: manifest.cpp:371
+msgid ""
+"This document is encrypted, and crypto support is compiled in, but a cipher "
+"plugin could not be located"
+msgstr "此文档已加密，且程序已编译了加密支持，但无法定位密码插件。"
+
+#: manifest.cpp:398
+msgid "The password is not correct."
+msgstr "密码不正确。"
+
+#: manifest.cpp:398
+msgid "Incorrect password"
+msgstr "密码不正确"
+
+#: manifest.cpp:424
+msgid ""
+"This document is encrypted, but Okular was compiled without crypto support. "
+"This document will probably not open."
+msgstr "此文档已加密，但 Okular 未编译加密支持。将无法打开文档。"
+
+#: styleparser.cpp:136
+msgid "Producer"
+msgstr "制作者"
+
+#: styleparser.cpp:140
+msgid "Created"
+msgstr "创建日期"
+
+#: styleparser.cpp:142
+msgid "Creator"
+msgstr "创建者"
+
+#: styleparser.cpp:144
+msgid "Author"
+msgstr "作者"
+
+#: styleparser.cpp:148
+msgid "Modified"
+msgstr "修改日期"
+
+#~ msgid "Invalid document structure (styles.xml is missing)"
+#~ msgstr "无效的文档结构(缺少 styles.xml)"
+
+#~ msgid "Invalid document structure (meta.xml is missing)"
+#~ msgstr "无效的文档结构(缺少 meta.xml)"

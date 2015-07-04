@@ -1,0 +1,138 @@
+# translation of kio_help4.po to 简体中文
+# Copyright (C) 2007 Free Software Foundation, Inc.
+#
+# Dick Zhang <netwind2003@263.net>, 2004.
+# Liang Qi <cavendish.qi@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_help4\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 03:59+0200\n"
+"PO-Revision-Date: 2007-09-26 22:40+0200\n"
+"Last-Translator: Liang Qi <cavendish.qi@gmail.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: genshortcutents.cpp:339
+msgid "Output file"
+msgstr "输出文件"
+
+#: genshortcutents.cpp:341
+msgid "genshortcutents"
+msgstr "genshortcutents"
+
+#: genshortcutents.cpp:342
+msgid "Generates DocBook entities for key shortcuts of standard actions"
+msgstr "为标准动作的快捷键生成 DocBook 条目"
+
+#: kio_help.cpp:150
+#, kde-format
+msgid "There is no documentation available for %1."
+msgstr "%1 没有可用的文档。"
+
+#: kio_help.cpp:202
+msgid "Looking up correct file"
+msgstr "正在查找正确的文件"
+
+#: kio_help.cpp:253
+msgid "Preparing document"
+msgstr "正在准备文档"
+
+#: kio_help.cpp:262 kio_help.cpp:304
+#, kde-format
+msgid "The requested help file could not be parsed:<br />%1"
+msgstr "不能解析请求的帮助文件：<br />%1"
+
+#: kio_help.cpp:284
+msgid "Saving to cache"
+msgstr "保存到缓存"
+
+#: kio_help.cpp:299
+msgid "Using cached version"
+msgstr "使用缓存版本"
+
+#: kio_help.cpp:361
+msgid "Looking up section"
+msgstr "查找章节"
+
+#: kio_help.cpp:372
+#, kde-format
+msgid "Could not find filename %1 in %2."
+msgstr "在 %2 中找不到文件名 %1。"
+
+#: meinproc.cpp:89
+msgid "Stylesheet to use"
+msgstr "使用的样式表"
+
+#: meinproc.cpp:90
+msgid "Output whole document to stdout"
+msgstr "全部文档输出到标准输出设备"
+
+#: meinproc.cpp:92
+msgid "Output whole document to file"
+msgstr "全部文档输出到文件"
+
+#: meinproc.cpp:93
+msgid "Create a ht://dig compatible index"
+msgstr "建立与 ht://dig 兼容的索引"
+
+#: meinproc.cpp:94
+msgid "Check the document for validity"
+msgstr "检查文档是否正确"
+
+#: meinproc.cpp:95
+msgid "Create a cache file for the document"
+msgstr "建立文档的缓存文件"
+
+#: meinproc.cpp:96
+msgid "Set the srcdir, for kdelibs"
+msgstr "设置 kdelibs 的源文件目录"
+
+#: meinproc.cpp:97
+msgid "Parameters to pass to the stylesheet"
+msgstr "要传递给样式表的参数"
+
+#: meinproc.cpp:98
+msgid "The file to transform"
+msgstr "要转换的文件"
+
+#: meinproc.cpp:100
+msgid "XML-Translator"
+msgstr "XML 翻译器"
+
+#: meinproc.cpp:102
+msgid "KDE Translator for XML"
+msgstr "KDE 的 XML 翻译器"
+
+#: meinproc.cpp:248
+#, kde-format
+msgid "Could not write to cache file %1."
+msgstr "无法写入缓存文件 %1。"
+
+#: xslt.cpp:135
+msgid "Parsing stylesheet"
+msgstr "正在分析样式表"
+
+#: xslt.cpp:158
+msgid "Parsing document"
+msgstr "正在分析文档"
+
+#: xslt.cpp:167
+msgid "Applying stylesheet"
+msgstr "正在应用样式表"
+
+#: xslt.cpp:175
+msgid "Writing document"
+msgstr "正在写入文档"

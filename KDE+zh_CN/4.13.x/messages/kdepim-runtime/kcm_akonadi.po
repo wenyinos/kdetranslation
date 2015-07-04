@@ -1,0 +1,273 @@
+# translation of kcm_akonadi.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+# Lie Ex <lilith.ex@gmail.com>, 2008-2010.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_akonadi\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-14 01:33+0000\n"
+"PO-Revision-Date: 2011-11-19 13:25+0800\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: resourcesmanagementwidget.cpp:123
+#, kde-format
+msgid "Do you really want to delete the selected agent instance?"
+msgid_plural "Do you really want to delete these %1 agent instances?"
+msgstr[0] "您真的想要删除这 %1 个代理实例吗？"
+
+#: resourcesmanagementwidget.cpp:126
+msgid "Multiple Agent Deletion"
+msgstr "多代理删除"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, removeButton)
+#: resourcesmanagementwidget.ui:33
+msgid "Remove resource from your Akonadi server."
+msgstr "从您的 Akonadi 服务器中删除资源。"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: resourcesmanagementwidget.ui:36
+msgid "R&emove"
+msgstr "删除(&E)"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, editButton)
+#: resourcesmanagementwidget.ui:48
+msgid "Modify your installed resources"
+msgstr "修改您已安装的资源"
+
+#. i18n: ectx: property (text), widget (KPushButton, editButton)
+#: resourcesmanagementwidget.ui:51
+msgid "&Modify..."
+msgstr "修改(&M)..."
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, addButton)
+#: resourcesmanagementwidget.ui:63
+msgid "Add resource to your Akonadi server."
+msgstr "向您的 Akonadi 服务器中添加资源。"
+
+#. i18n: ectx: property (text), widget (KPushButton, addButton)
+#: resourcesmanagementwidget.ui:66
+msgid "A&dd..."
+msgstr "添加(&D)..."
+
+#: serverconfigmodule.cpp:138
+#, kde-format
+msgctxt "@info: special setting to configure"
+msgid ""
+"Make sure you have %1 in your server postgres.conf file before starting "
+"Akonadi."
+msgstr "请在启动 Akonadi 前确认您已在您的服务器的 postgres.conf 中包含 %1"
+
+#: serverconfigmodule.cpp:203
+msgid "<b>The Akonadi server is running.</b>"
+msgstr "<b>Akonadi 服务器正在运行。</b>"
+
+#: serverconfigmodule.cpp:204
+msgid "Stop"
+msgstr "停止"
+
+#: serverconfigmodule.cpp:207
+msgid "The Akonadi server is <b>not</b> running."
+msgstr "Akonadi 服务器<b>未在</b>运行。"
+
+#: serverconfigmodule.cpp:208
+msgid "Start"
+msgstr "启动"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: serverconfigmodule.ui:17
+msgid "Status"
+msgstr "状态"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: serverconfigmodule.ui:30
+msgid ""
+"Note: The changes made above will only take effect after the next server "
+"restart."
+msgstr "注意：在服务器重新启动后您在上面所作的更改才会生效。"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, selfTestButton)
+#: serverconfigmodule.ui:40
+msgid "Test your MySQL settings for Akonadi."
+msgstr "测试您的 MySQL 对于 Akonadi 的设置。"
+
+#. i18n: ectx: property (text), widget (KPushButton, selfTestButton)
+#: serverconfigmodule.ui:43
+msgid "Test..."
+msgstr "测试..."
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, startStopButton)
+#: serverconfigmodule.ui:63
+msgid "Stop Akonadi"
+msgstr "停止 Akonadi"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, restartButton)
+#: serverconfigmodule.ui:73
+msgid "Restart Akonadi"
+msgstr "重启 Akonadi"
+
+#. i18n: ectx: property (text), widget (KPushButton, restartButton)
+#: serverconfigmodule.ui:76
+msgid "Restart"
+msgstr "重启"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, startServer)
+#: servermysqlstorage.ui:17
+msgid "Choose whether Akonadi should use an internal or external MySQL server."
+msgstr "选择 Akonadi 使用内置还是外部的 MySQL 服务器。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, startServer)
+#: servermysqlstorage.ui:20
+msgid "Use internal MySQL server"
+msgstr "使用内置 MySQL 服务器"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: servermysqlstorage.ui:30
+msgid "Internal MySQL Server"
+msgstr "内置 MySQL 服务器"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: servermysqlstorage.ui:36
+msgid "MySQL server executable:"
+msgstr "MySQL 服务器可执行文件："
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, serverPath)
+#: servermysqlstorage.ui:46
+msgid ""
+"<p><b>MySQL server location</b></p><br/>Enter the location of your internal "
+"MySQL server or click on the Browse button."
+msgstr ""
+"<p><b>MySQL 服务器位置</b></p><br/>输入您内部 MySQL 服务器的位置或点击浏览按"
+"钮。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: servermysqlstorage.ui:59
+msgid "External MySQL Server"
+msgstr "外部 MySQL 服务器"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: servermysqlstorage.ui:65 serverpsqlstorage.ui:42
+msgid "Database name:"
+msgstr "数据库名："
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, name)
+#: servermysqlstorage.ui:75
+msgid ""
+"<p><b>Database Name</b></p><br/>Enter the name of your Akonadi database on "
+"your external MySQL server."
+msgstr ""
+"<p><b>数据库名</b></p><br/>输入您外部 MySQL 服务器上 Akonadi 数据库的名称。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: servermysqlstorage.ui:82 serverpsqlstorage.ui:59
+msgid "Host:"
+msgstr "主机："
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, host)
+#: servermysqlstorage.ui:92
+msgid ""
+"<p><b>Host</b></p><br/>Enter the hostname or the IP address of the machine "
+"hosting your MySQL server."
+msgstr "<p><b>主机</b></p><br/>输入主管您 MySQL 服务器的主机名或 IP 地址。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: servermysqlstorage.ui:99 serverpsqlstorage.ui:76
+msgid "Username:"
+msgstr "用户名："
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, username)
+#: servermysqlstorage.ui:109
+msgid "Enter the username required to access your MySQL database."
+msgstr "输入访问您 MySQL 数据库所需的用户名。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: servermysqlstorage.ui:116 serverpsqlstorage.ui:93
+msgid "Password:"
+msgstr "密码："
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, password)
+#: servermysqlstorage.ui:126
+msgid "Enter the password required to access your MySQL database."
+msgstr "输入访问您 MySQL 数据库所需的密码。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: servermysqlstorage.ui:136
+msgid "Options:"
+msgstr "选项："
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, options)
+#: servermysqlstorage.ui:146
+msgid ""
+"<p><b>External MySQL server options</b></p><br/>If necessary, you may pass "
+"options to your MySQL server."
+msgstr ""
+"<p><b>外部 MySQL 服务器选项</b></p><br/>如果需要，您可以向您的 MySQL 服务器传"
+"递选项。"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, startServer)
+#: serverpsqlstorage.ui:17
+msgid ""
+"Choose whether Akonadi should use an internal or external PostgreSQL server."
+msgstr "选择 Akonadi 使用内置还是外部的 PostgreSQL 服务器。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, startServer)
+#: serverpsqlstorage.ui:20
+msgid "Use internal PostgreSQL server"
+msgstr "使用内置 PostgreSQL 服务器"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: serverpsqlstorage.ui:33
+msgid "External PostgreSQL Server"
+msgstr "外部 PostgreSQL 服务器"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, name)
+#: serverpsqlstorage.ui:52
+msgid ""
+"<p><b>Database Name</b></p><br/>Enter the name of your Akonadi database on "
+"your external PostgreSQL server."
+msgstr ""
+"<p><b>数据库名</b></p><br/>输入您外部 PostgreSQL 服务器上 Akonadi 数据库的名"
+"称。"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, host)
+#: serverpsqlstorage.ui:69
+msgid ""
+"<p><b>Host</b></p><br/>Enter the hostname or the IP address of the machine "
+"hosting your PostgreSQL server."
+msgstr ""
+"<p><b>主机</b></p><br/>输入主管您 PostgreSQL 服务器的主机名或 IP 地址。"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, username)
+#: serverpsqlstorage.ui:86
+msgid "Enter the username required to access your PostgreSQL database."
+msgstr "输入访问您 PostgreSQL 数据库所需的用户名。"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, password)
+#: serverpsqlstorage.ui:103
+msgid "Enter the password required to access your PostgreSQL database."
+msgstr "输入访问您 PostgreSQL 数据库所需的用户名。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: serverpsqlstorage.ui:113
+msgid "Port:"
+msgstr "端口："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: serverstoragedriver.ui:29
+msgid "Server database storage driver"
+msgstr "服务器数据库存储驱动"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: serverstoragedriver.ui:41
+msgid "Database driver"
+msgstr "数据库驱动"

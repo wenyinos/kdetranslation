@@ -1,0 +1,958 @@
+# translation of libkcddb.po to zh_CN
+# Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# Yan Shuangchun <yahzee@d3eye.com>, 2003.
+# Lie_Ex <lilith.ex@gmail.com>, 2007.
+# Ni Hui <shuizhuyuanluo@126.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkcddb\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-07-02 01:39+0000\n"
+"PO-Revision-Date: 2012-05-28 10:11+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: kcmcddb/cddbconfigwidget.cpp:59
+msgid "Cache Locations"
+msgstr "缓存位置"
+
+#: kcmcddb/cddbconfigwidget.cpp:98
+msgid "Could not fetch mirror list."
+msgstr "无法获取镜像列表。"
+
+#: kcmcddb/cddbconfigwidget.cpp:98
+msgid "Could Not Fetch"
+msgstr "无法获取"
+
+#: kcmcddb/cddbconfigwidget.cpp:102
+msgid "Select mirror"
+msgstr "选择镜像"
+
+#: kcmcddb/cddbconfigwidget.cpp:103
+msgid "Select one of these mirrors"
+msgstr "选择一个镜像"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_FreedbLookupTransport)
+#. i18n: ectx: property (text), widget (QRadioButton, httpButton)
+#: kcmcddb/cddbconfigwidget.cpp:120 kcmcddb/cddbconfigwidget.ui:129
+#: kcmcddb/cddbconfigwidget.ui:179
+msgid "HTTP"
+msgstr "HTTP"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_FreedbLookupTransport)
+#: kcmcddb/cddbconfigwidget.cpp:122 kcmcddb/cddbconfigwidget.ui:124
+msgid "CDDB"
+msgstr "CDDB"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CDDBConfigWidgetBase)
+#: kcmcddb/cddbconfigwidget.ui:7
+msgid "CDDB Settings"
+msgstr "CDDB 设置"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabLookup)
+#: kcmcddb/cddbconfigwidget.ui:20
+msgid "&Lookup"
+msgstr "查询(&L)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MusicBrainzLookupEnabled)
+#: kcmcddb/cddbconfigwidget.ui:26
+msgid "Enable MusicBrainz lookup"
+msgstr "启用 MusicBrainz 查询"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FreedbLookupEnabled)
+#: kcmcddb/cddbconfigwidget.ui:33
+msgid "Enable freedb lookup"
+msgstr "启用 freedb 查询"
+
+#. i18n: ectx: property (title), widget (QGroupBox, freedbServerBox)
+#: kcmcddb/cddbconfigwidget.ui:40
+msgid "Freedb Server"
+msgstr "Freedb 服务器"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel7)
+#: kcmcddb/cddbconfigwidget.ui:46
+msgid "Freedb server:"
+msgstr "Freedb 服务器："
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_hostname)
+#: kcmcddb/cddbconfigwidget.ui:64
+msgid "Name of CDDB server which will be used to look up CD information."
+msgstr "用于查询 CD 信息的 CDDB 服务器名称。"
+
+#. i18n: ectx: property (text), widget (QLineEdit, kcfg_hostname)
+#: kcmcddb/cddbconfigwidget.ui:67
+msgid "freedb.freedb.org"
+msgstr "freedb.freedb.org"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_3)
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: kcmcddb/cddbconfigwidget.ui:80 kcmcddb/cddbconfigwidget.ui:208
+#: kcmcddb/cddbconfigwidget.ui:241
+msgid "Port:"
+msgstr "端口："
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_port)
+#: kcmcddb/cddbconfigwidget.ui:93
+msgid "Port to connect to on CDDB server."
+msgstr "连接 CDDB 服务器的端口。"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel9)
+#: kcmcddb/cddbconfigwidget.ui:108
+msgid "&Transport:"
+msgstr "传输(&T)："
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_FreedbLookupTransport)
+#: kcmcddb/cddbconfigwidget.ui:120
+msgid "Type of lookup which should be tried at the CDDB server."
+msgstr "CDDB 服务端所采用的查询方式。"
+
+#. i18n: ectx: property (text), widget (KPushButton, mirrorListButton)
+#: kcmcddb/cddbconfigwidget.ui:137
+msgid "Show &Mirror List"
+msgstr "显示镜像列表(&M)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabSubmit)
+#: kcmcddb/cddbconfigwidget.ui:153
+msgid "&Submit"
+msgstr "提交(&S)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: kcmcddb/cddbconfigwidget.ui:161
+msgid "Email address:"
+msgstr "电子邮件地址："
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_FreedbSubmitTransport)
+#: kcmcddb/cddbconfigwidget.ui:173
+msgid "Submit Method"
+msgstr "提交方式"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: kcmcddb/cddbconfigwidget.ui:189
+msgid "Server:"
+msgstr "服务器："
+
+#. i18n: ectx: property (text), widget (QRadioButton, smtpButton)
+#: kcmcddb/cddbconfigwidget.ui:220
+msgid "SMTP (Email)"
+msgstr "SMTP (电子邮件)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, needsAuthenticationBox)
+#: kcmcddb/cddbconfigwidget.ui:266
+msgid "Server needs authentication"
+msgstr "服务器需要验证"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel9_2)
+#: kcmcddb/cddbconfigwidget.ui:286
+msgid "Reply-To:"
+msgstr "回复于："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: kcmcddb/cddbconfigwidget.ui:299
+msgid "SMTP server:"
+msgstr "SMTP 服务器："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: kcmcddb/cddbconfigwidget.ui:306
+msgid "Username:"
+msgstr "用户名："
+
+#: kcmcddb/kcmcddb.cpp:60
+msgid ""
+"CDDB is used to get information like artist, title and song-names in CD's"
+msgstr "CDDB 用于获取 CD 中诸如艺人、标题、曲目名称的信息"
+
+#: kcmcddb/kcmcddb.cpp:88
+msgid ""
+"freedb has been set to use HTTP for submissions because the email details "
+"you have entered are incomplete. Please review your email settings and try "
+"again."
+msgstr ""
+"freedb 已设定使用 HTTP 方式提交，原因是您输入的电子邮件详情不完整。请复查您的"
+"电子邮件设置并重试。"
+
+#: kcmcddb/kcmcddb.cpp:91
+msgid "Incorrect Email Settings"
+msgstr "错误的电子邮件设置"
+
+#: libkcddb/categories.cpp:22 libkcddb/genres.cpp:70
+msgid "Blues"
+msgstr "蓝调"
+
+#: libkcddb/categories.cpp:22 libkcddb/genres.cpp:73
+msgid "Classical"
+msgstr "古典"
+
+#: libkcddb/categories.cpp:22 libkcddb/genres.cpp:75
+msgctxt "music genre"
+msgid "Country"
+msgstr "乡村"
+
+#: libkcddb/categories.cpp:23 libkcddb/genres.cpp:80
+msgid "Folk"
+msgstr "乡土"
+
+#: libkcddb/categories.cpp:23 libkcddb/genres.cpp:86
+msgid "Jazz"
+msgstr "爵士"
+
+#: libkcddb/categories.cpp:23
+msgid "Data"
+msgstr "数据"
+
+#: libkcddb/categories.cpp:23
+msgid "Miscellaneous"
+msgstr "其它"
+
+#: libkcddb/categories.cpp:24 libkcddb/genres.cpp:88
+msgid "New Age"
+msgstr "新时代"
+
+#: libkcddb/categories.cpp:24 libkcddb/genres.cpp:94
+msgid "Reggae"
+msgstr "瑞格"
+
+#: libkcddb/categories.cpp:24 libkcddb/genres.cpp:95
+msgid "Rock"
+msgstr "摇滚"
+
+#: libkcddb/categories.cpp:24 libkcddb/genres.cpp:98
+msgid "Soundtrack"
+msgstr "原声"
+
+#: libkcddb/cdinfodialog.cpp:146
+msgid "Track"
+msgstr "音轨"
+
+#: libkcddb/cdinfodialog.cpp:146
+msgid "Length"
+msgstr "长度"
+
+#: libkcddb/cdinfodialog.cpp:146
+msgid "Title"
+msgstr "标题"
+
+#: libkcddb/cdinfodialog.cpp:146
+msgid "Artist"
+msgstr "艺人"
+
+#: libkcddb/cdinfodialog.cpp:146
+msgid "Comment"
+msgstr "注释"
+
+#: libkcddb/cdinfodialog.cpp:267
+msgid "Change Encoding"
+msgstr "更改编码"
+
+#. i18n: ectx: property (text), widget (QLabel, lb_revision)
+#: libkcddb/cdinfodialog.ui:34
+msgid "Revision:"
+msgstr "修订："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, m_title)
+#: libkcddb/cdinfodialog.ui:41
+msgid "Use the name of the artist if there is no title."
+msgstr "如果没有标题则使用艺人姓名。"
+
+#. i18n: ectx: property (text), widget (QLabel, lb_category)
+#: libkcddb/cdinfodialog.ui:48
+msgid "&Category:"
+msgstr "类别(&C)："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, m_artist)
+#: libkcddb/cdinfodialog.ui:65
+msgid ""
+"Write names as \"first last\", not \"last, first\". Omit any leading \"The"
+"\".  Use \"Various\" for compilations."
+msgstr ""
+"请以“名 姓”的格式写出姓名，不要使用“姓, 名”的格式。同时，不要写明“The”前缀。"
+"如果不只一人，请使用“多位”。"
+
+#. i18n: ectx: property (text), widget (QLabel, lb_artist)
+#: libkcddb/cdinfodialog.ui:72
+msgid "&Artist:"
+msgstr "艺人(&A)："
+
+#. i18n: ectx: property (text), widget (QLabel, lb_year)
+#: libkcddb/cdinfodialog.ui:82
+msgid "&Year:"
+msgstr "年份(&Y)："
+
+#. i18n: ectx: property (text), widget (QLabel, lb_genre)
+#: libkcddb/cdinfodialog.ui:92
+msgid "&Genre:"
+msgstr "流派(&G)："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, m_category)
+#: libkcddb/cdinfodialog.ui:105
+msgid "Disc Id values must be unique within a category."
+msgstr "碟片 ID 值在同一类别中必须唯一。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_multiple)
+#: libkcddb/cdinfodialog.ui:119
+msgid "&Multiple artists"
+msgstr "多位艺人(&M)"
+
+#. i18n: ectx: property (text), widget (QLabel, lb_comment)
+#: libkcddb/cdinfodialog.ui:129
+msgid "Comment:"
+msgstr "注释："
+
+#. i18n: ectx: property (text), widget (QLabel, lb_title)
+#: libkcddb/cdinfodialog.ui:139
+msgid "&Title:"
+msgstr "标题(&T)："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, m_genre)
+#: libkcddb/cdinfodialog.ui:149
+msgid "Avoid custom values, as they will be written to CDDB as-is."
+msgstr "避免使用自定义值，因为这些内容会原样写入 CDDB。"
+
+#. i18n: ectx: property (text), widget (QLabel, lb_id)
+#: libkcddb/cdinfodialog.ui:162
+msgid "Disc Id:"
+msgstr "碟片 ID："
+
+#. i18n: ectx: property (text), widget (QLabel, lb_length)
+#: libkcddb/cdinfodialog.ui:169
+msgid "Length:"
+msgstr "长度："
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, m_trackList)
+#: libkcddb/cdinfodialog.ui:188
+msgid "For a CD-Extra, set title to \"Data\"."
+msgstr "对于含有额外内容的 CD，将标题设置为“数据”。"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_changeEncoding)
+#: libkcddb/cdinfodialog.ui:228
+msgid "Change Encoding..."
+msgstr "更改编码..."
+
+#. i18n: ectx: property (text), widget (QLabel, lb_playingOrder)
+#: libkcddb/cdinfodialog.ui:237
+msgid "Playing order:"
+msgstr "播放顺序："
+
+#: libkcddb/cdinfoencodingwidget.cpp:65
+#, kde-format
+msgctxt "artist - cdtitle"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#. i18n: ectx: property (text), widget (QLabel, encodingLabel)
+#: libkcddb/cdinfoencodingwidget.ui:23
+msgid "Encoding"
+msgstr "编码"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: libkcddb/cdinfoencodingwidget.ui:33
+msgid "Preview"
+msgstr "预览"
+
+#: libkcddb/genres.cpp:66
+msgid "Unknown"
+msgstr "未知"
+
+#: libkcddb/genres.cpp:66
+msgid "A Cappella"
+msgstr "无伴奏合唱"
+
+#: libkcddb/genres.cpp:66
+msgid "Acid Jazz"
+msgstr "酸性爵士"
+
+#: libkcddb/genres.cpp:67
+msgid "Acid Punk"
+msgstr "酸性朋克"
+
+#: libkcddb/genres.cpp:67
+msgid "Acid"
+msgstr "酸性"
+
+#: libkcddb/genres.cpp:67
+msgid "Acoustic"
+msgstr "纯乐队演奏"
+
+#: libkcddb/genres.cpp:67
+msgid "Alternative"
+msgstr "另类"
+
+#: libkcddb/genres.cpp:68
+msgid "Alt. Rock"
+msgstr "另类摇滚"
+
+#: libkcddb/genres.cpp:68
+msgid "Ambient"
+msgstr "环境音乐"
+
+#: libkcddb/genres.cpp:68
+msgid "Anime"
+msgstr "动漫"
+
+#: libkcddb/genres.cpp:68
+msgid "Avantgarde"
+msgstr "先锋音乐"
+
+#: libkcddb/genres.cpp:69
+msgid "Ballad"
+msgstr "歌谣"
+
+#: libkcddb/genres.cpp:69
+msgid "Bass"
+msgstr "贝司"
+
+#: libkcddb/genres.cpp:69
+msgid "Beat"
+msgstr "打击乐"
+
+#: libkcddb/genres.cpp:69
+msgid "Bebop"
+msgstr "博普爵士乐"
+
+#: libkcddb/genres.cpp:70
+msgid "Big Band"
+msgstr "大乐队"
+
+#: libkcddb/genres.cpp:70
+msgid "Black Metal"
+msgstr "黑色金属"
+
+#: libkcddb/genres.cpp:70
+msgid "Bluegrass"
+msgstr "蓝草音乐"
+
+#: libkcddb/genres.cpp:71
+msgid "Booty Bass"
+msgstr "亢奋贝斯"
+
+#: libkcddb/genres.cpp:71
+msgid "BritPop"
+msgstr "英式摇滚"
+
+#: libkcddb/genres.cpp:71
+msgid "Cabaret"
+msgstr "酒馆音乐"
+
+#: libkcddb/genres.cpp:71
+msgid "Celtic"
+msgstr "凯尔特"
+
+#: libkcddb/genres.cpp:72
+msgid "Chamber Music"
+msgstr "室内音乐"
+
+#: libkcddb/genres.cpp:72
+msgid "Chanson"
+msgstr "餐馆助兴乐"
+
+#: libkcddb/genres.cpp:72
+msgid "Chorus"
+msgstr "合唱"
+
+#: libkcddb/genres.cpp:72
+msgid "Christian Gangsta Rap"
+msgstr "基督教黑帮说唱"
+
+#: libkcddb/genres.cpp:73
+msgid "Christian Rap"
+msgstr "基督教说唱"
+
+#: libkcddb/genres.cpp:73
+msgid "Christian Rock"
+msgstr "基督教摇滚"
+
+#: libkcddb/genres.cpp:73
+msgid "Classic Rock"
+msgstr "古典摇滚"
+
+#: libkcddb/genres.cpp:74
+msgid "Club-house"
+msgstr "俱乐部 House"
+
+#: libkcddb/genres.cpp:74
+msgid "Club"
+msgstr "俱乐部"
+
+#: libkcddb/genres.cpp:74
+msgid "Comedy"
+msgstr "喜剧"
+
+#: libkcddb/genres.cpp:74
+msgid "Contemporary Christian"
+msgstr "当代基督教音乐"
+
+#: libkcddb/genres.cpp:75
+msgid "Crossover"
+msgstr "跨界音乐"
+
+#: libkcddb/genres.cpp:75
+msgid "Cult"
+msgstr "异教狂热"
+
+#: libkcddb/genres.cpp:75
+msgid "Dance Hall"
+msgstr "舞厅"
+
+#: libkcddb/genres.cpp:76
+msgid "Dance"
+msgstr "舞曲"
+
+#: libkcddb/genres.cpp:76
+msgid "Darkwave"
+msgstr "阴暗音乐"
+
+#: libkcddb/genres.cpp:76
+msgid "Death Metal"
+msgstr "死亡金属"
+
+#: libkcddb/genres.cpp:76
+msgid "Disco"
+msgstr "迪斯科"
+
+#: libkcddb/genres.cpp:77
+msgid "Dream"
+msgstr "梦幻"
+
+#: libkcddb/genres.cpp:77
+msgid "Drum & Bass"
+msgstr "敲打贝斯"
+
+#: libkcddb/genres.cpp:77
+msgid "Drum Solo"
+msgstr "鼓独奏"
+
+#: libkcddb/genres.cpp:77
+msgid "Duet"
+msgstr "二重奏"
+
+#: libkcddb/genres.cpp:78
+msgid "Easy Listening"
+msgstr "轻音乐"
+
+#: libkcddb/genres.cpp:78
+msgid "Electronic"
+msgstr "电子乐"
+
+#: libkcddb/genres.cpp:78
+msgid "Ethnic"
+msgstr "世界音乐"
+
+#: libkcddb/genres.cpp:78
+msgid "Eurodance"
+msgstr "欧洲舞曲"
+
+#: libkcddb/genres.cpp:79
+msgid "Euro-House"
+msgstr "欧洲 House"
+
+#: libkcddb/genres.cpp:79
+msgid "Euro-Techno"
+msgstr "欧洲数字乐"
+
+#: libkcddb/genres.cpp:79
+msgid "Fast-Fusion"
+msgstr "快速融合"
+
+#: libkcddb/genres.cpp:79
+msgid "Folklore"
+msgstr "民谣"
+
+#: libkcddb/genres.cpp:80
+msgid "Folk/Rock"
+msgstr "民谣摇滚"
+
+#: libkcddb/genres.cpp:80
+msgid "Freestyle"
+msgstr "自由风格"
+
+#: libkcddb/genres.cpp:80
+msgid "Funk"
+msgstr "疯克"
+
+#: libkcddb/genres.cpp:81
+msgid "Fusion"
+msgstr "融合"
+
+#: libkcddb/genres.cpp:81
+msgid "Game"
+msgstr "游戏"
+
+#: libkcddb/genres.cpp:81
+msgid "Gangsta Rap"
+msgstr "黑帮说唱"
+
+#: libkcddb/genres.cpp:81
+msgid "Goa"
+msgstr "Goa"
+
+#: libkcddb/genres.cpp:82
+msgid "Gospel"
+msgstr "福音"
+
+#: libkcddb/genres.cpp:82
+msgid "Gothic Rock"
+msgstr "哥特摇滚"
+
+#: libkcddb/genres.cpp:82
+msgid "Gothic"
+msgstr "哥特"
+
+#: libkcddb/genres.cpp:82
+msgid "Grunge"
+msgstr "垃圾摇滚"
+
+#: libkcddb/genres.cpp:83
+msgid "Hardcore"
+msgstr "硬核"
+
+#: libkcddb/genres.cpp:83
+msgid "Hard Rock"
+msgstr "硬派摇滚"
+
+#: libkcddb/genres.cpp:83
+msgid "Heavy Metal"
+msgstr "重金属"
+
+#: libkcddb/genres.cpp:83
+msgid "Hip-Hop"
+msgstr "嘻哈"
+
+#: libkcddb/genres.cpp:84
+msgid "House"
+msgstr "House"
+
+#: libkcddb/genres.cpp:84
+msgid "Humor"
+msgstr "幽默"
+
+#: libkcddb/genres.cpp:84
+msgid "Indie"
+msgstr "独立流行"
+
+#: libkcddb/genres.cpp:84
+msgid "Industrial"
+msgstr "工业"
+
+#: libkcddb/genres.cpp:85
+msgid "Instrumental Pop"
+msgstr "器乐流行"
+
+#: libkcddb/genres.cpp:85
+msgid "Instrumental Rock"
+msgstr "器乐摇滚"
+
+#: libkcddb/genres.cpp:85
+msgid "Instrumental"
+msgstr "器乐"
+
+#: libkcddb/genres.cpp:85
+msgid "Jazz+Funk"
+msgstr "爵士+疯克"
+
+#: libkcddb/genres.cpp:86
+msgid "JPop"
+msgstr "日式流行乐"
+
+#: libkcddb/genres.cpp:86
+msgid "Jungle"
+msgstr "丛林"
+
+#: libkcddb/genres.cpp:86
+msgid "Latin"
+msgstr "拉丁"
+
+#: libkcddb/genres.cpp:86
+msgid "Lo-Fi"
+msgstr "低保真"
+
+#: libkcddb/genres.cpp:87
+msgid "Meditative"
+msgstr "冥想音乐"
+
+#: libkcddb/genres.cpp:87
+msgid "Merengue"
+msgstr "美伦格舞曲"
+
+#: libkcddb/genres.cpp:87
+msgid "Metal"
+msgstr "金属"
+
+#: libkcddb/genres.cpp:87
+msgid "Musical"
+msgstr "音乐剧"
+
+#: libkcddb/genres.cpp:88
+msgid "National Folk"
+msgstr "国家民谣"
+
+#: libkcddb/genres.cpp:88
+msgid "Native American"
+msgstr "美国土著"
+
+#: libkcddb/genres.cpp:88
+msgid "Negerpunk"
+msgstr "黑人庞克"
+
+#: libkcddb/genres.cpp:89
+msgid "New Wave"
+msgstr "新浪潮"
+
+#: libkcddb/genres.cpp:89
+msgid "Noise"
+msgstr "噪音"
+
+#: libkcddb/genres.cpp:89
+msgid "Oldies"
+msgstr "老歌"
+
+#: libkcddb/genres.cpp:89
+msgid "Opera"
+msgstr "歌剧"
+
+#: libkcddb/genres.cpp:90
+msgid "Other"
+msgstr "其它"
+
+#: libkcddb/genres.cpp:90
+msgid "Polka"
+msgstr "波尔卡"
+
+#: libkcddb/genres.cpp:90
+msgid "Polsk Punk"
+msgstr "波兰庞克"
+
+#: libkcddb/genres.cpp:90
+msgid "Pop-Funk"
+msgstr "流行疯克"
+
+#: libkcddb/genres.cpp:91
+msgid "Pop/Funk"
+msgstr "流行/疯克"
+
+#: libkcddb/genres.cpp:91
+msgid "Pop"
+msgstr "流行"
+
+#: libkcddb/genres.cpp:91
+msgid "Porn Groove"
+msgstr "情色音乐"
+
+#: libkcddb/genres.cpp:91
+msgid "Power Ballad"
+msgstr "强力情歌"
+
+#: libkcddb/genres.cpp:92
+msgid "Pranks"
+msgstr "玩笑"
+
+#: libkcddb/genres.cpp:92
+msgid "Primus"
+msgstr "Primus"
+
+#: libkcddb/genres.cpp:92
+msgid "Progressive Rock"
+msgstr "前卫摇滚"
+
+#: libkcddb/genres.cpp:92
+msgid "Psychedelic Rock"
+msgstr "迷幻摇滚"
+
+#: libkcddb/genres.cpp:93
+msgid "Psychedelic"
+msgstr "迷幻音乐"
+
+#: libkcddb/genres.cpp:93
+msgid "Punk Rock"
+msgstr "朋克摇滚"
+
+#: libkcddb/genres.cpp:93
+msgid "Punk"
+msgstr "朋克"
+
+#: libkcddb/genres.cpp:93
+msgid "R&B"
+msgstr "节奏蓝调"
+
+#: libkcddb/genres.cpp:94
+msgid "Rap"
+msgstr "说唱"
+
+#: libkcddb/genres.cpp:94
+msgid "Rave"
+msgstr "锐舞"
+
+#: libkcddb/genres.cpp:94
+msgid "Retro"
+msgstr "怀旧"
+
+#: libkcddb/genres.cpp:95
+msgid "Revival"
+msgstr "复兴"
+
+#: libkcddb/genres.cpp:95
+msgid "Rhythmic Soul"
+msgstr "节奏灵魂乐"
+
+#: libkcddb/genres.cpp:95
+msgid "Rock & Roll"
+msgstr "摇滚"
+
+#: libkcddb/genres.cpp:96
+msgid "Salsa"
+msgstr "莎莎舞"
+
+#: libkcddb/genres.cpp:96
+msgid "Samba"
+msgstr "桑巴"
+
+#: libkcddb/genres.cpp:96
+msgid "Satire"
+msgstr "讽刺诗文"
+
+#: libkcddb/genres.cpp:96
+msgid "Showtunes"
+msgstr "表演音乐"
+
+#: libkcddb/genres.cpp:97
+msgid "Ska"
+msgstr "Ska"
+
+#: libkcddb/genres.cpp:97
+msgid "Slow Jam"
+msgstr "慢速即兴乐"
+
+#: libkcddb/genres.cpp:97
+msgid "Slow Rock"
+msgstr "慢速摇滚"
+
+#: libkcddb/genres.cpp:97
+msgid "Sonata"
+msgstr "奏鸣曲"
+
+#: libkcddb/genres.cpp:98
+msgid "Soul"
+msgstr "灵乐"
+
+#: libkcddb/genres.cpp:98
+msgid "Sound Clip"
+msgstr "声音剪辑"
+
+#: libkcddb/genres.cpp:98
+msgid "Southern Rock"
+msgstr "南方摇滚"
+
+#: libkcddb/genres.cpp:99
+msgid "Space"
+msgstr "航天"
+
+#: libkcddb/genres.cpp:99
+msgid "Speech"
+msgstr "演讲"
+
+#: libkcddb/genres.cpp:99
+msgid "Swing"
+msgstr "摇摆乐"
+
+#: libkcddb/genres.cpp:99
+msgid "Symphonic Rock"
+msgstr "交响摇滚"
+
+#: libkcddb/genres.cpp:100
+msgid "Symphony"
+msgstr "交响乐"
+
+#: libkcddb/genres.cpp:100
+msgid "Synthpop"
+msgstr "合成器流行乐"
+
+#: libkcddb/genres.cpp:100
+msgid "Tango"
+msgstr "探戈"
+
+#: libkcddb/genres.cpp:100
+msgid "Techno-Industrial"
+msgstr "数字工业"
+
+#: libkcddb/genres.cpp:101
+msgid "Techno"
+msgstr "数字舞曲"
+
+#: libkcddb/genres.cpp:101
+msgid "Terror"
+msgstr "恐怖"
+
+#: libkcddb/genres.cpp:101
+msgid "Thrash Metal"
+msgstr "鞭挞金属"
+
+#: libkcddb/genres.cpp:101
+msgid "Top 40"
+msgstr "美国排行榜"
+
+#: libkcddb/genres.cpp:102
+msgid "Trailer"
+msgstr "预告片"
+
+#: libkcddb/genres.cpp:102
+msgid "Trance"
+msgstr "恍惚"
+
+#: libkcddb/genres.cpp:102
+msgid "Tribal"
+msgstr "部落"
+
+#: libkcddb/genres.cpp:102
+msgid "Trip-Hop"
+msgstr "迷幻舞曲"
+
+#: libkcddb/genres.cpp:103
+msgid "Vocal"
+msgstr "人声"
+
+#: libkcddb/kcddb.cpp:32
+msgid "Success"
+msgstr "成功"
+
+#: libkcddb/kcddb.cpp:36
+msgid "Server error"
+msgstr "服务器错误"
+
+#: libkcddb/kcddb.cpp:40
+msgid "Host not found"
+msgstr "没有找到主机"
+
+#: libkcddb/kcddb.cpp:44
+msgid "No response"
+msgstr "没有响应"
+
+#: libkcddb/kcddb.cpp:48
+msgid "No record found"
+msgstr "没有找到记录"
+
+#: libkcddb/kcddb.cpp:52
+msgid "Multiple records found"
+msgstr "找到多条记录"
+
+#: libkcddb/kcddb.cpp:56
+msgid "Cannot save"
+msgstr "无法保存"
+
+#: libkcddb/kcddb.cpp:60
+msgid "Invalid category"
+msgstr "无效的类别"
+
+#: libkcddb/kcddb.cpp:64
+msgid "Unknown error"
+msgstr "未知错误"
+
+#: libkcddb/musicbrainz/musicbrainzlookup.cpp:123
+#, kde-format
+msgid "%1 (disc %2)"
+msgstr "%1 (盘片 %2)"

@@ -1,0 +1,96 @@
+# translation of kgamma.po to Chinese(Simplified)
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Justin Fang <justin_fang@msn.com>, 2003
+# Lie_Ex <lilith.ex@gmail.com>, 2007
+msgid ""
+msgstr ""
+"Project-Id-Version: kgamma\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-08-02 06:13+0200\n"
+"PO-Revision-Date: 2007-09-20 14:02+0800\n"
+"Last-Translator: Lie_Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: kgamma.cpp:147
+msgid "&Select test picture:"
+msgstr "选择测试图片(&S)："
+
+#: kgamma.cpp:152
+msgid "Gray Scale"
+msgstr "灰度比例"
+
+#: kgamma.cpp:153
+msgid "RGB Scale"
+msgstr "RGB 比例"
+
+#: kgamma.cpp:154
+msgid "CMY Scale"
+msgstr "CMY 比例"
+
+#: kgamma.cpp:155
+msgid "Dark Gray"
+msgstr "深灰色"
+
+#: kgamma.cpp:156
+msgid "Mid Gray"
+msgstr "中度灰色"
+
+#: kgamma.cpp:157
+msgid "Light Gray"
+msgstr "浅灰色"
+
+#: kgamma.cpp:211
+msgid "Gamma:"
+msgstr "伽玛："
+
+#: kgamma.cpp:214
+msgid "Red:"
+msgstr "红色："
+
+#: kgamma.cpp:217
+msgid "Green:"
+msgstr "绿色："
+
+#: kgamma.cpp:220
+msgid "Blue:"
+msgstr "蓝色："
+
+#: kgamma.cpp:266
+msgid "Save settings system wide"
+msgstr "保存设置到系统全局"
+
+#: kgamma.cpp:269
+msgid "Sync screens"
+msgstr "屏幕同步"
+
+#: kgamma.cpp:275
+#, kde-format
+msgid "Screen %1"
+msgstr "屏幕 %1"
+
+#: kgamma.cpp:293
+msgid "Gamma correction is not supported by your graphics hardware or driver."
+msgstr "您的图形硬件或驱动程序不支持 Gamma 校正。"
+
+#: kgamma.cpp:601
+msgid ""
+"<h1>Monitor Gamma</h1> This is a tool for changing monitor gamma correction. "
+"Use the four sliders to define the gamma correction either as a single "
+"value, or separately for the red, green and blue components. You may need to "
+"correct the brightness and contrast settings of your monitor for good "
+"results. The test images help you to find proper settings.<br> You can save "
+"them system-wide to XF86Config (root access is required for that) or to your "
+"own KDE settings. On multi head systems you can correct the gamma values "
+"separately for all screens."
+msgstr ""
+"<h1>显示器伽玛</h1> 此工具为显示器调节之用。用四个滑块， 它既可以将伽玛修正值"
+"设定成单一值，也可以单独设定其中的红、绿、蓝部分。您也许需要修正您显示器的亮"
+"度及对比度设定至最佳。测试图像可以帮助您找到合适的设定。<br>您可以将设定值保"
+"存在系统级的 XF86Config 中(需要 root 用户权限)，也可以保存在您自己的 KDE 设置"
+"中。在多显示器的系统中，您可以为单个屏幕调整相应的伽玛值。"

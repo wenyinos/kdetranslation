@@ -1,0 +1,101 @@
+# translation of mplayerthumbsconfig.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: mplayerthumbsconfig\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-06-09 04:33+0200\n"
+"PO-Revision-Date: 2009-05-10 12:56+0000\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: configDialog.ui:19
+msgid "Backend"
+msgstr "后端"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_createStrips)
+#: configDialog.ui:31
+msgid "Create strips around thumbnails"
+msgstr "在缩略图周围创建条形框"
+
+#. i18n: ectx: property (text), widget (KPushButton, clean_cache)
+#: configDialog.ui:40
+msgid "Clean Cache"
+msgstr "清除缓存"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupbox)
+#: configDialog.ui:68
+msgid "Blacklisted File Extensions"
+msgstr "屏蔽的文件扩展名"
+
+#: main.cpp:29 main.cpp:35
+msgid "MPlayerThumbs Configuration Utility"
+msgstr "MPlayerThumbs 配置工具"
+
+#: main.cpp:36
+msgid "(C) 2006 Marco Gulino"
+msgstr "(C) 2006 Marco Gulino"
+
+#: main.cpp:37
+msgid "Marco Gulino"
+msgstr "Marco Gulino"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, mplayerConfig)
+#: mplayerConfig.ui:14
+msgid "mplayer config"
+msgstr "mplayer 配置"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: mplayerConfig.ui:20
+msgid "Enter the path for mplayer executable file."
+msgstr "输入 mplayer 可执行文件的路径。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: mplayerConfig.ui:30
+msgid "Custom arguments for mplayer"
+msgstr "mplayer 的自定义参数"
+
+#: mplayerthumbscfg.cpp:44
+msgid "General"
+msgstr "常规"
+
+#: mplayerthumbscfg.cpp:45
+msgid "MPlayer Backend"
+msgstr "MPlayer 后端"
+
+#: mplayerthumbscfg.cpp:50
+msgid "MPlayer"
+msgstr "MPlayer"
+
+#: mplayerthumbscfg.cpp:51
+msgid "Phonon"
+msgstr "Phonon"
+
+#: mplayerthumbscfg.cpp:75
+msgid ""
+"Cleaning the cache will delete all the previously generated thumbnails.\n"
+"Note that as there is a single common thumbnail cache, the thumbnails for "
+"all other file types will also be deleted.\n"
+"Do you really want to clean up the cache?"
+msgstr ""
+"清除缓存将删除先前已生成的全部缩略图。\n"
+"注意，由于这是一个仅有的通用缩略图缓存，其它文件类型的缩略图也会被删除。\n"
+"您确实想要清理缓存吗？"

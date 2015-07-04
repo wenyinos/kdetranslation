@@ -1,0 +1,195 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# FengChao <rainofchaos@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-15 01:31+0000\n"
+"PO-Revision-Date: 2012-12-15 11:00+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: libkgapi2/accountinfo/accountinfofetchjob.cpp:74
+#: libkgapi2/calendar/calendarcreatejob.cpp:96
+#: libkgapi2/calendar/calendarfetchjob.cpp:118
+#: libkgapi2/calendar/calendarmodifyjob.cpp:95
+#: libkgapi2/calendar/eventcreatejob.cpp:98
+#: libkgapi2/calendar/eventfetchjob.cpp:217
+#: libkgapi2/calendar/eventmodifyjob.cpp:97
+#: libkgapi2/calendar/eventmovejob.cpp:150
+#: libkgapi2/contacts/contactcreatejob.cpp:150
+#: libkgapi2/contacts/contactmodifyjob.cpp:155
+#: libkgapi2/contacts/contactsgroupcreatejob.cpp:106
+#: libkgapi2/contacts/contactsgroupfetchjob.cpp:115
+#: libkgapi2/contacts/contactsgroupmodifyjob.cpp:108
+#: libkgapi2/drive/aboutfetchjob.cpp:140 libkgapi2/drive/appfetchjob.cpp:90
+#: libkgapi2/drive/changefetchjob.cpp:193
+#: libkgapi2/drive/childreferencecreatejob.cpp:138
+#: libkgapi2/drive/childreferencefetchjob.cpp:117
+#: libkgapi2/drive/fileabstractmodifyjob.cpp:128
+#: libkgapi2/drive/fileabstractuploadjob.cpp:322
+#: libkgapi2/drive/filecopyjob.cpp:152 libkgapi2/drive/filefetchjob.cpp:161
+#: libkgapi2/drive/parentreferencecreatejob.cpp:138
+#: libkgapi2/drive/parentreferencefetchjob.cpp:96
+#: libkgapi2/drive/permissioncreatejob.cpp:115
+#: libkgapi2/drive/permissionfetchjob.cpp:119
+#: libkgapi2/drive/permissionmodifyjob.cpp:114
+#: libkgapi2/drive/revisionfetchjob.cpp:95
+#: libkgapi2/drive/revisionmodifyjob.cpp:112
+#: libkgapi2/latitude/locationcreatejob.cpp:97
+#: libkgapi2/latitude/locationfetchhistoryjob.cpp:151
+#: libkgapi2/latitude/locationfetchjob.cpp:107
+#: libkgapi2/tasks/taskcreatejob.cpp:118 libkgapi2/tasks/taskfetchjob.cpp:249
+#: libkgapi2/tasks/tasklistcreatejob.cpp:95
+#: libkgapi2/tasks/tasklistfetchjob.cpp:95
+#: libkgapi2/tasks/tasklistmodifyjob.cpp:97
+#: libkgapi2/tasks/taskmodifyjob.cpp:98
+#, fuzzy
+#| msgid "Unknown reply content type."
+msgid "Invalid response content type"
+msgstr "未知回复内容类型."
+
+#: libkgapi2/authjob.cpp:160
+msgid "Failed to parse newly fetched tokens"
+msgstr ""
+
+#: libkgapi2/authjob.cpp:205
+msgid "Account name is empty"
+msgstr ""
+
+#: libkgapi2/calendar/calendar.cpp:94
+msgid "Google Calendar"
+msgstr "Google 日历"
+
+#: libkgapi2/job.cpp:132
+msgid "Bad request."
+msgstr "错误的请求"
+
+#: libkgapi2/job.cpp:139
+msgid "Invalid authentication."
+msgstr ""
+
+#: libkgapi2/job.cpp:148
+#, kde-format
+msgid ""
+"Requested resource is forbidden.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"禁止访问请求的资源。\n"
+"\n"
+"谷歌回复“%1”"
+
+#: libkgapi2/job.cpp:158
+#, kde-format
+msgid ""
+"Requested resource does not exist.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+
+#: libkgapi2/job.cpp:174
+#, kde-format
+msgid ""
+"Conflict. Remote resource is newer than local.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+
+#: libkgapi2/job.cpp:184
+#, kde-format
+msgid ""
+"Requested resource does not exist anymore.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+
+#: libkgapi2/job.cpp:194
+#, kde-format
+msgid ""
+"Internal server error. Try again later.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"服务器内部错误，请稍后重试。\n"
+"\n"
+"谷歌回复“%1”"
+
+#: libkgapi2/job.cpp:212
+#, fuzzy, kde-format
+#| msgid ""
+#| "User quota exceeded. Try again later.\n"
+#| "\n"
+#| "Google replied '%1'"
+msgid ""
+"Maximum quota exceeded. Try again later.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"用户配额已满。请稍后重试。\n"
+"\n"
+"谷歌回复“%1”"
+
+#: libkgapi2/job.cpp:234
+#, kde-format
+msgid ""
+"Unknown error.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"未知错误。\n"
+"\n"
+"谷歌回复“%1”"
+
+#: libkgapi2/private/newtokensfetchjob.cpp:132
+msgid "Failed to parse server response."
+msgstr ""
+
+#: libkgapi2/ui/authwidget.cpp:87
+msgid "Invalid account"
+msgstr ""
+
+#: libkgapi2/ui/authwidget.cpp:91
+msgid "No scopes to authenticate for"
+msgstr ""
+
+#: libkgapi2/ui/authwidget_p.cpp:62
+msgid "Authorizing token. This should take just a moment..."
+msgstr ""
+
+#: libkgapi2/ui/authwidget_p.cpp:156
+msgid "Parsing token page failed."
+msgstr ""
+
+#: libkgapi2/ui/authwidget_p.cpp:163
+msgid "Failed to obtain token."
+msgstr ""
+
+#~ msgid "No valid reply received"
+#~ msgstr "未收到有效回复"
+
+#~ msgid "Authentication cancelled"
+#~ msgstr "认证取消"
+
+#~ msgid "An unknown error has occurred."
+#~ msgstr "发生了未知错误。"
+
+#~ msgid "Unknown account '%1'"
+#~ msgstr "未知帐号“%1”"
+
+#~ msgid "Unknown service '%1'"
+#~ msgstr "未知的服务“%1”"
+
+#~ msgid "KWallet is not opened."
+#~ msgstr "KWallet未打开。"
+
+#~ msgid "The account is invalid."
+#~ msgstr "帐号无效。"

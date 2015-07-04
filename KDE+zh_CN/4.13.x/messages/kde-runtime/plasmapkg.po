@@ -1,0 +1,307 @@
+# translation of plasmapkg.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008.
+# Lie Ex <lilith.ex@gmail.com>, 2009-2010.
+# Feng Chao <rainofchaos@gmail.com>, 2011, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasmapkg\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-08-22 01:42+0000\n"
+"PO-Revision-Date: 2012-04-11 22:00+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国,Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org,shuizhuyuanluo@126.com"
+
+#: main.cpp:42
+msgid "Install, list, remove Plasma packages"
+msgstr "安装、列出、删除 Plasma 包"
+
+#: main.cpp:85
+msgid "Addon Name"
+msgstr "插件名称"
+
+#: main.cpp:86
+msgid "Service Type"
+msgstr "服务类型"
+
+#: main.cpp:87
+msgid "Path"
+msgstr "路径"
+
+#: main.cpp:127
+msgid "Package types that are installable with this tool:"
+msgstr "使用本工具可安装的包类型："
+
+#: main.cpp:128
+msgid "Built in:"
+msgstr "构建于："
+
+#: main.cpp:131
+msgid "DataEngine"
+msgstr "数据引擎"
+
+#: main.cpp:132
+msgid "Layout Template"
+msgstr "布局模板"
+
+#: main.cpp:133
+msgid "Plasmoid"
+msgstr "Plasmoid"
+
+#: main.cpp:134
+msgid "Runner"
+msgstr "运行器"
+
+#: main.cpp:135
+msgid "Theme"
+msgstr "主题"
+
+#: main.cpp:136
+msgid "Wallpaper Images"
+msgstr "墙纸"
+
+#: main.cpp:137
+msgid "Wallpaper Plugin"
+msgstr "壁纸插件"
+
+#: main.cpp:138
+msgid "KWin Effect"
+msgstr "KWin 效果"
+
+#: main.cpp:139
+msgid "KWin Window Switcher"
+msgstr "KWin 窗口切换器"
+
+#: main.cpp:140
+msgid "KWin Script"
+msgstr "KWin 脚本"
+
+#: main.cpp:150
+msgid "Provided by plugins:"
+msgstr "插件提供："
+
+#: main.cpp:167
+msgid "Provided by .desktop files:"
+msgstr ".desktop 定义文件提供："
+
+#: main.cpp:183
+msgid "Plasma Package Manager"
+msgstr "Plasma 包管理器"
+
+#: main.cpp:185
+msgid "(C) 2008, Aaron Seigo"
+msgstr "(C) 2008，Aaron Seigo"
+
+#: main.cpp:186
+msgid "Aaron Seigo"
+msgstr "Aaron Seigo"
+
+#: main.cpp:187
+msgid "Original author"
+msgstr "原作者"
+
+#: main.cpp:196
+msgctxt "Do not translate <path>"
+msgid "Generate a SHA1 hash for the package at <path>"
+msgstr "生成位于 <path> 包的哈希值。"
+
+#: main.cpp:198
+msgid "For install or remove, operates on packages installed for all users."
+msgstr "供所有用户安装新包或对已安装的包进行删除等操作。"
+
+#: main.cpp:204
+msgctxt ""
+"theme, wallpaper, etc. are keywords, but they may be translated, as both "
+"versions are recognized by the application (if translated, should be same as "
+"messages with 'package type' context below)"
+msgid ""
+"The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
+"layout-template, etc."
+msgstr ""
+"包的类型，例如主题、墙纸、plasmoid(plasma 部件)、数据引擎、运行器、布局模板等"
+"等。"
+
+#: main.cpp:208
+msgctxt "Do not translate <path>"
+msgid "Install the package at <path>"
+msgstr "安装 <path> 处的包"
+
+#: main.cpp:210
+msgctxt "Do not translate <path>"
+msgid "Upgrade the package at <path>"
+msgstr "升级 <path> 处的包"
+
+#: main.cpp:212
+msgid "List installed packages"
+msgstr "列出已安装的包"
+
+#: main.cpp:213
+msgid "lists all known Package types that can be installed"
+msgstr "列出所有已知的可安装包类型"
+
+#: main.cpp:215
+msgctxt "Do not translate <name>"
+msgid "Remove the package named <name>"
+msgstr "删除名为 <name> 的包"
+
+#: main.cpp:217
+msgid ""
+"Absolute path to the package root. If not supplied, then the standard data "
+"directories for this KDE session will be searched instead."
+msgstr ""
+"包目录树的绝对路径。如果不提供，那么将会搜索本次 KDE 会话的标准数据目录。"
+
+#: main.cpp:230
+#, kde-format
+msgid "Failed to generate a Package hash for %1"
+msgstr "生成 %1 的包哈希值失败"
+
+#: main.cpp:234
+#, kde-format
+msgid "SHA1 hash for Package at %1: '%2'"
+msgstr "位于 %1 的包的 SHA1 哈希值：'%2'"
+
+#: main.cpp:265 main.cpp:310
+msgctxt "package type"
+msgid "wallpaper"
+msgstr "墙纸"
+
+#: main.cpp:300
+msgctxt "package type"
+msgid "plasmoid"
+msgstr "plasmoid"
+
+#: main.cpp:307 main.cpp:414
+msgctxt "package type"
+msgid "theme"
+msgstr "主题"
+
+#: main.cpp:313
+msgctxt "package type"
+msgid "dataengine"
+msgstr "数据引擎"
+
+#: main.cpp:318
+msgctxt "package type"
+msgid "runner"
+msgstr "运行器"
+
+#: main.cpp:323
+msgctxt "package type"
+msgid "wallpaperplugin"
+msgstr "壁纸插件"
+
+#: main.cpp:328
+msgctxt "package type"
+msgid "layout-template"
+msgstr "布局模板"
+
+#: main.cpp:333
+msgctxt "package type"
+msgid "kwineffect"
+msgstr "kwineffect"
+
+#: main.cpp:338
+msgctxt "package type"
+msgid "windowswitcher"
+msgstr "windowswitcher"
+
+#: main.cpp:343
+msgctxt "package type"
+msgid "kwinscript"
+msgstr "kwinscript"
+
+#: main.cpp:352
+#, kde-format
+msgid "Could not find a suitable installer for package of type %1"
+msgstr "找不到适合包类型 %1 的安装器"
+
+#: main.cpp:361
+#, kde-format
+msgid "Could not load installer for package of type %1. Error reported was: %2"
+msgstr "无法装入对应类型 %1 的包安装器。报告的错误是：%2"
+
+#: main.cpp:381
+msgctxt ""
+"The user entered conflicting options packageroot and global, this is the "
+"error message telling the user he can use only one"
+msgid ""
+"The packageroot and global options conflict each other, please select only "
+"one."
+msgstr "包目录树的选项和全局选项相互冲突，请选择其中一个。"
+
+#: main.cpp:406 main.cpp:417
+#, kde-format
+msgid "Successfully removed %1"
+msgstr "成功删除 %1"
+
+#: main.cpp:408 main.cpp:419
+#, kde-format
+msgid "Removal of %1 failed."
+msgstr "%1 删除失败。"
+
+#: main.cpp:424
+#, kde-format
+msgid "Plugin %1 is not installed."
+msgstr "未安装插件 %1。"
+
+#: main.cpp:430
+#, kde-format
+msgid "Successfully installed %1"
+msgstr "成功安装 %1"
+
+#: main.cpp:432
+#, kde-format
+msgid "Installation of %1 failed."
+msgstr "%1 安装失败。"
+
+#: main.cpp:438
+msgctxt ""
+"No option was given, this is the error message telling the user he needs at "
+"least one, do not translate install, remove, upgrade nor list"
+msgid "One of install, remove, upgrade or list is required."
+msgstr "要求至少指定一个安装、删除、升级或列出操作。"
+
+#~ msgid "    dataengine: Plasma DataEngine plugin"
+#~ msgstr "    数据引擎：Plasma 数据引擎插件"
+
+#~ msgid "    layout-template: Plasma containment and widget layout script"
+#~ msgstr "    布局模板：Plasma 容器与部件布局脚本"
+
+#~ msgid "    plasmoid: Plasma widget"
+#~ msgstr "    小程序：Plasma 小部件"
+
+#~ msgid "    runner: Search plugin (KRunner, etc)"
+#~ msgstr "    启动器：搜索插件(KRunner 等)"
+
+#~ msgid "    theme: Plasma SVG theme"
+#~ msgstr "    主题：Plasma 可缩放矢量图主题"
+
+#~ msgid "    wallpaper: Image pack for use with wallpaper backgrounds"
+#~ msgstr "    壁纸：背景壁纸的图像包"
+
+#~ msgid "    wallpaperplugin: Wallpaper plugin"
+#~ msgstr "    壁纸插件：壁纸插件"
+
+#~ msgctxt ""
+#~ "Plugin name and the kind of Plasma related content it provides, both from "
+#~ "the plugin's desktop file"
+#~ msgid "    %1: %2"
+#~ msgstr "    %1：%2"

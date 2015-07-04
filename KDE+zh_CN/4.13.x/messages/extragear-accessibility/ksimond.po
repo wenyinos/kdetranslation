@@ -1,0 +1,178 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# FengChao <rainofchaos@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-12-22 02:02+0100\n"
+"PO-Revision-Date: 2012-04-22 14:56+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: label, entry (AutoStart), group (KSimond)
+#. i18n: ectx: tooltip, entry (AutoStart), group (KSimond)
+#: config/ksimondconfiguration.kcfg:11 config/ksimondconfiguration.kcfg:13
+msgid "Whether we want to start ksimond when KDE is started."
+msgstr ""
+
+#. i18n: ectx: label, entry (AutoStartSimond), group (KSimond)
+#. i18n: ectx: tooltip, entry (AutoStartSimond), group (KSimond)
+#: config/ksimondconfiguration.kcfg:16 config/ksimondconfiguration.kcfg:18
+msgid "Whether we want to start simond automatically."
+msgstr ""
+
+#. i18n: ectx: label, entry (AutoReStartSimond), group (KSimond)
+#. i18n: ectx: tooltip, entry (AutoReStartSimond), group (KSimond)
+#: config/ksimondconfiguration.kcfg:21 config/ksimondconfiguration.kcfg:23
+msgid ""
+"Whether we want to start simond automatically after it has quit unexpectedly."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoStart)
+#: config/ksimondconfiguration.ui:20
+msgid "Start KSimond when logging in"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoStartSimond)
+#: config/ksimondconfiguration.ui:27
+msgid "Start Simond when KSimond starts"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoReStartSimond)
+#: config/ksimondconfiguration.ui:34
+msgid "Restart Simond if it quits unexpectedly"
+msgstr ""
+
+#: src/ksimondview.cpp:55
+#, fuzzy
+#| msgid "simond"
+msgid "Simond"
+msgstr "simond"
+
+#: src/ksimondview.cpp:58 src/ksimondview.cpp:86
+#, fuzzy
+#| msgid "Start simond"
+msgid "Start Simond"
+msgstr "启动 simond"
+
+#: src/ksimondview.cpp:63 src/ksimondview.cpp:85
+#, fuzzy
+#| msgid "Start simon"
+msgid "Start Simon"
+msgstr "启动 simon"
+
+#: src/ksimondview.cpp:68 src/ksimondview.cpp:87
+#, fuzzy
+#| msgid "Restart simond"
+msgid "Restart Simond"
+msgstr "重启 simond"
+
+#: src/ksimondview.cpp:74 src/ksimondview.cpp:88
+#, fuzzy
+#| msgid "Stop simond"
+msgid "Stop Simond"
+msgstr "停止 simond"
+
+#: src/ksimondview.cpp:80 src/ksimondview.cpp:89
+msgid "Configuration"
+msgstr "配置"
+
+#: src/ksimondview.cpp:118
+msgid "simond is already running"
+msgstr "simond 正在运行"
+
+#: src/ksimondview.cpp:139
+msgid "simond stopped"
+msgstr "simond 已停止"
+
+#: src/ksimondview.cpp:154
+msgid "simond started"
+msgstr "simond 已启动"
+
+#: src/ksimondview.cpp:182
+#, kde-format
+msgid ""
+"Could not start simond.\n"
+"\n"
+"Please check your configuration.\n"
+"\n"
+"Command: \"%1\""
+msgstr ""
+"无法启动 simond。\n"
+"\n"
+"请检查配置。\n"
+"\n"
+"命令：\"%1\""
+
+#: src/ksimondview.cpp:186
+#, kde-format
+msgctxt "%1 is a status message"
+msgid "simond crashed. (Status: %1)"
+msgstr "simond 崩溃。(状态：%1)"
+
+#: src/ksimondview.cpp:190
+msgid "Timeout."
+msgstr "超时。"
+
+#: src/ksimondview.cpp:193
+msgid "Could not communicate with simond: Write failed."
+msgstr "无法与 simond 通讯：写入失败。"
+
+#: src/ksimondview.cpp:196
+msgid "Could not communicate with simond: Read failed."
+msgstr "无法与 simond 通讯：读取失败。"
+
+#: src/ksimondview.cpp:199
+msgid "Unknown Error"
+msgstr "未知错误"
+
+#: src/main.cpp:28
+#, fuzzy
+#| msgid "A KDE 4 frontend for simond"
+msgid "A KDE 4 frontend for Simond"
+msgstr "simond 的 KDE 前端"
+
+#: src/main.cpp:32
+#, fuzzy
+#| msgid "simond"
+msgid "KSimond"
+msgstr "simond"
+
+#: src/main.cpp:33
+msgid "(C) 2008 Peter Grasch"
+msgstr "(C) 2008 Peter Grasch"
+
+#: src/main.cpp:34
+msgid "Peter Grasch"
+msgstr "Peter Grasch"
+
+#~ msgid "Start simon"
+#~ msgstr "启动 simon"
+
+#~ msgid "Start simond"
+#~ msgstr "启动 simond"
+
+#~ msgid "Restart simond"
+#~ msgstr "重启 simond"
+
+#~ msgid "Stop simond"
+#~ msgstr "停止 simond"
+
+#~ msgid "ksimond"
+#~ msgstr "ksimond"

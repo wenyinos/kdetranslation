@@ -1,0 +1,552 @@
+# translation of PACKAGE.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# , fuzzy
+#
+#
+# <jeffbaichina@gmail.com>, 2005, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 16:24+0200\n"
+"PO-Revision-Date: 2013-08-28 22:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#.
+#. * Archivo de cadenas traducibles generado por Glade.
+#. * Añada este archivo a su POTFILES.in de su proyecto.
+#. * NO lo compile como parte de su aplicación.
+#.
+#: ../data/pysdm.glade.h:7 ../pysdm/pysdm.py:52
+msgid "Storage Device Manager"
+msgstr "存储设备管理器"
+
+#: ../data/pysdm.glade.h:8
+msgid "Type"
+msgstr "类型"
+
+#: ../data/pysdm.glade.h:9
+msgid "Mountpoint"
+msgstr "挂载点"
+
+#: ../data/pysdm.glade.h:10 ../data/pysdm.glade.h:22
+msgid "Name"
+msgstr "名称"
+
+#: ../data/pysdm.glade.h:11
+msgid "Options"
+msgstr "设置"
+
+#: ../data/pysdm.glade.h:12
+msgid "Set defaults"
+msgstr "设置为默认值"
+
+#: ../data/pysdm.glade.h:13
+msgid "Assistant"
+msgstr "助手"
+
+#: ../data/pysdm.glade.h:14 ../pysdm/pysdm.py:113 ../pysdm/pysdm.py:347
+msgid "Mount"
+msgstr "挂载"
+
+#: ../data/pysdm.glade.h:15
+msgid "Remove"
+msgstr "移除"
+
+#: ../data/pysdm.glade.h:16
+msgid "<b>Information</b>"
+msgstr "<b>信息</b>"
+
+#: ../data/pysdm.glade.h:17
+msgid "General Configuration"
+msgstr "基本配置"
+
+#: ../data/pysdm.glade.h:18
+msgid "name"
+msgstr "名称"
+
+#: ../data/pysdm.glade.h:19
+msgid "vendor"
+msgstr "厂商"
+
+#: ../data/pysdm.glade.h:20
+msgid "model"
+msgstr "型号"
+
+#: ../data/pysdm.glade.h:21
+msgid "serial"
+msgstr "序列号"
+
+#: ../data/pysdm.glade.h:23
+msgid "Vendor"
+msgstr "厂商"
+
+#: ../data/pysdm.glade.h:24
+msgid "Model"
+msgstr "型号"
+
+#: ../data/pysdm.glade.h:25
+msgid "Serial"
+msgstr "序列号"
+
+#: ../data/pysdm.glade.h:26
+msgid "Bus"
+msgstr "总线"
+
+#: ../data/pysdm.glade.h:27
+msgid "bus"
+msgstr "总线"
+
+#: ../data/pysdm.glade.h:28
+msgid "<b>Attributes</b>"
+msgstr "<b>属性</b>"
+
+#: ../data/pysdm.glade.h:29
+msgid "Up"
+msgstr "上移"
+
+#: ../data/pysdm.glade.h:30
+msgid "Down"
+msgstr "下移"
+
+#: ../data/pysdm.glade.h:31
+msgid "Edit"
+msgstr "编辑"
+
+#: ../data/pysdm.glade.h:32
+msgid "Delete"
+msgstr "删除"
+
+#: ../data/pysdm.glade.h:33
+msgid "New"
+msgstr "新建"
+
+#: ../data/pysdm.glade.h:34
+msgid "<b>Rules</b>"
+msgstr "<b>规则</b>"
+
+#: ../data/pysdm.glade.h:35
+msgid "Dynamic configuration rules"
+msgstr "动态配置规则"
+
+#. mounting options
+#. special files options
+#. journaling options
+#. quota options
+#. performance options
+#. other options
+#: ../pysdm/fsdata/constants.py:8
+msgid "Mounting"
+msgstr "正在挂载"
+
+#: ../pysdm/fsdata/constants.py:8
+msgid "Special Files"
+msgstr "特殊文件"
+
+#: ../pysdm/fsdata/constants.py:8
+msgid "Journaling"
+msgstr "正在写入日志"
+
+#: ../pysdm/fsdata/constants.py:8
+msgid "Quota"
+msgstr "配额"
+
+#: ../pysdm/fsdata/constants.py:8
+msgid "Performance"
+msgstr "性能"
+
+#: ../pysdm/fsdata/constants.py:8
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#: ../pysdm/fsdata/default.py:5
+msgid "Update file time for each access"
+msgstr "在每次访问文件时更新时间戳"
+
+#: ../pysdm/fsdata/default.py:6
+msgid "Update directory time for each access"
+msgstr "在每次访问目录时更新时间戳"
+
+#: ../pysdm/fsdata/default.py:7
+msgid "The file system is mounted at boot time"
+msgstr "这个文件系统在启动时被挂载"
+
+#: ../pysdm/fsdata/default.py:8
+msgid "Interpret character or block special devices on the file system"
+msgstr "阐释文件系统中的字符或特殊块设备"
+
+#: ../pysdm/fsdata/default.py:9
+msgid "Permit execution of binaries"
+msgstr "允许执行二进制文件"
+
+#: ../pysdm/fsdata/default.py:10
+msgid "Allow a user to mount and unmount the file system"
+msgstr "允许一个用户挂载或卸载这个文件系统"
+
+#: ../pysdm/fsdata/default.py:11
+msgid "Allow any user to mount the file system"
+msgstr "允许任何用户挂载这个文件系统"
+
+#: ../pysdm/fsdata/default.py:12
+msgid "Allow a group to mount this file system"
+msgstr "允许一个用户组挂载这个文件系统"
+
+#: ../pysdm/fsdata/default.py:13
+msgid "This file system requires network"
+msgstr "这个文件系统需要网络"
+
+#: ../pysdm/fsdata/default.py:14
+msgid "The owner of the device can mount it"
+msgstr "它可以被设备所有者挂载"
+
+#: ../pysdm/fsdata/default.py:15
+msgid "Permit executables to change user/group identity"
+msgstr "允许可执行文件更改用户/用户组身份"
+
+#: ../pysdm/fsdata/default.py:16
+msgid "Mount file system in read-only mode"
+msgstr "以只读模式挂载文件系统"
+
+#: ../pysdm/fsdata/default.py:17
+msgid "I/O to the file system should be done synchronously"
+msgstr "该文件系统的 I/O 操作应当同步完成"
+
+#: ../pysdm/fsdata/default.py:18
+msgid "All directory updates should be done synchronously"
+msgstr "所有目录更新应当同步完成"
+
+#: ../pysdm/fsdata/ext2.py:5 ../pysdm/fsdata/ext3.py:5
+msgid "Support POSIX access list"
+msgstr "支持 POSIX 访问列表"
+
+#: ../pysdm/fsdata/ext2.py:6 ../pysdm/fsdata/ext3.py:6
+msgid "Minix behaviour for stat information"
+msgstr "Minix 的信息统计行为"
+
+#: ../pysdm/fsdata/ext2.py:7 ../pysdm/fsdata/ext3.py:7
+msgid "Check file system at mount time"
+msgstr "在挂载文件系统时检查错误"
+
+#: ../pysdm/fsdata/ext2.py:8 ../pysdm/fsdata/ext3.py:8
+msgid "Print debugging info"
+msgstr "输出除错信息"
+
+#: ../pysdm/fsdata/ext2.py:9 ../pysdm/fsdata/ext3.py:9
+msgid "Specify what to do in case of error"
+msgstr "指定出错时的操作"
+
+#: ../pysdm/fsdata/ext2.py:10 ../pysdm/fsdata/ext3.py:10
+msgid "Get group id from the directory for a new file"
+msgstr "在创建文件时从目录获取用户组 ID"
+
+#: ../pysdm/fsdata/ext2.py:11 ../pysdm/fsdata/ext3.py:11
+msgid "Do not attach buffer_heads to file pagecache"
+msgstr "不要将 buffer_heads 附加到页面缓存"
+
+#: ../pysdm/fsdata/ext2.py:12 ../pysdm/fsdata/ext3.py:12
+msgid "Disables 32 bit user and group id"
+msgstr "关闭 32 位用户和组 ID"
+
+#: ../pysdm/fsdata/ext2.py:13 ../pysdm/fsdata/ext3.py:13
+msgid "Use old new inode allocator"
+msgstr "使用新/旧 inode 分配方式"
+
+#: ../pysdm/fsdata/ext2.py:14 ../pysdm/fsdata/ext3.py:14
+msgid "Group allowed to use reserved space"
+msgstr "被允许使用受限制空间的用户组"
+
+#: ../pysdm/fsdata/ext2.py:15 ../pysdm/fsdata/ext3.py:15
+msgid "User allowed to use reserved space"
+msgstr "被允许使用受限制空间的用户"
+
+#: ../pysdm/fsdata/ext2.py:16 ../pysdm/fsdata/ext3.py:16
+msgid "Use a especific block as superblock"
+msgstr "指定作为超级块的文件系统块"
+
+#: ../pysdm/fsdata/ext2.py:17 ../pysdm/fsdata/ext3.py:17
+msgid "Support extended attributes"
+msgstr "支持扩展属性"
+
+#: ../pysdm/fsdata/ext3.py:18
+msgid "Update journal or specify the inode where it is"
+msgstr "更新日志或指定 inode 位置"
+
+#: ../pysdm/fsdata/ext3.py:19
+msgid "Do not load journal on mounting"
+msgstr "不要在挂载时读取日志"
+
+#: ../pysdm/fsdata/ext3.py:20
+msgid "Specify a journaling mode"
+msgstr "指定日志模式"
+
+#: ../pysdm/fsdata/ext3.py:21
+msgid ""
+"Synchronize data and metadata every specified seconds, 0 for default (5s.)"
+msgstr "在指定的秒数同步数据以及元，默认值为 0 。"
+
+#: ../pysdm/fsdata/fat.py:5
+msgid "Set blocksize"
+msgstr "设置文件系统块大小"
+
+#: ../pysdm/fsdata/fat.py:6 ../pysdm/fsdata/ntfs.py:9
+msgid "Owner user of the filesystem"
+msgstr "文件系统的所有者"
+
+#: ../pysdm/fsdata/fat.py:7 ../pysdm/fsdata/ntfs.py:10
+msgid "Owner group of the filesystem"
+msgstr "文件系统的所有组"
+
+#: ../pysdm/fsdata/fat.py:8
+msgid "umask for file and directory permissions in octal"
+msgstr "以八进制模式解密文件和目录权限"
+
+#: ../pysdm/fsdata/fat.py:9
+msgid "umask for directory permissions in octal"
+msgstr "以八进制模式解密目录权限"
+
+#: ../pysdm/fsdata/fat.py:10 ../pysdm/fsdata/ntfs.py:11
+msgid "umask for file permissions in octal"
+msgstr "以八进制模式解密文件权限"
+
+#: ../pysdm/fsdata/fat.py:11
+msgid "Select level of character checking in file names"
+msgstr "设置检查文件名字符的等级"
+
+#: ../pysdm/fsdata/fat.py:12
+msgid "Sets the codepage for converting to shortname characters"
+msgstr "设置代码页以转换到短名称字符"
+
+#: ../pysdm/fsdata/fat.py:13
+msgid "Text format conversion mode"
+msgstr "文本格式转换模式"
+
+#: ../pysdm/fsdata/fat.py:14
+msgid "Forces the driver to use the CVF module instead of autodetection"
+msgstr "强制驱动使用 CVF 模块而非自动探测"
+
+#: ../pysdm/fsdata/fat.py:15
+msgid "Option passed to CVF module"
+msgstr "传递到 CVF 模块的设置"
+
+#: ../pysdm/fsdata/fat.py:16
+msgid "Display debug messages"
+msgstr "显示除错信息"
+
+#: ../pysdm/fsdata/fat.py:17
+msgid "Specify a 12, 16 or 32 bit fat"
+msgstr "指定 12、16 或 32 位的文件分配表"
+
+#: ../pysdm/fsdata/fat.py:18 ../pysdm/fsdata/ntfs.py:5
+msgid "Character set to use for file names"
+msgstr "用于文件名的字符集"
+
+#: ../pysdm/fsdata/fat.py:19
+msgid "Failures do not return errors"
+msgstr "失败信息不返回出错值"
+
+#: ../pysdm/fsdata/ntfs.py:6
+msgid "Use UTF-8 for converting file names"
+msgstr "使用 UTF-8 来转换文件名"
+
+#: ../pysdm/fsdata/ntfs.py:7
+msgid "Use escape sequences for unknown characters"
+msgstr "使用逃逸程序来避免未知字符"
+
+#: ../pysdm/fsdata/ntfs.py:8
+msgid ""
+"If enabled (1), the file system distinguishes between upper and lower case."
+msgstr "如果开启这个选项 (1)，文件系统将忽略大小写差异。"
+
+#: ../pysdm/fsdata/reiserfs.py:5
+msgid "Updated filesystem from ReiserFS 3.5 to 3.6"
+msgstr "将文件系统从 ReiserFS 3.5 升级为 3.6"
+
+#: ../pysdm/fsdata/reiserfs.py:6
+msgid "Specify hash function to find files"
+msgstr "指定哈希值函数来查找文件"
+
+#: ../pysdm/fsdata/reiserfs.py:7
+msgid "Disable reiserfs journaling"
+msgstr "关闭 ReiserFS 日志"
+
+#: ../pysdm/fsdata/reiserfs.py:8
+msgid "Disable efficient in-tree storage of small files"
+msgstr "关闭针对小型文件的高效树内存储"
+
+#: ../pysdm/fsdata/swap.py:5
+msgid "Swap device"
+msgstr "交换设备"
+
+#: ../pysdm/fsdata/xfs.py:5
+msgid "Enable the DMAPI (Data management API)"
+msgstr "开启 DMAPI（文件管理 API）"
+
+#: ../pysdm/fsdata/xfs.py:6
+msgid "Data allocations will not be aligned at stripe unit boundaries"
+msgstr "数据分配将不会被对其到边界"
+
+#: ../pysdm/fsdata/xfs.py:7
+msgid "The file system will be mounted without running log recovery"
+msgstr "文件系统将在不运行日志恢复的情况下被挂载"
+
+#: ../pysdm/fsdata/xfs.py:8
+msgid "Ignore file system uuid"
+msgstr "忽略文件系统 UUID"
+
+#: ../pysdm/fsdata/xfs.py:9
+msgid "Enable user disk quota"
+msgstr "开启用户的磁盘配额"
+
+#: ../pysdm/fsdata/xfs.py:10
+msgid "Enable group disk quota"
+msgstr "开启用户组的磁盘配额"
+
+#: ../pysdm/pysdm.py:63
+msgid "Partition List"
+msgstr "分区列表"
+
+#: ../pysdm/pysdm.py:69
+msgid "Rules"
+msgstr "规则"
+
+#: ../pysdm/pysdm.py:111 ../pysdm/pysdm.py:345
+msgid "Unmount"
+msgstr "卸载"
+
+#: ../pysdm/pysdm.py:127
+msgid "Unknown"
+msgstr "未知"
+
+#: ../pysdm/pysdm.py:245
+msgid "Configure now?"
+msgstr "现在配置吗？"
+
+#: ../pysdm/pysdm.py:246
+msgid ""
+" hasn't been configured.\n"
+"Do you want to configure it now?\n"
+msgstr ""
+" 尚未被配置。\n"
+"你希望现在配置它么？\n"
+
+#: ../pysdm/pysdm.py:283
+msgid "Select a file for mountpoint..."
+msgstr "选择一个文件来指定挂载点..."
+
+#: ../pysdm/pysdm.py:312
+msgid "Select options"
+msgstr "选择选项"
+
+#: ../pysdm/pysdm.py:331
+msgid ""
+"The file system is busy.\n"
+"Can't be unmounted"
+msgstr ""
+"文件系统正忙，\n"
+"它无法被卸载。"
+
+#: ../pysdm/pysdm.py:333
+msgid ""
+"The file system can't be mounted\n"
+"mount returned error:"
+msgstr ""
+"这个文件系统无法被挂载，\n"
+"挂载程序返回错误："
+
+#: ../pysdm/pysdm.py:334
+msgid "Mount error"
+msgstr "挂载错误"
+
+#: ../pysdm/pysdm.py:354
+msgid ""
+"This action will delete file system configuration\n"
+"Are you sure?"
+msgstr ""
+"这个操作将删除文件系统配置，\n"
+"你确定要这么做么？"
+
+#: ../pysdm/pysdm.py:404 ../pysdm/pysdm.py:430
+msgid "New rule..."
+msgstr "新规则..."
+
+#: ../pysdm/pysdm.py:419
+msgid "Remove selected udev rule?"
+msgstr "删除选定的 UDev 规则吗？"
+
+#: ../pysdm/pysdm.py:457
+msgid "You should have root privileges to run this program"
+msgstr "你需要 root 权限来运行这个程序"
+
+#: ../pysdm/sysfs.py:14
+msgid "Name is"
+msgstr "名称为"
+
+#: ../pysdm/sysfs.py:15
+msgid "Bus is"
+msgstr "总线为"
+
+#: ../pysdm/sysfs.py:16
+msgid "Vendor is"
+msgstr "厂商为"
+
+#: ../pysdm/sysfs.py:17
+msgid "Model is"
+msgstr "型号为"
+
+#: ../pysdm/sysfs.py:18
+msgid "Serial is"
+msgstr "序列号为"
+
+#: ../pysdm/sysfs.py:20
+msgid "Specify a device file name"
+msgstr "制定一个设备文件名称"
+
+#: ../pysdm/sysfs.py:21
+msgid "Specify users rigths"
+msgstr "指定用户权限"
+
+#: ../pysdm/sysfs.py:22
+msgid "Specify owner group"
+msgstr "指定所有组"
+
+#: ../pysdm/sysfs.py:23
+msgid "Specify owner user"
+msgstr "指定所有者"
+
+#: ../pysdm/sysfs.py:24
+msgid "Create a link with this name"
+msgstr "以这个名称创建一个链接"
+
+#: ../pysdm/sysfs.py:60
+msgid "Conditions"
+msgstr "状态"
+
+#: ../pysdm/sysfs.py:66
+msgid "Actions"
+msgstr "操作"
+
+#~ msgid "Remove filesystem?"
+#~ msgstr "¿Eliminar sistema de archivos?"
+
+#~ msgid "User disk quota limits enforced"
+#~ msgstr "Limites de cuota de usuario forzados"
+
+#~ msgid "Group disk quota limits enforced"
+#~ msgstr "Limites de cuota de grupo forzados"
+
+#~ msgid "Allow set user identifier"
+#~ msgstr "Permitir establecer el identificador de usuario (suid)"
+
+#~ msgid "User options"
+#~ msgstr "Opciones de usuario"
+
+#~ msgid "Advanced options"
+#~ msgstr "Opciones avanzadas"

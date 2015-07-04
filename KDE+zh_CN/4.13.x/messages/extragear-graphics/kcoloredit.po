@@ -1,0 +1,471 @@
+# translation of kcoloredit.po to 简体中文
+# Copyright (C) 2003, 2008, 2009 Free Software Foundation, Inc.
+#
+# Qi Liang <cavendish@eyou.com>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcoloredit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 02:42+0200\n"
+"PO-Revision-Date: 2010-05-17 01:59+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国,Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org,shuizhuyuanluo@126.com"
+
+#. i18n: ectx: Menu (palette)
+#: desktop/kcoloreditui.rc:10
+msgid "Palette"
+msgstr "调色板"
+
+#: src/app/kcoloredit.cpp:118 src/app/kcoloredit.cpp:227
+#: src/app/kcoloredit.cpp:237
+msgid "Untitled"
+msgstr "无标题"
+
+#: src/app/kcoloredit.cpp:121
+#, kde-format
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"文档“%1”已经被修改。\n"
+"您想要保存您的更改或忽略它们吗？"
+
+#: src/app/kcoloredit.cpp:123
+msgid "Close Document"
+msgstr "关闭文档"
+
+#: src/app/kcoloredit.cpp:159
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "名为“%1”的文件已经存在。您确定您想要覆盖它吗？"
+
+#: src/app/kcoloredit.cpp:159
+msgid "Overwrite"
+msgstr "覆盖"
+
+#: src/app/kcoloredit.cpp:175
+msgid ""
+"This action will delete all items (colors and comments) of the current "
+"palette."
+msgstr "此操作会删除当前调色板中的所有项目(颜色和注释)。"
+
+#: src/app/kcoloredit.cpp:177 src/app/kcoloredit.cpp:334
+msgid "Clean Palette"
+msgstr "清除调色板"
+
+#: src/app/kcoloredit.cpp:187
+msgid ""
+"This action will replace the name of all color items with names in this "
+"format #RRGGBB."
+msgstr "此操作会将所有颜色项目的名称替换为 #RRGGBB 的格式。"
+
+#: src/app/kcoloredit.cpp:189 src/app/kcoloredit.cpp:338
+msgid "Generate Color Names"
+msgstr "生成颜色名称"
+
+#: src/app/kcoloredit.cpp:214 src/widgets/kcoloreditwidget.cpp:58
+msgid "Color builder"
+msgstr "颜色构建器"
+
+#: src/app/kcoloredit.cpp:229
+msgid "[modified]"
+msgstr "[已修改]"
+
+#: src/app/kcoloredit.cpp:289
+msgctxt "In this view the user can see the whole color pallete"
+msgid "Preview"
+msgstr "预览"
+
+#: src/app/kcoloredit.cpp:295
+msgctxt "In this view the user can edit the palette"
+msgid "Edit view"
+msgstr "编辑预览"
+
+#: src/app/kcoloredit.cpp:342
+msgctxt ""
+"Complete is a verb here, this is an action that fills missing color names in "
+"a palette"
+msgid "Complete Color Names"
+msgstr "补全颜色名称"
+
+#: src/app/main.cpp:30
+msgid "KColorEdit"
+msgstr "KColorEdit"
+
+#: src/app/main.cpp:31
+msgid "KColorEdit, a tool for editing color palettes."
+msgstr "KColorEdit，编辑颜色调色板的工具。"
+
+#: src/app/main.cpp:32
+msgid ""
+"(C) 2009, Percy Camilo Triveño Aucahuasi\n"
+"(C) 2000, Artur Rataj"
+msgstr ""
+"(C) 2009，Percy Camilo Triveño Aucahuasi\n"
+"(C) 2000，Artur Rataj"
+
+#: src/app/main.cpp:33
+msgid "Percy Camilo Triveño Aucahuasi"
+msgstr "Percy Camilo Triveño Aucahuasi"
+
+#: src/app/main.cpp:33
+msgid "Current maintainer - Upgraded and developed the new version."
+msgstr "当前维护者 - 升级并开发了新版本。"
+
+#: src/app/main.cpp:34
+msgid "Artur Rataj"
+msgstr "Artur Rataj"
+
+#: src/app/main.cpp:34
+msgid "Former maintainer - Created KColorEdit"
+msgstr "前任维护者 - 创造了 KColorEdit"
+
+#: src/app/main.cpp:39
+msgid "File to open (Text file with colors and comments items)"
+msgstr "要打开的文件(带有颜色和注释项目的文本文件)"
+
+#: src/core/palettedocument.cpp:57
+msgid "File not found"
+msgstr "文件未找到"
+
+#: src/core/palettedocument.cpp:64
+msgid "Could not open the file"
+msgstr "无法打开文件"
+
+#: src/core/palettedocument.cpp:78
+msgid "Is not a palette file"
+msgstr "不是调色板文件"
+
+#: src/core/palettemodel.cpp:117
+msgid "Items"
+msgstr "项目"
+
+#: src/dialog/palettedialog.cpp:86
+msgid "[Empty]"
+msgstr "[空]"
+
+#: src/dialog/palettedialog.cpp:144
+msgid "All Supported Files"
+msgstr "支持的全部文件"
+
+#: src/dialog/palettedialog.cpp:145
+msgid "KDE Palette"
+msgstr "KDE 调色板"
+
+#: src/dialog/palettedialog.cpp:146
+msgid "GIMP Palette"
+msgstr "GIMP 调色板"
+
+#: src/dialog/palettedialog.cpp:168
+msgid "Load Palette"
+msgstr "装入调色板"
+
+#: src/dialog/palettedialog.cpp:183
+msgid "KDE Palettes"
+msgstr "KDE 调色板"
+
+#: src/dialog/palettedialog.cpp:184
+msgid "Search Palettes"
+msgstr "搜索调色板"
+
+#: src/itemviews/palettebriefview.cpp:39
+msgid "Use mouse"
+msgstr "使用鼠标"
+
+#: src/itemviews/palettebriefview.cpp:41
+msgid "It will be disabled automatically when clicking over a item"
+msgstr "点击一个项目时，它会被自动禁用"
+
+#: src/itemviews/palettebriefview.cpp:44
+msgid "Show comments"
+msgstr "显示注释"
+
+#: src/itemviews/palettebriefview.cpp:46
+msgid "If checked, views will be synchronized"
+msgstr "如果选中，视图将被同步"
+
+#: src/itemviews/palettedetailview.cpp:45
+msgid "First position"
+msgstr "第一个位置"
+
+#: src/itemviews/palettedetailview.cpp:49
+msgid "Prev position"
+msgstr "上一个位置"
+
+#: src/itemviews/palettedetailview.cpp:54
+msgid "Insert Color"
+msgstr "插入颜色"
+
+#: src/itemviews/palettedetailview.cpp:58
+msgid "Insert Comment"
+msgstr "插入注释"
+
+#: src/itemviews/palettedetailview.cpp:62
+msgid "Remove Item"
+msgstr "删除项目"
+
+#: src/itemviews/palettedetailview.cpp:66
+msgid "Next position"
+msgstr "下一个位置"
+
+#: src/itemviews/palettedetailview.cpp:71
+msgid "Last position"
+msgstr "最后一个位置"
+
+#: src/itemviews/palettedetailview.cpp:164
+#: src/itemviews/palettedetailview.cpp:316
+msgid "Add description"
+msgstr "添加描述"
+
+#: src/itemviews/palettedetailview.cpp:169
+msgid "Palette Name:"
+msgstr "调色板名称："
+
+#: src/itemviews/palettedetailview.cpp:174
+msgid " for this palette"
+msgstr " 用于此调色板"
+
+#: src/itemviews/palettedetailview.cpp:314
+msgid "Edit description"
+msgstr "编辑描述"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:52
+msgid "Copy color values to clipboard"
+msgstr "将颜色值复制到剪贴板"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:105
+msgid "RGB"
+msgstr "RGB"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:39
+msgid "Red"
+msgstr "红"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:40
+msgid "Green"
+msgstr "绿"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:106
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:41
+msgid "Blue"
+msgstr "蓝"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:124
+msgid "HSV"
+msgstr "HSV"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:36
+msgid "Hue"
+msgstr "色相"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:37
+#: src/widgets/colortoolwidget.cpp:101
+msgid "Saturation"
+msgstr "饱和度"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:125
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:38
+msgid "Value"
+msgstr "明度"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:144
+msgid "CMY"
+msgstr "CMY"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Cyan"
+msgstr "青"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Magenta"
+msgstr "品红"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:145
+msgid "Yellow"
+msgstr "黄"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:164
+msgid "Textual"
+msgstr "纹理"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:176
+msgid "HTML"
+msgstr "HTML"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:177
+msgid "Hexadecimal"
+msgstr "十六进制"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:182
+msgid "Copy HTML value to clipboard"
+msgstr "将 HTML 值复制到剪贴板"
+
+#: src/widgets/colorinfo/colorinfotext.cpp:187
+msgid "Copy color hexadecimal value to clipboard"
+msgstr "将颜色十六进制值复制到剪贴板"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:54
+msgid "Current color"
+msgstr "当前颜色"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:84
+msgid "Complement"
+msgstr "补色"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:112
+msgid "Triadic"
+msgstr "三色"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:143
+msgid "Tetradic"
+msgstr "四色"
+
+#: src/widgets/colorinfo/colorinfovisual.cpp:175
+msgid "Analogous"
+msgstr "类似色"
+
+#: src/widgets/colorselectors/gtkselector/gtkcolorselector.cpp:37
+msgid "Generate a random color"
+msgstr "生成随机颜色"
+
+#: src/widgets/colorselectors/kdeselector/kdecolorselector.cpp:45
+msgid "Chooser mode:"
+msgstr "选择模式："
+
+#: src/widgets/colortoolwidget.cpp:79
+msgid "Brightness"
+msgstr "亮度"
+
+#: src/widgets/colortoolwidget.cpp:86
+msgctxt "color context: brightness"
+msgid "Restore original brightness"
+msgstr "还原原始亮度"
+
+#: src/widgets/colortoolwidget.cpp:108
+msgctxt "color context: saturation of the color"
+msgid "Restore original saturation"
+msgstr "还原原始饱和度"
+
+#: src/widgets/colortoolwidget.cpp:123
+msgid "Color selectors"
+msgstr "颜色拾取"
+
+#: src/widgets/colortoolwidget.cpp:125
+msgid "Pick a color"
+msgstr "拾取颜色"
+
+#: src/widgets/colortoolwidget.cpp:134
+msgid "Hide window"
+msgstr "隐藏窗口"
+
+#: src/widgets/colortoolwidget.cpp:168 src/widgets/colortoolwidget.cpp:179
+#: src/widgets/colortoolwidget.cpp:220
+#, kde-format
+msgid "Brightness %1 %"
+msgstr "亮度 %1 %"
+
+#: src/widgets/colortoolwidget.cpp:192 src/widgets/colortoolwidget.cpp:203
+#: src/widgets/colortoolwidget.cpp:225
+#, kde-format
+msgid "Saturation %1 %"
+msgstr "饱和度 %1 %"
+
+#: src/widgets/colorwidget.cpp:48
+msgid "Append color"
+msgstr "添加颜色"
+
+#: src/widgets/colorwidget.cpp:53
+msgid "Copy color to clipboard"
+msgstr "将颜色复制到剪贴板"
+
+#: src/widgets/kcoloreditwidget.cpp:43
+msgid "Tool:"
+msgstr "工具："
+
+#: src/widgets/kcoloreditwidget.cpp:46
+msgid "KDE selector"
+msgstr "KDE 拾取"
+
+#: src/widgets/kcoloreditwidget.cpp:50
+msgid "GTK selector"
+msgstr "GTK 拾取"
+
+#: src/widgets/kcoloreditwidget.cpp:54
+msgid "Gradient selector"
+msgstr "梯度化拾取"
+
+#: src/widgets/kcoloreditwidget.cpp:62
+msgctxt "Set of extra tools apart of color selectors"
+msgid "Extras"
+msgstr "额外的"
+
+#: src/widgets/kcoloreditwidget.cpp:71
+msgctxt "Refer to color scheme ... just scheme"
+msgid "Scheme:"
+msgstr "方案："
+
+#: src/widgets/kcoloreditwidget.cpp:88
+msgctxt "Color models: for instance RGB"
+msgid "Model:"
+msgstr "规格："
+
+#: src/widgets/palettedescriptionwidget.cpp:128
+msgctxt "@action:button"
+msgid "Save"
+msgstr "保存"
+
+#: src/widgets/palettedescriptionwidget.cpp:129
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "取消"
+
+#~ msgid "Detail view"
+#~ msgstr "详细视图"
+
+#~ msgid "Append Color"
+#~ msgstr "添加颜色"
+
+#~ msgid "Append Comment"
+#~ msgstr "添加注释"
+
+#~ msgid "Color tool:"
+#~ msgstr "颜色工具："
+
+#~ msgid "Color information:"
+#~ msgstr "颜色信息："
+
+#~ msgid "HSV Model"
+#~ msgstr "HSV 模式"
+
+#~ msgid "CMYK Model"
+#~ msgstr "CMYK 模式"
+
+#~ msgid "Decrease"
+#~ msgstr "减少"
+
+#~ msgid "Increase"
+#~ msgstr "增加"
+
+#~ msgid "Palette Toolbar"
+#~ msgstr "调色板工具栏"

@@ -1,0 +1,414 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-21 01:51+0000\n"
+"PO-Revision-Date: 2010-06-11 20:29+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: commithistoryview.cpp:72
+#, kde-format
+msgctxt "Commit history for a given project %1"
+msgid "Commit History - %1"
+msgstr "提交历史 - %1"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, activeViews)
+#. i18n: ectx: property (text), item, widget (KComboBox, views)
+#: kdeobservatory.cpp:80 kdeobservatory.cpp:207 kdeobservatory.cpp:293
+#: kdeobservatory.cpp:297 kdeobservatory.cpp:425 kdeobservatory.cpp:426
+#: kdeobservatory.cpp:560 kdeobservatory.cpp:834 topactiveprojectsview.cpp:46
+#: ui/kdeobservatoryconfigviews.ui:58 ui/kdeobservatoryconfigviews.ui:178
+msgid "Top Active Projects"
+msgstr "最活跃的项目"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, activeViews)
+#. i18n: ectx: property (text), item, widget (KComboBox, views)
+#: kdeobservatory.cpp:81 kdeobservatory.cpp:209 kdeobservatory.cpp:294
+#: kdeobservatory.cpp:427 kdeobservatory.cpp:570 kdeobservatory.cpp:835
+#: ui/kdeobservatoryconfigviews.ui:82 ui/kdeobservatoryconfigviews.ui:187
+msgid "Top Developers"
+msgstr "最活跃的开发者"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, activeViews)
+#. i18n: ectx: property (text), item, widget (KComboBox, views)
+#: kdeobservatory.cpp:82 kdeobservatory.cpp:211 kdeobservatory.cpp:295
+#: kdeobservatory.cpp:428 kdeobservatory.cpp:589 kdeobservatory.cpp:836
+#: ui/kdeobservatoryconfigviews.ui:70 ui/kdeobservatoryconfigviews.ui:196
+msgid "Commit History"
+msgstr "提交历史"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, activeViews)
+#. i18n: ectx: property (text), item, widget (KComboBox, views)
+#. i18n: ectx: property (text), widget (QTableWidget, projects)
+#: kdeobservatory.cpp:83 kdeobservatory.cpp:213 kdeobservatory.cpp:296
+#: kdeobservatory.cpp:429 kdeobservatory.cpp:608 kdeobservatory.cpp:837
+#: ui/kdeobservatoryconfigprojects.ui:66 ui/kdeobservatoryconfigviews.ui:94
+#: ui/kdeobservatoryconfigviews.ui:205
+msgid "Krazy Report"
+msgstr "Krazy 报告"
+
+#: kdeobservatory.cpp:99
+msgid "No active network connection"
+msgstr "无活动的网络连接"
+
+#: kdeobservatory.cpp:122
+msgid "Go to previous view"
+msgstr "转到上一视图"
+
+#: kdeobservatory.cpp:129
+msgid "Go to next view"
+msgstr "转到下一视图"
+
+#: kdeobservatory.cpp:223 kdeobservatory.cpp:277
+#, kde-format
+msgid "Last update: %1 %2"
+msgstr "上次更新：%1 %2"
+
+#: kdeobservatory.cpp:286
+msgctxt "Global configuration options"
+msgid "General"
+msgstr "常规"
+
+#: kdeobservatory.cpp:289
+msgid "Projects"
+msgstr "项目"
+
+#: kdeobservatory.cpp:298
+msgid "Views"
+msgstr "视图"
+
+#: kdeobservatoryconfigprojects.cpp:83
+#, kde-format
+msgid "Are you sure you want to remove project '%1'?"
+msgstr "您确定您想要删除项目“%1”吗？"
+
+#: kdeobservatoryconfigprojects.cpp:83
+msgid "Remove project"
+msgstr "删除项目"
+
+#: krazyreportview.cpp:56
+#, kde-format
+msgctxt "Krazy report for a given project %1"
+msgid "Krazy Report - %1"
+msgstr "Krazy 报告 - %1"
+
+#: krazyreportview.cpp:118
+#, kde-format
+msgid "%2 %1 error"
+msgid_plural "%2 %1 errors"
+msgstr[0] "%2 %1 个错误"
+
+#: topactiveprojectsview.cpp:88 topdevelopersview.cpp:92
+#, kde-format
+msgid "%2 - %1 commit"
+msgid_plural "%2 - %1 commits"
+msgstr[0] "%2 - %1 次提交"
+
+#: topdevelopersview.cpp:49
+#, kde-format
+msgid "Top Developers - %1"
+msgstr "最活跃的开发者 - %1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, activitiesRange)
+#: ui/kdeobservatoryconfiggeneral.ui:17
+msgid "Activity Range"
+msgstr "活动范围"
+
+#. i18n: ectx: property (text), widget (QRadioButton, activitiesFullHistory)
+#: ui/kdeobservatoryconfiggeneral.ui:25
+msgid "&Full history"
+msgstr "完整历史(&F)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, activitiesInPastDays)
+#: ui/kdeobservatoryconfiggeneral.ui:34
+msgid "&Past"
+msgstr "过去(&P)"
+
+#. i18n: ectx: property (text), widget (QLabel, lblDays)
+#: ui/kdeobservatoryconfiggeneral.ui:81
+msgctxt "noun, the 24-hour period"
+msgid "days"
+msgstr "天"
+
+#. i18n: The beginning of a range
+#. i18n: ectx: property (text), widget (QRadioButton, activitiesInRange)
+#: ui/kdeobservatoryconfiggeneral.ui:108
+msgctxt "The beginning of a range"
+msgid "Fro&m"
+msgstr "从(&M)"
+
+#. i18n: The end of a range
+#. i18n: ectx: property (text), widget (QLabel, lbTo)
+#: ui/kdeobservatoryconfiggeneral.ui:140
+msgctxt "The end of a range"
+msgid "to"
+msgstr "到"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableAutoViewChange)
+#: ui/kdeobservatoryconfiggeneral.ui:194
+msgid "&Enable automatic view change"
+msgstr "启用自动视图更改(&E)"
+
+#. i18n: ectx: property (text), widget (QLabel, lblViewsDelay)
+#: ui/kdeobservatoryconfiggeneral.ui:228
+msgid "Change view every:"
+msgstr "更改视图间隔："
+
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, viewsDelay)
+#: ui/kdeobservatoryconfiggeneral.ui:244
+msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
+msgstr "hh “小时” mm “分钟” ss “秒”"
+
+#. i18n: ectx: property (text), widget (QLabel, lblName)
+#: ui/kdeobservatoryconfigproject.ui:37
+msgid "Project name:"
+msgstr "项目名称："
+
+#. i18n: ectx: property (text), widget (QLabel, lblCommitSubject)
+#: ui/kdeobservatoryconfigproject.ui:47
+msgid "Commit subject:"
+msgstr "提交主题："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, commitSubject)
+#: ui/kdeobservatoryconfigproject.ui:59
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">Prefix used for this project in kde-commits mailing list.</span></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Ex:</span> KDE/kdebase/runtime/plasma/</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">kde-commits 邮件列表中此项目所用的前缀。</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">例如：</span> KDE/kdebase/runtime/plasma/</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, lblIcon)
+#: ui/kdeobservatoryconfigproject.ui:66
+msgid "Icon:"
+msgstr "图标："
+
+#. i18n: ectx: property (text), widget (QLabel, lblKrazyReport)
+#: ui/kdeobservatoryconfigproject.ui:108
+msgid "Krazy report:"
+msgstr "Krazy 报告："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, krazyReport)
+#: ui/kdeobservatoryconfigproject.ui:124
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">Krazy report web address for this project.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Format:</span> http://www.englishbreakfastnetwork.org/krazy/"
+"<span style=\" font-style:italic;\">&lt;krazy-report&gt;</span> <span style="
+"\" font-weight:600;\">or </span>http://www.englishbreakfastnetwork.org/krazy/"
+"index.php?<span style=\" font-style:italic;\">&lt;krazy-component-module&gt;"
+"</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Ex:</span> http://www.englishbreakfastnetwork.org/krazy/<span "
+"style=\" font-weight:600; font-style:italic;\">reports/kde-4.x/kdebase-"
+"runtime/plasma</span>/<span style=\" font-weight:600; font-style:italic;"
+"\">index.html</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">or</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">http://www."
+"englishbreakfastnetwork.org/krazy/index.php?<span style=\" font-weight:600; "
+"font-style:italic;\">component=kde-4.x&amp;module=kdevelop</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">此项目的 Krazy 报告网页地址。</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">格式：</span> http://www.englishbreakfastnetwork.org/krazy/"
+"<span style=\" font-style:italic;\">&lt;krazy-report&gt;</span> <span style="
+"\" font-weight:600;\">或者 </span>http://www.englishbreakfastnetwork.org/"
+"krazy/index.php?<span style=\" font-style:italic;\">&lt;krazy-component-"
+"module&gt;</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">例如：</span> http://www.englishbreakfastnetwork.org/krazy/"
+"<span style=\" font-weight:600; font-style:italic;\">reports/kde-4.x/kdebase-"
+"runtime/plasma</span>/<span style=\" font-weight:600; font-style:italic;"
+"\">index.html</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">or</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">http://www."
+"englishbreakfastnetwork.org/krazy/index.php?<span style=\" font-weight:600; "
+"font-style:italic;\">component=kde-4.x&amp;module=kdevelop</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, lblKrazyFilePrefix)
+#: ui/kdeobservatoryconfigproject.ui:131
+msgid "Krazy file identifier:"
+msgstr "Krazy 文件标识符："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, krazyFilePrefix)
+#: ui/kdeobservatoryconfigproject.ui:143
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">Sub-string that must appear in files belonging to this project. "
+"Leave it blank if all files in Krazy report belong to this project or a "
+"component-module address was given.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Ex: for a plasmoid in "
+"playground, <span style=\" text-decoration: underline;\">Krazy report</span> "
+"would be \"playground/base/plasma\" and <span style=\" text-decoration: "
+"underline;\">Krazy file identifier</span> would be \"&lt;plasmoid-"
+"directory&gt;\".</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">属于此项目的文件中必须出现的子字符串。留空代表 Krazy 报告中的所有文"
+"件都属于此项目或给出的组件模块地址。</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">例如：对于 playground 中的"
+"某个 plasmoid，<span style=\" text-decoration: underline;\">Krazy 报告</"
+"span> 会是“playground/base/plasma”，而 <span style=\" text-decoration: "
+"underline;\">Krazy 文件标识符</span>为“&lt;plasmoid-directory&gt;”。</p></"
+"body></html>"
+
+#. i18n: ectx: property (text), widget (QTableWidget, projects)
+#: ui/kdeobservatoryconfigprojects.ui:56
+msgid "Project"
+msgstr "项目"
+
+#. i18n: ectx: property (text), widget (QTableWidget, projects)
+#: ui/kdeobservatoryconfigprojects.ui:61
+msgid "Commit Subject"
+msgstr "提交主题"
+
+#. i18n: ectx: property (text), widget (QTableWidget, projects)
+#: ui/kdeobservatoryconfigprojects.ui:71
+msgid "Krazy File Identifier"
+msgstr "Krazy 文件标识符"
+
+#. i18n: ectx: property (text), widget (KPushButton, psbAddProject)
+#: ui/kdeobservatoryconfigprojects.ui:101
+msgid "&Add"
+msgstr "添加(&A)"
+
+#. i18n: ectx: property (text), widget (KPushButton, psbRemoveProject)
+#: ui/kdeobservatoryconfigprojects.ui:126
+msgid "&Remove"
+msgstr "删除(&R)"
+
+#. i18n: ectx: property (text), widget (KPushButton, psbEditProject)
+#: ui/kdeobservatoryconfigprojects.ui:151
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: property (text), widget (QLabel, lblActiveViews)
+#: ui/kdeobservatoryconfigviews.ui:23
+msgid "Active views:"
+msgstr "活动的视图："
+
+#. i18n: ectx: property (text), widget (QToolButton, tlbUp)
+#. i18n: ectx: property (text), widget (QToolButton, tlbDown)
+#: ui/kdeobservatoryconfigviews.ui:111 ui/kdeobservatoryconfigviews.ui:122
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, gpbViewConfiguration)
+#: ui/kdeobservatoryconfigviews.ui:150
+msgid "View Configuration"
+msgstr "视图配置"
+
+#. i18n: ectx: property (text), widget (QLabel, lblView)
+#: ui/kdeobservatoryconfigviews.ui:170
+msgid "View:"
+msgstr "视图："
+
+#. i18n: ectx: property (text), widget (QLabel, lblProjectsInView)
+#: ui/kdeobservatoryconfigviews.ui:225
+msgid "Projects in view:"
+msgstr "视图中的项目："
+
+#. i18n: ectx: property (text), widget (KPushButton, psbCheckAll)
+#: ui/kdeobservatoryconfigviews.ui:265
+msgid "&Check All"
+msgstr "全部选中(&C)"
+
+#. i18n: ectx: property (text), widget (KPushButton, psbUncheckAll)
+#: ui/kdeobservatoryconfigviews.ui:290
+msgid "&Uncheck All"
+msgstr "全部不选(&U)"
+
+#~ msgid "Show activities for the past "
+#~ msgstr "显示活动历史时间 "
+
+#~ msgid "Synchronize data every:"
+#~ msgstr "同步数据间隔："
+
+#~ msgid "commits"
+#~ msgstr "次提交"

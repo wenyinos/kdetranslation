@@ -1,0 +1,147 @@
+# translation of plasma_runner_sessions.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdebase package.
+#
+# Lie_Ex <lilith.ex@gmail.com>, 2008.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_runner_sessions\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-19 05:50+0200\n"
+"PO-Revision-Date: 2011-07-06 21:00+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: sessionrunner.cpp:43 sessionrunner.cpp:83
+msgctxt "log out command"
+msgid "logout"
+msgstr "logout"
+
+#: sessionrunner.cpp:44
+msgid "Logs out, exiting the current desktop session"
+msgstr "注销，退出当前桌面会话"
+
+#: sessionrunner.cpp:45 sessionrunner.cpp:101
+msgctxt "shutdown computer command"
+msgid "shutdown"
+msgstr "shutdown"
+
+#: sessionrunner.cpp:46
+msgid "Turns off the computer"
+msgstr "关闭计算机"
+
+#: sessionrunner.cpp:50 sessionrunner.cpp:109
+msgctxt "lock screen command"
+msgid "lock"
+msgstr "lock"
+
+#: sessionrunner.cpp:51
+msgid "Locks the current sessions and starts the screen saver"
+msgstr "锁定当前会话并启动屏幕保护"
+
+#: sessionrunner.cpp:54 sessionrunner.cpp:92
+msgctxt "restart computer command"
+msgid "restart"
+msgstr "restart"
+
+#: sessionrunner.cpp:54
+msgid "Reboots the computer"
+msgstr "重新启动计算机"
+
+#: sessionrunner.cpp:55 sessionrunner.cpp:93
+msgctxt "restart computer command"
+msgid "reboot"
+msgstr "reboot"
+
+#: sessionrunner.cpp:58
+msgctxt "switch user command"
+msgid "switch"
+msgstr "switch"
+
+#: sessionrunner.cpp:59
+msgctxt "switch user command"
+msgid "switch :q:"
+msgstr "switch :q:"
+
+#: sessionrunner.cpp:60
+msgid ""
+"Switches to the active session for the user :q:, or lists all active "
+"sessions if :q: is not provided"
+msgstr "切换到用户 :q: 的活动会话，若未提供 :q:，则列出全部活动的会话"
+
+#: sessionrunner.cpp:63 sessionrunner.cpp:155
+msgid "switch user"
+msgstr "切换用户"
+
+#: sessionrunner.cpp:64
+msgid "Starts a new session as a different user"
+msgstr "以不同的用户启动新会话"
+
+#: sessionrunner.cpp:65 sessionrunner.cpp:156
+msgid "new session"
+msgstr "新建会话"
+
+#: sessionrunner.cpp:69
+msgid "Lists all sessions"
+msgstr "列出所有会话"
+
+#: sessionrunner.cpp:84
+msgid "log out"
+msgstr "注销"
+
+#: sessionrunner.cpp:86
+msgctxt "log out command"
+msgid "Logout"
+msgstr "Logout"
+
+#: sessionrunner.cpp:95
+msgid "Restart the computer"
+msgstr "重新启动计算机"
+
+#: sessionrunner.cpp:103
+msgid "Shutdown the computer"
+msgstr "关闭计算机"
+
+#: sessionrunner.cpp:112
+msgid "Lock the screen"
+msgstr "锁定屏幕"
+
+#: sessionrunner.cpp:138
+msgctxt "User sessions"
+msgid "sessions"
+msgstr "会话"
+
+#: sessionrunner.cpp:165
+msgid "New Session"
+msgstr "新建会话"
+
+#: sessionrunner.cpp:249
+#, kde-format
+msgid ""
+"<p>You have chosen to open another desktop session.<br />The current session "
+"will be hidden and a new login screen will be displayed.<br />An F-key is "
+"assigned to each session; F%1 is usually assigned to the first session, F%2 "
+"to the second session and so on. You can switch between sessions by pressing "
+"Ctrl, Alt and the appropriate F-key at the same time. Additionally, the KDE "
+"Panel and Desktop menus have actions for switching between sessions.</p>"
+msgstr ""
+"<p>您正要打开其它桌面会话。<br />当前会话将被隐藏，并显示一个新的登录屏幕。"
+"<br />每个会话都有对应的 F 功能键，F%1 通常对应第一个会话，F%2 则对应第二个会"
+"话，以此类推。您可以按下 Ctrl+Alt+适当的 F 功能键在会话间切换。此外，在 KDE "
+"面板和桌面菜单上也有用于切换会话的动作按钮。</p>"
+
+#: sessionrunner.cpp:260
+msgid "Warning - New Session"
+msgstr "警告 - 新会话"
+
+#: sessionrunner.cpp:261
+msgid "&Start New Session"
+msgstr "开启新会话(&S)"

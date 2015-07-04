@@ -1,0 +1,1500 @@
+# translation of kwin.po to zh_CN
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Wang Jian <lark@linux.net.cn>, 2000.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Funda Wang <fundawang@linux.net.cn>, 2004.
+# Wang Jian <lark@linux.net.cn>,2005.
+# Lie Ex <lilith.ex@gmail.com>, 2007-2009.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010, 2012.
+# Feng Chao <rainofchaos@gmail.com>, 2010, 2011, 2013.
+# Weng Xuetian <wengxt@gmail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-31 01:47+0000\n"
+"PO-Revision-Date: 2013-07-21 16:24+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: blur/blur_config.ui:17
+msgid "Strength of the effect:"
+msgstr "效果强度："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: blur/blur_config.ui:42
+msgid "Light"
+msgstr "轻"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: blur/blur_config.ui:71
+msgid "Strong"
+msgstr "重"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CacheTexture)
+#: blur/blur_config.ui:83
+msgid "Save intermediate rendering results."
+msgstr "保存中间渲染的结果。"
+
+#: coverswitch/coverswitch.cpp:1004 flipswitch/flipswitch.cpp:949
+msgctxt "Special entry in alt+tab list for minimizing all windows"
+msgid "Show Desktop"
+msgstr "显示桌面"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DrawWindowCaptions)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WindowTitle)
+#: coverswitch/coverswitch_config.ui:17 flipswitch/flipswitch_config.ui:191
+#: presentwindows/presentwindows_config.ui:396
+msgid "Display window &titles"
+msgstr "显示窗口标题(&T)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: coverswitch/coverswitch_config.ui:29 cube/cube_config.ui:344
+msgid "Zoom"
+msgstr "缩放"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_zPosition)
+#: coverswitch/coverswitch_config.ui:39
+msgid "Define how far away the windows should appear"
+msgstr "定义窗口出现的远近"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: coverswitch/coverswitch_config.ui:66 cube/cube_config.ui:350
+msgid "Near"
+msgstr "近"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: coverswitch/coverswitch_config.ui:86 cube/cube_config.ui:357
+msgid "Far"
+msgstr "远"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: coverswitch/coverswitch_config.ui:110
+msgid "Animation"
+msgstr "动画"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AnimateSwitch)
+#: coverswitch/coverswitch_config.ui:116
+msgid "Animate switch"
+msgstr "动画切换"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AnimateStart)
+#: coverswitch/coverswitch_config.ui:123
+msgid "Animation on tab box open"
+msgstr "动画显示标签盒打开效果"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AnimateStop)
+#: coverswitch/coverswitch_config.ui:130
+msgid "Animation on tab box close"
+msgstr "动画显示标签盒关闭效果"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: coverswitch/coverswitch_config.ui:139 magiclamp/magiclamp_config.ui:17
+msgid "Animation duration:"
+msgstr "动画持续时间："
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_RotationDuration)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_AnimationDuration)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_Duration)
+#: coverswitch/coverswitch_config.ui:158 cube/cube_config.ui:149
+#: cube/cubeslide_config.ui:49 magiclamp/magiclamp_config.ui:36
+msgctxt "Duration of rotation"
+msgid "Default"
+msgstr "默认"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Duration)
+#: coverswitch/coverswitch_config.ui:161
+msgid " milliseconds"
+msgstr " 毫秒"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Reflection)
+#: coverswitch/coverswitch_config.ui:177 coverswitch/coverswitch_config.ui:183
+msgid "Reflections"
+msgstr "反射"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: coverswitch/coverswitch_config.ui:195
+msgid "Rear color"
+msgstr "后方颜色"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: coverswitch/coverswitch_config.ui:205
+msgid "Front color"
+msgstr "前方颜色"
+
+#: cube/cube.cpp:201 cube/cube_config.cpp:65
+msgid "Desktop Cube"
+msgstr "桌面立方"
+
+#: cube/cube.cpp:207 cube/cube_config.cpp:70
+msgid "Desktop Cylinder"
+msgstr "桌面圆柱"
+
+#: cube/cube.cpp:212 cube/cube_config.cpp:74
+msgid "Desktop Sphere"
+msgstr "桌面球体"
+
+#: cube/cube_config.cpp:55
+msgctxt "@title:tab Basic Settings"
+msgid "Basic"
+msgstr "基本"
+
+#: cube/cube_config.cpp:56
+msgctxt "@title:tab Advanced Settings"
+msgid "Advanced"
+msgstr "高级"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: cube/cube_config.ui:21
+msgid "Tab 1"
+msgstr "标签 1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: cube/cube_config.ui:27
+msgid "Background"
+msgstr "背景"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: cube/cube_config.ui:33
+msgid "Background color:"
+msgstr "背景颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: cube/cube_config.ui:56
+msgid "Wallpaper:"
+msgstr "壁纸："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: cube/cube_config.ui:82 desktopgrid/desktopgrid_config.ui:200
+#: flipswitch/flipswitch_config.ui:204
+#: presentwindows/presentwindows_config.ui:17
+msgid "Activation"
+msgstr "作用"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: cube/cube_config.ui:104 desktopgrid/desktopgrid_config.ui:17
+#: flipswitch/flipswitch_config.ui:17 mousemark/mousemark_config.ui:17
+#: presentwindows/presentwindows_config.ui:377
+#: thumbnailaside/thumbnailaside_config.ui:17
+msgid "Appearance"
+msgstr "外观"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DisplayDesktopName)
+#: cube/cube_config.ui:110
+msgid "Display desktop name"
+msgstr "显示桌面名称"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Reflection)
+#: cube/cube_config.ui:117
+msgid "Reflection"
+msgstr "反射"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cube/cube_config.ui:124 cube/cubeslide_config.ui:72
+msgid "Rotation duration:"
+msgstr "旋转持续时间："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ZOrdering)
+#: cube/cube_config.ui:175
+msgid "Windows hover above cube"
+msgstr "窗口悬停在立方体上"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: cube/cube_config.ui:185
+msgid "Opacity"
+msgstr "不透明度"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_OpacitySpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Opacity)
+#: cube/cube_config.ui:225 thumbnailaside/thumbnailaside_config.ui:87
+#, no-c-format
+msgid " %"
+msgstr " %"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: cube/cube_config.ui:238 translucency/package/contents/ui/config.ui:260
+#: translucency/package/contents/ui/config.ui:456
+msgid "Transparent"
+msgstr "透明度"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: cube/cube_config.ui:245 translucency/package/contents/ui/config.ui:273
+#: translucency/package/contents/ui/config.ui:469
+msgid "Opaque"
+msgstr "不透明"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_OpacityDesktopOnly)
+#: cube/cube_config.ui:255
+msgid "Do not change opacity of windows"
+msgstr "不改变窗口透明度"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: cube/cube_config.ui:279
+msgid "Tab 2"
+msgstr "标签 2"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: cube/cube_config.ui:285
+msgid "Caps"
+msgstr "盒盖"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Caps)
+#: cube/cube_config.ui:291
+msgid "Show caps"
+msgstr "显示盒盖"
+
+#. i18n: ectx: property (text), widget (QLabel, capColorLabel)
+#: cube/cube_config.ui:298
+msgid "Cap color:"
+msgstr "盒盖颜色："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TexturedCaps)
+#: cube/cube_config.ui:321
+msgid "Display image on caps"
+msgstr "在盒盖上显示图像"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_ZPosition)
+#: cube/cube_config.ui:367
+msgid "Define how far away the object should appear"
+msgstr "定义对象出现的远近"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_9)
+#: cube/cube_config.ui:408
+msgid "Additional Options"
+msgstr "附加选项"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CloseOnMouseRelease)
+#: cube/cube_config.ui:415
+msgid ""
+"If enabled the effect will be deactivated after rotating the cube with the "
+"mouse,\n"
+"otherwise it will remain active"
+msgstr ""
+"如果启用此特效，当您用鼠标旋转过立方体后效果将被关闭，\n"
+"在其它情况下则维持原状"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CloseOnMouseRelease)
+#: cube/cube_config.ui:418
+msgid "Close after mouse dragging"
+msgstr "在鼠标拖动操作后关闭特效"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabBox)
+#: cube/cube_config.ui:425
+msgid "Use this effect for walking through the desktops"
+msgstr "使用此特效可呈现依次观览各个桌面的效果"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_InvertKeys)
+#: cube/cube_config.ui:432
+msgid "Invert cursor keys"
+msgstr "反转指针"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_InvertMouse)
+#: cube/cube_config.ui:439
+msgid "Invert mouse"
+msgstr "反转鼠标"
+
+#. i18n: ectx: property (title), widget (QGroupBox, capDeformationGroupBox)
+#: cube/cube_config.ui:449
+msgid "Sphere Cap Deformation"
+msgstr "球盖变形"
+
+#. i18n: ectx: property (text), widget (QLabel, capDeformationSphereLabel)
+#: cube/cube_config.ui:471
+msgid "Sphere"
+msgstr "球体"
+
+#. i18n: ectx: property (text), widget (QLabel, capDeformationPlaneLabel)
+#: cube/cube_config.ui:478
+msgid "Plane"
+msgstr "平面"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DontSlideStickyWindows)
+#: cube/cubeslide_config.ui:17
+msgid "Do not animate windows on all desktops"
+msgstr "不对全部桌面呈现动画窗口"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_RotationDuration)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_RingLife)
+#: cube/cubeslide_config.ui:52 mouseclick/mouseclick_config.ui:132
+msgid " msec"
+msgstr " 毫秒"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DontSlidePanels)
+#: cube/cubeslide_config.ui:65
+msgid "Do not animate panels"
+msgstr "不在面板上呈现动画"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UsePagerLayout)
+#: cube/cubeslide_config.ui:85
+msgid "Use pager layout for animation"
+msgstr "动画中使用分页布局"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseWindowMoving)
+#: cube/cubeslide_config.ui:92
+msgid "Start animation when moving windows towards screen edges"
+msgstr "将窗口移向屏幕边角时以动画呈现"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: dashboard/dashboard_config.ui:17
+msgid "Brightness of the background:"
+msgstr "背景的颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dashboard/dashboard_config.ui:42
+msgctxt "Less brightness"
+msgid "Darker"
+msgstr "更暗"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dashboard/dashboard_config.ui:74
+msgctxt "More brightness"
+msgid "Lighter"
+msgstr "更亮"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dashboard/dashboard_config.ui:83
+msgid "Saturation of the background:"
+msgstr "背景的饱和度："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: dashboard/dashboard_config.ui:108
+msgctxt "No saturation"
+msgid "Gray"
+msgstr "灰度"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: dashboard/dashboard_config.ui:140
+msgctxt "High saturation"
+msgid "Colored"
+msgstr "彩色"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: dashboard/dashboard_config.ui:149
+msgid "Duration of the fade:"
+msgstr "淡出持续时间："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dashboard/dashboard_config.ui:184
+msgid "ms"
+msgstr "毫秒"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Blur)
+#: dashboard/dashboard_config.ui:193
+msgid "The blur effect must be enabled before it can be used."
+msgstr "启用模糊效果后才能使用。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Blur)
+#: dashboard/dashboard_config.ui:196
+msgid "Apply blur effect to background"
+msgstr "背景启用模糊效果"
+
+#: desktopgrid/desktopgrid.cpp:69 desktopgrid/desktopgrid_config.cpp:62
+msgid "Show Desktop Grid"
+msgstr "显示桌面网格"
+
+#: desktopgrid/desktopgrid_config.cpp:70
+msgctxt "Desktop name alignment:"
+msgid "Disabled"
+msgstr "已禁用"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: desktopgrid/desktopgrid_config.cpp:71 flipswitch/flipswitch_config.ui:160
+msgid "Top"
+msgstr "上"
+
+#: desktopgrid/desktopgrid_config.cpp:72
+msgid "Top-Right"
+msgstr "右上"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: desktopgrid/desktopgrid_config.cpp:73 flipswitch/flipswitch_config.ui:125
+#: mouseclick/mouseclick.cpp:59
+msgid "Right"
+msgstr "右"
+
+#: desktopgrid/desktopgrid_config.cpp:74
+msgid "Bottom-Right"
+msgstr "右下"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: desktopgrid/desktopgrid_config.cpp:75 flipswitch/flipswitch_config.ui:180
+msgid "Bottom"
+msgstr "底部"
+
+#: desktopgrid/desktopgrid_config.cpp:76
+msgid "Bottom-Left"
+msgstr "左下"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: desktopgrid/desktopgrid_config.cpp:77 flipswitch/flipswitch_config.ui:105
+#: mouseclick/mouseclick.cpp:57
+msgid "Left"
+msgstr "左"
+
+#: desktopgrid/desktopgrid_config.cpp:78
+msgid "Top-Left"
+msgstr "左上"
+
+#: desktopgrid/desktopgrid_config.cpp:79
+msgid "Center"
+msgstr "中间"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: desktopgrid/desktopgrid_config.ui:23
+msgid "Zoom &duration:"
+msgstr "缩放持续时间(&D)："
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_ZoomDuration)
+#: desktopgrid/desktopgrid_config.ui:42
+msgctxt "Duration of zoom"
+msgid "Default"
+msgstr "默认"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: desktopgrid/desktopgrid_config.ui:55
+msgid "&Border width:"
+msgstr "边框宽度(&B)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: desktopgrid/desktopgrid_config.ui:84
+msgid "Desktop &name alignment:"
+msgstr "桌面名称对齐(&N)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: desktopgrid/desktopgrid_config.ui:107
+msgid "&Layout mode:"
+msgstr "布局模式(&L)："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
+#: desktopgrid/desktopgrid_config.ui:127
+msgid "Pager"
+msgstr "调度器"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
+#: desktopgrid/desktopgrid_config.ui:132
+msgid "Automatic"
+msgstr "自动"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
+#: desktopgrid/desktopgrid_config.ui:137
+msgid "Custom"
+msgstr "自定义"
+
+#. i18n: ectx: property (text), widget (QLabel, layoutRowsLabel)
+#: desktopgrid/desktopgrid_config.ui:145
+msgid "Number of &rows:"
+msgstr "行数(&R)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PresentWindows)
+#: desktopgrid/desktopgrid_config.ui:190
+msgid "Use Present Windows effect to layout the windows"
+msgstr "使用当前特效来为窗口布局"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimPanels)
+#: diminactive/diminactive_config.ui:17
+msgid "Apply effect to &panels"
+msgstr "将效果应用到面板(&P)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimDesktop)
+#: diminactive/diminactive_config.ui:24
+msgid "Apply effect to the desk&top"
+msgstr "将效果应用到桌面(&T)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimKeepAbove)
+#: diminactive/diminactive_config.ui:31
+msgid "Apply effect to &keep-above windows"
+msgstr "将效果应用到置顶的窗口(&K)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimByGroup)
+#: diminactive/diminactive_config.ui:38
+msgid "Apply effect to &groups"
+msgstr "将效果应用到组(&G)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: diminactive/diminactive_config.ui:45
+msgid "&Strength:"
+msgstr "强度(&S)："
+
+#: flipswitch/flipswitch.cpp:58 flipswitch/flipswitch_config.cpp:56
+msgid "Toggle Flip Switch (Current desktop)"
+msgstr "翻转切换(对当前桌面)"
+
+#: flipswitch/flipswitch.cpp:64 flipswitch/flipswitch_config.cpp:59
+msgid "Toggle Flip Switch (All desktops)"
+msgstr "翻转切换(对全部桌面)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: flipswitch/flipswitch_config.ui:23
+msgid "Flip animation duration:"
+msgstr "动态翻转持续时间："
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_Duration)
+#: flipswitch/flipswitch_config.ui:42
+msgctxt "Duration of flip animation"
+msgid "Default"
+msgstr "默认"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: flipswitch/flipswitch_config.ui:55
+msgid "Angle:"
+msgstr "角度："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Angle)
+#: flipswitch/flipswitch_config.ui:71
+msgid " °"
+msgstr " °"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: flipswitch/flipswitch_config.ui:81
+msgid "Horizontal position of front:"
+msgstr "前端水平位置："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: flipswitch/flipswitch_config.ui:136
+msgid "Vertical position of front:"
+msgstr "前端垂直位置："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: glide/glide_config.ui:17
+msgid "Glide Effect:"
+msgstr "滑行效果："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: glide/glide_config.ui:42
+msgid "In"
+msgstr "接近"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: glide/glide_config.ui:71
+msgid "Out"
+msgstr "远离"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: glide/glide_config.ui:93
+msgid "Glide Angle:"
+msgstr "滑行角度："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: glide/glide_config.ui:118
+msgid "-90"
+msgstr "-90"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: glide/glide_config.ui:147
+msgid "90"
+msgstr "90"
+
+#: invert/invert.cpp:44 invert/invert_config.cpp:48
+msgid "Toggle Invert Effect"
+msgstr "切换反白效果"
+
+#: invert/invert.cpp:51 invert/invert_config.cpp:54
+msgid "Toggle Invert Effect on Window"
+msgstr "在窗口上切换反白效果"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FadeToBlack)
+#: login/package/contents/ui/config.ui:17
+msgid "Fade to black (fullscreen splash screens only)"
+msgstr "渐变至黑色 (仅全局欢迎屏幕)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: lookingglass/lookingglass_config.ui:24
+msgid "&Radius:"
+msgstr "半径(&R)："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_AnimationDuration)
+#: magiclamp/magiclamp_config.ui:39
+msgid "milliseconds"
+msgstr "毫秒"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupSize)
+#: magnifier/magnifier_config.ui:17
+msgid "Size"
+msgstr "大小"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: magnifier/magnifier_config.ui:23 mousemark/mousemark_config.ui:23
+msgid "&Width:"
+msgstr "宽度(&W)："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Width)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Height)
+#: magnifier/magnifier_config.ui:42 magnifier/magnifier_config.ui:74
+msgid " px"
+msgstr " 像素"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: magnifier/magnifier_config.ui:55
+msgid "&Height:"
+msgstr "高度(&H)："
+
+#: mouseclick/mouseclick.cpp:50 mouseclick/mouseclick_config.cpp:58
+msgid "Toggle Effect"
+msgstr "切换效果"
+
+#: mouseclick/mouseclick.cpp:58
+msgid "Middle"
+msgstr "中键"
+
+#. i18n: ectx: attribute (title), widget (QWidget, basic_tab)
+#: mouseclick/mouseclick_config.ui:21
+msgid "Basic Settings"
+msgstr "基本设置"
+
+#. i18n: ectx: property (text), widget (QLabel, button1_label)
+#: mouseclick/mouseclick_config.ui:37
+msgid "Left Mouse Button Color:"
+msgstr "鼠标左键颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, button2_label)
+#: mouseclick/mouseclick_config.ui:50
+msgid "Middle Mouse Button Color:"
+msgstr "鼠标中键颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, button3_label)
+#: mouseclick/mouseclick_config.ui:70
+msgid "Right Mouse Button Color:"
+msgstr "鼠标右键颜色："
+
+#. i18n: ectx: attribute (title), widget (QWidget, advanced_tab)
+#: mouseclick/mouseclick_config.ui:91
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, rings)
+#: mouseclick/mouseclick_config.ui:97
+msgid "Rings"
+msgstr "环"
+
+#. i18n: ectx: property (text), widget (QLabel, ring_line_width_label)
+#: mouseclick/mouseclick_config.ui:103
+msgid "Line Width:"
+msgstr "线条宽度："
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, kcfg_LineWidth)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_RingSize)
+#: mouseclick/mouseclick_config.ui:119 mouseclick/mouseclick_config.ui:171
+#: mousemark/mousemark_config.cpp:52
+msgid " pixel"
+msgid_plural " pixels"
+msgstr[0] " 像素"
+
+#. i18n: ectx: property (text), widget (QLabel, ring_duration_label)
+#: mouseclick/mouseclick_config.ui:145
+msgid "Ring Duration:"
+msgstr "环显示持续时间："
+
+#. i18n: ectx: property (text), widget (QLabel, ring_radius_label)
+#: mouseclick/mouseclick_config.ui:155
+msgid "Ring Radius:"
+msgstr "环半径："
+
+#. i18n: ectx: property (text), widget (QLabel, ring_count_label)
+#: mouseclick/mouseclick_config.ui:184
+msgid "Ring Count:"
+msgstr "环数："
+
+#. i18n: ectx: property (title), widget (QGroupBox, font)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: mouseclick/mouseclick_config.ui:210 showfps/showfps_config.ui:17
+msgid "Text"
+msgstr "文字"
+
+#. i18n: ectx: property (text), widget (QLabel, font_label)
+#: mouseclick/mouseclick_config.ui:216
+msgid "Font:"
+msgstr "字体："
+
+#. i18n: ectx: property (text), widget (QLabel, showtext_label)
+#: mouseclick/mouseclick_config.ui:233
+msgid "Show Text:"
+msgstr "显示文本："
+
+#: mousemark/mousemark.cpp:50
+msgid "Clear All Mouse Marks"
+msgstr "清除全部鼠标标记"
+
+#: mousemark/mousemark.cpp:56 mousemark/mousemark_config.cpp:70
+msgid "Clear Last Mouse Mark"
+msgstr "清除上一个鼠标标记"
+
+#: mousemark/mousemark_config.cpp:64
+msgid "Clear Mouse Marks"
+msgstr "清除鼠标标记"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: mousemark/mousemark_config.ui:55
+msgid "&Color:"
+msgstr "颜色(&C)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: mousemark/mousemark_config.ui:88
+msgid "Draw with the mouse by holding Shift+Meta keys and moving the mouse."
+msgstr "按住 Shift+Meta 键，然后移动鼠标即可用鼠标绘制。"
+
+#: presentwindows/presentwindows.cpp:74
+#: presentwindows/presentwindows_config.cpp:67
+msgid "Toggle Present Windows (Current desktop)"
+msgstr "切换显示窗口(对当前桌面)"
+
+#: presentwindows/presentwindows.cpp:81
+#: presentwindows/presentwindows_config.cpp:61
+msgid "Toggle Present Windows (All desktops)"
+msgstr "切换显示窗口(对全部桌面)"
+
+#: presentwindows/presentwindows.cpp:88
+#: presentwindows/presentwindows_config.cpp:73
+msgid "Toggle Present Windows (Window class)"
+msgstr "切换当前窗口分类"
+
+#: presentwindows/presentwindows.cpp:1622
+#, kde-format
+msgid ""
+"Filter:\n"
+"%1"
+msgstr ""
+"过滤器：\n"
+"%1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: presentwindows/presentwindows_config.ui:39
+msgid "Natural Layout Settings"
+msgstr "自然布局设置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FillGaps)
+#: presentwindows/presentwindows_config.ui:45
+msgid "Fill &gaps"
+msgstr "填充缺口(&G)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: presentwindows/presentwindows_config.ui:65
+msgid "Faster"
+msgstr "更快速度"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: presentwindows/presentwindows_config.ui:112
+msgid "Nicer"
+msgstr "更佳效果"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: presentwindows/presentwindows_config.ui:122
+msgid "Windows"
+msgstr "窗口"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: presentwindows/presentwindows_config.ui:128
+#: presentwindows/presentwindows_config.ui:272
+msgid "Left button:"
+msgstr "左键："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonDesktop)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonDesktop)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonDesktop)
+#: presentwindows/presentwindows_config.ui:139
+#: presentwindows/presentwindows_config.ui:183
+#: presentwindows/presentwindows_config.ui:227
+#: presentwindows/presentwindows_config.ui:283
+#: presentwindows/presentwindows_config.ui:317
+#: presentwindows/presentwindows_config.ui:351
+msgid "No action"
+msgstr "无动作"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonDesktop)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonDesktop)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonDesktop)
+#: presentwindows/presentwindows_config.ui:144
+#: presentwindows/presentwindows_config.ui:188
+#: presentwindows/presentwindows_config.ui:232
+#: presentwindows/presentwindows_config.ui:288
+#: presentwindows/presentwindows_config.ui:322
+#: presentwindows/presentwindows_config.ui:356
+msgid "Activate window"
+msgstr "活动窗口"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonDesktop)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonDesktop)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonDesktop)
+#: presentwindows/presentwindows_config.ui:149
+#: presentwindows/presentwindows_config.ui:193
+#: presentwindows/presentwindows_config.ui:237
+#: presentwindows/presentwindows_config.ui:293
+#: presentwindows/presentwindows_config.ui:327
+#: presentwindows/presentwindows_config.ui:361
+msgid "End effect"
+msgstr "结束特效"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonWindow)
+#: presentwindows/presentwindows_config.ui:154
+#: presentwindows/presentwindows_config.ui:198
+#: presentwindows/presentwindows_config.ui:242
+msgid "Bring window to current desktop"
+msgstr "将窗口挪入当前桌面"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonWindow)
+#: presentwindows/presentwindows_config.ui:159
+#: presentwindows/presentwindows_config.ui:203
+#: presentwindows/presentwindows_config.ui:247
+msgid "Send window to all desktops"
+msgstr "将窗口发送到全部桌面"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonWindow)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonWindow)
+#: presentwindows/presentwindows_config.ui:164
+#: presentwindows/presentwindows_config.ui:208
+#: presentwindows/presentwindows_config.ui:252
+msgid "(Un-)Minimize window"
+msgstr "最小化/恢复窗口"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: presentwindows/presentwindows_config.ui:172
+#: presentwindows/presentwindows_config.ui:306
+msgid "Middle button:"
+msgstr "中键："
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: presentwindows/presentwindows_config.ui:216
+#: presentwindows/presentwindows_config.ui:340
+msgid "Right button:"
+msgstr "右键："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: presentwindows/presentwindows_config.ui:263
+msgctxt "@title:group actions when clicking on desktop"
+msgid "Desktop"
+msgstr "桌面"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LeftButtonDesktop)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MiddleButtonDesktop)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RightButtonDesktop)
+#: presentwindows/presentwindows_config.ui:298
+#: presentwindows/presentwindows_config.ui:332
+#: presentwindows/presentwindows_config.ui:366
+msgid "Show desktop"
+msgstr "显示桌面"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: presentwindows/presentwindows_config.ui:383
+msgid "Layout mode:"
+msgstr "布局模式："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DrawWindowIcons)
+#: presentwindows/presentwindows_config.ui:403
+msgid "Display window &icons"
+msgstr "显示窗口图标(&I)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreMinimized)
+#: presentwindows/presentwindows_config.ui:410
+msgid "Ignore &minimized windows"
+msgstr "忽略最小化的窗口(&M)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPanel)
+#: presentwindows/presentwindows_config.ui:417
+msgid "Show &panels"
+msgstr "显示面板(&P)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
+#: presentwindows/presentwindows_config.ui:431
+msgid "Natural"
+msgstr "自然"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
+#: presentwindows/presentwindows_config.ui:436
+msgid "Regular Grid"
+msgstr "规则矩形"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LayoutMode)
+#: presentwindows/presentwindows_config.ui:441
+msgid "Flexible Grid"
+msgstr "随意矩形"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowClosingWindows)
+#: presentwindows/presentwindows_config.ui:449
+msgid "Provide buttons to close the windows"
+msgstr "提供关闭窗口的按钮"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TextureScale)
+#: resize/resize_config.ui:17
+msgid "Scale window"
+msgstr "缩放窗口"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Outline)
+#: resize/resize_config.ui:24
+msgid "Show outline"
+msgstr "显示大纲"
+
+#: showfps/showfps.cpp:61
+msgid "This effect is not a benchmark"
+msgstr "该效果不是一个评测"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: showfps/showfps_config.ui:23
+msgid "Text position:"
+msgstr "文字位置："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TextPosition)
+#: showfps/showfps_config.ui:43
+msgid "Inside Graph"
+msgstr "内嵌图像"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TextPosition)
+#: showfps/showfps_config.ui:48
+msgid "Nowhere"
+msgstr "无"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TextPosition)
+#: showfps/showfps_config.ui:53
+msgid "Top Left"
+msgstr "左上"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TextPosition)
+#: showfps/showfps_config.ui:58
+msgid "Top Right"
+msgstr "右上"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TextPosition)
+#: showfps/showfps_config.ui:63
+msgid "Bottom Left"
+msgstr "左下"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TextPosition)
+#: showfps/showfps_config.ui:68
+msgid "Bottom Right"
+msgstr "右下"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: showfps/showfps_config.ui:76
+msgid "Text font:"
+msgstr "文字字体："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: showfps/showfps_config.ui:96
+msgid "Text color:"
+msgstr "文字颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: showfps/showfps_config.ui:119
+msgid "Text alpha:"
+msgstr "文字字母："
+
+#: thumbnailaside/thumbnailaside.cpp:37
+#: thumbnailaside/thumbnailaside_config.cpp:67
+msgid "Toggle Thumbnail for Current Window"
+msgstr "切换当前窗口的缩略图"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: thumbnailaside/thumbnailaside_config.ui:23
+msgid "Maximum &width:"
+msgstr "最大宽度(&W)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: thumbnailaside/thumbnailaside_config.ui:36
+msgid "&Spacing:"
+msgstr "间距(&S)："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Spacing)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxWidth)
+#: thumbnailaside/thumbnailaside_config.ui:55
+#: thumbnailaside/thumbnailaside_config.ui:106
+msgid " pixels"
+msgstr " 像素"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: thumbnailaside/thumbnailaside_config.ui:68
+msgid "&Opacity:"
+msgstr "不透明度(&O)："
+
+#: trackmouse/trackmouse.cpp:60 trackmouse/trackmouse_config.cpp:63
+msgid "Track mouse"
+msgstr "跟踪鼠标"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: trackmouse/trackmouse_config.ui:20
+msgid "Trigger on"
+msgstr "触发条件"
+
+#. i18n: ectx: property (text), widget (QRadioButton, modifierRadio)
+#: trackmouse/trackmouse_config.ui:27
+msgid "Modifiers"
+msgstr "修饰键"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Alt)
+#: trackmouse/trackmouse_config.ui:43
+msgid "Alt"
+msgstr "Alt"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Control)
+#: trackmouse/trackmouse_config.ui:50
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Shift)
+#: trackmouse/trackmouse_config.ui:57
+msgid "Shift"
+msgstr "Shift"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Meta)
+#: trackmouse/trackmouse_config.ui:64
+msgid "Meta"
+msgstr "Meta"
+
+#. i18n: ectx: property (text), widget (QRadioButton, shortcutRadio)
+#: trackmouse/trackmouse_config.ui:74
+msgid "Shortcut"
+msgstr "快捷键"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KWin::TranslucencyEffectConfigForm)
+#: translucency/package/contents/ui/config.ui:14
+msgid "Translucency"
+msgstr "透明度"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_opacityGroupBox)
+#: translucency/package/contents/ui/config.ui:20
+msgid "General Translucency Settings"
+msgstr "常规透明度设置"
+
+#. i18n: ectx: property (text), widget (QLabel, dialogs_label)
+#: translucency/package/contents/ui/config.ui:51
+msgid "Dialogs:"
+msgstr "对话框："
+
+#. i18n: ectx: property (text), widget (QLabel, decorations_label)
+#: translucency/package/contents/ui/config.ui:70
+msgid "Decorations:"
+msgstr "装饰："
+
+#. i18n: ectx: property (text), widget (QLabel, inactive_label)
+#: translucency/package/contents/ui/config.ui:127
+msgid "Inactive windows:"
+msgstr "非活动窗口："
+
+#. i18n: ectx: property (text), widget (QLabel, moveresize_label)
+#: translucency/package/contents/ui/config.ui:146
+msgid "Moving windows:"
+msgstr "移动中窗口："
+
+#. i18n: ectx: property (text), widget (QLabel, comboboxpopup_label)
+#: translucency/package/contents/ui/config.ui:165
+msgid "Combobox popups:"
+msgstr "组合弹出框："
+
+#. i18n: ectx: property (text), widget (QLabel, menus_label)
+#: translucency/package/contents/ui/config.ui:289
+msgid "Menus:"
+msgstr "菜单："
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_IndividualMenuConfig)
+#: translucency/package/contents/ui/config.ui:305
+msgid "Set menu translucency independently"
+msgstr "单独设定菜单透明度"
+
+#. i18n: ectx: property (text), widget (QLabel, dropdownmenus_label)
+#: translucency/package/contents/ui/config.ui:323
+msgid "Dropdown menus:"
+msgstr "下拉菜单："
+
+#. i18n: ectx: property (text), widget (QLabel, popupmenus_label)
+#: translucency/package/contents/ui/config.ui:367
+msgid "Popup menus:"
+msgstr "弹出菜单："
+
+#. i18n: ectx: property (text), widget (QLabel, tornoffmenus_label)
+#: translucency/package/contents/ui/config.ui:405
+msgid "Torn-off menus:"
+msgstr "虚折菜单："
+
+#: windowgeometry/windowgeometry.cpp:62
+msgid "Toggle window geometry display (effect only)"
+msgstr "切换窗口几何属性显示 (仅特效)"
+
+#: windowgeometry/windowgeometry_config.cpp:51
+msgid "Toggle KWin composited geometry display"
+msgstr "切换 KWin 混成显示的几何属性"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Move)
+#: windowgeometry/windowgeometry_config.ui:17
+msgid "Display for moving windows"
+msgstr "移动窗口的显示"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Resize)
+#: windowgeometry/windowgeometry_config.ui:24
+msgid "Display for resizing windows"
+msgstr "缩放窗口的显示"
+
+#. i18n: ectx: property (title), widget (QGroupBox, advancedGroup)
+#: wobblywindows/wobblywindows_config.ui:20
+msgid "Advanced"
+msgstr "高级"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: wobblywindows/wobblywindows_config.ui:26
+msgid "&Stiffness:"
+msgstr "强直(&S)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: wobblywindows/wobblywindows_config.ui:68
+msgid "Dra&g:"
+msgstr "拖曳(&G)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: wobblywindows/wobblywindows_config.ui:81
+msgid "&Move factor:"
+msgstr "移动因数(&M)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MoveWobble)
+#: wobblywindows/wobblywindows_config.ui:155
+msgid "Wo&bble when moving"
+msgstr "移动窗口时摇摆(&B)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResizeWobble)
+#: wobblywindows/wobblywindows_config.ui:162
+msgid "Wobble when &resizing"
+msgstr "缩放窗口时摇摆(&R)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AdvancedMode)
+#: wobblywindows/wobblywindows_config.ui:182
+msgid "Enable &advanced mode"
+msgstr "启用高级模式(&A)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, basicGroup)
+#: wobblywindows/wobblywindows_config.ui:192
+msgid "&Wobbliness"
+msgstr "摆动力度(&W)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: wobblywindows/wobblywindows_config.ui:201
+msgid "Less"
+msgstr "较低"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: wobblywindows/wobblywindows_config.ui:224
+msgid "More"
+msgstr "较高"
+
+#: zoom/zoom.cpp:81
+msgid "Move Zoomed Area to Left"
+msgstr "将缩放区域向左移动"
+
+#: zoom/zoom.cpp:88
+msgid "Move Zoomed Area to Right"
+msgstr "将缩放区域向右移动"
+
+#: zoom/zoom.cpp:95
+msgid "Move Zoomed Area Upwards"
+msgstr "将缩放区域向上移动"
+
+#: zoom/zoom.cpp:102
+msgid "Move Zoomed Area Downwards"
+msgstr "将缩放区域向下移动"
+
+#: zoom/zoom.cpp:110 zoom/zoom_config.cpp:109
+msgid "Move Mouse to Focus"
+msgstr "移动鼠标到焦点"
+
+#: zoom/zoom.cpp:117 zoom/zoom_config.cpp:116
+msgid "Move Mouse to Center"
+msgstr "移动鼠标到中央"
+
+#: zoom/zoom_config.cpp:81
+msgid "Move Left"
+msgstr "左移"
+
+#: zoom/zoom_config.cpp:88
+msgid "Move Right"
+msgstr "右移"
+
+#: zoom/zoom_config.cpp:95
+msgid "Move Up"
+msgstr "上移"
+
+#: zoom/zoom_config.cpp:102
+msgid "Move Down"
+msgstr "下移"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, kcfg_ZoomFactor)
+#: zoom/zoom_config.ui:25 zoom/zoom_config.ui:41
+msgid "On zoom-in and zoom-out change the zoom by the defined zoom-factor."
+msgstr "缩放时按照定义的缩放因子缩放。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: zoom/zoom_config.ui:28
+msgid "Zoom Factor:"
+msgstr "缩放因子："
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EnableFocusTracking)
+#: zoom/zoom_config.ui:66
+msgid ""
+"Enable tracking of the focused location. This needs QAccessible to be "
+"enabled per application (\"export QT_ACCESSIBILITY=1\")."
+msgstr ""
+"启用焦点位置跟踪，需要针对应用程序启用 QAccessible  (\"export "
+"QT_ACCESSIBILITY=1\")。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableFocusTracking)
+#: zoom/zoom_config.ui:69
+msgid "Enable Focus Tracking"
+msgstr "启用焦点跟踪"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EnableFollowFocus)
+#: zoom/zoom_config.ui:79
+msgid "When the focus changes, move the zoom area to the focused location."
+msgstr "焦点改变时将缩放区域移动到聚焦的位置。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableFollowFocus)
+#: zoom/zoom_config.ui:82
+msgid "Follow Focus"
+msgstr "跟随焦点"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: zoom/zoom_config.ui:89
+msgid "Mouse Pointer:"
+msgstr "鼠标光标："
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_MousePointer)
+#: zoom/zoom_config.ui:102
+msgid "Visibility of the mouse-pointer."
+msgstr "鼠标光标的可见性。"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
+#: zoom/zoom_config.ui:106
+msgid "Scale"
+msgstr "比例"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
+#: zoom/zoom_config.ui:111
+msgid "Keep"
+msgstr "保留"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MousePointer)
+#: zoom/zoom_config.ui:116
+msgid "Hide"
+msgstr "隐藏"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_MouseTracking)
+#: zoom/zoom_config.ui:124
+msgid "Track moving of the mouse."
+msgstr "跟踪鼠标移动。"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
+#: zoom/zoom_config.ui:128
+msgid "Proportional"
+msgstr "按比例"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
+#: zoom/zoom_config.ui:133
+msgid "Centered"
+msgstr "居中"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
+#: zoom/zoom_config.ui:138
+msgid "Push"
+msgstr "推送"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MouseTracking)
+#: zoom/zoom_config.ui:143
+msgid "Disabled"
+msgstr "已禁用"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: zoom/zoom_config.ui:151
+msgid "Mouse Tracking:"
+msgstr "鼠标跟踪："
+
+#~ msgid "Background window &opacity:"
+#~ msgstr "背景窗口不透明度(&O)："
+
+#~ msgid "&Elevate selected window"
+#~ msgstr "升起所选窗口(&E)"
+
+#~ msgid "&Animate walk through windows"
+#~ msgstr "动画观览窗口(&A)"
+
+#~ msgid "Thumbnail Bar"
+#~ msgstr "缩略栏"
+
+#~ msgid "Use additional thumbnail bar"
+#~ msgstr "使用附加缩略栏"
+
+#~ msgid ""
+#~ "Only show thumbnail bar if there are at least specified number of windows"
+#~ msgstr "仅当窗口数量不少于指定值时才显示缩略栏"
+
+#~ msgid "Dynamic mode"
+#~ msgstr "动态模式"
+
+#~ msgid "Number of windows:"
+#~ msgstr "窗口数量："
+
+#~ msgid "Close window"
+#~ msgstr "关闭窗口"
+
+#~ msgid " row"
+#~ msgid_plural " rows"
+#~ msgstr[0] " 行"
+
+#~ msgctxt "Duration of fading"
+#~ msgid "Default"
+#~ msgstr "默认"
+
+#~ msgid "Toggle Video Recording"
+#~ msgstr "切换视频录制"
+
+#~ msgid "Path to save video:"
+#~ msgstr "视频保存路径："
+
+#~ msgid "Slide when grouping"
+#~ msgstr "分组时滑动窗口"
+
+#~ msgid "Slide when switching tabs"
+#~ msgstr "标签切换时滑动窗口"
+
+#~ msgid "Duration"
+#~ msgstr "间隔"
+
+#~ msgid "Vertical"
+#~ msgstr "垂直"
+
+#~ msgid "Horizontal"
+#~ msgstr "水平"
+
+#~ msgctxt ""
+#~ "Window geometry display, %1 and %2 are the new size, %3 and %4 are pixel "
+#~ "increments - avoid reformatting or suffixes like 'px'"
+#~ msgid ""
+#~ "Width: %1 (%3)\n"
+#~ "Height: %2 (%4)"
+#~ msgstr ""
+#~ "宽度：%1 (%3)\n"
+#~ "高度：%2 (%4)"
+
+#~ msgctxt ""
+#~ "Window geometry display, %1 and %2 are the cartesian x and y coordinates "
+#~ "- avoid reformatting or suffixes like 'px'"
+#~ msgid ""
+#~ "X: %1\n"
+#~ "Y: %2"
+#~ msgstr ""
+#~ "X：%1\n"
+#~ "Y：%2"
+
+#~ msgctxt ""
+#~ "Window geometry display, %1 and %2 are the cartesian x and y coordinates, "
+#~ "%3 and %4 are the resp. increments - avoid reformatting or suffixes like "
+#~ "'px'"
+#~ msgid ""
+#~ "X: %1 (%3)\n"
+#~ "Y: %2 (%4)"
+#~ msgstr ""
+#~ "X：%1 (%3)\n"
+#~ "Y：%2 (%4)"
+
+#~ msgid "Snow"
+#~ msgstr "雪飘"
+
+#~ msgid "Toggle Snow on Desktop"
+#~ msgstr "切换桌面雪飘效果"
+
+#~ msgid " pixel/frame"
+#~ msgid_plural " pixels/frame"
+#~ msgstr[0] " 像素/帧"
+
+#~ msgctxt "@action Enables/Disables an effect that makes windows more sharp"
+#~ msgid "Toggle Sharpen Effect"
+#~ msgstr "切换锐化效果"
+
+#~ msgid "&Number of snowflakes:"
+#~ msgstr "雪花数量(&N)："
+
+#~ msgid "M&inimum size of snowflake:"
+#~ msgstr "最小雪花尺寸(&I)："
+
+#~ msgid "M&aximum size of snowflake:"
+#~ msgstr "最大雪花尺寸(&A)："
+
+#~ msgid "Maximum &vertical speed:"
+#~ msgstr "最大垂直速度(&V)："
+
+#~ msgid "Maximum &horizontal speed:"
+#~ msgstr "最大水平速度(&H)："
+
+#~ msgid "Snow &behind windows"
+#~ msgstr "窗口下面下雪(&B)"
+
+#~ msgid "&X offset:"
+#~ msgstr "横向偏移(&X)："
+
+#~ msgid "&Y offset:"
+#~ msgstr "纵向偏移(&Y)："
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "&Fuzziness:"
+#~ msgstr "模糊度(&F)："
+
+#~ msgid "&Size:"
+#~ msgstr "大小(&S)："
+
+#~ msgid "&Active windows have stronger shadows"
+#~ msgstr "活动窗口的阴影更强(&A)"
+
+#~ msgid "Use for window &switching"
+#~ msgstr "窗口切换时应用(&S)"
+
+#~ msgid "Save screenshot of active window"
+#~ msgstr "保存活动窗口的截图"
+
+#, fuzzy
+#~| msgid "Background"
+#~ msgid "Background brightness"
+#~ msgstr "背景"
+
+#, fuzzy
+#~| msgid "Background"
+#~ msgid "Background saturation"
+#~ msgstr "背景"
+
+#, fuzzy
+#~| msgid "End effect"
+#~ msgid "Effects"
+#~ msgstr "结束特效"

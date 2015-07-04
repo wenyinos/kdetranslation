@@ -1,0 +1,132 @@
+# translation of plasma_applet_devicenotifier.po to 简体中文
+#
+# Funda Wang <fundawang@linux.net.cn>, 2006.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010, 2012.
+# Lie_Ex <lilith.ex@gmail.com>,2007-2010.
+# Feng Chao <rainofchaos@gmail.com>, 2010, 2011, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_devicenotifier\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-14 03:48+0000\n"
+"PO-Revision-Date: 2013-01-29 20:07+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: package/contents/ui/DeviceItem.qml:141
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free"
+msgstr "%1 空闲"
+
+#: package/contents/ui/DeviceItem.qml:174
+msgctxt ""
+"Accessing is a less technical word for Mounting; translation should be short "
+"and mean 'Currently mounting this device'"
+msgid "Accessing..."
+msgstr "访问中..."
+
+#: package/contents/ui/DeviceItem.qml:174
+msgctxt ""
+"Removing is a less technical word for Unmounting; translation shoud be short "
+"and mean 'Currently unmounting this device'"
+msgid "Removing..."
+msgstr "移除中..."
+
+#: package/contents/ui/DeviceItem.qml:187
+#, kde-format
+msgid "1 action for this device"
+msgid_plural "%1 actions for this device"
+msgstr[0] "此设备有 %1 种操作"
+
+#: package/contents/ui/DeviceItem.qml:220
+msgid "Click to mount this device."
+msgstr "单击挂载此设备。"
+
+#: package/contents/ui/DeviceItem.qml:222
+msgid "Click to eject this disc."
+msgstr "单击这里可弹出盘片。"
+
+#: package/contents/ui/DeviceItem.qml:224
+msgid "Click to safely remove this device."
+msgstr "单击这里可安全移除设备。"
+
+#: package/contents/ui/DeviceItem.qml:226
+msgid "Click to access this device from other applications."
+msgstr "单击这里可通过其它应用程序访问此设备。"
+
+#: package/contents/ui/DeviceItem.qml:245
+msgid ""
+"It is currently <b>not safe</b> to remove this device: applications may be "
+"accessing it. Click the eject button to safely remove this device."
+msgstr ""
+"现在移除设备<b>不安全</b>：可能有程序还在访问此设备。单击弹出键可将其安全移"
+"除。"
+
+#: package/contents/ui/DeviceItem.qml:247
+msgid "This device is currently accessible."
+msgstr "此设备目前可访问。"
+
+#: package/contents/ui/DeviceItem.qml:252
+msgid ""
+"It is currently <b>not safe</b> to remove this device: applications may be "
+"accessing other volumes on this device. Click the eject button on these "
+"other volumes to safely remove this device."
+msgstr ""
+"现在移除设备<b>不安全</b>：可能有程序正在访问此设备的其它分卷。在其它分卷上单"
+"击弹出键后可将其安全移除。"
+
+#: package/contents/ui/DeviceItem.qml:254
+msgid "It is currently safe to remove this device."
+msgstr "现在可以安全移除此设备。"
+
+#: package/contents/ui/DeviceItem.qml:257
+msgid "This device is not currently accessible."
+msgstr "此设备目前无法访问。"
+
+#: package/contents/ui/devicenotifier.qml:39
+msgid "No devices available"
+msgstr "无可用设备"
+
+#: package/contents/ui/devicenotifier.qml:39
+msgid "Most recent device"
+msgstr "最近使用的设备"
+
+#: package/contents/ui/devicenotifier.qml:184
+msgid "Available Devices"
+msgstr "可用设备"
+
+#: package/contents/ui/devicenotifier.qml:184
+msgid "No Devices Available"
+msgstr "无可用设备"
+
+#~ msgid "Removable devices only"
+#~ msgstr "只有移动设备"
+
+#~ msgid "Non-removable devices only"
+#~ msgstr "只有不可移动设备"
+
+#~ msgid "All devices"
+#~ msgstr "全部设备"
+
+#~ msgid "This device is currently not accessible."
+#~ msgstr "此设备目前不可访问。"
+
+#~ msgid "Display"
+#~ msgstr "显示"
+
+#~ msgid "Automounting"
+#~ msgstr "自动挂载"
+
+#~ msgid "Show hidden devices"
+#~ msgstr "显示隐藏设备"
+
+#~ msgctxt "Hide a device"
+#~ msgid "Hide %1"
+#~ msgstr "隐藏 %1"

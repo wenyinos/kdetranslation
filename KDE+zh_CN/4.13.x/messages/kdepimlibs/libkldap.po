@@ -1,0 +1,221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-24 01:33+0000\n"
+"PO-Revision-Date: 2009-05-15 17:53+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ldapattributeproxymodel.cpp:88 ldapmodel.cpp:151
+msgid "Attribute"
+msgstr "属性"
+
+#: ldapattributeproxymodel.cpp:90 ldapmodel.cpp:153
+msgid "Value"
+msgstr "值"
+
+#: ldapconfigwidget.cpp:102
+msgid "User:"
+msgstr "用户："
+
+#: ldapconfigwidget.cpp:112
+msgid "Bind DN:"
+msgstr "基准 DN："
+
+#: ldapconfigwidget.cpp:122
+msgid "Realm:"
+msgstr "域："
+
+#: ldapconfigwidget.cpp:132
+msgid "Password:"
+msgstr "密码："
+
+#: ldapconfigwidget.cpp:143
+msgid "Host:"
+msgstr "主机："
+
+#: ldapconfigwidget.cpp:154
+msgid "Port:"
+msgstr "端口："
+
+#: ldapconfigwidget.cpp:167
+msgid "LDAP version:"
+msgstr "LDAP 版本："
+
+#: ldapconfigwidget.cpp:182
+msgid "Size limit:"
+msgstr "大小限制："
+
+#: ldapconfigwidget.cpp:188
+msgctxt "default ldap size limit"
+msgid "Default"
+msgstr "默认"
+
+#: ldapconfigwidget.cpp:195
+msgid "Time limit:"
+msgstr "时间限制："
+
+#: ldapconfigwidget.cpp:201
+msgid " sec"
+msgstr " 秒"
+
+#: ldapconfigwidget.cpp:202
+msgctxt "default ldap time limit"
+msgid "Default"
+msgstr "默认"
+
+#: ldapconfigwidget.cpp:211
+msgid "Page size:"
+msgstr "页面大小："
+
+#: ldapconfigwidget.cpp:217
+msgid "No paging"
+msgstr "不分页"
+
+#: ldapconfigwidget.cpp:223
+msgctxt "Distinguished Name"
+msgid "DN:"
+msgstr "DN："
+
+#: ldapconfigwidget.cpp:231 ldapconfigwidget.cpp:307
+msgid "Query Server"
+msgstr "查询服务器"
+
+#: ldapconfigwidget.cpp:239
+msgid "Filter:"
+msgstr "过滤器："
+
+#: ldapconfigwidget.cpp:249
+msgid "Security"
+msgstr "安全"
+
+#: ldapconfigwidget.cpp:252
+msgctxt "@option:radio set no security"
+msgid "No"
+msgstr "否"
+
+#: ldapconfigwidget.cpp:255
+msgctxt "@option:radio use TLS security"
+msgid "TLS"
+msgstr "TLS"
+
+#: ldapconfigwidget.cpp:258
+msgctxt "@option:radio use SSL security"
+msgid "SSL"
+msgstr "SSL"
+
+#: ldapconfigwidget.cpp:274
+msgid "Authentication"
+msgstr "身份验证"
+
+#: ldapconfigwidget.cpp:281
+msgctxt "@option:radio anonymous authentication"
+msgid "Anonymous"
+msgstr "匿名"
+
+#: ldapconfigwidget.cpp:285
+msgctxt "@option:radio simple authentication"
+msgid "Simple"
+msgstr "简单"
+
+#: ldapconfigwidget.cpp:289
+msgctxt "@option:radio SASL authentication"
+msgid "SASL"
+msgstr "SASL"
+
+#: ldapconfigwidget.cpp:295
+msgid "SASL mechanism:"
+msgstr "SASL 算法："
+
+#: ldapconfigwidget.cpp:361
+msgid "LDAP Query"
+msgstr "LDAP 查询"
+
+#: ldapconnection.cpp:150
+msgid "LDAP Operations error"
+msgstr "LDAP 操作错误"
+
+#: ldapconnection.cpp:155
+msgid "No LDAP Support..."
+msgstr "无 LDAP 支持..."
+
+#: ldapconnection.cpp:166
+msgid ""
+"SASL support is not available. Please recompile libkldap with the Cyrus-SASL "
+"(or compatible) client libraries, or complain to your distribution packagers."
+msgstr ""
+"SASL 支持不可用。请在 Cyrus-SASL 客户端库或兼容环境下重新编译 libkldap，或向"
+"您所用发行版的打包人员申诉。"
+
+#: ldapconnection.cpp:276
+msgid "An error occurred during the connection initialization phase."
+msgstr "在连接初始化阶段发生错误。"
+
+#: ldapconnection.cpp:283
+#, kde-format
+msgid "Cannot set protocol version to %1."
+msgstr "无法将协议版本设为 %1。"
+
+#: ldapconnection.cpp:294
+#, kde-format
+msgid "Cannot set timeout to %1 second."
+msgid_plural "Cannot set timeout to %1 seconds."
+msgstr[0] "无法将超时值设置为 %1 秒。"
+
+#: ldapconnection.cpp:315
+msgid "TLS support not available in the LDAP client libraries."
+msgstr "LDAP 客户端库没有 TLS 支持。"
+
+#: ldapconnection.cpp:325
+msgid "Cannot set size limit."
+msgstr "无法设置大小限制。"
+
+#: ldapconnection.cpp:335
+msgid "Cannot set time limit."
+msgstr "无法设置时间限制。"
+
+#: ldapconnection.cpp:345
+msgid "Cannot initialize the SASL client."
+msgstr "无法初始化 SASL 客户端。"
+
+#: ldapconnection.cpp:424
+msgid ""
+"LDAP support not compiled in. Please recompile libkldap with the OpenLDAP "
+"(or compatible) client libraries, or complain to your distribution packagers."
+msgstr ""
+"未编译 LDAP 支持。请在 OpenLDAP 客户端库或兼容环境下重新编译 libkldap，或向您"
+"所用发行版的打包人员申诉。"
+
+#: ldapsearch.cpp:236
+msgid "Cannot access to server. Please reconfigure it."
+msgstr "无法访问服务器，请重新配置。"
+
+#: ldapstructureproxymodel.cpp:88
+msgid "Distinguished Name"
+msgstr "识别名称(DN)"
+
+#, fuzzy
+#~| msgid "Host:"
+#~ msgid "Add Host"
+#~ msgstr "主机："
+
+#, fuzzy
+#~| msgid "LDAP version:"
+#~ msgid "LDAP Server Settings"
+#~ msgstr "LDAP 版本："
+
+#, fuzzy
+#~| msgid "LDAP version:"
+#~ msgid "LDAP Servers"
+#~ msgstr "LDAP 版本："
+
+#, fuzzy
+#~| msgid "User:"
+#~ msgid "User ID"
+#~ msgstr "用户："

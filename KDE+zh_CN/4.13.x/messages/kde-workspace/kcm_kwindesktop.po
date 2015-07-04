@@ -1,0 +1,225 @@
+# translation of kcmkonq.po to zh_CN
+# Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.net.cn>, 2000.
+#   Updated by Peace Lu <hepinglu@linpus.com.tw>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Funda Wang <fundawang@linux.net.cn>, 2002, 2004.
+# Lie Ex <lilith.ex@gmail.com>, 2009.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-12 01:39+0000\n"
+"PO-Revision-Date: 2013-01-14 00:41-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: desktopnameswidget.cpp:67
+#, kde-format
+msgid "Desktop %1:"
+msgstr "桌面 %1："
+
+#: desktopnameswidget.cpp:69 desktopnameswidget.cpp:70
+#, kde-format
+msgid "Here you can enter the name for desktop %1"
+msgstr "输入桌面 %1 的名字"
+
+#: desktopnameswidget.cpp:108 main.cpp:220
+#, kde-format
+msgid "Desktop %1"
+msgstr "桌面 %1"
+
+#: main.cpp:84
+msgid ""
+"<h1>Multiple Desktops</h1>In this module, you can configure how many virtual "
+"desktops you want and how these should be labeled."
+msgstr ""
+"<h1>多桌面</h1>在该模块中，您可以配置您需要多少个桌面以及怎样标记这些桌面。"
+
+#: main.cpp:96
+msgid "Switch to Next Desktop"
+msgstr "切换到下一个桌面"
+
+#: main.cpp:97
+msgid "Switch to Previous Desktop"
+msgstr "切换到上一个桌面"
+
+#: main.cpp:98
+msgid "Switch One Desktop to the Right"
+msgstr "将一个桌面切换到右边"
+
+#: main.cpp:99
+msgid "Switch One Desktop to the Left"
+msgstr "将一个桌面切换到左边"
+
+#: main.cpp:100
+msgid "Switch One Desktop Up"
+msgstr "将一个桌面向上切换"
+
+#: main.cpp:101
+msgid "Switch One Desktop Down"
+msgstr "将一个桌面向下切换"
+
+#: main.cpp:102
+msgid "Walk Through Desktops"
+msgstr "遍历桌面"
+
+#: main.cpp:103
+msgid "Walk Through Desktops (Reverse)"
+msgstr "遍历桌面 (反向)"
+
+#: main.cpp:104
+msgid "Walk Through Desktop List"
+msgstr "遍历桌面列表"
+
+#: main.cpp:105
+msgid "Walk Through Desktop List (Reverse)"
+msgstr "遍历桌面列表 (反向)"
+
+#: main.cpp:107 main.cpp:128 main.cpp:498 main.cpp:499
+msgid "Desktop Switching"
+msgstr "桌面切换"
+
+#: main.cpp:119 main.cpp:478
+#, kde-format
+msgid "Switch to Desktop %1"
+msgstr "切换到桌面 %1"
+
+#: main.cpp:147
+msgid "No Animation"
+msgstr "无动画"
+
+#: main.cpp:482
+#, kde-format
+msgid "No suitable Shortcut for Desktop %1 found"
+msgstr "找不到适合桌面 %1 的快捷键"
+
+#: main.cpp:488
+#, kde-format
+msgid "Assigned global Shortcut \"%1\" to Desktop %2"
+msgstr "指派全局快捷键“%1”给桌面 %2"
+
+#: main.cpp:491
+#, kde-format
+msgid "Shortcut conflict: Could not set Shortcut %1 for Desktop %2"
+msgstr "快捷键冲突：无法为桌面 %2 设置快捷键 %1"
+
+#. i18n: ectx: attribute (title), widget (QWidget, desktop)
+#: main.ui:33
+msgid "Desktops"
+msgstr "桌面"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: main.ui:39
+msgid "Layout"
+msgstr "布局"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, numberLabel)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, numberSpinBox)
+#: main.ui:51 main.ui:64
+msgid ""
+"Here you can set how many virtual desktops you want on your KDE desktop."
+msgstr "您可以设置您的 KDE 桌面上要有多少个虚拟桌面。"
+
+#. i18n: ectx: property (text), widget (QLabel, numberLabel)
+#: main.ui:54
+msgid "Number of desktops:"
+msgstr "桌面数量："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: main.ui:83
+msgid "Number of rows:"
+msgstr "行数："
+
+#. i18n: ectx: property (text), widget (QCheckBox, activityCheckBox)
+#: main.ui:100
+msgid "Different widgets for each desktop"
+msgstr "每个桌面的部件不同"
+
+#. i18n: ectx: property (title), widget (QGroupBox, nameGroup)
+#: main.ui:110
+msgid "Desktop Names"
+msgstr "桌面名称"
+
+#. i18n: ectx: attribute (title), widget (QWidget, switching)
+#: main.ui:143
+msgid "Switching"
+msgstr "切换"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, wrapAroundBox)
+#: main.ui:149
+msgid ""
+"Enable this option if you want keyboard or active desktop border navigation "
+"beyond the edge of a desktop to take you to the opposite edge of the new "
+"desktop."
+msgstr ""
+"如果您希望键盘或活动桌面边框在越过桌面边缘时，自动转到对应一边的新桌面，请启"
+"用此选项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, wrapAroundBox)
+#: main.ui:152
+msgid "Desktop navigation wraps around"
+msgstr "桌面循环切换"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: main.ui:159
+msgid "Desktop Effect Animation"
+msgstr "桌面特效动画"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: main.ui:171
+msgid "Animation:"
+msgstr "动画："
+
+#. i18n: ectx: property (title), widget (QGroupBox, popupInfoCheckBox)
+#: main.ui:211
+msgid "Desktop Switch On-Screen Display"
+msgstr "桌面切换显示"
+
+#. i18n: ectx: property (text), widget (QLabel, hideLabel)
+#: main.ui:229
+msgid "Duration:"
+msgstr "间隔："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, popupHideSpinBox)
+#: main.ui:239
+msgid " msec"
+msgstr " 毫秒"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, desktopLayoutIndicatorCheckBox)
+#: main.ui:252
+msgid ""
+"Enabling this option will show a small preview of the desktop layout "
+"indicating the selected desktop."
+msgstr "启用此选项后，将会显示所选桌面的预览小图。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, desktopLayoutIndicatorCheckBox)
+#: main.ui:255
+msgid "Show desktop layout indicators"
+msgstr "显示桌面布局符"
+
+#. i18n: ectx: property (title), widget (QGroupBox, shortcutsGroupBox)
+#: main.ui:265
+msgid "Shortcuts"
+msgstr "快捷键"
+
+#. i18n: ectx: property (text), widget (QCheckBox, allShortcutsCheckBox)
+#: main.ui:284
+msgid "Show shortcuts for all possible desktops"
+msgstr "显示所有可用桌面的快捷键"

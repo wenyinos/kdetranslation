@@ -1,0 +1,1667 @@
+# translation of kcachegrind_qt.po to 简体中文
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010, 2012.
+# Lie Ex <lilith.ex@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcachegrind_qt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-30 01:39+0000\n"
+"PO-Revision-Date: 2012-06-17 19:14+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: libcore/cachegrindloader.cpp:145
+msgid "Import filter for Cachegrind/Callgrind generated profile data files"
+msgstr "从 Cachegrind/Callgrind 生成的剖析档数据文件中导入过滤器"
+
+#: libcore/context.cpp:70
+msgid "Invalid Context"
+msgstr "无效的上下文"
+
+#: libcore/context.cpp:71
+msgid "Unknown Context"
+msgstr "未知上下文"
+
+#: libcore/context.cpp:72
+msgid "Part Source Line"
+msgstr "源码行部件"
+
+#: libcore/context.cpp:73
+msgid "Source Line"
+msgstr "源码行"
+
+#: libcore/context.cpp:74
+msgid "Part Line Call"
+msgstr "源码行调用"
+
+#: libcore/context.cpp:75
+msgid "Line Call"
+msgstr "行调用"
+
+#: libcore/context.cpp:76
+msgid "Part Jump"
+msgstr "跳转部件"
+
+#: libcore/context.cpp:77
+msgid "Jump"
+msgstr "跳转"
+
+#: libcore/context.cpp:78
+msgid "Part Instruction"
+msgstr "指令部件"
+
+#: libcore/context.cpp:79
+msgid "Instruction"
+msgstr "指令"
+
+#: libcore/context.cpp:80
+msgid "Part Instruction Jump"
+msgstr "指令跳转部件"
+
+#: libcore/context.cpp:81
+msgid "Instruction Jump"
+msgstr "指令跳转"
+
+#: libcore/context.cpp:82
+msgid "Part Instruction Call"
+msgstr "指令调用部件"
+
+#: libcore/context.cpp:83
+msgid "Instruction Call"
+msgstr "指令调用"
+
+#: libcore/context.cpp:84
+msgid "Part Call"
+msgstr "调用部件"
+
+#: libcore/context.cpp:85
+msgid "Call"
+msgstr "调用"
+
+#: libcore/context.cpp:86
+msgid "Part Function"
+msgstr "函数部件"
+
+#: libcore/context.cpp:87
+msgid "Function Source File"
+msgstr "函数源码文件"
+
+#: libcore/context.cpp:88 libviews/functionlistmodel.cpp:35
+#: libviews/stackselection.cpp:57
+msgid "Function"
+msgstr "函数"
+
+#: libcore/context.cpp:89
+msgid "Function Cycle"
+msgstr "函数循环"
+
+#: libcore/context.cpp:90
+msgid "Part Class"
+msgstr "类部件"
+
+#: libcore/context.cpp:91
+msgid "Class"
+msgstr "类"
+
+#: libcore/context.cpp:92
+msgid "Part Source File"
+msgstr "源码文件部件"
+
+#: libcore/context.cpp:93
+msgid "Source File"
+msgstr "源码文件"
+
+#: libcore/context.cpp:94
+msgid "Part ELF Object"
+msgstr "ELF 对象部件"
+
+#: libcore/context.cpp:95
+msgid "ELF Object"
+msgstr "ELF 对象"
+
+#: libcore/context.cpp:96 libviews/partview.cpp:47
+msgid "Profile Part"
+msgstr "剖析档部件"
+
+#: libcore/context.cpp:97
+msgid "Program Trace"
+msgstr "程序追踪"
+
+#: libcore/costitem.cpp:56
+#, qt-format
+msgid "%1 from %2"
+msgstr "%1 从 %2"
+
+#: libcore/costitem.cpp:62 libcore/costitem.cpp:67 libcore/tracedata.cpp:1988
+#: libcore/tracedata.cpp:2050 libcore/tracedata.cpp:2870
+#: libcore/tracedata.cpp:2971 libviews/partgraph.cpp:418
+msgid "(unknown)"
+msgstr "(未知)"
+
+#: libcore/globalconfig.cpp:87
+msgid "Instruction Fetch"
+msgstr "指令获取"
+
+#: libcore/globalconfig.cpp:88
+msgid "Data Read Access"
+msgstr "数据读访问"
+
+#: libcore/globalconfig.cpp:89
+msgid "Data Write Access"
+msgstr "数据写访问"
+
+#: libcore/globalconfig.cpp:90
+msgid "L1 Instr. Fetch Miss"
+msgstr "L1 指令获取失败"
+
+#: libcore/globalconfig.cpp:91
+msgid "L1 Data Read Miss"
+msgstr "L1 数据读取失败"
+
+#: libcore/globalconfig.cpp:92
+msgid "L1 Data Write Miss"
+msgstr "L1 数据写入失败"
+
+#: libcore/globalconfig.cpp:93
+msgid "L2 Instr. Fetch Miss"
+msgstr "L2 指令获取失败"
+
+#: libcore/globalconfig.cpp:94
+msgid "L2 Data Read Miss"
+msgstr "L2 数据读取失败"
+
+#: libcore/globalconfig.cpp:95
+msgid "L2 Data Write Miss"
+msgstr "L2 数据写入失败"
+
+#: libcore/globalconfig.cpp:96
+msgid "LL Instr. Fetch Miss"
+msgstr "LL 指令获取失败"
+
+#: libcore/globalconfig.cpp:97
+msgid "LL Data Read Miss"
+msgstr "LL 数据读取失败"
+
+#: libcore/globalconfig.cpp:98
+msgid "LL Data Write Miss"
+msgstr "LL 数据写入失败"
+
+#: libcore/globalconfig.cpp:99
+msgid "L1 Miss Sum"
+msgstr "L1 失败总计"
+
+#: libcore/globalconfig.cpp:100
+msgid "L2 Miss Sum"
+msgstr "L2 失败总计"
+
+#: libcore/globalconfig.cpp:101
+#, fuzzy
+#| msgid "L1 Miss Sum"
+msgid "Last-level Miss Sum"
+msgstr "L1 失败总计"
+
+#: libcore/globalconfig.cpp:102
+msgid "Indirect Branch"
+msgstr "间接分支"
+
+#: libcore/globalconfig.cpp:103
+msgid "Mispredicted Ind. Branch"
+msgstr "预判定失败的间接分支"
+
+#: libcore/globalconfig.cpp:104
+msgid "Conditional Branch"
+msgstr "条件分支"
+
+#: libcore/globalconfig.cpp:105
+msgid "Mispredicted Cond. Branch"
+msgstr "预判定失败的条件分支"
+
+#: libcore/globalconfig.cpp:106
+msgid "Mispredicted Branch"
+msgstr "预判定失败的分支"
+
+#: libcore/globalconfig.cpp:107
+msgid "Global Bus Event"
+msgstr "全局总线事件"
+
+#: libcore/globalconfig.cpp:108
+msgid "Samples"
+msgstr "样本"
+
+#: libcore/globalconfig.cpp:109
+msgid "System Time"
+msgstr "系统时间"
+
+#: libcore/globalconfig.cpp:110
+msgid "User Time"
+msgstr "用户时间"
+
+#: libcore/globalconfig.cpp:111
+msgid "Cycle Estimation"
+msgstr "循环判断"
+
+#: libcore/tracedata.cpp:1250
+msgid "(no caller)"
+msgstr "(无调用方)"
+
+#: libcore/tracedata.cpp:1257 libcore/tracedata.cpp:1276
+#, qt-format
+msgid "%1 via %2"
+msgstr "%1 通过 %2"
+
+#: libcore/tracedata.cpp:1266
+msgid "(no callee)"
+msgstr "(无被调用方)"
+
+#: libcore/tracedata.cpp:2719
+msgid "(global)"
+msgstr "(全局)"
+
+#: libcore/tracedata.cpp:3152
+msgid "(not found)"
+msgstr "(未找到)"
+
+#: libcore/tracedata.cpp:3694
+msgid "Recalculating Function Cycles..."
+msgstr "正在重新计算函数循环..."
+
+#: libviews/callgraphview.cpp:419
+#, qt-format
+msgid "Call(s) from %1"
+msgstr "来自 %1 的调用"
+
+#: libviews/callgraphview.cpp:422
+#, qt-format
+msgid "Call(s) to %1"
+msgstr "传到 %1 的调用"
+
+#: libviews/callgraphview.cpp:424
+msgid "(unknown call)"
+msgstr "(未知的调用)"
+
+#: libviews/callgraphview.cpp:1548
+msgid ""
+"<b>Call Graph around active Function</b><p>Depending on configuration, this "
+"view shows the call graph environment of the active function. Note: the "
+"shown cost is <b>only</b> the cost which is spent while the active function "
+"was actually running; i.e. the cost shown for main() - if it is visible - "
+"should be the same as the cost of the active function, as that is the part "
+"of inclusive cost of main() spent while the active function was running.</"
+"p><p>For cycles, blue call arrows indicate that this is an artificial call "
+"added for correct drawing which actually never happened.</p><p>If the graph "
+"is larger than the widget area, an overview panner is shown in one edge. "
+"There are similar visualization options to the Call Treemap; the selected "
+"function is highlighted.</p>"
+msgstr ""
+
+#: libviews/callgraphview.cpp:1960
+msgid ""
+"Warning: a long lasting graph layouting is in progress.\n"
+"Reduce node/edge limits for speedup.\n"
+msgstr ""
+"警告：正在执行长耗时的制图操作。\n"
+"您可以降低节点/边界限制获得加速。\n"
+
+#: libviews/callgraphview.cpp:1963
+msgid "Layouting stopped.\n"
+msgstr "制图已停止。\n"
+
+#: libviews/callgraphview.cpp:1965
+#, qt-format
+msgid "The call graph has %1 nodes and %2 edges.\n"
+msgstr "调用图含有 %1 个节点和 %2 个边界。\n"
+
+#: libviews/callgraphview.cpp:1974
+msgid "No graph available because the layouting process failed.\n"
+msgstr "无可用调用图，原因是图像布局进程执行失败。\n"
+
+#: libviews/callgraphview.cpp:1976
+#, qt-format
+msgid ""
+"Trying to run the following command did not work:\n"
+"'%1'\n"
+msgstr ""
+"正在尝试运行的命令未能正常工作：\n"
+"'%1'\n"
+
+#: libviews/callgraphview.cpp:1978 libviews/callgraphview.cpp:2495
+msgid "Please check that 'dot' is installed (package GraphViz)."
+msgstr "请检查 GraphViz 软件包中的“dot”程序是否已安装。"
+
+#: libviews/callgraphview.cpp:2020
+msgid "No item activated for which to draw the call graph."
+msgstr "没有激活可绘制调用图的项目"
+
+#: libviews/callgraphview.cpp:2032
+msgid "No call graph can be drawn for the active item."
+msgstr "活动项目中没有可绘制的调用图。"
+
+#: libviews/callgraphview.cpp:2494
+msgid "Error running the graph layouting tool.\n"
+msgstr "运行制图工具时出错。\n"
+
+#: libviews/callgraphview.cpp:2499
+#, qt-format
+msgid ""
+"There is no call graph available for function\n"
+"\t'%1'\n"
+"because it has no cost of the selected event type."
+msgstr ""
+"此函数没有可用的调用图：\n"
+"\t“%1”\n"
+"因为选择的事件类型没有执行开销。"
+
+#: libviews/callgraphview.cpp:2713
+msgid "Caller Depth"
+msgstr "调用深度"
+
+#: libviews/callgraphview.cpp:2714 libviews/callgraphview.cpp:2753
+msgid "Unlimited"
+msgstr "无限制"
+
+#: libviews/callgraphview.cpp:2717 libviews/callgraphview.cpp:2756
+msgctxt "None"
+msgid "Depth 0"
+msgstr "深度 0"
+
+#: libviews/callgraphview.cpp:2718 libviews/callgraphview.cpp:2757
+msgid "max. 2"
+msgstr "最大 2"
+
+#: libviews/callgraphview.cpp:2719 libviews/callgraphview.cpp:2758
+msgid "max. 5"
+msgstr "最大 5"
+
+#: libviews/callgraphview.cpp:2720 libviews/callgraphview.cpp:2759
+msgid "max. 10"
+msgstr "最大 10"
+
+#: libviews/callgraphview.cpp:2721 libviews/callgraphview.cpp:2760
+msgid "max. 15"
+msgstr "最大 15"
+
+#: libviews/callgraphview.cpp:2752
+msgid "Callee Depth"
+msgstr "被调用深度"
+
+#: libviews/callgraphview.cpp:2791
+msgid "Min. Node Cost"
+msgstr "最小节点开销"
+
+#: libviews/callgraphview.cpp:2792
+msgid "No Minimum"
+msgstr "无最小值"
+
+#: libviews/callgraphview.cpp:2798
+msgid "50 %"
+msgstr "50%"
+
+#: libviews/callgraphview.cpp:2799
+msgid "20 %"
+msgstr "20%"
+
+#: libviews/callgraphview.cpp:2800
+msgid "10 %"
+msgstr "10%"
+
+#: libviews/callgraphview.cpp:2801
+msgid "5 %"
+msgstr "5%"
+
+#: libviews/callgraphview.cpp:2802
+msgid "2 %"
+msgstr "2%"
+
+#: libviews/callgraphview.cpp:2803
+msgid "1 %"
+msgstr "1%"
+
+#: libviews/callgraphview.cpp:2833
+msgid "Min. Call Cost"
+msgstr "最小调用开销"
+
+#: libviews/callgraphview.cpp:2834
+msgid "Same as Node"
+msgstr "和节点相同"
+
+#: libviews/callgraphview.cpp:2836
+#, no-c-format
+msgid "50 % of Node"
+msgstr "50% 的节点"
+
+#: libviews/callgraphview.cpp:2838
+#, no-c-format
+msgid "20 % of Node"
+msgstr "20% 的节点"
+
+#: libviews/callgraphview.cpp:2840
+#, no-c-format
+msgid "10 % of Node"
+msgstr "10% 的节点"
+
+#: libviews/callgraphview.cpp:2869
+msgid "Birds-eye View"
+msgstr "鸟瞰视图"
+
+#: libviews/callgraphview.cpp:2870
+msgid "Top Left"
+msgstr "顶端左侧"
+
+#: libviews/callgraphview.cpp:2871
+msgid "Top Right"
+msgstr "顶端右侧"
+
+#: libviews/callgraphview.cpp:2872
+msgid "Bottom Left"
+msgstr "底端左侧"
+
+#: libviews/callgraphview.cpp:2873
+msgid "Bottom Right"
+msgstr "底端右侧"
+
+#: libviews/callgraphview.cpp:2874
+msgid "Automatic"
+msgstr "自动"
+
+#: libviews/callgraphview.cpp:2875
+msgid "Hide"
+msgstr "隐藏"
+
+#: libviews/callgraphview.cpp:2905
+msgid "Layout"
+msgstr "版图"
+
+#: libviews/callgraphview.cpp:2906
+msgid "Top to Down"
+msgstr "从上到下"
+
+#: libviews/callgraphview.cpp:2907
+msgid "Left to Right"
+msgstr "从左到右"
+
+#: libviews/callgraphview.cpp:2908
+msgid "Circular"
+msgstr "环形"
+
+#: libviews/callgraphview.cpp:2948 libviews/callgraphview.cpp:2953
+#: libviews/callgraphview.cpp:2973 libviews/callview.cpp:128
+#: libviews/callview.cpp:133 libviews/coverageview.cpp:170
+#: libviews/functionselection.cpp:295 libviews/instrview.cpp:240
+#: libviews/partselection.cpp:371 libviews/sourceview.cpp:121
+#, qt-format
+msgid "Go to '%1'"
+msgstr "跳转到“%1”"
+
+#: libviews/callgraphview.cpp:2984
+msgid "Stop Layouting"
+msgstr "停止制图"
+
+#: libviews/callgraphview.cpp:2991
+msgid "Export Graph"
+msgstr "导出图表"
+
+#: libviews/callgraphview.cpp:2992
+msgid "As DOT file..."
+msgstr "作为 DOT 文件..."
+
+#: libviews/callgraphview.cpp:2993
+msgid "As Image..."
+msgstr "作为图像..."
+
+#: libviews/callgraphview.cpp:2996
+msgid "Graph"
+msgstr "图表"
+
+#: libviews/callgraphview.cpp:3004
+msgid "Arrows for Skipped Calls"
+msgstr "被跳过调用的箭头"
+
+#: libviews/callgraphview.cpp:3009
+msgid "Inner-cycle Calls"
+msgstr "内部循环调用"
+
+#: libviews/callgraphview.cpp:3014
+msgid "Cluster Groups"
+msgstr "集群分组"
+
+#: libviews/callgraphview.cpp:3018 libviews/callmapview.cpp:337
+#: libviews/partselection.cpp:380
+msgid "Visualization"
+msgstr "可视化"
+
+#: libviews/callgraphview.cpp:3019
+msgid "Compact"
+msgstr "简洁"
+
+#: libviews/callgraphview.cpp:3022
+msgid "Normal"
+msgstr "普通"
+
+#: libviews/callgraphview.cpp:3025
+msgid "Tall"
+msgstr "高"
+
+#: libviews/callgraphview.cpp:3050
+msgid "Export Graph As DOT file"
+msgstr "导出图表为 DOT 文件"
+
+#: libviews/callgraphview.cpp:3051
+msgid "Graphviz (*.dot)"
+msgstr "Graphviz 文件(*.dot)"
+
+#: libviews/callgraphview.cpp:3066
+msgid "Export Graph As Image"
+msgstr "导出图表为图像"
+
+#: libviews/callgraphview.cpp:3068
+msgid "Images (*.png *.jpg)"
+msgstr "图像(*.png *.jpg)"
+
+#: libviews/callitem.cpp:83 libviews/partlistitem.cpp:141
+msgid "(active)"
+msgstr "(活动)"
+
+#: libviews/callmapview.cpp:62
+msgctxt "Name"
+msgid "A thing's name"
+msgstr "名称"
+
+#: libviews/callmapview.cpp:63 libviews/callview.cpp:47
+#: libviews/instrview.cpp:169 libviews/partselection.cpp:72
+#: libviews/sourceview.cpp:63 libviews/stackselection.cpp:54
+msgid "Cost"
+msgstr "开销"
+
+#: libviews/callmapview.cpp:64 libviews/functionlistmodel.cpp:36
+msgid "Location"
+msgstr "位置"
+
+#: libviews/callmapview.cpp:66 libviews/stackselection.cpp:56
+msgid "Calls"
+msgstr "调用"
+
+#: libviews/callmapview.cpp:101
+msgid ""
+"<b>Caller Map</b><p>This graph shows the nested hierarchy of all callers of "
+"the current activated function. Each colored rectangle represents a "
+"function; its size tries to be proportional to the cost spent therein while "
+"the active function is running (however, there are drawing constraints).</p>"
+msgstr ""
+
+#: libviews/callmapview.cpp:108
+msgid ""
+"<b>Call Map</b><p>This graph shows the nested hierarchy of all callees of "
+"the current activated function. Each colored rectangle represents a "
+"function; its size tries to be proportional to the cost spent therein while "
+"the active function is running (however, there are drawing constraints).</p>"
+msgstr ""
+
+#: libviews/callmapview.cpp:116
+msgid ""
+"<p>Appearance options can be found in the in the context menu. To get exact "
+"size proportions, choose 'Hide incorrect borders'. As this mode can be "
+"<em>very</em> time consuming, you may want to limit the maximum drawn "
+"nesting level before. 'Best' determinates the split direction for children "
+"from the aspect ratio of the parent. 'Always Best' decides on remaining "
+"space for each sibling. 'Ignore Proportions' takes space for function name "
+"drawing <em>before</em> drawing children. Note that size proportions can get "
+"<em>heavily</em> wrong.</p><p>This is a <em>TreeMap</em> widget. Keyboard "
+"navigation is available with the left/right arrow keys for traversing "
+"siblings, and up/down arrow keys to go a nesting level up/down. <em>Return</"
+"em> activates the current item.</p>"
+msgstr ""
+
+#: libviews/callmapview.cpp:149
+msgid "Go To"
+msgstr "转到"
+
+#: libviews/callmapview.cpp:180
+msgid "Stop at Depth"
+msgstr "停止于深度"
+
+#: libviews/callmapview.cpp:181
+msgid "No Depth Limit"
+msgstr "无深度限制"
+
+#: libviews/callmapview.cpp:183
+msgid "Depth 10"
+msgstr "深度 10"
+
+#: libviews/callmapview.cpp:184
+msgid "Depth 15"
+msgstr "深度 15"
+
+#: libviews/callmapview.cpp:185
+msgid "Depth 20"
+msgstr "深度 20"
+
+#: libviews/callmapview.cpp:188
+#, qt-format
+msgid "Depth of '%1' (%2)"
+msgstr "“%1”的深度(%2)"
+
+#: libviews/callmapview.cpp:195
+#, qt-format
+msgid "Decrement Depth (to %1)"
+msgstr "降低深度(到 %1)"
+
+#: libviews/callmapview.cpp:197
+#, qt-format
+msgid "Increment Depth (to %1)"
+msgstr "增加深度(到 %1)"
+
+#: libviews/callmapview.cpp:223
+msgid "Stop at Function"
+msgstr "停止于函数"
+
+#: libviews/callmapview.cpp:224
+msgid "No Function Limit"
+msgstr "无函数限制"
+
+#: libviews/callmapview.cpp:267
+msgid "Stop at Area"
+msgstr "停止于区域"
+
+#: libviews/callmapview.cpp:268
+msgid "No Area Limit"
+msgstr "无区域限制"
+
+#: libviews/callmapview.cpp:270
+msgid "100 Pixels"
+msgstr "100 像素"
+
+#: libviews/callmapview.cpp:271
+msgid "200 Pixels"
+msgstr "200 像素"
+
+#: libviews/callmapview.cpp:272
+msgid "500 Pixels"
+msgstr "500 像素"
+
+#: libviews/callmapview.cpp:273
+msgid "1000 Pixels"
+msgstr "1000 像素"
+
+#: libviews/callmapview.cpp:279
+#, qt-format
+msgid "Area of '%1' (%2)"
+msgstr "“%1”的区域(%2)"
+
+#: libviews/callmapview.cpp:285
+#, qt-format
+msgid "Double Area Limit (to %1)"
+msgstr "区域限制增倍(到 %1)"
+
+#: libviews/callmapview.cpp:287
+#, qt-format
+msgid "Half Area Limit (to %1)"
+msgstr "区域限制减半(到 %1)"
+
+#: libviews/callmapview.cpp:338
+msgid "Split Direction"
+msgstr "方向分割"
+
+#: libviews/callmapview.cpp:341
+msgid "Skip Incorrect Borders"
+msgstr "跳过不正确的边框"
+
+#: libviews/callmapview.cpp:346
+msgid "Border Width"
+msgstr "边框宽度"
+
+#: libviews/callmapview.cpp:347
+msgid "Border 0"
+msgstr "边框 0"
+
+#: libviews/callmapview.cpp:349
+msgid "Border 1"
+msgstr "边框 1"
+
+#: libviews/callmapview.cpp:350
+msgid "Border 2"
+msgstr "边框 2"
+
+#: libviews/callmapview.cpp:351
+msgid "Border 3"
+msgstr "边框 3"
+
+#: libviews/callmapview.cpp:356
+msgid "Draw Symbol Names"
+msgstr "绘制符号名称"
+
+#: libviews/callmapview.cpp:358
+msgid "Draw Cost"
+msgstr "绘制执行开销"
+
+#: libviews/callmapview.cpp:360
+msgid "Draw Location"
+msgstr "绘制位置"
+
+#: libviews/callmapview.cpp:362
+msgid "Draw Calls"
+msgstr "绘制调用"
+
+#: libviews/callmapview.cpp:366 libviews/partselection.cpp:406
+msgid "Ignore Proportions"
+msgstr "忽略比例"
+
+#: libviews/callmapview.cpp:368 libviews/partselection.cpp:408
+msgid "Allow Rotation"
+msgstr "允许旋转"
+
+#: libviews/callmapview.cpp:386
+msgid "Shading"
+msgstr "阴影"
+
+#: libviews/callmapview.cpp:438
+#, qt-format
+msgid "Call Map: Current is '%1'"
+msgstr "调用图：当前是“%1”"
+
+#: libviews/callmapview.cpp:604
+msgid "(no function)"
+msgstr "(无函数)"
+
+#: libviews/callmapview.cpp:740 libviews/callmapview.cpp:855
+msgid "(no call)"
+msgstr "(无调用)"
+
+#: libviews/callview.cpp:48
+msgid "Cost per call"
+msgstr ""
+
+#: libviews/callview.cpp:49 libviews/instrview.cpp:170
+#: libviews/sourceview.cpp:64
+msgid "Cost 2"
+msgstr "开销 2"
+
+#: libviews/callview.cpp:50
+msgid "Cost 2 per call"
+msgstr ""
+
+#: libviews/callview.cpp:51
+msgid "Count"
+msgstr "计数"
+
+#: libviews/callview.cpp:52 libviews/coverageview.cpp:52
+msgid "Caller"
+msgstr "调用方"
+
+#: libviews/callview.cpp:52 libviews/coverageview.cpp:59
+msgid "Callee"
+msgstr "被调用方"
+
+#: libviews/callview.cpp:86
+msgid ""
+"<b>List of direct Callers</b><p>This list shows all functions calling the "
+"current selected one directly, together with a call count and the cost spent "
+"in the current selected function while being called from the function from "
+"the list.</p><p>An icon instead of an inclusive cost specifies that this is "
+"a call inside of a recursive cycle. An inclusive cost makes no sense here.</"
+"p><p>Selecting a function makes it the current selected one of this "
+"information panel. If there are two panels (Split mode), the function of the "
+"other panel is changed instead.</p>"
+msgstr ""
+"<b>直接调用方列表</b><p>此列表显示所有直接调用了当前选中函数的所有函数，以及"
+"调用次数和调用开销。</p><p>如果显示的是图标而非引入开销，说明此次调用是在一个"
+"循环之内。引入开销对此无意义。</p><p>选择一个函数可在此信息面板上跳转到它，如"
+"果是在有两个面板的分割模式下，则切换到另一个面板。</p>"
+
+#: libviews/callview.cpp:99
+msgid ""
+"<b>List of direct Callees</b><p>This list shows all functions called by the "
+"current selected one directly, together with a call count and the cost spent "
+"in this function while being called from the selected function.</"
+"p><p>Selecting a function makes it the current selected one of this "
+"information panel. If there are two panels (Split mode), the function of the "
+"other panel is changed instead.</p>"
+msgstr ""
+"<b>直接被调用方列表</b><p>此列表显示所有被当前选中函数直接调用的所有函数，以"
+"及调用次数和调用开销。</p><p>选择一个函数可在此信息面板上跳转到它，如果是在有"
+"两个面板的分割模式下，则切换到另一个面板。</p>"
+
+#: libviews/callview.cpp:265 libviews/callview.cpp:269
+#, qt-format
+msgid "%1 per call"
+msgstr ""
+
+#: libviews/coverageview.cpp:47 libviews/eventtypeview.cpp:48
+#: libviews/functionlistmodel.cpp:32 libviews/partview.cpp:48
+msgid "Incl."
+msgstr "引入"
+
+#: libviews/coverageview.cpp:50 libviews/coverageview.cpp:57
+msgid "Distance"
+msgstr "距离"
+
+#: libviews/coverageview.cpp:51 libviews/functionlistmodel.cpp:34
+#: libviews/partview.cpp:50
+msgid "Called"
+msgstr "已调用"
+
+#: libviews/coverageview.cpp:56 libviews/eventtypeview.cpp:49
+#: libviews/functionlistmodel.cpp:33 libviews/functionselection.cpp:124
+#: libviews/partview.cpp:49
+msgid "Self"
+msgstr "自身"
+
+#: libviews/coverageview.cpp:58
+msgid "Calling"
+msgstr "调用中"
+
+#: libviews/coverageview.cpp:94
+msgid ""
+"<b>List of all Callers</b><p>This list shows all functions calling the "
+"current selected one, either directly or with several functions in-between "
+"on the stack; the number of functions in-between plus one is called the "
+"<em>Distance</em> (e.g. for function A,B,C there exists a call from A to C "
+"when A calls B and B calls C, i.e. A => B => C. The distance here is 2).</"
+"p><p>Absolute cost shown is the cost spent in the selected function while a "
+"listed function is active; relative cost is the percentage of all cost spent "
+"in the selected function while the listed one is active. The cost graphic "
+"shows logarithmic percentage with a different color for each distance.</"
+"p><p>As there can be many calls from the same function, the distance column "
+"sometimes shows the range of distances for all calls happening; then, in "
+"parentheses, there is the medium distance, i.e. the distance where most of "
+"the call costs happened.</p><p>Selecting a function makes it the current "
+"selected one of this information panel. If there are two panels (Split "
+"mode), the function of the other panel is changed instead.</p>"
+msgstr ""
+
+#: libviews/coverageview.cpp:124
+msgid ""
+"<b>List of all Callees</b><p>This list shows all functions called by the "
+"current selected one, either directly or with several function in-between on "
+"the stack; the number of function in-between plus one is called the "
+"<em>Distance</em> (e.g. for function A,B,C there exists a call from A to C "
+"when A calls B and B calls C, i.e. A => B => C. The distance here is 2).</"
+"p><p>Absolute cost shown is the cost spent in the listed function while the "
+"selected is active; relative cost is the percentage of all cost spent in the "
+"listed function while the selected one is active. The cost graphic always "
+"shows logarithmic percentage with a different color for each distance.</"
+"p><p>As there can be many calls to the same function, the distance column "
+"sometimes shows the range of distances for all calls happening; then, in "
+"parentheses, there is the medium distance, i.e. the distance where most of "
+"the call costs happened.</p><p>Selecting a function makes it the current "
+"selected one of this information panel. If there are two panels (Split "
+"mode), the function of the other panel is changed instead.</p>"
+msgstr ""
+
+#: libviews/eventtypeitem.cpp:59
+msgid "Unknown Type"
+msgstr "未知类型"
+
+#: libviews/eventtypeview.cpp:47
+msgid "Event Type"
+msgstr "事件类型"
+
+#: libviews/eventtypeview.cpp:50
+msgid "Short"
+msgstr "短名"
+
+#: libviews/eventtypeview.cpp:52
+msgid "Formula"
+msgstr "公式"
+
+#: libviews/eventtypeview.cpp:86
+msgid ""
+"<b>Cost Types List</b><p>This list shows all cost types available and what "
+"the self/inclusive cost of the current selected function is for that cost "
+"type.</p><p>By choosing a cost type from the list, you change the cost type "
+"of costs shown all over KCachegrind to be the selected one.</p>"
+msgstr ""
+
+#: libviews/eventtypeview.cpp:106
+msgid "Set as Secondary Event Type"
+msgstr "设置次要事件类型"
+
+#: libviews/eventtypeview.cpp:108
+msgid "Hide Secondary Event Type"
+msgstr "隐藏次要事件类型"
+
+#: libviews/eventtypeview.cpp:117
+msgid "Edit Long Name"
+msgstr "编辑长名"
+
+#: libviews/eventtypeview.cpp:118
+msgid "Edit Short Name"
+msgstr "编辑短名"
+
+#: libviews/eventtypeview.cpp:119
+msgid "Edit Formula"
+msgstr "编辑公式"
+
+#: libviews/eventtypeview.cpp:120
+msgid "Remove"
+msgstr "删除"
+
+#: libviews/eventtypeview.cpp:129
+msgid "New Event Type..."
+msgstr "新建事件类型..."
+
+#: libviews/eventtypeview.cpp:164 libviews/eventtypeview.cpp:169
+#, qt-format
+msgid "New%1"
+msgstr "新建%1"
+
+#: libviews/eventtypeview.cpp:170
+#, qt-format
+msgid "New Event Type %1"
+msgstr "新建事件类型 %1"
+
+#: libviews/functionlistmodel.cpp:76
+#, qt-format
+msgid "(%1 function(s) skipped)"
+msgstr "(跳过 %1 个函数)"
+
+#: libviews/functionselection.cpp:97
+msgid "Function Profile"
+msgstr "函数剖析档"
+
+#: libviews/functionselection.cpp:105
+msgid "&Search:"
+msgstr "搜索(&S)："
+
+#: libviews/functionselection.cpp:124
+msgid "Group"
+msgstr "分组"
+
+#: libviews/functionselection.cpp:167
+msgid "(No Grouping)"
+msgstr "(无分组)"
+
+#: libviews/functionselection.cpp:219
+#, no-c-format
+msgid ""
+"<b>The Flat Profile</b><p>The flat profile contains a group and a function "
+"selection list. The group list contains all groups where costs are spent in, "
+"depending on the chosen group type. The group list is hidden when group type "
+"'Function' is selected.</p><p>The function list contains the functions of "
+"the selected group (or all for 'Function' group type), ordered by the costs "
+"spent therein. Functions with costs less than 1% are hidden on default.</p>"
+msgstr ""
+"<b>简单剖析档</b><p>简单剖析档包含一个组列表和一个函数选择列表。依据选择的组"
+"类型，组列表中包含所有经受过执行开销的组。如果组类型为“函数”，组列表会被隐"
+"藏。</p><p>函数列表包含选中组的函数(如果是“函数”组类型，则包含全部)，并按开销"
+"排序，开销低于 1% 的函数默认被隐藏。</p>"
+
+#: libviews/functionselection.cpp:348
+msgid "Grouping"
+msgstr "分组"
+
+#: libviews/functionselection.cpp:351
+msgid "No Grouping"
+msgstr "无分组"
+
+#: libviews/instritem.cpp:116 libviews/sourceitem.cpp:95
+#, qt-format
+msgid "Active call to '%1'"
+msgstr "到“%1”的活动调用"
+
+#: libviews/instritem.cpp:152
+#, qt-format
+msgid "Jump %1 of %2 times to 0x%3"
+msgstr "跳转到 0x%3 %1 次，共 %2 次"
+
+#: libviews/instritem.cpp:157
+#, qt-format
+msgid "Jump %1 times to 0x%2"
+msgstr "跳转到 0x%2 %1 次"
+
+#: libviews/instritem.cpp:202 libviews/sourceitem.cpp:185
+msgid "(cycle)"
+msgstr "(循环)"
+
+#: libviews/instrview.cpp:168 libviews/sourceview.cpp:62
+msgid "#"
+msgstr "#"
+
+#: libviews/instrview.cpp:172
+msgid "Hex"
+msgstr "十六进制"
+
+#: libviews/instrview.cpp:174
+msgid "Assembly Instructions"
+msgstr "汇编指令"
+
+#: libviews/instrview.cpp:175
+msgid "Source Position"
+msgstr "源码位置"
+
+#: libviews/instrview.cpp:211
+msgid ""
+"<b>Annotated Machine Code</b><p>The annotated machine code list shows the "
+"assembly instructions of the current selected function together with (self) "
+"cost spent while executing an instruction. If this is a call instruction, "
+"lines with details on the call happening are inserted into the source: the "
+"cost spent inside of the call, the number of calls happening, and the call "
+"destination.</p><p>The machine code shown is generated with the 'objdump' "
+"utility from the 'binutils' package.</p><p>Select a line with call "
+"information to make the destination function of this call current.</p>"
+msgstr ""
+
+#: libviews/instrview.cpp:245
+#, qt-format
+msgid "Go to Address %1"
+msgstr "跳转到地址 %1"
+
+#: libviews/instrview.cpp:257
+msgid "Hex Code"
+msgstr "十六进制码"
+
+#: libviews/instrview.cpp:555
+msgid "There is no instruction info in the profile data file."
+msgstr "剖析档数据文件中没有指令信息。"
+
+#: libviews/instrview.cpp:557
+msgid "Tip: For Callgrind, rerun with option"
+msgstr "提示：要使用 Callgrind，请指定此选项并重新运行程序"
+
+#: libviews/instrview.cpp:558
+msgid "      --dump-instr=yes"
+msgstr "      --dump-instr=yes"
+
+#: libviews/instrview.cpp:559
+msgid "To see (conditional) jumps, additionally specify"
+msgstr "要查看有条件的跳转，请指定附加选项"
+
+#: libviews/instrview.cpp:560
+msgid "      --collect-jumps=yes"
+msgstr "      --collect-jumps=yes"
+
+#: libviews/instrview.cpp:780
+msgid "For annotated machine code, the following object file is needed:"
+msgstr "注释机器码需要以下对象文件："
+
+#: libviews/instrview.cpp:785
+msgid "This file can not be found."
+msgstr "找不到此文件。"
+
+#: libviews/instrview.cpp:808
+msgid "There is an error trying to execute the command"
+msgstr "尝试执行该命令时出错"
+
+#: libviews/instrview.cpp:812 libviews/instrview.cpp:1102
+msgid "Check that you have installed 'objdump'."
+msgstr "请检查您是否已安装“objdump”程序。"
+
+#: libviews/instrview.cpp:814 libviews/instrview.cpp:1104
+msgid "This utility can be found in the 'binutils' package."
+msgstr "此工具可在“binutils”软件包里找到。"
+
+#: libviews/instrview.cpp:914
+msgid "(No Instruction)"
+msgstr "(无指令)"
+
+#: libviews/instrview.cpp:1080
+msgid "This happens because the code of"
+msgstr "发生原因是此代码"
+
+#: libviews/instrview.cpp:1083
+msgid "does not seem to match the profile data file."
+msgstr "似乎和此剖析档数据文件不匹配。"
+
+#: libviews/instrview.cpp:1086
+msgid "Are you using an old profile data file or is the above mentioned"
+msgstr "您是否正使用陈旧的剖析档数据文件，或是如上所言"
+
+#: libviews/instrview.cpp:1088
+msgid "ELF object from an updated installation/another machine?"
+msgstr "这是来自更新/其它的机器上的 ELF 对象吗？"
+
+#: libviews/instrview.cpp:1096
+msgid "There seems to be an error trying to execute the command"
+msgstr "尝试执行命令时似乎出错"
+
+#: libviews/instrview.cpp:1100
+msgid "Check that the ELF object used in the command exists."
+msgstr "请检查命令所用的 ELF 对象是否存在。"
+
+#: libviews/partgraph.cpp:164
+#, qt-format
+msgid "Profile Part %1"
+msgstr "剖析档部件 %1"
+
+#: libviews/partgraph.cpp:221
+msgid "(no trace)"
+msgstr "(无跟踪)"
+
+#: libviews/partgraph.cpp:224
+msgid "(no part)"
+msgstr "(无部件)"
+
+#: libviews/partlistitem.cpp:49
+msgid "(none)"
+msgstr "(无)"
+
+#: libviews/partselection.cpp:58
+msgid "Parts Overview"
+msgstr "部件概览"
+
+#: libviews/partselection.cpp:71
+msgctxt "A thing's name"
+msgid "Name"
+msgstr "名称"
+
+#: libviews/partselection.cpp:79
+msgid "(no trace parts)"
+msgstr "(无跟踪部件)"
+
+#: libviews/partselection.cpp:106
+msgid ""
+"<b>The Parts Overview</b><p>A trace consists of multiple trace parts when "
+"there are several profile data files from one profile run. The Trace Part "
+"Overview dockable shows these, horizontally ordered in execution time; the "
+"rectangle sizes are proportional to the total cost spent in the parts. You "
+"can select one or several parts to constrain all costs shown to these parts "
+"only.</p><p>The parts are further subdivided: there is a partitioning and an "
+"callee split mode: <ul><li>Partitioning: You see the partitioning into "
+"groups for a trace part, according to the group type selected. E.g. if ELF "
+"object groups are selected, you see colored rectangles for each used ELF "
+"object (shared library or executable), sized according to the cost spent "
+"therein.</li><li>Callee: A rectangle showing the inclusive cost of the "
+"current selected function in the trace part is shown. This is split up into "
+"smaller rectangles to show the costs of its callees.</li></ul></p>"
+msgstr ""
+"<b>部件概览</b><p>当某剖析档中含有多组剖析数据文件时，您可通过此概览看到所有"
+"停靠部件。其水平轴为执行时间，矩形区域与部件总开销呈比例增大。您可同时选择一"
+"个或几个部件来仅显示这些的部件总执行开销。</p><p>部件可进一步细分：有一个分割"
+"模式和一个被调用方分割模式：<ul><li>分割模式：您会看到追踪部件被根据所选类型"
+"划分为多个组。例如，若您选择了 ELF 对象组，就能看到每个被调用的 ELF 对象(共享"
+"库或可执行程序)都分别以彩色矩形显示，其大小和开销呈比例。</li><li>被调用方模"
+"式：每个显示的矩形都代表此追踪部件里当前选中函数的总开销。里面细分的小矩形代"
+"表每个被调用方各自的开销。</li></ul></p>"
+
+#: libviews/partselection.cpp:241
+#, qt-format
+msgid "Profile Part Overview: Current is '%1'"
+msgstr "剖析档部件概览：当前为“%1”"
+
+#: libviews/partselection.cpp:347
+#, qt-format
+msgid "Deselect '%1'"
+msgstr "取消选择“%1”"
+
+#: libviews/partselection.cpp:349
+#, qt-format
+msgid "Select '%1'"
+msgstr "选择“%1”"
+
+#: libviews/partselection.cpp:354
+msgid "Select All Parts"
+msgstr "选择全部部件"
+
+#: libviews/partselection.cpp:355
+msgid "Visible Parts"
+msgstr "可见部件"
+
+#: libviews/partselection.cpp:356
+msgid "Hide Selected Parts"
+msgstr "隐藏选中部件"
+
+#: libviews/partselection.cpp:357
+msgid "Show Hidden Parts"
+msgstr "显示隐藏部件"
+
+#: libviews/partselection.cpp:381
+msgid "Partitioning Mode"
+msgstr "分割模式"
+
+#: libviews/partselection.cpp:383
+msgid "Zoom Function"
+msgstr "缩放函数"
+
+#: libviews/partselection.cpp:385
+msgid "Show Direct Calls"
+msgstr "显示直接调用"
+
+#: libviews/partselection.cpp:386
+msgid "Increment Shown Call Levels"
+msgstr "增加显示调用等级"
+
+#: libviews/partselection.cpp:387
+msgid "Diagram Mode"
+msgstr "构图模式"
+
+#: libviews/partselection.cpp:402
+msgid "Draw Names"
+msgstr "绘制名称"
+
+#: libviews/partselection.cpp:404
+msgid "Draw Costs"
+msgstr "绘制开销"
+
+#: libviews/partselection.cpp:410
+msgid "Draw Frames"
+msgstr "绘制框架"
+
+#: libviews/partselection.cpp:424
+msgid "Hide Info"
+msgstr "隐藏信息"
+
+#: libviews/partselection.cpp:424
+msgid "Show Info"
+msgstr "显示信息"
+
+#: libviews/partselection.cpp:572
+msgid "(no trace loaded)"
+msgstr "(没有载入跟踪)"
+
+#: libviews/partview.cpp:51
+msgid "Comment"
+msgstr "备注"
+
+#: libviews/partview.cpp:78
+msgid ""
+"<b>Trace Part List</b><p>This list shows all trace parts of the loaded "
+"trace. For each part, the self/inclusive cost of the current selected "
+"function, spent in the part, is shown; percentage costs are always relative "
+"to the total cost <em>of the part</em> (not to the whole trace as in the "
+"Trace Part Overview). Also shown are the calls happening to/from the current "
+"function inside of the trace part.</p><p>By choosing one or more trace parts "
+"from the list, the costs shown all over KCachegrind will only be the ones "
+"spent in the selected part(s). If no list selection is shown, in fact all "
+"trace parts are selected implicitly.</p><p>This is a multi-selection list. "
+"You can select ranges by dragging the mouse or use SHIFT/CTRL modifiers. "
+"Selection/Deselection of trace parts can also be done by using the Trace "
+"Part Overview Dockable. This one also supports multiple selection.</"
+"p><p>Note that the list is hidden if only one trace part is loaded.</p>"
+msgstr ""
+
+#: libviews/sourceitem.cpp:139
+#, qt-format
+msgid "Jump %1 of %2 times to %3"
+msgstr "跳转到 %3 %1 次，共 %2 次"
+
+#: libviews/sourceitem.cpp:144
+#, qt-format
+msgid "Jump %1 times to %2"
+msgstr "跳转到 %2 %1 次"
+
+#: libviews/sourceview.cpp:66 libviews/sourceview.cpp:670
+msgid "Source (unknown)"
+msgstr "来源(未知)"
+
+#: libviews/sourceview.cpp:94
+msgid ""
+"<b>Annotated Source</b><p>The annotated source list shows the source lines "
+"of the current selected function together with (self) cost spent while "
+"executing the code of this source line. If there was a call in a source "
+"line, lines with details on the call happening are inserted into the source: "
+"the cost spent inside of the call, the number of calls happening, and the "
+"call destination.</p><p>Select a inserted call information line to make the "
+"destination function current.</p>"
+msgstr ""
+
+#: libviews/sourceview.cpp:126
+#, qt-format
+msgid "Go to Line %1"
+msgstr "跳至行 %1"
+
+#: libviews/sourceview.cpp:326
+msgid "(No Source)"
+msgstr "(无来源)"
+
+#: libviews/sourceview.cpp:639
+msgid "There is no cost of current selected type associated"
+msgstr "没有与文件中函数的任何源码行相关"
+
+#: libviews/sourceview.cpp:641
+msgid "with any source line of this function in file"
+msgstr "类型的开销"
+
+#: libviews/sourceview.cpp:645
+msgid "Thus, no annotated source can be shown."
+msgstr "因此，不会显示注解来源。"
+
+#: libviews/sourceview.cpp:669
+#, qt-format
+msgid "Source ('%1')"
+msgstr "源码(“%1”)"
+
+#: libviews/sourceview.cpp:675
+#, qt-format
+msgid "--- Inlined from '%1' ---"
+msgstr "--- 引入自“%1” ---"
+
+#: libviews/sourceview.cpp:676
+msgid "--- Inlined from unknown source ---"
+msgstr "--- 引入自未知来源 ---"
+
+#: libviews/sourceview.cpp:681
+msgid "There is no source available for the following function:"
+msgstr "以下函数没有可参照源码："
+
+#: libviews/sourceview.cpp:686
+msgid "This is because no debug information is present."
+msgstr "原因是里面没有调试信息。"
+
+#: libviews/sourceview.cpp:688
+msgid "Recompile source and redo the profile run."
+msgstr "请重新编译源码并重新执行此剖析档。"
+
+#: libviews/sourceview.cpp:691
+msgid "The function is located in this ELF object:"
+msgstr "此函数定位在 ELF 对象："
+
+#: libviews/sourceview.cpp:699
+msgid "This is because its source file cannot be found:"
+msgstr "原因是找不到源码文件："
+
+#: libviews/sourceview.cpp:703
+msgid "Add the folder of this file to the source folder list."
+msgstr "将此文件所在文件夹添加到源码文件夹列表。"
+
+#: libviews/sourceview.cpp:705
+msgid "The list can be found in the configuration dialog."
+msgstr "此列表可在配置对话框内找到。"
+
+#: libviews/stackselection.cpp:46
+msgid "Stack Selection"
+msgstr "堆栈选择"
+
+#: libviews/stackselection.cpp:55
+msgid "Cost2"
+msgstr "开销2"
+
+#: libviews/tabview.cpp:114
+msgid "Move to Top"
+msgstr "移动到顶端"
+
+#: libviews/tabview.cpp:115
+msgctxt "Move to Top"
+msgid "Top"
+msgstr "顶端"
+
+#: libviews/tabview.cpp:118
+msgid "Move to Right"
+msgstr "移动到右侧"
+
+#: libviews/tabview.cpp:119
+msgctxt "Move to Right"
+msgid "Right"
+msgstr "右侧"
+
+#: libviews/tabview.cpp:122
+msgid "Move to Bottom"
+msgstr "移动到底端"
+
+#: libviews/tabview.cpp:123
+msgctxt "Move to Bottom"
+msgid "Bottom"
+msgstr "底端"
+
+#: libviews/tabview.cpp:126
+msgid "Move to Bottom Left"
+msgstr "移动到底端左侧"
+
+#: libviews/tabview.cpp:127
+msgctxt "Move to Bottom Left"
+msgid "Bottom Left"
+msgstr "底端左侧"
+
+#: libviews/tabview.cpp:129
+msgid "Move Area To"
+msgstr "区域移动到"
+
+#: libviews/tabview.cpp:132
+msgid "Hide This Tab"
+msgstr "隐藏此标签"
+
+#: libviews/tabview.cpp:133
+msgid "Hide Area"
+msgstr "隐藏区域"
+
+#: libviews/tabview.cpp:142
+msgctxt "Show on Top"
+msgid "Top"
+msgstr "顶端"
+
+#: libviews/tabview.cpp:143
+msgctxt "Show on Right"
+msgid "Right"
+msgstr "右侧"
+
+#: libviews/tabview.cpp:144
+msgctxt "Show on Bottom"
+msgid "Bottom"
+msgstr "底端"
+
+#: libviews/tabview.cpp:145
+msgctxt "Show on Bottom Left"
+msgid "Bottom Left"
+msgstr "底端左侧"
+
+#: libviews/tabview.cpp:146
+msgid "Show Hidden On"
+msgstr "显示隐藏对象于"
+
+#: libviews/tabview.cpp:319 libviews/tabview.cpp:321 libviews/tabview.cpp:738
+msgid "(No profile data file loaded)"
+msgstr "(没有载入剖析档数据文件)"
+
+#: libviews/tabview.cpp:381
+msgid "Types"
+msgstr "类型"
+
+#: libviews/tabview.cpp:384
+msgid "Callers"
+msgstr "调用方"
+
+#: libviews/tabview.cpp:385
+msgid "All Callers"
+msgstr "全部调用方"
+
+#: libviews/tabview.cpp:386
+msgid "Callee Map"
+msgstr "被调用图"
+
+#: libviews/tabview.cpp:389
+msgid "Source Code"
+msgstr "源码文件夹"
+
+#: libviews/tabview.cpp:391
+msgid "Parts"
+msgstr "部件"
+
+#: libviews/tabview.cpp:392
+msgid "Callees"
+msgstr "被调用方"
+
+#: libviews/tabview.cpp:393
+msgid "Call Graph"
+msgstr "调用图表"
+
+#: libviews/tabview.cpp:396
+msgid "All Callees"
+msgstr "全部被调用方"
+
+#: libviews/tabview.cpp:397
+msgid "Caller Map"
+msgstr "调用图"
+
+#: libviews/tabview.cpp:400
+msgid "Machine Code"
+msgstr "机器码"
+
+#: libviews/tabview.cpp:654
+msgid ""
+"<b>Information Tabs</b><p>This widget shows information for the currently "
+"selected function in different tabs: <ul><li>The Costs tab shows a list of "
+"available event types and the inclusive and self-costs related to these "
+"types.</li><li>The Parts tab shows a list of trace parts if the trace "
+"consists of more than one part (otherwise, this tab is hidden). The cost of "
+"the selected function spent in the different parts together with the calls "
+"happening is shown.</li><li>The Call Lists tab shows direct callers and "
+"callees of the function in more detail.</li><li>The Coverage tab shows the "
+"same as the Call Lists tab, but also shows indirect callers and callees, not "
+"just direct ones.</li><li>The Call Graph tab shows a graphical visualization "
+"of the calls made by this function.</li><li>The Source Code tab presents "
+"annotated source code if debugging information and the source file are "
+"available.</li><li>The Machine Code tab presents annotated assembly "
+"instructions if profile information at instruction level is available.</li></"
+"ul>For more information, see the <em>What's This?</em> help of the "
+"corresponding tab widget.</p>"
+msgstr ""
+
+#: libviews/tabview.cpp:739
+msgid "(No function selected)"
+msgstr "(没有选择函数)"
+
+#: libviews/traceitemview.cpp:76
+msgid "No description available"
+msgstr "没有可用的描述。"
+
+#: libviews/treemap.cpp:1324
+#, qt-format
+msgid "Text %1"
+msgstr "文字 %1"
+
+#: libviews/treemap.cpp:2853
+msgid "Recursive Bisection"
+msgstr "循环对切"
+
+#: libviews/treemap.cpp:2854
+msgid "Columns"
+msgstr "栏"
+
+#: libviews/treemap.cpp:2855
+msgid "Rows"
+msgstr "列"
+
+#: libviews/treemap.cpp:2856
+msgid "Always Best"
+msgstr "总是最佳"
+
+#: libviews/treemap.cpp:2857
+msgid "Best"
+msgstr "最佳"
+
+#: libviews/treemap.cpp:2858
+msgid "Alternate (V)"
+msgstr "备选(垂直)"
+
+#: libviews/treemap.cpp:2859
+msgid "Alternate (H)"
+msgstr "备选(水平)"
+
+#: libviews/treemap.cpp:2860
+msgid "Horizontal"
+msgstr "水平"
+
+#: libviews/treemap.cpp:2861
+msgid "Vertical"
+msgstr "垂直"
+
+#~ msgid " (Thread %1)"
+#~ msgstr " (线程 %1)"
+
+#~ msgctxt "Top"
+#~ msgid "Move to Top"
+#~ msgstr "移到顶端"
+
+#~ msgctxt "Right"
+#~ msgid "Move to Right"
+#~ msgstr "移到右侧"
+
+#~ msgctxt "Bottom"
+#~ msgid "Move to Bottom"
+#~ msgstr "移到底端"
+
+#~ msgctxt "Bottom Left"
+#~ msgid "Move to Bottom Left"
+#~ msgstr "移到底端左侧"
+
+#~ msgctxt "Top"
+#~ msgid "Show on Top"
+#~ msgstr "显示在顶端"
+
+#~ msgctxt "Right"
+#~ msgid "Show on Right"
+#~ msgstr "显示在右侧"
+
+#~ msgctxt "Bottom"
+#~ msgid "Show on Bottom"
+#~ msgstr "显示在底端"
+
+#~ msgctxt "Bottom Left"
+#~ msgid "Show on Bottom Left"
+#~ msgstr "显示在底端左侧"
+
+#~ msgid "Show All Items"
+#~ msgstr "显示全部项目"
+
+#~ msgid "Nesting"
+#~ msgstr "嵌套"
+
+#~ msgid "Border"
+#~ msgstr "边框"
+
+#~ msgid "Correct Borders Only"
+#~ msgstr "只校正边框"
+
+#~ msgid "Width %1"
+#~ msgstr "宽度 %1"
+
+#~ msgid "Visible"
+#~ msgstr "可见"
+
+#~ msgid "Take Space From Children"
+#~ msgstr "从子类获取空间"
+
+#~ msgid "Top Center"
+#~ msgstr "顶端居中"
+
+#~ msgid "Bottom Center"
+#~ msgstr "底端居中"
+
+#~ msgid "No %1 Limit"
+#~ msgstr "无 %1 限制"
+
+#~ msgid "Halve Area Limit (to %1)"
+#~ msgstr "区域限制减半(到 %1)"
+
+#~ msgid "Depth %1"
+#~ msgstr "深度 %1"
+
+#~ msgid "Decrement (to %1)"
+#~ msgstr "减少(到 %1)"
+
+#~ msgid "Increment (to %1)"
+#~ msgstr "增加(到 %1)"
+
+#~ msgid "50 Pixels"
+#~ msgstr "50 像素"
+
+#~ msgid "Remove Secondary Event Type"
+#~ msgstr "删除次要事件类型"
+
+#~ msgid "Hide '%1'"
+#~ msgstr "隐藏“%1”"
+
+#~ msgid "Hide Selected"
+#~ msgstr "隐藏选中项"
+
+#~ msgid "Show All"
+#~ msgstr "显示全部"
+
+#~ msgid "As PostScript"
+#~ msgstr "作为 PostScript 文件"
+
+#~ msgid "Save Image"
+#~ msgstr "保存图像"
+
+#~ msgid "Assembler"
+#~ msgstr "汇编器"
+
+#~ msgid "(No Assembler)"
+#~ msgstr "(无汇编器)"
+
+#~ msgid "Assembly Code"
+#~ msgstr "汇编代码"

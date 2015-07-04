@@ -1,0 +1,965 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# FengChao <rainofchaos@gmail.com>, 2011.
+# Ni Hui <shuizhuyuanluo@126.com>, 2011, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-10 01:43+0000\n"
+"PO-Revision-Date: 2013-01-22 15:54-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: backoutdialog.cpp:45
+msgctxt "@title:window"
+msgid "<application>Hg</application> Backout"
+msgstr ""
+
+#: backoutdialog.cpp:48
+msgctxt "@action:button"
+msgid "Backout"
+msgstr ""
+
+#: backoutdialog.cpp:75
+msgctxt "@label:checkbox"
+msgid "Merge with old dirstate parent after backout"
+msgstr ""
+
+#: backoutdialog.cpp:77 backoutdialog.cpp:79 bundledialog.cpp:74
+msgctxt "@label:button"
+msgid "Select Changeset"
+msgstr "选择更改集"
+
+#: backoutdialog.cpp:83
+msgctxt "@label"
+msgid "Revision to Backout: "
+msgstr ""
+
+#: backoutdialog.cpp:88
+msgctxt "@label"
+msgid "Parent Revision (optional): "
+msgstr ""
+
+#: backoutdialog.cpp:156 bundledialog.cpp:208
+msgctxt "@title:window"
+msgid "Select Changeset"
+msgstr "选择更改集"
+
+#: backoutdialog.cpp:159 bundledialog.cpp:211
+msgctxt "@action:button"
+msgid "Select"
+msgstr "选择"
+
+#: branchdialog.cpp:39
+msgctxt "@title:window"
+msgid "<application>Hg</application> Branch"
+msgstr "<application>Hg</application> 分支"
+
+#: branchdialog.cpp:54
+msgid "Create New Branch"
+msgstr "创建新分支"
+
+#: branchdialog.cpp:55
+msgid "Switch Branch"
+msgstr "切换分支"
+
+#: branchdialog.cpp:89
+msgid "<b>Current Branch: </b>"
+msgstr "<b>当前分支：</b>"
+
+#: branchdialog.cpp:127 branchdialog.cpp:142 tagdialog.cpp:125
+#: tagdialog.cpp:141 tagdialog.cpp:156
+msgid "Some error occurred"
+msgstr "发生某些错误"
+
+#: bundledialog.cpp:46
+msgctxt "@title:window"
+msgid "<application>Hg</application> Bundle"
+msgstr ""
+
+#: bundledialog.cpp:49
+msgctxt "@action:button"
+msgid "Bundle"
+msgstr ""
+
+#: bundledialog.cpp:76
+msgctxt "@label"
+msgid "Base Revision (optional): "
+msgstr ""
+
+#: bundledialog.cpp:78
+msgctxt "@label"
+msgid "Bundle all changesets in repository."
+msgstr ""
+
+#: bundledialog.cpp:93 exportdialog.cpp:71 importdialog.cpp:78
+#: pulldialog.cpp:64 pushdialog.cpp:64
+msgctxt "@label:group"
+msgid "Options"
+msgstr "选项"
+
+#: bundledialog.cpp:95
+msgctxt "@label:checkbox"
+msgid "Run even when the destination is unrelated (force)"
+msgstr ""
+
+#: bundledialog.cpp:98 pulldialog.cpp:60 pushdialog.cpp:60
+msgctxt "@label:checkbox"
+msgid "Do not verify server certificate"
+msgstr "不验证服务器证书"
+
+#: clonedialog.cpp:48
+msgctxt "@title:window"
+msgid "<application>Hg</application> Clone"
+msgstr "<application>Hg</application> 克隆"
+
+#: clonedialog.cpp:51
+msgctxt "@action:button"
+msgid "Clone"
+msgstr "克隆"
+
+#: clonedialog.cpp:59
+msgid "URLs"
+msgstr "URL"
+
+#: clonedialog.cpp:61
+msgctxt "@label"
+msgid "Source"
+msgstr "来源"
+
+#: clonedialog.cpp:62
+msgctxt "@lobel"
+msgid "Destination"
+msgstr "目标"
+
+#: clonedialog.cpp:63 clonedialog.cpp:64
+msgctxt "@button"
+msgid "Browse"
+msgstr "浏览"
+
+#: clonedialog.cpp:76
+msgctxt "@label"
+msgid "Options"
+msgstr "选项"
+
+#: clonedialog.cpp:79
+msgid "Do not update the new working directory."
+msgstr "不更新新的工作目录。"
+
+#: clonedialog.cpp:80
+msgid "Use pull protocol to copy metadata."
+msgstr ""
+
+#: clonedialog.cpp:81
+msgid "Use uncompressed transfer."
+msgstr "使用不压缩传输。"
+
+#: clonedialog.cpp:82
+msgid "Do not verify server certificate (ignoring web.cacerts config)."
+msgstr "不验证服务器证书(忽略 web.cacerts 配置)。"
+
+#: clonedialog.cpp:178
+msgid "Terminating cloning!"
+msgstr ""
+
+#: clonedialog.cpp:204
+msgctxt "@action:button"
+msgid "Close"
+msgstr "关闭"
+
+#: clonedialog.cpp:209
+msgctxt "@message:error"
+msgid "Error Cloning Repository!"
+msgstr ""
+
+#: commitdialog.cpp:49
+msgctxt "@title:window"
+msgid "<application>Hg</application> Commit"
+msgstr "<application>Hg</application> 提交"
+
+#: commitdialog.cpp:52
+msgctxt "@action:button"
+msgid "Commit"
+msgstr "提交"
+
+#: commitdialog.cpp:59 commitinfowidget.cpp:52
+msgid ""
+"A KDE text-editor component could not be found;\n"
+"please check your KDE installation."
+msgstr ""
+"找不到 KDE 文本编辑器组件；\n"
+"请检查您的 KDE 安装。"
+
+#: commitdialog.cpp:71
+msgctxt "@action:inmenu"
+msgid "Commit to current branch"
+msgstr "提交到当前分支"
+
+#: commitdialog.cpp:76
+msgctxt "@action:inmenu"
+msgid "Create new branch"
+msgstr "创建新分支"
+
+#: commitdialog.cpp:81
+msgctxt "@action:inmenu"
+msgid "Close current branch"
+msgstr "关闭当前分支"
+
+#: commitdialog.cpp:103
+msgid "Copy Message"
+msgstr "复制信息"
+
+#: commitdialog.cpp:104 updatedialog.cpp:52
+msgid "Branch"
+msgstr "分支"
+
+#: commitdialog.cpp:121
+msgctxt "@title:group"
+msgid "Commit Message"
+msgstr "提交消息"
+
+#: commitdialog.cpp:128
+msgctxt "@title:group"
+msgid "Diff/Content"
+msgstr ""
+
+#: commitdialog.cpp:229
+msgid "Could not create branch! Aborting commit!"
+msgstr "无法创建分支！终止提交！"
+
+#: commitdialog.cpp:239
+msgid "Commit unsuccessful!"
+msgstr "提交失败！"
+
+#: commitdialog.cpp:243
+msgid "No files for commit!"
+msgstr "没有要提交的文件！"
+
+#: commitdialog.cpp:263
+msgid "Branch: Current Branch"
+msgstr "分支：当前分支"
+
+#: commitdialog.cpp:270
+msgid "Branch: "
+msgstr "分支："
+
+#: commitdialog.cpp:283
+msgid "Branch: Close Current"
+msgstr "分支：关闭当前"
+
+#: commitdialog.cpp:296
+msgctxt "@title:window"
+msgid "<application>Hg</application> Commit: New Branch"
+msgstr "<application>Hg</application> 提交：新分支"
+
+#: commitdialog.cpp:303
+msgctxt "@label"
+msgid "Enter new branch name"
+msgstr "输入新分支名称"
+
+#: commitdialog.cpp:323
+msgctxt "@label"
+msgid "<b>Branch already exists!</b>"
+msgstr "<b>分支已经存在！</b>"
+
+#: commitdialog.cpp:331
+msgctxt "@label"
+msgid "<b>Enter some text!</b>"
+msgstr "<b>输入一些文本！</b>"
+
+#: configdialog.cpp:40
+msgctxt "@title:window"
+msgid "<application>Hg</application> Repository Configuration"
+msgstr "<application>Hg</application> 仓库配置"
+
+#: configdialog.cpp:43
+msgctxt "@title:window"
+msgid "<application>Hg</application> Global Configuration"
+msgstr "<application>Hg</application> 全局配置"
+
+#: configdialog.cpp:59
+msgctxt "@label:group"
+msgid "General Settings"
+msgstr "常规设置"
+
+#: configdialog.cpp:63
+msgctxt "@label:group"
+msgid "Repository Paths"
+msgstr "仓库路径"
+
+#: configdialog.cpp:66
+msgctxt "@label:group"
+msgid "Ignored Files"
+msgstr "忽略文件"
+
+#: configdialog.cpp:70
+msgctxt "@label:group"
+msgid "Plugin Settings"
+msgstr "插件设置"
+
+#: createdialog.cpp:37
+msgctxt "@title:window"
+msgid "<application>Hg</application> Initialize Repository"
+msgstr "<application>Hg</application> 初始化仓库"
+
+#: createdialog.cpp:40
+msgctxt "@action:button"
+msgid "Initialize Repository"
+msgstr "初始化源"
+
+#: createdialog.cpp:78
+msgctxt "error message"
+msgid "Error creating repository!"
+msgstr "创建仓库出错！"
+
+#: exportdialog.cpp:42
+msgctxt "@title:window"
+msgid "<application>Hg</application> Export"
+msgstr "<application>Hg</application> 导出"
+
+#: exportdialog.cpp:45
+msgctxt "@action:button"
+msgid "Export"
+msgstr "导出"
+
+#: exportdialog.cpp:72
+msgctxt "@label"
+msgid "Treat all files as text"
+msgstr "将所有文件当作文本"
+
+#: exportdialog.cpp:73
+msgctxt "@label"
+msgid "Use Git extended diff format"
+msgstr "使用 Git 扩展的差异文件格式"
+
+#: exportdialog.cpp:74
+msgctxt "@label"
+msgid "Omit dates from diff headers"
+msgstr "忽略差异文件头部的日期"
+
+#: exportdialog.cpp:145
+msgctxt "@message:error"
+msgid "Please select at least one changeset to be exported!"
+msgstr "请至少选择一个要导出的更改集！"
+
+#: fileviewhgplugin.cpp:102
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Add"
+msgstr "<application>Hg</application> 添加"
+
+#: fileviewhgplugin.cpp:109
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Remove"
+msgstr "<application>Hg</application> 删除"
+
+#: fileviewhgplugin.cpp:116
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Rename"
+msgstr "<application>Hg</application> 重命名"
+
+#: fileviewhgplugin.cpp:123
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Commit"
+msgstr "<application>Hg</application> 提交"
+
+#: fileviewhgplugin.cpp:130
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Tag"
+msgstr "<application>Hg</application> 标记"
+
+#: fileviewhgplugin.cpp:137
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Branch"
+msgstr "<application>Hg</application> 分支"
+
+#: fileviewhgplugin.cpp:144
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Clone"
+msgstr "<application>Hg</application> 克隆"
+
+#: fileviewhgplugin.cpp:151
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Init"
+msgstr "<application>Hg</application> 初始化"
+
+#: fileviewhgplugin.cpp:158
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Update"
+msgstr "<application>Hg</application> 更新"
+
+#: fileviewhgplugin.cpp:165
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Global Config"
+msgstr "<application>Hg</application> 全局配置"
+
+#: fileviewhgplugin.cpp:172
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Repository Config"
+msgstr "<application>Hg</application> 仓库配置"
+
+#: fileviewhgplugin.cpp:179
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Push"
+msgstr ""
+
+#: fileviewhgplugin.cpp:186
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Pull"
+msgstr ""
+
+#: fileviewhgplugin.cpp:193
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Revert"
+msgstr "<application>Hg</application> 还原"
+
+#: fileviewhgplugin.cpp:200
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Revert All"
+msgstr "<application>Hg</application> 全部还原"
+
+#: fileviewhgplugin.cpp:207
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Rollback"
+msgstr "<application>Hg</application> 回滚"
+
+#: fileviewhgplugin.cpp:214
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Merge"
+msgstr "<application>Hg</application> 合并"
+
+#: fileviewhgplugin.cpp:221
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Bundle"
+msgstr ""
+
+#: fileviewhgplugin.cpp:228
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Export"
+msgstr "<application>Hg</application> 导出"
+
+#: fileviewhgplugin.cpp:235
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Import"
+msgstr "<application>Hg</application> 导入"
+
+#: fileviewhgplugin.cpp:242
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Unbundle"
+msgstr ""
+
+#: fileviewhgplugin.cpp:249
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Serve"
+msgstr ""
+
+#: fileviewhgplugin.cpp:256
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Backout"
+msgstr ""
+
+#: fileviewhgplugin.cpp:263
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Diff"
+msgstr "<application>Hg</application> 差异"
+
+#: fileviewhgplugin.cpp:287
+msgctxt "@action:inmenu"
+msgid "<application>Mercurial</application>"
+msgstr "<application>Mercurial</application>"
+
+#: fileviewhgplugin.cpp:484
+msgctxt "@info:status"
+msgid "Adding files to <application>Hg</application> repository..."
+msgstr ""
+
+#: fileviewhgplugin.cpp:486
+msgctxt "@info:status"
+msgid "Adding files to <application>Hg</application> repository failed."
+msgstr ""
+
+#: fileviewhgplugin.cpp:488
+msgctxt "@info:status"
+msgid "Added files to <application>Hg</application> repository."
+msgstr ""
+
+#: fileviewhgplugin.cpp:499
+msgctxt "@message:yesorno"
+msgid "Would you like to remove selected files from the repository?"
+msgstr ""
+
+#: fileviewhgplugin.cpp:506
+msgctxt "@info:status"
+msgid "Removing files from <application>Hg</application> repository..."
+msgstr ""
+
+#: fileviewhgplugin.cpp:508
+msgctxt "@info:status"
+msgid "Removing files from <application>Hg</application> repository failed."
+msgstr ""
+
+#: fileviewhgplugin.cpp:510
+msgctxt "@info:status"
+msgid "Removed files from <application>Hg</application> repository."
+msgstr ""
+
+#: fileviewhgplugin.cpp:522
+msgctxt "@info:status"
+msgid "Renaming of file in <application>Hg</application> repository failed."
+msgstr ""
+
+#: fileviewhgplugin.cpp:524
+msgctxt "@info:status"
+msgid "Renamed file in <application>Hg</application> repository successfully."
+msgstr ""
+
+#: fileviewhgplugin.cpp:526
+msgctxt "@info:status"
+msgid "Renaming file in <application>Hg</application> repository."
+msgstr ""
+
+#: fileviewhgplugin.cpp:537
+msgctxt "@message"
+msgid "No changes for commit!"
+msgstr "没有要提交的更改集！"
+
+#: fileviewhgplugin.cpp:542
+msgctxt "@info:status"
+msgid "Commit to <application>Hg</application> repository failed."
+msgstr ""
+
+#: fileviewhgplugin.cpp:544
+msgctxt "@info:status"
+msgid "Committed to <application>Hg</application> repository."
+msgstr ""
+
+#: fileviewhgplugin.cpp:546
+msgctxt "@info:status"
+msgid "Commit <application>Hg</application> repository."
+msgstr ""
+
+#: fileviewhgplugin.cpp:557
+msgctxt "@info:status"
+msgid "Tag operation in <application>Hg</application> repository failed."
+msgstr ""
+
+#: fileviewhgplugin.cpp:559
+msgctxt "@info:status"
+msgid ""
+"Tagging operation in <application>Hg</application> repository is successful."
+msgstr ""
+
+#: fileviewhgplugin.cpp:561
+msgctxt "@info:status"
+msgid "Tagging operation in <application>Hg</application> repository."
+msgstr ""
+
+#: fileviewhgplugin.cpp:570
+msgctxt "@info:status"
+msgid "Update of <application>Hg</application> working directory failed."
+msgstr ""
+
+#: fileviewhgplugin.cpp:572
+msgctxt "@info:status"
+msgid ""
+"Update of <application>Hg</application> working directory is successful."
+msgstr ""
+
+#: fileviewhgplugin.cpp:574
+msgctxt "@info:status"
+msgid "Updating <application>Hg</application> working directory."
+msgstr ""
+
+#: fileviewhgplugin.cpp:583
+msgctxt "@info:status"
+msgid "Branch operation on <application>Hg</application> repository failed."
+msgstr ""
+
+#: fileviewhgplugin.cpp:585
+msgctxt "@info:status"
+msgid ""
+"Branch operation on <application>Hg</application> repository completed "
+"successfully."
+msgstr ""
+
+#: fileviewhgplugin.cpp:587
+msgctxt "@info:status"
+msgid "Branch operation on <application>Hg</application> repository."
+msgstr ""
+
+#: fileviewhgplugin.cpp:684
+msgctxt "@message:yesorno"
+msgid "Would you like to revert changes made to selected files?"
+msgstr ""
+
+#: fileviewhgplugin.cpp:691 fileviewhgplugin.cpp:711
+msgctxt "@info:status"
+msgid "Reverting files in <application>Hg</application> repository..."
+msgstr ""
+
+#: fileviewhgplugin.cpp:693 fileviewhgplugin.cpp:713
+msgctxt "@info:status"
+msgid "Reverting files in <application>Hg</application> repository failed."
+msgstr ""
+
+#: fileviewhgplugin.cpp:695 fileviewhgplugin.cpp:715
+msgctxt "@info:status"
+msgid ""
+"Reverting files in <application>Hg</application> repository completed "
+"successfully."
+msgstr ""
+
+#: fileviewhgplugin.cpp:704
+msgctxt "@message:yesorno"
+msgid "Would you like to revert all changes made to current working directory?"
+msgstr ""
+
+#: fileviewhgplugin.cpp:724
+msgctxt "@info:status"
+msgid "Generating diff for <application>Hg</application> repository..."
+msgstr ""
+
+#: fileviewhgplugin.cpp:726
+msgctxt "@info:status"
+msgid "Could not get <application>Hg</application> repository diff."
+msgstr ""
+
+#: fileviewhgplugin.cpp:728
+msgctxt "@info:status"
+msgid "Generated <application>Hg</application> diff successfully."
+msgstr ""
+
+#: fileviewhgplugin.cpp:758
+msgctxt "@message:error"
+msgid "abort: Uncommitted changes in working directory!"
+msgstr ""
+
+#: fileviewhgplugin.cpp:771
+msgctxt "@info:message"
+msgid "No rollback information available!"
+msgstr ""
+
+#: fileviewhgplugin.cpp:782
+msgctxt "@message:yesorno"
+msgid "Would you like to rollback last transaction?"
+msgstr ""
+
+#: fileviewhgplugin.cpp:789
+msgctxt "@info:status"
+msgid "Executing Rollback <application>Hg</application> repository..."
+msgstr ""
+
+#: fileviewhgplugin.cpp:791
+msgctxt "@info:status"
+msgid "Rollback of <application>Hg</application> repository failed."
+msgstr ""
+
+#: fileviewhgplugin.cpp:793
+msgctxt "@info:status"
+msgid ""
+"Rollback of <application>Hg</application> repository completed successfully."
+msgstr ""
+
+#. i18n: ectx: label, entry (commitDialogHeight), group (CommitDialogSettings)
+#. i18n: ectx: label, entry (configDialogHeight), group (ConfigDialogSettings)
+#. i18n: ectx: label, entry (cloneDialogHeight), group (CloneDialogSettings)
+#. i18n: ectx: label, entry (pushDialogBigHeight), group (PushDialogSettings)
+#. i18n: ectx: label, entry (pullDialogBigHeight), group (PullDialogSettings)
+#. i18n: ectx: label, entry (mergeDialogHeight), group (MergeDialogSettings)
+#. i18n: ectx: label, entry (bundleDialogHeight), group (BundleDialogSettings)
+#. i18n: ectx: label, entry (exportDialogHeight), group (ExportDialogSettings)
+#. i18n: ectx: label, entry (importDialogHeight), group (ImportDialogSettings)
+#. i18n: ectx: label, entry (serveDialogHeight), group (ServeDialogSettings)
+#. i18n: ectx: label, entry (backoutDialogHeight), group (BackoutDialogSettings)
+#: fileviewhgpluginsettings.kcfg:7 fileviewhgpluginsettings.kcfg:19
+#: fileviewhgpluginsettings.kcfg:31 fileviewhgpluginsettings.kcfg:41
+#: fileviewhgpluginsettings.kcfg:51 fileviewhgpluginsettings.kcfg:61
+#: fileviewhgpluginsettings.kcfg:71 fileviewhgpluginsettings.kcfg:81
+#: fileviewhgpluginsettings.kcfg:91 fileviewhgpluginsettings.kcfg:101
+#: fileviewhgpluginsettings.kcfg:111
+msgid "Dialog height"
+msgstr "对话框高度"
+
+#. i18n: ectx: label, entry (commitDialogWidth), group (CommitDialogSettings)
+#. i18n: ectx: label, entry (configDialogWidth), group (ConfigDialogSettings)
+#. i18n: ectx: label, entry (cloneDialogWidth), group (CloneDialogSettings)
+#. i18n: ectx: label, entry (pushDialogBigWidth), group (PushDialogSettings)
+#. i18n: ectx: label, entry (pullDialogBigWidth), group (PullDialogSettings)
+#. i18n: ectx: label, entry (mergeDialogWidth), group (MergeDialogSettings)
+#. i18n: ectx: label, entry (bundleDialogWidth), group (BundleDialogSettings)
+#. i18n: ectx: label, entry (exportDialogWidth), group (ExportDialogSettings)
+#. i18n: ectx: label, entry (importDialogWidth), group (ImportDialogSettings)
+#. i18n: ectx: label, entry (serveDialogWidth), group (ServeDialogSettings)
+#. i18n: ectx: label, entry (backoutDialogWidth), group (BackoutDialogSettings)
+#: fileviewhgpluginsettings.kcfg:12 fileviewhgpluginsettings.kcfg:24
+#: fileviewhgpluginsettings.kcfg:35 fileviewhgpluginsettings.kcfg:45
+#: fileviewhgpluginsettings.kcfg:55 fileviewhgpluginsettings.kcfg:65
+#: fileviewhgpluginsettings.kcfg:75 fileviewhgpluginsettings.kcfg:85
+#: fileviewhgpluginsettings.kcfg:95 fileviewhgpluginsettings.kcfg:105
+#: fileviewhgpluginsettings.kcfg:115
+msgid "Dialog width"
+msgstr "对话框宽度"
+
+#: importdialog.cpp:45
+msgctxt "@title:window"
+msgid "<application>Hg</application> Import"
+msgstr "<application>Hg</application> 导入"
+
+#: importdialog.cpp:48
+msgctxt "@action:button"
+msgid "Import"
+msgstr "导入"
+
+#: importdialog.cpp:80
+msgctxt "@label"
+msgid "Do not commit, just update the working directory"
+msgstr ""
+
+#: importdialog.cpp:82
+msgctxt "@label"
+msgid "Skip test for outstanding uncommitted changes"
+msgstr ""
+
+#: importdialog.cpp:84
+msgctxt "@label"
+msgid "Apply patch to the nodes from which it was generated"
+msgstr ""
+
+#: importdialog.cpp:86
+msgctxt "@label"
+msgid "Apply patch without touching working directory"
+msgstr ""
+
+#: importdialog.cpp:98
+msgctxt "@label:button"
+msgid "Add Patches"
+msgstr "添加补丁"
+
+#: importdialog.cpp:100
+msgctxt "@label:button"
+msgid "Remove Patches"
+msgstr "删除补丁"
+
+#: mergedialog.cpp:45
+msgctxt "@title:window"
+msgid "<application>Hg</application> Merge"
+msgstr "<application>Hg</application> 合并"
+
+#: mergedialog.cpp:47
+msgctxt "@label:button"
+msgid "Merge"
+msgstr "合并"
+
+#: mergedialog.cpp:129
+msgctxt "@message"
+msgid "No head selected for merge!"
+msgstr ""
+
+#: pathselector.cpp:73
+msgctxt "@label:combobox"
+msgid "<edit>"
+msgstr "<edit>"
+
+#: pulldialog.cpp:46
+msgctxt "@title:window"
+msgid "<application>Hg</application> Pull Repository"
+msgstr ""
+
+#: pulldialog.cpp:49
+msgctxt "@action:button"
+msgid "Pull"
+msgstr "拉取"
+
+#: pulldialog.cpp:50 pushdialog.cpp:50
+msgctxt "@action:button"
+msgid "Options"
+msgstr "选项"
+
+#: pulldialog.cpp:58
+msgctxt "@label:checkbox"
+msgid "Update to new branch head if changesets were pulled"
+msgstr ""
+
+#: pulldialog.cpp:62
+msgctxt "@label:checkbox"
+msgid "Force Pull"
+msgstr "强制拉取"
+
+#: pulldialog.cpp:74
+msgctxt "@label:group"
+msgid "Incoming Changes"
+msgstr ""
+
+#: pulldialog.cpp:168
+msgctxt "@message:info"
+msgid "No incoming changes!"
+msgstr ""
+
+#: pushdialog.cpp:46
+msgctxt "@title:window"
+msgid "<application>Hg</application> Push Repository"
+msgstr ""
+
+#: pushdialog.cpp:49
+msgctxt "@action:button"
+msgid "Push"
+msgstr "推送"
+
+#: pushdialog.cpp:58
+msgctxt "@label:checkbox"
+msgid "Allow pushing a new branch"
+msgstr ""
+
+#: pushdialog.cpp:62
+msgctxt "@label:checkbox"
+msgid "Force Push"
+msgstr "强制推送"
+
+#: pushdialog.cpp:74
+msgctxt "@label:group"
+msgid "Outgoing Changes"
+msgstr ""
+
+#: pushdialog.cpp:189
+msgctxt "@message:info"
+msgid "No outgoing changes!"
+msgstr ""
+
+#: renamedialog.cpp:39
+msgctxt "@title:window"
+msgid "<application>Hg</application> Rename"
+msgstr "<application>Hg</application> 重命名"
+
+#: renamedialog.cpp:42
+msgctxt "@action:button"
+msgid "Rename"
+msgstr "重命名"
+
+#: renamedialog.cpp:48
+msgctxt "@label:label to source file"
+msgid "Source "
+msgstr "来源"
+
+#: renamedialog.cpp:54
+msgctxt "@label:rename"
+msgid "Rename to "
+msgstr "重命名为"
+
+#: servedialog.cpp:41
+msgctxt "@title:window"
+msgid "<application>Hg</application> Serve"
+msgstr ""
+
+#: servedialog.cpp:81
+msgctxt "@label:button"
+msgid "Start Server"
+msgstr "启动服务器"
+
+#: servedialog.cpp:82
+msgctxt "@label:button"
+msgid "Stop Server"
+msgstr "停止服务器"
+
+#: servedialog.cpp:95
+msgctxt "@label"
+msgid "Port"
+msgstr "端口"
+
+#: servewrapper.cpp:83
+msgid "## Starting Server ##"
+msgstr "## 正在启动服务 ##"
+
+#: statuslist.cpp:42
+msgid "Filename"
+msgstr "文件名"
+
+#: statuslist.cpp:52
+msgctxt "@title:group"
+msgid "File Status"
+msgstr "文件状态"
+
+#: syncdialogbase.cpp:99
+msgctxt "@label:button"
+msgid "Show Incoming Changes"
+msgstr ""
+
+#: syncdialogbase.cpp:103
+msgctxt "@label:button"
+msgid "Show Outgoing Changes"
+msgstr ""
+
+#: syncdialogbase.cpp:164
+msgctxt "@message"
+msgid "No changes found!"
+msgstr "未找到修改！"
+
+#: syncdialogbase.cpp:215 syncdialogbase.cpp:288 syncdialogbase.cpp:295
+msgid "Error!"
+msgstr "错误！"
+
+#: tagdialog.cpp:38
+msgctxt "@title:window"
+msgid "<application>Hg</application> Tag"
+msgstr "<application>Hg</application> 标记"
+
+#: tagdialog.cpp:50
+msgid "Create New Tag"
+msgstr "创建新标记"
+
+#: tagdialog.cpp:51
+msgid "Remove Tag"
+msgstr "删除标记"
+
+#: tagdialog.cpp:52
+msgid "Switch Tag"
+msgstr "切换标记"
+
+#: tagdialog.cpp:152
+msgid "Created tag successfully!"
+msgstr "创建标签成功！"
+
+#: updatedialog.cpp:41
+msgctxt "@title:window"
+msgid "<application>Hg</application> Update"
+msgstr "<application>Hg</application> 更新"
+
+#: updatedialog.cpp:45
+msgctxt "@action:button"
+msgid "Update"
+msgstr "更新"
+
+#: updatedialog.cpp:48
+msgid "New working directory"
+msgstr "新工作目录"
+
+#: updatedialog.cpp:53
+msgid "Tag"
+msgstr "标签"
+
+#: updatedialog.cpp:54
+msgid "Changeset/Revision"
+msgstr ""
+
+#: updatedialog.cpp:59
+msgid "Current Parent"
+msgstr ""
+
+#: updatedialog.cpp:65
+msgid "Options"
+msgstr "选项"
+
+#: updatedialog.cpp:146
+msgid ""
+"Some error occurred! \n"
+"Maybe there are uncommitted changes."
+msgstr ""
+"发生错误！\n"
+"可能有些未提交的修改。"

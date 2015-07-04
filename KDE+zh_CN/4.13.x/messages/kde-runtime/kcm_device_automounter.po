@@ -1,0 +1,186 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2010.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:52+0200\n"
+"PO-Revision-Date: 2011-11-15 23:01+0800\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: DeviceAutomounterKCM.cpp:48
+msgid "Device Automounter"
+msgstr "设备自动挂载器"
+
+#: DeviceAutomounterKCM.cpp:50
+msgid "Automatically mounts devices at login or when attached"
+msgstr "登录或连接时自动挂载设备"
+
+#: DeviceAutomounterKCM.cpp:52
+msgid "(c) 2009 Trever Fischer"
+msgstr "(c) 2009 Trever Fischer"
+
+#: DeviceAutomounterKCM.cpp:53
+msgid "Trever Fischer"
+msgstr "Trever Fischer"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountEnabled)
+#: DeviceAutomounterKCM.ui:17
+msgid ""
+"When this is unchecked, no device automounting of any kind will happen, "
+"regardless of anything selected in the \"Device Overrides\" section."
+msgstr ""
+"当取消选中此项时，将不会进行任何设备挂载动作，并且无视“设备自定义动作”一节中"
+"的任何选中条目。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountEnabled)
+#: DeviceAutomounterKCM.ui:20
+msgid "Enable automatic mounting of removable media"
+msgstr "启用移动媒体的自动挂载"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountUnknownDevices)
+#: DeviceAutomounterKCM.ui:45
+msgid ""
+"When this is checked, only remembered devices will be automatically mounted. "
+"A device is 'remembered' if it has ever been mounted before. For instance, "
+"plugging in a USB media player to charge is not sufficient to 'remember' it "
+"- if the files are not accessed, it will not be automatically mounted the "
+"next time it is seen. Once they have been accessed, however, the device's "
+"contents will be automatically made available to the system."
+msgstr ""
+"当选中此项时，只有记录的设备将被挂载。“记录”的设备是指曾被挂载过的设备，例"
+"如，仅插入 USB 媒体播放器进行充电而不访问文件，不会被记录。在下次遇到该播放器"
+"时不会自动挂载它。只要访问过，设备将被自动挂载以使系统能访问其内容。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountUnknownDevices)
+#: DeviceAutomounterKCM.ui:48
+msgid ""
+"Only automatically mount removable media that has been manually mounted "
+"before"
+msgstr "仅自动挂载手动挂载过的移动媒体"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountOnLogin)
+#: DeviceAutomounterKCM.ui:55
+msgid ""
+"If any removable storage devices are connected to your system when you login "
+"to your desktop, their contents will automatically be made available to your "
+"system for other programs to read."
+msgstr ""
+"如果您登录到桌面时有移动媒体连接在系统上，设备将被自动挂载以使系统能访问其内"
+"容，从而其它程序可以正常读取数据。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountOnLogin)
+#: DeviceAutomounterKCM.ui:58
+msgid "Mount all removable media at login"
+msgstr "登录时挂载全部移动媒体"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, automountOnPlugin)
+#: DeviceAutomounterKCM.ui:65
+msgid ""
+"When this is checked, the contents of any storage device will automatically "
+"be made available to the system when it is plugged in or attached."
+msgstr "选中此项时，存储设备插入或连接时将自动挂载，系统就可以访问其内容。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, automountOnPlugin)
+#: DeviceAutomounterKCM.ui:68
+msgid "Automatically mount removable media when attached"
+msgstr "连接时自动挂载移动媒体"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: DeviceAutomounterKCM.ui:90
+msgid "Device Overrides"
+msgstr "设备自定义动作"
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceView)
+#: DeviceAutomounterKCM.ui:98
+msgid ""
+"This list contains the storage devices known to the system. If \"Automount "
+"on Login\" is checked, the device will be automatically mounted even though "
+"\"Mount all removable media at login\" is unchecked. The same applies for "
+"\"Automount on Attach\".\n"
+"\n"
+"If \"Enable automatic mounting of removable media\" is unchecked, the "
+"overrides do not apply and no devices will be automatically mounted."
+msgstr ""
+"此列表包含系统已知的存储设备。如果选中“登录时自动挂载”，系统将自动挂载设备，"
+"即使“登录时挂载全部移动设备”没被选中，“连接时自动挂载”也一样。\n"
+"\n"
+"如果没有选择“启用移动设备自动挂载”，则不应用设备自定义动作，不会自动挂载任何"
+"设备。"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, forgetDevice)
+#: DeviceAutomounterKCM.ui:134
+msgid ""
+"Clicking this button causes the selected devices to be 'forgotten'. This is "
+"only useful if \"Only automatically mount removable media that has been "
+"manually mounted before\" is checked. Once a device is forgotten and the "
+"system is set to only automatically mount familiar devices, the device will "
+"not be automatically mounted."
+msgstr ""
+"点击此按钮会“忘记”所选的设备。这只有在“仅自动挂载手动挂载过的移动媒体”选中时"
+"有用。一旦设备记录删除，KDE 会只自动挂载其所知的设备，而不会自动挂载此设备。"
+
+#. i18n: ectx: property (text), widget (QPushButton, forgetDevice)
+#: DeviceAutomounterKCM.ui:137
+msgid "Forget Device"
+msgstr "忘记设备"
+
+#: DeviceModel.cpp:49
+msgid "Device"
+msgstr "设备"
+
+#: DeviceModel.cpp:51
+msgid "Automount on Login"
+msgstr "登录时自动挂载"
+
+#: DeviceModel.cpp:53
+msgid "Automount on Attach"
+msgstr "设备连接时自动挂载"
+
+#: DeviceModel.cpp:212 DeviceModel.cpp:246
+#, kde-format
+msgid "UDI: %1"
+msgstr "通用设备标识符：%1"
+
+#: DeviceModel.cpp:222 DeviceModel.cpp:256
+msgid "This device will be automatically mounted at login."
+msgstr "登录时自动挂载此设备。"
+
+#: DeviceModel.cpp:223 DeviceModel.cpp:257
+msgid "This device will not be automatically mounted at login."
+msgstr "登录时不自动挂载此设备。"
+
+#: DeviceModel.cpp:231 DeviceModel.cpp:265
+msgid "This device will be automatically mounted when attached."
+msgstr "设备连接时自动挂载。"
+
+#: DeviceModel.cpp:232 DeviceModel.cpp:266
+msgid "This device will not be automatically mounted when attached."
+msgstr "设备连接时不自动挂载。"
+
+#: DeviceModel.cpp:273
+msgid "Attached Devices"
+msgstr "连接的设备"
+
+#: DeviceModel.cpp:275
+msgid "Disconnected Devices"
+msgstr "断开的设备"

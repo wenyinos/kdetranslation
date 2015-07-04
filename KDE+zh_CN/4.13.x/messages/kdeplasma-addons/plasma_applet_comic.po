@@ -1,0 +1,385 @@
+# translation of plasma_applet_comic.po to 简体中文
+# Copyright (C) 2007, 2008, 2009 Free Software Foundation, Inc.
+#
+# Liang Qi <cavendish.qi@gmail.com>, 2007.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_comic\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-11-16 03:02+0100\n"
+"PO-Revision-Date: 2011-11-29 16:13+0800\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: advancedsettings.ui:23
+msgctxt "refers to caching of files on the users hd"
+msgid "Cache"
+msgstr "缓存"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, maxComicLimit)
+#: advancedsettings.ui:56
+msgid " strips per comic"
+msgstr " 页每个连环画"
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, maxComicLimit)
+#: advancedsettings.ui:59
+msgid "No size limit"
+msgstr "不限制大小"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: advancedsettings.ui:66
+msgid "Comic cache:"
+msgstr "连环画缓存："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: advancedsettings.ui:99
+msgid "Error Handling"
+msgstr "错误处理"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: advancedsettings.ui:126
+msgid "Display error image when getting comic failed:"
+msgstr "获取连环画失败时显示错误图像："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: appearanceSettings.ui:66
+msgid "Show arrows only on &hover:"
+msgstr "仅悬停时显示箭头(&H)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: appearanceSettings.ui:97
+msgid "Information"
+msgstr "信息"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: appearanceSettings.ui:112
+msgid "Show comic &title:"
+msgstr "显示连环画标题(&T)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: appearanceSettings.ui:135
+msgid "Show comic &identifier:"
+msgstr "显示连环画标识符(&I)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: appearanceSettings.ui:158
+msgid "Show comic &author:"
+msgstr "显示连环画作者(&A)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: appearanceSettings.ui:181
+msgid "Show comic &URL:"
+msgstr "显示连环画 &URL："
+
+#: comic.cpp:126
+msgctxt "here strip means comic strip"
+msgid "&Next Tab with a new Strip"
+msgstr "跳转到下一个有新连环画的标签(&N)"
+
+#: comic.cpp:132
+msgid "Jump to &first Strip"
+msgstr "跳转到第一张连环画(&F)"
+
+#: comic.cpp:136
+msgid "Jump to &current Strip"
+msgstr "跳转到当前连环画(&C)"
+
+#: comic.cpp:140 package/contents/ui/ComicBottomInfo.qml:71
+msgid "Jump to Strip ..."
+msgstr "跳转到连环画..."
+
+#: comic.cpp:145
+msgid "Visit the shop &website"
+msgstr "访问商店网站(&W)"
+
+#: comic.cpp:152
+msgid "&Save Comic As..."
+msgstr "连环画另存为(&S)..."
+
+#: comic.cpp:158
+msgid "&Create Comic Book Archive..."
+msgstr "创建连环画归档(&C)..."
+
+#: comic.cpp:163
+msgctxt "@option:check Context menu of comic image"
+msgid "&Actual Size"
+msgstr "实际大小(&A)"
+
+#: comic.cpp:169
+msgctxt "@option:check Context menu of comic image"
+msgid "Store current &Position"
+msgstr "保存当前位置(&P)"
+
+#: comic.cpp:276
+msgid "General"
+msgstr "常规"
+
+#: comic.cpp:277
+msgid "Appearance"
+msgstr "外观"
+
+#: comic.cpp:278
+msgid "Advanced"
+msgstr "高级"
+
+#: comic.cpp:531
+msgid "Archiving comic failed"
+msgstr "创建连环画归档失败"
+
+#: comicarchivedialog.cpp:32
+#, kde-format
+msgid "Create %1 Comic Book Archive"
+msgstr "创建 %1 连环画归档"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: comicarchivedialog.ui:23
+msgid "Destination:"
+msgstr "目标："
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, dest)
+#: comicarchivedialog.ui:30
+msgid "*.cbz|Comic Book Archive (Zip)"
+msgstr "*.cbz|连环画归档(Zip)"
+
+#. i18n: ectx: property (statusTip), widget (QLabel, label)
+#: comicarchivedialog.ui:56
+msgid "The range of comic strips to archive."
+msgstr "归档的连环画范围。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: comicarchivedialog.ui:59
+msgid "Range:"
+msgstr "范围："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, archiveType)
+#: comicarchivedialog.ui:67
+msgid "All"
+msgstr "全部"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, archiveType)
+#: comicarchivedialog.ui:72
+msgid "From beginning to ..."
+msgstr "从开头到..."
+
+#. i18n: ectx: property (text), item, widget (KComboBox, archiveType)
+#: comicarchivedialog.ui:77
+msgid "From end to ..."
+msgstr "从结尾到..."
+
+#. i18n: ectx: property (text), item, widget (KComboBox, archiveType)
+#: comicarchivedialog.ui:82
+msgid "Manual range"
+msgstr "手动范围"
+
+#. i18n: ectx: property (text), widget (QLabel, fromDateLabel)
+#. i18n: ectx: property (text), widget (QLabel, fromNumberLabel)
+#. i18n: ectx: property (text), widget (QLabel, fromStringLabel)
+#: comicarchivedialog.ui:100 comicarchivedialog.ui:141
+#: comicarchivedialog.ui:176
+msgctxt "in a range: from to"
+msgid "From:"
+msgstr "从："
+
+#. i18n: ectx: property (text), widget (QLabel, toDateLabel)
+#. i18n: ectx: property (text), widget (QLabel, toNumberLabel)
+#. i18n: ectx: property (text), widget (QLabel, toStringLabel)
+#: comicarchivedialog.ui:107 comicarchivedialog.ui:148
+#: comicarchivedialog.ui:183
+msgctxt "in a range: from to"
+msgid "To:"
+msgstr "到："
+
+#. i18n: ectx: property (displayFormat), widget (QDateEdit, fromDate)
+#. i18n: ectx: property (displayFormat), widget (QDateEdit, toDate)
+#: comicarchivedialog.ui:114 comicarchivedialog.ui:124
+msgid "dd.MM.yyyy"
+msgstr "yyyy-MM-dd"
+
+#: comicarchivejob.cpp:144
+msgid "No zip file is existing, aborting."
+msgstr "zip 文件不存在，终止。"
+
+#: comicarchivejob.cpp:171
+#, kde-format
+msgid "An error happened for identifier %1."
+msgstr "标识符 %1 发生错误。"
+
+#: comicarchivejob.cpp:244
+#, kde-format
+msgid "Failed creating the file with identifier %1."
+msgstr "创建标识符为 %1 的文件失败。"
+
+#: comicarchivejob.cpp:346
+msgid "Creating Comic Book Archive"
+msgstr "创建连环画归档"
+
+#: comicarchivejob.cpp:374
+msgid "Failed adding a file to the archive."
+msgstr "将文件加入到归档失败。"
+
+#: comicarchivejob.cpp:391
+msgid "Could not create the archive at the specified location."
+msgstr "无法在指定地点创建归档。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: comicarchivejob.cpp:402 comicsaver.cpp:88 comicSettings.ui:32
+msgid "Comic"
+msgstr "连环画"
+
+#: comicdata.cpp:112
+#, kde-format
+msgctxt "an abbreviation for Number"
+msgid "# %1"
+msgstr "# %1"
+
+#: comicdata.cpp:141
+msgid "Getting comic strip failed:"
+msgstr "获取连环画失败："
+
+#: comicdata.cpp:143
+msgid ""
+"Maybe there is no Internet connection.\n"
+"Maybe the comic plugin is broken.\n"
+"Another reason might be that there is no comic for this day/number/string, "
+"so choosing a different one might work."
+msgstr ""
+"可能没有互联网连接。\n"
+"可能连环画插件已失效。\n"
+"还有个可能是今天/此数字/字符串没有相应的连环画， 所以另外选一个可能就行了。"
+
+#: comicdata.cpp:150
+msgid ""
+"\n"
+"\n"
+"Choose the previous strip to go to the last cached strip."
+msgstr ""
+"\n"
+"\n"
+"选择上一幅可转到最近缓存的连环画。"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pushButton_GHNS)
+#: comicSettings.ui:97
+msgid "Download new comics"
+msgstr "下载新连环画"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton_GHNS)
+#: comicSettings.ui:100
+msgid "&Get New Comics..."
+msgstr "获得新连环画(&G)..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_middle)
+#: comicSettings.ui:128
+msgid "&Middle-click on the comic to show it at its original size"
+msgstr "中键点击连环画让其以原始大小显示(&M)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: comicSettings.ui:144
+msgid "Update"
+msgstr "更新"
+
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: comicSettings.ui:156
+msgid "Automatically update comic plugins:"
+msgstr "自动更新连环画插件："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, updateIntervall)
+#: comicSettings.ui:172
+msgid " days"
+msgstr " 天"
+
+#. i18n: ectx: property (prefix), widget (QSpinBox, updateIntervall)
+#. i18n: ectx: property (prefix), widget (QSpinBox, updateIntervallComicStrips)
+#: comicSettings.ui:175 comicSettings.ui:204
+msgid "every "
+msgstr "每隔 "
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, updateIntervall)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, updateIntervallComicStrips)
+#: comicSettings.ui:178 comicSettings.ui:207
+msgid "never"
+msgstr "从不"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: comicSettings.ui:185
+msgid "Check for new comic strips:"
+msgstr "检查新连环画："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, updateIntervallComicStrips)
+#: comicSettings.ui:201
+msgid " minutes"
+msgstr " 分钟"
+
+#: package/contents/ui/ComicBottomInfo.qml:112
+msgid "Visit the comic website"
+msgstr "访问连环画网站"
+
+#: stripselector.cpp:42 stripselector.cpp:113
+msgid "Go to Strip"
+msgstr "转到连环画"
+
+#: stripselector.cpp:57
+msgid "&Strip Number:"
+msgstr "连环画数字(&S)："
+
+#: stripselector.cpp:113
+msgid "Strip identifier:"
+msgstr "连环画标识符："
+
+#~ msgid "Maximum &Size of Widget"
+#~ msgstr "部件的最大尺寸(&S)"
+
+#~ msgid "Tabbar"
+#~ msgstr "标签栏"
+
+#~ msgctxt "Tabbar will show text only"
+#~ msgid "Text only"
+#~ msgstr "只有文字"
+
+#~ msgctxt "Tabbar will show icons only"
+#~ msgid "Icons only"
+#~ msgstr "只有图标"
+
+#~ msgctxt "Tabbar will show both text and icons"
+#~ msgid "Text and Icons"
+#~ msgstr "文本和图标"
+
+#~ msgid ""
+#~ "Show at actual size in a different view.  Alternatively, click with the "
+#~ "middle mouse button on the comic."
+#~ msgstr "在不同的视图中以实际大小显示。也可以在连环画上点击鼠标中键。"
+
+#~ msgid "Press the \"Get New Comics ...\" button to install comics."
+#~ msgstr "按下“获得新连环画...”按钮以安装连环画。"
+
+#~ msgid "Limit number of cached strips per comic:"
+#~ msgstr "每个连环画的缓存数限制："
+
+#~ msgid "Tabs"
+#~ msgstr "标签"
+
+#~ msgid "Use &tabs:"
+#~ msgstr "使用标签(&T)："
+
+#~ msgid "Pressing Ctrl and scrolling also changes the tabs."
+#~ msgstr "按下 Ctrl 并滚动也更改标签。"
+
+#~ msgid "&Hide Tabbar:"
+#~ msgstr "隐藏标签栏(&H)："
+
+#~ msgid "Interacting with the comic widget restarts the timer."
+#~ msgstr "与连环画部件交互可重启计时器。"
+
+#~ msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
+#~ msgstr "hh “小时” mm “分钟” ss “秒”"
+
+#~ msgid "Automatically &switch tabs:"
+#~ msgstr "自动切换标签(&S)："

@@ -1,0 +1,619 @@
+# translation of kmailcvt.po to 简体中文
+# Copyright (C) 2002,2003, 2009 Free Software Foundation, Inc.
+#
+# Xuedong Zhang <zxd@bu.edu>, 2001.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Funda Wang <fundawang@linux.net.cn>, 2002,2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2012.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+# FengChao <rainofchaos@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmailcvt\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-04 01:34+0000\n"
+"PO-Revision-Date: 2013-01-18 19:11+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: kmailcvt.cpp:45
+msgid "KMailCVT Import Tool"
+msgstr "KMailCVT 导入工具"
+
+#: kmailcvt.cpp:54
+msgid "Step 1: Select Filter"
+msgstr "第一步：选择过滤器"
+
+#: kmailcvt.cpp:59
+msgid "Step 2: Importing..."
+msgstr "第二步：导入..."
+
+#: kmailcvt.cpp:115
+msgid "Import in progress"
+msgstr "导入进行中"
+
+#: kmailcvt.cpp:121
+msgid "Import finished"
+msgstr "导入已完成"
+
+#: kselfilterpage.cpp:101
+#, kde-format
+msgid "<p><i>Written by %1.</i></p>"
+msgstr "<p><i>由 %1 编写。</i></p>"
+
+#: main.cpp:30
+msgid "KMailCVT"
+msgstr "KMailCVT"
+
+#: main.cpp:31
+msgid "Mail Import Tool"
+msgstr "邮件导入工具"
+
+#: main.cpp:32
+#, fuzzy
+#| msgid "Copyright © 2000–2013 KMailCVT authors"
+msgid "Copyright © 2000–2014 KMailCVT authors"
+msgstr "版权 © 2000–2013 KMailCVT 作者"
+
+#: main.cpp:33
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:33
+#, fuzzy
+#| msgid "Maintainer & New filters"
+msgid "Maintainer & New filter & cleanups"
+msgstr "维护者和新过滤器"
+
+#: main.cpp:34
+msgid "Hans Dijkema"
+msgstr "Hans Dijkema"
+
+#: main.cpp:34
+msgid "Original author"
+msgstr "原始作者"
+
+#: main.cpp:35
+msgid "Danny Kukawka"
+msgstr "Danny Kukawka"
+
+#: main.cpp:35
+#, fuzzy
+#| msgid "Maintainer & New filters"
+msgid "Previous Maintainer & New filters"
+msgstr "维护者和新过滤器"
+
+#: main.cpp:36
+msgid "Laurence Anderson"
+msgstr "Laurence Anderson"
+
+#: main.cpp:36 main.cpp:37
+msgid "New GUI & cleanups"
+msgstr "新的界面和清理"
+
+#: main.cpp:37
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: main.cpp:38
+msgid "Matthew James Leach"
+msgstr "Matthew James Leach"
+
+#: main.cpp:38
+msgid "Port to Akonadi"
+msgstr "移至到 Akonadi"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: ui/kimportpagedlg.ui:75
+msgid "Click 'Back' to import more emails or contacts"
+msgstr "请点击“上一步”以导入更多的邮件或联系人"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: ui/kselfilterpagedlg.ui:82
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'DejaVu Sans'; font-size:9pt; font-weight:600;\">Welcome to KMailCVT "
+"- The Mail Import Tool</span><span style=\" font-family:'DejaVu Sans'; font-"
+"size:9pt;\"> <br /><br />This program will help you import your email from "
+"your previous email program.<br /><br />Please select the program you would "
+"like to import from. Next, select the folder you would like to import to, "
+"then click 'Next'.</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'DejaVu Sans'; font-size:9pt; font-weight:600;\">欢迎使用 KMailCVT - "
+"邮件导入工具</span><span style=\" font-family:'DejaVu Sans'; font-size:9pt;"
+"\"> <br /><br />此程序将帮助您从您以前使用的电子邮件程序中导入电子邮件。<br /"
+"><br />现在，请选择您想要导入的程序。然后选择您想要导入到的目标文件夹。最后单"
+"击“下一步”。</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kselfilterpagedlg.ui:115
+msgid "Please select the folder to import to:"
+msgstr "请选择要导入的目标文件夹："
+
+#. i18n: ectx: property (text), widget (QCheckBox, remDupMsg)
+#: ui/kselfilterpagedlg.ui:125
+msgid "Remove &duplicate messages during import"
+msgstr "导入时删除重复邮件(&D)"
+
+#~ msgid "New filter & cleanups"
+#~ msgstr "新过滤器和清理"
+
+#~ msgid "From:"
+#~ msgstr "发件人："
+
+#~ msgid "To:"
+#~ msgstr "收件人："
+
+#~ msgid "Current:"
+#~ msgstr "当前："
+
+#~ msgid "Importing in progress..."
+#~ msgstr "导入进行中..."
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Total:"
+#~ msgstr "总计："
+
+#~ msgid "Import Evolution 1.x Local Mails and Folder Structure"
+#~ msgstr "导入 Evolution 1.x 本地邮件和文件夹结构"
+
+#~ msgid ""
+#~ "<p><b>Evolution 1.x import filter</b></p><p>Select the base directory of "
+#~ "Evolution's mails (usually ~/evolution/local).</p><p>Since it is possible "
+#~ "to recreate the folder structure, the folders will be stored under: "
+#~ "\"Evolution-Import\".</p>"
+#~ msgstr ""
+#~ "<p><b>Evolution 1.x 导入过滤器</b></p><p>选择您的 Evolution 本地邮件文件夹"
+#~ "的基目录(通常为 ~/.evolution/local/)。</p><p>由于可以重新创建文件夹结构，"
+#~ "文件夹将存储于“Evolution-Import”下。</p>"
+
+#~ msgid "No directory selected."
+#~ msgstr "没有选中目录。"
+
+#~ msgid "No files found for import."
+#~ msgstr "没有找到可导入的文件。"
+
+#~ msgid "Finished importing emails from %1"
+#~ msgstr "从 %1 导入电子邮件完成"
+
+#~ msgid "Unable to open %1, skipping"
+#~ msgstr "无法打开 %1，跳过"
+
+#~ msgid "Importing emails from %1..."
+#~ msgstr "正在从 %1 导入新邮件..."
+
+#~ msgid "1 duplicate message not imported"
+#~ msgid_plural "%1 duplicate messages not imported"
+#~ msgstr[0] "%1 封重复邮件未被导入"
+
+#~ msgid "Import Evolution 2.x Local Mails and Folder Structure"
+#~ msgstr "导入 Evolution 2.x 本地邮件和文件夹结构"
+
+#~ msgid ""
+#~ "<p><b>Evolution 2.x import filter</b></p><p>Select the base directory of "
+#~ "your local Evolution mailfolder (usually ~/.evolution/mail/local/).</"
+#~ "p><p><b>Note:</b> Never choose a Folder which <u>does not</u> contain "
+#~ "mbox-files (for example a maildir): if you do, you will get many new "
+#~ "folders.</p><p>Since it is possible to recreate the folder structure, the "
+#~ "folders will be stored under: \"Evolution-Import\".</p>"
+#~ msgstr ""
+#~ "<p><b>Evolution 2.x 导入过滤器</b></p><p>选择您的 Evolution 本地邮件文件夹"
+#~ "的基目录(通常为 ~/.evolution/mail/local/)。</p><p><b>注意：</b>不要选择<u>"
+#~ "不包含</u> mbox 文件的文件夹(比如 maildir)。如果您不小心选择了的话，您将会"
+#~ "得到很多新文件夹。</p><p>由于可以创建文件夹结构，文件夹将存储于“Evolution-"
+#~ "Import”下。</p>"
+
+#~ msgid "Start import file %1..."
+#~ msgstr "开始导入文件 %1..."
+
+#~ msgid "Finished import, canceled by user."
+#~ msgstr "完成了导入，被用户取消。"
+
+#, fuzzy
+#~| msgid "Import Evolution 2.x Local Mails and Folder Structure"
+#~ msgid "Import Evolution 3.x Local Mails and Folder Structure"
+#~ msgstr "导入 Evolution 2.x 本地邮件和文件夹结构"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p><b>Evolution 1.x import filter</b></p><p>Select the base directory of "
+#~| "Evolution's mails (usually ~/evolution/local).</p><p>Since it is "
+#~| "possible to recreate the folder structure, the folders will be stored "
+#~| "under: \"Evolution-Import\".</p>"
+#~ msgid ""
+#~ "<p><b>Evolution 3.x import filter</b></p><p>Select the base directory of "
+#~ "your local Evolution mailfolder (usually ~/.local/share/evolution/mail/"
+#~ "local/).</p><p>Since it is possible to recreate the folder structure, the "
+#~ "folders will be stored under: \"Evolution-Import\".</p>"
+#~ msgstr ""
+#~ "<p><b>Evolution 1.x 导入过滤器</b></p><p>选择您的 Evolution 本地邮件文件夹"
+#~ "的基目录(通常为 ~/.evolution/local/)。</p><p>由于可以重新创建文件夹结构，"
+#~ "文件夹将存储于“Evolution-Import”下。</p>"
+
+#~ msgid "Import folder %1..."
+#~ msgstr "导入文件夹 %1..."
+
+#~ msgid "Could not import %1"
+#~ msgstr "无法导入 %1"
+
+#~ msgid "Import KMail Archive File"
+#~ msgstr "导入 KMail 归档文件"
+
+#~ msgid ""
+#~ "<p><b>KMail Archive File Import Filter</b></p><p>This filter will import "
+#~ "archives files previously exported by KMail.</p><p>Archive files contain "
+#~ "a complete folder subtree compressed into a single file.</p>"
+#~ msgstr ""
+#~ "<p><b>KMail 归档文件导入过滤器</b></p><p>此过滤器可导入 KMail 以往导出的归"
+#~ "档文件。</p><p>此类归档是一种单个的压缩文件，里面包含完整的文件夹树。</p>"
+
+#~ msgid "Unable to retrieve folder for folder path %1."
+#~ msgstr "无法在路径 %1 上定位到文件夹。"
+
+#~ msgid "Importing folder '%1'..."
+#~ msgstr "正在导入文件夹“%1”..."
+
+#~ msgid "Unexpected subfolder %1 in folder %2."
+#~ msgstr "在文件夹 %2 中发现不可预料的子文件夹 %1。"
+
+#~ msgid "No subfolder named 'cur' in folder %1."
+#~ msgstr "文件夹 %1 中没有名为“cur”的子文件夹。"
+
+#~ msgid "Unexpected subdirectory named '%1'."
+#~ msgstr "不可预料的子目录“%1”。"
+
+#~ msgid "Select KMail Archive File to Import"
+#~ msgstr "选择要导入的 KMail 归档文件"
+
+#~ msgid "KMail Archive Files (*.tar, *.tar.gz, *.tar.bz2, *.zip)"
+#~ msgstr "KMail 归档文件(*.tar, *.tar.gz, *.tar.bz2, *.zip)"
+
+#~ msgid "Please select an archive file that should be imported."
+#~ msgstr "请选择要导入的归档文件。"
+
+#~ msgid "The file '%1' does not appear to be a valid archive."
+#~ msgstr "文件“%1”似乎不是有效的归档文件。"
+
+#~ msgid "Unable to open archive file '%1'"
+#~ msgstr "打不开归档文件“%1”"
+
+#~ msgid "Counting files in archive..."
+#~ msgstr "正在统计归档中的文件..."
+
+#~ msgid "Importing the archive file '%1' into the folder '%2' succeeded."
+#~ msgstr "将归档文件“%1”导入到文件夹“%2”成功。"
+
+#~ msgid "1 message was imported."
+#~ msgid_plural "%1 messages were imported."
+#~ msgstr[0] "导入了 %1 封邮件。"
+
+#~ msgid "Importing the archive failed."
+#~ msgstr "导入归档失败。"
+
+#~ msgid "Import KMail Maildirs and Folder Structure"
+#~ msgstr "导入 KMail 邮件和文件夹结构"
+
+#~ msgid ""
+#~ "<p><b>KMail import filter</b></p><p>Select the base directory of the "
+#~ "KMail mailfolder you want to import.</p><p><b>Note:</b> Never select your "
+#~ "current local KMail maildir (usually ~/Mail or ~/.kde/share/apps/kmail/"
+#~ "mail ): in this case, KMailCVT may become stuck in a continuous loop. </"
+#~ "p><p>This filter does not import KMail mailfolders with mbox files.</"
+#~ "p><p>Since it is possible to recreate the folder structure, the folders "
+#~ "will be stored under: \"KMail-Import\" in your local folder.</p>"
+#~ msgstr ""
+#~ "<p><b>KMail 导入过滤器</b></p><p>选择您想要导入的 KMail 邮件文件夹的基础目"
+#~ "录。</p><p><b>注意：</b>绝对不要选择您目前的本地 KMail 邮件目录(通常是 ~/"
+#~ "Mail 或 ~/.kde/share/apps/kmail/mail )。否则，KMailCVT 可能陷入死循环之"
+#~ "中。</p><p>此过滤器不会导入带 mbox 文件的 KMail 邮件文件夹。</p><p>由于可"
+#~ "以重建文件夹结构，文件夹将储于您本地文件夹的“KMail-Import”下。</p>"
+
+#~ msgid "Import Lotus Notes Emails"
+#~ msgstr "导入 Lotus Notes 邮件"
+
+#~ msgid ""
+#~ "<p><b>Lotus Notes Structured Text mail import filter</b></p><p>This "
+#~ "filter will import Structure Text files from an exported Lotus Notes "
+#~ "email client into KMail. Use this filter if you want to import mails from "
+#~ "Lotus or other mailers that use Lotus Notes' Structured Text format.</"
+#~ "p><p><b>Note:</b> Since it is possible to recreate the folder structure, "
+#~ "the imported messages will be stored in subfolders named by the files "
+#~ "they came from under: \"LNotes-Import\" in your local folder.</p>"
+#~ msgstr ""
+#~ "<p><b>Lotus Notes 结构化文本邮件导入过滤器</b></p><p>此过滤器将从 Lotus "
+#~ "Notes 导出的结构化文本文件中把邮件文件导入至 KMail。如果您想要从 Lotus "
+#~ "Notes 或使用 Lotus Notes 结构化文本格式的其它邮件程序中中导入邮件，请使用"
+#~ "此过滤器。</p><p><b>注意：</b>由于可以重建文件夹结构，导入的信件将会被存储"
+#~ "于本地文件夹“LNotes-Import”的子文件夹中，而子文件夹的名称取决于导入时的文"
+#~ "件名。</p>"
+
+#~ msgid "All Files (*)"
+#~ msgstr "全部文件(*)"
+
+#, fuzzy
+#~| msgid "No directory selected."
+#~ msgid "No files selected."
+#~ msgstr "没有选中目录。"
+
+#~ msgid "Importing emails from %1"
+#~ msgstr "正在从 %1 导入邮件"
+
+#~ msgid "Message %1"
+#~ msgstr "信件 %1"
+
+#~ msgid "Import From OS X Mail"
+#~ msgstr "从 OS X 邮件中导入"
+
+#~ msgid ""
+#~ "<p><b>OS X Mail Import Filter</b></p><p>This filter imports e-mails from "
+#~ "the Mail client in Apple Mac OS X.</p>"
+#~ msgstr ""
+#~ "<p><b>OS X 邮件导入过滤器</b></p><p>此过滤器可从 Apple Mac OS X 的邮件客户"
+#~ "端程序中导入电子邮件。</p>"
+
+#~ msgid "1 duplicate message not imported to folder %2 in KMail"
+#~ msgid_plural "%1 duplicate messages not imported to folder %2 in KMail"
+#~ msgstr[0] "%1 封重复信件未被导入到 KMail 的文件夹 %2 中"
+
+#~ msgid "Import mbox Files (UNIX, Evolution)"
+#~ msgstr "导入 mbox 文件(UNIX，Evolution)"
+
+#~ msgid ""
+#~ "<p><b>mbox import filter</b></p><p>This filter will import mbox files "
+#~ "into KMail. Use this filter if you want to import mails from Ximian "
+#~ "Evolution or other mailers that use this traditional UNIX format.</"
+#~ "p><p><b>Note:</b> Emails will be imported into folders named after the "
+#~ "file they came from, prefixed with MBOX-</p>"
+#~ msgstr ""
+#~ "<p><b>mbox 导入过滤器</b></p><p>此过滤器将把 mbox 文件导入至 KMail。如果您"
+#~ "想要从 Ximian Evolution 或其它使用此传统 UNIX 格式的邮件程序中导入邮件，请"
+#~ "使用此过滤器。</p><p><b>注意：</b>电子邮件将会导入到与文件同名的文件夹中，"
+#~ "只是带有前缀“MBOX-”。</p>"
+
+#~ msgid "mbox Files (*)"
+#~ msgstr "mbox 文件(*)"
+
+#~ msgid "Import Outlook Express Emails"
+#~ msgstr "导入 Outlook Express 邮件"
+
+#~ msgid ""
+#~ "<p><b>Outlook Express 4/5/6 import filter</b></p><p>You will need to "
+#~ "locate the folder where the mailbox has been stored by searching for .dbx "
+#~ "or .mbx files under <ul><li><i>C:\\Windows\\Application Data</i> in "
+#~ "Windows 9x</li><li><i>Documents and Settings</i> in Windows 2000 or "
+#~ "later</li></ul></p><p><b>Note:</b> Since it is possible to recreate the "
+#~ "folder structure, the folders from Outlook Express 5 and 6 will be stored "
+#~ "under: \"OE-Import\" in your local folder.</p>"
+#~ msgstr ""
+#~ "<p><b>Outlook Express 4/5/6 导入过滤器</b></p><p>您需要找到邮箱存储的文件"
+#~ "夹，您可以在下列文件夹下搜索 .dbx 或 .mdx 文件<ul><li>Windows 9x 下的 "
+#~ "<i>C:\\Windows\\Application Data</i></li><li>Windows 2000 或更高版本中的 "
+#~ "<i>Documents and Settings</i></li></ul></p><p><b>注意：</b>由于可以重建文"
+#~ "件夹结构，Outlook Express 5 和 6 中的文件夹将被存储于您本地文件夹的“OE-"
+#~ "Import”下。</p>"
+
+#~ msgid "No Outlook Express mailboxes found in directory %1."
+#~ msgstr "未在目录 %1 中找到 Outlook Express 邮箱。"
+
+#~ msgid "Import folder structure..."
+#~ msgstr "导入文件夹结构..."
+
+#~ msgid "Finished importing Outlook Express emails"
+#~ msgstr "导入 Outlook Express 邮件完成"
+
+#~ msgid "Unable to open mailbox %1"
+#~ msgstr "无法打开邮箱 %1"
+
+#~ msgid "Importing OE4 Mailbox %1"
+#~ msgstr "导入 OE4 邮箱 %1"
+
+#~ msgid "Importing OE5+ Mailbox %1"
+#~ msgstr "导入 OE5+ 邮箱 %1"
+
+#~ msgid "Importing OE5+ Folder file %1"
+#~ msgstr "导入 OE5+ 文件夹文件 %1"
+
+#~ msgid "Import Opera Emails"
+#~ msgstr "导入 Opera 邮件"
+
+#~ msgid ""
+#~ "<p><b>Opera email import filter</b></p><p>This filter will import mails "
+#~ "from Opera mail folder. Use this filter if you want to import all mails "
+#~ "within a account in the Opera maildir.</p><p>Select the directory of the "
+#~ "account (usually ~/.opera/mail/store/account*).</p><p><b>Note:</b> Emails "
+#~ "will be imported into a folder named after the account they came from, "
+#~ "prefixed with OPERA-</p>"
+#~ msgstr ""
+#~ "<p><b>Opera 电子邮件导入过滤器</b></p><p>此过滤器将导入 Opera 邮件文件夹中"
+#~ "的邮件。如果您想要从 Opera 邮件目录中一个账户的全部邮件，请使用此过滤器。"
+#~ "</p><p>选择账户所在的目录(通常为 ~/.opera/mail/store/account*)。</p><p><b>"
+#~ "注意：</b>电子邮件将会导入到与账户同名的文件夹中，只是带有前缀“OPERA-”。</"
+#~ "p>"
+
+#~ msgid "Importing new mail files..."
+#~ msgstr "正在导入新邮件文件..."
+
+#~ msgid "Counting files..."
+#~ msgstr "正在统计文件..."
+
+#~ msgid "Import Outlook Emails"
+#~ msgstr "导入 Outlook 邮件"
+
+#~ msgid ""
+#~ "<p><b>Outlook email import filter</b></p><p>This filter will import mails "
+#~ "from a Outlook pst-file. You will need to locate the folder where the pst-"
+#~ "file has been stored by searching for .pst files under: <i>C:\\Documents "
+#~ "and Settings</i> in Windows 2000 or later</p><p><b>Note:</b> Emails will "
+#~ "be imported into a folder named after the account they came from, "
+#~ "prefixed with OUTLOOK-</p>"
+#~ msgstr ""
+#~ "<p><b>Outlook 电子邮件导入过滤器</b></p><p>此过滤器将从 Outlook 的 PST 文"
+#~ "件中导入邮件。您需要找到 PST 文件存储的文件夹。在 Windows 2000 及以后版本"
+#~ "中，您可以在 <i>C:\\Documents and Settings</i> 下搜索 .pst 文件</p><p><b>"
+#~ "注意：</b>电子邮件将会导入到与账户同名的文件夹中，只是带有前缀“OUTLOOK-”</"
+#~ "p>"
+
+#~ msgid "Counting mail..."
+#~ msgstr "正在统计邮件..."
+
+#~ msgctxt "'directories' means directories on hard disc, not email-folders."
+#~ msgid "Counting directories..."
+#~ msgstr "正在统计目录..."
+
+#~ msgctxt "'folders' means email-folders, not folders on disc."
+#~ msgid "Counting folders..."
+#~ msgstr "正在统计文件夹..."
+
+#~ msgid "Import Plain Text Emails"
+#~ msgstr "导入纯文本电子邮件"
+
+#~ msgid ""
+#~ "<p>Select the directory containing the emails on your system. The emails "
+#~ "are placed in a folder with the same name as the directory they were in, "
+#~ "prefixed by PLAIN-</p><p>This filter will import all .msg, .eml and .txt "
+#~ "emails.</p>"
+#~ msgstr ""
+#~ "<p>选择您系统中包含电子邮件的目录。邮件会被放在与其所在目录同名的文件夹"
+#~ "中，只是带有前缀“PLAIN-”。</p><p>此过滤器将会导入全部 .msg、.eml 和 .txt "
+#~ "邮件。</p>"
+
+#~ msgid "Import Folders From Pegasus-Mail"
+#~ msgstr "从 Pegasus-Mail 中导入文件夹"
+
+#~ msgid ""
+#~ "<p>Select the Pegasus-Mail directory on your system (containing *.CNM, *."
+#~ "PMM and *.MBX files). On many systems this is stored in C:\\pmail\\mail "
+#~ "or C:\\pmail\\mail\\admin</p><p><b>Note:</b> Since it is possible to "
+#~ "recreate the folder structure, the folders will be stored under: "
+#~ "\"PegasusMail-Import\".</p>"
+#~ msgstr ""
+#~ "<p>选择您系统上的 Pegasus-Mail 目录(其中包含 *.CNM，*.PMM 和 *.MBX 文件)。"
+#~ "在许多系统中，此目录存储于 C:\\PMail\\mail 或 C:\\pmail\\mail\\admin</"
+#~ "p><p><b>注意：</b>由于可以重建文件夹结构，文件夹将存储于“PegasusMail-"
+#~ "Import”下。</p>"
+
+#~ msgid ""
+#~ "Cannot parse the folder structure; continuing import without subfolder "
+#~ "support."
+#~ msgstr "无法分析文件夹结构；继续导入而不支持子文件夹。"
+
+#~ msgid "Importing new mail files ('.cnm')..."
+#~ msgstr "正在导入新邮件文件(“.cnm”)..."
+
+#~ msgid "Importing mail folders ('.pmm')..."
+#~ msgstr "正在导入邮件文件夹(“.pmm”) ..."
+
+#~ msgid "Importing 'UNIX' mail folders ('.mbx')..."
+#~ msgstr "正在导入“UNIX”邮件文件夹(“.mbx”)..."
+
+#~ msgid "Importing %1"
+#~ msgstr "正在导入 %1"
+
+#~ msgid "Parsing the folder structure..."
+#~ msgstr "正在分析文件夹结构..."
+
+#~ msgid "Import Sylpheed Maildirs and Folder Structure"
+#~ msgstr "导入 Sylpheed 邮件和文件夹结构"
+
+#~ msgid ""
+#~ "<p><b>Sylpheed import filter</b></p><p>Select the base directory of the "
+#~ "Sylpheed mailfolder you want to import (usually: ~/Mail ).</p><p>Since it "
+#~ "is possible to recreate the folder structure, the folders will be stored "
+#~ "under: \"Sylpheed-Import\" in your local folder.</p><p>This filter also "
+#~ "recreates the status of message, e.g. new or forwarded.</p>"
+#~ msgstr ""
+#~ "<p><b>Sylpheed 导入过滤器</b></p><p>选择您想要导入的 Sylpheed 邮件文件夹的"
+#~ "基础目录(通常是：~/Mail )。</p><p>由于可以重建文件夹结构，文件夹将存在您本"
+#~ "地文件夹的“Sylpheed-Import”下。</p><p>此过滤器还将重建信件的状态，例如新邮"
+#~ "件或已转发。</p>"
+
+#~ msgid "Import The Bat! Mails and Folder Structure"
+#~ msgstr "导入 The Bat! 邮件和文件夹结构"
+
+#~ msgid ""
+#~ "<p><b>The Bat! import filter</b></p><p>Select the base directory of the "
+#~ "'The Bat!' local mailfolder you want to import.</p><p><b>Note:</b> This "
+#~ "filter imports the *.tbb-files from 'The Bat!' local folder, e.g. from "
+#~ "POP accounts, and not from IMAP/DIMAP accounts.</p><p>Since it is "
+#~ "possible to recreate the folder structure, the folders will be stored "
+#~ "under: \"TheBat-Import\" in your local account.</p>"
+#~ msgstr ""
+#~ "<p><b>The Bat! 导入过滤器</b></p><p>选择您想要导入的 The Bat! 邮件文件夹的"
+#~ "基础目录。</p><p><b>注意：</b>此过滤器将从 The Bat! 本地文件夹中导入 *."
+#~ "tbb 文件，这适用于 POP 账户，但不适用于 IMAP/DIMAP 账户。</p><p>由于可以重"
+#~ "建文件夹结构，文件夹将储于您本地账户的“TheBat-Import”下。</p>"
+
+#~ msgid "Import Thunderbird/Mozilla Local Mails and Folder Structure"
+#~ msgstr "导入 Thunderbird/Mozilla 本地邮件和文件夹结构"
+
+#~ msgid ""
+#~ "<p><b>Thunderbird/Mozilla import filter</b></p><p>Select your base "
+#~ "Thunderbird/Mozilla mailfolder (usually ~/.thunderbird/*.default/Mail/"
+#~ "Local Folders/).</p><p><b>Note:</b> Never choose a Folder which <u>does "
+#~ "not</u> contain mbox-files (for example, a maildir): if you do, you will "
+#~ "get many new folders.</p><p>Since it is possible to recreate the folder "
+#~ "structure, the folders will be stored under: \"Thunderbird-Import\".</p>"
+#~ msgstr ""
+#~ "<p><b>Thunderbird/Mozilla  导入过滤器</b></p><p>选择您的基础 Thunderbird/"
+#~ "Mozilla  邮件文件夹(通常是 ~/.thunderbird/*.default/Mail/Local Folders/)。"
+#~ "</p><p><b>注意：</b>绝对不要选择<u>不</u>包含 mbox 文件的文件夹(例如 "
+#~ "maildir)。如果您那么做的话，将会得到很多新文件夹。</p><p>由于可以重建文件"
+#~ "夹结构，文件夹将存储于“Thunderbird-Import”下。</p>"
+
+#~ msgid "<b>Error:</b> Could not add message to folder %1. Reason: %2"
+#~ msgstr "<b>错误：</b>无法将信件添加到文件夹 %1 中。原因：%2"
+
+#~ msgid ""
+#~ "<b>Warning:</b> Could not check that the folder already exists. Reason: %1"
+#~ msgstr "<b>警告：</b>无法检查文件夹是否存在。原因：%1"
+
+#~ msgid "<b>Error:</b> Could not create folder. Reason: %1"
+#~ msgstr "<b>错误：</b>无法创建文件夹。原因：%1"
+
+#~ msgid ""
+#~ "<b>Warning:</b> Could not fetch mail in folder %1. Reason: %2 You may "
+#~ "have duplicate messages."
+#~ msgstr ""
+#~ "<b>警告：</b>无法获取文件夹 %1 中的邮件。原因：%2 您可能有重复的信件。"
+
+#~ msgid "<b>Warning:</b> Got an invalid message in folder %1."
+#~ msgstr "<b>警告：</b>在文件夹 %1 中发现无效信件。"
+
+#~ msgid "Error: failed to read temporary file at %1"
+#~ msgstr "错误：读取 %1 的临时文件失败"
+
+#~ msgid "<b>Warning:</b> Got a bad message folder, adding to root folder."
+#~ msgstr "<b>警告：</b>新建文件夹无效，正添加到根文件夹。"

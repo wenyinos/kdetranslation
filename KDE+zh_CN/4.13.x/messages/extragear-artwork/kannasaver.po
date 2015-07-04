@@ -1,0 +1,177 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Feng Chao <rainofchaos@gmail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 02:35+0200\n"
+"PO-Revision-Date: 2012-04-13 20:47+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: label, entry (mode), group (kannasaver)
+#: src/kannasaver.kcfg:11
+msgid "How many characters should be shown."
+msgstr "应该显示多少字符。"
+
+#. i18n: ectx: label, entry (style), group (kannasaver)
+#: src/kannasaver.kcfg:20
+msgid "Which writing system should be used."
+msgstr "使用何种书写系统。"
+
+#. i18n: ectx: label, entry (font), group (kannasaver)
+#: src/kannasaver.kcfg:40
+msgid "The font used to display the Romaji characters."
+msgstr "显示罗马字符的字体。"
+
+#. i18n: ectx: label, entry (kanaFont), group (kannasaver)
+#: src/kannasaver.kcfg:57
+msgid "The font used to display the Kana characters."
+msgstr "显示假名字符的字体。"
+
+#: src/main.cpp:47
+msgid "Kannasaver"
+msgstr "Kannasaver"
+
+#: src/main.cpp:49
+msgid "A screensaver that shows Japanese characters."
+msgstr "显示日文字符的屏保"
+
+#: src/main.cpp:51
+msgid ""
+"Copyright 2004 Mathias Homann<br/>Copyright 2009, 2010 The Kannasaver "
+"Developers"
+msgstr ""
+"Copyright 2004 Mathias Homann<br/>Copyright 2009, 2010 The Kannasaver "
+"Developers"
+
+#: src/main.cpp:53
+msgid "Mathias Homann"
+msgstr "Mathias Homann"
+
+#: src/main.cpp:53
+msgid "Original author of Kannasaver."
+msgstr "Kannasaver 创始者."
+
+#: src/main.cpp:54
+msgid "Frederik Schwarzer"
+msgstr "Frederik Schwarzer"
+
+#: src/main.cpp:54
+msgid "Initiated the port to KDE4."
+msgstr "移植到 KDE4."
+
+#: src/main.cpp:55
+msgid "Stefan Böhmann"
+msgstr "Stefan Böhmann"
+
+#: src/main.cpp:55
+msgid "Fixed up the mess left after the KDE4 port."
+msgstr "修正移植到 KDE4 后的各种问题"
+
+#: src/main.cpp:83
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SettingsWidget)
+#: src/settingswidget.ui:15
+msgid "Kannasaver Setup"
+msgstr "Kannasaver 设置"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/settingswidget.ui:25
+msgid "Mode:"
+msgstr "模式："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_mode)
+#: src/settingswidget.ui:33
+msgid "Basic"
+msgstr "基本"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_mode)
+#: src/settingswidget.ui:38
+msgid "Basic + Extended"
+msgstr "基本 + 扩展"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_mode)
+#: src/settingswidget.ui:43
+msgid "Basic + Extended + Compound"
+msgstr "基本 + 扩展 + 组合"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/settingswidget.ui:51
+msgid "Style:"
+msgstr "样式："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_style)
+#: src/settingswidget.ui:59
+msgid "Hiragana"
+msgstr "平假名"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_style)
+#: src/settingswidget.ui:64
+msgid "Katakana"
+msgstr "片假名"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/settingswidget.ui:72
+msgid "Background Color:"
+msgstr "背景颜色:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: src/settingswidget.ui:82
+msgid "Timer:"
+msgstr "计时器："
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_timer)
+#: src/settingswidget.ui:89
+msgid " Seconds"
+msgstr " 秒"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/settingswidget.ui:110
+msgid "Romaji Font"
+msgstr "罗马字体"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: src/settingswidget.ui:119 src/settingswidget.ui:177
+msgid "Font:"
+msgstr "字体："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: src/settingswidget.ui:129 src/settingswidget.ui:187
+msgid "Size:"
+msgstr "大小："
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_fontSize)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_kanaFontSize)
+#: src/settingswidget.ui:136 src/settingswidget.ui:194
+#, no-c-format
+msgid " %"
+msgstr " %"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: src/settingswidget.ui:155 src/settingswidget.ui:213
+msgid "Color:"
+msgstr "颜色："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/settingswidget.ui:168
+msgid "Kana Font"
+msgstr "假名字体"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: src/settingswidget.ui:243
+msgid "Preview"
+msgstr "预览"

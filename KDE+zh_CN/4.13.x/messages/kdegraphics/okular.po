@@ -1,0 +1,3412 @@
+# translation of okular.po to 简体中文
+# Copyright (C) 2004, 2008, 2009 Free Software Foundation, Inc.
+#
+# Mai Hao Hui <mhh@ricetons.com>, 2002,2003.
+# Yan Shuangchun <yahzee@d3eye.com>, 2004.
+# Lie_Ex <lilith.ex@gmail.com>, 2007,2008.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010, 2011, 2012.
+# Feng Chao <rainofchaos@gmail.com>, 2011, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2011, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-25 01:38+0000\n"
+"PO-Revision-Date: 2013-07-05 22:59-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: aboutdata.h:24
+msgid "Okular, a universal document viewer"
+msgstr "Okular，一个通用文档查看器"
+
+#: aboutdata.h:26
+msgid ""
+"(C) 2002 Wilco Greven, Christophe Devriese\n"
+"(C) 2004-2005 Enrico Ros\n"
+"(C) 2005 Piotr Szymanski\n"
+"(C) 2004-2009 Albert Astals Cid\n"
+"(C) 2006-2009 Pino Toscano"
+msgstr ""
+"(C) 2002 Wilco Greven、Christophe Devriese\n"
+"(C) 2004-2005 Enrico Ros\n"
+"(C) 2005 Piotr Szymanski\n"
+"(C) 2004-2009 Albert Astals Cid\n"
+"(C) 2006-2009 Pino Toscano"
+
+#: aboutdata.h:35
+msgid "Pino Toscano"
+msgstr "Pino Toscano"
+
+#: aboutdata.h:35
+msgid "Former maintainer"
+msgstr "先前维护者"
+
+#: aboutdata.h:36
+msgid "Tobias Koenig"
+msgstr "Tobias Koenig"
+
+#: aboutdata.h:36
+msgid "Lots of framework work, ODT and FictionBook backends"
+msgstr "大量框架方面与 ODT、FictionBook 后端的工作"
+
+#: aboutdata.h:37
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#: aboutdata.h:37
+msgid "Current maintainer"
+msgstr "当前维护者"
+
+#: aboutdata.h:38
+msgid "Piotr Szymanski"
+msgstr "Piotr Szymanski"
+
+#: aboutdata.h:38
+msgid "Created Okular from KPDF codebase"
+msgstr "在 KPDF 代码基础上构建了 Okular"
+
+#: aboutdata.h:39
+msgid "Enrico Ros"
+msgstr "Enrico Ros"
+
+#: aboutdata.h:39
+msgid "KPDF developer"
+msgstr "KPDF 开发者"
+
+#: aboutdata.h:40
+msgid "Eugene Trounev"
+msgstr "Eugene Trounev"
+
+#: aboutdata.h:40
+msgid "Annotations artwork"
+msgstr "批注美工"
+
+#: aboutdata.h:41
+msgid "Jiri Baum - NICTA"
+msgstr "Jiri Baum - NICTA"
+
+#: aboutdata.h:41
+msgid "Table selection tool"
+msgstr "表格选择工具"
+
+#: aboutdata.h:42
+msgid "Fabio D'Urso"
+msgstr "Fabio D'Urso"
+
+#: aboutdata.h:42
+msgid "Annotation improvements"
+msgstr "批注改善"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightImages)
+#: conf/dlgaccessibilitybase.ui:28
+msgid "Draw border around &Images"
+msgstr "在图像周围绘制边框(&I)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightLinks)
+#: conf/dlgaccessibilitybase.ui:35
+msgid "Draw border around &Links"
+msgstr "在链接周围绘制边框(&L)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_ChangeColors)
+#: conf/dlgaccessibilitybase.ui:45
+msgid "Change &colors"
+msgstr "更改颜色(&C)"
+
+#. i18n: ectx: property (text), widget (QLabel, warn)
+#: conf/dlgaccessibilitybase.ui:63
+msgid "Warning: these options can badly affect drawing speed."
+msgstr "警告：这些选项将显著影响绘制速度。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/dlgaccessibilitybase.ui:78
+msgid "Color mode:"
+msgstr "颜色模式："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: conf/dlgaccessibilitybase.ui:89
+msgid "Invert Colors"
+msgstr "反转颜色"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: conf/dlgaccessibilitybase.ui:94
+msgid "Change Paper Color"
+msgstr "更改纸张颜色"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: conf/dlgaccessibilitybase.ui:99
+msgid "Change Dark & Light Colors"
+msgstr "更改亮暗颜色"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_RenderMode)
+#: conf/dlgaccessibilitybase.ui:104
+msgid "Convert to Black & White"
+msgstr "转换为黑白"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: conf/dlgaccessibilitybase.ui:165
+msgid "Paper color:"
+msgstr "纸张颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: conf/dlgaccessibilitybase.ui:218
+msgid "Dark color:"
+msgstr "暗色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: conf/dlgaccessibilitybase.ui:250
+msgid "Light color:"
+msgstr "亮色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: conf/dlgaccessibilitybase.ui:291
+msgid "Threshold:"
+msgstr "阈值："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: conf/dlgaccessibilitybase.ui:323
+msgid "Contrast:"
+msgstr "对比度："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: conf/dlgannotationsbase.ui:31
+msgid "Identity"
+msgstr "身份"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/dlgannotationsbase.ui:55 ui/annotationpropertiesdialog.cpp:65
+msgid "&Author:"
+msgstr "作者(&A)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/dlgannotationsbase.ui:71
+msgid ""
+"<b>Note</b>: the information here is used only for comments and reviews. "
+"Information inserted here will not be transmitted without your knowledge."
+msgstr ""
+"<b>注意：</b>这里的信息仅供注释和批注使用。在此插入的信息在保存前会让您知道。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, annotToolsGroup)
+#: conf/dlgannotationsbase.ui:87
+msgid "Annotation tools"
+msgstr "批注工具"
+
+#: conf/dlgeditor.cpp:28
+msgctxt "Text editor"
+msgid "Custom Text Editor"
+msgstr "自定义文本编辑器"
+
+#: conf/dlgeditor.cpp:29
+msgctxt "Text editor"
+msgid "Kate"
+msgstr "Kate"
+
+#: conf/dlgeditor.cpp:30
+msgctxt "Text editor"
+msgid "Kile"
+msgstr "Kile"
+
+#: conf/dlgeditor.cpp:31
+msgctxt "Text editor"
+msgid "SciTE"
+msgstr "SciTE"
+
+#: conf/dlgeditor.cpp:32
+msgctxt "Text editor"
+msgid "Emacs client"
+msgstr "Emacs 客户端"
+
+#: conf/dlgeditor.cpp:33
+msgctxt "Text editor"
+msgid "Lyx client"
+msgstr "Lyx 客户端"
+
+#: conf/dlgeditor.cpp:36
+msgctxt "@info:whatsthis"
+msgid ""
+"<qt>Set the command of a custom text editor to be launched.<br />\n"
+"You can also put few placeholders:\n"
+"<ul>\n"
+"  <li>%f - the file name</li>\n"
+"  <li>%l - the line of the file to be reached</li>\n"
+"  <li>%c - the column of the file to be reached</li>\n"
+"</ul>\n"
+"If %f is not specified, then the file name is appended to the specified "
+"command."
+msgstr ""
+"<qt>自定义文本编辑器的启动命令。<br />\n"
+"您可以在命令行中加入几种占位符：\n"
+"<ul>\n"
+"  <li>%f - 文件名</li>\n"
+"  <li>%l - 要转到的文件行数</li>\n"
+"  <li>%c - 要转到的文件列数</li>\n"
+"</ul>\n"
+"如果没有指定 %f，则文件名应被追加到指定命令的最后。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: conf/dlgeditorbase.ui:19 conf/preferencesdialog.cpp:56
+msgid "Editor"
+msgstr "编辑器"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/dlgeditorbase.ui:25
+msgid "Editor:"
+msgstr "编辑器："
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_ExternalEditor)
+#: conf/dlgeditorbase.ui:32
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose the editor you want to launch when Okular wants to open a source file."
+msgstr "选择您想要 Okular 打开源文件时启动的编辑器。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/dlgeditorbase.ui:70
+msgid "Command:"
+msgstr "命令："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: conf/dlggeneralbase.ui:20 conf/dlgpresentationbase.ui:71
+#: conf/widgetannottools.cpp:286
+msgid "Appearance"
+msgstr "外观"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowScrollBars)
+#: conf/dlggeneralbase.ui:40
+msgid "Show scroll&bars"
+msgstr "显示滚动条(&B)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SyncThumbnailsViewport)
+#: conf/dlggeneralbase.ui:50
+msgid "Link the &thumbnails with the page"
+msgstr "链接页面和缩略图(&T)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowOSD)
+#: conf/dlggeneralbase.ui:57
+msgid "Show &hints and info messages"
+msgstr "显示提示和信息(&H)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DisplayDocumentTitle)
+#: conf/dlggeneralbase.ui:64
+msgid "Display document title in titlebar if available"
+msgstr "如果有文档标题就在标题栏中显示"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/dlggeneralbase.ui:71
+msgid "When not displaying document title:"
+msgstr "不显示文档标题时："
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioFileName)
+#: conf/dlggeneralbase.ui:99
+msgid "Display file name only"
+msgstr "仅显示文件名"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioFilePath)
+#: conf/dlggeneralbase.ui:109
+msgid "Display full file path"
+msgstr "显示完整文件路径"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: conf/dlggeneralbase.ui:173
+msgid "Program Features"
+msgstr "程序特性"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShellOpenFileInTabs)
+#: conf/dlggeneralbase.ui:193
+msgid "Open new files in &tabs"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ObeyDRM)
+#: conf/dlggeneralbase.ui:200
+msgid "&Obey DRM limitations"
+msgstr "遵从 DRM 限制(&O)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WatchFile)
+#: conf/dlggeneralbase.ui:207
+msgid "&Reload document on file change"
+msgstr "在文件有更改时重新装入文档(&R)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ChooseGenerators)
+#: conf/dlggeneralbase.ui:214
+msgid "Show backend selection dialog"
+msgstr "显示后端选择对话框"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: conf/dlggeneralbase.ui:262
+msgid "View Options"
+msgstr "查看选项"
+
+#. i18n: ectx: property (text), widget (QLabel, columnLabel)
+#: conf/dlggeneralbase.ui:268
+msgid "Overview &columns:"
+msgstr "概要列(&C)："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, scrollOverlapLabel)
+#: conf/dlggeneralbase.ui:291
+msgid ""
+"Defines how much of the current viewing area will still be visible when "
+"pressing the Page Up/Down keys."
+msgstr "定义在按下上一页/下一页按键时，当前可见区域还有多少保持可见。"
+
+#. i18n: ectx: property (text), widget (QLabel, scrollOverlapLabel)
+#: conf/dlggeneralbase.ui:294
+msgid "&Page Up/Down overlap:"
+msgstr "上一页/下一页的重叠区域(&P)："
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_ScrollOverlap)
+#: conf/dlggeneralbase.ui:307
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
+#. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_ZoomMode)
+#: conf/dlggeneralbase.ui:321 conf/dlggeneralbase.ui:342
+msgid ""
+"Defines the default zoom mode for files which were never opened before.\n"
+"For files which were opened before the previous zoom is applied."
+msgstr ""
+"定义从未打开过的文件的默认缩放模式。\n"
+"对曾经打开过的文件将应用之前的缩放模式。"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_ZoomMode)
+#: conf/dlggeneralbase.ui:325 conf/dlggeneralbase.ui:346
+msgctxt "@info:whatsthis"
+msgid ""
+"Defines the default zoom mode for files which were never opened before.\n"
+"For files which were opened before the previous zoom is applied."
+msgstr ""
+"定义从未打开过的文件的默认缩放模式。\n"
+"对曾经打开过的文件将应用之前的缩放模式。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: conf/dlggeneralbase.ui:328
+msgid "&Default Zoom:"
+msgstr "默认缩放(&D)："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
+#: conf/dlggeneralbase.ui:350
+#, no-c-format
+msgid "100%"
+msgstr "100%"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
+#: conf/dlggeneralbase.ui:355 part.cpp:2320 ui/pageview.cpp:3708
+msgid "Fit Width"
+msgstr "适合宽度"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
+#: conf/dlggeneralbase.ui:360 ui/pageview.cpp:3708
+msgid "Fit Page"
+msgstr "适合整页"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ZoomMode)
+#: conf/dlggeneralbase.ui:365 ui/pageview.cpp:3708
+msgid "Auto Fit"
+msgstr ""
+
+#: conf/dlgperformance.cpp:43
+msgid ""
+"Keeps used memory as low as possible. Do not reuse anything. (For systems "
+"with low memory.)"
+msgstr "尽可能少占用内存，不重用任何资源(适合内存较少的系统)。"
+
+#: conf/dlgperformance.cpp:46
+msgid ""
+"A good compromise between memory usage and speed gain. Preload next page and "
+"boost searches. (For systems with 256MB of memory, typically.)"
+msgstr ""
+"达到内存占用和速度之间的平衡。预先装入下一页并加速搜索(比较适合 256 MB 内存的"
+"系统)。"
+
+#: conf/dlgperformance.cpp:49
+msgid ""
+"Keeps everything in memory. Preload next pages. Boost searches. (For systems "
+"with more than 512MB of memory.)"
+msgstr ""
+"所有内容均放入内存。预先装入后续页面并加速搜索(适合 512 MB 或更多内存的系"
+"统)。"
+
+#: conf/dlgperformance.cpp:53
+#, no-c-format
+msgid ""
+"Loads and keeps everything in memory. Preload all pages. (Will use at "
+"maximum 50% of your total memory or your free memory, whatever is bigger.)"
+msgstr ""
+"所有内容均放入内存。预先装入所有页面(将最多使用全部或空闲内存的 50%，取其大"
+"者)。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: conf/dlgperformancebase.ui:23
+msgid "CPU Usage"
+msgstr "CPU 使用"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableCompositing)
+#: conf/dlgperformancebase.ui:51
+msgid "Enable &transparency effects"
+msgstr "启用透明效果(&T)"
+
+#. i18n: ectx: property (title), widget (KButtonGroup, kcfg_MemoryLevel)
+#: conf/dlgperformancebase.ui:101
+msgid "Memory Usage"
+msgstr "内存使用"
+
+#. i18n: ectx: property (text), widget (QRadioButton, lowRadio)
+#: conf/dlgperformancebase.ui:129
+msgid "&Low"
+msgstr "低(&L)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, normalRadio)
+#: conf/dlgperformancebase.ui:136
+msgid "&Normal (default)"
+msgstr "普通(默认)(&N)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, aggressiveRadio)
+#: conf/dlgperformancebase.ui:143
+msgid "&Aggressive"
+msgstr "激进(&A)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, greedyRadio)
+#: conf/dlgperformancebase.ui:150
+msgid "&Greedy"
+msgstr "贪心(&G)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: conf/dlgperformancebase.ui:216
+msgid "Rendering"
+msgstr "渲染下划线"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TextAntialias)
+#: conf/dlgperformancebase.ui:222
+msgid "Enable Text Antialias"
+msgstr "启用文本抗锯齿"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_GraphicsAntialias)
+#: conf/dlgperformancebase.ui:229
+msgid "Enable Graphics Antialias"
+msgstr "启用图像抗锯齿"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TextHinting)
+#: conf/dlgperformancebase.ui:236
+msgid "Enable Text Hinting"
+msgstr "启用文字微调"
+
+#: conf/dlgpresentation.cpp:28
+msgctxt "@label:listbox The current screen, for the presentation mode"
+msgid "Current Screen"
+msgstr "当前屏幕"
+
+#: conf/dlgpresentation.cpp:29
+msgctxt "@label:listbox The default screen for the presentation mode"
+msgid "Default Screen"
+msgstr "默认屏幕"
+
+#: conf/dlgpresentation.cpp:33
+#, kde-format
+msgctxt "@label:listbox %1 is the screen number (0, 1, ...)"
+msgid "Screen %1"
+msgstr "屏幕 %1"
+
+#: conf/dlgpresentation.cpp:48
+msgctxt "Advance every %1 seconds"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " 秒"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: conf/dlgpresentationbase.ui:19
+msgid "Navigation"
+msgstr "导航"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesAdvance)
+#: conf/dlgpresentationbase.ui:39
+msgid "Advance every:"
+msgstr "页面前进间隔："
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_SlidesAdvanceTime)
+#: conf/dlgpresentationbase.ui:49
+msgid " sec."
+msgstr " 秒"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesLoop)
+#: conf/dlgpresentationbase.ui:61
+msgid "Loop after last page"
+msgstr "最后一页后循环"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: conf/dlgpresentationbase.ui:79
+msgid "Background color:"
+msgstr "背景颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/dlgpresentationbase.ui:92
+msgid "Pencil color:"
+msgstr "铅笔颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: conf/dlgpresentationbase.ui:105
+msgid "Mouse cursor:"
+msgstr "鼠标指针："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
+#: conf/dlgpresentationbase.ui:116
+msgid "Hidden After Delay"
+msgstr "等几秒后隐藏"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
+#: conf/dlgpresentationbase.ui:121
+msgid "Always Visible"
+msgstr "总是可见"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesCursor)
+#: conf/dlgpresentationbase.ui:126
+msgid "Always Hidden"
+msgstr "总是隐藏"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesShowProgress)
+#: conf/dlgpresentationbase.ui:136
+msgid "Show &progress indicator"
+msgstr "显示进度指示条(&P)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlidesShowSummary)
+#: conf/dlgpresentationbase.ui:143
+msgid "Show s&ummary page"
+msgstr "显示摘要页面(&U)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_SlidesTransitionsEnabled)
+#: conf/dlgpresentationbase.ui:153
+msgid "Enable transitions"
+msgstr "允许渐变"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: conf/dlgpresentationbase.ui:165
+msgid "Default transition:"
+msgstr "默认切换样式："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:176
+msgid "Blinds Vertical"
+msgstr "垂直百叶窗"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:181
+msgid "Blinds Horizontal"
+msgstr "水平百叶窗"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:186
+msgid "Box In"
+msgstr "盒状收缩"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:191
+msgid "Box Out"
+msgstr "盒装展开"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:196
+msgid "Dissolve"
+msgstr "溶解"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:201
+msgid "Glitter Down"
+msgstr "向下闪烁展开"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:206
+msgid "Glitter Right"
+msgstr "向右闪烁展开"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:211
+msgid "Glitter Right-Down"
+msgstr "向右下闪烁展开"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:216
+msgid "Random Transition"
+msgstr "随机切换"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:221
+msgid "Replace"
+msgstr "替换"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:226
+msgid "Split Horizontal In"
+msgstr "水平切入"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:231
+msgid "Split Horizontal Out"
+msgstr "水平切出"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:236
+msgid "Split Vertical In"
+msgstr "垂直切入"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:241
+msgid "Split Vertical Out"
+msgstr "垂直切出"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:246
+msgid "Wipe Down"
+msgstr "向下擦除"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:251
+msgid "Wipe Right"
+msgstr "向右擦除"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:256
+msgid "Wipe Left"
+msgstr "向左擦除"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_SlidesTransition)
+#: conf/dlgpresentationbase.ui:261
+msgid "Wipe Up"
+msgstr "向上擦除"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: conf/dlgpresentationbase.ui:272
+msgid "Placement"
+msgstr "位置"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/dlgpresentationbase.ui:278
+msgid "Screen:"
+msgstr "屏幕："
+
+#: conf/preferencesdialog.cpp:40
+msgid "General"
+msgstr "常规"
+
+#: conf/preferencesdialog.cpp:40
+msgid "General Options"
+msgstr "常规选项"
+
+#: conf/preferencesdialog.cpp:41
+msgid "Accessibility"
+msgstr "辅助功能"
+
+#: conf/preferencesdialog.cpp:41
+msgid "Accessibility Reading Aids"
+msgstr "辅助阅读功能"
+
+#: conf/preferencesdialog.cpp:42
+msgid "Performance"
+msgstr "性能"
+
+#: conf/preferencesdialog.cpp:42
+msgid "Performance Tuning"
+msgstr "性能调整"
+
+#: conf/preferencesdialog.cpp:45
+msgid "Configure Viewer"
+msgstr "配置查看器..."
+
+#: conf/preferencesdialog.cpp:52
+msgid "Presentation"
+msgstr "演示"
+
+#: conf/preferencesdialog.cpp:53
+msgid "Options for Presentation Mode"
+msgstr "演示模式的选项"
+
+#: conf/preferencesdialog.cpp:54
+msgid "Annotations"
+msgstr "批注"
+
+#: conf/preferencesdialog.cpp:55
+msgid "Annotation Options"
+msgstr "批注选项"
+
+#: conf/preferencesdialog.cpp:56
+msgid "Editor Options"
+msgstr "编辑器选项"
+
+#: conf/widgetannottools.cpp:48
+msgid "&Add..."
+msgstr "添加(&A)..."
+
+#: conf/widgetannottools.cpp:51
+msgid "&Edit..."
+msgstr "编辑(&E)..."
+
+#: conf/widgetannottools.cpp:55
+msgid "&Remove"
+msgstr "移除(&R)"
+
+#: conf/widgetannottools.cpp:59
+msgid "Move &Up"
+msgstr "上移(&U)"
+
+#: conf/widgetannottools.cpp:63
+msgid "Move &Down"
+msgstr "下移(&D)"
+
+#: conf/widgetannottools.cpp:269
+msgid "&Name:"
+msgstr "名称(&N)："
+
+#: conf/widgetannottools.cpp:276
+msgid "&Type:"
+msgstr "类型(&T)："
+
+#: conf/widgetannottools.cpp:291 ui/guiutils.cpp:72
+#: ui/pageviewannotator.cpp:210 ui/pageviewannotator.cpp:1088
+msgid "Pop-up Note"
+msgstr "弹出式笔记"
+
+#: conf/widgetannottools.cpp:292 ui/guiutils.cpp:74
+#: ui/pageviewannotator.cpp:195 ui/pageviewannotator.cpp:1086
+msgid "Inline Note"
+msgstr "内建笔记"
+
+#: conf/widgetannottools.cpp:293 ui/guiutils.cpp:106
+#: ui/pageviewannotator.cpp:1084
+msgid "Freehand Line"
+msgstr "手绘线"
+
+#: conf/widgetannottools.cpp:294 ui/guiutils.cpp:78
+#: ui/pageviewannotator.cpp:1098
+msgid "Straight Line"
+msgstr "直线"
+
+#: conf/widgetannottools.cpp:295 ui/guiutils.cpp:80
+#: ui/pageviewannotator.cpp:1090
+msgid "Polygon"
+msgstr "多边形"
+
+#: conf/widgetannottools.cpp:296
+msgid "Text markup"
+msgstr "文本标记"
+
+#: conf/widgetannottools.cpp:297
+msgid "Geometrical shape"
+msgstr "几何形状"
+
+#: conf/widgetannottools.cpp:298 ui/guiutils.cpp:103
+#: ui/pageviewannotator.cpp:1096
+msgid "Stamp"
+msgstr "印戳"
+
+#: conf/widgetannottools.cpp:304
+msgid "Create annotation tool"
+msgstr "创建批注工具"
+
+#: conf/widgetannottools.cpp:308
+msgid "Edit annotation tool"
+msgstr "编辑批注工具"
+
+#: core/action.cpp:106
+#, kde-format
+msgid "Go to page %1"
+msgstr "前往第 %1 页"
+
+#: core/action.cpp:107
+msgid "Open external file"
+msgstr "打开外部文件"
+
+#: core/action.cpp:165
+#, kde-format
+msgid "Execute '%1'..."
+msgstr "执行“%1”..."
+
+#: core/action.cpp:264
+msgid "First Page"
+msgstr "第一页"
+
+#: core/action.cpp:266 ui/presentationwidget.cpp:161
+msgid "Previous Page"
+msgstr "上一页"
+
+#: core/action.cpp:268 ui/presentationwidget.cpp:177
+msgid "Next Page"
+msgstr "下一页"
+
+#: core/action.cpp:270
+msgid "Last Page"
+msgstr "最后一页"
+
+#: core/action.cpp:272
+msgid "Back"
+msgstr "后退"
+
+#: core/action.cpp:274
+msgid "Forward"
+msgstr "前进"
+
+#: core/action.cpp:276
+msgid "Quit"
+msgstr "退出"
+
+#: core/action.cpp:278
+msgid "Start Presentation"
+msgstr "开始演示"
+
+#: core/action.cpp:280
+msgid "End Presentation"
+msgstr "结束演示"
+
+#: core/action.cpp:282
+msgid "Find..."
+msgstr "查找..."
+
+#: core/action.cpp:284
+msgid "Go To Page..."
+msgstr "前往页面..."
+
+#: core/action.cpp:331
+msgid "Play sound..."
+msgstr "播放声音..."
+
+#: core/action.cpp:398 core/action.cpp:511
+msgid "JavaScript Script"
+msgstr "JavaScript 脚本"
+
+#: core/action.cpp:446
+msgid "Play movie..."
+msgstr "播放电影..."
+
+#: core/action.cpp:516
+msgid "Play movie"
+msgstr "播放电影"
+
+#: core/action.cpp:518
+msgid "Stop movie"
+msgstr "停止电影"
+
+#: core/action.cpp:520
+msgid "Pause movie"
+msgstr "暂停电影"
+
+#: core/action.cpp:522
+msgid "Resume movie"
+msgstr "恢复电影"
+
+#: core/chooseenginedialog.cpp:22
+msgid "Backend Selection"
+msgstr "后端选择"
+
+#: core/chooseenginedialog.cpp:33
+#, kde-format
+msgid ""
+"<qt>More than one backend found for the MIME type:<br /><b>%1</b> (%2).<br /"
+"><br />Please select which one to use:</qt>"
+msgstr ""
+"<qt>目前存在多种支持 MIME 类型的后端：<br /><b>%1</b> (%2)。<br /><br />请选"
+"择要使用哪种后端：</qt>"
+
+#: core/document.cpp:194
+msgctxt "paper size"
+msgid "landscape DIN/ISO A0"
+msgstr "横向 DIN/ISO A0"
+
+#: core/document.cpp:194
+msgctxt "paper size"
+msgid "portrait DIN/ISO A0"
+msgstr "纵向 DIN/ISO A0"
+
+#: core/document.cpp:196
+msgctxt "paper size"
+msgid "landscape DIN/ISO A1"
+msgstr "横向 DIN/ISO A1"
+
+#: core/document.cpp:196
+msgctxt "paper size"
+msgid "portrait DIN/ISO A1"
+msgstr "纵向 DIN/ISO A1"
+
+#: core/document.cpp:198
+msgctxt "paper size"
+msgid "landscape DIN/ISO A2"
+msgstr "横向 DIN/ISO A2"
+
+#: core/document.cpp:198
+msgctxt "paper size"
+msgid "portrait DIN/ISO A2"
+msgstr "纵向 DIN/ISO A2"
+
+#: core/document.cpp:200
+msgctxt "paper size"
+msgid "landscape DIN/ISO A3"
+msgstr "横向 DIN/ISO A3"
+
+#: core/document.cpp:200
+msgctxt "paper size"
+msgid "portrait DIN/ISO A3"
+msgstr "纵向 DIN/ISO A3"
+
+#: core/document.cpp:202
+msgctxt "paper size"
+msgid "landscape DIN/ISO A4"
+msgstr "横向 DIN/ISO A4"
+
+#: core/document.cpp:202
+msgctxt "paper size"
+msgid "portrait DIN/ISO A4"
+msgstr "纵向 DIN/ISO A4"
+
+#: core/document.cpp:204
+msgctxt "paper size"
+msgid "landscape DIN/ISO A5"
+msgstr "横向 DIN/ISO A5"
+
+#: core/document.cpp:204
+msgctxt "paper size"
+msgid "portrait DIN/ISO A5"
+msgstr "纵向 DIN/ISO A5"
+
+#: core/document.cpp:206
+msgctxt "paper size"
+msgid "landscape DIN/ISO A6"
+msgstr "横向 DIN/ISO A6"
+
+#: core/document.cpp:206
+msgctxt "paper size"
+msgid "portrait DIN/ISO A6"
+msgstr "纵向 DIN/ISO A6"
+
+#: core/document.cpp:208
+msgctxt "paper size"
+msgid "landscape DIN/ISO A7"
+msgstr "横向 DIN/ISO A7"
+
+#: core/document.cpp:208
+msgctxt "paper size"
+msgid "portrait DIN/ISO A7"
+msgstr "纵向 DIN/ISO A7"
+
+#: core/document.cpp:210
+msgctxt "paper size"
+msgid "landscape DIN/ISO A8"
+msgstr "横向 DIN/ISO A8"
+
+#: core/document.cpp:210
+msgctxt "paper size"
+msgid "portrait DIN/ISO A8"
+msgstr "纵向 DIN/ISO A8"
+
+#: core/document.cpp:212
+msgctxt "paper size"
+msgid "landscape DIN/ISO A9"
+msgstr "横向 DIN/ISO A9"
+
+#: core/document.cpp:212
+msgctxt "paper size"
+msgid "portrait DIN/ISO A9"
+msgstr "纵向 DIN/ISO A9"
+
+#: core/document.cpp:214
+msgctxt "paper size"
+msgid "landscape DIN/ISO B0"
+msgstr "横向 DIN/ISO B0"
+
+#: core/document.cpp:214
+msgctxt "paper size"
+msgid "portrait DIN/ISO B0"
+msgstr "纵向 DIN/ISO B0"
+
+#: core/document.cpp:216
+msgctxt "paper size"
+msgid "landscape DIN/ISO B1"
+msgstr "横向 DIN/ISO B1"
+
+#: core/document.cpp:216
+msgctxt "paper size"
+msgid "portrait DIN/ISO B1"
+msgstr "纵向 DIN/ISO B1"
+
+#: core/document.cpp:218
+msgctxt "paper size"
+msgid "landscape DIN/ISO B2"
+msgstr "横向 DIN/ISO B2"
+
+#: core/document.cpp:218
+msgctxt "paper size"
+msgid "portrait DIN/ISO B2"
+msgstr "纵向 DIN/ISO B2"
+
+#: core/document.cpp:220
+msgctxt "paper size"
+msgid "landscape DIN/ISO B3"
+msgstr "横向 DIN/ISO B3"
+
+#: core/document.cpp:220
+msgctxt "paper size"
+msgid "portrait DIN/ISO B3"
+msgstr "纵向 DIN/ISO B3"
+
+#: core/document.cpp:222
+msgctxt "paper size"
+msgid "landscape DIN/ISO B4"
+msgstr "横向 DIN/ISO B4"
+
+#: core/document.cpp:222
+msgctxt "paper size"
+msgid "portrait DIN/ISO B4"
+msgstr "纵向 DIN/ISO B4"
+
+#: core/document.cpp:224
+msgctxt "paper size"
+msgid "landscape DIN/ISO B5"
+msgstr "横向 DIN/ISO B5"
+
+#: core/document.cpp:224
+msgctxt "paper size"
+msgid "portrait DIN/ISO B5"
+msgstr "纵向 DIN/ISO B5"
+
+#: core/document.cpp:226
+msgctxt "paper size"
+msgid "landscape DIN/ISO B6"
+msgstr "横向 DIN/ISO B6"
+
+#: core/document.cpp:226
+msgctxt "paper size"
+msgid "portrait DIN/ISO B6"
+msgstr "纵向 DIN/ISO B6"
+
+#: core/document.cpp:228
+msgctxt "paper size"
+msgid "landscape DIN/ISO B7"
+msgstr "横向 DIN/ISO B7"
+
+#: core/document.cpp:228
+msgctxt "paper size"
+msgid "portrait DIN/ISO B7"
+msgstr "纵向 DIN/ISO B7"
+
+#: core/document.cpp:230
+msgctxt "paper size"
+msgid "landscape DIN/ISO B8"
+msgstr "横向 DIN/ISO B8"
+
+#: core/document.cpp:230
+msgctxt "paper size"
+msgid "portrait DIN/ISO B8"
+msgstr "纵向 DIN/ISO B8"
+
+#: core/document.cpp:232
+msgctxt "paper size"
+msgid "landscape DIN/ISO B9"
+msgstr "横向 DIN/ISO B9"
+
+#: core/document.cpp:232
+msgctxt "paper size"
+msgid "portrait DIN/ISO B9"
+msgstr "纵向 DIN/ISO B9"
+
+#: core/document.cpp:234
+msgctxt "paper size"
+msgid "landscape DIN/ISO B10"
+msgstr "横向 DIN/ISO B10"
+
+#: core/document.cpp:234
+msgctxt "paper size"
+msgid "portrait DIN/ISO B10"
+msgstr "纵向 DIN/ISO B10"
+
+#: core/document.cpp:236
+msgctxt "paper size"
+msgid "landscape letter"
+msgstr "横向信件"
+
+#: core/document.cpp:236
+msgctxt "paper size"
+msgid "portrait letter"
+msgstr "纵向信件"
+
+#: core/document.cpp:238
+msgctxt "paper size"
+msgid "landscape legal"
+msgstr "横向 legal"
+
+#: core/document.cpp:238
+msgctxt "paper size"
+msgid "portrait legal"
+msgstr "纵向 legal"
+
+#: core/document.cpp:240
+msgctxt "paper size"
+msgid "landscape executive"
+msgstr "横向 executive"
+
+#: core/document.cpp:240
+msgctxt "paper size"
+msgid "portrait executive"
+msgstr "纵向 executive"
+
+#: core/document.cpp:242
+msgctxt "paper size"
+msgid "landscape C5E"
+msgstr "横向 C5E"
+
+#: core/document.cpp:242
+msgctxt "paper size"
+msgid "portrait C5E"
+msgstr "纵向 C5E"
+
+#: core/document.cpp:244
+msgctxt "paper size"
+msgid "landscape Comm10E"
+msgstr "横向通用十号信封"
+
+#: core/document.cpp:244
+msgctxt "paper size"
+msgid "portrait Comm10E"
+msgstr "纵向通用十号信封"
+
+#: core/document.cpp:246
+msgctxt "paper size"
+msgid "landscape DLE"
+msgstr "横向 DLE"
+
+#: core/document.cpp:246
+msgctxt "paper size"
+msgid "portrait DLE"
+msgstr "纵向 DLE"
+
+#: core/document.cpp:248
+msgctxt "paper size"
+msgid "landscape folio"
+msgstr "横向对开本"
+
+#: core/document.cpp:248
+msgctxt "paper size"
+msgid "portrait folio"
+msgstr "纵向对开本"
+
+#: core/document.cpp:252
+msgctxt "paper size"
+msgid "ledger"
+msgstr "账册"
+
+#: core/document.cpp:252
+msgctxt "paper size"
+msgid "tabloid"
+msgstr "简报"
+
+#: core/document.cpp:254
+msgctxt "paper size"
+msgid "unknown landscape paper size"
+msgstr "未知横向纸张大小"
+
+#: core/document.cpp:254
+msgctxt "paper size"
+msgid "unknown portrait paper size"
+msgstr "未知纵向纸张大小"
+
+#: core/document.cpp:284
+#, kde-format
+msgctxt "%1 is width, %2 is height, %3 is paper size name"
+msgid "%1 x %2 in (%3)"
+msgstr "%1 x %2 英寸 (%3)"
+
+#: core/document.cpp:288
+#, kde-format
+msgctxt "%1 is width, %2 is height, %3 is paper size name"
+msgid "%1 x %2 mm (%3)"
+msgstr "%1 x %2 毫米 (%3)"
+
+#: core/document.cpp:1047
+msgid ""
+"Your annotation changes will not be saved automatically. Use File -> Save "
+"As...\n"
+"or your changes will be lost once the document is closed"
+msgstr ""
+"您的批注更改未自动保存。使用 文件 ->另存为...\n"
+"否则您的更改将在文档关闭后丢失"
+
+#: core/document.cpp:1052
+msgid ""
+"Your annotations are saved internally by Okular.\n"
+"You can export the annotated document using File -> Export As -> Document "
+"Archive"
+msgstr ""
+"您的批注由 Okular 于内部保存。\n"
+"您可使用 文件 -> 导出为 -> 文档归档 来导出批注的文档"
+
+#: core/document.cpp:1663
+msgid ""
+"End of document reached.\n"
+"Continue from the beginning?"
+msgstr ""
+"到达文档结尾。\n"
+"从开始处继续吗？"
+
+#: core/document.cpp:1663
+msgid ""
+"Beginning of document reached.\n"
+"Continue from the bottom?"
+msgstr ""
+"到达文档开头。\n"
+"从结尾处继续吗？"
+
+#: core/document.cpp:1748
+#, kde-format
+msgid "No matches found for '%1'."
+msgstr "“%1”没有匹配项。"
+
+#: core/document.cpp:2194
+msgid ""
+"Can not find a plugin which is able to handle the document being passed."
+msgstr "找不到可处理所给文档的插件。"
+
+#: core/document.cpp:3084
+msgctxt "remove a collection of annotations from the page"
+msgid "remove annotations"
+msgstr "移除批注"
+
+#: core/document.cpp:3304
+msgid "Search in progress..."
+msgstr "正在搜索..."
+
+#: core/document.cpp:3306
+#, kde-format
+msgid "Searching for %1"
+msgstr "正在搜索 %1"
+
+#: core/document.cpp:3676 core/document.cpp:3684
+msgid ""
+"The document is trying to execute an external application and, for your "
+"safety, Okular does not allow that."
+msgstr "此文档正试图执行外部应用程序。为安全起见 Okular 不允许这样做。"
+
+#: core/document.cpp:3697
+#, kde-format
+msgid "No application found for opening file of mimetype %1."
+msgstr "找不到可打开 MIME 类型为 %1 的应用程序。"
+
+#: core/document.cpp:3926
+msgid "Could not open a temporary file"
+msgstr "无法打开临时文件"
+
+#: core/document.cpp:3928
+msgid "Print conversion failed"
+msgstr "打印转换失败"
+
+#: core/document.cpp:3930
+msgid "Printing process crashed"
+msgstr "打印进程崩溃"
+
+#: core/document.cpp:3932
+msgid "Printing process could not start"
+msgstr "无法启动打印进程"
+
+#: core/document.cpp:3934
+msgid "Printing to file failed"
+msgstr "打印到文件失败"
+
+#: core/document.cpp:3936
+msgid "Printer was in invalid state"
+msgstr "打印机状态无效"
+
+#: core/document.cpp:3938
+msgid "Unable to find file to print"
+msgstr "找不到要打印的文件"
+
+#: core/document.cpp:3940
+msgid "There was no file to print"
+msgstr "没有可打印的文件"
+
+#: core/document.cpp:3942
+msgid ""
+"Could not find a suitable binary for printing. Make sure CUPS lpr binary is "
+"available"
+msgstr "找不到合适的二进制文件进行打印。请确保 CUPS lpr 二进制程序是可用的。"
+
+#: core/document.cpp:3944
+msgid "The page print size is invalid"
+msgstr ""
+
+#: core/document.cpp:4783
+msgid "Title"
+msgstr "标题"
+
+#: core/document.cpp:4786
+msgid "Subject"
+msgstr "主题"
+
+#: core/document.cpp:4789
+msgid "Description"
+msgstr "描述"
+
+#: core/document.cpp:4792
+msgid "Author"
+msgstr "作者"
+
+#: core/document.cpp:4795
+msgid "Creator"
+msgstr "创建者"
+
+#: core/document.cpp:4798
+msgid "Producer"
+msgstr "制作者"
+
+#: core/document.cpp:4801
+msgid "Copyright"
+msgstr "版权"
+
+#: core/document.cpp:4804
+msgid "Pages"
+msgstr "页数"
+
+#: core/document.cpp:4807
+msgid "Created"
+msgstr "创建时间"
+
+#: core/document.cpp:4810
+msgid "Modified"
+msgstr "修改时间"
+
+#: core/document.cpp:4813
+msgid "Mime Type"
+msgstr "MIME 类型"
+
+#: core/document.cpp:4816
+msgid "Category"
+msgstr "类别"
+
+#: core/document.cpp:4819
+msgid "Keywords"
+msgstr "关键字"
+
+#: core/document.cpp:4822
+msgid "File Path"
+msgstr "文件路径"
+
+#: core/document.cpp:4825
+msgid "File Size"
+msgstr "文件大小"
+
+#: core/document.cpp:4828
+msgid "Page Size"
+msgstr "页面大小"
+
+#: core/documentcommands.cpp:65
+msgctxt "Add an annotation to the page"
+msgid "add annotation"
+msgstr "添加批注"
+
+#: core/documentcommands.cpp:97
+msgctxt "Remove an annotation from the page"
+msgid "remove annotation"
+msgstr "移除批注"
+
+#: core/documentcommands.cpp:133
+msgctxt "Modify an annotation's internal properties (Color, line-width, etc.)"
+msgid "modify annotation properties"
+msgstr "修改批注属性"
+
+#: core/documentcommands.cpp:161
+msgctxt "Translate an annotation's position on the page"
+msgid "translate annotation"
+msgstr "平移注释"
+
+#: core/documentcommands.cpp:226
+msgctxt "Generic text edit command"
+msgid "edit text"
+msgstr "编辑文本"
+
+#: core/documentcommands.cpp:314
+msgctxt "Edit an annotation's text contents"
+msgid "edit annotation contents"
+msgstr "编辑批注内容"
+
+#: core/documentcommands.cpp:363
+msgctxt "Edit an form's text contents"
+msgid "edit form contents"
+msgstr "编辑表单内容"
+
+#: core/documentcommands.cpp:410
+msgctxt "Edit a list form's choices"
+msgid "edit list form choices"
+msgstr "编辑表单列表选项"
+
+#: core/documentcommands.cpp:442
+msgctxt "Edit a combo form's selection"
+msgid "edit combo form selection"
+msgstr "编辑表单组合框选择"
+
+#: core/documentcommands.cpp:521
+msgctxt "Edit the state of a group of form buttons"
+msgid "edit form button states"
+msgstr "编辑标点按钮状态"
+
+#: core/generator.cpp:606
+msgid "Plain &Text..."
+msgstr "纯文本(&T)..."
+
+#: core/generator.cpp:609
+msgid "PDF"
+msgstr "PDF"
+
+#: core/generator.cpp:614
+msgctxt "This is the document format"
+msgid "OpenDocument Text"
+msgstr "OpenDocument Text"
+
+#: core/generator.cpp:618
+msgctxt "This is the document format"
+msgid "HTML"
+msgstr "HTML"
+
+#: core/sourcereference.cpp:92
+#, kde-format
+msgctxt "'source' is a source file"
+msgid "Source: %1"
+msgstr "源文件：%1"
+
+#: core/textdocumentsettings.cpp:41
+msgid "&Default Font:"
+msgstr "默认字体(&D)："
+
+#. i18n: ectx: Menu (file)
+#: part-viewermode.rc:5 part.rc:4
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (settings)
+#: part-viewermode.rc:9 part.rc:84
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: Menu (help)
+#: part-viewermode.rc:14 part.rc:90
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: Menu (view_orientation)
+#: part-viewermode.rc:31 part.rc:40
+msgid "&Orientation"
+msgstr "方向(&O)"
+
+#. i18n: ectx: Menu (bookmarks)
+#. i18n: ectx: Menu (okular_bookmarks)
+#: part-viewermode.rc:50 part.rc:62
+msgid "&Bookmarks"
+msgstr "书签(&B)"
+
+#. i18n: ectx: ToolBar (OkularViewerToolBar)
+#: part-viewermode.rc:63
+msgid "Viewer Toolbar"
+msgstr "查看器工具栏"
+
+#: part.cpp:156 shell/main.cpp:49 ui/annotationwidgets.cpp:333
+#: ui/sidebar.cpp:704
+msgid "Okular"
+msgstr "Okular"
+
+#: part.cpp:376
+msgid "Contents"
+msgstr "目录"
+
+#: part.cpp:387
+msgid "Thumbnails"
+msgstr "缩略图"
+
+#: part.cpp:392
+msgid "Reviews"
+msgstr "批注"
+
+#: part.cpp:397
+msgid "Bookmarks"
+msgstr "书签"
+
+#: part.cpp:428
+msgid ""
+"This document has embedded files. <a href=\"okular:/embeddedfiles\">Click "
+"here to see them</a> or go to File -> Embedded Files."
+msgstr ""
+"此文档含有嵌入文件。<a href=\"okular:/embeddedfiles\">请点击此处查看</a>，也"
+"可通过文件 -> 嵌入文件查看。"
+
+#: part.cpp:567
+msgctxt "Previous page"
+msgid "Previous"
+msgstr "上一页"
+
+#: part.cpp:568
+msgid "Go back to the Previous Page"
+msgstr "返回到上一页"
+
+#: part.cpp:569
+msgid "Moves to the previous page of the document"
+msgstr "移动到文档的前一页"
+
+#: part.cpp:579
+msgctxt "Next page"
+msgid "Next"
+msgstr "下一页"
+
+#: part.cpp:580
+msgid "Advance to the Next Page"
+msgstr "前进到下一页"
+
+#: part.cpp:581
+msgid "Moves to the next page of the document"
+msgstr "移动到文档的下一页"
+
+#: part.cpp:592
+msgid "Beginning of the document"
+msgstr "文档开头"
+
+#: part.cpp:593
+msgid "Moves to the beginning of the document"
+msgstr "移动到文档的开头"
+
+#: part.cpp:597
+msgid "End of the document"
+msgstr "文档末尾"
+
+#: part.cpp:598
+msgid "Moves to the end of the document"
+msgstr "移动到文档的末尾"
+
+#: part.cpp:609 part.cpp:1932 ui/bookmarklist.cpp:249 ui/bookmarklist.cpp:276
+msgid "Rename Bookmark"
+msgstr "重命名书签"
+
+#: part.cpp:611
+msgid "Rename the current bookmark"
+msgstr "重命名当前书签"
+
+#: part.cpp:615
+msgid "Previous Bookmark"
+msgstr "上一个书签"
+
+#: part.cpp:617
+msgid "Go to the previous bookmark"
+msgstr "转到上一个书签"
+
+#: part.cpp:621
+msgid "Next Bookmark"
+msgstr "下一个书签"
+
+#: part.cpp:623
+msgid "Go to the next bookmark"
+msgstr "转到下一个书签"
+
+#: part.cpp:649
+msgid "Configure Okular..."
+msgstr "配置 Okular..."
+
+#: part.cpp:654
+msgid "Configure Viewer..."
+msgstr "配置查看器..."
+
+#: part.cpp:661
+msgid "Configure Viewer Backends..."
+msgstr "配置查看器后端..."
+
+#: part.cpp:665
+msgid "Configure Backends..."
+msgstr "配置后端..."
+
+#: part.cpp:678 ui/annotationpopup.cpp:77 ui/annotationpopup.cpp:109
+#: ui/propertiesdialog.cpp:50
+msgid "&Properties"
+msgstr "属性(&P)"
+
+#: part.cpp:692
+msgid "About Backend"
+msgstr "关于后端"
+
+#: part.cpp:697
+msgid "Reloa&d"
+msgstr "重新装入(&D)"
+
+#: part.cpp:699
+msgid "Reload the current document from disk."
+msgstr "正在从磁盘上重新装入当前文档..."
+
+#: part.cpp:705
+msgid "Close &Find Bar"
+msgstr "关闭查找栏(&F)"
+
+#: part.cpp:709
+msgid "Page Number"
+msgstr "页数"
+
+#: part.cpp:742
+msgid "Save &Copy As..."
+msgstr "副本另存为(&C)..."
+
+#: part.cpp:751
+msgid "Show &Navigation Panel"
+msgstr "显示导航面板(&N)"
+
+#: part.cpp:759
+msgid "Show &Page Bar"
+msgstr "显示页面栏(&P)"
+
+#: part.cpp:765
+msgid "&Embedded Files"
+msgstr "嵌入文件(&E)"
+
+#: part.cpp:771
+msgid "E&xport As"
+msgstr "导出为(&X)"
+
+#: part.cpp:781
+msgctxt "A document format, Okular-specific"
+msgid "Document Archive"
+msgstr "文档归档"
+
+#: part.cpp:787
+msgid "P&resentation"
+msgstr "演示模式(&R)"
+
+#: part.cpp:794
+msgid "&Import PostScript as PDF..."
+msgstr "导入 Postscript 为 PDF(&I)..."
+
+#: part.cpp:799
+msgid "&Get Books From Internet..."
+msgstr "从互联网上获取书籍(&G)..."
+
+#: part.cpp:806
+msgid "Switch Blackscreen Mode"
+msgstr "切换黑屏幕模式"
+
+#: part.cpp:812
+msgid "Toggle Drawing Mode"
+msgstr "切换绘制模式"
+
+#: part.cpp:817
+msgid "Erase Drawings"
+msgstr "擦除绘制"
+
+#: part.cpp:822
+msgid "Configure Annotations..."
+msgstr "配置批注..."
+
+#: part.cpp:827
+#, fuzzy
+#| msgid "Presentation"
+msgid "Play/Pause Presentation"
+msgstr "演示"
+
+#: part.cpp:972
+#, kde-format
+msgid "Could not open '%1'. File does not exist"
+msgstr "无法打开“%1”。文件不存在"
+
+#: part.cpp:1007
+#, kde-format
+msgid "The loading of %1 has been canceled."
+msgstr "已取消 %1 的装入。"
+
+#: part.cpp:1023
+#, kde-format
+msgid "Could not open %1. Reason: %2"
+msgstr "无法打开 %1。原因：%2"
+
+#: part.cpp:1054
+msgid "Configure Viewer Backends"
+msgstr "配置查看器后端"
+
+#: part.cpp:1058
+msgid "Configure Backends"
+msgstr "配置后端"
+
+#: part.cpp:1156
+msgid ""
+"The program \"ps2pdf\" was not found, so Okular can not import PS files "
+"using it."
+msgstr "找不到“ps2pdf”程序，因此 Okular 无法利用它导入 PS 文件。"
+
+#: part.cpp:1156
+msgid "ps2pdf not found"
+msgstr "找不到 ps2pdf 程序"
+
+#: part.cpp:1175
+msgid "Importing PS file as PDF (this may take a while)..."
+msgstr "正在将 PS 文件导入为 PDF(可能需要一些时间)..."
+
+#: part.cpp:1255
+msgid "This document has XFA forms, which are currently <b>unsupported</b>."
+msgstr "此文档有 XFA 表单，目前还<b>未支持</b>."
+
+#: part.cpp:1261
+msgid ""
+"This document has forms. Click on the button to interact with them, or use "
+"View -> Show Forms."
+msgstr "此文档含有表单。点击此按钮，或选择查看 -> 显示表单可进行交互操作。"
+
+#: part.cpp:1328
+msgid ""
+"The document requested to be launched in presentation mode.\n"
+"Do you want to allow it?"
+msgstr ""
+"文档自身要求以演示模式打开。\n"
+"您是否允许？"
+
+#: part.cpp:1330
+msgid "Presentation Mode"
+msgstr "演示模式"
+
+#: part.cpp:1331
+msgid "Allow"
+msgstr "允许"
+
+#: part.cpp:1331
+msgid "Allow the presentation mode"
+msgstr "允许进入演示模式"
+
+#: part.cpp:1332
+msgid "Do Not Allow"
+msgstr "不允许"
+
+#: part.cpp:1332
+msgid "Do not allow the presentation mode"
+msgstr "不允许进入演示模式"
+
+#: part.cpp:1392
+#, kde-format
+msgid "Could not open %1"
+msgstr "无法打开 %1"
+
+#: part.cpp:1404
+msgid "Do you want to save your annotation changes or discard them?"
+msgstr "您想要保存批注更改还是丢弃更改？"
+
+#: part.cpp:1405
+msgid "Close Document"
+msgstr "关闭文档"
+
+#: part.cpp:1511
+msgid ""
+"This link points to a close document action that does not work when using "
+"the embedded viewer."
+msgstr "此链接指向关闭文档操作，但此操作在使用嵌入式查看器时无效。"
+
+#: part.cpp:1517
+msgid ""
+"This link points to a quit application action that does not work when using "
+"the embedded viewer."
+msgstr "此链接指向退出应用程序操作，但此操作在使用嵌入式查看器时无效。"
+
+#: part.cpp:1613 part.cpp:1632
+msgid "Reloading the document..."
+msgstr "正在重新装入文档..."
+
+#: part.cpp:1761 part.cpp:2316 ui/bookmarklist.cpp:250
+msgid "Remove Bookmark"
+msgstr "删除书签"
+
+#: part.cpp:1820
+msgid "Go to Page"
+msgstr "转到页面"
+
+#: part.cpp:1835
+msgid "&Page:"
+msgstr "页号(&P)："
+
+#: part.cpp:1932
+msgid "Enter the new name of the bookmark:"
+msgstr "输入书签的新名称："
+
+#: part.cpp:1970
+msgid "Rename this Bookmark"
+msgstr "重命名此书签"
+
+#: part.cpp:2069
+#, fuzzy
+#| msgid ""
+#| "Your annotations are saved internally by Okular.\n"
+#| "You can export the annotated document using File -> Export As -> Document "
+#| "Archive"
+msgid ""
+"Your annotations will not be exported.\n"
+"You can export the annotated document using File -> Export As -> Document "
+"Archive"
+msgstr ""
+"您的批注由 Okular 于内部保存。\n"
+"您可使用 文件 -> 导出为 -> 文档归档 来导出批注的文档"
+
+#: part.cpp:2090
+msgid "Could not open the temporary file for saving."
+msgstr "无法打开临时文件来保存。"
+
+#: part.cpp:2108 part.cpp:2120 part.cpp:2168 part.cpp:2492
+#, kde-format
+msgid "File could not be saved in '%1'. Try to save it to another location."
+msgstr "无法将文件保存到“%1”。请试着将其保存到另外的位置。"
+
+#: part.cpp:2112
+#, kde-format
+msgid "File could not be saved in '%1'. %2"
+msgstr "无法将文件保存到“%1”。%2"
+
+#: part.cpp:2153
+#, kde-format
+msgid ""
+"Okular cannot copy %1 to the specified location.\n"
+"\n"
+"The document does not exist anymore."
+msgstr ""
+"Okular 无法将 %1 复制到指定位置。\n"
+"\n"
+"文档已不存在。"
+
+#: part.cpp:2313 ui/annotationmodel.cpp:305
+#, kde-format
+msgid "Page %1"
+msgstr "第 %1 页"
+
+#: part.cpp:2318
+msgid "Add Bookmark"
+msgstr "添加书签"
+
+#: part.cpp:2335
+msgid "Tools"
+msgstr "工具"
+
+#: part.cpp:2592
+msgid "Printing this document is not allowed."
+msgstr "不允许打印此文档。"
+
+#: part.cpp:2601
+msgid ""
+"Could not print the document. Unknown error. Please report to bugs.kde.org"
+msgstr "无法打印此文档。未知错误。请向 bugs.kde.org 报告"
+
+#: part.cpp:2605
+#, kde-format
+msgid ""
+"Could not print the document. Detailed error is \"%1\". Please report to "
+"bugs.kde.org"
+msgstr "无法打印此文档。详细错误是“%1”。请向 bugs.kde.org 报告"
+
+#: part.cpp:2660
+msgid "Go to the place you were before"
+msgstr "转到您刚才所在的位置"
+
+#: part.cpp:2664
+msgid "Go to the place you were after"
+msgstr "转到您后来所在的位置"
+
+#: part.cpp:2689
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not create temporary file "
+"<nobr><strong>%1</strong></nobr>.</qt>"
+msgstr ""
+"<qt><strong>文件错误！</strong> 无法创建临时文件 <nobr><strong>%1</strong></"
+"nobr>。</qt>"
+
+#: part.cpp:2707
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not open the file <nobr><strong>%1</"
+"strong></nobr> for uncompression. The file will not be loaded.</qt>"
+msgstr ""
+"<qt><strong>文件错误！</strong> 无法打开并解压文件 <nobr><strong>%1</"
+"strong></nobr>。将不会装入此文件。</qt>"
+
+#: part.cpp:2710
+msgid ""
+"<qt>This error typically occurs if you do not have enough permissions to "
+"read the file. You can check ownership and permissions if you right-click on "
+"the file in the Dolphin file manager and then choose the 'Properties' tab.</"
+"qt>"
+msgstr ""
+"<qt>此错误一般发生在您没有读文件权限的情况下。您可以在 Dolphin 文件管理器中对"
+"文件点击右键，并选择“属性”菜单检查其所有者和权限。</qt>"
+
+#: part.cpp:2734
+#, kde-format
+msgid ""
+"<qt><strong>File Error!</strong> Could not uncompress the file <nobr><strong>"
+"%1</strong></nobr>. The file will not be loaded.</qt>"
+msgstr ""
+"<qt><strong>文件错误！</strong>无法解压文件 <nobr><strong>%1</strong></nobr>"
+"将不会装入此文件。</qt>"
+
+#: part.cpp:2737
+msgid ""
+"<qt>This error typically occurs if the file is corrupt. If you want to be "
+"sure, try to decompress the file manually using command-line tools.</qt>"
+msgstr ""
+"<qt>此错误一般发生在文件已损坏的情况下。如果您想要确认这点，请尝试使用命令行"
+"工具手动解压此文件。</qt>"
+
+#: part.cpp:2766
+msgid "No Bookmarks"
+msgstr "无书签"
+
+#. i18n: ectx: Menu (edit)
+#: part.rc:16
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (view)
+#: part.rc:28
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: Menu (go)
+#: part.rc:50
+msgid "&Go"
+msgstr "转到(&G)"
+
+#. i18n: ectx: Menu (tools)
+#: part.rc:70
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: part.rc:94 shell/shell.rc:22
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: shell/main.cpp:55
+msgid "Page of the document to be shown"
+msgstr "要显示的文档页数"
+
+#: shell/main.cpp:56
+msgid "Start the document in presentation mode"
+msgstr "以演示模式打开文档"
+
+#: shell/main.cpp:57
+msgid "Start with print dialog"
+msgstr "启动时显示打印对话框"
+
+#: shell/main.cpp:58
+msgid "\"Unique instance\" control"
+msgstr "“唯一实例”控制"
+
+#: shell/main.cpp:59
+msgid "Not raise window"
+msgstr "不升起窗口"
+
+#: shell/main.cpp:60
+msgid "Document to open. Specify '-' to read from stdin."
+msgstr "要打开的文档。指定“-”以读取标准输入。"
+
+#: shell/main.cpp:87
+msgid "Error: Can't open more than one document with the --unique switch"
+msgstr "错位：无法在使用 --unique 选项时打开多个文档。"
+
+#: shell/shell.cpp:91 shell/shell.cpp:146
+msgid "Unable to find the Okular component."
+msgstr "无法找到 Okular 组件。"
+
+#: shell/shell.cpp:132
+msgid ""
+"There is already a unique Okular instance running. This instance won't be "
+"the unique one."
+msgstr "已经有一个唯一实例在运行，此实例无法成为唯一实例。"
+
+#: shell/shell.cpp:184
+msgid "Can't open more than one document in the unique Okular instance."
+msgstr "无法在唯一 Okular 实例中打开多个文档。"
+
+#: shell/shell.cpp:272
+msgid ""
+"Click to open a file\n"
+"Click and hold to open a recent file"
+msgstr ""
+"单击可打开文件\n"
+"单击并按住可打开最近的文件"
+
+#: shell/shell.cpp:273
+msgid ""
+"<b>Click</b> to open a file or <b>Click and hold</b> to select a recent file"
+msgstr "<b>单击</b>可打开文件，<b>单击并按住</b>可打开最近的文件"
+
+#: shell/shell.cpp:286
+#, fuzzy
+#| msgid "Next Page"
+msgid "Next Tab"
+msgstr "下一页"
+
+#: shell/shell.cpp:292
+#, fuzzy
+#| msgid "Previous Page"
+msgid "Previous Tab"
+msgstr "上一页"
+
+#: shell/shell.cpp:365 ui/formwidgets.cpp:617
+msgid "*|All Files"
+msgstr "*|全部文件"
+
+#: shell/shell.cpp:368
+msgid "Open Document"
+msgstr "打开文档"
+
+#: ui/annotationpopup.cpp:60
+#, kde-format
+msgid "Annotation"
+msgid_plural "%1 Annotations"
+msgstr[0] "%1 个批注"
+
+#: ui/annotationpopup.cpp:62 ui/annotationpopup.cpp:99
+msgid "&Open Pop-up Note"
+msgstr "打开弹出式笔记(&O)"
+
+#: ui/annotationpopup.cpp:67 ui/annotationpopup.cpp:103
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: ui/annotationpopup.cpp:86 ui/annotationpopup.cpp:117
+#, kde-format
+msgctxt "%1 is the name of the file to save"
+msgid "&Save '%1'..."
+msgstr "另存为“%1”(&S)..."
+
+#: ui/annotationpropertiesdialog.cpp:57
+msgid "&Appearance"
+msgstr "外观(&A)"
+
+#: ui/annotationpropertiesdialog.cpp:62
+msgid "&General"
+msgstr "常规(&G)"
+
+#: ui/annotationpropertiesdialog.cpp:73
+#, kde-format
+msgid "Created: %1"
+msgstr "创建时间：%1"
+
+#: ui/annotationpropertiesdialog.cpp:78 ui/annotationpropertiesdialog.cpp:178
+#, kde-format
+msgid "Modified: %1"
+msgstr "修改时间：%1"
+
+#: ui/annotationpropertiesdialog.cpp:118
+msgid "Pop-up Note Properties"
+msgstr "弹出笔记属性"
+
+#: ui/annotationpropertiesdialog.cpp:120
+msgid "Inline Note Properties"
+msgstr "內建笔记属性"
+
+#: ui/annotationpropertiesdialog.cpp:124
+msgid "Straight Line Properties"
+msgstr "直线属性"
+
+#: ui/annotationpropertiesdialog.cpp:126
+msgid "Polygon Properties"
+msgstr "多边形属性"
+
+#: ui/annotationpropertiesdialog.cpp:129
+msgid "Geometry Properties"
+msgstr "几何图属性"
+
+#: ui/annotationpropertiesdialog.cpp:132
+msgid "Text Markup Properties"
+msgstr "文本标记属性"
+
+#: ui/annotationpropertiesdialog.cpp:135
+msgid "Stamp Properties"
+msgstr "印戳属性"
+
+#: ui/annotationpropertiesdialog.cpp:138
+msgid "Freehand Line Properties"
+msgstr "手绘线属性"
+
+#: ui/annotationpropertiesdialog.cpp:141
+msgid "Caret Properties"
+msgstr "补注属性"
+
+#: ui/annotationpropertiesdialog.cpp:144
+msgid "File Attachment Properties"
+msgstr "附件属性"
+
+#: ui/annotationpropertiesdialog.cpp:147
+msgid "Sound Properties"
+msgstr "声音属性"
+
+#: ui/annotationpropertiesdialog.cpp:150
+msgid "Movie Properties"
+msgstr "影片属性"
+
+#: ui/annotationpropertiesdialog.cpp:153
+msgid "Annotation Properties"
+msgstr "批注属性"
+
+#: ui/annotationwidgets.cpp:201
+msgid "&Color:"
+msgstr "颜色(&C)："
+
+#: ui/annotationwidgets.cpp:208
+msgid "&Opacity:"
+msgstr "不透明度(&O)："
+
+#: ui/annotationwidgets.cpp:213
+msgctxt "Suffix for the opacity level, eg '80 %'"
+msgid " %"
+msgstr " %"
+
+#: ui/annotationwidgets.cpp:256
+msgid "Icon"
+msgstr "图标"
+
+#: ui/annotationwidgets.cpp:261
+msgid "Comment"
+msgstr "注释"
+
+#: ui/annotationwidgets.cpp:262
+msgid "Help"
+msgstr "帮助"
+
+#: ui/annotationwidgets.cpp:263
+msgid "Insert"
+msgstr "插入"
+
+#: ui/annotationwidgets.cpp:264
+msgid "Key"
+msgstr "关键字"
+
+#: ui/annotationwidgets.cpp:265
+msgid "New Paragraph"
+msgstr "新段落"
+
+#: ui/annotationwidgets.cpp:266
+msgid "Note"
+msgstr "笔记"
+
+#: ui/annotationwidgets.cpp:267
+msgid "Paragraph"
+msgstr "段落"
+
+#: ui/annotationwidgets.cpp:277
+msgid "Font:"
+msgstr "字体："
+
+#: ui/annotationwidgets.cpp:283
+msgid "Align:"
+msgstr "对齐："
+
+#: ui/annotationwidgets.cpp:287
+msgid "Left"
+msgstr "左对齐"
+
+#: ui/annotationwidgets.cpp:288
+msgid "Center"
+msgstr "居中"
+
+#: ui/annotationwidgets.cpp:289
+msgid "Right"
+msgstr "右对齐"
+
+#: ui/annotationwidgets.cpp:327
+msgid "Stamp Symbol"
+msgstr "印戳符号"
+
+#: ui/annotationwidgets.cpp:334
+msgid "Bookmark"
+msgstr "书签"
+
+#: ui/annotationwidgets.cpp:335
+msgid "KDE"
+msgstr "KDE"
+
+#: ui/annotationwidgets.cpp:336
+msgid "Information"
+msgstr "信息"
+
+#: ui/annotationwidgets.cpp:337
+msgid "Approved"
+msgstr "核准"
+
+#: ui/annotationwidgets.cpp:338
+msgid "As Is"
+msgstr "原件"
+
+#: ui/annotationwidgets.cpp:339
+msgid "Confidential"
+msgstr "密件"
+
+#: ui/annotationwidgets.cpp:340
+msgid "Departmental"
+msgstr "部门"
+
+#: ui/annotationwidgets.cpp:341
+msgid "Draft"
+msgstr "草稿"
+
+#: ui/annotationwidgets.cpp:342
+msgid "Experimental"
+msgstr "实验"
+
+#: ui/annotationwidgets.cpp:343
+msgid "Expired"
+msgstr "过期"
+
+#: ui/annotationwidgets.cpp:344
+msgid "Final"
+msgstr "终稿"
+
+#: ui/annotationwidgets.cpp:345
+msgid "For Comment"
+msgstr "用于注释"
+
+#: ui/annotationwidgets.cpp:346
+msgid "For Public Release"
+msgstr "公开发行"
+
+#: ui/annotationwidgets.cpp:347
+msgid "Not Approved"
+msgstr "未核准"
+
+#: ui/annotationwidgets.cpp:348
+msgid "Not For Public Release"
+msgstr "不公开发行"
+
+#: ui/annotationwidgets.cpp:349
+msgid "Sold"
+msgstr "销售品"
+
+#: ui/annotationwidgets.cpp:350
+msgid "Top Secret"
+msgstr "最高机密"
+
+#: ui/annotationwidgets.cpp:388
+msgid "Line Extensions"
+msgstr "延长线"
+
+#: ui/annotationwidgets.cpp:390
+msgid "Leader Line Length:"
+msgstr "引线长度："
+
+#: ui/annotationwidgets.cpp:395
+msgid "Leader Line Extensions Length:"
+msgstr "引线延长线长度："
+
+#: ui/annotationwidgets.cpp:404 ui/annotationwidgets.cpp:496
+msgid "Style"
+msgstr "风格"
+
+#: ui/annotationwidgets.cpp:406 ui/annotationwidgets.cpp:498
+#: ui/annotationwidgets.cpp:578
+msgid "&Size:"
+msgstr "大小(&S)："
+
+#: ui/annotationwidgets.cpp:414 ui/annotationwidgets.cpp:574
+msgid "Inner color:"
+msgstr "内部颜色："
+
+#: ui/annotationwidgets.cpp:533 ui/annotationwidgets.cpp:569
+msgid "Type:"
+msgstr "类型："
+
+#: ui/annotationwidgets.cpp:539 ui/guiutils.cpp:89
+msgid "Highlight"
+msgstr "突出显示"
+
+#: ui/annotationwidgets.cpp:540 ui/guiutils.cpp:92
+#: ui/pageviewannotator.cpp:1094
+msgid "Squiggle"
+msgstr "波浪线"
+
+#: ui/annotationwidgets.cpp:541 ui/guiutils.cpp:95
+#: ui/pageviewannotator.cpp:1102
+msgid "Underline"
+msgstr "下划线"
+
+#: ui/annotationwidgets.cpp:542 ui/pageviewannotator.cpp:1100
+msgid "Strike out"
+msgstr "删除线"
+
+#: ui/annotationwidgets.cpp:584 ui/pageviewannotator.cpp:1092
+msgid "Rectangle"
+msgstr "矩形"
+
+#: ui/annotationwidgets.cpp:585 ui/pageviewannotator.cpp:1080
+msgid "Ellipse"
+msgstr "椭圆形"
+
+#: ui/annotationwidgets.cpp:638
+msgid "File Attachment Symbol"
+msgstr "文件附件符号"
+
+#: ui/annotationwidgets.cpp:644
+msgctxt "Symbol for file attachment annotations"
+msgid "Graph"
+msgstr "图形"
+
+#: ui/annotationwidgets.cpp:645
+msgctxt "Symbol for file attachment annotations"
+msgid "Push Pin"
+msgstr "放置别针"
+
+#: ui/annotationwidgets.cpp:646
+msgctxt "Symbol for file attachment annotations"
+msgid "Paperclip"
+msgstr "回形针"
+
+#: ui/annotationwidgets.cpp:647
+msgctxt "Symbol for file attachment annotations"
+msgid "Tag"
+msgstr "标签"
+
+#: ui/annotationwidgets.cpp:658
+msgctxt "'File' as normal file, that can be opened, saved, etc.."
+msgid "File"
+msgstr "文件"
+
+#: ui/annotationwidgets.cpp:662 ui/embeddedfilesdialog.cpp:69
+msgctxt "Not available size"
+msgid "N/A"
+msgstr "大小不可用"
+
+#: ui/annotationwidgets.cpp:663
+msgid "No description available."
+msgstr "无可用描述。"
+
+#: ui/annotationwidgets.cpp:667
+#, kde-format
+msgid "Name: %1"
+msgstr "名字：%1"
+
+#: ui/annotationwidgets.cpp:671
+#, kde-format
+msgid "Size: %1"
+msgstr "大小：%1"
+
+#: ui/annotationwidgets.cpp:675
+msgid "Description:"
+msgstr "描述："
+
+#: ui/annotationwidgets.cpp:740
+msgid "Caret Symbol"
+msgstr "脱字符号"
+
+#: ui/annotationwidgets.cpp:745
+msgctxt "Symbol for caret annotations"
+msgid "None"
+msgstr "无"
+
+#: ui/annotationwidgets.cpp:746
+msgctxt "Symbol for caret annotations"
+msgid "P"
+msgstr "P"
+
+#: ui/annotwindow.cpp:54
+msgid "Close this note"
+msgstr "关闭此批注"
+
+#: ui/annotwindow.cpp:96 ui/findbar.cpp:64
+msgid "Options"
+msgstr "选项"
+
+#: ui/annotwindow.cpp:107
+msgid ""
+"This annotation may contain LaTeX code.\n"
+"Click here to render."
+msgstr ""
+"此批注可能包含 LaTeX 代码。\n"
+"点击此处渲染。"
+
+#: ui/annotwindow.cpp:357
+msgid "Cannot find latex executable."
+msgstr "找不到 latex 可执行程序。"
+
+#: ui/annotwindow.cpp:357 ui/annotwindow.cpp:362 ui/annotwindow.cpp:367
+#: ui/annotwindow.cpp:372
+msgid "LaTeX rendering failed"
+msgstr "LaTeX 渲染失败"
+
+#: ui/annotwindow.cpp:362
+msgid "Cannot find dvipng executable."
+msgstr "找不到 dvipng 可执行程序。"
+
+#: ui/annotwindow.cpp:367
+msgid "A problem occurred during the execution of the 'latex' command."
+msgstr "执行“latex”命令时出错。"
+
+#: ui/annotwindow.cpp:372
+msgid "A problem occurred during the execution of the 'dvipng' command."
+msgstr "执行“dvipng”命令时出错。"
+
+#: ui/bookmarklist.cpp:110
+#, kde-format
+msgctxt "%1 is the file name"
+msgid ""
+"%1\n"
+"\n"
+"One bookmark"
+msgid_plural ""
+"%1\n"
+"\n"
+"%2 bookmarks"
+msgstr[0] ""
+"%1\n"
+"\n"
+"%2 个书签"
+
+#: ui/bookmarklist.cpp:155
+msgid "Current document only"
+msgstr "只对当前文档"
+
+#: ui/bookmarklist.cpp:248
+msgid "Go to This Bookmark"
+msgstr "转到此书签"
+
+#: ui/bookmarklist.cpp:275
+msgctxt "Opens the selected document"
+msgid "Open Document"
+msgstr "打开文档"
+
+#: ui/bookmarklist.cpp:277
+msgid "Remove Bookmarks"
+msgstr "删除书签"
+
+#: ui/embeddedfilesdialog.cpp:35
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr "未知"
+
+#: ui/embeddedfilesdialog.cpp:40
+msgctxt "@title:window"
+msgid "Embedded Files"
+msgstr "嵌入的文件"
+
+#: ui/embeddedfilesdialog.cpp:49
+msgctxt "@title:column"
+msgid "Name"
+msgstr "名称"
+
+#: ui/embeddedfilesdialog.cpp:50
+msgctxt "@title:column"
+msgid "Description"
+msgstr "描述"
+
+#: ui/embeddedfilesdialog.cpp:51
+msgctxt "@title:column"
+msgid "Size"
+msgstr "大小"
+
+#: ui/embeddedfilesdialog.cpp:52
+msgctxt "@title:column"
+msgid "Created"
+msgstr "创建时间"
+
+#: ui/embeddedfilesdialog.cpp:53
+msgctxt "@title:column"
+msgid "Modified"
+msgstr "修改时间"
+
+#: ui/embeddedfilesdialog.cpp:114
+msgctxt "@action:inmenu"
+msgid "&Save As..."
+msgstr "另存为(&S)..."
+
+#: ui/fileprinterpreview.cpp:115
+msgid "Could not load print preview part"
+msgstr "找不到打印预览组件"
+
+#: ui/fileprinterpreview.cpp:130
+msgid "Print Preview"
+msgstr "打印预览"
+
+#: ui/findbar.cpp:36 ui/presentationsearchbar.cpp:64
+msgid "Close"
+msgstr "关闭"
+
+#: ui/findbar.cpp:40
+msgctxt "Find text"
+msgid "F&ind:"
+msgstr "查找(&I)："
+
+#: ui/findbar.cpp:50
+msgid "Text to search for"
+msgstr "要搜索的文本"
+
+#: ui/findbar.cpp:55
+msgctxt "Find and go to the next search match"
+msgid "Next"
+msgstr "下一个"
+
+#: ui/findbar.cpp:56
+msgid "Jump to next match"
+msgstr "跳至下一个匹配项"
+
+#: ui/findbar.cpp:59
+msgctxt "Find and go to the previous search match"
+msgid "Previous"
+msgstr "上一个"
+
+#: ui/findbar.cpp:60
+msgid "Jump to previous match"
+msgstr "跳至上一个匹配项"
+
+#: ui/findbar.cpp:65
+msgid "Modify search behavior"
+msgstr "修改搜索行为"
+
+#: ui/findbar.cpp:67
+msgid "Case sensitive"
+msgstr "区分大小写"
+
+#: ui/findbar.cpp:69
+msgid "From current page"
+msgstr "从当前页"
+
+#: ui/guiutils.cpp:83
+msgid "Geometry"
+msgstr "几何图"
+
+#: ui/guiutils.cpp:98
+msgid "Strike Out"
+msgstr "删除线"
+
+#: ui/guiutils.cpp:109
+msgid "Caret"
+msgstr "补注"
+
+#: ui/guiutils.cpp:112
+msgid "File Attachment"
+msgstr "附件"
+
+#: ui/guiutils.cpp:115
+msgid "Sound"
+msgstr "声音"
+
+#: ui/guiutils.cpp:118
+msgid "Movie"
+msgstr "影片"
+
+#: ui/guiutils.cpp:121
+msgctxt "Caption for a screen annotation"
+msgid "Screen"
+msgstr "屏幕"
+
+#: ui/guiutils.cpp:124
+msgctxt "Caption for a widget annotation"
+msgid "Widget"
+msgstr "部件"
+
+#: ui/guiutils.cpp:136
+msgctxt "Unknown author"
+msgid "Unknown"
+msgstr "未知"
+
+#: ui/guiutils.cpp:153 ui/presentationwidget.cpp:362
+#, kde-format
+msgid "Author: %1"
+msgstr "作者：%1"
+
+#: ui/guiutils.cpp:204 ui/propertiesdialog.cpp:241
+#, kde-format
+msgid "Where do you want to save %1?"
+msgstr "您要将 %1 保存到何处？"
+
+#: ui/guiutils.cpp:213 ui/propertiesdialog.cpp:254
+#, kde-format
+msgid "Could not open \"%1\" for writing. File was not saved."
+msgstr "无法打开“%1”写入。文件未保存。"
+
+#: ui/ktreeviewsearchline.cpp:461
+msgid "Search Options"
+msgstr "搜索选项"
+
+#: ui/ktreeviewsearchline.cpp:462
+msgctxt "Enable case sensitive search in the side navigation panels"
+msgid "Case Sensitive"
+msgstr "区分大小写"
+
+#: ui/ktreeviewsearchline.cpp:465
+msgctxt "Enable regular expression search in the side navigation panels"
+msgid "Regular Expression"
+msgstr "正则表达式"
+
+#: ui/ktreeviewsearchline.cpp:471
+msgid "Search Columns"
+msgstr "搜索列"
+
+#: ui/ktreeviewsearchline.cpp:473
+msgid "All Visible Columns"
+msgstr "全部可见列"
+
+#: ui/ktreeviewsearchline.cpp:630
+msgid "S&earch:"
+msgstr "搜索(&E)："
+
+#: ui/minibar.cpp:188
+msgctxt "Layouted like: '5 [pages] of 10'"
+msgid "of"
+msgstr "共"
+
+#: ui/pageview.cpp:431
+msgid "Zoom"
+msgstr "缩放"
+
+#: ui/pageview.cpp:451
+msgid "Rotate &Right"
+msgstr "向右旋转(&R)"
+
+#: ui/pageview.cpp:452
+msgctxt "Rotate right"
+msgid "Right"
+msgstr "右向右"
+
+#: ui/pageview.cpp:456
+msgid "Rotate &Left"
+msgstr "向左旋转(&L)"
+
+#: ui/pageview.cpp:457
+msgctxt "Rotate left"
+msgid "Left"
+msgstr "向左旋转"
+
+#: ui/pageview.cpp:461
+msgid "Original Orientation"
+msgstr "原始方向"
+
+#: ui/pageview.cpp:466
+msgid "&Page Size"
+msgstr "页面大小(&P)"
+
+#: ui/pageview.cpp:473
+msgid "&Trim Margins"
+msgstr "裁减页边距(&T)"
+
+#: ui/pageview.cpp:478
+msgid "Fit &Width"
+msgstr "适合宽度(&W)"
+
+#: ui/pageview.cpp:482
+msgid "Fit &Page"
+msgstr "适合整页(&P)"
+
+#: ui/pageview.cpp:486
+msgid "&Auto Fit"
+msgstr ""
+
+#: ui/pageview.cpp:491
+msgid "&View Mode"
+msgstr "查看模式(&V)"
+
+#: ui/pageview.cpp:504
+msgid "Single Page"
+msgstr "单页"
+
+#: ui/pageview.cpp:505
+msgid "Facing Pages"
+msgstr "平铺页"
+
+#: ui/pageview.cpp:506
+msgid "Facing Pages (Center First Page)"
+msgstr "平铺页(居中第一页)"
+
+#: ui/pageview.cpp:507
+msgid "Overview"
+msgstr "摘要"
+
+#: ui/pageview.cpp:519
+msgid "&Continuous"
+msgstr "连续(&C)"
+
+#: ui/pageview.cpp:527
+msgid "&Browse Tool"
+msgstr "浏览工具(&B)"
+
+#: ui/pageview.cpp:530
+msgctxt "Browse Tool"
+msgid "Browse"
+msgstr "浏览"
+
+#: ui/pageview.cpp:536
+msgid "&Zoom Tool"
+msgstr "缩放工具(&Z)"
+
+#: ui/pageview.cpp:539
+msgctxt "Zoom Tool"
+msgid "Zoom"
+msgstr "缩放"
+
+#: ui/pageview.cpp:545
+#, fuzzy
+#| msgid "Change &colors"
+msgid "&Toggle Change Colors"
+msgstr "更改颜色(&C)"
+
+#: ui/pageview.cpp:559
+msgid "&Selection Tool"
+msgstr "选择工具(&S)"
+
+#: ui/pageview.cpp:562
+msgctxt "Select Tool"
+msgid "Selection"
+msgstr "选择"
+
+#: ui/pageview.cpp:568
+msgid "&Text Selection Tool"
+msgstr "文本选择工具(&T)"
+
+#: ui/pageview.cpp:571
+msgctxt "Text Selection Tool"
+msgid "Text Selection"
+msgstr "文本选择"
+
+#: ui/pageview.cpp:577
+msgid "T&able Selection Tool"
+msgstr "表格选择工具(&A)"
+
+#: ui/pageview.cpp:580
+msgctxt "Table Selection Tool"
+msgid "Table Selection"
+msgstr "表格选择"
+
+#: ui/pageview.cpp:586
+msgid "&Magnifier"
+msgstr ""
+
+#: ui/pageview.cpp:589
+msgctxt "Magnifier Tool"
+msgid "Magnifier"
+msgstr ""
+
+#: ui/pageview.cpp:595
+msgid "&Review"
+msgstr "批注(&R)"
+
+#: ui/pageview.cpp:608
+msgid "Speak Whole Document"
+msgstr "读出整篇文档"
+
+#: ui/pageview.cpp:613
+msgid "Speak Current Page"
+msgstr "读出当前页"
+
+#: ui/pageview.cpp:618
+msgid "Stop Speaking"
+msgstr "停止阅读"
+
+#: ui/pageview.cpp:624
+msgid "Scroll Up"
+msgstr "向上滚动"
+
+#: ui/pageview.cpp:630
+msgid "Scroll Down"
+msgstr "向下滚动"
+
+#: ui/pageview.cpp:636
+msgid "Scroll Page Up"
+msgstr "向上滚动一页"
+
+#: ui/pageview.cpp:642
+msgid "Scroll Page Down"
+msgstr "向下滚动一页"
+
+#: ui/pageview.cpp:979
+#, kde-format
+msgid " Loaded a one-page document."
+msgid_plural " Loaded a %1-page document."
+msgstr[0] "装入了 %1 页文档。"
+
+#: ui/pageview.cpp:2423
+msgid "Follow This Link"
+msgstr "跟随此链接"
+
+#: ui/pageview.cpp:2426
+#, fuzzy
+#| msgid "Sound"
+msgid "Stop Sound"
+msgstr "声音"
+
+#: ui/pageview.cpp:2429
+msgid "Copy Link Address"
+msgstr "复制链接地址"
+
+#: ui/pageview.cpp:2578
+#, kde-format
+msgid "Text (1 character)"
+msgid_plural "Text (%1 characters)"
+msgstr[0] "文本(%1 个字符)"
+
+#: ui/pageview.cpp:2579 ui/pageview.cpp:2594
+msgid "Copy to Clipboard"
+msgstr "复制到剪贴板"
+
+#: ui/pageview.cpp:2584 ui/pageview.cpp:2735 ui/pageview.cpp:2842
+msgid "Copy forbidden by DRM"
+msgstr "数字权限管理(DRM)机制拒绝了您的复制操作"
+
+#: ui/pageview.cpp:2587 ui/pageview.cpp:2838
+msgid "Speak Text"
+msgstr "读出文本"
+
+#: ui/pageview.cpp:2593
+#, kde-format
+msgid "Image (%1 by %2 pixels)"
+msgstr "图像(%1x%2 像素)"
+
+#: ui/pageview.cpp:2595
+msgid "Save to File..."
+msgstr "保存到文件..."
+
+#: ui/pageview.cpp:2617
+#, kde-format
+msgid "Image [%1x%2] copied to clipboard."
+msgstr "图像[%1x%2]已复制到剪贴板。"
+
+#: ui/pageview.cpp:2625
+msgid "File not saved."
+msgstr "文件未保存。"
+
+#: ui/pageview.cpp:2635
+#, kde-format
+msgid "Image [%1x%2] saved to %3 file."
+msgstr "图像[%1x%2]已保存到文件 %3。"
+
+#: ui/pageview.cpp:2834
+msgid "Copy Text"
+msgstr "复制文本"
+
+#: ui/pageview.cpp:2852
+#, kde-format
+msgid "Go to '%1'"
+msgstr "跳转到“%1”"
+
+#: ui/pageview.cpp:3944
+msgid "Hide Forms"
+msgstr "隐藏表单"
+
+#: ui/pageview.cpp:3948
+msgid "Show Forms"
+msgstr "显示表单"
+
+#: ui/pageview.cpp:3997
+#, kde-format
+msgid "Search for '%1' with"
+msgstr "搜索“%1”于"
+
+#: ui/pageview.cpp:4012
+msgid "Configure Web Shortcuts..."
+msgstr "配置网页快捷方式..."
+
+#: ui/pageview.cpp:4502
+msgid "Welcome"
+msgstr "欢迎"
+
+#: ui/pageview.cpp:4606
+msgid "Select zooming area. Right-click to zoom out."
+msgstr "选择缩放区域。右键点击可缩小。"
+
+#: ui/pageview.cpp:4621
+msgid "Click to see the magnified view."
+msgstr ""
+
+#: ui/pageview.cpp:4632
+msgid "Draw a rectangle around the text/graphics to copy."
+msgstr "在要复制的文字/图形周围绘制矩形。"
+
+#: ui/pageview.cpp:4648
+msgid "Select text"
+msgstr "选择文字"
+
+#: ui/pageview.cpp:4665
+msgid ""
+"Draw a rectangle around the table, then click near edges to divide up; press "
+"Esc to clear."
+msgstr "在表格周围绘制矩形，然后点击边缘附近以分割；按 Esc 清除。"
+
+#: ui/pageview.cpp:4702
+msgid "Annotations author"
+msgstr "批注作者"
+
+#: ui/pageview.cpp:4703
+msgid "Please insert your name or initials:"
+msgstr "请插入您的姓名或其首字母："
+
+#: ui/pageviewannotator.cpp:162
+msgid "Text of the new note:"
+msgstr "新笔记的文本："
+
+#: ui/pageviewannotator.cpp:164
+msgid "New Text Note"
+msgstr "新建文本笔记"
+
+#: ui/pageviewannotator.cpp:1019
+msgctxt "Annotation tool"
+msgid "Draw an ellipse (drag to select a zone)"
+msgstr "绘制椭圆(拖动并选择批注区域)"
+
+#: ui/pageviewannotator.cpp:1021
+msgctxt "Annotation tool"
+msgid "Highlight text"
+msgstr "突出显示文本"
+
+#: ui/pageviewannotator.cpp:1023
+msgctxt "Annotation tool"
+msgid "Draw a freehand line"
+msgstr "绘制绿色手绘线"
+
+#: ui/pageviewannotator.cpp:1025
+msgctxt "Annotation tool"
+msgid "Inline Text Annotation (drag to select a zone)"
+msgstr "内置文本批注(拖动并选择批注区域)"
+
+#: ui/pageviewannotator.cpp:1027
+msgctxt "Annotation tool"
+msgid "Put a pop-up note"
+msgstr "添加弹出式笔记"
+
+#: ui/pageviewannotator.cpp:1029
+msgctxt "Annotation tool"
+msgid "Draw a polygon (click on the first point to close it)"
+msgstr "绘制矩形(点击第一个点可关闭它)"
+
+#: ui/pageviewannotator.cpp:1031
+msgctxt "Annotation tool"
+msgid "Draw a rectangle"
+msgstr "绘制矩形"
+
+#: ui/pageviewannotator.cpp:1033
+msgctxt "Annotation tool"
+msgid "Squiggle text"
+msgstr "波浪线标记文本"
+
+#: ui/pageviewannotator.cpp:1035
+msgctxt "Annotation tool"
+msgid "Put a stamp symbol"
+msgstr "放置一个印戳符号"
+
+#: ui/pageviewannotator.cpp:1037
+msgctxt "Annotation tool"
+msgid "Draw a straight line"
+msgstr "画直线"
+
+#: ui/pageviewannotator.cpp:1039
+msgctxt "Annotation tool"
+msgid "Strike out text"
+msgstr "删除线标注文本"
+
+#: ui/pageviewannotator.cpp:1041
+msgctxt "Annotation tool"
+msgid "Underline text"
+msgstr "下划线标注文本"
+
+#: ui/pageviewannotator.cpp:1082
+msgid "Highlighter"
+msgstr "突出显示"
+
+#: ui/pageviewutils.cpp:451
+msgid "Close this message"
+msgstr "关闭此消息"
+
+#: ui/presentationsearchbar.cpp:78
+msgid "Find Next"
+msgstr "查找下一个"
+
+#: ui/presentationwidget.cpp:149
+#, kde-format
+msgctxt "[document title/filename] – Presentation"
+msgid "%1 – Presentation"
+msgstr "%1 – 演示"
+
+#: ui/presentationwidget.cpp:200
+msgid "Switch Screen"
+msgstr "切换屏幕"
+
+#: ui/presentationwidget.cpp:207
+#, kde-format
+msgctxt "%1 is the screen number (0, 1, ...)"
+msgid "Screen %1"
+msgstr "屏幕 %1"
+
+#: ui/presentationwidget.cpp:214
+msgid "Exit Presentation Mode"
+msgstr "退出演示模式"
+
+#: ui/presentationwidget.cpp:360
+#, kde-format
+msgid "Title: %1"
+msgstr "标题：%1"
+
+#: ui/presentationwidget.cpp:364
+#, kde-format
+msgid "Pages: %1"
+msgstr "页数：%1"
+
+#: ui/presentationwidget.cpp:365
+msgid "Click to begin"
+msgstr "点击开始"
+
+#: ui/presentationwidget.cpp:509
+#, fuzzy
+#| msgctxt "pause the movie playback"
+#| msgid "Pause"
+msgctxt "For Presentation"
+msgid "Pause"
+msgstr "暂停"
+
+#: ui/presentationwidget.cpp:514
+#, fuzzy
+#| msgctxt "start the movie playback"
+#| msgid "Play"
+msgctxt "For Presentation"
+msgid "Play"
+msgstr "播放"
+
+#: ui/presentationwidget.cpp:1428
+msgid ""
+"There are two ways of exiting presentation mode, you can press either ESC "
+"key or click with the quit button that appears when placing the mouse in the "
+"top-right corner. Of course you can cycle windows (Alt+TAB by default)"
+msgstr ""
+"退出演示模式有两种方法，您可以按 Esc 键，也可以将鼠标移至右上角，单击随后出现"
+"的退出按钮。当然，您也可以轮换到其它窗口(默认键位是 Alt+Tab)"
+
+#: ui/presentationwidget.cpp:1548
+msgctxt ""
+"Reason for inhibiting the screensaver activation, when the presentation mode "
+"is active"
+msgid "Giving a presentation"
+msgstr "展现演示"
+
+#: ui/propertiesdialog.cpp:45
+msgid "Unknown File"
+msgstr "未知文件"
+
+#: ui/propertiesdialog.cpp:57
+msgid "No document opened."
+msgstr "没有打开的文档。"
+
+#: ui/propertiesdialog.cpp:65
+#, kde-format
+msgid "%1 Properties"
+msgstr "%1 属性"
+
+#: ui/propertiesdialog.cpp:123
+#, kde-format
+msgctxt "mimetype information, example: \"PDF Document (application/pdf)\""
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: ui/propertiesdialog.cpp:136
+#, kde-format
+msgid "%1:"
+msgstr "%1："
+
+#: ui/propertiesdialog.cpp:148
+msgid "&Fonts"
+msgstr "字体(&F)"
+
+#: ui/propertiesdialog.cpp:171
+msgid "Reading font information..."
+msgstr "正在读取字体信息..."
+
+#: ui/propertiesdialog.cpp:236
+msgctxt "@action:inmenu"
+msgid "&Extract Font"
+msgstr "提取字体(&E)"
+
+#: ui/propertiesdialog.cpp:288
+msgid "Type 1"
+msgstr "Type 1"
+
+#: ui/propertiesdialog.cpp:291
+msgid "Type 1C"
+msgstr "Type 1C"
+
+#: ui/propertiesdialog.cpp:294
+msgctxt "OT means OpenType"
+msgid "Type 1C (OT)"
+msgstr "Type 1C (OT)"
+
+#: ui/propertiesdialog.cpp:297
+msgid "Type 3"
+msgstr "Type 3"
+
+#: ui/propertiesdialog.cpp:300
+msgid "TrueType"
+msgstr "TrueType"
+
+#: ui/propertiesdialog.cpp:303
+msgctxt "OT means OpenType"
+msgid "TrueType (OT)"
+msgstr "TrueType (OT)"
+
+#: ui/propertiesdialog.cpp:306
+msgid "CID Type 0"
+msgstr "CID Type 0"
+
+#: ui/propertiesdialog.cpp:309
+msgid "CID Type 0C"
+msgstr "CID Type 0C"
+
+#: ui/propertiesdialog.cpp:312
+msgctxt "OT means OpenType"
+msgid "CID Type 0C (OT)"
+msgstr "CID Type 0C (OT)"
+
+#: ui/propertiesdialog.cpp:315
+msgid "CID TrueType"
+msgstr "CID TrueType"
+
+#: ui/propertiesdialog.cpp:318
+msgctxt "OT means OpenType"
+msgid "CID TrueType (OT)"
+msgstr "CID TrueType (OT)"
+
+#: ui/propertiesdialog.cpp:321
+msgid "TeX PK"
+msgstr "TeX PK"
+
+#: ui/propertiesdialog.cpp:324
+msgid "TeX virtual"
+msgstr "TeX virtual"
+
+#: ui/propertiesdialog.cpp:327
+msgid "TeX Font Metric"
+msgstr "TeX Font Metric"
+
+#: ui/propertiesdialog.cpp:330
+msgid "TeX FreeType-handled"
+msgstr "TeX FreeType-handled"
+
+#: ui/propertiesdialog.cpp:333
+msgctxt "Unknown font type"
+msgid "Unknown"
+msgstr "未知"
+
+#: ui/propertiesdialog.cpp:347
+msgid "Embedded (subset)"
+msgstr "子集嵌入"
+
+#: ui/propertiesdialog.cpp:350
+msgid "Fully embedded"
+msgstr "完整嵌入"
+
+#: ui/propertiesdialog.cpp:361
+msgid "No"
+msgstr "否"
+
+#: ui/propertiesdialog.cpp:364
+msgid "Yes (subset)"
+msgstr "是(子集)"
+
+#: ui/propertiesdialog.cpp:367
+msgid "Yes"
+msgstr "是"
+
+#: ui/propertiesdialog.cpp:386
+msgctxt "font name not available (empty)"
+msgid "[n/a]"
+msgstr "无"
+
+#: ui/propertiesdialog.cpp:401
+msgid "Unknown font"
+msgstr "未知字体"
+
+#: ui/propertiesdialog.cpp:405
+#, kde-format
+msgid "Embedded: %1"
+msgstr "嵌入：%1"
+
+#: ui/propertiesdialog.cpp:438
+msgid "Name"
+msgstr "名称"
+
+#: ui/propertiesdialog.cpp:439
+msgid "Type"
+msgstr "类型"
+
+#: ui/propertiesdialog.cpp:440
+msgid "File"
+msgstr "文件"
+
+#: ui/searchwidget.cpp:40
+msgid "Enter at least 3 letters to filter pages"
+msgstr "输入至少三个字母来过滤页面"
+
+#: ui/searchwidget.cpp:50
+msgid "Case Sensitive"
+msgstr "区分大小写"
+
+#: ui/searchwidget.cpp:52
+msgid "Match Phrase"
+msgstr "匹配短语"
+
+#: ui/searchwidget.cpp:53
+msgid "Match All Words"
+msgstr "匹配全部单词"
+
+#: ui/searchwidget.cpp:54
+msgid "Match Any Word"
+msgstr "匹配任何单词"
+
+#: ui/searchwidget.cpp:73
+msgid "Filter Options"
+msgstr "过滤器选项"
+
+#: ui/side_reviews.cpp:61
+msgid ""
+"<div align=center><h3>No annotations</h3>To create new annotations press F6 "
+"or select <i>Tools -&gt; Review</i> from the menu.</div>"
+msgstr ""
+"<div align=center><h3>无批注</h3>要新建批注，按下 F6，或在菜单中选择<i>工具 -"
+"&gt; 批注</i>。</div>"
+
+#: ui/side_reviews.cpp:128
+msgid "Group by Page"
+msgstr "按页分组"
+
+#: ui/side_reviews.cpp:133
+msgid "Group by Author"
+msgstr "按作者分组"
+
+#: ui/side_reviews.cpp:141
+msgid "Show reviews for current page only"
+msgstr "只显示当前页的预览"
+
+#: ui/sidebar.cpp:705
+msgid "Show Text"
+msgstr "显示文本"
+
+#: ui/sidebar.cpp:721
+msgid "Small Icons"
+msgstr "小图标"
+
+#: ui/sidebar.cpp:722
+msgid "Normal Icons"
+msgstr "普通图标"
+
+#: ui/sidebar.cpp:723
+msgid "Large Icons"
+msgstr "大图标"
+
+#: ui/thumbnaillist.cpp:1008
+msgid "Show bookmarked pages only"
+msgstr "只显示有书签的页面"
+
+#: ui/toolaction.cpp:21
+msgid "Selection Tools"
+msgstr "选择工具"
+
+#: ui/toolaction.cpp:73 ui/toolaction.cpp:85
+msgid ""
+"Click to use the current selection tool\n"
+"Click and hold to choose another selection tool"
+msgstr ""
+"单击这里使用当前的选择工具\n"
+"单击并按住则可选择另一个选择工具"
+
+#: ui/tts.cpp:55
+#, kde-format
+msgid "Starting Jovie Text-to-Speech service Failed: %1"
+msgstr "启动 Jovie 语音合成服务失败：%1"
+
+#: ui/videowidget.cpp:135
+msgctxt "start the movie playback"
+msgid "Play"
+msgstr "播放"
+
+#: ui/videowidget.cpp:140
+msgctxt "pause the movie playback"
+msgid "Pause"
+msgstr "暂停"
+
+#: ui/videowidget.cpp:257
+msgctxt "stop the movie playback"
+msgid "Stop"
+msgstr "停止"
+
+#~ msgid "Identity Settings"
+#~ msgstr "身份设置"
+
+#~ msgid "Highlight Properties"
+#~ msgstr "突出显示属性"
+
+#~ msgid "Ink Properties"
+#~ msgstr "墨迹属性"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Text Annotation"
+#~ msgstr "文本批注"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Green Ink"
+#~ msgstr "绿色墨迹"
+
+#~ msgid "Yellow Highlighter"
+#~ msgstr "黄色突出显示"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Yellow Highlight"
+#~ msgstr "黄色突出显示"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Straight Yellow Line"
+#~ msgstr "黄色直线"
+
+#~ msgid "Black Underlining"
+#~ msgstr "黑色下划线"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "Underline the text with a black line"
+#~ msgstr "用黑色下划线标注文本"
+
+#~ msgid "Cyan Ellipse"
+#~ msgstr "青色椭圆"
+
+#~ msgctxt "Annotation tool"
+#~ msgid "A cyan ellipse"
+#~ msgstr "青色椭圆"
+
+#~ msgid "Line"
+#~ msgstr "线条"
+
+#~ msgid "Ink"
+#~ msgstr "墨迹"
+
+#~ msgid "Enable &background generation"
+#~ msgstr "允许后台生成(&B)"
+
+#~ msgid "Reset Forms"
+#~ msgstr "重置表单"
+
+#~ msgid "latex failed."
+#~ msgstr "latex 失败。"
+
+#~ msgid "dvipng failed."
+#~ msgstr "dvipng 失败。"
+
+#~ msgid "Moves to the first page of the document"
+#~ msgstr "移动到文档的第一页"
+
+#~ msgid "Moves to the last page of the document"
+#~ msgstr "移动到文档的最后一页"
+
+#~ msgid "You must set this name:"
+#~ msgstr "您必须设定姓名："
+
+#~ msgid "Toggles between File Path and Title"
+#~ msgstr "在文件路径和标题间切换"
+
+#~ msgctxt "%1 is \"Title\""
+#~ msgid "%1:"
+#~ msgstr "%1："
+
+#~ msgctxt "%1 is \"File Path\""
+#~ msgid "%1:"
+#~ msgstr "%1："

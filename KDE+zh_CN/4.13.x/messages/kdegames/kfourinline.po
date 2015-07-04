@@ -1,0 +1,725 @@
+# translation of kwin4.po to zh_CN
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Liang Meng <mengliang99@sohu.com>, 2002,2004
+# Xiong Jiang <jxiong@offtopic.org>, 2003
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2009
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kwin4\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-07-30 01:37+0000\n"
+"PO-Revision-Date: 2009-12-24 17:40+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#, fuzzy
+#| msgid "Black"
+msgctxt "Player 0 color"
+msgid "Black"
+msgstr "黑"
+
+#, fuzzy
+#| msgid " %1 - Yellow "
+msgctxt "Player 0 color"
+msgid "Yellow"
+msgstr "%1 - 黄色"
+
+#, fuzzy
+#| msgid "Red"
+msgctxt "Player 1 color"
+msgid "Red"
+msgstr "红"
+
+#: chatdlg.cpp:47
+msgid "Chat Dlg"
+msgstr "聊天对话框"
+
+#: chatdlg.cpp:56
+msgid "Chat"
+msgstr "聊天"
+
+#: chatdlg.cpp:62
+msgid "Configure..."
+msgstr "配置..."
+
+#: displayintro.cpp:90
+msgctxt "Name of quicklaunch field"
+msgid "Quick Launch"
+msgstr "快速开始"
+
+#: displayintro.cpp:96
+msgctxt "Ask player who should start game"
+msgid "Who starts?"
+msgstr "由谁开始？"
+
+#: displayintro.cpp:99
+msgctxt "Ask player which color he wants to play"
+msgid "Your color?"
+msgstr "您的颜色？"
+
+#: displayintro.cpp:148
+msgctxt "quick start button - player versus AI level easy"
+msgid "Easy Game"
+msgstr "低级难度"
+
+#: displayintro.cpp:155
+msgctxt "quick start button - player versus AI level normal"
+msgid "Normal Game"
+msgstr "中级难度"
+
+#: displayintro.cpp:162
+msgctxt "quick start button - player versus AI level hard"
+msgid "Hard Game"
+msgstr "高级难度"
+
+#: displayintro.cpp:169
+msgctxt "quick start button - player versus player"
+msgid "Two Player Game"
+msgstr "双人游戏"
+
+#: kchatdialog.cpp:66 kchatdialog.cpp:77
+msgid "Configure Chat"
+msgstr "聊天配置"
+
+#: kchatdialog.cpp:98 kchatdialog.cpp:120
+msgid "Name Font..."
+msgstr "名字字体..."
+
+#: kchatdialog.cpp:101 kchatdialog.cpp:123
+msgid "Text Font..."
+msgstr "文字字体..."
+
+#: kchatdialog.cpp:110
+msgid "Player: "
+msgstr "玩家："
+
+#: kchatdialog.cpp:112
+msgid "This is a player message"
+msgstr "这是一条玩家发的消息"
+
+#: kchatdialog.cpp:118
+msgid "System Messages - Messages directly sent from the game"
+msgstr "系统消息 - 直接从游戏内部发出的消息"
+
+#: kchatdialog.cpp:132
+msgid "--- Game: "
+msgstr "--- 游戏： "
+
+#: kchatdialog.cpp:134
+msgid "This is a system message"
+msgstr "这是一条系统消息"
+
+#: kchatdialog.cpp:138
+msgid "Maximum number of messages (-1 = unlimited):"
+msgstr "最大消息数(-1 即无限制)："
+
+#. i18n: ectx: Menu (game)
+#: kfourinlineui.rc:10
+msgid "&Game"
+msgstr "游戏(&G)"
+
+#. i18n: ectx: Menu (settings)
+#: kfourinlineui.rc:18
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kfourinlineui.rc:24
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: kgameconnectdialog.cpp:73
+msgid "Create a network game"
+msgstr "创建一局网络游戏"
+
+#: kgameconnectdialog.cpp:76
+msgid "Join a network game"
+msgstr "加入一局网络游戏"
+
+#: kgameconnectdialog.cpp:82
+msgid "Game name:"
+msgstr "游戏名称："
+
+#: kgameconnectdialog.cpp:84
+msgid "Network games:"
+msgstr "网络名称..."
+
+#: kgameconnectdialog.cpp:94
+msgid "Port to connect to:"
+msgstr "连接端口："
+
+#: kgameconnectdialog.cpp:98
+msgid "Host to connect to:"
+msgstr "连接主机："
+
+#: kgameconnectdialog.cpp:103
+msgid "&Start Network"
+msgstr "启动网络(&S)"
+
+#: kgamedebugdialog.cpp:131
+msgid "KGame Debug Dialog"
+msgstr "KGame 调试对话框"
+
+#: kgamedebugdialog.cpp:153
+msgid "Debug &KGame"
+msgstr "调试 &KGame"
+
+#: kgamedebugdialog.cpp:175 kgamedebugdialog.cpp:227
+msgid "Update"
+msgstr "更新"
+
+#: kgamedebugdialog.cpp:180
+msgid "KGame Pointer"
+msgstr "KGame 指针"
+
+#: kgamedebugdialog.cpp:181
+msgid "Game ID"
+msgstr "游戏编号"
+
+#: kgamedebugdialog.cpp:182
+msgid "Game Cookie"
+msgstr "游戏 Cookie"
+
+#: kgamedebugdialog.cpp:183
+msgid "Is Master"
+msgstr "主机"
+
+#: kgamedebugdialog.cpp:184
+msgid "Is Admin"
+msgstr "管理员"
+
+#: kgamedebugdialog.cpp:185
+msgid "Is Offering Connections"
+msgstr "连接提供方"
+
+#: kgamedebugdialog.cpp:186
+msgid "Game Status"
+msgstr "游戏状态"
+
+#: kgamedebugdialog.cpp:187
+msgid "Game is Running"
+msgstr "游戏进行中"
+
+#: kgamedebugdialog.cpp:188
+msgid "Maximal Players"
+msgstr "最大玩家数"
+
+#: kgamedebugdialog.cpp:189
+msgid "Minimal Players"
+msgstr "最小玩家数"
+
+#: kgamedebugdialog.cpp:190
+msgid "Players"
+msgstr "玩家"
+
+#: kgamedebugdialog.cpp:196
+msgid "Debug &Players"
+msgstr "调试玩家(&P)"
+
+#: kgamedebugdialog.cpp:206
+msgid "Available Players"
+msgstr "有效玩家"
+
+#: kgamedebugdialog.cpp:231
+msgid "Player Pointer"
+msgstr "玩家指针"
+
+#: kgamedebugdialog.cpp:232
+msgid "Player ID"
+msgstr "玩家编号"
+
+#: kgamedebugdialog.cpp:233
+msgid "Player Name"
+msgstr "玩家名字"
+
+#: kgamedebugdialog.cpp:234
+msgid "Player Group"
+msgstr "玩家组"
+
+#: kgamedebugdialog.cpp:235
+msgid "Player User ID"
+msgstr "玩家用户编号"
+
+#: kgamedebugdialog.cpp:236
+msgid "My Turn"
+msgstr "我的回合"
+
+#: kgamedebugdialog.cpp:237
+msgid "Async Input"
+msgstr "异步输入"
+
+#: kgamedebugdialog.cpp:238
+msgid "KGame Address"
+msgstr "KGame 地址"
+
+#: kgamedebugdialog.cpp:239
+msgid "Player is Virtual"
+msgstr "虚拟玩家"
+
+#: kgamedebugdialog.cpp:240
+msgid "Player is Active"
+msgstr "实际玩家"
+
+#: kgamedebugdialog.cpp:241
+msgid "RTTI"
+msgstr "RTTI"
+
+#: kgamedebugdialog.cpp:242
+msgid "Network Priority"
+msgstr "网络优先级"
+
+#: kgamedebugdialog.cpp:248
+msgid "Debug &Messages"
+msgstr "调试信息(&M)"
+
+#: kgamedebugdialog.cpp:262
+msgid "&>>"
+msgstr "&>>"
+
+#: kgamedebugdialog.cpp:266
+msgid "&<<"
+msgstr "&<<"
+
+#: kgamedebugdialog.cpp:270
+msgid "Do not show IDs:"
+msgstr "不显示编号："
+
+#: kgamedebugdialog.cpp:339
+msgid "NULL pointer"
+msgstr "空指针"
+
+#: kgamedebugdialog.cpp:350 kgamedebugdialog.cpp:351 kgamedebugdialog.cpp:352
+#: kgamedebugdialog.cpp:354 kgamedebugdialog.cpp:410 kgamedebugdialog.cpp:411
+#: kgamedebugdialog.cpp:414 kgamedebugdialog.cpp:415
+msgid "True"
+msgstr ""
+
+#: kgamedebugdialog.cpp:350 kgamedebugdialog.cpp:351 kgamedebugdialog.cpp:352
+#: kgamedebugdialog.cpp:354 kgamedebugdialog.cpp:410 kgamedebugdialog.cpp:411
+#: kgamedebugdialog.cpp:414 kgamedebugdialog.cpp:415
+msgid "False"
+msgstr ""
+
+#: kgamedebugdialog.cpp:368 kgamedebugdialog.cpp:429
+msgid "Clean"
+msgstr ""
+
+#: kgamedebugdialog.cpp:371 kgamedebugdialog.cpp:432
+msgid "Dirty"
+msgstr ""
+
+#: kgamedebugdialog.cpp:374 kgamedebugdialog.cpp:435
+msgid "Local"
+msgstr ""
+
+#: kgamedebugdialog.cpp:378 kgamedebugdialog.cpp:439
+msgid "Undefined"
+msgstr "未定义"
+
+#: kgamedebugdialog.cpp:525
+msgid "Unknown"
+msgstr "未知"
+
+#: kgamedialog.cpp:108
+msgid "&Network"
+msgstr "网络(&N)"
+
+#: kgamedialogconfig.cpp:139
+msgid "Disconnect"
+msgstr "断开连接"
+
+#: kgamedialogconfig.cpp:143 kwin4.cpp:796
+msgid "Network Configuration"
+msgstr "网络配置"
+
+#: kgamedialogconfig.cpp:203
+msgid "Cannot connect to the network"
+msgstr "无法连接到网络"
+
+#: kgamedialogconfig.cpp:209
+msgid "Network status: No Network"
+msgstr "网络状态：无网络"
+
+#: kgamedialogconfig.cpp:215
+msgid "Network status: You are MASTER"
+msgstr "网络状态：您是主机"
+
+#: kgamedialogconfig.cpp:217
+msgid "Network status: You are connected"
+msgstr "网络状态：已连接"
+
+#: kwin4.cpp:81 kwin4.kcfg:32
+msgctxt "default name of first player"
+msgid "Player 1"
+msgstr "玩家甲"
+
+#: kwin4.cpp:82 kwin4.kcfg:39
+msgctxt "default name of second player"
+msgid "Player 2"
+msgstr "玩家乙"
+
+#: kwin4.cpp:104
+msgid "Installation error: No theme list found."
+msgstr "安装错误：找不到主题列表。"
+
+#: kwin4.cpp:132
+msgid "Installation error: No AI engine found. Continue without AI."
+msgstr "安装错误：找不到 AI 引擎。将以无 AI 形式继续。"
+
+#: kwin4.cpp:151
+msgid "Installation error: Theme file error."
+msgstr "安装错误：主题文件错误。"
+
+#: kwin4.cpp:326
+msgid "Ends a currently played game. No winner will be declared."
+msgstr "中止正在玩的游戏。将不会有胜利者。"
+
+#: kwin4.cpp:331
+msgid "&Network Configuration..."
+msgstr "网络配置(&N)..."
+
+#: kwin4.cpp:335
+msgid "Network Chat..."
+msgstr "网络聊天..."
+
+#: kwin4.cpp:340
+msgid "&Show Statistics"
+msgstr "显示统计(&S)"
+
+#: kwin4.cpp:342
+msgid "Show statistics."
+msgstr "显示统计。"
+
+#: kwin4.cpp:354
+msgid "Theme"
+msgstr "主题"
+
+#: kwin4.cpp:365
+msgid "Debug KGame"
+msgstr "调试 KGame"
+
+#: kwin4.cpp:385
+msgid "Ready"
+msgstr "预备"
+
+#: kwin4.cpp:386
+msgid "This leaves space for the mover"
+msgstr "为移动者留下空间"
+
+#: kwin4.cpp:392
+msgid "Welcome to Four Wins"
+msgstr "欢迎来玩 KWin4"
+
+#: kwin4.cpp:587 kwin4.cpp:749
+msgid "Game running..."
+msgstr "游戏进行中..."
+
+#: kwin4.cpp:709
+msgid "No game  "
+msgstr "没有游戏"
+
+#: kwin4.cpp:711 kwin4.cpp:713
+#, fuzzy, kde-format
+#| msgid " %1 - Red "
+msgid " %1 - %2 "
+msgstr "%1 - 红色"
+
+#: kwin4.cpp:715
+msgid "Nobody  "
+msgstr "没有人"
+
+#: kwin4.cpp:737
+msgid "The network game ended!\n"
+msgstr "网络游戏结束！\n"
+
+#: kwin4.cpp:759
+msgid "The game is drawn. Please restart next round."
+msgstr "平局。请开始下一个回合。"
+
+#: kwin4.cpp:767
+#, kde-format
+msgid "%1 won the game. Please restart next round."
+msgstr "%1赢得游戏。请开始下一个回合。"
+
+#: kwin4.cpp:773
+msgid " Game ended. Please restart next round."
+msgstr " 游戏结束。请开始下一个回合。"
+
+#: kwin4.cpp:808
+msgid "Black should be played by remote player"
+msgstr "黑色应该由远程玩家控制"
+
+#: kwin4.cpp:809
+msgid "Red should be played by remote player"
+msgstr "红色应该由远程玩家控制"
+
+#: kwin4.cpp:887 kwin4.cpp:888 kwin4.cpp:909 kwin4.cpp:910
+#, fuzzy, kde-format
+#| msgid "Red Plays With"
+msgid "%1 Plays With"
+msgstr "红色玩家为"
+
+#: kwin4.cpp:911
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: label, entry (port), group (Parameter)
+#: kwin4.kcfg:10
+msgid "Network connection port"
+msgstr "网络连接端口"
+
+#. i18n: ectx: label, entry (gamename), group (Parameter)
+#: kwin4.kcfg:14
+msgid "Game name"
+msgstr "游戏名称"
+
+#. i18n: ectx: label, entry (host), group (Parameter)
+#: kwin4.kcfg:17
+msgid "Network connection host"
+msgstr "网络连接主机"
+
+#. i18n: ectx: property (whatsThis), widget (QSlider, kcfg_level)
+#. i18n: ectx: label, entry (level), group (Parameter)
+#: kwin4.kcfg:21 settings.ui:50
+msgid "Change the strength of the computer player."
+msgstr "更改电脑玩家的强度。"
+
+#. i18n: ectx: label, entry (Name1), group (Parameter)
+#: kwin4.kcfg:28
+msgid "Player 1 name"
+msgstr "玩家甲姓名"
+
+#. i18n: ectx: label, entry (Name2), group (Parameter)
+#: kwin4.kcfg:35
+msgid "Player 2 name"
+msgstr "玩家乙姓名"
+
+#: main.cpp:63
+msgid "KFourInLine"
+msgstr "KFourInLine"
+
+#: main.cpp:65
+msgid "KFourInLine: Two player board game"
+msgstr "KFourInLine：双人棋盘游戏"
+
+#: main.cpp:67
+msgid "(c) 1995-2007, Martin Heni"
+msgstr "(c) 1995-2007，Martin Heni"
+
+#: main.cpp:69
+msgid "Martin Heni"
+msgstr "Martin Heni"
+
+#: main.cpp:69
+msgid "Game design and code"
+msgstr "游戏设计和编码"
+
+#: main.cpp:70
+msgid "Johann Ollivier Lapeyre"
+msgstr "Johann Ollivier Lapeyre"
+
+#: main.cpp:70 main.cpp:71
+msgid "Graphics"
+msgstr "图像工作"
+
+#: main.cpp:71
+msgid "Eugene Trounev"
+msgstr "Eugene Trounev"
+
+#: main.cpp:72
+msgid "Benjamin Meyer"
+msgstr "Benjamin Meyer"
+
+#: main.cpp:72
+msgid "Code Improvements"
+msgstr "代码改进"
+
+#: main.cpp:77
+msgid "Enter debug level"
+msgstr "输入调试级别"
+
+#: main.cpp:78
+msgid "Skip intro animation"
+msgstr "跳过介绍动画"
+
+#: main.cpp:79
+msgid "Run game in demo (autoplay) mode"
+msgstr "以演示模式(自动游戏)运行游戏"
+
+#: scoresprite.cpp:176
+#, kde-format
+msgctxt "computer level"
+msgid "Level %1"
+msgstr "级别 %1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: settings.ui:38
+msgid "Computer Difficulty"
+msgstr "电脑难度"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: settings.ui:83
+msgid "Easy"
+msgstr "易"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: settings.ui:90
+msgid "Hard"
+msgstr "难"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_learning)
+#: settings.ui:102
+msgid "Use AI learning"
+msgstr "启用 AI 自学特性"
+
+#. i18n: ectx: property (title), widget (QGroupBox, Input1)
+#: settings.ui:112
+msgid "Red Plays With"
+msgstr "红色玩家为"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_input1mouse)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_input0mouse)
+#: settings.ui:132 settings.ui:181
+msgid "Mouse"
+msgstr "鼠标"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_input1key)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_input0key)
+#: settings.ui:142 settings.ui:191
+msgid "Keyboard"
+msgstr "键盘"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_input1ai)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_input0ai)
+#: settings.ui:149 settings.ui:198
+msgid "Computer"
+msgstr "电脑"
+
+#. i18n: ectx: property (title), widget (QGroupBox, Input0)
+#: settings.ui:161
+msgid "Black Plays With"
+msgstr "黑色玩家为"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: settings.ui:216
+msgid "Player Names"
+msgstr "玩家名字"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: settings.ui:242
+msgid "Player 1:"
+msgstr "玩家甲："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: settings.ui:249
+msgid "Player 2:"
+msgstr "玩家乙："
+
+#. i18n: ectx: property (title), widget (QGroupBox, StartColour)
+#: settings.ui:267
+msgid "Starting Player Color"
+msgstr "开始玩家颜色"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_startcolourred)
+#: settings.ui:287
+msgid "Red"
+msgstr "红"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_startcolouryellow)
+#: settings.ui:297
+msgid "Black"
+msgstr "黑"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, Statistics)
+#: statistics.ui:13
+msgid "Statistics"
+msgstr "统计"
+
+#. i18n: ectx: property (text), widget (QLabel, p1_name)
+#: statistics.ui:57 statuswidget.ui:113
+msgid "Player 1"
+msgstr "玩家甲"
+
+#. i18n: ectx: property (text), widget (QLabel, Name)
+#: statistics.ui:64
+msgid "Name"
+msgstr "名字"
+
+#. i18n: ectx: property (text), widget (QLabel, won)
+#: statistics.ui:74
+msgid "Won"
+msgstr "胜利"
+
+#. i18n: ectx: property (text), widget (QLabel, lost)
+#: statistics.ui:87
+msgid "Lost"
+msgstr "失败"
+
+#. i18n: ectx: property (text), widget (QLabel, sum)
+#: statistics.ui:103
+msgid "Sum"
+msgstr "总计"
+
+#. i18n: ectx: property (text), widget (QLabel, aborted)
+#: statistics.ui:113
+msgid "Aborted"
+msgstr "中止"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton1)
+#: statistics.ui:131
+msgid "Clear All Statistics"
+msgstr "清除所有统计"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton2)
+#: statistics.ui:154
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#. i18n: ectx: property (text), widget (QLabel, p2_name)
+#: statistics.ui:166 statuswidget.ui:220
+msgid "Player 2"
+msgstr "玩家乙"
+
+#. i18n: ectx: property (text), widget (QLabel, drawn)
+#: statistics.ui:176
+msgid "Drawn"
+msgstr "平局"
+
+#. i18n: ectx: property (text), widget (QLabel, wins)
+#: statuswidget.ui:63
+msgid "W"
+msgstr "W"
+
+#. i18n: ectx: property (text), widget (QLabel, draws)
+#: statuswidget.ui:73
+msgid "D"
+msgstr "D"
+
+#. i18n: ectx: property (text), widget (QLabel, loses)
+#: statuswidget.ui:83
+msgid "L"
+msgstr "L"
+
+#. i18n: ectx: property (text), widget (QLabel, num)
+#: statuswidget.ui:93
+msgid "No"
+msgstr "否"
+
+#. i18n: ectx: property (text), widget (QLabel, bk)
+#: statuswidget.ui:103
+msgid "Bk"
+msgstr "Bk"

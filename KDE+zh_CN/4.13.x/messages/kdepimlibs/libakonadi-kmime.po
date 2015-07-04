@@ -1,0 +1,627 @@
+# translation of libakonadi-kmime.po to 简体中文
+# Note and phrase to further translation:
+# Copyright (C) 2002,2003, 2004, 2009 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Levin Du <zsdjw@21cn.com>, 2004.
+# Funda Wang <fundawang@linux.net.cn>, 2002,2003,2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010, 2011, 2012.
+# Feng Chao <rainofchaos@gmail.com>, 2010.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: libakonadi-kmime\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-25 01:41+0000\n"
+"PO-Revision-Date: 2013-07-07 22:14-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: emptytrashcommand.cpp:60
+msgid "Empty Trash"
+msgstr "清空废件夹"
+
+#: emptytrashcommand.cpp:61
+msgid "Are you sure you want to empty the trash folders of all accounts?"
+msgstr "您确定要清空全部账户的废件夹吗？"
+
+#. i18n: ectx: label, entry (ImapServer), group (network)
+#: imapresource.kcfg:10
+msgid "IMAP server"
+msgstr "IMAP 服务器"
+
+#. i18n: ectx: label, entry (ImapPort), group (network)
+#: imapresource.kcfg:13
+msgid "Defines the port the IMAP service is running on"
+msgstr "定义 IMAP 服务运行的端口"
+
+#. i18n: ectx: label, entry (UserName), group (network)
+#: imapresource.kcfg:17
+msgid "Username"
+msgstr "用户名"
+
+#. i18n: ectx: label, entry (Safety), group (network)
+#: imapresource.kcfg:20
+msgid "Defines the encryption type to use"
+msgstr "定义要使用的加密类型"
+
+#. i18n: ectx: label, entry (Authentication), group (network)
+#: imapresource.kcfg:24
+msgid "Defines the authentication type to use"
+msgstr "定义要使用的验证类型"
+
+#. i18n: ectx: label, entry (SubscriptionEnabled), group (network)
+#: imapresource.kcfg:28
+msgid "Defines if the server side subscription is enabled"
+msgstr "定义服务器是否启用订阅"
+
+#. i18n: ectx: label, entry (DisconnectedModeEnabled), group (cache)
+#: imapresource.kcfg:34
+msgid "Defines if all the IMAP data should be cached locally all the time"
+msgstr "定义是否总是将所有 IMAP 数据缓存到本地"
+
+#. i18n: ectx: label, entry (IntervalCheckEnabled), group (cache)
+#: imapresource.kcfg:38
+msgid "Defines if interval checking is enabled."
+msgstr "定义是否启用了定期检查。"
+
+#. i18n: ectx: label, entry (IntervalCheckTime), group (cache)
+#: imapresource.kcfg:42
+msgid "Check interval in minutes"
+msgstr "检查间隔，以分钟计"
+
+#. i18n: ectx: label, entry (RetrieveMetadataOnFolderListing), group (cache)
+#: imapresource.kcfg:47
+msgid ""
+"Defines if the annotations, ACLs and quota information of mailboxes should\n"
+"             also be retrieved when the mailboxes get listed."
+msgstr "定义是否要在列出信箱时，同时获取信箱的批注、访问控制列表及配额信息。"
+
+#. i18n: ectx: label, entry (AutomaticExpungeEnabled), group (cache)
+#: imapresource.kcfg:52
+msgid ""
+"Defines if the expunge command is issued automatically, otherwise it should "
+"be\n"
+"             triggered manually through the D-Bus interface."
+msgstr ""
+"定义是否要自动生成 expunge 命令，如果不自动则会通过 D-Bus 接口触发此命令。"
+
+#. i18n: ectx: label, entry (TrashCollection), group (cache)
+#: imapresource.kcfg:56
+msgid "Define which folder is used for trash"
+msgstr "定义哪个是废件夹"
+
+#. i18n: ectx: label, entry (UseDefaultIdentity), group (cache)
+#: imapresource.kcfg:60
+msgid "Define if account uses the default identity"
+msgstr "定义账户是否使用默认身份"
+
+#. i18n: ectx: label, entry (AccountIdentity), group (cache)
+#: imapresource.kcfg:64
+msgid "Identity account"
+msgstr "身份账户"
+
+#. i18n: ectx: label, entry (IdleRidPath), group (idle)
+#: imapresource.kcfg:69
+msgid "RID path to the mailbox to watch for changes"
+msgstr "要监视改动的信箱的 RID 路径"
+
+#. i18n: ectx: label, entry (SieveSupport), group (siever)
+#: imapresource.kcfg:74
+msgid "Define if server supports sieve"
+msgstr "订阅服务器是否支持筛选"
+
+#. i18n: ectx: label, entry (SieveReuseConfig), group (siever)
+#: imapresource.kcfg:78
+msgid "Define if we reuse host and login configuration"
+msgstr "定义是否重用主机和登录配置"
+
+#. i18n: ectx: label, entry (SievePort), group (siever)
+#: imapresource.kcfg:82
+msgid "Define sieve port"
+msgstr "定义筛选端口"
+
+#. i18n: ectx: label, entry (SieveAlternateUrl), group (siever)
+#: imapresource.kcfg:86
+msgid "Define alternate URL"
+msgstr "定义备用 URL"
+
+#. i18n: ectx: label, entry (SieveVacationFilename), group (siever)
+#: imapresource.kcfg:89
+msgid "Define default sieve vacation filename"
+msgstr "定义默认筛选配置文件名"
+
+#: messagemodel.cpp:102
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This model can only handle email folders. The current collection holds "
+"mimetypes: %1"
+msgstr "此模型只能处理电子邮件目录。当前收藏的 mimetype 是：%1"
+
+#: messagemodel.cpp:126
+msgctxt "@label No size available"
+msgid "-"
+msgstr "-"
+
+#: messagemodel.cpp:164
+msgctxt "@title:column, message (e.g. email) subject"
+msgid "Subject"
+msgstr "主题"
+
+#: messagemodel.cpp:166
+msgctxt "@title:column, sender of message (e.g. email)"
+msgid "Sender"
+msgstr "发件人"
+
+#: messagemodel.cpp:168
+msgctxt "@title:column, receiver of message (e.g. email)"
+msgid "Receiver"
+msgstr "收件人"
+
+#: messagemodel.cpp:170
+msgctxt "@title:column, message (e.g. email) timestamp"
+msgid "Date"
+msgstr "日期"
+
+#: messagemodel.cpp:172
+msgctxt "@title:column, message (e.g. email) size"
+msgid "Size"
+msgstr "大小"
+
+#: removeduplicatesjob.cpp:54
+msgid "Retrieving items..."
+msgstr "获取项目..."
+
+#: removeduplicatesjob.cpp:72
+msgid "Searching for duplicates..."
+msgstr "搜索重复项目..."
+
+#: removeduplicatesjob.cpp:131
+msgid "Removing duplicates..."
+msgstr "删除重复项..."
+
+#: specialmailcollections.cpp:143
+msgctxt "local mail folder"
+msgid "inbox"
+msgstr "收件箱"
+
+#: specialmailcollections.cpp:146
+msgctxt "local mail folder"
+msgid "outbox"
+msgstr "发件箱"
+
+#: specialmailcollections.cpp:149
+msgctxt "local mail folder"
+msgid "sent-mail"
+msgstr "已发送"
+
+#: specialmailcollections.cpp:152
+msgctxt "local mail folder"
+msgid "trash"
+msgstr "废件夹"
+
+#: specialmailcollections.cpp:155
+msgctxt "local mail folder"
+msgid "drafts"
+msgstr "草稿"
+
+#: specialmailcollections.cpp:158
+msgctxt "local mail folder"
+msgid "templates"
+msgstr "模板"
+
+#. i18n: ectx: label, entry (DefaultResourceId), group (SpecialCollections)
+#: specialmailcollections.kcfg:9
+msgid "Id of the resource containing the default special collections."
+msgstr "包含默认特殊集合的资源 id。"
+
+#. i18n: ectx: whatsthis, entry (DefaultResourceId), group (SpecialCollections)
+#: specialmailcollections.kcfg:10
+msgid "Id of the maildir resource containing the default special collections."
+msgstr "包含默认特殊集合的邮件目录资源 id。"
+
+#: specialmailcollectionsrequestjob.cpp:68
+msgctxt "local mail folder"
+msgid "Local Folders"
+msgstr "本地文件夹"
+
+#: standardmailactionmanager.cpp:125
+msgid "Add Folder..."
+msgstr "添加文件夹..."
+
+#: standardmailactionmanager.cpp:127 standardmailactionmanager.cpp:129
+msgid "Add a new folder to the currently selected account."
+msgstr "在当前所选的账户中添加新文件夹。"
+
+#: standardmailactionmanager.cpp:133
+msgctxt "@title:window"
+msgid "New Folder"
+msgstr "新建文件夹"
+
+#: standardmailactionmanager.cpp:137
+#, kde-format
+msgid "Could not create folder: %1"
+msgstr "无法新建文件夹：%1"
+
+#: standardmailactionmanager.cpp:141
+msgid "Folder creation failed"
+msgstr "文件夹创建失败"
+
+#: standardmailactionmanager.cpp:146
+#, kde-format
+msgid "Copy Folder"
+msgid_plural "Copy %1 Folders"
+msgstr[0] "复制 %1 个文件夹"
+
+#: standardmailactionmanager.cpp:148 standardmailactionmanager.cpp:150
+msgid "Copy the selected folders to the clipboard."
+msgstr "将选中的文件夹复制到剪贴板。"
+
+#: standardmailactionmanager.cpp:153
+#, kde-format
+msgctxt "@title:window"
+msgid "Properties of Folder %1"
+msgstr "文件夹 %1 的属性"
+
+#: standardmailactionmanager.cpp:158
+#, kde-format
+msgid "Delete Folder"
+msgid_plural "Delete %1 Folders"
+msgstr[0] "删除 %1 个文件夹"
+
+#: standardmailactionmanager.cpp:160 standardmailactionmanager.cpp:162
+msgid "Delete the selected folders from the account."
+msgstr "从账户中删除选中的文件夹。"
+
+#: standardmailactionmanager.cpp:165
+#, kde-format
+msgid "Do you really want to delete this folder and all its sub-folders?"
+msgid_plural ""
+"Do you really want to delete %1 folders and all their sub-folders?"
+msgstr[0] "您确定要删除 %1 个文件夹及其子文件夹吗？"
+
+#: standardmailactionmanager.cpp:170
+msgctxt "@title:window"
+msgid "Delete folder?"
+msgid_plural "Delete folders?"
+msgstr[0] "删除文件夹吗？"
+
+#: standardmailactionmanager.cpp:174
+#, kde-format
+msgid "Could not delete folder: %1"
+msgstr "无法删除文件夹：%1"
+
+#: standardmailactionmanager.cpp:178
+msgid "Folder deletion failed"
+msgstr "文件夹删除失败"
+
+#: standardmailactionmanager.cpp:183
+msgid "Update Folder"
+msgid_plural "Update Folders"
+msgstr[0] "更新文件夹"
+
+#: standardmailactionmanager.cpp:186 standardmailactionmanager.cpp:188
+msgid "Update the contents of the selected folders."
+msgstr "更新选中的文件夹内容。"
+
+#: standardmailactionmanager.cpp:192
+#, kde-format
+msgid "Cut Folder"
+msgid_plural "Cut %1 Folders"
+msgstr[0] "剪切 %1 个文件夹"
+
+#: standardmailactionmanager.cpp:194 standardmailactionmanager.cpp:196
+msgid "Cut the selected folders from the account."
+msgstr "从账户中剪切选中的文件夹。"
+
+#: standardmailactionmanager.cpp:200
+msgid "Folder Properties..."
+msgstr "文件夹属性..."
+
+#: standardmailactionmanager.cpp:202 standardmailactionmanager.cpp:204
+msgid "Open a dialog to edit the properties of the selected folder."
+msgstr "打开对话框以编辑选中文件夹的属性。"
+
+#: standardmailactionmanager.cpp:208
+#, kde-format
+msgid "Copy Message"
+msgid_plural "Copy %1 Messages"
+msgstr[0] "复制 %1 封信件"
+
+#: standardmailactionmanager.cpp:210 standardmailactionmanager.cpp:212
+msgid "Copy the selected messages to the clipboard."
+msgstr "将所选信件复制到剪贴板。"
+
+#: standardmailactionmanager.cpp:216
+#, kde-format
+msgid "Delete Message"
+msgid_plural "Delete %1 Messages"
+msgstr[0] "删除 %1 封信件"
+
+#: standardmailactionmanager.cpp:218 standardmailactionmanager.cpp:220
+msgid "Delete the selected messages from the folder."
+msgstr "从文件夹中删除选中的信件。"
+
+#: standardmailactionmanager.cpp:223
+#, kde-format
+msgid "Do you really want to delete the selected message?"
+msgid_plural "Do you really want to delete %1 messages?"
+msgstr[0] "您确定要删除 %1 封信件？"
+
+#: standardmailactionmanager.cpp:228
+msgctxt "@title:window"
+msgid "Delete Message?"
+msgid_plural "Delete Messages?"
+msgstr[0] "删除信件吗？"
+
+#: standardmailactionmanager.cpp:232
+#, kde-format
+msgid "Could not delete message: %1"
+msgstr "无法删除信件：%1"
+
+#: standardmailactionmanager.cpp:236
+msgid "Message deletion failed"
+msgstr "信件删除失败"
+
+#: standardmailactionmanager.cpp:240
+#, kde-format
+msgid "Cut Message"
+msgid_plural "Cut %1 Messages"
+msgstr[0] "剪切 %1 封信件"
+
+#: standardmailactionmanager.cpp:242 standardmailactionmanager.cpp:244
+msgid "Cut the selected message from the folder."
+msgstr "从文件夹中剪切选中的信件。"
+
+#: standardmailactionmanager.cpp:248
+msgid "Add &Account..."
+msgstr "添加账户(&A)..."
+
+#: standardmailactionmanager.cpp:250
+msgid ""
+"Add a new account<p>You will be presented with a dialog where you can select "
+"the type of the account that shall be added.</p>"
+msgstr "添加新账户<p>将会展示一个让您选择要添加账户类型的对话框。</p>"
+
+#: standardmailactionmanager.cpp:255
+msgctxt "@title:window"
+msgid "Add Account"
+msgstr "添加账户"
+
+#: standardmailactionmanager.cpp:259
+#, kde-format
+msgid "Could not create account: %1"
+msgstr "无法创建账户：%1"
+
+#: standardmailactionmanager.cpp:263
+msgid "Account creation failed"
+msgstr "账户创建失败"
+
+#: standardmailactionmanager.cpp:267
+#, kde-format
+msgid "&Delete Account"
+msgid_plural "&Delete %1 Accounts"
+msgstr[0] "删除 %1 个账户(&D)"
+
+#: standardmailactionmanager.cpp:269
+msgid ""
+"Delete the selected accounts<p>The currently selected accounts will be "
+"deleted, along with all the messages they contain.</p>"
+msgstr "删除选中的账户<p>当前所选的账户以及所包含的信件将被删除。</p>"
+
+#: standardmailactionmanager.cpp:274
+#, kde-format
+msgid "Do you really want to delete this account?"
+msgid_plural "Do you really want to delete %1 accounts?"
+msgstr[0] "您确定要删除 %1 个账户吗？"
+
+#: standardmailactionmanager.cpp:279
+msgctxt "@title:window"
+msgid "Delete Account?"
+msgid_plural "Delete Accounts?"
+msgstr[0] "删除账户吗？"
+
+#: standardmailactionmanager.cpp:283
+msgid "Account Properties..."
+msgstr "账户属性..."
+
+#: standardmailactionmanager.cpp:285
+msgid "Open a dialog to edit properties of the selected account."
+msgstr "打开对话框以编辑选中账户的属性。"
+
+#: standardmailactionmanager.cpp:289
+#, kde-format
+msgid "Update Account"
+msgid_plural "Update %1 Accounts"
+msgstr[0] "更新 %1 个账户"
+
+#: standardmailactionmanager.cpp:291
+msgid "Updates the content of all folders of the selected accounts."
+msgstr "更新选中的账户中所有文件夹的内容。"
+
+#: standardmailactionmanager.cpp:297
+msgid "Update This Folder and All Its Subfolders"
+msgid_plural "Update These Folders and All Their Subfolders"
+msgstr[0] "更新这些文件夹及其子文件夹"
+
+#: standardmailactionmanager.cpp:301 standardmailactionmanager.cpp:303
+msgid "Update the contents of the selected folders and all their subfolders."
+msgstr "更新选中的文件夹及其子文件夹内容。"
+
+#: standardmailactionmanager.cpp:308
+#, kde-format
+msgid "Could not paste message: %1"
+msgstr "无法粘贴信件：%1"
+
+#: standardmailactionmanager.cpp:312
+msgid "Paste failed"
+msgstr "粘贴失败"
+
+#: standardmailactionmanager.cpp:375
+msgid "Remove Important Mark"
+msgstr "删除重要标记"
+
+#: standardmailactionmanager.cpp:378
+msgid "&Mark Mail as Important"
+msgstr "将信件标为重要(&M)"
+
+#: standardmailactionmanager.cpp:389
+msgid "Remove Action Item Mark"
+msgstr "删除活动项标记"
+
+#: standardmailactionmanager.cpp:392
+msgid "&Mark Mail as Action Item"
+msgstr "将信件标为活动项(&M)"
+
+#: standardmailactionmanager.cpp:721
+msgid "&Mark Message as Read"
+msgstr "标记信件为已读(&M)"
+
+#: standardmailactionmanager.cpp:722
+msgid "Mark as Read"
+msgstr "标为已读"
+
+#: standardmailactionmanager.cpp:723 standardmailactionmanager.cpp:724
+msgid "Mark selected messages as read."
+msgstr "标记选中信件为已读"
+
+#: standardmailactionmanager.cpp:734
+msgid "&Mark Message as Unread"
+msgstr "标记信件为未读(&M)"
+
+#: standardmailactionmanager.cpp:735
+msgid "Mark as Unread"
+msgstr "标为未读"
+
+#: standardmailactionmanager.cpp:736 standardmailactionmanager.cpp:737
+msgid "Mark selected messages as unread."
+msgstr "标记选中信件为已读。"
+
+#: standardmailactionmanager.cpp:747
+msgid "&Mark Message as Important"
+msgstr "标记信件为重要(&M)"
+
+#: standardmailactionmanager.cpp:748
+msgid "Mark as Important"
+msgstr "标为重要"
+
+#: standardmailactionmanager.cpp:749
+msgid "Mark selected messages as important."
+msgstr "标记选中信件为重要。"
+
+#: standardmailactionmanager.cpp:759
+msgid "&Mark Message as Action Item"
+msgstr "标记信件为活动项(&M)"
+
+#: standardmailactionmanager.cpp:760
+msgid "Mark as Action Item"
+msgstr "标为活动项"
+
+#: standardmailactionmanager.cpp:761 standardmailactionmanager.cpp:762
+msgid "Mark selected messages as action items."
+msgstr "标记选中信件为活动项。"
+
+#: standardmailactionmanager.cpp:771
+msgid "Mark &All Messages as Read"
+msgstr "标记所有信件为已读(&A)"
+
+#: standardmailactionmanager.cpp:772
+msgid "Mark All as Read"
+msgstr "全部标为已读"
+
+#: standardmailactionmanager.cpp:773 standardmailactionmanager.cpp:774
+msgid "Mark all messages as read."
+msgstr "标记所有信件为已读。"
+
+#: standardmailactionmanager.cpp:783
+msgid "Mark &All Messages as Unread"
+msgstr "标记所有信件为未读(&A)"
+
+#: standardmailactionmanager.cpp:784
+msgid "Mark All as Unread"
+msgstr "全部标为未读"
+
+#: standardmailactionmanager.cpp:785 standardmailactionmanager.cpp:786
+msgid "Mark all messages as unread."
+msgstr "标记所有信件为未读"
+
+#: standardmailactionmanager.cpp:795
+msgid "Mark &All Messages as Important"
+msgstr "标记所有的信件为重要(&A)"
+
+#: standardmailactionmanager.cpp:796
+msgid "Mark All as Important"
+msgstr "全部标为重要"
+
+#: standardmailactionmanager.cpp:797 standardmailactionmanager.cpp:798
+msgid "Mark all messages as important."
+msgstr "标记所有的信件为重要。"
+
+#: standardmailactionmanager.cpp:806
+msgid "Mark All as Action Item"
+msgstr "全部标为活动项"
+
+#: standardmailactionmanager.cpp:807
+msgid "Mark &All Messages as Action Item"
+msgstr "标记所有的信件为活动项(&A)"
+
+#: standardmailactionmanager.cpp:809 standardmailactionmanager.cpp:810
+msgid "Mark all messages as action items."
+msgstr "标记所有的信件为活动项。"
+
+#: standardmailactionmanager.cpp:819
+msgid "Move to &Trash"
+msgstr "移动到废件夹(&T)"
+
+#: standardmailactionmanager.cpp:821 standardmailactionmanager.cpp:822
+msgid "Move selected messages to the trash folder."
+msgstr "将选中信件放入废件夹。"
+
+#: standardmailactionmanager.cpp:830
+msgid "Move All to &Trash"
+msgstr "全部移动到废件夹(&T)"
+
+#: standardmailactionmanager.cpp:831 standardmailactionmanager.cpp:832
+msgid "Move all messages to the trash folder."
+msgstr "将所有信件放入废件夹。"
+
+#: standardmailactionmanager.cpp:839
+msgid "Remove &Duplicate Messages"
+msgstr "移除重复的信件(&D)"
+
+#: standardmailactionmanager.cpp:840 standardmailactionmanager.cpp:841
+msgid "Remove duplicate messages."
+msgstr "移除重复的信件。"
+
+#: standardmailactionmanager.cpp:849
+msgid "Empty All &Trash Folders"
+msgstr "清空全部垃圾文件夹(&T)"
+
+#: standardmailactionmanager.cpp:850 standardmailactionmanager.cpp:851
+msgid "Permanently delete all messages from all trash folders."
+msgstr "从所有废件箱永久删除所有信件。"
+
+#: standardmailactionmanager.cpp:858
+msgid "E&mpty Trash"
+msgstr "清空废件夹(&M)"
+
+#: standardmailactionmanager.cpp:859 standardmailactionmanager.cpp:860
+msgid "Permanently delete all messages from the trash folder."
+msgstr "从废件箱永久删除所有信件。"
+
+#~ msgid "Copy Email"
+#~ msgid_plural "Copy %1 Emails"
+#~ msgstr[0] "复制 %1 封电子邮件"
+
+#~ msgid "Cut Email"
+#~ msgid_plural "Cut %1 Emails"
+#~ msgstr[0] "剪切 %1 封电子邮件"

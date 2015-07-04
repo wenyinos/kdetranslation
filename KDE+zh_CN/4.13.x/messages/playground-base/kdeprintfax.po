@@ -1,0 +1,426 @@
+# translation of kdeprintfax.po to zh_CN
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Wang Jian <lark@linux.net.cn>, 2001
+# Xiong Jiang <jxiong@offtopic.org>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeprintfax\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 05:59+0200\n"
+"PO-Revision-Date: 2004-06-22 12:53+0800\n"
+"Last-Translator: Li Zongliang <li-zongliang@21cn.com>\n"
+"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: conffax.cpp:45
+msgid "High (204x196 dpi)"
+msgstr "高(204x196 dpi)"
+
+#: conffax.cpp:46
+msgid "Low (204x98 dpi)"
+msgstr "低(204x98 dpi)"
+
+#: conffax.cpp:47
+msgid "A4"
+msgstr "A4"
+
+#: conffax.cpp:48
+msgid "Letter"
+msgstr "信纸"
+
+#: conffax.cpp:49
+msgid "Legal"
+msgstr "Legal"
+
+#: conffax.cpp:50
+msgid "&Resolution:"
+msgstr "分辨率(&R)："
+
+#: conffax.cpp:52
+msgid "&Paper size:"
+msgstr "纸张大小(&P)："
+
+#: conffilters.cpp:44
+msgid "Mime Type"
+msgstr "MIME 类型"
+
+#: conffilters.cpp:45
+msgid "Command"
+msgstr "命令"
+
+#: conffilters.cpp:67
+msgid "Add filter"
+msgstr "添加过滤器"
+
+#: conffilters.cpp:68
+msgid "Modify filter"
+msgstr "修改过滤器"
+
+#: conffilters.cpp:69
+msgid "Remove filter"
+msgstr "删除过滤器"
+
+#: conffilters.cpp:70
+msgid "Move filter up"
+msgstr "上移过滤器"
+
+#: conffilters.cpp:71
+msgid "Move filter down"
+msgstr "下移过滤器"
+
+#: conffilters.cpp:139
+msgid "Empty parameters."
+msgstr "参数为空。"
+
+#: confgeneral.cpp:44
+msgid "&Name:"
+msgstr "名称(&N)："
+
+#: confgeneral.cpp:46
+msgid "&Company:"
+msgstr "公司(&C)："
+
+#: confgeneral.cpp:48
+msgid "N&umber:"
+msgstr "号码(&U)："
+
+#: confgeneral.cpp:51
+msgid "Replace international prefix '+' with:"
+msgstr "将国际直拨前缀“+”替换为："
+
+#: configdlg.cpp:37
+#, fuzzy
+msgid "Configuration"
+msgstr "过滤器配置"
+
+#: configdlg.cpp:45
+msgid "Personal"
+msgstr "个人"
+
+#: configdlg.cpp:46
+msgid "Personal Settings"
+msgstr "个人设置"
+
+#: configdlg.cpp:52
+msgid "Page setup"
+msgstr "页面设置"
+
+#: configdlg.cpp:53
+msgid "Page Setup"
+msgstr "页面设置"
+
+#: configdlg.cpp:59
+msgid "System"
+msgstr "系统"
+
+#: configdlg.cpp:60
+msgid "Fax System Selection"
+msgstr "传真系统选择"
+
+#: configdlg.cpp:66
+msgid "Filters"
+msgstr "过滤器"
+
+#: configdlg.cpp:67
+msgid "Filters Configuration"
+msgstr "过滤器配置"
+
+#: confsystem.cpp:53
+msgid "F&ax system:"
+msgstr "传真系统(&A)："
+
+#: confsystem.cpp:54
+msgid "Co&mmand:"
+msgstr "命令(&M)："
+
+#: confsystem.cpp:64
+msgid "Fax &server (if any):"
+msgstr "传真服务器(如果存在)(&S)："
+
+#: confsystem.cpp:65
+msgid "&Fax/Modem device:"
+msgstr "传真/调制解调器设备(&F)："
+
+#: confsystem.cpp:68
+msgid "Standard Modem Port"
+msgstr "标准调制解调器端口"
+
+#: confsystem.cpp:70
+#, kde-format
+msgid "Serial Port #%1"
+msgstr "串口 #%1"
+
+#: confsystem.cpp:71
+msgid "Other"
+msgstr "其它"
+
+#: faxab.cpp:46 kdeprintfax.cpp:92
+msgid "Name"
+msgstr "名称"
+
+#: faxab.cpp:47 kdeprintfax.cpp:91 kdeprintfax.cpp:620
+msgid "Fax Number"
+msgstr "传真号码"
+
+#: faxab.cpp:49
+msgid "Entries:"
+msgstr "项目："
+
+#: faxab.cpp:52
+#, fuzzy
+#| msgid "&Edit Addressbook"
+msgid "&Edit Address Book"
+msgstr "编辑地址薄(&E)"
+
+#: faxab.cpp:159
+msgid "No fax number found in your address book."
+msgstr "在您的地址薄中没有找到传真号码。"
+
+#: faxctrl.cpp:317
+msgid "Converting input files to PostScript"
+msgstr "将输入文件转换为 PostScript"
+
+#: faxctrl.cpp:397
+#, kde-format
+msgid "Sending fax to %1 (%2)"
+msgstr "发送传真给 %1 (%2)"
+
+#: faxctrl.cpp:402
+#, kde-format
+msgid "Sending to fax using: %1"
+msgstr "发送到传真使用：%1"
+
+#: faxctrl.cpp:408
+#, kde-format
+msgid "Sending fax to %1..."
+msgstr "正在发送传真到 %1..."
+
+#: faxctrl.cpp:419
+#, kde-format
+msgid "Skipping %1..."
+msgstr "正在跳过 %1..."
+
+#: faxctrl.cpp:439
+#, kde-format
+msgid "Filtering %1..."
+msgstr "正在过滤 %1..."
+
+#: faxctrl.cpp:561
+msgid "Fax log"
+msgstr "传真日志"
+
+#: faxctrl.cpp:563
+msgid "Fax Log"
+msgstr "传真日志"
+
+#: faxctrl.cpp:571 faxctrl.cpp:601
+msgid "KDEPrint Fax Tool Log"
+msgstr "KDEPrint 传真工具日志"
+
+#: faxctrl.cpp:606
+msgid "Cannot open file for writing."
+msgstr "无法打开文件进行写入。"
+
+#: filterdlg.cpp:35
+msgid "Filter Parameters"
+msgstr "过滤器参数"
+
+#: filterdlg.cpp:42
+msgid "MIME type:"
+msgstr "MIME 类型："
+
+#: filterdlg.cpp:43
+msgid "Command:"
+msgstr "命令："
+
+#: kdeprintfax.cpp:78
+msgid "Move up"
+msgstr "上移"
+
+#: kdeprintfax.cpp:83
+msgid "Move down"
+msgstr "下移"
+
+#: kdeprintfax.cpp:86
+msgid "F&iles:"
+msgstr "文件(&I)："
+
+#: kdeprintfax.cpp:93
+msgid "Enterprise"
+msgstr "企业"
+
+#: kdeprintfax.cpp:100
+msgid "Add fax number"
+msgstr "添加传真号码"
+
+#: kdeprintfax.cpp:104
+#, fuzzy
+#| msgid "Add fax number from addressbook"
+msgid "Add fax number from address book"
+msgstr "从地址簿添加传真号码"
+
+#: kdeprintfax.cpp:108
+msgid "Remove fax number"
+msgstr "删除传真号码"
+
+#: kdeprintfax.cpp:111
+msgid "&Comment:"
+msgstr "注释(&C)："
+
+#: kdeprintfax.cpp:119
+msgid "Sched&ule:"
+msgstr "调度(&U)："
+
+#: kdeprintfax.cpp:121
+msgid "Now"
+msgstr "现在"
+
+#: kdeprintfax.cpp:122
+msgid "At Specified Time"
+msgstr "在指定时刻"
+
+#: kdeprintfax.cpp:130
+msgid "Su&bject:"
+msgstr "主题(&B)："
+
+#: kdeprintfax.cpp:191 kdeprintfax.cpp:321
+msgid "Processing..."
+msgstr "正在处理..."
+
+#: kdeprintfax.cpp:192 kdeprintfax.cpp:469
+msgid "Idle"
+msgstr "空闲"
+
+#: kdeprintfax.cpp:196
+msgid "Send to Fax"
+msgstr "发送到传真"
+
+#: kdeprintfax.cpp:213
+msgid "&Add File..."
+msgstr "添加文件(&A)..."
+
+#: kdeprintfax.cpp:219
+msgid "&Remove File"
+msgstr "删除文件(&R)"
+
+#: kdeprintfax.cpp:225
+msgid "&Send Fax"
+msgstr "发送传真(&S)"
+
+#: kdeprintfax.cpp:231
+msgid "A&bort"
+msgstr "中止(&B)"
+
+#: kdeprintfax.cpp:237
+msgid "A&ddress Book"
+msgstr "地址薄(&D)"
+
+#: kdeprintfax.cpp:243
+msgid "V&iew Log"
+msgstr "查看日志(&I)"
+
+#: kdeprintfax.cpp:249
+msgid "Vi&ew File"
+msgstr "查看文件(&E)"
+
+#: kdeprintfax.cpp:255
+msgid "&New Fax Recipient..."
+msgstr "新建传真收件人(&N)..."
+
+#: kdeprintfax.cpp:314
+msgid "No file to fax."
+msgstr "没有要传真的文件。"
+
+#: kdeprintfax.cpp:316
+msgid "No fax number specified."
+msgstr "传真号码没有指定。"
+
+#: kdeprintfax.cpp:324
+msgid "Unable to start Fax process."
+msgstr "无法开始传真过程。"
+
+#: kdeprintfax.cpp:354
+#, kde-format
+msgid "Unable to retrieve %1."
+msgstr "未能获得 %1。"
+
+#: kdeprintfax.cpp:476
+msgid "Fax error: see log message for more information."
+msgstr "传真错误：请查看日志以得到更多信息。"
+
+#: kdeprintfax.cpp:625
+msgid "Enter recipient fax properties."
+msgstr "输入收件人的传真属性。"
+
+#: kdeprintfax.cpp:626
+msgid "&Number:"
+msgstr "号码(&N)："
+
+#: kdeprintfax.cpp:627
+msgid "N&ame:"
+msgstr "名称(&A)："
+
+#: kdeprintfax.cpp:628
+msgid "&Enterprise:"
+msgstr "企业(&E)："
+
+#: kdeprintfax.cpp:656
+msgid "Invalid fax number."
+msgstr "无效的传真号码。"
+
+#. i18n: ectx: Menu (file)
+#: kdeprintfaxui.rc:4
+#, fuzzy
+msgid "&File"
+msgstr "过滤器"
+
+#. i18n: ectx: Menu (fax)
+#: kdeprintfaxui.rc:10
+msgid "Fa&x"
+msgstr "传真(&X)"
+
+#: main.cpp:33
+msgid "A small fax utility to be used with kdeprint."
+msgstr "一个小传真实用工具和kdeprint一起使用。"
+
+#: main.cpp:40
+msgid "KdeprintFax"
+msgstr "KdeprintFax"
+
+#: main.cpp:42
+msgid "(c), 2001 Michael Goffioul"
+msgstr ""
+
+#: main.cpp:43
+msgid "Michael Goffioul"
+msgstr ""
+
+#: main.cpp:47
+msgid "Phone number to fax to"
+msgstr "要发送传真的电话号码"
+
+#: main.cpp:48
+msgid "Send fax immediately"
+msgstr "立即发送传真"
+
+#: main.cpp:49
+msgid "Exit after sending"
+msgstr "发送后退出"
+
+#: main.cpp:50
+msgid "File to fax (added to the file list)"
+msgstr "要传真的文件(加进文件列表)"

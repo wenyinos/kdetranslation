@@ -1,0 +1,1821 @@
+# translation of kplato.po to zh_CN
+# translation of kplato.po to Simplified Chinese
+# Copyright (C) 2002,2003 Free Software Foundation, Inc.
+#
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Liu Songhe <jackliu9999@263.net>, 2003.
+# Funda Wang <fundawang@gmail.com>, 2005,2008.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kplato\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-21 01:27+0000\n"
+"PO-Revision-Date: 2011-06-06 10:28+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: about/aboutpage.cpp:66
+#, fuzzy
+#| msgid "KPlato"
+msgid "Plan"
+msgstr "KPlato"
+
+#: about/aboutpage.cpp:67
+msgctxt "KDE 4 tag line, see http://kde.org/img/kde40.png"
+msgid "Be free."
+msgstr ""
+
+#: about/aboutpage.cpp:68 about/aboutpage.cpp:99
+#, fuzzy
+#| msgid "KPlato is a Project Planning and Management application."
+msgid "Plan is a Project Planning and Management application."
+msgstr "KPlato 是项目规划和管理应用程序。"
+
+#: about/aboutpage.cpp:69
+msgid "Welcome to Plan."
+msgstr ""
+
+#: about/aboutpage.cpp:70
+#, fuzzy
+#| msgid ""
+#| "<b>Welcome to KPlato.</b><br>These introductory pages should give you an "
+#| "idea of how to use KPlato and what you can use it for."
+msgid ""
+"These introductory pages should give you an idea of how to use Plan and what "
+"you can use it for."
+msgstr ""
+"<b>欢迎使用 KPlato。</b><br>这里将为您简要介绍 KPlato 的用途以及如何使用它。"
+
+#: about/aboutpage.cpp:71
+msgid "A short introduction."
+msgstr "简要描述。"
+
+#: about/aboutpage.cpp:72
+msgid "Tips on how to manipulate and inspect data."
+msgstr ""
+
+#: about/aboutpage.cpp:73
+msgid "A small tutorial to get you started."
+msgstr ""
+
+#: about/aboutpage.cpp:75
+msgid ""
+"<em>Note:</em> To view these pages when you are in other parts of Plan, "
+"choose the menu option <em>Help ->  Introduction to Plan</em>."
+msgstr ""
+
+#: about/aboutpage.cpp:101
+msgid ""
+"Plan is intended for managing moderately large projects with multiple "
+"resources. To enable you to model your project adequately, Plan offers "
+"different types of task dependencies and timing constraints. Usually you "
+"will define your tasks, estimate the effort needed to perform each task, "
+"allocate resources and then schedule the project according to the dependency "
+"network and resource availability.<p>You can find more information in the <a "
+"href=\"help:plan\">documentation</a> or online at <a href=\"http://www."
+"calligra.org/plan\">http://www.calligra.org/plan</a></p>"
+msgstr ""
+
+#: about/aboutpage.cpp:106
+msgid "Next: Tips"
+msgstr "下一步：提示"
+
+#: about/aboutpage.cpp:145
+msgid "Editing tips."
+msgstr "编辑提示。"
+
+#: about/aboutpage.cpp:147
+msgid ""
+"<br/><b>To</b> edit project data, different views and editors can be "
+"selected in the View Selector docker.<br/><b>The</b> views are generally "
+"used to inspect data after the project has been scheduled. No data will "
+"appear in the views if the project has not been scheduled. Scheduling is "
+"done in the Schedules editor.<br/><b>You</b> can edit attributes in the "
+"various editors by selecting the item you want to edit (doubleclick or press "
+"F2), or open a dialog using the context menu.</ul>"
+msgstr ""
+
+#: about/aboutpage.cpp:153
+msgid "Next: Create a simple project"
+msgstr "下一步：创建简单工程"
+
+#: about/aboutpage.cpp:188
+msgid "Create the simplest project ever."
+msgstr "创建最简单的工程。"
+
+#: about/aboutpage.cpp:190
+#, kde-format
+msgctxt "1=datetime"
+msgid ""
+"Select the task editor <em>Editors->Tasks</em>:<ul><li>Create a task by "
+"selecting <em>Add Task</em> in the toolbar.</li><li>Set <em>Type</em> to "
+"<em>Duration</em>.</li><li>Set <em>Estimate</em> to <em>8 hours</em>.</"
+"li><li>Set <em>Constraint</em> to <em>As Soon As Possible</em>.</li></"
+"ul>Select the schedules editor <em>Editors->Schedules</em>:<ul><li>Create a "
+"schedule by selecting <em>Add Schedule</em> in the toolbar.</"
+"li><li>Calculate the schedule by selecting <em>Calculate</em> in the toolbar."
+"</li></ul>The task should now have been scheduled to start %1 with a "
+"duration of 8 hours. You can check this by selecting the Gantt chart "
+"<em>Views->Gantt</em>."
+msgstr ""
+
+#: about/aboutpage.cpp:206
+msgid "Next: Resource allocation"
+msgstr "下一步：资源分配"
+
+#: about/aboutpage.cpp:217
+msgid "Allocate a resource to the task."
+msgstr "为任务分配资源。"
+
+#: about/aboutpage.cpp:219
+#, kde-format
+msgctxt "1=datetime"
+msgid ""
+"Select the task editor <em>Editors->Tasks</em>:<ul><li>Enter a name (e.g. "
+"'John') in the <em>Allocation</em> column. (Plan will automatically create a "
+"resource with name 'John' under resource group 'Resources'.</li><li>Set "
+"<em>Type</em> to <em>Effort</em>.</li></ul>Now you need to schedule the "
+"project again with the new allocation:<br/>Select the schedules editor "
+"<em>Editors->Schedules</em> and calculate the schedule by selecting "
+"<em>Calculate</em> in the toolbar.<p>The task should be scheduled to start "
+"%1 with a duration of 8 hours. You can check this by selecting the Gantt "
+"chart <em>Views->Gantt</em>.<p>"
+msgstr ""
+
+#: about/aboutpage.cpp:230
+msgid "Next: Introduction"
+msgstr "下一步：介绍"
+
+#: KPlatoXmlLoader.cpp:71
+#, fuzzy
+#| msgid ""
+#| "This document was created with a newer version of KPlato (syntax version: "
+#| "%1)\n"
+#| "Opening it in this version of KPlato will lose some information."
+msgid ""
+"This document has no syntax version.\n"
+"Opening it in Plan may lose information."
+msgstr ""
+"此文档由更新版本的 KPlato(语法版本：%1)所创建。\n"
+"在此版本的 KPlato 中打开可能会丢失某些信息。"
+
+#: KPlatoXmlLoader.cpp:73
+#, fuzzy
+#| msgid "File-Format Mismatch"
+msgid "File-Format Error"
+msgstr "文件格式不匹配"
+
+#: KPlatoXmlLoader.cpp:73 KPlatoXmlLoader.cpp:85 KPlatoXmlLoader.cpp:127
+#: kptmaindocument.cpp:230 kptmaindocument.cpp:517
+msgid "Continue"
+msgstr "继续"
+
+#: KPlatoXmlLoader.cpp:82
+#, fuzzy, kde-format
+#| msgid ""
+#| "This document was created with a newer version of KPlato (syntax version: "
+#| "%1)\n"
+#| "Opening it in this version of KPlato will lose some information."
+msgid ""
+"This document was created with a newer version of KPlato than Plan can "
+"load.\n"
+"Syntax version: %1\n"
+"Opening it in this version of Plan may lose some information."
+msgstr ""
+"此文档由更新版本的 KPlato(语法版本：%1)所创建。\n"
+"在此版本的 KPlato 中打开可能会丢失某些信息。"
+
+#: KPlatoXmlLoader.cpp:85 KPlatoXmlLoader.cpp:127 kptmaindocument.cpp:230
+#: kptmaindocument.cpp:517
+msgid "File-Format Mismatch"
+msgstr "文件格式不匹配"
+
+#: KPlatoXmlLoader.cpp:125
+#, fuzzy, kde-format
+#| msgid ""
+#| "This document was created with a newer version of KPlatoWork (syntax "
+#| "version: %1)\n"
+#| "Opening it in this version of KPlatoWork will lose some information."
+msgid ""
+"This document was created with a newer version of KPlatoWork (syntax "
+"version: %1)\n"
+"Opening it in this version of PlanWork will lose some information."
+msgstr ""
+"此文档由更新版本的 KPlatoWork(语法版本：%1)所创建。\n"
+"在此版本的 KPlato 中打开可能会丢失某些信息。"
+
+#: kptaboutdata.h:32
+#, fuzzy
+#| msgid "KPlato is a Project Planning and Management application."
+msgid "Project Planning and Management Tool"
+msgstr "KPlato 是项目规划和管理应用程序。"
+
+#: kptaboutdata.h:37
+#, fuzzy
+#| msgid "KPlato"
+msgctxt "application name"
+msgid "Plan"
+msgstr "KPlato"
+
+#: kptaboutdata.h:39
+#, fuzzy
+#| msgid "(c) 1998-2010, The KPlato Team"
+msgid "Copyright (C) 1998-2013, The Plan Team"
+msgstr "(c) 1998-2010, KPlato 开发组"
+
+#: kptaboutdata.h:42
+msgid "Thomas Zander"
+msgstr "Thomas Zander"
+
+#: kptaboutdata.h:43
+msgid "Bo Thorsen"
+msgstr "Bo Thorsen"
+
+#: kptaboutdata.h:44
+msgid "Dag Andersen"
+msgstr "Dag Andersen"
+
+#: kptaboutdata.h:45
+msgid "Raphael Langerhorst"
+msgstr "Raphael Langerhorst"
+
+#: kptbuiltinschedulerplugin.cpp:38
+#, fuzzy
+#| msgid "Network Scheduler"
+msgctxt "Network = task dependency network"
+msgid "Network Scheduler"
+msgstr "计划程序"
+
+#: kptbuiltinschedulerplugin.cpp:39
+#, fuzzy
+#| msgid "Built-in network based scheduler"
+msgctxt "@info:tooltip"
+msgid "Built-in network (PERT) based scheduler"
+msgstr "内置的基于网络的计划程序"
+
+#: kptbuiltinschedulerplugin.cpp:48
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Network (PERT) Scheduler</title><para>The network scheduler generally "
+"schedules tasks according to their dependencies. When a task is scheduled it "
+"is scheduled in full, booking the allocated resources if available. If "
+"overbooking is not allowed, subsequent tasks that requests the same resource "
+"will be scheduled later in time.</para><para>Tasks with time constraints "
+"will be scheduled first to minimize the problem with resource conflicts</"
+"para><para><note>This scheduler does not handle resource conflicts well.<nl/"
+">You can try a different scheduler if available. You may also change "
+"resource allocations or add dummy dependencies to avoid the conflicts.</"
+"note></para>"
+msgstr ""
+
+#. i18n: ectx: label, entry (ColorGradientType), group (TaskColors)
+#: kptcolorsconfigpanel.cpp:34 plansettings.kcfg:93
+#, fuzzy
+#| msgid "Lines"
+msgid "Linear"
+msgstr "行"
+
+#. i18n: ectx: label, entry (ColorGradientType), group (TaskColors)
+#: kptcolorsconfigpanel.cpp:35 plansettings.kcfg:94
+#, fuzzy
+#| msgid "KPlato"
+msgid "Flat"
+msgstr "KPlato"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: kptcolorsconfigpanel.ui:28
+#, fuzzy
+#| msgid "Gantt"
+msgid "Gradient:"
+msgstr "甘特图"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: kptcolorsconfigpanel.ui:57
+msgctxt "@title:tab"
+msgid "Summary task"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kptcolorsconfigpanel.ui:69
+#, fuzzy
+#| msgid "Task Defaults"
+msgctxt "@label:chooser"
+msgid "Default:"
+msgstr "任务默认值"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_SummaryTaskLevelColorsEnabled)
+#: kptcolorsconfigpanel.ui:92
+msgctxt "@title:group"
+msgid "Use level colors"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kptcolorsconfigpanel.ui:110
+msgctxt "@label:chooser"
+msgid "Level 1"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kptcolorsconfigpanel.ui:139
+msgctxt "@label:chooser"
+msgid "Level 2"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: kptcolorsconfigpanel.ui:168
+msgctxt "@label:chooser"
+msgid "Level 3"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kptcolorsconfigpanel.ui:197
+msgctxt "@label:chooser"
+msgid "Level 4"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: kptcolorsconfigpanel.ui:231
+#, fuzzy
+#| msgid "Tasks"
+msgctxt "@title:tab"
+msgid "Task"
+msgstr "任务"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: kptcolorsconfigpanel.ui:243 kptcolorsconfigpanel.ui:385
+msgctxt "@label:chooser"
+msgid "Normal:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: kptcolorsconfigpanel.ui:275 kptcolorsconfigpanel.ui:417
+msgctxt "@label:chooser"
+msgid "Critical:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: kptcolorsconfigpanel.ui:307 kptcolorsconfigpanel.ui:449
+msgctxt "@label:chooser"
+msgid "Finished:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: kptcolorsconfigpanel.ui:339 kptcolorsconfigpanel.ui:481
+msgctxt "@label:chooser"
+msgid "Error:"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: kptcolorsconfigpanel.ui:373
+#, fuzzy
+#| msgid "Milestone Gantt"
+msgctxt "@title:tab"
+msgid "Milestone"
+msgstr "里程碑甘特图"
+
+#. i18n: ectx: property (title), widget (QButtonGroup)
+#: kptconfigbehaviorpanelbase.ui:25
+msgid "Calculation"
+msgstr "计算"
+
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: kptconfigbehaviorpanelbase.ui:36
+msgid "Manual"
+msgstr "手动"
+
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: kptconfigbehaviorpanelbase.ui:44
+msgid "Immediate on change"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: kptconfigbehaviorpanelbase.ui:54
+#, fuzzy
+msgid "Constraints"
+msgstr "开始日期："
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: kptconfigbehaviorpanelbase.ui:65
+msgid "Allow overbooking of resources"
+msgstr "允许超额预定资源"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: kptconfigtaskpanelbase.ui:25
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, leaderlabel)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_Leader)
+#: kptconfigtaskpanelbase.ui:33 kptconfigtaskpanelbase.ui:65
+msgid ""
+"The person responsible for this task.\n"
+"\n"
+"This is not limited to persons available in a resource group but can be "
+"anyone. You can even directly access your address book with the Choose "
+"button."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, leaderlabel)
+#: kptconfigtaskpanelbase.ui:36
+msgid "Responsible:"
+msgstr "负责人："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, chooseLeader)
+#: kptconfigtaskpanelbase.ui:72
+#, fuzzy
+msgid "Insert a person from your address book"
+msgstr "从您的地址簿中选择个人。"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, chooseLeader)
+#: kptconfigtaskpanelbase.ui:75
+msgid "Insert a person from your address book."
+msgstr "从您的地址簿中选择个人。"
+
+#. i18n: ectx: property (text), widget (QPushButton, chooseLeader)
+#: kptconfigtaskpanelbase.ui:78
+msgid "Choose..."
+msgstr "选择..."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: kptconfigtaskpanelbase.ui:96
+msgid "Scheduling constraint:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ConstraintType)
+#: kptconfigtaskpanelbase.ui:119
+msgid "As Soon as Possible"
+msgstr "尽可能早"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ConstraintType)
+#: kptconfigtaskpanelbase.ui:124
+msgid "As Late as Possible"
+msgstr "尽可能晚"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ConstraintType)
+#: kptconfigtaskpanelbase.ui:129
+msgid "Must Start On"
+msgstr "必须开始于"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ConstraintType)
+#: kptconfigtaskpanelbase.ui:134
+msgid "Must Finish On"
+msgstr "必须开始于"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ConstraintType)
+#: kptconfigtaskpanelbase.ui:139
+msgid "Start Not Earlier Than"
+msgstr "开始不早于"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ConstraintType)
+#: kptconfigtaskpanelbase.ui:144
+msgid "Finish Not Later Than"
+msgstr "完成不晚于"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ConstraintType)
+#: kptconfigtaskpanelbase.ui:149
+msgid "Fixed Interval"
+msgstr "固定间隔"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_5)
+#: kptconfigtaskpanelbase.ui:163
+#, fuzzy
+msgid "Constraint Start time usage:"
+msgstr "开始日期："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartTimeUsage)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EndTimeUsage)
+#: kptconfigtaskpanelbase.ui:186 kptconfigtaskpanelbase.ui:262
+msgid "Current date and time"
+msgstr "当前日期和时间"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartTimeUsage)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EndTimeUsage)
+#: kptconfigtaskpanelbase.ui:191 kptconfigtaskpanelbase.ui:267
+msgid "Current date, specified time"
+msgstr "当前日期，指定时间"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartTimeUsage)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EndTimeUsage)
+#: kptconfigtaskpanelbase.ui:196 kptconfigtaskpanelbase.ui:272
+msgid "Specified date and time"
+msgstr "指定日期和时间"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_3)
+#: kptconfigtaskpanelbase.ui:210
+#, fuzzy
+msgid "Constraint start time:"
+msgstr "开始日期："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_6)
+#: kptconfigtaskpanelbase.ui:239
+#, fuzzy
+msgid "Constraint End time usage:"
+msgstr "开始日期："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_4)
+#: kptconfigtaskpanelbase.ui:286
+#, fuzzy
+msgid "Constraint end time:"
+msgstr "开始日期："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_7)
+#: kptconfigtaskpanelbase.ui:322
+#, fuzzy
+#| msgid "Estimate:"
+msgid "Estimate type:"
+msgstr "估计："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EstimateType)
+#: kptconfigtaskpanelbase.ui:348
+msgid "Effort"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_EstimateType)
+#: kptconfigtaskpanelbase.ui:353
+msgid "Duration"
+msgstr "持续时间"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_8)
+#: kptconfigtaskpanelbase.ui:367
+#, fuzzy
+#| msgid "Estimate:"
+msgid "Expected estimate:"
+msgstr "估计："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: kptconfigtaskpanelbase.ui:399
+#, fuzzy
+#| msgid "Estimate:"
+msgid "Optimistic estimate:"
+msgstr "估计："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_OptimisticRatio)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_PessimisticRatio)
+#: kptconfigtaskpanelbase.ui:415 kptconfigtaskpanelbase.ui:450
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: kptconfigtaskpanelbase.ui:434
+#, fuzzy
+#| msgid "Estimate:"
+msgid "Pessimistic estimate:"
+msgstr "估计："
+
+#. i18n: ectx: attribute (title), widget (QWidget, widget)
+#: kptconfigtaskpanelbase.ui:481
+msgid "Description"
+msgstr "描述"
+
+#: kptinsertfiledlg.cpp:36
+msgid "Insert File"
+msgstr "插入文件"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kptinsertfilepanel.ui:40
+msgid "Current node:"
+msgstr "当前节点："
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_useProject)
+#: kptinsertfilepanel.ui:68
+#, fuzzy
+#| msgid "Insert File"
+msgid "Insert on top level"
+msgstr "插入文件"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_isParent)
+#: kptinsertfilepanel.ui:75
+msgid "Insert as children to current node"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_isAfter)
+#: kptinsertfilepanel.ui:82
+msgid "Insert after current node"
+msgstr ""
+
+#: kptmaindocument.cpp:182 kptmaindocument.cpp:491
+msgid "Invalid document. No mimetype specified."
+msgstr "无效的文档。未指定 MIME 类型。"
+
+#: kptmaindocument.cpp:221
+#, fuzzy, kde-format
+#| msgid ""
+#| "Invalid document. Expected mimetype application/x-vnd.kde.kplato, got %1"
+msgid "Invalid document. Expected mimetype application/x-vnd.kde.plan, got %1"
+msgstr "无效的文档。希望 MIME 类型为 application/x-vnd.kde.kplato，但却得到 %1"
+
+#: kptmaindocument.cpp:228
+#, fuzzy, kde-format
+#| msgid ""
+#| "This document was created with a newer version of KPlato (syntax version: "
+#| "%1)\n"
+#| "Opening it in this version of KPlato will lose some information."
+msgid ""
+"This document was created with a newer version of Plan (syntax version: %1)\n"
+"Opening it in this version of Plan will lose some information."
+msgstr ""
+"此文档由更新版本的 KPlato(语法版本：%1)所创建。\n"
+"在此版本的 KPlato 中打开可能会丢失某些信息。"
+
+#: kptmaindocument.cpp:382
+#, kde-format
+msgid "Could not create the workpackage file for saving: %1"
+msgstr "无法创建用于保存的工作包文件：%1"
+
+#: kptmaindocument.cpp:390
+#, kde-format
+msgid "Not able to write '%1'. Partition full?"
+msgstr "无法写入“%1”。分区已满吗？"
+
+#: kptmaindocument.cpp:417
+msgid "Saving..."
+msgstr "正在保存..."
+
+#: kptmaindocument.cpp:508
+#, fuzzy, kde-format
+#| msgid ""
+#| "Invalid document. Expected mimetype application/x-vnd.kde.kplato.work, "
+#| "got %1"
+msgid ""
+"Invalid document. Expected mimetype application/x-vnd.kde.plan.work, got %1"
+msgstr ""
+"无效的文档。希望 MIME 类型为 application/x-vnd.kde.kplato.work，但却得到 %1"
+
+#: kptmaindocument.cpp:515
+#, fuzzy, kde-format
+#| msgid ""
+#| "This document was created with a newer version of KPlatoWork (syntax "
+#| "version: %1)\n"
+#| "Opening it in this version of KPlatoWork will lose some information."
+msgid ""
+"This document was created with a newer version of PlanWork (syntax version: "
+"%1)\n"
+"Opening it in this version of PlanWork will lose some information."
+msgstr ""
+"此文档由更新版本的 KPlatoWork(语法版本：%1)所创建。\n"
+"在此版本的 KPlato 中打开可能会丢失某些信息。"
+
+#: kptmaindocument.cpp:671
+msgid "New work packages detected. Merge data with existing tasks?"
+msgstr ""
+
+#: kptmaindocument.cpp:765
+#, kde-format
+msgid ""
+"The package owner '%1' is not a resource in this project. You must handle "
+"this manually."
+msgstr "包所有者“%1”不是此工程中的资源。您必须手动处理这种情况。"
+
+#: kptmaindocument.cpp:831
+msgid "Nothing to save from this package"
+msgstr "此包无可保存"
+
+#: kptmaindocument.cpp:978
+msgid "Internal error, failed to insert file."
+msgstr ""
+
+#: kptmaindocument.cpp:1006
+#, fuzzy
+#| msgid "Insert project nodes"
+msgctxt "(qtundo-format)"
+msgid "Insert project"
+msgstr "插入工程节点"
+
+#: kptschedulesdocker.cpp:43
+msgid "Schedule Selector"
+msgstr "计划选择器"
+
+#: kptview.cpp:273
+msgid "&Create Template From Document..."
+msgstr "根据文档创建模板(&C)..."
+
+#: kptview.cpp:277
+#, fuzzy
+#| msgid "Create Report..."
+msgid "&Create New Project..."
+msgstr "创建报表..."
+
+#: kptview.cpp:289
+msgid "Show Selector"
+msgstr "显示选择器"
+
+#: kptview.cpp:296
+msgid "Edit Main Project..."
+msgstr "编辑主工程..."
+
+#: kptview.cpp:300
+msgid "Define Estimate Conversions..."
+msgstr "定义预计转换..."
+
+#: kptview.cpp:306
+msgid "Define WBS Pattern..."
+msgstr "定义 WBS 模式..."
+
+#: kptview.cpp:310
+msgid "Insert Project File..."
+msgstr "插入工程文件..."
+
+#: kptview.cpp:315
+#, fuzzy
+#| msgid "Configure KPlato..."
+msgid "Configure Plan..."
+msgstr "配置 KPlato..."
+
+#: kptview.cpp:319
+msgid "Define Currency..."
+msgstr "定义货币..."
+
+#: kptview.cpp:323
+msgid "Open Report Definition File..."
+msgstr ""
+
+#: kptview.cpp:328
+#, fuzzy
+#| msgid "Next: Introduction"
+msgid "Introduction to Plan"
+msgstr "下一步：介绍"
+
+#: kptview.cpp:333
+msgid "Edit..."
+msgstr "编辑..."
+
+#: kptview.cpp:336
+msgid "Progress..."
+msgstr "进度..."
+
+#: kptview.cpp:339
+msgid "Delete Task"
+msgstr "删除任务"
+
+#: kptview.cpp:342
+msgid "Description..."
+msgstr "描述..."
+
+#: kptview.cpp:345
+msgid "Indent Task"
+msgstr "缩进任务"
+
+#: kptview.cpp:348
+msgid "Unindent Task"
+msgstr "取消缩进任务"
+
+#: kptview.cpp:351
+msgid "Move Task Up"
+msgstr "任务上移"
+
+#: kptview.cpp:354
+msgid "Move Task Down"
+msgstr "任务下移"
+
+#: kptview.cpp:358
+msgid "Edit Resource..."
+msgstr "编辑资源..."
+
+#: kptview.cpp:362
+msgid "Edit Dependency..."
+msgstr "编辑依赖关系..."
+
+#: kptview.cpp:365
+msgid "Delete Dependency"
+msgstr "删除依赖关系"
+
+#: kptview.cpp:489
+msgctxt "@info"
+msgid ""
+"<note>This action cannot be undone.</note><nl/><nl/>Create a new Project "
+"from the current project with new project- and task identities.<nl/"
+">Resource- and calendar identities are not changed.<nl/>All scheduling "
+"information is removed.<nl/><nl/>Do you want to continue?"
+msgstr ""
+
+#: kptview.cpp:605 kptview.cpp:3159
+msgid "Task Status Report"
+msgstr "任务状态报表"
+
+#: kptview.cpp:676
+msgid "Work & Vacation"
+msgstr ""
+
+#: kptview.cpp:677
+msgctxt "@info:tooltip"
+msgid "Edit working- and vacation days for resources"
+msgstr ""
+
+#: kptview.cpp:679
+msgid "Cost Breakdown Structure"
+msgstr "成本细分结构"
+
+#: kptview.cpp:680
+#, fuzzy
+#| msgid "Edit cost breakdown structure."
+msgctxt "@info:tooltip"
+msgid "Edit cost breakdown structure."
+msgstr "成本细分结构。"
+
+#: kptview.cpp:682
+msgid "Resources"
+msgstr "资源"
+
+#: kptview.cpp:683
+#, fuzzy
+#| msgid "Edit resource breakdown structure"
+msgctxt "@info:tooltip"
+msgid "Edit resource breakdown structure"
+msgstr "编辑资源细分结构"
+
+#: kptview.cpp:685
+msgid "Tasks"
+msgstr "任务"
+
+#: kptview.cpp:686
+#, fuzzy
+#| msgid "Edit work breakdown structure"
+msgctxt "@info:tooltip"
+msgid "Edit work breakdown structure"
+msgstr "编辑工作细分结构"
+
+#: kptview.cpp:688
+msgid "Dependencies (Graphic)"
+msgstr "依赖关系(图表)"
+
+#: kptview.cpp:689 kptview.cpp:692
+#, fuzzy
+#| msgid "Edit task dependencies"
+msgctxt "@info:tooltip"
+msgid "Edit task dependencies"
+msgstr "编辑任务依赖关系"
+
+#: kptview.cpp:691
+msgid "Dependencies (List)"
+msgstr "依赖关系(列表)"
+
+#: kptview.cpp:695 kptview.cpp:697
+msgid "Schedules"
+msgstr "计划"
+
+#: kptview.cpp:698
+#, fuzzy
+#| msgid "Calculate and analyze project schedules"
+msgctxt "@info:tooltip"
+msgid "Calculate and analyze project schedules"
+msgstr "计算和分析工程计划"
+
+#: kptview.cpp:700 kptviewlistdialog.cpp:109
+msgid "Project Performance Chart"
+msgstr "工程性能图"
+
+#: kptview.cpp:701
+#, fuzzy
+#| msgid "View project status information"
+msgctxt "@info:tooltip"
+msgid "View project status information"
+msgstr "查看工程状态信息"
+
+#: kptview.cpp:703 kptviewlistdialog.cpp:101
+msgid "Task Status"
+msgstr "任务状态"
+
+#: kptview.cpp:704
+#, fuzzy
+#| msgid "View task progress information"
+msgctxt "@info:tooltip"
+msgid "View task progress information"
+msgstr "查看任务进度信息"
+
+#: kptview.cpp:706
+#, fuzzy
+#| msgid "Task Execution"
+msgid "Task Execution"
+msgstr "任务执行"
+
+#: kptview.cpp:707
+#, fuzzy
+#| msgid "View task execution information"
+msgctxt "@info:tooltip"
+msgid "View task execution information"
+msgstr "查看任务执行信息"
+
+#: kptview.cpp:709 kptviewlistdialog.cpp:103
+msgid "Work Package View"
+msgstr "工作包视图"
+
+#: kptview.cpp:710
+#, fuzzy
+#| msgid "View task work package information"
+msgctxt "@info:tooltip"
+msgid "View task work package information"
+msgstr "查看任务工作包信息"
+
+#: kptview.cpp:712
+msgid "Gantt"
+msgstr "甘特图"
+
+#: kptview.cpp:713
+#, fuzzy
+#| msgid "View gantt chart"
+msgctxt "@info:tooltip"
+msgid "View Gantt chart"
+msgstr "查看甘特图"
+
+#: kptview.cpp:715
+#, fuzzy
+#| msgid "Milestone Gantt"
+msgid "Milestone Gantt"
+msgstr "里程碑甘特图"
+
+#: kptview.cpp:716
+#, fuzzy
+#| msgid "View milestone gantt chart"
+msgctxt "@info:tooltip"
+msgid "View milestone Gantt chart"
+msgstr "查看里程碑甘特图"
+
+#: kptview.cpp:718 kptviewlistdialog.cpp:106
+msgid "Resource Assignments"
+msgstr "资源指派"
+
+#: kptview.cpp:719
+#, fuzzy
+#| msgid "View resource assignments in gantt chart"
+msgctxt "@info:tooltip"
+msgid "View resource assignments in a table"
+msgstr "在甘特图中查看资源指派"
+
+#: kptview.cpp:721 kptviewlistdialog.cpp:107
+msgid "Resource Assignments (Gantt)"
+msgstr "资源指派(甘特图)"
+
+#: kptview.cpp:722
+#, fuzzy
+#| msgid "View resource assignments in gantt chart"
+msgctxt "@info:tooltip"
+msgid "View resource assignments in Gantt chart"
+msgstr "在甘特图中查看资源指派"
+
+#: kptview.cpp:724 kptviewlistdialog.cpp:108
+msgid "Cost Breakdown"
+msgstr "成本细分"
+
+#: kptview.cpp:725
+#, fuzzy
+#| msgid "View planned and actual cost"
+msgctxt "@info:tooltip"
+msgid "View planned and actual cost"
+msgstr "查看计划和实际成本"
+
+#: kptview.cpp:727 kptviewlistdialog.cpp:110
+msgid "Tasks Performance Chart"
+msgstr "任务性能图"
+
+#: kptview.cpp:728
+#, fuzzy
+#| msgid "View tasks performance status information"
+msgctxt "@info:tooltip"
+msgid "View tasks performance status information"
+msgstr "查看任务的性能状态信息"
+
+#: kptview.cpp:730 kptview.cpp:3156 kptviewlistdialog.cpp:111
+#: kptviewlistdialog.cpp:521
+msgid "Report"
+msgstr "报表"
+
+#: kptview.cpp:731
+#, fuzzy
+#| msgid "View report"
+msgctxt "@info:tooltip"
+msgid "View report"
+msgstr "查看报表"
+
+#: kptview.cpp:742
+msgid "Editors"
+msgstr "编辑器"
+
+#: kptview.cpp:744
+msgid "Views"
+msgstr "视图"
+
+#: kptview.cpp:746
+#, fuzzy
+#| msgid "Task Execution"
+msgctxt "Project execution views"
+msgid "Execution"
+msgstr "任务执行"
+
+#: kptview.cpp:748
+msgid "Reports"
+msgstr "报表"
+
+#: kptview.cpp:1692
+#, fuzzy, kde-format
+#| msgctxt "@info:status 1=schedule name"
+#| msgid "Calculate %1"
+msgctxt "(qtundo-format) @info:status 1=schedule name"
+msgid "Calculate %1"
+msgstr "计算 %1"
+
+#: kptview.cpp:1711
+msgid "Cannot baseline. The project is already baselined."
+msgstr ""
+
+#: kptview.cpp:1716
+msgid "This schedule is baselined. Do you want to remove the baseline?"
+msgstr ""
+
+#: kptview.cpp:1720
+#, fuzzy, kde-format
+#| msgid "Reset baseline %1"
+msgctxt "(qtundo-format)"
+msgid "Reset baseline %1"
+msgstr "重置比较基准 %1"
+
+#: kptview.cpp:1722
+#, fuzzy, kde-format
+#| msgid "Baseline %1"
+msgctxt "(qtundo-format)"
+msgid "Baseline %1"
+msgstr "比较基准 %1"
+
+#: kptview.cpp:1733
+#, fuzzy, kde-format
+#| msgid "Add schedule %1"
+msgctxt "(qtundo-format)"
+msgid "Add schedule %1"
+msgstr "添加计划 %1"
+
+#: kptview.cpp:1742
+#, fuzzy, kde-format
+#| msgid "Delete schedule %1"
+msgctxt "(qtundo-format)"
+msgid "Delete schedule %1"
+msgstr "删除计划 %1"
+
+#: kptview.cpp:1751
+#, fuzzy, kde-format
+#| msgid "Add schedule %1"
+msgctxt "(qtundo-format)"
+msgid "Move schedule %1"
+msgstr "添加计划 %1"
+
+#: kptview.cpp:1820
+#, fuzzy
+#| msgid "Add milestone"
+msgctxt "(qtundo-format)"
+msgid "Add milestone"
+msgstr "添加里程碑"
+
+#: kptview.cpp:1846
+#, fuzzy
+#| msgid "Add sub-milestone"
+msgctxt "(qtundo-format)"
+msgid "Add sub-milestone"
+msgstr "添加子里程碑"
+
+#: kptview.cpp:1887
+msgid "Task Defaults"
+msgstr "任务默认值"
+
+#: kptview.cpp:1888
+#, fuzzy
+#| msgid "Task Editor"
+msgid "Task Colors"
+msgstr "任务编辑器"
+
+#: kptview.cpp:1889
+msgid "Work Package"
+msgstr "工作包"
+
+#: kptview.cpp:2211
+msgid ""
+"A task that has been scheduled will be deleted. This will invalidate the "
+"schedule."
+msgstr "已经计划的任务即将删除。这将使得该计划无效。"
+
+#: kptview.cpp:2219 kptview.cpp:2223 kptview.cpp:2239 kptview.cpp:2263
+#, fuzzy
+#| msgid "Delete task"
+#| msgid_plural "Delete tasks"
+msgctxt "(qtundo-format)"
+msgid "Delete task"
+msgid_plural "Delete tasks"
+msgstr[0] "删除任务"
+
+#: kptview.cpp:2258
+msgid "This task has been scheduled. This will invalidate the schedule."
+msgstr "此任务已计划。这将使得该计划无效。"
+
+#: kptview.cpp:2282
+#, fuzzy
+#| msgid "Indent task"
+msgctxt "(qtundo-format)"
+msgid "Indent task"
+msgstr "缩进任务"
+
+#: kptview.cpp:2296
+#, fuzzy
+#| msgid "Unindent task"
+msgctxt "(qtundo-format)"
+msgid "Unindent task"
+msgstr "取消缩进任务"
+
+#: kptview.cpp:2318
+#, fuzzy
+#| msgid "Move task up"
+msgctxt "(qtundo-format)"
+msgid "Move task up"
+msgstr "任务上移"
+
+#: kptview.cpp:2339
+#, fuzzy
+#| msgid "Move task down"
+msgctxt "(qtundo-format)"
+msgid "Move task down"
+msgstr "任务下移"
+
+#: kptview.cpp:2377
+#, fuzzy
+#| msgid "Add task dependency"
+msgctxt "(qtundo-format)"
+msgid "Add task dependency"
+msgstr "添加任务依赖关系"
+
+#: kptview.cpp:2440
+#, fuzzy
+#| msgid "Delete task dependency"
+msgctxt "(qtundo-format)"
+msgid "Delete task dependency"
+msgstr "删除任务依赖关系"
+
+#: kptview.cpp:2479
+#, fuzzy
+#| msgid "Delete resource"
+#| msgid_plural "Delete resources"
+msgctxt "(qtundo-format)"
+msgid "Delete resource"
+msgstr "删除资源"
+
+#: kptview.cpp:2484
+#, fuzzy
+#| msgid "Delete resourcegroup"
+#| msgid_plural "Delete resourcegroups"
+msgctxt "(qtundo-format)"
+msgid "Delete resourcegroup"
+msgstr "删除资源组"
+
+#: kptview.cpp:2493 kptview.cpp:2501
+msgid ""
+"A resource that has been scheduled will be deleted. This will invalidate the "
+"schedule."
+msgstr "即将删除已经计划的资源。这将使得该计划无效。"
+
+#: kptview.cpp:2538
+msgid "Delete resourcegroups and resources"
+msgstr "删除资源组和资源"
+
+#: kptview.cpp:2540
+msgid "Delete resource"
+msgid_plural "Delete resources"
+msgstr[0] "删除资源"
+
+#: kptview.cpp:2542
+msgid "Delete resourcegroup"
+msgid_plural "Delete resourcegroups"
+msgstr[0] "删除资源组"
+
+#: kptview.cpp:2725
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Cannot open file:</br><filename>%1</filename>"
+msgctxt "@info"
+msgid "Cannot open file:<br/><filename>%1</filename>"
+msgstr "无法打开文件：</br><filename>%1</filename>"
+
+#: kptview.cpp:2850
+msgid "Modify name"
+msgstr "修改名称"
+
+#: kptview.cpp:2852
+msgid "Modify task name"
+msgstr "修改任务名称"
+
+#: kptview.cpp:2853
+msgid "Modify milestone name"
+msgstr "修改里程碑名称"
+
+#: kptview.cpp:2854
+msgid "Modify summarytask name"
+msgstr "修改摘要任务名称"
+
+#: kptview.cpp:2855
+msgid "Modify project name"
+msgstr "修改工程名称"
+
+#: kptview.cpp:2941
+msgctxt "@info:status"
+msgid "Not scheduled"
+msgstr "未计划"
+
+#: kptview.cpp:2957 kptview.cpp:2997
+msgid "Failed to open temporary file"
+msgstr "打开模板文件失败"
+
+#: kptview.cpp:2964
+#, kde-format
+msgctxt "@info"
+msgid "Failed to save to temporary file:<br/> <filename>%1</filename>"
+msgstr "保存到模板文件失败：<br/><filename>%1</filename>"
+
+#: kptview.cpp:2972
+#, kde-format
+msgid "Work Package: %1"
+msgstr "工作包：%1"
+
+#: kptview.cpp:2973
+#, kde-format
+msgctxt "1=project name, 2=task name"
+msgid ""
+"%1\n"
+"%2"
+msgstr ""
+"%1\n"
+"%2"
+
+#: kptview.cpp:2987
+#, kde-format
+msgid "Work Package for project: %1"
+msgstr "工程的工作包：%1"
+
+#: kptview.cpp:3004
+#, kde-format
+msgctxt "@info"
+msgid "Failed to save to temporary file:<br><filename>%1</filename>"
+msgstr "保存到临时文件失败：<br/><filename>%1</filename>"
+
+#: kptview.cpp:3157
+msgctxt "Project manager"
+msgid "Manager:"
+msgstr ""
+
+#: kptview.cpp:3158
+#, fuzzy
+#| msgid "Project"
+msgid "Project:"
+msgstr "工程"
+
+#: kptview.cpp:3160
+msgctxt "As in: Page 1 of 2"
+msgid "of"
+msgstr ""
+
+#: kptview.cpp:3161
+msgid "Page"
+msgstr ""
+
+#: kptview.cpp:3162
+#, fuzzy
+#| msgid "Name:"
+msgctxt "Task name"
+msgid "Name"
+msgstr "名称："
+
+#: kptview.cpp:3163
+msgctxt "Task completion"
+msgid "Completion (%)"
+msgstr ""
+
+#: kptviewlist.cpp:202
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>This is the list of available views and editors.</para><para>You can "
+"configure the list by using the context menu:<list><item>Rename categories "
+"or views</item><item>Configure. Move, remove, rename or edit tool tip for "
+"categories or views</item><item>Insert categories and views</item></list></"
+"para>"
+msgstr ""
+
+#: kptviewlist.cpp:597
+msgid "Removing this category will also remove all its views."
+msgstr "删除此类别也将删除其全部视图。"
+
+#: kptviewlist.cpp:733
+msgctxt "@action:inmenu rename view"
+msgid "Rename"
+msgstr "重命名"
+
+#: kptviewlist.cpp:737
+msgctxt "@action:inmenu configure view"
+msgid "Configure..."
+msgstr "配置..."
+
+#: kptviewlist.cpp:741
+msgctxt "@action:inmenu remove view"
+msgid "Remove"
+msgstr "删除"
+
+#: kptviewlist.cpp:750
+msgctxt "@action:inmenu rename view category"
+msgid "Rename"
+msgstr "重命名"
+
+#: kptviewlist.cpp:754
+msgctxt "@action:inmenu configure view category"
+msgid "Configure..."
+msgstr "配置..."
+
+#: kptviewlist.cpp:758
+msgctxt "@action:inmenu Remove view category"
+msgid "Remove"
+msgstr "删除"
+
+#: kptviewlist.cpp:767
+msgctxt "@action:inmenu Insert View"
+msgid "Insert..."
+msgstr "插入..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kptviewlistaddview.ui:20 kptviewlisteditview.ui:20
+msgid "Category:"
+msgstr "类别："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kptviewlistaddview.ui:49 kptviewlisteditcategory.ui:20
+#: kptviewlisteditview.ui:49
+msgid "After"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kptviewlistaddview.ui:69
+msgid "View type:"
+msgstr "视图类型："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kptviewlistaddview.ui:86 kptviewlisteditcategory.ui:40
+#: kptviewlisteditview.ui:69
+msgid "Name:"
+msgstr "名称："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: kptviewlistaddview.ui:99 kptviewlisteditcategory.ui:53
+#: kptviewlisteditview.ui:82
+msgid "Tip:"
+msgstr "提示："
+
+#: kptviewlistdialog.cpp:36
+msgctxt "@title:window"
+msgid "Add View"
+msgstr "添加视图"
+
+#: kptviewlistdialog.cpp:94
+msgid "Resource Editor"
+msgstr "资源编辑器"
+
+#: kptviewlistdialog.cpp:95
+msgid "Task Editor"
+msgstr "任务编辑器"
+
+#: kptviewlistdialog.cpp:96
+msgid "Work & Vacation Editor"
+msgstr ""
+
+#: kptviewlistdialog.cpp:97
+msgid "Accounts Editor"
+msgstr "账户编辑器"
+
+#: kptviewlistdialog.cpp:98
+msgid "Dependency Editor (Graphic)"
+msgstr "依赖关系编辑器(图表)"
+
+#: kptviewlistdialog.cpp:99
+msgid "Dependency Editor (List)"
+msgstr "依赖关系编辑器(列表)"
+
+#: kptviewlistdialog.cpp:100
+#, fuzzy
+#| msgid "Scheduled"
+msgid "Schedule Handler"
+msgstr "计划"
+
+#: kptviewlistdialog.cpp:102
+msgid "Task View"
+msgstr "任务视图"
+
+#: kptviewlistdialog.cpp:104
+msgid "Gantt View"
+msgstr "甘特图"
+
+#: kptviewlistdialog.cpp:105
+msgid "Milestone Gantt View"
+msgstr "里程碑甘特图"
+
+#: kptviewlistdialog.cpp:177 kptviewlistdialog.cpp:373
+#: kptviewlistdialog.cpp:462 kptviewlistdialog.cpp:586
+msgid "Top"
+msgstr "上"
+
+#: kptviewlistdialog.cpp:278
+msgctxt "@title:window"
+msgid "Configure View"
+msgstr "配置视图"
+
+#: kptviewlistdialog.cpp:392
+msgctxt "@title:window"
+msgid "Configure Category"
+msgstr "配置类别"
+
+#: kptviewlistdialog.cpp:480
+msgctxt "@title:window"
+msgid "Add Report"
+msgstr "添加报表"
+
+#: kptviewlistdocker.cpp:67 kptviewlistdocker.cpp:73
+msgctxt "@title:window"
+msgid "View Selector [modified]"
+msgstr "视图选择器[已修改]"
+
+#: kptviewlistdocker.cpp:75
+msgctxt "@title:window"
+msgid "View Selector"
+msgstr "视图选择器"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, statistics)
+#: kptviewlistdocker.ui:22
+msgid "Words"
+msgstr "单词"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, statistics)
+#: kptviewlistdocker.ui:27
+msgid "Sentences"
+msgstr "句子"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, statistics)
+#: kptviewlistdocker.ui:32
+msgid "Syllables"
+msgstr "音节"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, statistics)
+#: kptviewlistdocker.ui:37
+msgid "Lines"
+msgstr "行"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, statistics)
+#: kptviewlistdocker.ui:42
+msgid "Characters incl. spaces"
+msgstr "字符数(包含空格)"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, statistics)
+#: kptviewlistdocker.ui:47
+msgid "Characters without spaces"
+msgstr "字符数(不包含空格)"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, statistics)
+#: kptviewlistdocker.ui:52
+msgid "Flesch reading ease"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLineEdit, count)
+#: kptviewlistdocker.ui:63
+msgid "0"
+msgstr "0"
+
+#. i18n: ectx: property (text), widget (QToolButton, refresh)
+#: kptviewlistdocker.ui:73
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, footEndNotes)
+#: kptviewlistdocker.ui:84
+msgid "Include text from foot- and endnotes"
+msgstr "包含教主和为主的文本"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoRefresh)
+#: kptviewlistdocker.ui:91
+msgid "Automatically refresh data"
+msgstr "自动刷新数据"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckForWorkPackages)
+#: kptworkpackageconfigpanel.ui:20
+msgid "Check for work packages"
+msgstr "检查工作包"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kptworkpackageconfigpanel.ui:27
+#, fuzzy
+#| msgid "Save URL:"
+msgid "Retrieve URL:"
+msgstr "保存 URL："
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_DeleteFile)
+#: kptworkpackageconfigpanel.ui:37
+msgid "Delete file after it has been retrieved"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_SaveFile)
+#: kptworkpackageconfigpanel.ui:44
+msgid "Save file after it has been retrieved"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kptworkpackageconfigpanel.ui:51
+msgid "Save URL:"
+msgstr "保存 URL："
+
+#: main.cpp:52
+msgid "File to open"
+msgstr "要打开的文件"
+
+#. i18n: ectx: Menu (file)
+#: plan.rc:4
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (edit)
+#: plan.rc:9
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (view)
+#: plan.rc:35 plan_readonly.rc:3
+msgid "&View"
+msgstr "视图(&V)"
+
+#. i18n: ectx: Menu (project)
+#: plan.rc:42
+msgid "&Project"
+msgstr "工程(&P)"
+
+#. i18n: ectx: Menu (tools)
+#: plan.rc:49
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: Menu (settings)
+#: plan.rc:56
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: Menu (help)
+#: plan.rc:59
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: ToolBar (project)
+#: plan.rc:63
+msgid "Project"
+msgstr "工程"
+
+#. i18n: ectx: label, entry (Leader), group (Task defaults)
+#: plansettings.kcfg:9
+msgid "Name of task responsible"
+msgstr ""
+
+#. i18n: ectx: label, entry (ConstraintType), group (Task defaults)
+#: plansettings.kcfg:12
+msgid "Scheduling constraint type"
+msgstr ""
+
+#. i18n: ectx: label, entry (StartTimeUsage), group (Task defaults)
+#: plansettings.kcfg:25
+msgid "Defines how start constraint time is used"
+msgstr ""
+
+#. i18n: ectx: label, entry (ConstraintStartTime), group (Task defaults)
+#: plansettings.kcfg:34
+#, fuzzy
+msgid "Constraint start date and time"
+msgstr "开始日期："
+
+#. i18n: ectx: label, entry (EndTimeUsage), group (Task defaults)
+#: plansettings.kcfg:37
+msgid "Defines how end constraint time is used"
+msgstr ""
+
+#. i18n: ectx: label, entry (ConstraintEndTime), group (Task defaults)
+#: plansettings.kcfg:46
+#, fuzzy
+msgid "Constraint end date and time"
+msgstr "开始日期："
+
+#. i18n: ectx: label, entry (EstimateType), group (Task defaults)
+#: plansettings.kcfg:50
+#, fuzzy
+#| msgid "Estimate:"
+msgid "Type of estimate"
+msgstr "估计："
+
+#. i18n: ectx: label, entry (Unit), group (Task defaults)
+#: plansettings.kcfg:58
+#, fuzzy
+#| msgid "Estimate:"
+msgid "Estimate time unit"
+msgstr "估计："
+
+#. i18n: ectx: label, entry (ExpectedEstimate), group (Task defaults)
+#: plansettings.kcfg:72
+#, fuzzy
+#| msgid "Estimate:"
+msgid "Expected estimate"
+msgstr "估计："
+
+#. i18n: ectx: label, entry (OptimisticRatio), group (Task defaults)
+#: plansettings.kcfg:76
+#, fuzzy
+#| msgid "Estimate:"
+msgid "Optimistic estimate"
+msgstr "估计："
+
+#. i18n: ectx: label, entry (PessimisticRatio), group (Task defaults)
+#: plansettings.kcfg:80
+msgid "Pessimistic estimate"
+msgstr ""
+
+#. i18n: ectx: label, entry (Description), group (Task defaults)
+#: plansettings.kcfg:85
+msgid "Task description"
+msgstr "任务描述"
+
+#. i18n: ectx: label, entry (ColorGradientType), group (TaskColors)
+#: plansettings.kcfg:91
+#, fuzzy
+#| msgid "Gantt"
+msgid "Gradient"
+msgstr "甘特图"
+
+#. i18n: ectx: label, entry (SummaryTaskLevelColorsEnabled), group (TaskColors)
+#: plansettings.kcfg:99
+msgid "Enable summary task level colors"
+msgstr ""
+
+#. i18n: ectx: label, entry (SummaryTaskDefaultColor), group (TaskColors)
+#: plansettings.kcfg:103
+msgid "Summary task default color"
+msgstr ""
+
+#. i18n: ectx: label, entry (SummaryTaskLevelColor_1), group (TaskColors)
+#: plansettings.kcfg:107
+msgid "Summary task color, level 1"
+msgstr ""
+
+#. i18n: ectx: label, entry (SummaryTaskLevelColor_2), group (TaskColors)
+#: plansettings.kcfg:111
+msgid "Summary task color, level 2"
+msgstr ""
+
+#. i18n: ectx: label, entry (SummaryTaskLevelColor_3), group (TaskColors)
+#: plansettings.kcfg:115
+msgid "Summary task color, level 3"
+msgstr ""
+
+#. i18n: ectx: label, entry (SummaryTaskLevelColor_4), group (TaskColors)
+#: plansettings.kcfg:119
+msgid "Summary task color, level 4"
+msgstr ""
+
+#. i18n: ectx: label, entry (TaskNormalColor), group (TaskColors)
+#: plansettings.kcfg:123
+msgid "Task color in normal state"
+msgstr ""
+
+#. i18n: ectx: label, entry (TaskCriticalColor), group (TaskColors)
+#: plansettings.kcfg:127
+msgid "Task color in critical state"
+msgstr ""
+
+#. i18n: ectx: label, entry (TaskFinishedColor), group (TaskColors)
+#: plansettings.kcfg:131
+msgid "Task color in finished state"
+msgstr ""
+
+#. i18n: ectx: label, entry (TaskErrorColor), group (TaskColors)
+#: plansettings.kcfg:135
+msgid "Task color in error state"
+msgstr ""
+
+#. i18n: ectx: label, entry (MilestoneNormalColor), group (TaskColors)
+#: plansettings.kcfg:139
+msgid "Milestone color in normal state"
+msgstr ""
+
+#. i18n: ectx: label, entry (MilestoneCriticalColor), group (TaskColors)
+#: plansettings.kcfg:143
+msgid "Milestone color in critical state"
+msgstr ""
+
+#. i18n: ectx: label, entry (MilestoneFinishedColor), group (TaskColors)
+#: plansettings.kcfg:147
+msgid "Milestone color in finished state"
+msgstr ""
+
+#. i18n: ectx: label, entry (MilestoneErrorColor), group (TaskColors)
+#: plansettings.kcfg:151
+msgid "Milestone color in error state"
+msgstr ""
+
+#. i18n: ectx: label, entry (CheckForWorkPackages), group (Work Package)
+#: plansettings.kcfg:158
+#, fuzzy
+#| msgid "Check for work packages"
+msgid "Automatically check for new work packages"
+msgstr "检查工作包"
+
+#. i18n: ectx: label, entry (RetrieveUrl), group (Work Package)
+#: plansettings.kcfg:161
+msgid "Directory where Plan retrieves work packages from project members"
+msgstr ""
+
+#. i18n: ectx: label, entry (DeleteFile), group (Work Package)
+#: plansettings.kcfg:164
+msgid "If set, Plan will delete the file after it has been read"
+msgstr ""
+
+#. i18n: ectx: label, entry (SaveFile), group (Work Package)
+#: plansettings.kcfg:167
+msgid "If set, Plan will save the file after it has been read"
+msgstr ""
+
+#. i18n: ectx: label, entry (SaveUrl), group (Work Package)
+#: plansettings.kcfg:170
+msgid "Directory where Plan saves work packages when the package has been read"
+msgstr ""
+
+#. i18n: ectx: label, entry (MinimumDurationUnit), group (Miscellaneous)
+#: plansettings.kcfg:176
+msgid "The smallest duration unit allowed"
+msgstr ""
+
+#. i18n: ectx: label, entry (MaximumDurationUnit), group (Miscellaneous)
+#: plansettings.kcfg:180
+msgid "The largest duration unit allowed"
+msgstr ""
+
+#~ msgid "Nuno Pinheiro and Danny Allen"
+#~ msgstr "Nuno Pinheiro 和 Danny Allen"
+
+#, fuzzy
+#~| msgid "Application icon for kplato"
+#~ msgid "Application icon for plan"
+#~ msgstr "kplato 的应用程序图标"
+
+#~ msgid "Open File..."
+#~ msgstr "打开文件..."
+
+#~ msgid "&Reports"
+#~ msgstr "报表(&R)"
+
+#, fuzzy
+#~| msgid "KPlato - KDE Planning Tool"
+#~ msgid "Plan - KDE Planning Tool"
+#~ msgstr "KPlato - KDE 工程管理工具"
+
+#~ msgid "KPlato Introduction"
+#~ msgstr "KPlato 简介"
+
+#~ msgid "Part of KOffice release %1"
+#~ msgstr "KOffice 版本 %1 的一部分"
+
+#, fuzzy
+#~| msgid "Tasks Performance Chart"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Tasks Performance Chart"
+#~ msgstr "任务性能图"
+
+#~ msgid "View resource assignments"
+#~ msgstr "查看资源指派"
+
+#~ msgctxt "@info:status 1=schedule name"
+#~ msgid "%1: Calculating..."
+#~ msgstr "%1：正在计算..."
+
+#~ msgctxt "@info:status 1=schedule name"
+#~ msgid "%1: Calculation stopped"
+#~ msgstr "%1：计算已停止"
+
+#~ msgctxt "@info:status 1=schedule name"
+#~ msgid "%1: Calculation canceled"
+#~ msgstr "%1：计算已取消"
+
+#~ msgctxt "@info:status 1=schedule name"
+#~ msgid "%1: Calculation error"
+#~ msgstr "%1：计算出错"
+
+#~ msgctxt "@info:status 1=schedule name"
+#~ msgid "%1: Calculating done"
+#~ msgstr "%1：计算完成"

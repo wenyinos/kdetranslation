@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:51+0200\n"
+"PO-Revision-Date: 2006-04-30 16:49+0800\n"
+"Last-Translator: Funda Wang <fundawang@linux.net.cn>\n"
+"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: kde-menu.cpp:93
+#, kde-format
+msgid "Menu item '%1' could not be highlighted."
+msgstr "菜单项“%1”无法被加亮显示。"
+
+#: kde-menu.cpp:106
+msgid ""
+"KDE Menu query tool.\n"
+"This tool can be used to find in which menu a specific application is "
+"shown.\n"
+"The --highlight option can be used to visually indicate to the user where\n"
+"in the KDE menu a specific application is located."
+msgstr ""
+"KDE 菜单查询工具。\n"
+"这个工具可以用来查找指定的应用程序显示在哪个菜单中。\n"
+"--highlight 选项可以用可视化方式向用户指示指定的应用程序在 KDE 菜单中的位置。"
+
+#: kde-menu.cpp:111
+msgid "kde-menu"
+msgstr "kde-menu"
+
+#: kde-menu.cpp:113
+msgid "(c) 2003 Waldo Bastian"
+msgstr "(c) 2003 Waldo Bastian"
+
+#: kde-menu.cpp:114
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: kde-menu.cpp:114
+msgid "Author"
+msgstr "作者"
+
+#: kde-menu.cpp:119
+msgid "Output data in UTF-8 instead of local encoding"
+msgstr "用 UTF-8 而非本地编码输出数据"
+
+#: kde-menu.cpp:120
+msgid ""
+"Print menu-id of the menu that contains\n"
+"the application"
+msgstr "输出包含该应用程序的菜单的菜单标识号"
+
+#: kde-menu.cpp:121
+msgid ""
+"Print menu name (caption) of the menu that\n"
+"contains the application"
+msgstr "输出包含该应用程序的菜单的菜单名称(标题)"
+
+#: kde-menu.cpp:122
+msgid "Highlight the entry in the menu"
+msgstr "在菜单中加亮显示该菜单项"
+
+#: kde-menu.cpp:123
+msgid "Do not check if sycoca database is up to date"
+msgstr "不检查 sycoca 数据库是否最新"
+
+#: kde-menu.cpp:124
+msgid "The id of the menu entry to locate"
+msgstr "要定位的菜单项的标识号"
+
+#: kde-menu.cpp:133
+msgid "You must specify an application-id such as 'kde4-konsole.desktop'"
+msgstr "您必须指定一个应用程序标识，比如“kde4-konsole.desktop”"
+
+#: kde-menu.cpp:142
+msgid ""
+"You must specify at least one of --print-menu-id, --print-menu-name or --"
+"highlight"
+msgstr ""
+"您必须指定以下至少一个选项：--print-menu-id、--print-menu-name 或者 --"
+"highlight"
+
+#: kde-menu.cpp:164
+#, kde-format
+msgid "No menu item '%1'."
+msgstr "无菜单项“%1”。"
+
+#: kde-menu.cpp:168
+#, kde-format
+msgid "Menu item '%1' not found in menu."
+msgstr "未在菜单中找到菜单项“%1”。"

@@ -1,0 +1,427 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010, 2011, 2012.
+# FengChao <rainofchaos@gmail.com>, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:55+0200\n"
+"PO-Revision-Date: 2012-05-28 13:36+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: checkoutdialog.cpp:39
+msgctxt "@title:window"
+msgid "<application>Git</application> Checkout"
+msgstr "<application>Git</application> 检出"
+
+#: checkoutdialog.cpp:42
+msgctxt "@action:button"
+msgid "Checkout"
+msgstr "检出"
+
+#: checkoutdialog.cpp:52
+msgctxt "@option:radio Git Checkout"
+msgid "Branch:"
+msgstr "分支："
+
+#: checkoutdialog.cpp:59
+msgctxt "@option:radio Git Checkout"
+msgid "Tag:"
+msgstr "标记："
+
+#: checkoutdialog.cpp:67 pushdialog.cpp:73
+msgctxt "@title:group"
+msgid "Options"
+msgstr "选项"
+
+#: checkoutdialog.cpp:72
+msgctxt "@option:check"
+msgid "Create New Branch: "
+msgstr "创建新分支："
+
+#: checkoutdialog.cpp:73
+msgctxt "@info:tooltip"
+msgid "Create a new branch based on a selected branch or tag."
+msgstr "基于选中的分支或标记创建新的分支。"
+
+#: checkoutdialog.cpp:86 pushdialog.cpp:76
+msgctxt "@option:check"
+msgid "Force"
+msgstr "强制"
+
+#: checkoutdialog.cpp:87
+msgctxt "@info:tooltip"
+msgid "Discard local changes."
+msgstr "丢弃本地更改。"
+
+#: checkoutdialog.cpp:119
+msgctxt "@info:tooltip"
+msgid "There are no tags in this repository."
+msgstr "这个仓库没有标记。"
+
+#: checkoutdialog.cpp:179
+msgctxt "@title:group"
+msgid "Branch Base"
+msgstr "分支基础"
+
+#: checkoutdialog.cpp:180
+msgctxt "@title:group"
+msgid "Checkout"
+msgstr "检出"
+
+#: checkoutdialog.cpp:199
+msgctxt "@info:tooltip"
+msgid "You must enter a valid name for the new branch first."
+msgstr "您必须先输入一个有效的新分支名称。"
+
+#: checkoutdialog.cpp:206
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A branch with the name '%1' already exists."
+msgstr "已存在名为‘%1’的分支。"
+
+#: checkoutdialog.cpp:213
+msgctxt "@info:tooltip"
+msgid "Branch names may not contain any whitespace."
+msgstr "分支名称不能包含空白。"
+
+#: checkoutdialog.cpp:220
+msgctxt "@info:tooltip"
+msgid "You must select a valid branch first."
+msgstr "您必须先选择一个有效的分支。"
+
+#: checkoutdialog.cpp:241
+msgctxt ""
+"@item:intext Prepended to the current branch name to get the default name "
+"for a newly created branch"
+msgid "branch"
+msgstr "分支"
+
+#: commitdialog.cpp:37
+msgctxt "@title:window"
+msgid "<application>Git</application> Commit"
+msgstr "<application>Git</application> 提交"
+
+#: commitdialog.cpp:40
+msgctxt "@action:button"
+msgid "Commit"
+msgstr "提交"
+
+#: commitdialog.cpp:46
+msgctxt "@title:group"
+msgid "Commit message"
+msgstr "提交消息"
+
+#: commitdialog.cpp:61
+msgctxt "@option:check"
+msgid "Amend last commit"
+msgstr "修改最后的提交"
+
+#: commitdialog.cpp:67
+msgctxt "@info:tooltip"
+msgid "There is nothing to amend."
+msgstr "没有可以修改的提交。"
+
+#: commitdialog.cpp:74
+msgctxt "@action:button Add Signed-Off line to the message widget"
+msgid "Sign off"
+msgstr "签名"
+
+#: commitdialog.cpp:75
+msgctxt "@info:tooltip"
+msgid "Add Signed-off-by line at the end of the commit message."
+msgstr "在提交信息结尾附加 Signed-off-by 行。"
+
+#: commitdialog.cpp:131
+msgctxt "@info:tooltip"
+msgid "You must enter a commit message first."
+msgstr "您必须先输入提交信息。"
+
+#: fileviewgitplugin.cpp:62
+msgctxt "@action:inmenu"
+msgid "<application>Git</application> Add"
+msgstr "<application>Git</application> 添加"
+
+#: fileviewgitplugin.cpp:68
+msgctxt "@action:inmenu"
+msgid "<application>Git</application> Remove"
+msgstr "<application>Git</application> 删除"
+
+#: fileviewgitplugin.cpp:74
+msgctxt "@action:inmenu"
+msgid "<application>Git</application> Checkout..."
+msgstr "<application>Git</application> 检出..."
+
+#: fileviewgitplugin.cpp:80
+msgctxt "@action:inmenu"
+msgid "<application>Git</application> Commit..."
+msgstr "<application>Git</application> 提交..."
+
+#: fileviewgitplugin.cpp:86
+msgctxt "@action:inmenu"
+msgid "<application>Git</application> Create Tag..."
+msgstr "<application>Git</application> 创建标记..."
+
+#: fileviewgitplugin.cpp:91
+msgctxt "@action:inmenu"
+msgid "<application>Git</application> Push..."
+msgstr "<application>Git</application> 推送..."
+
+#: fileviewgitplugin.cpp:95
+msgctxt "@action:inmenu"
+msgid "<application>Git</application> Pull..."
+msgstr "<application>Git</application> 拉取..."
+
+#: fileviewgitplugin.cpp:345
+msgctxt "@info:status"
+msgid "Adding files to <application>Git</application> repository..."
+msgstr "正在向 <application>Git</application> 仓库添加文件..."
+
+#: fileviewgitplugin.cpp:346
+msgctxt "@info:status"
+msgid "Adding files to <application>Git</application> repository failed."
+msgstr "向 <application>Git</application> 仓库添加文件失败。"
+
+#: fileviewgitplugin.cpp:347
+msgctxt "@info:status"
+msgid "Added files to <application>Git</application> repository."
+msgstr "向 <application>Git</application> 仓库添加文件成功。"
+
+#: fileviewgitplugin.cpp:356
+msgctxt "@info:status"
+msgid "Removing files from <application>Git</application> repository..."
+msgstr "正在从 <application>Git</application> 仓库删除文件..."
+
+#: fileviewgitplugin.cpp:357
+msgctxt "@info:status"
+msgid "Removing files from <application>Git</application> repository failed."
+msgstr "从 <application>Git</application> 仓库删除文件失败。"
+
+#: fileviewgitplugin.cpp:358
+msgctxt "@info:status"
+msgid "Removed files from <application>Git</application> repository."
+msgstr "从 <application>Git</application> 仓库删除文件成功。"
+
+#: fileviewgitplugin.cpp:392
+#, kde-format
+msgctxt "@info:status"
+msgid "Switched to branch '%1'"
+msgstr "切换到分支“%1”"
+
+#: fileviewgitplugin.cpp:398
+#, kde-format
+msgctxt ""
+"@info:status Git HEAD pointer, parameter includes short SHA-1 & commit "
+"message "
+msgid "HEAD is now at %1"
+msgstr "HEAD 现在于 %1"
+
+#: fileviewgitplugin.cpp:402
+#, kde-format
+msgctxt "@info:status"
+msgid "Switched to a new branch '%1'"
+msgstr "切换到新分支“%1”"
+
+#: fileviewgitplugin.cpp:413
+msgctxt "@info:status"
+msgid ""
+"<application>Git</application> Checkout failed. Maybe your working directory "
+"is dirty."
+msgstr "<application>Git</application> 检出失败。您的工作目录可能已污染。"
+
+#: fileviewgitplugin.cpp:472
+#, kde-format
+msgctxt "@info:status"
+msgid "Successfully created tag '%1'"
+msgstr "创建标记“%1”成功"
+
+#: fileviewgitplugin.cpp:477
+#, kde-format
+msgctxt "@info:status"
+msgid ""
+"<application>Git</application> tag creation failed. A tag with the name '%1' "
+"already exists."
+msgstr "<application>Git</application> 标记创建失败。已存在名为“%1”的标记。"
+
+#: fileviewgitplugin.cpp:479
+msgctxt "@info:status"
+msgid "<application>Git</application> tag creation failed."
+msgstr "<application>Git</application> 标记创建失败。"
+
+#: fileviewgitplugin.cpp:491
+#, kde-format
+msgctxt "@info:status"
+msgid "Pushing branch %1 to %2:%3 failed."
+msgstr "推送分支 %1 到 %2:%3 失败。"
+
+#: fileviewgitplugin.cpp:493
+#, kde-format
+msgctxt "@info:status"
+msgid "Pushed branch %1 to %2:%3."
+msgstr "分支 %1 已推送到 %2:%3。"
+
+#: fileviewgitplugin.cpp:495
+#, kde-format
+msgctxt "@info:status"
+msgid "Pushing branch %1 to %2:%3..."
+msgstr "正在推送分支 %1 到 %2:%3..."
+
+#: fileviewgitplugin.cpp:512
+#, kde-format
+msgctxt "@info:status"
+msgid "Pulling branch %1 from %2 failed."
+msgstr "从 %2 拉取分支 %1 失败。"
+
+#: fileviewgitplugin.cpp:514
+#, kde-format
+msgctxt "@info:status"
+msgid "Pulled branch %1 from %2 successfully."
+msgstr "从 %2 拉取分支 %1 成功。"
+
+#: fileviewgitplugin.cpp:516
+#, kde-format
+msgctxt "@info:status"
+msgid "Pulling branch %1 from %2..."
+msgstr "正在从 %2 拉取分支 %1..."
+
+#: fileviewgitplugin.cpp:569 fileviewgitplugin.cpp:581
+msgctxt "@info:status"
+msgid "Branch is already up-to-date."
+msgstr "分支已经更新。"
+
+#: fileviewgitplugin.cpp:585
+msgctxt "@info:status"
+msgid "Merge conflicts occurred. Fix them and commit the result."
+msgstr "发生合并冲突。请修正冲突并提交结果。"
+
+#. i18n: ectx: label, entry (commitDialogHeight), group (CommitDialogSettings)
+#: fileviewgitpluginsettings.kcfg:7
+msgid "Dialog height"
+msgstr "对话框高度"
+
+#. i18n: ectx: label, entry (commitDialogWidth), group (CommitDialogSettings)
+#: fileviewgitpluginsettings.kcfg:12
+msgid "Dialog width"
+msgstr "对话框宽度"
+
+#: pulldialog.cpp:33
+msgctxt "@title:window"
+msgid "<application>Git</application> Pull"
+msgstr "<application>Git</application> 拉取"
+
+#: pulldialog.cpp:36
+msgctxt "@action:button"
+msgid "Pull"
+msgstr "拉取"
+
+#: pulldialog.cpp:42
+msgctxt "@title:group The source to pull from"
+msgid "Source"
+msgstr "来源"
+
+#: pulldialog.cpp:46 pushdialog.cpp:48
+msgctxt "@label:listbox a git remote"
+msgid "Remote:"
+msgstr "远程："
+
+#: pulldialog.cpp:51
+msgctxt "@label:listbox"
+msgid "Remote branch:"
+msgstr "远程分支："
+
+#: pushdialog.cpp:34
+msgctxt "@title:window"
+msgid "<application>Git</application> Push"
+msgstr "<application>Git</application> 推送"
+
+#: pushdialog.cpp:37
+msgctxt "@action:button"
+msgid "Push"
+msgstr "推送"
+
+#: pushdialog.cpp:44
+msgctxt "@title:group The remote host"
+msgid "Destination"
+msgstr "目标"
+
+#: pushdialog.cpp:56
+msgctxt "@title:group"
+msgid "Branches"
+msgstr "分支"
+
+#: pushdialog.cpp:60
+msgctxt "@label:listbox"
+msgid "Local Branch:"
+msgstr "本地分支："
+
+#: pushdialog.cpp:67
+msgctxt "@label:listbox"
+msgid "Remote Branch:"
+msgstr "远程分支："
+
+#: pushdialog.cpp:77
+msgctxt "@info:tooltip"
+msgid ""
+"Proceed even if the remote branch is not an ancestor of the local branch."
+msgstr "即使远程分支并非本地分支的原始分支也依然继续执行。"
+
+#: tagdialog.cpp:40
+msgctxt "@title:window"
+msgid "<application>Git</application> Create Tag"
+msgstr "<application>Git</application> 创建标记"
+
+#: tagdialog.cpp:43
+msgctxt "@action:button"
+msgid "Create Tag"
+msgstr "创建标记"
+
+#: tagdialog.cpp:49
+msgctxt "@title:group"
+msgid "Tag Information"
+msgstr "标记信息"
+
+#: tagdialog.cpp:53
+msgctxt "@label:textbox"
+msgid "Tag Name:"
+msgstr "标记名称："
+
+#: tagdialog.cpp:61
+msgctxt "@label:textbox"
+msgid "Tag Message:"
+msgstr "标记消息："
+
+#: tagdialog.cpp:70
+msgctxt "@title:group"
+msgid "Attach to"
+msgstr "附加到"
+
+#: tagdialog.cpp:75
+msgctxt "@label:listbox"
+msgid "Branch:"
+msgstr "分支："
+
+#: tagdialog.cpp:121
+msgctxt "@info:tooltip"
+msgid "You must enter a tag name first."
+msgstr "您必须先输入标记名称。"
+
+#: tagdialog.cpp:124
+msgctxt "@info:tooltip"
+msgid "Tag names may not contain any whitespace."
+msgstr "标记名称不能包含空白。"
+
+#: tagdialog.cpp:127
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "A tag named '%1' already exists."
+msgstr "已存在名为“%1”的标记。"

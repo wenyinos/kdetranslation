@@ -1,0 +1,2539 @@
+# translation of ksystemlog.po to 简体中文
+# translation of ksystemlog.po to
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksystemlog\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-06-21 01:35+0000\n"
+"PO-Revision-Date: 2011-06-05 17:30+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Liu DongMiao,KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "hanyiny@gmail.com,kde-china@kde.org"
+
+#. i18n: ectx: label, entry (StartupLogMode), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:13
+msgid "Load this log mode at startup."
+msgstr "启动时加载此日志模式。"
+
+#. i18n: ectx: label, entry (MaxLines), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:18
+msgid "The log view line count limit."
+msgstr "日志行数限制。"
+
+#. i18n: ectx: label, entry (DeleteDuplicatedLines), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:23
+msgid "Option is true if the user wants to delete repeated log lines."
+msgstr "如果用户想要删除相同的日志行目，请选中此项。"
+
+#. i18n: ectx: label, entry (DeleteProcessIdentifier), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:28
+msgid ""
+"Option is true if the PID in the process column of the SystemLog is to be "
+"omitted."
+msgstr "是否要在系统日志的进程栏中显示进程号(PID)。"
+
+#. i18n: ectx: label, entry (ColorizeLogLines), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:33
+msgid ""
+"Option is true if the log lines are to be colored depending on their log "
+"level."
+msgstr "如果要按日志等级给日志行着色，请选中此项。"
+
+#. i18n: ectx: label, entry (TooltipEnabled), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:39
+msgid "Whether the tooltips are enabled."
+msgstr "是否启用工具提示。"
+
+#. i18n: ectx: label, entry (NewLinesDisplayed), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:44
+msgid "Whether new lines are displayed."
+msgstr "是否显示新行。"
+
+#. i18n: ectx: label, entry (ToggleFilterBar), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:49
+msgid "Whether the filter bar is shown."
+msgstr "是否显示过滤栏？"
+
+#. i18n: ectx: label, entry (DateFormat), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:54
+msgid "The date format of log lines."
+msgstr "日志行的日期格式。"
+
+#. i18n: ectx: label, entry (SambaPaths), group (KSystemLogGeneral)
+#: src/config/ksystemlog.kcfg:70
+msgid "The Samba log file paths."
+msgstr "Samba 日志文件路径。"
+
+#: src/configurationDialog.cpp:54
+msgid "Settings"
+msgstr "设置"
+
+#: src/configurationDialog.cpp:108
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (text), widget (QPushButton, previous)
+#: src/detailDialog.cpp:41 src/lib/logViewSearchWidgetBase.ui:68
+msgid "&Previous"
+msgstr "上一个(&P)"
+
+#. i18n: ectx: property (text), widget (QPushButton, next)
+#: src/detailDialog.cpp:45 src/lib/logViewSearchWidgetBase.ui:58
+msgid "&Next"
+msgstr "下一个(&N)"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, DetailDialogBase)
+#: src/detailDialogBase.ui:13
+msgid "Log Line Details"
+msgstr "日志行详情"
+
+#. i18n: ectx: property (whatsThis), widget (QDialog, DetailDialogBase)
+#: src/detailDialogBase.ui:16
+msgid ""
+"This dialog displays detailed information about the currently selected log "
+"line."
+msgstr "这个对话框显示了当前所选日志行的详细信息。"
+
+#. i18n: ectx: property (text), widget (KTextEdit, message)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: src/detailDialogBase.ui:28 src/loggerDialogBase.ui:33
+#: src/modes/acpid/acpidAnalyzer.h:51 src/modes/apache/apacheAnalyzer.h:55
+#: src/modes/base/syslogAnalyzer.cpp:61 src/modes/cups/cupsAnalyzer.h:56
+#: src/modes/cups/cupsPdfAnalyzer.h:55 src/modes/kernel/kernelAnalyzer.h:60
+#: src/modes/samba/sambaAnalyzer.h:58 src/modes/xorg/xorgAnalyzer.h:61
+#: src/modes/xsession/xsessionAnalyzer.h:55
+msgid "Message"
+msgstr "讯息"
+
+#. i18n: ectx: property (text), widget (QLabel, icon)
+#: src/detailDialogBase.ui:44
+msgid "Icon"
+msgstr "图标"
+
+#. i18n: ectx: property (text), widget (QLabel, header)
+#: src/detailDialogBase.ui:60
+msgid "Main information"
+msgstr "主要信息"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, previous)
+#: src/detailDialogBase.ui:90
+msgid "Move to the previous line"
+msgstr "移到上一行"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, previous)
+#: src/detailDialogBase.ui:93
+msgid ""
+"Moves to the previous line. This button is deactivated if there is no "
+"previous log line."
+msgstr "移到上一行。如果没有上一行时此按纽失效。"
+
+#. i18n: ectx: property (text), widget (KPushButton, previous)
+#: src/detailDialogBase.ui:96
+msgid "&Back"
+msgstr "返回(&B)"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, next)
+#: src/detailDialogBase.ui:112
+msgid "Move to the next line"
+msgstr "移到下一行"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, next)
+#: src/detailDialogBase.ui:115
+msgid ""
+"Moves to the next line. This button is deactivated if there is no next log "
+"line."
+msgstr "移到下一行。如果没有下一行时此按纽失效。"
+
+#. i18n: ectx: property (text), widget (KPushButton, next)
+#: src/detailDialogBase.ui:118
+msgid "&Forward"
+msgstr "前进(&F)"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, closeButton)
+#: src/detailDialogBase.ui:150
+msgid "Close the Detail dialog."
+msgstr "关闭详情对话框。"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, closeButton)
+#: src/detailDialogBase.ui:153
+msgid "Closes this Detail dialog."
+msgstr "关闭详情对话框。"
+
+#. i18n: ectx: property (text), widget (KPushButton, closeButton)
+#: src/detailDialogBase.ui:156
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#: src/generalConfigurationWidget.cpp:50
+msgid "No Log Mode"
+msgstr "无日志模式"
+
+#: src/generalConfigurationWidget.cpp:95
+#, kde-format
+msgctxt "Date format Option (Date example)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/generalConfigurationWidgetBase.ui:17
+msgid "Startup"
+msgstr "启动"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/generalConfigurationWidgetBase.ui:23
+msgid "Load this log mode at startup:"
+msgstr "启动时加载的日志模式："
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, startupLogMode)
+#: src/generalConfigurationWidgetBase.ui:33
+msgid "The log mode which is loaded by default at startup"
+msgstr "启动时默认加载的日志模式"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, startupLogMode)
+#: src/generalConfigurationWidgetBase.ui:36
+msgid ""
+"The log mode loaded by default at startup. Choose 'No Log Mode' if you do "
+"not want this to happen."
+msgstr "启动时默认加载的日志模式。如果您不想默认加载，请选择“无日志模式”。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/generalConfigurationWidgetBase.ui:46
+msgid "Log Lines List"
+msgstr "日志行数列表"
+
+#. i18n: ectx: property (text), widget (QLabel, maxLinesLabel)
+#: src/generalConfigurationWidgetBase.ui:54
+msgid "Maximum lines displayed:"
+msgstr "最大显示行数："
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, maxLines)
+#: src/generalConfigurationWidgetBase.ui:70
+msgid "Choose here the maximum number of log lines displayed in the main view."
+msgstr "在此选择主视图中显示的最大日志行数。"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, maxLines)
+#: src/generalConfigurationWidgetBase.ui:73
+msgid ""
+"You can choose here the maximum number of log lines displayed in the main "
+"view."
+msgstr "您可以在此选择主视图中显示的最大日志行数。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, deleteDuplicatedLines)
+#: src/generalConfigurationWidgetBase.ui:91
+msgid ""
+"Select this option if you want to delete duplicate log lines <b>(may be slow)"
+"</b>."
+msgstr "如果您想删除重复的日志行，请选中此项<b>(较慢)</b>。"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, deleteDuplicatedLines)
+#: src/generalConfigurationWidgetBase.ui:94
+msgid ""
+"Select this option if you want to delete duplicate log lines. <b>This option "
+"can slow log reading</b>."
+msgstr ""
+"如果您想删除重复的日志行，请选中此项。不过这样<b>可能会使读取过程变慢</b>。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, deleteDuplicatedLines)
+#: src/generalConfigurationWidgetBase.ui:97
+msgid "Remove &duplicate log lines (may be slower)"
+msgstr "删除重复的日志行(可能较慢)(&D)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/generalConfigurationWidgetBase.ui:107 src/loggerDialogBase.ui:206
+msgid "Options"
+msgstr "选项"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, deleteProcessId)
+#: src/generalConfigurationWidgetBase.ui:113
+msgid "Remove process identifier from process name."
+msgstr "从进程名中删除进程标识符。"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, deleteProcessId)
+#: src/generalConfigurationWidgetBase.ui:116
+msgid ""
+"Select this option if you want to remove the process identifier from the "
+"process name. For example, the <b>Process</b> column may contain entries "
+"such as <i>cron<b>[3433]</b></i>. If this option is activated, the bold part "
+"will be removed."
+msgstr ""
+"如果您想从进程名中删除进程标识，请选中此项。有时您会在<b>进程</b>栏里看到像 "
+"<i>cron<b>[3433]</b></i> 之类的东西。如果选中了此选项，则可以清除烦人的粗体部"
+"分。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, deleteProcessId)
+#: src/generalConfigurationWidgetBase.ui:119
+msgid "Remove &identifier from process name"
+msgstr "在进程名字里移除标识(&I)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, colorizeLogLines)
+#: src/generalConfigurationWidgetBase.ui:126
+msgid ""
+"This option allows log lines to be colored depending on their log level."
+msgstr "这个选项允许按日志级别给日志着色。"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, colorizeLogLines)
+#: src/generalConfigurationWidgetBase.ui:129
+msgid ""
+"This option allows log lines to be colored depending on their log level. For "
+"example, errors will be shown in red, warnings in orange, and so on. This "
+"will help you to see problems more easily."
+msgstr ""
+"这个选项可以按日志级别给日志着色。比如，“错误”等级用红色，“警告”等级用橙色等"
+"等。这将帮您更好地查出问题。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, colorizeLogLines)
+#: src/generalConfigurationWidgetBase.ui:132
+msgid "&Colored log lines"
+msgstr "给日志行着色(&C)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: src/generalConfigurationWidgetBase.ui:142
+msgid "Date Format"
+msgstr "日期格式"
+
+#. i18n: ectx: property (text), widget (QRadioButton, formatShortDate)
+#: src/generalConfigurationWidgetBase.ui:151
+msgid "&Short date format"
+msgstr "短日期格式(&S)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, formatFancyShortDate)
+#: src/generalConfigurationWidgetBase.ui:158
+msgid "&Fancy short date format"
+msgstr "亮丽短日期格式(&F)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, formatLongDate)
+#: src/generalConfigurationWidgetBase.ui:165
+msgid "&Long date format"
+msgstr "长日期格式(&L)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, formatFancyLongDate)
+#: src/generalConfigurationWidgetBase.ui:172
+msgid "Fanc&y long date format"
+msgstr "亮丽长日期格式(&Y)"
+
+#. i18n: ectx: Menu (edit)
+#: src/ksystemlogui.rc:13
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (logs)
+#: src/ksystemlogui.rc:31
+msgid "Logs"
+msgstr "日志"
+
+#. i18n: ectx: Menu (window)
+#: src/ksystemlogui.rc:36
+msgid "&Window"
+msgstr "窗口(&W)"
+
+#. i18n: ectx: ToolBar (logToolBar)
+#: src/ksystemlogui.rc:55
+msgid "Logs Toolbar"
+msgstr "日志工具栏"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/ksystemlogui.rc:60
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: src/lib/analyzer.cpp:146
+#, kde-format
+msgid "Opening '%1'..."
+msgstr "正在打开“%1”..."
+
+#: src/lib/analyzer.cpp:153
+#, kde-format
+msgid "Log file '%1' loaded successfully."
+msgstr "日志文件“%1”载入成功。"
+
+#: src/lib/analyzer.cpp:167
+#, kde-format
+msgid "Log file '%1' has changed."
+msgstr "日志文件“%1”已经改变。"
+
+#: src/lib/globals.cpp:135
+msgid "None"
+msgstr "无"
+
+#: src/lib/globals.cpp:138
+msgid "Debug"
+msgstr "调试"
+
+#: src/lib/globals.cpp:141
+msgid "Information"
+msgstr "信息"
+
+#: src/lib/globals.cpp:144
+msgid "Notice"
+msgstr "注意"
+
+#: src/lib/globals.cpp:147
+msgid "Warning"
+msgstr "警告"
+
+#: src/lib/globals.cpp:150
+msgid "Error"
+msgstr "错误"
+
+#: src/lib/globals.cpp:153
+msgid "Critical"
+msgstr "危险"
+
+#: src/lib/globals.cpp:156
+msgid "Alert"
+msgstr "警告"
+
+#: src/lib/globals.cpp:159
+msgid "Emergency"
+msgstr "紧急"
+
+#: src/lib/levelPrintPage.cpp:41
+msgid "Log Level Printing"
+msgstr "日志级别打印"
+
+#: src/lib/levelPrintPage.cpp:48
+msgid "Choose which log levels you wish to print in color."
+msgstr "选择您要以彩色打印的日志级别。"
+
+#: src/lib/loadingBar.cpp:66
+msgid "Loading Progress..."
+msgstr "加载进度..."
+
+#: src/lib/loadingBar.cpp:94
+#, kde-format
+msgid "Loading <b>%2</b>...<br /><i>%3</i> - (<b>%4</b>)"
+msgid_plural "Loading <b>%2</b>...<br /><i>%3</i> - (<b>%4</b>/%1 files)"
+msgstr[0] ""
+"正在加载 <b>%2</b>...<br /><i>%3</i> - (第 <b>%4</b> 个，共 %1 个文件)"
+
+#: src/lib/loadingBar.cpp:98
+#, kde-format
+msgid "Reloading <b>%2</b>...<br /><i>%3</i> - (<b>%4</b>)"
+msgid_plural "Reloading <b>%2</b>...<br /><i>%3</i> - (<b>%4</b>/%1 files)"
+msgstr[0] ""
+"正在重新加载 <b>%2</b>...<br /><i>%3</i> - (第 <b>%4</b> 个，共 %1 个文件)"
+
+#: src/lib/loadingBar.cpp:105
+#, kde-format
+msgid "Loading <b>%1</b>...<br /><i>%2</i>"
+msgstr "正在加载 <b>%1</b>...<br /><i>%2</i>"
+
+#: src/lib/loadingBar.cpp:107
+#, kde-format
+msgid "Reloading <b>%1</b>...<br /><i>%2</i>"
+msgstr "正在重新加载 <b>%1</b>...<br /><i>%2</i>"
+
+#: src/lib/localLogFileReader.cpp:115
+#: src/lib/processOutputLogFileReader.cpp:109
+msgid "This file is not valid. Please adjust it in the settings of KSystemLog."
+msgstr "文件无效。请调整 KSystemLog 中的相关设置。"
+
+#: src/lib/localLogFileReader.cpp:116 src/lib/localLogFileReader.cpp:130
+#: src/lib/processOutputLogFileReader.cpp:110
+msgid "File Does Not Exist"
+msgstr "文件不存在"
+
+#: src/lib/localLogFileReader.cpp:129
+#, kde-format
+msgid "The file '%1' does not exist."
+msgstr "文件“%1”不存在。"
+
+#: src/lib/localLogFileReader.cpp:149
+#, kde-format
+msgid "Unable to uncompress the '%2' format of '%1'."
+msgstr "无法解压缩“%2”格式的“%1”。"
+
+#: src/lib/localLogFileReader.cpp:150
+msgid "Unable to Uncompress File"
+msgstr "无法解压缩文件"
+
+#: src/lib/localLogFileReader.cpp:157
+#, kde-format
+msgid "You do not have sufficient permissions to read '%1'."
+msgstr "您没有足够的权限读取“%1”。"
+
+#: src/lib/localLogFileReader.cpp:158
+msgid "Insufficient Permissions"
+msgstr "权限不足"
+
+#: src/lib/logManager.cpp:82
+msgid "Loading log..."
+msgstr "加载日志中..."
+
+#: src/lib/logManager.cpp:105
+msgid "Log successfully loaded."
+msgstr "成功加载日志。"
+
+#: src/lib/logModeConfiguration.cpp:217 src/lib/logModeConfiguration.cpp:245
+#: src/modes/base/genericConfiguration.cpp:100
+#, kde-format
+msgid "URL '%1' is not valid, skipping this URL."
+msgstr "URL“%1”无效，跳过此 URL。"
+
+#: src/lib/logModeItemBuilder.cpp:68 src/lib/logModeItemBuilder.cpp:85
+#: src/modes/acpid/acpidItemBuilder.h:57
+#: src/modes/apache/apacheAccessItemBuilder.h:55
+#: src/modes/apache/apacheItemBuilder.h:55 src/modes/cron/cronItemBuilder.h:55
+#: src/modes/cups/cupsAccessItemBuilder.h:55
+#: src/modes/cups/cupsItemBuilder.h:53 src/modes/cups/cupsPageItemBuilder.h:55
+#: src/modes/cups/cupsPdfItemBuilder.h:55
+#: src/modes/kernel/kernelItemBuilder.h:57
+#: src/modes/samba/sambaItemBuilder.h:55
+msgid "Date:"
+msgstr "日期："
+
+#: src/lib/logModeItemBuilder.cpp:69 src/modes/cron/cronItemBuilder.h:56
+#: src/modes/cups/cupsAccessItemBuilder.h:57
+msgid "Hostname:"
+msgstr "主机名："
+
+#: src/lib/logModeItemBuilder.cpp:70 src/modes/cron/cronItemBuilder.h:57
+msgid "Process:"
+msgstr "进程："
+
+#: src/lib/logModeItemBuilder.cpp:71 src/lib/logModeItemBuilder.cpp:86
+#: src/modes/acpid/acpidItemBuilder.h:58
+#: src/modes/apache/apacheAccessItemBuilder.h:56
+#: src/modes/apache/apacheItemBuilder.h:56 src/modes/cron/cronItemBuilder.h:59
+#: src/modes/cups/cupsAccessItemBuilder.h:56
+#: src/modes/cups/cupsItemBuilder.h:54 src/modes/cups/cupsPageItemBuilder.h:56
+#: src/modes/cups/cupsPdfItemBuilder.h:56
+#: src/modes/kernel/kernelItemBuilder.h:58
+#: src/modes/samba/sambaItemBuilder.h:56
+msgid "Level:"
+msgstr "级别："
+
+#: src/lib/logModeItemBuilder.cpp:72 src/lib/logModeItemBuilder.cpp:87
+#: src/modes/cron/cronItemBuilder.h:60 src/modes/xorg/xorgItemBuilder.h:78
+#: src/modes/xsession/xsessionItemBuilder.h:78
+msgid "Original file:"
+msgstr "原始文件："
+
+#: src/lib/logViewExport.cpp:57
+msgid "Here are my logs:\n"
+msgstr "我的日志如下：\n"
+
+#: src/lib/logViewExport.cpp:59 src/lib/logViewExport.cpp:73
+msgid "---------------------------------------\n"
+msgstr "---------------------------------------\n"
+
+#: src/lib/logViewExport.cpp:77
+msgid ""
+"You have selected too many lines. Please only select important log lines."
+msgstr "您选择的行数过多。请只选择重要的日志。"
+
+#: src/lib/logViewExport.cpp:77
+msgid "Too Many Lines Selected"
+msgstr "所选行数过多"
+
+#: src/lib/logViewExport.cpp:90
+msgid "Log Lines of my problem"
+msgstr "我有问题的日志行"
+
+#: src/lib/logViewExport.cpp:213
+msgid "No items selected. Nothing copied to clipboard."
+msgstr "未选择任何项目。没有内容复制到剪贴板。"
+
+#: src/lib/logViewExport.cpp:219
+#, kde-format
+msgid "1 log line copied to clipboard."
+msgid_plural "%1 log lines copied to clipboard."
+msgstr[0] "已复制 %1 行日志到剪贴板中。"
+
+#: src/lib/logViewExport.cpp:233
+msgid "No items selected. Please select items to be able to save them."
+msgstr "未选择任何项目。请选择以便保存。"
+
+#: src/lib/logViewExport.cpp:264
+#, kde-format
+msgid "1 log line saved to '%2'."
+msgid_plural "%1 log lines saved to '%2'."
+msgstr[0] "%1 行日志已保存到“%2”。"
+
+#: src/lib/logViewExport.cpp:267
+#, kde-format
+msgid "Unable to save file '%1': Permission Denied."
+msgstr "无法保存文件“%1”：访问被拒绝。"
+
+#: src/lib/logViewExport.cpp:268
+msgid "Unable to save file."
+msgstr "无法保存文件。"
+
+#: src/lib/logViewFilterWidget.cpp:80
+msgid "Type your filter here"
+msgstr "请在此输入您的过滤条件"
+
+#: src/lib/logViewFilterWidget.cpp:81
+msgid "Allows you to only list items that match the content of this text."
+msgstr "允许您只列出符合内容的项目。"
+
+#: src/lib/logViewFilterWidget.cpp:82
+msgid "Enter your search here..."
+msgstr "请在此输入您的搜索字串..."
+
+#: src/lib/logViewFilterWidget.cpp:89
+msgid "Filter:"
+msgstr "过滤："
+
+#: src/lib/logViewFilterWidget.cpp:109
+msgid "Choose the filtered column here"
+msgstr "在此选择过滤的栏"
+
+#: src/lib/logViewFilterWidget.cpp:110
+msgid ""
+"Allows you to apply the item filter only on the specified column here. "
+"\"<i>All</i>\" column means no specific filter."
+msgstr "允许您针对指定的栏应用过滤器。“<i>全部</i>”表示不作特定过滤。"
+
+#: src/lib/logViewFilterWidget.cpp:112 src/lib/logViewFilterWidget.cpp:129
+msgid "All"
+msgstr "全部"
+
+#: src/lib/logViewSearchWidget.cpp:185
+msgid "Reached end of list."
+msgstr "已经到达列表底端。"
+
+#: src/lib/logViewSearchWidget.cpp:267
+msgid "Phrase not found."
+msgstr "词语未找到。"
+
+#. i18n: ectx: property (text), widget (QLabel, searchLabel)
+#: src/lib/logViewSearchWidgetBase.ui:41
+msgid "Find:"
+msgstr "查找："
+
+#. i18n: ectx: property (text), widget (QCheckBox, caseSensitive)
+#: src/lib/logViewSearchWidgetBase.ui:78
+msgid "Match &case"
+msgstr "区分大小写(&C)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, highlightAllButton)
+#: src/lib/logViewSearchWidgetBase.ui:85
+msgid "&Highlight all"
+msgstr "全部加亮(&H)"
+
+#: src/lib/logViewWidget.cpp:124
+#, kde-format
+msgid "Display/Hide the '%1' column"
+msgstr "显示/隐藏“%1”栏"
+
+#: src/lib/processOutputLogFileReader.cpp:156
+#, kde-format
+msgid "The process '%1' crashed."
+msgstr "进程“%1”已经崩溃。"
+
+#: src/lib/processOutputLogFileReader.cpp:157
+msgid "Process Crashed"
+msgstr "进程已经崩溃"
+
+#: src/loggerDialog.cpp:91 src/loggerDialog.cpp:124
+#: src/modes/apache/apacheAccessAnalyzer.h:56 src/modes/cron/cronAnalyzer.h:54
+#: src/modes/cups/cupsAccessAnalyzer.h:56 src/modes/cups/cupsPageAnalyzer.h:55
+msgid "User"
+msgstr "用户"
+
+#: src/loggerDialog.cpp:114
+msgid "Authentication"
+msgstr "认证"
+
+#: src/loggerDialog.cpp:115
+msgid "Private Authentication"
+msgstr "私人认证"
+
+#: src/loggerDialog.cpp:116
+msgid "Cron"
+msgstr "任务调度"
+
+#: src/loggerDialog.cpp:117
+msgid "Daemon"
+msgstr "守护进程"
+
+#: src/loggerDialog.cpp:118
+msgid "FTP"
+msgstr "FTP"
+
+#: src/loggerDialog.cpp:119
+msgid "Kernel"
+msgstr "内核"
+
+#: src/loggerDialog.cpp:120
+msgid "LPR"
+msgstr "LPR"
+
+#: src/loggerDialog.cpp:121
+msgid "Mail"
+msgstr "邮件"
+
+#: src/loggerDialog.cpp:122
+msgid "News"
+msgstr "新闻"
+
+#: src/loggerDialog.cpp:123
+msgid "Syslog"
+msgstr "系统日志"
+
+#: src/loggerDialog.cpp:125
+msgid "UUCP"
+msgstr "UUCP"
+
+#: src/loggerDialog.cpp:127
+msgid "Local 0"
+msgstr "本地 0"
+
+#: src/loggerDialog.cpp:128
+msgid "Local 1"
+msgstr "本地 1"
+
+#: src/loggerDialog.cpp:129
+msgid "Local 2"
+msgstr "本地 2"
+
+#: src/loggerDialog.cpp:130
+msgid "Local 3"
+msgstr "本地 3"
+
+#: src/loggerDialog.cpp:131
+msgid "Local 4"
+msgstr "本地 4"
+
+#: src/loggerDialog.cpp:132
+msgid "Local 5"
+msgstr "本地 5"
+
+#: src/loggerDialog.cpp:133
+msgid "Local 6"
+msgstr "本地 6"
+
+#: src/loggerDialog.cpp:134
+msgid "Local 7"
+msgstr "本地 7"
+
+#: src/loggerDialog.cpp:242
+msgid ""
+"Unable to find the 'logger' command on your system. Please type 'logger' in "
+"a Konsole to determine whether this command is installed."
+msgstr ""
+"在您的系统上找不到“logger”命令。请在 Konsole 里输入“logger”以确认您是否安装了"
+"此命令。"
+
+#: src/loggerDialog.cpp:242
+msgid "Command not found"
+msgstr "找不到命令"
+
+#: src/loggerDialog.cpp:247
+msgid "The 'logger' command has not been properly exited."
+msgstr "“logger”命令非正常退出。"
+
+#: src/loggerDialog.cpp:247
+msgid "Execution problem"
+msgstr "执行发生问题"
+
+#: src/loggerDialog.cpp:253
+msgid "This file does not exist, please choose another."
+msgstr "文件不存在。请另选文件。"
+
+#: src/loggerDialog.cpp:253
+msgid "File not valid"
+msgstr "文件无效"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, LoggerDialogBase)
+#: src/loggerDialogBase.ui:24
+msgid "Log Message"
+msgstr "日志信息"
+
+#. i18n: ectx: property (text), widget (QRadioButton, messageActivation)
+#: src/loggerDialogBase.ui:39
+msgid "&Message:"
+msgstr "信息(&M)："
+
+#. i18n: ectx: property (text), widget (QRadioButton, fileActivation)
+#: src/loggerDialogBase.ui:52
+msgid "&File content:"
+msgstr "文件内容(&F)："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/loggerDialogBase.ui:75
+msgid "Properties"
+msgstr "属性"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: src/loggerDialogBase.ui:101
+msgid "&Priority:"
+msgstr "优先级(&P)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: src/loggerDialogBase.ui:162
+msgid "&Facility:"
+msgstr "日志设备(&F)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, tagActivation)
+#: src/loggerDialogBase.ui:229
+msgid "&Tag:"
+msgstr "标记(&T)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, useProcessIdentifier)
+#: src/loggerDialogBase.ui:241
+msgid "Log process &identifier"
+msgstr "日志进程标识符(&I)"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, loggerManual)
+#: src/loggerDialogBase.ui:290
+msgid "Open the 'logger' command manual."
+msgstr "打开“logger”命令手册。"
+
+#. i18n: ectx: property (statusTip), widget (QLabel, loggerManual)
+#: src/loggerDialogBase.ui:293
+msgid "This link opens the 'logger' command manual."
+msgstr "此链接可打开“logger”命令手册。"
+
+#. i18n: ectx: property (text), widget (QLabel, loggerManual)
+#: src/loggerDialogBase.ui:296
+msgid "<a href=\"man:/logger\">Logger Manual</a>"
+msgstr "<a href=\"man:/logger\">Logger 手册</a>"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonOK)
+#: src/loggerDialogBase.ui:322
+msgid "&OK"
+msgstr "确定(&O)"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
+#: src/loggerDialogBase.ui:338
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#: src/main.cpp:36
+msgid "KSystemlog"
+msgstr "KSystemlog"
+
+#: src/main.cpp:38
+msgid "System Logs Viewer for KDE"
+msgstr "KDE 下的系统日志查看器"
+
+#: src/main.cpp:40
+msgid "(C) 2007, Nicolas Ternisien"
+msgstr "(C) 2007，Nicolas Ternisien"
+
+#: src/main.cpp:41
+msgid ""
+"Do not hesitate to report bugs and problems to Nicolas Ternisien <a "
+"href='mailto:nicolas.ternisien@gmail.com'>nicolas.ternisien@gmail.com</a>"
+msgstr ""
+"不要犹豫，有任何问题请向 Nicolas Ternisien <a href='mailto:nicolas."
+"ternisien@gmail.com'>nicolas.ternisien@gmail.com</a> 报告"
+
+#: src/main.cpp:47
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
+
+#: src/main.cpp:48
+msgid "Main developer"
+msgstr "主要开发人员"
+
+#: src/main.cpp:54
+msgid "Bojan Djurkovic"
+msgstr "Bojan Djurkovic"
+
+#: src/main.cpp:54
+msgid "Log Printing"
+msgstr "日志打印"
+
+#: src/main.cpp:59
+msgid "Document to open"
+msgstr "要打开的文档"
+
+#: src/mainWindow.cpp:383
+#, kde-format
+msgctxt "Total displayed lines"
+msgid "1 line."
+msgid_plural "%1 lines."
+msgstr[0] "%1 行。"
+
+#: src/mainWindow.cpp:386
+#, kde-format
+msgctxt "Line not hidden by search / Total displayed lines"
+msgid "1 line / %2 total."
+msgid_plural "%1 lines / %2 total."
+msgstr[0] "%1 行，共 %2 行。"
+
+#: src/mainWindow.cpp:407
+msgid "Resu&me"
+msgstr "恢复(&M)"
+
+#: src/mainWindow.cpp:410
+msgid "Resume the watching of the current log"
+msgstr "恢复查看当前日志"
+
+#: src/mainWindow.cpp:411
+msgid ""
+"Resumes the watching of the current log. This action is only available when "
+"the user has already paused the reading."
+msgstr "恢复当前正在查看的日志。这个动作只有当用户暂停读取时有用。"
+
+#: src/mainWindow.cpp:415
+msgid "S&top"
+msgstr "停止(&T)"
+
+#: src/mainWindow.cpp:418
+msgid "Pause the watching of the current log"
+msgstr "暂停查看当前日志"
+
+#: src/mainWindow.cpp:419
+msgid ""
+"Pauses the watching of the current log. This action is particularly useful "
+"when the system is writing too many lines to log files, causing KSystemLog "
+"to reload too frequently."
+msgstr ""
+"暂停查看当前日志。当系统日志行数过多，造成 KSystemLog 频繁重新加载时，这个动"
+"作非常有用。"
+
+#: src/mainWindow.cpp:488 src/tabLogManager.cpp:82
+msgctxt "Newly created tab"
+msgid "Empty Log"
+msgstr "空日志"
+
+#: src/mainWindow.cpp:581
+msgid "Open a file in KSystemLog"
+msgstr "在 KSystemLog 中打开一个文件"
+
+#: src/mainWindow.cpp:582
+msgid "Opens a file in KSystemLog and displays its content in the current tab."
+msgstr "在 KSystemLog 中打开一个文件，并在当前标签页中显示其内容。"
+
+#: src/mainWindow.cpp:585
+msgid "&Print Selection..."
+msgstr "打印所选区域(&P)..."
+
+#: src/mainWindow.cpp:586
+msgid "Print the selection"
+msgstr "打印所选区域"
+
+#: src/mainWindow.cpp:587
+msgid ""
+"Prints the selection. Simply select the important lines and click on this "
+"menu entry to print the selection."
+msgstr "打印所选区域。仅仅选择重要内容，点击这个菜单选项打印所选区域。"
+
+#: src/mainWindow.cpp:593
+msgid "Save the selection to a file"
+msgstr "保存所选区域到文件"
+
+#: src/mainWindow.cpp:594
+msgid ""
+"Saves the selection to a file. This action is useful if you want to create "
+"an attachment or a backup of a particular log."
+msgstr "保存所选区域到文件。这个动作可以用来建立附件或者备份日志。"
+
+#: src/mainWindow.cpp:598
+msgid "Quit KSystemLog"
+msgstr "退出 KSystemLog"
+
+#: src/mainWindow.cpp:599
+msgid "Quits KSystemLog."
+msgstr "退出 KSystemLog。"
+
+#: src/mainWindow.cpp:602
+msgid "Copy the selection to the clipboard"
+msgstr "复制所选区域到剪贴板"
+
+#: src/mainWindow.cpp:603
+msgid ""
+"Copies the selection to the clipboard. This action is useful if you want to "
+"paste the selection in a chat or an email."
+msgstr ""
+"复制所选区域到剪贴板。这个动作可以用来复制所选区域到聊天窗口或者电子邮件。"
+
+#: src/mainWindow.cpp:607
+msgid "Ex&pand All"
+msgstr "全部展开(&P)"
+
+#: src/mainWindow.cpp:609
+msgid "Expand all categories"
+msgstr "展开全部分类"
+
+#: src/mainWindow.cpp:610
+msgid ""
+"This action opens all main categories. This is enabled only if an option has "
+"been selected in the <b>Group By</b> menu."
+msgstr ""
+"这个动作可展开所有主要的分类。只有当选中<b>按组排列</b>菜单中的选项时才有用。"
+
+#: src/mainWindow.cpp:614
+msgid "Col&lapse All"
+msgstr "全部折叠(&L)"
+
+#: src/mainWindow.cpp:616
+msgid "Collapse all categories"
+msgstr "折叠全部分类"
+
+#: src/mainWindow.cpp:617
+msgid ""
+"This action closes all main categories. This is enabled only if an option "
+"has been selected in the <b>Group By</b> menu."
+msgstr ""
+"这个动作可收起全部主要分类。只有当选中<b>按组排列</b>菜单中的选项时才有用。"
+
+#: src/mainWindow.cpp:621
+msgid "&Email Selection..."
+msgstr "邮寄所选区域(&E)..."
+
+#: src/mainWindow.cpp:624
+msgid "Send the selection by mail"
+msgstr "通过电子邮件发送所选区域"
+
+#: src/mainWindow.cpp:625
+msgid ""
+"Sends the selection by mail. Simply select the important lines and click on "
+"this menu entry to send the selection to a friend or a mailing list."
+msgstr ""
+"通过电子邮件发送所选区域。简单地选中重要内容，点击此菜单项将所选区域发送给朋"
+"友或者邮件列表。"
+
+#: src/mainWindow.cpp:629
+msgid "&Add Log Entry..."
+msgstr "添加日志条目(&A)..."
+
+#: src/mainWindow.cpp:632
+msgid "Add a log entry to the log system"
+msgstr "添加日志条目到日志系统"
+
+#: src/mainWindow.cpp:633
+msgid ""
+"This action will open a dialog which lets you send a message to the log "
+"system."
+msgstr "这个动作可打开一个对话框，让您发送信息到日志系统。"
+
+#: src/mainWindow.cpp:636
+msgid "Select all lines of the current log"
+msgstr "选择当前全部日志"
+
+#: src/mainWindow.cpp:637
+msgid ""
+"Selects all lines of the current log. This action is useful if you want, for "
+"example, to save all the content of the current log in a file."
+msgstr "选择当前全部日志。这个动作可以用来保存当前全部日志到文件。"
+
+#: src/mainWindow.cpp:648
+msgid "Show &Filter Bar"
+msgstr "显示过滤栏(&F)"
+
+#: src/mainWindow.cpp:654
+msgid "&New Tab"
+msgstr "新建标签页(&N)"
+
+#: src/mainWindow.cpp:657 src/tabLogViewsWidget.cpp:59
+msgid "Create a new tab"
+msgstr "创建一个新的标签页"
+
+#: src/mainWindow.cpp:658 src/tabLogViewsWidget.cpp:60
+msgid "Creates a new tab which can display another log."
+msgstr "创建一个新的标签页以便显示另一个日志。"
+
+#: src/mainWindow.cpp:662
+msgid "&Close Tab"
+msgstr "关闭标签页(&C)"
+
+#: src/mainWindow.cpp:665 src/tabLogViewsWidget.cpp:65
+msgid "Close the current tab"
+msgstr "关闭当前标签页"
+
+#: src/mainWindow.cpp:666 src/tabLogViewsWidget.cpp:66
+msgid "Closes the current tab."
+msgstr "关闭当前标签页。"
+
+#: src/mainWindow.cpp:670
+msgid "&Duplicate Tab"
+msgstr "复制标签页(&D)"
+
+#: src/mainWindow.cpp:673
+msgid "Duplicate the current tab"
+msgstr "复制当前标签页"
+
+#: src/mainWindow.cpp:674
+msgid "Duplicates the current tab."
+msgstr "复制当前标签页。"
+
+#: src/mainWindow.cpp:682
+msgid "Move Tab &Left"
+msgstr "左移标签页(&L)"
+
+#: src/mainWindow.cpp:685
+msgid "Move the current tab to the left"
+msgstr "将当前标签页向左移"
+
+#: src/mainWindow.cpp:686
+msgid "Moves the current tab to the left."
+msgstr "将当前标签页向左移。"
+
+#: src/mainWindow.cpp:690
+msgid "Move Tab &Right"
+msgstr "右移标签页(&R)"
+
+#: src/mainWindow.cpp:693
+msgid "Move the current tab to the right"
+msgstr "将当前标签页向右移"
+
+#: src/mainWindow.cpp:694
+msgid "Moves the current tab to the right."
+msgstr "将当前标签页向右移。"
+
+#: src/mainWindow.cpp:698
+msgid "&Reload"
+msgstr "重新加载(&R)"
+
+#: src/mainWindow.cpp:701
+msgid "Reload the current log"
+msgstr "重新加载当前标签页"
+
+#: src/mainWindow.cpp:702
+msgid ""
+"Reloads the current log, if you want to be sure that the view is correctly "
+"updated."
+msgstr "重新加载当前标签页，以便正确更新当前正在查看的日志。"
+
+#: src/mainWindow.cpp:711
+msgid "&Details"
+msgstr "详情(&D)"
+
+#: src/mainWindow.cpp:714
+msgid "Display details on the selected line"
+msgstr "显示所选行详情"
+
+#: src/mainWindow.cpp:715
+msgid ""
+"Displays a dialog box which contains details on the selected line. You are "
+"able to navigate through the logs from this dialog box with the <b>Previous</"
+"b> and <b>Next</b> buttons."
+msgstr ""
+"显示包含所选行详情的对话框。您可以按<b>上一个</b>和<b>下一个</b>在对话框中浏"
+"览整个日志。"
+
+#: src/mainWindow.cpp:719
+msgid "&Enable Detailed Tooltips"
+msgstr "开启详细工具提示(&E)"
+
+#: src/mainWindow.cpp:720
+msgid "Disable/Enable the tooltip on the current view"
+msgstr "关闭/开启当前视图的工具提示"
+
+#: src/mainWindow.cpp:721
+msgid ""
+"Disables/Enables the tooltip displayed when the cursor hovers a log line."
+msgstr "关闭/开启鼠标悬停日志上方时出现的工具提示。"
+
+#: src/mainWindow.cpp:727
+msgid "&Scroll to New Lines"
+msgstr "滚动至新行(&S)"
+
+#: src/mainWindow.cpp:728
+msgid "Scrolls or not to the new lines when the log changes"
+msgstr "当日志改变时是否滚动至新行"
+
+#: src/mainWindow.cpp:729
+msgid ""
+"Scrolls or not to the new lines when the log changes. Check this option if "
+"you do not want the application to scroll automatically at the bottom of the "
+"log each time it is refreshed."
+msgstr ""
+"当日志改变时是否滚动至新行。如果您不想每次刷新时让应用程序在日志底部自动滚"
+"动，请选择此项。"
+
+#: src/mainWindow.cpp:776
+msgid "Services"
+msgstr "服务"
+
+#: src/mainWindow.cpp:777
+msgid "Others"
+msgstr "其它"
+
+#: src/modes/acpid/acpidAnalyzer.h:49
+#: src/modes/apache/apacheAccessAnalyzer.h:53
+#: src/modes/apache/apacheAnalyzer.h:53 src/modes/base/syslogAnalyzer.cpp:58
+#: src/modes/cron/cronAnalyzer.h:51 src/modes/cups/cupsAccessAnalyzer.h:53
+#: src/modes/cups/cupsAnalyzer.h:55 src/modes/cups/cupsPageAnalyzer.h:53
+#: src/modes/cups/cupsPdfAnalyzer.h:54 src/modes/kernel/kernelAnalyzer.h:58
+#: src/modes/samba/sambaAnalyzer.h:54
+msgid "Date"
+msgstr "日期"
+
+#: src/modes/acpid/acpidAnalyzer.h:50 src/modes/xorg/xorgAnalyzer.h:60
+msgid "Type"
+msgstr "类型"
+
+#: src/modes/acpid/acpidConfigurationWidget.h:47
+msgid "Acpid Log"
+msgstr "Acpid 日志"
+
+#: src/modes/acpid/acpidConfigurationWidget.h:53
+msgid "<p>These files will be analyzed to show the <b>Acpid log</b>.</p>"
+msgstr "<p>这些文件将被分析以显示 <b>Acpid 日志</b>。</p>"
+
+#: src/modes/acpid/acpidItemBuilder.h:59 src/modes/xorg/xorgItemBuilder.h:74
+#: src/modes/xorg/xorgItemBuilder.h:76
+msgid "Type:"
+msgstr "类型："
+
+#: src/modes/acpid/acpidLogMode.cpp:38
+msgid "ACPI Log"
+msgstr "ACPI 日志"
+
+#: src/modes/acpid/acpidLogMode.cpp:47
+msgid "Display the ACPI log."
+msgstr "显示 ACPI 日志。"
+
+#: src/modes/acpid/acpidLogMode.cpp:48
+msgid ""
+"Displays the ACPI log in the current tab. ACPI is used to manage the "
+"hardware components of your computer, like notebook batteries, reset "
+"buttons..."
+msgstr ""
+"在当前标签页显示 ACPI 日志。ACPI 用来管理您的电脑硬件，比如笔记本的电池、软复"
+"位等按键。"
+
+#: src/modes/apache/apacheAccessAnalyzer.h:54
+msgid "Host Name"
+msgstr "主机名"
+
+#: src/modes/apache/apacheAccessAnalyzer.h:55
+msgid "Id."
+msgstr "Id."
+
+#: src/modes/apache/apacheAccessAnalyzer.h:57
+msgid "Response"
+msgstr "响应"
+
+#: src/modes/apache/apacheAccessAnalyzer.h:58
+msgid "Bytes Sent"
+msgstr "发送比特"
+
+#: src/modes/apache/apacheAccessAnalyzer.h:59
+msgid "Agent Identity"
+msgstr "代理身份"
+
+#: src/modes/apache/apacheAccessAnalyzer.h:60
+#: src/modes/cups/cupsAccessAnalyzer.h:57
+msgid "HTTP Request"
+msgstr "HTTP 请求"
+
+#: src/modes/apache/apacheAccessAnalyzer.h:61
+msgid "URL"
+msgstr "URL"
+
+#: src/modes/apache/apacheAccessItemBuilder.h:57
+msgid "Host Name:"
+msgstr "主机名："
+
+#: src/modes/apache/apacheAccessItemBuilder.h:58
+#: src/modes/cups/cupsAccessItemBuilder.h:58
+msgid "Identification:"
+msgstr "验证："
+
+#: src/modes/apache/apacheAccessItemBuilder.h:59
+#: src/modes/cups/cupsAccessItemBuilder.h:59
+#: src/modes/cups/cupsPageItemBuilder.h:58
+msgid "Username:"
+msgstr "用户名："
+
+#: src/modes/apache/apacheAccessItemBuilder.h:60
+#: src/modes/cups/cupsAccessItemBuilder.h:60
+msgid "HTTP Response:"
+msgstr "HTTP 响应："
+
+#: src/modes/apache/apacheAccessItemBuilder.h:61
+#: src/modes/cups/cupsAccessItemBuilder.h:61
+msgid "Bytes Sent:"
+msgstr "发送比特："
+
+#: src/modes/apache/apacheAccessItemBuilder.h:62
+msgid "Agent Identity:"
+msgstr "代理身份："
+
+#: src/modes/apache/apacheAccessItemBuilder.h:63
+msgid "HTTP Request:"
+msgstr "HTTP 响应："
+
+#: src/modes/apache/apacheAccessLogMode.cpp:39
+msgid "Apache Access Log"
+msgstr "Apache 访问日志"
+
+#: src/modes/apache/apacheAccessLogMode.cpp:48
+msgid "Display the Apache Access log."
+msgstr "显示 Apache 访问日志。"
+
+#: src/modes/apache/apacheAccessLogMode.cpp:49
+msgid ""
+"Displays the Apache Access log in the current tab. Apache is the main used "
+"Web server in the world. This log saves all requests performed by the Apache "
+"web server."
+msgstr ""
+"在当前标签页中显示 Apache 访问日志。Apache 是目前世界上应用最多的网页服务器。"
+"这个日志保存了所有对 Apache 网页服务器的请求记录。"
+
+#: src/modes/apache/apacheAnalyzer.h:54
+msgid "Client"
+msgstr "客户端"
+
+#: src/modes/apache/apacheConfigurationWidget.h:45
+#: src/modes/apache/apacheLogMode.cpp:39
+msgid "Apache Log"
+msgstr "Apache 日志"
+
+#: src/modes/apache/apacheConfigurationWidget.h:51
+msgid ""
+"<p>These files will be analyzed to show the <b>Apache log</b> and the "
+"<b>Apache Access log</b>.</p>"
+msgstr ""
+"<p>这些文件将被分析以显示 <b>Apache 日志</b>和 <b>Apache 访问日志</b>。</p>"
+
+#: src/modes/apache/apacheConfigurationWidget.h:53
+msgid "Apache Log Files"
+msgstr "Apache 日志文件"
+
+#: src/modes/apache/apacheConfigurationWidget.h:53
+msgid "Add Apache File..."
+msgstr "添加 Apache 文件..."
+
+#: src/modes/apache/apacheConfigurationWidget.h:54
+msgid "Apache Access Log Files"
+msgstr "Apache 访问日志文件"
+
+#: src/modes/apache/apacheConfigurationWidget.h:54
+msgid "Add Apache Access File..."
+msgstr "添加 Apache 访问文件..."
+
+#: src/modes/apache/apacheFactory.cpp:54
+msgid "Apache"
+msgstr "Apache"
+
+#: src/modes/apache/apacheItemBuilder.h:57
+msgid "Client:"
+msgstr "客户端："
+
+#: src/modes/apache/apacheLogMode.cpp:48
+msgid "Display the Apache log."
+msgstr "显示 Apache 日志。"
+
+#: src/modes/apache/apacheLogMode.cpp:49
+msgid ""
+"Displays the Apache log in the current tab. Apache is the main used Web "
+"server in the world."
+msgstr ""
+"在当前标签页中显示 Apache 日志。Apache 是目前世界上应用最多的网页服务器。"
+
+#: src/modes/authentication/authenticationConfigurationWidget.h:49
+#: src/modes/authentication/authenticationLogMode.cpp:38
+msgid "Authentication Log"
+msgstr "认证日志"
+
+#: src/modes/authentication/authenticationConfigurationWidget.h:56
+msgid "Authentication Log File"
+msgstr "认证日志文件"
+
+#: src/modes/authentication/authenticationConfigurationWidget.h:62
+msgid "Authentication log file:"
+msgstr "认证日志文件："
+
+#: src/modes/authentication/authenticationConfigurationWidget.h:67
+msgid ""
+"You can type or choose the authentication log file (example: <i>/var/log/"
+"auth.log</i>)."
+msgstr "您可以输入或选择认证日志文件(例如：<i>/var/log/auth.log</i>)。"
+
+#: src/modes/authentication/authenticationConfigurationWidget.h:68
+msgid ""
+"You can type or choose here the authentication log file. This file will be "
+"analyzed when you select the <b>Authentication log</b> menu. Generally, its "
+"name is <i>/var/log/auth.log</i>"
+msgstr ""
+"您可以在此输入或选择认证日志文件。此文件将在您选择<b>认证日志</b>菜单时分析。"
+"通常它的名字是 <i>/var/log/auth.log</i>"
+
+#: src/modes/authentication/authenticationLogMode.cpp:47
+msgid "Display the authentication log."
+msgstr "显示认证日志。"
+
+#: src/modes/authentication/authenticationLogMode.cpp:48
+msgid ""
+"Displays the authentication log in the current tab. This log displays all "
+"logins made by each user of the system, and can help you to know if someone "
+"tried to crack your system."
+msgstr ""
+"在当前标签页中显示认证日志。这个日志显示所有系统用户的的使用记录，并可让您知"
+"道是否有人曾试图入侵您的系统。"
+
+#. i18n: ectx: property (text), widget (QLabel, description)
+#: src/modes/base/fileListBase.ui:31 src/modes/base/multipleFileListBase.ui:31
+msgid "File List Description"
+msgstr "文件列表描述"
+
+#. i18n: ectx: property (title), widget (QGroupBox, filesBox)
+#: src/modes/base/fileListBase.ui:44 src/modes/base/multipleFileListBase.ui:44
+msgid "Log Files"
+msgstr "日志文件"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, add)
+#: src/modes/base/fileListBase.ui:55
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Choose a new file</p></"
+"body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">选择新文件</p></body></"
+"html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, add)
+#: src/modes/base/fileListBase.ui:61
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Opens a dialog box to "
+"choose a new file to be added to the list.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">打开一个对话框，供用户选择"
+"要添加到列表的文件。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, add)
+#: src/modes/base/fileListBase.ui:64
+msgid "&Add File..."
+msgstr "添加文件(&A)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, modify)
+#: src/modes/base/fileListBase.ui:71 src/modes/base/multipleFileListBase.ui:70
+msgid "&Modify File..."
+msgstr "修改文件(&M)..."
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, remove)
+#: src/modes/base/fileListBase.ui:81 src/modes/base/multipleFileListBase.ui:80
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Delete the current file(s)"
+"</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">删除当前文件</p></body></"
+"html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, remove)
+#: src/modes/base/fileListBase.ui:87
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Deletes the files selected "
+"on the list.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">从列表中删除所选文件。</"
+"p></body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, remove)
+#: src/modes/base/fileListBase.ui:90 src/modes/base/multipleFileListBase.ui:89
+msgid "&Remove"
+msgstr "删除(&R)"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeAll)
+#: src/modes/base/fileListBase.ui:100
+#: src/modes/base/multipleFileListBase.ui:99
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Remove all files</p></"
+"body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">删除全部文件</p></body></"
+"html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, removeAll)
+#: src/modes/base/fileListBase.ui:106
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Remove all the files on "
+"the list, even if they are not selected.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">删除列表中的所有文件，即使"
+"未选中。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeAll)
+#: src/modes/base/fileListBase.ui:109
+#: src/modes/base/multipleFileListBase.ui:108
+msgid "Rem&ove All"
+msgstr "全部删除(&O)"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, up)
+#: src/modes/base/fileListBase.ui:122
+#: src/modes/base/multipleFileListBase.ui:121
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Move up the current file(s)"
+"</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">将当前文件上移</p></body></"
+"html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, up)
+#: src/modes/base/fileListBase.ui:128
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Moves the selected files "
+"up in the list. This option allows the files to be read <span style=\" font-"
+"weight:600;\">in first</span> by KSystemLog.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Moves the selected files 将"
+"列表中所选的文件上移。此操作会使该文件被 KSystemLog <span style=\" font-"
+"weight:600;\">首先</span>读取到。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, up)
+#: src/modes/base/fileListBase.ui:131
+#: src/modes/base/multipleFileListBase.ui:130
+msgid "Move &Up"
+msgstr "上移(&U)"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, down)
+#: src/modes/base/fileListBase.ui:141
+#: src/modes/base/multipleFileListBase.ui:140
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Move down the current file"
+"(s)</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">将当前文件下移</p></body></"
+"html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, down)
+#: src/modes/base/fileListBase.ui:147
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Moves the selected files "
+"down in the list. This option allows the files to be read <span style=\" "
+"font-weight:600;\">in last</span> by KSystemLog.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Moves the selected files 将"
+"列表中所选的文件下移。此操作会使该文件被 KSystemLog <span style=\" font-"
+"weight:600;\">靠后</span>读取到。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, down)
+#: src/modes/base/fileListBase.ui:150
+#: src/modes/base/multipleFileListBase.ui:149
+msgid "Move &Down"
+msgstr "下移(&D)"
+
+#. i18n: ectx: property (text), widget (QLabel, notes)
+#: src/modes/base/fileListBase.ui:175
+msgid ""
+"<p style='margin-top:0px;margin-bottom:0px;'><b>Notes:</b></p><ul "
+"style='margin-top:0px'><li>Files are read using the order of this list.</"
+"li><li>Compressed and plain text files are accepted <i>(*.log, *.gz, *."
+"bz2,...)</i>.</li><li>Use the <b>'*'</b> wildcard to select multiple log "
+"files when adding files.</li></ul>"
+msgstr ""
+"<p style='margin-top:0px;margin-bottom:0px;'><b>注意：</b></p><ul "
+"style='margin-top:0px'><li>文件是依照此列表的顺序读取的。</li><li>接受压缩文"
+"件和纯文本文件<i>(*.log、*.gz、*.bz2...)</i>。</li><li>使用<b>“*”</b>通配符可"
+"在添加文件时选择多个日志文件。</li></ul>"
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, fileList)
+#: src/modes/base/fileListBase.ui:191
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">List of files used by this "
+"log type.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">此日志类型所使用的文件列"
+"表。</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, fileList)
+#: src/modes/base/fileListBase.ui:197
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Here is a list of every "
+"file that will be read by KSystemLog to display the current log lines.</p></"
+"body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">这是一份将由 KSystemLog 读"
+"取，以显示当前日志行的完整文件列表。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QListWidget, fileList)
+#: src/modes/base/fileListBase.ui:210
+msgid "add"
+msgstr "添加"
+
+#: src/modes/base/fileListHelper.cpp:113
+#, kde-format
+msgid "'%1' is not a local file."
+msgstr "“%1”不是本地的文件。"
+
+#: src/modes/base/fileListHelper.cpp:114
+msgid "File selection failed"
+msgstr "选择文件失败"
+
+#: src/modes/base/fileListHelper.cpp:127 src/modes/base/fileListHelper.cpp:136
+msgid "All Files (*)"
+msgstr "所有文件(*)"
+
+#: src/modes/base/fileListHelper.cpp:127 src/modes/base/fileListHelper.cpp:136
+msgid "Log Files (*.log)"
+msgstr "日志文件(*.log)"
+
+#: src/modes/base/fileListHelper.cpp:128 src/modes/base/fileListHelper.cpp:137
+msgid "Choose Log File"
+msgstr "选择日志文件"
+
+#: src/modes/base/genericConfiguration.cpp:80
+msgid "The two arrays size are different, skipping the reading of log files."
+msgstr "两列大小不同，跳过读取日志文件。"
+
+#: src/modes/base/logLevelFileList.cpp:59
+msgid "&Change Status..."
+msgstr "更改状态(&C)..."
+
+#: src/modes/base/logLevelFileList.cpp:60
+msgid "Change the level of the current file(s)"
+msgstr "更改当前文件的级别"
+
+#: src/modes/base/logLevelFileList.cpp:61
+msgid ""
+"Changes the level of the current file(s). See KSystemLog documentation for "
+"more information about each log level."
+msgstr "更改当前文件级别。关于文件级别，请参看 KSystemLog 文档。"
+
+#: src/modes/base/logLevelFileList.cpp:168
+msgid ""
+"The two arrays size are different, skipping the reading of generic paths."
+msgstr "两列大小不同，跳过读取常规路径。"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, LogLevelSelectionDialogBase)
+#: src/modes/base/logLevelSelectionDialogBase.ui:13
+msgid "Selecting File Type"
+msgstr "选择文件类型"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/modes/base/logLevelSelectionDialogBase.ui:22
+msgid "Please select the type of this file:"
+msgstr "请选择文件类型："
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, logLevelsList)
+#: src/modes/base/logLevelSelectionDialogBase.ui:35
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">List of existing log "
+"levels</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">已存在日志级别的列表</p></"
+"body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, logLevelsList)
+#: src/modes/base/logLevelSelectionDialogBase.ui:42
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">This is the list of all "
+"existing log levels. </p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Please select one of them "
+"to be used for the files selected on the list.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">这是所有现存日志级别的列"
+"表。</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">请在其中选择一个应用到列表"
+"中的所选文件。</p></body></html>"
+
+#: src/modes/base/multipleFileList.cpp:395
+msgid "No log file..."
+msgstr "没有日志文件..."
+
+#. i18n: ectx: property (text), widget (QTreeWidget, fileList)
+#: src/modes/base/multipleFileListBase.ui:60
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, remove)
+#: src/modes/base/multipleFileListBase.ui:86
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Deletes the selected files "
+"of the list.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">从列表中删除所选文件。</"
+"p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, removeAll)
+#: src/modes/base/multipleFileListBase.ui:105
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Remove all files of the "
+"list, even if they are not selected.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">删除列表中的所有文件，即使"
+"未选中。</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, up)
+#: src/modes/base/multipleFileListBase.ui:127
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Moves up the selected "
+"files in the list. This option allows the files to be read <span style=\" "
+"font-weight:600;\">in first</span> by KSystemLog.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">将列表中所选的文件上移。此"
+"选项允许使该文件由 KSystemLog <span style=\" font-weight:600;\">首先</span>读"
+"取。</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, down)
+#: src/modes/base/multipleFileListBase.ui:146
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Moves down the selected "
+"files in the list. This option allows the files to be read <span style=\" "
+"font-weight:600;\">at last</span> by KSystemLog.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">将列表中所选的文件下移。此"
+"选项允许使该文件由 KSystemLog <span style=\" font-weight:600;\">最后</span>读"
+"取。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, notes)
+#: src/modes/base/multipleFileListBase.ui:174
+msgid ""
+"<p style='margin-top:0px;margin-bottom:0px;'><b>Notes:</b></p><ul "
+"style='margin-top:0px'><li>Files are read using the order of this list.</"
+"li><li>Compressed and plain text files are accepted <i>(*.log, *.gz, *."
+"bz2,...)</i>.</li><li>Use the <b>'*'</b> joker to select multiple log files "
+"when adding files.</li></ul>"
+msgstr ""
+"<p style='margin-top:0px;margin-bottom:0px;'><b>注意：</b></p><ul "
+"style='margin-top:0px'><li>文件是依照此列表的顺序读取的。</li><li>接受压缩文"
+"件和纯文本文件<i>(*.log、*.gz、*.bz2...)</i>。</li><li>使用<b>“*”</b>通配符可"
+"在添加文件时选择多个日志文件。</li></ul>"
+
+#: src/modes/base/parsingHelper.cpp:164
+#, kde-format
+msgctxt "HttpResponseNumber HttpResponseDescription"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: src/modes/base/syslogAnalyzer.cpp:59 src/modes/cron/cronAnalyzer.h:52
+#: src/modes/cups/cupsAccessAnalyzer.h:54
+msgid "Host"
+msgstr "主机"
+
+#: src/modes/base/syslogAnalyzer.cpp:60 src/modes/cron/cronAnalyzer.h:53
+msgid "Process"
+msgstr "进程"
+
+#: src/modes/cron/cronAnalyzer.h:55
+msgid "Command"
+msgstr "命令"
+
+#: src/modes/cron/cronConfigurationWidget.h:49
+#: src/modes/cron/cronLogMode.cpp:38
+msgid "Cron Log"
+msgstr "任务调度(Cron)日志"
+
+#: src/modes/cron/cronConfigurationWidget.h:55
+msgid ""
+"<p>These files will be analyzed to show the <b>Cron Logs</b> (i.e. planned "
+"tasks logs). <a href='man:/cron'>More information...</a></p>"
+msgstr ""
+"<p>这些文件将被分析以显示<b>任务调度(Cron)日志</b>(例如，计划任务日志)。<a "
+"href='man:/cron'>更多信息...</a></p>"
+
+#: src/modes/cron/cronConfigurationWidget.h:63
+msgid "Enable Process Filtering"
+msgstr "启用进程过滤"
+
+#: src/modes/cron/cronConfigurationWidget.h:75
+msgid "Only keeps lines which matches this process :"
+msgstr "仅保留匹配此进程的行："
+
+#: src/modes/cron/cronItemBuilder.h:58
+msgid "User:"
+msgstr "用户："
+
+#: src/modes/cron/cronLogMode.cpp:47
+msgid "Display the planned tasks log (Cron log)."
+msgstr "显示任务调度(Cron)日志。"
+
+#: src/modes/cron/cronLogMode.cpp:48
+msgid ""
+"Displays the planned tasks log in the current tab. Cron process is a program "
+"in charge of launching planned tasks on your system, like security checks, "
+"or auto-restarting of some services. Use this menu to see the recently "
+"launched processes."
+msgstr ""
+"在当前标签上显示任务调度(Cron)日志。Cron 负责定期执行系统工作，比如安全检查，"
+"或者自动重启某些服务。使用此菜单可看到最近运行的进程。"
+
+#: src/modes/cups/cupsAccessAnalyzer.h:55
+msgid "Group"
+msgstr "组"
+
+#: src/modes/cups/cupsAccessAnalyzer.h:58
+msgid "Status"
+msgstr "状态"
+
+#: src/modes/cups/cupsAccessAnalyzer.h:59
+msgid "Bytes"
+msgstr "比特"
+
+#: src/modes/cups/cupsAccessAnalyzer.h:60
+msgid "IPP Operation"
+msgstr "IPP 操作"
+
+#: src/modes/cups/cupsAccessAnalyzer.h:61
+msgid "IPP Status"
+msgstr "IPP 状态"
+
+#: src/modes/cups/cupsAccessLogMode.cpp:39
+msgid "Cups Web Log"
+msgstr "打印系统(CUPS)网络日志"
+
+#: src/modes/cups/cupsAccessLogMode.cpp:48
+msgid "Display the CUPS Web Server Access log."
+msgstr "显示打印系统(CUPS)网络服务器访问日志。"
+
+#: src/modes/cups/cupsAccessLogMode.cpp:49
+msgid ""
+"Displays the CUPS Web Server Access log in the current tab. CUPS is the "
+"program which manages printing on your computer. This log saves all requests "
+"performed to the CUPS embedded web server (default: <i>http://localhost:631</"
+"i>)."
+msgstr ""
+"在当前标签显示拥有 UNIX 打印系统(CUPS)网络服务器访问日志。CUPS 是一个管理打印"
+"的程序。这个日志保存了所有对 CUPS 嵌入式网络服务器(默认：<i>http://"
+"localhost:631</i>)传送的请求。"
+
+#: src/modes/cups/cupsAnalyzer.h:119
+msgid "debug 2"
+msgstr "调试 2"
+
+#: src/modes/cups/cupsAnalyzer.h:139
+msgid ""
+"New Log Level detected: Please send this log file to the KSystemLog "
+"developer to add it."
+msgstr "探测到新日志级别：请向 KSystemLog 开发者发送此日志以便添加它。"
+
+#: src/modes/cups/cupsConfigurationWidget.h:45
+#: src/modes/cups/cupsLogMode.cpp:39
+msgid "Cups Log"
+msgstr "打印系统(CUPS)日志"
+
+#: src/modes/cups/cupsConfigurationWidget.h:45
+msgid "Cups &amp; Cups Web Server Log"
+msgstr "打印系统(CUPS) &amp; 打印系统(CUPS)网络服务日志"
+
+#: src/modes/cups/cupsConfigurationWidget.h:51
+msgid ""
+"<p>These files will be analyzed to show the <b>Cups log</b> and the <b>Cups "
+"Web Access log</b>.</p>"
+msgstr ""
+"<p>这些文件将被分析以显示<b>打印系统(CUPS)</b>和<b>打印系统(CUPS)网络服务日志"
+"</b>。</p>"
+
+#: src/modes/cups/cupsConfigurationWidget.h:53
+msgid "Cups Log Files"
+msgstr "打印系统(CUPS)日志文件"
+
+#: src/modes/cups/cupsConfigurationWidget.h:53
+msgid "Add Cups File..."
+msgstr "添加打印系统(CUPS)文件..."
+
+#: src/modes/cups/cupsConfigurationWidget.h:54
+msgid "Cups Access Log Files"
+msgstr "打印系统(CUPS)访问日志文件"
+
+#: src/modes/cups/cupsConfigurationWidget.h:54
+msgid "Add Cups Access File..."
+msgstr "添加打印系统(CUPS)访问文件..."
+
+#: src/modes/cups/cupsConfigurationWidget.h:55
+msgid "Cups Page Log Files"
+msgstr "打印系统(CUPS)页面日志文件"
+
+#: src/modes/cups/cupsConfigurationWidget.h:55
+msgid "Add Cups Page File..."
+msgstr "添加打印系统(CUPS)页面文件..."
+
+#: src/modes/cups/cupsConfigurationWidget.h:56
+msgid "Cups PDF Log Files"
+msgstr "打印系统(CUPS) PDF 日志文件"
+
+#: src/modes/cups/cupsConfigurationWidget.h:56
+msgid "Add Cups PDF File..."
+msgstr "添加打印系统(Cups) PDF 文件..."
+
+#: src/modes/cups/cupsFactory.cpp:58
+msgid "Cups"
+msgstr "打印系统(Cups)"
+
+#: src/modes/cups/cupsLogMode.cpp:48
+msgid "Display the Cups log."
+msgstr "显示打印系统(CUPS)日志。"
+
+#: src/modes/cups/cupsLogMode.cpp:49
+msgid ""
+"Displays the CUPS log in the current tab. CUPS is the program which manages "
+"printing on your computer."
+msgstr "在当前标签显示打印系统(CUPS)日志。CUPS 是一个打印管理程序。"
+
+#: src/modes/cups/cupsPageAnalyzer.h:54
+msgid "Printer"
+msgstr "打印机"
+
+#: src/modes/cups/cupsPageAnalyzer.h:56
+msgid "Job Id"
+msgstr "作业 Id"
+
+#: src/modes/cups/cupsPageAnalyzer.h:57
+msgid "Page Number"
+msgstr "页数"
+
+#: src/modes/cups/cupsPageAnalyzer.h:58
+msgid "Num Copies"
+msgstr "副本数"
+
+#: src/modes/cups/cupsPageAnalyzer.h:59
+msgid "Job Billing"
+msgstr "作业次序"
+
+#: src/modes/cups/cupsPageItemBuilder.h:57
+msgid "Printer:"
+msgstr "打印机："
+
+#: src/modes/cups/cupsPageItemBuilder.h:59
+msgid "Job Id:"
+msgstr "作业 Id："
+
+#: src/modes/cups/cupsPageItemBuilder.h:60
+msgid "Page Number:"
+msgstr "页数："
+
+#: src/modes/cups/cupsPageItemBuilder.h:61
+msgid "Num Copies:"
+msgstr "副本数："
+
+#: src/modes/cups/cupsPageItemBuilder.h:62
+msgid "Job Billing:"
+msgstr "作业次序："
+
+#: src/modes/cups/cupsPageLogMode.cpp:39
+msgid "Cups Page Log"
+msgstr "打印系统(CUPS)页面日志"
+
+#: src/modes/cups/cupsPageLogMode.cpp:48
+msgid "Display the CUPS Page log."
+msgstr "显示打印系统(CUPS)页面日志。"
+
+#: src/modes/cups/cupsPageLogMode.cpp:49
+msgid ""
+"Displays the CUPS Page log in the current tab. CUPS is the program which "
+"manages printing on your computer. This log saves all requests performed to "
+"the CUPS embedded web server (default: <i>http://localhost:631</i>)."
+msgstr ""
+"在当前标签显示打印系统(CUPS)页面日志。CUPS 是一个负责打印管理的程序。这个日志"
+"保存了所有向 CUPS 嵌入式网络服务器(默认：<i>http://localhost:631</i>)发送过的"
+"请求。"
+
+#: src/modes/cups/cupsPdfItemBuilder.h:57
+msgid "Message:"
+msgstr "信息："
+
+#: src/modes/cups/cupsPdfLogMode.cpp:39
+msgid "Cups PDF Log"
+msgstr "打印系统(Cups) PDF 日志"
+
+#: src/modes/cups/cupsPdfLogMode.cpp:48
+msgid "Display the CUPS PDF log."
+msgstr "显示打印系统(CUPS) PDF 日志。"
+
+#: src/modes/cups/cupsPdfLogMode.cpp:49
+msgid ""
+"Displays the CUPS PDF log in the current tab. CUPS is the program which "
+"manages printing on your computer. This log saves all requests performed to "
+"the CUPS embedded web server (default: <i>http://localhost:631</i>)."
+msgstr ""
+"在当前标签显示通用 UNIX 打印系统(CUPS) PDF 日志。CUPS 是一个管理打印的程序。"
+"这个日志保存了所有对 CUPS 嵌入式网络服务器(默认：<i>http://localhost:631</i>)"
+"传送过的请求。"
+
+#: src/modes/daemon/daemonConfigurationWidget.h:47
+#: src/modes/daemon/daemonLogMode.cpp:39
+msgid "Daemons' Logs"
+msgstr "守护进程日志"
+
+#: src/modes/daemon/daemonConfigurationWidget.h:53
+msgid "<p>These files will be analyzed to show the <b>Daemons' Logs</b>.</p>"
+msgstr "<p>这些文件将被分析以显示<b>守护进程日志</b>。</p>"
+
+#: src/modes/daemon/daemonLogMode.cpp:48
+msgid "Display the daemons' logs."
+msgstr "显示守护进程日志。"
+
+#: src/modes/daemon/daemonLogMode.cpp:49
+msgid ""
+"Displays the daemons' logs in the current tab. The daemons are all processes "
+"launched in the background of the system. See this log if you want to know "
+"what occurs in the background of your system."
+msgstr ""
+"在当前标签页中显示守护进程日志。守护进程是指在系统后台运行的进程，您可以通过"
+"这个日志知道在您系统后台发生过什么。"
+
+#: src/modes/kernel/kernelAnalyzer.h:59
+msgid "Component"
+msgstr "组件"
+
+#: src/modes/kernel/kernelItemBuilder.h:59
+msgid "Component:"
+msgstr "组件："
+
+#: src/modes/kernel/kernelLogMode.cpp:38
+msgid "Kernel Log"
+msgstr "内核日志"
+
+#: src/modes/kernel/kernelLogMode.cpp:47
+msgid "Display the kernel log."
+msgstr "显示内核日志。"
+
+#: src/modes/kernel/kernelLogMode.cpp:48
+msgid ""
+"Displays the kernel log in the current tab. This log is only useful for "
+"users who want to know why the Kernel does not detect their hardware or what "
+"is the cause of the last <i>kernel panic/oops</i>."
+msgstr ""
+"在当前标签页中显示内核日志。这个日志只对想知道为什么内核无法检测他们的硬件或"
+"导致 <i>kernel panic/oops</i> 故障的人有用。"
+
+#: src/modes/open/openLogMode.cpp:43
+msgid "Log File"
+msgstr "日志文件"
+
+#: src/modes/open/openLogMode.cpp:66
+msgid "Open Location"
+msgstr "打开位置"
+
+#: src/modes/open/openLogMode.cpp:82
+msgid "Malformed URL. Unable to open this file."
+msgstr "URL 不正确，无法打开指定文件。"
+
+#: src/modes/open/openLogMode.cpp:83
+msgid "Unable to open this file."
+msgstr "无法打开指定文件。"
+
+#: src/modes/postfix/postfixConfigurationWidget.h:48
+#: src/modes/postfix/postfixLogMode.cpp:39
+msgid "Postfix Log"
+msgstr "Postfix 日志"
+
+#: src/modes/postfix/postfixConfigurationWidget.h:54
+msgid "<p>These files will be analyzed to show the <b>Postfix Logs</b>.</p>"
+msgstr "<p>这些文件将被分析以显示 <b>Postfix 日志</b>。</p>"
+
+#: src/modes/postfix/postfixLogMode.cpp:48
+msgid "Display the Postfix log."
+msgstr "显示 Postfix 日志。"
+
+#: src/modes/postfix/postfixLogMode.cpp:49
+msgid ""
+"Displays the Postfix log in the current tab. Postfix is the most known and "
+"used mail server in the Linux world."
+msgstr ""
+"在当前标签页中显示 Postfix 日志。Postfix 是现在 Linux 世界最广为人知的邮件服"
+"务器。"
+
+#: src/modes/samba/netbiosLogMode.cpp:39
+msgid "Netbios Log"
+msgstr "Netbios 日志"
+
+#: src/modes/samba/netbiosLogMode.cpp:47
+msgid "Display the Netbios log."
+msgstr "显示 Netbios 日志。"
+
+#: src/modes/samba/netbiosLogMode.cpp:48
+msgid ""
+"Displays the Netbios log in the current tab. Netbios is the file sharing "
+"protocol developed by Microsoft."
+msgstr ""
+"在当前标签页中显示 Netbios 日志。Netbios 是一个微软开发的文件共享协议。"
+
+#: src/modes/samba/sambaAccessLogMode.cpp:39
+msgid "Samba Access Log"
+msgstr "Samba 访问日志"
+
+#: src/modes/samba/sambaAccessLogMode.cpp:47
+msgid "Display the Samba Access log."
+msgstr "显示 Samba 访问日志。"
+
+#: src/modes/samba/sambaAccessLogMode.cpp:48
+msgid ""
+"Displays the Samba Access log in the current tab. This log mode allows you "
+"to see connections between your shares and remote hosts."
+msgstr ""
+"在当前标签页显示 Samba 访问日志。这个日志模式可以让您看到您与远程主机共享文件"
+"的连接记录。"
+
+#: src/modes/samba/sambaAnalyzer.h:55
+msgid "Source File"
+msgstr "源文件"
+
+#: src/modes/samba/sambaAnalyzer.h:56
+msgid "Function"
+msgstr "功能"
+
+#: src/modes/samba/sambaAnalyzer.h:57 src/modes/xorg/xorgAnalyzer.h:59
+#: src/modes/xsession/xsessionAnalyzer.h:53
+msgid "Line"
+msgstr "行"
+
+#: src/modes/samba/sambaConfigurationWidget.h:45
+#: src/modes/samba/sambaLogMode.cpp:39
+msgid "Samba Log"
+msgstr "Samba 日志"
+
+#: src/modes/samba/sambaConfigurationWidget.h:51
+msgid ""
+"<p>These files will be analyzed to show <b>Samba log</b>, <b>Samba Access "
+"log</b> and <b>Netbios log</b>.</p>"
+msgstr ""
+"<p>这些文件将被分析以显示 <b>Samba 日志</b>、<b>Samba 访问日志</b>和"
+"<b>Netbios 日志</b>。</p>"
+
+#: src/modes/samba/sambaConfigurationWidget.h:53
+msgid "Samba Log Files"
+msgstr "Samba 日志文件"
+
+#: src/modes/samba/sambaConfigurationWidget.h:53
+msgid "Add Samba File..."
+msgstr "添加 Samba 文件..."
+
+#: src/modes/samba/sambaConfigurationWidget.h:54
+msgid "Samba Access Log Files"
+msgstr "Samba 访问日志文件"
+
+#: src/modes/samba/sambaConfigurationWidget.h:54
+msgid "Add Samba Access File..."
+msgstr "添加 Samba 访问文件..."
+
+#: src/modes/samba/sambaConfigurationWidget.h:55
+msgid "Netbios Log Files"
+msgstr "Netbios 日志文件"
+
+#: src/modes/samba/sambaConfigurationWidget.h:55
+msgid "Add Netbios File..."
+msgstr "添加 Netbios 文件..."
+
+#: src/modes/samba/sambaFactory.cpp:58
+msgid "Samba"
+msgstr "Samba"
+
+#: src/modes/samba/sambaItemBuilder.h:57
+msgid "Source File:"
+msgstr "源文件："
+
+#: src/modes/samba/sambaItemBuilder.h:58
+msgid "Function:"
+msgstr "功能："
+
+#: src/modes/samba/sambaItemBuilder.h:59
+msgid "Line:"
+msgstr "行："
+
+#: src/modes/samba/sambaLogMode.cpp:47
+msgid "Display the Samba log."
+msgstr "显示 Samba 日志。"
+
+#: src/modes/samba/sambaLogMode.cpp:48
+msgid ""
+"Displays the Samba log in the current tab. Samba is the file sharing server "
+"which interacts with Microsoft Windows network."
+msgstr ""
+"在当前标签页中显示 Samba 日志。Samba 是与微软 Windows 网络之间实现文件共享的"
+"服务器。"
+
+#: src/modes/system/systemConfigurationWidget.h:48
+#: src/modes/system/systemLogMode.cpp:39
+msgid "System Log"
+msgstr "系统日志"
+
+#: src/modes/system/systemConfigurationWidget.h:54
+msgid "<p>These files will be analyzed to show the <b>System logs</b>.</p>"
+msgstr "<p>这些文件将被分析以显示<b>系统日志</b>。</p>"
+
+#: src/modes/system/systemLogMode.cpp:48
+msgid "Display the system log."
+msgstr "显示系统日志。"
+
+#: src/modes/system/systemLogMode.cpp:49
+msgid ""
+"Displays the system log in the current tab. This log is generally used by "
+"non-specialized processes (like \"sudo\" or \"fsck\" commands)"
+msgstr ""
+"在当前标签页中显示系统日志。这个日志是由一些非特派的程序(比"
+"如“sudo”或“fsck”等)所生成的"
+
+#: src/modes/xorg/xorgAnalyzer.h:116
+msgid "Probed"
+msgstr "探测"
+
+#: src/modes/xorg/xorgAnalyzer.h:117
+msgid "From config file"
+msgstr "从配置文件"
+
+#: src/modes/xorg/xorgAnalyzer.h:118
+msgid "Default setting"
+msgstr "默认设置"
+
+#: src/modes/xorg/xorgAnalyzer.h:119
+msgid "From command Line"
+msgstr "从命令行"
+
+#: src/modes/xorg/xorgAnalyzer.h:124
+msgid "Not implemented"
+msgstr "未实现"
+
+#: src/modes/xorg/xorgConfigurationWidget.h:46
+#: src/modes/xorg/xorgLogMode.cpp:38
+msgid "X.org Log"
+msgstr "X.org 日志"
+
+#: src/modes/xorg/xorgConfigurationWidget.h:52
+msgid "<p>These files will be analyzed to show the <b>X.org log</b>.</p>"
+msgstr "<p>这些文件将被分析以显示 <b>X.org 日志</b>。</p>"
+
+#: src/modes/xorg/xorgItemBuilder.h:74
+#: src/modes/xsession/xsessionItemBuilder.h:74
+msgid "none"
+msgstr "无"
+
+#: src/modes/xorg/xorgLogMode.cpp:47
+msgid "Display the X.org log."
+msgstr "显示 X.org 日志。"
+
+#: src/modes/xorg/xorgLogMode.cpp:48
+msgid ""
+"Displays the X.org log in the current tab. X.org is the service which "
+"displays on screen your desktop and manage your graphical hardware. See this "
+"log if you want to know why you do not have 3D accelerations or why your "
+"input device is not recognized."
+msgstr ""
+"在当前标签页显示 X.org 日志。X.org 是系统中管理显示设备和桌面的软件。您可以参"
+"看此日志来了解为什么系统的 3D 加速未启用，或者为什么没有正确识别您的输入设"
+"备。"
+
+#: src/modes/xsession/xsessionAnalyzer.h:54
+msgid "Program"
+msgstr "程序"
+
+#: src/modes/xsession/xsessionConfigurationWidget.h:51
+#: src/modes/xsession/xsessionLogMode.cpp:38
+msgid "X Session Log"
+msgstr "X 会话日志"
+
+#: src/modes/xsession/xsessionConfigurationWidget.h:79
+msgid ""
+"You can type or choose the X Session log file (example: <i>~/.xsession-"
+"errors</i>)."
+msgstr "您可以输入或选择 X 会话日志文件(例如：<i>~/.xsession-errors</i>)。"
+
+#: src/modes/xsession/xsessionConfigurationWidget.h:80
+msgid ""
+"You can type or choose here the X Session log file. This file will be "
+"analyzed when you select the <b>X Session log</b> menu. Generally, its name "
+"is <i>~/.xsession-errors</i>"
+msgstr ""
+"您可以在此输入或选择 X 会话日志文件。此文件将在您选择 <b>X 会话日志</b>菜单时"
+"分析。通常它的名字是 <i>~/.xsession-errors</i>"
+
+#: src/modes/xsession/xsessionConfigurationWidget.h:140
+#, kde-format
+msgid "<li><b>%1</b>: ...</li>"
+msgstr "<li><b>%1</b>：...</li>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/modes/xsession/xsessionConfigurationWidgetBase.ui:16
+msgid "X Session Log File"
+msgstr "X 会话日志文件"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/modes/xsession/xsessionConfigurationWidgetBase.ui:22
+msgid "Log file:"
+msgstr "日志文件："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ignoreXorgErrors)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreXorgErrors)
+#: src/modes/xsession/xsessionConfigurationWidgetBase.ui:45
+#: src/modes/xsession/xsessionConfigurationWidgetBase.ui:48
+msgid "Check this option to remove Xorg errors"
+msgstr "选中此项以删除 Xorg 错误信息"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ignoreXorgErrors)
+#: src/modes/xsession/xsessionConfigurationWidgetBase.ui:51
+msgid "Ignore Xorg errors"
+msgstr "忽略 Xorg 错误信息"
+
+#. i18n: ectx: property (text), widget (QLabel, xorgErrorsDescription)
+#: src/modes/xsession/xsessionConfigurationWidgetBase.ui:58
+msgid ""
+"<p><b>Note:</b> Check this option to remove X.org errors.</p><p style="
+"\"margin-bottom:0px\">The following lines will be ignored:</p>"
+msgstr ""
+"<p><b>注意：</b>选中此项会删除 X.org 错误信息。</p><p style=\"margin-"
+"bottom:0px\">以下行会被忽略：</p>"
+
+#: src/modes/xsession/xsessionItemBuilder.h:74
+#: src/modes/xsession/xsessionItemBuilder.h:76
+msgid "Program:"
+msgstr "程序："
+
+#: src/modes/xsession/xsessionLogMode.cpp:47
+msgid "Display the X Session log."
+msgstr "显示 X 会话日志。"
+
+#: src/modes/xsession/xsessionLogMode.cpp:48
+msgid ""
+"Displays the X Session log in the current tab. X Session log is the place "
+"where graphical programs write their output. See this log if you want to "
+"know why a program has crashed, or why your display manager (KDE, Gnome,...) "
+"has not started."
+msgstr ""
+"在当前标签页中显示 X 会话日志。X 会话日志是图形界面程序的输出记录，通过这个日"
+"志您可以知道为什么某个程序会崩溃，或者为什么显示管理器(KDE、Gnome,...)没有启"
+"动。"
+
+#: src/statusBar.cpp:118
+#, kde-format
+msgid "Last updated: %1."
+msgstr "最后更新：%1。"
+
+#: src/statusBar.cpp:123
+#, kde-format
+msgid "%1: %2"
+msgstr "%1：%2"
+
+#: src/tabLogManager.cpp:77
+#, kde-format
+msgctxt "Log mode name (added lines count)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: src/tabLogViewsWidget.cpp:109
+msgid "No Log"
+msgstr "无日志"
+
+#~ msgctxt "Size format"
+#~ msgid "%1 B"
+#~ msgstr "%1B"
+
+#~ msgctxt "Size format"
+#~ msgid "%1 KB"
+#~ msgstr "%1KB"
+
+#~ msgctxt "Size format"
+#~ msgid "%1 MB"
+#~ msgstr "%1MB"

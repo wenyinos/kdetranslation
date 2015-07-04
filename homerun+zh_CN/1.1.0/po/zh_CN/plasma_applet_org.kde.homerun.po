@@ -1,0 +1,497 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jeff Bai <jeffbaichina@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-08 22:55+0000\n"
+"PO-Revision-Date: 2015-07-02 12:20+0800\n"
+"Last-Translator: ruojiner <ruojiner@hotmail.com>\n"
+"Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "ruojiner{玟茵开源社区}"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ruojiner@hotmail.com"
+
+#: applet/configmanager.cpp:46
+msgid "General"
+msgstr "基本设置"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: applet/generalconfigpage.ui:17
+msgid "Icon:"
+msgstr "图标："
+
+#: components/sourceregistry.cpp:234
+#, kde-format
+msgid "Runner: %1"
+msgstr "启动器：%1"
+
+#: components/sourceregistry.cpp:252
+msgid "Installed Applications"
+msgstr "已安装的应用"
+
+#: components/sourceregistry.cpp:253
+msgid "Browse installed applications by categories"
+msgstr "根据分类浏览已安装的应用"
+
+#: components/sourceregistry.cpp:256
+msgid "All Installed Applications"
+msgstr "所有已安装的应用"
+
+#: components/sourceregistry.cpp:257
+msgid "List all installed applications in a flat list, grouped by categories"
+msgstr "将所有已安装的应用在一个平面列表列出，并根据分类成组"
+
+#: components/sourceregistry.cpp:260
+msgid "Folder"
+msgstr "文件夹"
+
+#: components/sourceregistry.cpp:261
+msgid "List the content of a folder and let you browse into sub-folders"
+msgstr "列出文件夹内容并允许浏览子文件夹"
+
+#: components/sourceregistry.cpp:264
+#: components/sources/favorites/favoriteplacesmodel.cpp:139
+msgid "Favorite Places"
+msgstr "收藏的位置"
+
+#: components/sourceregistry.cpp:265
+msgid "Browse the content of your favorite places"
+msgstr "浏览电脑上你已收藏的所有位置"
+
+#: components/sourceregistry.cpp:268
+#: components/sources/favorites/favoriteappsmodel.cpp:234
+msgid "Favorite Applications"
+msgstr "最爱的应用"
+
+#: components/sourceregistry.cpp:269
+msgid "List applications marked as favorite"
+msgstr "将已标记为最爱的应用列出"
+
+#: components/sourceregistry.cpp:272
+msgid "Power Management"
+msgstr "电源管理"
+
+#: components/sourceregistry.cpp:273
+msgid "Provide buttons to suspend, hibernate, reboot or halt your computer"
+msgstr "提供睡眠、休眠、重启或关机功能的几个按钮"
+
+#: components/sourceregistry.cpp:276
+#: components/sources/session/sessionmodel.cpp:98
+msgid "Session"
+msgstr "会话"
+
+#: components/sourceregistry.cpp:277
+msgid "Provide buttons to lock the screen, log out, or switch to another user"
+msgstr "提供锁屏、注销或切换用户功能的几个按钮"
+
+#: components/sourceregistry.cpp:280
+#: components/sources/session/openedsessionsmodel.cpp:67
+msgid "Opened Sessions"
+msgstr "已打开的会话"
+
+#: components/sourceregistry.cpp:281
+msgid "Provide buttons to switch to opened sessions"
+msgstr "一个用于切换已打开会话的按钮"
+
+#: components/sourceregistry.cpp:284
+msgid "KRunner"
+msgstr "KRunner"
+
+#: components/sourceregistry.cpp:285
+msgid "Perform searchs using a selection of runners"
+msgstr "使用几个不同的搜索工具进行搜索操作"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: components/sources/dir/dirconfigurationwidget.ui:32
+msgid "Folder to show:"
+msgstr "要显示的文件夹："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: components/sources/dir/dirconfigurationwidget.ui:52
+msgid "Title:"
+msgstr "标题："
+
+#. i18n: ectx: property (text), widget (QLabel, titleHelpLabel)
+#: components/sources/dir/dirconfigurationwidget.ui:68
+msgid "If title is left empty, the folder name will be used"
+msgstr "如果标题留空，将使用文件夹的名称"
+
+#: components/sources/favorites/fileplacesmodel.cpp:124
+msgctxt "KFile System Bookmarks"
+msgid "Home"
+msgstr "主页"
+
+#: components/sources/favorites/fileplacesmodel.cpp:127
+msgctxt "KFile System Bookmarks"
+msgid "Network"
+msgstr "网络"
+
+#: components/sources/favorites/fileplacesmodel.cpp:139
+msgctxt "KFile System Bookmarks"
+msgid "Root"
+msgstr "根目录"
+
+#: components/sources/favorites/fileplacesmodel.cpp:143
+msgctxt "KFile System Bookmarks"
+msgid "Trash"
+msgstr "回收站"
+
+#: components/sources/favorites/fileplacesmodel.cpp:758
+#, kde-format
+msgid "&Release '%1'"
+msgstr "释放 '%1' (&R)"
+
+#: components/sources/favorites/fileplacesmodel.cpp:760
+#, kde-format
+msgid "&Safely Remove '%1'"
+msgstr "安全删除 '%1' (&S)"
+
+#: components/sources/favorites/fileplacesmodel.cpp:763
+#, kde-format
+msgid "&Unmount '%1'"
+msgstr "卸载 '%1' (&U)"
+
+#: components/sources/favorites/fileplacesmodel.cpp:784
+#, kde-format
+msgid "&Eject '%1'"
+msgstr "弹出 '%1' (&E)"
+
+#: components/sources/favorites/fileplacesmodel.cpp:818
+#, kde-format
+msgid "The device '%1' is not a disk and cannot be ejected."
+msgstr "设备 '%1' 不是一个可移动介质，因此不能被弹出。"
+
+#: components/sources/favorites/fileplacesmodel.cpp:854
+#, kde-format
+msgid "An error occurred while accessing '%1', the system responded: %2"
+msgstr "尝试访问 '%1' 时出错，系统返回错误值：%2"
+
+#: components/sources/favorites/fileplacesmodel.cpp:858
+#, kde-format
+msgid "An error occurred while accessing '%1'"
+msgstr "尝试访问 '%1' 时出错"
+
+#: components/sources/installedapps/installedappsconfigurationwidget.cpp:133
+msgid "All Applications"
+msgstr "所有应用"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: components/sources/installedapps/installedappsconfigurationwidget.ui:17
+msgid "Pick the application folder to display:"
+msgstr "选择一个用于显示的应用文件夹"
+
+#: components/sources/installedapps/installedappsmodel.cpp:280
+msgid "Applications"
+msgstr "应用"
+
+#: components/sources/power/powermodel.cpp:43
+msgid "Power"
+msgstr "电源"
+
+#: components/sources/power/powermodel.cpp:47
+msgctxt "an action"
+msgid "Suspend"
+msgstr "睡眠"
+
+#: components/sources/power/powermodel.cpp:53
+msgctxt "an action"
+msgid "Hibernate"
+msgstr "休眠"
+
+#: components/sources/power/powermodel.cpp:59
+msgctxt "an action"
+msgid "Restart"
+msgstr "重启"
+
+#: components/sources/power/powermodel.cpp:64
+msgctxt "an action"
+msgid "Shutdown"
+msgstr "关机"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: components/sources/runners/runnerconfigurationwidget.ui:17
+msgid "Pick the runners you would like to use in this source:"
+msgstr "在这里选择你需要的启动器："
+
+#: components/sources/session/sessionmodel.cpp:50
+msgctxt "an action"
+msgid "Lock"
+msgstr "锁定"
+
+#: components/sources/session/sessionmodel.cpp:65
+msgctxt "an action"
+msgid "New Session"
+msgstr "新建会话"
+
+#: components/sources/session/sessionmodel.cpp:85
+msgctxt "an action"
+msgid "Logout"
+msgstr "注销"
+
+#: devdoc/helloworld/helloworld.cpp:47
+msgid "Hello"
+msgstr "你好"
+
+#: devdoc/helloworld/helloworld.cpp:52
+msgid "World"
+msgstr "世界"
+
+#: devdoc/helloworld/helloworld.cpp:67
+msgid "Hello World"
+msgstr "世界你好"
+
+#: internal/aboutdata.cpp:41
+msgctxt "Program name"
+msgid "Homerun"
+msgstr "中枢启动器"
+
+#: internal/aboutdata.cpp:44
+msgid "(C) 2012-2013 Blue Systems"
+msgstr "版权所有 © 2012-2013 Blue Systems"
+
+#: internal/aboutdata.cpp:47
+msgid "Shaun Reich"
+msgstr "Shaun Reich"
+
+#: internal/aboutdata.cpp:47 internal/aboutdata.cpp:48
+msgid "Developer"
+msgstr "开发者"
+
+#: internal/aboutdata.cpp:48
+msgid "Aurélien Gâteau"
+msgstr "Aurélien Gâteau"
+
+#: internal/i18nconfig.cpp:30
+msgctxt "Tab title"
+msgid "Home"
+msgstr "主页"
+
+#: internal/i18nconfig.cpp:31
+msgctxt "Tab title"
+msgid "Files"
+msgstr "文件"
+
+#: internal/i18nconfig.cpp:32
+msgctxt "Tab title"
+msgid "Applications"
+msgstr "应用"
+
+#: internal/i18nconfig.cpp:33
+msgctxt "Tab title"
+msgid "Power"
+msgstr "电源"
+
+#: lib/actionlist.cpp:75
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "清空回收站"
+
+#: lib/actionlist.cpp:93
+msgid "Open with:"
+msgstr "打开方式："
+
+#: lib/actionlist.cpp:105
+msgid "Properties"
+msgstr "属性"
+
+#: package/contents/ui/ActionMenu.qml:71
+msgid "(Empty)"
+msgstr "（空）"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: package/contents/ui/config.ui:17
+msgid "Text Color:"
+msgstr "文本颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: package/contents/ui/config.ui:30
+msgid "Text Shadow:"
+msgstr "文本阴影："
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_shadowModeNone)
+#: package/contents/ui/config.ui:40
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_shadowModeAuto)
+#: package/contents/ui/config.ui:47
+msgid "Automatic"
+msgstr "自动"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_shadowModeCustom)
+#: package/contents/ui/config.ui:56
+msgid "Custom:"
+msgstr "自定义："
+
+#: package/contents/ui/main.qml:86
+msgid "Go to previous tab"
+msgstr "回到上一个标签页"
+
+#: package/contents/ui/main.qml:92
+msgid "Go to next tab"
+msgstr "前进至下一标签页"
+
+#: package/contents/ui/main.qml:98
+msgid "Focus search field"
+msgstr "聚焦于搜索框"
+
+#: package/contents/ui/main.qml:104
+msgid "Go back"
+msgstr "后退"
+
+#: package/contents/ui/main.qml:110
+msgid "Go forward"
+msgstr "前进"
+
+#: package/contents/ui/main.qml:116
+msgid "Go up"
+msgstr "向上一级"
+
+#: package/contents/ui/main.qml:142
+msgctxt "Used for tabs which have no name"
+msgid "<Untitled>"
+msgstr "<未命名>"
+
+#: package/contents/ui/main.qml:227
+msgctxt "Button to leave configure mode"
+msgid "Done"
+msgstr "完成"
+
+#: package/contents/ui/main.qml:249
+msgid "Search in current tab..."
+msgstr "在目前标签页搜索"
+
+#: package/contents/ui/main.qml:285
+msgid "Configure Shortcuts..."
+msgstr "配置快捷方式"
+
+#: package/contents/ui/main.qml:289
+msgid "End Configure"
+msgstr "结束配置"
+
+#: package/contents/ui/main.qml:289
+msgid "Configure"
+msgstr "配置"
+
+#: package/contents/ui/main.qml:301
+msgid "Restore Tabs to Default"
+msgstr "恢复标签页为默认值"
+
+#: package/contents/ui/main.qml:304
+msgid ""
+"Are you sure you want to restore tabs?\n"
+"Restoring tabs will reset your configuration to the default Homerun tabs.\n"
+"Your lists of favorite applications and places will remain untouched."
+msgstr ""
+"你确定要恢复标签页为默认值么？\n"
+"这将重置你的所有标签页位置、选择等到默认配置。\n"
+"你的收藏夹（收藏的位置、最爱的应用）将不会被更改。"
+
+#: package/contents/ui/main.qml:305 package/contents/ui/main.qml:306
+msgid "Restore Tabs"
+msgstr "恢复标签页"
+
+#: package/contents/ui/main.qml:319
+#, kde-format
+msgid "About %1"
+msgstr "关于 %1"
+
+#: package/contents/ui/Result.qml:148
+msgid "Drag to reorder; release to show menu"
+msgstr "拖动以重新排序；松开以显示菜单。"
+
+#: package/contents/ui/Result.qml:150
+msgid "Release to show menu"
+msgstr "松手，我让你看菜单！"
+
+#: package/contents/ui/Result.qml:152
+msgid "Drag to reorder"
+msgstr "拖动以重新排序"
+
+#: package/contents/ui/Result.qml:155
+msgid "This item has no menu and cannot be dragged"
+msgstr "此项目没有菜单且不能被拖动"
+
+#: package/contents/ui/ResultsView.qml:176
+msgid "Remove from Favorites"
+msgstr "从收藏移除"
+
+#: package/contents/ui/ResultsView.qml:180
+msgid "Add to Favorites"
+msgstr "添加到收藏"
+
+#: package/contents/ui/ResultsView.qml:351
+#, kde-format
+msgid "%1 has been added to your favorites"
+msgstr "%1 已被添加到你的收藏中"
+
+#: package/contents/ui/SourceItem.qml:55
+#, kde-format
+msgid "Broken source '%1'"
+msgstr "'%1' 的来源损坏"
+
+#: package/contents/ui/TabContent.qml:82
+msgid "Tab Icon:"
+msgstr "标签页图标："
+
+#: package/contents/ui/TabContent.qml:101
+msgid "Tab Label:"
+msgstr "标签页注释："
+
+#: plugins/recentdocuments/recentdocuments.cpp:130
+msgid "Recent Documents"
+msgstr "最近的文档"
+
+#: plugins/recentdocuments/recentdocuments.cpp:152
+msgid "Forget Document"
+msgstr "忘了它吧"
+
+#: shell/main.cpp:41
+#, kde-format
+msgid ""
+"<p><b>Sorry, Homerun failed to load</b></p><p>Do you want to report this "
+"error?</p><p>If you decide to report it, please copy and paste the following "
+"output in your report:</p><pre>%1</pre>"
+msgstr ""
+"<p><b>中枢启动器无法启动</b></p><p>你是否希望报告这个问题？</p><p>如果希望这"
+"样做，请复制如下错误内容：</p><pre>%1</pre>"
+
+#: shell/main.cpp:48
+msgid "Report Error"
+msgstr "报告错误"
+
+#: shell/main.cpp:65
+msgid "Show on screen <screen>"
+msgstr "显示于屏幕 <screen>"
+
+#: shell/main.cpp:66
+msgid "Log focused item (for debug purposes)"
+msgstr "为指定内容生成日志（为除错之用）"
+
+#: shell/main.cpp:67
+msgid "Use a plain window (for debug purposes)"
+msgstr "使用标准窗口（为除错之用）"
+
+#~ msgid "Nightly build using source from: %1"
+#~ msgstr "Nightly Build basierend auf Quelltexten von %1"
+
+#~ msgctxt "an action"
+#~ msgid "Switch User"
+#~ msgstr "Benutzer wechseln"
+
+#~ msgid "Type to search..."
+#~ msgstr "Suchbegriff eingeben …"

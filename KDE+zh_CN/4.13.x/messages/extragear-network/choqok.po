@@ -1,0 +1,3062 @@
+# translation of choqok.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010, 2011, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: choqok\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-20 01:29+0000\n"
+"PO-Revision-Date: 2013-01-12 10:41-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#. i18n: ectx: Menu (file)
+#: choqok/choqokui.rc:4
+msgid "File"
+msgstr "文件"
+
+#. i18n: ectx: Menu (tools)
+#: choqok/choqokui.rc:11 plugins/filter/filterui.rc:4
+#: plugins/nowlistening/nowlisteningui.rc:4
+#: plugins/quickfilter/quickfilterui.rc:4
+#: plugins/searchaction/searchactionui.rc:4
+msgid "Tools"
+msgstr "工具"
+
+#. i18n: ectx: Menu (settings)
+#. i18n: ectx: attribute (title), widget (QWidget, settingsTab)
+#: choqok/choqokui.rc:15 plugins/uploaders/flickr/flickrprefs.ui:82
+msgid "Settings"
+msgstr "设置"
+
+#. i18n: ectx: Menu (help)
+#: choqok/choqokui.rc:20
+msgid "Help"
+msgstr "帮助"
+
+#: choqok/config/accounts/accountswidget.cpp:94
+#, kde-format
+msgid "Cannot load the %1 plugin. Please check your installation."
+msgstr "无法装入 %1 插件。请检查您的安装。"
+
+#: choqok/config/accounts/accountswidget.cpp:108
+msgid "Cannot find the desired account."
+msgstr "无法找到所期望的账户。"
+
+#: choqok/config/accounts/accountswidget.cpp:126
+msgid "Are you sure you want to remove the selected account?"
+msgstr "您确定要删除所选账户吗？"
+
+#: choqok/config/accounts/accountswidget.cpp:131
+msgid "Cannot remove the account."
+msgstr "无法删除账户。"
+
+#: choqok/config/accounts/accountswidget.cpp:237
+msgid "Select Micro-Blogging Service"
+msgstr "选择微博客服务"
+
+#: choqok/config/accounts/accountswidget.cpp:292
+msgid ""
+"You need to restart Choqok for the accounts priority changes to take effect."
+msgstr "您需要重启 Choqok 以使账户优先级更改生效。"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, btnAdd)
+#: choqok/config/accounts/accountswidget_base.ui:28
+msgid "Add a new account"
+msgstr "添加新账户"
+
+#. i18n: ectx: property (text), widget (KPushButton, btnAdd)
+#: choqok/config/accounts/accountswidget_base.ui:31
+msgid "&Add..."
+msgstr "添加(&A)..."
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, btnEdit)
+#: choqok/config/accounts/accountswidget_base.ui:41
+msgid "Modify the selected account"
+msgstr "修改所选账户"
+
+#. i18n: ectx: property (text), widget (KPushButton, btnEdit)
+#: choqok/config/accounts/accountswidget_base.ui:44
+msgid "&Modify..."
+msgstr "修改(&M)..."
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, btnRemove)
+#: choqok/config/accounts/accountswidget_base.ui:54
+msgid "Remove the selected account"
+msgstr "删除所选账户"
+
+#. i18n: ectx: property (text), widget (KPushButton, btnRemove)
+#: choqok/config/accounts/accountswidget_base.ui:57
+msgid "&Remove"
+msgstr "删除(&R)"
+
+#. i18n: ectx: property (text), widget (QTableWidget, accountsTable)
+#: choqok/config/accounts/accountswidget_base.ui:130
+msgid "Alias"
+msgstr "别名"
+
+#. i18n: ectx: property (text), widget (QTableWidget, accountsTable)
+#: choqok/config/accounts/accountswidget_base.ui:135
+msgid "Micro-Blog"
+msgstr "微博客"
+
+#. i18n: ectx: property (text), widget (QTableWidget, accountsTable)
+#: choqok/config/accounts/accountswidget_base.ui:140
+msgid "Read Only"
+msgstr "只读"
+
+#. i18n: ectx: property (toolTip), widget (QTableWidget, accountsTable)
+#: choqok/config/accounts/accountswidget_base.ui:143
+msgid "Read Only account"
+msgstr "只读账户"
+
+#. i18n: ectx: property (text), widget (QTableWidget, accountsTable)
+#: choqok/config/accounts/accountswidget_base.ui:148
+msgid "Include in Quick Post"
+msgstr "包含于赶快吼吼"
+
+#. i18n: ectx: property (toolTip), widget (QTableWidget, accountsTable)
+#: choqok/config/accounts/accountswidget_base.ui:151
+msgid "Show in Quick Post"
+msgstr "显示于赶快吼吼"
+
+#: choqok/config/accounts/addaccountdialog.cpp:40
+msgid "Add New Account"
+msgstr "添加新账户"
+
+#: choqok/config/accounts/addaccountdialog.cpp:60
+msgid "The Account registration failed."
+msgstr "账户注册失败。"
+
+#: choqok/config/accounts/addaccountdialog.cpp:66
+#: choqok/config/accounts/editaccountdialog.cpp:63
+msgid ""
+"Cannot validate your input information.\n"
+"Please check the fields' data.\n"
+"Maybe a required field is empty?"
+msgstr ""
+"无法确认您输入的信息。\n"
+"请检查字段数据。\n"
+"可能有必填字段为空？"
+
+#: choqok/config/accounts/editaccountdialog.cpp:41
+msgid "Edit Account"
+msgstr "编辑账户"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: choqok/config/appearance/appearanceconfig.cpp:73
+#: plugins/betternotify/notifyprefs.ui:21
+msgid "Appearance"
+msgstr "外观"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_isEmoticonsEnabled)
+#: choqok/config/appearance/appearanceconfig_base.ui:17
+msgid "Enable emoticons"
+msgstr "启用表情"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useReverseOrder)
+#: choqok/config/appearance/appearanceconfig_base.ui:24
+msgid "Show posts in reverse order (Needs restart to take effect)"
+msgstr "逆序显示状态 (需要重启以生效)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_showRetweetsInChoqokWay)
+#: choqok/config/appearance/appearanceconfig_base.ui:31
+msgid ""
+"You will see post with retweeter name as author, plus Retweeted from "
+"original author note."
+msgstr "您将看到以转发者作为作者的状态，加上转发自原作者的注释。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showRetweetsInChoqokWay)
+#: choqok/config/appearance/appearanceconfig_base.ui:34
+msgid "Show Retweeted/Repeated posts in Choqok way"
+msgstr "以 Choqok 风格显示转发的状态"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_isCustomUi)
+#: choqok/config/appearance/appearanceconfig_base.ui:44
+msgid "Use custom appearance"
+msgstr "使用自定义外观"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: choqok/config/appearance/appearanceconfig_base.ui:76
+#, fuzzy
+#| msgid "Post Font:"
+msgid "Post font:"
+msgstr "状态字体："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: choqok/config/appearance/appearanceconfig_base.ui:95
+msgid "Post Color Preferences"
+msgstr "状态颜色首选项"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: choqok/config/appearance/appearanceconfig_base.ui:103
+msgid "Background"
+msgstr "背景"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: choqok/config/appearance/appearanceconfig_base.ui:113
+msgid "Default color:"
+msgstr "默认颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: choqok/config/appearance/appearanceconfig_base.ui:150
+msgid "Unread post color:"
+msgstr "未读状态颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: choqok/config/appearance/appearanceconfig_base.ui:194
+msgid "Foreground"
+msgstr "前景"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: choqok/config/appearance/appearanceconfig_base.ui:204
+msgid "Own post color:"
+msgstr "本人状态颜色："
+
+#: choqok/config/behavior/behaviorconfig.cpp:74
+msgid "&General"
+msgstr "常规(&G)"
+
+#: choqok/config/behavior/behaviorconfig.cpp:75
+msgid " Minute"
+msgid_plural " Minutes"
+msgstr[0] " 分钟"
+
+#: choqok/config/behavior/behaviorconfig.cpp:82
+msgid "&Notifications"
+msgstr "通知(&N)"
+
+#: choqok/config/behavior/behaviorconfig.cpp:83
+msgid " Second"
+msgid_plural " Seconds"
+msgstr[0] " 秒"
+
+#: choqok/config/behavior/behaviorconfig.cpp:94
+msgid "URL &Shortening"
+msgstr "Url 缩短(&S)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: choqok/config/behavior/behaviorconfig_general.ui:17
+msgid "General Options"
+msgstr "常规选项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showSplashScreen)
+#: choqok/config/behavior/behaviorconfig_general.ui:23
+msgid "Show splash-screen on startup"
+msgstr "在启动时显示启动画面"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_markAllAsReadOnExit)
+#: choqok/config/behavior/behaviorconfig_general.ui:33
+msgid "Mark all posts as read on exit"
+msgstr "退出时将全部状态标为已读"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_markAllAsReadOnHideToSystray)
+#: choqok/config/behavior/behaviorconfig_general.ui:46
+msgid "Mark all unread posts as read, when hiding to system tray"
+msgstr "隐藏到系统托盘时将全部未读状态标为已读"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableSpellChecker)
+#: choqok/config/behavior/behaviorconfig_general.ui:56
+msgid "Enable automatic spellchecking in the message editor"
+msgstr "启用消息编辑器自动拼写检查"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useCustomBrowser)
+#: choqok/config/behavior/behaviorconfig_general.ui:71
+msgid "Use &custom web browser:"
+msgstr "使用自定义网络浏览器(&C)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useCustomRT)
+#: choqok/config/behavior/behaviorconfig_general.ui:89
+msgid "Use custom prefix for ReSend [ReTweet]:"
+msgstr "重新发送时使用自定义前缀[转发]："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: choqok/config/behavior/behaviorconfig_general.ui:108
+msgid "Timelines Options"
+msgstr "时间线选项"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: choqok/config/behavior/behaviorconfig_general.ui:118
+msgid "&Update interval:"
+msgstr "更新间隔(&U)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: choqok/config/behavior/behaviorconfig_general.ui:137
+msgid "&Number of posts to show in timelines:"
+msgstr "显示在时间线中的状态数量(&N)："
+
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_updateInterval)
+#: choqok/config/behavior/behaviorconfig_general.ui:154
+msgid "Disabled"
+msgstr "禁用"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showAllNotifiesInOne)
+#: choqok/config/behavior/behaviorconfig_notifications.ui:17
+msgid "&Show all new posts in one notification"
+msgstr "在同一通知中显示全部新状态(&S)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: choqok/config/behavior/behaviorconfig_notifications.ui:26
+msgid "&Notification duration:"
+msgstr "通知时长(&N)："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: choqok/config/behavior/behaviorconfig_notifications.ui:54
+msgid "New post notifications"
+msgstr "新状态通知"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_knotify)
+#: choqok/config/behavior/behaviorconfig_notifications.ui:60
+msgid "Show notification using KNotify"
+msgstr "使用 KNotify 显示通知"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_libindicate)
+#: choqok/config/behavior/behaviorconfig_notifications.ui:67
+msgid "Show notification using Message Indicator"
+msgstr "使用 Message Indicator 显示通知"
+
+#: choqok/config/behavior/behaviorconfig_shorten.cpp:82
+#, fuzzy
+#| msgid "None"
+msgctxt "No shortener service"
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_shortenOnPaste)
+#: choqok/config/behavior/behaviorconfig_shorten_base.ui:17
+msgid "Shorten &URLs on paste"
+msgstr "缩短张贴的 &URL"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_removeHttp)
+#: choqok/config/behavior/behaviorconfig_shorten_base.ui:24
+msgid "Remove \"http://\" from shortened URLs"
+msgstr "删除已缩短 URL 中的“http://”"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: choqok/config/behavior/behaviorconfig_shorten_base.ui:33
+msgid "Shortening &service:"
+msgstr "缩短服务(&S)："
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, configPlugin)
+#: choqok/config/behavior/behaviorconfig_shorten_base.ui:56
+#: libchoqok/ui/uploadmedia_base.ui:71
+msgid "Configure plugin"
+msgstr "配置插件"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, aboutPlugin)
+#: choqok/config/behavior/behaviorconfig_shorten_base.ui:69
+#: libchoqok/ui/uploadmedia_base.ui:90
+msgid "About plugin"
+msgstr "关于插件"
+
+#: choqok/config/plugins/choqokpluginconfig.cpp:60
+msgid "General Plugins"
+msgstr "常规插件"
+
+#: choqok/main.cpp:33
+msgid "KDE Micro-Blogging Client."
+msgstr "KDE 微博客客户端。"
+
+#: choqok/main.cpp:40 choqok/mainwindow.cpp:85 choqok/mainwindow.cpp:510
+#: choqok/mainwindow.cpp:579 choqok/mainwindow.cpp:630
+#: choqok/systrayicon.cpp:116 choqok/systrayicon.cpp:122
+#: plugins/betternotify/dummynotification.cpp:47
+#: plugins/konqueror/konqchoqok.cpp:48
+msgid "Choqok"
+msgstr "Choqok"
+
+#: choqok/main.cpp:41
+msgid ""
+"(C) 2008-2010 Mehrdad Momeny\n"
+"(C) 2011-2012 Choqok Developers"
+msgstr ""
+"(C) 2008-2010 Mehrdad Momeny\n"
+"(C) 2011-2012 Choqok 开发者"
+
+#: choqok/main.cpp:43
+msgid "Mehrdad Momeny"
+msgstr "Mehrdad Momeny"
+
+#: choqok/main.cpp:43
+msgid "Author and Core Developer"
+msgstr "作者和核心开发者"
+
+#: choqok/main.cpp:45
+msgid "Andrey Esin"
+msgstr "Andrey Esin"
+
+#: choqok/main.cpp:45 choqok/main.cpp:51
+msgid "Developer"
+msgstr "开发者"
+
+#: choqok/main.cpp:47
+msgid "Roozbeh Shafiee"
+msgstr "Roozbeh Shafiee"
+
+#: choqok/main.cpp:47 choqok/main.cpp:48
+msgid "Artworks"
+msgstr "美工"
+
+#: choqok/main.cpp:48
+msgid "Shahrzad Shojaei"
+msgstr "Shahrzad Shojaei"
+
+#: choqok/main.cpp:49
+msgid "Daniel Schaal"
+msgstr "Daniel Schaal"
+
+#: choqok/main.cpp:49 choqok/main.cpp:56
+msgid "UI improvements"
+msgstr "用户界面改善"
+
+#: choqok/main.cpp:50
+msgid "Stephen Henderson"
+msgstr "Stephen Henderson"
+
+#: choqok/main.cpp:50
+msgid "Search API implementation"
+msgstr "搜索 API 整合"
+
+#: choqok/main.cpp:51
+msgid "Tejas Dinkar"
+msgstr "Tejas Dinkar"
+
+#: choqok/main.cpp:53
+msgid "Emanuele Bigiarini"
+msgstr "Emanuele Bigiarini"
+
+#: choqok/main.cpp:53
+msgid "D-Bus and Konqueror plugin"
+msgstr "D-Bus 和 Konqueror 插件"
+
+#: choqok/main.cpp:54
+msgid "Alex Infantes"
+msgstr "Alex Infantes"
+
+#: choqok/main.cpp:54
+msgid "Improvements on Image preview plugin"
+msgstr "改善图像预览插件"
+
+#: choqok/main.cpp:56
+msgid "Bardia Daneshvar"
+msgstr "Bardia Daneshvar"
+
+#: choqok/main.cpp:57
+msgid "Atanas Gospodinov"
+msgstr "Atanas Gospodinov"
+
+#: choqok/main.cpp:57
+msgid "Twitter photo upload"
+msgstr "Twitter 照片上传"
+
+#: choqok/main.cpp:58
+msgid "Daniel Kreuter"
+msgstr ""
+
+#: choqok/main.cpp:58
+msgid "Twitter API v1.1 support"
+msgstr ""
+
+#: choqok/main.cpp:59
+msgid "Lim Yuen Hoe"
+msgstr ""
+
+#: choqok/main.cpp:59
+#, fuzzy
+#| msgid "UI improvements"
+msgid "Bug fixes and improvements"
+msgstr "用户界面改善"
+
+#: choqok/mainwindow.cpp:210
+msgid "Update Timelines"
+msgstr "更新时间线"
+
+#: choqok/mainwindow.cpp:217 libchoqok/ui/quickpost.cpp:110
+msgid "Quick Post"
+msgstr "赶快吼吼"
+
+#: choqok/mainwindow.cpp:224
+msgid "Mark All As Read"
+msgstr "标记全部为已读"
+
+#: choqok/mainwindow.cpp:234
+#, fuzzy
+#| msgid "Minimize"
+msgctxt "@action"
+msgid "Minimize"
+msgstr "最小化"
+
+#: choqok/mainwindow.cpp:236
+#, fuzzy
+#| msgid "Restore"
+msgctxt "@action"
+msgid "Restore"
+msgstr "还原"
+
+#: choqok/mainwindow.cpp:243
+msgid "Enable Update Timer"
+msgstr "启用更新计时"
+
+#: choqok/mainwindow.cpp:249
+msgid "Enable Notifications"
+msgstr "启用通知"
+
+#: choqok/mainwindow.cpp:255
+msgid "Hide Menubar"
+msgstr "隐藏菜单栏"
+
+#: choqok/mainwindow.cpp:262
+msgid "Clear Avatar Cache"
+msgstr "清除头像缓存"
+
+#: choqok/mainwindow.cpp:264
+msgid "You have to restart Choqok to load avatars again"
+msgstr "您必须重启 Choqok 以重新装入头像"
+
+#: choqok/mainwindow.cpp:270
+msgid "Upload Medium..."
+msgstr "上传媒体..."
+
+#: choqok/mainwindow.cpp:274
+msgid "Donate"
+msgstr "捐助"
+
+#: choqok/mainwindow.cpp:316
+msgid ""
+"No account created. You have to create an account before being able to make "
+"posts."
+msgstr "未创建账户。您得在发布状态前创建一个账户。"
+
+#: choqok/mainwindow.cpp:345
+msgid ""
+"In order to use Choqok you need an account at one of the supported micro-"
+"blogging services.\n"
+"Would you like to add your account now?"
+msgstr ""
+"为了使用 Choqok，您需要至少一个受支持的微博客服务。\n"
+"您想要现在添加您的账户吗？"
+
+#: choqok/mainwindow.cpp:508
+#, kde-format
+msgid "Choqok (%1)"
+msgstr "Choqok (%1)"
+
+#: choqok/mainwindow.cpp:568
+msgid "Restore"
+msgstr "还原"
+
+#: choqok/mainwindow.cpp:574
+msgid "Minimize"
+msgstr "最小化"
+
+#: choqok/mainwindow.cpp:616
+msgid "Loading timelines..."
+msgstr "正在装入时间线..."
+
+#: choqok/systrayicon.cpp:116
+#, kde-format
+msgid "1 unread post"
+msgid_plural "%1 unread posts"
+msgstr[0] "%1 条未读状态"
+
+#: choqok/systrayicon.cpp:125
+msgid "Choqok - Disabled"
+msgstr "Choqok - 已禁用"
+
+#: helperlibs/twitterapihelper/twitterapidmessagedialog.cpp:55
+msgid "Send Private Message"
+msgstr "发送私信"
+
+#: helperlibs/twitterapihelper/twitterapidmessagedialog.cpp:69
+msgctxt "Send private message"
+msgid "Send"
+msgstr "发送"
+
+#: helperlibs/twitterapihelper/twitterapidmessagedialog.cpp:82
+msgctxt "Send message to"
+msgid "To:"
+msgstr "至："
+
+#: helperlibs/twitterapihelper/twitterapidmessagedialog.cpp:87
+msgid "Reload friends list"
+msgstr "重新装入好友列表"
+
+#: helperlibs/twitterapihelper/twitterapidmessagedialog.cpp:114
+#: helperlibs/twitterapihelper/twitterapiwhoiswidget.cpp:314
+#: microblogs/laconica/laconicaconversationtimelinewidget.cpp:36
+msgid "Please wait..."
+msgstr "请稍候..."
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:105
+msgctxt "Timeline Name"
+msgid "Home"
+msgstr "主页"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:106
+msgctxt "Timeline description"
+msgid "You and your friends"
+msgstr "您和您的好友"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:111
+msgctxt "Timeline Name"
+msgid "Reply"
+msgstr "回复"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:112
+msgctxt "Timeline description"
+msgid "Replies to you"
+msgstr "您的回复"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:117
+#: microblogs/pumpio/pumpiomicroblog.cpp:1200
+msgctxt "Timeline Name"
+msgid "Inbox"
+msgstr "收件箱"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:118
+msgctxt "Timeline description"
+msgid "Your incoming private messages"
+msgstr "您收到的私信"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:123
+#: microblogs/pumpio/pumpiomicroblog.cpp:1207
+msgctxt "Timeline Name"
+msgid "Outbox"
+msgstr "发件箱"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:124
+msgctxt "Timeline description"
+msgid "Private messages you have sent"
+msgstr "您发送的私信"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:129
+msgctxt "Timeline Name"
+msgid "Favorite"
+msgstr "最爱"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:130
+msgctxt "Timeline description"
+msgid "Your favorites"
+msgstr "您的最爱"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:135
+msgctxt "Timeline Name"
+msgid "Public"
+msgstr "公共"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:136
+msgctxt "Timeline description"
+msgid "Public timeline"
+msgstr "公共时间线"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:141
+msgctxt "Timeline Name"
+msgid "ReTweets"
+msgstr "转发"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:142
+msgctxt "Timeline description"
+msgid "Your posts that were ReTweeted by others"
+msgstr "您被转发的状态"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:157
+#: microblogs/pumpio/pumpiomicroblog.cpp:122
+msgid "Send Private Message..."
+msgstr "发送私信..."
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:162
+#: plugins/searchaction/searchaction.cpp:41
+msgid "Search..."
+msgstr "搜索..."
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:167
+msgid "Update Friends List"
+msgstr "更新好友列表"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:305
+msgid "Creating the new post failed. Text is empty."
+msgstr "创建新状态失败。文本为空。"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:403
+#: microblogs/pumpio/pumpiomicroblog.cpp:637
+#, kde-format
+msgid "Creating the new post failed. %1"
+msgstr "创建新状态失败。%1"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:414
+msgid "Creating the new post failed. The result data could not be parsed."
+msgstr "创建新状态失败。无法解析结果数据。"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:418
+#, kde-format
+msgid "Creating the new post failed, with error: %1"
+msgstr "创建新状态失败，错误：%1"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:422
+#: microblogs/laconica/laconicacomposerwidget.cpp:119
+#: microblogs/pumpio/pumpiomicroblog.cpp:626
+#: microblogs/twitter/twittercomposerwidget.cpp:119
+msgid "New post submitted successfully"
+msgstr "成功提交新状态"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:426
+msgid "Private message sent successfully"
+msgstr "私信发送成功"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:490
+#, kde-format
+msgid "Fetching the new post failed. %1"
+msgstr "获取新状态失败。%1"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:500
+msgid "Fetching new post failed. The result data could not be parsed."
+msgstr "获取新状态失败。无法解析结果数据。"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:505
+#, kde-format
+msgid "Fetching new post failed, with error: %1"
+msgstr "获取新状态失败，错误：%1"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:553
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:562
+#: microblogs/pumpio/pumpiomicroblog.cpp:910
+#, kde-format
+msgid "Removing the post failed. %1"
+msgstr "删除新状态失败。%1"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:606
+#, kde-format
+msgid "Favorite creation failed. %1"
+msgstr "收藏创建失败。%1"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:658
+#, kde-format
+msgid "Removing the favorite failed. %1"
+msgstr "删除收藏失败。%1"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:700
+#, fuzzy, kde-format
+#| msgid "Updating friends list for account %1 ..."
+msgid "Updating friends list for account %1..."
+msgstr "正在更新账户 %1 的好友列表..."
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:709
+#, kde-format
+msgid ""
+"Friends list for account %1 could not be updated:\n"
+"%2"
+msgstr ""
+"无法更新账户 %1 的好友列表：\n"
+"%2"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:721
+#, kde-format
+msgid "Friends list for account %1 has been updated."
+msgstr "账户 %1 的好友列表已更新。"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:812
+#, fuzzy, kde-format
+#| msgid "Timeline update failed, %1"
+msgid "Timeline update failed: %1"
+msgstr "时间线更新失败，%1"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:968
+#, kde-format
+msgid "Creating friendship with %1 failed. %2"
+msgstr "与 %1 建立好友关系失败。%2"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:975
+#, kde-format
+msgid "You are now listening to %1's posts."
+msgstr "您目前正在监视 %1 的状态。"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:983
+#, kde-format
+msgid "Creating friendship with %1 failed: the server returned invalid data."
+msgstr "与 %1 建立好友关系失败：服务器返回无效数据。"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:988
+#, kde-format
+msgid "Creating friendship with %1 failed: %2"
+msgstr "与 %1 建立好友关系失败：%2"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:1028
+#, kde-format
+msgid "Destroying friendship with %1 failed. %2"
+msgstr "与 %1 解除好友关系失败。%2"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:1035
+#, kde-format
+msgid "You will not receive %1's updates."
+msgstr "您将不会收到 %1 的更新。"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:1043
+#, kde-format
+msgid "Destroying friendship with %1 failed: the server returned invalid data."
+msgstr "与 %1 解除好友关系失败：服务器返回无效数据。"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:1048
+#, kde-format
+msgid "Destroying friendship with %1 failed: %2"
+msgstr "与 %1 解除好友关系失败：%2"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:1087
+#, kde-format
+msgid "Blocking %1 failed. %2"
+msgstr "屏蔽 %1 失败。%2"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:1093
+#, kde-format
+msgid "You will no longer be disturbed by %1."
+msgstr "您将不再会受到 %1 的干扰。"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:1097
+#, kde-format
+msgid "Blocking %1 failed: the server returned invalid data."
+msgstr "屏蔽 %1 失败：服务器返回无效数据。"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:1138
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:1161
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:1220
+msgid "Could not parse the data that has been received from the server."
+msgstr "无法解析从服务器收到的数据。"
+
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:1307
+#: helperlibs/twitterapihelper/twitterapimicroblog.cpp:1328
+msgid ""
+"Retrieving the friends list failed. The data returned from the server is "
+"corrupted."
+msgstr "获取好友列表失败。从服务器返回的数据已损坏。"
+
+#: helperlibs/twitterapihelper/twitterapimicroblogwidget.cpp:125
+#, fuzzy
+#| msgid "The search result is empty."
+msgid "(The search result is empty.)"
+msgstr "搜索结果为空。"
+
+#: helperlibs/twitterapihelper/twitterapimicroblogwidget.cpp:264
+#: libchoqok/ui/timelinewidget.cpp:246
+#, fuzzy
+#| msgid "Mark all as read"
+msgid "Mark timeline as read"
+msgstr "全部标记为已读"
+
+#: helperlibs/twitterapihelper/twitterapimicroblogwidget.cpp:268
+msgid "Close Timeline"
+msgstr "关闭时间线"
+
+#: helperlibs/twitterapihelper/twitterapimicroblogwidget.cpp:269
+msgid "Close All"
+msgstr "全部关闭"
+
+#: helperlibs/twitterapihelper/twitterapipostwidget.cpp:72
+msgctxt "@info:tooltip"
+msgid "Reply"
+msgstr "回复"
+
+#: helperlibs/twitterapihelper/twitterapipostwidget.cpp:75
+#, kde-format
+msgid "Reply to %1"
+msgstr "回复 %1"
+
+#: helperlibs/twitterapihelper/twitterapipostwidget.cpp:80
+#, kde-format
+msgid "Write to %1"
+msgstr "留言给 %1"
+
+#: helperlibs/twitterapihelper/twitterapipostwidget.cpp:86
+msgid "Reply to all"
+msgstr "回复全部"
+
+#: helperlibs/twitterapihelper/twitterapipostwidget.cpp:95
+msgctxt "@info:tooltip"
+msgid "Favorite"
+msgstr "最爱"
+
+#: helperlibs/twitterapihelper/twitterapipostwidget.cpp:129
+#, kde-format
+msgid "<a href='%1' title='Sent from %2 via OStatus'>%2</a>"
+msgstr "<a href='%1' title='使用 OStatus 发送自 %2'>%2</a>"
+
+#: helperlibs/twitterapihelper/twitterapipostwidget.cpp:139
+msgid "Show Conversation"
+msgstr "显示对话"
+
+#: helperlibs/twitterapihelper/twitterapipostwidget.cpp:146
+#, kde-format
+msgid ""
+"<a href='replyto://%1'>in reply to</a> @<a href='user://%4'>%4</a>&nbsp;<a "
+"href=\"%2\" title=\"%2\">%3</a>"
+msgstr ""
+"<a href='replyto://%1'>回复于</a> @<a href='user://%4'>%4</a>&nbsp;<a href="
+"\"%2\" title=\"%2\">%3</a>"
+
+#: helperlibs/twitterapihelper/twitterapisearchdialog.cpp:58
+#, fuzzy
+#| msgid "Search"
+msgctxt "@title:window"
+msgid "Search"
+msgstr "搜索"
+
+#: helperlibs/twitterapihelper/twitterapisearchdialog.cpp:83
+msgctxt "Search query"
+msgid "Query:"
+msgstr "查询："
+
+#: helperlibs/twitterapihelper/twitterapisearchdialog.cpp:90
+#, fuzzy
+#| msgid "Search"
+msgctxt "@action:button"
+msgid "Search"
+msgstr "搜索"
+
+#: helperlibs/twitterapihelper/twitterapisearchtimelinewidget.cpp:69
+#: libchoqok/ui/timelinewidget.cpp:56
+#, fuzzy, kde-format
+#| msgid "Search results for %1"
+msgctxt "%1 is the name of a timeline"
+msgid "Search results for %1"
+msgstr "%1 的搜索结果"
+
+#: helperlibs/twitterapihelper/twitterapisearchtimelinewidget.cpp:98
+msgid "Close Search"
+msgstr "关闭搜索"
+
+#: helperlibs/twitterapihelper/twitterapisearchtimelinewidget.cpp:105
+msgid "Previous"
+msgstr "上一页"
+
+#: helperlibs/twitterapihelper/twitterapisearchtimelinewidget.cpp:110
+msgid "Next"
+msgstr "下一页"
+
+#: helperlibs/twitterapihelper/twitterapisearchtimelinewidget.cpp:117
+msgid "Page Number"
+msgstr "页数"
+
+#: helperlibs/twitterapihelper/twitterapishowthread.cpp:49
+#: microblogs/laconica/laconicaconversationtimelinewidget.cpp:64
+msgid "Conversation"
+msgstr "对话"
+
+#: helperlibs/twitterapihelper/twitterapiwhoiswidget.cpp:167
+msgid "Cannot load user information."
+msgstr "无法装入用户信息。"
+
+#: helperlibs/twitterapihelper/twitterapiwhoiswidget.cpp:253
+msgid "Close"
+msgstr "关闭"
+
+#: helperlibs/twitterapihelper/twitterapiwhoiswidget.cpp:265
+msgctxt "User posts"
+msgid "Posts"
+msgstr "状态"
+
+#: helperlibs/twitterapihelper/twitterapiwhoiswidget.cpp:266
+msgctxt "User friends"
+msgid "Friends"
+msgstr "好友"
+
+#: helperlibs/twitterapihelper/twitterapiwhoiswidget.cpp:267
+msgctxt "User followers"
+msgid "Followers"
+msgstr "跟随者"
+
+#: helperlibs/twitterapihelper/twitterapiwhoiswidget.cpp:276
+#, kde-format
+msgid "<table><tr><b>Last Status:</b> %1</tr></table>"
+msgstr "<table><tr><b>最新状态：</b>%1</tr></table>"
+
+#: helperlibs/twitterapihelper/twitterapiwhoiswidget.cpp:280
+#, kde-format
+msgid "<h3>%1</h3>"
+msgstr "<h3>%1</h3>"
+
+#: helperlibs/twitterapihelper/twitterapiwhoiswidget.cpp:387
+msgid "Unsubscribe"
+msgstr "取消订阅"
+
+#: helperlibs/twitterapihelper/twitterapiwhoiswidget.cpp:392
+msgid "Subscribe"
+msgstr "订阅"
+
+#: helperlibs/twitterapihelper/twitterapiwhoiswidget.cpp:397
+msgid "Block"
+msgstr "屏蔽"
+
+#: libchoqok/accountmanager.cpp:111 libchoqok/accountmanager.cpp:142
+#, kde-format
+msgid "There is no account with alias %1."
+msgstr "没有别名为 %1 的账户。"
+
+#: libchoqok/accountmanager.cpp:159
+msgid ""
+"An account with this alias already exists: a unique alias has to be "
+"specified."
+msgstr "此别名的账户已存在：必须指定唯一的别名。"
+
+#: libchoqok/choqoktools.cpp:50
+msgid "No Error"
+msgstr "无错误"
+
+#: libchoqok/choqoktools.cpp:52
+msgid "Bad request"
+msgstr "错误的请求"
+
+#: libchoqok/choqoktools.cpp:55
+msgid "Consumer Key or Secret has not been provided"
+msgstr "未提供应用方密钥或密文"
+
+#: libchoqok/choqoktools.cpp:57
+msgid "Forbidden"
+msgstr "已禁止"
+
+#: libchoqok/choqoktools.cpp:59
+msgid "Timeout on server"
+msgstr "服务器超时"
+
+#: libchoqok/choqoktools.cpp:61 microblogs/twitter/twittereditaccount.cpp:137
+#: microblogs/twitter/twittereditaccount.cpp:167
+msgid "Authorization Error"
+msgstr "授权错误"
+
+#: libchoqok/choqoktools.cpp:63
+msgid "Internal Error"
+msgstr "内部错误"
+
+#: libchoqok/choqoktools.cpp:68
+msgid "Unknown Error"
+msgstr "未知错误"
+
+#: libchoqok/mediamanager.cpp:107
+msgid "Cannot create a KDE Job. Please check your installation."
+msgstr "无法创建 KDE 任务，请检查您的安装。"
+
+#: libchoqok/mediamanager.cpp:126
+#, kde-format
+msgid "Cannot download image from %1."
+msgstr "无法从 %1 下载图像。"
+
+#: libchoqok/mediamanager.cpp:137
+msgid "The download failed. The returned file is corrupted."
+msgstr "下载失败。返回的文件已损坏。"
+
+#: libchoqok/mediamanager.cpp:167
+msgid "No pluginId specified, And last used plugin is null."
+msgstr "未指定插件，并且上次使用的插件为空。"
+
+#: libchoqok/mediamanager.cpp:185 libchoqok/mediamanager.cpp:191
+#: microblogs/laconica/laconicamicroblog.cpp:168
+#: microblogs/laconica/laconicamicroblog.cpp:175
+#: microblogs/twitter/twittermicroblog.cpp:158
+#: microblogs/twitter/twittermicroblog.cpp:165
+msgid "Uploading medium failed: cannot read the medium file."
+msgstr "上传媒体失败：无法读取媒体文件。"
+
+#: libchoqok/microblog.cpp:85
+msgid "The server returned an error"
+msgstr "服务器返回错误"
+
+#: libchoqok/microblog.cpp:88
+msgid "Error on communication with server"
+msgstr "与服务器通讯时出错"
+
+#: libchoqok/microblog.cpp:91
+msgid "Error on parsing results"
+msgstr "解析结果时出错"
+
+#: libchoqok/microblog.cpp:94
+msgid "Authentication error"
+msgstr "认证错误"
+
+#: libchoqok/microblog.cpp:97
+msgid "The server does not support this feature"
+msgstr "此服务不支持该特性"
+
+#: libchoqok/microblog.cpp:100
+msgid "Unknown error"
+msgstr "未知错误"
+
+#: libchoqok/notifymanager.cpp:95
+msgctxt "Show Choqok MainWindow"
+msgid "Show Choqok"
+msgstr "显示 Choqok"
+
+#: libchoqok/notifymanager.h:41
+msgid "Error"
+msgstr "错误"
+
+#: libchoqok/notifymanager.h:42
+msgid "Success"
+msgstr "成功"
+
+#: libchoqok/notifymanager.h:44
+msgid "New posts"
+msgstr "新状态"
+
+#: libchoqok/notifymanager.h:45
+msgid "Shortening a URL"
+msgstr "缩短 URL"
+
+#: libchoqok/passwordmanager.cpp:73
+#, fuzzy
+#| msgid ""
+#| "Cannot open KDE Wallet manager, your secrets will be stored as plain "
+#| "text, install KWallet to fix this."
+msgid ""
+"Cannot open KDE Wallet manager, your secrets will be stored as plain text. "
+"You can install KWallet to fix this."
+msgstr ""
+"无法打开 KDE 钱包管理器，您的密码将以明文形式存储，请安装 KWallet 以修复此问"
+"题。"
+
+#: libchoqok/ui/choqoktabbar.cpp:752
+msgid "Top"
+msgstr "顶部"
+
+#: libchoqok/ui/choqoktabbar.cpp:753
+msgid "Left"
+msgstr "左侧"
+
+#: libchoqok/ui/choqoktabbar.cpp:754
+msgid "Right"
+msgstr "右侧"
+
+#: libchoqok/ui/choqoktabbar.cpp:755
+msgid "Bottom"
+msgstr "底部"
+
+#: libchoqok/ui/choqoktabbar.cpp:756
+msgid "Small"
+msgstr "小"
+
+#: libchoqok/ui/choqoktabbar.cpp:757
+msgid "Medium"
+msgstr "中"
+
+#: libchoqok/ui/choqoktabbar.cpp:758
+msgid "Big"
+msgstr "大"
+
+#: libchoqok/ui/choqoktabbar.cpp:759
+msgid "Styled Panel"
+msgstr "面板使用样式"
+
+#: libchoqok/ui/choqoktextedit.cpp:60
+msgid ""
+"<strong>Note:</strong><br/><em>Ctrl+S</em> to enable/disable auto spell "
+"checker."
+msgstr "<strong>提示：</strong><br/>按下 <em>Ctrl+S</em> 可启用/禁用拼写检查。"
+
+#: libchoqok/ui/choqoktextedit.cpp:183
+msgid "Set spell check language"
+msgstr "设定拼写检查语言"
+
+#: libchoqok/ui/choqoktextedit.cpp:187
+msgctxt "Replace URLs by a shortened URL"
+msgid "Shorten URLs"
+msgstr "缩短 URL"
+
+#: libchoqok/ui/composerwidget.cpp:68
+msgid "Discard Reply"
+msgstr "丢弃回复"
+
+#: libchoqok/ui/composerwidget.cpp:108
+#, kde-format
+msgid "Replying to <b>%1</b>"
+msgstr "回复 <b>%1</b>"
+
+#: libchoqok/ui/composerwidget.cpp:135
+#: microblogs/laconica/laconicacomposerwidget.cpp:97
+#: microblogs/pumpio/pumpiocomposerwidget.cpp:95
+#: microblogs/twitter/twittercomposerwidget.cpp:97
+msgid "Abort"
+msgstr "中止"
+
+#: libchoqok/ui/microblogwidget.cpp:278
+#, fuzzy
+#| msgid "Mark all as read"
+msgid "Mark all timelines as read"
+msgstr "全部标记为已读"
+
+#: libchoqok/ui/microblogwidget.cpp:387
+msgid "More"
+msgstr "更多"
+
+#: libchoqok/ui/microblogwidget.cpp:389
+msgid "Latest update:"
+msgstr "上次更新："
+
+#: libchoqok/ui/postwidget.cpp:211
+msgctxt "@info:tooltip"
+msgid "Remove"
+msgstr "删除"
+
+#: libchoqok/ui/postwidget.cpp:218
+msgctxt "@info:tooltip"
+msgid "ReSend"
+msgstr "重发"
+
+#: libchoqok/ui/postwidget.cpp:469
+msgid "Just now"
+msgstr "刚刚"
+
+#: libchoqok/ui/postwidget.cpp:474
+#, kde-format
+msgid "1 sec ago"
+msgid_plural "%1 secs ago"
+msgstr[0] "%1 秒前"
+
+#: libchoqok/ui/postwidget.cpp:480
+#, kde-format
+msgid "1 min ago"
+msgid_plural "%1 mins ago"
+msgstr[0] "%1 分钟前"
+
+#: libchoqok/ui/postwidget.cpp:486
+#, kde-format
+msgid "1 hour ago"
+msgid_plural "%1 hours ago"
+msgstr[0] "%1 小时前"
+
+#: libchoqok/ui/postwidget.cpp:491
+#, kde-format
+msgid "1 day ago"
+msgid_plural "%1 days ago"
+msgstr[0] "%1 天前"
+
+#: libchoqok/ui/postwidget.cpp:496
+msgid "Are you sure you want to remove this post from the server?"
+msgstr "您确定要从服务器上删除此状态吗？"
+
+#: libchoqok/ui/quickpost.cpp:83
+msgctxt "Submit post"
+msgid "Submit"
+msgstr "提交"
+
+#: libchoqok/ui/quickpost.cpp:92
+#, fuzzy
+#| msgid "All"
+msgctxt "All accounts"
+msgid "All"
+msgstr "全部"
+
+#: libchoqok/ui/quickpost.cpp:96
+#: microblogs/laconica/laconicacomposerwidget.cpp:60
+#: microblogs/pumpio/pumpiocomposerwidget.cpp:60
+#: microblogs/twitter/twittercomposerwidget.cpp:60
+msgid "Attach a file"
+msgstr "附加文件"
+
+#: libchoqok/ui/quickpost.cpp:163
+msgid ""
+"Please configure at least one account to be included in \"Quick Post\".\n"
+"Settings -> Configure Choqok... -> Accounts"
+msgstr ""
+"请在“赶快吼吼”中配置为至少包含一个账户。\n"
+"设置 -> 配置 Choqok... -> 账户"
+
+#: libchoqok/ui/quickpost.cpp:276
+msgid ""
+"Link to uploaded medium will be added here after uploading process succeed."
+msgstr "所上传媒体的链接将在上传过程成功完成后添加于此。"
+
+#: libchoqok/ui/textbrowser.cpp:112
+#, fuzzy
+#| msgid "Copy"
+msgctxt "Copy text"
+msgid "Copy"
+msgstr "复制"
+
+#: libchoqok/ui/textbrowser.cpp:118
+msgid "Copy Link Location"
+msgstr "复制链接地址"
+
+#: libchoqok/ui/textbrowser.cpp:123
+#, fuzzy
+#| msgid "Select All"
+msgctxt "Select all text"
+msgid "Select All"
+msgstr "全部选中"
+
+#: libchoqok/ui/timelinewidget.cpp:232
+#, kde-format
+msgid "1 new post in %2(%3)"
+msgid_plural "%1 new posts in %2(%3)"
+msgstr[0] "%1 个新状态于 %2(%3)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libchoqok/ui/uploadmedia_base.ui:22
+msgid "Medium to upload:"
+msgstr "要上传的媒体："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libchoqok/ui/uploadmedia_base.ui:39
+msgid "Upload via:"
+msgstr "上传途径："
+
+#: libchoqok/ui/uploadmediadialog.cpp:61
+msgid "Upload Medium"
+msgstr "上传媒体"
+
+#: libchoqok/ui/uploadmediadialog.cpp:63
+msgid "Upload"
+msgstr "上传"
+
+#: libchoqok/ui/uploadmediadialog.cpp:113
+msgid "Uploading..."
+msgstr "正在上传..."
+
+#: libchoqok/ui/uploadmediadialog.cpp:247
+msgid "Medium uploading failed."
+msgstr "媒体上传失败。"
+
+#: microblogs/laconica/laconicacomposerwidget.cpp:134
+#: microblogs/pumpio/pumpiocomposerwidget.cpp:135
+#: microblogs/twitter/twittercomposerwidget.cpp:134
+msgid "Select Media to Upload"
+msgstr "选择要上传的媒体"
+
+#: microblogs/laconica/laconicacomposerwidget.cpp:143
+#: microblogs/pumpio/pumpiocomposerwidget.cpp:145
+#: microblogs/twitter/twittercomposerwidget.cpp:143
+msgid "Discard Attachment"
+msgstr "丢弃附件"
+
+#: microblogs/laconica/laconicacomposerwidget.cpp:150
+#: microblogs/pumpio/pumpiocomposerwidget.cpp:152
+#: microblogs/twitter/twittercomposerwidget.cpp:150
+#, kde-format
+msgid "Attaching <b>%1</b>"
+msgstr "附加 <b>%1</b>"
+
+#: microblogs/laconica/laconicaconversationtimelinewidget.cpp:34
+#, kde-format
+msgid "Conversation %1"
+msgstr "对话 %1"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabAccount)
+#: microblogs/laconica/laconicaeditaccount_base.ui:21
+msgid "StatusNet Account"
+msgstr "StatusNet 账户"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: microblogs/laconica/laconicaeditaccount_base.ui:29
+#: microblogs/ocs/ocsconfigurebase.ui:19
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:27
+#: microblogs/twitter/twittereditaccount_base.ui:27
+msgid "&Alias:"
+msgstr "别名(&A)："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_alias)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, cfg_alias)
+#: microblogs/laconica/laconicaeditaccount_base.ui:42
+#: microblogs/ocs/ocsconfigurebase.ui:32
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:40
+#: microblogs/twitter/twittereditaccount_base.ui:40
+msgid "The account alias"
+msgstr "账户别名"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_alias)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, cfg_alias)
+#: microblogs/laconica/laconicaeditaccount_base.ui:45
+#: microblogs/ocs/ocsconfigurebase.ui:35
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:43
+#: microblogs/twitter/twittereditaccount_base.ui:43
+msgid ""
+"The alias is the name you want to give to your account. It should be unique. "
+"You can have several connections to the same service so the alias lets you "
+"give them names."
+msgstr ""
+"别名即您想为您的账户给定的名称。别名应是唯一的。您可以用多个账户连接相同的服"
+"务，别名用于区分这些账户。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: microblogs/laconica/laconicaeditaccount_base.ui:62
+#: microblogs/ocs/ocsconfigurebase.ui:52
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:60
+#: microblogs/twitter/twittereditaccount_base.ui:60
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">Note:</span><span style=\" font-size:8pt;\"> "
+"The alias must be unique.</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">注意：</span><span style=\" font-size:8pt;\"> 别"
+"名必须唯一。</span></p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: microblogs/laconica/laconicaeditaccount_base.ui:77
+msgid "Server"
+msgstr "服务器"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: microblogs/laconica/laconicaeditaccount_base.ui:83
+msgid "API path:"
+msgstr "API 路径："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: microblogs/laconica/laconicaeditaccount_base.ui:103
+msgid "StatusNet server:"
+msgstr "StatusNet 服务器："
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_BasicBox)
+#: microblogs/laconica/laconicaeditaccount_base.ui:122
+msgid "Basic Authentication"
+msgstr "基本认证"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_basicUsername)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_basicPassword)
+#: microblogs/laconica/laconicaeditaccount_base.ui:128
+#: microblogs/laconica/laconicaeditaccount_base.ui:145
+msgid "The name you use to connect to the service"
+msgstr "您用来连接到服务的名称"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: microblogs/laconica/laconicaeditaccount_base.ui:135
+#: microblogs/twitter/twittereditaccount_base.ui:92
+#: plugins/shorteners/yourls/yourlsprefs.ui:47
+#: plugins/uploaders/posterous/posterousprefs.ui:74
+msgid "Password:"
+msgstr "密码："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: microblogs/laconica/laconicaeditaccount_base.ui:155
+#: microblogs/twitter/twittereditaccount_base.ui:79
+#: plugins/shorteners/yourls/yourlsprefs.ui:34
+msgid "Username:"
+msgstr "用户名："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabTimelines)
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: microblogs/laconica/laconicaeditaccount_base.ui:182
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:175
+#: microblogs/twitter/twittereditaccount_base.ui:178
+msgid "Timelines Configuration"
+msgstr "时间线配置"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: microblogs/laconica/laconicaeditaccount_base.ui:194
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:187
+#: microblogs/twitter/twittereditaccount_base.ui:190
+msgid "Which timelines do you like to be enabled?"
+msgstr "您想启用何种时间线？"
+
+#. i18n: ectx: property (text), widget (QTableWidget, timelinesTable)
+#: microblogs/laconica/laconicaeditaccount_base.ui:202
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:195
+#: microblogs/twitter/twittereditaccount_base.ui:198
+msgid "Name"
+msgstr "姓名"
+
+#. i18n: ectx: property (text), widget (QTableWidget, timelinesTable)
+#: microblogs/laconica/laconicaeditaccount_base.ui:207
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:200
+#: microblogs/twitter/twittereditaccount_base.ui:203
+msgid "Enable"
+msgstr "启用"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabConf)
+#: microblogs/laconica/laconicaeditaccount_base.ui:216
+msgid "Configuration"
+msgstr "配置"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_changeExclamationMark)
+#: microblogs/laconica/laconicaeditaccount_base.ui:224
+msgid ""
+"To prevent spamming on some groups, you can set here to change the "
+"exclamation point (that used to refer to a group), to something else (e.g. "
+"nothing.)"
+msgstr ""
+"您可以在这里修改惊叹号 (用于提及该组) 为其他标记 (例如设为空) 以防对一些群组"
+"造成骚扰"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_changeExclamationMark)
+#: microblogs/laconica/laconicaeditaccount_base.ui:227
+msgid "On re-dent, change exclamation mark to:"
+msgstr "在转发时将惊叹号换成："
+
+#. i18n: ectx: property (text), widget (KLineEdit, kcfg_changeToString)
+#: microblogs/laconica/laconicaeditaccount_base.ui:237
+msgid "#"
+msgstr "#"
+
+#: microblogs/laconica/laconicamicroblog.cpp:62
+msgctxt "Timeline name"
+msgid "Repeated"
+msgstr "转发"
+
+#: microblogs/laconica/laconicamicroblog.cpp:63
+msgctxt "Timeline description"
+msgid "Your posts that were repeated by others"
+msgstr "您被转发的状态"
+
+#: microblogs/laconica/laconicamicroblog.cpp:217
+#, kde-format
+msgid "Repeat of %1"
+msgstr "%1 的转发"
+
+#: microblogs/laconica/laconicamicroblog.cpp:219
+#, kde-format
+msgid "Repeated by %1"
+msgstr "转发自 %1"
+
+#: microblogs/laconica/laconicamicroblog.cpp:224
+msgid "Repeat this notice?"
+msgstr "转发此消息？"
+
+#: microblogs/laconica/laconicamicroblog.cpp:360
+#, kde-format
+msgid "Fetching conversation failed. %1"
+msgstr "获取对话失败。%1"
+
+#: microblogs/laconica/laconicapostwidget.cpp:84
+#: microblogs/twitter/twitterpostwidget.cpp:52
+msgid "Manual ReSend"
+msgstr "手动重发"
+
+#: microblogs/laconica/laconicapostwidget.cpp:86
+msgid "Repeat"
+msgstr "转发"
+
+#: microblogs/laconica/laconicapostwidget.cpp:87
+msgid "Repeat post using API"
+msgstr "使用 API 转发状态"
+
+#: microblogs/laconica/laconicapostwidget.cpp:151
+#, kde-format
+msgid "Search for %1"
+msgstr "搜索 %1"
+
+#: microblogs/laconica/laconicapostwidget.cpp:153
+msgid "Open tag page in browser"
+msgstr "在浏览器中打开标签页面"
+
+#: microblogs/laconica/laconicapostwidget.cpp:169
+msgid "Show latest group posts"
+msgstr "显示最新的群组状态"
+
+#: microblogs/laconica/laconicapostwidget.cpp:171
+msgid "Open group page in browser"
+msgstr "在浏览器中打开群组页面"
+
+#: microblogs/laconica/laconicapostwidget.cpp:188
+#: microblogs/twitter/twitterpostwidget.cpp:107
+#, kde-format
+msgctxt "Who is user"
+msgid "Who is %1"
+msgstr "%1 是谁"
+
+#: microblogs/laconica/laconicapostwidget.cpp:190
+#: microblogs/twitter/twitterpostwidget.cpp:109
+#, kde-format
+msgctxt "Posts from user"
+msgid "Posts from %1"
+msgstr "来自 %1 的状态"
+
+#: microblogs/laconica/laconicapostwidget.cpp:192
+#: microblogs/twitter/twitterpostwidget.cpp:111
+#, kde-format
+msgctxt "Replies to user"
+msgid "Replies to %1"
+msgstr "回复 %1"
+
+#: microblogs/laconica/laconicapostwidget.cpp:196
+#: microblogs/twitter/twitterpostwidget.cpp:119
+msgctxt "Open profile page in browser"
+msgid "Open profile in browser"
+msgstr "在浏览器中打开信息页"
+
+#: microblogs/laconica/laconicapostwidget.cpp:213
+#: microblogs/twitter/twitterpostwidget.cpp:136
+msgid "Actions"
+msgstr "动作"
+
+#: microblogs/laconica/laconicapostwidget.cpp:214
+#: microblogs/twitter/twitterpostwidget.cpp:137
+#, kde-format
+msgctxt "Write a message to user attention"
+msgid "Write to %1"
+msgstr "留言给 %1"
+
+#: microblogs/laconica/laconicapostwidget.cpp:219
+#: microblogs/twitter/twitterpostwidget.cpp:143
+#, kde-format
+msgctxt "Send direct message to user"
+msgid "Send private message to %1"
+msgstr "发送私信给 %1"
+
+#: microblogs/laconica/laconicapostwidget.cpp:225
+#, kde-format
+msgctxt "Unsubscribe from user"
+msgid "Unsubscribe from %1"
+msgstr "取消订阅 %1"
+
+#: microblogs/laconica/laconicapostwidget.cpp:230
+#, kde-format
+msgctxt "Subscribe to user"
+msgid "Subscribe to %1"
+msgstr "订阅 %1"
+
+#: microblogs/laconica/laconicapostwidget.cpp:234
+#: microblogs/twitter/twitterpostwidget.cpp:158
+#, kde-format
+msgctxt "Block user"
+msgid "Block %1"
+msgstr "屏蔽 %1"
+
+#: microblogs/laconica/laconicasearch.cpp:45
+msgctxt "Dents are Identica posts"
+msgid "Dents Including This Hashtag"
+msgstr "包含此标签的推文"
+
+#: microblogs/laconica/laconicasearch.cpp:48
+msgctxt "Dents are Identica posts"
+msgid "Dents Including This Group"
+msgstr "包含此小组的推文"
+
+#: microblogs/laconica/laconicasearch.cpp:51
+msgctxt "Dents are Identica posts"
+msgid "Dents From This User"
+msgstr "此用户的推文"
+
+#: microblogs/laconica/laconicasearch.cpp:54
+msgctxt "Dents are Identica posts"
+msgid "Dents To This User"
+msgstr "到此用户的推文"
+
+#: microblogs/laconica/laconicasearch.cpp:133
+#: microblogs/twitter/twittersearch.cpp:125
+msgid "Unable to fetch search results."
+msgstr "无法获取搜索结果。"
+
+#: microblogs/laconica/laconicasearch.cpp:141
+#: microblogs/twitter/twittersearch.cpp:133
+#, kde-format
+msgid "Unable to fetch search results: %1"
+msgstr "无法获取搜索结果：%1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: microblogs/ocs/ocsconfigurebase.ui:67
+msgid "Provider"
+msgstr "提供方"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: microblogs/ocs/ocsconfigurebase.ui:73
+msgid "Select a social desktop provider to use:"
+msgstr "选择要使用的社会化桌面提供方："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: microblogs/ocs/ocsconfigurebase.ui:83
+#, fuzzy
+#| msgid ""
+#| "You can manage Social Desktop providers in KDE Social Desktop "
+#| "configurations."
+msgid ""
+"You can manage Social Desktop providers in the KDE Social Desktop "
+"configuration."
+msgstr "您可以在 KDE 社会化桌面配置中管理社会化桌面提供方。"
+
+#: microblogs/ocs/ocsconfigurewidget.cpp:36
+msgid "Loading..."
+msgstr "正在装入..."
+
+#: microblogs/ocs/ocsconfigurewidget.cpp:65
+msgid "You have to wait for providers list to be loaded."
+msgstr "您得等候提供方列表装入完成。"
+
+#: microblogs/ocs/ocsmicroblog.cpp:153
+msgid "OCS plugin is not initialized yet. Try again later."
+msgstr "OCS 插件尚未初始化。请稍后重试。"
+
+#: microblogs/ocs/ocsmicroblog.cpp:186 microblogs/ocs/ocsmicroblog.cpp:193
+msgid "Not Supported"
+msgstr "不支持"
+
+#: microblogs/ocs/ocsmicroblog.cpp:259
+#: microblogs/pumpio/pumpiomicroblog.cpp:1186
+msgctxt "Timeline Name"
+msgid "Activity"
+msgstr "活动"
+
+#: microblogs/ocs/ocsmicroblog.cpp:260
+msgid "Social activities"
+msgstr "社会活动"
+
+#: microblogs/pumpio/pumpioeditaccountwidget.cpp:110
+#: microblogs/twitter/twittereditaccount.cpp:146
+msgid "PIN"
+msgstr "PIN"
+
+#: microblogs/pumpio/pumpioeditaccountwidget.cpp:111
+#, fuzzy, kde-format
+#| msgid "Enter the PIN received from Twitter:"
+msgid "Enter the verifier code received from %1"
+msgstr "输入来自 Twitter 的 PIN 号码："
+
+#: microblogs/pumpio/pumpioeditaccountwidget.cpp:124
+#: microblogs/twitter/twittereditaccount.cpp:163
+msgid "Choqok is authorized successfully."
+msgstr "Choqok 已成功获得授权。"
+
+#: microblogs/pumpio/pumpioeditaccountwidget.cpp:125
+#: microblogs/twitter/twittereditaccount.cpp:164
+msgid "Authorized"
+msgstr "已授权"
+
+#: microblogs/pumpio/pumpioeditaccountwidget.cpp:152
+#: microblogs/twitter/twittereditaccount.cpp:179
+msgid "Authenticated"
+msgstr "已认证"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabAccount)
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:21
+#, fuzzy
+#| msgid "Accounts"
+msgid "PumpIO Account"
+msgstr "账户"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_basicAuth)
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:73
+#: microblogs/twitter/twittereditaccount_base.ui:73
+msgid "Credentials"
+msgstr "身份"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:82
+msgid "Webfinger ID:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_credentialsBox)
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:98
+#: microblogs/twitter/twittereditaccount_base.ui:112
+msgid "OAuth Authentication"
+msgstr "OAuth 认证"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:110
+#, fuzzy
+#| msgid ""
+#| "Click the below button; if everything goes well, you will pointed to "
+#| "Twitter website to allow access to Choqok."
+msgid ""
+"Click the below button; if everything goes well, you will pointed to Pump.io "
+"website to allow access to Choqok."
+msgstr ""
+"点击下面的按钮，如果一切顺利，您将会转到 Twitter 网站以便允许 Choqok 的访问。"
+
+#. i18n: ectx: property (text), widget (QLabel, kcfg_authenticateStatus)
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:136
+#: microblogs/twitter/twittereditaccount.cpp:183
+msgid "Not Authenticated"
+msgstr "未认证"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, kcfg_authorize)
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:143
+#: microblogs/twitter/twittereditaccount_base.ui:151
+#, fuzzy
+#| msgid "Verify Credentials"
+msgid "Verify credentials"
+msgstr "验证身份"
+
+#. i18n: ectx: property (text), widget (KPushButton, kcfg_authorize)
+#: microblogs/pumpio/pumpioeditaccountwidget.ui:146
+#, fuzzy
+#| msgid "&Authenticate with Twitter service"
+msgid "&Authenticate with Pump.io Service"
+msgstr "认证 Twitter 服务(&A)"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, PumpIOMessageDialog)
+#: microblogs/pumpio/pumpiomessagedialog.ui:14
+msgid "Dialog"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: microblogs/pumpio/pumpiomessagedialog.ui:44
+#: microblogs/pumpio/pumpiopostwidget.cpp:98
+#, fuzzy
+#| msgctxt "Send message to"
+#| msgid "To:"
+msgid "To:"
+msgstr "至："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: microblogs/pumpio/pumpiomessagedialog.ui:69
+#: microblogs/pumpio/pumpiopostwidget.cpp:118
+msgid "CC:"
+msgstr ""
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:658
+#, fuzzy, kde-format
+#| msgid "Cannot remove the account."
+msgid "Cannot set/unset the post as favorite. %1"
+msgstr "无法删除账户。"
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:697
+#, fuzzy, kde-format
+#| msgid ""
+#| "Cannot create a short URL.\n"
+#| "%1"
+msgid "Cannot fetch post. %1"
+msgstr ""
+"无法创建短 URL。\n"
+"%1"
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:739
+#, kde-format
+msgid "Cannot fetch replies. %1"
+msgstr ""
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:763
+#, fuzzy, kde-format
+#| msgid "Friends list for account %1 has been updated."
+msgid "Following list for account %1 has been updated."
+msgstr "账户 %1 的好友列表已更新。"
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:786
+#, fuzzy, kde-format
+#| msgid "Cannot remove the account."
+msgid "Cannot retrieve the following list. %1"
+msgstr "无法删除账户。"
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:809
+#, fuzzy, kde-format
+#| msgid "Friends list for account %1 has been updated."
+msgid "Lists for account %1 has been updated."
+msgstr "账户 %1 的好友列表已更新。"
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:836
+#, fuzzy, kde-format
+#| msgid "Cannot remove the account."
+msgid "Cannot retrieve the lists. %1"
+msgstr "无法删除账户。"
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:858
+msgid "The post has been shared."
+msgstr ""
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:872
+#, fuzzy, kde-format
+#| msgid "Cannot remove the account."
+msgid "Cannot share the post. %1"
+msgstr "无法删除账户。"
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:899
+#, fuzzy
+#| msgid "New post submitted successfully"
+msgid "Post removed successfully"
+msgstr "成功提交新状态"
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:946
+msgid "An error occurred when updating the post"
+msgstr ""
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:965
+msgid "An error occurred when fetching the timeline"
+msgstr ""
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:1015
+msgid "An error occurred when uploading the media"
+msgstr ""
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:1187
+msgctxt "Timeline description"
+msgid "You and people you follow"
+msgstr ""
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:1193
+#, fuzzy
+#| msgctxt "Timeline Name"
+#| msgid "Favorite"
+msgctxt "Timeline Name"
+msgid "Favorites"
+msgstr "最爱"
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:1194
+#, fuzzy
+#| msgctxt "Timeline description"
+#| msgid "Your favorites"
+msgctxt "Timeline description"
+msgid "Posts you favorited"
+msgstr "您的最爱"
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:1201
+msgctxt "Timeline description"
+msgid "Posts sent to you"
+msgstr ""
+
+#: microblogs/pumpio/pumpiomicroblog.cpp:1208
+#, fuzzy
+#| msgid "Post Font:"
+msgctxt "Timeline description"
+msgid "Posts you sent"
+msgstr "状态字体："
+
+#. i18n: ectx: property (text), widget (QRadioButton, cfg_forpublic)
+#: microblogs/pumpio/pumpiopostwidget.cpp:102
+#: microblogs/pumpio/pumpiopostwidget.cpp:122
+#: plugins/uploaders/flickr/flickrprefs.ui:121
+msgid "Public"
+msgstr "公共"
+
+#: microblogs/pumpio/pumpiopostwidget.cpp:105
+#: microblogs/pumpio/pumpiopostwidget.cpp:125
+#, fuzzy
+#| msgctxt "User followers"
+#| msgid "Followers"
+msgid "Followers"
+msgstr "跟随者"
+
+#: microblogs/pumpio/pumpiopostwidget.cpp:107
+#: microblogs/pumpio/pumpiopostwidget.cpp:127
+#: microblogs/pumpio/pumpiopostwidget.cpp:142
+msgid "You"
+msgstr ""
+
+#: microblogs/pumpio/pumpiopostwidget.cpp:138
+msgid "Shared by:"
+msgstr ""
+
+#: microblogs/pumpio/pumpiopostwidget.cpp:152
+msgid "View replies"
+msgstr ""
+
+#: microblogs/pumpio/pumpiopostwidget.cpp:166
+msgctxt "@info:tooltip"
+msgid "Share"
+msgstr ""
+
+#: microblogs/pumpio/pumpiopostwidget.cpp:169
+msgctxt "@info:tooltip"
+msgid "Like"
+msgstr ""
+
+#: microblogs/pumpio/pumpioshowthread.cpp:49
+#, fuzzy, kde-format
+#| msgid "Choqok (%1)"
+msgctxt "Thread of specified user"
+msgid "Choqok: %1's thread"
+msgstr "Choqok (%1)"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PumpIOShowThread)
+#: microblogs/pumpio/pumpioshowthread.ui:14
+msgid "Thread"
+msgstr ""
+
+#: microblogs/twitter/twittereditaccount.cpp:147
+msgid "Enter the PIN received from Twitter:"
+msgstr "输入来自 Twitter 的 PIN 号码："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabAccount)
+#: microblogs/twitter/twittereditaccount_base.ui:21
+msgid "Twitter Account"
+msgstr "Twitter 账户"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: microblogs/twitter/twittereditaccount_base.ui:124
+msgid ""
+"Click the below button; if everything goes well, you will pointed to Twitter "
+"website to allow access to Choqok."
+msgstr ""
+"点击下面的按钮，如果一切顺利，您将会转到 Twitter 网站以便允许 Choqok 的访问。"
+
+#. i18n: ectx: property (text), widget (KPushButton, kcfg_authorize)
+#: microblogs/twitter/twittereditaccount_base.ui:154
+#, fuzzy
+#| msgid "&Authenticate with Twitter service"
+msgid "&Authenticate with Twitter Service"
+msgstr "认证 Twitter 服务(&A)"
+
+#: microblogs/twitter/twitterlistdialog.cpp:50
+msgid "Add List"
+msgstr "添加列表"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, btnAdd)
+#: microblogs/twitter/twitterlistdialog.cpp:61
+#: plugins/filter/filterprefs.ui:78
+msgid "Add"
+msgstr "添加"
+
+#: microblogs/twitter/twitterlistdialog.cpp:83
+msgid "You should provide both list author username and list name."
+msgstr "您应该同时提供列表作者用户名和列表名称。"
+
+#: microblogs/twitter/twitterlistdialog.cpp:107
+msgid "No user."
+msgstr "没有用户。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: microblogs/twitter/twitterlistdialog_base.ui:23
+msgid "List name:"
+msgstr "列表名称："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: microblogs/twitter/twitterlistdialog_base.ui:49
+msgid "User name:"
+msgstr "用户名："
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, loadUserLists)
+#: microblogs/twitter/twitterlistdialog_base.ui:75
+#, fuzzy
+#| msgid "Load User Lists"
+msgid "Load user lists"
+msgstr "装入用户列表"
+
+#. i18n: ectx: property (text), widget (KPushButton, loadUserLists)
+#: microblogs/twitter/twitterlistdialog_base.ui:78
+#, fuzzy
+#| msgid "Load lists"
+msgid "Load Lists"
+msgstr "装入列表"
+
+#: microblogs/twitter/twittermicroblog.cpp:74
+msgctxt "Timeline Name"
+msgid "Mentions"
+msgstr "提及"
+
+#: microblogs/twitter/twittermicroblog.cpp:75
+msgctxt "Timeline description"
+msgid "Mentions of you"
+msgstr "提及您的"
+
+#: microblogs/twitter/twittermicroblog.cpp:209
+#, kde-format
+msgid "Retweet of %1"
+msgstr "%1 的转发"
+
+#: microblogs/twitter/twittermicroblog.cpp:211
+#, kde-format
+msgid "Retweeted by %1"
+msgstr "转发自 %1"
+
+#: microblogs/twitter/twittermicroblog.cpp:216
+msgid "Retweet to your followers?"
+msgstr "转发给您的跟随者吗？"
+
+#: microblogs/twitter/twittermicroblog.cpp:223
+msgid "Add User List..."
+msgstr "添加用户列表..."
+
+#: microblogs/twitter/twittermicroblog.cpp:281
+#, kde-format
+msgid "Fetching %1's lists failed. %2"
+msgstr "获取 %1 的列表失败。%2"
+
+#: microblogs/twitter/twittermicroblog.cpp:291
+#, kde-format
+msgid "There is no list record for user %1"
+msgstr "没有用户 %1 的列表记录"
+
+#: microblogs/twitter/twitterpostwidget.cpp:54
+msgid "Retweet"
+msgstr "转发"
+
+#: microblogs/twitter/twitterpostwidget.cpp:55
+msgid "Retweet post using API"
+msgstr "使用 API 转发状态"
+
+#: microblogs/twitter/twitterpostwidget.cpp:114
+#, kde-format
+msgctxt "Including user name"
+msgid "Including %1"
+msgstr "群发 %1"
+
+#: microblogs/twitter/twitterpostwidget.cpp:149
+#, kde-format
+msgctxt "Unfollow user"
+msgid "Unfollow %1"
+msgstr "取消跟随 %1"
+
+#: microblogs/twitter/twitterpostwidget.cpp:154
+#, kde-format
+msgctxt "Follow user"
+msgid "Follow %1"
+msgstr "跟随 %1"
+
+#: microblogs/twitter/twittersearch.cpp:52
+msgctxt "Posts sent to user"
+msgid "To:"
+msgstr "至："
+
+#: microblogs/twitter/twittersearch.cpp:53
+msgctxt "Posts from user, Sent by user"
+msgid "From:"
+msgstr "来自 %1"
+
+#: microblogs/twitter/twittersearch.cpp:55
+msgid "Custom Search"
+msgstr "自定义搜索"
+
+#: microblogs/twitter/twittersearch.cpp:58
+msgctxt "Tweets are Twitter posts"
+msgid "Tweets To This User"
+msgstr "到此用户的推文"
+
+#: microblogs/twitter/twittersearch.cpp:61
+msgctxt "Tweets are Twitter posts"
+msgid "Tweets From This User"
+msgstr "来自此用户的推文"
+
+#: microblogs/twitter/twittersearch.cpp:64
+msgctxt "Tweets are Twitter posts"
+msgid "Tweets Including This Username"
+msgstr "包含此用户名的推文"
+
+#: microblogs/twitter/twittersearch.cpp:67
+msgctxt "Tweets are Twitter posts"
+msgid "Tweets Including This Hashtag"
+msgstr "包含此标签的推文"
+
+#: plugins/betternotify/dummynotification.cpp:47
+msgid "KDE Rocks! :)"
+msgstr "KDE 好棒！ :)"
+
+#: plugins/betternotify/dummynotification.cpp:47
+msgid "OK"
+msgstr "确定"
+
+#: plugins/betternotify/notification.cpp:94
+msgid "Ignore"
+msgstr "忽略"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: plugins/betternotify/notifyprefs.ui:29
+msgid "Foreground Color:"
+msgstr "前景色："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: plugins/betternotify/notifyprefs.ui:39
+msgid "Background Color:"
+msgstr "背景色："
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: plugins/betternotify/notifyprefs.ui:49
+msgid "Font:"
+msgstr "字体："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: plugins/betternotify/notifyprefs.ui:59
+msgid "Notify Interval:"
+msgstr "通知间隔："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: plugins/betternotify/notifyprefs.ui:78
+msgid "seconds"
+msgstr "秒"
+
+#. i18n: ectx: property (text), widget (KPushButton, adjustPosition)
+#: plugins/betternotify/notifyprefs.ui:123
+#, fuzzy
+#| msgid "Adjust notification's position"
+msgid "Adjust Notification's Position"
+msgstr "调整通知位置"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: plugins/betternotify/notifyprefs.ui:159
+msgid "Timeline Selection"
+msgstr "时间线选择"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/betternotify/notifyprefs.ui:171
+msgid "Select Timelines"
+msgstr "选择时间线"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/betternotify/notifyprefs.ui:181
+msgid "Accounts"
+msgstr "账户"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/betternotify/notifyprefs.ui:226
+msgid "Select timelines you wish to see notifications for their new posts:"
+msgstr "选择您愿获得新状态通知的时间线："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: plugins/betternotify/notifyprefs.ui:249
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Note:</span> Any "
+"change, needs plugin re-load (disable/enable) to take effect.</p></body></"
+"html>"
+msgstr ""
+"<html><head/><body><p><span style=\" font-weight:600;\">注意：</span> 任何修"
+"改 (启用或禁用) 都需要重新载入插件才能生效。</p></body></html>"
+
+#: plugins/filter/addeditfilter.cpp:43
+msgid "Define new filter rules"
+msgstr "定义新过滤规则"
+
+#: plugins/filter/addeditfilter.cpp:53
+msgid "Modify filter rules"
+msgstr "修改过滤规则"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/filter/addeditfilter_base.ui:20
+#, fuzzy
+#| msgid "Filter &Field:"
+msgid "Filter &field:"
+msgstr "过滤字段(&F)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/filter/addeditfilter_base.ui:33
+#, fuzzy
+#| msgid "Filter &Type:"
+msgid "Filter &type:"
+msgstr "过滤类型(&T)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/filter/addeditfilter_base.ui:46
+msgid "&Text:"
+msgstr "文本(&T)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: plugins/filter/addeditfilter_base.ui:59
+#, fuzzy
+#| msgid "Filter Action:"
+msgid "Filter action:"
+msgstr "过滤动作："
+
+#. i18n: ectx: property (text), widget (QCheckBox, dontHideReplies)
+#: plugins/filter/addeditfilter_base.ui:69
+msgid "Do not hide replies to me"
+msgstr "不隐藏回复我的状态"
+
+#: plugins/filter/configurefilters.cpp:43
+msgid "Configure Filters"
+msgstr "配置过滤器"
+
+#: plugins/filter/filtermanager.cpp:48
+msgid "Configure Filters..."
+msgstr "配置过滤器..."
+
+#: plugins/filter/filtermanager.cpp:56
+msgid "Hide Post"
+msgstr "隐藏推文"
+
+#: plugins/filter/filtermanager.cpp:229
+#, fuzzy, kde-format
+#| msgid "Hide all posts from <b>@%1</b>"
+msgid "Hide all posts from <b>@%1</b>?"
+msgstr "隐藏来自 <b>@%1</b> 的全部状态"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: plugins/filter/filterprefs.ui:21
+msgid "Rules"
+msgstr "规则"
+
+#. i18n: ectx: property (text), widget (QTableWidget, filters)
+#: plugins/filter/filterprefs.ui:40
+msgid "Field"
+msgstr "字段"
+
+#. i18n: ectx: property (text), widget (QTableWidget, filters)
+#: plugins/filter/filterprefs.ui:45
+msgid "Type"
+msgstr "类型"
+
+#. i18n: ectx: property (text), widget (QTableWidget, filters)
+#: plugins/filter/filterprefs.ui:50
+msgid "Filter"
+msgstr "过滤器"
+
+#. i18n: ectx: property (text), widget (QTableWidget, filters)
+#: plugins/filter/filterprefs.ui:55
+msgid "Action"
+msgstr "动作"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, btnEdit)
+#: plugins/filter/filterprefs.ui:85
+msgid "Modify"
+msgstr "修改"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, btnRemove)
+#: plugins/filter/filterprefs.ui:105
+msgid "Remove"
+msgstr "删除"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabSpecial)
+#: plugins/filter/filterprefs.ui:115
+msgid "Special Rules"
+msgstr "特殊规则"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cfg_hideRepliesNotRelatedToMe)
+#: plugins/filter/filterprefs.ui:121
+msgid "You will see just replies came to you, or mentions you."
+msgstr "您将只看到回复您和提及您的状态。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cfg_hideRepliesNotRelatedToMe)
+#: plugins/filter/filterprefs.ui:124
+#, fuzzy
+#| msgid "Just show replies to me."
+msgid "Just show replies to me"
+msgstr "只显示回复我的状态。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cfg_hideNoneFriendsReplies)
+#: plugins/filter/filterprefs.ui:131
+msgid "You will see just replies between your friends."
+msgstr "您将只看到与您好友间的回复。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cfg_hideNoneFriendsReplies)
+#: plugins/filter/filterprefs.ui:134
+#, fuzzy
+#| msgid "Just show replies to me and my friends."
+msgid "Just show replies to me and my friends"
+msgstr "只显示我和好友的回复。"
+
+#: plugins/filter/filtersettings.cpp:47
+msgid "Author Username"
+msgstr "作者用户名"
+
+#: plugins/filter/filtersettings.cpp:48
+msgid "Post Text"
+msgstr "状态文本"
+
+#: plugins/filter/filtersettings.cpp:49
+msgid "Author Client"
+msgstr "作者客户端"
+
+#: plugins/filter/filtersettings.cpp:50
+msgid "Reply to User"
+msgstr "回复用户"
+
+#: plugins/filter/filtersettings.cpp:52
+msgid "Contain"
+msgstr "包含"
+
+#: plugins/filter/filtersettings.cpp:53
+msgid "Does Not Contain"
+msgstr "不包含"
+
+#: plugins/filter/filtersettings.cpp:54
+msgid "Exact Match"
+msgstr "精确匹配"
+
+#: plugins/filter/filtersettings.cpp:55
+msgid "Regular Expression"
+msgstr "正则表达式"
+
+#: plugins/filter/filtersettings.cpp:57
+msgid "Hide Posts"
+msgstr "隐藏推文"
+
+#: plugins/filter/filtersettings.cpp:58
+msgid "Highlight Posts"
+msgstr "高亮推文"
+
+#. i18n: ectx: property (text), widget (QLabel, label_im)
+#: plugins/imstatus/imstatusprefs.ui:19
+msgid "Instant Messenger:"
+msgstr "即时通讯："
+
+#. i18n: ectx: property (text), widget (QCheckBox, cfg_reply)
+#: plugins/imstatus/imstatusprefs.ui:31
+msgid "Add replies to status"
+msgstr "将回复添加到状态"
+
+#. i18n: ectx: property (text), widget (QLabel, label_status_templ)
+#: plugins/imstatus/imstatusprefs.ui:38
+msgid "Status template"
+msgstr "状态模板"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/imstatus/imstatusprefs.ui:64
+#, no-c-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-"
+"bottom:4px; margin-left:4px; margin-right:4px;\">\n"
+"<tr>\n"
+"<td style=\"border: none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">Available markup:</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">%status%</span><span style=\" font-size:8pt;\"> "
+"- new status</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">%time%</span><span style=\" font-size:8pt;\"> - "
+"time of adding new status</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">%url%</span><span style=\" font-size:8pt;\"> - "
+"URL of new status</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">%username%</span><span style=\" font-size:8pt;"
+"\"> - your username</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">%fullname%</span><span style=\" font-size:8pt;"
+"\"> - your full name</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">%client%</span><span style=\" font-size:8pt;\"> "
+"- add </span><span style=\" font-size:8pt; font-style:italic;\">Choqok</"
+"span><span style=\" font-size:8pt;\"> to status</span></p></td></tr></"
+"table></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-"
+"bottom:4px; margin-left:4px; margin-right:4px;\">\n"
+"<tr>\n"
+"<td style=\"border: none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt;\">可用的标记：</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">%status%</span><span style=\" font-size:8pt;\"> "
+"- 新状态</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">%time%</span><span style=\" font-size:8pt;\"> - "
+"添加新状态的时间</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">%url%</span><span style=\" font-size:8pt;\"> - "
+"新状态的 URL</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">%username%</span><span style=\" font-size:8pt;"
+"\"> - 您的用户名</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">%fullname%</span><span style=\" font-size:8pt;"
+"\"> - 您的全名</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:8pt; font-weight:600;\">%client%</span><span style=\" font-size:8pt;\"> "
+"- 将 </span><span style=\" font-size:8pt; font-style:italic;\">Choqok</"
+"span><span style=\" font-size:8pt;\"> 添加至状态</span></p></td></tr></"
+"table></body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cfg_repeat)
+#: plugins/imstatus/imstatusprefs.ui:87
+msgid "Add repeats to status"
+msgstr "将转发添加到状态"
+
+#: plugins/konqueror/konqchoqok.cpp:54 plugins/konqueror/konqchoqok.cpp:117
+msgid "Post Text with Choqok"
+msgstr "用 Choqok 发布状态"
+
+#: plugins/konqueror/konqchoqok.cpp:59
+msgid "Shorten URL on Paste"
+msgstr "粘贴时缩短 URL"
+
+#: plugins/konqueror/konqchoqok.cpp:116
+msgid "You need to select text to post."
+msgstr "您需要选择要发布的文本。"
+
+#. i18n: ectx: Menu (tools)
+#: plugins/konqueror/konqchoqok.rc:4
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#: plugins/nowlistening/nowlistening.cpp:46
+msgid "Now Listening"
+msgstr "正在收听"
+
+#: plugins/nowlistening/nowlistening.cpp:242
+msgctxt "Player is running, But it's not playing."
+msgid "Play your desired music player."
+msgstr "用您首选的音乐播放器开始播放音乐。"
+
+#: plugins/nowlistening/nowlistening.cpp:245
+msgid "No supported player found."
+msgstr "未找到支持的播放器。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: plugins/nowlistening/nowlisteningprefs.ui:17
+msgid "Valid metadata:"
+msgstr "有效元数据："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/nowlistening/nowlisteningprefs.ui:51
+msgid "Template:"
+msgstr "模板："
+
+#: plugins/quickfilter/quickfilter.cpp:50
+msgid "Filter by author"
+msgstr "按作者过滤"
+
+#: plugins/quickfilter/quickfilter.cpp:52
+msgid "Filter by content"
+msgstr "按内容过滤"
+
+#: plugins/quickfilter/quickfilter.cpp:112
+msgid "Filter out timeline by author"
+msgstr "按作者过滤时间线"
+
+#: plugins/quickfilter/quickfilter.cpp:114
+msgid "Filter out timeline by text"
+msgstr "按文本过滤时间线"
+
+#: plugins/quickfilter/quickfilter.cpp:127
+msgid "Author"
+msgstr "作者"
+
+#: plugins/quickfilter/quickfilter.cpp:128
+msgid "Text"
+msgstr "文本"
+
+#: plugins/searchaction/searchaction.cpp:61
+msgid "The Search action plugin does not support the current microblog."
+msgstr "搜索动作插件不支持当前微博客。"
+
+#: plugins/shorteners/bit_ly/bit_ly.cpp:83
+msgid "API key is invalid"
+msgstr "API 密钥无效"
+
+#: plugins/shorteners/bit_ly/bit_ly.cpp:85
+msgid "Login is invalid"
+msgstr "登录名无效"
+
+#: plugins/shorteners/bit_ly/bit_ly.cpp:87
+msgid "Rate limit exceeded. Try another shortener."
+msgstr "超出访问次数限制。请尝试其它缩短器。"
+
+#: plugins/shorteners/bit_ly/bit_ly.cpp:89
+#: plugins/shorteners/bit_ly/bit_ly.cpp:92
+#, fuzzy
+#| msgid "bit.ly error"
+msgid "bit.ly Error"
+msgstr "bit.ly 错误"
+
+#: plugins/shorteners/bit_ly/bit_ly_config.cpp:60
+msgid ""
+"You can find your API key <a href=\"http://bit.ly/a/your_api_key\">here</a>"
+msgstr ""
+"您可以<a href=\"http://bit.ly/a/your_api_key\">在此</a>找到您的 API 密钥"
+
+#: plugins/shorteners/bit_ly/bit_ly_config.cpp:106
+msgid "Checking..."
+msgstr "正在检查..."
+
+#: plugins/shorteners/bit_ly/bit_ly_config.cpp:127
+msgid ""
+"Provided data is invalid. Try another login or API key.\n"
+"You can find it on http://bit.ly/a/your_api_key"
+msgstr ""
+"提供的数据无效。请尝试其它登录名或 API 密钥。\n"
+"您可以在 http://bit.ly/a/your_api_key 找到密钥"
+
+#: plugins/shorteners/bit_ly/bit_ly_config.cpp:129
+msgid "You entered valid information."
+msgstr "您输入了有效的信息。"
+
+#: plugins/shorteners/bit_ly/bit_ly_config.cpp:132
+#, fuzzy
+#| msgid "bit.ly config error"
+msgid "bit.ly Config Error"
+msgstr "bit.ly 配置错误"
+
+#. i18n: ectx: property (text), widget (QPushButton, validate_button)
+#: plugins/shorteners/bit_ly/bit_ly_config.cpp:136
+#: plugins/shorteners/bit_ly/bit_ly_prefs.ui:49
+msgid "Validate"
+msgstr "验证"
+
+#. i18n: ectx: property (text), widget (QLabel, login)
+#: plugins/shorteners/bit_ly/bit_ly_prefs.ui:19
+#, fuzzy
+#| msgid "Bit.ly Login:"
+msgid "Bit.ly login:"
+msgstr "Bit.ly 登录名："
+
+#. i18n: ectx: property (text), widget (QLabel, api_key)
+#: plugins/shorteners/bit_ly/bit_ly_prefs.ui:32
+#, fuzzy
+#| msgid "Bit.ly API Key:"
+msgid "Bit.ly API key:"
+msgstr "Bit.ly API 密钥："
+
+#. i18n: ectx: property (text), widget (QLabel, help_label)
+#: plugins/shorteners/bit_ly/bit_ly_prefs.ui:58
+msgid "You can find your API key here"
+msgstr "您可在此找到您的 API 密钥"
+
+#. i18n: ectx: property (text), widget (QLabel, domain)
+#: plugins/shorteners/bit_ly/bit_ly_prefs.ui:73
+msgid "Domain:"
+msgstr "域："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/shorteners/bit_ly/bit_ly_prefs.ui:86
+msgid "(No matter for Bit.ly Pro accounts)"
+msgstr "(无论是否是 Bit.ly 高级账户)"
+
+#: plugins/shorteners/goo_gl/goo_gl.cpp:61
+msgid "Error when creating job"
+msgstr "创建任务出错"
+
+#: plugins/shorteners/goo_gl/goo_gl.cpp:61
+#: plugins/shorteners/goo_gl/goo_gl.cpp:75
+#: plugins/shorteners/goo_gl/goo_gl.cpp:80
+#: plugins/shorteners/goo_gl/goo_gl.cpp:82
+#, fuzzy
+#| msgid "Goo.gl error"
+msgid "Goo.gl Error"
+msgstr "Goo.gl 错误"
+
+#: plugins/shorteners/goo_gl/goo_gl.cpp:80
+#: plugins/shorteners/is_gd/is_gd.cpp:83
+#: plugins/uploaders/flickr/flickr.cpp:206
+#: plugins/uploaders/flickr/flickr.cpp:212
+#: plugins/uploaders/flickr/flickrconfig.cpp:172
+#: plugins/uploaders/flickr/flickrconfig.cpp:177
+#: plugins/uploaders/flickr/flickrconfig.cpp:243
+#: plugins/uploaders/flickr/flickrconfig.cpp:248
+#: plugins/uploaders/imageshack/imageshack.cpp:130
+#: plugins/uploaders/mobypicture/mobypicture.cpp:169
+#: plugins/uploaders/posterous/posterous.cpp:196
+#: plugins/uploaders/twitgoo/twitgoo.cpp:131
+#: plugins/uploaders/twitpic/twitpic.cpp:130
+msgid "Malformed response"
+msgstr "不正确的响应"
+
+#: plugins/shorteners/goo_gl/goo_gl.cpp:82
+#: plugins/shorteners/is_gd/is_gd.cpp:87
+#: plugins/shorteners/three_ly/three_ly.cpp:68
+#: plugins/shorteners/tinyarro_ws/tinyarro_ws.cpp:75
+#: plugins/shorteners/yourls/yourls.cpp:94
+#, kde-format
+msgid ""
+"Cannot create a short URL.\n"
+"%1"
+msgstr ""
+"无法创建短 URL。\n"
+"%1"
+
+#: plugins/shorteners/is_gd/is_gd.cpp:75 plugins/shorteners/is_gd/is_gd.cpp:83
+#: plugins/shorteners/is_gd/is_gd.cpp:87
+#, fuzzy
+#| msgid "is.gd error"
+msgid "is.gd Error"
+msgstr "is.gd 错误"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_logstats)
+#: plugins/shorteners/is_gd/is_gd_prefs.ui:19
+msgid "Generate Statistics"
+msgstr "生成统计"
+
+#: plugins/shorteners/three_ly/three_ly.cpp:65
+#: plugins/shorteners/three_ly/three_ly.cpp:68
+#, fuzzy
+#| msgid "3.ly error"
+msgid "3.ly Error"
+msgstr "3.ly 错误"
+
+#: plugins/shorteners/tinyarro_ws/tinyarro_ws.cpp:73
+msgid "Tinyarro.ws error"
+msgstr "Tinyarro.ws 错误"
+
+#: plugins/shorteners/tinyarro_ws/tinyarro_ws_config.cpp:59
+msgid "Random host"
+msgstr "随机主机"
+
+#. i18n: ectx: property (text), widget (QLabel, urlHostLabel)
+#: plugins/shorteners/tinyarro_ws/tinyarro_ws_prefs.ui:40
+msgid "Shortener URL host:"
+msgstr "URL 缩短器主机："
+
+#: plugins/shorteners/yourls/yourls.cpp:89
+msgid "Yourls Error"
+msgstr "Yourls 错误"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/shorteners/yourls/yourlsprefs.ui:17
+msgid "Yourls API URL:"
+msgstr "Yourls API URL："
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, kcfg_yourlsHost)
+#: plugins/shorteners/yourls/yourlsprefs.ui:27
+msgid "http://SomeDomain.com/yourls/yourls-api.php"
+msgstr "http://SomeDomain.com/yourls/yourls-api.php"
+
+#: plugins/translator/sharedtools.cpp:33
+msgctxt "Translation Language"
+msgid "Chinese Simplified"
+msgstr "简体中文"
+
+#: plugins/translator/sharedtools.cpp:34
+msgctxt "Translation Language"
+msgid "Chinese Traditional"
+msgstr "繁体中文"
+
+#: plugins/translator/sharedtools.cpp:35
+msgctxt "Translation Language"
+msgid "Filipino"
+msgstr "菲律宾语"
+
+#: plugins/translator/sharedtools.cpp:36
+msgctxt "Translation Language"
+msgid "Haitian Creole"
+msgstr "海地克里奥尔语"
+
+#: plugins/translator/sharedtools.cpp:37
+msgctxt "Translation Language"
+msgid "Hebrew"
+msgstr "希伯来语"
+
+#: plugins/translator/sharedtools.cpp:38
+msgctxt "Translation Language"
+msgid "Norwegian"
+msgstr "挪威语"
+
+#: plugins/translator/translator.cpp:54
+#, fuzzy
+#| msgid "Translate to ..."
+msgid "Translate to..."
+msgstr "翻译为..."
+
+#: plugins/translator/translator.cpp:106
+#, kde-format
+msgid ""
+"<span style=\"color:%2; font-size:small;\">Translated from %1: (<a "
+"href='choqok://showoriginalpost' style=\"text-decoration:none\" >original "
+"post</a>)</span>"
+msgstr ""
+"<span style=\"color:%2; font-size:small;\">翻译自 %1：(<a href='choqok://"
+"showoriginalpost' style=\"text-decoration:none\" >原状态</a>)</span>"
+
+#: plugins/translator/translator.cpp:117
+#, kde-format
+msgid "Translation failed: %1"
+msgstr "翻译失败：%1"
+
+#: plugins/translator/translator.cpp:136
+msgid "Configure Translator"
+msgstr "配置翻译者"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/translator/translatorprefs.ui:17
+msgid "Select languages to be shown in translate menu"
+msgstr "选择要显示在翻译菜单中的语言"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useUntinyDotCom)
+#: plugins/untiny/untinyprefs.ui:17
+msgid "Use untiny.com service"
+msgstr "使用 untiny.com 服务"
+
+#: plugins/uploaders/flickr/flickr.cpp:170
+msgid "The photo required argument was missing"
+msgstr "缺少照片所需参数"
+
+#: plugins/uploaders/flickr/flickr.cpp:173
+msgid "The file was not correctly uploaded"
+msgstr "文件未正确上传"
+
+#: plugins/uploaders/flickr/flickr.cpp:176
+msgid "The file was zero bytes in length"
+msgstr "文件长度为零"
+
+#: plugins/uploaders/flickr/flickr.cpp:179
+msgid "Filetype was not recognised"
+msgstr "不可识别的文件类型"
+
+#: plugins/uploaders/flickr/flickr.cpp:182
+msgid "The calling user has reached their monthly bandwidth limit"
+msgstr "调用者已达到其每月的带宽上限"
+
+#: plugins/uploaders/flickr/flickr.cpp:186
+#: plugins/uploaders/flickr/flickrconfig.cpp:161
+msgid "Signature problem. Please try again later"
+msgstr "签名问题。请稍后重试"
+
+#: plugins/uploaders/flickr/flickr.cpp:193
+msgid "Login failed. Please re-authenticate Choqok"
+msgstr "登录失败。请重新认证 Choqol"
+
+#: plugins/uploaders/flickr/flickr.cpp:196
+#: plugins/uploaders/flickr/flickrconfig.cpp:164
+#: plugins/uploaders/flickr/flickrconfig.cpp:235
+msgid "The requested service is temporarily unavailable. Try again later"
+msgstr "请求的服务暂时不可用。请稍后重试"
+
+#: plugins/uploaders/flickr/flickr.cpp:199
+#: plugins/uploaders/flickr/flickrconfig.cpp:167
+#, kde-format
+msgid "Unknown Error: %1. Please try again later"
+msgstr "未知错误：%1。请稍后重试"
+
+#: plugins/uploaders/flickr/flickrconfig.cpp:183
+#: plugins/uploaders/flickr/flickrconfig.cpp:255
+msgid "Flickr authorization"
+msgstr "Flickr 授权"
+
+#: plugins/uploaders/flickr/flickrconfig.cpp:232
+msgid "Something happens with signature. Please retry"
+msgstr "签名有些问题。请重试"
+
+#: plugins/uploaders/flickr/flickrconfig.cpp:238
+#, kde-format
+msgid "Something happens wrong. Error %1. Try again later"
+msgstr "发生某些错误。错误 %1。请稍后重试"
+
+#: plugins/uploaders/flickr/flickrconfig.cpp:275
+#, kde-format
+msgid "Authorized as %1"
+msgstr "授权为 %1"
+
+#: plugins/uploaders/flickr/flickrconfig.cpp:281
+msgid "Not authorized"
+msgstr "未授权"
+
+#: plugins/uploaders/flickr/flickrconfig.cpp:296
+msgid "Click here when you authorized Choqok"
+msgstr "点击此处以授权 Choqok"
+
+#. i18n: ectx: attribute (title), widget (QWidget, authTab)
+#: plugins/uploaders/flickr/flickrprefs.ui:24
+msgid "Authorization"
+msgstr "授权"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/uploaders/flickr/flickrprefs.ui:51
+msgid ""
+"Click the below button; if everything goes well, you will pointed to Flickr."
+"com website to allow access to Choqok."
+msgstr ""
+"点击下面的按钮，如果一切顺利，您将会转到 Flickr.com 网站以便允许 Choqok 的访"
+"问。"
+
+#. i18n: ectx: property (text), widget (QPushButton, authButton)
+#: plugins/uploaders/flickr/flickrprefs.ui:61
+msgid "Click here to authorize Choqok on Flickr.com"
+msgstr "点击此处在 Flickr.com 上授权 Choqok"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: plugins/uploaders/flickr/flickrprefs.ui:90
+msgid "Who can view photo"
+msgstr "谁能查看照片"
+
+#. i18n: ectx: property (text), widget (QRadioButton, cfg_forprivate)
+#: plugins/uploaders/flickr/flickrprefs.ui:96
+msgid "Private"
+msgstr "私人"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cfg_forfriends)
+#: plugins/uploaders/flickr/flickrprefs.ui:105
+msgid "Visible for friends"
+msgstr "好友可见"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cfg_forfamily)
+#: plugins/uploaders/flickr/flickrprefs.ui:112
+msgid "Visible for family"
+msgstr "家人可见"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: plugins/uploaders/flickr/flickrprefs.ui:134
+msgid "Set safety level"
+msgstr "设定安全等级"
+
+#. i18n: ectx: property (text), widget (QRadioButton, cfg_safe)
+#: plugins/uploaders/flickr/flickrprefs.ui:140
+msgid "Safe"
+msgstr "安全"
+
+#. i18n: ectx: property (text), widget (QRadioButton, cfg_moderate)
+#: plugins/uploaders/flickr/flickrprefs.ui:150
+msgid "Moderate"
+msgstr "适度"
+
+#. i18n: ectx: property (text), widget (QRadioButton, cfg_restricted)
+#: plugins/uploaders/flickr/flickrprefs.ui:157
+msgid "Restricted"
+msgstr "严格"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cfg_hidefromsearch)
+#: plugins/uploaders/flickr/flickrprefs.ui:169
+msgid "Hide picture from public search"
+msgstr "在公共搜索中隐藏图片"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cfg_shorturl)
+#: plugins/uploaders/flickr/flickrprefs.ui:176
+msgid "Use Flic.kr to short URLs"
+msgstr "使用 Flic.kr 缩短 URL"
+
+#: plugins/uploaders/imageshack/imageshack.cpp:55
+msgid "Just supporting image uploading"
+msgstr "只支持图像上传"
+
+#: plugins/uploaders/mobypicture/mobypicture.cpp:65
+#: plugins/uploaders/posterous/posterous.cpp:124
+#: plugins/uploaders/twitgoo/twitgoo.cpp:62
+#: plugins/uploaders/twitpic/twitpic.cpp:62
+msgid "There is no Twitter account configured to use."
+msgstr "没有配置要使用的 Twitter 账户。"
+
+#: plugins/uploaders/mobypicture/mobypictureconfig.cpp:87
+#: plugins/uploaders/posterous/posterousconfig.cpp:87
+#: plugins/uploaders/twitgoo/twitgooconfig.cpp:77
+#: plugins/uploaders/twitpic/twitpicconfig.cpp:77
+#, fuzzy
+#| msgid ""
+#| "You have to configure at least one twitter account to use this plugin."
+msgid "You have to configure at least one Twitter account to use this plugin."
+msgstr "您得配置至少一个 twitter 账户以便使用此插件。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, cfg_oauth)
+#: plugins/uploaders/mobypicture/mobypictureprefs.ui:40
+#: plugins/uploaders/posterous/posterousprefs.ui:40
+msgid "Twitter account"
+msgstr "Twitter 账户"
+
+#. i18n: ectx: property (text), widget (QRadioButton, cfg_basic)
+#: plugins/uploaders/mobypicture/mobypictureprefs.ui:47
+msgid "Mobypicture login and password:"
+msgstr "Mobypicture 登录名和密码："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/uploaders/mobypicture/mobypictureprefs.ui:57
+#: plugins/uploaders/posterous/posterousprefs.ui:57
+msgid "Upload files using:"
+msgstr "上传文件途径："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/uploaders/mobypicture/mobypictureprefs.ui:64
+msgid "Login:"
+msgstr "登录名："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/uploaders/mobypicture/mobypictureprefs.ui:74
+msgid "Password (PIN):"
+msgstr "密码(PIN)："
+
+#. i18n: ectx: property (text), widget (QRadioButton, cfg_basic)
+#: plugins/uploaders/posterous/posterousprefs.ui:47
+msgid "Posterous login and password:"
+msgstr "Posterous 登录名和密码："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/uploaders/posterous/posterousprefs.ui:64
+msgid "E-mail:"
+msgstr "电子邮件："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/uploaders/twitgoo/twitgooprefs.ui:17
+#: plugins/uploaders/twitpic/twitpicprefs.ui:17
+msgid "Twitter account:"
+msgstr "Twitter 账户："
+
+#. i18n: ectx: property (text), widget (QCheckBox, cfg_directLink)
+#: plugins/uploaders/twitgoo/twitgooprefs.ui:50
+msgid "Get direct link to file"
+msgstr "获取文件的直接链接"
+
+#~ msgid "Malformed response\n"
+#~ msgstr "不正确的响应\n"
+
+#~ msgid ""
+#~ "Sorry, OAuth Method just works with Identi.ca server. You have to use "
+#~ "basic authentication for other StatusNet servers."
+#~ msgstr ""
+#~ "抱歉！OAuth 方式只能与 Identi.ca 服务器工作。您得为其它 StatusNet 服务器采"
+#~ "用基本认证方式。"
+
+#~ msgid "Authentication Error"
+#~ msgstr "认证错误"
+
+#~ msgid "Security code"
+#~ msgstr "安全码"
+
+#~ msgctxt "Security code recieved from StatusNet"
+#~ msgid "Enter security code:"
+#~ msgstr "在此输入安全码："
+
+#~ msgid "Authentication Type:"
+#~ msgstr "认证方式："
+
+#~ msgid "&Username:"
+#~ msgstr "用户名(&U)："
+
+#~ msgid ""
+#~ "Click the below button; if everything goes well, you will pointed to "
+#~ "Identi.ca website to allow access to Choqok."
+#~ msgstr ""
+#~ "点击下面的按钮，如果一切顺利，您将会转到 Identi.ca 网站以便允许 Choqok 的"
+#~ "访问。"
+
+#~ msgid "&Authenticate with StatusNet service"
+#~ msgstr "认证 StatusNet 服务(&A)"
+
+#~ msgid "&Password:"
+#~ msgstr "密码(&P)："
+
+#~ msgid "No User!"
+#~ msgstr "没有用户！"
+
+#~ msgid "Shorten Url on Paste"
+#~ msgstr "缩短张贴的 URL"
+
+#~ msgid "OAuth Authentication "
+#~ msgstr "OAuth 认证"
+
+#~ msgid "Ignore notifications"
+#~ msgstr "忽略通知"
+
+#~ msgctxt "Close a timeline"
+#~ msgid "Close Timeline"
+#~ msgstr "关闭时间线"
+
+#~ msgid "<a href='%1'>in context</a>"
+#~ msgstr "<a href='%1'>于上下文</a>"
+
+#~ msgid "PIN number"
+#~ msgstr "PIN 号码"
+
+#~ msgid "Unauthorized Error"
+#~ msgstr "未授权错误"

@@ -1,0 +1,144 @@
+# translation of plasma_applet_rssnow.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_rssnow\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:43+0200\n"
+"PO-Revision-Date: 2009-05-10 13:04+0000\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config.ui:26
+msgid "Appearance"
+msgstr "外观"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: config.ui:33
+msgid "Show drop target:"
+msgstr "显示放入目标："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: config.ui:66
+msgid "Show logo:"
+msgstr "显示徽标："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: config.ui:86
+msgid "Animations:"
+msgstr "动画："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: config.ui:112
+msgid "News"
+msgstr "新闻"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config.ui:119
+msgid "Update interval:"
+msgstr "更新间隔："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: config.ui:145
+msgid "Switch interval:"
+msgstr "切换间隔："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: config.ui:171
+msgid "Maximum age of items:"
+msgstr "项目最旧时限："
+
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, maxAge)
+#: config.ui:184
+msgid "No limit"
+msgstr "无限制"
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: feedsConfig.ui:18
+msgid "&Add a feed:"
+msgstr "添加种子(&A)："
+
+#. i18n: ectx: property (text), widget (KPushButton, addFeed)
+#: feedsConfig.ui:53
+msgid "Add Feed"
+msgstr "添加种子"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeFeed)
+#: feedsConfig.ui:60
+msgid "Remove Feed"
+msgstr "删除种子"
+
+#: news.cpp:156
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " 分钟"
+
+#: news.cpp:158
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " 秒"
+
+#: news.cpp:160
+msgid " hour"
+msgid_plural " hours"
+msgstr[0] " 小时"
+
+#: news.cpp:178
+msgid "General"
+msgstr "常规"
+
+#: news.cpp:179
+msgid "Feeds"
+msgstr "种子"
+
+#: scroller.cpp:106 scroller.cpp:107
+msgid "Drop a feed here..."
+msgstr "在此放入种子..."
+
+#: scroller.cpp:109
+msgid ""
+"...to start a new group or drop a feed on an existing group to add the feed "
+"there"
+msgstr "...以新建分组或在已有分组上放入种子来对其添加种子"
+
+#: scroller.cpp:116 scroller.cpp:117
+msgid "Fetching feeds"
+msgstr "正在获取种子"
+
+#: scroller.cpp:520
+#, kde-format
+msgid "%1 minute ago"
+msgid_plural "%1 minutes ago"
+msgstr[0] "%1 分钟前"
+
+#: scroller.cpp:522
+msgid "yesterday"
+msgstr "昨天"
+
+#: scroller.cpp:524
+#, kde-format
+msgid "%1 hour ago"
+msgid_plural "%1 hours ago"
+msgstr[0] "%1 小时前"
+
+#: scroller.cpp:526
+#, kde-format
+msgid "%1 day ago"
+msgid_plural "%1 days ago"
+msgstr[0] "%1 天前"
+
+#: scroller.cpp:528
+#, kde-format
+msgid "%1 week ago"
+msgid_plural "%1 weeks ago"
+msgstr[0] "%1 周前"

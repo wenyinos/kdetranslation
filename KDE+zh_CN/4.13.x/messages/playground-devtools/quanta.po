@@ -1,0 +1,6388 @@
+# translation of quanta.po to Simplified Chinese
+# Copyright (C) 2002, 2007, 2008 Free Software Foundation, Inc.
+#
+# Zong Yaotang <zong@cosix.com.cn>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2002.
+# Funda Wang <fundawang@linux.net.cn>, 2002,2004.
+# dalin <dalin.lin@gmail.com>, 2007, 2008.
+# Lie Ex <lilith.ex@gmail.com>, 2009.
+# Feng Chao <rainofchaos@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: quanta\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-08-02 07:15+0200\n"
+"PO-Revision-Date: 2010-07-22 00:13+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.1\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: kdevquantaextension.cpp:39
+msgid "Code"
+msgstr "代码"
+
+#: kdevquantaextension.cpp:50
+msgid "KDevelop4 Project Files"
+msgstr "KDevelop4 工程文件"
+
+#: main.cpp:86
+msgid "Quanta Plus Web Development Environment"
+msgstr "Quanta Plus Web 开发环境"
+
+#: main.cpp:89
+#, fuzzy
+msgid ""
+"Our goal is to be nothing less than the best possible tool for\n"
+"     working with tagging and scripting languages.    \n"
+"\n"
+"Quanta Plus is not in any way affiliated with any commercial\n"
+"     versions of Quanta.     \n"
+"\n"
+"We hope you enjoy Quanta Plus.\n"
+"\n"
+msgstr ""
+"是 到 无 较少\n"
+" 为 和 是 属于 为\n"
+" 共 Quanta Quanta"
+
+#: main.cpp:95
+msgid "Quanta"
+msgstr "Quanta"
+
+#: main.cpp:97
+msgid "(c) 1999-2010, The Quanta+ developers"
+msgstr "(c) 1999-2010，Quanta+ 开发者"
+
+#: main.cpp:99
+msgid "Eric Laffoon"
+msgstr "Eric Laffoon"
+
+#: main.cpp:99
+msgid "Project Lead - public liaison"
+msgstr "工程领导 - 公关"
+
+#: main.cpp:100
+msgid "Andras Mantia"
+msgstr "Andras Mantia"
+
+#: main.cpp:100
+msgid "Program Lead - bug squisher"
+msgstr "工程领导 - 错误修正"
+
+#: main.cpp:101
+msgid "Jens Herden"
+msgstr "Jens Herden"
+
+#: main.cpp:102
+#, fuzzy
+msgid ""
+"Invaluable member - Help with code cleanup, porting to KDevelop and KDE4, "
+"etc."
+msgstr "帮助 为 代码 到 KDevelop 和."
+
+#: main.cpp:107
+msgid "Url to project to load"
+msgstr "要装入工程的 Url"
+
+#: main.cpp:108
+msgid "Files to load"
+msgstr "要装载的文件"
+
+#: main.cpp:112
+msgid "Create new session with given name."
+msgstr ""
+
+#: main.cpp:114
+msgid "Session to load. You can pass either hash or the name of the session."
+msgstr ""
+
+#: main.cpp:116
+msgid "List available sessions and quit"
+msgstr ""
+
+#: main.cpp:126
+msgid "Available sessions (use '-s HASH' or '-s NAME' to open a specific one):"
+msgstr ""
+
+#: main.cpp:127
+msgid "Hash"
+msgstr "散列"
+
+#: main.cpp:127
+#, fuzzy
+#| msgid "Create new project"
+msgid "Name: Opened Projects"
+msgstr "新建工程"
+
+#: main.cpp:136
+msgid "[running]"
+msgstr "[运行中]"
+
+#: main.cpp:152
+#, kde-format
+msgid ""
+"A session with the name %1 exists already. Use the -s switch to open it."
+msgstr ""
+
+#: main.cpp:171
+#, kde-format
+msgid ""
+"Cannot open unknown session %1. See --sessions switch for available sessions "
+"or use -cs to create a new one."
+msgstr ""
+
+#: main.cpp:246
+#, kde-format
+msgid "Could not open %1"
+msgstr "无法打开 %1"
+
+#. i18n: ectx: Menu (session)
+#: quantaui.rc:6
+msgctxt "@title:menu"
+msgid "Session"
+msgstr "会话"
+
+#. i18n: ectx: Menu (project)
+#: quantaui.rc:10
+msgctxt "@title:menu"
+msgid "&Project"
+msgstr "工程(&P)"
+
+#. i18n: ectx: Menu (run)
+#: quantaui.rc:28
+msgid "&Run"
+msgstr "运行(&R)"
+
+#. i18n: ectx: Menu (navigation)
+#: quantaui.rc:50
+msgctxt "@title:menu"
+msgid "&Navigation"
+msgstr "导航(&N)"
+
+#. i18n: ectx: Menu (file)
+#: quantaui.rc:64
+msgctxt "@title:menu"
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (edit)
+#: quantaui.rc:75
+msgctxt "@title:menu"
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (editor)
+#: quantaui.rc:88
+msgctxt "@title:menu"
+msgid "Editor"
+msgstr "编辑器"
+
+#. i18n: ectx: Menu (code)
+#: quantaui.rc:93
+msgctxt "@title:menu"
+msgid "Code"
+msgstr "代码"
+
+#. i18n: ectx: Menu (window)
+#: quantaui.rc:100
+msgctxt "@title:menu"
+msgid "&Window"
+msgstr "窗口(&W)"
+
+#. i18n: ectx: Menu (settings)
+#: quantaui.rc:142
+msgctxt "@title:menu"
+msgid "Settings"
+msgstr "设置"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: quantaui.rc:157
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: ToolBar (browserToolBar)
+#: quantaui.rc:176
+msgid "Browser Toolbar"
+msgstr "浏览器工具栏"
+
+#~ msgid "Project Location"
+#~ msgstr "工程位置"
+
+#~ msgid "Protocol: "
+#~ msgstr "协议："
+
+#~ msgid "Local"
+#~ msgstr "本地"
+
+#~ msgid "Port:"
+#~ msgstr "端口："
+
+#~ msgid "://"
+#~ msgstr "://"
+
+#~ msgid "@"
+#~ msgstr "@"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Folder:"
+#~ msgstr "文件夹："
+
+#~ msgid "User:"
+#~ msgstr "用户："
+
+#~ msgid "Host:"
+#~ msgstr "主机："
+
+#~ msgid "Project Defaults"
+#~ msgstr "工程默认值"
+
+#~ msgid "Default DTD:"
+#~ msgstr "默认 DTD："
+
+#~ msgid "Default encoding:"
+#~ msgstr "默认编码："
+
+#~ msgid "Filename:"
+#~ msgstr "文件名："
+
+#~ msgid "Title:"
+#~ msgstr "标题："
+
+#~ msgid "Author:"
+#~ msgstr "作者："
+
+#~ msgid "Version:"
+#~ msgstr "版本："
+
+#~ msgid "License:"
+#~ msgstr "许可："
+
+#~ msgid "Email:"
+#~ msgstr "电子邮件："
+
+#~ msgid "&Add Files..."
+#~ msgstr "添加文件(&A)..."
+
+#~ msgid "A&dd Folder..."
+#~ msgstr "添加文件夹(&D)..."
+
+#~ msgid "&Clear List"
+#~ msgstr "清除列表(&C)"
+
+#~ msgid "Insert existing files"
+#~ msgstr "插入存在文件"
+
+#~ msgid "Files with the following &masks:"
+#~ msgstr "带有如下标记的文件(&M):"
+
+#~ msgid ""
+#~ "List of filtering mask separated by a semicolon. Examples:\n"
+#~ "<b>*</b>:  include all files\n"
+#~ "<b>*.html; *.css</b>: include files with <i>html</i> and <i>css</i> "
+#~ "extension"
+#~ msgstr ""
+#~ "过滤标记的列表，用分号隔开。例如：\n"
+#~ "<b>*</b>：包含全部文件\n"
+#~ "<b>*.html; *.css</b>：包含带有 <i>html</i> 和 <i>css</i> 后缀的文件"
+
+#~ msgid "&Insert"
+#~ msgstr "插入(&I)"
+
+#~ msgid "&Text and image files"
+#~ msgstr "文本和图像文件(&T)"
+
+#~ msgid "&Use preview prefix"
+#~ msgstr "使用预览前缀(&U)"
+
+#~ msgid "Prefix:"
+#~ msgstr "前缀："
+
+#~ msgid "Resource folders"
+#~ msgstr "资源文件夹"
+
+#~ msgid "Templates:"
+#~ msgstr "模板:"
+
+#~ msgid "Toolbars:"
+#~ msgstr "工具栏:"
+
+#~ msgid "Import Options"
+#~ msgstr "导入选项"
+
+#~ msgid "&Add local or remote files"
+#~ msgstr "添加本地或远程文件(&A)"
+
+#~ msgid "Use wget to &download files from a site"
+#~ msgstr "使用 wget 从站点下载文件(&D)"
+
+#~ msgid "Insert &local templates"
+#~ msgstr "插入本地模板(&L)"
+
+#~ msgid "Insert &global templates"
+#~ msgstr "插入全局模板(&G)"
+
+#~ msgid "wget's command line:"
+#~ msgstr "wget 的命令行："
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "FTP"
+#~ msgstr "FTP"
+
+#~ msgid "Protocol:"
+#~ msgstr "协议："
+
+#~ msgid "Site source:"
+#~ msgstr "站点源："
+
+#~ msgid "Start"
+#~ msgstr "开始"
+
+#~ msgid "DTD - > DTEP Conversion"
+#~ msgstr "DTD -> DTEP 转换"
+
+#~ msgid "Name: "
+#~ msgstr "名称："
+
+#~ msgid "Nickname:"
+#~ msgstr "昵称："
+
+#~ msgid "!DOCTYPE definition line:"
+#~ msgstr "!DOCTYPE 定义行："
+
+#~ msgid "DTD URL:"
+#~ msgstr "DTD URL："
+
+#~ msgid "Target directory name:"
+#~ msgstr "目标目录名称："
+
+#~ msgid "Default extension:"
+#~ msgstr "默认扩展名："
+
+#~ msgid "Case sensitive tags and attributes"
+#~ msgstr "标签和属性区分大小写"
+
+#~ msgid "QuantaProject"
+#~ msgstr "Quanta 工程"
+
+#~ msgid "Number of lines:"
+#~ msgstr "行数："
+
+#~ msgid "Number of images included:"
+#~ msgstr "所包含的图像数："
+
+#~ msgid "Size of the included images:"
+#~ msgstr "所包含图像的大小："
+
+#~ msgid "Total file size:"
+#~ msgstr "文件总大小："
+
+#~ msgid "Included images:"
+#~ msgstr "所包含的图像："
+
+#~ msgid "Description:"
+#~ msgstr "描述："
+
+#~ msgid "HTMLPreview"
+#~ msgstr "HTML 预览"
+
+#~ msgid "StructureTree"
+#~ msgstr "结构树"
+
+#~ msgid "Show whitespace areas and empt&y groups"
+#~ msgstr "显示空白区域和空白组(&y)"
+
+#~ msgid "Show closi&ng tags"
+#~ msgstr "显示关闭标签(&N)"
+
+#~ msgid "Subject:"
+#~ msgstr "主题："
+
+#~ msgid "Email address:"
+#~ msgstr "电子邮件地址："
+
+#~ msgid "Misc. Tag"
+#~ msgstr "杂类标签"
+
+#~ msgid "Element name:"
+#~ msgstr "元素名称："
+
+#~ msgid "&Add closing tag"
+#~ msgstr "添加结尾标签(&A)"
+
+#~ msgid "Quanta Properties"
+#~ msgstr "Quanta 属性"
+
+#~ msgid "&Inherit type from parent (nothing)"
+#~ msgstr "从父标签继承类型(无)(&I)"
+
+#~ msgid "&Type:"
+#~ msgstr "类型(&T)："
+
+#~ msgid "Use &pre/post text"
+#~ msgstr "使用前置/后置文本(&P)"
+
+#~ msgid "Pre-text:"
+#~ msgstr "前置文本："
+
+#~ msgid "Post-text:"
+#~ msgstr "后置文本："
+
+#~ msgid "Filtering &action:"
+#~ msgstr "过滤动作(&A)："
+
+#~ msgid "Create Template Folder"
+#~ msgstr "创建模板文件夹"
+
+#~ msgid "Type:"
+#~ msgstr "类型："
+
+#~ msgid "Name:"
+#~ msgstr "名称："
+
+#~ msgid "&Inherit parent attribute"
+#~ msgstr "继承父标签属性(&I)"
+
+#~ msgid "TemplatesTree"
+#~ msgstr "模板树"
+
+#~ msgid "If this is set the tooltips with additional information will show."
+#~ msgstr "如果设置了此项，带有额外信息的工具提示将会被显示。"
+
+#~ msgid "Show tooltips"
+#~ msgstr "显示工具提示"
+
+#~ msgid "Remember the tree status"
+#~ msgstr "记住树的状态"
+
+#~ msgid "Configure Actions"
+#~ msgstr "配置动作"
+
+#~ msgid "&Delete Action"
+#~ msgstr "删除动作(&D)"
+
+#~ msgid "&New Action"
+#~ msgstr "新建动作(&N)"
+
+#~ msgid "Toolbar & Action Tree"
+#~ msgstr "工具栏和动作树"
+
+#~ msgid "Name"
+#~ msgstr "名称"
+
+#~ msgid "Shortcut"
+#~ msgstr "快捷键"
+
+#~ msgid "&Apply"
+#~ msgstr "应用(&A)"
+
+#~ msgid "&Cancel"
+#~ msgstr "取消(&C)"
+
+#~ msgid "&OK"
+#~ msgstr "确定(&O)"
+
+#~ msgid "Action Properties"
+#~ msgstr "动作属性"
+
+#~ msgid "T&ype:"
+#~ msgstr "类型(&Y)："
+
+#~ msgid "Tag"
+#~ msgstr "标签"
+
+#~ msgid "Script"
+#~ msgstr "脚本"
+
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgid "Te&xt:"
+#~ msgstr "文字(&X)："
+
+#~ msgid "Tool &tip:"
+#~ msgstr "工具提示(&T)："
+
+#~ msgid "&None"
+#~ msgstr "无(&N)"
+
+#~ msgid "C&ustom"
+#~ msgstr "自定义(&U)"
+
+#~ msgid "Container toolbars:"
+#~ msgstr "容器工具栏："
+
+#~ msgid "&Add..."
+#~ msgstr "添加(&A)..."
+
+#~ msgid "&Remove"
+#~ msgstr "删除(&R)"
+
+#~ msgid "Detailed Settings"
+#~ msgstr "细节设置"
+
+#~ msgid "<tag> :"
+#~ msgstr "<tag>："
+
+#~ msgid "</tag> :"
+#~ msgstr "</tag>："
+
+#~ msgid "Run \"Edit tag\" dialog if available"
+#~ msgstr "若可用则运行“编辑标签”对话框"
+
+#~ msgid "&Input:"
+#~ msgstr "输入(&I)："
+
+#~ msgid "None"
+#~ msgstr "无"
+
+#~ msgid "Current Document"
+#~ msgstr "当前文档"
+
+#~ msgid "Selected Text"
+#~ msgstr "选中文本"
+
+#~ msgid "&Output:"
+#~ msgstr "输出(&O)："
+
+#~ msgid "Insert in Cursor Position"
+#~ msgstr "在光标位置插入"
+
+#~ msgid "Replace Selection"
+#~ msgstr "替换选中内容"
+
+#~ msgid "Replace Current Document"
+#~ msgstr "替换当前文档"
+
+#~ msgid "Create New Document"
+#~ msgstr "创建新文档"
+
+#~ msgid "Message Window"
+#~ msgstr "消息窗口"
+
+#~ msgid "Insert in cursor position"
+#~ msgstr "在光标位置插入"
+
+#~ msgid "Replace selection"
+#~ msgstr "替换选中内容"
+
+#~ msgid "Replace current document"
+#~ msgstr "替换当前文档"
+
+#~ msgid "Create a new document"
+#~ msgstr "创建新文档"
+
+#~ msgid "Message window"
+#~ msgstr "消息窗口"
+
+#~ msgid "&Error:"
+#~ msgstr "错误(&E)："
+
+#~ msgid "TagMail"
+#~ msgstr "邮件标签"
+
+#~ msgid "UserToolbars"
+#~ msgstr "用户工具栏"
+
+#~ msgid "Look && Feel"
+#~ msgstr "外观"
+
+#~ msgid "Cre&ate separate toolbars"
+#~ msgstr "创建分离的工具栏(&a)"
+
+#~ msgid "Create an Actions &menu"
+#~ msgstr "创建一个动作菜单(&m)"
+
+#~ msgid "Autocompletion"
+#~ msgstr "自动补全"
+
+#~ msgid "Ena&ble auto-completion"
+#~ msgstr "启用自动补全(&B)"
+
+#~ msgid "Automatic replacement of accented characters"
+#~ msgstr "自动替换重音字母"
+
+#~ msgid "Update opening/closing tag automaticall&y"
+#~ msgstr "自动更新打开/关闭标签(&Y)"
+
+#~ msgid "Auto-close non-single and non-optional tags"
+#~ msgstr "自动关闭非单个及非可选标签"
+
+#~ msgid "Auto-close optional tags"
+#~ msgstr "自动关闭可选标签"
+
+#~ msgid "Support Quanta with Financial Donation"
+#~ msgstr "用捐款来支持 Quanta"
+
+#~ msgid "DTD Selector"
+#~ msgstr "DTD 选择器"
+
+#~ msgid ""
+#~ "Dialog message:\n"
+#~ "Dialog message2:"
+#~ msgstr ""
+#~ "对话框消息：\n"
+#~ "对话框消息2："
+
+#~ msgid "Current DTD:"
+#~ msgstr "当前的 DTD："
+
+#~ msgid "Select DTD:"
+#~ msgstr "选中的 DTD："
+
+#~ msgid "Conver&t the document to the selected DTD"
+#~ msgstr "将文档转换为选中的 DTD(&T)"
+
+#~ msgid "Do not show this dialog, use the closest matching DTD"
+#~ msgstr "不显示此对话框，使用最符合的 DTD"
+
+#~ msgid "Configure DTEP"
+#~ msgstr "配置 DTEP"
+
+#~ msgid "&General"
+#~ msgstr "常规(&G)"
+
+#~ msgid "DTD definition string"
+#~ msgstr "DTD 定义字符串"
+
+#~ msgid ""
+#~ "The real name of the DTEP. In case of XML DTEPs this should be the DTD "
+#~ "definition string, like -<i>//W3C//DTD&nbsp;HTML&nbsp;4.01&nbsp;"
+#~ "Transitional//EN</i>."
+#~ msgstr ""
+#~ "DTEP的真实名称。对于 XML DTEP 来说，它就是 DTD 定义字符串，例如 -<i>//"
+#~ "W3C//DTD&nbsp;HTML&nbsp;4.01&nbsp;Transitional//EN</i> 。"
+
+#~ msgid "Beautified, user-visible name"
+#~ msgstr "美化过的用户可见名"
+
+#~ msgid ""
+#~ "The user-visible, beautified name. If not defined, the real name is used."
+#~ msgstr "用户可见的美化过的名称。如果没有定义，则使用真实名称。"
+
+#~ msgid "Short name:"
+#~ msgstr "短名称："
+
+#~ msgid "Type Specific Settings"
+#~ msgstr "类型相关的设置"
+
+#~ msgid "URL pointing to the DTD definiton file"
+#~ msgstr "指向 DTD 定义文件的URL"
+
+#~ msgid ""
+#~ "URL pointing to the DTD definiton file, like <i>http://www.w3.org/TR/"
+#~ "html4/loose.dtd</i>."
+#~ msgstr ""
+#~ "指向 DTD 定义文件的URL，例如<i>http://www.w3.org/TR/html4/loose.dtd</i>。"
+
+#~ msgid "URL:"
+#~ msgstr "URL："
+
+#~ msgid "The string that should appear in the !DOCTYPE tag"
+#~ msgstr "必须在 !DOCTYPE 标签中出现的字符串"
+
+#~ msgid ""
+#~ "The string that should appear in the !DOCTYPE tag, like<br>\n"
+#~ "<i>HTML&nbsp;PUBLIC&nbsp;\"-//W3C//DTD&nbsp;HTML&nbsp;4.01&nbsp;"
+#~ "Transitional//EN\"&nbsp;&nbsp;&nbsp;<br>\"http://www.w3.org/TR/html4/"
+#~ "loose.dtd\"</i>"
+#~ msgstr ""
+#~ "必须在 !DOCTYPE 标签中出现的字符串，例如<br>\n"
+#~ "<i>HTML&nbsp;PUBLIC&nbsp;\"-//W3C//DTD&nbsp;HTML&nbsp;4.01&nbsp;"
+#~ "Transitional//EN\"&nbsp;&nbsp;&nbsp;<br>\"http://www.w3.org/TR/html4/"
+#~ "loose.dtd\"</i>"
+
+#~ msgid "DOCT&YPE string:"
+#~ msgstr "DOCTYPE 字符串(&Y)："
+
+#~ msgid "Check if the DTEP can act as a top level DTEP."
+#~ msgstr "检查该DTEP是否可作为一个顶级DTEP。"
+
+#~ msgid "Top level"
+#~ msgstr "顶级"
+
+#~ msgid "The name of the folder where the toolbars are stored"
+#~ msgstr "存储工具栏的文件夹的名称"
+
+#~ msgid ""
+#~ "The name of the folder where the toolbars are stored. This is a relative "
+#~ "name to <br><i>$KDEDIR(&nbsp;or&nbsp;$KDEHOME)/share/apps/quanta/"
+#~ "toolbars</i> ."
+#~ msgstr ""
+#~ "存储工具栏的文件夹的名称。这是一个到 <br><i>$KDEDIR(&nbsp;or&nbsp;"
+#~ "$KDEHOME)/share/apps/quanta/toolbars</i> 相对名称。"
+
+#~ msgid "Toolbar folder:"
+#~ msgstr "工具栏文件夹："
+
+#~ msgid "Comma-separated list of toolbars"
+#~ msgstr "逗号隔开的工具栏列表"
+
+#~ msgid ""
+#~ "Comma-separated list of toolbars from the toolbar folder that will be "
+#~ "loaded when a document with this DTEP is loaded."
+#~ msgstr ""
+#~ "当带有该DTEP的文档被装入时，从工具栏文件夹装入以逗号隔开的工具栏列表。"
+
+#~ msgid "Autoloaded toolbars:"
+#~ msgstr "自动装入的工具栏："
+
+#~ msgid "Check if the DTEP has case sensitive tags"
+#~ msgstr "检查 DTEP 标签是否区分大小写"
+
+#~ msgid "Case sensitive"
+#~ msgstr "区分大小写"
+
+#~ msgid "The family to where this DTEP belongs."
+#~ msgstr "该 DTEP 所属家族。"
+
+#~ msgid "Inherits:"
+#~ msgstr "继承："
+
+#~ msgid "XML Style"
+#~ msgstr "XML 风格"
+
+#~ msgid "Pseudo Type"
+#~ msgstr "Pseudo 类型"
+
+#~ msgid "Mimet&ypes:"
+#~ msgstr "MIME 类型(&Y)："
+
+#~ msgid "Comma-separated list of mimetypes"
+#~ msgstr "以逗号隔开的 MIME 类型列表"
+
+#~ msgid ""
+#~ "Comma-separated list of mimetypes. Files of these types are treated as "
+#~ "belonging to this DTEP, unless the !DOCTYPE entry says something else."
+#~ msgstr ""
+#~ "以逗号隔开的 MIME 类型列表。这些类型的文件被作为属于这个 DTEP 对待，除非 !"
+#~ "DOCTYPE 条目有其它说明。"
+
+#~ msgid "The default extension of files belonging to this DTEP"
+#~ msgstr "此 DTEP 所属的默认文件扩展名"
+
+#~ msgid "E&xtension:"
+#~ msgstr "扩展名(&X)："
+
+#~ msgid "&Pages"
+#~ msgstr "分页(&P)"
+
+#~ msgid ""
+#~ "Every tab edit dialog will have one more extra page aside of the main page"
+#~ msgstr "每个标签页编辑对话框除了主页之外还会有一个额外页"
+
+#~ msgid ""
+#~ "Every tab edit dialog will have one more extra page aside of the main "
+#~ "page. You can configure what will be on this page in the below fields."
+#~ msgstr ""
+#~ "每个标签页编辑对话框除了主页之外还会有一个额外页。 你可以在下面配置页面的"
+#~ "内容。"
+
+#~ msgid "Enable the first extra page"
+#~ msgstr "启用第一额外页面"
+
+#~ msgid "The title of the page"
+#~ msgstr "页面标题"
+
+#~ msgid ""
+#~ "The title of the page, like <b>Core && i18n</b>. As you see, the "
+#~ "ampersand must be doubled."
+#~ msgstr ""
+#~ "页面的标题，例如 <b>Core && i18n</b> 。正如你所看到的，\"and\"符号必须被输"
+#~ "入两次。"
+
+#~ msgid "Comma-separated list of the common attribute groups"
+#~ msgstr "以逗号隔开的通用属性组列表"
+
+#, fuzzy
+#~ msgid ""
+#~ "Comma-separated list of the common attribute groups. The attributes from "
+#~ "the listed groups will appear on this page.<br>The common attributes are "
+#~ "specified in each DTEP's <i>common.tag</i> file, where the <i>common=\"yes"
+#~ "\"</i> attribute must be set.<br>The following example defined the common "
+#~ "I18n attribute group:<br><p><b>\n"
+#~ "&lt;tag name=\"I18n\" common=\"yes\"><br>\n"
+#~ "&nbsp;&nbsp;&lt;attr name=\"lang\" type=\"input\" /><br>\n"
+#~ "&nbsp;&nbsp;&lt;attr name=\"dir\" type=\"input\" /><br>\n"
+#~ "&lt;/tag>\n"
+#~ "</b></p>"
+#~ msgstr ""
+#~ "逗号 共 自 开 页<br> 属于 秒<i></i> 文件<i> 是</i><br> 类别<br><p><b>\n"
+#~ "&lt; 名字 是<br>\n"
+#~ "&nbsp;&nbsp;&lt; 名字 类型<br>\n"
+#~ "&nbsp;&nbsp;&lt; 名字 类型<br>\n"
+#~ "&lt;\n"
+#~ "</b></p>"
+
+#~ msgid "Groups:"
+#~ msgstr "分组："
+
+#~ msgid "See the tooltip and what's this information for the first checkbox"
+#~ msgstr "查看工具提示以及这是什么获得第一个选择框的信息"
+
+#~ msgid "Enable the second extra page"
+#~ msgstr "启用第二额外页面"
+
+#~ msgid "Enable the third extra page"
+#~ msgstr "启用第三额外页面"
+
+#~ msgid "Enable the fourth extra page"
+#~ msgstr "启用第四额外页面"
+
+#~ msgid "Enable the fifth extra page"
+#~ msgstr "启用第五额外页面"
+
+#, fuzzy
+#~ msgid ""
+#~ "See the tooltip and what's this information for the first page fields"
+#~ msgstr "和 秒 第一 页"
+
+#~ msgid "Parsing &Rules"
+#~ msgstr "解析规则(&R)"
+
+#, fuzzy
+#~ msgid "Treat the minus sign as part of a word"
+#~ msgstr "如 part 共 a"
+
+#, fuzzy
+#~ msgid ""
+#~ "If enabled <b>this-is-a-word</b> is treated like a word. Otherwise it is "
+#~ "treated like 4 words."
+#~ msgstr "已启用<b> 是 a</b> 是 类似 a 是 类似 单词."
+
+#, fuzzy
+#~ msgid "Enable minus in words"
+#~ msgstr "启用 属于 单词"
+
+#, fuzzy
+#~ msgid "Comma-separated list of area borders for comments"
+#~ msgstr "逗号 共 批注"
+
+#, fuzzy
+#~ msgid ""
+#~ "Comma-separated list of area borders for comments. <i>EOL</i> means end "
+#~ "of line, used for single line comments.<br>\n"
+#~ "Example: <b>//&nbsp;EOL,&nbsp;/*&nbsp;*/</b>"
+#~ msgstr ""
+#~ "逗号 共 批注<i></i> 共 直线 single 直线 批注<br><b>&nbsp;&nbsp;&nbsp;</b>"
+
+#~ msgid "Comments:"
+#~ msgstr "注释："
+
+#~ msgid "Type Specific Rules"
+#~ msgstr "类型特定的规则"
+
+#~ msgid "Check to use XML style single tags"
+#~ msgstr "选中可使用 XML 风格的单个标记"
+
+#, fuzzy
+#~ msgid ""
+#~ "Check to use XML style single tags (<b>&lt;single_tag /&gt;</b>), "
+#~ "otherwise HTML style single tags (<b>&lt;single_tag&gt;</b>) are used."
+#~ msgstr ""
+#~ "检查 到 XML single<b>&lt; single&gt;</b> HTML single<b>&lt; single&gt;</"
+#~ "b>."
+
+#~ msgid "XML style single tags"
+#~ msgstr "XML 风格单标记"
+
+#~ msgid "Append common parsing rules"
+#~ msgstr "追加公共分析规则"
+
+#, fuzzy
+#~ msgid ""
+#~ "Check it to append common parsing rules. These are:\n"
+#~ "<p><b>\n"
+#~ "&nbsp;&nbsp;SpecialAreas=&lt;?xml ?&gt;, &lt;!-- --&gt;, &lt;! &gt;\n"
+#~ "&nbsp;&nbsp;SpecialAreaNames = XML PI, comment, DTD\n"
+#~ "&nbsp;&nbsp;Comments = &lt;!-- --&gt;\n"
+#~ "</b></p>"
+#~ msgstr ""
+#~ "检查 到\n"
+#~ "<p><b>\n"
+#~ "&nbsp;&nbsp;&lt;&gt;&lt;&gt;&lt;&gt;\n"
+#~ "&nbsp;&nbsp; XML 注释 DTD\n"
+#~ "&nbsp;&nbsp; 注释&lt;&gt;\n"
+#~ "</b></p>"
+
+#~ msgid "Use common rules"
+#~ msgstr "使用公共规则"
+
+#, fuzzy
+#~ msgid "Check if the booleans are stored in extended form"
+#~ msgstr "检查 属于 延伸"
+
+#, fuzzy
+#~ msgid ""
+#~ "Check if you want extended booleans in the language.<br>\n"
+#~ "Examples:<br>\n"
+#~ "<i>Simple boolean</i>: <b>&lt;tag&nbsp;booleanAttr&gt;</b><br>\n"
+#~ "<i>Extended boolean</i>: <b>&lt;tag&nbsp;booleanAttr=\"1\"&gt;</b> or "
+#~ "<b>&lt;tag&nbsp;booleanAttr=\"true\"&gt;</b>.\n"
+#~ "<br>\n"
+#~ "See the <b>True</b> and <b>False</b> boxes to define the values for true "
+#~ "and false."
+#~ msgstr ""
+#~ "检查 延伸 属于<br><br>\n"
+#~ "<i> 简单 逻辑</i><b>&lt;&nbsp;&gt;</b><br>\n"
+#~ "<i> 逻辑</i><b>&lt;&nbsp;&gt;</b> 或<b>&lt;&nbsp; true&gt;</b>\n"
+#~ "<br><b> 真</b> 和<b> 假</b> 到 true 和 false."
+
+#~ msgid "Extended booleans"
+#~ msgstr "扩展的布尔"
+
+#, fuzzy
+#~ msgid "The value of \"true\" in case of extended booleans"
+#~ msgstr "值 共 true 属于 共 延伸"
+
+#~ msgid "False:"
+#~ msgstr "False："
+
+#~ msgid "True:"
+#~ msgstr "True："
+
+#, fuzzy
+#~ msgid ""
+#~ "Comma-separated list of the beginning and closing string for special areas"
+#~ msgstr "逗号 共 和 string"
+
+#, fuzzy
+#~ msgid ""
+#~ "The beginning and closing string of special areas, separated by a comma."
+#~ "<br>\n"
+#~ " Special areas are not parsed according to this DTD's rules, but "
+#~ "according to their own rules.<br>\n"
+#~ "    A special area can be a pseudo DTD, a comment or something like that, "
+#~ "for example <i>&lt;!--&nbsp;--&gt;</i>."
+#~ msgstr ""
+#~ "和 string 共 a<br>\n"
+#~ " 特殊 到 DTD 秒 到<br>\n"
+#~ " A a DTD a 注释 或 类似<i>&lt;&nbsp;&gt;</i>."
+
+#~ msgid "Special areas:"
+#~ msgstr "特殊区域："
+
+#~ msgid ""
+#~ "Comma-separated list of the names for the above-defined special areas"
+#~ msgstr "以逗号隔开的前面定义的特殊区域名称列表"
+
+#~ msgid "Special area names:"
+#~ msgstr "特殊区域名称："
+
+#~ msgid "Specifies a tag that defines the start of a special area"
+#~ msgstr "指定一个标签来定义一个特殊区域的开始"
+
+#, fuzzy
+#~ msgid ""
+#~ "Specifies a tag which defines the start of a special area in the form of "
+#~ "<i>tagname(attributename)</i>.<br>\n"
+#~ "Example:<b>script(language)</b> means that any <b>&lt;script&gt;</b> tag "
+#~ "having a <b>language</b> attribute indicates a special area."
+#~ msgstr "a 共 a 属于 共<i></i><br><b></b><b>&lt;&gt;</b> a<b></b> a."
+
+#~ msgid "Special tags:"
+#~ msgstr "特殊标签："
+
+#, fuzzy
+#~ msgid "Tags and attributes defining this DTEP"
+#~ msgstr "标签 和"
+
+#, fuzzy
+#~ msgid ""
+#~ "Comma-separated list of tags that define this DTEP. The format used is "
+#~ "<i>tagname(attribute[defaultvalue])</i>. If the parent (a real) DTEP has "
+#~ "a tag with <i>tagname</i> and\n"
+#~ "the <i>attribute value</i> of this tag is equal with the name of this "
+#~ "DTEP, the tag area\n"
+#~ "is parsed according to the rules of this DTEP.<br>\n"
+#~ "If <i>[defaultvalue]</i> is present, it means that if the attribute is "
+#~ "not present in the tag it is taken as present with <i>value = "
+#~ "defaultvalue</i>.<br>\n"
+#~ "Example: <b>Tags=style(type[text/css])</b> means that both <b>&lt;"
+#~ "style&gt;</b> and <b>&lt;style&nbsp;type=\"text/css\"&gt;</b> are treated "
+#~ "the same way and the DTEP defined by this tag is named <b>text/css</b>."
+#~ msgstr ""
+#~ "逗号 共 是<i></i> a a 为<i></i> 和<i> 值</i> 共 是 相等 为 名字 共 到 共"
+#~ "<br><i></i> 是 现在时 是 现在时 属于 是 如 现在时 为<i> 值</i><br><b> 标"
+#~ "签 类型 文本</b><b>&lt;&gt;</b> 和<b>&lt;&nbsp; 类型 文本&gt;</b> 和 是"
+#~ "<b> 文本</b>."
+
+#~ msgid "Definition tags:"
+#~ msgstr "定义标签："
+
+#~ msgid "Comma-separated list of the area borders"
+#~ msgstr "以逗号隔开的区域边界列表"
+
+#, fuzzy
+#~ msgid ""
+#~ "Comma-separated list of the area borders encapsulating this pseudo DTEP. "
+#~ "In the case of PHP it is:<br>\n"
+#~ "<b>&lt;?&nbsp;?&gt;,&nbsp;&lt;*&nbsp;*&gt;,&nbsp;&lt;%&nbsp;%&gt;</b>"
+#~ msgstr ""
+#~ "逗号 共 共 PHP 是<br>\n"
+#~ "<b>&lt;&nbsp;&gt;&nbsp;&lt;&nbsp;&gt;&nbsp;&lt;&nbsp;&gt;</b>"
+
+#~ msgid "Area borders:"
+#~ msgstr "区域边框："
+
+#~ msgid "Comma-separated list of structure keywords"
+#~ msgstr "以逗号隔开的结构关键字列表"
+
+#, fuzzy
+#~ msgid ""
+#~ "Comma-separated list of structure keywords. The keywords used here are "
+#~ "used to create new node (nodes for structures) in the structure tree, "
+#~ "like for a function, class or if block."
+#~ msgstr "逗号 共 到 新的 属于 类似 a 或."
+
+#~ msgid "Structure keywords:"
+#~ msgstr "结构关键字："
+
+#, fuzzy
+#~ msgid "Regular expression that finds the beginning or end of a structure"
+#~ msgstr "常规 表达式 或 共 a"
+
+#, fuzzy
+#~ msgid ""
+#~ "Regular expression that finds the beginning or end of a structure. This "
+#~ "is usually the combination of <b>Structure beginning</b> and <b>Structure "
+#~ "end</b>, like <b>\\\\{&nbsp;|&nbsp;\\\\}</b>"
+#~ msgstr "常规 表达式 或 共 a 是 共<b></b> 和<b></b> 类似<b>&nbsp;&nbsp;</b>"
+
+#, fuzzy
+#~ msgid "A string specifying the beginning of a structure"
+#~ msgstr "A string 共 a"
+
+#, fuzzy
+#~ msgid ""
+#~ "A string specifying the beginning of a structure, like <b>{</b> in many "
+#~ "cases."
+#~ msgstr "A string 共 a 类似<b></b> 属于."
+
+#, fuzzy
+#~ msgid "Comma-separated list of the local scope defining keywords"
+#~ msgstr "逗号 共 本地"
+
+#, fuzzy
+#~ msgid ""
+#~ "Comma-separated list of the local scope defining keywords. Other "
+#~ "structure group elements found under a structure node that was created "
+#~ "based on a keyword from this list are treated as local elements. For "
+#~ "example if this list contains <b>function</b>, it means that elements, "
+#~ "like variables found under a <b>function</b> are local, relative to the "
+#~ "node that holds the <b>function</b>."
+#~ msgstr ""
+#~ "逗号 共 本地 其它 类别 a 开 a 自 如 本地 等 包含<b></b> 类似 a<b></b> 本"
+#~ "地 到<b></b>."
+
+#~ msgid "Local scope keywords:"
+#~ msgstr "本地范围关键字："
+
+#, fuzzy
+#~ msgid "A string specifying the end of a structure"
+#~ msgstr "A string 共 a"
+
+#, fuzzy
+#~ msgid ""
+#~ "A string specifying the end of a structure, like <b>}</b> in many cases."
+#~ msgstr "A string 共 a 类似<b></b> 属于."
+
+#~ msgid "Structure end:"
+#~ msgstr "结构结束："
+
+#, fuzzy
+#~ msgid "Regular expression to find out when to invoke member autocompletion"
+#~ msgstr "常规 表达式 到 到"
+
+#, fuzzy
+#~ msgid ""
+#~ "Regular expression to find out when to invoke member autocompletion. "
+#~ "<br>\n"
+#~ "Example:<br>\n"
+#~ "- we have a class called <b>foo</b> with some member variables<br>\n"
+#~ "- the object of type <b>foo</b> is used in the document as $<b>objFoo</"
+#~ "b><br>\n"
+#~ "- the members can appear as <b>$objFoo->member</b> or <b>$objFoo.member</"
+#~ "b>\n"
+#~ "- in the above case this entry should look like <b>(?:-&gt;|\\.)$</b> "
+#~ "(autocomplete if the object is followed by <b>-&gt;</b> or <b>.</b>)<br>\n"
+#~ "    The regular expression must be terminated with <b>$</b> (match end of "
+#~ "line)."
+#~ msgstr ""
+#~ "常规 表达式 到 到<br><br> a<b></b> 为 某些<br> 天体 共 类型<b></b> 是 属"
+#~ "于 如<b></b><br> 如<b></b> 或<b></b> 属于 类似<b>&gt;</b> 天体 是<b>&gt;</"
+#~ "b> 或<b></b><br>\n"
+#~ " 表达式 为<b></b> 匹配 共 直线."
+
+#, fuzzy
+#~ msgid "Complete class members after:"
+#~ msgstr "完成:"
+
+#, fuzzy
+#~ msgid "Complete attributes after:"
+#~ msgstr "完成:"
+
+#~ msgid "The character specifying the end of an attribute"
+#~ msgstr "指定一个属性结束的字符"
+
+#, fuzzy
+#~ msgid ""
+#~ "The character specifying the end of an attribute. By default it is <b>\"</"
+#~ "b> for XML DTEPs and <b>,</b> for pseudo DTEPs."
+#~ msgstr "共 默认 是<b></b> XML 和<b></b>."
+
+#~ msgid "Attribute separator:"
+#~ msgstr "属性分隔符："
+
+#, fuzzy
+#~ msgid "Comma-separated list of DTEPs that can be present inside this DTEP"
+#~ msgstr "逗号 共 现在时"
+
+#~ msgid "Included DTEPs:"
+#~ msgstr "包含的 DTEP："
+
+#, fuzzy
+#~ msgid ""
+#~ "The autocompletion box is brought up automatically once this character is "
+#~ "entered or space is pressed after this character.<br> For real DTEPs it "
+#~ "is usually <b>&lt;</b>, but for example for the CSS pseudo DTEP it is <b>"
+#~ "{</b>. The text <b>none</b> instead of a character specifies that the tag "
+#~ "completion box should not be brought up automatically, only if the user "
+#~ "requests it."
+#~ msgstr ""
+#~ "方框 是 是 或 是<br> 等 是<b>&lt;</b> CSS 是<b></b> 文本<b> 无</b> 共 a 方"
+#~ "框 用户."
+
+#~ msgid ""
+#~ "The character specifying the end of a tag. See the information for the "
+#~ "attribute separator for details."
+#~ msgstr "指定一个标签结束的字符。查看属性分隔符的信息了解详情。"
+
+#~ msgid "Tag separator:"
+#~ msgstr "标签分隔符："
+
+#~ msgid "Structures"
+#~ msgstr "结构"
+
+#~ msgid "Available groups:"
+#~ msgstr "可用组："
+
+#~ msgid "&Edit..."
+#~ msgstr "编辑(&E)..."
+
+#~ msgid "&Delete"
+#~ msgstr "删除(&D)"
+
+#~ msgid "Structure Group Editor"
+#~ msgstr "结构组编辑器"
+
+#~ msgid "&Name:"
+#~ msgstr "名称(&N)："
+
+#~ msgid "The name of the group"
+#~ msgstr "组名称"
+
+#~ msgid ""
+#~ "The user visible name of the group. It will be shown in the structure "
+#~ "tree as a top node when there are elements belonging to this group in the "
+#~ "document."
+#~ msgstr ""
+#~ "该组的用户可见名。当文档中有元素属于该组时，该名称会被作为根结点显示在结构"
+#~ "树上。"
+
+#~ msgid "&Icon:"
+#~ msgstr "图标(&I)："
+
+#~ msgid "Regular expression to get the filename"
+#~ msgstr "获得文件名的正则表达式"
+
+#~ msgid ""
+#~ "Regular expression to get the filename. The expression is used to "
+#~ "<b>remove</b> the unnecessary strings from the element's text."
+#~ msgstr ""
+#~ "获取文件名的正则表达式。该表达式用来<b>删除</b>元素文本中的多余字符串。"
+
+#~ msgid "Filen&ame definition:"
+#~ msgstr "文件名定义(&A)："
+
+#~ msgid "True if the element's text contains a filename"
+#~ msgstr "如果元素文本包含一个文件名则为真"
+
+#~ msgid "Contains a &filename"
+#~ msgstr "包含文件名(&F)"
+
+#~ msgid "Elements identified by this entry will belong to this group"
+#~ msgstr "由该条目标识的元素将属于这个组"
+
+#~ msgid ""
+#~ "Defines which tags belong to this group. The format is <i>tagname"
+#~ "(attribute1, attribute2, ...)</i>. Tags with name <i>tagname</i> will "
+#~ "appear under this group. The item text of the corresponding node in the "
+#~ "tree will be <i>attribute1_value | attribute2_value | ...</i>Currently "
+#~ "only one tag may be listed here."
+#~ msgstr ""
+#~ "定义哪个标签属于这个组。格式是 <i>标签名(属性1,属性2…)</i>。 树中相应节点"
+#~ "的条目文本将会是 <i>属性1_值 | 属性2_值 | ...</i> 目前这里只能列出一个标"
+#~ "签。"
+
+#~ msgid "&Tag:"
+#~ msgstr "标签(&T)："
+
+#~ msgid "The name that appears when no element were found"
+#~ msgstr "当没找到元素时显示的名字"
+
+#~ msgid ""
+#~ "The user visible name of the group. It will be shown in the structure "
+#~ "tree as a top node when there are <b>no</b> elements belonging to this "
+#~ "group in the document."
+#~ msgstr ""
+#~ "该组的用户可见名。当文档中<b>没有</b>元素属于该组时，该名称会被作为根结点"
+#~ "显示在结构树上。"
+
+#~ msgid "\"No\" na&me:"
+#~ msgstr "“No”名称(&M)："
+
+#~ msgid "Treat elements as new tags"
+#~ msgstr "将元素作为新标签"
+
+#~ msgid ""
+#~ "Treat elements as new tags, so they will show up during tag "
+#~ "autocompletion."
+#~ msgstr "将元素作为新标签，这样在标签自动完成时，它们将显示出来。"
+
+#~ msgid "Use elements as tags"
+#~ msgstr "将元素作为标签使用"
+
+#~ msgid "&Pseudo DTEP Specific Settings"
+#~ msgstr "虚拟DTEP相关设置(&P)"
+
+#~ msgid "Regular expression to find the type of the element"
+#~ msgstr "查找元素类型的正则表达式"
+
+#~ msgid "Regular expression to find the usage of a group element"
+#~ msgstr "查找组元素用法的正则表达式"
+
+#~ msgid ""
+#~ "Regular expression to find the usage of a group element in the document."
+#~ "<br>\n"
+#~ "Example 1:<br>\n"
+#~ "- classes are defined as  <b>class foo {...}</b><br>\n"
+#~ "- classes are used as <b>$objFoo</b><br><br>\n"
+#~ "Example 2:<br>\n"
+#~ "- variables are defined as <b>int i</b><br>\n"
+#~ "- variables are used as <b>@i</b><br><br>\n"
+#~ "Example 3:<br>\n"
+#~ "- variables are defined as <b>$i</b><br>\n"
+#~ "- variables are used as <b>$i</b>. In this case <i>UsageRx </i>is the "
+#~ "same as <i>DefinitionRx</i>."
+#~ msgstr ""
+#~ "在文档中查找一个组元素用法的正则表达式。 <br>\n"
+#~ "例子1：<br>\n"
+#~ "- 类被这样定义 <b>class foo {...}</b><br>\n"
+#~ "- 类被这样使用 <b>$objFoo</b><br><br>\n"
+#~ "例子2：<br>\n"
+#~ "- 变量被这样定义 <b>int i</b><br>\n"
+#~ "- 变量被这样使用 <b>@i</b><br><br>\n"
+#~ "例子3：<br>\n"
+#~ " - 变量被这样定义 <b>$i</b><br>\n"
+#~ "- 变量被这样使用 <b>$i</b>。在这种情况下，<i>调用表达式</i>跟<i>定义表达式"
+#~ "</i>是一样的。"
+
+#~ msgid "&Usage expression:"
+#~ msgstr "用法表达式(&U)："
+
+#~ msgid "Element t&ype expression:"
+#~ msgstr "元素类型表达式(&Y)："
+
+#~ msgid "Regular expression to find what belong to this group"
+#~ msgstr "查找属于该组的元素的正则表达式"
+
+#, fuzzy
+#~ msgid ""
+#~ "Regular expression used to find text areas in the document, which will "
+#~ "belong to this group. The first captured area shouldbe the actual name of "
+#~ "the group entry.<br>\n"
+#~ "Example for a <i>class</i> group:<br>\n"
+#~ "<b>\\bclass[\\\\s]+([0-9a-zA-Z_\\x7f-\\xff]*)[\\\\s]*</b><br>\n"
+#~ "The first captured area (between \"<b>(</b>\" and \"<b>)</b>\") holds the "
+#~ "class name."
+#~ msgstr ""
+#~ "常规 表达式 到 文本 属于 到 类别 第一 名字 共 类别<br> a<i></i> 类别<br>\n"
+#~ "<b> 秒 Z 秒</b><br> 第一 介于<b></b> 和<b></b> 名字."
+
+#~ msgid "Definition e&xpression:"
+#~ msgstr "定义表达式(&X)："
+
+#~ msgid "The name of the group that may be the parent of this"
+#~ msgstr "可能是本项父组的名称"
+
+#~ msgid ""
+#~ "The name of the group that may be the parent of this. For example "
+#~ "<b>classes</b> might be a parent of <b>functions</b> in case of member "
+#~ "functions. This entry indicates this possible relationship and is used to "
+#~ "provide functionality like member autocompletion."
+#~ msgstr ""
+#~ "可能是本项父组的名称。 例如 <b>类</b>可能是<b>函数</b>的一个父组。这个条目"
+#~ "指出组之间可能的关系，以便于提供一些例如成员自动补全的功能。"
+
+#~ msgid "Parent group:"
+#~ msgstr "父组："
+
+#~ msgid "Only tags of this type can be part of the group"
+#~ msgstr "只有该类型的标签可以作为组的一部分"
+
+#~ msgid "Searched tags:"
+#~ msgstr "搜索标签："
+
+#~ msgid ""
+#~ "Regular expression used to remove unwanted strings from the completion "
+#~ "text"
+#~ msgstr "用于从补全文本中删除不要的字符串的正则表达式"
+
+#~ msgid "Remove when autocompleting:"
+#~ msgstr "自动补全时删除："
+
+#~ msgid ""
+#~ "Regular expression to tell when to bring up the completion box with the "
+#~ "elements of this group"
+#~ msgstr "声明什么时候弹出带有本组元素补全窗口的正则表达式"
+
+#~ msgid ""
+#~ "Regular expression to tell when to bring up the completion box with the "
+#~ "elements of this group.<br>\n"
+#~ "Example:<b>\\bnew[\\\\s]+$</b> tells that after typing <b>new&nbsp;</b>, "
+#~ "the completion box with the elements should be shown."
+#~ msgstr ""
+#~ "声明什么时候弹出带有本组元素补全窗口的正则表达式。<br>\n"
+#~ "例如：<b>\\bnew[\\\\s]+$</b>表示在输入 <b>new&nbsp;</b> 后，带有元素的补全"
+#~ "窗口必需显示出来。"
+
+#~ msgid "Autocomplete after:"
+#~ msgstr "自动补全于："
+
+#~ msgid "XmlTag"
+#~ msgstr "XML 标签"
+
+#~ msgid "XmlTagEnd"
+#~ msgstr "XML 标签结束"
+
+#~ msgid "Comment"
+#~ msgstr "注释"
+
+#~ msgid "CSS"
+#~ msgstr "CSS"
+
+#~ msgid "ScriptTag"
+#~ msgstr "脚本标签"
+
+#~ msgid "ScriptStructureBegin"
+#~ msgstr "脚本结构开始"
+
+#~ msgid "ScriptStructureEnd"
+#~ msgstr "脚本结构结束"
+
+#~ msgid "Check if the filename that is in the elements text should be parsed"
+#~ msgstr "检查此元素文本中的文件名是否必须被解析"
+
+#~ msgid ""
+#~ "Check if the filename that is in the elements text should be parsed. This "
+#~ "makes sense only if the element may contain a filename and the "
+#~ "<i>FileNameRx</i> is specified."
+#~ msgstr ""
+#~ "检查此元素文本中的文件名是否必须被解析。这只在当元素中包含文件名，且指定了"
+#~ "<i>文件名表达式</i>时有用。"
+
+#~ msgid "Parse file"
+#~ msgstr "分析文件"
+
+#~ msgid "Type"
+#~ msgstr "类型"
+
+#~ msgid "This is a simple group, nothing special"
+#~ msgstr "这是一个简单组，没什么特别的"
+
+#~ msgid "Simple"
+#~ msgstr "简单"
+
+#~ msgid "The group's elements are variables"
+#~ msgstr "这个组的元素是变量"
+
+#~ msgid "Variable group"
+#~ msgstr "变量组"
+
+#~ msgid "The group's elements are functions"
+#~ msgstr "这个组的元素是函数"
+
+#~ msgid "Function group"
+#~ msgstr "函数组"
+
+#~ msgid "The group's elements are classes"
+#~ msgstr "这个组的元素是类"
+
+#~ msgid "Class group"
+#~ msgstr "类组"
+
+#~ msgid "The group's elements are objects"
+#~ msgstr "这个组的元素是对象"
+
+#~ msgid "Ob&ject group"
+#~ msgstr "对象组(&J)"
+
+#~ msgid ""
+#~ "Enable to use the minimal style search for definition instead of the "
+#~ "standard (greedy) matching"
+#~ msgstr "启用此项使用最小样式搜索定义，而不用标准(贪婪)匹配算法"
+
+#~ msgid "Minimal search mode"
+#~ msgstr "最小搜索模式"
+
+#~ msgid "Tag case:"
+#~ msgstr "标签大小写："
+
+#~ msgid "Default Case"
+#~ msgstr "默认大小写"
+
+#~ msgid "Lower Case"
+#~ msgstr "小写"
+
+#~ msgid "Upper Case"
+#~ msgstr "大写"
+
+#~ msgid "Default &DTD:"
+#~ msgstr "默认 DTD(&D)："
+
+#~ msgid "Double Quotes"
+#~ msgstr "双引号"
+
+#~ msgid "Single Quotes"
+#~ msgstr "单引号"
+
+#~ msgid "Attribute quotation:"
+#~ msgstr "属性引用："
+
+#~ msgid "Attribute case:"
+#~ msgstr "属性大小写："
+
+#~ msgid "Case-sensitive tags and attributes"
+#~ msgstr "标签和属性区分大小写"
+
+#~ msgid "&Fine-tune the DTEP after conversion"
+#~ msgstr "转换后调整 DTEP(&F)"
+
+#~ msgid "Table Editor"
+#~ msgstr "表格编辑器"
+
+#~ msgid "&Help"
+#~ msgstr "帮助(&H)"
+
+#~ msgid "F1"
+#~ msgstr "F1"
+
+#~ msgid "Main"
+#~ msgstr "主要"
+
+#~ msgid "Table &data:"
+#~ msgstr "表格数据(&D)："
+
+#~ msgid "Co&lumns:"
+#~ msgstr "列数(&L)"
+
+#~ msgid "&Body Properties"
+#~ msgstr "内容属性(&B)"
+
+#~ msgid "&Table Properties"
+#~ msgstr "表格属性(&T)"
+
+#~ msgid "C&aption:"
+#~ msgstr "标题(&A):"
+
+#~ msgid "&Rows:"
+#~ msgstr "行数(&R):"
+
+#, fuzzy
+#~ msgid "Header"
+#~ msgstr "页眉"
+
+#, fuzzy
+#~| msgid "Number of columns:"
+#~ msgid "Header co&lumns:"
+#~ msgstr "列数："
+
+#, fuzzy
+#~ msgid "Header &data:"
+#~ msgstr "标题"
+
+#~ msgid "&Insert table header"
+#~ msgstr "插入表头(&I)"
+
+#, fuzzy
+#~ msgid "&Header Properties"
+#~ msgstr "信头属性"
+
+#~ msgid "Footer"
+#~ msgstr "页脚"
+
+#~ msgid "Footer &rows:"
+#~ msgstr "页脚行(&R)："
+
+#~ msgid "Footer co&lumns:"
+#~ msgstr "页脚列(&L)："
+
+#~ msgid "Footer &data:"
+#~ msgstr "页脚数据(&D)："
+
+#, fuzzy
+#~| msgid "Insert Folder"
+#~ msgid "&Insert table footer"
+#~ msgstr "插入文件夹"
+
+#~ msgid "&Footer Properties"
+#~ msgstr "页脚属性(&F)"
+
+#~ msgid "Form1"
+#~ msgstr "表单1"
+
+#~ msgid "&Add"
+#~ msgstr "添加(&A)"
+
+#~ msgid "Ty&pe:"
+#~ msgstr "类型(&P):"
+
+#~ msgid "&Input::"
+#~ msgstr "输入(&I)："
+
+#~ msgid "Current document"
+#~ msgstr "当前文档"
+
+#~ msgid "Selected text"
+#~ msgstr "选中文字"
+
+#~ msgid "Path Mappings"
+#~ msgstr "路径映射"
+
+#~ msgid "Host Name:"
+#~ msgstr "主机名："
+
+#~ msgid "Database Name:"
+#~ msgstr "数据库名："
+
+#~ msgid "User Name:"
+#~ msgstr "用户名："
+
+#~ msgid "Password:"
+#~ msgstr "密码："
+
+#~ msgid "Driver:"
+#~ msgstr "驱动："
+
+#~ msgid "TestResult"
+#~ msgstr "测试结果"
+
+#~ msgid "Connection:"
+#~ msgstr "连接："
+
+#~ msgid "TextLabel"
+#~ msgstr "文本标签"
+
+#, fuzzy
+#~| msgid "Detailed Settings"
+#~ msgid "Formatter Settings"
+#~ msgstr "细节设置"
+
+#, fuzzy
+#~| msgid "&Indent"
+#~ msgid "Indent size:"
+#~ msgstr "增加缩进(&I)"
+
+#, fuzzy
+#~| msgid "False:"
+#~ msgid "Case:"
+#~ msgstr "False："
+
+#~ msgid "No change"
+#~ msgstr "无更改"
+
+#~ msgid "Lower case"
+#~ msgstr "小写"
+
+#~ msgid "Upper case"
+#~ msgstr "大写"
+
+#~ msgid "DOCTYPE"
+#~ msgstr "DOCTYPE"
+
+#~ msgid "Add &catalog..."
+#~ msgstr "添加类别(&C)..."
+
+#, fuzzy
+#~| msgid "DTD / Schema:"
+#~ msgid "&Add DTD or Schema..."
+#~ msgstr "DTD/大纲："
+
+#~ msgid "&Update"
+#~ msgstr "更新(&U)"
+
+#~ msgid "Open this entry."
+#~ msgstr "打开此条目。"
+
+#~ msgid "Open"
+#~ msgstr "打开"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Server:"
+#~ msgstr "服务器："
+
+#~ msgid "Enter arguments to give to the executable"
+#~ msgstr "输入要传递给可执行文件的参数"
+
+#~ msgid "Arguments:"
+#~ msgstr "参数："
+
+#~ msgid "localhost"
+#~ msgstr "localhost"
+
+#~ msgid "Enter the path"
+#~ msgstr "输入路径"
+
+#~ msgid "Path:"
+#~ msgstr "路径："
+
+#~ msgid "Browser:"
+#~ msgstr "浏览器："
+
+#~ msgid "Enter a project target as path in the tree"
+#~ msgstr "输入树形目录路径中的工程目标"
+
+#~ msgid "Script:"
+#~ msgstr "脚本："
+
+#~ msgid "Project Target:"
+#~ msgstr "工程目标："
+
+#~ msgid "Interpreter:"
+#~ msgstr "解释器："
+
+#~ msgid "Execute on Host"
+#~ msgstr "在主机上执行"
+
+#~ msgid "Local Host"
+#~ msgstr "本地主机"
+
+#~ msgid "Remote Host (ssh):"
+#~ msgstr "远程主机(ssh)："
+
+#~ msgid "Enter a remote host (user@example.com)"
+#~ msgstr "输入远程主机 (user@example.com)"
+
+#~ msgid "Behavior"
+#~ msgstr "行为"
+
+#~ msgid "Working Directory:"
+#~ msgstr "工作目录："
+
+#~ msgid "Select a working directory for the executable"
+#~ msgstr "选择可执行文件的工作目录"
+
+#~ msgid "Environment:"
+#~ msgstr "环境："
+
+#~ msgid "Select an environment to be used"
+#~ msgstr "选择要使用的环境"
+
+#~ msgid "External Terminal:"
+#~ msgstr "外部终端："
+
+#~ msgid "Upload"
+#~ msgstr "上传"
+
+#~ msgid "Mark as uploaded, but do not upload"
+#~ msgstr "标记为已上传，但不要真的上传"
+
+#~ msgid "&Add Profile"
+#~ msgstr "添加配置(&A)"
+
+#~ msgid "&Remove Profile"
+#~ msgstr "删除配置(&R)"
+
+#~ msgid "&Modify Profile"
+#~ msgstr "修改配置(&M)"
+
+#~ msgid "Profile &name:"
+#~ msgstr "配置名(&N)："
+
+#~ msgid "&Protocol:"
+#~ msgstr "协议(&P)："
+
+#~ msgid "&Host:"
+#~ msgstr "主机(&H)："
+
+#~ msgid "Po&rt:"
+#~ msgstr "端口(&R)："
+
+#~ msgid "&User:"
+#~ msgstr "用户(&U)："
+
+#~ msgid "Pa&th:"
+#~ msgstr "路径(&T)："
+
+#~ msgid "Use as &default profile"
+#~ msgstr "设为默认配置(&D)"
+
+#~ msgid "&Project"
+#~ msgstr "工程(&P)"
+
+#~ msgid "&Tools"
+#~ msgstr "工具(&T)"
+
+#~ msgid "&Tags"
+#~ msgstr "标签(&T)"
+
+#~ msgid "&Actions"
+#~ msgstr "动作(&A)"
+
+#~ msgid "User Too&lbars"
+#~ msgstr "用户工具栏(&L)"
+
+#~ msgid "&Load Toolbars"
+#~ msgstr "装入工具栏(&L)"
+
+#~ msgid "&Save Toolbars"
+#~ msgstr "保存工具栏(&S)"
+
+#~ msgid "User Toolbar"
+#~ msgstr "用户工具栏"
+
+#~ msgid "&Edit"
+#~ msgstr "编辑(&E)"
+
+#~ msgid "Paste Special"
+#~ msgstr "选择性粘贴"
+
+#~ msgid "&View"
+#~ msgstr "查看(&V)"
+
+#~ msgid "&DTD"
+#~ msgstr "&DTD"
+
+#~ msgid "T&ools"
+#~ msgstr "工具(&O)"
+
+#~ msgid "&Settings"
+#~ msgstr "设置(&S)"
+
+#~ msgid "Navigation Toolbar"
+#~ msgstr "导航工具栏"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Run"
+#~ msgstr "运行"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Edit"
+#~ msgstr "编辑"
+
+#~ msgid "Quanta+ KDE XML Validator"
+#~ msgstr "Quanta+ KDE XML 校验程序"
+
+#~ msgid "Validate"
+#~ msgstr "校验"
+
+#~ msgid "Close"
+#~ msgstr "关闭"
+
+#~ msgid "Current Working Folder"
+#~ msgstr "当前工作文件夹"
+
+#~ msgid "Other Folder:"
+#~ msgstr "其它文件夹："
+
+#~ msgid "dwt - Apply Dreamweaver Template"
+#~ msgstr "dwt - 应用 Dreamweaver 模板"
+
+#~ msgid "OK"
+#~ msgstr "确定"
+
+#~ msgid "Full Project Path"
+#~ msgstr "工程的完整路径"
+
+#~ msgid "Show Debug Messages"
+#~ msgstr "显示调试消息"
+
+#~ msgid "dwt.pl"
+#~ msgstr "dwt.pl"
+
+#~ msgid "Script Location"
+#~ msgstr "脚本位置"
+
+#~ msgid "Help"
+#~ msgstr "帮助"
+
+#~ msgid "Quick Start"
+#~ msgstr "快速启动"
+
+#~ msgid "Quanta Plus Kommander Quick Start"
+#~ msgstr "Quanta Plus Kommander 快速启动"
+
+#, fuzzy
+#~| msgid "DTD / Schema:"
+#~ msgid "DTD / Schema"
+#~ msgstr "DTD/大纲："
+
+#~ msgid "Body Area"
+#~ msgstr "Body 区域"
+
+#, fuzzy
+#~ msgid "PHP Footer Include"
+#~ msgstr "PHP:"
+
+#~ msgid "PHP Header Include"
+#~ msgstr "PHP 页眉包含"
+
+#~ msgid "Show DTD"
+#~ msgstr "显示 DTD"
+
+#~ msgid "HTML 4.01 Transitional"
+#~ msgstr "HTML 4.01 Transitional"
+
+#~ msgid "HTML 4.01 Strict"
+#~ msgstr "HTML 4.01 Strict"
+
+#~ msgid "HTML 4.01 Frameset"
+#~ msgstr "HTML 4.01 Frameset"
+
+#~ msgid "XHTML 1.0 Transitional"
+#~ msgstr "XHTML 1.0 Transitional"
+
+#~ msgid "XHTML 1.0 Strict"
+#~ msgstr "XHTML 1.0 Strict"
+
+#~ msgid "XHTML 1.0 Frameset"
+#~ msgstr "XHTML 1.0 Frameset"
+
+#, fuzzy
+#~ msgid "Head Area"
+#~ msgstr "标题"
+
+#, fuzzy
+#~ msgid "CVS Tag in Comment"
+#~ msgstr "属于 注释"
+
+#~ msgid "Meta Author"
+#~ msgstr "Meta 作者"
+
+#~ msgid "Meta Character Set"
+#~ msgstr "元字符集"
+
+#~ msgid "Style Area"
+#~ msgstr "样式区域"
+
+#~ msgid "iso-8859-1"
+#~ msgstr "iso-8859-1"
+
+#~ msgid "iso-8859-2"
+#~ msgstr "iso-8859-2"
+
+#~ msgid "iso-8859-3"
+#~ msgstr "iso-8859-3"
+
+#~ msgid "iso-8859-4"
+#~ msgstr "iso-8859-4"
+
+#~ msgid "iso-8859-5"
+#~ msgstr "iso-8859-5"
+
+#~ msgid "iso-8859-6"
+#~ msgstr "iso-8859-6"
+
+#~ msgid "iso-8859-7"
+#~ msgstr "iso-8859-7"
+
+#~ msgid "iso-8859-8"
+#~ msgstr "iso-8859-8"
+
+#~ msgid "iso-8859-8i"
+#~ msgstr "iso-8859-8i"
+
+#~ msgid "iso-8859-9"
+#~ msgstr "iso-8859-9"
+
+#~ msgid "iso-8859-10"
+#~ msgstr "iso-8859-10"
+
+#~ msgid "iso-8859-11"
+#~ msgstr "iso-8859-11"
+
+#~ msgid "iso-8859-12"
+#~ msgstr "iso-8859-12"
+
+#~ msgid "iso-8859-13"
+#~ msgstr "iso-8859-13"
+
+#~ msgid "iso-8859-14"
+#~ msgstr "iso-8859-14"
+
+#~ msgid "iso-8859-15"
+#~ msgstr "iso-8859-15"
+
+#~ msgid "UTF-8"
+#~ msgstr "UTF-8"
+
+#~ msgid "UTF-16"
+#~ msgstr "UTF-16"
+
+#, fuzzy
+#~| msgid "limit to 8, separate with commas"
+#~ msgid "limit to 8, seperate with commas"
+#~ msgstr "限制到8，使用逗号隔开"
+
+#~ msgid "Base Directory"
+#~ msgstr "基准目录"
+
+#, fuzzy
+#~ msgid "Meta Quanta"
+#~ msgstr "Meta Quanta"
+
+#, fuzzy
+#~ msgid "Meta Keywords"
+#~ msgstr "Meta:"
+
+#~ msgid "Linked Style Sheet"
+#~ msgstr "链接的样式表"
+
+#~ msgid "Title"
+#~ msgstr "标题"
+
+#~ msgid "Javascript Area"
+#~ msgstr "JavaScript 区域"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "Quanta+: meinproc"
+#~ msgstr "Quanta+: meinproc"
+
+#~ msgid "View In Konqueror?"
+#~ msgstr "在 Konqueror 中查看吗？"
+
+#~ msgid "Process"
+#~ msgstr "处理"
+
+#~ msgid "Quanta Script Info Generator"
+#~ msgstr "Quanta 脚本信息生成器"
+
+#~ msgid "Enter Info"
+#~ msgstr "输入信息"
+
+#~ msgid "Please fill in all fields"
+#~ msgstr "请填入全部域"
+
+#~ msgid "Script Name:"
+#~ msgstr "脚本名称："
+
+#, fuzzy
+#~| msgid "Enter the script name with the extension"
+#~ msgid "Enter the script name with the extention"
+#~ msgstr "输入带扩展名的脚本名称"
+
+#~ msgid "About Script:"
+#~ msgstr "关于脚本："
+
+#~ msgid "Formatting may be done with XHTML tags"
+#~ msgstr "格式化可通过 XHTML 标签完成"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#, fuzzy
+#~ msgid "The location of your up to date file on the web"
+#~ msgstr "共 到 日期 文件 开"
+
+#~ msgid "Script Author:"
+#~ msgstr "脚本作者："
+
+#~ msgid "Script License:"
+#~ msgstr "脚本许可："
+
+#~ msgid "Select the directory to write the .info file to"
+#~ msgstr "选择要写入 .info 文件的目录"
+
+#~ msgid "GPL"
+#~ msgstr "GPL"
+
+#~ msgid "LGPL"
+#~ msgstr "LGPL"
+
+#~ msgid "BSD"
+#~ msgstr "BSD"
+
+#~ msgid "Public Domain"
+#~ msgstr "公共域"
+
+#~ msgid "Other"
+#~ msgstr "其它"
+
+#, fuzzy
+#~| msgid "Size of the included images:"
+#~ msgid "If other include in about"
+#~ msgstr "所包含图像的大小："
+
+#~ msgid "Editor/Executor:"
+#~ msgstr "编辑器/执行器："
+
+#~ msgid "Author Email:"
+#~ msgstr "作者邮件："
+
+#~ msgid "Web Address:"
+#~ msgstr "Web 地址："
+
+#~ msgid "Version Number:"
+#~ msgstr "版本号："
+
+#~ msgid "kmdr-editor"
+#~ msgstr "kmdr-editor"
+
+#~ msgid "kwrite"
+#~ msgstr "kwrite"
+
+#~ msgid "kate"
+#~ msgstr "kate"
+
+#~ msgid "kdevelop"
+#~ msgstr "kdevelop"
+
+#~ msgid "Optional: Editor other than Quanta to use for this script"
+#~ msgstr "可选：此脚本使用 Quanta 以外的编辑器"
+
+#~ msgid "kmdr-executor"
+#~ msgstr "kmdr-executor"
+
+#~ msgid "perl"
+#~ msgstr "perl"
+
+#~ msgid "php"
+#~ msgstr "php"
+
+#~ msgid "Optional: External program executor"
+#~ msgstr "可选：外部程序执行器"
+
+#~ msgid "Script Location:"
+#~ msgstr "脚本位置："
+
+#~ msgid "Write File"
+#~ msgstr "写文件"
+
+#~ msgid "About"
+#~ msgstr "关于"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\"font-size:11pt;font-family:helvetica\">\n"
+#~ "<p style=\"margin-top:16px\"><span style=\"font-weight:600\">Quanta Plus "
+#~ "Submitter Info Files</span></p>\n"
+#~ "<p>The purpose of these files is to provide developers with proper "
+#~ "credit, expose licensing information and give users thumbnail information "
+#~ "about scripts and templates at a glance. We ask that you try to do "
+#~ "several things here.</p>\n"
+#~ "<ul type=\"disc\"><li>Fill in all the fields. They are all there for a "
+#~ "reason.</li>\n"
+#~ "<li>Contact the appropriate Quanta script and template maintainer or a "
+#~ "member of our team when you have new releases so we can include them. As "
+#~ "we plan to build a huge repository we have to rely on you here.</li></"
+#~ "ul>\n"
+#~ "<p>The additional information serves as a backup. Any time a user wants "
+#~ "they can click the link to go to your site and get updates, docs or "
+#~ "whatever they require. Thank you for helping us to make this a great "
+#~ "feature</p>\n"
+#~ "<p align=\"center\" style=\"margin-top:14px\"><span style=\"font-"
+#~ "weight:600\">Contact Information</span></p>\n"
+#~ "<p align=\"center\">Quanta Resource Maintainer - (none at this time)<br /"
+#~ ">Lead Developer - Andras Mantia <a href=\"mailto:amantia@freemail.hu?"
+#~ "subject=ScriptInfo\">amantia@freemail.hu</a><br />Project Lead - Eric "
+#~ "Laffoon <a href=\"mailto:sequitur@kde.org?subject=ScriptInfo"
+#~ "\">sequitur@kde.org</a></p>\n"
+#~ "</body></html>\n"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\"font-size:11pt;font-family:sans-serif\">\n"
+#~ "<p style=\"margin-top:16px\"><span style=\"font-weight:600\"> Quanta 信息 "
+#~ "文件</span></p>\n"
+#~ "<p> 共 是 到 为 和 和 模板 AT a 询问 到</p>\n"
+#~ "<ul type=\"disc\"><li> 填充 属于 全部 全部 a</li>\n"
+#~ "<li> 联系人 Quanta 和 维护人 或 a 共 新的 到 a 到 开</li></ul>\n"
+#~ "<p> 如 a 任何 时间 a 用户 链接 到 到 和 或 us 到 a</p>\n"
+#~ "<p align=\"center\" style=\"margin-top:14px\"><span style=\"font-"
+#~ "weight:600\"> 联系人 信息</span></p>\n"
+#~ "<p align=\"center\"> Quanta 资源 维护者 无 AT 时间<br /> 前导 开发者<a "
+#~ "href=\"mailto:amantia@kde.org?subject=ScriptInfo\">amantia@kde.org</"
+#~ "a><br /> Kommander<a href=\"mailto:mrudolf@kdewebdev.org?"
+#~ "subject=ScriptInfo\">mrudolf@kdewebdev.org</a><br /> 工程 前导<a href="
+#~ "\"mailto:sequitur@kde.org?subject=ScriptInfo\">sequitur@kde.org</a></p>\n"
+#~ "</body></html>"
+
+#~ msgid "Tidy by Kommander"
+#~ msgstr "由 Kommander 处理"
+
+#~ msgid "General Options"
+#~ msgstr "常规选项"
+
+#~ msgid "Non Tidy Option"
+#~ msgstr "无简化选项"
+
+#, fuzzy
+#~ msgid ""
+#~ "Note:  This will not work well if you have multiple \n"
+#~ "instances of Quanta running."
+#~ msgstr "注释 共 Quanta 正在运行."
+
+#, fuzzy
+#~ msgid "Use DCOP to send active page from Quanta+ to tidy"
+#~ msgstr "使用 到 主动 页 自 Quanta 到"
+
+#~ msgid "Path to tidy (required)"
+#~ msgstr "要简化的路径(必填)"
+
+#, fuzzy
+#~ msgid "Input from file instead of stdin"
+#~ msgstr "输入 自 文件 共:"
+
+#, fuzzy
+#~ msgid "Write errors to file instead of stderr"
+#~ msgstr "写入 错误 到 文件 共:"
+
+#~ msgid "Use configuration from file"
+#~ msgstr "使用文件中的配置"
+
+#~ msgid "Output to file instead of stdout"
+#~ msgstr "输出到文件而不是 stdout"
+
+#~ msgid "Modify original input files"
+#~ msgstr "修改原始的输入文件"
+
+#~ msgid "/usr/bin"
+#~ msgstr "/usr/bin"
+
+#~ msgid "Processing Directives"
+#~ msgstr "处理指令"
+
+#, fuzzy
+#~ msgid "force XHTML to well formed HTML"
+#~ msgstr "强制 到 HTML"
+
+#, fuzzy
+#~ msgid "convert HTML to well formed XHTML"
+#~ msgstr "转换 HTML 到"
+
+#, fuzzy
+#~ msgid "replace FONT, NOBR and CENTER tags by CSS"
+#~ msgstr "替换 和 CSS"
+
+#, fuzzy
+#~ msgid "Force tags to upper case"
+#~ msgstr "强制 到"
+
+#, fuzzy
+#~ msgid "specify the input is well formed XML"
+#~ msgstr "是 XML"
+
+#, fuzzy
+#~ msgid "omit optional end tags"
+#~ msgstr "自动关闭可选标签(&O)"
+
+#~ msgid "output numeric rather than named entities"
+#~ msgstr "输出数字而非命名实体"
+
+#~ msgid "only show errors"
+#~ msgstr "仅显示错误"
+
+#~ msgid "Wrap text at column"
+#~ msgstr "文本自动换行"
+
+#, fuzzy
+#~ msgid "convert HTML to well formed XML"
+#~ msgstr "转换 HTML 到 XML"
+
+#~ msgid "Indent element content"
+#~ msgstr "缩进元素内容"
+
+#, fuzzy
+#~ msgid "strip out smart quotes and em dashes, etc."
+#~ msgstr "剥离 和."
+
+#, fuzzy
+#~ msgid "suppress nonessential output"
+#~ msgstr "基本的 输出"
+
+#~ msgid "Character Encodings"
+#~ msgstr "字符编码"
+
+#~ msgid "(ibm858) use IBM-858 (CP850+Euro) for input, US-ASCII for output"
+#~ msgstr "(ibm858) 使用 IBM-858 (CP850+Euro) 输入，US-ASCII 输出"
+
+#, fuzzy
+#~ msgid "(raw) output values above 127 without conversion to entities"
+#~ msgstr "raw 输出 到"
+
+#~ msgid "(utf16le) use UTF-16LE for both input and output"
+#~ msgstr "(utf16le) 输入和输出都使用 UTF-16LE"
+
+#, fuzzy
+#~ msgid "(latin1) use ISO-8859-1 for both input and output"
+#~ msgstr "latin1 ISO 和 输出"
+
+#~ msgid "(win1252) use Windows-1252 for input, US-ASCII for output"
+#~ msgstr "(win1252) 使用 Windows-1252 作为输入，US-ASCII 作为输出"
+
+#, fuzzy
+#~ msgid "(shiftjis) use Shift_JIS for both input and output"
+#~ msgstr "Shift 和 输出"
+
+#~ msgid "(utf16be) use UTF-16BE for both input and output"
+#~ msgstr "(utf16be) 输入和输出都使用 UTF-16BE"
+
+#, fuzzy
+#~ msgid "(ascii) use US-ASCII for output, ISO-8859-1 for input"
+#~ msgstr "输出 ISO"
+
+#, fuzzy
+#~ msgid "set the two-letter language code <lang> (for future use)"
+#~ msgstr "二 代码<lang> 将来时"
+
+#~ msgid "(utf16) use UTF-16 for both input and output"
+#~ msgstr "(utf16) 输入和输出都使用 UTF-16"
+
+#, fuzzy
+#~ msgid "(big5) use Big5 for both input and output"
+#~ msgstr "Big5 和 输出"
+
+#~ msgid "(utf8) use UTF-8 for both input and output"
+#~ msgstr "(utf8) 输入和输出都使用 UTF-8"
+
+#, fuzzy
+#~ msgid "(latin0) use US-ASCII for output, ISO-8859-1 for input"
+#~ msgstr "输出 ISO"
+
+#~ msgid "(mac) use MacRoman for input, US-ASCII for output"
+#~ msgstr "(mac) 使用 MacRoman 作为输入，US-ASCII 作为输出"
+
+#, fuzzy
+#~ msgid "(iso2022) use ISO-2022 for both input and output"
+#~ msgstr "ISO 和 输出"
+
+#~ msgid "About Tidy"
+#~ msgstr "关于 Tidy"
+
+#~ msgid "Quanta+ XML Validator"
+#~ msgstr "Quanta+ XML 校验器"
+
+#~ msgid "Current File"
+#~ msgstr "当前文件"
+
+#~ msgid "Other File:"
+#~ msgstr "其它文件："
+
+#~ msgid "Validate Against:"
+#~ msgstr "校验标准："
+
+#~ msgid "DTD (Internal)"
+#~ msgstr "DTD (内部)"
+
+#~ msgid "DTD (External)"
+#~ msgstr "DTD (外部)"
+
+#~ msgid "XML Schema"
+#~ msgstr "XML 大纲"
+
+#~ msgid "RelaxNG Schema"
+#~ msgstr "RelaxNG 大纲"
+
+#~ msgid "DTD"
+#~ msgstr "DTD"
+
+#~ msgid "W3C XML Schema"
+#~ msgstr "W3C XML 大纲"
+
+#~ msgid "Definition URI:"
+#~ msgstr "定义 URI："
+
+#~ msgid "Quanta+: xsltproc"
+#~ msgstr "Quanta+: xsltproc"
+
+#~ msgid "Translate"
+#~ msgstr "翻译"
+
+#~ msgid "File Location:"
+#~ msgstr "文件位置："
+
+#~ msgid "Stylesheet Location:"
+#~ msgstr "样式表位置："
+
+#~ msgid "Output File Name:"
+#~ msgstr "输出文件名："
+
+#~ msgid "&Validate"
+#~ msgstr "校验(&V)"
+
+#~ msgid "&Close"
+#~ msgstr "关闭(&C)"
+
+#~ msgid "C&urrent working folder"
+#~ msgstr "当前工作文件夹(&U)"
+
+#~ msgid "Other folder:"
+#~ msgstr "其它文件夹："
+
+#~ msgid "DocBook Table"
+#~ msgstr "DocBook 表格"
+
+#~ msgid "id:"
+#~ msgstr "ID："
+
+#~ msgid "Columns"
+#~ msgstr "列数"
+
+#~ msgid "Lines"
+#~ msgstr "行数"
+
+#~ msgid "&Include title line"
+#~ msgstr "包含标题行(&I)"
+
+#~ msgid "Full project path:"
+#~ msgstr "工程的完整路径："
+
+#~ msgid "Show debug messages"
+#~ msgstr "显示调试消息"
+
+#~ msgid "Script location:"
+#~ msgstr "脚本位置："
+
+#, fuzzy
+#~ msgid "Gubed Installation v0.1"
+#~ msgstr "安装 1"
+
+#~ msgid "Target directory:"
+#~ msgstr "目的目录："
+
+#~ msgid "Archive name:"
+#~ msgstr "存档名："
+
+#~ msgid "Select the archive containing Gubed (tar.bz2 format)"
+#~ msgstr "选择包含 Gubed 的档案(tar.bz2格式)"
+
+#~ msgid "The target directory (example /var/www)"
+#~ msgstr "目的目录(例如 /var/www)："
+
+#, fuzzy
+#~ msgid "Run the server after installation has finished"
+#~ msgstr "运行 完成"
+
+#, fuzzy
+#~ msgid ""
+#~ "If checked the server will be run in the background after the "
+#~ "installation has finished"
+#~ msgstr "运行 完成"
+
+#~ msgid "View installation log"
+#~ msgstr "查看安装日志"
+
+#~ msgid ""
+#~ "Uncheck this if you do not want to see the installation log. The log may "
+#~ "provide important information in case of installation failure."
+#~ msgstr ""
+#~ "如果你不想看安装日志，请别选此项。当安装失败时，日志可以为你提供重要信息。"
+
+#~ msgid "&Start Installation"
+#~ msgstr "开始安装(&S)"
+
+#~ msgid "DTD / Schema:"
+#~ msgstr "DTD/大纲："
+
+#, fuzzy
+#~ msgid "PHP footer include:"
+#~ msgstr "PHP:"
+
+#~ msgid "PHP header include:"
+#~ msgstr "PHP 页眉包含："
+
+#, fuzzy
+#~ msgid "Head area"
+#~ msgstr "标题"
+
+#, fuzzy
+#~ msgid "CVS tag in comment"
+#~ msgstr "属于 注释"
+
+#~ msgid "Meta author:"
+#~ msgstr "Meta 作者："
+
+#~ msgid "Meta character set:"
+#~ msgstr "元字符集："
+
+#~ msgid "Style area"
+#~ msgstr "样式区域"
+
+#~ msgid "utf-8"
+#~ msgstr "utf-8"
+
+#~ msgid "utf-16"
+#~ msgstr "utf-16"
+
+#~ msgid "koi8-r"
+#~ msgstr "koi8-r"
+
+#~ msgid "koi8-u"
+#~ msgstr "koi8-u"
+
+#~ msgid "windows-1250"
+#~ msgstr "windows-1250"
+
+#~ msgid "windows-1251"
+#~ msgstr "windows-1251"
+
+#~ msgid "windows-1252"
+#~ msgstr "windows-1252"
+
+#~ msgid "windows-1253"
+#~ msgstr "windows-1253"
+
+#~ msgid "windows-1254"
+#~ msgstr "windows-1254"
+
+#~ msgid "windows-1255"
+#~ msgstr "windows-1255"
+
+#~ msgid "windows-1256"
+#~ msgstr "windows-1256"
+
+#~ msgid "windows-1257"
+#~ msgstr "windows-1257"
+
+#~ msgid "windows-1258"
+#~ msgstr "windows-1258"
+
+#~ msgid "limit to 8, separate with commas"
+#~ msgstr "限制到8，使用逗号隔开"
+
+#~ msgid "Base directory:"
+#~ msgstr "基准目录："
+
+#, fuzzy
+#~ msgid "Meta keywords:"
+#~ msgstr "Meta:"
+
+#~ msgid "Linked style sheet:"
+#~ msgstr "链接的样式表:"
+
+#~ msgid "JavaScript area"
+#~ msgstr "JavaScript 区域"
+
+#~ msgid "Docbook List Wizard"
+#~ msgstr "Docbook 列表向导"
+
+#~ msgid ""
+#~ "Press this button to cancel the creation of the list or procedure. No "
+#~ "action will be performed."
+#~ msgstr "按此按钮可取消列表或过程的创建。不会执行任何动作。"
+
+#~ msgid "Press this button to create the selected list or procedure."
+#~ msgstr "按此按钮可创建选中的列表或过程。"
+
+#~ msgid "List Options"
+#~ msgstr "列表选项"
+
+#, fuzzy
+#~ msgid ""
+#~ "Select or enter in this spin box the number of list entries or steps that "
+#~ "should be created by the wizard. After using the wizard, you can add (or "
+#~ "remove) more entries or steps manually."
+#~ msgstr ""
+#~ "选择 或 属于 方框 数字 共 晚于 使用 或 删除 更多 收件人 更多 数字 共"
+#~ "<entry><row> 如 属于 共 table."
+
+#, fuzzy
+#~ msgid "Number of list items or steps:"
+#~ msgstr "数字 共 或:"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>\n"
+#~ "Select the list type:\n"
+#~ "<ul>\n"
+#~ "<li><b>variablelist:</b> a list with two sections for each item: the term "
+#~ "and the definition.</li>\n"
+#~ "<li><b>itemizedlist:</b> a list  used when the order of the items is not "
+#~ "important.</li>\n"
+#~ "<li><b>orderedlist:</b> a list  used when the order of the items is "
+#~ "important (for instance, a list of things in order of preference). Do not "
+#~ "use orderedlist to describe the steps required to perform an action.</"
+#~ "li>\n"
+#~ "<li><b>procedure:</b> list of an sequence of ordered steps, describing to "
+#~ "the reader how to perform a task. You can add substeps later.</li>\n"
+#~ "</ul>\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt> 类型\n"
+#~ "<ul>\n"
+#~ "<li><b></b> a 为 二 和</li>\n"
+#~ "<li><b></b> a 共 是</li>\n"
+#~ "<li><b></b> a 共 是 a 共 属于 共 到 到</li>\n"
+#~ "<li><b></b> 共 共 到 到 a 任务 您</li>\n"
+#~ "</ul>\n"
+#~ "</qt>"
+
+#~ msgid "List Type"
+#~ msgstr "列表类型"
+
+#~ msgid "&procedure"
+#~ msgstr "&procedure"
+
+#, fuzzy
+#~ msgid ""
+#~ "Select this option to create a procedure. A procedure is a sequence of "
+#~ "ordered steps, describing to the reader how to perform a task. You can "
+#~ "add nested substeps.\n"
+#~ "\n"
+#~ "Here is one example of a procedure:\n"
+#~ "\n"
+#~ "<procedure>\n"
+#~ "\n"
+#~ "<step><para>First step.</para></step>\n"
+#~ "\n"
+#~ "<step><para>Second step.</para>\n"
+#~ "<substeps>\n"
+#~ "<step><para>First substep of the second step.</para></step>\n"
+#~ "</substeps>\n"
+#~ "</step>\n"
+#~ "\n"
+#~ "</procedure>"
+#~ msgstr ""
+#~ "选择 到 a A 是 a 共 到 到 a 任务 您 是 一 共 a\n"
+#~ "<procedure>\n"
+#~ "<step><para> 第一</para></step>\n"
+#~ "<step><para> 秒</para>\n"
+#~ "<substeps>\n"
+#~ "<step><para> 第一 共 第二</para></step>\n"
+#~ "</substeps>\n"
+#~ "</step>\n"
+#~ "</procedure>"
+
+#~ msgid "itemi&zedlist"
+#~ msgstr "itemi&zedlist"
+
+#, fuzzy
+#~ msgid ""
+#~ "Select this option to create a itemizedlist. A itemizedlist is a list "
+#~ "used when the order of the items is not important.\n"
+#~ "\n"
+#~ "Here is one example of a itemizedlist:\n"
+#~ "\n"
+#~ "<itemizedlist>\n"
+#~ "\n"
+#~ "<listitem><para>\n"
+#~ "First item.\n"
+#~ "</para></listitem>\n"
+#~ "\n"
+#~ "<listitem><para>\n"
+#~ "Second item.\n"
+#~ "</para></listitem>\n"
+#~ "\n"
+#~ "</itemizedlist>"
+#~ msgstr ""
+#~ "选择 到 a A 是 a 共 是 是 一 共 a\n"
+#~ "<itemizedlist>\n"
+#~ "<listitem><para>\n"
+#~ "</para></listitem>\n"
+#~ "<listitem><para>\n"
+#~ "</para></listitem>\n"
+#~ "</itemizedlist>"
+
+#~ msgid "or&deredlist"
+#~ msgstr "or&deredlist"
+
+#, fuzzy
+#~ msgid ""
+#~ "Select this option to create a orderedlist. A orderedlist is a list  used "
+#~ "when the order of the items is important. A number will be associated "
+#~ "with each entry, in order, starting from one.\n"
+#~ "\n"
+#~ "Here is one example of a orderedlist:\n"
+#~ "\n"
+#~ "<orderedlist>\n"
+#~ "\n"
+#~ "<listitem><para>\n"
+#~ "First item.\n"
+#~ "</para></listitem>\n"
+#~ "\n"
+#~ "<listitem><para>\n"
+#~ "Second item.\n"
+#~ "</para></listitem>\n"
+#~ "\n"
+#~ "</orderedlist>"
+#~ msgstr ""
+#~ "选择 到 a A 是 a 共 是 A 数字 为 属于 自 一 是 一 共 a\n"
+#~ "<orderedlist>\n"
+#~ "<listitem><para>\n"
+#~ "</para></listitem>\n"
+#~ "<listitem><para>\n"
+#~ "</para></listitem>\n"
+#~ "</orderedlist>"
+
+#~ msgid "&variablelist"
+#~ msgstr "&variablelist"
+
+#, fuzzy
+#~ msgid ""
+#~ "Select this option to create a variablelist. A variablelist is a list "
+#~ "with two sections for each item: the term (the tag used is <term>) and "
+#~ "the definition (the tag used is <listitem>). To mark each entry of the "
+#~ "list, the <varlistentry> tag is used.\n"
+#~ "\n"
+#~ "Here is one example of a variablelist:\n"
+#~ "\n"
+#~ "<variablelist>\n"
+#~ "\n"
+#~ "<varlistentry>\n"
+#~ "<term>Term text</term>\n"
+#~ "<listitem><para>Definition text.</para></listitem>\n"
+#~ "</varlistentry>\n"
+#~ "\n"
+#~ "</variablelist>"
+#~ msgstr ""
+#~ "选择 到 a A 是 a 为 二 是<term> 和 是<listitem> 收件人 共<varlistentry> "
+#~ "是 是 一 共 a\n"
+#~ "<variablelist>\n"
+#~ "<varlistentry>\n"
+#~ "<term> 文本</term>\n"
+#~ "<listitem><para> 定义 文本</para></listitem>\n"
+#~ "</varlistentry>\n"
+#~ "</variablelist>"
+
+#~ msgid "Current working folder &in Quanta"
+#~ msgstr "Quanta 的当前工作文件夹(&I)"
+
+#~ msgid "&View in Konqueror?"
+#~ msgstr "在 Konqueror 中查看吗(&V)？"
+
+#~ msgid "&Process"
+#~ msgstr "处理(&P)"
+
+#~ msgid "Docbook Image Wizard"
+#~ msgstr "Docbook 图像向导"
+
+#~ msgid ""
+#~ "Press this button to cancel the creation of the image markup. No action "
+#~ "will be performed."
+#~ msgstr "按此按钮取消图像标记的创建。什么动作都不会被执行。"
+
+#~ msgid "O&K"
+#~ msgstr "确定(&K)"
+
+#~ msgid "Press this button to create the image markup."
+#~ msgstr "单击此按钮创建图像标记。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>\n"
+#~ "Select the type of markup appropriated to wrap your image:\n"
+#~ "<ul>\n"
+#~ "<li><b>screenshot:</b> used for screenshot images.</li>\n"
+#~ "<li><b>mediaobject:</b> used for all kinds of images which are not "
+#~ "presented inside the flow of text or table entry.</li>\n"
+#~ "<li><b>inlinemediaobject:</b> used for images which are presented in the "
+#~ "middle of flow of text, or in a table entry. Use mediaobject for all "
+#~ "other images.</li>\n"
+#~ "</ul>\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt> 类型 共 到 图像\n"
+#~ "<ul>\n"
+#~ "<li><b></b></li>\n"
+#~ "<li><b></b> 全部 共 共 文本 或 table</li>\n"
+#~ "<li><b></b> 属于 共 共 文本 或 属于 a table 使用 全部</li>\n"
+#~ "</ul>\n"
+#~ "</qt>"
+
+#, fuzzy
+#~ msgid "Wrapper Type"
+#~ msgstr "类型"
+
+#~ msgid "&screenshot"
+#~ msgstr "&screenshot"
+
+#, fuzzy
+#~ msgid ""
+#~ "Select this option to create the necessary markup for a screenshot. The "
+#~ "screenshot markup contains the mediaoption markup. Use for screenshots "
+#~ "only. Other figures and images should use inlinemediaobject if inside "
+#~ "text, or mediaobject to separate the image from the text."
+#~ msgstr "选择 到 a 包含 使用 其它 和 文本 或 到 图像 自 文本."
+
+#~ msgid "&mediaobject"
+#~ msgstr "&mediaobject"
+
+#, fuzzy
+#~ msgid ""
+#~ "Select this option to create the necessary markup for a image outside the "
+#~ "normal flow of text. Check the \"Create caption, using the image "
+#~ "description text.\" box, to add text description for the image."
+#~ msgstr ""
+#~ "选择 到 a 图像 普通图 共 文本 检查 创建 使用 图像 描述 文本 方框 到 文本 "
+#~ "描述 图像."
+
+#~ msgid "i&nlinemediaobject"
+#~ msgstr "i&nlinemediaobject"
+
+#, fuzzy
+#~ msgid ""
+#~ "Select this option to create the necessary markup for a image inside the "
+#~ "normal flow of text. You should use this option for images inside a table "
+#~ "entry (entry tag) or a paragraph (para tag). This option is specially "
+#~ "suited for small images, such as icons."
+#~ msgstr ""
+#~ "选择 到 a 图像 普通图 共 文本 您 a table 或 a 段落 para 是 小 如 图标."
+
+#~ msgid "Image Options"
+#~ msgstr "图像选项"
+
+#~ msgid "BMP"
+#~ msgstr "BMP"
+
+#~ msgid "DITROFF"
+#~ msgstr "DITROFF"
+
+#~ msgid "DVI"
+#~ msgstr "DVI"
+
+#~ msgid "EPS"
+#~ msgstr "EPS"
+
+#~ msgid "EQN"
+#~ msgstr "EQN"
+
+#~ msgid "FAX"
+#~ msgstr "FAX"
+
+#~ msgid "GIF"
+#~ msgstr "GIF"
+
+#~ msgid "GIF87a"
+#~ msgstr "GIF87a"
+
+#~ msgid "GIF89a"
+#~ msgstr "GIF89a"
+
+#~ msgid "IGES"
+#~ msgstr "IGES"
+
+#~ msgid "JPEG"
+#~ msgstr "JPEG"
+
+#~ msgid "JPG"
+#~ msgstr "JPG"
+
+#~ msgid "PCX"
+#~ msgstr "PCX"
+
+#~ msgid "PDF"
+#~ msgstr "PDF"
+
+#~ msgid "PIC"
+#~ msgstr "PIC"
+
+#~ msgid "PNG"
+#~ msgstr "PNG"
+
+#~ msgid "PS"
+#~ msgstr "PS"
+
+#~ msgid "SGML"
+#~ msgstr "SGML"
+
+#~ msgid "SVG"
+#~ msgstr "SVG"
+
+#~ msgid "SWF"
+#~ msgstr "SWF"
+
+#~ msgid "TBL"
+#~ msgstr "TBL"
+
+#~ msgid "TEX"
+#~ msgstr "TEX"
+
+#~ msgid "TIFF"
+#~ msgstr "TIFF"
+
+#~ msgid "WMF"
+#~ msgstr "WMF"
+
+#~ msgid "WPG"
+#~ msgstr "WPG"
+
+#, fuzzy
+#~ msgid ""
+#~ "Select the image format here.  The image format is usually reflects the "
+#~ "file extension of your image file (.png corresponds to PNG in the drop "
+#~ "down, .jpg corresponds to JPG, etc.)."
+#~ msgstr "选择 图像 图像 是 文件 共 图像 文件 到 PNG 属于 到."
+
+#, fuzzy
+#~ msgid "Create caption, &using the image description text."
+#~ msgstr "创建 使用 图像 描述 文本."
+
+#, fuzzy
+#~ msgid ""
+#~ "Check this box add caption text to the image. The caption text will "
+#~ "appear below the image, allowing you to introduce or explain the image."
+#~ msgstr "检查 方框 文本 到 图像 文本 图像 到 或 图像."
+
+#~ msgid "Image description."
+#~ msgstr "图像描述。"
+
+#, fuzzy
+#~ msgid ""
+#~ "Enter the description of the image here. For instance, a screenshot of a "
+#~ "configuration dialog should be described as \"Configuration dialog.\". "
+#~ "This text will be used as caption text if the box below is checked."
+#~ msgstr "进入 描述 共 图像 等 a 共 a 配置 如 配置 文本 如 文本 方框 是."
+
+#~ msgid "Image Type:"
+#~ msgstr "图像类型："
+
+#~ msgid "Image file name:"
+#~ msgstr "图像文件名："
+
+#, fuzzy
+#~ msgid ""
+#~ "Enter the file name of the image here, including the extension (.png, ."
+#~ "jpg, etc.). Enter only the file name, not the location (path) of the "
+#~ "image file. The image files should be located in the same folder as the "
+#~ "DocBook sources."
+#~ msgstr ""
+#~ "进入 文件 名字 共 图像 进入 文件 名字 路径 共 图像 文件 图像 属于 如."
+
+#~ msgid "image.png"
+#~ msgstr "image.png"
+
+#~ msgid "Image Description:"
+#~ msgstr "图像描述："
+
+#~ msgid "Script name:"
+#~ msgstr "脚本名称："
+
+#~ msgid "Enter the script name with the extension"
+#~ msgstr "输入带扩展名的脚本名称"
+
+#~ msgid "About script:"
+#~ msgstr "关于脚本："
+
+#, fuzzy
+#~ msgid "The location of your up-to-date file on the web"
+#~ msgstr "共 到 日期 文件 开"
+
+#~ msgid "Script author:"
+#~ msgstr "脚本作者："
+
+#~ msgid "Script license:"
+#~ msgstr "脚本许可："
+
+#~ msgid "GPL-2"
+#~ msgstr "GPL2"
+
+#~ msgid "Author email:"
+#~ msgstr "作者邮件："
+
+#~ msgid "Web address:"
+#~ msgstr "Web 地址："
+
+#~ msgid "Version number:"
+#~ msgstr "版本号："
+
+#~ msgid "kmdr-executor -c quanta"
+#~ msgstr "kmdr-executor -c quanta"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\"font-size:11pt;font-family:sans-serif\">\n"
+#~ "<p style=\"margin-top:16px\"><span style=\"font-weight:600\">Quanta Plus "
+#~ "Submitter Info Files</span></p>\n"
+#~ "<p>The purpose of these files is to provide developers with proper "
+#~ "credit, expose licensing information and give users thumbnail information "
+#~ "about scripts and templates at a glance. We ask that you try to do "
+#~ "several things here.</p>\n"
+#~ "<ul type=\"disc\"><li>Fill in all the fields. They are all there for a "
+#~ "reason.</li>\n"
+#~ "<li>Contact the appropriate Quanta script and template maintainer or a "
+#~ "member of our team when you have new releases so we can include them. As "
+#~ "we plan to build a huge repository we have to rely on you here.</li></"
+#~ "ul>\n"
+#~ "<p>The additional information serves as a backup. Any time a user wants "
+#~ "they can click the link to go to your site and get updates, docs or "
+#~ "whatever they require. Thank you for helping us to make this a great "
+#~ "feature</p>\n"
+#~ "<p align=\"center\" style=\"margin-top:14px\"><span style=\"font-"
+#~ "weight:600\">Contact Information</span></p>\n"
+#~ "<p align=\"center\">Quanta Resource Maintainer - (none at this time)<br /"
+#~ ">Lead Developer - Andras Mantia <a href=\"mailto:amantia@kde.org?"
+#~ "subject=ScriptInfo\">amantia@kde.org</a><br />Kommander - Michal Rudolf "
+#~ "<a href=\"mailto:mrudolf@kdewebdev.org?subject=ScriptInfo"
+#~ "\">mrudolf@kdewebdev.org</a><br />Project Lead - Eric Laffoon <a href="
+#~ "\"mailto:sequitur@kde.org?subject=ScriptInfo\">sequitur@kde.org</a></p>\n"
+#~ "</body></html>\n"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\"font-size:11pt;font-family:sans-serif\">\n"
+#~ "<p style=\"margin-top:16px\"><span style=\"font-weight:600\"> Quanta 信息 "
+#~ "文件</span></p>\n"
+#~ "<p> 共 是 到 为 和 和 模板 AT a 询问 到</p>\n"
+#~ "<ul type=\"disc\"><li> 填充 属于 全部 全部 a</li>\n"
+#~ "<li> 联系人 Quanta 和 维护人 或 a 共 新的 到 a 到 开</li></ul>\n"
+#~ "<p> 如 a 任何 时间 a 用户 链接 到 到 和 或 us 到 a</p>\n"
+#~ "<p align=\"center\" style=\"margin-top:14px\"><span style=\"font-"
+#~ "weight:600\"> 联系人 信息</span></p>\n"
+#~ "<p align=\"center\"> Quanta 资源 维护者 无 AT 时间<br /> 前导 开发者<a "
+#~ "href=\"mailto:amantia@kde.org?subject=ScriptInfo\">amantia@kde.org</"
+#~ "a><br /> Kommander<a href=\"mailto:mrudolf@kdewebdev.org?"
+#~ "subject=ScriptInfo\">mrudolf@kdewebdev.org</a><br /> 工程 前导<a href="
+#~ "\"mailto:sequitur@kde.org?subject=ScriptInfo\">sequitur@kde.org</a></p>\n"
+#~ "</body></html>"
+
+#~ msgid "Docbook Table Wizard"
+#~ msgstr "Docbook 表格向导"
+
+#, fuzzy
+#~ msgid ""
+#~ "Click here to cancel the creation of the table. No action will be "
+#~ "performed."
+#~ msgstr "到 共 table 否."
+
+#, fuzzy
+#~ msgid "Press this button to create the table or informaltable."
+#~ msgstr "到 table 或."
+
+#~ msgid "Table Options"
+#~ msgstr "表格选项"
+
+#, fuzzy
+#~ msgid ""
+#~ "Enter here the id of the table or informaltable. You can use the id to "
+#~ "link or reference to the table or informaltable elsewhere in the document."
+#~ msgstr "进入 共 table 或 您 到 链接 或 到 table 或 属于."
+
+#~ msgid "Number of columns:"
+#~ msgstr "列数："
+
+#, fuzzy
+#~ msgid ""
+#~ "Select or enter in this spin box the number of columns that should be "
+#~ "created by the wizard."
+#~ msgstr "选择 或 属于 方框 数字 共 分栏."
+
+#~ msgid "Table id:"
+#~ msgstr "表格标号:"
+
+#~ msgid "&Add table header"
+#~ msgstr "插入表头(&A)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Check this box to create a table header. The table header is the first "
+#~ "row of the table, and has the same number of entries as the other rows."
+#~ msgstr "检查 方框 到 a table table 是 第一 共 table 和 数字 共 如."
+
+#~ msgid "table_id"
+#~ msgstr "table_id"
+
+#, fuzzy
+#~ msgid ""
+#~ "Select or enter in this spin box the number of rows that should be "
+#~ "created by the wizard. After using the wizard, you can add (or remove) "
+#~ "more rows. To add more rows,  add the same number of <entry> tags per "
+#~ "<row> tag as in the rest of the table."
+#~ msgstr ""
+#~ "选择 或 属于 方框 数字 共 晚于 使用 或 删除 更多 收件人 更多 数字 共"
+#~ "<entry><row> 如 属于 共 table."
+
+#~ msgid "Number of rows:"
+#~ msgstr "行数："
+
+#~ msgid "Table title:"
+#~ msgstr "表格标题："
+
+#, fuzzy
+#~ msgid ""
+#~ "Enter here the title of the table. The title of the table will appear in "
+#~ "the table of contents as well, under the \"List of Tables\", if you are "
+#~ "using the KDE DocBook tools."
+#~ msgstr "进入 共 table 共 table 属于 table 共 如 列表 共 表格 使用 KDE."
+
+#~ msgid "Table Title"
+#~ msgstr "表格标题"
+
+#~ msgid "Table Type"
+#~ msgstr "表格类型"
+
+#~ msgid "ta&ble"
+#~ msgstr "ta&ble"
+
+#, fuzzy
+#~ msgid "Select this option to generate a formal table (table)."
+#~ msgstr "选择 到 a table table."
+
+#~ msgid "&informaltable"
+#~ msgstr "&informaltable"
+
+#, fuzzy
+#~ msgid "Select this option to generate an informal table (informaltable)."
+#~ msgstr "选择 到 非正式用语 table."
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>\n"
+#~ "Select the table type:\n"
+#~ "<ul>\n"
+#~ "<li><b>informaltable:</b> the most used table type in KDE docs. A "
+#~ "informaltable does not contain title, table head or entry in the table of "
+#~ "contents.</li>\n"
+#~ "<li><b>table:</b> a complete and formal table type, including title, "
+#~ "table head and entry in the table of contents.</li>\n"
+#~ "</ul>\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt> table 类型\n"
+#~ "<ul>\n"
+#~ "<li><b></b> table 类型 属于 KDE A 包含 table 或 属于 table 共</li>\n"
+#~ "<li><b> table</b> a 和 table 类型 table 和 属于 table 共</li>\n"
+#~ "</ul>\n"
+#~ "</qt>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Note:  This will not work well if you have multiple\n"
+#~ "instances of Quanta running."
+#~ msgstr "注释 共 Quanta 正在运行."
+
+#~ msgid "Path to tidy (required):"
+#~ msgstr "要简化的路径(必需)："
+
+#, fuzzy
+#~ msgid "Input from file instead of stdin:"
+#~ msgstr "输入 自 文件 共:"
+
+#, fuzzy
+#~ msgid "Write errors to file instead of stderr:"
+#~ msgstr "写入 错误 到 文件 共:"
+
+#~ msgid "Use configuration from file:"
+#~ msgstr "使用文件中的配置："
+
+#~ msgid "Output to file instead of stdout:"
+#~ msgstr "输出到文件而不是 stdout："
+
+#, fuzzy
+#~ msgid "Force XHTML to well-formed HTML"
+#~ msgstr "强制 到 HTML"
+
+#, fuzzy
+#~ msgid "Convert HTML to well-formed XHTML"
+#~ msgstr "转换 HTML 到"
+
+#, fuzzy
+#~ msgid "Replace FONT, NOBR and CENTER tags by CSS"
+#~ msgstr "替换 和 CSS"
+
+#, fuzzy
+#~ msgid "Specify the input is well-formed XML"
+#~ msgstr "是 XML"
+
+#, fuzzy
+#~ msgid "Omit optional end tags"
+#~ msgstr "自动关闭可选标签(&O)"
+
+#~ msgid "Output numeric rather than named entities"
+#~ msgstr "输出数字而非命名实体"
+
+#~ msgid "Only show errors"
+#~ msgstr "仅显示错误"
+
+#~ msgid "Wrap text at column:"
+#~ msgstr "文本自动换行:"
+
+#, fuzzy
+#~ msgid "Convert HTML to well-formed XML"
+#~ msgstr "转换 HTML 到 XML"
+
+#, fuzzy
+#~ msgid "Strip out smart quotes and em dashes, etc."
+#~ msgstr "剥离 和."
+
+#, fuzzy
+#~ msgid "Suppress non-essential output"
+#~ msgstr "基本的 输出"
+
+#~ msgid "Do not specify an encoding"
+#~ msgstr "不指定编码"
+
+#~ msgid "C&urrent file"
+#~ msgstr "当前文件(&U)"
+
+#~ msgid "Other file:"
+#~ msgstr "其它文件："
+
+#~ msgid "Validate against:"
+#~ msgstr "校验标准："
+
+#~ msgid "&Translate"
+#~ msgstr "翻译(&T)"
+
+#~ msgid "Current file"
+#~ msgstr "当前文件"
+
+#~ msgid "File location:"
+#~ msgstr "文件位置："
+
+#~ msgid "Stylesheet location:"
+#~ msgstr "样式表位置："
+
+#~ msgid "Output file name:"
+#~ msgstr "输出文件名："
+
+#, fuzzy
+#~| msgid "Show tooltips"
+#~ msgid "Show tooltips for the items."
+#~ msgstr "显示工具提示"
+
+#, fuzzy
+#~| msgid "If this is set the tooltips with additional informations will show."
+#~ msgid ""
+#~ "If this option is true the tree will display tooltips with additional "
+#~ "information about the files and folders of the filesystem."
+#~ msgstr "如果设置了这个，带有额外信息的工具提示将会被显示。"
+
+#, fuzzy
+#~| msgid "Remember the tree status"
+#~ msgid "Remember the status of the tree."
+#~ msgstr "记住树的状态"
+
+#, fuzzy
+#~| msgid "Alwa&ys show Home and Root items"
+#~ msgid "Always show the Root and Home items."
+#~ msgstr "总是显示家条目和根条目"
+
+#, fuzzy
+#~| msgid "Show hidden files/folders"
+#~ msgid "Show hidden files and folder in the tree."
+#~ msgstr "显示隐藏文件/文件夹"
+
+#, fuzzy
+#~| msgid ""
+#~| "If this is set the hidden files and folder in the filesystem will be "
+#~| "visible."
+#~ msgid ""
+#~ "If this option is true the tree will display entries for hidden files and "
+#~ "folders of the filesystem."
+#~ msgstr "如果设置了本项，文件系统中的隐藏文件和文件夹将会可见。"
+
+#, fuzzy
+#~| msgid "Show whitespace areas and empt&y groups"
+#~ msgid "Show whitespace areas and empty groups in the trees"
+#~ msgstr "显示空白区域和空白组(&y)"
+
+#, fuzzy
+#~ msgid "Show closing tags in the tree"
+#~ msgstr "显示"
+
+#~ msgid "Enable auto-completion"
+#~ msgstr "启用自动补全"
+
+#~ msgid "Auto-close non single and non optional tags"
+#~ msgstr "自动关闭非单个及非可选标签"
+
+#, fuzzy
+#~| msgid "Update opening/closing tag automaticall&y"
+#~ msgid "Update opening/closing tags automatically"
+#~ msgstr "自动更新打开/关闭标签(&y)"
+
+#~ msgid "Default DTD"
+#~ msgstr "默认 DTD"
+
+#~ msgid "Default encoding"
+#~ msgstr "默认编码"
+
+#~ msgid "Tag case"
+#~ msgstr "标签大小写"
+
+#~ msgid "Attribute case"
+#~ msgstr "属性大小写"
+
+#~ msgid "Attribute quotation"
+#~ msgstr "属性引用"
+
+#~ msgid "CFML"
+#~ msgstr "CFML"
+
+#~ msgid "Fonts"
+#~ msgstr "字体"
+
+#~ msgid "Forms"
+#~ msgstr "表单"
+
+#~ msgid "Lists"
+#~ msgstr "列表"
+
+#~ msgid "Standard"
+#~ msgstr "标准"
+
+#~ msgid "Tables"
+#~ msgstr "表格"
+
+#~ msgid "Debug"
+#~ msgstr "调试"
+
+#~ msgid "Docbook - UI"
+#~ msgstr "Docbook - UI"
+
+#~ msgid "XML Tools"
+#~ msgstr "XML 工具"
+
+#~ msgid "Style"
+#~ msgstr "样式"
+
+#, fuzzy
+#~ msgid "KDE DocBook Admonitions"
+#~ msgstr "KDE"
+
+#~ msgid "KDE DocBook Images"
+#~ msgstr "KDE DocBook 图像"
+
+#~ msgid "KDE DocBook Lists"
+#~ msgstr "KDE DocBook 列表"
+
+#~ msgid "KDE DocBook Standard"
+#~ msgstr "KDE DocBook 标准"
+
+#~ msgid "KDE DocBook Tables"
+#~ msgstr "KDE DocBook 表格"
+
+#~ msgid "UI Elements"
+#~ msgstr "界面元素"
+
+#~ msgid "Tools"
+#~ msgstr "工具"
+
+#~ msgid "Attributes"
+#~ msgstr "属性"
+
+#, fuzzy
+#~ msgid "complexType"
+#~ msgstr "MIME 类型"
+
+#~ msgid "Documentation"
+#~ msgstr "文档"
+
+#, fuzzy
+#~ msgid "Facets"
+#~ msgstr "浮动："
+
+#~ msgid "Misc."
+#~ msgstr "杂类"
+
+#, fuzzy
+#~ msgid "simpleType"
+#~ msgstr "MIME 类型"
+
+#~ msgid "deck"
+#~ msgstr "dec"
+
+#~ msgid "forms"
+#~ msgstr "表单"
+
+#~ msgid "misc."
+#~ msgstr "misc."
+
+#~ msgid "table"
+#~ msgstr "table"
+
+#~ msgid "tasks"
+#~ msgstr "任务"
+
+#~ msgid "text"
+#~ msgstr "text"
+
+#~ msgid "Time"
+#~ msgstr "时间"
+
+#, fuzzy
+#~ msgid "ColdFusion Comment"
+#~ msgstr "ColdFusion 注释"
+
+#~ msgid "Font..."
+#~ msgstr "字体..."
+
+#~ msgid "Font Size+1"
+#~ msgstr "字体大小+1"
+
+#~ msgid "Font Size-1"
+#~ msgstr "字体大小-1"
+
+#~ msgid "Pre"
+#~ msgstr "Pre"
+
+#~ msgid "Subscript"
+#~ msgstr "下标"
+
+#~ msgid "Superscript"
+#~ msgstr "上标"
+
+#~ msgid "Head 1 Level"
+#~ msgstr "1 级标题"
+
+#~ msgid "Head 2 Level"
+#~ msgstr "2 级标题"
+
+#~ msgid "Head 3 Level"
+#~ msgstr "3 级标题"
+
+#~ msgid "Head 4 Level"
+#~ msgstr "4 级标题"
+
+#~ msgid "Head 5 Level"
+#~ msgstr "5 级标题"
+
+#~ msgid "Form"
+#~ msgstr "表单"
+
+#~ msgid "Select"
+#~ msgstr "选择"
+
+#~ msgid "Check Button"
+#~ msgstr "复选框"
+
+#~ msgid "Radio Button"
+#~ msgstr "单选钮"
+
+#~ msgid "Text Area"
+#~ msgstr "文本区域"
+
+#~ msgid "Input Password"
+#~ msgstr "输入密码"
+
+#~ msgid "Input Text"
+#~ msgstr "输入文本"
+
+#~ msgid "Submit"
+#~ msgstr "提交"
+
+#~ msgid "Reset"
+#~ msgstr "重置"
+
+#~ msgid "Unordered List"
+#~ msgstr "无序列表"
+
+#~ msgid "Ordered List"
+#~ msgstr "有序列表"
+
+#~ msgid "List Item"
+#~ msgstr "列表项"
+
+#~ msgid "Definition List"
+#~ msgstr "定义列表"
+
+#~ msgid "Definition Term"
+#~ msgstr "定义术语"
+
+#~ msgid "Definition"
+#~ msgstr "定义"
+
+#~ msgid "Bold"
+#~ msgstr "粗体"
+
+#~ msgid "Italic"
+#~ msgstr "斜体"
+
+#~ msgid "Underline"
+#~ msgstr "下划线"
+
+#~ msgid "New Line"
+#~ msgstr "新行"
+
+#~ msgid "Paragraph"
+#~ msgstr "段落"
+
+#~ msgid "Non Breaking Space"
+#~ msgstr "不间断空格"
+
+#~ msgid "Anchor..."
+#~ msgstr "锚..."
+
+#~ msgid "Image..."
+#~ msgstr "图像..."
+
+#~ msgid "Horizontal Line"
+#~ msgstr "水平线"
+
+#~ msgid "Align Left"
+#~ msgstr "左对齐"
+
+#~ msgid "Align Center"
+#~ msgstr "居中对齐"
+
+#~ msgid "Align Right"
+#~ msgstr "靠右对齐"
+
+#~ msgid "Align Justify"
+#~ msgstr "两端对齐"
+
+#~ msgid "Table"
+#~ msgstr "表格"
+
+#~ msgid "Table Row (with dialog)"
+#~ msgstr "表格行(带对话框)"
+
+#~ msgid "Table Body (with dialog)"
+#~ msgstr "表格体(带对话框)"
+
+#~ msgid "Table Head (with dialog)"
+#~ msgstr "表头(带对话框)"
+
+#~ msgid "Table Data (with dialog)"
+#~ msgstr "表格数据(带对话框)"
+
+#~ msgid "Table Body"
+#~ msgstr "表体"
+
+#~ msgid "Table Head"
+#~ msgstr "表头"
+
+#~ msgid "Table Row"
+#~ msgstr "表格行"
+
+#~ msgid "Table Data"
+#~ msgstr "表格数据"
+
+#~ msgid "Caption"
+#~ msgstr "标题"
+
+#~ msgid "Class Name"
+#~ msgstr "类名称"
+
+#~ msgid "Metod Name"
+#~ msgstr "方法名称"
+
+#~ msgid "Function"
+#~ msgstr "函数"
+
+#~ msgid "File Name"
+#~ msgstr "文件名"
+
+#~ msgid "Var Name"
+#~ msgstr "变量名称"
+
+#~ msgid "Command Line"
+#~ msgstr "命令行"
+
+#~ msgid "Parameter"
+#~ msgstr "参数"
+
+#~ msgid "Prompt"
+#~ msgstr "提示"
+
+#~ msgid "Application Name"
+#~ msgstr "应用程序名称"
+
+#~ msgid "Button"
+#~ msgstr "按钮"
+
+#~ msgid "Icon"
+#~ msgstr "图标"
+
+#~ msgid "Label"
+#~ msgstr "标签"
+
+#~ msgid "Menu"
+#~ msgstr "菜单"
+
+#~ msgid "menu item"
+#~ msgstr "菜单项"
+
+#~ msgid "Sub menu"
+#~ msgstr "子菜单"
+
+#~ msgid "New Tag file"
+#~ msgstr "新建标签文件"
+
+#~ msgid "para"
+#~ msgstr "para"
+
+#~ msgid "note"
+#~ msgstr "注记"
+
+#, fuzzy
+#~ msgid "sect1"
+#~ msgstr "重新分析(&R)"
+
+#, fuzzy
+#~ msgid "sect2"
+#~ msgstr "重新分析(&R)"
+
+#, fuzzy
+#~ msgid "sect3"
+#~ msgstr "重新分析(&R)"
+
+#, fuzzy
+#~ msgid "sect4"
+#~ msgstr "重新分析(&R)"
+
+#~ msgid "Web Link"
+#~ msgstr "Web 链接"
+
+#, fuzzy
+#~ msgid "New image file"
+#~ msgstr "新建 图像 文件"
+
+#, fuzzy
+#~ msgid "programlisting"
+#~ msgstr "拆分"
+
+#~ msgid "List"
+#~ msgstr "列表"
+
+#~ msgid "Items"
+#~ msgstr "项目"
+
+#~ msgid "Emphasis"
+#~ msgstr "强调"
+
+#, fuzzy
+#~ msgid "amp"
+#~ msgstr "模板(&T):"
+
+#~ msgid "XML Validator"
+#~ msgstr "XML 校验工具"
+
+#~ msgid "XSLT Processor"
+#~ msgstr "XSLT 处理器"
+
+#~ msgid "Option"
+#~ msgstr "选项"
+
+#~ msgid "Fieldset"
+#~ msgstr "Fieldset"
+
+#~ msgid "Legend"
+#~ msgstr "Legend"
+
+#~ msgid "Meta"
+#~ msgstr "Meta"
+
+#~ msgid "Base"
+#~ msgstr "Base"
+
+#~ msgid "Link"
+#~ msgstr "链接"
+
+#~ msgid "Quick Start Dialog"
+#~ msgstr "快速启动对话框"
+
+#~ msgid "Span"
+#~ msgstr "Span"
+
+#~ msgid "Div"
+#~ msgstr "Div"
+
+#~ msgid "warning"
+#~ msgstr "警告"
+
+#, fuzzy
+#~ msgid "caution"
+#~ msgstr "位置"
+
+#~ msgid "important"
+#~ msgstr "重要"
+
+#~ msgid "tip"
+#~ msgstr "tip"
+
+#~ msgid "footnote"
+#~ msgstr "脚注"
+
+#~ msgid "example"
+#~ msgstr "示例"
+
+#, fuzzy
+#~ msgid "informalexample"
+#~ msgstr "normal"
+
+#~ msgid "Image Wizard"
+#~ msgstr "图像向导"
+
+#~ msgid "screenshot"
+#~ msgstr "截图"
+
+#, fuzzy
+#~ msgid "screeninfo"
+#~ msgstr "serif"
+
+#~ msgid "mediaobject"
+#~ msgstr "媒体物件"
+
+#, fuzzy
+#~ msgid "inlinemediaobject"
+#~ msgstr "i&nlinemediaobject"
+
+#, fuzzy
+#~ msgid "imageobject"
+#~ msgstr "主题："
+
+#~ msgid "phrase"
+#~ msgstr "词组"
+
+#~ msgid "caption"
+#~ msgstr "标题"
+
+#~ msgid "List Wizard"
+#~ msgstr "列表向导"
+
+#~ msgid "orderedlist"
+#~ msgstr "顺序表"
+
+#, fuzzy
+#~ msgid "itemizedlist"
+#~ msgstr "itemi&zedlist"
+
+#, fuzzy
+#~ msgid "listitem"
+#~ msgstr "list-item"
+
+#~ msgid "variablelist"
+#~ msgstr "变量列表"
+
+#, fuzzy
+#~ msgid "varlistentry"
+#~ msgstr "内容"
+
+#~ msgid "term"
+#~ msgstr "术语"
+
+#, fuzzy
+#~ msgid "varlistitem"
+#~ msgstr "list-item"
+
+#~ msgid "procedure"
+#~ msgstr "过程"
+
+#~ msgid "step"
+#~ msgstr "步骤"
+
+#, fuzzy
+#~ msgid "substeps"
+#~ msgstr "top"
+
+#, fuzzy
+#~ msgid "simplelist"
+#~ msgstr "文件列表(&F)："
+
+#~ msgid "member"
+#~ msgstr "成员"
+
+#~ msgid "chapter"
+#~ msgstr "章节"
+
+#, fuzzy
+#~ msgid "sect5"
+#~ msgstr "重新分析(&R)"
+
+#~ msgid "title"
+#~ msgstr "标题"
+
+#~ msgid "anchor"
+#~ msgstr "锚"
+
+#~ msgid "xref"
+#~ msgstr "XRef"
+
+#~ msgid "link"
+#~ msgstr "链接"
+
+#, fuzzy
+#~ msgid "ulink"
+#~ msgstr "blink"
+
+#~ msgid "email"
+#~ msgstr "电子邮件"
+
+#~ msgid "Table Wizard"
+#~ msgstr "表格向导"
+
+#, fuzzy
+#~ msgid "informaltable"
+#~ msgstr "&informaltable"
+
+#, fuzzy
+#~ msgid "tgroup"
+#~ msgstr "顶："
+
+#, fuzzy
+#~ msgid "thead"
+#~ msgstr "就绪"
+
+#, fuzzy
+#~ msgid "tbody"
+#~ msgstr "bold"
+
+#~ msgid "row"
+#~ msgstr "行"
+
+#~ msgid "entry"
+#~ msgstr "条目"
+
+#, fuzzy
+#~ msgid "guibutton"
+#~ msgstr "右键："
+
+#, fuzzy
+#~ msgid "guiicon"
+#~ msgstr "函数"
+
+#, fuzzy
+#~ msgid "menuchoice"
+#~ msgstr "circle"
+
+#~ msgid "shortcut"
+#~ msgstr "快捷键"
+
+#, fuzzy
+#~ msgid "guimenu"
+#~ msgstr "参数"
+
+#, fuzzy
+#~ msgid "guimenuitem"
+#~ msgstr "参数"
+
+#, fuzzy
+#~ msgid "guisubmenu"
+#~ msgstr "参数"
+
+#~ msgid "action"
+#~ msgstr "动作"
+
+#~ msgid "meinproc"
+#~ msgstr "meinproc"
+
+#, fuzzy
+#~ msgid "anyAttribute"
+#~ msgstr "标签属性(&A)"
+
+#~ msgid "attribute"
+#~ msgstr "属性"
+
+#, fuzzy
+#~ msgid "attributeGroup"
+#~ msgstr "标签属性(&A)"
+
+#, fuzzy
+#~ msgid "complexContent"
+#~ msgstr "模板树视图"
+
+#, fuzzy
+#~ msgid "simpleContent"
+#~ msgstr "模板树视图"
+
+#~ msgid "all"
+#~ msgstr "全部"
+
+#~ msgid "choice"
+#~ msgstr "选择"
+
+#~ msgid "group"
+#~ msgstr "组"
+
+#~ msgid "sequence"
+#~ msgstr "序列"
+
+#, fuzzy
+#~ msgid "restriction"
+#~ msgstr "位置："
+
+#~ msgid "extension"
+#~ msgstr "扩展"
+
+#~ msgid "annotation"
+#~ msgstr "标注"
+
+#~ msgid "documentation"
+#~ msgstr "文档"
+
+#~ msgid "enumeration"
+#~ msgstr "枚举"
+
+#~ msgid "pattern"
+#~ msgstr "模式"
+
+#~ msgid "length"
+#~ msgstr "长度"
+
+#, fuzzy
+#~ msgid "maxLength"
+#~ msgstr "[长度值]"
+
+#, fuzzy
+#~ msgid "minLength"
+#~ msgstr "[长度值]"
+
+#, fuzzy
+#~ msgid "maxInclusive"
+#~ msgstr "cursive"
+
+#, fuzzy
+#~ msgid "minInclusive"
+#~ msgstr "cursive"
+
+#, fuzzy
+#~ msgid "maxExclusive"
+#~ msgstr "cursive"
+
+#, fuzzy
+#~ msgid "minExclusive"
+#~ msgstr "cursive"
+
+#~ msgid "whiteSpace"
+#~ msgstr "空白"
+
+#~ msgid "schema"
+#~ msgstr "方案"
+
+#~ msgid "element"
+#~ msgstr "元素"
+
+#~ msgid "import"
+#~ msgstr "导入"
+
+#, fuzzy
+#~ msgid "include"
+#~ msgstr "inline"
+
+#, fuzzy
+#~ msgid "notation"
+#~ msgstr "位置"
+
+#~ msgid "redefine"
+#~ msgstr "重新定义"
+
+#~ msgid "any"
+#~ msgstr "任意"
+
+#~ msgid "field"
+#~ msgstr "字段"
+
+#~ msgid "key"
+#~ msgstr "键"
+
+#, fuzzy
+#~ msgid "selector"
+#~ msgstr "选择器："
+
+#~ msgid "unique"
+#~ msgstr "唯一"
+
+#~ msgid "list"
+#~ msgstr "列表"
+
+#~ msgid "union"
+#~ msgstr "联合"
+
+#~ msgid "Attribute"
+#~ msgstr "属性"
+
+#~ msgid "Item"
+#~ msgstr "项目"
+
+#~ msgid "Location"
+#~ msgstr "位置"
+
+#~ msgid "Tool Tip"
+#~ msgstr "工具提示"
+
+#~ msgid "What's This"
+#~ msgstr "这是什么"
+
+#, fuzzy
+#~ msgid "Children"
+#~ msgstr "子类"
+
+#, fuzzy
+#~ msgid "Stoppingtags"
+#~ msgstr "添加结尾标签(&A)"
+
+#, fuzzy
+#~ msgid "Access (wml)"
+#~ msgstr "访问"
+
+#~ msgid "WML"
+#~ msgstr "WML"
+
+#~ msgid "Card"
+#~ msgstr "卡片"
+
+#~ msgid "Head"
+#~ msgstr "标题"
+
+#, fuzzy
+#~ msgid "Select (wml)"
+#~ msgstr "选择"
+
+#, fuzzy
+#~ msgid "Input Text (wml)"
+#~ msgstr "输入 文本"
+
+#, fuzzy
+#~ msgid "Option (wml)"
+#~ msgstr "选项"
+
+#, fuzzy
+#~ msgid "Option Group (wml)"
+#~ msgstr "选项 组"
+
+#~ msgid "Anchor...(wml)"
+#~ msgstr "锚...(wml)"
+
+#, fuzzy
+#~ msgid "A...(wml)"
+#~ msgstr "A"
+
+#~ msgid "Image...(wml)"
+#~ msgstr "图像...(wml)"
+
+#~ msgid "Timer (wml)"
+#~ msgstr "计时器(wml)"
+
+#~ msgid "Set variable"
+#~ msgstr "设定变量"
+
+#~ msgid "Post Field"
+#~ msgstr "投递域"
+
+#~ msgid "Table (wml)"
+#~ msgstr "表格(wml)"
+
+#~ msgid "Table Row (wml)"
+#~ msgstr "表格行(wml)"
+
+#~ msgid "Table Data (wml)"
+#~ msgstr "表格数据(wml)"
+
+#~ msgid "Go (wml)"
+#~ msgstr "转到(wml)"
+
+#~ msgid "No operation (wml)"
+#~ msgstr "无操作(wml)"
+
+#~ msgid "Previous (wml)"
+#~ msgstr "上一个(wml)"
+
+#~ msgid "Refresh"
+#~ msgstr "刷新"
+
+#, fuzzy
+#~ msgid "Do (wml)"
+#~ msgstr "上一个(wml)"
+
+#, fuzzy
+#~ msgid "Onevent (wml)"
+#~ msgstr "underline"
+
+#, fuzzy
+#~ msgid "Bold (wml)"
+#~ msgstr "粗体"
+
+#~ msgid "Emphasize (wml)"
+#~ msgstr "加强 (wml)"
+
+#~ msgid "Italic (wml)"
+#~ msgstr "斜体 (wml)"
+
+#~ msgid "Underline (wml)"
+#~ msgstr "下划线 (wml)"
+
+#~ msgid "Small (wml)"
+#~ msgstr "小 (wml)"
+
+#, fuzzy
+#~ msgid "Big (wml)"
+#~ msgstr "大"
+
+#, fuzzy
+#~ msgid "New Line (wml)"
+#~ msgstr "新建 直线"
+
+#, fuzzy
+#~ msgid "Paragraph (wml)"
+#~ msgstr "段落"
+
+#, fuzzy
+#~ msgid "Pre (wml)"
+#~ msgstr "Pre"
+
+#, fuzzy
+#~| msgid "Comment"
+#~ msgid "CF comment"
+#~ msgstr "注释"
+
+#, fuzzy
+#~ msgid "New Chapter"
+#~ msgstr "center"
+
+#, fuzzy
+#~ msgid "&amp;"
+#~ msgstr "模板(&T):"
+
+#~ msgid "Validates XML."
+#~ msgstr "校验 XML。"
+
+#, fuzzy
+#~| msgid "Table Options"
+#~ msgid "Select Option"
+#~ msgstr "表格选项"
+
+#, fuzzy
+#~| msgid "Fieldset"
+#~ msgid "Fieldset Tag"
+#~ msgstr "Fieldset"
+
+#, fuzzy
+#~| msgid "Legend"
+#~ msgid "Legend Tag"
+#~ msgstr "Legend"
+
+#, fuzzy
+#~| msgid "Meta"
+#~ msgid "Meta Tag"
+#~ msgstr "Meta"
+
+#~ msgid "Style Tag"
+#~ msgstr "样式标签"
+
+#, fuzzy
+#~| msgid "Link"
+#~ msgid "Link Tag"
+#~ msgstr "链接"
+
+#, fuzzy
+#~| msgid "Quick Start Dialog"
+#~ msgid "Kommander Quick Start Dialog"
+#~ msgstr "快速启动对话框"
+
+#, fuzzy
+#~| msgid "text"
+#~ msgid "span text"
+#~ msgstr "text"
+
+#, fuzzy
+#~ msgid "<anyAttribute>"
+#~ msgstr "标签属性(&A)"
+
+#, fuzzy
+#~ msgid "<attribute>"
+#~ msgstr "标签属性(&A)"
+
+#, fuzzy
+#~ msgid "<attributeGroup>"
+#~ msgstr "标签属性(&A)"
+
+#, fuzzy
+#~ msgid "<complexType>"
+#~ msgstr "MIME 类型"
+
+#, fuzzy
+#~ msgid "<complexContent>"
+#~ msgstr "模板树视图"
+
+#, fuzzy
+#~ msgid "<simpleContent>"
+#~ msgstr "模板树视图"
+
+#, fuzzy
+#~ msgid "<all>"
+#~ msgstr "全部"
+
+#, fuzzy
+#~ msgid "<choice>"
+#~ msgstr "circle"
+
+#, fuzzy
+#~ msgid "<group>"
+#~ msgstr "类别"
+
+#, fuzzy
+#~ msgid "<sequence>"
+#~ msgstr "baseline"
+
+#, fuzzy
+#~ msgid "<restriction>"
+#~ msgstr "位置："
+
+#, fuzzy
+#~ msgid "<extension>"
+#~ msgstr "默认编码："
+
+#, fuzzy
+#~ msgid "<annotation>"
+#~ msgstr "位置"
+
+#, fuzzy
+#~| msgid "documentation"
+#~ msgid "<documentation>"
+#~ msgstr "文档"
+
+#, fuzzy
+#~ msgid "<enumeration>"
+#~ msgstr "插件选项"
+
+#, fuzzy
+#~| msgid "pattern"
+#~ msgid "<pattern>"
+#~ msgstr "模式"
+
+#, fuzzy
+#~ msgid "<length>"
+#~ msgstr "[长度值]"
+
+#, fuzzy
+#~ msgid "<maxLength>"
+#~ msgstr "[长度值]"
+
+#, fuzzy
+#~ msgid "<minLength>"
+#~ msgstr "[长度值]"
+
+#, fuzzy
+#~ msgid "<maxInclusive>"
+#~ msgstr "cursive"
+
+#, fuzzy
+#~ msgid "<minInclusive>"
+#~ msgstr "cursive"
+
+#, fuzzy
+#~ msgid "<maxExclusive>"
+#~ msgstr "cursive"
+
+#, fuzzy
+#~ msgid "<minExclusive"
+#~ msgstr "cursive"
+
+#, fuzzy
+#~ msgid "<whiteSpace>"
+#~ msgstr "空白："
+
+#, fuzzy
+#~ msgid "<schema>"
+#~ msgstr "XML 大纲"
+
+#, fuzzy
+#~ msgid "<element>"
+#~ msgstr "选择"
+
+#, fuzzy
+#~ msgid "<import>"
+#~ msgstr "导入的"
+
+#, fuzzy
+#~ msgid "<include>"
+#~ msgstr "inline"
+
+#, fuzzy
+#~ msgid "<notation>"
+#~ msgstr "位置"
+
+#, fuzzy
+#~ msgid "<redefine>"
+#~ msgstr "名称"
+
+#, fuzzy
+#~ msgid "<any>"
+#~ msgstr "fantasy"
+
+#, fuzzy
+#~ msgid "<field>"
+#~ msgstr "fixed"
+
+#, fuzzy
+#~ msgid "<selector>"
+#~ msgstr "选择器："
+
+#, fuzzy
+#~ msgid "<unique>"
+#~ msgstr "oblique"
+
+#, fuzzy
+#~ msgid "<simpleType>"
+#~ msgstr "MIME 类型"
+
+#, fuzzy
+#~ msgid "<list>"
+#~ msgstr "inset"
+
+#, fuzzy
+#~ msgid "<union>"
+#~ msgstr "联合"
+
+#, fuzzy
+#~ msgid "<children>"
+#~ msgstr "孩子"
+
+#, fuzzy
+#~ msgid "<stoppingtags>"
+#~ msgstr "添加结尾标签(&A)"
+
+#, fuzzy
+#~ msgid "Select from a list"
+#~ msgstr "选择"
+
+#, fuzzy
+#~| msgid "No operation (wml)"
+#~ msgid "No operation"
+#~ msgstr "无操作(wml)"
+
+#~ msgid ""
+#~ "The <b>FONT</b> element allows authors to suggest rudimentary <i>font "
+#~ "changes</i>.\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>FONT</b> 元素允许作者建议<i>基本的字体大小的变动</i>。\n"
+#~ "   "
+
+#~ msgid ""
+#~ "This <b>SIZE=+1</b> element allows to <i>increase</i> font.\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>SIZE=+1</b> 元素允许<i>增大</i>字体。\n"
+#~ "   "
+
+#~ msgid ""
+#~ "This <b>SIZE=-1</b> element allows to <i>decrease</i> font.\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>SIZE=-1</b> 元素允许<i>减小</i>字体。\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>PRE</b> element allows to view <i>preformatted</i> text.\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>PRE</b> 元素允许显示<i>预先格式化的</i>文字。\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>SUB</b> element is used for <i>subscripts</i>.\n"
+#~ "     <br>- common attributes\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>SUB</b> 元素用于<i>下标</i>。\n"
+#~ "     <br>- 公共属性\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>SUP</b> element is used for <i>superscripts</i>.\n"
+#~ "     <br>- common attributes\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>SUP</b> 元素用于<i>上标</i>。\n"
+#~ "     <br>- 公共属性\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>H1</b> element defines a <i>level-one heading</i>.\n"
+#~ "     <br>- ALIGN=[ left | center | right | justify ] (horizontal "
+#~ "alignment)\n"
+#~ "     <br>- common attributes\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>H1</b> 元素定义了<i>第一级标题</i>。\n"
+#~ "     <br>- ALIGN=[ left | center | right | justify ] (水平对齐)\n"
+#~ "     <br>- 公共属性\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>H2</b> element defines a <i>level-two heading</i>.\n"
+#~ "     <br>- ALIGN=[ left | center | right | justify ] (horizontal "
+#~ "alignment)\n"
+#~ "     <br>- common attributes\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>H2</b> 元素定义了<i>第二级标题</i>。\n"
+#~ "     <br>- ALIGN=[ left | center | right | justify ] (水平对齐)\n"
+#~ "     <br>- 公共属性\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>H3</b> element defines a <i>level-three heading</i>.\n"
+#~ "     <br>- ALIGN=[ left | center | right | justify ] (horizontal "
+#~ "alignment)\n"
+#~ "     <br>- common attributes\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>H3</b> 元素定义了<i>第三级标题</i>。\n"
+#~ "     <br>- ALIGN=[ left | center | right | justify ] (水平对齐)\n"
+#~ "     <br>- 公共属性\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>H4</b> element defines a <i>level-four heading</i>.\n"
+#~ "     <br>- ALIGN=[ left | center | right | justify ] (horizontal "
+#~ "alignment)\n"
+#~ "     <br>- common attributes\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>H4</b> 元素定义了<i>第四级标题</i>。\n"
+#~ "     <br>- ALIGN=[ left | center | right | justify ] (水平对齐)\n"
+#~ "     <br>- 公共属性\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>H5</b> element defines a <i>level-five heading</i>.\n"
+#~ "     <br>- ALIGN=[ left | center | right | justify ] (horizontal "
+#~ "alignment)\n"
+#~ "     <br>- common attributes\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>H5</b> 元素定义了<i>第五级标题</i>。\n"
+#~ "     <br>- ALIGN=[ left | center | right | justify ] (水平对齐)\n"
+#~ "     <br>- 公共属性\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>B</b> element suggests that text be rendered as <i>bold text</i>.\n"
+#~ "     <br>- common attributes\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>B</b> 元素建议文本被渲染为<i>粗体文本</i>。\n"
+#~ "     <br>- 公共属性\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>I</b> element suggests that text be rendered as <i>italic text</"
+#~ "i>.\n"
+#~ "     <br>- common attributes\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>I</b> 元素建议文本被渲染为<i>斜体文本</i>。\n"
+#~ "     <br>- 公共属性\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>U</b> element, deprecated in HTML 4.0, suggests that text be "
+#~ "rendered as <i>underlined text</i>.\n"
+#~ "     <br>- common attributes\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>U</b> 元素在 HTML 4.0 中作废，它建议文本被渲染为<i>带下划线文本</i>。\n"
+#~ "     <br>- 公共属性\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>BR</b> element forces a <i>break</i> in the current line of text.\n"
+#~ "     <br>- CLEAR=[ left | all | right | none ] (clear floating objects)\n"
+#~ "     <br>- core attributes\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>BR</b> 元素强制当前文本行<i>换行</i>。\n"
+#~ "     <br>- CLEAR=[ left | all | right | none ] (清除浮动对象)\n"
+#~ "     <br>- 核心属性\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>P</b> element defines a <i>paragraph</i>.\n"
+#~ "     <br>- ALIGN=[ left | center | right | justify ] (horizontal "
+#~ "alignment)\n"
+#~ "     <br>- common attributes\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>P</b> 元素定义<i>文本段落</i>。\n"
+#~ "     <br>- ALIGN=[ left | center | right | justify ] (水平对齐)\n"
+#~ "     <br>- 公共属性\n"
+#~ "   "
+
+#~ msgid ""
+#~ "Inserting <b>nbsp</b>.\n"
+#~ "     Non breaking <i>space</i>.\n"
+#~ "   "
+#~ msgstr ""
+#~ "插入 <b>nbsp</b>。\n"
+#~ "     不间断<i>空格</i>。\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>A</b> element denotes an <i>anchor</i>--a hypertext link or the "
+#~ "destination of a link.\n"
+#~ "     The <b>HREF</b> attribute specifies a hypertext link to another "
+#~ "resource, such as an <i>HTML</i> document or a <i>JPEG</i> image.\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>A</b> 元素表示<i>定位符</i> - 超文本链接或链接的目的地。\n"
+#~ "     <b>HREF</b> 属性指定了到其它资源的超文本链接，如 <i>HTML</i> 文档或 "
+#~ "<i>JPEG</i> 图像。\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>IMG</b> element specifies an <i>inline</i> image.\n"
+#~ "     The required <b>SRC</b> attribute specifies the location of the "
+#~ "image.\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>IMG</b> 元素指定了<i>内嵌</i>图像。\n"
+#~ "     必需的 <b>SRC</b> 属性指定了图像的位置。\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>HR</b> element defines a <i>horizontal rule</i> for visual "
+#~ "browsers.\n"
+#~ "     While this element is inherently presentational, it can be used "
+#~ "structurally as a section divider.\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>HR</b> 元素定义了可视化浏览器的<i>水平线</i>。\n"
+#~ "     由于此元素本身的形象很直观，所以可被用于结构上的分节符。\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>!-- --></b> element <i>comment</i> a text inside.\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>!-- --></b> 元素可以<i>注释</i>内部的文本。\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>DIV ALIGN</b>=<i>left</i>\n"
+#~ "     suggests the horizontal alignment for the content of the division to "
+#~ "<i>left</i>.\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>DIV ALIGN</b>=<i>left</i>\n"
+#~ "     建议区域内容的水平对齐为<i>左对齐</i>。\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>DIV ALIGN</b>=<i>center</i> or <b>CENTER</b>\n"
+#~ "     suggests the horizontal alignment for the content of the division to "
+#~ "<i>center</i>.\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>DIV ALIGN</b>=<i>center</i> 或 <b>CENTER</b>\n"
+#~ "     建议区域内容的水平对齐为<i>居中对齐</i>。\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>DIV ALIGN</b>=<i>right</i>\n"
+#~ "     suggests the horizontal alignment for the content of the division to "
+#~ "<i>right</i>.\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>DIV ALIGN</b>=<i>right</i>\n"
+#~ "     建议区域内容的水平对齐为<i>右对齐</i>。\n"
+#~ "   "
+
+#~ msgid ""
+#~ "The <b>DIV ALIGN</b>=<i>justify</i>\n"
+#~ "     suggests the horizontal alignment for the content of the division to "
+#~ "<i>justify</i>.\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b>DIV ALIGN</b>=<i>justify</i>\n"
+#~ "     建议区域内容的水平对齐为<i>两端对齐</i>。\n"
+#~ "   "
+
+#, fuzzy
+#~ msgid ""
+#~ "The <b>anchor</b> element denotes an <i>anchor</i>-- a link to formatted "
+#~ "text.\n"
+#~ "     The <b>task</b> within the tag is executed when the link is "
+#~ "selected, such as an <i>go</i> task or a <i>refresh</i>.\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b></b><i></i> a 链接 到 文本\n"
+#~ "<b> 任务</b> 是 链接 是 如<i></i> 任务 或 a<i></i> "
+
+#, fuzzy
+#~ msgid ""
+#~ "The <b>a</b> element denotes an <i>anchor</i>--a hypertext link or the "
+#~ "destination of a link.\n"
+#~ "     The <b>HREF</b> attribute specifies a hypertext link to another "
+#~ "<i>wml</i> document.\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b> a</b><i></i> a 链接 或 共 a 链接\n"
+#~ "<b></b> a 链接 到<i></i> "
+
+#, fuzzy
+#~ msgid ""
+#~ "The <b>B</b> element suggests that text be rendered as <i>bold text</i>.\n"
+#~ "   "
+#~ msgstr "<b> B</b> 建议 文本 如<i> 粗体 文本</i> "
+
+#, fuzzy
+#~ msgid ""
+#~ "The <b>B</b> element suggests that text be rendered as <i>emphasized "
+#~ "text</i>.\n"
+#~ "   "
+#~ msgstr "<b> B</b> 建议 文本 如<i> 文本</i> "
+
+#, fuzzy
+#~ msgid ""
+#~ "The <b>I</b> element suggests that text be rendered as <i>italic text</"
+#~ "i>.\n"
+#~ "   "
+#~ msgstr "<b> II</b> 建议 文本 如<i> 斜体 文本</i> "
+
+#, fuzzy
+#~ msgid ""
+#~ "The <b>U</b> element suggests that text be rendered as <i>underlined "
+#~ "text</i>.\n"
+#~ "   "
+#~ msgstr "<b> U</b> 建议 文本 如<i> 下划线 文本</i> "
+
+#, fuzzy
+#~ msgid ""
+#~ "The <b>small</b> element suggests that text be rendered as a <i>small "
+#~ "font</i>.\n"
+#~ "   "
+#~ msgstr "<b> 小</b> 建议 文本 如 a<i> 小 字体</i> "
+
+#, fuzzy
+#~ msgid ""
+#~ "The <b>big</b> element suggests that text be rendered as a <i>big font</"
+#~ "i>.\n"
+#~ "   "
+#~ msgstr "<b> 大</b> 建议 文本 如 a<i> 大 字体</i> "
+
+#, fuzzy
+#~ msgid ""
+#~ "The <b>br</b> element forces a <i>break</i> in the current line of text.\n"
+#~ "   "
+#~ msgstr "<b></b> a<i></i> 属于 直线 共 文本 "
+
+#, fuzzy
+#~ msgid ""
+#~ "The <b>P</b> element defines a <i>paragraph</i>.\n"
+#~ "     <br>- ALIGN=[ left | center | right ] (horizontal alignment)\n"
+#~ "   "
+#~ msgstr ""
+#~ "<b></b> a<i> 段落</i>\n"
+#~ "<br> 左 右 "
+
+#, fuzzy
+#~ msgid "<qt>Cannot download <b>%1</b>.</qt>"
+#~ msgstr "<qt> DTD 自<b></b></qt>"
+
+#~ msgid "<qt>Cannot open <b>%1</b> for reading.</qt>"
+#~ msgstr "<qt>无法以读模式打开 <b>%1</b>。</qt>"
+
+#~ msgid ""
+#~ "<qt>The file <b>%1</b> already exists.<br>Do you want to overwrite it?</"
+#~ "qt>"
+#~ msgstr "<qt>文件<b>%1</b>已经存在。<br>要覆盖它吗？</qt>"
+
+#, fuzzy
+#~| msgid "Attribute case:"
+#~ msgid "Change Tag & Attribute Case"
+#~ msgstr "属性大小写："
+
+#~ msgid "Working..."
+#~ msgstr "工作..."
+
+#, fuzzy
+#~| msgid "Meta"
+#~ msgid "Detach"
+#~ msgstr "漂移"
+
+#~ msgid "Hide %1"
+#~ msgstr "隐藏 %1"
+
+#~ msgid "Show %1"
+#~ msgstr "显示 %1"
+
+#~ msgid "Tool &Views"
+#~ msgstr "工具视图(&V)"
+
+#, fuzzy
+#~| msgid "Top level"
+#~ msgid "&Toplevel Mode"
+#~ msgstr "顶级"
+
+#, fuzzy
+#~| msgid "Tools"
+#~ msgid "Tool &Docks"
+#~ msgstr "工具"
+
+#~ msgid "Previous Tool View"
+#~ msgstr "上个工具视图"
+
+#~ msgid "Next Tool View"
+#~ msgstr "下个工具视图"
+
+#, fuzzy
+#~ msgid ""
+#~ "Our goal is to be nothing less than the best possible tool for\n"
+#~ " working with tagging and scripting languages.\n"
+#~ "\n"
+#~ "Quanta Plus is not in any way affiliated with any commercial\n"
+#~ " versions of Quanta. \n"
+#~ "\n"
+#~ "We hope you enjoy Quanta Plus.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "是 到 无 较少\n"
+#~ " 为 和 是 属于 为\n"
+#~ " 共 Quanta Quanta"
+
+#~ msgid "File to open"
+#~ msgstr "要打开的文件"
+
+#, fuzzy
+#~| msgid "Project Lead - public liaison"
+#~ msgid "Project Lead - public liason"
+#~ msgstr "工程领导 - 公关"
+
+#~ msgid "Crash recovery"
+#~ msgstr "崩溃恢复"
+
+#~ msgid "Open File"
+#~ msgstr "打开文件"
+
+#, fuzzy
+#~ msgid ""
+#~ "The file %1 does not exist.\n"
+#~ " Do you want to remove it from the list?"
+#~ msgstr "<qt> 文件<b></b><br /> 到</qt>"
+
+#~ msgid "Save File"
+#~ msgstr "保存文件"
+
+#, fuzzy
+#~ msgid "<qt>Do you want to add the<br><b>%1</b><br>file to project?</qt>"
+#~ msgstr "<qt> 到<br /><b></b><br /> 到</qt>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<qt>You must save the toolbars to the following folder: <br /><br /><b>"
+#~| "%1</b></qt>"
+#~ msgid ""
+#~ "You must save the templates in the following directory: \n"
+#~ "\n"
+#~ "%1"
+#~ msgstr "<qt>您必须将工具栏保存到以下文件夹：<br /><br /><b>%1</b></qt>"
+
+#, fuzzy
+#~ msgid " OVR "
+#~ msgstr " 覆盖 "
+
+#, fuzzy
+#~ msgid " INS "
+#~ msgstr " 插入 "
+
+#~ msgid " R/O "
+#~ msgstr " R/O "
+
+#~ msgid "[modified]"
+#~ msgstr "[已修改]"
+
+#~ msgid "Plu&gins"
+#~ msgstr "插件(&G)"
+
+#~ msgid "Configure Quanta"
+#~ msgstr "配置 Quanta"
+
+#~ msgid "Tag Style"
+#~ msgstr "标签样式"
+
+#~ msgid "Environment"
+#~ msgstr "环境"
+
+#~ msgid "Layout"
+#~ msgstr "布局"
+
+#, fuzzy
+#~| msgid "&View"
+#~ msgid "VPL View"
+#~ msgstr "查看(&V)"
+
+#, fuzzy
+#~| msgid "Parameter"
+#~ msgid "Parser"
+#~ msgstr "参数"
+
+#~ msgid "Abbreviations"
+#~ msgstr "缩写"
+
+#, fuzzy
+#~| msgid "Debug"
+#~ msgid "PHP Debug"
+#~ msgstr "调试"
+
+#~ msgid "Spelling"
+#~ msgstr "拼写"
+
+#~ msgid "Line: %1 Col: %2"
+#~ msgstr "行：%1 列：%2"
+
+#~ msgid "Open File: %1"
+#~ msgstr "打开文件：%1"
+
+#, fuzzy
+#~| msgid "Opened Files"
+#~ msgid "Open File: none"
+#~ msgstr "打开的文件"
+
+#~ msgid ""
+#~ "Cannot load the toolbars from the archive.\n"
+#~ "Check that the filenames inside the archives begin with the archive name!"
+#~ msgstr ""
+#~ "无法从档案加载工具栏。\n"
+#~ "请确认档案里面的文件名是以档案名开头！"
+
+#~ msgid "Save Toolbar"
+#~ msgstr "保存工具栏"
+
+#~ msgid "Please select a toolbar:"
+#~ msgstr "请选择一个工具栏："
+
+#, fuzzy
+#~| msgid ""
+#~| "<qt>You must save the toolbars to the following folder: <br /><br /><b>"
+#~| "%1</b></qt>"
+#~ msgid ""
+#~ "<qt>You must save the toolbars in the following directory: <br><br><b>%1</"
+#~ "b></qt>"
+#~ msgstr "<qt>您必须将工具栏保存到以下文件夹：<br /><br /><b>%1</b></qt>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<qt>Some error happened while extracting the <i>%1</i> site template "
+#~| "file.<br />Check that you have write permission for <i>%2</i> and that "
+#~| "there is enough free space in your temporary folder.</qt>"
+#~ msgid ""
+#~ "<qt>An error happened while saving the <b>%1</b> toolbar.<br>Check that "
+#~ "you have write permissions for<br><b>%2</b></qt>"
+#~ msgstr ""
+#~ "<qt>展开 <i>%1</i> 的站点模板文件时出错。<br />请检查您是否对 <i>%2</i> 具"
+#~ "有写权限，且您的临时目录是否还有足够空余空间。</qt>"
+
+#~ msgid "Enter toolbar name:"
+#~ msgstr "输入工具栏名称："
+
+#~ msgid "User_%1"
+#~ msgstr "用户_%1"
+
+#~ msgid "New Toolbar"
+#~ msgstr "新建工具栏"
+
+#~ msgid "Remove Toolbar"
+#~ msgstr "删除工具栏"
+
+#~ msgid "Send Toolbar"
+#~ msgstr "发送工具栏"
+
+#~ msgid "Send toolbar in email"
+#~ msgstr "用电子邮件发送工具栏"
+
+#, fuzzy
+#~| msgid ""
+#~| "Hi,\n"
+#~| " This is a KDevelop/Quanta Plus [http://www.kdevelop.org, http://quanta."
+#~| "kdewebdev.org] toolbar.\n"
+#~| "\n"
+#~| "Have fun.\n"
+#~ msgid ""
+#~ "Hi,\n"
+#~ " This is a Quanta Plus [http://quanta.sourceforge.net] toolbar.\n"
+#~ "\n"
+#~ "Have fun.\n"
+#~ msgstr ""
+#~ "您好\n"
+#~ " 这是 KDevelop/Quanta Plus [http://www.kdevelop.org，http://quanta."
+#~ "kdewebdev.org] 的工具栏。\n"
+#~ "\n"
+#~ "祝您愉快。\n"
+
+#~ msgid "Content:"
+#~ msgstr "内容："
+
+#, fuzzy
+#~| msgid "KDevelop/Quanta Plus toolbar"
+#~ msgid "Quanta Plus toolbar"
+#~ msgstr "KDevelop/Quanta Plus 工具栏"
+
+#~ msgid ""
+#~ "No destination address was specified.\n"
+#~ " Sending is aborted."
+#~ msgstr ""
+#~ "没有指定目的地址。\n"
+#~ "发送被中止。"
+
+#~ msgid "Error Sending Email"
+#~ msgstr "发送邮件错误"
+
+#~ msgid "Rename Toolbar"
+#~ msgstr "重命名工具栏"
+
+#~ msgid "Enter the new name:"
+#~ msgstr "输入新名称："
+
+#~ msgid "Change the current DTD."
+#~ msgstr "更改当前 DTD。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Toolbar <b>%1/<b> is new and unsaved. Do you want to save it before "
+#~ "it is removed?</qt>"
+#~ msgstr "<qt> 工具栏<b></b> 是 新的 和 到 是</qt>"
+
+#~ msgid ""
+#~ "<qt>The toolbar <b>%1</b> was modified. Do you want to save it before it "
+#~ "is removed?</qt>"
+#~ msgstr "<qt>工具栏 <b>%1</b> 已修改。您是否想要在删除前先保存？</qt>"
+
+#, fuzzy
+#~| msgid "Select DTD:"
+#~ msgid "Send DTD"
+#~ msgstr "选中的 DTD："
+
+#~ msgid "Please select a DTD:"
+#~ msgstr "请选择一个 DTD："
+
+#~ msgid "Send DTD in email"
+#~ msgstr "用电子邮件发送 DTD"
+
+#, fuzzy
+#~| msgid ""
+#~| "Hi,\n"
+#~| " This is a KDevelop/Quanta Plus [http://www.kdevelop.org, http://quanta."
+#~| "kdewebdev.org] toolbar.\n"
+#~| "\n"
+#~| "Have fun.\n"
+#~ msgid ""
+#~ "Hi,\n"
+#~ " This is a Quanta Plus [http://quanta.sourceforge.net] DTD definition "
+#~ "tarball.\n"
+#~ "\n"
+#~ "Have fun.\n"
+#~ msgstr ""
+#~ "您好\n"
+#~ " 这是 KDevelop/Quanta Plus [http://www.kdevelop.org，http://quanta."
+#~ "kdewebdev.org] 的工具栏。\n"
+#~ "\n"
+#~ "祝您愉快。\n"
+
+#, fuzzy
+#~| msgid "QuantaFilesTree"
+#~ msgid "Quanta Plus DTD"
+#~ msgstr "Quanta文件树"
+
+#, fuzzy
+#~| msgid "<qt>Do you really want to delete the <b>%1</b> group?</qt>"
+#~ msgid "<qt>Do you really want to delete the file <b>%1</b> ?</qt>"
+#~ msgstr "<qt>您真的要删除 <b>%1</b> 组吗？</qt>"
+
+#~ msgid "Delete File"
+#~ msgstr "删除文件"
+
+#~ msgid "<qt>Do you want to replace the existing <b>%1</b> DTD?</qt>"
+#~ msgstr "<qt>您真的要替换已有的 <b>%1</b> DTD 吗？</qt>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Use the newly loaded <b>%1</b> DTD for the current document?</qt>"
+#~ msgstr "<qt><b></b> DTD 属于</qt>"
+
+#~ msgid "Change DTD"
+#~ msgstr "更改 DTD"
+
+#, fuzzy
+#~| msgid "Select Project Folder"
+#~ msgid "Select A DTEP Directory"
+#~ msgstr "选择工程文件夹"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Cannot read the DTEP from <b>%1</b>. Check that the directory "
+#~ "contains a valid DTEP (<i>description.rc and *.tag files</i>).</qt>"
+#~ msgstr "<qt> 自<b></b> 检查 包含 a<i> 描述 和</i></qt>"
+
+#~ msgid "Error loading DTEP"
+#~ msgstr "装入 DTEP 错误"
+
+#, fuzzy
+#~ msgid "<qt>Autoload the <b>%1</b> DTD in the feature?</qt>"
+#~ msgstr "<qt><b></b> DTD 属于</qt>"
+
+#~ msgid "Save Before Preview"
+#~ msgstr "预览前保存"
+
+#~ msgid "&Yes"
+#~ msgstr "是(&Y)"
+
+#~ msgid "&No"
+#~ msgstr "否(&N)"
+
+#~ msgid "Line: 00000 Col: 000"
+#~ msgstr "行：00000 列：000"
+
+#~ msgid "Editor"
+#~ msgstr "编辑器"
+
+#, fuzzy
+#~| msgid "Message Window"
+#~ msgid "Message output"
+#~ msgstr "消息窗口"
+
+#~ msgid "Problem reporter"
+#~ msgstr "问题报告器"
+
+#~ msgid "Attribute tree view"
+#~ msgstr "属性树视图"
+
+#~ msgid "Files tree view"
+#~ msgstr "文件树视图"
+
+#, fuzzy
+#~| msgid "Project Tree"
+#~ msgid "Project tree view"
+#~ msgstr "工程树视图"
+
+#, fuzzy
+#~| msgid "Templates Tree"
+#~ msgid "Templates tree view"
+#~ msgstr "模板树视图"
+
+#~ msgid "Structure view (DOM tree)"
+#~ msgstr "结构视图(DOM 树)"
+
+#, fuzzy
+#~| msgid "Message Window"
+#~ msgid "Message Window...\n"
+#~ msgstr "消息窗口"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The DTD tag file %1 is not valid.<br> The error message is: <i>%2 in "
+#~ "line %3, column %4.</i></qt>"
+#~ msgstr "<qt> DTD 文件 是<br /> 错误 是<i> 属于 直线</i></qt>"
+
+#~ msgid "Invalid Tag File"
+#~ msgstr "无效的标签文件"
+
+#~ msgid "&Edit Current Tag..."
+#~ msgstr "编辑当前标签(&E)..."
+
+#~ msgid "E&xpand Abbreviation"
+#~ msgstr "展开缩写(&X)"
+
+#~ msgid "Paste"
+#~ msgstr "粘贴"
+
+#, fuzzy
+#~| msgid "Replace Selection"
+#~ msgid "Toggle &Block Selection"
+#~ msgstr "替换选中内容"
+
+#~ msgid "Overwrite Mode"
+#~ msgstr "覆盖模式"
+
+#~ msgid "&Indent"
+#~ msgstr "增加缩进(&I)"
+
+#~ msgid "Unindent"
+#~ msgstr "减少缩进"
+
+#~ msgid "Cl&ean Indentation"
+#~ msgstr "清除缩进(&C)"
+
+#~ msgid "Co&mment"
+#~ msgstr "注释(&M)"
+
+#~ msgid "Unc&omment"
+#~ msgstr "取消注释(&M)"
+
+#~ msgid "Apply &Word Wrap"
+#~ msgstr "应用文字换行(&W)"
+
+#~ msgid "&Clear Bookmarks"
+#~ msgstr "清空书签(&C)"
+
+#~ msgid "Show &Icon Border"
+#~ msgstr "显示图标边框(&I)"
+
+#~ msgid "Show &Line Numbers"
+#~ msgstr "显示行号(&L)"
+
+#~ msgid "Ti&p of the Day"
+#~ msgstr "日积月累(&P)"
+
+#~ msgid "&Dynamic Word Wrap"
+#~ msgstr "动态文字换行(&D)"
+
+#~ msgid "Configure &Editor..."
+#~ msgstr "配置编辑器(&C)..."
+
+#~ msgid "End of &Line"
+#~ msgstr "行结束符(&L)"
+
+#~ msgid "&Unix"
+#~ msgstr "&Unix"
+
+#~ msgid "&Windows/DOS"
+#~ msgstr "&Windows/DOS"
+
+#~ msgid "&Macintosh"
+#~ msgstr "&Macintosh"
+
+#~ msgid "Close Other Tabs"
+#~ msgstr "关闭其它标签"
+
+#~ msgid "Open &Recent"
+#~ msgstr "打开最近的(&R)"
+
+#~ msgid "Close All"
+#~ msgstr "全部关闭"
+
+#~ msgid "Save All..."
+#~ msgstr "全部保存..."
+
+#~ msgid "Reloa&d"
+#~ msgstr "重新载入(&D)"
+
+#, fuzzy
+#~| msgid "Save as &Local Toolbar..."
+#~ msgid "Save as Local Template..."
+#~ msgstr "另存为本地工具栏(&L)..."
+
+#, fuzzy
+#~| msgid "Save as &Project Toolbar..."
+#~ msgid "Save as Project Template..."
+#~ msgstr "另存为工程工具栏(&P)..."
+
+#, fuzzy
+#~| msgid "Save selection as template file:"
+#~ msgid "Save Selection to Local Template File..."
+#~ msgstr "将选中内容另存为模板文件："
+
+#, fuzzy
+#~| msgid "Save selection as template file:"
+#~ msgid "Save Selection to Project Template File..."
+#~ msgstr "将选中内容另存为模板文件："
+
+#~ msgid "&List Opened Files..."
+#~ msgstr "列出打开的文件(&L)..."
+
+#~ msgid "Find in Files..."
+#~ msgstr "在文件中查找..."
+
+#~ msgid "Context &Help..."
+#~ msgstr "联机帮助(&H)..."
+
+#~ msgid "&Quanta Homepage"
+#~ msgstr "Quanta 主页(&Q)"
+
+#~ msgid "&User Mailing List"
+#~ msgstr "用户邮件列表(&U)"
+
+#~ msgid "Make &Donation"
+#~ msgstr "捐助(&D)"
+
+#, fuzzy
+#~| msgid "Attributes"
+#~ msgid "Tag &Attributes..."
+#~ msgstr "属性"
+
+#~ msgid "&Change the DTD..."
+#~ msgstr "更改 DTD  (&C)..."
+
+#~ msgid "&Document Properties"
+#~ msgstr "文档属性(&D)"
+
+#~ msgid "Show Files Tree"
+#~ msgstr "显示文件树"
+
+#~ msgid "Show Project Tree"
+#~ msgstr "显示工程树"
+
+#~ msgid "Show Templates Tree"
+#~ msgstr "显示模板树"
+
+#~ msgid "Show Structure Tree"
+#~ msgstr "显示结构树"
+
+#~ msgid "Show Attribute Tree"
+#~ msgstr "显示属性树"
+
+#~ msgid "Show Documentation Tree"
+#~ msgstr "显示文档树"
+
+#~ msgid "Show &Messages"
+#~ msgstr "显示消息(&M)"
+
+#, fuzzy
+#~| msgid "&Source"
+#~ msgid "&Source Editor"
+#~ msgstr "来源(&S)"
+
+#, fuzzy
+#~| msgid "&Edit"
+#~ msgid "&VPL Editor"
+#~ msgstr "编辑(&E)"
+
+#~ msgid "Pr&eview"
+#~ msgstr "预览(&E)"
+
+#, fuzzy
+#~| msgid "&Preview"
+#~ msgid "&Reload Preview"
+#~ msgstr "预览(&P)"
+
+#~ msgid "View with &Konqueror"
+#~ msgstr "在 &Konqueror 中查看"
+
+#~ msgid "View with L&ynx"
+#~ msgstr "在 L&ynx 中查看"
+
+#~ msgid "&Previous File"
+#~ msgstr "上一个文件(&P)"
+
+#~ msgid "&Next File"
+#~ msgstr "下一个文件(&N)"
+
+#~ msgid "&New Project..."
+#~ msgstr "新建工程(&N)..."
+
+#~ msgid "&Open Project..."
+#~ msgstr "打开工程(&O)..."
+
+#~ msgid "Op&en Recent Project"
+#~ msgstr "打开最近的工程(&E)"
+
+#~ msgid "Open Recent Project"
+#~ msgstr "打开最近的工程"
+
+#~ msgid "&Close Project"
+#~ msgstr "关闭工程(&C)"
+
+#, fuzzy
+#~| msgid "&New Project..."
+#~ msgid "Open Project &View..."
+#~ msgstr "新建工程(&N)..."
+
+#, fuzzy
+#~| msgid "Project Files"
+#~ msgid "&Save Project View"
+#~ msgstr "工程文件"
+
+#, fuzzy
+#~| msgid "Save as &Project Toolbar..."
+#~ msgid "Save Project View &As..."
+#~ msgstr "另存为工程工具栏(&P)..."
+
+#, fuzzy
+#~| msgid "&New Project..."
+#~ msgid "&Delete Project View..."
+#~ msgstr "新建工程(&N)..."
+
+#~ msgid "&Insert Files..."
+#~ msgstr "插入文件(&I)..."
+
+#~ msgid "Insert &Directory..."
+#~ msgstr "插入目录(&D)..."
+
+#~ msgid "&Rescan Project Folder"
+#~ msgstr "重新扫描工程文件夹(&R)"
+
+#~ msgid "&Upload Project"
+#~ msgstr "上传工程(&U)"
+
+#~ msgid "&Project Options"
+#~ msgstr "工程选项(&P)"
+
+#~ msgid "Configure &Actions..."
+#~ msgstr "配置动作(&A)..."
+
+#~ msgid "Load &Project Toolbar"
+#~ msgstr "装入工程工具栏(&P)"
+
+#~ msgid "Load &Global Toolbar..."
+#~ msgstr "装入全局工具栏(&G)..."
+
+#~ msgid "Load &Local Toolbar..."
+#~ msgstr "装入本地工具栏(&L)..."
+
+#~ msgid "Save as &Local Toolbar..."
+#~ msgstr "另存为本地工具栏(&L)..."
+
+#~ msgid "Save as &Project Toolbar..."
+#~ msgstr "另存为工程工具栏(&P)..."
+
+#~ msgid "&Add User Toolbar..."
+#~ msgstr "添加用户工具栏(&A)..."
+
+#~ msgid "&Remove User Toolbar..."
+#~ msgstr "删除用户工具栏(&R)..."
+
+#~ msgid "Re&name User Toolbar..."
+#~ msgstr "重命名用户工具栏(&N)..."
+
+#, fuzzy
+#~| msgid "Send Toolbar in E&mail..."
+#~ msgid "Send Toolbar in E-&Mail..."
+#~ msgstr "用电子邮件发送工具栏(&M)..."
+
+#~ msgid "Show DTD Toolbar"
+#~ msgstr "显示 DTD 工具栏"
+
+#~ msgid "Complete Text"
+#~ msgstr "补全文本"
+
+#~ msgid "Completion Hints"
+#~ msgstr "自动补全提示"
+
+#~ msgid "Upload..."
+#~ msgstr "上传..."
+
+#~ msgid "Upload Opened Project Files..."
+#~ msgstr "上传打开的工程文件..."
+
+#~ msgid "Invalid Plugins"
+#~ msgstr "无效插件"
+
+#~ msgid "Restore File"
+#~ msgstr "资源文件"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Can't create directory<br><b>%1</b>.<br>Check that you have write "
+#~ "permission in the parent directory or that the connection to<br><b>%2</"
+#~ "b><br> is valid!</qt>"
+#~ msgstr "<qt><br /><b></b><br /> 检查 属于 或 到<br /><b></b><br /> 是</qt>"
+
+#, fuzzy
+#~ msgid ""
+#~ "The file type is not recognized.   Opening binary files may confuse "
+#~ "Quanta.\n"
+#~ " Are you sure you want to open this file?"
+#~ msgstr ""
+#~ "文件 类型 是 二进制 Quanta\n"
+#~ " 到 文件?"
+
+#~ msgid "Unknown Type"
+#~ msgstr "未知类型"
+
+#, fuzzy
+#~ msgid "<qt>Cannot open document <b>%1</b>.</qt>"
+#~ msgstr "<qt> DTD 自<b></b></qt>"
+
+#, fuzzy
+#~| msgid ""
+#~| "<qt>The toolbar <b>%1</b> was modified. Do you want to save it before it "
+#~| "is removed?</qt>"
+#~ msgid ""
+#~ "The file \"%1\" has been modified.\n"
+#~ "Do you want to save it?"
+#~ msgstr "<qt>工具栏 <b>%1</b> 已修改。您是否想要在删除前先保存？</qt>"
+
+#~ msgid "Warning"
+#~ msgstr "警告"
+
+#~ msgid "Untitled%1"
+#~ msgstr "无标题%1"
+
+#~ msgid "Attributes of <%1>"
+#~ msgstr "<%1> 的属性"
+
+#~ msgid "Unknown tag: %1"
+#~ msgstr "未知标签：%1"
+
+#~ msgid "Table Editor..."
+#~ msgstr "表格编辑器..."
+
+#~ msgid "Color..."
+#~ msgstr "颜色..."
+
+#~ msgid "Email..."
+#~ msgstr "电子邮件..."
+
+#~ msgid "Misc. Tag..."
+#~ msgstr "杂类标签..."
+
+#, fuzzy
+#~| msgid "Image Wizard"
+#~ msgid "Frame Wizard..."
+#~ msgstr "图像向导"
+
+#~ msgid "Insert CSS..."
+#~ msgstr "插入 CSS..."
+
+#~ msgid "Insert Special Character"
+#~ msgstr "插入特殊字符"
+
+#~ msgid "Create new project"
+#~ msgstr "新建工程"
+
+#~ msgid ""
+#~ "<qt>The <b>create new Quanta project</b> plugin requires the <b>Quanta "
+#~ "core</b> plugin to be loaded.</qt>"
+#~ msgstr ""
+#~ "<qt><b>新建 Quanta 工程</b>插件需要 <b>Quanta 核心</b>已经装载才能进行。</"
+#~ "qt>"
+
+#~ msgid "Quanta core not loaded"
+#~ msgstr "未装载 Quanta 核心"
+
+#~ msgid "New Project Wizard"
+#~ msgstr "新建工程向导"
+
+#~ msgid "<b>Main Project Settings</b>"
+#~ msgstr "<b>主要工程设置</b>"
+
+#~ msgid "<b>Detailed Project Settings</b>"
+#~ msgstr "<b>详细工程设置</b>"
+
+#~ msgid "<b>Insert Files in Project</b>"
+#~ msgstr "<b>插入文件到工程中</b>"
+
+#~ msgid "Select Project Folder"
+#~ msgstr "选择工程文件夹"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "Insert Files in Project"
+#~ msgstr "插入文件到工程中"
+
+#~ msgid "Insert Folder in Project"
+#~ msgstr "插入文件夹到工程中"
+
+#~ msgid "Remove"
+#~ msgstr "删除"
+
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgid ""
+#~ "<qt>There was an error while trying to run the <b>wget</b> application."
+#~ "<br />Check first that it is present on your system and that it is in "
+#~ "your PATH.</qt>"
+#~ msgstr ""
+#~ "<qt>试图运行 <b>wget</b> 应用程序时出错。<br />请检查您的系统中是否存在此"
+#~ "程序，并且在 PATH 路径中。</qt>"
+
+#~ msgid "This feature is available only if the project lies on a local disk."
+#~ msgstr "此特性仅当工程位于本地磁盘上才可用。"
+
+#~ msgid "wget finished...\n"
+#~ msgstr "wget 已完成...\n"
+
+#, fuzzy
+#~ msgid "<qt>Cannot download the DTD from <b>%1</b>.</qt>"
+#~ msgstr "<qt> DTD 自<b></b></qt>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Error while parsing the DTD.\n"
+#~ "The error message is:\n"
+#~ "%1"
+#~ msgstr "<qt> 错误 DTD<br /> 错误 是<br /><i></i></qt>"
+
+#~ msgid "No elements were found in the DTD."
+#~ msgstr "未在 DTD 中找到元素。"
+
+#~ msgid "%1 block"
+#~ msgstr "%1 块"
+
+#~ msgid "Folder: %1"
+#~ msgstr "文件夹：%1"
+
+#~ msgid "File: %1"
+#~ msgstr "文件：%1"
+
+#~ msgid "Target: %1"
+#~ msgstr "目标：%1"
+
+#~ msgid "Project Manager"
+#~ msgstr "工程管理"
+
+#~ msgid "Insert Files"
+#~ msgstr "插入文件"
+
+#~ msgid "Insert Files - Insert new files into the project."
+#~ msgstr "插入文件 - 插入新的文件到工程。"
+
+#~ msgid "&Insert Folder..."
+#~ msgstr "插入文件夹(&I)..."
+
+#~ msgid "Insert Folder"
+#~ msgstr "插入文件夹"
+
+#~ msgid "Insert Folder - Insert a new folder into the project."
+#~ msgstr "插入文件夹 - 插入一个新文件夹到工程。"
+
+#~ msgid "&Copy Here"
+#~ msgstr "复制至此(&C)"
+
+#~ msgid "Insert in Project"
+#~ msgstr "插入到工程"
+
+#~ msgid "Copy Files to Project"
+#~ msgstr "复制文件到工程"
+
+#~ msgid "%1: Copy to Project"
+#~ msgstr "%1：复制到工程"
+
+#~ msgid "Quanta File Info"
+#~ msgstr "Quanta 文件信息"
+
+#~ msgid "Number of lines: %1"
+#~ msgstr "行数：%1"
+
+#~ msgid "Number of images included: %1"
+#~ msgstr "所含图像数目：%1"
+
+#~ msgid "Image size: %1 x %2"
+#~ msgstr "图像大小：%1 x %2"
+
+#~ msgid "&Move Here"
+#~ msgstr "移动至此(&M)"
+
+#~ msgid "&Link Here"
+#~ msgstr "链接至此(&L)"
+
+#~ msgid "C&ancel"
+#~ msgstr "取消(&A)"
+
+#~ msgid ""
+#~ "<qt>The file <b>%1</b> already exists.<br />Do you want to overwrite it?</"
+#~ "qt>"
+#~ msgstr "<qt>文件<b>%1</b>已经存在。<br />要覆盖它吗？</qt>"
+
+#~ msgid "Overwrite"
+#~ msgstr "覆盖"
+
+#~ msgid "Create New Folder"
+#~ msgstr "创建新文件夹"
+
+#~ msgid "Folder name:"
+#~ msgstr "文件夹名称："
+
+#~ msgid "Create New File"
+#~ msgstr "创建新文件夹"
+
+#~ msgid "File name:"
+#~ msgstr "文件名："
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Cannot create file, because a file named <b>%1</b> already exists.</"
+#~ "qt>"
+#~ msgstr "<qt> 文件 a 文件<b></b></qt>"
+
+#~ msgid "Error Creating File"
+#~ msgstr "创建文件错误"
+
+#~ msgid "*|All Files"
+#~ msgstr "*|全部文件"
+
+#, fuzzy
+#~ msgid "<qt>Do you want to add<br /><b>%1</b><br />to the project?</qt>"
+#~ msgstr "<qt> 到<br /><b></b><br /> 到</qt>"
+
+#~ msgid "Add to Project"
+#~ msgstr "添加到工程"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Do you really want to remove<br /><b>%1</b><br />from the project?</"
+#~ "qt>"
+#~ msgstr "<qt> 到 删除<br /><b></b><br /> 自</qt>"
+
+#~ msgid "Remove From Project"
+#~ msgstr "从工程中删除"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Do you really want to delete<br /><b>%1</b><br />and remove it from "
+#~ "the project?</qt>"
+#~ msgstr "<qt> 到<br /><b></b><br /> 和 删除 自</qt>"
+
+#~ msgid "Delete & Remove From Project"
+#~ msgstr "删除并从工程中删除"
+
+#~ msgid "<qt>Do you really want to delete<br /><b>%1</b>?</qt>"
+#~ msgstr "<qt>您真的要删除“<b>%1</b>”吗?</qt>"
+
+#~ msgid "Delete File or Folder"
+#~ msgstr "删除文件或文件夹"
+
+#, fuzzy
+#~ msgid "Drag this to resize the widget."
+#~ msgstr "拖动 到."
+
+#, fuzzy
+#~ msgid ""
+#~ "You cannot run a tag user action if the QuantaCore plugin is not loaded."
+#~ msgstr "您 a 用户 插件 是 已载入."
+
+#, fuzzy
+#~ msgid "Missing QuantaCore"
+#~ msgstr "缺少"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>There was an error running <b>%1</b>.<br />Check that you have the <i>"
+#~ "%2</i> executable installed and it is accessible.</qt>"
+#~ msgstr "<qt> 错误 正在运行<b></b><br /> 检查<i></i> 和 是</qt>"
+
+#~ msgid "Script Not Found"
+#~ msgstr "脚本未找到"
+
+#~ msgid "The \"%1\" script output:\n"
+#~ msgstr "“%1”脚本输出：\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The filtering action <b>%1</b> seems to be locked.<br />Do you want "
+#~ "to terminate it?</qt>"
+#~ msgstr "<qt><b></b> 到<br /> 到</qt>"
+
+#~ msgid "Action Not Responding"
+#~ msgstr "动作未响应"
+
+#~ msgid "HTML Preview"
+#~ msgstr "HTML 预览"
+
+#~ msgid "&Preview"
+#~ msgstr "预览(&P)"
+
+#~ msgid "Preview the document in the browser"
+#~ msgstr "在浏览器中预览文档"
+
+#~ msgid ""
+#~ "<b>Preview</b><p>The preview shows the current document in an HTML "
+#~ "browser.</p>"
+#~ msgstr "<b>预览</b><p>预览部分显示了当前文档在浏览器中的样子。</p>"
+
+#~ msgid "Structure Tree"
+#~ msgstr "结构树"
+
+#~ msgid ""
+#~ "Displays the structure of the current document. Manipulation of the "
+#~ "document is also possible."
+#~ msgstr "显示当前文档的结构。 对该文档的操作也可以进行。"
+
+#~ msgid "Groups"
+#~ msgstr "组"
+
+#~ msgid "Document"
+#~ msgstr "文档"
+
+#~ msgid "Custom..."
+#~ msgstr "自定义..."
+
+#~ msgid "Opened Files"
+#~ msgstr "打开的文件"
+
+#~ msgid "Unknown tag"
+#~ msgstr "未知标签"
+
+#~ msgid "Tag Properties: "
+#~ msgstr "标签属性："
+
+#~ msgid ""
+#~ "|Image Files\n"
+#~ "*|All Files"
+#~ msgstr ""
+#~ "|图像文件\n"
+#~ "*|全部文件"
+
+#~ msgid "Image source:"
+#~ msgstr "图像源："
+
+#~ msgid "Width:"
+#~ msgstr "宽度："
+
+#~ msgid "Height:"
+#~ msgstr "高度："
+
+#~ msgid "HSpace:"
+#~ msgstr "水平空间："
+
+#~ msgid "VSpace:"
+#~ msgstr "垂直空间："
+
+#~ msgid "Alternate text:"
+#~ msgstr "替代文本："
+
+#~ msgid "Border:"
+#~ msgstr "边框："
+
+#~ msgid "Align:"
+#~ msgstr "对齐："
+
+#~ msgid "No addresses found."
+#~ msgstr "未发现地址。"
+
+#~ msgid "Rows:"
+#~ msgstr "行数："
+
+#~ msgid "Style:"
+#~ msgstr "样式："
+
+#~ msgid "Templates Tree"
+#~ msgstr "模板树"
+
+#~ msgid "Working with templates"
+#~ msgstr "使用模板工作"
+
+#~ msgid "Create Site &Template..."
+#~ msgstr "创建网站模板(&T)..."
+
+#~ msgid "Currently you can create site templates only from local folders."
+#~ msgstr "现在您可以只从本地文件夹创建站点模板。"
+
+#~ msgid "Unsupported Feature"
+#~ msgstr "不支持的特性"
+
+#~ msgid "Create Site Template File"
+#~ msgstr "创建网站模板文件"
+
+#~ msgid ""
+#~ "This template will not be visible in your Templates Tree because it is "
+#~ "not saved to the local or project template folder."
+#~ msgstr "此模板将不会在模板树中可见，因为它还未保存到本地或工程模板文件夹。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>There was an error while creating the site template tarball.<br /"
+#~ ">Check that you can read the files from <i>%1</i>, you have write access "
+#~ "to <i>%2</i> and that you have enough free space in your temporary folder."
+#~ "</qt>"
+#~ msgstr "<qt> 错误 创建<br /> 检查 自<i></i> 到<i></i> 和 属于</qt>"
+
+#~ msgid "Template Creation Error"
+#~ msgstr "模板创建错误"
+
+#~ msgid "Text Snippet"
+#~ msgstr "文本片断"
+
+#~ msgid "Binary File"
+#~ msgstr "二进制文件"
+
+#~ msgid "Document Template"
+#~ msgstr "文档模板"
+
+#~ msgid "Site Template"
+#~ msgstr "网站模板"
+
+#~ msgid "Templates"
+#~ msgstr "模板"
+
+#~ msgid "Group"
+#~ msgstr "组"
+
+#~ msgid "Global"
+#~ msgstr "全局"
+
+#~ msgid "Project"
+#~ msgstr "工程"
+
+#~ msgid "&Download Template..."
+#~ msgstr "下载模板(&D)..."
+
+#~ msgid "&New Folder..."
+#~ msgstr "新建文件夹(&N)..."
+
+#~ msgid "Send in E&mail..."
+#~ msgstr "用电子邮件发送(&M)..."
+
+#~ msgid "&Upload Template..."
+#~ msgstr "上传模板(&U)..."
+
+#~ msgid "&Insert in Project..."
+#~ msgstr "插入到工程中(&I)..."
+
+#~ msgid "&Copy"
+#~ msgstr "复制(&C)"
+
+#~ msgid "&Paste"
+#~ msgstr "粘贴(&P)"
+
+#~ msgid "&Properties"
+#~ msgstr "属性(&P)"
+
+#~ msgid "&Reload"
+#~ msgstr "重新装入(&R)"
+
+#~ msgid "Insert as &Text"
+#~ msgstr "作为文本插入(&T)"
+
+#~ msgid "&New Document Based on This"
+#~ msgstr "创建基于此模板的文档(&N)"
+
+#~ msgid "&Extract Site Template To..."
+#~ msgstr "将网站模板提取到(&E)..."
+
+#~ msgid "&Open"
+#~ msgstr "打开(&O)"
+
+#~ msgid "Clos&e"
+#~ msgstr "关闭(&E)"
+
+#~ msgid "Create New Template Folder"
+#~ msgstr "创建新的模板文件夹"
+
+#~ msgid "&Inherit parent attribute (nothing)"
+#~ msgstr "继承父属性(无)(&I)"
+
+#~ msgid "&Inherit parent attribute (%1)"
+#~ msgstr "继承父属性(%1)(&I)"
+
+#~ msgid ""
+#~ "Error while creating the new folder.\n"
+#~ "                    Maybe you do not have permission to write in the %1 "
+#~ "folder."
+#~ msgstr ""
+#~ "新建文件夹时出错。\n"
+#~ "                    可能您对 %1 文件夹没有写权限。"
+
+#~ msgid "Save selection as template file:"
+#~ msgstr "将选中内容另存为模板文件："
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Could not write to file <b>%1</b>.<br />Check if you have rights to "
+#~ "write there or that your connection is working.</qt>"
+#~ msgstr "<qt> 到 文件<b></b><br /> 检查 到 或 是</qt>"
+
+#~ msgid "Quanta Template"
+#~ msgstr "Quanta 模板"
+
+#~ msgid ""
+#~ "Do you really want to delete folder \n"
+#~ "%1 ?\n"
+#~ msgstr ""
+#~ "您真的要删除文件夹\n"
+#~ "%1 吗？\n"
+
+#~ msgid ""
+#~ "Do you really want to delete file \n"
+#~ "%1 ?\n"
+#~ msgstr ""
+#~ "您真的要删除文件\n"
+#~ "%1 吗？\n"
+
+#~ msgid "Target folder"
+#~ msgstr "目的文件夹"
+
+#~ msgid ""
+#~ "<qt>Some error happened while extracting the <i>%1</i> site template file."
+#~ "<br />Check that you have write permission for <i>%2</i> and that there "
+#~ "is enough free space in your temporary folder.</qt>"
+#~ msgstr ""
+#~ "<qt>展开 <i>%1</i> 的站点模板文件时出错。<br />请检查您是否对 <i>%2</i> 具"
+#~ "有写权限，且您的临时目录是否还有足够空余空间。</qt>"
+
+#~ msgid "All"
+#~ msgstr "全部"
+
+#~ msgid "&Add New Toolbar"
+#~ msgstr "添加新工具栏(&A)"
+
+#~ msgid "&Remove Toolbar"
+#~ msgstr "删除工具栏(&R)"
+
+#~ msgid "&Edit Toolbar"
+#~ msgstr "编辑工具栏(&E)"
+
+#~ msgid "Do you really want to remove the \"%1\" toolbar?"
+#~ msgstr "您真的想要删除“%1”工具栏吗？"
+
+#~ msgid "Do you want to save the changes made to this action?"
+#~ msgstr "您是否想要保存对此动作的更改？"
+
+#~ msgid ""
+#~ "The '%1' key combination has already been allocated to the \"%2\" "
+#~ "action.\n"
+#~ "Please choose a unique key combination."
+#~ msgstr ""
+#~ "按键组合“%1”已经被分配给“%2”动作。\n"
+#~ "请选择一个独特的按键组合。"
+
+#~ msgid "Conflicting Shortcuts"
+#~ msgstr "快捷键冲突"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Removing the action removes all the references to it.\n"
+#~ "Are you sure you want to remove the <b>%1</b> action?</qt>"
+#~ msgstr "<qt> 全部 到 到 删除<b></b></qt>"
+
+#~ msgid "Add Action to Toolbar"
+#~ msgstr "在工具栏中添加动作"
+
+#~ msgid "Select recipient"
+#~ msgstr "选择收件人"
+
+#~ msgid "Please select an e-mail address:"
+#~ msgstr "请选择一个电子邮件地址："
+
+#~ msgid "New Action..."
+#~ msgstr "新建动作..."
+
+#~ msgid "New Toolbar..."
+#~ msgstr "新建工具栏..."
+
+#~ msgid "Rename Toolbar..."
+#~ msgstr "重命名工具栏..."
+
+#~ msgid "Configure Toolbars..."
+#~ msgstr "配置工具栏..."
+
+#~ msgid "Text Position"
+#~ msgstr "文本位置"
+
+#~ msgid "Icons Only"
+#~ msgstr "只有图标"
+
+#~ msgid "Text Only"
+#~ msgstr "只有文字"
+
+#~ msgid "Text Alongside Icons"
+#~ msgstr "文本在图标旁"
+
+#~ msgid "Text Under Icons"
+#~ msgstr "文本在图标下"
+
+#~ msgid "Remove Action - %1"
+#~ msgstr "删除动作 - %1"
+
+#~ msgid "Edit Action - %1"
+#~ msgstr "编辑动作 - %1"
+
+#~ msgid "<qt>Are you sure you want to remove the <b>%1</b> action?</qt>"
+#~ msgstr "<qt>您确定要删除动作 <b>%1</b> 吗？</qt>"
+
+#~ msgid "&New User Toolbar..."
+#~ msgstr "新建用户工具栏(&N)..."
+
+#~ msgid "Send Toolbar in E&mail..."
+#~ msgstr "用电子邮件发送工具栏(&M)..."
+
+#~ msgid "&Upload Toolbar..."
+#~ msgstr "上传工具栏(&U)..."
+
+#~ msgid "&Download Toolbar..."
+#~ msgstr "下载工具栏(&D)..."
+
+#~ msgid ""
+#~ "Cannot load the toolbars from the archive.\n"
+#~ "Check that the filenames inside the archives begin with the archive name."
+#~ msgstr ""
+#~ "无法从档案加载工具栏。\n"
+#~ "检查档案里面的文件名是否以档案名开头。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Toolbar <b>%1</b> is new and unsaved. Do you want to save it before "
+#~ "it is removed?</qt>"
+#~ msgstr "<qt> 工具栏<b></b> 是 新的 和 到 是</qt>"
+
+#~ msgid ""
+#~ "<qt>You must save the toolbars to the following folder: <br /><br /><b>"
+#~ "%1</b></qt>"
+#~ msgstr "<qt>您必须将工具栏保存到以下文件夹：<br /><br /><b>%1</b></qt>"
+
+#~ msgid "Toolbar Saving Error"
+#~ msgstr "工具栏保存错误"
+
+#~ msgid ""
+#~ "Hi,\n"
+#~ " This is a KDevelop/Quanta Plus [http://www.kdevelop.org, http://quanta."
+#~ "kdewebdev.org] toolbar.\n"
+#~ "\n"
+#~ "Have fun.\n"
+#~ msgstr ""
+#~ "您好\n"
+#~ " 这是 KDevelop/Quanta Plus [http://www.kdevelop.org，http://quanta."
+#~ "kdewebdev.org] 的工具栏。\n"
+#~ "\n"
+#~ "祝您愉快。\n"
+
+#~ msgid "KDevelop/Quanta Plus toolbar"
+#~ msgstr "KDevelop/Quanta Plus 工具栏"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The file <b>%1</b> is not writable.<br />Do you want to save the "
+#~ "configuration to a different file?</qt>"
+#~ msgstr "<qt> 文件<b></b> 是<br /> 到 配置 到 a 文件</qt>"
+
+#~ msgid "Save As"
+#~ msgstr "另存为"
+
+#~ msgid "*.rc|DTEP Description"
+#~ msgstr "*.rc|DTEP 描述"
+
+#~ msgid "Save Description As"
+#~ msgstr "描述另存为"
+
+#~ msgid "Edit Structure Group"
+#~ msgstr "编辑结构组"
+
+#~ msgid "Add Structure Group"
+#~ msgstr "添加结构组"
+
+#~ msgid "<qt>Do you really want to delete the <b>%1</b> group?</qt>"
+#~ msgstr "<qt>您真的要删除 <b>%1</b> 组吗？</qt>"
+
+#~ msgid "Delete Group"
+#~ msgstr "删除组"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The DTD tag file %1 is not valid.<br />The error message is: <i>%2 in "
+#~ "line %3, column %4.</i></qt>"
+#~ msgstr "<qt> DTD 文件 是<br /> 错误 是<i> 属于 直线</i></qt>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Cannot read the DTEP from <b>%1</b>. Check that the folder contains a "
+#~ "valid DTEP (<i>description.rc and *.tag files</i>).</qt>"
+#~ msgstr "<qt> 自<b></b> 检查 包含 a<i> 描述 和</i></qt>"
+
+#~ msgid "Error Loading DTEP"
+#~ msgstr "装入 DTEP 错误"
+
+#~ msgid "Unable to create an empty element."
+#~ msgstr "无法创建空元素。"
+
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Error while parsing the DTD.<br />The error message is:<br /><i>%1</"
+#~ "i></qt>"
+#~ msgstr "<qt> 错误 DTD<br /> 错误 是<br /><i></i></qt>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The statemachine describing file <b>%1</b> is not valid.<br />The "
+#~ "error message is: <i>%2 in line %3, column %4.</i></qt>"
+#~ msgstr "<qt> 文件<b></b> 是<br /> 错误 是<i> 属于 直线</i></qt>"
+
+#~ msgid "Invalid StateMachine File"
+#~ msgstr "无效状态机文件"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Cannot create folder<br /><b>%1</b>.<br />Check that you have write "
+#~ "permission in the parent folder or that the connection to<br /><b>%2</"
+#~ "b><br />is valid.</qt>"
+#~ msgstr "<qt><br /><b></b><br /> 检查 属于 或 到<br /><b></b><br /> 是</qt>"
+
+#~ msgid "Insert &Tag"
+#~ msgstr "插入标签(&T)"
+
+#, fuzzy
+#~ msgid "&Change the DTEP..."
+#~ msgstr "更改."
+
+#~ msgid "DTEP Selector"
+#~ msgstr "DTEP 选择器"
+
+#~ msgid "No addresses found!"
+#~ msgstr "未发现地址！"
+
+#~ msgid "Ordered"
+#~ msgstr "有序的"
+
+#, fuzzy
+#~| msgid "Unordered List"
+#~ msgid "Unordered"
+#~ msgstr "无序列表"
+
+#, fuzzy
+#~| msgid "The \"%1\" script output:\n"
+#~ msgid "\"%1\" script started.\n"
+#~ msgstr "“%1”脚本输出：\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>There was an error running <b>%1</b>.<br>Check that you have the <i>"
+#~ "%2</i> executable installed and it is accessible!</qt>"
+#~ msgstr "<qt> 错误 正在运行<b></b><br /> 检查<i></i> 和 是</qt>"
+
+#, fuzzy
+#~| msgid "The \"%1\" script output:\n"
+#~ msgid "\"%1\" script output:\n"
+#~ msgstr "“%1”脚本输出：\n"
+
+#, fuzzy
+#~| msgid "The \"%1\" script output:\n"
+#~ msgid ""
+#~ "\n"
+#~ "The \"%1\" script has exited.\n"
+#~ msgstr "“%1”脚本输出：\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The filtering action <b>%1</b> seems to be locked.<br>Do you want to "
+#~ "terminate it?</qt>"
+#~ msgstr "<qt><b></b> 到<br /> 到</qt>"
+
+#, fuzzy
+#~| msgid "Toolbars:"
+#~ msgid "Toolbar Menu"
+#~ msgstr "工具栏:"
+
+#~ msgid "Edit Toolbar..."
+#~ msgstr "编辑工具栏..."
+
+#~ msgid "Edit Toolbar"
+#~ msgstr "编辑工具栏"
+
+#~ msgid "Invalid Location"
+#~ msgstr "无效位置"
+
+#~ msgid "Niko Sams"
+#~ msgstr "Niko Sams"
+
+#~ msgid "Author"
+#~ msgstr "作者"
+
+#~ msgid "Opening: %1"
+#~ msgstr "正在打开：%1"
+
+#~ msgid "Starting: %1"
+#~ msgstr "开始：%1"
+
+#~ msgid "*** Exited normally ***"
+#~ msgstr "*** 正常退出 ***"
+
+#~ msgid "*** Exited with return code: %1 ***"
+#~ msgstr "*** 退出返回代码：%1 ***"
+
+#~ msgid "*** Process aborted ***"
+#~ msgstr "*** 进程中断 ***"
+
+#~ msgid "*** Crashed with return code: %1 ***"
+#~ msgstr "*** 崩溃返回代码：%1 ***"
+
+#~ msgid ""
+#~ "Could not start program '%1'. Make sure that the path is specified "
+#~ "correctly."
+#~ msgstr "无法启动程序“%1”。请确保正确指定了路径。"
+
+#~ msgid "Could not start application"
+#~ msgstr "无法启动应用程序"
+
+#~ msgid "XDebug"
+#~ msgstr "XDebug"
+
+#~ msgid "XDebug Configuration"
+#~ msgstr "XDebug 配置"
+
+#~ msgid "Example:"
+#~ msgstr "示例："
+
+#, fuzzy
+#~| msgid "Parameter"
+#~ msgid "css-parser"
+#~ msgstr "参数"
+
+#~ msgid "Connect failed:"
+#~ msgstr "连接失败："
+
+#~ msgid "new connection"
+#~ msgstr "新建连接"
+
+#~ msgid "Sql Query"
+#~ msgstr "SQL 查询"
+
+#~ msgid ""
+#~ "The document \"%1\" has unsaved changes. Would you like to save them?"
+#~ msgstr "文档“%1”有尚未保存的更改。您想要保存吗？"
+
+#~ msgid "Close Document"
+#~ msgstr "关闭文档"
+
+#~ msgid ""
+#~ "The file \"%1\" is modified on disk.\n"
+#~ "\n"
+#~ "Are you sure you want to overwrite it? (External changes will be lost.)"
+#~ msgstr ""
+#~ "文件“%1”在磁盘上被修改。\n"
+#~ "\n"
+#~ "您确定想要覆盖它吗？(外部修改会丢失。)"
+
+#~ msgid "Document Externally Modified"
+#~ msgstr "文档已在外部修改"
+
+#~ msgid "Document is Modified"
+#~ msgstr "文档已被修改"
+
+#~ msgid "XML Document Tree"
+#~ msgstr "XML 文档树"
+
+#, fuzzy
+#~| msgid "Image source:"
+#~ msgid "Compact source"
+#~ msgstr "图像源："
+
+#, fuzzy
+#~| msgid "Image source:"
+#~ msgid "Escape source"
+#~ msgstr "图像源："
+
+#, fuzzy
+#~| msgid "Image source:"
+#~ msgid "Un-escape source"
+#~ msgstr "图像源："
+
+#~ msgid "Unable to resolve"
+#~ msgstr "无法解析"
+
+#~ msgid "Namespace"
+#~ msgstr "命名空间"
+
+#~ msgid "Import"
+#~ msgstr "导入"
+
+#, fuzzy
+#~| msgid "Auto-close optional tags"
+#~ msgid "Close tag: optional"
+#~ msgstr "自动关闭可选标签"
+
+#~ msgid "Content type: "
+#~ msgstr "内容类型："
+
+#~ msgid "Content: "
+#~ msgstr "内容："
+
+#, fuzzy
+#~| msgid "Attributes"
+#~ msgid "Available Attributes:&nbsp;"
+#~ msgstr "属性"
+
+#, fuzzy
+#~ msgid "Available Children:&nbsp;"
+#~ msgstr "子类"
+
+#, fuzzy
+#~| msgid "Import"
+#~ msgid "Import of %1"
+#~ msgstr "导入"
+
+#~ msgid "Validate XML"
+#~ msgstr "校验 XML"
+
+#, fuzzy
+#~| msgid "Document Template"
+#~ msgid "No document to validate"
+#~ msgstr "文档模板"
+
+#, fuzzy
+#~| msgid "Validates XML."
+#~ msgid "Validate the XML"
+#~ msgstr "校验 XML。"
+
+#, fuzzy
+#~| msgid "Current document"
+#~ msgid "Error in document format"
+#~ msgstr "当前文档"
+
+#, fuzzy
+#~| msgid "DTD / Schema:"
+#~ msgid "Add DTD or XML Schema"
+#~ msgstr "DTD/大纲："
+
+#~ msgid "XML Catalog"
+#~ msgstr "XML 类型"
+
+#, fuzzy
+#~| msgid "Do you want to save the changes made to this action?"
+#~ msgid "Do you want to save your changes?"
+#~ msgstr "您是否想要保存对此动作的更改？"
+
+#, fuzzy
+#~| msgid "Unable to create an empty element."
+#~ msgid "Unable to remove the entry."
+#~ msgstr "无法创建空元素。"
+
+#, fuzzy
+#~| msgid "<qt>Are you sure you want to remove the <b>%1</b> action?</qt>"
+#~ msgid "Are you sure you want remove this entry?"
+#~ msgstr "<qt>您确定要删除动作 <b>%1</b> 吗？</qt>"
+
+#, fuzzy
+#~| msgid "Unable to create an empty element."
+#~ msgid "Unable to add the entry."
+#~ msgstr "无法创建空元素。"
+
+#~ msgid "[read-only]"
+#~ msgstr "[只读]"
+
+#~ msgid "Configure Catalog..."
+#~ msgstr "配置类型..."
+
+#~ msgid "Configure Browser Application"
+#~ msgstr "配置浏览器程序"
+
+#~ msgid "Browser Application"
+#~ msgstr "浏览器程序"
+
+#~ msgid "No valid executable specified"
+#~ msgstr "未指定有效的可执行文件"
+
+#~ msgid "Configure Native Application"
+#~ msgstr "配置原生应用程序"
+
+#~ msgid "Script Application"
+#~ msgstr "脚本应用程序"
+
+#~ msgid "*** Killed Application ***"
+#~ msgstr "*** 已杀死应用程序 ***"
+
+#~ msgid "Upload project"
+#~ msgstr "上传工程"
+
+#~ msgid "&Quick Upload Current File"
+#~ msgstr "快速上传当前文件(&Q)"
+
+#~ msgid "Quick Upload"
+#~ msgstr "快速上传"
+
+#~ msgid "Output"
+#~ msgstr "输出"
+
+#~ msgid "Upload Profiles"
+#~ msgstr "上传配置"
+
+#~ msgid "Please choose an upload profile."
+#~ msgstr "请选中一个要上传的配置。"
+
+#~ msgid "&Copy URL"
+#~ msgstr "复制 URL (&C)"
+
+#~ msgid "&Open URL"
+#~ msgstr "打开 URL (&O)"
+
+#~ msgid "permissions test"
+#~ msgstr "权限测试"
+
+#~ msgid "&Upload"
+#~ msgstr "上传(&U)"
+
+#~ msgctxt "Select all items in the tree"
+#~ msgid "All"
+#~ msgstr "全部选择"
+
+#~ msgid "Modified"
+#~ msgstr "修改时间"
+
+#~ msgid "Invert"
+#~ msgstr "反向选择"
+
+#, fuzzy
+#~| msgid "Can not upload, no profile selected."
+#~ msgid "Cannot upload, no profile selected."
+#~ msgstr "因为没有选中配置，因此无法上传。"
+
+#~ msgid "Uploading files"
+#~ msgstr "文件上传中"
+
+#~ msgid "Preparing..."
+#~ msgstr "正准备..."
+
+#~ msgid "Calculating size..."
+#~ msgstr "正在计算大小..."
+
+#~ msgid "Upload completed"
+#~ msgstr "上传完成"
+
+#, fuzzy
+#~| msgid "Mark as uploaded, but do not upload"
+#~ msgid "Marked as uploaded for %1: %2"
+#~ msgstr "标记为已上传，但不要真的上传"
+
+#~ msgid "Uploading to %1: %2"
+#~ msgstr "正在上传到 %1：%2"
+
+#~ msgid "Uploading %1..."
+#~ msgstr "正在上传 %1..."
+
+#~ msgid "Directory in %1 already exists: %2"
+#~ msgstr "%1 中的目录已经存在：%2"
+
+#~ msgid "Creating directory in %1: %2"
+#~ msgstr "创建目录于 %1：%2"
+
+#~ msgid "Upload canceled"
+#~ msgstr "上传中止"
+
+#~ msgid "Upload error: %1"
+#~ msgstr "上传出错：%1"
+
+#~ msgid "Upload Profile"
+#~ msgstr "上传配置"
+
+#, fuzzy
+#~| msgid "The specified url does not exist."
+#~ msgid "The specified URL does not exist."
+#~ msgstr "指定的 URL 不存在"
+
+#~ msgid "&Edit Cell Properties"
+#~ msgstr "编辑单元格属性(&E)"
+
+#, fuzzy
+#~| msgid "&Properties"
+#~ msgid "Edit &Row Properties"
+#~ msgstr "属性(&P)"
+
+#~ msgid "Merge Cells"
+#~ msgstr "合并单元格"
+
+#~ msgid "&Insert Row"
+#~ msgstr "插入行(&I)"
+
+#~ msgid "Insert Co&lumn"
+#~ msgstr "插入列(&L)"
+
+#~ msgid "Remove Row"
+#~ msgstr "删除行"
+
+#~ msgid "Remove Column"
+#~ msgstr "删除列"
+
+#~ msgid "Edit &Table Properties"
+#~ msgstr "编辑表格属性(&T)"
+
+#~ msgid "Edit Child Table"
+#~ msgstr "编辑子表"

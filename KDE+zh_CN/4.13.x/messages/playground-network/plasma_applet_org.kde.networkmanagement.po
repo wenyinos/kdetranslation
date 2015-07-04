@@ -1,0 +1,1684 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+# Feng Chao <rainofchaos@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-21 02:04+0000\n"
+"PO-Revision-Date: 2013-10-13 13:33+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showSections)
+#: applet/declarative/contents/ui/config.ui:20
+#, fuzzy
+#| msgid "Unknown connections"
+msgid "Show sections"
+msgstr "未知连接"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: applet/declarative/contents/ui/config.ui:33
+#, fuzzy
+#| msgid "Connection speed:"
+msgid "Show &network speed in:"
+msgstr "显示网络速度："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_networkSpeedUnit)
+#: applet/declarative/contents/ui/config.ui:47
+msgid "KBytes/s"
+msgstr "KBytes/s"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_networkSpeedUnit)
+#: applet/declarative/contents/ui/config.ui:52
+msgid "KBits/s"
+msgstr "KBits/s"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: applet/declarative/contents/ui/config.ui:67
+msgid "Connection Details"
+msgstr "连接详情"
+
+#: applet/declarative/contents/ui/ConnectionItem.qml:193
+msgid "Connect"
+msgstr "连接"
+
+#: applet/declarative/contents/ui/ConnectionItem.qml:195
+msgid "Disconnect"
+msgstr "断开"
+
+#: applet/declarative/contents/ui/ConnectionItem.qml:269
+msgid "Speed"
+msgstr ""
+
+#: applet/declarative/contents/ui/ConnectionItem.qml:275
+#, fuzzy
+#| msgid "Details to Show"
+msgid "Details"
+msgstr "要显示的细节"
+
+#: applet/declarative/contents/ui/ConnectionItem.qml:369
+msgid "Password..."
+msgstr "密码..."
+
+#: applet/declarative/contents/ui/ConnectionItem.qml:384
+msgid "Show password"
+msgstr "显示密码"
+
+#: applet/declarative/contents/ui/ConnectionItem.qml:417
+#: declarative-plugins/applet/networkstatus.cpp:99
+msgid "Connecting"
+msgstr "正在连接"
+
+#: applet/declarative/contents/ui/ConnectionItem.qml:419
+#: declarative-plugins/applet/networkstatus.cpp:96
+msgid "Disconnecting"
+msgstr "正在断开连接"
+
+#: applet/declarative/contents/ui/ConnectionItem.qml:431
+#: applet/declarative/contents/ui/ConnectionItem.qml:433
+#: applet/declarative/contents/ui/ConnectionItem.qml:437
+#: declarative-plugins/applet/networkstatus.cpp:81
+#: declarative-plugins/applet/networkstatus.cpp:84
+#: declarative-plugins/applet/networkstatus.cpp:87
+msgid "Connected"
+msgstr "已连接"
+
+#: applet/declarative/contents/ui/Toolbar.qml:58
+msgid "Wireless enabled"
+msgstr "无线已启用"
+
+#: applet/declarative/contents/ui/Toolbar.qml:58
+#, fuzzy
+#| msgid "Wireless enabled"
+msgid "Wireless disabled"
+msgstr "无线已启用"
+
+#: applet/declarative/contents/ui/Toolbar.qml:78
+msgid "Mobile broadband enabled"
+msgstr "移动宽带已启用"
+
+#: applet/declarative/contents/ui/Toolbar.qml:78
+#, fuzzy
+#| msgid "Mobile broadband enabled"
+msgid "Mobile broadband disabled"
+msgstr "移动宽带已启用"
+
+#: applet/declarative/contents/ui/Toolbar.qml:97
+#, fuzzy
+#| msgid "Wireless enabled"
+msgid "Airplane mode enabled"
+msgstr "无线已启用"
+
+#: applet/declarative/contents/ui/Toolbar.qml:97
+msgid "Airplane mode disabled"
+msgstr ""
+
+#: declarative-plugins/applet/networkstatus.cpp:90
+msgid "Inactive"
+msgstr "非活动"
+
+#: declarative-plugins/applet/networkstatus.cpp:93
+msgid "Disconnected"
+msgstr "已断开连接"
+
+#: declarative-plugins/applet/networkstatus.cpp:145
+msgid "VPN Connection"
+msgstr "VPN 连接"
+
+#: declarative-plugins/applet/networkstatus.cpp:150
+#, kde-format
+msgid "Connected to %1"
+msgstr "已连接到 %1"
+
+#: declarative-plugins/applet/networkstatus.cpp:152
+#, kde-format
+msgid "Connecting to %1"
+msgstr "正在连接到 %1"
+
+#: declarative-plugins/applet/networkstatus.cpp:175
+msgid "NetworkManager not running"
+msgstr "NetworkManager 未运行"
+
+#: declarative-plugins/applet/networkstatus.cpp:180
+#, kde-format
+msgid "NetworkManager 0.9.8 required, found %1."
+msgstr "需要 NetworkManager 0.9.8，发现了%1。"
+
+#: declarative-plugins/applet/networkstatus.cpp:183
+msgctxt "global connection state"
+msgid "Unknown"
+msgstr "未知"
+
+#: declarative-plugins/applet/trafficmonitor.cpp:138
+msgctxt "traffic received empty"
+msgid "Received"
+msgstr "已接收"
+
+#: declarative-plugins/applet/trafficmonitor.cpp:140
+msgctxt "traffic transmitted empty"
+msgid "Transmitted"
+msgstr "已传输"
+
+#: declarative-plugins/applet/trafficmonitor.cpp:203
+msgid "KBit/s"
+msgstr "KBit/s"
+
+#: declarative-plugins/applet/trafficmonitor.cpp:205
+msgid "MBit/s"
+msgstr "MBit/s"
+
+#: declarative-plugins/applet/trafficmonitor.cpp:210
+msgid "GBit/s"
+msgstr "GBit/s"
+
+#: declarative-plugins/applet/trafficmonitor.cpp:234
+#, kde-format
+msgctxt ""
+"traffic, e.g. n KB/s\n"
+" m KB/s"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: declarative-plugins/applet/trafficmonitor.cpp:243
+msgid "Received"
+msgstr "已接收"
+
+#: declarative-plugins/applet/trafficmonitor.cpp:246
+msgid "Transmitted"
+msgstr "已传输"
+
+#: declarative-plugins/handler.cpp:84
+#, fuzzy
+#| msgid "VPN plugin:"
+msgid "Missing VPN plugin"
+msgstr "VPN 插件："
+
+#: declarative-plugins/model/modelitem.cpp:201
+msgid "Active connections"
+msgstr "活动连接"
+
+#: declarative-plugins/model/modelitem.cpp:203
+#, fuzzy
+#| msgid "Active connections"
+msgid "Available connections"
+msgstr "活动连接"
+
+#: lib/bssidcombobox.cpp:137
+msgid "First select the SSID"
+msgstr "首先选择 SSID"
+
+#: lib/mobileconnectionwizard.cpp:60
+msgctxt "Mobile Connection Wizard"
+msgid "New Mobile Broadband Connection"
+msgstr "新建移动宽带连接"
+
+#: lib/mobileconnectionwizard.cpp:157 lib/mobileconnectionwizard.cpp:175
+#: lib/mobileconnectionwizard.cpp:201 lib/mobileconnectionwizard.cpp:560
+msgctxt "Mobile Connection Wizard"
+msgid "My plan is not listed..."
+msgstr "未列出我的方案…"
+
+#: lib/mobileconnectionwizard.cpp:162
+msgctxt "Mobile Connection Wizard"
+msgid "Unknown Provider"
+msgstr "未知提供商"
+
+#: lib/mobileconnectionwizard.cpp:170
+msgctxt "Mobile Connection Wizard"
+msgid "Default"
+msgstr "默认"
+
+#: lib/mobileconnectionwizard.cpp:203 lib/mobileconnectionwizard.cpp:211
+msgctxt "Mobile Connection Wizard"
+msgid "APN"
+msgstr "APN"
+
+#: lib/mobileconnectionwizard.cpp:256
+msgctxt "Mobile Connection Wizard"
+msgid "Set up a Mobile Broadband Connection"
+msgstr "设置移动宽带连接"
+
+#: lib/mobileconnectionwizard.cpp:259
+msgctxt "Mobile Connection Wizard"
+msgid ""
+"This assistant helps you easily set up a mobile broadband connection to a "
+"cellular (3G) network."
+msgstr "这个助手程序将帮助你简单地设定移动宽带连接到移动(3G)网络。"
+
+#: lib/mobileconnectionwizard.cpp:263
+msgctxt "Mobile Connection Wizard"
+msgid "You will need the following information:"
+msgstr "需要如下信息："
+
+#: lib/mobileconnectionwizard.cpp:267
+msgctxt "Mobile Connection Wizard"
+msgid "Your broadband provider's name"
+msgstr "您的宽带提供商名称"
+
+#: lib/mobileconnectionwizard.cpp:268
+msgctxt "Mobile Connection Wizard"
+msgid "Your broadband billing plan name"
+msgstr "您的宽带付费方案名称"
+
+#: lib/mobileconnectionwizard.cpp:269
+msgctxt "Mobile Connection Wizard"
+msgid "(in some cases) Your broadband billing plan APN (Access Point Name)"
+msgstr "(某些情况下) 你的宽带付费方案 APN (接入点名称)"
+
+#: lib/mobileconnectionwizard.cpp:273
+msgctxt "Mobile Connection Wizard"
+msgid "Create a connection for &this mobile broadband device:"
+msgstr "为这个移动宽带设备创建一个连接 (%t)："
+
+#: lib/mobileconnectionwizard.cpp:277 lib/mobileconnectionwizard.cpp:430
+msgctxt "Mobile Connection Wizard"
+msgid "Any GSM device"
+msgstr "任何 GSM 设备"
+
+#: lib/mobileconnectionwizard.cpp:279 lib/mobileconnectionwizard.cpp:432
+msgctxt "Mobile Connection Wizard"
+msgid "Any CDMA device"
+msgstr "任何 CDMA 设备"
+
+#: lib/mobileconnectionwizard.cpp:356
+msgctxt "Mobile Connection Wizard"
+msgid "Installed GSM device"
+msgstr "已安装的 GSM 设备"
+
+#: lib/mobileconnectionwizard.cpp:360
+msgctxt "Mobile Connection Wizard"
+msgid "Installed CDMA device"
+msgstr "已安装的 CDMA 设备"
+
+#: lib/mobileconnectionwizard.cpp:445
+msgctxt "Mobile Connection Wizard"
+msgid "Choose your Provider's Country"
+msgstr "选择提供商国家"
+
+#: lib/mobileconnectionwizard.cpp:448
+msgctxt "Mobile Connection Wizard"
+msgid "Country List:"
+msgstr "国家列表："
+
+#: lib/mobileconnectionwizard.cpp:452
+msgctxt "Mobile Connection Wizard"
+msgid "My country is not listed"
+msgstr "未列出我的国家"
+
+#: lib/mobileconnectionwizard.cpp:468
+msgctxt "Mobile Connection Wizard"
+msgid "Choose your Provider"
+msgstr "选择提供商"
+
+#: lib/mobileconnectionwizard.cpp:471
+msgctxt "Mobile Connection Wizard"
+msgid "Select your provider from a &list:"
+msgstr "从列表中选择您的提供商 (&l)："
+
+#: lib/mobileconnectionwizard.cpp:480
+msgctxt "Mobile Connection Wizard"
+msgid "I can't find my provider and I wish to enter it &manually:"
+msgstr "无法找到我的提供商，我希望手动输入(&m)："
+
+#: lib/mobileconnectionwizard.cpp:522
+msgctxt "Mobile Connection Wizard"
+msgid "Choose your Billing Plan"
+msgstr "选择您的付费方案"
+
+#: lib/mobileconnectionwizard.cpp:525
+msgctxt "Mobile Connection Wizard"
+msgid "&Select your plan:"
+msgstr "选择您的方案(&S):"
+
+#: lib/mobileconnectionwizard.cpp:532
+msgctxt "Mobile Connection Wizard"
+msgid "Selected plan &APN (Access Point Name):"
+msgstr "选择的 APN (接入点名称) 方案(&A)："
+
+#: lib/mobileconnectionwizard.cpp:544
+msgctxt "Mobile Connection Wizard"
+msgid ""
+"Warning: Selecting an incorrect plan may result in billing issues for your "
+"broadband account or may prevent connectivity.\n"
+"\n"
+"If you are unsure of your plan please ask your provider for your plan's APN."
+msgstr ""
+"警告：选中错误的付费方案可能导致您的宽带帐号付款问题或者无法连接。\n"
+"\n"
+"如果您不确认您的付费方案请咨询您的提供商您的付费方案的 APN。"
+
+#: lib/mobileconnectionwizard.cpp:581
+msgctxt "Mobile Connection Wizard"
+msgid "Confirm Mobile Broadband Settings"
+msgstr "确认移动宽带设置"
+
+#: lib/mobileconnectionwizard.cpp:584
+msgctxt "Mobile Connection Wizard"
+msgid ""
+"Your mobile broadband connection is configured with the following settings:"
+msgstr "你的移动宽带连接使用以下设置配置："
+
+#: lib/mobileconnectionwizard.cpp:588
+msgctxt "Mobile Connection Wizard"
+msgid "Your Provider:"
+msgstr "您的提供商："
+
+#: lib/mobileconnectionwizard.cpp:593
+msgctxt "Mobile Connection Wizard"
+msgid "Your Plan:"
+msgstr "您的方案："
+
+#: lib/ssidcombobox.cpp:152
+#, kde-format
+msgid ""
+"%1 (%2%)\n"
+"Security: %3\n"
+"Frequency: %4 Mhz"
+msgstr ""
+"%1 (%2%)\n"
+"安全：%3\n"
+"频率：%4 Mhz"
+
+#: lib/ssidcombobox.cpp:155
+#, kde-format
+msgid ""
+"%1 (%2%)\n"
+"Security: Insecure\n"
+"Frequency: %3 Mhz"
+msgstr ""
+"%1 (%2%)\n"
+"安全：不安全\n"
+"频率：%3 Mhz"
+
+#: lib/uiutils.cpp:64 lib/uiutils.cpp:110
+msgctxt "title of the interface widget in nm's popup"
+msgid "Wired Ethernet"
+msgstr "有线以太网"
+
+#: lib/uiutils.cpp:67
+msgctxt "title of the interface widget in nm's popup"
+msgid "Wireless 802.11"
+msgstr "无线 802.11"
+
+#: lib/uiutils.cpp:70
+msgctxt "title of the interface widget in nm's popup"
+msgid "Bluetooth"
+msgstr "蓝牙"
+
+#: lib/uiutils.cpp:73
+msgctxt "title of the interface widget in nm's popup"
+msgid "Wimax"
+msgstr "Wimax"
+
+#: lib/uiutils.cpp:76
+msgctxt "title of the interface widget in nm's popup"
+msgid "Infiniband"
+msgstr "Infiniband"
+
+#: lib/uiutils.cpp:79
+msgctxt "title of the interface widget in nm's popup"
+msgid "ADSL"
+msgstr "ADSL"
+
+#: lib/uiutils.cpp:82
+msgctxt "title of the interface widget in nm's popup"
+msgid "Virtual (bond)"
+msgstr "虚拟 (捆合)"
+
+#: lib/uiutils.cpp:85
+msgctxt "title of the interface widget in nm's popup"
+msgid "Virtual (bridge)"
+msgstr "虚拟 (桥接)"
+
+#: lib/uiutils.cpp:88
+msgctxt "title of the interface widget in nm's popup"
+msgid "Virtual (vlan)"
+msgstr "虚拟 (虚拟局域网)"
+
+#: lib/uiutils.cpp:95
+msgctxt "title of the interface widget in nm's popup"
+msgid "Serial Modem"
+msgstr "串口调制解调器"
+
+#: lib/uiutils.cpp:100
+msgctxt "title of the interface widget in nm's popup"
+msgid "Mobile Broadband"
+msgstr "移动宽带"
+
+#: lib/uiutils.cpp:179
+msgid "ADSL"
+msgstr "ADSL"
+
+#: lib/uiutils.cpp:183
+msgid "DSL"
+msgstr "DSL"
+
+#: lib/uiutils.cpp:187
+msgid "Bluetooth"
+msgstr "蓝牙"
+
+#: lib/uiutils.cpp:191
+msgid "Bond"
+msgstr "捆合"
+
+#: lib/uiutils.cpp:194
+msgid "Bridge"
+msgstr "网桥"
+
+#: lib/uiutils.cpp:198
+msgid "Mobile broadband"
+msgstr "移动宽带"
+
+#: lib/uiutils.cpp:202
+msgid "Infiniband"
+msgstr "Infiniband"
+
+#: lib/uiutils.cpp:205
+msgid "Olpc mesh"
+msgstr "Olpc mesh"
+
+#: lib/uiutils.cpp:208
+msgid "VLAN"
+msgstr "VLAN"
+
+#: lib/uiutils.cpp:211
+msgid "VPN"
+msgstr "VPN"
+
+#: lib/uiutils.cpp:215
+msgid "WiMAX"
+msgstr "WiMAX"
+
+#: lib/uiutils.cpp:219
+msgid "Wired"
+msgstr "有线连接"
+
+#: lib/uiutils.cpp:223
+msgid "Wireless"
+msgstr "无线"
+
+#: lib/uiutils.cpp:227
+msgid "Unknown connection type"
+msgstr "未知连接类型"
+
+#: lib/uiutils.cpp:262
+#, kde-format
+msgid "Wireless Interface (%1)"
+msgstr "无线接口 (%1)"
+
+#: lib/uiutils.cpp:265
+#, kde-format
+msgid "Wired Interface (%1)"
+msgstr "有线接口 (%1)"
+
+#: lib/uiutils.cpp:268
+#, kde-format
+msgid "Bluetooth (%1)"
+msgstr "蓝牙 (%1)"
+
+#: lib/uiutils.cpp:271
+#, kde-format
+msgid "Modem (%1)"
+msgstr "调制解调器 (%1)"
+
+#: lib/uiutils.cpp:274
+#, kde-format
+msgid "ADSL (%1)"
+msgstr "ADSL (%1)"
+
+#: lib/uiutils.cpp:277
+#, kde-format
+msgid "VLan (%1)"
+msgstr "VLan (%1)"
+
+#: lib/uiutils.cpp:280
+#, kde-format
+msgid "Bridge (%1)"
+msgstr "网桥 (%1)"
+
+#: lib/uiutils.cpp:293
+msgctxt "description of unknown network interface state"
+msgid "Unknown"
+msgstr "未知"
+
+#: lib/uiutils.cpp:296
+msgctxt "description of unmanaged network interface state"
+msgid "Unmanaged"
+msgstr "未受管理"
+
+#: lib/uiutils.cpp:299
+msgctxt "description of unavailable network interface state"
+msgid "Unavailable"
+msgstr "不可用"
+
+#: lib/uiutils.cpp:302
+msgctxt "description of unconnected network interface state"
+msgid "Not connected"
+msgstr "未连接"
+
+#: lib/uiutils.cpp:305
+msgctxt "description of preparing to connect network interface state"
+msgid "Preparing to connect"
+msgstr "正在准备连接"
+
+#: lib/uiutils.cpp:308
+msgctxt "description of configuring hardware network interface state"
+msgid "Configuring interface"
+msgstr "正在配置接口"
+
+#: lib/uiutils.cpp:311
+msgctxt "description of waiting for authentication network interface state"
+msgid "Waiting for authorization"
+msgstr "正在等待认证"
+
+#: lib/uiutils.cpp:314
+msgctxt "network interface doing dhcp request in most cases"
+msgid "Setting network address"
+msgstr "正在设置网络地址"
+
+#: lib/uiutils.cpp:317
+msgctxt "is other action required to fully connect? captive portals, etc."
+msgid "Checking further connectivity"
+msgstr "检查进一步连接"
+
+#: lib/uiutils.cpp:320
+msgctxt ""
+"a secondary connection (e.g. VPN) has to be activated first to continue"
+msgid "Waiting for a secondary connection"
+msgstr "正在等待二次连接"
+
+#: lib/uiutils.cpp:324
+msgctxt "network interface connected state label"
+msgid "Connected"
+msgstr "已连接"
+
+#: lib/uiutils.cpp:326
+#, kde-format
+msgctxt "network interface connected state label"
+msgid "Connected to %1"
+msgstr "已连接到 %1"
+
+#: lib/uiutils.cpp:330
+msgctxt "network interface disconnecting state label"
+msgid "Deactivating connection"
+msgstr "正在断开连接"
+
+#: lib/uiutils.cpp:333
+msgctxt "network interface connection failed state label"
+msgid "Connection Failed"
+msgstr "连接失败"
+
+#: lib/uiutils.cpp:336
+msgctxt "interface state"
+msgid "Error: Invalid state"
+msgstr "出错：无效的状态"
+
+#: lib/uiutils.cpp:395
+#, kde-format
+msgctxt "Format for <Vendor> <Product>"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: lib/uiutils.cpp:484
+msgctxt "wireless network operation mode"
+msgid "Unknown"
+msgstr "未知"
+
+#: lib/uiutils.cpp:487
+msgctxt "wireless network operation mode"
+msgid "Adhoc"
+msgstr "Adhoc 模式"
+
+#: lib/uiutils.cpp:490
+msgctxt "wireless network operation mode"
+msgid "Infrastructure"
+msgstr "Infrastructure"
+
+#: lib/uiutils.cpp:493
+msgctxt "wireless network operation mode"
+msgid "Access point"
+msgstr "接入点"
+
+#: lib/uiutils.cpp:496
+msgid "INCORRECT MODE FIX ME"
+msgstr "错误的模式，请修复我"
+
+#: lib/uiutils.cpp:518
+msgctxt "wireless network cipher"
+msgid "Pairwise WEP40"
+msgstr "配对 WEP40"
+
+#: lib/uiutils.cpp:520
+msgctxt "wireless network cipher"
+msgid "Pairwise WEP104"
+msgstr "配对 WEP104"
+
+#: lib/uiutils.cpp:522
+msgctxt "wireless network cipher"
+msgid "Pairwise TKIP"
+msgstr "配对 TKIP"
+
+#: lib/uiutils.cpp:524
+msgctxt "wireless network cipher"
+msgid "Pairwise CCMP"
+msgstr "配对 CCMP"
+
+#: lib/uiutils.cpp:526
+msgctxt "wireless network cipher"
+msgid "Group WEP40"
+msgstr "组 WEP40"
+
+#: lib/uiutils.cpp:528
+msgctxt "wireless network cipher"
+msgid "Group WEP104"
+msgstr "组 WEP104"
+
+#: lib/uiutils.cpp:530
+msgctxt "wireless network cipher"
+msgid "Group TKIP"
+msgstr "组 TKIP"
+
+#: lib/uiutils.cpp:532
+msgctxt "wireless network cipher"
+msgid "Group CCMP"
+msgstr "组 CCMP"
+
+#: lib/uiutils.cpp:534
+msgctxt "wireless network cipher"
+msgid "PSK"
+msgstr "PSK"
+
+#: lib/uiutils.cpp:536
+msgctxt "wireless network cipher"
+msgid "802.1x"
+msgstr "802.1x"
+
+#: lib/uiutils.cpp:546
+#, kde-format
+msgctxt "connection speed"
+msgid "<numid>%1</numid> Bit/s"
+msgstr "<numid>%1</numid> Bit/s"
+
+#: lib/uiutils.cpp:548
+#, kde-format
+msgctxt "connection speed"
+msgid "<numid>%1</numid> MBit/s"
+msgstr "<numid>%1</numid> MBit/s"
+
+#: lib/uiutils.cpp:550
+#, kde-format
+msgctxt "connection speed"
+msgid "<numid>%1</numid> GBit/s"
+msgstr "<numid>%1</numid> GBit/s"
+
+#: lib/uiutils.cpp:577
+msgctxt "Gsm modes (2G/3G/any)"
+msgid "LTE"
+msgstr "LTE"
+
+#: lib/uiutils.cpp:579
+msgctxt "Gsm modes (2G/3G/any)"
+msgid "UMTS/HSxPA"
+msgstr "UMTS/HSxPA"
+
+#: lib/uiutils.cpp:581
+msgctxt "Gsm modes (2G/3G/any)"
+msgid "GPRS/Edge"
+msgstr "GPRS/Edge"
+
+#: lib/uiutils.cpp:583
+msgctxt "Gsm modes (2G/3G/any)"
+msgid "GSM"
+msgstr "GSM"
+
+#: lib/uiutils.cpp:585 lib/uiutils.cpp:588
+msgctxt "Gsm modes (2G/3G/any)"
+msgid "Any"
+msgstr "任意"
+
+#: lib/uiutils.cpp:594 lib/uiutils.cpp:733
+msgctxt "Cellular access technology"
+msgid "LTE"
+msgstr "LTE"
+
+#: lib/uiutils.cpp:596
+msgctxt "Cellular access technology"
+msgid "CDMA2000 EVDO revision B"
+msgstr "CDMA2000 EVDO revision B"
+
+#: lib/uiutils.cpp:598
+msgctxt "Cellular access technology"
+msgid "CDMA2000 EVDO revision A"
+msgstr "CDMA2000 EVDO revision A"
+
+#: lib/uiutils.cpp:600
+msgctxt "Cellular access technology"
+msgid "CDMA2000 EVDO revision 0"
+msgstr "CDMA2000 EVDO revision 0"
+
+#: lib/uiutils.cpp:602
+msgctxt "Cellular access technology"
+msgid "CDMA2000 1xRTT"
+msgstr "CDMA2000 1xRTT"
+
+#: lib/uiutils.cpp:604 lib/uiutils.cpp:732
+msgctxt "Cellular access technology"
+msgid "HSPA+"
+msgstr "HSPA+"
+
+#: lib/uiutils.cpp:606 lib/uiutils.cpp:731
+msgctxt "Cellular access technology"
+msgid "HSPA"
+msgstr "HSPA"
+
+#: lib/uiutils.cpp:608 lib/uiutils.cpp:730
+msgctxt "Cellular access technology"
+msgid "HSUPA"
+msgstr "HSUPA"
+
+#: lib/uiutils.cpp:610 lib/uiutils.cpp:729
+msgctxt "Cellular access technology"
+msgid "HSDPA"
+msgstr "HSDPA"
+
+#: lib/uiutils.cpp:612 lib/uiutils.cpp:728
+msgctxt "Cellular access technology"
+msgid "UMTS"
+msgstr "UMTS"
+
+#: lib/uiutils.cpp:614 lib/uiutils.cpp:727
+msgctxt "Cellular access technology"
+msgid "EDGE"
+msgstr "EDGE"
+
+#: lib/uiutils.cpp:616 lib/uiutils.cpp:726
+msgctxt "Cellular access technology"
+msgid "GPRS"
+msgstr "GPRS"
+
+#: lib/uiutils.cpp:618 lib/uiutils.cpp:725
+msgctxt "Cellular access technology"
+msgid "Compact GSM"
+msgstr "兼容 GSM"
+
+#: lib/uiutils.cpp:620 lib/uiutils.cpp:724
+msgctxt "Cellular access technology"
+msgid "GSM"
+msgstr "GSM"
+
+#: lib/uiutils.cpp:622
+msgctxt "Analog wireline modem"
+msgid "Analog"
+msgstr "模拟"
+
+#: lib/uiutils.cpp:624 lib/uiutils.cpp:629 lib/uiutils.cpp:723
+#: lib/uiutils.cpp:736
+msgctxt "Unknown cellular access technology"
+msgid "Unknown"
+msgstr "未知"
+
+#: lib/uiutils.cpp:626
+msgctxt "Any cellular access technology"
+msgid "Any"
+msgstr "任意"
+
+#: lib/uiutils.cpp:636
+msgctxt "possible SIM lock reason"
+msgid "Modem is unlocked."
+msgstr ""
+
+#: lib/uiutils.cpp:638
+msgctxt "possible SIM lock reason"
+msgid "SIM requires the PIN code."
+msgstr ""
+
+#: lib/uiutils.cpp:640
+msgctxt "possible SIM lock reason"
+msgid "SIM requires the PIN2 code."
+msgstr ""
+
+#: lib/uiutils.cpp:642
+msgctxt "possible SIM lock reason"
+msgid "SIM requires the PUK code."
+msgstr ""
+
+#: lib/uiutils.cpp:644
+msgctxt "possible SIM lock reason"
+msgid "SIM requires the PUK2 code."
+msgstr ""
+
+#: lib/uiutils.cpp:646
+msgctxt "possible SIM lock reason"
+msgid "Modem requires the service provider PIN code."
+msgstr ""
+
+#: lib/uiutils.cpp:648
+msgctxt "possible SIM lock reason"
+msgid "Modem requires the service provider PUK code."
+msgstr ""
+
+#: lib/uiutils.cpp:650
+msgctxt "possible SIM lock reason"
+msgid "Modem requires the network PIN code."
+msgstr ""
+
+#: lib/uiutils.cpp:652
+msgctxt "possible SIM lock reason"
+msgid "Modem requires the network PUK code."
+msgstr ""
+
+#: lib/uiutils.cpp:654
+msgctxt "possible SIM lock reason"
+msgid "Modem requires the PIN code."
+msgstr ""
+
+#: lib/uiutils.cpp:656
+msgctxt "possible SIM lock reason"
+msgid "Modem requires the corporate PIN code."
+msgstr ""
+
+#: lib/uiutils.cpp:658
+msgctxt "possible SIM lock reason"
+msgid "Modem requires the corporate PUK code."
+msgstr ""
+
+#: lib/uiutils.cpp:660
+msgctxt "possible SIM lock reason"
+msgid "Modem requires the PH-FSIM PIN code."
+msgstr ""
+
+#: lib/uiutils.cpp:662
+msgctxt "possible SIM lock reason"
+msgid "Modem requires the PH-FSIM PUK code."
+msgstr ""
+
+#: lib/uiutils.cpp:664
+msgctxt "possible SIM lock reason"
+msgid "Modem requires the network subset PIN code."
+msgstr ""
+
+#: lib/uiutils.cpp:666
+msgctxt "possible SIM lock reason"
+msgid "Modem requires the network subset PUK code."
+msgstr ""
+
+#: lib/uiutils.cpp:669
+msgctxt "possible SIM lock reason"
+msgid "Lock reason unknown."
+msgstr ""
+
+#: lib/uiutils.cpp:676 lib/uiutils.cpp:681
+msgctxt "Unknown cellular type"
+msgid "Unknown"
+msgstr "未知"
+
+#: lib/uiutils.cpp:677
+msgctxt "Gsm cellular type"
+msgid "Gsm"
+msgstr "Gsm"
+
+#: lib/uiutils.cpp:678
+msgctxt "Cdma cellular type"
+msgid "Cdma"
+msgstr "Cdma"
+
+#: lib/uiutils.cpp:687 lib/uiutils.cpp:704
+msgctxt "Unknown cellular frequency band"
+msgid "Unknown"
+msgstr "未知"
+
+#: lib/uiutils.cpp:688
+msgctxt "Any cellular frequency band"
+msgid "Any"
+msgstr "任意"
+
+#: lib/uiutils.cpp:689
+msgctxt "Cellular frequency band"
+msgid "GSM/GPRS/EDGE 900 MHz"
+msgstr "GSM/GPRS/EDGE 900 MHz"
+
+#: lib/uiutils.cpp:690
+msgctxt "Cellular frequency band"
+msgid "GSM/GPRS/EDGE 1800 MHz"
+msgstr "GSM/GPRS/EDGE 1800 MHz"
+
+#: lib/uiutils.cpp:691
+msgctxt "Cellular frequency band"
+msgid "GSM/GPRS/EDGE 1900 MHz"
+msgstr "GSM/GPRS/EDGE 1900 MHz"
+
+#: lib/uiutils.cpp:692
+msgctxt "Cellular frequency band"
+msgid "GSM/GPRS/EDGE 850 MHz"
+msgstr "GSM/GPRS/EDGE 850 MHz"
+
+#: lib/uiutils.cpp:693
+msgctxt "Cellular frequency band"
+msgid "WCDMA 2100 MHz (Class I)"
+msgstr "WCDMA 2100 MHz (Class I)"
+
+#: lib/uiutils.cpp:694
+msgctxt "Cellular frequency band"
+msgid "WCDMA 3GPP 1800 MHz (Class III)"
+msgstr "WCDMA 3GPP 1800 MHz (Class III)"
+
+#: lib/uiutils.cpp:695
+msgctxt "Cellular frequency band"
+msgid "WCDMA 3GPP AWS 1700/2100 MHz (Class IV)"
+msgstr "WCDMA 3GPP AWS 1700/2100 MHz (Class IV)"
+
+#: lib/uiutils.cpp:696
+msgctxt "Cellular frequency band"
+msgid "WCDMA 3GPP UMTS 800 MHz (Class VI)"
+msgstr "WCDMA 3GPP UMTS 800 MHz (Class VI)"
+
+#: lib/uiutils.cpp:697
+msgctxt "Cellular frequency band"
+msgid "WCDMA 3GPP UMTS 850 MHz (Class V)"
+msgstr "WCDMA 3GPP UMTS 850 MHz (Class V)"
+
+#: lib/uiutils.cpp:698
+msgctxt "Cellular frequency band"
+msgid "WCDMA 3GPP UMTS 900 MHz (Class VIII)"
+msgstr "WCDMA 3GPP UMTS 900 MHz (Class VIII)"
+
+#: lib/uiutils.cpp:699
+msgctxt "Cellular frequency band"
+msgid "WCDMA 3GPP UMTS 1700 MHz (Class IX)"
+msgstr "WCDMA 3GPP UMTS 1700 MHz (Class IX)"
+
+#: lib/uiutils.cpp:700
+msgctxt "Cellular frequency band"
+msgid "WCDMA 3GPP UMTS 1900 MHz (Class II)"
+msgstr "WCDMA 3GPP UMTS 1900 MHz (Class II)"
+
+#: lib/uiutils.cpp:701
+msgctxt "Cellular frequency band"
+msgid "WCDMA 3GPP UMTS 2600 MHz (Class VII)"
+msgstr "WCDMA 3GPP UMTS 2600 MHz (Class VII)"
+
+#: lib/uiutils.cpp:710 lib/uiutils.cpp:717
+msgctxt "Allowed Gsm modes (2G/3G/any)"
+msgid "Any"
+msgstr "任意"
+
+#: lib/uiutils.cpp:711
+msgctxt "Allowed Gsm modes (2G/3G/any)"
+msgid "Prefer 2G"
+msgstr "2G 优先"
+
+#: lib/uiutils.cpp:712
+msgctxt "Allowed Gsm modes (2G/3G/any)"
+msgid "Prefer 3G"
+msgstr "3G 优先"
+
+#: lib/uiutils.cpp:713
+msgctxt "Allowed Gsm modes (2G/3G/any)"
+msgid "Only 2G"
+msgstr "仅 2G"
+
+#: lib/uiutils.cpp:714
+msgctxt "Allowed Gsm modes (2G/3G/any)"
+msgid "Only 3G"
+msgstr "仅 3G"
+
+#: lib/uiutils.cpp:744 lib/uiutils.cpp:750
+msgid "Unknown"
+msgstr "未知"
+
+#: lib/uiutils.cpp:745
+msgid "Home"
+msgstr "家"
+
+#: lib/uiutils.cpp:746
+msgid "Partner"
+msgstr "伙伴"
+
+#: lib/uiutils.cpp:747
+msgid "Roaming partner"
+msgstr "漫游伙伴"
+
+#: lib/uiutils.cpp:772
+msgctxt "@label no security"
+msgid "Insecure"
+msgstr "不安全"
+
+#: lib/uiutils.cpp:775
+msgctxt "@label WEP security"
+msgid "WEP"
+msgstr "WEP"
+
+#: lib/uiutils.cpp:778
+msgctxt "@label LEAP security"
+msgid "LEAP"
+msgstr "LEAP"
+
+#: lib/uiutils.cpp:781
+msgctxt "@label Dynamic WEP security"
+msgid "Dynamic WEP"
+msgstr "动态 WEP"
+
+#: lib/uiutils.cpp:784
+msgctxt "@label WPA-PSK security"
+msgid "WPA-PSK"
+msgstr "WPA-PSK"
+
+#: lib/uiutils.cpp:787
+msgctxt "@label WPA-EAP security"
+msgid "WPA-EAP"
+msgstr "WPA-EAP"
+
+#: lib/uiutils.cpp:790
+msgctxt "@label WPA2-PSK security"
+msgid "WPA2-PSK"
+msgstr "WPA2-PSK"
+
+#: lib/uiutils.cpp:793
+msgctxt "@label WPA2-EAP security"
+msgid "WPA2-EAP"
+msgstr "WPA2-EAP"
+
+#: lib/uiutils.cpp:796
+msgctxt "@label unknown security"
+msgid "Unknown security type"
+msgstr "未知安全类型"
+
+#: lib/uiutils.cpp:807
+msgctxt "@info:tooltip no security"
+msgid "Insecure"
+msgstr "不安全"
+
+#: lib/uiutils.cpp:810
+msgctxt "@info:tooltip WEP security"
+msgid "WEP"
+msgstr "WEP"
+
+#: lib/uiutils.cpp:813
+msgctxt "@info:tooltip LEAP security"
+msgid "LEAP"
+msgstr "LEAP"
+
+#: lib/uiutils.cpp:816
+msgctxt "@info:tooltip Dynamic WEP security"
+msgid "Dynamic WEP"
+msgstr "动态 WEP"
+
+#: lib/uiutils.cpp:819
+msgctxt "@info:tooltip WPA-PSK security"
+msgid "WPA-PSK"
+msgstr "WPA-PSK"
+
+#: lib/uiutils.cpp:822
+msgctxt "@info:tooltip WPA-EAP security"
+msgid "WPA-EAP"
+msgstr "WPA-EAP"
+
+#: lib/uiutils.cpp:825
+msgctxt "@info:tooltip WPA2-PSK security"
+msgid "WPA2-PSK"
+msgstr "WPA2-PSK"
+
+#: lib/uiutils.cpp:828
+msgctxt "@info:tooltip WPA2-EAP security"
+msgid "WPA2-EAP"
+msgstr "WPA2-EAP"
+
+#: lib/uiutils.cpp:831
+msgctxt "@info:tooltip unknown security"
+msgid "Unknown security type"
+msgstr "未知安全类型"
+
+#: lib/uiutils.cpp:848
+msgctxt "type of network device"
+msgid "Type:"
+msgstr "类型："
+
+#: lib/uiutils.cpp:860
+msgid "Activating"
+msgstr "激活"
+
+#: lib/uiutils.cpp:865
+msgid "Status:"
+msgstr "状态："
+
+#: lib/uiutils.cpp:874
+msgid "System name:"
+msgstr "系统名称："
+
+#: lib/uiutils.cpp:883
+msgid "IPv4 Address:"
+msgstr "IPv4 地址："
+
+#: lib/uiutils.cpp:893
+msgid "IPv4 Gateway:"
+msgstr "IPv4 网关："
+
+#: lib/uiutils.cpp:903
+msgid "IPv6 Address:"
+msgstr "IPv6 地址："
+
+#: lib/uiutils.cpp:913
+msgid "IPv6 Gateway:"
+msgstr "IPv6 网关："
+
+#: lib/uiutils.cpp:918
+msgid "Driver:"
+msgstr "驱动："
+
+#: lib/uiutils.cpp:934
+msgid "Name:"
+msgstr "名称："
+
+#: lib/uiutils.cpp:938 lib/uiutils.cpp:1123 lib/uiutils.cpp:1151
+msgid "MAC Address:"
+msgstr "MAC 地址："
+
+#: lib/uiutils.cpp:968 lib/uiutils.cpp:1008
+msgid "Operator:"
+msgstr "运营商："
+
+#: lib/uiutils.cpp:970
+msgid "Network ID:"
+msgstr "网络 ID："
+
+#: lib/uiutils.cpp:974 lib/uiutils.cpp:1012 lib/uiutils.cpp:1096
+msgid "Signal Quality:"
+msgstr "信号质量："
+
+#: lib/uiutils.cpp:978 lib/uiutils.cpp:1016
+msgid "Access Technology:"
+msgstr "接入技术："
+
+#: lib/uiutils.cpp:982 lib/uiutils.cpp:1020
+msgid "Allowed Mode:"
+msgstr "允许的模式："
+
+#: lib/uiutils.cpp:986 lib/uiutils.cpp:1028
+msgid "Unlock Required:"
+msgstr "需要解锁："
+
+#: lib/uiutils.cpp:990 lib/uiutils.cpp:1035
+msgid "IMEI:"
+msgstr "IMEI："
+
+#: lib/uiutils.cpp:997 lib/uiutils.cpp:1043
+msgid "IMSI:"
+msgstr "IMSI："
+
+#: lib/uiutils.cpp:1024
+msgid "Frequency Band:"
+msgstr "频带："
+
+#: lib/uiutils.cpp:1065
+msgid "VPN plugin:"
+msgstr "VPN 插件："
+
+#: lib/uiutils.cpp:1069
+msgid "Banner:"
+msgstr "横幅："
+
+#: lib/uiutils.cpp:1088
+msgid "Bsid:"
+msgstr "Bsid："
+
+#: lib/uiutils.cpp:1092
+msgid "NSP Name:"
+msgstr "NSP 名称："
+
+#: lib/uiutils.cpp:1096 lib/uiutils.cpp:1159
+#, kde-format
+msgid "%1%"
+msgstr "%1%"
+
+#: lib/uiutils.cpp:1100
+msgid "Network Type:"
+msgstr "网络类型："
+
+#: lib/uiutils.cpp:1119 lib/uiutils.cpp:1147
+msgid "Connection speed:"
+msgstr "连接速度："
+
+#: lib/uiutils.cpp:1155
+msgid "Mode:"
+msgstr "模式："
+
+#: lib/uiutils.cpp:1159
+msgid "Signal strength:"
+msgstr "信号强度："
+
+#: lib/uiutils.cpp:1163
+msgid "Access point (SSID):"
+msgstr "接入点 (SSID)："
+
+#: lib/uiutils.cpp:1167
+msgid "Access point (BSSID):"
+msgstr "接入点 (BSSID)："
+
+#: lib/uiutils.cpp:1171
+msgctxt "Wifi AP channel and frequency"
+msgid "Channel:"
+msgstr "频道："
+
+#: lib/uiutils.cpp:1171
+#, kde-format
+msgid "%1 (%2 MHz)"
+msgstr "%1 (%2 MHz)"
+
+#: lib/uiutils.cpp:1179 lib/uiutils.cpp:1185
+msgid "Security:"
+msgstr "安全："
+
+#: lib/uiutils.cpp:1190
+msgid "Frequency band:"
+msgstr "频带："
+
+#: lib/uiutils.cpp:1209
+#, kde-format
+msgctxt ""
+"Label for last used time for a network connection used in the last hour, as "
+"the number of minutes since usage"
+msgid "One minute ago"
+msgid_plural "%1 minutes ago"
+msgstr[0] ""
+
+#: lib/uiutils.cpp:1216
+#, kde-format
+msgctxt ""
+"Label for last used time for a network connection used in the last day, as "
+"the number of hours since usage"
+msgid "One hour ago"
+msgid_plural "%1 hours ago"
+msgstr[0] ""
+
+#: lib/uiutils.cpp:1221
+msgctxt ""
+"Label for last used time for a network connection used the previous day"
+msgid "Yesterday"
+msgstr ""
+
+#: lib/uiutils.cpp:1227
+msgctxt ""
+"Label for last used time for a network connection that has never been used"
+msgid "Never"
+msgstr ""
+
+#: lib/uiutils.cpp:1243
+#, kde-format
+msgctxt ""
+"Label for last used time for a network connection used in the last hour, as "
+"the number of minutes since usage"
+msgid "Last used one minute ago"
+msgid_plural "Last used %1 minutes ago"
+msgstr[0] ""
+
+#: lib/uiutils.cpp:1250
+#, kde-format
+msgctxt ""
+"Label for last used time for a network connection used in the last day, as "
+"the number of hours since usage"
+msgid "Last used one hour ago"
+msgid_plural "Last used %1 hours ago"
+msgstr[0] ""
+
+#: lib/uiutils.cpp:1255
+msgctxt ""
+"Label for last used time for a network connection used the previous day"
+msgid "Last used yesterday"
+msgstr ""
+
+#: lib/uiutils.cpp:1257
+#, kde-format
+msgid "Last used on %1"
+msgstr ""
+
+#: lib/uiutils.cpp:1261
+msgctxt ""
+"Label for last used time for a network connection that has never been used"
+msgid "Never used"
+msgstr ""
+
+#: lib/vpnuiplugin.cpp:53
+msgctxt "Error message in VPN import/export dialog"
+msgid "Operation not supported for this VPN type."
+msgstr "此 VPN 类型不支持这个操作"
+
+#: settings/details/detailkeyseditor.cpp:92
+msgid "Type"
+msgstr "类型"
+
+#: settings/details/detailkeyseditor.cpp:92
+msgid "Interface type"
+msgstr "接口类型"
+
+#: settings/details/detailkeyseditor.cpp:93
+msgid "Connection State"
+msgstr "连接状态"
+
+#: settings/details/detailkeyseditor.cpp:93
+msgid "Connection state"
+msgstr "连接状态"
+
+#: settings/details/detailkeyseditor.cpp:94
+msgid "Driver"
+msgstr "驱动"
+
+#: settings/details/detailkeyseditor.cpp:94
+msgid "Device driver"
+msgstr "设备驱动"
+
+#: settings/details/detailkeyseditor.cpp:95
+msgid "Connection Speed"
+msgstr "连接速度"
+
+#: settings/details/detailkeyseditor.cpp:95
+msgid "Connection speed"
+msgstr "连接速度"
+
+#: settings/details/detailkeyseditor.cpp:96
+msgid "System Name"
+msgstr "系统名称"
+
+#: settings/details/detailkeyseditor.cpp:97
+msgid "MAC Address"
+msgstr "MAC 地址"
+
+#: settings/details/detailkeyseditor.cpp:97
+msgid "Hardware address"
+msgstr "硬件地址"
+
+#: settings/details/detailkeyseditor.cpp:100
+msgid "IPv4 Address"
+msgstr "IPv4 地址"
+
+#: settings/details/detailkeyseditor.cpp:100
+msgid "IP version 4 address"
+msgstr "IPv4 地址"
+
+#: settings/details/detailkeyseditor.cpp:103
+msgid "IPv4 Gateway"
+msgstr "IPv4 网关"
+
+#: settings/details/detailkeyseditor.cpp:103
+msgid "IP version 4 default gateway"
+msgstr "第 4 版 IP 协议默认网关"
+
+#: settings/details/detailkeyseditor.cpp:106
+msgid "IPv6 Address"
+msgstr "IPv6 地址"
+
+#: settings/details/detailkeyseditor.cpp:106
+msgid "IP version 6 address"
+msgstr "IPv6 地址"
+
+#: settings/details/detailkeyseditor.cpp:109
+msgid "IPv6 Gateway"
+msgstr "IPv6 网关"
+
+#: settings/details/detailkeyseditor.cpp:109
+msgid "IP version 6 default gateway"
+msgstr "第 6 版 IP 协议默认网关"
+
+#: settings/details/detailkeyseditor.cpp:112
+msgid "Wimax Bsid"
+msgstr "Wimax Bsid"
+
+#: settings/details/detailkeyseditor.cpp:112
+msgid "The ID of the serving base station as received from the network"
+msgstr "从网络收到的服务基站的 ID"
+
+#: settings/details/detailkeyseditor.cpp:113
+msgid "Wimax Nsp"
+msgstr "Wimax Nsp"
+
+#: settings/details/detailkeyseditor.cpp:113
+msgid "The name of the NSP"
+msgstr "NSP 名称"
+
+#: settings/details/detailkeyseditor.cpp:114
+msgid "Wimax Signal"
+msgstr "Wimax 信号"
+
+#: settings/details/detailkeyseditor.cpp:114
+msgid "The current signal quality of the NSP, in percent."
+msgstr "当前 NSP 的信号质量，按百分比。"
+
+#: settings/details/detailkeyseditor.cpp:115
+msgid "Wimax NSP Type"
+msgstr "Wimax NSP 类型"
+
+#: settings/details/detailkeyseditor.cpp:115
+msgid "The network type of the NSP."
+msgstr "NSP 的网络类型。"
+
+#: settings/details/detailkeyseditor.cpp:118
+msgid "Access Point (SSID)"
+msgstr "接入点(SSID)"
+
+#: settings/details/detailkeyseditor.cpp:118
+msgid "Wireless Access Point's SSID"
+msgstr "无线接入点的 SSID(服务集标识符)"
+
+#: settings/details/detailkeyseditor.cpp:119
+msgid "Signal Strength"
+msgstr "信号强度"
+
+#: settings/details/detailkeyseditor.cpp:119
+msgid "Wireless Access Point's signal strength"
+msgstr "无线接入点信号强度"
+
+#: settings/details/detailkeyseditor.cpp:120
+msgid "Access Point (MAC)"
+msgstr "接入点(MAC)"
+
+#: settings/details/detailkeyseditor.cpp:120
+msgid "Wireless Access Point's Hardware Address"
+msgstr "无线接入点的硬件地址"
+
+#: settings/details/detailkeyseditor.cpp:121
+msgid "Wireless Band"
+msgstr "无线频带"
+
+#: settings/details/detailkeyseditor.cpp:121
+msgid "Wireless Frequency Band"
+msgstr "无线频带"
+
+#: settings/details/detailkeyseditor.cpp:122
+msgid "Wireless Channel"
+msgstr "无线频道"
+
+#: settings/details/detailkeyseditor.cpp:122
+msgid "Wireless Frequency Channel"
+msgstr "无线频率频道"
+
+#: settings/details/detailkeyseditor.cpp:123
+msgid "Wireless Security"
+msgstr "无线安全"
+
+#: settings/details/detailkeyseditor.cpp:123
+msgid "Describes the security capabilities of the access point"
+msgstr "描述接入点的安全能力"
+
+#: settings/details/detailkeyseditor.cpp:124
+msgid "Wireless Mode"
+msgstr "无线模式"
+
+#: settings/details/detailkeyseditor.cpp:124
+msgid "The operating mode of the wireless device"
+msgstr "无线设备的操作模式"
+
+#: settings/details/detailkeyseditor.cpp:127
+msgid "Mobile Operator"
+msgstr "移动运营商"
+
+#: settings/details/detailkeyseditor.cpp:127
+msgid "Mobile Operator's Name"
+msgstr "移动运营商名称"
+
+#: settings/details/detailkeyseditor.cpp:128
+msgid "Mobile Signal Quality"
+msgstr "移动信号质量"
+
+#: settings/details/detailkeyseditor.cpp:129
+msgid "Mobile Access Technology"
+msgstr "移动接入技术"
+
+#: settings/details/detailkeyseditor.cpp:131
+msgid "Mobile Frequency Band"
+msgstr "移动频带"
+
+#: settings/details/detailkeyseditor.cpp:133
+msgid "Mobile Allowed Mode"
+msgstr "移动允许模式"
+
+#: settings/details/detailkeyseditor.cpp:134
+msgid "Mobile Unlock Required"
+msgstr "需要解锁移动设备"
+
+#: settings/details/detailkeyseditor.cpp:134
+msgid "Mobile Master Device"
+msgstr "移动主控设备"
+
+#: settings/details/detailkeyseditor.cpp:135
+msgid "Mobile Device IMEI"
+msgstr "移动设备 IMEI"
+
+#: settings/details/detailkeyseditor.cpp:135
+msgid "Mobile Device Serial Number"
+msgstr "移动设备串号"
+
+#: settings/details/detailkeyseditor.cpp:136
+msgid "Mobile Device IMSI"
+msgstr "移动设备 IMSI"
+
+#: settings/details/detailkeyseditor.cpp:136
+msgid "Mobile Device Identity Number"
+msgstr "移动设备标识编号"
+
+#: settings/details/detailkeyseditor.cpp:139
+msgid "Bluetooth Name"
+msgstr "蓝牙名称"
+
+#: settings/details/detailkeyseditor.cpp:139
+msgid "Bluetooth name of the device"
+msgstr "设备的蓝牙名称"
+
+#: settings/details/detailkeyseditor.cpp:140
+msgid "VPN Plugin"
+msgstr "VPN 插件"
+
+#: settings/details/detailkeyseditor.cpp:140
+msgid "VPN plugin type"
+msgstr "VPN 插件类型"
+
+#: settings/details/detailkeyseditor.cpp:141
+msgid "VPN Banner"
+msgstr "VPN 欢迎信息"
+
+#: settings/details/detailkeyseditor.cpp:141
+msgid "VPN connection banner"
+msgstr "VPN 连接欢迎信息"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/details/detailkeyswidget.ui:34
+msgid "Available Details"
+msgstr "可用细节"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, availDetails)
+#. i18n: ectx: property (text), widget (QTreeWidget, currentDetails)
+#: settings/details/detailkeyswidget.ui:78
+#: settings/details/detailkeyswidget.ui:251
+msgctxt "title of a table's column"
+msgid "Name"
+msgstr "名称"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/details/detailkeyswidget.ui:204
+msgid "Details to Show"
+msgstr "要显示的细节"
+
+#~ msgid "Previous connections"
+#~ msgstr "曾使用的连接"
+
+#, fuzzy
+#~| msgid "Connection Details"
+#~ msgid "Connect automatically"
+#~ msgstr "连接详情"
+
+#~ msgid "Edit connection"
+#~ msgstr "编辑连接"
+
+#~ msgid "Networking enabled"
+#~ msgstr "网络已启用"
+
+#~ msgid "Wimax enabled"
+#~ msgstr "Wimax 已启用"
+
+#~ msgid "Edit connections..."
+#~ msgstr "编辑连接..."
+
+#~ msgid "Automatically connect"
+#~ msgstr "自动连接"
+
+#~ msgid "Frequency Bands:"
+#~ msgstr "频带："
+
+#~ msgid "Signal quality:"
+#~ msgstr "信号质量："
+
+#~ msgid "Incompatible NM version, 0.9.8 required"
+#~ msgstr "不兼容的 NM 版本，需要 0.9.8。"
+
+#~ msgid "Back"
+#~ msgstr "返回"
+
+#~ msgid "Edit"
+#~ msgstr "编辑"
+
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgid "Do you really want to remove connection %1?"
+#~ msgstr "您真的想要移除连接“%1”吗？"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgctxt "entry not available"
+#~ msgid "not available"
+#~ msgstr "不可用"
+
+#~ msgctxt "wireless network operation mode"
+#~ msgid "Unassociated"
+#~ msgstr "未关联"
+
+#~ msgctxt "wireless network operation mode"
+#~ msgid "Managed"
+#~ msgstr "托管模式"
+
+#~ msgctxt "wireless network operation mode"
+#~ msgid "Master"
+#~ msgstr "主模式"
+
+#~ msgctxt "wireless network operation mode"
+#~ msgid "Repeater"
+#~ msgstr "中继模式"
+
+#~ msgid "Connected (via %1)"
+#~ msgstr "已建立连接 (通过 %1)"

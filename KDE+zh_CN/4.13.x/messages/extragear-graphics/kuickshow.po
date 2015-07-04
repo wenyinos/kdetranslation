@@ -1,0 +1,603 @@
+# translation of kuickshow.po to 简体中文
+# Copyright (C) 2002,2003, 2008, 2009 Free Software Foundation, Inc.
+#
+# Lou Bingyong <loubingyong@hotmail.com>, 2001.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Funda Wang <fundawang@linux.net.cn>, 2002,2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kuickshow\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 02:42+0200\n"
+"PO-Revision-Date: 2010-11-16 13:38+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: defaultswidget.cpp:42
+msgid "Apply default image modifications"
+msgstr "应用默认的图像修饰"
+
+#: defaultswidget.cpp:47 printing.cpp:222
+msgid "Scaling"
+msgstr "缩放"
+
+#: defaultswidget.cpp:49
+msgid "Shrink image to screen size, if larger"
+msgstr "如果图像较大，缩小至屏幕大小"
+
+#: defaultswidget.cpp:52
+msgid "Scale image to screen size, if smaller, up to factor:"
+msgstr "如果图像较小，放大至屏幕大小，最大因子为："
+
+#: defaultswidget.cpp:64
+msgid "Geometry"
+msgstr "几何"
+
+#: defaultswidget.cpp:66
+msgid "Flip vertically"
+msgstr "垂直翻转"
+
+#: defaultswidget.cpp:68
+msgid "Flip horizontally"
+msgstr "水平翻转"
+
+#: defaultswidget.cpp:70
+msgid "Rotate image:"
+msgstr "旋转图像："
+
+#: defaultswidget.cpp:74
+msgid "0 Degrees"
+msgstr "0 度"
+
+#: defaultswidget.cpp:75
+msgid "90 Degrees"
+msgstr "90 度"
+
+#: defaultswidget.cpp:76
+msgid "180 Degrees"
+msgstr "180 度"
+
+#: defaultswidget.cpp:77
+msgid "270 Degrees"
+msgstr "270 度"
+
+#: defaultswidget.cpp:81
+msgid "Adjustments"
+msgstr "调节"
+
+#: defaultswidget.cpp:86
+msgid "Brightness:"
+msgstr "亮度："
+
+#: defaultswidget.cpp:92
+msgid "Contrast:"
+msgstr "对比度："
+
+#: defaultswidget.cpp:97
+msgid "Gamma:"
+msgstr "灰度："
+
+#: defaultswidget.cpp:101
+msgid "Preview"
+msgstr "预览"
+
+#: defaultswidget.cpp:103
+msgid "Original"
+msgstr "原图像"
+
+#: defaultswidget.cpp:107
+msgid "Modified"
+msgstr "修改后"
+
+#: generalwidget.cpp:51
+msgid "Open KuickShow Website"
+msgstr "打开 KuickShow 网站"
+
+#: generalwidget.cpp:59
+msgid "Fullscreen mode"
+msgstr "使用全屏显示"
+
+#: generalwidget.cpp:62
+msgid "Preload next image"
+msgstr "预先装入下一幅图像"
+
+#: generalwidget.cpp:64
+msgid "Remember last folder"
+msgstr "记住上次的文件夹"
+
+#: generalwidget.cpp:69
+msgid "Background color:"
+msgstr "背景颜色："
+
+#: generalwidget.cpp:72
+msgid "Show only files with extension: "
+msgstr "仅显示如下后缀的文件："
+
+#: generalwidget.cpp:89
+msgid "Quality/Speed"
+msgstr "质量/速度"
+
+#: generalwidget.cpp:95
+msgid "Smooth scaling"
+msgstr "平滑缩放"
+
+#: generalwidget.cpp:97
+msgid "Fast rendering"
+msgstr "快速渲染"
+
+#: generalwidget.cpp:99
+msgid "Dither in HiColor (15/16bit) modes"
+msgstr "在高彩色(15/16比特)模式下抖动"
+
+#: generalwidget.cpp:102
+msgid "Dither in LowColor (<=8bit) modes"
+msgstr "在低彩色(<= 8比特)模式下抖动"
+
+#: generalwidget.cpp:105
+msgid "Use own color palette"
+msgstr "使用自己的调色板"
+
+#: generalwidget.cpp:109
+msgid "Fast palette remapping"
+msgstr "快速调色板重映射"
+
+#: generalwidget.cpp:113
+msgid "Maximum cache size: "
+msgstr "最大缓存尺寸："
+
+#: generalwidget.cpp:114
+msgid " MB"
+msgstr " MB"
+
+#: generalwidget.cpp:115
+msgid "Unlimited"
+msgstr "无限制"
+
+#: imagewindow.cpp:156
+msgid "Show Next Image"
+msgstr "显示下一幅图像"
+
+#: imagewindow.cpp:161
+msgid "Show Previous Image"
+msgstr "显示前一幅图像"
+
+#: imagewindow.cpp:166
+msgid "Delete Image"
+msgstr "删除图像"
+
+#: imagewindow.cpp:171
+msgid "Move Image to Trash"
+msgstr "将图像移入回收站"
+
+#: imagewindow.cpp:185
+msgid "Restore Original Size"
+msgstr "恢复原始尺寸"
+
+#: imagewindow.cpp:190
+msgid "Maximize"
+msgstr "最大化"
+
+#: imagewindow.cpp:195
+msgid "Rotate 90 Degrees"
+msgstr "旋转 90 度"
+
+#: imagewindow.cpp:200
+msgid "Rotate 180 Degrees"
+msgstr "旋转 180 度"
+
+#: imagewindow.cpp:205
+msgid "Rotate 270 Degrees"
+msgstr "旋转 270 度"
+
+#: imagewindow.cpp:210
+msgid "Flip Horizontally"
+msgstr "水平翻转"
+
+#: imagewindow.cpp:216
+msgid "Flip Vertically"
+msgstr "垂直翻转"
+
+#: imagewindow.cpp:221 kuickshow.cpp:263
+msgid "Print Image..."
+msgstr "打印图像..."
+
+#: imagewindow.cpp:232
+msgid "More Brightness"
+msgstr "增大亮度"
+
+#: imagewindow.cpp:237
+msgid "Less Brightness"
+msgstr "减小亮度"
+
+#: imagewindow.cpp:242
+msgid "More Contrast"
+msgstr "增大对比度"
+
+#: imagewindow.cpp:247
+msgid "Less Contrast"
+msgstr "减小对比度"
+
+#: imagewindow.cpp:252
+msgid "More Gamma"
+msgstr "增大灰度"
+
+#: imagewindow.cpp:258
+msgid "Less Gamma"
+msgstr "减小灰度"
+
+#: imagewindow.cpp:264
+msgid "Scroll Up"
+msgstr "向上滚动"
+
+#: imagewindow.cpp:270
+msgid "Scroll Down"
+msgstr "向下滚动"
+
+#: imagewindow.cpp:275
+msgid "Scroll Left"
+msgstr "向左滚动"
+
+#: imagewindow.cpp:280
+msgid "Scroll Right"
+msgstr "向右滚动"
+
+#: imagewindow.cpp:285
+msgid "Pause Slideshow"
+msgstr "暂停幻灯片放映"
+
+#: imagewindow.cpp:294
+msgid "Reload Image"
+msgstr "重新装入图像"
+
+#: imagewindow.cpp:299
+msgid "Properties"
+msgstr "属性"
+
+#: imagewindow.cpp:367
+#, kde-format
+msgctxt "Filename (Imagewidth x Imageheight)"
+msgid "%3 (%1 x %2)"
+msgstr "%3 (%1 x %2)"
+
+#: imagewindow.cpp:470
+#, kde-format
+msgid "Unable to download the image from %1."
+msgstr "无法从 %1 下载图像。"
+
+#: imagewindow.cpp:486
+#, kde-format
+msgid ""
+"Unable to load the image %1.\n"
+"Perhaps the file format is unsupported or your Imlib is not installed "
+"properly."
+msgstr ""
+"无法装入图像 %1。\n"
+"可能是因为文件格式不支持或是您的 Imlib 没有正确安装。"
+
+#: imagewindow.cpp:927
+msgid "Brightness"
+msgstr "亮度"
+
+#: imagewindow.cpp:931
+msgid "Contrast"
+msgstr "对比度"
+
+#: imagewindow.cpp:935
+msgid "Gamma"
+msgstr "灰度"
+
+#: imagewindow.cpp:974
+msgid "Unable to print the image."
+msgstr "无法打印图像。"
+
+#: imagewindow.cpp:975
+msgid "Printing Failed"
+msgstr "打印失败"
+
+#: imagewindow.cpp:985
+msgid "Keep original image size"
+msgstr "保持原始图像尺寸"
+
+#: imagewindow.cpp:994
+msgid "Save As"
+msgstr "另存为"
+
+#: imagewindow.cpp:1002
+msgid ""
+"Could not save the file.\n"
+"Perhaps the disk is full, or you do not have write permission to the file."
+msgstr ""
+"无法保存文件。\n"
+"可能磁盘已满，或者您对该文件没有写权限。"
+
+#: imagewindow.cpp:1005
+msgid "File Saving Failed"
+msgstr "保存文件失败"
+
+#: imagewindow.cpp:1265
+#, kde-format
+msgid ""
+"You are about to view a very large image (%1 x %2 pixels), which can be very "
+"resource-consuming and even make your computer hang.\n"
+"Do you want to continue?"
+msgstr ""
+
+#: kuickconfigdlg.cpp:48
+msgid "Configure"
+msgstr "配置"
+
+#: kuickconfigdlg.cpp:52
+msgid "&General"
+msgstr "常规(&G)"
+
+#: kuickconfigdlg.cpp:57
+msgid "&Modifications"
+msgstr "修改(&M)"
+
+#: kuickconfigdlg.cpp:62
+msgid "&Slideshow"
+msgstr "幻灯片(&S)"
+
+#: kuickconfigdlg.cpp:67
+msgid "&Viewer Shortcuts"
+msgstr "查看器快捷键(&V)"
+
+#: kuickconfigdlg.cpp:75
+msgid "Bro&wser Shortcuts"
+msgstr "浏览器快捷键(&W)"
+
+#: kuickfile.cpp:126
+#, kde-format
+msgid "Downloading %1..."
+msgstr "正在下载 %1..."
+
+#: kuickfile.cpp:127
+#, kde-format
+msgid ""
+"Please wait while downloading\n"
+"%1"
+msgstr ""
+"请稍候，正在下载\n"
+"%1"
+
+#: kuickshow.cpp:142
+#, kde-format
+msgid ""
+"Do you really want to display this 1 image at the same time? This might be "
+"quite resource intensive and could overload your computer.<br>If you choose "
+"%1, only the first image will be shown."
+msgid_plural ""
+"Do you really want to display these %n images at the same time? This might "
+"be quite resource intensive and could overload your computer.<br>If you "
+"choose %1, only the first image will be shown."
+msgstr[0] ""
+
+#: kuickshow.cpp:144
+msgid "Display Multiple Images?"
+msgstr "显示多张图像？"
+
+#: kuickshow.cpp:266
+#, kde-format
+msgid "Configure %1..."
+msgstr "配置 %1..."
+
+#: kuickshow.cpp:271
+msgid "Start Slideshow"
+msgstr "开始幻灯片放映"
+
+#: kuickshow.cpp:277
+msgid "About KuickShow"
+msgstr "关于 KuickShow"
+
+#: kuickshow.cpp:282
+msgid "Open Only One Image Window"
+msgstr "仅打开一个图像窗口"
+
+#: kuickshow.cpp:287
+msgid "Show File Browser"
+msgstr "显示文件浏览器"
+
+#: kuickshow.cpp:289
+msgid "Hide File Browser"
+msgstr "隐藏文件浏览器"
+
+#: kuickshow.cpp:294
+msgid "Show Image"
+msgstr "显示图像"
+
+#: kuickshow.cpp:298
+msgid "Show Image in Active Window"
+msgstr "在活动窗口中显示图像"
+
+#: kuickshow.cpp:302
+msgid "Show Image in Fullscreen Mode"
+msgstr "以全屏模式显示图像"
+
+#: kuickshow.cpp:319
+msgid "&File"
+msgstr "文件(&F)"
+
+#: kuickshow.cpp:331
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#: kuickshow.cpp:345
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#: kuickshow.cpp:355
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: kuickshow.cpp:653
+#, kde-format
+msgid ""
+"<qt>Do you really want to delete\n"
+" <b>'%1'</b>?</qt>"
+msgstr ""
+"<qt>您真的想要删除\n"
+"<b>“%1”</b>吗？</qt>"
+
+#: kuickshow.cpp:654
+msgid "Delete File"
+msgstr "删除文件"
+
+#: kuickshow.cpp:679
+#, kde-format
+msgid ""
+"<qt>Do you really want to trash\n"
+" <b>'%1'</b>?</qt>"
+msgstr ""
+"<qt>您真的想要把\n"
+"<b>“%1”</b>移入回收站吗？</qt>"
+
+#: kuickshow.cpp:680
+msgid "Trash File"
+msgstr "将文件移入回收站"
+
+#: kuickshow.cpp:681
+msgctxt "to trash"
+msgid "&Trash"
+msgstr "移入回收站(&T)"
+
+#: kuickshow.cpp:1209
+msgid "Image Error"
+msgstr "图像错误"
+
+#: kuickshow.cpp:1234
+msgid ""
+"Unable to initialize \"Imlib\".\n"
+"Start kuickshow from the command line and look for error messages.\n"
+"The program will now quit."
+msgstr ""
+"无法初始化“Imlib”。\n"
+"请在命令行启动 kuickshow 并检查错误信息。\n"
+"现在将要退出。"
+
+#: kuickshow.cpp:1238
+msgid "Fatal Imlib Error"
+msgstr "严重的 Imlib 错误"
+
+#: kuickshow.cpp:1390
+msgid "Select Files or Folder to Open"
+msgstr "选择要打开的文件或文件夹"
+
+#: main.cpp:33
+msgid "KuickShow"
+msgstr "KuickShow"
+
+#: main.cpp:34
+msgid "A fast and versatile image viewer"
+msgstr "一个快速的多功能图像查看器"
+
+#: main.cpp:35
+msgid "(c) 1998-2009, Carsten Pfeiffer"
+msgstr "(c) 1998-2009，Carsten Pfeiffer"
+
+#: main.cpp:38
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: main.cpp:40
+msgid "Rober Hamberger"
+msgstr "Rober Hamberger"
+
+#: main.cpp:41
+msgid "Thorsten Scheuermann"
+msgstr "Thorsten Scheuermann"
+
+#: main.cpp:46
+msgid "Start in the last visited folder, not the current working folder."
+msgstr "在最近访问过的文件夹下启动，而不是当前的工作文件夹。"
+
+#: main.cpp:50
+msgid "Optional image filenames/urls to show"
+msgstr "要显示的可选的文件名/URL"
+
+#: printing.cpp:58
+#, kde-format
+msgid "Print %1"
+msgstr "打印 %1"
+
+#: printing.cpp:208
+msgid "Image Settings"
+msgstr "图像设置"
+
+#: printing.cpp:214
+msgid "Print fi&lename below image"
+msgstr "在图像下面打印文件名(&L)"
+
+#: printing.cpp:218
+msgid "Print image in &black and white"
+msgstr "以黑白打印图像(&B)"
+
+#: printing.cpp:228
+msgid "Shrink image to &fit, if necessary"
+msgstr "如果必要的话，缩小图像(&F)"
+
+#: printing.cpp:240
+msgid "Print e&xact size: "
+msgstr "确切打印尺寸(&X)："
+
+#: printing.cpp:248
+msgid "Millimeters"
+msgstr "毫米"
+
+#: printing.cpp:249
+msgid "Centimeters"
+msgstr "厘米"
+
+#: printing.cpp:250
+msgid "Inches"
+msgstr "英寸"
+
+#: printing.cpp:254
+msgid "&Width:"
+msgstr "宽度(&W)："
+
+#: printing.cpp:259
+msgid "&Height:"
+msgstr "高度(&H)："
+
+#: slideshowwidget.cpp:39
+msgid "Switch to &full-screen"
+msgstr "切换到全屏显示(&F)"
+
+#: slideshowwidget.cpp:40
+msgid "S&tart with current image"
+msgstr "用当前图像开始(&T)"
+
+#: slideshowwidget.cpp:43
+msgid "De&lay between slides:"
+msgstr "幻灯片之间的延时(&L)："
+
+#: slideshowwidget.cpp:44
+msgid " sec"
+msgstr " 秒"
+
+#: slideshowwidget.cpp:46
+msgid "Wait for key"
+msgstr "等候按键"
+
+#: slideshowwidget.cpp:49
+msgid "&Iterations (0 = infinite):"
+msgstr "重复次数 (0=无限循环)(&I)："
+
+#: slideshowwidget.cpp:50
+msgid "infinite"
+msgstr "无限"

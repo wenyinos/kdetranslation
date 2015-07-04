@@ -1,0 +1,160 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Lie Ex <lilith.ex@gmail.com>, 2010.
+# Weng Xuetian <wengxt@gmail.com>, 2011, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-16 01:35+0000\n"
+"PO-Revision-Date: 2013-01-22 01:02-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: maildispatcheragent.cpp:146 maildispatcheragent.cpp:313
+#, kde-format
+msgid "Sending messages (1 item in queue)..."
+msgid_plural "Sending messages (%1 items in queue)..."
+msgstr[0] "正在发送信件(队列中有 %1 项)"
+
+#: maildispatcheragent.cpp:157
+msgid "Sending canceled."
+msgstr "发送已取消。"
+
+#: maildispatcheragent.cpp:164
+msgid "Finished sending messages."
+msgstr "已完成发送信件。"
+
+#: maildispatcheragent.cpp:169
+msgctxt "Notification title when email was sent"
+msgid "E-Mail Successfully Sent"
+msgstr "邮件已成功发送"
+
+#: maildispatcheragent.cpp:170
+msgctxt "Notification when the email was sent"
+msgid "Your E-Mail has been sent successfully."
+msgstr "您的邮件已成功发送。"
+
+#: maildispatcheragent.cpp:175
+msgid "No items in queue."
+msgstr "队列中没有项目。"
+
+#: maildispatcheragent.cpp:240
+msgid "Online, sending messages in queue."
+msgstr "在线，正在发送队列中的信件。"
+
+#: maildispatcheragent.cpp:244
+msgid "Offline, message sending suspended."
+msgstr "离线，信件发送已中止。"
+
+#: maildispatcheragent.cpp:268
+#, kde-format
+msgctxt "Message with given subject is being sent."
+msgid "Sending: %1"
+msgstr "正在发送：%1"
+
+#: maildispatcheragent.cpp:338
+msgctxt "Notification title when email sending failed"
+msgid "E-Mail Sending Failed"
+msgstr "发送邮件失败"
+
+#: maildispatcheragent.cpp:363
+msgid "Ready to dispatch messages."
+msgstr "准备签发信件。"
+
+#. i18n: ectx: label, entry (Outbox), group (General)
+#: maildispatcheragent.kcfg:10
+msgid "Outbox collection id"
+msgstr "发件夹收藏编号"
+
+#. i18n: ectx: label, entry (SentMail), group (General)
+#: maildispatcheragent.kcfg:14
+msgid "Sent Mail collection id"
+msgstr "发送邮件收藏编号"
+
+#: outboxqueue.cpp:338
+#, kde-format
+msgid "Could not access the outbox folder (%1)."
+msgstr "无法访问发件夹(%1)。"
+
+#: sendjob.cpp:107 sendjob.cpp:108
+msgid "Message sending aborted."
+msgstr "信件发送已中止。"
+
+#: sendjob.cpp:116
+msgid "Could not initiate message transport. Possibly invalid transport."
+msgstr "无法初始化信件传输。可能是无效的传输。"
+
+#: sendjob.cpp:122
+msgid "Could not send message. Invalid transport."
+msgstr "无法发送信件。无效的传输。"
+
+#: sendjob.cpp:150
+#, kde-format
+msgid "Failed to get D-Bus interface of resource %1."
+msgstr "获取资源 %1 的 D-Bus 接口失败。"
+
+#: sendjob.cpp:165
+#, kde-format
+msgid "Invalid D-Bus reply from resource %1."
+msgstr "来自资源 %1 的无效 D-Bus 响应。"
+
+#: sendjob.cpp:272
+msgid "Default sent-mail folder unavailable. Keeping message in outbox."
+msgstr "默认已发送邮件夹无效，已将信件保留在发件夹内。"
+
+#: sendjob.cpp:284
+msgid "Message transport aborted."
+msgstr "信件传输已中止。"
+
+#: sendjob.cpp:285
+msgid "Failed to transport message."
+msgstr "传输信件失败。"
+
+#: sendjob.cpp:331
+msgid "Failed to get D-Bus interface of mailfilteragent."
+msgstr "获取邮件过滤代理的 D-Bus 接口失败。"
+
+#: sendjob.cpp:340
+msgid "Invalid D-Bus reply from mailfilteragent"
+msgstr "来自邮件过滤代理的 D-Bus 响应无效"
+
+#: sendjob.cpp:388
+msgid "Sending succeeded, but failed to remove the message from the outbox."
+msgstr "发送成功，但从发件箱移除信件时失败。"
+
+#: sendjob.cpp:392
+msgid ""
+"Sending succeeded, but failed to move the message to the sent-mail folder."
+msgstr "发送成功，但将信件移入已发送文件夹失败。"
+
+#: sendjob.cpp:423
+msgid "Failed to store result in item."
+msgstr "存储结果时失败。"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConfigDialog)
+#: settings.ui:15
+msgid "Mail Dispatcher Agent Settings"
+msgstr "邮件签发代理设置"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings.ui:21
+msgid "Select the collection to be used as outbox:"
+msgstr "选择要用作发件夹的收藏："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings.ui:38
+msgid "Select the collection to move sent messages into:"
+msgstr "选择要要将已发送信件移动到哪个收藏库："
+
+#: storeresultjob.cpp:68
+msgid "Failed to fetch item."
+msgstr "获取项目失败。"

@@ -1,0 +1,271 @@
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 07:05+0200\n"
+"PO-Revision-Date: 2010-06-13 23:27+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/main.cpp:21
+msgid "Shaman"
+msgstr "Shaman"
+
+#: src/main.cpp:22
+msgid "A Modular Package Manager for KDE"
+msgstr "KDE 下的模块化软件包管理器"
+
+#: src/main.cpp:24
+msgid "(C) 2008 - 2009, Dario Freddi - Lukas Appelhans"
+msgstr "(C) 2008 - 2009，Dario Freddi - Lukas Appelhans"
+
+#: src/main.cpp:25
+msgid "Dario Freddi"
+msgstr "Dario Freddi"
+
+#: src/main.cpp:25 src/main.cpp:26
+msgid "Maintainer"
+msgstr "维护者"
+
+#: src/main.cpp:26
+msgid "Lukas Appelhans"
+msgstr "Lukas Appelhans"
+
+#: src/main.cpp:27
+msgid "Wang Kai"
+msgstr "Wang Kai"
+
+#: src/main.cpp:27
+msgid "Developer"
+msgstr "开发者"
+
+#: src/MainWindow.cpp:107
+#, kde-format
+msgid "Using %1, %2."
+msgstr "使用 %1，%2。"
+
+#: src/MainWindow.cpp:110
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: src/MainWindow.cpp:110
+#, kde-format
+msgid "%1 backend - %2"
+msgstr "%1 后端 - %2"
+
+#: src/MainWindow.cpp:123 src/processqueue/ProcessQueueDialog.cpp:40
+msgid "Process Queue"
+msgstr "处理队列"
+
+#: src/MainWindow.cpp:132 src/updatedatabase/UpdateDatabaseDialog.cpp:41
+msgid "Update Database"
+msgstr "更新数据库"
+
+#: src/MainWindow.cpp:140
+msgid "Update system"
+msgstr "更新系统"
+
+#: src/MainWindow.cpp:347
+msgid "Yes"
+msgstr "是"
+
+#: src/MainWindow.cpp:350
+msgid "No"
+msgstr "否"
+
+#: src/MainWindow.cpp:353
+msgid "Cancel"
+msgstr "取消"
+
+#: src/processqueue/DownloadView.cpp:45
+#, kde-format
+msgid "%1:"
+msgstr "%1："
+
+#: src/processqueue/ErrorQuestionHandler.cpp:44
+msgid "There has been an error while downloading packages."
+msgstr "下载软件包时发生错误。"
+
+#: src/processqueue/ErrorQuestionHandler.cpp:45
+#: src/processqueue/ErrorQuestionHandler.cpp:49
+#: src/processqueue/ErrorQuestionHandler.cpp:57
+#: src/processqueue/ErrorQuestionHandler.cpp:61
+#: src/processqueue/ErrorQuestionHandler.cpp:65
+#: src/processqueue/ErrorQuestionHandler.cpp:69
+#: src/processqueue/ErrorQuestionHandler.cpp:73
+#: src/processqueue/ErrorQuestionHandler.cpp:77
+msgid "Queue processing failed"
+msgstr "处理队列失败"
+
+#: src/processqueue/ErrorQuestionHandler.cpp:48
+msgid "There has been an error while processing the queue."
+msgstr "处理队列时发生错误。"
+
+#: src/processqueue/ErrorQuestionHandler.cpp:52
+msgid "There has been an error while cleaning up."
+msgstr "清理时发生错误。"
+
+#: src/processqueue/ErrorQuestionHandler.cpp:53
+msgid "Cleanup failed"
+msgstr "清理失败"
+
+#: src/processqueue/ErrorQuestionHandler.cpp:56
+msgid "A file conflict was detected in the current queue."
+msgstr "当前队列中探测到文件冲突。"
+
+#: src/processqueue/ErrorQuestionHandler.cpp:60
+msgid "A dependency conflict was detected in the current queue."
+msgstr "当前队列中探测到依赖关系冲突。"
+
+#: src/processqueue/ErrorQuestionHandler.cpp:64
+msgid "A dependency could not to be found."
+msgstr "无法找到依赖关系。"
+
+#: src/processqueue/ErrorQuestionHandler.cpp:68
+msgid "There has been an error in the backend."
+msgstr "后端发生错误。"
+
+#: src/processqueue/ErrorQuestionHandler.cpp:72
+msgid "A hook requested to abort the transaction."
+msgstr "中断提交更改需要钩子。"
+
+#: src/processqueue/ErrorQuestionHandler.cpp:76
+msgid "There has been an error while performing the transaction."
+msgstr "进行提交更改时发生错误。"
+
+#: src/processqueue/MarkDependenciesDialog.cpp:31
+msgid "Please wait, validating transaction..."
+msgstr "请稍候，正在验证提交更改..."
+
+#: src/processqueue/MarkDependenciesDialog.cpp:40
+msgid "Marking additional dependencies..."
+msgstr "正在标记额外的依赖关系..."
+
+#: src/processqueue/MarkDependenciesDialog.cpp:60
+msgid "Validating targets"
+msgstr "正在验证目标"
+
+#: src/processqueue/MarkDependenciesDialog.cpp:92
+msgid "Failed"
+msgstr "失败"
+
+#: src/processqueue/MarkDependenciesDialog.cpp:93
+msgid "Could not validate the transaction"
+msgstr "无法验证提交更改"
+
+#: src/processqueue/ProcessQueueDialog.cpp:84
+#: src/updatedatabase/UpdateDatabaseDialog.cpp:68
+msgid "A transaction is currently in progress. Do you want to abort it?"
+msgstr "当前正在进行提交更改。您想要中断它吗？"
+
+#: src/processqueue/ProcessQueueDialog.cpp:161
+msgid "Transaction completed"
+msgstr "提交更改完成"
+
+#: src/processqueue/ProcessQueueDialog.cpp:164
+msgid "Transaction failed"
+msgstr "提交更改失败"
+
+#: src/processqueue/ProcessQueueDialog.cpp:200
+#, kde-format
+msgid "%1 / %2 (%3 / s)"
+msgstr "%1 / %2 (%3 / 秒)"
+
+#: src/processqueue/ReviewQueueDialog.cpp:140
+msgid "Low Priority Update"
+msgstr "低优先级更新"
+
+#: src/processqueue/ReviewQueueDialog.cpp:143
+msgid "Feature Enhancement"
+msgstr "特性增强"
+
+#: src/processqueue/ReviewQueueDialog.cpp:146
+msgid "Standard Update"
+msgstr "标准更新"
+
+#: src/processqueue/ReviewQueueDialog.cpp:149
+msgid "Bug Fix"
+msgstr "错误修复"
+
+#: src/processqueue/ReviewQueueDialog.cpp:152
+msgid "Important Update"
+msgstr "重要更新"
+
+#: src/processqueue/ReviewQueueDialog.cpp:155
+msgid "Security Update"
+msgstr "安全更新"
+
+#: src/processqueue/ReviewQueueDialog.cpp:163
+#: src/processqueue/ReviewQueueDialog.cpp:166
+#, kde-format
+msgid "Version: %1"
+msgstr "版本：%1"
+
+#: src/processqueue/ReviewQueueDialog.cpp:194
+msgid "Review queue"
+msgstr "复查队列"
+
+#: src/processqueue/ReviewQueueDialog.cpp:302
+#, kde-format
+msgid "%1 Package to be installed"
+msgid_plural "%1 Packages to be installed"
+msgstr[0] "安装 %1 个软件包"
+
+#: src/processqueue/ReviewQueueDialog.cpp:306
+#, kde-format
+msgid "%1 Package to be removed"
+msgid_plural "%1 Packages to be removed"
+msgstr[0] "删除 %1 个软件包"
+
+#: src/processqueue/ReviewQueueDialog.cpp:310
+#, kde-format
+msgid "%1 Package to be upgraded"
+msgid_plural "%1 Packages to be upgraded"
+msgstr[0] "升级 %1 个软件包"
+
+#: src/processqueue/ReviewQueueDialog.cpp:313
+#, kde-format
+msgid "%1 of disk space will be used"
+msgstr "使用 %1 磁盘空间"
+
+#: src/processqueue/ReviewQueueDialog.cpp:316
+#, kde-format
+msgid "%1 of disk space will be freed"
+msgstr "腾出 %1 磁盘空间"
+
+#: src/processqueue/ReviewQueueDialog.cpp:318
+#, kde-format
+msgid "%1 will be downloaded"
+msgstr "下载 %1"
+
+#: src/updatedatabase/UpdateDatabaseDialog.cpp:116
+msgid "Package list refreshed"
+msgstr "软件包列表已刷新"
+
+#: src/updatedatabase/UpdateDatabaseDialog.cpp:158
+#, kde-format
+msgid "Finished updating %1."
+msgstr "完成升级 %1。"
+
+#: src/updatedatabase/UpdateDatabaseDialog.cpp:166
+#, kde-format
+msgid "Downloading %1..."
+msgstr "正在下载 %1..."
+
+#: src/updatedatabase/UpdateDatabaseDialog.cpp:173
+#: src/updatedatabase/UpdateDatabaseDialog.cpp:180
+#, kde-format
+msgid "Updating %1..."
+msgstr "正在升级 %1..."
+
+#~ msgid "Set queue options"
+#~ msgstr "设定队列选项"

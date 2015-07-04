@@ -1,0 +1,366 @@
+# translation of fsview.po to zh_CN
+# Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Aliff Null <nju011221189@msn.com>, 2003.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: fsview\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-11-30 02:25+0100\n"
+"PO-Revision-Date: 2009-11-10 12:24+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: fsview.cpp:50 fsview.cpp:388
+msgid "Name"
+msgstr "名称"
+
+#: fsview.cpp:51
+msgid "Size"
+msgstr "大小"
+
+#: fsview.cpp:52
+msgid "File Count"
+msgstr "文件数量"
+
+#: fsview.cpp:53
+msgid "Directory Count"
+msgstr "目录数量"
+
+#: fsview.cpp:54
+msgid "Last Modified"
+msgstr "最后更新"
+
+#: fsview.cpp:55 fsview.cpp:389
+msgid "Owner"
+msgstr "所有者"
+
+#: fsview.cpp:56 fsview.cpp:390
+msgid "Group"
+msgstr "用户组"
+
+#: fsview.cpp:57 fsview.cpp:391
+msgid "Mime Type"
+msgstr "MIME类型"
+
+#: fsview.cpp:273
+msgid "Go To"
+msgstr "转到"
+
+#: fsview.cpp:274 fsview_part.cpp:129
+msgid "Stop at Depth"
+msgstr "停止深度"
+
+#: fsview.cpp:275 fsview_part.cpp:126
+msgid "Stop at Area"
+msgstr "停在区域"
+
+#: fsview.cpp:276
+msgid "Stop at Name"
+msgstr "停止名称"
+
+#: fsview.cpp:282
+msgid "Go Up"
+msgstr "上一级"
+
+#: fsview.cpp:284
+msgid "Stop Refresh"
+msgstr "停止刷新"
+
+#: fsview.cpp:286
+msgid "Refresh"
+msgstr "刷新"
+
+#: fsview.cpp:290
+#, kde-format
+msgid "Refresh '%1'"
+msgstr "刷新“%1”"
+
+#: fsview.cpp:301 fsview_part.cpp:136
+msgid "Color Mode"
+msgstr "颜色模式"
+
+#: fsview.cpp:304 fsview_part.cpp:132
+msgid "Visualization"
+msgstr "可视化"
+
+#: fsview.cpp:386
+msgid "None"
+msgstr "无"
+
+#: fsview.cpp:387
+msgid "Depth"
+msgstr "深度"
+
+#: fsview_part.cpp:62 main.cpp:21
+msgid "FSView"
+msgstr "FSView"
+
+#: fsview_part.cpp:64
+msgid "Filesystem Utilization Viewer"
+msgstr "文件系统利用率查看"
+
+#: fsview_part.cpp:66
+msgid "(c) 2003-2005, Josef Weidendorfer"
+msgstr "(c) 2003-2005, Josef Weidendorfer"
+
+#: fsview_part.cpp:90
+#, kde-format
+msgid "Read 1 folder, in %2"
+msgid_plural "Read %1 folders, in %2"
+msgstr[0] "于 %2 读取了 %1 个文件夹"
+
+#: fsview_part.cpp:95
+#, kde-format
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 个文件夹"
+
+#: fsview_part.cpp:110
+msgid ""
+"<p>This is the FSView plugin, a graphical browsing mode showing filesystem "
+"utilization by using a tree map visualization.</p><p>Note that in this mode, "
+"automatic updating when filesystem changes are made is intentionally <b>not</"
+"b> done.</p><p>For details on usage and options available, see the online "
+"help under menu 'Help/FSView Manual'.</p>"
+msgstr ""
+"<p>这是FSView插件，它以树状视图的表现方式显示文件系统使用状况。</p><p>注意在"
+"此模式中，当文件系统被改变时，特意<b>不</b>自动更新显示。</p><p>有关用法和可"
+"以使用的选项的，详情可以查看在线帮助“帮助/FSView 手册”。</p> "
+
+#: fsview_part.cpp:142
+msgid "&FSView Manual"
+msgstr "FSView 手册(&F)"
+
+#: fsview_part.cpp:144
+msgid "Show FSView manual"
+msgstr "显示 FSView 手册"
+
+#: fsview_part.cpp:145
+msgid "Opens the help browser with the FSView documentation"
+msgstr "打开 FSView 的文档"
+
+#: fsview_part.cpp:185
+msgctxt "@action:inmenu File"
+msgid "Move to Trash"
+msgstr "移入回收站"
+
+#: fsview_part.cpp:193
+msgctxt "@action:inmenu File"
+msgid "Delete"
+msgstr "删除"
+
+#: fsview_part.cpp:198
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr "编辑文件类型(&E)..."
+
+#: fsview_part.cpp:202
+msgctxt "@action:inmenu File"
+msgid "Properties"
+msgstr "属性"
+
+#: fsview_part.cpp:243
+msgid ""
+"FSView intentionally does not support automatic updates when changes are "
+"made to files or directories, currently visible in FSView, from the "
+"outside.\n"
+"For details, see the 'Help/FSView Manual'."
+msgstr ""
+"FSView 有意不支持在文件或目录被外部程序改变时自动刷新显示。\n"
+"详情请查看“帮助/FSView 手册”。"
+
+#. i18n: ectx: Menu (edit)
+#: fsview_part.rc:4
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (view)
+#: fsview_part.rc:13
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: Menu (help)
+#: fsview_part.rc:20
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#: main.cpp:22
+msgid "Filesystem Viewer"
+msgstr "文件系统浏览器"
+
+#: main.cpp:24
+msgid "(c) 2002, Josef Weidendorfer"
+msgstr "(c) 2002, Josef Weidendorfer"
+
+#: main.cpp:28
+msgid "View filesystem starting from this folder"
+msgstr "从此文件夹开始查看文件系统"
+
+#: treemap.cpp:1325
+#, kde-format
+msgid "Text %1"
+msgstr "文本 %1"
+
+#: treemap.cpp:2857
+msgid "Recursive Bisection"
+msgstr "递归对分"
+
+#: treemap.cpp:2859
+msgid "Columns"
+msgstr "列数"
+
+#: treemap.cpp:2861
+msgid "Rows"
+msgstr "行数"
+
+#: treemap.cpp:2863
+msgid "Always Best"
+msgstr "总是最佳"
+
+#: treemap.cpp:2865
+msgid "Best"
+msgstr "最佳"
+
+#: treemap.cpp:2867
+msgid "Alternate (V)"
+msgstr "可选的 (V)"
+
+#: treemap.cpp:2869
+msgid "Alternate (H)"
+msgstr "可选的 (H)"
+
+#: treemap.cpp:2871
+msgid "Horizontal"
+msgstr "水平"
+
+#: treemap.cpp:2873
+msgid "Vertical"
+msgstr "垂直"
+
+#: treemap.cpp:2908
+msgid "Nesting"
+msgstr "嵌套"
+
+#: treemap.cpp:2912
+msgid "Border"
+msgstr "边界"
+
+#: treemap.cpp:2915
+msgid "Correct Borders Only"
+msgstr "只更正边界"
+
+#: treemap.cpp:2918
+#, kde-format
+msgid "Width %1"
+msgstr "宽度 %1"
+
+#: treemap.cpp:2920
+msgid "Allow Rotation"
+msgstr "允许旋转"
+
+#: treemap.cpp:2921
+msgid "Shading"
+msgstr "阴影"
+
+#: treemap.cpp:2930
+msgid "Visible"
+msgstr "可见"
+
+#: treemap.cpp:2931
+msgid "Take Space From Children"
+msgstr "从子窗口获取空间"
+
+#: treemap.cpp:2935
+msgid "Top Left"
+msgstr "正上"
+
+#: treemap.cpp:2938
+msgid "Top Center"
+msgstr "顶上"
+
+#: treemap.cpp:2941
+msgid "Top Right"
+msgstr "右上"
+
+#: treemap.cpp:2944
+msgid "Bottom Left"
+msgstr "左下"
+
+#: treemap.cpp:2947
+msgid "Bottom Center"
+msgstr "正下"
+
+#: treemap.cpp:2950
+msgid "Bottom Right"
+msgstr "右下"
+
+#: treemap.cpp:3012
+#, kde-format
+msgid "No %1 Limit"
+msgstr "无 %1 限制"
+
+#: treemap.cpp:3064
+msgid "No Area Limit"
+msgstr "无面积限制"
+
+#: treemap.cpp:3070
+#, kde-format
+msgid "Area of '%1' (%2)"
+msgstr "“%1”(%2)的面积"
+
+#: treemap.cpp:3082 treemap.cpp:3095
+#, kde-format
+msgid "1 Pixel"
+msgid_plural "%1 Pixels"
+msgstr[0] "%1 个像素"
+
+#: treemap.cpp:3099
+#, kde-format
+msgid "Double Area Limit (to %1)"
+msgstr "面积限制加倍(到 %1)"
+
+#: treemap.cpp:3101
+#, kde-format
+msgid "Halve Area Limit (to %1)"
+msgstr "面积限制减半(到 %1)"
+
+#: treemap.cpp:3133
+msgid "No Depth Limit"
+msgstr "无深度限制"
+
+#: treemap.cpp:3139
+#, kde-format
+msgid "Depth of '%1' (%2)"
+msgstr "“%1”(%2)的深度"
+
+#: treemap.cpp:3151 treemap.cpp:3164
+#, kde-format
+msgid "Depth %1"
+msgstr "深度 %1"
+
+#: treemap.cpp:3168
+#, kde-format
+msgid "Decrement (to %1)"
+msgstr "减小(到 %1)"
+
+#: treemap.cpp:3170
+#, kde-format
+msgid "Increment (to %1)"
+msgstr "增加(到 %1)"

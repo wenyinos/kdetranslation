@@ -1,0 +1,867 @@
+# translation of libkdcraw.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2007, 2008, 2009, 2011.
+# Lie Ex <lilith.ex@gmail.com>, 2010.
+# FengChao <rainofchaos@gmail.com>, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2011, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkdcraw\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-20 01:31+0000\n"
+"PO-Revision-Date: 2013-07-05 23:12-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: libkdcraw/dcrawsettingswidget.cpp:223
+msgctxt "@option:check"
+msgid "16 bits color depth"
+msgstr "16 位色深"
+
+#: libkdcraw/dcrawsettingswidget.cpp:224
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>If enabled, all RAW files will be decoded in 16-bit color depth using "
+"a linear gamma curve. To prevent dark picture rendering in the editor, it is "
+"recommended to use Color Management in this mode.</para><para>If disabled, "
+"all RAW files will be decoded in 8-bit color depth with a BT.709 gamma curve "
+"and a 99th-percentile white point. This mode is faster than 16-bit decoding."
+"</para>"
+msgstr ""
+"<para>如果启用，所有的 RAW 文件将会使用线性伽玛曲线以 16 位色深解码。为了防止"
+"灰暗的图片在编辑器中渲染，推荐使用此模式下的色彩管理。</para><para>如果禁用，"
+"所有的 RAW 文件将会用一条 BT.709 伽玛曲线和一个 99% 的白点以 8 位色深解码。此"
+"模式快于 16 位解码。 </para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:243
+msgctxt "@option:check"
+msgid "Interpolate RGB as four colors"
+msgstr "作为四色内插 RGB"
+
+#: libkdcraw/dcrawsettingswidget.cpp:244
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Interpolate RGB as four colors</title><para>The default is to assume "
+"that all green pixels are the same. If even-row green pixels are more "
+"sensitive to ultraviolet light than odd-row this difference causes a mesh "
+"pattern in the output; using this option solves this problem with minimal "
+"loss of detail.</para><para>To resume, this option blurs the image a little, "
+"but it eliminates false 2x2 mesh patterns with VNG quality method or mazes "
+"with AHD quality method.</para>"
+msgstr ""
+"<title>使用四色内插 RGB</title><para>默认假定所有的绿色像素全部相同。如果偶数"
+"行的绿色像素比奇数行的绿色像素对紫外光更加敏感，输出中就会有网格图案；使用此"
+"选项可以解决此问题，并使细节损失最小。</para><para>继续执行，此选项会使图像略"
+"为模糊，但它使用 VNG 质量方法剔除了错误的 2x2 网格图案，或是使用 AHD 质量方法"
+"将图像模糊化。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:259
+msgctxt "@info:tooltip"
+msgid "Visit LibRaw project website"
+msgstr "访问 LibRaw 项目网站"
+
+#: libkdcraw/dcrawsettingswidget.cpp:262
+msgctxt "@option:check"
+msgid "Do not stretch or rotate pixels"
+msgstr "不缩放或旋转像素"
+
+#: libkdcraw/dcrawsettingswidget.cpp:264
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Do not stretch or rotate pixels</title><para>For Fuji Super CCD "
+"cameras, show the image tilted 45 degrees. For cameras with non-square "
+"pixels, do not stretch the image to its correct aspect ratio. In any case, "
+"this option guarantees that each output pixel corresponds to one RAW pixel.</"
+"para>"
+msgstr ""
+"<title>不缩放或旋转像素</title><para>对于 Fuji Super CCD 相机，以斜 45 度角显"
+"示图像。对于非直方像素的相机，则不缩放像素到适合方向。无论如何，此选项能保证"
+"每个输出像素都能与一种 RAW 像素相对应。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:272
+msgctxt "@label:listbox"
+msgid "Quality:"
+msgstr "质量："
+
+#: libkdcraw/dcrawsettingswidget.cpp:276
+msgctxt "@item:inlistbox Quality"
+msgid "Bilinear"
+msgstr "双线性"
+
+#: libkdcraw/dcrawsettingswidget.cpp:277
+msgctxt "@item:inlistbox Quality"
+msgid "VNG"
+msgstr "VNG"
+
+#: libkdcraw/dcrawsettingswidget.cpp:278
+msgctxt "@item:inlistbox Quality"
+msgid "PPG"
+msgstr "PPG"
+
+#: libkdcraw/dcrawsettingswidget.cpp:279
+msgctxt "@item:inlistbox Quality"
+msgid "AHD"
+msgstr "AHD"
+
+#: libkdcraw/dcrawsettingswidget.cpp:282
+msgctxt "@item:inlistbox Quality"
+msgid "DCB"
+msgstr "DCB"
+
+#: libkdcraw/dcrawsettingswidget.cpp:283
+msgctxt "@item:inlistbox Quality"
+msgid "AHD v2"
+msgstr "AHD v2"
+
+#: libkdcraw/dcrawsettingswidget.cpp:284
+msgctxt "@item:inlistbox Quality"
+msgid "AFD"
+msgstr "AFD"
+
+#: libkdcraw/dcrawsettingswidget.cpp:285
+msgctxt "@item:inlistbox Quality"
+msgid "VCD"
+msgstr "VCD"
+
+#: libkdcraw/dcrawsettingswidget.cpp:286
+msgctxt "@item:inlistbox Quality"
+msgid "VCD & AHD"
+msgstr "VCD 和 AHD"
+
+#: libkdcraw/dcrawsettingswidget.cpp:287
+msgctxt "@item:inlistbox Quality"
+msgid "LMMSE"
+msgstr "LMMSE"
+
+#: libkdcraw/dcrawsettingswidget.cpp:289
+msgctxt "@item:inlistbox Quality"
+msgid "AMaZE"
+msgstr "AMaZE"
+
+#: libkdcraw/dcrawsettingswidget.cpp:306
+#, fuzzy
+#| msgctxt "@info:whatsthis"
+#| msgid ""
+#| "<title>Quality (interpolation)</title><para>Select here the demosaicing "
+#| "method to use when decoding RAW images. A demosaicing algorithm is a "
+#| "digital image process used to interpolate a complete image from the "
+#| "partial raw data received from the color-filtered image sensor, internal "
+#| "to many digital cameras, in form of a matrix of colored pixels. Also "
+#| "known as CFA interpolation or color reconstruction, another common "
+#| "spelling is demosaicing. The following methods are available for "
+#| "demosaicing RAW images:</para><para><list><item><emphasis "
+#| "strong='true'>Bilinear</emphasis>: use high-speed but low-quality "
+#| "bilinear interpolation (default - for slow computers). In this method, "
+#| "the red value of a non-red pixel is computed as the average of the "
+#| "adjacent red pixels, and similarly for blue and green.</"
+#| "item><item><emphasis strong='true'>VNG</emphasis>: use Variable Number of "
+#| "Gradients interpolation. This method computes gradients near the pixel of "
+#| "interest and uses the lower gradients (representing smoother and more "
+#| "similar parts of the image) to make an estimate.</item><item><emphasis "
+#| "strong='true'>PPG</emphasis>: use Patterned-Pixel-Grouping interpolation. "
+#| "Pixel Grouping uses assumptions about natural scenery in making "
+#| "estimates. It has fewer color artifacts on natural images than the "
+#| "Variable Number of Gradients method.</item><item><emphasis "
+#| "strong='true'>AHD</emphasis>: use Adaptive Homogeneity-Directed "
+#| "interpolation. This method selects the direction of interpolation so as "
+#| "to maximize a homogeneity metric, thus typically minimizing color "
+#| "artifacts.</item><item><emphasis strong='true'>DCB</emphasis>: DCB "
+#| "interpolation from linuxphoto.org project.</item><item><emphasis "
+#| "strong='true'>AHD v2</emphasis>: modified AHD interpolation using "
+#| "Variance of Color Differences method.</item><item><emphasis "
+#| "strong='true'>AFD</emphasis>: Adaptive Filtered Demosaicing interpolation "
+#| "through 5 pass median filter from PerfectRaw project.</"
+#| "item><item><emphasis strong='true'>VCD</emphasis>: Variance of Color "
+#| "Differences interpolation.</item><item><emphasis strong='true'>VCD & AHD</"
+#| "emphasis>: Mixed demosaicing between VCD and AHD.</item><item><emphasis "
+#| "strong='true'>LMMSE</emphasis>: color demosaicing via directional linear "
+#| "minimum mean-square error estimation interpolation from PerfectRaw.</"
+#| "item><item><emphasis strong='true'>AMaZE</emphasis>: Aliasing "
+#| "Minimization interpolation and Zipper Elimination to apply color "
+#| "aberration removal from RawTherapee project.</item></list></para>"
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Quality (interpolation)</title><para>Select here the demosaicing "
+"method to use when decoding RAW images. A demosaicing algorithm is a digital "
+"image process used to interpolate a complete image from the partial raw data "
+"received from the color-filtered image sensor, internal to many digital "
+"cameras, in form of a matrix of colored pixels. Also known as CFA "
+"interpolation or color reconstruction, another common spelling is "
+"demosaicing. The following methods are available for demosaicing RAW images:"
+"</para><para><list><item><emphasis strong='true'>Bilinear</emphasis>: use "
+"high-speed but low-quality bilinear interpolation (default - for slow "
+"computers). In this method, the red value of a non-red pixel is computed as "
+"the average of the adjacent red pixels, and similarly for blue and green.</"
+"item><item><emphasis strong='true'>VNG</emphasis>: use Variable Number of "
+"Gradients interpolation. This method computes gradients near the pixel of "
+"interest and uses the lower gradients (representing smoother and more "
+"similar parts of the image) to make an estimate.</item><item><emphasis "
+"strong='true'>PPG</emphasis>: use Patterned-Pixel-Grouping interpolation. "
+"Pixel Grouping uses assumptions about natural scenery in making estimates. "
+"It has fewer color artifacts on natural images than the Variable Number of "
+"Gradients method.</item><item><emphasis strong='true'>AHD</emphasis>: use "
+"Adaptive Homogeneity-Directed interpolation. This method selects the "
+"direction of interpolation so as to maximize a homogeneity metric, thus "
+"typically minimizing color artifacts.</item><item><emphasis "
+"strong='true'>DCB</emphasis>: DCB interpolation from linuxphoto.org project."
+"</item><item><emphasis strong='true'>AHD v2</emphasis>: modified AHD "
+"interpolation using Variance of Color Differences method.</"
+"item><item><emphasis strong='true'>AFD</emphasis>: Adaptive Filtered "
+"Demosaicing interpolation through 5 pass median filter from PerfectRaw "
+"project.</item><item><emphasis strong='true'>VCD</emphasis>: Variance of "
+"Color Differences interpolation.</item><item><emphasis strong='true'>VCD & "
+"AHD</emphasis>: Mixed demosaicing between VCD and AHD.</item><item><emphasis "
+"strong='true'>LMMSE</emphasis>: color demosaicing via directional linear "
+"minimum mean-square error estimation interpolation from PerfectRaw.</"
+"item><item><emphasis strong='true'>AMaZE</emphasis>: Aliasing Minimization "
+"interpolation and Zipper Elimination to apply color aberration removal from "
+"RawTherapee project.</item></list></para><para>Note: some methods can be "
+"unavailable if RAW decoder have been built without extension packs.</para>"
+msgstr ""
+"<title>质量(内插法)</title><para>在此选择解码 RAW 图像时去除马赛克的方式。去"
+"除马赛克算法是一种数字图像处理技术，根据从许多数码相机内置的颜色过滤传感器中"
+"传回的部分原始数据，以颜色像素矩阵进行内插一张完整图像。同样也称作 CFA 内插法"
+"或颜色重建，另一个通俗的拼写是 demosaicing(去马赛克)。下列方式可用于去除 RAW "
+"图像马赛克：</para><para><list><item><emphasis strong='true'>双线性</"
+"emphasis>：使用高速但低质量的双线性内插法(默认 - 用于慢速的计算机)。在此种方"
+"式下，非红色像素的红色值会以临近红色像素的平均值进行计算，蓝色和绿色与之相"
+"似。</item><item><emphasis strong='true'>VNG</emphasis>：使用梯度化渐变变量数"
+"内插法。这种方式会计算有关像素的渐变性，并使用较低的渐变量(表现图像更平滑以及"
+"更相似的部分)以得到近似估计。</item><item><emphasis strong='true'>PPG</"
+"emphasis>：使用图案化像素分组内插法。像素分组使用自然景物的假定以得到近似估"
+"计。较之与梯度化渐变变量数内插法，它能产生更少的人为现象。</"
+"item><item><emphasis strong='true'>AHD</emphasis>：使用自适应定向绝对均匀内插"
+"法。这种方式会选择内插法的方向以最大化均匀量度，这样子可使颜色人为现象得到最"
+"小化的体现。</item><item><emphasis strong='true'>DCB</emphasis>：linuxphoto."
+"org 项目的 DCB 内插法。</item><item><emphasis strong='true'>AHD v2</"
+"emphasis>：使用色差变量的改进版 AHD 内插法。</item><item><emphasis "
+"strong='true'>AFD</emphasis>：PerfectRaw 项目的可调节过滤式去马赛克内插法，具"
+"有 5 遍中滤波器。</item><item><emphasis strong='true'>VCD</emphasis>：色差变"
+"量内插法。</item><item><emphasis strong='true'>VCD 和 AHD</emphasis>：混合 "
+"VCD 和 AHD 的去马赛克方式。</item><item><emphasis strong='true'>LMMSE</"
+"emphasis>：PerfectRaw 的颜色去马赛克，通过有向线性最小均方错误估计内插法。</"
+"item><item><emphasis strong='true'>AMaZE</emphasis>：RawTherapee 项目的消除颜"
+"色误差方式，通过最小图像失真内插和拉链效果去除。</item></list></para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:376
+msgctxt "@label:slider"
+msgid "Pass:"
+msgstr "遍："
+
+#: libkdcraw/dcrawsettingswidget.cpp:377
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Pass</title><para>Set here the passes used by the median filter "
+"applied after interpolation to Red-Green and Blue-Green channels.</"
+"para><para>This setting is only available for specific Quality options: "
+"<emphasis strong='true'>Bilinear</emphasis>, <emphasis strong='true'>VNG</"
+"emphasis>, <emphasis strong='true'>PPG</emphasis>, <emphasis "
+"strong='true'>AHD</emphasis>, <emphasis strong='true'>DCB</emphasis>, and "
+"<emphasis strong='true'>VCD & AHD</emphasis>.</para>"
+msgstr ""
+"<title>过滤数</title><para>在此设置内插为红-绿和蓝-绿频段后，要应用几次中值过"
+"滤器。</para><para>此选项仅对特定的质量选项有效：<emphasis "
+"strong='true'>Bilinear</emphasis>，<emphasis strong='true'>VNG</emphasis>，"
+"<emphasis strong='true'>PPG</emphasis>，<emphasis strong='true'>AHD</"
+"emphasis>，<emphasis strong='true'>DCB</emphasis>，和<emphasis "
+"strong='true'>VCD & AHD</emphasis>。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:389
+msgctxt "@option:check"
+msgid "Refine interpolation"
+msgstr "优化内插"
+
+#: libkdcraw/dcrawsettingswidget.cpp:390
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Refine interpolation</title><para>This setting is available only for "
+"few Quality options:</para><para><list><item><emphasis strong='true'>DCB</"
+"emphasis>: turn on the enhance interpolated colors filter.</"
+"item><item><emphasis strong='true'>VCD & AHD</emphasis>: turn on the "
+"enhanced effective color interpolation (EECI) refine to improve sharpness.</"
+"item></list></para>"
+msgstr ""
+"<title>内插微调</title><para>这个选项仅对少数质量选项有效：</"
+"para><para><list><item><emphasis strong='true'>DCB</emphasis>：启用已选项可以"
+"增强内插颜色过滤器。</item><item><emphasis strong='true'>VCD & AHD</"
+"emphasis>：启用增强效果颜色内插 (EECI) 微调以改进锐度。</item></list></para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:407
+msgctxt "@label"
+msgid "Demosaicing"
+msgstr "去马赛克"
+
+#: libkdcraw/dcrawsettingswidget.cpp:415
+msgctxt "@label:listbox"
+msgid "Method:"
+msgstr "方法："
+
+#: libkdcraw/dcrawsettingswidget.cpp:417
+msgctxt "@item:inlistbox"
+msgid "Default D65"
+msgstr "默认 D65"
+
+#: libkdcraw/dcrawsettingswidget.cpp:418
+msgctxt "@item:inlistbox"
+msgid "Camera"
+msgstr "相机"
+
+#: libkdcraw/dcrawsettingswidget.cpp:419
+msgctxt "@item:inlistbox set while balance automatically"
+msgid "Automatic"
+msgstr "自动"
+
+#: libkdcraw/dcrawsettingswidget.cpp:420
+msgctxt "@item:inlistbox set white balance manually"
+msgid "Manual"
+msgstr "手动"
+
+#: libkdcraw/dcrawsettingswidget.cpp:422
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>White Balance</title><para>Configure the raw white balance:</"
+"para><para><list><item><emphasis strong='true'>Default D65</emphasis>: Use a "
+"standard daylight D65 white balance.</item><item><emphasis "
+"strong='true'>Camera</emphasis>: Use the white balance specified by the "
+"camera. If not available, reverts to default neutral white balance.</"
+"item><item><emphasis strong='true'>Automatic</emphasis>: Calculates an "
+"automatic white balance averaging the entire image.</item><item><emphasis "
+"strong='true'>Manual</emphasis>: Set a custom temperature and green level "
+"values.</item></list></para>"
+msgstr ""
+"<title>白平衡</title><para>配置 raw 白平衡：</"
+"para><para><list><item><emphasis strong='true'>默认 D65</emphasis>：使用标准"
+"日光 D65 白平衡(dcraw 默认值)</item><item><emphasis strong='true'>相机</"
+"emphasis>：使用相机指定的白平衡。如果不可用，则恢复为默认的自然光白平衡</"
+"item><item><emphasis strong='true'>自动</emphasis>：通过对整张图像平均化而计"
+"算出自动白平衡</item><item><emphasis strong='true'>手动</emphasis>：设定自定"
+"义温度和绿色级别值。</item></list></para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:438
+msgctxt "@label:slider"
+msgid "T(K):"
+msgstr "色温(K)："
+
+#: libkdcraw/dcrawsettingswidget.cpp:439
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Temperature</title><para>Set here the color temperature in Kelvin.</"
+"para>"
+msgstr "<title>色温</title><para>在此设定色温开尔文值。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:446
+msgctxt "@label:slider Green component"
+msgid "Green:"
+msgstr "绿色："
+
+#: libkdcraw/dcrawsettingswidget.cpp:447
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Set here the green component to set magenta color cast removal level.</"
+"para>"
+msgstr "<para>在此设定绿色成分以设定品红颜色删除级别。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:450
+msgctxt "@label:listbox"
+msgid "Highlights:"
+msgstr "高光："
+
+#: libkdcraw/dcrawsettingswidget.cpp:452
+msgctxt "@item:inlistbox"
+msgid "Solid white"
+msgstr "纯白"
+
+#: libkdcraw/dcrawsettingswidget.cpp:453
+msgctxt "@item:inlistbox"
+msgid "Unclip"
+msgstr "不裁剪"
+
+#: libkdcraw/dcrawsettingswidget.cpp:454
+msgctxt "@item:inlistbox"
+msgid "Blend"
+msgstr "混合"
+
+#: libkdcraw/dcrawsettingswidget.cpp:455
+msgctxt "@item:inlistbox"
+msgid "Rebuild"
+msgstr "重构"
+
+#: libkdcraw/dcrawsettingswidget.cpp:457
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Highlights</title><para>Select here the highlight clipping method:</"
+"para><para><list><item><emphasis strong='true'>Solid white</emphasis>: clip "
+"all highlights to solid white</item><item><emphasis strong='true'>Unclip</"
+"emphasis>: leave highlights unclipped in various shades of pink</"
+"item><item><emphasis strong='true'>Blend</emphasis>:Blend clipped and "
+"unclipped values together for a gradual fade to white</item><item><emphasis "
+"strong='true'>Rebuild</emphasis>: reconstruct highlights using a level "
+"value</item></list></para>"
+msgstr ""
+"<title>高光</title><para>在此选择高光裁剪方式：</"
+"para><para><list><item><emphasis strong='true'>纯白</emphasis>：将所有突出显"
+"示的部分裁剪为纯白色</item><item><emphasis strong='true'>不裁剪</emphasis>："
+"保持高光部分带有多种粉色暗纹而不裁剪</item><item><emphasis strong='true'>混合"
+"</emphasis>：将裁剪部分和不裁剪部分混合以一同形成白色渐变</"
+"item><item><emphasis strong='true'>重建</emphasis>：使用一种级别值重建高光部"
+"分value</item></list></para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:468
+msgctxt "@label:slider Highlight reconstruct level"
+msgid "Level:"
+msgstr "级别："
+
+#: libkdcraw/dcrawsettingswidget.cpp:473
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Level</title><para>Specify the reconstruct highlight level. Low "
+"values favor whites and high values favor colors.</para>"
+msgstr ""
+"<title>级别</title><para>指定重建高光级别。低的值倾向于白色，而高的值倾向于彩"
+"色。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:477
+msgctxt "@option:check"
+msgid "Exposure Correction (E.V)"
+msgstr "曝光校正 (E.V)"
+
+#: libkdcraw/dcrawsettingswidget.cpp:478
+msgctxt "@info:whatsthis"
+msgid "<para>Turn on the exposure correction before interpolation.</para>"
+msgstr "<para>内插前开启曝光校正。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:481
+msgctxt "@label:slider"
+msgid "Linear Shift:"
+msgstr "线性平移："
+
+#: libkdcraw/dcrawsettingswidget.cpp:486
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Shift</title><para>Linear Shift of exposure correction before "
+"interpolation in E.V</para>"
+msgstr "<title>平移</title><para>在内插前按曝光值进行线性平移曝光校正</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:489
+msgctxt "@label:slider"
+msgid "Highlight:"
+msgstr "高光："
+
+#: libkdcraw/dcrawsettingswidget.cpp:494
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Highlight</title><para>Amount of highlight preservation for exposure "
+"correction before interpolation in E.V. Only take effect if Shift Correction "
+"is > 1.0 E.V</para>"
+msgstr ""
+"<title>高光</title><para>内插之前按曝光值曝光修正的高光保留量。只在平移矫正大"
+"于 1.0 曝光值时有效。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:498
+msgctxt "@option:check"
+msgid "Correct false colors in highlights"
+msgstr "纠正高光的虚假颜色"
+
+#: libkdcraw/dcrawsettingswidget.cpp:499
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>If enabled, images with overblown channels are processed much more "
+"accurately, without 'pink clouds' (and blue highlights under tungsten lamps)."
+"</para>"
+msgstr ""
+"<para>如果启用此项，程序可对色频过度的图像处理得更加精确，不会出现粉红色云状"
+"块和钨丝灯下的蓝光。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:503
+msgctxt "@option:check"
+msgid "Auto Brightness"
+msgstr "自动亮度"
+
+#: libkdcraw/dcrawsettingswidget.cpp:504
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>If disable, use a fixed white level and ignore the image histogram to "
+"adjust brightness.</para>"
+msgstr "<para>如果禁用，则使用固定白色级别并忽略图像直方图来调整亮度。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:507
+msgctxt "@label:slider"
+msgid "Brightness:"
+msgstr "亮度："
+
+#: libkdcraw/dcrawsettingswidget.cpp:512
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Brightness</title><para>Specify the brightness level of output image. "
+"The default value is 1.0 (works in 8-bit mode only).</para>"
+msgstr ""
+"<title>亮度</title><para>指定图像输出的亮度级别。默认值为 1.0 (仅用于 8-比特 "
+"模式)。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:522
+msgctxt "@option:check Black point"
+msgid "Black:"
+msgstr "黑点："
+
+#: libkdcraw/dcrawsettingswidget.cpp:523
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Black point</title><para>Use a specific black point value to decode "
+"RAW pictures. If you set this option to off, the Black Point value will be "
+"automatically computed.</para>"
+msgstr ""
+"<title>黑点</title><para>用特定的黑点值来解码 RAW 图片。如果您关闭此选项，则"
+"会自动计算黑点值。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:531
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Black point value</title><para>Specify specific black point value of "
+"the output image.</para>"
+msgstr "<title>黑点值</title><para>指定具体的输出图像黑点值。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:534
+msgctxt "@option:check White point"
+msgid "White:"
+msgstr "白点："
+
+#: libkdcraw/dcrawsettingswidget.cpp:535
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>White point</title><para>Use a specific white point value to decode "
+"RAW pictures. If you set this option to off, the White Point value will be "
+"automatically computed.</para>"
+msgstr ""
+"<title>白点</title><para>使用特定的白点值来解码 RAW 图片。如果您关闭此选项，"
+"则会自动计算白点值。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:543
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>White point value</title><para>Specify specific white point value of "
+"the output image.</para>"
+msgstr "<title>白点值</title><para>指定具体的输出图像白点值。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:580
+msgctxt "@label"
+msgid "White Balance"
+msgstr "白平衡"
+
+#: libkdcraw/dcrawsettingswidget.cpp:588
+msgctxt "@label:listbox"
+msgid "Noise reduction:"
+msgstr "降噪："
+
+#: libkdcraw/dcrawsettingswidget.cpp:590
+msgctxt "@item:inlistbox Noise Reduction"
+msgid "None"
+msgstr "无"
+
+#: libkdcraw/dcrawsettingswidget.cpp:591
+msgctxt "@item:inlistbox Noise Reduction"
+msgid "Wavelets"
+msgstr "小波变换"
+
+#: libkdcraw/dcrawsettingswidget.cpp:592
+msgctxt "@item:inlistbox Noise Reduction"
+msgid "FBDD"
+msgstr "FBDD"
+
+#: libkdcraw/dcrawsettingswidget.cpp:593
+msgctxt "@item:inlistbox Noise Reduction"
+msgid "CFA Line Denoise"
+msgstr "CFA 线降噪"
+
+#: libkdcraw/dcrawsettingswidget.cpp:594
+msgctxt "@item:inlistbox Noise Reduction"
+msgid "Impulse Denoise"
+msgstr "脉冲降噪"
+
+#: libkdcraw/dcrawsettingswidget.cpp:596
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Noise Reduction</title><para>Select here the noise reduction method "
+"to apply during RAW decoding.</para><para><list><item><emphasis "
+"strong='true'>None</emphasis>: no noise reduction.</item><item><emphasis "
+"strong='true'>Wavelets</emphasis>: wavelets correction to erase noise while "
+"preserving real detail. It's applied after interpolation.</"
+"item><item><emphasis strong='true'>FBDD</emphasis>: Fake Before Demosaicing "
+"Denoising noise reduction. It's applied before interpolation.</"
+"item><item><emphasis strong='true'>CFA Line Denoise</emphasis>: Banding "
+"noise suppression. It's applied after interpolation.</item><item><emphasis "
+"strong='true'>Impulse Denoise</emphasis>: Impulse noise suppression. It's "
+"applied after interpolation.</item></list></para>"
+msgstr ""
+"<title>降噪</title><para>这里选择应用于 RAW 解码时的降噪方法。</"
+"para><para><list><item><emphasis strong='true'>无</emphasis>：不降噪。</"
+"item><item><emphasis strong='true'>小波</emphasis>：小波修正在降噪的同时保持"
+"细节。在内插之前应用。</item><item><emphasis strong='true'>FBDD</emphasis>："
+"Fake Before Demosaicing Denoising 噪声消除方法。在内插之前应用。</"
+"item><item><emphasis strong='true'>CFA 线降噪</emphasis>: 频带噪声抑制。在内"
+"插之后应用。</item><item><emphasis strong='true'>Impulse Denoise</emphasis>："
+"Impulse noise suppression.在内插之后应用。</item></list></para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:624
+msgctxt "@option:check"
+msgid "Enable Chromatic Aberration correction"
+msgstr "启用色差纠正"
+
+#: libkdcraw/dcrawsettingswidget.cpp:625
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Enable Chromatic Aberration correction</title><para>Enlarge the raw "
+"red-green and blue-yellow axis by the given factors (automatic by default).</"
+"para>"
+msgstr ""
+"<title>启用色差纠正</title><para>以给定的系数扩大原始红绿轴和蓝黄轴 (自动设置"
+"为默认)。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:630
+msgctxt "@option:check"
+msgid "Automatic color axis adjustments"
+msgstr "自动调整颜色轴"
+
+#: libkdcraw/dcrawsettingswidget.cpp:631
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Automatic Chromatic Aberration correction</title><para>If this option "
+"is turned on, it will try to shift image channels slightly and evaluate "
+"Chromatic Aberration change. Note that if you shot blue-red pattern, the "
+"method may fail. In this case, disable this option and tune manually color "
+"factors.</para>"
+msgstr ""
+"<title>自动彩色色差校正</title><para>如果开启此选项，它将尝试将色频轻微位移，"
+"并计算彩色色差的变化。注意如果您改变蓝-红样式，这个方法可能会失败。这种情况下"
+"请关闭此选项并手动调整颜色系数</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:638
+msgctxt "@label:slider"
+msgid "Red-Green:"
+msgstr "红绿："
+
+#: libkdcraw/dcrawsettingswidget.cpp:643
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Red-Green multiplier</title><para>Set here the amount of correction "
+"on red-green axis</para>"
+msgstr "<title>红绿增益</title><para>在此设定红绿轴的校正系数</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:646
+msgctxt "@label:slider"
+msgid "Blue-Yellow:"
+msgstr "蓝黄："
+
+#: libkdcraw/dcrawsettingswidget.cpp:651
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Blue-Yellow multiplier</title><para>Set here the amount of correction "
+"on blue-yellow axis</para>"
+msgstr "<title>蓝黄增益</title><para>在此设定蓝黄轴的校正系数</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:670
+msgctxt "@label"
+msgid "Corrections"
+msgstr "校正"
+
+#: libkdcraw/dcrawsettingswidget.cpp:678
+msgctxt "@label:listbox"
+msgid "Camera Profile:"
+msgstr "相机配置："
+
+#: libkdcraw/dcrawsettingswidget.cpp:680
+msgctxt "@item:inlistbox Camera Profile"
+msgid "None"
+msgstr "无"
+
+#: libkdcraw/dcrawsettingswidget.cpp:681
+msgctxt "@item:inlistbox Camera Profile"
+msgid "Embedded"
+msgstr "内嵌"
+
+#: libkdcraw/dcrawsettingswidget.cpp:682
+msgctxt "@item:inlistbox Camera Profile"
+msgid "Custom"
+msgstr "自定义"
+
+#: libkdcraw/dcrawsettingswidget.cpp:684
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Camera Profile</title><para>Select here the input color space used to "
+"decode RAW data.</para><para><list><item><emphasis strong='true'>None</"
+"emphasis>: no input color profile is used during RAW decoding.</"
+"item><item><emphasis strong='true'>Embedded</emphasis>: use embedded color "
+"profile from RAW file, if it exists.</item><item><emphasis "
+"strong='true'>Custom</emphasis>: use a custom input color space profile.</"
+"item></list></para>"
+msgstr ""
+"<title>相机配置</title><para>在此选择用于解码 RAW 数据的输入色彩空间。</"
+"para><para><list><item><emphasis strong='true'>无</emphasis>：在 RAW 解码过程"
+"中不使用输入色彩描述配置。</item><item><emphasis strong='true'>内嵌</"
+"emphasis>：如果存在，使用 RAW 文件中内嵌的色彩描述配置。</"
+"item><item><emphasis strong='true'>自定义</emphasis>：使用自定义的输入色彩空"
+"间描述配置。</item></list></para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:695 libkdcraw/dcrawsettingswidget.cpp:729
+msgid "ICC Files (*.icc; *.icm)"
+msgstr "ICC 色彩描述配置文件(*.icc；*.icm)"
+
+#: libkdcraw/dcrawsettingswidget.cpp:697
+msgctxt "@label:listbox"
+msgid "Workspace:"
+msgstr "工作空间："
+
+#: libkdcraw/dcrawsettingswidget.cpp:699
+msgctxt "@item:inlistbox Workspace"
+msgid "Raw (no profile)"
+msgstr "原始 Raw(无配置)"
+
+#: libkdcraw/dcrawsettingswidget.cpp:700
+msgctxt "@item:inlistbox Workspace"
+msgid "sRGB"
+msgstr "sRGB"
+
+#: libkdcraw/dcrawsettingswidget.cpp:701
+msgctxt "@item:inlistbox Workspace"
+msgid "Adobe RGB"
+msgstr "Adobe RGB"
+
+#: libkdcraw/dcrawsettingswidget.cpp:702
+msgctxt "@item:inlistbox Workspace"
+msgid "Wide Gamut"
+msgstr "Wide Gamut"
+
+#: libkdcraw/dcrawsettingswidget.cpp:703
+msgctxt "@item:inlistbox Workspace"
+msgid "Pro-Photo"
+msgstr "Pro-Photo"
+
+#: libkdcraw/dcrawsettingswidget.cpp:704
+msgctxt "@item:inlistbox Workspace"
+msgid "Custom"
+msgstr "自定义"
+
+#: libkdcraw/dcrawsettingswidget.cpp:706
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Workspace</title><para>Select here the output color space used to "
+"decode RAW data.</para><para><list><item><emphasis strong='true'>Raw (linear)"
+"</emphasis>: in this mode, no output color space is used during RAW decoding."
+"</item><item><emphasis strong='true'>sRGB</emphasis>: this is an RGB color "
+"space, created cooperatively by Hewlett-Packard and Microsoft. It is the "
+"best choice for images destined for the Web and portrait photography.</"
+"item><item><emphasis strong='true'>Adobe RGB</emphasis>: this color space is "
+"an extended RGB color space, developed by Adobe. It is used for photography "
+"applications such as advertising and fine art.</item><item><emphasis "
+"strong='true'>Wide Gamut</emphasis>: this color space is an expanded version "
+"of the Adobe RGB color space.</item><item><emphasis strong='true'>Pro-Photo</"
+"emphasis>: this color space is an RGB color space, developed by Kodak, that "
+"offers an especially large gamut designed for use with photographic outputs "
+"in mind.</item><item><emphasis strong='true'>Custom</emphasis>: use a custom "
+"output color space profile.</item></list></para>"
+msgstr ""
+"<title>工作空间</title><para>在此选择用于解码 RAW 数据的输出色彩空间。</"
+"para><para><list><item><emphasis strong='true'>Raw(线性)</emphasis>：在此模式"
+"下，RAW 解码过程中不使用输出色彩空间。</item><item><emphasis "
+"strong='true'>sRGB</emphasis>：这是由 Hewlett-Packard 和 Microsoft 合作开创的"
+"一种 RGB 色彩空间，它被认为是 Web 图片和肖像照的最佳选择。</"
+"item><item><emphasis strong='true'>Adobe RGB</emphasis>：这是一种扩展的 RGB "
+"色彩空间，由 Adobe 开发。它一般用于摄像场合，比如广告和精细艺术。</"
+"item><item><emphasis strong='true'>Wide Gamut</emphasis>：此色彩空间是 Adobe "
+"RGB 色彩空间的扩展版本。</item><item><emphasis strong='true'>Pro-Photo</"
+"emphasis>：这种 RGB 色彩空间由 Kodak 开发，提供了超大的色域用于理想的摄像输"
+"出。</item><item><emphasis strong='true'>自定义</emphasis>使用自定义的色彩空"
+"间配置文件。</item></list></para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:741
+msgctxt "@label"
+msgid "Color Management"
+msgstr "色彩管理"
+
+#: libkdcraw/dcrawsettingswidget.cpp:955
+msgctxt "@label"
+msgid "Threshold:"
+msgstr "阈值："
+
+#: libkdcraw/dcrawsettingswidget.cpp:956
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Threshold</title><para>Set here the noise reduction threshold value "
+"to use.</para>"
+msgstr "<title>阈值</title><para>设置要使用的降噪阈值。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:969
+msgctxt "@label"
+msgid "Luminance:"
+msgstr "亮度："
+
+#: libkdcraw/dcrawsettingswidget.cpp:970
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Luminance</title><para>Amount of Luminance impulse noise reduction.</"
+"para>"
+msgstr "<title>亮度</title><para>设置降噪所采用的亮度。</para>"
+
+#: libkdcraw/dcrawsettingswidget.cpp:972
+msgctxt "@label"
+msgid "Chrominance:"
+msgstr "色度："
+
+#: libkdcraw/dcrawsettingswidget.cpp:973
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Chrominance</title><para>Amount of Chrominance impulse noise "
+"reduction.</para>"
+msgstr "<title>色度</title><para>设置降噪所采用的色度。</para>"
+
+#: libkdcraw/rcombobox.cpp:69 libkdcraw/rnuminput.cpp:70
+#: libkdcraw/rnuminput.cpp:169
+msgctxt "@info:tooltip"
+msgid "Reset to default value"
+msgstr "重置为默认值"
+
+#~ msgctxt "@label:slider"
+#~ msgid "Shift (linear):"
+#~ msgstr "平移 (线性)："
+
+#~ msgctxt "@label:slider"
+#~ msgid "Highlight (E.V):"
+#~ msgstr "高光 (E.V):"
+
+#~ msgctxt "Camera Profile"
+#~ msgid "None"
+#~ msgstr "无"
+
+#~ msgctxt "Workspace"
+#~ msgid "Custom"
+#~ msgstr "自定义"
+
+#~ msgid "Red:"
+#~ msgstr "红："
+
+#~ msgid "Blue:"
+#~ msgstr "蓝："
+
+#~ msgid "Median:"
+#~ msgstr "中值："
+
+#~ msgid ""
+#~ "<p><b>Median Filter</b><p>Set here the passes used by median filter "
+#~ "applied after interpolation to Red-Green and Blue-Green channels."
+#~ msgstr ""
+#~ "<p><b>中值滤镜</b><p>在此选择在内插红-绿以及蓝-绿通道后中值滤镜所应用的遍"
+#~ "数。"
+
+#~ msgid ""
+#~ "<p><b>Enable Noise Reduction</b><p>Use wavelets to erase noise while "
+#~ "preserving real detail.<p>"
+#~ msgstr ""
+#~ "<p><b>启用降噪</b><p>在保留真实细节的前提下，以微波方式对图像作降噪处理。"
+#~ "<p>"

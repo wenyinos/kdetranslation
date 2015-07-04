@@ -1,0 +1,216 @@
+# translation of ksplashthemes.po to zh_CN 
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Yan Shuangchun <yahzee@d3eye.com>, 2003.
+# Funda Wang (fundawang@gmail.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ksplashthemes\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 05:31+0200\n"
+"PO-Revision-Date: 2009-01-01 14:41+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lilith.ex@gmail.com"
+
+#: installer.cpp:127
+msgid "Get New Themes..."
+msgstr "获取新主题..."
+
+#: installer.cpp:128
+msgid "Get new themes from the Internet"
+msgstr "从互联网获取新主题"
+
+#: installer.cpp:129
+msgid ""
+"You need to be connected to the Internet to use this action. A dialog will "
+"display a list of themes from the http://www.kde.org website. Clicking the "
+"Install button associated with a theme will install this theme locally."
+msgstr ""
+"您需要为此操作连接到互联网，它将从 http://www.kde.org 网站上获得一份主题列表"
+"并显示。点击安装按钮即可把相应主题安装到本地。"
+
+#: installer.cpp:133
+msgid "Install Theme File..."
+msgstr "安装主题文件..."
+
+#: installer.cpp:134
+msgid "Install a theme archive file you already have locally"
+msgstr "安装本地的主题归档文件"
+
+#: installer.cpp:135
+msgid ""
+"If you already have a theme archive locally, this button will unpack it and "
+"make it available for KDE applications"
+msgstr ""
+"如果在您的本地资源中已经有一个主题归档，此按钮会将其解压并应用到 KDE 程序中"
+
+#: installer.cpp:139
+msgid "Remove Theme"
+msgstr "删除主题"
+
+#: installer.cpp:140
+msgid "Remove the selected theme from your disk"
+msgstr "从磁盘上删除所选主题"
+
+#: installer.cpp:141
+msgid "This will remove the selected theme from your disk."
+msgstr "这将从磁盘上删除所选的主题。"
+
+#: installer.cpp:146
+msgid "Test Theme"
+msgstr "测试主题"
+
+#: installer.cpp:147
+msgid "Test the selected theme"
+msgstr "测试所选主题"
+
+#: installer.cpp:148
+msgid "This will test the selected theme."
+msgstr "这将测试所选的主题。"
+
+#: installer.cpp:361
+#, kde-format
+msgid "Delete folder %1 and its contents?"
+msgstr "删除文件夹 %1 及其内容吗？"
+
+#: installer.cpp:361
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: installer.cpp:368
+#, kde-format
+msgid "Failed to remove theme '%1'"
+msgstr "删除主题“%1”失败"
+
+#: installer.cpp:393 installer.cpp:465
+msgid "(Could not load theme)"
+msgstr "(无法装入主题)"
+
+#: installer.cpp:425
+msgctxt "Unknown name"
+msgid "Unknown"
+msgstr "未知"
+
+#: installer.cpp:425
+#, kde-format
+msgid "<b>Name:</b> %1"
+msgstr "<b>名称：</b>%1"
+
+#: installer.cpp:427
+msgctxt "Unknown description"
+msgid "Unknown"
+msgstr "未知"
+
+#: installer.cpp:427
+#, kde-format
+msgid "<b>Description:</b> %1"
+msgstr "<b>描述：</b>%1"
+
+#: installer.cpp:429
+msgctxt "Unknown version"
+msgid "Unknown"
+msgstr "未知"
+
+#: installer.cpp:429
+#, kde-format
+msgid "<b>Version:</b> %1"
+msgstr "<b>版本：</b>%1"
+
+#: installer.cpp:431
+msgctxt "Unknown author"
+msgid "Unknown"
+msgstr "未知"
+
+#: installer.cpp:431
+#, kde-format
+msgid "<b>Author:</b> %1"
+msgstr "<b>作者：</b> %1"
+
+#: installer.cpp:433
+msgctxt "Unknown homepage"
+msgid "Unknown"
+msgstr "未知"
+
+#: installer.cpp:433
+#, kde-format
+msgid "<b>Homepage:</b> %1"
+msgstr "<b>主页：</b>%1"
+
+#: installer.cpp:446
+#, kde-format
+msgid "This theme requires the plugin %1 which is not installed."
+msgstr "此主题所需的插件 %1 尚未安装。"
+
+#: installer.cpp:454
+msgid "Could not load theme configuration file."
+msgstr "无法装入主题配置文件。"
+
+#: installer.cpp:474
+msgid "No preview available."
+msgstr "没有可用的预览。"
+
+#: installer.cpp:496
+msgid "KSplash Theme Files"
+msgstr "KSplash 主题文件"
+
+#: installer.cpp:497
+msgid "Add Theme"
+msgstr "添加主题"
+
+#: installer.cpp:551 installer.cpp:559 installer.cpp:567 installer.cpp:575
+msgid "Failed to successfully test the splash screen."
+msgstr "测试启动屏幕失败。"
+
+#: main.cpp:61
+msgid "&Theme Installer"
+msgstr "主题安装程序(&T)"
+
+#: main.cpp:69
+msgid "KDE splash screen theme manager"
+msgstr "KDE 启动屏幕主题管理器"
+
+#: main.cpp:73
+msgid "(c) 2003 KDE developers"
+msgstr "(c) 2003 KDE 开发者"
+
+#: main.cpp:74
+msgid "Ravikiran Rajagopal"
+msgstr "Ravikiran Rajagopal"
+
+#: main.cpp:75
+msgid "Brian Ledbetter"
+msgstr "Brian Ledbetter"
+
+#: main.cpp:75
+msgid "Original KSplash/ML author"
+msgstr "KSplash/ML 原始作者"
+
+#: main.cpp:76
+msgid "KDE Theme Manager authors"
+msgstr "KDE 主题管理器作者"
+
+#: main.cpp:76
+msgid "Original installer code"
+msgstr "原始安装程序代码"
+
+#: main.cpp:78
+msgid "Hans Karlsson"
+msgstr "Hans Karlsson"
+
+#: main.cpp:90
+msgid ""
+"<h1>Splash Screen Theme Manager </h1> Install and view splash screen themes."
+msgstr "<h1>启动屏幕主题管理器</h1>安装并查看启动屏幕主题。 "

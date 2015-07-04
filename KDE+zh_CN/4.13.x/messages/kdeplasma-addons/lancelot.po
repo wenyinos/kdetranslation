@@ -1,0 +1,595 @@
+# translation of lancelot.po to 简体中文
+# Copyright (C) 2007, 2008, 2009 Free Software Foundation, Inc.
+#
+# Liang Qi <cavendish.qi@gmail.com>, 2007.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010, 2011, 2012.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: lancelot\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:42+0200\n"
+"PO-Revision-Date: 2012-05-28 11:27+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国,Lie_Ex,Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org,lilith.ex@gmail.com,shuizhuyuanluo@126.com"
+
+#: application/AboutData.cpp:26 application/LancelotWindow.cpp:895
+#: launcher/LancelotAppletConfig.cpp:56
+msgid "Lancelot"
+msgstr "Lancelot"
+
+#: application/AboutData.cpp:28
+msgid "Next-generation application launcher."
+msgstr "下一代应用程序启动器。"
+
+#: application/AboutData.cpp:30
+msgid "(C) 2007, 2008, 2009, 2010 Ivan Čukić"
+msgstr "(C) 2007、2008、2009、2010 Ivan Čukić"
+
+#: application/AboutData.cpp:37
+msgid "Ivan Čukić"
+msgstr "Ivan Čukić"
+
+#: application/AboutData.cpp:38
+msgid "Maintainer and lead developer"
+msgstr "维护者和首席开发者"
+
+#: application/AboutData.cpp:45
+msgid "Siraj Razick"
+msgstr "Siraj Razick"
+
+#: application/AboutData.cpp:46
+msgid "Raptor compositing code"
+msgstr "Raptor 混合代码"
+
+#: application/AboutData.cpp:48
+msgid "Robert Knight"
+msgstr "Robert Knight"
+
+#: application/AboutData.cpp:49
+msgid "Kickoff data models"
+msgstr "Kickoff 数据模型"
+
+#: application/i18n_strings.cpp:24 application/LancelotWindow.cpp:152
+msgid "&Documents"
+msgstr "文档(&D)"
+
+#: application/i18n_strings.cpp:25 application/LancelotWindow.cpp:154
+msgid "&Contacts"
+msgstr "联系人(&C)"
+
+#: application/i18n_strings.cpp:26 application/LancelotWindow.cpp:156
+msgid "Co&mputer"
+msgstr "计算机(&M)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabApplications)
+#: application/i18n_strings.cpp:27 application/LancelotWindow.cpp:158
+#: application/ui/LancelotConfigBase.ui:143
+msgid "&Applications"
+msgstr "应用程序(&A)"
+
+#: application/i18n_strings.cpp:29 application/LancelotWindow.cpp:475
+#: application/ui_LancelotWindowBase.h:136
+msgid "Documents"
+msgstr "文档"
+
+#: application/i18n_strings.cpp:30 application/LancelotWindow.cpp:475
+#: application/ui_LancelotWindowBase.h:123
+msgid "Contacts"
+msgstr "联系人"
+
+#: application/i18n_strings.cpp:31 application/LancelotWindow.cpp:475
+#: application/ui_LancelotWindowBase.h:110
+msgid "Computer"
+msgstr "计算机"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: application/i18n_strings.cpp:32 application/LancelotWindow.cpp:147
+#: application/LancelotWindow.cpp:475 application/ui/LancelotConfigBase.ui:226
+msgid "Applications"
+msgstr "应用程序"
+
+#: application/i18n_strings.cpp:35
+#, kde-format
+msgctxt "needed program is not running"
+msgid "%1 is not running"
+msgstr "%1 未运行"
+
+#: application/i18n_strings.cpp:36
+#, kde-format
+msgctxt "start a program"
+msgid "start %1"
+msgstr "启动 %1"
+
+#: application/i18n_strings.cpp:37 application/LancelotWindow.cpp:651
+#: application/LancelotWindow.cpp:656 parts/PartsMergedModel.cpp:300
+msgid "Online contacts"
+msgstr "线上联系人"
+
+#: application/i18n_strings.cpp:38
+msgid "e-Mail contacts"
+msgstr "电邮联系人"
+
+#: application/LancelotConfig.cpp:50
+msgid "Available Features"
+msgstr "可用功能"
+
+#: application/LancelotConfig.cpp:54 application/ui_LancelotWindowBase.h:149
+msgid "Search"
+msgstr "搜索"
+
+#: application/LancelotWindow.cpp:128 parts/LancelotPart.cpp:149
+msgctxt "Enter the text to search for"
+msgid "Search..."
+msgstr "搜索..."
+
+#: application/LancelotWindow.cpp:145
+msgid "Favorites"
+msgstr "收藏夹"
+
+#: application/LancelotWindow.cpp:619 parts/PartsMergedModel.cpp:260
+msgid "Places"
+msgstr "位置"
+
+#: application/LancelotWindow.cpp:620 parts/PartsMergedModel.cpp:265
+#: parts/PartsMergedModel.cpp:312 parts/PartsMergedModel.cpp:317
+msgid "System"
+msgstr "系统"
+
+#: application/LancelotWindow.cpp:624
+msgctxt "@title Removable devices"
+msgid "Removable"
+msgstr "移动"
+
+#: application/LancelotWindow.cpp:625
+msgctxt "@title Fixed devices"
+msgid "Fixed"
+msgstr "固定"
+
+#: application/LancelotWindow.cpp:627
+msgctxt "@title New documents"
+msgid "New"
+msgstr "新建"
+
+#: application/LancelotWindow.cpp:629
+msgctxt "@title List of open documents"
+msgid "Open"
+msgstr "正打开的"
+
+#: application/LancelotWindow.cpp:630
+msgctxt "@title Recent documents"
+msgid "Recent"
+msgstr "最近的"
+
+#: application/LancelotWindow.cpp:638 application/LancelotWindow.cpp:643
+#: parts/PartsMergedModel.cpp:295
+msgid "Unread messages"
+msgstr "未读信件"
+
+#: application/LancelotWindow.cpp:780
+msgid "Make buttons wider"
+msgstr "增宽按钮"
+
+#: application/LancelotWindow.cpp:782
+msgid "Make buttons narrower"
+msgstr "缩小按钮"
+
+#: application/LancelotWindow.cpp:896
+msgid "Open Lancelot menu"
+msgstr "打开 Lancelot 菜单"
+
+#: application/LancelotWindow.cpp:1081 launcher/LancelotApplet.cpp:455
+msgid "Menu Editor"
+msgstr "菜单编辑器"
+
+#: application/LancelotWindow.cpp:1086 launcher/LancelotApplet.cpp:449
+msgid "Configure Shortcuts..."
+msgstr "配置快捷键..."
+
+#: application/LancelotWindow.cpp:1091
+msgid "Configure Lancelot menu..."
+msgstr "配置 Lancelot 菜单..."
+
+#: application/LancelotWindow.cpp:1096
+msgid "About Lancelot"
+msgstr "关于 Lancelot"
+
+#: application/LancelotWindow.cpp:1134 application/LancelotWindow.cpp:1136
+msgid "Configure Lancelot menu"
+msgstr "配置 Lancelot 菜单"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabGeneral)
+#: application/ui/LancelotConfigBase.ui:24
+msgid "&General"
+msgstr "常规(&G)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupActivation)
+#: application/ui/LancelotConfigBase.ui:30
+msgid "Activation Method"
+msgstr "激活方式"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioActivationClick)
+#: application/ui/LancelotConfigBase.ui:36
+msgid ""
+"Choose this option if you like to click. Every interface item will be "
+"activated only by clicking it."
+msgstr "如果您喜欢点击，则选择此选项。所有界面项目仅在点击后才会被激活。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioActivationClick)
+#: application/ui/LancelotConfigBase.ui:39
+msgid "&Click on everything"
+msgstr "全靠点击(&C)"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioActivationClassic)
+#: application/ui/LancelotConfigBase.ui:46
+msgid ""
+"Choose this option if you want the menu to behave like the standard "
+"application launchers. In order to launch applications, you should click on "
+"them. Section buttons are activated by hovering."
+msgstr ""
+"如果您想让菜单表现得像标准应用程序启动器那样子，则选择此选项。要启动应用程"
+"序，您得点击它们。区域分类按钮由悬停激活。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioActivationClassic)
+#: application/ui/LancelotConfigBase.ui:49
+msgid "Cla&ssic menu"
+msgstr "经典菜单(&S)"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioActivationNoClick)
+#: application/ui/LancelotConfigBase.ui:56
+msgid ""
+"Choose this option if you want to avoid clicking. Section buttons are "
+"activated by hovering. Applications are launched by hovering the button "
+"extenders."
+msgstr ""
+"如果您不想点击，则选择此选项。区域分类按钮由悬停激活。应用程序由悬停按钮扩展"
+"部分启动。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioActivationNoClick)
+#: application/ui/LancelotConfigBase.ui:59
+msgid "&No-click activation"
+msgstr "免点击激活(&N)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkKeepOpen)
+#: application/ui/LancelotConfigBase.ui:76
+msgid "Do not close the menu until it loses focus."
+msgstr "失去焦点后才关闭菜单。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkKeepOpen)
+#: application/ui/LancelotConfigBase.ui:79
+msgid "&Keep menu open"
+msgstr "保持菜单打开(&K)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupSystemActions)
+#: application/ui/LancelotConfigBase.ui:89
+msgid "System Actions"
+msgstr "系统动作"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: application/ui/LancelotConfigBase.ui:116
+msgid "Choose which actions you want to be assigned to the system buttons:"
+msgstr "选择您想指派给系统按钮的动作："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupAppBrowser)
+#: application/ui/LancelotConfigBase.ui:149
+msgid "Application Browser"
+msgstr "应用程序浏览器"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkAppBrowserReset)
+#: application/ui/LancelotConfigBase.ui:155
+msgid "Reset the browser to show Favorites on menu open"
+msgstr "重置浏览器以在菜单打开时显示收藏夹"
+
+#. i18n: ectx: property (text), widget (QLabel, labelAppBrowserColumnNumber)
+#: application/ui/LancelotConfigBase.ui:169
+msgid "Columns behavior:"
+msgstr "列行为："
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioAppBrowserNoColumnLimit)
+#: application/ui/LancelotConfigBase.ui:176
+msgid "No column number limit"
+msgstr "无列数限制"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioAppBrowserTwoColumnLimit)
+#: application/ui/LancelotConfigBase.ui:186
+msgid "Limit to two columns"
+msgstr "最多两列"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioAppBrowserCascade)
+#: application/ui/LancelotConfigBase.ui:201
+msgid "Open popups for subcategories"
+msgstr "子类别以弹出窗口打开"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: application/ui/LancelotConfigBase.ui:208
+msgid "EXPERIMENTAL FEATURE"
+msgstr "实验特性"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonSystemApplicationsEdit)
+#. i18n: ectx: property (text), widget (QPushButton, buttonNewDocumentsEdit)
+#: application/ui/LancelotConfigBase.ui:232
+#: application/ui/LancelotConfigBase.ui:252
+msgid "Edit..."
+msgstr "编辑..."
+
+#. i18n: ectx: property (text), widget (QLabel, labelSystemApplications)
+#: application/ui/LancelotConfigBase.ui:259
+msgid "System applications:"
+msgstr "系统应用程序："
+
+#. i18n: ectx: property (text), widget (QLabel, labelNewDocuments)
+#: application/ui/LancelotConfigBase.ui:266
+msgid "New documents applications:"
+msgstr "新文档应用程序："
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkAppNameFirst)
+#: application/ui/LancelotConfigBase.ui:274
+msgid ""
+"Show the application name first, and then the description\n"
+"(requires restart)"
+msgstr ""
+"先显示应用程序名称，再显示描述\n"
+"(需要重新启动)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabUsageStatistics)
+#: application/ui/LancelotConfigBase.ui:301
+msgid "&Usage Statistics"
+msgstr "使用率统计(&U)"
+
+#. i18n: ectx: property (html), widget (KTextBrowser, textUsageStatistics)
+#: application/ui/LancelotConfigBase.ui:334
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Oxygen'; font-size:11pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Bitstream Vera Sans'; font-size:10pt;\">The usage statistics are "
+"intended to track applications you start, in order to provide a better user "
+"experience.</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Bitstream Vera Sans'; font-size:10pt;\">The collected data is "
+"considered private and is not shared with the outside world.</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Bitstream Vera Sans'; font-size:10pt;\">Note: The collected data is "
+"not used by Lancelot at the moment, but will be in the future. Leaving this "
+"option \"on\" will ensure that, once the features that depend on usage "
+"statistics are implemented, you will not need to train them.</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Bitstream Vera Sans'; font-size:10pt;\"><br /></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Oxygen'; font-size:11pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Bitstream Vera Sans'; font-size:10pt;\">使用率统计会跟踪用户启动每个"
+"程序的次数，以此来提供更好的用户体验。</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Bitstream Vera Sans'; font-size:10pt;\">收集到的数据是保密的，绝对不"
+"会和外界共享。</span></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Bitstream Vera Sans'; font-size:10pt;\">注意：目前这些数据并不会用于"
+"Lancelot 菜单程序，但以后可能会用到。如果启用此选项，可以确保将来实现了和使用"
+"率统计相关的功能后，无需再重新收集数据。</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Bitstream Vera Sans'; font-size:10pt;\"><br /></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkUsageStatisticsEnable)
+#: application/ui/LancelotConfigBase.ui:347
+msgid "Enable usage statistics"
+msgstr "启用使用率统计"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonUsageStatisticsClear)
+#: application/ui/LancelotConfigBase.ui:357
+msgid "Clear Gathered Data"
+msgstr "清除收集的数据"
+
+#: application/ui_LancelotWindowBase.h:174
+msgid "Lock Session"
+msgstr "锁定会话"
+
+#: application/ui_LancelotWindowBase.h:175
+msgid "Log Out"
+msgstr "注销"
+
+#: application/ui_LancelotWindowBase.h:176
+msgid "Switch User"
+msgstr "切换用户"
+
+#: launcher/LancelotApplet.cpp:388
+msgid "Applet"
+msgstr "小程序"
+
+#: launcher/LancelotApplet.cpp:389
+msgid "Lancelot Launcher Applet"
+msgstr "Lancelot 启动器小程序"
+
+#: launcher/LancelotApplet.cpp:394
+msgid "Menu"
+msgstr "菜单"
+
+#: launcher/LancelotApplet.cpp:395
+msgid "Lancelot Menu"
+msgstr "Lancelot 菜单"
+
+#: launcher/LancelotAppletConfig.cpp:59
+msgid "KDE Logo"
+msgstr "KDE 徽标"
+
+#: launcher/LancelotAppletConfig.cpp:62
+msgid "Start here"
+msgstr "在此启动"
+
+#: launcher/LancelotAppletConfig.cpp:65
+msgctxt "Choose a custom icon"
+msgid "Custom"
+msgstr "自定义"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupAppletIcons)
+#: launcher/LancelotAppletConfigBase.ui:20
+msgid "Applet Icons"
+msgstr "应用程序图标"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioShowCategories)
+#: launcher/LancelotAppletConfigBase.ui:26
+msgid "Show cate&gories inside the applet"
+msgstr "分类显示(&G)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioShowMenuIconOnly)
+#: launcher/LancelotAppletConfigBase.ui:33
+msgid "Show only &menu launcher icon"
+msgstr "仅显示启动菜单图标(&M)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupAppletIconsChoose)
+#: launcher/LancelotAppletConfigBase.ui:65
+msgid "Choose Icon"
+msgstr "选择图标"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupCategoriesChoose)
+#: launcher/LancelotAppletConfigBase.ui:127
+msgid "Choose categories to show"
+msgstr "选择要显示的种类"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupActivation)
+#: launcher/LancelotAppletConfigBase.ui:186
+msgid "Menu Activation"
+msgstr "菜单激活"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioActivationHover)
+#: launcher/LancelotAppletConfigBase.ui:192
+msgid "Show menu on icon &hover (after a predefined interval of time)"
+msgstr "鼠标悬停一段预设时间后显示菜单(&H)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioActivationClick)
+#: launcher/LancelotAppletConfigBase.ui:202
+msgid "Show menu on &click"
+msgstr "单击时显示菜单(&C)"
+
+#: parts/LancelotPart.cpp:252
+msgid "Shelf"
+msgstr "书架"
+
+#: parts/LancelotPart.cpp:517
+msgid "Contents"
+msgstr "内容"
+
+#: parts/LancelotPart.cpp:518
+msgid "Advanced"
+msgstr "高级"
+
+#: parts/LancelotPartConfig.cpp:52
+msgid "Remove"
+msgstr "删除"
+
+#. i18n: ectx: property (title), widget (QGroupBox, panelContents)
+#: parts/LancelotPartConfigBase.ui:23
+msgctxt "Contents of the applet"
+msgid "Activation:"
+msgstr "激活:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioContentsActivationClick)
+#: parts/LancelotPartConfigBase.ui:29
+msgid "Click to activate items"
+msgstr "点击激活"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioContentsActivationExtender)
+#: parts/LancelotPartConfigBase.ui:39
+msgid "Use no-click interface"
+msgstr "使用免点击界面"
+
+#. i18n: ectx: property (title), widget (QGroupBox, panelContentsExtenderPosition)
+#: parts/LancelotPartConfigBase.ui:49
+msgid "Extender Position"
+msgstr "扩展图标位置"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioContentsExtenderPositionLeft)
+#: parts/LancelotPartConfigBase.ui:55
+msgctxt "Position the extender left"
+msgid "Left"
+msgstr "左侧"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioContentsExtenderPositionRight)
+#: parts/LancelotPartConfigBase.ui:62
+msgctxt "Position the extender right"
+msgid "Right"
+msgstr "右侧"
+
+#. i18n: ectx: property (title), widget (QGroupBox, panelIcon)
+#: parts/LancelotPartConfigBase.ui:84
+msgid "Applet Icon:"
+msgstr "小程序图标："
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioIconActivationClick)
+#: parts/LancelotPartConfigBase.ui:114
+msgid "Show contents on &click"
+msgstr "单击时显示内容(&C)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioIconActivationHover)
+#: parts/LancelotPartConfigBase.ui:121
+msgid "Show contents on icon &hover (after a predefined interval of time)"
+msgstr "鼠标悬停一段预设时间后显示菜单(&H)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkShowSearchBox)
+#: parts/LancelotPartConfigBase.ui:155
+msgid "Show the search box"
+msgstr "显示搜索框"
+
+#: parts/PartsMergedModel.cpp:68
+msgid "Remove this"
+msgstr "删除它"
+
+#: parts/PartsMergedModel.cpp:270
+msgid "Removable devices"
+msgstr "移动设备"
+
+#: parts/PartsMergedModel.cpp:275
+msgid "Fixed devices"
+msgstr "固定设备"
+
+#: parts/PartsMergedModel.cpp:280
+msgid "New Documents"
+msgstr "新建文档"
+
+#: parts/PartsMergedModel.cpp:285
+msgid "Open Documents"
+msgstr "打开的文档"
+
+#: parts/PartsMergedModel.cpp:290
+msgid "Recent Documents"
+msgstr "最近的文档"
+
+#: parts/PartsMergedModel.cpp:306
+msgid "Favorite Applications"
+msgstr "收藏夹"
+
+#~ msgid "Configure &Shortcuts..."
+#~ msgstr "配置快捷键(&S)..."

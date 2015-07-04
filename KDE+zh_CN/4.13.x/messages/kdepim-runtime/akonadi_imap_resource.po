@@ -1,0 +1,1129 @@
+# translation of akonadi_imap_resource.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010, 2012.
+# Feng Chao <rainofchaos@gmail.com>, 2010, 2013.
+# Lie Ex <lilith.ex@gmail.com>, 2009-2010.
+# Weng Xuetian <wengxt@gmail.com>, 2011, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_imap_resource\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-21 01:55+0000\n"
+"PO-Revision-Date: 2013-01-22 01:05-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: addcollectiontask.cpp:48
+#, kde-format
+msgid "Cannot add IMAP folder '%1' for a non-existing parent folder '%2'."
+msgstr "无法在不存在的父文件夹“%2”下面添加 IMAP 文件夹“%1”。"
+
+#: addcollectiontask.cpp:84
+#, fuzzy, kde-format
+#| msgid "Failed to create folder '%1' on the IMAP server."
+msgid "Failed to create the folder '%1' on the IMAP server. "
+msgstr "在 IMAP 服务器上创建文件夹“%1”失败。"
+
+#: addcollectiontask.cpp:104 movecollectiontask.cpp:145
+#, kde-format
+msgid ""
+"Failed to subscribe to the folder '%1' on the IMAP server. It will disappear "
+"on next sync. Use the subscription dialog to overcome that"
+msgstr ""
+"订阅 IMAP 服务器上文件夹“%1”失败。这些信件下次同步时会消失。请使用订阅对话框"
+"来解决这个问题。"
+
+#: addcollectiontask.cpp:147 changecollectiontask.cpp:278
+#, kde-format
+msgid "Failed to write some annotations for '%1' on the IMAP server. %2"
+msgstr "将 %1 的批注写入 IMAP 服务器失败。%2"
+
+#: additemtask.cpp:135 changeitemtask.cpp:199 changeitemtask.cpp:224
+#: moveitemstask.cpp:217
+msgid "Could not determine the UID for the newly created message on the server"
+msgstr "无法在服务器上检测到新创建的信件的 UID"
+
+#: changecollectiontask.cpp:48
+#, kde-format
+msgid "Cannot modify IMAP folder '%1', it does not exist on the server."
+msgstr "无法修改 IMAP 文件夹“%1”，它在服务器上并不存在。"
+
+#: changecollectiontask.cpp:61
+#, kde-format
+msgid ""
+"ACLs for '%1' need to be retrieved from the IMAP server first. Skipping ACL "
+"change"
+msgstr "需要先从 IMAP 服务器取得“%1”的访问控制列表设定，已略过对此列表的更改。"
+
+#: changecollectiontask.cpp:238
+msgid "Failed to rename the folder, restoring folder list."
+msgstr "重命名文件夹失败，还原文件夹列表。"
+
+#: changecollectiontask.cpp:257
+#, kde-format
+msgid ""
+"Failed to subscribe to the renamed folder '%1' on the IMAP server. It will "
+"disappear on next sync. Use the subscription dialog to overcome that"
+msgstr ""
+"订阅 IMAP 服务器上重命名的文件夹“%1”失败。这些信件下次同步时会消失。请使用订"
+"阅对话框来解决这个问题。"
+
+#: changecollectiontask.cpp:268
+#, kde-format
+msgid "Failed to write some ACLs for '%1' on the IMAP server. %2"
+msgstr "将 %1 的访问控制列表写入 IMAP 服务器失败。%2"
+
+#: imapresource.cpp:116
+#, kde-format
+msgid "IMAP Account %1"
+msgstr "IMAP 账户 %1"
+
+#: imapresource.cpp:118
+msgid "IMAP Account"
+msgstr "IMAP 账户"
+
+#: imapresource.cpp:299
+msgid "No server configured yet."
+msgstr "尚未配置服务器。"
+
+#: imapresource.cpp:332
+msgctxt "@title:window"
+msgid "Serverside Subscription"
+msgstr "服务器端订阅"
+
+#: imapresource.cpp:354
+msgid "Connection established."
+msgstr "连接已建立。"
+
+#: imapresource.cpp:409
+#, kde-format
+msgctxt "@info:status"
+msgid "Adding item in '%1'"
+msgstr "正在添加“%1”中的项目"
+
+#: imapresource.cpp:419
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating item in '%1'"
+msgstr "正在更新“%1”中的项目"
+
+#: imapresource.cpp:430
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Updating item in '%1'"
+msgctxt "@info:status"
+msgid "Updating items"
+msgstr "正在更新“%1”中的项目"
+
+#: imapresource.cpp:449
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Removing item from '%1'"
+msgctxt "@info:status"
+msgid "Removing items"
+msgstr "正在移除“%1”中的项目"
+
+#: imapresource.cpp:469
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Moving item from '%1' to '%2'"
+msgctxt "@info:status"
+msgid "Moving items from '%1' to '%2'"
+msgstr "正在将项目从“%1”移至“%2”"
+
+#: imapresource.cpp:483
+msgctxt "@info:status"
+msgid "Retrieving folders"
+msgstr "正在获取文件夹"
+
+#: imapresource.cpp:494
+#, kde-format
+msgctxt "@info:status"
+msgid "Retrieving extra folder information for '%1'"
+msgstr "正在获取“%1”的额外文件夹信息"
+
+#: imapresource.cpp:526
+#, kde-format
+msgctxt "@info:status"
+msgid "Creating folder '%1'"
+msgstr "正在创建文件夹“%1”"
+
+#: imapresource.cpp:535
+#, kde-format
+msgctxt "@info:status"
+msgid "Updating folder '%1'"
+msgstr "正在更新文件夹“%1”"
+
+#: imapresource.cpp:552
+#, kde-format
+msgctxt "@info:status"
+msgid "Removing folder '%1'"
+msgstr "正在移除文件夹“%1”"
+
+#: imapresource.cpp:563
+#, kde-format
+msgctxt "@info:status"
+msgid "Moving folder '%1' from '%2' to '%3'"
+msgstr "正在将文件夹“%1”从“%2”移至“%3”"
+
+#: imapresource.cpp:595
+#, fuzzy
+#| msgctxt "@label search for a subscription"
+#| msgid "Search:"
+msgctxt "@info:status"
+msgid "Searching..."
+msgstr "搜索："
+
+#. i18n: ectx: label, entry (ImapServer), group (network)
+#: imapresource.kcfg:10
+msgid "IMAP server"
+msgstr "IMAP 服务器"
+
+#. i18n: ectx: label, entry (ImapPort), group (network)
+#: imapresource.kcfg:13
+msgid "Defines the port the IMAP service is running on"
+msgstr "定义 IMAP 服务正在运行的端口"
+
+#. i18n: ectx: label, entry (UserName), group (network)
+#: imapresource.kcfg:17
+msgid "Username"
+msgstr "用户名"
+
+#. i18n: ectx: label, entry (Safety), group (network)
+#: imapresource.kcfg:20
+msgid "Defines the encryption type to use"
+msgstr "定义要使用的加密类型"
+
+#. i18n: ectx: label, entry (Authentication), group (network)
+#: imapresource.kcfg:24
+msgid "Defines the authentication type to use"
+msgstr "定义要使用的验证类型"
+
+#. i18n: ectx: label, entry (SubscriptionEnabled), group (network)
+#: imapresource.kcfg:28
+msgid "Defines if the server side subscription is enabled"
+msgstr "定义服务器是否支持订阅"
+
+#. i18n: ectx: label, entry (DisconnectedModeEnabled), group (cache)
+#: imapresource.kcfg:37
+msgid "Defines if all the IMAP data should be cached locally all the time"
+msgstr "定义是否总是将所有 IMAP 数据缓存到本地"
+
+#. i18n: ectx: label, entry (IntervalCheckEnabled), group (cache)
+#: imapresource.kcfg:41
+msgid "Defines if interval checking is enabled."
+msgstr "定义是否启用定时检查。"
+
+#. i18n: ectx: label, entry (IntervalCheckTime), group (cache)
+#: imapresource.kcfg:45
+msgid "Check interval in minutes"
+msgstr "检查间隔，以分钟计"
+
+#. i18n: ectx: label, entry (RetrieveMetadataOnFolderListing), group (cache)
+#: imapresource.kcfg:50
+msgid ""
+"Defines if the annotations, ACLs and quota information of mailboxes should\n"
+"             also be retrieved when the mailboxes get listed."
+msgstr "定义是否要在列出信箱时，同时获取信箱的批注、访问控制列表及配额信息。"
+
+#. i18n: ectx: label, entry (AutomaticExpungeEnabled), group (cache)
+#: imapresource.kcfg:55
+msgid ""
+"Defines if the expunge command is issued automatically, otherwise it should "
+"be\n"
+"             triggered manually through the D-Bus interface."
+msgstr ""
+"定义是否要自动生成 expunge 命令，如果不自动则会通过 D-Bus 接口触发此命令。"
+
+#. i18n: ectx: label, entry (TrashCollection), group (cache)
+#: imapresource.kcfg:59
+msgid "Define which folder is used for trash"
+msgstr "定义废件夹所使用的文件夹"
+
+#. i18n: ectx: label, entry (TrashCollectionMigrated), group (cache)
+#: imapresource.kcfg:63
+msgid "Define if the trash collection received the special attribute"
+msgstr ""
+
+#. i18n: ectx: label, entry (UseDefaultIdentity), group (cache)
+#: imapresource.kcfg:67
+msgid "Define if account uses the default identity"
+msgstr "定义账户是否使用默认身份"
+
+#. i18n: ectx: label, entry (AccountIdentity), group (cache)
+#: imapresource.kcfg:71
+msgid "Identity account"
+msgstr "身份账户"
+
+#. i18n: ectx: label, entry (KnownMailBoxes), group (cache)
+#: imapresource.kcfg:74
+msgid "List of mailbox names reported by the server the last time"
+msgstr "列出最后一次服务器返回的邮件文件夹名称"
+
+#. i18n: ectx: label, entry (IdleRidPath), group (idle)
+#: imapresource.kcfg:79
+msgid "RID path to the mailbox to watch for changes"
+msgstr "要查看其改动的信箱的 RID 路径"
+
+#. i18n: ectx: label, entry (SieveSupport), group (siever)
+#: imapresource.kcfg:84
+msgid "Define if server supports sieve"
+msgstr "定义服务器是否支持筛选"
+
+#. i18n: ectx: label, entry (SieveReuseConfig), group (siever)
+#: imapresource.kcfg:88
+msgid "Define if we reuse host and login configuration"
+msgstr "定义是否重用主机和登录配置"
+
+#. i18n: ectx: label, entry (SievePort), group (siever)
+#: imapresource.kcfg:92
+msgid "Define sieve port"
+msgstr "定义筛选服务端口"
+
+#. i18n: ectx: label, entry (SieveAlternateUrl), group (siever)
+#: imapresource.kcfg:96
+msgid "Define alternate URL"
+msgstr "定义备用 URL"
+
+#. i18n: ectx: label, entry (SieveVacationFilename), group (siever)
+#: imapresource.kcfg:99
+msgid "Define default sieve vacation filename"
+msgstr "定义默认筛选配置文件名"
+
+#. i18n: ectx: label, entry (SieveCustomUsername), group (siever)
+#: imapresource.kcfg:103
+#, fuzzy
+#| msgid "Defines the authentication type to use"
+msgid "Define username used from custom server sieve url"
+msgstr "定义要使用的验证类型"
+
+#. i18n: ectx: label, entry (SieveCustomAuthentification), group (siever)
+#: imapresource.kcfg:107
+#, fuzzy
+#| msgid "Defines the authentication type to use"
+msgid "Defines the type of identification used by custom sieve server"
+msgstr "定义要使用的验证类型"
+
+#: movecollectiontask.cpp:47
+#, kde-format
+msgid "Cannot move IMAP folder '%1', it does not exist on the server."
+msgstr "无法移动 IMAP 文件夹“%1”，它在服务器上不存在。"
+
+#: movecollectiontask.cpp:54
+#, kde-format
+msgid ""
+"Cannot move IMAP folder '%1' out of '%2', '%2' does not exist on the server."
+msgstr "无法将 IMAP 文件夹“%1”移出“%2”，“%2”在服务器上不存在。"
+
+#: movecollectiontask.cpp:62
+#, kde-format
+msgid ""
+"Cannot move IMAP folder '%1' to '%2', '%2' does not exist on the server."
+msgstr "无法将 IMAP 文件夹“%1”移动到“%2”，“%2”在服务器上不存在。"
+
+#: moveitemstask.cpp:53
+msgid "Cannot move message, it does not exist on the server."
+msgstr "无法移动信件，因为在服务器上不存在。"
+
+#: moveitemstask.cpp:59
+#, kde-format
+msgid "Cannot move message out of '%1', '%1' does not exist on the server."
+msgstr "无法将信件移出“%1”，“%1”在服务器上不存在。"
+
+#: moveitemstask.cpp:66
+#, kde-format
+msgid "Cannot move message to '%1', '%1' does not exist on the server."
+msgstr "无法将信件移动到“%1”，“%1”在服务器上不存在。"
+
+#: moveitemstask.cpp:122
+#, kde-format
+msgid "Failed to copy item, it has no message payload. Remote id: %1"
+msgstr "复制项目失败，它没有信件资料。远程 id：%1"
+
+#: moveitemstask.cpp:169
+#, kde-format
+msgid ""
+"Failed to mark the message from '%1' for deletion on the IMAP server. It "
+"will reappear on next sync."
+msgstr ""
+"将 IMAP 服务器上来自“%1”的信件标记为删除失败。这些信件下次同步时会再次出现。"
+
+#: removecollectionrecursivetask.cpp:131 removecollectionrecursivetask.cpp:148
+#: removecollectionrecursivetask.cpp:161
+msgid "Failed to delete the folder, restoring folder list."
+msgstr "删除文件夹失败，还原文件夹列表。"
+
+#: removecollectionrecursivetask.cpp:166
+msgid "Failed to find the folder to be deleted, restoring folder list."
+msgstr "未找到要删除的文件夹，还原文件夹列表。"
+
+#: resourcetask.cpp:68
+msgid "There is currently no connection to the IMAP server."
+msgstr "目前没有和 IMAP 服务器之间建立的连接。"
+
+#: resourcetask.cpp:99
+msgid "There is currently no session to the IMAP server available."
+msgstr "目前没有和 IMAP 服务器之间建立的会话。"
+
+#: resourcetask.cpp:129 resourcetask.cpp:140
+msgid "Connection lost"
+msgstr "连接已丢失"
+
+#: resourcetask.cpp:426
+msgid "killed"
+msgstr ""
+
+#: retrievecollectionmetadatatask.cpp:232
+#, kde-format
+msgid ""
+"<p>Your access rights to folder <b>%1</b> have been restricted, it will no "
+"longer be possible to add messages to this folder.</p>"
+msgstr ""
+"<p>您对文件夹 <b>%1</b> 的访问权限被限制，您无法再向这个文件夹添加新的信件。"
+"</p>"
+
+#: retrievecollectionmetadatatask.cpp:235
+msgid "Access rights revoked"
+msgstr "访问权限已吊销"
+
+#: retrievecollectionstask.cpp:169
+msgid "Inbox"
+msgstr "收件夹"
+
+#: retrievecollectionstask.cpp:177
+msgid "Shared Folders"
+msgstr "共享文件夹"
+
+#: retrieveitemstask.cpp:426
+#, kde-format
+msgctxt "@info:status"
+msgid "Fetching missing mail bodies in %3: %1/%2"
+msgstr ""
+
+#: retrieveitemtask.cpp:50
+msgid "Remote id is empty or invalid"
+msgstr ""
+
+#: retrieveitemtask.cpp:136
+msgid "No message retrieved, server reply was empty."
+msgstr "未收到消息，服务器的响应为空。"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ServerInfo)
+#. i18n: ectx: property (text), widget (QPushButton, showServerInfo)
+#: serverinfo.ui:14 setupserverview_desktop.ui:567
+#: setupserverview_mobile.ui:440
+msgid "Server Info"
+msgstr "服务器信息"
+
+#: serverinfodialog.cpp:32
+msgctxt ""
+"@title:window Dialog title for dialog showing information about a server"
+msgid "Server Info"
+msgstr "服务器信息"
+
+#: sessionpool.cpp:222 sessionpool.cpp:365
+#, kde-format
+msgid ""
+"Could not connect to the IMAP-server %1.\n"
+"%2"
+msgstr ""
+"无法连接到 IMAP 服务器 %1。\n"
+"%2"
+
+#: sessionpool.cpp:226
+#, fuzzy, kde-format
+#| msgid ""
+#| "Cound not connect to the IMAP server.\n"
+#| "%1"
+msgid ""
+"Could not connect to the IMAP server.\n"
+"%1"
+msgstr ""
+"无法连接到 IMAP 服务器。\n"
+"%1"
+
+#: sessionpool.cpp:265
+#, kde-format
+msgid "Could not create another extra connection to the IMAP-server %1."
+msgstr "无法创建到 IMAP 服务器 %1 的另一个连接。"
+
+#: sessionpool.cpp:283
+msgid "Disconnected from server during login."
+msgstr "登录时与服务器断开连接。"
+
+#: sessionpool.cpp:297
+msgid "Could not read the password: user rejected wallet access"
+msgstr "无法读取密码：用户拒绝了对钱包的访问。"
+
+#: sessionpool.cpp:305
+msgid "Empty password"
+msgstr "空密码"
+
+#: sessionpool.cpp:317
+#, kde-format
+msgid ""
+"You requested TLS/SSL to connect to %1, but your system does not seem to be "
+"set up for that."
+msgstr "您正请求以 TLS/SSL 模式连接到 %1，但您的系统似乎不支持。"
+
+#: sessionpool.cpp:371
+#, kde-format
+msgid ""
+"Could not connect to the IMAP-server.\n"
+"%1"
+msgstr ""
+"无法连接到 IMAP 服务器。\n"
+"%1"
+
+#: sessionpool.cpp:391
+#, kde-format
+msgid ""
+"Could not test the capabilities supported by the IMAP server %1.\n"
+"%2"
+msgstr ""
+"无法测试 IMAP 服务器 %1 的兼容特性。\n"
+"%2"
+
+#: sessionpool.cpp:398
+#, kde-format
+msgid ""
+"Could not test the capabilities supported by the IMAP server.\n"
+"%1"
+msgstr ""
+"无法测试 IMAP 服务器的兼容特性。\n"
+"%1"
+
+#: sessionpool.cpp:418
+#, kde-format
+msgid ""
+"Cannot use the IMAP server %1, some mandatory capabilities are missing: %2. "
+"Please ask your sysadmin to upgrade the server."
+msgstr ""
+"无法使用 IMAP 服务器 %1，因为缺少一些必须的特性：%2。您可以请求系统管理员升级"
+"服务器。"
+
+#: settings.cpp:158
+#, kde-format
+msgid "Please enter password for user '%1' on IMAP server '%2'."
+msgstr "请输入用户“%1”在 IMAP 服务器“%2”上的密码。"
+
+#: settingspasswordrequester.cpp:55
+#, kde-format
+msgid ""
+"The server for account \"%2\" refused the supplied username and password. Do "
+"you want to go to the settings, have another attempt at logging in, or do "
+"nothing?\n"
+"\n"
+"%1"
+msgstr ""
+"帐号“%2”的服务器拒绝了提供的用户名和密码。您想要以此设置继续，还是尝试另外的"
+"登录信息，或什么也不做？\n"
+"\n"
+"%1"
+
+#: settingspasswordrequester.cpp:59
+msgid "Could Not Authenticate"
+msgstr "无法验证"
+
+#: settingspasswordrequester.cpp:60
+msgid "Account Settings"
+msgstr "帐号设置"
+
+#: settingspasswordrequester.cpp:61
+msgctxt "Input username/password manually and not store them"
+msgid "Try Again"
+msgstr "重试"
+
+#: setupserver.cpp:88
+msgctxt "Authentication method"
+msgid "Clear text"
+msgstr "明文"
+
+#: setupserver.cpp:90
+msgctxt "Authentication method"
+msgid "Anonymous"
+msgstr "匿名"
+
+#: setupserver.cpp:130
+msgid "Folder Archive"
+msgstr ""
+
+#: setupserver.cpp:145
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " 分钟"
+
+#: setupserver.cpp:379
+msgid ""
+"Could not access KWallet. If you want to store the password permanently then "
+"you have to activate it. If you do not want to use KWallet, check the box "
+"below, but note that you will be prompted for your password when needed."
+msgstr ""
+"无法访问 KDE 钱包，KDE 钱包可以永久保存您曾经使用过的密码。如果您不想使用 "
+"KDE 钱包，请选中下面的选框，但是注意，这样的话每次您都会在程序需要时被提示输"
+"入密码。"
+
+#: setupserver.cpp:384
+msgid "Do not use KWallet"
+msgstr "不使用 KWallet"
+
+#: setupserver.cpp:493
+msgid "Unable to connect to the server, please verify the server address."
+msgstr "无法连接到服务器，请检查服务器地址。"
+
+#: setupserver.cpp:504
+msgid "<qt><b>TLS is supported and recommended.</b></qt>"
+msgstr "<qt><b>TLS 是支持且受推荐的。</b></qt>"
+
+#: setupserver.cpp:507
+msgid "<qt><b>SSL is supported and recommended.</b></qt>"
+msgstr "<qt><b>SSL 是支持且受推荐的。</b></qt>"
+
+#: setupserver.cpp:510
+msgid ""
+"<qt><b>No security is supported. It is not recommended to connect to this "
+"server.</b></qt>"
+msgstr "<qt><b>找不到安全连接方式。不推荐您连接到此服务器。</b></qt>"
+
+#: setupserver.cpp:513
+msgid "<qt><b>It is not possible to use this server.</b></qt>"
+msgstr "<qt><b>无法使用此服务器。</b></qt>"
+
+#: setupserver.cpp:612
+msgid "Serverside Subscription"
+msgstr "服务器端订阅"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: setupserverview_desktop.ui:21
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: setupserverview_desktop.ui:27
+msgid "Account Information"
+msgstr "账户信息"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: setupserverview_desktop.ui:33 setupserverview_mobile.ui:49
+msgid "Account Name:"
+msgstr "账户名称："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: setupserverview_desktop.ui:43 setupserverview_mobile.ui:59
+msgid ""
+"Indicate the IMAP server. If you want to connect to a non-standard port for "
+"a specific encryption scheme, you can add \":port\" to indicate that. For "
+"example: \"imap.foo.com:144\"."
+msgstr ""
+"IMAP 服务器定义。如果您想要为特定的加密方案连接到一个非标准端口，可以添加一"
+"个“:端口号”声明，例如：“imap.foo.com:144”。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: setupserverview_desktop.ui:46
+msgid "IMAP Server:"
+msgstr "IMAP 服务器："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#: setupserverview_desktop.ui:59 setupserverview_mobile.ui:163
+msgid "The username."
+msgstr "用户名。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: setupserverview_desktop.ui:62 setupserverview_desktop.ui:247
+#: setupserverview_mobile.ui:166
+msgid "Username:"
+msgstr "用户名："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
+#: setupserverview_desktop.ui:75 setupserverview_mobile.ui:179
+msgid "The password."
+msgstr "密码。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: setupserverview_desktop.ui:78 setupserverview_desktop.ui:240
+#: setupserverview_mobile.ui:182
+msgid "Password:"
+msgstr "密码："
+
+#. i18n: ectx: property (title), widget (QGroupBox, checkOptions)
+#: setupserverview_desktop.ui:98
+msgid "Mail Checking Options"
+msgstr "邮件检查选项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableMailCheckBox)
+#: setupserverview_desktop.ui:104
+msgid "Enable &interval mail checking"
+msgstr "启用定时邮件检查(&I)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: setupserverview_desktop.ui:113
+msgid "Check mail interval:"
+msgstr "检查邮件间隔："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: setupserverview_desktop.ui:155
+msgid "Filtering"
+msgstr "过滤"
+
+#. i18n: ectx: property (text), widget (QCheckBox, managesieveCheck)
+#: setupserverview_desktop.ui:161 setupserverview_mobile.ui:392
+msgid "Server supports Sieve"
+msgstr "服务器支持筛选"
+
+#. i18n: ectx: property (text), widget (QCheckBox, sameConfigCheck)
+#: setupserverview_desktop.ui:168 setupserverview_mobile.ui:399
+msgid "Reuse host and login configuration"
+msgstr "重用主机和登录配置"
+
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: setupserverview_desktop.ui:175
+msgid ""
+"The server port changed when ManageSieve turned into a full RFC Standard. "
+"Old server implementations still use port 2000, while newer standard conform "
+"server can only be accessed via port 4190."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: setupserverview_desktop.ui:187 setupserverview_mobile.ui:421
+msgid "Managesieve port:"
+msgstr "筛选管理端口："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: setupserverview_desktop.ui:205 setupserverview_mobile.ui:408
+msgid "Alternate URL:"
+msgstr "备用 URL："
+
+#. i18n: ectx: property (title), widget (QGroupBox, authentification)
+#: setupserverview_desktop.ui:217
+#, fuzzy
+#| msgid "Authentication:"
+msgid "Authentification"
+msgstr "身份验证："
+
+#. i18n: ectx: property (text), widget (QRadioButton, noAuthentification)
+#: setupserverview_desktop.ui:230
+#, fuzzy
+#| msgid "Authentication:"
+msgid "No authentification"
+msgstr "身份验证："
+
+#. i18n: ectx: property (text), widget (QRadioButton, customUserPassword)
+#: setupserverview_desktop.ui:254
+msgid "Username and Password"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, imapUserPassword)
+#: setupserverview_desktop.ui:267
+msgid "IMAP Username and Password"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: setupserverview_desktop.ui:297
+msgid "Advanced"
+msgstr "高级"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: setupserverview_desktop.ui:303
+msgid "IMAP Settings"
+msgstr "IMAP 设置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, subscriptionEnabled)
+#: setupserverview_desktop.ui:311
+msgid "Enable server-side subscriptions"
+msgstr "启用服务器端订阅"
+
+#. i18n: ectx: property (text), widget (KPushButton, subscriptionButton)
+#: setupserverview_desktop.ui:321 setupserverview_mobile.ui:328
+msgid "Serverside Subscription..."
+msgstr "服务器端订阅..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, disconnectedModeEnabled)
+#: setupserverview_desktop.ui:330
+msgid "Enable disconnected mode"
+msgstr "启用离线模式"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoExpungeCheck)
+#: setupserverview_desktop.ui:337
+msgid "Automaticall&y compact folders (expunges deleted messages)"
+msgstr "自动压缩文件夹(清除删除信件的空间)(&Y)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: setupserverview_desktop.ui:346 setupserverview_mobile.ui:344
+msgid "Trash folder:"
+msgstr "废件夹："
+
+#. i18n: ectx: property (title), widget (QGroupBox, identityBox)
+#: setupserverview_desktop.ui:358
+msgid "Identity Settings"
+msgstr "身份设置"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, useDefaultIdentityCheck)
+#: setupserverview_desktop.ui:364 setupserverview_mobile.ui:356
+msgid "Use the default identity for this account"
+msgstr "为此账户使用默认身份"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useDefaultIdentityCheck)
+#: setupserverview_desktop.ui:367 setupserverview_mobile.ui:359
+msgid "Use &default identity"
+msgstr "使用默认身份(&D)"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, identityLabel)
+#: setupserverview_desktop.ui:376 setupserverview_mobile.ui:377
+msgid "Select the KMail identity used for this account"
+msgstr "选择要用于此账户的 KMail 身份"
+
+#. i18n: ectx: property (text), widget (QLabel, identityLabel)
+#: setupserverview_desktop.ui:379 setupserverview_mobile.ui:380
+msgid "Identity:"
+msgstr "身份："
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, safeImap)
+#: setupserverview_desktop.ui:400
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'HandelGotDLig'; font-size:10pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">SSL/TLS</span><span style=\" font-"
+"family:'Sans Serif';\"> is safe IMAP over port 993;</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">STARTTLS</span><span style=\" font-"
+"family:'Sans Serif';\"> will operate on port 143 and switch to a secure "
+"connection directly after connecting;</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">None</span><span style=\" font-"
+"family:'Sans Serif';\"> will connect to port 143 but not switch to a secure "
+"connection. This setting is not recommended.</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'HandelGotDLig'; font-size:10pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">SSL/TLS</span><span style=\" font-"
+"family:'Sans Serif';\"> 是在 933 端口上安全的 IMAP；</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">STARTTLS</span><span style=\" font-"
+"family:'Sans Serif';\"> 将在 143 端口上操作，连接后会直接切换到安全连接；</"
+"span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">无</span><span style=\" font-"
+"family:'Sans Serif';\">将连接到 143 端口，但不会切换到安全连接。不推荐使用此"
+"设置。</span></p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, safeImap)
+#: setupserverview_desktop.ui:403
+msgid "Connection Settings"
+msgstr "连接设置"
+
+#. i18n: ectx: property (text), widget (KPushButton, testButton)
+#: setupserverview_desktop.ui:409 setupserverview_mobile.ui:100
+msgid "Auto Detect"
+msgstr "自动探测"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: setupserverview_desktop.ui:421
+msgid "Encryption:"
+msgstr "加密："
+
+#. i18n: ectx: property (text), widget (QRadioButton, noRadio)
+#: setupserverview_desktop.ui:430 setupserverview_mobile.ui:125
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (text), widget (QRadioButton, sslRadio)
+#: setupserverview_desktop.ui:443
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+#. i18n: ectx: property (text), widget (QRadioButton, tlsRadio)
+#: setupserverview_desktop.ui:453
+msgid "STARTTLS"
+msgstr "开启 TLS"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: setupserverview_desktop.ui:465 setupserverview_mobile.ui:199
+msgid "Port:"
+msgstr "端口："
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: setupserverview_desktop.ui:485
+msgid "Authentication:"
+msgstr "身份验证："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:493 setupserverview_mobile.ui:231
+msgid "Clear text"
+msgstr "明文"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:498 setupserverview_mobile.ui:236
+msgid "LOGIN"
+msgstr "LOGIN"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:503 setupserverview_mobile.ui:241
+msgid "PLAIN"
+msgstr "PLAIN"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:508 setupserverview_mobile.ui:246
+msgid "CRAM-MD5"
+msgstr "CRAM-MD5"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:513 setupserverview_mobile.ui:251
+msgid "DIGEST-MD5"
+msgstr "DIGEST-MD5"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:518 setupserverview_mobile.ui:256
+msgid "NTLM"
+msgstr "NTLM"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:523 setupserverview_mobile.ui:261
+msgid "GSSAPI"
+msgstr "GSSAPI"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:528 setupserverview_mobile.ui:266
+msgid "Anonymous"
+msgstr "匿名"
+
+#. i18n: ectx: property (text), widget (QLabel, testInfo)
+#: setupserverview_desktop.ui:547 setupserverview_mobile.ui:83
+msgid "Empty"
+msgstr "空"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: setupserverview_mobile.ui:62
+msgid "IMAP server:"
+msgstr "IMAP 服务器："
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, safeImap)
+#: setupserverview_mobile.ui:113
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">SSL</span> is safe IMAP over port 993;</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">TLS</span> will operate on port 143 and switch to a secure "
+"connection directly after connecting;</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">None</span> will connect to port 143 but not switch to a "
+"secure connection. This setting is not recommended.</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">SSL</span> 在 993 端口上运行的安全 IMAP;</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">TLS</span> 使用 143 端口通讯，它会在连接完成后直接切换为安全连"
+"接；</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">无</span> 这将使用 143 端口通讯，但不会切换为安全连接，不推荐使"
+"用此设置。</p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, safeImap)
+#: setupserverview_mobile.ui:116
+msgid "Encryption"
+msgstr "加密"
+
+#. i18n: ectx: property (text), widget (QRadioButton, sslRadio)
+#: setupserverview_mobile.ui:138
+msgid "SSL"
+msgstr "SSL"
+
+#. i18n: ectx: property (text), widget (QRadioButton, tlsRadio)
+#: setupserverview_mobile.ui:148
+msgid "TLS"
+msgstr "TLS"
+
+#. i18n: ectx: property (title), widget (QGroupBox, authImap)
+#: setupserverview_mobile.ui:221
+msgid "Authentication Method"
+msgstr "验证方式"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableMailCheckBox)
+#: setupserverview_mobile.ui:277
+msgid "Enable interval mail checking"
+msgstr "启用定时邮件检查"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: setupserverview_mobile.ui:286
+msgid "Check interval:"
+msgstr "检查间隔："
+
+#. i18n: ectx: property (suffix), widget (KIntNumInput, checkInterval)
+#: setupserverview_mobile.ui:299
+msgid " minutes"
+msgstr " 分钟"
+
+#. i18n: ectx: property (text), widget (QCheckBox, disconnectedModeEnabled)
+#: setupserverview_mobile.ui:311
+msgid "Enable Disconnected Mode"
+msgstr "启用离线模式"
+
+#. i18n: ectx: property (text), widget (QCheckBox, subscriptionEnabled)
+#: setupserverview_mobile.ui:318
+msgid "Enable Server-Side Subscriptions"
+msgstr "启用服务器端订阅"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoExpungeCheck)
+#: setupserverview_mobile.ui:335
+msgid "Automaticall&y expunge deleted messages"
+msgstr "自动清除已删除信件(&Y)"
+
+#: subscriptiondialog.cpp:81
+msgctxt "@action:button"
+msgid "Reload &List"
+msgstr "刷新列表(&L)"
+
+#: subscriptiondialog.cpp:92
+msgctxt "@option:check"
+msgid "Enable server-side subscriptions"
+msgstr "启用服务器端订阅"
+
+#: subscriptiondialog.cpp:100
+msgctxt "@label search for a subscription"
+msgid "Search:"
+msgstr "搜索："
+
+#: subscriptiondialog.cpp:111
+msgctxt "@option:check"
+msgid "Subscribed only"
+msgstr "只显示已订阅的"
+
+#, fuzzy
+#~| msgid ""
+#~| "Cannot move IMAP folder '%1' to '%2', '%2' does not exist on the server."
+#~ msgid ""
+#~ "Cannot move IMAP folder '%1' to '%2', en error occurred when closing "
+#~ "folder"
+#~ msgstr "无法将 IMAP 文件夹“%1”移动到“%2”，“%2”在服务器上不存在。"
+
+#~ msgctxt "@info:status"
+#~ msgid "Retrieving folder attributes for '%1'"
+#~ msgstr "正在获取“%1”的文件夹属性"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgctxt "Dialog title for dialog showing information about a server"
+#~ msgid "Server Info"
+#~ msgstr "服务器信息"
+
+#~ msgid "Failed to connect to server"
+#~ msgstr "连接服务器失败"
+
+#~ msgid "Settings"
+#~ msgstr "设置"
+
+#~ msgctxt "Input username/password manually and not store them"
+#~ msgid "Single Input"
+#~ msgstr "一次输入"
+
+#, fuzzy
+#~| msgid "Password:"
+#~ msgid "Password"
+#~ msgstr "密码："
+
+#~ msgctxt "no interval mail check"
+#~ msgid "Never"
+#~ msgstr "从不"
+
+#~ msgid "Enable Subscriptions?"
+#~ msgstr "启用订阅功能吗？"
+
+#~ msgid "Enable"
+#~ msgstr "启用"
+
+#~ msgid "Do Not Enable"
+#~ msgstr "不启用"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Currently subscriptions are not used for server <resource>%1</resource>."
+#~ "<nl/>\n"
+#~ "Do you want to enable subscriptions?"
+#~ msgstr ""
+#~ "目前未对服务器 <resource>%1</resource> 启用订阅。<nl/>\n"
+#~ "您想要启用吗？"
+
+#~ msgid ""
+#~ "Failed to move message out of '%1' on the IMAP server. Could not select "
+#~ "'%1'."
+#~ msgstr "将 IMAP 服务器上的信件移出“%1”失败。无法选中“%1”。"
+
+#~ msgid ""
+#~ "Failed to move message to '%1' on the IMAP server. Could not copy into "
+#~ "'%1'."
+#~ msgstr "将 IMAP 服务器上的信件移动到“%1”失败。无法选中“%1”。"
+
+#~ msgid "Failed to move folder '%1' out of '%2' on the IMAP server."
+#~ msgstr "将 IMAP 服务器上的文件夹“%1”移出“%2”失败。"
+
+#~ msgid ""
+#~ "Failed to subscribe to the newly moved folder '%1' on the IMAP server."
+#~ msgstr "在 IMAP 服务器上订阅刚移动过的文件夹“%1”失败。"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "KDE 中国"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "kde-china@kde.org"
+
+#~ msgid "Authentication failed."
+#~ msgstr "验证失败。"
+
+#~ msgid "Include this account when clicking on the toolbar button"
+#~ msgstr "点击工具栏按钮时，操作包含此账户"
+
+#~ msgid "Include in man&ual mail check"
+#~ msgstr "手动检查邮件时包含(&U)"

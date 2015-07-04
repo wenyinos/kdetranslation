@@ -1,0 +1,246 @@
+# translation of plasma_applet_rtm.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010.
+# Weng Xuetian <wengxt@gmail.com>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_rtm\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-06-06 01:31+0000\n"
+"PO-Revision-Date: 2013-06-21 16:47-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox_2)
+#: authenticate.ui:17
+msgid ""
+"Displays the current authentication state of the KDE Remember The Milk "
+"applet. If the light is green, the applet is authenticated. If the light is "
+"red, you need to enter your username and password below to log in."
+msgstr ""
+"显示 KDE Remember The Milk 小程序的当前验证状态。如果灯为绿色，则已验证。如果"
+"灯为红色，那么您需要在下面输入您的用户名和密码以登录。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: authenticate.ui:20
+msgid "Current Authentication Status"
+msgstr "当前验证状态"
+
+#. i18n: ectx: property (text), widget (QLabel, authStatus)
+#: authenticate.ui:38 rememberthemilk-plasmoid.cpp:200
+msgid "Authenticated"
+msgstr "已验证"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: authenticate.ui:50
+msgid "Re-Authenticate"
+msgstr "重新验证"
+
+#. i18n: ectx: property (text), widget (QPushButton, authenticateButton)
+#: authenticate.ui:71
+msgid "Authenticate with Remember The Milk Service"
+msgstr "验证 Remember The Milk 服务"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: authenticate.ui:83
+msgid "No Remember The Milk Account?"
+msgstr "还没有 Remember The Milk 账户？"
+
+#. i18n: ectx: property (text), widget (KUrlLabel, signupLabel)
+#: authenticate.ui:93
+msgid "Register for one here."
+msgstr "在此注册账户。"
+
+#. i18n: ectx: property (url), widget (KUrlLabel, signupLabel)
+#: authenticate.ui:99
+msgid "https://www.rememberthemilk.com/signup/"
+msgstr "https://www.rememberthemilk.com/signup/"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: general.ui:26
+msgid "Sort by:"
+msgstr "排序方式："
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, sortType)
+#: general.ui:42
+msgid ""
+"Change the current sorting method.\n"
+"\n"
+"Priority:\n"
+"Items are first sorted by their priority (1, 2, 3, none) and secondly by due "
+"date.\n"
+"\n"
+"Due Date:\n"
+"Items are first sorted by their due date and secondly by priority."
+msgstr ""
+"更改当前排序方式。\n"
+"\n"
+"优先级：\n"
+"先按照项目的优先级排序(1、2、3、无)，再按照预定日期。\n"
+"\n"
+"预定日期：\n"
+"先按照项目的预定日期排序，再按照优先级。"
+
+#: rememberthemilk-plasmoid.cpp:70
+msgid "Due Date"
+msgstr "预定日期"
+
+#: rememberthemilk-plasmoid.cpp:71
+msgid "Priority"
+msgstr "优先级"
+
+#: rememberthemilk-plasmoid.cpp:111
+msgid "Click to finish authentication"
+msgstr "点击完成验证"
+
+#: rememberthemilk-plasmoid.cpp:163
+msgid "General"
+msgstr "常规"
+
+#: rememberthemilk-plasmoid.cpp:163
+msgid "General Configuration Options"
+msgstr "常规配置选项"
+
+#: rememberthemilk-plasmoid.cpp:164
+msgid "Authentication"
+msgstr "验证"
+
+#: rememberthemilk-plasmoid.cpp:164
+msgid "Remember The Milk Authentication"
+msgstr "Remember The Milk 验证"
+
+#: rememberthemilk-plasmoid.cpp:204
+msgid "Not Authenticated"
+msgstr "未验证"
+
+#: rememberthemilk-plasmoid.cpp:222
+msgid "Login Failed. Please try again."
+msgstr "登录失败。请重试。"
+
+#: rememberthemilk-plasmoid.cpp:275 rememberthemilk-plasmoid.cpp:332
+msgid "Remember The Milk Tasks"
+msgstr "Remember The Milk 任务"
+
+#: rememberthemilk-plasmoid.cpp:287
+msgid "Editing Task: "
+msgstr "编辑任务："
+
+#: rememberthemilk-plasmoid.cpp:320
+msgid "Failed to load the Remember The Milk DataEngine"
+msgstr "装入 Remember The Milk 数据引擎失败"
+
+#: rememberthemilk-plasmoid.cpp:335
+msgid "No Data Yet. Refreshing..."
+msgstr "还没有数据。正在刷新..."
+
+#: rememberthemilk-plasmoid.cpp:373
+msgid "Filter Tasks..."
+msgstr "过滤任务..."
+
+#: rememberthemilk-plasmoid.cpp:379
+msgid "Create New Task..."
+msgstr "创建新任务..."
+
+#: rememberthemilk-plasmoid.cpp:415
+msgid "Authentication to Remember The Milk needed"
+msgstr "需要 Remember The Milk 验证"
+
+#: taskeditor.cpp:52
+msgid "Name:"
+msgstr "名称："
+
+#: taskeditor.cpp:54
+msgid "Due:"
+msgstr "预期："
+
+#: taskeditor.cpp:56
+msgid "Tags:"
+msgstr "标记："
+
+#: taskeditor.cpp:58
+msgid "Priority:"
+msgstr "优先级："
+
+#: taskeditor.cpp:60
+msgid "Complete:"
+msgstr "完成："
+
+#: taskeditor.cpp:63
+msgid "Top Priority"
+msgstr "高优先级"
+
+#: taskeditor.cpp:63
+msgid "Medium Priority"
+msgstr "中优先级"
+
+#: taskeditor.cpp:63
+msgid "Low Priority"
+msgstr "低优先级"
+
+#: taskeditor.cpp:63
+msgid "No Priority"
+msgstr "无优先级"
+
+#: taskeditor.cpp:74
+msgid "Update Task"
+msgstr "更新任务"
+
+#: taskeditor.cpp:77
+msgid "Discard Changes"
+msgstr "丢弃更改"
+
+#: taskitemdelegate.cpp:45
+msgid "Tags: "
+msgstr "标记："
+
+#: taskmodel.cpp:80
+msgid "Top Priority:"
+msgstr "高优先级："
+
+#: taskmodel.cpp:81
+msgid "Medium Priority:"
+msgstr "中优先级："
+
+#: taskmodel.cpp:82
+msgid "Low Priority:"
+msgstr "低优先级："
+
+#: taskmodel.cpp:83
+msgid "No Priority:"
+msgstr "无优先级："
+
+#: taskmodel.cpp:86
+msgid "Overdue"
+msgstr "过期"
+
+#: taskmodel.cpp:87
+msgid "Today"
+msgstr "今天"
+
+#: taskmodel.cpp:88
+msgid "Tomorrow"
+msgstr "明天"
+
+#: taskmodel.cpp:89
+msgid "Anytime"
+msgstr "任何时间"
+
+#~ msgid "Authenticate as:"
+#~ msgstr "验证为："
+
+#~ msgid "Username:"
+#~ msgstr "用户名："
+
+#~ msgid "Password:"
+#~ msgstr "密码："
+
+#~ msgid "Enter your Remember The Milk password here."
+#~ msgstr "在此输入您的 Remember The Milk 密码。"

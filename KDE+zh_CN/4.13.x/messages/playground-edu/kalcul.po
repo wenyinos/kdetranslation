@@ -1,0 +1,699 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 06:58+0200\n"
+"PO-Revision-Date: 2011-06-06 10:45+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: advancedui.ui:46
+msgid "Set the maximum for the second term"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_MaxSecond)
+#: advancedui.ui:61
+msgid "The maximum value for the second term"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_MaxSecond)
+#: advancedui.ui:64
+msgid ""
+"Setting the maximum for the second term to N will ensure that the second "
+"term will be no greater than N.  For example, if it is set to 10, the second "
+"term will be a number between 0 and 10 inclusive. Default is 10."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: advancedui.ui:102
+msgid "Set the maximum for the first term"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_MaxFirst)
+#: advancedui.ui:117
+msgid "The maximum value for the first term"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_MaxFirst)
+#: advancedui.ui:120
+msgid ""
+"Set the Maximum for the first term to N will ensure that the first term will "
+"not be bigger than N. For example, if it is set to 10, the first term will "
+"be a number between 0 and 10. Default is 10."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: advancedui.ui:174
+msgid "Set the maximum for the result (if you want)"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_Max)
+#: advancedui.ui:189
+msgid "0 means the result will not be limited"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_Max)
+#: advancedui.ui:192
+msgid ""
+"You can set the maximum you want for the result. For example, a child aged 6 "
+"will start learning additions up to a result equal to 5 then 6 then 7 and so "
+"on. Setting this value to N will ensure the random operation will not have a "
+"result bigger than N. Setting this value to 0 will set no limit."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_2)
+#: exercisechooserui.ui:34
+msgid "Test with a preset level you choose"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: exercisechooserui.ui:37
+msgid "Level"
+msgstr "级别"
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox)
+#: exercisechooserui.ui:73
+msgid "Timed test with random questions of a specified type"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: exercisechooserui.ui:76
+msgid "Practice"
+msgstr "练习"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton)
+#: exercisechooserui.ui:106
+msgid "Addition"
+msgstr "相加"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
+#: exercisechooserui.ui:113
+msgid "Subtraction"
+msgstr "相减"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, exercisedialog_baseui)
+#: exercisedialog_baseui.ui:16 kalcul.cpp:80
+msgid "Exercise Dialog"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: exercisedialog_baseui.ui:65
+msgid "What type of exercise do you want?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, practiceButton)
+#: exercisedialog_baseui.ui:116
+msgid "&Practice"
+msgstr "练习(&P)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: exercisedialog_baseui.ui:139
+msgid "Timed test with <br>random questions of a specified type"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, levelButton)
+#: exercisedialog_baseui.ui:177
+msgid "&Level"
+msgstr "级别(&L)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: exercisedialog_baseui.ui:200
+msgid "Timed test with <br>a level you choose"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, cancelButton1)
+#. i18n: ectx: property (text), widget (QPushButton, cancelButton2)
+#: exercisedialog_baseui.ui:236 exercisedialog_baseui.ui:538
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox3)
+#: exercisedialog_baseui.ui:284
+msgid "Information"
+msgstr "信息"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: exercisedialog_baseui.ui:303
+msgid "Type:"
+msgstr "类型："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: exercisedialog_baseui.ui:310
+msgid "Questions:"
+msgstr "问题："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: exercisedialog_baseui.ui:317
+msgid "Difficulty:"
+msgstr "难度："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#: exercisedialog_baseui.ui:338
+msgid "Description:"
+msgstr "描述："
+
+#. i18n: ectx: property (text), widget (QPushButton, goButton)
+#: exercisedialog_baseui.ui:381
+msgid "&Go!"
+msgstr "开始！(&G)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#: exercisedialog_baseui.ui:429
+msgid "Which operation do you want to practice?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, practiceSubtractionButton)
+#: exercisedialog_baseui.ui:460
+msgid "&Subtraction"
+msgstr "减法(&S)："
+
+#. i18n: ectx: property (text), widget (QPushButton, practiceMultiplicationButton)
+#: exercisedialog_baseui.ui:467
+msgid "&Multiplication"
+msgstr "乘法(&M)"
+
+#. i18n: ectx: property (text), widget (QPushButton, practiceAdditionButton)
+#: exercisedialog_baseui.ui:474
+msgid "&Addition"
+msgstr "相加(&A)"
+
+#. i18n: ectx: property (text), widget (QPushButton, practiceDivisionButton)
+#: exercisedialog_baseui.ui:481
+msgid "&Division"
+msgstr "除法(&D)"
+
+#: kalcul.cpp:69 kalculview.cpp:111 kalculview.cpp:233 kalculview.cpp:253
+#: kalculview.cpp:369
+#, kde-format
+msgid "User: %1"
+msgstr "用户: %1"
+
+#: kalcul.cpp:85
+msgid "Level Editor"
+msgstr "级别编辑器"
+
+#: kalcul.cpp:103
+msgid "General"
+msgstr "常规"
+
+#: kalcul.cpp:104
+msgid "Timer"
+msgstr "计时器"
+
+#: kalcul.cpp:107
+msgid "Advanced"
+msgstr "高级"
+
+#: kalcul.cpp:154
+msgid "foo"
+msgstr "foo"
+
+#. i18n: ectx: label, entry (NameLine), group (General)
+#: kalcul.kcfg:10
+msgid "user name"
+msgstr "用户名"
+
+#. i18n: ectx: label, entry (NumOp), group (General)
+#: kalcul.kcfg:14
+msgid "number of proposed questions"
+msgstr ""
+
+#. i18n: ectx: label, entry (TimerBool), group (Timer)
+#: kalcul.kcfg:21
+msgid "Use a timer or not"
+msgstr ""
+
+#. i18n: ectx: label, entry (Time), group (Timer)
+#: kalcul.kcfg:25
+msgid "Set the timer duration"
+msgstr ""
+
+#. i18n: ectx: label, entry (Max), group (Operations)
+#: kalcul.kcfg:32
+msgid "Number the result should not be above"
+msgstr ""
+
+#. i18n: ectx: label, entry (Operation), group (Operations)
+#: kalcul.kcfg:36
+msgid "Select the type of operation"
+msgstr ""
+
+#. i18n: ectx: label, entry (MaxFirst), group (Operations)
+#: kalcul.kcfg:46
+msgid "Set the maximum value for the first term"
+msgstr ""
+
+#. i18n: ectx: label, entry (MaxSecond), group (Operations)
+#: kalcul.kcfg:50
+msgid "Set the maximum value for the second term"
+msgstr ""
+
+#. i18n: ectx: label, entry (MinInput), group (Operations)
+#: kalcul.kcfg:57
+msgid "Set the value for the minimum term of the sequence"
+msgstr ""
+
+#. i18n: ectx: label, entry (MaxInput), group (Operations)
+#: kalcul.kcfg:61
+msgid "Set the value for the maximum term of the sequence"
+msgstr ""
+
+#. i18n: ectx: Menu (tools)
+#: kalcului.rc:5
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#: kalculview.cpp:59
+msgid "Click on the Start button"
+msgstr ""
+
+#: kalculview.cpp:197
+#, kde-format
+msgid "%1 + %2"
+msgstr "%1 + %2"
+
+#: kalculview.cpp:199
+#, kde-format
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: kalculview.cpp:201
+#, kde-format
+msgid "%1 * %2"
+msgstr "%1 * %2"
+
+#: kalculview.cpp:203
+#, kde-format
+msgid "%1 / %2"
+msgstr "%1 / %2"
+
+#: kalculview.cpp:205
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: kalculview.cpp:218
+msgid "Wrong answer."
+msgstr "错误的答案。"
+
+#: kalculview.cpp:219
+msgid "Correct Answer:"
+msgstr "正确答案："
+
+#: kalculview.cpp:229
+msgid "Correct!"
+msgstr "正确！"
+
+#: kalculview.cpp:234 kalculview.cpp:370
+#, kde-format
+msgid "Correct: %1"
+msgstr "正确： %1"
+
+#: kalculview.cpp:235 kalculview.cpp:371
+#, kde-format
+msgid " Total: %1"
+msgstr " 总共： %1"
+
+#: kalculview.cpp:276
+msgid "Stop"
+msgstr "停止"
+
+#: kalculview.cpp:277
+msgid "Ready"
+msgstr "就绪"
+
+#: kalculview.cpp:292
+msgid "Pause"
+msgstr "暂停"
+
+#: kalculview.cpp:298
+msgid "Continue"
+msgstr "继续"
+
+#. i18n: ectx: property (text), widget (QPushButton, startButton)
+#: kalculview.cpp:364 kalculview_baseui.ui:293
+msgid "Start"
+msgstr "开始"
+
+#: kalculview.cpp:379
+#, kde-format
+msgid "You have %1 answers right out of %2"
+msgstr ""
+
+#: kalculview.cpp:383
+msgid "Your answer: "
+msgstr "您的答案："
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, kalculview_baseui)
+#: kalculview_baseui.ui:13
+msgid "kalcul_base"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: kalculview_baseui.ui:186
+#, fuzzy
+#| msgid "Questions:"
+msgid "Questions answered"
+msgstr "问题："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: kalculview_baseui.ui:211
+msgid "Correct answers"
+msgstr "正确答案"
+
+#. i18n: ectx: property (text), widget (QPushButton, pauseButton)
+#: kalculview_baseui.ui:361
+msgid "&Pause"
+msgstr "暂停(&P)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: leveleditor_baseui.ui:46
+msgid "D&escription:"
+msgstr "描述(&E)："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, nameLineEdit)
+#: leveleditor_baseui.ui:56
+msgid "Describe the level characteristics"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, nameLineEdit)
+#: leveleditor_baseui.ui:59
+msgid ""
+"Describe the level characteristics here, for example: \"Grade 3 - Easy\", "
+"\"Year 6 - Medium\", or \"Class number 102 - Additions up to 10\"."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: leveleditor_baseui.ui:68
+msgid "Options"
+msgstr "选项"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: leveleditor_baseui.ui:88
+msgid "Diffic&ulty level:"
+msgstr "难度等级(&U)："
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, difficultyComboBox)
+#: leveleditor_baseui.ui:98
+#, fuzzy
+#| msgid "Diffic&ulty level:"
+msgid "Choose the difficulty level"
+msgstr "难度等级(&U)："
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, difficultyComboBox)
+#: leveleditor_baseui.ui:101
+msgid ""
+"The difficulty level is left to the parent/teacher appreciation regarding "
+"the pupil age."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: leveleditor_baseui.ui:116
+msgid "T&ype:"
+msgstr "类型(&Y)："
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, typeComboBox)
+#: leveleditor_baseui.ui:126
+msgid "Choose the type of operation"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, typeComboBox)
+#: leveleditor_baseui.ui:129
+msgid ""
+"Choose the type of operation you want this level to be. Mixed is a mixed of "
+"each operations, for example: 2  + 4 - 5"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: leveleditor_baseui.ui:139
+msgid "Question"
+msgstr "问题"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addQuestionButton)
+#: leveleditor_baseui.ui:167
+msgid "Click here to add a question"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, addQuestionButton)
+#: leveleditor_baseui.ui:170
+msgid ""
+"Clicking here will get a line in the field below and double-clicking this "
+"line will allow you to enter your question."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, addQuestionButton)
+#: leveleditor_baseui.ui:173
+#, fuzzy
+#| msgid "Question"
+msgid "Add &Question"
+msgstr "问题"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, deleteQuestionButton)
+#: leveleditor_baseui.ui:180
+msgid "Delete the selected line"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, deleteQuestionButton)
+#: leveleditor_baseui.ui:183
+msgid "Clicking this button will delete the selected line."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteQuestionButton)
+#: leveleditor_baseui.ui:186
+#, fuzzy
+#| msgid "Question"
+msgid "&Delete Question"
+msgstr "问题"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, newLevelButton)
+#: leveleditor_baseui.ui:219
+msgid "Create a new level"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, newLevelButton)
+#: leveleditor_baseui.ui:222
+msgid ""
+"Create a new level. Does not save the current level and empty all the fields."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, newLevelButton)
+#: leveleditor_baseui.ui:225
+msgid "&New"
+msgstr "新建(&N)"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, openLevelButton)
+#: leveleditor_baseui.ui:240
+msgid "Open a new level file to edit it"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, openLevelButton)
+#: leveleditor_baseui.ui:243
+msgid "Open a level file (with the .kalcul extension) to allow you to edit it."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, openLevelButton)
+#: leveleditor_baseui.ui:246
+msgid "&Open"
+msgstr "打开(&O)"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, saveLevelButton)
+#: leveleditor_baseui.ui:277
+msgid "Save the current test."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, saveLevelButton)
+#: leveleditor_baseui.ui:280
+msgid ""
+"Save the current test, open a file dialog and propose you to save the level "
+"with the .kalcul extension."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, saveLevelButton)
+#: leveleditor_baseui.ui:283
+msgid "Sa&ve"
+msgstr "保存(&V)"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, closeButton)
+#: leveleditor_baseui.ui:298
+msgid "Close this dialog"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, closeButton)
+#: leveleditor_baseui.ui:301
+msgid "Close the dialog without saving it."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, closeButton)
+#: leveleditor_baseui.ui:304
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#: main.cpp:29
+msgid "A KDE math application for children aged 6 and more"
+msgstr ""
+
+#: main.cpp:35
+msgid "Kalcul"
+msgstr "Kalcul"
+
+#: main.cpp:36
+msgid "(C) 2005 The Kalcul Team"
+msgstr "(C) 2005 The Kalcul Team"
+
+#: main.cpp:37
+msgid "Anne-Marie Mahfouf"
+msgstr "Anne-Marie Mahfouf"
+
+#: main.cpp:37 main.cpp:39
+msgid "Developer"
+msgstr "开发者"
+
+#: main.cpp:38
+msgid "Michael Goettsche"
+msgstr "Michael Goettsche"
+
+#: main.cpp:40
+msgid "Zoran Karavla"
+msgstr "Zoran Karavla"
+
+#: main.cpp:41
+msgid "Icon"
+msgstr "图标"
+
+#: main.cpp:45
+msgid "Document to open"
+msgstr "要打开的文档"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: missing.ui:24
+msgid "Choose the range for the sequence"
+msgstr ""
+
+#. i18n: ectx: property (label), widget (KIntNumInput)
+#: missing.ui:35
+msgid "Minimum"
+msgstr "最小"
+
+#. i18n: ectx: property (label), widget (KIntNumInput)
+#: missing.ui:43
+msgid "Maximum"
+msgstr "最大"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: prefs_baseui.ui:41
+msgid "User name"
+msgstr "用户名"
+
+#. i18n: ectx: property (toolTip), widget (KRestrictedLine, kcfg_NameLine)
+#: prefs_baseui.ui:48
+msgid "Enter the username"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KRestrictedLine, kcfg_NameLine)
+#: prefs_baseui.ui:52
+msgid ""
+"Enter here the user name instead of anonymous.<br>\n"
+"The user name will be used to saved the results."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: prefs_baseui.ui:78
+msgid ""
+"Number of questions\n"
+"in the test"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_NumOp)
+#: prefs_baseui.ui:85
+msgid "Set the number of questions in practice tests"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_NumOp)
+#: prefs_baseui.ui:88
+msgid "Set the number of questions for the practice tests."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, resultsui)
+#: resultsui.ui:13
+msgid "Test results"
+msgstr "测试结果"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: resultsui.ui:60
+msgid ""
+"<p align=\"center\"><b><font size=\"+2\" face=\"Arial\">Your results</font></"
+"b></p>"
+msgstr ""
+"<p align=\"center\"><b><font size=\"+2\" face=\"Arial\">你的结果</font></b></"
+"p>"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonHelp)
+#: resultsui.ui:233
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: property (shortcut), widget (QPushButton, buttonHelp)
+#: resultsui.ui:236
+msgid "F1"
+msgstr "F1"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonOk)
+#: resultsui.ui:262
+msgid "&OK"
+msgstr "确定(&O)"
+
+#: timer.cpp:37 timer.cpp:51
+msgid "minutes"
+msgstr "分钟"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, timer_baseui)
+#: timer_baseui.ui:16
+msgid "timer"
+msgstr "计时器"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_Time)
+#: timer_baseui.ui:31
+msgid "Set the timer (in minutes)"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QSlider, kcfg_Time)
+#: timer_baseui.ui:34
+msgid "Only used if Use a timer is checked"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_TimerBool)
+#: timer_baseui.ui:114
+msgid "Check this if you want a timed test"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_TimerBool)
+#: timer_baseui.ui:117
+msgid ""
+"If you check Use a Timer, the test will be timed, i.e. it will stop after "
+"the time is all finished.<br>Set the time for the Timer using the cursor "
+"below."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TimerBool)
+#: timer_baseui.ui:120
+msgid "Use a &Timer"
+msgstr ""

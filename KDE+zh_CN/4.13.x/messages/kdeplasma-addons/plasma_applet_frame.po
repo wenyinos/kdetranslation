@@ -1,0 +1,172 @@
+# translation of plasma_applet_frame.po to 简体中文
+# Copyright (C) 2007, 2008, 2009 Free Software Foundation, Inc.
+#
+# Liang Qi <cavendish.qi@gmail.com>, 2007.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_frame\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:42+0200\n"
+"PO-Revision-Date: 2011-06-17 21:32+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: appearanceSettings.ui:17
+msgid "Rounded corners:"
+msgstr "圆形边角："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: appearanceSettings.ui:30
+msgid "Shadow:"
+msgstr "阴影："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: appearanceSettings.ui:59
+msgid "Frame:"
+msgstr "边框："
+
+#. i18n: ectx: property (text), widget (QLabel, changeFrameColorLabel)
+#: appearanceSettings.ui:88
+msgid "Frame color:"
+msgstr "边框颜色："
+
+#: configdialog.cpp:51
+msgid ""
+"This picture of a monitor contains a preview of the picture you currently "
+"have in your frame."
+msgstr "这里显示的是像框内的图片预览。"
+
+#: frame.cpp:128
+msgid "&Open Picture..."
+msgstr "打开图片(&O)..."
+
+#: frame.cpp:129
+msgid "Set as Wallpaper Image"
+msgstr "设为壁纸"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, pictureComboBox)
+#: frame.cpp:562 imageSettings.ui:21
+msgid "Image"
+msgstr "单张图像"
+
+#: frame.cpp:563
+msgid "Appearance"
+msgstr "外观"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, pictureComboBox)
+#: imageSettings.ui:26
+msgid "Slideshow"
+msgstr "幻灯片放映"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, pictureComboBox)
+#: imageSettings.ui:31
+msgid "Picture of the day"
+msgstr "今日图片"
+
+#. i18n: ectx: property (text), widget (QLabel, picLabel)
+#: imageSettings.ui:54
+msgid "Picture:"
+msgstr "图片："
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, picRequester)
+#: imageSettings.ui:64
+msgid "*.png *.jpeg *.jpg *.svg *.svgz *.bmp *.tif"
+msgstr "*.png *.jpeg *.jpg *.svg *.svgz *.bmp *.tif"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: imageSettings.ui:137
+msgid "Auto-update:"
+msgstr "自动更新："
+
+#. i18n: ectx: property (toolTip), widget (QTimeEdit, autoUpdateTime)
+#: imageSettings.ui:145
+msgid ""
+"Updates the picture from the source in the given time.\n"
+"Useful if you want a live cam or weather data to be up to date."
+msgstr ""
+"在给定时间从源中更新图片。\n"
+"如果您想要获得实时摄像头或者实时天气数据的话，可以使用此功能。"
+
+#. i18n: ectx: property (specialValueText), widget (QTimeEdit, autoUpdateTime)
+#: imageSettings.ui:148
+msgid "never"
+msgstr "从不"
+
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, autoUpdateTime)
+#: imageSettings.ui:151
+msgid "hh'h' mm'min'"
+msgstr "hh'小时' mm'分'"
+
+#. i18n: ectx: property (text), widget (KPushButton, addDirButton)
+#: imageSettings.ui:206
+msgid "&Add Folder..."
+msgstr "添加文件夹(&A)..."
+
+#. i18n: ectx: property (text), widget (KPushButton, removeDirButton)
+#: imageSettings.ui:216
+msgid "&Remove Folder"
+msgstr "删除文件夹(&R)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: imageSettings.ui:254
+msgid "Include subfolders:"
+msgstr "包含子文件夹："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: imageSettings.ui:274
+msgid "Randomize:"
+msgstr "随机："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: imageSettings.ui:294
+msgid "Change images every:"
+msgstr "图片更改间隔："
+
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, slideShowDelay)
+#: imageSettings.ui:320
+msgctxt ""
+"(qtdt-format) Please do not change the quotes (') and translate only the "
+"content of the quotes."
+msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
+msgstr "hh '小时' mm '分' ss '秒'"
+
+#. i18n: ectx: property (text), widget (QLabel, selectPoTDlabel)
+#: imageSettings.ui:353
+msgid "Select Picture of the day source:"
+msgstr "选择今日图片的来源："
+
+#: picture.cpp:94
+msgid "Loading image..."
+msgstr "正在装入图像..."
+
+#: picture.cpp:98
+msgctxt "Info"
+msgid "Dropped folder is empty. Please drop a folder with image(s)"
+msgstr "拖放的文件夹为空。请拖放带有图像的文件夹"
+
+#: picture.cpp:101
+msgctxt "Info"
+msgid "Put your photo here or drop a folder to start a slideshow"
+msgstr "将您的照片拖放到这里，或拖放一个文件夹开始幻灯放映"
+
+#: picture.cpp:157
+#, kde-format
+msgid "Error loading image: %1"
+msgstr "装入图像时出错：%1"
+
+#: picture.cpp:173
+msgid "Error loading image. Image was probably deleted."
+msgstr "装入图像时出错。图像可能已经删除。"
+
+#: slideshow.cpp:227
+msgid "No Picture from this Provider."
+msgstr "此提供者没有图片。"

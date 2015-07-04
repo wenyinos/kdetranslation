@@ -1,0 +1,6393 @@
+# translation of kplatoui.po to 简体中文
+# Copyright (C) 2002,2003, 2008 Free Software Foundation, Inc.
+#
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Liu Songhe <jackliu9999@263.net>, 2003.
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2011.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kplatoui\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-25 01:26+0000\n"
+"PO-Revision-Date: 2011-11-27 11:02+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: kernel/KPlatoXmlLoaderBase.cpp:1102 kernel/kptdocuments.cpp:292
+#, kde-format
+msgid "Document loaded, URL=%1"
+msgstr "文档已装入，URL=%1"
+
+#: kernel/kptaccount.cpp:857 models/kptresourcemodel.cpp:457
+msgid "Account"
+msgstr "账户"
+
+#: kernel/kptcalendar.h:260 kernel/kptcalendar.h:271
+#: ui/kptcalendareditor.cpp:204 ui/kptcalendareditor.cpp:642
+msgid "Undefined"
+msgstr "未定义"
+
+#: kernel/kptcalendar.h:262 kernel/kptcalendar.h:271
+#: ui/kptcalendareditor.cpp:202 ui/kptcalendareditor.cpp:640
+msgid "Non-working"
+msgstr "非工作"
+
+#: kernel/kptcalendar.h:264 kernel/kptcalendar.h:271
+msgid "Working"
+msgstr "工作"
+
+#: kernel/kptdocuments.cpp:76 kernel/kptdocuments.cpp:89
+msgctxt "@item"
+msgid "Unknown"
+msgstr "未知"
+
+#: kernel/kptdocuments.cpp:77
+msgctxt "@item The produced document"
+msgid "Product"
+msgstr "产品"
+
+#: kernel/kptdocuments.cpp:78
+msgctxt "@item Document is used for refrence"
+msgid "Reference"
+msgstr "引用"
+
+#: kernel/kptdocuments.cpp:90
+msgctxt "@item Send a copy of the document"
+msgid "Copy"
+msgstr "复制"
+
+#: kernel/kptdocuments.cpp:91
+msgctxt "@item Send the reference (url) of the document"
+msgid "Reference"
+msgstr "引用"
+
+#: kernel/kptduration.cpp:189
+#, kde-format
+msgctxt "<hours>h:<minutes>m"
+msgid "%1h:%2m"
+msgstr "%1小时:%2分"
+
+#: kernel/kptduration.cpp:216
+#, kde-format
+msgctxt "<days>d <hours>h:<minutes>m"
+msgid "%1d %2h:%3m"
+msgstr "%1天%2小时:%3分"
+
+#: kernel/kptduration.cpp:277
+msgctxt "Year. Note: Letter(s) only!"
+msgid "Y"
+msgstr "Y"
+
+#: kernel/kptduration.cpp:278
+msgctxt "Month. Note: Letter(s) only!"
+msgid "M"
+msgstr "M"
+
+#: kernel/kptduration.cpp:279
+msgctxt "Week. Note: Letter(s) only!"
+msgid "w"
+msgstr "w"
+
+#: kernel/kptduration.cpp:280
+msgctxt "Day. Note: Letter(s) only!"
+msgid "d"
+msgstr "d"
+
+#: kernel/kptduration.cpp:281
+msgctxt "Hour. Note: Letter(s) only!"
+msgid "h"
+msgstr "h"
+
+#: kernel/kptduration.cpp:282
+msgctxt "Minute. Note: Letter(s) only!"
+msgid "m"
+msgstr "m"
+
+#: kernel/kptduration.cpp:283
+msgctxt "Second. Note: Letter(s) only!"
+msgid "s"
+msgstr "s"
+
+#: kernel/kptduration.cpp:284
+msgctxt "Millisecond. Note: Letter(s) only!"
+msgid "ms"
+msgstr "毫秒"
+
+#: kernel/kptglobal.cpp:30
+msgid "Deleted"
+msgstr "已删除"
+
+#: kernel/kptglobal.cpp:32 kernel/kptnode.cpp:605 kernel/kptschedule.cpp:1826
+#: models/kptschedulemodel.cpp:758
+msgid "Not scheduled"
+msgstr "未计划"
+
+#: kernel/kptglobal.cpp:34 models/kptschedulemodel.cpp:758
+#: models/kptschedulemodel.cpp:902
+msgid "Scheduled"
+msgstr "已计划"
+
+#: kernel/kptglobal.cpp:36
+#, fuzzy
+#| msgid "Resource type:"
+msgid "Resource overbooked"
+msgstr "资源类型："
+
+#: kernel/kptglobal.cpp:38
+msgid "Resource not available"
+msgstr "资源不可用"
+
+#: kernel/kptglobal.cpp:40
+msgid "No resource allocated"
+msgstr ""
+
+#: kernel/kptglobal.cpp:42
+msgid "Cannot fulfill constraints"
+msgstr ""
+
+#: kernel/kptglobal.cpp:44
+msgid "Effort not met"
+msgstr ""
+
+#: kernel/kptglobal.cpp:46
+#, fuzzy
+#| msgid "Scheduling Log"
+msgid "Scheduling error"
+msgstr "计划日志"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, risk)
+#: kernel/kptnode.cpp:139 kernel/kptnode.cpp:1632 kernel/kpttask.cpp:3749
+#: models/kptnodeitemmodel.cpp:401 models/kptnodeitemmodel.cpp:417
+#: models/kptnodeitemmodel.cpp:427 models/kptnodeitemmodel.cpp:625
+#: models/kptnodeitemmodel.cpp:642 models/kptnodeitemmodel.cpp:660
+#: models/kptnodeitemmodel.cpp:678 models/kptnodeitemmodel.cpp:713
+#: models/kptnodeitemmodel.cpp:730 models/kptresourceallocationmodel.cpp:838
+#: models/kptresourcemodel.cpp:211 models/kptresourcemodel.cpp:243
+#: models/kptresourcemodel.cpp:364 models/kptresourcemodel.cpp:368
+#: models/kptresourcemodel.cpp:377 models/kptschedulemodel.cpp:529
+#: models/kpttreecombobox.cpp:124 ui/kptpertresult.cpp:139
+#: ui/kptpertresult.cpp:494 ui/kptresourcedialog.cpp:297
+#: ui/kptresourcedialog.cpp:323 ui/kpttaskcostpanel.cpp:50
+#: ui/kpttaskgeneralpanel.cpp:78 ui/kpttaskgeneralpanelbase.ui:351
+#: ui/reports/reportview.cpp:1679
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (title), widget (QGroupBox, projectGroupBox)
+#: kernel/kptnode.cpp:140 models/kptpertcpmmodel.cpp:423
+#: models/kptresourceappointmentsmodel.cpp:1220 ui/kptscheduleeditor.ui:19
+msgid "Project"
+msgstr "项目"
+
+#: kernel/kptnode.cpp:141
+msgid "Sub-Project"
+msgstr "子项目"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidgetTaskResult)
+#: kernel/kptnode.cpp:142 ui/kptscheduleeditor.ui:164
+msgid "Task"
+msgstr "任务"
+
+#: kernel/kptnode.cpp:143
+msgid "Milestone"
+msgstr "里程碑"
+
+#: kernel/kptnode.cpp:144
+msgid "Periodic"
+msgstr ""
+
+#: kernel/kptnode.cpp:145
+msgid "Summary"
+msgstr "摘要"
+
+#: kernel/kptnode.cpp:711
+msgid "As Soon As Possible"
+msgstr "尽可能早"
+
+#: kernel/kptnode.cpp:712
+msgid "As Late As Possible"
+msgstr "尽可能晚"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, scheduleType)
+#: kernel/kptnode.cpp:713 ui/kpttaskgeneralpanelbase.ui:192
+msgid "Must Start On"
+msgstr "必须开始于"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, scheduleType)
+#: kernel/kptnode.cpp:714 ui/kpttaskgeneralpanelbase.ui:197
+msgid "Must Finish On"
+msgstr "必须开始于"
+
+#: kernel/kptnode.cpp:715
+msgid "Start Not Earlier"
+msgstr "开始不早于"
+
+#: kernel/kptnode.cpp:716
+msgid "Finish Not Later"
+msgstr "完成不晚于"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, scheduleType)
+#: kernel/kptnode.cpp:717 ui/kpttaskgeneralpanelbase.ui:212
+msgid "Fixed Interval"
+msgstr "固定间隔"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, estimateType)
+#. i18n: ectx: property (title), widget (QGroupBox, ui_effort)
+#: kernel/kptnode.cpp:1599 ui/kptperformancestatusviewsettingspanel.ui:142
+#: ui/kpttaskgeneralpanelbase.ui:291
+msgid "Effort"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, estimateType)
+#: kernel/kptnode.cpp:1600 ui/kpttaskgeneralpanelbase.ui:296
+msgid "Duration"
+msgstr "期限"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, risk)
+#: kernel/kptnode.cpp:1633 ui/kpttaskgeneralpanelbase.ui:356
+msgid "Low"
+msgstr "低"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, risk)
+#: kernel/kptnode.cpp:1634 ui/kpttaskgeneralpanelbase.ui:361
+msgid "High"
+msgstr "高"
+
+#: kernel/kptproject.cpp:171 kernel/kptproject.cpp:277
+#: kernel/kptproject.cpp:307
+#, fuzzy
+msgid "Init"
+msgstr "直到："
+
+#: kernel/kptproject.cpp:172
+#, kde-format
+msgid "Schedule project from: %1"
+msgstr ""
+
+#: kernel/kptproject.cpp:177 kernel/kptproject.cpp:283
+#: kernel/kptproject.cpp:317
+msgctxt "Schedule project forward"
+msgid "Forward"
+msgstr "前进"
+
+#: kernel/kptproject.cpp:178
+msgid "Calculate finish"
+msgstr "计算完成"
+
+#: kernel/kptproject.cpp:183 kernel/kptproject.cpp:289
+#: kernel/kptproject.cpp:311
+msgctxt "Schedule project backward"
+msgid "Backward"
+msgstr "后退"
+
+#: kernel/kptproject.cpp:184
+#, fuzzy
+#| msgid "Calculate"
+msgid "Calculate start"
+msgstr "计算"
+
+#: kernel/kptproject.cpp:187 kernel/kptproject.cpp:292
+#: kernel/kptproject.cpp:321
+msgid "Schedule"
+msgstr "计划"
+
+#: kernel/kptproject.cpp:188 kernel/kptproject.cpp:293
+msgid "Schedule tasks forward"
+msgstr ""
+
+#: kernel/kptproject.cpp:190 kernel/kptproject.cpp:296
+#, kde-format
+msgid "Scheduled finish: %1"
+msgstr "计划完成：%1"
+
+#: kernel/kptproject.cpp:192 kernel/kptproject.cpp:299
+#, kde-format
+msgid "Could not finish project in time: %1"
+msgstr ""
+
+#: kernel/kptproject.cpp:194 kernel/kptproject.cpp:301
+#, kde-format
+msgid "Finished project exactly on time: %1"
+msgstr ""
+
+#: kernel/kptproject.cpp:196 kernel/kptproject.cpp:303
+#, kde-format
+msgid "Finished project before time: %1"
+msgstr ""
+
+#: kernel/kptproject.cpp:278
+#, kde-format
+msgid "Schedule project forward from: %1"
+msgstr ""
+
+#: kernel/kptproject.cpp:284 kernel/kptproject.cpp:318
+#, fuzzy
+#| msgid "Calculate"
+msgid "Calculate late finish"
+msgstr "计算"
+
+#: kernel/kptproject.cpp:287 kernel/kptproject.cpp:320
+#, fuzzy, kde-format
+msgid "Late finish calculated: %1"
+msgstr "开始日期："
+
+#: kernel/kptproject.cpp:290 kernel/kptproject.cpp:312
+#, fuzzy
+#| msgid "Calculate"
+msgid "Calculate early start"
+msgstr "计算"
+
+#: kernel/kptproject.cpp:308
+#, kde-format
+msgid "Schedule project backward from: %1"
+msgstr ""
+
+#: kernel/kptproject.cpp:315
+#, fuzzy, kde-format
+msgid "Early start calculated: %1"
+msgstr "开始日期："
+
+#: kernel/kptproject.cpp:322
+msgid "Schedule tasks backward"
+msgstr ""
+
+#: kernel/kptproject.cpp:335
+msgid "Failed to finish project within target time"
+msgstr ""
+
+#: kernel/kptproject.cpp:338
+#, kde-format
+msgid "Scheduled start: %1, target time: %2"
+msgstr ""
+
+#: kernel/kptproject.cpp:341
+#, kde-format
+msgid "Must start project early in order to finish in time: %1"
+msgstr ""
+
+#: kernel/kptproject.cpp:343
+#, kde-format
+msgid "Start project exactly on time: %1"
+msgstr ""
+
+#: kernel/kptproject.cpp:345
+#, kde-format
+msgid "Can start project later than time: %1"
+msgstr ""
+
+#: kernel/kptproject.cpp:349
+#, kde-format
+msgid "Calculation took: %1"
+msgstr ""
+
+#: kernel/kptproject.cpp:700
+msgid "Start calculating forward"
+msgstr ""
+
+#: kernel/kptproject.cpp:746
+#, fuzzy, kde-format
+msgid "Finished calculating forward: %1 ms"
+msgstr "开始日期："
+
+#: kernel/kptproject.cpp:764
+msgid "Start calculating backward"
+msgstr ""
+
+#: kernel/kptproject.cpp:810
+#, fuzzy, kde-format
+msgid "Finished calculating backward: %1 ms"
+msgstr "开始日期："
+
+#: kernel/kptproject.cpp:826
+#, fuzzy
+#| msgid "Scheduling Log"
+msgid "Start scheduling forward"
+msgstr "计划日志"
+
+#: kernel/kptproject.cpp:846
+#, kde-format
+msgid "Finished scheduling forward: %1 ms"
+msgstr ""
+
+#: kernel/kptproject.cpp:865
+msgid "Start scheduling backward"
+msgstr ""
+
+#: kernel/kptproject.cpp:885
+#, kde-format
+msgid "Finished scheduling backward: %1 ms"
+msgstr ""
+
+#: kernel/kptproject.cpp:2507
+msgid "Plan"
+msgstr "计划"
+
+#. i18n: ectx: property (text), widget (QRadioButton, bFinishStart)
+#: kernel/kptrelation.cpp:87 ui/relationpanel.ui:93
+msgid "Finish-Start"
+msgstr "完成-开始"
+
+#. i18n: ectx: property (text), widget (QRadioButton, bFinishFinish)
+#: kernel/kptrelation.cpp:88 ui/relationpanel.ui:100
+msgid "Finish-Finish"
+msgstr "完成-完成"
+
+#. i18n: ectx: property (text), widget (QRadioButton, bStartStart)
+#: kernel/kptrelation.cpp:89 ui/relationpanel.ui:107
+msgid "Start-Start"
+msgstr "开始-开始"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, type)
+#: kernel/kptresource.cpp:123 ui/kptresourceassignmentview.cpp:82
+#: ui/resourcedialogbase.ui:175
+msgid "Work"
+msgstr "工作"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, type)
+#: kernel/kptresource.cpp:124 ui/kptresourceassignmentview.cpp:86
+#: ui/resourcedialogbase.ui:180
+msgid "Material"
+msgstr "材料"
+
+#: kernel/kptresource.cpp:444
+msgctxt "@item:inlistbox resource type"
+msgid "Work"
+msgstr "工作"
+
+#: kernel/kptresource.cpp:445
+msgctxt "@item:inlistbox resource type"
+msgid "Material"
+msgstr "材料"
+
+#: kernel/kptresource.cpp:446
+msgctxt "@item:inlistbox resource type"
+msgid "Team"
+msgstr "团队"
+
+#: kernel/kptresource.cpp:847
+msgid "Make appointments: Invalid time"
+msgstr "约会：无效时间"
+
+#: kernel/kptresource.cpp:852 kernel/kptresource.cpp:910
+#: kernel/kptresource.cpp:1143 kernel/kptresource.cpp:1213
+#, kde-format
+msgid "Resource %1 has no calendar defined"
+msgstr "资源 %1 没有定义日历"
+
+#: kernel/kptresource.cpp:874
+msgid "Make appointments: Node start time is not valid"
+msgstr "约会：节点开始时间无效"
+
+#: kernel/kptresource.cpp:878
+msgid "Make appointments: Node end time is not valid"
+msgstr "约会：节点结束时间无效"
+
+#: kernel/kptresource.cpp:917 kernel/kptresource.cpp:933
+#, kde-format
+msgid "Resource %1 not available in interval: %2 to %3"
+msgstr "资源 %1 在 %2 到 %3 不可用"
+
+#: kernel/kptresource.cpp:2548
+#, kde-format
+msgid "Could not match effort. Want: %1 got: %2"
+msgstr ""
+
+#: kernel/kptresource.cpp:2551
+#, fuzzy, kde-format
+msgid "Resource %1 available from %2 to %3"
+msgstr "资源不可用"
+
+#: kernel/kptschedule.cpp:156
+msgid "Expected"
+msgstr "期望"
+
+#: kernel/kptschedule.cpp:1495
+msgid "Info"
+msgstr "信息"
+
+#: kernel/kptschedule.cpp:1496
+msgid "Warning"
+msgstr "警告"
+
+#: kernel/kptschedule.cpp:1497 kernel/kptschedule.cpp:1830
+#: models/kptnodeitemmodel.cpp:1665 models/kptnodeitemmodel.cpp:1698
+#: models/kptnodeitemmodel.cpp:1731 models/kptnodeitemmodel.cpp:1764
+#: models/kptnodeitemmodel.cpp:1797 models/kptnodeitemmodel.cpp:1830
+#: models/kptnodeitemmodel.cpp:1863
+msgid "Error"
+msgstr "错误"
+
+#: kernel/kptschedule.cpp:1820
+msgid "Baselined"
+msgstr ""
+
+#: kernel/kptschedule.cpp:1823
+msgid "Scheduling"
+msgstr "调度中"
+
+#: kernel/kpttask.cpp:1136
+msgid "Calculate early finish "
+msgstr ""
+
+#: kernel/kpttask.cpp:1174 kernel/kpttask.cpp:1192 kernel/kpttask.cpp:1209
+#: kernel/kpttask.cpp:1232 kernel/kpttask.cpp:1258 kernel/kpttask.cpp:1265
+#: kernel/kpttask.cpp:1275 kernel/kpttask.cpp:1439 kernel/kpttask.cpp:1462
+#: kernel/kpttask.cpp:1477 kernel/kpttask.cpp:1500 kernel/kpttask.cpp:1509
+#: kernel/kpttask.cpp:1518 kernel/kpttask.cpp:1526
+#, kde-format
+msgctxt "1=type of constraint"
+msgid "%1: Failed to meet constraint"
+msgstr ""
+
+#: kernel/kpttask.cpp:1303 kernel/kpttask.cpp:1547 kernel/kpttask.cpp:1950
+#: kernel/kpttask.cpp:2307
+#, kde-format
+msgid "Resource %1 booked from %2 to %3"
+msgstr ""
+
+#: kernel/kpttask.cpp:1309
+#, kde-format
+msgid "Early finish calculated: %1"
+msgstr ""
+
+#: kernel/kpttask.cpp:1401
+#, fuzzy
+#| msgid "Calculate"
+msgid "Calculate late start"
+msgstr "计算"
+
+#: kernel/kpttask.cpp:1553
+#, fuzzy, kde-format
+msgid "Late start calculated: %1"
+msgstr "开始日期："
+
+#: kernel/kpttask.cpp:1642
+#, fuzzy, kde-format
+#| msgid "Schedule:"
+msgid "Start schedule forward: %1 "
+msgstr "计划："
+
+#: kernel/kpttask.cpp:1644
+#, kde-format
+msgid "Schedule from start %1"
+msgstr ""
+
+#: kernel/kpttask.cpp:1680 kernel/kpttask.cpp:1958 kernel/kpttask.cpp:2315
+#, fuzzy, kde-format
+#| msgid "Schedule:"
+msgid "Scheduled: %1 to %2"
+msgstr "计划："
+
+#: kernel/kpttask.cpp:1712
+#, kde-format
+msgid "%1: Scheduling failed using late finish, trying early finish instead."
+msgstr ""
+
+#: kernel/kpttask.cpp:1747 kernel/kpttask.cpp:1771 kernel/kpttask.cpp:1797
+#: kernel/kpttask.cpp:1821 kernel/kpttask.cpp:1839 kernel/kpttask.cpp:1898
+#: kernel/kpttask.cpp:1915 kernel/kpttask.cpp:1927 kernel/kpttask.cpp:2128
+#: kernel/kpttask.cpp:2147 kernel/kpttask.cpp:2169 kernel/kpttask.cpp:2185
+#: kernel/kpttask.cpp:2204 kernel/kpttask.cpp:2256 kernel/kpttask.cpp:2269
+#: kernel/kpttask.cpp:2286
+#, kde-format
+msgctxt "1=type of constraint"
+msgid "%1: Failed to meet constraint. Negative float=%2"
+msgstr ""
+
+#: kernel/kpttask.cpp:1859 kernel/kpttask.cpp:2222
+#, kde-format
+msgid "Effort not met. Estimate: %1, planned: %2"
+msgstr ""
+
+#: kernel/kpttask.cpp:1947 kernel/kpttask.cpp:2304
+msgid "Failed to schedule within project target time"
+msgstr ""
+
+#: kernel/kpttask.cpp:1953 kernel/kpttask.cpp:2310
+#, fuzzy
+msgid "Starting earlier than early start"
+msgstr "开始不早于"
+
+#: kernel/kpttask.cpp:1956 kernel/kpttask.cpp:2313
+#, fuzzy
+msgid "Finishing later than late finish"
+msgstr "完成不晚于"
+
+#: kernel/kpttask.cpp:1962
+#, kde-format
+msgid "Finished schedule forward: %1 ms"
+msgstr ""
+
+#: kernel/kpttask.cpp:2047
+#, fuzzy, kde-format
+#| msgid "Schedule:"
+msgid "Schedule from end time: %1"
+msgstr "计划："
+
+#: kernel/kpttask.cpp:2071
+#, kde-format
+msgctxt "1=type of constraint"
+msgid "%1: Failed to schedule within late finish."
+msgstr ""
+
+#: kernel/kpttask.cpp:2077
+#, kde-format
+msgctxt "1=type of constraint"
+msgid "%1: Failed to schedule within successors start time"
+msgstr ""
+
+#: kernel/kpttask.cpp:2104 kernel/kpttask.cpp:2230
+#, fuzzy, kde-format
+#| msgid "Calculate"
+msgctxt "1=type of constraint"
+msgid "%1: Failed to schedule after early start."
+msgstr "计算"
+
+#: kernel/kpttask.cpp:2382
+#, fuzzy
+#| msgid "Modify Relation"
+msgid "No resource has been allocated"
+msgstr "修改关系"
+
+#: kernel/kpttask.cpp:2543
+#, kde-format
+msgid "Could not match work duration. Want: %1 got: %2"
+msgstr ""
+
+#: kernel/kpttask.cpp:3752
+msgid "Send"
+msgstr "发送"
+
+#: kernel/kpttask.cpp:3755
+msgid "Receive"
+msgstr "接收"
+
+#: kernel/kptwbsdefinition.cpp:40
+msgid "Number"
+msgstr "数字"
+
+#: kernel/kptwbsdefinition.cpp:41
+msgid "Roman, upper case"
+msgstr "大写罗马数字"
+
+#: kernel/kptwbsdefinition.cpp:42
+msgid "Roman, lower case"
+msgstr "小写罗马数字"
+
+#: kernel/kptwbsdefinition.cpp:43
+msgid "Letter, upper case"
+msgstr "大写字母"
+
+#: kernel/kptwbsdefinition.cpp:44
+msgid "Letter, lower case"
+msgstr "小写字母"
+
+#: models/kcalendar/kdatepicker.cpp:123
+#, kde-format
+msgid "Week %1"
+msgstr "第 %1 周"
+
+#: models/kcalendar/kdatepicker.cpp:239
+msgid "Next year"
+msgstr "下一年"
+
+#: models/kcalendar/kdatepicker.cpp:240
+msgid "Previous year"
+msgstr "上一年"
+
+#: models/kcalendar/kdatepicker.cpp:241
+msgid "Next month"
+msgstr "下一月"
+
+#: models/kcalendar/kdatepicker.cpp:242
+msgid "Previous month"
+msgstr "上一月"
+
+#: models/kcalendar/kdatepicker.cpp:243
+msgid "Select a week"
+msgstr "选择周"
+
+#: models/kcalendar/kdatepicker.cpp:244
+msgid "Select a month"
+msgstr "选择月"
+
+#: models/kcalendar/kdatepicker.cpp:245
+msgid "Select a year"
+msgstr "选择年"
+
+#: models/kcalendar/kdatepicker.cpp:246
+msgid "Select the current day"
+msgstr "选择当前天"
+
+#: models/kcalendar/kdatepicker.cpp:716
+msgid "Close"
+msgstr "关闭"
+
+#: models/kptaccountsmodel.cpp:89
+#, kde-format
+msgctxt "1=account name"
+msgid "%1 (Default account)"
+msgstr "%1 (默认账户)"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_resList)
+#: models/kptaccountsmodel.cpp:129 models/kptaccountsmodel.cpp:1046
+#: models/kptdocumentmodel.cpp:200 models/kptresourceallocationmodel.cpp:333
+#: models/kptresourceappointmentsmodel.cpp:907
+#: models/kptresourceappointmentsmodel.cpp:922
+#: models/kptresourceappointmentsmodel.cpp:1483
+#: models/kptresourcemodel.cpp:447 models/kptschedulemodel.cpp:892
+#: models/kptschedulemodel.cpp:1172 ui/kptresourceassignmentview.ui:21
+msgid "Name"
+msgstr "名称"
+
+#: models/kptaccountsmodel.cpp:130 models/kptaccountsmodel.cpp:1049
+msgid "Description"
+msgstr "描述"
+
+#: models/kptaccountsmodel.cpp:332
+#, fuzzy
+#| msgid "Modify task name"
+msgctxt "(qtundo-format)"
+msgid "Modify account name"
+msgstr "修改任务名称"
+
+#: models/kptaccountsmodel.cpp:339
+#, fuzzy
+#| msgid "De-select as default account"
+msgctxt "(qtundo-format)"
+msgid "De-select as default account"
+msgstr "不选为默认日历"
+
+#: models/kptaccountsmodel.cpp:345
+#, fuzzy
+#| msgid "Select as default account"
+msgctxt "(qtundo-format)"
+msgid "Select as default account"
+msgstr "选择为默认账户"
+
+#: models/kptaccountsmodel.cpp:362
+#, fuzzy
+#| msgid "Modify task description"
+msgctxt "(qtundo-format)"
+msgid "Modify account description"
+msgstr "修改任务描述"
+
+#: models/kptaccountsmodel.cpp:434
+#, fuzzy
+#| msgid "Add account"
+msgctxt "(qtundo-format)"
+msgid "Add account"
+msgstr "添加账户"
+
+#: models/kptaccountsmodel.cpp:452
+#, kde-format
+msgid "Delete Account"
+msgid_plural "Delete %1 Accounts"
+msgstr[0] "删除 %1 账户"
+
+#: models/kptaccountsmodel.cpp:853
+#, kde-format
+msgid "Actual total cost: %1, planned total cost: %2"
+msgstr ""
+
+#: models/kptaccountsmodel.cpp:1052
+#: models/kptresourceappointmentsmodel.cpp:908
+msgid "Total"
+msgstr "总计"
+
+#: models/kptaccountsmodel.cpp:1124
+msgid "The total cost for the account shown as: Actual cost [ Planned cost ]"
+msgstr ""
+
+#: models/kptcalendarmodel.cpp:282
+#, kde-format
+msgctxt "1=calendar name"
+msgid "%1 (Default calendar)"
+msgstr "%1 (默认日历)"
+
+#: models/kptcalendarmodel.cpp:299
+#, fuzzy
+#| msgid "Modify calendar name"
+msgctxt "(qtundo-format)"
+msgid "Modify calendar name"
+msgstr "修改日历名称"
+
+#: models/kptcalendarmodel.cpp:307
+#, fuzzy
+#| msgid "De-select as default calendar"
+msgctxt "(qtundo-format)"
+msgid "De-select as default calendar"
+msgstr "不选为默认日历"
+
+#: models/kptcalendarmodel.cpp:313
+#, fuzzy
+#| msgid "Select as default calendar"
+msgctxt "(qtundo-format)"
+msgid "Select as default calendar"
+msgstr "选择为默认日历"
+
+#: models/kptcalendarmodel.cpp:371
+#, fuzzy
+#| msgid "Modify calendar timezone"
+msgctxt "(qtundo-format)"
+msgid "Modify calendar timezone"
+msgstr "修改日历时区"
+
+#: models/kptcalendarmodel.cpp:420 models/kptnodeitemmodel.cpp:2277
+#: models/kptnodeitemmodel.cpp:4929
+msgctxt "@title:column"
+msgid "Name"
+msgstr "名称"
+
+#: models/kptcalendarmodel.cpp:421
+#, fuzzy
+#| msgid "Timezone"
+msgctxt "@title:column"
+msgid "Timezone"
+msgstr "时区"
+
+#: models/kptcalendarmodel.cpp:509
+#, fuzzy
+#| msgid "Add Calendar"
+msgctxt "(qtundo-format)"
+msgid "Re-parent calendar"
+msgstr "添加日历"
+
+#: models/kptcalendarmodel.cpp:512
+#, fuzzy
+#| msgid "Add calendar"
+msgctxt "(qtundo-format)"
+msgid "Move calendar"
+msgstr "添加日历"
+
+#: models/kptcalendarmodel.cpp:568
+#, fuzzy
+#| msgid "Add calendar"
+msgctxt "(qtundo-format)"
+msgid "Add calendar"
+msgstr "添加日历"
+
+#: models/kptcalendarmodel.cpp:591
+#, fuzzy
+#| msgid "Delete calendar"
+msgctxt "(qtundo-format)"
+msgid "Delete calendar"
+msgstr "删除所选日历"
+
+#: models/kptcalendarmodel.cpp:759
+msgctxt "Undefined"
+msgid "U"
+msgstr "U"
+
+#: models/kptcalendarmodel.cpp:760 models/kptcalendarmodel.cpp:983
+msgctxt "NonWorking"
+msgid "NW"
+msgstr "NW"
+
+#: models/kptcalendarmodel.cpp:761
+msgctxt "Working"
+msgid "W"
+msgstr "W"
+
+#: models/kptcalendarmodel.cpp:790
+#, fuzzy
+#| msgid "Modify calendar state"
+msgctxt "(qtundo-format)"
+msgid "Modify calendar state"
+msgstr "修改日历状态"
+
+#: models/kptcalendarmodel.cpp:811
+#, kde-format
+msgctxt "1=time 2=The number of hours of work duration (non integer)"
+msgid "%1, %2 hours"
+msgstr "%1, %2 小时"
+
+#: models/kptcalendarmodel.cpp:866 models/kptcalendarmodel.cpp:1021
+msgctxt "@info:tooltip"
+msgid "Undefined"
+msgstr "未定义"
+
+#: models/kptcalendarmodel.cpp:869 models/kptcalendarmodel.cpp:1024
+msgctxt "@info:tooltip"
+msgid "Non-working"
+msgstr "非工作"
+
+#: models/kptcalendarmodel.cpp:874 models/kptcalendarmodel.cpp:1029
+#, fuzzy, kde-format
+#| msgctxt "1=resource name, 2=list of resources"
+#| msgid "%1 (%2)"
+msgctxt "@info:tooltip 1=time 2=The work duration (non integer)"
+msgid "%1, %2"
+msgstr "%1 (%2)"
+
+#: models/kptcalendarmodel.cpp:1214 models/kptcalendarmodel.cpp:1238
+#, fuzzy
+#| msgid "Modify calendar name"
+msgctxt "(qtundo_format)"
+msgid "Modify calendar weekday"
+msgstr "修改日历名称"
+
+#: models/kptcalendarmodel.cpp:1266 models/kptcalendarmodel.cpp:1290
+#, fuzzy
+#| msgid "Modify calendar state"
+msgctxt "(qtundo_format)"
+msgid "Modify calendar date"
+msgstr "修改日历状态"
+
+#: models/kptcalendarmodel.cpp:1307
+#, fuzzy
+#| msgid "Week"
+msgctxt "@title:column"
+msgid "Weekday"
+msgstr "周"
+
+#: models/kptcalendarmodel.cpp:1308
+#, fuzzy
+#| msgid "Date"
+msgctxt "@title:column"
+msgid "Date"
+msgstr "日期"
+
+#: models/kptcommonstrings.cpp:27
+msgctxt "@info:tooltip"
+msgid "The name of the task"
+msgstr "任务名称"
+
+#: models/kptcommonstrings.cpp:28
+msgctxt "@info:tooltip"
+msgid "Task type"
+msgstr "任务类型"
+
+#: models/kptcommonstrings.cpp:29
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "The person responsible for this task"
+msgstr "未指派资源"
+
+#: models/kptcommonstrings.cpp:30
+#, fuzzy
+#| msgid "Modify Relation"
+msgctxt "@info:tooltip"
+msgid "List of resource allocations"
+msgstr "修改关系"
+
+#: models/kptcommonstrings.cpp:31
+msgctxt "@info:tooltip"
+msgid "The timing constraint type"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:32
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Constraint start time"
+msgstr "开始日期："
+
+#: models/kptcommonstrings.cpp:33
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Constraint end time"
+msgstr "开始日期："
+
+#: models/kptcommonstrings.cpp:34
+#, fuzzy
+#| msgid "Task Progress"
+msgctxt "@info:tooltip"
+msgid "Task notes"
+msgstr "任务进度"
+
+#: models/kptcommonstrings.cpp:35
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Work Breakdown Structure Code"
+msgstr "WBS"
+
+#: models/kptcommonstrings.cpp:36
+msgctxt "@info:tooltip"
+msgid "Node level"
+msgstr "节点级别"
+
+#: models/kptcommonstrings.cpp:37
+msgctxt "@info:tooltip"
+msgid ""
+"Risk controls the PERT distribution used when calculating the actual "
+"estimate for this task"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:38
+msgctxt "@info:tooltip"
+msgid "Account for running costs"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:39
+msgctxt "@info:tooltip"
+msgid "Account for cost incurred at startup of the task"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:40
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "The cost incurred at startup of the task"
+msgstr "未指派资源"
+
+#: models/kptcommonstrings.cpp:41
+msgctxt "@info:tooltip"
+msgid "Account for cost incurred at shutdown of the task"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:42
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "The cost incurred at shutdown of the task"
+msgstr "未指派资源"
+
+#: models/kptcommonstrings.cpp:44
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Planned start time"
+msgstr "开始日期："
+
+#: models/kptcommonstrings.cpp:45
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Planned finish time"
+msgstr "开始日期："
+
+#: models/kptcommonstrings.cpp:46
+msgctxt "@info:tooltip"
+msgid "Earliest start time allowed by dependencies"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:47
+msgctxt "@info:tooltip"
+msgid "Earliest finish time allowed by dependencies"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:48
+msgctxt "@info:tooltip"
+msgid "Latest start time allowed by dependencies"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:49
+msgctxt "@info:tooltip"
+msgid "Latest finish time allowed by dependencies"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:51
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "The planned duration"
+msgstr "计划(%1)"
+
+#: models/kptcommonstrings.cpp:52
+#, fuzzy
+#| msgid "The name of the Task."
+msgctxt "@info:tooltip"
+msgid "The variance of the duration"
+msgstr "任务名称。"
+
+#: models/kptcommonstrings.cpp:53
+msgctxt "@info:tooltip"
+msgid "The optimistic duration"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:54
+msgctxt "@info:tooltip"
+msgid "The pessimistic duration"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:56
+msgctxt "@info:tooltip"
+msgid ""
+"The duration by which a tasks start can be delayed without affecting the "
+"project completion time"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:58
+msgctxt "@info:tooltip"
+msgid ""
+"The duration by which the duration of a task or path has to be reduced in "
+"order to fulfill a timing constraint"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:59
+msgctxt "@info:whatsthis"
+msgid ""
+"Negative float is the duration by which the duration of a task or path has "
+"to be reduced in order to fulfill a timing constraint."
+msgstr ""
+
+#: models/kptcommonstrings.cpp:61
+msgctxt "@info:tooltip"
+msgid ""
+"The duration by which a task can be delayed or extended without affecting "
+"the start of any succeeding task"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:62
+msgctxt "@info:whatsthis"
+msgid ""
+"Free float is the duration by which a task can be delayed or extended "
+"without affecting the start of any succeeding task."
+msgstr ""
+
+#: models/kptcommonstrings.cpp:64
+msgctxt "@info:tooltip"
+msgid "The duration from Early Start to Late Start"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:65
+msgctxt "@info:whatsthis"
+msgid "Start float is the duration from Early Start to Late Start."
+msgstr ""
+
+#: models/kptcommonstrings.cpp:67
+msgctxt "@info:tooltip"
+msgid "The duration from Early Finish to Late Finish"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:68
+msgctxt "@info:whatsthis"
+msgid "Finish float is the duration from Early Finish to Late Finish."
+msgstr ""
+
+#: models/kptcommonstrings.cpp:70
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "The resources assigned to the task"
+msgstr "未指派资源"
+
+#: models/kptcommonstrings.cpp:72
+msgctxt "@info:tooltip"
+msgid "Task status"
+msgstr "任务状态"
+
+#: models/kptcommonstrings.cpp:73
+msgctxt "@info:tooltip"
+msgid "Task completion"
+msgstr "任务完成"
+
+#: models/kptcommonstrings.cpp:74
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Planned effort"
+msgstr "开始日期："
+
+#: models/kptcommonstrings.cpp:75
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Actual effort"
+msgstr "开始："
+
+#: models/kptcommonstrings.cpp:76
+#, fuzzy
+#| msgid "Modify main project"
+msgctxt "@info:tooltip"
+msgid "Remaining effort"
+msgstr "编辑主项目"
+
+#: models/kptcommonstrings.cpp:77
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Planned cost"
+msgstr "开始日期："
+
+#: models/kptcommonstrings.cpp:78
+msgctxt "@info:tooltip"
+msgid "Actual cost"
+msgstr "实际成本"
+
+#: models/kptcommonstrings.cpp:79
+msgctxt "@info:tooltip"
+msgid "Time when task was actually started"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:80
+msgctxt "@info:tooltip"
+msgid "Shows if the task is started"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:81
+msgctxt "@info:tooltip"
+msgid "Time when task was actually finished"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:82
+msgctxt "@info:tooltip"
+msgid "Shows if the task is finished"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:83
+msgctxt "@info:tooltip"
+msgid "Status Note"
+msgstr "状态备忘"
+
+#: models/kptcommonstrings.cpp:85
+#, fuzzy
+#| msgid "Calculate"
+msgctxt "@info:tooltip"
+msgid "Calculated expected estimate"
+msgstr "计算"
+
+#: models/kptcommonstrings.cpp:86
+#, fuzzy
+#| msgid "Calculate"
+msgctxt "@info:tooltip"
+msgid "Calculated estimate variance"
+msgstr "计算"
+
+#: models/kptcommonstrings.cpp:87 models/kptcommonstrings.cpp:92
+msgctxt "@info:tooltip"
+msgid "Optimistic estimate"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:88 models/kptcommonstrings.cpp:93
+msgctxt "@info:tooltip"
+msgid "Pessimistic estimate"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:89
+#, fuzzy
+#| msgid "Modify estimate"
+msgctxt "@info:tooltip"
+msgid "Type of estimate"
+msgstr "修改预计"
+
+#: models/kptcommonstrings.cpp:90
+msgctxt "@info:tooltip"
+msgid "The calendar used when estimate type is Duration"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:91
+#, fuzzy
+#| msgid "Modify estimate"
+msgctxt "@info:tooltip"
+msgid "The most likely estimate"
+msgstr "修改预计"
+
+#: models/kptcommonstrings.cpp:94
+msgctxt "@info:tooltip"
+msgid "Type of risk"
+msgstr "风险类型"
+
+#: models/kptcommonstrings.cpp:96
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Shows the tasks scheduling status"
+msgstr "计划"
+
+#: models/kptcommonstrings.cpp:97
+#, fuzzy
+#| msgid "The name of the schedule"
+msgctxt "@info:tooltip"
+msgid "The task has not been scheduled"
+msgstr "计划名称"
+
+#: models/kptcommonstrings.cpp:98
+msgid "An effort has been estimated, but no resource has been assigned"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:99
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "A resource assigned to this task is overbooked"
+msgstr "未指派资源"
+
+#: models/kptcommonstrings.cpp:100
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "A resource assigned to this task is not available"
+msgstr "未指派资源"
+
+#: models/kptcommonstrings.cpp:101
+msgctxt "@info:tooltip"
+msgid "A timing constraint could not be met"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:102
+msgctxt "@info:tooltip"
+msgid "The assigned resource could not meet the estimated effort"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:103
+#, fuzzy
+#| msgid "Scheduling Log"
+msgctxt "@info:tooltip"
+msgid "A scheduling error occurred"
+msgstr "计划日志"
+
+#: models/kptcommonstrings.cpp:105 models/kptnodechartmodel.cpp:485
+msgctxt "@info:tooltip"
+msgid "Budgeted Cost of Work Scheduled"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:106 models/kptnodechartmodel.cpp:486
+msgctxt "@info:tooltip"
+msgid "Budgeted Cost of Work Performed"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:107 models/kptnodechartmodel.cpp:487
+msgctxt "@info:tooltip"
+msgid "Actual Cost of Work Performed"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:108
+msgid "Schedule performance index (BCWP/BCWS)"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:110
+#, fuzzy
+#| msgid "The name of the required task"
+msgctxt "@info:tooltip"
+msgid "The name of the resource or resource group"
+msgstr "所需任务的名称"
+
+#: models/kptcommonstrings.cpp:111
+#, fuzzy
+#| msgid "The name of the Task."
+msgctxt "@info:tooltip"
+msgid "The type of the resource or resource group"
+msgstr "任务名称。"
+
+#: models/kptcommonstrings.cpp:112
+#, fuzzy
+#| msgid "The name of the Task."
+msgctxt "@info:tooltip"
+msgid "The initials of the resource"
+msgstr "任务名称。"
+
+#: models/kptcommonstrings.cpp:113
+#, fuzzy
+#| msgid "The name of the Task."
+msgctxt "@info:tooltip"
+msgid "The e-mail address of the resource"
+msgstr "任务名称。"
+
+#: models/kptcommonstrings.cpp:114
+msgctxt "@info:tooltip"
+msgid "The calendar defines when the resource is working"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:115
+msgctxt "@info:tooltip"
+msgid "The maximum load that can be assigned"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:116 models/kptcommonstrings.cpp:117
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Defines when the resource is available to the project"
+msgstr "定义项目何时开始。"
+
+#: models/kptcommonstrings.cpp:118
+msgctxt "@info:tooltip"
+msgid "The cost pr hour, normal hours"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:119
+msgctxt "@info:tooltip"
+msgid "The cost pr hour, overtime hours"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:120
+msgctxt "@info:tooltip"
+msgid "The fixed cost"
+msgstr "固定成本"
+
+#: models/kptcommonstrings.cpp:121
+msgctxt "@info:tooltip"
+msgid "The account where the resource cost is accumulated"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:123
+msgctxt "@info:tooltip"
+msgid "The name of the account"
+msgstr "账户名称"
+
+#: models/kptcommonstrings.cpp:124
+msgctxt "@info:tooltip"
+msgid "The description of the account"
+msgstr "账户描述"
+
+#: models/kptcommonstrings.cpp:126
+msgctxt "@info:tooltip"
+msgid "The name of the schedule"
+msgstr "计划名称"
+
+#: models/kptcommonstrings.cpp:127
+#, fuzzy
+#| msgid "Schedule:"
+msgctxt "@info:tooltip"
+msgid "The schedules state"
+msgstr "计划："
+
+#: models/kptcommonstrings.cpp:129
+msgctxt "@info:tooltip"
+msgid "Controls resource overbooking when scheduling"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:131
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Controls resource overbooking when scheduling.</para><para>If "
+"overbooking is allowed, a resource may be booked (on working days) to work "
+"more than it is available. This can happen if the resource is allocated to "
+"multiple tasks or are booked on other projects.</para><para>If overbooking "
+"is to be avoided, resources will not be booked more than they are available. "
+"On resource conflict, tasks will be delayed until the resource is available."
+"</para>"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:137
+msgctxt "@info:tooltip"
+msgid "The distribution to be used during scheduling"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:139
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>The distribution to be used during scheduling</para><para>If "
+"distribution is 'None', the tasks estimate is used as is during scheduling.</"
+"para><para>If distribution is 'PERT', the estimate used is calculated based "
+"on the entered optimistic- (O), pessimistic-(P) and most likely (M) "
+"estimate. The formula used for this is (O + 4 * M + P) / 6.<para>"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:145
+msgctxt "@info:tooltip"
+msgid "Defines the schedules to be calculated"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:146
+#, fuzzy
+#| msgid "Schedule:"
+msgctxt "@info:tooltip"
+msgid "The scheduled start time"
+msgstr "计划："
+
+#: models/kptcommonstrings.cpp:147
+#, fuzzy
+#| msgid "Scheduled finish: %1"
+msgctxt "@info:tooltip"
+msgid "The scheduled finish time"
+msgstr "计划完成：%1"
+
+#: models/kptcommonstrings.cpp:148
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "The scheduling direction"
+msgstr "计划冲突"
+
+#: models/kptcommonstrings.cpp:150
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>The scheduling direction.</para><para>If direction is Forward, the "
+"project is scheduled starting at the projects earliest start time specified "
+"in the main project dialog.</para><para>If direction is Backward, the "
+"project is scheduled starting at the projects latest finish time specified "
+"in the main project dialog.</para>"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:156
+msgctxt "@info:tooltip"
+msgid "The scheduler used for calculating the project schedule"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:158
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>The scheduler used for calculating the project schedule.</"
+"para><para>The default built-in scheduler is the Network Scheduler.</"
+"para><para>Other schedulers presently available is RCPS if libRCPS is "
+"installed on your system. RCPS is a genetics based resource constrained "
+"project scheduler.</para>"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:165
+msgctxt "@info:tooltip"
+msgid "The granularity used when calculating the project schedule"
+msgstr ""
+
+#: models/kptcommonstrings.cpp:167
+#, fuzzy
+#| msgid "The name of the account"
+msgctxt "@info:tooltip"
+msgid "The url of the document"
+msgstr "账户名称"
+
+#: models/kptcommonstrings.cpp:168
+#, fuzzy
+#| msgid "The name of the account"
+msgctxt "@info:tooltip"
+msgid "The type of the document"
+msgstr "账户名称"
+
+#: models/kptcommonstrings.cpp:169
+#, fuzzy
+#| msgid "The name of the account"
+msgctxt "@info:tooltip"
+msgid "The status of the document"
+msgstr "账户名称"
+
+#: models/kptcommonstrings.cpp:170
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Defines how this document is send"
+msgctxt "@info:tooltip"
+msgid "Defines how this document is sent"
+msgstr "定义此文档如何发送"
+
+#: models/kptcommonstrings.cpp:172
+msgctxt "@info:tooltip"
+msgid "The name of the calendar"
+msgstr "日历名称"
+
+#: models/kptcommonstrings.cpp:173
+msgctxt "@info:tooltip"
+msgid "The timezone of the calendar"
+msgstr "日历时区"
+
+#: models/kptcommonstrings.cpp:175
+msgctxt "@info:tooltip"
+msgid "The name of the required task"
+msgstr "所需任务的名称"
+
+#: models/kptcommonstrings.cpp:176
+msgctxt "@info:tooltip"
+msgid "The name of the dependent task"
+msgstr "依赖任务的名称"
+
+#: models/kptcommonstrings.cpp:177
+msgctxt "@info:tooltip"
+msgid "The type of relation"
+msgstr "关系类型"
+
+#: models/kptcommonstrings.cpp:178
+#, fuzzy
+#| msgid "Modify Relation"
+msgctxt "@info:tooltip"
+msgid "The relations time lag"
+msgstr "修改关系"
+
+#: models/kptcommonstrings.cpp:182 ui/kptdocumentspanel.cpp:199
+#, fuzzy
+#| msgid "Remove document"
+msgctxt "(qtundo-format)"
+msgid "Remove document"
+msgstr "删除文档"
+
+#: models/kptdocumentmodel.cpp:199
+msgid "Url"
+msgstr "Url"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_resList)
+#: models/kptdocumentmodel.cpp:201 models/kptrelationmodel.cpp:149
+#: models/kptresourceallocationmodel.cpp:334
+#: models/kptresourceappointmentsmodel.cpp:1484
+#: models/kptresourcemodel.cpp:448 ui/kptresourceassignmentview.ui:26
+msgid "Type"
+msgstr "类型"
+
+#: models/kptdocumentmodel.cpp:202
+msgid "Send As"
+msgstr "发送为"
+
+#: models/kptdocumentmodel.cpp:203
+msgid "Status"
+msgstr "状态"
+
+#: models/kptflatproxymodel.cpp:307 models/kptrelationmodel.cpp:147
+#, fuzzy
+msgid "Parent"
+msgstr "总部"
+
+#: models/kptnodechartmodel.cpp:219
+#, fuzzy
+#| msgid "Cost"
+msgctxt "Cost based Budgeted Cost of Work Scheduled"
+msgid "BCWS Cost"
+msgstr "成本"
+
+#: models/kptnodechartmodel.cpp:220
+#, fuzzy
+#| msgid "Cost"
+msgctxt "Cost based Budgeted Cost of Work Performed"
+msgid "BCWP Cost"
+msgstr "成本"
+
+#: models/kptnodechartmodel.cpp:221
+#, fuzzy
+#| msgid "Cost"
+msgctxt "Cost based Actual Cost of Work Performed"
+msgid "ACWP Cost"
+msgstr "成本"
+
+#: models/kptnodechartmodel.cpp:222
+msgctxt "Effort based Budgeted Cost of Work Scheduled"
+msgid "BCWS Effort"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:223
+#, fuzzy
+msgctxt "Effort based Budgeted Cost of Work Performed"
+msgid "BCWP Effort"
+msgstr "开始日期："
+
+#: models/kptnodechartmodel.cpp:224
+#, fuzzy
+msgctxt "Effort based Actual Cost of Work Performed"
+msgid "ACWP Effort"
+msgstr "开始："
+
+#: models/kptnodechartmodel.cpp:225
+#, fuzzy
+#| msgid "Cost"
+msgctxt "Cost based Schedule Performance Index"
+msgid "SPI Cost"
+msgstr "成本"
+
+#: models/kptnodechartmodel.cpp:226
+#, fuzzy
+#| msgid "Cost"
+msgctxt "Cost based Cost Performance Index"
+msgid "CPI Cost"
+msgstr "成本"
+
+#: models/kptnodechartmodel.cpp:227
+#, fuzzy
+msgctxt "Effort based Schedule Performance Index"
+msgid "SPI Effort"
+msgstr "开始日期："
+
+#: models/kptnodechartmodel.cpp:228
+#, fuzzy
+msgctxt "Effort based Cost Performance Index"
+msgid "CPI Effort"
+msgstr "开始日期："
+
+#: models/kptnodechartmodel.cpp:232
+msgctxt ""
+"Date format used as chart axis labels. Must follow QDate specification."
+msgid "MM.dd"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:237
+msgctxt "@info:tooltip"
+msgid "Cost based Budgeted Cost of Work Scheduled"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:238
+msgctxt "@info:tooltip"
+msgid "Cost based Budgeted Cost of Work Performed"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:239
+msgctxt "@info:tooltip"
+msgid "Cost based Actual Cost of Work Performed"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:240
+msgctxt "@info:tooltip"
+msgid "Effort based Budgeted Cost of Work Scheduled"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:241
+msgctxt "@info:tooltip"
+msgid "Effort based Budgeted Cost of Work Performed"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:242
+msgctxt "@info:tooltip"
+msgid "Effort based Actual Cost of Work Performed"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:243
+#, fuzzy
+#| msgid "Schedule:"
+msgctxt "@info:tooltip"
+msgid "Cost based Schedule Performance Index (BCWP/BCWS)"
+msgstr "计划："
+
+#: models/kptnodechartmodel.cpp:244
+msgctxt "@info:tooltip"
+msgid "Cost based Cost Performance Index (BCWP/ACWS)"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:245
+#, fuzzy
+#| msgid "Schedule:"
+msgctxt "@info:tooltip"
+msgid "Effort based Schedule Performance Index (BCWP/BCWS)"
+msgstr "计划："
+
+#: models/kptnodechartmodel.cpp:246
+msgctxt "@info:tooltip"
+msgid "Effort based Cost Performance Index (BCWP/ACWS)"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:468 models/kptnodeitemmodel.cpp:2352
+msgctxt "@title:column Budgeted Cost of Work Scheduled"
+msgid "BCWS"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:469 models/kptnodeitemmodel.cpp:2353
+msgctxt "@title:column Budgeted Cost of Work Performed"
+msgid "BCWP"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:470 models/kptnodeitemmodel.cpp:2354
+msgctxt "@title:column Actual Cost of Work Performed"
+msgid "ACWP"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:471 models/kptnodeitemmodel.cpp:2355
+msgctxt "@title:column Schedule Performance Index"
+msgid "SPI"
+msgstr "SPI"
+
+#: models/kptnodechartmodel.cpp:472
+#, fuzzy
+#| msgid "CPI"
+msgctxt "@title:column Cost Performance Index"
+msgid "CPI"
+msgstr "CPI"
+
+#: models/kptnodechartmodel.cpp:477
+#, fuzzy
+#| msgid "Cost:"
+msgctxt "@title:column"
+msgid "Cost:"
+msgstr "成本："
+
+#: models/kptnodechartmodel.cpp:478
+#, fuzzy
+msgctxt "@title:column"
+msgid "Effort:"
+msgstr "开始日期："
+
+#: models/kptnodechartmodel.cpp:488
+#, fuzzy
+#| msgid "Schedule:"
+msgctxt "@info:tooltip"
+msgid "Schedule Performance Index"
+msgstr "计划："
+
+#: models/kptnodechartmodel.cpp:489
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Performance indexes"
+msgctxt "@info:tooltip"
+msgid "Cost Performance Index"
+msgstr "性能索引"
+
+#: models/kptnodechartmodel.cpp:494
+msgctxt "@info:tooltip"
+msgid "Performance indicators based on cost"
+msgstr ""
+
+#: models/kptnodechartmodel.cpp:495
+msgctxt "@info:tooltip"
+msgid "Performance indicators based on effort"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:155
+msgctxt "@info:tooltip"
+msgid "No resources has been allocated"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:162
+#, fuzzy, kde-format
+#| msgctxt "1=resource name, 2=list of resources"
+#| msgid "%1 (%2)"
+msgctxt "@info:tooltip 1=resource name, 2=list of requiered resources"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: models/kptnodeitemmodel.cpp:166
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip 1=list of resources"
+#| msgid "Allocated resources:<nl/>%1"
+msgctxt "@info:tooltip 1=resource name"
+msgid "Allocated resource:<nl/>%1"
+msgstr "分配的资源：<nl/>%1"
+
+#: models/kptnodeitemmodel.cpp:168
+#, kde-format
+msgctxt "@info:tooltip 1=list of resources"
+msgid "Allocated resources:<nl/>%1"
+msgstr "分配的资源：<nl/>%1"
+
+#: models/kptnodeitemmodel.cpp:232
+#, fuzzy
+msgid "Target times"
+msgstr "开始："
+
+#: models/kptnodeitemmodel.cpp:234
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Earliest start and latest finish"
+msgstr "完成不晚于"
+
+#: models/kptnodeitemmodel.cpp:407
+msgctxt "@info:tooltip"
+msgid "Not applicable, estimate type is Effort"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:473 models/kptnodeitemmodel.cpp:524
+#: models/kptnodeitemmodel.cpp:571
+msgctxt "@info:tooltip"
+msgid "Not applicable, constraint is Fixed Interval"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:475
+#, fuzzy, kde-format
+#| msgid "Estimate:"
+msgctxt "@info:tooltip"
+msgid "Estimated effort: %1"
+msgstr "估计："
+
+#: models/kptnodeitemmodel.cpp:477
+#, fuzzy, kde-format
+#| msgid "Estimate:"
+msgctxt "@info:tooltip"
+msgid "Estimated duration: %1"
+msgstr "估计："
+
+#: models/kptnodeitemmodel.cpp:526
+#, fuzzy, kde-format
+#| msgid "Estimate:"
+msgctxt "@info:tooltip"
+msgid "Optimistic effort: %1"
+msgstr "估计："
+
+#: models/kptnodeitemmodel.cpp:528
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Optimistic duration: %1"
+msgstr "计划(%1)"
+
+#: models/kptnodeitemmodel.cpp:573
+#, fuzzy, kde-format
+#| msgid "Estimate:"
+msgctxt "@info:tooltip"
+msgid "Pessimistic effort: %1"
+msgstr "估计："
+
+#: models/kptnodeitemmodel.cpp:575
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Pessimistic duration: %1"
+msgstr "计划(%1)"
+
+#: models/kptnodeitemmodel.cpp:631
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip 1=resource name"
+#| msgid "Allocated resource: %1"
+msgctxt "@info:tooltip"
+msgid "Account for resource cost: %1"
+msgstr "指派的资源：%1"
+
+#: models/kptnodeitemmodel.cpp:632
+#, fuzzy
+#| msgid "Modify resource account"
+msgctxt "@info:tooltip"
+msgid "Account for resource cost"
+msgstr "修改资源账户"
+
+#: models/kptnodeitemmodel.cpp:667
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Account for task startup cost: %1"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:668
+#, fuzzy
+#| msgid "Modify startup cost"
+msgctxt "@info:tooltip"
+msgid "Account for task startup cost"
+msgstr "修改启动成本"
+
+#: models/kptnodeitemmodel.cpp:719
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Account for task shutdown cost: %1"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:720
+#, fuzzy
+#| msgid "Modify shutdown cost"
+msgctxt "@info:tooltip"
+msgid "Account for task shutdown cost"
+msgstr "修改关闭成本"
+
+#: models/kptnodeitemmodel.cpp:766
+#, fuzzy, kde-format
+#| msgid "Schedule:"
+msgctxt "@info:tooltip"
+msgid "Scheduled start: %1"
+msgstr "计划："
+
+#: models/kptnodeitemmodel.cpp:783
+#, fuzzy, kde-format
+#| msgid "Scheduled finish: %1"
+msgctxt "@info:tooltip"
+msgid "Scheduled finish: %1"
+msgstr "计划完成：%1"
+
+#: models/kptnodeitemmodel.cpp:811 models/kptnodeitemmodel.cpp:815
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Scheduled duration: %1"
+msgstr "计划(%1)"
+
+#: models/kptnodeitemmodel.cpp:848
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "PERT duration variance: %1"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:882
+#, fuzzy, kde-format
+#| msgid "Calculate"
+msgctxt "@info:tooltip"
+msgid "PERT estimate variance: %1"
+msgstr "计算"
+
+#: models/kptnodeitemmodel.cpp:924
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "PERT optimistic duration: %1"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:956
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Optimistic estimate: %1"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:989
+#, fuzzy, kde-format
+#| msgid "Calculate"
+msgctxt "@info:tooltip"
+msgid "PERT expected estimate: %1"
+msgstr "计算"
+
+#: models/kptnodeitemmodel.cpp:1030
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "PERT pessimistic duration: %1"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:1062
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pessimistic estimate: %1"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:1264
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip 1=list of resources"
+#| msgid "Allocated resources:<nl/>%1"
+msgctxt "@info:tooltip 1=list of resources"
+msgid "Assigned resources:<nl/>%1"
+msgstr "分配的资源：<nl/>%1"
+
+#: models/kptnodeitemmodel.cpp:1288
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Task is %1% completed"
+msgstr "完成百分比："
+
+#: models/kptnodeitemmodel.cpp:1310
+msgid "Finished late"
+msgstr "推迟完成"
+
+#: models/kptnodeitemmodel.cpp:1313
+msgid "Finished early"
+msgstr "提早完成"
+
+#. i18n: ectx: property (text), widget (QCheckBox, finished)
+#: models/kptnodeitemmodel.cpp:1315 models/kpttaskstatusmodel.cpp:60
+#: ui/kptmilestoneprogresspanelbase.ui:23 ui/kptresourceassignmentview.cpp:257
+#: ui/kptresourceassignmentview.cpp:335
+msgid "Finished"
+msgstr "已完成"
+
+#: models/kptnodeitemmodel.cpp:1319 models/kptnodeitemmodel.cpp:1331
+#, fuzzy
+#| msgid "Running"
+msgid "Running late"
+msgstr "运行"
+
+#. i18n: ectx: property (title), widget (QGroupBox, runningGroup)
+#: models/kptnodeitemmodel.cpp:1321 models/kpttaskstatusmodel.cpp:56
+#: ui/kpttaskcostpanelbase.ui:21
+msgid "Running"
+msgstr "运行"
+
+#: models/kptnodeitemmodel.cpp:1325
+msgid "Started late"
+msgstr "推迟开始"
+
+#: models/kptnodeitemmodel.cpp:1328
+msgid "Started early"
+msgstr "提前开始"
+
+#: models/kptnodeitemmodel.cpp:1333 ui/kptresourceassignmentview.cpp:256
+#: ui/kptresourceassignmentview.cpp:334
+msgid "Started"
+msgstr "已开始"
+
+#: models/kptnodeitemmodel.cpp:1337 models/kptnodeitemmodel.cpp:1347
+msgid "Not started"
+msgstr "未开始"
+
+#: models/kptnodeitemmodel.cpp:1339
+msgid "Can start"
+msgstr "可以开始"
+
+#: models/kptnodeitemmodel.cpp:1343
+#, fuzzy
+#| msgid "Deleted"
+msgid "Delayed"
+msgstr "已删除"
+
+#: models/kptnodeitemmodel.cpp:1345
+msgid "Cannot start"
+msgstr "无法开始"
+
+#: models/kptnodeitemmodel.cpp:1358
+#, fuzzy, kde-format
+#| msgid "Finished late"
+msgctxt "@info:tooltip"
+msgid "Finished %1 late"
+msgstr "推迟完成"
+
+#: models/kptnodeitemmodel.cpp:1362
+#, fuzzy, kde-format
+#| msgid "Finished early"
+msgctxt "@info:tooltip"
+msgid "Finished %1 early"
+msgstr "提早完成"
+
+#: models/kptnodeitemmodel.cpp:1364
+#, fuzzy
+#| msgid "Finished"
+msgctxt "@info:tooltip"
+msgid "Finished"
+msgstr "已完成"
+
+#: models/kptnodeitemmodel.cpp:1369
+#, fuzzy, kde-format
+#| msgid "Started late"
+msgctxt "@info:tooltip"
+msgid "Started %1 late"
+msgstr "推迟开始"
+
+#: models/kptnodeitemmodel.cpp:1373
+#, fuzzy, kde-format
+#| msgid "Started early"
+msgctxt "@info:tooltip"
+msgid "Started %1 early"
+msgstr "提前开始"
+
+#: models/kptnodeitemmodel.cpp:1375
+#, fuzzy
+#| msgid "Started"
+msgctxt "@info:tooltip"
+msgid "Started"
+msgstr "已开始"
+
+#: models/kptnodeitemmodel.cpp:1378
+#, fuzzy
+#| msgid "Running"
+msgctxt "@info:tooltip"
+msgid "Running"
+msgstr "运行"
+
+#: models/kptnodeitemmodel.cpp:1381
+#, fuzzy
+#| msgid "Can start"
+msgctxt "@info:tooltip"
+msgid "Can start"
+msgstr "可以开始"
+
+#: models/kptnodeitemmodel.cpp:1406
+#, fuzzy
+#| msgid "Cannot start"
+msgctxt "@info:tooltip"
+msgid "Cannot start"
+msgstr "无法开始"
+
+#: models/kptnodeitemmodel.cpp:1407
+#, kde-format
+msgctxt "@info:tooltip 1=list of task names"
+msgid "Cannot start, waiting for:<nl/>%1"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:1409
+#, fuzzy
+#| msgid "Not started"
+msgctxt "@info:tooltip"
+msgid "Not started"
+msgstr "未开始"
+
+#: models/kptnodeitemmodel.cpp:1435
+#, fuzzy, kde-format
+#| msgid "Actual start: %1"
+msgctxt "@info:tooltip"
+msgid "Actual start: %1"
+msgstr "实际开始：%1"
+
+#: models/kptnodeitemmodel.cpp:1462
+#, fuzzy, kde-format
+#| msgid "Earliest start:"
+msgctxt "@info:tooltip"
+msgid "The task started at: %1"
+msgstr "最早开始："
+
+#: models/kptnodeitemmodel.cpp:1464
+#, fuzzy
+#| msgid "The name of the schedule"
+msgctxt "@info:tooltip"
+msgid "The task is not started"
+msgstr "计划名称"
+
+#: models/kptnodeitemmodel.cpp:1486
+#, fuzzy, kde-format
+#| msgid "Actual finish: %1"
+msgctxt "@info:tooltip"
+msgid "Actual finish: %1"
+msgstr "实际完成：%1"
+
+#: models/kptnodeitemmodel.cpp:1513
+#, fuzzy, kde-format
+#| msgid "Latest finish:"
+msgctxt "@info:tooltip"
+msgid "The task finished at: %1"
+msgstr "最晚完成："
+
+#: models/kptnodeitemmodel.cpp:1515
+#, fuzzy
+#| msgid "The name of the schedule"
+msgctxt "@info:tooltip"
+msgid "The task is not finished"
+msgstr "计划名称"
+
+#: models/kptnodeitemmodel.cpp:1530
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Planned effort until %1: %2"
+msgstr "开始日期："
+
+#: models/kptnodeitemmodel.cpp:1550
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Actual effort used up to %1: %2"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:1575
+#, fuzzy, kde-format
+#| msgid "Modify main project"
+msgctxt "@info:tooltip"
+msgid "Remaining effort: %1"
+msgstr "编辑主项目"
+
+#: models/kptnodeitemmodel.cpp:1599
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Planned cost until %1: %2"
+msgstr "开始日期："
+
+#: models/kptnodeitemmodel.cpp:1616
+#, fuzzy, kde-format
+#| msgid "Actual start: %1"
+msgctxt "@info:tooltip"
+msgid "Actual cost until %1: %2"
+msgstr "实际开始：%1"
+
+#: models/kptnodeitemmodel.cpp:1672
+msgctxt "@info:tooltip"
+msgid ""
+"Resource allocation is expected when the task estimate type is  "
+"<emphasis>Effort</emphasis>"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:1705
+#, fuzzy
+#| msgid "Resource type:"
+msgctxt "@info:tooltip"
+msgid "A resource has been overbooked"
+msgstr "资源类型："
+
+#: models/kptnodeitemmodel.cpp:1738
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "No resource is available for this task"
+msgstr "未指派资源"
+
+#: models/kptnodeitemmodel.cpp:1771
+msgctxt "@info:tooltip"
+msgid "Failed to comply with a timing constraint"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:1804
+#, fuzzy
+#| msgid "The name of the schedule"
+msgctxt "@info:tooltip"
+msgid "This task has not been scheduled"
+msgstr "计划名称"
+
+#: models/kptnodeitemmodel.cpp:1837
+msgctxt "@info:tooltip"
+msgid "The assigned resources cannot deliver the required estimated effort"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:1870
+#, fuzzy
+#| msgid "Scheduling Log"
+msgctxt "@info:tooltip"
+msgid "Scheduling error"
+msgstr "计划日志"
+
+#: models/kptnodeitemmodel.cpp:1898
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Work breakdown structure code: %1"
+msgstr "WBS"
+
+#: models/kptnodeitemmodel.cpp:1913
+#, fuzzy, kde-format
+#| msgid "Task type"
+msgctxt "@info:tooltip"
+msgid "Task level: %1"
+msgstr "任务类型: %1"
+
+#: models/kptnodeitemmodel.cpp:1929
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Budgeted Cost of Work Scheduled at %1: %2"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:1945
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Budgeted Cost of Work Performed at %1: %2"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:1961
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Actual Cost of Work Performed at %1: %2"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:1977
+#, fuzzy, kde-format
+#| msgid "Schedule:"
+msgctxt "@info:tooltip"
+msgid "Schedule Performance Index at %1: %2"
+msgstr "计划："
+
+#: models/kptnodeitemmodel.cpp:2047 models/kptnodeitemmodel.cpp:2082
+#: models/kptnodeitemmodel.cpp:2111
+msgctxt "Not available"
+msgid "NA"
+msgstr "不可用"
+
+#: models/kptnodeitemmodel.cpp:2059
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Latest work package sent to %1 at %2"
+msgstr "开始日期："
+
+#: models/kptnodeitemmodel.cpp:2062
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Latest work package received from %1 at %2"
+msgstr "开始日期："
+
+#: models/kptnodeitemmodel.cpp:2064 models/kptnodeitemmodel.cpp:2128
+#, fuzzy
+#| msgid "Not available"
+msgctxt "@info:tooltip"
+msgid "Not available"
+msgstr "不可用"
+
+#: models/kptnodeitemmodel.cpp:2123
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Latest work package sent: %1"
+msgstr "开始日期："
+
+#: models/kptnodeitemmodel.cpp:2126
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Latest work package received: %1"
+msgstr "开始日期："
+
+#: models/kptnodeitemmodel.cpp:2278
+msgctxt "@title:column"
+msgid "Type"
+msgstr "类型"
+
+#: models/kptnodeitemmodel.cpp:2279
+msgctxt "@title:column"
+msgid "Responsible"
+msgstr "负责人"
+
+#: models/kptnodeitemmodel.cpp:2280 models/kptresourcemodel.cpp:1606
+msgctxt "@title:column"
+msgid "Allocation"
+msgstr "分配"
+
+#: models/kptnodeitemmodel.cpp:2281
+msgctxt "@title:column"
+msgid "Estimate Type"
+msgstr "预计类型"
+
+#: models/kptnodeitemmodel.cpp:2282
+msgctxt "@title:column"
+msgid "Calendar"
+msgstr "日历"
+
+#: models/kptnodeitemmodel.cpp:2283
+msgctxt "@title:column"
+msgid "Estimate"
+msgstr "估计"
+
+#: models/kptnodeitemmodel.cpp:2284 models/kptnodeitemmodel.cpp:2300
+msgctxt "@title:column"
+msgid "Optimistic"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:2285 models/kptnodeitemmodel.cpp:2301
+msgctxt "@title:column"
+msgid "Pessimistic"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:2286
+msgctxt "@title:column"
+msgid "Risk"
+msgstr "风险"
+
+#: models/kptnodeitemmodel.cpp:2287
+#, fuzzy
+msgctxt "@title:column"
+msgid "Constraint"
+msgstr "开始日期："
+
+#: models/kptnodeitemmodel.cpp:2288
+#, fuzzy
+msgctxt "@title:column"
+msgid "Constraint Start"
+msgstr "开始日期："
+
+#: models/kptnodeitemmodel.cpp:2289
+#, fuzzy
+msgctxt "@title:column"
+msgid "Constraint End"
+msgstr "开始日期："
+
+#: models/kptnodeitemmodel.cpp:2290
+msgctxt "@title:column"
+msgid "Running Account"
+msgstr "运行账户"
+
+#: models/kptnodeitemmodel.cpp:2291
+msgctxt "@title:column"
+msgid "Startup Account"
+msgstr "启动账户"
+
+#: models/kptnodeitemmodel.cpp:2292
+msgctxt "@title:column"
+msgid "Startup Cost"
+msgstr "启动成本"
+
+#: models/kptnodeitemmodel.cpp:2293
+msgctxt "@title:column"
+msgid "Shutdown Account"
+msgstr "关闭账户"
+
+#: models/kptnodeitemmodel.cpp:2294
+msgctxt "@title:column"
+msgid "Shutdown Cost"
+msgstr "关闭成本"
+
+#: models/kptnodeitemmodel.cpp:2295
+msgctxt "@title:column"
+msgid "Description"
+msgstr "描述"
+
+#: models/kptnodeitemmodel.cpp:2298
+msgctxt "@title:column"
+msgid "Expected"
+msgstr "期望"
+
+#: models/kptnodeitemmodel.cpp:2299
+msgctxt "@title:column"
+msgid "Variance (Est)"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:2304
+msgctxt "@title:column"
+msgid "Start Time"
+msgstr "开始时间"
+
+#: models/kptnodeitemmodel.cpp:2305
+msgctxt "@title:column"
+msgid "End Time"
+msgstr "结束时间"
+
+#: models/kptnodeitemmodel.cpp:2306
+msgctxt "@title:column"
+msgid "Early Start"
+msgstr "提早开始"
+
+#: models/kptnodeitemmodel.cpp:2307
+msgctxt "@title:column"
+msgid "Early Finish"
+msgstr "提早完成"
+
+#: models/kptnodeitemmodel.cpp:2308
+msgctxt "@title:column"
+msgid "Late Start"
+msgstr "推迟开始"
+
+#: models/kptnodeitemmodel.cpp:2309
+msgctxt "@title:column"
+msgid "Late Finish"
+msgstr "推迟完成"
+
+#: models/kptnodeitemmodel.cpp:2310
+msgctxt "@title:column"
+msgid "Positive Float"
+msgstr "正向浮动"
+
+#: models/kptnodeitemmodel.cpp:2311
+msgctxt "@title:column"
+msgid "Free Float"
+msgstr "自由浮动"
+
+#: models/kptnodeitemmodel.cpp:2312
+#, fuzzy
+msgctxt "@title:column"
+msgid "Negative Float"
+msgstr "项目领导(&L)："
+
+#: models/kptnodeitemmodel.cpp:2313
+msgctxt "@title:column"
+msgid "Start Float"
+msgstr "开始浮动"
+
+#: models/kptnodeitemmodel.cpp:2314
+msgctxt "@title:column"
+msgid "Finish Float"
+msgstr "完成浮动"
+
+#: models/kptnodeitemmodel.cpp:2315
+msgctxt "@title:column"
+msgid "Assignments"
+msgstr "指派"
+
+#: models/kptnodeitemmodel.cpp:2318
+msgctxt "@title:column"
+msgid "Duration"
+msgstr "时长"
+
+#: models/kptnodeitemmodel.cpp:2319
+msgctxt "@title:column"
+msgid "Variance (Dur)"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:2320
+msgctxt "@title:column"
+msgid "Optimistic (Dur)"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:2321
+msgctxt "@title:column"
+msgid "Pessimistic (Dur)"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:2324 models/kptnodeitemmodel.cpp:2361
+msgctxt "@title:column"
+msgid "Status"
+msgstr "状态"
+
+#: models/kptnodeitemmodel.cpp:2326
+#, no-c-format
+msgctxt "@title:column"
+msgid "% Completed"
+msgstr "完成百分比"
+
+#: models/kptnodeitemmodel.cpp:2327
+#, fuzzy
+msgctxt "@title:column"
+msgid "Planned Effort"
+msgstr "开始日期："
+
+#: models/kptnodeitemmodel.cpp:2328
+#, fuzzy
+msgctxt "@title:column"
+msgid "Actual Effort"
+msgstr "开始："
+
+#: models/kptnodeitemmodel.cpp:2329
+#, fuzzy
+#| msgid "Modify main project"
+msgctxt "@title:column"
+msgid "Remaining Effort"
+msgstr "编辑主项目"
+
+#: models/kptnodeitemmodel.cpp:2330
+#, fuzzy
+msgctxt "@title:column"
+msgid "Planned Cost"
+msgstr "开始日期："
+
+#: models/kptnodeitemmodel.cpp:2331
+msgctxt "@title:column"
+msgid "Actual Cost"
+msgstr "实际成本"
+
+#: models/kptnodeitemmodel.cpp:2332
+msgctxt "@title:column"
+msgid "Actual Start"
+msgstr "实际开始"
+
+#: models/kptnodeitemmodel.cpp:2333
+msgctxt "@title:column"
+msgid "Started"
+msgstr "已开始"
+
+#: models/kptnodeitemmodel.cpp:2334
+msgctxt "@title:column"
+msgid "Actual Finish"
+msgstr "实际完成"
+
+#: models/kptnodeitemmodel.cpp:2335
+msgctxt "@title:column"
+msgid "Finished"
+msgstr "已完成"
+
+#: models/kptnodeitemmodel.cpp:2336
+msgctxt "@title:column"
+msgid "Status Note"
+msgstr "状态备忘"
+
+#: models/kptnodeitemmodel.cpp:2339
+#, fuzzy
+msgctxt "@title:column"
+msgid "Scheduling Status"
+msgstr "计划"
+
+#: models/kptnodeitemmodel.cpp:2340
+msgctxt "@title:column"
+msgid "Not Scheduled"
+msgstr "未计划"
+
+#: models/kptnodeitemmodel.cpp:2341
+msgctxt "@title:column"
+msgid "Assignment Missing"
+msgstr "缺少指派"
+
+#: models/kptnodeitemmodel.cpp:2342
+msgctxt "@title:column"
+msgid "Resource Overbooked"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:2343
+msgctxt "@title:column"
+msgid "Resource Unavailable"
+msgstr "资源不可用"
+
+#: models/kptnodeitemmodel.cpp:2344
+#, fuzzy
+msgctxt "@title:column"
+msgid "Constraints Error"
+msgstr "开始日期："
+
+#: models/kptnodeitemmodel.cpp:2345
+msgctxt "@title:column"
+msgid "Effort Not Met"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:2346
+#, fuzzy
+#| msgid "Scheduling Log"
+msgctxt "@title:column"
+msgid "Scheduling Error"
+msgstr "计划日志"
+
+#: models/kptnodeitemmodel.cpp:2348
+msgctxt "@title:column"
+msgid "WBS Code"
+msgstr "WBS 代码"
+
+#: models/kptnodeitemmodel.cpp:2349
+msgctxt "@title:column Node level"
+msgid "Level"
+msgstr "级别"
+
+#: models/kptnodeitemmodel.cpp:2356
+msgctxt "@title:column"
+msgid "Critical"
+msgstr "关键路径"
+
+#: models/kptnodeitemmodel.cpp:2357
+msgctxt "@title:column"
+msgid "Critical Path"
+msgstr "关键路径"
+
+#: models/kptnodeitemmodel.cpp:2360
+msgctxt "@title:column"
+msgid "Owner"
+msgstr "所有者"
+
+#: models/kptnodeitemmodel.cpp:2362
+msgctxt "@title:column"
+msgid "Time"
+msgstr "时间"
+
+#: models/kptnodeitemmodel.cpp:2449
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Work package owner"
+msgctxt "@info:tooltip"
+msgid "Work package owner"
+msgstr "工作包所有者"
+
+#: models/kptnodeitemmodel.cpp:2450
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Work package status"
+msgctxt "@info:tooltip"
+msgid "Work package status"
+msgstr "工作包状态"
+
+#: models/kptnodeitemmodel.cpp:2451
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Work package send/receive time"
+msgctxt "@info:tooltip"
+msgid "Work package send/receive time"
+msgstr "工作包发送/接收时间"
+
+#: models/kptnodeitemmodel.cpp:2586
+#, fuzzy
+#| msgid "Modify name"
+msgctxt "(qtundo-format)"
+msgid "Modify name"
+msgstr "修改名称"
+
+#: models/kptnodeitemmodel.cpp:2588
+#, fuzzy
+#| msgid "Modify task name"
+msgctxt "(qtundo-format)"
+msgid "Modify task name"
+msgstr "修改任务名称"
+
+#: models/kptnodeitemmodel.cpp:2589
+#, fuzzy
+#| msgid "Modify milestone name"
+msgctxt "(qtundo-format)"
+msgid "Modify milestone name"
+msgstr "修改里程碑名称"
+
+#: models/kptnodeitemmodel.cpp:2590
+#, fuzzy
+#| msgid "Modify summarytask name"
+msgctxt "(qtundo-format)"
+msgid "Modify summarytask name"
+msgstr "修改摘要任务名称"
+
+#: models/kptnodeitemmodel.cpp:2591
+#, fuzzy
+#| msgid "Modify project name"
+msgctxt "(qtundo-format)"
+msgid "Modify project name"
+msgstr "编辑项目名称"
+
+#: models/kptnodeitemmodel.cpp:2604
+#, fuzzy
+#| msgctxt "@title:column"
+#| msgid "Responsible"
+msgctxt "(qtundo-format)"
+msgid "Modify responsible"
+msgstr "负责人"
+
+#: models/kptnodeitemmodel.cpp:2626
+#, fuzzy
+#| msgid "Modify task description"
+msgctxt "(qtundo-format)"
+msgid "Modify task description"
+msgstr "修改任务描述"
+
+#: models/kptnodeitemmodel.cpp:2649
+#, fuzzy
+#| msgid "Modify document type"
+msgctxt "(qtundo-format)"
+msgid "Modify constraint type"
+msgstr "修改文档类型"
+
+#: models/kptnodeitemmodel.cpp:2666
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Modify constraint start time"
+msgstr "开始日期："
+
+#: models/kptnodeitemmodel.cpp:2683
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Modify constraint end time"
+msgstr "开始日期："
+
+#: models/kptnodeitemmodel.cpp:2708
+#, fuzzy
+#| msgid "Modify estimate"
+msgctxt "(qtundo-format)"
+msgid "Modify estimate type"
+msgstr "修改预计"
+
+#: models/kptnodeitemmodel.cpp:2734
+#, fuzzy
+#| msgid "Modify estimate"
+msgctxt "(qtundo-format)"
+msgid "Modify estimate calendar"
+msgstr "修改预计"
+
+#: models/kptnodeitemmodel.cpp:2767 models/kptnodeitemmodel.cpp:2771
+#, fuzzy
+#| msgid "Modify estimate"
+msgctxt "(qtundo-format)"
+msgid "Modify estimate"
+msgstr "修改预计"
+
+#: models/kptnodeitemmodel.cpp:2793
+#, fuzzy
+#| msgid "Modify estimate"
+msgctxt "(qtundo-format)"
+msgid "Modify optimistic estimate"
+msgstr "修改预计"
+
+#: models/kptnodeitemmodel.cpp:2810
+#, fuzzy
+#| msgid "Modify estimate"
+msgctxt "(qtundo-format)"
+msgid "Modify pessimistic estimate"
+msgstr "修改预计"
+
+#: models/kptnodeitemmodel.cpp:2834
+#, fuzzy
+#| msgid "Modify Task Name"
+msgctxt "(qtundo-format)"
+msgid "Modify risk type"
+msgstr "修改任务名称"
+
+#: models/kptnodeitemmodel.cpp:2854
+#, fuzzy
+#| msgid "Modify running account"
+msgctxt "(qtundo-format)"
+msgid "Modify running account"
+msgstr "修改运行账户"
+
+#: models/kptnodeitemmodel.cpp:2876
+#, fuzzy
+#| msgid "Modify startup account"
+msgctxt "(qtundo-format)"
+msgid "Modify startup account"
+msgstr "修改启动账户"
+
+#: models/kptnodeitemmodel.cpp:2893
+#, fuzzy
+#| msgid "Modify startup cost"
+msgctxt "(qtundo-format)"
+msgid "Modify startup cost"
+msgstr "修改启动成本"
+
+#: models/kptnodeitemmodel.cpp:2913
+#, fuzzy
+#| msgid "Modify shutdown account"
+msgctxt "(qtundo-format)"
+msgid "Modify shutdown account"
+msgstr "修改关闭账户"
+
+#: models/kptnodeitemmodel.cpp:2930
+#, fuzzy
+#| msgid "Modify shutdown cost"
+msgctxt "(qtundo-format)"
+msgid "Modify shutdown cost"
+msgstr "修改关闭成本"
+
+#: models/kptnodeitemmodel.cpp:2952 models/kpttaskstatusmodel.cpp:441
+#, fuzzy
+#| msgid "Modify main project"
+msgctxt "(qtundo-format)"
+msgid "Modify remaining effort"
+msgstr "编辑主项目"
+
+#: models/kptnodeitemmodel.cpp:2964 models/kpttaskstatusmodel.cpp:454
+#, fuzzy
+#| msgid "Modify Task Cost"
+msgctxt "(qtundo-format)"
+msgid "Modify actual effort"
+msgstr "修改任务成本"
+
+#: models/kptnodeitemmodel.cpp:2977 models/kpttaskstatusmodel.cpp:468
+#, fuzzy
+#| msgid "Modify actual start time"
+msgctxt "(qtundo-format)"
+msgid "Modify actual start time"
+msgstr "修改实际开始时间"
+
+#: models/kptnodeitemmodel.cpp:3006 models/kpttaskstatusmodel.cpp:496
+#, fuzzy
+#| msgid "Modify actual finish time"
+msgctxt "(qtundo-format)"
+msgid "Modify actual finish time"
+msgstr "修改实际完成时间"
+
+#: models/kptnodeitemmodel.cpp:3417 models/kptnodeitemmodel.cpp:3426
+#: models/kptnodeitemmodel.cpp:3461 models/kptnodeitemmodel.cpp:3464
+#: ui/reports/reportdata.cpp:497 ui/reports/reportview.cpp:997
+msgid "Resources"
+msgstr "资源"
+
+#: models/kptnodeitemmodel.cpp:3423 models/kptresourcemodel.cpp:1445
+#, fuzzy
+#| msgid "Add resource"
+msgctxt "(qtundo-format)"
+msgid "Add resource"
+msgstr "添加资源"
+
+#: models/kptnodeitemmodel.cpp:3438 models/kptnodeitemmodel.cpp:3967
+#: ui/kptrequestresourcespanel.cpp:66
+#, fuzzy
+#| msgid "Modify resource allocations"
+msgctxt "(qtundo-format)"
+msgid "Modify resource allocations"
+msgstr "修改资源分配"
+
+#: models/kptnodeitemmodel.cpp:3515 models/kpttaskstatusmodel.cpp:391
+#, fuzzy, no-c-format
+#| msgid "Modify completion"
+msgctxt "(qtundo-format)"
+msgid "Modify completion"
+msgstr "修改完成度"
+
+#: models/kptnodeitemmodel.cpp:3544 models/kpttaskstatusmodel.cpp:420
+#, fuzzy
+#| msgid "Set finished"
+msgctxt "(qtundo-format)"
+msgid "Set finished"
+msgstr "设定完成"
+
+#: models/kptnodeitemmodel.cpp:3902
+#, kde-format
+msgctxt "(qtundo) 1=project or task name"
+msgid "Insert %1"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:3960
+#, kde-format
+msgctxt "(qtundo)"
+msgid "Insert %1"
+msgstr ""
+
+#: models/kptnodeitemmodel.cpp:4039 models/kptnodeitemmodel.cpp:4786
+#, fuzzy
+#| msgid "Move tasks"
+msgctxt "(qtundo-format)"
+msgid "Move tasks"
+msgstr "移动任务"
+
+#: models/kptnodeitemmodel.cpp:4093 ui/kpttaskdialog.cpp:180
+#, fuzzy
+#| msgid "Add task"
+msgctxt "(qtundo-format)"
+msgid "Add task"
+msgstr "添加任务"
+
+#: models/kptnodeitemmodel.cpp:4122
+#, fuzzy
+#| msgid "Add sub-task"
+msgctxt "(qtundo-format)"
+msgid "Add sub-task"
+msgstr "添加子任务"
+
+#: models/kptpertcpmmodel.cpp:153
+msgid "Path"
+msgstr "路径"
+
+#: models/kptpertcpmmodel.cpp:428 ui/kptscheduleeditor.cpp:725
+msgid "Critical Path"
+msgstr "关键路径"
+
+#: models/kptpertcpmmodel.cpp:448
+msgid "Critical"
+msgstr "关键"
+
+#: models/kptpertcpmmodel.cpp:452
+msgid "Non-critical"
+msgstr "无关键路径"
+
+#: models/kptrelationmodel.cpp:148
+msgid "Child"
+msgstr ""
+
+#: models/kptrelationmodel.cpp:150
+msgid "Lag"
+msgstr ""
+
+#: models/kptrelationmodel.cpp:353
+#, fuzzy
+#| msgid "Modify Relation"
+msgctxt "(qtundo-format)"
+msgid "Modify relation time lag"
+msgstr "修改关系"
+
+#: models/kptresourceallocationmodel.cpp:165
+#: models/kptresourceallocationmodel.cpp:223
+#: models/kptresourceallocationmodel.cpp:680 models/kptresourcemodel.cpp:1624
+#, no-c-format, kde-format
+msgctxt "<value>%"
+msgid "%1%"
+msgstr "%1%"
+
+#: models/kptresourceallocationmodel.cpp:172
+#: models/kptresourceallocationmodel.cpp:686 models/kptresourcemodel.cpp:1628
+msgctxt "@info:tooltip"
+msgid "Not allocated"
+msgstr "未分配"
+
+#: models/kptresourceallocationmodel.cpp:175
+#, no-c-format, kde-format
+msgctxt "@info:tooltip"
+msgid "Allocated units: %1%"
+msgstr "分配的单元：%1%"
+
+#: models/kptresourceallocationmodel.cpp:228
+#, no-c-format, kde-format
+msgid "Maximum units available: %1%"
+msgstr ""
+
+#: models/kptresourceallocationmodel.cpp:257
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Required Resources</title><para>A working resource can be assigned to "
+"one or more required resources. A required resource is a material resource "
+"that the working resource depends on in order to do the work.</para><para>To "
+"be able to use a material resource as a required resource, the material "
+"resource must be part of a group of type <emphasis>Material</emphasis>.</"
+"para>"
+msgstr ""
+
+#: models/kptresourceallocationmodel.cpp:274
+#, kde-format
+msgid "There is %1 resource available in this group"
+msgid_plural "There are %1 resources available in this group"
+msgstr[0] ""
+
+#: models/kptresourceallocationmodel.cpp:335
+msgid "Allocation"
+msgstr "分配"
+
+#: models/kptresourceallocationmodel.cpp:336
+msgctxt "@title:column"
+msgid "Available"
+msgstr "可用"
+
+#: models/kptresourceallocationmodel.cpp:337
+msgctxt "@title:column"
+msgid "Required Resources"
+msgstr "所需资源"
+
+#: models/kptresourceallocationmodel.cpp:349
+msgid "Resource allocation"
+msgstr "资源分配"
+
+#: models/kptresourceallocationmodel.cpp:350
+msgctxt "@info:tootip"
+msgid "Available resources or resource units"
+msgstr ""
+
+#: models/kptresourceallocationmodel.cpp:351
+#, fuzzy
+#| msgid "Required resources:"
+msgctxt "@info:tootip"
+msgid "Required material resources"
+msgstr "所需资源："
+
+#: models/kptresourceallocationmodel.cpp:357
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Required Resources</title><para>A working resource can be assigned to "
+"one or more required resources. A required resource is a material resource "
+"that the working resource depends on in order to do the work.</para><para>To "
+"be able to use a material resource as a required resource, the material "
+"resource must be part of a group of type Material.</para>"
+msgstr ""
+
+#: models/kptresourceallocationmodel.cpp:688 models/kptresourcemodel.cpp:1630
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1 allocated out of %2 available"
+msgstr ""
+
+#: models/kptresourceallocationmodel.cpp:726 models/kptresourcemodel.cpp:1650
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1 resource requested for dynamic allocation"
+msgid_plural "%1 resources requested for dynamic allocation"
+msgstr[0] ""
+
+#: models/kptresourceallocationmodel.cpp:730 models/kptresourcemodel.cpp:1654
+#, fuzzy, kde-format
+#| msgid "%1 resource allocated"
+#| msgid_plural "%1 resources allocated"
+msgctxt "@info:tooltip"
+msgid "%1 resource allocated"
+msgid_plural "%1 resources allocated"
+msgstr[0] "%1 资源已分配"
+
+#: models/kptresourceallocationmodel.cpp:734 models/kptresourcemodel.cpp:1658
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1<nl/>%2"
+msgstr ""
+
+#: models/kptresourceallocationmodel.cpp:738 models/kptresourcemodel.cpp:1662
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Group allocations</title><para>You can allocate a number of resources "
+"from a group and let the scheduler select from the available resources at "
+"the time of scheduling.</para> These dynamically allocated resources will be "
+"in addition to any resource you have allocated specifically."
+msgstr ""
+
+#: models/kptresourceallocationmodel.cpp:810
+#, kde-format
+msgctxt "1: free resources, 2: number of resources"
+msgid "%1 of %2"
+msgstr ""
+
+#: models/kptresourceallocationmodel.cpp:813
+#, fuzzy, kde-format
+#| msgid "Modify resource account"
+msgctxt "@info:tooltip"
+msgid "There is %1 resource available in this group"
+msgid_plural "There are %1 resources available in this group"
+msgstr[0] "修改资源账户"
+
+#: models/kptresourceallocationmodel.cpp:847
+#, fuzzy
+#| msgid "Modify resource allocations"
+msgctxt "@info:tooltip"
+msgid "No material resources available"
+msgstr "修改资源分配"
+
+#: models/kptresourceallocationmodel.cpp:855
+#, fuzzy
+#| msgid "Required resources:"
+msgctxt "@info:tooltip"
+msgid "No required resources"
+msgstr "所需资源："
+
+#: models/kptresourceallocationmodel.cpp:858
+msgctxt "@info:tooltip"
+msgid "Material resources cannot have required resources"
+msgstr ""
+
+#: models/kptresourceallocationmodel.cpp:860
+msgctxt "@info:tooltip"
+msgid "Team resources cannot have required resources"
+msgstr ""
+
+#: models/kptresourceappointmentsmodel.cpp:577
+#, kde-format
+msgid "External project: %1"
+msgstr "外部项目：%1"
+
+#: models/kptresourceappointmentsmodel.cpp:653
+#, kde-format
+msgid "The total booking on %1, along with the maximum hours for the resource"
+msgstr ""
+
+#: models/kptresourceappointmentsmodel.cpp:685
+msgid "Total booking by this task"
+msgstr ""
+
+#: models/kptresourceappointmentsmodel.cpp:687
+msgid "Total booking by the external project"
+msgstr ""
+
+#: models/kptresourceappointmentsmodel.cpp:730
+#, kde-format
+msgid "Booking by this task on %1"
+msgstr ""
+
+#: models/kptresourceappointmentsmodel.cpp:732
+#, kde-format
+msgid "Booking by external project on %1"
+msgstr ""
+
+#: models/kptresourceappointmentsmodel.cpp:923
+msgid "The total hours booked"
+msgstr ""
+
+#: models/kptresourceappointmentsmodel.cpp:927
+#, kde-format
+msgid "Bookings on %1"
+msgstr ""
+
+#: models/kptresourceappointmentsmodel.cpp:1202
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1: %2<nl/>%3: %4"
+msgstr ""
+
+#: models/kptresourceappointmentsmodel.cpp:1255
+msgid "Interval"
+msgstr "间隔"
+
+#: models/kptresourceappointmentsmodel.cpp:1263
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1: %2<nl/>%3: %4<nl/>Assigned: %5<nl/>Available: %6"
+msgstr ""
+
+#: models/kptresourceappointmentsmodel.cpp:1485
+msgid "Start Time"
+msgstr "开始时间"
+
+#: models/kptresourceappointmentsmodel.cpp:1486
+msgid "End Time"
+msgstr "结束日期"
+
+#: models/kptresourceappointmentsmodel.cpp:1487
+msgctxt "@title:column noun"
+msgid "Load"
+msgstr "装入"
+
+#: models/kptresourcemodel.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1:<nl/>This resource will be automatically allocated to new tasks"
+msgstr ""
+
+#: models/kptresourcemodel.cpp:219 models/kptresourcemodel.cpp:245
+#, kde-format
+msgctxt "Default (calendar name)"
+msgid "Default (%1)"
+msgstr "默认 (%1)"
+
+#: models/kptresourcemodel.cpp:226
+#, fuzzy
+#| msgid "The timezone of the calendar"
+msgctxt "@info:tooltip"
+msgid "A team resource does not have a calendar"
+msgstr "日历时区"
+
+#: models/kptresourcemodel.cpp:228
+#, fuzzy
+#| msgid "Add calendar"
+msgctxt "@info:tooltip"
+msgid "No calendar"
+msgstr "添加日历"
+
+#: models/kptresourcemodel.cpp:236
+#, fuzzy, kde-format
+#| msgid "Select as default calendar"
+msgctxt "@info:tooltip 1=calendar name"
+msgid "Using default calendar: %1"
+msgstr "选择为默认日历"
+
+#: models/kptresourcemodel.cpp:290
+#, fuzzy, kde-format
+#| msgid "Available:"
+msgctxt "infor:tooltip"
+msgid "Available from: %1"
+msgstr "可用："
+
+#: models/kptresourcemodel.cpp:292
+#, kde-format
+msgctxt "infor:tooltip"
+msgid "Available from project target start time: %1"
+msgstr ""
+
+#: models/kptresourcemodel.cpp:312
+#, fuzzy, kde-format
+#| msgid "Available:"
+msgctxt "infor:tooltip"
+msgid "Available until: %1"
+msgstr "可用："
+
+#: models/kptresourcemodel.cpp:314
+#, kde-format
+msgctxt "infor:tooltip"
+msgid "Available from project target finish time: %1"
+msgstr ""
+
+#: models/kptresourcemodel.cpp:333
+#, kde-format
+msgid "Cost per hour, normal time: %1"
+msgstr ""
+
+#: models/kptresourcemodel.cpp:351
+#, kde-format
+msgid "Cost per hour, overtime: %1"
+msgstr ""
+
+#: models/kptresourcemodel.cpp:368
+#, kde-format
+msgid "Account: %1"
+msgstr "账户：%1"
+
+#: models/kptresourcemodel.cpp:449
+#, fuzzy
+msgid "Initials"
+msgstr "缩写"
+
+#: models/kptresourcemodel.cpp:450
+msgid "Email"
+msgstr "电子邮件"
+
+#: models/kptresourcemodel.cpp:451
+msgid "Calendar"
+msgstr "日历"
+
+#: models/kptresourcemodel.cpp:452
+#, fuzzy
+msgid "Limit (%)"
+msgstr "限制"
+
+#: models/kptresourcemodel.cpp:453
+#, fuzzy
+#| msgid "Available:"
+msgid "Available From"
+msgstr "可用："
+
+#: models/kptresourcemodel.cpp:454
+msgid "Available Until"
+msgstr ""
+
+#: models/kptresourcemodel.cpp:455
+msgid "Normal Rate"
+msgstr "普通费率"
+
+#: models/kptresourcemodel.cpp:456
+msgid "Overtime Rate"
+msgstr "加班费率"
+
+#: models/kptresourcemodel.cpp:818
+#, fuzzy
+#| msgid "Modify Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource name"
+msgstr "修改资源"
+
+#: models/kptresourcemodel.cpp:821
+#, fuzzy
+#| msgid "Modify resource allocations"
+msgctxt "(qtundo-format)"
+msgid "Modify resource auto allocate"
+msgstr "修改资源分配"
+
+#: models/kptresourcemodel.cpp:834
+#, fuzzy
+#| msgid "Modify resource account"
+msgctxt "(qtundo-format)"
+msgid "Modify resourcegroup name"
+msgstr "修改资源账户"
+
+#: models/kptresourcemodel.cpp:875
+#, fuzzy
+#| msgid "Modify Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource type"
+msgstr "修改资源"
+
+#: models/kptresourcemodel.cpp:896
+#, fuzzy
+#| msgid "Modify resource account"
+msgctxt "(qtundo-format)"
+msgid "Modify resourcegroup type"
+msgstr "修改资源账户"
+
+#: models/kptresourcemodel.cpp:910
+#, fuzzy
+#| msgid "Modify resource account"
+msgctxt "(qtundo-format)"
+msgid "Modify resource initials"
+msgstr "修改资源账户"
+
+#: models/kptresourcemodel.cpp:923
+#, fuzzy
+#| msgid "Modify Resource"
+msgctxt "(qtundo-format)"
+msgid "Modify resource email"
+msgstr "修改资源"
+
+#: models/kptresourcemodel.cpp:944
+#, fuzzy
+#| msgid "Modify estimate"
+msgctxt "(qtundo-format)"
+msgid "Modify resource calendar"
+msgstr "修改预计"
+
+#: models/kptresourcemodel.cpp:959
+#, fuzzy
+#| msgid "Modify resource account"
+msgctxt "(qtundo-format)"
+msgid "Modify resource available units"
+msgstr "修改资源账户"
+
+#: models/kptresourcemodel.cpp:972
+#, fuzzy
+#| msgid "Modify resource allocations"
+msgctxt "(qtundo-format)"
+msgid "Modify resource available from"
+msgstr "修改资源分配"
+
+#: models/kptresourcemodel.cpp:985
+#, fuzzy
+#| msgid "Modify resource account"
+msgctxt "(qtundo-format)"
+msgid "Modify resource available until"
+msgstr "修改资源账户"
+
+#: models/kptresourcemodel.cpp:998
+#, fuzzy
+#| msgid "Modify resource allocations"
+msgctxt "(qtundo-format)"
+msgid "Modify resource normal rate"
+msgstr "修改资源分配"
+
+#: models/kptresourcemodel.cpp:1011
+#, fuzzy
+#| msgid "Modify resource account"
+msgctxt "(qtundo-format)"
+msgid "Modify resource overtime rate"
+msgstr "修改资源账户"
+
+#: models/kptresourcemodel.cpp:1033
+#, fuzzy
+#| msgid "Modify resource account"
+msgctxt "(qtundo-format)"
+msgid "Modify resource account"
+msgstr "修改资源账户"
+
+#: models/kptresourcemodel.cpp:1265
+#, fuzzy, kde-format
+#| msgid "Add resource from address book"
+#| msgid_plural "Add %1 resources from address book"
+msgctxt "(qtundo-format)"
+msgid "Add resource from address book"
+msgid_plural "Add %1 resources from address book"
+msgstr[0] "从地址簿中添加 %1 资源"
+
+#: models/kptresourcemodel.cpp:1323
+#, kde-format
+msgid "Move resource"
+msgid_plural "Move %1 resources"
+msgstr[0] "移动 %1 资源"
+
+#: models/kptresourcemodel.cpp:1342
+#, fuzzy, kde-format
+#| msgid "Move resource"
+#| msgid_plural "Move %1 resources"
+msgid "Copy resource"
+msgid_plural "Copy %1 resources"
+msgstr[0] "移动 %1 资源"
+
+#: models/kptresourcemodel.cpp:1434
+#, fuzzy
+#| msgid "Add resource group"
+msgctxt "(qtundo-format)"
+msgid "Add resource group"
+msgstr "添加资源组"
+
+#: models/kptschedulemodel.cpp:393
+#, fuzzy
+#| msgid "Modify schedule name"
+msgctxt "(qtundo-format)"
+msgid "Modify schedule name"
+msgstr "修改计划名称"
+
+#: models/kptschedulemodel.cpp:463 models/kptschedulemodel.cpp:466
+msgid "Allow"
+msgstr "允许"
+
+#: models/kptschedulemodel.cpp:463 models/kptschedulemodel.cpp:469
+msgid "Avoid"
+msgstr "避免"
+
+#: models/kptschedulemodel.cpp:466
+#, fuzzy
+#| msgid "Avoid"
+msgid "(Avoid)"
+msgstr "避免"
+
+#: models/kptschedulemodel.cpp:469
+#, fuzzy
+#| msgid "Allow"
+msgid "(Allow)"
+msgstr "允许"
+
+#: models/kptschedulemodel.cpp:477
+#, fuzzy
+#| msgid "Move resource"
+#| msgid_plural "Move %1 resources"
+msgctxt "@info:tooltip"
+msgid "Allow overbooking resources"
+msgstr "移动 %1 资源"
+
+#: models/kptschedulemodel.cpp:478 models/kptschedulemodel.cpp:488
+#, fuzzy
+#| msgid "Move resource"
+#| msgid_plural "Move %1 resources"
+msgctxt "@info:tooltip"
+msgid "Avoid overbooking resources"
+msgstr "移动 %1 资源"
+
+#: models/kptschedulemodel.cpp:482
+msgctxt "@info:tooltip"
+msgid "Allow overbooking of resources"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:483
+#, fuzzy, kde-format
+#| msgid "Move resource"
+#| msgid_plural "Move %1 resources"
+msgctxt "@info:tooltip 1=scheduler name"
+msgid "%1 always allows overbooking of resources"
+msgstr "移动 %1 资源"
+
+#: models/kptschedulemodel.cpp:487
+#, fuzzy, kde-format
+#| msgid "Move resource"
+#| msgid_plural "Move %1 resources"
+msgctxt "@info:tooltip 1=scheduler name"
+msgid "%1 always avoids overbooking of resources"
+msgstr "移动 %1 资源"
+
+#: models/kptschedulemodel.cpp:492
+#, fuzzy
+#| msgid "Avoid"
+msgctxt "@label:listbox"
+msgid "Avoid"
+msgstr "避免"
+
+#: models/kptschedulemodel.cpp:492
+#, fuzzy
+#| msgid "Allow"
+msgctxt "@label:listbox"
+msgid "Allow"
+msgstr "允许"
+
+#: models/kptschedulemodel.cpp:512
+msgctxt "(qtundo-format)"
+msgid "Modify allow overbooking"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:529
+msgid "PERT"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:532
+msgctxt "@info:tooltip"
+msgid "Use PERT distribution to calculate expected estimate for the tasks"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:533
+msgctxt "@info:tooltip"
+msgid "Use the tasks expected estimate directly"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:535
+#, fuzzy
+#| msgid "None"
+msgctxt "@label:listbox"
+msgid "None"
+msgstr "无"
+
+#: models/kptschedulemodel.cpp:535
+msgctxt "@label:listbox"
+msgid "PERT"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:555
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Modify scheduling distribution"
+msgstr "计划冲突"
+
+#: models/kptschedulemodel.cpp:584
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Planned start: %1<nl/>Target start: %2"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:586
+#, fuzzy, kde-format
+#| msgid "Earliest start:"
+msgctxt "@info:tooltip"
+msgid "Target start: %1"
+msgstr "最早开始："
+
+#: models/kptschedulemodel.cpp:620
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Planned finish: %1<nl/>Target finish: %2"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:622
+#, fuzzy, kde-format
+#| msgid "Latest finish:"
+msgctxt "@info:tooltip"
+msgid "Target finish: %1"
+msgstr "最晚完成："
+
+#: models/kptschedulemodel.cpp:648 models/kptschedulemodel.cpp:654
+msgid "Backwards"
+msgstr "后退"
+
+#: models/kptschedulemodel.cpp:648 models/kptschedulemodel.cpp:651
+msgid "Forward"
+msgstr "前进"
+
+#: models/kptschedulemodel.cpp:651
+#, fuzzy
+#| msgid "Backwards"
+msgid "(Backwards)"
+msgstr "后退"
+
+#: models/kptschedulemodel.cpp:654
+#, fuzzy
+#| msgid "Forward"
+msgid "(Forward)"
+msgstr "前进"
+
+#: models/kptschedulemodel.cpp:662 models/kptschedulemodel.cpp:672
+#, fuzzy
+#| msgid "Schedule:"
+msgctxt "@info:tooltip"
+msgid "Schedule project from target end time"
+msgstr "计划："
+
+#: models/kptschedulemodel.cpp:663 models/kptschedulemodel.cpp:668
+#, fuzzy
+#| msgid "Schedule:"
+msgctxt "@info:tooltip"
+msgid "Schedule project from target start time"
+msgstr "计划："
+
+#: models/kptschedulemodel.cpp:667
+#, fuzzy, kde-format
+#| msgid "Calculate"
+msgctxt "@info:tooltip 1=scheduler name"
+msgid "%1 always schedules from target start time"
+msgstr "计算"
+
+#: models/kptschedulemodel.cpp:673
+#, fuzzy, kde-format
+#| msgid "Schedule:"
+msgctxt "@info:tooltip 1=scheduler name"
+msgid "%1 always schedules from target end time"
+msgstr "计划："
+
+#: models/kptschedulemodel.cpp:677
+#, fuzzy
+#| msgid "Forward"
+msgctxt "@label:listbox"
+msgid "Forward"
+msgstr "前进"
+
+#: models/kptschedulemodel.cpp:677
+#, fuzzy
+#| msgid "Backwards"
+msgctxt "@label:listbox"
+msgid "Backwards"
+msgstr "后退"
+
+#: models/kptschedulemodel.cpp:697
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Modify scheduling direction"
+msgstr "计划冲突"
+
+#: models/kptschedulemodel.cpp:715
+msgid "Unknown"
+msgstr "未知"
+
+#: models/kptschedulemodel.cpp:740
+#, fuzzy
+#| msgid "Modify schedule name"
+msgctxt "(qtundo-format)"
+msgid "Modify scheduler"
+msgstr "修改计划名称"
+
+#: models/kptschedulemodel.cpp:783
+#, fuzzy
+#| msgid "None"
+msgctxt "Scheduling granularity not supported"
+msgid "None"
+msgstr "无"
+
+#: models/kptschedulemodel.cpp:792
+msgctxt "@info:tooltip"
+msgid "Scheduling granularity not supported"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:796
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Selected scheduling granularity: %1"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:820
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Modify scheduling granularity"
+msgstr "计划冲突"
+
+#: models/kptschedulemodel.cpp:893
+msgid "State"
+msgstr "状态"
+
+#: models/kptschedulemodel.cpp:894
+msgid "Direction"
+msgstr "方向"
+
+#: models/kptschedulemodel.cpp:895
+msgid "Overbooking"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:896
+msgid "Distribution"
+msgstr "描述"
+
+#: models/kptschedulemodel.cpp:898
+msgid "Planned Start"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:899
+msgid "Planned Finish"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:900
+msgid "Scheduler"
+msgstr "调度器"
+
+#: models/kptschedulemodel.cpp:901
+msgctxt "title:column"
+msgid "Granularity"
+msgstr ""
+
+#: models/kptschedulemodel.cpp:1172
+msgid "Phase"
+msgstr "阶段"
+
+#: models/kptschedulemodel.cpp:1172
+#, fuzzy
+msgid "Severity"
+msgstr "严重程度"
+
+#: models/kptschedulemodel.cpp:1172
+msgid "Message"
+msgstr "消息"
+
+#: models/kpttaskstatusmodel.cpp:52 ui/kptresourceassignmentview.cpp:255
+#: ui/kptresourceassignmentview.cpp:333
+msgid "Not Started"
+msgstr "未开始"
+
+#: models/kpttaskstatusmodel.cpp:53
+msgid "Tasks that should have been started"
+msgstr ""
+
+#: models/kpttaskstatusmodel.cpp:57
+msgid "Tasks that are running"
+msgstr ""
+
+#: models/kpttaskstatusmodel.cpp:61
+msgid "Tasks that have finished during this period"
+msgstr ""
+
+#: models/kpttaskstatusmodel.cpp:64
+#, fuzzy
+msgid "Next Period"
+msgstr "下一年"
+
+#: models/kpttaskstatusmodel.cpp:65
+msgid "Tasks that are scheduled to start next period"
+msgstr ""
+
+#: models/kptworkpackagemodel.cpp:80
+#, kde-format
+msgid "Sent to %1 at %2"
+msgstr ""
+
+#: models/kptworkpackagemodel.cpp:83
+#, kde-format
+msgid "Received from %1 at %2"
+msgstr ""
+
+#: models/kptworkpackagemodel.cpp:85 models/kptworkpackagemodel.cpp:113
+msgid "Not available"
+msgstr "不可用"
+
+#: models/kptworkpackagemodel.cpp:108
+#, kde-format
+msgid "Work package sent at: %1"
+msgstr ""
+
+#: models/kptworkpackagemodel.cpp:111
+#, kde-format
+msgid "Work package transmission received at: %1"
+msgstr ""
+
+#: models/kptworkpackagemodel.cpp:138
+#, fuzzy, kde-format
+msgid "Task reported %1% completed"
+msgstr "完成百分比："
+
+#: ui/kptaccountseditor.cpp:59 ui/kptaccountsviewconfigdialog.cpp:45
+#: ui/kptdependencyeditor.cpp:1971
+msgid "Settings"
+msgstr "设置"
+
+#: ui/kptaccountseditor.cpp:75 ui/kptaccountsviewconfigdialog.cpp:92
+#: ui/kptdependencyeditor.cpp:1987 ui/kptganttview.cpp:144
+#: ui/kptganttview.cpp:831 ui/kptganttview.cpp:1097
+#: ui/kptitemviewsettup.cpp:204 ui/kptitemviewsettup.cpp:286
+#: ui/kptresourceappointmentsview.cpp:106 ui/kpttaskstatusview.cpp:1393
+msgid "Printing"
+msgstr ""
+
+#: ui/kptaccountseditor.cpp:76 ui/kptaccountsviewconfigdialog.cpp:93
+#: ui/kptdependencyeditor.cpp:1988 ui/kptganttview.cpp:144
+#: ui/kptganttview.cpp:831 ui/kptganttview.cpp:1097
+#: ui/kptitemviewsettup.cpp:204 ui/kptitemviewsettup.cpp:286
+#: ui/kptresourceappointmentsview.cpp:107 ui/kpttaskstatusview.cpp:1394
+#, fuzzy
+#| msgid "Options"
+msgid "Printing Options"
+msgstr "选项"
+
+#: ui/kptaccountseditor.cpp:264
+msgid "Add Account"
+msgstr "添加账户"
+
+#: ui/kptaccountseditor.cpp:270
+msgid "Add Subaccount"
+msgstr "添加子账户"
+
+#: ui/kptaccountseditor.cpp:276 ui/kptcalendareditor.cpp:629
+#: ui/kptdependencyeditor.cpp:2340 ui/kptresourceeditor.cpp:289
+#: ui/kptscheduleeditor.cpp:291 ui/kpttaskeditor.cpp:728
+msgctxt "@action"
+msgid "Delete"
+msgstr "删除"
+
+#: ui/kptaccountsviewconfigdialog.cpp:78 ui/kptresourceappointmentsview.cpp:92
+#: ui/kpttaskstatusview.cpp:421
+msgid "General"
+msgstr "常规"
+
+#: ui/kptaccountsviewconfigdialog.cpp:79 ui/kptitemviewsettup.cpp:143
+#: ui/kptitemviewsettup.cpp:215
+msgid "View Settings"
+msgstr "查看设置"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kptaccountsviewconfigurepanelbase.ui:26
+msgid "Show:"
+msgstr "显示："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: ui/kptaccountsviewconfigurepanelbase.ui:33
+msgid "Periodicity:"
+msgstr "周期："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, ui_periodBox)
+#: ui/kptaccountsviewconfigurepanelbase.ui:44
+msgid "Day"
+msgstr "天"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, ui_periodBox)
+#: ui/kptaccountsviewconfigurepanelbase.ui:49
+msgid "Week"
+msgstr "周"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, ui_periodBox)
+#: ui/kptaccountsviewconfigurepanelbase.ui:54
+msgid "Month"
+msgstr "月"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_cumulative)
+#: ui/kptaccountsviewconfigurepanelbase.ui:62
+msgid "Cumulative"
+msgstr "累积"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, ui_showBox)
+#: ui/kptaccountsviewconfigurepanelbase.ui:70
+msgid "Actual cost"
+msgstr "实际成本"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, ui_showBox)
+#: ui/kptaccountsviewconfigurepanelbase.ui:75
+#, fuzzy
+msgid "Planned cost"
+msgstr "开始日期："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, ui_showBox)
+#: ui/kptaccountsviewconfigurepanelbase.ui:80
+msgid "Actual and planned"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, ui_showBox)
+#: ui/kptaccountsviewconfigurepanelbase.ui:85
+#, fuzzy
+msgid "Deviation"
+msgstr "期限"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/kptaccountsviewconfigurepanelbase.ui:101
+msgid "Start date"
+msgstr "开始日期"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_projectstartBtn)
+#: ui/kptaccountsviewconfigurepanelbase.ui:107
+msgid "Project start"
+msgstr "项目开始"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_startdateBtn)
+#. i18n: ectx: property (text), widget (QRadioButton, ui_enddateBtn)
+#. i18n: ectx: property (text), widget (QCheckBox, ui_headerDate)
+#. i18n: ectx: property (text), widget (QCheckBox, ui_footerDate)
+#: ui/kptaccountsviewconfigurepanelbase.ui:114
+#: ui/kptaccountsviewconfigurepanelbase.ui:144
+#: ui/kptprintingheaderfooter.ui:46 ui/kptprintingheaderfooter.ui:86
+#: ui/kptusedefforteditor.cpp:387
+msgid "Date"
+msgstr "日期"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: ui/kptaccountsviewconfigurepanelbase.ui:131
+msgid "End date"
+msgstr "结束日期"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_currentdateBtn)
+#: ui/kptaccountsviewconfigurepanelbase.ui:137
+msgid "Current date"
+msgstr "当前日期"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_projectendBtn)
+#: ui/kptaccountsviewconfigurepanelbase.ui:158
+#, fuzzy
+msgid "Project end"
+msgstr "项目"
+
+#: ui/kptcalendareditor.cpp:200 ui/kptcalendareditor.cpp:638
+msgid "Work..."
+msgstr "工作..."
+
+#: ui/kptcalendareditor.cpp:276 ui/kptcalendareditor.cpp:306
+#, fuzzy
+#| msgid "Modify Weekday State"
+msgctxt "(qtundo-format)"
+msgid "Modify Weekday State"
+msgstr "修改工作日状态"
+
+#: ui/kptcalendareditor.cpp:393
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Work & Vacation Editor</title><para>A calendar defines availability "
+"for resources or tasks of type <emphasis>Duration</emphasis>. A calendar can "
+"be specific to a resource or task, or shared by multiple resources or tasks. "
+"A day can be of type <emphasis>Undefined</emphasis>, <emphasis>Non-working "
+"day</emphasis> or <emphasis>Working day</emphasis>. A working day has one or "
+"more work intervals defined. </para><para>A calendar can have sub calendars. "
+"If a day is undefined in a calendar, the parent calendar is checked. An "
+"<emphasis>Undefined</emphasis> day defaults to <emphasis>Non-working</"
+"emphasis> if used by a resource, or <emphasis>available all day</emphasis> "
+"if used by a task.</para><para>A calendar can be defined as the "
+"<emphasis>Default calendar</emphasis>. The default calendar is used by a "
+"working resource, when the resources calendar is not explicitly set.</para>"
+msgstr ""
+
+#: ui/kptcalendareditor.cpp:619
+msgid "Add Calendar"
+msgstr "添加日历"
+
+#: ui/kptcalendareditor.cpp:624
+msgid "Add Subcalendar"
+msgstr "添加子日历"
+
+#: ui/kptcalendareditor.cpp:786 ui/kptcalendareditor.cpp:820
+#, fuzzy
+#| msgid "Modify Calendar"
+msgctxt "(qtundo-format)"
+msgid "Modify Calendar"
+msgstr "修改日历"
+
+#: ui/kptcalendareditor.cpp:795 ui/kptcalendareditor.cpp:801
+#, kde-format
+msgid "%1: Set to Non-Working"
+msgstr "%1：设定为非工作"
+
+#: ui/kptcalendareditor.cpp:827
+#, kde-format
+msgid "Set %1 to Undefined"
+msgstr "将 %1 设定为未定义"
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: ui/kptcpmwidget.ui:24 ui/kptpertresult.ui:33
+msgid "Project Schedule:"
+msgstr "项目计划："
+
+#. i18n: ectx: property (text), widget (QLabel, scheduleName)
+#. i18n: ectx: property (text), widget (QLabel, totalFloat)
+#. i18n: ectx: property (text), widget (QToolButton, btnAdd)
+#. i18n: ectx: property (text), widget (QToolButton, btnRemove)
+#. i18n: ectx: property (text), widget (QToolButton, btnMoveUp)
+#. i18n: ectx: property (text), widget (QToolButton, btnMoveDown)
+#. i18n: ectx: property (text), widget (QLabel, labelResultCriticalPath)
+#. i18n: ectx: property (text), widget (QLabel, labelResultProjectFloat)
+#: ui/kptcpmwidget.ui:43 ui/kptpertresult.ui:52 ui/kptpertresult.ui:109
+#: ui/kptscheduleeditor.ui:81 ui/kptscheduleeditor.ui:114
+#: ui/reports/reportgroupsectionswidget.ui:25
+#: ui/reports/reportgroupsectionswidget.ui:32
+#: ui/reports/reportgroupsectionswidget.ui:39
+#: ui/reports/reportgroupsectionswidget.ui:46
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kptcpmwidget.ui:71
+msgid "Probability of finishing before"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/kptcpmwidget.ui:91
+msgid "is"
+msgstr "是"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, units)
+#. i18n: ectx: property (suffix), widget (QSpinBox, probability)
+#. i18n: ectx: property (suffix), widget (QSpinBox, optimisticValue)
+#. i18n: ectx: property (suffix), widget (QSpinBox, pessimisticValue)
+#: ui/kptcpmwidget.ui:98 ui/kpttaskgeneralpanelbase.ui:385
+#: ui/kpttaskgeneralpanelbase.ui:414 ui/resourcedialogbase.ui:239
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: ui/kptdependencyeditor.cpp:2309 ui/kpttaskeditor.cpp:697
+#: ui/kpttaskeditor.cpp:702
+msgid "Add Task"
+msgstr "添加任务"
+
+#: ui/kptdependencyeditor.cpp:2314
+msgid "Add Task..."
+msgstr "添加任务..."
+
+#: ui/kptdependencyeditor.cpp:2319
+msgid "Add Milestone..."
+msgstr "添加里程碑..."
+
+#: ui/kptdependencyeditor.cpp:2325 ui/kpttaskeditor.cpp:713
+#: ui/kpttaskeditor.cpp:718
+msgid "Add Sub-Task"
+msgstr "添加子任务"
+
+#: ui/kptdependencyeditor.cpp:2330
+msgid "Add Sub-Task..."
+msgstr "添加子任务..."
+
+#: ui/kptdependencyeditor.cpp:2335
+msgid "Add Sub-Milestone..."
+msgstr "添加子里程碑..."
+
+#: ui/kptdocumentseditor.cpp:217 ui/kptscheduleeditor.cpp:637
+msgid "Edit..."
+msgstr "编辑..."
+
+#: ui/kptdocumentseditor.cpp:223
+msgctxt "@action View a document"
+msgid "View..."
+msgstr "查看..."
+
+#: ui/kptdocumentspanel.cpp:111
+msgctxt "@title:window"
+msgid "Attach Document"
+msgstr "附加文档"
+
+#: ui/kptdocumentspanel.cpp:115
+#, kde-format
+msgctxt "@info"
+msgid "Document is already attached:<br/><filename>%1</filename>"
+msgstr ""
+
+#: ui/kptdocumentspanel.cpp:115
+msgctxt "@title:window"
+msgid "Cannot Attach Document"
+msgstr "无法附加文档"
+
+#: ui/kptdocumentspanel.cpp:136
+msgctxt "@title:window"
+msgid "Modify Url"
+msgstr "修改 Url"
+
+#: ui/kptdocumentspanel.cpp:141
+#, kde-format
+msgid "Document url already exists: %1"
+msgstr "文档 Url 已经存在：%1"
+
+#: ui/kptdocumentspanel.cpp:141
+msgid "Cannot Modify Url"
+msgstr "无法修改 Url"
+
+#: ui/kptdocumentspanel.cpp:189
+msgid "Modify documents"
+msgstr "修改文档"
+
+#: ui/kptdocumentspanel.cpp:207
+#, fuzzy
+#| msgid "Modify document url"
+msgctxt "(qtundo-format)"
+msgid "Modify document url"
+msgstr "修改文档 Url"
+
+#: ui/kptdocumentspanel.cpp:211
+#, fuzzy
+#| msgid "Modify document type"
+msgctxt "(qtundo-format)"
+msgid "Modify document type"
+msgstr "修改文档类型"
+
+#: ui/kptdocumentspanel.cpp:215
+#, fuzzy
+#| msgid "Modify document status"
+msgctxt "(qtundo-format)"
+msgid "Modify document status"
+msgstr "修改文档状态"
+
+#: ui/kptdocumentspanel.cpp:219
+#, fuzzy
+#| msgid "Modify document send control"
+msgctxt "(qtundo-format)"
+msgid "Modify document send control"
+msgstr "修改文档发送控制"
+
+#: ui/kptdocumentspanel.cpp:230
+#, fuzzy
+#| msgid "Add document"
+msgctxt "(qtundo-format)"
+msgid "Add document"
+msgstr "添加文档"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbAdd)
+#: ui/kptdocumentspanel.ui:31
+msgid "Add..."
+msgstr "添加..."
+
+#. i18n: ectx: property (text), widget (QPushButton, pbChange)
+#: ui/kptdocumentspanel.ui:38
+msgid "Change..."
+msgstr "更改..."
+
+#. i18n: ectx: property (text), widget (QPushButton, pbRemove)
+#. i18n: ectx: property (text), widget (QPushButton, removeBtn)
+#. i18n: ectx: property (text), widget (QPushButton, bRemoveInterval)
+#: ui/kptdocumentspanel.ui:45 ui/kptintervaleditbase.ui:77
+#: ui/kptwbsdefinitionpanelbase.ui:180
+msgid "Remove"
+msgstr "删除"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbView)
+#: ui/kptdocumentspanel.ui:52
+msgid "Open"
+msgstr "打开"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/kptganttchartdisplayoptions.ui:23
+msgid "Additional text information"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_showTaskName)
+#: ui/kptganttchartdisplayoptions.ui:29
+msgid "Task name"
+msgstr "任务名称"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_showResourceNames)
+#: ui/kptganttchartdisplayoptions.ui:36
+#, fuzzy
+#| msgid "Show resource names"
+msgid "Resource names"
+msgstr "显示资源名称"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: ui/kptganttchartdisplayoptions.ui:46
+msgid "Additional graphics information"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_showDependencies)
+#: ui/kptganttchartdisplayoptions.ui:55
+#, fuzzy
+#| msgid "Show task dependencies"
+msgid "Task dependencies"
+msgstr "显示任务关系"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_showCompletion)
+#: ui/kptganttchartdisplayoptions.ui:62
+msgid "Task completion"
+msgstr "任务完成"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_showTimeConstraint)
+#: ui/kptganttchartdisplayoptions.ui:69
+#, fuzzy
+msgid "Time constraints"
+msgstr "开始日期："
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_showSchedulingError)
+#: ui/kptganttchartdisplayoptions.ui:89
+#, fuzzy
+#| msgid "Scheduling Log"
+msgid "Scheduling errors"
+msgstr "计划日志"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_showPositiveFloat)
+#: ui/kptganttchartdisplayoptions.ui:96
+msgid "Positive float"
+msgstr "正向浮动"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_showNegativeFloat)
+#: ui/kptganttchartdisplayoptions.ui:103
+#, fuzzy
+msgid "Negative float"
+msgstr "项目领导(&L)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_showCriticalPath)
+#: ui/kptganttchartdisplayoptions.ui:110
+msgid "Critical path"
+msgstr "关键路径"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_showCriticalTasks)
+#: ui/kptganttchartdisplayoptions.ui:117
+#, fuzzy
+#| msgid "Show critical tasks"
+msgid "Critical tasks"
+msgstr "显示关键任务"
+
+#: ui/kptganttitemdelegate.cpp:77
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Name: %1<nl/>Actual finish: %2<nl/>Planned finish: %3<nl/>Status: %4"
+msgstr ""
+
+#: ui/kptganttitemdelegate.cpp:89
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Name: %1<nl/>Completion: %2 %<nl/>Actual start: %3<nl/>Planned: %4 - %5<nl/"
+">Status: %6"
+msgstr ""
+
+#: ui/kptganttitemdelegate.cpp:112 ui/kptganttitemdelegate.cpp:130
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Name: %1<nl/>Planned: %2 - %3<nl/>Status: %4<nl/>Constraint type: %5<nl/"
+">Constraint time: %6<nl/>Negative float: %7 h"
+msgstr ""
+
+#: ui/kptganttitemdelegate.cpp:147
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Name: %1<nl/>Planned: %2 - %3<nl/>Status: %4<nl/>Scheduling: %5"
+msgstr ""
+
+#: ui/kptganttitemdelegate.cpp:166 ui/kptganttitemdelegate.cpp:183
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Name: %1<nl/>Planned: %2<nl/>Status: %3<nl/>Constraint type: %4<nl/"
+">Constraint time: %5<nl/>Negative float: %6 h"
+msgstr ""
+
+#: ui/kptganttitemdelegate.cpp:199
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Name: %1<nl/>Planned: %2<nl/>Status: %3<nl/>Scheduling: %4"
+msgstr ""
+
+#: ui/kptganttitemdelegate.cpp:212
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Name: %1<nl/>Planned: %2 - %3"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_printRowLabels)
+#: ui/kptganttprintingoptions.ui:16
+msgid "Print row labels"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_singlePage)
+#: ui/kptganttprintingoptions.ui:35
+msgid "Print chart on a single page"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_multiplePages)
+#: ui/kptganttprintingoptions.ui:45
+msgid "Divide chart on multiple pages"
+msgstr ""
+
+#: ui/kptganttview.cpp:134 ui/kpttaskstatusview.cpp:1363
+#: ui/kpttaskstatusview.cpp:1378
+msgid "Chart"
+msgstr "图表"
+
+#: ui/kptganttview.cpp:134
+msgid "Gantt Chart Settings"
+msgstr "甘特图设置"
+
+#: ui/kptganttview.cpp:188
+msgctxt "@title:tab"
+msgid "Chart"
+msgstr "图表"
+
+#: ui/kptganttview.cpp:657 ui/kpttaskeditor.cpp:757 ui/kpttaskeditor.cpp:1186
+msgid "Show Project"
+msgstr "显示工程"
+
+#: ui/kptintervaledit.cpp:62
+msgctxt "Interval start time"
+msgid "Start"
+msgstr "开始"
+
+#: ui/kptintervaledit.cpp:63
+msgctxt "Interval length"
+msgid "Length"
+msgstr "长度"
+
+#: ui/kptintervaledit.cpp:170 ui/kptintervaledit.cpp:189
+msgid "Edit Work Intervals"
+msgstr "编辑工作间隔"
+
+#: ui/kptintervaledit.cpp:222 ui/kptintervaledit.cpp:277
+#, fuzzy
+#| msgid "Modify Work Interval"
+msgctxt "(qtundo-format)"
+msgid "Modify Work Interval"
+msgstr "修改工作间隔"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, intervalList)
+#: ui/kptintervaleditbase.ui:21
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/kptintervaleditbase.ui:31
+msgctxt "Start time"
+msgid "From:"
+msgstr "从："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: ui/kptintervaleditbase.ui:47
+msgid "Length"
+msgstr "长度"
+
+#. i18n: ectx: property (text), widget (QPushButton, bAddInterval)
+#: ui/kptintervaleditbase.ui:70
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (text), widget (QPushButton, bClear)
+#: ui/kptintervaleditbase.ui:97
+msgid "Clear"
+msgstr "清除"
+
+#. i18n: ectx: property (text), widget (QCheckBox, stretchLastSection)
+#: ui/kptitemviewsettings.ui:28
+#, fuzzy
+#| msgid "Show task completion"
+msgid "Stretch last section"
+msgstr "显示任务完成度"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/kptitemviewsettings.ui:35
+msgid "Select columns to be shown:"
+msgstr "选择要显示的列："
+
+#. i18n: ectx: property (availableLabel), widget (KActionSelector, selector)
+#: ui/kptitemviewsettings.ui:56
+msgid "&Hidden columns:"
+msgstr "隐藏列(&H)："
+
+#. i18n: ectx: property (selectedLabel), widget (KActionSelector, selector)
+#: ui/kptitemviewsettings.ui:59
+msgid "&Visible columns:"
+msgstr "可见列(&V)："
+
+#: ui/kptitemviewsettup.cpp:151
+msgid "Tree View"
+msgstr "树形视图"
+
+#: ui/kptitemviewsettup.cpp:152
+msgid "Tree View Column Configuration"
+msgstr ""
+
+#: ui/kptitemviewsettup.cpp:224
+msgid "Main View"
+msgstr "主视图"
+
+#: ui/kptitemviewsettup.cpp:225
+msgid "Main View Column Configuration"
+msgstr ""
+
+#: ui/kptitemviewsettup.cpp:230
+msgid "Auxiliary View"
+msgstr ""
+
+#: ui/kptitemviewsettup.cpp:231
+msgid "Auxiliary View Column Configuration"
+msgstr ""
+
+#: ui/kptlocaleconfigmoneydialog.cpp:35
+msgid "Currency Settings"
+msgstr "货币设置"
+
+#: ui/kptlocaleconfigmoneydialog.cpp:52
+#, fuzzy
+#| msgid "Modify currency settings"
+msgctxt "(qtundo-format)"
+msgid "Modify currency settings"
+msgstr "修改货币设置"
+
+#: ui/kptmainprojectdialog.cpp:37
+msgid "Project Settings"
+msgstr "项目设置"
+
+#: ui/kptmainprojectdialog.cpp:61 ui/kptmainprojectpanel.cpp:107
+msgid "Modify main project"
+msgstr "编辑主项目"
+
+#: ui/kptmainprojectpanel.cpp:63 ui/kptsummarytaskgeneralpanel.cpp:66
+#: ui/kpttaskgeneralpanel.cpp:60
+msgid ""
+"The Work Breakdown Structure introduces numbering for all tasks in the "
+"project, according to the task structure.\n"
+"The WBS code is auto-generated.\n"
+"You can define the WBS code pattern using the Define WBS Pattern command in "
+"the Tools menu."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, wbslabel)
+#: ui/kptmainprojectpanelbase.ui:26 ui/kptsummarytaskgeneralpanelbase.ui:32
+#: ui/kpttaskgeneralpanelbase.ui:26
+msgid "WBS:"
+msgstr "WBS："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, namefield)
+#: ui/kptmainprojectpanelbase.ui:61 ui/kptmainprojectpanelbase.ui:86
+msgid "The project name."
+msgstr "项目名称。"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/kptmainprojectpanelbase.ui:64
+msgid "N&ame:"
+msgstr "名称(&A)："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leaderfield)
+#: ui/kptmainprojectpanelbase.ui:93 ui/kptmainprojectpanelbase.ui:121
+msgid "The project leader."
+msgstr "项目领导。"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: ui/kptmainprojectpanelbase.ui:96 ui/kptviewbase.cpp:483
+msgid "Manager:"
+msgstr "经理："
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, chooseLeader)
+#: ui/kptmainprojectpanelbase.ui:128
+msgid "Choose a project leader from your address book."
+msgstr "从您的地址簿中选择领导。"
+
+#. i18n: ectx: property (text), widget (QPushButton, chooseLeader)
+#: ui/kptmainprojectpanelbase.ui:131
+msgid "&Choose..."
+msgstr "选择(&C)..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, schedulingGroup)
+#: ui/kptmainprojectpanelbase.ui:140
+msgid "Scheduling Range"
+msgstr "计划范围"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kptmainprojectpanelbase.ui:148
+msgid "Earliest start:"
+msgstr "最早开始："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/kptmainprojectpanelbase.ui:168
+msgid "Latest finish:"
+msgstr "最晚完成："
+
+#: ui/kptmilestoneprogressdialog.cpp:39
+msgid "Milestone Progress"
+msgstr "里程碑进度"
+
+#: ui/kptmilestoneprogresspanel.cpp:52
+msgid "Modify milestone completion"
+msgstr "修改里程碑完成度"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/kptperformancestatusviewsettingspanel.ui:17
+msgid "Chart type"
+msgstr "图形类型"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_linechart)
+#: ui/kptperformancestatusviewsettingspanel.ui:23
+msgid "Line chart"
+msgstr "折线图"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_barchart)
+#: ui/kptperformancestatusviewsettingspanel.ui:33
+msgid "Bar chart"
+msgstr "条形图"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_table)
+#: ui/kptperformancestatusviewsettingspanel.ui:40
+msgid "Table"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_showbasevalues)
+#: ui/kptperformancestatusviewsettingspanel.ui:59
+#, fuzzy
+#| msgid "Baseline"
+msgid "Base values"
+msgstr "比较基准"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_showindices)
+#: ui/kptperformancestatusviewsettingspanel.ui:69
+msgid "Indices"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, ui_costgroup)
+#. i18n: ectx: property (title), widget (QGroupBox, ui_cost)
+#: ui/kptperformancestatusviewsettingspanel.ui:91 ui/resourcedialogbase.ui:414
+msgid "Cost"
+msgstr "成本"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_bcwsCost)
+#. i18n: ectx: property (text), widget (QCheckBox, ui_bcwsEffort)
+#: ui/kptperformancestatusviewsettingspanel.ui:106
+#: ui/kptperformancestatusviewsettingspanel.ui:154
+#, fuzzy
+#| msgid "Cost"
+msgid "Show BCWS plot"
+msgstr "成本"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_bcwpCost)
+#. i18n: ectx: property (text), widget (QCheckBox, ui_bcwpEffort)
+#: ui/kptperformancestatusviewsettingspanel.ui:116
+#: ui/kptperformancestatusviewsettingspanel.ui:164
+#, fuzzy
+#| msgid "Show Project"
+msgid "Show BCWP plot"
+msgstr "显示工程"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_acwpCost)
+#. i18n: ectx: property (text), widget (QCheckBox, ui_acwpEffort)
+#: ui/kptperformancestatusviewsettingspanel.ui:126
+#: ui/kptperformancestatusviewsettingspanel.ui:174
+#, fuzzy
+#| msgid "Show Project"
+msgid "Show ACWP plot"
+msgstr "显示工程"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_spicost)
+#: ui/kptperformancestatusviewsettingspanel.ui:194
+#, fuzzy
+#| msgid "Cost"
+msgid "SPI Cost"
+msgstr "成本"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_spieffort)
+#: ui/kptperformancestatusviewsettingspanel.ui:204
+#, fuzzy
+msgid "SPI Effort"
+msgstr "开始日期："
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_cpieffort)
+#: ui/kptperformancestatusviewsettingspanel.ui:211
+#, fuzzy
+msgid "CPI Effort"
+msgstr "开始日期："
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_cpicost)
+#: ui/kptperformancestatusviewsettingspanel.ui:218
+#, fuzzy
+#| msgid "Cost"
+msgid "CPI Cost"
+msgstr "成本"
+
+#: ui/kptperteditor.cpp:163
+#, fuzzy
+#| msgid "Remove task dependency"
+msgctxt "(qtundo-format)"
+msgid "Remove task dependency"
+msgstr "删除任务关系"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_taskList)
+#. i18n: ectx: property (text), widget (QTreeWidget, taskList)
+#: ui/kptperteditor.ui:20 ui/kptresourceassignmentview.ui:33
+#: ui/reports/reportdata.cpp:347 ui/reports/reportview.cpp:982
+msgid "Tasks"
+msgstr "任务"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, available)
+#: ui/kptperteditor.ui:29
+msgid "Available tasks"
+msgstr "可用任务"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addBtn)
+#: ui/kptperteditor.ui:64
+msgid "Add required task"
+msgstr "添加所需任务"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeBtn)
+#: ui/kptperteditor.ui:80
+msgid "Remove required task"
+msgstr "添加所需任务"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/kptpertresult.ui:90
+msgid "Total Float:"
+msgstr "总计浮动："
+
+#. i18n: ectx: property (title), widget (QGroupBox, ui_header)
+#: ui/kptprintingheaderfooter.ui:16
+msgid "Header"
+msgstr "领导"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_headerProject)
+#. i18n: ectx: property (text), widget (QCheckBox, ui_footerProject)
+#: ui/kptprintingheaderfooter.ui:25 ui/kptprintingheaderfooter.ui:65
+msgid "Project name"
+msgstr "项目名称"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_headerPage)
+#. i18n: ectx: property (text), widget (QCheckBox, ui_footerPage)
+#: ui/kptprintingheaderfooter.ui:32 ui/kptprintingheaderfooter.ui:72
+msgid "Page number"
+msgstr "页码"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_headerManager)
+#. i18n: ectx: property (text), widget (QCheckBox, ui_footerManager)
+#: ui/kptprintingheaderfooter.ui:39 ui/kptprintingheaderfooter.ui:79
+msgid "Project manager"
+msgstr "项目经理"
+
+#. i18n: ectx: property (title), widget (QGroupBox, ui_footer)
+#: ui/kptprintingheaderfooter.ui:56
+msgid "Footer"
+msgstr "页脚"
+
+#: ui/kptrecalculatedialog.cpp:47
+msgid "Re-calculate Schedule"
+msgstr "重算项目计划"
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnCurrent)
+#: ui/kptrecalculatedialog.ui:26
+#, fuzzy
+#| msgid "Project Schedule:"
+msgid "Re-calculate from current date/time"
+msgstr "项目计划："
+
+#. i18n: ectx: property (text), widget (QRadioButton, btnFrom)
+#: ui/kptrecalculatedialog.ui:33
+#, fuzzy
+#| msgid "Project Schedule:"
+msgid "Re-calculate from:"
+msgstr "项目计划："
+
+#: ui/kptrelationdialog.cpp:38
+#, fuzzy
+msgctxt "@label:spinbox Time lag"
+msgid "Lag:"
+msgstr "名称："
+
+#: ui/kptrelationdialog.cpp:39
+msgctxt "@info:tooltip"
+msgid "<emphasis>Lag</emphasis> is the time the dependent task is delayed"
+msgstr ""
+
+#: ui/kptrelationdialog.cpp:55
+msgctxt "@title:window"
+msgid "Add Dependency"
+msgstr "添加关系"
+
+#: ui/kptrelationdialog.cpp:101
+#, fuzzy
+#| msgid "Add task dependency"
+msgctxt "(qtundo-format)"
+msgid "Add task dependency"
+msgstr "添加任务关系"
+
+#: ui/kptrelationdialog.cpp:147
+msgctxt "@title:window"
+msgid "Edit Dependency"
+msgstr "编辑关系"
+
+#: ui/kptrelationdialog.cpp:151
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "删除"
+
+#: ui/kptrelationdialog.cpp:176
+#, fuzzy
+#| msgid "Delete task dependency"
+msgctxt "(qtundo-format)"
+msgid "Delete task dependency"
+msgstr "删除任务关系"
+
+#: ui/kptrelationdialog.cpp:180
+#, fuzzy
+#| msgid "Modify task dependency"
+msgctxt "(qtundo-format)"
+msgid "Modify task dependency"
+msgstr "修改任务关系"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_internalAppointments)
+#: ui/kptresourceappointmentsdisplayoptions.ui:16
+msgid "Show internal appointments"
+msgstr "显示内部约会"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_externalAppointments)
+#: ui/kptresourceappointmentsdisplayoptions.ui:23
+msgid "Show external appointments"
+msgstr "显示外部约会"
+
+#: ui/kptresourceappointmentsview.cpp:93
+msgid "Resource Assignments View Settings"
+msgstr "资源指派视图设置"
+
+#: ui/kptresourceassignmentview.cpp:243
+msgid "No task attributed"
+msgstr ""
+
+#: ui/kptresourceassignmentview.cpp:322
+#, fuzzy
+msgid "No resource attributed"
+msgstr "未指派资源"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_taskList)
+#: ui/kptresourceassignmentview.ui:38
+msgid "Advance"
+msgstr "高级"
+
+#: ui/kptresourcedialog.cpp:69
+#, fuzzy
+#| msgid "Select a week"
+msgctxt "title:column"
+msgid "Select team members"
+msgstr "选择周"
+
+#: ui/kptresourcedialog.cpp:69
+msgctxt "title:column"
+msgid "Group"
+msgstr "组"
+
+#: ui/kptresourcedialog.cpp:252
+msgid "Resource Settings"
+msgstr "资源设置"
+
+#: ui/kptresourcedialog.cpp:402
+msgid "Modify Resource"
+msgstr "修改资源"
+
+#: ui/kptresourceeditor.cpp:121
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Resource Editor</title><para>Resources are organized in a Resource "
+"Breakdown Structure. Resources can be of type <emphasis>Work</emphasis> or "
+"<emphasis>Material</emphasis>. When assigned to a task, a resource of type "
+"<emphasis>Work</emphasis> can affect the duration of the task, while a "
+"resource of type <emphasis>Material</emphasis> does not. A resource must "
+"refer to a <emphasis>Calendar</emphasis> that defines the working hours.</"
+"para>"
+msgstr ""
+
+#: ui/kptresourceeditor.cpp:277
+msgid "Add Resource Group"
+msgstr "添加资源组"
+
+#: ui/kptresourceeditor.cpp:283
+msgid "Add Resource"
+msgstr "添加资源"
+
+#: ui/kptscheduleeditor.cpp:279
+msgid "Add Schedule"
+msgstr "添加计划"
+
+#: ui/kptscheduleeditor.cpp:285
+msgid "Add Sub-schedule"
+msgstr "添加子计划"
+
+#: ui/kptscheduleeditor.cpp:297
+msgid "Calculate"
+msgstr "计算"
+
+#: ui/kptscheduleeditor.cpp:303
+msgid "Baseline"
+msgstr "比较基准"
+
+#: ui/kptscheduleeditor.cpp:309
+msgctxt "@action"
+msgid "Detach"
+msgstr "分离"
+
+#: ui/kptscheduleeditor.cpp:369 ui/kptscheduleeditor.cpp:402
+#, fuzzy
+#| msgid "Create sub-schedule"
+msgctxt "(qtundo-format)"
+msgid "Create sub-schedule"
+msgstr "创建子计划"
+
+#: ui/kptscheduleeditor.cpp:380
+#, fuzzy, kde-format
+#| msgid "Add schedule %1"
+msgctxt "(qtundo-format)"
+msgid "Add schedule %1"
+msgstr "添加计划 %1"
+
+#: ui/kptscheduleeditor.cpp:485
+msgctxt "@action"
+msgid "Show Debug Information"
+msgstr "显示调试信息"
+
+#: ui/kptscheduleeditor.cpp:720
+msgid "Result"
+msgstr "结果"
+
+#: ui/kptscheduleeditor.cpp:730
+msgid "Scheduling Log"
+msgstr "计划日志"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCriticalPath)
+#: ui/kptscheduleeditor.ui:74
+msgid "Critical Path (Task Id) :"
+msgstr "关键路径(任务ID)："
+
+#. i18n: ectx: property (text), widget (QLabel, labelProjectFloat)
+#: ui/kptscheduleeditor.ui:107
+#, fuzzy
+msgid "Project Float :"
+msgstr "项目"
+
+#. i18n: ectx: property (title), widget (QGroupBox, taskGroupBoxDetail)
+#: ui/kptscheduleeditor.ui:128
+msgid "Task details "
+msgstr "任务详情"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidgetTaskResult)
+#: ui/kptscheduleeditor.ui:159
+msgid "Id"
+msgstr "Id"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidgetTaskResult)
+#: ui/kptscheduleeditor.ui:169
+#, fuzzy
+msgid "Early start date"
+msgstr "开始日期："
+
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidgetTaskResult)
+#: ui/kptscheduleeditor.ui:174
+#, fuzzy
+#| msgid "Finished"
+msgid "Early finish date"
+msgstr "已完成"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidgetTaskResult)
+#: ui/kptscheduleeditor.ui:179
+#, fuzzy
+msgid "Late start date"
+msgstr "开始日期："
+
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidgetTaskResult)
+#: ui/kptscheduleeditor.ui:184
+#, fuzzy
+#| msgid "Must Finish On"
+msgid "Late finish date"
+msgstr "必须开始于"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidgetTaskResult)
+#: ui/kptscheduleeditor.ui:189
+msgid "Float"
+msgstr "浮动"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidgetTaskResult)
+#: ui/kptscheduleeditor.ui:194
+msgid "Free Margin"
+msgstr ""
+
+#: ui/kptstandardworktimedialog.cpp:89
+#, fuzzy
+#| msgid "Modify Calendar"
+msgid "Estimate Conversions"
+msgstr "修改日历"
+
+#: ui/kptstandardworktimedialog.cpp:107
+#, fuzzy
+#| msgid "Modify Relation"
+msgid "Modify Estimate Conversions"
+msgstr "修改依据关系"
+
+#: ui/kptsummarytaskdialog.cpp:39
+msgid "Summary Task Settings"
+msgstr "摘要任务设置"
+
+#: ui/kptsummarytaskdialog.cpp:64
+#, fuzzy
+#| msgid "Modify Summary Task"
+msgctxt "(qtundo-format)"
+msgid "Modify Summary Task"
+msgstr "修改摘要任务"
+
+#: ui/kptsummarytaskgeneralpanel.cpp:96 ui/kpttaskdialog.cpp:107
+#, fuzzy
+#| msgid "Modify task"
+msgctxt "(qtundo-format)"
+msgid "Modify task"
+msgstr "修改任务"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, wbslabel)
+#: ui/kptsummarytaskgeneralpanelbase.ui:29 ui/kpttaskgeneralpanelbase.ui:23
+#, fuzzy
+msgid "Work Breakdown Structure"
+msgstr "WBS"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, namelabel)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, namefield)
+#: ui/kptsummarytaskgeneralpanelbase.ui:45
+#: ui/kptsummarytaskgeneralpanelbase.ui:73
+#: ui/kpttaskdescriptionpanelbase.ui:24 ui/kpttaskdescriptionpanelbase.ui:40
+#: ui/kpttaskgeneralpanelbase.ui:55 ui/kpttaskgeneralpanelbase.ui:74
+msgid "The name of the Task."
+msgstr "任务名称。"
+
+#. i18n: ectx: property (text), widget (QLabel, ui_namelabel)
+#. i18n: ectx: property (text), widget (QLabel, namelabel)
+#: ui/kptsummarytaskgeneralpanelbase.ui:48
+#: ui/kpttaskdescriptionpanelbase.ui:27 ui/kpttaskgeneralpanelbase.ui:58
+#: ui/resourcedialogbase.ui:36
+msgid "Name:"
+msgstr "名称："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, leaderlabel)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, leaderfield)
+#: ui/kptsummarytaskgeneralpanelbase.ui:82
+#: ui/kptsummarytaskgeneralpanelbase.ui:111 ui/kpttaskgeneralpanelbase.ui:83
+#: ui/kpttaskgeneralpanelbase.ui:109
+msgid ""
+"The person responsible for this task.\n"
+"\n"
+"This is not limited to persons available in a resource group but can be "
+"anyone. You can even directly access your address book with the Choose "
+"button."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, leaderlabel)
+#: ui/kptsummarytaskgeneralpanelbase.ui:85 ui/kpttaskgeneralpanelbase.ui:86
+msgid "Responsible:"
+msgstr "负责人："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, chooseLeader)
+#: ui/kptsummarytaskgeneralpanelbase.ui:118 ui/kpttaskgeneralpanelbase.ui:116
+msgid "Insert a person from your address book"
+msgstr "从您的地址簿中插入个人"
+
+#. i18n: ectx: property (text), widget (QPushButton, chooseBtn)
+#. i18n: ectx: property (text), widget (QPushButton, chooseLeader)
+#: ui/kptsummarytaskgeneralpanelbase.ui:121 ui/kpttaskgeneralpanelbase.ui:122
+#: ui/resourcedialogbase.ui:70
+msgid "Choose..."
+msgstr "选择..."
+
+#: ui/kpttaskcostpanel.cpp:94
+#, fuzzy
+#| msgid "Modify Task Cost"
+msgctxt "(qtundo-format)"
+msgid "Modify Task Cost"
+msgstr "修改任务成本"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_3)
+#: ui/kpttaskcostpanelbase.ui:27 ui/kpttaskcostpanelbase.ui:97
+#: ui/kpttaskcostpanelbase.ui:167 ui/resourcedialogbase.ui:492
+msgid "Account:"
+msgstr "账户："
+
+#. i18n: ectx: property (title), widget (QGroupBox, startupGroup)
+#: ui/kpttaskcostpanelbase.ui:72
+msgid "Startup"
+msgstr "开始"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: ui/kpttaskcostpanelbase.ui:78 ui/kpttaskcostpanelbase.ui:148
+msgid "Cost:"
+msgstr "成本："
+
+#. i18n: ectx: property (title), widget (QGroupBox, shutdownGroup)
+#: ui/kpttaskcostpanelbase.ui:142
+msgid "Shutdown"
+msgstr "关闭"
+
+#: ui/kpttaskdescriptiondialog.cpp:50
+msgid "Modify task description"
+msgstr "修改任务描述"
+
+#: ui/kpttaskdescriptiondialog.cpp:52
+msgid "Modify milestone description"
+msgstr "修改里程碑描述"
+
+#: ui/kpttaskdescriptiondialog.cpp:54
+msgid "Modify summary task description"
+msgstr "修改摘要任务描述"
+
+#: ui/kpttaskdescriptiondialog.cpp:56
+msgid "Modify project description"
+msgstr "修改工程描述"
+
+#: ui/kpttaskdescriptiondialog.cpp:137
+msgid "Task Description"
+msgstr "任务描述"
+
+#: ui/kpttaskdialog.cpp:45
+msgid "Task Settings"
+msgstr "任务设置"
+
+#: ui/kpttaskdialog.cpp:54
+msgid "&General"
+msgstr "常规(&G)"
+
+#: ui/kpttaskdialog.cpp:58
+msgid "&Resources"
+msgstr "资源(&R)"
+
+#: ui/kpttaskdialog.cpp:62 ui/kptworkpackagemergedialog.cpp:63
+msgid "&Documents"
+msgstr "文档(&D)"
+
+#: ui/kpttaskdialog.cpp:66
+msgid "&Cost"
+msgstr "成本(&C)"
+
+#: ui/kpttaskdialog.cpp:70
+msgid "D&escription"
+msgstr "描述(&E)"
+
+#: ui/kpttaskdialog.cpp:215
+msgid "Add sub-task"
+msgstr "添加子任务"
+
+#: ui/kpttaskdialog.cpp:217
+msgid "Add task"
+msgstr "添加任务"
+
+#: ui/kpttaskeditor.cpp:86
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "The type of task or the estimate type of the task"
+msgstr "未指派资源"
+
+#: ui/kpttaskeditor.cpp:89
+msgctxt "@info:whatsthis"
+msgid ""
+"<p>Indicates the type of task or the estimate type of the task.</p>The type "
+"can be set to <emphasis>Milestone</emphasis>, <emphasis>Effort</emphasis> or "
+"<emphasis>Duration</emphasis>.<nl/><note>If the type is <emphasis>Summary</"
+"emphasis> or <emphasis>Project</emphasis> the type is not editable.</note>"
+msgstr ""
+
+#: ui/kpttaskeditor.cpp:133
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Task with estimate type: %1"
+msgstr ""
+
+#: ui/kpttaskeditor.cpp:135
+#, fuzzy, kde-format
+#| msgid "Task type"
+msgctxt "@info:tooltip"
+msgid "Task type: %1"
+msgstr "任务类型: %1"
+
+#: ui/kpttaskeditor.cpp:171 ui/kpttaskeditor.cpp:173
+#, fuzzy
+#| msgid "The type of relation"
+msgctxt "(qtundo-format)"
+msgid "Set type to Milestone"
+msgstr "关系类型"
+
+#: ui/kpttaskeditor.cpp:180
+#, fuzzy, kde-format
+#| msgid "The type of relation"
+msgctxt "(qtundo-format)"
+msgid "Set type to %1"
+msgstr "关系类型"
+
+#: ui/kpttaskeditor.cpp:383
+#, fuzzy
+#| msgid "Allocation"
+msgctxt "@title resource allocations"
+msgid "Allocations"
+msgstr "分配"
+
+#: ui/kpttaskeditor.cpp:402
+#, fuzzy
+#| msgid "Resources"
+msgctxt "@title"
+msgid "Resources"
+msgstr "资源"
+
+#: ui/kpttaskeditor.cpp:404
+msgctxt "@info:tooltip"
+msgid ""
+"Drag resources into the Task Editor and drop into the allocations- or "
+"responsible column"
+msgstr ""
+
+#: ui/kpttaskeditor.cpp:429
+#, fuzzy
+#| msgid "Task Progress"
+msgctxt "@title"
+msgid "Task Modules"
+msgstr "任务进度"
+
+#: ui/kpttaskeditor.cpp:430
+msgctxt "@info:tooltip"
+msgid ""
+"Drag a task module into the <emphasis>Task Editor</emphasis> to add it to "
+"the project"
+msgstr ""
+
+#: ui/kpttaskeditor.cpp:707
+msgid "Add Milestone"
+msgstr "添加里程碑"
+
+#: ui/kpttaskeditor.cpp:723
+msgid "Add Sub-Milestone"
+msgstr "添加子里程碑"
+
+#: ui/kpttaskeditor.cpp:736
+msgid "Indent Task"
+msgstr "缩进任务"
+
+#: ui/kpttaskeditor.cpp:741
+msgid "Unindent Task"
+msgstr "取消缩进任务"
+
+#: ui/kpttaskeditor.cpp:746
+msgid "Move Up"
+msgstr "上移"
+
+#: ui/kpttaskeditor.cpp:751
+msgid "Move Down"
+msgstr "下移"
+
+#: ui/kpttaskeditor.cpp:1484
+msgid "Send..."
+msgstr "发送..."
+
+#: ui/kpttaskeditor.cpp:1502
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Send Work Packages"
+msgctxt "(qtundo-format)"
+msgid "Log Send Workpackage"
+msgstr "发送任务包"
+
+#: ui/kpttaskgeneralpanel.cpp:119
+#, fuzzy
+#| msgid "Modify Task"
+msgctxt "(qtundo-format)"
+msgid "Modify Task"
+msgstr "修改任务"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, chooseLeader)
+#: ui/kpttaskgeneralpanelbase.ui:119
+msgid "Insert a person from your address book."
+msgstr "从您的地址簿中选择个人。"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, schedulingGroup)
+#: ui/kpttaskgeneralpanelbase.ui:138
+msgid ""
+"Scheduling Configuration. These settings affect the actual scheduling of the "
+"task.\n"
+"\n"
+"The estimation can be either effort based or duration based. If it is effort "
+"based, the final duration will depend on the resources assigned to the task. "
+"For duration based estimation, the assigned resources do not affect the "
+"fixed duration of the task, but only the costs."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, schedulingGroup)
+#: ui/kpttaskgeneralpanelbase.ui:141
+msgid "Timing"
+msgstr "计时"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: ui/kpttaskgeneralpanelbase.ui:159
+msgid "Schedule:"
+msgstr "计划："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, scheduleType)
+#: ui/kpttaskgeneralpanelbase.ui:182
+msgid "As Soon as Possible"
+msgstr "尽可能早"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, scheduleType)
+#: ui/kpttaskgeneralpanelbase.ui:187
+msgid "As Late as Possible"
+msgstr "尽可能晚"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, scheduleType)
+#: ui/kpttaskgeneralpanelbase.ui:202
+msgid "Start Not Earlier Than"
+msgstr "开始不早于"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, scheduleType)
+#: ui/kpttaskgeneralpanelbase.ui:207
+msgid "Finish Not Later Than"
+msgstr "完成不晚于"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: ui/kpttaskgeneralpanelbase.ui:265
+msgid "Estimate:"
+msgstr "估计："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel3_2_3)
+#. i18n: ectx: property (toolTip), widget (KComboBox, risk)
+#: ui/kpttaskgeneralpanelbase.ui:307 ui/kpttaskgeneralpanelbase.ui:338
+msgid ""
+"Risk controls the PERT distribution used when calculating the actual "
+"estimate for this task."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3_2_3)
+#: ui/kpttaskgeneralpanelbase.ui:313
+msgid ""
+"<p>Risk controls the PERT distribution used when calculating the actual "
+"estimate for the task.\n"
+"<b>None</b> means the Expected estimate is used as is.\n"
+"<b>Low risk</b> means that a normal distribution is used.\n"
+"<b>High risk</b> means that the estimate will be slightly pessimistic "
+"compared to Low risk.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2_3)
+#: ui/kpttaskgeneralpanelbase.ui:316
+msgid "Risk:"
+msgstr "风险："
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, risk)
+#: ui/kpttaskgeneralpanelbase.ui:344
+msgid ""
+"<p>Risk controles the PERT distribution used when calculating the actual "
+"estimate for the task.\n"
+"<b>None</b> means the Expected estimate is used as is.\n"
+"<b>Low risk</b> means that a normal distribution is used.\n"
+"<b>High risk</b> means that the estimate will be slightly pessimistic "
+"compared to Low risk.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: ui/kpttaskgeneralpanelbase.ui:369
+#, fuzzy
+#| msgid "Estimate:"
+msgid "Optimistic:"
+msgstr "估计："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: ui/kpttaskgeneralpanelbase.ui:398
+#, fuzzy
+#| msgid "Estimate:"
+msgid "Pessimistic:"
+msgstr "估计："
+
+#: ui/kpttaskprogressdialog.cpp:38 ui/kptworkpackagemergedialog.cpp:58
+msgid "Task Progress"
+msgstr "任务进度"
+
+#: ui/kpttaskprogressdialog.cpp:67
+#, fuzzy
+#| msgid "Modify Task Progress"
+msgctxt "(qtundo-format)"
+msgid "Modify Task Progress"
+msgstr "修改任务进度"
+
+#: ui/kpttaskprogresspanel.cpp:125
+msgid "Modify task completion"
+msgstr "修改任务完成度"
+
+#: ui/kpttaskprogresspanel.cpp:418 ui/kpttaskprogresspanel.cpp:433
+#, kde-format
+msgctxt "Week number (year)"
+msgid "Week %1 (%2)"
+msgstr "第 %1 周(%2)"
+
+#: ui/kpttaskprogresspanel.cpp:424 ui/kpttaskprogresspanel.cpp:431
+#, kde-format
+msgctxt "Week number"
+msgid "Week %1"
+msgstr "第 %1 周"
+
+#. i18n: ectx: property (text), widget (QCheckBox, started)
+#: ui/kpttaskprogresspanelbase.ui:27
+msgid "Started:"
+msgstr "开始："
+
+#. i18n: ectx: property (text), widget (QCheckBox, finished)
+#: ui/kpttaskprogresspanelbase.ui:44
+msgid "Finished:"
+msgstr "完成："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kpttaskprogresspanelbase.ui:74
+msgid "Edit mode:"
+msgstr "编辑模式："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, editmode)
+#: ui/kpttaskprogresspanelbase.ui:82
+#, fuzzy
+#| msgid "Calculate"
+msgid "Calculate effort"
+msgstr "计算"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, editmode)
+#: ui/kpttaskprogresspanelbase.ui:87
+msgid "Per task"
+msgstr "每任务"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, editmode)
+#: ui/kpttaskprogresspanelbase.ui:92
+msgid "Per resource"
+msgstr "每资源"
+
+#. i18n: ectx: attribute (title), widget (QWidget, completionTab)
+#: ui/kpttaskprogresspanelbase.ui:107
+msgid "Completion"
+msgstr "完成"
+
+#. i18n: ectx: property (text), widget (QPushButton, addEntryBtn)
+#: ui/kpttaskprogresspanelbase.ui:136
+msgid "Add Entry"
+msgstr "添加条目"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeEntryBtn)
+#: ui/kpttaskprogresspanelbase.ui:143
+msgid "Remove Entry"
+msgstr "删除条目"
+
+#. i18n: ectx: attribute (title), widget (QWidget, usedEffortTab)
+#: ui/kpttaskprogresspanelbase.ui:176
+msgid "Per Resource"
+msgstr "每资源"
+
+#. i18n: ectx: property (text), widget (QPushButton, prevWeekBtn)
+#: ui/kpttaskprogresspanelbase.ui:209
+msgid "Prev"
+msgstr "上一个"
+
+#. i18n: ectx: property (text), widget (QPushButton, nextWeekBtn)
+#: ui/kpttaskprogresspanelbase.ui:219
+msgid "Next"
+msgstr "下一个"
+
+#. i18n: ectx: property (text), widget (QPushButton, addResource)
+#: ui/kpttaskprogresspanelbase.ui:239
+msgid "Add Resource..."
+msgstr "添加资源..."
+
+#: ui/kpttaskstatusview.cpp:421
+msgid "General Settings"
+msgstr "常规设置"
+
+#: ui/kpttaskstatusview.cpp:959 ui/kpttaskstatusview.cpp:962
+#, fuzzy, kde-format
+#| msgid "Cost"
+msgctxt "Chart axis title 1=currency symbol"
+msgid "Cost (%1)"
+msgstr "成本 (%1)"
+
+#: ui/kpttaskstatusview.cpp:960 ui/kpttaskstatusview.cpp:963
+msgctxt "Chart axis title"
+msgid "Effort (hours)"
+msgstr ""
+
+#: ui/kpttaskstatusview.cpp:1363 ui/kpttaskstatusview.cpp:1379
+msgid "Chart Settings"
+msgstr "图表设置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, periodGroupBox)
+#: ui/kpttaskstatusviewsettingspanel.ui:16
+#, fuzzy
+msgid "Period Definition"
+msgstr "WBS 定义"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kpttaskstatusviewsettingspanel.ui:25
+msgid "Period length (days):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, useCurrentDate)
+#: ui/kpttaskstatusviewsettingspanel.ui:48
+msgid "Use current date"
+msgstr "使用当前日期"
+
+#. i18n: ectx: property (text), widget (QRadioButton, useWeekday)
+#: ui/kpttaskstatusviewsettingspanel.ui:68
+msgid "Use weekday:"
+msgstr "使用工作日："
+
+#: ui/kptusedefforteditor.cpp:47
+msgid "Resource"
+msgstr "资源"
+
+#: ui/kptusedefforteditor.cpp:51
+msgid "This Week"
+msgstr "本周"
+
+#: ui/kptusedefforteditor.cpp:224
+msgid "Total effort this week"
+msgstr ""
+
+#: ui/kptusedefforteditor.cpp:389
+#, no-c-format
+msgid "% Completed"
+msgstr "完成百分比"
+
+#: ui/kptusedefforteditor.cpp:390 ui/kptworkpackagemergedialog.cpp:53
+msgid "Used Effort"
+msgstr ""
+
+#: ui/kptusedefforteditor.cpp:391
+msgid "Remaining Effort"
+msgstr ""
+
+#: ui/kptusedefforteditor.cpp:392
+msgid "Planned Effort"
+msgstr ""
+
+#: ui/kptviewbase.cpp:185
+msgid "Header and Footer"
+msgstr "页眉和页脚"
+
+#: ui/kptviewbase.cpp:392
+#, kde-format
+msgctxt "1=page number, 2=last page number"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: ui/kptviewbase.cpp:474
+msgid "Page:"
+msgstr "页面："
+
+#: ui/kptviewbase.cpp:477
+msgid "Project:"
+msgstr "项目："
+
+#: ui/kptviewbase.cpp:480
+msgid "Date:"
+msgstr "日期："
+
+#: ui/kptviewbase.cpp:558
+msgid "This view does not support printing."
+msgstr "此视图不支持打印。"
+
+#: ui/kptviewbase.cpp:567
+msgctxt "@title:tab"
+msgid "Page Layout"
+msgstr "页面布局"
+
+#: ui/kptviewbase.cpp:588
+#, fuzzy
+#| msgid "Header and Footer"
+msgctxt "@title:tab"
+msgid "Header and Footer"
+msgstr "页眉和页脚"
+
+#: ui/kptviewbase.cpp:605
+msgid "Configure View..."
+msgstr "配置视图..."
+
+#: ui/kptviewbase.cpp:2169
+msgid "Unsplit View"
+msgstr ""
+
+#: ui/kptviewbase.cpp:2172
+msgid "Split View"
+msgstr "拆分视图"
+
+#: ui/kptwbsdefinitiondialog.cpp:35
+msgid "WBS Definition"
+msgstr "WBS 定义"
+
+#: ui/kptwbsdefinitionpanel.cpp:149
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Modify WBS Code Definition"
+msgstr "修改 WBS 定义"
+
+#. i18n: ectx: property (toolTip), widget (QFrame, frame_2)
+#: ui/kptwbsdefinitionpanelbase.ui:21
+#, fuzzy
+msgctxt "@info:tooltip Work Breakdown Structure code"
+msgid "Define WBS code for the project"
+msgstr "定义项目何时结束。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/kptwbsdefinitionpanelbase.ui:33
+#, fuzzy
+msgid "Project Code Definition"
+msgstr "项目设置"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/kptwbsdefinitionpanelbase.ui:42 ui/kptwbsdefinitionpanelbase.ui:107
+msgid "Code:"
+msgstr "代码："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3_3)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3_2)
+#: ui/kptwbsdefinitionpanelbase.ui:58 ui/kptwbsdefinitionpanelbase.ui:127
+msgid "Separator:"
+msgstr "开始："
+
+#. i18n: ectx: property (toolTip), widget (QFrame, frame)
+#: ui/kptwbsdefinitionpanelbase.ui:86
+#, fuzzy
+#| msgid "Define default code"
+msgctxt "@info:tooltip Work Breakdown Structure code"
+msgid "Define default WBS code"
+msgstr "定义默认代码"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kptwbsdefinitionpanelbase.ui:98
+msgid "Default Definition"
+msgstr "默认定义"
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, levelsGroup)
+#: ui/kptwbsdefinitionpanelbase.ui:148
+msgctxt "@info:tooltip Work Breakdown Structure code"
+msgid "Define separate WBS codes for individual levels"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, levelsGroup)
+#: ui/kptwbsdefinitionpanelbase.ui:151
+msgid "Use Levels Definition"
+msgstr "使用级别定义"
+
+#. i18n: ectx: property (text), widget (QTableWidget, levelsTable)
+#: ui/kptwbsdefinitionpanelbase.ui:167
+msgid "Code"
+msgstr "代码"
+
+#. i18n: ectx: property (text), widget (QTableWidget, levelsTable)
+#: ui/kptwbsdefinitionpanelbase.ui:172
+msgid "Separator"
+msgstr "分隔符"
+
+#. i18n: ectx: property (text), widget (QPushButton, addBtn)
+#: ui/kptwbsdefinitionpanelbase.ui:187
+msgid "Add Level"
+msgstr "添加级别"
+
+#: ui/kptworkpackagesenddialog.cpp:35
+msgctxt "@title:window"
+msgid "Send Work Packages"
+msgstr "发送任务包"
+
+#: ui/kptworkpackagesendpanel.cpp:56
+msgid "Send To..."
+msgstr "发送到..."
+
+#. i18n: ectx: property (text), widget (QLabel, m_labMonCurSym)
+#: ui/locale/localemon.cpp:52 ui/locale/localemon.ui:19
+msgid "Currency symbol:"
+msgstr "货币符号："
+
+#: ui/locale/localemon.cpp:55
+msgid "Fract digits:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_positiveGB)
+#: ui/locale/localemon.cpp:56 ui/locale/localemon.ui:49
+msgid "Positive"
+msgstr "正数"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_chMonPosPreCurSym)
+#. i18n: ectx: property (text), widget (QCheckBox, m_chMonNegPreCurSym)
+#: ui/locale/localemon.cpp:57 ui/locale/localemon.cpp:60
+#: ui/locale/localemon.ui:55 ui/locale/localemon.ui:124
+msgid "Prefix currency symbol"
+msgstr "前缀货币符号"
+
+#. i18n: ectx: property (text), widget (QLabel, m_labMonPosMonSignPos)
+#. i18n: ectx: property (text), widget (QLabel, m_labMonNegMonSignPos)
+#: ui/locale/localemon.cpp:58 ui/locale/localemon.cpp:61
+#: ui/locale/localemon.ui:64 ui/locale/localemon.ui:133
+msgid "Sign position:"
+msgstr "符号位置："
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_negativeGB)
+#: ui/locale/localemon.cpp:59 ui/locale/localemon.ui:118
+msgid "Negative"
+msgstr "负值"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
+#: ui/locale/localemon.cpp:256 ui/locale/localemon.ui:72
+#: ui/locale/localemon.ui:141
+msgid "Parentheses Around"
+msgstr "使用括号"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
+#: ui/locale/localemon.cpp:257 ui/locale/localemon.ui:77
+#: ui/locale/localemon.ui:146
+msgid "Before Quantity Money"
+msgstr "在货币数量前"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
+#: ui/locale/localemon.cpp:258 ui/locale/localemon.ui:82
+#: ui/locale/localemon.ui:151
+msgid "After Quantity Money"
+msgstr "在货币数量后"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
+#: ui/locale/localemon.cpp:259 ui/locale/localemon.ui:87
+#: ui/locale/localemon.ui:156
+msgid "Before Money"
+msgstr "在货币前"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonPosMonSignPos)
+#. i18n: ectx: property (text), item, widget (QComboBox, m_cmbMonNegMonSignPos)
+#: ui/locale/localemon.cpp:260 ui/locale/localemon.ui:92
+#: ui/locale/localemon.ui:161
+msgid "After Money"
+msgstr "在货币后"
+
+#: ui/locale/localemon.cpp:274
+msgid "Here you can enter your usual currency symbol, e.g. $ or €."
+msgstr ""
+
+#: ui/locale/localemon.cpp:294
+msgid ""
+"This determines the number of fract digits for monetary values, i.e. the "
+"number of digits you find <em>behind</em> the decimal separator. Correct "
+"value is 2 for almost all people."
+msgstr ""
+
+#: ui/locale/localemon.cpp:301
+msgid ""
+"If this option is checked, the currency sign will be prefixed (i.e. to the "
+"left of the value) for all positive monetary values. If not, it will be "
+"postfixed (i.e. to the right)."
+msgstr ""
+"如果选中此选项，货币符号将作为全部货币正数值的前缀(也就是放在数值的左面)。如"
+"果未选中此选项，货币符号将作为全部货币正数值的后缀(也就是放在数值的右面)。"
+
+#: ui/locale/localemon.cpp:307
+msgid ""
+"If this option is checked, the currency sign will be prefixed (i.e. to the "
+"left of the value) for all negative monetary values. If not, it will be "
+"postfixed (i.e. to the right)."
+msgstr ""
+"如果选中此选项，货币符号将作为全部货币负数值的前缀(也就是放在数值的左面)。如"
+"果未选中此选项，货币符号将作为全部货币负数值的后缀(也就是放在数值的右面)。"
+
+#: ui/locale/localemon.cpp:313
+msgid ""
+"Here you can select how a positive sign will be positioned. This only "
+"affects monetary values."
+msgstr "选择正号的位置。仅影响金额显示。"
+
+#: ui/locale/localemon.cpp:318
+msgid ""
+"Here you can select how a negative sign will be positioned. This only "
+"affects monetary values."
+msgstr "选择负号的位置。仅影响金额显示。"
+
+#. i18n: ectx: property (text), widget (QLabel, m_labMonFraDig)
+#: ui/locale/localemon.ui:32
+msgid "Fractional digits:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, ui_fromgroup)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/relationpanel.ui:41 ui/resourcedialogbase.ui:271
+msgid "From"
+msgstr "从"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: ui/relationpanel.ui:63
+msgid "To"
+msgstr "到"
+
+#. i18n: ectx: property (title), widget (QGroupBox, relationType)
+#: ui/relationpanel.ui:87
+msgid "Dependency Type"
+msgstr "依赖关系类型"
+
+#: ui/reports/reportdata.cpp:396 ui/reports/reportview.cpp:987
+msgid "Task status"
+msgstr "任务状态"
+
+#: ui/reports/reportdata.cpp:446 ui/reports/reportview.cpp:992
+msgid "Resource assignments"
+msgstr "资源指派"
+
+#: ui/reports/reportdata.cpp:751
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Performance indexes"
+msgid "Cost Performance"
+msgstr "性能索引"
+
+#: ui/reports/reportdata.cpp:805
+msgid "Effort Performance"
+msgstr ""
+
+#: ui/reports/reportdata.cpp:858
+msgid "Cost Breakdown"
+msgstr "成本削减"
+
+#: ui/reports/reportdesignview.cpp:44
+msgid "Cut"
+msgstr "剪切"
+
+#: ui/reports/reportdesignview.cpp:46
+msgid "Copy"
+msgstr "复制"
+
+#: ui/reports/reportdesignview.cpp:48
+msgid "Paste"
+msgstr "粘贴"
+
+#: ui/reports/reportdesignview.cpp:50
+msgid "Delete"
+msgstr "删除"
+
+#: ui/reports/reportdesignview.cpp:53 ui/reports/reportview.cpp:897
+msgid "Section Editor"
+msgstr "节编辑器"
+
+#: ui/reports/reportdesignview.cpp:56 ui/reports/reportview.cpp:888
+msgid "Raise"
+msgstr "升起"
+
+#: ui/reports/reportdesignview.cpp:58 ui/reports/reportview.cpp:891
+msgid "Lower"
+msgstr "降低"
+
+#: ui/reports/reportexportpanel.cpp:34
+#, fuzzy
+#| msgid "Open document spreadsheet"
+msgid "Open document text (table)"
+msgstr "打开文档工作表"
+
+#: ui/reports/reportexportpanel.cpp:35
+#, fuzzy
+#| msgid "Open document spreadsheet"
+msgid "Open document text (frames)"
+msgstr "打开文档工作表"
+
+#: ui/reports/reportexportpanel.cpp:36
+msgid "Open document spreadsheet"
+msgstr "打开文档工作表"
+
+#: ui/reports/reportexportpanel.cpp:37
+msgid "HTML"
+msgstr "HTML"
+
+#: ui/reports/reportexportpanel.cpp:38
+msgid "XHTML"
+msgstr "XHTML"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/reports/reportexportpanel.ui:17
+msgid "Select format:"
+msgstr "选择格式："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/reports/reportnavigator.ui:20
+msgid "Page"
+msgstr "页面"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, ui_first)
+#: ui/reports/reportnavigator.ui:42
+msgid "Go to first page"
+msgstr "转到第一页"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, ui_prev)
+#: ui/reports/reportnavigator.ui:64
+msgid "Go to previous page"
+msgstr "转到上一页"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, ui_selector)
+#: ui/reports/reportnavigator.ui:77
+msgid "Show page"
+msgstr "显示页面"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/reports/reportnavigator.ui:99
+#, fuzzy
+msgid "of"
+msgstr "共"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, ui_next)
+#: ui/reports/reportnavigator.ui:149
+msgid "Go to next page"
+msgstr "转到下一页"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, ui_last)
+#: ui/reports/reportnavigator.ui:171
+msgid "Go to last page"
+msgstr "转到最后一页"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, reportheader)
+#: ui/reports/reportsectionswidget.ui:31
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Report Designer"
+msgid "Enable report header"
+msgstr "报表设计器"
+
+#. i18n: ectx: property (text), widget (QCheckBox, reportheader)
+#: ui/reports/reportsectionswidget.ui:34
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Report Designer"
+msgid "Report Header"
+msgstr "报表设计器"
+
+#. i18n: @info:tooltip
+#. i18n: ectx: property (toolTip), widget (QCheckBox, reportfooter)
+#: ui/reports/reportsectionswidget.ui:41
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Report Designer"
+msgid "Enable report footer"
+msgstr "报表设计器"
+
+#. i18n: ectx: property (text), widget (QCheckBox, reportfooter)
+#: ui/reports/reportsectionswidget.ui:44
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Report Designer"
+msgid "Report Footer"
+msgstr "报表设计器"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/reports/reportsectionswidget.ui:53
+#, fuzzy
+#| msgid "Header"
+msgid "Page Header"
+msgstr "领导"
+
+#. i18n: @info:tooltip
+#. i18n: ectx: property (toolTip), widget (QCheckBox, headerFirstpage)
+#: ui/reports/reportsectionswidget.ui:65
+#, fuzzy
+#| msgid "Go to first page"
+msgid "Enable header on first page"
+msgstr "转到第一页"
+
+#. i18n: ectx: property (text), widget (QCheckBox, headerFirstpage)
+#. i18n: ectx: property (text), widget (QCheckBox, footerFirstpage)
+#: ui/reports/reportsectionswidget.ui:68
+#: ui/reports/reportsectionswidget.ui:133
+#, fuzzy
+#| msgid "Go to first page"
+msgid "First page"
+msgstr "转到第一页"
+
+#. i18n: @info:tooltip
+#. i18n: ectx: property (toolTip), widget (QCheckBox, headerLastpage)
+#: ui/reports/reportsectionswidget.ui:75
+#, fuzzy
+#| msgid "Go to first page"
+msgid "Enable header on last page"
+msgstr "转到第一页"
+
+#. i18n: ectx: property (text), widget (QCheckBox, headerLastpage)
+#. i18n: ectx: property (text), widget (QCheckBox, footerLastpage)
+#: ui/reports/reportsectionswidget.ui:78
+#: ui/reports/reportsectionswidget.ui:163
+#, fuzzy
+#| msgid "Go to last page"
+msgid "Last page"
+msgstr "转到最后一页"
+
+#. i18n: @info:tooltip
+#. i18n: ectx: property (toolTip), widget (QCheckBox, headerOddpages)
+#: ui/reports/reportsectionswidget.ui:85
+#, fuzzy
+#| msgid "Go to first page"
+msgid "Enable header on odd pages"
+msgstr "转到第一页"
+
+#. i18n: ectx: property (text), widget (QCheckBox, headerOddpages)
+#. i18n: ectx: property (text), widget (QCheckBox, footerOddpages)
+#: ui/reports/reportsectionswidget.ui:88
+#: ui/reports/reportsectionswidget.ui:143
+msgid "Odd pages"
+msgstr ""
+
+#. i18n: @info:tooltip
+#. i18n: ectx: property (toolTip), widget (QCheckBox, headerEvenpages)
+#: ui/reports/reportsectionswidget.ui:95
+#, fuzzy
+#| msgid "Go to first page"
+msgid "Enable header on even pages"
+msgstr "转到第一页"
+
+#. i18n: ectx: property (text), widget (QCheckBox, headerEvenpages)
+#. i18n: ectx: property (text), widget (QCheckBox, footerEvenpages)
+#: ui/reports/reportsectionswidget.ui:98
+#: ui/reports/reportsectionswidget.ui:153
+msgid "Even pages"
+msgstr ""
+
+#. i18n: @info:tooltip
+#. i18n: ectx: property (toolTip), widget (QCheckBox, headerAllpages)
+#: ui/reports/reportsectionswidget.ui:105
+#, fuzzy
+#| msgid "Go to first page"
+msgid "Enable header on all pages"
+msgstr "转到第一页"
+
+#. i18n: ectx: property (text), widget (QCheckBox, headerAllpages)
+#. i18n: ectx: property (text), widget (QCheckBox, footerAllpages)
+#: ui/reports/reportsectionswidget.ui:108
+#: ui/reports/reportsectionswidget.ui:173
+msgid "All pages"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: ui/reports/reportsectionswidget.ui:118
+#, fuzzy
+#| msgid "Footer"
+msgid "Page Footer"
+msgstr "页脚"
+
+#. i18n: @info:tooltip
+#. i18n: ectx: property (toolTip), widget (QCheckBox, footerFirstpage)
+#: ui/reports/reportsectionswidget.ui:130
+#, fuzzy
+#| msgid "Go to first page"
+msgid "Enable footer on first page"
+msgstr "转到第一页"
+
+#. i18n: @info:tooltip
+#. i18n: ectx: property (toolTip), widget (QCheckBox, footerOddpages)
+#: ui/reports/reportsectionswidget.ui:140
+#, fuzzy
+#| msgid "Go to last page"
+msgid "Enable footer on odd pages"
+msgstr "转到最后一页"
+
+#. i18n: @info:tooltip
+#. i18n: ectx: property (toolTip), widget (QCheckBox, footerEvenpages)
+#: ui/reports/reportsectionswidget.ui:150
+#, fuzzy
+#| msgid "Go to last page"
+msgid "Enable footer on even pages"
+msgstr "转到最后一页"
+
+#. i18n: @info:tooltip
+#. i18n: ectx: property (toolTip), widget (QCheckBox, footerLastpage)
+#: ui/reports/reportsectionswidget.ui:160
+#, fuzzy
+#| msgid "Go to last page"
+msgid "Enable footer on last page"
+msgstr "转到最后一页"
+
+#. i18n: @info:tooltip
+#. i18n: ectx: property (toolTip), widget (QCheckBox, footerAllpages)
+#: ui/reports/reportsectionswidget.ui:170
+#, fuzzy
+#| msgid "Go to last page"
+msgid "Enable footer on all pages"
+msgstr "转到最后一页"
+
+#: ui/reports/reportview.cpp:354
+msgctxt "@title:window"
+msgid "Export Report"
+msgstr "导出报表"
+
+#: ui/reports/reportview.cpp:399
+#, kde-format
+msgctxt "@info"
+msgid "Cannot export report. Invalid url:<br>file:<br><filename>%1</filename>"
+msgstr ""
+
+#: ui/reports/reportview.cpp:399 ui/reports/reportview.cpp:408
+msgid "Not Saved"
+msgstr "未保存"
+
+#: ui/reports/reportview.cpp:408
+msgid "Cannot export report. Unknown file format"
+msgstr ""
+
+#: ui/reports/reportview.cpp:425 ui/reports/reportview.cpp:438
+#: ui/reports/reportview.cpp:452 ui/reports/reportview.cpp:466
+#: ui/reports/reportview.cpp:480
+#, kde-format
+msgctxt "@info"
+msgid "Failed to export to <filename>%1</filename>"
+msgstr ""
+
+#: ui/reports/reportview.cpp:425 ui/reports/reportview.cpp:438
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Export to file"
+msgid "Export to text document failed"
+msgstr "导出到文件"
+
+#: ui/reports/reportview.cpp:452
+msgid "Export to spreadsheet failed"
+msgstr ""
+
+#: ui/reports/reportview.cpp:466
+msgid "Export to HTML failed"
+msgstr ""
+
+#: ui/reports/reportview.cpp:480
+msgid "Export to XHTML failed"
+msgstr ""
+
+#: ui/reports/reportview.cpp:490
+msgid "Edit Report"
+msgstr "编辑报表"
+
+#: ui/reports/reportview.cpp:491
+msgctxt "@info:tooltip"
+msgid "Edit the report definition"
+msgstr "编辑报表定义"
+
+#: ui/reports/reportview.cpp:492
+msgctxt "@info:whatsthis"
+msgid "Opens the report design in the report design dialog."
+msgstr ""
+
+#: ui/reports/reportview.cpp:496
+msgid "Export"
+msgstr "导出"
+
+#: ui/reports/reportview.cpp:497
+msgctxt "@info:tooltip"
+msgid "Export to file"
+msgstr "导出到文件"
+
+#: ui/reports/reportview.cpp:498
+msgctxt "@info:whatsthis"
+msgid "Exports the report to a supported file format."
+msgstr "将报表导出到支持的文件格式。"
+
+#: ui/reports/reportview.cpp:642 ui/reports/reportview.cpp:652
+msgctxt "@title:window"
+msgid "Report Designer"
+msgstr "报表设计器"
+
+#: ui/reports/reportview.cpp:654
+msgid "Save To View"
+msgstr "保存到视图"
+
+#: ui/reports/reportview.cpp:656
+msgid "Save To File"
+msgstr "保存到文件"
+
+#: ui/reports/reportview.cpp:686
+msgctxt "@info"
+msgid ""
+"The report definition has been modified.<br/><emphasis>If you continue, the "
+"modifications will be lost.</emphasis>"
+msgstr ""
+
+#: ui/reports/reportview.cpp:714
+msgid "Can only save to a local file."
+msgstr "只能保存到本地文件。"
+
+#: ui/reports/reportview.cpp:719
+#, kde-format
+msgctxt "@info"
+msgid "Cannot open file:<br/><filename>%1</filename>"
+msgstr "无法打开文件：<br/><filename>%1</filename>"
+
+#: ui/reports/reportview.cpp:753
+#, fuzzy
+#| msgid "Modify report definition"
+msgctxt "(qtundo-format)"
+msgid "Modify report definition"
+msgstr "修改报表定义"
+
+#: ui/reports/reportview.cpp:1076
+#, fuzzy
+#| msgid "Edit Report"
+msgid "View report"
+msgstr "编辑报表"
+
+#: ui/reports/reportview.cpp:1081
+msgid "Undo all changes"
+msgstr ""
+
+#: ui/reports/reportview.cpp:1177
+msgctxt "@title:window report group edit tools"
+msgid "Tools"
+msgstr ""
+
+#: ui/reports/reportview.cpp:1201
+msgctxt "@into:tooltip"
+msgid "Rich text"
+msgstr ""
+
+#: ui/reports/reportview.cpp:1221
+#, fuzzy
+#| msgid "Header and Footer"
+msgctxt "@title:window report section docker"
+msgid "Headers && Footers"
+msgstr "页眉和页脚"
+
+#: ui/reports/reportview.cpp:1242
+#, fuzzy
+#| msgctxt "title:column"
+#| msgid "Group"
+msgctxt "@title:window report group section docker"
+msgid "Groups"
+msgstr "组"
+
+#: ui/reports/reportview.cpp:1408
+msgctxt "@title:column"
+msgid "Column"
+msgstr ""
+
+#: ui/reports/reportview.cpp:1409
+msgctxt "@title:column"
+msgid "Sort"
+msgstr ""
+
+#: ui/reports/reportview.cpp:1410
+#, fuzzy
+#| msgid "Header"
+msgctxt "@title:column"
+msgid "Header"
+msgstr "领导"
+
+#: ui/reports/reportview.cpp:1411
+#, fuzzy
+#| msgid "Footer"
+msgctxt "@title:column"
+msgid "Footer"
+msgstr "页脚"
+
+#: ui/reports/reportview.cpp:1412
+msgctxt "@title:column"
+msgid "Page Break"
+msgstr ""
+
+#: ui/reports/reportview.cpp:1415
+msgctxt "@info:tooltip"
+msgid "Groups data by the selected column"
+msgstr ""
+
+#: ui/reports/reportview.cpp:1416
+#, fuzzy
+#| msgid "Start date"
+msgctxt "@info:tooltip"
+msgid "Sorts data"
+msgstr "开始日期"
+
+#: ui/reports/reportview.cpp:1417
+#, fuzzy
+#| msgid "Show task completion"
+msgctxt "@info:tooltip"
+msgid "Show header section"
+msgstr "显示任务完成度"
+
+#: ui/reports/reportview.cpp:1418
+#, fuzzy
+#| msgid "Show task completion"
+msgctxt "@info:tooltip"
+msgid "Show footer section"
+msgstr "显示任务完成度"
+
+#: ui/reports/reportview.cpp:1419
+msgctxt "@info:tooltip"
+msgid "Insert page break"
+msgstr ""
+
+#: ui/reports/reportview.cpp:1581
+msgid "Ascending"
+msgstr ""
+
+#: ui/reports/reportview.cpp:1581
+msgid "Descending"
+msgstr ""
+
+#: ui/reports/reportview.cpp:1614 ui/reports/reportview.cpp:1647
+#, fuzzy
+#| msgid "None"
+msgid "No"
+msgstr "无"
+
+#: ui/reports/reportview.cpp:1614 ui/reports/reportview.cpp:1647
+msgid "Yes"
+msgstr ""
+
+#: ui/reports/reportview.cpp:1679
+#, fuzzy
+#| msgid "After Money"
+msgid "After footer"
+msgstr "在货币后"
+
+#: ui/reports/reportview.cpp:1679
+#, fuzzy
+#| msgid "Before Money"
+msgid "Before header"
+msgstr "在货币前"
+
+#. i18n: ectx: property (text), widget (QLabel, groupLabel)
+#: ui/resourcedialogbase.ui:23
+msgid "Group:"
+msgstr "分组："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, chooseBtn)
+#: ui/resourcedialogbase.ui:67
+msgid "Choose resource from address book"
+msgstr "从地址簿中选择资源"
+
+#. i18n: ectx: property (text), widget (QLabel, ui_initialslabel)
+#: ui/resourcedialogbase.ui:79
+#, fuzzy
+msgid "Initials:"
+msgstr "名首："
+
+#. i18n: ectx: property (text), widget (QLabel, ui_emaillabel)
+#: ui/resourcedialogbase.ui:119
+#, fuzzy
+#| msgid "Email"
+msgid "Email:"
+msgstr "电子邮件"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: ui/resourcedialogbase.ui:161
+msgid "Resource type:"
+msgstr "资源类型："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, type)
+#: ui/resourcedialogbase.ui:185
+msgid "Team"
+msgstr "团队"
+
+#. i18n: ectx: property (text), widget (QLabel, ui_unitslabel)
+#: ui/resourcedialogbase.ui:220
+msgid "Available:"
+msgstr "可用："
+
+#. i18n: ectx: property (text), widget (QLabel, ui_calendarlabel)
+#: ui/resourcedialogbase.ui:255
+#, fuzzy
+#| msgid "Calendar"
+msgid "Calendar:"
+msgstr "日历"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_rbfromunlimited)
+#. i18n: ectx: property (text), widget (QRadioButton, ui_rbuntilunlimited)
+#: ui/resourcedialogbase.ui:283 ui/resourcedialogbase.ui:332
+msgid "Unlimited"
+msgstr "无限制"
+
+#. i18n: ectx: property (title), widget (QGroupBox, ui_untilgroup)
+#: ui/resourcedialogbase.ui:317
+msgid "Until"
+msgstr "直到"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useRequired)
+#: ui/resourcedialogbase.ui:389
+msgid "Required resources:"
+msgstr "所需资源："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: ui/resourcedialogbase.ui:420
+msgid "Hourly rate:"
+msgstr "每天小费率："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#: ui/resourcedialogbase.ui:443
+msgid "Overtime rate:"
+msgstr "加班费率："
+
+#. i18n: ectx: property (whatsThis), widget (QWidget, KPlato::StandardWorktimeDialogBase)
+#: ui/standardworktimedialogbase.ui:16
+msgid ""
+"These values are used if your estimate is not in hours.\n"
+"Let us say Hours per day is 8. If you estimate that a task needs 3 days "
+"effort to complete, this is converted to 24 hours when the task is "
+"scheduled. The actual time it will take to complete is of course dependent "
+"on the availability of the person (or persons) that is assigned to the task."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/standardworktimedialogbase.ui:25
+msgid "Hours per year:"
+msgstr "年小时数："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: ui/standardworktimedialogbase.ui:54
+msgid "Hours per month:"
+msgstr "月小时数："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabe3)
+#: ui/standardworktimedialogbase.ui:86
+msgid "Hours per week:"
+msgstr "每周小时数："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
+#: ui/standardworktimedialogbase.ui:115
+msgid ""
+"These values are used when you estimate the effort needed to complete a task."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: ui/standardworktimedialogbase.ui:118
+msgid "Hours per day:"
+msgstr "每天小时数："
+
+#~ msgid "<p align=\"right\">Email:</p>"
+#~ msgstr "<p align=\"right\">电子邮件：</p>"
+
+#~ msgid "<p align=\"right\">Calendar:</p>"
+#~ msgstr "<p align=\"right\">日历：</p>"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid "Working"
+#~ msgstr "工作"
+
+#~ msgid "BCWS"
+#~ msgstr "BCWS"
+
+#~ msgid "BCWP"
+#~ msgstr "BCWP"
+
+#~ msgid "ACWP"
+#~ msgstr "ACWP"
+
+#~ msgid "SPI"
+#~ msgstr "SPI"
+
+#~ msgctxt "@title:window"
+#~ msgid "Edit Report"
+#~ msgstr "编辑报表"
+
+#~ msgctxt "@info:tootip"
+#~ msgid "Required Resources"
+#~ msgstr "所需资源"
+
+#, fuzzy
+#~| msgid "Modify Task Name"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Modify task Name"
+#~ msgstr "修改任务名称"
+
+#~ msgid "Modify resource allocations"
+#~ msgstr "修改资源分配"
+
+#~ msgid "All"
+#~ msgstr "全部"
+
+#~ msgid "Running account: %1"
+#~ msgstr "运行账户：%1"
+
+#~ msgid "Startup account: %1"
+#~ msgstr "启动账户：%1"
+
+#~ msgid "Shutdown account: %1"
+#~ msgstr "默认账户：%1"
+
+#~ msgid "Node level: %1"
+#~ msgstr "节点级别: %1"
+
+#~ msgid "Modify Name"
+#~ msgstr "修改名称"
+
+#~ msgid "Modify Milestone Name"
+#~ msgstr "修改里程碑名称"
+
+#~ msgid "Modify Summarytask Name"
+#~ msgstr "修改摘要任务名称"
+
+#~ msgid "Modify Project Name"
+#~ msgstr "修改项目名称"
+
+#~ msgid "Show task name"
+#~ msgstr "显示任务名称"
+
+#~ msgid "Show critical path"
+#~ msgstr "显示关键路径"
+
+#~ msgid "Show positive float"
+#~ msgstr "显示正向浮动"
+
+#~ msgid "Delete Task"
+#~ msgstr "删除任务"
+
+#~ msgid "Delete Selected Calendar"
+#~ msgstr "删除所选日历"
+
+#~ msgid "Delete Selected Accounts"
+#~ msgstr "删除所选账户"
+
+#, fuzzy
+#~ msgid "Delete Selection"
+#~ msgstr "删除关系"
+
+#~ msgid "Delete Selected Items"
+#~ msgstr "删除所选项目"
+
+#~ msgid "Make appointments: Required resource not available"
+#~ msgstr "约会：所需资源不可用"
+
+#~ msgid "Not allocated"
+#~ msgstr "未分配"
+
+#~ msgid "<p align=\"right\">From:</p>"
+#~ msgstr "<p align=\"right\">从：</p>"
+
+#~ msgid "<p align=\"right\">Until:</p>"
+#~ msgstr "<p align=\"right\">直到：</p>"
+
+#~ msgid "Time"
+#~ msgstr "时间"
+
+#~ msgid "Hours"
+#~ msgstr "小时"

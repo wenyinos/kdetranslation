@@ -1,0 +1,414 @@
+# translation of ktexteditor_plugins.po to Chinese Simplified
+# Copyright (C) 2007 Free Software Foundation, Inc.
+#
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# Liang Qi <cavendish.qi@gmail.com>, 2007.
+# Lie Ex <lilith.ex@gmail.com>, 2008-2010.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Weng Xuetian <wengxt@gmail.com>, 2012.
+# Feng Chao <chaofeng111@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: ktexteditor_plugins.po\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-23 01:32+0000\n"
+"PO-Revision-Date: 2014-02-22 20:33+0800\n"
+"Last-Translator: Feng Chao <chaofeng111@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国, Feng Chao"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org, chaofeng111@gmail.com"
+
+#: autobrace/autobrace_config.cpp:37
+msgid "Automatically add closing brackets ) and ] (and } for e.g. LaTeX)"
+msgstr "自动添加闭合括号 ) 和 ] (以及 } ，例如 Latex )"
+
+#: autobrace/autobrace_config.cpp:38
+msgid "Automatically add closing quotation marks"
+msgstr "自动添加闭合引号"
+
+#: exporter/exporterpluginview.cpp:56
+msgid "Copy as &HTML"
+msgstr "复制为 &HTML"
+
+#: exporter/exporterpluginview.cpp:57
+msgid ""
+"Use this command to copy the currently selected text as HTML to the system "
+"clipboard."
+msgstr "使用此命令可将当前所选文字作为 HTML 内容复制到系统剪贴板。"
+
+#: exporter/exporterpluginview.cpp:61
+msgid "E&xport as HTML..."
+msgstr "导出为 HTML(&X)..."
+
+#: exporter/exporterpluginview.cpp:62
+msgid ""
+"This command allows you to export the current document with all highlighting "
+"information into a HTML document."
+msgstr "此命令允许您将当前文档导出为 HTML 文档，并包含所有语法加亮信息。"
+
+#: exporter/exporterpluginview.cpp:100
+msgid "Export File as HTML"
+msgstr "文件导出为 HTML"
+
+#. i18n: ectx: Menu (file)
+#: exporter/ktexteditor_exporterui.rc:5
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (edit)
+#: exporter/ktexteditor_exporterui.rc:9
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#: hlselection/hlselectionplugin.cpp:40
+msgid "Highlight Selection"
+msgstr "加亮选择区"
+
+#. i18n: ectx: Menu (tools)
+#: hlselection/ktexteditor_hlselectionui.rc:4
+#: insertfile/ktexteditor_insertfileui.rc:4
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#: insertfile/insertfileplugin.cpp:42
+msgid "Insert File"
+msgstr "插入文件"
+
+#: insertfile/insertfileplugin.cpp:88
+msgid "Insert File..."
+msgstr "插入文件..."
+
+#: insertfile/insertfileplugin.cpp:100
+msgid "Choose File to Insert"
+msgstr "选择要插入的文件"
+
+#: insertfile/insertfileplugin.cpp:101
+msgid "&Insert"
+msgstr "插入(&I)"
+
+#: insertfile/insertfileplugin.cpp:130
+msgid ""
+"Failed to load file:\n"
+"\n"
+msgstr ""
+"装入文件失败：\n"
+"\n"
+
+#: insertfile/insertfileplugin.cpp:130 insertfile/insertfileplugin.cpp:151
+#: insertfile/insertfileplugin.cpp:173
+msgid "Insert File Error"
+msgstr "插入文件错误"
+
+#: insertfile/insertfileplugin.cpp:144
+#, kde-format
+msgid ""
+"<p>The file <strong>%1</strong> does not exist or is not readable, aborting."
+"</p>"
+msgstr "<p>文件 <strong>%1</strong> 不存在或者不可读，中止。</p>"
+
+#: insertfile/insertfileplugin.cpp:148
+#, kde-format
+msgid "<p>Unable to open file <strong>%1</strong>, aborting.</p>"
+msgstr "<p>无法打开文件 <strong>%1</strong>，中止。</p>"
+
+#: insertfile/insertfileplugin.cpp:171
+#, kde-format
+msgid "<p>File <strong>%1</strong> had no contents.</p>"
+msgstr "<p>文件 <strong>%1</strong> 没有内容。</p>"
+
+#: kte_iconinserter/iconinserterplugin.cpp:38
+msgid "Select an Icon to use it inside the Code"
+msgstr "选择一个用于代码中的图标"
+
+#: kte_iconinserter/iconinserterplugin.cpp:38
+#: kte_iconinserter/iconinserterplugin.cpp:48
+msgid "Insert Code for KIcon-Creation"
+msgstr "KDE 图标插入代码"
+
+#: kte_iconinserter/iconinserterplugin.cpp:47
+msgid "Insert KIcon-Code"
+msgstr "插入 KDE 图标代码"
+
+#: kte_iconinserter/iconinserterplugin.cpp:49
+msgid ""
+"<b>IconInserter</b><p> Select an icon and use it as a KIcon in your source "
+"code."
+msgstr "<b>图标插入器</b><p> 选择一个要用于源代码中的 KDE 图标。"
+
+#: kte_iconinserter/iconinserterplugin.cpp:66
+msgid "Select the Icon you want to use in your code as KIcon."
+msgstr "选择您想要用于代码中的 KDE 图标"
+
+#: lumen/lumen.cpp:45 lumen/lumen.cpp:47
+msgid "Lumen"
+msgstr "Lumen"
+
+#: lumen/lumen.cpp:49
+msgid "© David Herberth"
+msgstr "© David Herberth"
+
+#: lumen/lumen.cpp:50
+msgid "D Autocompletion plugin using DCD as completion server."
+msgstr "D 语言自动补全插件，使用 DCD 自动补全服务器."
+
+#~ msgid "AutoBookmarks"
+#~ msgstr "自动书签"
+
+#~ msgid "Configure AutoBookmarks"
+#~ msgstr "配置自动书签"
+
+#~ msgid "Edit Entry"
+#~ msgstr "编辑条目"
+
+#~ msgid "&Pattern:"
+#~ msgstr "模式(&P)："
+
+#~ msgid "<p>A regular expression. Matching lines will be bookmarked.</p>"
+#~ msgstr "<p>正则表达式。匹配的行将会被加为书签。</p>"
+
+#~ msgid "Case &sensitive"
+#~ msgstr "区分大小写(&S)"
+
+#~ msgid ""
+#~ "<p>If enabled, the pattern matching will be case sensitive, otherwise not."
+#~ "</p>"
+#~ msgstr "<p>启用后，模式匹配将会区分大小写，否则不会。</p>"
+
+#~ msgid "&Minimal matching"
+#~ msgstr "最小匹配(&M)"
+
+#~ msgid ""
+#~ "<p>If enabled, the pattern matching will use minimal matching; if you do "
+#~ "not know what that is, please read the appendix on regular expressions in "
+#~ "the kate manual.</p>"
+#~ msgstr ""
+#~ "<p>启用后，模式匹配将会使用最小匹配；如果您不知道最小匹配是什么的话，请阅"
+#~ "读 kate 手册中关于正规表达式的附录。</p>"
+
+#~ msgid "&File mask:"
+#~ msgstr "文件通配符(&F)："
+
+#~ msgid ""
+#~ "<p>A list of filename masks, separated by semicolons. This can be used to "
+#~ "limit the usage of this entity to files with matching names.</p><p>Use "
+#~ "the wizard button to the right of the mimetype entry below to easily fill "
+#~ "out both lists.</p>"
+#~ msgstr ""
+#~ "<p>以分号分隔的文件名通配符列表。此列表可用于限制此项仅针对特定扩展名的文"
+#~ "件。</p><p>使用 MIME 类型条目右侧的向导按钮可轻松的填入这两个列表。</p>"
+
+#~ msgid "MIME &types:"
+#~ msgstr "MIME 类型(&T)："
+
+#~ msgid ""
+#~ "<p>A list of mime types, separated by semicolon. This can be used to "
+#~ "limit the usage of this entity to files with matching mime types.</"
+#~ "p><p>Use the wizard button on the right to get a list of existing file "
+#~ "types to choose from, using it will fill in the file masks as well.</p>"
+#~ msgstr ""
+#~ "<p>以分号分隔的 MIME 类型列表。此列表可用于限制此项仅针对特定 MIME 类型的"
+#~ "文件。</p><p>使用右侧的向导按钮可获得现有的文件类型列表，您可从中加以选"
+#~ "择，这样也可以同时填入文件通配符。</p>"
+
+#~ msgid ""
+#~ "<p>Click this button to display a checkable list of mimetypes available "
+#~ "on your system. When used, the file masks entry above will be filled in "
+#~ "with the corresponding masks.</p>"
+#~ msgstr ""
+#~ "<p>单击此按钮可显示您系统中可用的 MIME 类型列表。如果您选中了某项，就会在"
+#~ "上面的文件通配符中填入相应的通配符。</p>"
+
+#~ msgid ""
+#~ "Select the MimeTypes for this pattern.\n"
+#~ "Please note that this will automatically edit the associated file "
+#~ "extensions as well."
+#~ msgstr ""
+#~ "选择此模式的 MIME 类型。\n"
+#~ "请注意，这也将自动编辑关联的文件扩展名。"
+
+#~ msgid "Select Mime Types"
+#~ msgstr "选择 MIME 类型"
+
+#~ msgid "&Patterns"
+#~ msgstr "模式(&P)"
+
+#~ msgid "Pattern"
+#~ msgstr "模式"
+
+#~ msgid "Mime Types"
+#~ msgstr "MIME 类型"
+
+#~ msgid "File Masks"
+#~ msgstr "文件通配符"
+
+#~ msgid ""
+#~ "<p>This list shows your configured autobookmark entities. When a document "
+#~ "is opened, each entity is used in the following way:<p><ol><li>The entity "
+#~ "is dismissed, if a mime and/or filename mask is defined, and neither "
+#~ "matches the document.</li><li>Otherwise each line of the document is "
+#~ "tried against the pattern, and a bookmark is set on matching lines.</li></"
+#~ "ol><p>Use the buttons below to manage your collection of entities.</p>"
+#~ msgstr ""
+#~ "<p>此列表为您显示了已配置的自动书签项。打开文档后，会按下列方式使用每项："
+#~ "<p><ol><li>如果定义了 MIME 和/或文件扩展名，而这两项标准都无法与文档匹配，"
+#~ "则会跳过此项。</li><li>否则，将会对文档的每一行比对模式，并在匹配行上设置"
+#~ "书签。</li></ol><p>使用下面的按钮可管理您的自动书签项。</p>"
+
+#~ msgid "&New..."
+#~ msgstr "新建(&N)..."
+
+#~ msgid "Press this button to create a new autobookmark entity."
+#~ msgstr "按此按钮可创建新的自动书签项。"
+
+#~ msgid "&Delete"
+#~ msgstr "删除(&D)"
+
+#~ msgid "Press this button to delete the currently selected entity."
+#~ msgstr "按此按钮可删除目前选中的项。"
+
+#~ msgid "&Edit..."
+#~ msgstr "编辑(&E)..."
+
+#~ msgid "Press this button to edit the currently selected entity."
+#~ msgstr "按此按钮可编辑目前选中的项。"
+
+#~ msgid "DataTool"
+#~ msgstr "数据工具"
+
+#~ msgid "Data tool"
+#~ msgstr "数据工具"
+
+#~ msgid "Data Tools"
+#~ msgstr "数据工具"
+
+#~ msgid "(not available)"
+#~ msgstr "(不可用)"
+
+#~ msgid ""
+#~ "Data tools are only available when text is selected, or when the right "
+#~ "mouse button is clicked over a word. If no data tools are offered even "
+#~ "when text is selected, you need to install them. Some data tools are part "
+#~ "of the KOffice package."
+#~ msgstr ""
+#~ "仅当选中文本或者用鼠标右键单击单词的时候，数据工具才可用。如果文本被选中的"
+#~ "时候没有提供数据工具，那么就需要安装。在 KOffice 软件包里已经提供了一些数"
+#~ "据工具。"
+
+#~ msgctxt ""
+#~ "This is a localized string for default time & date printing on kate "
+#~ "document.%d means day in XX format.%m means month in XX format.%Y means "
+#~ "year in XXXX format.%H means hours in XX format.%M means minutes in XX "
+#~ "format.Please, if in your language time or date is written in a different "
+#~ "order, change it here"
+#~ msgid "%d-%m-%Y %H:%M"
+#~ msgstr "%Y-%m-%d %H:%M"
+
+#~ msgid "Insert Time && Date"
+#~ msgstr "插入时间和日期"
+
+#~ msgid ""
+#~ "%y\t2-digit year excluding century (00 - 99)\n"
+#~ "%Y\tfull year number\n"
+#~ "%:m\tmonth number, without leading zero (1 - 12)\n"
+#~ "%m\tmonth number, 2 digits (01 - 12)\n"
+#~ "%b\tabbreviated month name\n"
+#~ "%B\tfull month name\n"
+#~ "%e\tday of the month (1 - 31)\n"
+#~ "%d\tday of the month, 2 digits (01 - 31)\n"
+#~ "%a\tabbreviated weekday name\n"
+#~ "%A\tfull weekday name\n"
+#~ "\n"
+#~ "%H\thour in the 24 hour clock, 2 digits (00 - 23)\n"
+#~ "%k\thour in the 24 hour clock, without leading zero (0 - 23)\n"
+#~ "%I\thour in the 12 hour clock, 2 digits (01 - 12)\n"
+#~ "%l\thour in the 12 hour clock, without leading zero (1 - 12)\n"
+#~ "%M\tminute, 2 digits (00 - 59)\n"
+#~ "%S\tseconds (00 - 59)\n"
+#~ "%P\t\"am\" or \"pm\"\n"
+#~ "%p\t\"AM\" or \"PM\"\n"
+#~ msgstr ""
+#~ "%y\t2位年数，不包括世纪数字 (00 - 99)\n"
+#~ "%Y\t完整的年数\n"
+#~ "%:m\t月数，没有前置零 (1 - 12)\n"
+#~ "%m\t月数，2位 (01 - 12)\n"
+#~ "%b\t缩写的月名称\n"
+#~ "%B\t完整的月名称\n"
+#~ "%e\t一个月中的天数 (1 - 31)\n"
+#~ "%d\t一个月中的天数，2位 (01 - 31)\n"
+#~ "%a\t缩写的星期名称\n"
+#~ "%A\t完整的星期名称\n"
+#~ "\n"
+#~ "%H\t24小时制中的小时，2位 (00 - 23)\n"
+#~ "%k\t24小时制中的小时，没有前置零 (0 - 23)\n"
+#~ "%I\t12小时制中的小时，2位 (01 - 12)\n"
+#~ "%l\t12小时制中的小时，没有前置零 (1 - 12)\n"
+#~ "%M\t分钟，2位 (00 - 59)\n"
+#~ "%S\t秒 (00 - 59)\n"
+#~ "%P\t“am” 或者 “pm”\n"
+#~ "%p\t“AM” 或者 “PM”\n"
+
+#~ msgid "Format"
+#~ msgstr "格式"
+
+#~ msgid "PythonEncoding"
+#~ msgstr "Python 编码"
+
+#~ msgid "Python Encoding check"
+#~ msgstr "Python 编码检查"
+
+#~ msgid ""
+#~ "You are trying to save a python file as non ASCII, without specifiying a "
+#~ "correct source encoding line for encoding \"%1\""
+#~ msgstr ""
+#~ "您正试图将一个 python 文件保存为非 ASCII 编码，并且未对“%1”编码指定正确的"
+#~ "编码行"
+
+#~ msgid "No encoding header"
+#~ msgstr "无编码信息头"
+
+#~ msgid "Insert: %1"
+#~ msgstr "插入：%1"
+
+#~ msgid "Save Nevertheless"
+#~ msgstr "仍然保存"
+
+#~ msgid ""
+#~ "The autobrace plugin supersedes the Kate-internal \"Auto Brackets\" "
+#~ "feature.\n"
+#~ "The setting was automatically disabled for this document."
+#~ msgstr ""
+#~ "自动加括号插件取代了 Kate 内置的“自动括号”特性。\n"
+#~ "此设置已自动对当前文档禁用。"
+
+#~ msgid "Auto brackets feature disabled"
+#~ msgstr "自动加括号特性已被禁用"
+
+#~ msgid "Insane HTML (LE) Expansion"
+#~ msgstr "轻量级疯狂 HTML 扩展"
+
+#~ msgid "offset1 %1"
+#~ msgstr "偏移1 %1"
+
+#~ msgid "offset2 %1"
+#~ msgstr "偏移2 %1"
+
+#~ msgid "error %1"
+#~ msgstr "错误 %1"
+
+#~ msgid "No valid Insane HTML markup detected at current cursor position"
+#~ msgstr "在当前光标位置处未检测到有效的疯狂 HTML 标记"
+
+#~ msgid "This looks like valid Insane HTML markup: %1"
+#~ msgstr "这似乎是有效的疯狂 HTML 标记：%1"

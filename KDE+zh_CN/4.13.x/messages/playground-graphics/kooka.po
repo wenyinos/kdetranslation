@@ -1,0 +1,2428 @@
+# translation of kooka.po to zh_CN
+# Copyright (C) 2002,2003 Free Software Foundation, Inc.
+#
+# Liang Meng <mengliang99@sohu.com>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Feng Chao <rainofchaos@gmail.com>, 2010.
+# marguerite <i@marguerite.su>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kooka\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-11 01:43+0000\n"
+"PO-Revision-Date: 2013-08-07 10:54+0800\n"
+"Last-Translator: marguerite <i@marguerite.su>\n"
+"Language-Team: Chinese Simplified <opensuse-zh@opensuse.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国, 玛格丽特 · 苏"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org, marguerite@opensuse.org"
+
+#. i18n: ectx: Menu (file)
+#: desktop/kookaui.rc:5
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (scan)
+#: desktop/kookaui.rc:22
+msgid "S&can"
+msgstr "扫描(&C)"
+
+#. i18n: ectx: Menu (imgCanvas)
+#: desktop/kookaui.rc:39
+msgid "&Image"
+msgstr "图像(&I)"
+
+#. i18n: ectx: Menu (settings)
+#: desktop/kookaui.rc:55
+#, fuzzy
+#| msgid "S&ettings"
+msgid "&Settings"
+msgstr "设置(&E)"
+
+#. i18n: ectx: ToolBar (imageToolBar)
+#: desktop/kookaui.rc:66
+msgid "Image Viewer Toolbar"
+msgstr "图像查看器工具栏"
+
+#. i18n: ectx: ToolBar (scanToolBar)
+#: desktop/kookaui.rc:83
+msgid "Scanning Toolbar"
+msgstr "扫描工具栏"
+
+#: formatdialog.cpp:50
+msgid ""
+"<b>Bitmap Picture</b> is a widely used format for images under MS Windows. "
+"It is suitable for color, grayscale and line art images.<p>This format is "
+"widely supported but is not recommended, use an open format instead."
+msgstr ""
+"<b>Bipmap 图像</b>是一个 Microsoft Windows 下大量使用的图像格式。它适合用于色"
+"彩、灰度和线性艺术图像。<p>此格式的支持很广泛但不推荐使用此格式，请使用开源格"
+"式代替。"
+
+#: formatdialog.cpp:58
+msgid ""
+"<b>Portable Bitmap</b>, as used by Netpbm, is an uncompressed format for "
+"line art (bitmap) images. Only 1 bit per pixel depth is supported."
+msgstr ""
+"<b>便携 Bitmap 图像</b>，为 Netpbm 所用，是一种用于线性艺术 (bitmap) 图像的非"
+"压缩格式。仅支持 1 比特每像素深度。"
+
+#: formatdialog.cpp:64
+msgid ""
+"<b>Portable Greymap</b>, as used by Netpbm, is an uncompressed format for "
+"grayscale images. Only 8 bit per pixel depth is supported."
+msgstr ""
+"<b>便携 Greymap 图像</b>，为 Netpbm 所用，是一种用于灰度图像的非压缩格式。仅"
+"支持 8 比特每像素深度。"
+
+#: formatdialog.cpp:70
+msgid ""
+"<b>Portable Pixmap</b>, as used by Netpbm, is an uncompressed format for "
+"full color images. Only 24 bit per pixel RGB is supported."
+msgstr ""
+"<b>便携 Pixmap 图像</b>，为 Netpbm 所用，是一种用于全色彩图像的非压缩格式。仅"
+"支持 24 比特每像素 RGB。"
+
+#: formatdialog.cpp:76
+msgid ""
+"<b>PCX</b> is a lossless compressed format which is often supported by PC "
+"imaging applications, although it is rather old and unsophisticated.  It is "
+"suitable for color and grayscale images.<p>This format is not recommended, "
+"use an open format instead."
+msgstr ""
+"<b>PCX</b>是一种经常为个人电脑图像应用程序所支持的无损压缩格式，虽然该格式比"
+"较古老且淳朴。它适合用于色彩和灰度图像。<p>不推荐此格式，请使用开源格式代替。"
+
+#: formatdialog.cpp:84
+msgid ""
+"<b>X Bitmap</b> is often used by the X Window System to store cursor and "
+"icon bitmaps.<p>Unless required for this purpose, use a general purpose "
+"format instead."
+msgstr ""
+"<b>X Bitmap</b> 常为 X 窗口系统用来存储鼠标指针和图标 Bitmap。<p>除非此目的需"
+"要，否则请使用通用目的的格式代替。"
+
+#: formatdialog.cpp:90
+msgid ""
+"<b>X Pixmap</b> is often used by the X Window System for color icons and "
+"other images.<p>Unless required for this purpose, use a general purpose "
+"format instead."
+msgstr ""
+"<b>X Pixmap 图像</b> 是常为 X 窗口系统用于色彩图标和其它图像。<p>除非此目的需"
+"要，否则请使用通用目的的格式代替。"
+
+#: formatdialog.cpp:96
+msgid ""
+"<b>Portable Network Graphics</b> is a lossless compressed format designed to "
+"be portable and extensible. It is suitable for any type of color or "
+"grayscale images, indexed or true color.<p>PNG is an open format which is "
+"widely supported."
+msgstr ""
+"<b>便携网络图形(PNG)</b>是一种设计用于便携和扩展环境的无损压缩格式。它适合用"
+"于任意类型的色彩或灰度图像、索引或真彩色图像。<p>PNG 是广泛支持的一种开源格"
+"式。"
+
+#: formatdialog.cpp:104
+msgid ""
+"<b>JPEG</b> is a compressed format suitable for true color or grayscale "
+"images. It is a lossy format, so it is not recommended for archiving or for "
+"repeated loading and saving.<p>This is an open format which is widely "
+"supported."
+msgstr ""
+"<b>JPEG</b>是一种适合用于真彩色或灰度图像的压缩格式。它是有损格式，因此不推荐"
+"用于存档或重复加载和保存。<p>这是一种广泛支持的开源格式。"
+
+#: formatdialog.cpp:112
+msgid ""
+"<b>JPEG 2000</b> was intended as an update to the JPEG format, with the "
+"option of lossless compression, but so far is not widely supported. It is "
+"suitable for true color or grayscale images."
+msgstr ""
+"<b>JPEG 2000</b>意图作为 JPEG 格式的一个更新，带有无损压缩选项，但目前尚未广"
+"泛支持。它适合用于真彩色或灰度图像。"
+
+#: formatdialog.cpp:119
+#, fuzzy
+#| msgid ""
+#| "<b>Encapsulated PostScript(EPS)</b> is derived from the PostScript&trade; "
+#| "page description language.  Use this format for importing into other "
+#| "applications, or to use with (e.g.) TeX."
+msgid ""
+"<b>Encapsulated PostScript</b> is derived from the PostScript&trade; page "
+"description language.  Use this format for importing into other "
+"applications, or to use with (e.g.) TeX."
+msgstr ""
+"<b>封装 Postscript(EPS)</b> 由 Postscript&trade; 页面描述语言衍生而来。可使用"
+"此格式用于导入到其它应用程序，或在例如 TeX 中使用。"
+
+#: formatdialog.cpp:126
+msgid ""
+"<b>Truevision Targa</b> can store full color images with an alpha channel, "
+"and is used extensively by animation and video applications.<p>This format "
+"is not recommended, use an open format instead."
+msgstr ""
+"<b>Truevision Targa(TGA)</b> 格式可存储带有 alpha 通道的全色彩图像，并广泛用"
+"于动态和视频应用程序。<p>不推荐此格式，请使用开源格式代替。"
+
+#: formatdialog.cpp:133
+msgid ""
+"<b>Graphics Interchange Format</b> is a popular but patent-encumbered format "
+"often used for web graphics.  It uses lossless compression with up to 256 "
+"colors and optional transparency.<p>For legal reasons this format is not "
+"recommended, use an open format instead."
+msgstr ""
+"<b>图形互换格式(GIF)</b>是一种常用于网页图片的流行却为专利阻害的格式。它可用"
+"于最高 256 色无损压缩和额外透明。<p>出于法律原因不推荐此格式，请使用开源格式"
+"代替。"
+
+#: formatdialog.cpp:141
+msgid ""
+"<b>Tagged Image File Format</b> is a versatile and extensible file format "
+"widely supported by imaging and publishing applications. It supports indexed "
+"and true color images with alpha transparency.<p>Because there are many "
+"variations, there may sometimes be compatibility problems. Unless required "
+"for use with other applications, use an open format instead."
+msgstr ""
+"<b>标记图像文件格式(TIFF)</b>是一种为图像和出版应用程序广泛支持的多用途、可扩"
+"展的文件格式。它支持索引以及带有 Alpha 透明的真彩图像。<p>因为有许多变种，有"
+"时可能会有兼容性问题。除非其它应用程序要求使用该格式，请使用开源格式代替。"
+
+#: formatdialog.cpp:150
+msgid ""
+"<b>Multiple-image Network Graphics</b> is derived from the PNG standard and "
+"is intended for animated images.  It is an open format suitable for all "
+"types of images.<p>Images produced by a scanner will not be animated, so "
+"unless specifically required for use with other applications use PNG instead."
+msgstr ""
+"<b>复合图像网络图形(MNG)</b>由 PNG 标准衍生而来，意图用于动态图像。它是一种适"
+"合于全部类型图像的开源格式。<p>由扫描仪生成的图像将不会是动态的，因此除非其它"
+"应用程序特别要求使用该格式，请使用 PNG 代替。"
+
+#: formatdialog.cpp:159
+msgid ""
+"This is the <b>Silicon Graphics</b> native image file format, supporting 24 "
+"bit true color images with optional lossless compression.<p>Unless "
+"specifically required, use an open format instead."
+msgstr ""
+"这是<b>硅谷图形</b>原生图像文件格式，支持 24 位真彩色图像和可选无损压缩。<p>"
+"除非特别要求，请使用开源格式代替。"
+
+#: formatdialog.cpp:185
+msgid "Save Assistant"
+msgstr "保存助手"
+
+#: formatdialog.cpp:185
+msgid "Save Scan"
+msgstr "保存扫描"
+
+#: formatdialog.cpp:212
+#, kde-format
+msgid "<qt>Select a format to save the scanned image.<br>This is a <b>%1</b>."
+msgstr "<qt>请为扫描下来的图像选择一种保存格式。<br>这是一种<b>%1</b>。"
+
+#: formatdialog.cpp:222
+msgid "File format:"
+msgstr "文件格式："
+
+#: formatdialog.cpp:300
+msgid "Image sub-format:"
+msgstr "图像子格式："
+
+#: formatdialog.cpp:315
+msgid "Only show recommended formats for this image type"
+msgstr "仅显示为此图像类型推荐的格式"
+
+#: formatdialog.cpp:323
+msgid "Always use this save format for this image type"
+msgstr "总是为此图像类型使用此保存格式"
+
+#: formatdialog.cpp:344
+msgid "File name:"
+msgstr "文件名："
+
+#: formatdialog.cpp:357
+msgid "Select Format..."
+msgstr "选择格式..."
+
+#: formatdialog.cpp:403
+msgid "No format selected."
+msgstr "未选择格式。"
+
+#: formatdialog.cpp:437
+msgid "No information is available for this format."
+msgstr "此格式无信息可用。"
+
+#: imagetransform.cpp:65
+#, fuzzy
+#| msgid "Rotate image 90 degrees"
+msgid "Rotate image +90 degrees"
+msgstr "图像旋转 90 度"
+
+#: imagetransform.cpp:72
+msgid "Rotate image 180 degrees"
+msgstr "图像旋转 180 度"
+
+#: imagetransform.cpp:77
+msgid "Rotate image -90 degrees"
+msgstr "图像旋转 -90 度"
+
+#: imagetransform.cpp:83
+#, fuzzy
+#| msgid "Mirroring image horizontally"
+msgid "Mirror image horizontally"
+msgstr "水平镜像图像"
+
+#: imagetransform.cpp:89
+#, fuzzy
+#| msgid "Mirroring image vertically"
+msgid "Mirror image vertically"
+msgstr "垂直镜像图像"
+
+#: imagetransform.cpp:99
+#, fuzzy, kde-format
+#| msgid "Updating image"
+msgid "Error updating image %1"
+msgstr "更新图像"
+
+#: imgprintdialog.cpp:67
+msgid "Image Printing"
+msgstr "图像打印"
+
+#: imgprintdialog.cpp:74 imgprintdialog.cpp:124
+msgid "Image Print Size"
+msgstr "图像打印尺寸"
+
+#: imgprintdialog.cpp:78
+msgid "Scale to same size as on screen"
+msgstr "缩放为屏幕大小"
+
+#: imgprintdialog.cpp:80
+msgid "Screen scaling. That prints according to the screen resolution."
+msgstr "缩放到屏幕。这将根据屏幕分辨率打印。"
+
+#: imgprintdialog.cpp:84
+msgid "Original size (calculate from scan resolution)"
+msgstr "原始尺寸 (从扫描分辨率计算出来)"
+
+#: imgprintdialog.cpp:86
+msgid ""
+"Calculates the print size from the scan resolution. Enter the scan "
+"resolution in the dialog field below."
+msgstr "从扫描分辨率计算打印尺寸。请在下面的对话框区域中输入扫描分辨率。"
+
+#: imgprintdialog.cpp:90
+msgid "Scale image to custom dimension"
+msgstr "缩放至自定义尺寸"
+
+#: imgprintdialog.cpp:91
+msgid ""
+"Set the print size yourself in the dialog below. The image is centered on "
+"the paper."
+msgstr "请在下面对话框中自行设置打印尺寸。图像将居于纸张正中。"
+
+#: imgprintdialog.cpp:95
+msgid "Scale image to fit to page"
+msgstr "缩放图像以适应页面"
+
+#: imgprintdialog.cpp:96
+msgid ""
+"Printout uses maximum space on the selected pager. Aspect ratio is "
+"maintained."
+msgstr "打印输出将使用所选纸张的最大空间。将保持宽高比。"
+
+#: imgprintdialog.cpp:106
+msgid "Resolutions"
+msgstr "分辨率"
+
+#: imgprintdialog.cpp:110
+msgid "Generate low resolution PostScript (fast draft print)"
+msgstr "生成低分辨率 Postscript (快速打印草稿)"
+
+#: imgprintdialog.cpp:116
+msgid "Scan resolution (dpi):"
+msgstr "扫描分辨率(dpi)："
+
+#: imgprintdialog.cpp:118
+msgid " dpi"
+msgstr " dpi"
+
+#: imgprintdialog.cpp:128
+msgid "Image width:"
+msgstr "图像宽度："
+
+#: imgprintdialog.cpp:129 imgprintdialog.cpp:133
+msgid " mm"
+msgstr " 毫米"
+
+#: imgprintdialog.cpp:132
+msgid "Image height:"
+msgstr "图像高度："
+
+#: imgprintdialog.cpp:136
+msgid "Maintain aspect ratio"
+msgstr "保持宽高比"
+
+#: imgprintdialog.cpp:178
+#, kde-format
+msgid "Screen resolution: %1 dpi"
+msgstr "屏幕分辨率：%1 dpi"
+
+#: imgprintdialog.cpp:216
+msgid "Please specify a scan resolution larger than 0"
+msgstr "请指定大于 0 的扫描分辨率"
+
+#: imgprintdialog.cpp:221
+msgid ""
+"For custom printing, a valid size should be specified.\n"
+"At least one dimension is zero."
+msgstr ""
+"自定义打印应指定有效的尺寸。\n"
+"目前至少有一个维度长度为零。"
+
+#: imgsaver.cpp:62
+#, kde-format
+msgid ""
+"<qt>The folder<br><filename>%2</filename><br>does not exist and could not be "
+"created.<br><br>%1"
+msgstr "<qt>文件夹<br><filename>%2</filename><br>不存在并无法创建。<br><br>%1"
+
+#: imgsaver.cpp:70
+msgid "Error creating directory"
+msgstr "创建文件夹出错"
+
+#: imgsaver.cpp:76
+#, kde-format
+msgid ""
+"<qt>The directory<br><filename>%1</filename><br> is not writable, please "
+"check the permissions."
+msgstr "<qt>文件夹<br><filename>%1</filename><br>不可歇，请检查其权限。"
+
+#: imgsaver.cpp:295
+msgid "indexed color image (up to 8 bit depth)"
+msgstr "索引色彩图像 (最高 8 比特深度)"
+
+#: imgsaver.cpp:299
+msgid "gray scale image (up to 8 bit depth)"
+msgstr "灰度图像 (最高 8 比特深度)"
+
+#: imgsaver.cpp:303
+msgid "lineart image (black and white, 1 bit depth)"
+msgstr "线性艺术图像 (黑白，1 比特深度)"
+
+#: imgsaver.cpp:307
+msgid "high/true color image (more than 8 bit depth)"
+msgstr "高清/真彩色图像 (高于 8 比特深度)"
+
+#: imgsaver.cpp:311
+#, kde-format
+msgid "unknown image type %1"
+msgstr "未知图像类型 %1"
+
+#: imgsaver.cpp:388
+msgid "Save OK"
+msgstr "保存成功"
+
+#: imgsaver.cpp:390
+msgid "Permission denied"
+msgstr "权限被拒"
+
+#: imgsaver.cpp:392
+msgid "Bad file name"
+msgstr "错误的文件名"
+
+#: imgsaver.cpp:394
+msgid "No space left on device"
+msgstr "设备上无可用空间"
+
+#: imgsaver.cpp:396
+#, kde-format
+msgid "Cannot write image format '%1'"
+msgstr "无法写入图像格式 '%1'"
+
+#: imgsaver.cpp:398
+#, kde-format
+msgid "Cannot write using protocol '%1'"
+msgstr "无法使用协议 '%1' 写入文件"
+
+#: imgsaver.cpp:400
+msgid "User cancelled saving"
+msgstr "用户取消保存"
+
+#: imgsaver.cpp:402
+msgid "Cannot create directory"
+msgstr "无法创建文件夹"
+
+#: imgsaver.cpp:404
+msgid "Save failed"
+msgstr "保存失败"
+
+#: imgsaver.cpp:406
+msgid "Bad parameter"
+msgstr "错误的参数"
+
+#: imgsaver.cpp:408
+#, kde-format
+msgid "Unknown status %1"
+msgstr "未知状态 %1"
+
+#: imgsaver.cpp:491
+#, kde-format
+msgid ""
+"<qt><p>The file name you supplied has no file extension.<br>Should the "
+"original one be added?\n"
+"<p>This would result in the new file name <filename>%1</filename>"
+msgstr ""
+"<qt><p>您提供的文件名没有文件扩展名。<br>应添加原始扩展名吗？\n"
+"<p>这将导致新的文件名 <filename>%1</filename>"
+
+#: imgsaver.cpp:494
+msgid "Extension Missing"
+msgstr "缺失扩展名"
+
+#: imgsaver.cpp:495
+msgid "Add Extension"
+msgstr "增加扩展名"
+
+#: imgsaver.cpp:496
+msgid "Do Not Add"
+msgstr "不添加扩展名"
+
+#: imgsaver.cpp:516
+msgid "Target already exists"
+msgstr "目标已存在"
+
+#: imgsaver.cpp:532
+msgid "Unable to copy the file"
+msgstr "无法复制文件"
+
+#: imgsaver.cpp:533
+msgid "Unable to rename the file"
+msgstr "无法重命名文件"
+
+#: imgsaver.cpp:534
+msgid "Error copying file"
+msgstr "复制文件出错"
+
+#: imgsaver.cpp:535
+msgid "Error renaming file"
+msgstr "重命名文件出错"
+
+#: imgsaver.cpp:536
+#, kde-format
+msgid "<qt><p>%1<br><filename>%3</filename><br><br>%2"
+msgstr "<qt><p>%1<br><filename>%3</filename><br><br>%2"
+
+#: kooka.cpp:119
+msgid "KDE Scanning"
+msgstr "KDE 扫描"
+
+#: kooka.cpp:162
+msgid "Scale to Width"
+msgstr "缩放至宽度"
+
+#: kooka.cpp:170
+msgid "Scale to Height"
+msgstr "缩放至高度"
+
+#: kooka.cpp:178
+msgid "Original Size"
+msgstr "原始尺寸"
+
+#: kooka.cpp:185
+msgid "Set Zoom..."
+msgstr "设置缩放..."
+
+#: kooka.cpp:192
+msgid "Keep Zoom Setting"
+msgstr "保持缩放设置"
+
+#: kooka.cpp:200
+msgid "New Image From Selection"
+msgstr "从选区创建新图像"
+
+#: kooka.cpp:205
+msgid "Mirror Vertically"
+msgstr "垂直镜像"
+
+#: kooka.cpp:212
+msgid "Mirror Horizontally"
+msgstr "水平镜像"
+
+#: kooka.cpp:222
+msgid "Rotate Counter-Clockwise"
+msgstr "逆时针旋转"
+
+#: kooka.cpp:229
+msgid "Rotate Clockwise"
+msgstr "顺时针旋转"
+
+#: kooka.cpp:236
+msgid "Rotate 180 Degrees"
+msgstr "180 度旋转"
+
+#: kooka.cpp:245
+msgid "Create Folder..."
+msgstr "创建文件夹..."
+
+#: kooka.cpp:250
+msgid "Open With"
+msgstr "打开方式"
+
+#: kooka.cpp:256
+msgid "Save Image..."
+msgstr "保存图像..."
+
+#: kooka.cpp:263
+msgid "Import Image..."
+msgstr "导入图像..."
+
+#: kooka.cpp:268 kooka.cpp:614
+msgid "Delete Image"
+msgstr "删除图像"
+
+#: kooka.cpp:275 kooka.cpp:615
+msgid "Rename Image"
+msgstr "重命名图像"
+
+#: kooka.cpp:281 kooka.cpp:613
+msgid "Unload Image"
+msgstr "卸载图像"
+
+#: kooka.cpp:288
+msgid "Properties..."
+msgstr "属性..."
+
+#: kooka.cpp:297
+msgid "Select Scan Device..."
+msgstr "选择扫描设备..."
+
+#: kooka.cpp:301 kookaview.cpp:596
+msgid "Add Scan Device..."
+msgstr "添加扫描设备..."
+
+#: kooka.cpp:307
+msgid "Preview"
+msgstr "预览"
+
+#: kooka.cpp:312
+msgid "Start Scan"
+msgstr "开始扫描"
+
+#: kooka.cpp:317
+msgid "Photocopy..."
+msgstr "复制图像..."
+
+#: kooka.cpp:322
+msgid "Scan Parameters..."
+msgstr "扫描参数..."
+
+#: kooka.cpp:327
+#, fuzzy
+#| msgid "No selection"
+msgid "Auto Select"
+msgstr "无选区"
+
+#: kooka.cpp:335
+msgid "OCR Image..."
+msgstr "OCR 图像..."
+
+#: kooka.cpp:339
+msgid "OCR Selection..."
+msgstr "OCR 选区..."
+
+#: kooka.cpp:343
+msgid "Save OCR Result Text..."
+msgstr "保存 OCR 文字结果..."
+
+#: kooka.cpp:348
+msgid "Spell Check OCR Result..."
+msgstr "对 OCR 结果进行拼写检查..."
+
+#: kooka.cpp:599
+msgid "Unload Folder"
+msgstr "卸载文件夹"
+
+#: kooka.cpp:600
+msgid "Delete Folder"
+msgstr "删除文件夹"
+
+#: kooka.cpp:601
+msgid "Rename Folder"
+msgstr "重命名文件夹"
+
+#: kookagallery.cpp:50
+msgid "Folder:"
+msgstr "文件夹："
+
+#: kookaimage.cpp:136
+msgid "Loading non-local images is not yet implemented"
+msgstr "加载非本地图像尚未实现"
+
+#: kookaimage.cpp:171
+msgid "Image loading failed"
+msgstr "加载图像失败"
+
+#: kookapref.cpp:67
+msgid "Preferences"
+msgstr "首选项"
+
+#: kookapref.cpp:70
+msgid "General"
+msgstr "常规"
+
+#: kookapref.cpp:70
+msgid "General Options"
+msgstr "常规选项"
+
+#: kookapref.cpp:71
+msgid "Startup"
+msgstr "启动"
+
+#: kookapref.cpp:71
+msgid "Startup Options"
+msgstr "启动选项"
+
+#: kookapref.cpp:72
+msgid "Image Saving"
+msgstr "图像保存"
+
+#: kookapref.cpp:72
+msgid "Image Saving Options"
+msgstr "图像保存选项"
+
+#: kookapref.cpp:73
+msgid "Gallery & Thumbnails"
+msgstr "相册和缩略图"
+
+#: kookapref.cpp:73
+msgid "Image Gallery and Thumbnail View"
+msgstr "图像相册和缩略图视图"
+
+#: kookapref.cpp:74 kookaview.cpp:324
+msgid "OCR"
+msgstr "OCR"
+
+#: kookapref.cpp:74 ocrbasedialog.cpp:87
+msgid "Optical Character Recognition"
+msgstr "光学字符识别"
+
+#: kookapref.cpp:212
+#, kde-format
+msgid ""
+"<qt><p>Unable to create the directory<br><filename>%1</filename><br>for the "
+"Kooka gallery - %3..<p>Your document directory,<br><filename>%2</"
+"filename><br>will be used.<p>Check the document directory setting and "
+"permissions."
+msgstr ""
+"<qt><p>无法为 Kooka 相册创建文件夹<br><filename>%1</filename><br> - %3..<p>将"
+"使用您的文档文件夹，<br><filename>%2</filename><br>。<p>请检查文档文件夹设置"
+"和权限。"
+
+#: kookapref.cpp:227
+msgid "Error creating gallery"
+msgstr "创建相册出错"
+
+#: kookapref.cpp:271
+#, kde-format
+msgid ""
+"<qt><p>An old Kooka gallery was found at<br><filename>%1</filename>.<p>The "
+"preferred new location is now<br><filename>%2</filename>.<p>Do you want to "
+"create a new gallery at the new location?"
+msgstr ""
+"<qt><p>在<br><filename>%1</filename> 找到了一个旧的 Kooka 相册。<p>偏好的新位"
+"置现在是<br><filename>%2</filename>。<p>您想要在新位置创建新相册吗？"
+
+#: kookapref.cpp:278
+msgid "Create New Gallery"
+msgstr "新建相册"
+
+#: kookapref.cpp:287 kookapref.cpp:307
+#, kde-format
+msgid ""
+"<qt><p>Kooka will use the new gallery,<br><a href=\"file:%1\"><filename>%1</"
+"filename></a>.<p>If you wish to add the images from your old gallery,<br><a "
+"href=\"file:%2\"><filename>%2</filename></a>,<br>then you may do so by "
+"simply copying or moving the files."
+msgstr ""
+"<qt><p>Kooka 将使用新相册，<br><a href=\"file:%1\"><filename>%1</filename></"
+"a>。<p>若您希望从您的旧相册 <br><a href=\"file:%2\"><filename>%2</filename></"
+"a> 添加图像，<br>那么您只需复制或移动文件即可。"
+
+#: kookapref.cpp:294
+msgid "New Gallery Created"
+msgstr "新相册已创建"
+
+#: kookapref.cpp:314
+msgid "Old Gallery Exists"
+msgstr "存在旧相册"
+
+#: kookascanparams.cpp:43
+msgid ""
+"<qt><b>Gallery Mode - No scanner selected</b><p>In this mode you can browse, "
+"manipulate and OCR images already in the gallery.<p><a href=\"a:1\">Select a "
+"scanner device</a> to perform scanning, or <a href=\"a:2\">add a device</a> "
+"if a scanner is not automatically detected."
+msgstr ""
+"<qt><b>相册模式 - 未选择扫描仪</b><p>在此模式下您可以浏览、控制和对相册中已有"
+"的图像进行光学识别。<p><a href=\"a:1\">选择一个扫描仪设备</a>来执行扫描，或"
+"<a href=\"a:2\">添加一个设备</a>若扫描仪未自动检测到。"
+
+#: kookaview.cpp:223
+msgid "Image View"
+msgstr "图像视图"
+
+#: kookaview.cpp:299
+msgid "Scan Preview"
+msgstr "扫描预览"
+
+#: kookaview.cpp:308
+msgid "OCR results will appear here"
+msgstr "OCR 结果将出现于此"
+
+#: kookaview.cpp:318
+msgid "Scan"
+msgstr "扫描"
+
+#: kookaview.cpp:321 kookaview.cpp:605 kookaview.cpp:621 scangallery.cpp:128
+msgid "Gallery"
+msgstr "相册"
+
+#: kookaview.cpp:512
+#, kde-format
+msgid ""
+"<qt><p>There was a problem opening the scanner device.<br>Check that the "
+"scanner is connected and switched on, and that SANE support for it is "
+"correctly configured.<p>Trying to use scanner device: <b>%3</b><br>libkscan "
+"reported error: <b>%2</b><br>SANE reported error: <b>%1</b>"
+msgstr ""
+"<qt><p>打开扫描仪设备出现了一个问题。<br>请检查扫描仪是否连接并打开，并且正确"
+"配置了对它的 SANE 支持。<p>尝试使用扫描仪设备：<b>%3</b><br>libkscan 报错："
+"<b>%2</b><br>SANE 报错：<b>%1</b>"
+
+#: kookaview.cpp:570
+msgid "Add Scan Device"
+msgstr "添加扫描设备"
+
+#: kookaview.cpp:589
+msgid ""
+"<qt><p>No scanner devices are available.<p>If your scanner is a type that "
+"can be auto-detected by SANE, check that it is connected, switched on and "
+"configured correctly.<p>If the scanner cannot be auto-detected by SANE (this "
+"includes some network scanners), you need to specify the device to use.  Use "
+"the \"Add Scan Device\" option to enter the backend name and parameters, or "
+"see that dialog for more information."
+msgstr ""
+"<qt><p>没有可用扫描仪设备。<p>若您的扫描仪是可由 SANE 自动检测到的类型，请检"
+"查它是否连接，打开并正确配置。<p>若扫描仪不能由 SANE 自动检测到 (这包括一些网"
+"络扫描仪)，您需要指定要使用的设备。使用「添加扫描设备」选项来输入后端名称和参"
+"数，或查看那个对话框获取更多信息。"
+
+#: kookaview.cpp:622
+msgid "No scanner connected"
+msgstr "无连接上的扫描仪"
+
+#: kookaview.cpp:679
+msgid "No selection"
+msgstr "无选区"
+
+#: kookaview.cpp:685
+#, kde-format
+msgid "Gallery folder %1"
+msgstr "相册文件夹 %1"
+
+#: kookaview.cpp:685
+#, kde-format
+msgid "Gallery image %1"
+msgstr "相册图像 %1"
+
+#: kookaview.cpp:723
+#, kde-format
+msgid "Print %1"
+msgstr "打印 %1"
+
+#: kookaview.cpp:746
+msgid "Starting OCR on selection"
+msgstr "开始光学识别选区"
+
+#: kookaview.cpp:754
+msgid "Starting OCR on the image"
+msgstr "开始光学识别该图像"
+
+#: kookaview.cpp:771
+msgid "OCR finished"
+msgstr "OCR 完成"
+
+#: kookaview.cpp:778
+msgid "OCR has not been performed yet, or the engine has been changed."
+msgstr "OCR 尚未执行，或引擎已被更改。"
+
+#: kookaview.cpp:779
+msgid "OCR Spell Check not possible"
+msgstr "OCR 拼写检查不可行"
+
+#: kookaview.cpp:784
+msgid "OCR Spell Check"
+msgstr "OCR 拼写检查"
+
+#: kookaview.cpp:913
+#, kde-format
+msgid ""
+"<qt><p>There was a problem during preview or scanning.<br>Check that the "
+"scanner is still connected and switched on, <br>and that media is loaded if "
+"required.<p>Trying to use scanner device: <b>%3</b><br>libkscan reported "
+"error: <b>%2</b><br>SANE reported error: <b>%1</b>"
+msgstr ""
+"<qt><p>预览或扫描时出现了一个问题。<br>请检查扫描仪是否仍连接和开着，<br>有需"
+"要请检查介质是否加载了。<p>尝试连接扫描仪设备：<b>%3</b><br>libkscan 报错："
+"<b>%2</b><br>SANE 报错：<b>%1</b>"
+
+#: kookaview.cpp:957
+msgid "Create new image from selection"
+msgstr "从选区创建新图像"
+
+#: kookaview.cpp:968
+#, fuzzy
+#| msgid "Cannot update image, it is read only"
+msgid "Cannot transform, image is read-only"
+msgstr "无法更新图像，它是只读的"
+
+#: kookaview.cpp:1020
+#, kde-format
+msgid "Loaded image %1"
+msgstr "加载的图像 %1"
+
+#: kookaview.cpp:1021
+msgid "Unloaded image"
+msgstr "已卸载的图像"
+
+#: kookaview.cpp:1039
+#, fuzzy, kde-format
+#| msgid "Loading %1"
+msgid "Loading %1..."
+msgstr "正在加载 %1"
+
+#: kookaview.cpp:1225
+msgid "Other..."
+msgstr "其它..."
+
+#: main.cpp:40
+msgid "Scanning, image gallery and OCR"
+msgstr "扫描，图像相册和 OCR"
+
+#: main.cpp:42
+msgid ""
+"Kooka provides access to scanner hardware using the <a href=\"http://www."
+"sane-project.org/\">SANE</a> library.\n"
+"\n"
+"Kooka allows you to scan, save and view in any image format that KDE "
+"supports, and can perform Optical Character Recognition using the open "
+"source <a href=\"http://jocr.sourceforge.net/\">GOCR</a> or <a href=\"http://"
+"www.gnu.org/software/ocrad/ocrad.html\">OCRAD</a> programs, or the "
+"commercial <a href=\"http://www.rerecognition.com/\">KADMOS</a> library."
+msgstr ""
+"Kooka 使用 <a href=\"http://www.sane-project.org/\">SANE</a> 库提供了对扫描仪"
+"硬件的访问。\n"
+"\n"
+"Kooka 允许您扫描、保存和查看 KDE 支持的任何图像格式，并可使用开源 <a href="
+"\"http://jocr.sourceforge.net/\">GOCR</a> 或 <a href=\"http://www.gnu.org/"
+"software/ocrad/ocrad.html\">OCRAD</a> 程序或商业的 <a href=\"http://www."
+"rerecognition.com/\">KADMOS</a> 库执行光学字符识别。"
+
+#: main.cpp:70
+msgid "(C) 2000-2010, the Kooka developers and contributors"
+msgstr "(C) 2000-2010, Kooka 开发者和贡献者"
+
+#: main.cpp:77
+msgid "Kooka"
+msgstr "Kooka"
+
+#: main.cpp:89
+msgid "Jonathan Marten"
+msgstr "Jonathan Marten"
+
+#: main.cpp:89
+msgid "Current maintainer, KDE4 port"
+msgstr "当前维护者, KDE4 移植"
+
+#: main.cpp:90
+msgid "Klaas Freitag"
+msgstr "Klaas Freitag"
+
+#: main.cpp:90
+msgid "Developer"
+msgstr "开发者"
+
+#: main.cpp:91
+msgid "Mat Colton"
+msgstr "Mat Colton"
+
+#: main.cpp:91
+msgid "Graphics, web"
+msgstr "图形, 网页"
+
+#: main.cpp:92
+msgid "Ivan Shvedunov"
+msgstr "Ivan Shvedunov"
+
+#: main.cpp:92
+msgid "Original kscan application"
+msgstr "原始 kscan 应用程序"
+
+#: main.cpp:93
+msgid "Alex Kempshall"
+msgstr "Alex Kempshall"
+
+#: main.cpp:93
+msgid "Photocopy facility"
+msgstr "图像复制设施"
+
+#: main.cpp:99
+msgid "The SANE device specification (e.g. 'umax:/dev/sg0')"
+msgstr "SANE 设备规范 (例如：'umax:/dev/sg0')"
+
+#: main.cpp:100
+msgid "Gallery mode - do not connect to scanner"
+msgstr "相册模式 - 不连接到扫描仪"
+
+#: newscanparams.cpp:50
+msgid "Edit Scan Parameters"
+msgstr "编辑扫描参数"
+
+#: newscanparams.cpp:51
+msgid "Change the name and/or description of the scan parameter set."
+msgstr "修改扫描参数集的名称和/或描述。"
+
+#: newscanparams.cpp:55
+msgid "Save Scan Parameters"
+msgstr "保存扫描参数"
+
+#: newscanparams.cpp:56
+msgid "Enter a name and description for the new scan parameter set."
+msgstr "请为新扫描参数集输入一个名称和描述。"
+
+#: newscanparams.cpp:60
+msgid "Set name:"
+msgstr "设置名称："
+
+#: newscanparams.cpp:65
+msgid "Description:"
+msgstr "描述："
+
+#: ocrbasedialog.cpp:88
+msgid "Start OCR"
+msgstr "开始 OCR"
+
+#: ocrbasedialog.cpp:88
+msgid "Start the Optical Character Recognition process"
+msgstr "开始光学字符识别过程"
+
+#: ocrbasedialog.cpp:89
+msgid "Stop OCR"
+msgstr "停止 OCR"
+
+#: ocrbasedialog.cpp:89
+msgid "Stop the Optical Character Recognition process"
+msgstr "停止光学字符识别过程"
+
+#: ocrbasedialog.cpp:132
+msgid "Setup"
+msgstr "设置"
+
+#: ocrbasedialog.cpp:133
+#, kde-format
+msgid "Optical Character Recognition using %1"
+msgstr "使用 %1 进行光学字符识别"
+
+#: ocrbasedialog.cpp:177
+msgid "Executable:"
+msgstr "可执行文件："
+
+#: ocrbasedialog.cpp:183
+msgid "Version:"
+msgstr "版本："
+
+#: ocrbasedialog.cpp:186
+msgid "unknown"
+msgstr "未知"
+
+#: ocrbasedialog.cpp:219
+msgid "No preview available"
+msgstr "无预览"
+
+#: ocrbasedialog.cpp:228
+msgid "No information available"
+msgstr "无可用信息"
+
+#: ocrbasedialog.cpp:231
+msgid "Source"
+msgstr "来源"
+
+#: ocrbasedialog.cpp:232
+msgid "Source Image Information"
+msgstr "来源图像信息"
+
+#: ocrbasedialog.cpp:251
+msgid "OCR Engine"
+msgstr "OCR 引擎"
+
+#: ocrbasedialog.cpp:252
+msgid "OCR Engine Information"
+msgstr "OCR 引擎信息"
+
+#: ocrbasedialog.cpp:269
+msgid "Highlight misspelled words"
+msgstr "高亮拼错的单词"
+
+#: ocrbasedialog.cpp:275
+msgid "Use the global spell configuration"
+msgstr "使用全局拼写检查配置"
+
+#: ocrbasedialog.cpp:277
+msgid "Use custom spell configuration"
+msgstr "使用自定义拼写检查配置"
+
+#: ocrbasedialog.cpp:279
+msgid "Custom Spell Configuration..."
+msgstr "自定义拼写检查配置..."
+
+#: ocrbasedialog.cpp:291
+msgid "Start interactive spell check"
+msgstr "启动交互式拼写检查"
+
+#: ocrbasedialog.cpp:297
+msgid ""
+"Custom spell settings above do not affect this spelling check, use the "
+"language setting in the dialog to change the dictionary language."
+msgstr ""
+"上述自定义拼写检查设置不会影响此拼写检查，使用对话框中的语言设置来修改字典语"
+"言。"
+
+#: ocrbasedialog.cpp:317
+msgid "Spell Check"
+msgstr "拼写检查"
+
+#: ocrbasedialog.cpp:318
+msgid "OCR Result Spell Checking"
+msgstr "对 OCR 结果进行拼写检查"
+
+#: ocrbasedialog.cpp:329
+msgid "Retain temporary files"
+msgstr "保留临时文件"
+
+#: ocrbasedialog.cpp:332
+msgid "Verbose message output"
+msgstr "详细消息输出"
+
+#: ocrbasedialog.cpp:337
+msgid "Debugging"
+msgstr "调试"
+
+#: ocrbasedialog.cpp:338
+msgid "OCR Debugging"
+msgstr "OCR 调试"
+
+#: ocrbasedialog.cpp:388
+msgid "No image"
+msgstr "无图像"
+
+#: ocrbasedialog.cpp:414
+#, kde-format
+msgid "Image: %1"
+msgstr "图像：%1"
+
+#: ocrbasedialog.cpp:414
+#, kde-format
+msgid "Selection: %1"
+msgstr "选区：%1"
+
+#: ocrengine.cpp:111
+msgid ""
+"This version of Kooka is not compiled with KADMOS support.\n"
+"Please select another OCR engine in the configuration dialog."
+msgstr ""
+"此版本的 Kooka 未编译 KADMOS 支持。\n"
+"请在配置对话框中选择另一个 OCR 引擎。"
+
+#: ocrengine.cpp:116
+msgid ""
+"No OCR engine is configured.\n"
+"Please select and configure one in the OCR configuration dialog."
+msgstr ""
+"没有已配置的 OCR 引擎。\n"
+"请在 OCR 配置对话框中选择并配置一个 OCR 引擎。"
+
+#: ocrengine.cpp:127
+msgid "Configure OCR..."
+msgstr "配置 OCR..."
+
+#: ocrengine.cpp:152
+msgid "None"
+msgstr "无"
+
+#: ocrengine.cpp:153
+msgid "GOCR"
+msgstr "GOCR"
+
+#: ocrengine.cpp:154
+msgid "OCRAD"
+msgstr "OCRAD"
+
+#: ocrengine.cpp:155
+msgid "Kadmos"
+msgstr "Kadmos"
+
+#: ocrengine.cpp:156 ocrgocrdialog.cpp:208 ocrocraddialog.cpp:231
+msgid "Unknown"
+msgstr "未知"
+
+#: ocrengine.cpp:182
+msgid "OCR is already running"
+msgstr "OCR 已在运行"
+
+#: ocrengine.cpp:266
+msgid "<qt>The following OCR temporary files are retained for debugging:<p>"
+msgstr "<qt>保留了以下 OCR 临时文件以供调试：<p>"
+
+#: ocrengine.cpp:272
+#, kde-format
+msgid "<filename><a href=\"%1\">%2</a></filename><br>"
+msgstr "<filename><a href=\"%1\">%2</a></filename><br>"
+
+#: ocrengine.cpp:279
+msgid "OCR Temporary Files"
+msgstr "OCR 临时文件"
+
+#: ocrengine.cpp:320
+msgid "The OCR process was stopped"
+msgstr "OCR 过程停止了"
+
+#: ocrgocrdialog.cpp:96
+msgid "Gray level:"
+msgstr "灰度级别："
+
+#: ocrgocrdialog.cpp:101
+msgid ""
+"The threshold value below which gray pixels are\n"
+"considered to be black.\n"
+"\n"
+"The default is 160."
+msgstr ""
+"小于该阙值的灰色像素被\n"
+"认为是黑色的。\n"
+"\n"
+"默认值为 160。"
+
+#: ocrgocrdialog.cpp:105
+msgid "Dust size:"
+msgstr "灰尘尺寸："
+
+#: ocrgocrdialog.cpp:110
+msgid ""
+"Clusters smaller than this value\n"
+"will be considered to be dust, and\n"
+"removed from the image.\n"
+"\n"
+"The default is 10."
+msgstr ""
+"小于该值的簇将被认为是灰尘并从图像中移除。\n"
+"\n"
+"默认值为 10。"
+
+#: ocrgocrdialog.cpp:114
+msgid "Space width:"
+msgstr "间隔宽度："
+
+#: ocrgocrdialog.cpp:119
+msgid ""
+"Spacing between characters.\n"
+"\n"
+"The default is 0 which means autodetection."
+msgstr ""
+"字符之间的间距。\n"
+"\n"
+"默认为 0 表示自动检测。"
+
+#: ocrgocrdialog.cpp:134
+msgid ""
+"The path to the GOCR binary is not configured or is not valid.\n"
+"Please enter or check the path in the Kooka configuration."
+msgstr ""
+"到 GOCR 执行文件的路径尚未配置或无效。\n"
+"请在 Kooka 配置中输入或检查其路径。"
+
+#: ocrgocrdialog.cpp:136
+msgid "GOCR Software Not Found"
+msgstr "未找到 GOCR 软件"
+
+#: ocrgocrdialog.cpp:142 ocrocraddialog.cpp:230
+msgid "Not found"
+msgstr "未找到"
+
+#: ocrgocrdialog.cpp:213 ocrocraddialog.cpp:312
+msgid "Error"
+msgstr "错误"
+
+#: ocrgocrengine.cpp:84
+msgid ""
+"<qt><p><b>GOCR</b> (sometimes known as <b>JOCR</b>) is an open source OCR "
+"engine, originally started by Joerg&nbsp;Schulenburg and now with a team of "
+"active developers. <p>See <a href=\"http://jocr.sourceforge.net\">jocr."
+"sourceforge.net</a> for more information on GOCR."
+msgstr ""
+"<qt><p><b>GOCR</b> (有时叫做 <b>JOCR</b>) 是一个开源 OCR 引擎，最初由 "
+"Joerg&nbsp;Schulenburg 发起，现在由一个活跃的开发者团队维护。<p>关于 GOCR 的"
+"更多信息请见 <a href=\"http://jocr.sourceforge.net\">jocr.sourceforge.net</"
+"a>。"
+
+#: ocrgocrengine.cpp:197
+#, kde-format
+msgid "<qt>Cannot read GOCR result file <filename>%1</filename><br/>%2"
+msgstr "<qt>无法读取 GOCR 结果文件 <filename>%1</filename><br/>%2"
+
+#: ocrgocrengine.cpp:199
+msgid "GOCR Result File Error"
+msgstr "GOCR 结果文件错误"
+
+#: ocrkadmosdialog.cpp:60 ocrkadmosdialog.cpp:190
+msgid "Czech Republic, Slovakia"
+msgstr "捷克共和国，斯洛伐克"
+
+#: ocrkadmosdialog.cpp:61 ocrkadmosdialog.cpp:194
+msgid "Great Britain, USA"
+msgstr "大布列颠，美利坚"
+
+#: ocrkadmosdialog.cpp:102
+msgid "European Countries"
+msgstr "欧洲国家"
+
+#: ocrkadmosdialog.cpp:235 ocrkadmosdialog.cpp:312
+msgid ""
+"The classifier files for KADMOS could not be found.\n"
+"OCR with KADMOS will not be possible.\n"
+"\n"
+"Change the OCR engine in the preferences dialog."
+msgstr ""
+"未找到用于 KADMOS 的分类文件。\n"
+"使用 KADMOS 进行 OCR 不可行。\n"
+"\n"
+"请在首选项对话框中修改 OCR 引擎。"
+
+#: ocrkadmosdialog.cpp:238 ocrkadmosdialog.cpp:315
+msgid "Installation Error"
+msgstr "安装错误"
+
+#: ocrkadmosdialog.cpp:264
+msgid "Please classify the font type and language of the text on the image:"
+msgstr "请对图像上文本的字体类型和语言进行归类："
+
+#: ocrkadmosdialog.cpp:266
+msgid "Font Type Selection"
+msgstr "字体类型选择"
+
+#: ocrkadmosdialog.cpp:268
+msgid "Machine print"
+msgstr "机器打印"
+
+#: ocrkadmosdialog.cpp:269
+msgid "Hand writing"
+msgstr "手写"
+
+#: ocrkadmosdialog.cpp:270
+msgid "Norm font"
+msgstr "规范字体"
+
+#: ocrkadmosdialog.cpp:272
+msgid "Country"
+msgstr "国家"
+
+#: ocrkadmosdialog.cpp:285
+msgid "OCR Modifier"
+msgstr "OCR 修饰"
+
+#: ocrkadmosdialog.cpp:288
+msgid "Enable automatic noise reduction"
+msgstr "启用自动降噪"
+
+#: ocrkadmosdialog.cpp:289
+msgid "Enable automatic scaling"
+msgstr "启用自动缩放"
+
+#: ocrkadmosdialog.cpp:404
+#, kde-format
+msgid "Classifier file %1 does not exist"
+msgstr "分类文件 %1 不存在"
+
+#: ocrkadmosdialog.cpp:411
+#, kde-format
+msgid "Classifier file %1 is not readable"
+msgstr "分类文件 %1 不可读"
+
+#: ocrkadmosengine.cpp:72
+#, kde-format
+msgctxt "%1 is one of the two following messages"
+msgid ""
+"<qt><p><b>Kadmos</b> is a commercial OCR/ICR library produced by "
+"reRecognition&nbsp;AG.</p><p>%1</p><p>See <a href=\"http://www.rerecognition."
+"com\">www.rerecognition.com</a> for more information on Kadmos.</p></qt>"
+msgstr ""
+"<qt><p><b>Kadmos</b> 是一个商业的 OCR/ICR 库，由 reRecognition&nbsp;AG 制造。"
+"</p><p>%1</p><p>关于 Kadmos 的更多信息请见 <a href=\"http://www."
+"rerecognition.com\">www.rerecognition.com</a></p></qt>"
+
+#: ocrkadmosengine.cpp:79
+msgid "This version of Kooka is configured to use the Kadmos engine."
+msgstr "此版本的 Koola 已配置可使用 Kadmos 引擎。"
+
+#: ocrkadmosengine.cpp:81
+msgid ""
+"This version of Kooka is not configured for Kadmos.  The Kadmos libraries "
+"need to be installed, and Kooka needs to be rebuilt with the '--with-kadmos' "
+"option."
+msgstr ""
+"此版本的 Koola 尚未针对 Kadmos 配置。需要安装 Kadmos 库，并且需要使用 '--"
+"with-kadmos' 选项重新编译 Koola。"
+
+#: ocrkadmosengine.cpp:99
+#, kde-format
+msgid ""
+"The classifier file necessary for OCR cannot be loaded: %1;\n"
+"OCR with the KADMOS engine is not possible."
+msgstr ""
+"无法加载 OCR 所需的分类文件：%1;\n"
+"使用 KADMOS 引擎进行 OCR 不可行。"
+
+#: ocrkadmosengine.cpp:101
+msgid "KADMOS Installation Problem"
+msgstr "KADMOS 安装问题"
+
+#: ocrkadmosengine.cpp:113
+#, kde-format
+msgid ""
+"The KADMOS OCR system could not be started:\n"
+"%1\n"
+"Please check the configuration."
+msgstr ""
+"无法启动 KADMOS OCR 系统：\n"
+"%1\n"
+"请检查配置。"
+
+#: ocrkadmosengine.cpp:117
+msgid "KADMOS Failure"
+msgstr "KADMOS 失败"
+
+#: ocrocraddialog.cpp:103
+msgid ""
+"The path to the OCRAD binary is not configured or is not valid.\n"
+"Please enter or check the path in the Kooka configuration."
+msgstr ""
+"到 OCRAD 执行文件的路径尚未配置或无效。\n"
+"请到 Kooka 配置中输入或检查其路径。"
+
+#: ocrocraddialog.cpp:105
+msgid "OCRAD Binary Not Found"
+msgstr "未找到 OCRAD 执行文件"
+
+#: ocrocraddialog.cpp:117
+msgid "Layout analysis mode:"
+msgstr "布局分析模式："
+
+#: ocrocraddialog.cpp:121
+msgid "No Layout Detection"
+msgstr "无布局探测"
+
+#: ocrocraddialog.cpp:124
+msgid "Layout Detection"
+msgstr "布局探测"
+
+#: ocrocraddialog.cpp:128
+msgid "Column Detection"
+msgstr "列探测"
+
+#: ocrocraddialog.cpp:129
+msgid "Full Layout Detection"
+msgstr "完整布局检测"
+
+#: ocrocraddialog.cpp:141
+msgid "Character set:"
+msgstr "字符集："
+
+#: ocrocraddialog.cpp:144 ocrocraddialog.cpp:165 ocrocraddialog.cpp:186
+msgid "(default)"
+msgstr "(默认)"
+
+#: ocrocraddialog.cpp:162
+msgid "Filter:"
+msgstr "过滤器："
+
+#: ocrocraddialog.cpp:183
+msgid "Transform:"
+msgstr "转换："
+
+#: ocrocraddialog.cpp:204
+msgid "Invert input"
+msgstr "颠倒输入"
+
+#: ocrocraddialog.cpp:211
+msgid "Set threshold"
+msgstr "设置阙值"
+
+#: ocrocraddialog.cpp:215
+msgid "Threshold"
+msgstr "阙值"
+
+#: ocrocradengine.cpp:70
+msgid ""
+"<qt><p><b>OCRAD</b> is an free software OCR engine by Antonio&nbsp;Diaz, "
+"part of the GNU&nbsp;Project. <p>Images for OCR should be scanned in black/"
+"white (lineart) mode. Best results are achieved if the characters are at "
+"least 20&nbsp;pixels high.  Problems may arise, as usual, with very bold or "
+"very light or broken characters, or with merged character groups.<p>See <a "
+"href=\"http://www.gnu.org/software/ocrad/ocrad.html\">www.gnu.org/software/"
+"ocrad/ocrad.html</a> for more information on OCRAD."
+msgstr ""
+"<qt><p><b>OCRAD</b> 是一个自由软件 OCR 引擎，由 Antonio&nbsp;Diaz 编写，为 "
+"GNU 项目的一部分。<p>用于 OCR 的图像应以黑白 (线性艺术) 模式扫描。若字符至少"
+"有 20 像素高则可取得最好的结果。过粗或过细或破碎的字符，或字符间相互遮挡，通"
+"常都会产生问题。<p>关于 OCRAD 的更多信息请参见 <a href=\"http://www.gnu.org/"
+"software/ocrad/ocrad.html\">www.gnu.org/software/ocrad/ocrad.html</a>。"
+
+#: ocrocradengine.cpp:206
+#, kde-format
+msgid ""
+"<qt>Running the OCRAD process (<filename>%1</filename>) %2 with exit status "
+"%3.<br>More information may be available in its <A HREF=\"%4\">standard "
+"output</A> or <A HREF=\"%5\">standard error</A> log files."
+msgstr ""
+"<qt>运行 OCRAD 进程 (<filename>%1</filename>)  %2 产生错误状态 %3。<br>更多信"
+"息可从其 <a href=\"%4\">标准输出</a>或<a href=\"%5\">标准错误</a>日志文件获"
+"取。"
+
+#: ocrocradengine.cpp:213
+msgid "crashed"
+msgstr "崩溃"
+
+#: ocrocradengine.cpp:213
+msgid "failed"
+msgstr "失败"
+
+#: ocrocradengine.cpp:217
+msgid "OCR Command Failed"
+msgstr "OCR 命令失败"
+
+#: ocrocradengine.cpp:228
+#, kde-format
+msgid ""
+"Parsing the OCRAD result file failed\n"
+"%1"
+msgstr ""
+"解析 OCRAD 结果文件失败\n"
+"%1"
+
+#: ocrocradengine.cpp:229
+msgid "OCR Result Parse Problem"
+msgstr "OCR 文字解析问题"
+
+#: ocrocradengine.cpp:318
+#, kde-format
+msgid "File '%1' does not exist"
+msgstr "文件 '%1' 不存在"
+
+#: ocrocradengine.cpp:320
+#, kde-format
+msgid "File '%1' unreadable"
+msgstr "文件 '%1' 不可读"
+
+#: ocrocradengine.cpp:322
+#, kde-format
+msgid "Cannot open file '%1'"
+msgstr "无法打开文件 '%1'"
+
+#: ocrresedit.cpp:155
+msgid "Save OCR Result Text"
+msgstr "保存 OCR 文字结果"
+
+#: ocrresedit.cpp:161
+#, kde-format
+msgid "<qt>Unable to save the OCR results file<br><filename>%1</filename>"
+msgstr "<qt>无法保存 OCR 结果文件<br><filename>%1</filename>"
+
+#: ocrresedit.cpp:163
+#, kde-format
+msgid "<br>%1"
+msgstr "<br>%1"
+
+#: ocrresedit.cpp:165
+msgid "Error saving OCR results"
+msgstr "保存 OCR 结果出错"
+
+#: photocopyprintdialogpage.cpp:60
+msgid "PhotoCopier"
+msgstr "复印机"
+
+#: photocopyprintdialogpage.cpp:67
+msgid "Print options"
+msgstr "打印选项"
+
+#: photocopyprintdialogpage.cpp:71
+msgid "Copies: "
+msgstr "拷贝："
+
+#: photocopyprintdialogpage.cpp:88
+#, kde-format
+msgid "Scanner Settings: %1"
+msgstr "扫描仪设置：%1"
+
+#: photocopyprintdialogpage.cpp:91
+msgid "Scan size:"
+msgstr "扫描尺寸："
+
+#: prefspages.cpp:80
+msgid "Hidden Messages"
+msgstr "隐藏消息"
+
+#: prefspages.cpp:84
+msgid ""
+"Use this button to reenable all messages and questions which\n"
+"have been hidden by using \"Don't ask me again\"."
+msgstr "使用此按钮来重新启用之前使用 \"别在询问\" 隐藏的全部消息和提问。"
+
+#: prefspages.cpp:87
+msgid "Enable Messages/Questions"
+msgstr "启用消息/提问"
+
+#: prefspages.cpp:125
+msgid "Query network for available scanners"
+msgstr "在网络中查找可用的扫描仪"
+
+#: prefspages.cpp:126
+msgid ""
+"Check this if you want a network query for available scanners.\n"
+"Note that this does not mean a query over the entire network but only the "
+"stations configured for SANE."
+msgstr ""
+"若您想要在网络中查找可用扫描仪请勾选此选项。\n"
+"请注意这不意味着查询整个网络而只是查询为 SANE 配置的工作站。"
+
+#: prefspages.cpp:131
+msgid "Show the scanner selection dialog"
+msgstr "显示扫描仪选区对话框"
+
+#: prefspages.cpp:132
+msgid "Check this to show the scanner selection dialog on startup."
+msgstr "勾选此选项来在启动时显示扫描仪选区对话框。"
+
+#: prefspages.cpp:137
+msgid "Load the last selected image into the viewer"
+msgstr "加载最后选择的图像到查看器"
+
+#: prefspages.cpp:138
+msgid ""
+"Check this if you want Kooka to load the last selected image into the viewer "
+"on startup.\n"
+"If your images are large, that might slow down Kooka's startup."
+msgstr ""
+"若您想要 Kooka 在启动时加载最后选择的图像到查看器请勾选此选项。\n"
+"若您的图像很大，这可能拖慢 Kooka 的启动。"
+
+#: prefspages.cpp:170
+msgid "Always use the Save Assistant"
+msgstr "总是使用保存助手"
+
+#: prefspages.cpp:172
+msgid ""
+"Check this if you want to always use the image save assistant, even if there "
+"is a default format for the image type."
+msgstr ""
+"若您想要总是使用图像保存助手，即使该图像类型已有一个默认格式，请勾选此选项。"
+
+#: prefspages.cpp:177
+msgid "Ask for filename when saving"
+msgstr "保存时询问文件名"
+
+#: prefspages.cpp:179
+msgid "Check this if you want to enter a file name when scanning an image."
+msgstr "若您想要在扫描图像时输入一个文件名请勾选此选项。"
+
+#: prefspages.cpp:189
+msgid "Before the scan starts"
+msgstr "在扫描前"
+
+#: prefspages.cpp:192
+msgid "Check this if you want to enter the file name before scanning starts."
+msgstr "若您想要在扫描启动前输入文件名请勾选此选项。"
+
+#: prefspages.cpp:197
+msgid "After the scan is finished"
+msgstr "在扫描完成后"
+
+#: prefspages.cpp:200
+msgid ""
+"Check this if you want to enter the file name after scanning has finished."
+msgstr "若您想要在扫描完成后输入文件名请勾选此选项。"
+
+#: prefspages.cpp:232
+msgid "Image Gallery"
+msgstr "图像相册"
+
+#: prefspages.cpp:237
+msgid "Show recent folders:"
+msgstr "显示最近的文件夹："
+
+#: prefspages.cpp:241
+msgid "Not shown"
+msgstr "不显示"
+
+#: prefspages.cpp:242
+msgid "At top"
+msgstr "在上"
+
+#: prefspages.cpp:243
+msgid "At bottom"
+msgstr "在下"
+
+#: prefspages.cpp:249
+msgid "Allow click-to-rename"
+msgstr "允许点击以重命名"
+
+#: prefspages.cpp:250
+msgid ""
+"Check this if you want to be able to rename gallery items by clicking on "
+"them (otherwise, use the \"Rename\" menu option)"
+msgstr ""
+"若您想要能点击相册条目来重命名它们，请勾选此选项 (否则请使用「重命名」菜单选"
+"项)"
+
+#: prefspages.cpp:257
+msgid "Thumbnail View"
+msgstr "缩略图视图"
+
+#: prefspages.cpp:262
+msgid "Use a custom background image"
+msgstr "使用自定义背景图像"
+
+#: prefspages.cpp:270
+msgid "Image:"
+msgstr "图像："
+
+#: prefspages.cpp:285
+msgid "Preview size:"
+msgstr "预览尺寸："
+
+#: prefspages.cpp:375
+msgid "OCR Engine:"
+msgstr "OCR 引擎："
+
+#: prefspages.cpp:385
+msgid "Engine executable:"
+msgstr "引擎可执行文件："
+
+#: prefspages.cpp:450
+msgid "No OCR engine is selected. Select and configure one to perform OCR."
+msgstr "未选择 OCR 引擎。请选择并配置一个引擎来执行 OCR。"
+
+#: prefspages.cpp:475
+#, kde-format
+msgid "Unknown engine %1."
+msgstr "未知引擎 %1。"
+
+#: prefspages.cpp:491
+#, kde-format
+msgid ""
+"<qt>The path <filename>%1</filename> is not a valid binary.\n"
+"Please check the path and install the program if necessary."
+msgstr ""
+"<qt>路径 <filename>%1</filename> 不是一个有效的执行文件。\n"
+"请检查路径，有需要请安装程序。"
+
+#: prefspages.cpp:494
+msgid "OCR Engine Not Found"
+msgstr "未找到 OCR 引擎"
+
+#: prefspages.cpp:502
+#, kde-format
+msgid ""
+"<qt>The program <filename>%1</filename> exists, but is not executable.\n"
+"Please check the path and permissions, and/or reinstall the program if "
+"necessary."
+msgstr ""
+"<qt>程序 <filename>%1</filename> 存在，但不可执行。\n"
+"请检查路径和权限，和/或有需要时重新安装程序。"
+
+#: prefspages.cpp:505
+msgid "OCR Engine Not Executable"
+msgstr "OCR 引擎不可执行"
+
+#: scangallery.cpp:88
+msgid "Name"
+msgstr "名称"
+
+#: scangallery.cpp:89
+msgid "Size"
+msgstr "大小"
+
+#: scangallery.cpp:90
+msgid "Format"
+msgstr "格式"
+
+#: scangallery.cpp:170
+msgid "Kooka Gallery"
+msgstr "Kooka 相册"
+
+#: scangallery.cpp:380
+msgid "empty"
+msgstr "空"
+
+#: scangallery.cpp:383
+#, kde-format
+msgid "one image"
+msgid_plural "%1 images"
+msgstr[0] "%1 图像"
+
+#: scangallery.cpp:384
+#, kde-format
+msgid "one file"
+msgid_plural "%1 files"
+msgstr[0] "%1 文件"
+
+#: scangallery.cpp:390
+#, kde-format
+msgid "one file, "
+msgid_plural "%1 files, "
+msgstr[0] "%1 文件，"
+
+#: scangallery.cpp:391
+#, kde-format
+msgid "one image, "
+msgid_plural "%1 images, "
+msgstr[0] "%1 图像，"
+
+#: scangallery.cpp:393
+#, kde-format
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 文件夹"
+
+#: scangallery.cpp:432
+#, kde-format
+msgid " %1 x %2"
+msgstr " %1 x %2"
+
+#: scangallery.cpp:579
+msgid ""
+"You entered a file extension that differs from the existing one. That is not "
+"yet possible. Converting 'on the fly' is planned for a future release.\n"
+"Kooka corrects the extension."
+msgstr ""
+"您输入的文件扩展名与现有扩展名不同。这尚不可行。直接转换是未来版本的计划功"
+"能。\n"
+"Kooka 修正了该扩展名。"
+
+#: scangallery.cpp:581
+msgid "On the Fly Conversion"
+msgstr "直接转换"
+
+#: scangallery.cpp:676
+msgid "Not a valid image format"
+msgstr "不是一个有效的图像格式"
+
+#: scangallery.cpp:713
+#, kde-format
+msgid "Sub-image %1"
+msgstr "子图像 %1"
+
+#: scangallery.cpp:740
+#, kde-format
+msgid "<qt><p>Unable to load the image<br><filename>%2</filename><br><br>%1"
+msgstr "<qt><p>无法加载图像<br><filename>%2</filename><br><br>%1"
+
+#: scangallery.cpp:747
+msgid "Image Load Error"
+msgstr "图像加载出错"
+
+#: scangallery.cpp:821
+msgid "Incoming/"
+msgstr "Incoming/"
+
+#: scangallery.cpp:871
+#, kde-format
+msgid "<qt>Could not save the image<br><filename>%2</filename><br><br>%1"
+msgstr "<qt>无法保存图像<br><filename>%2</filename><br><br>%1"
+
+#: scangallery.cpp:874
+msgid "Image Save Error"
+msgstr "图像保存出错"
+
+#: scangallery.cpp:954
+msgid "All Files"
+msgstr "全部文件"
+
+#: scangallery.cpp:980
+msgid "Import Image File to Gallery"
+msgstr "导入图像文件到相册"
+
+#: scangallery.cpp:1096
+#, kde-format
+msgid ""
+"<qt>Do you really want to permanently delete the folder<br><filename>%1</"
+"filename><br>and all of its contents? It cannot be restored."
+msgstr ""
+"<qt>您真的想要永久删除文件夹<br><filename>%1</filename><br>和其全部内容吗？该"
+"操作不可恢复。"
+
+#: scangallery.cpp:1103
+#, kde-format
+msgid ""
+"<qt>Do you really want to permanently delete the image<br><filename>%1</"
+"filename>?<br>It cannot be restored."
+msgstr ""
+"<qt>您真的想要永久删除图像<br><filename>%1</filename>吗？<br>该操作不可恢复。"
+
+#: scangallery.cpp:1110
+msgid "Delete Gallery Item"
+msgstr "删除相册项目"
+
+#: scangallery.cpp:1120
+#, kde-format
+msgid ""
+"<qt>Could not delete the image or folder<br><filename>%2</filename><br><br>%1"
+msgstr "<qt>无法删除图像或文件夹<br><filename>%2</filename><br><br>%1"
+
+#: scangallery.cpp:1123
+msgid "File Delete Error"
+msgstr "文件删除出错"
+
+#: scangallery.cpp:1155
+msgid "New Folder"
+msgstr "新文件夹"
+
+#: scangallery.cpp:1156
+msgid "Name for the new folder:"
+msgstr "新文件夹名称："
+
+#: scanparamsdialog.cpp:54
+msgid "Scan Parameters"
+msgstr "扫描参数"
+
+#: scanparamsdialog.cpp:72
+msgid "Saved scan parameter sets:"
+msgstr "保存的扫描参数集："
+
+#: scanparamsdialog.cpp:76
+msgid "Load"
+msgstr "加载"
+
+#: scanparamsdialog.cpp:78
+msgid "Load the selected scan parameter set to use as scanner settings"
+msgstr "加载所选扫描参数集来用作扫描仪设置"
+
+#: scanparamsdialog.cpp:81
+msgid "Save..."
+msgstr "保存..."
+
+#: scanparamsdialog.cpp:83
+msgid "Save the current scanner settings as a new scan parameter set"
+msgstr "将当前扫描仪设置保存为新扫描参数集"
+
+#: scanparamsdialog.cpp:86
+msgid "Delete"
+msgstr "删除"
+
+#: scanparamsdialog.cpp:88
+msgid "Delete the selected scan parameter set"
+msgstr "删除所选扫描参数集"
+
+#: scanparamsdialog.cpp:91
+msgid "Edit..."
+msgstr "编辑..."
+
+#: scanparamsdialog.cpp:93
+msgid "Change the name or description of the selected scan parameter set"
+msgstr "修改所选扫描参数集的名称或描述"
+
+#: scanparamsdialog.cpp:102
+msgid "-"
+msgstr "-"
+
+#: scanparamsdialog.cpp:130
+msgid "No save set selected."
+msgstr "未选择保存扫描参数集。"
+
+#: scanparamsdialog.cpp:192
+#, kde-format
+msgid "%1, %2 dpi"
+msgstr "%1,%2 dpi"
+
+#: scanparamsdialog.cpp:271
+#, kde-format
+msgid "<qt>Do you really want to delete the set '<b>%1</b>'?"
+msgstr "<qt>您真的想要删除扫描参数集 '<b>%1</b>' 吗？"
+
+#: scanparamsdialog.cpp:272
+msgid "Delete Scan Parameter Set"
+msgstr "删除扫描参数集"
+
+#: statusbarmanager.cpp:52
+#, fuzzy
+#| msgid "Ready"
+msgctxt "@info:status"
+msgid "Ready"
+msgstr "就绪"
+
+#: statusbarmanager.cpp:58
+msgctxt "@info:tooltip"
+msgid "The size of the image being viewed in the gallery"
+msgstr ""
+
+#: statusbarmanager.cpp:63
+msgctxt "@info:tooltip"
+msgid "The size of the selected area that will be scanned"
+msgstr ""
+
+#: statusbarmanager.cpp:69
+msgctxt "@info:tooltip"
+msgid ""
+"<qt>This is the uncompressed size of the scanned image. It tries to warn you "
+"if you try to produce too big an image by changing its background color."
+msgstr ""
+
+#: statusbarmanager.cpp:116
+#, fuzzy, kde-format
+#| msgid "Image: %1"
+msgctxt "@info:status"
+msgid "Image: %1"
+msgstr "图像：%1"
+
+#: statusbarmanager.cpp:120
+#, fuzzy, kde-format
+#| msgid "Selection: %1"
+msgctxt "@info:status"
+msgid "Scan: %1"
+msgstr "选区：%1"
+
+#: thumbview.cpp:106
+msgid "Thumbnails"
+msgstr "缩略图"
+
+#: thumbview.cpp:119
+msgid "Preview Size"
+msgstr "预览尺寸"
+
+#: thumbview.cpp:409
+msgid "Very Large"
+msgstr "巨大"
+
+#: thumbview.cpp:410
+msgid "Large"
+msgstr "大"
+
+#: thumbview.cpp:411
+msgid "Medium"
+msgstr "中等"
+
+#: thumbview.cpp:412
+msgid "Small"
+msgstr "小"
+
+#: thumbview.cpp:413
+msgid "Very Small"
+msgstr "非常小"
+
+#: thumbview.cpp:414
+msgid "Tiny"
+msgstr "微小"
+
+#~ msgid "Mirroring image both directions"
+#~ msgstr "在两个方向镜像图像"
+
+#~ msgid "<qt>Unable to update the image<br><filename>%2</filename><br><br>%1"
+#~ msgstr "<qt>无法更新图像<br><filename>%2</filename><br><br>%1"
+
+#~ msgid "Save Error"
+#~ msgstr "保存出错"
+
+#, fuzzy
+#~| msgid "New Folder"
+#~ msgid "folder"
+#~ msgstr "新文件夹"
+
+#, fuzzy
+#~| msgid "Image"
+#~ msgid "image"
+#~ msgstr "图像"
+
+#, fuzzy
+#~| msgid "Gallery"
+#~ msgid "Gallery %1 %2"
+#~ msgstr "图像集"
+
+#~ msgid "Select the image sub-format"
+#~ msgstr "选择图像的下一级格式"
+
+#~ msgid "Do not ask again for the save format if it is defined."
+#~ msgstr "如已定义则不再询问保存格式。"
+
+#~ msgid ""
+#~ "The folder\n"
+#~ "%1\n"
+#~ " does not exist and could not be created;\n"
+#~ "please check the permissions."
+#~ msgstr ""
+#~ "目录\n"
+#~ "%1\n"
+#~ "不存在并且无法被创建；\n"
+#~ "请检查权限。"
+
+#~ msgid "Enter filename:"
+#~ msgstr "输入文件名："
+
+#~ msgid "high (or true-) color image, not palleted"
+#~ msgstr "高（或真）彩图像，非调色板颜色"
+
+#~ msgid " image save OK      "
+#~ msgstr "图像保存完成"
+
+#~ msgid " permission error   "
+#~ msgstr "权限错误"
+
+#~ msgid " bad filename       "
+#~ msgstr "错误文件名"
+
+#~ msgid " unknown error      "
+#~ msgstr "未知错误"
+
+#~ msgid " parameter wrong    "
+#~ msgstr "参数错误"
+
+#~ msgid "That would result in the new filename: %1"
+#~ msgstr "那样将产生新的文件名：%1"
+
+#~ msgid "Format changes of images are currently not supported."
+#~ msgstr "当前还不支持改变图像格式。"
+
+#~ msgid "Wrong Extension Found"
+#~ msgstr "发现错误的扩展名"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "Stop the OCR Process"
+#~ msgstr "停止 OCR 处理"
+
+#, fuzzy
+#~ msgid "<b>Starting Optical Character Recognition with %1</b><p>"
+#~ msgstr "<B>光学字符识别结果</B>"
+
+#~ msgid "OCR Post Processing"
+#~ msgstr "OCR 后期处理"
+
+#~ msgid ""
+#~ "GOCR is an Open Source project for optical character recognition.<P>The "
+#~ "author of gocr is <B>Joerg Schulenburg</B><BR>For more information about "
+#~ "gocr see <A HREF=http://jocr.sourceforge.net>http://jocr.sourceforge.net</"
+#~ "A>"
+#~ msgstr ""
+#~ "GOCR 是一个进行光学字符识别开放源码软件。<P>gocr的作者是 <B>Joerg "
+#~ "Schulenburg</B><BR>更多关于 gocr 的信息请参见 <A HREF=http:////jocr."
+#~ "sourceforge.net>http://jocr.sourceforge.net</A>"
+
+#~ msgid "Using GOCR binary: "
+#~ msgstr "使用 GOCR 执行程序："
+
+#~ msgid "KADMOS OCR/ICR"
+#~ msgstr "KADMOS OCR/ICR"
+
+#, fuzzy
+#~ msgid ""
+#~ "This version of Kooka was linked with the <I>KADMOS OCR/ICR engine</I>, a "
+#~ "commercial engine for optical character recognition.<P>Kadmos is a "
+#~ "product of <B>re Recognition AG</B><BR>For more information about Kadmos "
+#~ "OCR see <A HREF=http://www.rerecognition.com>http://www.rerecognition."
+#~ "com</A>"
+#~ msgstr ""
+#~ "<B>开始光学字符识别</B><P>Kooka 使用 <I>KADMOS OCR 引擎</I>，它是一个进行"
+#~ "光学字符识别的商用引擎。<P>Kadmos 是 <B>re Recognition AG</B> 公司的产品。"
+#~ "<BR>更多关于 Kadmos OCR 的信息请参见 <A HREF=http:////jocr.sourceforge."
+#~ "net>http://jocr.sourceforge.net</A>"
+
+#, fuzzy
+#~ msgid ""
+#~ "The path to the ocrad binary is not configured yet.\n"
+#~ "Please go to the Kooka configuration and enter the path manually."
+#~ msgstr ""
+#~ "尚未配置到 gocr 执行程序的路径。\n"
+#~ "请到 Kooka 配置对话框手工输入其路径。"
+
+#, fuzzy
+#~ msgid "Using ocrad binary: "
+#~ msgstr "使用 GOCR 执行程序："
+
+#~ msgid "Mirror Image &Both Directions"
+#~ msgstr "在两个方向镜像图像(&B)"
+
+#~ msgid "Open Image in &Graphic Application..."
+#~ msgstr "在图像应用程序中打开图像(&G)..."
+
+#~ msgid "Enable All Warnings && Messages"
+#~ msgstr "启用所有的警告和消息"
+
+#, fuzzy
+#~ msgid "Save OCR Res&ult Text"
+#~ msgstr "OCR 文字结果"
+
+#~ msgid "All messages and warnings will now be shown."
+#~ msgstr "将显示所有的警告和消息。"
+
+#~ msgid "KADMOS engine"
+#~ msgstr "KADMOS 引擎"
+
+#~ msgid "OCRAD engine"
+#~ msgstr "OCRAD 引擎"
+
+#~ msgid "GOCR OCR"
+#~ msgstr "GOCR OCR"
+
+#~ msgid "OCRAD OCR"
+#~ msgstr "OCRAD OCR"
+
+#~ msgid "KADMOS OCR"
+#~ msgstr "KADMOS OCR"
+
+#, fuzzy
+#~ msgid "The KADMOS OCR engine is available"
+#~ msgstr "KADMOS OCR 引擎"
+
+#, fuzzy
+#~ msgid "Select the %1 binary to use:"
+#~ msgstr "到‘gocr’执行程序的路径："
+
+#, fuzzy
+#~ msgid ""
+#~ "Enter the path to %1, the optical-character-recognition command line tool."
+#~ msgstr "输入光学字符识别命令行工具 gocr 的执行文件的路径。"
+
+#~ msgid "Kooka Startup Preferences"
+#~ msgstr "Kooka 启动首选项"
+
+#~ msgid ""
+#~ "Check this if you once checked 'do not show the scanner selection on "
+#~ "startup',\n"
+#~ "but you want to see it again."
+#~ msgstr ""
+#~ "当您曾经选择过‘启动时不显示选择扫描仪对话框’，\n"
+#~ "但是现在又希望看到它时，请选中此项。"
+
+#~ msgid "Configure Image Save Assistant"
+#~ msgstr "配置图像保存助手"
+
+#~ msgid "Thumbnail Gallery View"
+#~ msgstr "缩略图像集视图"
+
+#~ msgid ""
+#~ "Here you can configure the appearance of the thumbnail view of your scan "
+#~ "picture gallery."
+#~ msgstr "在此您可以配置您的扫描图像集的缩略图视图。"
+
+#~ msgid "Thumbview Background"
+#~ msgstr "缩略图背景"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "缩略图大小"
+
+#~ msgid "Thumbnail Frame"
+#~ msgstr "缩略图边框"
+
+#~ msgid "Thumbnail maximum &width:"
+#~ msgstr "缩略图最大宽度(&W)："
+
+#~ msgid "Thumbnail maximum &height:"
+#~ msgstr "缩略图最大高度(&H)："
+
+#~ msgid "Thumbnail &frame width:"
+#~ msgstr "缩略图边框宽度(&F)："
+
+#~ msgid "Frame color &1: "
+#~ msgstr "边框颜色 &1："
+
+#~ msgid "Frame color &2: "
+#~ msgstr "边框颜色 &2："
+
+#~ msgid "OCR Engine Change"
+#~ msgstr "OCR 引擎更改"
+
+#~ msgid "Image Viewer"
+#~ msgstr "图像查看器"
+
+#~ msgid "Gallery:"
+#~ msgstr "图像集："
+
+#~ msgid ""
+#~ "Could not start OCR-Process.\n"
+#~ "Probably there is already one running."
+#~ msgstr ""
+#~ "无法开始 OCR 操作。\n"
+#~ "可能已经有同样进程正在运行。"
+
+#~ msgid "Storing image changes"
+#~ msgstr "正在保存图像的改变"
+
+#~ msgid "Tool Views"
+#~ msgstr "工具视图"
+
+#~ msgid "Show Image Viewer"
+#~ msgstr "显示图像查看器"
+
+#~ msgid "Show Preview"
+#~ msgstr "显示预览"
+
+#~ msgid "Show Thumbnail Window"
+#~ msgstr "显示缩略图窗口"
+
+#~ msgid "Show Scan Parameters"
+#~ msgstr "显示扫描参数"
+
+#~ msgid "http://kooka.kde.org"
+#~ msgstr "http://kooka.kde.org"
+
+#~ msgid "Image Name"
+#~ msgstr "图像名称"
+
+#, fuzzy
+#~ msgid ""
+#~ "Cannot write this image format.\n"
+#~ "Image will not be saved."
+#~ msgstr ""
+#~ "无法写入此图像格式。\n"
+#~ "无法保存图像！"
+
+#, fuzzy
+#~ msgid ""
+#~ "Image file is write protected.\n"
+#~ "Image will not be saved."
+#~ msgstr ""
+#~ "图像文件被写保护。\n"
+#~ "无法保存图像！"
+
+#~ msgid ""
+#~ "Cannot save the image, because the file is local.\n"
+#~ "Kooka will support other protocols later."
+#~ msgstr ""
+#~ "无法保存图像，因为文件是本地的。\n"
+#~ "Kooka 将在今后支持更多的协议。"
+
+#~ msgid "Canceled by user"
+#~ msgstr "已被用户取消"
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Liang Meng"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "mengliang99@sohu.com"
+
+#~ msgid "Note that changing these options will affect Kooka's next start!"
+#~ msgstr "注意改变这些选项将在下一次 Kooka 启动时起作用！"
+
+#~ msgid "%1 MB"
+#~ msgstr "%1 MB"
+
+#~ msgid "%1 kB"
+#~ msgstr "%1 kB"
+
+#, fuzzy
+#~ msgid "Show Scan &Parameters"
+#~ msgstr "显示扫描参数"
+
+#, fuzzy
+#~ msgid "Select an orf:"
+#~ msgstr "选择图像缩放："
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not find the gocr binary.\n"
+#~ "Please check your installation and/or install gocr or adjust the path to "
+#~ "gocr manually."
+#~ msgstr ""
+#~ "无法找到 gocr 执行文件。\n"
+#~ "请检查您的安装和/或安装 gocr，或者手工指定到 gocr 的路径。"
+
+#, fuzzy
+#~ msgid "Page %1 here"
+#~ msgstr "图像 %1"
+
+#~ msgid "%1 items"
+#~ msgstr "%1 项"
+
+#~ msgid "Alphanumeric characters"
+#~ msgstr "字母字符"
+
+#~ msgid "GOCR - Optical Character Recognition"
+#~ msgstr "GOCR - 光学字符识别"
+
+#~ msgid "KADMOS OCR Engine"
+#~ msgstr "KADMOS OCR 引擎"
+
+#~ msgid "Segmentation"
+#~ msgstr "分段"
+
+#~ msgid "Classification"
+#~ msgstr "分类"
+
+#~ msgid "Select a classifier: "
+#~ msgstr "选择修饰器："
+
+#~ msgid "Show Scan &Parameter"
+#~ msgstr "显示扫描参数(&P)"
+
+#, fuzzy
+#~ msgid "Optical Character Recognition Finished"
+#~ msgstr "光学字符识别完成"
+
+#~ msgid "25 %"
+#~ msgstr "25 %"
+
+#~ msgid "50 %"
+#~ msgstr "50 %"
+
+#~ msgid "75 %"
+#~ msgstr "75 %"
+
+#~ msgid "100 %"
+#~ msgstr "100 %"
+
+#~ msgid "150 %"
+#~ msgstr "150 %"
+
+#~ msgid "200 %"
+#~ msgstr "200 %"
+
+#~ msgid "300 %"
+#~ msgstr "300 %"
+
+#~ msgid "400 %"
+#~ msgstr "400 %"
+
+#~ msgid "Custom scale factor:"
+#~ msgstr "自定义缩放因子："
+
+#~ msgid "&Gallery"
+#~ msgstr "图像集(&G)"
+
+#~ msgid "rotate image 180 degrees"
+#~ msgstr "旋转图像180度"
+
+#~ msgid "&ImageCanvas"
+#~ msgstr "图像画布(&I)"

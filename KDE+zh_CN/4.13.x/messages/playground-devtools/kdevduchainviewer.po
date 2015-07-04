@@ -1,0 +1,90 @@
+# translation of kdevduchainviewer.po to 简体中文
+# Copyright (C) 2002,2003, 2004, 2008, 2009 Free Software Foundation, Inc.
+#
+# Qi Liang <cavendish@eyou.com>, 2001.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003, 2004.
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevduchainviewer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 06:55+0200\n"
+"PO-Revision-Date: 2009-02-20 09:57+0000\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#: duchainmodel.cpp:232
+#, kde-format
+msgid "Range: %1:%2 -> %3 %4"
+msgstr "范围：%1:%2 -> %3 %4"
+
+#: duchainmodel.cpp:238
+#, kde-format
+msgid "Imported Context: %1"
+msgstr "已导入上下文：%1"
+
+#: duchainmodel.cpp:240
+msgid "Top level context"
+msgstr "顶级上下文"
+
+#: duchainmodel.cpp:242
+#, kde-format
+msgid "Context: %1"
+msgstr "上下文：%1"
+
+#: duchainmodel.cpp:249
+#, kde-format
+msgid "Definition: %1"
+msgstr "定义：%1"
+
+#: duchainmodel.cpp:251
+#, kde-format
+msgid "Declaration: %1"
+msgstr "声明：%1"
+
+#: duchainmodel.cpp:264
+#, fuzzy
+#| msgid "Unknown object!"
+msgid "Unknown object."
+msgstr "未知对象！"
+
+#: duchainmodel.cpp:546
+#, kde-format
+msgid "Cannot create temporary file \"%1\" with suffix \"%2\""
+msgstr "无法以后缀“%2”创建临时文件“%1”"
+
+#: duchainmodel.cpp:564
+#, kde-format
+msgid "Could not open %1 with kgraphviewer or dotty."
+msgstr "无法用 kgraphviewer 或 dotty 打开 %1。"
+
+#: duchaintree.cpp:46
+msgid "Definition-Use Chain"
+msgstr "定义使用链"
+
+#: duchainviewplugin.cpp:37
+msgid "DUChain View"
+msgstr "定义使用链视图"
+
+#: duchainviewplugin.cpp:37
+msgid "A simple tool to view the raw DUChain"
+msgstr "一个查看原始定义使用链的简单工具"
+
+#: duchainviewplugin.cpp:71
+msgid "DUChain Viewer"
+msgstr "定义使用链查看器"

@@ -1,0 +1,1858 @@
+# translation of libakonadi.po to 简体中文
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010, 2011, 2012.
+# Lie Ex <lilith.ex@gmail.com>, 2009.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: libakonadi\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-26 01:45+0000\n"
+"PO-Revision-Date: 2013-07-07 22:05-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: agentactionmanager.cpp:52
+msgid "&New Agent Instance..."
+msgstr "新建代理实例(&N)..."
+
+#: agentactionmanager.cpp:55
+msgid "&Delete Agent Instance"
+msgstr "删除代理实例(&D)"
+
+#: agentactionmanager.cpp:58
+msgid "&Configure Agent Instance"
+msgstr "配置代理实例(&C)"
+
+#: agentactionmanager.cpp:80
+msgctxt "@title:window"
+msgid "New Agent Instance"
+msgstr "新建代理实例"
+
+#: agentactionmanager.cpp:84
+#, kde-format
+msgid "Could not create agent instance: %1"
+msgstr "无法创建代理实例：%1"
+
+#: agentactionmanager.cpp:88
+msgid "Agent instance creation failed"
+msgstr "代理实例创建失败"
+
+#: agentactionmanager.cpp:92
+msgctxt "@title:window"
+msgid "Delete Agent Instance?"
+msgstr "删除代理实例？"
+
+#: agentactionmanager.cpp:96
+msgid "Do you really want to delete the selected agent instance?"
+msgstr "您真的想要删除选中的代理实例吗？"
+
+#: agentbase.cpp:337 preprocessorbase_p.cpp:41
+#, kde-format
+msgid "Unable to register object at dbus: %1"
+msgstr "无法在 dbus 上注册对象：%1"
+
+#: agentbase.cpp:423
+#, kde-format
+msgctxt "Name and type of Akonadi resource"
+msgid "%1 of type %2"
+msgstr "类型 %2 的 %1"
+
+#: agentbase.cpp:837 agentbase.cpp:838
+msgid "Akonadi Agent"
+msgstr "Akonadi 代理"
+
+#: agentbase.cpp:841
+msgid "Agent identifier"
+msgstr "代理标识符"
+
+#: agentbase_p.h:61 resourcescheduler.cpp:235
+msgctxt "@info:status Application ready for work"
+msgid "Ready"
+msgstr "就绪"
+
+#: agentbase_p.h:63
+msgctxt "@info:status"
+msgid "Offline"
+msgstr "离线"
+
+#: agentbase_p.h:68
+msgctxt "@info:status"
+msgid "Syncing..."
+msgstr "正在同步..."
+
+#: agentbase_p.h:73
+msgctxt "@info:status"
+msgid "Error."
+msgstr "错误。"
+
+#: agentbase_p.h:78
+msgctxt "@info:status"
+msgid "Not configured"
+msgstr "未配置"
+
+#: agentinstancecreatejob.cpp:88
+msgid "Unable to access D-Bus interface of created agent."
+msgstr "无法访问 D-Bus 接口来创建代理。"
+
+#: agentinstancecreatejob.cpp:122
+msgid "Agent instance creation timed out."
+msgstr "代理实例创建超时。"
+
+#: agentinstancecreatejob.cpp:188
+#, kde-format
+msgid "Unable to obtain agent type '%1'."
+msgstr "无法获得代理类型“%1”。"
+
+#: agentinstancecreatejob.cpp:196
+msgid "Unable to create agent instance."
+msgstr "无法创建代理实例。"
+
+#: agentinstancemodel.cpp:191 collectionmodel_p.h:50
+msgctxt "@title:column, name of a thing"
+msgid "Name"
+msgstr "名称"
+
+#: cachepolicypage.cpp:52 cachepolicypage.cpp:57
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "分钟"
+
+#: cachepolicypage.cpp:74
+msgid "Retrieval"
+msgstr "获取"
+
+#. i18n: ectx: property (text), widget (QCheckBox, inherit)
+#: cachepolicypage.ui:20
+msgid "Use options from parent folder or account"
+msgstr "使用父目录或账户的选项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, syncOnDemand)
+#: cachepolicypage.ui:33
+msgid "Synchronize when selecting this folder"
+msgstr "选中此文件夹时同步"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: cachepolicypage.ui:42
+msgid "Automatically synchronize after:"
+msgstr "自动更新间隔："
+
+#. i18n: ectx: property (suffix), widget (KIntNumInput, checkInterval)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, localCacheTimeout)
+#: cachepolicypage.ui:55 cachepolicypage.ui:144
+msgid "minutes"
+msgstr "分钟"
+
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, checkInterval)
+#: cachepolicypage.ui:58
+msgctxt "never check the cache"
+msgid "Never"
+msgstr "永不"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (title), widget (KEditListWidget, localParts)
+#: cachepolicypage.ui:77 cachepolicypage.ui:89
+msgid "Locally Cached Parts"
+msgstr "本地缓存的部分"
+
+#. i18n: ectx: property (title), widget (QGroupBox, retrievalOptionsGroupBox)
+#: cachepolicypage.ui:106
+msgid "Retrieval Options"
+msgstr "获取选项"
+
+#. i18n: ectx: property (text), widget (QRadioButton, retrieveFullMessages)
+#: cachepolicypage.ui:112
+msgid "Always retrieve full messages"
+msgstr "总是获取完整信件"
+
+#. i18n: ectx: property (text), widget (QRadioButton, retrieveOnlyHeaders)
+#: cachepolicypage.ui:122
+msgid "Retrieve message bodies on demand"
+msgstr "按需获取信件主体"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cachepolicypage.ui:131
+msgid "Keep message bodies locally for:"
+msgstr "保持信件主体在本地："
+
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, localCacheTimeout)
+#: cachepolicypage.ui:147
+msgctxt "no cache timeout"
+msgid "Forever"
+msgstr "永远"
+
+#: collectionattributessynchronizationjob.cpp:90
+msgid "Invalid collection instance."
+msgstr "无效的收藏实例。"
+
+#: collectionattributessynchronizationjob.cpp:97
+#: resourcesynchronizationjob.cpp:97
+msgid "Invalid resource instance."
+msgstr "无效的资源实例。"
+
+#: collectionattributessynchronizationjob.cpp:119
+#: resourcesynchronizationjob.cpp:120
+#, kde-format
+msgid "Unable to obtain D-Bus interface for resource '%1'"
+msgstr "无法为资源“%1”获得 D-Bus 接口"
+
+#: collectionattributessynchronizationjob.cpp:143
+msgid "Collection attributes synchronization timed out."
+msgstr "收藏属性同步超时。"
+
+#: collectioncreatejob.cpp:58
+msgid "Invalid parent"
+msgstr "无效的父类"
+
+#: collectiondeletejob.cpp:59
+msgid "Invalid collection"
+msgstr "无效的收藏"
+
+#: collectiondialog_desktop.cpp:66
+msgctxt "@info/plain Displayed grayed-out inside the textbox, verb to search"
+msgid "Search"
+msgstr "搜索"
+
+#: collectiondialog_desktop.cpp:74
+msgid "Use folder by default"
+msgstr ""
+
+#: collectiondialog_desktop.cpp:180 collectiondialog_mobile.cpp:111
+msgid "&New Subfolder..."
+msgstr "新建子文件夹(&N)..."
+
+#: collectiondialog_desktop.cpp:181
+msgid "Create a new subfolder under the currently selected folder"
+msgstr "在当前所选文件夹下创建新子文件夹"
+
+#: collectiondialog_desktop.cpp:216 collectiondialog_mobile.cpp:183
+#: standardactionmanager.cpp:246
+msgctxt "@title:window"
+msgid "New Folder"
+msgstr "新建文件夹"
+
+#: collectiondialog_desktop.cpp:217 collectiondialog_mobile.cpp:184
+msgctxt "@label:textbox, name of a thing"
+msgid "Name"
+msgstr "名称"
+
+#: collectiondialog_desktop.cpp:234 collectiondialog_mobile.cpp:201
+#: standardactionmanager.cpp:250
+#, kde-format
+msgid "Could not create folder: %1"
+msgstr "无法创建文件夹：%1"
+
+#: collectiondialog_desktop.cpp:235 collectiondialog_mobile.cpp:202
+#: standardactionmanager.cpp:252
+msgid "Folder creation failed"
+msgstr "文件夹创建失败"
+
+#: collectionfetchjob.cpp:216
+msgid "Invalid collection given."
+msgstr "给出的收藏无效。"
+
+#: collectiongeneralpropertiespage.cpp:40
+msgctxt "@title:tab general properties page"
+msgid "General"
+msgstr "常规"
+
+#: collectiongeneralpropertiespage.cpp:69
+#, kde-format
+msgctxt "@label"
+msgid "One object"
+msgid_plural "%1 objects"
+msgstr[0] "%1 个对象"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: collectiongeneralpropertiespage.ui:16
+#: collectiongeneralpropertiespage_mobile.ui:16
+msgid "&Name:"
+msgstr "名称(&N)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, customIconCheckbox)
+#: collectiongeneralpropertiespage.ui:29
+#: collectiongeneralpropertiespage_mobile.ui:29
+msgid "&Use custom icon:"
+msgstr "使用自定义图标(&U)："
+
+#. i18n: ectx: property (icon), widget (KIconButton, customIcon)
+#: collectiongeneralpropertiespage.ui:39
+msgid "folder"
+msgstr "文件夹"
+
+#. i18n: ectx: property (title), widget (QGroupBox, statsBox)
+#: collectiongeneralpropertiespage.ui:62
+#: collectiongeneralpropertiespage_mobile.ui:49
+msgid "Statistics"
+msgstr "统计"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: collectiongeneralpropertiespage.ui:68
+#: collectiongeneralpropertiespage_mobile.ui:55
+msgctxt "object names"
+msgid "Content:"
+msgstr "内容："
+
+#. i18n: ectx: property (text), widget (QLabel, countLabel)
+#: collectiongeneralpropertiespage.ui:75
+#: collectiongeneralpropertiespage_mobile.ui:62
+msgid "0 objects"
+msgstr "0 个对象"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: collectiongeneralpropertiespage.ui:82
+#: collectiongeneralpropertiespage_mobile.ui:69
+msgid "Size:"
+msgstr "大小："
+
+#. i18n: ectx: property (text), widget (QLabel, sizeLabel)
+#: collectiongeneralpropertiespage.ui:89
+#: collectiongeneralpropertiespage_mobile.ui:76
+msgid "0 Byte"
+msgstr "0 字节"
+
+#: collectionpathresolver.cpp:91 collectionpathresolver.cpp:108
+msgid "No such collection."
+msgstr "没有这个收藏。"
+
+#: collectionrequester.cpp:93
+msgid "No Folder"
+msgstr "无件夹"
+
+#: collectionrequester.cpp:101
+msgid "Open collection dialog"
+msgstr "打开收藏对话框"
+
+#: collectionrequester.cpp:117
+msgid "Select a collection"
+msgstr "选择收藏"
+
+#: collectionselectjob.cpp:72
+msgid "Invalid collection specified"
+msgstr "指定了无效的收藏"
+
+#: collectionstatisticsmodel.cpp:162
+msgctxt "@title:column, number of unread messages"
+msgid "Unread"
+msgstr "未读"
+
+#: collectionstatisticsmodel.cpp:163
+msgctxt "@title:column, total number of messages"
+msgid "Total"
+msgstr "总共"
+
+#: collectionstatisticsmodel.cpp:164
+msgctxt "@title:column, total size (in bytes) of the collection"
+msgid "Size"
+msgstr "大小"
+
+#: collectionsync.cpp:199
+msgid "Inconsistent local collection tree detected."
+msgstr "检测到不一致的本地收藏结构。"
+
+#: collectionsync.cpp:364
+msgid ""
+"Remote collection without root-terminated ancestor chain provided, resource "
+"is broken."
+msgstr "远程收藏没有提供根锚点，资源已经损坏。"
+
+#: collectionsync.cpp:711
+msgid "Found unresolved orphan collections"
+msgstr "发现无法解析的孤立收藏"
+
+#: collectionview.cpp:231
+msgid "&Move here"
+msgstr "移动到此处(&M)"
+
+#: collectionview.cpp:232
+msgid "&Copy here"
+msgstr "复制到此处(&C)"
+
+#: collectionview.cpp:234
+msgid "Cancel"
+msgstr "取消"
+
+#: conflicthandling/conflicthandler.cpp:68
+msgid "Did not find other item for conflict handling"
+msgstr "无法找到需要处理冲突的其他对象"
+
+#: conflicthandling/conflictresolvedialog.cpp:131
+msgid "Modification Time"
+msgstr "修改时间"
+
+#: conflicthandling/conflictresolvedialog.cpp:147
+msgid "Flags"
+msgstr "标记"
+
+#: conflicthandling/conflictresolvedialog.cpp:165
+#: conflicthandling/conflictresolvedialog.cpp:172
+#: conflicthandling/conflictresolvedialog.cpp:181
+#, kde-format
+msgid "Attribute: %1"
+msgstr "属性：%1"
+
+#: conflicthandling/conflictresolvedialog.cpp:192
+msgctxt "@title:window"
+msgid "Conflict Resolution"
+msgstr "冲突解决"
+
+#: conflicthandling/conflictresolvedialog.cpp:196
+msgid "Take left one"
+msgstr "选择左项"
+
+#: conflicthandling/conflictresolvedialog.cpp:197
+msgid "Take right one"
+msgstr "选择右项"
+
+#: conflicthandling/conflictresolvedialog.cpp:198
+msgid "Keep both"
+msgstr "保留两者"
+
+#: conflicthandling/conflictresolvedialog.cpp:207
+msgctxt "@label"
+msgid ""
+"Two updates conflict with each other.<nl/>Please choose which update(s) to "
+"apply."
+msgstr "两个更新互相冲突。<nl/>请选择应用哪个更新。"
+
+#: conflicthandling/conflictresolvedialog.cpp:237
+msgid "Data"
+msgstr "数据"
+
+#: control.cpp:239
+msgid "Starting Akonadi server..."
+msgstr "正在启动 Akonadi 服务器..."
+
+#: control.cpp:245
+msgid "Stopping Akonadi server..."
+msgstr "正在停止 Akonadi 服务器..."
+
+#: dragdropmanager.cpp:216
+msgid "&Move Here"
+msgstr "移动到此处(&M)"
+
+#: dragdropmanager.cpp:222
+msgid "&Copy Here"
+msgstr "复制到此处(&C)"
+
+#: dragdropmanager.cpp:228
+msgid "&Link Here"
+msgstr "链接到此处(&L)"
+
+#: dragdropmanager.cpp:232
+msgid "C&ancel"
+msgstr "取消(&A)"
+
+#: entitytreemodel.cpp:191
+msgid "Loading..."
+msgstr "正在装入..."
+
+#: entitytreemodel.cpp:523
+#, kde-format
+msgid ""
+"The target collection '%1' contains already\n"
+"a collection with name '%2'."
+msgstr ""
+"目标集合“%1”已包含\n"
+"名为“%2”的集合。"
+
+#: entitytreemodel.cpp:703
+msgctxt "@title:column Name of a thing"
+msgid "Name"
+msgstr "名称"
+
+#: entitytreemodel_p.cpp:1346
+msgid "Could not copy item:"
+msgstr "无法复制项目："
+
+#: entitytreemodel_p.cpp:1348
+msgid "Could not copy collection:"
+msgstr "无法复制集合："
+
+#: entitytreemodel_p.cpp:1350
+msgid "Could not move item:"
+msgstr "无法移动项目："
+
+#: entitytreemodel_p.cpp:1352
+msgid "Could not move collection:"
+msgstr "无法移动集合："
+
+#: entitytreemodel_p.cpp:1354
+msgid "Could not link entity:"
+msgstr "无法链接实体："
+
+#: erroroverlay.cpp:225 erroroverlay.cpp:226
+msgid "Personal information management service is starting..."
+msgstr "个人信息管理服务正在启动..."
+
+#: erroroverlay.cpp:230 erroroverlay.cpp:231
+msgid "Personal information management service is shutting down..."
+msgstr "个人信息管理服务正在关闭..."
+
+#: erroroverlay.cpp:235
+msgid ""
+"Personal information management service is performing a database upgrade."
+msgstr "个人信息管理服务正在进行数据库更新。"
+
+#: erroroverlay.cpp:236
+#, fuzzy
+#| msgid ""
+#| "Personal information management service is performing a database upgrade. "
+#| "This happens after a software update and is necessary to optimize "
+#| "performance. Depending on the amount of personal information, this might "
+#| "take a few minutes."
+msgid ""
+"Personal information management service is performing a database upgrade.\n"
+"This happens after a software update and is necessary to optimize "
+"performance.\n"
+"Depending on the amount of personal information, this might take a few "
+"minutes."
+msgstr ""
+"个人信息管理服务正在进行数据库更新。这通常在软件更新之后进行，并且对性能优化"
+"是必要的。取决于个人信息的大小，这一过程可能会花费数分钟。"
+
+#. i18n: ectx: property (toolTip), widget (QWidget, notRunningPage)
+#. i18n: ectx: property (text), widget (QLabel, notRunningDescription)
+#: erroroverlay.ui:21 erroroverlay.ui:50
+msgid ""
+"The Akonadi personal information management service is not running. This "
+"application cannot be used without it."
+msgstr "Akonadi 个人信息管理框架服务未运行。没有该服务，此应用程序无法使用。"
+
+#. i18n: ectx: property (text), widget (KPushButton, startButton)
+#: erroroverlay.ui:80
+msgctxt "@action:button Start the Akonadi server"
+msgid "Start"
+msgstr "启动"
+
+#. i18n: ectx: property (toolTip), widget (QWidget, brokenPage)
+#: erroroverlay.ui:122
+msgid ""
+"The Akonadi personal information management framework is not operational.\n"
+"Click on \"Details...\" to obtain detailed information on this problem."
+msgstr ""
+"Akonadi 个人信息管理框架无法工作。\n"
+"请单击“详情...”以获取问题相关的进一步信息。"
+
+#. i18n: ectx: property (text), widget (QLabel, brokenDescription)
+#: erroroverlay.ui:151
+msgid "The Akonadi personal information management service is not operational."
+msgstr "Akonadi 个人信息管理框架服务无法操作。"
+
+#. i18n: ectx: property (text), widget (KPushButton, selfTestButton)
+#: erroroverlay.ui:187
+msgid "Details..."
+msgstr "详情..."
+
+#: favoritecollectionsmodel.cpp:378
+msgid "Favorite Folders"
+msgstr "收藏夹"
+
+#: invalidatecachejob.cpp:60
+msgid "Invalid collection."
+msgstr "无效的收藏。"
+
+#: itemfetchjob.cpp:190
+msgid "Cannot list root collection."
+msgstr "无法列出根收藏。"
+
+#: itemmodel.cpp:314
+msgid "Id"
+msgstr "Id"
+
+#: itemmodel.cpp:316
+msgid "Remote Id"
+msgstr "远程 ID"
+
+#: itemmodel.cpp:318
+msgid "MimeType"
+msgstr "MIME 类型"
+
+#: job.cpp:296
+msgid "Cannot connect to the Akonadi service."
+msgstr "无法连接到 Akonadi 服务。"
+
+#: job.cpp:299
+msgid ""
+"The protocol version of the Akonadi server is incompatible. Make sure you "
+"have a compatible version installed."
+msgstr "和当前 Akonadi 服务器使用的协议版本不兼容。请确认您安装的是兼容版本。"
+
+#: job.cpp:302
+msgid "User canceled operation."
+msgstr "用户取消了操作。"
+
+#: job.cpp:307
+msgid "Unknown error."
+msgstr "未知错误。"
+
+#: linkjobimpl_p.h:49 movejobimpl_p.h:49
+msgid "No valid destination specified"
+msgstr "未指定有效的目标"
+
+#: movejobimpl_p.h:43
+msgid "No objects specified for moving"
+msgstr "没有指定要移动的对象"
+
+#: partfetcher.cpp:63
+msgid "Unable to fetch item for index"
+msgstr "无法获取用于索引的项目"
+
+#: partfetcher.cpp:78
+msgid "Index is no longer available"
+msgstr "索引不可用"
+
+#: partfetcher.cpp:130
+#, kde-format
+msgid "Payload part '%1' is not available for this index"
+msgstr "装载部件“%1”无法用于此索引"
+
+#: partfetcher.cpp:139
+msgid "No session available for this index"
+msgstr "没有可供索引的会话"
+
+#: partfetcher.cpp:148
+msgid "No item available for this index"
+msgstr "没有可供索引的项目"
+
+#: pluginloader.cpp:159
+msgid "Unnamed plugin"
+msgstr "未命名插件"
+
+#: pluginloader.cpp:165
+msgid "No description available"
+msgstr "无可用的描述"
+
+#: qtest_akonadi.h:48
+msgid "KDE Test Program"
+msgstr "KDE 测试程序"
+
+#: recentcollectionaction.cpp:43
+msgid "Recent Folder"
+msgstr "最近文件夹"
+
+#: renamefavoritedialog.cpp:32
+msgid "Default Name"
+msgstr "默认名称"
+
+#: resourcebase.cpp:541
+msgctxt "@title application name"
+msgid "Akonadi Resource"
+msgstr "Akonadi 资源"
+
+#: resourcebase.cpp:542
+msgctxt "@title application description"
+msgid "Akonadi Resource"
+msgstr "Akonadi 资源"
+
+#: resourcebase.cpp:546
+msgctxt "@label commandline option"
+msgid "Resource identifier"
+msgstr "资源标识符"
+
+#: resourcebase.cpp:574
+msgctxt "@info"
+msgid "Invalid item retrieved"
+msgstr "获得了无效的项目"
+
+#: resourcebase.cpp:598
+#, kde-format
+msgctxt "@info"
+msgid "Error while creating item: %1"
+msgstr "创建项目时发生错误：%1"
+
+#: resourcebase.cpp:623
+#, kde-format
+msgctxt "@info"
+msgid "Error while updating collection: %1"
+msgstr "更新收藏时发生错误：%1"
+
+#: resourcebase.cpp:700
+#, kde-format
+msgctxt "@info"
+msgid "Updating local collection failed: %1."
+msgstr "更新本地收藏失败：%1。"
+
+#: resourcebase.cpp:727
+msgctxt "@info"
+msgid "Cannot fetch item in offline mode."
+msgstr "无法在离线模式下获取项目。"
+
+#: resourcebase.cpp:861
+#, kde-format
+msgctxt "@info:status"
+msgid "Syncing folder '%1'"
+msgstr "正在同步文件夹“%1”"
+
+#: resourcebase.cpp:902
+msgid "The requested item no longer exists"
+msgstr "请求的项目不存在"
+
+#: resourcescheduler.cpp:389 resourcescheduler.cpp:394
+msgctxt "@info"
+msgid "Job canceled."
+msgstr "任务已取消。"
+
+#: resourcesynchronizationjob.cpp:144
+msgid "Resource synchronization timed out."
+msgstr "资源同步超时。"
+
+#: selftestdialog.cpp:71
+msgid "Akonadi Server Self-Test"
+msgstr "Akonadi 服务器自检"
+
+#: selftestdialog.cpp:73
+msgid "Save Report..."
+msgstr "保存报告..."
+
+#: selftestdialog.cpp:75
+msgid "Copy Report to Clipboard"
+msgstr "将报告复制到剪贴板"
+
+#: selftestdialog.cpp:194
+#, kde-format
+msgid ""
+"The QtSQL driver '%1' is required by your current Akonadi server "
+"configuration and was found on your system."
+msgstr "根据您目前的 Akonadi 服务器配置，所需的 QtSQL 驱动“%1”已经找到。"
+
+#: selftestdialog.cpp:196
+#, kde-format
+msgid ""
+"The QtSQL driver '%1' is required by your current Akonadi server "
+"configuration.\n"
+"The following drivers are installed: %2.\n"
+"Make sure the required driver is installed."
+msgstr ""
+"根据您目前的 Akonadi 服务器配置，我们需要 QtSQL 驱动“%1”。\n"
+"这些是您已经安装的驱动：%2。\n"
+"请确认所需的驱动已经安装。"
+
+#: selftestdialog.cpp:203
+msgid "Database driver found."
+msgstr "已找到数据库驱动。"
+
+#: selftestdialog.cpp:205
+msgid "Database driver not found."
+msgstr "找不到数据库驱动。"
+
+#: selftestdialog.cpp:212
+msgid "MySQL server executable not tested."
+msgstr "MySQL 服务器程序尚未测试。"
+
+#: selftestdialog.cpp:213 selftestdialog.cpp:253 selftestdialog.cpp:302
+msgid "The current configuration does not require an internal MySQL server."
+msgstr "目前的配置不需要调用内部的 MySQL 服务器。"
+
+#: selftestdialog.cpp:220
+#, kde-format
+msgid ""
+"You have currently configured Akonadi to use the MySQL server '%1'.\n"
+"Make sure you have the MySQL server installed, set the correct path and "
+"ensure you have the necessary read and execution rights on the server "
+"executable. The server executable is typically called 'mysqld'; its location "
+"varies depending on the distribution."
+msgstr ""
+"您已经将 Akonadi 配置为使用 MySQL 服务器“%1”。\n"
+"请确认您已经安装了 MySQL 服务器，已设定了正确的路径，并确保您对服务器程序拥有"
+"必要的读和执行权限。服务器端程序一般称为“mysqld”；其所处位置取决于您使用的操"
+"作系统发行版本。"
+
+#: selftestdialog.cpp:227
+msgid "MySQL server not found."
+msgstr "找不到 MySQL 服务器。"
+
+#: selftestdialog.cpp:229
+msgid "MySQL server not readable."
+msgstr "MySQL 服务器程序不可读。"
+
+#: selftestdialog.cpp:231
+msgid "MySQL server not executable."
+msgstr "MySQL 服务器程序不可执行。"
+
+#: selftestdialog.cpp:233
+msgid "MySQL found with unexpected name."
+msgstr "发现不可预料的 MySQL 程序名。"
+
+#: selftestdialog.cpp:235
+msgid "MySQL server found."
+msgstr "已找到 MySQL 服务器。"
+
+#: selftestdialog.cpp:240
+#, kde-format
+msgid "MySQL server found: %1"
+msgstr "已找到 MySQL 服务器：%1"
+
+#: selftestdialog.cpp:241
+msgid "MySQL server is executable."
+msgstr "MySQL 服务器程序可执行。"
+
+#: selftestdialog.cpp:243
+#, kde-format
+msgid ""
+"Executing the MySQL server '%1' failed with the following error message: '%2'"
+msgstr "执行 MySQL 服务器程序“%1”失败，错误消息如下：“%2”"
+
+#: selftestdialog.cpp:245
+msgid "Executing the MySQL server failed."
+msgstr "执行 MySQL 服务器程序失败。"
+
+#: selftestdialog.cpp:252
+msgid "MySQL server error log not tested."
+msgstr "MySQL 服务器错误日志未检验。"
+
+#: selftestdialog.cpp:261
+msgid "No current MySQL error log found."
+msgstr "找不到 MySQL 错误日志。"
+
+#: selftestdialog.cpp:262
+#, kde-format
+msgid ""
+"The MySQL server did not report any errors during this startup. The log can "
+"be found in '%1'."
+msgstr "MySQL 服务器程序在启动过程中没有汇报任何错误信息。日志文件位于“%1”。"
+
+#: selftestdialog.cpp:267
+msgid "MySQL error log not readable."
+msgstr "MySQL 错误日志不可读。"
+
+#: selftestdialog.cpp:268
+#, kde-format
+msgid "A MySQL server error log file was found but is not readable: %1"
+msgstr "已找到 MySQL 服务器错误日志文件，但它不可读：%1"
+
+#: selftestdialog.cpp:276
+msgid "MySQL server log contains errors."
+msgstr "MySQL 服务器日志包含错误信息。"
+
+#: selftestdialog.cpp:277
+#, kde-format
+msgid "The MySQL server error log file '%1' contains errors."
+msgstr "MySQL 服务器错误日志文件“%1”包含错误信息。"
+
+#: selftestdialog.cpp:286
+msgid "MySQL server log contains warnings."
+msgstr "MySQL 服务器日志包含警告信息。"
+
+#: selftestdialog.cpp:287
+#, kde-format
+msgid "The MySQL server log file '%1' contains warnings."
+msgstr "MySQL 服务器日志文件“%1”包含警告信息。"
+
+#: selftestdialog.cpp:289
+msgid "MySQL server log contains no errors."
+msgstr "MySQL 服务器日志中没有错误信息。"
+
+#: selftestdialog.cpp:290
+#, kde-format
+msgid "The MySQL server log file '%1' does not contain any errors or warnings."
+msgstr "MySQL 服务器日志文件“%1”中不包含任何错误或警告信息。"
+
+#: selftestdialog.cpp:301
+msgid "MySQL server configuration not tested."
+msgstr "MySQL 服务器配置未经测试。"
+
+#: selftestdialog.cpp:310
+msgid "MySQL server default configuration found."
+msgstr "已找到 MySQL 服务器默认配置。"
+
+#: selftestdialog.cpp:311
+#, kde-format
+msgid ""
+"The default configuration for the MySQL server was found and is readable at "
+"%1."
+msgstr "已找到位于 %1 的 MySQL 服务器默认配置，并且可读。"
+
+#: selftestdialog.cpp:315
+msgid "MySQL server default configuration not found."
+msgstr "找不到 MySQL 服务器默认配置。"
+
+#: selftestdialog.cpp:316
+msgid ""
+"The default configuration for the MySQL server was not found or was not "
+"readable. Check your Akonadi installation is complete and you have all "
+"required access rights."
+msgstr ""
+"找不到 MySQL 服务器默认配置，或是配置不可读取。请检查 Akonadi 的安装是否完"
+"整，并且已经授予了所有需要的访问权限。"
+
+#: selftestdialog.cpp:323
+msgid "MySQL server custom configuration not available."
+msgstr "MySQL 服务器的自定义配置不可用。"
+
+#: selftestdialog.cpp:324
+msgid ""
+"The custom configuration for the MySQL server was not found but is optional."
+msgstr "找不到 MySQL 服务器的自定义配置，但这不是必需的。"
+
+#: selftestdialog.cpp:326
+msgid "MySQL server custom configuration found."
+msgstr "已找到 MySQL 服务器的自定义配置。"
+
+#: selftestdialog.cpp:327
+#, kde-format
+msgid ""
+"The custom configuration for the MySQL server was found and is readable at %1"
+msgstr "已找到位于 %1 的 MySQL 服务器自定义配置，并且配置可读。"
+
+#: selftestdialog.cpp:331
+msgid "MySQL server custom configuration not readable."
+msgstr "MySQL 服务器的自定义配置不可读。"
+
+#: selftestdialog.cpp:332
+#, kde-format
+msgid ""
+"The custom configuration for the MySQL server was found at %1 but is not "
+"readable. Check your access rights."
+msgstr ""
+"已找到位于 %1 的 MySQL 服务器自定义配置，但配置不可读。请检查您的访问权限。"
+
+#: selftestdialog.cpp:339
+msgid "MySQL server configuration not found or not readable."
+msgstr "找不到 MySQL 服务器配置，或配置不可读。"
+
+#: selftestdialog.cpp:340
+msgid "The MySQL server configuration was not found or is not readable."
+msgstr "找不到 MySQL 服务器配置，或配置不可读。"
+
+#: selftestdialog.cpp:342
+msgid "MySQL server configuration is usable."
+msgstr "MySQL 服务器配置可用。"
+
+#: selftestdialog.cpp:343
+#, kde-format
+msgid "The MySQL server configuration was found at %1 and is readable."
+msgstr "已找到位于 %1 的 MySQL 服务器配置，并且配置可读。"
+
+#: selftestdialog.cpp:370
+msgid "Cannot connect to PostgreSQL server."
+msgstr "无法连接到 PostgreSQL 服务器。"
+
+#: selftestdialog.cpp:373
+msgid "PostgreSQL server found."
+msgstr "找到 PostgreSQL 服务器。"
+
+#: selftestdialog.cpp:374
+msgid "The PostgreSQL server was found and connection is working."
+msgstr "已找到 PostgreSQL 服务器，且连接正常。"
+
+#: selftestdialog.cpp:383
+msgid "akonadictl not found"
+msgstr "找不到 akonadictl 程序"
+
+#: selftestdialog.cpp:384
+msgid ""
+"The program 'akonadictl' needs to be accessible in $PATH. Make sure you have "
+"the Akonadi server installed."
+msgstr ""
+"“akonadictl”程序需要能在 $PATH 路径中访问到。请确认您已经安装了 Akonadi 服务"
+"器。"
+
+#: selftestdialog.cpp:390
+msgid "akonadictl found and usable"
+msgstr "已找到可用的 akonadictl 程序"
+
+#: selftestdialog.cpp:391
+#, kde-format
+msgid ""
+"The program '%1' to control the Akonadi server was found and could be "
+"executed successfully.\n"
+"Result:\n"
+"%2"
+msgstr ""
+"成功找到可用的 Akonadi 服务器控制程序“%1”。\n"
+"结果：\n"
+"%2"
+
+#: selftestdialog.cpp:394
+msgid "akonadictl found but not usable"
+msgstr "已经找到 akonadictl，但此程序不可用"
+
+#: selftestdialog.cpp:395
+#, kde-format
+msgid ""
+"The program '%1' to control the Akonadi server was found but could not be "
+"executed successfully.\n"
+"Result:\n"
+"%2\n"
+"Make sure the Akonadi server is installed correctly."
+msgstr ""
+"已经找到 Akonadi 服务器控制程序“%1”，但无法成功执行。\n"
+"结果：\n"
+"%2\n"
+"请确认您已经正确安装了 Akonadi 服务器。"
+
+#: selftestdialog.cpp:404
+msgid "Akonadi control process registered at D-Bus."
+msgstr "Akonadi 控制进程已经注册到 D-Bus。"
+
+#: selftestdialog.cpp:405
+msgid ""
+"The Akonadi control process is registered at D-Bus which typically indicates "
+"it is operational."
+msgstr "Akonadi 控制进程注册到 D-Bus 通常意味着它已经可以工作了。"
+
+#: selftestdialog.cpp:407
+msgid "Akonadi control process not registered at D-Bus."
+msgstr "Akonadi 控制进程未能注册到 D-Bus。"
+
+#: selftestdialog.cpp:408
+msgid ""
+"The Akonadi control process is not registered at D-Bus which typically means "
+"it was not started or encountered a fatal error during startup."
+msgstr ""
+"Akonadi 控制进程未能注册到 D-Bus 通常意味着它还没有启动，或者在启动过程中遇到"
+"了严重错误。"
+
+#: selftestdialog.cpp:413
+msgid "Akonadi server process registered at D-Bus."
+msgstr "Akonadi 服务器进程已经注册到 D-Bus。"
+
+#: selftestdialog.cpp:414
+msgid ""
+"The Akonadi server process is registered at D-Bus which typically indicates "
+"it is operational."
+msgstr "Akonadi 服务器进程注册到 D-Bus 通常意味着它已经可以工作了。"
+
+#: selftestdialog.cpp:416
+msgid "Akonadi server process not registered at D-Bus."
+msgstr "Akonadi 服务器进程未能注册到 D-Bus。"
+
+#: selftestdialog.cpp:417
+msgid ""
+"The Akonadi server process is not registered at D-Bus which typically means "
+"it was not started or encountered a fatal error during startup."
+msgstr ""
+"Akonadi 服务器进程未能注册到 D-Bus 通常意味着它还没有启动，或者在启动过程中遇"
+"到了严重错误。"
+
+#: selftestdialog.cpp:425
+msgid "Protocol version check not possible."
+msgstr "无法进行协议版本检查。"
+
+#: selftestdialog.cpp:426
+msgid ""
+"Without a connection to the server it is not possible to check if the "
+"protocol version meets the requirements."
+msgstr "如果不和服务器建立连接，就无法检查协议的版本是否符合要求。"
+
+#: selftestdialog.cpp:430
+msgid "Server protocol version is too old."
+msgstr "服务器的协议版本过旧。"
+
+#: selftestdialog.cpp:431
+#, kde-format
+msgid ""
+"The server protocol version is %1, but at least version %2 is required. "
+"Install a newer version of the Akonadi server."
+msgstr ""
+"服务器的协议版本是 %1，但需要的版本至少是 %2。请安装更新版本的 Akonadi 服务"
+"器。"
+
+#: selftestdialog.cpp:436
+msgid "Server protocol version is recent enough."
+msgstr "服务器的协议版本符合需要。"
+
+#: selftestdialog.cpp:437
+#, kde-format
+msgid ""
+"The server Protocol version is %1, which equal or newer than the required "
+"version %2."
+msgstr "服务器的协议版本是 %1，和所需的版本 %2 一致或更新。"
+
+#: selftestdialog.cpp:457
+msgid "Resource agents found."
+msgstr "已经找到资源代理。"
+
+#: selftestdialog.cpp:457
+msgid "At least one resource agent has been found."
+msgstr "已经找到至少一种资源代理。"
+
+#: selftestdialog.cpp:459
+msgid "No resource agents found."
+msgstr "找不到资源代理。"
+
+#: selftestdialog.cpp:460
+#, kde-format
+msgid ""
+"No resource agents have been found, Akonadi is not usable without at least "
+"one. This usually means that no resource agents are installed or that there "
+"is a setup problem. The following paths have been searched: '%1'. The "
+"XDG_DATA_DIRS environment variable is set to '%2'; make sure this includes "
+"all paths where Akonadi agents are installed."
+msgstr ""
+"找不到任何资源代理，这样的话 Akonadi 是没有作用的。这通常意味着还没有安装过资"
+"源代理，或者这是一个设置问题。已经搜索过下面的路径：“%1”；XDG_DATA_DIRS 环境"
+"变量的值是“%2”，请确认这里面包含所有 Akonadi 代理的安装目录。"
+
+#: selftestdialog.cpp:478
+msgid "No current Akonadi server error log found."
+msgstr "找不到当前的 Akonadi 服务器错误日志。"
+
+#: selftestdialog.cpp:479
+msgid ""
+"The Akonadi server did not report any errors during its current startup."
+msgstr "在 Akonadi 服务器的启动过程中没有报告任何错误。"
+
+#: selftestdialog.cpp:481
+msgid "Current Akonadi server error log found."
+msgstr "已经找到当前的 Akonadi 服务器错误日志。"
+
+#: selftestdialog.cpp:482
+#, kde-format
+msgid ""
+"The Akonadi server reported errors during its current startup. The log can "
+"be found in %1."
+msgstr "在 Akonadi 服务器的启动过程中报告了错误。日志可以在 %1 中找到。"
+
+#: selftestdialog.cpp:489
+msgid "No previous Akonadi server error log found."
+msgstr "找不到前一个 Akonadi 服务器错误日志。"
+
+#: selftestdialog.cpp:490
+msgid ""
+"The Akonadi server did not report any errors during its previous startup."
+msgstr "在 Akonadi 服务器的前一次启动过程中没有报告任何错误。"
+
+#: selftestdialog.cpp:492
+msgid "Previous Akonadi server error log found."
+msgstr "已经找到前一个 Akonadi 服务器错误日志。"
+
+#: selftestdialog.cpp:493
+#, kde-format
+msgid ""
+"The Akonadi server reported errors during its previous startup. The log can "
+"be found in %1."
+msgstr "在 Akonadi 服务器的前一次启动过程中报告了错误。日志可以在 %1 中找到。"
+
+#: selftestdialog.cpp:504
+msgid "No current Akonadi control error log found."
+msgstr "找不到当前的 Akonadi 控制器错误日志。"
+
+#: selftestdialog.cpp:505
+msgid ""
+"The Akonadi control process did not report any errors during its current "
+"startup."
+msgstr "在 Akonadi 控制器的启动过程中没有报告任何错误。"
+
+#: selftestdialog.cpp:507
+msgid "Current Akonadi control error log found."
+msgstr "已经找到当前的 Akonadi 控制器错误日志。"
+
+#: selftestdialog.cpp:508
+#, kde-format
+msgid ""
+"The Akonadi control process reported errors during its current startup. The "
+"log can be found in %1."
+msgstr "在 Akonadi 控制器的启动过程中报告了错误。日志可以在 %1 中找到。"
+
+#: selftestdialog.cpp:515
+msgid "No previous Akonadi control error log found."
+msgstr "找不到前一个 Akonadi 控制器错误日志。"
+
+#: selftestdialog.cpp:516
+msgid ""
+"The Akonadi control process did not report any errors during its previous "
+"startup."
+msgstr "在 Akonadi 控制器的前一次启动过程中没有报告任何错误。"
+
+#: selftestdialog.cpp:518
+msgid "Previous Akonadi control error log found."
+msgstr "已经找到前一个 Akonadi 控制器错误日志。"
+
+#: selftestdialog.cpp:519
+#, kde-format
+msgid ""
+"The Akonadi control process reported errors during its previous startup. The "
+"log can be found in %1."
+msgstr "在 Akonadi 控制器的前一次启动过程中报告了错误。日志可以在 %1 中找到。"
+
+#: selftestdialog.cpp:528
+msgid "Akonadi was started as root"
+msgstr "Akonadi 以 root 启动"
+
+#: selftestdialog.cpp:528
+msgid ""
+"Running Internet-facing applications as root/administrator exposes you to "
+"many security risks. MySQL, used by this Akonadi installation, will not "
+"allow itself to run as root, to protect you from these risks."
+msgstr ""
+"以 root/管理员身份运行面向 Internet 的应用该程序将会将您暴露于许多安全隐患之"
+"下。为安全起见，此 Akonadi 安装所使用的 MySQL 无法允许其自身以 root 身份运"
+"行。"
+
+#: selftestdialog.cpp:530
+msgid "Akonadi is not running as root"
+msgstr "Akonadi 未以 root 启动"
+
+#: selftestdialog.cpp:530
+msgid ""
+"Akonadi is not running as a root/administrator user, which is the "
+"recommended setup for a secure system."
+msgstr ""
+"为系统安全起见，我们建议您将 Akonadi 设置为以 root/管理员用户身份运行。但目前"
+"系统的设置与此建议并不相符。"
+
+#: selftestdialog.cpp:603
+msgid "Save Test Report"
+msgstr "保存检测报告"
+
+#: selftestdialog.cpp:609
+#, kde-format
+msgid "Could not open file '%1'"
+msgstr "无法打开文件“%1”"
+
+#. i18n: ectx: property (text), widget (QLabel, introductionLabel)
+#: selftestdialog.ui:16
+msgid ""
+"An error occurred during the startup of the Akonadi server. The following "
+"self-tests are supposed to help with tracking down and solving this problem. "
+"When requesting support or reporting bugs, please always include this report."
+msgstr ""
+"启动 Akonadi 服务器的过程中出错，接下来的自检会帮助您追查并解决这个问题。如果"
+"您想请求我们的支持或报告错误，请一定要包含这段报告内容。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, detailsGroup)
+#: selftestdialog.ui:39
+msgid "Details"
+msgstr "详情"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: selftestdialog.ui:61
+msgid ""
+"<p>For more troubleshooting tips please refer to <a href=\"http://userbase."
+"kde.org/Akonadi\">userbase.kde.org/Akonadi</a>.</p>"
+msgstr ""
+"<p>要获得更多和排错有关的提示，请访问<a href=\"http://userbase.kde.org/"
+"Akonadi\">userbase.kde.org/Akonadi</a>。</p>"
+
+#: session.cpp:282
+#, kde-format
+msgid "Protocol version %1 found, expected at least %2"
+msgstr "协议版本是 %1，但需要至少为 %2"
+
+#: specialcollectionshelperjobs.cpp:151
+#, kde-format
+msgid "Could not fetch root collection of resource %1."
+msgstr "无法获取资源 %1 的收藏根路径。"
+
+#: specialcollectionshelperjobs.cpp:197
+msgid "No resource ID given."
+msgstr "未给出资源 ID。"
+
+#: specialcollectionshelperjobs.cpp:327
+#, kde-format
+msgid "Invalid resource identifier '%1'"
+msgstr "无效的资源标识符“%1”"
+
+#: specialcollectionshelperjobs.cpp:343 specialcollectionshelperjobs.cpp:351
+msgid "Failed to configure default resource via D-Bus."
+msgstr "通过 D-Bus 配置默认资源失败。"
+
+#: specialcollectionshelperjobs.cpp:412
+msgid "Failed to fetch the resource collection."
+msgstr "获取资源收藏失败。"
+
+#: specialcollectionshelperjobs.cpp:606
+msgid "Timeout trying to get lock."
+msgstr "尝试获得锁时超时。"
+
+#: standardactionmanager.cpp:89
+msgid "&New Folder..."
+msgstr "新建文件夹...(&N)"
+
+#: standardactionmanager.cpp:89
+msgid "New"
+msgstr "新建"
+
+#: standardactionmanager.cpp:91 standardactionmanager.cpp:218
+#, kde-format
+msgid "&Delete Folder"
+msgid_plural "&Delete %1 Folders"
+msgstr[0] "删除 %1 个文件夹(&D)"
+
+#: standardactionmanager.cpp:91
+msgid "Delete"
+msgstr "删除"
+
+#: standardactionmanager.cpp:92 standardactionmanager.cpp:220
+#, kde-format
+msgid "&Synchronize Folder"
+msgid_plural "&Synchronize %1 Folders"
+msgstr[0] "同步 %1 个文件夹(&S)"
+
+#: standardactionmanager.cpp:92 standardactionmanager.cpp:110
+msgid "Synchronize"
+msgstr "同步"
+
+#: standardactionmanager.cpp:93
+msgid "Folder &Properties"
+msgstr "文件夹属性(&P)"
+
+#: standardactionmanager.cpp:93 standardactionmanager.cpp:109
+msgid "Properties"
+msgstr "属性"
+
+#: standardactionmanager.cpp:95
+msgid "&Paste"
+msgstr "粘贴(&P)"
+
+#: standardactionmanager.cpp:95
+msgid "Paste"
+msgstr "粘贴"
+
+#: standardactionmanager.cpp:97
+msgid "Manage Local &Subscriptions..."
+msgstr "管理本地订阅(&S)..."
+
+#: standardactionmanager.cpp:97
+msgid "Manage Local Subscriptions"
+msgstr "管理本地订阅"
+
+#: standardactionmanager.cpp:98
+msgid "Add to Favorite Folders"
+msgstr "添加到收藏夹"
+
+#: standardactionmanager.cpp:98
+msgid "Add to Favorite"
+msgstr "添加到收藏夹"
+
+#: standardactionmanager.cpp:99
+msgid "Remove from Favorite Folders"
+msgstr "从收藏夹中移除"
+
+#: standardactionmanager.cpp:99
+msgid "Remove from Favorite"
+msgstr "从收藏夹中移除"
+
+#: standardactionmanager.cpp:100
+msgid "Rename Favorite..."
+msgstr "重命名收藏夹..."
+
+#: standardactionmanager.cpp:100
+msgid "Rename"
+msgstr "重命名"
+
+#: standardactionmanager.cpp:101 standardactionmanager.cpp:112
+msgid "Copy Folder To..."
+msgstr "复制文件夹到..."
+
+#: standardactionmanager.cpp:101 standardactionmanager.cpp:102
+#: standardactionmanager.cpp:112 standardactionmanager.cpp:114
+msgid "Copy To"
+msgstr "复制到"
+
+#: standardactionmanager.cpp:102 standardactionmanager.cpp:114
+msgid "Copy Item To..."
+msgstr "复制项目到..."
+
+#: standardactionmanager.cpp:103 standardactionmanager.cpp:115
+msgid "Move Item To..."
+msgstr "移动项目到..."
+
+#: standardactionmanager.cpp:103 standardactionmanager.cpp:104
+#: standardactionmanager.cpp:113 standardactionmanager.cpp:115
+msgid "Move To"
+msgstr "移动到"
+
+#: standardactionmanager.cpp:104 standardactionmanager.cpp:113
+msgid "Move Folder To..."
+msgstr "移动文件夹到..."
+
+#: standardactionmanager.cpp:105 standardactionmanager.cpp:212
+#, kde-format
+msgid "&Cut Item"
+msgid_plural "&Cut %1 Items"
+msgstr[0] "剪切 %1 个项目(&C)"
+
+#: standardactionmanager.cpp:105 standardactionmanager.cpp:106
+msgid "Cut"
+msgstr "剪切"
+
+#: standardactionmanager.cpp:106 standardactionmanager.cpp:214
+#, kde-format
+msgid "&Cut Folder"
+msgid_plural "&Cut %1 Folders"
+msgstr[0] "剪切 %1 个文件夹(&C)"
+
+#: standardactionmanager.cpp:107
+msgid "Create Resource"
+msgstr "创建资源"
+
+#: standardactionmanager.cpp:108 standardactionmanager.cpp:241
+#, kde-format
+msgid "Delete Resource"
+msgid_plural "Delete %1 Resources"
+msgstr[0] "删除 %1 个资源"
+
+#: standardactionmanager.cpp:109
+msgid "&Resource Properties"
+msgstr "资源属性(&R)"
+
+#: standardactionmanager.cpp:110 standardactionmanager.cpp:243
+#, kde-format
+msgid "Synchronize Resource"
+msgid_plural "Synchronize %1 Resources"
+msgstr[0] "同步 %1 个资源"
+
+#: standardactionmanager.cpp:111
+msgid "Work Offline"
+msgstr "离线工作"
+
+#: standardactionmanager.cpp:116
+msgid "&Synchronize Folder Recursively"
+msgstr "递归同步文件夹(&S)"
+
+#: standardactionmanager.cpp:116
+msgid "Synchronize Recursively"
+msgstr "递归同步"
+
+#: standardactionmanager.cpp:117
+msgid "&Move Folder To Trash"
+msgstr "移动文件夹到回收站(&M)"
+
+#: standardactionmanager.cpp:117
+msgid "Move Folder To Trash"
+msgstr "移动文件夹到回收站"
+
+#: standardactionmanager.cpp:118
+msgid "&Move Item To Trash"
+msgstr "移动项目到回收站(&M)"
+
+#: standardactionmanager.cpp:118
+msgid "Move Item To Trash"
+msgstr "移动项目到回收站"
+
+#: standardactionmanager.cpp:119 standardactionmanager.cpp:121
+msgid "&Restore Folder From Trash"
+msgstr "从回收站恢复文件夹(&R)"
+
+#: standardactionmanager.cpp:119 standardactionmanager.cpp:121
+msgid "Restore Folder From Trash"
+msgstr "从回收站恢复文件夹"
+
+#: standardactionmanager.cpp:120 standardactionmanager.cpp:123
+#: standardactionmanager.cpp:124
+msgid "&Restore Item From Trash"
+msgstr "从回收站恢复项目(&R)"
+
+#: standardactionmanager.cpp:120 standardactionmanager.cpp:123
+#: standardactionmanager.cpp:124
+msgid "Restore Item From Trash"
+msgstr "从回收站恢复项目"
+
+#: standardactionmanager.cpp:122
+msgid "&Restore Collection From Trash"
+msgstr "从回收站恢复收藏(&R)"
+
+#: standardactionmanager.cpp:122
+msgid "Restore Collection From Trash"
+msgstr "从回收站恢复收藏"
+
+#: standardactionmanager.cpp:125
+msgid "&Synchronize Favorite Folders"
+msgstr "同步收藏夹(&S)"
+
+#: standardactionmanager.cpp:125
+msgid "Synchronize Favorite Folders"
+msgstr "同步收藏夹"
+
+#: standardactionmanager.cpp:208
+#, kde-format
+msgid "&Copy Folder"
+msgid_plural "&Copy %1 Folders"
+msgstr[0] "复制 %1 个文件夹(&C)"
+
+#: standardactionmanager.cpp:210
+#, kde-format
+msgid "&Copy Item"
+msgid_plural "&Copy %1 Items"
+msgstr[0] "复制 %1 项(&C)"
+
+#: standardactionmanager.cpp:216
+#, kde-format
+msgid "&Delete Item"
+msgid_plural "&Delete %1 Items"
+msgstr[0] "删除 %1 项(&D)"
+
+#: standardactionmanager.cpp:222
+#, kde-format
+msgid "&Delete Resource"
+msgid_plural "&Delete %1 Resources"
+msgstr[0] "删除 %1 个资源(&D)"
+
+#: standardactionmanager.cpp:224
+#, kde-format
+msgid "&Synchronize Resource"
+msgid_plural "&Synchronize %1 Resources"
+msgstr[0] "同步 %1 个资源(&S)"
+
+#: standardactionmanager.cpp:227
+#, kde-format
+msgid "Copy Folder"
+msgid_plural "Copy %1 Folders"
+msgstr[0] "复制 %1 个文件夹"
+
+#: standardactionmanager.cpp:229
+#, kde-format
+msgid "Copy Item"
+msgid_plural "Copy %1 Items"
+msgstr[0] "复制 %1 项"
+
+#: standardactionmanager.cpp:231
+#, kde-format
+msgid "Cut Item"
+msgid_plural "Cut %1 Items"
+msgstr[0] "剪切 %1 项"
+
+#: standardactionmanager.cpp:233
+#, kde-format
+msgid "Cut Folder"
+msgid_plural "Cut %1 Folders"
+msgstr[0] "剪切 %1 个文件夹"
+
+#: standardactionmanager.cpp:235
+#, kde-format
+msgid "Delete Item"
+msgid_plural "Delete %1 Items"
+msgstr[0] "删除 %1 项"
+
+#: standardactionmanager.cpp:237
+#, kde-format
+msgid "Delete Folder"
+msgid_plural "Delete %1 Folders"
+msgstr[0] "删除 %1 个文件夹"
+
+#: standardactionmanager.cpp:239
+#, kde-format
+msgid "Synchronize Folder"
+msgid_plural "Synchronize %1 Folders"
+msgstr[0] "同步 %1 个文件夹"
+
+#: standardactionmanager.cpp:248
+msgctxt "@label:textbox name of a thing"
+msgid "Name"
+msgstr "名称"
+
+#: standardactionmanager.cpp:255
+#, kde-format
+msgid "Do you really want to delete this folder and all its sub-folders?"
+msgid_plural ""
+"Do you really want to delete %1 folders and all their sub-folders?"
+msgstr[0] "您确定要删除 %1 个文件夹及其子文件夹吗？"
+
+#: standardactionmanager.cpp:258
+msgctxt "@title:window"
+msgid "Delete folder?"
+msgid_plural "Delete folders?"
+msgstr[0] "删除文件夹吗？"
+
+#: standardactionmanager.cpp:260
+#, kde-format
+msgid "Could not delete folder: %1"
+msgstr "无法删除文件夹：%1"
+
+#: standardactionmanager.cpp:262
+msgid "Folder deletion failed"
+msgstr "文件夹删除失败"
+
+#: standardactionmanager.cpp:265
+#, kde-format
+msgctxt "@title:window"
+msgid "Properties of Folder %1"
+msgstr "文件夹 %1 的属性"
+
+#: standardactionmanager.cpp:268
+#, kde-format
+msgid "Do you really want to delete the selected item?"
+msgid_plural "Do you really want to delete %1 items?"
+msgstr[0] "您确定要删除 %1 项吗？"
+
+#: standardactionmanager.cpp:271
+msgctxt "@title:window"
+msgid "Delete item?"
+msgid_plural "Delete items?"
+msgstr[0] "删除项目吗？"
+
+#: standardactionmanager.cpp:273
+#, kde-format
+msgid "Could not delete item: %1"
+msgstr "无法删除项目：%1"
+
+#: standardactionmanager.cpp:275
+msgid "Item deletion failed"
+msgstr "项目删除失败"
+
+#: standardactionmanager.cpp:278
+msgctxt "@title:window"
+msgid "Rename Favorite"
+msgstr "重命名收藏夹"
+
+#: standardactionmanager.cpp:280
+msgctxt "@label:textbox name of the folder"
+msgid "Name:"
+msgstr "名称："
+
+#: standardactionmanager.cpp:283
+msgctxt "@title:window"
+msgid "New Resource"
+msgstr "新建资源"
+
+#: standardactionmanager.cpp:285
+#, kde-format
+msgid "Could not create resource: %1"
+msgstr "无法创建资源：%1"
+
+#: standardactionmanager.cpp:287
+msgid "Resource creation failed"
+msgstr "资源创建失败"
+
+#: standardactionmanager.cpp:290
+#, kde-format
+msgid "Do you really want to delete this resource?"
+msgid_plural "Do you really want to delete %1 resources?"
+msgstr[0] "您确定要删除 %1 个资源吗？"
+
+#: standardactionmanager.cpp:293
+msgctxt "@title:window"
+msgid "Delete Resource?"
+msgid_plural "Delete Resources?"
+msgstr[0] "删除资源吗？"
+
+#: standardactionmanager.cpp:296
+#, kde-format
+msgid "Could not paste data: %1"
+msgstr "无法粘贴数据：%1"
+
+#: standardactionmanager.cpp:298
+msgid "Paste failed"
+msgstr "粘贴失败"
+
+#: standardactionmanager.cpp:603
+msgid "We can not add \"/\" in folder name."
+msgstr "无法在文件夹名称中添加“/”。"
+
+#: standardactionmanager.cpp:604 standardactionmanager.cpp:611
+msgid "Create new folder error"
+msgstr "创建新文件夹错误"
+
+#: standardactionmanager.cpp:610
+msgid "We can not add \".\" at begin or end of folder name."
+msgstr "无法在文件夹名称开头或结尾添加“.”。"
+
+#: standardactionmanager.cpp:812
+#, kde-format
+msgid ""
+"Before syncing folder \"%1\" it is necessary to have the resource online. Do "
+"you want to make it online?"
+msgstr "在同步文件夹“%1”前需要让资源在线。您想让它在线吗？"
+
+#: standardactionmanager.cpp:813
+#, kde-format
+msgid "Account \"%1\" is offline"
+msgstr "账户“%1”离线"
+
+#: standardactionmanager.cpp:814
+msgctxt "@action:button"
+msgid "Go Online"
+msgstr "转为离线"
+
+#: standardactionmanager.cpp:1347
+msgid "Move to This Folder"
+msgstr "移动到此文件夹"
+
+#: standardactionmanager.cpp:1347
+msgid "Copy to This Folder"
+msgstr "复制到此文件夹"
+
+#: statisticsproxymodel.cpp:101
+msgid "Total Messages"
+msgstr "全部消息"
+
+#: statisticsproxymodel.cpp:102
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#: statisticsproxymodel.cpp:113
+msgid "Quota"
+msgstr "配额"
+
+#: statisticsproxymodel.cpp:121
+msgid "Storage Size"
+msgstr "存储大小"
+
+#: statisticsproxymodel.cpp:129
+msgid "Subfolder Storage Size"
+msgstr "子文件夹存储大小"
+
+#: statisticsproxymodel.cpp:389
+msgctxt "collection size"
+msgid "Size"
+msgstr "大小"
+
+#: statisticsproxymodel.cpp:391
+msgctxt "number of entities in the collection"
+msgid "Total"
+msgstr "总共"
+
+#: statisticsproxymodel.cpp:393
+msgctxt "number of unread entities in the collection"
+msgid "Unread"
+msgstr "未读"
+
+#: subscriptiondialog.cpp:185
+msgid "Local Subscriptions"
+msgstr "本地订阅"
+
+#: subscriptiondialog.cpp:211
+msgid "Search:"
+msgstr "搜索："
+
+#: subscriptiondialog.cpp:219
+msgid "Subscribed only"
+msgstr "只显示已订阅的"
+
+#: subscriptiondialog.cpp:228
+msgid "Subscribe"
+msgstr "订阅"
+
+#: subscriptiondialog.cpp:232
+msgid "Unsubscribe"
+msgstr "退订"
+
+#: tagcreatejob.cpp:61
+#, fuzzy
+#| msgid "Unable to create agent instance."
+msgid "Failed to create tag."
+msgstr "无法创建代理实例。"
+
+#: tagmodel.cpp:82
+msgid "Tag"
+msgstr ""
+
+#: tagwidget.cpp:60
+msgid "..."
+msgstr ""
+
+#: trashjob.cpp:163
+msgid "Move to trash collection failed, aborting trash operation"
+msgstr "移动到回收站收藏失败，中止操作"
+
+#: trashjob.cpp:218 trashrestorejob.cpp:155
+msgid "Invalid items passed"
+msgstr "传递了无效的项目"
+
+#: trashjob.cpp:257 trashrestorejob.cpp:202
+msgid "Invalid collection passed"
+msgstr "传递了无效的收藏"
+
+#: trashjob.cpp:365 trashrestorejob.cpp:326
+msgid "No valid collection or empty itemlist"
+msgstr "无效的收藏或空项目列表"
+
+#: trashrestorejob.cpp:101
+msgid "Could not find restore collection and restore resource is not available"
+msgstr "无法找到恢复收藏并且恢复资源不可用"
+
+#~ msgid "Nepomuk search service registered at D-Bus."
+#~ msgstr "Nepomuk 搜索服务已经注册到 D-Bus。"
+
+#~ msgid ""
+#~ "The Nepomuk search service is registered at D-Bus which typically "
+#~ "indicates it is operational."
+#~ msgstr "Nepomuk 搜索服务已经注册到 D-Bus，这通常意味着它已经可以工作了。"
+
+#~ msgid "Nepomuk search service not registered at D-Bus."
+#~ msgstr "Nepomuk 搜索服务尚未注册到 D-Bus。"
+
+#~ msgid ""
+#~ "The Nepomuk search service is not registered at D-Bus which typically "
+#~ "means it was not started or encountered a fatal error during startup."
+#~ msgstr ""
+#~ "Nepomuk 搜索服务未能注册到 D-Bus 通常意味着它还没有启动，或者在启动过程中"
+#~ "遇到了严重错误。"
+
+#~ msgid "Nepomuk search service uses inappropriate backend."
+#~ msgstr "Nepomuk 搜索服务使用了不合适的后端。"
+
+#~ msgid ""
+#~ "The Nepomuk search service uses the '%1' backend, which is not "
+#~ "recommended for use with Akonadi."
+#~ msgstr "Nepomuk 搜索服务使用了“%1”后端，而此后端不推荐和 Akonadi 一同使用。"
+
+#~ msgid "Nepomuk search service uses an appropriate backend. "
+#~ msgstr "Nepomuk 搜索服务使用了合适的后端。"
+
+#~ msgid "The Nepomuk search service uses one of the recommended backends."
+#~ msgstr "Nepomuk 搜索服务使用了一个推荐的后端。"
+
+#~ msgid ""
+#~ "Plugin \"%1\" is not builtin static, please specify this information in "
+#~ "the bug report."
+#~ msgstr "插件“%1”未静态构建，请在错误报告中指出此信息。"
+
+#~ msgid "Plugin Not Built Statically"
+#~ msgstr "插件未静态构建"
+
+#~ msgid "Fetch Job Error"
+#~ msgstr "获取任务错误"
+
+#, fuzzy
+#~| msgid "&New Folder..."
+#~ msgid "New Folder..."
+#~ msgstr "新建文件夹...(&N)"
+
+#, fuzzy
+#~| msgid "Folder &Properties"
+#~ msgid "Resource Properties"
+#~ msgstr "文件夹属性(&P)"
+
+#~ msgid "Cache"
+#~ msgstr "缓存"
+
+#~ msgid "Inherit cache policy from parent"
+#~ msgstr "从上层继承缓存规则"
+
+#~ msgid "Cache Policy"
+#~ msgstr "缓存策略"
+
+#~ msgid "Interval check time:"
+#~ msgstr "间隔检查时间："
+
+#~ msgid "Local cache timeout:"
+#~ msgstr "本地缓存超时："
+
+#~ msgid "Synchronize on demand"
+#~ msgstr "按需同步"
+
+#~ msgid "Manage which folders you want to see in the folder tree"
+#~ msgstr "管理要在目录树中能看到的文件夹"
+
+#~ msgctxt "@label:textbox The clickMessage of a search line edit"
+#~ msgid "Search"
+#~ msgstr "搜索"
+
+#~ msgid "<b>Available Folders</b>"
+#~ msgstr "<b>可用的文件夹</b>"
+
+#~ msgid "<b>Current Changes</b>"
+#~ msgstr "<b>当前更改</b>"
+
+#~ msgid "Unsubscribe from selected folder"
+#~ msgstr "取消订阅选中文件夹"
+
+#~ msgid "Do you really want to delete the search view '%1'?"
+#~ msgstr "您确定要删除搜索视图“%1”吗？"

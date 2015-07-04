@@ -1,0 +1,964 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-21 01:58+0000\n"
+"PO-Revision-Date: 2011-06-06 10:06+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: Menu (custom)
+#: kenvy24guiui.rc:4
+msgid "C&ustom"
+msgstr "自定义(&U)"
+
+#: main.cpp:36
+msgid ""
+"VIA Envy24 based sound cards control utility. See http://kenvy24.wiki."
+"sourceforge.net/ for the documentation"
+msgstr ""
+"基于威盛 Envy24 声卡的控制工具，文档位于 http://kenvy24.wiki.sourceforge.net/"
+
+#: main.cpp:39
+msgid "KEnvy24"
+msgstr "KEnvy24"
+
+#: main.cpp:40
+msgid "The ICE1712 based cards KDE control panel"
+msgstr ""
+
+#: main.cpp:41
+msgid "(C) 2007-2008, Valentin Rusu"
+msgstr "(C) 2007-2008, Valentin Rusu"
+
+#: main.cpp:42
+msgid ""
+"Feedback:\n"
+"kenvy24@rusu.info\n"
+"\n"
+"(Build Date: "
+msgstr ""
+
+#: main.cpp:47
+msgid "Vedran Miletić"
+msgstr "Vedran Miletić"
+
+#: main.cpp:47
+msgid "DMX 6Fire Card donation"
+msgstr ""
+
+#: mainpart.cpp:90
+msgid ""
+"Cannot find an Envy24 chip based sound card in your system. Will now quit."
+msgstr ""
+
+#: mainpart.cpp:233
+msgid "Default configuration"
+msgstr "默认配置"
+
+#: mainpart.cpp:254
+msgid "Please select a configuration before trying to save it."
+msgstr ""
+
+#: mainpart.cpp:303
+msgid "Please select a configuration before trying to delete it."
+msgstr ""
+
+#: mainpart.cpp:307
+#, kde-format
+msgid "Really delete configuration '%1'?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, cardNameLabel)
+#: mainpart.ui:36
+msgid "Select card:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, preferredBtn)
+#. i18n: ectx: property (statusTip), widget (QPushButton, preferredBtn)
+#: mainpart.ui:56 mainpart.ui:59
+msgid "Mark current card as preferred"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, preferredBtn)
+#: mainpart.ui:62
+msgid ""
+"Click this to set the currently selected card as the preferred card. The "
+"next time kenvy24 starts, this card will be automatically selected."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, preferredBtn)
+#: mainpart.ui:65
+msgid "Preferred"
+msgstr "首选"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: mainpart.ui:82
+msgid "Configurations:"
+msgstr "配置："
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, configList)
+#: mainpart.ui:95
+#, fuzzy
+#| msgid "Default configuration"
+msgid "Select a previously saved configuration"
+msgstr "默认配置"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, configList)
+#: mainpart.ui:98
+msgid ""
+"This combo lets you either select a previously created configuration or type "
+"the name of a new configuration to be created, then to be saved using the "
+"save button next to it."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, configSave)
+#: mainpart.ui:111
+msgid "Save changes"
+msgstr "保存更改"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, configSave)
+#: mainpart.ui:114
+msgid ""
+"Press this button to save changes to the configuration selected into the "
+"combo. If you typed a new name into the combo, then this button will create "
+"it."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, configSave)
+#: mainpart.ui:117
+msgid "S"
+msgstr "S"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, configDelete)
+#: mainpart.ui:127
+#, fuzzy
+#| msgid "Default configuration"
+msgid "Delete configuration"
+msgstr "默认配置"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, configDelete)
+#: mainpart.ui:130
+msgid ""
+"This will permanently delete the current configuration. A deleted "
+"configuration will no longer appear into the combo."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, configDelete)
+#: mainpart.ui:133
+msgid "D"
+msgstr "D"
+
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroup175)
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, mixerGroup)
+#. i18n: ectx: attribute (title), widget (QWidget, tabMixer)
+#: mainpart.ui:149 mainview.ui:161 mainview.ui:608
+msgid "Mixer"
+msgstr "混音器"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabSurround)
+#: mainpart.ui:159
+msgid "Surround"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabConfiguration)
+#: mainpart.ui:169
+msgid "Configuration"
+msgstr "配置"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, pcmGroup)
+#: mainview.ui:30
+msgid "Levels"
+msgstr "级别"
+
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroup176)
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroup7)
+#: mainview.ui:63 mainview.ui:641
+msgid "PCM"
+msgstr "PCM"
+
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroup174)
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroup4)
+#: mainview.ui:111 mainview.ui:837
+msgid "Inputs"
+msgstr "输入"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox2)
+#: mainview.ui:197
+msgid "Connexions"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: mainview.ui:227
+msgid "Right"
+msgstr "右"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO1R)
+#: mainview.ui:249
+msgid "Choose analog out 1 right signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO2R)
+#: mainview.ui:259
+msgid "Choose analog out 2 right signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO3R)
+#: mainview.ui:269
+msgid "Choose analog out 3 right signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO4R)
+#: mainview.ui:279
+msgid "Choose analog out 4 right signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO5R)
+#: mainview.ui:289
+msgid "Choose analog out 5 right signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO6R)
+#: mainview.ui:299
+msgid "Choose analog out 6 right signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO7R)
+#: mainview.ui:309
+msgid "Choose analog out 7 right signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO8R)
+#: mainview.ui:319
+msgid "Choose analog out 8 right signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO2L)
+#: mainview.ui:329
+msgid "Choose analog out 2 left signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO3L)
+#: mainview.ui:339
+msgid "Choose analog out 3 left signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO4L)
+#: mainview.ui:349
+msgid "Choose analog out 4 left signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO5L)
+#: mainview.ui:359
+msgid "Choose analog out 5 left signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO6L)
+#: mainview.ui:369
+msgid "Choose analog out 6 left signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO7L)
+#: mainview.ui:379
+msgid "Choose analog out 7 left signal source "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, patchSPDIFO1label)
+#: mainview.ui:389
+msgid "SPDIF Out 1:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO8L)
+#: mainview.ui:402
+msgid "Choose analog out 8 left signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchSPDIFO1L)
+#: mainview.ui:412
+msgid "Choose SPDIF out 1 left signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchSPDIFO2L)
+#: mainview.ui:422
+msgid "Choose SPDIF out 2 left signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchSPDIFO1R)
+#: mainview.ui:432
+msgid "Choose SPDIF out 1 right signal source "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchSPDIFO2R)
+#: mainview.ui:442
+msgid "Choose SPDIF out 2 right signal source "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, patchAO1label)
+#: mainview.ui:452
+msgid "Analog out 1:"
+msgstr "模拟输出 1："
+
+#. i18n: ectx: property (text), widget (QLabel, patchAO2label)
+#: mainview.ui:465
+msgid "Analog out 2:"
+msgstr "模拟输出 2："
+
+#. i18n: ectx: property (text), widget (QLabel, patchAO3label)
+#: mainview.ui:478
+msgid "Analog out 3:"
+msgstr "模拟输出 3："
+
+#. i18n: ectx: property (text), widget (QLabel, patchAO4label)
+#: mainview.ui:491
+msgid "Analog out 4:"
+msgstr "模拟输出 4："
+
+#. i18n: ectx: property (text), widget (QLabel, patchAO5label)
+#: mainview.ui:504
+msgid "Analog out 5:"
+msgstr "模拟输出 5："
+
+#. i18n: ectx: property (text), widget (QLabel, patchAO6label)
+#: mainview.ui:517
+msgid "Analog out 6:"
+msgstr "模拟输出 6："
+
+#. i18n: ectx: property (text), widget (QLabel, patchAO7label)
+#: mainview.ui:530
+msgid "Analog out 7:"
+msgstr "模拟输出 7："
+
+#. i18n: ectx: property (text), widget (QLabel, patchAO8label)
+#: mainview.ui:543
+msgid "Analog out 8:"
+msgstr "模拟输出 8："
+
+#. i18n: ectx: property (text), widget (QLabel, patchSPDIFO2label)
+#: mainview.ui:556
+msgid "SPDIF Out 2:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: mainview.ui:566
+#, fuzzy
+msgid "Left"
+msgstr "左"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, patchAO1L)
+#: mainview.ui:588
+msgid "Choose analog out 1 left signal source "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelWav1)
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroup8)
+#: mainview.ui:671 mixerpart.ui:1901
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (text), widget (QLabel, labelWav2)
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroup8_2_2)
+#: mainview.ui:710 mixerpart.ui:2267
+msgid "2"
+msgstr "2"
+
+#. i18n: ectx: property (text), widget (QLabel, labelWav3)
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroup8_2_2_2_2)
+#: mainview.ui:749 mixerpart.ui:2633
+msgid "3"
+msgstr "3"
+
+#. i18n: ectx: property (text), widget (QLabel, labelWav4)
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroup8_2_2_2_2_2_2)
+#: mainview.ui:788 mixerpart.ui:2999
+msgid "4"
+msgstr "4"
+
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroup)
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroup5)
+#: mainview.ui:867 monitor.ui:43
+#, fuzzy
+msgid "Analog 1"
+msgstr "模拟 1"
+
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroup6)
+#: mainview.ui:906
+msgid "SPDIF 1"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, settingsGroup)
+#: mainview.ui:951
+msgid "Settings"
+msgstr "设置"
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox4)
+#: mainview.ui:980
+msgid "Analog"
+msgstr "模拟"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: mainview.ui:1003
+msgid "DAC0"
+msgstr "DAC0"
+
+#. i18n: ectx: property (toolTip), widget (QDial, dac0Volume)
+#. i18n: ectx: property (whatsThis), widget (QDial, dac0Volume)
+#: mainview.ui:1028 mainview.ui:1031
+msgid "Left Digital/Analog converter setting"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblVolCD1)
+#. i18n: ectx: property (text), widget (QLabel, lblVolCD2)
+#. i18n: ectx: property (text), widget (QLabel, lblVolCD1_2)
+#. i18n: ectx: property (text), widget (QLabel, lblVolCD2_2)
+#. i18n: ectx: property (text), widget (QLabel, lblVolCD1_3)
+#. i18n: ectx: property (text), widget (QLabel, lblVolCD1_4)
+#. i18n: ectx: property (text), widget (QLabel, lblVolLineIn1)
+#. i18n: ectx: property (text), widget (QLabel, lblVolLineIn2)
+#. i18n: ectx: property (text), widget (QLabel, lblVolMic1)
+#. i18n: ectx: property (text), widget (QLabel, lblVolMic2)
+#. i18n: ectx: property (text), widget (QLabel, lblVolWav1L)
+#. i18n: ectx: property (text), widget (QLabel, lblVolWav1R)
+#. i18n: ectx: property (text), widget (QLabel, lblVolWav1L_2)
+#. i18n: ectx: property (text), widget (QLabel, lblVolWav1R_2)
+#. i18n: ectx: property (text), widget (QLabel, lblVolWav1L_3)
+#. i18n: ectx: property (text), widget (QLabel, lblVolWav1R_3)
+#. i18n: ectx: property (text), widget (QLabel, lblVolWav1L_4)
+#. i18n: ectx: property (text), widget (QLabel, lblVolWav1R_4)
+#. i18n: ectx: property (text), widget (QLabel, lblVolMaster1)
+#. i18n: ectx: property (text), widget (QLabel, lblVolMaster2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2_2)
+#. i18n: ectx: property (text), widget (QLabel, panValue)
+#. i18n: ectx: property (text), widget (QLabel, volumeValue)
+#: mainview.ui:1044 mainview.ui:1102 mainview.ui:1160 mainview.ui:1218
+#: mixerpart.ui:511 mixerpart.ui:626 mixerpart.ui:879 mixerpart.ui:988
+#: mixerpart.ui:1231 mixerpart.ui:1346 mixerpart.ui:1572 mixerpart.ui:1687
+#: mixerpart.ui:1929 mixerpart.ui:2047 mixerpart.ui:2295 mixerpart.ui:2413
+#: mixerpart.ui:2661 mixerpart.ui:2779 mixerpart.ui:3027 mixerpart.ui:3145
+#: mixerpart.ui:3377 mixerpart.ui:3492 surroundpart.ui:49 surroundpart.ui:196
+#: surroundpart.ui:448 surroundpart.ui:595 surroundpart.ui:847
+#: surroundpart.ui:1031 volume.ui:114 volume.ui:235
+msgid "0"
+msgstr "0"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: mainview.ui:1061
+msgid "DAC1"
+msgstr "DAC1"
+
+#. i18n: ectx: property (toolTip), widget (QDial, dac1Volume)
+#. i18n: ectx: property (whatsThis), widget (QDial, dac1Volume)
+#: mainview.ui:1086 mainview.ui:1089
+msgid "Right Digital/Analog converter setting"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2_2)
+#: mainview.ui:1119
+msgid "ADC0"
+msgstr "ADC0"
+
+#. i18n: ectx: property (toolTip), widget (QDial, adc0Volume)
+#. i18n: ectx: property (whatsThis), widget (QDial, adc0Volume)
+#: mainview.ui:1144 mainview.ui:1147
+msgid "Left Analog/Digital converter setting"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2_2_2)
+#: mainview.ui:1177
+msgid "ADC1"
+msgstr "ADC1"
+
+#. i18n: ectx: property (toolTip), widget (QDial, adc1Volume)
+#. i18n: ectx: property (whatsThis), widget (QDial, adc1Volume)
+#: mainview.ui:1202 mainview.ui:1205
+msgid "Right Analog/Digital converter setting"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (Q3GroupBox, groupBox5)
+#: mainview.ui:1260
+#, fuzzy
+msgid "Profiles"
+msgstr "配置"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, newProfileBtn)
+#: mainview.ui:1274
+msgid ""
+"Click this button to create a new profile, so you can save the controls' "
+"state for later retrieval."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, newProfileBtn)
+#: mainview.ui:1277
+msgid "New..."
+msgstr "新建..."
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, updateProfileBtn)
+#: mainview.ui:1287
+msgid "Click here to save all controls' state to disk."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, updateProfileBtn)
+#: mainview.ui:1290
+msgid "Save"
+msgstr "保存"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, deleteProfileBtn)
+#: mainview.ui:1300
+msgid "Click here to remove current profile settings from disk"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, deleteProfileBtn)
+#: mainview.ui:1303
+msgid "Delete..."
+msgstr "删除..."
+
+#. i18n: ectx: property (toolTip), widget (KUrlLabel, wikiURL)
+#: mainview.ui:1336
+msgid "Click here to visit the KEnvy24 wiki"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KUrlLabel, wikiURL)
+#: mainview.ui:1339
+msgid "Click here to visit the KEnvy24 wiki pages"
+msgstr ""
+
+#. i18n: ectx: property (url), widget (KUrlLabel, wikiURL)
+#: mainview.ui:1342
+msgid "http://kenvy24.wiki.sourceforge.net/"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpCDIn)
+#: mixerpart.cpp:338 mixerpart.ui:484
+msgid "CD In"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, btnHideCdIn)
+#: mixerpart.cpp:339 mixerpart.ui:68
+msgid "Cd In"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, btnHideLineIn)
+#. i18n: ectx: property (title), widget (QGroupBox, grpLineIn)
+#: mixerpart.cpp:344 mixerpart.cpp:345 mixerpart.ui:121 mixerpart.ui:825
+msgid "Line In"
+msgstr "线路输入"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpMicIn)
+#: mixerpart.cpp:351 mixerpart.ui:1187
+msgid "Phono/Mic In"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, btnHideMicIn)
+#: mixerpart.cpp:352 mixerpart.ui:174
+msgid "Mic In"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, btnHideDigitalIn)
+#. i18n: ectx: property (title), widget (QGroupBox, grpDigitalIn)
+#: mixerpart.cpp:358 mixerpart.cpp:408 mixerpart.ui:227 mixerpart.ui:1545
+msgid "Digital In"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpWav1)
+#. i18n: ectx: property (title), widget (QGroupBox, grpWav2)
+#. i18n: ectx: property (title), widget (QGroupBox, grpWav3)
+#. i18n: ectx: property (title), widget (QGroupBox, grpWav4)
+#: mixerpart.cpp:363 mixerpart.cpp:369 mixerpart.cpp:375 mixerpart.cpp:381
+#: mixerpart.cpp:412 mixerpart.cpp:417 mixerpart.cpp:422 mixerpart.cpp:427
+#: mixerpart.ui:1886 mixerpart.ui:2252 mixerpart.ui:2618 mixerpart.ui:2984
+msgid "Wave Play"
+msgstr ""
+
+#: mixerpart.cpp:364 mixerpart.cpp:413
+msgid "Wav 1"
+msgstr "Wav 1"
+
+#: mixerpart.cpp:370 mixerpart.cpp:418
+msgid "Wav 2"
+msgstr "Wav 2"
+
+#: mixerpart.cpp:376 mixerpart.cpp:423
+msgid "Wav 3"
+msgstr "Wav 3"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpMaster)
+#: mixerpart.cpp:387 mixerpart.cpp:434 mixerpart.ui:3347
+msgid "Master"
+msgstr ""
+
+#: mixerpart.cpp:393 mixerpart.cpp:394
+msgid "H/W In"
+msgstr ""
+
+#: mixerpart.cpp:428
+msgid "Wav 4"
+msgstr "Wav 4"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: mixerpart.ui:31
+msgid "Display sections"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, btnHideWav1)
+#: mixerpart.ui:280
+msgid "Wav1"
+msgstr "Wav1"
+
+#. i18n: ectx: property (text), widget (QToolButton, btnHideWav2)
+#: mixerpart.ui:333
+msgid "Wav2"
+msgstr "Wav2"
+
+#. i18n: ectx: property (text), widget (QToolButton, btnHideWav3)
+#: mixerpart.ui:386
+msgid "Wav3"
+msgstr "Wav3"
+
+#. i18n: ectx: property (text), widget (QToolButton, btnHideWav4)
+#: mixerpart.ui:439
+msgid "Wav4"
+msgstr "Wav4"
+
+#. i18n: ectx: property (statusTip), widget (QGroupBox, grpCDIn)
+#. i18n: ectx: property (statusTip), widget (QGroupBox, grpCDIn_2)
+#. i18n: ectx: property (statusTip), widget (QGroupBox, grpCDIn_3)
+#. i18n: ectx: property (statusTip), widget (QGroupBox, grpCDIn_4)
+#. i18n: ectx: property (statusTip), widget (QGroupBox, grpLineIn)
+#. i18n: ectx: property (statusTip), widget (QGroupBox, grpMicIn)
+#. i18n: ectx: property (statusTip), widget (QGroupBox, grpDigitalIn)
+#. i18n: ectx: property (statusTip), widget (QGroupBox, grpWav1)
+#. i18n: ectx: property (statusTip), widget (QGroupBox, grpWav2)
+#. i18n: ectx: property (statusTip), widget (QGroupBox, grpWav3)
+#. i18n: ectx: property (statusTip), widget (QGroupBox, grpWav4)
+#: mixerpart.ui:481 mixerpart.ui:822 mixerpart.ui:1184 mixerpart.ui:1542
+#: mixerpart.ui:1883 mixerpart.ui:2249 mixerpart.ui:2615 mixerpart.ui:2981
+#: surroundpart.ui:22 surroundpart.ui:421 surroundpart.ui:820
+#: surroundpart.ui:1004
+msgid "Right click to bring up contextual menu"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSlider, volCD1)
+#. i18n: ectx: property (statusTip), widget (QSlider, volCD1)
+#. i18n: ectx: property (toolTip), widget (QSlider, volCD2)
+#. i18n: ectx: property (statusTip), widget (QSlider, volCD2)
+#. i18n: ectx: property (toolTip), widget (QSlider, volCD1_2)
+#. i18n: ectx: property (statusTip), widget (QSlider, volCD1_2)
+#. i18n: ectx: property (toolTip), widget (QSlider, volCD2_2)
+#. i18n: ectx: property (statusTip), widget (QSlider, volCD2_2)
+#. i18n: ectx: property (toolTip), widget (QSlider, volCD1_3)
+#. i18n: ectx: property (statusTip), widget (QSlider, volCD1_3)
+#. i18n: ectx: property (toolTip), widget (QSlider, volCD1_4)
+#. i18n: ectx: property (statusTip), widget (QSlider, volCD1_4)
+#. i18n: ectx: property (toolTip), widget (QSlider, volLineIn2)
+#. i18n: ectx: property (statusTip), widget (QSlider, volLineIn2)
+#. i18n: ectx: property (toolTip), widget (QSlider, volMic1)
+#. i18n: ectx: property (statusTip), widget (QSlider, volMic1)
+#. i18n: ectx: property (toolTip), widget (QSlider, volMic2)
+#. i18n: ectx: property (statusTip), widget (QSlider, volMic2)
+#. i18n: ectx: property (toolTip), widget (QSlider, volDigitalInL)
+#. i18n: ectx: property (statusTip), widget (QSlider, volDigitalInL)
+#. i18n: ectx: property (toolTip), widget (QSlider, volDigitalInR)
+#. i18n: ectx: property (statusTip), widget (QSlider, volDigitalInR)
+#. i18n: ectx: property (toolTip), widget (QSlider, volWav1L)
+#. i18n: ectx: property (statusTip), widget (QSlider, volWav1L)
+#. i18n: ectx: property (toolTip), widget (QSlider, volWav1R)
+#. i18n: ectx: property (statusTip), widget (QSlider, volWav1R)
+#. i18n: ectx: property (toolTip), widget (QSlider, volWav2L)
+#. i18n: ectx: property (statusTip), widget (QSlider, volWav2L)
+#. i18n: ectx: property (toolTip), widget (QSlider, volWav2R)
+#. i18n: ectx: property (statusTip), widget (QSlider, volWav2R)
+#. i18n: ectx: property (toolTip), widget (QSlider, volWav3L)
+#. i18n: ectx: property (statusTip), widget (QSlider, volWav3L)
+#. i18n: ectx: property (toolTip), widget (QSlider, volWav3R)
+#. i18n: ectx: property (statusTip), widget (QSlider, volWav3R)
+#. i18n: ectx: property (toolTip), widget (QSlider, volWav4L)
+#. i18n: ectx: property (statusTip), widget (QSlider, volWav4L)
+#. i18n: ectx: property (toolTip), widget (QSlider, volWav4R)
+#. i18n: ectx: property (statusTip), widget (QSlider, volWav4R)
+#. i18n: ectx: property (toolTip), widget (QSlider, volMaster1)
+#. i18n: ectx: property (statusTip), widget (QSlider, volMaster1)
+#. i18n: ectx: property (toolTip), widget (QSlider, volMaster2)
+#. i18n: ectx: property (statusTip), widget (QSlider, volMaster2)
+#: mixerpart.ui:532 mixerpart.ui:535 mixerpart.ui:647 mixerpart.ui:650
+#: mixerpart.ui:1009 mixerpart.ui:1012 mixerpart.ui:1252 mixerpart.ui:1255
+#: mixerpart.ui:1367 mixerpart.ui:1370 mixerpart.ui:1593 mixerpart.ui:1596
+#: mixerpart.ui:1708 mixerpart.ui:1711 mixerpart.ui:1953 mixerpart.ui:1956
+#: mixerpart.ui:2071 mixerpart.ui:2074 mixerpart.ui:2319 mixerpart.ui:2322
+#: mixerpart.ui:2437 mixerpart.ui:2440 mixerpart.ui:2685 mixerpart.ui:2688
+#: mixerpart.ui:2803 mixerpart.ui:2806 mixerpart.ui:3051 mixerpart.ui:3054
+#: mixerpart.ui:3169 mixerpart.ui:3172 mixerpart.ui:3398 mixerpart.ui:3401
+#: mixerpart.ui:3513 mixerpart.ui:3516 surroundpart.ui:86 surroundpart.ui:89
+#: surroundpart.ui:233 surroundpart.ui:236 surroundpart.ui:485
+#: surroundpart.ui:488 surroundpart.ui:632 surroundpart.ui:635
+#: surroundpart.ui:884 surroundpart.ui:887 surroundpart.ui:1052
+#: surroundpart.ui:1055
+msgid "Volume adjusting slider"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteCDL)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteCDL)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteCDR)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteCDR)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteCDL_2)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteCDL_2)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteCDR_2)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteCDR_2)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteCDL_3)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteCDL_3)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteCDL_4)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteCDL_4)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteLineInL)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteLineInL)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteLineInR)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteLineInR)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteMicL)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteMicL)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteMicR)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteMicR)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteDigitalInL)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteDigitalInL)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteDigitalInR)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteDigitalInR)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteWav1L)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteWav1L)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteWav1R)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteWav1R)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteWav2L)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteWav2L)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteWav2R)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteWav2R)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteWav3L)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteWav3L)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteWav3R)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteWav3R)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteWav4L)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteWav4L)
+#. i18n: ectx: property (toolTip), widget (QToolButton, muteWav4R)
+#. i18n: ectx: property (statusTip), widget (QToolButton, muteWav4R)
+#: mixerpart.ui:693 mixerpart.ui:696 mixerpart.ui:725 mixerpart.ui:728
+#: mixerpart.ui:1055 mixerpart.ui:1058 mixerpart.ui:1087 mixerpart.ui:1090
+#: mixerpart.ui:1413 mixerpart.ui:1416 mixerpart.ui:1445 mixerpart.ui:1448
+#: mixerpart.ui:1754 mixerpart.ui:1757 mixerpart.ui:1786 mixerpart.ui:1789
+#: mixerpart.ui:2117 mixerpart.ui:2120 mixerpart.ui:2149 mixerpart.ui:2152
+#: mixerpart.ui:2483 mixerpart.ui:2486 mixerpart.ui:2515 mixerpart.ui:2518
+#: mixerpart.ui:2849 mixerpart.ui:2852 mixerpart.ui:2881 mixerpart.ui:2884
+#: mixerpart.ui:3215 mixerpart.ui:3218 mixerpart.ui:3247 mixerpart.ui:3250
+#: surroundpart.ui:295 surroundpart.ui:298 surroundpart.ui:327
+#: surroundpart.ui:330 surroundpart.ui:694 surroundpart.ui:697
+#: surroundpart.ui:726 surroundpart.ui:729 surroundpart.ui:974
+#: surroundpart.ui:977 surroundpart.ui:1126 surroundpart.ui:1129
+msgid "Toggle mute state for this channel"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, muteCDL)
+#. i18n: ectx: property (text), widget (QToolButton, muteCDR)
+#. i18n: ectx: property (text), widget (QToolButton, muteCDL_2)
+#. i18n: ectx: property (text), widget (QToolButton, muteCDR_2)
+#. i18n: ectx: property (text), widget (QToolButton, muteCDL_3)
+#. i18n: ectx: property (text), widget (QToolButton, muteCDL_4)
+#. i18n: ectx: property (text), widget (QToolButton, muteLineInL)
+#. i18n: ectx: property (text), widget (QToolButton, muteLineInR)
+#. i18n: ectx: property (text), widget (QToolButton, muteMicL)
+#. i18n: ectx: property (text), widget (QToolButton, muteMicR)
+#. i18n: ectx: property (text), widget (QToolButton, muteDigitalInL)
+#. i18n: ectx: property (text), widget (QToolButton, muteDigitalInR)
+#. i18n: ectx: property (text), widget (QToolButton, muteWav1L)
+#. i18n: ectx: property (text), widget (QToolButton, muteWav1R)
+#. i18n: ectx: property (text), widget (QToolButton, muteWav2L)
+#. i18n: ectx: property (text), widget (QToolButton, muteWav2R)
+#. i18n: ectx: property (text), widget (QToolButton, muteWav3L)
+#. i18n: ectx: property (text), widget (QToolButton, muteWav3R)
+#. i18n: ectx: property (text), widget (QToolButton, muteWav4L)
+#. i18n: ectx: property (text), widget (QToolButton, muteWav4R)
+#. i18n: ectx: property (text), widget (QToolButton, mute)
+#: mixerpart.ui:699 mixerpart.ui:731 mixerpart.ui:1061 mixerpart.ui:1093
+#: mixerpart.ui:1419 mixerpart.ui:1451 mixerpart.ui:1760 mixerpart.ui:1792
+#: mixerpart.ui:2123 mixerpart.ui:2155 mixerpart.ui:2489 mixerpart.ui:2521
+#: mixerpart.ui:2855 mixerpart.ui:2887 mixerpart.ui:3221 mixerpart.ui:3253
+#: surroundpart.ui:301 surroundpart.ui:333 surroundpart.ui:700
+#: surroundpart.ui:732 surroundpart.ui:980 surroundpart.ui:1132 volume.ui:257
+msgid "M"
+msgstr "M"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, stLinkCd)
+#. i18n: ectx: property (statusTip), widget (QPushButton, stLinkCd)
+#. i18n: ectx: property (toolTip), widget (QPushButton, stLinkCd_2)
+#. i18n: ectx: property (statusTip), widget (QPushButton, stLinkCd_2)
+#. i18n: ectx: property (toolTip), widget (QPushButton, stLinkLineIn)
+#. i18n: ectx: property (statusTip), widget (QPushButton, stLinkLineIn)
+#. i18n: ectx: property (toolTip), widget (QPushButton, stLinkMic)
+#. i18n: ectx: property (statusTip), widget (QPushButton, stLinkMic)
+#. i18n: ectx: property (toolTip), widget (QPushButton, stLinkDigitalIn)
+#. i18n: ectx: property (statusTip), widget (QPushButton, stLinkDigitalIn)
+#. i18n: ectx: property (toolTip), widget (QPushButton, stLinkWav1)
+#. i18n: ectx: property (statusTip), widget (QPushButton, stLinkWav1)
+#. i18n: ectx: property (toolTip), widget (QPushButton, stLinkWav2)
+#. i18n: ectx: property (statusTip), widget (QPushButton, stLinkWav2)
+#. i18n: ectx: property (toolTip), widget (QPushButton, stLinkWav3)
+#. i18n: ectx: property (statusTip), widget (QPushButton, stLinkWav3)
+#. i18n: ectx: property (toolTip), widget (QPushButton, stLinkWav4)
+#. i18n: ectx: property (statusTip), widget (QPushButton, stLinkWav4)
+#. i18n: ectx: property (toolTip), widget (QPushButton, stLinkMaster)
+#. i18n: ectx: property (statusTip), widget (QPushButton, stLinkMaster)
+#: mixerpart.ui:792 mixerpart.ui:795 mixerpart.ui:1154 mixerpart.ui:1157
+#: mixerpart.ui:1512 mixerpart.ui:1515 mixerpart.ui:1853 mixerpart.ui:1856
+#: mixerpart.ui:2219 mixerpart.ui:2222 mixerpart.ui:2585 mixerpart.ui:2588
+#: mixerpart.ui:2951 mixerpart.ui:2954 mixerpart.ui:3317 mixerpart.ui:3320
+#: mixerpart.ui:3569 mixerpart.ui:3572 surroundpart.ui:391 surroundpart.ui:394
+#: surroundpart.ui:790 surroundpart.ui:793
+msgid "Toggle stereo link state for this channel"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, stLinkCd)
+#. i18n: ectx: property (text), widget (QPushButton, stLinkCd_2)
+#. i18n: ectx: property (text), widget (QPushButton, stLinkLineIn)
+#. i18n: ectx: property (text), widget (QPushButton, stLinkMic)
+#. i18n: ectx: property (text), widget (QPushButton, stLinkDigitalIn)
+#. i18n: ectx: property (text), widget (QPushButton, stLinkWav1)
+#. i18n: ectx: property (text), widget (QPushButton, stLinkWav2)
+#. i18n: ectx: property (text), widget (QPushButton, stLinkWav3)
+#. i18n: ectx: property (text), widget (QPushButton, stLinkWav4)
+#. i18n: ectx: property (text), widget (QPushButton, stLinkMaster)
+#: mixerpart.ui:798 mixerpart.ui:1160 mixerpart.ui:1518 mixerpart.ui:1859
+#: mixerpart.ui:2225 mixerpart.ui:2591 mixerpart.ui:2957 mixerpart.ui:3323
+#: mixerpart.ui:3575 surroundpart.ui:397 surroundpart.ui:796
+msgid "St. Link"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, lineInSourceCombo)
+#: mixerpart.ui:838
+msgid "Internal"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpCDIn)
+#. i18n: ectx: property (text), item, widget (QComboBox, lineInSourceCombo)
+#: mixerpart.ui:843 surroundpart.ui:25
+#, fuzzy
+msgid "Front"
+msgstr "前"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpCDIn_2)
+#. i18n: ectx: property (text), item, widget (QComboBox, lineInSourceCombo)
+#: mixerpart.ui:848 surroundpart.ui:424
+msgid "Rear"
+msgstr "后面"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, lineInSourceCombo)
+#: mixerpart.ui:853
+msgid "Wavetable"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, micInSourceCombo)
+#: mixerpart.ui:1200
+msgid "Microphone"
+msgstr "话筒"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, micInSourceCombo)
+#: mixerpart.ui:1205
+msgid "Phono"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, leftLabel)
+#: monitor.ui:75
+msgid "L"
+msgstr "左"
+
+#. i18n: ectx: property (text), widget (QLabel, rightLabel)
+#: monitor.ui:108
+msgid "R"
+msgstr "右"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpCDIn_3)
+#: surroundpart.ui:823
+msgid "Center"
+msgstr "中心"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpCDIn_4)
+#: surroundpart.ui:1007
+msgid "LFE"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (Q3ButtonGroup, buttonGroup)
+#: volume.ui:43
+msgid "Volume"
+msgstr "音量"
+
+#. i18n: ectx: property (toolTip), widget (QDial, pan)
+#: volume.ui:67
+msgid "Adjust channel panning through the mixer"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, panLabel)
+#: volume.ui:95
+msgid "Pan"
+msgstr "平移"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, volume)
+#: volume.ui:176
+msgid "Adjust channel volume through the mixer"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, volumeLabel)
+#: volume.ui:216
+#, fuzzy
+msgid "Vol"
+msgstr "音量"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, mute)
+#: volume.ui:254
+msgid "Mute this mixer entry channel"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, VuMeter)
+#: vumeter.ui:25
+msgid "vuMeter"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KLed, led20)
+#. i18n: ectx: property (toolTip), widget (KLed, led19)
+#. i18n: ectx: property (toolTip), widget (KLed, led18)
+#. i18n: ectx: property (toolTip), widget (KLed, led17)
+#. i18n: ectx: property (toolTip), widget (KLed, led16)
+#. i18n: ectx: property (toolTip), widget (KLed, led15)
+#. i18n: ectx: property (toolTip), widget (KLed, led14)
+#. i18n: ectx: property (toolTip), widget (KLed, led13)
+#. i18n: ectx: property (toolTip), widget (KLed, led12)
+#. i18n: ectx: property (toolTip), widget (KLed, led11)
+#. i18n: ectx: property (toolTip), widget (KLed, led10)
+#. i18n: ectx: property (toolTip), widget (KLed, led9)
+#. i18n: ectx: property (toolTip), widget (KLed, led8)
+#. i18n: ectx: property (toolTip), widget (KLed, led7)
+#. i18n: ectx: property (toolTip), widget (KLed, led6)
+#. i18n: ectx: property (toolTip), widget (KLed, led5)
+#. i18n: ectx: property (toolTip), widget (KLed, led4)
+#. i18n: ectx: property (toolTip), widget (KLed, led3)
+#. i18n: ectx: property (toolTip), widget (KLed, led2)
+#. i18n: ectx: property (toolTip), widget (KLed, led1)
+#. i18n: ectx: property (toolTip), widget (KLed, led0)
+#: vumeter.ui:51 vumeter.ui:83 vumeter.ui:115 vumeter.ui:147 vumeter.ui:179
+#: vumeter.ui:211 vumeter.ui:243 vumeter.ui:275 vumeter.ui:307 vumeter.ui:339
+#: vumeter.ui:371 vumeter.ui:403 vumeter.ui:435 vumeter.ui:467 vumeter.ui:499
+#: vumeter.ui:531 vumeter.ui:563 vumeter.ui:595 vumeter.ui:627 vumeter.ui:659
+#: vumeter.ui:691
+msgid "Channel signal level-meter"
+msgstr ""

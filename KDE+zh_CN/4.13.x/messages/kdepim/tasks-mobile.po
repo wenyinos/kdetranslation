@@ -1,0 +1,559 @@
+# Funda Wang <fundawang@gmail.com>, 2010
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: accountwizard\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-24 01:33+0000\n"
+"PO-Revision-Date: 2010-07-14 15:46+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: BulkActionComponent.qml:31 tasks.qml:135
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] ""
+
+#: ConfigDialog.qml:65
+msgid "OK"
+msgstr ""
+
+#: ConfigDialog.qml:77
+msgid "Cancel"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: configwidget.ui:25
+msgid "Time and Date"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RemindersForNewTodos)
+#: configwidget.ui:48
+msgid "Enable reminders for new to-dos"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, defaultReminderTimeLabel)
+#: configwidget.ui:55
+msgid "Default reminder time:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ReminderDefaultUnit)
+#: configwidget.ui:66
+msgid "minute(s)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ReminderDefaultUnit)
+#: configwidget.ui:71
+msgid "hour(s)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ReminderDefaultUnit)
+#: configwidget.ui:76
+msgid "day(s)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: configwidget.ui:94 TaskActions.qml:91 TaskActions.qml:109
+msgid "View"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowCompletedTodosAtBottom)
+#: configwidget.ui:117
+msgid "Always display completed to-dos at the bottom of the list"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: configwidget.ui:126
+msgid "To-do due today color:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: configwidget.ui:136
+msgid "To-do overdue color:"
+msgstr ""
+
+#: main.cpp:44 mainview.cpp:171 mainview.cpp:227 mainview.cpp:287
+msgid "Kontact Touch Tasks"
+msgstr ""
+
+#: mainview.cpp:101 TaskActions.qml:144
+#, fuzzy
+#| msgid "New Task"
+msgid "Tasks"
+msgstr "新建任务"
+
+#: mainview.cpp:149
+#, fuzzy
+#| msgid "Configure Account"
+msgid "Configure Categories"
+msgstr "配置账户"
+
+#: mainview.cpp:258
+msgid "Delete all completed to-dos?"
+msgstr ""
+
+#: mainview.cpp:259
+msgid "Purge To-dos"
+msgstr ""
+
+#: mainview.cpp:260
+msgid "Purge"
+msgstr ""
+
+#: mainview.cpp:335
+msgid "Task List Properties"
+msgstr ""
+
+#: mainview.cpp:336
+#, fuzzy
+#| msgid "New Task"
+msgid "New Sub Task List"
+msgstr "新建任务"
+
+#: mainview.cpp:338
+msgid "Synchronize This Task List"
+msgid_plural "Synchronize These Task Lists"
+msgstr[0] ""
+
+#: mainview.cpp:339
+msgid "Delete Task List"
+msgid_plural "Delete Task Lists"
+msgstr[0] ""
+
+#: mainview.cpp:340
+msgid "Move Task List To"
+msgstr ""
+
+#: mainview.cpp:341
+msgid "Copy Task List To"
+msgstr ""
+
+#: mainview.cpp:343 tasks.qml:179
+msgid "New Task"
+msgstr "新建任务"
+
+#: mainview.cpp:344
+#, fuzzy
+#| msgid "New Task"
+msgid "New Sub Task"
+msgstr "新建任务"
+
+#: mainview.cpp:345
+msgid "Edit task"
+msgstr ""
+
+#: mainview.cpp:347
+msgid "Synchronize All Tasks"
+msgstr ""
+
+#: mainview.cpp:360
+#, kde-format
+msgid "Copy Event"
+msgid_plural "Copy %1 Events"
+msgstr[0] ""
+
+#: mainview.cpp:361
+msgid "Copy Event To"
+msgstr ""
+
+#: mainview.cpp:362
+#, fuzzy, kde-format
+#| msgid "Select"
+msgid "Delete Event"
+msgid_plural "Delete %1 Events"
+msgstr[0] "选择"
+
+#: mainview.cpp:363
+msgid "Move Event To"
+msgstr ""
+
+#: mainview.cpp:364
+msgid "Edit Event"
+msgstr ""
+
+#: mainview.cpp:366
+#, fuzzy, kde-format
+#| msgid "New Task"
+msgid "Copy Task"
+msgid_plural "Copy %1 Tasks"
+msgstr[0] "新建任务"
+
+#: mainview.cpp:367
+msgid "Copy Task To"
+msgstr ""
+
+#: mainview.cpp:368
+#, fuzzy, kde-format
+#| msgid "Select"
+msgid "Delete Task"
+msgid_plural "Delete %1 Tasks"
+msgstr[0] "选择"
+
+#: mainview.cpp:369
+#, fuzzy
+#| msgid "New Task"
+msgid "Move Task To"
+msgstr "新建任务"
+
+#: mainview.cpp:370
+#, fuzzy
+#| msgid "New Task"
+msgid "Edit Task"
+msgstr "新建任务"
+
+#: mainview.cpp:372
+#, kde-format
+msgid "Copy Journal"
+msgid_plural "Copy %1 Journals"
+msgstr[0] ""
+
+#: mainview.cpp:373
+msgid "Copy Journal To"
+msgstr ""
+
+#: mainview.cpp:374
+#, fuzzy, kde-format
+#| msgid "Select"
+msgid "Delete Journal"
+msgid_plural "Delete %1 Journals"
+msgstr[0] "选择"
+
+#: mainview.cpp:375
+msgid "Move Journal To"
+msgstr ""
+
+#: mainview.cpp:376
+msgid "Edit Journal"
+msgstr ""
+
+#: mainview.cpp:385
+#, fuzzy
+#| msgid "Configure Account"
+msgctxt "@title:window"
+msgid "New Account"
+msgstr "配置账户"
+
+#: mainview.cpp:387
+#, kde-format
+msgid "Could not create account: %1"
+msgstr ""
+
+#: mainview.cpp:389
+msgid "Account creation failed"
+msgstr ""
+
+#: mainview.cpp:392
+msgctxt "@title:window"
+msgid "Delete Account?"
+msgstr ""
+
+#: mainview.cpp:394
+msgid "Do you really want to delete the selected account?"
+msgstr ""
+
+#: mainview.cpp:453
+msgid "Cannot fetch calendar item."
+msgstr ""
+
+#: mainview.cpp:454
+msgid "Item Fetch Error"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: searchwidget.ui:20
+msgid "Search for:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: searchwidget.ui:34
+msgid "In:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, inSummaries)
+#: searchwidget.ui:56
+msgid "Summaries"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, inDescriptions)
+#: searchwidget.ui:63
+#, fuzzy
+#| msgid "Actions"
+msgid "Descriptions"
+msgstr "动作"
+
+#. i18n: ectx: property (text), widget (QCheckBox, inCategories)
+#: searchwidget.ui:70
+msgid "Categories"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, inLocations)
+#: searchwidget.ui:77
+#, fuzzy
+#| msgid "Actions"
+msgid "Locations"
+msgstr "动作"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: searchwidget.ui:87
+msgid "Between:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: searchwidget.ui:109
+msgid "and"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, includeTodosWithoutDueDate)
+#: searchwidget.ui:128
+msgid "Include To-Dos without a due date"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: searchwidget.ui:135
+msgid "Located in:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, locatedInAnyCollection)
+#: searchwidget.ui:157
+msgid "any folder"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, locatedInSpecificCollection)
+#: searchwidget.ui:167
+msgid "only in folder"
+msgstr ""
+
+#: TaskActions.qml:38
+msgid "Home"
+msgstr ""
+
+#: TaskActions.qml:40
+msgid "Select Multiple Task Lists"
+msgstr ""
+
+#: TaskActions.qml:51
+#, fuzzy
+#| msgid "Actions"
+msgid "Accounts"
+msgstr "动作"
+
+#: TaskActions.qml:59
+msgid "Account"
+msgstr ""
+
+#: TaskActions.qml:70
+msgid "Folder"
+msgstr ""
+
+#: TaskActions.qml:80 TaskActions.qml:134
+msgid "Edit"
+msgstr ""
+
+#: TaskActions.qml:92 TaskActions.qml:110
+msgid "Add View As Favorite"
+msgstr ""
+
+#: TaskActions.qml:93 TaskActions.qml:112
+msgid "Switch To Editing Mode"
+msgstr ""
+
+#: TaskActions.qml:99
+msgid "Folders"
+msgstr ""
+
+#: TaskActions.qml:111
+msgid "Select Task Lists"
+msgstr ""
+
+#: TaskActions.qml:118
+#, fuzzy
+#| msgid "New Task"
+msgid "Task"
+msgstr "新建任务"
+
+#: TaskActions.qml:127
+msgid "Attachments"
+msgstr ""
+
+#: TaskActions.qml:150
+#, fuzzy
+#| msgid "Configure Account"
+msgid "Configure Tasks"
+msgstr "配置账户"
+
+#: TaskListView.qml:49
+msgid "Task: %1"
+msgstr "任务：%1"
+
+#: TaskListView.qml:62
+msgid "Details: %1"
+msgstr "细节：%1"
+
+#: tasks.qml:134
+#, fuzzy
+#| msgid ""
+#| "You have selected \n"
+#| "%1 folders\n"
+#| "from %2 accounts\n"
+#| "%3 tasks"
+msgctxt "%1 is e.g. 3 folders, %2 is e.g. from 2 accounts, %3 is e.g. 9 tasks"
+msgid ""
+"You have selected \n"
+"%1\n"
+"%2\n"
+"%3"
+msgstr ""
+"您已经从\n"
+"账户 %2 中选择了\n"
+"%1 个文件夹共 %3 个任务"
+
+#: tasks.qml:136
+msgid "from 1 account"
+msgid_plural "from %1 accounts"
+msgstr[0] ""
+
+#: tasks.qml:137
+msgid "1 task"
+msgid_plural "%1 tasks"
+msgstr[0] ""
+
+#: tasks.qml:153
+msgid "Select"
+msgstr "选择"
+
+#: tasks.qml:153
+msgid "Change Selection"
+msgstr "更改选择范围"
+
+#: tasks.qml:198
+msgid "No tasks in this folder"
+msgstr "此文件夹中没有任务"
+
+#: tasks.qml:265
+msgid "Actions"
+msgstr "动作"
+
+#: tasks.qml:387
+msgid "One task found"
+msgid_plural "%1 tasks found"
+msgstr[0] ""
+
+#: tasksactionmanager.cpp:92 tasksimporthandler.cpp:56
+msgid "Import Tasks"
+msgstr ""
+
+#: tasksactionmanager.cpp:95
+msgid "Export Tasks"
+msgstr ""
+
+#: tasksactionmanager.cpp:98
+msgid "Export Displayed Tasks"
+msgstr ""
+
+#: tasksactionmanager.cpp:101
+msgid "Make Sub Task Independent"
+msgstr ""
+
+#: tasksactionmanager.cpp:104
+msgid "Make All Sub Tasks Independent"
+msgstr ""
+
+#: tasksactionmanager.cpp:107
+msgid "Delete Completed Tasks"
+msgstr ""
+
+#: tasksactionmanager.cpp:110
+msgid "Save All Attachments"
+msgstr ""
+
+#: tasksactionmanager.cpp:113
+msgid "Archive Old Tasks"
+msgstr ""
+
+#: tasksexporthandler.cpp:31
+msgid "Which tasks shall be exported?"
+msgstr ""
+
+#: tasksexporthandler.cpp:36
+msgid "All Tasks"
+msgstr ""
+
+#: tasksexporthandler.cpp:41
+#, fuzzy
+#| msgid "No tasks in this folder"
+msgid "Tasks in current folder"
+msgstr "此文件夹中没有任务"
+
+#: tasksimporthandler.cpp:36
+msgid "Select iCal to Import"
+msgstr ""
+
+#: tasksimporthandler.cpp:41
+msgid "Select the calendar the imported task(s) shall be saved in:"
+msgstr ""
+
+#: tasksimporthandler.cpp:46
+msgid "Select Calendar"
+msgstr ""
+
+#: tasksimporthandler.cpp:51
+#, kde-format
+msgid "Importing one task to %2"
+msgid_plural "Importing %1 tasks to %2"
+msgstr[0] ""
+
+#: tasksimporthandler.cpp:79
+msgid "iCal Import Failed"
+msgstr ""
+
+#: tasksimporthandler.cpp:81
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Error when trying to read the iCal <filename>%1</filename>:</para>"
+msgstr ""
+
+#: tasksimporthandler.cpp:90
+msgid "No tasks were imported, due to errors with the iCals."
+msgstr ""
+
+#: tasksimporthandler.cpp:92
+msgid "The iCal does not contain any tasks."
+msgstr ""
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Delete"
+#~ msgstr "选择"
+
+#~ msgid "Tasks Mobile"
+#~ msgstr "手机任务"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select Folders"
+#~ msgstr "选择"
+
+#, fuzzy
+#~| msgid "Configure Account"
+#~ msgid "New Appointment"
+#~ msgstr "配置账户"
+
+#~ msgid "Previous"
+#~ msgstr "上一项"
+
+#~ msgid "Next"
+#~ msgstr "下一项"

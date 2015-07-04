@@ -1,0 +1,348 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-12 01:29+0000\n"
+"PO-Revision-Date: 2013-09-29 21:22-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: config/telepathy-kded-config.cpp:47
+#, no-c-format
+msgctxt ""
+"Title tag in now playing plugin, use one word and keep the '%' character."
+msgid "%title"
+msgstr "%title"
+
+#: config/telepathy-kded-config.cpp:49
+#, no-c-format
+msgctxt ""
+"Artist tag in now playing plugin, use one word and keep the '%' character."
+msgid "%artist"
+msgstr "%artist"
+
+#: config/telepathy-kded-config.cpp:51
+#, no-c-format
+msgctxt ""
+"Album tag in now playing plugin, use one word and keep the '%' character."
+msgid "%album"
+msgstr "%album"
+
+#: config/telepathy-kded-config.cpp:53
+#, no-c-format
+msgctxt ""
+"Track number tag in now playing plugin, use one word and keep the '%' "
+"character."
+msgid "%track"
+msgstr "%track"
+
+#: config/telepathy-kded-config.cpp:55
+#, no-c-format
+msgctxt "Time tag. Use one word and keep the '%' character."
+msgid "%time"
+msgstr "%time"
+
+#: config/telepathy-kded-config.cpp:81 config/telepathy-kded-config.cpp:84
+msgctxt ""
+"Unit after number in spinbox, denotes time unit 'minutes', keep the leading "
+"whitespace!"
+msgid " minutes"
+msgstr " 分钟"
+
+#: config/telepathy-kded-config.cpp:86 config/telepathy-kded-config.cpp:90
+#: config/telepathy-kded-config.cpp:94
+msgid "Leave empty for no message"
+msgstr "置空则无信息"
+
+#: config/telepathy-kded-config.cpp:88
+#, no-c-format
+msgid "Use %time to insert UTC time of when you went away"
+msgstr "使用 %time 来插入您离开时的 UTC 时间"
+
+#: config/telepathy-kded-config.cpp:92
+#, no-c-format
+msgid "Use %time to insert UTC time of when you went not available"
+msgstr "使用 %time 来插入您不可用时的 UTC 时间"
+
+#: config/telepathy-kded-config.cpp:96
+#, no-c-format
+msgid "Use %time to insert UTC time of when the screen saver was activated"
+msgstr "使用 %time 来插入屏幕保护激活时的 UTC 时间"
+
+#: config/telepathy-kded-config.cpp:155
+msgctxt "This is the download directory in user's home"
+msgid "Downloads"
+msgstr "下载"
+
+#: config/telepathy-kded-config.cpp:216 telepathy-mpris.cpp:137
+#, kde-format
+msgctxt ""
+"The default text displayed by now playing plugin. track title: %1, artist: "
+"%2, album: %3"
+msgid "Now listening to %1 by %2 from album %3"
+msgstr "正在收听来自 %2 的专辑 %3 中的 %1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, autoConnectGroupBox)
+#: config/telepathy-kded-config.ui:35
+msgid "Auto connect"
+msgstr "自动连接"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_autoConnectCheckBox)
+#: config/telepathy-kded-config.ui:44
+msgid "Restore last presence on login"
+msgstr "登录时恢复上次状态"
+
+#. i18n: ectx: property (title), widget (QGroupBox, autoAwayGroupBox)
+#: config/telepathy-kded-config.ui:54
+msgid "Auto away"
+msgstr "自动离开"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config/telepathy-kded-config.ui:63
+msgid "Set my status to:"
+msgstr "设定我的状态为："
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_awayCheckBox)
+#: config/telepathy-kded-config.ui:74
+msgid "Away"
+msgstr "离开"
+
+#. i18n: ectx: property (text), widget (QLabel, m_awayMinsLabel)
+#: config/telepathy-kded-config.ui:103
+msgid "After:"
+msgstr "之后："
+
+#. i18n: ectx: property (text), widget (QLabel, m_awayInactivityLabel)
+#. i18n: ectx: property (text), widget (QLabel, m_xaInactivityLabel)
+#: config/telepathy-kded-config.ui:132 config/telepathy-kded-config.ui:231
+msgid "of inactivity"
+msgstr "后离开"
+
+#. i18n: ectx: property (text), widget (QLabel, m_awayMessageLabel)
+#. i18n: ectx: property (text), widget (QLabel, m_screenSaverAwayLabel)
+#: config/telepathy-kded-config.ui:143 config/telepathy-kded-config.ui:300
+msgid "With &message:"
+msgstr "使用状态(&G)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_xaCheckBox)
+#: config/telepathy-kded-config.ui:170
+msgid "Not available"
+msgstr "不可用"
+
+#. i18n: ectx: property (text), widget (QLabel, m_xaMinsLabel)
+#: config/telepathy-kded-config.ui:202
+msgid "Aft&er:"
+msgstr "之后(&E)："
+
+#. i18n: ectx: property (text), widget (QLabel, m_xaMessageLabel)
+#: config/telepathy-kded-config.ui:242
+msgid "With messa&ge:"
+msgstr "使用状态(&G)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_screenSaverAwayCheckBox)
+#: config/telepathy-kded-config.ui:273
+msgid "Set my status to Away when the screen saver is activated"
+msgstr "屏幕保护激活时设置状态为离开"
+
+#. i18n: ectx: property (title), widget (QGroupBox, autoOfflineGroupBox)
+#: config/telepathy-kded-config.ui:323
+msgid "Auto Offline"
+msgstr "自动离线"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_autoOfflineCheckBox)
+#: config/telepathy-kded-config.ui:332
+msgid "Go offline when closing the contact list"
+msgstr "关闭联系人列表时自动离线"
+
+#. i18n: ectx: property (title), widget (QGroupBox, incomingFilesGroupBox)
+#: config/telepathy-kded-config.ui:342
+msgid "Incoming files"
+msgstr "收到文件"
+
+#. i18n: ectx: property (text), widget (QLabel, m_downloadUrlLabel)
+#: config/telepathy-kded-config.ui:353
+msgid "Download folder:"
+msgstr "下载文件夹："
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_downloadUrlCheckBox)
+#: config/telepathy-kded-config.ui:366
+msgid "Always Ask"
+msgstr "总是询问"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, m_downloadUrlRequester)
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, m_downloadUrlRequester)
+#: config/telepathy-kded-config.ui:373 config/telepathy-kded-config.ui:376
+msgid "This is the folder where received files will be saved."
+msgstr "这是保存接受文件的文件夹。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_autoAcceptCheckBox)
+#: config/telepathy-kded-config.ui:388
+msgid "Automatically accept file transfers"
+msgstr "自动接受文件传输"
+
+#. i18n: ectx: property (title), widget (QGroupBox, nowPlayingGroupBox)
+#: config/telepathy-kded-config.ui:398
+msgid "Now playing"
+msgstr "正在收听"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_nowPlayingCheckBox)
+#: config/telepathy-kded-config.ui:407
+#, fuzzy
+#| msgid "Enable \"Now playing...\" presence"
+msgid "Enable \"Now playing...\" presence on login"
+msgstr "启用“正在收听...”状态"
+
+#. i18n: ectx: property (text), widget (QLabel, message_format_label)
+#: config/telepathy-kded-config.ui:419
+msgid "Message format:"
+msgstr "信息格式："
+
+#: contact-request-handler.cpp:179
+msgid "New contact request"
+msgstr "新联系人请求"
+
+#: contact-request-handler.cpp:180
+#, kde-format
+msgid "The contact %1 wants to be able to chat with you."
+msgstr "联系人 %1 想要与您聊天。"
+
+#: contact-request-handler.cpp:197
+msgid "Error adding contact"
+msgstr "添加联系人时出错"
+
+#: contact-request-handler.cpp:198
+#, kde-format
+msgid ""
+"%1 has been added successfully to your contact list, but might be unable to "
+"see when you are online. Error details: %2"
+msgstr "%1 成功加入到您的联系人列表，但有可能无法看到您在线。错误细节：%2"
+
+#: contact-request-handler.cpp:284
+msgid "Error granting contact authorization"
+msgstr "授权联系人认证出错"
+
+#: contact-request-handler.cpp:285
+#, kde-format
+msgid "There was an error while accepting the request: %1"
+msgstr "接受请求时出错：%1"
+
+#: contact-request-handler.cpp:295
+msgid "Contact request accepted"
+msgstr "联系人请求已接受"
+
+#: contact-request-handler.cpp:296
+#, kde-format
+msgid "%1 will now be able to see when you are online"
+msgstr "%1 将可以看到您在线"
+
+#: contact-request-handler.cpp:363
+msgid "Error denying contact request"
+msgstr "拒绝联系人请求出错"
+
+#: contact-request-handler.cpp:364
+#, kde-format
+msgid "There was an error while denying the request: %1"
+msgstr "拒绝请求时出错：%1"
+
+#: contact-request-handler.cpp:373
+msgid "Contact request denied"
+msgstr "联系人请求已拒绝"
+
+#: contact-request-handler.cpp:374
+#, kde-format
+msgid "%1 will not be able to see when you are online"
+msgstr "%1 将看不到您在线"
+
+#: contact-request-handler.cpp:391
+msgctxt "Menu title"
+msgid "Pending contact requests"
+msgstr "待处理的联系人请求"
+
+#: contact-request-handler.cpp:395
+msgctxt "Context menu title"
+msgid "Received contact requests"
+msgstr "收到联系人请求"
+
+#: contact-request-handler.cpp:416
+#, kde-format
+msgid "Request from %1"
+msgstr "来自 %1 的请求"
+
+#: contact-request-handler.cpp:426
+msgid "Contact Details"
+msgstr "联系人细节"
+
+#: contact-request-handler.cpp:434
+msgid "Approve"
+msgstr "接受"
+
+#: contact-request-handler.cpp:440
+msgid "Deny"
+msgstr "拒绝"
+
+#: contact-request-handler.cpp:467
+#, kde-format
+msgid "You have 1 contact wanting to chat with you"
+msgid_plural "You have %1 contacts wanting to chat with you"
+msgstr[0] "您有 %1 个联系人想要与您聊天"
+
+#: contactnotify.cpp:65
+#, kde-format
+msgctxt "%1 is the contact name, %2 is the presence name"
+msgid "%1 is now %2"
+msgstr "%1 现在是 %2"
+
+#: error-handler.cpp:142
+#, kde-format
+msgctxt "%1 is the account name"
+msgid "Could not connect %1. There was a network error, check your connection"
+msgstr "无法连接到 %1。网络错误，请检查您的连接。"
+
+#: error-handler.cpp:149 error-handler.cpp:151
+#, kde-format
+msgctxt "%1 is the account name, %2 the error message"
+msgid "There was a problem while trying to connect %1 - %2"
+msgstr "尝试连接到 %1 - %2 时发生错误"
+
+#~ msgid "Enabled"
+#~ msgstr "已启用"
+
+#~ msgctxt "%1 is the account name"
+#~ msgid ""
+#~ "Could not connect %1. Authentication failed (is your password correct?)"
+#~ msgstr "无法连接到 %1。认证失败 (您的密码正确吗？)"
+
+#~ msgid ""
+#~ "The contact %1 added you to its contact list. You can answer this request "
+#~ "using the tray icon."
+#~ msgstr ""
+#~ "联系人 %1 已将您加入到他的联系人列表。您可以使用托盘图标来响应这个请求。"
+
+#~ msgid "You have 1 incoming contact request"
+#~ msgid_plural "You have %1 incoming contact requests"
+#~ msgstr[0] "您有 %1 条联系人请求"
+
+#~ msgid "No pending contact requests at the moment"
+#~ msgstr "目前无联系人请求"
+
+#~ msgid "No incoming contact requests"
+#~ msgstr "无联系人请求"

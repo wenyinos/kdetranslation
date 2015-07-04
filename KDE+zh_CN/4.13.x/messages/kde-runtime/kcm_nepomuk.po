@@ -1,0 +1,924 @@
+# translation of nepomuk.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010.
+# Lie Ex <lilith.ex@gmail.com>, 2008-2010.
+# Weng Xuetian <wengxt@gmail.com>, 2011, 2013.
+# FengChao <rainofchaos@gmail.com>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: nepomuk\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-09-04 01:42+0000\n"
+"PO-Revision-Date: 2013-07-27 15:00+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: detailswidget.cpp:36 detailswidget.cpp:59
+msgid "Desktop Search Details"
+msgstr "桌面搜索详情"
+
+#: detailswidget.cpp:38
+msgid "Refresh"
+msgstr "刷新"
+
+#: detailswidget.cpp:53
+msgid "Files"
+msgstr "文件"
+
+#: detailswidget.cpp:54
+msgid "Emails"
+msgstr "电子邮件"
+
+#: detailswidget.cpp:92 detailswidget.cpp:93
+msgid "Calculating"
+msgstr "计算中"
+
+#: detailswidget.cpp:111 detailswidget.cpp:127
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: excludefilterselectiondialog.cpp:27
+msgctxt ""
+"@title:window Referring to the folders which will be searched for files to "
+"index for desktop search"
+msgid "Advanced File Filtering"
+msgstr "高级文件过滤"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: excludefilterselectiondialog.ui:10
+msgid "Exclude Mime Type"
+msgstr "排除 MIME 类型"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: excludefilterselectiondialog.ui:16
+msgid "Select the mimetypes that should be excluded from indexing"
+msgstr "选择不需要索引的 Mime 类型。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: excludefilterselectiondialog.ui:32
+msgid "Index Exclude Filters"
+msgstr "索引的排除过滤规则"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: excludefilterselectiondialog.ui:38
+msgid ""
+"Select expressions to exclude files from indexing by matching their filenames"
+msgstr "选择按文件名将文件从索引中排除的表达式"
+
+#: folderselectionmodel.cpp:105
+#, kde-format
+msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+msgid ""
+"<filename>%1</filename><nl/> (symbolic links are <emphasis>not</emphasis> "
+"indexed for desktop search)"
+msgstr ""
+"<filename>%1</filename><nl/> (符号链接<emphasis>不</emphasis>被桌面搜索索引)"
+
+#: folderselectionmodel.cpp:109
+#, kde-format
+msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+msgid "<filename>%1</filename><nl/>(will be indexed for desktop search)"
+msgstr "<filename>%1</filename><nl/>(将为桌面搜索进行索引)"
+
+#: folderselectionmodel.cpp:113
+#, kde-format
+msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+msgid ""
+"<filename>%1</filename><nl/> (will <emphasis>not</emphasis> be indexed for "
+"desktop search)"
+msgstr ""
+"<filename>%1</filename><nl/> (将<emphasis>不</emphasis>为桌面搜索进行索引)"
+
+#: indexfolderselectiondialog.cpp:63
+msgctxt ""
+"@title:window Referring to the folders which will be searched for files to "
+"index for desktop search"
+msgid "Customizing Index Folders"
+msgstr "自定义索引文件夹"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: indexfolderselectionwidget.ui:24
+msgid ""
+"Select the local folders that contain files to be indexed for fast desktop "
+"searches"
+msgstr "选择一个包含要索引的文件的本地文件夹，以便实行快速桌面搜索"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkShowHiddenFolders)
+#: indexfolderselectionwidget.ui:37
+msgid "Check to be able to select hidden folders"
+msgstr "选中以便选择隐藏文件夹"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkShowHiddenFolders)
+#: indexfolderselectionwidget.ui:40
+msgid "Show hidden folders"
+msgstr "显示隐藏文件夹"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: nepomukconfigwidget.ui:25
+msgid "Basic Settings"
+msgstr "基本设置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: nepomukconfigwidget.ui:31
+msgid "Nepomuk Semantic Desktop"
+msgstr "Nepomuk 语义学桌面"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: nepomukconfigwidget.ui:37
+msgid ""
+"Nepomuk Semantic Desktop enables tagging and rating of files integrated with "
+"the Desktop Search."
+msgstr "Nepomuk 语义学桌面可以与桌面搜索服务集成以对文件进行标记和评分。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableNepomuk)
+#: nepomukconfigwidget.ui:51
+msgid "Enable Nepomuk Semantic Desktop"
+msgstr "启用 Nepomuk 语义学桌面"
+
+#. i18n: ectx: property (text), widget (KUrlLabel, m_buttonDetails)
+#: nepomukconfigwidget.ui:100
+msgid "Details..."
+msgstr "细节..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: nepomukconfigwidget.ui:112
+msgid "Nepomuk Desktop File Indexer"
+msgstr "Nepomuk 桌面文件索引器"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: nepomukconfigwidget.ui:118
+msgid ""
+"Nepomuk desktop search allows searching for files by content instead of just "
+"by name."
+msgstr "Nepomuk 桌面搜索允许以内容搜索而不是仅仅以名称。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableFileIndexer)
+#: nepomukconfigwidget.ui:128
+msgid "Enable Nepomuk File Indexer"
+msgstr "启用 Nepomuk 桌面文件索引器"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_fileIndexerSuspendResumeButtom)
+#. i18n: ectx: property (text), widget (QPushButton, m_emailIndexerSuspendResumeButtom)
+#: nepomukconfigwidget.ui:173 nepomukconfigwidget.ui:249
+#: nepomukserverkcm.cpp:564
+msgid "Suspend"
+msgstr "挂起"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_emailIndexingBox)
+#: nepomukconfigwidget.ui:191
+#, fuzzy
+#| msgid "Email Indexing"
+msgid "PIM Data Indexing"
+msgstr "电子邮件索引"
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: nepomukconfigwidget.ui:197
+#, fuzzy
+#| msgid ""
+#| "Email indexing allows full text search in email and their attachments."
+msgid ""
+"PIM data indexing allows full text search in events, contacts, email and "
+"their attachments."
+msgstr "电子邮件允许对电子邮件和它们的附件进行全文搜索。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableEmailIndexer)
+#: nepomukconfigwidget.ui:204
+#, fuzzy
+#| msgid "Enable Email Indexer"
+msgid "Enable PIM Data Indexer"
+msgstr "启用电子邮件索引器"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: nepomukconfigwidget.ui:278
+msgid "Indexing"
+msgstr "索引"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
+#: nepomukconfigwidget.ui:284
+msgid "File Indexing"
+msgstr "文件索引"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: nepomukconfigwidget.ui:290
+msgid "Customize the files and folders to be indexed"
+msgstr "自定义要索引的文件和文件夹"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkboxDocuments)
+#: nepomukconfigwidget.ui:297
+msgid "Index Documents"
+msgstr "索引文档"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkboxAudio)
+#: nepomukconfigwidget.ui:304
+msgid "Index Audio"
+msgstr "索引音频"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkboxImage)
+#: nepomukconfigwidget.ui:311
+msgid "Index Images"
+msgstr "索引图像"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkboxVideo)
+#: nepomukconfigwidget.ui:318
+msgid "Index Videos"
+msgstr "索引视频"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_checkboxSourceCode)
+#: nepomukconfigwidget.ui:325
+msgid "Index Source Code"
+msgstr "索引源代码"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonAdvancedFileIndexing)
+#: nepomukconfigwidget.ui:347
+msgid "Advanced"
+msgstr "高级"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonCustomizeIndexFolders)
+#: nepomukconfigwidget.ui:354
+msgid "Customize Folders"
+msgstr "自定义索引文件夹"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: nepomukconfigwidget.ui:365
+msgid "Removable media handling:"
+msgstr "可移动介质处理："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, m_comboRemovableMediaHandling)
+#: nepomukconfigwidget.ui:381
+msgctxt "@info:tooltip"
+msgid "Indexing of files on removable media"
+msgstr "对可移动介质上的文件进行索引"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, m_comboRemovableMediaHandling)
+#: nepomukconfigwidget.ui:387
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Nepomuk can index files on removable devices like USB keys or external "
+"hard-disks for fast desktop searches.</para>\n"
+"<para>By default no files are indexed. Here this behaviour can be changed to "
+"one of two options:</para>\n"
+"<para><list><item><interface>Index files on all removable devices</"
+"interface> - Files on removable media are indexed as soon as the medium is "
+"mounted. Caution: this does not include media which have been rejected via "
+"the second option.</item>\n"
+"<item><interface>Ask individually when newly mounted</interface> - The user "
+"will be asked to decide if files on the newly mounted medium should be "
+"indexed or not. Once decided Nepomuk will not ask again.</item></list></para>"
+msgstr ""
+"<para>Nepomuk 可以索引可移动设备上的文件，例如U盘和外部的硬盘，从而加快桌面搜"
+"索。</para>\n"
+"<para>默认情况下没有文件被索引了。有以下两个可选行为：</para>\n"
+"<para><list><item><interface>对所有可移动介质上的文件进行索引</interface> - "
+"可移动介质上的文件将在挂载时立刻被索引。注意：这不包括已经被第二个选项排除的"
+"介质。</item>\n"
+"<item><interface>新挂载时询问</interface> - 用户将被询问是否这个新挂载的介质"
+"应当被索引。一旦决定后Nepomuk 将不再询问。</item></list></para>"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_comboRemovableMediaHandling)
+#: nepomukconfigwidget.ui:391
+msgid "Ignore all removable media"
+msgstr "忽略所有可移动介质"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_comboRemovableMediaHandling)
+#: nepomukconfigwidget.ui:396
+msgid "Index files on all removable devices"
+msgstr "对所有可移动介质上的文件进行索引"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_comboRemovableMediaHandling)
+#: nepomukconfigwidget.ui:401
+msgid "Ask individually when newly mounted"
+msgstr "新挂载时询问"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: nepomukconfigwidget.ui:428
+msgid "Backup"
+msgstr "备份"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: nepomukconfigwidget.ui:434
+msgid "Automatic Backups"
+msgstr "自动备份"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: nepomukconfigwidget.ui:440
+msgctxt "@info"
+msgid ""
+"Nepomuk can perform regular automatic backups of all data that could not be "
+"restored otherwise. This includes manually created tags, ratings, but also "
+"statistical data."
+msgstr ""
+"Nepomuk 可以为不能恢复的数据自动创建备份。备份包括手动创建的标签，评分，和统"
+"计信息。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: nepomukconfigwidget.ui:452
+msgid "Backup frequency:"
+msgstr "备份频度："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, m_comboBackupFrequency)
+#: nepomukconfigwidget.ui:462
+msgid "How often should a backup of the Nepomuk database be created"
+msgstr "Nepomuk 数据库的备份创建频率"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: nepomukconfigwidget.ui:469
+msgid "Backup Time:"
+msgstr "备份时间："
+
+#. i18n: ectx: property (toolTip), widget (QTimeEdit, m_editBackupTime)
+#: nepomukconfigwidget.ui:484
+msgid "When should the backup be created"
+msgstr "何时应当创建备份"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: nepomukconfigwidget.ui:493
+msgid "Max number of backups:"
+msgstr "最大备份数："
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, m_spinBackupMax)
+#: nepomukconfigwidget.ui:505
+msgid "How many previous backups should be kept"
+msgstr "需要保留几个之前的备份"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
+#: nepomukconfigwidget.ui:535
+msgid "Tools"
+msgstr "工具"
+
+#. i18n: ectx: property (text), widget (KPushButton, m_buttonManualBackup)
+#: nepomukconfigwidget.ui:541
+msgid "Manual Backup..."
+msgstr "手动备份..."
+
+#. i18n: ectx: property (text), widget (KPushButton, m_buttonRestoreBackup)
+#: nepomukconfigwidget.ui:548
+msgid "Restore Backup..."
+msgstr "还原备份..."
+
+#: nepomukserverkcm.cpp:104
+msgid "Desktop Search Configuration Module"
+msgstr "桌面搜索配置模块"
+
+#: nepomukserverkcm.cpp:106
+msgid "Copyright 2007-2010 Sebastian Trüg"
+msgstr "Copyright 2007-2010 Sebastian Trüg"
+
+#: nepomukserverkcm.cpp:107
+msgid "Sebastian Trüg"
+msgstr "Sebastian Trüg"
+
+#: nepomukserverkcm.cpp:166
+msgctxt "@item:inlistbox"
+msgid "Disable Automatic Backups"
+msgstr "禁用自动备份"
+
+#: nepomukserverkcm.cpp:167
+msgctxt "@item:inlistbox"
+msgid "Daily Backup"
+msgstr "每天备份"
+
+#: nepomukserverkcm.cpp:168
+msgctxt "@item:inlistbox"
+msgid "Weekly Backup"
+msgstr "每周备份"
+
+#: nepomukserverkcm.cpp:199
+msgid ""
+"The Nepomuk installation is not complete. No desktop search settings can be "
+"provided."
+msgstr "Nepomuk 安装不完整。无桌面搜索设置可提供。"
+
+#: nepomukserverkcm.cpp:413
+msgid ""
+"Failed to start the desktop search service (Nepomuk). The settings have been "
+"saved and will be used the next time the server is started."
+msgstr "桌面搜索服务(Nepomuk)启动失败。设置已保存并将在下一次服务启动时应用。"
+
+#: nepomukserverkcm.cpp:415
+msgid "Desktop search service not running"
+msgstr "桌面搜索服务未运行。"
+
+#: nepomukserverkcm.cpp:453
+msgctxt "@info:status"
+msgid "Desktop search services are active"
+msgstr "桌面搜索服务已激活"
+
+#: nepomukserverkcm.cpp:456
+msgctxt "@info:status"
+msgid "Desktop search services are disabled"
+msgstr "桌面搜索服务已禁用"
+
+#: nepomukserverkcm.cpp:477
+#, kde-format
+msgctxt "@info:status %1 is an error message returned by a dbus interface."
+msgid "Failed to contact File Indexer service (%1)"
+msgstr "与文件索引器服务通讯失败(%1)"
+
+#: nepomukserverkcm.cpp:488
+msgctxt "@info:status"
+msgid ""
+"File indexing service failed to initialize, most likely due to an "
+"installation problem."
+msgstr "文件索引服务初始化失败，很有可能是因为安装问题。"
+
+#: nepomukserverkcm.cpp:493
+msgctxt "@info:status"
+msgid "File indexing service not running."
+msgstr "文件索引服务未运行。"
+
+#: nepomukserverkcm.cpp:500
+msgctxt "Resumes the Nepomuk file indexing service."
+msgid "Resume"
+msgstr "恢复"
+
+#: nepomukserverkcm.cpp:504
+msgctxt "Suspends the Nepomuk file indexing service."
+msgid "Suspend"
+msgstr "挂起"
+
+#: nepomukserverkcm.cpp:536
+#, kde-format
+msgctxt "<status string> (<percentage>%)"
+msgid "%1 (%2%)"
+msgstr "%1 (%2%)"
+
+#: nepomukserverkcm.cpp:540
+#, fuzzy, kde-format
+#| msgctxt "@info:status %1 is an error message returned by a dbus interface."
+#| msgid "Failed to contact Email Indexer service (%1)"
+msgctxt "@info:status %1 is an error message returned by a dbus interface."
+msgid "Failed to contact PIM Data Indexer service (%1)"
+msgstr "与邮件索引器服务通讯失败(%1)"
+
+#: nepomukserverkcm.cpp:549
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Email Indexing service is suspended"
+msgctxt "@info:status"
+msgid "PIM Data Indexing service is suspended"
+msgstr "邮件索引器已经挂起"
+
+#: nepomukserverkcm.cpp:553
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Email indexing service not running."
+msgctxt "@info:status"
+msgid "PIM Data indexing service not running."
+msgstr "邮件索引服务未运行。"
+
+#: nepomukserverkcm.cpp:560
+msgid "Resume"
+msgstr "恢复"
+
+#: nepomukserverkcm.cpp:588
+#, kde-format
+msgid "1 existing backup"
+msgid_plural "%1 existing backups"
+msgstr[0] "%1 个已有备份"
+
+#: nepomukserverkcm.cpp:592
+#, kde-format
+msgctxt ""
+"@info %1 is the creation date of a backup formatted vi KLocale::"
+"formatDateTime"
+msgid "Oldest: %1"
+msgstr "最旧：%1"
+
+#~ msgid "Folders to index"
+#~ msgstr "索引文件夹"
+
+#~ msgid "Advanced Settings"
+#~ msgstr "高级设置"
+
+#~ msgid "Memory Usage"
+#~ msgstr "内存使用量"
+
+#~ msgid ""
+#~ "<p>The maximum amount of main memory the Nepomuk system should use for "
+#~ "its database process. The more memory is available to Nepomuk the better "
+#~ "will be its performance. (The Nepomuk database process shows up as "
+#~ "<command>virtuoso-t</command> in the process manager.)"
+#~ msgstr ""
+#~ "<p>可分配给 Nepomuk 系统的数据库进程的最大内存用量。提供的内存量越大，"
+#~ "Nepomuk 的性能就越好(在进程管理器中，Nepomuk 数据库进程显示为 "
+#~ "<command>virtuoso-t</command>)。"
+
+#~ msgid " MiB"
+#~ msgstr " MiB"
+
+#~ msgid "Actions"
+#~ msgstr "动作"
+
+#~ msgid "Check for New Files"
+#~ msgstr "检查新文件"
+
+#, fuzzy
+#~| msgid "File Indexing"
+#~ msgid "Clear Index"
+#~ msgstr "文件索引"
+
+#~ msgid "1 file in index"
+#~ msgid_plural "%1 files in index"
+#~ msgstr[0] "%1 个文件索引中"
+
+#~ msgid "File indexing service not running"
+#~ msgstr "文件索引服务未运行。"
+
+#~ msgctxt "Suspends the Nepomuk file indexing service."
+#~ msgid "Suspend File Indexing"
+#~ msgstr "挂起文件索引操作"
+
+#~ msgctxt "Resumes the Nepomuk file indexing service."
+#~ msgid "Resume File Indexing"
+#~ msgstr "恢复文件索引"
+
+#~ msgid "Nepomuk Repository Details"
+#~ msgstr "Nepomuk 仓库细节"
+
+#~ msgid "Indexed files:"
+#~ msgstr "已索引文件："
+
+#~ msgid "Configure"
+#~ msgstr "配置"
+
+#~ msgid "Status of the KDE metadata store"
+#~ msgstr "KDE 元数据存储状态"
+
+#~ msgid "Desktop Query"
+#~ msgstr "桌面查询"
+
+#~ msgid "Customize index folders..."
+#~ msgstr "自定义索引文件夹..."
+
+#~ msgid "Query Base Folder Listing"
+#~ msgstr "查询根目录列出项"
+
+#~ msgid ""
+#~ "Please choose what should be listed in the Desktop Query root folder "
+#~ "besides the history and the saved queries."
+#~ msgstr "请选择除了历史查询和已保存查询之外需要在桌面搜索根目录列出的查询。"
+
+#~ msgid "Show the latest never opened files"
+#~ msgstr "显示最新的未打开过的文件。"
+
+#~ msgid "Never opened"
+#~ msgstr "从未打开过的"
+
+#~ msgid "Tries to show the most important files."
+#~ msgstr "显示最重要的文件。"
+
+#~ msgid "Most important files"
+#~ msgstr "最重要的文件"
+
+#~ msgid "Show the most recently modified files."
+#~ msgstr "显示最近修改的文件。"
+
+#~ msgid "Last modified files"
+#~ msgstr "最后修改的文件"
+
+#~ msgid "Specify the query that should be listed."
+#~ msgstr "指定列出的查询。"
+
+#~ msgid "Custom query"
+#~ msgstr "自定义查询"
+
+#~ msgid "Edit..."
+#~ msgstr "编辑..."
+
+#~ msgid ""
+#~ "Specify the maximum number of results that should be listed in query "
+#~ "folders."
+#~ msgstr "指定查询文件夹中列出的最大结果个数。"
+
+#~ msgid "Maximum number of results in listing:"
+#~ msgstr "列出的最大结果个数："
+
+#~ msgid "Show all results"
+#~ msgstr "显示全部结果"
+
+#~ msgctxt "'Home' as in 'Home path', i.e. /home/username"
+#~ msgid "Home"
+#~ msgstr "主文件夹"
+
+#~ msgid "<strong><filename>%1</filename></strong>"
+#~ msgstr "<strong><filename>%1</filename></strong>"
+
+#~ msgid "some subfolders excluded"
+#~ msgstr "排除某些子文件夹"
+
+#~ msgid "Custom root folder query"
+#~ msgstr "自定义根文件夹查询"
+
+#~ msgid "Please enter a query to be listed in the root folder"
+#~ msgstr "请输入一个在根目录列出的查询"
+
+#~ msgid "Calculation failed"
+#~ msgstr "计算失败"
+
+#~ msgid "Nepomuk store size:"
+#~ msgstr "Nepomuk 存储量："
+
+#~ msgid "Strigi Index Folders"
+#~ msgstr "Strigi 索引文件夹"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Monthly Backup"
+#~ msgstr "每月备份"
+
+#~ msgid "Nepomuk server not running"
+#~ msgstr "Nepomuk 服务未运行"
+
+#~ msgctxt "@info:status"
+#~ msgid "Nepomuk system is active"
+#~ msgstr "Nepomuk 系统活动中"
+
+#~ msgctxt "@info:status"
+#~ msgid "Nepomuk system is inactive"
+#~ msgstr "Nepomuk 系统不活动"
+
+#~ msgid "KSqueezedTextLabel"
+#~ msgstr "KSqueezedTextLabel"
+
+#~ msgid ""
+#~ "Index the files on removable media like USB sticks when they are mounted"
+#~ msgstr "在 USB 等可移动介质挂载时索引上面的文件"
+
+#, fuzzy
+#~| msgid "KSqueezedTextLabel"
+#~ msgid "TextLabel"
+#~ msgstr "KSqueezedTextLabel"
+
+#~ msgid "Search excerpt: %1"
+#~ msgstr "搜索引用：%1"
+
+#~ msgid "Query folder"
+#~ msgstr "查询文件夹"
+
+#~ msgid ""
+#~ "The Nepomuk system is not activated. Unable to answer queries without it."
+#~ msgstr "Nepomuk 系统未激活，无法响应查询。"
+
+#~ msgid ""
+#~ "The Nepomuk query service is not running. Unable to answer queries "
+#~ "without it."
+#~ msgstr "Nepomuk 查询服务未运行，无法响应查询。"
+
+#~ msgid "Saved Query"
+#~ msgstr "保存的查询"
+
+#~ msgctxt ""
+#~ "Month and year used in a tree above the actual days. Have a look at "
+#~ "http://api.kde.org/4.x-api/kdelibs-apidocs/kdecore/html/"
+#~ "classKCalendarSystem.html#a560204439a4b670ad36c16c404f292b4 to see which "
+#~ "variables you can use and ask kde-i18n-doc@kde.org if you have problems "
+#~ "understanding how to translate this"
+#~ msgid "%B %Y"
+#~ msgstr "%B %Y"
+
+#~ msgid ""
+#~ "The Nepomuk Strigi file indexing service is not running. Without it "
+#~ "timeline results are not available."
+#~ msgstr "Nepomuk Strigi 文件索引器服务未运行。不运行会导致时间线结果不可用。"
+
+#~ msgid "Today"
+#~ msgstr "今天"
+
+#~ msgid "Calendar"
+#~ msgstr "日历"
+
+#~ msgctxt ""
+#~ "%1 is a filename of a file on a removable device, %2 is the name of the "
+#~ "removable medium which often is something like 'X GiB Removable Media."
+#~ msgid "%1 (on unmounted medium <resource>%2</resource>)"
+#~ msgstr "%1(在未挂载的介质 <resource>%2</resource> 上)"
+
+#~ msgid "Things tagged '%1'"
+#~ msgstr "内容已标记为“%1”"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "Please insert the removable medium <resource>%1</resource> to access this "
+#~ "file."
+#~ msgstr "请插入可移动设备 <resource>%1</resource> 来访问此文件。"
+
+#~ msgid ""
+#~ "Do you really want to delete the resource and all relations to and from "
+#~ "it?"
+#~ msgstr "您想要删除此资源及其所有关联信息吗？"
+
+#~ msgid "Delete Resource"
+#~ msgstr "删除资源"
+
+#~ msgid "Resource does not exist"
+#~ msgstr "资源不存在"
+
+#~ msgid "Relations:"
+#~ msgstr "关联："
+
+#~ msgid "Backlinks:"
+#~ msgstr "反向链接："
+
+#~ msgid "Delete resource"
+#~ msgstr "删除资源"
+
+#~ msgid "Hide URIs"
+#~ msgstr "隐藏 URI"
+
+#~ msgid "Show URIs"
+#~ msgstr "显示 URI"
+
+#~ msgctxt "@info:status"
+#~ msgid "Strigi is currently indexing files"
+#~ msgstr "Strigi 正在执行文件索引工作"
+
+#~ msgctxt "@info:status"
+#~ msgid "Strigi is currently indexing files in folder %1"
+#~ msgstr "Strigi 正在文件夹 %1 下执行文件索引工作"
+
+#~ msgctxt "@info:status"
+#~ msgid "File indexer is idle"
+#~ msgstr "文件索引器现在空闲"
+
+#~ msgid "Indexing files for fast searching. This process may take a while."
+#~ msgstr "对文件进行索引可以加快搜索速度，这会花费一些时间。"
+
+#~ msgid "Resuming indexing of files for fast searching."
+#~ msgstr "恢复文件索引操作。"
+
+#~ msgid "Suspending the indexing of files to preserve resources."
+#~ msgstr "正在挂起 Strigi 文件索引操作以释放资源。"
+
+#~ msgid "Disk space is running low (%1 left). Suspending indexing of files."
+#~ msgstr "磁盘空间不足(剩余 %1)。正在挂起 Strigi 文件索引操作。"
+
+#~ msgctxt ""
+#~ "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
+#~ msgid "Initial indexing of files for fast searching finished in %1"
+#~ msgstr "初始化文件索引操作将在 %1 后完成"
+
+#~ msgctxt "@info - notification message"
+#~ msgid ""
+#~ "Nepomuk Semantic Desktop needs the Virtuoso RDF server to store its data. "
+#~ "Installing the Virtuoso Soprano plugin is mandatory for using Nepomuk."
+#~ msgstr ""
+#~ "Nepomuk 语义桌面需要 Virtuoso RDF 服务器来存储数据。如果您要使用 Nepomuk，"
+#~ "必须安装 Virtuoso Soprano 插件。"
+
+#~ msgctxt "@info - notification message"
+#~ msgid ""
+#~ "Nepomuk Semantic Desktop needs the Virtuoso RDF server to store its data. "
+#~ "Installing the Virtuoso server and ODBC driver is mandatory for using "
+#~ "Nepomuk."
+#~ msgstr ""
+#~ "Nepomuk 语义桌面需要 Virtuoso RDF 服务器来存储数据。如果您要使用 Nepomuk，"
+#~ "必须安装 Virtuoso Soprano 插件和 ODBC 驱动。"
+
+#~ msgctxt "@info - notification message"
+#~ msgid ""
+#~ "Nepomuk was not able to find the configured database backend '%1'. "
+#~ "Existing data can thus not be accessed. For data security reasons Nepomuk "
+#~ "will be disabled until the situation has been resolved manually."
+#~ msgstr ""
+#~ "Nepomuk 找不到已配置的数据库后端“%1”，因此无法访问现存的数据。为数据安全考"
+#~ "虑，在您手动解决此现象前 Nepomuk 服务会被暂时禁用。"
+
+#~ msgctxt "@info - notification message"
+#~ msgid "Converting Nepomuk data to a new backend. This might take a while."
+#~ msgstr "正在转换 Nepomuk 数据至新后端。这需要一些时间。"
+
+#~ msgctxt "@info - notification message"
+#~ msgid ""
+#~ "Converting Nepomuk data to the new backend failed. For data security "
+#~ "reasons Nepomuk will be disabled until the situation has been resolved "
+#~ "manually."
+#~ msgstr ""
+#~ "转换 Nepomuk 数据至新后端失败。为保证数据安全，在您手动解决此现象前 "
+#~ "Nepomuk 服务会被暂时禁用。"
+
+#~ msgctxt "@info - notification message"
+#~ msgid "Successfully converted Nepomuk data to the new backend."
+#~ msgstr "成功转换 Nrpomuk 数据至新后端。"
+
+#~ msgctxt "@title job"
+#~ msgid "Converting Nepomuk database"
+#~ msgstr "正在转换 Nepomuk 数据库"
+
+#~ msgid "Old backend"
+#~ msgstr "旧后端"
+
+#~ msgid "New backend"
+#~ msgstr "新后端"
+
+#~ msgid "Parsing of file %1 failed (%2)"
+#~ msgstr "解析文件 %1 失败(%2)"
+
+#~ msgid "Invalid desktop query: '%1'"
+#~ msgstr "无效的桌面查询：“%1”"
+
+#~ msgid "Invalid SPARQL query: '%1'"
+#~ msgstr "无效的 SPARQL 查询：“%1”"
+
+#, fuzzy
+#~| msgid "Nepomuk Semantic Desktop"
+#~ msgid "Nepomuk Backup"
+#~ msgstr "Nepomuk 语义学桌面"
+
+#~ msgid "Maintainer"
+#~ msgstr "维护者"
+
+#, fuzzy
+#~| msgid ""
+#~| "The Nepomuk query service is not running. Unable to answer queries "
+#~| "without it."
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The Nepomuk backup service does not seem to be running. Backups cannot be "
+#~ "handled without it."
+#~ msgstr "Nepomuk 查询服务未运行，无法响应查询。"
+
+#~ msgid "Nepomuk Server"
+#~ msgstr "Nepomuk 服务器"
+
+#~ msgid "Nepomuk Server - Manages Nepomuk storage and services"
+#~ msgstr "Nepomuk 服务器 - 管理 Nepomuk 存储介质和服务"
+
+#~ msgid "(c) 2008, Sebastian Trüg"
+#~ msgstr "(c) 2008，Sebastian Trüg"
+
+#~ msgid "Nepomuk Service Stub"
+#~ msgstr "Nepomuk 服务桩"
+
+#~ msgctxt "@info:shell"
+#~ msgid "Service to start"
+#~ msgstr "开始服务"
+
+#~ msgid "No service name specified"
+#~ msgstr "未指定服务名称"
+
+#~ msgid "Unknown service name:"
+#~ msgstr "未知的服务名称："
+
+#, fuzzy
+#~| msgctxt "@title job"
+#~| msgid "Converting Nepomuk database"
+#~ msgid "Restore Nepomuk Database"
+#~ msgstr "正在转换 Nepomuk 数据库"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "杂项"
+
+#~ msgid "Suspend or resume the file indexer manually"
+#~ msgstr "手动挂起或恢复 Strigi 文件索引器"
+
+#~ msgid "Configure File Indexer"
+#~ msgstr "配置文件索引器"
+
+#~ msgid ""
+#~ "No Soprano Database backend available. Please check your installation."
+#~ msgstr "没有可用的 Soprano 数据库后端，请检查您的安装。"
+
+#~ msgid "Nepomuk cannot be started"
+#~ msgstr "无法启动 Nepomuk"
+
+#~ msgid ""
+#~ "The Nepomuk Server is not running. The settings will be used the next "
+#~ "time the server is started."
+#~ msgstr "Nepomuk 服务器模块未运行。设置将在下一次服务启动时应用。"
+
+#~ msgid "Nepomuk Strigi File Indexing"
+#~ msgstr "Nepomuk Strigi 文件索引器"
+
+#~ msgid "Strigi Indexing State"
+#~ msgstr "Strigi 索引状态"
+
+#~ msgid "Nepomuk Storage State"
+#~ msgstr "Nepomuk 存储状态"
+
+#~ msgid "Filters which define the files that Strigi should ignore"
+#~ msgstr "用于定义 Strigi 应忽略文件的过滤规则"
+
+#~ msgctxt ""
+#~ "@title UDS_DISPLAY_NAME for a KIO directory listing. %1 is the query the "
+#~ "user entered."
+#~ msgid "Query Results from '%1'"
+#~ msgstr "从“%1”查询结果"
+
+#~ msgid "Query Results"
+#~ msgstr "查询结果"

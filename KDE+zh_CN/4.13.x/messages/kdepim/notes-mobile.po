@@ -1,0 +1,388 @@
+# translation of knotes.po to zh_CN
+# translation of knotes.po to Simplified Chinese
+# Copyright (C) 2002,2003 Free Software Foundation, Inc.
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998
+# Funda Wang <fundawang@linux.net.cn>, 2002, 2003
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003
+# Lie Ex <lilith.ex@gmail.com>, 2007-2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: knotes\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-24 01:33+0000\n"
+"PO-Revision-Date: 2010-07-14 15:47+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: BulkActionComponent.qml:34
+#, fuzzy
+#| msgid "Add Notebook"
+msgid "1 note book"
+msgid_plural "%1 note books"
+msgstr[0] "添加便笺簿"
+
+#: main.cpp:37
+msgid "Kontact Touch Notes"
+msgstr ""
+
+#: mainview.cpp:68 NoteActions.qml:120
+#, fuzzy
+#| msgid "Notebooks"
+msgid "Notes"
+msgstr "便笺簿"
+
+#: mainview.cpp:79 notes.qml:175
+#, fuzzy
+#| msgid "Write new Note"
+msgid "New Note"
+msgstr "新建便笺"
+
+#: mainview.cpp:83 notesimporthandler.cpp:54
+msgid "Import Notes"
+msgstr ""
+
+#: mainview.cpp:87
+msgid "Export Notes From This Account"
+msgstr ""
+
+#: mainview.cpp:91
+msgid "Export Displayed Notes"
+msgstr ""
+
+#: mainview.cpp:306
+msgid ""
+"You do not appear to have any resources for notes. Please create one first."
+msgstr ""
+
+#: mainview.cpp:307
+msgid "No resources available"
+msgstr ""
+
+#: mainview.cpp:333
+msgid "Notebook Properties"
+msgstr ""
+
+#: mainview.cpp:334
+#, fuzzy
+#| msgid "Write new Note"
+msgid "New Sub Notebook"
+msgstr "新建便笺"
+
+#: mainview.cpp:336
+#, fuzzy
+#| msgid "No notes in this notebook"
+msgid "Synchronize This Notebook"
+msgid_plural "Synchronize These Notebooks"
+msgstr[0] "此便笺簿中没有便笺"
+
+#: mainview.cpp:337
+#, fuzzy
+#| msgid "Add Notebook"
+msgid "Delete Notebook"
+msgid_plural "Delete Notebooks"
+msgstr[0] "添加便笺簿"
+
+#: mainview.cpp:338
+#, fuzzy
+#| msgid "Write new Note"
+msgid "Move Notebook To"
+msgstr "新建便笺"
+
+#: mainview.cpp:339
+#, fuzzy
+#| msgid "Write new Note"
+msgid "Copy Notebook To"
+msgstr "新建便笺"
+
+#: mainview.cpp:340
+msgid "Copy Note To"
+msgstr ""
+
+#: mainview.cpp:341
+#, fuzzy
+#| msgid "Write new Note"
+msgid "Move Note To"
+msgstr "新建便笺"
+
+#: mainview.cpp:342
+#, fuzzy
+#| msgid "Select"
+msgid "Delete Note"
+msgid_plural "Delete Notes"
+msgstr[0] "选择"
+
+#: mainview.cpp:344
+msgid "Synchronize All Accounts"
+msgstr ""
+
+#: mainview.cpp:352
+#, fuzzy
+#| msgid "New Note"
+msgctxt "@title:window"
+msgid "New Account"
+msgstr "新建便笺"
+
+#: mainview.cpp:354
+#, kde-format
+msgid "Could not create account: %1"
+msgstr ""
+
+#: mainview.cpp:356
+msgid "Account creation failed"
+msgstr ""
+
+#: mainview.cpp:359
+msgctxt "@title:window"
+msgid "Delete Account?"
+msgstr ""
+
+#: mainview.cpp:361
+msgid "Do you really want to delete the selected account?"
+msgstr ""
+
+#: NoteActions.qml:38
+msgid "Home"
+msgstr ""
+
+#: NoteActions.qml:40
+msgid "Select Multiple Notebooks"
+msgstr ""
+
+#: NoteActions.qml:49
+#, fuzzy
+#| msgid "Actions"
+msgid "Accounts"
+msgstr "动作"
+
+#: NoteActions.qml:57
+msgid "Account"
+msgstr ""
+
+#: NoteActions.qml:67
+msgid "Folder"
+msgstr ""
+
+#: NoteActions.qml:75 NoteActions.qml:111
+msgid "Edit"
+msgstr ""
+
+#: NoteActions.qml:86 NoteActions.qml:102
+msgid "View"
+msgstr ""
+
+#: NoteActions.qml:87 NoteActions.qml:103
+msgid "Add View As Favorite"
+msgstr ""
+
+#: NoteActions.qml:88 NoteActions.qml:105
+msgid "Switch To Editing Mode"
+msgstr ""
+
+#: NoteActions.qml:94
+msgid "Folders"
+msgstr ""
+
+#: NoteActions.qml:104
+#, fuzzy
+#| msgid "Select"
+msgid "Select Notebooks"
+msgstr "选择"
+
+#: notes.qml:129
+#, fuzzy
+#| msgid ""
+#| "You have selected \n"
+#| "%1 folders\n"
+#| "from %2 accounts\n"
+#| "%3 notes"
+msgctxt "%1 is e.g. 3 folders, %2 is e.g. from 2 accounts, %3 is e.g. 9 emails"
+msgid ""
+"You have selected \n"
+"%1\n"
+"%2\n"
+"%3"
+msgstr ""
+"您已经从\n"
+"账户 %2 中选择了\n"
+"%1 个文件夹共 %3 个便笺"
+
+#: notes.qml:130
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] ""
+
+#: notes.qml:131
+msgid "from 1 account"
+msgid_plural "from %1 accounts"
+msgstr[0] ""
+
+#: notes.qml:132
+#, fuzzy
+#| msgid "Add Notebook"
+msgid "1 note"
+msgid_plural "%1 notes"
+msgstr[0] "添加便笺簿"
+
+#: notes.qml:149
+msgid "Select"
+msgstr "选择"
+
+#: notes.qml:149
+msgid "Change Selection"
+msgstr "更改选择范围"
+
+#: notes.qml:193
+msgid "No notes in this notebook"
+msgstr "此便笺簿中没有便笺"
+
+#: notes.qml:259
+msgid "Actions"
+msgstr "动作"
+
+#: notes.qml:346
+msgid "One note found"
+msgid_plural "%1 notes found"
+msgstr[0] ""
+
+#: notesexporthandler.cpp:30
+msgid "Which notes shall be exported?"
+msgstr ""
+
+#: notesexporthandler.cpp:35
+#, fuzzy
+#| msgid "Notebooks"
+msgid "All Notes"
+msgstr "便笺簿"
+
+#: notesexporthandler.cpp:40
+msgid "Notes in current folder"
+msgstr ""
+
+#: notesexporthandler.cpp:63
+#, kde-format
+msgid "Unable to open MBox file %1"
+msgstr ""
+
+#: notesexporthandler.cpp:72
+#, kde-format
+msgid "Unable to save notes to MBox file %1"
+msgstr ""
+
+#: notesimporthandler.cpp:34
+msgid "Select MBox to Import"
+msgstr ""
+
+#: notesimporthandler.cpp:39
+msgid "Select the folder the imported note(s) shall be saved in:"
+msgstr ""
+
+#: notesimporthandler.cpp:44
+#, fuzzy
+#| msgid "Select"
+msgid "Select Folder"
+msgstr "选择"
+
+#: notesimporthandler.cpp:49
+#, kde-format
+msgid "Importing one note to %2"
+msgid_plural "Importing %1 notes to %2"
+msgstr[0] ""
+
+#: notesimporthandler.cpp:84
+msgid "MBox Import Failed"
+msgstr ""
+
+#: notesimporthandler.cpp:86
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>When trying to read the MBox, there was an error opening the file "
+"<filename>%1</filename>:</para>"
+msgstr ""
+
+#: notesimporthandler.cpp:95
+msgid "No notes were imported, due to errors with the MBox."
+msgstr ""
+
+#: notesimporthandler.cpp:97
+msgid "The MBox does not contain any notes."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: searchwidget.ui:20
+msgid "Search for:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: searchwidget.ui:34
+msgid "In:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, inTitles)
+#: searchwidget.ui:56
+#, fuzzy
+#| msgid "Title: %1"
+msgid "Titles"
+msgstr "标题：%1"
+
+#. i18n: ectx: property (text), widget (QCheckBox, inContents)
+#: searchwidget.ui:63
+#, fuzzy
+#| msgid "Content: %1"
+msgid "Contents"
+msgstr "内容：%1"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: searchwidget.ui:73
+msgid "Located in:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, locatedInAnyCollection)
+#: searchwidget.ui:95
+msgid "any folder"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, locatedInSpecificCollection)
+#: searchwidget.ui:105
+msgid "only in folder"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Delete"
+#~ msgstr "选择"
+
+#~ msgid "Notes Mobile"
+#~ msgstr "手机便笺"
+
+#, fuzzy
+#~| msgid "Notebooks"
+#~ msgid "KDE Notes"
+#~ msgstr "便笺簿"
+
+#, fuzzy
+#~| msgid "Write new Note"
+#~ msgid "Writes new Note"
+#~ msgstr "新建便笺"
+
+#, fuzzy
+#~| msgid "Notebooks"
+#~ msgid "KJots"
+#~ msgstr "便笺簿"
+
+#~ msgid "Notes start page"
+#~ msgstr "便笺开始页"

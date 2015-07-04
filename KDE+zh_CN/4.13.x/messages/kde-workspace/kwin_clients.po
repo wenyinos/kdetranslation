@@ -1,0 +1,960 @@
+#
+# Funda Wang <fundawang@linux.net.cn>, 2008.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010, 2012.
+# Lie Ex <lilith.ex@gmail.com>, 2008-2010.
+# FengChao <rainofchaos@gmail.com>, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kwin_clients\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-31 01:47+0000\n"
+"PO-Revision-Date: 2013-01-14 00:44-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PlastikConfigDialog)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:14
+msgid "Config Dialog"
+msgstr "配置对话框"
+
+#. i18n: ectx: property (title), widget (KButtonGroup, titleAlign)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:23
+msgid "Title &Alignment"
+msgstr "标题排列(&A)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, titleAlignment)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignLeft)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:29
+#: oxygen/config/ui/oxygenconfigurationui.ui:115
+msgid "Left"
+msgstr "左"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, titleAlignment)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignCenter)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:36
+#: oxygen/config/ui/oxygenconfigurationui.ui:120
+msgid "Center"
+msgstr "居中"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, titleAlignment)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignRight)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:43
+#: oxygen/config/ui/oxygenconfigurationui.ui:130
+msgid "Right"
+msgstr "右"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_coloredBorder)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:53
+msgid ""
+"Check this option if the window border should be painted in the titlebar "
+"color. Otherwise it will be painted in the background color."
+msgstr "选中时，窗口边框会使用标题栏颜色绘制。否则，将使用背景颜色绘制。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_coloredBorder)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:56
+msgid "Colored window border"
+msgstr "对窗口边框着色"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_titleShadow)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:66
+msgid ""
+"Check this option if you want the titlebar text to have a 3D look with a "
+"shadow behind it."
+msgstr "如果您想要让标题栏文字的后面有立体效果的阴影，请选中此选项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_titleShadow)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:69
+msgid "Use shadowed &text"
+msgstr "使用带阴影的文字(&T)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_animateButtons)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:76
+msgid ""
+"Check this option if you want the buttons to fade in when the mouse pointer "
+"hovers over them and fade out again when it moves away."
+msgstr ""
+"如果您想要当鼠标指针移入或移出按钮的时候显示淡入淡出的效果，请选中此选项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_animateButtons)
+#: aurorae/themes/plastik/package/contents/ui/config.ui:79
+msgid "Animate buttons"
+msgstr "动画按钮"
+
+#: oxygen/config/oxygenanimationconfigwidget.cpp:48
+msgid "Button mouseover transition"
+msgstr "鼠标划过按钮时的变换"
+
+#: oxygen/config/oxygenanimationconfigwidget.cpp:49
+msgid "Configure window buttons' mouseover highlight animation"
+msgstr "配置鼠标滑过按钮时的加亮动画"
+
+#: oxygen/config/oxygenanimationconfigwidget.cpp:52
+msgid "Title transitions"
+msgstr "标题变换"
+
+#: oxygen/config/oxygenanimationconfigwidget.cpp:53
+msgid "Configure fading transitions when window title is changed"
+msgstr "配置窗口标题文字更改时的淡入淡出变换"
+
+#: oxygen/config/oxygenanimationconfigwidget.cpp:56
+msgid "Window active state change transitions"
+msgstr "窗口活动状态变化"
+
+#: oxygen/config/oxygenanimationconfigwidget.cpp:57
+msgid ""
+"Configure fading between window shadow and glow when window's active state "
+"is changed"
+msgstr "配置窗口活动状态更改时窗口阴影的淡入淡出和弹性变换"
+
+#: oxygen/config/oxygenanimationconfigwidget.cpp:60
+msgid "Window grouping animations"
+msgstr "窗口分组动画"
+
+#: oxygen/config/oxygenanimationconfigwidget.cpp:61
+msgid "Configure window titlebar animations when windows are grouped/ungrouped"
+msgstr "配置窗口分组/取消分组时的标题栏动画"
+
+#: oxygen/config/oxygenconfigwidget.cpp:161
+msgid "Hide Advanced Configuration Options"
+msgstr "隐藏高级配置选项"
+
+#: oxygen/config/oxygenconfigwidget.cpp:161
+msgid "Show Advanced Configuration Options"
+msgstr "显示高级配置选项"
+
+#: oxygen/config/oxygenconfigwidget.cpp:178
+msgid "Animations"
+msgstr "动画"
+
+#: oxygen/config/oxygenexceptionlistwidget.cpp:190
+#, fuzzy
+#| msgid "Actions Settings"
+msgid "Question - Oxygen Settings"
+msgstr "动作设置"
+
+#: oxygen/config/oxygenexceptionlistwidget.cpp:190
+msgid "Remove selected exception?"
+msgstr "移除所选例外吗？"
+
+#: oxygen/config/oxygenexceptionlistwidget.cpp:331
+msgid "Warning - Oxygen Settings"
+msgstr ""
+
+#: oxygen/config/oxygenexceptionlistwidget.cpp:331
+msgid "Regular Expression syntax is incorrect"
+msgstr "正则表达式语法错误"
+
+#: oxygen/config/oxygenexceptionmodel.cpp:35
+msgid "Exception Type"
+msgstr "例外类型"
+
+#: oxygen/config/oxygenexceptionmodel.cpp:36
+msgid "Regular Expression"
+msgstr "正则表达式"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, exceptionType)
+#: oxygen/config/oxygenexceptionmodel.cpp:61
+#: oxygen/config/ui/oxygenexceptiondialog.ui:72
+msgid "Window Title"
+msgstr "窗口标题"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, exceptionType)
+#: oxygen/config/oxygenexceptionmodel.cpp:65
+#: oxygen/config/ui/oxygenexceptiondialog.ui:67
+msgid "Window Class Name"
+msgstr "窗口分类名"
+
+#: oxygen/config/oxygenexceptionmodel.cpp:81
+msgid "Enable/disable this exception"
+msgstr "启用/禁用此例外"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: oxygen/config/ui/oxygenconfigurationui.ui:33
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: oxygen/config/ui/oxygenconfigurationui.ui:39
+#, fuzzy
+#| msgid "Border size:"
+msgid "Border si&ze:"
+msgstr "边框尺寸："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
+#: oxygen/config/ui/oxygenconfigurationui.ui:53
+#: oxygen/config/ui/oxygenexceptiondialog.ui:177
+msgctxt "@item:inlistbox Border size:"
+msgid "No Border"
+msgstr "无边框"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
+#: oxygen/config/ui/oxygenconfigurationui.ui:58
+#: oxygen/config/ui/oxygenexceptiondialog.ui:182
+msgctxt "@item:inlistbox Border size:"
+msgid "No Side Borders"
+msgstr "无侧边框"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
+#: oxygen/config/ui/oxygenconfigurationui.ui:63
+#: oxygen/config/ui/oxygenexceptiondialog.ui:187
+msgctxt "@item:inlistbox Border size:"
+msgid "Tiny"
+msgstr "微小"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
+#: oxygen/config/ui/oxygenconfigurationui.ui:68
+#: oxygen/config/ui/oxygenexceptiondialog.ui:192
+msgctxt "@item:inlistbox Border size:"
+msgid "Normal"
+msgstr "普通"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
+#: oxygen/config/ui/oxygenconfigurationui.ui:73
+#: oxygen/config/ui/oxygenexceptiondialog.ui:197
+msgctxt "@item:inlistbox Border size:"
+msgid "Large"
+msgstr "大"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
+#: oxygen/config/ui/oxygenconfigurationui.ui:78
+#: oxygen/config/ui/oxygenexceptiondialog.ui:202
+msgctxt "@item:inlistbox Border size:"
+msgid "Very Large"
+msgstr "非常大"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
+#: oxygen/config/ui/oxygenconfigurationui.ui:83
+#: oxygen/config/ui/oxygenexceptiondialog.ui:207
+msgctxt "@item:inlistbox Border size:"
+msgid "Huge"
+msgstr "巨大"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
+#: oxygen/config/ui/oxygenconfigurationui.ui:88
+#: oxygen/config/ui/oxygenexceptiondialog.ui:212
+msgctxt "@item:inlistbox Border size:"
+msgid "Very Huge"
+msgstr "超大"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
+#: oxygen/config/ui/oxygenconfigurationui.ui:93
+#: oxygen/config/ui/oxygenexceptiondialog.ui:217
+msgctxt "@item:inlistbox Border size:"
+msgid "Oversized"
+msgstr "超特大"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: oxygen/config/ui/oxygenconfigurationui.ui:101
+#, fuzzy
+#| msgid "Title alignment:"
+msgid "Tit&le alignment:"
+msgstr "标题排列："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, titleAlignment)
+#: oxygen/config/ui/oxygenconfigurationui.ui:125
+msgid "Center (Full Width)"
+msgstr "居中(完整宽度)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: oxygen/config/ui/oxygenconfigurationui.ui:151
+#, fuzzy
+#| msgid "Button size:"
+msgid "B&utton size:"
+msgstr "按钮大小："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, buttonSize)
+#: oxygen/config/ui/oxygenconfigurationui.ui:165
+msgctxt "@item:inlistbox Button size:"
+msgid "Small"
+msgstr "小"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, buttonSize)
+#: oxygen/config/ui/oxygenconfigurationui.ui:170
+msgctxt "@item:inlistbox Button size:"
+msgid "Normal"
+msgstr "普通"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, buttonSize)
+#: oxygen/config/ui/oxygenconfigurationui.ui:175
+msgctxt "@item:inlistbox Button size:"
+msgid "Large"
+msgstr "大"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, buttonSize)
+#: oxygen/config/ui/oxygenconfigurationui.ui:180
+msgctxt "@item:inlistbox Button size:"
+msgid "Very Large"
+msgstr "非常大"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, buttonSize)
+#: oxygen/config/ui/oxygenconfigurationui.ui:185
+msgctxt "@item:inlistbox Button size:"
+msgid "Huge"
+msgstr "巨大"
+
+#. i18n: ectx: property (text), widget (QCheckBox, animationsEnabled)
+#: oxygen/config/ui/oxygenconfigurationui.ui:206
+msgid "Enable animations"
+msgstr "启用动画"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: oxygen/config/ui/oxygenconfigurationui.ui:214
+msgid "Fine Tuning"
+msgstr "微调"
+
+#. i18n: ectx: property (text), widget (QCheckBox, closeFromMenuButton)
+#: oxygen/config/ui/oxygenconfigurationui.ui:223
+msgid "Close windows by double clicking the menu button"
+msgstr "双击菜单按钮可关闭窗口"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, separatorComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, separatorMode)
+#: oxygen/config/ui/oxygenconfigurationui.ui:231
+#: oxygen/config/ui/oxygenexceptiondialog.ui:110
+msgid "Never Draw Separator"
+msgstr "不绘制分隔条"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, separatorComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, separatorMode)
+#: oxygen/config/ui/oxygenconfigurationui.ui:236
+#: oxygen/config/ui/oxygenexceptiondialog.ui:115
+msgid "Draw Separator When Window is Active"
+msgstr "窗口活动时绘制分隔条"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, separatorComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, separatorMode)
+#: oxygen/config/ui/oxygenconfigurationui.ui:241
+#: oxygen/config/ui/oxygenexceptiondialog.ui:120
+msgid "Always Draw Separator"
+msgstr "总是绘制分隔条"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: oxygen/config/ui/oxygenconfigurationui.ui:249
+#, fuzzy
+#| msgid "Separator display:"
+msgid "Separator disp&lay:"
+msgstr "分隔条显示："
+
+#. i18n: ectx: property (text), widget (QCheckBox, titleOutline)
+#: oxygen/config/ui/oxygenconfigurationui.ui:262
+msgid "Outline active window title"
+msgstr "活动窗口外框标题"
+
+#. i18n: ectx: property (text), widget (QCheckBox, narrowButtonSpacing)
+#: oxygen/config/ui/oxygenconfigurationui.ui:282
+msgid "Use narrow space between decoration buttons"
+msgstr "在装饰按钮之间显现狭窄的白条"
+
+#. i18n: ectx: property (text), widget (QCheckBox, sizeGripCheckBox)
+#. i18n: ectx: property (text), widget (QCheckBox, drawSizeGrip)
+#: oxygen/config/ui/oxygenconfigurationui.ui:289
+#: oxygen/config/ui/oxygenexceptiondialog.ui:135
+msgid "Add handle to resize windows with no border"
+msgstr "为无边框窗口添加缩放柄"
+
+#. i18n: ectx: property (text), widget (QCheckBox, drawBorderOnMaximizedWindows)
+#: oxygen/config/ui/oxygenconfigurationui.ui:296
+msgid "Display window borders for maximized windows"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: oxygen/config/ui/oxygenconfigurationui.ui:317
+msgid "Shadows"
+msgstr "阴影"
+
+#. i18n: ectx: property (title), widget (Oxygen::ShadowConfigWidget, inactiveShadowConfiguration)
+#: oxygen/config/ui/oxygenconfigurationui.ui:325
+msgid "Window Drop-Down Shadow"
+msgstr "窗口拖痕阴影"
+
+#. i18n: ectx: property (title), widget (Oxygen::ShadowConfigWidget, activeShadowConfiguration)
+#: oxygen/config/ui/oxygenconfigurationui.ui:335
+msgid "Active Window Glow"
+msgstr "最小化窗口"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: oxygen/config/ui/oxygenconfigurationui.ui:361
+msgid "Window-Specific Overrides"
+msgstr "特定窗口优先规则"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, OxygenShadowDemoDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog, OxygenExceptionDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog, OxygenDetectWidget)
+#: oxygen/config/ui/oxygendetectwidget.ui:14
+#: oxygen/config/ui/oxygenexceptiondialog.ui:14
+#: oxygen/demo/ui/oxygenshadowdemo.ui:14
+#, fuzzy
+#| msgid "Config Dialog"
+msgid "Dialog"
+msgstr "配置对话框"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: oxygen/config/ui/oxygendetectwidget.ui:20
+msgid "Information about Selected Window"
+msgstr "所选窗口的信息"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: oxygen/config/ui/oxygendetectwidget.ui:26
+msgid "Class: "
+msgstr "分类："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: oxygen/config/ui/oxygendetectwidget.ui:43
+msgid "Title: "
+msgstr "标题："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: oxygen/config/ui/oxygendetectwidget.ui:63
+msgid "Window Property Selection"
+msgstr "窗口属性选择"
+
+#. i18n: ectx: property (text), widget (QRadioButton, windowClassCheckBox)
+#: oxygen/config/ui/oxygendetectwidget.ui:69
+msgid "Use window class (whole application)"
+msgstr "使用窗口分类(整个程序)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, windowTitleCheckBox)
+#: oxygen/config/ui/oxygendetectwidget.ui:79
+msgid "Use window title"
+msgstr "使用窗口标题"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: oxygen/config/ui/oxygenexceptiondialog.ui:20
+msgid "Window Identification"
+msgstr "窗口标识符"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: oxygen/config/ui/oxygenexceptiondialog.ui:26
+msgid "Matching window property: "
+msgstr "匹配窗口属性："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: oxygen/config/ui/oxygenexceptiondialog.ui:39
+msgid "Regular expression to match: "
+msgstr "匹配正则表达式："
+
+#. i18n: ectx: property (text), widget (QPushButton, detectDialogButton)
+#: oxygen/config/ui/oxygenexceptiondialog.ui:52
+msgid "Detect Window Properties"
+msgstr "检测窗口属性"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: oxygen/config/ui/oxygenexceptiondialog.ui:83
+msgid "Decoration Options"
+msgstr "装饰选项"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, titleOutlineComboBox)
+#: oxygen/config/ui/oxygenexceptiondialog.ui:93
+msgctxt "outline window title"
+msgid "Disabled"
+msgstr "已禁用"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, titleOutlineComboBox)
+#: oxygen/config/ui/oxygenexceptiondialog.ui:98
+msgctxt "outline window title"
+msgid "Enabled"
+msgstr "已启用"
+
+#. i18n: ectx: property (text), widget (QCheckBox, frameBorderCheckBox)
+#: oxygen/config/ui/oxygenexceptiondialog.ui:128
+msgid "Border size:"
+msgstr "边框尺寸："
+
+#. i18n: ectx: property (text), widget (QCheckBox, titleOutlineCheckBox)
+#: oxygen/config/ui/oxygenexceptiondialog.ui:142
+msgid "Outline active window title:"
+msgstr "活动窗口外框标题："
+
+#. i18n: ectx: property (text), widget (QCheckBox, separatorCheckBox)
+#: oxygen/config/ui/oxygenexceptiondialog.ui:149
+msgid "Separator display:"
+msgstr "分隔条显示："
+
+#. i18n: ectx: property (text), widget (QCheckBox, hideTitleBar)
+#: oxygen/config/ui/oxygenexceptiondialog.ui:156
+msgid "Hide window title bar"
+msgstr "隐藏窗口标题栏"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, sizeGripComboBox)
+#: oxygen/config/ui/oxygenexceptiondialog.ui:229
+msgctxt "Add handle to resize windows with no border"
+msgid "Disabled"
+msgstr "已禁用"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, sizeGripComboBox)
+#: oxygen/config/ui/oxygenexceptiondialog.ui:234
+msgctxt "Add handle to resize windows with no border"
+msgid "Enabled"
+msgstr "已启用"
+
+#. i18n: ectx: property (text), widget (QPushButton, moveUpButton)
+#: oxygen/config/ui/oxygenexceptionlistwidget.ui:58
+msgid "Move Up"
+msgstr "上移"
+
+#. i18n: ectx: property (text), widget (QPushButton, moveDownButton)
+#: oxygen/config/ui/oxygenexceptionlistwidget.ui:65
+msgid "Move Down"
+msgstr "下移"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: oxygen/config/ui/oxygenexceptionlistwidget.ui:72
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: oxygen/config/ui/oxygenexceptionlistwidget.ui:79
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: property (text), widget (QPushButton, editButton)
+#: oxygen/config/ui/oxygenexceptionlistwidget.ui:86
+msgid "Edit"
+msgstr "编辑"
+
+#: oxygen/demo/main.cpp:38 oxygen/demo/oxygenshadowdemodialog.cpp:46
+msgid "Oxygen Shadow Demo"
+msgstr "绿氧阴影演示"
+
+#: oxygen/demo/oxygenshadowdemodialog.cpp:63
+msgid "Draw window background"
+msgstr "绘制窗口背景"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: oxygen/demo/ui/oxygenshadowdemo.ui:20
+msgid "Inactive Windows"
+msgstr "非活动窗口"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: oxygen/demo/ui/oxygenshadowdemo.ui:30
+msgid "Active Windows"
+msgstr "活动窗口"
+
+#: oxygen/oxygenclient.cpp:82
+msgid "Oxygen"
+msgstr "Oxygen"
+
+#: oxygen/oxygenclient.cpp:219
+msgid "Window Actions Menu"
+msgstr "窗口动作菜单"
+
+#: oxygen/oxygenclient.cpp:222
+msgid "Application Menu"
+msgstr "应用程序菜单"
+
+#: oxygen/oxygenclient.cpp:225
+msgid "Help"
+msgstr "帮助"
+
+#: oxygen/oxygenclient.cpp:228
+msgid "Minimize"
+msgstr "最小化"
+
+#: oxygen/oxygenclient.cpp:231
+msgid "Maximize"
+msgstr "最大化"
+
+#: oxygen/oxygenclient.cpp:234
+msgid "Close"
+msgstr "关闭"
+
+#: oxygen/oxygenclient.cpp:237
+msgid "Keep Above Others"
+msgstr "常居顶端"
+
+#: oxygen/oxygenclient.cpp:240
+msgid "Keep Below Others"
+msgstr "常居底端"
+
+#: oxygen/oxygenclient.cpp:243
+msgid "On All Desktops"
+msgstr "在全部桌面上"
+
+#: oxygen/oxygenclient.cpp:246
+msgid "Shade Button"
+msgstr "按钮阴影"
+
+#~ msgid "Menu"
+#~ msgstr "菜单"
+
+#~ msgid "Not on all desktops"
+#~ msgstr "不在全部桌面上"
+
+#~ msgid "On all desktops"
+#~ msgstr "在全部桌面上"
+
+#~ msgid "Unshade"
+#~ msgstr "展开"
+
+#~ msgid "Shade"
+#~ msgstr "卷起"
+
+#~ msgid "Resize"
+#~ msgstr "大小"
+
+#~ msgid "<b><center>B II preview</center></b>"
+#~ msgstr "<b><center>B II 预览</center></b>"
+
+#~ msgid "Restore"
+#~ msgstr "恢复"
+
+#~ msgctxt "Help button label, one character"
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "Draw window frames using &titlebar colors"
+#~ msgstr "使用标题栏颜色绘制窗口框架(&T)"
+
+#~ msgid ""
+#~ "When selected, the window borders are drawn using the titlebar colors; "
+#~ "otherwise, they are drawn using normal border colors."
+#~ msgstr ""
+#~ "选中时，窗口边框会使用标题栏颜色绘制；否则，将使用普通边框颜色绘制。"
+
+#~ msgid "Draw &resize handle"
+#~ msgstr "绘制缩放柄(&R)"
+
+#~ msgid ""
+#~ "When selected, decorations are drawn with a \"grab handle\" in the bottom "
+#~ "right corner of the windows; otherwise, no grab handle is drawn."
+#~ msgstr "选中时，装饰会在窗口的右下角绘制“缩放柄”；否则不显示该缩放柄。"
+
+#~ msgid "Auto-move titlebar"
+#~ msgstr "自动移动标题栏"
+
+#~ msgid ""
+#~ "When selected, titlebars are automatically relocated to visible "
+#~ "positions; otherwise, they are only moved manually using shift+drag."
+#~ msgstr ""
+#~ "选中时，标题栏会自动被重新定位到可见位置，否则只能用 Shift+鼠标来手动拖"
+#~ "动。"
+
+#~ msgid "Actions Settings"
+#~ msgstr "动作设置"
+
+#~ msgid "Double click on menu button:"
+#~ msgstr "双击菜单按钮："
+
+#~ msgid "Do Nothing"
+#~ msgstr "无"
+
+#~ msgid "Minimize Window"
+#~ msgstr "最小化窗口"
+
+#~ msgid "Shade Window"
+#~ msgstr "卷起窗口"
+
+#~ msgid "Close Window"
+#~ msgstr "关闭窗口"
+
+#~ msgid ""
+#~ "An action can be associated to a double click of the menu button. Leave "
+#~ "it to none if in doubt."
+#~ msgstr "双击菜单按钮可关联到一个操作。如果您保持怀疑的话，请设置为空。"
+
+#~ msgid "Laptop"
+#~ msgstr "便携"
+
+#, fuzzy
+#~| msgid "Background style: "
+#~ msgid "Bac&kground style: "
+#~ msgstr "背景风格："
+
+#~ msgid "Solid Color"
+#~ msgstr "纯色"
+
+#~ msgid "Radial Gradient"
+#~ msgstr "辐射渐变"
+
+#~ msgid "Follow Style Hint"
+#~ msgstr "遵循样式提示"
+
+#~ msgid "Background style:"
+#~ msgstr "背景风格："
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "KDE 中国"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "kde-china@kde.org"
+
+#~ msgid "Oxygen decoration shadows demonstration"
+#~ msgstr "绿氧修饰阴影演示"
+
+#~ msgid "(c) 2011, Hugo Pereira Da Costa"
+#~ msgstr "(c) 2011, Hugo Pereira Da Costa"
+
+#~ msgid "Hugo Pereira Da Costa"
+#~ msgstr "Hugo Pereira Da Costa"
+
+#~ msgid "Save"
+#~ msgstr "保存"
+
+#~ msgid "Save shadows as pixmaps in provided directory"
+#~ msgstr "将阴影在给出目录中保存为图片"
+
+#~ msgid "Large"
+#~ msgstr "大"
+
+#~ msgid "Small"
+#~ msgstr "小"
+
+#~ msgid "Extra size grip display: "
+#~ msgstr "额外尺寸网格显示："
+
+#~ msgid "Extra size grip display:"
+#~ msgstr "额外的尺寸网格："
+
+#~ msgid "Inner Color:"
+#~ msgstr "内部颜色："
+
+#~ msgid "Outer Color:"
+#~ msgstr "外部颜色："
+
+#~ msgid "Vertical Offset:"
+#~ msgstr "垂直偏移："
+
+#~ msgid "Size: "
+#~ msgstr "大小："
+
+#~ msgid "px"
+#~ msgstr "像素"
+
+#~ msgid "Always Hide Extra Size Grip"
+#~ msgstr "总是隐藏额外的尺寸网格"
+
+#~ msgid "Show Extra Size Grip When Needed"
+#~ msgstr "需要时显示额外的尺寸网格"
+
+#~ msgid ""
+#~ "Check this option if you want windows to be closed when you double click "
+#~ "the menu button, similar to Microsoft Windows."
+#~ msgstr ""
+#~ "如果您想要在双击菜单按钮的时候关闭窗口，也就是和 Microsoft Windows 一样，"
+#~ "请选中此选项。"
+
+#~ msgid "Plastik"
+#~ msgstr "塑料"
+
+#~ msgid "All Desktops"
+#~ msgstr "全部桌面"
+
+#~ msgid "Above"
+#~ msgstr "上方"
+
+#~ msgid "Below"
+#~ msgstr "下方"
+
+#~ msgid "Close Item"
+#~ msgstr "关闭项目"
+
+#~ msgid "Tabstrip"
+#~ msgstr "标签截断"
+
+#~ msgid "&Left"
+#~ msgstr "居左(&L)"
+
+#~ msgid "&Center"
+#~ msgstr "居中(&C)"
+
+#~ msgid "&Right"
+#~ msgstr "居右(&R)"
+
+#~ msgid "Display window icons"
+#~ msgstr "显示窗口图标"
+
+#~ msgid "O&utline Color:"
+#~ msgstr "外框颜色："
+
+#~ msgid "Do not keep above others"
+#~ msgstr "不常局顶端"
+
+#~ msgid "Keep above others"
+#~ msgstr "常居顶端"
+
+#~ msgid "Do not keep below others"
+#~ msgstr "不常居底端"
+
+#~ msgid "Keep below others"
+#~ msgstr "常居底端"
+
+#~ msgid "Enable title transition animations"
+#~ msgstr "启用平铺过渡动画"
+
+#~ msgid "Variable"
+#~ msgstr "变量"
+
+#~ msgid "Maximum"
+#~ msgstr "最大化"
+
+#~ msgid "Enable window grouping"
+#~ msgstr "启用窗口分组"
+
+#~ msgid "Shadow caching:"
+#~ msgstr "阴影缓存："
+
+#~ msgid "TextLabel"
+#~ msgstr "文字标签"
+
+#~ msgid "Use Oxygen Shadows"
+#~ msgstr "使用绿氧风格的阴影"
+
+#~ msgid "Use Desktop Effects Shadows"
+#~ msgstr "使用桌面特效风格的阴影"
+
+#~ msgid "Do Not Draw Shadows"
+#~ msgstr "不绘制阴影"
+
+#~ msgid "Shadow style:"
+#~ msgstr "阴影风格："
+
+#~ msgctxt "draw separator"
+#~ msgid "Enabled"
+#~ msgstr "已启用"
+
+#~ msgctxt "draw separator"
+#~ msgid "Disabled"
+#~ msgstr "已禁用"
+
+#~ msgid "Draw separator between title bar and window contents: "
+#~ msgstr "在标题栏和窗口内容之间绘制分隔符："
+
+#~ msgid "Draw Separator between title bar and active window contents "
+#~ msgstr "在标题栏和活动窗口内容之间绘制分隔符 "
+
+#~ msgid "Installs a KWM theme"
+#~ msgstr "安装 KWM 主题"
+
+#~ msgid "Path to a theme config file"
+#~ msgstr "主题配置文件"
+
+#~ msgid "<center><b>KWMTheme</b></center>"
+#~ msgstr "<center><b>KWMTheme</b></center>"
+
+#~ msgid "Sticky"
+#~ msgstr "吸附"
+
+#~ msgid "Unsticky"
+#~ msgstr "取消吸附"
+
+#~ msgid "<center><b>Keramik preview</b></center>"
+#~ msgstr "<center><b>Keramik 预览</b></center>"
+
+#~ msgid "Draw titlebar &stipple effect"
+#~ msgstr "绘制标题栏的点刻效果(&S)"
+
+#~ msgid ""
+#~ "When selected, active titlebars are drawn with a stipple (dotted) effect; "
+#~ "otherwise, they are drawn without the stipple."
+#~ msgstr "选中时，激活的标题栏将会绘制点刻效果；否则无此效果。"
+
+#~ msgid "Draw g&rab bar below windows"
+#~ msgstr "在窗口下绘制拖曳栏(&R)"
+
+#~ msgid ""
+#~ "When selected, decorations are drawn with a \"grab bar\" below windows; "
+#~ "otherwise, no grab bar is drawn."
+#~ msgstr "选中时，装饰将会在窗口下绘制“拖曳栏”；否则无此拖曳栏。"
+
+#~ msgid "Draw &gradients"
+#~ msgstr "绘制渐变(&G)"
+
+#~ msgid ""
+#~ "When selected, decorations are drawn with gradients for high-color "
+#~ "displays; otherwise, no gradients are drawn."
+#~ msgstr "选中时，装饰将会以高色彩显示渐变；否则没有渐变效果。"
+
+#~ msgid "KDE 2"
+#~ msgstr "KDE 2"
+
+#~ msgid ""
+#~ "When selected, the window decoration borders are drawn using the titlebar "
+#~ "colors; otherwise, they are drawn using normal border colors instead."
+#~ msgstr ""
+#~ "选中时，窗口边框会使用标题栏颜色绘制；否则，将使用普通边框颜色绘制。"
+
+#~ msgid "Quartz &extra slim"
+#~ msgstr "石英超细(&E)"
+
+#~ msgid "Quartz window decorations with extra-small title bar."
+#~ msgstr "超小标题栏的石英窗口装饰。"
+
+#~ msgid "Quartz"
+#~ msgstr "Quartz"
+
+#~ msgid "Redmond"
+#~ msgstr "Redmond"
+
+#~ msgid "&Show window resize handle"
+#~ msgstr "显示窗口缩放柄(&S)"
+
+#~ msgid ""
+#~ "When selected, all windows are drawn with a resize handle at the lower "
+#~ "right corner. This makes window resizing easier, especially for "
+#~ "trackballs and other mouse replacements on laptops."
+#~ msgstr ""
+#~ "选中时，所有窗口都会在右下角绘制一个缩放柄。这将使得窗口缩放更加容易，特别"
+#~ "是对那些轨迹球和笔记本电脑上的其它替代设备。"
+
+#~ msgid "Here you can change the size of the resize handle."
+#~ msgstr "您可在此更改缩放柄的大小。"
+
+#~ msgid "Medium"
+#~ msgstr "中"
+
+#~ msgid "Modern System"
+#~ msgstr "现代系统"
+
+#~ msgid "Web"
+#~ msgstr "Web"
+
+#~ msgid "Keramik"
+#~ msgstr "Keramik"
+
+#~ msgid "Display the window &icon in the caption bubble"
+#~ msgstr "在标题气泡中显示窗口图标(&I)"
+
+#~ msgid ""
+#~ "Check this option if you want the window icon to be displayed in the "
+#~ "caption bubble next to the titlebar text."
+#~ msgstr "如果您想要在标题栏文本旁边的标题气泡中显示窗口图标，请选中此选项。"
+
+#~ msgid "Draw &small caption bubbles on active windows"
+#~ msgstr "在激活窗口中绘制小的标题气泡(&S)"
+
+#~ msgid ""
+#~ "Check this option if you want the caption bubble to have the same size on "
+#~ "active windows that it has on inactive ones. This option is useful for "
+#~ "laptops or low resolution displays where you want maximize the amount of "
+#~ "space available to the window contents."
+#~ msgstr ""
+#~ "如果您想要在激活窗口中显示与非激活窗口中同样的标题气泡，请选中此选项。此选"
+#~ "项特别用于笔记本电脑或分辨率较低的显示器，因为您可以将更多的空间留给窗口的"
+#~ "实际内容。"
+
+#~ msgid "Draw g&rab bars below windows"
+#~ msgstr "在窗口下绘制拖曳栏(&R)"
+
+#~ msgid ""
+#~ "Check this option if you want a grab bar to be drawn below windows. When "
+#~ "this option is not selected only a thin border will be drawn in its place."
+#~ msgstr ""
+#~ "选中时，装饰将会在窗口下绘制“拖曳栏”；否则将仅会在其位置处绘制细边框。"

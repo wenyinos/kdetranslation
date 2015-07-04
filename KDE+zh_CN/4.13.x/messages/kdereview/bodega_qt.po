@@ -1,0 +1,367 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# FengChao <rainofchaos@gmail.com>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-05 08:23+0000\n"
+"PO-Revision-Date: 2013-10-13 13:02+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: bodega/assetjob.cpp:77
+#, qt-format
+msgid "%1 Mb"
+msgstr "%1 Mb"
+
+#: bodega/assetjob.cpp:79
+#, qt-format
+msgid "%1 Kb"
+msgstr "%1 Kb"
+
+#: bodega/error.cpp:87
+msgid "Session Error"
+msgstr "会话错误"
+
+#: bodega/error.cpp:91
+msgid "Connection failed."
+msgstr "连接失败。"
+
+#: bodega/error.cpp:94
+msgid "The add-ons database could not be reached."
+msgstr "无法访问插件服务器。"
+
+#: bodega/error.cpp:97
+msgid "This account may not perform the requested action."
+msgstr "此账户无法完成请求的动作。"
+
+#: bodega/error.cpp:100
+msgid "Required information was missing from the request."
+msgstr ""
+
+#: bodega/error.cpp:103
+msgid "Wrong user name or password."
+msgstr "无效的用户名或密码"
+
+#: bodega/error.cpp:106
+msgid "This account is not active."
+msgstr ""
+
+#: bodega/error.cpp:109
+msgid "An account for that email already exists."
+msgstr ""
+
+#: bodega/error.cpp:112
+msgid "Could not purchase the requested item."
+msgstr ""
+
+#: bodega/error.cpp:115
+msgid "Failed to send email."
+msgstr "发送邮件失败。"
+
+#: bodega/error.cpp:118
+msgid "Failed to change account information."
+msgstr ""
+
+#: bodega/error.cpp:121
+msgid "Encryption failed, please try again."
+msgstr "加密错误，请重试。"
+
+#: bodega/error.cpp:124
+msgid "The password is too short, please try again."
+msgstr ""
+
+#: bodega/error.cpp:127 bodega/error.cpp:130
+msgid "Could not complete the download of the requested item."
+msgstr ""
+
+#: bodega/error.cpp:133
+msgid "The supplied points code was not valid."
+msgstr ""
+
+#: bodega/error.cpp:137 bodega/error.cpp:141 bodega/error.cpp:145
+#: bodega/error.cpp:149
+msgid "Payment Method Error"
+msgstr ""
+
+#: bodega/error.cpp:138 bodega/error.cpp:142 bodega/error.cpp:146
+msgid "Failed to update purchase method details."
+msgstr ""
+
+#: bodega/error.cpp:150
+msgid ""
+"A valid payment method could not be found. Please add a payment method to "
+"your account."
+msgstr ""
+
+#: bodega/error.cpp:153
+msgid "Purchase Method Error"
+msgstr ""
+
+#: bodega/error.cpp:154
+msgid "No purchase method (e.g. credit card) information found."
+msgstr ""
+
+#: bodega/error.cpp:157
+msgid "Could not locate the requested customer account."
+msgstr ""
+
+#: bodega/error.cpp:161 bodega/error.cpp:165 bodega/error.cpp:182
+#: bodega/error.cpp:188 bodega/error.cpp:193 bodega/error.cpp:198
+#: bodega/error.cpp:203 bodega/error.cpp:208 bodega/error.cpp:213
+#: bodega/error.cpp:218 bodega/error.cpp:223 bodega/error.cpp:227
+#: bodega/error.cpp:231
+msgid "Transaction Error"
+msgstr "过程错误"
+
+#: bodega/error.cpp:162
+msgid ""
+"Unable to complete the purchase process. No charge was made to your card."
+msgstr ""
+
+#: bodega/error.cpp:166
+msgid ""
+"Transaction was successful, but could not record the result on the account"
+msgstr ""
+
+#: bodega/error.cpp:169
+msgid "Purchase Error"
+msgstr "购买错误"
+
+#: bodega/error.cpp:170
+msgid "Your account lacks enough points to make this purchase."
+msgstr ""
+
+#: bodega/error.cpp:173 bodega/error.cpp:177
+msgid "Creation Error"
+msgstr "创建错误"
+
+#: bodega/error.cpp:174
+msgid "The collection already exists."
+msgstr ""
+
+#: bodega/error.cpp:178
+msgid "The asset already exists."
+msgstr ""
+
+#: bodega/error.cpp:183
+msgid "Your card has been declined. Please try another payment method"
+msgstr ""
+
+#: bodega/error.cpp:189
+msgid "The card number supplied is incorrect. Please check it and try again."
+msgstr ""
+
+#: bodega/error.cpp:194
+msgid "The card expiry month supplied is incorrect."
+msgstr ""
+
+#: bodega/error.cpp:199
+msgid "The card expiry year supplied is incorrect."
+msgstr ""
+
+#: bodega/error.cpp:204
+msgid "The card CVC supplied is incorrect."
+msgstr ""
+
+#: bodega/error.cpp:209
+msgid "Your card has expired. Please try another payment method."
+msgstr ""
+
+#: bodega/error.cpp:214
+msgid "The purchase amount was invalid. Please try again."
+msgstr ""
+
+#: bodega/error.cpp:219
+msgid "This transaction was already processed."
+msgstr ""
+
+#: bodega/error.cpp:224
+msgid "A processing error occured when making the purchase. Please try again."
+msgstr ""
+
+#: bodega/error.cpp:228
+msgid ""
+"Too few points were requested. A minimum of 500 points per purchase is "
+"required."
+msgstr ""
+
+#: bodega/error.cpp:232
+msgid "Too many points were requested. Please purchase fewer points."
+msgstr ""
+
+#: bodega/error.cpp:237
+msgid "An unknown error occurred."
+msgstr "发生了未知错误"
+
+#: bodega/historymodel.cpp:60
+msgid "No events for this account. Go download something interesting! :)"
+msgstr ""
+
+#: bodega/historymodel.cpp:175
+#, qt-format
+msgid "Downloaded %1"
+msgstr "已下载 %1"
+
+#: bodega/historymodel.cpp:177
+#, qt-format
+msgid "Purchased %1"
+msgstr ""
+
+#: bodega/historymodel.cpp:179
+#, qt-format
+msgid "Added %1 points"
+msgstr ""
+
+#: bodega/networkjob.cpp:103
+msgid "Invalid response from the server"
+msgstr "无效的服务器应答"
+
+#: bodega/networkjob.cpp:104
+msgid "Server has sent an invalid response."
+msgstr ""
+
+#: bodega/networkjob.cpp:128
+msgid "Download error"
+msgstr "下载错误"
+
+#: bodega/networkjob.cpp:129
+msgid "Error downloading the asset."
+msgstr ""
+
+#: bodega/networkjob.cpp:177
+msgid "Network Error"
+msgstr "网络错误"
+
+#: bodega/networkjob.cpp:213
+msgid "Authentication Error"
+msgstr "认证错误"
+
+#: bodega/networkjob.cpp:214
+msgid "Invalid username or password"
+msgstr "无效的用户名或密码"
+
+#: handlers/epub/bookhandler.cpp:88
+msgid "Read book"
+msgstr ""
+
+#: handlers/epub/filethread.cpp:69 handlers/epub/filethread.cpp:88
+#: handlers/generic/filethread.cpp:58 handlers/generic/filethread.cpp:63
+#: handlers/package/packageinstalljob.cpp:57
+#: handlers/package/packageinstalljob.cpp:80
+#: handlers/package/packageuninstalljob.cpp:44
+#: handlers/rpm/packageidinstalljob.cpp:136 handlers/rpm/rpminstalljob.cpp:106
+#: handlers/wallpaper/wallpaperinstalljob.cpp:84
+#: handlers/wallpaper/wallpaperinstalljob.cpp:90
+msgid "Install failed"
+msgstr "安装失败"
+
+#: handlers/epub/filethread.cpp:70 handlers/generic/filethread.cpp:59
+#, qt-format
+msgid "A file by this name already exists on the device: %1"
+msgstr ""
+
+#: handlers/epub/filethread.cpp:89
+msgid ""
+"Could not install the book; wrong permissions or no space left on device."
+msgstr ""
+
+#: handlers/epub/filethread.cpp:111 handlers/epub/filethread.cpp:116
+#: handlers/generic/filethread.cpp:71 handlers/generic/filethread.cpp:76
+#: handlers/package/packageuninstalljob.cpp:61
+#: handlers/rpm/rpmuninstalljob.cpp:44 handlers/rpm/rpmuninstalljob.cpp:70
+#: handlers/wallpaper/wallpaperuninstalljob.cpp:55
+#: handlers/wallpaper/wallpaperuninstalljob.cpp:63
+#: handlers/wallpaper/wallpaperuninstalljob.cpp:68
+msgid "Uninstall failed"
+msgstr "卸载失败"
+
+#: handlers/epub/filethread.cpp:112
+#, fuzzy
+#| msgid "The book is not installed."
+msgid "The book is not installed."
+msgstr "此书尚未安装"
+
+#: handlers/epub/filethread.cpp:117 handlers/generic/filethread.cpp:77
+msgid "Unable to delete the file."
+msgstr ""
+
+#: handlers/generic/filethread.cpp:64
+msgid ""
+"Could not install the file; wrong permissions or no space left on device."
+msgstr ""
+
+#: handlers/generic/filethread.cpp:72
+#, fuzzy
+#| msgid "The book is not installed."
+msgid "The file is not installed."
+msgstr "此书尚未安装"
+
+#: handlers/generic/generichandler.cpp:76
+msgid "Open"
+msgstr ""
+
+#: handlers/package/packageuninstalljob.cpp:45
+msgid "Plugin name or service type tags not specified."
+msgstr ""
+
+#: handlers/package/packageuninstalljob.cpp:62
+msgid "Impossible to uninstall the package."
+msgstr ""
+
+#: handlers/rpm/packageidinstalljob.cpp:54
+#: handlers/rpm/packageidinstalljob.cpp:69
+msgid "Install error"
+msgstr "安装错误"
+
+#: handlers/rpm/packageidinstalljob.cpp:55
+msgid "failed to open the descriptor file"
+msgstr ""
+
+#: handlers/rpm/packageidinstalljob.cpp:70
+msgid "failed to parse the descriptor file"
+msgstr ""
+
+#: handlers/rpm/rpmhandler.cpp:129
+msgid "Launch"
+msgstr "启动"
+
+#: handlers/rpm/rpmuninstalljob.cpp:45
+msgid "Package not installed."
+msgstr ""
+
+#: handlers/wallpaper/wallpaperinstalljob.cpp:85
+msgid ""
+"Impossible to install the wallpaper, wrong permissions or no space left on "
+"device."
+msgstr ""
+
+#: handlers/wallpaper/wallpaperinstalljob.cpp:91
+msgid "Impossible to install the wallpaper, unknown file type."
+msgstr ""
+
+#: handlers/wallpaper/wallpaperuninstalljob.cpp:56
+msgid "Impossible to uninstall the wallpaper package."
+msgstr ""
+
+#: handlers/wallpaper/wallpaperuninstalljob.cpp:64
+#, fuzzy
+#| msgid "The book is not installed."
+msgid "The wallpaper is not installed."
+msgstr "此书尚未安装"
+
+#: handlers/wallpaper/wallpaperuninstalljob.cpp:69
+msgid "Impossible to delete the file."
+msgstr ""
+
+#: tests/model/window.cpp:32
+msgid "Quit"
+msgstr "退出"

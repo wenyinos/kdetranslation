@@ -1,0 +1,159 @@
+# translation of kcmkeys.po to zh_CN
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998
+#   Updated: Peace Lu <hepinglu@linpus.com.tw>, 2002
+#            Funda Wang <fundawang@en2china.com>, 2002
+# Xiong Jiang <jxiong@offtopic.org>, 2003
+# Lie Ex <lilith.ex@gmail.com>, 2007-2009
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkeys\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-17 01:32+0000\n"
+"PO-Revision-Date: 2009-05-18 17:07+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: property (text), widget (QLabel, components_label)
+#: export_scheme_dialog.ui:17
+msgid "Select the Components to Export"
+msgstr "选择要导出的组件"
+
+#. i18n: ectx: property (title), widget (QGroupBox, components)
+#: export_scheme_dialog.ui:27
+msgid "Components"
+msgstr "组件"
+
+#: globalshortcuts.cpp:67
+msgid "You are about to reset all shortcuts to their default values."
+msgstr "您正要将所有快捷键重置为默认。"
+
+#: globalshortcuts.cpp:68
+msgid "Reset to defaults"
+msgstr "重置为默认"
+
+#: globalshortcuts.cpp:69
+msgid "Current Component"
+msgstr "当前组件"
+
+#: globalshortcuts.cpp:70
+msgid "All Components"
+msgstr "全部组件"
+
+#: kglobalshortcutseditor.cpp:167
+msgid "Import Scheme..."
+msgstr "导入方案..."
+
+#: kglobalshortcutseditor.cpp:168
+msgid "Export Scheme..."
+msgstr "导出方案..."
+
+#: kglobalshortcutseditor.cpp:169
+msgid "Set All Shortcuts to None"
+msgstr "将所有快捷键设为无"
+
+#: kglobalshortcutseditor.cpp:170
+msgid "Remove Component"
+msgstr "删除组件"
+
+#: kglobalshortcutseditor.cpp:179
+#, kde-format
+msgid ""
+"Component '%1' is currently active. Only global shortcuts currently not "
+"active will be removed from the list.\n"
+"All global shortcuts will reregister themselves with their defaults when "
+"they are next started."
+msgstr ""
+"组件“%1”已被激活。只有目前未被激活的全局快捷键可以被从列表中删除。\n"
+"当您下次启动组件时，所有全局快捷键的值都将会重新注册为默认设置。"
+
+#: kglobalshortcutseditor.cpp:181 kglobalshortcutseditor.cpp:191
+msgid "Remove component"
+msgstr "删除组件"
+
+#: kglobalshortcutseditor.cpp:187
+#, kde-format
+msgid ""
+"Are you sure you want to remove the registered shortcuts for component '%1'? "
+"The component and shortcuts will reregister themselves with their default "
+"settings when they are next started."
+msgstr ""
+"您确认要删除注册到组件“%1”上的快捷键吗？当您下次启动组件时，组件和所有全局快"
+"捷键的值都将会重新注册为默认设置。"
+
+#: kglobalshortcutseditor.cpp:383
+msgid ""
+"Your current changes will be lost if you load another scheme before saving "
+"this one"
+msgstr "如果您在保存之前装入另外一个方案的话，您当前的改变将丢失。"
+
+#: kglobalshortcutseditor.cpp:384
+msgid "Load Shortcut Scheme"
+msgstr "装入快捷键方案"
+
+#: kglobalshortcutseditor.cpp:385
+msgid "Load"
+msgstr "装载"
+
+#: kglobalshortcutseditor.cpp:398
+#, kde-format
+msgid "This file (%1) does not exist. You can only select local files."
+msgstr "文件(%1)不存在。您只能选择本地文件。"
+
+#: kglobalshortcutseditor.cpp:426 kglobalshortcutseditor.cpp:449
+#, kde-format
+msgid ""
+"Message: %1\n"
+"Error: %2"
+msgstr ""
+"消息：%1\n"
+"错误：%2"
+
+#: kglobalshortcutseditor.cpp:431 kglobalshortcutseditor.cpp:454
+msgid "Failed to contact the KDE global shortcuts daemon\n"
+msgstr "和 KDE 全局快捷键守护进程连接失败\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kglobalshortcutseditor.ui:19
+msgid "KDE component:"
+msgstr "KDE 组件："
+
+#. i18n: ectx: property (text), widget (QPushButton, menu_button)
+#: kglobalshortcutseditor.ui:36
+msgid "File"
+msgstr "文件"
+
+#. i18n: ectx: property (windowTitle), widget (KDialog, SelectSchemeDialog)
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, m_url)
+#: select_scheme_dialog.ui:15 select_scheme_dialog.ui:123
+msgid "Select Shortcut Scheme"
+msgstr "选择快捷键方案"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#: select_scheme_dialog.ui:39
+msgid "Select one of the standard KDE shortcut schemes"
+msgstr "选择一个 KDE 标准快捷键方案"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: select_scheme_dialog.ui:42
+msgid "&Standard scheme:"
+msgstr "标准方案(&S)："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:92
+msgid "Select a shortcut scheme file"
+msgstr "选择一个快捷键方案文件"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: select_scheme_dialog.ui:95
+msgid "&Path:"
+msgstr "路径(&P)："
+
+#~ msgid "Shortcuts:"
+#~ msgstr "快捷键："

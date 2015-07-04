@@ -1,0 +1,911 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# FengChao <rainofchaos@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-06-05 02:01+0000\n"
+"PO-Revision-Date: 2012-04-22 15:04+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: accuracydisplay.cpp:37
+#, kde-format
+msgctxt ""
+"%1 is the amount of correctly recognized samples, %2 is the amount of total "
+"samples"
+msgid "Recognized %1 of %2: Recognition rate:"
+msgstr ""
+
+#: conservativetraining.cpp:36
+msgid "Conservative Training"
+msgstr ""
+
+#: conservativetraining.cpp:74
+msgid "Could not open output prompts"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conservativetraining.ui:25
+#, fuzzy
+#| msgid "Output format:"
+msgid "Input folder:"
+msgstr "输出格式："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conservativetraining.ui:39
+#, fuzzy
+#| msgid "Output format:"
+msgid "Output prompts:"
+msgstr "输出格式："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: conservativetraining.ui:53
+#, fuzzy
+#| msgid "Confidence"
+msgid "Minimum confidence:"
+msgstr "置信度"
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, sbMinimumConfidence)
+#: conservativetraining.ui:60
+msgid ""
+"You can limit the import to samples that were recognized with at least the "
+"following confidence rate (range: 0 - 1; Setting this to 0 means to import "
+"everything):"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: conservativetraining.ui:81
+msgid "Handle global filter"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: conservativetraining.ui:93
+msgid "Activate filter:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: conservativetraining.ui:103
+msgid "Deactivate filter:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#. i18n: ectx: property (text), widget (QLabel, label_28)
+#. i18n: ectx: property (text), widget (QLabel, label_27)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. i18n: ectx: property (text), widget (QLabel, label_19)
+#: corpusinformation.ui:17 exporttestresultsdlg.ui:40
+#: exporttestresultsdlg.ui:125 exporttestresultsdlg.ui:202
+#: exporttestresultsdlg.ui:219 exporttestresultsdlg.ui:278
+#: juliustestconfigurationwidget.ui:34 sphinxtestconfigurationwidget.ui:31
+msgid "Tag:"
+msgstr "标记："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: ectx: property (text), widget (QLabel, label_18)
+#: corpusinformation.ui:27 exporttestresultsdlg.ui:229
+#: exporttestresultsdlg.ui:288
+msgid "Notes:"
+msgstr "备注："
+
+#. i18n: (People)
+#. i18n: ectx: property (text), widget (QLabel, label_26)
+#: corpusinformation.ui:41
+msgid "Speakers:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_24)
+#: corpusinformation.ui:58
+msgid "Samples:"
+msgstr "样本："
+
+#. i18n: ectx: property (text), widget (KPushButton, pbAutomaticallyDetermine)
+#: corpusinformation.ui:77
+msgid "Determine automatically"
+msgstr "自动确定"
+
+#: exporttestresults.cpp:48
+msgid "Export test results"
+msgstr ""
+
+#: exporttestresults.cpp:93
+#, kde-format
+msgctxt "%1 is Simon version"
+msgid "Sam: part of Simon %1\n"
+msgstr ""
+
+#: exporttestresults.cpp:210
+#, kde-format
+msgctxt "%1 is filename"
+msgid ""
+"Could not initialize output template at \"%1\". Please select a valid output "
+"format."
+msgstr ""
+
+#: exporttestresults.cpp:221
+#, kde-format
+msgctxt "%1 is output type"
+msgid ""
+"Output type not supported: %1.\n"
+"\n"
+"Please make sure that your output format is compatible with this version of "
+"Sam."
+msgstr ""
+
+#: exporttestresults.cpp:240
+#, kde-format
+msgctxt "%1 is error message"
+msgid "Failed to parse template: %1"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: exporttestresultsdlg.ui:21 main.ui:569
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: exporttestresultsdlg.ui:30
+msgid "Title:"
+msgstr "标题："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: exporttestresultsdlg.ui:50
+msgid "Task definition:"
+msgstr "任务定义："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: exporttestresultsdlg.ui:64
+msgid "Output format:"
+msgstr "输出格式："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: exporttestresultsdlg.ui:74
+msgid "Options:"
+msgstr "选项："
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbTables)
+#: exporttestresultsdlg.ui:84
+msgid "Tables"
+msgstr "表格"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbGraphs)
+#: exporttestresultsdlg.ui:94
+msgid "Graphs"
+msgstr "图表"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: exporttestresultsdlg.ui:101
+msgid "Conclusion:"
+msgstr "结论："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_9)
+#: exporttestresultsdlg.ui:119
+msgid "Experiment"
+msgstr "实验"
+
+#. i18n: ectx: property (text), widget (QLabel, label_29)
+#: exporttestresultsdlg.ui:135
+msgid "Short description:"
+msgstr "简短描述："
+
+#. i18n: ectx: property (text), widget (QLabel, label_30)
+#: exporttestresultsdlg.ui:149
+msgid "Conducted on:"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_8)
+#: exporttestresultsdlg.ui:164
+msgid "System"
+msgstr "系统"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: exporttestresultsdlg.ui:170
+msgid "System definition:"
+msgstr "系统定义："
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbDetailedSystemInformation)
+#: exporttestresultsdlg.ui:186
+msgid "Detailed"
+msgstr "详细的"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbRetrieveSystemInformation)
+#: exporttestresultsdlg.ui:193
+msgid "Retrieve system information"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: exporttestresultsdlg.ui:213
+msgid "Vocabulary"
+msgstr "词汇"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: exporttestresultsdlg.ui:243
+msgid "Number of words:"
+msgstr "单词数："
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: exporttestresultsdlg.ui:264
+msgid "Number of pronunciations:"
+msgstr "发音数："
+
+#. i18n: ectx: property (text), widget (QLabel, lbSphinxGrammar)
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: exporttestresultsdlg.ui:272 sphinxtestconfigurationwidget.ui:84
+msgid "Grammar"
+msgstr "语法"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: exporttestresultsdlg.ui:303
+msgid "Trainingssamples"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
+#: exporttestresultsdlg.ui:317
+msgid "Testset"
+msgstr "测试集"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
+#: juliustestconfigurationwidget.ui:49
+#, fuzzy
+#| msgid "Output files"
+msgid "HTK input files"
+msgstr "输出文件："
+
+#. i18n: ectx: property (text), widget (QLabel, lbHmmdefs)
+#: juliustestconfigurationwidget.ui:61
+#, fuzzy
+#| msgid "Task definition:"
+msgid "HMM definitions:"
+msgstr "任务定义："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: juliustestconfigurationwidget.ui:129 sphinxtestconfigurationwidget.ui:100
+msgctxt "Test the model"
+msgid "Test configuration"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lbTestPrompts)
+#. i18n: ectx: property (text), widget (QLabel, lbTestPrompts_3)
+#: juliustestconfigurationwidget.ui:141 sphinxtestconfigurationwidget.ui:112
+msgid "Test-prompts:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lbTestPromptsBasePath)
+#. i18n: ectx: property (text), widget (QLabel, lbTestPromptsBasePath_3)
+#: juliustestconfigurationwidget.ui:154 sphinxtestconfigurationwidget.ui:125
+msgid "Test-prompts base path:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lbSampleRate)
+#: juliustestconfigurationwidget.ui:180 main.ui:246
+#: sphinxtestconfigurationwidget.ui:138
+msgid "Samplerate:"
+msgstr "采样率："
+
+#. i18n: ectx: property (text), widget (KPushButton, pbRemove)
+#: juliustestconfigurationwidget.ui:221 sphinxtestconfigurationwidget.ui:179
+msgid "Remove"
+msgstr "删除"
+
+#: latexreporttemplateengine.cpp:70
+msgid "LaTeX files (zipped) *.zip"
+msgstr ""
+
+#: main.cpp:28
+msgid "An acoustic model modeller"
+msgstr ""
+
+#: main.cpp:32
+msgid "Sam"
+msgstr ""
+
+#: main.cpp:33
+msgid "(C) 2009 Peter Grasch"
+msgstr "(C) 2009 Peter Grasch"
+
+#: main.cpp:34
+msgid "Peter Grasch"
+msgstr "Peter Grasch"
+
+#: main.cpp:38
+msgid "Select model type (\"sphinx\" or \"htk\")"
+msgstr ""
+
+#: main.cpp:39
+msgid "Get configuration from Simon"
+msgstr ""
+
+#: main.cpp:40
+msgid "Automatically start compiling the model"
+msgstr ""
+
+#: main.cpp:41
+msgid "Automatically start testing the model(s)"
+msgstr ""
+
+#: main.cpp:42
+msgid "Export test results to the given filename"
+msgstr ""
+
+#: main.cpp:43
+msgid "Batch processing: Close after all other arguments have been processed"
+msgstr ""
+
+#: main.cpp:44
+msgid "Store compilation log"
+msgstr ""
+
+#: main.cpp:45
+msgid "Write opened file to disk when done (batch mode)."
+msgstr ""
+
+#: main.cpp:47
+msgid "If provided, this file will automatically be loaded"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
+#: main.ui:20
+msgid "sam - Untitled"
+msgstr "sam - Untitled"
+
+#. i18n: ectx: attribute (title), widget (QWidget, Seite_3)
+#: main.ui:31
+msgid "Input && output files"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: main.ui:37
+msgid "Type:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cbType)
+#: main.ui:48
+msgid "CMU Sphinx"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cbType)
+#: main.ui:53
+msgid "HTK, Julius"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: main.ui:65
+msgid "Creating"
+msgstr "创建"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: main.ui:71
+msgid "Input"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, pbSerializeScenarios)
+#: main.ui:80
+msgid "Serialize scenarios"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, pbImportRecognitionSamples)
+#: main.ui:87
+msgid "Import recognition samples"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, pbSerializePrompts)
+#: main.ui:94
+msgid "Serialize prompts"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lbDict)
+#: main.ui:108
+#, fuzzy
+#| msgid "Output files"
+msgid "Directory:"
+msgstr "输出文件："
+
+#. i18n: ectx: property (text), widget (QLabel, lbPhone)
+#: main.ui:134
+msgid "Model name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lbLexicon)
+#: main.ui:167
+msgid "Lexicon:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lbGrammar)
+#: main.ui:180
+msgid "Grammar:"
+msgstr "语法："
+
+#. i18n: ectx: property (text), widget (QLabel, lbVocabulary)
+#: main.ui:193
+msgid "Vocabulary:"
+msgstr "词汇："
+
+#. i18n: ectx: property (text), widget (QLabel, lbPrompts)
+#: main.ui:206
+msgid "Prompts:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: main.ui:219
+msgid "Script base prefix:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lbPromptsBasePath)
+#: main.ui:233
+msgid "Prompts base path:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: main.ui:269
+msgid "Base model:"
+msgstr ""
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, urBaseModel)
+#: main.ui:276
+msgid "*.sbm"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, pbCreate)
+#: main.ui:283
+msgid "Create base model from model files"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: main.ui:293
+#, fuzzy
+#| msgid "Output files"
+msgid "Output"
+msgstr "输出文件："
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbStaticModel)
+#: main.ui:302
+#, fuzzy
+#| msgid "Output format:"
+msgid "Static model"
+msgstr "输出格式："
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbAdaptedBaseModel)
+#: main.ui:309
+msgid "Adapted base model"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbDynamicModel)
+#: main.ui:316
+msgid "Entirely user-generated model"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lbHmmdefs)
+#: main.ui:326
+#, fuzzy
+#| msgid "Output format:"
+msgid "Output model:"
+msgstr "输出格式："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: main.ui:343
+msgid "Testing"
+msgstr "测试"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbExtractSimonModel)
+#: main.ui:373
+msgid "Extract Simon Model"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, pbAddTestConfiguration)
+#: main.ui:393
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: main.ui:407
+msgid "Adapt scenarios"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lbAdaptLog)
+#: main.ui:429
+#, fuzzy
+#| msgid "Test log:"
+msgid "Adapt log:"
+msgstr "测试日志："
+
+#. i18n: ectx: attribute (title), widget (QWidget, Seite)
+#: main.ui:446
+msgid "Create model"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, pbCompileModel)
+#: main.ui:454 samview.cpp:113
+msgid "Build model"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KPushButton, pbCancelBuildModel)
+#. i18n: ectx: property (text), widget (KPushButton, pbCancelTestModel)
+#: main.ui:471 main.ui:534
+msgid "Cancel"
+msgstr "取消"
+
+#. i18n: ectx: property (text), widget (QLabel, lbBuildLog)
+#: main.ui:482
+#, fuzzy
+#| msgid "Build"
+msgid "Build log:"
+msgstr "构建"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbSaveCompleteBuildlog)
+#: main.ui:499
+msgid "Save complete buildlog (HTML)"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, Seite_2)
+#. i18n: ectx: property (text), widget (KPushButton, pbTestModel)
+#: main.ui:509 main.ui:517 samview.cpp:122
+msgid "Test model"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lbTestLog)
+#: main.ui:545
+msgid "Test log:"
+msgstr "测试日志："
+
+#. i18n: ectx: attribute (title), widget (QWidget, Seite_4)
+#: main.ui:562 samview.cpp:130
+msgid "Test results"
+msgstr "测试结果"
+
+#: reporttemplateengine.cpp:174
+msgid "Overview"
+msgstr "概览"
+
+#: reporttemplateengine.cpp:243
+msgid "Could not clean up temporary folder."
+msgstr ""
+
+#: reporttemplateengine.cpp:259
+msgid "Failed to store file."
+msgstr ""
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: samui.rc:5
+msgid "Main Actions"
+msgstr ""
+
+#. i18n: ectx: Menu (build)
+#: samui.rc:17
+msgid "Build"
+msgstr "构建"
+
+#. i18n: ectx: Menu (test)
+#: samui.rc:23
+msgctxt "Test the model"
+msgid "Test"
+msgstr "测试"
+
+#: samview.cpp:105
+msgid "Modify Simon's model"
+msgstr ""
+
+#: samview.cpp:106
+msgid "Manage Simon's current model with SSC"
+msgstr ""
+
+#: samview.cpp:114
+msgid "Build the currently open model."
+msgstr ""
+
+#: samview.cpp:123
+msgid "Test the model."
+msgstr ""
+
+#: samview.cpp:131
+msgid "Display the test results."
+msgstr ""
+
+#: samview.cpp:138
+msgid "Export test result"
+msgstr ""
+
+#: samview.cpp:139
+msgid "Export the test results to a file."
+msgstr ""
+
+#: samview.cpp:191
+msgid "SAM was built without SPHINX support."
+msgstr ""
+
+#: samview.cpp:250
+msgid "Open Simon Model"
+msgstr ""
+
+#: samview.cpp:252
+#, fuzzy
+#| msgid "Output files"
+msgid "Output directory"
+msgstr "输出文件："
+
+#: samview.cpp:259
+msgid "Failed to unpack Simon base model."
+msgstr ""
+
+#: samview.cpp:282
+msgid ""
+"Your Sam configuration has changed.\n"
+"\n"
+"Do you want to save?"
+msgstr ""
+
+#: samview.cpp:300
+msgid "No current log."
+msgstr ""
+
+#: samview.cpp:310
+msgid "HTML files *.html"
+msgstr ""
+
+#: samview.cpp:315
+#, kde-format
+msgctxt "%1 is the file name"
+msgid "Could not open output file %1."
+msgstr ""
+
+#: samview.cpp:407
+#, kde-format
+msgctxt "Tag of the test"
+msgid "Test started: %1"
+msgstr ""
+
+#: samview.cpp:416
+#, kde-format
+msgctxt "Tag of the test"
+msgid "Test aborted: %1"
+msgstr ""
+
+#: samview.cpp:424
+#, kde-format
+msgctxt "Tag of the test"
+msgid "Test completed: %1"
+msgstr ""
+
+#: samview.cpp:456
+#, kde-format
+msgid "Ran 1 test."
+msgid_plural "Ran %1 tests."
+msgstr[0] ""
+msgstr[1] ""
+
+#: samview.cpp:607 samview.cpp:635
+msgid "Sam projects *.sam"
+msgstr ""
+
+#: samview.cpp:649
+msgid "Untitled"
+msgstr "无标题"
+
+#: samview.cpp:651
+#, fuzzy, kde-format
+#| msgctxt "%1 is file name"
+#| msgid "sam - %1 [*]"
+msgctxt "%1 is file name"
+msgid "Sam - %1 [*]"
+msgstr "sam - %1 [*]"
+
+#: samview.cpp:661 samview.cpp:738
+#, kde-format
+msgctxt "%1 is file name"
+msgid "Cannot open file: %1"
+msgstr "无法打开文件：%1"
+
+#: samview.cpp:670
+msgid "Corrupt or outdated Sam configuration file."
+msgstr ""
+
+#: samview.cpp:888
+msgid ""
+"You now have to provide a (preferably empty) folder where you want to "
+"serialize the scenarios to"
+msgstr ""
+
+#: samview.cpp:888
+msgid "Do not ask again"
+msgstr "不再询问"
+
+#: samview.cpp:889
+msgid "Serialized scenario output"
+msgstr ""
+
+#: samview.cpp:905
+msgid "Open simon prompts"
+msgstr ""
+
+#: samview.cpp:973
+#, kde-format
+msgctxt "%1 is scenario id"
+msgid "Could not find scenario: %1"
+msgstr ""
+
+#: samview.cpp:1007
+msgid "Unknown model type"
+msgstr ""
+
+#: samview.cpp:1019
+#, kde-format
+msgctxt "%1 is path to the base model"
+msgid "Could not open base model at \"%1\"."
+msgstr ""
+
+#: samview.cpp:1173
+msgctxt ""
+"The tag name of an automatically added test set. The needed string really is "
+"please change this (for the user to change)."
+msgid "PLEASE_CHANGE_THIS"
+msgstr ""
+
+#: samview.cpp:1183
+msgid "Adaption aborted"
+msgstr ""
+
+#: samview.cpp:1198
+#, kde-format
+msgctxt "%1 is error message"
+msgid ""
+"Failed to adapt model:\n"
+"\n"
+"%1"
+msgstr ""
+
+#: samview.cpp:1230
+#, kde-format
+msgid "Grammar class undefined: %1"
+msgstr ""
+
+#: samview.cpp:1237
+#, kde-format
+msgid "Word undefined: %1"
+msgstr ""
+
+#: samview.cpp:1244
+#, kde-format
+msgid "Phoneme undefined: %1"
+msgstr ""
+
+#: samview.cpp:1260
+msgid ""
+"Build log too big to display. Please use the button below to store it to a "
+"local file."
+msgstr ""
+
+#: samview.cpp:1325
+msgid ""
+"No tests configured yet. Please provide your test configuration in the "
+"input / output section."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: sphinxtestconfigurationwidget.ui:46
+#, fuzzy
+#| msgid "Output files"
+msgid "Sphinx input files"
+msgstr "输出文件："
+
+#. i18n: ectx: property (text), widget (QLabel, lbModelDir)
+#: sphinxtestconfigurationwidget.ui:58
+#, fuzzy
+#| msgid "Output files"
+msgid "Model directory:"
+msgstr "输出文件："
+
+#. i18n: ectx: property (text), widget (QLabel, lbSphinxDict)
+#: sphinxtestconfigurationwidget.ui:71
+msgid "Dictionary:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lbRecognitionRate)
+#: testresult.ui:22
+msgid "Overall recognition rate (confidence):"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, pgSentenceResults)
+#: testresult.ui:48
+msgid "Sentences"
+msgstr "句子"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: testresult.ui:65
+msgid "Recognized words"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, pgFileResults)
+#: testresult.ui:82
+msgid "Files"
+msgstr "文件"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: testresult.ui:90
+msgid "Find file:"
+msgstr "查找文件："
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, leResultFilesFilter)
+#: testresult.ui:100
+msgid "Filter"
+msgstr "过滤器"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbEditSample)
+#: testresult.ui:130
+msgid "Edit sample"
+msgstr "编辑采样"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: testresult.ui:140
+msgid "Log"
+msgstr "日志"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: testresult.ui:169
+msgid "Accuracy:"
+msgstr "精度："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: testresult.ui:183
+msgid "Word error rate:"
+msgstr "单词错误率："
+
+#: testresultplotter.cpp:53 testresultplotter.cpp:64
+msgid "Accuracy"
+msgstr "精确度"
+
+#: testresultplotter.cpp:56 testresultplotter.cpp:65
+msgid "Confidence"
+msgstr "置信度"
+
+#: testresultwidget.cpp:155
+msgid "Modify sample"
+msgstr ""
+
+#: testresultwidget.cpp:167 testresultwidget.cpp:192
+msgid "Could not modify prompts file"
+msgstr ""
+
+#: testresultwidget.cpp:179
+msgid "Could not overwrite prompts file"
+msgstr ""
+
+#: testresultwidget.cpp:183 testresultwidget.cpp:199
+#, kde-format
+msgctxt "%1 is file name"
+msgid "Could not remove original sample:  %1."
+msgstr ""
+
+#: testresultwidget.cpp:204
+#, kde-format
+msgctxt "%1 is source file name, %2 is destination file name"
+msgid "Could not copy sample from temporary path %1 to %2."
+msgstr ""
+
+#: testresultwidget.cpp:228
+#, kde-format
+msgid ""
+"Result %1 of %2\n"
+"=====================\n"
+msgstr ""
+
+#~ msgid "DFA:"
+#~ msgstr "DFA:"

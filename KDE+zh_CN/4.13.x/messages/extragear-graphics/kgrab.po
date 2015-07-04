@@ -1,0 +1,321 @@
+# translation of kgrab.po to 简体中文
+# Copyright (C) 2007, 2009 Free Software Foundation, Inc.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kgrab\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-21 01:42+0000\n"
+"PO-Revision-Date: 2009-04-05 12:52+0000\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: kgrab.cpp:222
+msgid "&New Snapshot"
+msgstr "新建抓图(&N)"
+
+#: kgrab.cpp:223
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+#: kgrab.cpp:224
+msgid "Make new Snapshot"
+msgstr "新建抓图"
+
+#: kgrab.cpp:231
+msgid "Open &With..."
+msgstr "打开方式(&W)"
+
+#: kgrab.cpp:232
+msgid "Ctrl+W"
+msgstr "Ctrl+W"
+
+#: kgrab.cpp:233
+msgid "Open the Snapshot with another application"
+msgstr "用其他应用程序打开抓图"
+
+#: kgrab.cpp:244
+msgid "&Copy"
+msgstr "复制(&C)"
+
+#: kgrab.cpp:245
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+#: kgrab.cpp:246
+msgid "Copy the Snapshot to the clipboard"
+msgstr "复制抓图到剪贴板"
+
+#: kgrab.cpp:271
+msgid "File Exists"
+msgstr "文件已存在"
+
+#: kgrab.cpp:272
+#, kde-format
+msgid "<qt>Do you really want to overwrite <b>%1</b>?</qt>"
+msgstr "<qt>您确定想要覆盖 <b>%1</b>吗？</qt>"
+
+#: kgrab.cpp:273
+msgid "Overwrite"
+msgstr "覆盖"
+
+#: kgrab.cpp:314
+msgid "Unable to save image"
+msgstr "不能保存图像"
+
+#: kgrab.cpp:315
+#, kde-format
+msgid ""
+"KGrab was unable to save the image to\n"
+"%1."
+msgstr ""
+"KGrab 不能保存图像到\n"
+"%1。"
+
+#: kgrab.cpp:336
+msgid "Save As"
+msgstr "另存为"
+
+#: kgrab.cpp:403
+msgid "Print Screenshot"
+msgstr "打印抓图"
+
+#: kgrab.cpp:577
+msgid "The screen has been successfully grabbed."
+msgstr "已经成功抓取屏幕。"
+
+#: kgrab.cpp:668
+#, kde-format
+msgid "Preview of the snapshot image (%1 x %2)"
+msgstr "抓图预览(%1x%2)"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KGrabWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, SettingsDialog)
+#: kgrab_settings.ui:13 kgrabwidget.ui:13 main.cpp:34
+msgid "KGrab"
+msgstr "KGrab"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: kgrab_settings.ui:43
+msgid "Cap&ture mode:"
+msgstr "抓图模式(&T)："
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, spinDelay)
+#: kgrab_settings.ui:53
+msgid "Snapshot delay in seconds"
+msgstr "以秒计的抓图延时"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, spinDelay)
+#: kgrab_settings.ui:63
+msgid ""
+"<qt>\n"
+"This is the number of seconds to wait after clicking the <i>New Snapshot</i> "
+"button before taking the snapshot.\n"
+"<p>\n"
+"This is very useful for getting windows, menus and other items on the screen "
+"set up just the way you want.\n"
+"<p>\n"
+"If <i>no delay</i> is set, the program will wait for a mouse click before "
+"taking a snapshot.\n"
+"</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"这里指定了单击<i>新建抓图</i>按钮后要等多少秒才执行实际的抓取。\n"
+"<p>\n"
+"如果要以您希望的方式获得窗口、菜单或屏幕上其它项目的抓图，那么此选项非常有"
+"用。\n"
+"<p>\n"
+"如果设置<i>无延时</i>，程序将会在抓取之前等候鼠标单击。\n"
+"</p>\n"
+"</qt>"
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, spinDelay)
+#: kgrab_settings.ui:66
+msgid "No delay"
+msgstr "无延时"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinDelay)
+#: kgrab_settings.ui:69
+msgid " sec"
+msgstr "秒"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, comboMode)
+#: kgrab_settings.ui:94
+msgid ""
+"<qt>Using this menu, you can select from the four following snapshot modes:\n"
+"<p>\n"
+"<b>Full Screen</b> - captures the entire desktop.<br>\n"
+"<b>Window Under Cursor</b> - captures only the window (or menu) that is "
+"under the mouse cursor when the snapshot is taken.<br>\n"
+"<b>Region</b> - captures only the region of the desktop that you specify. "
+"When taking a new snapshot in this mode you will be able to select any area "
+"of the screen by clicking and dragging the mouse.</p>\n"
+"<b>Section of Window</b> - captures only a section of the window. When "
+"taking a new snapshot in this mode you will be able to select any child "
+"window by moving the mouse over it.</p></qt>"
+msgstr ""
+"<qt>使用此菜单，您可以从下面四种抓图方式种选择：\n"
+"<p>\n"
+"<b>全屏</b> - 抓取整个屏幕。<br>\n"
+"<b>光标处的窗口</b> - 只抓取当抓图动作发生时鼠标指针所在的窗口或菜单。<br>\n"
+"<b>区域</b> - 只抓取您指定的桌面区域。如果您以此模式抓图，您就可以通过单击并"
+"拖曳鼠标来选择屏幕的任何区域。<br>\n"
+"<b>窗口节</b> - 只抓取窗口的一节。以此模式抓新图时，您将可以使用鼠标选择任何"
+"子窗口。</p></qt>"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: kgrab_settings.ui:98
+msgid "Full Screen"
+msgstr "全屏"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: kgrab_settings.ui:103
+msgid "Window Under Cursor"
+msgstr "光标处的窗口"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: kgrab_settings.ui:108
+msgid "Region"
+msgstr "区域"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboMode)
+#: kgrab_settings.ui:113
+msgid "Section of Window"
+msgstr "窗口节"
+
+#. i18n: ectx: property (text), widget (QLabel, lblDelay)
+#: kgrab_settings.ui:121
+msgid "Snapshot &delay:"
+msgstr "抓图延时(&D)："
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbIncludeDecorations)
+#: kgrab_settings.ui:131
+msgid ""
+"When enabled, snapshot of a window will also include the window decorations"
+msgstr "启用时，窗口的抓图也会包含窗口的装饰"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbIncludeDecorations)
+#: kgrab_settings.ui:134
+msgid "Include &window decorations"
+msgstr "包含窗口装饰(&W)"
+
+#. i18n: ectx: Menu (file)
+#: kgrabui.rc:4
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (edit)
+#: kgrabui.rc:14
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (settings)
+#: kgrabui.rc:17
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kgrabui.rc:23
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: property (whatsThis), widget (KGrabPreview, lblImage)
+#: kgrabwidget.ui:48
+msgid ""
+"This is a preview of the current snapshot.\n"
+"\n"
+"The image can be dragged to another application or document to copy the full "
+"screenshot there. Try it with the Konqueror file manager.\n"
+"\n"
+"You can also copy the image to the clipboard by pressing Ctrl+C."
+msgstr ""
+"这是当前抓图的缩略图。\n"
+"\n"
+"将该图像拖曳到其它应用程序或文档中即可将完整的抓图复制到目的位置。请用 "
+"Konqueror 文件管理器尝试一下。\n"
+"\n"
+"您也可以将图像复制到剪贴板，只需按 Ctrl+C。"
+
+#: main.cpp:30
+msgid "KDE Screen Grabbing Utility"
+msgstr "KDE 屏幕抓取工具"
+
+#: main.cpp:36
+msgid ""
+"(c) 2006 Marcus Hufgard \n"
+"(c) 1997-2004, Richard J. Moore,\n"
+"(c) 2000, Matthias Ettrich,\n"
+"(c) 2002-2003 Aaron J. Seigo"
+msgstr ""
+"(c) 2006 Marcus Hufgard \n"
+"(c) 1997-2004，Richard J. Moore,\n"
+"(c) 2000，Matthias Ettrich,\n"
+"(c) 2002-2003 Aaron J. Seigo"
+
+#: main.cpp:37
+msgid "Marcus Hufgard"
+msgstr "Marcus Hufgard"
+
+#: main.cpp:37
+msgid "Maintainer"
+msgstr "维护者"
+
+#: main.cpp:38
+msgid "Richard J. Moore"
+msgstr "Richard J. Moore"
+
+#: main.cpp:38 main.cpp:39
+msgid "KSnapshot"
+msgstr "KSnapshot"
+
+#: main.cpp:39
+msgid "Matthias Ettrich"
+msgstr "Matthias Ettrich"
+
+#: main.cpp:40
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:40
+msgid "KSnaphsot"
+msgstr "KSnaphsot"
+
+#: main.cpp:41
+msgid "Nadeem Hasan"
+msgstr "Nadeem Hasan"
+
+#: main.cpp:41
+msgid ""
+"On KSnapshot\n"
+"Region Grabbing, Reworked GUI"
+msgstr ""
+"基于 KSnapshot \n"
+"区域抓取、界面重做"
+
+#: main.cpp:46
+msgid "Captures the window under the mouse on startup (instead of the desktop)"
+msgstr "启动时抓取鼠标下的窗口(而不是桌面)"
+
+#: openwith.cpp:39
+msgid "Open With"
+msgstr "打开方式"
+
+#: openwith.cpp:74
+msgid "Other application"
+msgstr "其他应用程序"

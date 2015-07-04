@@ -1,0 +1,3934 @@
+# translation of knode.po to 简体中文
+# Copyright (C) 2003, 2009 Free Software Foundation, Inc.
+#
+# Li Zongliang <li-zongliang@21cn.com>, 2001.
+# Funda Wang <fundawang@en2china.com>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+# Feng Chao <rainofchaos@gmail.com>, 2010, 2011, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: knode\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-04 01:34+0000\n"
+"PO-Revision-Date: 2013-04-04 19:25+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#: aboutdata.cpp:30
+msgid "Maintainer"
+msgstr "维护者"
+
+#: aboutdata.cpp:31 aboutdata.cpp:32
+msgid "Former maintainer"
+msgstr "先前维护者"
+
+#: aboutdata.cpp:46 knjobdata.cpp:154
+msgid "KNode"
+msgstr "KNode"
+
+#: aboutdata.cpp:48
+msgid "A newsreader for KDE"
+msgstr "KDE 新闻组阅读器"
+
+#: aboutdata.cpp:50
+#, fuzzy
+#| msgid "Copyright © 1999–2010 KNode authors"
+msgid "Copyright © 1999–2014 KNode authors"
+msgstr "Copyright © 1999–2010 KNode 作者"
+
+#: aboutdata.cpp:59
+msgid "Jakob Schroeter"
+msgstr "Jakob Schroeter"
+
+#: articlewidget.cpp:157
+msgid "F&ind in Article..."
+msgstr "在文章中查找(&I)..."
+
+#: articlewidget.cpp:159
+msgid "&View Source"
+msgstr "查看源码(&V)"
+
+#: articlewidget.cpp:164
+msgid "&Followup to Newsgroup..."
+msgstr "回复到新闻组(&F)..."
+
+#: articlewidget.cpp:169
+msgid "Reply by E&mail..."
+msgstr "用邮件回复(&M)..."
+
+#: articlewidget.cpp:174
+msgid "Forw&ard by Email..."
+msgstr "用邮件转发(&A)..."
+
+#: articlewidget.cpp:178
+msgctxt "article"
+msgid "&Cancel Article"
+msgstr "撤消文章(&C)"
+
+#: articlewidget.cpp:181
+msgid "S&upersede Article"
+msgstr "替换文章(&U)"
+
+#: articlewidget.cpp:184
+msgid "U&se Fixed Font"
+msgstr "使用固定字体(&S)"
+
+#: articlewidget.cpp:188
+msgid "Fancy Formatting"
+msgstr "亮丽格式"
+
+#: articlewidget.cpp:193
+msgid "&Unscramble (Rot 13)"
+msgstr "ROT13 解码(&U)"
+
+#: articlewidget.cpp:200
+msgid "&Headers"
+msgstr "信头(&H)"
+
+#: articlewidget.cpp:202
+msgid "&Fancy Headers"
+msgstr "亮丽信头(&F)"
+
+#: articlewidget.cpp:207
+msgid "&Standard Headers"
+msgstr "标准信头(&S)"
+
+#: articlewidget.cpp:212
+msgid "&All Headers"
+msgstr "所有信头(&A)"
+
+#: articlewidget.cpp:219
+msgid "&Attachments"
+msgstr "附件(&A)"
+
+#: articlewidget.cpp:221
+msgid "&As Icon"
+msgstr "以图标显示(&A)"
+
+#: articlewidget.cpp:226
+msgid "&Inline"
+msgstr "内嵌(&I)"
+
+#: articlewidget.cpp:231
+msgid "&Hide"
+msgstr "隐藏(&H)"
+
+#: articlewidget.cpp:237
+msgid "Set chars&et"
+msgstr "设置字符集(&E)"
+
+#: articlewidget.cpp:240 articlewidget.cpp:1409
+msgctxt "@item default character set"
+msgid "Default"
+msgstr "默认"
+
+#: articlewidget.cpp:245
+msgid "Set charset"
+msgstr "设置字符集"
+
+#: articlewidget.cpp:251
+msgid "&Open URL"
+msgstr "打开 URL(&O)"
+
+#: articlewidget.cpp:255
+msgid "&Copy Link Address"
+msgstr "复制链接地址(&C)"
+
+#: articlewidget.cpp:259
+msgid "&Bookmark This Link"
+msgstr "将链接加入书签(&B)"
+
+#: articlewidget.cpp:262
+msgid "&Add to Address Book"
+msgstr "添加到地址簿(&A)"
+
+#: articlewidget.cpp:265
+msgid "&Open in Address Book"
+msgstr "在地址簿中打开(&O)"
+
+#: articlewidget.cpp:269
+msgid "&Open Attachment"
+msgstr "打开附件(&O)"
+
+#: articlewidget.cpp:273
+msgid "&Save Attachment As..."
+msgstr "附件另存为(&S)..."
+
+#: articlewidget.cpp:395
+msgid "Unable to load the article."
+msgstr "无法加载文章。"
+
+#: articlewidget.cpp:427
+msgid "The article contains no data."
+msgstr "文章中不包含数据。"
+
+#: articlewidget.cpp:463
+msgid "Unknown charset. Default charset is used instead."
+msgstr "未知的字符集。现改用默认字符集。"
+
+#: articlewidget.cpp:523
+msgid ""
+"<br /><b>This article has the MIME type &quot;message/partial&quot;, which "
+"KNode cannot handle yet.<br />Meanwhile you can save the article as a text "
+"file and reassemble it by hand.</b>"
+msgstr ""
+"<br /><b>这篇文章包含了 KNode 还不能处理的 Mime 类型“message/partial”。<br />"
+"您可以将它保存为纯文本文件再手工处理它。</b>"
+
+#: articlewidget.cpp:539
+msgid ""
+"<b>Note:</b> This is an HTML message. For security reasons, only the raw "
+"HTML code is shown. If you trust the sender of this message then you can "
+"activate formatted HTML display for this message <a href=\"knode:showHTML"
+"\">by clicking here</a>."
+msgstr ""
+"<b>注意：</b>这是一封 HTML 邮件。出于安全考虑，现在只显示 HTML 源代码。如果您"
+"信任此邮件的发件人，可以<a href=\"knode:showHTML\">点击这里</a>激活 HTML 格式"
+"显示。"
+
+#: articlewidget.cpp:584
+msgid "An error occurred."
+msgstr "发生错误。"
+
+#: articlewidget.cpp:703
+msgid "References:"
+msgstr "引用："
+
+#: articlewidget.cpp:786
+#, kde-format
+msgid "Message was signed with unknown key 0x%1."
+msgstr "邮件用未知的密钥 0x%1 签名。"
+
+#: articlewidget.cpp:789
+msgid "The validity of the signature cannot be verified."
+msgstr "签名有效性无法验证。"
+
+#: articlewidget.cpp:807
+#, kde-format
+msgid "Message was signed by %1 (Key ID: 0x%2)."
+msgstr "邮件由 %1 签名(密钥 ID：0x%2)。"
+
+#: articlewidget.cpp:811
+#, kde-format
+msgid "Message was signed by %1."
+msgstr "消息由 %1 签名。"
+
+#: articlewidget.cpp:821
+msgid "The signature is valid, but the key's validity is unknown."
+msgstr "签名是有效的，但无法确认密钥的有效性。"
+
+#: articlewidget.cpp:825
+msgid "The signature is valid and the key is marginally trusted."
+msgstr "签名是有效的，且密钥可以勉强信任。"
+
+#: articlewidget.cpp:829
+msgid "The signature is valid and the key is fully trusted."
+msgstr "签名是有效的，且密钥可以完全信任。"
+
+#: articlewidget.cpp:833
+msgid "The signature is valid and the key is ultimately trusted."
+msgstr "签名是有效的，且密钥可以绝对信任。"
+
+#: articlewidget.cpp:837
+msgid "The signature is valid, but the key is untrusted."
+msgstr "签名是有效的，但密钥不被信任。"
+
+#: articlewidget.cpp:841
+msgid "Warning: The signature is bad."
+msgstr "警告：签名有错误。"
+
+#: articlewidget.cpp:858
+msgid "End of signed message"
+msgstr "签名信件结束"
+
+#: articlewidget.cpp:874
+msgid "unnamed"
+msgstr "未命名"
+
+#: articlewidget.cpp:1072
+#, kde-format
+msgid ""
+"An error occurred while downloading the article source:\n"
+"%1"
+msgstr ""
+"下载文章源时发生了错误：\n"
+"%1"
+
+#: articlewidget.cpp:1427 kncomposer.cpp:1247
+msgid "Select Charset"
+msgstr "选择字符集"
+
+#. i18n: ectx: property (text), widget (QLabel, mIdentitySelectorLabel)
+#: composer/composer_view.ui:45 configuration/identity_edition_dialog.ui:29
+#: configuration/identity_widget.ui:47
+msgctxt "@label:listbox"
+msgid "Identity:"
+msgstr "身份："
+
+#. i18n: ectx: property (text), widget (QLabel, mToLabel)
+#: composer/composer_view.ui:55
+msgctxt "@label:textbox email recipient of a message"
+msgid "To:"
+msgstr "收件人："
+
+#. i18n: ectx: property (text), widget (KPushButton, mToButton)
+#: composer/composer_view.ui:68
+msgctxt "@action:button open a dialog to choose email recipients"
+msgid "Browse..."
+msgstr "浏览..."
+
+#. i18n: ectx: property (text), widget (QLabel, mGroupsLabel)
+#: composer/composer_view.ui:75
+msgctxt "@label:textbox"
+msgid "Groups:"
+msgstr "组："
+
+#. i18n: ectx: property (text), widget (QLabel, mFollowuptoLabel)
+#: composer/composer_view.ui:85
+msgctxt "@label"
+msgid "Followup-To:"
+msgstr "跟文到："
+
+#. i18n: ectx: property (text), widget (QLabel, mSubjetLabel)
+#: composer/composer_view.ui:95
+msgctxt "@label:textbox subject of a message"
+msgid "Subject:"
+msgstr "主题："
+
+#. i18n: ectx: property (text), widget (KPushButton, mGroupsButton)
+#: composer/composer_view.ui:105
+msgctxt "@action:button open a dialog to choose newsgroups"
+msgid "Browse..."
+msgstr "浏览..."
+
+#. i18n: ectx: property (text), widget (QLabel, mFromLabel)
+#: composer/composer_view.ui:115
+msgctxt "@label:textbox"
+msgid "From:"
+msgstr "发件人："
+
+#. i18n: ectx: property (whatsThis), widget (KNode::Composer::FollowuptoCombobox, mFollowuptoEdit)
+#: composer/composer_view.ui:137
+msgid ""
+"<qt>\n"
+"<p>The group <strong>where the replies to your message should be sent</"
+"strong>. Use this field when you are sending it to more than one group.<br /"
+">\n"
+"This group is usually the place where you expect the discussion you\n"
+"  are starting to fit the best.</p>\n"
+"\n"
+"<p>Remember to subscribe to this group if you are not yet.</p>\n"
+"\n"
+"<p><note>It is also good practice to indicate the \"followup-to\"\n"
+"  in your message to inform readers.</note></p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>这是<strong>别人回复您的信件时要发送到的群组</strong>。如果您的信件需同时"
+"发送到多个邮件组，请设定此项。<br />\n"
+"这个邮件组通常会是您经常参与讨论的群组。</p>\n"
+"\n"
+"<p>如果不是这样，请您记得订阅此群组。</p>\n"
+"\n"
+"<p><note>一般来说，在信件中指定“回复到(followup-to)”地址是个不错的选择。</"
+"note></p>\n"
+"</qt>"
+
+#. i18n: ectx: property (text), widget (QLabel, mExternalKillSwitchLabel)
+#: composer/composer_view.ui:196
+msgid ""
+"You are currently editing the article body\n"
+"in an external editor. To continue, you have\n"
+"to close the external editor."
+msgstr ""
+"您正在一个外部编辑器中编辑文章正文，\n"
+"要继续您必须关闭外部编辑器。"
+
+#. i18n: ectx: property (text), widget (KPushButton, mExternalKillSwitch)
+#: composer/composer_view.ui:203
+msgctxt "@action:button"
+msgid "Kill external editor"
+msgstr "结束外部编辑器"
+
+#. i18n: ectx: property (text), widget (KNode::Composer::AttachmentView, mAttachmentsList)
+#: composer/composer_view.ui:256
+msgctxt "@title:column list of attachments of a message"
+msgid "File"
+msgstr "文件"
+
+#. i18n: ectx: property (text), widget (KNode::Composer::AttachmentView, mAttachmentsList)
+#: composer/composer_view.ui:261
+msgctxt "@title:column list of attachments of a message"
+msgid "Type"
+msgstr "类型"
+
+#. i18n: ectx: property (text), widget (KNode::Composer::AttachmentView, mAttachmentsList)
+#: composer/composer_view.ui:266
+msgctxt "@title:column list of attachments of a message"
+msgid "Size"
+msgstr "大小"
+
+#. i18n: ectx: property (text), widget (KNode::Composer::AttachmentView, mAttachmentsList)
+#: composer/composer_view.ui:271
+msgctxt "@title:column list of attachments of a message"
+msgid "Description"
+msgstr "描述"
+
+#. i18n: ectx: property (text), widget (KNode::Composer::AttachmentView, mAttachmentsList)
+#: composer/composer_view.ui:276
+msgctxt "@title:column list of attachments of a message"
+msgid "Encoding"
+msgstr "编码"
+
+#. i18n: ectx: property (text), widget (KPushButton, mAttachmentAddButton)
+#: composer/composer_view.ui:284
+msgctxt "@action:button Open a dialog to add a message attachment"
+msgid "Add..."
+msgstr "添加..."
+
+#. i18n: ectx: property (text), widget (KPushButton, mAttachmentPropertiesButton)
+#: composer/composer_view.ui:291
+msgctxt ""
+"@action:button open a dialog displaying properties of a message attachment"
+msgid "Properties"
+msgstr "属性"
+
+#. i18n: ectx: property (text), widget (KPushButton, mAttachmentRemoveButton)
+#: composer/composer_view.ui:311
+msgctxt "@action:button remove an attachment of a message"
+msgid "Remove"
+msgstr "删除"
+
+#: configuration/identity_edition_dialog.cpp:43
+msgctxt "@title:window"
+msgid "Manage your identities"
+msgstr "管理身份"
+
+#: configuration/identity_edition_dialog.cpp:45
+msgctxt "@action:button Change signing key"
+msgid "Change..."
+msgstr "更改..."
+
+#: configuration/identity_edition_dialog.cpp:46
+msgctxt "@title:window PGP key chooser"
+msgid "Your OpenPGP Key"
+msgstr "您的 OpenPGP 密钥"
+
+#: configuration/identity_edition_dialog.cpp:47
+msgid "Select the OpenPGP key which should be used for signing articles."
+msgstr "您选中的 OpenPGP 密钥将被用来签署您的文章。"
+
+#: configuration/identity_edition_dialog.cpp:190
+msgctxt "Name of a newly created identity"
+msgid "New identity"
+msgstr "新建身份"
+
+#: configuration/identity_edition_dialog.cpp:260
+#, kde-format
+msgid ""
+"<qt>Do you really want to remove the identity <emphasis>%1</emphasis>?</qt>"
+msgstr "<qt>您真的想要删除身份 <emphasis>%1</emphasis> 吗?</qt>"
+
+#: configuration/identity_edition_dialog.cpp:262
+msgctxt "@title:window"
+msgid "Delete identity"
+msgstr "删除身份"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, mButtonNewIdentity)
+#: configuration/identity_edition_dialog.ui:67
+msgid "Create an identity"
+msgstr "创建身份"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, mButtonDuplicateIdentity)
+#: configuration/identity_edition_dialog.ui:92
+msgid "Duplicate this identity"
+msgstr "复制此身份"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, mButtonRenameIdentity)
+#: configuration/identity_edition_dialog.ui:117
+msgid "Rename this identity"
+msgstr "重命名此身份"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, mButtonRemoveIdentity)
+#: configuration/identity_edition_dialog.ui:142
+msgid "Remove this identity"
+msgstr "删除此身份"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, mNameLabel)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, mNameEdit)
+#: configuration/identity_edition_dialog.ui:159
+#: configuration/identity_edition_dialog.ui:175
+msgid ""
+"<qt>\n"
+"  <p>Your name as it will appear to others reading your articles.</p>\n"
+"  <p>Ex: <b>John Stuart Masterson III</b>.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>您的名字会让其他阅读您的文章的人看到。</p>\n"
+"<p>例如：<b>鲁邦三世</b>。</p>\n"
+"</qt>"
+
+#. i18n: ectx: property (text), widget (QLabel, mNameLabel)
+#: configuration/identity_edition_dialog.ui:162
+#: configuration/identity_widget.ui:97
+msgctxt "@label:textbox Name of the user in a message"
+msgid "Name:"
+msgstr "名称："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, mOrganisationLabel)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, mOrganisationEdit)
+#: configuration/identity_edition_dialog.ui:185
+#: configuration/identity_edition_dialog.ui:201
+msgid ""
+"<qt>\n"
+"  <p>The name of the organization you work for.</p>\n"
+"  <p>Ex: <b>KNode, Inc</b>.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>您供职的机构名称。</p><p>例如：<b>KNode 公司</b>。</p>\n"
+"</qt>"
+
+#. i18n: ectx: property (text), widget (QLabel, mOrganisationLabel)
+#: configuration/identity_edition_dialog.ui:188
+#: configuration/identity_widget.ui:104
+msgid "Organization:"
+msgstr "组织："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, mEmailLabel)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, mEmailEdit)
+#: configuration/identity_edition_dialog.ui:211
+#: configuration/identity_edition_dialog.ui:227
+msgid ""
+"<qt>\n"
+"  <p>Your email address as it will appear to others reading your articles</"
+"p>\n"
+"  <p>Ex: <b>nospam@please.com</b>.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>您的电子邮件地址会让其他阅读您的文章的人看到。</p><p>例如："
+"<b>nospam@please.com</b>。</p>\n"
+"</qt>"
+
+#. i18n: ectx: property (text), widget (QLabel, mEmailLabel)
+#: configuration/identity_edition_dialog.ui:214
+#: configuration/identity_widget.ui:111
+msgid "Email address:"
+msgstr "电子邮件地址："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, mReplytoLabel)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, mReplytoEdit)
+#: configuration/identity_edition_dialog.ui:237
+#: configuration/identity_edition_dialog.ui:253
+msgid ""
+"<qt>\n"
+"  <p>When someone replies to your article by email, this is the address to "
+"which the message will be sent. If you fill in this field, please do so with "
+"a real email address.</p>\n"
+"  <p>Ex: <b>john@example.com</b>.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>如果其他人要通过邮件回复您的文章，这便是邮件要发送到的地址。如果您填写此字"
+"段，请使用真实的邮件地址。</p>\n"
+"<p>例如：<b>john@example.com</b>。</p>\n"
+"</qt>"
+
+#. i18n: ectx: property (text), widget (QLabel, mReplytoLabel)
+#: configuration/identity_edition_dialog.ui:240
+#: configuration/identity_widget.ui:118
+msgid "Reply-to address:"
+msgstr "回信地址："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, mMailcopiestoLabel)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, mMailcopiestoEdit)
+#: configuration/identity_edition_dialog.ui:263
+#: configuration/identity_edition_dialog.ui:279
+msgid ""
+"<qt>\n"
+"  <p>When someone replies to your article on a group, you can ask to be sent "
+"a copy by email. This is the address to which this copy will be sent. If you "
+"fill in this field, please do so with a real email address.</p>\n"
+"  <p>Ex: <b>john@example.com</b>.</p>\n"
+"</qt>"
+msgstr ""
+"<qt>\n"
+"<p>如果其他人要通过邮件回复您的文章，这便是邮件要发送到的地址。如果您填写此字"
+"段，请使用真实的邮件地址。</p>\n"
+"<p>例如：<b>john@example.com</b>。</p>\n"
+"</qt>"
+
+#. i18n: ectx: property (text), widget (QLabel, mMailcopiestoLabel)
+#: configuration/identity_edition_dialog.ui:266
+#: configuration/identity_widget.ui:125
+msgid "Mail-copies-to:"
+msgstr "邮件抄送到："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, mSigningKeyRequesterLabel)
+#. i18n: ectx: property (whatsThis), widget (Kleo::SigningKeyRequester, mSigningKeyRequester)
+#: configuration/identity_edition_dialog.ui:286
+#: configuration/identity_edition_dialog.ui:296
+msgid ""
+"<qt><p>The OpenPGP key you choose here will be used to sign your articles.</"
+"p></qt>"
+msgstr "<qt><p>您选中的 OpenPGP 密钥将被用来签署您的文章。</p></qt>"
+
+#. i18n: ectx: property (text), widget (QLabel, mSigningKeyRequesterLabel)
+#: configuration/identity_edition_dialog.ui:289
+msgid "Signing key:"
+msgstr "签名密钥："
+
+#. i18n: ectx: property (text), widget (QCheckBox, mUseSpecificIdentity)
+#: configuration/identity_widget.ui:20
+msgid "Use a specific identity"
+msgstr "使用特定身份"
+
+#. i18n: ectx: property (text), widget (KPushButton, mModifyIdentitiesButton)
+#: configuration/identity_widget.ui:67
+msgid "Modify..."
+msgstr "修改..."
+
+#: foldertreewidget.cpp:369
+msgid "Local"
+msgstr "本地"
+
+#: foldertreewidget.cpp:372
+msgid "IMAP"
+msgstr "IMAP"
+
+#: foldertreewidget.cpp:375
+msgid "Cached IMAP"
+msgstr "缓存的 IMAP"
+
+#: foldertreewidget.cpp:378
+msgid "News"
+msgstr "新闻"
+
+#: foldertreewidget.cpp:381
+msgid "Search"
+msgstr "搜索"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mEncNone)
+#: foldertreewidget.cpp:384 nntpaccountdialog_base.ui:160
+msgid "None"
+msgstr "无"
+
+#: foldertreewidget.cpp:390
+msgid "Unknown"
+msgstr "未知"
+
+#: headerview.cpp:48 knarticlefactory.cpp:315 knfilterconfigwidget.cpp:36
+msgid "Subject"
+msgstr "主题"
+
+#: headerview.cpp:49 headerview.cpp:435 knarticlefactory.cpp:316
+#: knfilterconfigwidget.cpp:38
+msgid "From"
+msgstr "发件人"
+
+#: headerview.cpp:50 headerview.cpp:80 knfilterconfigwidget.cpp:63
+msgid "Score"
+msgstr "评分"
+
+#: headerview.cpp:51 knfilterconfigwidget.cpp:67
+msgid "Lines"
+msgstr "行数"
+
+#: headerview.cpp:52 headerview.cpp:225 knarticlefactory.cpp:317
+msgid "Date"
+msgstr "日期"
+
+#: headerview.cpp:77 treewidget.cpp:217
+msgid "View Columns"
+msgstr "查看列"
+
+#: headerview.cpp:79
+msgid "Line Count"
+msgstr "行数"
+
+#: headerview.cpp:223
+msgid "Date (thread changed)"
+msgstr "日期(线索已更改)"
+
+#: headerview.cpp:443
+msgid "Newsgroups / To"
+msgstr "新闻组/到"
+
+#: knaccountmanager.cpp:125
+msgid "Cannot create a folder for this account."
+msgstr "无法为该账户创建文件夹。"
+
+#: knaccountmanager.cpp:140
+msgid ""
+"This account cannot be deleted since there are some unsent messages for it."
+msgstr "该账户不能删除，因为它还有一些消息未发送。"
+
+#. i18n: ectx: property (text), widget (QPushButton, mDeleteButton)
+#: knaccountmanager.cpp:143 knarticlemanager.cpp:584 knconfigwidgets.cpp:771
+#: knfiltermanager.cpp:261 knmainwidget.cpp:1537 knmainwidget.cpp:1588
+#: nntpaccountlistwidget_base.ui:69
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: knaccountmanager.cpp:143
+msgid "Do you really want to delete this account?"
+msgstr "您真的要删除这个账户吗？"
+
+#: knaccountmanager.cpp:148
+msgid ""
+"At least one group of this account is currently in use.\n"
+"The account cannot be deleted at the moment."
+msgstr ""
+"该账户所属的组至少还有一个正在使用，\n"
+"此刻不能删除该账户。"
+
+#: knarticlefactory.cpp:149
+msgid ""
+"The author has requested a reply by email instead\n"
+"of a followup to the newsgroup. (Followup-To: poster)\n"
+"Do you want to reply in public anyway?"
+msgstr ""
+"作者要求直接回复而不是回复到新闻组里。\n"
+"(Followup-To: 发件人)\n"
+"您是否仍然想要公开回复？"
+
+#: knarticlefactory.cpp:149
+msgid "Reply Public"
+msgstr "公开回复"
+
+#: knarticlefactory.cpp:149
+msgid "Reply by Email"
+msgstr "用邮件回复"
+
+#: knarticlefactory.cpp:197
+msgid "The author requested a mail copy of your reply. (Mail-Copies-To header)"
+msgstr "作者请您用邮件回复。(Mail-Copies-To 信头)"
+
+#: knarticlefactory.cpp:287
+msgid ""
+"This article contains attachments. Do you want them to be forwarded as well?"
+msgstr "该文章包含了附件。您想同时转发附件吗？"
+
+#: knarticlefactory.cpp:287
+msgid "Forward"
+msgstr "转发"
+
+#: knarticlefactory.cpp:287
+msgid "Do Not Forward"
+msgstr "不转发"
+
+#: knarticlefactory.cpp:313
+msgid "Forwarded message (begin)"
+msgstr "转发的消息(开始)"
+
+#: knarticlefactory.cpp:318
+msgid "Newsgroup"
+msgstr "新闻组"
+
+#: knarticlefactory.cpp:324
+msgid "Forwarded message (end)"
+msgstr "转发的消息(结束)"
+
+#: knarticlefactory.cpp:359
+msgid "Do you really want to cancel this article?"
+msgstr "您真的要取消这篇文章吗？"
+
+#: knarticlefactory.cpp:359
+msgid "Cancel Article"
+msgstr "撤消文章"
+
+#: knarticlefactory.cpp:363
+msgid ""
+"Do you want to send the cancel\n"
+"message now or later?"
+msgstr "您要现在还是稍后再发撤消消息？"
+
+#: knarticlefactory.cpp:363
+msgid "Question"
+msgstr "问题"
+
+#: knarticlefactory.cpp:363
+msgid "&Now"
+msgstr "现在(&N)"
+
+#: knarticlefactory.cpp:363
+msgid "&Later"
+msgstr "稍后(&L)"
+
+#: knarticlefactory.cpp:378 knarticlefactory.cpp:456 kncomposer.cpp:1449
+msgid "You have no valid news accounts configured."
+msgstr "您还没有配置有效的新闻组账户。"
+
+#: knarticlefactory.cpp:440
+msgid "Do you really want to supersede this article?"
+msgstr "您真的要替换这篇文章吗？"
+
+#: knarticlefactory.cpp:440
+msgid "Supersede"
+msgstr "替换"
+
+#: knarticlefactory.cpp:574
+msgid "This article cannot be edited."
+msgstr "无法编辑这篇文章。"
+
+#: knarticlefactory.cpp:606
+msgid "Article has already been sent."
+msgstr "文章已经发送出。"
+
+#: knarticlefactory.cpp:623
+msgid "Unable to load article."
+msgstr "无法载入文章。"
+
+#: knarticlefactory.cpp:664
+msgid "Unable to load the outbox-folder."
+msgstr "无法载入发件箱。"
+
+#: knarticlefactory.cpp:727
+msgid ""
+"You canceled the article posting. The unsent articles are stored in the "
+"\"Outbox\" folder."
+msgstr "您已中止发送此文章。未发送文章已被存储到“发件箱”目录内。"
+
+#: knarticlefactory.cpp:774
+msgid ""
+"Please set a hostname for the generation\n"
+"of the message-id or disable it."
+msgstr "请设置产生消息号的主机名，或不使用。"
+
+#: knarticlefactory.cpp:810
+#, kde-format
+msgid ""
+"<qt>Please enter a valid email address for the identity named <emphasis>%1</"
+"emphasis> at the identity section of the configuration dialog.</qt>"
+msgstr ""
+"<qt>请在配置对话框的身份部分中为身份<emphasis>%1</emphasis>输入一个有效的电子"
+"邮件地址。</qt>"
+
+#: knarticlefactory.cpp:892
+msgid "Emails cannot be canceled or superseded."
+msgstr "电子邮件不能被取消或替换。"
+
+#: knarticlefactory.cpp:898
+msgid "Cancel messages cannot be canceled or superseded."
+msgstr "撤消消息不能被撤消或替换。"
+
+#: knarticlefactory.cpp:903
+msgid "Only sent articles can be canceled or superseded."
+msgstr "只有已发送的文章能被取消或替换。"
+
+#: knarticlefactory.cpp:908
+msgid "This article has already been canceled or superseded."
+msgstr "这篇文章已经被取消或替换。"
+
+#: knarticlefactory.cpp:915
+msgid ""
+"This article cannot be canceled or superseded,\n"
+"because its message-id has not been created by KNode.\n"
+"But you can look for your article in the newsgroup\n"
+"and cancel (or supersede) it there."
+msgstr ""
+"这篇文章不能被撤消或替换，因为它的消息号不是由 KNode 产生的。\n"
+"但是您可以从邮件组中找到您的文章，在那里取消或替换它。"
+
+#: knarticlefactory.cpp:936
+msgid ""
+"This article does not appear to be from you.\n"
+"You can only cancel or supersede your own articles."
+msgstr "这篇文章不是您发表的，您只能取消或替换自己的文章。"
+
+#: knarticlefactory.cpp:941
+msgid ""
+"You have to download the article body\n"
+"before you can cancel or supersede the article."
+msgstr "在取消或替换文章前，您必须下载文章正文。"
+
+#: knarticlefactory.cpp:1035
+msgid "Errors While Sending"
+msgstr "发送时的错误"
+
+#: knarticlefactory.cpp:1041
+msgid "Errors occurred while sending these articles:"
+msgstr "发送这些文章时发生错误："
+
+#: knarticlefactory.cpp:1042
+msgid "The unsent articles are stored in the \"Outbox\" folder."
+msgstr "未发送文章已被存储到“发件箱”目录下。"
+
+#: knarticlefactory.cpp:1072
+msgid "<b>Error message:</b><br />"
+msgstr "<b>错误消息：</b><br />"
+
+#: knarticlefilter.cpp:34
+msgctxt "default filter name"
+msgid "all"
+msgstr "全部"
+
+#: knarticlefilter.cpp:35
+msgctxt "default filter name"
+msgid "unread"
+msgstr "未读"
+
+#: knarticlefilter.cpp:36
+msgctxt "default filter name"
+msgid "new"
+msgstr "新的"
+
+#: knarticlefilter.cpp:37
+msgctxt "default filter name"
+msgid "watched"
+msgstr "监视线索"
+
+#: knarticlefilter.cpp:38
+msgctxt "default filter name"
+msgid "threads with unread"
+msgstr "未读文章线索"
+
+#: knarticlefilter.cpp:39
+msgctxt "default filter name"
+msgid "threads with new"
+msgstr "新文章线索"
+
+#: knarticlefilter.cpp:40
+msgctxt "default filter name"
+msgid "own articles"
+msgstr "自己的文章"
+
+#: knarticlefilter.cpp:41
+msgctxt "default filter name"
+msgid "threads with own articles"
+msgstr "含有自己文章的线索"
+
+#: knarticlemanager.cpp:86
+msgid "Save Attachment"
+msgstr "保存附件"
+
+#: knarticlemanager.cpp:110
+msgid "Save Article"
+msgstr "保存文章"
+
+#: knarticlemanager.cpp:193
+msgid " Creating list..."
+msgstr " 正在创建列表..."
+
+#: knarticlemanager.cpp:578 kngroup.cpp:457
+msgid "no subject"
+msgstr "无主题"
+
+#: knarticlemanager.cpp:583
+msgid "Do you really want to delete these articles?"
+msgstr "您真的要删除这篇文章吗？"
+
+#: knarticlemanager.cpp:584
+msgid "Delete Articles"
+msgstr "删除文章"
+
+#: knarticlemanager.cpp:920
+#, kde-format
+msgid ""
+"The article you requested is not available on your news server.<br />You "
+"could try to get it from <a href=\"http://groups.google.com/groups?selm="
+"%1\">groups.google.com</a>."
+msgstr ""
+"您要的文章不在您的新闻服务器上。<br />您可以尝试从<a href=\"http://groups."
+"google.com/groups?selm=%1\">groups.google.com</a>获取该文章。"
+
+#: knarticlemanager.cpp:1013 kngroupbrowser.cpp:423 kngroupbrowser.cpp:436
+#: knmainwidget.cpp:298
+msgid " (moderated)"
+msgstr " (监管的)"
+
+#: knarticlemanager.cpp:1015
+#, kde-format
+msgid " %1: %2 new , %3 displayed"
+msgstr " %1：%2 封新信，显示了 %3 封"
+
+#: knarticlemanager.cpp:1019
+#, kde-format
+msgid " Filter: %1"
+msgstr " 过滤器：%1"
+
+#: knarticlemanager.cpp:1028
+#, kde-format
+msgid " %1: %2 displayed"
+msgstr " %1：显示了 %2 封"
+
+#: kncleanup.cpp:62
+#, kde-format
+msgid "Deleting expired articles in <b>%1</b>"
+msgstr "正在删除<b>%1</b>中的过期文章"
+
+#: kncleanup.cpp:68
+#, kde-format
+msgid "Compacting folder <b>%1</b>"
+msgstr "正在压缩文件夹<b>%1</b>"
+
+#: kncleanup.cpp:188
+#, kde-format
+msgid "<b>%1</b><br />expired: %2<br />left: %3"
+msgstr "<b>%1</b><br />过期：%2<br />剩余：%3"
+
+#: kncleanup.cpp:255
+msgid "Cleaning Up"
+msgstr "清理"
+
+#: kncleanup.cpp:265
+msgid "Cleaning up. Please wait..."
+msgstr "正在清理。请稍等..."
+
+#: kncollectionview.cpp:84 knconfigwidgets.cpp:874 kngroupbrowser.cpp:91
+msgid "Name"
+msgstr "名称"
+
+#: kncollectionview.cpp:85
+msgid "Unread"
+msgstr "未读"
+
+#: kncollectionview.cpp:86
+msgid "Total"
+msgstr "总计"
+
+#: kncomposer.cpp:74
+msgid "Edit Recent Addresses..."
+msgstr "编辑最近的地址..."
+
+#: kncomposer.cpp:208
+msgid "&Send Now"
+msgstr "现在发送(&S)"
+
+#: kncomposer.cpp:214
+msgid "Send &Later"
+msgstr "稍后发送(&L)"
+
+#: kncomposer.cpp:219
+msgid "Save as &Draft"
+msgstr "保存为草稿(&D)"
+
+#: kncomposer.cpp:224
+msgid "D&elete"
+msgstr "删除(&E)"
+
+#: kncomposer.cpp:241
+msgid "Paste as &Quotation"
+msgstr "粘贴为引用(&Q)"
+
+#: kncomposer.cpp:253
+msgid "Append &Signature"
+msgstr "附加签名(&S)"
+
+#: kncomposer.cpp:257
+msgid "&Insert File..."
+msgstr "插入文件(&I)..."
+
+#: kncomposer.cpp:261
+msgid "Insert File (in a &box)..."
+msgstr "插入文件(在信箱中)(&B)..."
+
+#: kncomposer.cpp:266
+msgid "Attach &File..."
+msgstr "文件作为附件(&F)..."
+
+#: kncomposer.cpp:270
+msgid "Sign Article with &PGP"
+msgstr "用&PGP签署文章"
+
+#: kncomposer.cpp:274
+msgid "&Remove"
+msgstr "删除(&R)"
+
+#: kncomposer.cpp:278
+msgid "&Properties"
+msgstr "属性(&P)"
+
+#: kncomposer.cpp:285
+msgid "Send &News Article"
+msgstr "发送新文章(&N)"
+
+#: kncomposer.cpp:290
+msgid "Send E&mail"
+msgstr "发送邮件(&M)"
+
+#: kncomposer.cpp:295
+msgid "Set &Charset"
+msgstr "设置字符集(&C)"
+
+#: kncomposer.cpp:302
+msgid "Set Charset"
+msgstr "设置字符集"
+
+#: kncomposer.cpp:308
+msgid "&Word Wrap"
+msgstr "自动换行(&W)"
+
+#: kncomposer.cpp:311
+msgid "&Automatic Spellchecking"
+msgstr "自动检查拼写(&A)"
+
+#: kncomposer.cpp:323
+msgid "Add &Quote Characters"
+msgstr "加入引用字符(&Q)"
+
+#: kncomposer.cpp:327
+msgid "&Remove Quote Characters"
+msgstr "删除引用字符(&R)"
+
+#: kncomposer.cpp:331
+msgid "Add &Box"
+msgstr "增加信箱(&B)"
+
+#: kncomposer.cpp:335
+msgid "Re&move Box"
+msgstr "删除信箱(&M)"
+
+#: kncomposer.cpp:339
+msgid "Get &Original Text (not re-wrapped)"
+msgstr "获取原始文本(不换行)(&O)"
+
+#: kncomposer.cpp:345
+msgid "S&cramble (Rot 13)"
+msgstr "Rot13 编码(&C)"
+
+#: kncomposer.cpp:352
+msgid "Start &External Editor"
+msgstr "启动外部编辑器(&E)"
+
+#: kncomposer.cpp:515 kncomposer.cpp:522 kncomposer.cpp:1204
+msgid "<posted & mailed>"
+msgstr "<已发送并寄出>"
+
+#: kncomposer.cpp:518 kncomposer.cpp:1205
+msgid ""
+"<posted & mailed>\n"
+"\n"
+msgstr ""
+"<已发送并寄出>\n"
+"\n"
+
+#: kncomposer.cpp:540
+msgid "Your email address does not appears to be valid. Please modify it."
+msgstr "您的电子邮件地址好像无效。请修改。"
+
+#: kncomposer.cpp:545
+msgid "Please enter a subject."
+msgstr "请输入主题。"
+
+#: kncomposer.cpp:555
+msgid "Please enter a newsgroup."
+msgstr "请输入一个新闻组。"
+
+#: kncomposer.cpp:560
+msgid ""
+"You are crossposting to more than 12 newsgroups.\n"
+"Please remove all newsgroups in which your article is off-topic."
+msgstr ""
+"您正将文章发到多于 12 个新闻组。\n"
+"请去掉您的文章属于偏题的新闻组。"
+
+#: kncomposer.cpp:565
+msgid ""
+"You are crossposting to more than five newsgroups.\n"
+"Please reconsider whether this is really useful\n"
+"and remove groups in which your article is off-topic.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr ""
+"您正将文章发到多于 5 个新闻组。\n"
+"请重新考虑是否真需要这样做，并去掉您的文章属于偏题\n"
+"的新闻组。\n"
+"您要重新编辑还是发出？"
+
+#: kncomposer.cpp:566 kncomposer.cpp:576 kncomposer.cpp:588 kncomposer.cpp:659
+#: kncomposer.cpp:673 kncomposer.cpp:679
+msgid "&Send"
+msgstr "发送(&S)"
+
+#: kncomposer.cpp:566 kncomposer.cpp:576 kncomposer.cpp:588 kncomposer.cpp:659
+#: kncomposer.cpp:674 kncomposer.cpp:679
+msgctxt "edit article"
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#: kncomposer.cpp:572
+msgid ""
+"You are crossposting to more than two newsgroups.\n"
+"Please use the \"Followup-To\" header to direct the replies to your article "
+"into one group.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr ""
+"您在多于两个新闻组中发文章。\n"
+"请使用“回文章到”信头将回复指向一个新闻组。\n"
+"您要重新编辑还是无视提示仍然发出？"
+
+#: kncomposer.cpp:582
+msgid ""
+"You are directing replies to more than 12 newsgroups.\n"
+"Please remove some newsgroups from the \"Followup-To\" header."
+msgstr ""
+"您将回复指向多于 12 个新闻组。\n"
+"请从“Followup-To”信头中去掉一些新闻组。"
+
+#: kncomposer.cpp:587
+msgid ""
+"You are directing replies to more than five newsgroups.\n"
+"Please reconsider whether this is really useful.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr ""
+"您将回复指向多于 5 个新闻组。\n"
+"请重新考虑是否真需要这样做。\n"
+"您要重新编辑还是发出？"
+
+#: kncomposer.cpp:594
+msgid "Please enter the email address."
+msgstr "请输入邮件地址。"
+
+#: kncomposer.cpp:647
+msgid ""
+"Your message contains characters which are not included\n"
+"in the \"us-ascii\" character set; please choose\n"
+"a suitable character set from the \"Options\" menu."
+msgstr ""
+"您的消息中包含了不在“us-ascii”字符集中的字符，\n"
+"请从“选项”菜单中选择一个合适的字符集！"
+
+#: kncomposer.cpp:652
+msgid "You cannot post an empty message."
+msgstr "您不能投递空消息。"
+
+#: kncomposer.cpp:658
+msgid ""
+"Your article seems to consist entirely of quoted text;\n"
+"do you want to re-edit the article or send it anyway?"
+msgstr ""
+"您的消息似乎只包含了引用文字；\n"
+"您要重新编辑还是发出？"
+
+#: kncomposer.cpp:663
+msgid ""
+"You cannot post an article consisting\n"
+"entirely of quoted text."
+msgstr "您不能投递只包含引用文字的文章。"
+
+#: kncomposer.cpp:671
+msgid ""
+"Your article contains lines longer than 80 characters.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr ""
+"您的文章中有些行超过了 80 个字符。\n"
+"您要重新编辑还是发出？"
+
+#: kncomposer.cpp:678
+msgid ""
+"Your signature is more than 8 lines long.\n"
+"You should shorten it to match the widely accepted limit of 4 lines.\n"
+"Do you want to re-edit the article or send it anyway?"
+msgstr ""
+"您的签名多于 8 行。\n"
+"您应该缩短它至普遍接受的 4 行限制。\n"
+"您要重新编辑还是发出？"
+
+#: kncomposer.cpp:683
+msgid ""
+"Your signature exceeds the widely-accepted limit of 4 lines:\n"
+"please consider shortening your signature;\n"
+"otherwise, you will probably annoy your readers."
+msgstr ""
+"您的签名信息超过了普遍接受的 4 行限制。\n"
+"请考虑缩短您的签名，否则将使新闻阅读器难以处理。"
+
+#: kncomposer.cpp:706
+msgid ""
+"You have not configured your preferred signing key yet;\n"
+"please specify it in the global identity configuration,\n"
+"in the account properties or in the group properties.\n"
+"The article will be sent unsigned."
+msgstr ""
+"您还没有配置您的首选签名密钥。\n"
+"请在全局标识配置或账户属性或新闻组属性中指定。\n"
+"文章将不签名发送。"
+
+#: kncomposer.cpp:713
+msgid "Send Unsigned"
+msgstr "不签署发送"
+
+#: kncomposer.cpp:905
+msgid "Do you want to save this article in the draft folder?"
+msgstr "您要将这篇文章保存在草稿文件夹吗？"
+
+#: kncomposer.cpp:1059
+msgid "Insert File"
+msgstr "插入文件"
+
+#: kncomposer.cpp:1132
+msgid "Attach File"
+msgstr "文件作为附件"
+
+#: kncomposer.cpp:1193
+msgid ""
+"The poster does not want a mail copy of your reply (Mail-Copies-To: "
+"nobody);\n"
+"please respect their request."
+msgstr ""
+"发件人不需要得到您的回复邮件副本(Mail-Copies-To: nobody)。\n"
+"请尊重他的请求。"
+
+#: kncomposer.cpp:1194
+msgid "&Send Copy"
+msgstr "发送副本(&S)"
+
+#: kncomposer.cpp:1272
+msgid "This will replace all text you have written."
+msgstr "这将会替换您所输入的所有文字。"
+
+#: kncomposer.cpp:1286
+msgid ""
+"No editor configured.\n"
+"Please do this in the settings dialog."
+msgstr "未配置编辑器。请在设置对话框中配置。"
+
+#: kncomposer.cpp:1332
+msgid ""
+"Unable to start external editor.\n"
+"Please check your configuration in the settings dialog."
+msgstr ""
+"无法启动外部编辑器。\n"
+"请在设置对话框中检查您的配置。"
+
+#: kncomposer.cpp:1349
+msgid "News Article"
+msgstr "新闻"
+
+#: kncomposer.cpp:1351
+msgid "Email"
+msgstr "电子邮件"
+
+#: kncomposer.cpp:1353
+msgid "News Article & Email"
+msgstr "新闻和电子邮件"
+
+#: kncomposer.cpp:1357
+msgid " OVR "
+msgstr " 覆盖 "
+
+#: kncomposer.cpp:1359
+msgid " INS "
+msgstr " 插入 "
+
+#: kncomposer.cpp:1361
+#, kde-format
+msgid " Type: %1 "
+msgstr " 类型：%1 "
+
+#: kncomposer.cpp:1362
+#, kde-format
+msgid " Charset: %1 "
+msgstr " 字符集：%1 "
+
+#: kncomposer.cpp:1364 kncomposer.cpp:1371
+#, kde-format
+msgid " Column: %1 "
+msgstr " 列：%1 "
+
+#: kncomposer.cpp:1365 kncomposer.cpp:1372
+#, kde-format
+msgid " Line: %1 "
+msgstr " 行：%1 "
+
+#: kncomposer.cpp:1412
+msgid "No Subject"
+msgstr "无主题"
+
+#: kncomposer.cpp:1542
+msgid "Attachment Properties"
+msgstr "附件属性"
+
+#: kncomposer.cpp:1549
+msgid "File"
+msgstr "文件"
+
+#. i18n: ectx: property (text), widget (QLabel, mNameLabel)
+#: kncomposer.cpp:1555 nntpaccountdialog_base.ui:193
+msgid "Name:"
+msgstr "名称："
+
+#: kncomposer.cpp:1557
+msgid "Size:"
+msgstr "大小："
+
+#: kncomposer.cpp:1564
+msgid "Mime"
+msgstr "Mime"
+
+#: kncomposer.cpp:1573
+msgid "&Mime-Type:"
+msgstr "&Mime类型："
+
+#: kncomposer.cpp:1580
+msgid "&Description:"
+msgstr "描述(&D)："
+
+#: kncomposer.cpp:1597
+msgid "&Encoding:"
+msgstr "编码(&E)："
+
+#: kncomposer.cpp:1632
+msgid ""
+"You have set an invalid mime-type.\n"
+"Please change it."
+msgstr "您设置了一个无效的 Mime 类型，请改正。"
+
+#: kncomposer.cpp:1637
+msgid ""
+"You have changed the mime-type of this non-textual attachment\n"
+"to text. This might cause an error while loading or encoding the file.\n"
+"Proceed?"
+msgstr ""
+"您改变了这个非文本附件的 Mime 类型，这可能会引起装载或编码该文件时发生错"
+"误。\n"
+"要继续处理吗？"
+
+#. i18n: ectx: Menu (file)
+#: kncomposerui.rc:5 knodeui.rc:5 knreaderui.rc:5
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (edit)
+#: kncomposerui.rc:13 knodeui.rc:15 knreaderui.rc:11
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (attach)
+#: kncomposerui.rc:27
+msgid "&Attach"
+msgstr "附件(&A)"
+
+#. i18n: ectx: Menu (options)
+#: kncomposerui.rc:33
+msgid "Optio&ns"
+msgstr "选项(&N)"
+
+#. i18n: ectx: Menu (tools)
+#: kncomposerui.rc:42
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kncomposerui.rc:57 knodeui.rc:131 knreaderui.rc:38
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: kncomposerview.cpp:301 kncomposerview.cpp:316
+msgctxt ""
+"@info/plain This message is place, as an inactive text, in the Followup-To "
+"line edit of the message composer when the user select more than one group "
+"to post his/her message."
+msgid "Choose an appropriate group to redirect replies..."
+msgstr "选择回复要重定向到的组..."
+
+#: knconfigpages.cpp:96
+msgid "Newsgroup Servers"
+msgstr "新闻组服务器"
+
+#: knconfigpages.cpp:98
+msgid "Mail Server (SMTP)"
+msgstr "邮件服务器(SMTP)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: knconfigpages.cpp:132 postnewscomposerwidget_base.ui:23
+#: postnewstechnicalwidget_base.ui:23
+msgid "General"
+msgstr "常规"
+
+#: knconfigpages.cpp:133
+msgid "Navigation"
+msgstr "导航"
+
+#: knconfigpages.cpp:134
+msgid "Scoring"
+msgstr "评分"
+
+#: knconfigpages.cpp:135
+msgid "Filters"
+msgstr "过滤器"
+
+#: knconfigpages.cpp:136
+msgid "Headers"
+msgstr "标题"
+
+#: knconfigpages.cpp:137
+msgid "Viewer"
+msgstr "查看器"
+
+#: knconfigpages.cpp:157
+msgid "Technical"
+msgstr "技巧"
+
+#. i18n: ectx: label, entry (composerFont), group (VISUAL_APPEARANCE)
+#: knconfigpages.cpp:158 knode.kcfg:367
+msgid "Composer"
+msgstr "编写器"
+
+#: knconfigpages.cpp:159
+msgid "Spelling"
+msgstr "拼写"
+
+#: knconfigwidgets.cpp:134
+#, kde-format
+msgid "Server: %1"
+msgstr "服务器：%1"
+
+#: knconfigwidgets.cpp:135
+#, kde-format
+msgid "Port: %1"
+msgstr "端口：%1"
+
+#: knconfigwidgets.cpp:137
+msgid "Server: "
+msgstr "服务器："
+
+#: knconfigwidgets.cpp:138
+msgid "Port: "
+msgstr "端口："
+
+#: knconfigwidgets.cpp:192 knfilterdialog.cpp:41
+#, kde-format
+msgid "Properties of %1"
+msgstr "%1 的属性"
+
+#: knconfigwidgets.cpp:194
+msgid "New Account"
+msgstr "新建账户"
+
+#: knconfigwidgets.cpp:201
+msgid "Ser&ver"
+msgstr "服务器(&V)"
+
+#: knconfigwidgets.cpp:249
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " 分钟"
+
+#: knconfigwidgets.cpp:253
+msgid "&Identity"
+msgstr "身份(&I)"
+
+#: knconfigwidgets.cpp:257
+msgid "&Cleanup"
+msgstr "清理(&C)"
+
+#: knconfigwidgets.cpp:291
+msgid ""
+"Please enter an arbitrary name for the account and the\n"
+"hostname of the news server."
+msgstr "请为该账户输入一个任意的名称，并输入新闻服务器的主机名。"
+
+#: knconfigwidgets.cpp:405
+msgid "&Use custom colors"
+msgstr "使用自定义颜色(&U)"
+
+#: knconfigwidgets.cpp:410
+msgctxt "@action:button Run a color selection dialog"
+msgid "Cha&nge..."
+msgstr "更改(&N)..."
+
+#: knconfigwidgets.cpp:420
+msgid "Use custom &fonts"
+msgstr "使用自定义字体(&F)"
+
+#: knconfigwidgets.cpp:425
+msgctxt "@action:button Run a font selection dialog"
+msgid "Chang&e..."
+msgstr "更改(&E)..."
+
+#: knconfigwidgets.cpp:674
+msgctxt "@action:button Add a new message header field (open dialog)"
+msgid "&Add..."
+msgstr "添加(&A)..."
+
+#: knconfigwidgets.cpp:678
+msgctxt "@action:button Delete a message header field"
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: knconfigwidgets.cpp:682 knconfigwidgets.cpp:1025
+msgctxt "modify something"
+msgid "&Edit..."
+msgstr "编辑(&E)..."
+
+#: knconfigwidgets.cpp:686
+msgctxt "@action:button Move an element of a list up"
+msgid "&Up"
+msgstr "上移(&U)"
+
+#: knconfigwidgets.cpp:690
+msgctxt "@action:button Move an element of a list down"
+msgid "Do&wn"
+msgstr "下移(&W)"
+
+#: knconfigwidgets.cpp:771
+msgid "Really delete this header?"
+msgstr "真的要删除信头吗？"
+
+#: knconfigwidgets.cpp:842
+msgid "Header Properties"
+msgstr "信头属性"
+
+#: knconfigwidgets.cpp:858
+msgctxt "@label:textbox Edition of a message header name"
+msgid "H&eader:"
+msgstr "信头(&E)："
+
+#: knconfigwidgets.cpp:866
+msgctxt ""
+"@label:textbox Edition of the displayed name in the UI of a message header"
+msgid "Displayed na&me:"
+msgstr "显示名称(&M)："
+
+#: knconfigwidgets.cpp:881
+msgid "&Large"
+msgstr "大字体(&L)"
+
+#: knconfigwidgets.cpp:882
+msgid "&Bold"
+msgstr "粗体(&B)"
+
+#: knconfigwidgets.cpp:883
+msgid "&Italic"
+msgstr "斜体(&I)"
+
+#: knconfigwidgets.cpp:884
+msgid "&Underlined"
+msgstr "下划线(&U)"
+
+#: knconfigwidgets.cpp:890
+msgid "Value"
+msgstr "值"
+
+#: knconfigwidgets.cpp:897
+msgid "L&arge"
+msgstr "大字体(&A)"
+
+#: knconfigwidgets.cpp:898
+msgid "Bol&d"
+msgstr "粗体(&D)"
+
+#: knconfigwidgets.cpp:899
+msgid "I&talic"
+msgstr "斜体(&T)"
+
+#: knconfigwidgets.cpp:900
+msgid "U&nderlined"
+msgstr "下划线(&N)"
+
+#: knconfigwidgets.cpp:980
+msgid "Default score for &ignored threads:"
+msgstr "被忽略线索的默认评分(&I)："
+
+#: knconfigwidgets.cpp:987
+msgid "Default score for &watched threads:"
+msgstr "被监视线索的默认评分(&W)："
+
+#: knconfigwidgets.cpp:1013
+msgctxt "@title"
+msgid "&Filters:"
+msgstr "过滤器(&F)："
+
+#: knconfigwidgets.cpp:1021
+msgctxt "@action:button Add a new filter"
+msgid "&Add..."
+msgstr "添加(&A)..."
+
+#: knconfigwidgets.cpp:1029
+msgctxt "@action:button Copy a filter"
+msgid "Co&py..."
+msgstr "复制(&P)..."
+
+#: knconfigwidgets.cpp:1033
+msgctxt "@action:button Delete a filter"
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: knconfigwidgets.cpp:1040
+msgctxt "@title"
+msgid "&Menu:"
+msgstr "菜单(&M)："
+
+#: knconfigwidgets.cpp:1047
+msgctxt "@action:button move something up in a list"
+msgid "&Up"
+msgstr "上移(&U)"
+
+#: knconfigwidgets.cpp:1051
+msgctxt "@action:button move something down in a list"
+msgid "Do&wn"
+msgstr "下移(&W)"
+
+#: knconfigwidgets.cpp:1055
+msgctxt "@action:button"
+msgid ""
+"Add\n"
+"&Separator"
+msgstr ""
+"添加\n"
+"分隔符(&S)"
+
+#: knconfigwidgets.cpp:1059
+msgctxt "@action:button"
+msgid ""
+"&Remove\n"
+"Separator"
+msgstr ""
+"删除\n"
+"分隔符(&R)"
+
+#: knconfigwidgets.cpp:1281
+msgid "Allow 8-bit"
+msgstr "允许 8 位"
+
+#: knconfigwidgets.cpp:1282
+msgid "7-bit (Quoted-Printable)"
+msgstr "7 位(Quoted-Printable)"
+
+#: knconfigwidgets.cpp:1382
+msgid "Additional Header"
+msgstr "额外信头"
+
+#: knconfigwidgets.cpp:1503
+msgid "&Use global cleanup configuration"
+msgstr "使用全局清理配置(&U)"
+
+#: knconfigwidgets.cpp:1508
+msgid "Newsgroup Cleanup Settings"
+msgstr "新闻组清理服务器"
+
+#: knconfigwidgets.cpp:1516
+msgid "&Expire old articles automatically"
+msgstr "自动过期老文章(&E)"
+
+#: knconfigwidgets.cpp:1521 knconfigwidgets.cpp:1531 knconfigwidgets.cpp:1539
+#: knconfigwidgets.cpp:1619 kscoringeditor.cpp:647
+msgid " day"
+msgid_plural " days"
+msgstr[0] " 天"
+
+#: knconfigwidgets.cpp:1522
+msgid "&Purge groups every:"
+msgstr "清除组每隔(&P)："
+
+#: knconfigwidgets.cpp:1532
+msgid "&Keep read articles:"
+msgstr "保留已读文章(&K)："
+
+#: knconfigwidgets.cpp:1540
+msgid "Keep u&nread articles:"
+msgstr "保留未读文章(&N)："
+
+#: knconfigwidgets.cpp:1546
+msgid "&Remove articles that are not available on the server"
+msgstr "删除服务器上不存在的文章(&R)"
+
+#: knconfigwidgets.cpp:1550
+msgid "Preser&ve threads"
+msgstr "保留线索(&V)"
+
+#: knconfigwidgets.cpp:1606
+msgid "Folders"
+msgstr "文件夹"
+
+#: knconfigwidgets.cpp:1614
+msgid "Co&mpact folders automatically"
+msgstr "自动压缩文件夹(&M)"
+
+#: knconfigwidgets.cpp:1620
+msgid "P&urge folders every:"
+msgstr "清除文件夹每隔(&U)："
+
+#: kndisplayedheader.cpp:28
+msgctxt "collection of article headers"
+msgid "Approved"
+msgstr "已核准(Approved)"
+
+#: kndisplayedheader.cpp:29
+msgctxt "collection of article headers"
+msgid "Content-Transfer-Encoding"
+msgstr "内容传输编码(Content-Transfer-Encoding)"
+
+#: kndisplayedheader.cpp:30
+msgctxt "collection of article headers"
+msgid "Content-Type"
+msgstr "内容类型(Content-Type)"
+
+#: kndisplayedheader.cpp:31
+msgctxt "collection of article headers"
+msgid "Control"
+msgstr "控制(Control)"
+
+#: kndisplayedheader.cpp:32
+msgctxt "collection of article headers"
+msgid "Date"
+msgstr "日期(Date)"
+
+#: kndisplayedheader.cpp:33
+msgctxt "collection of article headers"
+msgid "Distribution"
+msgstr "发行者(Distribution)"
+
+#: kndisplayedheader.cpp:34
+msgctxt "collection of article headers"
+msgid "Expires"
+msgstr "过期日(Expires)"
+
+#: kndisplayedheader.cpp:35
+msgctxt "collection of article headers"
+msgid "Followup-To"
+msgstr "跟文到(Followup-To)"
+
+#: kndisplayedheader.cpp:36
+msgctxt "collection of article headers"
+msgid "From"
+msgstr "发件人(From)"
+
+#: kndisplayedheader.cpp:37
+msgctxt "collection of article headers"
+msgid "Lines"
+msgstr "行数(Lines)"
+
+#: kndisplayedheader.cpp:38
+msgctxt "collection of article headers"
+msgid "Mail-Copies-To"
+msgstr "邮件复制到(Mail-Copies-To)"
+
+#: kndisplayedheader.cpp:39
+msgctxt "collection of article headers"
+msgid "Message-ID"
+msgstr "消息号(Message-ID)"
+
+#: kndisplayedheader.cpp:40
+msgctxt "collection of article headers"
+msgid "Mime-Version"
+msgstr "MIME 版本(Mime-Version)"
+
+#: kndisplayedheader.cpp:41
+msgctxt "collection of article headers"
+msgid "NNTP-Posting-Host"
+msgstr "NNTP 发送主机(NNTP-Posting-Host)"
+
+#: kndisplayedheader.cpp:42
+msgctxt "collection of article headers"
+msgid "Newsgroups"
+msgstr "新闻组(Newsgroups)"
+
+#: kndisplayedheader.cpp:43
+msgctxt "collection of article headers"
+msgid "Organization"
+msgstr "组织(Organization)"
+
+#: kndisplayedheader.cpp:44
+msgctxt "collection of article headers"
+msgid "Path"
+msgstr "路径(Path)"
+
+#: kndisplayedheader.cpp:45
+msgctxt "collection of article headers"
+msgid "References"
+msgstr "引用(References)"
+
+#: kndisplayedheader.cpp:46
+msgctxt "collection of article headers"
+msgid "Reply-To"
+msgstr "回复到(Reply-To)"
+
+#: kndisplayedheader.cpp:47
+msgctxt "collection of article headers"
+msgid "Sender"
+msgstr "发件人(Sender)"
+
+#: kndisplayedheader.cpp:48
+msgctxt "collection of article headers"
+msgid "Subject"
+msgstr "主题(Subject)"
+
+#: kndisplayedheader.cpp:49
+msgctxt "collection of article headers"
+msgid "Supersedes"
+msgstr "替换(Supersedes)"
+
+#: kndisplayedheader.cpp:50
+msgctxt "collection of article headers"
+msgid "To"
+msgstr "收件人(To)"
+
+#: kndisplayedheader.cpp:51
+msgctxt "collection of article headers"
+msgid "User-Agent"
+msgstr "用户代理(User-Agent)"
+
+#: kndisplayedheader.cpp:52
+msgctxt "collection of article headers"
+msgid "X-Mailer"
+msgstr "X-Mailer"
+
+#: kndisplayedheader.cpp:53
+msgctxt "collection of article headers"
+msgid "X-Newsreader"
+msgstr "X-Newsreader"
+
+#: kndisplayedheader.cpp:54
+msgctxt "collection of article headers"
+msgid "X-No-Archive"
+msgstr "X-No-Archive"
+
+#: kndisplayedheader.cpp:55
+msgctxt "collection of article headers"
+msgid "XRef"
+msgstr "XRef"
+
+#: kndisplayedheader.cpp:57
+msgctxt "collection of article headers"
+msgid "Groups"
+msgstr "组(Groups)"
+
+#: knfilterconfigwidget.cpp:40
+msgid ""
+"The following placeholders are supported:\n"
+"%MYNAME=own name, %MYEMAIL=own email address"
+msgstr ""
+"支持下列占位符：\n"
+"%MYNAME=我的名字, %MYEMAIL=我的邮件地址"
+
+#: knfilterconfigwidget.cpp:43
+msgid "Subject && &From"
+msgstr "主题和发件人(&F)"
+
+#: knfilterconfigwidget.cpp:49
+msgid "Message-ID"
+msgstr "消息号"
+
+#: knfilterconfigwidget.cpp:51
+msgid "References"
+msgstr "引用"
+
+#: knfilterconfigwidget.cpp:54
+msgid "M&essage-IDs"
+msgstr "消息号(&E)"
+
+#: knfilterconfigwidget.cpp:57
+msgid "&Status"
+msgstr "状态(&S)"
+
+#: knfilterconfigwidget.cpp:65
+msgid "Age"
+msgstr "时间"
+
+#: knfilterconfigwidget.cpp:65
+msgid " days"
+msgstr " 天"
+
+#: knfilterconfigwidget.cpp:70
+msgid "&Additional"
+msgstr "额外(&A)"
+
+#: knfilterdialog.cpp:39
+msgid "New Filter"
+msgstr "新建过滤器"
+
+#: knfilterdialog.cpp:50
+msgid "Na&me:"
+msgstr "名称(&M)："
+
+#: knfilterdialog.cpp:53
+msgid "Single Articles"
+msgstr "单个文章"
+
+#: knfilterdialog.cpp:54
+msgid "Whole Threads"
+msgstr "整个线索"
+
+#: knfilterdialog.cpp:55
+msgid "Apply o&n:"
+msgstr "应用于(&N)："
+
+#: knfilterdialog.cpp:57
+msgid "Sho&w in menu"
+msgstr "在菜单中显示(&W)"
+
+#: knfilterdialog.cpp:115
+msgid "Please provide a name for this filter."
+msgstr "请为该过滤器提供名称。"
+
+#: knfilterdialog.cpp:118
+msgid ""
+"A filter with this name exists already.\n"
+"Please choose a different name."
+msgstr "同名过滤器已存在，请选择不同的名称。"
+
+#: knfiltermanager.cpp:261
+msgid "Do you really want to delete this filter?"
+msgstr "您真的要删除该过滤器吗？"
+
+#: knfiltermanager.cpp:344
+msgid "ERROR: no such filter."
+msgstr "错误：没有这样的过滤器。"
+
+#: knfiltermanager.cpp:368
+msgid "Select Filter"
+msgstr "选择过滤器"
+
+#: knfolder.cpp:194
+msgid " Loading folder..."
+msgstr " 正在加载文件夹..."
+
+#: knfoldermanager.cpp:46
+msgid "Local Folders"
+msgstr "本地文件夹"
+
+#: knfoldermanager.cpp:50
+msgid "Drafts"
+msgstr "草稿"
+
+#: knfoldermanager.cpp:54
+msgid "Outbox"
+msgstr "发件箱"
+
+#: knfoldermanager.cpp:58
+msgid "Sent"
+msgstr "已发送邮件"
+
+#: knfoldermanager.cpp:88
+msgid "Cannot load index-file."
+msgstr "无法装入索引文件。"
+
+#: knfoldermanager.cpp:143
+msgid "New folder"
+msgstr "新建文件夹"
+
+#: knfoldermanager.cpp:306
+msgid "Import MBox Folder"
+msgstr "导入 MBox 文件夹"
+
+#: knfoldermanager.cpp:315
+msgid " Importing articles..."
+msgstr " 正在导入文章..."
+
+#: knfoldermanager.cpp:379
+msgid " Storing articles..."
+msgstr " 正在存储文章..."
+
+#: knfoldermanager.cpp:406
+msgid "Export Folder"
+msgstr "导出文件夹"
+
+#: knfoldermanager.cpp:410
+msgid " Exporting articles..."
+msgstr " 正在导出文章..."
+
+#: kngroup.cpp:923
+msgid " Scoring..."
+msgstr " 正在评分..."
+
+#: kngroup.cpp:970
+msgid " Reorganizing headers..."
+msgstr " 重组标题..."
+
+#: kngroup.cpp:1066
+#, kde-format
+msgid "Cannot load saved headers: %1"
+msgstr "无法装入已保存的信头：%1"
+
+#: kngroupbrowser.cpp:55
+msgid "S&earch:"
+msgstr "搜索(&E)："
+
+#: kngroupbrowser.cpp:58
+msgid "Disable &tree view"
+msgstr "禁止树状视图(&T)"
+
+#: kngroupbrowser.cpp:60
+msgid "&Subscribed only"
+msgstr "只要已订阅的(&S)"
+
+#: kngroupbrowser.cpp:62
+msgid "&New only"
+msgstr "只要新的(&N)"
+
+#: kngroupbrowser.cpp:70
+msgid "Loading groups..."
+msgstr "加载组..."
+
+#: kngroupbrowser.cpp:92
+msgid "Description"
+msgstr "描述"
+
+#: kngroupbrowser.cpp:369
+#, kde-format
+msgid "Groups on %1: (%2 displayed)"
+msgstr "组在 %1：(%2 已显示)"
+
+#: kngroupbrowser.cpp:422 kngroupbrowser.cpp:435
+msgid "moderated"
+msgstr "监管的"
+
+#: kngroupdialog.cpp:38
+msgid "Subscribe to Newsgroups"
+msgstr "订阅新闻组"
+
+#: kngroupdialog.cpp:38
+msgid "New &List"
+msgstr "新建列表(&L)"
+
+#: kngroupdialog.cpp:38
+msgid "New &Groups..."
+msgstr "新建组(&G)..."
+
+#: kngroupdialog.cpp:40
+msgid "Current changes:"
+msgstr "当前修改："
+
+#: kngroupdialog.cpp:42
+msgid "Subscribe To"
+msgstr "订阅"
+
+#: kngroupdialog.cpp:44
+msgid "Unsubscribe From"
+msgstr "退订"
+
+#: kngroupdialog.cpp:142
+msgid ""
+"You have subscribed to a moderated newsgroup.\n"
+"Your articles will not appear in the group immediately.\n"
+"They have to go through a moderation process."
+msgstr ""
+"您已经订阅了一个受监管的新闻组。\n"
+"您的文章将不会马上出现在这个新闻组里，必须通过\n"
+"监管批准过程。"
+
+#: kngroupdialog.cpp:276
+msgid "Downloading groups..."
+msgstr "正在下载组..."
+
+#: kngroupdialog.cpp:288
+msgid "New Groups"
+msgstr "新建组"
+
+#: kngroupdialog.cpp:291
+msgid "Check for New Groups"
+msgstr "检查新组"
+
+#: kngroupdialog.cpp:295
+msgid "Created since last check:"
+msgstr "自上次检查后新建的："
+
+#: kngroupdialog.cpp:303
+msgid "Created since this date:"
+msgstr "自该日期后新建的："
+
+#: kngroupdialog.cpp:321
+msgid "Checking for new groups..."
+msgstr "检查新组..."
+
+#: kngroupmanager.cpp:422
+msgid ""
+"Do you really want to unsubscribe\n"
+"from these groups?"
+msgstr "您真的要从这些组退订吗？"
+
+#: kngroupmanager.cpp:423 knmainwidget.cpp:1462
+msgid "Unsubscribe"
+msgstr "退订"
+
+#: kngroupmanager.cpp:461
+#, kde-format
+msgid ""
+"The group \"%1\" is being updated currently.\n"
+"It is not possible to unsubscribe from it at the moment."
+msgstr ""
+"正在更新组“%1”。\n"
+"现在不能退订。"
+
+#: kngroupmanager.cpp:526
+msgid ""
+"This group cannot be expired because it is currently being updated.\n"
+" Please try again later."
+msgstr "正在更新更新该组，不能使之过期。请稍候再试。"
+
+#: kngroupmanager.cpp:645
+#, kde-format
+msgid ""
+"The group %1 does not appear to exist anymore on the server.\n"
+"You may unsubscribe."
+msgstr ""
+"服务器上不存在 %1 讨论组。\n"
+"您应该取消订阅。"
+
+#: kngroupmanager.cpp:669
+msgid ""
+"You do not have any groups for this account;\n"
+"do you want to fetch a current list?"
+msgstr "该账户还没有任何新闻组；您要获取一个当前组列表吗？"
+
+#: kngroupmanager.cpp:669
+msgid "Fetch List"
+msgstr "获取列表"
+
+#: kngroupmanager.cpp:669
+msgid "Do Not Fetch"
+msgstr "不获取"
+
+#: kngrouppropdlg.cpp:44
+#, kde-format
+msgctxt "@title:window %1=newsgroup name"
+msgid "Properties of %1"
+msgstr "%1 的属性"
+
+#: kngrouppropdlg.cpp:51
+msgctxt "@title:tab"
+msgid "General"
+msgstr "常规"
+
+#: kngrouppropdlg.cpp:56
+msgctxt "@title:group"
+msgid "Settings"
+msgstr "设置"
+
+#: kngrouppropdlg.cpp:67
+msgctxt "@label:textbox Alternative name of a newsgroup"
+msgid "Nickname:"
+msgstr "昵称："
+
+#: kngrouppropdlg.cpp:72
+msgctxt "@label:listbox"
+msgid "Use different default charset:"
+msgstr "使用不同的默认字符集："
+
+#: kngrouppropdlg.cpp:89
+msgctxt "@title:group"
+msgid "Description"
+msgstr "描述"
+
+#: kngrouppropdlg.cpp:97
+msgctxt "@label name of a newsgroup"
+msgid "Name:"
+msgstr "名称："
+
+#: kngrouppropdlg.cpp:102
+msgctxt "@label description of a newsgroup"
+msgid "Description:"
+msgstr "描述："
+
+#: kngrouppropdlg.cpp:107
+msgctxt "@label status of posting to a newsgroup"
+msgid "Status:"
+msgstr "状态："
+
+#: kngrouppropdlg.cpp:111
+msgctxt "posting status"
+msgid "unknown"
+msgstr "未知"
+
+#: kngrouppropdlg.cpp:113
+msgid "posting forbidden"
+msgstr "禁止投递"
+
+#: kngrouppropdlg.cpp:115
+msgid "posting allowed"
+msgstr "允许投递"
+
+#: kngrouppropdlg.cpp:117
+msgctxt "posting status"
+msgid "moderated"
+msgstr "受监管"
+
+#: kngrouppropdlg.cpp:127
+msgctxt "@title:group"
+msgid "Statistics"
+msgstr "统计"
+
+#: kngrouppropdlg.cpp:135
+msgid "Articles:"
+msgstr "文章："
+
+#: kngrouppropdlg.cpp:140
+msgid "Unread articles:"
+msgstr "未读文章："
+
+#: kngrouppropdlg.cpp:145
+msgid "New articles:"
+msgstr "新文章："
+
+#: kngrouppropdlg.cpp:150
+msgid "Threads with unread articles:"
+msgstr "未读文章线索："
+
+#: kngrouppropdlg.cpp:155
+msgid "Threads with new articles:"
+msgstr "新文章线索："
+
+#: kngrouppropdlg.cpp:167
+msgctxt "@title:tab"
+msgid "Identity"
+msgstr "身份"
+
+#: kngrouppropdlg.cpp:171
+msgctxt "@title:tab"
+msgid "Cleanup"
+msgstr "清理"
+
+#: kngroupselectdialog.cpp:29
+msgid "Select Destinations"
+msgstr "选择目标"
+
+#: kngroupselectdialog.cpp:35
+msgid "Groups for this article:"
+msgstr "这篇文章的组："
+
+#: kngroupselectdialog.cpp:104
+msgid ""
+"You are crossposting to a moderated newsgroup.\n"
+"Please be aware that your article will not appear in any group\n"
+"until it has been approved by the moderators of the moderated group."
+msgstr ""
+"您正在一贴多发到一个受监管的新闻组。\n"
+"请记住您的文章在受监管的新闻组的监管者批准之前，不会出现在任何的新闻组里。"
+
+#: knjobdata.cpp:156
+msgid "Sending message"
+msgstr "发送信件"
+
+#: knjobdata.cpp:165 scheduler.cpp:213
+msgid "Waiting..."
+msgstr "正在等待..."
+
+#: knmainwidget.cpp:142
+msgid "&Search:"
+msgstr "搜索(&S)："
+
+#: knmainwidget.cpp:269
+msgid " Ready"
+msgstr " 就绪"
+
+#: knmainwidget.cpp:294
+msgid "KDE News Reader"
+msgstr "KDE 新闻组阅读器"
+
+#: knmainwidget.cpp:479
+msgid "&Next Article"
+msgstr "下一篇文章(&N)"
+
+#: knmainwidget.cpp:480
+msgid "Go to next article"
+msgstr "转到下一篇文章"
+
+#: knmainwidget.cpp:485
+msgid "&Previous Article"
+msgstr "上一篇文章(&P)"
+
+#: knmainwidget.cpp:487
+msgid "Go to previous article"
+msgstr "转到上一篇文章"
+
+#: knmainwidget.cpp:492
+msgid "Next Unread &Article"
+msgstr "下一篇未读文章(&A)"
+
+#: knmainwidget.cpp:498
+msgid "Next Unread &Thread"
+msgstr "下一个未读线索(&T)"
+
+#: knmainwidget.cpp:504
+msgid "Ne&xt Group"
+msgstr "下一个组(&X)"
+
+#: knmainwidget.cpp:510
+msgid "Pre&vious Group"
+msgstr "上一个组(&V)"
+
+#: knmainwidget.cpp:515
+msgid "Read &Through Articles"
+msgstr "读一遍文章(&T)"
+
+#: knmainwidget.cpp:520
+msgid "Focus on Next Folder"
+msgstr "聚焦于下个文件夹"
+
+#: knmainwidget.cpp:525
+msgid "Focus on Previous Folder"
+msgstr "聚焦于上个文件夹"
+
+#: knmainwidget.cpp:530
+msgid "Select Folder with Focus"
+msgstr "选择焦点处的文件夹"
+
+#: knmainwidget.cpp:535
+msgid "Focus on Next Article"
+msgstr "聚焦于下篇文章"
+
+#: knmainwidget.cpp:540
+msgid "Focus on Previous Article"
+msgstr "聚焦于上篇文章"
+
+#: knmainwidget.cpp:545
+msgid "Select Article with Focus"
+msgstr "选择焦点处的文章"
+
+#: knmainwidget.cpp:552
+msgid "Account &Properties"
+msgstr "账户属性(&P)"
+
+#: knmainwidget.cpp:557
+msgid "&Rename Account"
+msgstr "账户更名(&R)"
+
+#: knmainwidget.cpp:562
+msgid "&Subscribe to Newsgroups..."
+msgstr "订阅新闻组(&S)..."
+
+#: knmainwidget.cpp:566
+msgid "&Expire All Groups"
+msgstr "使所有组过期(&E)"
+
+#: knmainwidget.cpp:571
+msgid "&Get New Articles in All Groups"
+msgstr "在所有组中接收新文章(&G)"
+
+#: knmainwidget.cpp:576
+msgid "&Get New Articles in All Accounts"
+msgstr "在所有组中接收新文章(&G)"
+
+#: knmainwidget.cpp:581
+msgid "&Delete Account"
+msgstr "删除账户(&D)"
+
+#: knmainwidget.cpp:586
+msgid "&Post to Newsgroup..."
+msgstr "发送到新闻组(&P)..."
+
+#: knmainwidget.cpp:593
+msgid "Group &Properties"
+msgstr "组属性(&P)"
+
+#: knmainwidget.cpp:598
+msgid "Rename &Group"
+msgstr "重命名新闻组(&G)"
+
+#: knmainwidget.cpp:603
+msgid "&Get New Articles"
+msgstr "接收新文章(&G)"
+
+#: knmainwidget.cpp:607
+msgid "E&xpire Group"
+msgstr "过期新闻组(&X)"
+
+#: knmainwidget.cpp:611
+msgid "Re&organize Group"
+msgstr "重组新闻组(&O)"
+
+#: knmainwidget.cpp:616
+msgid "&Unsubscribe From Group"
+msgstr "从新闻组退订(&U)"
+
+#: knmainwidget.cpp:621
+msgid "Mark All as &Read"
+msgstr "标记所有为已读(&R)"
+
+#: knmainwidget.cpp:625
+msgid "Mark All as U&nread"
+msgstr "标记所有为未读(&N)"
+
+#: knmainwidget.cpp:629
+msgid "Mark Last as Unr&ead..."
+msgstr "标记最后一条为未读(&E)..."
+
+#: knmainwidget.cpp:634
+msgid "&Configure KNode..."
+msgstr "配置 KNode(&C)..."
+
+#: knmainwidget.cpp:640
+msgid "&New Folder"
+msgstr "新建文件夹(&N)"
+
+#: knmainwidget.cpp:645
+msgid "New &Subfolder"
+msgstr "新建子文件夹(&S)"
+
+#: knmainwidget.cpp:650
+msgid "&Delete Folder"
+msgstr "删除文件夹(&D)"
+
+#: knmainwidget.cpp:655
+msgid "&Rename Folder"
+msgstr "文件夹更名(&R)"
+
+#: knmainwidget.cpp:659
+msgid "C&ompact Folder"
+msgstr "压缩文件夹(&O)"
+
+#: knmainwidget.cpp:663
+msgid "Co&mpact All Folders"
+msgstr "压缩所有文件夹(&M)"
+
+#: knmainwidget.cpp:667
+msgid "&Empty Folder"
+msgstr "清空文件夹(&E)"
+
+#: knmainwidget.cpp:671
+msgid "&Import MBox Folder..."
+msgstr "导入 MBox 文件夹(&I)..."
+
+#: knmainwidget.cpp:675
+msgid "E&xport as MBox Folder..."
+msgstr "导出为 MBox 文件夹(&X)..."
+
+#: knmainwidget.cpp:680
+msgid "S&ort"
+msgstr "排序(&O)"
+
+#: knmainwidget.cpp:682
+msgid "By &Subject"
+msgstr "按主题(&S)"
+
+#: knmainwidget.cpp:683
+msgid "By S&ender"
+msgstr "按发件人(&E)"
+
+#: knmainwidget.cpp:684
+msgid "By S&core"
+msgstr "按评分(&C)"
+
+#: knmainwidget.cpp:685
+msgid "By &Lines"
+msgstr "按行数(&L)"
+
+#: knmainwidget.cpp:686
+msgid "By &Date"
+msgstr "按日期(&D)"
+
+#: knmainwidget.cpp:692
+msgid "Sort"
+msgstr "排序"
+
+#: knmainwidget.cpp:696
+msgid "&Filter"
+msgstr "过滤(&F)"
+
+#: knmainwidget.cpp:701
+msgid "Filter"
+msgstr "过滤"
+
+#: knmainwidget.cpp:706
+msgid "&Search Articles..."
+msgstr "查找文章(&S)..."
+
+#: knmainwidget.cpp:712
+msgid "&Refresh List"
+msgstr "刷新列表(&R)"
+
+#: knmainwidget.cpp:717
+msgid "&Collapse All Threads"
+msgstr "折叠所有线索(&C)"
+
+#: knmainwidget.cpp:721
+msgid "E&xpand All Threads"
+msgstr "展开所有线索(&X)"
+
+#: knmainwidget.cpp:725
+msgid "&Toggle Subthread"
+msgstr "切换子线索(&T)"
+
+#: knmainwidget.cpp:730
+msgid "Show T&hreads"
+msgstr "显示线索(&H)"
+
+#: knmainwidget.cpp:738
+msgid "Mark as &Read"
+msgstr "标记为已读(&R)"
+
+#: knmainwidget.cpp:744
+msgid "Mar&k as Unread"
+msgstr "标记为未读(&K)"
+
+#: knmainwidget.cpp:749
+msgid "Mark &Thread as Read"
+msgstr "标记线索为已读(&T)"
+
+#: knmainwidget.cpp:754
+msgid "Mark T&hread as Unread"
+msgstr "标记线索为未读(&H)"
+
+#: knmainwidget.cpp:760
+msgid "Open in Own &Window"
+msgstr "在单独的窗口中打开(&W)"
+
+#: knmainwidget.cpp:767
+msgid "&Edit Scoring Rules..."
+msgstr "编辑评分规则(&E)..."
+
+#: knmainwidget.cpp:772
+msgid "Recalculate &Scores"
+msgstr "重新计算评分(&S)"
+
+#: knmainwidget.cpp:776
+msgid "&Lower Score for Author..."
+msgstr "降低作者的评分(&L)..."
+
+#: knmainwidget.cpp:781
+msgid "&Raise Score for Author..."
+msgstr "提高作者的评分(&R)..."
+
+#: knmainwidget.cpp:787
+msgid "&Ignore Thread"
+msgstr "忽略线索(&I)"
+
+#: knmainwidget.cpp:793
+msgid "&Watch Thread"
+msgstr "监视线索(&W)"
+
+#: knmainwidget.cpp:800
+msgid "Sen&d Pending Messages"
+msgstr "发送待发的消息(&D)"
+
+#: knmainwidget.cpp:805
+msgid "&Delete Article"
+msgstr "删除文章(&D)"
+
+#: knmainwidget.cpp:811
+msgid "Send &Now"
+msgstr "现在发送(&N)"
+
+#: knmainwidget.cpp:816
+msgctxt "edit article"
+msgid "&Edit Article..."
+msgstr "编辑文章(&E)..."
+
+#: knmainwidget.cpp:823
+msgid "Stop &Network"
+msgstr "停用网络(&N)"
+
+#: knmainwidget.cpp:828
+msgid "&Fetch Article with ID..."
+msgstr "通过ID得到文章(&F)..."
+
+#: knmainwidget.cpp:833
+msgid "Show Quick Search"
+msgstr "显示快速搜索"
+
+#: knmainwidget.cpp:894
+msgid ""
+"KNode is currently sending articles. If you quit now you might lose these "
+"articles.\n"
+"Do you want to quit anyway?"
+msgstr ""
+"KNode 正在发送文章。如果您现在退出，会丢失这些文章。\n"
+"您要退出吗？"
+
+#: knmainwidget.cpp:1462
+#, kde-format
+msgid "Do you really want to unsubscribe from %1?"
+msgstr "您真的要退订 %1 吗？"
+
+#: knmainwidget.cpp:1492
+msgid "Mark Last as Unread"
+msgstr "标记最后一个为未读"
+
+#: knmainwidget.cpp:1493
+msgid "Enter how many articles should be marked unread:"
+msgstr "请输入将被标为未读文章的个数："
+
+#: knmainwidget.cpp:1534
+msgid "You cannot delete a standard folder."
+msgstr "您不能删除标准文件夹。"
+
+#: knmainwidget.cpp:1537
+msgid "Do you really want to delete this folder and all its children?"
+msgstr "您真的要删除该文件夹和所有它的子文件夹吗？"
+
+#: knmainwidget.cpp:1541
+msgid ""
+"This folder cannot be deleted because some of\n"
+" its articles are currently in use."
+msgstr "该文件夹现在不能删除，因为其中有些文章正在使用。"
+
+#: knmainwidget.cpp:1554
+msgid "You cannot rename a standard folder."
+msgstr "您不能重命名标准文件夹。"
+
+#: knmainwidget.cpp:1584
+msgid ""
+"This folder cannot be emptied at the moment\n"
+"because some of its articles are currently in use."
+msgstr "该文件夹现在不能清空，因为其中有些文章正在使用。"
+
+#: knmainwidget.cpp:1588
+#, kde-format
+msgid "Do you really want to delete all articles in %1?"
+msgstr "您真的要删除%1中的所有文章吗？"
+
+#: knmainwidget.cpp:1623
+msgid "Select Sort Column"
+msgstr "选择排序列"
+
+#: knmainwidget.cpp:1946
+msgid "Fetch Article with ID"
+msgstr "通过消息号获取文章"
+
+#: knmainwidget.cpp:1952
+msgid "&Message-ID:"
+msgstr "消息号(&M)："
+
+#: knmainwidget.cpp:1957
+msgid "&Fetch"
+msgstr "获取(&F)"
+
+#. i18n: ectx: label, entry (identity), group (IDENTITY)
+#: knode.kcfg:13
+msgid "Identity"
+msgstr "身份"
+
+#. i18n: ectx: label, entry (autoCheckGroups), group (READNEWS)
+#: knode.kcfg:21
+msgid "Check for new articles automatically"
+msgstr "自动检查新文章"
+
+#. i18n: ectx: label, entry (maxToFetch), group (READNEWS)
+#: knode.kcfg:25
+msgid "Maximum number of articles to fetch"
+msgstr "最多下载文章个数"
+
+#. i18n: ectx: label, entry (autoMark), group (READNEWS)
+#: knode.kcfg:29
+msgid "Automatically mark articles as read"
+msgstr "自动将文章标为已读"
+
+#. i18n: ectx: label, entry (autoMarkSeconds), group (READNEWS)
+#: knode.kcfg:33
+msgid "Mark article as read after"
+msgstr "将文章标为已读经过"
+
+#. i18n: ectx: label, entry (markCrossposts), group (READNEWS)
+#: knode.kcfg:37
+msgid "Mark crossposted articles as read"
+msgstr "将一稿多投的文章标为已读"
+
+#. i18n: ectx: label, entry (smartScrolling), group (READNEWS)
+#: knode.kcfg:41
+msgid "Smart scrolling"
+msgstr "智能滚动"
+
+#. i18n: ectx: label, entry (totalExpandThreads), group (READNEWS)
+#: knode.kcfg:45
+msgid "Show whole thread on expanding"
+msgstr "将所有线索展开显示"
+
+#. i18n: ectx: label, entry (defaultToExpandedThreads), group (READNEWS)
+#: knode.kcfg:49
+msgid "Default to expanded threads"
+msgstr "默认为展开的线索"
+
+#. i18n: ectx: label, entry (showLines), group (READNEWS)
+#: knode.kcfg:53
+msgid "Show line count column"
+msgstr "显示行数列"
+
+#. i18n: ectx: label, entry (showScore), group (READNEWS)
+#: knode.kcfg:57
+msgid "Show score column"
+msgstr "显示评分列"
+
+#. i18n: ectx: label, entry (showUnread), group (READNEWS)
+#: knode.kcfg:61
+msgid "Show unread count in thread"
+msgstr "显示线索中的未读数目"
+
+#. i18n: ectx: label, entry (showThreads), group (READNEWS)
+#: knode.kcfg:65
+msgid "Show Threads"
+msgstr "显示线索"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mStandardDateFormat)
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#: knode.kcfg:71 readnewsgeneralwidget_base.ui:168
+msgid "Standard format"
+msgstr "标准信头"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mLocalizedDateFormat)
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#: knode.kcfg:74 readnewsgeneralwidget_base.ui:189
+msgid "Localized format"
+msgstr "本地化格式"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mFancyDateFormat)
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#: knode.kcfg:77 readnewsgeneralwidget_base.ui:175
+msgid "Fancy format"
+msgstr "亮丽格式"
+
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#: knode.kcfg:80
+msgid "ISO format"
+msgstr "ISO 格式"
+
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#: knode.kcfg:83
+msgid "Custom format"
+msgstr "自定义格式"
+
+#. i18n: ectx: label, entry (dateFormat), group (READNEWS)
+#: knode.kcfg:86
+msgid "Date format"
+msgstr "日期格式"
+
+#. i18n: ectx: label, entry (customDateFormat), group (READNEWS)
+#: knode.kcfg:90
+msgid "Custom date format"
+msgstr "自定义日期格式"
+
+#. i18n: ectx: whatsthis, entry (customDateFormat), group (READNEWS)
+#: knode.kcfg:120
+msgid ""
+"<!-- taken from KMail -->\n"
+"<qt><p><strong>These expressions may be used for the date:</strong></p>\n"
+"<ul>\n"
+"<li>d - the day as a number without a leading zero (1-31)</li>\n"
+"<li>dd - the day as a number with a leading zero (01-31)</li>\n"
+"<li>ddd - the abbreviated day name (Mon - Sun)</li>\n"
+"<li>dddd - the long day name (Monday - Sunday)</li>\n"
+"<li>M - the month as a number without a leading zero (1-12)</li>\n"
+"<li>MM - the month as a number with a leading zero (01-12)</li>\n"
+"<li>MMM - the abbreviated month name (Jan - Dec)</li>\n"
+"<li>MMMM - the long month name (January - December)</li>\n"
+"<li>yy - the year as a two digit number (00-99)</li>\n"
+"<li>yyyy - the year as a four digit number (0000-9999)</li>\n"
+"</ul>\n"
+"<p><strong>These expressions may be used for the time:</strong></p>\n"
+"<ul>\n"
+"<li>h - the hour without a leading zero (0-23 or 1-12 if AM/PM display)</"
+"li>\n"
+"<li>hh - the hour with a leading zero (00-23 or 01-12 if AM/PM display)</"
+"li>\n"
+"<li>m - the minutes without a leading zero (0-59)</li>\n"
+"<li>mm - the minutes with a leading zero (00-59)</li>\n"
+"<li>s - the seconds without a leading zero (0-59)</li>\n"
+"<li>ss - the seconds with a leading zero (00-59)</li>\n"
+"<li>z - the milliseconds without leading zeroes (0-999)</li>\n"
+"<li>zzz - the milliseconds with leading zeroes (000-999)</li>\n"
+"<li>AP - switch to AM/PM display. AP will be replaced by either \"AM\" or "
+"\"PM\".</li>\n"
+"<li>ap - switch to AM/PM display. ap will be replaced by either \"am\" or "
+"\"pm\".</li>\n"
+"<li>Z - time zone in numeric form (-0500)</li>\n"
+"</ul>\n"
+"<p><strong>All other input characters will be ignored.</strong></p></qt>\n"
+"      "
+msgstr ""
+"<!-- taken from KMail -->\n"
+"<qt><p><strong>这些表达式可用于日期：</strong></p>\n"
+"<ul>\n"
+"<li>d - 天数的数字，没有前导零(1-31)</li>\n"
+"<li>dd - 天数的数字，有前导零(01-31)</li>\n"
+"<li>ddd - 星期短名称(周一 - 周日)</li>\n"
+"<li>dddd - 星期长名称(星期一 - 星期日)</li>\n"
+"<li>M - 月份的数字，没有前导零(1-12)</li>\n"
+"<li>MM - 月份的数字，有前导零(01-12)</li>\n"
+"<li>MMM - 月份短名称(一月 - 十二月)</li>\n"
+"<li>MMMM - 月份长名称(一月 - 十二月)</li>\n"
+"<li>yy - 两位数字的年份(00-99)</li>\n"
+"<li>yyyy - 四位数字的年份(0000-9999)</li>\n"
+"</ul>\n"
+"<p><strong>这些表达式可用于时间：</strong></p>\n"
+"<ul>\n"
+"<li>h - 没有前导零的小时数(0-23，若显示 AM/PM 则为 1-12)</li>\n"
+"<li>hh - 有前导零的小时数(00-23，若显示 AM/PM 则为 01-12)</li>\n"
+"<li>m - 没有前导零的分钟数(0-59)</li>\n"
+"<li>mm - 有前导零的分钟数(00-59)</li>\n"
+"<li>s - 没有前导零的秒钟数(0-59)</li>\n"
+"<li>ss - 有前导零的秒钟数(00-59)</li>\n"
+"<li>z - 没有前导零的毫秒数(0-999)</li>\n"
+"<li>zzz - 有前导零的毫秒数(000-999)</li>\n"
+"<li>AP - 切换到 AM/PM 显示。AP 将被替换为“AM”或“PM”。</li>\n"
+"<li>ap - 切换到 AM/PM 显示。ap 将被替换为“am”或“pm”。</li>\n"
+"<li>Z - 数字形式的时区(-0500)</li>\n"
+"</ul>\n"
+"<p><strong>所有输入的其它字符都将被忽略。</strong></p></qt>\n"
+"      "
+
+#. i18n: ectx: label, entry (rewrapBody), group (READNEWS)
+#: knode.kcfg:124
+msgid "Rewrap text when necessary"
+msgstr "必要时文字换行"
+
+#. i18n: ectx: label, entry (removeTrailingNewlines), group (READNEWS)
+#: knode.kcfg:128
+msgid "Remove trailing empty lines"
+msgstr "删除后缀的空行"
+
+#. i18n: ectx: label, entry (showSignature), group (READNEWS)
+#: knode.kcfg:132
+msgid "Show signature"
+msgstr "显示签名"
+
+#. i18n: ectx: label, entry (interpretFormatTags), group (READNEWS)
+#: knode.kcfg:136
+msgid "Interpret emoticons and other formatting"
+msgstr "解释表情与其他格式化信息"
+
+#. i18n: ectx: label, entry (quoteCharacters), group (READNEWS)
+#: knode.kcfg:140
+msgid "Recognized quote characters"
+msgstr "已知的引用字符"
+
+#. i18n: ectx: label, entry (openAttachmentsOnClick), group (READNEWS)
+#: knode.kcfg:144
+msgid "Open attachments on click"
+msgstr "单击打开附件"
+
+#. i18n: ectx: label, entry (showAlternativeContents), group (READNEWS)
+#: knode.kcfg:148
+msgid "Show alternative contents as attachments"
+msgstr "将可选内容显示为附件"
+
+#. i18n: ectx: label, entry (useFixedFont), group (READNEWS)
+#: knode.kcfg:152
+msgid "Use fixed font"
+msgstr "使用固定字体"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showRefBar)
+#. i18n: ectx: label, entry (showRefBar), group (READNEWS)
+#: knode.kcfg:156 readnewsviewerwidget_base.ui:55
+msgid "Show reference bar"
+msgstr "显示引用栏"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_alwaysShowHTML)
+#. i18n: ectx: label, entry (alwaysShowHTML), group (READNEWS)
+#: knode.kcfg:160 readnewsviewerwidget_base.ui:120
+msgid "Prefer HTML to plain text"
+msgstr "首选 HTML 而非纯文本"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowExternalReferences)
+#. i18n: ectx: label, entry (allowExternalReferences), group (READNEWS)
+#: knode.kcfg:164 readnewsviewerwidget_base.ui:127
+msgid "Allow external references in HTML"
+msgstr "允许在 HTML 中引用外部资源"
+
+#. i18n: ectx: label, entry (markAllReadGoNext), group (READNEWS_NAVIGATION)
+#: knode.kcfg:171
+msgid "Mark group as read goes to next group"
+msgstr "标记组为已读后跳至下一个组"
+
+#. i18n: ectx: label, entry (markThreadReadGoNext), group (READNEWS_NAVIGATION)
+#: knode.kcfg:176
+msgid "Mark thread as read goes to next unread thread"
+msgstr "标记线索为已读后跳至下一个未读线索"
+
+#. i18n: ectx: label, entry (markThreadReadCloseThread), group (READNEWS_NAVIGATION)
+#: knode.kcfg:180
+msgid "Mark thread as read closes the current thread"
+msgstr "标记线索为已读后关闭当前线索"
+
+#. i18n: ectx: label, entry (ignoreThreadGoNext), group (READNEWS_NAVIGATION)
+#: knode.kcfg:184
+msgid "Ignore thread goes to the next unread thread"
+msgstr "忽略线索后跳至下一个未读线索"
+
+#. i18n: ectx: label, entry (ignoreThreadCloseThread), group (READNEWS_NAVIGATION)
+#: knode.kcfg:188
+msgid "Ignore thread closes the current thread"
+msgstr "忽略线索后关闭当前线索"
+
+#. i18n: ectx: label, entry (leaveGroupMarkAsRead), group (READNEWS_NAVIGATION)
+#: knode.kcfg:192
+msgid "Leaving a group marks all articles as read"
+msgstr "离开组后标记所有文章为已读"
+
+#. i18n: ectx: label, entry (ignoredThreshold), group (SCORING)
+#: knode.kcfg:199
+msgid "Default score for ignored threads"
+msgstr "被忽略线索的默认评分"
+
+#. i18n: ectx: label, entry (watchedThreshold), group (SCORING)
+#: knode.kcfg:203
+msgid "Default score for watched threads"
+msgstr "被监视线索的默认评分"
+
+#. i18n: ectx: label, entry (collCacheSize), group (CACHE)
+#: knode.kcfg:210
+msgid "Cache size for headers"
+msgstr "信头缓存大小"
+
+#. i18n: ectx: label, entry (artCacheSize), group (CACHE)
+#: knode.kcfg:214
+msgid "Cache size for articles"
+msgstr "文章缓存大小"
+
+#. i18n: ectx: label, entry (UseOwnCharset), group (POSTNEWS)
+#: knode.kcfg:222
+msgid "Use own default charset when replying"
+msgstr "回复时用我默认的字符集"
+
+#. i18n: ectx: label, entry (hostname), group (POSTNEWS)
+#: knode.kcfg:226
+msgid "Host name used to generate the message ID."
+msgstr "产生消息号所用的主机名。"
+
+#. i18n: ectx: label, entry (generateMessageID), group (POSTNEWS)
+#: knode.kcfg:229
+msgid "Generate message-id"
+msgstr "产生消息号"
+
+#. i18n: ectx: label, entry (noUserAgent), group (POSTNEWS)
+#: knode.kcfg:233
+msgid "Do not add the \"User-Agent\" identification header"
+msgstr "不要添加“User-Agent”标识头"
+
+#. i18n: ectx: label, entry (useExternalMailer), group (POSTNEWS)
+#: knode.kcfg:237
+msgid "Use external mailer"
+msgstr "使用外部邮件程序"
+
+#. i18n: ectx: label, entry (allow8BitBody), group (POSTNEWS)
+#: knode.kcfg:241
+msgid "Allow 8-bit encoding"
+msgstr "允许 8 位编码"
+
+#. i18n: ectx: label, entry (Charset), group (POSTNEWS)
+#: knode.kcfg:245
+msgid "Charset"
+msgstr "字符集"
+
+#. i18n: ectx: label, entry (wordWrap), group (POSTNEWS)
+#: knode.kcfg:249
+msgid "Word wrap at column"
+msgstr "自动换行列数"
+
+#. i18n: ectx: label, entry (autoSpellChecking), group (POSTNEWS)
+#: knode.kcfg:253
+msgid "Automatic Spellchecking"
+msgstr "自动检查拼写"
+
+#. i18n: ectx: label, entry (maxLineLength), group (POSTNEWS)
+#: knode.kcfg:257
+msgid "Maximum line length if word wrap is enabled"
+msgstr "最大自动换行长度"
+
+#. i18n: ectx: label, entry (appendOwnSignature), group (POSTNEWS)
+#: knode.kcfg:261
+msgid "Append own signature automatically"
+msgstr "自动附加签名"
+
+#. i18n: ectx: label, entry (rewrap), group (POSTNEWS)
+#: knode.kcfg:265
+msgid "Rewrap quoted text automatically"
+msgstr "对引用文字自动换行"
+
+#. i18n: ectx: label, entry (includeSignature), group (POSTNEWS)
+#: knode.kcfg:269
+msgid "Include the original author's signature in replies"
+msgstr "回复中包含作者签名"
+
+#. i18n: ectx: label, entry (cursorOnTop), group (POSTNEWS)
+#: knode.kcfg:273
+msgid "Put the cursor below the introduction phrase"
+msgstr "将光标置于介绍文字下面"
+
+#. i18n: ectx: label, entry (useExternalEditor), group (POSTNEWS)
+#: knode.kcfg:277
+msgid "Start external editor automatically"
+msgstr "自动启动外部编辑器"
+
+#. i18n: ectx: label, entry (Intro), group (POSTNEWS)
+#: knode.kcfg:281
+msgid "Introduction phrase"
+msgstr "介绍词"
+
+#. i18n: ectx: label, entry (externalEditor), group (POSTNEWS)
+#: knode.kcfg:285
+msgid "Path to external editor"
+msgstr "外部编辑器路径"
+
+#. i18n: ectx: label, entry (useCustomColors), group (VISUAL_APPEARANCE)
+#: knode.kcfg:293
+msgid "Use custom colors"
+msgstr "使用自定义颜色"
+
+#. i18n: ectx: label, entry (backgroundColor), group (VISUAL_APPEARANCE)
+#: knode.kcfg:297
+msgid "Background"
+msgstr "背景"
+
+#. i18n: ectx: label, entry (alternateBackgroundColor), group (VISUAL_APPEARANCE)
+#: knode.kcfg:301
+msgid "Alternate Background"
+msgstr "可选的背景"
+
+#. i18n: ectx: label, entry (textColor), group (VISUAL_APPEARANCE)
+#: knode.kcfg:305
+msgid "Normal Text"
+msgstr "普遍文本"
+
+#. i18n: ectx: label, entry (linkColor), group (VISUAL_APPEARANCE)
+#: knode.kcfg:315
+msgid "Link"
+msgstr "链接"
+
+#. i18n: ectx: label, entry (readThreadColor), group (VISUAL_APPEARANCE)
+#: knode.kcfg:319
+msgid "Read Thread"
+msgstr "已读线索"
+
+#. i18n: ectx: label, entry (unreadThreadColor), group (VISUAL_APPEARANCE)
+#: knode.kcfg:323
+msgid "Unread Thread"
+msgstr "未读线索"
+
+#. i18n: ectx: label, entry (readArticleColor), group (VISUAL_APPEARANCE)
+#: knode.kcfg:327
+msgid "Read Article"
+msgstr "已读文章"
+
+#. i18n: ectx: label, entry (unreadArticleColor), group (VISUAL_APPEARANCE)
+#: knode.kcfg:331
+msgid "Unread Article"
+msgstr "未读文章"
+
+#. i18n: ectx: label, entry (signOkKeyOkColor), group (VISUAL_APPEARANCE)
+#: knode.kcfg:335
+msgid "Valid Signature with Trusted Key"
+msgstr "含信任密钥的有效签名"
+
+#. i18n: ectx: label, entry (signOkKeyBadColor), group (VISUAL_APPEARANCE)
+#: knode.kcfg:339
+msgid "Valid Signature with Untrusted Key"
+msgstr "含不信任密钥的有效签名"
+
+#. i18n: ectx: label, entry (signWarnColor), group (VISUAL_APPEARANCE)
+#: knode.kcfg:343
+msgid "Unchecked Signature"
+msgstr "未检查的签名"
+
+#. i18n: ectx: label, entry (signErrColor), group (VISUAL_APPEARANCE)
+#: knode.kcfg:347
+msgid "Bad Signature"
+msgstr "无效签名"
+
+#. i18n: ectx: label, entry (htmlWarningColor), group (VISUAL_APPEARANCE)
+#: knode.kcfg:351
+msgid "HTML Message Warning"
+msgstr "HTML 信件警告"
+
+#. i18n: ectx: label, entry (useCustomFonts), group (VISUAL_APPEARANCE)
+#: knode.kcfg:356
+msgid "Use custom fonts"
+msgstr "使用自定义字体"
+
+#. i18n: ectx: label, entry (articleFont), group (VISUAL_APPEARANCE)
+#: knode.kcfg:360
+msgid "Article Body"
+msgstr "文章正文"
+
+#. i18n: ectx: label, entry (articleFixedFont), group (VISUAL_APPEARANCE)
+#: knode.kcfg:363
+msgid "Article Body (Fixed)"
+msgstr "文章正文(固定)"
+
+#. i18n: ectx: label, entry (groupListFont), group (VISUAL_APPEARANCE)
+#: knode.kcfg:371
+msgid "Group List"
+msgstr "组列表"
+
+#. i18n: ectx: property (title), widget (QGroupBox, articleListBox)
+#. i18n: ectx: label, entry (articleListFont), group (VISUAL_APPEARANCE)
+#: knode.kcfg:374 readnewsgeneralwidget_base.ui:105
+msgid "Article List"
+msgstr "文章列表"
+
+#: knode_options.h:25
+msgid "A 'news://server/group' URL"
+msgstr "新闻组 URL“news://server/group”"
+
+#. i18n: ectx: Menu (view)
+#: knodeui.rc:24 knreaderui.rc:16
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: Menu (go)
+#: knodeui.rc:45
+msgid "&Go"
+msgstr "转到(&G)"
+
+#. i18n: ectx: Menu (account)
+#: knodeui.rc:55
+msgid "A&ccount"
+msgstr "账户(&C)"
+
+#. i18n: ectx: Menu (group)
+#: knodeui.rc:64
+msgid "G&roup"
+msgstr "组(&R)"
+
+#. i18n: ectx: Menu (folder)
+#: knodeui.rc:77
+msgid "Fol&der"
+msgstr "文件夹(&D)"
+
+#. i18n: ectx: Menu (article)
+#: knodeui.rc:91 knreaderui.rc:28
+msgid "&Article"
+msgstr "文章(&A)"
+
+#. i18n: ectx: Menu (scoring)
+#: knodeui.rc:111
+msgid "Sc&oring"
+msgstr "评分(&O)"
+
+#. i18n: ectx: Menu (settings)
+#: knodeui.rc:121
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#: knsearchdialog.cpp:32
+msgid "Find Articles"
+msgstr "查找文章"
+
+#: knsearchdialog.cpp:39
+msgid "&Search"
+msgstr "搜索(&S)"
+
+#: knsearchdialog.cpp:40
+msgid "C&lear"
+msgstr "清除(&L)"
+
+#: knsearchdialog.cpp:49
+msgid "Sho&w complete threads"
+msgstr "显示完整线索(&W)"
+
+#: knserverinfo.cpp:92
+#, kde-format
+msgid ""
+"KWallet is not available. It is strongly recommended to use KWallet for "
+"managing your passwords.\n"
+"However, KNode can store the password in its configuration file instead. The "
+"password is stored in an obfuscated format, but should not be considered "
+"secure from decryption efforts if access to the configuration file is "
+"obtained.\n"
+"Do you want to store the password for server '%1' in the configuration file?"
+msgstr ""
+"KDE 钱包不可用。但强烈推荐您使用 KDE 钱包管理您的密码。\n"
+"然而，KNode 也可以改以在配置文件内保存密码。密码会以乱数格式保存，但如果其他"
+"人获得了对此配置文件的访问权，在充足的解密尝试下它依然是不安全的。\n"
+"您要在配置文件中保存服务器“%1”的密码吗？"
+
+#: knserverinfo.cpp:100
+msgid "KWallet Not Available"
+msgstr "KDE 钱包不可用"
+
+#: knserverinfo.cpp:101
+msgid "Store Password"
+msgstr "存储密码"
+
+#: knserverinfo.cpp:102
+msgid "Do Not Store Password"
+msgstr "不存储密码"
+
+#: knsourceviewwindow.cpp:38
+msgid "Article Source"
+msgstr "文章正文"
+
+#: knstatusfilter.cpp:109
+msgid "Is read:"
+msgstr "已读："
+
+#: knstatusfilter.cpp:110
+msgid "Is new:"
+msgstr "新的："
+
+#: knstatusfilter.cpp:111
+msgid "Has unread followups:"
+msgstr "有未读的回复："
+
+#: knstatusfilter.cpp:112
+msgid "Has new followups:"
+msgstr "有新的回复："
+
+#: knstatusfilter.cpp:211
+msgid "True"
+msgstr "真"
+
+#: knstatusfilter.cpp:212
+msgid "False"
+msgstr "假"
+
+#: knstringfilter.cpp:109
+msgid "Does Contain"
+msgstr "包含"
+
+#: knstringfilter.cpp:110
+msgid "Does NOT Contain"
+msgstr "不包含"
+
+#: knstringfilter.cpp:114
+msgid "Regular expression"
+msgstr "正规表达式"
+
+#: kscoring.cpp:87
+msgid "Notify Message"
+msgstr "通知消息"
+
+#: kscoring.cpp:98
+msgid "Do not show this message again"
+msgstr "以后不再显示此消息"
+
+#: kscoring.cpp:122
+#, kde-format
+msgid ""
+"Article\n"
+"<b>%1</b><br /><b>%2</b><br />caused the following note to appear:<br />%3"
+msgstr ""
+"文章\n"
+"<b>%1</b><br /><b>%2</b><br />导致下列便笺消失：<br />%3"
+
+#: kscoring.cpp:193
+msgid "Adjust Score"
+msgstr "调整分数"
+
+#: kscoring.cpp:195
+msgid "Display Message"
+msgstr "显示信件"
+
+#: kscoring.cpp:197
+msgid "Colorize Header"
+msgstr "标题着色"
+
+#: kscoring.cpp:199
+msgid "Mark as Read"
+msgstr "标记为已读"
+
+#: kscoring.cpp:394
+msgid "<h1>List of collected notes</h1>"
+msgstr "<h1>列出所收集的便笺</h1>"
+
+#: kscoring.cpp:418
+msgid "Collected Notes"
+msgstr "收集的便笺"
+
+#: kscoring.cpp:491
+msgid "Contains Substring"
+msgstr "包含自字符串"
+
+#: kscoring.cpp:493
+msgid "Matches Regular Expression"
+msgstr "匹配正则表达式"
+
+#: kscoring.cpp:495
+msgid "Matches Regular Expression (Case Sensitive)"
+msgstr "匹配正则表达式(区分大小写)"
+
+#: kscoring.cpp:497
+msgid "Is Exactly the Same As"
+msgstr "完全相同"
+
+#: kscoring.cpp:499
+msgid "Less Than"
+msgstr "小于"
+
+#: kscoring.cpp:501
+msgid "Greater Than"
+msgstr "大于"
+
+#: kscoring.cpp:1042
+msgid "Choose Another Rule Name"
+msgstr "选择另一个规则名称"
+
+#: kscoring.cpp:1043
+msgid "The rule name is already assigned, please choose another name:"
+msgstr "同名规则已存在，请选择不同的名称。"
+
+#: kscoring.cpp:1198
+#, kde-format
+msgid "rule %1"
+msgstr "规则 %1"
+
+#: kscoringeditor.cpp:75
+msgid "Not"
+msgstr "无"
+
+#: kscoringeditor.cpp:76
+msgid "Negate this condition"
+msgstr "反向匹配此条件"
+
+#: kscoringeditor.cpp:81
+msgid "Select the header to match this condition against"
+msgstr "选择反向匹配此条件的信头"
+
+#: kscoringeditor.cpp:85
+msgid "Select the type of match"
+msgstr "选择匹配类型"
+
+#: kscoringeditor.cpp:93
+msgid "The condition for the match"
+msgstr "要匹配的条件"
+
+#: kscoringeditor.cpp:97
+msgid "Edit..."
+msgstr "编辑..."
+
+#: kscoringeditor.cpp:245
+msgid "Select an action."
+msgstr "选择动作。"
+
+#: kscoringeditor.cpp:445
+msgid "Properties"
+msgstr "属性"
+
+#: kscoringeditor.cpp:456
+msgctxt "@label rule name"
+msgid "&Name:"
+msgstr "名称(&N)"
+
+#: kscoringeditor.cpp:464
+msgid "&Groups:"
+msgstr "组(&G)：：；"
+
+#: kscoringeditor.cpp:469
+msgid "A&dd Group"
+msgstr "添加组(&D)"
+
+#: kscoringeditor.cpp:480
+msgid "&Expire rule automatically"
+msgstr "自动过期规则(&E)"
+
+#: kscoringeditor.cpp:488
+msgid "&Rule is valid for:"
+msgstr "规则有效期(&R)："
+
+#: kscoringeditor.cpp:499
+msgid "Conditions"
+msgstr "条件"
+
+#: kscoringeditor.cpp:509
+msgid "Match a&ll conditions"
+msgstr "匹配全部条件(&L)"
+
+#: kscoringeditor.cpp:512
+msgid "Matc&h any condition"
+msgstr "匹配任意条件(&H)"
+
+#: kscoringeditor.cpp:522
+msgid "Actions"
+msgstr "动作"
+
+#: kscoringeditor.cpp:682
+msgid "Move rule up"
+msgstr "上移规则"
+
+#: kscoringeditor.cpp:687
+msgid "Move rule down"
+msgstr "下移规则"
+
+#: kscoringeditor.cpp:699
+msgid "New rule"
+msgstr "新建规则"
+
+#: kscoringeditor.cpp:706
+msgid "Edit rule"
+msgstr "编辑规则"
+
+#: kscoringeditor.cpp:712
+msgid "Remove rule"
+msgstr "删除规则"
+
+#: kscoringeditor.cpp:717
+msgid "Copy rule"
+msgstr "复制规则"
+
+#: kscoringeditor.cpp:728 kscoringeditor.cpp:733 kscoringeditor.cpp:774
+msgid "<placeholder>all groups</placeholder>"
+msgstr "<placeholder>所有的组</placeholder>"
+
+#: kscoringeditor.cpp:734
+msgid "Sho&w only rules for group:"
+msgstr "仅显示以下组的规则(&W)："
+
+#: kscoringeditor.cpp:952
+msgid "Rule Editor"
+msgstr "规则编辑器"
+
+#: kscoringeditor.cpp:1064
+msgid "Edit Rule"
+msgstr "编辑规则"
+
+#: mailsendjob.cpp:39
+msgid "Could not create mail transport job."
+msgstr "无法建立邮件传输任务。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mIntervalChecking)
+#: nntpaccountdialog_base.ui:52
+msgid "Enable &interval news checking"
+msgstr "启用定期新闻检查(&I)"
+
+#. i18n: ectx: property (text), widget (QLabel, mIntervalLabel)
+#: nntpaccountdialog_base.ui:62
+msgid "Check inter&val:"
+msgstr "检查间隔(&V)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, mFetchDesc)
+#: nntpaccountdialog_base.ui:85
+msgid "Fetch group descriptions"
+msgstr "获取组描述"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mLogin)
+#: nntpaccountdialog_base.ui:92
+msgid "Server requires &authentication"
+msgstr "服务器需要认证(&A)"
+
+#. i18n: ectx: property (text), widget (QLabel, mPasswordLabel)
+#: nntpaccountdialog_base.ui:125
+msgid "Pass&word:"
+msgstr "密码(&W)："
+
+#. i18n: ectx: property (text), widget (QLabel, mUserLabel)
+#: nntpaccountdialog_base.ui:138
+msgid "&User:"
+msgstr "用户(&U)："
+
+#. i18n: ectx: property (title), widget (QGroupBox, mEncGroup)
+#: nntpaccountdialog_base.ui:148
+msgid "Encryption"
+msgstr "加密"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mEncSSL)
+#: nntpaccountdialog_base.ui:170
+msgid "SSL"
+msgstr "SSL"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mEncTLS)
+#: nntpaccountdialog_base.ui:180
+msgid "TLS"
+msgstr "TLS"
+
+#. i18n: ectx: property (text), widget (QLabel, mServerLabel)
+#: nntpaccountdialog_base.ui:203
+msgid "&Server:"
+msgstr "服务器(&S)："
+
+#. i18n: ectx: property (text), widget (QLabel, mPortLabel)
+#: nntpaccountdialog_base.ui:213
+msgid "&Port:"
+msgstr "端口(&P)："
+
+#. i18n: ectx: property (text), widget (QPushButton, mAddButton)
+#: nntpaccountlistwidget_base.ui:55 postnewstechnicalwidget_base.ui:134
+msgid "&Add..."
+msgstr "添加(&A)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, mEditButton)
+#: nntpaccountlistwidget_base.ui:62 postnewstechnicalwidget_base.ui:120
+msgid "&Edit..."
+msgstr "编辑(&E)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, mSubscribeButton)
+#: nntpaccountlistwidget_base.ui:76
+msgid "&Subscribe..."
+msgstr "订阅(&S)..."
+
+#: nntpjobs.cpp:99 nntpjobs.cpp:127
+msgid "Loading group list from disk..."
+msgstr "正在从磁盘装载组列表..."
+
+#: nntpjobs.cpp:101 nntpjobs.cpp:130
+msgid "Unable to read the group list file"
+msgstr "无法读取组列表文件"
+
+#: nntpjobs.cpp:107
+msgid "Writing group list to disk..."
+msgstr "正在向磁盘写入组列表..."
+
+#: nntpjobs.cpp:110
+msgid "Unable to write the group list file"
+msgstr "无法写入组列表文件"
+
+#: nntpjobs.cpp:181
+msgid "Sorting..."
+msgstr "正在排序..."
+
+#: nntpjobs.cpp:272
+#, kde-format
+msgid "The server %1 does not allow you to post articles to it."
+msgstr "服务器 %1 不允许您向其投递文章。"
+
+#: nntpjobs.cpp:275
+#, kde-format
+msgid ""
+"The posting of this article to the server %1 failed.\n"
+"Please check that you are not trying to post to a read-only group."
+msgstr ""
+"将此文章投递到服务器 %1 失败。\n"
+"请检查您是否正在向只读组中投递。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_wordWrap)
+#: postnewscomposerwidget_base.ui:35
+msgid "Word &wrap at column:"
+msgstr "自动换行列数(&W)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_appendOwnSignature)
+#: postnewscomposerwidget_base.ui:42
+msgid "Appe&nd signature automatically"
+msgstr "自动附加签名(&N)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: postnewscomposerwidget_base.ui:55
+msgid "Reply"
+msgstr "回复"
+
+#. i18n: ectx: property (text), widget (QLabel, label1)
+#: postnewscomposerwidget_base.ui:72
+msgid "&Introduction phrase:"
+msgstr "介绍词(&I)："
+
+#. i18n: ectx: property (text), widget (QLabel, label2)
+#: postnewscomposerwidget_base.ui:87
+#, no-c-format
+msgid ""
+"<qt>Placeholders: <b>%NAME</b>=sender's name, <b>%EMAIL</b>=sender's address,"
+"<br><b>%DATE</b>=date, <b>%MSID</b>=message-id, <b>%MSIDX</b>=message-id "
+"without angle brackets, <b>%GROUP</b>=group name, <b>%L</b>=line break</qt>"
+msgstr ""
+"<qt>占位符：<b>%NAME</b>=发件人名称，<b>%EMAIL</b>=发件人地址，<br><b>%DATE</"
+"b>=日期，<b>%MSID</b>=无括号的消息号，<b>%GROUP</b>=组名，<b>%L</b>=换行</qt>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_rewrap)
+#: postnewscomposerwidget_base.ui:102
+msgid "Rewrap quoted te&xt automatically"
+msgstr "对引用文字自动换行(&X)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_includeSignature)
+#: postnewscomposerwidget_base.ui:109
+msgid "Include the a&uthor's signature"
+msgstr "包含作者签名(&U)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_cursorOnTop)
+#: postnewscomposerwidget_base.ui:116
+msgid "Put the cursor &below the introduction phrase"
+msgstr "将光标置于介绍文字下面(&B)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: postnewscomposerwidget_base.ui:128
+msgid "External Editor"
+msgstr "外部编辑器"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useExternalEditor)
+#: postnewscomposerwidget_base.ui:140
+msgid "Start exte&rnal editor automatically"
+msgstr "自动启动外部编辑器(&R)"
+
+#. i18n: ectx: property (text), widget (QLabel, label4)
+#: postnewscomposerwidget_base.ui:147
+#, no-c-format
+msgid "<qt><b>%f</b> will be replaced with the filename to edit</qt>"
+msgstr "<qt>文件 <b>%f</b> 将被要编辑的文件代替。</qt>"
+
+#. i18n: ectx: property (text), widget (QLabel, label3)
+#: postnewscomposerwidget_base.ui:161
+msgid "Specify editor:"
+msgstr "指定编辑器："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_generateMessageID)
+#: postnewstechnicalwidget_base.ui:35
+msgid "&Generate message-id"
+msgstr "产生消息号(&G)"
+
+#. i18n: ectx: property (text), widget (QLabel, mHostLabel)
+#: postnewstechnicalwidget_base.ui:52
+msgid "Ho&st name:"
+msgstr "主机名(&S)："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: postnewstechnicalwidget_base.ui:62
+msgid "Enco&ding:"
+msgstr "编码(&D)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseOwnCharset)
+#: postnewstechnicalwidget_base.ui:75
+msgid "Use o&wn default charset when replying"
+msgstr "回复时用我默认的字符集(&W)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: postnewstechnicalwidget_base.ui:85
+msgid "Cha&rset:"
+msgstr "字符集(&R)："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: postnewstechnicalwidget_base.ui:98
+msgid "Header"
+msgstr "信头"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_noUserAgent)
+#: postnewstechnicalwidget_base.ui:113
+msgid "Do not add the \"&User-Agent\" identification header"
+msgstr "不要添加“&User-Agent”标识头"
+
+#. i18n: ectx: property (text), widget (QPushButton, mDeleteButton)
+#: postnewstechnicalwidget_base.ui:127
+msgid "Dele&te"
+msgstr "删除(&T)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: postnewstechnicalwidget_base.ui:141
+#, no-c-format
+msgid ""
+"<qt>Placeholders for replies: <b>%NAME</b>=sender's name, <b>%EMAIL</"
+"b>=sender's address</qt>"
+msgstr ""
+"<qt>回复时支持下列占位符：<b>%NAME</b>=发件人名字, <b>%EMAIL</b>=发件人地址</"
+"qt>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, articleHandlingBox)
+#: readnewsgeneralwidget_base.ui:23
+msgid "Article Handling"
+msgstr "文章处理"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoCheckGroups)
+#: readnewsgeneralwidget_base.ui:44
+msgid "Check for new articles a&utomatically"
+msgstr "自动检查新文章(&U)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: readnewsgeneralwidget_base.ui:53
+msgid "&Maximum number of articles to fetch:"
+msgstr "最多下载文章个数(&M)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoMark)
+#: readnewsgeneralwidget_base.ui:73
+msgid "Mar&k article as read after:"
+msgstr "将文章标为已读经过(&K)："
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_autoMarkSeconds)
+#: readnewsgeneralwidget_base.ui:83
+msgid "sec"
+msgstr "秒"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_markCrossposts)
+#: readnewsgeneralwidget_base.ui:95
+msgid "Mark c&rossposted articles as read"
+msgstr "将一稿多投的文章标为已读(&R)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_defaultToExpandedThreads)
+#: readnewsgeneralwidget_base.ui:117
+msgid "Default to e&xpanded threads"
+msgstr "默认为展开的线索(&X)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_smartScrolling)
+#: readnewsgeneralwidget_base.ui:124
+msgid "Smart scrolli&ng"
+msgstr "智能滚动(&N)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_totalExpandThreads)
+#: readnewsgeneralwidget_base.ui:131
+msgid "Show &whole thread on expanding"
+msgstr "将所有线索展开显示(&W)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showScore)
+#: readnewsgeneralwidget_base.ui:138
+msgid "Show article &score"
+msgstr "显示文章评分(&S)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showLines)
+#: readnewsgeneralwidget_base.ui:145
+msgid "Show &line count"
+msgstr "显示行数(&L)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showUnread)
+#: readnewsgeneralwidget_base.ui:152
+msgid "Show unread count in &thread"
+msgstr "显示线索中的未读数目(&T)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, dateFormatBox)
+#: readnewsgeneralwidget_base.ui:162
+msgid "Date Display"
+msgstr "日期显示"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mCustomDateFormat)
+#: readnewsgeneralwidget_base.ui:196
+msgid "Custom format (Shift+F1 for help):"
+msgstr "自定义格式(按 Shift+F1 显示帮助)："
+
+#. i18n: ectx: property (title), widget (QGroupBox, markAllReadBox)
+#: readnewsnavigationwidget_base.ui:23
+msgid "\"Mark All as Read\" Triggers Following Actions"
+msgstr "“标记全部为已读”触发以下动作"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_markAllReadGoNext)
+#: readnewsnavigationwidget_base.ui:35
+msgid "&Switch to the next group"
+msgstr "切换到下一组(&S)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, markThreadReadBox)
+#: readnewsnavigationwidget_base.ui:45
+msgid "\"Mark Thread as Read\" Triggers Following Actions"
+msgstr "“标记线索为已读”触发以下动作"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_markThreadReadCloseThread)
+#: readnewsnavigationwidget_base.ui:57
+msgid "Clos&e the current thread"
+msgstr "关闭当前线索(&E)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_markThreadReadGoNext)
+#: readnewsnavigationwidget_base.ui:64
+msgid "Go &to the next unread thread"
+msgstr "至下一个未读线索(&T)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, ignoreThreadBox)
+#: readnewsnavigationwidget_base.ui:74
+msgid "\"Ignore Thread\" Triggers Following Actions"
+msgstr "“忽略线索”触发以下动作"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ignoreThreadCloseThread)
+#: readnewsnavigationwidget_base.ui:86
+msgid "Close the cu&rrent thread"
+msgstr "关闭当前线索(&R)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ignoreThreadGoNext)
+#: readnewsnavigationwidget_base.ui:93
+msgid "Go to the next &unread thread"
+msgstr "至下一个未读线索(&U)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, leaveGroupBox)
+#: readnewsnavigationwidget_base.ui:103
+msgid "Leaving Group Triggers Following Actions"
+msgstr "离开组时触发以下动作"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_leaveGroupMarkAsRead)
+#: readnewsnavigationwidget_base.ui:115
+msgid "Mark all articles as read"
+msgstr "标记所有文章为已读"
+
+#. i18n: ectx: property (title), widget (QGroupBox, appearanceBox)
+#: readnewsviewerwidget_base.ui:23
+msgid "Appearance"
+msgstr "外观"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: readnewsviewerwidget_base.ui:38
+msgid "Recognized q&uote characters:"
+msgstr "已知的引用字符(&U)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_removeTrailingNewlines)
+#: readnewsviewerwidget_base.ui:48
+msgid "Re&move trailing empty lines"
+msgstr "删除后缀的空行(&M)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showSignature)
+#: readnewsviewerwidget_base.ui:62
+msgid "Show sig&nature"
+msgstr "显示签名(&N)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_rewrapBody)
+#: readnewsviewerwidget_base.ui:69
+msgid "Re&wrap text when necessary"
+msgstr "必要时文字换行(&W)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, attachmentBox)
+#: readnewsviewerwidget_base.ui:79
+msgid "Attachments"
+msgstr "附件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_openAttachmentsOnClick)
+#: readnewsviewerwidget_base.ui:91
+msgid "Open a&ttachments on click"
+msgstr "单击打开附件(&T)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showAlternativeContents)
+#: readnewsviewerwidget_base.ui:98
+msgid "Show alternati&ve contents as attachments"
+msgstr "将可选内容显示为附件(&V)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, securityBox)
+#: readnewsviewerwidget_base.ui:108
+msgid "Security"
+msgstr "安全"
+
+#: scheduler.cpp:50
+msgid "Internal Error: No account set for this job."
+msgstr "内部错误：该任务无对应账户。"
+
+#: scheduler.cpp:64
+msgid "Waiting for KWallet..."
+msgstr "正在等待 KWallet..."
+
+#: scheduler.cpp:180
+msgid ""
+"You need to supply a username and a\n"
+"password to access this server"
+msgstr "要访问这台服务器，您需要提供用户名和密码"
+
+#: scheduler.cpp:182
+msgid "Authentication Failed"
+msgstr "认证失败"
+
+#: scheduler.cpp:183
+msgid "Server:"
+msgstr "服务器："
+
+#: settings.cpp:31
+msgid "Quoted Text - First level"
+msgstr "引用文字-第一级"
+
+#: settings.cpp:32
+msgid "Quoted Text - Second level"
+msgstr "引用文字-第二级"
+
+#: settings.cpp:33
+msgid "Quoted Text - Third level"
+msgstr "引用文字-第三级"
+
+#: utilities.cpp:70
+#, kde-format
+msgid ""
+"<qt>A file named <b>%1</b> already exists.<br />Do you want to replace it?</"
+"qt>"
+msgstr "<qt>名为 <b>%1</b> 的文件已存在。<br />您要替换它吗？</qt>"
+
+#: utilities.cpp:71
+msgid "&Replace"
+msgstr "替换(&R)"
+
+#: utilities.cpp:346
+msgid ""
+"Unable to load/save configuration.\n"
+"Wrong permissions on home folder?\n"
+"You should close KNode now to avoid data loss."
+msgstr ""
+"无法装入或保存配置。\n"
+"也许是主文件夹权限错误？\n"
+"您现在应该关闭 KNode，防止数据丢失。"
+
+#: utilities.cpp:352
+msgid "Unable to load/save file."
+msgstr "无法装入或保存文件。"
+
+#: utilities.cpp:358
+msgid "Unable to save remote file."
+msgstr "无法保存远程文件。"
+
+#: utilities.cpp:364
+msgid "Unable to create temporary file."
+msgstr "无法创建临时文件。"
+
+#~ msgid "Hide T&hreads"
+#~ msgstr "隐藏线索(&H)"
+
+#~ msgid "Hide Quick Search"
+#~ msgstr "隐藏快速搜索"

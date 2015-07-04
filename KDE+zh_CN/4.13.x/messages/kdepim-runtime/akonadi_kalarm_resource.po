@@ -1,0 +1,259 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-07 01:43+0000\n"
+"PO-Revision-Date: 2011-11-19 15:23+0800\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  akonadi_kalarm_resource.po  #-#-#-#-#\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  akonadi_kalarm_resource_common.po  #-#-#-#-#\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"#-#-#-#-#  akonadi_kalarm_dir_resource.po  #-#-#-#-#\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: kalarm/kalarmresource.cpp:90
+msgctxt "@title:window"
+msgid "Select Active Alarm Calendar"
+msgstr "选择活动提醒日历"
+
+#: kalarm/kalarmresource.cpp:93
+msgctxt "@title:window"
+msgid "Select Archived Alarm Calendar"
+msgstr "选择归档提醒日历"
+
+#: kalarm/kalarmresource.cpp:96
+msgctxt "@title:window"
+msgid "Select Alarm Template Calendar"
+msgstr "选择提醒模板日历"
+
+#. i18n: ectx: label, entry (Path), group (General)
+#: kalarm/kalarmresource.kcfg:10
+msgid "Path to KAlarm calendar file."
+msgstr "KAlarm 日历文件的路径。"
+
+#. i18n: ectx: label, entry (DisplayName), group (General)
+#: kalarm/kalarmresource.kcfg:14 kalarmdir/kalarmdirresource.kcfg:13
+msgid "Display name."
+msgstr "显示名称。"
+
+#. i18n: ectx: label, entry (ReadOnly), group (General)
+#: kalarm/kalarmresource.kcfg:18 kalarmdir/kalarmdirresource.kcfg:17
+msgid "Do not change the actual backend data."
+msgstr "不更改真实的后端数据。"
+
+#. i18n: ectx: label, entry (MonitorFile), group (General)
+#: kalarm/kalarmresource.kcfg:22
+msgid "Monitor file for changes."
+msgstr "监视文件更改。"
+
+#. i18n: ectx: label, entry (AlarmTypes), group (General)
+#: kalarm/kalarmresource.kcfg:26 kalarmdir/kalarmdirresource.kcfg:25
+msgid "Alarm types."
+msgstr "提醒类型。"
+
+#. i18n: ectx: label, entry (UpdateStorageFormat), group (General)
+#: kalarm/kalarmresource.kcfg:29 kalarmdir/kalarmdirresource.kcfg:28
+msgid "Update backend storage format."
+msgstr "更新后端存储格式。"
+
+#: kalarmdir/kalarmdirresource.cpp:697
+#, kde-format
+msgctxt "@info"
+msgid "Trying to write to a read-only calendar: '%1'"
+msgstr "尝试写入只读日历：“%1”"
+
+#: kalarmdir/kalarmdirresource.cpp:722
+#, kde-format
+msgctxt "@info"
+msgid "Failed to save event file: %1"
+msgstr "保存事件文件失败：%1"
+
+#. i18n: ectx: label, entry (Path), group (General)
+#: kalarmdir/kalarmdirresource.kcfg:9
+msgid "Path to KAlarm directory."
+msgstr "KAlarm 目录路径"
+
+#. i18n: ectx: label, entry (MonitorFiles), group (General)
+#: kalarmdir/kalarmdirresource.kcfg:21
+msgid "Monitor directory for changes."
+msgstr "监视目录更改。"
+
+#: kalarmdir/settingsdialog.cpp:44
+msgctxt "@title"
+msgid "Configure Calendar"
+msgstr "配置日历"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: kalarmdir/settingsdialog.ui:26
+msgid "Directory"
+msgstr "目录"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: kalarmdir/settingsdialog.ui:32
+msgid "Directory Name"
+msgstr "目录名称"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kalarmdir/settingsdialog.ui:40
+msgid "&Directory:"
+msgstr "目录(&D)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kalarmdir/settingsdialog.ui:55
+msgid ""
+"Select the directory whose contents should be represented by this resource. "
+"If the directory does not exist, it will be created."
+msgstr "选择应由此资源展示内容的目录。如果目录不存在，则创建它。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: kalarmdir/settingsdialog.ui:68
+msgid "Display Name"
+msgstr "显示名字"
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: kalarmdir/settingsdialog.ui:76
+msgid "&Name:"
+msgstr "名称(&N)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: kalarmdir/settingsdialog.ui:91
+msgid ""
+"Enter the name used to identify this resource in displays. If not specified, "
+"the directory name will be used."
+msgstr "输入用于标示此资源的名称。如果未指定，则以目录名为准。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: kalarmdir/settingsdialog.ui:104
+msgid "Access Rights"
+msgstr "访问权限"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReadOnly)
+#: kalarmdir/settingsdialog.ui:110
+msgid "Read only"
+msgstr "只读"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kalarmdir/settingsdialog.ui:117
+msgid ""
+"If read-only mode is enabled, no changes will be written to the directory "
+"selected above. Read-only mode will be automatically enabled if you do not "
+"have write access to the directory."
+msgstr ""
+"如果启用只读模式，那么将不会向所选目录写入任何更改。只读模式会当您没有目录写"
+"访问权限时自动启用。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: shared/alarmtyperadiowidget.ui:8 shared/alarmtypewidget.ui:8
+msgid "Alarm Types"
+msgstr "提醒类型"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
+#: shared/alarmtyperadiowidget.ui:11
+msgid "Select which alarm type this resource should contain."
+msgstr "选择资源要包含的提醒类型。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, activeCheckBox)
+#. i18n: ectx: property (text), widget (QRadioButton, activeRadio)
+#: shared/alarmtyperadiowidget.ui:17 shared/alarmtypewidget.ui:17
+msgid "Active Alarms"
+msgstr "活动提醒"
+
+#. i18n: ectx: property (text), widget (QCheckBox, archivedCheckBox)
+#. i18n: ectx: property (text), widget (QRadioButton, archivedRadio)
+#: shared/alarmtyperadiowidget.ui:27 shared/alarmtypewidget.ui:27
+msgid "Archived Alarms"
+msgstr "存档提醒"
+
+#. i18n: ectx: property (text), widget (QCheckBox, templateCheckBox)
+#. i18n: ectx: property (text), widget (QRadioButton, templateRadio)
+#: shared/alarmtyperadiowidget.ui:37 shared/alarmtypewidget.ui:37
+msgid "Alarm Templates"
+msgstr "提醒模板"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
+#: shared/alarmtypewidget.ui:11
+msgid "Select which alarm type(s) this resource should contain."
+msgstr "选择资源要包含的提醒类型。"
+
+#: shared/kalarmresourcecommon.cpp:129
+#, kde-format
+msgctxt "@info"
+msgid "Item ID %1 differs from payload ID %2."
+msgstr "项目 ID %1 和资料 ID %2 不同。"
+
+#: shared/kalarmresourcecommon.cpp:175
+#, kde-format
+msgctxt "@info"
+msgid "Event with uid '%1' not found."
+msgstr "未找到 uid 为“%1”的事件。"
+
+#: shared/kalarmresourcecommon.cpp:177
+msgctxt "@info"
+msgid "Calendar is not in current KAlarm format."
+msgstr "日历不在当前的 KAlarm 格式中。"
+
+#: shared/kalarmresourcecommon.cpp:179
+#, kde-format
+msgctxt "@info"
+msgid "Event with uid '%1' is not in current KAlarm format."
+msgstr "uid 为‘%1’的事件不在当前的 KAlarm 格式中。"
+
+#: shared/kalarmresourcecommon.cpp:181
+#, kde-format
+msgctxt "@info"
+msgid "Event with uid '%1' contains no usable alarms."
+msgstr "uid 为‘%1’的事件不包含可用的提醒。"
+
+#: shared/kalarmresourcecommon.cpp:183
+#, kde-format
+msgctxt "@info"
+msgid "Event with uid '%1' is read only"
+msgstr "uid 为‘%1’的事件只读。"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Alarm type"
+#~ msgstr "提醒类型。"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Alarm status"
+#~ msgstr "提醒类型。"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Template name"
+#~ msgstr "显示名称。"
+
+#, fuzzy
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Display (text)"
+#~ msgstr "显示名称。"
+
+#, fuzzy
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Display (file)"
+#~ msgstr "显示名称。"
+
+#, fuzzy
+#~ msgctxt "@info/plain Alarm type"
+#~ msgid "Display (command)"
+#~ msgstr "显示名称。"
+
+#, fuzzy
+#~ msgid "&Display name:"
+#~ msgstr "显示名称。"

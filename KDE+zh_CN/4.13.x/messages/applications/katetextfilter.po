@@ -1,0 +1,96 @@
+# Mai Hao Hui <mhh@126.com> ,2001
+# Sarah Smith <sarahs@redhat.com>, 2005
+msgid ""
+msgstr ""
+"Project-Id-Version: katetextfilter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-27 01:23+0000\n"
+"PO-Revision-Date: 2014-02-26 13:14-0700\n"
+"Last-Translator: Jeff Bai <jeffbaichina@members.fsf.org>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.6.4\n"
+"Language: zh_CN\n"
+
+#: plugin_katetextfilter.cpp:55
+msgid "Filter Te&xt..."
+msgstr "文本过滤(&X)…"
+
+#: plugin_katetextfilter.cpp:129
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<title>Result of:</title><nl /><pre><code>$ %1\n"
+"<nl />%2</code></pre>"
+msgstr ""
+"<title>有如下结果: </title><nl /><pre><code>$ %1\n"
+"<nl />%2</code></pre>"
+
+#: plugin_katetextfilter.cpp:188
+msgid ""
+"You are not allowed to execute arbitrary external applications. If you want "
+"to be able to do this, contact your system administrator."
+msgstr ""
+"您不允许执行此外部应用程序。如果您想要打破此限制，请联系您的系统管理员。"
+
+#: plugin_katetextfilter.cpp:190
+msgid "Access Restrictions"
+msgstr "访问限制"
+
+#: plugin_katetextfilter.cpp:270
+msgid ""
+"<qt><p>Usage: <code>textfilter COMMAND</code></p><p>Replace the selection "
+"with the output of the specified shell command.</p></qt>"
+msgstr ""
+"<qt><p>用法：<code>textfilter 命令</code></p><p>将选中范围替换为指定 Shell 命"
+"令的输出。</p></qt>"
+
+#: plugin_katetextfilter.cpp:280
+msgid "Usage: textfilter COMMAND"
+msgstr "用法：textfilter 命令"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, TextFilterWidget)
+#: textfilterwidget.ui:6
+msgid "Filter"
+msgstr "过滤器"
+
+#. i18n: ectx: property (text), widget (QLabel, lblFilter)
+#: textfilterwidget.ui:21
+msgid "Enter command to pipe selected text through:"
+msgstr "输入要用来处理(通过管道)选中文本的命令："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, copyResult)
+#: textfilterwidget.ui:41
+msgid "Copy the result to clipboard leaving a document unchanged."
+msgstr "复制结果到剪贴板并保持文档不变"
+
+#. i18n: ectx: property (text), widget (QCheckBox, copyResult)
+#: textfilterwidget.ui:44
+msgid "Copy the result instead of pasting it"
+msgstr "复制结果而非粘贴结果"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mergeOutput)
+#: textfilterwidget.ui:52
+msgid ""
+"If checked, an output from STDOUT and STDERR will be merged and no errors "
+"will be reported.\n"
+"Otherwise, STDERR will be displayed as a passive message."
+msgstr ""
+"如果打开此选项，来自 STDOUT 和 STDERR 的输出将被合并而不会报告任何错误。\n"
+"否则，STDERR 将被作为被动信息显示。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mergeOutput)
+#: textfilterwidget.ui:55
+msgid "Merge STDOUT and STDERR"
+msgstr "合并 STDOUT 和 STDERR"
+
+#. i18n: ectx: Menu (tools)
+#: ui.rc:4
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#~ msgid "You need to have a selection to use textfilter"
+#~ msgstr "要使用文本过滤器，您需要先选中文本"

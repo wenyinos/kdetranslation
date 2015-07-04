@@ -1,0 +1,2091 @@
+# translation of step_qt.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2007, 2008, 2009.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: step_qt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-04 01:32+0000\n"
+"PO-Revision-Date: 2011-07-06 21:59+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: collisionsolver.cc:32
+msgctxt "ObjectClass"
+msgid "CollisionSolver"
+msgstr "碰撞求解"
+
+#: collisionsolver.cc:33 solver.cc:28
+msgctxt "PropertyName"
+msgid "toleranceAbs"
+msgstr "允许绝对误差"
+
+#: collisionsolver.cc:33 solver.cc:28
+msgid "Allowed absolute tolerance"
+msgstr "允许绝对误差"
+
+#: collisionsolver.cc:34 solver.cc:31
+msgctxt "PropertyName"
+msgid "localError"
+msgstr "本地错误"
+
+#: collisionsolver.cc:34 solver.cc:31
+msgid "Maximal local error during last step"
+msgstr "上一步中最大本地错误"
+
+#: collisionsolver.cc:36
+msgctxt "ObjectClass"
+msgid "GJKCollisionSolver"
+msgstr "GJK 碰撞求解"
+
+#: constraintsolver.cc:30
+msgctxt "ObjectClass"
+msgid "ConstraintSolver"
+msgstr "约束求解"
+
+#: constraintsolver.cc:34
+msgctxt "ObjectClass"
+msgid "CGConstraintSolver"
+msgstr "CG 约束求解"
+
+#: coulombforce.cc:27
+msgctxt "ObjectClass"
+msgid "CoulombForce"
+msgstr "库伦力"
+
+#: coulombforce.cc:27
+msgid "Coulomb force"
+msgstr "库伦力"
+
+#: coulombforce.cc:29
+msgctxt "PropertyName"
+msgid "coulombConst"
+msgstr "库伦常量"
+
+#: coulombforce.cc:29 coulombforce.cc:34
+msgctxt "Units"
+msgid "N m²/C²"
+msgstr "牛 米²/库²"
+
+#: coulombforce.cc:30
+msgid "Coulomb constant"
+msgstr "库伦常量"
+
+#: coulombforce.cc:32
+msgctxt "ObjectClass"
+msgid "CoulombForceErrors"
+msgstr "库伦力错误"
+
+#: coulombforce.cc:32
+msgid "Errors class for CoulombForce"
+msgstr "库伦力错误类"
+
+#: coulombforce.cc:34
+msgctxt "PropertyName"
+msgid "coulombConstVariance"
+msgstr "库伦常量变化量"
+
+#: coulombforce.cc:35
+msgid "Coulomb constant variance"
+msgstr "库伦常量变化量"
+
+#: eulersolver.cc:28
+msgctxt "ObjectClass"
+msgid "GenericEulerSolver"
+msgstr "常规欧拉求解"
+
+#: eulersolver.cc:28
+msgid "Generic Euler solver"
+msgstr "常规欧拉求解"
+
+#: eulersolver.cc:29
+msgctxt "ObjectClass"
+msgid "EulerSolver"
+msgstr "欧拉求解"
+
+#: eulersolver.cc:29
+msgid "Non-adaptive Euler solver"
+msgstr "非适应性欧拉求解"
+
+#: eulersolver.cc:30
+msgctxt "ObjectClass"
+msgid "AdaptiveEulerSolver"
+msgstr "适应性欧拉求解"
+
+#: eulersolver.cc:30
+msgid "Adaptive Euler solver"
+msgstr "适应性欧拉求解"
+
+#: gas.cc:28
+msgctxt "ObjectClass"
+msgid "GasParticle"
+msgstr "气体质点"
+
+#: gas.cc:28
+msgid "Gas particle"
+msgstr "气体质点"
+
+#: gas.cc:30
+msgctxt "ObjectClass"
+msgid "GasLJForce"
+msgstr "气体伦纳德-琼斯势"
+
+#: gas.cc:30
+msgid "Lennard-Jones force"
+msgstr "伦纳德-琼斯势"
+
+#: gas.cc:32
+msgctxt "PropertyName"
+msgid "depth"
+msgstr "势能阱深"
+
+#: gas.cc:32 gas.cc:38 gas.cc:60 gas.cc:75 particle.cc:38 particle.cc:54
+#: rigidbody.cc:49 rigidbody.cc:80
+msgctxt "Units"
+msgid "J"
+msgstr "焦"
+
+#: gas.cc:32
+msgid "Potential depth"
+msgstr "势能阱的深度"
+
+#: gas.cc:33 gas.cc:34 gas.cc:40 gas.cc:46 gas.cc:48 joint.cc:30 joint.cc:36
+#: joint.cc:37 joint.cc:41 joint.cc:44 joint.cc:46 joint.cc:48 joint.cc:49
+#: motor.cc:31 motor.cc:37 particle.cc:30 particle.cc:42 rigidbody.cc:28
+#: rigidbody.cc:53 rigidbody.cc:84 rigidbody.cc:89 rigidbody.cc:92
+#: rigidbody.cc:96 rigidbody.cc:97 softbody.cc:36 spring.cc:30 spring.cc:31
+#: spring.cc:36 spring.cc:38 spring.cc:40 spring.cc:41 spring.cc:47
+#: spring.cc:49 spring.cc:55 spring.cc:57 spring.cc:59 spring.cc:61 tool.cc:38
+#: tool.cc:39 tool.cc:45 tool.cc:46 tool.cc:67 tool.cc:68 tool.cc:79
+#: tool.cc:80 tool.cc:98 tool.cc:100 tool.cc:101
+msgctxt "Units"
+msgid "m"
+msgstr "米"
+
+#: gas.cc:33
+msgctxt "PropertyName"
+msgid "rmin"
+msgstr "零势距离"
+
+#: gas.cc:33
+msgid "Distance at which the force is zero"
+msgstr "到达零势的距离"
+
+#: gas.cc:34
+msgctxt "PropertyName"
+msgid "cutoff"
+msgstr "截止"
+
+#: gas.cc:34
+msgid "Cut-off distance"
+msgstr "截止距离"
+
+#: gas.cc:36
+msgctxt "ObjectClass"
+msgid "GasLJForceErrors"
+msgstr "气体伦纳德-琼斯势错误"
+
+#: gas.cc:36
+msgid "Errors class for GasLJForce"
+msgstr "气体伦纳德-琼斯势错误类"
+
+#: gas.cc:38
+msgctxt "PropertyName"
+msgid "depthVariance"
+msgstr "势能阱深速度"
+
+#: gas.cc:39
+msgid "Potential depth variance"
+msgstr "势能阱深度速度"
+
+#: gas.cc:40
+msgctxt "PropertyName"
+msgid "rminVariance"
+msgstr "零势速度"
+
+#: gas.cc:41
+msgid "Variance of the distance at which the force is zero"
+msgstr "到达零势距离的速度"
+
+#: gas.cc:45
+msgctxt "ObjectClass"
+msgid "Gas"
+msgstr "气体"
+
+#: gas.cc:45
+msgid "Particle gas"
+msgstr "气体质点"
+
+#: gas.cc:46
+msgctxt "PropertyName"
+msgid "measureRectCenter"
+msgstr "测量矩形中心"
+
+#: gas.cc:47
+msgid "Center of the rect for measurements"
+msgstr "用于测量的矩形中心"
+
+#: gas.cc:48
+msgctxt "PropertyName"
+msgid "measureRectSize"
+msgstr "测量矩形大小"
+
+#: gas.cc:49
+msgid "Size of the rect for measurements"
+msgstr "用于测量的矩形大小"
+
+#: gas.cc:50
+msgctxt "PropertyName"
+msgid "rectVolume"
+msgstr "矩形体积"
+
+#: gas.cc:50
+msgctxt "Units"
+msgid "m²"
+msgstr "米²"
+
+#: gas.cc:51
+msgid "Volume of the measureRect"
+msgstr "测量矩形的体积"
+
+#: gas.cc:52
+msgctxt "PropertyName"
+msgid "rectParticleCount"
+msgstr "矩形质点数目"
+
+#: gas.cc:53
+msgid "Count of particles in the measureRect"
+msgstr "测量矩形中的质点数目"
+
+#: gas.cc:54
+msgctxt "PropertyName"
+msgid "rectConcentration"
+msgstr "矩形浓度"
+
+#: gas.cc:54
+msgctxt "Units"
+msgid "1/m²"
+msgstr "1/米²"
+
+#: gas.cc:55
+msgid "Concentration of particles in the measureRect"
+msgstr "测量矩形中的质点浓度"
+
+#: gas.cc:56
+msgctxt "PropertyName"
+msgid "rectPressure"
+msgstr "矩形压强"
+
+#: gas.cc:56 gas.cc:71
+msgctxt "Units"
+msgid "Pa"
+msgstr "帕"
+
+#: gas.cc:57
+msgid "Pressure of particles in the measureRect"
+msgstr "测量矩形中的质点压强"
+
+#: gas.cc:58
+msgctxt "PropertyName"
+msgid "rectTemperature"
+msgstr "矩形温度"
+
+#: gas.cc:58 gas.cc:73
+msgctxt "Units"
+msgid "K"
+msgstr "开"
+
+#: gas.cc:59
+msgid "Temperature of particles in the measureRect"
+msgstr "测量矩形中的质点温度"
+
+#: gas.cc:60
+msgctxt "PropertyName"
+msgid "rectMeanKineticEnergy"
+msgstr "矩形平均动能"
+
+#: gas.cc:61
+msgid "Mean kinetic energy of particles in the measureRect"
+msgstr "测量矩形中的质点平均动能"
+
+#: gas.cc:62
+msgctxt "PropertyName"
+msgid "rectMeanVelocity"
+msgstr "矩形平均速度"
+
+#: gas.cc:62 gas.cc:77 particle.cc:31 particle.cc:44 rigidbody.cc:31
+#: rigidbody.cc:58 softbody.cc:38
+msgctxt "Units"
+msgid "m/s"
+msgstr "米/秒"
+
+#: gas.cc:63
+msgid "Mean velocity of particles in the measureRect"
+msgstr "测量矩形中的质点平均速度"
+
+#: gas.cc:64
+msgctxt "PropertyName"
+msgid "rectMeanParticleMass"
+msgstr "矩形平均质点质量"
+
+#: gas.cc:64 gas.cc:66 gas.cc:79 gas.cc:81 particle.cc:35 particle.cc:50
+#: particle.cc:62 rigidbody.cc:42 rigidbody.cc:71 softbody.cc:50
+msgctxt "Units"
+msgid "kg"
+msgstr "千克"
+
+#: gas.cc:65
+msgid "Mean mass of particles in the measureRect"
+msgstr "测量矩形中的质点平均质量"
+
+#: gas.cc:66
+msgctxt "PropertyName"
+msgid "rectMass"
+msgstr "矩形质量"
+
+#: gas.cc:67
+msgid "Total mass of particles in the measureRect"
+msgstr "测量矩形中的质点总质量"
+
+#: gas.cc:70
+msgctxt "ObjectClass"
+msgid "GasErrors"
+msgstr "气体错误"
+
+#: gas.cc:70
+msgid "Errors class for Gas"
+msgstr "气体错误类"
+
+#: gas.cc:71
+msgctxt "PropertyName"
+msgid "rectPressureVariance"
+msgstr "矩形压强变化量"
+
+#: gas.cc:72
+msgid "Variance of pressure of particles in the measureRect"
+msgstr "测量矩形中的质点压强变化量"
+
+#: gas.cc:73
+msgctxt "PropertyName"
+msgid "rectTemperatureVariance"
+msgstr "矩形温度变化量"
+
+#: gas.cc:74
+msgid "Variance of temperature of particles in the measureRect"
+msgstr "测量矩形中的质点温度变化量"
+
+#: gas.cc:75
+msgctxt "PropertyName"
+msgid "rectMeanKineticEnergyVariance"
+msgstr "矩形平均动能变化量"
+
+#: gas.cc:76
+msgid "Variance of mean kinetic energy of particles in the measureRect"
+msgstr "测量矩形中的质点平均动能变化量"
+
+#: gas.cc:77
+msgctxt "PropertyName"
+msgid "rectMeanVelocityVariance"
+msgstr "矩形平均速度变化量"
+
+#: gas.cc:78
+msgid "Variance of mean velocity of particles in the measureRect"
+msgstr "测量矩形中的质点平均速度变化量"
+
+#: gas.cc:79
+msgctxt "PropertyName"
+msgid "rectMeanParticleMassVariance"
+msgstr "矩形平均质点质量变化量"
+
+#: gas.cc:80
+msgid "Variance of mean mass of particles in the measureRect"
+msgstr "测量矩形中的质点平均质量变化量"
+
+#: gas.cc:81
+msgctxt "PropertyName"
+msgid "rectMassVariance"
+msgstr "矩形质量变化量"
+
+#: gas.cc:82
+msgid "Variance of total mass of particles in the measureRect"
+msgstr "测量矩形中的质点总质量变化量"
+
+#: gravitation.cc:28
+msgctxt "ObjectClass"
+msgid "GravitationForce"
+msgstr "引力"
+
+#: gravitation.cc:28
+msgid "Gravitation force"
+msgstr "引力"
+
+#: gravitation.cc:30
+msgctxt "PropertyName"
+msgid "gravitationConst"
+msgstr "引力常量"
+
+#: gravitation.cc:30 gravitation.cc:35
+msgctxt "Units"
+msgid "N m²/kg²"
+msgstr "牛 米²/千克²"
+
+#: gravitation.cc:31
+msgid "Gravitation constant"
+msgstr "引力常量"
+
+#: gravitation.cc:33
+msgctxt "ObjectClass"
+msgid "GravitationForceErrors"
+msgstr "引力错误"
+
+#: gravitation.cc:33
+msgid "Errors class for GravitationForce"
+msgstr "引力错误类"
+
+#: gravitation.cc:35
+msgctxt "PropertyName"
+msgid "gravitationConstVariance"
+msgstr "引力常量变化量"
+
+#: gravitation.cc:36
+msgid "Gravitation constant variance"
+msgstr "引力常量变化量"
+
+#: gravitation.cc:38
+msgctxt "ObjectClass"
+msgid "WeightForce"
+msgstr "重力"
+
+#: gravitation.cc:38
+msgid "Weight force"
+msgstr "重力"
+
+#: gravitation.cc:40
+msgctxt "PropertyName"
+msgid "weightConst"
+msgstr "重力常量"
+
+#: gravitation.cc:40 gravitation.cc:45 particle.cc:32 particle.cc:46
+#: rigidbody.cc:34 rigidbody.cc:63 softbody.cc:43
+msgctxt "Units"
+msgid "m/s²"
+msgstr "米/秒²"
+
+#: gravitation.cc:40
+msgid "Weight constant"
+msgstr "重力常量"
+
+#: gravitation.cc:43
+msgctxt "ObjectClass"
+msgid "WeightForceErrors"
+msgstr "重力错误"
+
+#: gravitation.cc:43
+msgid "Errors class for WeightForce"
+msgstr "重力错误类"
+
+#: gravitation.cc:45
+msgctxt "PropertyName"
+msgid "weightConstVariance"
+msgstr "重力常量变化量"
+
+#: gravitation.cc:46
+msgid "Weight constant variance"
+msgstr "重力常量变化量"
+
+#: gslsolver.cc:31
+msgctxt "ObjectClass"
+msgid "GslGenericSolver"
+msgstr "Gsl 常规求解"
+
+#: gslsolver.cc:31
+msgid "GSL generic solver"
+msgstr "GSL 常规求解"
+
+#: gslsolver.cc:33
+msgctxt "ObjectClass"
+msgid "GslSolver"
+msgstr "Gsl 求解"
+
+#: gslsolver.cc:33
+msgid "GSL non-adaptive solver"
+msgstr "GSL 非适应性求解"
+
+#: gslsolver.cc:36
+msgctxt "ObjectClass"
+msgid "GslAdaptiveSolver"
+msgstr "Gsl 适应性求解"
+
+#: gslsolver.cc:36
+msgid "GSL adaptive solver"
+msgstr "GSL 适应性求解"
+
+#: gslsolver.cc:39
+msgctxt "ObjectClass"
+msgid "GslRK2Solver"
+msgstr "Gsl 龙格-库塔二级求解"
+
+#: gslsolver.cc:39
+msgid "Runge-Kutta second-order solver from GSL library"
+msgstr "GSL 库的龙格-库塔二级求解"
+
+#: gslsolver.cc:41
+msgctxt "ObjectClass"
+msgid "GslAdaptiveRK2Solver"
+msgstr "Gsl 适应性龙格-库塔二级求解"
+
+#: gslsolver.cc:41
+msgid "Adaptive Runge-Kutta second-order solver from GSL library"
+msgstr "GSL 库的适应性龙格-库塔二级求解"
+
+#: gslsolver.cc:44
+msgctxt "ObjectClass"
+msgid "GslRK4Solver"
+msgstr "Gsl 龙格-库塔四级求解"
+
+#: gslsolver.cc:44
+msgid "Runge-Kutta classical fourth-order solver from GSL library"
+msgstr "GSL 库的龙格-库塔经典四级求解"
+
+#: gslsolver.cc:46
+msgctxt "ObjectClass"
+msgid "GslAdaptiveRK4Solver"
+msgstr "Gsl 适应性龙格-库塔四级求解"
+
+#: gslsolver.cc:46
+msgid "Adaptive Runge-Kutta classical fourth-order solver from GSL library"
+msgstr "GSL 库的适应性龙格-库塔经典四级求解"
+
+#: gslsolver.cc:49
+msgctxt "ObjectClass"
+msgid "GslRKF45Solver"
+msgstr "Gsl 龙格-库塔-芬尔格(4,5)求解"
+
+#: gslsolver.cc:49
+msgid "Runge-Kutta-Fehlberg (4,5) solver from GSL library"
+msgstr "GSL 库的龙格-库塔-芬尔格(4,5)求解"
+
+#: gslsolver.cc:51
+msgctxt "ObjectClass"
+msgid "GslAdaptiveRKF45Solver"
+msgstr "Gsl 适应性龙格-库塔-芬尔格(4,5)求解"
+
+#: gslsolver.cc:51
+msgid "Adaptive Runge-Kutta-Fehlberg (4,5) solver from GSL library"
+msgstr "GSL 库的适应性龙格-库塔-芬尔格(4,5)求解"
+
+#: gslsolver.cc:54
+msgctxt "ObjectClass"
+msgid "GslRKCKSolver"
+msgstr "Gsl 龙格-库塔 Cash-Karp 方法求解"
+
+#: gslsolver.cc:54
+msgid "Runge-Kutta Cash-Karp (4,5) solver from GSL library"
+msgstr "GSL 库的龙格-库塔 Cash-Karp 方法求解"
+
+#: gslsolver.cc:56
+msgctxt "ObjectClass"
+msgid "GslAdaptiveRKCKSolver"
+msgstr "Gsl 适应性龙格-库塔 Cash-Karp 方法求解"
+
+#: gslsolver.cc:56
+msgid "Adaptive Runge-Kutta Cash-Karp (4,5) solver from GSL library"
+msgstr "GSL 库的适应性龙格-库塔 Cash-Karp 方法求解"
+
+#: gslsolver.cc:59
+msgctxt "ObjectClass"
+msgid "GslRK8PDSolver"
+msgstr "Gsl 龙格-库塔 Prince-Dormand 方法(8,9)求解"
+
+#: gslsolver.cc:59
+msgid "Runge-Kutta Prince-Dormand (8,9) solver from GSL library"
+msgstr "GSL 库的龙格-库塔 Prince-Dormand 方法(8,9)求解"
+
+#: gslsolver.cc:61
+msgctxt "ObjectClass"
+msgid "GslAdaptiveRK8PDSolver"
+msgstr "Gsl 适应性龙格-库塔 Prince-Dormand 方法(8,9)求解"
+
+#: gslsolver.cc:61
+msgid "Adaptive Runge-Kutta Prince-Dormand (8,9) solver from GSL library"
+msgstr "GSL 库的适应性龙格-库塔 Prince-Dormand 方法(8,9)求解"
+
+#: gslsolver.cc:64
+msgctxt "ObjectClass"
+msgid "GslRK2IMPSolver"
+msgstr "Gsl 龙格-库塔蕴含二级求解"
+
+#: gslsolver.cc:64
+msgid "Runge-Kutta implicit second-order solver from GSL library"
+msgstr "GSL 库的龙格-库塔蕴含二级求解"
+
+#: gslsolver.cc:66
+msgctxt "ObjectClass"
+msgid "GslAdaptiveRK2IMPSolver"
+msgstr "Gsl 适应性龙格-库塔蕴含二级求解"
+
+#: gslsolver.cc:66
+msgid "Adaptive Runge-Kutta implicit second-order solver from GSL library"
+msgstr "GSL 库的适应性龙格-库塔蕴含二级求解"
+
+#: gslsolver.cc:69
+msgctxt "ObjectClass"
+msgid "GslRK4IMPSolver"
+msgstr "Gsl 龙格-库塔蕴含四级求解"
+
+#: gslsolver.cc:69
+msgid "Runge-Kutta implicit fourth-order solver from GSL library"
+msgstr "GSL 库的龙格-库塔蕴含四级求解"
+
+#: gslsolver.cc:71
+msgctxt "ObjectClass"
+msgid "GslAdaptiveRK4IMPSolver"
+msgstr "Gsl 适应性龙格-库塔蕴含四级求解"
+
+#: gslsolver.cc:71
+msgid "Adaptive Runge-Kutta implicit fource-order solver from GSL library"
+msgstr "GSL 库的适应性龙格-库塔蕴含四级求解"
+
+#: joint.cc:27
+msgctxt "ObjectClass"
+msgid "Anchor"
+msgstr "锚"
+
+#: joint.cc:27
+msgid "Anchor: fixes position of the body"
+msgstr "锚：固定物体位置"
+
+#: joint.cc:29 joint.cc:35 motor.cc:30 motor.cc:36 tool.cc:97
+msgctxt "PropertyName"
+msgid "body"
+msgstr "物体"
+
+#: joint.cc:29 joint.cc:35 motor.cc:30 motor.cc:36 world.cc:32
+msgid "Body"
+msgstr "物体"
+
+#: joint.cc:30 joint.cc:37 particle.cc:30 rigidbody.cc:28 softbody.cc:36
+#: tool.cc:38 tool.cc:45 tool.cc:67 tool.cc:79 tool.cc:100
+msgctxt "PropertyName"
+msgid "position"
+msgstr "位置"
+
+#: joint.cc:30 tool.cc:100
+msgid "Position"
+msgstr "位置"
+
+#: joint.cc:31 rigidbody.cc:29
+msgctxt "PropertyName"
+msgid "angle"
+msgstr "角度"
+
+#: joint.cc:31 rigidbody.cc:29 rigidbody.cc:55
+msgctxt "Units"
+msgid "rad"
+msgstr "弧度"
+
+#: joint.cc:31
+msgid "Angle"
+msgstr "角度"
+
+#: joint.cc:33
+msgctxt "ObjectClass"
+msgid "Pin"
+msgstr "图钉"
+
+#: joint.cc:33
+msgid "Pin: fixes position of a given point on the body"
+msgstr "图钉：固定物体上某个点的位置"
+
+#: joint.cc:36 motor.cc:31 motor.cc:37 tool.cc:98
+msgctxt "PropertyName"
+msgid "localPosition"
+msgstr "本地位置"
+
+#: joint.cc:36
+msgid "Position on the body"
+msgstr "物体上的位置"
+
+#: joint.cc:37
+msgid "Position in the world"
+msgstr "实验室的位置"
+
+#: joint.cc:39
+msgctxt "ObjectClass"
+msgid "Stick"
+msgstr "棒"
+
+#: joint.cc:39
+msgid "Massless stick which can be connected to bodies"
+msgstr "可连接物体的无质量棒"
+
+#: joint.cc:41 spring.cc:30
+msgctxt "PropertyName"
+msgid "restLength"
+msgstr "平衡长度"
+
+#: joint.cc:41
+msgid "Rest length of the stick"
+msgstr "平衡时棒的长度"
+
+#: joint.cc:42 spring.cc:34
+msgctxt "PropertyName"
+msgid "body1"
+msgstr "物体1"
+
+#: joint.cc:42 spring.cc:34
+msgid "Body1"
+msgstr "物体 1"
+
+#: joint.cc:43 spring.cc:35
+msgctxt "PropertyName"
+msgid "body2"
+msgstr "物体2"
+
+#: joint.cc:43 spring.cc:35
+msgid "Body2"
+msgstr "物体 2"
+
+#: joint.cc:44 spring.cc:36
+msgctxt "PropertyName"
+msgid "localPosition1"
+msgstr "本地位置1"
+
+#: joint.cc:45 spring.cc:37
+msgid "Local position 1"
+msgstr "本地位置 1"
+
+#: joint.cc:46 spring.cc:38
+msgctxt "PropertyName"
+msgid "localPosition2"
+msgstr "本地位置2"
+
+#: joint.cc:47 spring.cc:39
+msgid "Local position 2"
+msgstr "本地位置 2"
+
+#: joint.cc:48 spring.cc:40
+msgctxt "PropertyName"
+msgid "position1"
+msgstr "位置1"
+
+#: joint.cc:48 spring.cc:40
+msgid "Position1"
+msgstr "位置 1"
+
+#: joint.cc:49 spring.cc:41
+msgctxt "PropertyName"
+msgid "position2"
+msgstr "位置2"
+
+#: joint.cc:49 spring.cc:41
+msgid "Position2"
+msgstr "位置 2"
+
+#: joint.cc:52
+msgctxt "ObjectClass"
+msgid "Rope"
+msgstr "绳"
+
+#: joint.cc:52
+msgid "Massless rope which can be connected to bodies"
+msgstr "可连接物体的无质量绳"
+
+#: motor.cc:28
+msgctxt "ObjectClass"
+msgid "LinearMotor"
+msgstr "线性运动"
+
+#: motor.cc:28
+msgid "Linear motor: applies a constant force to a given position of the body"
+msgstr "线性运动：对物体的某个位置作用恒力"
+
+#: motor.cc:31 motor.cc:37
+msgid "Position of the motor on a body"
+msgstr "物体上的作用位置"
+
+#: motor.cc:32 particle.cc:34 particle.cc:48 rigidbody.cc:39 rigidbody.cc:68
+#: softbody.cc:48 spring.cc:42 spring.cc:63
+msgctxt "Units"
+msgid "N"
+msgstr "牛"
+
+#: motor.cc:32
+msgctxt "PropertyName"
+msgid "forceValue"
+msgstr "力值"
+
+#: motor.cc:32
+msgid "Value of the force, acting on the body"
+msgstr "作用于物体力的大小值"
+
+#: motor.cc:34
+msgctxt "ObjectClass"
+msgid "CircularMotor"
+msgstr "圆形运动"
+
+#: motor.cc:34
+msgid "Circular motor: applies a constant torque to the body"
+msgstr "圆形运动：对物体作用恒力矩"
+
+#: motor.cc:38 rigidbody.cc:40 rigidbody.cc:69 softbody.cc:49
+msgctxt "Units"
+msgid "N m"
+msgstr "牛 米"
+
+#: motor.cc:38
+msgctxt "PropertyName"
+msgid "torqueValue"
+msgstr "力矩值"
+
+#: motor.cc:38
+msgid "Value of the torque, acting on the body"
+msgstr "作用于物体力矩的大小值"
+
+#: object.cc:26
+msgctxt "ObjectClass"
+msgid "Object"
+msgstr "对象"
+
+#: object.cc:26
+msgid "Object"
+msgstr "对象"
+
+#: object.cc:27
+msgctxt "PropertyName"
+msgid "name"
+msgstr "名称"
+
+#: object.cc:27
+msgid "Object name"
+msgstr "对象名称"
+
+#: particle.cc:28
+msgctxt "ObjectClass"
+msgid "Particle"
+msgstr "质点"
+
+#: particle.cc:28
+msgid "Simple zero-size particle"
+msgstr "简单的零尺寸质点"
+
+#: particle.cc:30
+msgid "position"
+msgstr "位置"
+
+#: particle.cc:31 rigidbody.cc:31 softbody.cc:38
+msgctxt "PropertyName"
+msgid "velocity"
+msgstr "速度"
+
+#: particle.cc:31
+msgid "velocity"
+msgstr "速度"
+
+#: particle.cc:32 rigidbody.cc:34 softbody.cc:43
+msgctxt "PropertyName"
+msgid "acceleration"
+msgstr "加速度"
+
+#: particle.cc:33
+msgid "acceleration"
+msgstr "加速度"
+
+#: particle.cc:34 rigidbody.cc:39 softbody.cc:48 spring.cc:42
+msgctxt "PropertyName"
+msgid "force"
+msgstr "力"
+
+#: particle.cc:34
+msgid "force"
+msgstr "力"
+
+#: particle.cc:35 rigidbody.cc:42 softbody.cc:50
+msgctxt "PropertyName"
+msgid "mass"
+msgstr "质量"
+
+#: particle.cc:35
+msgid "mass"
+msgstr "质量"
+
+#: particle.cc:36 rigidbody.cc:45
+msgctxt "PropertyName"
+msgid "momentum"
+msgstr "动量"
+
+#: particle.cc:36 particle.cc:52 rigidbody.cc:45 rigidbody.cc:75
+msgctxt "Units"
+msgid "kg m/s"
+msgstr "千克 米/秒"
+
+#: particle.cc:36 rigidbody.cc:45
+msgid "momentum"
+msgstr "动量"
+
+#: particle.cc:38 rigidbody.cc:49
+msgctxt "PropertyName"
+msgid "kineticEnergy"
+msgstr "动能"
+
+#: particle.cc:38 rigidbody.cc:49
+msgid "kinetic energy"
+msgstr "动能"
+
+#: particle.cc:41
+msgctxt "ObjectClass"
+msgid "ParticleErrors"
+msgstr "质点错误"
+
+#: particle.cc:41
+msgid "Errors class for Particle"
+msgstr "质点错误类"
+
+#: particle.cc:42 rigidbody.cc:53
+msgctxt "PropertyName"
+msgid "positionVariance"
+msgstr "位置变化量"
+
+#: particle.cc:43 rigidbody.cc:54
+msgid "position variance"
+msgstr "位置变化量"
+
+#: particle.cc:44 rigidbody.cc:58
+msgctxt "PropertyName"
+msgid "velocityVariance"
+msgstr "速度变化量"
+
+#: particle.cc:45 rigidbody.cc:59
+msgid "velocity variance"
+msgstr "速度变化量"
+
+#: particle.cc:46 rigidbody.cc:63
+msgctxt "PropertyName"
+msgid "accelerationVariance"
+msgstr "加速度变化量"
+
+#: particle.cc:47 rigidbody.cc:64
+msgid "acceleration variance"
+msgstr "加速度变化量"
+
+#: particle.cc:48 rigidbody.cc:68 spring.cc:63
+msgctxt "PropertyName"
+msgid "forceVariance"
+msgstr "力变化量"
+
+#: particle.cc:49 rigidbody.cc:68
+msgid "force variance"
+msgstr "力变化量"
+
+#: particle.cc:50 rigidbody.cc:71
+msgctxt "PropertyName"
+msgid "massVariance"
+msgstr "质量变化量"
+
+#: particle.cc:51 rigidbody.cc:72
+msgid "mass variance"
+msgstr "质量变化量"
+
+#: particle.cc:52 rigidbody.cc:75
+msgctxt "PropertyName"
+msgid "momentumVariance"
+msgstr "动量变化量"
+
+#: particle.cc:53 rigidbody.cc:76
+msgid "momentum variance"
+msgstr "动量变化量"
+
+#: particle.cc:54 rigidbody.cc:80
+msgctxt "PropertyName"
+msgid "kineticEnergyVariance"
+msgstr "动能变化量"
+
+#: particle.cc:55 rigidbody.cc:81
+msgid "kinetic energy variance"
+msgstr "动能变化量"
+
+#: particle.cc:57
+msgctxt "ObjectClass"
+msgid "ChargedParticle"
+msgstr "带电质点"
+
+#: particle.cc:57
+msgid "Charged zero-size particle"
+msgstr "带电且大小为零的质点"
+
+#: particle.cc:58
+msgctxt "PropertyName"
+msgid "charge"
+msgstr "电量"
+
+#: particle.cc:58
+msgctxt "Units"
+msgid "C"
+msgstr "库"
+
+#: particle.cc:58
+msgid "charge"
+msgstr "电量"
+
+#: particle.cc:60
+msgctxt "ObjectClass"
+msgid "ChargedParticleErrors"
+msgstr "带电质点错误"
+
+#: particle.cc:60
+msgid "Errors class for ChargedParticle"
+msgstr "带电质点错误类"
+
+#: particle.cc:62
+msgctxt "PropertyName"
+msgid "chargeVariance"
+msgstr "电荷速度"
+
+#: particle.cc:63
+msgid "charge variance"
+msgstr "电荷速度"
+
+#: rigidbody.cc:27
+msgctxt "ObjectClass"
+msgid "RigidBody"
+msgstr "刚性体"
+
+#: rigidbody.cc:27
+msgid "Generic rigid body"
+msgstr "普通刚性体"
+
+#: rigidbody.cc:28 softbody.cc:36
+msgid "Position of the center of mass"
+msgstr "物体中心的位置"
+
+#: rigidbody.cc:29
+msgid "Rotation angle"
+msgstr "旋转角度"
+
+#: rigidbody.cc:31 softbody.cc:38
+msgid "Velocity of the center of mass"
+msgstr "物体中心的速度"
+
+#: rigidbody.cc:32 softbody.cc:39
+msgctxt "PropertyName"
+msgid "angularVelocity"
+msgstr "角速度"
+
+#: rigidbody.cc:32 rigidbody.cc:60 softbody.cc:39
+msgctxt "Units"
+msgid "rad/s"
+msgstr "弧度/秒"
+
+#: rigidbody.cc:32 softbody.cc:39
+msgid "Angular velocity of the body"
+msgstr "物体的角速度"
+
+#: rigidbody.cc:35 softbody.cc:44
+msgid "Acceleration of the center of mass"
+msgstr "物体中心的加速度"
+
+#: rigidbody.cc:36 softbody.cc:45
+msgctxt "PropertyName"
+msgid "angularAcceleration"
+msgstr "角加速度"
+
+#: rigidbody.cc:36 rigidbody.cc:65 softbody.cc:45
+msgctxt "Units"
+msgid "rad/s²"
+msgstr "弧度/秒²"
+
+#: rigidbody.cc:37 softbody.cc:46
+msgid "Angular acceleration of the body"
+msgstr "质点中心角加速度"
+
+#: rigidbody.cc:39 softbody.cc:48
+msgid "Force that acts upon the body"
+msgstr "作用于物体的力"
+
+#: rigidbody.cc:40 softbody.cc:49
+msgctxt "PropertyName"
+msgid "torque"
+msgstr "力矩"
+
+#: rigidbody.cc:40 softbody.cc:49
+msgid "Torque that acts upon the body"
+msgstr "作用于物体的力矩"
+
+#: rigidbody.cc:42 softbody.cc:50
+msgid "Total mass of the body"
+msgstr "物体的总质量"
+
+#: rigidbody.cc:43 softbody.cc:51
+msgctxt "PropertyName"
+msgid "inertia"
+msgstr "惯性"
+
+#: rigidbody.cc:43 rigidbody.cc:73 softbody.cc:51
+msgctxt "Units"
+msgid "kg m²"
+msgstr "千克 米²"
+
+#: rigidbody.cc:44 softbody.cc:52
+msgid "Inertia \"tensor\" of the body"
+msgstr "物体的惯性“张量”"
+
+#: rigidbody.cc:47 softbody.cc:40
+msgctxt "PropertyName"
+msgid "angularMomentum"
+msgstr "角动量"
+
+#: rigidbody.cc:47 rigidbody.cc:77
+msgctxt "Units"
+msgid "kg m² rad/s"
+msgstr "千克 米² 弧度/秒"
+
+#: rigidbody.cc:47
+msgid "angular momentum"
+msgstr "角动量"
+
+#: rigidbody.cc:52
+msgctxt "ObjectClass"
+msgid "RigidBodyErrors"
+msgstr "刚性体错误"
+
+#: rigidbody.cc:52
+msgid "Errors class for RigidBody"
+msgstr "刚性体错误类"
+
+#: rigidbody.cc:55
+msgctxt "PropertyName"
+msgid "angleVariance"
+msgstr "角度变化量"
+
+#: rigidbody.cc:56
+msgid "angle variance"
+msgstr "角度变化量"
+
+#: rigidbody.cc:60
+msgctxt "PropertyName"
+msgid "angularVelocityVariance"
+msgstr "角速度变化量"
+
+#: rigidbody.cc:61
+msgid "angularVelocity variance"
+msgstr "角速度变化量"
+
+#: rigidbody.cc:65
+msgctxt "PropertyName"
+msgid "angularAccelerationVariance"
+msgstr "角加速度变化量"
+
+#: rigidbody.cc:66
+msgid "angularAcceleration variance"
+msgstr "角加速度变化量"
+
+#: rigidbody.cc:69
+msgctxt "PropertyName"
+msgid "torqueVariance"
+msgstr "力矩变化量"
+
+#: rigidbody.cc:69
+msgid "torque variance"
+msgstr "力矩变化量"
+
+#: rigidbody.cc:73
+msgctxt "PropertyName"
+msgid "inertiaVariance"
+msgstr "惯性变化量"
+
+#: rigidbody.cc:74
+msgid "inertia variance"
+msgstr "惯性变化量"
+
+#: rigidbody.cc:77
+msgctxt "PropertyName"
+msgid "angularMomentumVariance"
+msgstr "角动量变化量"
+
+#: rigidbody.cc:78
+msgid "angular momentum variance"
+msgstr "角动量变化量"
+
+#: rigidbody.cc:83
+msgctxt "ObjectClass"
+msgid "Disk"
+msgstr "圆盘"
+
+#: rigidbody.cc:83
+msgid "Rigid disk"
+msgstr "刚性圆盘"
+
+#: rigidbody.cc:84
+msgctxt "PropertyName"
+msgid "radius"
+msgstr "半径"
+
+#: rigidbody.cc:84
+msgid "Radius of the disk"
+msgstr "圆盘半径"
+
+#: rigidbody.cc:86
+msgctxt "ObjectClass"
+msgid "BasePolygon"
+msgstr "基本多边形"
+
+#: rigidbody.cc:86
+msgid "Base polygon body"
+msgstr "基本多边形体"
+
+#: rigidbody.cc:88
+msgctxt "ObjectClass"
+msgid "Box"
+msgstr "方块"
+
+#: rigidbody.cc:88
+msgid "Rigid box"
+msgstr "刚性方块"
+
+#: rigidbody.cc:89 tool.cc:39 tool.cc:46 tool.cc:68 tool.cc:80
+msgctxt "PropertyName"
+msgid "size"
+msgstr "大小"
+
+#: rigidbody.cc:89
+msgid "Size of the box"
+msgstr "方块大小"
+
+#: rigidbody.cc:91
+msgctxt "ObjectClass"
+msgid "Polygon"
+msgstr "多边形"
+
+#: rigidbody.cc:91
+msgid "Rigid polygon body"
+msgstr "刚性多边形体"
+
+#: rigidbody.cc:92
+msgctxt "PropertyName"
+msgid "vertices"
+msgstr "顶点"
+
+#: rigidbody.cc:92
+msgid "Vertex list"
+msgstr "顶点列表"
+
+#: rigidbody.cc:95
+msgctxt "ObjectClass"
+msgid "Plane"
+msgstr "平面"
+
+#: rigidbody.cc:95
+msgid "Unmovable rigid plane"
+msgstr "不可移动的刚性平面"
+
+#: rigidbody.cc:96
+msgctxt "PropertyName"
+msgid "point1"
+msgstr "点1"
+
+#: rigidbody.cc:96
+msgid "First point which defines the plane"
+msgstr "定义平面的第一点"
+
+#: rigidbody.cc:97
+msgctxt "PropertyName"
+msgid "point2"
+msgstr "点2"
+
+#: rigidbody.cc:97
+msgid "Second point which defines the plane"
+msgstr "定义平面的第二点"
+
+#: softbody.cc:31
+msgctxt "ObjectClass"
+msgid "SoftBodyParticle"
+msgstr "软体质点"
+
+#: softbody.cc:31
+msgid "SoftBody particle"
+msgstr "软体质点"
+
+#: softbody.cc:32
+msgctxt "ObjectClass"
+msgid "SoftBodySpring"
+msgstr "软体弹簧"
+
+#: softbody.cc:32
+msgid "SoftBody spring"
+msgstr "软体弹簧"
+
+#: softbody.cc:33
+msgctxt "ObjectClass"
+msgid "SoftBody"
+msgstr "软体"
+
+#: softbody.cc:33
+msgid "Deformable SoftBody"
+msgstr "可变形软体"
+
+#: softbody.cc:34
+msgctxt "PropertyName"
+msgid "showInternalItems"
+msgstr "显示内部项目"
+
+#: softbody.cc:34
+msgid "Show internal items"
+msgstr "显示内部项目"
+
+#: softbody.cc:40
+msgctxt "Units"
+msgid "kg m²/s"
+msgstr "千克 米²/秒"
+
+#: softbody.cc:41
+msgid "Angular momentum of the body"
+msgstr "物体的角动量"
+
+#: softbody.cc:53
+msgctxt "PropertyName"
+msgid "borderParticleNames"
+msgstr "边框质点名称"
+
+#: softbody.cc:54
+msgid "Border particle names (temporal property)"
+msgstr "边框质点名称(临时属性)"
+
+#: solver.cc:25
+msgctxt "ObjectClass"
+msgid "Solver"
+msgstr "求解"
+
+#: solver.cc:25
+msgid "Solver"
+msgstr "求解"
+
+#: solver.cc:26
+msgctxt "PropertyName"
+msgid "solverType"
+msgstr "求解类型"
+
+#: solver.cc:26
+msgid "Solver type"
+msgstr "求解类型"
+
+#: solver.cc:27
+msgctxt "PropertyName"
+msgid "stepSize"
+msgstr "步长"
+
+#: solver.cc:27 world.cc:42
+msgctxt "Units"
+msgid "s"
+msgstr "s"
+
+#: solver.cc:27
+msgid "Step size"
+msgstr "步长"
+
+#: solver.cc:29
+msgctxt "PropertyName"
+msgid "toleranceRel"
+msgstr "允许相对误差"
+
+#: solver.cc:29
+msgid "Allowed relative tolerance"
+msgstr "允许相对误差"
+
+#: solver.cc:30
+msgctxt "PropertyName"
+msgid "dimension"
+msgstr "维数"
+
+#: solver.cc:30
+msgid "Count of dynamic variables"
+msgstr "动态变量数目"
+
+#: solver.cc:32
+msgctxt "PropertyName"
+msgid "localErrorRatio"
+msgstr "本地错误比率"
+
+#: solver.cc:32
+msgid "Maximal local error ratio during last step"
+msgstr "上一步中最大本地错误比率"
+
+#: spring.cc:28
+msgctxt "ObjectClass"
+msgid "Spring"
+msgstr "弹簧"
+
+#: spring.cc:28
+msgid "Massless spring which can be connected to bodies"
+msgstr "可连接物体的无质量弹簧"
+
+#: spring.cc:30
+msgid "Rest length"
+msgstr "平衡长度"
+
+#: spring.cc:31
+msgctxt "PropertyName"
+msgid "length"
+msgstr "长度"
+
+#: spring.cc:31
+msgid "Current length"
+msgstr "当前长度"
+
+#: spring.cc:32
+msgctxt "PropertyName"
+msgid "stiffness"
+msgstr "劲度系数"
+
+#: spring.cc:32 spring.cc:51 spring.cc:53
+msgctxt "Units"
+msgid "N/m"
+msgstr "牛/米"
+
+#: spring.cc:32
+msgid "Stiffness"
+msgstr "劲度系数"
+
+#: spring.cc:33
+msgctxt "PropertyName"
+msgid "damping"
+msgstr "阻尼"
+
+#: spring.cc:33
+msgctxt "Units"
+msgid "N s/m"
+msgstr "牛 秒/米"
+
+#: spring.cc:33
+msgid "Damping"
+msgstr "阻尼"
+
+#: spring.cc:42
+msgid "Spring tension force"
+msgstr "弹簧拉力"
+
+#: spring.cc:45
+msgctxt "ObjectClass"
+msgid "SpringErrors"
+msgstr "弹簧错误"
+
+#: spring.cc:45
+msgid "Errors class for Spring"
+msgstr "弹簧错误类"
+
+#: spring.cc:47
+msgctxt "PropertyName"
+msgid "restLengthVariance"
+msgstr "平衡长度变化量"
+
+#: spring.cc:48
+msgid "Rest length variance"
+msgstr "平衡长度变化量"
+
+#: spring.cc:49
+msgctxt "PropertyName"
+msgid "lengthVariance"
+msgstr "长度变化量"
+
+#: spring.cc:50
+msgid "Current length variance"
+msgstr "当前长度变化量"
+
+#: spring.cc:51
+msgctxt "PropertyName"
+msgid "stiffnessVariance"
+msgstr "劲度系数变化量"
+
+#: spring.cc:52
+msgid "Stiffness variance"
+msgstr "劲度系数变化量"
+
+#: spring.cc:53
+msgctxt "PropertyName"
+msgid "dampingVariance"
+msgstr "阻尼变化量"
+
+#: spring.cc:54
+msgid "Damping variance"
+msgstr "阻尼变化量"
+
+#: spring.cc:55
+msgctxt "PropertyName"
+msgid "localPosition1Variance"
+msgstr "本地位置1变化量"
+
+#: spring.cc:56
+msgid "Local position 1 variance"
+msgstr "本地位置 1 变化量"
+
+#: spring.cc:57
+msgctxt "PropertyName"
+msgid "localPosition2Variance"
+msgstr "本地位置2变化量"
+
+#: spring.cc:58
+msgid "Local position 2 variance"
+msgstr "本地位置 2 变化量"
+
+#: spring.cc:59
+msgctxt "PropertyName"
+msgid "position1Variance"
+msgstr "位置1变化量"
+
+#: spring.cc:60
+msgid "Position1 variance"
+msgstr "位置 1 变化量"
+
+#: spring.cc:61
+msgctxt "PropertyName"
+msgid "position2Variance"
+msgstr "位置2变化量"
+
+#: spring.cc:62
+msgid "Position2 variance"
+msgstr "位置 2 变化量"
+
+#: spring.cc:64
+msgid "Spring tension force variance"
+msgstr "弹簧拉力变化量"
+
+#: tool.cc:26
+msgctxt "ObjectClass"
+msgid "NoteImage"
+msgstr "注释图像"
+
+#: tool.cc:26
+msgid "NoteImage: an image embedded in Note"
+msgstr "注释图像：内嵌于注释的图像"
+
+#: tool.cc:28
+msgctxt "PropertyName"
+msgid "image"
+msgstr "图像"
+
+#: tool.cc:28
+msgid "Image data"
+msgstr "图像数据"
+
+#: tool.cc:31
+msgctxt "ObjectClass"
+msgid "NoteFormula"
+msgstr "注释公式"
+
+#: tool.cc:31
+msgid "NoteFormula: a formula embedded in Note"
+msgstr "注释公式：内嵌于注释的公式"
+
+#: tool.cc:33
+msgctxt "PropertyName"
+msgid "code"
+msgstr "代码"
+
+#: tool.cc:33
+msgid "Formula code"
+msgstr "公式代码"
+
+#: tool.cc:36
+msgctxt "ObjectClass"
+msgid "Note"
+msgstr "注释"
+
+#: tool.cc:36
+msgid "Note: displays a textual note on the scene"
+msgstr "注释：在屏幕上显示文本注释"
+
+#: tool.cc:38
+msgid "Note position on the scene"
+msgstr "屏幕上的注释位置"
+
+#: tool.cc:39
+msgid "Note size on the scene"
+msgstr "屏幕上的注释大小"
+
+#: tool.cc:40
+msgctxt "PropertyName"
+msgid "text"
+msgstr "文本"
+
+#: tool.cc:40
+msgid "Text"
+msgstr "文本"
+
+#: tool.cc:43
+msgctxt "ObjectClass"
+msgid "Graph"
+msgstr "图形"
+
+#: tool.cc:43
+msgid "Graph: plots a graph of any properties"
+msgstr "图形：绘制任意属性的图形"
+
+#: tool.cc:45
+msgid "Graph position on the scene"
+msgstr "屏幕上的图形位置"
+
+#: tool.cc:46
+msgid "Graph size on the scene"
+msgstr "屏幕上的图形大小"
+
+#: tool.cc:47
+msgctxt "PropertyName"
+msgid "objectX"
+msgstr "对象X"
+
+#: tool.cc:47
+msgid "X axis: object"
+msgstr "X 轴：对象"
+
+#: tool.cc:48
+msgctxt "PropertyName"
+msgid "propertyX"
+msgstr "属性X"
+
+#: tool.cc:48
+msgid "X axis: object property"
+msgstr "X 轴：对象属性"
+
+#: tool.cc:49
+msgctxt "PropertyName"
+msgid "indexX"
+msgstr "方向X"
+
+#: tool.cc:49
+msgid "X axis: vector index"
+msgstr "X 轴：矢量方向"
+
+#: tool.cc:50
+msgctxt "PropertyName"
+msgid "objectY"
+msgstr "对象Y"
+
+#: tool.cc:50
+msgid "Y axis: object"
+msgstr "Y 轴：对象"
+
+#: tool.cc:51
+msgctxt "PropertyName"
+msgid "propertyY"
+msgstr "属性Y"
+
+#: tool.cc:51
+msgid "Y axis: property"
+msgstr "Y 轴：属性"
+
+#: tool.cc:52
+msgctxt "PropertyName"
+msgid "indexY"
+msgstr "方向Y"
+
+#: tool.cc:52
+msgid "Y axis: vector index"
+msgstr "Y 轴：矢量方向"
+
+#: tool.cc:53
+msgctxt "PropertyName"
+msgid "autoLimitsX"
+msgstr "自动限制X"
+
+#: tool.cc:53
+msgid "Auto-limits along X axis"
+msgstr "X 轴自动限制"
+
+#: tool.cc:54
+msgctxt "PropertyName"
+msgid "autoLimitsY"
+msgstr "自动限制Y"
+
+#: tool.cc:54
+msgid "Auto-limits along Y axis"
+msgstr "Y 轴自动限制"
+
+#: tool.cc:55
+msgctxt "PropertyName"
+msgid "limitsX"
+msgstr "限制X"
+
+#: tool.cc:55
+msgid "Limits along X axis"
+msgstr "X 轴限制"
+
+#: tool.cc:56
+msgctxt "PropertyName"
+msgid "limitsY"
+msgstr "限制Y"
+
+#: tool.cc:56
+msgid "Limits along Y axis"
+msgstr "Y 轴限制"
+
+#: tool.cc:57
+msgctxt "PropertyName"
+msgid "showPoints"
+msgstr "显示点"
+
+#: tool.cc:57
+msgid "Show points on the graph"
+msgstr "在图形上显示点"
+
+#: tool.cc:58
+msgctxt "PropertyName"
+msgid "showLines"
+msgstr "显示线"
+
+#: tool.cc:58
+msgid "Show lines on the graph"
+msgstr "在图形上显示线"
+
+#: tool.cc:59
+msgid "currentValue"
+msgstr "当前值"
+
+#: tool.cc:59
+msgid "Current value"
+msgstr "当前值"
+
+#: tool.cc:60 tool.cc:101
+msgctxt "PropertyName"
+msgid "points"
+msgstr "点"
+
+#: tool.cc:60 tool.cc:101
+msgid "points"
+msgstr "点"
+
+#: tool.cc:61
+msgid "unitsX"
+msgstr "单位X"
+
+#: tool.cc:61
+msgid "Units along X axis"
+msgstr "X 轴单位"
+
+#: tool.cc:62
+msgid "unitsY"
+msgstr "单位Y"
+
+#: tool.cc:62
+msgid "Units along Y axis"
+msgstr "Y 轴单位"
+
+#: tool.cc:65
+msgctxt "ObjectClass"
+msgid "Meter"
+msgstr "仪表"
+
+#: tool.cc:65
+msgid "Meter: displays any property on the scene"
+msgstr "仪表：在屏幕上显示任意属性"
+
+#: tool.cc:67
+msgid "Meter position on the scene"
+msgstr "屏幕上的仪表位置"
+
+#: tool.cc:68
+msgid "Meter size on the scene"
+msgstr "屏幕上的仪表大小"
+
+#: tool.cc:69 tool.cc:81
+msgctxt "PropertyName"
+msgid "object"
+msgstr "对象"
+
+#: tool.cc:69
+msgid "Observed object"
+msgstr "观察中的对象"
+
+#: tool.cc:70 tool.cc:82
+msgctxt "PropertyName"
+msgid "property"
+msgstr "属性"
+
+#: tool.cc:70
+msgid "Observed property"
+msgstr "观察中的属性"
+
+#: tool.cc:71 tool.cc:83
+msgctxt "PropertyName"
+msgid "index"
+msgstr "方向"
+
+#: tool.cc:71 tool.cc:83
+msgid "Vector index"
+msgstr "矢量方向"
+
+#: tool.cc:72
+msgctxt "PropertyName"
+msgid "digits"
+msgstr "数位"
+
+#: tool.cc:72
+msgid "Display digits"
+msgstr "显示数位"
+
+#: tool.cc:73
+msgid "value"
+msgstr "值"
+
+#: tool.cc:73 tool.cc:90
+msgid "Value"
+msgstr "值"
+
+#: tool.cc:74 tool.cc:92
+msgid "units"
+msgstr "单位"
+
+#: tool.cc:74
+msgid "Units of measured property"
+msgstr "测量属性的单位"
+
+#: tool.cc:77
+msgctxt "ObjectClass"
+msgid "Controller"
+msgstr "控制器"
+
+#: tool.cc:77
+msgid "Controller: allows to easily control any property"
+msgstr "控制器：让您方便地控制任意属性"
+
+#: tool.cc:79
+msgid "Controller position on the scene"
+msgstr "屏幕上的控制器位置"
+
+#: tool.cc:80
+msgid "Controller size on the scene"
+msgstr "屏幕上的控制器大小"
+
+#: tool.cc:81
+msgid "Controlled object"
+msgstr "受控制对象"
+
+#: tool.cc:82
+msgid "Controlled property"
+msgstr "受控制属性"
+
+#: tool.cc:84
+msgctxt "PropertyName"
+msgid "limits"
+msgstr "限制"
+
+#: tool.cc:84
+msgid "Limits"
+msgstr "限制"
+
+#: tool.cc:85
+msgctxt "PropertyName"
+msgid "increaseShortcut"
+msgstr "增大快捷键"
+
+#: tool.cc:86
+msgid "Shortcut to increase the value"
+msgstr "增大值的快捷键"
+
+#: tool.cc:87
+msgctxt "PropertyName"
+msgid "decreaseShortcut"
+msgstr "减小快捷键"
+
+#: tool.cc:88
+msgid "Shortcut to decrease the value"
+msgstr "减小值的快捷键"
+
+#: tool.cc:89
+msgctxt "PropertyName"
+msgid "increment"
+msgstr "增量"
+
+#: tool.cc:89
+msgid "Increment value"
+msgstr "增大值"
+
+#: tool.cc:90
+msgctxt "PropertyName"
+msgid "value"
+msgstr "值"
+
+#: tool.cc:92
+msgid "Units of controlled property"
+msgstr "受控制属性的单位"
+
+#: tool.cc:95
+msgctxt "ObjectClass"
+msgid "Tracer"
+msgstr "示踪器"
+
+#: tool.cc:95
+msgid "Tracer: traces trajectory of a point on a body"
+msgstr "示踪器：跟踪显示物体上一个点的轨迹"
+
+#: tool.cc:97
+msgid "Traced body"
+msgstr "示踪物体"
+
+#: tool.cc:99
+msgid "Local position"
+msgstr "本地位置"
+
+#: world.cc:30
+msgctxt "ObjectClass"
+msgid "Item"
+msgstr "项目"
+
+#: world.cc:30
+msgid "Item"
+msgstr "项目"
+
+#: world.cc:31
+msgctxt "PropertyName"
+msgid "color"
+msgstr "颜色"
+
+#: world.cc:31
+msgid "Item color"
+msgstr "项目颜色"
+
+#: world.cc:32
+msgctxt "ObjectClass"
+msgid "Body"
+msgstr "物体"
+
+#: world.cc:33
+msgctxt "ObjectClass"
+msgid "Force"
+msgstr "力"
+
+#: world.cc:33
+msgid "Force"
+msgstr "力"
+
+#: world.cc:34
+msgctxt "ObjectClass"
+msgid "Joint"
+msgstr "接合点"
+
+#: world.cc:34
+msgid "Joint"
+msgstr "接合点"
+
+#: world.cc:35
+msgctxt "ObjectClass"
+msgid "Tool"
+msgstr "工具"
+
+#: world.cc:35
+msgid "Tool"
+msgstr "工具"
+
+#: world.cc:37
+msgctxt "ObjectClass"
+msgid "ObjectErrors"
+msgstr "对象错误"
+
+#: world.cc:37
+msgid "ObjectErrors"
+msgstr "对象错误"
+
+#: world.cc:39
+msgctxt "ObjectClass"
+msgid "ItemGroup"
+msgstr "项目分组"
+
+#: world.cc:39
+msgid "ItemGroup"
+msgstr "项目分组"
+
+#: world.cc:41
+msgctxt "ObjectClass"
+msgid "World"
+msgstr "实验室"
+
+#: world.cc:41
+msgid "World"
+msgstr "实验室"
+
+#: world.cc:42
+msgctxt "PropertyName"
+msgid "time"
+msgstr "时间"
+
+#: world.cc:42
+msgid "Current time"
+msgstr "当前时间"
+
+#: world.cc:43
+msgid "timeScale"
+msgstr "时间比例"
+
+#: world.cc:43
+msgid "Simulation speed scale"
+msgstr "模拟速度比率"
+
+#: world.cc:44
+msgid "errorsCalculation"
+msgstr "错误计算"
+
+#: world.cc:45
+msgid "Enable global error calculation"
+msgstr "启用全局错误计算"
+
+#: xmlfile.cc:201
+msgid "The file is not a StepCoreXML file."
+msgstr "此文件不是一个 StepCoreXML 文件。"
+
+#: xmlfile.cc:247
+#, qt-format
+msgid "Unknown item type \"%1\""
+msgstr "未知项目类型“%1”"
+
+#: xmlfile.cc:268
+#, qt-format
+msgid "Unknown solver type \"%1\""
+msgstr "未知求解类型“%1”"
+
+#: xmlfile.cc:282
+#, qt-format
+msgid "Unknown collisionSolver type \"%1\""
+msgstr "未知碰撞求解类型“%1”"
+
+#: xmlfile.cc:296
+#, qt-format
+msgid "Unknown constraint solver type \"%1\""
+msgstr "未知约束求解类型“%1”"
+
+#: xmlfile.cc:324
+#, qt-format
+msgid "Wrong ID attribute value for %1"
+msgstr "错误的 %1 的 ID 属性值"
+
+#: xmlfile.cc:329
+#, qt-format
+msgid "Non-unique ID attribute value for %1"
+msgstr "非唯一的 %1 的 ID 属性值"
+
+#: xmlfile.cc:357 xmlfile.cc:371
+#, qt-format
+msgid "Property \"%1\" of \"%2\" has illegal value"
+msgstr "“%2”的属性“%1”含有非法值"
+
+#: xmlfile.cc:384
+msgid "File is not writable."
+msgstr "文件不可写入。"
+
+#~ msgid "Item \"%1\" has no stored property named \"%2\""
+#~ msgstr "项目“%1”没有命名为“%2”的已存储属性"
+
+#~ msgid "Unexpected tag \"%1\""
+#~ msgstr "未预料的标记“%1”"
+
+#~ msgid "\"world\" tag not found"
+#~ msgstr "未找到“world”标记"
+
+#~ msgid "Error parsing file at line %1: %2"
+#~ msgstr "分析文件出错于行 %1：%2"

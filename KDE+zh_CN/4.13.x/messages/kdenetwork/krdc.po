@@ -1,0 +1,1487 @@
+# translation of krdc.po to 简体中文
+# translation of krdc.po to
+# Copyright (C) 2002,2003, 2007, 2009 Free Software Foundation, Inc.
+#
+#
+#
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Funda Wang <fundawang@linux.net.cn>, 2002, 2004.
+# Lie_Ex <lilith.ex@gmail.com>, 2007, 2008, 2009.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010, 2012.
+# FengChao <rainofchaos@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: krdc\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-23 01:48+0000\n"
+"PO-Revision-Date: 2013-06-23 20:34+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: bookmarkmanager.cpp:53
+msgid "History"
+msgstr "历史"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RememberSessions)
+#: config/general.ui:17
+msgid "Remember open sessions for next startup"
+msgstr "为下次启动记住已打开的会话"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RememberHistory)
+#: config/general.ui:24
+msgid "Remember connection history"
+msgstr "记住连接历史"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WalletSupport)
+#: config/general.ui:31
+msgid "Remember passwords (KWallet)"
+msgstr "在 KDE 钱包中记住密码"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SystemTrayIcon)
+#: config/general.ui:38
+msgid "Enable system tray icon"
+msgstr "启用系统托盘图标"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowStatusBar)
+#: config/general.ui:45
+msgid "Show status bar"
+msgstr "显示状态栏"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepAspectRatio)
+#: config/general.ui:52
+msgid "Keep aspect ratio when scaling"
+msgstr "缩放时保持长宽比"
+
+#. i18n: ectx: property (text), widget (QLabel, backgroundLabel)
+#: config/general.ui:61
+msgid "Background color of empty place:"
+msgstr "空白处的背景色："
+
+#. i18n: ectx: property (title), widget (QGroupBox, connectionGroupBox)
+#: config/general.ui:93
+msgid "When Connecting"
+msgstr "连接时"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPreferencesForNewConnections)
+#: config/general.ui:99
+msgid "Show the preferences dialog for new connections"
+msgstr "在新连接时显示首选项对话框"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ResizeOnConnect)
+#: config/general.ui:106
+msgid ""
+"This option will resize the window to fit the connection size.  If it is too "
+"big, it will maximize the window."
+msgstr "此选项将调整窗口大小以便适应连接的大小。如果太大，则将窗口最大化。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResizeOnConnect)
+#: config/general.ui:109
+msgid "Resize to fit"
+msgstr "缩放以适应"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FullscreenOnConnect)
+#: config/general.ui:116
+msgid ""
+"This option switches to fullscreen only if the connection resolution is the "
+"same as the current screen resolution"
+msgstr "此选项时仅当远程桌面的分辨率与当前屏幕分辨率一致时才切换到全屏。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FullscreenOnConnect)
+#: config/general.ui:119
+msgid "Switch to Fullscreen if appropriate"
+msgstr "适合时切换到全屏模式"
+
+#. i18n: ectx: property (title), widget (QGroupBox, tabGroupBox)
+#: config/general.ui:129
+msgid "Tab Settings"
+msgstr "标签设置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTabBar)
+#: config/general.ui:135
+msgid "Always show tab bar"
+msgstr "总是显示标题栏"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabCloseButton)
+#: config/general.ui:142
+msgid "Show close button on tabs"
+msgstr "在标签上显示关闭按钮"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabMiddleClick)
+#: config/general.ui:149
+msgid "Middle-click on a tab closes it"
+msgstr "中键点击标签可关闭它"
+
+#. i18n: ectx: property (text), widget (QLabel, tabOrientationLabel)
+#: config/general.ui:158
+msgid "Tab position:"
+msgstr "标签位置："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
+#: config/general.ui:166
+msgid "Top"
+msgstr "顶部"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
+#: config/general.ui:171
+msgid "Bottom"
+msgstr "底部"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
+#: config/general.ui:176
+msgid "Left"
+msgstr "左侧"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
+#: config/general.ui:181
+msgid "Right"
+msgstr "右侧"
+
+#: config/hostpreferenceslist.cpp:49
+msgid "Configure..."
+msgstr "配置..."
+
+#: config/hostpreferenceslist.cpp:55
+msgid "Remove"
+msgstr "删除"
+
+#: config/hostpreferenceslist.cpp:118 mainwindow.cpp:661
+msgid "The selected host cannot be handled."
+msgstr "无法处理选中的主机。"
+
+#: config/hostpreferenceslist.cpp:119 mainwindow.cpp:319 mainwindow.cpp:662
+msgid "Unusable URL"
+msgstr "不可用的 URL"
+
+#: config/preferencesdialog.cpp:43
+msgctxt "General Config"
+msgid "General"
+msgstr "常规"
+
+#: config/preferencesdialog.cpp:43
+msgid "General Configuration"
+msgstr "常规配置"
+
+#: config/preferencesdialog.cpp:48
+msgid "Hosts"
+msgstr "主机"
+
+#: config/preferencesdialog.cpp:48 core/hostpreferences.cpp:181
+#: core/hostpreferences.cpp:187
+msgid "Host Configuration"
+msgstr "主机配置"
+
+#: config/preferencesdialog.cpp:53 config/preferencesdialog.cpp:55
+msgid "Plugins"
+msgstr "插件"
+
+#: config/preferencesdialog.cpp:55
+msgid "Plugin Configuration"
+msgstr "插件配置"
+
+#: connectiondelegate.cpp:50
+msgid "Less than a minute ago"
+msgstr "不到一分钟前"
+
+#: connectiondelegate.cpp:51
+#, kde-format
+msgid "A minute ago"
+msgid_plural "%1 minutes ago"
+msgstr[0] "%1 分钟前"
+
+#: connectiondelegate.cpp:53
+#, kde-format
+msgid "An hour ago"
+msgid_plural "%1 hours ago"
+msgstr[0] "%1 小时前"
+
+#: connectiondelegate.cpp:57
+#, kde-format
+msgid "Yesterday"
+msgid_plural "%1 days ago"
+msgstr[0] "%1 天前"
+
+#: connectiondelegate.cpp:59
+#, kde-format
+msgid "Over a month ago"
+msgid_plural "%1 months ago"
+msgstr[0] "%1 个月前"
+
+#: connectiondelegate.cpp:60
+#, kde-format
+msgid "A year ago"
+msgid_plural "%1 years ago"
+msgstr[0] "%1 年前"
+
+#: core/hostpreferences.cpp:190
+msgid ""
+"Note that settings might only apply when you connect next time to this host."
+msgstr "请注意，这些设置需在您下次登录到此主机时才会生效。"
+
+#: core/hostpreferences.cpp:205
+msgid "Show this dialog again for this host"
+msgstr "为此主机再次显示此对话框"
+
+#: core/hostpreferences.cpp:209
+msgid "Remember password (KWallet)"
+msgstr "在 KDE 钱包中记住密码"
+
+#. i18n: ectx: label, entry (OpenSessions), group (General)
+#: core/krdc.kcfg:15
+msgid "Sessions"
+msgstr "会话"
+
+#: konsole/konsoleviewfactory.cpp:68
+msgid "New Konsole Connection..."
+msgstr "新建 Konsole连接..."
+
+#: konsole/konsoleviewfactory.cpp:73
+msgid "KRDC Konsole Connection"
+msgstr "KRDC Konsole 连接"
+
+#: konsole/konsoleviewfactory.cpp:78
+msgid ""
+"<html>Enter the address here. Port is optional.<br /><i>Example: "
+"konsoleserver (host)</i></html>"
+msgstr ""
+"<html>在此输入地址，端口是可选字段。<br /><i>例如：konsoleserver (主机名)</"
+"i></html>"
+
+#: krdc_approver/approver.cpp:86
+msgid "Invitation to view remote desktop"
+msgstr "邀请查看远程桌面"
+
+#: krdc_approver/approver.cpp:87
+#, kde-format
+msgid "%1 wants to share his/her desktop with you"
+msgstr "%1 想要和您共享自己的桌面"
+
+#: krdc_approver/approver.cpp:88
+msgid "Accept"
+msgstr "接受"
+
+#: krdc_approver/approver.cpp:88
+msgid "Reject"
+msgstr "拒绝"
+
+#: krdc_approver/main.cpp:38 main.cpp:39
+msgid "KRDC"
+msgstr "KRDC"
+
+#: krdc_approver/main.cpp:39
+msgid "Approver for KRDC"
+msgstr "KRDC 赞助人"
+
+#: krdc_approver/main.cpp:40
+msgid "(C) 2009, Abner Silva"
+msgstr "(C) 2009, Abner Silva"
+
+#: krdc_approver/main.cpp:42
+msgctxt "@info:credit"
+msgid "Abner Silva"
+msgstr "Abner Silva"
+
+#. i18n: ectx: Menu (session)
+#: krdcui.rc:8
+msgid "&Session"
+msgstr "会话(&S)"
+
+#. i18n: ectx: ToolBar (krdc_remote_view_toolbar)
+#: krdcui.rc:22
+msgid "Remote View Toolbar"
+msgstr "远程视图工具栏"
+
+#: main.cpp:40 systemtrayicon.cpp:41
+msgid "KDE Remote Desktop Client"
+msgstr "KDE 远程桌面客户端"
+
+#: main.cpp:41
+msgid ""
+"(c) 2007-2013, Urs Wolfer\n"
+"(c) 2001-2003, Tim Jansen\n"
+"(c) 2002-2003, Arend van Beelen jr.\n"
+"(c) 2000-2002, Const Kaplinsky\n"
+"(c) 2000, Tridia Corporation\n"
+"(c) 1999, AT&T Laboratories Boston\n"
+"(c) 1999-2003, Matthew Chapman\n"
+"(c) 2009, Collabora Ltd"
+msgstr ""
+"(c) 2007-2013, Urs Wolfer\n"
+"(c) 2001-2003, Tim Jansen\n"
+"(c) 2002-2003, Arend van Beelen jr.\n"
+"(c) 2000-2002, Const Kaplinsky\n"
+"(c) 2000, Tridia Corporation\n"
+"(c) 1999, AT&T Laboratories Boston\n"
+"(c) 1999-2003, Matthew Chapman\n"
+"(c) 2009, Collabora Ltd"
+
+#: main.cpp:50
+msgid "Urs Wolfer"
+msgstr "Urs Wolfer"
+
+#: main.cpp:50
+msgid "Developer, Maintainer"
+msgstr "开发者与维护者"
+
+#: main.cpp:51
+msgid "Tony Murray"
+msgstr "Tony Murray"
+
+#: main.cpp:51
+msgid "Developer"
+msgstr "开发者"
+
+#: main.cpp:52
+msgid "Tim Jansen"
+msgstr "Tim Jansen"
+
+#: main.cpp:52
+msgid "Former Developer"
+msgstr "先前开发者"
+
+#: main.cpp:53
+msgid "Arend van Beelen jr."
+msgstr "Arend van Beelen jr."
+
+#: main.cpp:53
+msgid "Initial RDP backend"
+msgstr "RDP 后端初步工作"
+
+#: main.cpp:54
+msgid "Brad Hards"
+msgstr "Brad Hards"
+
+#: main.cpp:54
+msgid "Google Summer of Code 2007 KRDC project mentor"
+msgstr "Google 代码之夏 2007 KRDC 项目导师"
+
+#: main.cpp:56
+msgid "LibVNCServer / LibVNCClient developers"
+msgstr "LibVNCServer/LibVNCClient 开发者"
+
+#: main.cpp:56
+msgid "VNC client library"
+msgstr "VNC 客户端库"
+
+#: main.cpp:58
+msgid "Abner Silva"
+msgstr "Abner Silva"
+
+#: main.cpp:58
+msgid "Telepathy Tubes Integration"
+msgstr "Telepathy Tube 网络层集成"
+
+#: main.cpp:63
+msgid ""
+"Start KRDC with the provided URL in fullscreen mode (works only with one URL)"
+msgstr "在全屏模式下以指定 URL 启动 KRDC(只能对一个 URL 起效)"
+
+#: main.cpp:64
+msgid "URLs to connect after startup"
+msgstr "启动后要连接的 URL"
+
+#: mainwindow.cpp:131
+msgid "KDE Remote Desktop Client started"
+msgstr "KDE 远程桌面客户端已启动"
+
+#: mainwindow.cpp:136 mainwindow.cpp:149 mainwindow.cpp:1048
+#: mainwindow.cpp:1152
+msgid "New Connection"
+msgstr "新建连接"
+
+#: mainwindow.cpp:154
+msgid "Copy Screenshot to Clipboard"
+msgstr "复制抓屏到剪贴板"
+
+#: mainwindow.cpp:155
+msgid "Screenshot"
+msgstr "抓屏"
+
+#: mainwindow.cpp:160 mainwindow.cpp:501
+msgid "Switch to Full Screen Mode"
+msgstr "切换到全屏模式"
+
+#: mainwindow.cpp:161 mainwindow.cpp:502
+msgid "Full Screen"
+msgstr "全屏"
+
+#: mainwindow.cpp:168
+msgid "View Only"
+msgstr "只查看"
+
+#: mainwindow.cpp:173
+msgid "Disconnect"
+msgstr "断开连接"
+
+#: mainwindow.cpp:181
+msgid "Show Local Cursor"
+msgstr "显示本地光标"
+
+#: mainwindow.cpp:182
+msgid "Local Cursor"
+msgstr "本地光标"
+
+#: mainwindow.cpp:188
+msgid "Grab All Possible Keys"
+msgstr "抢占全部按键"
+
+#: mainwindow.cpp:189
+msgid "Grab Keys"
+msgstr "抓取键"
+
+#: mainwindow.cpp:195
+msgid "Scale Remote Screen to Fit Window Size"
+msgstr "缩放远程屏幕窗口到适合尺寸"
+
+#: mainwindow.cpp:196
+msgid "Scale"
+msgstr "缩放"
+
+#: mainwindow.cpp:206
+msgid "Bookmarks"
+msgstr "书签"
+
+#: mainwindow.cpp:294
+msgid ""
+"The entered address does not have the required form.\n"
+" Syntax: [username@]host[:port]"
+msgstr ""
+"输入的地址不符合所需的格式。\n"
+" 语法：[用户名@]主机[:端口]"
+
+#: mainwindow.cpp:295
+msgid "Malformed URL"
+msgstr "URL 格式错误"
+
+#: mainwindow.cpp:318
+msgid "The entered address cannot be handled."
+msgstr "输入的地址无法处理。"
+
+#: mainwindow.cpp:427
+#, kde-format
+msgid "Connecting to %1"
+msgstr "正在连接到 %1"
+
+#: mainwindow.cpp:431
+#, kde-format
+msgid "Authenticating at %1"
+msgstr "正在认证 %1..."
+
+#: mainwindow.cpp:435
+#, kde-format
+msgid "Preparing connection to %1"
+msgstr "正在准备连接到 %1"
+
+#: mainwindow.cpp:439
+#, kde-format
+msgid "Connected to %1"
+msgstr "已连接到 %1"
+
+#: mainwindow.cpp:510
+msgctxt ""
+"window title when in full screen mode (for example displayed in tasklist)"
+msgid "KDE Remote Desktop Client (Full Screen)"
+msgstr "KDE 远程桌面客户端(全屏)"
+
+#: mainwindow.cpp:538
+msgid "Switch to Window Mode"
+msgstr "切换到窗口模式"
+
+#: mainwindow.cpp:539
+msgid "Window Mode"
+msgstr "窗口模式"
+
+#: mainwindow.cpp:683
+msgid "Connect"
+msgstr "连接"
+
+#: mainwindow.cpp:684
+msgid "Rename"
+msgstr "重命名"
+
+#: mainwindow.cpp:685
+msgid "Settings"
+msgstr "设置"
+
+#: mainwindow.cpp:686
+msgid "Delete"
+msgstr "删除"
+
+#: mainwindow.cpp:689 remotedesktopsmodel.cpp:119
+msgctxt "Where each displayed link comes from"
+msgid "Bookmarks"
+msgstr "书签"
+
+#: mainwindow.cpp:690 remotedesktopsmodel.cpp:121
+msgctxt "Where each displayed link comes from"
+msgid "History"
+msgstr "历史"
+
+#: mainwindow.cpp:702
+#, kde-format
+msgid "Rename %1"
+msgstr "重命名 %1"
+
+#: mainwindow.cpp:702
+#, kde-format
+msgid "Rename %1 to"
+msgstr "将 %1 重命名为"
+
+#: mainwindow.cpp:710
+#, kde-format
+msgid "Are you sure you want to delete %1?"
+msgstr "您确定要想要删除 %1 吗？"
+
+#: mainwindow.cpp:710
+#, kde-format
+msgid "Delete %1"
+msgstr "删除 %1"
+
+#: mainwindow.cpp:731
+msgid "Add Bookmark"
+msgstr "添加书签"
+
+#: mainwindow.cpp:732
+msgid "Close Tab"
+msgstr "关闭标签"
+
+#: mainwindow.cpp:813
+msgid "Minimize Full Screen Window"
+msgstr "最小化全屏窗口"
+
+#: mainwindow.cpp:828
+msgid "Stick Toolbar"
+msgstr "吸附工具栏"
+
+#: mainwindow.cpp:942
+msgid "Are you sure you want to quit the KDE Remote Desktop Client?"
+msgstr "您确定要退出 KDE 远程桌面客户端吗？"
+
+#: mainwindow.cpp:943
+msgid "Confirm Quit"
+msgstr "确认退出"
+
+#: mainwindow.cpp:1064
+msgid ""
+"<h1>KDE Remote Desktop Client</h1><br />Enter or select the address of the "
+"desktop you would like to connect to."
+msgstr "<h1>KDE 远程桌面客户端</h1><br />输入或选择您想要连接到的桌面地址。"
+
+#: mainwindow.cpp:1082
+msgid "Connect to:"
+msgstr "连接到："
+
+#: mainwindow.cpp:1086
+msgid "Type here to connect to an address and filter the list."
+msgstr "在此输入以连接到该地址并过滤列表。"
+
+#: mainwindow.cpp:1094
+msgid ""
+"Type an IP or DNS Name here. Clear the line to get a list of connection "
+"methods."
+msgstr "在此输入 IP 或 DNS 名称。清除整行可获得连接方式列表。"
+
+#: mainwindow.cpp:1097
+msgid "Goto Address"
+msgstr "前往地址"
+
+#: mainwindow.cpp:1188
+msgid "Remote Desktops"
+msgstr "远程桌面"
+
+#: mainwindow.cpp:1219
+msgid "Filter"
+msgstr "过滤"
+
+#: nx/nxhostpreferences.cpp:218
+msgid "Key Files (*.key)"
+msgstr "密钥文件(*.key)"
+
+#: nx/nxhostpreferences.cpp:219
+msgid "Open DSA Key File"
+msgstr "打开 DSA 密钥文件"
+
+#. i18n: ectx: property (title), widget (QGroupBox, connectionGroupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, vncGroupBox)
+#: nx/nxpreferences.ui:22 rdp/rdppreferences.ui:17 vnc/vncpreferences.ui:17
+msgid "Connection"
+msgstr "连接"
+
+#. i18n: ectx: property (text), widget (QLabel, resolutionLabel)
+#: nx/nxpreferences.ui:30 rdp/rdppreferences.ui:25
+msgid "Desktop &resolution:"
+msgstr "桌面分辨率(&R)："
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, resolutionComboBox)
+#: nx/nxpreferences.ui:53 rdp/rdppreferences.ui:48 vnc/vncpreferences.ui:86
+msgid ""
+"Here you can specify the resolution of the remote desktop. This resolution "
+"determines the size of the desktop that will be presented to you."
+msgstr "您可在此指定远程桌面的分辨率。此分辨率决定了您所能看到的桌面大小。"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: nx/nxpreferences.ui:60 rdp/rdppreferences.ui:55 vnc/vncpreferences.ui:93
+msgid "Minimal (640x480)"
+msgstr "很小(640x480)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: nx/nxpreferences.ui:65 rdp/rdppreferences.ui:60 vnc/vncpreferences.ui:98
+msgid "Small (800x600)"
+msgstr "小(800x600)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: nx/nxpreferences.ui:70 rdp/rdppreferences.ui:65 vnc/vncpreferences.ui:103
+msgid "Normal (1024x768)"
+msgstr "普通(1024x768)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: nx/nxpreferences.ui:75 rdp/rdppreferences.ui:70 vnc/vncpreferences.ui:108
+msgid "Large (1280x1024)"
+msgstr "大(1280x1024)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: nx/nxpreferences.ui:80 rdp/rdppreferences.ui:75 vnc/vncpreferences.ui:113
+msgid "Very Large (1600x1200)"
+msgstr "很大(1600x1200)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: nx/nxpreferences.ui:85 rdp/rdppreferences.ui:80 vnc/vncpreferences.ui:118
+msgid "Current Screen Resolution"
+msgstr "当前屏幕分辨率"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: nx/nxpreferences.ui:90 rdp/rdppreferences.ui:85 vnc/vncpreferences.ui:123
+msgid "Custom Resolution (...)"
+msgstr "自定义分辨率(...)"
+
+#. i18n: ectx: property (text), widget (QLabel, widthLabel)
+#: nx/nxpreferences.ui:103 rdp/rdppreferences.ui:103 vnc/vncpreferences.ui:136
+msgid "&Width:"
+msgstr "宽度(&W)："
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_NxWidth)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_Width)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_ScalingWidth)
+#: nx/nxpreferences.ui:119 rdp/rdppreferences.ui:119 vnc/vncpreferences.ui:152
+msgid ""
+"This is the width of the remote desktop. You can only change this value "
+"manually if you select Custom as desktop resolution above."
+msgstr ""
+"这是远程桌面的宽度。只有当您在上面选择了自定义桌面分辨率时，才能手动更改此"
+"值。"
+
+#. i18n: ectx: property (text), widget (QLabel, heightLabel)
+#: nx/nxpreferences.ui:135 rdp/rdppreferences.ui:135 vnc/vncpreferences.ui:168
+msgid "H&eight:"
+msgstr "高度(&E)："
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_NxHeight)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_Height)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_ScalingHeight)
+#: nx/nxpreferences.ui:151 rdp/rdppreferences.ui:151 vnc/vncpreferences.ui:184
+msgid ""
+"This is the height of the remote desktop. You can only change this value "
+"manually if you select Custom as desktop resolution above."
+msgstr ""
+"这是远程桌面的高度。只有当您在上面选择了自定义桌面分辨率时，才能手动更改此"
+"值。"
+
+#. i18n: ectx: property (text), widget (QLabel, desktopTypeLabel)
+#: nx/nxpreferences.ui:168
+msgid "Desktop &type:"
+msgstr "桌面类型(&T)："
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_NxDesktopType)
+#: nx/nxpreferences.ui:184
+msgid "Here you can specify the desktop environment of the remote desktop."
+msgstr "您可以在此指定远程的桌面环境。"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxDesktopType)
+#: nx/nxpreferences.ui:188
+msgid "KDE"
+msgstr "KDE"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxDesktopType)
+#: nx/nxpreferences.ui:193
+msgid "Gnome"
+msgstr "Gnome"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxDesktopType)
+#: nx/nxpreferences.ui:198
+msgid "CDE"
+msgstr "CDE"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxDesktopType)
+#: nx/nxpreferences.ui:203
+msgid "XDM"
+msgstr "XDM"
+
+#. i18n: ectx: property (text), widget (QLabel, layoutLabel)
+#: nx/nxpreferences.ui:211 rdp/rdppreferences.ui:208
+msgid "&Keyboard layout:"
+msgstr "键盘布局(&K)："
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:227 rdp/rdppreferences.ui:224
+msgid ""
+"Use this to specify your keyboard layout. This layout setting is used to "
+"send the correct keyboard codes to the server."
+msgstr "使用此处指定您的键盘布局。此布局设置用于向服务器发送正确的键盘代码。"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:234 rdp/rdppreferences.ui:231
+msgid "Arabic (ar)"
+msgstr "阿拉伯语(ar)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:239 rdp/rdppreferences.ui:236
+msgid "Czech (cs)"
+msgstr "捷克语(cs)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:244 rdp/rdppreferences.ui:241
+msgid "Danish (da)"
+msgstr "丹麦语(da)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:249 rdp/rdppreferences.ui:246
+msgid "German (de)"
+msgstr "德语(de)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:254 rdp/rdppreferences.ui:251
+msgid "Swiss German (de-ch)"
+msgstr "瑞士德语(de-ch)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:259 rdp/rdppreferences.ui:256
+msgid "American Dvorak (en-dv)"
+msgstr "美国德沃拉克(en-dv)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:264 rdp/rdppreferences.ui:261
+msgid "British English (en-gb)"
+msgstr "英国英语(en-gb)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:269 rdp/rdppreferences.ui:266
+msgid "US English (en-us)"
+msgstr "美国英语(en-us)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:274 rdp/rdppreferences.ui:271
+msgid "Spanish (es)"
+msgstr "西班牙语(es)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:279 rdp/rdppreferences.ui:276
+msgid "Estonian (et)"
+msgstr "爱沙尼亚语(et)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:284 rdp/rdppreferences.ui:281
+msgid "Finnish (fi)"
+msgstr "芬兰语(fi)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:289 rdp/rdppreferences.ui:286
+msgid "Faroese (fo)"
+msgstr "法罗语(fr)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:294 rdp/rdppreferences.ui:291
+msgid "French (fr)"
+msgstr "法语(fr)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:299 rdp/rdppreferences.ui:296
+msgid "Belgian (fr-be)"
+msgstr "比利时语(fr-be)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:304 rdp/rdppreferences.ui:301
+msgid "French Canadian (fr-ca)"
+msgstr "法国加拿大语(fr)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:309 rdp/rdppreferences.ui:306
+msgid "Swiss French (fr-ch)"
+msgstr "瑞士法语(fr)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:314 rdp/rdppreferences.ui:311
+msgid "Hebrew (he)"
+msgstr "希伯莱语(he)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:319 rdp/rdppreferences.ui:316
+msgid "Croatian (hr)"
+msgstr "克罗地亚语(hr)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:324 rdp/rdppreferences.ui:321
+msgid "Hungarian (hu)"
+msgstr "匈牙利语(hu)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:329 rdp/rdppreferences.ui:326
+msgid "Icelandic (is)"
+msgstr "冰岛语(is)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:334 rdp/rdppreferences.ui:331
+msgid "Italian (it)"
+msgstr "意大利语(it)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:339 rdp/rdppreferences.ui:336
+msgid "Japanese (ja)"
+msgstr "日语(ja)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:344 rdp/rdppreferences.ui:341
+msgid "Korean (ko)"
+msgstr "韩语(no)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:349 rdp/rdppreferences.ui:346
+msgid "Lithuanian (lt)"
+msgstr "立陶宛语(lt)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:354 rdp/rdppreferences.ui:351
+msgid "Latvian (lv)"
+msgstr "拉脱维亚语(lv)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:359 rdp/rdppreferences.ui:356
+msgid "Macedonian (mk)"
+msgstr "马其顿语(mk)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:364 rdp/rdppreferences.ui:361
+msgid "Dutch (nl)"
+msgstr "荷兰语(nl)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:369 rdp/rdppreferences.ui:366
+msgid "Belgian Dutch (nl-be)"
+msgstr "比利时荷兰语(fr-be)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:374 rdp/rdppreferences.ui:371
+msgid "Norwegian (no)"
+msgstr "挪威语(no)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:379 rdp/rdppreferences.ui:376
+msgid "Polish (pl)"
+msgstr "波兰语(pl)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:384 rdp/rdppreferences.ui:381
+msgid "Portuguese (pt)"
+msgstr "葡萄牙语(pt)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:389 rdp/rdppreferences.ui:386
+msgid "Brazilian (pt-br)"
+msgstr "巴西语(pt-br)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:394 rdp/rdppreferences.ui:391
+msgid "Russian (ru)"
+msgstr "俄语(ru)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:399 rdp/rdppreferences.ui:396
+msgid "Slovenian (sl)"
+msgstr "斯洛文尼亚语(sl)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:404 rdp/rdppreferences.ui:401
+msgid "Swedish (sv)"
+msgstr "瑞典语(sv)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:409 rdp/rdppreferences.ui:406
+msgid "Thai (th)"
+msgstr "泰语(th)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_NxKeyboardLayout)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#: nx/nxpreferences.ui:414 rdp/rdppreferences.ui:411
+msgid "Turkish (tr)"
+msgstr "土耳其语(tr)"
+
+#. i18n: ectx: property (text), widget (QLabel, labelPrivateKey)
+#: nx/nxpreferences.ui:422
+msgctxt "label for soundsettings in preferences dialog"
+msgid "Private key:"
+msgstr "私钥："
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, checkboxDefaultPrivateKey)
+#: nx/nxpreferences.ui:431
+msgid ""
+"The authentication on the NX server requires a private key. By default, it "
+"is the NoMachine DSA key. Use this box to choose the default key, or "
+"configure it by importing from a file or editing directly the textbox. "
+msgstr ""
+"在 NX 服务器上认证需要一个私钥，默认使用的是 NoMachine 名义的 DSA 密钥。使用"
+"此对话框可选择一个默认密钥，或是从文件导入密钥，或是直接在文本框中编辑密文。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkboxDefaultPrivateKey)
+#: nx/nxpreferences.ui:434
+msgid "NoMachine Key"
+msgstr "NoMachine 密钥"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupboxPrivateKey)
+#: nx/nxpreferences.ui:449
+msgid "Private Key Management"
+msgstr "私钥管理"
+
+#. i18n: ectx: property (whatsThis), widget (KTextEdit, kcfg_NxPrivateKey)
+#: nx/nxpreferences.ui:461
+msgid ""
+"Use this textbox to edit the private key for the authentication on the NX "
+"server."
+msgstr "使用此文本框编辑用于 NX 服务器验证的私钥。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: nx/nxpreferences.ui:476
+msgid "Private DSA Key :"
+msgstr "DSA 私钥："
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, buttonImportPrivateKey)
+#: nx/nxpreferences.ui:486
+msgid "Use this button to import the private key from a file."
+msgstr "使用此按钮从文件导入一个私钥。"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonImportPrivateKey)
+#: nx/nxpreferences.ui:489
+msgid "Import ..."
+msgstr "导入..."
+
+#: nx/nxresumesessions.cpp:37 nx/nxresumesessions.cpp:43
+msgid "Available NX Sessions"
+msgstr "可用的 NX 会话"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, sessionsList)
+#: nx/nxresumesessions.ui:23
+msgid "Display"
+msgstr "显示"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, sessionsList)
+#: nx/nxresumesessions.ui:28
+msgid "Type"
+msgstr "类型"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, sessionsList)
+#: nx/nxresumesessions.ui:33
+msgid "Session ID"
+msgstr "会话编号"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, sessionsList)
+#: nx/nxresumesessions.ui:38
+msgid "Colour Depth"
+msgstr "颜色深度"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, sessionsList)
+#: nx/nxresumesessions.ui:43
+msgid "Resolution"
+msgstr "分辨率"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, sessionsList)
+#: nx/nxresumesessions.ui:48
+msgid "Session Name"
+msgstr "会话名称"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNew)
+#: nx/nxresumesessions.ui:77
+msgid "&New"
+msgstr "新建(&N)"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonResume)
+#: nx/nxresumesessions.ui:84
+msgid "&Resume"
+msgstr "恢复(&R)"
+
+#: nx/nxview.cpp:125 rdp/rdpview.cpp:117
+msgid "Enter Username"
+msgstr "输入用户名"
+
+#: nx/nxview.cpp:126 rdp/rdpview.cpp:118
+msgid "Please enter the username you would like to use for login."
+msgstr "请在此输入您将用于登录的用户名。"
+
+#: nx/nxview.cpp:140 rdp/rdpview.cpp:138 vnc/vncview.cpp:285
+msgid "Access to the system requires a password."
+msgstr "访问此系统需要密码。"
+
+#: nx/nxview.cpp:208
+msgid "The authentication key is invalid."
+msgstr "认证的密钥无效。"
+
+#: nx/nxview.cpp:208
+msgid "Invalid authentication key"
+msgstr "无效的认证密钥"
+
+#: nx/nxview.cpp:211
+msgid "The username or password that you have entered is invalid."
+msgstr "您输入的用户名或密码无效。"
+
+#: nx/nxview.cpp:211
+msgid "Invalid username or password"
+msgstr "无效的用户名或密码"
+
+#: nx/nxview.cpp:214
+msgid "The host key verification has failed."
+msgstr "主机密钥校验失败。"
+
+#: nx/nxview.cpp:214
+msgid "Host key verification failed"
+msgstr "主机密钥校验失败"
+
+#: nx/nxview.cpp:217
+msgid "An error has occurred during the connection to the NX server."
+msgstr "连接到 NX 服务器的过程中发生错误。"
+
+#: nx/nxview.cpp:217
+msgid "Process error"
+msgstr "处理错误"
+
+#: nx/nxview.cpp:241
+msgid "This NX server is running at capacity."
+msgstr "NX 服务器正常运行中。"
+
+#: nx/nxview.cpp:241
+msgid "Server at capacity"
+msgstr "服务器正常运行中"
+
+#: nx/nxviewfactory.cpp:64
+msgid "New NX Connection..."
+msgstr "新建 NX 连接..."
+
+#: nx/nxviewfactory.cpp:69
+msgid "Connect to a NX Remote Desktop"
+msgstr "连接到 NX 远程桌面"
+
+#: nx/nxviewfactory.cpp:74
+msgid ""
+"<html>Enter the address here.<br /><i>Example: nxserver (host)</i></html>"
+msgstr "<html>在此输入地址。<br /><i>示例：NX 服务器(主机)</i></html>"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#: rdp/rdppreferences.ui:90
+msgid "Current KRDC Size"
+msgstr "当前 KRDC 大小"
+
+#. i18n: ectx: property (text), widget (QLabel, colorDepthLabel)
+#: rdp/rdppreferences.ui:168
+msgid "Color &depth:"
+msgstr "颜色深度(&D)："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#: rdp/rdppreferences.ui:185
+msgid "Low Color (8 Bit)"
+msgstr "低彩色(8位)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#: rdp/rdppreferences.ui:190
+msgid "High Color (16 Bit)"
+msgstr "高彩色(16位)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#: rdp/rdppreferences.ui:195
+msgid "True Color (24 Bit)"
+msgstr "真彩色(24位)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#: rdp/rdppreferences.ui:200
+msgid "True Color with Alpha (32 Bit)"
+msgstr "带 Alpha 通道的真彩色(32位)"
+
+#. i18n: ectx: property (text), widget (QLabel, soundLabel)
+#: rdp/rdppreferences.ui:419
+msgctxt "label for soundsettings in preferences dialog"
+msgid "Sound:"
+msgstr "声音："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Sound)
+#: rdp/rdppreferences.ui:436
+msgid "On This Computer"
+msgstr "在此电脑上播放"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Sound)
+#: rdp/rdppreferences.ui:441
+msgid "On Remote Computer"
+msgstr "在远程电脑上播放"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Sound)
+#: rdp/rdppreferences.ui:446
+msgid "Disable Sound"
+msgstr "禁用声音"
+
+#. i18n: ectx: property (text), widget (QLabel, performanceLabel)
+#: rdp/rdppreferences.ui:454
+msgctxt "label for performance settings in preferences dialog"
+msgid "Performance:"
+msgstr "性能："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Performance)
+#: rdp/rdppreferences.ui:471
+msgid "Modem"
+msgstr "调制解调器"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Performance)
+#: rdp/rdppreferences.ui:476
+msgid "Broadband"
+msgstr "宽带"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Performance)
+#: rdp/rdppreferences.ui:481
+msgid "LAN"
+msgstr "局域网"
+
+#. i18n: ectx: property (text), widget (QLabel, remoteFXLabel)
+#: rdp/rdppreferences.ui:489
+msgid "RemoteFX:"
+msgstr "RemoteFX:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RemoteFX)
+#: rdp/rdppreferences.ui:499
+msgid "Enhanced visual experience"
+msgstr "增强视觉体验"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_RemoteFX)
+#: rdp/rdppreferences.ui:502
+msgid ""
+"RemoteFX covers a set of technologies that enhance visual experience of the "
+"Remote Desktop Protocol."
+msgstr "RemoteFX 包含一系列增强远程桌面视觉体验的技术。"
+
+#. i18n: ectx: property (text), widget (QLabel, shareMediaLabel)
+#: rdp/rdppreferences.ui:509
+msgid "Share Media:"
+msgstr "共享媒体"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_ShareMedia)
+#: rdp/rdppreferences.ui:525
+msgid "Share a local media directory with the remote host."
+msgstr "与远程主机共享本地媒体目录。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, expertGroupBox)
+#: rdp/rdppreferences.ui:538
+msgid "Expert Options"
+msgstr "专家选项"
+
+#. i18n: ectx: property (text), widget (QLabel, consoleLabel)
+#: rdp/rdppreferences.ui:544
+msgid "Console login:"
+msgstr "控制台登录："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Console)
+#: rdp/rdppreferences.ui:554
+msgid "Attach to Windows Server console"
+msgstr "挂接到 Windows 服务器控制台"
+
+#. i18n: ectx: property (text), widget (QLabel, extraOptionsLabel)
+#: rdp/rdppreferences.ui:561
+msgid "Extra options:"
+msgstr "附加选项："
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_ExtraOptions)
+#: rdp/rdppreferences.ui:577
+msgid "Here you can enter additional xfreerdp (FreeRDP) options."
+msgstr "您可以在这里输入附加的  xfreerdp (FreeRDP) 选项。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, loginGroupBox)
+#: rdp/rdppreferences.ui:590
+msgid "Login"
+msgstr "登录"
+
+#. i18n: ectx: property (text), widget (QLabel, defaultUserLabel)
+#: rdp/rdppreferences.ui:598
+msgid "Default user name:"
+msgstr "默认用户名："
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, kcfg_DefaultRdpUserName)
+#: rdp/rdppreferences.ui:605
+msgid "No default user name"
+msgstr "无默认用户名"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RecognizeLdapLogins)
+#: rdp/rdppreferences.ui:617
+msgid "Automatically recognize \"LDAP\"-Logins and share passwords"
+msgstr "自动识别“LDAP”登录与共享密码"
+
+#: rdp/rdpview.cpp:311
+msgid "Could not start \"xfreerdp\"; make sure xfreerdp is properly installed."
+msgstr "无法启动“xfreerdp”程序；请确定xfreerdp 已被正确安装。"
+
+#: rdp/rdpview.cpp:312 rdp/rdpview.cpp:337
+msgid "RDP Failure"
+msgstr "RDP 失败"
+
+#: rdp/rdpview.cpp:335
+msgid ""
+"The version of \"xfreerdp\" you are using is too old.\n"
+"xfreerdp 1.0.2 or greater is required."
+msgstr ""
+"您正在使用的“rxfreerdp”版本太老了：\n"
+"需要xfreerdp 1.0.2 或更高版本。"
+
+#: rdp/rdpview.cpp:355
+msgid "Name or service not known."
+msgstr "未知的名称或服务。"
+
+#: rdp/rdpview.cpp:356 rdp/rdpview.cpp:363 rdp/rdpview.cpp:371
+msgid "Connection Failure"
+msgstr "连接失败"
+
+#: rdp/rdpview.cpp:362 rdp/rdpview.cpp:370
+msgid "Connection attempt to host failed."
+msgstr "连接到主机失败。"
+
+#: rdp/rdpviewfactory.cpp:38
+msgid "Connect to a Windows Remote Desktop (RDP)"
+msgstr "连接到 Windows 远程桌面(RDP)"
+
+#: rdp/rdpviewfactory.cpp:69
+msgid "New RDP Connection..."
+msgstr "新建 RDP 连接..."
+
+#: rdp/rdpviewfactory.cpp:79
+msgid ""
+"<html>Enter the address here. Port is optional.<br /><i>Example: "
+"rdpserver:3389 (host:port)</i></html>"
+msgstr ""
+"<html>在此输入地址，端口是可选字段。<br /><i>示例：RDP 服务器:3389 (主机:端"
+"口)</i></html>"
+
+#: rdp/rdpviewfactory.cpp:86
+msgid ""
+"The application \"xfreerdp\" cannot be found on your system; make sure it is "
+"properly installed if you need RDP support."
+msgstr ""
+"在您的系统上找不到“xfreerdp”程序；如果您需要 RDP 客户端支持，请确定它已经被正"
+"确安装。"
+
+#: remotedesktopsmodel.cpp:123
+msgctxt "Where each displayed link comes from"
+msgid "Zeroconf"
+msgstr "Zeroconf"
+
+#: remotedesktopsmodel.cpp:125
+msgctxt "Where each displayed link comes from"
+msgid "None"
+msgstr "无"
+
+#: remotedesktopsmodel.cpp:140
+#, kde-format
+msgctxt "Remove the selected url from the bookarks menu"
+msgid "Remove the bookmark for %1."
+msgstr "删除 %1 的书签。"
+
+#: remotedesktopsmodel.cpp:142
+#, kde-format
+msgctxt "Add the selected url to the bookmarks menu"
+msgid "Bookmark %1."
+msgstr "将 %1 加入书签。"
+
+#: remotedesktopsmodel.cpp:181
+msgctxt "Header of the connections list, title/url for remote connection"
+msgid "Remote Desktop"
+msgstr "远程桌面"
+
+#: remotedesktopsmodel.cpp:183
+msgctxt ""
+"Header of the connections list, the last time this connection was initiated"
+msgid "Last Connected"
+msgstr "上次连接"
+
+#: remotedesktopsmodel.cpp:185
+msgctxt ""
+"Header of the connections list, the number of times this connection has been "
+"visited"
+msgid "Visits"
+msgstr "次数"
+
+#: remotedesktopsmodel.cpp:187
+msgctxt "Header of the connections list, the time when this entry was created"
+msgid "Created"
+msgstr "连接时间"
+
+#: remotedesktopsmodel.cpp:189
+msgctxt "Header of the connections list, where this entry comes from"
+msgid "Source"
+msgstr "源"
+
+#: vnc/vncclientthread.cpp:255
+msgid "VNC authentication type is not supported."
+msgstr "不支持的 VNC 认证类型。"
+
+#: vnc/vncclientthread.cpp:279
+msgid "Server not found."
+msgstr "未找到服务器。"
+
+#: vnc/vncclientthread.cpp:296 vnc/vncclientthread.cpp:370
+msgid "VNC authentication failed."
+msgstr "VNC 认证失败"
+
+#: vnc/vncclientthread.cpp:301
+msgid "VNC authentication failed because of too many authentication tries."
+msgstr "VNC 认证失败，因为连接尝试次数过多。"
+
+#: vnc/vncclientthread.cpp:305
+msgid "VNC server closed connection."
+msgstr "VNC 服务器端关闭了连接。"
+
+#: vnc/vncclientthread.cpp:312
+#, fuzzy, kde-format
+#| msgid "Disconnect"
+msgid "Disconnected: %1."
+msgstr "断开连接"
+
+#: vnc/vncclientthread.cpp:498
+#, fuzzy
+#| msgid "When Connecting"
+msgid "Reconnecting."
+msgstr "连接时"
+
+#: vnc/vncclientthread.cpp:566
+#, fuzzy
+#| msgid "Disconnect"
+msgid "Reconnected."
+msgstr "断开连接"
+
+#: vnc/vncclientthread.cpp:568
+#, fuzzy
+#| msgid "Connect"
+msgid "Connected."
+msgstr "连接"
+
+#. i18n: ectx: property (text), widget (QLabel, connectionLabel)
+#: vnc/vncpreferences.ui:23
+msgid "Connection type:"
+msgstr "连接类型："
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_Quality)
+#: vnc/vncpreferences.ui:39
+msgid ""
+"Use this to specify the performance of your connection. Note that you should "
+"select the speed of the weakest link - even if you have a high speed "
+"connection, it will not help you if the remote computer uses a slow modem. "
+"Choosing a level of quality that is too high on a slow link will cause "
+"slower response times. Choosing a lower quality will increase latencies in "
+"high speed connections and results in lower image quality, especially in "
+"'Low Quality' mode."
+msgstr ""
+"使用此选项指定连接的性能。请注意，您应当选择最差的连接速度 - 就算您有高速连"
+"接，但如果对方使用慢的调制解调器，您的高速网络也起不到作用。在慢速连接上选择"
+"太高的质量将导致响应时间变缓。选择较低质量将增加高速连接的等待时间并导致较低"
+"的图像质量，特别是“低质量”模式。"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Quality)
+#: vnc/vncpreferences.ui:43
+msgid "High Quality (LAN, direct connection)"
+msgstr "高质量(局域网、直接连接)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Quality)
+#: vnc/vncpreferences.ui:48
+msgid "Medium Quality (DSL, Cable, fast Internet)"
+msgstr "中质量(DSL、有线电视网、快速 Internet)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Quality)
+#: vnc/vncpreferences.ui:53
+msgid "Low Quality (Modem, ISDN, slow Internet)"
+msgstr "低质量(调制解调器、ISDN、慢速 Internet)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Scaling)
+#: vnc/vncpreferences.ui:63
+msgid "Scale to Size:"
+msgstr "缩放为大小："
+
+#: vnc/vncview.cpp:286
+msgid "Authentication failed. Please try again."
+msgstr "认证失败，请再试一次。"
+
+#: vnc/vncview.cpp:311 vnc/vncview.cpp:313
+msgid "VNC failure"
+msgstr "VNC 失败"
+
+#: vnc/vncviewfactory.cpp:64
+msgid "New VNC Connection..."
+msgstr "新建 VNC 连接..."
+
+#: vnc/vncviewfactory.cpp:69
+msgid "Connect to a VNC Remote Desktop"
+msgstr "连接到 VNC 远程桌面"
+
+#: vnc/vncviewfactory.cpp:74
+msgid ""
+"<html>Enter the address here.<br /><i>Example: vncserver:1 (host:port / "
+"screen)</i></html>"
+msgstr ""
+"<html>在此输入地址。<br /><i>示例：VNC 服务器:1 (主机:端口 /屏幕号)</i></"
+"html>"
+
+#~ msgctxt "Verb, to remove items that don't match"
+#~ msgid "Filter"
+#~ msgstr "过滤"
+
+#~ msgid "Use normal inputline for address input"
+#~ msgstr "使用常规地址输入行"
+
+#~ msgid "KDE remote desktop connection"
+#~ msgstr "KDE 远程桌面连接"

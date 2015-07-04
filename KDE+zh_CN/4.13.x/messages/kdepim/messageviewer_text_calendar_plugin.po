@@ -1,0 +1,428 @@
+# Funda Wang <fundawang@linux.net.cn>, 2004
+# Lie Ex <lilith.ex@gmail.com>, 2008-2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kmail_text_calendar_plugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-31 01:33+0000\n"
+"PO-Revision-Date: 2010-07-14 15:50+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: attendeeselector.cpp:32
+msgid "Select Attendees"
+msgstr "选择参与者"
+
+#: attendeeselector.cpp:42
+msgid "Click to add a new attendee"
+msgstr "点击这里新加参与者"
+
+#. i18n: ectx: property (text), widget (KPushButton, addButton)
+#: attendeeselector.ui:24
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: attendeeselector.ui:37
+msgid "Remove"
+msgstr "删除"
+
+#: delegateselector.cpp:35
+msgid "Select delegate"
+msgstr "选择委托对象"
+
+#: delegateselector.cpp:42
+msgid "Delegate:"
+msgstr "委托："
+
+#: delegateselector.cpp:45
+msgid "Keep me informed about status changes of this incidence."
+msgstr "此事项的状态发生变化时通知我。"
+
+#: text_calendar.cpp:421
+#, kde-format
+msgid "No attachment named \"%1\" found in the invitation."
+msgstr "在邀请中找不到名为“%1”的附件。"
+
+#: text_calendar.cpp:429
+#, kde-format
+msgid ""
+"The invitation attachment \"%1\" is a web link that is inaccessible from "
+"this computer. Please ask the event organizer to resend the invitation with "
+"this attachment stored inline instead of a link."
+msgstr ""
+"邀请中包含的附件“%1”是一个网页链接，不过本机无法访问。请跟此事件的组织者联"
+"系，请其重新发送信件，并在附件中以内嵌方式包含链接。"
+
+#: text_calendar.cpp:483
+#, fuzzy
+#| msgid ""
+#| "<qt>None of your identities match the receiver of this message,<br /"
+#| ">please choose which of the following addresses is yours, if any, or "
+#| "select one of your identities to use in the reply:</qt>"
+msgid ""
+"<qt>None of your identities match the receiver of this message,<br/>please "
+"choose which of the following addresses is yours, if any, or select one of "
+"your identities to use in the reply:</qt>"
+msgstr ""
+"<qt>您的任何一个身份都与这封信的接受者不符。<br/>请选择以下地址中哪个属于您，"
+"或者选择您的一个身份以便进行回复：</qt>"
+
+#: text_calendar.cpp:489
+#, fuzzy
+#| msgid ""
+#| "<qt>Several of your identities match the receiver of this message,<br /"
+#| ">please choose which of the following addresses is yours:</qt>"
+msgid ""
+"<qt>Several of your identities match the receiver of this message,<br/"
+">please choose which of the following addresses is yours:</qt>"
+msgstr ""
+"<qt>您的若干身份都与这封信的身份相符，<br/>请选择您想要使用以下哪个地址：</"
+"qt>"
+
+#: text_calendar.cpp:504
+msgid "Select Address"
+msgstr "选择地址"
+
+#: text_calendar.cpp:565
+msgid "Answer: "
+msgstr "答复："
+
+#: text_calendar.cpp:568
+#, kde-format
+msgctxt "Not able to attend."
+msgid "Declined: %1"
+msgstr "已拒绝：%1"
+
+#: text_calendar.cpp:571
+#, kde-format
+msgctxt "Unsure if it is possible to attend."
+msgid "Tentative: %1"
+msgstr "待定：%1"
+
+#: text_calendar.cpp:574
+#, kde-format
+msgctxt "Accepted the invitation."
+msgid "Accepted: %1"
+msgstr "已接受：%1"
+
+#: text_calendar.cpp:723
+msgid "Incidence with no summary"
+msgstr "无摘要的发生事件"
+
+#: text_calendar.cpp:728
+#, kde-format
+msgid "Answer: %1"
+msgstr "回答：%1"
+
+#: text_calendar.cpp:731
+#, kde-format
+msgid "Delegated: %1"
+msgstr "已委托：%1"
+
+#: text_calendar.cpp:734
+#, kde-format
+msgid "Forwarded: %1"
+msgstr "已转发：%1"
+
+#: text_calendar.cpp:737
+#, kde-format
+msgid "Declined Counter Proposal: %1"
+msgstr "已拒绝的反对意见：%1"
+
+#: text_calendar.cpp:788 text_calendar.cpp:794
+#, kde-format
+msgid "\"%1\" occurred already."
+msgstr ""
+
+#: text_calendar.cpp:790 text_calendar.cpp:808
+#, kde-format
+msgid "\"%1\" is currently in-progress."
+msgstr ""
+
+#: text_calendar.cpp:796
+#, kde-format
+msgid "\"%1\", happening all day today, is currently in-progress."
+msgstr ""
+
+#: text_calendar.cpp:806 text_calendar.cpp:818
+#, kde-format
+msgid "\"%1\" is past due."
+msgstr ""
+
+#: text_calendar.cpp:812
+#, kde-format
+msgid "\"%1\" has already started."
+msgstr ""
+
+#: text_calendar.cpp:821
+#, kde-format
+msgid "\"%1\", happening all-day today, is currently in-progress."
+msgstr ""
+
+#: text_calendar.cpp:826
+#, kde-format
+msgid "\"%1\", happening all day, has already started."
+msgstr ""
+
+#: text_calendar.cpp:836
+msgid "Do you still want to accept the task?"
+msgstr ""
+
+#: text_calendar.cpp:838
+msgid "Do you still want to accept the invitation?"
+msgstr ""
+
+#: text_calendar.cpp:843
+msgid "Do you still want to send conditional acceptance of the invitation?"
+msgstr ""
+
+#: text_calendar.cpp:845
+msgid "Do you still want to send conditional acceptance of the task?"
+msgstr ""
+
+#: text_calendar.cpp:848
+#, fuzzy
+#| msgid "Accept counter proposal"
+msgid "Do you still want to accept the counter proposal?"
+msgstr "接受反对意见"
+
+#: text_calendar.cpp:850
+#, fuzzy
+#| msgid "Decline counter proposal"
+msgid "Do you still want to send a counter proposal?"
+msgstr "拒绝反对意见"
+
+#: text_calendar.cpp:852
+msgid "Do you still want to send a decline response?"
+msgstr ""
+
+#: text_calendar.cpp:854
+#, fuzzy
+#| msgid "Decline counter proposal"
+msgid "Do you still want to decline the counter proposal?"
+msgstr "拒绝反对意见"
+
+#: text_calendar.cpp:856
+#, fuzzy
+#| msgid "Record response into my calendar"
+msgid "Do you still want to record this response in your calendar?"
+msgstr "将邀请回应记录到我的日历"
+
+#: text_calendar.cpp:859
+msgid "Do you still want to delegate this task?"
+msgstr ""
+
+#: text_calendar.cpp:861
+msgid "Do you still want to delegate this invitation?"
+msgstr ""
+
+#: text_calendar.cpp:865
+msgid "Do you still want to forward this task?"
+msgstr ""
+
+#: text_calendar.cpp:867
+msgid "Do you still want to forward this invitation?"
+msgstr ""
+
+#: text_calendar.cpp:871
+#, fuzzy
+#| msgid "Accept counter proposal"
+msgid "Do you still want to cancel this task?"
+msgstr "接受反对意见"
+
+#: text_calendar.cpp:873
+#, fuzzy
+#| msgid "Record invitation into my calendar"
+msgid "Do you still want to cancel this invitation?"
+msgstr "将邀请记录在我的日历中"
+
+#: text_calendar.cpp:876
+msgid "Do you still want to check your calendar?"
+msgstr ""
+
+#: text_calendar.cpp:879
+msgid "Do you still want to record this task in your calendar?"
+msgstr ""
+
+#: text_calendar.cpp:881
+#, fuzzy
+#| msgid "Record invitation into my calendar"
+msgid "Do you still want to record this invitation in your calendar?"
+msgstr "将邀请记录在我的日历中"
+
+#: text_calendar.cpp:885
+#, fuzzy
+#| msgid "Accept counter proposal"
+msgid "Do you really want to cancel this task?"
+msgstr "接受反对意见"
+
+#: text_calendar.cpp:887
+#, fuzzy
+#| msgid "Record invitation into my calendar"
+msgid "Do you really want to cancel this invitation?"
+msgstr "将邀请记录在我的日历中"
+
+#: text_calendar.cpp:892
+#, kde-format
+msgid "%1?"
+msgstr ""
+
+#: text_calendar.cpp:897
+#, kde-format
+msgid ""
+"%1\n"
+"%2"
+msgstr ""
+
+#: text_calendar.cpp:926
+msgid "Reaction to Invitation"
+msgstr "回应邀请"
+
+#: text_calendar.cpp:926 text_calendar.cpp:1181
+msgid "Comment:"
+msgstr "注释："
+
+#: text_calendar.cpp:933 text_calendar.cpp:1188
+msgid "You forgot to add proposal. Please add it. Thanks"
+msgstr ""
+
+#: text_calendar.cpp:969
+msgid "Delegation to organizer is not possible."
+msgstr "不能委托给组织者。"
+
+#: text_calendar.cpp:1100
+msgid "Save Invitation Attachment"
+msgstr "保存邀请附件"
+
+#: text_calendar.cpp:1107
+#, kde-format
+msgctxt "@info"
+msgid "File <filename>%1</filename> exists.<nl/> Do you want to replace it?"
+msgstr "文件 <filename>%1</filename> 已存在。<nl/>您想要替换它吗？"
+
+#: text_calendar.cpp:1181
+msgid "Decline Counter Proposal"
+msgstr "反对意见"
+
+#: text_calendar.cpp:1229
+msgid ""
+"You have no writable calendar folders for invitations, so storing or saving "
+"a response will not be possible.\n"
+"Please create at least 1 writable events calendar and re-sync."
+msgstr ""
+"您没有可用于邀请的可写日历文件夹，所以无法存储或保存回应。\n"
+"请至少创建一个可写的事件日历并重新同步。"
+
+#: text_calendar.cpp:1249
+msgid ""
+"The calendar invitation stored in this email message is broken in some way. "
+"Unable to continue."
+msgstr ""
+
+#: text_calendar.cpp:1315
+msgctxt "@info"
+msgid ""
+"The organizer is not expecting a reply to this invitation but you can send "
+"them an email message if you desire.\n"
+"\n"
+"Would you like to send the organizer a message regarding this invitation?\n"
+"Press the [Cancel] button to cancel the recording operation."
+msgstr ""
+"虽然组织者可能不会回复此邀请，但如果您愿意的话，还是可以向他们发送一封邮"
+"件。\n"
+"您想要向组织者发送关于本次邀请的邮件吗？\n"
+"按下[取消]键可中止本操作。"
+
+#: text_calendar.cpp:1319
+msgctxt "@title:window"
+msgid "Send Email to Organizer"
+msgstr "给组织者发送电子邮件"
+
+#: text_calendar.cpp:1320
+msgid "Do Not Send"
+msgstr "不发送"
+
+#: text_calendar.cpp:1321
+msgid "Send EMail"
+msgstr "发送电子邮件"
+
+#: text_calendar.cpp:1329
+#, kde-format
+msgid "Re: %1"
+msgstr "回复：%1"
+
+#: text_calendar.cpp:1389
+msgid "Open Attachment"
+msgstr "打开附件"
+
+#: text_calendar.cpp:1391
+msgid "Save Attachment As..."
+msgstr "附件另存为..."
+
+#: text_calendar.cpp:1408
+msgid "Accept invitation"
+msgstr "接受邀请"
+
+#: text_calendar.cpp:1411
+msgid "Accept invitation conditionally"
+msgstr "有条件接受事件"
+
+#: text_calendar.cpp:1414
+msgid "Accept counter proposal"
+msgstr "接受反对意见"
+
+#: text_calendar.cpp:1417
+msgid "Create a counter proposal..."
+msgstr "创建反对意见..."
+
+#: text_calendar.cpp:1420
+msgid "Throw mail away"
+msgstr "丢弃邮件"
+
+#: text_calendar.cpp:1423
+msgid "Decline invitation"
+msgstr "拒绝邀请"
+
+#: text_calendar.cpp:1426
+msgid "Decline counter proposal"
+msgstr "拒绝反对意见"
+
+#: text_calendar.cpp:1429
+msgid "Check my calendar..."
+msgstr "检查我的日历..."
+
+#: text_calendar.cpp:1432
+msgid "Record response into my calendar"
+msgstr "将邀请回应记录到我的日历"
+
+#: text_calendar.cpp:1435
+msgid "Record invitation into my calendar"
+msgstr "将邀请记录在我的日历中"
+
+#: text_calendar.cpp:1438
+msgid "Move this invitation to my trash folder"
+msgstr "将此邀请移至我的废件箱文件夹中"
+
+#: text_calendar.cpp:1441
+msgid "Delegate invitation"
+msgstr "委托邀请"
+
+#: text_calendar.cpp:1444
+msgid "Forward invitation"
+msgstr "转发事件"
+
+#: text_calendar.cpp:1447
+msgid "Remove invitation from my calendar"
+msgstr "从我的日历中删除邀请"
+
+#: text_calendar.cpp:1451
+#, kde-format
+msgid "Open attachment \"%1\""
+msgstr "打开附件“%1”"

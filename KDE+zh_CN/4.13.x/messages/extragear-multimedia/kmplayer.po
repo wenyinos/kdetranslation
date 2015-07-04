@@ -1,0 +1,1648 @@
+# translation of kmplayer.po to 简体中文
+# Copyright (C) 2003, 2008, 2009 Free Software Foundation, Inc.
+# Justin Fang <justin_fang@msn.com>, 2003.
+# Yan Shuangchun <yahzee@d3eye.com>, 2003.
+# zhu-zhy <sp_xym@hotmail.com>, 2003.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmplayer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-09 01:29+0000\n"
+"PO-Revision-Date: 2011-11-27 11:26+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国,Yan Shuangchun,zhu-zhy,Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"kde-china@kde.org,yahzee@d3eye.com,sp_xym@hotmail.com,shuizhuyuanluo@126.com"
+
+#: kmplayer_lists.cpp:94
+msgid "Most Recent"
+msgstr "最近"
+
+#: kmplayer_lists.cpp:189
+msgid "Persistent Playlists"
+msgstr "永久播放列表"
+
+#: kmplayer_part.cpp:142
+msgid "plugin"
+msgstr "插件"
+
+#: kmplayer_part.cpp:815
+#, no-c-format
+msgid "% Cache fill"
+msgstr "% 缓存已满"
+
+#: kmplayer_part.cpp:845
+msgid "KMPlayer: Playing"
+msgstr "KMPlayer：正在播放"
+
+#: kmplayer_part.cpp:859
+msgid "KMPlayer: Stop Playing"
+msgstr "KMPlayer：停止播放"
+
+#: kmplayerapp.cpp:152
+msgid "New window"
+msgstr "新建窗口"
+
+#: kmplayerapp.cpp:162
+msgid "&Edit mode"
+msgstr "编辑模式(&E)"
+
+#: kmplayerapp.cpp:165
+msgid "Pla&y List"
+msgstr "播放列表(&Y)"
+
+#: kmplayerapp.cpp:170
+msgid "P&lay"
+msgstr "播放(&L)"
+
+#: kmplayerapp.cpp:173
+msgid "&Pause"
+msgstr "暂停(&P)"
+
+#: kmplayerapp.cpp:176
+msgid "&Stop"
+msgstr "停止(&S)"
+
+#: kmplayerapp.cpp:182
+msgid "Fullscreen"
+msgstr "全屏"
+
+#: kmplayerapp.cpp:185 kmplayerapp.cpp:368
+msgid "C&onsole"
+msgstr "控制台(&O)"
+
+#: kmplayerapp.cpp:190
+msgid "Reload"
+msgstr "重新装入"
+
+#: kmplayerapp.cpp:201
+msgid "Clear &History"
+msgstr "清除历史(&H)"
+
+#: kmplayerapp.cpp:205
+msgid "&Generators"
+msgstr "生成器(&G)"
+
+#: kmplayerapp.cpp:236
+msgid "Enables/disables the status bar"
+msgstr "启用/禁用状态栏"
+
+#: kmplayerapp.cpp:237
+msgid "Enables/disables the menu bar"
+msgstr "启用/禁用菜单栏"
+
+#: kmplayerapp.cpp:238
+msgid "Enables/disables the toolbar"
+msgstr "启用/禁用工具栏"
+
+#: kmplayerapp.cpp:243 kmplayerapp.cpp:475 kmplayerapp.cpp:729
+#: kmplayerapp.cpp:1069 kmplayerapp.cpp:1183 kmplayerapp.cpp:1601
+#: kmplayerapp.cpp:1736 kmplayerapp.cpp:1838 kmplayerapp.cpp:1884
+msgid "Ready."
+msgstr "就绪。"
+
+#: kmplayerapp.cpp:257 kmplayercontrolpanel.cpp:451
+msgid "&Bookmarks"
+msgstr "书签(&B)"
+
+#: kmplayerapp.cpp:323 kmplayerapp.cpp:1326
+msgid "&Add to list"
+msgstr "添加到列表(&A)"
+
+#: kmplayerapp.cpp:325
+msgid "Add in new &Group"
+msgstr "添加到新组(&G)"
+
+#: kmplayerapp.cpp:327
+msgid "&Copy here"
+msgstr "复制到此处(&C)"
+
+#: kmplayerapp.cpp:329
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: kmplayerapp.cpp:365 kmplayerview.cpp:348
+msgid "V&ideo"
+msgstr "视频(&I)"
+
+#: kmplayerapp.cpp:406
+msgid "More..."
+msgstr "更多..."
+
+#: kmplayerapp.cpp:455
+msgid "Opening DVD..."
+msgstr "正在打开 DVD..."
+
+#: kmplayerapp.cpp:460
+msgid "Opening VCD..."
+msgstr "正在打开 VCD..."
+
+#: kmplayerapp.cpp:465
+msgid "Opening Audio CD..."
+msgstr "正在音频 CD..."
+
+#: kmplayerapp.cpp:470
+msgid "Opening pipe..."
+msgstr "正在打开管道..."
+
+#: kmplayerapp.cpp:472
+msgid "Read From Pipe"
+msgstr "从管道中读取"
+
+#: kmplayerapp.cpp:473
+msgid ""
+"Enter a command that will output an audio/video stream\n"
+"to the stdout. This will be piped to a player's stdin.\n"
+"\n"
+"Command:"
+msgstr ""
+"输入命令以向标准输出输出一段音频/视频。\n"
+"这将以管道方式定向到播放器的标准输入。\n"
+"\n"
+"命令："
+
+#: kmplayerapp.cpp:561 kmplayerapp.cpp:564
+msgid "Intro"
+msgstr "介绍"
+
+#: kmplayerapp.cpp:717 kmplayerapp.cpp:1085
+msgid "Opening file..."
+msgstr "正在打开文件..."
+
+#: kmplayerapp.cpp:977 kmplayerapp.cpp:978
+msgid "Exit"
+msgstr "退出"
+
+#: kmplayerapp.cpp:1064
+msgid "Opening a new application window..."
+msgstr "正在打开一个新的应用程序窗口..."
+
+#: kmplayerapp.cpp:1073
+msgid "*|All Files"
+msgstr "*|全部文件"
+
+#: kmplayerapp.cpp:1073
+msgid "Open File"
+msgstr "打开文件"
+
+#: kmplayerapp.cpp:1092
+msgid "Save File"
+msgstr "保存文件"
+
+#: kmplayerapp.cpp:1096
+#, kde-format
+msgid ""
+"Error opening file %1.\n"
+"%2."
+msgstr ""
+"打开文件 %1 出错。\n"
+"%2。"
+
+#: kmplayerapp.cpp:1096 kmplayerbroadcast.cpp:535 kmplayerbroadcast.cpp:552
+#: kmplayerbroadcast.cpp:565 kmplayerconfig.cpp:635 kmplayerconfig.cpp:646
+#: kmplayerprocess.cpp:159 kmplayertvsource.cpp:615 kmplayertvsource.cpp:626
+#: kmplayervdr.cpp:444 kmplayervdr.cpp:446
+msgid "Error"
+msgstr "错误"
+
+#: kmplayerapp.cpp:1179
+msgid "Closing file..."
+msgstr "正在关闭文件..."
+
+#: kmplayerapp.cpp:1188
+msgid "Exiting..."
+msgstr "正在退出..."
+
+#: kmplayerapp.cpp:1241 kmplayerpartbase.cpp:840 mediaobject.cpp:169
+msgid "Ready"
+msgstr "就绪"
+
+#: kmplayerapp.cpp:1244
+#, kde-format
+msgid "Show Menu Bar with %1"
+msgstr "以 %1 显示菜单栏"
+
+#: kmplayerapp.cpp:1326
+msgid "Move here"
+msgstr "移至此处"
+
+#: kmplayerapp.cpp:1356
+msgid "New group"
+msgstr "新建组"
+
+#: kmplayerapp.cpp:1436
+msgid "&Delete item"
+msgstr "删除项(&D)"
+
+#: kmplayerapp.cpp:1439
+msgid "&Move up"
+msgstr "上移(&M)"
+
+#: kmplayerapp.cpp:1441
+msgid "Move &down"
+msgstr "下移(&D)"
+
+#: kmplayerapp.cpp:1497
+msgid "Auto play after opening DVD"
+msgstr "打开 DVD 后自动播放"
+
+#: kmplayerapp.cpp:1498
+msgid "Start playing DVD right after opening DVD"
+msgstr "打开 DVD 后立即播放"
+
+#: kmplayerapp.cpp:1499
+msgid "DVD device:"
+msgstr "DVD 设备："
+
+#: kmplayerapp.cpp:1501
+msgid "Path to your DVD device, you must have read rights to this device"
+msgstr "您 DVD 设备的路径，您必需拥有该设备的读权限"
+
+#: kmplayerapp.cpp:1529
+msgid "Optical Disks"
+msgstr "光盘"
+
+#: kmplayerapp.cpp:1559 kmplayerapp.cpp:1638 kmplayerapp.cpp:1664
+msgid "DVD"
+msgstr "DVD"
+
+#: kmplayerapp.cpp:1565
+msgid "CDROM - Audio Compact Disk"
+msgstr "CDROM - 音频碟片"
+
+#: kmplayerapp.cpp:1566
+msgid "VCD - Video Compact Disk"
+msgstr "VCD - 视频碟片"
+
+#: kmplayerapp.cpp:1567
+msgid "DVD - Digital Video Disk"
+msgstr "DVD - 视频碟片"
+
+#: kmplayerapp.cpp:1585 kmplayerapp.cpp:1809
+#, kde-format
+msgid "Track %1"
+msgstr "第 %1 轨"
+
+#: kmplayerapp.cpp:1662 kmplayerapp.cpp:1775 kmplayertvsource.cpp:585
+#: kmplayervdr.cpp:718 pref.cpp:86 pref.cpp:91
+msgid "Source"
+msgstr "播放源"
+
+#: kmplayerapp.cpp:1677
+msgid "Auto play after opening a VCD"
+msgstr "打开 VCD 后自动播放"
+
+#: kmplayerapp.cpp:1678
+msgid "Start playing VCD right after opening VCD"
+msgstr "打开 VCD 后立即播放"
+
+#: kmplayerapp.cpp:1679
+msgid "VCD (CDROM) device:"
+msgstr "VCD(CDROM) 设备："
+
+#: kmplayerapp.cpp:1681
+msgid "Path to your CDROM/DVD device, you must have read rights to this device"
+msgstr "您的 CDROM/DVD 设备的路径，您必需拥有该设备的读权限"
+
+#: kmplayerapp.cpp:1692 kmplayerapp.cpp:1751 kmplayerapp.cpp:1777
+msgid "VCD"
+msgstr "VCD"
+
+#: kmplayerapp.cpp:1710
+msgid "Track "
+msgstr "轨道 "
+
+#: kmplayerapp.cpp:1788 kmplayerapp.cpp:1853
+msgid "Audio CD"
+msgstr "音频 CD"
+
+#: kmplayerapp.cpp:1859
+msgid "Pipe"
+msgstr "管道"
+
+#: kmplayerapp.cpp:1891
+#, kde-format
+msgid "Pipe - %1"
+msgstr "管道 - %1"
+
+#: kmplayerbroadcast.cpp:160
+msgid "Bind address:"
+msgstr "Bind 地址："
+
+#: kmplayerbroadcast.cpp:162
+msgid "If you have multiple network devices, you can limit access"
+msgstr "如果你有多个网络设备，你可以限制访问"
+
+#: kmplayerbroadcast.cpp:165
+msgid "Listen port:"
+msgstr "监听端口："
+
+#: kmplayerbroadcast.cpp:169
+msgid "Maximum connections:"
+msgstr "最大连接数："
+
+#: kmplayerbroadcast.cpp:173
+msgid "Maximum bandwidth (kbit):"
+msgstr "最大占用带宽(kbit)："
+
+#: kmplayerbroadcast.cpp:177
+msgid "Temporary feed file:"
+msgstr "临时传播文件："
+
+#: kmplayerbroadcast.cpp:181
+msgid "Feed file size (kB):"
+msgstr "传播文件大小(kB)："
+
+#: kmplayerbroadcast.cpp:204
+msgid "Format:"
+msgstr "格式："
+
+#: kmplayerbroadcast.cpp:212
+msgid "Only avi, mpeg and rm work for mplayer playback"
+msgstr "只有 avi，mpeg 和 rm 能够被 mplayer 回放"
+
+#: kmplayerbroadcast.cpp:215
+msgid "Audio codec:"
+msgstr "音频解码器："
+
+#: kmplayerbroadcast.cpp:216
+msgid "Audio bit rate (kbit):"
+msgstr "音频比特率(kbit)："
+
+#: kmplayerbroadcast.cpp:217
+msgid "Audio sample rate (Hz):"
+msgstr "音频采样频率(Hz)："
+
+#: kmplayerbroadcast.cpp:218
+msgid "Video codec:"
+msgstr "视频解码器："
+
+#: kmplayerbroadcast.cpp:219
+msgid "Video bit rate (kbit):"
+msgstr "视频比特率(kbit)："
+
+#: kmplayerbroadcast.cpp:220
+msgid "Quality (1-31):"
+msgstr "质量(1-31)："
+
+#: kmplayerbroadcast.cpp:221
+msgid "Frame rate (Hz):"
+msgstr "帧速率(Hz)："
+
+#: kmplayerbroadcast.cpp:222
+msgid "Gop size:"
+msgstr "Gop 大小："
+
+#: kmplayerbroadcast.cpp:223
+msgid "Width (pixels):"
+msgstr "宽度(像素)："
+
+#: kmplayerbroadcast.cpp:224
+msgid "Height (pixels):"
+msgstr "高度(像素)："
+
+#: kmplayerbroadcast.cpp:225
+msgid "Allow access from:"
+msgstr "允许访问来自："
+
+#: kmplayerbroadcast.cpp:230
+msgid "'Single IP' or 'start-IP end-IP' for IP ranges"
+msgstr "“单 IP”还是给出“起始 IP”的 IP 范围"
+
+#: kmplayerbroadcast.cpp:232
+msgid "Host/IP or IP Range"
+msgstr "主机/IP 或 IP 范围"
+
+#: kmplayerbroadcast.cpp:245
+msgid "Load"
+msgstr "装入"
+
+#: kmplayerbroadcast.cpp:246
+msgid "Save"
+msgstr "保存"
+
+#: kmplayerbroadcast.cpp:247 kmplayertvsource.cpp:120
+msgid "Delete"
+msgstr "删除"
+
+#: kmplayerbroadcast.cpp:265 kmplayerbroadcast.cpp:601
+msgid "Start"
+msgstr "开始"
+
+#: kmplayerbroadcast.cpp:458 kmplayerbroadcast.cpp:658
+msgid "Broadcasting"
+msgstr "广播"
+
+#: kmplayerbroadcast.cpp:460
+msgid "Profiles"
+msgstr "配置文件"
+
+#: kmplayerbroadcast.cpp:523
+msgid "Stop"
+msgstr "停止"
+
+#: kmplayerbroadcast.cpp:535
+msgid "Failed to end ffserver process."
+msgstr "结束 ffserver 进程失败。"
+
+#: kmplayerbroadcast.cpp:552
+msgid "Failed to start ffserver.\n"
+msgstr "启动 ffserver 失败。\n"
+
+#: kmplayerbroadcast.cpp:565
+msgid "Failed to start ffmpeg."
+msgstr "启动 ffmpeg 失败。"
+
+#: kmplayerbroadcast.cpp:660
+msgid "FFServer"
+msgstr "FFServer"
+
+#: kmplayerconfig.cpp:61 kmplayerconfig.cpp:77
+msgid "Auto"
+msgstr "自动"
+
+#: kmplayerconfig.cpp:62
+msgid "Open Sound System"
+msgstr "开放音频系统"
+
+#: kmplayerconfig.cpp:63
+msgid "Simple DirectMedia Layer"
+msgstr "简单 DirectMedia 媒体层"
+
+#: kmplayerconfig.cpp:64
+msgid "Advanced Linux Sound Architecture"
+msgstr "高级 Linux 音频体系(Alsa)"
+
+#: kmplayerconfig.cpp:65
+msgid "Analog Real-Time Synthesizer"
+msgstr "模拟实时合成器"
+
+#: kmplayerconfig.cpp:66
+msgid "JACK Audio Connection Kit"
+msgstr "JACK 音频连接工具"
+
+#: kmplayerconfig.cpp:67
+msgid "OpenAL"
+msgstr "OpenAL"
+
+#: kmplayerconfig.cpp:68
+msgid "Enlightened Sound Daemon"
+msgstr "Enlightened 音频后台程序"
+
+#: kmplayerconfig.cpp:69
+msgid "Advanced Linux Sound Architecture v0.5"
+msgstr "高级 Linux 音频体系 v0.5"
+
+#: kmplayerconfig.cpp:70
+msgid "Advanced Linux Sound Architecture v0.9"
+msgstr "高级 Linux 音频体系 v0.9"
+
+#: kmplayerconfig.cpp:71
+msgid "Use back-end defaults"
+msgstr "使用后端默认值"
+
+#: kmplayerconfig.cpp:72
+msgid "PulseAudio"
+msgstr "PulseAudio"
+
+#: kmplayerconfig.cpp:78
+msgid "X11Shm"
+msgstr "X11Shm"
+
+#: kmplayerconfig.cpp:79
+msgid "XVidix"
+msgstr "XVidix"
+
+#: kmplayerconfig.cpp:80
+msgid "XvMC"
+msgstr "XvMC"
+
+#: kmplayerconfig.cpp:81
+msgid "SDL"
+msgstr "SDL"
+
+#: kmplayerconfig.cpp:82
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: kmplayerconfig.cpp:83
+msgid "OpenGL MT"
+msgstr "OpenGL MT"
+
+#: kmplayerconfig.cpp:84
+msgid "XVideo"
+msgstr "XVideo"
+
+#: kmplayerconfig.cpp:85
+msgid "Video Decode and Presentation API for Unix"
+msgstr "Unix 视频解码和演示 API"
+
+#: kmplayerconfig.cpp:96
+msgid "Playlist background"
+msgstr "播放列表背景"
+
+#: kmplayerconfig.cpp:100
+msgid "Playlist foreground"
+msgstr "播放列表前景"
+
+#: kmplayerconfig.cpp:104
+msgid "Console background"
+msgstr "控制台背景"
+
+#: kmplayerconfig.cpp:105
+msgid "Playlist active item"
+msgstr "播放列表当前项"
+
+#: kmplayerconfig.cpp:111
+msgid "Console foreground"
+msgstr "控制台前景"
+
+#: kmplayerconfig.cpp:114
+msgid "Video background"
+msgstr "视频背景"
+
+#: kmplayerconfig.cpp:117
+msgid "Viewing area background"
+msgstr "显示区背景"
+
+#: kmplayerconfig.cpp:120
+msgid "Info window background"
+msgstr "信息窗口背景"
+
+#: kmplayerconfig.cpp:124
+msgid "Info window foreground"
+msgstr "信息窗口前景"
+
+#: kmplayerconfig.cpp:128 kmplayerview.cpp:172
+msgid "Playlist"
+msgstr "播放列表"
+
+#: kmplayerconfig.cpp:132
+msgid "Info window"
+msgstr "信息窗口"
+
+#: kmplayerconfig.cpp:635
+#, kde-format
+msgid "File %1 does not exist."
+msgstr "文件 %1 不存在。"
+
+#: kmplayerconfig.cpp:646
+#, kde-format
+msgid "Sub title file %1 does not exist."
+msgstr "字幕文件 %1 不存在。"
+
+#: kmplayercontrolpanel.cpp:314 kmplayercontrolpanel.cpp:329
+msgid "Volume is "
+msgstr "音量为 "
+
+#: kmplayercontrolpanel.cpp:411
+msgid "&Play with"
+msgstr "播放方式(&P)"
+
+#: kmplayercontrolpanel.cpp:414 kmplayerview.cpp:344
+msgid "Con&sole"
+msgstr "控制台(&S)"
+
+#: kmplayercontrolpanel.cpp:416
+msgid "Play&list"
+msgstr "播放列表(&L)"
+
+#: kmplayercontrolpanel.cpp:418
+msgid "&Zoom"
+msgstr "缩放(&Z)"
+
+#: kmplayercontrolpanel.cpp:421
+msgid "50%"
+msgstr "50%"
+
+#: kmplayercontrolpanel.cpp:422
+msgid "100%"
+msgstr "100%"
+
+#: kmplayercontrolpanel.cpp:423
+msgid "150%"
+msgstr "150%"
+
+#: kmplayercontrolpanel.cpp:425
+msgid "&Full Screen"
+msgstr "全屏(&F)"
+
+#: kmplayercontrolpanel.cpp:430
+msgid "Co&lors"
+msgstr "色彩(&L)："
+
+#: kmplayercontrolpanel.cpp:455 kmplayercontrolpanel.cpp:457
+msgid "&Audio languages"
+msgstr "音频语言(&A)"
+
+#: kmplayercontrolpanel.cpp:458
+msgid "&Subtitles"
+msgstr "字幕(&S)"
+
+#: kmplayercontrolpanel.cpp:466
+msgid "Scale:"
+msgstr "缩放："
+
+#: kmplayercontrolpanel.cpp:477
+msgid "&Configure KMPlayer..."
+msgstr "配置 KMPlayer(&C)..."
+
+#: kmplayerpartbase.cpp:1449
+msgid "Unknown"
+msgstr "未知"
+
+#: kmplayerpartbase.cpp:1460 kmplayerpartbase.cpp:1529 pref.cpp:90
+msgid "URL"
+msgstr "URL"
+
+#: kmplayerpartbase.cpp:1553 kmplayerpartbase.cpp:1555
+msgid "URL - "
+msgstr ""
+
+#. i18n: ectx: Menu (view)
+#: kmplayerpartui.rc:4 kmplayerui.rc:31
+msgid "&View"
+msgstr "视图(&V)"
+
+#: kmplayerprocess.cpp:159
+msgid "Failed to end player process."
+msgstr "结束播放器进程失败。"
+
+#: kmplayerprocess.cpp:500
+msgid "&MPlayer"
+msgstr "&Mplayer"
+
+#: kmplayerprocess.cpp:1023
+msgid "Size pattern"
+msgstr "大小模式"
+
+#: kmplayerprocess.cpp:1024
+msgid "Cache pattern"
+msgstr "缓存模式"
+
+#: kmplayerprocess.cpp:1025
+msgid "Position pattern"
+msgstr "位置模式"
+
+#: kmplayerprocess.cpp:1026
+msgid "Index pattern"
+msgstr "索引模式"
+
+#: kmplayerprocess.cpp:1027
+msgid "Reference URL pattern"
+msgstr "引用 URL 模式"
+
+#: kmplayerprocess.cpp:1028
+msgid "Reference pattern"
+msgstr "引用模式"
+
+#: kmplayerprocess.cpp:1029
+msgid "Start pattern"
+msgstr "开始模式"
+
+#: kmplayerprocess.cpp:1030
+msgid "VCD track pattern"
+msgstr "VCD 轨道模式"
+
+#: kmplayerprocess.cpp:1031
+msgid "Audio CD tracks pattern"
+msgstr "音频  CD 轨道模式"
+
+#: kmplayerprocess.cpp:1051
+msgid "MPlayer command:"
+msgstr "MPlayer 命令："
+
+#: kmplayerprocess.cpp:1053
+msgid "Additional command line arguments:"
+msgstr "附加命令行参数："
+
+#: kmplayerprocess.cpp:1055
+msgid "Cache size:"
+msgstr "缓存大小："
+
+#: kmplayerprocess.cpp:1055
+msgid "kB"
+msgstr "kB"
+
+#: kmplayerprocess.cpp:1057
+msgid "Build new index when possible"
+msgstr "尽可能建立新索引"
+
+#: kmplayerprocess.cpp:1059
+msgid "Allows seeking in indexed files (AVIs)"
+msgstr "允许在已建立索引的文件(AVI)中搜索"
+
+#: kmplayerprocess.cpp:1125 pref.cpp:73 pref.cpp:83
+msgid "General Options"
+msgstr "常规选项"
+
+#: kmplayerprocess.cpp:1127
+msgid "MPlayer"
+msgstr "Mplayer"
+
+#: kmplayerprocess.cpp:1143
+msgid "M&Encoder"
+msgstr "M&Encoder"
+
+#: kmplayerprocess.cpp:1209
+msgid "&MPlayerDumpstream"
+msgstr "&MPlayerDumpstream"
+
+#: kmplayerprocess.cpp:1471
+msgid "&Phonon"
+msgstr "&Phonon"
+
+#: kmplayerprocess.cpp:1614 pref.cpp:596
+msgid "&FFMpeg"
+msgstr "&FFMpeg"
+
+#: kmplayerprocess.cpp:1713
+msgid "&Ice Ape"
+msgstr "&Ice Ape"
+
+#: kmplayertvsource.cpp:64
+msgid "Video device:"
+msgstr "视频设备："
+
+#: kmplayertvsource.cpp:67
+msgid "Audio device:"
+msgstr "音频设备："
+
+#: kmplayertvsource.cpp:69
+msgid "Name:"
+msgstr "名称："
+
+#: kmplayertvsource.cpp:71
+msgid "Width:"
+msgstr "宽度："
+
+#: kmplayertvsource.cpp:73
+msgid "Height:"
+msgstr "高度："
+
+#: kmplayertvsource.cpp:75
+msgid "Do not immediately play"
+msgstr "不要立即播放"
+
+#: kmplayertvsource.cpp:77
+msgid "Only start playing after clicking the play button"
+msgstr "点击播放按钮之后才开始播放"
+
+#: kmplayertvsource.cpp:88
+msgid "Norm:"
+msgstr "标准："
+
+#: kmplayertvsource.cpp:100
+msgid "Channel"
+msgstr "声道"
+
+#: kmplayertvsource.cpp:101
+msgid "Frequency (MHz)"
+msgstr "频率(MHz)"
+
+#: kmplayertvsource.cpp:141
+msgid ""
+"You are about to remove this device from the Source menu.\n"
+"Continue?"
+msgstr ""
+"您即将从播放源菜单移去此设备。\n"
+"要继续么？"
+
+#: kmplayertvsource.cpp:141
+msgid "Confirm"
+msgstr "确认"
+
+#: kmplayertvsource.cpp:156
+msgid "Driver:"
+msgstr "驱动："
+
+#: kmplayertvsource.cpp:158
+msgid "dummy, v4l or bsdbt848"
+msgstr "虚拟， v41 或 bsdbt848 模式"
+
+#: kmplayertvsource.cpp:159
+msgid "Device:"
+msgstr "设备："
+
+#: kmplayertvsource.cpp:161
+msgid "Path to your video device, eg. /dev/video0"
+msgstr "您视频设备的路径，如 /dev/video0"
+
+#: kmplayertvsource.cpp:162
+msgid "Scan..."
+msgstr "扫描 ..."
+
+#: kmplayertvsource.cpp:172 pref.cpp:77 pref.cpp:117 pref.cpp:813
+msgid "General"
+msgstr "常规"
+
+#: kmplayertvsource.cpp:249
+msgid "tv device"
+msgstr "电视设备"
+
+#: kmplayertvsource.cpp:336
+msgid "Television"
+msgstr "电视"
+
+#: kmplayertvsource.cpp:363 kmplayertvsource.cpp:535 kmplayertvsource.cpp:587
+msgid "TV"
+msgstr "电视"
+
+#: kmplayertvsource.cpp:502
+msgid "TV: "
+msgstr "电视："
+
+#: kmplayertvsource.cpp:614
+msgid "Device already present."
+msgstr "设备已存在。"
+
+#: kmplayertvsource.cpp:626
+msgid "No device found."
+msgstr "未发现任何设备。"
+
+#: kmplayertvsource.cpp:649
+msgid "TVScanner"
+msgstr "TV 扫描器"
+
+#. i18n: ectx: Menu (file)
+#: kmplayerui.rc:5
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (vdr)
+#: kmplayerui.rc:15
+msgid "VD&R"
+msgstr "VD&R"
+
+#. i18n: ectx: Menu (settings)
+#: kmplayerui.rc:51
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#: kmplayervdr.cpp:87
+msgid "XVideo port"
+msgstr "XVideo 端口"
+
+#: kmplayervdr.cpp:89
+msgid ""
+"Port base of the X Video extension.\n"
+"If left to default (0), the first available port will be used. However if "
+"you have multiple XVideo instances, you might have to provide the port to "
+"use here.\n"
+"See the output from 'xvinfo' for more information"
+msgstr ""
+"X 视频扩展的端口。\n"
+"如果置为默认(0)，则使用第一个可用端口。然而，如果您有多 XVideo 实例，您可能要"
+"在此提供端口。\n"
+"查看“xvinfo”的输出以获得更多信息"
+
+#: kmplayervdr.cpp:90
+msgid "Communication port:"
+msgstr "通讯端口："
+
+#: kmplayervdr.cpp:93
+msgid ""
+"Communication port with VDR. Default is port 2001.\n"
+"If you use another port, with the '-p' option of 'vdr', you must set it here "
+"too."
+msgstr ""
+"与 VDR 通讯的端口。默认为端口 2001。\n"
+"如果您以“vdr”的“-p”选项使用其它端口，您也必须在此设定它。"
+
+#: kmplayervdr.cpp:97
+msgid "Scale"
+msgstr "缩放"
+
+#: kmplayervdr.cpp:98
+msgid "4:3"
+msgstr "4:3"
+
+#: kmplayervdr.cpp:99
+msgid "16:9"
+msgstr "16:9"
+
+#: kmplayervdr.cpp:100
+msgid "Aspects to use when viewing VDR"
+msgstr "查看 VDR 时使用的宽高比"
+
+#: kmplayervdr.cpp:171 kmplayervdr.cpp:720
+msgid "VDR"
+msgstr "VDR"
+
+#: kmplayervdr.cpp:236
+msgid "Dis&connect"
+msgstr "断开(&C)"
+
+#: kmplayervdr.cpp:237
+msgid "VDR Key Up"
+msgstr "VDR 键 向上"
+
+#: kmplayervdr.cpp:238
+msgid "VDR Key Down"
+msgstr "VDR 键 向下"
+
+#: kmplayervdr.cpp:239
+msgid "VDR Key Back"
+msgstr "VDR 键 后退"
+
+#: kmplayervdr.cpp:240
+msgid "VDR Key Ok"
+msgstr "VDR 键 确定"
+
+#: kmplayervdr.cpp:241
+msgid "VDR Key Setup"
+msgstr "VDR 键 设置"
+
+#: kmplayervdr.cpp:242
+msgid "VDR Key Channels"
+msgstr "VDR 键 频道"
+
+#: kmplayervdr.cpp:243
+msgid "VDR Key Menu"
+msgstr "VDR 键 菜单"
+
+#: kmplayervdr.cpp:244
+msgid "VDR Key Red"
+msgstr "VDR 键 红"
+
+#: kmplayervdr.cpp:245
+msgid "VDR Key Green"
+msgstr "VDR 键 绿"
+
+#: kmplayervdr.cpp:246
+msgid "VDR Key Yellow"
+msgstr "VDR 键 黄"
+
+#: kmplayervdr.cpp:247
+msgid "VDR Key Blue"
+msgstr "VDR 键 蓝"
+
+#: kmplayervdr.cpp:250
+msgid "VDR Key 0"
+msgstr "VDR 键 0"
+
+#: kmplayervdr.cpp:251
+msgid "VDR Key 1"
+msgstr "VDR 键 1"
+
+#: kmplayervdr.cpp:252
+msgid "VDR Key 2"
+msgstr "VDR 键 2"
+
+#: kmplayervdr.cpp:253
+msgid "VDR Key 3"
+msgstr "VDR 键 3"
+
+#: kmplayervdr.cpp:254
+msgid "VDR Key 4"
+msgstr "VDR 键 4"
+
+#: kmplayervdr.cpp:255
+msgid "VDR Key 5"
+msgstr "VDR 键 5"
+
+#: kmplayervdr.cpp:256
+msgid "VDR Key 6"
+msgstr "VDR 键 6"
+
+#: kmplayervdr.cpp:257
+msgid "VDR Key 7"
+msgstr "VDR 键 7"
+
+#: kmplayervdr.cpp:258
+msgid "VDR Key 8"
+msgstr "VDR 键 8"
+
+#: kmplayervdr.cpp:259
+msgid "VDR Key 9"
+msgstr "VDR 键 9"
+
+#: kmplayervdr.cpp:281
+msgid "&Connect"
+msgstr "连接(&C)"
+
+#: kmplayervdr.cpp:444
+msgid "Host not found"
+msgstr "主机未找到"
+
+#: kmplayervdr.cpp:446
+msgid "Connection refused"
+msgstr "连接被拒绝"
+
+#: kmplayervdr.cpp:487
+msgid "Custom VDR command"
+msgstr "自定义 VDR 命令"
+
+#: kmplayervdr.cpp:487
+msgid ""
+"You can pass commands to VDR.\n"
+"Enter 'HELP' to see a list of available commands.\n"
+"You can see VDR response in the console window.\n"
+"\n"
+"VDR Command:"
+msgstr ""
+"您可以向 VDR 传递命令。\n"
+"输入“HELP”以查看可用命令列表。\n"
+"您可以在控制台窗口中看到 VDR 的反应。\n"
+"\n"
+"VDR 命令："
+
+#: kmplayervdr.cpp:685
+msgid "Port "
+msgstr "端口 "
+
+#: kmplayervdr.cpp:739
+msgid "X&Video"
+msgstr "X&Video"
+
+#: kmplayerview.cpp:177
+msgid "Information"
+msgstr "信息"
+
+#: main.cpp:35
+msgid "KMPlayer"
+msgstr "KMplayer"
+
+#: main.cpp:37
+msgid "Media player."
+msgstr "媒体播放器。"
+
+#: main.cpp:39
+msgid "(c) 2002-2009, Koos Vriezen"
+msgstr "(c) 2002-2009，Koos Vriezen"
+
+#: main.cpp:41
+msgid "http://kmplayer.kde.org"
+msgstr "http://kmplayer.kde.org"
+
+#: main.cpp:42
+msgid "Koos Vriezen"
+msgstr "Koos Vriezen"
+
+#: main.cpp:42
+msgid "Maintainer"
+msgstr "维护者"
+
+#: main.cpp:45
+msgid "file to open"
+msgstr "要打开的文件"
+
+#: mediaobject.cpp:169
+msgid "Not Running"
+msgstr "未运行"
+
+#: mediaobject.cpp:169
+msgid "Buffering"
+msgstr "正在缓冲"
+
+#: mediaobject.cpp:169 pref.cpp:230
+msgid "Playing"
+msgstr "正在播放"
+
+#: mediaobject.cpp:169
+msgid "Paused"
+msgstr "已暂停"
+
+#: mediaobject.cpp:191
+#, kde-format
+msgid "Player %1 %2"
+msgstr "播放器 %1 %2"
+
+#: playlistview.cpp:138
+msgid "Edit &item"
+msgstr "编辑项目(&I)"
+
+#: playlistview.cpp:253
+msgid "&Copy to Clipboard"
+msgstr "复制到剪贴板(&C)"
+
+#: playlistview.cpp:260
+msgid "&Add Bookmark"
+msgstr "添加书签(&A)"
+
+#: playlistview.cpp:263
+msgid "&Show all"
+msgstr "全部显示(&S)"
+
+#: playmodel.cpp:360
+msgid "unnamed"
+msgstr "未命名"
+
+#: playmodel.cpp:360
+msgid "none"
+msgstr "无"
+
+#: playmodel.cpp:378
+msgid "[attributes]"
+msgstr "[属性]"
+
+#: pref.cpp:68
+msgid "Preferences"
+msgstr "首选项"
+
+#: pref.cpp:79
+msgid "Looks"
+msgstr "外观"
+
+#: pref.cpp:82
+msgid "Output"
+msgstr "输出"
+
+#: pref.cpp:94 pref.cpp:119
+msgid "Recording"
+msgstr "录制"
+
+#: pref.cpp:100
+msgid "MEncoder"
+msgstr "MEncoder"
+
+#: pref.cpp:104
+msgid "FFMpeg"
+msgstr "FFMpeg"
+
+#: pref.cpp:122
+msgid "Output Plugins"
+msgstr "输出插件"
+
+#: pref.cpp:126 pref.cpp:127
+msgid "Postprocessing"
+msgstr "后期处理"
+
+#: pref.cpp:210
+msgid "Window"
+msgstr "窗口"
+
+#: pref.cpp:214
+msgid "Keep size ratio"
+msgstr "保持大小比例"
+
+#: pref.cpp:215
+msgid ""
+"When checked, the movie will keep its aspect ratio\n"
+"when the window is resized."
+msgstr ""
+"选中时，当窗口大小被改变的时候，\n"
+"电影画面将保持宽高比。"
+
+#: pref.cpp:216
+msgid "Dock in system tray"
+msgstr "停靠于系统托盘"
+
+#: pref.cpp:217
+msgid ""
+"When checked, an icon for KMPlayer will be added to the system tray.\n"
+"When clicked, it will hide KMPlayer's main window and remove KMPlayer's task "
+"bar button."
+msgstr ""
+"选中时，KMPlayer 的图标会添加到系统托盘中。\n"
+"点击它可隐藏 KMPlayer 的主窗口并删除 KMPlayer 的任务按钮。"
+
+#: pref.cpp:218
+msgid "Auto resize to video sizes"
+msgstr "自动调整为视频尺寸大小"
+
+#: pref.cpp:219
+msgid ""
+"When checked, KMPlayer will resize to movie sizes\n"
+"when video starts."
+msgstr ""
+"选中时，KMPlayer 将在视频开始时\n"
+"自动调整为影片大小"
+
+#: pref.cpp:224
+msgid "Remember window size on exit"
+msgstr "退出时记住窗口大小"
+
+#: pref.cpp:225
+msgid "Always start with fixed size"
+msgstr "总是以固定大小启动"
+
+#: pref.cpp:231
+msgid "Loop"
+msgstr "循环"
+
+#: pref.cpp:232
+msgid "Makes current movie loop"
+msgstr "循环播放当前电影"
+
+#: pref.cpp:233
+msgid "Allow frame drops"
+msgstr "允许降低播放帧数"
+
+#: pref.cpp:234
+msgid "Allow dropping frames for better audio and video synchronization"
+msgstr "允许降低播放帧数以获得更好的音频和视频的同步"
+
+#: pref.cpp:235
+msgid "Auto set volume on start"
+msgstr "启动时自动设定音量"
+
+#: pref.cpp:236
+msgid ""
+"When a new source is selected, the volume will be set according the volume "
+"control"
+msgstr "当选择新来源时，将根据音量控制设定音量"
+
+#: pref.cpp:237
+msgid "Auto set colors on start"
+msgstr "启动时自动设定颜色"
+
+#: pref.cpp:238
+msgid ""
+"When a movie starts, the colors will be set according the sliders for colors"
+msgstr "当影片开始时，将根据颜色滑块设定颜色"
+
+#: pref.cpp:240
+msgid "Control Panel"
+msgstr "控制面板"
+
+#: pref.cpp:244
+msgid "Show config button"
+msgstr "显示配置按钮"
+
+#: pref.cpp:245
+msgid "Add a button that will popup a config menu"
+msgstr "添加弹出配置菜单的按钮"
+
+#: pref.cpp:246
+msgid "Show playlist button"
+msgstr "显示播放列表按钮"
+
+#: pref.cpp:247
+msgid "Add a playlist button to the control buttons"
+msgstr "添加播放列表按钮到控制按钮"
+
+#: pref.cpp:248
+msgid "Show record button"
+msgstr "显示录制按钮"
+
+#: pref.cpp:249
+msgid "Add a record button to the control buttons"
+msgstr "添加“录制”到控制按钮"
+
+#: pref.cpp:250
+msgid "Show broadcast button"
+msgstr "显示广播按钮"
+
+#: pref.cpp:251
+msgid "Add a broadcast button to the control buttons"
+msgstr "添加“广播”到控制按钮"
+
+#: pref.cpp:258
+msgid "Forward/backward seek time:"
+msgstr "向前/向后寻时："
+
+#: pref.cpp:262 pref.cpp:444
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " 秒"
+
+#: pref.cpp:264 pref.cpp:446
+msgid " seconds"
+msgstr " 秒"
+
+#: pref.cpp:278
+msgid "Colors"
+msgstr "颜色"
+
+#: pref.cpp:290
+msgid "Fonts"
+msgstr "字体"
+
+#: pref.cpp:297
+msgid "AaBbCc"
+msgstr "AaBbCc - 中文字体测试"
+
+#: pref.cpp:340
+msgid "Location:"
+msgstr "饱和度："
+
+#: pref.cpp:345
+msgid "Location of the playable item"
+msgstr "可播放项目的位置"
+
+#: pref.cpp:348
+msgid "Sub title:"
+msgstr "字幕："
+
+#: pref.cpp:353
+msgid "Optional location of a file containing the subtitles of the URL above"
+msgstr "包含以上 URL 字幕的文件可选位置"
+
+#: pref.cpp:356
+msgid "Load on demand"
+msgstr "按需装入"
+
+#: pref.cpp:357
+msgid ""
+"When enabled, all embedded movies will start with a image that needs to be "
+"clicked to start the video playback"
+msgstr "选中时，所有嵌入的影片都需要点击启动画面才能启动视频播放"
+
+#: pref.cpp:358
+msgid "Grab image when 'Click to Play' detected"
+msgstr "探测到“点击即播放”时捕获图像"
+
+#: pref.cpp:359
+msgid ""
+"When enabled and a HTML object has a HREF attribute, grab and save an image "
+"of the first frame of initial link. This image will be shown instead of a "
+"default picture."
+msgstr ""
+"当启用并且 HTML 对象带有 HREF 属性时，将捕获并保存最初链接的第一帧画面。这幅"
+"将代替默认图片显示。"
+
+#: pref.cpp:368
+msgid "Use movie player:"
+msgstr "使用电影播放器："
+
+#: pref.cpp:373
+msgid "Network bandwidth"
+msgstr "网络带宽"
+
+#: pref.cpp:378
+msgid ""
+"Sometimes it is possible to choose between various streams given a "
+"particular bitrate.\n"
+"This option sets how much bandwidth you would prefer to allocate to video."
+msgstr ""
+"有时候在给出特定比特率的多个媒体流中选择是可能的。\n"
+"此选项可设定您愿意分配给视频多少带宽。"
+
+#: pref.cpp:381
+msgid ""
+"Sometimes it is possible to choose between various streams given a "
+"particular bitrate.\n"
+"This option sets the maximum bandwidth you have available for video."
+msgstr ""
+"有时候在给出特定比特率的多个媒体流中选择是可能的。\n"
+"此选项可设定您能够分配给视频的最大带宽。"
+
+#: pref.cpp:382
+msgid "Preferred bitrate:"
+msgstr "首选比特率："
+
+#: pref.cpp:384 pref.cpp:387
+msgid "kbit/s"
+msgstr "kbit/s"
+
+#: pref.cpp:385
+msgid "Maximum bitrate:"
+msgstr "最大比特率："
+
+#: pref.cpp:416
+msgid "Output file:"
+msgstr "输出文件："
+
+#: pref.cpp:423 pref.cpp:470 pref.cpp:478
+msgid "Start &Recording"
+msgstr "开始录制(&R)"
+
+#: pref.cpp:428
+msgid "Current source: "
+msgstr "当前来源："
+
+#: pref.cpp:430
+msgid "Recorder"
+msgstr "录音机"
+
+#: pref.cpp:437
+msgid "Auto Playback"
+msgstr "自动回放"
+
+#: pref.cpp:438
+msgid "&No"
+msgstr "否(&N)"
+
+#: pref.cpp:439
+msgid "&When recording finished"
+msgstr "当录制停止时(&W)"
+
+#: pref.cpp:440
+msgid "A&fter"
+msgstr "之后(&F)"
+
+#: pref.cpp:449
+msgid "Time:"
+msgstr "时间："
+
+#: pref.cpp:469
+msgid "Stop &Recording"
+msgstr "停止录制(&R)"
+
+#: pref.cpp:490
+msgid "Current Source: "
+msgstr "当前来源："
+
+#: pref.cpp:544
+msgid "Format"
+msgstr "格式"
+
+#: pref.cpp:545
+msgid "Same as source"
+msgstr "和源一样"
+
+#: pref.cpp:546 pref.cpp:660
+msgid "Custom"
+msgstr "自定义"
+
+#: pref.cpp:549
+msgid "Mencoder arguments:"
+msgstr "Mencoder 参数："
+
+#: pref.cpp:567
+msgid "&MEncoder"
+msgstr "&MEncoder"
+
+#: pref.cpp:575
+msgid "MPlayer -&dumpstream"
+msgstr "MPlayer -&dumpstream"
+
+#: pref.cpp:583
+msgid "FFMpeg arguments:"
+msgstr "FFMpeg 参数："
+
+#: pref.cpp:605
+msgid "&Xine"
+msgstr "&Xine"
+
+#: pref.cpp:617
+msgid ""
+"Sets video driver. Recommended is XVideo, or, if it is not supported, X11, "
+"which is slower."
+msgstr "设定视频驱动。推荐 XVideo，或者 X11(如果前者不被支持的话) (较慢)。"
+
+#: pref.cpp:637
+msgid "Enable use of postprocessing filters"
+msgstr "启用后期处理过滤器"
+
+#: pref.cpp:639
+msgid "Disable use of postprocessing when watching TV/DVD"
+msgstr "观看 电视/DVD 时禁用后期处理"
+
+#: pref.cpp:656
+msgid "Default"
+msgstr "默认"
+
+#: pref.cpp:663
+msgid "Fast"
+msgstr "快速"
+
+#: pref.cpp:686
+msgid "Horizontal deblocking"
+msgstr "水平解块"
+
+#: pref.cpp:687 pref.cpp:706 pref.cpp:726
+msgid "Auto quality"
+msgstr "自动画质"
+
+#: pref.cpp:689 pref.cpp:708 pref.cpp:728
+msgid "Chrominance filtering"
+msgstr "色度过滤"
+
+#: pref.cpp:705
+msgid "Vertical deblocking"
+msgstr "垂直解块"
+
+#: pref.cpp:725
+msgid "Dering filter"
+msgstr "排序过滤器"
+
+#: pref.cpp:745
+msgid "Auto brightness/contrast"
+msgstr "自动亮度/对比度"
+
+#: pref.cpp:746
+msgid "Stretch luminance to full range"
+msgstr "延展至全范围光度"
+
+#: pref.cpp:755
+msgid "Temporal noise reducer"
+msgstr "临时降噪器："
+
+#: pref.cpp:781
+msgid "Linear blend deinterlacer"
+msgstr "线型混合隔/逐行扫描转换器"
+
+#: pref.cpp:782
+msgid "Linear interpolating deinterlacer"
+msgstr "线型插值隔/逐行扫描转换器"
+
+#: pref.cpp:783
+msgid "Cubic interpolating deinterlacer"
+msgstr "三次方插值隔/逐行扫描转换器"
+
+#: pref.cpp:784
+msgid "Median deinterlacer"
+msgstr "中值隔/逐行扫描转换器"
+
+#: pref.cpp:785
+msgid "FFmpeg deinterlacer"
+msgstr "FFmpeg 隔/逐行扫描转换器"
+
+#: pref.cpp:810
+msgid "Enable mplayer's default postprocessing filters"
+msgstr "启用 mplayer 默认后期处理过滤器"
+
+#: pref.cpp:811
+msgid "Enable custom postprocessing filters (See: Custom preset -tab)"
+msgstr "启用定制的后期处理过滤器(参见：Custom preset -tab)"
+
+#: pref.cpp:812
+msgid "Enable mplayer's fast postprocessing filters"
+msgstr "启用 mplayer 快速后期处理过滤器"
+
+#: pref.cpp:815 pref.cpp:816 pref.cpp:817
+msgid "Filter is used if there is enough CPU"
+msgstr "CPU 资源充足时使用过滤器"
+
+#: pref.cpp:819
+msgid "Stretches luminance to full range (0..255)"
+msgstr "延展至全范围光度(0..255)"
+
+#: pref.cpp:820
+msgid "Custom Preset"
+msgstr "定制预设"
+
+#: pref.cpp:822
+msgid "Deinterlacing"
+msgstr "隔/逐行扫描转换"
+
+#: pref.cpp:828
+msgid "Reset Settings?"
+msgstr "重置设置？"
+
+#: pref.cpp:829
+msgid ""
+"You are about to have all your settings overwritten with defaults.\n"
+"Please confirm.\n"
+msgstr ""
+"您的设定将会被默认值覆盖。\n"
+"请确认。\n"
+
+#: pref.cpp:830
+msgid "&OK"
+msgstr "确定(&O)"
+
+#: pref.cpp:830
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#~ msgid "Url - "
+#~ msgstr "Url - "
+
+#~ msgid "&Titles"
+#~ msgstr "标题(&T)"
+
+#~ msgid "&Chapters"
+#~ msgstr "段落(&C)"
+
+#~ msgid "DVD language pattern"
+#~ msgstr "DVD 语言模式"
+
+#~ msgid "DVD subtitle pattern"
+#~ msgstr "DVD 字幕模式"
+
+#~ msgid "DVD titles pattern"
+#~ msgstr "DVD 标题模式"
+
+#~ msgid "DVD chapters pattern"
+#~ msgstr "DVD 段落模式"
+
+#~ msgid "DVD Navigation..."
+#~ msgstr "DVD 导航..."
+
+#~ msgid "DVDNav"
+#~ msgstr "DVDNav"
+
+#~ msgid "&Previous"
+#~ msgstr "上一段(&P)"
+
+#~ msgid "&Next"
+#~ msgstr "下一段(&N)"
+
+#~ msgid "&Root"
+#~ msgstr "根目录(&R)"
+
+#~ msgid "&Up"
+#~ msgstr "向上(&U)"
+
+#~ msgid "Audio &Language"
+#~ msgstr "配音语言(&L)"
+
+#~ msgid "&SubTitles"
+#~ msgstr "字幕(&S)"

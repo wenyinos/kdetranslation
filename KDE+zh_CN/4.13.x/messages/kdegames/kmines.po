@@ -1,0 +1,193 @@
+# translation of kmines.po to 简体中文
+# Copyright (C) 2002,2003, 2008 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
+# Funda Wang <fundawang@en2china.com>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmines\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-13 01:30+0000\n"
+"PO-Revision-Date: 2010-11-10 14:27+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.1\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: customgame.ui:16
+msgid "Width:"
+msgstr "宽度："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: customgame.ui:26
+msgid "Height:"
+msgstr "高度："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: customgame.ui:36
+msgid "Mines:"
+msgstr "地雷数："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseQuestionMarks)
+#: generalopts.ui:16
+msgid "Use '?' marks"
+msgstr "使用“?”标记"
+
+#. i18n: ectx: label, entry (UseQuestionMarks), group (General)
+#: kmines.kcfg:9
+msgid "Whether the \"unsure\" marker may be used."
+msgstr "是否使用“不确定”标记。"
+
+#. i18n: ectx: label, entry (CustomWidth), group (Options)
+#: kmines.kcfg:15
+msgid "The width of the playing field."
+msgstr "雷区的宽度。"
+
+#. i18n: ectx: label, entry (CustomHeight), group (Options)
+#: kmines.kcfg:21
+msgid "The height of the playing field."
+msgstr "雷区的高度。"
+
+#. i18n: ectx: label, entry (CustomMines), group (Options)
+#: kmines.kcfg:27
+msgid "The number of mines in the playing field."
+msgstr "雷区中的地雷数量。"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kminesui.rc:12
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: main.cpp:29
+msgid "KMines is a classic minesweeper game"
+msgstr "KMines 是个经典的扫雷游戏"
+
+#: main.cpp:33
+msgid "KMines"
+msgstr "KMines"
+
+#: main.cpp:36
+msgid "Nicolas Hadacek"
+msgstr "Nicolas Hadacek"
+
+#: main.cpp:37
+msgid "Original author"
+msgstr "原始作者"
+
+#: main.cpp:38
+msgid "Mauricio Piacentini"
+msgstr "Mauricio Piacentini"
+
+#: main.cpp:39
+msgid "Code refactoring and SVG support. Current maintainer"
+msgstr "代码重构和 SVG 支持。当前维护者"
+
+#: main.cpp:41
+msgid "Dmitry Suzdalev"
+msgstr "Dmitry Suzdalev"
+
+#: main.cpp:42
+msgid "Rewrite to use QGraphicsView framework. Current maintainer"
+msgstr "重写以便使用 QGraphicsView 框架。当前维护者"
+
+#: main.cpp:44
+msgid "Andreas Zehender"
+msgstr "Andreas Zehender"
+
+#: main.cpp:44
+msgid "Smiley pixmaps"
+msgstr "笑脸位图"
+
+#: main.cpp:45
+msgid "Mikhail Kourinny"
+msgstr "Mikhail Kourinny"
+
+#: main.cpp:45
+msgid "Solver/Adviser"
+msgstr "解决者/建议者"
+
+#: main.cpp:46
+msgid "Thomas Capricelli"
+msgstr "Thomas Capricelli"
+
+#: main.cpp:46
+msgid "Magic reveal mode"
+msgstr "神奇挖掘模式"
+
+#: main.cpp:47
+msgid "Brian Croom"
+msgstr "Brian Croom"
+
+#: main.cpp:47
+msgid "Port to use KGameRenderer"
+msgstr "移植到 KGameRenderer"
+
+#: mainwindow.cpp:108
+msgid "Mines: 0/0"
+msgstr "地雷：0/0"
+
+#: mainwindow.cpp:109 mainwindow.cpp:175
+msgid "Time: 00:00"
+msgstr "时间：00:00"
+
+#: mainwindow.cpp:129
+msgid "Custom"
+msgstr "自定义"
+
+#: mainwindow.cpp:139
+#, kde-format
+msgid "Mines: %1/%2"
+msgstr "地雷：%1/%2"
+
+#: mainwindow.cpp:205
+#, kde-format
+msgid "Time: %1"
+msgstr "时间：%1"
+
+#: mainwindow.cpp:231
+msgid "General"
+msgstr "常规"
+
+#: mainwindow.cpp:232
+msgid "Theme"
+msgstr "主题"
+
+#: mainwindow.cpp:233
+msgid "Custom Game"
+msgstr "自定义游戏"
+
+#: scene.cpp:108
+msgid "Game is paused."
+msgstr "游戏已暂停。"
+
+#: scene.cpp:116
+msgid "Congratulations! You have won!"
+msgstr "恭喜！你赢了！"
+
+#: scene.cpp:118
+msgid "You have lost."
+msgstr "你挂了。"
+
+#~ msgid "The graphical theme to be used."
+#~ msgstr "要使用的图形主题。"
+
+#~ msgid "The difficulty level."
+#~ msgstr "难度级别。"
+
+#~ msgid "Failed to load \"%1\" theme. Please check your installation."
+#~ msgstr "装入“%1”主题失败。请检查您的安装。"

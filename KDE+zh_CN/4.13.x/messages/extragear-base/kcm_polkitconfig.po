@@ -1,0 +1,99 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Weng Xuetian <wengxt@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-09-12 03:58+0200\n"
+"PO-Revision-Date: 2012-10-06 04:26-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: kcmpolkitconfig.cpp:38
+msgid "Global system policy settings"
+msgstr "全局系统策略设置"
+
+#: kcmpolkitconfig.cpp:39
+msgid ""
+"A configuration for polkit-1 system administrators and policy priorities"
+msgstr "配置 polkit-1 的系统管理员和策略优先级"
+
+#: kcmpolkitconfig.cpp:40
+msgid "(c), 2009 Dario Freddi"
+msgstr "(c)，2009 Dario Freddi"
+
+#: kcmpolkitconfig.cpp:41
+msgid ""
+"From this module, you can configure system administrators and priorities for "
+"the policies defined in the Actions module"
+msgstr "使用此模块，你可以配置系统管理员和在操作模块中定义的策略的优先级。"
+
+#: kcmpolkitconfig.cpp:44
+msgid "Dario Freddi"
+msgstr "Dario Freddi"
+
+#: kcmpolkitconfig.cpp:44
+msgid "Maintainer"
+msgstr "维护者"
+
+#: kcmpolkitconfig.cpp:104
+#, kde-format
+msgid ""
+"The changes will have no effect, since another policy has an higher priority "
+"(%1). Please change the priority of policies defined through this module to "
+"an higher value."
+msgstr ""
+"修改没有效果，因为另一个策略拥有更高的优先级 (%1)。请提高通过此模块定义的策略"
+"的优先级。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: polkitconfig.ui:21
+msgid "System settings"
+msgstr "系统设置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: polkitconfig.ui:63
+msgid "System administrators"
+msgstr "系统管理员"
+
+#. i18n: ectx: property (text), widget (KPushButton, addIdentityButton)
+#: polkitconfig.ui:101
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: polkitconfig.ui:114
+msgid "Configuration priority"
+msgstr "配置优先级"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: polkitconfig.ui:120
+msgid "System configuration priority"
+msgstr "系统配置优先级"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: polkitconfig.ui:134
+msgid "Policy setting priority"
+msgstr "策略设置优先级"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: polkitconfig.ui:148
+msgid ""
+"<i>Please note that 0 is the lowest priority, whereas 99 is the highest.</i>"
+msgstr "<i>请注意 0 是最低优先级，99是最高优先级。</i>"

@@ -1,0 +1,1349 @@
+# translation of klinkstatus.po to 简体中文
+#
+# Mai Haohui <mhh@ricetons.com>, 2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: klinkstatus\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-08-05 01:43+0000\n"
+"PO-Revision-Date: 2010-01-25 15:22+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: actionmanager.cpp:99
+msgid "New Session"
+msgstr "新建会话"
+
+#: actionmanager.cpp:105
+msgid "Open URL..."
+msgstr "打开 URL..."
+
+#: actionmanager.cpp:112
+msgid "Close Session"
+msgstr "关闭会话"
+
+#: actionmanager.cpp:118
+msgid "Download New Stylesheets..."
+msgstr "下载新样式表..."
+
+#: actionmanager.cpp:125
+msgid "Configure KLinkStatus..."
+msgstr "配置 KLinkStatus..."
+
+#: actionmanager.cpp:132
+msgid "About KLinkStatus"
+msgstr "关于 KLinkStatus"
+
+#: actionmanager.cpp:137 actionmanager.cpp:139
+msgid "&Report Bug..."
+msgstr "报告错误(&R)..."
+
+#: actionmanager.cpp:157
+msgid "All..."
+msgstr "全部..."
+
+#: actionmanager.cpp:162
+msgid "Broken..."
+msgstr "断开..."
+
+#: actionmanager.cpp:167
+msgid "Create Site Map..."
+msgstr "创建网站地图..."
+
+#: actionmanager.cpp:176
+msgid "&Follow Last Link"
+msgstr "跟随上一个链接(&F)"
+
+#: actionmanager.cpp:177
+msgid "Follow last Link checked (slower)"
+msgstr "跟随上次检查的链接(较慢)"
+
+#: actionmanager.cpp:186
+msgid "&Hide Search Panel"
+msgstr "隐藏搜索面板(&H)"
+
+#: actionmanager.cpp:193
+msgid "&Reset Search Options"
+msgstr "重置搜索选项(&R)"
+
+#: actionmanager.cpp:198
+msgid "&Disable Updates on Results Table"
+msgstr "禁止结果表格自行更新(&D)"
+
+#: actionmanager.cpp:199
+msgid "Disable Updates on Results Table (faster)"
+msgstr "禁止结果表格自行更新(较快)"
+
+#: actionmanager.cpp:209
+msgid "&Start Search"
+msgstr "开始搜索(&S)"
+
+#: actionmanager.cpp:215
+msgid "&Pause Search"
+msgstr "暂停搜索(&P)"
+
+#: actionmanager.cpp:221
+msgid "St&op Search"
+msgstr "停止搜索(&O)"
+
+#: actionmanager.cpp:227
+msgid "Search in Background"
+msgstr "在后台中搜索"
+
+#: actionmanager.cpp:231
+msgid "Check Links in background and update results when finished (faster)"
+msgstr "在后台检查链接，完成后更新结果(较快)"
+
+#: actionmanager.cpp:234
+msgid "&Broken Links"
+msgstr "断开的链接(&B)"
+
+#: actionmanager.cpp:240
+msgid "&Displayed Links"
+msgstr "显示的链接(&D)"
+
+#: actionmanager.cpp:246
+msgid "&Unreferred Documents..."
+msgstr "未受转向的文档(&D)..."
+
+#: actionmanager.cpp:254
+msgid "&Fix All..."
+msgstr "全部修正(&F)..."
+
+#: actionmanager.cpp:262
+msgid "Check Links"
+msgstr "检查链接"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: actionmanager.cpp:268 ui/unreferreddocumentswidget.ui:120
+msgid "Unreferred Documents"
+msgstr "未受转向的文档"
+
+#: actionmanager.cpp:274
+msgid "Previous View"
+msgstr "上一个视图"
+
+#: actionmanager.cpp:280
+msgid "Next View"
+msgstr "下一个视图"
+
+#: actionmanager.cpp:286
+msgid "Previous Session"
+msgstr "上一个会话"
+
+#: actionmanager.cpp:292
+msgid "Next Session"
+msgstr "下一个会话"
+
+#: actionmanager.cpp:300 actionmanager.cpp:303
+msgid "Change View"
+msgstr "更改视图"
+
+#. i18n: ectx: label, entry, group (pim)
+#: cfg/klinkstatus.kcfg:8
+msgid "Whether to use the system real name and e-mail"
+msgstr "是否使用系统的真实姓名和邮件地址"
+
+#. i18n: ectx: label, entry, group (pim)
+#: cfg/klinkstatus.kcfg:13
+msgid "The name associated to the user"
+msgstr "用户的姓名"
+
+#. i18n: ectx: label, entry, group (pim)
+#: cfg/klinkstatus.kcfg:18
+msgid "The email associated to the user"
+msgstr "用户的邮件地址"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:27
+msgid "Maximum number of entries in the combo url."
+msgstr "组合框 URL 中最多项数。"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:32
+msgid "Maximum number of simultaneous connections."
+msgstr "并发连接的最多项数。"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:37
+msgid "Timeout on getting an URL."
+msgstr "获取 URL 时的超时。"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:42
+msgid "History of combo url."
+msgstr "组合框 URL 历史。"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:46
+msgid "Maximum depth to check."
+msgstr "要检查的最大深度。"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:51
+msgid "Whether to check parent folders."
+msgstr "是否检查父文件夹。"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:56
+msgid "Whether to check external links."
+msgstr "是否检查外部链接。"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:61
+msgid "Whether to remember the check settings like depth, and so on, on exit."
+msgstr "是否在退出时记住检查深度等设置。"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:66
+msgid ""
+"Whether preview prefix in Quanta project is used to set the URL to check."
+msgstr "是否使用 Quanta 项目中的预览前缀来设置要检查的 URL。"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:71 cfg/klinkstatus.kcfg:76
+msgid "Whether to display a tree view or a flat view in the results view."
+msgstr "结果视图中是显示树形视图还是平面视图。"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:81
+msgid ""
+"Whether to automatically adjust the width of the result columns (Not used)."
+msgstr "是否自动调整结果列的宽度(未使用)。"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:86
+msgid ""
+"Whether the viewport of the result view should follow the last link checked."
+msgstr "结果视图是否应跟随上次检查的链接。"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:91
+msgid "Whether to send an User-Agent in HTTP requests."
+msgstr "是否在 HTTP 请求中发送用户代理。"
+
+#. i18n: ectx: label, entry (UserAgent), group (klinkstatus)
+#: cfg/klinkstatus.kcfg:96
+msgid "Defines the HTTP User-Agent to send."
+msgstr "定义要发送的 HTTP 用户代理。"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:100
+msgid ""
+"Whether the user can see if the markup is valid by showing a column with an "
+"icon indicator."
+msgstr "当用户在行列表中查看标记有效性时，是否显示图标提示。"
+
+#. i18n: ectx: label, entry, group (klinkstatus)
+#: cfg/klinkstatus.kcfg:105
+msgid "Available Stylesheets for exporting the results in HTML"
+msgstr "用于 HTML 结果导出的样式表"
+
+#. i18n: ectx: label, entry (PreferedStylesheet), group (klinkstatus)
+#: cfg/klinkstatus.kcfg:110
+msgid "Defines the stylesheet to use when exporting results to HTML"
+msgstr "定义用于将结果导出为 HTML 的样式表"
+
+#. i18n: ectx: label, entry, group (tidy)
+#: cfg/klinkstatus.kcfg:119
+msgid ""
+"This option specifies the number of spaces Tidy uses to indent content, when "
+"indentation is enabled."
+msgstr "当启用缩进时，此选项可指定 Tidy 处理缩进时的空格数量。"
+
+#. i18n: ectx: label, entry, group (tidy)
+#: cfg/klinkstatus.kcfg:124
+msgid "Whether to do line wrapping."
+msgstr "是否自动换行。"
+
+#. i18n: ectx: label, entry, group (tidy)
+#: cfg/klinkstatus.kcfg:129
+msgid ""
+"This option specifies the right margin Tidy uses for line wrapping. Tidy "
+"tries to wrap lines so that they do not exceed this length."
+msgstr ""
+"此选项指定 Tidy 处理自动换行时的右侧页边距。Tidy 会自动尝试换行，以避免内容超"
+"出长度。"
+
+#. i18n: ectx: label, entry, group (tidy)
+#: cfg/klinkstatus.kcfg:134
+msgid ""
+"This option specifies if Tidy should output tag names in upper case. The "
+"default is no, which results in lower case tag names, except for XML input, "
+"where the original case is preserved."
+msgstr ""
+"此选项可指定 Tidy 是否以大写形式输出标签名。默认为否，这将生成小写的标签名。"
+"除 XML 输入以外，结果中的大小写会被原样保留。"
+
+#. i18n: ectx: label, entry, group (tidy)
+#: cfg/klinkstatus.kcfg:139
+msgid ""
+"This option specifies if Tidy should output attribute names in upper case. "
+"The default is no, which results in lower case attribute names, except for "
+"XML input, where the original case is preserved."
+msgstr ""
+"此选项可指定 Tidy 是否以大写形式输出属性名。默认为否，这将生成小写的属性名。"
+"除 XML 输入以外，结果中的大小写会被原样保留。"
+
+#. i18n: ectx: label, entry, group (tidy)
+#: cfg/klinkstatus.kcfg:146
+msgid ""
+"This option specifies the DOCTYPE declaration generated by Tidy. If set to "
+"\"omit\" the output won't contain a DOCTYPE declaration. If set to \"auto"
+"\" (the default) Tidy will use an educated guess based upon the contents of "
+"the document. If set to \"strict\", Tidy will set the DOCTYPE to the strict "
+"DTD. If set to \"loose\", the DOCTYPE is set to the loose (transitional) "
+"DTD. Alternatively, you can supply a string for the formal public identifier "
+"(FPI).\n"
+"            "
+msgstr ""
+"此选项可指定 Tidy 生成的 DOCTYPE 声明。如果设为“omit”，输出中将不包含 "
+"DOCTYPE 声明。如果设为“auto”(默认)，Tidy 将基于文档内容猜测声明类型。如果设"
+"为“strict”，Tidy 会将 DOCTYPE 设为严格的 DTD。如果设为“loose”，DOCTYPE 会被设"
+"为过渡性的宽松 DTD。作为备选，您可以对正式发布标识(FPI)自定义字符串。\n"
+"            "
+
+#. i18n: ectx: label, entry, group (tidy)
+#: cfg/klinkstatus.kcfg:151
+msgid ""
+"This option specifies if Tidy should pretty print output, writing it as well-"
+"formed XML. Any entities not defined in XML 1.0 will be written as numeric "
+"entities to allow them to be parsed by a XML parser. The original case of "
+"tags and attributes will be preserved, regardless of other options."
+msgstr ""
+"此选项可指定是否要 Tidy 生成亮丽的打印输出，并以严格的 XML 格式撰写。任何 "
+"XML 1.0 中未定义的条目都会被写为数值，以便它们能被 XML 解析器识别。原始的标记"
+"和属性仍被保留，不受其它选项影响。"
+
+#. i18n: ectx: label, entry, group (tidy)
+#: cfg/klinkstatus.kcfg:156
+msgid ""
+"This option specifies if Tidy should strip out surplus presentational tags "
+"and attributes replacing them by style rules and structural markup as "
+"appropriate. It works well on the HTML saved by Microsoft Office products."
+msgstr ""
+"此选项可指定 Tidy 是否要剥除 HTML 中的冗余描述标签和属性，并用适当的样式规则"
+"和结构标记替换它们。这对 Microsoft Office 产生的 HTML 文档同样有效。"
+
+#. i18n: ectx: label, entry, group (tidy)
+#: cfg/klinkstatus.kcfg:161
+msgid ""
+"This option specifies the character encoding Tidy uses for both the input "
+"and output."
+msgstr "此选项可指定 Tidy 在输入输出时的字符编码。"
+
+#. i18n: ectx: label, entry, group (Scheduling)
+#: engine/automationconfig.kcfg:8
+msgid "Name of the configuration, e.g. kdewebdev"
+msgstr "配置名称，如 kdewebdev"
+
+#. i18n: ectx: label, entry, group (Scheduling)
+#: engine/automationconfig.kcfg:13
+msgid "Periodicity of the check"
+msgstr "检查周期"
+
+#. i18n: ectx: label, entry, group (Scheduling)
+#: engine/automationconfig.kcfg:18
+msgid "Hour in which the task will be executed"
+msgstr "任务执行周期(小时)"
+
+#. i18n: ectx: label, entry, group (SearchOptions)
+#: engine/automationconfig.kcfg:28
+msgid "URL of the site to check"
+msgstr "要检查站点的 URL"
+
+#. i18n: ectx: label, entry, group (SearchOptions)
+#: engine/automationconfig.kcfg:33
+msgid ""
+"For protocols different than HTTP, specify the root of your files, e.g. '/"
+"var/www'"
+msgstr "对于 HTTP 以外的协议，请指定文件的根路径，如“/var/www”"
+
+#. i18n: ectx: label, entry, group (SearchOptions)
+#: engine/automationconfig.kcfg:38
+msgid "Depth of recursive search, -1 is unlimited"
+msgstr "递归搜索深度，-1 代表无限制"
+
+#. i18n: ectx: label, entry, group (SearchOptions)
+#: engine/automationconfig.kcfg:43
+msgid "Whether to check links in parent folders"
+msgstr "是否检查父文件夹中的链接"
+
+#. i18n: ectx: label, entry, group (SearchOptions)
+#: engine/automationconfig.kcfg:48
+msgid "Whether to check external links"
+msgstr "是否检查外部链接"
+
+#. i18n: ectx: label, entry, group (SearchOptions)
+#: engine/automationconfig.kcfg:53
+msgid "The URLs that match the regexp will not be checked"
+msgstr "符合表达式的 URL 不会被检查"
+
+#. i18n: ectx: label, entry, group (Results)
+#: engine/automationconfig.kcfg:62
+msgid "Whether to include only broken links in the result"
+msgstr "是否在输出结果中只包含断开的链接"
+
+#. i18n: ectx: label, entry, group (Results)
+#: engine/automationconfig.kcfg:67
+msgid "The directory where the results will be saved"
+msgstr "将结果保存到的目录"
+
+#. i18n: ectx: label, entry, group (Results)
+#: engine/automationconfig.kcfg:72
+msgid "The e-mail address to where results will be emailed"
+msgstr "将结果邮寄到的邮箱地址"
+
+#: engine/linkchecker.cpp:216 engine/linkchecker.cpp:235
+#: engine/linkchecker.cpp:439 engine/linkchecker.cpp:462
+#: engine/linkchecker.cpp:622 engine/linkchecker.cpp:696
+#: engine/linkchecker.cpp:729
+msgid "OK"
+msgstr "确定"
+
+#: engine/linkchecker.cpp:455
+msgid "No Content"
+msgstr "无内容(Content 数据)"
+
+#: engine/linkchecker.cpp:523
+msgid "redirection"
+msgstr "重定向"
+
+#: klinkstatus.cpp:79
+msgid ""
+"Could not find the KLinkStatus part; did you configure with '--prefix=/"
+"$KDEDIR' and perform 'make install'?"
+msgstr ""
+"找不到 KLinkStatus 部件；您用了带“--prefix=/$KDEDIR”的 configure 或执行"
+"了“make install”吗？"
+
+#: klinkstatus_part.cpp:52
+msgid "A Link Checker"
+msgstr "一个链接检查器"
+
+#: klinkstatus_part.cpp:134
+msgid "Check"
+msgstr "检查"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: klinkstatus_part.cpp:135 plugins/automation/automationconfigpageui.ui:74
+msgid "Results"
+msgstr "结果"
+
+#: klinkstatus_part.cpp:136
+msgid "Identification"
+msgstr "认证"
+
+#: klinkstatus_part.cpp:138
+msgid "Configure the way KLinkstatus reports itself"
+msgstr "配置 KLinkstatus 报告自身的方式"
+
+#: klinkstatus_part.cpp:139 pim/pimconfigdialog.cpp:50
+#: pim/pimconfigdialog.cpp:51
+msgid "Mail Transport"
+msgstr "邮件传输"
+
+#: klinkstatus_part.cpp:168 main.cpp:37
+msgid "KLinkStatus"
+msgstr "KLinkStatus"
+
+#: klinkstatus_part.cpp:175
+msgid "KLinkStatus Part"
+msgstr "KLinkStatus Part"
+
+#: klinkstatus_part.cpp:177
+msgid "(C) 2004 Paulo Moura Guedes"
+msgstr "(C) 2004 Paulo Moura Guedes"
+
+#: klinkstatus_part.cpp:179 main.cpp:41
+msgid "Paulo Moura Guedes"
+msgstr "Paulo Moura Guedes"
+
+#: klinkstatus_part.cpp:181 main.cpp:43
+msgid "Manuel Menezes de Sequeira"
+msgstr "Manuel Menezes de Sequeira"
+
+#: klinkstatus_part.cpp:182 main.cpp:44
+msgid "Gonçalo Silva"
+msgstr "Gonçalo Silva"
+
+#: klinkstatus_part.cpp:183 main.cpp:45
+msgid "Nuno Monteiro"
+msgstr "Nuno Monteiro"
+
+#: klinkstatus_part.cpp:184 main.cpp:46
+msgid "Eric Laffoon"
+msgstr "Eric Laffoon"
+
+#: klinkstatus_part.cpp:185 main.cpp:47
+msgid "Andras Mantia"
+msgstr "Andras Mantia"
+
+#: klinkstatus_part.cpp:186 main.cpp:48
+msgid "Michal Rudolf"
+msgstr "Michal Rudolf"
+
+#: klinkstatus_part.cpp:187 main.cpp:49
+msgid "Mathieu Kooiman"
+msgstr "Mathieu Kooiman"
+
+#: klinkstatus_part.cpp:188 main.cpp:50
+msgid "Jens Herden"
+msgstr "Jens Herden"
+
+#. i18n: ectx: Menu (file)
+#: klinkstatus_part.rc:5 klinkstatus_shell.rc:5
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (file_export_html)
+#: klinkstatus_part.rc:10
+msgid "Export to HTML"
+msgstr "导出为 HTML"
+
+#. i18n: ectx: Menu (settings)
+#: klinkstatus_part.rc:20
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: Menu (view)
+#: klinkstatus_part.rc:24 klinkstatus_shell.rc:11
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: Menu (search)
+#: klinkstatus_part.rc:32 klinkstatus_shell.rc:15
+msgid "S&earch"
+msgstr "搜索(&E)"
+
+#. i18n: ectx: Menu (recheck)
+#: klinkstatus_part.rc:39 ui/treeview.cpp:376
+msgid "Recheck"
+msgstr "重新检查"
+
+#. i18n: ectx: Menu (validate)
+#: klinkstatus_part.rc:47 klinkstatus_shell.rc:19
+msgid "&Validate"
+msgstr "校验(&V)"
+
+#. i18n: ectx: Menu (manual_validation)
+#: klinkstatus_part.rc:52
+msgid "Manual Fix"
+msgstr "手动修正"
+
+#. i18n: ectx: Menu (window)
+#: klinkstatus_part.rc:59 klinkstatus_shell.rc:27
+msgid "&Window"
+msgstr "窗口(&W)"
+
+#. i18n: ectx: Menu (navigation)
+#: klinkstatus_part.rc:63
+msgid "Navigation"
+msgstr "导航"
+
+#. i18n: ectx: Menu (help)
+#: klinkstatus_part.rc:75
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: ToolBar (linksToolBar)
+#: klinkstatus_part.rc:83
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: Menu (tools)
+#: klinkstatus_shell.rc:23 plugins/automation/klinkstatus_automation.rc:4
+#: plugins/scripting/scripting.rc:4
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#: main.cpp:31
+msgid ""
+"A Link Checker.\n"
+"\n"
+"KLinkStatus belongs to the kdewebdev module from KDE."
+msgstr ""
+"一个连接检查器。\n"
+"\n"
+"KLinkStatus 属于 KDE 的 kdewebdev 模块。"
+
+#: main.cpp:38
+msgid "(C) 2004-2008 Paulo Moura Guedes"
+msgstr "(C) 2004-2008 Paulo Moura Guedes"
+
+#: main.cpp:51
+msgid "Helge Hielscher"
+msgstr "Helge Hielscher"
+
+#: main.cpp:56
+msgid "Document to open"
+msgstr "要打开的文档"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseSystemIdentity)
+#: pim/identitywidgetui.ui:19
+msgid "Use System Identity"
+msgstr "使用系统身份"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: pim/identitywidgetui.ui:34
+msgid "Real name"
+msgstr "真实姓名"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: pim/identitywidgetui.ui:44
+msgid "E-Mail address"
+msgstr "邮件地址"
+
+#: pim/pimconfigdialog.cpp:45
+msgid "Configure PIM information"
+msgstr "配置 PIM 信息"
+
+#: pim/pimconfigdialog.cpp:57 pim/pimconfigdialog.cpp:58
+msgid "User Information"
+msgstr "用户信息"
+
+#: plugins/automation/automationconfigpage.cpp:43
+#, fuzzy
+#| msgid "Hour"
+msgid "Hourly"
+msgstr "小时"
+
+#: plugins/automation/automationconfigpage.cpp:44
+msgid "Daily"
+msgstr ""
+
+#: plugins/automation/automationconfigpage.cpp:45
+msgid "Weekly"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: plugins/automation/automationconfigpageui.ui:31
+msgid "Scheduling"
+msgstr "调度中"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/automation/automationconfigpageui.ui:37
+msgid "Name"
+msgstr "名称"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/automation/automationconfigpageui.ui:47
+msgid "Periodicity"
+msgstr "周期"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/automation/automationconfigpageui.ui:57
+msgid "Hour"
+msgstr "小时"
+
+#. i18n: ectx: property (inputMask), widget (KLineEdit, kcfg_Hour)
+#: plugins/automation/automationconfigpageui.ui:64
+msgid "00:00; "
+msgstr "00:00;"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_BrokenLinksOnly)
+#: plugins/automation/automationconfigpageui.ui:80
+msgid "Show Broken Links Only"
+msgstr "只显示断开的链接"
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: plugins/automation/automationconfigpageui.ui:87
+msgid "Results Folder"
+msgstr "结果文件夹"
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: plugins/automation/automationconfigpageui.ui:97
+msgid "E-Mail Recipient"
+msgstr "邮箱收件人"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: plugins/automation/automationconfigpageui.ui:110
+msgid "Search Options"
+msgstr "搜索选项"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: plugins/automation/automationconfigpageui.ui:116 ui/resultview.cpp:31
+msgid "URL"
+msgstr "URL"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: plugins/automation/automationconfigpageui.ui:126
+msgid "Document Root"
+msgstr "文档根"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: plugins/automation/automationconfigpageui.ui:136
+msgid "Depth"
+msgstr "深度"
+
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, kcfg_Depth)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, spinbox_depth)
+#: plugins/automation/automationconfigpageui.ui:155
+#: ui/sessionwidgetbase.ui:199 ui/settings/configsearchdialog.ui:289
+msgid "Unlimited"
+msgstr "无限制"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckParentFolders)
+#: plugins/automation/automationconfigpageui.ui:168
+msgid "Check Parent Folders"
+msgstr "检查父文件夹"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckExternalLinks)
+#: plugins/automation/automationconfigpageui.ui:175
+msgid "Check External Links"
+msgstr "检查外部链接"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RegularExpression)
+#: plugins/automation/automationconfigpageui.ui:182
+msgid "Do not check Regular Expression"
+msgstr "不检查项的正则表达式："
+
+#: plugins/automation/automationdialog.cpp:61
+msgid "Configure Site check Automation"
+msgstr "配置自动站点检查"
+
+#: plugins/automation/automationdialog.cpp:65
+msgid "New..."
+msgstr "新建..."
+
+#: plugins/automation/automationdialog.cpp:67
+msgid "Remove"
+msgstr "删除"
+
+#: plugins/automation/automationdialog.cpp:98
+msgid "empty"
+msgstr "空"
+
+#: plugins/automation/automationdialog.cpp:133
+#, kde-format
+msgid "Could not delete configuration file %1"
+msgstr "无法删除配置文件 %1"
+
+#: plugins/automation/automationdialog.cpp:153
+msgid "Recurring Check Name"
+msgstr "循环检查名称"
+
+#: plugins/automation/automationpart.cpp:82
+msgid "Schedule Link Checks..."
+msgstr "调度链接检查..."
+
+#: plugins/scripting/scriptingpart.cpp:69
+msgid "Edit Script Actions..."
+msgstr "编辑脚本动作..."
+
+#: plugins/scripting/scriptingpart.cpp:73
+msgid "Reset Script Actions..."
+msgstr "重置脚本动作..."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/scripting/scripts/examples/statistics/statisticsui.ui:18
+msgid "Links Checked"
+msgstr "已检查链接"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: plugins/scripting/scripts/examples/statistics/statisticsui.ui:47
+#: ui/resultview.cpp:32
+msgid "Status"
+msgstr "状态"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/scripting/scripts/examples/statistics/statisticsui.ui:53
+msgid "Good"
+msgstr "完好"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/scripting/scripts/examples/statistics/statisticsui.ui:78
+msgid "Broken"
+msgstr "断链"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: plugins/scripting/scripts/examples/statistics/statisticsui.ui:103
+msgid "Undetermined"
+msgstr "未确认"
+
+#. i18n: tag script attribute text
+#: plugins/scripting/scripts/scripts.rc:6
+#, fuzzy
+#| msgid "Status"
+msgid "Statistics"
+msgstr "状态"
+
+#. i18n: tag script attribute comment
+#: plugins/scripting/scripts/scripts.rc:6
+#, fuzzy
+#| msgid "Status"
+msgid "Statistics Script"
+msgstr "状态"
+
+#: ui/documentrootdialog.cpp:36
+msgid "Choose a Document Root"
+msgstr "选择文档根"
+
+#: ui/documentrootdialog.cpp:46
+msgid ""
+"As you are using a protocol other than HTTP, \n"
+"there is no way to guess where the document root is, \n"
+"in order to resolve relative URLs like the ones started with \"/\".\n"
+"\n"
+"Please specify one:"
+msgstr ""
+"您正要使用一个 HTTP 以外的协议，\n"
+"这样程序将无法猜测文档根目录的位置，\n"
+"但我们需要判断以“/”开头的相对 URL 路径。\n"
+"\n"
+"请手工指定："
+
+#: ui/httppostdialog.cpp:36
+msgid "Login Input"
+msgstr "登录输入"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/httppostwidgetui.ui:20
+msgid "Domain"
+msgstr "域名"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: ui/httppostwidgetui.ui:71
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">URL to send to the HTTP "
+"POST request, e.g. '<span style=\" font-family:'Courier New,courier';\">POST "
+"</span><span style=\" font-family:'Courier New,courier'; font-weight:600;\">/"
+"login/login</span><span style=\" font-family:'Courier New,courier';\"> "
+"HTTP/1.1</span>'. Should be the same as the action attribute in the form "
+"element, e.g.: '<a name=\"line163\"></a><span style=\" font-family:'Courier "
+"New,courier';\">&lt;</span><span style=\" font-family:'Courier New,courier';"
+"\">form action=\"/login/login\"&gt;</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">发送给 HTTP POST 请求的 "
+"URL，例如：'<span style=\" font-family:'Courier New,courier';\">POST </"
+"span><span style=\" font-family:'Courier New,courier'; font-weight:600;\">/"
+"login/login</span><span style=\" font-family:'Courier New,courier';\"> "
+"HTTP/1.1</span>'。这种请求应该和表单元素中相同的动作属性一致，例如：'<a name="
+"\"line163\"></a><span style=\" font-family:'Courier New,courier';\">&lt;</"
+"span><span style=\" font-family:'Courier New,courier';\">form action=\"/"
+"login/login\"&gt;</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/httppostwidgetui.ui:89
+msgid "POST URL"
+msgstr "POST 地址(URL)"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, lineeditPostUrl)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, lineeditPostUrl)
+#: ui/httppostwidgetui.ui:106 ui/httppostwidgetui.ui:113
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">URL to send to the HTTP "
+"POST request, e.g. 'POST <span style=\" font-weight:600;\">/login/login</"
+"span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">发送给 HTTP POST 请求的 "
+"URL，例如：POST <span style=\" font-weight:600;\">/login/login</span></p></"
+"body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/httppostwidgetui.ui:143
+msgid "POST Data"
+msgstr "POST 数据"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ui/httppostwidgetui.ui:153
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Insert the fields to send "
+"to the POST request. Typically, the keys are <span style=\" font-weight:600;"
+"\">user</span>, <span style=\" font-weight:600;\">password</span> and <span "
+"style=\" font-weight:600;\">button</span> 'name' attributes in the <span "
+"style=\" font-weight:600;\">input</span> elements inside the form "
+"definition</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">插入用于发送给 POST 请求的"
+"字段。这类字段的键值通常是：<span style=\" font-weight:600;\">user</span>、"
+"<span style=\" font-weight:600;\">password</span>，以及<span style=\" font-"
+"weight:600;\">button</span>。还有<span style=\" font-weight:600;\">input</"
+"span>表单元素里的“name”属性等</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidgetPostData)
+#: ui/httppostwidgetui.ui:179 ui/httppostwidgetui.ui:260
+msgid "Key"
+msgstr "键"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidgetPostData)
+#: ui/httppostwidgetui.ui:206 ui/httppostwidgetui.ui:265
+msgid "Value"
+msgstr "值"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonAdd)
+#: ui/httppostwidgetui.ui:229
+msgid "Add"
+msgstr "添加"
+
+#: ui/resultssearchbar.cpp:79
+msgid "S&earch:"
+msgstr "搜索(&E)："
+
+#: ui/resultssearchbar.cpp:93
+msgid "Status:"
+msgstr "状态："
+
+#: ui/resultssearchbar.cpp:106
+msgid "All Links"
+msgstr "全部链接"
+
+#: ui/resultssearchbar.cpp:107
+msgid "Good Links"
+msgstr "良好的链接"
+
+#: ui/resultssearchbar.cpp:108
+msgid "Broken Links"
+msgstr "断开的链接"
+
+#: ui/resultssearchbar.cpp:109
+msgid "Malformed Links"
+msgstr "畸形的链接"
+
+#: ui/resultssearchbar.cpp:110
+msgid "Undetermined Links"
+msgstr "未确定的链接"
+
+#: ui/resultssearchbar.cpp:115
+msgid "Clear filter"
+msgstr "清除过滤器"
+
+#: ui/resultssearchbar.cpp:116
+msgid "Enter the terms to filter the result link list"
+msgstr "输入用来过滤结果链接列表的条件"
+
+#: ui/resultssearchbar.cpp:117
+msgid "Choose what kind of link status to show in result list"
+msgstr "选择要在结果列表中显示的链接状态类型"
+
+#: ui/resultview.cpp:33
+msgid "Markup"
+msgstr ""
+
+#: ui/resultview.cpp:34
+msgid "Label"
+msgstr ""
+
+#: ui/resultview.cpp:146
+msgid "Javascript not supported"
+msgstr "不支持 Javascript"
+
+#: ui/sessionwidget.cpp:262 ui/sessionwidget.cpp:427 ui/sessionwidget.cpp:652
+#: ui/sessionwidget.cpp:657 ui/sessionwidget.cpp:663 ui/sessionwidget.cpp:814
+#: ui/sessionwidget.cpp:951
+msgid "Checking..."
+msgstr "正在检查..."
+
+#: ui/sessionwidget.cpp:387
+msgid "Cowardly refusing to check an empty URL."
+msgstr "小心地拒绝检查一个空 URL。"
+
+#: ui/sessionwidget.cpp:428 ui/sessionwidget.cpp:533 ui/sessionwidget.cpp:952
+msgid "Stopped"
+msgstr "已停止"
+
+#. i18n: ectx: property (text), widget (QLabel, progressLabel)
+#. i18n: ectx: property (text), widget (QLabel, textlabel_progressbar)
+#: ui/sessionwidget.cpp:500 ui/sessionwidgetbase.ui:420
+#: ui/unreferreddocumentswidget.cpp:185 ui/unreferreddocumentswidget.cpp:202
+#: ui/unreferreddocumentswidget.ui:153
+msgid "Ready"
+msgstr "就绪"
+
+#: ui/sessionwidget.cpp:520
+#, fuzzy, kde-format
+#| msgid "Finished checking"
+msgid "Finished checking %1"
+msgstr "检查完成"
+
+#: ui/sessionwidget.cpp:560
+msgid "Paused"
+msgstr "暂停"
+
+#: ui/sessionwidget.cpp:653 ui/sessionwidget.cpp:656
+msgid "Adding level..."
+msgstr "添加级别..."
+
+#: ui/sessionwidget.cpp:824
+msgid "Resuming"
+msgstr "恢复中"
+
+#: ui/sessionwidget.cpp:885
+msgid "Export Results as HTML"
+msgstr "结果导出为 HTML"
+
+#: ui/sessionwidget.cpp:910
+msgid "Create XML Site Map"
+msgstr "创建 XML 网站地图"
+
+#: ui/sessionwidget.cpp:927
+msgid ""
+"Use a protocol other than HTTP, e.g. file, ftp, sftp, fish, etc., so the "
+"files can be saved."
+msgstr "请使用 HTTP 以外的可保存文件的协议，如 file、ftp、sftp、fish 等等。"
+
+#: ui/sessionwidget.cpp:940
+#, fuzzy, kde-format
+#| msgid "Checking"
+msgid "Checking %1"
+msgstr "正在检查..."
+
+#: ui/sessionwidget.cpp:968
+#, fuzzy, kde-format
+#| msgid "Done rechecking "
+msgid "Done rechecking %1"
+msgstr "重新检查完成 "
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, searchGroupBox)
+#: ui/sessionwidgetbase.ui:22 ui/unreferreddocumentswidget.ui:19
+msgid "Search"
+msgstr "搜索"
+
+#. i18n: ectx: property (text), widget (QLabel, textlabel_url)
+#: ui/sessionwidgetbase.ui:65
+msgid "URL:"
+msgstr "URL："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBoxLogin)
+#: ui/sessionwidgetbase.ui:129
+msgid "Cookie based authentication, only possible with HTTP based protocol."
+msgstr "基于 Cookie 的验证，只能用于基于 HTTP 的协议。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxLogin)
+#: ui/sessionwidgetbase.ui:132
+msgid "Login"
+msgstr "登录"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2_2)
+#. i18n: ectx: property (text), widget (QLabel, Depth)
+#: ui/sessionwidgetbase.ui:174 ui/settings/configsearchdialog.ui:267
+msgid "Depth:"
+msgstr "深度："
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_subdirs_only)
+#: ui/sessionwidgetbase.ui:224
+msgid "Do &not check parent folders"
+msgstr "不检查父文件夹(&N)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkbox_external_links)
+#: ui/sessionwidgetbase.ui:275
+msgid "Chec&k external links"
+msgstr "检查外部链接(&K)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/sessionwidgetbase.ui:317
+msgid "Do not check regular expression:"
+msgstr "不检查正则表达式："
+
+#. i18n: ectx: property (text), widget (TreeView, tree_view)
+#: ui/sessionwidgetbase.ui:404
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (text), widget (QLabel, label_checked_links)
+#: ui/sessionwidgetbase.ui:449
+msgid "Checked Links:"
+msgstr "已检查链接："
+
+#. i18n: ectx: property (text), widget (KLineEdit, textedit_checked_links)
+#: ui/sessionwidgetbase.ui:483
+msgid "0"
+msgstr "0"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, elapsedTimeLabel)
+#. i18n: ectx: property (toolTip), widget (QLabel, elapsedTimeValueLabel)
+#. i18n: ectx: property (toolTip), widget (QLabel, textlabel_elapsed_time)
+#: ui/sessionwidgetbase.ui:505 ui/unreferreddocumentswidget.ui:208
+#: ui/unreferreddocumentswidget.ui:239
+msgid "hh:mm:ss"
+msgstr "hh:mm:ss.zzz"
+
+#. i18n: ectx: property (text), widget (QLabel, elapsedTimeLabel)
+#. i18n: ectx: property (text), widget (QLabel, textlabel_elapsed_time)
+#: ui/sessionwidgetbase.ui:508 ui/unreferreddocumentswidget.ui:211
+msgid "Elapsed time: "
+msgstr "已过时间："
+
+#. i18n: ectx: property (text), widget (KLineEdit, textedit_elapsed_time_value)
+#: ui/sessionwidgetbase.ui:542
+msgid "00:00:00"
+msgstr "00:00:00"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/settings/configidentificationdialogui.ui:28
+msgid "HTTP Identification"
+msgstr "HTTP 认证"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SendIdentification)
+#: ui/settings/configidentificationdialogui.ui:34
+msgid "Send Identification"
+msgstr "发送认证"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/settings/configidentificationdialogui.ui:67
+msgid "User-Agent"
+msgstr "用户代理"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonDefault)
+#: ui/settings/configidentificationdialogui.ui:93
+msgid "Default"
+msgstr "默认"
+
+#. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup)
+#: ui/settings/configidentificationdialogui.ui:124
+msgid "Identity"
+msgstr "身份"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/settings/configresultsdialog.ui:16
+msgid "View"
+msgstr "视图"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_DisplayTreeView)
+#: ui/settings/configresultsdialog.ui:36
+msgid "Tree"
+msgstr "树型"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_DisplayFlatView)
+#: ui/settings/configresultsdialog.ui:43
+msgid "Flat (faster)"
+msgstr "平坦(较快)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup13_2)
+#: ui/settings/configresultsdialog.ui:68
+msgid "Misc"
+msgstr "杂项"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_FollowLastLinkChecked)
+#: ui/settings/configresultsdialog.ui:80
+msgid "Follow Last Link Checked"
+msgstr "跟随上次检查的链接"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: ui/settings/configresultsdialog.ui:103
+msgid "Export Results"
+msgstr "导出结果"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/settings/configresultsdialog.ui:109
+msgid "Preferred Style Sheet:"
+msgstr "首选样式表："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/settings/configsearchdialog.ui:31
+msgid "Network"
+msgstr "网络"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: ui/settings/configsearchdialog.ui:119
+msgid "Number of simultaneous connections:"
+msgstr "并发连接数："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
+#: ui/settings/configsearchdialog.ui:135
+msgid "Timeout in seconds:"
+msgstr "超时秒数："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: ui/settings/configsearchdialog.ui:148
+msgid "Input"
+msgstr "输入"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckExternalLinks)
+#: ui/settings/configsearchdialog.ui:198
+msgid "Check external links"
+msgstr "检查外部链接"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/settings/configsearchdialog.ui:214
+msgid "Number of items in URL history:"
+msgstr "URL 历史中的项目数："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CheckParentFolders)
+#: ui/settings/configsearchdialog.ui:224
+msgid "Check parent folders"
+msgstr "检查父文件夹"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: ui/settings/configsearchdialog.ui:301
+msgid "Quanta"
+msgstr "Quanta"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_UseQuantaUrlPreviewPrefix)
+#: ui/settings/configsearchdialog.ui:322
+msgid ""
+"Check this one if you want to use Quanta's project preview prefix in the URL "
+"to check"
+msgstr "如果您想要在 URL 中使用 Quanta 的项目预览前缀进行检查，请选中此选项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseQuantaUrlPreviewPrefix)
+#: ui/settings/configsearchdialog.ui:325
+msgid "Use preview prefix"
+msgstr "使用预览前缀"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RememberCheckSettings)
+#: ui/settings/configsearchdialog.ui:338
+msgid "Remember settings when exit"
+msgstr "退出时记住设置"
+
+#: ui/tabwidgetsession.cpp:58
+msgid "Open new tab"
+msgstr "新建标签"
+
+#: ui/tabwidgetsession.cpp:66
+msgid "Close the current tab"
+msgstr "关闭当前标签"
+
+#: ui/tabwidgetsession.cpp:126
+#, fuzzy, kde-format
+#| msgid "Session"
+msgid "Session%1"
+msgstr "会话"
+
+#: ui/trayicon.cpp:47
+msgid "KLinkStatus - Link Checker"
+msgstr "KLinkStatus - 链接检查器"
+
+#: ui/treeview.cpp:347 ui/treeview.cpp:368
+msgid "Invalid URL."
+msgstr "无效的 URL。"
+
+#: ui/treeview.cpp:356
+msgid "ROOT URL."
+msgstr "根 URL。"
+
+#: ui/treeview.cpp:382 ui/treeview.cpp:397
+msgid "Edit Referrer"
+msgstr "编辑转向"
+
+#: ui/treeview.cpp:386
+msgid "All"
+msgstr "全部"
+
+#: ui/treeview.cpp:402
+msgid "Open URL"
+msgstr "打开 URL"
+
+#: ui/treeview.cpp:404
+msgid "Open Referrer URL"
+msgstr "打开来源页面 URL"
+
+#: ui/treeview.cpp:409
+msgid "Copy URL"
+msgstr "复制 URL"
+
+#: ui/treeview.cpp:411
+msgid "Copy Referrer URL"
+msgstr "复制来源页面 URL"
+
+#: ui/treeview.cpp:413
+msgid "Copy Cell Text"
+msgstr "复制单元格文字"
+
+#: ui/unreferreddocumentswidget.cpp:75
+msgid "Delete checked Documents"
+msgstr "删除已检查的文档"
+
+#: ui/unreferreddocumentswidget.cpp:77
+msgid "Delete All Documents"
+msgstr "删除所有文档"
+
+#: ui/unreferreddocumentswidget.cpp:134
+msgid ""
+"Cannot crawl through directories using HTTP.\n"
+"\n"
+"Try using file, ftp, sftp or fish, for example."
+msgstr ""
+"无法使用 HTTP 协议遍历目录。\n"
+"\n"
+"请使用 file、ftp、sftp 或 fish 一类目录 URL。"
+
+#: ui/unreferreddocumentswidget.cpp:145
+msgid "Crawling folders..."
+msgstr "正在遍历文件夹..."
+
+#: ui/unreferreddocumentswidget.cpp:191
+msgid "Matching results..."
+msgstr "正在匹配结果"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, UnreferredDocumentsWidget)
+#: ui/unreferreddocumentswidget.ui:13
+msgid "Unreferred DocumentsWidget"
+msgstr "未受转向的文档部件"
+
+#. i18n: ectx: property (text), widget (QLabel, textlabel_url)
+#: ui/unreferreddocumentswidget.ui:48
+msgid "Base Folder:"
+msgstr "基准文件夹："
+
+#. i18n: ectx: property (clickMessage), widget (KListWidgetSearchLine, documentSearchLine)
+#: ui/unreferreddocumentswidget.ui:132
+msgid "Filter Documents..."
+msgstr "过滤文档..."

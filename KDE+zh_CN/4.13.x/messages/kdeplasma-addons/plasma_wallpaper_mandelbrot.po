@@ -1,0 +1,102 @@
+# translation of plasma_wallpaper_mandelbrot.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_wallpaper_mandelbrot\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:44+0200\n"
+"PO-Revision-Date: 2010-11-10 13:38+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Config)
+#: config.ui:14
+msgid "Color"
+msgstr "颜色"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: config.ui:20
+msgid "&Inside color:"
+msgstr "内部颜色(&I)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: config.ui:68
+msgid "&Frontier color:"
+msgstr "前部颜色(&F)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: config.ui:116
+msgid "&Outside color:"
+msgstr "外部颜色(&O)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: config.ui:164
+msgid "&Quality:"
+msgstr "质量(&Q)："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_quality)
+#: config.ui:180
+msgid "Low"
+msgstr "低"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_quality)
+#: config.ui:185
+msgid "Medium"
+msgstr "中"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_quality)
+#: config.ui:190
+msgid "High"
+msgstr "高"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_quality)
+#: config.ui:195
+msgid "Very high (4x sampling)"
+msgstr "很高(4 倍采样)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_quality)
+#: config.ui:200
+msgid "Highest (16x sampling)"
+msgstr "最高(16 倍采样)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config.ui:223
+msgid "&Lock view:"
+msgstr "锁定视图(&L)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config.ui:271
+msgid ""
+"Use the mouse to navigate through the Mandelbrot set. Note: certain "
+"activities, such as Folder View, do not allow that."
+msgstr ""
+"使用鼠标可导航 Mandelbrot 图集，注意：类似文件夹视图的某些活动 不允许那么做。"
+
+#: mandelbrot.cpp:37
+msgid "Export Mandelbrot image..."
+msgstr "导出 Mandelbrot 图像..."
+
+#: mandelbrot.cpp:38
+msgid "Export Mandelbrot parameters..."
+msgstr "导出 Mandelbrot 参数..."
+
+#: mandelbrot.cpp:39
+msgid "Import Mandelbrot parameters..."
+msgstr "导入 Mandelbrot 参数..."
+
+#: mandelbrot.cpp:503
+msgid "PNG images"
+msgstr "PNG 图像"
+
+#: mandelbrot.cpp:520 mandelbrot.cpp:535
+msgid "Text files"
+msgstr "文本文件"

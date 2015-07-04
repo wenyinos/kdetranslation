@@ -1,0 +1,248 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Feng Chao <rainofchaos@gmail.com>, 2010, 2011.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Weng Xuetian <wengxt@gmail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-08-21 01:41+0000\n"
+"PO-Revision-Date: 2012-12-12 11:05-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: datetime_parser.cpp:27
+#, kde-format
+msgctxt "In number of minutes phrase (may contain regexp symbols)"
+msgid "in %1 minutes (after)?"
+msgstr "%1 分钟后？"
+
+#: datetime_parser.cpp:28
+#, kde-format
+msgctxt "In number of hours phrase (may contain regexp symbols)"
+msgid "in %1 hours (after)?"
+msgstr "%1 小时后？"
+
+#: datetime_parser.cpp:29
+#, kde-format
+msgctxt "In number of days phrase (may contain regexp symbols)"
+msgid "in %1 days (after)?"
+msgstr "%1 天后？"
+
+#: datetime_parser.cpp:30
+#, kde-format
+msgctxt "In number of weeks phrase (may contain regexp symbols)"
+msgid "in %1 weeks (after)?"
+msgstr "%1 星期后？"
+
+#: datetime_parser.cpp:31
+#, kde-format
+msgctxt "In number of months phrase (may contain regexp symbols)"
+msgid "in %1 months (after)?"
+msgstr "%1 个月后？"
+
+#: datetime_parser.cpp:32
+#, kde-format
+msgctxt "In number of years phrase (may contain regexp symbols)"
+msgid "in %1 years (after)?"
+msgstr "%1 年后？"
+
+#: datetime_parser.cpp:35
+msgctxt "Current time keyword"
+msgid "now"
+msgstr "现在"
+
+#: datetime_parser.cpp:36
+msgctxt "Current day keyword"
+msgid "today"
+msgstr "今天"
+
+#: datetime_parser.cpp:37
+msgctxt "Next day keyword"
+msgid "tomorrow"
+msgstr "明天"
+
+#: datetime_parser.cpp:38
+msgctxt "Previous day keyword"
+msgid "yesterday"
+msgstr "昨天"
+
+#: datetime_parser.cpp:40
+msgctxt "Keyword for start datetime"
+msgid "from"
+msgstr "从"
+
+#: datetime_parser.cpp:41
+msgctxt "Keyword for finish datetime"
+msgid "to"
+msgstr "到"
+
+#: events.cpp:47
+msgctxt "Event creation keyword"
+msgid "event"
+msgstr "事件"
+
+#: events.cpp:48
+msgctxt "Todo creation keyword"
+msgid "todo"
+msgstr "待办事项"
+
+#: events.cpp:49
+msgctxt "Todo completion keyword"
+msgid "complete"
+msgstr "完成"
+
+#: events.cpp:50
+msgctxt "Event comment keyword"
+msgid "comment"
+msgstr "注释"
+
+#: events.cpp:51
+msgctxt "Event list keyword"
+msgid "events"
+msgstr "事件"
+
+#: events.cpp:52
+msgctxt "Todo list keyword"
+msgid "todos"
+msgstr "待办事项"
+
+#: events.cpp:207
+msgid ""
+"Creates event in calendar by its description in :q:, which consists of parts "
+"divided by semicolons. The first two parts (both obligatory) are the event "
+"summary and its start date. The third, optional, is list of event "
+"categories, divided by commas."
+msgstr ""
+"按描述 :q: 在日历中创建事件，每项内容用分号隔开。前两项(必须)是事件的概要和开"
+"始日期。第三项是可选的，包括用逗号隔开的事件分类。"
+
+#: events.cpp:208
+msgid "event description"
+msgstr "事件描述"
+
+#: events.cpp:211
+msgid ""
+"Creates todo in calendar by its description in :q:, which consists of parts "
+"divided by semicolons. The first two parts (both obligatory) are a summary "
+"of the todo, and its due date. The third, optional, is list of todo "
+"categories, divided by commas."
+msgstr ""
+"按描述 :q: 在日历中创建待办事宜，每项内容用分号隔开。前两项(必须)是待办事宜的"
+"概要和日期。第三项是可选的，包括用逗号隔开的待办事宜分类。"
+
+#: events.cpp:212
+msgid "todo description"
+msgstr "待办事项描述"
+
+#: events.cpp:215
+msgid ""
+"Selects todo from calendar by its summary in :q: and marks it as completed."
+msgstr "按 :q: 在概要选择日历中的待办事宜并标记为已完成。"
+
+#: events.cpp:216
+msgctxt "The command syntax description for complete"
+msgid "complete todo description"
+msgstr "已完成待办事项的描述"
+
+#: events.cpp:219
+msgid ""
+"Selects event from calendar by its summary in :q: and append <comment> to "
+"its body."
+msgstr "按 :q: 在概要选择日历中的事件并附加 <注释> 到事件。"
+
+#: events.cpp:220
+msgctxt "The command syntax description for comment"
+msgid "comment todo description"
+msgstr "注释待办事项的描述"
+
+#: events.cpp:223
+msgid "Shows events from calendar by its date in :q:."
+msgstr "按 :q: 的日期显示日历中的事件。"
+
+#: events.cpp:224
+msgctxt "The command syntax description for event"
+msgid "event date/time"
+msgstr "事件日期/时间"
+
+#: events.cpp:227
+msgid "Shows todos from calendar by its date in :q:."
+msgstr "按 :q: 的日期显示日历中的待办事宜。"
+
+#: events.cpp:228
+msgctxt "The command syntax description for todo"
+msgid "todo date/time"
+msgstr "待办事项日期/时间"
+
+#: events.cpp:269
+#, kde-format
+msgctxt "%1 is the summary of event, %2 is the start time of event"
+msgid "Create event \"%1\" at %2"
+msgstr "创建发生于 %2 的事件“%1”"
+
+#: events.cpp:271
+#, kde-format
+msgctxt ""
+"%1 is the summary of event, %2 is the start time of event, %3 is the end "
+"time of event"
+msgid "Create event \"%1\" from %2 to %3"
+msgstr "创建发生于 %2 到 %3 的事件“%1”"
+
+#: events.cpp:276
+#, kde-format
+msgctxt "%1 is the summary of todo, %2 is the due time of todo"
+msgid "Create todo \"%1\" due to %2"
+msgstr "创建到期于 %2 的待办事项“%1”"
+
+#: events.cpp:278
+#, kde-format
+msgctxt ""
+"%1 is the summary of todo, %2 is the start time of todo, %3 is the due time "
+"of todo"
+msgid "Create todo \"%1\" due to %3 starting at %2"
+msgstr "创建开始自 %2 到期于 %3 的待办事项“%1”"
+
+#: events.cpp:290
+#, kde-format
+msgid "Categories: %1"
+msgstr "类别：%1"
+
+#: events.cpp:313
+#, kde-format
+msgctxt "The todo is complete"
+msgid "Complete todo \"%1\""
+msgstr "完成待办事项“%1”"
+
+#: events.cpp:314 events.cpp:327 events.cpp:329 events.cpp:361 events.cpp:373
+#: events.cpp:375
+#, kde-format
+msgid "Date: %1"
+msgstr "日期：%1"
+
+#: events.cpp:324
+#, kde-format
+msgid "Comment incidence \"%1\""
+msgstr "注释事件“%1”"
+
+#. i18n: ectx: property (title), widget (QGroupBox, akonadiGroup)
+#: events_config.ui:17
+msgid "Akonadi collections"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, eventCollectionLabel)
+#: events_config.ui:33
+msgid "Insert events into:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, todoCollectionLabel)
+#: events_config.ui:43
+msgid "Insert tasks into:"
+msgstr ""

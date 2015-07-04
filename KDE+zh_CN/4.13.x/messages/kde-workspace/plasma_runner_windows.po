@@ -1,0 +1,177 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Lie Ex <lilith.ex@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-08-02 05:39+0200\n"
+"PO-Revision-Date: 2010-01-11 14:24+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: windowsrunner.cpp:40
+msgid ""
+"Finds windows whose name, window class or window role match :q:. It is "
+"possible to interact with the windows by using one of the following "
+"keywords: activate, close, min(imize), max(imize), fullscreen, shade, keep "
+"above and keep below."
+msgstr ""
+"查找名称、窗口分类或窗口角色符合 :q: 的窗口。您可以将以下关键词用于窗口交互："
+"活动、关闭、最小化、最大化、全屏、阴影、置于顶端、置于底端。"
+
+#: windowsrunner.cpp:43
+msgid ""
+"Finds windows which are on desktop named :q: It is possible to interact with "
+"the windows by using one of the following keywords: activate, close, min"
+"(imize), max(imize), fullscreen, shade, keep above and keep below."
+msgstr ""
+"查找名为 :q: 的桌面上的窗口。您可以将以下关键词用于窗口交互：活动、关闭、最小"
+"化、最大化、全屏、阴影、置于顶端、置于底端。"
+
+#: windowsrunner.cpp:46
+msgid "Switch to desktop named :q:"
+msgstr "切换到桌面 :q:"
+
+#: windowsrunner.cpp:47 windowsrunner.cpp:163
+msgctxt "Note this is a KRunner keyword"
+msgid "window"
+msgstr "窗口"
+
+#: windowsrunner.cpp:48
+msgid ""
+"Lists all windows and allows to activate them. With name=, class=, role= and "
+"desktop= the list can be reduced to windows matching these restrictions. It "
+"is possible to interact with the windows by using one of the following "
+"keywords: activate, close, min(imize), max(imize), fullscreen, shade, keep "
+"above and keep below."
+msgstr ""
+"列出所有窗口供用户激活。您可使用“名称=”、“分类=”、“角色=”和“桌面=”等条件来过"
+"滤窗口，以下关键词能被用于窗口交互：活动、关闭、最小化、最大化、全屏、阴影、"
+"置于顶端、置于底端。"
+
+#: windowsrunner.cpp:53 windowsrunner.cpp:179 windowsrunner.cpp:241
+msgctxt "Note this is a KRunner keyword"
+msgid "desktop"
+msgstr "桌面"
+
+#: windowsrunner.cpp:54
+msgid "Lists all other desktops and allows to switch to them."
+msgstr "列出所有其它桌面以供切换。"
+
+#: windowsrunner.cpp:129 windowsrunner.cpp:131
+msgctxt "Note this is a KRunner keyword"
+msgid "activate"
+msgstr "活动"
+
+#: windowsrunner.cpp:132 windowsrunner.cpp:134
+msgctxt "Note this is a KRunner keyword"
+msgid "close"
+msgstr "关闭"
+
+#: windowsrunner.cpp:135 windowsrunner.cpp:137
+msgctxt "Note this is a KRunner keyword"
+msgid "min"
+msgstr "最小"
+
+#: windowsrunner.cpp:138 windowsrunner.cpp:140
+msgctxt "Note this is a KRunner keyword"
+msgid "minimize"
+msgstr "最小化"
+
+#: windowsrunner.cpp:141 windowsrunner.cpp:143
+msgctxt "Note this is a KRunner keyword"
+msgid "max"
+msgstr "最大"
+
+#: windowsrunner.cpp:144 windowsrunner.cpp:146
+msgctxt "Note this is a KRunner keyword"
+msgid "maximize"
+msgstr "最大化"
+
+#: windowsrunner.cpp:147 windowsrunner.cpp:149
+msgctxt "Note this is a KRunner keyword"
+msgid "fullscreen"
+msgstr "全屏"
+
+#: windowsrunner.cpp:150 windowsrunner.cpp:152
+msgctxt "Note this is a KRunner keyword"
+msgid "shade"
+msgstr "阴影"
+
+#: windowsrunner.cpp:153 windowsrunner.cpp:155
+msgctxt "Note this is a KRunner keyword"
+msgid "keep above"
+msgstr "置于顶端"
+
+#: windowsrunner.cpp:156 windowsrunner.cpp:158
+msgctxt "Note this is a KRunner keyword"
+msgid "keep below"
+msgstr "置于底端"
+
+#: windowsrunner.cpp:173
+msgctxt "Note this is a KRunner keyword"
+msgid "name"
+msgstr "名称"
+
+#: windowsrunner.cpp:175
+msgctxt "Note this is a KRunner keyword"
+msgid "class"
+msgstr "分类"
+
+#: windowsrunner.cpp:177
+msgctxt "Note this is a KRunner keyword"
+msgid "role"
+msgstr "角色"
+
+#: windowsrunner.cpp:393
+#, kde-format
+msgid "Switch to desktop %1"
+msgstr "切换到桌面 %1"
+
+#: windowsrunner.cpp:417
+#, kde-format
+msgid "Close running window on %1"
+msgstr "关闭运行于 %1 的窗口"
+
+#: windowsrunner.cpp:420
+#, kde-format
+msgid "(Un)minimize running window on %1"
+msgstr "最小化/恢复运行于 %1 的窗口"
+
+#: windowsrunner.cpp:423
+#, kde-format
+msgid "Maximize/restore running window on %1"
+msgstr "最大化/恢复运行于 %1 的窗口"
+
+#: windowsrunner.cpp:426
+#, kde-format
+msgid "Toggle fullscreen for running window on %1"
+msgstr "对运行于 %1 的窗口切换全屏"
+
+#: windowsrunner.cpp:429
+#, kde-format
+msgid "(Un)shade running window on %1"
+msgstr "阴影/解除阴影化对运行于 %1 的窗口"
+
+#: windowsrunner.cpp:432
+#, kde-format
+msgid "Toggle keep above for running window on %1"
+msgstr "对运行于 %1 的窗口切换"
+
+#: windowsrunner.cpp:435
+#, kde-format
+msgid "Toggle keep below running window on %1"
+msgstr "对运行于 %1 的窗口切换置于底端模式"
+
+#: windowsrunner.cpp:439
+#, kde-format
+msgid "Activate running window on %1"
+msgstr "激活运行于 %1 的窗口"

@@ -1,0 +1,458 @@
+# translation of koffice-defaulttools.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: koffice-defaulttools\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-01 01:26+0000\n"
+"PO-Revision-Date: 2011-11-27 10:55+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: property (text), widget (QCheckBox, toggleEditMode)
+#: connectionTool/ConnectionPointWidget.ui:30
+msgid "Edit Mode"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelEscape)
+#: connectionTool/ConnectionPointWidget.ui:37
+msgid "Escape Direction"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelAlign)
+#: connectionTool/ConnectionPointWidget.ui:97
+msgid "Alignment"
+msgstr "对齐"
+
+#. i18n: ectx: property (text), widget (QToolButton, alignPercent)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, scaleXSpinBox)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, scaleYSpinBox)
+#: connectionTool/ConnectionPointWidget.ui:116
+#: defaulttool/DefaultToolTransformWidget.ui:106
+#: defaulttool/DefaultToolTransformWidget.ui:138
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#: connectionTool/ConnectionTool.cpp:77
+#, fuzzy
+#| msgid "Click to edit connection points."
+msgid "Edit connection points"
+msgstr "点击以编辑连接点。"
+
+#: connectionTool/ConnectionTool.cpp:84
+msgid "Align to left edge"
+msgstr "左边缘对齐"
+
+#: connectionTool/ConnectionTool.cpp:87
+msgid "Align to horizontal center"
+msgstr "水平居中"
+
+#: connectionTool/ConnectionTool.cpp:90
+msgid "Align to right edge"
+msgstr "右边缘对齐"
+
+#: connectionTool/ConnectionTool.cpp:93
+msgid "Align to top edge"
+msgstr "上边缘对齐"
+
+#: connectionTool/ConnectionTool.cpp:96
+msgid "Align to vertical center"
+msgstr "垂直居中"
+
+#: connectionTool/ConnectionTool.cpp:99
+msgid "Align to bottom edge"
+msgstr "下边缘对齐"
+
+#: connectionTool/ConnectionTool.cpp:103
+msgid "Escape in all directions"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:106
+msgid "Escape in horizontal directions"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:109
+msgid "Escape in vertical directions"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:112
+msgid "Escape in left direction"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:115
+msgid "Escape in right direction"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:118
+msgid "Escape in up direction"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:121
+msgid "Escape in down direction"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:761 connectionTool/ConnectionTool.cpp:773
+msgid "Drag to edit connection."
+msgstr "拖拽以编辑连接。"
+
+#: connectionTool/ConnectionTool.cpp:763 connectionTool/ConnectionTool.cpp:775
+msgid "Double click connection or press delete to remove it."
+msgstr "双击连接或按下 delete 删除。"
+
+#: connectionTool/ConnectionTool.cpp:765
+msgid "Click to edit connection points."
+msgstr "点击以编辑连接点。"
+
+#: connectionTool/ConnectionTool.cpp:779
+msgid ""
+"Drag to move connection point. Double click connection or press delete to "
+"remove it."
+msgstr "拖拽以移动连接点。双击连接或按下 delete 删除。"
+
+#: connectionTool/ConnectionTool.cpp:781
+msgid "Double click connection point or press delete to remove it."
+msgstr "双击连接点或按下 delete 删除。"
+
+#: connectionTool/ConnectionTool.cpp:783
+msgid "Double click to add connection point."
+msgstr "双击以添加连接点。"
+
+#: connectionTool/ConnectionTool.cpp:786
+msgid "Drag to create new connection."
+msgstr "拖拽以创建新连接。"
+
+#: connectionTool/ConnectionTool.cpp:814
+msgid "Connection"
+msgstr "连接"
+
+#: connectionTool/ConnectionTool.cpp:819 defaulttool/DefaultTool.cpp:1117
+msgid "Line"
+msgstr ""
+
+#: connectionTool/ConnectionTool.cpp:824
+msgid "Connection Point"
+msgstr "连接点"
+
+#: connectionTool/ConnectionToolFactory.cpp:30
+msgid "Connect shapes"
+msgstr "连接形状"
+
+#: defaulttool/DefaultTool.cpp:214
+msgid "Bring to &Front"
+msgstr "提到最前(&F)"
+
+#: defaulttool/DefaultTool.cpp:219
+msgid "&Raise"
+msgstr "升起(&R)"
+
+#: defaulttool/DefaultTool.cpp:224
+msgid "&Lower"
+msgstr "降低(&L)"
+
+#: defaulttool/DefaultTool.cpp:230
+msgid "Send to &Back"
+msgstr "推到最后(&B)"
+
+#: defaulttool/DefaultTool.cpp:236
+msgid "Align Left"
+msgstr "左对齐"
+
+#: defaulttool/DefaultTool.cpp:241
+msgid "Horizontally Center"
+msgstr "水平居中"
+
+#: defaulttool/DefaultTool.cpp:246
+msgid "Align Right"
+msgstr "右对齐"
+
+#: defaulttool/DefaultTool.cpp:250
+msgid "Align Top"
+msgstr "上对齐"
+
+#: defaulttool/DefaultTool.cpp:255
+msgid "Vertically Center"
+msgstr "垂直居中"
+
+#: defaulttool/DefaultTool.cpp:260
+msgid "Align Bottom"
+msgstr "下对齐"
+
+#: defaulttool/DefaultTool.cpp:265
+msgid "Group"
+msgstr "组合"
+
+#: defaulttool/DefaultTool.cpp:270
+msgid "Ungroup"
+msgstr "拆散"
+
+#: defaulttool/DefaultTool.cpp:438 defaulttool/DefaultTool.cpp:497
+msgid "Click and drag to move guide line."
+msgstr "点击并拖拽以移动辅助线。"
+
+#: defaulttool/DefaultTool.cpp:445
+msgid ""
+"Left click rotates around center, right click around highlighted position."
+msgstr "左键点击绕中心旋转，右键点击绕高亮显示的位置旋转。"
+
+#: defaulttool/DefaultTool.cpp:447
+msgid "Click and drag to shear selection."
+msgstr "点击并拖拽以裁剪选择区。"
+
+#: defaulttool/DefaultTool.cpp:450
+msgid "Click and drag to resize selection."
+msgstr "点击并拖拽以调整选择区大小。"
+
+#: defaulttool/DefaultTool.cpp:485
+msgid "Click and drag to move selection."
+msgstr "点击并拖拽以移动选择区。"
+
+#: defaulttool/DefaultTool.cpp:489
+msgid ""
+"Click and drag to resize selection. Middle click to set highlighted position."
+msgstr "点击并拖拽以调整选择区大小。中键点击设定高亮显示的位置。"
+
+#: defaulttool/DefaultTool.cpp:989
+msgctxt "(qtundo-format)"
+msgid "Group shapes"
+msgstr "组合形状"
+
+#: defaulttool/DefaultTool.cpp:1021
+msgctxt "(qtundo-format)"
+msgid "Ungroup shapes"
+msgstr "拆散形状"
+
+#: defaulttool/DefaultTool.cpp:1111
+msgid "Arrange"
+msgstr "重排"
+
+#: defaulttool/DefaultTool.cpp:1114
+msgid "Geometry"
+msgstr "几何"
+
+#: defaulttool/DefaultTool.cpp:1122
+msgid "Fill"
+msgstr ""
+
+#: defaulttool/DefaultTool.cpp:1127
+msgid "Shadow"
+msgstr ""
+
+#: defaulttool/DefaultToolFactory.cpp:30
+msgid "Shape handling"
+msgstr ""
+
+#: defaulttool/DefaultToolTransformWidget.cpp:107
+#: defaulttool/ShapeRotateStrategy.cpp:146
+msgctxt "(qtundo-format)"
+msgid "Rotate"
+msgstr "旋转"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:140
+msgctxt "(qtundo-format)"
+msgid "Shear X"
+msgstr "裁剪 X"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:173
+msgctxt "(qtundo-format)"
+msgid "Shear Y"
+msgstr "裁剪 Y"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:210
+#: defaulttool/DefaultToolTransformWidget.cpp:242
+msgctxt "(qtundo-format)"
+msgid "Scale"
+msgstr "缩放"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:269
+msgctxt "(qtundo-format)"
+msgid "Reset Transformations"
+msgstr "重置变换"
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rotateSpinBox)
+#: defaulttool/DefaultToolTransformWidget.ui:25
+msgid "°"
+msgstr "°"
+
+#. i18n: ectx: property (text), widget (QPushButton, rotateButton)
+#: defaulttool/DefaultToolTransformWidget.ui:38
+msgid "Rotate"
+msgstr "旋转"
+
+#. i18n: ectx: property (text), widget (QPushButton, shearXButton)
+#: defaulttool/DefaultToolTransformWidget.ui:64
+msgid "Shear X"
+msgstr "裁剪 X"
+
+#. i18n: ectx: property (text), widget (QPushButton, shearYButton)
+#: defaulttool/DefaultToolTransformWidget.ui:90
+msgid "Shear Y"
+msgstr "裁剪 Y"
+
+#. i18n: ectx: property (text), widget (QPushButton, scaleXButton)
+#: defaulttool/DefaultToolTransformWidget.ui:122
+msgid "Scale X"
+msgstr "横向缩放"
+
+#. i18n: ectx: property (text), widget (QPushButton, scaleYButton)
+#: defaulttool/DefaultToolTransformWidget.ui:154
+msgid "Scale Y"
+msgstr "纵向缩放"
+
+#. i18n: ectx: property (text), widget (QCheckBox, scaleAspectCheckBox)
+#: defaulttool/DefaultToolTransformWidget.ui:161
+msgid "Keep aspect ratio"
+msgstr "保持纵横比"
+
+#. i18n: ectx: property (text), widget (QPushButton, resetButton)
+#: defaulttool/DefaultToolTransformWidget.ui:174
+msgid "Reset Transformations"
+msgstr "重置变换"
+
+#: defaulttool/DefaultToolWidget.cpp:228
+#: defaulttool/ShapeResizeStrategy.cpp:277
+msgctxt "(qtundo-format)"
+msgid "Resize"
+msgstr "调整大小"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: defaulttool/DefaultToolWidget.ui:29
+msgid "X:"
+msgstr "X："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: defaulttool/DefaultToolWidget.ui:91
+msgid "Y:"
+msgstr "Y："
+
+#: defaulttool/ShapeMoveStrategy.cpp:55
+msgid "Press ALT to hold x- or y-position."
+msgstr "按下 ALT 维持 x- 或 y- 位置。"
+
+#: defaulttool/ShapeResizeStrategy.cpp:95
+msgid "Press CTRL to resize from center."
+msgstr "按下 CTRL 从中心调整大小。"
+
+#: defaulttool/ShapeRotateStrategy.cpp:60
+msgid "Press ALT to rotate in 45 degree steps."
+msgstr "按下 ALT 以 45 度旋转。"
+
+#: defaulttool/ShapeShearStrategy.cpp:179
+msgctxt "(qtundo-format)"
+msgid "Shear"
+msgstr "裁剪"
+
+#: guidestool/GuidesTool.cpp:146
+msgid "Double click to add guide line."
+msgstr "双击以添加辅助线。"
+
+#: guidestool/GuidesTool.cpp:149
+msgid "Click and drag to move guide line. Double click to remove guide line."
+msgstr "点击并拖拽以移动辅助线。双击以删除辅助线。"
+
+#: guidestool/GuidesTool.cpp:387
+msgid "Guides Editor"
+msgstr ""
+
+#: guidestool/GuidesTool.cpp:395
+msgid "Guides Insertor"
+msgstr ""
+
+#: guidestool/GuidesToolFactory.cpp:27
+msgid "Edit guidelines"
+msgstr "编辑辅助线"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: guidestool/GuidesToolOptionWidget.cpp:31
+#: guidestool/InsertGuidesToolOptionWidget.ui:25
+msgid "Horizontal"
+msgstr "水平"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: guidestool/GuidesToolOptionWidget.cpp:32
+#: guidestool/InsertGuidesToolOptionWidget.ui:68
+msgid "Vertical"
+msgstr "垂直"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: guidestool/GuidesToolOptionWidget.ui:16
+msgid "Orientation:"
+msgstr "方向："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: guidestool/GuidesToolOptionWidget.ui:29
+msgid "Position:"
+msgstr "位置："
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: guidestool/GuidesToolOptionWidget.ui:39
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: guidestool/GuidesToolOptionWidget.ui:46
+msgid "Remove"
+msgstr "删除"
+
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, m_horizontalSpinBox)
+#. i18n: ectx: property (specialValueText), widget (KIntNumInput, m_verticalSpinBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:38
+#: guidestool/InsertGuidesToolOptionWidget.ui:81
+msgid "None"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, m_horizontalSpinBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:47
+msgid "Insert this number of horizontal equally spaced guides."
+msgstr "插入此数量的等间距水平辅助线。"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_horizontalEdgesCheckBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:54
+msgid "Insert guides at the horizontal edges."
+msgstr "在水平边缘插入辅助线。"
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, m_verticalSpinBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:90
+msgid "Insert this number of vertical equally spaced guides."
+msgstr "插入此数量的等间距垂直辅助线。"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, m_verticalEdgesCheckBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:97
+msgid "Insert guides at the vertical edges."
+msgstr "在垂直边缘插入辅助线。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_erasePreviousCheckBox)
+#: guidestool/InsertGuidesToolOptionWidget.ui:111
+#, fuzzy
+#| msgid "Erase previous guides."
+msgid "Erase previous guides"
+msgstr "擦除上一条辅助线。"
+
+#. i18n: ectx: property (text), widget (KPushButton, m_createButton)
+#: guidestool/InsertGuidesToolOptionWidget.ui:118
+msgid "Create"
+msgstr "创建"
+
+#~ msgid "Snapping"
+#~ msgstr "吸附"
+
+#~ msgid "Basic shape manipulation"
+#~ msgstr "基本形状变换"
+
+#~ msgid "Default tool"
+#~ msgstr "默认工具"
+
+#~ msgid "Type:"
+#~ msgstr "类型："
+
+#~ msgid "Standard"
+#~ msgstr "标准"

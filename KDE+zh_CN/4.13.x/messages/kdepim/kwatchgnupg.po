@@ -1,0 +1,213 @@
+# translation of kwatchgnupg.po to
+# Chinese (China) translation for kdepim
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the kdepim package.
+#
+#
+# Lie Ex <lilith.ex@gmail.com>, 2007,2008,2009.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kwatchgnupg\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-19 01:33+0000\n"
+"PO-Revision-Date: 2011-06-06 16:15+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Lie_Ex"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "lilith.ex@gmail.com"
+
+#: aboutdata.cpp:40
+msgid "GnuPG log viewer"
+msgstr "GnuPG 日志查看器"
+
+#: aboutdata.cpp:50
+msgid "Steffen Hansen"
+msgstr "Steffen Hansen"
+
+#: aboutdata.cpp:50
+msgid "Original Author"
+msgstr "原作者"
+
+#: aboutdata.cpp:61
+msgid "KWatchGnuPG"
+msgstr "KWatchGnuPG"
+
+#: aboutdata.cpp:63
+msgid "(c) 2004 Klarälvdalens Datakonsult AB\n"
+msgstr "(c) 2004 Klarälvdalens Datakonsult AB\n"
+
+#: kwatchgnupgconfig.cpp:75
+msgid "Configure KWatchGnuPG"
+msgstr "配置 KWatchGnuPG"
+
+#: kwatchgnupgconfig.cpp:90
+msgid "WatchGnuPG"
+msgstr "WatchGnuPG"
+
+#: kwatchgnupgconfig.cpp:101
+msgid "&Executable:"
+msgstr "可执行程序(&E)："
+
+#: kwatchgnupgconfig.cpp:110
+msgid "&Socket:"
+msgstr "套接字(&S)："
+
+#: kwatchgnupgconfig.cpp:119
+msgid "None"
+msgstr "无"
+
+#: kwatchgnupgconfig.cpp:120
+msgid "Basic"
+msgstr "基本"
+
+#: kwatchgnupgconfig.cpp:121
+msgid "Advanced"
+msgstr "高级"
+
+#: kwatchgnupgconfig.cpp:122
+msgid "Expert"
+msgstr "专家"
+
+#: kwatchgnupgconfig.cpp:123
+msgid "Guru"
+msgstr "权威"
+
+#: kwatchgnupgconfig.cpp:124
+msgid "Default &log level:"
+msgstr "默认日志安全级别(&L)："
+
+#: kwatchgnupgconfig.cpp:132
+msgid "Log Window"
+msgstr "日志窗口"
+
+#: kwatchgnupgconfig.cpp:145
+msgctxt "history size spinbox suffix"
+msgid " line"
+msgid_plural " lines"
+msgstr[0] " 行"
+
+#: kwatchgnupgconfig.cpp:146
+msgid "unlimited"
+msgstr "不限制"
+
+#: kwatchgnupgconfig.cpp:147
+msgid "&History size:"
+msgstr "历史长度(&H)："
+
+#: kwatchgnupgconfig.cpp:151
+msgid "Set &Unlimited"
+msgstr "设为无限制(&U)"
+
+#: kwatchgnupgconfig.cpp:158
+msgid "Enable &word wrapping"
+msgstr "允许自动换行(&W)"
+
+#: kwatchgnupgmainwin.cpp:99
+#, kde-format
+msgid "[%1] Log cleared"
+msgstr "[%1] 日志已清除"
+
+#: kwatchgnupgmainwin.cpp:106
+msgid "C&lear History"
+msgstr "清除历史(&L)"
+
+#: kwatchgnupgmainwin.cpp:137
+#, kde-format
+msgid "[%1] Log stopped"
+msgstr "[%1] 日志已停止"
+
+#: kwatchgnupgmainwin.cpp:152
+msgid ""
+"The watchgnupg logging process could not be started.\n"
+"Please install watchgnupg somewhere in your $PATH.\n"
+"This log window is unable to display any useful information."
+msgstr ""
+"watchgnupg 日志记录进程无法启动。\n"
+"请正确安装 watchgnupg 程序并确保它在 $PATH 中。\n"
+"此日志窗口现在无法显示任何有用的信息。"
+
+#: kwatchgnupgmainwin.cpp:154
+#, kde-format
+msgid "[%1] Log started"
+msgstr "[%1] 日志已启动"
+
+#: kwatchgnupgmainwin.cpp:189
+msgid "There are no components available that support logging."
+msgstr "当前没有可用的支持日志记录的组件。"
+
+#: kwatchgnupgmainwin.cpp:195
+msgid ""
+"The watchgnupg logging process died.\n"
+"Do you want to try to restart it?"
+msgstr ""
+"watchgnupg 日志进程已经僵死。\n"
+"您是否希望尝试重新启动它？"
+
+#: kwatchgnupgmainwin.cpp:195
+msgid "Try Restart"
+msgstr "尝试重新启动"
+
+#: kwatchgnupgmainwin.cpp:195
+msgid "Do Not Try"
+msgstr "什么也不做"
+
+#: kwatchgnupgmainwin.cpp:196
+msgid "====== Restarting logging process ====="
+msgstr "====== 正在重新启动日志进程 ====="
+
+#: kwatchgnupgmainwin.cpp:199
+msgid ""
+"The watchgnupg logging process is not running.\n"
+"This log window is unable to display any useful information."
+msgstr ""
+"watchgnupg 日志进程未在运行。\n"
+"此日志窗口现无法显示任何有用的信息。"
+
+#: kwatchgnupgmainwin.cpp:230
+msgid "Save Log to File"
+msgstr "日志另存为文件"
+
+#: kwatchgnupgmainwin.cpp:235
+#, kde-format
+msgid ""
+"The file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "名为“%1”的文件已经存在，您确定要覆盖它吗？"
+
+#: kwatchgnupgmainwin.cpp:238
+msgid "Overwrite File"
+msgstr "覆盖文件"
+
+#: kwatchgnupgmainwin.cpp:245
+#, kde-format
+msgid "Could not save file %1: %2"
+msgstr "无法保存文件 %1：%2"
+
+#. i18n: ectx: Menu (file)
+#: kwatchgnupgui.rc:4
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kwatchgnupgui.rc:13
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: tray.cpp:57
+msgid "KWatchGnuPG Log Viewer"
+msgstr "KWatchGnuPG 日志查看器"
+
+#~ msgid "Configure KWatchGnuPG..."
+#~ msgstr "配置 KWatchGnuPG..."

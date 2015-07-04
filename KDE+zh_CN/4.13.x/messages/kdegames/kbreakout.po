@@ -1,0 +1,197 @@
+# translation of kbreakout.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the kbreakout package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2010, 2011.
+# Lie_Ex <lilith.ex@gmail.com>, 2008,2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kbreakout\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-15 01:33+0000\n"
+"PO-Revision-Date: 2011-11-27 12:01+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, GeneralSettings)
+#: generalsettings.ui:13
+msgid "General Settings"
+msgstr "常规设置"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: generalsettings.ui:28
+msgid ""
+"Enabling the following option will make the game steal the mouse cursor, "
+"pause the game to get the cursor back."
+msgstr "启用下面的选项会使得本游戏强制夺取鼠标焦点，暂停游戏就可释放鼠标。"
+
+#. i18n: ectx: label, entry (FireOnClick), group (General)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FireOnClick)
+#: generalsettings.ui:38 kbreakout.kcfg:9
+msgid "Fire on mouse click"
+msgstr "用鼠标控制发射"
+
+#: main.cpp:28
+msgid "KBreakOut"
+msgstr "KBreakOut"
+
+#: main.cpp:29
+msgid "A breakout like game for KDE"
+msgstr "KDE 的挡板弹球游戏"
+
+#: main.cpp:31
+msgid "(c) 2007-2008 Fela Winkelmolen"
+msgstr "(c) 2007-2008 Fela Winkelmolen"
+
+#: main.cpp:32
+msgid "Fela Winkelmolen"
+msgstr "Fela Winkelmolen"
+
+#: main.cpp:33
+msgid "original author and maintainer"
+msgstr "原作者及维护者"
+
+#: main.cpp:35
+msgid "Eugene Trounev"
+msgstr "Eugene Trounev"
+
+#: main.cpp:36 main.cpp:39
+msgid "artwork"
+msgstr "美工"
+
+#: main.cpp:38
+msgid "Sean Wilson"
+msgstr "Sean Wilson"
+
+#: main.cpp:41
+msgid "Lorenzo Bonomi"
+msgstr "Lorenzo Bonomi"
+
+#: main.cpp:42
+msgid "testing"
+msgstr "测试"
+
+#: main.cpp:44
+msgid "Brian Croom"
+msgstr "Brian Croom"
+
+#: main.cpp:45
+msgid "port to KGameRenderer"
+msgstr "移植到 KGameRenderer"
+
+#: main.cpp:47
+msgid "Viranch Mehta"
+msgstr ""
+
+#: main.cpp:48
+msgid "port to QtQuick"
+msgstr ""
+
+#: mainwindow.cpp:125
+msgctxt "Key (shortcut) to toggle full screen"
+msgid "F"
+msgstr "F"
+
+#: mainwindow.cpp:130
+msgid "Fire the ball"
+msgstr "弹射"
+
+#: mainwindow.cpp:141
+msgctxt "Key (shortcut) to pause the game"
+msgid "P"
+msgstr "P"
+
+#: mainwindow.cpp:161
+msgid "Theme"
+msgstr "主题"
+
+#: mainwindow.cpp:165
+msgctxt "General settings"
+msgid "General"
+msgstr "常规"
+
+#: mainwindow.cpp:174
+msgid "   Time (hh:mm)"
+msgstr "   时间(小时:秒)"
+
+#: mainwindow.cpp:183
+msgid "Starting a new game will end the current one!"
+msgstr "开始新游戏将结束当前游戏！"
+
+#: mainwindow.cpp:184
+msgid "New Game"
+msgstr "新建游戏"
+
+#: mainwindow.cpp:185
+msgid "Start a New Game"
+msgstr "开始新游戏"
+
+#: mainwindow.cpp:219
+msgid "Game won!"
+msgstr "赢了！"
+
+#: mainwindow.cpp:226
+msgid "Time (hh:mm)"
+msgstr "时间(小时:秒)"
+
+#: mainwindow.cpp:285
+msgid ""
+"Do you want to fire the ball on mouse click?\n"
+"Answering Yes will make the game steal the\n"
+"mouse cursor, pause the game to get\n"
+"the cursor back."
+msgstr ""
+"您想要通过鼠标点击发射弹球吗？\n"
+"如果选择是，会使得本游戏强制夺取鼠标焦点，暂停\n"
+"游戏就可释放鼠标。"
+
+#: mainwindow.cpp:289
+msgid "Fire on click?"
+msgstr "鼠标点击时发射吗？"
+
+#: qml/logic.js:205
+msgid "Well done! You won the game"
+msgstr "干得好！您赢了"
+
+#: qml/logic.js:212 qml/main.qml:154
+msgid "Level %1"
+msgstr "级别 %1"
+
+#: qml/logic.js:333
+msgid "Game Paused!"
+msgstr "游戏已暂停！"
+
+#: qml/logic.js:496
+msgid "Oops! You have lost the ball!"
+msgstr "哎呀！您失去了一次游戏机会！"
+
+#: qml/logic.js:553
+msgid "Game Over!"
+msgstr "游戏结束！"
+
+#: qml/main.qml:124
+msgid "Press %1 to fire the ball"
+msgstr "按下 %1 将球弹射出去"
+
+#~ msgid "The graphical theme to be used."
+#~ msgstr "要使用的图像主题。"
+
+#~ msgid "Failed to load \"%1\" theme. Please check your installation."
+#~ msgstr "装入“%1”主题失败。请检查您的安装。"
+
+#~ msgid "Pause"
+#~ msgstr "暂停"

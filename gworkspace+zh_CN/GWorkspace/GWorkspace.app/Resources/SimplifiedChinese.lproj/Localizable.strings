@@ -1,0 +1,398 @@
+﻿/* ----------------------- menu strings --------------------------- *\
+/* main.m */
+
+"Info" = "信息";
+	"Info Panel..." = "信息面板...";
+	"Preferences..." = "首选项...";
+	"Help..." = "帮助...";
+	"Activate context help" = "激活后台帮助";
+
+"File" = "文件";
+	"Open" = "打开";
+	"Open With..." = "打开方式...";
+	"Open as Folder" = "作为文件夹打开";
+	"Edit File" = "编辑文件";
+	"New Folder" = "新建文件夹";
+	"New File" = "新建空文件";
+	"Duplicate" = "复制";	
+	"Destroy" = "销毁";
+	"Move to Recycler" = "移至回收站";
+	"Empty Recycler" = "清空回收站";
+
+"Edit" = "编辑";
+	"Cut" = "剪切";
+	"Copy" = "复制";
+	"Paste" = "粘贴";
+	"Select All" = "全选";
+		
+"View" = "视图";
+	"Browser" = "浏览器";
+	"Icon" = "图标";
+	"List" = "列表";
+	"Viewer behaviour" = "预览器行为";
+		"Browsing" = "浏览中";
+		"Spatial" = "空间浏览"; //I may have made mistakes here.
+	"Show" = "显示";
+	        "Name only" = "仅文件名";
+		"Type" = "类型";
+		"Size" = "大小";
+		"Modification date" = "修改日期";
+		"Owner" = "所有者";
+	"Icon Size" = "图标大小";
+	"Icon Position" = "图标位置";
+	      	"Up" = "上方"; //Please ensure that it's what it meant to be.
+		"Left" = "左方"; //Same as above.
+	"Label Size" = "标签大小";
+	"Viewer" = "预览器";
+		
+"Tools" = "工具";
+	"Inspectors" = "检索器";
+		"Show Inspectors" = "检索器";
+		"Attributes" = "属性";
+		"Contents" = "内容";
+		"Tools" = "工具";	
+		"Annotations" = "注释";	
+	"Finder" = "Finder"; //No need for translation... I think.
+	"Fiend" = "Fiend"; //Same as the line above.
+		"Show Fiend" = "显示Fiend";
+		"Hide Fiend" = "隐藏Fiend";
+		"Add Layer..." = "添加层级...";
+		"Remove Current Layer" = "移除当前层级";
+		"Rename Current Layer" = "重命名当前层级";
+		"Layers" = "层级";
+	"Tabbed Shelf" = "标签式抽屉";	
+		"Show Tabbed Shelf" = "显示标签式抽屉"; //Too complicated maybe?
+		"Remove Current Tab" = "移除当前标签";
+		"Rename Current Tab" = "重命名当前标签";
+		"Add Tab..." = "添加标签...";
+	"Terminal" = "终端";
+	"Run..." = "启动...";
+	"History" = "历史"; //The history of what?
+		"Show History" = "显示历史";
+		"Go backward" = "后退";
+		"Go forward" = "前进";
+	"Show Desktop" = "显示桌面";
+	"Show Recycler" = "显示回收站";
+	"Check for disks" = "寻找磁盘"; //Or it means "check for errors" maybe?
+	
+"Windows" = "窗口";
+	"Arrange in Front" = "整理前方窗口"; //Or it means "do something in front stage"?
+	"Miniaturize Window" = "微型窗口";
+	"Close Window" = "关闭窗口";
+	
+"Services" = "服务";
+
+"Hide" = "隐藏";
+"Hide Others" = "隐藏其他";
+"Show All" = "全部显示";
+
+"Print..." = "打印...";
+
+"Quit" = "退出";
+	
+"Logout" = "注销";
+	
+	
+/* ----------------------- File Operations strings --------------------------- *\
+
+/* GWorkspace.m */
+
+"GNUstep Workspace Manager" = "GNUstep工作空间管理器";
+"See http://www.gnustep.it/enrico/gworkspace" = "参阅 http://www.gnustep.it/enrico/gworkspace";
+"Released under the GNU General Public License 2.0" = "遵照 GNU公共许可协议2.0 发行";
+"Error" = "错误";
+"You have not write permission\nfor" = "你没有对如下项目的写权限\n"; //Maybe the structure simply don't adapts this string.
+"Continue" = "继续";
+
+"File Viewer" = "文件预览器"; //In fact I hate adding the last character.
+
+"Quit!" = "退出"; //Do we need that exclamation mark?
+"Do you really want to quit?" = "你真的想要退出吗？";
+"Yes" = "是";
+"No" = "否";
+
+"Log out" = "注销";
+"Are you sure you want to quit\nall applications and log out now?" = "你确定希望退出全部运行中的\n应用程序并马上注销？";
+"If you do nothing, the system will log out\nautomatically in" = "如果你不进行任何操作，\n系统将在";
+"seconds." = "秒后自动注销。"; //Structure changes here.
+
+/* FileOperation.m */
+
+"OK" = "好";
+"Cancel" = "取消";
+"Move" = "移动";
+"Move from: " = "从：";
+"\nto: " = "\n至：";
+"Copy" = "复制";
+"Copy from: " = "从：";
+"Link" = "链接";
+"Link " = "链接 ";
+"Delete" = "删除";
+"Delete the selected objects?" = "删除选中的项目？";
+"Duplicate" = "复制";
+"Duplicate the selected objects?" = "复制选中的项目？";
+"From:" = "从：";
+"To:" = "至：";
+"In:" = "位于：";
+"Stop" = "停止";
+"Pause" = "暂停";
+"Moving" = "正在移动";
+"Copying" = "正在复制";
+"Linking" = "正在链接";
+"Duplicating" = "正在复制"; //Isn't it the same as "copy"?!
+"Destroying" = "正在销毁";
+"File Operation Completed" = "文件操作完成";
+"Backgrounder connection died!" = "后台连接断开！"; //Needs consideration.
+"Some items have the same name;\ndo you want to substitute them?" = "一些项目有一样的名字；\n你希望覆盖它们吗？";
+"Error" = "错误";
+"File Operation Error!" = "文件操作错误";
+
+
+/* ColumnIcon.m */
+
+"You have not write permission\nfor " = "你没有对如下项目的写权限 "; //Structure changed!
+"The name " = "名称 ";
+" is already in use!" = " 正在被使用！"; //Rough translation.
+"Cannot rename " = "无法重命名 ";
+"Invalid char in name" = "名称中存在无效字符。";
+
+
+/* ----------------------- Inspectors strings --------------------------- *\
+
+/* InspectorsWin.m */
+
+"Attributes" = "属性";
+"Contents" = "内容";
+"Tools" = "工具";
+"Access Control" = "访问控制";
+
+
+/* AttributesPanel.m */
+
+"Attributes" = "属性";
+"Attributes Inspector" = "属性检索器"; //Started to doubt on translation of "inspector".
+"Path:" = "路径：";
+"Link To:" = "链接到：";
+"Size:" = "大小：";
+"Owner:" = "所有者：";
+"Group:" = "所有组：";
+"Changed" = "已更改";
+"Revert" = "撤销更改";
+"OK" = "好";
+
+
+/* ContentsPanel.m */
+
+"Contents" = "内容";
+"Contents Inspector" = "内容检索器";
+"No Contents Inspector" = "无可用内容检索器";
+"No Contents Inspector\nFor Multiple Selection" = "对于多个选中的文件\n没有可用的内容检索器";
+"error" = "错误";
+"No Contents Inspectors found!" = "没有可用的内容检索器！";
+
+
+/* FolderViewer.m */
+
+"Sort method applies to the\ncontents of the selected folder,\nNOT to its parent folder"
+  = "排列方式仅对于\n当前目录的项目有效，\n对其上级目录无效！";
+"Sort by" = "排列方式";
+"Name" = "名称";
+"Type" = "类型";
+"Date" = "更改日期";
+"Size" = "大小";
+"Owner" = "所有者";
+"Folder Inspector" = "目录检索器";	
+
+
+/* ImageViewer.m */
+
+"Image Inspector" = "图像检索器";
+
+
+/* AppViewer.m */
+
+"Open these kinds of documents:" = "打开这种类型的文档";
+"Invalid Contents" = "无效内容";
+"App Inspector" = "应用检索器";
+
+
+/* PermissionsPanel.m */
+
+"UNIX Permissions" = "UNIX权限";
+"Access Control" = "访问控制";
+"Also apply to files inside selection" = "对选中的文件也生效";
+
+
+/* ToolsPanel.m */
+
+"Tools" = "工具";
+"Tools Inspector" = "工具检索器";
+"No Tools Inspector" = "无可用工具检索器";
+"Set Default" = "设为默认值";
+
+
+/* AppsView.m */
+	
+"Double-click to open selected document(s)" = "双击打开选中的文档";	
+"Default:" = "默认值：";
+"Path:" = "路径：";		
+"Click 'Set Default' to set default application\nfor all documents with this extension" 
+  = "点击'设为默认值'来指定用于打开带有\n这个拓展名的文档的默认程序";
+
+
+/* PermsBox.m */
+
+"Permissions" = "权限";
+"Read" = "读";
+"Write" = "写";
+"Execute" = "执行";
+"Owner" = "所有者";
+"Group" = "所有组";
+"Other" = "其他";
+
+
+/* ----------------------- Processes strings --------------------------- *\
+
+/* Processes.m */
+
+"Processes" = "进程";
+"No Background Process" = "无后台进程";
+"Kill" = "杀死进程"; //Or I should translate as "force quit"?
+"Path: " = "路径：";
+"Status: " = "状态";
+
+
+/* ProcsView.m */
+
+"Applications" = "应用";
+"Background" = "后台";
+
+
+/* ----------------------- Finder strings --------------------------- *\
+
+/* Finder.m */
+
+"Finder" = "Finder";
+"Find items with names that match" = "搜索名称";
+"Find items with contents that match" = "搜索内容";
+"No selection!" = "无选择！"; //Needs double check.
+"No arguments!" = "无参数！"; //Needs double check.
+
+
+/* ----------------------- Fiend strings --------------------------- *\
+
+/* Fiend.m */
+
+"New Layer" = "新层级";
+"A layer with this name is already present!" = "另一个带有同样名称的层级已经存在！";
+"You can't remove the last layer!" = "你不能移除仅有的层级！";
+"Remove layer" = "移除层级";
+"Are you sure that you want to remove this layer?" = "你确定要移除这个层级吗？";
+"Rename Layer" = "重命名层级";
+"You can't dock multiple paths!" = "你不能将多个路径停靠在这里！"; //Double check please.
+"This object is already present in this layer!" = "这个项目已经存在于这个层级！";
+	
+			
+/* ----------------------- Preference strings --------------------------- *\
+
+/* PreferencesWin.m */
+
+"GWorkspace Preferences" = "GWorkspace首选项";
+
+
+/* BackWinPreferences.m */       
+
+"DeskTop Shelf" = "桌面抽屉";	
+"DeskTop Color" = "桌面颜色";
+"red" = "红";
+"green" = "绿";
+"blue" = "蓝"; //Are these RGB paramenters?
+"Set Color" = "设定颜色";
+"Push the \"Set Image\" button\nto set your DeskTop image.\nThe image must have the same\nsize of your screen." = 
+  "按下 \"选择图像\" 按钮\n来设定你喜欢的桌面图像。\n图像尺寸必须和\n你的屏幕同样大！";
+"Set Image" = "设置图像";
+"Unset Image" = "移除图像";
+
+	
+/* XTermPref.m */    
+"Terminal" = "终端"; //It's a terminal emulator or terminal service of a network?
+"Set" = "设置"; //Double check!
+"Use Terminal service" = "使用终端服务";
+"arguments" = "协议"; //Double check please.
+
+	
+/* BrowserViewsPreferences.m */  
+
+"Column Width" = "Column Width";
+"Use Default Settings" = "Use Default Settings";	
+"Browser" = "Browser";
+	
+	
+/* FileWatchingPreferences.m */  
+	
+"File System Watching" = "文件系统监控";
+"timeout" = "超时";
+"frequency" = "频率";
+"Values will apply to the \nnew watchers from now, \nto the existing ones, after the first timeout" = 
+   "设定值将马上被应用于新的监视器，\n而现有的监视器将在超时后应用设置。"; //Is it ok?
+	
+	
+/* ShelfPreferences.m */
+	
+"Shelf" = "抽屉";
+	
+	
+/* DefaultEditor.m */            
+
+"Default Editor" = "默认编辑器";
+"No Default Editor" = "无默认编辑器";
+"Choose..." = "选择...";
+
+/* IconViewsPreferences.m */
+"Icons" = "图标";
+"Thumbnails" = "缩略图";
+"use thumbnails" = "使用缩略图";
+"Title Width" = "标题宽度";
+"Icon View" = "图标视图";
+
+/* HistoryPref.m */
+"History" = "历史";
+"Number of saved paths" = "已保存路径的数量";
+
+/* Recycler strings */
+"Recycle: " = "回收：";
+"Recycler: " = "回收站：";
+"Recycler" = "回收站";
+"the Recycler" = "回收站";
+"\nto the Recycler" = "\n移至回收站"; //Needs check.
+"Move from the Recycler " = "从回收站移出 ";
+"In" = "位于";
+"Empty Recycler" = "清空回收站";
+"Empty the Recycler?" = "确定要清空回收站吗？";
+"Put Away" = "抛弃"; //It's not smooth, seems.
+
+/* DesktopPref.m */
+"Desktop" = "桌面";
+"Background"="背景";
+"General"="基本"; //What?
+
+"center" = "居中";
+"fit" = "保持比例";
+"tile" = "平铺";
+"scale" = "拉伸"; //Really?
+
+"Use image"="使用图像";
+"Choose"="选择";
+
+"Show Dock"="显示面板";
+"Dock position:"="面板位置：";
+
+"Left"="左边";
+"Right"="右边";
+
+"Dock style:"="面板风格";
+
+"Classic"="经典";
+"Modern"="现代";
+
+"Autohide Tabbed Shelf"="自动隐藏标签式抽屉";

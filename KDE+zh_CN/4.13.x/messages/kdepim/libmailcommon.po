@@ -1,0 +1,2356 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-20 01:44+0000\n"
+"PO-Revision-Date: 2013-01-23 16:01-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: collectionpage/collectionexpirypage.cpp:47
+msgctxt "@title:tab Expiry settings for a folder."
+msgid "Expiry"
+msgstr ""
+
+#: collectionpage/collectionexpirypage.cpp:68
+msgid "Expire read messages after"
+msgstr ""
+
+#: collectionpage/collectionexpirypage.cpp:76
+#: collectionpage/collectionexpirypage.cpp:89
+msgctxt "Expire messages after %1"
+msgid " day"
+msgid_plural " days"
+msgstr[0] " 天"
+
+#: collectionpage/collectionexpirypage.cpp:81
+msgid "Expire unread messages after"
+msgstr ""
+
+#: collectionpage/collectionexpirypage.cpp:106
+msgid "Move expired messages to:"
+msgstr ""
+
+#: collectionpage/collectionexpirypage.cpp:118
+msgid "Delete expired messages permanently"
+msgstr ""
+
+#: collectionpage/collectionexpirypage.cpp:125
+msgid "Save Settings and Expire Now"
+msgstr ""
+
+#: collectionpage/collectionexpirypage.cpp:188
+msgid ""
+"Please select a folder to expire messages into.\n"
+"If this is not done, expired messages will be permanently deleted."
+msgstr ""
+
+#: collectionpage/collectionexpirypage.cpp:189
+msgid "No Folder Selected"
+msgstr "未选中文件夹"
+
+#: collectionpage/collectionexpirypage.cpp:197
+msgid ""
+"Please select a different folder than the current folder to expire messages "
+"into.\n"
+"If this is not done, expired messages will be permanently deleted."
+msgstr ""
+
+#: collectionpage/collectionexpirypage.cpp:198
+msgid "Wrong Folder Selected"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:59
+msgctxt "@title:tab General settings for a folder."
+msgid "General"
+msgstr "常规"
+
+#: collectionpage/collectiongeneralpage.cpp:109
+#: collectionpage/collectiongeneralpage.cpp:133
+#: collectionpage/collectiongeneralpage.cpp:191
+msgctxt "type of folder content"
+msgid "Mail"
+msgstr "邮件"
+
+#: collectionpage/collectiongeneralpage.cpp:111
+#: collectionpage/collectiongeneralpage.cpp:136
+#: collectionpage/collectiongeneralpage.cpp:170
+msgctxt "type of folder content"
+msgid "Calendar"
+msgstr "日历"
+
+#: collectionpage/collectiongeneralpage.cpp:113
+#: collectionpage/collectiongeneralpage.cpp:139
+#: collectionpage/collectiongeneralpage.cpp:173
+msgctxt "type of folder content"
+msgid "Contacts"
+msgstr "联系人"
+
+#: collectionpage/collectiongeneralpage.cpp:115
+#: collectionpage/collectiongeneralpage.cpp:142
+#: collectionpage/collectiongeneralpage.cpp:176
+msgctxt "type of folder content"
+msgid "Notes"
+msgstr "便笺"
+
+#: collectionpage/collectiongeneralpage.cpp:117
+#: collectionpage/collectiongeneralpage.cpp:145
+#: collectionpage/collectiongeneralpage.cpp:167
+msgctxt "type of folder content"
+msgid "Tasks"
+msgstr "任务"
+
+#: collectionpage/collectiongeneralpage.cpp:119
+#: collectionpage/collectiongeneralpage.cpp:148
+#: collectionpage/collectiongeneralpage.cpp:179
+msgctxt "type of folder content"
+msgid "Journal"
+msgstr "期刊"
+
+#: collectionpage/collectiongeneralpage.cpp:121
+#: collectionpage/collectiongeneralpage.cpp:151
+#: collectionpage/collectiongeneralpage.cpp:182
+msgctxt "type of folder content"
+msgid "Configuration"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:123
+#: collectionpage/collectiongeneralpage.cpp:154
+#: collectionpage/collectiongeneralpage.cpp:185
+msgctxt "type of folder content"
+msgid "Freebusy"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:125
+#: collectionpage/collectiongeneralpage.cpp:157
+#: collectionpage/collectiongeneralpage.cpp:188
+msgctxt "type of folder content"
+msgid "Files"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:127
+msgctxt "type of folder content"
+msgid "Unknown"
+msgstr "未知"
+
+#: collectionpage/collectiongeneralpage.cpp:268
+msgctxt "@label:textbox Name of the folder."
+msgid "&Name:"
+msgstr "名称(&N)："
+
+#: collectionpage/collectiongeneralpage.cpp:283
+msgid "Act on new/unread mail in this folder"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:285
+msgid ""
+"<qt><p>If this option is enabled then you will be notified about new/unread "
+"mail in this folder. Moreover, going to the next/previous folder with unread "
+"messages will stop at this folder.</p><p>Uncheck this option if you do not "
+"want to be notified about new/unread mail in this folder and if you want "
+"this folder to be skipped when going to the next/previous folder with unread "
+"messages. This is useful for ignoring any new/unread mail in your trash and "
+"spam folder.</p></qt>"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:301
+msgid "Keep replies in this folder"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:303
+msgid ""
+"Check this option if you want replies you write to mails in this folder to "
+"be put in this same folder after sending, instead of in the configured sent-"
+"mail folder."
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:314
+msgid "Hide this folder in the folder selection dialog"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:317
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this option if you do not want this folder to be shown in folder "
+"selection dialogs, such as the <interface>Jump to Folder</interface> dialog."
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:334
+msgid "Use &default identity"
+msgstr "使用默认身份(&D)"
+
+#: collectionpage/collectiongeneralpage.cpp:339
+msgid "&Sender identity:"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:345
+msgid ""
+"Select the sender identity to be used when writing new mail or replying to "
+"mail in this folder. This means that if you are in one of your work folders, "
+"you can make KMail use the corresponding sender email address, signature and "
+"signing or encryption keys automatically. Identities can be set up in the "
+"main configuration dialog. (Settings -> Configure KMail)"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:373
+msgid "&Folder contents:"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:406
+msgid "Generate free/&busy and activate alarms for:"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:412
+msgid "Nobody"
+msgstr "无人"
+
+#: collectionpage/collectiongeneralpage.cpp:413
+msgid "Admins of This Folder"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:414
+msgid "All Readers of This Folder"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:416
+msgid ""
+"This setting defines which users sharing this folder should get \"busy\" "
+"periods in their freebusy lists and should see the alarms for the events or "
+"tasks in this folder. The setting applies to Calendar and Task folders only "
+"(for tasks, this setting is only used for alarms).\n"
+"\n"
+"Example use cases: if the boss shares a folder with his secretary, only the "
+"boss should be marked as busy for his meetings, so he should select \"Admins"
+"\", since the secretary has no admin rights on the folder.\n"
+"On the other hand if a working group shares a Calendar for group meetings, "
+"all readers of the folders should be marked as busy for meetings.\n"
+"A company-wide folder with optional events in it would use \"Nobody\" since "
+"it is not known who will go to those events."
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:438
+msgid "Share unread state with all users"
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:443
+msgid ""
+"If enabled, the unread state of messages in this folder will be the same for "
+"all users having access to this folder. If disabled (the default), every "
+"user with access to this folder has their own unread state."
+msgstr ""
+
+#: collectionpage/collectiongeneralpage.cpp:615
+msgid ""
+"You have configured this folder to contain groupware information. That means "
+"that this folder will disappear once the configuration dialog is closed."
+msgstr ""
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:48
+#: folder/folderrequester.cpp:59 folder/folderrequester.cpp:91
+msgid "Select Folder"
+msgstr "选择文件夹"
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:53
+#, kde-format
+msgid "Folder path was \"%1\"."
+msgstr ""
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:57
+msgid "The following folders can be used for this filter:"
+msgstr ""
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:79
+#: folder/folderrequester.cpp:144 folder/folderrequester.cpp:161
+msgid "Please select a folder"
+msgstr ""
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:81
+#, kde-format
+msgid ""
+"Filter folder is missing. Please select a folder to use with filter \"%1\""
+msgstr ""
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:203
+#, fuzzy
+#| msgid "Select Folder"
+msgid "Select Identity"
+msgstr "选择文件夹"
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:209
+#, kde-format
+msgid ""
+"Filter identity is missing. Please select an identity to use with filter "
+"\"%1\""
+msgstr ""
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:251
+#, fuzzy
+#| msgid "Select Folder"
+msgid "Select Transport"
+msgstr "选择文件夹"
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:257
+#, kde-format
+msgid ""
+"Filter transport is missing. Please select a transport to use with filter "
+"\"%1\""
+msgstr ""
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:299
+#, fuzzy
+#| msgid "Select Filters"
+msgid "Select Template"
+msgstr "选择过滤器"
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:305
+#, kde-format
+msgid ""
+"Filter template is missing. Please select a template to use with filter "
+"\"%1\""
+msgstr ""
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:353
+#, fuzzy
+#| msgid "Select All"
+msgid "Select Account"
+msgstr "全部选中"
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:359
+#, kde-format
+msgid ""
+"Filter account is missing. Please select account to use with filter \"%1\""
+msgstr ""
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:425
+#, fuzzy
+#| msgid "Select Filters"
+msgid "Select Tag"
+msgstr "选择过滤器"
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:428
+#, fuzzy
+#| msgid "Add Tag"
+msgid "Add Tag..."
+msgstr "新加标签"
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:431
+#, kde-format
+msgid "Tag was \"%1\"."
+msgstr ""
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:435
+#, kde-format
+msgid "Filter tag is missing. Please select a tag to use with filter \"%1\""
+msgstr ""
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:505
+#, fuzzy
+#| msgid "Select All"
+msgid "Select sound"
+msgstr "全部选中"
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:508
+#, kde-format
+msgid "Sound file was \"%1\"."
+msgstr ""
+
+#: filter/dialog/filteractionmissingargumentdialog.cpp:512
+#, kde-format
+msgid "Sound file is missing. Please select a sound to use with filter \"%1\""
+msgstr ""
+
+#: filter/dialog/selectthunderbirdfilterfilesdialog.cpp:30
+msgid "Select thunderbird filter files"
+msgstr "选择 thunderbird 过滤器文件"
+
+#: filter/dialog/selectthunderbirdfilterfileswidget.cpp:39
+msgid " (default)"
+msgstr " (默认)"
+
+#: filter/filteraction.cpp:134
+#, kde-format
+msgid "### \"action '%1' not supported\""
+msgstr ""
+
+#: filter/filteractionaddheader.cpp:35
+#, fuzzy
+#| msgid "Add Filter"
+msgid "Add Header"
+msgstr "添加过滤器"
+
+#: filter/filteractionaddheader.cpp:89
+msgid "With value:"
+msgstr ""
+
+#: filter/filteractionaddtag.cpp:37 tag/addtagdialog.cpp:36
+msgid "Add Tag"
+msgstr "新加标签"
+
+#: filter/filteractionaddtoaddressbook.cpp:43
+msgid "Add to Address Book"
+msgstr "添加到地址簿中"
+
+#: filter/filteractionaddtoaddressbook.cpp:44
+msgctxt "Email sender"
+msgid "From"
+msgstr "发件人"
+
+#: filter/filteractionaddtoaddressbook.cpp:45
+msgctxt "Email recipient"
+msgid "To"
+msgstr "收件人"
+
+#: filter/filteractionaddtoaddressbook.cpp:46 search/searchpatternedit.cpp:74
+msgid "CC"
+msgstr "抄送"
+
+#: filter/filteractionaddtoaddressbook.cpp:47
+msgid "BCC"
+msgstr "密送"
+
+#: filter/filteractionaddtoaddressbook.cpp:50
+msgid "KMail Filter"
+msgstr "KMail 过滤器"
+
+#: filter/filteractionaddtoaddressbook.cpp:106
+msgid "with category"
+msgstr ""
+
+#: filter/filteractionaddtoaddressbook.cpp:114
+#, fuzzy
+#| msgid "Add to Address Book"
+msgid "in address book"
+msgstr "添加到地址簿中"
+
+#: filter/filteractionaddtoaddressbook.cpp:122
+msgid ""
+"<p>This defines the preferred address book.<br />If it is not accessible, "
+"the filter will fallback to the default address book.</p>"
+msgstr ""
+
+#: filter/filteractionbeep.cpp:28
+msgid "Beep"
+msgstr "响铃"
+
+#: filter/filteractioncopy.cpp:32
+msgid "Copy Into Folder"
+msgstr ""
+
+#: filter/filteractiondelete.cpp:30
+#, fuzzy
+#| msgctxt "message status"
+#| msgid "Deleted"
+msgid "Delete Message"
+msgstr "已删除"
+
+#: filter/filteractiondelete.cpp:53
+msgid "Be careful, mails will be removed."
+msgstr ""
+
+#: filter/filteractionexec.cpp:27
+msgid "Execute Command"
+msgstr "执行命令"
+
+#: filter/filteractionforward.cpp:47
+#, fuzzy
+#| msgid "Forward To"
+msgctxt "Forward directly not with a command"
+msgid "Forward To"
+msgstr "转发给"
+
+#: filter/filteractionforward.cpp:102
+msgid "The addressee to whom the message will be forwarded."
+msgstr ""
+
+#: filter/filteractionforward.cpp:103
+msgid "The filter will forward the message to the addressee entered here."
+msgstr ""
+
+#: filter/filteractionforward.cpp:109 filter/filteractionforward.cpp:207
+#, fuzzy
+#| msgid "Select Filters"
+msgid "Default Template"
+msgstr "选择过滤器"
+
+#: filter/filteractionforward.cpp:121
+msgid "The template used when forwarding"
+msgstr ""
+
+#: filter/filteractionforward.cpp:122
+msgid "Set the forwarding template that will be used with this filter."
+msgstr ""
+
+#: filter/filteractionforward.cpp:237
+#, kde-format
+msgid "Forward to %1 with default template"
+msgstr ""
+
+#: filter/filteractionforward.cpp:239
+#, kde-format
+msgid "Forward to %1 with template %2"
+msgstr ""
+
+#: filter/filteractionmove.cpp:35
+#, fuzzy
+#| msgid "Select Folder"
+msgid "Move Into Folder"
+msgstr "选择文件夹"
+
+#: filter/filteractionpipethrough.cpp:32
+msgctxt "pipe through with command"
+msgid "Pipe Through"
+msgstr ""
+
+#: filter/filteractionplaysound.cpp:34
+msgid "Play Sound"
+msgstr "播放声音"
+
+#: filter/filteractionredirect.cpp:39
+msgid "Redirect To"
+msgstr ""
+
+#: filter/filteractionremoveheader.cpp:35
+#, fuzzy
+#| msgid "Remove Filter"
+msgid "Remove Header"
+msgstr "删除过滤器"
+
+#: filter/filteractionreplyto.cpp:32
+#, fuzzy
+#| msgid "Reply To"
+msgid "Set Reply-To To"
+msgstr "回复到"
+
+#: filter/filteractionrewriteheader.cpp:40
+msgid "Rewrite Header"
+msgstr ""
+
+#: filter/filteractionrewriteheader.cpp:110
+msgid "Replace:"
+msgstr "替换："
+
+#: filter/filteractionrewriteheader.cpp:118
+msgid "With:"
+msgstr ""
+
+#: filter/filteractionsendfakedisposition.cpp:44
+msgid "Send Fake MDN"
+msgstr "发送伪装 MDN"
+
+#: filter/filteractionsendfakedisposition.cpp:49
+msgctxt "MDN type"
+msgid "Ignore"
+msgstr "忽略"
+
+#: filter/filteractionsendfakedisposition.cpp:50
+msgctxt "MDN type"
+msgid "Displayed"
+msgstr "显示"
+
+#: filter/filteractionsendfakedisposition.cpp:51
+msgctxt "MDN type"
+msgid "Deleted"
+msgstr "已删除"
+
+#: filter/filteractionsendfakedisposition.cpp:52
+msgctxt "MDN type"
+msgid "Dispatched"
+msgstr "已分发"
+
+#: filter/filteractionsendfakedisposition.cpp:53
+msgctxt "MDN type"
+msgid "Processed"
+msgstr "已处理"
+
+#: filter/filteractionsendfakedisposition.cpp:54
+msgctxt "MDN type"
+msgid "Denied"
+msgstr "已拒绝"
+
+#: filter/filteractionsendfakedisposition.cpp:55
+msgctxt "MDN type"
+msgid "Failed"
+msgstr "失败"
+
+#: filter/filteractionsendreceipt.cpp:33
+msgid "Confirm Delivery"
+msgstr ""
+
+#: filter/filteractionsetidentity.cpp:41
+#, fuzzy
+#| msgid "Select Folder"
+msgid "Set Identity To"
+msgstr "选择文件夹"
+
+#: filter/filteractionsetstatus.cpp:32
+msgid "Mark As"
+msgstr "标记为"
+
+#: filter/filteractionsettransport.cpp:51
+#, fuzzy
+#| msgid "Select Folder"
+msgid "Set Transport To"
+msgstr "选择文件夹"
+
+#: filter/filteractionstatus.cpp:46
+msgctxt "msg status"
+msgid "Important"
+msgstr "重要"
+
+#: filter/filteractionstatus.cpp:47
+msgctxt "msg status"
+msgid "Read"
+msgstr "已读"
+
+#: filter/filteractionstatus.cpp:48
+msgctxt "msg status"
+msgid "Unread"
+msgstr "未读"
+
+#: filter/filteractionstatus.cpp:49
+msgctxt "msg status"
+msgid "Replied"
+msgstr "已回复"
+
+#: filter/filteractionstatus.cpp:50
+msgctxt "msg status"
+msgid "Forwarded"
+msgstr "已转发"
+
+#: filter/filteractionstatus.cpp:51
+msgctxt "msg status"
+msgid "Watched"
+msgstr "已监视"
+
+#: filter/filteractionstatus.cpp:52
+msgctxt "msg status"
+msgid "Ignored"
+msgstr "已忽略"
+
+#: filter/filteractionstatus.cpp:53
+msgctxt "msg status"
+msgid "Spam"
+msgstr "垃圾信"
+
+#: filter/filteractionstatus.cpp:54
+msgctxt "msg status"
+msgid "Ham"
+msgstr "有害信"
+
+#: filter/filteractionstatus.cpp:55
+msgctxt "msg status"
+msgid "Action Item"
+msgstr "活动"
+
+#: filter/filteractionunsetstatus.cpp:30
+#, fuzzy
+#| msgid "Message Status"
+msgctxt "action: to unset the status"
+msgid "Unset Status"
+msgstr "信件状态"
+
+#: filter/filteractionwidget.cpp:80
+msgid "Please select an action."
+msgstr ""
+
+#: filter/filtercontroller.cpp:78
+msgid "Add Filter"
+msgstr "添加过滤器"
+
+#: filter/filtercontroller.cpp:97
+msgid "Edit Filter"
+msgstr "编辑过滤器"
+
+#: filter/filtercontroller.cpp:115
+#, kde-format
+msgid "Do you really want to remove filter <b>%1</b>?"
+msgstr ""
+
+#: filter/filtercontroller.cpp:117 filter/kmfilterdialog.cpp:1276
+msgid "Remove Filter"
+msgstr "删除过滤器"
+
+#: filter/filtercontroller.cpp:160
+msgid "Add"
+msgstr "添加"
+
+#: filter/filtercontroller.cpp:161
+msgid "Edit"
+msgstr "编辑"
+
+#: filter/filtercontroller.cpp:162
+msgid "Remove"
+msgstr "删除"
+
+#: filter/filtercontroller.cpp:163
+msgid "Move Up"
+msgstr "上移"
+
+#: filter/filtercontroller.cpp:164
+msgid "Move Down"
+msgstr "下移"
+
+#: filter/filterconverter/filterconverttosieveresultdialog.cpp:37
+msgid "Convert to sieve script"
+msgstr ""
+
+#: filter/filterconverter/filterconverttosieveresultdialog.cpp:39
+#, fuzzy
+#| msgid "Rename..."
+msgid "Save..."
+msgstr "重命名..."
+
+#: filter/filterconverter/filterconverttosieveresultdialog.cpp:64
+msgid ""
+"*.siv|sieve files (*.siv)\n"
+"*|all files (*)"
+msgstr ""
+
+#: filter/filterimporterexporter.cpp:143 filter/kmfilterdialog.cpp:1189
+msgid ""
+"The following filters have not been saved because they were invalid (e.g. "
+"containing no actions or no search rules)."
+msgstr ""
+
+#: filter/filterimporterexporter.cpp:173
+msgid "Import KMail Filters"
+msgstr "导入 KMail 过滤器"
+
+#: filter/filterimporterexporter.cpp:177
+msgid "Import Thunderbird Filters"
+msgstr "导入 Thunderbird 过滤器"
+
+#: filter/filterimporterexporter.cpp:181
+msgid "Import Evolution Filters"
+msgstr "导入 Evolution 过滤器"
+
+#: filter/filterimporterexporter.cpp:185
+msgid "Import Sylpheed Filters"
+msgstr "导入 Sylpheed 过滤器"
+
+#: filter/filterimporterexporter.cpp:189
+msgid "Import Procmail Filters"
+msgstr "导入 Procmail 过滤器"
+
+#: filter/filterimporterexporter.cpp:193
+msgid "Import Balsa Filters"
+msgstr "导入 Balsa 过滤器"
+
+#: filter/filterimporterexporter.cpp:197
+msgid "Import Claws Mail Filters"
+msgstr "导入 Claws Mail 过滤器"
+
+#: filter/filterimporterexporter.cpp:213 filter/filterimporterexporter.cpp:240
+#: filter/filterimporterexporter.cpp:263
+msgid ""
+"The selected file is not readable. Your file access permissions might be "
+"insufficient."
+msgstr ""
+
+#: filter/filterimporterexporter.cpp:343
+msgid "Export Filters"
+msgstr "导出过滤器"
+
+#: filter/filterselectiondialog.cpp:37
+msgid "Select Filters"
+msgstr "选择过滤器"
+
+#: filter/filterselectiondialog.cpp:48 filter/kmfilterdialog.cpp:912
+#: folder/foldertreewidget.cpp:109
+msgctxt "@info/plain Displayed grayed-out inside the textbox, verb to search"
+msgid "Search"
+msgstr "搜索"
+
+#: filter/filterselectiondialog.cpp:58
+msgid "Select All"
+msgstr "全部选中"
+
+#: filter/filterselectiondialog.cpp:60
+msgid "Unselect All"
+msgstr "全部不选"
+
+#: filter/kmfilterdialog.cpp:80
+msgid "Account Name"
+msgstr "账户名称"
+
+#: filter/kmfilterdialog.cpp:80
+msgid "Type"
+msgstr "类型"
+
+#: filter/kmfilterdialog.cpp:215
+msgid ""
+"<qt><p>This is the list of defined filters. They are processed top-to-bottom."
+"</p><p>Click on any filter to edit it using the controls in the right-hand "
+"half of the dialog.</p></qt>"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:222
+msgid ""
+"<qt><p>Click this button to create a new filter.</p><p>The filter will be "
+"inserted just before the currently-selected one, but you can always change "
+"that later on.</p><p>If you have clicked this button accidentally, you can "
+"undo this by clicking on the <em>Delete</em> button.</p></qt>"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:230
+msgid ""
+"<qt><p>Click this button to copy a filter.</p><p>If you have clicked this "
+"button accidentally, you can undo this by clicking on the <em>Delete</em> "
+"button.</p></qt>"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:235
+msgid ""
+"<qt><p>Click this button to <em>delete</em> the currently-selected filter "
+"from the list above.</p><p>There is no way to get the filter back once it is "
+"deleted, but you can always leave the dialog by clicking <em>Cancel</em> to "
+"discard the changes made.</p></qt>"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:243
+msgid ""
+"<qt><p>Click this button to move the currently-selected filter <em>up</em> "
+"one in the list above.</p><p>This is useful since the order of the filters "
+"in the list determines the order in which they are tried on messages: The "
+"topmost filter gets tried first.</p><p>If you have clicked this button "
+"accidentally, you can undo this by clicking on the <em>Down</em> button.</"
+"p></qt>"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:252
+msgid ""
+"<qt><p>Click this button to move the currently-selected filter <em>down</em> "
+"one in the list above.</p><p>This is useful since the order of the filters "
+"in the list determines the order in which they are tried on messages: The "
+"topmost filter gets tried first.</p><p>If you have clicked this button "
+"accidentally, you can undo this by clicking on the <em>Up</em> button.</p></"
+"qt>"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:261
+msgid ""
+"<qt><p>Click this button to move the currently-selected filter to top of "
+"list.</p><p>This is useful since the order of the filters in the list "
+"determines the order in which they are tried on messages: The topmost filter "
+"gets tried first.</p></qt>"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:268
+msgid ""
+"<qt><p>Click this button to move the currently-selected filter to bottom of "
+"list.</p><p>This is useful since the order of the filters in the list "
+"determines the order in which they are tried on messages: The topmost filter "
+"gets tried first.</p></qt>"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:275
+msgid ""
+"<qt><p>Click this button to rename the currently-selected filter.</"
+"p><p>Filters are named automatically, as long as they start with \"&lt;\".</"
+"p><p>If you have renamed a filter accidentally and want automatic naming "
+"back, click this button and select <em>Clear</em> followed by <em>OK</em> in "
+"the appearing dialog.</p></qt>"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:283
+msgid ""
+"<qt><p>Check this button to force the confirmation dialog to be displayed.</"
+"p><p>This is useful if you have defined a ruleset that tags messages to be "
+"downloaded later. Without the possibility to force the dialog popup, these "
+"messages could never be downloaded if no other large messages were waiting "
+"on the server, or if you wanted to change the ruleset to tag the messages "
+"differently.</p></qt>"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:305
+msgid "Filter Rules"
+msgstr "过滤规则"
+
+#: filter/kmfilterdialog.cpp:315
+msgid "Import..."
+msgstr "导入..."
+
+#: filter/kmfilterdialog.cpp:316
+msgid "Export..."
+msgstr "导出..."
+
+#: filter/kmfilterdialog.cpp:317
+msgid "Convert to..."
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:320
+msgid "KMail filters"
+msgstr "KMail 过滤器"
+
+#: filter/kmfilterdialog.cpp:324
+msgid "Thunderbird filters"
+msgstr "Thunderbird 过滤器"
+
+#: filter/kmfilterdialog.cpp:328
+msgid "Evolution filters"
+msgstr "Evolution 过滤器"
+
+#: filter/kmfilterdialog.cpp:332
+msgid "Sylpheed filters"
+msgstr "Sylpheed 过滤器"
+
+#: filter/kmfilterdialog.cpp:336
+msgid "Procmail filters"
+msgstr "Procmail 过滤器"
+
+#: filter/kmfilterdialog.cpp:340
+msgid "Balsa filters"
+msgstr "Balsa 过滤器"
+
+#: filter/kmfilterdialog.cpp:344
+msgid "Claws Mail filters"
+msgstr "Claws Mail 过滤器"
+
+#: filter/kmfilterdialog.cpp:354
+msgid "Sieve script"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:377
+msgid "Available Filters"
+msgstr "可用的过滤器"
+
+#: filter/kmfilterdialog.cpp:383
+msgctxt "General mail filter settings."
+msgid "General"
+msgstr "常规"
+
+#: filter/kmfilterdialog.cpp:389
+msgctxt "Advanced mail filter settings."
+msgid "Advanced"
+msgstr "高级"
+
+#: filter/kmfilterdialog.cpp:399
+msgid "Filter Criteria"
+msgstr "过滤器条件"
+
+#: filter/kmfilterdialog.cpp:408
+msgid "Filter Actions"
+msgstr "过滤器动作"
+
+#: filter/kmfilterdialog.cpp:415
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#: filter/kmfilterdialog.cpp:423
+msgid "Apply this filter to incoming messages:"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:428
+msgid "from all accounts"
+msgstr "来自全部账户"
+
+#: filter/kmfilterdialog.cpp:433
+msgid "from all but online IMAP accounts"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:438
+msgid "from checked accounts only"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:447
+msgid "Apply this filter to &sent messages"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:449
+msgid ""
+"<p>The filter will be triggered <b>after</b> the message is sent and it will "
+"only affect the local copy of the message.</p><p>If the recipient's copy "
+"also needs to be modified, please use \"Apply this filter <b>before</b> "
+"sending messages\".</p>"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:456
+msgid "Apply this filter &before sending messages"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:458
+msgid ""
+"<p>The filter will be triggered <b>before</b> the message is sent and it "
+"will affect both the local copy and the sent copy of the message.</p><p>This "
+"is required if the recipient's copy also needs to be modified.</p>"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:465
+msgid "Apply this filter on manual &filtering"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:469
+msgid "If this filter &matches, stop processing here"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:473
+msgid "Add this filter to the Apply Filter menu"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:476
+msgid "Shortcut:"
+msgstr "快捷键："
+
+#: filter/kmfilterdialog.cpp:488
+msgid "Additionally add this filter to the toolbar"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:493
+msgid "Icon for this filter:"
+msgstr "过滤器的图标："
+
+#: filter/kmfilterdialog.cpp:510
+msgid "Run selected filter(s) on: "
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:517
+msgid "Run Now"
+msgstr "现在运行"
+
+#: filter/kmfilterdialog.cpp:650
+msgctxt "@info"
+msgid "Unable to apply this filter since there are no folders selected."
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:651
+msgid "No folder selected."
+msgstr "未选中文件夹。"
+
+#: filter/kmfilterdialog.cpp:659
+msgctxt "@info"
+msgid ""
+"Some filters were changed and not saved yet. You must save your filters "
+"before they can be applied."
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:661 filter/kmfilterdialog.cpp:1705
+msgid "Filters changed."
+msgstr "过滤器已修改。"
+
+#: filter/kmfilterdialog.cpp:670
+msgctxt "@info"
+msgid "Unable to apply a filter since there are no filters currently selected."
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:671
+msgid "No filters selected."
+msgstr "未选中过滤器。"
+
+#: filter/kmfilterdialog.cpp:942
+msgctxt "Move selected filter up."
+msgid "Up"
+msgstr "上移"
+
+#: filter/kmfilterdialog.cpp:943
+msgctxt "Move selected filter down."
+msgid "Down"
+msgstr "下移"
+
+#: filter/kmfilterdialog.cpp:944
+msgctxt "Move selected filter to the top."
+msgid "Top"
+msgstr "上移"
+
+#: filter/kmfilterdialog.cpp:945
+msgctxt "Move selected filter to the bottom."
+msgid "Bottom"
+msgstr "置底"
+
+#: filter/kmfilterdialog.cpp:968
+msgid "Rename..."
+msgstr "重命名..."
+
+#: filter/kmfilterdialog.cpp:969
+msgctxt "@action:button in filter list manipulator"
+msgid "New"
+msgstr "新建"
+
+#: filter/kmfilterdialog.cpp:970
+msgid "Copy"
+msgstr "复制"
+
+#: filter/kmfilterdialog.cpp:971
+msgid "Delete"
+msgstr "删除"
+
+#: filter/kmfilterdialog.cpp:1106
+msgid "unnamed"
+msgstr "未命名"
+
+#: filter/kmfilterdialog.cpp:1175
+msgid ""
+"The following filters are invalid (e.g. containing no actions or no search "
+"rules). Discard or edit invalid filters?"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:1179
+msgid "Discard"
+msgstr "丢弃"
+
+#: filter/kmfilterdialog.cpp:1275
+#, kde-format
+msgid "Do you want to remove the filter \"%1\"?"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:1282
+msgid "Do you want to remove selected filters?"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:1283
+msgid "Remove Filters"
+msgstr "删除过滤器"
+
+#: filter/kmfilterdialog.cpp:1498
+msgid "Rename Filter"
+msgstr "重命名过滤器"
+
+#: filter/kmfilterdialog.cpp:1499
+#, kde-format
+msgid ""
+"Rename filter \"%1\" to:\n"
+"(leave the field empty for automatic naming)"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:1660
+msgid "No filter was imported."
+msgstr "未导入过滤器。"
+
+#: filter/kmfilterdialog.cpp:1673
+msgid "Filters which were imported:"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:1703
+msgctxt "@info"
+msgid ""
+"Some filters were changed and not saved yet. You must save your filters "
+"before they can be exported."
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:1708
+msgid "We cannot convert all KMail filters to sieve scripts but we can try :)"
+msgstr ""
+
+#: filter/kmfilterdialog.cpp:1708
+msgid "Convert KMail filters to sieve scripts"
+msgstr ""
+
+#: filter/mailfilter.cpp:137
+#, kde-format
+msgid "<b>Applying filter action:</b> %1"
+msgstr ""
+
+#: filter/mailfilter.cpp:148
+msgid "A critical error occurred. Processing stops here."
+msgstr ""
+
+#: filter/mailfilter.cpp:156
+msgid "A problem was found while applying this action."
+msgstr ""
+
+#: filter/mailfilter.cpp:418
+#, kde-format
+msgid "<qt>Too many filter actions in filter rule <b>%1</b>.</qt>"
+msgstr ""
+
+#: filter/mailfilter.cpp:449
+#, kde-format
+msgid ""
+"<qt>Unknown filter action <b>%1</b><br />in filter rule <b>%2</b>.<br /"
+">Ignoring it.</qt>"
+msgstr ""
+
+#: filter/mdnadvicedialog.cpp:55
+msgid ""
+"This message contains a request to return a notification about your "
+"reception of the message.\n"
+"You can either ignore the request or let the mail program send a \"denied\" "
+"or normal response."
+msgstr ""
+
+#: filter/mdnadvicedialog.cpp:60
+msgid ""
+"This message contains a request to send a notification about your reception "
+"of the message.\n"
+"It contains a processing instruction that is marked as \"required\", but "
+"which is unknown to the mail program.\n"
+"You can either ignore the request or let the mail program send a \"failed\" "
+"response."
+msgstr ""
+
+#: filter/mdnadvicedialog.cpp:67
+msgid ""
+"This message contains a request to send a notification about your reception "
+"of the message,\n"
+"but it is requested to send the notification to more than one address.\n"
+"You can either ignore the request or let the mail program send a \"denied\" "
+"or normal response."
+msgstr ""
+
+#: filter/mdnadvicedialog.cpp:74
+msgid ""
+"This message contains a request to send a notification about your reception "
+"of the message,\n"
+"but there is no return-path set.\n"
+"You can either ignore the request or let the mail program send a \"denied\" "
+"or normal response."
+msgstr ""
+
+#: filter/mdnadvicedialog.cpp:80
+msgid ""
+"This message contains a request to send a notification about your reception "
+"of the message,\n"
+"but the return-path address differs from the address the notification was "
+"requested to be sent to.\n"
+"You can either ignore the request or let the mail program send a \"denied\" "
+"or normal response."
+msgstr ""
+
+#: filter/mdnadvicedialog.cpp:94
+msgid "Message Disposition Notification Request"
+msgstr ""
+
+#: filter/mdnadvicedialog.cpp:97
+msgid "Send \"&denied\""
+msgstr ""
+
+#: filter/mdnadvicedialog.cpp:101
+msgid "&Ignore"
+msgstr "忽略(&I)"
+
+#: filter/mdnadvicedialog.cpp:102
+msgid "&Send"
+msgstr "发送(&S)"
+
+#: filter/soundtestwidget.cpp:44
+msgid "Play"
+msgstr ""
+
+#: filter/soundtestwidget.cpp:80
+msgid "Select Sound File"
+msgstr "选择声音文件"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: filter/ui/filterconfigwidget.ui:19
+msgid "Name:"
+msgstr "名称："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: filter/ui/filterconfigwidget.ui:45
+msgid "Criteria"
+msgstr "条件"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: filter/ui/filterconfigwidget.ui:87
+msgid "Actions"
+msgstr "动作"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: filter/ui/filterconfigwidget.ui:129
+msgid "Apply options"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, applyToIncomingCB)
+#: filter/ui/filterconfigwidget.ui:138
+msgid "Apply to incoming messages"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, applyToSentCB)
+#: filter/ui/filterconfigwidget.ui:145
+msgid "Apply to sent messages"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, applyBeforeSendCB)
+#: filter/ui/filterconfigwidget.ui:152
+msgid "Apply before sending messages"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, applyManuallyCB)
+#: filter/ui/filterconfigwidget.ui:159
+msgid "Apply on manual filtering"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, stopIfMatchesCB)
+#: filter/ui/filterconfigwidget.ui:169
+msgid "Stop processing if matches"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, selectFile)
+#: filter/ui/selectthunderbirdfilterfileswidget.ui:17
+msgid "Select File:"
+msgstr "选择文件："
+
+#. i18n: ectx: property (text), widget (QRadioButton, selectFromConfig)
+#: filter/ui/selectthunderbirdfilterfileswidget.ui:33
+msgid "Select file from config:"
+msgstr ""
+
+#: folder/folderrequester.cpp:134
+msgid "Local Folders"
+msgstr "本地文件夹"
+
+#: folder/folderselectiondialog.cpp:69 folder/folderselectiondialog.cpp:144
+msgid "&New Subfolder..."
+msgstr "新建子文件夹(&N)..."
+
+#: folder/folderselectiondialog.cpp:70
+msgid "Create a new subfolder under the currently selected folder"
+msgstr "在当前所选文件夹下创建新子文件夹"
+
+#: folder/folderselectiondialog.cpp:200
+msgctxt "@title:window"
+msgid "New Folder"
+msgstr "新建文件夹"
+
+#: folder/folderselectiondialog.cpp:201
+msgctxt "@label:textbox, name of a thing"
+msgid "Name"
+msgstr "名称"
+
+#: folder/folderselectiondialog.cpp:221
+#, kde-format
+msgid "Could not create folder: %1"
+msgstr "无法创建文件夹：%1"
+
+#: folder/folderselectiondialog.cpp:222
+msgid "Folder creation failed"
+msgstr "文件夹创建失败"
+
+#: folder/foldertreeview.cpp:148
+msgid "View Columns"
+msgstr "查看列表"
+
+#: folder/foldertreeview.cpp:159
+msgid "Icon Size"
+msgstr "图标大小"
+
+#: folder/foldertreeview.cpp:177
+msgid "Display Tooltips"
+msgstr "显示工具提示"
+
+#: folder/foldertreeview.cpp:181
+msgctxt "@action:inmenu Always display tooltips"
+msgid "Always"
+msgstr "总是"
+
+#: folder/foldertreeview.cpp:189
+msgctxt "@action:inmenu Never display tooltips."
+msgid "Never"
+msgstr "从不"
+
+#: folder/foldertreeview.cpp:197
+msgctxt "@action:inmenu"
+msgid "Sort Items"
+msgstr ""
+
+#: folder/foldertreeview.cpp:201
+msgctxt "@action:inmenu"
+msgid "Automatically, by Current Column"
+msgstr ""
+
+#: folder/foldertreeview.cpp:209
+msgctxt "@action:inmenu"
+msgid "Manually, by Drag And Drop"
+msgstr ""
+
+#: folder/foldertreeview.cpp:523 folder/foldertreeview.cpp:571
+#, kde-format
+msgid "<qt>Go to the next unread message in folder <b>%1</b>?</qt>"
+msgstr ""
+
+#: folder/foldertreeview.cpp:524 folder/foldertreeview.cpp:573
+msgid "Go to Next Unread Message"
+msgstr "跳转到下一封未读的信件"
+
+#: folder/foldertreeview.cpp:525 folder/foldertreeview.cpp:574
+msgid "Go To"
+msgstr "转到"
+
+#: folder/foldertreeview.cpp:526 folder/foldertreeview.cpp:575
+msgid "Do Not Go To"
+msgstr ""
+
+#: folder/foldertreewidget.cpp:102 folder/foldertreewidget.cpp:364
+msgid "You can start typing to filter the list of folders."
+msgstr ""
+
+#: folder/foldertreewidget.cpp:365
+#, kde-format
+msgid "Path: (%1)"
+msgstr "路径：(%1)"
+
+#: folder/foldertreewidgetproxymodel.cpp:244
+#, kde-format
+msgid "%1 (Offline)"
+msgstr "%1 (离线)"
+
+#: job/backupjob.cpp:119
+msgid "Unable to retrieve folder list."
+msgstr ""
+
+#: job/backupjob.cpp:145
+msgid "The operation was canceled by the user."
+msgstr ""
+
+#: job/backupjob.cpp:175
+#, kde-format
+msgid "Failed to archive the folder '%1'."
+msgstr "无法归档文件夹：%1"
+
+#: job/backupjob.cpp:179
+msgid "Archiving failed"
+msgstr "归档失败"
+
+#: job/backupjob.cpp:188
+msgid "Unable to finalize the archive file."
+msgstr ""
+
+#: job/backupjob.cpp:193 job/backupjob.cpp:212
+msgid "Archiving finished"
+msgstr ""
+
+#: job/backupjob.cpp:203
+#, kde-format
+msgid ""
+"Archiving folder '%1' successfully completed. The archive was written to the "
+"file '%2'."
+msgstr ""
+
+#: job/backupjob.cpp:206
+#, kde-format
+msgid "1 message of size %2 was archived."
+msgid_plural "%1 messages with the total size of %2 were archived."
+msgstr[0] ""
+
+#: job/backupjob.cpp:209
+#, kde-format
+msgid "The archive file has a size of %1."
+msgstr ""
+
+#: job/backupjob.cpp:264
+#, kde-format
+msgid "Failed to write a message into the archive folder '%1'."
+msgstr ""
+
+#: job/backupjob.cpp:289
+#, kde-format
+msgid "Downloading a message in folder '%1' failed."
+msgstr ""
+
+#: job/backupjob.cpp:355
+#, kde-format
+msgid "Archiving folder %1"
+msgstr ""
+
+#: job/backupjob.cpp:380
+#, kde-format
+msgid "Unable to create folder structure for folder '%1' within archive file."
+msgstr ""
+
+#: job/backupjob.cpp:393
+#, fuzzy, kde-format
+#| msgid "Unable to process messages: "
+msgid "Unable to get message list for folder %1."
+msgstr "无法处理信件："
+
+#: job/backupjob.cpp:439
+msgid "Unable to open archive for writing."
+msgstr ""
+
+#: job/backupjob.cpp:445
+msgid "Archiving"
+msgstr "归档"
+
+#: job/expirejob.cpp:179
+#, kde-format
+msgid "Removing 1 old message from folder %2..."
+msgid_plural "Removing %1 old messages from folder %2..."
+msgstr[0] ""
+
+#: job/expirejob.cpp:186
+#, kde-format
+msgid "Cannot expire messages from folder %1: destination folder %2 not found"
+msgstr ""
+
+#: job/expirejob.cpp:198
+#, kde-format
+msgid "Moving 1 old message from folder %2 to folder %3..."
+msgid_plural "Moving %1 old messages from folder %2 to folder %3..."
+msgstr[0] ""
+
+#: job/expirejob.cpp:262
+#, kde-format
+msgid "Removed 1 old message from folder %2."
+msgid_plural "Removed %1 old messages from folder %2."
+msgstr[0] ""
+
+#: job/expirejob.cpp:267
+#, kde-format
+msgid "Moved 1 old message from folder %2 to folder %3."
+msgid_plural "Moved %1 old messages from folder %2 to folder %3."
+msgstr[0] ""
+
+#: job/expirejob.cpp:275
+#, kde-format
+msgid "Removing old messages from folder %1 was canceled."
+msgstr ""
+
+#: job/expirejob.cpp:278
+#, kde-format
+msgid "Moving old messages from folder %1 to folder %2 was canceled."
+msgstr ""
+
+#: job/expirejob.cpp:286
+#, kde-format
+msgid "Removing old messages from folder %1 failed."
+msgstr ""
+
+#: job/expirejob.cpp:289
+#, kde-format
+msgid "Moving old messages from folder %1 to folder %2 failed."
+msgstr ""
+
+#: kernel/mailkernel.cpp:166 kernel/mailkernel.cpp:191
+msgid "You do not have read/write permission to your inbox folder."
+msgstr ""
+
+#: kernel/mailkernel.cpp:215
+msgid "The Email program encountered a fatal error and will terminate now"
+msgstr ""
+
+#: kernel/mailkernel.cpp:217
+#, kde-format
+msgid ""
+"The Email program encountered a fatal error and will terminate now.\n"
+"The error was:\n"
+"%1"
+msgstr ""
+
+#: search/daterulewidgethandler.cpp:37
+#: search/numericdoublerulewidgethandler.cpp:38
+#: search/numericrulewidgethandler.cpp:36
+msgid "is equal to"
+msgstr "等于"
+
+#: search/daterulewidgethandler.cpp:38
+#: search/numericdoublerulewidgethandler.cpp:39
+#: search/numericrulewidgethandler.cpp:37
+msgid "is not equal to"
+msgstr "不等于"
+
+#: search/daterulewidgethandler.cpp:39
+msgid "is after"
+msgstr "晚于"
+
+#: search/daterulewidgethandler.cpp:40
+msgid "is before or equal to"
+msgstr "先于或等于"
+
+#: search/daterulewidgethandler.cpp:41
+msgid "is before"
+msgstr "先于"
+
+#: search/daterulewidgethandler.cpp:42
+msgid "is after or equal to"
+msgstr "晚于或等于"
+
+#: search/headersrulerwidgethandler.cpp:40
+#: search/messagerulewidgethandler.cpp:39 search/searchpattern.cpp:283
+#: search/tagrulewidgethandler.cpp:107 search/textrulerwidgethandler.cpp:42
+msgid "contains"
+msgstr "包含"
+
+#: search/headersrulerwidgethandler.cpp:41
+#: search/messagerulewidgethandler.cpp:40 search/tagrulewidgethandler.cpp:108
+#: search/textrulerwidgethandler.cpp:43
+msgid "does not contain"
+msgstr "不包含"
+
+#: search/headersrulerwidgethandler.cpp:42 search/tagrulewidgethandler.cpp:109
+#: search/textrulerwidgethandler.cpp:44
+msgid "equals"
+msgstr "等于"
+
+#: search/headersrulerwidgethandler.cpp:43 search/tagrulewidgethandler.cpp:110
+#: search/textrulerwidgethandler.cpp:45
+msgid "does not equal"
+msgstr "不等于"
+
+#: search/headersrulerwidgethandler.cpp:44
+#: search/textrulerwidgethandler.cpp:46
+msgid "starts with"
+msgstr "开始为"
+
+#: search/headersrulerwidgethandler.cpp:45
+#: search/textrulerwidgethandler.cpp:47
+msgid "does not start with"
+msgstr "开始不为"
+
+#: search/headersrulerwidgethandler.cpp:46
+#: search/textrulerwidgethandler.cpp:48
+msgid "ends with"
+msgstr "结尾为"
+
+#: search/headersrulerwidgethandler.cpp:47
+#: search/textrulerwidgethandler.cpp:49
+msgid "does not end with"
+msgstr "结尾不为"
+
+#: search/headersrulerwidgethandler.cpp:49
+#: search/messagerulewidgethandler.cpp:41 search/tagrulewidgethandler.cpp:111
+#: search/textrulerwidgethandler.cpp:51
+msgid "matches regular expr."
+msgstr "匹配正则表达式"
+
+#: search/headersrulerwidgethandler.cpp:50
+#: search/messagerulewidgethandler.cpp:42 search/tagrulewidgethandler.cpp:112
+#: search/textrulerwidgethandler.cpp:52
+msgid "does not match reg. expr."
+msgstr "不匹配正则表达式"
+
+#: search/headersrulerwidgethandler.cpp:51
+#: search/headersrulerwidgethandler.cpp:179
+msgid "is in address book"
+msgstr "在地址簿中"
+
+#: search/headersrulerwidgethandler.cpp:52
+#: search/headersrulerwidgethandler.cpp:181
+msgid "is not in address book"
+msgstr "不在地址簿中"
+
+#: search/messagerulewidgethandler.cpp:43
+#: search/messagerulewidgethandler.cpp:172 search/searchpattern.cpp:262
+msgid "has an attachment"
+msgstr "有附件"
+
+#: search/messagerulewidgethandler.cpp:44
+#: search/messagerulewidgethandler.cpp:174
+msgid "has no attachment"
+msgstr "没有附件"
+
+#: search/numericdoublerulewidgethandler.cpp:40
+#: search/numericrulewidgethandler.cpp:38
+msgid "is greater than"
+msgstr "大于"
+
+#: search/numericdoublerulewidgethandler.cpp:41
+#: search/numericrulewidgethandler.cpp:39
+msgid "is less than or equal to"
+msgstr "小于等于"
+
+#: search/numericdoublerulewidgethandler.cpp:42
+#: search/numericrulewidgethandler.cpp:40
+msgid "is less than"
+msgstr "小于"
+
+#: search/numericdoublerulewidgethandler.cpp:43
+#: search/numericrulewidgethandler.cpp:41
+msgid "is greater than or equal to"
+msgstr "大于等于"
+
+#: search/numericdoublerulewidgethandler.cpp:190
+msgctxt "spinbox suffix: unit for kilobyte"
+msgid " kB"
+msgstr " KB"
+
+#: search/numericrulewidgethandler.cpp:188
+msgctxt "Unit suffix where units are days."
+msgid " days"
+msgstr " 天"
+
+#: search/searchpattern.cpp:232
+#, fuzzy
+#| msgid "equals"
+msgid "equal"
+msgstr "等于"
+
+#: search/searchpattern.cpp:235
+#, fuzzy
+#| msgid "does not equal"
+msgid "not equal"
+msgstr "不等于"
+
+#: search/searchpattern.cpp:238
+#, fuzzy
+#| msgid "is greater than"
+msgid "is greater"
+msgstr "大于"
+
+#: search/searchpattern.cpp:241
+#, fuzzy
+#| msgid "is less than or equal to"
+msgid "is less or equal"
+msgstr "小于等于"
+
+#: search/searchpattern.cpp:244
+#, fuzzy
+#| msgid "is less than"
+msgid "is less"
+msgstr "小于"
+
+#: search/searchpattern.cpp:247
+#, fuzzy
+#| msgid "is greater than or equal to"
+msgid "is greater or equal"
+msgstr "大于等于"
+
+#: search/searchpattern.cpp:250
+#, fuzzy
+#| msgid "is in address book"
+msgid "is in addressbook"
+msgstr "在地址簿中"
+
+#: search/searchpattern.cpp:253
+#, fuzzy
+#| msgid "is not in address book"
+msgid "is not in addressbook"
+msgstr "不在地址簿中"
+
+#: search/searchpattern.cpp:256 search/searchpattern.cpp:259
+msgid "is in category"
+msgstr "在类别中"
+
+#: search/searchpattern.cpp:265
+#, fuzzy
+#| msgid "has an attachment"
+msgid "has not an attachment"
+msgstr "有附件"
+
+#: search/searchpattern.cpp:268
+#, fuzzy
+#| msgid "starts with"
+msgid "start with"
+msgstr "开始为"
+
+#: search/searchpattern.cpp:271
+#, fuzzy
+#| msgid "does not start with"
+msgid "not start with"
+msgstr "开始不为"
+
+#: search/searchpattern.cpp:274
+#, fuzzy
+#| msgid "ends with"
+msgid "end with"
+msgstr "结尾为"
+
+#: search/searchpattern.cpp:277
+#, fuzzy
+#| msgid "does not end with"
+msgid "not end with"
+msgstr "结尾不为"
+
+#: search/searchpattern.cpp:280
+msgid "none"
+msgstr ""
+
+#: search/searchpattern.cpp:286
+#, fuzzy
+#| msgid "contains"
+msgid "not contains"
+msgstr "包含"
+
+#: search/searchpattern.cpp:289
+msgid "has regexp"
+msgstr ""
+
+#: search/searchpattern.cpp:292
+msgid "not regexp"
+msgstr ""
+
+#: search/searchpattern.cpp:306
+msgid "size equals not supported"
+msgstr ""
+
+#: search/searchpattern.cpp:309
+#, fuzzy
+#| msgid "is not equal to"
+msgid "size not equals not supported"
+msgstr "不等于"
+
+#: search/searchpattern.cpp:340 search/searchpattern.cpp:439
+#: search/searchpattern.cpp:514
+#, kde-format
+msgid "\"%1\" is not supported with condition \"%2\""
+msgstr ""
+
+#: search/searchpattern.cpp:346
+msgid "<status> not implemented/supported"
+msgstr ""
+
+#: search/searchpattern.cpp:349
+msgid "<any header> not implemented/supported"
+msgstr ""
+
+#: search/searchpattern.cpp:352
+msgid "<contents> not implemented/supported"
+msgstr ""
+
+#: search/searchpattern.cpp:355
+msgid "<age in days> not implemented/supported"
+msgstr ""
+
+#: search/searchpattern.cpp:358
+msgid "<date> not implemented/supported"
+msgstr ""
+
+#: search/searchpattern.cpp:361
+msgid "<recipients> not implemented/supported"
+msgstr ""
+
+#: search/searchpattern.cpp:363
+msgid "<Tag> is not supported"
+msgstr ""
+
+#: search/searchpattern.cpp:366
+msgid "<message> not implemented/supported"
+msgstr ""
+
+#: search/searchpattern.cpp:1486
+msgctxt "name used for a virgin filter"
+msgid "unknown"
+msgstr "未知"
+
+#: search/searchpattern.cpp:1494
+msgid "(match any of the following)"
+msgstr "(满足下列任何条件)"
+
+#: search/searchpattern.cpp:1497
+msgid "(match all of the following)"
+msgstr "(匹配以下全部条件)"
+
+#: search/searchpattern.cpp:1500
+msgid "(match all messages)"
+msgstr ""
+
+#: search/searchpattern.h:479
+msgctxt "message status"
+msgid "Important"
+msgstr "重要"
+
+#: search/searchpattern.h:480
+msgctxt "message status"
+msgid "Action Item"
+msgstr "任务"
+
+#: search/searchpattern.h:481
+msgctxt "message status"
+msgid "Unread"
+msgstr "未读"
+
+#: search/searchpattern.h:482
+msgctxt "message status"
+msgid "Read"
+msgstr "已读"
+
+#: search/searchpattern.h:483
+msgctxt "message status"
+msgid "Deleted"
+msgstr "已删除"
+
+#: search/searchpattern.h:484
+msgctxt "message status"
+msgid "Replied"
+msgstr "已回复"
+
+#: search/searchpattern.h:485
+msgctxt "message status"
+msgid "Forwarded"
+msgstr "已转发"
+
+#: search/searchpattern.h:486
+msgctxt "message status"
+msgid "Queued"
+msgstr "排队中"
+
+#: search/searchpattern.h:487
+msgctxt "message status"
+msgid "Sent"
+msgstr "已发送"
+
+#: search/searchpattern.h:488
+msgctxt "message status"
+msgid "Watched"
+msgstr "已监视"
+
+#: search/searchpattern.h:489
+msgctxt "message status"
+msgid "Ignored"
+msgstr "已忽略"
+
+#: search/searchpattern.h:490
+msgctxt "message status"
+msgid "Spam"
+msgstr "垃圾信"
+
+#: search/searchpattern.h:491
+msgctxt "message status"
+msgid "Ham"
+msgstr "有害信"
+
+#: search/searchpattern.h:492
+msgctxt "message status"
+msgid "Has Attachment"
+msgstr "有附件"
+
+#: search/searchpatternedit.cpp:63
+msgid "Complete Message"
+msgstr "完整信件"
+
+#: search/searchpatternedit.cpp:64
+msgid "Body of Message"
+msgstr "信件正文"
+
+#: search/searchpatternedit.cpp:65
+msgid "Anywhere in Headers"
+msgstr ""
+
+#: search/searchpatternedit.cpp:66
+msgid "All Recipients"
+msgstr ""
+
+#: search/searchpatternedit.cpp:67
+msgid "Size in Bytes"
+msgstr ""
+
+#: search/searchpatternedit.cpp:68
+msgid "Age in Days"
+msgstr ""
+
+#: search/searchpatternedit.cpp:69
+msgid "Message Status"
+msgstr "信件状态"
+
+#: search/searchpatternedit.cpp:70
+msgid "Message Tag"
+msgstr "信件标记"
+
+#: search/searchpatternedit.cpp:71
+msgctxt "Subject of an email."
+msgid "Subject"
+msgstr "主题"
+
+#: search/searchpatternedit.cpp:72
+msgid "From"
+msgstr "发件人"
+
+#: search/searchpatternedit.cpp:73
+msgctxt "Receiver of an email."
+msgid "To"
+msgstr "收件人"
+
+#: search/searchpatternedit.cpp:75
+msgid "Reply To"
+msgstr "回复到"
+
+#: search/searchpatternedit.cpp:76
+msgid "Organization"
+msgstr "组织"
+
+#: search/searchpatternedit.cpp:77
+msgid "Date"
+msgstr "日期"
+
+#: search/searchpatternedit.cpp:164 search/searchpatternedit.cpp:165
+msgid "Choose or type your own criteria"
+msgstr ""
+
+#: search/searchpatternedit.cpp:610
+msgid "Match a&ll of the following"
+msgstr "匹配以下全部条件(&L)"
+
+#: search/searchpatternedit.cpp:611
+msgid "Match an&y of the following"
+msgstr "匹配以下任何条件(&Y)"
+
+#: search/searchpatternedit.cpp:613
+msgid "Match all messages"
+msgstr ""
+
+#: search/statusrulewidgethandler.cpp:33
+msgid "is"
+msgstr "是"
+
+#: search/statusrulewidgethandler.cpp:34
+msgid "is not"
+msgstr "不是"
+
+#: snippets/snippetsmanager.cpp:147
+msgid "General"
+msgstr "常规"
+
+#: snippets/snippetsmanager.cpp:153
+msgctxt "@title:window"
+msgid "Add Snippet"
+msgstr "添加代码片断"
+
+#: snippets/snippetsmanager.cpp:193
+msgctxt "@title:window"
+msgid "Edit Snippet"
+msgstr "编辑代码片断"
+
+#: snippets/snippetsmanager.cpp:232
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Do you really want to remove snippet \"%1\"?<nl/><warning>There is no way to "
+"undo the removal.</warning>"
+msgstr ""
+
+#: snippets/snippetsmanager.cpp:248
+msgctxt "@title:window"
+msgid "Add Group"
+msgstr "添加组"
+
+#: snippets/snippetsmanager.cpp:273
+msgctxt "@title:window"
+msgid "Edit Group"
+msgstr "编辑分组"
+
+#: snippets/snippetsmanager.cpp:302
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Do you really want to remove group \"%1\" along with all its snippets?<nl/"
+"><warning>There is no way to undo the removal.</warning>"
+msgstr ""
+
+#: snippets/snippetsmanager.cpp:312
+#, kde-format
+msgctxt "@info"
+msgid "Do you really want to remove group \"%1\"?"
+msgstr ""
+
+#: snippets/snippetsmanager.cpp:366 snippets/snippetsmanager.cpp:376
+#, fuzzy, kde-format
+msgctxt "@action"
+msgid "Snippet %1"
+msgstr "代码片断(&S)"
+
+#: snippets/snippetsmanager.cpp:651
+#, fuzzy
+msgid "Add Snippet..."
+msgstr "添加代码片断"
+
+#: snippets/snippetsmanager.cpp:652
+#, fuzzy
+msgid "Edit Snippet..."
+msgstr "编辑代码片断"
+
+#: snippets/snippetsmanager.cpp:654
+msgid "Remove Snippet"
+msgstr "删除代码片断"
+
+#: snippets/snippetsmanager.cpp:657
+msgid "Add Group..."
+msgstr "添加组..."
+
+#: snippets/snippetsmanager.cpp:658
+msgid "Rename Group..."
+msgstr "重命名组..."
+
+#: snippets/snippetsmanager.cpp:660
+msgid "Remove Group"
+msgstr "删除组"
+
+#: snippets/snippetsmanager.cpp:663
+#, fuzzy
+msgid "Insert Snippet"
+msgstr "插入代码片断 %1"
+
+#: snippets/snippetvariabledialog.cpp:37
+msgid "Enter Values for Variables"
+msgstr ""
+
+#: snippets/snippetvariabledialog.cpp:43
+#, kde-format
+msgid "Enter the replacement values for '%1':"
+msgstr ""
+
+#: snippets/snippetvariabledialog.cpp:52
+msgid "Make value &default"
+msgstr ""
+
+#: snippets/snippetvariabledialog.cpp:55
+msgctxt "@info:tooltip"
+msgid ""
+"Enable this to save the value entered to the right as the default value for "
+"this variable"
+msgstr ""
+
+#: snippets/snippetvariabledialog.cpp:59
+msgctxt "@info:whatsthis"
+msgid ""
+"If you enable this option, the value entered to the right will be saved. If "
+"you use the same variable later, even in another snippet, the value entered "
+"to the right will be the default value for that variable."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: snippets/ui/snippetdialog.ui:31
+msgid "&Name:"
+msgstr "名称(&N)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabelGroup)
+#: snippets/ui/snippetdialog.ui:64
+msgctxt "Group to which the snippet belongs."
+msgid "Group:"
+msgstr "群组："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel)
+#: snippets/ui/snippetdialog.ui:77
+#, fuzzy
+msgid "&Snippet:"
+msgstr "代码片断(&S)"
+
+#. i18n: ectx: property (text), widget (QLabel, keyWidgetLabel)
+#: snippets/ui/snippetdialog.ui:106
+msgid "Sh&ortcut:"
+msgstr "快捷键(&O)："
+
+#: tag/addtagdialog.cpp:68
+#, kde-format
+msgid "Tag %1 already exists"
+msgstr ""
+
+#: tag/tagwidget.cpp:53
+msgctxt "@label:listbox Name of the tag"
+msgid "Name:"
+msgstr "名称："
+
+#: tag/tagwidget.cpp:62
+msgid "Change te&xt color:"
+msgstr "更改文本颜色(&X)："
+
+#: tag/tagwidget.cpp:78
+msgid "Change &background color:"
+msgstr "更改背景颜色(&B)："
+
+#: tag/tagwidget.cpp:94
+msgid "Change fo&nt:"
+msgstr "更改字体(&N)："
+
+#: tag/tagwidget.cpp:117
+#, fuzzy
+#| msgid "Message Tag"
+msgid "Message tag &icon:"
+msgstr "信件标记"
+
+#: tag/tagwidget.cpp:130
+msgid "Shortc&ut:"
+msgstr "快捷键(&U)："
+
+#: tag/tagwidget.cpp:143
+msgid "Enable &toolbar button"
+msgstr ""
+
+#: util/mailutil.cpp:275
+#, kde-format
+msgid ""
+"From: %1\n"
+"To: %2\n"
+"Subject: %3"
+msgstr ""
+"发件人：%1\n"
+"收件人：%2\n"
+"主题：%3"
+
+#: util/mailutil.cpp:331
+msgid "Removing attachments from an email might invalidate its signature."
+msgstr "删除邮件中的附件可能会使签名失效。"
+
+#: util/mailutil.cpp:332
+msgid "Remove Attachments"
+msgstr "删除附件"
+
+#: util/mailutil.cpp:367 util/mailutil.cpp:380 util/mailutil.cpp:405
+#: util/mailutil.cpp:415
+#, kde-format
+msgid "Mail: %1"
+msgstr "邮件: %1"
+
+#: util/mailutil_p.h:49
+msgid "Create Todo/Reminder"
+msgstr "创建待办/提醒事件"
+
+#: util/mailutil_p.h:50
+msgid "Attach inline without attachments"
+msgstr "内嵌而不是作为附件"
+
+#: util/mailutil_p.h:51
+msgid "Attach &inline"
+msgstr "内嵌附件(&I)"
+
+#: util/mailutil_p.h:52
+msgid "Attach as &link"
+msgstr "链接附件(&L)"
+
+#: util/mailutil_p.h:56
+msgid "How should the email be attached?"
+msgstr "电子邮件的附加方式？"
+
+#: widgets/favoritecollectionwidget.cpp:84
+#, fuzzy
+#| msgid "Icon Size"
+msgid "Icon size"
+msgstr "图标大小"
+
+#: widgets/favoritecollectionwidget.cpp:105
+msgid "Mode"
+msgstr ""
+
+#: widgets/favoritecollectionwidget.cpp:109
+msgid "List Mode"
+msgstr ""
+
+#: widgets/favoritecollectionwidget.cpp:120
+#, fuzzy
+#| msgid "Icon Size"
+msgid "Icon Mode"
+msgstr "图标大小"
+
+#: widgets/favoritecollectionwidget.cpp:231
+msgid "Drop your favorite folders here..."
+msgstr ""
+
+#: widgets/redirectdialog.cpp:127
+msgid "Redirect Message"
+msgstr ""
+
+#: widgets/redirectdialog.cpp:133
+msgid "Select the recipient &addresses to redirect to:"
+msgstr ""
+
+#: widgets/redirectdialog.cpp:147
+msgid "Use the Address-Selection Dialog"
+msgstr ""
+
+#: widgets/redirectdialog.cpp:148
+msgid ""
+"This button opens a separate dialog where you can select recipients out of "
+"all available addresses."
+msgstr ""
+
+#: widgets/redirectdialog.cpp:159
+msgid "Identity:"
+msgstr "身份："
+
+#: widgets/redirectdialog.cpp:164
+#, fuzzy
+#| msgid "Select Folder"
+msgid "Transport:"
+msgstr "选择文件夹"
+
+#: widgets/redirectdialog.cpp:168
+msgid "&Send Now"
+msgstr "现在发送(&S)"
+
+#: widgets/redirectdialog.cpp:169
+msgid "Send &Later"
+msgstr "稍后发送(&L)"
+
+#: widgets/redirectdialog.cpp:207
+msgid "You cannot redirect the message without an address."
+msgstr ""
+
+#: widgets/redirectdialog.cpp:208
+msgid "Empty Redirection Address"
+msgstr ""
+
+#: widgets/regexplineedit.cpp:81
+msgid "Edit..."
+msgstr "编辑..."
+
+#, fuzzy
+#~| msgctxt ""
+#~| "@info/plain Displayed grayed-out inside the textbox, verb to search"
+#~| msgid "Search"
+#~ msgid "Search..."
+#~ msgstr "搜索"
+
+#, fuzzy
+#~| msgid "Select Folder"
+#~ msgid "Select Multiple Folders"
+#~ msgstr "选择文件夹"
+
+#~ msgid "is not in category"
+#~ msgstr "不在类别中"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "When Text Obscured"
+#~ msgstr "文字变暗时显示"
+
+#~ msgid "&User identifier:"
+#~ msgstr "用户标识符(&U)："
+
+#, fuzzy
+#~| msgid "Se&lect..."
+#~ msgctxt "select an email address"
+#~ msgid "Se&lect..."
+#~ msgstr "选择(&L)..."
+
+#~ msgid "Permissions"
+#~ msgstr "权限"
+
+#~ msgid "Add Entry..."
+#~ msgstr "添加项..."
+
+#~ msgid "Edit Entry..."
+#~ msgstr "编辑项..."
+
+#~ msgid "Remove Entry"
+#~ msgstr "删除条目"
+
+#~ msgctxt "Permissions"
+#~ msgid "None"
+#~ msgstr "无"
+
+#~ msgctxt "Permissions"
+#~ msgid "Read"
+#~ msgstr "读取"
+
+#~ msgctxt "Permissions"
+#~ msgid "Append"
+#~ msgstr "追加"
+
+#~ msgctxt "Permissions"
+#~ msgid "Write"
+#~ msgstr "写入"
+
+#~ msgctxt "Permissions"
+#~ msgid "All"
+#~ msgstr "全部"
+
+#~ msgid "Custom Permissions (%1)"
+#~ msgstr "自定义权限 (%1)"
+
+#~ msgid " bytes"
+#~ msgstr " 字节"
+
+#, fuzzy
+#~| msgid "From"
+#~ msgid "From:"
+#~ msgstr "发件人"
+
+#, fuzzy
+#~| msgctxt "Receiver of an email."
+#~| msgid "To"
+#~ msgid "To:"
+#~ msgstr "收件人"
+
+#~ msgctxt "message status"
+#~ msgid "New"
+#~ msgstr "新建"
+
+#~ msgid "Filtering message %1 of %2"
+#~ msgstr "正在过滤 %2 封信件中的第 %1 封"

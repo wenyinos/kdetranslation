@@ -1,0 +1,84 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Yichao Yu <yyc1992@gmail.com>, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-30 01:56+0000\n"
+"PO-Revision-Date: 2013-06-21 16:46-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_filterPrinters)
+#: plasmoid/package/contents/ui/config.ui:20
+msgid "Only show jobs from the following printers:"
+msgstr "只显示以下打印机的任务："
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_allJobs)
+#: plasmoid/package/contents/ui/config.ui:39
+msgid "All jobs"
+msgstr "全部任务"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_completedJobs)
+#: plasmoid/package/contents/ui/config.ui:46
+msgid "Completed jobs only"
+msgstr "只显示已完成的任务"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_activeJobs)
+#: plasmoid/package/contents/ui/config.ui:53
+msgid "Active jobs only"
+msgstr "只显示活动任务"
+
+#: plasmoid/package/contents/ui/JobItem.qml:160
+msgid "Cancel"
+msgstr "取消"
+
+#: plasmoid/package/contents/ui/JobItem.qml:171
+msgid "Reprint"
+msgstr "重新打印"
+
+#: plasmoid/package/contents/ui/JobItem.qml:171
+msgid "Hold"
+msgstr "保留"
+
+#: plasmoid/package/contents/ui/JobItem.qml:171
+msgid "Release"
+msgstr "释放"
+
+#: plasmoid/package/contents/ui/JobItem.qml:201
+msgid "Owner:"
+msgstr "所有者："
+
+#: plasmoid/package/contents/ui/JobItem.qml:215
+msgid "Size:"
+msgstr "大小："
+
+#: plasmoid/package/contents/ui/JobItem.qml:229
+msgid "Created:"
+msgstr "创建于："
+
+#: plasmoid/package/contents/ui/printmanager.qml:83
+msgid "Print queue is empty"
+msgstr "打印队列为空"
+
+#: plasmoid/package/contents/ui/printmanager.qml:86
+msgid "There is one print job in the queue"
+msgid_plural "There are %1 print jobs in the queue"
+msgstr[0] "队列中有 %1 个打印任务"
+
+#: plasmoid/package/contents/ui/printmanager.qml:206
+msgid "No printers have been configured or discovered"
+msgstr "未配置或未发现打印机"
+
+#: plasmoid/package/contents/ui/printmanager.qml:214
+msgid "There is currently no available printer matching the selected filters"
+msgstr "无可用打印机匹配了选中的过滤条件"

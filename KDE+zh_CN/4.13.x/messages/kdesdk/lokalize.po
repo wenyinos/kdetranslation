@@ -1,0 +1,3286 @@
+# translation of lokalize.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2007, 2008, 2009, 2010, 2011, 2012.
+# Feng Chao <rainofchaos@gmail.com>, 2010, 2011, 2013.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: lokalize\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-22 01:43+0000\n"
+"PO-Revision-Date: 2013-11-10 10:05+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: scripts/msgmerge.py:33
+msgid "Gettext not found"
+msgstr "未找到 Gettext"
+
+#: scripts/msgmerge.py:33
+msgid "Install gettext package for this feature to work"
+msgstr "安装软件包 gettext 以使用此功能"
+
+#: scripts/msgmerge.py:44
+msgid "Updating from templates..."
+msgstr "正在从模板更新..."
+
+#: scripts/msgmerge.py:71
+msgid "Merge has been completed"
+msgstr "已完成合并"
+
+#: scripts/msgmerge.py:71
+msgid ""
+"Merge has been completed.\n"
+"Template modification time: %1 (%2 days ago)."
+msgstr ""
+"合并完成。\n"
+"模板修改时间： %1 (%2 天前)。"
+
+#: scripts/msgmerge.py:74
+msgid "Merge failed."
+msgstr "合并失败。"
+
+#: scripts/msgmerge.py:74
+msgid ""
+"Could not find template file for the merge:\n"
+"%1"
+msgstr ""
+"无法找到模板文件进行合并：\n"
+"%1"
+
+#. i18n: tag collection attribute text
+#: scripts/msgmerge.rc:3
+msgid "File"
+msgstr "文件"
+
+#. i18n: tag script attribute text
+#: scripts/msgmerge.rc:4
+msgid "Update file from template"
+msgstr "从模板更新文件"
+
+#: scripts/newprojectwizard.py:124
+msgid ""
+"Translate-Toolkit not found. Please install this package for the feature to "
+"work."
+msgstr "未找到 Translate-Toolkit。请安装此软件包以使用此功能。"
+
+#: scripts/newprojectwizard.py:133
+msgid "What do you want to do?"
+msgstr "您想要做什么？"
+
+#: scripts/newprojectwizard.py:134
+msgid "Identify the kind of project you want:"
+msgstr "检验您想要的工程种类："
+
+#: scripts/newprojectwizard.py:136
+msgid "Translate a document"
+msgstr "翻译文档"
+
+#: scripts/newprojectwizard.py:138
+msgid "Translate application interface"
+msgstr "翻译程序界面"
+
+#: scripts/newprojectwizard.py:158
+msgid "Choose a document to be translated"
+msgstr "选择要翻译的文档"
+
+#: scripts/newprojectwizard.py:159
+msgid "Choose document in a source language."
+msgstr "选择用源语言书写的文档。"
+
+#: scripts/newprojectwizard.py:161
+msgid "Select file:"
+msgstr "选择文件："
+
+#: scripts/newprojectwizard.py:168
+msgid "Select a folder:"
+msgstr "选择文件夹："
+
+#: scripts/newprojectwizard.py:202
+msgid "Choose project name and location"
+msgstr "选择工程名称和位置"
+
+#: scripts/newprojectwizard.py:203
+msgid "If you choose custom paths then the source files will be copied to it."
+msgstr "如果您选择自定义路径，那么源文件将被复制过去。"
+
+#: scripts/newprojectwizard.py:206
+msgid "Use initial source dir, generate name automatically"
+msgstr "使用最初的源目录，自动生成名称"
+
+#: scripts/newprojectwizard.py:209
+msgid "Custom paths"
+msgstr "自定义路径"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: scripts/newprojectwizard.py:213 src/tm/dbparams.ui:20
+msgid "Name:"
+msgstr "名称："
+
+#: scripts/newprojectwizard.py:216
+msgid "Location:"
+msgstr "位置："
+
+#: scripts/newprojectwizard.py:262
+msgid "Choose source and target languages"
+msgstr "选择源语言和目标语言"
+
+#: scripts/newprojectwizard.py:263
+msgid "Click on a combobox then start typing the name of the language."
+msgstr "点击组选框，然后输入语言的名称。"
+
+#. i18n: ectx: property (text), widget (QLabel, querySourceLabel)
+#: scripts/newprojectwizard.py:281 src/filesearch/filesearchoptions.ui:19
+#: src/tm/queryoptions.ui:81
+msgid "Source:"
+msgstr "源文本："
+
+#. i18n: ectx: property (text), widget (QLabel, queryTargetLabel)
+#: scripts/newprojectwizard.py:282 src/filesearch/filesearchoptions.ui:39
+#: src/tm/queryoptions.ui:91
+msgid "Target:"
+msgstr "目标："
+
+#: scripts/newprojectwizard.py:296
+msgid "Choose a type of software project"
+msgstr "选择软件工程类型"
+
+#: scripts/newprojectwizard.py:297
+msgid "Different projects use different translation files filesystem layout."
+msgstr "不同的工程使用不同的翻译文件系统布局。"
+
+#: scripts/newprojectwizard.py:299
+msgid "KDE"
+msgstr "KDE"
+
+#: scripts/newprojectwizard.py:316
+msgid "Choose location of your software translation project"
+msgstr "选择您软件翻译工程的位置"
+
+#: scripts/newprojectwizard.py:317
+msgid ""
+"Choose whether you already have translation files on disk, or if you want to "
+"download them now."
+msgstr "选择磁盘上是否已经存在翻译文件，或现在下载它们。"
+
+#: scripts/newprojectwizard.py:319
+msgid "Existing:"
+msgstr "现有："
+
+#: scripts/newprojectwizard.py:323
+msgid "Your language's folder containing messages/ and docmessages/ subfolders"
+msgstr "您的语言文件夹，包含  messages/ 和 docmessages/ 子文件夹"
+
+#: scripts/newprojectwizard.py:329
+msgid ""
+"Get from svn repository\n"
+"(approx. 20 MB):"
+msgstr ""
+"从 svn 仓库获得\n"
+"(约 20 MB)："
+
+#: scripts/newprojectwizard.py:343
+msgid "Local download folder (will/does contain trunk/l10n-kde4/...)"
+msgstr "本地下载文件(包含 trunk/l10n-kde4/...)"
+
+#: scripts/newprojectwizard.py:386
+msgid ""
+"Please install 'subversion' package\n"
+"to have Lokalize download KDE translation files."
+msgstr ""
+"请安装“subversion”软件包\n"
+"以使 Lokalize 能下载 KDE 翻译文件。"
+
+#: scripts/newprojectwizard.py:386
+msgid "Subversion client not found"
+msgstr "未找到 Subversion 客户端"
+
+#. i18n: tag collection attribute text
+#. i18n: tag collection attribute text
+#: scripts/newprojectwizard.rc:3 scripts/newprojectwizard_win.rc:3
+msgid "Project"
+msgstr "工程"
+
+#. i18n: tag script attribute text
+#: scripts/newprojectwizard.rc:4
+msgid "New project wizard"
+msgstr "新建工程向导"
+
+#. i18n: tag script attribute comment
+#. i18n: tag script attribute comment
+#: scripts/newprojectwizard.rc:4 scripts/newprojectwizard_win.rc:4
+msgid "Fires up a wizard to guide you through project creation"
+msgstr "弹出向导帮助您完成工程创建"
+
+#. i18n: tag script attribute text
+#: scripts/newprojectwizard_win.rc:4
+msgid "Create new project"
+msgstr "创建新工程"
+
+#. i18n: tag collection attribute text
+#: scripts/xliff2odf.rc:3
+msgid "Tools"
+msgstr "工具"
+
+#. i18n: tag script attribute text
+#: scripts/xliff2odf.rc:4
+msgid "Merge into ODF"
+msgstr "合并到 ODF"
+
+#. i18n: tag script attribute comment
+#: scripts/xliff2odf.rc:4
+msgid "Generates translated version of ODF document"
+msgstr "生成 ODF 文档的已翻译版本"
+
+#: src/alttransview.cpp:49 src/alttransview.cpp:52
+msgctxt "@title:window"
+msgid "Alternate Translations"
+msgstr "可选翻译"
+
+#: src/alttransview.cpp:254
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Sometimes, if source text is changed, its translation becomes deprecated "
+"and is either marked as <emphasis>needing&nbsp;review</emphasis> (i.e. "
+"looses approval status), or (only in case of XLIFF file) moved to the "
+"<emphasis>alternate&nbsp;translations</emphasis> section accompanying the "
+"unit.</p><p>This toolview also shows the difference between current source "
+"string and the previous source string, so that you can easily see which "
+"changes should be applied to existing translation to make it reflect current "
+"source.</p><p>Double-clicking any word in this toolview inserts it into "
+"translation.</p><p>Drop translation file onto this toolview to use it as a "
+"source for additional alternate translations.</p>"
+msgstr ""
+
+#: src/alttransview.cpp:275
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Origin: %1"
+msgstr "原文：%1"
+
+#: src/alttransview.cpp:298
+msgctxt "@item Undo action"
+msgid "Use alternate translation"
+msgstr "使用可选翻译"
+
+#: src/binunitsview.cpp:130
+msgid "no"
+msgstr "否"
+
+#: src/binunitsview.cpp:130
+msgid "yes"
+msgstr "是"
+
+#: src/binunitsview.cpp:148
+msgctxt "@title:column"
+msgid "Source"
+msgstr "源"
+
+#: src/binunitsview.cpp:149
+msgctxt "@title:column"
+msgid "Target"
+msgstr "目标"
+
+#: src/binunitsview.cpp:150
+msgctxt "@title:column"
+msgid "Approved"
+msgstr "核准"
+
+#: src/binunitsview.cpp:158
+msgctxt "@title toolview name"
+msgid "Binary Units"
+msgstr "二元单位"
+
+#: src/binunitsview.cpp:196
+msgctxt "@action:inmenu"
+msgid "Set the file"
+msgstr "设定文件"
+
+#: src/binunitsview.cpp:197
+msgctxt "@action:inmenu"
+msgid "Use source file"
+msgstr "使用源文件"
+
+#: src/catalog/catalog.cpp:75
+msgid "New"
+msgstr "新翻译"
+
+#: src/catalog/catalog.cpp:75
+msgid "Needs translation"
+msgstr "需要翻译"
+
+#: src/catalog/catalog.cpp:75
+msgid "Needs full localization"
+msgstr "需要完全本地化"
+
+#: src/catalog/catalog.cpp:75
+msgid "Needs adaptation"
+msgstr "需要改进"
+
+#: src/catalog/catalog.cpp:75
+msgid "Translated"
+msgstr "已翻译"
+
+#: src/catalog/catalog.cpp:76
+msgid "Needs translation review"
+msgstr "需要翻译审阅"
+
+#: src/catalog/catalog.cpp:76
+msgid "Needs full localization review"
+msgstr "需要完全本地化审阅"
+
+#: src/catalog/catalog.cpp:76
+msgid "Needs adaptation review"
+msgstr "需要改进审阅"
+
+#: src/catalog/catalog.cpp:76
+msgid "Final"
+msgstr "最终版"
+
+#: src/catalog/catalog.cpp:77
+msgid "Signed-off"
+msgstr "签署"
+
+#: src/catalog/catalogstring.cpp:72
+msgctxt "XLIFF inline tag name"
+msgid "Start of paired tag"
+msgstr "配对标签开头"
+
+#: src/catalog/catalogstring.cpp:73
+msgctxt "XLIFF inline tag name"
+msgid "End of paired tag"
+msgstr "配对标签结尾"
+
+#: src/catalog/catalogstring.cpp:74
+msgctxt "XLIFF inline tag name"
+msgid "Stand-alone tag"
+msgstr "独立标签"
+
+#: src/catalog/catalogstring.cpp:75
+msgctxt "XLIFF inline tag name"
+msgid "Isolated tag"
+msgstr "孤立标签"
+
+#: src/catalog/catalogstring.cpp:77
+msgctxt "XLIFF inline tag name"
+msgid "Marker"
+msgstr "标志符"
+
+#: src/catalog/catalogstring.cpp:78
+msgctxt "XLIFF inline tag name"
+msgid "Generic group placeholder"
+msgstr "通用分组占位符"
+
+#: src/catalog/catalogstring.cpp:79
+msgctxt "XLIFF inline tag name"
+msgid "Sub-flow"
+msgstr "子流程"
+
+#: src/catalog/catalogstring.cpp:81
+msgctxt "XLIFF inline tag name"
+msgid "Generic placeholder"
+msgstr "通用占位符"
+
+#: src/catalog/catalogstring.cpp:82
+msgctxt "XLIFF inline tag name"
+msgid "Start of paired placeholder"
+msgstr "配对占位符开头"
+
+#: src/catalog/catalogstring.cpp:83
+msgctxt "XLIFF inline tag name"
+msgid "End of paired placeholder"
+msgstr "配对占位符结尾"
+
+#: src/catalog/catalogstring.cpp:131
+msgctxt "XLIFF mark type"
+msgid "abbreviation"
+msgstr "缩写"
+
+#: src/catalog/catalogstring.cpp:132
+msgctxt "XLIFF mark type"
+msgid ""
+"abbreviated form: a term resulting from the omission of any part of the full "
+"term while designating the same concept"
+msgstr "缩写形式：一种通过对完整术语省略部分得到的指明相同概念的术语"
+
+#: src/catalog/catalogstring.cpp:133
+msgctxt "XLIFF mark type"
+msgid ""
+"abbreviation: an abbreviated form of a simple term resulting from the "
+"omission of some of its letters (e.g. 'adj.' for 'adjective')"
+msgstr ""
+"缩写：一种通过省略一些字母得到的简单术语的缩写形式(例如，“adj”表"
+"示“adjective”)"
+
+#: src/catalog/catalogstring.cpp:134
+msgctxt "XLIFF mark type"
+msgid ""
+"acronym: an abbreviated form of a term made up of letters from the full form "
+"of a multiword term strung together into a sequence pronounced only "
+"syllabically (e.g. 'radar' for 'radio detecting and ranging')"
+msgstr ""
+"字首组合：一种由完整形式的多字词术语的各个首字母拼接而成的缩写形式，按顺序逐"
+"音节发音(例如，“radar”表示“radio detecting and ranging”)"
+
+#: src/catalog/catalogstring.cpp:135
+msgctxt "XLIFF mark type"
+msgid ""
+"appellation: a proper-name term, such as the name of an agency or other "
+"proper entity"
+msgstr "称呼：一种恰当的名称术语，比如媒介或其它合适实体的名称"
+
+#: src/catalog/catalogstring.cpp:136
+msgctxt "XLIFF mark type"
+msgid ""
+"collocation: a recurrent word combination characterized by cohesion in that "
+"the components of the collocation must co-occur within an utterance or "
+"series of utterances, even though they do not necessarily have to maintain "
+"immediate proximity to one another"
+msgstr ""
+"排列：一种循环的单词组合，由排列的各部分必须在一次表达或一系列表达之内重复出"
+"现的形式连接，虽然它们不必维持一个接一个的直接毗邻"
+
+#: src/catalog/catalogstring.cpp:137
+msgctxt "XLIFF mark type"
+msgid ""
+"common name: a synonym for an international scientific term that is used in "
+"general discourse in a given language"
+msgstr "通用名称：一种用于特定语言的常规讲述的国际性科学术语的同义词"
+
+#: src/catalog/catalogstring.cpp:138
+msgctxt "XLIFF mark type"
+msgid "date and/or time"
+msgstr "日期和/或时间"
+
+#: src/catalog/catalogstring.cpp:139
+msgctxt "XLIFF mark type"
+msgid ""
+"equation: an expression used to represent a concept based on a statement "
+"that two mathematical expressions are, for instance, equal as identified by "
+"the equal sign (=), or assigned to one another by a similar sign"
+msgstr ""
+"等式：一种用于表示基于语句概念的表达式，比如，两个数学表达式相等由等于号(=)显"
+"式指明，或由类似符号表示的一个对另一个的赋值"
+
+#: src/catalog/catalogstring.cpp:140
+msgctxt "XLIFF mark type"
+msgid ""
+"expanded form: The complete representation of a term for which there is an "
+"abbreviated form"
+msgstr "详细形式：缩略形式术语的完整表示形式"
+
+#: src/catalog/catalogstring.cpp:141
+msgctxt "XLIFF mark type"
+msgid ""
+"formula: figures, symbols or the like used to express a concept briefly, "
+"such as a mathematical or chemical formula"
+msgstr "公式：图形、符号或诸如此类用来简明表达一种概念，比如数学公式或化学公式"
+
+#: src/catalog/catalogstring.cpp:142
+msgctxt "XLIFF mark type"
+msgid ""
+"head term: the concept designation that has been chosen to head a "
+"terminological record"
+msgstr "头术语：指定被选作表示术语学记录头部信息的概念"
+
+#: src/catalog/catalogstring.cpp:143
+msgctxt "XLIFF mark type"
+msgid ""
+"initialism: an abbreviated form of a term consisting of some of the initial "
+"letters of the words making up a multiword term or the term elements making "
+"up a compound term when these letters are pronounced individually (e.g. "
+"'BSE' for 'bovine spongiform encephalopathy')"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:144
+msgctxt "XLIFF mark type"
+msgid ""
+"international scientific term: a term that is part of an international "
+"scientific nomenclature as adopted by an appropriate scientific body"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:145
+msgctxt "XLIFF mark type"
+msgid ""
+"internationalism: a term that has the same or nearly identical orthographic "
+"or phonemic form in many languages"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:146
+msgctxt "XLIFF mark type"
+msgid ""
+"logical expression: an expression used to represent a concept based on "
+"mathematical or logical relations, such as statements of inequality, set "
+"relationships, Boolean operations, and the like"
+msgstr ""
+"逻辑表达式：一种用于表示基于数学或逻辑关系概念的表达式，比如不等式语句、集合"
+"关系语句、布尔运算语句等"
+
+#: src/catalog/catalogstring.cpp:147
+msgctxt "XLIFF mark type"
+msgid "materials management unit: a unit to track object"
+msgstr "资源管理单元：一种跟踪对象的单元"
+
+#: src/catalog/catalogstring.cpp:148
+msgctxt "XLIFF mark type"
+msgid "name"
+msgstr "名称"
+
+#: src/catalog/catalogstring.cpp:149
+msgctxt "XLIFF mark type"
+msgid ""
+"near synonym: a term that represents the same or a very similar concept as "
+"another term in the same language, but for which interchangeability is "
+"limited to some contexts and inapplicable in others"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:150
+msgctxt "XLIFF mark type"
+msgid ""
+"part number: a unique alphanumeric designation assigned to an object in a "
+"manufacturing system"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:151
+msgctxt "XLIFF mark type"
+msgid "phrase"
+msgstr "词组"
+
+#: src/catalog/catalogstring.cpp:152
+msgctxt "XLIFF mark type"
+msgid ""
+"phraseological: a group of two or more words that form a unit, the meaning "
+"of which frequently cannot be deduced based on the combined sense of the "
+"words making up the phrase"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:153
+msgctxt "XLIFF mark type"
+msgid "protected: the marked text should not be translated"
+msgstr "保护：标记的文本不应该被翻译"
+
+#: src/catalog/catalogstring.cpp:154
+msgctxt "XLIFF mark type"
+msgid ""
+"romanized form: a form of a term resulting from an operation whereby non-"
+"Latin writing systems are converted to the Latin alphabet"
+msgstr "罗马字形式：一种通过将非拉丁书写系统转换为拉丁字母处理得到的术语形式"
+
+#: src/catalog/catalogstring.cpp:155
+msgctxt "XLIFF mark type"
+msgid "segment: the marked text represents a segment"
+msgstr "分段：表示一个片断的标记文本"
+
+#: src/catalog/catalogstring.cpp:156
+msgctxt "XLIFF mark type"
+msgid "set phrase: a fixed, lexicalized phrase"
+msgstr "编目词组：一种固定且编入词汇的词组"
+
+#: src/catalog/catalogstring.cpp:157
+msgctxt "XLIFF mark type"
+msgid ""
+"short form: a variant of a multiword term that includes fewer words than the "
+"full form of the term (e.g. 'Group of Twenty-four' for 'Intergovernmental "
+"Group of Twenty-four on International Monetary Affairs')"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:158
+msgctxt "XLIFF mark type"
+msgid ""
+"stock keeping unit: an inventory item identified by a unique alphanumeric "
+"designation assigned to an object in an inventory control system"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:159
+msgctxt "XLIFF mark type"
+msgid "standard text: a fixed chunk of recurring text"
+msgstr "标准文本：一块固定的循环文本"
+
+#: src/catalog/catalogstring.cpp:160
+msgctxt "XLIFF mark type"
+msgid ""
+"symbol: a designation of a concept by letters, numerals, pictograms or any "
+"combination thereof"
+msgstr "符号：由字母、数字、象形图或其它之类的可连接形式的概念标志"
+
+#: src/catalog/catalogstring.cpp:161
+msgctxt "XLIFF mark type"
+msgid ""
+"synonym: a term that represents the same or a very similar concept as the "
+"main entry term in a term entry"
+msgstr "同义词：表示相同或非常近似概念的术语"
+
+#: src/catalog/catalogstring.cpp:162
+msgctxt "XLIFF mark type"
+msgid ""
+"synonymous phrase: phraseological unit in a language that expresses the same "
+"semantic content as another phrase in that same language"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:163
+msgctxt "XLIFF mark type"
+msgid "term"
+msgstr "术语"
+
+#: src/catalog/catalogstring.cpp:164
+msgctxt "XLIFF mark type"
+msgid ""
+"transcribed form: a form of a term resulting from an operation whereby the "
+"characters of one writing system are represented by characters from another "
+"writing system, taking into account the pronunciation of the characters "
+"converted"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:165
+msgctxt "XLIFF mark type"
+msgid ""
+"transliterated form: a form of a term resulting from an operation whereby "
+"the characters of an alphabetic writing system are represented by characters "
+"from another alphabetic writing system"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:166
+msgctxt "XLIFF mark type"
+msgid ""
+"truncated term: an abbreviated form of a term resulting from the omission of "
+"one or more term elements or syllables (e.g. 'flu' for 'influenza')"
+msgstr ""
+
+#: src/catalog/catalogstring.cpp:167
+msgctxt "XLIFF mark type"
+msgid "variant: one of the alternate forms of a term"
+msgstr "变体：某术语的一种可选形式"
+
+#: src/catalog/cmd.cpp:94
+msgctxt "@item Undo action item"
+msgid "Insertion"
+msgstr "插入"
+
+#: src/catalog/cmd.cpp:137
+msgctxt "@item Undo action item"
+msgid "Deletion"
+msgstr "删除"
+
+#: src/catalog/cmd.cpp:192
+msgctxt "@item Undo action item"
+msgid "Approvement toggling"
+msgstr "切断核准状态"
+
+#: src/catalog/cmd.cpp:210
+msgctxt "@item Undo action item"
+msgid "Markup Insertion"
+msgstr "插入标记"
+
+#: src/catalog/cmd.cpp:232
+msgctxt "@item Undo action item"
+msgid "Markup Deletion"
+msgstr "删除标记"
+
+#: src/catalog/cmd.cpp:253
+msgctxt "@item Undo action item"
+msgid "Note setting"
+msgstr "设置注解"
+
+#: src/catalog/cmd.cpp:287
+msgctxt "@item Undo action item"
+msgid "Update/add workflow phase"
+msgstr "更新/添加工作流程阶段"
+
+#: src/catalog/cmd.cpp:308
+msgctxt "@item Undo action item"
+msgid "Translation Equivalence Setting"
+msgstr "翻译等价设置"
+
+#: src/catalog/cmd.cpp:380
+msgctxt "@item Undo action item"
+msgid "Remove text with markup"
+msgstr "删除带标记的文本"
+
+#: src/catalog/cmd.cpp:434 src/xlifftextedit.cpp:672
+msgctxt "@item Undo action item"
+msgid "Insert text with markup"
+msgstr "插入带标记的文本"
+
+#: src/catalog/gettext/gettextstorage.cpp:130
+msgid "separator for different-length string alternatives"
+msgstr ""
+
+#: src/catalog/gettext/gettextstorage.cpp:238
+msgid ""
+"Previous source value, saved by Gettext during transition to a newer POT "
+"template"
+msgstr ""
+
+#: src/catalog/ts/tsstorage.cpp:333
+msgid "Previous source value, saved by lupdate tool"
+msgstr ""
+
+#: src/cataloglistview/cataloglistview.cpp:70
+msgctxt "@title:window aka Message Tree"
+msgid "Translation Units"
+msgstr "翻译单位"
+
+#: src/cataloglistview/cataloglistview.cpp:87
+#: src/glossary/glossarywindow.cpp:237 src/project/projecttab.cpp:117
+msgid "Quick search..."
+msgstr "快速搜索..."
+
+#: src/cataloglistview/cataloglistview.cpp:88
+#: src/glossary/glossarywindow.cpp:239 src/project/projecttab.cpp:118
+msgctxt "@info:tooltip"
+msgid "Activated by Ctrl+L."
+msgstr "由 Ctrl+L 激活。"
+
+#: src/cataloglistview/cataloglistview.cpp:88
+#: src/glossary/glossarywindow.cpp:239 src/project/projecttab.cpp:118
+msgctxt "@info:tooltip"
+msgid "Accepts regular expressions"
+msgstr "接受正则表达式"
+
+#: src/cataloglistview/cataloglistview.cpp:97
+msgid "options"
+msgstr "选项"
+
+#: src/cataloglistview/cataloglistview.cpp:188
+msgid "Reset individual filter"
+msgstr "重置单独的过滤器"
+
+#: src/cataloglistview/cataloglistview.cpp:194 src/tm/tmtab.cpp:372
+msgid "Case insensitive"
+msgstr "不区分大小写"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_ignoreAccelMarks)
+#: src/cataloglistview/cataloglistview.cpp:195 src/kaider_findextension.ui:40
+msgid "Ignore accelerator marks"
+msgstr "忽略快捷键标记"
+
+#: src/cataloglistview/cataloglistview.cpp:196
+msgid "Ready"
+msgstr "就绪"
+
+#: src/cataloglistview/cataloglistview.cpp:197
+msgid "Non-ready"
+msgstr "未就绪"
+
+#: src/cataloglistview/cataloglistview.cpp:198
+msgid "Non-empty"
+msgstr "非空"
+
+#: src/cataloglistview/cataloglistview.cpp:199
+msgid "Empty"
+msgstr "空"
+
+#: src/cataloglistview/cataloglistview.cpp:200
+msgid "Changed since file open"
+msgstr "文件打开后已更改"
+
+#: src/cataloglistview/cataloglistview.cpp:201
+msgid "Unchanged since file open"
+msgstr "文件打开后未更改"
+
+#: src/cataloglistview/cataloglistview.cpp:202
+msgid "Same in sync file"
+msgstr "与同步文件相同"
+
+#: src/cataloglistview/cataloglistview.cpp:203
+msgid "Different in sync file"
+msgstr "与同步文件不同"
+
+#: src/cataloglistview/cataloglistview.cpp:204
+msgid "Not in sync file"
+msgstr "同步文件中不存在"
+
+#: src/cataloglistview/cataloglistview.cpp:209
+msgctxt "@title:inmenu"
+msgid "Basic"
+msgstr "基本"
+
+#: src/cataloglistview/cataloglistview.cpp:210
+msgctxt "@title:inmenu"
+msgid "States"
+msgstr "状态"
+
+#: src/cataloglistview/cataloglistview.cpp:212
+msgctxt "@title:inmenu"
+msgid "Searchable column"
+msgstr "可搜索列"
+
+#: src/cataloglistview/cataloglistview.cpp:231
+msgctxt "@item:inmenu all columns"
+msgid "All"
+msgstr "全部"
+
+#: src/cataloglistview/catalogmodel.cpp:119
+msgctxt "@title:column"
+msgid "Entry"
+msgstr "条目"
+
+#: src/cataloglistview/catalogmodel.cpp:120
+#: src/filesearch/filesearchtab.cpp:346 src/glossary/glossary.cpp:231
+#: src/tm/qamodel.cpp:104 src/tm/tmtab.cpp:68
+msgctxt "@title:column Original text"
+msgid "Source"
+msgstr "源文本"
+
+#: src/cataloglistview/catalogmodel.cpp:121
+#: src/filesearch/filesearchtab.cpp:347 src/glossary/glossary.cpp:232
+#: src/tm/tmtab.cpp:69
+msgctxt "@title:column Text in target language"
+msgid "Target"
+msgstr "目标文本"
+
+#: src/cataloglistview/catalogmodel.cpp:122
+msgctxt "@title:column"
+msgid "Notes"
+msgstr "注解"
+
+#: src/cataloglistview/catalogmodel.cpp:123
+#: src/filesearch/filesearchtab.cpp:350 src/tm/tmtab.cpp:72
+msgctxt "@title:column"
+msgid "Translation Status"
+msgstr "翻译状态"
+
+#: src/cataloglistview/catalogmodel.cpp:198 src/editortab.cpp:1063
+#: src/editortab.cpp:1255 src/tm/tmtab.cpp:235
+msgctxt "@info:status 'non-fuzzy' in gettext terminology"
+msgid "Ready"
+msgstr "就绪"
+
+#: src/cataloglistview/catalogmodel.cpp:199 src/editortab.cpp:1064
+#: src/editortab.cpp:1250 src/tm/tmtab.cpp:236
+msgctxt "@info:status 'fuzzy' in gettext terminology"
+msgid "Needs review"
+msgstr "待审阅"
+
+#: src/cataloglistview/catalogmodel.cpp:200 src/editortab.cpp:1062
+#: src/tm/tmtab.cpp:237
+msgctxt "@info:status"
+msgid "Untranslated"
+msgstr "未翻译"
+
+#: src/common/termlabel.cpp:99
+msgctxt "@action:inmenu Edit term"
+msgid "Edit"
+msgstr "编辑"
+
+#: src/editortab.cpp:164
+#, kde-format
+msgctxt "@info:status message entry"
+msgid "Current: %1"
+msgstr "当前：%1"
+
+#: src/editortab.cpp:165 src/editortab.cpp:841
+#: src/filesearch/filesearchtab.cpp:798 src/project/projecttab.cpp:336
+#: src/tm/tmtab.cpp:588
+#, kde-format
+msgctxt "@info:status message entries"
+msgid "Total: %1"
+msgstr "总计：%1"
+
+#: src/editortab.cpp:166 src/editortab.cpp:176
+#, kde-format
+msgctxt ""
+"@info:status message entries\n"
+"'fuzzy' in gettext terminology"
+msgid "Not ready: %1"
+msgstr "未就绪：%1"
+
+#: src/editortab.cpp:167 src/editortab.cpp:184
+#, kde-format
+msgctxt "@info:status message entries"
+msgid "Untranslated: %1"
+msgstr "未翻译项：%1"
+
+#: src/editortab.cpp:178 src/editortab.cpp:186
+#, kde-format
+msgctxt "percentages in statusbar"
+msgid " (%1%)"
+msgstr " (%1%)"
+
+#: src/editortab.cpp:211 src/lokalizemainwindow.cpp:461
+msgctxt "@title actions category"
+msgid "File"
+msgstr "文件"
+
+#: src/editortab.cpp:212 src/project/projecttab.cpp:152
+msgctxt "@title actions category"
+msgid "Navigation"
+msgstr "导航"
+
+#: src/editortab.cpp:213
+msgctxt "@title actions category"
+msgid "Editing"
+msgstr "编辑"
+
+#: src/editortab.cpp:214
+msgid "Synchronization 1"
+msgstr "同步 1"
+
+#: src/editortab.cpp:215
+msgid "Synchronization 2"
+msgstr "同步 2"
+
+#: src/editortab.cpp:216
+msgid "Translation Memory"
+msgstr "翻译存储"
+
+#: src/editortab.cpp:217 src/lokalizemainwindow.cpp:463
+msgctxt "@title actions category"
+msgid "Glossary"
+msgstr "词汇表"
+
+#: src/editortab.cpp:218
+msgctxt "@title actions category"
+msgid "Tools"
+msgstr "工具"
+
+#: src/editortab.cpp:243
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Insert alternate translation # %1"
+msgstr "插入可选翻译 #%1"
+
+#: src/editortab.cpp:291
+msgctxt "@action:inmenu"
+msgid "Add a note"
+msgstr "添加注解"
+
+#: src/editortab.cpp:313
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Insert TM suggestion # %1"
+msgstr "插入翻译存储建议 #%1"
+
+#: src/editortab.cpp:359
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Insert # %1 term translation"
+msgstr "插入术语翻译 #%1"
+
+#: src/editortab.cpp:370
+msgctxt "@action:inmenu"
+msgid "Define new term"
+msgstr "定义新术语"
+
+#: src/editortab.cpp:404
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Insert WebQuery result # %1"
+msgstr "插入网络查询结果 #%1"
+
+#: src/editortab.cpp:435
+msgctxt "@action:inmenu"
+msgid "Phases..."
+msgstr "阶段..."
+
+#: src/editortab.cpp:471
+msgctxt "@action:inmenu"
+msgid "Change searching direction"
+msgstr "更改搜索方向"
+
+#: src/editortab.cpp:480
+msgctxt ""
+"@option:check whether message is marked as translated/reviewed/approved "
+"(depending on your role)"
+msgid "Approved"
+msgstr "已核准"
+
+#: src/editortab.cpp:496
+msgctxt "@action:inmenu"
+msgid "Approve and go to next"
+msgstr "核准并转到下一个"
+
+#: src/editortab.cpp:501
+msgctxt "@action:inmenu"
+msgid "Equivalent translation"
+msgstr "等价翻译"
+
+#: src/editortab.cpp:513
+msgctxt "@action:inmenu"
+msgid "Copy source to target"
+msgstr "复制源文本到目标"
+
+#: src/editortab.cpp:516
+msgctxt "@action:inmenu"
+msgid "Unwrap target"
+msgstr "打开目标"
+
+#: src/editortab.cpp:521 src/filesearch/filesearchtab.cpp:101
+msgctxt "@action:inmenu"
+msgid "Clear"
+msgstr "清除"
+
+#: src/editortab.cpp:525
+msgctxt "@action:inmenu"
+msgid "Completion"
+msgstr "补齐"
+
+#: src/editortab.cpp:529
+msgctxt "@action:inmenu"
+msgid "Insert Tag"
+msgstr "插入标签"
+
+#: src/editortab.cpp:533
+msgctxt "@action:inmenu"
+msgid "Insert Next Tag"
+msgstr "插入下一个标签"
+
+#: src/editortab.cpp:537
+msgctxt "@action:inmenu"
+msgid "Replace with best spellcheck suggestion"
+msgstr "使用最佳的拼写检查建议替换"
+
+#: src/editortab.cpp:545
+msgctxt "@action:inmenu entry"
+msgid "&Next"
+msgstr "下一项(&N)"
+
+#: src/editortab.cpp:550
+msgctxt "@action:inmenu entry"
+msgid "&Previous"
+msgstr "上一项(&P)"
+
+#: src/editortab.cpp:556
+msgctxt "@action:inmenu"
+msgid "&First Entry"
+msgstr "第一项(&F)"
+
+#: src/editortab.cpp:562
+msgctxt "@action:inmenu"
+msgid "&Last Entry"
+msgstr "最后一项(&L)"
+
+#: src/editortab.cpp:568
+msgctxt "@action:inmenu"
+msgid "Entry by number"
+msgstr "跳转到项"
+
+#: src/editortab.cpp:570 src/project/projecttab.cpp:160
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Previous non-empty but not ready"
+msgstr "上一个非空而未就绪项"
+
+#: src/editortab.cpp:575 src/project/projecttab.cpp:163
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Next non-empty but not ready"
+msgstr "下一个非空而未就绪项"
+
+#: src/editortab.cpp:580 src/project/projecttab.cpp:166
+msgctxt "@action:inmenu"
+msgid "Previous untranslated"
+msgstr "上一个未翻译项"
+
+#: src/editortab.cpp:585 src/project/projecttab.cpp:169
+msgctxt "@action:inmenu"
+msgid "Next untranslated"
+msgstr "下一个未翻译项"
+
+#: src/editortab.cpp:590 src/project/projecttab.cpp:154
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Previous not ready"
+msgstr "上一个未就绪项"
+
+#: src/editortab.cpp:595 src/project/projecttab.cpp:157
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Next not ready"
+msgstr "下一个未就绪项"
+
+#: src/editortab.cpp:602
+msgctxt "@action:inmenu"
+msgid "Focus the search line of Translation Units view"
+msgstr "聚焦翻译单元视图的搜索行"
+
+#: src/editortab.cpp:608
+msgctxt "@option:check"
+msgid "Bookmark message"
+msgstr "添加信息书签"
+
+#: src/editortab.cpp:614
+msgctxt "@action:inmenu"
+msgid "Previous bookmark"
+msgstr "上一个书签"
+
+#: src/editortab.cpp:618
+msgctxt "@action:inmenu"
+msgid "Next bookmark"
+msgstr "下一个书签"
+
+#: src/editortab.cpp:626
+#, no-c-format
+msgctxt "@action:inmenu"
+msgid "Fill in all exact suggestions"
+msgstr "填充所有精确建议"
+
+#: src/editortab.cpp:630
+#, no-c-format
+msgctxt "@action:inmenu"
+msgid "Fill in all exact suggestions and mark as fuzzy"
+msgstr "填充所有精确建议并标记为模糊翻译"
+
+#: src/editortab.cpp:634
+msgctxt "@action:inmenu"
+msgid "Word count"
+msgstr "单词计数"
+
+#: src/editortab.cpp:639
+msgctxt "@action:inmenu"
+msgid "Open file for sync/merge"
+msgstr "打开要同步/合并的文件"
+
+#: src/editortab.cpp:640 src/editortab.cpp:693
+msgctxt "@info:status"
+msgid ""
+"Open catalog to be merged into the current one / replicate base file changes "
+"to"
+msgstr "打开要合并到当前项/复制入基准文件更改的目录"
+
+#: src/editortab.cpp:646 src/editortab.cpp:699
+msgctxt "@action:inmenu"
+msgid "Previous different"
+msgstr "上一个差异"
+
+#: src/editortab.cpp:647 src/editortab.cpp:700
+msgctxt "@info:status"
+msgid ""
+"Previous entry which is translated differently in the file being merged, "
+"including empty translations in merge source"
+msgstr "上一个合并文件中不同的翻译条目，包括合并资源中的空翻译"
+
+#: src/editortab.cpp:655 src/editortab.cpp:707
+msgctxt "@action:inmenu"
+msgid "Next different"
+msgstr "下一个差异"
+
+#: src/editortab.cpp:656 src/editortab.cpp:708
+msgctxt "@info:status"
+msgid ""
+"Next entry which is translated differently in the file being merged, "
+"including empty translations in merge source"
+msgstr "下一个合并文件中不同的翻译条目，包括合并资源中的空翻译"
+
+#: src/editortab.cpp:664
+msgctxt "@action:inmenu"
+msgid "Next different approved"
+msgstr "下一个核准的差异"
+
+#: src/editortab.cpp:670 src/editortab.cpp:715
+msgctxt "@action:inmenu"
+msgid "Copy from merging source"
+msgstr "从合并资源复制"
+
+#: src/editortab.cpp:676 src/editortab.cpp:720
+msgctxt "@action:inmenu"
+msgid "Copy all new translations"
+msgstr "复制所有新的翻译"
+
+#: src/editortab.cpp:677
+msgctxt "@info:status"
+msgid "This changes only empty and non-ready entries in base file"
+msgstr "这仅会更改基准文件中的空条目和未就绪条目"
+
+#: src/editortab.cpp:685 src/editortab.cpp:727
+msgctxt "@action:inmenu"
+msgid "Copy to merging source"
+msgstr "复制到合并资源"
+
+#: src/editortab.cpp:692
+msgctxt "@action:inmenu"
+msgid "Open file for secondary sync"
+msgstr "打开要二级同步的文件"
+
+#: src/editortab.cpp:721
+msgctxt "@info:status"
+msgid "This changes only empty entries"
+msgstr "这仅会更改空条目"
+
+#: src/editortab.cpp:752
+msgctxt "editor tab name"
+msgid "(recovered)"
+msgstr "(已恢复)"
+
+#: src/editortab.cpp:794 src/editortab.cpp:947
+msgctxt "@info"
+msgid ""
+"The document contains unsaved changes.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"该文档包含尚未保存的改变。\n"
+"您想要保存还是放弃这些改变？"
+
+#: src/editortab.cpp:795 src/editortab.cpp:948
+#: src/glossary/glossarywindow.cpp:506
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "警告"
+
+#: src/editortab.cpp:891
+#, kde-format
+msgctxt "@info"
+msgid "Error opening the file <filename>%1</filename>, line: %2"
+msgstr "打开文件 <filename>%1</filename> 时出错，行：%2"
+
+#: src/editortab.cpp:892
+#, kde-format
+msgctxt "@info"
+msgid "Error opening the file <filename>%1</filename>"
+msgstr "打开文件 <filename>%1</filename> 时出错"
+
+#: src/editortab.cpp:915
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Error saving the file <filename>%1</filename>\n"
+"Do you want to save to another file or cancel?"
+msgstr ""
+"保存文件 <filename>%1</filename> 时出错\n"
+"您要保存到另一个文件或者取消吗？"
+
+#: src/editortab.cpp:917
+msgctxt "@title"
+msgid "Error"
+msgstr "错误"
+
+#: src/editortab.cpp:925
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Could not perform file autosaving.\n"
+"The target file was <filename>%1</filename>."
+msgstr ""
+"无法进行自动保存。\n"
+"目标文件为 <filename>%1</filename>。"
+
+#: src/editortab.cpp:974
+msgctxt "@title"
+msgid "Jump to Entry"
+msgstr "跳转到条目"
+
+#: src/editortab.cpp:975
+msgctxt "@label:spinbox"
+msgid "Enter entry number:"
+msgstr "输入条目号："
+
+#: src/editortab.cpp:1050
+#, kde-format
+msgctxt "@info:status"
+msgid "Current: %1"
+msgstr "当前：%1"
+
+#: src/editortab.cpp:1228
+msgctxt "@option:check trans-unit state"
+msgid "Translated"
+msgstr "已翻译"
+
+#: src/editortab.cpp:1229
+msgctxt "@option:check trans-unit state"
+msgid "Signed-off"
+msgstr "标为关闭"
+
+#: src/editortab.cpp:1230
+msgctxt "@option:check trans-unit state"
+msgid "Approved"
+msgstr "已核准"
+
+#: src/editortab.cpp:1233
+msgctxt "@info:tooltip"
+msgid "Translation is done (although still may need a review)"
+msgstr "翻译已完成(尽管仍需审阅)"
+
+#: src/editortab.cpp:1234
+msgctxt "@info:tooltip"
+msgid "Translation received positive review"
+msgstr "翻译收到正面审阅"
+
+#: src/editortab.cpp:1235
+msgctxt "@info:tooltip"
+msgid "Entry is fully localized (i.e. final)"
+msgstr "条目已完全本地化(例如，最终版)"
+
+#: src/editortab.cpp:1375
+msgctxt "@info"
+msgid ""
+"Cannot open source files: no scripts to do so are currently loaded. Refer to "
+"the Lokalize handbook for script examples and how to plug them into your "
+"project."
+msgstr ""
+"无法打开源文件：当前未装入完成此事的脚本。参考 Lokalize 手册中的脚本示例以及"
+"将脚本应用于您工程的方法。"
+
+#: src/editortab_findreplace.cpp:507
+msgctxt "@item Undo action item"
+msgid "Replace"
+msgstr "替换"
+
+#: src/editortab_findreplace.cpp:592
+msgid ""
+"Lokalize has reached end of document. Do you want to continue from start?"
+msgstr "Lokalize 已到达文档末尾。您想要从开头继续吗？"
+
+#: src/editortab_findreplace.cpp:592 src/editortab_findreplace.cpp:601
+msgctxt "@title"
+msgid "Spellcheck"
+msgstr "拼写检查"
+
+#: src/editortab_findreplace.cpp:601
+msgid "Lokalize has finished spellchecking"
+msgstr "Lokalize 已完成拼写检查"
+
+#: src/editortab_findreplace.cpp:711
+#, kde-format
+msgctxt "@info words count"
+msgid "Source text words: %1<br/>Target text words: %2"
+msgstr "源文本单词：%1<br/>目标文本单词：%2"
+
+#: src/editortab_findreplace.cpp:712
+msgctxt "@title"
+msgid "Word Count"
+msgstr "单词计数"
+
+#. i18n: ectx: Menu (file)
+#: src/editorui.rc:4 src/lokalizemainwindowui.rc:4
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (edit)
+#: src/editorui.rc:32
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (glossary)
+#: src/editorui.rc:64
+msgid "&Glossary"
+msgstr "词汇表(&G)"
+
+#. i18n: ectx: Menu (webquery)
+#: src/editorui.rc:89
+msgid "&WebQuery"
+msgstr "网络查询(&W)"
+
+#. i18n: ectx: Menu (tmquery)
+#: src/editorui.rc:106
+msgid "Translation &Memory"
+msgstr "翻译存储(&M)"
+
+#. i18n: ectx: Menu (alttrans)
+#: src/editorui.rc:123
+msgid "Alternative Translations"
+msgstr "可选翻译"
+
+#. i18n: ectx: Menu (go)
+#: src/editorui.rc:141 src/project/projectmanagerui.rc:4
+msgid "&Go"
+msgstr "转到(&G)"
+
+#. i18n: ectx: Menu (bookmarks)
+#: src/editorui.rc:171
+msgid "&Bookmarks"
+msgstr "书签(&B)"
+
+#. i18n: ectx: Menu (merge)
+#: src/editorui.rc:178
+msgid "S&ync"
+msgstr "同步(&Y)"
+
+#. i18n: ectx: Menu (mergesecondary)
+#: src/editorui.rc:188
+msgid "&Secondary sync source"
+msgstr "二级同步源(&S)"
+
+#. i18n: ectx: Menu (toolviews)
+#: src/editorui.rc:210 src/lokalizemainwindowui.rc:45
+msgid "Tool&views"
+msgstr "工具视图(&V)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/editorui.rc:233 src/filesearch/filesearchtabui.rc:10
+#: src/project/projectmanagerui.rc:18 src/tm/translationmemoryrui.rc:10
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: src/editorview.cpp:69
+msgctxt "@label whether entry is fuzzy"
+msgid "Not ready:"
+msgstr "未就绪："
+
+#: src/editorview.cpp:71
+msgctxt "@label whether entry is untranslated"
+msgid "Untranslated:"
+msgstr "未翻译："
+
+#: src/editorview.cpp:82
+msgctxt "@action"
+msgid "Hide"
+msgstr "隐藏"
+
+#: src/editorview.cpp:92
+#, kde-format
+msgctxt "@info:label cursor position"
+msgid "Column: %1"
+msgstr "栏：%1"
+
+#: src/editorview.cpp:107
+msgid ""
+"<qt><p><b>Original String</b></p>\n"
+"<p>This part of the window shows the original message\n"
+"of the currently displayed entry.</p></qt>"
+msgstr ""
+"<qt><p><b>原始字符串</b></p>\n"
+"<p>窗口的这部分显示了当前所显示条目的原始文本。</p></qt>"
+
+#: src/editorview.cpp:194
+#, kde-format
+msgctxt "@title:tab"
+msgid "Plural Form %1"
+msgstr "复数形式 %1"
+
+#: src/editorview.cpp:280
+msgctxt "@item Undo action item"
+msgid "Unwrap"
+msgstr "打开"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, querySource)
+#: src/filesearch/filesearchoptions.ui:32
+msgid ""
+"Search expression for source language part.\n"
+"Press Ctrl+L to go to this control.\n"
+"Press Enter to start the search.\n"
+"Press Esc to stop the search."
+msgstr ""
+"在源语言中搜索的表达式。\n"
+"按下回车键开始搜索。\n"
+"按下 Ctrl+L 进入此控件。\n"
+"按下 Esc 停止搜索。"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, queryTarget)
+#: src/filesearch/filesearchoptions.ui:50 src/tm/queryoptions.ui:74
+msgid ""
+"Search expression for target language part.\n"
+"Press Enter to start the search."
+msgstr ""
+"在目标语言中搜索的表达式。\n"
+"按下回车键开始搜索。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, regEx)
+#: src/filesearch/filesearchoptions.ui:57
+msgid "Regular expressions"
+msgstr "正则表达式"
+
+#. i18n: ectx: property (text), widget (QPushButton, doFind)
+#: src/filesearch/filesearchoptions.ui:64 src/tm/queryoptions.ui:186
+msgid "&Search"
+msgstr "搜索(&S)"
+
+#: src/filesearch/filesearchtab.cpp:83
+msgctxt "@title:window"
+msgid "File List"
+msgstr "文件列表"
+
+#: src/filesearch/filesearchtab.cpp:85
+msgid "Drop translation files here..."
+msgstr "将翻译文件托到此处..."
+
+#: src/filesearch/filesearchtab.cpp:349 src/tm/tmtab.cpp:71
+msgctxt "@title:column"
+msgid "File"
+msgstr "文件"
+
+#: src/filesearch/filesearchtab.cpp:453
+msgctxt "@title:window"
+msgid "Search and replace in files"
+msgstr "在多个文件中查找和替换"
+
+#: src/filesearch/filesearchtab.cpp:487 src/tm/tmtab.cpp:411
+msgid "Copy source to clipboard"
+msgstr "复制源信息到剪贴板"
+
+#: src/filesearch/filesearchtab.cpp:493 src/tm/tmtab.cpp:417
+msgid "Copy target to clipboard"
+msgstr "复制目标信息到剪贴板"
+
+#: src/filesearch/filesearchtab.cpp:499 src/tm/tmtab.cpp:423
+msgid "Open file"
+msgstr "打开文件"
+
+#: src/filesearch/filesearchtab.cpp:540
+msgctxt "@title actions category"
+msgid "Search and replace in files"
+msgstr "在多个文件中查找和替换"
+
+#: src/filesearch/filesearchtab.cpp:815
+msgctxt "@title:window"
+msgid "Mass replace"
+msgstr "大规模替换"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/filesearch/massreplaceoptions.ui:20
+msgid "With:"
+msgstr "使用："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/filesearch/massreplaceoptions.ui:43
+msgid "Replace:"
+msgstr "替换："
+
+#. i18n: ectx: property (text), widget (QPushButton, doPreview)
+#: src/filesearch/massreplaceoptions.ui:50
+msgid "Preview"
+msgstr "预览"
+
+#. i18n: ectx: property (text), widget (QPushButton, doReplace)
+#: src/filesearch/massreplaceoptions.ui:63
+msgid "Mass Replace"
+msgstr "大规模替换"
+
+#: src/glossary/glossary.cpp:233
+msgctxt "@title:column"
+msgid "Subject Field"
+msgstr "主题字段"
+
+#: src/glossary/glossaryview.cpp:61 src/glossary/glossaryview.cpp:69
+#: src/glossary/glossarywindow.cpp:426 src/glossary/glossarywindow.cpp:452
+#: src/glossary/glossarywindow.cpp:462 src/glossary/glossarywindow.cpp:481
+msgctxt "@title:window"
+msgid "Glossary"
+msgstr "词汇表"
+
+#: src/glossary/glossaryview.cpp:81
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Translations for common terms appear here.</p><p>Press shortcut displayed "
+"near the term to insert its translation.</p><p>Use context menu to add new "
+"entry (tip:&nbsp;select words in original and translation fields before "
+"calling <interface>Define&nbsp;new&nbsp;term</interface>).</p>"
+msgstr ""
+"<p>在此翻译一些常见的术语。</p><p>按下显示的快捷键以插入术语翻译。</p><p>使用"
+"上下文菜单以添加新的术语(提示：&nbsp;在调用 <interface>定义&nbsp;新&nbsp;术语"
+"</interface> 之前先选择原始文本和翻译区域中的单词)。</p>"
+
+#: src/glossary/glossarywindow.cpp:253
+msgctxt "@action:button reloads glossary from disk"
+msgid "Restore from disk"
+msgstr "从磁盘恢复"
+
+#: src/glossary/glossarywindow.cpp:254
+msgctxt "@info:tooltip"
+msgid "Reload glossary from disk, discarding any changes"
+msgstr "从磁盘重新装入词汇表，放弃所有更改"
+
+#: src/glossary/glossarywindow.cpp:505
+msgctxt "@info"
+msgid ""
+"The glossary contains unsaved changes.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"该词汇表包含尚未保存的改变。\n"
+"您想要保存还是放弃这些改变？"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/glossary/termedit.ui:19
+msgid "English synonyms (double-click to edit):"
+msgstr "英文同义词(双击进行编辑)："
+
+#. i18n: ectx: property (text), widget (QToolButton, addEngTerm)
+#. i18n: ectx: property (text), widget (QToolButton, addTargetTerm)
+#: src/glossary/termedit.ui:26 src/glossary/termedit.ui:54
+msgid "+"
+msgstr "+"
+
+#. i18n: ectx: property (text), widget (QToolButton, remEngTerm)
+#. i18n: ectx: property (text), widget (QToolButton, remTargetTerm)
+#: src/glossary/termedit.ui:33 src/glossary/termedit.ui:61
+msgid "-"
+msgstr "-"
+
+#. i18n: ectx: property (text), widget (QLabel, l2)
+#: src/glossary/termedit.ui:47
+msgid "Corresponding target language synonyms:"
+msgstr "对应目标语言的同义词："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/glossary/termedit.ui:73
+msgid "Subject field:"
+msgstr "主题字段："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, subjectField)
+#: src/glossary/termedit.ui:80
+msgctxt "@info:tooltip"
+msgid ""
+"When adding a new item, press enter after you have typed its name for "
+"changes to take effect"
+msgstr "添加新项时，请在您输入完名称后按回车键以使更改生效"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/glossary/termedit.ui:92
+msgid "Definition:"
+msgstr "定义："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/glossary/termedit.ui:116
+msgid ""
+"Note: one glossary entry corresponds exactly to one term, not word/word "
+"sequence.\n"
+"\n"
+"That is, there may be several entries with the same word/word sequence "
+"expressing different meanings."
+msgstr ""
+"注意：每个词汇表条目都精确对应一条术语，而不是对应单词或词组。\n"
+"\n"
+"这意味着可能有多条相同的单词或词组分别表达不同的含义。"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_skipTags)
+#: src/kaider_findextension.ui:30
+msgid "Skip tags"
+msgstr "跳过标签"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_skipTags)
+#: src/kaider_findextension.ui:33
+msgctxt "@option:check"
+msgid "Skip markup"
+msgstr "跳过标记"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_ignoreAccelMarks)
+#: src/kaider_findextension.ui:43
+msgctxt "@option:check"
+msgid "Ignore accelerator marks"
+msgstr "忽略快捷键标记"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_notes)
+#: src/kaider_findextension.ui:54
+msgid "Include notes"
+msgstr "包含注解"
+
+#: src/lokalizemainwindow.cpp:143
+msgctxt "@info"
+msgid "No Qt Sql modules were found. Translation memory will not work."
+msgstr "未找到 Qt Sql 模块。翻译存储将不能工作。"
+
+#: src/lokalizemainwindow.cpp:396 src/project/project.cpp:245
+msgid "TM facility requires SQLite Qt module."
+msgstr "翻译存储需要 SQLite Qt 模块。"
+
+#: src/lokalizemainwindow.cpp:396 src/project/project.cpp:245
+msgid "No SQLite module available"
+msgstr "没有可用的 SQLite 模块"
+
+#: src/lokalizemainwindow.cpp:464 src/tm/tmtab.cpp:495
+msgctxt "@title actions category"
+msgid "Translation Memory"
+msgstr "翻译存储"
+
+#: src/lokalizemainwindow.cpp:465 src/project/projecttab.cpp:185
+msgctxt "@title actions category"
+msgid "Project"
+msgstr "工程"
+
+#: src/lokalizemainwindow.cpp:504
+msgid "Next tab"
+msgstr "下一个标签"
+
+#: src/lokalizemainwindow.cpp:507
+msgid "Previous tab"
+msgstr "上一个标签"
+
+#: src/lokalizemainwindow.cpp:513
+msgctxt "@action:inmenu"
+msgid "Glossary"
+msgstr "词汇表"
+
+#: src/lokalizemainwindow.cpp:517
+msgctxt "@action:inmenu"
+msgid "Translation memory"
+msgstr "翻译存储"
+
+#: src/lokalizemainwindow.cpp:521 src/tm/tmtab.cpp:498
+msgctxt "@action:inmenu"
+msgid "Manage translation memories"
+msgstr "管理翻译存储"
+
+#: src/lokalizemainwindow.cpp:525
+msgctxt "@action:inmenu"
+msgid "Project overview"
+msgstr "工程概述"
+
+#: src/lokalizemainwindow.cpp:529
+msgctxt "@action:inmenu"
+msgid "Configure project"
+msgstr "配置工程"
+
+#: src/lokalizemainwindow.cpp:532 src/project/projecttab.cpp:84
+msgctxt "@action:inmenu"
+msgid "Create new project"
+msgstr "创建新工程"
+
+#: src/lokalizemainwindow.cpp:535 src/project/projecttab.cpp:85
+#: src/project/projecttab.cpp:188
+msgctxt "@action:inmenu"
+msgid "Open project"
+msgstr "打开工程"
+
+#: src/lokalizemainwindow.cpp:538
+msgctxt "@action:inmenu"
+msgid "Open recent project"
+msgstr "打开最近的工程"
+
+#: src/lokalizemainwindow.cpp:546
+msgctxt "@action:inmenu"
+msgid "Search and replace in files"
+msgstr "在文件中查找和替换"
+
+#: src/lokalizemainwindow.cpp:549
+msgctxt "@action:inmenu"
+msgid "Find next in files"
+msgstr "在文件中查找下一个"
+
+#: src/lokalizemainwindow.cpp:553
+msgctxt "@action:inmenu"
+msgid "Widget text capture"
+msgstr "部件文本捕获"
+
+#: src/lokalizemainwindow.cpp:731
+msgctxt "@info"
+msgid ""
+"Error opening the following files:\n"
+"\n"
+msgstr ""
+"打开以下文件时出错：\n"
+"\n"
+
+#. i18n: ectx: Menu (project)
+#: src/lokalizemainwindowui.rc:17
+msgid "&Project"
+msgstr "工程(&P)"
+
+#. i18n: ectx: Menu (project_actions)
+#: src/lokalizemainwindowui.rc:27
+msgid "&Scripts"
+msgstr "脚本(&S)"
+
+#: src/main.cpp:56
+msgid ""
+"Computer-aided translation system.\n"
+"Do not translate what had already been translated."
+msgstr ""
+"计算机辅助翻译系统。\n"
+"不再重复翻译。"
+
+#: src/main.cpp:60
+msgctxt "@title"
+msgid "Lokalize"
+msgstr "Lokalize"
+
+#: src/main.cpp:61
+msgctxt "@info:credit"
+msgid ""
+"(c) 2007-2013 Nick Shaforostoff\n"
+"(c) 1999-2006 The KBabel developers"
+msgstr ""
+"(c) 2007-2013 Nick Shaforostoff\n"
+"(c) 1999-2006 The KBabel 开发者"
+
+#: src/main.cpp:62
+msgid "Nick Shaforostoff"
+msgstr "Nick Shaforostoff"
+
+#: src/main.cpp:63
+msgid "Google Inc."
+msgstr "Google Inc."
+
+#: src/main.cpp:63
+msgid "sponsored development as part of Google Summer Of Code program"
+msgstr "Google 代码之夏项目的赞助开发部分"
+
+#: src/main.cpp:64
+msgid "Translate-toolkit"
+msgstr "翻译工具"
+
+#: src/main.cpp:64
+msgid "provided excellent cross-format converting scripts"
+msgstr "提供完美的跨格式转换脚本"
+
+#: src/main.cpp:65
+msgid "Viesturs Zarins"
+msgstr "Viesturs Zarins"
+
+#: src/main.cpp:65
+msgid "project tree merging translation+templates"
+msgstr "工程树形合并翻译和模板"
+
+#: src/main.cpp:66
+msgid "Stephan Johach"
+msgstr "Stephan Johach"
+
+#: src/main.cpp:66 src/main.cpp:67 src/main.cpp:70
+msgid "bug fixing patches"
+msgstr "错误修复补丁"
+
+#: src/main.cpp:67
+msgid "Chusslove Illich"
+msgstr "Chusslove Illich"
+
+#: src/main.cpp:68
+msgid "Jure Repinc"
+msgstr "Jure Repinc"
+
+#: src/main.cpp:68
+msgid "testing and bug fixing"
+msgstr "测试和错误修复"
+
+#: src/main.cpp:69
+msgid "Stefan Asserhall"
+msgstr "Stefan Asserhall"
+
+#: src/main.cpp:69
+msgid "patches"
+msgstr "补丁"
+
+#: src/main.cpp:70
+msgid "Papp Laszlo"
+msgstr "Papp Laszlo"
+
+#: src/main.cpp:71
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#: src/main.cpp:71
+msgid "XLIFF improvements"
+msgstr "XLIFF 改善"
+
+#: src/main.cpp:77
+msgid "Do not scan files of the project."
+msgstr "不扫描工程中的文件。"
+
+#: src/main.cpp:78
+msgid "Load specified project."
+msgstr "装入指定的工程。"
+
+#: src/main.cpp:79
+msgid "Document to open"
+msgstr "要打开的文档"
+
+#: src/mergemode/mergecatalog.cpp:267
+msgctxt "@item Undo action item"
+msgid "Accept change in translation"
+msgstr "接受翻译中的更改"
+
+#: src/mergemode/mergecatalog.cpp:325
+msgctxt "@item Undo action item"
+msgid "Accept all new translations"
+msgstr "接受所有新的翻译"
+
+#: src/mergemode/mergeview.cpp:47 src/mergemode/mergeview.cpp:52
+msgctxt ""
+"@title:window that displays difference between current file and 'merge "
+"source'"
+msgid "Primary Sync"
+msgstr "一级同步"
+
+#: src/mergemode/mergeview.cpp:47 src/mergemode/mergeview.cpp:53
+msgctxt ""
+"@title:window that displays difference between current file and 'merge "
+"source'"
+msgid "Secondary Sync"
+msgstr "二级同步"
+
+#: src/mergemode/mergeview.cpp:60
+msgctxt "@info:tooltip"
+msgid "Drop file to be merged into / synced with the current one here"
+msgstr "拖动文件至此以与当前的文件合并/同步"
+
+#: src/mergemode/mergeview.cpp:243
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Error opening the file <filename>%1</filename> for synchronization, error "
+"line: %2"
+msgstr "打开文件 <filename>%1</filename> 进行同步时出错，出错行：%2"
+
+#: src/mergemode/mergeview.cpp:379
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Different entries: %1\n"
+"Unmatched entries: %2"
+msgstr ""
+"不同的条目：%1\n"
+"不匹配的条目：%2"
+
+#: src/msgctxtview.cpp:50
+msgctxt "@title toolview name"
+msgid "Unit metadata"
+msgstr "单位元数据"
+
+#: src/msgctxtview.cpp:109
+msgctxt ""
+"@info notes to translation unit which expire when the catalog is closed"
+msgid "<b>Temporary notes:</b>"
+msgstr "<b>临时注解：</b>"
+
+#: src/msgctxtview.cpp:121
+msgctxt "@info translation unit metadata"
+msgid "<b>Phase:</b><br>"
+msgstr "<b>阶段：</b><br>"
+
+#: src/msgctxtview.cpp:144
+msgctxt "@info PO comment parsing"
+msgid "<br><b>Files:</b><br>"
+msgstr "<br><b>文件：</b><br>"
+
+#: src/msgctxtview.cpp:152
+msgctxt "@info PO comment parsing"
+msgid "<br><b>Context:</b><br>"
+msgstr "<br><b>上下文：</b><br>"
+
+#: src/noteeditor.cpp:58
+msgctxt "@info:label"
+msgid "From:"
+msgstr "从："
+
+#: src/noteeditor.cpp:62
+msgctxt "@info:tooltip"
+msgid "Save empty note to remove it"
+msgstr "保存空注解以删除它"
+
+#: src/noteeditor.cpp:63
+msgctxt "@info:tooltip"
+msgid "Author of this note"
+msgstr "此注解的作者"
+
+#: src/noteeditor.cpp:78
+msgid "Ctrl+Enter"
+msgstr "Ctrl+Enter"
+
+#: src/noteeditor.cpp:79
+msgid "Esc"
+msgstr "Esc"
+
+#: src/noteeditor.cpp:132
+msgctxt "@info XLIFF notes representation"
+msgid "<b>Notes:</b>"
+msgstr "<b>注解：</b>"
+
+#: src/noteeditor.cpp:144
+msgctxt "link to edit note"
+msgid "edit..."
+msgstr "编辑..."
+
+#: src/noteeditor.cpp:149
+msgctxt "link to add a note"
+msgid "Add..."
+msgstr "添加..."
+
+#: src/noteeditor.cpp:152
+msgctxt "link to add a note"
+msgid "Add a note..."
+msgstr "添加注解..."
+
+#: src/phaseswindow.cpp:148
+msgctxt "@title:column"
+msgid "Date"
+msgstr "日期"
+
+#: src/phaseswindow.cpp:149
+msgctxt "@title:column"
+msgid "Process"
+msgstr "进度"
+
+#: src/phaseswindow.cpp:150
+msgctxt "@title:column"
+msgid "Company"
+msgstr "公司"
+
+#: src/phaseswindow.cpp:151
+msgctxt "@title:column"
+msgid "Person"
+msgstr "个人"
+
+#: src/phaseswindow.cpp:152
+msgctxt "@title:column"
+msgid "Tool"
+msgstr "工具"
+
+#: src/phaseswindow.cpp:177
+msgid "Translation"
+msgstr "翻译"
+
+#: src/phaseswindow.cpp:177
+msgid "Review"
+msgstr "审阅"
+
+#: src/phaseswindow.cpp:177
+msgid "Approval"
+msgstr "核准"
+
+#: src/phaseswindow.cpp:181
+msgid "Process"
+msgstr "进度"
+
+#: src/phaseswindow.cpp:244
+msgctxt "@item Undo action item"
+msgid "Edit phases"
+msgstr "编辑阶段"
+
+#. i18n: ectx: label, entry, group (Identity)
+#: src/prefs/lokalize.kcfg:14
+msgid "Translator's name"
+msgstr "翻译者姓名"
+
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#: src/prefs/lokalize.kcfg:15
+msgid "Translator's name in English"
+msgstr "翻译者英文名"
+
+#. i18n: ectx: label, entry, group (Identity)
+#: src/prefs/lokalize.kcfg:21
+msgid "Localized name"
+msgstr "本地化姓名"
+
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#: src/prefs/lokalize.kcfg:22
+msgid "Translator's name in target language"
+msgstr "翻译者目标语言姓名"
+
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#: src/prefs/lokalize.kcfg:28
+msgid "Translator's email"
+msgstr "翻译者电子邮件"
+
+#. i18n: ectx: label, entry, group (Identity)
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#: src/prefs/lokalize.kcfg:34 src/prefs/lokalize.kcfg:35
+msgid "Default language code for new projects"
+msgstr "新工程的默认语言代码"
+
+#. i18n: ectx: label, entry, group (Identity)
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#: src/prefs/lokalize.kcfg:41 src/prefs/lokalize.kcfg:42
+msgid "Default mailing list for new projects"
+msgstr "新工程的默认邮件列表"
+
+#. i18n: ectx: label, entry (CleverEditing), group (Appearance)
+#. i18n: ectx: label, entry (OnFlySpellCheck), group (Appearance)
+#. i18n: ectx: label, entry (WhitespacePoints), group (Appearance)
+#: src/prefs/lokalize.kcfg:61 src/prefs/lokalize.kcfg:77
+#: src/prefs/lokalize.kcfg:82
+msgid ""
+"\n"
+"        "
+msgstr ""
+"\n"
+"        "
+
+#. i18n: ectx: label, entry (MsgFont), group (Appearance)
+#: src/prefs/lokalize.kcfg:67
+msgid "Font for Messages"
+msgstr "信息字体"
+
+#: src/prefs/prefs.cpp:113
+msgctxt "@title:tab"
+msgid "Identity"
+msgstr "身份"
+
+#: src/prefs/prefs.cpp:119
+msgctxt "@title:tab"
+msgid "Editing"
+msgstr "编辑"
+
+#: src/prefs/prefs.cpp:125
+msgctxt "@title:tab"
+msgid "Appearance"
+msgstr "外观"
+
+#: src/prefs/prefs.cpp:131
+msgctxt "@title:tab"
+msgid "Translation Memory"
+msgstr "翻译存储"
+
+#: src/prefs/prefs.cpp:140
+msgctxt "@title:tab"
+msgid "Spellcheck"
+msgstr "拼写检查"
+
+#: src/prefs/prefs.cpp:186
+msgid ""
+"You have accessed a feature that requires a project to be loaded. Do you "
+"want to create a new project or open an existing project?"
+msgstr ""
+
+#: src/prefs/prefs.cpp:187
+msgctxt "@action"
+msgid "New"
+msgstr "新建"
+
+#: src/prefs/prefs.cpp:187
+msgctxt "@action"
+msgid "Open"
+msgstr "打开"
+
+#: src/prefs/prefs.cpp:202
+msgid "*.lokalize *.ktp|Lokalize translation project"
+msgstr "*.lokalize *.ktp|Lokalize 翻译工程"
+
+#: src/prefs/prefs.cpp:219
+msgid "*.lokalize|Lokalize translation project"
+msgstr "*.lokalize|Lokalize 工程文件"
+
+#: src/prefs/prefs.cpp:256
+msgctxt "@title:tab"
+msgid "General"
+msgstr "常规"
+
+#: src/prefs/prefs.cpp:298
+msgctxt "@title:tab"
+msgid "Advanced"
+msgstr "高级"
+
+#: src/prefs/prefs.cpp:317
+msgctxt "@title:tab"
+msgid "Scripts"
+msgstr "脚本"
+
+#: src/prefs/prefs.cpp:323
+msgctxt "@title:tab"
+msgid "Personal"
+msgstr "个人"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/prefs/prefs_appearance.ui:24
+msgid "Editor font:"
+msgstr "编辑器字体："
+
+#. i18n: ectx: property (toolTip), widget (KFontRequester, kcfg_MsgFont)
+#: src/prefs/prefs_appearance.ui:31
+msgid "Change the font for the editor"
+msgstr "更改编辑器的字体"
+
+#. i18n: ectx: property (whatsThis), widget (KFontRequester, kcfg_MsgFont)
+#: src/prefs/prefs_appearance.ui:34
+msgid "Choose a new font for the area where you write the translated message."
+msgstr "为翻译信息的区域选择一个新字体。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Leds)
+#: src/prefs/prefs_appearance.ui:41
+msgid "Display LEDS for message status"
+msgstr "用信号灯显示信息状态"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Leds)
+#: src/prefs/prefs_appearance.ui:44
+msgid ""
+"If checked, LEDS will be shown to display the message status: Fuzzy, "
+"Untranslated or Error. If unchecked, no LEDs will be displayed."
+msgstr ""
+"如果选中，将显示一个表示信息状态的发光二极管：模糊、未翻译或 错误。如果不选"
+"中，则不显示状态指示灯。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Leds)
+#: src/prefs/prefs_appearance.ui:47
+msgid ""
+"LEDs to indicate Fuzzy and Untranslated status as well as cursor column "
+"number"
+msgstr "用信号灯显示模糊翻译、未翻译状态以及光标所在列数"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
+#: src/prefs/prefs_appearance.ui:56
+msgid "Text colors for the changes in the message."
+msgstr "消息中所更改文本的颜色。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/prefs/prefs_appearance.ui:59
+msgid "String Matching"
+msgstr "字符串匹配"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/prefs/prefs_appearance.ui:65
+msgctxt "@label:chooser"
+msgid "Text added in the newer string:"
+msgstr "在新字符串中添加的文本："
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_AddColor)
+#: src/prefs/prefs_appearance.ui:72
+msgid "Change the color for the new text added"
+msgstr "更改新增文本的颜色"
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_AddColor)
+#: src/prefs/prefs_appearance.ui:75
+msgid ""
+"You can set another color for viewing the text that was added to the string."
+msgstr "您可以设定另一种颜色以查看新添加入字符串的文本。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/prefs/prefs_appearance.ui:85
+msgctxt "@label:chooser"
+msgid "Text removed in the newer string:"
+msgstr "在新字符串中删除的文本："
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_DelColor)
+#: src/prefs/prefs_appearance.ui:92
+msgid "Change the color for the text removed"
+msgstr "更改已删除文本的颜色"
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_DelColor)
+#: src/prefs/prefs_appearance.ui:95
+msgid ""
+"You can set another color for viewing the text that was removed from the "
+"string."
+msgstr "您可以设定另一种颜色以查看从字符串中删除的文本。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HighlightSpaces)
+#: src/prefs/prefs_appearance.ui:121
+msgid ""
+"Check to see if a string ends in a space (which is often important when "
+"displaying it in the user interface, or when it gets concatenated with "
+"others)."
+msgstr ""
+"检查字符串是否以空格结尾(经常在用户界面中显示或与其他字符串连接时很重要)。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightSpaces)
+#: src/prefs/prefs_appearance.ui:124
+msgid "Highlight spaces at the end"
+msgstr "突出显示末尾的空格"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoApprove)
+#: src/prefs/prefs_editor.ui:36
+msgid "Set 'approved' status automatically when editing started"
+msgstr "编辑开始时自动设为“已核准”状态"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_MouseWheelGo)
+#: src/prefs/prefs_editor.ui:43
+msgid ""
+"If set, mouse wheel goes to previous or next unit, otherwise it scrolls text"
+msgstr "如果选定，滚动鼠标滑轮将转到上个或下个单元，而不是滚动文本"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_MouseWheelGo)
+#: src/prefs/prefs_editor.ui:46
+msgid ""
+"<html>When this option is enabled, the mouse wheel is used to go to the "
+"previous or next translation unit (without modifier keys). Modifier keys can "
+"be used to change this behavior. Use:<ul><li><b>Shift</b> to scroll within "
+"the text of the current unit,</li><li><b>Ctrl+Shift</b> to go to previous or "
+"next non-ready unit,</li><li><b>Ctrl</b> to go to previous or next non-ready "
+"not empty unit,</li><li><b>Alt</b> to go to previous or next untranslated "
+"unit.</li></ul>When the option is disabled, the mouse wheel scrolls within "
+"the text of the current translation unit.</html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MouseWheelGo)
+#: src/prefs/prefs_editor.ui:49
+msgid "Mouse wheel goes to previous or next translation unit"
+msgstr "滚动鼠标滑轮转到上个或下个翻译单元"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, l1)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_WordCompletionLength)
+#: src/prefs/prefs_editor.ui:56 src/prefs/prefs_editor.ui:66
+msgid "Set to 2 to disable word completion"
+msgstr "设置为 2 禁用单词补全"
+
+#. i18n: ectx: property (text), widget (QLabel, l1)
+#: src/prefs/prefs_editor.ui:59
+msgid "Minimum word length for word completion"
+msgstr "单词补全的最小单词长度"
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_WordCompletionLength)
+#: src/prefs/prefs_editor.ui:69
+msgid "Disable word completion"
+msgstr "禁用单词补全"
+
+#. i18n: ectx: property (whatsThis), widget (QWidget, prefs_identity)
+#: src/prefs/prefs_identity.ui:14
+msgid ""
+"Fill in your identity and information about your translation team. This "
+"information is used when updating the header of a file."
+msgstr "填写您的身份和关于您翻译团队的信息。这些信息将会在更新文件头部时使用。"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: src/prefs/prefs_identity.ui:26
+msgctxt "@label:chooser"
+msgid "Default language:"
+msgstr "默认语言："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: src/prefs/prefs_identity.ui:36
+msgctxt "@label:textbox"
+msgid "Email:"
+msgstr "电子邮件："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: src/prefs/prefs_identity.ui:49
+msgctxt "@label:textbox"
+msgid "Name:"
+msgstr "姓名："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_authorName)
+#: src/prefs/prefs_identity.ui:62
+msgid "Your name, in English"
+msgstr "您的英文姓名"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_authorName)
+#: src/prefs/prefs_identity.ui:65
+msgid "Please enter here your name and surname written in English"
+msgstr "请在此以英语输入您的姓和名"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/prefs/prefs_identity.ui:72
+msgctxt "@label:textbox"
+msgid "Default mailing list:"
+msgstr "默认邮件列表："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_DefaultMailingList)
+#: src/prefs/prefs_identity.ui:82
+msgid "The email of your team mailing list"
+msgstr "您所属团队邮件列表的邮件地址"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_DefaultMailingList)
+#: src/prefs/prefs_identity.ui:85
+msgid "Write the email of your translating team mailing list"
+msgstr "写下您所属翻译团队邮件列表的电子邮件地址"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, DefaultLangCode)
+#: src/prefs/prefs_identity.ui:92
+msgid "Language you translate to"
+msgstr "您翻译的目标语言"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, DefaultLangCode)
+#: src/prefs/prefs_identity.ui:95
+msgid "Set the default language you are going to translate to"
+msgstr "设定您要翻译为的默认语言"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_authorEmail)
+#: src/prefs/prefs_identity.ui:115
+msgid "Write your email"
+msgstr "写下您的邮件"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_authorEmail)
+#: src/prefs/prefs_identity.ui:118
+msgid ""
+"Write your email here so it will appear in the po file header with your name"
+msgstr "写下您的电子邮件地址，以便让其与您的姓名一起出现在 po 文件的头部"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_authorLocalizedName)
+#: src/prefs/prefs_identity.ui:132
+msgid "Your name in your own language"
+msgstr "您的母语姓名"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_authorLocalizedName)
+#: src/prefs/prefs_identity.ui:135
+msgid ""
+"Write your name and surname in your language with your language alphabet."
+msgstr "用您自己语言的文字写下您的姓和名。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/prefs/prefs_identity.ui:142
+msgctxt "@label:textbox"
+msgid "Localized name:"
+msgstr "本地化姓名："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PrefetchTM)
+#: src/prefs/prefs_tm.ui:35
+msgid "If checked, get translation memory suggestions "
+msgstr "如果选中，则会获取翻译存储的建议 "
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_PrefetchTM)
+#: src/prefs/prefs_tm.ui:38
+msgid ""
+"If this is checked, the program will fetch translation memories as soon as "
+"you open a file."
+msgstr "如果选中此项，程序将会在您打开文件时立即获取翻译存储。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrefetchTM)
+#: src/prefs/prefs_tm.ui:41
+msgid "Prefetch translation memory suggestions on file open"
+msgstr "打开文件时预取翻译存储"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/prefs/prefs_tm.ui:48
+msgid "Maximum number of suggestions:"
+msgstr "最大建议数："
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SuggCount)
+#: src/prefs/prefs_tm.ui:55
+msgid "Set the maximum number of suggestions"
+msgstr "设定最大建议数"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_SuggCount)
+#: src/prefs/prefs_tm.ui:58
+#, fuzzy
+#| msgid "You can change the maximum number of suggestions, default is 10."
+msgid "You can change the maximum number of suggestions, default is 7."
+msgstr "您可以更改建议的最大数目，默认为 10。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoaddTM)
+#: src/prefs/prefs_tm.ui:65
+msgid "Update/Add edited entries to translation memory"
+msgstr "更新/添加已编辑条目至翻译存储"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ScanToTMOnOpen)
+#: src/prefs/prefs_tm.ui:72
+msgid "Add opened files to translation memory automatically"
+msgstr "自动添加打开的文件至翻译存储"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/project/prefs_project_advanced.ui:16
+msgid "Syntax"
+msgstr "语法"
+
+#. i18n: ectx: property (text), widget (QLabel, l0)
+#: src/project/prefs_project_advanced.ui:22
+msgctxt "@label:textbox"
+msgid "Accelerator:"
+msgstr "快捷键："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_Accel)
+#: src/project/prefs_project_advanced.ui:29
+msgid "Usually '&', but may also be '_' for GTK apps."
+msgstr "通常是“&”，但对于 GTK 程序也可能是“_”。"
+
+#. i18n: ectx: property (text), widget (QLabel, l1)
+#: src/project/prefs_project_advanced.ui:36
+msgctxt "@label:textbox"
+msgid "Markup:"
+msgstr "标记："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_Markup)
+#: src/project/prefs_project_advanced.ui:51
+msgid ""
+"Regular expression of markup. It is used for translation memory matching and "
+"for 'Insert tag' feature.\n"
+"\n"
+"A default value (suitable for XML-based texts) is:\n"
+"(<[^>]+>)+|(&[A-Za-z_:][A-Za-z0-9_\\.:-]*;)+\n"
+"\n"
+"It is only used for gettext PO files, as XLIFF format has its own way of "
+"specifying where markup is."
+msgstr ""
+"标记的正则表达式。它用于匹配翻译存储和“插入标签”特性。\n"
+"\n"
+"默认值(适用于基于 XML 的文本)为：\n"
+"(<[^>]+>)+|(&[A-Za-z_:][A-Za-z0-9_\\.:-]*;)+\n"
+"\n"
+"它只能用于 gettext PO 文件，而 XLIFF 格式有其自有的指定标记位置的方法。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/project/prefs_project_advanced.ui:61
+msgid "Paths"
+msgstr "路径"
+
+#. i18n: ectx: property (text), widget (QLabel, l2)
+#: src/project/prefs_project_advanced.ui:70
+msgctxt "@label:textbox"
+msgid "Template files folder:"
+msgstr "模板文件文件夹："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, potBaseDir)
+#: src/project/prefs_project_advanced.ui:91
+msgid ""
+"Usually your translation project will be a subproject of a project\n"
+"for translating same texts into multiple languages.\n"
+"\n"
+"Set this to path of a folder containing empty translation files\n"
+"(i.e. files without translation into any language)\n"
+"shared among all subprojects."
+msgstr ""
+"一个翻译项目会将相同文本翻译为多种语言，\n"
+"您的翻译项目通常是它们的一个子项目。\n"
+"\n"
+"将其设定为包含共享于全部子工程的空翻译文件\n"
+"(即不带有任何翻译的文件)的目录路径。"
+
+#. i18n: ectx: property (text), widget (QLabel, l3)
+#: src/project/prefs_project_advanced.ui:98
+msgctxt "@label:textbox"
+msgid "Branch folder:"
+msgstr "分支文件夹："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, branchDir)
+#: src/project/prefs_project_advanced.ui:125
+msgctxt ""
+"this message contains text from documentation, so use its translation when "
+"you're translating docs"
+msgid ""
+"This setting is for Sync Mode.\n"
+"\n"
+"Sync Mode may be used to make changes to translation\n"
+"for two branches simultaneously.\n"
+"\n"
+"Set this to path that corresponds to root folder of the branch project,\n"
+"and Secondary Sync view will automatically open files from branch.\n"
+"Then, each time you make changes in files of your main branch,\n"
+"they will automatically be replicated to the branch\n"
+"(of course, if it contains the same English string).\n"
+"\n"
+"See documentation for more details."
+msgstr ""
+"此设置用于同步模式。\n"
+"\n"
+"同步模式可用来同时修改两个分支的翻译。\n"
+"\n"
+"将其设定为分支工程的基准目录相符的路径\n"
+"(例如，工程的“翻译目录”作为二级分支)，\n"
+"而二级同步视图将自动从分支中打开文件。\n"
+"这样，每次您在您的主分支作出修改时，\n"
+"它们会自动复制到各个分支中\n"
+"(当然，要在它包含相同英文字符串的时候)。\n"
+"\n"
+"参见文档获取更多详情。"
+
+#. i18n: ectx: property (text), widget (QLabel, l4)
+#: src/project/prefs_project_advanced.ui:132
+msgctxt "@label:textbox"
+msgid "Alternate translations folder:"
+msgstr "可选翻译文件夹："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, altDir)
+#: src/project/prefs_project_advanced.ui:156
+msgctxt ""
+"this message contains text from documentation, so use its translation when "
+"you're translating docs"
+msgid ""
+"Set this to path of a folder with structure similar to Root Folder.\n"
+"\n"
+"On each translation file open, a corresponding file in Alternate "
+"translations directory will be looked up and,\n"
+"if it is found, it will be used for Alternate Translations view.\n"
+"\n"
+"You will likely want to use translations of another target language (i.e. "
+"another subproject), which is close to yours.\n"
+"Also, you can use other subproject's translations either immediately, or "
+"have them pretranslated to your language by machine.\n"
+"\n"
+"See documentation for more details."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l0)
+#: src/project/prefs_project_local.ui:21
+msgid "Role:"
+msgstr "角色："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Role)
+#: src/project/prefs_project_local.ui:29
+msgid "Translator"
+msgstr "翻译者"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Role)
+#: src/project/prefs_project_local.ui:34
+msgid "Reviewer"
+msgstr "审阅者"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Role)
+#: src/project/prefs_project_local.ui:39
+msgid "Approver"
+msgstr "核准者"
+
+#. i18n: ectx: property (text), widget (QLabel, l0)
+#: src/project/prefs_projectmain.ui:23
+msgctxt "@label:textbox"
+msgid "Target language:"
+msgstr "目标语言："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, LangCode)
+#: src/project/prefs_projectmain.ui:36
+msgid "Target language of the project."
+msgstr "工程的目标语言。"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, poBaseDir)
+#: src/project/prefs_projectmain.ui:56
+msgid ""
+"This is main setting. Set this to path of a folder with translation files\n"
+"for your project (or a subproject for your target language)."
+msgstr ""
+"这是主要设置。将其设定为您的\n"
+"工程(或您的目标语言的子工程)翻译文件的目录路径。"
+
+#. i18n: ectx: property (text), widget (QLabel, l1)
+#: src/project/prefs_projectmain.ui:79
+msgctxt "@label:textbox"
+msgid "Root folder:"
+msgstr "根文件夹："
+
+#. i18n: ectx: property (text), widget (QLabel, l2)
+#: src/project/prefs_projectmain.ui:89
+msgctxt "@label:textbox"
+msgid "Glossary:"
+msgstr "词汇表："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_ProjectID)
+#: src/project/prefs_projectmain.ui:99
+msgid ""
+"Project ID is used to differentiate translation memories of absolutely "
+"different projects and languages.\n"
+"\n"
+"For example, if you have several projects for translating KDE applications\n"
+"(e.g. they are in different repositories), use same ID for all of them."
+msgstr ""
+"工程 ID 用于区别绝对不同的工程和语言的翻译存储。\n"
+"\n"
+"例如，如果您有多个工程来翻译 KDE 应用程序\n"
+"(比如，它们在不同的仓库)，请全部使用相同的 ID。"
+
+#. i18n: ectx: property (text), widget (QLabel, l3)
+#: src/project/prefs_projectmain.ui:106
+msgctxt "@label:textbox"
+msgid "ID:"
+msgstr "ID："
+
+#. i18n: ectx: property (text), widget (QLabel, l4)
+#: src/project/prefs_projectmain.ui:116
+msgctxt "@label:textbox"
+msgid "Mailing list:"
+msgstr "邮件列表："
+
+#. i18n: ectx: label, entry (LangCode), group (General)
+#: src/project/projectbase.kcfg:18
+msgid "Language"
+msgstr "语言"
+
+#. i18n: ectx: label, entry (PoBaseDir), group (General)
+#: src/project/projectbase.kcfg:33
+msgid "The base directory for PO files (translations)"
+msgstr "PO 文件的基准目录(翻译)"
+
+#. i18n: ectx: label, entry (PotBaseDir), group (General)
+#: src/project/projectbase.kcfg:39
+msgid "The base directory for POT files (templates to be translated)"
+msgstr "POT 文件的基准目录(待翻译的模板)"
+
+#. i18n: ectx: label, entry (GlossaryTbx), group (General)
+#: src/project/projectbase.kcfg:47
+msgid "Project's glossary"
+msgstr "工程词汇表"
+
+#: src/project/projectmodel.cpp:526
+msgctxt "@title:column File name"
+msgid "Name"
+msgstr "名称"
+
+#: src/project/projectmodel.cpp:527
+msgctxt ""
+"@title:column Graphical representation of Translated/Fuzzy/Untranslated "
+"counts"
+msgid "Graph"
+msgstr "图像"
+
+#: src/project/projectmodel.cpp:528
+msgctxt "@title:column Number of entries"
+msgid "Total"
+msgstr "总计"
+
+#: src/project/projectmodel.cpp:529
+msgctxt "@title:column Number of entries"
+msgid "Translated"
+msgstr "已翻译"
+
+#: src/project/projectmodel.cpp:530
+msgctxt "@title:column Number of entries"
+msgid "Not ready"
+msgstr "未就绪"
+
+#: src/project/projectmodel.cpp:531
+msgctxt "@title:column Number of entries"
+msgid "Untranslated"
+msgstr "未翻译"
+
+#: src/project/projectmodel.cpp:532
+msgctxt "@title:column"
+msgid "Last Translation"
+msgstr "最后翻译时间"
+
+#: src/project/projectmodel.cpp:533
+msgctxt "@title:column"
+msgid "Template Revision"
+msgstr "模板版本"
+
+#: src/project/projectmodel.cpp:534
+msgctxt "@title:column"
+msgid "Last Translator"
+msgstr "最后翻译者"
+
+#: src/project/projecttab.cpp:58
+msgctxt "@title:window"
+msgid "Project Overview"
+msgstr "工程概述"
+
+#: src/project/projecttab.cpp:62
+#, kde-format
+msgid ""
+"<html>You do not have to be a software developer to be a member of the KDE "
+"team. You can join the national teams that translate program interfaces. You "
+"can provide graphics, themes, sounds, and improved documentation. You decide!"
+"<br /><br />Visit <a href=\"%1\">%1</a> for information on some projects in "
+"which you can participate.<br /><br />If you need more information or "
+"documentation, then a visit to <a href=\"%2\">%2</a> will provide you with "
+"what you need.</html>"
+msgstr ""
+"<html>您不必是软件开发者就可以成为 KDE 团队的一员。您可以参加翻译程序界面的小"
+"组。您可以提供图片、主题、音效或改进文档。您可以自己决定！<br /><br />请访问 "
+"<a href=\"%1\">%1</a> 来了解您可参与的项目的信息。而要想参与 KDE 的简体中文翻"
+"译工作，请查看 <a href=\"http://www.kdecn.org/l10n/\">http://www.kdecn.org/"
+"l10n/</a>。<br /><br />如果您需要更多的信息或文档，请访问 <a href=\"%2\">%2</"
+"a>。</html>"
+
+#: src/project/projecttab.cpp:83
+msgid "&Configure Lokalize..."
+msgstr "配置 Lokalize(&C)..."
+
+#: src/project/projecttab.cpp:172
+msgctxt "@action:inmenu"
+msgid "Previous template only"
+msgstr "仅上一个模板"
+
+#: src/project/projecttab.cpp:175
+msgctxt "@action:inmenu"
+msgid "Next template only"
+msgstr "仅下一个模板"
+
+#: src/project/projecttab.cpp:178
+msgctxt "@action:inmenu"
+msgid "Previous translation only"
+msgstr "仅上一个翻译"
+
+#: src/project/projecttab.cpp:181
+msgctxt "@action:inmenu"
+msgid "Next translation only"
+msgstr "仅下一个翻译"
+
+#: src/project/projecttab.cpp:236
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "打开"
+
+#: src/project/projecttab.cpp:245
+msgctxt "@action:inmenu"
+msgid "Add to translation memory"
+msgstr "添加到翻译存储"
+
+#: src/project/projecttab.cpp:247
+msgctxt "@action:inmenu"
+msgid "Search in files"
+msgstr "搜索文件"
+
+#: src/project/projecttab.cpp:249
+msgctxt "@action:inmenu"
+msgid "Search in files (including templates)"
+msgstr "搜索文件(包括模板)"
+
+#: src/tm/dbfilesmodel.cpp:106
+msgctxt "@title:column"
+msgid "Name"
+msgstr "名称"
+
+#: src/tm/dbfilesmodel.cpp:107
+msgctxt "@title:column"
+msgid "Source language"
+msgstr "源语言"
+
+#: src/tm/dbfilesmodel.cpp:108
+msgctxt "@title:column"
+msgid "Target language"
+msgstr "目标语言"
+
+#: src/tm/dbfilesmodel.cpp:109
+msgctxt "@title:column"
+msgid "Pairs"
+msgstr "数据对"
+
+#: src/tm/dbfilesmodel.cpp:110
+msgctxt "@title:column"
+msgid "Unique original entries"
+msgstr "唯一原始条目"
+
+#: src/tm/dbfilesmodel.cpp:111
+msgctxt "@title:column"
+msgid "Unique translations"
+msgstr "唯一翻译"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, dbType)
+#: src/tm/dbparams.ui:28
+msgid "Local"
+msgstr "本地"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/tm/dbparams.ui:36
+msgid "Database type:"
+msgstr "数据库类型："
+
+#. i18n: ectx: property (title), widget (QGroupBox, connectionBox)
+#: src/tm/dbparams.ui:43
+msgid "Connection"
+msgstr "连接"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: src/tm/dbparams.ui:52
+msgid "Database name:"
+msgstr "数据库名称："
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: src/tm/dbparams.ui:62
+msgid "Host:"
+msgstr "主机："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: src/tm/dbparams.ui:76
+msgid "User:"
+msgstr "用户："
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: src/tm/dbparams.ui:86
+msgid "Password:"
+msgstr "密码："
+
+#. i18n: ectx: property (title), widget (QGroupBox, contentBox)
+#: src/tm/dbparams.ui:103
+msgid "Content"
+msgstr "内容"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/tm/dbparams.ui:112
+msgid "Source language:"
+msgstr "源语言："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/tm/dbparams.ui:122
+msgid "Target language:"
+msgstr "目标语言："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/tm/dbparams.ui:135
+msgid "Markup regex:"
+msgstr "标记正则表达式："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/tm/dbparams.ui:145
+msgid "Accelerator:"
+msgstr "快捷键："
+
+#. i18n: ectx: property (text), widget (QPushButton, create)
+#: src/tm/managedatabases.ui:19
+msgid "Create"
+msgstr "创建"
+
+#. i18n: ectx: property (text), widget (QPushButton, addData)
+#: src/tm/managedatabases.ui:26
+msgid "Add Data"
+msgstr "添加数据"
+
+#. i18n: ectx: property (text), widget (QPushButton, importTMX)
+#: src/tm/managedatabases.ui:33
+msgid "Add Data from TMX"
+msgstr "从 TMX 添加数据"
+
+#. i18n: ectx: property (text), widget (QPushButton, exportTMX)
+#: src/tm/managedatabases.ui:40
+msgid "Export to TMX"
+msgstr "导出至 TMX"
+
+#. i18n: ectx: property (text), widget (QPushButton, remove)
+#: src/tm/managedatabases.ui:47
+msgid "Remove"
+msgstr "删除"
+
+#: src/tm/qamodel.cpp:105
+msgctxt "@title:column Translator's false friend"
+msgid "False Friend"
+msgstr "易混淆"
+
+#: src/tm/qaview.cpp:36
+msgctxt "@title:window"
+msgid "Quality Assurance"
+msgstr "质量保证"
+
+#: src/tm/qaview.cpp:48
+msgctxt "@action:inmenu"
+msgid "Add"
+msgstr "添加"
+
+#: src/tm/qaview.cpp:52
+msgctxt "@action:inmenu"
+msgid "Remove"
+msgstr "删除"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/tm/queryoptions.ui:32
+msgid "TM:"
+msgstr "翻译存储："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, querySource)
+#: src/tm/queryoptions.ui:66
+msgid ""
+"Search expression for source language part.\n"
+"Press Enter to start the search.\n"
+"Press Ctrl+L to go to this control."
+msgstr ""
+"在源语言中搜索的表达式。\n"
+"按下回车键开始搜索。\n"
+"按下 Ctrl+L 进入此控件。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, invertTarget)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, invertSource)
+#: src/tm/queryoptions.ui:101 src/tm/queryoptions.ui:111
+msgid "Show results that do not match search expression"
+msgstr "显示不匹配搜索表达式的结果"
+
+#. i18n: ectx: property (text), widget (QCheckBox, invertTarget)
+#. i18n: ectx: property (text), widget (QCheckBox, invertSource)
+#: src/tm/queryoptions.ui:104 src/tm/queryoptions.ui:114
+msgid "Invert"
+msgstr "反转"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/tm/queryoptions.ui:135
+msgid "File mask:"
+msgstr "文件过滤："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, filemask)
+#: src/tm/queryoptions.ui:151
+msgid "Show only results from files with path matching specified mask"
+msgstr "只显示路径匹配指定过滤规则文件中的搜索结果"
+
+#. i18n: ectx: property (text), widget (QLabel, label_s)
+#: src/tm/queryoptions.ui:158
+msgid "Query syntax:"
+msgstr "查询语法："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, doUpdateTM)
+#: src/tm/queryoptions.ui:193
+msgid ""
+"Reads all project files into translation memory, updating old entries. The "
+"scanning will work in background."
+msgstr "读取全部工程文件到翻译存储，更新旧条目。扫描将在后台运行。"
+
+#. i18n: ectx: property (text), widget (QPushButton, doUpdateTM)
+#: src/tm/queryoptions.ui:196
+msgid "&Rescan project files"
+msgstr "重新扫描工程文件(&R)"
+
+#: src/tm/tmmanager.cpp:57
+msgctxt "@title:window"
+msgid "Translation Memories"
+msgstr "翻译存储"
+
+#: src/tm/tmmanager.cpp:92
+msgctxt "@title:window"
+msgid "Select Directory to be scanned"
+msgstr "选择要扫描的目录"
+
+#: src/tm/tmmanager.cpp:106
+msgctxt "@title:window"
+msgid "New Translation Memory"
+msgstr "新建翻译存储"
+
+#: src/tm/tmmanager.cpp:106
+msgctxt "@title:window"
+msgid "Translation Memory Properties"
+msgstr "翻译存储属性"
+
+#: src/tm/tmmanager.cpp:242 src/tm/tmmanager.cpp:267
+msgid ""
+"*.tmx *.xml|TMX files\n"
+"*|All files"
+msgstr ""
+"*.tmx *.xml|TMX 文件\n"
+"*|所有文件"
+
+#: src/tm/tmmanager.cpp:244
+msgctxt "@title:window"
+msgid "Select TMX file to be imported into selected database"
+msgstr "选择要导入到选定数据库的 TMX 文件"
+
+#: src/tm/tmmanager.cpp:269
+msgctxt "@title:window"
+msgid "Select TMX file to export selected database to"
+msgstr "选定数据库要导出到的 TMX 文件"
+
+#: src/tm/tmscanapi.cpp:88
+msgid "Adding files to Lokalize translation memory"
+msgstr "向 Lokalize 翻译存储添加文件"
+
+#: src/tm/tmscanapi.cpp:89
+msgid "TM"
+msgstr "翻译存储"
+
+#: src/tm/tmtab.cpp:70
+msgctxt "@title:column"
+msgid "Context"
+msgstr "上下文"
+
+#: src/tm/tmtab.cpp:365
+msgid "Substring"
+msgstr "子串"
+
+#: src/tm/tmtab.cpp:365
+msgid "Google-like"
+msgstr "类似 Google"
+
+#: src/tm/tmtab.cpp:365
+msgid "Wildcard"
+msgstr "通配符"
+
+#: src/tm/tmtab.cpp:373
+msgid "Space is AND operator. Case insensitive."
+msgstr "空格即 AND 操作符。不区分大小写。"
+
+#: src/tm/tmtab.cpp:374
+msgid "Shell globs (* and ?). Case sensitive."
+msgstr "Shell 通配符(* 和 ?)。区分大小写。"
+
+#: src/tm/tmtab.cpp:389 src/tm/tmview.cpp:147 src/tm/tmview.cpp:152
+msgctxt "@title:window"
+msgid "Translation Memory"
+msgstr "翻译存储"
+
+#: src/tm/tmtab.cpp:590
+#, kde-format
+msgctxt "@info:status message entries"
+msgid "Total: %1 (%2)"
+msgstr "总计：%1 (%2)"
+
+#: src/tm/tmview.cpp:189 src/webquery/webqueryview.cpp:107
+msgctxt "@info:tooltip"
+msgid "Double-click any word to insert it into translation"
+msgstr "双击任何单词以将其插入翻译"
+
+#: src/tm/tmview.cpp:307
+msgctxt "@item Undo action"
+msgid "Batch translation memory filling"
+msgstr "批量填充翻译存储"
+
+#: src/tm/tmview.cpp:310
+msgctxt "@info"
+msgid "Batch translation has been completed."
+msgstr "已完成批量翻译。"
+
+#: src/tm/tmview.cpp:317
+msgctxt "@info"
+msgid "No suggestions with exact matches were found."
+msgstr "未发现任何精确匹配建议。"
+
+#: src/tm/tmview.cpp:321
+msgctxt "@title"
+msgid "Batch translation complete"
+msgstr "批量翻译完成"
+
+#: src/tm/tmview.cpp:335 src/tm/tmview.cpp:350
+msgctxt "@title"
+msgid "Batch translation"
+msgstr "批量翻译"
+
+#: src/tm/tmview.cpp:336 src/tm/tmview.cpp:351
+msgctxt "@info"
+msgid "Batch translation has been scheduled."
+msgstr "已安排批量翻译。"
+
+#: src/tm/tmview.cpp:562
+msgctxt "File argument in tooltip, when file is current file"
+msgid "this"
+msgstr "本文件"
+
+#: src/tm/tmview.cpp:563
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "File: %1<br />Addition date: %2"
+msgstr "文件：%1<br />添加日期：%2"
+
+#: src/tm/tmview.cpp:565
+#, kde-format
+msgctxt "@info:tooltip on TM entry continues"
+msgid "<br />Last change date: %1"
+msgstr "<br />最后修改日期: %1"
+
+#: src/tm/tmview.cpp:567
+#, kde-format
+msgctxt "@info:tooltip on TM entry continues"
+msgid "<br />Last change author: %1"
+msgstr "<br />最后修改人: %1"
+
+#: src/tm/tmview.cpp:568
+#, kde-format
+msgctxt "@info:tooltip on TM entry continues"
+msgid "<br />TM: %1"
+msgstr "<br />翻译存储： %1"
+
+#: src/tm/tmview.cpp:570
+msgctxt "@info:tooltip on TM entry continues"
+msgid "<br />Is not present in the file anymore"
+msgstr "<br />不再存在于文件中"
+
+#: src/tm/tmview.cpp:588
+msgctxt "@action:inmenu"
+msgid "Remove this entry"
+msgstr "删除此条目"
+
+#: src/tm/tmview.cpp:590
+msgctxt "@action:inmenu"
+msgid "Open file containing this entry"
+msgstr "打开包含此条目的文件"
+
+#: src/tm/tmview.cpp:595
+#, kde-format
+msgid ""
+"<html>Do you really want to remove this entry:<br/><i>%1</i><br/>from "
+"translation memory %2?</html>"
+msgstr "<html>您真的要从翻译存储 %2 中删除此条目吗？<br/><i>%1</i><br/></html>"
+
+#: src/tm/tmview.cpp:596
+msgctxt "@title:window"
+msgid "Translation Memory Entry Removal"
+msgstr "翻译存储条目删除"
+
+#: src/tm/tmview.cpp:992
+msgctxt "@item Undo action"
+msgid "Use translation memory suggestion"
+msgstr "使用翻译存储建议"
+
+#: src/tools/widgettextcaptureconfig.cpp:33
+#, fuzzy
+#| msgid "Widget Text Capture"
+msgctxt "@title"
+msgid "Widget Text Capture"
+msgstr "部件文本捕获"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/tools/widgettextcaptureconfig.ui:25
+msgid ""
+"<html>\n"
+"<p align=\"justify\">To facilitate KDE translation, Lokalize can capture "
+"text from applications' user interfaces and search for translation files "
+"containing the text.</p>\n"
+"<p align=\"justify\">When enabled, the capture can be initiated by middle "
+"mouse clicking on any non-editable GUI element (widget). After that, switch "
+"to the Lokalize window and choose the entry with this text. Even if several "
+"files contain the same string, the right one will be chosen in most cases.</"
+"p>\n"
+"<p align=\"justify\">Remember that you need to have an up-to-date actual "
+"translation memory with all translation files indexed for this feature to "
+"work.</p></html>"
+msgstr ""
+"<html>\n"
+"<p align=\"justify\">为了方便 KDE 的翻译，Lokalize 能够从应用程序界面中提取文"
+"本并搜索包含文本的翻译文件。</p>\n"
+"<p align=\"justify\">启用时，可以通过在不可编辑的 GUI 元素(部件)上点击鼠标中"
+"键进行提取。提取后将切换到 Lokalize 窗口并选择带有此文本的条目。即使有多个文"
+"件包含相同字符串，大多数情况下插件都能作出正确的选择。</p>\n"
+"<p align=\"justify\">请记住，要启用此功能，您需要拥有最新的翻译存储并经索全部"
+"翻译文件。</p></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/tools/widgettextcaptureconfig.ui:41
+msgid "Middle Mouse Button Click Reaction"
+msgstr "鼠标中键点击后的动作"
+
+#. i18n: ectx: property (text), widget (QRadioButton, none)
+#: src/tools/widgettextcaptureconfig.ui:47
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (text), widget (QRadioButton, search)
+#: src/tools/widgettextcaptureconfig.ui:57
+msgid "Search GUI element text in translation memory"
+msgstr "在翻译存储中搜索 GUI 元素文本"
+
+#. i18n: ectx: property (text), widget (QRadioButton, clipboard)
+#: src/tools/widgettextcaptureconfig.ui:64
+msgid "Copy GUI element text to clipboard"
+msgstr "复制 GUI 元素文本到剪贴板"
+
+#. i18n: ectx: property (text), widget (QPushButton, queryBtn)
+#: src/webquery/querycontrol.ui:8
+msgid "Query"
+msgstr "查询"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoQuery)
+#: src/webquery/querycontrol.ui:15
+msgid "Autoquery"
+msgstr "自动查询"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox)
+#: src/webquery/querycontrol.ui:22
+msgid "Prefetch for the next untranslated"
+msgstr "预读下一条未翻译项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox)
+#: src/webquery/querycontrol.ui:25
+msgid "Prefetch"
+msgstr "预读"
+
+#: src/webquery/webqueryview.cpp:65
+msgid "Web Queries"
+msgstr "在线查询"
+
+#: src/xlifftextedit.cpp:1056 src/xlifftextedit.cpp:1115
+msgctxt "@item Undo action item"
+msgid "Replace text"
+msgstr "替换文本"
+
+#: src/xlifftextedit.cpp:1140
+msgid "no spellcheck available"
+msgstr "无可用的拼写检查"
+
+#: src/xlifftextedit.cpp:1271
+msgctxt "@item Undo action item"
+msgid "Copy source to target"
+msgstr "复制源文本到目标"
+
+#~ msgid ""
+#~ "Middle mouse click on a widget in any KDE app initiates TM search in all "
+#~ "opened Lokalize windows"
+#~ msgstr ""
+#~ "在任何 KDE 应用程序的部件上鼠标中键点击即可让翻译存储开始在全部已打开的 "
+#~ "Lokalize 窗口中搜索。"
+
+#~ msgctxt "@action:button reloads glossary from disk"
+#~ msgid "Restore"
+#~ msgstr "还原"
+
+#~ msgid "PostgreSQL"
+#~ msgstr "PostgreSQL"
+
+#~ msgctxt "@title:inmenu"
+#~ msgid "Columns"
+#~ msgstr "信息列"
+
+#, fuzzy
+#~| msgctxt "@info"
+#~| msgid "Error opening the file <filename>%1</filename> for synchronization"
+#~ msgctxt "@info %1 is full filename"
+#~ msgid "Error opening the file <filename>%1</filename> for synchronization"
+#~ msgstr "打开文件 <filename>%1</filename> 进行同步时出错"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Show the binary unit"
+#~ msgstr "显示二元单位"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Go to the referenced entry"
+#~ msgstr "转到参考条目"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Lookup selected text in translation memory"
+#~ msgstr "在翻译存储中搜索选中的文本"
+
+#~ msgid "Case sensitive"
+#~ msgstr "区分大小写"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Get statistics for subfolders"
+#~ msgstr "获得子文件夹的统计信息"

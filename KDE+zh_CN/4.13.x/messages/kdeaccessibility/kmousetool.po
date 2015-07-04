@@ -1,0 +1,208 @@
+# Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# Xiaobin Ding <dingxb@nwnu.edu.cn>, 2003.
+# Liu Songhe <jackliu9999@263.net>, 2003.
+# Lie Ex <lilith.ex@gmail.com>, 2007-2009.
+# Ni Hui <shuizhuyuanluo@126.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmousetool\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-21 01:32+0000\n"
+"PO-Revision-Date: 2012-09-01 10:05+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding:8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: kmousetool.cpp:413
+msgid "The drag time must be less than or equal to the dwell time."
+msgstr "拖动时间必须小于或等于悬停时间"
+
+#: kmousetool.cpp:413
+msgid "Invalid Value"
+msgstr "无效数值"
+
+#: kmousetool.cpp:483 kmousetool.cpp:630
+msgid "&Stop"
+msgstr "停止(&S)"
+
+#: kmousetool.cpp:485 kmousetool.cpp:610 kmousetool.cpp:633
+msgctxt "Start tracking the mouse"
+msgid "&Start"
+msgstr "开始(&S)"
+
+#: kmousetool.cpp:555
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before closing the configuration window or "
+"discard the changes?"
+msgstr ""
+"在激活的模块里有尚未保存的更改。\n"
+"您希望在关闭配置窗口之前应用或者放弃这些更改吗？"
+
+#: kmousetool.cpp:556
+msgid "Closing Configuration Window"
+msgstr "正在关闭配置窗口"
+
+#: kmousetool.cpp:575
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before quitting KMousetool or discard the "
+"changes?"
+msgstr ""
+"在激活的模块里有尚未保存的更改。\n"
+"您希望在退出 K 鼠标工具之前应用或者放弃这些更改吗？"
+
+#: kmousetool.cpp:576
+msgid "Quitting KMousetool"
+msgstr "正在退出 K 鼠标工具"
+
+#: kmousetool.cpp:613
+msgid "&Configure KMouseTool..."
+msgstr "配置 K 鼠标工具(&C)..."
+
+#: kmousetool.cpp:616
+msgid "KMousetool &Handbook"
+msgstr "K 鼠标工具手册(&H)"
+
+#: kmousetool.cpp:618
+msgid "&About KMouseTool"
+msgstr "关于 K 鼠标工具(&A)"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KMouseToolUI)
+#: kmousetoolui.ui:13 main.cpp:32 main.cpp:37
+msgid "KMouseTool"
+msgstr "K 鼠标工具"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: kmousetoolui.ui:41
+msgid "Settings"
+msgstr "设置"
+
+#. i18n: ectx: property (text), widget (QLabel, dragTimeLabel)
+#: kmousetoolui.ui:83
+msgid "Drag t&ime (1/10 sec):"
+msgstr "拖动时间(1/10 秒)(&I)："
+
+#. i18n: ectx: property (text), widget (QLabel, movementLabel)
+#: kmousetoolui.ui:133
+msgid "&Minimum movement:"
+msgstr "最小移动(&M)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStroke)
+#: kmousetoolui.ui:159
+msgid "&Enable strokes"
+msgstr "启用击键音(&E)"
+
+#. i18n: ectx: property (text), widget (QLabel, dwellTimeLabel)
+#: kmousetoolui.ui:172
+msgid "D&well time (1/10 sec):"
+msgstr "悬停时间(1/10 秒)(&W)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbDrag)
+#: kmousetoolui.ui:182
+msgid "Smar&t drag"
+msgstr "智能拖动(&T)"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonDefault)
+#: kmousetoolui.ui:200
+msgid "&Defaults"
+msgstr "默认(&D)"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonReset)
+#: kmousetoolui.ui:207
+msgid "&Reset"
+msgstr "重置(&R)"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonApply)
+#: kmousetoolui.ui:230
+msgid "&Apply"
+msgstr "应用(&A)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStart)
+#: kmousetoolui.ui:239
+msgid "Start with &KDE"
+msgstr "与 &KDE 同步启动"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbClick)
+#: kmousetoolui.ui:246
+msgid "A&udible click"
+msgstr "有声点击(&U)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: kmousetoolui.ui:270
+msgid ""
+"KMouseTool will run as a background application after you close this dialog. "
+"To change the settings again, restart KMouseTool or use the KDE system tray."
+msgstr ""
+"K 鼠标工具在您关闭这个对话框后将作为后台程序运行。若要再次改变设置，重启 K 鼠"
+"标工具或者使用 KDE 系统托盘。"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonStartStop)
+#: kmousetoolui.ui:308
+msgid "&Start"
+msgstr "开始(&S)"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonHelp)
+#: kmousetoolui.ui:325
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonClose)
+#: kmousetoolui.ui:348
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonQuit)
+#: kmousetoolui.ui:355
+msgid "&Quit"
+msgstr "退出(&Q)"
+
+#: main.cpp:39
+msgid ""
+"(c) 2002-2003, Jeff Roush\n"
+"(c) 2003, Gunnar Schmidt"
+msgstr ""
+"(c) 2002-2003，Jeff Roush\n"
+"(c) 2003，Gunnar Schmidt"
+
+#: main.cpp:41
+msgid "Gunnar Schmidt"
+msgstr "Gunnar Schmidt"
+
+#: main.cpp:41
+msgid "Current maintainer"
+msgstr "当前维护者"
+
+#: main.cpp:42
+msgid "Olaf Schmidt"
+msgstr "Olaf Schmidt"
+
+#: main.cpp:42
+msgid "Usability improvements"
+msgstr "可用性改进"
+
+#: main.cpp:43
+msgid "Jeff Roush"
+msgstr "Jeff Roush"
+
+#: main.cpp:43
+msgid "Original author"
+msgstr "原始作者"
+
+#: main.cpp:45
+msgid "Joe Betts"
+msgstr "Joe Betts"

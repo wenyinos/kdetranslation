@@ -1,0 +1,272 @@
+# translation of kcmfonts.po to zh_CN
+# Message Translation for kcmfonts.
+# Copyright (C) 2000,2003 Free Software Foundation, Inc.
+#
+# Gou Zhuang <gouzhuang@bigfoot.com>, 2000.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010, 2012.
+# FengChao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmfonts\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-29 01:44+0000\n"
+"PO-Revision-Date: 2012-05-28 10:44+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Translator: Gou Zhuang <gouzhuang@bigfoot.com>\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: fonts.cpp:229
+msgid "Configure Anti-Alias Settings"
+msgstr "配置边缘平滑设置"
+
+#: fonts.cpp:237
+msgid "E&xclude range:"
+msgstr "不包括范围(&X)："
+
+#: fonts.cpp:240 fonts.cpp:245
+msgid " pt"
+msgstr " pt"
+
+#: fonts.cpp:242
+msgid " to "
+msgstr " 到 "
+
+#: fonts.cpp:249
+msgid ""
+"<p>If you have a TFT or LCD screen you can further improve the quality of "
+"displayed fonts by selecting this option.<br />Sub-pixel rendering is also "
+"known as ClearType(tm).<br /> In order for sub-pixel rendering to work "
+"correctly you need to know how the sub-pixels of your display are aligned.</"
+"p> <p>On TFT or LCD displays a single pixel is actually composed of three "
+"sub-pixels, red, green and blue. Most displays have a linear ordering of RGB "
+"sub-pixel, some have BGR.<br /> This feature does not work with CRT monitors."
+"</p>"
+msgstr ""
+"<p>如果您使用的是 TFT 或 LCD 屏幕，选中此选项将改进所显示字体的质量。<br />次"
+"像素渲染也称为 ClearType(tm)。<br />为了让次像素渲染正确工作，您需要知道您显"
+"示设备中的次像素是如何排列的。<br />在 TFT 或 LCD 设备上，单个像素是由红、"
+"绿、蓝三个次像素组成的。大多数显示设备次像素的是以 RGB 的线性顺序排列的，而另"
+"外一些则是以 BGR 排列的。<br />此特性在 CRT 显示器上不生效。</p>"
+
+#: fonts.cpp:260
+msgid "&Use sub-pixel rendering:"
+msgstr "使用次像素渲染(&U)："
+
+#: fonts.cpp:272
+msgid "Hinting style: "
+msgstr "微调样式："
+
+#: fonts.cpp:279
+msgid ""
+"Hinting is a process used to enhance the quality of fonts at small sizes."
+msgstr "微调是用于增强小号字体显示质量的过程。"
+
+#: fonts.cpp:505
+msgctxt "font usage"
+msgid "General"
+msgstr "常规"
+
+#: fonts.cpp:506
+msgctxt "font usage"
+msgid "Fixed width"
+msgstr "等宽字"
+
+#: fonts.cpp:507
+msgctxt "font usage"
+msgid "Small"
+msgstr "小字"
+
+#: fonts.cpp:508
+msgctxt "font usage"
+msgid "Toolbar"
+msgstr "工具栏"
+
+#: fonts.cpp:509
+msgctxt "font usage"
+msgid "Menu"
+msgstr "菜单"
+
+#: fonts.cpp:510
+msgctxt "font usage"
+msgid "Window title"
+msgstr "窗口标题"
+
+#: fonts.cpp:511
+msgctxt "font usage"
+msgid "Taskbar"
+msgstr "任务栏"
+
+#: fonts.cpp:512
+msgctxt "font usage"
+msgid "Desktop"
+msgstr "桌面"
+
+#: fonts.cpp:552
+msgid "Used for normal text (e.g. button labels, list items)."
+msgstr "用于普通文字(如：按钮文字，列表项目)。"
+
+#: fonts.cpp:553
+msgid "A non-proportional font (i.e. typewriter font)."
+msgstr "非比例字体(如：打字机字体)。"
+
+#: fonts.cpp:554
+msgid "Smallest font that is still readable well."
+msgstr "可读的最小字体。"
+
+#: fonts.cpp:555
+msgid "Used to display text beside toolbar icons."
+msgstr "用于显示工具栏图标旁的文字。"
+
+#: fonts.cpp:556
+msgid "Used by menu bars and popup menus."
+msgstr "用于菜单栏和弹出式菜单。"
+
+#: fonts.cpp:557
+msgid "Used by the window titlebar."
+msgstr "用于窗口标题栏。"
+
+#: fonts.cpp:558
+msgid "Used by the taskbar."
+msgstr "用于窗口标题栏。"
+
+#: fonts.cpp:559
+msgid "Used for desktop icons."
+msgstr "用于桌面图标。"
+
+#: fonts.cpp:598
+#, kde-format
+msgctxt "Font role"
+msgid "%1: "
+msgstr "%1："
+
+#: fonts.cpp:611
+msgid "Ad&just All Fonts..."
+msgstr "调整全部字体(&J)..."
+
+#: fonts.cpp:612
+msgid "Click to change all fonts"
+msgstr "点击这里更改全部字体"
+
+#: fonts.cpp:623
+msgid "Use a&nti-aliasing:"
+msgstr "圆整字体边角(&N)："
+
+#: fonts.cpp:627
+msgctxt "Use anti-aliasing"
+msgid "Enabled"
+msgstr "启用"
+
+#: fonts.cpp:628
+msgctxt "Use anti-aliasing"
+msgid "System Settings"
+msgstr "系统设置"
+
+#: fonts.cpp:629
+msgctxt "Use anti-aliasing"
+msgid "Disabled"
+msgstr "禁用"
+
+#: fonts.cpp:630
+msgid ""
+"If this option is selected, KDE will smooth the edges of curves in fonts."
+msgstr "如果选用该选项，KDE 将平滑字体的曲线边缘。"
+
+#: fonts.cpp:632
+msgid "Configure..."
+msgstr "配置..."
+
+#: fonts.cpp:640
+msgid "Force fonts DPI:"
+msgstr "固定字体 DPI："
+
+#: fonts.cpp:646
+msgid ""
+"<p>This option forces a specific DPI value for fonts. It may be useful when "
+"the real DPI of the hardware is not detected properly and it is also often "
+"misused when poor quality fonts are used that do not look well with DPI "
+"values other than 96 or 120 DPI.</p><p>The use of this option is generally "
+"discouraged. For selecting proper DPI value a better option is explicitly "
+"configuring it for the whole X server if possible (e.g. DisplaySize in xorg."
+"conf or adding <i>-dpi value</i> to ServerLocalArgs= in $KDEDIR/share/config/"
+"kdm/kdmrc). When fonts do not render properly with real DPI value better "
+"fonts should be used or configuration of font hinting should be checked.</p>"
+msgstr ""
+"<p>此选项可以指定字体的固定 DPI 值。如果系统无法正确检测您硬件的实际 DPI，以"
+"及某些品质较差的字体在 96 或 120 DPI 下视觉效果不佳时此功能很有用。</p><p>一"
+"般来说此选项不需设置。只要可能，选择 DPI 更好的做法是直接对 X 服务器作整体配"
+"置(例如在 xorg.conf 中加入 DisplaySize 选项或在 $KDEDIR/share/config/kdm/"
+"kdmrc 中的 ServerLocalArgs= 配置项中添加 <i>-dpi 数值</i>参数)。如果用实际 "
+"DPI 渲染的字体显示不正常，您可以改用更好的字体，或启用字体优化的配置。</p>"
+
+#: fonts.cpp:793
+msgid ""
+"<p>Some changes such as anti-aliasing or DPI will only affect newly started "
+"applications.</p>"
+msgstr "<p>某些更改，比如边缘平滑或 DPI，只影响新启动的程序。</p>"
+
+#: fonts.cpp:794 fonts.cpp:804
+msgid "Font Settings Changed"
+msgstr "字体设置已更改"
+
+#: fonts.cpp:803
+msgid ""
+"<p>Some changes such as DPI will only affect newly started applications.</p>"
+msgstr "<p>某些更改，比如 DPI，只影响新启动的程序。</p>"
+
+#: kxftconfig.cpp:471
+msgctxt "no subpixel rendering"
+msgid "None"
+msgstr "无"
+
+#: kxftconfig.cpp:473
+msgid "RGB"
+msgstr "RGB"
+
+#: kxftconfig.cpp:475
+msgid "BGR"
+msgstr "BGR"
+
+#: kxftconfig.cpp:477
+msgid "Vertical RGB"
+msgstr "垂直 RGB"
+
+#: kxftconfig.cpp:479
+msgid "Vertical BGR"
+msgstr "垂直 BGR"
+
+#: kxftconfig.cpp:507
+msgctxt "medium hinting"
+msgid "Medium"
+msgstr "中"
+
+#: kxftconfig.cpp:511
+msgctxt "no hinting"
+msgid "None"
+msgstr "无"
+
+#: kxftconfig.cpp:513
+msgctxt "slight hinting"
+msgid "Slight"
+msgstr "轻微"
+
+#: kxftconfig.cpp:515
+msgctxt "full hinting"
+msgid "Full"
+msgstr "完整"
+
+#~ msgctxt "Force fonts DPI"
+#~ msgid "Disabled"
+#~ msgstr "禁用"
+
+#~ msgid "96 DPI"
+#~ msgstr "96 DPI"
+
+#~ msgid "120 DPI"
+#~ msgstr "120 DPI"

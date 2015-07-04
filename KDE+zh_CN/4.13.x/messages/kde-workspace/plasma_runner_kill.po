@@ -1,0 +1,85 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 05:36+0200\n"
+"PO-Revision-Date: 2010-01-02 18:37+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: killrunner.cpp:61 killrunner_config.cpp:60 killrunner_config.cpp:86
+msgid "kill"
+msgstr "kill"
+
+#: killrunner.cpp:67
+msgid "Terminate running applications whose names match the query."
+msgstr "终止名称匹配查询的运行中的应用程序。"
+
+#: killrunner.cpp:140
+#, kde-format
+msgid "Terminate %1"
+msgstr "终止 %1"
+
+#: killrunner.cpp:141
+#, kde-format
+msgid ""
+"Process ID: %1\n"
+"Running as user: %2"
+msgstr ""
+"进程标识符：%1\n"
+"运行的用户：%2"
+
+#: killrunner.cpp:206
+msgid "Send SIGTERM"
+msgstr "发送 SIGTERM"
+
+#: killrunner.cpp:207
+msgid "Send SIGKILL"
+msgstr "发送 SIGKILL"
+
+#: killrunner_config.cpp:40
+msgid "CPU usage"
+msgstr "CPU 使用率"
+
+#: killrunner_config.cpp:41
+msgid "inverted CPU usage"
+msgstr "CPU 空闲率"
+
+#: killrunner_config.cpp:42
+msgid "nothing"
+msgstr "无"
+
+#. i18n: ectx: property (title), widget (QGroupBox, main)
+#: killrunner_config.ui:18
+msgid "Kill Applications Config"
+msgstr "杀死应用程序配置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useTriggerWord)
+#: killrunner_config.ui:27
+msgid "&Use trigger word"
+msgstr "使用激发词(&U)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_trigger)
+#: killrunner_config.ui:39
+msgid "&Trigger word:"
+msgstr "激发词(&T)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_sorting)
+#: killrunner_config.ui:60
+msgid "&Sort by"
+msgstr "排序方式(&S)"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, sorting)
+#: killrunner_config.ui:70
+msgid "It is not sure, that this will take effect"
+msgstr "不确定这会有用"

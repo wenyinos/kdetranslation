@@ -1,0 +1,2347 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# FengChao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: wolfgang@rohdewald.de\n"
+"POT-Creation-Date: 2014-02-20 01:40+0000\n"
+"PO-Revision-Date: 2011-11-26 19:12+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgid "Preview"
+msgstr "预览"
+
+msgid "Properties"
+msgstr "属性"
+
+msgid "Author:"
+msgstr "作者："
+
+msgid "Contact:"
+msgstr "联系："
+
+msgid "Description:"
+msgstr "描述："
+
+msgctxt "kajongg"
+msgid "Game"
+msgstr "游戏"
+
+msgid "View"
+msgstr "视图"
+
+msgid "Toolbar"
+msgstr "工具栏"
+
+#: src/about.py:32 src/kdestub.py:226 src/kdestub.py:227 src/kdestub.py:229
+msgid "Kajongg"
+msgstr "Kajongg"
+
+#: src/about.py:33
+msgid "Mah Jongg - the ancient Chinese board game for 4 players"
+msgstr "Mah Jongg - 4 位玩家玩的中国古老棋牌类游戏"
+
+#: src/about.py:35
+#, fuzzy
+#| msgid "(C) 2008,2009,2010,2011,2012 Wolfgang Rohdewald"
+msgid "(C) 2008-2014 Wolfgang Rohdewald"
+msgstr "(C) 2008-2012 Wolfgang Rohdewald"
+
+#: src/about.py:36
+msgid ""
+"This is the classical Mah Jongg for four players. If you are looking for Mah "
+"Jongg solitaire please use the application kmahjongg."
+msgstr ""
+"这是一个传统四人麻将游戏。如果您要的是连线纸牌麻将游戏，请使用 kmahjongg。"
+
+#: src/about.py:42
+msgid "Wolfgang Rohdewald"
+msgstr "Wolfgang Rohdewald"
+
+#: src/about.py:42
+msgid "Original author"
+msgstr "原作者"
+
+#: src/background.py:85
+msgid ""
+"cannot find any background in the following directories, is libkmahjongg "
+"installed?"
+msgstr "在以下目录找不到任何背景文件，libkmahjongg 正常安装了吗？"
+
+#: src/background.py:87
+msgid "cannot find background %1, using default"
+msgstr "找不到背景 %1，已使用默认背景"
+
+#: src/background.py:91
+msgid "unknown background"
+msgstr ""
+
+#: src/background.py:134 src/tileset.py:150
+msgid "file <filename>%1</filename> contains no valid SVG"
+msgstr "文件 <filename>%1</filename> 包含无效的 SVG"
+
+#: src/backgroundselector.py:69 src/tileset.py:103
+msgid "unknown author"
+msgstr ""
+
+#: src/backgroundselector.py:71 src/tileset.py:105
+msgid "no E-Mail address available"
+msgstr ""
+
+#: src/board.py:282
+msgctxt "kajongg:arrow keys hjkl like in konqueror"
+msgid "hjklHJKL"
+msgstr "hjklHJKL"
+
+#: src/board.py:329
+msgid "Choose from"
+msgstr ""
+
+#: src/chat.py:52 src/playerlist.py:86
+msgid "Player"
+msgstr "玩家"
+
+#: src/chat.py:52
+msgid "Time"
+msgstr "时间"
+
+#: src/chat.py:52
+msgid "Message"
+msgstr "消息"
+
+#: src/chat.py:117
+msgid "Chat on table %1 at %2"
+msgstr ""
+
+#: src/client.py:58
+msgctxt "table status"
+msgid "Suspended"
+msgstr "挂起"
+
+#: src/client.py:62
+msgctxt "table status"
+msgid "Running"
+msgstr "运行中"
+
+#: src/client.py:63
+msgctxt "table status"
+msgid "New"
+msgstr "新建"
+
+#: src/configdialog.py:50
+msgid "Show tile shadows"
+msgstr ""
+
+#: src/configdialog.py:52
+msgid "Rearrange undisclosed tiles to melds"
+msgstr ""
+
+#: src/configdialog.py:54
+msgid "Show only possible actions"
+msgstr ""
+
+#: src/configdialog.py:56
+msgid "Propose what to do"
+msgstr ""
+
+#: src/configdialog.py:62
+msgid "Animation speed:"
+msgstr ""
+
+#: src/configdialog.py:66
+msgid "Use sounds if available"
+msgstr ""
+
+#: src/configdialog.py:68
+msgid "Let others hear my voice"
+msgstr ""
+
+#: src/configdialog.py:96
+msgctxt "kajongg"
+msgid "Play"
+msgstr "玩游戏"
+
+#: src/configdialog.py:97
+msgid "Tiles"
+msgstr "牌面"
+
+#: src/configdialog.py:98
+msgid "Backgrounds"
+msgstr ""
+
+#: src/deferredutil.py:265 src/deferredutil.py:391
+msgid "The game server lost connection to player %1"
+msgstr "游戏服务器已丢失和玩家 %1 的连接"
+
+#: src/deferredutil.py:268
+#, fuzzy
+#| msgid ""
+#| "Unknown error for player %1: %2\n"
+#| "%3"
+msgid ""
+"Error for player %1: %2\n"
+"%3"
+msgstr ""
+"玩家 %1 的未知错误：%2\n"
+"%3"
+
+#: src/differ.py:70
+msgctxt "Kajongg"
+msgid "Rule"
+msgstr "规则"
+
+#: src/differ.py:125
+msgid "Compare"
+msgstr "比较"
+
+#: src/differ.py:169 src/differ.py:170
+msgctxt "Kajongg-Rule"
+msgid "not defined"
+msgstr "未定义"
+
+#: src/game.py:540
+msgid "Score computed manually"
+msgstr "已手动计分"
+
+#: src/game.py:617
+msgid "Player %1 not known"
+msgstr "未知玩家 %1"
+
+#: src/game.py:995
+msgid "Short living wall: Tile is invisible, hence dangerous"
+msgstr ""
+
+#: src/games.py:88 src/playerlist.py:61 src/tables.py:62
+msgid "Players"
+msgstr "玩家"
+
+#: src/games.py:88
+msgid "Started"
+msgstr "已开始"
+
+#: src/games.py:97
+msgctxt "kajongg"
+msgid "Games"
+msgstr "游戏"
+
+#: src/games.py:113
+msgctxt "start a new game"
+msgid "&New"
+msgstr "新建(&N)"
+
+#: src/games.py:116
+msgid "&Load"
+msgstr "装入(&L)"
+
+#: src/games.py:119 src/playerlist.py:50
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: src/games.py:123
+msgid "Show only pending games"
+msgstr "只显示等候中的游戏"
+
+#: src/games.py:229
+msgid ""
+"Do you really want to delete <numid>%1</numid> games?<br>This will be final, "
+"you cannot cancel it with the cancel button"
+msgstr ""
+
+#: src/humanclient.py:58
+msgid "Which chow do you want to expose?"
+msgstr ""
+
+#: src/humanclient.py:93
+msgid "Which kong do you want to declare?"
+msgstr ""
+
+#: src/humanclient.py:152
+msgid "Choose"
+msgstr "选择"
+
+#: src/humanclient.py:326
+msgid "You cannot say %1"
+msgstr ""
+
+#: src/humanclient.py:519
+msgid "Player %1 has left the table"
+msgstr "玩家 %1 已离开此牌桌"
+
+#: src/humanclient.py:574
+msgid ""
+"The game on table <numid>%1</numid> can begin. Are you ready to play now?"
+msgstr ""
+
+#: src/humanclient.py:592
+msgid "Ready for next hand?"
+msgstr ""
+
+#: src/humanclient.py:833
+msgid "The connection to the server %1 broke, please try again later."
+msgstr "到服务器 %1 的连接已损坏，请稍后再重试。"
+
+#: src/kajongg.py:64
+msgid "all robots play with visible concealed tiles"
+msgstr ""
+
+#: src/kajongg.py:65
+msgid "start with demo mode"
+msgstr ""
+
+#: src/kajongg.py:66
+msgid "login to HOST"
+msgstr ""
+
+#: src/kajongg.py:67
+msgid "start new TABLE"
+msgstr ""
+
+#: src/kajongg.py:68
+msgid "join TABLE "
+msgstr ""
+
+#: src/kajongg.py:69
+msgid "use ruleset without asking"
+msgstr ""
+
+#: src/kajongg.py:70
+msgid "play one ROUNDS rounds per game. Only for debugging!"
+msgstr ""
+
+#: src/kajongg.py:71
+msgid "prefer PLAYER for next login"
+msgstr ""
+
+#: src/kajongg.py:72
+msgid "use AI variant for human player in demo mode"
+msgstr ""
+
+#: src/kajongg.py:73
+msgid "write statistics to CSV"
+msgstr "统计信息写入 CSV 文件"
+
+#: src/kajongg.py:74
+msgid "show all available rulesets"
+msgstr "显示所有有效规则集"
+
+#: src/kajongg.py:76
+msgid "for testing purposes: Initializes the random generator"
+msgstr "测试用：初始化随机数生成器"
+
+#: src/kajongg.py:77
+msgid "show no graphical user interface. Intended only for testing"
+msgstr ""
+
+#: src/kajongg.py:78
+msgid "Do not use KDE bindings. Intended only for testing"
+msgstr ""
+
+#: src/kajongg.py:79 src/server.py:1199
+msgid "Force using Qt5. Currently Qt4 is used by default"
+msgstr ""
+
+#: src/kajongg.py:80
+msgid "use a dedicated server listening on SOCKET. Intended only for testing"
+msgstr ""
+
+#: src/kdestub.py:349
+msgid "&Apply"
+msgstr ""
+
+#: src/kdestub.py:351
+msgid "&Cancel"
+msgstr ""
+
+#: src/kdestub.py:353
+msgid "&Defaults"
+msgstr ""
+
+#: src/kdestub.py:419
+msgid "Configure Kajongg"
+msgstr ""
+
+#: src/kdestub.py:421 src/kdestub.py:1159
+msgid "Configure"
+msgstr ""
+
+#: src/kdestub.py:464
+#, fuzzy
+#| msgctxt "kajongg"
+#| msgid "Game"
+msgid "&Game"
+msgstr "游戏"
+
+#: src/kdestub.py:465
+#, fuzzy
+#| msgid "View"
+msgid "&View"
+msgstr "视图"
+
+#: src/kdestub.py:466
+msgid "&Settings"
+msgstr ""
+
+#: src/kdestub.py:467
+msgid "&Help"
+msgstr ""
+
+#: src/kdestub.py:472
+msgctxt "@action:inmenu"
+msgid "Help"
+msgstr ""
+
+#: src/kdestub.py:474
+#, fuzzy
+#| msgid "Kajongg"
+msgctxt "@action:inmenu"
+msgid "About Kajongg"
+msgstr "Kajongg"
+
+#: src/kdestub.py:1037
+#, fuzzy
+#| msgid "Kajongg"
+msgid "About Kajongg"
+msgstr "Kajongg"
+
+#: src/kdestub.py:1044
+msgid "Version %1"
+msgstr ""
+
+#: src/kdestub.py:1054
+msgid "KDE (not installed)"
+msgstr ""
+
+#: src/kdestub.py:1058
+#, python-format
+msgctxt "running under version"
+msgid "Under %s"
+msgstr ""
+
+#: src/kdestub.py:1059
+msgid "Not using Python KDE bindings"
+msgstr ""
+
+#: src/kdestub.py:1088
+msgid ""
+"Please use <a href=\"http://bugs.kde.org\">http://bugs.kde.org</a> to report "
+"bugs."
+msgstr ""
+
+#: src/kdestub.py:1093
+#, fuzzy
+#| msgid "Author:"
+msgid "Authors:"
+msgstr "作者："
+
+#: src/kdestub.py:1121
+msgid "License Agreement"
+msgstr ""
+
+#: src/login.py:169 src/login.py:565
+msgid "removed stale socket <filename>%1</filename>"
+msgstr "已删除过时套接字 <filename>%1</filename>"
+
+#: src/login.py:178
+msgid "started the local kajongg server: pid=<numid>%1</numid> %2"
+msgstr "已启动本地 kajongg 服务器：进程号=<numid>%1</numid> %2"
+
+#: src/login.py:215
+msgid "Login"
+msgstr "登录"
+
+#: src/login.py:259 src/login.py:363
+msgid "Game server:"
+msgstr "游戏服务器："
+
+#: src/login.py:262 src/login.py:365
+msgid "Username:"
+msgstr "用户名："
+
+#: src/login.py:265 src/login.py:368
+msgid "Password:"
+msgstr "密码："
+
+#: src/login.py:267
+msgctxt "kajongg"
+msgid "Ruleset:"
+msgstr "规则集："
+
+#: src/login.py:357
+msgid "Create User Account"
+msgstr "创建账户"
+
+#: src/login.py:371
+msgid "Repeat password:"
+msgstr "重复密码："
+
+#: src/login.py:496
+msgid "You are already connected to server %1"
+msgstr "您已连接到服务器 %1"
+
+#: src/login.py:536
+msgctxt "USER is not known on SERVER"
+msgid "%1 is not known on %2, do you want to open an account?"
+msgstr ""
+
+#: src/login.py:549
+msgid "Server %1 did not answer"
+msgstr ""
+
+#: src/login.py:551
+msgid "Server %1 refused connection"
+msgstr ""
+
+#: src/login.py:553
+msgid "Server %1 does not run a kajongg server"
+msgstr ""
+
+#: src/login.py:555
+msgid "Address for server %1 cannot be found"
+msgstr ""
+
+#: src/login.py:557
+msgid "Login to server %1 failed: You have no network connection"
+msgstr ""
+
+#: src/login.py:566
+msgid "Please try again"
+msgstr "请重试"
+
+#: src/mainwindow.py:426
+#, fuzzy
+#| msgctxt "kajongg"
+#| msgid "&Score Table"
+msgctxt "@action:inmenu"
+msgid "&Score Manual Game"
+msgstr "计分板(&S)"
+
+#: src/mainwindow.py:427
+#, fuzzy
+#| msgctxt "kajongg name for local game server"
+#| msgid "Local Game"
+msgctxt "@action:intoolbar"
+msgid "Manual Game"
+msgstr "本地游戏"
+
+#: src/mainwindow.py:428
+#, fuzzy
+#| msgctxt "kajongg"
+#| msgid "&Score Table"
+msgctxt "kajongg @info:tooltip"
+msgid "&Score a manual game."
+msgstr "计分板(&S)"
+
+#: src/mainwindow.py:430
+#, fuzzy
+#| msgid "&Play"
+msgctxt "@action:intoolbar"
+msgid "&Play"
+msgstr "游戏(&P)"
+
+#: src/mainwindow.py:432
+#, fuzzy
+#| msgid "Start a new game"
+msgctxt "kajongg @info:tooltip"
+msgid "Start a new game."
+msgstr "开始新游戏"
+
+#: src/mainwindow.py:434
+#, fuzzy
+#| msgid "&Abort"
+msgctxt "@action:inmenu"
+msgid "&Abort Game"
+msgstr "中止(&A)"
+
+#: src/mainwindow.py:436
+msgctxt "kajongg @info:tooltip"
+msgid "Abort the current game."
+msgstr ""
+
+#: src/mainwindow.py:438
+#, fuzzy
+#| msgid "Kajongg"
+msgctxt "@action:inmenu"
+msgid "&Quit Kajongg"
+msgstr "Kajongg"
+
+#: src/mainwindow.py:441
+#, fuzzy
+#| msgid "&Players"
+msgctxt "@action:intoolbar"
+msgid "&Players"
+msgstr "玩家(&P)"
+
+#: src/mainwindow.py:442
+msgctxt "kajongg @info:tooltip"
+msgid "define your players."
+msgstr ""
+
+#: src/mainwindow.py:444
+#, fuzzy
+#| msgid "Ruleset"
+msgctxt "@action:intoolbar"
+msgid "&Rulesets"
+msgstr "规则集"
+
+#: src/mainwindow.py:445
+msgctxt "kajongg @info:tooltip"
+msgid "customize rulesets."
+msgstr ""
+
+#: src/mainwindow.py:447
+#, fuzzy
+#| msgid "&Change Visual Angle"
+msgctxt "@action:inmenu"
+msgid "&Change Visual Angle"
+msgstr "更改视角(&C)"
+
+#: src/mainwindow.py:448
+msgctxt "@action:intoolbar"
+msgid "Angle"
+msgstr ""
+
+#: src/mainwindow.py:449
+msgctxt "kajongg @info:tooltip"
+msgid "Change the visual appearance of the tiles."
+msgstr ""
+
+#: src/mainwindow.py:451
+#, fuzzy
+#| msgctxt "kajongg"
+#| msgid "&Score Table"
+msgctxt "kajongg @action:inmenu"
+msgid "&Score Table"
+msgstr "计分板(&S)"
+
+#: src/mainwindow.py:452
+#, fuzzy
+#| msgctxt "kajongg"
+#| msgid "Scores"
+msgctxt "kajongg @action:intoolbar"
+msgid "&Scores"
+msgstr "计分"
+
+#: src/mainwindow.py:454
+msgctxt "kajongg @info:tooltip"
+msgid "Show or hide the score table for the current game."
+msgstr ""
+
+#: src/mainwindow.py:456
+msgctxt "@action:inmenu"
+msgid "&Explain Scores"
+msgstr ""
+
+#: src/mainwindow.py:457
+msgctxt "@action:intoolbar"
+msgid "&Explain"
+msgstr ""
+
+#: src/mainwindow.py:459
+msgctxt "kajongg @info:tooltip"
+msgid "Explain the scoring for all players in the current game."
+msgstr ""
+
+#: src/mainwindow.py:461
+msgctxt "@action:inmenu"
+msgid "&Demo Mode"
+msgstr ""
+
+#: src/mainwindow.py:464
+msgctxt "kajongg @info:tooltip"
+msgid "Let the computer take over for you. Start a new local game if needed."
+msgstr ""
+
+#: src/mainwindow.py:466
+msgid "C&hat"
+msgstr ""
+
+#: src/mainwindow.py:467
+#, fuzzy
+#| msgid "Chat with others on this table"
+msgctxt "kajongg @info:tooltip"
+msgid "Chat with the other players."
+msgstr "和牌桌上其他玩家聊天"
+
+#: src/meld.py:314
+msgctxt "kajongg meld type"
+msgid "Bonus"
+msgstr ""
+
+#: src/meld.py:316
+msgctxt "kajongg meld type"
+msgid "&single"
+msgstr ""
+
+#: src/meld.py:318
+msgctxt "kajongg meld type"
+msgid "&pair"
+msgstr ""
+
+#: src/meld.py:320
+msgctxt "kajongg meld type"
+msgid "&chow"
+msgstr "吃(&C)"
+
+#: src/meld.py:322
+msgctxt "kajongg meld type"
+msgid "p&ung"
+msgstr "碰(&U)"
+
+#: src/meld.py:324
+msgctxt "kajongg meld type"
+msgid "c&laimed kong"
+msgstr "明杠(&L)"
+
+#: src/meld.py:326
+msgctxt "kajongg meld type"
+msgid "k&ong"
+msgstr "杠(&O)"
+
+#: src/meld.py:328
+msgctxt "kajongg meld type"
+msgid "rest of tiles"
+msgstr ""
+
+#: src/meld.py:335
+msgctxt "kajongg meld state"
+msgid "Exposed"
+msgstr ""
+
+#: src/meld.py:337
+msgctxt "kajongg meld state"
+msgid "Concealed"
+msgstr ""
+
+#: src/meld.py:341
+msgctxt "kajongg meld name, do not translate parameter names"
+msgid "{state} {meldType} {name}"
+msgstr ""
+
+#: src/message.py:173
+msgid "saying %1 violates Original Call"
+msgstr ""
+
+#: src/message.py:183
+msgid ""
+"claiming %1 is dangerous because you will have to discard a dangerous tile"
+msgstr ""
+
+#: src/message.py:188
+msgid ""
+"claiming %1 for %2 is dangerous because you will have to discard a dangerous "
+"tile"
+msgstr ""
+
+#: src/message.py:191
+msgid "You may say %1"
+msgstr ""
+
+#: src/message.py:198
+msgctxt "kajongg"
+msgid "Pung"
+msgstr "碰"
+
+#: src/message.py:199
+msgctxt "kajongg game dialog:Key for Pung"
+msgid "P"
+msgstr "P"
+
+#: src/message.py:211
+msgctxt "kajongg"
+msgid "Kong"
+msgstr "杠"
+
+#: src/message.py:212
+msgctxt "kajongg game dialog:Key for Kong"
+msgid "K"
+msgstr "K"
+
+#: src/message.py:229
+msgid "saying Kong for %1 violates Original Call"
+msgstr ""
+
+#: src/message.py:231
+msgid "You may say Kong for %1"
+msgstr ""
+
+#: src/message.py:244
+msgctxt "kajongg"
+msgid "Chow"
+msgstr "吃"
+
+#: src/message.py:245
+msgctxt "kajongg game dialog:Key for Chow"
+msgid "C"
+msgstr "C"
+
+#: src/message.py:269
+msgctxt "kajongg"
+msgid "Mah Jongg"
+msgstr "胡"
+
+#: src/message.py:270
+msgctxt "kajongg game dialog:Key for Mah Jongg"
+msgid "M"
+msgstr "M"
+
+#: src/message.py:276
+msgid "Press here and you win"
+msgstr ""
+
+#: src/message.py:286
+msgctxt "kajongg"
+msgid "Original Call"
+msgstr ""
+
+#: src/message.py:287
+msgctxt "kajongg game dialog:Key for Original Call"
+msgid "O"
+msgstr ""
+
+#: src/message.py:297
+msgid "discarding %1 and declaring Original Call makes this hand unwinnable"
+msgstr ""
+
+#: src/message.py:302
+msgid ""
+"Discard a tile, declaring Original Call meaning you need only one tile to "
+"complete the hand and will not alter the hand in any way (except bonus tiles)"
+msgstr ""
+
+#: src/message.py:321
+msgctxt "kajongg"
+msgid "Discard"
+msgstr "弃牌"
+
+#: src/message.py:322
+msgctxt "kajongg game dialog:Key for Discard"
+msgid "D"
+msgstr "D"
+
+#: src/message.py:334
+msgid "discarding %1 violates Original Call"
+msgstr ""
+
+#: src/message.py:337
+msgid "discarding %1 is Dangerous Game"
+msgstr ""
+
+#: src/message.py:340
+msgid "discard the least useful tile"
+msgstr ""
+
+#: src/message.py:394
+#, fuzzy
+#| msgid "Do you really want to abort this game?"
+msgid "%1 is not ready to start the game"
+msgstr "您真的想要中止这局游戏吗？"
+
+#: src/message.py:420
+msgid "Kajongg <numid>%1</numid>"
+msgstr ""
+
+#: src/message.py:471
+#, fuzzy
+#| msgid "Original author"
+msgctxt "kajongg"
+msgid "Violates Original Call"
+msgstr "原作者"
+
+#: src/message.py:568
+#, fuzzy
+#| msgctxt "kajongg name for local game server"
+#| msgid "Local Game"
+msgctxt "kajongg"
+msgid "Dangerous Game"
+msgstr "本地游戏"
+
+#: src/message.py:578
+msgctxt "kajongg"
+msgid "No Choice"
+msgstr ""
+
+#: src/message.py:625
+msgctxt "kajongg"
+msgid "OK"
+msgstr ""
+
+#: src/message.py:626
+msgctxt "kajongg game dialog:Key for OK"
+msgid "O"
+msgstr "O"
+
+#: src/message.py:629
+msgid "Confirm that you saw the message"
+msgstr ""
+
+#: src/message.py:635
+msgctxt "kajongg"
+msgid "No Claim"
+msgstr "不叫"
+
+#: src/message.py:636
+msgctxt "kajongg game dialog:Key for No claim"
+msgid "N"
+msgstr "N"
+
+#: src/message.py:639
+msgid "You cannot or do not want to claim this tile"
+msgstr ""
+
+#: src/player.py:614
+msgid "%1 claiming MahJongg: She does not really have tile %2"
+msgstr ""
+
+#: src/player.py:622
+msgid ""
+"%1 claiming MahJongg: She did not pass all concealed tiles to the server"
+msgstr ""
+
+#: src/player.py:718
+msgid "Player %1 has 3 or 4 exposed melds, all are green"
+msgstr ""
+
+#: src/player.py:726
+msgid "Player %1 may try a True Color Game"
+msgstr ""
+
+#: src/player.py:729
+msgid "Player %1 may try an All Terminals Game"
+msgstr ""
+
+#: src/player.py:740
+msgid "Player %1 exposed many winds"
+msgstr ""
+
+#: src/player.py:743
+msgid "Player %1 exposed many dragons"
+msgstr ""
+
+#: src/playerlist.py:47
+#, fuzzy
+#| msgid "&New"
+msgctxt "define a new player"
+msgid "&New"
+msgstr "新建(&N)"
+
+#: src/playerlist.py:106
+#, fuzzy
+#| msgid "User %1 already exists"
+msgid "Player %1 already exists"
+msgstr "用户 %1 已存在"
+
+#: src/playerlist.py:113
+#, fuzzy
+#| msgid ""
+#| "Unknown error for player %1: %2\n"
+#| "%3"
+msgid "Error while adding player %1: %2"
+msgstr ""
+"玩家 %1 的未知错误：%2\n"
+"%3"
+
+#: src/playerlist.py:135
+msgid "This player cannot be deleted. There are games associated with %1."
+msgstr ""
+
+#: src/predefined.py:36
+msgid "Classical Chinese standard"
+msgstr ""
+
+#: src/predefined.py:40
+msgid "Classical Chinese"
+msgstr ""
+
+#: src/predefined.py:45
+msgid "Last Tile Taken from Dead Wall"
+msgstr ""
+
+#: src/predefined.py:47
+msgid ""
+"The dead wall is also called kong box: The last 16 tiles of the wall used as "
+"source of replacement tiles"
+msgstr ""
+
+#: src/predefined.py:49
+msgid "Last Tile is Last Tile of Wall"
+msgstr ""
+
+#: src/predefined.py:51
+msgid ""
+"Winner said Mah Jong with the last tile taken from the living end of the wall"
+msgstr ""
+
+#: src/predefined.py:52
+msgid "Last Tile is Last Tile of Wall Discarded"
+msgstr ""
+
+#: src/predefined.py:54
+msgid ""
+"Winner said Mah Jong by claiming the last tile taken from the living end of "
+"the wall, discarded by another player"
+msgstr ""
+
+#: src/predefined.py:56
+msgid "Robbing the Kong"
+msgstr ""
+
+#: src/predefined.py:57
+msgid ""
+"Winner said Mah Jong by claiming the 4th tile of a kong another player just "
+"declared"
+msgstr ""
+
+#: src/predefined.py:59
+msgid "Mah Jongg with Original Call"
+msgstr ""
+
+#: src/predefined.py:62
+msgid ""
+"Just before the first discard, a player can declare Original Call meaning "
+"she needs only one tile to complete the hand and announces she will not "
+"alter the hand in any way (except bonus tiles)"
+msgstr ""
+
+#: src/predefined.py:64
+msgid "Dangerous Game"
+msgstr ""
+
+#: src/predefined.py:65
+msgid ""
+"In some situations discarding a tile that has a high chance to help somebody "
+"to win is declared to be dangerous, and if that tile actually makes somebody "
+"win, the discarder pays the winner for all"
+msgstr ""
+
+#: src/predefined.py:68
+msgid "Twofold Fortune"
+msgstr ""
+
+#: src/predefined.py:69
+msgid ""
+"Kong after Kong: Declare Kong and a second Kong with the replacement tile "
+"and Mah Jong with the second replacement tile"
+msgstr ""
+
+#: src/predefined.py:72
+msgid "Blessing of Heaven"
+msgstr ""
+
+#: src/predefined.py:73
+msgid "East says Mah Jong with the unmodified dealt tiles"
+msgstr ""
+
+#: src/predefined.py:74
+msgid "Blessing of Earth"
+msgstr ""
+
+#: src/predefined.py:75
+msgid ""
+"South, West or North says Mah Jong with the first tile discarded by East"
+msgstr ""
+
+#: src/predefined.py:76
+msgid "East won nine times in a row"
+msgstr ""
+
+#: src/predefined.py:77
+msgid "If that happens, East gets a limit score and the winds rotate"
+msgstr ""
+
+#: src/predefined.py:82
+msgid ""
+"False Naming of Discard, Claimed for Mah Jongg and False Declaration of Mah "
+"Jongg"
+msgstr ""
+
+#: src/predefined.py:87
+msgid "Own Flower and Own Season"
+msgstr ""
+
+#: src/predefined.py:88
+msgid "All Flowers"
+msgstr ""
+
+#: src/predefined.py:89
+msgid "All Seasons"
+msgstr ""
+
+#: src/predefined.py:90
+msgid "Three Concealed Pongs"
+msgstr ""
+
+#: src/predefined.py:91
+msgid "Long Hand"
+msgstr ""
+
+#: src/predefined.py:92
+msgid "The hand contains too many tiles"
+msgstr ""
+
+#: src/predefined.py:96
+msgid "Points Needed for Mah Jongg"
+msgstr ""
+
+#: src/predefined.py:97
+msgid "Minimum number of doubles needed for Mah Jongg"
+msgstr ""
+
+#: src/predefined.py:99
+msgid "Points for a Limit Hand"
+msgstr ""
+
+#: src/predefined.py:100
+msgid "Play with the roof off"
+msgstr ""
+
+#: src/predefined.py:101
+msgid "Play with no upper scoring limit"
+msgstr ""
+
+#: src/predefined.py:102
+msgid "Claim Timeout"
+msgstr "等待超时"
+
+#: src/predefined.py:103
+msgid "Size of Kong Box"
+msgstr ""
+
+#: src/predefined.py:104
+msgid "The Kong Box is used for replacement tiles when declaring kongs"
+msgstr ""
+
+#: src/predefined.py:105
+msgid "Play with Bonus Tiles"
+msgstr ""
+
+#: src/predefined.py:106
+msgid "Bonus tiles increase the luck factor"
+msgstr ""
+
+#: src/predefined.py:107
+msgid "Minimum number of rounds in game"
+msgstr ""
+
+#: src/predefined.py:108
+msgid "number of allowed chows"
+msgstr ""
+
+#: src/predefined.py:109
+msgid "The number of chows a player may build"
+msgstr ""
+
+#: src/predefined.py:110
+msgid "must declare calling hand"
+msgstr ""
+
+#: src/predefined.py:112
+msgid "Mah Jongg is only allowed after having declared to have a calling hand"
+msgstr ""
+
+#: src/predefined.py:113
+msgid "Standard Rotation"
+msgstr ""
+
+#: src/predefined.py:121
+msgid "Last Tile Completes Pair of 2..8"
+msgstr ""
+
+#: src/predefined.py:122
+msgid "Last Tile Completes Pair of Terminals or Honors"
+msgstr ""
+
+#: src/predefined.py:124
+msgid "Last Tile is Only Possible Tile"
+msgstr ""
+
+#: src/predefined.py:125
+msgid "Won with Last Tile Taken from Wall"
+msgstr ""
+
+#: src/predefined.py:127
+msgid "Zero Point Hand"
+msgstr ""
+
+#: src/predefined.py:128
+msgid "The hand has 0 basis points excluding bonus tiles"
+msgstr ""
+
+#: src/predefined.py:129
+msgid "No Chow"
+msgstr ""
+
+#: src/predefined.py:130
+msgid "Only Concealed Melds"
+msgstr ""
+
+#: src/predefined.py:131
+msgid "False Color Game"
+msgstr ""
+
+#: src/predefined.py:132
+msgid ""
+"Only same-colored tiles (only bamboo/stone/character) plus any number of "
+"winds and dragons"
+msgstr ""
+
+#: src/predefined.py:134
+msgid "True Color Game"
+msgstr ""
+
+#: src/predefined.py:135
+msgid "Only same-colored tiles (only bamboo/stone/character)"
+msgstr ""
+
+#: src/predefined.py:136
+msgid "Concealed True Color Game"
+msgstr ""
+
+#: src/predefined.py:137
+msgid "All tiles concealed and of the same suit, no honors"
+msgstr ""
+
+#: src/predefined.py:138
+msgid "Only Terminals and Honors"
+msgstr ""
+
+#: src/predefined.py:139
+msgid "Only winds, dragons, 1 and 9"
+msgstr ""
+
+#: src/predefined.py:140
+msgid "Only Honors"
+msgstr ""
+
+#: src/predefined.py:141
+msgid "Only winds and dragons"
+msgstr ""
+
+#: src/predefined.py:142
+msgid "Hidden Treasure"
+msgstr ""
+
+#: src/predefined.py:143
+msgid "Only hidden Pungs or Kongs, last tile from wall"
+msgstr ""
+
+#: src/predefined.py:144
+msgid "Heads and Tails"
+msgstr ""
+
+#: src/predefined.py:145
+msgid "Only 1 and 9"
+msgstr ""
+
+#: src/predefined.py:146
+msgid "Fourfold Plenty"
+msgstr ""
+
+#: src/predefined.py:147
+#, fuzzy
+#| msgctxt "kajongg"
+#| msgid "Kong"
+msgid "4 Kongs"
+msgstr "杠"
+
+#: src/predefined.py:148 src/predefined.py:322
+msgid "Three Great Scholars"
+msgstr ""
+
+#: src/predefined.py:149 src/predefined.py:246
+msgid "3 Pungs or Kongs of dragons"
+msgstr ""
+
+#: src/predefined.py:150
+msgid "Four Blessings Hovering over the Door"
+msgstr ""
+
+#: src/predefined.py:152 src/predefined.py:250
+msgid "4 Pungs or Kongs of winds"
+msgstr ""
+
+#: src/predefined.py:153
+msgid "Imperial Jade"
+msgstr ""
+
+#: src/predefined.py:154
+msgid "Only green tiles: Green dragon and Bamboo 2,3,4,6,8"
+msgstr ""
+
+#: src/predefined.py:155
+msgid "Gathering the Plum Blossom from the Roof"
+msgstr ""
+
+#: src/predefined.py:157
+msgid "Mah Jong with stone 5 from the dead wall"
+msgstr ""
+
+#: src/predefined.py:158
+msgid "Plucking the Moon from the Bottom of the Sea"
+msgstr ""
+
+#: src/predefined.py:159
+msgid "Mah Jong with the last tile from the wall being a stone 1"
+msgstr ""
+
+#: src/predefined.py:160
+msgid "Scratching a Carrying Pole"
+msgstr ""
+
+#: src/predefined.py:161
+msgid "Robbing the Kong of bamboo 2"
+msgstr ""
+
+#: src/predefined.py:166
+msgid "Standard Mah Jongg"
+msgstr ""
+
+#: src/predefined.py:168
+msgid "Nine Gates"
+msgstr ""
+
+#: src/predefined.py:169
+msgid ""
+"All tiles concealed of same color: Values 1-1-1-2-3-4-5-6-7-8-9-9-9 "
+"completed with another tile of the same color (from wall or discarded)"
+msgstr ""
+
+#: src/predefined.py:171
+msgid "Thirteen Orphans"
+msgstr ""
+
+#: src/predefined.py:172
+msgid ""
+"13 single tiles: All dragons, winds, 1, 9 and a 14th tile building a pair "
+"with one of them"
+msgstr ""
+
+#: src/predefined.py:176
+msgid "Pung/Kong of Dragons"
+msgstr ""
+
+#: src/predefined.py:178
+msgid "Pung/Kong of Own Wind"
+msgstr ""
+
+#: src/predefined.py:180
+msgid "Pung/Kong of Round Wind"
+msgstr ""
+
+#: src/predefined.py:184
+msgid "Exposed Kong"
+msgstr ""
+
+#: src/predefined.py:186
+msgid "Exposed Kong of Terminals"
+msgstr ""
+
+#: src/predefined.py:188
+msgid "Exposed Kong of Honors"
+msgstr ""
+
+#: src/predefined.py:191
+msgid "Exposed Pung"
+msgstr ""
+
+#: src/predefined.py:193
+msgid "Exposed Pung of Terminals"
+msgstr ""
+
+#: src/predefined.py:195
+msgid "Exposed Pung of Honors"
+msgstr ""
+
+#: src/predefined.py:199
+msgid "Concealed Kong"
+msgstr ""
+
+#: src/predefined.py:201
+msgid "Concealed Kong of Terminals"
+msgstr ""
+
+#: src/predefined.py:203
+msgid "Concealed Kong of Honors"
+msgstr ""
+
+#: src/predefined.py:206
+msgid "Concealed Pung"
+msgstr ""
+
+#: src/predefined.py:208
+msgid "Concealed Pung of Terminals"
+msgstr ""
+
+#: src/predefined.py:210
+msgid "Concealed Pung of Honors"
+msgstr ""
+
+#: src/predefined.py:213
+msgid "Pair of Own Wind"
+msgstr ""
+
+#: src/predefined.py:215
+msgid "Pair of Round Wind"
+msgstr ""
+
+#: src/predefined.py:217
+msgid "Pair of Dragons"
+msgstr ""
+
+#: src/predefined.py:221
+#, fuzzy
+#| msgctxt "kajongg"
+#| msgid "flower"
+msgid "Flower"
+msgstr "花"
+
+#: src/predefined.py:223
+msgid "Season"
+msgstr ""
+
+#: src/predefined.py:230
+msgid "Classical Chinese DMJL"
+msgstr ""
+
+#: src/predefined.py:235
+msgid "Classical Chinese as defined by the Deutsche Mah Jongg Liga (DMJL) e.V."
+msgstr ""
+
+#: src/predefined.py:240
+msgid "Squirming Snake"
+msgstr ""
+
+#: src/predefined.py:241
+msgid ""
+"All tiles of same color. Pung or Kong of 1 and 9, pair of 2, 5 or 8 and two "
+"Chows of the remaining values"
+msgstr ""
+
+#: src/predefined.py:243
+msgid "Little Three Dragons"
+msgstr ""
+
+#: src/predefined.py:244
+msgid "2 Pungs or Kongs of dragons and 1 pair of dragons"
+msgstr ""
+
+#: src/predefined.py:245
+msgid "Big Three Dragons"
+msgstr ""
+
+#: src/predefined.py:247
+msgid "Little Four Joys"
+msgstr ""
+
+#: src/predefined.py:248
+msgid "3 Pungs or Kongs of winds and 1 pair of winds"
+msgstr ""
+
+#: src/predefined.py:249
+msgid "Big Four Joys"
+msgstr ""
+
+#: src/predefined.py:254
+msgid "False Naming of Discard, Claimed for Chow"
+msgstr ""
+
+#: src/predefined.py:255
+msgid "False Naming of Discard, Claimed for Pung/Kong"
+msgstr ""
+
+#: src/predefined.py:256 src/predefined.py:329
+msgid "False Declaration of Mah Jongg by One Player"
+msgstr ""
+
+#: src/predefined.py:258
+msgid "False Declaration of Mah Jongg by Two Players"
+msgstr ""
+
+#: src/predefined.py:260
+msgid "False Declaration of Mah Jongg by Three Players"
+msgstr ""
+
+#: src/predefined.py:262 src/predefined.py:331
+msgid "False Naming of Discard, Claimed for Mah Jongg"
+msgstr ""
+
+#: src/predefined.py:269
+msgid "Classical Chinese BMJA"
+msgstr ""
+
+#: src/predefined.py:274
+msgid "Classical Chinese as defined by the British Mah-Jong Association"
+msgstr ""
+
+#: src/predefined.py:290
+#, fuzzy
+#| msgid "Original author"
+msgid "Original Call"
+msgstr "原作者"
+
+#: src/predefined.py:293
+msgid "Gates of Heaven"
+msgstr ""
+
+#: src/predefined.py:294
+msgid ""
+"All tiles concealed of same color: Values 1-1-1-2-3-4-5-6-7-8-9-9-9 and "
+"another tile 2..8 of the same color"
+msgstr ""
+
+#: src/predefined.py:296
+msgid "Wriggling Snake"
+msgstr ""
+
+#: src/predefined.py:297
+msgid ""
+"Pair of 1s and a run from 2 to 9 in the same suit with each of the winds"
+msgstr ""
+
+#: src/predefined.py:298
+msgid "Triple Knitting"
+msgstr ""
+
+#: src/predefined.py:299
+msgid ""
+"Four sets of three tiles in the different suits and a pair: No Winds or "
+"Dragons"
+msgstr ""
+
+#: src/predefined.py:300
+msgid "Knitting"
+msgstr ""
+
+#: src/predefined.py:301
+msgid "7 pairs of tiles in any 2 out of 3 suits; no Winds or Dragons"
+msgstr ""
+
+#: src/predefined.py:302
+msgid "All pair honors"
+msgstr ""
+
+#: src/predefined.py:303
+msgid "7 pairs of 1s/9s/Winds/Dragons"
+msgstr ""
+
+#: src/predefined.py:306
+#, fuzzy
+#| msgctxt "kajongg"
+#| msgid "flower"
+msgid "Own Flower"
+msgstr "花"
+
+#: src/predefined.py:307
+msgid "Own Season"
+msgstr ""
+
+#: src/predefined.py:318
+msgid "Buried Treasure"
+msgstr ""
+
+#: src/predefined.py:319
+msgid "Concealed pungs of one suit with winds/dragons and a pair"
+msgstr ""
+
+#: src/predefined.py:320
+msgid "Purity"
+msgstr ""
+
+#: src/predefined.py:321
+msgid "Only same-colored tiles (no chows, dragons or winds)"
+msgstr ""
+
+#: src/predefined.py:323
+msgid "3 Pungs or Kongs of dragons plus any pung/kong and a pair"
+msgstr ""
+
+#: src/predefined.py:325
+msgid "The 13 Unique Wonders"
+msgstr ""
+
+#: src/predefined.py:328
+msgid "False Naming of Discard, Claimed for Chow/Pung/Kong"
+msgstr ""
+
+#: src/predefined.py:333
+msgid "Calling for Only Honors"
+msgstr ""
+
+#: src/predefined.py:334
+msgid "Calling for Wriggling Snake"
+msgstr ""
+
+#: src/predefined.py:335
+msgid "Calling for Triple Knitting"
+msgstr ""
+
+#: src/predefined.py:336
+msgid "Calling for Gates of Heaven"
+msgstr ""
+
+#: src/predefined.py:338
+msgid "Calling for Knitting"
+msgstr ""
+
+#: src/predefined.py:339
+msgid "Calling for Imperial Jade"
+msgstr ""
+
+#: src/predefined.py:340
+msgid "Calling for The 13 Unique Wonders"
+msgstr ""
+
+#: src/predefined.py:342
+msgid "Calling for Three Great Scholars"
+msgstr ""
+
+#: src/predefined.py:344
+msgid "Calling for All pair honors"
+msgstr ""
+
+#: src/predefined.py:345
+msgid "Calling for Heads and Tails"
+msgstr ""
+
+#: src/predefined.py:346
+msgid "Calling for Four Blessings Hovering over the Door"
+msgstr ""
+
+#: src/predefined.py:348
+msgid "Calling for Buried Treasure"
+msgstr ""
+
+#: src/predefined.py:349
+msgid "Calling for Fourfold Plenty"
+msgstr ""
+
+#: src/predefined.py:350
+msgid "Calling for Purity"
+msgstr ""
+
+#: src/query.py:196
+msgctxt "kajongg name for local game server"
+msgid "Local Game"
+msgstr "本地游戏"
+
+#: src/query.py:357
+msgid "Database %1 updated from schema %2 to %3"
+msgstr ""
+
+#: src/rule.py:51 src/scoringdialog.py:645 src/scoringdialog.py:730
+msgid "points"
+msgstr ""
+
+#: src/rule.py:51
+msgid "doubles"
+msgstr ""
+
+#: src/rule.py:51
+msgid "limits"
+msgstr ""
+
+#: src/rule.py:93
+msgctxt "Kajongg"
+msgid "%1 points"
+msgstr ""
+
+#: src/rule.py:95
+msgctxt "Kajongg"
+msgid "%1 doubles"
+msgstr ""
+
+#: src/rule.py:97
+msgctxt "Kajongg"
+msgid "%1 limits"
+msgstr ""
+
+#: src/rule.py:331
+msgid "Meld Rules"
+msgstr ""
+
+#: src/rule.py:332
+msgid ""
+"Meld rules are applied to single melds independent of the rest of the hand"
+msgstr ""
+
+#: src/rule.py:333
+msgid "Hand Rules"
+msgstr ""
+
+#: src/rule.py:334
+msgid "Hand rules are applied to the entire hand, for all players"
+msgstr ""
+
+#: src/rule.py:335
+msgid "Winner Rules"
+msgstr ""
+
+#: src/rule.py:336
+msgid "Winner rules are applied to the entire hand but only for the winner"
+msgstr ""
+
+#: src/rule.py:337
+msgid "Loser Rules"
+msgstr ""
+
+#: src/rule.py:338
+msgid "Loser rules are applied to the entire hand but only for non-winners"
+msgstr ""
+
+#: src/rule.py:339
+msgid "Mah Jongg Rules"
+msgstr ""
+
+#: src/rule.py:340
+msgid "Only hands matching a Mah Jongg rule can win"
+msgstr ""
+
+#: src/rule.py:341
+msgctxt "kajongg"
+msgid "Options"
+msgstr "选项"
+
+#: src/rule.py:342
+msgid "Here we have several special game related options"
+msgstr ""
+
+#: src/rule.py:343
+msgid "Penalties"
+msgstr ""
+
+#: src/rule.py:344
+msgid ""
+"Penalties are applied manually by the user. They are only used for scoring "
+"games.\n"
+"When playing against the computer or over the net, Kajongg will never let "
+"you get\n"
+"into a situation where you have to pay a penalty"
+msgstr ""
+
+#: src/rule.py:522
+msgctxt "Ruleset._newKey:%1 is empty or space plus number"
+msgid "Copy%1 of %2"
+msgstr ""
+
+#: src/rule.py:852
+msgctxt "%1 can be a sentence"
+msgid "%4 have impossible values %2/%3 in rule \"%1\""
+msgstr ""
+
+#: src/rule.py:932
+msgctxt "wrong value for rule"
+msgid "%1: %2 is too small, minimal value is %3"
+msgstr ""
+
+#: src/rulesetselector.py:478
+msgid "Customize rulesets"
+msgstr ""
+
+#: src/rulesetselector.py:494
+msgctxt "kajongg"
+msgid "Rule"
+msgstr "规则"
+
+#: src/rulesetselector.py:544
+#, fuzzy
+#| msgid "&Copy"
+msgid "Copy"
+msgstr "复制(&C)"
+
+#: src/rulesetselector.py:545
+#, fuzzy
+#| msgid "Compare"
+msgctxt "Kajongg ruleset comparer"
+msgid "Compare"
+msgstr "比较"
+
+#: src/rulesetselector.py:546
+#, fuzzy
+#| msgid "R&emove"
+msgid "Remove"
+msgstr "删除(&E)"
+
+#: src/rulesetselector.py:547
+msgid "Close"
+msgstr ""
+
+#: src/scene.py:368 src/scene.py:493
+msgid "Do you really want to abort this game?"
+msgstr "您真的想要中止这局游戏吗？"
+
+#: src/scene.py:518
+msgctxt ""
+"kajongg:keyboard commands for moving tiles to the players with wind ESWN or "
+"to the central tile selector (X)"
+msgid "ESWNX"
+msgstr ""
+
+#: src/scoring.py:47
+msgid "Swap Seats"
+msgstr ""
+
+#: src/scoring.py:48
+msgid "By the rules, %1 and %2 should now exchange their seats. "
+msgstr ""
+
+#: src/scoring.py:50
+msgid "&Exchange"
+msgstr ""
+
+#: src/scoring.py:52
+msgid "&Keep seat"
+msgstr ""
+
+#: src/scoring.py:60
+msgid "Select four players"
+msgstr ""
+
+#: src/scoring.py:269
+msgid "Move Exposed Tiles Here"
+msgstr ""
+
+#: src/scoring.py:270
+msgid "Move Concealed Tiles Here"
+msgstr ""
+
+#: src/scoring.py:545
+msgid "Please define four players in <interface>Settings|Players</interface>"
+msgstr ""
+
+#: src/scoringdialog.py:237
+msgid "Round/Hand"
+msgstr ""
+
+#: src/scoringdialog.py:267 src/scoringdialog.py:777
+msgctxt "kajongg"
+msgid "Score"
+msgstr "计分"
+
+#: src/scoringdialog.py:267
+#, fuzzy
+#| msgid "Players"
+msgctxt "kajongg"
+msgid "Payments"
+msgstr "玩家"
+
+#: src/scoringdialog.py:268
+msgctxt "kajongg"
+msgid "Balance"
+msgstr ""
+
+#: src/scoringdialog.py:268
+msgctxt "kajongg"
+msgid "Chart"
+msgstr ""
+
+#: src/scoringdialog.py:396
+msgctxt "kajongg"
+msgid "Scores"
+msgstr "计分"
+
+#: src/scoringdialog.py:442
+msgctxt "kajongg"
+msgid "Used Rules"
+msgstr ""
+
+#: src/scoringdialog.py:474
+msgid "Final scores for game <numid>%1</numid>"
+msgstr ""
+
+#: src/scoringdialog.py:476
+msgid "Scores for game <numid>%1</numid>"
+msgstr ""
+
+#: src/scoringdialog.py:539
+msgid "Explain Scores"
+msgstr ""
+
+#: src/scoringdialog.py:555
+msgid "There is no active game"
+msgstr ""
+
+#: src/scoringdialog.py:558
+msgid "%1"
+msgstr ""
+
+#: src/scoringdialog.py:570
+msgid "Manual score for %1: %2 points"
+msgstr ""
+
+#: src/scoringdialog.py:632
+msgid "Penalty"
+msgstr ""
+
+#: src/scoringdialog.py:635
+msgid "Offense:"
+msgstr ""
+
+#: src/scoringdialog.py:641
+msgid "Total Penalty"
+msgstr ""
+
+#: src/scoringdialog.py:674 src/scoringdialog.py:677
+msgid "&Execute"
+msgstr "执行(&E)"
+
+#: src/scoringdialog.py:751
+msgctxt "penalty dialog, appears behind paying player combobox"
+msgid "pays %1 points"
+msgstr ""
+
+#: src/scoringdialog.py:754
+msgctxt "penalty dialog, appears behind profiting player combobox"
+msgid "gets %1 points"
+msgstr ""
+
+#: src/scoringdialog.py:763
+msgid "Scoring for this Hand"
+msgstr ""
+
+#: src/scoringdialog.py:775
+msgctxt "kajongg"
+msgid "Player"
+msgstr "玩家"
+
+#: src/scoringdialog.py:776
+msgctxt "kajongg"
+msgid "Wind"
+msgstr ""
+
+#: src/scoringdialog.py:778
+msgid "Winner"
+msgstr ""
+
+#: src/scoringdialog.py:784
+msgctxt "kajongg"
+msgid "Draw"
+msgstr "平局"
+
+#: src/scoringdialog.py:786
+msgid "&Penalties"
+msgstr ""
+
+#: src/scoringdialog.py:788
+msgid "&Save Hand"
+msgstr ""
+
+#: src/scoringdialog.py:810
+msgid "&Last Tile:"
+msgstr ""
+
+#: src/scoringdialog.py:818
+msgid "L&ast Meld:"
+msgstr ""
+
+#: src/server.py:138
+msgid "Wrong password"
+msgstr "错误的密码"
+
+#: src/server.py:235
+msgid "You already joined this table"
+msgstr "您已加入此牌桌"
+
+#: src/server.py:237
+msgid "All seats are already taken"
+msgstr "牌桌已满员"
+
+#: src/server.py:242
+msgid "takes a seat"
+msgstr "占座"
+
+#: src/server.py:250
+msgid "leaves the table"
+msgstr "离开此牌桌"
+
+#: src/server.py:296
+msgctxt "kajongg, name of robot player, to be translated"
+msgid "Robot 1"
+msgstr ""
+
+#: src/server.py:297
+msgctxt "kajongg, name of robot player, to be translated"
+msgid "Robot 2"
+msgstr ""
+
+#: src/server.py:298
+msgctxt "kajongg, name of robot player, to be translated"
+msgid "Robot 3"
+msgstr ""
+
+#: src/server.py:346
+msgid "Only the initiator %1 can start this game, you are %2"
+msgstr ""
+
+#: src/server.py:643
+#, fuzzy
+#| msgid "table with id <numid>%1</numid> not found"
+msgid "Game <numid>%1</numid> is over!"
+msgstr "找不到编号为 <numid>%1</numid> 的牌桌"
+
+#: src/server.py:668
+msgid "%1 wrongly said %2 for meld %3"
+msgstr ""
+
+#: src/server.py:672
+msgid "%1 wrongly said %2: claims to have concealed tiles %3 but only has %4"
+msgstr ""
+
+#: src/server.py:703
+msgid "declareKong:%1 wrongly said Kong for meld %2"
+msgstr ""
+
+#: src/server.py:740
+msgid "%1 claiming MahJongg: This is not a winning hand: %2"
+msgstr ""
+
+#: src/server.py:916
+msgid "table with id <numid>%1</numid> not found"
+msgstr "找不到编号为 <numid>%1</numid> 的牌桌"
+
+#: src/server.py:1035
+msgid "Player %1 has logged out"
+msgstr "玩家 %1 已注销"
+
+#: src/server.py:1121
+msgid ""
+"Your client has a version older than 4.9.0 but you need %1 for this server"
+msgstr "您的客户端版本老于 4.9.0，但服务器需要 %1"
+
+#: src/server.py:1130
+msgid "Your client has version %1 but you need %2 for this server"
+msgstr "您的客户端版本是 %1，但此服务器需要的是 %2"
+
+#: src/server.py:1187
+#, python-format
+msgid "the server will listen on PORT (%d)"
+msgstr "服务器将监听于端口(%d)"
+
+#: src/server.py:1190
+msgid "the server will listen on SOCKET"
+msgstr "服务器将在套接字上监听请求"
+
+#: src/server.py:1191
+msgid "name of the database"
+msgstr "数据库名称"
+
+#: src/server.py:1193
+msgid "do not terminate local game server after last client disconnects"
+msgstr "最后一个客户端断开连接后也不要中断本地游戏服务器"
+
+#: src/server.py:1197
+msgid "do not use KDE bindings. Only for testing"
+msgstr ""
+
+#: src/server.py:1202
+msgid "unrecognized arguments:%1"
+msgstr "不可识别的参数：%1"
+
+#: src/sound.py:63 src/sound.py:66
+msgid "No voices will be heard because the program %1 is missing"
+msgstr "由于缺少 %1 程序，游戏中您将听不到声音"
+
+#: src/sound.py:329
+msgid "cannot write <filename>%1</filename>: %2"
+msgstr "无法写入文件 <filename>%1</filename>：%2"
+
+#: src/tables.py:62
+msgid "Table"
+msgstr "牌桌"
+
+#: src/tables.py:62
+msgctxt "table status"
+msgid "Status"
+msgstr "状态"
+
+#: src/tables.py:62
+msgid "Ruleset"
+msgstr "规则集"
+
+#: src/tables.py:130
+msgid "Select a ruleset"
+msgstr "选择一个规则集"
+
+#: src/tables.py:160
+msgctxt "allocate a new table"
+msgid "&New"
+msgstr "新建(&N)"
+
+#: src/tables.py:162 src/tables.py:273
+msgid "Allocate a new table"
+msgstr "分配一个新牌桌"
+
+#: src/tables.py:164 src/tables.py:274
+msgid "&Join"
+msgstr "加入(&J)"
+
+#: src/tables.py:167 src/tables.py:275
+msgid "Join a table"
+msgstr "加入牌桌"
+
+#: src/tables.py:168
+msgid "&Leave"
+msgstr "离开(&L)"
+
+#: src/tables.py:171
+msgid "Leave a table"
+msgstr "离开牌桌"
+
+#: src/tables.py:172
+msgctxt "Kajongg-Ruleset"
+msgid "Compare"
+msgstr "比较"
+
+#: src/tables.py:175
+msgid "Compare the rules of this table with my own rulesets"
+msgstr "比较此牌桌的规则集和我自己的规则集"
+
+#: src/tables.py:176
+msgid "&Chat"
+msgstr "聊天(&C)"
+
+#: src/tables.py:179
+msgid "&Start"
+msgstr "开始(&S)"
+
+#: src/tables.py:182
+msgid "Start playing on a table. Empty seats will be taken by robot players."
+msgstr "开始一局游戏。空座位会由电脑玩家接管。"
+
+#: src/tables.py:223
+msgid "opens a chat window"
+msgstr "打开聊天窗口"
+
+#: src/tables.py:234
+msgid "Local Games with Ruleset %1"
+msgstr "使用规则集 %1 的本地游戏"
+
+#: src/tables.py:236
+msgid "Tables at %1"
+msgstr ""
+
+#: src/tables.py:269
+msgid "Start a new game"
+msgstr "开始新游戏"
+
+#: src/tables.py:270
+msgctxt "resuming a local suspended game"
+msgid "&Resume"
+msgstr "恢复(&R)"
+
+#: src/tables.py:271
+msgid "Resume the selected suspended game"
+msgstr "恢复已挂起的游戏"
+
+#: src/tables.py:284
+msgid "Chat with others on this table"
+msgstr "和牌桌上其他玩家聊天"
+
+#: src/tables.py:286
+msgid "For chatting with others on this table, please first take a seat"
+msgstr "要和牌桌上其他玩家聊天，请先就座"
+
+#: src/tile.py:167
+msgctxt "kajongg"
+msgid "hidden"
+msgstr ""
+
+#: src/tile.py:167
+msgctxt "kajongg"
+msgid "stone"
+msgstr "洞"
+
+#: src/tile.py:168
+msgctxt "kajongg"
+msgid "bamboo"
+msgstr "条"
+
+#: src/tile.py:168
+msgctxt "kajongg"
+msgid "character"
+msgstr ""
+
+#: src/tile.py:169
+msgctxt "kajongg"
+msgid "wind"
+msgstr "风"
+
+#: src/tile.py:169
+msgctxt "kajongg"
+msgid "dragon"
+msgstr ""
+
+#: src/tile.py:170
+msgctxt "kajongg"
+msgid "flower"
+msgstr "花"
+
+#: src/tile.py:170
+msgctxt "kajongg"
+msgid "season"
+msgstr ""
+
+#: src/tile.py:175
+msgctxt "kajongg"
+msgid "tile"
+msgstr ""
+
+#: src/tile.py:175
+msgctxt "kajongg"
+msgid "white"
+msgstr ""
+
+#: src/tile.py:176
+msgctxt "kajongg"
+msgid "red"
+msgstr ""
+
+#: src/tile.py:176
+msgctxt "kajongg"
+msgid "green"
+msgstr ""
+
+#: src/tile.py:177
+msgctxt "kajongg"
+msgid "East"
+msgstr ""
+
+#: src/tile.py:177
+#, fuzzy
+#| msgctxt "kajongg"
+#| msgid "south"
+msgctxt "kajongg"
+msgid "South"
+msgstr "南"
+
+#: src/tile.py:178
+msgctxt "kajongg"
+msgid "West"
+msgstr ""
+
+#: src/tile.py:178
+#, fuzzy
+#| msgctxt "kajongg"
+#| msgid "north"
+msgctxt "kajongg"
+msgid "North"
+msgstr "北"
+
+#: src/tile.py:186
+msgid "East Wind"
+msgstr ""
+
+#: src/tile.py:186
+msgid "South Wind"
+msgstr ""
+
+#: src/tile.py:187
+msgid "West Wind"
+msgstr ""
+
+#: src/tile.py:187
+msgid "North Wind"
+msgstr ""
+
+#: src/tile.py:189
+msgctxt "kajongg tile name"
+msgid "{group} {value}"
+msgstr ""
+
+#: src/tileset.py:92
+msgid ""
+"cannot find any tileset in the following directories, is libkmahjongg "
+"installed?"
+msgstr "在以下目录找不到牌垛，libkmahjongg 正确安装了吗？"
+
+#: src/tileset.py:94
+msgid "cannot find tileset %1, using default"
+msgstr "找不到牌垛 %1，已使用默认牌垛"
+
+#: src/tileset.py:102
+msgid "unknown tileset"
+msgstr ""
+
+#: src/tileset.py:104
+msgid "no description available"
+msgstr ""
+
+#~ msgid "start a local game server"
+#~ msgstr "启动本地游戏服务器"
+
+#~ msgctxt "Player"
+#~ msgid "Name"
+#~ msgstr "姓名"
+
+#, fuzzy
+#~| msgid "&Scoring"
+#~ msgctxt "@action:intoolbar"
+#~ msgid "&Scoring"
+#~ msgstr "计分(&S)"
+
+#~ msgctxt "kajongg"
+#~ msgid "east"
+#~ msgstr "东"
+
+#~ msgctxt "kajongg"
+#~ msgid "west"
+#~ msgstr "西"
+
+#~ msgid ""
+#~ "The game can begin. Are you ready to play now?\n"
+#~ "If you answer with NO, you will be removed from table %1."
+#~ msgstr ""
+#~ "游戏已准备就绪，您准备好现在开始吗？\n"
+#~ "如果您回答否，将会离开牌桌 %1。"
+
+#~ msgid "Aborted creating a user account"
+#~ msgstr "用户账号创建中止"
+
+#~ msgid "The game is over!"
+#~ msgstr "游戏结束！"
+
+#~ msgctxt "Kajongg ruleset comparer"
+#~ msgid "C&ompare"
+#~ msgstr "比较(&O)"
+
+#~ msgid "ruleset \"%1\" not found"
+#~ msgstr "未找到规则“%1”"
+
+#~ msgid "&Quit"
+#~ msgstr "退出(&Q)"
+
+#~ msgctxt "Rulesetselector"
+#~ msgid "Score"
+#~ msgstr "计分"
+
+#~ msgctxt "Rulesetselector"
+#~ msgid "Unit"
+#~ msgstr "单位"
+
+#~ msgctxt "Rulesetselector"
+#~ msgid "Definition"
+#~ msgstr "定义"
+
+#~ msgid "show traffic with game server"
+#~ msgstr "显示游戏服务器流量"
+
+#, fuzzy
+#~| msgctxt "kajongg name for local game server"
+#~| msgid "Local Game"
+#~ msgid "Local Games"
+#~ msgstr "本地游戏"
+
+#~ msgctxt "kajongg"
+#~ msgid "Server"
+#~ msgstr "服务器"
+
+#~ msgid "Password"
+#~ msgstr "密码"

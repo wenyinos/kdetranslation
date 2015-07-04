@@ -1,0 +1,1736 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010, 2011, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-26 01:45+0000\n"
+"PO-Revision-Date: 2013-07-07 22:07-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#. i18n: ectx: whatsthis, entry (ShowAddressAction), group (Show Address Settings)
+#: actions/contactactionssettings.kcfg.cmake:17
+msgid ""
+"Defines which application shall be used to show the postal address of a "
+"contact on a map. If 'Web Browser' is selected, an URL can be defined with "
+"placeholders for the single address parts. If 'External Application' is "
+"selected, a command with placeholders can be defined."
+msgstr ""
+"定义在地图显示联系人邮政地址所应使用的应用程序。 如果选择“网页浏览器”，可用位"
+"置标记为每个地址部分定义一个 URL。如果选择“外部应用程序”，则可定义一条命令。"
+
+#. i18n: ectx: whatsthis, entry (AddressUrl), group (Show Address Settings)
+#: actions/contactactionssettings.kcfg.cmake:22
+msgid ""
+"This URL defines the website that shall be used to show a contact's postal "
+"address."
+msgstr "本 URL 定义了用来显示联系人邮政地址的网站。"
+
+#. i18n: ectx: tooltip, entry (AddressUrl), group (Show Address Settings)
+#: actions/contactactionssettings.kcfg.cmake:28
+#, no-c-format
+msgid ""
+"The following placeholders can be used in the URL:\n"
+"   %s: Street\n"
+"   %r: Region\n"
+"   %l: Location\n"
+"   %z: Zip Code\n"
+"   %c: Country ISO Code"
+msgstr ""
+"以下占位符可用于 URL：\n"
+"   %s：街道\n"
+"   %r：地区\n"
+"   %l：位置\n"
+"   %z：邮政编码\n"
+"   %c：国家 ISO 编号"
+
+#. i18n: ectx: label, entry (AddressCommand), group (Show Address Settings)
+#: actions/contactactionssettings.kcfg.cmake:31
+msgid "Address Command"
+msgstr "地址命令"
+
+#. i18n: ectx: whatsthis, entry (AddressCommand), group (Show Address Settings)
+#: actions/contactactionssettings.kcfg.cmake:32
+msgid ""
+"This command defines the application that shall be executed to show a "
+"contact's postal address."
+msgstr "本命令定义了用来显示联系人邮政地址所执行的命令。"
+
+#. i18n: ectx: tooltip, entry (AddressCommand), group (Show Address Settings)
+#: actions/contactactionssettings.kcfg.cmake:38
+#, no-c-format
+msgid ""
+"The following placeholders can be used in the command:\n"
+"   %s: Street\n"
+"   %r: Region\n"
+"   %l: Location\n"
+"   %z: Zip Code\n"
+"   %c: Country ISO Code"
+msgstr ""
+"以下占位符可用于命令：\n"
+"   %s：街道\n"
+"   %r：地区\n"
+"   %l：位置\n"
+"   %z：邮政编码\n"
+"   %c：国家 ISO 编号"
+
+#. i18n: ectx: whatsthis, entry (DialPhoneNumberAction), group (Phone Dial Settings)
+#: actions/contactactionssettings.kcfg.cmake:51
+msgid ""
+"Defines which application shall be used to dial the phone number of a "
+"contact. If 'Skype' is selected the Skype application will be started (if "
+"installed on the computer) and the number is dialed. If 'External "
+"Application' is selected, a command with placeholders can be defined."
+msgstr ""
+"定义拨打联系人电话号码所应使用的应用程序。 如果选择“Skype”，那么将启动 Skype "
+"应用程序(如果 计算机上已安装的话)并且拨打电话号码。如果 选择“外部应用程序”，"
+"则可定义一条命令。"
+
+#. i18n: ectx: label, entry (PhoneCommand), group (Phone Dial Settings)
+#: actions/contactactionssettings.kcfg.cmake:55
+msgid "Phone Command"
+msgstr "拨打电话命令"
+
+#. i18n: ectx: whatsthis, entry (PhoneCommand), group (Phone Dial Settings)
+#: actions/contactactionssettings.kcfg.cmake:56
+msgid ""
+"This command defines the application that shall be executed to dial a "
+"contact's phone number."
+msgstr "本命令定义了用来拨打联系人电话号码所运行的应用程序。"
+
+#. i18n: ectx: tooltip, entry (PhoneCommand), group (Phone Dial Settings)
+#: actions/contactactionssettings.kcfg.cmake:59
+#, no-c-format
+msgid ""
+"The following placeholders can be used in the command:\n"
+"   %N: The raw number as stored in the address book.\n"
+"   %n: The normalized number with all non-digit characters removed."
+msgstr ""
+"以下位置标记可用于命令：\n"
+"   %N：存储于地址簿中的原始号码。\n"
+"   %n：删除全部非数字字符后的普通号码。"
+
+#. i18n: ectx: whatsthis, entry (SendSmsAction), group (Send SMS Settings)
+#: actions/contactactionssettings.kcfg.cmake:71
+msgid ""
+"Defines which application shall be used to send an SMS to the phone number "
+"of a contact. If 'Skype' is selected the Skype application will be started "
+"(if installed on the computer) and the SMS is sent via Skype. If 'External "
+"Application' is selected, a command with placeholders can be defined."
+msgstr ""
+"定义向联系人电话号码发送短消息所应使用的应用程序。 如果选择“Skype”，那么将启"
+"动 Skype 应用程序(如果计算机上已安装的话)并且拨打电话号码。如果选择“外部应用"
+"程序”，则可定义一条命令。"
+
+#. i18n: ectx: label, entry (SmsCommand), group (Send SMS Settings)
+#: actions/contactactionssettings.kcfg.cmake:75
+msgid "SMS Command"
+msgstr "短消息服务命令"
+
+#. i18n: ectx: whatsthis, entry (SmsCommand), group (Send SMS Settings)
+#: actions/contactactionssettings.kcfg.cmake:76
+msgid ""
+"This command defines the application that shall be executed to send an SMS "
+"to a contact's phone number."
+msgstr "本命令定义了用来向联系人电话号码发送短消息所运行的应用程序。"
+
+#. i18n: ectx: tooltip, entry (SmsCommand), group (Send SMS Settings)
+#: actions/contactactionssettings.kcfg.cmake:80
+#, no-c-format
+msgid ""
+"The following placeholders can be used in the command:\n"
+"   %N: The raw number as stored in the address book.\n"
+"   %n: The normalized number with all non-digit characters removed.\n"
+"   %t: The text"
+msgstr ""
+"以下位置标记可用于命令：\n"
+"   %N：存储于地址簿中的原始号码。\n"
+"   %n：删除全部非数字字符后的普通号码。\n"
+"   %t：文本"
+
+#: actions/dialphonenumberaction.cpp:76 actions/sendsmsaction.cpp:59
+#, fuzzy
+#| msgid ""
+#| "There is no application set which could be executed. Please go to the "
+#| "settings dialog and configure one."
+msgid ""
+"There is no application set which could be executed.\n"
+"Please go to the settings dialog and configure one."
+msgstr "未设定要运行的应用程序。请到设置对话框中配置一个。"
+
+#: actions/qdialer.cpp:39
+msgid "Dialing a number is not supported"
+msgstr "不支持拨打电话"
+
+#: actions/qdialer.cpp:48
+msgid "Sending an SMS is not supported"
+msgstr "不支持发送短消息"
+
+#: actions/qekigadialer.cpp:84
+msgid ""
+"Unable to start ekiga process, check that ekiga executable is in your PATH "
+"variable."
+msgstr "无法启动 ekiga 进程，请检查 ekiga 可执行文件在您的 PATH 变量中。"
+
+#: actions/qekigadialer.cpp:105
+msgid "Ekiga Public API (D-Bus) seems to be disabled."
+msgstr "Ekiga 公共 API (D-Bus) 似乎已禁用。"
+
+#: actions/qekigadialer.cpp:125
+#, fuzzy
+#| msgid "Sending an SMS is currently not supported on Ekiga"
+msgid "Sending an SMS is currently not supported on Ekiga."
+msgstr "Ekiga 上当前不支持发送短消息"
+
+#: actions/qsflphonedialer.cpp:68
+msgid ""
+"Unable to start sflphone-client-kde process, check that sflphone-client-kde "
+"executable is in your PATH variable."
+msgstr ""
+"无法启动 sflphone-client-kde 进程，请检查 sflphone-client-kde 可执行文件在您"
+"的 PATH 变量中。"
+
+#: actions/qskypedialer.cpp:87
+msgid ""
+"Unable to start skype process, check that skype executable is in your PATH "
+"variable."
+msgstr "无法启动 skype 进程，请检查 skype 可执行文件在您的 PATH 变量中。"
+
+#: actions/qskypedialer.cpp:108
+msgid "Skype Public API (D-Bus) seems to be disabled."
+msgstr "Skype 公共 API (D-Bus) 似乎已禁用。"
+
+#: actions/qskypedialer.cpp:117
+msgid "Skype registration failed."
+msgstr "Skype 注册失败。"
+
+#: actions/qskypedialer.cpp:126
+msgid "Protocol mismatch."
+msgstr "协议不匹配。"
+
+#: actions/smsdialog.cpp:49
+msgid "SMS text"
+msgstr "短消息文本"
+
+#: actions/smsdialog.cpp:62
+#, kde-format
+msgid "Please insert SMS text for an SMS to the following number: %1"
+msgstr "请插入短消息文本发给以下号码：%1"
+
+#: actions/smsdialog.cpp:95
+#, kde-format
+msgid "%1/%2 (%3 SMS)"
+msgstr "%1/%2 (%3 短消息)"
+
+#: contacteditor.cpp:168
+msgid ""
+"The contact has been changed by someone else.\n"
+"What should be done?"
+msgstr ""
+"联系人已被其他人更改。\n"
+"需要做什么吗？"
+
+#: contacteditor.cpp:169 contactgroupeditor.cpp:144
+msgid "Take over changes"
+msgstr "应用更改"
+
+#: contacteditor.cpp:170 contactgroupeditor.cpp:145
+msgid "Ignore and Overwrite changes"
+msgstr "忽略并覆盖更改"
+
+#: contacteditor.cpp:273 contacteditor.cpp:324 contactgroupeditor.cpp:280
+msgid "Select Address Book"
+msgstr "选择地址簿"
+
+#: contacteditor.cpp:274 contacteditor.cpp:325
+msgid "Select the address book the new contact shall be saved in:"
+msgstr "选择要存放新联系人的地址簿："
+
+#: contacteditordialog.cpp:48
+msgid "New Contact"
+msgstr "新建联系人"
+
+#: contacteditordialog.cpp:48
+msgid "Edit Contact"
+msgstr "编辑联系人"
+
+#: contacteditordialog.cpp:63 contactgroupeditordialog.cpp:100
+msgid "Add to:"
+msgstr "添加到："
+
+#: contactgroupeditor.cpp:143
+msgid ""
+"The contact group has been changed by someone else.\n"
+"What should be done?"
+msgstr ""
+"联系人组已被其他人更改。\n"
+"需要做什么吗？"
+
+#: contactgroupeditor.cpp:176
+msgid "The name of the contact group must not be empty."
+msgstr "联系人组的名称不能为空。"
+
+#: contactgroupeditor.cpp:281
+msgid "Select the address book the new contact group shall be saved in:"
+msgstr "选择要存放新联系人组的地址簿："
+
+#. i18n: ectx: property (text), widget (QLabel, groupNameLabel)
+#: contactgroupeditor.ui:17
+msgctxt "@label The name of a contact group"
+msgid "Name:"
+msgstr "名称："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: contactgroupeditor.ui:43
+msgctxt "@label"
+msgid "Contact group members:"
+msgstr "联系人组成员："
+
+#: contactgroupeditordialog.cpp:82
+msgid "New Contact Group"
+msgstr "新建联系人组"
+
+#: contactgroupeditordialog.cpp:82
+msgid "Edit Contact Group"
+msgstr "编辑联系人组"
+
+#: contactgrouplineedit.cpp:197
+msgid "Select preferred email address"
+msgstr "选择首选电子邮件地址"
+
+#: contactgroupmodel.cpp:212
+#, kde-format
+msgid "The member with name <b>%1</b> is missing an email address"
+msgstr "姓名为 <b>%1</b> 的成员缺少电子邮件地址"
+
+#: contactgroupmodel.cpp:258
+msgid "Contact does not exist any more"
+msgstr "联系人不存在"
+
+#: contactgroupmodel.cpp:413
+msgctxt "contact's name"
+msgid "Name"
+msgstr "姓名"
+
+#: contactgroupmodel.cpp:415
+msgctxt "contact's email address"
+msgid "EMail"
+msgstr "电子邮件"
+
+#: contactgroupviewer.cpp:69
+#, kde-format
+msgid "Contact Group %1"
+msgstr "联系人组 %1"
+
+#: contactgroupviewer.cpp:83 standardcontactformatter.cpp:216
+msgid "Address Book"
+msgstr "选择地址簿"
+
+#: contactgroupviewerdialog.cpp:42
+msgid "Show Contact Group"
+msgstr "显示联系人组"
+
+#: contactstreemodel.cpp:234
+msgctxt "@title:column address books overview"
+msgid "Address Books"
+msgstr "地址簿"
+
+#: contactstreemodel.cpp:244
+msgctxt "@title:column name of a person"
+msgid "Name"
+msgstr "姓名"
+
+#: contactstreemodel.cpp:246
+msgctxt "@title:column family name of a person"
+msgid "Family Name"
+msgstr "姓"
+
+#: contactstreemodel.cpp:248
+msgctxt "@title:column given name of a person"
+msgid "Given Name"
+msgstr "名"
+
+#: contactstreemodel.cpp:252
+msgctxt "@title:column home address of a person"
+msgid "Home"
+msgstr "家庭"
+
+#: contactstreemodel.cpp:254
+msgctxt "@title:column work address of a person"
+msgid "Work"
+msgstr "工作"
+
+#: contactstreemodel.cpp:256
+msgctxt "@title:column phone numbers of a person"
+msgid "Phone Numbers"
+msgstr "电话号码"
+
+#: contactstreemodel.cpp:258
+msgctxt "@title:column the preferred email addresses of a person"
+msgid "Preferred EMail"
+msgstr "首选电子邮件"
+
+#: contactstreemodel.cpp:260
+msgctxt "@title:column all email addresses of a person"
+msgid "All EMails"
+msgstr "全部电子邮件"
+
+#: contactviewer.cpp:82
+#, kde-format
+msgid "Contact %1"
+msgstr "联系人 %1"
+
+#: contactviewerdialog.cpp:67
+msgid "Show Contact"
+msgstr "显示联系人"
+
+#: editor/addresseditwidget.cpp:196 editor/phoneeditwidget.cpp:86
+msgctxt "@item:inlistbox Category of contact info field"
+msgid "Other..."
+msgstr "其它..."
+
+#: editor/addresseditwidget.cpp:241 editor/addresseditwidget.cpp:418
+#, fuzzy
+#| msgctxt "street/postal"
+#| msgid "Address Types"
+msgctxt "@label:listbox type of address"
+msgid "Address type:"
+msgstr "地址类型"
+
+#: editor/addresseditwidget.cpp:259
+#, fuzzy
+#| msgctxt "street/postal"
+#| msgid "New..."
+msgctxt "@action:button street/postal"
+msgid "New..."
+msgstr "新建..."
+
+#: editor/addresseditwidget.cpp:261
+#, fuzzy
+#| msgid "Edit..."
+msgctxt "@action:button street/postal"
+msgid "Edit..."
+msgstr "编辑..."
+
+#: editor/addresseditwidget.cpp:263
+#, fuzzy
+#| msgctxt "street/postal"
+#| msgid "Delete"
+msgctxt "@action:button street/postal"
+msgid "Delete"
+msgstr "删除"
+
+#: editor/addresseditwidget.cpp:325
+msgid "Do you really want to delete this address?"
+msgstr "您确实想要删除此地址吗？"
+
+#: editor/addresseditwidget.cpp:406
+msgctxt "street/postal"
+msgid "Edit Address"
+msgstr "编辑地址"
+
+#: editor/addresseditwidget.cpp:425
+#, kde-format
+msgctxt "<streetLabel>:"
+msgid "%1:"
+msgstr "%1："
+
+#: editor/addresseditwidget.cpp:436
+#, kde-format
+msgctxt "<postOfficeBoxLabel>:"
+msgid "%1:"
+msgstr "%1："
+
+#: editor/addresseditwidget.cpp:442
+#, kde-format
+msgctxt "<localityLabel>:"
+msgid "%1:"
+msgstr "%1："
+
+#: editor/addresseditwidget.cpp:448
+#, kde-format
+msgctxt "<regionLabel>:"
+msgid "%1:"
+msgstr "%1："
+
+#: editor/addresseditwidget.cpp:454
+#, kde-format
+msgctxt "<postalCodeLabel>:"
+msgid "%1:"
+msgstr "%1："
+
+#: editor/addresseditwidget.cpp:460
+#, kde-format
+msgctxt "<countryLabel>:"
+msgid "%1:"
+msgstr "%1："
+
+#: editor/addresseditwidget.cpp:466
+msgid "Edit Label..."
+msgstr "编辑标签..."
+
+#: editor/addresseditwidget.cpp:474
+msgctxt "street/postal"
+msgid "This is the preferred address"
+msgstr "这是首选地址"
+
+#: editor/addresseditwidget.cpp:566
+msgctxt "street/postal"
+msgid "Edit Address Type"
+msgstr "编辑地址类型"
+
+#: editor/addresseditwidget.cpp:576
+msgctxt "street/postal"
+msgid "Address Types"
+msgstr "地址类型"
+
+#: editor/contacteditorwidget.cpp:161
+msgctxt "@title:tab"
+msgid "Contact"
+msgstr "联系人"
+
+#: editor/contacteditorwidget.cpp:163
+msgctxt "@title:group Name related properties of a contact"
+msgid "Name"
+msgstr "姓名"
+
+#: editor/contacteditorwidget.cpp:164
+msgctxt "@title:group"
+msgid "Internet"
+msgstr "Internet"
+
+#: editor/contacteditorwidget.cpp:165
+msgctxt "@title:group"
+msgid "Phones"
+msgstr "电话"
+
+#: editor/contacteditorwidget.cpp:179
+msgctxt "@label The name of a contact"
+msgid "Name:"
+msgstr "姓名："
+
+#: editor/contacteditorwidget.cpp:190
+msgctxt "@label The display name of a contact"
+msgid "Display:"
+msgstr "显示："
+
+#: editor/contacteditorwidget.cpp:198
+msgctxt "@label The nickname of a contact"
+msgid "Nickname:"
+msgstr "昵称："
+
+#: editor/contacteditorwidget.cpp:206
+msgctxt "@label The pronunciation of a contact's name"
+msgid "Pronunciation:"
+msgstr "发音："
+
+#: editor/contacteditorwidget.cpp:217
+msgctxt "@label The email address of a contact"
+msgid "Email:"
+msgstr "电子邮件："
+
+#: editor/contacteditorwidget.cpp:225
+msgctxt "@label The homepage URL of a contact"
+msgid "Homepage:"
+msgstr "主页："
+
+#: editor/contacteditorwidget.cpp:233
+msgctxt "@label The blog URL of a contact"
+msgid "Blog:"
+msgstr "博客："
+
+#: editor/contacteditorwidget.cpp:241
+msgctxt "@label The instant messaging address of a contact"
+msgid "Messaging:"
+msgstr "即时通讯："
+
+#: editor/contacteditorwidget.cpp:259
+msgctxt "@label The categories of a contact"
+msgid "Categories:"
+msgstr "类别："
+
+#: editor/contacteditorwidget.cpp:270
+#, fuzzy
+#| msgctxt "@label The instant messaging address of a contact"
+#| msgid "Messaging:"
+msgid "Messages"
+msgstr "即时通讯："
+
+#: editor/contacteditorwidget.cpp:276
+msgid "Show messages received from this contact as:"
+msgstr ""
+
+#: editor/contacteditorwidget.cpp:281
+msgid "Default"
+msgstr ""
+
+#: editor/contacteditorwidget.cpp:281
+msgid "Plain Text"
+msgstr "纯文本"
+
+#: editor/contacteditorwidget.cpp:281
+msgid "HTML"
+msgstr "HTML"
+
+#: editor/contacteditorwidget.cpp:289
+#, fuzzy
+#| msgid "Allow remote content."
+msgid "Allow remote content in received HTML messages"
+msgstr "允许远程内容。"
+
+#: editor/contacteditorwidget.cpp:300
+msgctxt "@title:tab"
+msgid "Location"
+msgstr "位置"
+
+#: editor/contacteditorwidget.cpp:302
+msgctxt "@title:group"
+msgid "Addresses"
+msgstr "地址"
+
+#: editor/contacteditorwidget.cpp:303
+msgctxt "@title:group"
+msgid "Coordinates"
+msgstr "坐标"
+
+#: editor/contacteditorwidget.cpp:328
+msgctxt "@title:tab"
+msgid "Business"
+msgstr "商务"
+
+#: editor/contacteditorwidget.cpp:330
+msgctxt "@title:group General properties of a contact"
+msgid "General"
+msgstr "常规"
+
+#: editor/contacteditorwidget.cpp:331
+msgctxt "@title:group"
+msgid "Groupware"
+msgstr "群件"
+
+#: editor/contacteditorwidget.cpp:345
+msgctxt "@label The organization of a contact"
+msgid "Organization:"
+msgstr "组织："
+
+#: editor/contacteditorwidget.cpp:353
+msgctxt "@label The profession of a contact"
+msgid "Profession:"
+msgstr "行业："
+
+#: editor/contacteditorwidget.cpp:361
+msgctxt "@label The title of a contact"
+msgid "Title:"
+msgstr "职称："
+
+#: editor/contacteditorwidget.cpp:369
+msgctxt "@label The department of a contact"
+msgid "Department:"
+msgstr "部门："
+
+#: editor/contacteditorwidget.cpp:377
+msgctxt "@label The office of a contact"
+msgid "Office:"
+msgstr "办公室："
+
+#: editor/contacteditorwidget.cpp:385
+msgctxt "@label The manager's name of a contact"
+msgid "Manager's name:"
+msgstr "经理姓名："
+
+#: editor/contacteditorwidget.cpp:393
+msgctxt "@label The assistant's name of a contact"
+msgid "Assistant's name:"
+msgstr "助手姓名："
+
+#: editor/contacteditorwidget.cpp:402
+msgctxt "@label The free/busy information of a contact"
+msgid "Free/Busy:"
+msgstr "空闲/忙碌："
+
+#: editor/contacteditorwidget.cpp:417
+msgctxt "@title:tab Personal properties of a contact"
+msgid "Personal"
+msgstr "个人"
+
+#: editor/contacteditorwidget.cpp:419
+msgctxt "@title:group Date related properties of a contact"
+msgid "Dates"
+msgstr "日期"
+
+#: editor/contacteditorwidget.cpp:420
+msgctxt "@title:group Family related properties of a contact"
+msgid "Family"
+msgstr "家庭"
+
+#: editor/contacteditorwidget.cpp:431
+msgctxt "@label The birthdate of a contact"
+msgid "Birthdate:"
+msgstr "生日："
+
+#: editor/contacteditorwidget.cpp:439
+#, fuzzy
+#| msgctxt "@label The anniversary of a contact"
+#| msgid "Anniversary:"
+msgctxt "@label The wedding anniversary of a contact"
+msgid "Anniversary:"
+msgstr "纪念日："
+
+#: editor/contacteditorwidget.cpp:451
+msgctxt "@label The partner's name of a contact"
+msgid "Partner's name:"
+msgstr "伙伴姓名："
+
+#: editor/contacteditorwidget.cpp:467
+msgctxt "@title:tab"
+msgid "Notes"
+msgstr "注释"
+
+#: editor/contacteditorwidget.cpp:479
+msgctxt "@title:tab"
+msgid "Custom Fields"
+msgstr "自定义字段"
+
+#: editor/customfieldeditordialog.cpp:35
+msgid "Edit Custom Field"
+msgstr "编辑自定义字段"
+
+#: editor/customfieldeditordialog.cpp:46
+msgid "Use field for all contacts"
+msgstr "全部联系人使用字段"
+
+#: editor/customfieldeditordialog.cpp:48
+msgctxt "The title of a custom field"
+msgid "Title"
+msgstr "标题"
+
+#: editor/customfieldeditordialog.cpp:49
+msgctxt "The type of a custom field"
+msgid "Type"
+msgstr "类型"
+
+#: editor/customfieldeditordialog.cpp:54
+msgid "Key"
+msgstr "关键字"
+
+#: editor/customfieldeditordialog.cpp:57
+msgctxt "@label Opens the advanced dialog"
+msgid "Advanced"
+msgstr "高级"
+
+#: editor/customfieldeditordialog.cpp:59
+msgid "Text"
+msgstr "文本"
+
+#: editor/customfieldeditordialog.cpp:60
+msgid "Numeric"
+msgstr "数值"
+
+#: editor/customfieldeditordialog.cpp:61
+msgid "Boolean"
+msgstr "布尔"
+
+#: editor/customfieldeditordialog.cpp:62
+msgid "Date"
+msgstr "日期"
+
+#: editor/customfieldeditordialog.cpp:63
+msgid "Time"
+msgstr "时间"
+
+#: editor/customfieldeditordialog.cpp:64
+msgid "DateTime"
+msgstr "日期时间"
+
+#: editor/customfieldeditordialog.cpp:65
+msgid "Url"
+msgstr "Url"
+
+#: editor/customfieldseditwidget.cpp:67 editor/emaileditwidget.cpp:207
+msgid "Add..."
+msgstr "添加..."
+
+#: editor/customfieldseditwidget.cpp:68 editor/emaileditwidget.cpp:211
+msgid "Edit..."
+msgstr "编辑..."
+
+#: editor/customfieldseditwidget.cpp:69 editor/dateeditwidget.cpp:51
+#: editor/emaileditwidget.cpp:216 editor/phoneeditwidget.cpp:297
+#: editor/soundeditwidget.cpp:161
+msgid "Remove"
+msgstr "删除"
+
+#: editor/customfieldseditwidget.cpp:327
+msgctxt "Custom Fields"
+msgid "Do you really want to delete the selected custom field?"
+msgstr "您确实想要删除选中的自定义字段吗？"
+
+#: editor/customfieldseditwidget.cpp:328
+msgid "Confirm Delete"
+msgstr "确认删除"
+
+#: editor/customfieldsmodel.cpp:218
+msgctxt "custom field title"
+msgid "Title"
+msgstr "职称"
+
+#: editor/customfieldsmodel.cpp:220
+msgctxt "custom field value"
+msgid "Value"
+msgstr "值"
+
+#: editor/displaynameeditwidget.cpp:60
+msgid "Short Name"
+msgstr "简略姓名"
+
+#: editor/displaynameeditwidget.cpp:61
+msgid "Full Name"
+msgstr "完整姓名"
+
+#: editor/displaynameeditwidget.cpp:62
+msgid "Reverse Name with Comma"
+msgstr "以逗号反转姓名"
+
+#: editor/displaynameeditwidget.cpp:63
+msgid "Reverse Name"
+msgstr "反转姓名"
+
+#: editor/displaynameeditwidget.cpp:64
+msgid "Organization"
+msgstr "组织"
+
+#: editor/displaynameeditwidget.cpp:65
+msgctxt "@item:inlistbox A custom name format"
+msgid "Custom"
+msgstr "自定义"
+
+#: editor/emaileditwidget.cpp:185
+msgid "Edit Email Addresses"
+msgstr "编辑电子邮件地址"
+
+#: editor/emaileditwidget.cpp:221
+msgid "Set as Standard"
+msgstr "设为标准"
+
+#: editor/emaileditwidget.cpp:288
+msgid "Add Email"
+msgstr "添加电子邮件"
+
+#: editor/emaileditwidget.cpp:288
+msgid "New Email:"
+msgstr "新建电子邮件："
+
+#: editor/emaileditwidget.cpp:315
+msgid "Edit Email"
+msgstr "编辑电子邮件"
+
+#: editor/emaileditwidget.cpp:316
+msgctxt "@label:textbox Inputfield for an email address"
+msgid "Email:"
+msgstr "电子邮件："
+
+#: editor/emaileditwidget.cpp:342
+#, kde-format
+msgid ""
+"<qt>Are you sure that you want to remove the email address <b>%1</b>?</qt>"
+msgstr "<qt>您确定要删除电子邮件地址 <b>%1</b> 吗？</qt>"
+
+#: editor/emaileditwidget.cpp:343
+msgid "Confirm Remove"
+msgstr "确认删除"
+
+#: editor/emaileditwidget.cpp:345
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: editor/geoeditwidget.cpp:102
+msgctxt "@label"
+msgid "Latitude:"
+msgstr "纬度："
+
+#: editor/geoeditwidget.cpp:109
+msgctxt "@label"
+msgid "Longitude:"
+msgstr "经度："
+
+#: editor/geoeditwidget.cpp:116
+msgctxt "@label Change the coordinates"
+msgid "Change..."
+msgstr "更改..."
+
+#: editor/geoeditwidget.cpp:149 editor/geoeditwidget.cpp:150
+msgctxt "@label Coordinates are not available"
+msgid "n/a"
+msgstr "未知"
+
+#: editor/geoeditwidget.cpp:152 editor/geoeditwidget.cpp:153
+#, kde-format
+msgctxt "@label The formatted coordinates"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: editor/geoeditwidget.cpp:211
+msgctxt "@title:window"
+msgid "Coordinate Selection"
+msgstr "坐标选择"
+
+#: editor/geoeditwidget.cpp:225
+msgctxt "@title:group Decimal representation of coordinates"
+msgid "Decimal"
+msgstr "十进制数"
+
+#: editor/geoeditwidget.cpp:230 editor/geoeditwidget.cpp:259
+msgctxt "@label:spinbox"
+msgid "Latitude:"
+msgstr "纬度："
+
+#: editor/geoeditwidget.cpp:242 editor/geoeditwidget.cpp:291
+msgctxt "@label:spinbox"
+msgid "Longitude:"
+msgstr "经度："
+
+#: editor/geoeditwidget.cpp:254
+msgctxt "@title:group"
+msgid "Sexagesimal"
+msgstr "六十进制数"
+
+#: editor/geoeditwidget.cpp:287
+msgctxt "@item:inlistbox Latitude direction"
+msgid "North"
+msgstr "北"
+
+#: editor/geoeditwidget.cpp:288
+msgctxt "@item:inlistbox Latitude direction"
+msgid "South"
+msgstr "南"
+
+#: editor/geoeditwidget.cpp:317
+msgctxt "@item:inlistbox Longtitude direction"
+msgid "East"
+msgstr "东"
+
+#: editor/geoeditwidget.cpp:318
+msgctxt "@item:inlistbox Longtitude direction"
+msgid "West"
+msgstr "西"
+
+#: editor/geoeditwidget.cpp:514
+msgctxt "@item:inlistbox Undefined location"
+msgid "Undefined"
+msgstr "未定义"
+
+#: editor/im/imeditordialog.cpp:40
+msgctxt "@title:window"
+msgid "Edit Instant Messaging Addresses"
+msgstr "编辑即时通讯地址"
+
+#: editor/im/imeditordialog.cpp:49
+msgctxt "@action:button"
+msgid "Add..."
+msgstr "添加..."
+
+#: editor/im/imeditordialog.cpp:50
+msgctxt "@action:button"
+msgid "Edit..."
+msgstr "编辑..."
+
+#: editor/im/imeditordialog.cpp:51
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "删除"
+
+#: editor/im/imeditordialog.cpp:52
+msgctxt "@action:button"
+msgid "Set as Standard"
+msgstr "设为标准"
+
+#: editor/im/imeditordialog.cpp:115
+msgctxt "@title:window"
+msgid "Add IM Address"
+msgstr "添加即时通讯地址"
+
+#: editor/im/imeditordialog.cpp:135
+msgctxt "@title:window"
+msgid "Edit IM Address"
+msgstr "编辑即时通讯地址"
+
+#: editor/im/imeditordialog.cpp:158
+#, kde-format
+msgctxt "@info Instant messaging"
+msgid ""
+"Do you really want to delete the selected <resource>%1</resource> address?"
+msgstr "您确实想要删除选中的 <resource>%1</resource> 地址吗？"
+
+#: editor/im/imeditordialog.cpp:160
+msgctxt "@title:window"
+msgid "Confirm Delete Resource"
+msgstr "确认删除资源"
+
+#: editor/im/imitemdialog.cpp:48
+msgctxt "@item:inlistbox select from a list of IM protocols"
+msgid "Select..."
+msgstr "选择..."
+
+#: editor/im/imitemdialog.cpp:49
+msgctxt "@label:listbox"
+msgid "Protocol:"
+msgstr "协议："
+
+#: editor/im/imitemdialog.cpp:59
+msgctxt "@label:textbox IM address"
+msgid "Address:"
+msgstr "地址："
+
+#: editor/im/immodel.cpp:212
+msgctxt "instant messaging protocol"
+msgid "Protocol"
+msgstr "协议"
+
+#: editor/im/immodel.cpp:214
+msgctxt "instant messaging address"
+msgid "Address"
+msgstr "地址"
+
+#: editor/imagewidget.cpp:83
+msgid "This contact's image cannot be found."
+msgstr "无法找到联系人图像。"
+
+#: editor/imagewidget.cpp:123
+msgid "The photo of the contact (click to change)"
+msgstr "联系人的照片(点击以更改)"
+
+#: editor/imagewidget.cpp:125
+msgid "The logo of the company (click to change)"
+msgstr "公司的徽标(点击以更改)"
+
+#: editor/imagewidget.cpp:232
+msgid "Change photo..."
+msgstr "更改照片..."
+
+#: editor/imagewidget.cpp:236
+msgid "Save photo..."
+msgstr "保存照片..."
+
+#: editor/imagewidget.cpp:239
+msgid "Remove photo"
+msgstr "删除照片"
+
+#: editor/imagewidget.cpp:244
+msgid "Change logo..."
+msgstr "更改徽标..."
+
+#: editor/imagewidget.cpp:248
+msgid "Save logo..."
+msgstr "保存徽标..."
+
+#: editor/imagewidget.cpp:251
+msgid "Remove logo"
+msgstr "删除徽标"
+
+#: editor/imeditwidget.cpp:46 editor/nameeditwidget.cpp:48
+msgid "..."
+msgstr "..."
+
+#: editor/kdatepickerpopup.cpp:95
+msgctxt "@option today"
+msgid "&Today"
+msgstr "今天(&T)"
+
+#: editor/kdatepickerpopup.cpp:96
+msgctxt "@option tomorrow"
+msgid "To&morrow"
+msgstr "明天(&M)"
+
+#: editor/kdatepickerpopup.cpp:97
+msgctxt "@option next week"
+msgid "Next &Week"
+msgstr "下周(&W)"
+
+#: editor/kdatepickerpopup.cpp:98
+msgctxt "@option next month"
+msgid "Next M&onth"
+msgstr "下个月(&O)"
+
+#: editor/kdatepickerpopup.cpp:106
+msgctxt "@option do not specify a date"
+msgid "No Date"
+msgstr "无日期"
+
+#: editor/kedittagsdialog.cpp:55
+msgctxt "@title:window"
+msgid "Change Tags"
+msgstr "更改标记"
+
+#: editor/kedittagsdialog.cpp:56
+msgctxt "@title:window"
+msgid "Add Tags"
+msgstr "添加标记"
+
+#: editor/kedittagsdialog.cpp:65
+msgctxt "@label:textbox"
+msgid "Configure which tags should be applied."
+msgstr "配置要应用的标记。"
+
+#: editor/kedittagsdialog.cpp:86
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Create new tag:"
+msgctxt "@label"
+msgid "Create new tag"
+msgstr "创建新标记："
+
+#: editor/kedittagsdialog.cpp:105
+msgctxt "@info"
+msgid "Delete tag"
+msgstr "删除标记"
+
+#: editor/kedittagsdialog.cpp:200
+msgid "An error occurred while creating a new tag"
+msgstr ""
+
+#: editor/kedittagsdialog.cpp:201
+#, fuzzy
+#| msgid "Failed to store contact"
+msgid "Failed to create a new tag"
+msgstr "保存联系人失败"
+
+#: editor/kedittagsdialog.cpp:256
+#, kde-format
+msgctxt "@info"
+msgid "Should the tag <resource>%1</resource> really be deleted for all files?"
+msgstr "确实要从全部文件中删除标记 <resource>%1</resource> 吗？"
+
+#: editor/kedittagsdialog.cpp:258
+msgctxt "@title"
+msgid "Delete tag"
+msgstr "删除标记"
+
+#: editor/kedittagsdialog.cpp:259
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "删除"
+
+#: editor/kedittagsdialog.cpp:260
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "取消"
+
+#: editor/nameeditdialog.cpp:33
+msgid "Edit Contact Name"
+msgstr "编辑联系人姓名"
+
+#: editor/nameeditdialog.cpp:56
+msgid "Honorific prefixes:"
+msgstr "敬称前缀："
+
+#: editor/nameeditdialog.cpp:57
+msgid "Given name:"
+msgstr "名："
+
+#: editor/nameeditdialog.cpp:58
+msgid "Additional names:"
+msgstr "曾用名："
+
+#: editor/nameeditdialog.cpp:59
+msgid "Family names:"
+msgstr "姓："
+
+#: editor/nameeditdialog.cpp:60
+msgid "Honorific suffixes:"
+msgstr "敬称后缀："
+
+#: editor/nameeditdialog.cpp:64
+msgid "Dr."
+msgstr "博士"
+
+#: editor/nameeditdialog.cpp:65
+msgid "Miss"
+msgstr "小姐"
+
+#: editor/nameeditdialog.cpp:66
+msgid "Mr."
+msgstr "先生"
+
+#: editor/nameeditdialog.cpp:67
+msgid "Mrs."
+msgstr "夫人"
+
+#: editor/nameeditdialog.cpp:68
+msgid "Ms."
+msgstr "女士"
+
+#: editor/nameeditdialog.cpp:69
+msgid "Prof."
+msgstr "教授"
+
+#: editor/nameeditdialog.cpp:74
+msgid "I"
+msgstr "I"
+
+#: editor/nameeditdialog.cpp:75
+msgid "II"
+msgstr "II"
+
+#: editor/nameeditdialog.cpp:76
+msgid "III"
+msgstr "III"
+
+#: editor/nameeditdialog.cpp:77
+msgid "Jr."
+msgstr "小"
+
+#: editor/nameeditdialog.cpp:78
+msgid "Sr."
+msgstr "老"
+
+#: editor/phoneeditwidget.cpp:293
+msgid "Add"
+msgstr "添加"
+
+#: editor/phoneeditwidget.cpp:350
+msgid "Edit Phone Number"
+msgstr "编辑电话号码"
+
+#: editor/phoneeditwidget.cpp:362
+msgid "This is the preferred phone number"
+msgstr "这是首先电话号码"
+
+#: editor/phoneeditwidget.cpp:365
+msgid "Types"
+msgstr "类型"
+
+#: editor/soundeditwidget.cpp:86
+msgid "This contact's sound cannot be found."
+msgstr "无法找到联系人声音。"
+
+#: editor/soundeditwidget.cpp:138
+msgid "Click to play pronunciation"
+msgstr "点击播放人声"
+
+#: editor/soundeditwidget.cpp:141
+msgid "No pronunciation available"
+msgstr "无可用人声"
+
+#: editor/soundeditwidget.cpp:150
+msgid "Play"
+msgstr "播放"
+
+#: editor/soundeditwidget.cpp:154
+msgid "Change..."
+msgstr "更改..."
+
+#: editor/soundeditwidget.cpp:158
+msgid "Save..."
+msgstr "保存..."
+
+#: emailaddressselectionproxymodel.cpp:36
+#, kde-format
+msgid "Distribution List %1"
+msgstr "分发列表 %1"
+
+#: emailaddressselectionproxymodel.cpp:147
+#, kde-format
+msgctxt "Name and email address of a contact"
+msgid "%1 <%2>"
+msgstr "%1 <%2>"
+
+#: emailaddressselectionwidget.cpp:137
+msgctxt "@label Search in a list of contacts"
+msgid "Search:"
+msgstr "搜索："
+
+#: recentcontactscollectionrequestjob.cpp:41
+msgctxt "recent contacts folder"
+msgid "Recent Contacts"
+msgstr "最近联系人"
+
+#. i18n: ectx: label, entry (DefaultResourceId), group (SpecialCollections)
+#: recentcontactscollections.kcfg:9
+msgid "Id of the resource containing the default recent contacts collection."
+msgstr "包含默认最近联系人集合的资源 id。"
+
+#. i18n: ectx: whatsthis, entry (DefaultResourceId), group (SpecialCollections)
+#: recentcontactscollections.kcfg:10
+msgid "Id of the contacts resource containing the recent contacts collection."
+msgstr "包含最近联系人集合的联系人资源 id。"
+
+#: standardcontactactionmanager.cpp:111
+msgid "Add Address Book Folder..."
+msgstr "添加地址簿文件夹..."
+
+#: standardcontactactionmanager.cpp:114
+msgid ""
+"Add a new address book folder to the currently selected address book folder."
+msgstr "在当前所选的地址簿文件夹中添加新地址簿文件夹。"
+
+#: standardcontactactionmanager.cpp:117
+msgctxt "@title:window"
+msgid "New Address Book Folder"
+msgstr "新建地址簿文件夹"
+
+#: standardcontactactionmanager.cpp:121
+#, kde-format
+msgid "Could not create address book folder: %1"
+msgstr "无法创建地址簿文件夹：%1"
+
+#: standardcontactactionmanager.cpp:125
+msgid "Address book folder creation failed"
+msgstr "地址簿文件夹创建失败"
+
+#: standardcontactactionmanager.cpp:130
+#, kde-format
+msgid "Copy Address Book Folder"
+msgid_plural "Copy %1 Address Book Folders"
+msgstr[0] "复制 %1 个地址簿文件夹"
+
+#: standardcontactactionmanager.cpp:133
+msgid "Copy the selected address book folders to the clipboard."
+msgstr "将选中的地址簿文件夹复制到剪贴板。"
+
+#: standardcontactactionmanager.cpp:137
+#, kde-format
+msgid "Delete Address Book Folder"
+msgid_plural "Delete %1 Address Book Folders"
+msgstr[0] "删除 %1 个地址簿文件夹"
+
+#: standardcontactactionmanager.cpp:140
+msgid "Delete the selected address book folders from the address book."
+msgstr "从地址簿中删除选中的地址簿文件夹。"
+
+#: standardcontactactionmanager.cpp:144
+#, kde-format
+msgid ""
+"Do you really want to delete this address book folder and all its sub-"
+"folders?"
+msgid_plural ""
+"Do you really want to delete %1 address book folders and all their sub-"
+"folders?"
+msgstr[0] "您确定要删除 %1 个地址簿文件夹及其子文件夹吗？"
+
+#: standardcontactactionmanager.cpp:148
+msgctxt "@title:window"
+msgid "Delete address book folder?"
+msgid_plural "Delete address book folders?"
+msgstr[0] "删除地址簿文件夹吗？"
+
+#: standardcontactactionmanager.cpp:152
+#, kde-format
+msgid "Could not delete address book folder: %1"
+msgstr "无法删除地址簿文件夹：%1"
+
+#: standardcontactactionmanager.cpp:156
+msgid "Address book folder deletion failed"
+msgstr "地址簿文件夹删除失败"
+
+#: standardcontactactionmanager.cpp:160
+#, kde-format
+msgid "Update Address Book Folder"
+msgid_plural "Update %1 Address Book Folders"
+msgstr[0] "更新 %1 个地址簿文件夹"
+
+#: standardcontactactionmanager.cpp:163
+msgid "Update the content of the selected address book folders."
+msgstr "更新选中的地址簿文件夹内容。"
+
+#: standardcontactactionmanager.cpp:167
+#, kde-format
+msgid "Cut Address Book Folder"
+msgid_plural "Cut %1 Address Book Folders"
+msgstr[0] "剪切 %1 个地址簿文件夹"
+
+#: standardcontactactionmanager.cpp:170
+msgid "Cut the selected address book folders from the address book."
+msgstr "从地址簿中剪切选中的地址簿文件夹。"
+
+#: standardcontactactionmanager.cpp:174
+msgid "Folder Properties..."
+msgstr "文件夹属性..."
+
+#: standardcontactactionmanager.cpp:176
+msgid ""
+"Open a dialog to edit the properties of the selected address book folder."
+msgstr "打开对话框以编辑选中地址簿文件夹的属性。"
+
+#: standardcontactactionmanager.cpp:179
+#, kde-format
+msgctxt "@title:window"
+msgid "Properties of Address Book Folder %1"
+msgstr "地址簿文件夹 %1 的属性"
+
+#: standardcontactactionmanager.cpp:183 standardcontactactionmanager.cpp:337
+#, kde-format
+msgid "Copy Contact"
+msgid_plural "Copy %1 Contacts"
+msgstr[0] "复制 %1 位联系人"
+
+#: standardcontactactionmanager.cpp:185
+msgid "Copy the selected contacts to the clipboard."
+msgstr "将选中的联系人复制到剪贴板。"
+
+#: standardcontactactionmanager.cpp:189 standardcontactactionmanager.cpp:347
+#, kde-format
+msgid "Delete Contact"
+msgid_plural "Delete %1 Contacts"
+msgstr[0] "删除 %1 位联系人"
+
+#: standardcontactactionmanager.cpp:191
+msgid "Delete the selected contacts from the address book."
+msgstr "从地址簿中删除选中的联系人。"
+
+#: standardcontactactionmanager.cpp:194
+#, kde-format
+msgid "Do you really want to delete the selected contact?"
+msgid_plural "Do you really want to delete %1 contacts?"
+msgstr[0] "您确定要删除 %1 个地址簿吗？"
+
+#: standardcontactactionmanager.cpp:199
+msgctxt "@title:window"
+msgid "Delete Contact?"
+msgid_plural "Delete Contacts?"
+msgstr[0] "删除联系人吗？"
+
+#: standardcontactactionmanager.cpp:203
+#, kde-format
+msgid "Could not delete contact: %1"
+msgstr "无法删除联系人：%1"
+
+#: standardcontactactionmanager.cpp:207
+msgid "Contact deletion failed"
+msgstr "联系人删除失败"
+
+#: standardcontactactionmanager.cpp:211 standardcontactactionmanager.cpp:351
+#, kde-format
+msgid "Cut Contact"
+msgid_plural "Cut %1 Contacts"
+msgstr[0] "剪切 %1 位联系人"
+
+#: standardcontactactionmanager.cpp:213
+msgid "Cut the selected contacts from the address book."
+msgstr "从地址簿中剪切选中的联系人。"
+
+#: standardcontactactionmanager.cpp:217
+msgid "Add &Address Book..."
+msgstr "添加地址簿(&A)..."
+
+#: standardcontactactionmanager.cpp:219
+msgid ""
+"Add a new address book<p>You will be presented with a dialog where you can "
+"select the type of the address book that shall be added.</p>"
+msgstr "添加新地址簿<p>将会展示一个让您选择要添加地址簿类型的对话框。</p>"
+
+#: standardcontactactionmanager.cpp:224
+msgctxt "@title:window"
+msgid "Add Address Book"
+msgstr "添加地址簿"
+
+#: standardcontactactionmanager.cpp:228
+#, kde-format
+msgid "Could not create address book: %1"
+msgstr "无法创建地址簿：%1"
+
+#: standardcontactactionmanager.cpp:232
+msgid "Address book creation failed"
+msgstr "地址簿创建失败"
+
+#: standardcontactactionmanager.cpp:237
+#, kde-format
+msgid "&Delete Address Book"
+msgid_plural "&Delete %1 Address Books"
+msgstr[0] "删除 %1 个地址簿(&D)"
+
+#: standardcontactactionmanager.cpp:240
+msgid ""
+"Delete the selected address books<p>The currently selected address books "
+"will be deleted, along with all the contacts and contact groups they contain."
+"</p>"
+msgstr ""
+"删除选中的地址簿<p>当前所选的地址簿以及所包含的联系人和联系人组将被删除。</p>"
+
+#: standardcontactactionmanager.cpp:245
+#, kde-format
+msgid "Do you really want to delete this address book?"
+msgid_plural "Do you really want to delete %1 address books?"
+msgstr[0] "您确定要删除 %1 个地址簿吗？"
+
+#: standardcontactactionmanager.cpp:250
+msgctxt "@title:window"
+msgid "Delete Address Book?"
+msgid_plural "Delete Address Books?"
+msgstr[0] "删除地址簿吗？"
+
+#: standardcontactactionmanager.cpp:256
+msgid "Address Book Properties..."
+msgstr "地址簿属性..."
+
+#: standardcontactactionmanager.cpp:258
+msgid "Open a dialog to edit properties of the selected address book."
+msgstr "打开对话框以编辑选中地址簿的属性。"
+
+#: standardcontactactionmanager.cpp:262
+#, kde-format
+msgid "Update Address Book"
+msgid_plural "Update %1 Address Books"
+msgstr[0] "更新 %1 个地址簿"
+
+#: standardcontactactionmanager.cpp:266
+msgid "Updates the content of all folders of the selected address books."
+msgstr "更新选中的地址簿中所有文件夹的内容。"
+
+#: standardcontactactionmanager.cpp:272
+#, kde-format
+msgid "Could not paste contact: %1"
+msgstr "无法粘贴联系人：%1"
+
+#: standardcontactactionmanager.cpp:276
+msgid "Paste failed"
+msgstr "粘贴失败"
+
+#: standardcontactactionmanager.cpp:340 standardcontactactionmanager.cpp:343
+msgid "Copy Contact To"
+msgstr "复制联系人到"
+
+#: standardcontactactionmanager.cpp:354 standardcontactactionmanager.cpp:357
+msgid "Move Contact To"
+msgstr "移动联系人到"
+
+#: standardcontactactionmanager.cpp:360 standardcontactactionmanager.cpp:596
+msgid "Edit Contact..."
+msgstr "编辑联系人..."
+
+#: standardcontactactionmanager.cpp:365
+#, kde-format
+msgid "Copy Group"
+msgid_plural "Copy %1 Groups"
+msgstr[0] "复制 %1 个联系人组"
+
+#: standardcontactactionmanager.cpp:368 standardcontactactionmanager.cpp:371
+msgid "Copy Group To"
+msgstr "复制联系人组到"
+
+#: standardcontactactionmanager.cpp:375
+#, kde-format
+msgid "Delete Group"
+msgid_plural "Delete %1 Groups"
+msgstr[0] "删除 %1 个联系人组"
+
+#: standardcontactactionmanager.cpp:379
+#, kde-format
+msgid "Cut Group"
+msgid_plural "Cut %1 Groups"
+msgstr[0] "剪切 %1 个联系人组"
+
+#: standardcontactactionmanager.cpp:382 standardcontactactionmanager.cpp:385
+msgid "Move Group To"
+msgstr "移动联系人组到"
+
+#: standardcontactactionmanager.cpp:388
+msgid "Edit Group..."
+msgstr "编辑联系人组..."
+
+#: standardcontactactionmanager.cpp:515
+#, kde-format
+msgid "Contact cannot be stored: %1"
+msgstr "无法保存联系人：%1"
+
+#: standardcontactactionmanager.cpp:515
+msgid "Failed to store contact"
+msgstr "保存联系人失败"
+
+#: standardcontactactionmanager.cpp:576
+msgid "New &Contact..."
+msgstr "新建联系人(&C)..."
+
+#: standardcontactactionmanager.cpp:578
+msgid ""
+"Create a new contact<p>You will be presented with a dialog where you can add "
+"data about a person, including addresses and phone numbers.</p>"
+msgstr ""
+"添加新联系人<p>将会展示一个让您添加包括地址和电话号码等个人信息的对话框。</p>"
+
+#: standardcontactactionmanager.cpp:586
+msgid "New &Group..."
+msgstr "新建联系人组(&G)..."
+
+#: standardcontactactionmanager.cpp:588
+msgid ""
+"Create a new group<p>You will be presented with a dialog where you can add a "
+"new group of contacts.</p>"
+msgstr "添加新联系人组<p>将会展示一个让您添加新联系人组的对话框。</p>"
+
+#: standardcontactactionmanager.cpp:597
+msgid ""
+"Edit the selected contact<p>You will be presented with a dialog where you "
+"can edit the data stored about a person, including addresses and phone "
+"numbers.</p>"
+msgstr ""
+"编辑所选联系人<p>将会展示一个让您编辑包括地址和电话号码等个人信息的对话框。</"
+"p>"
+
+#: standardcontactformatter.cpp:120
+#, kde-format
+msgid "(One year old)"
+msgid_plural "(%1 years old)"
+msgstr[0] "(%1 年前)"
+
+#: standardcontactformatter.cpp:132
+msgctxt "@info:tooltip"
+msgid "Send SMS"
+msgstr "发送短消息"
+
+#: standardcontactformatter.cpp:148
+msgctxt "a contact's email address"
+msgid "Email"
+msgstr "电子邮件"
+
+#: standardcontactformatter.cpp:165
+msgid "Homepage"
+msgstr "主页"
+
+#: standardcontactformatter.cpp:171
+msgid "Blog Feed"
+msgstr "博客种子"
+
+#: standardcontactformatter.cpp:189
+msgctxt "@info:tooltip"
+msgid "Show address on map"
+msgstr "在地图上显示地址"
+
+#: standardcontactformatter.cpp:201
+msgid "Notes"
+msgstr "注释"
+
+#: standardcontactformatter.cpp:208
+msgid "Department"
+msgstr "部门"
+
+#: standardcontactformatter.cpp:209
+msgid "Profession"
+msgstr "行业"
+
+#: standardcontactformatter.cpp:210
+msgid "Assistant's Name"
+msgstr "助手姓名"
+
+#: standardcontactformatter.cpp:211
+msgid "Manager's Name"
+msgstr "经理姓名"
+
+#: standardcontactformatter.cpp:212
+msgctxt "Wife/Husband/..."
+msgid "Partner's Name"
+msgstr "爱人姓名"
+
+#: standardcontactformatter.cpp:213
+msgid "Office"
+msgstr "办公室"
+
+#: standardcontactformatter.cpp:214
+msgid "IM Address"
+msgstr "IM 地址"
+
+#: standardcontactformatter.cpp:215
+msgid "Anniversary"
+msgstr "纪念日"
+
+#: standardcontactformatter.cpp:264
+msgctxt "Boolean value"
+msgid "yes"
+msgstr "是"
+
+#: standardcontactformatter.cpp:266
+msgctxt "Boolean value"
+msgid "no"
+msgstr "否"
+
+#: textbrowser.cpp:73
+msgctxt "@action:inmenu Copy the text of a general item"
+msgid "Copy Item"
+msgstr ""
+
+#: textbrowser.cpp:82
+#, fuzzy
+#| msgid "Copy e-mail address"
+msgctxt "@action:inmenu Copy a displayed email address"
+msgid "Copy Email Address"
+msgstr "复制电子邮件地址"
+
+#: textbrowser.cpp:91
+msgctxt "@action:inmenu Copy a link URL"
+msgid "Copy Link URL"
+msgstr ""
+
+#: textbrowser.cpp:121
+#, fuzzy
+#| msgid "Copy Contact To"
+msgctxt "@action:inmenu Copy a contact photo"
+msgid "Copy Photo"
+msgstr "复制联系人到"
+
+#: textbrowser.cpp:125
+#, fuzzy
+#| msgid "Copy Contact"
+#| msgid_plural "Copy %1 Contacts"
+msgctxt "@action:inmenu Copy a QR or Datamatrix image"
+msgid "Copy Code"
+msgstr "复制 %1 位联系人"
+
+#: waitingoverlay.cpp:50
+msgid "<p style=\"color: white;\"><b>Waiting for operation</b><br/></p>"
+msgstr "<p style=\"color: white;\"><b>等待处理</b><br/></p>"
+
+#~ msgid "Could not call phone number %1"
+#~ msgstr "无法拨打电话号码 %1"
+
+#~ msgid "Sending an SMS is currently not supported on WinCE"
+#~ msgstr "WinCE 上当前不支持发送短消息"
+
+#~ msgctxt "street/postal"
+#~ msgid "Edit..."
+#~ msgstr "编辑..."
+
+#~ msgid "Prefers to receive messages formatted as:"
+#~ msgstr "接收信件格式首选项："
+
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#, fuzzy
+#~| msgid "Sending an SMS is currently not supported on WinCE"
+#~ msgid "Sending an SMS is currently not supported on SflPhone"
+#~ msgstr "WinCE 上当前不支持发送短消息"
+
+#~ msgid "Set Standard"
+#~ msgstr "设为标准"
+
+#, fuzzy
+#~| msgid "Do you really want to delete this address?"
+#~ msgid "Do you really want to delete %1 address book, '%2'?"
+#~ msgid_plural "Do you really want to delete %1 address books?"
+#~ msgstr[0] "您确实想要删除此地址吗？"
+
+#, fuzzy
+#~| msgid "Do you really want to delete this address?"
+#~ msgid "Do you really want to delete the address book search folder '%1'?"
+#~ msgstr "您确实想要删除此地址吗？"
+
+#~ msgctxt "@title:group"
+#~ msgid "Notes"
+#~ msgstr "注释"

@@ -1,0 +1,328 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2011, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-07 01:24+0000\n"
+"PO-Revision-Date: 2013-04-04 21:31+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#. i18n: ectx: property (text), widget (QLabel, u_gdbLabel)
+#: advanced_settings.ui:9
+msgid "GDB command"
+msgstr "GDB 命令"
+
+#. i18n: ectx: property (text), widget (QToolButton, u_gdbBrowse)
+#: advanced_settings.ui:25
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, u_soAbsPrefixLabel)
+#: advanced_settings.ui:34
+msgid "solib-absolute-prefix"
+msgstr "solib-absolute-prefix"
+
+#. i18n: ectx: property (text), widget (QLabel, u_soSearchLabel)
+#: advanced_settings.ui:48
+msgid "solib-search-path"
+msgstr "solib-search-path"
+
+#. i18n: ectx: property (title), widget (QGroupBox, u_customInitGroup)
+#: advanced_settings.ui:62
+msgid "Custom Startup Commands"
+msgstr "自定义启动命令"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, u_localRemote)
+#: advanced_settings.ui:79
+msgid "Local application"
+msgstr "本地程序"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, u_localRemote)
+#: advanced_settings.ui:84
+msgid "Remote TCP"
+msgstr "远程 TCP"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, u_localRemote)
+#: advanced_settings.ui:89
+msgid "Remote Serial Port"
+msgstr "删除串口"
+
+#. i18n: ectx: property (text), widget (QLabel, u_hostLabel)
+#: advanced_settings.ui:114
+msgid "Host"
+msgstr "主机"
+
+#. i18n: ectx: property (text), widget (QLabel, u_tcpPortLabel)
+#. i18n: ectx: property (text), widget (QLabel, u_ttyLabel)
+#: advanced_settings.ui:128 advanced_settings.ui:153
+msgid "Port"
+msgstr "端口"
+
+#. i18n: ectx: property (text), widget (QLabel, u_ttyBaudLabel)
+#: advanced_settings.ui:170
+msgid "Baud"
+msgstr "波特率"
+
+#: configview.cpp:52
+msgid "Add new target"
+msgstr "添加新目标"
+
+#: configview.cpp:56
+msgid "Copy target"
+msgstr "复制目标"
+
+#: configview.cpp:60
+msgid "Delete target"
+msgstr "删除目标"
+
+#: configview.cpp:65
+msgid "Executable:"
+msgstr "可执行文件"
+
+#: configview.cpp:83
+msgid "Working Directory:"
+msgstr "工作目录："
+
+#: configview.cpp:90
+msgctxt "Program argument list"
+msgid "Arguments:"
+msgstr "参数："
+
+#: configview.cpp:94
+msgctxt "Checkbox to for keeping focus on the command line"
+msgid "Keep focus"
+msgstr "保持焦点"
+
+#: configview.cpp:95
+msgid "Keep the focus on the command line"
+msgstr "焦点保持在命令行上"
+
+#: configview.cpp:97
+msgid "Redirect IO"
+msgstr "重定向 IO"
+
+#: configview.cpp:98
+msgid "Redirect the debugged programs IO to a separate tab"
+msgstr "将被调试程序的输入输出重定向到另外标签页"
+
+#: configview.cpp:100
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: configview.cpp:134
+msgid "Targets"
+msgstr "目标"
+
+#: configview.cpp:308 configview.cpp:320
+#, kde-format
+msgid "Target %1"
+msgstr "目标 %1"
+
+#: debugview.cpp:154
+msgid "Could not start debugger process"
+msgstr "无法启动调试器进程"
+
+#: debugview.cpp:195
+msgid "*** gdb exited normally ***"
+msgstr "*** gdb 正常退出 ***"
+
+#: localsview.cpp:30
+msgid "Symbol"
+msgstr "符号"
+
+#: localsview.cpp:31
+msgid "Value"
+msgstr "值"
+
+#: plugin_kategdb.cpp:58
+msgid "GDB Integration"
+msgstr "GDB 集成"
+
+#: plugin_kategdb.cpp:60
+msgid "Kate GDB Integration"
+msgstr "Kate GDB 集成"
+
+#: plugin_kategdb.cpp:88 plugin_kategdb.cpp:91
+msgid "Debug View"
+msgstr "调试视图"
+
+#: plugin_kategdb.cpp:93 plugin_kategdb.cpp:96
+msgid "Locals and Stack"
+msgstr "局部变量和堆栈"
+
+#: plugin_kategdb.cpp:141
+msgctxt "Column label (frame number)"
+msgid "Nr"
+msgstr "编号"
+
+#: plugin_kategdb.cpp:141
+msgctxt "Column label"
+msgid "Frame"
+msgstr "框架"
+
+#: plugin_kategdb.cpp:168
+msgctxt "Tab label"
+msgid "GDB Output"
+msgstr "GDB 输出"
+
+#: plugin_kategdb.cpp:169
+msgctxt "Tab label"
+msgid "Settings"
+msgstr "设置"
+
+#: plugin_kategdb.cpp:221
+msgid "Start Debugging"
+msgstr "启动调试"
+
+#: plugin_kategdb.cpp:227
+msgid "Kill / Stop Debugging"
+msgstr "杀死/停止调试"
+
+#: plugin_kategdb.cpp:233
+msgid "Restart Debugging"
+msgstr "重启调试"
+
+#: plugin_kategdb.cpp:239
+msgid "Toggle Breakpoint / Break"
+msgstr "切换断点"
+
+#: plugin_kategdb.cpp:245
+msgid "Step In"
+msgstr "单步跳入"
+
+#: plugin_kategdb.cpp:251
+msgid "Step Over"
+msgstr "单步跳过"
+
+#: plugin_kategdb.cpp:257
+msgid "Step Out"
+msgstr "单步跳出"
+
+#: plugin_kategdb.cpp:263 plugin_kategdb.cpp:298
+msgctxt "Move Program Counter (next execution)"
+msgid "Move PC"
+msgstr "下条指令"
+
+#: plugin_kategdb.cpp:268 plugin_kategdb.cpp:295
+msgid "Run To Cursor"
+msgstr "运行到光标处"
+
+#: plugin_kategdb.cpp:274
+msgid "Continue"
+msgstr "继续"
+
+#: plugin_kategdb.cpp:280
+msgid "Print Value"
+msgstr "打印值"
+
+#: plugin_kategdb.cpp:286
+msgid "Debug"
+msgstr "调试"
+
+#: plugin_kategdb.cpp:290
+msgid "popup_breakpoint"
+msgstr "popup_breakpoint"
+
+#: plugin_kategdb.cpp:293
+msgid "popup_run_to_cursor"
+msgstr "popup_run_to_cursor"
+
+#: plugin_kategdb.cpp:370 plugin_kategdb.cpp:387
+msgid "Insert breakpoint"
+msgstr "插入断点"
+
+#: plugin_kategdb.cpp:384
+msgid "Remove breakpoint"
+msgstr "删除断点"
+
+#: plugin_kategdb.cpp:411
+msgid "Breakpoint"
+msgstr "断点"
+
+#: plugin_kategdb.cpp:510
+msgid "Execution point"
+msgstr "执行点"
+
+#: plugin_kategdb.cpp:625 plugin_kategdb.cpp:629
+#, kde-format
+msgid "Thread %1"
+msgstr "线程 %1"
+
+#: plugin_kategdb.cpp:722
+msgid "IO"
+msgstr "输入输出"
+
+#. i18n: ectx: Menu (debug)
+#: ui.rc:4
+msgid "&Debug"
+msgstr "调试(&D)"
+
+#. i18n: ectx: ToolBar (gdbplugin)
+#: ui.rc:29
+msgid "GDB Plugin"
+msgstr "GDB 插件"
+
+#~ msgid "Locals"
+#~ msgstr "局部变量"
+
+#~ msgid "port"
+#~ msgstr "端口"
+
+#~ msgid "/dev/ttyUSB0"
+#~ msgstr "/dev/ttyUSB0"
+
+#~ msgid "9600"
+#~ msgstr "9600"
+
+#~ msgid "14400"
+#~ msgstr "14400"
+
+#~ msgid "19200"
+#~ msgstr "19200"
+
+#~ msgid "38400"
+#~ msgstr "38400"
+
+#~ msgid "57600"
+#~ msgstr "57600"
+
+#~ msgid "115200"
+#~ msgstr "115200"
+
+#~ msgid "&Target:"
+#~ msgstr "目标(&T)："
+
+#~ msgctxt "Program argument list"
+#~ msgid "&Arg List:"
+#~ msgstr "参数列表(&A)："
+
+#~ msgid "Remove Argument List"
+#~ msgstr "删除参数列表"
+
+#~ msgid "Arg Lists"
+#~ msgstr "参数列表"
+
+#~ msgid "Add Working Directory"
+#~ msgstr "添加工作目录"
+
+#~ msgid "Remove Working Directory"
+#~ msgstr "删除工作目录"

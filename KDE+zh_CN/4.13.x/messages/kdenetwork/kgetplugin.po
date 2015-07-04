@@ -1,0 +1,3467 @@
+# translation of kget.po to 简体中文
+# Copyright (C) 2002,2003, 2008, 2009 Free Software Foundation, Inc.
+#
+# Zong YaoTang <zong@cosix.com.cn>, 2002.
+# Li ZongLiang <lizl@linux.net.cn>, 2002.
+# Sarah Smith <sarahs@redhat.com>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Funda Wang <fundawang@linux.net.cn>, 2003.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010.
+# Lie Ex <lilith.ex@gmail.com>, 2007-2009.
+# Leon Feng <rainofchaos@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kget\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:22+0200\n"
+"PO-Revision-Date: 2010-11-10 13:29+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.1\n"
+
+#: kget_plug_in.cpp:55
+msgid "Download Manager"
+msgstr "下载管理器"
+
+#: kget_plug_in.cpp:61
+msgid "Show Drop Target"
+msgstr "显示拖放目标"
+
+#: kget_plug_in.cpp:68
+msgid "List All Links"
+msgstr "列出所有链接"
+
+#: kget_plug_in.cpp:73
+msgid "List Selected Links"
+msgstr "列出所选链接"
+
+#: kget_plug_in.cpp:169
+msgid "No downloadable links were found."
+msgstr "找不到可下载的链接。"
+
+#: kget_plug_in.cpp:170
+msgid "No Links"
+msgstr "无链接"
+
+#: kget_plug_in.cpp:180
+msgid "Unable to communicate with the KGet download manager."
+msgstr "无法与 KGet 下载管理器进行通讯。"
+
+#: kget_plug_in.cpp:181
+msgid "Communication Error"
+msgstr "通讯错误"
+
+#. i18n: ectx: Menu (tools)
+#: kget_plug_in.rc:4
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#~ msgid "Plugins"
+#~ msgstr "插件"
+
+#~ msgid "New Group"
+#~ msgstr "新建组"
+
+#~ msgid "Xml"
+#~ msgstr "XML"
+
+#~ msgid "Sqlite"
+#~ msgstr "Sqlite"
+
+#~ msgid "Nepomuk"
+#~ msgstr "Nepomuk"
+
+#~ msgid "Turn Off Computer"
+#~ msgstr "关闭计算机"
+
+#~ msgid "Hibernate Computer"
+#~ msgstr "休眠计算机"
+
+#~ msgid "Suspend Computer"
+#~ msgstr "挂起计算机"
+
+#~ msgid "Appearance"
+#~ msgstr "外观"
+
+#~ msgid "Change appearance settings"
+#~ msgstr "更改外观设置"
+
+#~ msgid "Groups"
+#~ msgstr "分组"
+
+#~ msgid "Manage the groups"
+#~ msgstr "管理分组"
+
+#~ msgid "Network"
+#~ msgstr "网络"
+
+#~ msgid "Network and Downloads"
+#~ msgstr "网络与下载"
+
+#~ msgid "Web Interface"
+#~ msgstr "Web 界面"
+
+#~ msgid "Control KGet over a Network or the Internet"
+#~ msgstr "通过网络控制 KGet"
+
+#~ msgid "Verification"
+#~ msgstr "验证"
+
+#~ msgctxt "integration of KGet with other applications"
+#~ msgid "Integration"
+#~ msgstr "集成"
+
+#~ msgctxt "Advanced Options"
+#~ msgid "Advanced"
+#~ msgstr "高级"
+
+#~ msgid "Advanced Options"
+#~ msgstr "高级选项"
+
+#~ msgid "Transfer Plugins"
+#~ msgstr "传输插件"
+
+#~ msgid "Include"
+#~ msgstr "包含"
+
+#~ msgid "Exclude"
+#~ msgstr "排除"
+
+#~ msgid "Escape sequences"
+#~ msgstr "转义字符串"
+
+#~ msgid "Regular expression"
+#~ msgstr "正则表达式"
+
+#~ msgid "Pattern"
+#~ msgstr "模式"
+
+#~ msgid "Syntax"
+#~ msgstr "语法"
+
+#~ msgid "KGet"
+#~ msgstr "KGet"
+
+#~ msgid "1 Item"
+#~ msgid_plural "%1 Items"
+#~ msgstr[0] "%1 个项目"
+
+#~ msgid "%1/s"
+#~ msgstr "%1/秒"
+
+#~ msgctxt "start transfergroup downloads"
+#~ msgid "Start"
+#~ msgstr "开始"
+
+#~ msgctxt "stop transfergroup downloads"
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgid "KGet is downloading %1 file"
+#~ msgid_plural "KGet is downloading %1 files"
+#~ msgstr[0] "KGet 正在下载 %1 个文件"
+
+#~ msgid "Error trying to get %1"
+#~ msgstr "尝试获取 %1 时出错"
+
+#~ msgid "Are you sure that you want to remove the group named %1?"
+#~ msgstr "您确定要删除分组 %1 吗？"
+
+#~ msgid "Remove Group"
+#~ msgstr "删除分组"
+
+#~ msgid "Are you sure that you want to remove the following groups?"
+#~ msgstr "您确定要删除以下分组吗？"
+
+#~ msgid "Remove groups"
+#~ msgstr "删除分组"
+
+#~ msgid ""
+#~ "<p>The following transfer has been added to the download list:</p><p "
+#~ "style=\"font-size: small;\">\\%1</p>"
+#~ msgstr ""
+#~ "<p>已经将以下传输添加到下载列表：</p><p style=\"font-size: small;\">\\%1</"
+#~ "p>"
+
+#~ msgid "Download added"
+#~ msgstr "已经添加了下载任务"
+
+#~ msgid "<p>The following transfer has been added to the download list:</p>"
+#~ msgstr "<p>已经将以下传输添加到下载列表：</p>"
+
+#~ msgid "<p>The following transfers have been added to the download list:</p>"
+#~ msgstr "<p>已经将以下传输添加到下载列表：</p>"
+
+#~ msgid ""
+#~ "The file %1 already exists.\n"
+#~ "Overwrite?"
+#~ msgstr ""
+#~ "目的文件 %1  已存在。\n"
+#~ "您要覆盖它吗？"
+
+#~ msgid "Overwrite existing file?"
+#~ msgstr "覆盖已存在的文件吗？"
+
+#~ msgid "Unable to save to: %1"
+#~ msgstr "无法保存到：%1"
+
+#~ msgid "My Downloads"
+#~ msgstr "我的下载"
+
+#~ msgid ""
+#~ "<p>The following URL cannot be downloaded, its protocol is not supported "
+#~ "by KGet:</p>"
+#~ msgid_plural ""
+#~ "<p>The following URLs cannot be downloaded, their protocols are not "
+#~ "supported by KGet:</p>"
+#~ msgstr[0] "<p>无法下载下列 URL，KGet 不支持其协议：</p>"
+
+#~ msgid "Protocol unsupported"
+#~ msgstr "协议不支持"
+
+#~ msgid "New Download"
+#~ msgstr "新建下载"
+
+#~ msgid "Enter URL:"
+#~ msgstr "输入 URL"
+
+#~ msgid "Save As"
+#~ msgstr "另存为"
+
+#~ msgid ""
+#~ "Malformed URL:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "不正确的 URL：\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "Malformed URL, protocol missing:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "不正确的 URL，缺少协议：\n"
+#~ "%1"
+
+#~ msgid ""
+#~ "You have already completed a download from the location: \n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "Download it again?"
+#~ msgstr ""
+#~ "您已经从此地址完成了下载：\n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "要重新下载吗？"
+
+#~ msgid "Download it again?"
+#~ msgstr "要重新下载吗？"
+
+#~ msgid ""
+#~ "You have a download in progress from the location: \n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "Delete it and download again?"
+#~ msgstr ""
+#~ "您有一个对该地址的下载在进行中：\n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "删除它并重新下载吗？"
+
+#~ msgid "Delete it and download again?"
+#~ msgstr "删除并重新下载吗？"
+
+#~ msgid "Directory is not writable"
+#~ msgstr "目录不可写"
+
+#~ msgid ""
+#~ "You have already downloaded that file from another location.\n"
+#~ "\n"
+#~ "Download and delete the previous one?"
+#~ msgstr ""
+#~ "您已经从另一个地址下载过该文件。\n"
+#~ "\n"
+#~ "仍然要下载它并删除前一个吗？"
+
+#~ msgid "File already downloaded. Download anyway?"
+#~ msgstr "文件已经下载过。仍然要下载吗？"
+
+#~ msgid "You are already downloading the same file"
+#~ msgstr "您已经下载过同名文件"
+
+#~ msgid "File already exists"
+#~ msgstr "文件已存在"
+
+#~ msgid "Plugin loader could not load the plugin: %1."
+#~ msgstr "插件装入器无法载入插件：%1"
+
+#~ msgid ""
+#~ "Not deleting\n"
+#~ "%1\n"
+#~ "as it is a directory."
+#~ msgstr ""
+#~ "未删除\n"
+#~ "%1\n"
+#~ "因其是一个目录。"
+
+#~ msgid ""
+#~ "Not deleting\n"
+#~ "%1\n"
+#~ "as it is not a local file."
+#~ msgstr ""
+#~ "未删除\n"
+#~ "%1\n"
+#~ "因其不是本地文件。"
+
+#~ msgid ""
+#~ "<p>The following file has finished downloading:</p><p style=\"font-size: "
+#~ "small;\">\\%1</p>"
+#~ msgstr "<p>以下文件下载完成：</p><p style=\"font-size: small;\">\\%1</p>"
+
+#~ msgid "Download completed"
+#~ msgstr "下载完成"
+
+#~ msgid ""
+#~ "<p>The following transfer has been started:</p><p style=\"font-size: "
+#~ "small;\">\\%1</p>"
+#~ msgstr "<p>以下传输已经开始:</p><p style=\"font-size: small;\">\\%1</p>"
+
+#~ msgid "Download started"
+#~ msgstr "下载已经开始"
+
+#~ msgid "Error"
+#~ msgstr "错误"
+
+#~ msgid ""
+#~ "<p>There has been an error in the following transfer:</p><p style=\"font-"
+#~ "size: small;\">\\%1</p><p>The error message is:</p><p style=\"font-size: "
+#~ "small;\">\\%2</p>"
+#~ msgstr ""
+#~ "<p>以下传输发生错误：</p><p style=\"font-size: small;\">\\%1</p><p>错误消"
+#~ "息为：</p><p style=\"font-size: small;\">\\%2</p>"
+
+#~ msgid "Resolve"
+#~ msgstr "解决"
+
+#
+#~ msgid "KGet is now closing, as all downloads have completed."
+#~ msgstr "全部下载已完成，KGet 将退出。"
+
+#
+#~ msgid "The computer will now turn off, as all downloads have completed."
+#~ msgstr "全部下载已完成，现在将关闭计算机。"
+
+#~ msgctxt "Shutting down computer"
+#~ msgid "Shutdown"
+#~ msgstr "关机"
+
+#~ msgid ""
+#~ "The computer will now suspend to disk, as all downloads have completed."
+#~ msgstr "全部下载已完成，现在将计算机挂起到磁盘。"
+
+#~ msgctxt "Hibernating computer"
+#~ msgid "Hibernating"
+#~ msgstr "休眠"
+
+#~ msgid ""
+#~ "The computer will now suspend to RAM, as all downloads have completed."
+#~ msgstr "全部下载已完成，现在将计算机挂起到内存。"
+
+#~ msgctxt "Suspending computer"
+#~ msgid "Suspending"
+#~ msgstr "挂起"
+
+#~ msgctxt "abort the proposed action"
+#~ msgid "Abort"
+#~ msgstr "中止"
+
+#~ msgid "<p>All transfers have been finished.</p>"
+#~ msgstr "<p>全部传输都已经完成。</p>"
+
+#~ msgid "Downloads completed"
+#~ msgstr "下载完成"
+
+#~ msgctxt "file in a filesystem"
+#~ msgid "File"
+#~ msgstr "文件"
+
+#~ msgctxt "status of the download"
+#~ msgid "Status"
+#~ msgstr "状态"
+
+#~ msgctxt "size of the download"
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgctxt "checksum of a file"
+#~ msgid "Checksum"
+#~ msgstr "校验和"
+
+#~ msgctxt "signature of a file"
+#~ msgid "Signature"
+#~ msgstr "签名"
+
+#~ msgid "KGet Transfer"
+#~ msgstr "KGet 传输"
+
+#~ msgctxt "the type of the hash, e.g. MD5"
+#~ msgid "Type"
+#~ msgstr "类型"
+
+#~ msgctxt "the used hash for verification"
+#~ msgid "Hash"
+#~ msgstr "散列"
+
+#~ msgctxt "verification-result of a file, can be true/false"
+#~ msgid "Verified"
+#~ msgstr "验证结果"
+
+#~ msgid ""
+#~ "The key to verify the signature is missing, do you want to download it?"
+#~ msgstr "用于验证签名的密钥丢失，您想要下载它吗？"
+
+#~ msgid ""
+#~ "The signature could not be verified for %1. See transfer settings for "
+#~ "more information."
+#~ msgstr "无法验证 %1 的签名，请通过传输设置获得更多信息。"
+
+#~ msgid "Signature not verified"
+#~ msgstr "签名未验证"
+
+#~ msgid ""
+#~ "No server for downloading keys is specified in settings. Downloading "
+#~ "aborted."
+#~ msgstr "设置中没有指定用于密钥下载服务器。下载已中止。"
+
+#~ msgid "No key server"
+#~ msgstr "没有密钥服务器"
+
+#~ msgid ""
+#~ "No useful key server found, key not downloaded. Add more servers to the "
+#~ "settings or restart KGet and retry downloading."
+#~ msgstr ""
+#~ "找不到有用的密钥服务器，不能下载密钥。请在设置中添加更多服务器，或者重新启"
+#~ "动 KGet，并重试下载。"
+
+#~ msgid "Filesize is larger than maximum file size supported by VFAT."
+#~ msgstr "文件大小超过 VFAT 所支持的最大文件大小。"
+
+#~ msgctxt "A mirror is removed when the file has the wrong download size"
+#~ msgid "%1 removed as it did report a wrong file size."
+#~ msgstr "%1 报告了错误的文件大小，已被从镜像中移除。"
+
+#~ msgctxt "not available"
+#~ msgid "n/a"
+#~ msgstr "无"
+
+#~ msgid "Stalled"
+#~ msgstr "暂停"
+
+#~ msgid "Downloading...."
+#~ msgstr "下载中..."
+
+#~ msgctxt "transfer state: delayed"
+#~ msgid "Delayed"
+#~ msgstr "已推迟"
+
+#~ msgctxt "transfer state: stopped"
+#~ msgid "Stopped"
+#~ msgstr "已停止"
+
+#~ msgctxt "transfer state: aborted"
+#~ msgid "Aborted"
+#~ msgstr "已中止"
+
+#~ msgctxt "transfer state: finished"
+#~ msgid "Finished"
+#~ msgstr "已完成"
+
+#~ msgctxt "changing the destination of the file"
+#~ msgid "Changing destination"
+#~ msgstr "更改目标文件"
+
+#~ msgctxt "name of download"
+#~ msgid "Name"
+#~ msgstr "名称"
+
+#~ msgctxt "status of download"
+#~ msgid "Status"
+#~ msgstr "状态"
+
+#~ msgctxt "size of download"
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgctxt "progress of download"
+#~ msgid "Progress"
+#~ msgstr "进度"
+
+#~ msgctxt "speed of download"
+#~ msgid "Speed"
+#~ msgstr "速度"
+
+#~ msgctxt "remaining time of download"
+#~ msgid "Remaining Time"
+#~ msgstr "剩余时间"
+
+#, fuzzy
+#~| msgid "Directory is not writable"
+#~ msgid "Download directory is not writeable."
+#~ msgstr "目录不可写"
+
+#, fuzzy
+#~| msgid "Download Destination:"
+#~ msgid "No download destination specified."
+#~ msgstr "下载目标："
+
+#, fuzzy
+#~| msgid "Download Destination:"
+#~ msgid "Invalid download destination specified."
+#~ msgstr "下载目标："
+
+#, fuzzy
+#~| msgid "Download Destination:"
+#~ msgid "Download destination is not writeable."
+#~ msgstr "下载目标："
+
+#, fuzzy
+#~| msgid "not specified"
+#~ msgid "No URL specified."
+#~ msgstr "未指定"
+
+#~ msgid "Malformed URL."
+#~ msgstr "错误的 URL。"
+
+#, fuzzy
+#~| msgid ""
+#~| "Malformed URL, protocol missing:\n"
+#~| "%1"
+#~ msgid "Malformed URL, protocol missing."
+#~ msgstr ""
+#~ "不正确的 URL，缺少协议：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Malformed URL, protocol missing:\n"
+#~| "%1"
+#~ msgid "Malformed URL, host missing."
+#~ msgstr ""
+#~ "不正确的 URL，缺少协议：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid "Directory is not writable"
+#~ msgid ""
+#~ "Download directory is not writeable:\n"
+#~ "%1"
+#~ msgstr "目录不可写"
+
+#, fuzzy
+#~| msgid "Download Destination:"
+#~ msgid ""
+#~ "Invalid download destination specified:\n"
+#~ "%1"
+#~ msgstr "下载目标："
+
+#, fuzzy
+#~| msgid "Download Destination:"
+#~ msgid ""
+#~ "Download destination is not writeable:\n"
+#~ "%1"
+#~ msgstr "下载目标："
+
+#, fuzzy
+#~| msgid ""
+#~| "Malformed URL, protocol missing:\n"
+#~| "%1"
+#~ msgid ""
+#~ "Malformed URL, host missing:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "不正确的 URL，缺少协议：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "The file %1 already exists.\n"
+#~| "Overwrite?"
+#~ msgid "File already exists. Overwrite it?"
+#~ msgstr ""
+#~ "目的文件 %1  已存在。\n"
+#~ "您要覆盖它吗？"
+
+#, fuzzy
+#~| msgid ""
+#~| "You have already downloaded that file from another location.\n"
+#~| "\n"
+#~| "Download and delete the previous one?"
+#~ msgid ""
+#~ "You have already downloaded that file from another location.\n"
+#~ "Download and delete the previous one?"
+#~ msgstr ""
+#~ "您已经从另一个地址下载过该文件。\n"
+#~ "\n"
+#~ "仍然要下载它并删除前一个吗？"
+
+#, fuzzy
+#~| msgid ""
+#~| "You have already downloaded that file from another location.\n"
+#~| "\n"
+#~| "Download and delete the previous one?"
+#~ msgid ""
+#~ "You are already downloading that file from another location.\n"
+#~ "Download and delete the previous one?"
+#~ msgstr ""
+#~ "您已经从另一个地址下载过该文件。\n"
+#~ "\n"
+#~ "仍然要下载它并删除前一个吗？"
+
+#, fuzzy
+#~| msgid ""
+#~| "You have already completed a download from the location: \n"
+#~| "\n"
+#~| "%1\n"
+#~| "\n"
+#~| "Download it again?"
+#~ msgid ""
+#~ "You have already completed a download from that location. Download it "
+#~ "again?"
+#~ msgstr ""
+#~ "您已经从此地址完成了下载：\n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "要重新下载吗？"
+
+#, fuzzy
+#~| msgid ""
+#~| "You have a download in progress from the location: \n"
+#~| "\n"
+#~| "%1\n"
+#~| "\n"
+#~| "Delete it and download again?"
+#~ msgid ""
+#~ "You have a download in progress from that location.\n"
+#~ "Delete it and download again?"
+#~ msgstr ""
+#~ "您有一个对该地址的下载在进行中：\n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "删除它并重新下载吗？"
+
+#, fuzzy
+#~| msgid ""
+#~| "The file %1 already exists.\n"
+#~| "Overwrite?"
+#~ msgid ""
+#~ "File already exists:\n"
+#~ "%1\n"
+#~ "Overwrite it?"
+#~ msgstr ""
+#~ "目的文件 %1  已存在。\n"
+#~ "您要覆盖它吗？"
+
+#, fuzzy
+#~| msgid "Malformed URL."
+#~ msgid "Malformed URLs."
+#~ msgstr "错误的 URL。"
+
+#, fuzzy
+#~| msgid ""
+#~| "Malformed URL, protocol missing:\n"
+#~| "%1"
+#~ msgid "Malformed URLs, protocol missing."
+#~ msgstr ""
+#~ "不正确的 URL，缺少协议：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Malformed URL, protocol missing:\n"
+#~| "%1"
+#~ msgid "Malformed URLs, host missing."
+#~ msgstr ""
+#~ "不正确的 URL，缺少协议：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Malformed URL:\n"
+#~| "%1"
+#~ msgid ""
+#~ "Malformed URLs:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "不正确的 URL：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Malformed URL, protocol missing:\n"
+#~| "%1"
+#~ msgid ""
+#~ "Malformed URLs, protocol missing:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "不正确的 URL，缺少协议：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid ""
+#~| "Malformed URL, protocol missing:\n"
+#~| "%1"
+#~ msgid ""
+#~ "Malformed URLs, host missing:\n"
+#~ "%1"
+#~ msgstr ""
+#~ "不正确的 URL，缺少协议：\n"
+#~ "%1"
+
+#, fuzzy
+#~| msgid "Directory is not writable"
+#~ msgid ""
+#~ "Destinations are not writable:\n"
+#~ "%1"
+#~ msgstr "目录不可写"
+
+#, fuzzy
+#~| msgid ""
+#~| "The file %1 already exists.\n"
+#~| "Overwrite?"
+#~ msgid "Files exist already. Overwrite them?"
+#~ msgstr ""
+#~ "目的文件 %1  已存在。\n"
+#~ "您要覆盖它吗？"
+
+#, fuzzy
+#~| msgid ""
+#~| "You have already completed a download from the location: \n"
+#~| "\n"
+#~| "%1\n"
+#~| "\n"
+#~| "Download it again?"
+#~ msgid ""
+#~ "You have already completed downloads at those destinations. Download them "
+#~ "again?"
+#~ msgstr ""
+#~ "您已经从此地址完成了下载：\n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "要重新下载吗？"
+
+#, fuzzy
+#~| msgid ""
+#~| "You have a download in progress from the location: \n"
+#~| "\n"
+#~| "%1\n"
+#~| "\n"
+#~| "Delete it and download again?"
+#~ msgid ""
+#~ "You have downloads in progress to these destinations.\n"
+#~ "Delete them and download again?"
+#~ msgstr ""
+#~ "您有一个对该地址的下载在进行中：\n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "删除它并重新下载吗？"
+
+#, fuzzy
+#~| msgid ""
+#~| "You have already completed a download from the location: \n"
+#~| "\n"
+#~| "%1\n"
+#~| "\n"
+#~| "Download it again?"
+#~ msgid ""
+#~ "You have already completed downloads from these locations. Download them "
+#~ "again?"
+#~ msgstr ""
+#~ "您已经从此地址完成了下载：\n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "要重新下载吗？"
+
+#, fuzzy
+#~| msgid ""
+#~| "You have a download in progress from the location: \n"
+#~| "\n"
+#~| "%1\n"
+#~| "\n"
+#~| "Delete it and download again?"
+#~ msgid ""
+#~ "You have downloads in progress from these locations.\n"
+#~ "Delete them and download again?"
+#~ msgstr ""
+#~ "您有一个对该地址的下载在进行中：\n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "删除它并重新下载吗？"
+
+#, fuzzy
+#~| msgid ""
+#~| "You have already completed a download from the location: \n"
+#~| "\n"
+#~| "%1\n"
+#~| "\n"
+#~| "Download it again?"
+#~ msgid ""
+#~ "You have already completed downloads at those destinations: \n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ " Download them again?"
+#~ msgstr ""
+#~ "您已经从此地址完成了下载：\n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "要重新下载吗？"
+
+#, fuzzy
+#~| msgid ""
+#~| "You have a download in progress from the location: \n"
+#~| "\n"
+#~| "%1\n"
+#~| "\n"
+#~| "Delete it and download again?"
+#~ msgid ""
+#~ "You have downloads in progress to these destinations: \n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "Delete them and download again?"
+#~ msgstr ""
+#~ "您有一个对该地址的下载在进行中：\n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "删除它并重新下载吗？"
+
+#, fuzzy
+#~| msgid ""
+#~| "You have already completed a download from the location: \n"
+#~| "\n"
+#~| "%1\n"
+#~| "\n"
+#~| "Download it again?"
+#~ msgid ""
+#~ "You have already completed downloads from these locations: \n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "Download them again?"
+#~ msgstr ""
+#~ "您已经从此地址完成了下载：\n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "要重新下载吗？"
+
+#, fuzzy
+#~| msgid ""
+#~| "You have a download in progress from the location: \n"
+#~| "\n"
+#~| "%1\n"
+#~| "\n"
+#~| "Delete it and download again?"
+#~ msgid ""
+#~ "You have downloads in progress from these locations: \n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "Delete them and download again?"
+#~ msgstr ""
+#~ "您有一个对该地址的下载在进行中：\n"
+#~ "\n"
+#~ "%1\n"
+#~ "\n"
+#~ "删除它并重新下载吗？"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Question"
+#~ msgstr "描述"
+
+#, fuzzy
+#~| msgctxt "Download normally(not as first or last)"
+#~| msgid "Normal"
+#~ msgctxt "on a question"
+#~ msgid "No all"
+#~ msgstr "普通"
+
+#~ msgid "Insert Engine"
+#~ msgstr "插入引擎"
+
+#~ msgid "Engine name:"
+#~ msgstr "引擎名称："
+
+#~ msgid "URL:"
+#~ msgstr "URL："
+
+#~ msgid "The download (%1) could not be verified. Do you want to repair it?"
+#~ msgstr "无法验证下载(%1)。您想要修复它吗？"
+
+#~ msgid ""
+#~ "The download (%1) could not be verified. Do you want to redownload it?"
+#~ msgstr "无法验证下载(%1)。您想要重新下载它吗？"
+
+#~ msgid "Verification failed."
+#~ msgstr "验证失败。"
+
+#~ msgctxt "transfer state: connecting"
+#~ msgid "Connecting...."
+#~ msgstr "连接中..."
+
+#~ msgid "Add New Script"
+#~ msgstr "添加新脚本"
+
+#~ msgid "Edit Script"
+#~ msgstr "编辑脚本"
+
+#~ msgid "Set Script File"
+#~ msgstr "设定脚本文件"
+
+#~ msgctxt "Configure script"
+#~ msgid "Configure script"
+#~ msgstr "配置脚本"
+
+#~ msgctxt "Transfer state: processing script"
+#~ msgid "Processing script...."
+#~ msgstr "正在处理脚本..."
+
+#~ msgctxt "Transfer State: Finished"
+#~ msgid "Finished"
+#~ msgstr "已完成"
+
+#~ msgctxt "Transfer State: Aborted"
+#~ msgid "Aborted"
+#~ msgstr "已中止"
+
+#~ msgid "Downloading Metalink File...."
+#~ msgstr "正在下载元链接文件..."
+
+#~ msgid ""
+#~ "A newer version of this Metalink might exist, do you want to download it?"
+#~ msgstr "此元链接文件可能存在新版本，您想要下载它吗？"
+
+#~ msgid "Redownload Metalink"
+#~ msgstr "重新下载元链接"
+
+#~ msgid "Download failed, no working URLs were found."
+#~ msgstr "下载失败。找不到可用的 URL。"
+
+#~ msgid ""
+#~ "The download could not be verified, do you want to repair (if repairing "
+#~ "does not work the download would be restarted) it?"
+#~ msgstr "无法验证下载，您想要修复(如果修复无效，将重新开始下载)它吗？"
+
+#~ msgid "File Selection"
+#~ msgstr "文件选择"
+
+#~ msgid "Add item"
+#~ msgstr "添加项目"
+
+#~ msgid "%1 would become %2"
+#~ msgstr "%1 将改为 %2"
+
+#~ msgctxt "the string that is used to modify an url"
+#~ msgid "Change string"
+#~ msgstr "更改字符串"
+
+#~ msgctxt "the mode defines how the url should be changed"
+#~ msgid "Change mode"
+#~ msgstr "更改模式"
+
+#~ msgctxt "the type of the checksum e.g. md5"
+#~ msgid "Checksum type"
+#~ msgstr "校验和类型"
+
+#~ msgid "Append"
+#~ msgstr "追加"
+
+#~ msgid "Replace file"
+#~ msgstr "替换文件"
+
+#~ msgid "Replace file-ending"
+#~ msgstr "替换文件结尾"
+
+#~ msgctxt "transfer state: running"
+#~ msgid "Running...."
+#~ msgstr "运行中..."
+
+#~ msgctxt "Choked"
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgctxt "Not choked"
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgctxt "Snubbed"
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgctxt "Not snubbed"
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgctxt "Interested"
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgctxt "Not Interested"
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgctxt "Interesting"
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgctxt "Not Interesting"
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgid "IP Address"
+#~ msgstr "IP 地址"
+
+#~ msgid "Client"
+#~ msgstr "客户端"
+
+#~ msgid "Down Speed"
+#~ msgstr "下载速度"
+
+#~ msgid "Up Speed"
+#~ msgstr "上传速度"
+
+#~ msgid "Choked"
+#~ msgstr "已阻塞"
+
+#~ msgid "Snubbed"
+#~ msgstr "已延滞"
+
+#~ msgid "Availability"
+#~ msgstr "健康度"
+
+#~ msgid "DHT"
+#~ msgstr "DHT"
+
+#~ msgid "Score"
+#~ msgstr "评分"
+
+#~ msgid "Upload Slot"
+#~ msgstr "上传通道"
+
+#~ msgid "Requests"
+#~ msgstr "请求"
+
+#~ msgid "Downloaded"
+#~ msgstr "已下载"
+
+#~ msgid "Uploaded"
+#~ msgstr "已上传"
+
+#~ msgid "Interested"
+#~ msgstr "有兴趣"
+
+#~ msgid "Interesting"
+#~ msgstr "兴趣"
+
+#~ msgid "IP address of the peer"
+#~ msgstr "对等方的 IP 地址"
+
+#~ msgid "Which client the peer is using"
+#~ msgstr "对等方的客户端"
+
+#~ msgid "Download speed"
+#~ msgstr "下载速度"
+
+#~ msgid "Upload speed"
+#~ msgstr "上传速度"
+
+#~ msgid ""
+#~ "Whether or not the peer has choked us.  If we are choked, the peer will "
+#~ "not send us any data."
+#~ msgstr "对等方是否阻塞自己，如果被阻塞，对方不会向我方发送任何数据。"
+
+#~ msgid ""
+#~ "Snubbed means the peer has not sent us any data in the last 2 minutes"
+#~ msgstr "忽视意味着此对等方在过去 2 分钟内未向我方发送任何数据"
+
+#~ msgid "How much of the torrent's data the peer has"
+#~ msgstr "此种子数据中含有多少对等方"
+
+#~ msgid "Whether or not the peer has DHT enabled"
+#~ msgstr "对等方是否启用 DHT"
+
+#~ msgid ""
+#~ "The score of the peer. KTorrent uses this to determine who to upload to."
+#~ msgstr "对等方的评分。KTorrent 以此来确定数据上传给谁。"
+
+#~ msgid "Only peers which have an upload slot will get data from us"
+#~ msgstr "只有提供了上传通道的对等方能从我方获得数据"
+
+#~ msgid "The number of download and upload requests"
+#~ msgstr "下载和上传的请求数量"
+
+#~ msgid "How much data we have downloaded from this peer"
+#~ msgstr "我方从此对等方下载了多少数据"
+
+#~ msgid "How much data we have uploaded to this peer"
+#~ msgstr "我方向此对等方上传了多少数据"
+
+#~ msgid "Whether the peer is interested in downloading data from us"
+#~ msgstr "对等方是否愿意从我方下载数据"
+
+#~ msgid "Whether we are interested in downloading from this peer"
+#~ msgstr "我方是否有兴趣从此对等方下载数据"
+
+#~ msgid "Chunk"
+#~ msgstr "块"
+
+#~ msgid "Progress"
+#~ msgstr "进度"
+
+#~ msgid "Peer"
+#~ msgstr "对等方"
+
+#~ msgid "Files"
+#~ msgstr "文件"
+
+#~ msgid "Number of the chunk"
+#~ msgstr "数据块数量"
+
+#~ msgid "Download progress of the chunk"
+#~ msgstr "数据块的下载进度"
+
+#~ msgid "Which peer we are downloading it from"
+#~ msgstr "我方正从哪个对等方下载数据"
+
+#~ msgid "Download speed of the chunk"
+#~ msgstr "此数据块的下载速度"
+
+#~ msgid "Which files the chunk is located in"
+#~ msgstr "此数据块属于哪个文件"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Speed"
+#~ msgstr "速度"
+
+#~ msgid "Status"
+#~ msgstr "状态"
+
+#~ msgid "Kick Peer"
+#~ msgstr "踢出对等方"
+
+#~ msgid "Ban Peer"
+#~ msgstr "封禁对等方"
+
+#~ msgid ""
+#~ "Cannot add the webseed %1, it is already part of the list of webseeds."
+#~ msgstr "无法添加 Web 种子 %1，它已经是所列 Web 种子的一部分。"
+
+#~ msgid "Cannot remove webseed %1, it is part of the torrent."
+#~ msgstr "无法删除 Web 种子 %1，它是 torrent 任务的一部分。"
+
+#~ msgid "File"
+#~ msgstr "文件"
+
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#~ msgid "Advanced Details for %1"
+#~ msgstr "%1 的高级细节"
+
+#~ msgid "Trackers"
+#~ msgstr "Tracker"
+
+#~ msgid "Webseeds"
+#~ msgstr "Web 种子"
+
+#~ msgctxt "Open file"
+#~ msgid "Open"
+#~ msgstr "打开"
+
+#~ msgid "Download first"
+#~ msgstr "优先下载"
+
+#~ msgid "Download normally"
+#~ msgstr "普通下载"
+
+#~ msgid "Download last"
+#~ msgstr "最后下载"
+
+#~ msgid "Do Not Download"
+#~ msgstr "不下载"
+
+#~ msgid "Delete File(s)"
+#~ msgstr "删除文件"
+
+#~ msgid "Move File"
+#~ msgstr "移动文件"
+
+#~ msgid "Collapse Folder Tree"
+#~ msgstr "收起文件夹树"
+
+#~ msgid "Expand Folder Tree"
+#~ msgstr "展开文件夹树"
+
+#~ msgid ""
+#~ "You will lose all data in this file, are you sure you want to do this?"
+#~ msgid_plural ""
+#~ "You will lose all data in these files, are you sure you want to do this?"
+#~ msgstr[0] "您将丢失此文件的全部数据，您确认要这样做吗？"
+
+#~ msgid "Select a directory to move the data to."
+#~ msgstr "选择数据移动的目标目录。"
+
+#~ msgid "Url"
+#~ msgstr "URL"
+
+#~ msgid "Seeders"
+#~ msgstr "做种者"
+
+#~ msgid "Leechers"
+#~ msgstr "吸血虫"
+
+#~ msgid "Times Downloaded"
+#~ msgstr "已下载时间"
+
+#~ msgid "Next Update"
+#~ msgstr "下次更新"
+
+#~ msgid "Priority"
+#~ msgstr "优先级"
+
+#~ msgid "Preview"
+#~ msgstr "预览"
+
+#~ msgctxt "Percent of File Downloaded"
+#~ msgid "% Complete"
+#~ msgstr "% 完成"
+
+#~ msgctxt "Download first"
+#~ msgid "First"
+#~ msgstr "优先"
+
+#~ msgctxt "Download last"
+#~ msgid "Last"
+#~ msgstr "最后"
+
+#~ msgctxt "Download normally(not as first or last)"
+#~ msgid "Normal"
+#~ msgstr "普通"
+
+#~ msgctxt "preview available"
+#~ msgid "Available"
+#~ msgstr "可用"
+
+#~ msgctxt "Preview pending"
+#~ msgid "Pending"
+#~ msgstr "预览待生成"
+
+#~ msgctxt "No preview available"
+#~ msgid "No"
+#~ msgstr "无"
+
+#~ msgid "%1 %"
+#~ msgstr "%1%"
+
+#~ msgctxt "Preview available"
+#~ msgid "Available"
+#~ msgstr "预览现有效"
+
+#~ msgid "Add Tracker"
+#~ msgstr "添加 Tracker"
+
+#~ msgid "Enter the URL of the tracker:"
+#~ msgstr "输入 Tracker 服务器的 URL："
+
+#~ msgid "There already is a tracker named <b>%1</b>."
+#~ msgstr "已经存在和 <b>%1</b> 同名的 tracker。"
+
+#~ msgctxt "Download Normal (not as first or last)"
+#~ msgid "Normal"
+#~ msgstr "普通"
+
+#~ msgid "Cannot initialize libktorrent. Torrent support might not work."
+#~ msgstr "无法初始化 libktorrent。种子支持可能无法工作。"
+
+#~ msgid "&Advanced Details"
+#~ msgstr "高级细节(&A)"
+
+#~ msgid "&Scan Files"
+#~ msgstr "扫描文件(&S)"
+
+#~ msgid "Downloading Torrent File...."
+#~ msgstr "正在下载种子文件..."
+
+#~ msgctxt "transfer state: downloading"
+#~ msgid "Downloading...."
+#~ msgstr "下载中..."
+
+#~ msgid "Cannot add a tracker to a private torrent."
+#~ msgstr "无法向私有种子添加 tracker 服务器。"
+
+#~ msgid "Torrent file does not exist"
+#~ msgstr "种子文件不存在"
+
+#~ msgid "Analyzing torrent...."
+#~ msgstr "正在分析种子..."
+
+#~ msgid "Cannot initialize port..."
+#~ msgstr "无法初始化端口..."
+
+#~ msgctxt "Transfer status: seeding"
+#~ msgid "Seeding...."
+#~ msgstr "做种中..."
+
+#~ msgid "Error scanning data: %1"
+#~ msgstr "扫描数据时出错：%1"
+
+#~ msgid "Scanning data of <b>%1</b> :"
+#~ msgstr "正在扫描 <b>%1</b> 的数据："
+
+#~ msgid "Select a default torrent folder"
+#~ msgstr "选择一个默认种子文件夹"
+
+#~ msgid "Select a default temporary folder"
+#~ msgstr "选择一个默认临时文件夹"
+
+#~ msgid "Import dropped files"
+#~ msgstr "导入关联文件"
+
+#~ msgctxt "comma, to seperate members of a list"
+#~ msgid ","
+#~ msgstr ","
+
+#~ msgid "File Properties"
+#~ msgstr "文件属性"
+
+#~ msgid "Enter a filename."
+#~ msgstr "输入文件名。"
+
+#~ msgid "The filename exists already, choose a different one."
+#~ msgstr "同名文件已存在，请另选一个。"
+
+#~ msgid "Enter at least one URL."
+#~ msgstr "输入至少一个 URL。"
+
+#~ msgid ""
+#~ "Required data entered; also consider entering additional information."
+#~ msgstr "所需数据已输入；还可以添加一些额外信息。"
+
+#~ msgid "Create a Metalink"
+#~ msgstr "创建一个元链接"
+
+#~ msgid "General optional information for the metalink."
+#~ msgstr "元链接的常规信息。"
+
+#~ msgid "Unable to load: %1"
+#~ msgstr "无法装载：%1"
+
+#~ msgid "Metalink Version 4.0 file (*.meta4)"
+#~ msgstr "Metalink 4.0 文件(*.meta4)"
+
+#~ msgid "Metalink Version 3.0 file (*.metalink)"
+#~ msgstr "Metalink 3.0 文件(*.metalink)"
+
+#~ msgid "Define the saving location."
+#~ msgstr "定义保存地址"
+
+#~ msgctxt "file as in file on hard drive"
+#~ msgid "Enter at least one file."
+#~ msgstr "输入至少一个文件。"
+
+#~ msgid "Import Links"
+#~ msgstr "导入链接"
+
+#~ msgctxt "Download the items which have been selected"
+#~ msgid "&Download Checked"
+#~ msgstr "下载选中的项目(&D)"
+
+#~ msgid "Auxiliary header"
+#~ msgstr "辅助报头"
+
+#~ msgid "File Name"
+#~ msgstr "文件名"
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgctxt "list header: type of file"
+#~ msgid "File Type"
+#~ msgstr "文件类型"
+
+#~ msgid "Location (URL)"
+#~ msgstr "位置(URL)"
+
+#~ msgid "Links in: %1 - KGet"
+#~ msgstr "在 %1 的链接 - KGet"
+
+#~ msgid "&Select All Filtered"
+#~ msgstr "选择全部已过滤的项目(&S)"
+
+#~ msgid "&Select All"
+#~ msgstr "全部选择(&S)"
+
+#~ msgid "D&eselect All Filtered"
+#~ msgstr "全部取消选择已过滤的项目(&E)"
+
+#~ msgid "D&eselect All"
+#~ msgstr "全部取消选择(&E)"
+
+#~ msgid "not specified"
+#~ msgstr "未指定"
+
+#~ msgctxt "Mirror as in server, in url"
+#~ msgid "Mirror"
+#~ msgstr "镜像地址"
+
+#~ msgctxt "The priority of the mirror"
+#~ msgid "Priority"
+#~ msgstr "优先级"
+
+#~ msgctxt "Number of paralell connections to the mirror"
+#~ msgid "Connections"
+#~ msgstr "连接数"
+
+#~ msgctxt "Location = country"
+#~ msgid "Location"
+#~ msgstr "位置"
+
+#~ msgid "Add mirror"
+#~ msgstr "添加镜像"
+
+#~ msgctxt "Adds the item and reopens the dialog to add a further item"
+#~ msgid "Add more"
+#~ msgstr "添加更多项目"
+
+#~ msgid "%1 has been successfully added."
+#~ msgstr "已成功添加 %1。"
+
+#~ msgid "Modify the used mirrors."
+#~ msgstr "修改使用的镜像。"
+
+#~ msgid "Download again"
+#~ msgstr "再次下载"
+
+#~ msgctxt "Delete selected history-item"
+#~ msgid "Delete selected"
+#~ msgstr "删除选中任务"
+
+#~ msgid "Open file"
+#~ msgstr "打开文件"
+
+#~ msgid "Today"
+#~ msgstr "今天"
+
+#~ msgid "Last week"
+#~ msgstr "上周"
+
+#~ msgid "Last Month"
+#~ msgstr "上月"
+
+#~ msgid "A long time ago"
+#~ msgstr "很久以前"
+
+#~ msgid "Under 10MiB"
+#~ msgstr "10 MB 以下"
+
+#~ msgid "Between 10MiB and 50MiB"
+#~ msgstr "10MB-50MB 之间"
+
+#~ msgid "Between 50MiB and 100MiB"
+#~ msgstr "50MB-100MB 之间"
+
+#~ msgid "More than 100MiB"
+#~ msgstr "大于 100MB"
+
+#~ msgid "Transfer History"
+#~ msgstr "传输历史"
+
+#~ msgid "&Open File"
+#~ msgstr "打开文件(&O)"
+
+#~ msgctxt "The transfer is running"
+#~ msgid "Running"
+#~ msgstr "运行中"
+
+#~ msgctxt "The transfer is stopped"
+#~ msgid "Stopped"
+#~ msgstr "已停止"
+
+#~ msgctxt "The transfer is aborted"
+#~ msgid "Aborted"
+#~ msgstr "已中止"
+
+#~ msgctxt "The transfer is finished"
+#~ msgid "Finished"
+#~ msgstr "已完成"
+
+#~ msgid "Source File"
+#~ msgstr "源文件"
+
+#~ msgid "Destination"
+#~ msgstr "目的地"
+
+#~ msgid "Time"
+#~ msgstr "时间"
+
+#~ msgid "File Size"
+#~ msgstr "文件大小"
+
+#~ msgid "Less than 1MiB"
+#~ msgstr "小于 1MB"
+
+#~ msgid "Between 1MiB-10MiB"
+#~ msgstr "1MB-10MB 之间"
+
+#~ msgid "Between 10MiB-100MiB"
+#~ msgstr "10MB-100MB 之间"
+
+#~ msgid "Between 100MiB-1GiB"
+#~ msgstr "100MB-1GB 之间"
+
+#~ msgid "More than 1GiB"
+#~ msgstr "大于 1GB"
+
+#~ msgid "Last month"
+#~ msgstr "上月"
+
+#~ msgctxt "the transfer has been finished"
+#~ msgid "Finished"
+#~ msgstr "已完成"
+
+#~ msgctxt "an error happened in connection with the user input"
+#~ msgid "Error:"
+#~ msgstr "错误："
+
+#~ msgctxt "trust level"
+#~ msgid "Unknown"
+#~ msgstr "未知"
+
+#~ msgctxt "trust level"
+#~ msgid "Undefined"
+#~ msgstr "未定义"
+
+#~ msgctxt "trust level"
+#~ msgid "Never"
+#~ msgstr "不信任"
+
+#~ msgctxt "trust level"
+#~ msgid "Marginal"
+#~ msgstr "勉强"
+
+#~ msgctxt "trust level"
+#~ msgid "Full"
+#~ msgstr "完全"
+
+#~ msgctxt "trust level"
+#~ msgid "Ultimate"
+#~ msgstr "绝对"
+
+#~ msgctxt ""
+#~ "Signature here is meant in cryptographic terms, so the signature of a "
+#~ "file."
+#~ msgid "Signature of %1."
+#~ msgstr "%1 的签名。"
+
+#~ msgid "This option is not supported for the current transfer."
+#~ msgstr "当前传输不支持此选项。"
+
+#~ msgid "You need to define a signature."
+#~ msgstr "您需要定义一个签名。"
+
+#~ msgid ""
+#~ "No fingerprint could be found, check if the signature is correct or "
+#~ "verify the download."
+#~ msgstr "找不到指纹，请检查签名的正确性并验证下载内容。"
+
+#~ msgid "The key has been revoked."
+#~ msgstr "此密钥已被撤销。"
+
+#~ msgid "The key is disabled."
+#~ msgstr "此密钥已被禁用。"
+
+#~ msgid "The key is invalid."
+#~ msgstr "此密钥无效。"
+
+#~ msgid "The key is expired."
+#~ msgstr "此密钥已过期。"
+
+#~ msgid "The key is not to be trusted."
+#~ msgstr "不信任此密钥。"
+
+#~ msgid "The key is to be trusted marginally."
+#~ msgstr "此密钥仅为勉强信任等级。"
+
+#~ msgid "The key is to be trusted fully."
+#~ msgstr "此密钥为完全信任等级。"
+
+#~ msgid "The key is to be trusted ultimately."
+#~ msgstr "此密钥为绝对信任等级。"
+
+#~ msgid "Trust level of the key is unclear."
+#~ msgstr "此密钥的信任等级不明。"
+
+#~ msgid "Unlimited"
+#~ msgstr "无限制"
+
+#~ msgctxt "pgp signature is verified"
+#~ msgid "Verified"
+#~ msgstr "已验证"
+
+#~ msgid "The signature has been verified successfully."
+#~ msgstr "成功验证签名。"
+
+#~ msgid "The signature has been verified successfully:"
+#~ msgstr "成功验证签名："
+
+#~ msgctxt "pgp signature is not verified"
+#~ msgid "Failed"
+#~ msgstr "失败"
+
+#~ msgid ""
+#~ "Caution: Verification failed. Either you entered the wrong signature, or "
+#~ "the data has been modified."
+#~ msgstr "注意：验证失败。可能您输入了错误的签名或数据已被更改。"
+
+#~ msgid ""
+#~ "Verification not possible. Check the entered data, whether gpg-agent is "
+#~ "running, or whether you have an Internet connection (for retrieving keys.)"
+#~ msgstr ""
+#~ "无法验证。请检查所输入的数据，gpg-agent 是否正在运行，以及您是否有互联网连"
+#~ "接(用来获取密钥。)"
+
+#~ msgid ""
+#~ "Feature is not supported, as KGet is not compiled with QPGME support."
+#~ msgstr "不支持的特性，因为 KGet 未编译入 QPGME 支持。"
+
+#~ msgid "Error:"
+#~ msgstr "错误："
+
+#~ msgid "Problems:"
+#~ msgstr "问题："
+
+#~ msgid "Information:"
+#~ msgstr "信息："
+
+#~ msgid "Select columns"
+#~ msgstr "选择列"
+
+#~ msgid "Transfer Details"
+#~ msgstr "传输细节"
+
+#~ msgid "Add checksum"
+#~ msgstr "添加校验和"
+
+#~ msgid "%1 %2 has been successfully added."
+#~ msgstr "已成功添加 %1 %2。"
+
+#~ msgid "Transfer Verification for %1"
+#~ msgstr "%1 的传输验证"
+
+#~ msgid "%1 was successfully verified."
+#~ msgstr "已成功验证 %1。"
+
+#~ msgid "Verification successful"
+#~ msgstr "验证成功"
+
+#~ msgid "Rename File"
+#~ msgstr "重命名文件"
+
+#~ msgid "Rename %1 to:"
+#~ msgstr "重命名 %1 为："
+
+#~ msgid "&Rename"
+#~ msgstr "重命名(&R)"
+
+#~ msgid "Semantic Desktop"
+#~ msgstr "语义桌面"
+
+#~ msgid "Delete Group"
+#~ msgid_plural "Delete Groups"
+#~ msgstr[0] "删除分组"
+
+#~ msgid "Rename Group..."
+#~ msgid_plural "Rename Groups..."
+#~ msgstr[0] "重命名分组..."
+
+#~ msgctxt "fix position for droptarget"
+#~ msgid "Sticky"
+#~ msgstr "吸附屏幕"
+
+#~ msgid "Quit KGet"
+#~ msgstr "退出 KGet"
+
+#~ msgid "The dropped file is a KGet Transfer List"
+#~ msgstr "拖放的是一个 KGet 传输列表文件"
+
+#~ msgid "&Download"
+#~ msgstr "下载(&D)"
+
+#~ msgid "&Load transfer list"
+#~ msgstr "装入传输列表(&L)"
+
+#~ msgid "Show Main Window"
+#~ msgstr "显示主窗口"
+
+#~ msgid "Hide Main Window"
+#~ msgstr "隐藏主窗口"
+
+#~ msgid "Drop Target"
+#~ msgstr "拖放目标"
+
+#~ msgid "You can drag download links into the drop target."
+#~ msgstr "您可以将下载链接拖放到此框中。"
+
+#~ msgctxt "%1 filename, %2 total size, %3 status"
+#~ msgid "%1(%2) %3"
+#~ msgstr "%1(%2) %3"
+
+#~ msgctxt ""
+#~ "%1 filename, %2 percent complete, %3 downloaded out of %4 total size"
+#~ msgid "%1(%2% %3/%4) Speed:%5/s"
+#~ msgstr "%1(%2% %3/%4) 速度：%5/秒"
+
+#~ msgctxt ""
+#~ "%1 filename, %2 percent complete, %3 downloaded out of %4 total size, %5 "
+#~ "status"
+#~ msgid "%1(%2% %3/%4) %5"
+#~ msgstr "%1(%2% %3/%4) %5"
+
+#~ msgid "Ready"
+#~ msgstr "就绪"
+
+#~ msgid ""
+#~ "Drop target has been hidden. If you want to show it again, go to Settings-"
+#~ ">Configure KGet->Look & Feel."
+#~ msgstr ""
+#~ "拖放目标已被隐藏。如果您想要重新显示它，请进入设置->配置 KGet->外观处设"
+#~ "定。"
+
+#~ msgid "Hiding drop target"
+#~ msgstr "隐藏拖放目标"
+
+#~ msgid "Transfer Settings for %1"
+#~ msgstr "%1 的传输设置"
+
+#~ msgid ""
+#~ "Changing the destination did not work, the destination stays unmodified."
+#~ msgstr "无法更改目的地，因此未对其作改动。"
+
+#~ msgid "Destination unmodified"
+#~ msgstr "目的地未修改"
+
+#~ msgid "Average speed: %1/s"
+#~ msgstr "平均速度：%1/秒"
+
+#~ msgid "%1 of %2"
+#~ msgstr "%2 的 %1"
+
+#~ msgid "Group Settings for %1"
+#~ msgstr "%1 组的设置"
+
+#~ msgctxt "@info"
+#~ msgid "Unable to start the server: %1."
+#~ msgstr "无法启动服务器：%1。"
+
+#~ msgctxt "@item speed of transfer per seconds"
+#~ msgid "%1/s"
+#~ msgstr "%1/秒"
+
+#
+#~ msgctxt "@label"
+#~ msgid "KGet Web Interface"
+#~ msgstr "KGet Web 界面"
+
+#~ msgctxt "@label number"
+#~ msgid "Nr"
+#~ msgstr "编号"
+
+#~ msgctxt "@label"
+#~ msgid "File name"
+#~ msgstr "文件名"
+
+#~ msgctxt "@label Progress of transfer"
+#~ msgid "Finished"
+#~ msgstr "已完成"
+
+#~ msgctxt "@label Speed of transfer"
+#~ msgid "Speed"
+#~ msgstr "速度"
+
+#~ msgctxt "@label Status of transfer"
+#~ msgid "Status"
+#~ msgstr "状态"
+
+#~ msgctxt "@action:button start a transfer"
+#~ msgid "Start"
+#~ msgstr "开始"
+
+#~ msgctxt "@action:button"
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgctxt "@action:button"
+#~ msgid "Remove"
+#~ msgstr "删除"
+
+#~ msgctxt "@label Download from"
+#~ msgid "Source:"
+#~ msgstr "来源："
+
+#~ msgctxt "@label Save download to"
+#~ msgid "Saving to:"
+#~ msgstr "保存到："
+
+#~ msgctxt "@label Title in header"
+#~ msgid "Web Interface"
+#~ msgstr "Web 界面"
+
+#~ msgctxt "@action"
+#~ msgid "Settings"
+#~ msgstr "设置"
+
+#~ msgctxt "@action"
+#~ msgid "Refresh"
+#~ msgstr "刷新"
+
+#~ msgctxt "@action"
+#~ msgid "Enter URL: "
+#~ msgstr "输入 URL："
+
+#~ msgctxt "@action:button"
+#~ msgid "OK"
+#~ msgstr "确定"
+
+#~ msgctxt "@action Refresh download list every x (seconds)"
+#~ msgid "Refresh download list every"
+#~ msgstr "下载列表刷新间隔"
+
+#~ msgctxt "@action (Refresh very x )seconds"
+#~ msgid "seconds"
+#~ msgstr "秒"
+
+#~ msgctxt "@action:button"
+#~ msgid "Save Settings"
+#~ msgstr "保存设置"
+
+#~ msgctxt "@title"
+#~ msgid "Downloads"
+#~ msgstr "下载"
+
+#~ msgctxt "@label text in footer"
+#~ msgid "KGet Web Interface | Valid XHTML 1.0 Strict &amp; CSS"
+#~ msgstr "KGet Web 界面 | 有效的 XHTML 1.0 Strict &amp; CSS"
+
+#~ msgid "An advanced download manager for KDE"
+#~ msgstr "KDE 高级下载管理器"
+
+#~ msgid ""
+#~ "(C) 2005 - 2009, The KGet developers\n"
+#~ "(C) 2001 - 2002, Patrick Charbonnier\n"
+#~ "(C) 2002, Carsten Pfeiffer\n"
+#~ "(C) 1998 - 2000, Matej Koss"
+#~ msgstr ""
+#~ "(C) 2005 - 2009，KGet 开发者\n"
+#~ "(C) 2001 - 2002，Patrick Charbonnier\n"
+#~ "(C) 2002，Carsten Pfeiffer\n"
+#~ "(C) 1998 - 2000，Matej Koss"
+
+#~ msgid "<a href=\"mailto:kget@kde.org\">kget@kde.org</a>"
+#~ msgstr "<a href=\"mailto:kget@kde.org\">kget@kde.org</a>"
+
+#~ msgid "Lukas Appelhans"
+#~ msgstr "Lukas Appelhans"
+
+#~ msgid "Maintainer, Core Developer, Torrent Plugin Author"
+#~ msgstr "维护者、核心开发者、Torrent 插件作者"
+
+#~ msgid "Dario Massarin"
+#~ msgstr "Dario Massarin"
+
+#~ msgid "Core Developer"
+#~ msgstr "核心开发者"
+
+#~ msgid "Urs Wolfer"
+#~ msgstr "Urs Wolfer"
+
+#~ msgid "Manolo Valdes"
+#~ msgstr "Manolo Valdes"
+
+#~ msgid "Core Developer, Multithreaded Plugin Author"
+#~ msgstr "核心开发者、多线程插件作者"
+
+#~ msgid "Matthias Fuchs"
+#~ msgstr "Matthias Fuchs"
+
+#~ msgid "Javier Goday"
+#~ msgstr "Javier Goday"
+
+#~ msgid "Developer"
+#~ msgstr "开发者"
+
+#~ msgid "Patrick Charbonnier"
+#~ msgstr "Patrick Charbonnier"
+
+#~ msgid "Former Developer"
+#~ msgstr "先前开发者"
+
+#~ msgid "Carsten Pfeiffer"
+#~ msgstr "Carsten Pfeiffer"
+
+#~ msgid "Matej Koss"
+#~ msgstr "Matej Koss"
+
+#~ msgid "Joris Guisson"
+#~ msgstr "Joris Guisson"
+
+#~ msgid "BTCore (KTorrent) Developer"
+#~ msgstr "BT 功能核心(KTorrent)开发者"
+
+#~ msgid "Mensur Zahirovic (Nookie)"
+#~ msgstr "Mensur Zahirovic (Nookie)"
+
+#~ msgid "Design of Web Interface"
+#~ msgstr "Web 界面设计"
+
+#~ msgid "Start KGet with drop target"
+#~ msgstr "KGet 启动时显示拖放目标"
+
+#~ msgid "Start KGet with hidden main window"
+#~ msgstr "KGet 启动时隐藏主窗口"
+
+#~ msgid "Start KGet without drop target animation"
+#~ msgstr "KGet 启动时不以动画形式显示拖放目标"
+
+#~ msgid "Execute Unit Testing"
+#~ msgstr "执行单元测试"
+
+#~ msgid "URL(s) to download"
+#~ msgstr "要下载的 URL"
+
+#~ msgid "KGet Transfer List"
+#~ msgstr "KGet 传输列表"
+
+#~ msgid "Export Transfers"
+#~ msgstr "导出传输列表"
+
+#~ msgid "&New Download..."
+#~ msgstr "新建下载(&N)..."
+
+#~ msgid "&Import Transfers..."
+#~ msgstr "导入传输(&I)..."
+
+#~ msgid "&Export Transfers List..."
+#~ msgstr "导出传输列表(&E)..."
+
+#~ msgid "&Export Transfers as Plain Text..."
+#~ msgstr "导出传输列表为纯文本(&E)..."
+
+#~ msgid "&Create a Metalink"
+#~ msgstr "创建元链接(&C)"
+
+#~ msgid "Top Priority"
+#~ msgstr "优先级最高"
+
+#~ msgid "Least Priority"
+#~ msgstr "优先级最低"
+
+#~ msgid "Increase Priority"
+#~ msgstr "提升优先级"
+
+#~ msgid "Decrease Priority"
+#~ msgstr "降低优先级"
+
+#~ msgid "Set Icon..."
+#~ msgstr "设置图标..."
+
+#~ msgid "Auto-Paste Mode"
+#~ msgstr "自动粘贴模式"
+
+#~ msgid ""
+#~ "<b>Auto paste</b> button toggles the auto-paste mode on and off.\n"
+#~ "When set, KGet will periodically scan the clipboard for URLs and paste "
+#~ "them automatically."
+#~ msgstr ""
+#~ "<b>自动粘贴</b>按钮可启动和关闭自动粘贴模式。\n"
+#~ "当设置了这项功能， KGet 将会周期性扫描剪贴板上的\n"
+#~ "URL 并自动粘贴这些 URL。"
+
+#~ msgid "Use KGet as Konqueror Download Manager"
+#~ msgstr "将 KGet 设置为 Konqueror 的下载管理器"
+
+#~ msgctxt "delete selected transfer item"
+#~ msgid "Remove Selected"
+#~ msgstr "删除所选项"
+
+#~ msgctxt "delete all finished transfers"
+#~ msgid "Remove All Finished"
+#~ msgstr "删除全部完成的项目"
+
+#~ msgctxt "redownload selected transfer item"
+#~ msgid "Redownload Selected"
+#~ msgstr "重新下载所选任务"
+
+#~ msgid "Start / Resume All"
+#~ msgstr "开始/续传所有任务"
+
+#~ msgid "Start / Resume Selected"
+#~ msgstr "开始/续传选中任务"
+
+#~ msgid "Stop All"
+#~ msgstr "全部停止"
+
+#~ msgid "Stop Selected"
+#~ msgstr "停止选中任务"
+
+#~ msgid "Start / Resume"
+#~ msgstr "开始/续传"
+
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgid "Remove"
+#~ msgstr "删除"
+
+#~ msgid "Open Destination"
+#~ msgstr "打开目标目录"
+
+#~ msgid "Open File"
+#~ msgstr "打开文件"
+
+#~ msgid "Show Details"
+#~ msgstr "显示细节"
+
+#~ msgid "Copy URL to Clipboard"
+#~ msgstr "将 URL 复制到剪贴板"
+
+#~ msgid "&Transfer History"
+#~ msgstr "传输历史(&T)"
+
+#~ msgid "&Group Settings"
+#~ msgstr "分组设置(&G)"
+
+#~ msgid "&Transfer Settings"
+#~ msgstr "传输设置(&T)"
+
+#~ msgid "Import &Links..."
+#~ msgstr "导入链接(&L)..."
+
+#~ msgid ""
+#~ "This is the first time you have run KGet.\n"
+#~ "Would you like to enable KGet as the download manager for Konqueror?"
+#~ msgstr ""
+#~ "这是您第一次运行 KGet。\n"
+#~ "您是否想要将 KGet 用作 Konqueror 的下载管理器？"
+
+#~ msgid "Konqueror Integration"
+#~ msgstr "Konqueror 集成"
+
+#~ msgid "Enable"
+#~ msgstr "启用"
+
+#~ msgid "Do Not Enable"
+#~ msgstr "不启用"
+
+#~ msgid "All Openable Files"
+#~ msgstr "所有可打开的文件"
+
+#~ msgctxt "window title including overall download progress in percent"
+#~ msgid "KGet - %1%"
+#~ msgstr "KGet - %1%"
+
+#~ msgid ""
+#~ "Some transfers are still running.\n"
+#~ "Are you sure you want to close KGet?"
+#~ msgstr ""
+#~ "有些传输仍在进行中。\n"
+#~ "您确定要关闭 KGet 吗？"
+
+#~ msgid "Confirm Quit"
+#~ msgstr "确认退出"
+
+#~ msgid "Enter Group Name"
+#~ msgstr "输入分组名称"
+
+#~ msgid "Group name:"
+#~ msgstr "分组名："
+
+#~ msgid "Are you sure you want to delete the selected transfer?"
+#~ msgid_plural "Are you sure you want to delete the selected transfers?"
+#~ msgstr[0] "您确定要删除所选的传输项吗？"
+
+#~ msgid "Confirm transfer delete"
+#~ msgstr "确认删除传输项"
+
+#~ msgid ""
+#~ "KGet has been temporarily disabled as download manager for Konqueror. If "
+#~ "you want to disable it forever, go to Settings->Advanced and disable "
+#~ "\"Use as download manager for Konqueror\"."
+#~ msgstr ""
+#~ "KGet 已被临时禁用作 Konqueror 的下载管理器。如果您希望永久禁用此功能，请进"
+#~ "入设置->高级并取消“将 KGet 用作 Konqueror 的下载管理器”选项。"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "KDE 中国"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "kde-china@kde.org"
+
+#~ msgid "Checksums"
+#~ msgstr "校验和"
+
+#~ msgid "Automatic verification:"
+#~ msgstr "自动验证："
+
+#~ msgid "Weak (fastest)"
+#~ msgstr "弱(最快)"
+
+#~ msgid "Strong (recommended)"
+#~ msgstr "强(推荐)"
+
+#~ msgid "Strongest (slowest)"
+#~ msgstr "最强(最慢)"
+
+#~ msgid "Used checksum:"
+#~ msgstr "所用校验和："
+
+#~ msgid "Signature"
+#~ msgstr "签名"
+
+#~ msgid "Automatic verification"
+#~ msgstr "自动验证"
+
+#~ msgid "Automatic downloading of missing keys"
+#~ msgstr "自动下载缺失的密钥"
+
+#~ msgid "Keyservers:"
+#~ msgstr "密钥服务器："
+
+#~ msgid "Move &Up"
+#~ msgstr "上移(&U)"
+
+#~ msgid "Move &Down"
+#~ msgstr "下移(&D)"
+
+#~ msgid "Use default folders for groups as suggestion"
+#~ msgstr "对建议分组使用默认文件夹"
+
+#~ msgid "Rename"
+#~ msgstr "重命名"
+
+#~ msgid "Select Icon..."
+#~ msgstr "选择图标..."
+
+#~ msgid "Limit Maximum Downloads Per Group"
+#~ msgstr "每个分组的最大下载项目数量"
+
+#~ msgid "Number of downloads:"
+#~ msgstr "下载项目数量："
+
+#~ msgid "Downloads from the same server:"
+#~ msgstr "从同一服务器上下载："
+
+#~ msgid "Speed Limit"
+#~ msgstr "速度限制"
+
+#~ msgid "Global download limit:"
+#~ msgstr "全局下载限制："
+
+#~ msgid " KiB/s"
+#~ msgstr " KiB/秒"
+
+#~ msgid "Global upload limit:"
+#~ msgstr "全局上传限制："
+
+#~ msgid "Per transfer:"
+#~ msgstr "每个传输任务："
+
+#~ msgid "Reconnect on Error or Broken Connection"
+#~ msgstr "连接中断时重连"
+
+#~ msgid "Number of retries:"
+#~ msgstr "重试次数："
+
+#~ msgid "Retry after:"
+#~ msgstr "重新连接延时："
+
+#~ msgid " sec"
+#~ msgstr " 秒"
+
+#~ msgid "After Completing Downloads"
+#~ msgstr "完成下载后的行为"
+
+#~ msgid "Auto shutdown"
+#~ msgstr "自动关机"
+
+#~ msgid "Auto disconnect"
+#~ msgstr "自动断开"
+
+#~ msgid "Enable Web Interface"
+#~ msgstr "启用 Web 界面"
+
+#~ msgid "Port:"
+#~ msgstr "端口："
+
+#~ msgid "User:"
+#~ msgstr "用户名："
+
+#~ msgid "Password:"
+#~ msgstr "密码："
+
+#~ msgid "Startup"
+#~ msgstr "启动"
+
+#~ msgid "Show splashscreen"
+#~ msgstr "显示欢迎屏幕"
+
+#~ msgid "Enable animations"
+#~ msgstr "启用动画"
+
+#~ msgid "Enable popup tooltip"
+#~ msgstr "启用弹出提示"
+
+#~ msgid "Show drop target"
+#~ msgstr "显示拖放目标"
+
+#~ msgid "Disable confirmation dialogs (less verbosity)"
+#~ msgstr "禁止确认对话框(可简化操作)"
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "启用系统托盘图标"
+
+#~ msgid "Execute action after all downloads have been finished:"
+#~ msgstr "全部下载完成后执行动作："
+
+#~ msgid "At startup:"
+#~ msgstr "在启动时："
+
+#~ msgid "Restore Download State"
+#~ msgstr "恢复下载状态"
+
+#~ msgid "Start All Downloads"
+#~ msgstr "启动全部下载"
+
+#~ msgid "Stop All Downloads"
+#~ msgstr "停止全部下载"
+
+#~ msgid "History"
+#~ msgstr "历史"
+
+#~ msgid "History backend:"
+#~ msgstr "历史后端："
+
+#~ msgid "Enable KDE global progress tracking"
+#~ msgstr "启用 KDE 全局的进度跟踪"
+
+#~ msgid "Show every single download "
+#~ msgstr "显示每个单独的下载"
+
+#~ msgid "Show overall progress"
+#~ msgstr "显示全部进度"
+
+#~ msgid "Use as download manager for Konqueror:"
+#~ msgstr "将 KGet 用作 Konqueror 的下载管理器："
+
+#~ msgid "Monitor clipboard for files to download"
+#~ msgstr "监视剪贴板中要下载的文件"
+
+#~ msgid "Case insensitive:"
+#~ msgstr "区分大小写："
+
+#~ msgid "Search Engines"
+#~ msgstr "搜索引擎"
+
+#~ msgid "Engine Name"
+#~ msgstr "引擎名"
+
+#~ msgid "New Engine..."
+#~ msgstr "新建引擎..."
+
+#~ msgid "Number of connections per URL:"
+#~ msgstr "每个 URL 的连接次数："
+
+#~ msgid "Use search engines"
+#~ msgstr "使用搜索引擎"
+
+#~ msgid "Search for verification information"
+#~ msgstr "搜索验证信息"
+
+#~ msgid "File Settings"
+#~ msgstr "文件设置"
+
+#~ msgid "Filename:"
+#~ msgstr "文件名："
+
+#~ msgid "Use Normalized Name"
+#~ msgstr "使用标准名称"
+
+#~ msgid "Use Literal Name"
+#~ msgstr "使用字面名称"
+
+#~ msgid "Quality:"
+#~ msgstr "质量："
+
+#~ msgid "Best Quality (.mp4)"
+#~ msgstr "最佳质量(.mp4)"
+
+#~ msgid "Normal Quality (.flv)"
+#~ msgstr "一般质量(.flv)"
+
+#~ msgid ""
+#~ "Provide login info of your YouTube account in order to access restricted "
+#~ "media."
+#~ msgstr "提供您的 YouTube 登录信息，以便访问受限制的媒体资源。"
+
+#~ msgid "Login Info"
+#~ msgstr "登录信息"
+
+#~ msgid "Username:"
+#~ msgstr "用户名："
+
+#~ msgid ".netrc must have a hostname called 'youtube'."
+#~ msgstr ".netrc 文件中必须含有“youtube”的主机名。"
+
+#~ msgid "User .netrc file"
+#~ msgstr "用户的 .netrc 文件"
+
+#~ msgid "User Scripts"
+#~ msgstr "用户脚本"
+
+#~ msgid "Path"
+#~ msgstr "路径"
+
+#~ msgid "RegExp"
+#~ msgstr "正则表达式"
+
+#~ msgid "New Script...."
+#~ msgstr "新建脚本..."
+
+#~ msgid "Edit...."
+#~ msgstr "编辑..."
+
+#~ msgid "Configure...."
+#~ msgstr "配置..."
+
+#~ msgid "Regexp:"
+#~ msgstr "正则表达式："
+
+#~ msgid "Path:"
+#~ msgstr "路径："
+
+#~ msgid "Description:"
+#~ msgstr "描述："
+
+#~ msgid "Select the files you want to be downloaded."
+#~ msgstr "选择您要下载的文件。"
+
+#~ msgid "Number of simultaneous file downloads:"
+#~ msgstr "同时下载的文件数："
+
+#~ msgid "Number of mirrors per file:"
+#~ msgstr "每个文件的镜像数："
+
+#~ msgid "Change string:"
+#~ msgstr "更改字符串："
+
+#~ msgid "Mode:"
+#~ msgstr "模式："
+
+#~ msgid "Checksum type:"
+#~ msgstr "校验和类型："
+
+#~ msgid "Result:"
+#~ msgstr "结果："
+
+#~ msgid "label"
+#~ msgstr "标签"
+
+#~ msgid "Remove Tracker"
+#~ msgstr "删除 Tracker"
+
+#~ msgid "Change Tracker"
+#~ msgstr "更改 Tracker"
+
+#~ msgid "Update Trackers"
+#~ msgstr "更新 Tracker"
+
+#~ msgid "Restore Defaults"
+#~ msgstr "恢复默认"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+#~ "size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Webseed to add to the "
+#~ "torrent.</p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+#~ "\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">Note: </span>Only http webseeds are supported.</p></body></"
+#~ "html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+#~ "size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">要添加到任务的 Web 种"
+#~ "子。</p>\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+#~ "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+#~ "\"></p>\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+#~ "weight:600;\">注意：</span>仅支持 HTTP 形式的 Web 种子。</p></body></html>"
+
+#~ msgid "Add Webseed"
+#~ msgstr "添加 Web 种子"
+
+#~ msgid "Remove Webseed"
+#~ msgstr "删除 Web 种子"
+
+#~ msgid "Chunks"
+#~ msgstr "块"
+
+#~ msgid "Total:"
+#~ msgstr "总共："
+
+#~ msgid "Currently downloading:"
+#~ msgstr "正在下载："
+
+#~ msgid "Downloaded:"
+#~ msgstr "已下载："
+
+#~ msgid "Excluded:"
+#~ msgstr "已排除："
+
+#~ msgid "Left:"
+#~ msgstr "剩余："
+
+#~ msgid "Size:"
+#~ msgstr "大小："
+
+#~ msgid "Scanning data of torrent:"
+#~ msgstr "正在扫描种子的数据："
+
+#~ msgid "Number of chunks found:"
+#~ msgstr "已找到的块数："
+
+#~ msgid "Number of chunks failed:"
+#~ msgstr "失败的块数："
+
+#~ msgid "Number of chunks not downloaded:"
+#~ msgstr "未下载的块数："
+
+#~ msgid "Number of chunks downloaded:"
+#~ msgstr "已下载的块数："
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "Stats"
+#~ msgstr "状态"
+
+#~ msgid "Seeders:"
+#~ msgstr "做种者："
+
+#~ msgid "<n>"
+#~ msgstr "<n>"
+
+#~ msgid "Download speed:"
+#~ msgstr "下载速度："
+
+#~ msgid "Leechers:"
+#~ msgstr "吸血虫："
+
+#~ msgid "Upload speed:"
+#~ msgstr "上传速度："
+
+#~ msgctxt "chunks left"
+#~ msgid "Left:"
+#~ msgstr "剩余："
+
+#~ msgctxt "all chunks"
+#~ msgid "All:"
+#~ msgstr "全部："
+
+#~ msgctxt "source-file"
+#~ msgid "Source:"
+#~ msgstr "源文件："
+
+#~ msgid "Saving to:"
+#~ msgstr "保存到："
+
+#~ msgid "Upload limit per transfer:"
+#~ msgstr "每个传输项的上传速度限制："
+
+#~ msgid "No Limit"
+#~ msgstr "无限制"
+
+#~ msgid "KiB"
+#~ msgstr "KB"
+
+#~ msgid "Download limit per transfer:"
+#~ msgstr "每个传输项的下载速度限制："
+
+#~ msgid "Enable UTP protocol"
+#~ msgstr "启用 UTP 协议"
+
+#~ msgid "Folders"
+#~ msgstr "文件夹"
+
+#~ msgid "Default torrent folder:"
+#~ msgstr "默认种子文件夹："
+
+#~ msgid "Default temporary folder"
+#~ msgstr "默认临时文件夹"
+
+#~ msgid "Pre-allocate disk space"
+#~ msgstr "预分配磁盘空间"
+
+#~ msgctxt "General options."
+#~ msgid "General"
+#~ msgstr "常规"
+
+#~ msgid "Create partial checksums"
+#~ msgstr "创建部分校验和"
+
+#~ msgid "General URL:"
+#~ msgstr "常规 URL："
+
+#~ msgid ""
+#~ "Automatically create checksums for the selected types. Keep in mind that "
+#~ "this might take a while."
+#~ msgstr "自动为所选类型创建校验和，这将花费一点时间。"
+
+#~ msgid ""
+#~ "Enter URLs here if all the dropped files are on that server and in the "
+#~ "same directory. For each dropped file the URL would consist of the "
+#~ "entered part and the filename."
+#~ msgstr ""
+#~ "如果所有关联的文件都在服务器上，或在同一目录下，请在此输入相应 URL。对每个"
+#~ "关联的文件来说，此 URL 都会包含输入那部分内容及其文件名。"
+
+#~ msgid "Types of the checksums:"
+#~ msgstr "校验和类型："
+
+#~ msgid "Create checksums:"
+#~ msgstr "创建校验和："
+
+#~ msgctxt "These entries are optional."
+#~ msgid "Optional"
+#~ msgstr "可选项"
+
+#~ msgid "Optional data:"
+#~ msgstr "可选数据："
+
+#~ msgid "Enter information that all chosen files share."
+#~ msgstr "输入所有选中文件共享的信息。"
+
+#~ msgid "Required"
+#~ msgstr "必填项"
+
+#~ msgid "Used Mirrors:"
+#~ msgstr "已用镜像："
+
+#~ msgid "Recommended"
+#~ msgstr "推荐项"
+
+#~ msgid "File size (in bytes):"
+#~ msgstr "文件大小(字节)："
+
+#~ msgid "0123456789"
+#~ msgstr "0123456789"
+
+#~ msgid "Verification:"
+#~ msgstr "验证："
+
+#~ msgid "Optional"
+#~ msgstr "可选项"
+
+#~ msgid ""
+#~ "This assistant allows you to create metalinks from scratch or base them "
+#~ "on existing metalinks. A lot of the fields are optional or recommended, "
+#~ "so enter them if desired. The minimum is a save location, at least one "
+#~ "file and one URL."
+#~ msgstr ""
+#~ "此助手会帮助您从头，或基于一个已有的元链接开始创建您所需的元链接。您会看到"
+#~ "许多输入字段，有些是可选项，有些是推荐项，请按需填写。最少需要的是一个保存"
+#~ "地址、至少一个文件，以及一个 URL。"
+
+#~ msgid "Save created Metalink at:"
+#~ msgstr "将创建的元链接保存于："
+
+#~ msgid "Create new Metalink"
+#~ msgstr "新建元链接"
+
+#~ msgid "Load existing Metalink:"
+#~ msgstr "装载已有的元链接："
+
+#~ msgid "*.metalink *.meta4|Metalink file (*.metalink *.meta4)"
+#~ msgstr "*.metalink *.meta4|Metalink 文件(*.metalink *.meta4)"
+
+#~ msgid "General information:"
+#~ msgstr "常规信息："
+
+#~ msgid "Here you can enter optional general information on the metalink."
+#~ msgstr "在此输入可选的元链接常规信息。"
+
+#~ msgid "Origin:"
+#~ msgstr "来源："
+
+#~ msgid "Web URL to the metalink"
+#~ msgstr "元链接的网址"
+
+#~ msgid "Dynamic means that updated metalinks can be found at \"Origin\"."
+#~ msgstr "动态意味着更新过的元链接可在其“来源”处找到。"
+
+#~ msgid "Dynamic:"
+#~ msgstr "动态："
+
+#~ msgid "Metalink published"
+#~ msgstr "元链接发布"
+
+#~ msgid "Date and time:"
+#~ msgstr "日期和时间："
+
+#~ msgid "Timezone offset:"
+#~ msgstr "时区偏移："
+
+#~ msgid "Negative offset:"
+#~ msgstr "反向偏移："
+
+#~ msgid "Metalink updated"
+#~ msgstr "元链接更新"
+
+#~ msgid "Identity"
+#~ msgstr "身份"
+
+#~ msgid "Version:"
+#~ msgstr "版本："
+
+#~ msgid "Logo:"
+#~ msgstr "徽标："
+
+#~ msgid "URL to the logo"
+#~ msgstr "徽标的 URL"
+
+#~ msgid "The language of the file"
+#~ msgstr "文件语言"
+
+#~ msgid "Language:"
+#~ msgstr "语言："
+
+#~ msgid "Operating systems:"
+#~ msgstr "操作系统："
+
+#~ msgid "Supported OSes, separated with commas"
+#~ msgstr "支持的操作系统，用逗号隔开"
+
+#~ msgid "Copyright:"
+#~ msgstr "版权："
+
+#~ msgid "Publisher:"
+#~ msgstr "发布人："
+
+#~ msgid "Name:"
+#~ msgstr "姓名："
+
+#~ msgid "publisher"
+#~ msgstr "发布人"
+
+#~ msgid "Name of the publisher"
+#~ msgstr "发布人姓名"
+
+#~ msgid "URL to the publisher"
+#~ msgstr "发布人的 URL"
+
+#~ msgctxt "Files as in files on a server"
+#~ msgid "Files:"
+#~ msgstr "文件："
+
+#~ msgid "Add local files"
+#~ msgstr "添加本地文件"
+
+#~ msgid ""
+#~ "Add at least one file. Adding local files adds a lot of information "
+#~ "automatically."
+#~ msgstr "至少添加一个文件。加入本地文件会自动加入许多信息。"
+
+#~ msgid "Adding local files..."
+#~ msgstr "正在添加本地文件..."
+
+#~ msgid "You need to set mirrors for the entries with an icon."
+#~ msgstr "您需要为包含图标的项目设定镜像。"
+
+#~ msgid "&File with links to import:"
+#~ msgstr "要导入的含链接文件(&F)："
+
+#~ msgid "&Import Links"
+#~ msgstr "导入链接(&I)"
+
+#~ msgid "Show:"
+#~ msgstr "显示："
+
+#~ msgctxt "filter: show all file types"
+#~ msgid "&All"
+#~ msgstr "全部(&A)"
+
+#~ msgid "&Videos"
+#~ msgstr "视频(&V)"
+
+#~ msgid "Ima&ges"
+#~ msgstr "图像(&G)"
+
+#~ msgid "A&udio"
+#~ msgstr "音频(&U)"
+
+#~ msgid "A&rchives"
+#~ msgstr "归档(&R)"
+
+#~ msgid "You can use wildcards for filtering."
+#~ msgstr "您可以在过滤时使用通配符。"
+
+#~ msgid "Filter files here...."
+#~ msgstr "在此过滤文件..."
+
+#~ msgid "Contains"
+#~ msgstr "包含"
+
+#~ msgid "Does Not Contain"
+#~ msgstr "不包含"
+
+#~ msgid "Inver&t Selection"
+#~ msgstr "反向选择(&T)"
+
+#~ msgctxt "Check as in mark, not as in verify"
+#~ msgid "Chec&k Selected"
+#~ msgstr "标记所选项(&K)"
+
+#~ msgid "Show &web content"
+#~ msgstr "显示网页内容(&W)"
+
+#~ msgid "Mirror:"
+#~ msgstr "镜像："
+
+#~ msgid "Number of connections:"
+#~ msgstr "连接次数："
+
+#~ msgid "Enter a URL"
+#~ msgstr "输入一个 URL"
+
+#~ msgid "Priority:"
+#~ msgstr "优先级："
+
+#~ msgid "Optional: The priority of the mirror, 1 highest 999999 lowest."
+#~ msgstr "可选项：镜像的优先级，1 最高，999999 最低。"
+
+#~ msgid "Location:"
+#~ msgstr "地址："
+
+#~ msgid "Clear History"
+#~ msgstr "清除历史"
+
+#~ msgctxt "View modes"
+#~ msgid "View Modes"
+#~ msgstr "查看模式"
+
+#~ msgid "Select Ranges"
+#~ msgstr "选择范围"
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "Host"
+#~ msgstr "主机"
+
+#~ msgid "Filter History"
+#~ msgstr "过滤器历史"
+
+#~ msgctxt "delete selected transfer"
+#~ msgid "Delete Selected"
+#~ msgstr "删除选中任务"
+
+#~ msgid "Download"
+#~ msgstr "下载"
+
+#~ msgid "TextLabel"
+#~ msgstr "文本标签"
+
+#~ msgctxt "hash type as in md5t, sha1 etc."
+#~ msgid "Hash type:"
+#~ msgstr "散列类型："
+
+#~ msgctxt "hash as a hash of type md5, sha1 etc."
+#~ msgid "Hash:"
+#~ msgstr "散列方式："
+
+#~ msgid "Enter a hash key"
+#~ msgstr "输入散列密钥"
+
+#~ msgid "Status:"
+#~ msgstr "状态："
+
+#~ msgid "Remaining Time:"
+#~ msgstr "剩余时间："
+
+#~ msgid "Transfer Settings"
+#~ msgstr "传输设置"
+
+#~ msgid "Download Destination:"
+#~ msgstr "下载目标："
+
+#~ msgctxt "No value has been set"
+#~ msgid "Not set"
+#~ msgstr "未设置"
+
+#~ msgid " KiB"
+#~ msgstr " KiB"
+
+#~ msgid "Upload Limit:"
+#~ msgstr "上传限制："
+
+#~ msgid "Download Limit:"
+#~ msgstr "下载限制："
+
+#~ msgid "Maximum Share Ratio:"
+#~ msgstr "最大共享率："
+
+#~ msgid "Modify the mirrors used for downloading."
+#~ msgstr "修改用于下载的镜像。"
+
+#~ msgctxt "The available mirrors (servers) for downloading"
+#~ msgid "Mirrors"
+#~ msgstr "镜像"
+
+#~ msgctxt "verification of the download (e.g. by using MD5)"
+#~ msgid "Verification"
+#~ msgstr "验证"
+
+#~ msgid "PGP signature:"
+#~ msgstr "PGP 签名："
+
+#~ msgid "Key"
+#~ msgstr "密钥"
+
+#~ msgid "Issuer:"
+#~ msgstr "发行者："
+
+#~ msgid "E-Mail:"
+#~ msgstr "电子邮件："
+
+#~ msgid "Comment:"
+#~ msgstr "注解："
+
+#~ msgid "Creation:"
+#~ msgstr "创建时间："
+
+#~ msgid "Expiration:"
+#~ msgstr "过期时间："
+
+#~ msgid "Trust:"
+#~ msgstr "信任等级："
+
+#~ msgid "Fingerprint:"
+#~ msgstr "指纹："
+
+#~ msgid "Verify"
+#~ msgstr "验证"
+
+#~ msgid "Group Settings"
+#~ msgstr "分组设置"
+
+#~ msgid "Default folder:"
+#~ msgstr "默认文件夹："
+
+#~ msgid "Moves all transfers with the regular expression to this group"
+#~ msgstr "将所有符合正则表达式的传输项移至此分组"
+
+#~ msgid "Regular expression:"
+#~ msgstr "正则表达式："
+
+#~ msgid "*movies*"
+#~ msgstr "*电影*"
+
+#~ msgid "Maximum download speed:"
+#~ msgstr "最大下载速度："
+
+#~ msgid "Maximum upload speed:"
+#~ msgstr "最大上传速度："
+
+#~ msgid "Destination:"
+#~ msgstr "目标："
+
+#~ msgid "Transfer group:"
+#~ msgstr "传输分组："
+
+#~ msgid "Verify the finished download with the selected checksum."
+#~ msgstr "使用所选校验和验证已完成的下载。"
+
+#~ msgid "&Verify"
+#~ msgstr "验证(&V)"
+
+#~ msgid "Verifying:"
+#~ msgstr "正在验证："
+
+#~ msgid "&File"
+#~ msgstr "文件(&F)"
+
+#~ msgid "&Downloads"
+#~ msgstr "下载(&D)"
+
+#~ msgid "&Settings"
+#~ msgstr "设置(&S)"
+
+#~ msgid "&Help"
+#~ msgstr "帮助(&H)"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "主工具栏"
+
+#~ msgid "Sets to show the splashscreen while KGet is loading"
+#~ msgstr "设置此项可让 KGet 加载时显示启动屏幕"
+
+#~ msgid "The width of the columns in the history view"
+#~ msgstr "历史视图的列宽"
+
+#~ msgid "List of the available search engines"
+#~ msgstr "可用搜索引擎列表"
+
+#~ msgid "List of the available search engine URLs"
+#~ msgstr "可用搜索引擎 URL 的列表"
+
+#~ msgid "List of the Regexp to match input URL"
+#~ msgstr "符合输入 URL 的表达式列表"
+
+#~ msgid "List of descriptions for user scripts"
+#~ msgstr "用户脚本描述的列表"
+
+#~ msgid "List of whether the script is enabled"
+#~ msgstr "脚本启用状态列表"
+
+#~ msgid "The specified destination directory is not valid."
+#~ msgstr "指定的目标目录无效。"
+
+#~ msgid "The specified source url is not valid."
+#~ msgstr "指定的来源 url 无效。"
+
+#~ msgid "There are no links in the active frame of the current HTML page."
+#~ msgstr "在当前 HTML 页面的框架中没有链接。"
+
+#~ msgid "Form"
+#~ msgstr "表单"
+
+#~ msgid "An error occurred...."
+#~ msgstr "发生错误..."
+
+#~ msgid "Remove Tag"
+#~ msgstr "删除标签"
+
+#~ msgid "Add Tag"
+#~ msgstr "添加标签"
+
+#~ msgid "Tag Settings for the groups"
+#~ msgstr "此组的标签设置"
+
+#~ msgid "Tag Settings"
+#~ msgstr "标签设置"
+
+#~ msgid "Available tags:"
+#~ msgstr "可用标签："
+
+#~ msgid "Used tags:"
+#~ msgstr "已用标签："
+
+#~ msgid "Enter a new Tag"
+#~ msgstr "输入新标签"
+
+#~ msgid "Enter a new tag"
+#~ msgstr "输入新标签"
+
+#~ msgid "Modify Tags..."
+#~ msgstr "修改标签..."
+
+#~ msgid "Unable to continue: KGet cannot download using this protocol."
+#~ msgstr "无法继续：KGet 无法使用此协议下载。"
+
+#~ msgid "The width of the columns in the main view"
+#~ msgstr "主视图的列宽"
+
+#~ msgid "OK"
+#~ msgstr "确定"
+
+#~ msgid "Announcing"
+#~ msgstr "正在发布"
+
+#~ msgid "Error: %1"
+#~ msgstr "错误：%1"
+
+#~ msgid "Unknown client"
+#~ msgstr "未知客户端"
+
+#~ msgid "1 day "
+#~ msgid_plural "%1 days "
+#~ msgstr[0] "%1 天 "
+
+#~ msgid "Cannot open log file %1 : %2"
+#~ msgstr "无法打开日志文件 %1：%2"
+
+#~ msgid "Cannot write to %1 : %2"
+#~ msgstr "无法写入 %1：%2"
+
+#~ msgid "Cannot read from %1"
+#~ msgstr "无法读取 %1"
+
+#~ msgid "Cannot create directory %1"
+#~ msgstr "无法创建目录 %1"
+
+#~ msgid "Cannot symlink %1 to %2: %3"
+#~ msgstr "无法链接 %1 到 %2：%3"
+
+#~ msgid "Cannot move %1 to %2: %3"
+#~ msgstr "无法移动 %1 到 %2：%3"
+
+#~ msgid "Cannot copy %1 to %2: %3"
+#~ msgstr "无法复制 %1 到 %2：%3"
+
+#~ msgid "Cannot delete %1: %2"
+#~ msgstr "无法删除 %1：%2"
+
+#~ msgid "Cannot create %1: %2"
+#~ msgstr "无法创建 %1：%2"
+
+#~ msgid "Cannot calculate the filesize of %1: %2"
+#~ msgstr "无法计算 %1 的文件大小：%2"
+
+#~ msgid "Cannot calculate the filesize : %1"
+#~ msgstr "无法计算文件大小：%1"
+
+#~ msgid "Cannot open %1 : %2"
+#~ msgstr "无法打开 %1：%2"
+
+#~ msgid "Cannot expand file: %1"
+#~ msgstr "无法扩展文件：%1"
+
+#~ msgid "Cannot seek in file : %1"
+#~ msgstr "无法在文件中检索：%1"
+
+#~ msgid "General"
+#~ msgstr "常规"
+
+#~ msgid "Connections"
+#~ msgstr "连接"
+
+#~ msgid "Tracker"
+#~ msgstr "Tracker"
+
+#~ msgid "Disk Input/Output"
+#~ msgstr "磁盘输入/输出"
+
+#~ msgid "Not connected"
+#~ msgstr "未连接"
+
+#~ msgid "Not in use"
+#~ msgstr "未使用"
+
+#~ msgid "Connection closed"
+#~ msgstr "连接已关闭"
+
+#~ msgid "Resolving proxy %1:%2"
+#~ msgstr "正在解析代理服务器 %1:%2"
+
+#~ msgid "Resolving hostname %1"
+#~ msgstr "正在解析主机名 %1"
+
+#~ msgid "Error: request failed: %1"
+#~ msgstr "错误：请求失败：%1"
+
+#~ msgid "Connected"
+#~ msgstr "已连接"
+
+#~ msgid "Error: Failed to connect to webseed"
+#~ msgstr "错误：连接到 Web 种子失败"
+
+#~ msgid "Connecting"
+#~ msgstr "连接中"
+
+#~ msgid "Failed to connect to webseed"
+#~ msgstr "连接到 Web 种子失败"
+
+#~ msgid "Failed to resolve hostname of webseed"
+#~ msgstr "无法解析 Web 种子的主机名"
+
+#~ msgid "Error: failed to connect, server not responding"
+#~ msgstr "错误：连接失败，服务器没有响应"
+
+#~ msgid "Error: request timed out"
+#~ msgstr "错误：请求超时"
+
+#~ msgid "Redirected without a new location."
+#~ msgstr "没有重定向到新地址。"
+
+#~ msgid "1 peer"
+#~ msgid_plural "%1 peers"
+#~ msgstr[0] "%1 个对等方"
+
+#~ msgid "Illegal token: %1"
+#~ msgstr "非法令牌：%1"
+
+#~ msgid "Decode error"
+#~ msgstr "解码错误"
+
+#~ msgid "Unexpected end of input"
+#~ msgstr "不可预料的输入结尾"
+
+#~ msgid "Cannot convert %1 to an int"
+#~ msgstr "无法转换 %1 为整数"
+
+#~ msgid "Torrent is incomplete."
+#~ msgstr "种子不完整。"
+
+#~ msgid "Failed to open %1 : %2"
+#~ msgstr "打开 %1 失败：%2"
+
+#~ msgid "Failed to create %1 : %2"
+#~ msgstr "创建 %1 失败：%2"
+
+#~ msgid "Cannot open index file %1 : %2"
+#~ msgstr "无法打开索引文件 %1：%2"
+
+#~ msgid "Cannot create file %1 : %2"
+#~ msgstr "无法创建文件 %1：%2"
+
+#~ msgid "Failed to write first chunk to DND file : %1"
+#~ msgstr "将第一个数据块写入 DND 文件失败：%1"
+
+#~ msgid "Failed to write last chunk to DND file : %1"
+#~ msgstr "将最后一个数据块写入 DND 文件失败：%1"
+
+#~ msgid "Cannot open %1 for writing : readonly filesystem"
+#~ msgstr "无法以写模式打开 %1：只读文件系统"
+
+#~ msgid "Cannot expand file %1 : %2"
+#~ msgstr "无法扩展文件 %1：%2"
+
+#~ msgid "Error : Reading past the end of the file %1"
+#~ msgstr "错误：读取范围超出文件 %1 的末尾"
+
+#~ msgid "Failed to seek file %1 : %2"
+#~ msgstr "检索文件 %1 失败：%2"
+
+#~ msgid "Error reading from %1"
+#~ msgstr "从 %1 读取时出错"
+
+#~ msgid "Failed to write to file %1 : %2"
+#~ msgstr "写入文件 %1 失败：%2"
+
+#~ msgid "Cannot preallocate diskspace : %1"
+#~ msgstr "无法预分配磁盘空间：%1"
+
+#~ msgid "Cannot open file %1 : %2"
+#~ msgstr "无法打开文件 %1：%2"
+
+#~ msgid "Corrupted torrent."
+#~ msgstr "种子损坏。"
+
+#~ msgid " Unable to open torrent file %1 : %2"
+#~ msgstr "无法打开种子文件 %1：%2"
+
+#~ msgid "Parse Error"
+#~ msgstr "解析错误"
+
+#~ msgid ""
+#~ "An error occurred while loading the torrent <b>%1</b>:<br/><b>%2</b><br/"
+#~ ">The torrent is probably corrupt or is not a valid torrent file."
+#~ msgstr ""
+#~ "装载种子 <b>%1</b> 时出错：<br/><b>%2</b><br/>这个文件可能已损坏或根本不是"
+#~ "有效的种子文件。"
+
+#~ msgid ""
+#~ "An error occurred while loading the torrent:<br/><b>%1</b><br/>The "
+#~ "torrent is probably corrupt or is not a valid torrent file."
+#~ msgstr ""
+#~ "装载种子时出错：<br/><b>%1</b><br/>这个文件可能已损坏或根本不是有效的种子"
+#~ "文件。"
+
+#~ msgid "Unable to create %1 : %2"
+#~ msgstr "无法创建 %1：%2"
+
+#~ msgid ""
+#~ "You are already downloading this torrent %1, the list of trackers of both "
+#~ "torrents has been merged."
+#~ msgstr "您已经下载过种子 %1，两个种子列表中的 trackers 服务器将被合并。"
+
+#~ msgid "You are already downloading the torrent %1"
+#~ msgstr "您已经下载过种子 %1"
+
+#~ msgid "Not started"
+#~ msgstr "未启动"
+
+#~ msgid "Seeding completed"
+#~ msgstr "做种完成"
+
+#~ msgctxt "Status of a torrent file"
+#~ msgid "Seeding"
+#~ msgstr "做种中"
+
+#~ msgid "Downloading"
+#~ msgstr "下载中"
+
+#~ msgid "Stopped"
+#~ msgstr "已停止"
+
+#~ msgid "Allocating diskspace"
+#~ msgstr "正在分配磁盘空间"
+
+#~ msgid "Queued for seeding"
+#~ msgstr "排队做种"
+
+#~ msgid "Queued for downloading"
+#~ msgstr "排队下载"
+
+#~ msgid "Checking data"
+#~ msgstr "正在检查数据"
+
+#~ msgid "Stopped. No space left on device."
+#~ msgstr "已停止，设备上无空闲空间。"
+
+#~ msgid "Cannot open file %1: %2"
+#~ msgstr "无法打开文件 %1：%2"
+
+#~ msgid "Cannot create index file: %1"
+#~ msgstr "无法创建索引文件：%1"
+
+#~ msgid "Redirect without a redirect location"
+#~ msgstr "没有重定向的目标地址"
+
+#~ msgid "Timeout contacting tracker %1"
+#~ msgstr "连接 tracker 服务器 %1 超时"
+
+#~ msgid "Unable to resolve hostname %1"
+#~ msgstr "无法解析主机名 %1"
+
+#~ msgid "Cannot bind to udp port %1 or the 10 following ports."
+#~ msgstr "无法绑定到 UDP 端口 %1 及其接下来的 10 个端口。"
+
+#~ msgid "Invalid response from tracker"
+#~ msgstr "Tracker 服务器响应无效"
+
+#~ msgid "Invalid data from tracker"
+#~ msgstr "Tracker 服务器返回的数据库无效"
+
+#~ msgid "Invalid tracker URL"
+#~ msgstr "无效的 tracker 服务器地址"
+
+#~ msgid "Cannot open file : %1 : %2"
+#~ msgstr "无法打开文件：%1：%2"
+
+#~ msgid ""
+#~ "Another group with this name already exists. Please select a different "
+#~ "name."
+#~ msgstr "同名的组已经存在。请另选一个名称。"
+
+#~ msgid "Group Name Already in Use"
+#~ msgstr "组名已被使用"
+
+#~ msgid "Add"
+#~ msgstr "添加"
+
+#~ msgid "Delete"
+#~ msgstr "删除"
+
+#~ msgid "Configure..."
+#~ msgstr "配置..."
+
+#~ msgid "Details for: %1"
+#~ msgstr "%1 的细节"
+
+#~ msgid "All downloads"
+#~ msgstr "所有下载"
+
+#~ msgid "Finished downloads"
+#~ msgstr "已完成的下载"
+
+#~ msgid "Transfers:"
+#~ msgstr "传输："
+
+#~ msgid "Downloads"
+#~ msgstr "下载"
+
+#~ msgid "Transfer details:"
+#~ msgstr "传输细节："
+
+#~ msgid "Transfer List"
+#~ msgstr "传输列表"
+
+#~ msgid "Expandable transfer details instead of separate tabs"
+#~ msgstr "启用可扩展传输细节界面取代独立标签"
+
+#~ msgid "Threads"
+#~ msgstr "线程"
+
+#~ msgid "Number of threads:"
+#~ msgstr "线程数："
+
+#~ msgid "Preference:"
+#~ msgstr "优先级："
+
+#~ msgid "License:"
+#~ msgstr "许可证："
+
+#~ msgid "Name of the license"
+#~ msgstr "授权协议名称"
+
+#~ msgid "URL to the license"
+#~ msgstr "授权协议的 URL"
+
+#~ msgid ""
+#~ "Destination file \n"
+#~ "%1\n"
+#~ "already exists.\n"
+#~ "Do you want to overwrite it?"
+#~ msgstr ""
+#~ "目的文件\n"
+#~ "%1\n"
+#~ "已存在。\n"
+#~ "您要覆盖它吗？"
+
+#~ msgid "Overwrite destination"
+#~ msgstr "覆盖目标"
+
+#~ msgctxt "The transfer is delayed"
+#~ msgid "Delayed"
+#~ msgstr "已推迟"
+
+#~ msgid "Cannot remove torrent default tracker."
+#~ msgstr "无法删除种子的默认 tracker。"
+
+#~ msgid "You cannot add trackers to a private torrent"
+#~ msgstr "您无法向私有种子添加 tracker 服务器"
+
+#~ msgid "Cannot migrate %1 : %2"
+#~ msgstr "无法迁移 %1：%2"
+
+#~ msgid ""
+#~ "The torrent %1 was started with a previous version of KTorrent. To make "
+#~ "sure this torrent still works with this version of KTorrent, we will "
+#~ "migrate this torrent. You will be asked for a location to save the "
+#~ "torrent to. If you press cancel, we will select your home directory."
+#~ msgstr ""
+#~ "%1 种子任务是由上一个版本的 KTorrent 启动的，为确保它仍然能在此版本的 "
+#~ "KTorrent 使用，我们将会将这个种子任务迁移到最新版本形式，您将会被询问种子"
+#~ "的保存位置。如果您点击取消，程序自动选择您的主目录。"
+
+#~ msgid "Select Folder to Save To"
+#~ msgstr "选择保存到的文件夹"
+
+#~ msgid "Queued"
+#~ msgstr "已排队"
+
+#~ msgid "Current Tracker"
+#~ msgstr "当前 Tracker"
+
+#~ msgid "Manual Announce"
+#~ msgstr "手动发布"
+
+#~ msgid "Scrape"
+#~ msgstr "Scrape 协议"
+
+#~ msgid "Available Trackers"
+#~ msgstr "可用 Tracker"
+
+#, fuzzy
+#~| msgid "Enter a new Tag"
+#~ msgid "Enter an url"
+#~ msgstr "输入新标签"
+
+#~ msgid "Urls list of the available search engines"
+#~ msgstr "可用搜索引擎的 URL 列表"
+
+#~ msgctxt "delete selected transfer item"
+#~ msgid "Delete Selected"
+#~ msgstr "删除选中任务"
+
+#, fuzzy
+#~| msgid "Clear History"
+#~ msgid "We are sorry"
+#~ msgstr "清除历史"
+
+#~ msgid "Rename transfer"
+#~ msgstr "重命名传输"
+
+#~ msgid "Download URL again?"
+#~ msgstr "再次下载吗？"
+
+#, fuzzy
+#~| msgid "File"
+#~ msgctxt "file in a filsystem"
+#~ msgid "File"
+#~ msgstr "文件"
+
+#~ msgid "Are you sure that you want to remove all selected groups?"
+#~ msgstr "您确定要删除所有选中的分组吗？"
+
+#~ msgid "Name"
+#~ msgstr "名称"
+
+#~ msgid "Remaining Time"
+#~ msgstr "剩余时间"
+
+#~ msgid "KGet - Download Manager"
+#~ msgstr "KGet - 下载管理器"
+
+#~ msgctxt "@label transfer source"
+#~ msgid "Source:"
+#~ msgstr "来源："
+
+#~ msgid "Minimal segment size:"
+#~ msgstr "最小分块大小："
+
+#~ msgid "kBi"
+#~ msgstr "千字节"
+
+#~ msgid "Save data every:"
+#~ msgstr "数据保存间隔："
+
+#~ msgid ""
+#~ "You will lose all data in these files, are you sure you want to do this?"
+#~ msgstr "您将丢失这些文件的全部数据，您确认要这样做吗？"
+
+#~ msgid "Maintainer, Core Developer"
+#~ msgstr "维护者及核心开发者"
+
+#~ msgid "Cannot expand file : %1"
+#~ msgstr "无法扩展文件：%1"
+
+#~ msgid "filterButtonGroup"
+#~ msgstr "filterButtonGroup"

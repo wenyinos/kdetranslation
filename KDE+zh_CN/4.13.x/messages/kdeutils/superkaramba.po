@@ -1,0 +1,307 @@
+# translation of superkaramba.po to 简体中文
+#
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# Lie_Ex <lilith.ex@gmail.com>, 2007.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: superkaramba\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-19 05:49+0200\n"
+"PO-Revision-Date: 2008-09-15 10:02+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: karamba.cpp:1457
+msgid "Update"
+msgstr "更新"
+
+#: karamba.cpp:1460 karamba.cpp:1463
+msgid "&Locked Position"
+msgstr "切换位置(&L)"
+
+#: karamba.cpp:1470
+msgid "Configure &Theme"
+msgstr "配置主题(&T)"
+
+#: karamba.cpp:1481
+msgid "To Des&ktop"
+msgstr "到桌面(&K)"
+
+#: karamba.cpp:1484
+msgid "&All Desktops"
+msgstr "全部桌面(&A)"
+
+#: karamba.cpp:1490
+msgid "Desktop"
+msgstr "桌面"
+
+#: karamba.cpp:1498
+msgid "&Reload Theme"
+msgstr "重新装入主题(&R)"
+
+#: karamba.cpp:1504
+msgid "&Close This Theme"
+msgstr "关闭此主题(&C)"
+
+#: karambaapp.cpp:148
+msgid ""
+"Please enable the desktop effects to get full transparency support in "
+"SuperKaramba."
+msgstr "要在 SuperKaramba 中获得完整的透明支持，请启用桌面特效。"
+
+#: karambaapp.cpp:168 main.cpp:84
+msgid "SuperKaramba"
+msgstr "SuperKaramba"
+
+#: karambaapp.cpp:175
+#, kde-format
+msgid "1 Running Theme:"
+msgid_plural "%1 Running Themes:"
+msgstr[0] "%1 个主题运行中："
+
+#: karambaapp.cpp:196
+msgid ""
+"<qt>Hiding the system tray icon will keep SuperKaramba running in "
+"background. To show it again use the theme menu.</qt>"
+msgstr ""
+"<qt>隐藏系统托盘将使得 SuperKaramba 在后台运行。要再次显示该图标，请使用主题"
+"菜单。</qt>"
+
+#: karambaapp.cpp:198
+msgid "Hiding System Tray Icon"
+msgstr "隐藏系统托盘图标"
+
+#: karambaapp.cpp:220
+msgid "Show System Tray Icon"
+msgstr "显示系统托盘图标"
+
+#: karambaapp.cpp:225
+msgid "&Manage Themes..."
+msgstr "管理主题(&M)..."
+
+#: karambaapp.cpp:229
+msgid "&Quit SuperKaramba"
+msgstr "退出 SuperKaramba(&Q)"
+
+#: karambaapp.cpp:264
+msgid "Hide System Tray Icon"
+msgstr "隐藏系统托盘图标"
+
+#: karambainterface.cpp:107
+msgid ""
+"SuperKaramba cannot continue to run this theme.One or more of the required "
+"components of the Kross scripting architecture is not installed. Please "
+"consult this theme's documentation and install the necessary Kross "
+"components."
+msgstr ""
+"SuperKaramba 无法继续运行此主题，因为至少有一个必需的 Kross 脚本架构组件尚未"
+"安装。请查阅此主题的文档并安装所需的 Kross 组件。"
+
+#: karambainterface.cpp:110
+msgid "Please install additional Kross components"
+msgstr "请安装附加 Kross 组件"
+
+#: main.cpp:42
+msgid "A KDE Eye-candy Application"
+msgstr "KDE 养眼应用程序"
+
+#: main.cpp:87
+msgid "(c) 2003-2007 The SuperKaramba developers"
+msgstr "(c) 2003-2007 SuperKaramba 开发组"
+
+#: main.cpp:89
+msgid "Adam Geitgey"
+msgstr "Adam Geitgey"
+
+#: main.cpp:90
+msgid "Hans Karlsson"
+msgstr "Hans Karlsson"
+
+#: main.cpp:91
+msgid "Ryan Nickell"
+msgstr "Ryan Nickell"
+
+#: main.cpp:92
+msgid "Petri Damstén"
+msgstr "Petri Damstén"
+
+#: main.cpp:93
+msgid "Alexander Wiedenbruch"
+msgstr "Alexander Wiedenbruch"
+
+#: main.cpp:94
+msgid "Luke Kenneth Casson Leighton"
+msgstr "Luke Kenneth Casson Leighton"
+
+#: main.cpp:95
+msgid "Sebastian Sauer"
+msgstr "Sebastian Sauer"
+
+#: main.cpp:95
+msgid "Work on Kross, tutorials and examples"
+msgstr "Kross 相关工作，教程与范例设计"
+
+#: main.cpp:102
+msgid "Use the original python bindings as scripting backend. Off by default."
+msgstr "使用原始 python 绑定作为脚本后端，默认关闭。"
+
+#: main.cpp:104
+msgid "A required argument 'file'"
+msgstr "必需的参数“文件”"
+
+#. i18n: ectx: label, entry (ShowSysTray), group (general)
+#: superkaramba.kcfg:7
+msgid "Show system tray icon."
+msgstr "显示系统托盘图标。"
+
+#. i18n: ectx: label, entry (UserAddedThemes), group (themes)
+#: superkaramba.kcfg:13
+msgid "Themes that user added to theme list."
+msgstr "用户添加到主题列表中的主题。"
+
+#. i18n: ectx: Menu (custom)
+#: superkarambaui.rc:4
+msgid "C&ustom"
+msgstr "自定义(&U)"
+
+#: taskmanager.cpp:742
+msgid "modified"
+msgstr "已修改"
+
+#: themefile.cpp:279
+#, kde-format
+msgid ""
+"You are about to install and run %1 SuperKaramba theme. Since themes can "
+"contain executable code you should only install themes from sources that you "
+"trust. Continue?"
+msgstr ""
+"您即将安装并运行 %1 SuperKaramba 主题。由于主题可能包含可执行代码，您应该只安"
+"装您信任的主题。继续吗？"
+
+#: themefile.cpp:283
+msgid "Executable Code Warning"
+msgstr "可执行代码警告"
+
+#: themefile.cpp:284
+msgid "Install"
+msgstr "安装"
+
+#: themefile.cpp:295
+#, kde-format
+msgid "%1 already exists. Do you want to overwrite it?"
+msgstr "%1 已经存在。您是否想要覆盖？"
+
+#: themefile.cpp:296
+msgid "File Exists"
+msgstr "文件已存在"
+
+#: themefile.cpp:297
+msgid "Overwrite"
+msgstr "覆盖"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, ThemesLayout)
+#: themes_layout.ui:19
+msgid "SuperKaramba Themes"
+msgstr "SuperKaramba 主题"
+
+#. i18n: ectx: property (text), widget (QLabel, labelSearch)
+#: themes_layout.ui:39
+msgid "&Search:"
+msgstr "搜索(&S)："
+
+#. i18n: ectx: property (text), widget (QLabel, labelShow)
+#: themes_layout.ui:52
+msgid "S&how:"
+msgstr "显示(&H)："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboShow)
+#: themes_layout.ui:63
+msgid "All"
+msgstr "全部"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboShow)
+#: themes_layout.ui:68
+msgid "Running"
+msgstr "运行中"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonAddToDesktop)
+#: themes_layout.ui:123
+msgid "&Add to Desktop"
+msgstr "添加到桌面(&A)"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonClose)
+#: themes_layout.ui:139
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#: themesdlg.cpp:113
+msgid "Get New Stuff"
+msgstr "获得百宝箱"
+
+#: themesdlg.cpp:114
+msgid "Download new themes."
+msgstr "下载新主题。"
+
+#: themesdlg.cpp:116
+msgid "New Stuff..."
+msgstr "新建宝物..."
+
+#: themesdlg.cpp:126
+msgid "Open Local Theme"
+msgstr "打开本地主题"
+
+#: themesdlg.cpp:127
+msgid "Add local theme to the list."
+msgstr "将本地主题添加到列表。"
+
+#: themesdlg.cpp:129
+msgctxt "Open theme button"
+msgid "Open..."
+msgstr "打开..."
+
+#: themesdlg.cpp:147 themesdlg.cpp:159 themesdlg.cpp:337
+msgid "Uninstall"
+msgstr "卸载"
+
+#: themesdlg.cpp:193
+msgid "*.theme *.skz|Themes"
+msgstr "*.theme *.skz|主题"
+
+#: themesdlg.cpp:194
+msgid "Open Themes"
+msgstr "打开主题"
+
+#: themewidget.cpp:78
+#, kde-format
+msgid "<p align=\"center\">%1 running</p>"
+msgstr "<p align=\"center\">%1 个运行中</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, running)
+#: themewidget_layout.ui:53
+msgid "<p align=\"center\">1 running</p>"
+msgstr "<p align=\"center\">1 个运行中</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, themeName)
+#: themewidget_layout.ui:83
+msgid "Header"
+msgstr "标题"
+
+#. i18n: ectx: property (text), widget (QLabel, description)
+#: themewidget_layout.ui:98
+msgid "Description"
+msgstr "描述"

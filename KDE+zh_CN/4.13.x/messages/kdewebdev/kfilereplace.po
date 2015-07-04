@@ -1,0 +1,1160 @@
+# translation of kfilereplace.po to 简体中文
+# Copyright (C) 2009 Free Software Foundation, Inc.
+#
+# Dick Zhang <netwind2003@263.net>, 2003, 2004.
+# Revised by Funda Wang <fundawang@linux.net.cn>, 2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kfilereplace\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 05:27+0200\n"
+"PO-Revision-Date: 2009-06-04 16:528+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: configurationclasses.cpp:168
+#, kde-format
+msgid " Line:%3,Col:%4 - \"%1\" -> \"%2\""
+msgstr "行：%3，列：%4 -“%1”->“%2”"
+
+#. i18n: ectx: property (caption), widget (QDialog)
+#: kaddstringdlgs.ui:16
+msgid "Insert Searching/Replacing Strings"
+msgstr "插入搜索/替换字符串"
+
+#. i18n: ectx: property (title), widget (QButtonGroup)
+#: kaddstringdlgs.ui:38
+msgid "Choose String Adding Mode"
+msgstr "选择字符串添加模式"
+
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: kaddstringdlgs.ui:52
+msgid "Search and replace mode"
+msgstr "搜索和替换模式"
+
+#. i18n: ectx: property (text), widget (QRadioButton)
+#: kaddstringdlgs.ui:63
+msgid "Search only mode"
+msgstr "只搜索模式"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: kaddstringdlgs.ui:106
+msgid "Search for:"
+msgstr "搜索："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: kaddstringdlgs.ui:135
+msgid "Replace with:"
+msgstr "替换为："
+
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kaddstringdlgs.ui:270 kaddstringdlgs.ui:311 kfilereplaceviewwdg.ui:306
+#: kfilereplaceviewwdg.ui:361
+msgid "Search For"
+msgstr "搜索"
+
+#. i18n: ectx: property (text), widget (QListView)
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kaddstringdlgs.ui:322 kfilereplaceviewwdg.ui:317
+msgid "Replace With"
+msgstr "替换为"
+
+#. i18n: ectx: Menu (help)
+#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: ectx: property (text), widget (KPushButton)
+#: kaddstringdlgs.ui:365 kfilereplacepartui.rc:47 knewprojectdlgs.ui:64
+#: koptionsdlgs.ui:271
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: property (text), widget (QPushButton)
+#: kaddstringdlgs.ui:398 koptionsdlgs.ui:304
+msgid "&OK"
+msgstr "确定(&O)"
+
+#. i18n: ectx: property (text), widget (QPushButton)
+#. i18n: ectx: property (text), widget (KPushButton)
+#: kaddstringdlgs.ui:406 knewprojectdlgs.ui:128 koptionsdlgs.ui:312
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#: kfilereplace.cpp:51
+msgid "Could not load the KFileReplace part."
+msgstr "无法装入 KFileReplace 部件。"
+
+#: kfilereplace.cpp:58
+msgid "Could not find the KFileReplace part."
+msgstr "找不到 KFileReplace 部件。"
+
+#: kfilereplacelib.cpp:95
+#, kde-format
+msgid "1 byte"
+msgid_plural "%1 bytes"
+msgstr[0] "%1 字节"
+
+#: kfilereplacelib.cpp:122
+#, kde-format
+msgid ""
+"<qt>Cannot open the file <b>%1</b> and load the string list. This file seems "
+"not to be a valid old kfr file or it is broken.</qt>"
+msgstr ""
+"<qt>无法打开文件 <b>%1</b> 并载入字符串列表。此文件似乎不是有效的旧 kfr 文"
+"件，或者该文件已经损坏。</qt>"
+
+#: kfilereplacelib.cpp:140 kfilereplacelib.cpp:154 kfilereplacelib.cpp:160
+msgid "Cannot read data."
+msgstr "无法读取数据。"
+
+#: kfilereplacelib.cpp:147
+msgid "Out of memory."
+msgstr "内存溢出。"
+
+#: kfilereplacepart.cpp:110
+msgid "Ready."
+msgstr "就绪。"
+
+#: kfilereplacepart.cpp:159
+msgid "Search completed."
+msgstr "搜索已完成。"
+
+#: kfilereplacepart.cpp:172
+#, kde-format
+msgid ""
+"<qt>You have selected <b>%1</b> as the encoding of the files.<br />Selecting "
+"the correct encoding is very important as if you have files that have some "
+"other encoding than the selected one, after a replace you may damage those "
+"files.<br /><br />In case you do not know the encoding of your files, select "
+"<i>utf8</i> and <b>enable</b> the creation of backup files. This setting "
+"will autodetect <i>utf8</i> and <i>utf16</i> files, but the changed files "
+"will be converted to <i>utf8</i>.</qt>"
+msgstr ""
+"<qt>您为文件选择了 <b>%1</b> 编码。<br />选择正确的编码十分重要，如果您的文件"
+"与所选的编码不符的话，进行替换时您的文件将可能被破坏。<br /><br />如果您不知"
+"道您文件的编码，请选择 <i>utf8</i> 并<b>启用</b>创建备份文件。此设置将会自动"
+"检测 <i>utf8</i> 和 <i>utf16</i> 文件，但是更改后的文件将被转换为 <i>utf8</"
+"i>。</qt>"
+
+#: kfilereplacepart.cpp:172
+msgid "File Encoding Warning"
+msgstr "文件编码警告"
+
+#: kfilereplacepart.cpp:181
+msgid "Replacing files (simulation)..."
+msgstr "正在替换文件(模拟)..."
+
+#: kfilereplacepart.cpp:182
+msgid "Replaced strings (simulation)"
+msgstr "替换字符串(模拟)"
+
+#: kfilereplacepart.cpp:186
+msgid "Replacing files..."
+msgstr "正在替换文件..."
+
+#: kfilereplacepart.cpp:187
+msgid "Replaced strings"
+msgstr "替换的字符串"
+
+#: kfilereplacepart.cpp:241
+msgid "Stopping..."
+msgstr "正在停止..."
+
+#: kfilereplacepart.cpp:255
+msgid "There are no results to save: the result list is empty."
+msgstr "没有结果可以保存：结果为空。"
+
+#: kfilereplacepart.cpp:259
+msgid "Files"
+msgstr "文件"
+
+#: kfilereplacepart.cpp:259
+msgid "Save Report"
+msgstr "保存结果"
+
+#: kfilereplacepart.cpp:269
+#, kde-format
+msgid "<qt>A folder or a file named <b>%1</b> already exists.</qt>"
+msgstr "<qt>名为 <b>%1</b> 的文件夹或文件已经存在。</qt>"
+
+#: kfilereplacepart.cpp:277
+#, kde-format
+msgid "<qt>Cannot create the <b>%1</b> folder.</qt>"
+msgstr "<qt>无法创建 <b>%1</b> 文件夹。</qt>"
+
+#: kfilereplacepart.cpp:356
+msgid "KFileReplace strings"
+msgstr "KFileReplace 字符串"
+
+#: kfilereplacepart.cpp:356 kfilereplaceview.cpp:435
+msgid "All Files"
+msgstr "全部文件"
+
+#: kfilereplacepart.cpp:357
+msgid "Load Strings From File"
+msgstr "从文件载入字符串"
+
+#: kfilereplacepart.cpp:390
+msgid "Cannot open folders."
+msgstr "无法打开文件夹。"
+
+#: kfilereplacepart.cpp:523
+msgid "KFileReplacePart"
+msgstr "KFileReplacePart"
+
+#: kfilereplacepart.cpp:525
+msgid "Batch search and replace tool."
+msgstr "批量搜索替换工具。"
+
+#: kfilereplacepart.cpp:527
+#, fuzzy
+#| msgid ""
+#| "(C) 1999-2002 Fran�is Dupoux\n"
+#| "(C) 2003-2004 Andras Mantia\n"
+#| "(C) 2004 Emiliano Gulmini"
+msgid ""
+"(C) 1999-2002 François Dupoux\n"
+"(C) 2003-2004 Andras Mantia\n"
+"(C) 2004 Emiliano Gulmini"
+msgstr ""
+"(C) 1999-2002 Fran�is Dupoux\n"
+"(C) 2003-2004 Andras Mantia\n"
+"(C) 2004 Emiliano Gulmini"
+
+#: kfilereplacepart.cpp:527 main.cpp:32
+msgid "Part of the KDEWebDev module."
+msgstr "KDEWebDev 模块的部件。"
+
+#: kfilereplacepart.cpp:528 main.cpp:37
+#, fuzzy
+#| msgid "Francois Dupou"
+msgid "François Dupoux"
+msgstr "Francois Dupou"
+
+#: kfilereplacepart.cpp:529 main.cpp:38
+msgid "Original author of the KFileReplace tool"
+msgstr "KFileReplace 工具的最初作者"
+
+#: kfilereplacepart.cpp:531 main.cpp:36
+msgid "Emiliano Gulmini"
+msgstr "Emiliano Gulmini"
+
+#: kfilereplacepart.cpp:532 main.cpp:36
+msgid "Current maintainer, code cleaner and rewriter"
+msgstr "当前维护者，代码清理和重写"
+
+#: kfilereplacepart.cpp:534 main.cpp:35
+msgid "Andras Mantia"
+msgstr "Andras Mantia"
+
+#: kfilereplacepart.cpp:535
+msgid "Co-maintainer, KPart creator"
+msgstr "联合维护者，KPart 创建者"
+
+#: kfilereplacepart.cpp:537
+msgid "Heiko Goller"
+msgstr "Heiko Goller"
+
+#: kfilereplacepart.cpp:538
+msgid "Original german translator"
+msgstr "原德语翻译者"
+
+#: kfilereplacepart.cpp:548
+msgid "Sorry, currently the KFileReplace part works only for local files."
+msgstr "抱歉，KFileReplace 部件只能在本地文件上工作。"
+
+#: kfilereplacepart.cpp:548
+msgid "Non Local File"
+msgstr "非本地文件"
+
+#: kfilereplacepart.cpp:582
+msgid "Customize Search/Replace Session..."
+msgstr "自定义搜索/替换会话..."
+
+#: kfilereplacepart.cpp:585
+msgid "&Search"
+msgstr "搜索(&S)"
+
+#: kfilereplacepart.cpp:588
+msgid "S&imulate"
+msgstr "模拟(&I)"
+
+#: kfilereplacepart.cpp:591
+msgid "&Replace"
+msgstr "替换(&R)"
+
+#: kfilereplacepart.cpp:594
+msgid "Sto&p"
+msgstr "停止(&P)"
+
+#: kfilereplacepart.cpp:597
+msgid "Cre&ate Report File..."
+msgstr "创建报告文件(&A)..."
+
+#: kfilereplacepart.cpp:602
+msgid "&Add String..."
+msgstr "添加字符串(&A)..."
+
+#: kfilereplacepart.cpp:606
+msgid "&Delete String"
+msgstr "删除字符串(&D)"
+
+#: kfilereplacepart.cpp:609
+msgid "&Empty Strings List"
+msgstr "清空字符串列表(&E)"
+
+#: kfilereplacepart.cpp:612
+msgid "Edit Selected String..."
+msgstr "编辑选中的字符串..."
+
+#: kfilereplacepart.cpp:615
+msgid "&Save Strings List to File..."
+msgstr "字符串列表保存到文件(&S)..."
+
+#: kfilereplacepart.cpp:618
+msgid "&Load Strings List From File..."
+msgstr "从文件载入字符串列表(&L)..."
+
+#: kfilereplacepart.cpp:622
+msgid "&Load Recent Strings Files"
+msgstr "载入最近使用的字符串文件(&L)"
+
+#: kfilereplacepart.cpp:626
+msgid "&Invert Current String (search <--> replace)"
+msgstr "对调当前字符串(搜索<-->替换)(&I)"
+
+#: kfilereplacepart.cpp:629
+msgid "&Invert All Strings (search <--> replace)"
+msgstr "对调所有字符串(搜索<-->替换)(&I)"
+
+#: kfilereplacepart.cpp:634
+msgid "&Include Sub-Folders"
+msgstr "包含子文件夹(&I)"
+
+#: kfilereplacepart.cpp:637
+msgid "Create &Backup Files"
+msgstr "创建备份文件(&B)"
+
+#: kfilereplacepart.cpp:640
+msgid "Case &Sensitive"
+msgstr "区分大小写(&S)"
+
+#: kfilereplacepart.cpp:643
+msgid "Enable Commands &in Replace String: [$command:option$]"
+msgstr "替换字符串中使用命令(&I)：[$命令:选项$]"
+
+#: kfilereplacepart.cpp:646
+msgid "Enable &Regular Expressions"
+msgstr "启用正则表达式(&R)"
+
+#: kfilereplacepart.cpp:649
+msgid "Configure &KFileReplace..."
+msgstr "配置 &KFileReplace..."
+
+#: kfilereplacepart.cpp:654 kfilereplaceview.cpp:541
+msgid "&Properties"
+msgstr "属性(&P)"
+
+#: kfilereplacepart.cpp:657 kfilereplaceview.cpp:513
+msgid "&Open"
+msgstr "打开(&O)"
+
+#: kfilereplacepart.cpp:663 kfilereplaceview.cpp:526
+msgid "&Edit in Quanta"
+msgstr "在 Quanta 中编辑(&E)"
+
+#: kfilereplacepart.cpp:667 kfilereplaceview.cpp:532
+msgid "Open Parent &Folder"
+msgstr "打开父文件夹(&F)"
+
+#: kfilereplacepart.cpp:670 kfilereplaceview.cpp:536
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: kfilereplacepart.cpp:673
+msgid "E&xpand Tree"
+msgstr "展开树(&X)"
+
+#: kfilereplacepart.cpp:676
+msgid "&Reduce Tree"
+msgstr "缩小树(&R)"
+
+#: kfilereplacepart.cpp:679
+msgid "&About KFileReplace"
+msgstr "关于 KFileReplace(&A)"
+
+#: kfilereplacepart.cpp:682
+msgid "KFileReplace &Handbook"
+msgstr "KFileReplace 手册(&H)"
+
+#: kfilereplacepart.cpp:685
+msgid "&Report Bug"
+msgstr "报告错误(&R)"
+
+#: kfilereplacepart.cpp:1090 kfilereplacepart.cpp:1179
+#: kfilereplacepart.cpp:1399
+#, kde-format
+msgid "<qt>Cannot open file <b>%1</b> for reading.</qt>"
+msgstr "<qt>无法打开文件 <b>%1</b> 读取。</qt>"
+
+#: kfilereplacepart.cpp:1130 kfilereplacepart.cpp:1208
+#, kde-format
+msgid "<qt>Cannot open file <b>%1</b> for writing.</qt>"
+msgstr "<qt>无法打开文件 <b>%1</b> 写入。</qt>"
+
+#: kfilereplacepart.cpp:1265
+#, kde-format
+msgid ""
+"<qt>Do you want to replace the string <b>%1</b> with the string <b>%2</b>?</"
+"qt>"
+msgstr "<qt>您是否想要将 <b>%1</b> 替换为 <b>%2</b>？</qt>"
+
+#: kfilereplacepart.cpp:1266
+msgid "Confirm Replace"
+msgstr "确认替换"
+
+#: kfilereplacepart.cpp:1267
+msgid "Replace"
+msgstr "替换"
+
+#: kfilereplacepart.cpp:1268
+msgid "Do Not Replace"
+msgstr "不替换"
+
+#: kfilereplacepart.cpp:1470 kfilereplacepart.cpp:1510
+#, kde-format
+msgid " Line:%2, Col:%3 - \"%1\""
+msgstr " 行：%2，列：%3 -“%1”"
+
+#: kfilereplacepart.cpp:1576
+#, kde-format
+msgid "<qt>Cannot open the file <b>%1</b> and load the string list.</qt>"
+msgstr "<qt>无法打开文件 <b>%1</b> 并载入字符串列表。</qt>"
+
+#: kfilereplacepart.cpp:1584
+#, kde-format
+msgid ""
+"<qt>File <b>%1</b> seems not to be written in new kfr format. Remember that "
+"the old kfr format will be soon abandoned. You can convert your old rules "
+"files by simply saving them with kfilereplace.</qt>"
+msgstr ""
+"<qt>文件 <b>%1</b> 好像不是以新的 kfr 格式写入的。请记住，旧的 kfr 格式即将被"
+"抛弃。您应该用 kfilereplace 重新保存旧的规则文件来转换您的旧规则文件。</qt>"
+
+#: kfilereplacepart.cpp:1584 kfilereplacepart.cpp:1604
+msgid "Warning"
+msgstr "警告"
+
+#: kfilereplacepart.cpp:1604
+#, kde-format
+msgid ""
+"<qt>The format of kfr files has been changed; attempting to load <b>%1</b>. "
+"Please see the KFilereplace manual for details. Do you want to load a search-"
+"and-replace list of strings?</qt>"
+msgstr ""
+"<qt>kfr 文件的格式已经更改；正在试图装入 <b>%1</b>。详情请看 KFilereplace 的"
+"手册。您是否想要装入搜索替换的字符串列表？</qt>"
+
+#: kfilereplacepart.cpp:1604
+msgid "Load"
+msgstr "装入"
+
+#: kfilereplacepart.cpp:1604
+msgid "Do Not Load"
+msgstr "不装入"
+
+#: kfilereplacepart.cpp:1693
+msgid "There are no strings to search and replace."
+msgstr "没有要搜索和替换的字符串。"
+
+#: kfilereplacepart.cpp:1706
+#, kde-format
+msgid "<qt>The main folder of the project <b>%1</b> does not exist.</qt>"
+msgstr "<qt>项目主文件夹 <b>%1</b> 不存在。</qt>"
+
+#: kfilereplacepart.cpp:1714
+#, kde-format
+msgid ""
+"<qt>Access denied in the main folder of the project:<br /><b>%1</b></qt>"
+msgstr "<qt>对项目主文件夹的访问被禁止：<br /><b>%1</b></qt>"
+
+#. i18n: ectx: Menu (kfilerepace)
+#: kfilereplacepartui.rc:4 kfilereplaceui.rc:7
+msgid "Search/&Replace"
+msgstr "搜索/替换(&R)"
+
+#. i18n: ectx: Menu (strings)
+#: kfilereplacepartui.rc:11
+msgid "&Strings"
+msgstr "字符串(&S)"
+
+#. i18n: ectx: Menu (results)
+#: kfilereplacepartui.rc:24
+msgid "&Results"
+msgstr "结果(&R)"
+
+#. i18n: ectx: Menu (options)
+#: kfilereplacepartui.rc:36
+msgid "&Options"
+msgstr "选项(&O)"
+
+#. i18n: ectx: Menu (settings)
+#: kfilereplacepartui.rc:44
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kfilereplacepartui.rc:55
+msgid "KFileReplace Main Toolbar"
+msgstr "KFileReplace 主工具栏"
+
+#. i18n: ectx: Menu (file)
+#: kfilereplaceui.rc:4
+msgid "&File"
+msgstr "文件(&F)"
+
+#: kfilereplaceview.cpp:123
+#, kde-format
+msgid ""
+"<qt>Cannot invert string <b>%1</b>, because the search string would be empty."
+"</qt>"
+msgstr "<qt>无法对调字符串 <b>%1</b>，因为那样搜索字符串会为空。</qt>"
+
+#: kfilereplaceview.cpp:291
+#, kde-format
+msgid "Do you really want to delete %1?"
+msgstr "您真的要删除 %1 吗？"
+
+#: kfilereplaceview.cpp:411
+msgid "No strings to save as the list is empty."
+msgstr "列表中没有字符串可以保存。"
+
+#: kfilereplaceview.cpp:435
+msgid "KFileReplace Strings"
+msgstr "KFileReplace 字符串"
+
+#: kfilereplaceview.cpp:436
+msgid "Save Strings to File"
+msgstr "保存字符串到文件"
+
+#: kfilereplaceview.cpp:447
+#, kde-format
+msgid "File %1 cannot be saved."
+msgstr "无法保存文件 %1。"
+
+#: kfilereplaceview.cpp:518
+msgid "Open &With..."
+msgstr "打开方式(&W)..."
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: kfilereplaceviewwdg.ui:58 kfilereplaceviewwdg.ui:181 knewprojectdlgs.ui:423
+#: knewprojectdlgs.ui:495 report.cpp:116
+msgid "Name"
+msgstr "名称"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:69 kfilereplaceviewwdg.ui:192 report.cpp:117
+msgid "Folder"
+msgstr "文件夹"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:80 report.cpp:124
+msgid "Old Size"
+msgstr "旧的大小"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:91 report.cpp:125
+msgid "New Size"
+msgstr "新的大小"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:102 report.cpp:56
+msgid "Replaced Strings"
+msgstr "替换的字符串"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:113 kfilereplaceviewwdg.ui:225 report.cpp:128
+msgid "Owner User"
+msgstr "所有者用户"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:124 kfilereplaceviewwdg.ui:236 report.cpp:129
+msgid "Owner Group"
+msgstr "所有者组"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:203 report.cpp:120
+msgid "Size"
+msgstr "大小"
+
+#. i18n: ectx: property (text), widget (K3ListView)
+#: kfilereplaceviewwdg.ui:214
+msgid "Found Strings"
+msgstr "找到的字符串"
+
+#. i18n: ectx: property (toolTip), widget (KLed)
+#: kfilereplaceviewwdg.ui:427
+msgid "Green means ready"
+msgstr "绿色代表就绪"
+
+#. i18n: ectx: property (whatsThis), widget (KLed)
+#: kfilereplaceviewwdg.ui:430
+msgid "Ready"
+msgstr "就绪"
+
+#. i18n: ectx: property (toolTip), widget (KLed)
+#: kfilereplaceviewwdg.ui:454
+msgid "Yellow means wait while sorting list"
+msgstr "黄色代表正在对列表进行排序"
+
+#. i18n: ectx: property (whatsThis), widget (KLed)
+#: kfilereplaceviewwdg.ui:457
+msgid "Please wait while sorting list"
+msgstr "请稍候，正在对列表进行排序"
+
+#. i18n: ectx: property (toolTip), widget (KLed)
+#: kfilereplaceviewwdg.ui:478
+msgid "Red means scanning files"
+msgstr "红色代表正在扫描文件"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: kfilereplaceviewwdg.ui:513
+msgid "Scanned files:"
+msgstr "扫描的文件："
+
+#: knewprojectdlg.cpp:97
+msgid "Project Directory"
+msgstr "项目目录"
+
+#: knewprojectdlg.cpp:119
+msgid "You must fill the combo boxes (location and filter) before continuing."
+msgstr "继续操作之前，您必须填写组合框(位置和过滤器)。"
+
+#: knewprojectdlg.cpp:127
+msgid "Some edit boxes are empty in the <b>Owner</b> page."
+msgstr "<b>所有者</b>页的一些编辑框是空的。"
+
+#: knewprojectdlg.cpp:137
+msgid "The minimum size is greater than the maximum size."
+msgstr "最小值超过了最大值。"
+
+#. i18n: ectx: property (caption), widget (QDialog)
+#: knewprojectdlgs.ui:16
+msgid "Search & Replace in Files"
+msgstr "在文件中搜索并替换"
+
+#. i18n: ectx: property (text), widget (QPushButton)
+#: knewprojectdlgs.ui:89
+msgid "Search Now"
+msgstr "立即搜索"
+
+#. i18n: ectx: property (text), widget (QPushButton)
+#: knewprojectdlgs.ui:103
+msgid "Search Later"
+msgstr "稍后搜索"
+
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: knewprojectdlgs.ui:142
+msgid "&General"
+msgstr "常规(&G)"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: knewprojectdlgs.ui:153
+msgid "Startup Folder Options"
+msgstr "启动文件夹选项"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:164
+msgid "Filter:"
+msgstr "过滤器："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:175
+msgid "Location:"
+msgstr "位置："
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox)
+#: knewprojectdlgs.ui:209
+msgid "Insert a search path here. You can use the search path button."
+msgstr "在此插入搜索路径。您可以使用搜索路径按钮。"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:256
+msgid "&Include subfolders"
+msgstr "包含子文件夹(&I)"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: knewprojectdlgs.ui:269
+msgid "Search/Replace Strings"
+msgstr "搜索/替换字符串"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:290
+msgid "Search:"
+msgstr "搜索："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:298
+msgid "Replace:"
+msgstr "替换："
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: knewprojectdlgs.ui:308 koptionsdlgs.ui:45
+msgid "General Options"
+msgstr "常规选项"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:322
+msgid "Enable &regular expressions"
+msgstr "启用正则表达式(&R)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:330
+msgid "Do &backup copy instead of overwrite"
+msgstr "进行备份而不仅是覆盖(&B)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:338
+msgid "&Case sensitive"
+msgstr "区分大小写(&C)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:346
+msgid "Enable co&mmands in the replace string"
+msgstr "在替换字符串中使用命令(&M)"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:354 koptionsdlgs.ui:67
+msgid "Backup copy suffix:"
+msgstr "备份后缀："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:383 koptionsdlgs.ui:132
+msgid "Encoding of the files:"
+msgstr "文件的编码："
+
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: knewprojectdlgs.ui:395 koptionsdlgs.ui:157
+msgid "&Advanced"
+msgstr "高级(&A)"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: knewprojectdlgs.ui:406
+msgid "Ownership Filtering"
+msgstr "拥有者过滤"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:417
+msgid "User: "
+msgstr "用户："
+
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: knewprojectdlgs.ui:428 knewprojectdlgs.ui:500
+msgid "ID (Number)"
+msgstr "ID(数字)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: knewprojectdlgs.ui:447 knewprojectdlgs.ui:471
+msgid "Equals To"
+msgstr "等于"
+
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: knewprojectdlgs.ui:452 knewprojectdlgs.ui:476
+msgid "Is Not"
+msgstr "不是"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:521
+msgid "Group:"
+msgstr "组："
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: knewprojectdlgs.ui:547
+msgid "Access Date Filtering"
+msgstr "访问日期过滤器"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:574
+msgid "Dates valid for:"
+msgstr "有效的日期："
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:582
+msgid "Accessed after:"
+msgstr "访问时间晚于："
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:590
+msgid "Accessed before: "
+msgstr "访问时间早于："
+
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: knewprojectdlgs.ui:606
+msgid "Last Writing Access"
+msgstr "上次写入访问"
+
+#. i18n: ectx: property (text), item, widget (KComboBox)
+#: knewprojectdlgs.ui:611
+msgid "Last Reading Access"
+msgstr "上次读取访问"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: knewprojectdlgs.ui:716
+msgid "Size Filtering"
+msgstr "大小过滤器"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:743
+msgid "Minimum si&ze:"
+msgstr "最小大小(&Z)："
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: knewprojectdlgs.ui:751
+msgid "Maximum size:"
+msgstr "最大大小："
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: knewprojectdlgs.ui:801 knewprojectdlgs.ui:809
+msgid "KB"
+msgstr "KB"
+
+#. i18n: ectx: property (caption), widget (QDialog)
+#: koptionsdlgs.ui:16
+msgid "Options"
+msgstr "选项"
+
+#. i18n: ectx: attribute (title), widget (QWidget)
+#: koptionsdlgs.ui:34
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:56
+msgid "Enable commands in replace strings"
+msgstr "在替换字符串中使用命令"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:83
+msgid "Notif&y on errors"
+msgstr "出错时通知(&Y)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:91
+msgid "Case sensitive"
+msgstr "区分大小写"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:102
+msgid "Recursive (search/replace in all sub folders)"
+msgstr "递归(搜索/替换所有子文件夹)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:116
+msgid "Enable regular e&xpressions"
+msgstr "启用正则表达式(&X)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:124
+msgid "Do &backup copy"
+msgstr "进行备份(&B)"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#: koptionsdlgs.ui:168
+msgid "Advanced Options"
+msgstr "高级选项"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:179
+msgid "Ignore hidden files and folders"
+msgstr "忽略隐藏的文件和文件夹"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:187
+msgid "Follow s&ymbolic links"
+msgstr "跟随符号链接(&Y)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:195
+msgid "When searching, stop on first string found (faster but no details)"
+msgstr "搜索时，发现第一个字符串时停止(快速但没有细节)"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:206
+msgid "Do not show file if no strings are found or replaced"
+msgstr "如果未找到或替换字符串，则不显示文件"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:242
+msgid "Show confirmation dialog"
+msgstr "显示确认对话框"
+
+#. i18n: ectx: property (text), widget (QCheckBox)
+#: koptionsdlgs.ui:255
+msgid "Confirm before replace each string"
+msgstr "替换每一个字符串时确认"
+
+#. i18n: ectx: property (text), widget (QPushButton)
+#: koptionsdlgs.ui:296
+msgid "&Default Values"
+msgstr "默认值(&D)"
+
+#: main.cpp:25
+msgid "Batch search and replace tool"
+msgstr "批量搜索替换工具"
+
+#: main.cpp:31
+msgid "KFileReplace"
+msgstr "KFileReplace"
+
+#: main.cpp:32
+#, fuzzy
+#| msgid ""
+#| "(C) 2004-2005 Andras Mantia\n"
+#| "(C) 2004-2005 Emiliano Gulmini\n"
+#| "(C) 1999-2002 Francois Dupoux"
+msgid ""
+"(C) 2004-2005 Andras Mantia\n"
+"(C) 2004-2005 Emiliano Gulmini\n"
+"(C) 1999-2002 François Dupoux"
+msgstr ""
+"(C) 2004-2005 Andras Mantia\n"
+"(C) 2004-2005 Emiliano Gulmini\n"
+"(C) 1999-2002 Francois Dupoux"
+
+#: main.cpp:35
+msgid "Shell author, KPart creator, co-maintainer"
+msgstr "Shell 作者、KPart 创建者、联合维护者"
+
+#: main.cpp:44
+msgid "Starting folder"
+msgstr "初始文件夹"
+
+#: report.cpp:43 report.cpp:196
+#, kde-format
+msgid "<qt>Cannot open the file <b>%1</b>.</qt>"
+msgstr "<qt>无法打开文件 <b>%1</b>。</qt>"
+
+#: report.cpp:57
+msgid "Replace with"
+msgstr "替换为"
+
+#: report.cpp:61
+msgid "Total number occurrences"
+msgstr "总计出现次数"
+
+#: report.cpp:62
+msgid "-"
+msgstr "-"
+
+#: report.cpp:70
+msgid "KFileReplace Report"
+msgstr "KFileReplace 报告"
+
+#: report.cpp:75
+msgid "Searching/Replacing Strings Table"
+msgstr "搜索/替换字符串表"
+
+#: report.cpp:78
+msgid "Search for"
+msgstr "搜索"
+
+#: report.cpp:113
+msgid "Results Table"
+msgstr "结果表"
+
+#: report.cpp:203
+msgid "Created by"
+msgstr "创建者"
+
+#: report.cpp:205
+msgid "date"
+msgstr "日期"
+
+#: report.cpp:207
+msgid "Total occurrences"
+msgstr "总计出现次数"
+
+#: whatthis.h:29
+msgid ""
+"Shows the statistics of your operations. Note that the columns content "
+"changes depending on what kind of operation you are performing."
+msgstr "显示操作状态。请注意列内容的改变取决于您执行的操作类型。"
+
+#: whatthis.h:31
+msgid ""
+"Shows a list of strings to search for (and if you specified it, a list of "
+"strings to replace with). Use the \"add strings\" dialog to edit your string "
+"list or double click on a string."
+msgstr ""
+"显示搜索字符串列表(如果您明确要求，则由指定字符串替换显示)。使用“添加字符"
+"串”对话框可编辑您的字符串列表，或者双击字符串也可执行操作。"
+
+#: whatthis.h:34
+msgid ""
+"Base folder for operations of search/replace. Insert path string here by "
+"hand or use the search button."
+msgstr ""
+"执行搜索/替换操作的基准文件夹。请手工在此输入路径字符串或使用搜索按钮。"
+
+#: whatthis.h:36
+msgid "Shell-like wildcards. Example: \"*.html;*.txt;*.xml\"."
+msgstr "类似 Shell 的通配符。例如：“*.html;*.txt;*.xml”。"
+
+#: whatthis.h:38
+msgid ""
+"Insert the minimum file size you want to search, or leave it unchecked if "
+"you do not want a minimum size limit."
+msgstr "插入您要搜索的文件的最小尺寸，或留空不加此限制。"
+
+#: whatthis.h:40
+msgid ""
+"Insert the maximum file size you want to search, or leave it unchecked if "
+"you do not want a maximum size limit."
+msgstr "插入您要搜索的文件的最大尺寸，或留空不加此限制。"
+
+#: whatthis.h:42
+msgid ""
+"Insert the minimum value for file access date that you want to search, or "
+"leave it unchecked if you do not want a minimum limit."
+msgstr "插入您要搜索的文件的最早访问日期，或留空不加此限制。"
+
+#: whatthis.h:44
+msgid ""
+"Insert the maximum value for file access date that you want to search, or "
+"leave it unchecked if you do not want a maximum limit."
+msgstr "插入您要搜索的文件的最晚访问日期，或留空不加此限制。"
+
+#: whatthis.h:46
+msgid ""
+"Select  \"writing\" if you want to use the date of the last modification, "
+"or  \"reading\" to use the date of the last access."
+msgstr ""
+"如果您要选用文件最后修改日期，选择“写入”；如果选用文件最后访问日期，选择“读"
+"取”。"
+
+#: whatthis.h:48
+msgid "Minimum value for access date."
+msgstr "最早访问日期"
+
+#: whatthis.h:50
+msgid "Maximum value for access date."
+msgstr "最晚访问日期"
+
+#: whatthis.h:52
+msgid "Insert here the string to search for."
+msgstr "在此插入搜索的字符串。"
+
+#: whatthis.h:54
+msgid "Insert here the string to replace with."
+msgstr "没有要搜索和替换的字符串。"
+
+#: whatthis.h:57
+msgid "Enable this option if your search is case sensitive."
+msgstr "启用此选项可以让搜索对大小写敏感。"
+
+#: whatthis.h:59
+msgid "Enable this option to search in sub folders too."
+msgstr "启用此选项可以让搜索也在子文件夹中进行。"
+
+#: whatthis.h:61
+msgid ""
+"Enable this option when you are searching for a string and you are only "
+"interested to know if the string is present or not in the current file."
+msgstr "如果您只想知道搜索的字符串是否在当前文件里存在，请启用此选项。"
+
+#: whatthis.h:65
+msgid ""
+"If set, then if kfilereplace encounters a symbolic link it treats it like a "
+"normal folder or file."
+msgstr ""
+"如果设置此项，当 kfilereplace 遇到符号链接时会把它当作普通文件夹或文件对待。"
+
+#: whatthis.h:67
+msgid "Enable this option to ignore hidden files or folders."
+msgstr "启用此选项可忽略隐藏文件或文件夹。"
+
+#: whatthis.h:69
+msgid ""
+"If this option is enabled, KFR will show even the names of the files in "
+"which no string has been found or replaced."
+msgstr ""
+"如果启用此选项。KFileReplace 即使在没有找到或替换过字符串的情况下也会显示所有"
+"相关文件名。"
+
+#: whatthis.h:71
+msgid ""
+"Allows you to apply Qt-like regular expressions on the search string. Note "
+"that a complex regular expression could affect speed performance."
+msgstr ""
+"允许您在搜索字符串中使用 Qt 风格的正则表达式。请注意复杂的表达式会影响性能。"
+
+#: whatthis.h:73
+msgid ""
+"Enable \"commands\". For example: if search string is \"user\" and replace "
+"string is the command \"[$user:uid$]\", KFR will substitute \"user\" with "
+"the uid of the user."
+msgstr ""
+"启用“命令”。例如：如果搜索字符串是“user”，替换字符串是命令“[$user:uid$]”，"
+"KFileReplace 将会用该用户的 UID 替换“user”字符串。"
+
+#: whatthis.h:75
+msgid "Enable this option if you want leave original files untouched."
+msgstr "启用此选项可保留原始文件的访问时间戳不变。"
+
+#: whatthis.h:77
+msgid ""
+"Enable this option if you want to be asked for single string replacement "
+"confirmation."
+msgstr "启用此选项可在每次字符串替换时向用户征求确认。"
+
+#: whatthis.h:80
+msgid ""
+"Enable this option to perform replacing as a simulation, i.e. without making "
+"any changes to files."
+msgstr "启用此选项可模拟替换操作，不会对文件有任何更改。"
+
+#: whatthis.h:93
+msgid "Select search-only mode."
+msgstr "选择只搜索模式"
+
+#: whatthis.h:95
+msgid "Select search-and-replace mode."
+msgstr "选择搜索和替换模式"
+
+#: whatthis.h:97
+msgid "Insert here a string you want search for."
+msgstr "在此插入您要搜索的字符串。"
+
+#: whatthis.h:99
+msgid "Insert here the string that KFR will use to replace the search string."
+msgstr "在此插入您要用来替换搜索到的内容的字符串。"
+
+#~ msgid "%1 KB"
+#~ msgstr "%1 KB"
+
+#~ msgid "%1 MB"
+#~ msgstr "%1 MB"
+
+#~ msgid "%1 GB"
+#~ msgstr "%1 GB"
+
+#~ msgid "Fran�is Dupoux"
+#~ msgstr "Fran�is Dupoux"
+
+#~ msgid "File %1 cannot be opened. Might be a DCOP problem."
+#~ msgstr "无法打开文件 %1。可能是 DCOP 问题。"

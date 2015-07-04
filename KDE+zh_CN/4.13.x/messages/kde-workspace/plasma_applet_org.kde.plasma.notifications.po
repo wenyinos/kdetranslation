@@ -1,0 +1,192 @@
+# translation of plasma_applet_notification.po to 简体中文
+#
+# Funda Wang <fundawang@gmail.com>, 2010.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2011, 2013.
+# Weng Xuetian <wengxt@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_devicenotifier\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-08 01:38+0000\n"
+"PO-Revision-Date: 2013-06-18 22:02+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: contents/ui/config.ui:17
+msgid "&Application notifications:"
+msgstr "应用程序通知(&A)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: contents/ui/config.ui:34
+msgid "&File transfers and jobs:"
+msgstr "文件传送和任务(&F)："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: contents/ui/config.ui:57
+msgid "Choose which information to show"
+msgstr "选择要显示的信息"
+
+#: contents/ui/JobDelegate.qml:156 contents/ui/JobDelegate.qml:195
+msgid "%1:"
+msgstr "%1："
+
+#: contents/ui/JobDelegate.qml:236
+msgctxt ""
+"How much many bytes (or whether unit in the locale has been copied over total"
+msgid "%1 of %2"
+msgstr "%1/%2"
+
+#: contents/ui/JobDelegate.qml:241
+msgid "%1 of %2 %3"
+msgstr "%1/%2 %3"
+
+#: contents/ui/JobDelegate.qml:283
+msgctxt "Speed and estimated time to completition"
+msgid "%1 (%2 remaining)"
+msgstr "%1 (%2 剩余)"
+
+#: contents/ui/Jobs.qml:58
+msgid "%1 [Finished]"
+msgstr "%1 [已完成]"
+
+#: contents/ui/Jobs.qml:62
+msgid "Open"
+msgstr "打开"
+
+#: contents/ui/Jobs.qml:93
+msgid "Transfers"
+msgstr "传输"
+
+#: contents/ui/main.qml:80
+msgid "Notifications and Jobs"
+msgstr "通知和任务"
+
+#: contents/ui/main.qml:83
+msgid "No notifications or jobs"
+msgstr "无通知和任务"
+
+#: contents/ui/main.qml:85 contents/ui/main.qml:89
+msgid "%1 running job"
+msgid_plural "%1 running jobs"
+msgstr[0] "%1 个运行中的任务"
+
+#: contents/ui/main.qml:87 contents/ui/main.qml:89
+msgid "%1 notification"
+msgid_plural "%1 notifications"
+msgstr[0] "%1 个通知"
+
+#: contents/ui/main.qml:128
+#, fuzzy
+#| msgid "%1 notification"
+#| msgid_plural "%1 notifications"
+msgid "No new notifications."
+msgstr "%1 个通知"
+
+#: contents/ui/NotificationDelegate.qml:196
+msgid "Copy"
+msgstr "复制"
+
+#: contents/ui/NotificationDelegate.qml:201
+msgid "Select All"
+msgstr "全部选中"
+
+#: contents/ui/Notifications.qml:198
+msgid "Notifications"
+msgstr "通知"
+
+#: contents/ui/Notifications.qml:224
+msgid "All"
+msgstr "全部"
+
+#~ msgid "KiB/s"
+#~ msgstr " KiB/秒"
+
+#~ msgid "%1 file, to: %2"
+#~ msgid_plural "%1 files, to: %2"
+#~ msgstr[0] "%1 个文件，到：%2"
+
+#~ msgid "1 running job (%2 remaining)"
+#~ msgid_plural "%1 running jobs (%2 remaining)"
+#~ msgstr[0] "%1 个正在运行的任务(剩余 %2)"
+
+#~ msgctxt "Number of jobs and the speed at which they are downloading"
+#~ msgid "%1 running job (%2/s)"
+#~ msgid_plural "%1 running jobs (%2/s)"
+#~ msgstr[0] "%1 任务在运行(%2/s)"
+
+#~ msgid "%1 suspended job"
+#~ msgid_plural "%1 suspended jobs"
+#~ msgstr[0] "%1 个挂起的任务"
+
+#~ msgid "%1 completed job"
+#~ msgid_plural "%1 completed jobs"
+#~ msgstr[0] "%1 个已完成的任务"
+
+#~ msgid "No active jobs or notifications"
+#~ msgstr "无活动的任务或通知"
+
+#~ msgctxt "Generic title for the job transfer popup"
+#~ msgid "Jobs"
+#~ msgstr "任务"
+
+#~ msgid "More"
+#~ msgstr "更多"
+
+#~ msgid "Pause job"
+#~ msgstr "暂停任务"
+
+#~ msgid "Resume job"
+#~ msgstr "恢复任务"
+
+#~ msgid "Cancel job"
+#~ msgstr "取消任务"
+
+#~ msgctxt ""
+#~ "%1 is the name of the job, can be things like Copying, deleting, moving"
+#~ msgid "%1 [Paused]"
+#~ msgstr "%1 [已暂停]"
+
+#~ msgid "Paused"
+#~ msgstr "已暂停"
+
+#~ msgctxt ""
+#~ "%1 is the name of the job, can be things like Copying, deleting, moving"
+#~ msgid "%1 [Finished]"
+#~ msgstr "%1 [已完成]"
+
+#~ msgid "%2 / 1 folder"
+#~ msgid_plural "%2 / %1 folders"
+#~ msgstr[0] "%2 / %1 个文件夹"
+
+#~ msgid "%2 / 1 file"
+#~ msgid_plural "%2 / %1 files"
+#~ msgstr[0] "%2 / %1 个文件"
+
+#~ msgid "Less"
+#~ msgstr "较少"
+
+#~ msgid "Notification from %1"
+#~ msgstr "来自 %1 的通知"
+
+#~ msgid "Information"
+#~ msgstr "信息"
+
+#~ msgid "Pop Up Notices"
+#~ msgstr "弹出通知"
+
+#~ msgid "Popup"
+#~ msgstr "弹出"
+
+#~ msgid "Automatically hide"
+#~ msgstr "自动隐藏"
+
+#~ msgid "Open destination"
+#~ msgstr "打开目的地"

@@ -1,0 +1,577 @@
+# translation of kplatowork.po to 简体中文
+# Copyright (C) 2002,2003, 2008 Free Software Foundation, Inc.
+#
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Liu Songhe <jackliu9999@263.net>, 2003.
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kplatowork\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-21 01:27+0000\n"
+"PO-Revision-Date: 2011-11-27 11:01+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: aboutdata.h:31
+msgid "PlanWork - Work Package handler for the Plan Project Planning Tool"
+msgstr "PlanWork - Plan 项目计划工具的工作包处理程序"
+
+#: aboutdata.h:36
+msgctxt "application name"
+msgid "Plan WorkPackage Handler"
+msgstr "Plan 工作包处理程序"
+
+#: aboutdata.h:39
+#, fuzzy
+#| msgid "(c) 2007-2011, The Plan Team"
+msgid "Copyright (C) 2007-2013, The Plan Team"
+msgstr "(c) 2007-2011，Plan 团队"
+
+#: aboutdata.h:43
+msgid "Dag Andersen"
+msgstr "Dag Andersen"
+
+#: application.cpp:112
+msgid "Failed to open document"
+msgstr "打开文档失败"
+
+#: main.cpp:40
+msgid "File to open"
+msgstr "要打开的文件"
+
+#: mainwindow.cpp:122
+#, kde-format
+msgid "The file %1 does not exist."
+msgstr "文件 %1 不存在。"
+
+#: packagesettings.cpp:34
+msgid "Work Package Settings"
+msgstr "工作包设置"
+
+#: packagesettings.cpp:75
+msgctxt "(qtundo-format)"
+msgid "Modify package settings"
+msgstr "修改包设置"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: packagesettings.ui:24
+msgid ""
+"Package data:\n"
+"These settings indicates to the receiver of the package which information is "
+"relevant."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ui_usedEffort)
+#: packagesettings.ui:34
+msgid "The effort you have used on this task."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_usedEffort)
+#: packagesettings.ui:37
+msgid "Used effort"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ui_progress)
+#: packagesettings.ui:44
+msgid ""
+"Progress includes started / start time, finished / finish time and completion"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_progress)
+#: packagesettings.ui:47
+msgid "Progress"
+msgstr "进度"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ui_documents)
+#: packagesettings.ui:54
+msgid "The documents attached to this task"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_documents)
+#: packagesettings.ui:57
+msgid "Documents"
+msgstr "文档"
+
+#: part.cpp:179 part.cpp:210
+#, kde-format
+msgid "Document is already open:<br>%1"
+msgstr "文档已打开：<br>%1"
+
+#: part.cpp:191 part.cpp:218 workpackage.cpp:590
+#, kde-format
+msgid "Could not extract document from storage:<br>%1"
+msgstr "无法从存储中提取文档：<br>%1"
+
+#: part.cpp:199 part.cpp:226 workpackage.cpp:594
+#, kde-format
+msgid "Invalid URL:<br>%1"
+msgstr "无效的 URL：<br>%1"
+
+#: part.cpp:238
+#, kde-format
+msgid "Document is already open:<br> %1"
+msgstr "文档已打开：<br>%1"
+
+#: part.cpp:242
+#, kde-format
+msgid "File does not exist:<br>%1"
+msgstr "文件不存在：<br>%1"
+
+#: part.cpp:266
+msgid "Edit with:"
+msgstr "编辑方式："
+
+#: part.cpp:399
+#, kde-format
+msgid ""
+"<p>The work package already exists in the projects store.</p><p>Project: "
+"%1<br>Task: %2</p><p>Do you want to update the existing package with data "
+"from the new?</p>"
+msgstr ""
+
+#: part.cpp:427
+msgid "Remove failed. Cannot find work package"
+msgstr "删除失败。找不到工作包"
+
+#: part.cpp:430 part.cpp:441
+msgctxt "(qtundo-format)"
+msgid "Remove work package"
+msgid_plural "Remove work packages"
+msgstr[0] "删除工作包"
+
+#: part.cpp:479 part.cpp:495
+#, kde-format
+msgid "Failed to load file:<br>%1"
+msgstr "装入文件失败：<br>%1"
+
+#: part.cpp:508
+#, kde-format
+msgid "Not a valid work package file:<br>%1"
+msgstr "无效的工作包：<br>%1"
+
+#: part.cpp:536
+msgid "Invalid document. The document does not contain 'maindoc.xml'."
+msgstr "无效的文档。文档不包含“maindoc.xml”。"
+
+#: part.cpp:562
+#, kde-format
+msgid "Failed to open file: %1"
+msgstr "打开文件失败：%1"
+
+#: part.cpp:574
+#, kde-format
+msgid "Parsing error in file '%1' at line %2, column %3<br>Error message: %4"
+msgstr ""
+
+#: part.cpp:592 part.cpp:635
+msgid "Invalid document. No mimetype specified."
+msgstr "无效的文档。未指定 MIME 类型。"
+
+#: part.cpp:598
+#, kde-format
+msgid ""
+"Invalid document. Expected mimetype application/x-vnd.kde.plan.work, got %1"
+msgstr ""
+"无效的文档。希望 MIME 类型为 application/x-vnd.kde.plan.work，但却得到 %1"
+
+#: part.cpp:605 part.cpp:646
+#, kde-format
+msgid ""
+"This document is a newer version than supported by PlanWork (syntax version: "
+"%1)<br>Opening it in this version of PlanWork will lose some information."
+msgstr ""
+"此文档由更新版本的 PlanWork (语法版本：%1)所创建。<br>在此版本的 PlanWork 中"
+"打开可能会丢失某些信息。"
+
+#: part.cpp:607 part.cpp:648
+msgid "File-Format Mismatch"
+msgstr "文件格式不匹配"
+
+#: part.cpp:607 part.cpp:648
+msgid "Continue"
+msgstr "继续"
+
+#: part.cpp:639
+#, fuzzy, kde-format
+#| msgid ""
+#| "Invalid document. Expected mimetype application/x-vnd.kde.kplato.work, "
+#| "got %1"
+msgid ""
+"Invalid document. Expected mimetype application/x-vnd.kde.kplato.work, got %1"
+msgstr ""
+"无效的文档。希望 MIME 类型为 application/x-vnd.kde.kplato.work，但却得到 %1"
+
+#: part.cpp:736
+msgid "Edit failed. Cannot find a work package."
+msgstr "编辑失败。找不到工作包。"
+
+#. i18n: ectx: Menu (edit)
+#: planwork.rc:4 planwork_mainwindow.rc:4
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: ToolBar (view_selection)
+#: planwork.rc:8
+#, fuzzy
+#| msgid "&View"
+msgid "View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: Menu (view)
+#: planwork_readonly.rc:3
+msgid "&View"
+msgstr "查看(&V)"
+
+#: taskcompletiondialog.cpp:46
+msgid "Task Progress"
+msgstr "任务进度"
+
+#: taskcompletiondialog.cpp:166
+#, fuzzy
+#| msgid "Modify task completion"
+msgctxt "(qtundo-format)"
+msgid "Modify task completion"
+msgstr "修改任务完成"
+
+#. i18n: ectx: property (text), widget (QCheckBox, started)
+#: taskcompletionpanel.ui:33
+msgid "Started:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, finished)
+#: taskcompletionpanel.ui:50
+msgid "Finished:"
+msgstr "已完成："
+
+#. i18n: ectx: property (text), widget (QPushButton, addEntryBtn)
+#: taskcompletionpanel.ui:211
+msgid "Add Entry"
+msgstr "添加项"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeEntryBtn)
+#: taskcompletionpanel.ui:218
+msgid "Remove Entry"
+msgstr "删除项"
+
+#: taskworkpackagemodel.cpp:408
+#, fuzzy, no-c-format
+#| msgid "Modify completion"
+msgctxt "(qtundo-format)"
+msgid "Modify completion"
+msgstr "修改完成"
+
+#: taskworkpackagemodel.cpp:443
+#, fuzzy
+#| msgid "Set finished"
+msgctxt "(qtundo-format)"
+msgid "Set finished"
+msgstr "设定已完成"
+
+#: taskworkpackagemodel.cpp:464
+msgctxt "(qtundo-format)"
+msgid "Modify remaining effort"
+msgstr ""
+
+#: taskworkpackagemodel.cpp:477
+#, fuzzy
+#| msgid "Modify package settings"
+msgctxt "(qtundo-format)"
+msgid "Modify actual effort"
+msgstr "修改包设置"
+
+#: taskworkpackagemodel.cpp:575
+msgid "Name"
+msgstr "名称"
+
+#: taskworkpackagemodel.cpp:576
+msgid "Type"
+msgstr "类型"
+
+#: taskworkpackagemodel.cpp:577
+msgid "Responsible"
+msgstr "负责人"
+
+#: taskworkpackagemodel.cpp:578
+msgid "Description"
+msgstr "描述"
+
+#: taskworkpackagemodel.cpp:581
+msgid "Planned Start"
+msgstr ""
+
+#: taskworkpackagemodel.cpp:582
+msgid "Planned Finish"
+msgstr ""
+
+#: taskworkpackagemodel.cpp:583
+msgid "Resource Assignments"
+msgstr ""
+
+#: taskworkpackagemodel.cpp:586
+msgid "Completion"
+msgstr ""
+
+#: taskworkpackagemodel.cpp:587
+msgid "Actual Effort"
+msgstr ""
+
+#: taskworkpackagemodel.cpp:588
+msgid "Remaining Effort"
+msgstr ""
+
+#: taskworkpackagemodel.cpp:589
+msgid "Planned Effort"
+msgstr ""
+
+#: taskworkpackagemodel.cpp:590
+msgid "Actual Start"
+msgstr ""
+
+#: taskworkpackagemodel.cpp:591
+msgid "Started"
+msgstr ""
+
+#: taskworkpackagemodel.cpp:592
+msgid "Actual Finish"
+msgstr "实际完成"
+
+#: taskworkpackagemodel.cpp:593
+msgid "Finished"
+msgstr "已完成"
+
+#: taskworkpackagemodel.cpp:594
+msgctxt "@title:column"
+msgid "Status"
+msgstr ""
+
+#: taskworkpackagemodel.cpp:595
+msgid "Note"
+msgstr ""
+
+#: taskworkpackagemodel.cpp:597
+msgid "Project Name"
+msgstr "工程名称"
+
+#: taskworkpackagemodel.cpp:598
+msgid "Project Manager"
+msgstr "工程管理器"
+
+#: taskworkpackageview.cpp:418 taskworkpackageview.cpp:908
+msgid "Configure View..."
+msgstr "配置视图..."
+
+#: taskworkpackageview.cpp:636
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Task: %1<nl/>Actual finish: %2<nl/>Planned finish: %3<nl/>Status: %4<nl/"
+">Project: %5"
+msgstr ""
+
+#: taskworkpackageview.cpp:651
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Task: %1<nl/>Completion: %2 %<nl/>Actual start: %3<nl/>Planned: %4 - %5<nl/"
+">Status: %6<nl/>Project: %7"
+msgstr ""
+
+#: taskworkpackageview.cpp:672
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Task: %1<nl/>Planned: %2 - %3<nl/>Status: %4<nl/>Project: %5"
+msgstr ""
+
+#: view.cpp:113
+msgid "Remove Packages"
+msgstr "删除包"
+
+#: view.cpp:117
+msgid "Remove Package"
+msgstr "删除包"
+
+#: view.cpp:121
+msgid "List"
+msgstr ""
+
+#: view.cpp:122
+msgctxt "@info:tooltip"
+msgid "Select task list"
+msgstr ""
+
+#: view.cpp:126
+msgid "Gantt"
+msgstr ""
+
+#: view.cpp:127
+msgctxt "@info:tooltip"
+msgid "Select timeline"
+msgstr ""
+
+#: view.cpp:136
+msgid "Configure PlanWork..."
+msgstr "配置 PlanWork..."
+
+#: view.cpp:141
+msgid "Edit..."
+msgstr "编辑..."
+
+#: view.cpp:145
+msgctxt "@verb"
+msgid "View..."
+msgstr "查看..."
+
+#: view.cpp:154
+msgid "Send Package..."
+msgstr "发送包..."
+
+#: view.cpp:158
+msgid "Package Settings..."
+msgstr "包设置..."
+
+#: view.cpp:162
+msgid "Edit Progress..."
+msgstr "编辑进度..."
+
+#: view.cpp:166
+msgid "View Description..."
+msgstr "查看描述..."
+
+#: view.cpp:351
+msgid "This file is not editable"
+msgstr "此文件不可编辑"
+
+#: view.cpp:388
+msgid "No work package is selected"
+msgstr "没有选择工作包"
+
+#: view.cpp:394
+msgid "Cannot find work package"
+msgstr "找不到工作包"
+
+#: view.cpp:409
+msgid "Could not open temporary file. Sending is aborted."
+msgstr "无法打开临时文件。发送已中止。"
+
+#: view.cpp:422
+#, kde-format
+msgid "Work Package: %1"
+msgstr "工作包：%1"
+
+#: workpackage.cpp:114
+msgid "Document is already open"
+msgstr "文档已经打开"
+
+#: workpackage.cpp:186 workpackage.cpp:245
+#, kde-format
+msgid "Failed to load project: %1"
+msgstr "装入项目失败：%1"
+
+#: workpackage.cpp:303
+msgid "Cannot save to empty filename"
+msgstr "无法保存空文件名"
+
+#: workpackage.cpp:309
+msgid "Could not create the file for saving"
+msgstr "无法创建要保存的文件"
+
+#: workpackage.cpp:321
+#, kde-format
+msgid "Not able to write '%1'. Partition full?"
+msgstr "无法写入“%1”。分区已满？"
+
+#: workpackage.cpp:345
+#, kde-format
+msgid ""
+"Failed to open store:\n"
+" %1"
+msgstr ""
+"打开存储失败：\n"
+" %1"
+
+#: workpackage.cpp:418
+#, kde-format
+msgid ""
+"Cannot save to projects store:\n"
+"%1"
+msgstr ""
+"无法保存工程存储：\n"
+"%1"
+
+#: workpackage.cpp:462
+#, kde-format
+msgid ""
+"Failed read file:\n"
+" %1"
+msgstr ""
+"读取文件失败\n"
+" %1"
+
+#: workpackage.cpp:466
+#, kde-format
+msgid ""
+"Failed write file:\n"
+" %1"
+msgstr ""
+"写入文件失败：\n"
+" %1"
+
+#: workpackage.cpp:509
+msgctxt "(qtundo-format)"
+msgid "Merge data"
+msgstr ""
+
+#: workpackage.cpp:615
+#, kde-format
+msgid ""
+"<p>The work package <b>'%2'</b> has an open document.</p><p>Data may be lost "
+"if you continue.</p>"
+msgid_plural ""
+"<p>The work package <b>'%2'</b> has open documents.</p><p>Data may be lost "
+"if you continue.</p>"
+msgstr[0] ""
+
+#: workpackage.cpp:636
+#, kde-format
+msgid ""
+"<p>The work package <b>'%1'</b> has been modified.</p><p>Do you want to save "
+"it?</p>"
+msgstr ""
+
+#: workpackage.cpp:662
+#, kde-format
+msgid "<p>Work package <b>'%1'</b></p><p>Could not open store:</p><p>%2</p>"
+msgstr ""
+
+#: workpackage.cpp:678
+#, kde-format
+msgid "<p>Work package <b>'%1'</b></p><p>Could not extract file:</p><p>%2</p>"
+msgstr ""
+
+#~ msgid "&Settings"
+#~ msgstr "设置(&S)"
+
+#~ msgid "Edit Mode:"
+#~ msgstr "编辑模式："
+
+#~ msgid "Calculate"
+#~ msgstr "计算"
+
+#~ msgid "Manual entry"
+#~ msgstr "手动输入"

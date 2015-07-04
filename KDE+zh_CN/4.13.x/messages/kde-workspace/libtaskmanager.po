@@ -1,0 +1,216 @@
+#
+# Mai Haohui <mhh@126.com>, 2001,2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Lie Ex <lilith.ex@gmail.com>, 2010.
+# FengChao <rainofchaos@gmail.com>, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: libtaskmanager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-04 01:36+0000\n"
+"PO-Revision-Date: 2012-01-05 18:34+0800\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: launcherconfig.cpp:45
+msgid "Launcher Matching Rules"
+msgstr "启动器匹配规则"
+
+#: launcherconfig.cpp:145
+#, kde-format
+msgid "A launcher is already defined for %1"
+msgstr "已经定义过“%1”的启动器"
+
+#: launcherconfig.cpp:202
+msgid ""
+"To associate an application with a launcher, the task manager reads the "
+"application's window class and name. These are then used to look up the "
+"launcher details of an installed application. This attempts to match these "
+"against the application's 'Name'. This can sometimes fail. The list above "
+"allows you to manually set the class+name to launcher/name mapping."
+msgstr ""
+"为了将一个程序和一个启动器关联，任务管理器读取对应程序窗口类和窗口名称。这将"
+"用于查找已安装程序的启动器。它会尝试匹配应用程序的‘名称’。有时可能会匹配失"
+"败。这个列表允许您手动设置窗口类和窗口名称到启动器/名称的映射。"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, view)
+#: launcherconfig.ui:39
+msgid "Window Class"
+msgstr "窗口类"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, view)
+#: launcherconfig.ui:44
+msgid "Window Name"
+msgstr "窗口名称"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, view)
+#: launcherconfig.ui:49
+msgid "Launcher"
+msgstr "启动器"
+
+#. i18n: ectx: property (text), widget (QPushButton, add)
+#: launcherconfig.ui:57
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (text), widget (QPushButton, edit)
+#: launcherconfig.ui:64
+msgid "Edit"
+msgstr "编辑"
+
+#. i18n: ectx: property (text), widget (QPushButton, remove)
+#: launcherconfig.ui:71
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: launcherconfig.ui:91
+msgid ""
+"<b>NOTE:</b> The above list is only required when the automatic window to "
+"launcher rules do not work. You do not need to add an entry here for each "
+"launcher."
+msgstr ""
+"<b>注意：</b>上面的列表仅需要在自动的窗口到启动器的规则不能工作时添加。您不必"
+"为每个启动器添加一个对应的项目。"
+
+#. i18n: ectx: property (text), widget (KUrlLabel, label)
+#: launcherconfig.ui:101
+msgid "More information..."
+msgstr "更多信息..."
+
+#: launcherproperties.cpp:47
+msgid "Launcher Properties"
+msgstr "启动器属性"
+
+#: launcherproperties.cpp:105
+msgid "Select launcher application:"
+msgstr "选择启动器程序："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: launcherproperties.ui:17
+msgid "Window class:"
+msgstr "窗口类："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: launcherproperties.ui:27
+msgid "Window name:"
+msgstr "窗口名称："
+
+#. i18n: ectx: property (text), widget (QPushButton, detect)
+#: launcherproperties.ui:37
+msgid "Detect Window Properties"
+msgstr "检测窗口属性"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: launcherproperties.ui:44
+msgid "Launcher:"
+msgstr "启动器："
+
+#: strategies/manualgroupingstrategy.cpp:76
+msgid "Leave Group"
+msgstr "离开分组"
+
+#: strategies/manualgroupingstrategy.cpp:83
+msgid "Remove Group"
+msgstr "删除分组"
+
+#: strategies/programgroupingstrategy.cpp:75
+msgid "Allow this program to be grouped"
+msgstr "允许将此程序编入分组"
+
+#: strategies/programgroupingstrategy.cpp:77
+msgid "Do not allow this program to be grouped"
+msgstr "不允许将此程序编入分组"
+
+#: task.cpp:256
+msgctxt "marks that a task has been modified"
+msgid "modified"
+msgstr "已修改"
+
+#: taskactions.cpp:171
+msgid "Mi&nimize"
+msgstr "最小化(&N)"
+
+#: taskactions.cpp:182
+msgid "Ma&ximize"
+msgstr "最大化(&X)"
+
+#: taskactions.cpp:192
+msgid "&Shade"
+msgstr "卷起(&S)"
+
+#: taskactions.cpp:202
+msgid "Re&size"
+msgstr "大小(&S)"
+
+#: taskactions.cpp:210
+msgid "&Move"
+msgstr "移动(&M)"
+
+#: taskactions.cpp:219
+msgid "&Close"
+msgstr "关闭(&C)"
+
+#: taskactions.cpp:252
+msgid "Move &To Current Desktop"
+msgstr "移至当前桌面(&T)"
+
+#: taskactions.cpp:273
+msgid "&All Desktops"
+msgstr "全部桌面(&A)"
+
+#: taskactions.cpp:320
+msgid "Move To &Desktop"
+msgstr "移至桌面(&D)"
+
+#: taskactions.cpp:340
+msgid "Keep &Above Others"
+msgstr "常居顶端(&A)"
+
+#: taskactions.cpp:350
+msgid "Keep &Below Others"
+msgstr "常居底端(&B)"
+
+#: taskactions.cpp:360
+msgid "&Fullscreen"
+msgstr "全屏(&F)"
+
+#: taskactions.cpp:370
+msgid "More Actions"
+msgstr "更多动作"
+
+#: taskactions.cpp:397
+msgid "&Leave Group"
+msgstr "离开分组(&L)"
+
+#: taskactions.cpp:425
+msgid "Remove This Launcher"
+msgstr "移除此启动器"
+
+#: taskactions.cpp:446
+msgid "&Show A Launcher When Not Running"
+msgstr "未运行时显示启动器(&S)"
+
+#: taskactions.cpp:479
+msgid ""
+"The application, to which this task is associated with, could not be "
+"determined. Please select the appropriate application from the list below:"
+msgstr "这个任务关联的程序无法被确定。请从列表中选择合适的程序："
+
+#: taskactions.cpp:526
+msgid "Start New Instance"
+msgstr "启动新实例"
+
+#: taskactions.cpp:550
+msgid "&Edit Group"
+msgstr "编辑分组(&E)"
+
+#~ msgid "Ad&vanced"
+#~ msgstr "高级(&V)"

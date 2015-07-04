@@ -1,0 +1,330 @@
+# translation of skanlite.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: skanlite\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-02 01:23+0000\n"
+"PO-Revision-Date: 2011-08-25 22:33+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#: ImageViewer.cpp:59
+msgid "Zoom In"
+msgstr "放大"
+
+#: ImageViewer.cpp:62
+msgid "Zoom Out"
+msgstr "缩小"
+
+#: ImageViewer.cpp:65
+msgid "Zoom to Actual size"
+msgstr "缩放为实际大小"
+
+#: ImageViewer.cpp:68
+msgid "Zoom to Fit"
+msgstr "缩放以适应"
+
+#: main.cpp:33
+msgid "Skanlite"
+msgstr "Skanlite"
+
+#: main.cpp:34
+msgid "This is a scanning application for KDE based on libksane."
+msgstr "这是一款基于 libksane 的 KDE 图像扫描程序。"
+
+#: main.cpp:36
+#, fuzzy
+#| msgid "(C) 2008 Kåre Särs"
+msgid "(C) 2008-2014 Kåre Särs"
+msgstr "(C) 2008 Kåre Särs"
+
+#: main.cpp:38
+msgid "Kåre Särs"
+msgstr "Kåre Särs"
+
+#: main.cpp:39
+msgid "developer"
+msgstr "开发者"
+
+#: main.cpp:42
+msgid "Arseniy Lartsev"
+msgstr "Arseniy Lartsev"
+
+#: main.cpp:43
+msgid "contributor"
+msgstr "贡献者"
+
+#: main.cpp:46
+msgid "Gilles Caulier"
+msgstr "Gilles Caulier"
+
+#: main.cpp:47 main.cpp:55
+msgid "Importing libksane to extragear"
+msgstr "导入 libksane 至 extragear"
+
+#: main.cpp:50
+msgid "Anne-Marie Mahfouf"
+msgstr "Anne-Marie Mahfouf"
+
+#: main.cpp:51
+msgid "Writing the user manual"
+msgstr "撰写用户手册"
+
+#: main.cpp:54
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:58
+msgid "Chusslove Illich"
+msgstr "Chusslove Illich"
+
+#: main.cpp:59 main.cpp:63
+msgid "Help with translations"
+msgstr "帮助翻译"
+
+#: main.cpp:62
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#: main.cpp:71
+msgid "Sane scanner device name."
+msgstr "Sane 扫描设备名称。"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SaveLocation)
+#: SaveLocation.ui:14
+msgid "Save Location"
+msgstr "保存位置"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, locationLabel)
+#: SaveLocation.ui:23 settings.ui:80
+msgid "Save Location:"
+msgstr "保存位置："
+
+#. i18n: ectx: property (text), widget (QPushButton, getDirButton)
+#. i18n: ectx: property (text), widget (QPushButton, u_getDirButton)
+#: SaveLocation.ui:44 settings.ui:102
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, namePrefixLabel)
+#: SaveLocation.ui:53
+msgid "Name & Format:"
+msgstr "名称和格式："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, numberLabel)
+#: SaveLocation.ui:72 settings.ui:131
+msgid "###."
+msgstr "###."
+
+#. i18n: ectx: property (text), widget (QLabel, u_resultValue)
+#: SaveLocation.ui:84
+msgid "/home/joe/example.png"
+msgstr "/home/joe/example.png"
+
+#. i18n: ectx: property (text), widget (QLabel, resultLabel)
+#: SaveLocation.ui:91
+msgid "Example:"
+msgstr "示例："
+
+#. i18n: ectx: property (text), widget (QLabel, numStartFromLabel)
+#: SaveLocation.ui:98
+msgid "Start numbering from:"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SkanliteSettings)
+#: settings.ui:14 skanlite.cpp:58
+msgid "Settings"
+msgstr "设置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settings.ui:20
+msgid "Image saving"
+msgstr "图像保存"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: settings.ui:26
+msgid "Preview before saving:"
+msgstr "保存前先预览："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: settings.ui:46
+msgid "Save mode:"
+msgstr "保存模式："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, saveModeCB)
+#: settings.ui:60
+msgid "Open the save dialog for every image"
+msgstr "为每张图像打开保存对话框"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, saveModeCB)
+#: settings.ui:65
+msgid "Open the save dialog for the first image only"
+msgstr "仅为首张图像打开保存对话框"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings.ui:109
+#, fuzzy
+#| msgid "Name & Format:"
+msgid "Name && Format:"
+msgstr "名称和格式："
+
+#. i18n: ectx: property (text), widget (QLineEdit, imgPrefix)
+#: settings.ui:124
+msgid "Image"
+msgstr "图像"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: settings.ui:143
+msgid "Specify save quality:"
+msgstr "指定保存质量："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, imgQuality)
+#: settings.ui:202
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (title), widget (QGroupBox, generalGB)
+#: settings.ui:230
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (text), widget (QCheckBox, setPreviewDPI)
+#: settings.ui:236
+msgid "Set preview resolution (DPI)"
+msgstr "设定预览分辨率(DPI)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, previewDPI)
+#: settings.ui:250
+msgid "50"
+msgstr "50"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, previewDPI)
+#: settings.ui:255
+msgid "75"
+msgstr "75"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, previewDPI)
+#: settings.ui:260
+msgid "100"
+msgstr "100"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, previewDPI)
+#: settings.ui:265
+msgid "150"
+msgstr "150"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, previewDPI)
+#: settings.ui:270
+msgid "300"
+msgstr "300"
+
+#. i18n: ectx: property (text), widget (QCheckBox, u_disableSelections)
+#: settings.ui:283
+msgid "Disable automatic selections"
+msgstr "禁用自动选择"
+
+#. i18n: ectx: property (text), widget (QPushButton, revertOptions)
+#: settings.ui:316
+#, fuzzy
+#| msgid "Revert scanner options to default values:"
+msgid "Revert scanner options to default values"
+msgstr "重置扫描仪选项："
+
+#: skanlite.cpp:60
+msgid "About"
+msgstr "关于"
+
+#: skanlite.cpp:123
+msgid "Skanlite Settings"
+msgstr "Skanlite 设置"
+
+#: skanlite.cpp:144
+msgid "Opening the selected scanner failed."
+msgstr "打开选中的扫描仪失败。"
+
+#: skanlite.cpp:148
+#, fuzzy, kde-format
+#| msgid "Skanlite"
+msgctxt "@title:window %1 = scanner maker, %2 = scanner model"
+msgid "%1 %2 - Skanlite"
+msgstr "Skanlite"
+
+#: skanlite.cpp:153
+#, fuzzy, kde-format
+#| msgid "Skanlite"
+msgctxt "@title:window %1 = scanner device"
+msgid "%1 - Skanlite"
+msgstr "Skanlite"
+
+#: skanlite.cpp:162
+msgid "Save"
+msgstr "保存"
+
+#: skanlite.cpp:174
+msgid "New Image File Name"
+msgstr "新图像文件名"
+
+#: skanlite.cpp:207
+#, kde-format
+msgid "%1: %2"
+msgstr ""
+
+#: skanlite.cpp:226
+#, fuzzy
+#| msgid "Image"
+msgctxt "prefix for auto naming"
+msgid "Image-"
+msgstr "图像"
+
+#: skanlite.cpp:338
+msgid ""
+"The image will be saved in the PNG format, as Skanlite only supports saving "
+"16 bit color images in the PNG format."
+msgstr ""
+"图像将以 PNG 格式保存，因为 Skanlite 只支持以 PNG 格式保存 16 位色的图像。"
+
+#: skanlite.cpp:378
+#, kde-format
+msgid "Do you want to overwrite \"%1\"?"
+msgstr "您想要覆盖“%1”吗？"
+
+#: skanlite.cpp:380
+msgid "Overwrite"
+msgstr "覆盖"
+
+#: skanlite.cpp:423 skanlite.cpp:435
+msgid "Failed to save image"
+msgstr "保存图像失败"
+
+#: skanlite.cpp:441
+#, fuzzy
+#| msgid "Failed to save image"
+msgid "Failed to upload image"
+msgstr "保存图像失败"
+
+#~ msgid "Save without asking for a filename"
+#~ msgstr "不询问文件名而直接保存"
+
+#~ msgid "Use this option to specify the resolution for the preview scans."
+#~ msgstr "使用此选项来指定预览扫描所用的分辨率。"

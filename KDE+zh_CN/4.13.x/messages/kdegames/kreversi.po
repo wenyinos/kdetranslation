@@ -1,0 +1,369 @@
+# translation of kreversi.po to zh_CN
+# Copyright (C) 2002 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
+# Funda Wang <fundawang@en2china.com>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2002.
+# Zhang Yue <zhangyue911@hotmail.com>, 2004.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2009.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-11 01:39+0000\n"
+"PO-Revision-Date: 2010-11-10 14:29+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.1\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: commondefs.cpp:47
+msgid "Blue"
+msgstr "蓝棋"
+
+#: commondefs.cpp:47
+msgid "Red"
+msgstr "红棋"
+
+#. i18n: ectx: property (text), widget (QLabel, blackLabel)
+#: commondefs.cpp:48 startgamedialog.ui:24
+msgid "Black"
+msgstr "黑棋"
+
+#. i18n: ectx: property (text), widget (QLabel, whiteLabel)
+#: commondefs.cpp:48 startgamedialog.ui:150
+msgid "White"
+msgstr "白棋"
+
+#. i18n: ectx: label, entry (AnimationSpeed), group (Game)
+#: kreversi.kcfg:9
+msgid "The speed of the animations."
+msgstr "动画速度。"
+
+#. i18n: ectx: label, entry (CompetitiveGameChoice), group (Game)
+#: kreversi.kcfg:18
+msgid "Whether to play competitively in contrast to casually."
+msgstr "设定计算机要用竞技水平玩还是随意玩。"
+
+#. i18n: ectx: label, entry (UseColoredChips), group (Game)
+#: kreversi.kcfg:22
+msgid "Whether to use colored chips instead of black and white ones."
+msgstr "是否使用彩色棋子替代黑白棋子。"
+
+#. i18n: ectx: Menu (view)
+#: kreversiui.rc:13
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: Menu (settings)
+#: kreversiui.rc:18
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kreversiui.rc:25
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: kreversiview.cpp:246
+#, fuzzy
+#| msgid "Computer can not move. It is your turn again."
+msgid "White can not perform any move. It is black turn again."
+msgstr "电脑无法落子，又轮到您了。"
+
+#: kreversiview.cpp:255
+#, fuzzy
+#| msgid "You can not perform any move. Computer takes next turn now."
+msgid "Black can not perform any move. It is white turn again."
+msgstr "您无法落子，下面轮到电脑了。"
+
+#: main.cpp:33
+msgid "KDE Reversi Board Game"
+msgstr "KDE 黑白棋游戏"
+
+#: main.cpp:37
+msgid "KReversi"
+msgstr "KReversi"
+
+#: main.cpp:39
+msgid ""
+"(c) 1997-2000, Mario Weilguni\n"
+"(c) 2004-2006, Inge Wallin\n"
+"(c) 2006, Dmitry Suzdalev"
+msgstr ""
+"(c) 1997-2000，Mario Weilguni\n"
+"(c) 2004-2006，Inge Wallin\n"
+"(c) 2006，Dmitry Suzdalev"
+
+#: main.cpp:41
+msgid "Mario Weilguni"
+msgstr "Mario Weilguni"
+
+#: main.cpp:41 main.cpp:42
+msgid "Original author"
+msgstr "原作者"
+
+#: main.cpp:42
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#: main.cpp:43
+msgid "Dmitry Suzdalev"
+msgstr "Dmitry Suzdalev"
+
+#: main.cpp:43
+msgid "Game rewrite for KDE4. Current maintainer."
+msgstr "KDE4 版本重写，当前维护者。"
+
+#: main.cpp:44
+msgid "Simon Hürlimann"
+msgstr "Simon Hürlimann"
+
+#: main.cpp:44
+msgid "Action refactoring"
+msgstr "动作重构"
+
+#: main.cpp:45
+msgid "Mats Luthman"
+msgstr "Mats Luthman"
+
+#: main.cpp:45
+msgid "Game engine, ported from his JAVA applet."
+msgstr "游戏引擎，移植自他的 JAVA applet。"
+
+#: main.cpp:46
+msgid "Arne Klaassen"
+msgstr "Arne Klaassen"
+
+#: main.cpp:46
+msgid "Original raytraced chips."
+msgstr "镭光棋子原始设计。"
+
+#: main.cpp:47
+msgid "Mauricio Piacentini"
+msgstr "Mauricio Piacentini"
+
+#: main.cpp:47
+msgid "Vector chips and background for KDE4."
+msgstr "KDE4 下的矢量棋子和背景设计。"
+
+#: main.cpp:48
+msgid "Brian Croom"
+msgstr "Brian Croom"
+
+#: main.cpp:48
+msgid "Port rendering code to KGameRenderer"
+msgstr "移植到 KGameRenderer"
+
+#: main.cpp:49
+msgid "Denis Kuplyakov"
+msgstr ""
+
+#: main.cpp:49
+msgid "Port rendering code to QML, redesign and a lot of improvements"
+msgstr ""
+
+#: main.cpp:54
+msgid "Start with demo game playing"
+msgstr "以游戏演示模式开始"
+
+#: mainwindow.cpp:56
+msgid "Press start game!"
+msgstr ""
+
+#: mainwindow.cpp:73
+msgid "Move History"
+msgstr "落子历史"
+
+#: mainwindow.cpp:120
+msgid "Show Last Move"
+msgstr "显示上一步"
+
+#: mainwindow.cpp:125
+msgid "Show Legal Moves"
+msgstr "显示合法落子位"
+
+#: mainwindow.cpp:130
+msgid "Animation Speed"
+msgstr "动画速度"
+
+#: mainwindow.cpp:134
+msgid "Slow"
+msgstr "慢"
+
+#: mainwindow.cpp:134
+msgid "Normal"
+msgstr "普通"
+
+#: mainwindow.cpp:134
+msgid "Fast"
+msgstr "快"
+
+#: mainwindow.cpp:139
+msgid "Use Colored Chips"
+msgstr "使用彩色棋子"
+
+#: mainwindow.cpp:145
+msgid "Show Move History"
+msgstr "显示落子历史"
+
+#: mainwindow.cpp:224 mainwindow.cpp:239 mainwindow.cpp:252 mainwindow.cpp:260
+msgid "Game is drawn!"
+msgstr "游戏平手！"
+
+#: mainwindow.cpp:227 mainwindow.cpp:242
+msgid "You win!"
+msgstr "您赢了！"
+
+#: mainwindow.cpp:230 mainwindow.cpp:245
+msgid "You have lost!"
+msgstr "您输了！"
+
+#: mainwindow.cpp:254 mainwindow.cpp:256 mainwindow.cpp:262 mainwindow.cpp:264
+#, kde-format
+msgid "%1 has won!"
+msgstr ""
+
+#: mainwindow.cpp:270 mainwindow.cpp:271 mainwindow.cpp:273 mainwindow.cpp:274
+#, kde-format
+msgid ""
+"\n"
+"%1: %2"
+msgstr ""
+"\n"
+"%1：%2"
+
+#: mainwindow.cpp:277
+msgid "Game over"
+msgstr "游戏结束"
+
+#: mainwindow.cpp:344
+msgid "GAME OVER"
+msgstr "游戏结束"
+
+#: mainwindow.cpp:349 mainwindow.cpp:352 mainwindow.cpp:362 mainwindow.cpp:364
+#, kde-format
+msgid "%1: %2"
+msgstr "%1：%2"
+
+#: mainwindow.cpp:357
+#, kde-format
+msgid "%1 turn"
+msgstr ""
+
+#: mainwindow.cpp:368
+#, kde-format
+msgid "%1's turn"
+msgstr ""
+
+#: mainwindow.cpp:379 startgamedialog.cpp:163 startgamedialog.cpp:173
+msgid "Computer"
+msgstr "电脑水平"
+
+#: startgamedialog.cpp:43
+#, fuzzy
+#| msgid "Online game"
+msgid "New game"
+msgstr "在线游戏"
+
+#: startgamedialog.cpp:46
+msgid "Start game"
+msgstr ""
+
+#: startgamedialog.cpp:47
+msgid "Let's start playing!"
+msgstr ""
+
+#: startgamedialog.cpp:48
+msgid "Quit"
+msgstr ""
+
+#: startgamedialog.cpp:49
+#, fuzzy
+#| msgid "KReversi"
+msgid "Quit KReversi"
+msgstr "KReversi"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: startgamedialog.ui:83 startgamedialog.ui:209
+msgid "Name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: startgamedialog.ui:100 startgamedialog.ui:226
+msgid "Skill level:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: startgamedialog.ui:128
+msgid "VS"
+msgstr ""
+
+#~ msgid "Very Easy"
+#~ msgstr "非常容易"
+
+#~ msgid "Easy"
+#~ msgstr "容易"
+
+#~ msgid "Hard"
+#~ msgstr "困难"
+
+#~ msgid "Very Hard"
+#~ msgstr "非常困难"
+
+#~ msgid "Unbeatable"
+#~ msgstr "无敌"
+
+#~ msgid "Champion"
+#~ msgstr "至尊"
+
+#, fuzzy
+#~| msgid "Port rendering code to KGameRenderer"
+#~ msgid "Port rendering code to QML"
+#~ msgstr "移植到 KGameRenderer"
+
+#~ msgid "Your turn."
+#~ msgstr "该您了。"
+
+#~ msgid "You: %1"
+#~ msgstr "您：%1"
+
+#~ msgid ""
+#~ "\n"
+#~ "You: %1"
+#~ msgstr ""
+#~ "\n"
+#~ "您：%1"
+
+#~ msgid "Difficulty level"
+#~ msgstr "难度等级"
+
+#~ msgid "Players && Seats"
+#~ msgstr "玩家和座位"
+
+#~ msgid "Opponent"
+#~ msgstr "对手"
+
+#~ msgid "Very easy"
+#~ msgstr "非常容易"
+
+#~ msgid "Computer Skill"
+#~ msgstr "电脑水平"
+
+#~ msgid "The strength of the computer player."
+#~ msgstr "计算机的水平。"

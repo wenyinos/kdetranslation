@@ -1,0 +1,412 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2010, 2013.
+# Lie Ex <lilith.ex@gmail.com>, 2010.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-20 01:45+0000\n"
+"PO-Revision-Date: 2013-10-26 20:05+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: ../kmigratorbase.cpp:123
+#, kde-format
+msgid "Creating instance of type %1"
+msgstr "正在创建 %1 类型的实例"
+
+#: ../migratorbase.cpp:138
+msgid "Missing Identifier"
+msgstr ""
+
+#: ../migratorbase.cpp:151
+msgid "Failed to start migration because migrator is not ready"
+msgstr "迁移器未准备就绪，迁移失败"
+
+#: ../migratorbase.cpp:157
+msgid "Starting migration..."
+msgstr "开始迁移..."
+
+#: ../migratorbase.cpp:198
+msgid "Migration complete"
+msgstr "迁移完成"
+
+#: ../migratorbase.cpp:202
+msgid "Migration aborted"
+msgstr "迁移中止"
+
+#: ../migratorbase.cpp:208
+msgid "Migration failed"
+msgstr "迁移失败"
+
+#: ../migratorbase.cpp:212
+msgid "Migration paused"
+msgstr "迁移暂停"
+
+#: ../migratorbase.cpp:242
+msgid "This migration has already been started once but was aborted"
+msgstr "之前进行过迁移，但是中途停止"
+
+#: ../migratorbase.cpp:278
+msgctxt "@info:status"
+msgid "Not started"
+msgstr "未开始"
+
+#: ../migratorbase.cpp:279
+msgctxt "@info:status"
+msgid "Running..."
+msgstr "运行中..."
+
+#: ../migratorbase.cpp:280
+msgctxt "@info:status"
+msgid "Complete"
+msgstr "完成"
+
+#: ../migratorbase.cpp:281
+msgctxt "@info:status"
+msgid "Aborted"
+msgstr "已中止"
+
+#: ../migratorbase.cpp:282
+msgctxt "@info:status"
+msgid "Paused"
+msgstr "已暂停"
+
+#: ../migratorbase.cpp:283
+msgctxt "@info:status"
+msgid "Needs Update"
+msgstr "需要更新"
+
+#: ../migratorbase.cpp:284
+msgctxt "@info:status"
+msgid "Failed"
+msgstr "失败"
+
+#: imapcacheadapter.cpp:95
+msgid ""
+"Could not create adapter for previous KMail version's disconnected IMAP cache"
+msgstr "无法创建之前版本的 KMail 离线 IMAP 缓存适配器"
+
+#: imapcacheadapter.cpp:114
+msgid ""
+"Could not configure adapter for previous KMail version's disconnected IMAP "
+"cache"
+msgstr "无法配置之前版本的 KMail 离线 IMAP 缓存适配器"
+
+#: imapcacheadapter.cpp:119
+msgctxt "@title account name"
+msgid "Previous KMail's disconnected IMAP cache"
+msgstr "之前版本的 KMail 离线 IMAP 缓存"
+
+#: imapcacheadapter.cpp:129
+msgid "Access to previous KMail version's cache enabled"
+msgstr "之前版本的 KMail 的缓存访问已启用。"
+
+#: imapcachecollectionmigrator.cpp:203 imapcachelocalimporter.cpp:145
+#, kde-format
+msgctxt ""
+"@info:status folder name and number of messages to import before finished"
+msgid "%1: one message left to import"
+msgid_plural "%1: %2 messages left to import"
+msgstr[0] "%1：还有 %2 封信件待导入"
+
+#: imapcachecollectionmigrator.cpp:476
+#, kde-format
+msgctxt "@info:status"
+msgid "No cache for account %1 available"
+msgstr "没有账户 %1 可用的缓存"
+
+#: imapcachecollectionmigrator.cpp:577
+#, kde-format
+msgctxt "@info:status"
+msgid "Starting cache migration for folder %1 of account %2"
+msgstr "正在开始迁移账户 %2 的 %1 文件夹的缓存"
+
+#: imapcachecollectionmigrator.cpp:584 imapcachelocalimporter.cpp:263
+#, kde-format
+msgctxt "@info:status foldername"
+msgid "%1: listing messages..."
+msgstr "%1：正在列出信件..."
+
+#: imapcachelocalimporter.cpp:121 imapcachelocalimporter.cpp:215
+#, kde-format
+msgctxt "@title account name"
+msgid "Local Copies of %1"
+msgstr "%1 的本地副本"
+
+#: imapcachelocalimporter.cpp:171
+#, kde-format
+msgid "Cannot provide access to local copies of disconnected IMAP account %1"
+msgstr "无法对已断开的 IMAP 账户 %1 授予本地副本访问权限"
+
+#: imapcachelocalimporter.cpp:203 kmailmigrator.cpp:401 kmailmigrator.cpp:414
+#: kmailmigrator.cpp:877 kmailmigrator.cpp:939 kmailmigrator.cpp:1064
+msgid "Failed to obtain D-Bus interface for remote configuration."
+msgstr "无法为远程配置获得 D-Bus 接口。"
+
+#: kmailmigrator.cpp:125
+msgid "Beginning KMail migration..."
+msgstr "正在开始 KMail 迁移..."
+
+#: kmailmigrator.cpp:323
+#, kde-format
+msgid "No backend for '%1' available."
+msgstr "没有适合“%1”的后端。"
+
+#: kmailmigrator.cpp:330
+#, kde-format
+msgid "'%1' has been already migrated."
+msgstr "“%1”已经迁移过了。"
+
+#: kmailmigrator.cpp:336
+msgid ""
+"Enabling access to the disconnected IMAP cache of the previous KMail version"
+msgstr "启用对之前版本的 KMail 的离线 IMAP 缓存的访问"
+
+#: kmailmigrator.cpp:348
+msgid "Local folders have already been migrated."
+msgstr "本地文件夹已经迁移过了。"
+
+#: kmailmigrator.cpp:367
+#, kde-format
+msgctxt "@info:status"
+msgid "Migrating local folders in '%1'..."
+msgstr "正在迁移“%1”中的本地文件夹..."
+
+#: kmailmigrator.cpp:379
+msgid "Migration successfully completed."
+msgstr "迁移成功完成。"
+
+#: kmailmigrator.cpp:494
+#, kde-format
+msgid "Migration of '%1' to Akonadi resource failed: %2"
+msgstr "将“%1”迁移到 Akonadi 资源失败：%2"
+
+#: kmailmigrator.cpp:536
+#, kde-format
+msgid "Migration of '%1' succeeded."
+msgstr "“%1”的迁移成功。"
+
+#: kmailmigrator.cpp:594
+#, kde-format
+msgid "Trying to migrate '%1' to resource..."
+msgstr "正在尝试迁移“%1”到资源..."
+
+#: kmailmigrator.cpp:626 kmailmigrator.cpp:636 kmailmigrator.cpp:742
+#: kmailmigrator.cpp:863 kmailmigrator.cpp:925
+#, kde-format
+msgid "Failed to create resource: %1"
+msgstr "创建资源失败：%1"
+
+#: kmailmigrator.cpp:629
+msgid "Created disconnected imap resource"
+msgstr "已创建断开的 imap 资源"
+
+#: kmailmigrator.cpp:639
+msgid "Created imap resource"
+msgstr "已创建 imap 资源"
+
+#: kmailmigrator.cpp:745
+msgid "Created pop3 resource"
+msgstr "已创建 pop3 资源"
+
+#: kmailmigrator.cpp:866
+msgid "Created mbox resource"
+msgstr "已创建 mbox 资源"
+
+#: kmailmigrator.cpp:928
+msgid "Created maildir resource"
+msgstr "已创建 maildir 资源"
+
+#: kmailmigrator.cpp:977
+#, kde-format
+msgid "Failed to create resource for local folders: %1"
+msgstr "创建本地文件夹资源失败：%1"
+
+#: kmailmigrator.cpp:981
+msgid "Created local maildir resource."
+msgstr "已创建本地 maildir 资源。"
+
+#: kmailmigrator.cpp:1017
+msgid "KMail Folders"
+msgstr "KMail 文件夹"
+
+#: kmailmigrator.cpp:1025
+#, kde-format
+msgctxt "@info:status resource that will provide folder such as outbox, sent"
+msgid "Using '%1' for default outbox, sent mail, trash, etc."
+msgstr "为默认的发件箱、已发送邮件、废件箱等等使用“%1”。"
+
+#: kmailmigrator.cpp:1030
+#, kde-format
+msgctxt "@info:status resource that will provide folder such as outbox, sent"
+msgid "Keeping '%1' for default outbox, sent mail, trash, etc."
+msgstr "为默认的发件箱、已发送邮件、废件箱等等保留“%1”。"
+
+#: kmailmigrator.cpp:1101 kmailmigrator.cpp:1332
+msgid "Local folders migrated successfully."
+msgstr "成功迁移本地文件夹。"
+
+#: localfolderscollectionmigrator.cpp:68
+msgctxt "mail folder name for role inbox"
+msgid "inbox"
+msgstr "收件箱"
+
+#: localfolderscollectionmigrator.cpp:74
+msgctxt "mail folder name for role outbox"
+msgid "outbox"
+msgstr "发件箱"
+
+#: localfolderscollectionmigrator.cpp:80
+msgctxt "mail folder name for role sent-mail"
+msgid "sent-mail"
+msgstr "已发邮件"
+
+#: localfolderscollectionmigrator.cpp:86
+msgctxt "mail folder name for role trash"
+msgid "trash"
+msgstr "废件夹"
+
+#: localfolderscollectionmigrator.cpp:92
+msgctxt "mail folder name for role drafts"
+msgid "drafts"
+msgstr "草稿"
+
+#: localfolderscollectionmigrator.cpp:98
+msgctxt "mail folder name for role templates"
+msgid "templates"
+msgstr "模板"
+
+#: main.cpp:39
+msgid "KMail Migration Tool"
+msgstr "KMail 迁移工具"
+
+#: main.cpp:41
+msgid "Migration of KMail accounts to Akonadi"
+msgstr "KMail 账户迁移到 Akonadi"
+
+#: main.cpp:43
+msgid "(c) 2009-2010 the Akonadi developers"
+msgstr "(c) 2009-2010 Akonadi 开发者"
+
+#: main.cpp:47
+msgid "Jonathan Armond"
+msgstr "Jonathan Armond"
+
+#: main.cpp:47
+msgid "Author"
+msgstr "作者"
+
+#: main.cpp:51
+msgid "Show reporting dialog"
+msgstr "显示报告对话框"
+
+#: main.cpp:52
+msgid "Show report only if changes were made"
+msgstr "仅当有改变时显示报告"
+
+#: mixedtreeconverter.cpp:35
+#, kde-format
+msgid "'%1' is not a valid maildir folder."
+msgstr "“%1”不是有效的 maildir 文件夹。"
+
+#: mixedtreeconverter.cpp:95
+#, kde-format
+msgid "Unable to move mbox file '%1' to backup location."
+msgstr "无法将 mbox 文件“%1”移动到备份位置。"
+
+#: mixedtreeconverter.cpp:102
+#, kde-format
+msgid "Unable to create maildir folder at '%1'."
+msgstr "无法在“%1”创建 maildir 文件夹。"
+
+#: mixedtreeconverter.cpp:109
+#, kde-format
+msgid "Unable to open mbox file at '%1'."
+msgstr "无法打开“%1”的 mbox 文件。"
+
+#: mixedtreeconverter.cpp:114
+#, kde-format
+msgid "Unable to add new message to maildir '%1'."
+msgstr "无法向 maildir“%1”添加新消息。"
+
+#~ msgctxt "@info:status still running background jobs"
+#~ msgid "Waiting for one background task to finish"
+#~ msgid_plural "Waiting for %1 background tasks to finish"
+#~ msgstr[0] "正在等待 %1 个后台任务完成"
+
+#, fuzzy
+#~| msgctxt "@info"
+#~| msgid ""
+#~| "<para>Cached IMAP accounts have a local copy of the server's data.</"
+#~| "para><para>These copies can be kept in local folders or be deletedafter "
+#~| "import.</para><note>Mail that did not get imported will always be kept "
+#~| "in local folders</note>"
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "<para>Cached IMAP accounts have a local copy of the server's data.</"
+#~ "para><para>These copies can either be kept in local folders, or be "
+#~ "deleted after import.</para><note>Mail that was not imported will always "
+#~ "be kept in local folders.</note>"
+#~ msgstr ""
+#~ "<para>已缓存的 IMAP 账户会有一份服务器数据的本地副本。</para><para>这些副"
+#~ "本会保留在本地文件夹内，直到导入后予以删除。</para><note>那些没有导入的邮"
+#~ "件会一直保存在本地文件夹内</note>"
+
+#~ msgid "KMail 2 Migration"
+#~ msgstr "KMail 2 迁移"
+
+#~ msgctxt "@action"
+#~ msgid "Delete Copies"
+#~ msgstr "删除副本"
+
+#~ msgctxt "@action"
+#~ msgid "Keep Copies"
+#~ msgstr "保留副本"
+
+#, fuzzy
+#~| msgctxt "@info:status"
+#~| msgid "Scheduling background task for recovering unimported messages."
+#~| msgid_plural ""
+#~| "Scheduling background task for recovering unimported messages. Now at a "
+#~| "total of %1 such tasks"
+#~ msgctxt "@info:status"
+#~ msgid "Scheduling background task for recovering non-imported messages."
+#~ msgid_plural ""
+#~ "Scheduling background task for recovering non-imported messages. Now at a "
+#~ "total of %1 such tasks"
+#~ msgstr[0] "正在后台恢复未导入的信件。尚余 %1 个此类任务"
+
+#~ msgctxt "@info:status importing cached messages of a DIMAP account"
+#~ msgid "Starting local cache import for %1"
+#~ msgstr "对 %1 开始本地缓存导入"
+
+#~ msgctxt "@info:status"
+#~ msgid "Local cache import for %1 completed"
+#~ msgstr "%1 的本地缓存导入操作已完成"
+
+#~ msgctxt "@info:status"
+#~ msgid "Resource '%1' did not create any folders"
+#~ msgstr "资源“%1”未创建任何文件夹"
+
+#~ msgctxt "@info:status"
+#~ msgid "Resource '%1' is not working correctly"
+#~ msgstr "资源“%1”无法正常工作"

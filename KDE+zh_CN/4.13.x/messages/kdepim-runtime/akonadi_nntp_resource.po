@@ -1,0 +1,198 @@
+# translation of akonadi_nntp_resource.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+# Lie Ex <lilith.ex@gmail.com>, 2009-2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_nntp_resource\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:37+0200\n"
+"PO-Revision-Date: 2010-01-06 14:25+0000\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: configdialog.cpp:32
+msgid " article"
+msgid_plural " articles"
+msgstr[0] " 篇文章"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: configdialog.ui:24
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: configdialog.ui:30
+msgid "&Name:"
+msgstr "名称(&N)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: configdialog.ui:43
+msgid "&Server:"
+msgstr "服务器(&S)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: configdialog.ui:56
+msgid "Port:"
+msgstr "端口："
+
+#. i18n: ectx: property (title), widget (KButtonGroup, kcfg_Encryption)
+#: configdialog.ui:79
+msgid "Encryption"
+msgstr "加密"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton)
+#: configdialog.ui:87
+msgid "&None"
+msgstr "无(&N)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_2)
+#: configdialog.ui:94
+msgid "&SSL"
+msgstr "&SSL"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_3)
+#: configdialog.ui:101
+msgid "&TLS"
+msgstr "&TLS"
+
+#. i18n: ectx: property (text), widget (KPushButton, checkServerButton)
+#: configdialog.ui:126
+msgid "&Check Server"
+msgstr "检查服务器(&C)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: configdialog.ui:136
+msgid "Authentication"
+msgstr "验证"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RequiresAuthentication)
+#: configdialog.ui:142
+msgid "Server requires authentication"
+msgstr "服务器需要验证"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: configdialog.ui:152
+msgid "&Username:"
+msgstr "用户名(&U)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: configdialog.ui:172
+msgid "&Password:"
+msgstr "密码(&P)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_StorePassword)
+#: configdialog.ui:195
+msgid "Store password in KWallet"
+msgstr "在 KWallet 中保存密码"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: configdialog.ui:219
+msgid "Advanced"
+msgstr "高级"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: configdialog.ui:225
+msgid "Articles"
+msgstr "文章"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: configdialog.ui:231
+msgid "Download at most:"
+msgstr "最多下载："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: configdialog.ui:261
+msgid "Newsgroups"
+msgstr "新闻组"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlatHierarchy)
+#: configdialog.ui:267
+msgid "Create flat newsgroup hierarchy by default"
+msgstr "默认创建平坦的新闻组分层结构"
+
+#: nntpresource.cpp:200
+msgid "no subject"
+msgstr "无主题"
+
+#. i18n: ectx: label, entry (Server), group (Account)
+#: nntpresource.kcfg:11
+msgid "Server hostname"
+msgstr "服务器主机名"
+
+#. i18n: ectx: label, entry (Port), group (Account)
+#: nntpresource.kcfg:15
+msgid "Server port number"
+msgstr "服务器端口号"
+
+#. i18n: ectx: label, entry (Encryption), group (Account)
+#: nntpresource.kcfg:20
+msgid "Encryption method"
+msgstr "加密方法"
+
+#. i18n: ectx: label, entry (Encryption), group (Account)
+#: nntpresource.kcfg:24
+msgid "No encryption"
+msgstr "无加密"
+
+#. i18n: ectx: label, entry (Encryption), group (Account)
+#: nntpresource.kcfg:27
+msgid "SSL encryption"
+msgstr "SSL 加密"
+
+#. i18n: ectx: label, entry (Encryption), group (Account)
+#: nntpresource.kcfg:30
+msgid "TLS encryption"
+msgstr "TLS 加密"
+
+#. i18n: ectx: label, entry (Name), group (Account)
+#: nntpresource.kcfg:35
+msgid "Account name"
+msgstr "账户名称"
+
+#. i18n: ectx: label, entry (RequiresAuthentication), group (Account)
+#: nntpresource.kcfg:39
+msgid "Server requires login"
+msgstr "服务器需要登录"
+
+#. i18n: ectx: label, entry (UserName), group (Account)
+#: nntpresource.kcfg:43
+msgid "Username for login"
+msgstr "登录用户名"
+
+#. i18n: ectx: label, entry (StorePassword), group (Account)
+#: nntpresource.kcfg:47
+msgid "Store login password in KWallet"
+msgstr "在 KDE 钱包中保存登录密码"
+
+#. i18n: ectx: label, entry (MaxDownload), group (Articles)
+#: nntpresource.kcfg:56
+msgid "Maximum number of articles to download."
+msgstr "可下载的最大文章数量。"
+
+#. i18n: ectx: label, entry (LocalHierarchy), group (Newsgroups)
+#: nntpresource.kcfg:64
+msgid "Allow local modifications of the news group hierarchy"
+msgstr "允许对新闻组分层结构的本地修改"
+
+#. i18n: ectx: label, entry (FlatHierarchy), group (Newsgroups)
+#: nntpresource.kcfg:68
+msgid "Create newsgroups in a flat hierarchy by default"
+msgstr "默认时以平坦模式创建新闻组分层结构"
+
+#. i18n: ectx: label, entry (LocalNames), group (Newsgroups)
+#: nntpresource.kcfg:72
+msgid "Allow local renaming of newsgroups"
+msgstr "允许在本地对新闻组重命名"
+
+#. i18n: ectx: label, entry (LastGroupList), group (Internal)
+#: nntpresource.kcfg:80
+msgid "Last update of the newsgroup list"
+msgstr "最近更新的新闻组列表"

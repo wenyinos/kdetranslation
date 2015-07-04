@@ -1,0 +1,292 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2011, 2013.
+# Jeff Bai <jeffbaichina@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-03-09 10:35+0100\n"
+"PO-Revision-Date: 2013-09-01 09:16+0000\n"
+"Last-Translator: Jeff Bai\n"
+"Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: utils/qapt-deb-installer/ChangesDialog.cpp:37
+msgctxt "@title:window"
+msgid "Confirm Additional Changes"
+msgstr "确认额外更改"
+
+#: utils/qapt-deb-installer/ChangesDialog.cpp:42
+msgctxt "@info"
+msgid "<h2>Additional Changes</h2>"
+msgstr "<h2>额外更改</h2>"
+
+#: utils/qapt-deb-installer/ChangesDialog.cpp:46
+msgid "This action requires a change to another package:"
+msgid_plural "This action requires changes to other packages:"
+msgstr[0] "此操作需要对其他软件包进行如下更改："
+
+#: utils/qapt-deb-installer/ChangesDialog.cpp:86
+#: utils/qapt-deb-installer/ChangesDialog.cpp:87
+#| msgctxt "@label"
+#| msgid "Install Package"
+msgctxt "@info:status Requested action"
+msgid "Install"
+msgstr "安装"
+
+#: utils/qapt-deb-installer/ChangesDialog.cpp:88
+msgctxt "@info:status Requested action"
+msgid "Remove"
+msgstr "卸载"
+
+#: utils/qapt-deb-installer/DebCommitWidget.cpp:51
+msgctxt "@info The widget's header label"
+msgid "<title>Installing</title>"
+msgstr "<title>正在安装</title>"
+
+#: utils/qapt-deb-installer/DebCommitWidget.cpp:107
+#| msgctxt "@info Header label used when the install is done"
+#| msgid "<title>Done</title>"
+msgctxt "@info Status information, widget title"
+msgid "<title>Starting</title>"
+msgstr "<title>正在开始安装</title>"
+
+#: utils/qapt-deb-installer/DebCommitWidget.cpp:114
+#| msgctxt "@info Header label used when the install is done"
+#| msgid "<title>Done</title>"
+msgctxt "@info Status information, widget title"
+msgid "<title>Waiting</title>"
+msgstr "<title>正在等待包管理系统</title>"
+
+#: utils/qapt-deb-installer/DebCommitWidget.cpp:122
+#| msgctxt "@info Header label used when the install is done"
+#| msgid "<title>Done</title>"
+msgctxt "@info Status info"
+msgid "<title>Loading Software List</title>"
+msgstr "<title>正在读取软件列表</title>"
+
+#: utils/qapt-deb-installer/DebCommitWidget.cpp:127
+#| msgctxt "@info Header label used when the install is done"
+#| msgid "<title>Done</title>"
+msgctxt "@info Status information, widget title"
+msgid "<title>Downloading Packages</title>"
+msgstr "<title>正在下载软件包</title>"
+
+#: utils/qapt-deb-installer/DebCommitWidget.cpp:132
+#| msgctxt "@info Header label used when the install is done"
+#| msgid "<title>Done</title>"
+msgctxt "@info Status information, widget title"
+msgid "<title>Committing Changes</title>"
+msgstr "<title>正在应用更改</title>"
+
+#: utils/qapt-deb-installer/DebCommitWidget.cpp:138
+msgctxt "@label Message that the install is done"
+msgid "Done"
+msgstr "完成"
+
+#: utils/qapt-deb-installer/DebCommitWidget.cpp:140
+msgctxt "@info Header label used when the install is done"
+msgid "<title>Done</title>"
+msgstr "<title>完成</title>"
+
+#: utils/qapt-deb-installer/DebCommitWidget.cpp:157
+#: utils/qapt-deb-installer/DebInstaller.cpp:67
+msgctxt "@label"
+msgid ""
+"The package system could not be initialized, your configuration may be "
+"broken."
+msgstr "包管理系统无法初始化，你的配置文件可能已损坏。"
+
+#: utils/qapt-deb-installer/DebCommitWidget.cpp:159
+#: utils/qapt-deb-installer/DebInstaller.cpp:69
+msgctxt "@title:window"
+msgid "Initialization error"
+msgstr "初始化错误"
+
+#: utils/qapt-deb-installer/DebCommitWidget.cpp:166
+msgctxt "@label"
+msgid "This package is incompatible with your computer."
+msgstr "这个软件包不兼容你的电脑。"
+
+#: utils/qapt-deb-installer/DebCommitWidget.cpp:167
+#| msgctxt "@label"
+#| msgid "Install Package"
+msgctxt "@title:window"
+msgid "Incompatible Package"
+msgstr "不兼容的软件包"
+
+#: utils/qapt-deb-installer/DebInstaller.cpp:78
+msgctxt "@label"
+msgid "Install Package"
+msgstr "安装软件包"
+
+#: utils/qapt-deb-installer/DebInstaller.cpp:96
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Could not open <filename>%1</filename>. It does not appear to be a valid "
+"Debian package file."
+msgstr "无法打开 <filename>%1</filename>，这看起来不是一个有效的 Debian 软件包文件。"
+
+#: utils/qapt-deb-installer/DebInstaller.cpp:104
+#, kde-format
+msgctxt "@title:window"
+msgid "Package Installer - %1"
+msgstr "软件包安装器 - %1"
+
+#: utils/qapt-deb-installer/DebInstaller.cpp:197
+#, kde-format
+msgctxt "@info"
+msgid "Error: Wrong architecture '%1'"
+msgstr "错误：不正确的硬件架构 '%1'"
+
+#: utils/qapt-deb-installer/DebInstaller.cpp:217
+#, kde-format
+msgctxt "@info Error string when installing would break an existing package"
+msgid "Error: Breaks the existing package \"%1\""
+msgstr "错误：破坏软件包 \"%1\" 的依赖关系"
+
+#: utils/qapt-deb-installer/DebInstaller.cpp:226
+msgctxt "@info"
+msgid "Error: Cannot satisfy dependencies"
+msgstr "错误：无法满足依赖关系"
+
+#: utils/qapt-deb-installer/DebInstaller.cpp:236
+#, kde-format
+msgctxt "@label A note saying that additional packages are needed"
+msgid "Requires the installation of %1 additional package."
+msgid_plural "Requires the installation of %1 additional packages"
+msgstr[0] "需要安装 %1 个额外的软件包"
+
+#: utils/qapt-deb-installer/DebInstaller.cpp:240
+msgctxt "@info"
+msgid "All dependencies are satisfied."
+msgstr "所有依赖关系均已满足，"
+
+#: utils/qapt-deb-installer/DebInstaller.cpp:259
+msgctxt "@info"
+msgid "The same version is available in a software channel."
+msgstr "相同的版本可以从软件源获取，"
+
+#: utils/qapt-deb-installer/DebInstaller.cpp:260
+msgctxt "@info"
+msgid "It is recommended to install the software from the channel instead"
+msgstr "推荐从软件源安装。"
+
+#: utils/qapt-deb-installer/DebInstaller.cpp:262
+msgctxt "@info"
+msgid "An older version is available in a software channel."
+msgstr "一个更旧的版本可以从软件源获取，"
+
+#: utils/qapt-deb-installer/DebInstaller.cpp:263
+msgctxt "@info"
+msgid ""
+"It is recommended to install the version from the software channel, since it "
+"usually has more support."
+msgstr "推荐从软件源安装，因为这通常被更好地支持。"
+
+#: utils/qapt-deb-installer/DebInstaller.cpp:266
+msgctxt "@info"
+msgid "A newer version is available in a software channel."
+msgstr "一个更新的版本可以从软件源获取，"
+
+#: utils/qapt-deb-installer/DebInstaller.cpp:267
+msgctxt "@info"
+msgid ""
+"It is strongly advised to install the version from the software channel, "
+"since it usually has more support."
+msgstr "强烈建议你从软件源安装这个软件包，因为这通常被更好地支持。"
+
+#: utils/qapt-deb-installer/DebViewer.cpp:71
+#| msgctxt "@label Label preceeding the package name"
+#| msgid "Package:"
+msgctxt "@label Label preceding the package name"
+msgid "Package:"
+msgstr "软件包："
+
+#: utils/qapt-deb-installer/DebViewer.cpp:79
+#| msgctxt "@label Label preceeding the package status"
+#| msgid "Status:"
+msgctxt "@label Label preceding the package status"
+msgid "Status:"
+msgstr "状态："
+
+#: utils/qapt-deb-installer/DebViewer.cpp:81
+#| msgctxt "@title:tab"
+#| msgid "Details"
+msgctxt "@label"
+msgid "Details..."
+msgstr "细节..."
+
+#: utils/qapt-deb-installer/DebViewer.cpp:127
+msgctxt "@label Label preceding the package version"
+msgid "Version:"
+msgstr "版本："
+
+#: utils/qapt-deb-installer/DebViewer.cpp:134
+msgctxt "@label Label preceding the package size"
+msgid "Installed Size:"
+msgstr "安装大小："
+
+#: utils/qapt-deb-installer/DebViewer.cpp:141
+msgctxt "@label Label preceding the package maintainer"
+msgid "Maintainer:"
+msgstr "维护者："
+
+#: utils/qapt-deb-installer/DebViewer.cpp:148
+msgctxt "@label Label preceding the package category"
+msgid "Category:"
+msgstr "类别："
+
+#: utils/qapt-deb-installer/DebViewer.cpp:155
+msgctxt "@label Label preceding the package homepage"
+msgid "Homepage:"
+msgstr "主页："
+
+#: utils/qapt-deb-installer/DebViewer.cpp:167
+msgctxt "@title:tab"
+msgid "Description"
+msgstr "描述"
+
+#: utils/qapt-deb-installer/DebViewer.cpp:168
+msgctxt "@title:tab"
+msgid "Details"
+msgstr "细节"
+
+#: utils/qapt-deb-installer/DebViewer.cpp:169
+msgctxt "@title:tab"
+msgid "Included Files"
+msgstr "包含的文件"
+
+#: utils/qapt-deb-installer/main.cpp:29
+msgctxt "@info"
+msgid "A Debian package installer"
+msgstr "Debian 软件包安装器"
+
+#: utils/qapt-deb-installer/main.cpp:35
+msgctxt "@title"
+msgid "QApt Package Installer"
+msgstr "QApt 软件包安装器"
+
+#: utils/qapt-deb-installer/main.cpp:36
+msgctxt "@info:credit"
+msgid "(C) 2011 Jonathan Thomas"
+msgstr "(C) 2011 Jonathan Thomas"
+
+#: utils/qapt-deb-installer/main.cpp:37
+msgctxt "@info:credit"
+msgid "Jonathan Thomas"
+msgstr "Jonathan Thomas"
+
+#: utils/qapt-deb-installer/main.cpp:42
+msgctxt "@info:shell"
+msgid ".deb file"
+msgstr ".deb 文件"
+

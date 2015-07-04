@@ -1,0 +1,650 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010, 2012.
+# Lie Ex <lilith.ex@gmail.com>, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-08 01:37+0000\n"
+"PO-Revision-Date: 2012-09-01 10:31+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: info_aix.cpp:68
+msgid "Name"
+msgstr "名称"
+
+#: info_aix.cpp:69
+msgid "Status"
+msgstr "状态"
+
+#: info_aix.cpp:70
+msgid "Location"
+msgstr "位置"
+
+#: info_aix.cpp:71
+msgid "Description"
+msgstr "描述"
+
+#: info_fbsd.cpp:91
+msgid ""
+"SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
+msgstr "无法查询 SCSI 子系统：找不到 /sbin/camcontrol 程序"
+
+#: info_fbsd.cpp:96
+msgid ""
+"SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
+msgstr "无法查询 SCSI 子系统：/sbin/camcontrol 程序不可执行"
+
+#: info_fbsd.cpp:131
+msgctxt "@title:column Column name for PCI information"
+msgid "Information"
+msgstr "信息"
+
+#: info_fbsd.cpp:136
+msgid ""
+"Could not find any programs with which to query your system's PCI information"
+msgstr "系统中找不到可供查询 PCI 信息的程序"
+
+#: info_fbsd.cpp:147
+#, kde-format
+msgid "PCI subsystem could not be queried: %1 could not be executed"
+msgstr "无法查询 PCI 子系统：%1 程序不可执行"
+
+#: info_fbsd.cpp:166
+msgid "The PCI subsystem could not be queried, this may need root privileges."
+msgstr "无法查询 PCI 子系统，可能需要 root 权限。"
+
+#: info_hpux.cpp:130
+msgid "PA-RISC Processor"
+msgstr "PA-RISC 处理器"
+
+#: info_hpux.cpp:132
+msgid "PA-RISC Revision"
+msgstr "PA-RISC 版本"
+
+#: info_linux.cpp:103
+msgid "DMA-Channel"
+msgstr "DMA-通道"
+
+#: info_linux.cpp:103 info_linux.cpp:154
+msgid "Used By"
+msgstr "使用方"
+
+#: info_linux.cpp:154
+msgid "I/O-Range"
+msgstr "I/O 范围"
+
+#: info_netbsd.cpp:121 info_openbsd.cpp:133
+msgid "IRQ"
+msgstr "IRQ"
+
+#: info_netbsd.cpp:121 info_openbsd.cpp:133
+msgid "Device"
+msgstr "设备"
+
+#: info_netbsd.cpp:139 info_openbsd.cpp:146
+msgid "No PCI devices found."
+msgstr "找不到 PCI 设备。"
+
+#: info_netbsd.cpp:148 info_openbsd.cpp:155
+msgid "No I/O port devices found."
+msgstr "找不到 I/O 端口设备。"
+
+#: info_netbsd.cpp:157 info_openbsd.cpp:164
+msgid "No SCSI devices found."
+msgstr "找不到 SCSI 设备。"
+
+#: os_base.h:61
+msgid "LSBFirst"
+msgstr "低字节优先"
+
+#: os_base.h:63
+msgid "MSBFirst"
+msgstr "高字节优先"
+
+#: os_base.h:65
+#, kde-format
+msgid "Unknown Order %1"
+msgstr "未知的次序 %1"
+
+#: os_base.h:70
+#, kde-format
+msgid "1 Bit"
+msgid_plural "%1 Bits"
+msgstr[0] "%1 位"
+
+#: os_base.h:74
+#, kde-format
+msgid "1 Byte"
+msgid_plural "%1 Bytes"
+msgstr[0] "%1 字节"
+
+#: os_base.h:115
+#, kde-format
+msgid "Screen # %1"
+msgstr "屏幕 #%1"
+
+#: os_base.h:117
+msgid "(Default Screen)"
+msgstr "(默认屏幕)"
+
+#: os_base.h:126
+msgid "Dimensions"
+msgstr "尺寸"
+
+#: os_base.h:126
+#, kde-format
+msgid "%1 x %2 Pixels (%3 x %4 mm)"
+msgstr "%1x%2 像素(%3x%4 毫米)"
+
+#: os_base.h:130
+msgid "Resolution"
+msgstr "分辨率"
+
+#: os_base.h:130
+#, kde-format
+msgid "%1 x %2 dpi"
+msgstr "%1x%2 dpi"
+
+#: os_base.h:147
+#, kde-format
+msgid "Depths (%1)"
+msgstr "色深(%1)"
+
+#: os_base.h:153
+msgid "Root Window ID"
+msgstr "根窗口编号"
+
+#: os_base.h:157
+msgid "Depth of Root Window"
+msgstr "根窗口色深"
+
+#: os_base.h:157
+#, kde-format
+msgid "%1 plane"
+msgid_plural "%1 planes"
+msgstr[0] "%1 位面"
+
+#: os_base.h:161
+msgid "Number of Colormaps"
+msgstr "色彩映射数"
+
+#: os_base.h:161
+#, kde-format
+msgid "minimum %1, maximum %2"
+msgstr "最小 %1，最大 %2"
+
+#: os_base.h:165
+msgid "Default Colormap"
+msgstr "默认色彩映射"
+
+#: os_base.h:169
+msgid "Default Number of Colormap Cells"
+msgstr "默认的色彩映射管道号"
+
+#: os_base.h:173
+msgid "Preallocated Pixels"
+msgstr "预分配像素"
+
+#: os_base.h:173
+#, kde-format
+msgid "Black %1, White %2"
+msgstr "黑 %1，白 %2"
+
+#: os_base.h:176
+msgid "Yes"
+msgstr "是"
+
+#: os_base.h:177
+msgid "No"
+msgstr "否"
+
+#: os_base.h:180
+msgid "Options"
+msgstr "选项"
+
+#: os_base.h:180
+msgid "When mapped"
+msgstr "映射时"
+
+#: os_base.h:180
+#, kde-format
+msgid "backing-store: %1, save-unders: %2"
+msgstr "存储器回填特性：%1，下层窗口内容持久化：%2"
+
+#: os_base.h:186
+msgid "Largest Cursor"
+msgstr "最大光标"
+
+#: os_base.h:188
+msgid "unlimited"
+msgstr "无限制"
+
+#: os_base.h:194
+msgid "Current Input Event Mask"
+msgstr "当前输入事件掩码"
+
+#: os_base.h:200
+#, kde-format
+msgid "Event = %1"
+msgstr "事件 = %1"
+
+#: os_base.h:230
+msgid "Information"
+msgstr "信息"
+
+#: os_base.h:230
+msgid "Value"
+msgstr "值"
+
+#: os_base.h:235
+msgid "Server Information"
+msgstr "服务器信息"
+
+#: os_base.h:241
+msgid "Name of the Display"
+msgstr "显示名"
+
+#: os_base.h:245
+msgid "Vendor String"
+msgstr "销售商字符串"
+
+#: os_base.h:249
+msgid "Vendor Release Number"
+msgstr "销售商发布代号"
+
+#: os_base.h:253
+msgid "Version Number"
+msgstr "版本号"
+
+#: os_base.h:257
+msgid "Available Screens"
+msgstr "可用屏幕"
+
+#: os_base.h:267
+msgid "Supported Extensions"
+msgstr "支持的扩展"
+
+#: os_base.h:282
+msgid "Supported Pixmap Formats"
+msgstr "支持的位图格式"
+
+#: os_base.h:289
+#, kde-format
+msgid "Pixmap Format #%1"
+msgstr "位图格式 #%1"
+
+#: os_base.h:289
+#, kde-format
+msgid "%1 BPP, Depth: %2, Scanline padding: %3"
+msgstr "%1 BPP，色深：%2，扫描线补齐：%3"
+
+#: os_base.h:301
+msgid "Maximum Request Size"
+msgstr "最大请求尺寸"
+
+#: os_base.h:305
+msgid "Motion Buffer Size"
+msgstr "移动缓冲尺寸"
+
+#: os_base.h:309
+msgid "Bitmap"
+msgstr "位图"
+
+#: os_base.h:313
+msgid "Unit"
+msgstr "单位"
+
+#: os_base.h:317
+msgid "Order"
+msgstr "次序"
+
+#: os_base.h:321
+msgid "Padding"
+msgstr "补齐"
+
+#: os_base.h:325
+msgid "Image Byte Order"
+msgstr "图像字节序"
+
+#: os_current.h:58 os_current.h:68 os_current.h:90 os_current.h:100
+#: os_current.h:110 os_current.h:121 os_current.h:131 os_current.h:141
+msgid "This system may not be completely supported yet."
+msgstr "尚未完全支持此系统。"
+
+#~ msgctxt "plural form: '%1 Bytes'"
+#~ msgid "%1 Bytes"
+#~ msgstr "%1 字节"
+
+#~ msgctxt "Mebibyte"
+#~ msgid "MiB "
+#~ msgstr "MiB "
+
+#~ msgid "Mount Point"
+#~ msgstr "挂载点"
+
+#~ msgid "FS Type"
+#~ msgstr "文件系统类型："
+
+#~ msgid "Total Size"
+#~ msgstr "总大小"
+
+#~ msgid "Free Size"
+#~ msgstr "空闲大小"
+
+#~ msgid "n/a"
+#~ msgstr "未知"
+
+#~ msgid "CPU %1: %2, %3 MHz"
+#~ msgstr "CPU %1：%2，%3 MHz"
+
+#~ msgid "CPU %1: %2, unknown speed"
+#~ msgstr "CPU %1：%2，未知速度"
+
+#~ msgid ""
+#~ "Your sound system could not be queried.  /dev/sndstat does not exist or "
+#~ "is not readable."
+#~ msgstr "无法查询您的声音系统。/dev/sndstat 设备文件不存在或不可读。"
+
+#~ msgid "Could not check file system info: "
+#~ msgstr "无法检查文件系统信息："
+
+#~ msgid "Mount Options"
+#~ msgstr "挂载选项"
+
+#~ msgid "Machine"
+#~ msgstr "机器"
+
+#~ msgid "Model"
+#~ msgstr "型号"
+
+#~ msgid "Machine Identification Number"
+#~ msgstr "机器 标识符"
+
+#~ msgid "(none)"
+#~ msgstr "(无)"
+
+#~ msgid "Number of Active Processors"
+#~ msgstr "活动进程数"
+
+#~ msgid "CPU Clock"
+#~ msgstr "CPU 时钟"
+
+#~ msgid "MHz"
+#~ msgstr "MHz"
+
+#~ msgid "(unknown)"
+#~ msgstr "(未知)"
+
+#~ msgid "CPU Architecture"
+#~ msgstr "CPU 架构"
+
+#~ msgid "enabled"
+#~ msgstr "已启用"
+
+#~ msgid "disabled"
+#~ msgstr "已禁用"
+
+#~ msgid "Numerical Coprocessor (FPU)"
+#~ msgstr "数值运算器(FPU)"
+
+#~ msgctxt "Mebibyte"
+#~ msgid "MiB"
+#~ msgstr "MiB"
+
+#~ msgid "Total Physical Memory"
+#~ msgstr "总物理内存"
+
+#~ msgid " Bytes"
+#~ msgstr " 字节"
+
+#~ msgid "Size of One Page"
+#~ msgstr "页面大小"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "Audio Name"
+#~ msgstr "音频名"
+
+#~ msgid "Vendor"
+#~ msgstr "销售商"
+
+#~ msgid "Alib Version"
+#~ msgstr "Alib 版本"
+
+#~ msgid "Protocol Revision"
+#~ msgstr "协议版本"
+
+#~ msgid "Vendor Number"
+#~ msgstr "销售商编号"
+
+#~ msgid "Release"
+#~ msgstr "发行号"
+
+#~ msgid "Byte Order"
+#~ msgstr "字节序"
+
+#~ msgid "ALSBFirst (LSB)"
+#~ msgstr "低字节优先(LSB)"
+
+#~ msgid "AMSBFirst (MSB)"
+#~ msgstr "高字节优先(MSB)"
+
+#~ msgid "Invalid Byteorder."
+#~ msgstr "无效的字节序。"
+
+#~ msgid "Bit Order"
+#~ msgstr "位序"
+
+#~ msgid "ALeastSignificant (LSB)"
+#~ msgstr "最低有效位(LSB)"
+
+#~ msgid "AMostSignificant (MSB)"
+#~ msgstr "最高有效位(MSB)"
+
+#~ msgid "Invalid Bitorder."
+#~ msgstr "无效的位序。"
+
+#~ msgid "Data Formats"
+#~ msgstr "数据格式"
+
+#~ msgid "Sampling Rates"
+#~ msgstr "采样率"
+
+#~ msgid "Input Sources"
+#~ msgstr "输入来源"
+
+#~ msgid "Mono-Microphone"
+#~ msgstr "单声道麦克风"
+
+#~ msgid "Mono-Auxiliary"
+#~ msgstr "单声道辅助输出"
+
+#~ msgid "Left-Microphone"
+#~ msgstr "左侧麦克风"
+
+#~ msgid "Right-Microphone"
+#~ msgstr "右侧麦克风"
+
+#~ msgid "Left-Auxiliary"
+#~ msgstr "左侧辅助输出"
+
+#~ msgid "Right-Auxiliary"
+#~ msgstr "右侧辅助输出"
+
+#~ msgid "Input Channels"
+#~ msgstr "输入声道"
+
+#~ msgid "Mono-Channel"
+#~ msgstr "单声道"
+
+#~ msgid "Left-Channel"
+#~ msgstr "左声道"
+
+#~ msgid "Right-Channel"
+#~ msgstr "右声道"
+
+#~ msgid "Output Destinations"
+#~ msgstr "输出目标"
+
+#~ msgid "Mono-InternalSpeaker"
+#~ msgstr "单声道内置扬声器"
+
+#~ msgid "Mono-Jack"
+#~ msgstr "单声道 Jack 系统"
+
+#~ msgid "Left-InternalSpeaker"
+#~ msgstr "左侧内置扬声器"
+
+#~ msgid "Right-InternalSpeaker"
+#~ msgstr "右侧内置扬声器"
+
+#~ msgid "Left-Jack"
+#~ msgstr "左侧 Jack 系统"
+
+#~ msgid "Right-Jack"
+#~ msgstr "右侧 Jack 系统"
+
+#~ msgid "Output Channels"
+#~ msgstr "输出声道"
+
+#~ msgid "Gain"
+#~ msgstr "增益"
+
+#~ msgid "Input Gain Limits"
+#~ msgstr "输入增益限制"
+
+#~ msgid "Output Gain Limits"
+#~ msgstr "输出增益限制"
+
+#~ msgid "Monitor Gain Limits"
+#~ msgstr "监控增益限制"
+
+#~ msgid "Gain Restricted"
+#~ msgstr "增益限制"
+
+#~ msgid "Lock"
+#~ msgstr "锁定"
+
+#~ msgid "Queue Length"
+#~ msgstr "队列长度"
+
+#~ msgid "Block Size"
+#~ msgstr "块大小"
+
+#~ msgid "Stream Port (decimal)"
+#~ msgstr "数据流端口(十进制)"
+
+#~ msgid "Devices"
+#~ msgstr "设备"
+
+#~ msgid "Major Number"
+#~ msgstr "主号"
+
+#~ msgid "Minor Number"
+#~ msgstr "次号"
+
+#~ msgid "Character Devices"
+#~ msgstr "字符设备"
+
+#~ msgid "Block Devices"
+#~ msgstr "块设备"
+
+#~ msgid "Miscellaneous Devices"
+#~ msgstr "其它设备"
+
+#~ msgid "No audio devices found."
+#~ msgstr "找不到音频设备。"
+
+#~ msgid "Total Nodes"
+#~ msgstr "节点总计"
+
+#~ msgid "Free Nodes"
+#~ msgstr "空闲节点"
+
+#~ msgid "Flags"
+#~ msgstr "标帜"
+
+#~ msgid "Unable to run /sbin/mount."
+#~ msgstr "无法运行 /sbin/mount。"
+
+#~ msgid "Device Name"
+#~ msgstr "设备名"
+
+#~ msgid "Manufacturer"
+#~ msgstr "制造商"
+
+#~ msgid "Instance"
+#~ msgstr "实例"
+
+#~ msgid "CPU Type"
+#~ msgstr "CPU 类型"
+
+#~ msgid "FPU Type"
+#~ msgstr "FPU 类型"
+
+#~ msgid "State"
+#~ msgstr "状态"
+
+#~ msgid "Mount Time"
+#~ msgstr "挂载时间"
+
+#~ msgid "character special"
+#~ msgstr "字符特殊"
+
+#~ msgid "block special"
+#~ msgstr "块特殊"
+
+#~ msgctxt "Can be either character special or block special"
+#~ msgid "Special type:"
+#~ msgstr "特殊类型："
+
+#~ msgid "Nodetype:"
+#~ msgstr "节点类型："
+
+#~ msgid "Major/Minor:"
+#~ msgstr "主号/次号："
+
+#~ msgid "(no value)"
+#~ msgstr "(没有值)"
+
+#~ msgid "Driver Name:"
+#~ msgstr "驱动名称："
+
+#~ msgid "(driver not attached)"
+#~ msgstr "(驱动器未挂接)"
+
+#~ msgid "Binding Name:"
+#~ msgstr "绑定名称："
+
+#~ msgid "Compatible Names:"
+#~ msgstr "兼容名称："
+
+#~ msgid "Physical Path:"
+#~ msgstr "物理路径："
+
+#~ msgid "Properties"
+#~ msgstr "属性"
+
+#~ msgid "Type:"
+#~ msgstr "类型："
+
+#~ msgid "Value:"
+#~ msgstr "值："
+
+#~ msgid "Minor Nodes"
+#~ msgstr "主节点"
+
+#~ msgid "Device Information"
+#~ msgstr "设备信息"

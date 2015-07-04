@@ -1,0 +1,387 @@
+# translation of kdesktop.po to zh_CN
+# Copyright (C) 2003 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.net.cn>, 2000.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Funda Wang <fundawang@linux.net.cn>, 2004,2005.
+# Lie Ex <lilith.ex@gmail.com>, 2008, 2009.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-25 01:39+0000\n"
+"PO-Revision-Date: 2012-09-01 10:27+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: configdialog.cpp:53
+msgid "Plugins"
+msgstr "插件"
+
+#: configdialog.cpp:82
+msgid "User Interface"
+msgstr "用户界面"
+
+#: configdialog.cpp:150
+msgid "Available Plugins"
+msgstr "可用插件"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: interfaceOptions.ui:17
+msgid "Positioning:"
+msgstr "位置"
+
+#. i18n: ectx: property (text), widget (QRadioButton, topEdgeButton)
+#: interfaceOptions.ui:27
+msgid "Top edge of screen"
+msgstr "屏幕顶端"
+
+#. i18n: ectx: property (text), widget (QRadioButton, freeFloatingButton)
+#: interfaceOptions.ui:37
+msgid "Free floating window"
+msgstr "自由浮动窗口"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: interfaceOptions.ui:57
+msgid "Style:"
+msgstr "风格："
+
+#. i18n: ectx: property (text), widget (QRadioButton, commandButton)
+#: interfaceOptions.ui:67
+msgid "Command oriented"
+msgstr "命令导向"
+
+#. i18n: ectx: property (text), widget (QRadioButton, taskButton)
+#: interfaceOptions.ui:77
+msgid "Task oriented"
+msgstr "任务导向"
+
+#. i18n: ectx: property (text), widget (QPushButton, previewButton)
+#: interfaceOptions.ui:97
+msgid "Preview"
+msgstr "预览"
+
+#: interfaces/default/interface.cpp:90 interfaces/default/interface.cpp:91
+#: interfaces/quicksand/qs_dialog.cpp:59 interfaces/quicksand/qs_dialog.cpp:60
+msgid "Settings"
+msgstr "设置"
+
+#: interfaces/default/interface.cpp:112
+msgid "Help"
+msgstr "帮助"
+
+#: interfaces/default/interface.cpp:113
+msgid "Information on using this application"
+msgstr "应用程序使用说明"
+
+#: interfaces/default/interface.cpp:277 interfaces/quicksand/qs_dialog.cpp:317
+#, kde-format
+msgctxt "tooltip, shortcut"
+msgid "%1 (%2)"
+msgstr "%1(%2)"
+
+#: interfaces/default/interface.cpp:439
+#, kde-format
+msgid "(From %1, %2)"
+msgstr "(来自 %1，%2)"
+
+#: interfaces/quicksand/qs_dialog.cpp:108
+msgid "Actions"
+msgstr "动作"
+
+#: interfaces/quicksand/qs_matchview.cpp:193
+msgid "Type to search."
+msgstr "输入搜索内容。"
+
+#: interfaces/quicksand/qs_matchview.cpp:274
+#, kde-format
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 个项目"
+
+#: interfaces/quicksand/qs_matchview.cpp:276
+#, kde-format
+msgid "1 action"
+msgid_plural "%1 actions"
+msgstr[0] "%1 个动作"
+
+#: interfaces/quicksand/qs_matchview.cpp:361
+msgid "Loading..."
+msgstr "载入中..."
+
+#: interfaces/quicksand/qs_matchview.cpp:446
+msgid "No results found."
+msgstr "无搜索结果。"
+
+#: interfaces/quicksand/qs_statusbar.cpp:57
+#, kde-format
+msgctxt "%1 current item number, %2 total number of items"
+msgid "%1 of %2"
+msgstr "第 %1 项，共 %2 项"
+
+#. i18n: ectx: label, entry, group (General)
+#: kcfg/krunner.kcfg:13
+msgid "The interface style to use in KRunner"
+msgstr "KRunner 界面风格"
+
+#. i18n: ectx: label, entry, group (General)
+#: kcfg/krunner.kcfg:21
+msgid ""
+"Set to true to show the interface in a freely floating dialog instead of at "
+"the top of the screen"
+msgstr "设置此项可将界面设为浮动显示的对话框，而不是固定在屏幕顶端"
+
+#. i18n: ectx: label, entry, group (General)
+#: kcfg/krunner.kcfg:26
+msgid "Completion mode used for the query text."
+msgstr "查询文字时所用的补全模式。"
+
+#. i18n: ectx: label, entry (PastQueries), group (General)
+#: kcfg/krunner.kcfg:31
+msgid "History if past queries successfully completed"
+msgstr "曾经成功补全的查询历史"
+
+#. i18n: ectx: label, entry (KeepTaskDialogAbove), group (TaskDialog)
+#: kcfg/krunner.kcfg:40
+msgid "Whether to keep the tasks dialog above other windows when shown."
+msgstr "是否在其它窗口之上保留任务对话框。"
+
+#: krunnerapp.cpp:120
+msgid "Run Command"
+msgstr "运行命令"
+
+#: krunnerapp.cpp:125
+msgid "Run Command on clipboard contents"
+msgstr "运行剪贴板内的命令"
+
+#: krunnerapp.cpp:131
+msgid "Show System Activity"
+msgstr "显示系统活动"
+
+#: krunnerapp.cpp:137
+msgid "Switch User"
+msgstr "切换用户"
+
+#: krunnerapp.cpp:176
+#, kde-format
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
+msgstr "运行命令(只运行启动器“%1”)"
+
+#: krunnerdialog.cpp:76
+msgctxt "@title:window"
+msgid "Run Command"
+msgstr "运行命令"
+
+#: ksystemactivitydialog.cpp:40
+msgid "System Activity"
+msgstr "系统活动"
+
+#: main.cpp:37
+msgid "KDE run command interface"
+msgstr "KDE 运行命令界面"
+
+#: main.cpp:48
+msgid "Run Command Interface"
+msgstr "运行命令界面"
+
+#: main.cpp:50
+msgid "(c) 2006, Aaron Seigo"
+msgstr "(c) 2006，Aaron Seigo"
+
+#: main.cpp:51
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: main.cpp:52
+msgid "Author and maintainer"
+msgstr "作者和维护者"
+
+#~ msgid "Enable screen saver"
+#~ msgstr "启用屏幕保护程序"
+
+#~ msgid "Enables the screen saver."
+#~ msgstr "启用空屏幕保护程序。"
+
+#~ msgid "Screen saver timeout"
+#~ msgstr "屏幕保护程序等待时间"
+
+#~ msgid "Sets the seconds after which the screen saver is started."
+#~ msgstr "设定屏幕保护程序在多少秒后启动。"
+
+#~ msgid "Suspend screen saver when DPMS kicks in"
+#~ msgstr "DPMS 生效时中断屏幕保护程序"
+
+#~ msgid ""
+#~ "Usually the screen saver is suspended when display power saving kicks "
+#~ "in,\n"
+#~ "       as nothing can be seen on the screen anyway, obviously. However, "
+#~ "some screen savers\n"
+#~ "       actually perform useful computations, so it is not desirable to "
+#~ "suspend them."
+#~ msgstr ""
+#~ "通常来说，当显示器电源管理特性生效时屏幕保护程序会被中断，使得用户看不到屏"
+#~ "幕\n"
+#~ "       保护程序的画面。不过有些屏幕保护程序会进行有效的运算防止被中断。"
+
+#~ msgid "Lock Session"
+#~ msgstr "锁住会话"
+
+#~ msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
+#~ msgstr "<qt><nobr><b>自动注销</b></nobr></qt>"
+
+#~ msgid ""
+#~ "<qt>To prevent being logged out, resume using this session by moving the "
+#~ "mouse or pressing a key.</qt>"
+#~ msgstr "<qt>为了避免被注销，请移动鼠标或按任意键以恢复此会话。</qt>"
+
+#~ msgid "Time Remaining:"
+#~ msgstr "剩余时间："
+
+#~ msgid ""
+#~ "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
+#~ msgid_plural ""
+#~ "<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
+#~ msgstr[0] "<qt><nobr>您将在 %1 秒后被自动注销</nobr></qt>"
+
+#~ msgid "<nobr><b>The session is locked</b></nobr><br />"
+#~ msgstr "<nobr><b>会话已经锁定</b></nobr><br />"
+
+#~ msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
+#~ msgstr "<nobr><b>会话已经被 %1 锁定</b></nobr><br />"
+
+#~ msgid "Unl&ock"
+#~ msgstr "取消锁定(&O)"
+
+#~ msgid "Sw&itch User..."
+#~ msgstr "切换用户(&I)..."
+
+#~ msgid "<b>Unlocking failed</b>"
+#~ msgstr "<b>取消锁定失败</b>"
+
+#~ msgid "<b>Warning: Caps Lock on</b>"
+#~ msgstr "<b>警告：大写状态打开</b>"
+
+#~ msgid ""
+#~ "Cannot unlock the session because the authentication system failed to "
+#~ "work;\n"
+#~ "you must kill kscreenlocker (pid %1) manually."
+#~ msgstr ""
+#~ "无法解锁会话，因为身份验证系统无法工作；\n"
+#~ "您必须手动杀死 kscreenlocker(进程号 %1)。"
+
+#~ msgid "&Start New Session"
+#~ msgstr "开始新会话(&S)"
+
+#~ msgid ""
+#~ "You have chosen to open another desktop session instead of resuming the "
+#~ "current one.\n"
+#~ "The current session will be hidden and a new login screen will be "
+#~ "displayed.\n"
+#~ "An F-key is assigned to each session; F%1 is usually assigned to the "
+#~ "first session, F%2 to the second session and so on. You can switch "
+#~ "between sessions by pressing Ctrl, Alt and the appropriate F-key at the "
+#~ "same time. Additionally, the KDE Panel and Desktop menus have actions for "
+#~ "switching between sessions."
+#~ msgstr ""
+#~ "您已经选择了打开另外的桌面会话，而不是恢复当前会话。\n"
+#~ "当前会话将被隐藏，并且会显示新的登录屏幕。\n"
+#~ "每个会话都指定了一个 Fn 功能键；F%1 通常被指定为第一个会话，F%2 被指定为第"
+#~ "二个会话，依次类推。您可以同时按下 Ctrl、Alt 和对应的 Fn 功能键在不同的会"
+#~ "话之间切换。此外，KDE 面板和桌面菜单也可用于切换会话。"
+
+#~ msgid "&Do not ask again"
+#~ msgstr "不再询问(&D)"
+
+#~ msgid "Session"
+#~ msgstr "会话"
+
+#~ msgid "Location"
+#~ msgstr "位置"
+
+#~ msgctxt "session"
+#~ msgid "&Activate"
+#~ msgstr "激活(&A)"
+
+#~ msgid "Start &New Session"
+#~ msgstr "开始新会话(&N)"
+
+#~ msgid "Will not lock the session, as unlocking would be impossible:\n"
+#~ msgstr "将不会锁定会话，因为无法取消锁定：\n"
+
+#~ msgid "Cannot start <i>kcheckpass</i>."
+#~ msgstr "无法启动 <i>kcheckpass</i>。"
+
+#~ msgid ""
+#~ "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
+#~ msgstr "<i>kcheckpass</i> 无法操作。可能该程序未被设置 SetUID root 权限。"
+
+#~ msgid "No appropriate greeter plugin configured."
+#~ msgstr "没有配置恰当的欢迎插件。"
+
+#~ msgid "KDE Screen Locker"
+#~ msgstr "KDE 锁屏器"
+
+#~ msgid "Session Locker for KDE Workspace"
+#~ msgstr "KDE 工作空间的会话锁定程序"
+
+#~ msgid "Force session locking"
+#~ msgstr "强制锁定会话"
+
+#~ msgid "Only start screen saver"
+#~ msgstr "仅启动屏幕保护程序"
+
+#~ msgid "Immediately show the unlock dialog"
+#~ msgstr "立即显示解锁对话框"
+
+#~ msgid "Only use the blank screen saver"
+#~ msgstr "仅使用空屏幕保护程序"
+
+#~ msgid "start with plasma unlocked for configuring"
+#~ msgstr "启动时解锁 plasma 以供配置"
+
+#~ msgid "Fork into the background after starting up"
+#~ msgstr "启动后派生到后台"
+
+#~ msgid "Log Out"
+#~ msgstr "注销"
+
+#~ msgid "Log Out Without Confirmation"
+#~ msgstr "不需确认就注销"
+
+#~ msgid "Halt Without Confirmation"
+#~ msgstr "不需确认就关机"
+
+#~ msgid "Reboot Without Confirmation"
+#~ msgstr "不需确认就重新启动"
+
+#~ msgid ""
+#~ "Could not log out properly.\n"
+#~ "The session manager cannot be contacted. You can try to force a shutdown "
+#~ "by pressing Ctrl+Alt+Backspace; note, however, that your current session "
+#~ "will not be saved with a forced shutdown."
+#~ msgstr ""
+#~ "无法正确注销。\n"
+#~ "不能和会话管理器通讯。您可以尝试通过 Ctrl+Alt+Backspace 组合键来强制退出；"
+#~ "注意强制退出时当前会话不能保存。"
+
+#~ msgid "KRunner Settings"
+#~ msgstr "KRunner 设置"
+
+#~ msgid "KRunner Locker"
+#~ msgstr "KRunner 锁定程序"

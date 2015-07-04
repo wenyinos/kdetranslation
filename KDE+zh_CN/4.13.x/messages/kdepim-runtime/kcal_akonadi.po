@@ -1,0 +1,118 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Lie Ex <lilith.ex@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:36+0200\n"
+"PO-Revision-Date: 2010-01-18 14:53+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: resourceakonadi.cpp:371
+msgctxt "@info access to the source's backend possible"
+msgid "Online"
+msgstr "在线"
+
+#: resourceakonadi.cpp:373
+msgctxt "@info currently no access to the source's backend possible"
+msgid "Offline"
+msgstr "离线"
+
+#: resourceakonadi.cpp:377
+#, kde-format
+msgctxt "@info:tooltip visible name of the resource"
+msgid "<title>%1</title>"
+msgstr "<title>%1</title>"
+
+#: resourceakonadi.cpp:378
+msgctxt "@info:tooltip resource type"
+msgid "Type: Akonadi Calendar Resource"
+msgstr "类型：Akonadi 日历资源"
+
+#: resourceakonadi.cpp:393
+#, kde-format
+msgctxt "@info:tooltip name of a calendar data source"
+msgid "<resource>%1</resource>"
+msgstr "<resource>%1</resource>"
+
+#: resourceakonadi.cpp:396
+#, kde-format
+msgctxt ""
+"@info:tooltip status of a calendar data source and its online/offline state"
+msgid "Status: %1 (%2)"
+msgstr "状态：%1 (%2)"
+
+#: resourceakonadi_p.cpp:67
+msgctxt "@info:status"
+msgid "Processing change set failed"
+msgstr "处理设定更改失败"
+
+#: resourceakonadi_p.cpp:131
+msgctxt "@label where to store a calendar entry of type Event"
+msgid "Please select a storage folder for this Event"
+msgstr "请为此事件选择一个存储文件夹"
+
+#: resourceakonadi_p.cpp:133
+msgctxt "@label where to store a calendar entry of type Todo"
+msgid "Please select a storage folder for this Todo"
+msgstr "请为此待办事宜选择一个存储文件夹"
+
+#: resourceakonadi_p.cpp:135
+msgctxt "@label where to store a calendar entry of type Journal"
+msgid "Please select a storage folder for this Journal"
+msgstr "请为此日记选择一个存储文件夹"
+
+#: resourceakonadi_p.cpp:138
+msgctxt "@label where to store a calendar entry of unspecified type"
+msgid "Please select a storage folder for this calendar entry"
+msgstr "请为此日历项选择一个存储文件夹"
+
+#: resourceakonadi_p.cpp:141
+msgctxt "@label"
+msgid "Please select a storage folder"
+msgstr "请选择一个存储文件夹"
+
+#: resourceakonadiconfig.cpp:41
+msgctxt "@title:window"
+msgid "Manage Calendar Sources"
+msgstr "管理日历来源"
+
+#: resourceakonadiconfig.cpp:46
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>By default you will be asked where to put a new Event, Todo or Journal "
+"when you create them.</para><para>For convenience it is also possible to "
+"configure a default folder for each of the three data items.</"
+"para><para><note>If the folder list below is empty, you might have to add a "
+"calendar source through <interface>%1</interface></note></para>"
+msgstr ""
+"<para>默认情况下，您会被问到要在哪里放置新创建的事件、待办或是日记。</"
+"para><para>不过为便利性考虑，您可以配置一个存储这三类事项的默认文件夹。</"
+"para><para><note>如果下面所列的文件夹为空，您还需要通过 <interface>%1</"
+"interface> 为其添加一个日历资源</note></para>"
+
+#: resourceakonadiconfig.cpp:56
+msgctxt "@item:inlistbox, calendar entries"
+msgid "Events"
+msgstr "事件"
+
+#: resourceakonadiconfig.cpp:58
+msgctxt "@item:inlistbox, calendar entries"
+msgid "Todos"
+msgstr "待办"
+
+#: resourceakonadiconfig.cpp:60
+msgctxt "@item:inlistbox, calendar entries"
+msgid "Journals"
+msgstr "日记"

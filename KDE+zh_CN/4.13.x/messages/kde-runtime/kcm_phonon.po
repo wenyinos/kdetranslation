@@ -1,0 +1,360 @@
+# translation of kcm_phonon.po to Chinese Simplified
+# Copyright (C) 2007 Free Software Foundation, Inc.
+#
+# Funda Wang <fundawang@gmail.com>, 2007.
+# Liang Qi <cavendish.qi@gmail.com>, 2007.
+# Feng Chao <rainofchaos@gmail.com>, 2010, 2011.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs4\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-27 01:35+0000\n"
+"PO-Revision-Date: 2012-04-22 14:11+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: audiosetup.cpp:566
+#, kde-format
+msgid "Playback (%1)"
+msgstr "回放 (%1)"
+
+#: audiosetup.cpp:570
+#, kde-format
+msgid "Recording (%1)"
+msgstr "抓取 (%1)"
+
+#: audiosetup.cpp:628
+msgid "Independent Devices"
+msgstr "独立设备"
+
+#: audiosetup.cpp:657
+msgid "KDE Audio Hardware Setup"
+msgstr "KDE 音频硬件设置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, hardwareGroupBox)
+#: audiosetup.ui:18
+msgid "Hardware"
+msgstr "硬件"
+
+#. i18n: ectx: property (text), widget (QLabel, profileLabel)
+#: audiosetup.ui:44
+msgid "Profile"
+msgstr "配置"
+
+#. i18n: ectx: property (text), widget (QLabel, cardLabel)
+#: audiosetup.ui:54
+msgid "Sound Card"
+msgstr "声卡"
+
+#. i18n: ectx: property (title), widget (QGroupBox, deviceGroupBox)
+#: audiosetup.ui:67
+msgid "Device Configuration"
+msgstr "设备配置"
+
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: audiosetup.ui:83
+msgid "Connector"
+msgstr "连接器"
+
+#. i18n: ectx: property (text), widget (QLabel, deviceLabel)
+#: audiosetup.ui:103
+msgid "Sound Device"
+msgstr "声音设备"
+
+#. i18n: ectx: property (title), widget (QGroupBox, outputGroupBox)
+#: audiosetup.ui:144
+msgid "Speaker Placement and Testing"
+msgstr "扬声器位置和测试"
+
+#. i18n: ectx: property (title), widget (QGroupBox, inputGroupBox)
+#: audiosetup.ui:181
+msgid "Input Levels"
+msgstr "输入级别"
+
+#: backendselection.cpp:45
+msgctxt "@info User changed Phonon backend"
+msgid "To apply the backend change you will have to log out and back in again."
+msgstr "您必须注销并再次登录才能应用后端的修改."
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: backendselection.ui:38 backendselection.ui:41
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+"列出在您系统中找到的 Phonon 后端。这里的顺序决定了 Phonon 所使用的顺序。"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: backendselection.ui:57 devicepreference.ui:190
+msgid "Prefer"
+msgstr "首选"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: backendselection.ui:70 devicepreference.ui:206
+msgid "Defer"
+msgstr "次选"
+
+#: devicepreference.cpp:109
+msgid "Audio Playback"
+msgstr "音频回放"
+
+#: devicepreference.cpp:123
+msgid "Audio Recording"
+msgstr "音频抓取"
+
+#: devicepreference.cpp:126
+msgid "Video Recording"
+msgstr "视频抓取"
+
+#: devicepreference.cpp:129
+msgid "Invalid"
+msgstr "无效"
+
+#: devicepreference.cpp:169
+msgid "Test the selected device"
+msgstr "测试选中的设备"
+
+#: devicepreference.cpp:193 devicepreference.cpp:200 devicepreference.cpp:207
+msgid ""
+"Defines the default ordering of devices which can be overridden by "
+"individual categories."
+msgstr "定义默认的设备排序方式，它可被个人分类设定覆盖。"
+
+#: devicepreference.cpp:326
+msgid "Default Audio Playback Device Preference"
+msgstr "默认音频回放设备首选项"
+
+#: devicepreference.cpp:329
+msgid "Default Audio Recording Device Preference"
+msgstr "默认音频抓取设备首选项"
+
+#: devicepreference.cpp:332
+msgid "Default Video Recording Device Preference"
+msgstr "默认视频抓取设备首选项"
+
+#: devicepreference.cpp:339
+#, kde-format
+msgid "Audio Playback Device Preference for the '%1' Category"
+msgstr "“%1”分类下的音频回放设备首选项"
+
+#: devicepreference.cpp:343
+#, kde-format
+msgid "Audio Recording Device Preference for the '%1' Category"
+msgstr "“%1”分类下的音频抓取设备首选项"
+
+#: devicepreference.cpp:347
+#, kde-format
+msgid "Video Recording Device Preference for the '%1' Category "
+msgstr "“%1”分类下的视频抓取设备首选项"
+
+#: devicepreference.cpp:779
+msgid ""
+"Apply the currently shown device preference list to the following other "
+"audio playback categories:"
+msgstr "对以下音频回放分类应用当前显示的设备首选项列表："
+
+#: devicepreference.cpp:792 devicepreference.cpp:798
+msgid "Default/Unspecified Category"
+msgstr "默认/未指定分类"
+
+#: devicepreference.cpp:891
+msgid "Failed to set the selected audio output device"
+msgstr "设定选中的音频输出设备失败"
+
+#: devicepreference.cpp:919
+msgid "Your backend may not support audio recording"
+msgstr "您的后端可能不支持音频抓取"
+
+#: devicepreference.cpp:940
+msgid "Your backend may not support video recording"
+msgstr "您的后端可能不支持视频抓取"
+
+#: devicepreference.cpp:950
+#, kde-format
+msgid "Testing %1"
+msgstr "测试 %1"
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: devicepreference.ui:29 devicepreference.ui:32
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+"媒体功能的各种分类。对于每种分类您可以选择 Phonon 应用程序所要输出的设备。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: devicepreference.ui:47
+msgid "Show advanced devices"
+msgstr "显示高级设备"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:77 devicepreference.ui:80
+msgid "Use the currently shown device list for more categories."
+msgstr "应用当前显示的设备列表到更多分类。"
+
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:83
+msgid "Apply Device List To..."
+msgstr "设备列表应用到..."
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: devicepreference.ui:113
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr "在您的系统中找到的适合所选种类的设备。请选择您希望应用程序使用的设备。"
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: devicepreference.ui:116
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+"这个顺序决定设备的优先顺序。如果第一个设备不能正常使用，Phonon 将尝试使用第二"
+"个设备，以此类推。"
+
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: devicepreference.ui:171
+msgid "Test"
+msgstr "测试"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: devicepreference.ui:187
+msgid "prefer the selected device"
+msgstr "首选被选中的设备"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:203
+msgid "no preference for the selected device"
+msgstr "被选中的设备没有首选项"
+
+#: main.cpp:46
+msgid "Phonon Configuration Module"
+msgstr "Phonon 配置模块"
+
+#: main.cpp:48
+msgid "Copyright 2006 Matthias Kretz"
+msgstr "Copyright 2006 Matthias Kretz"
+
+#: main.cpp:49
+msgid "Matthias Kretz"
+msgstr "Matthias Kretz"
+
+#: main.cpp:50
+msgid "Colin Guthrie"
+msgstr "Colin Guthrie"
+
+#: main.cpp:61
+msgid "Device Preference"
+msgstr "设备首选项"
+
+#: main.cpp:63
+msgid "Backend"
+msgstr "后端"
+
+#: main.cpp:99
+msgid "Audio Hardware Setup"
+msgstr "音频硬件设置"
+
+#: testspeakerwidget.cpp:161
+msgid "Front Left"
+msgstr "左中"
+
+#: testspeakerwidget.cpp:164
+msgid "Front Left of Center"
+msgstr "中央左前"
+
+#: testspeakerwidget.cpp:167
+msgid "Front Center"
+msgstr "正前"
+
+#: testspeakerwidget.cpp:170
+msgid "Mono"
+msgstr "单声道"
+
+#: testspeakerwidget.cpp:173
+msgid "Front Right of Center"
+msgstr "中央右前"
+
+#: testspeakerwidget.cpp:176
+msgid "Front Right"
+msgstr "右前"
+
+#: testspeakerwidget.cpp:179
+msgid "Side Left"
+msgstr "左边"
+
+#: testspeakerwidget.cpp:182
+msgid "Side Right"
+msgstr "右边"
+
+#: testspeakerwidget.cpp:185
+msgid "Rear Left"
+msgstr "左后"
+
+#: testspeakerwidget.cpp:188
+msgid "Rear Center"
+msgstr "正后"
+
+#: testspeakerwidget.cpp:191
+msgid "Rear Right"
+msgstr "右后"
+
+#: testspeakerwidget.cpp:194
+msgid "Subwoofer"
+msgstr "低音炮"
+
+#: testspeakerwidget.cpp:199
+msgid "Unknown Channel"
+msgstr "未知声道"
+
+#~ msgid "Speaker Setup"
+#~ msgstr "扬声器设置"
+
+#~ msgid "Audio Output"
+#~ msgstr "音频输出"
+
+#~ msgid "Audio Capture"
+#~ msgstr "音频抓取"
+
+#~ msgid "Video Capture"
+#~ msgstr "视频抓取"
+
+#~ msgid "Default Audio Output Device Preference"
+#~ msgstr "默认音频输出设备首选项"
+
+#~ msgid "Audio Output Device Preference for the '%1' Category"
+#~ msgstr "“%1”分类下的音频输出设备首选项"
+
+#~ msgid "Remove"
+#~ msgstr "删除"
+
+#~ msgid "Output"
+#~ msgstr "输出"
+
+#~ msgid "Sound Output"
+#~ msgstr "音频输出"
+
+#~ msgid "Play a test sound on the selected device"
+#~ msgstr "在选中设备上播放测试音"

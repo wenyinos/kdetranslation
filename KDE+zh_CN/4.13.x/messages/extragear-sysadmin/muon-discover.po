@@ -1,0 +1,350 @@
+# Copyright (C) 2013 This_file_is_part_of_KDE
+# This file is distributed under the same license as the muon-discover package.
+#
+# Wylmer Wang <wantinghard@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-21 01:45+0000\n"
+"PO-Revision-Date: 2013-08-18 11:20+0800\n"
+"Last-Translator: Wylmer Wang <wantinghard@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: discover/main.cpp:31
+msgid "An application discoverer"
+msgstr "一款应用程序的探索发现工具"
+
+#: discover/main.cpp:35
+msgid "Muon Discover"
+msgstr "Muon 发现者"
+
+#: discover/main.cpp:36
+msgid "©2010-2012 Jonathan Thomas"
+msgstr "©2010-2012 Jonathan Thomas"
+
+#: discover/main.cpp:37
+msgid "Jonathan Thomas"
+msgstr "Jonathan Thomas"
+
+#: discover/main.cpp:38
+msgid "Aleix Pol Gonzalez"
+msgstr "Aleix Pol Gonzalez"
+
+#: discover/main.cpp:44
+msgid "Directly open the specified application by its package name."
+msgstr "直接通过某个应用程序的软件包名打开程序。"
+
+#: discover/main.cpp:45
+msgid "Open with a program that can deal with the given mimetype."
+msgstr "用能处理指定 MIME 类型的程序打开。"
+
+#: discover/main.cpp:46
+msgid "Display a list of entries with a category."
+msgstr "显示某个分类中的项目列表。"
+
+#: discover/main.cpp:47
+msgid ""
+"Open Muon Discover in a said mode. Modes correspond to the toolbar buttons."
+msgstr "以指明的方式打开 Muon 发现者。模式与工具栏按钮对应。"
+
+#: discover/main.cpp:48
+msgid "List all the available modes."
+msgstr "列出所有可用的模式。"
+
+#: discover/main.cpp:49
+msgid "List all the available backends."
+msgstr "列出所有可用的后端。"
+
+#: discover/main.cpp:50
+msgid "List all the backends we'll want to have loaded, separated by coma ','."
+msgstr "列出所有我们想要加载的后端，以“,”隔开。"
+
+#: discover/main.cpp:72
+msgid "Available modes:\n"
+msgstr "可用的模式：\n"
+
+#: discover/main.cpp:77
+msgid "Available backends:\n"
+msgstr "可用的后端：\n"
+
+#: discover/MuonDiscoverMainWindow.cpp:94 discover/qml/CategoryPage.qml:38
+msgid "Search..."
+msgstr "搜索..."
+
+#: discover/MuonDiscoverMainWindow.cpp:114
+msgid ""
+"Found some errors while setting up the GUI, the application can't proceed."
+msgstr "在设置用户界面时发现了一些错误。应用程序无法继续。"
+
+#: discover/MuonDiscoverMainWindow.cpp:115
+msgid "Initialization error"
+msgstr "初始化出错"
+
+#: discover/MuonDiscoverMainWindow.cpp:235
+msgid "Menu"
+msgstr "菜单"
+
+#: discover/MuonDiscoverMainWindow.cpp:236
+msgid "Configure and learn about Muon Discover"
+msgstr "配置和了解 Muon 发现者"
+
+#: discover/qml/AddonsView.qml:71 discover/qml/InstallApplicationButton.qml:24
+msgid "Install"
+msgstr "安装"
+
+#: discover/qml/AddonsView.qml:79
+msgid "Discard"
+msgstr "丢弃"
+
+#: discover/qml/ApplicationOverview.qml:114
+msgid "Description"
+msgstr ""
+
+#: discover/qml/ApplicationOverview.qml:129
+msgid "Addons"
+msgstr ""
+
+#: discover/qml/ApplicationOverview.qml:141
+msgid "Comments"
+msgstr ""
+
+#: discover/qml/ApplicationOverview.qml:168
+#, kde-format
+msgid "More comments (%1)..."
+msgstr ""
+
+#: discover/qml/ApplicationOverview.qml:173
+msgid "Review"
+msgstr "评价"
+
+#: discover/qml/ApplicationOverview.qml:209
+#, fuzzy
+#| msgid "<b>Total Size:</b> %1<br/>"
+msgid "Total Size: "
+msgstr "<b>总大小：</b> %1<br/>"
+
+#: discover/qml/ApplicationOverview.qml:211
+msgid "Version: "
+msgstr ""
+
+#: discover/qml/ApplicationOverview.qml:213
+#, fuzzy
+#| msgid "Homepage"
+msgid "Homepage: "
+msgstr "主页"
+
+#: discover/qml/ApplicationOverview.qml:215
+msgid "License: "
+msgstr ""
+
+#: discover/qml/ApplicationOverview.qml:221
+msgid "Launch"
+msgstr "启动"
+
+#: discover/qml/ApplicationsListPage.qml:83
+msgid "Name"
+msgstr "名称"
+
+#: discover/qml/ApplicationsListPage.qml:91
+msgid "Rating"
+msgstr "评分"
+
+#: discover/qml/ApplicationsListPage.qml:99
+msgid "Buzz"
+msgstr "Buzz"
+
+#: discover/qml/ApplicationsListPage.qml:107
+msgid "Popularity"
+msgstr "流行度"
+
+#: discover/qml/ApplicationsListPage.qml:115
+msgid "Origin"
+msgstr "来源"
+
+#: discover/qml/ApplicationsListPage.qml:123
+#: discover/qml/ApplicationsListPage.qml:206 discover/qml/Main.qml:121
+msgid "Installed"
+msgstr "已安装"
+
+#: discover/qml/ApplicationsListPage.qml:142
+msgid "List"
+msgstr "列表"
+
+#: discover/qml/ApplicationsListPage.qml:151
+msgid "Grid"
+msgstr "网格"
+
+#: discover/qml/ApplicationsListPage.qml:205
+#: discover/qml/InstallApplicationButton.qml:37
+msgid "Update"
+msgstr "更新"
+
+#: discover/qml/CategoryPage.qml:36
+#, kde-format
+msgid "Search in '%1'..."
+msgstr "在“%1”中搜索..."
+
+#: discover/qml/CategoryPage.qml:115
+msgid "Popularity Contest"
+msgstr "流行度对比"
+
+#: discover/qml/CategoryPage.qml:116
+#, kde-format
+msgid "points: %1"
+msgstr "得分：%1"
+
+#: discover/qml/CategoryPage.qml:127
+msgid "Best Ratings"
+msgstr "评分最高"
+
+#: discover/qml/DefaultBanner.qml:16
+msgid ""
+"Welcome to\n"
+"Muon Discover!"
+msgstr ""
+"欢迎使用\n"
+"Muon 发现者!"
+
+#: discover/qml/FeaturedBanner.qml:89
+#, kde-format
+msgid "<b>%1</b><br/>%2"
+msgstr "<b>%1</b><br/>%2"
+
+#: discover/qml/InstallApplicationButton.qml:24
+msgid "Remove"
+msgstr "移除"
+
+#: discover/qml/InstalledPage.qml:18
+msgid "Update All"
+msgstr "全部更新"
+
+#: discover/qml/Main.qml:66
+msgid "Loading..."
+msgstr "正在载入..."
+
+#: discover/qml/Main.qml:105
+msgid "Back"
+msgstr "后退"
+
+#: discover/qml/Main.qml:114
+msgid "Discover"
+msgstr "发现者"
+
+#: discover/qml/Main.qml:121
+#, kde-format
+msgid "Installed (%1 update)"
+msgid_plural "Installed (%1 updates)"
+msgstr[0] "已安装(%1 个更新)"
+
+#: discover/qml/Main.qml:128
+msgid "Sources"
+msgstr "源"
+
+#: discover/qml/ReviewDelegate.qml:35
+msgid "<em>Tell us about this review!</em>"
+msgstr "<em>告诉我们这条评价！</em>"
+
+#: discover/qml/ReviewDelegate.qml:36
+#, kde-format
+msgid "<em>%1 out of %2 people found this review useful</em>"
+msgstr "<em>%2 位用户中有 %1 位觉得这条评价有用</em>"
+
+#: discover/qml/ReviewDelegate.qml:51
+#, kde-format
+msgid ""
+"<p style='margin: 0 0 0 0'><b>%1</b> by %2</p><p style='margin: 0 0 0 0'>%3</"
+"p><p style='margin: 0 0 0 0'>%4</p>"
+msgstr ""
+
+#: discover/qml/ReviewDelegate.qml:67
+msgid "<em>Useful? <a href='true'><b>Yes</b></a>/<a href='false'>No</a></em>"
+msgstr ""
+"<em>有用吗？ <a href='true'><b>有</b></a>/<a href='false'>没有</a></em>"
+
+#: discover/qml/ReviewDelegate.qml:70
+msgid "<em>Useful? <a href='true'>Yes</a>/<a href='false'><b>No</b></a></em>"
+msgstr ""
+"<em>有用吗？ <a href='true'>有</a>/<a href='false'><b>没有</b></a></em>"
+
+#: discover/qml/ReviewDelegate.qml:73
+msgid "<em>Useful? <a href='true'>Yes</a>/<a href='false'>No</a></em>"
+msgstr "<em>有用吗？ <a href='true'>有</a>/<a href='false'>没有</a></em>"
+
+#: discover/qml/ReviewDialog.qml:11
+#, kde-format
+msgid "Reviewing %1"
+msgstr "评价 %1"
+
+#: discover/qml/ReviewDialog.qml:21
+msgid "Submit"
+msgstr "提交"
+
+#: discover/qml/ReviewDialog.qml:30
+msgid "Close"
+msgstr "关闭"
+
+#: discover/qml/ReviewDialog.qml:43
+msgid "Rating:"
+msgstr "评分："
+
+#: discover/qml/ReviewDialog.qml:49
+msgid "Summary:"
+msgstr "概要："
+
+#: discover/qml/SourcesPage.qml:17
+msgid "Add Source"
+msgstr "添加源"
+
+#: discover/qml/SourcesPage.qml:40
+msgid "Specify the new source"
+msgstr "指定新源"
+
+#: discover/qml/SourcesPage.qml:44
+msgid "OK"
+msgstr "确定"
+
+#: discover/qml/SourcesPage.qml:50
+msgid "Cancel"
+msgstr "取消"
+
+#: discover/qml/SourcesPage.qml:72
+msgid "<sourceline> - The apt repository source line to add. This is one of:\n"
+msgstr "<sourceline> - 要添加的 apt 仓库源配置行。它是下面的一个：\n"
+
+#: discover/qml/SourcesPage.qml:136
+#, kde-format
+msgid "%1 (Binary)"
+msgstr "%1 (二进制)"
+
+#: discover/qml/SourcesPage.qml:162
+#, kde-format
+msgid "%1. %2"
+msgstr "%1. %2"
+
+#~ msgid "<qt>%1<br/><em>%2</em></qt>"
+#~ msgstr "<qt>%1<br/><em>%2</em></qt>"
+
+#~ msgid "Apply"
+#~ msgstr "应用"
+
+#~ msgid "%1 reviews"
+#~ msgstr "%1 评价"
+
+#~ msgid "Overview"
+#~ msgstr "概览"
+
+#~ msgid "Add-ons"
+#~ msgstr "插件"
+
+#~ msgid "Reviews"
+#~ msgstr "评价"
+
+#~ msgid "<b>Reviews:</b>"
+#~ msgstr "<b>评价：</b>"

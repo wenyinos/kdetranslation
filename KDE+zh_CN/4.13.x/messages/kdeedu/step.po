@@ -1,0 +1,1123 @@
+# translation of step.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2007, 2008, 2009.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: step\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-21 01:47+0000\n"
+"PO-Revision-Date: 2011-07-09 22:13+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: step/configure_controller.ui:28 step/configure_graph.ui:28
+#: step/configure_meter.ui:28
+msgid "Data Source"
+msgstr "数据源"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: step/configure_controller.ui:47
+msgid "Range"
+msgstr "范围"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: step/configure_controller.ui:59 step/configure_graph.ui:83
+msgid "min:"
+msgstr "最小："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: step/configure_controller.ui:75 step/configure_graph.ui:99
+msgid "max:"
+msgstr "最大："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMinX)
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMinY)
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMin)
+#: step/configure_controller.ui:97 step/configure_graph.ui:135
+#: step/configure_graph.ui:187
+msgid "0"
+msgstr "0"
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditBodyMass)
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMaxX)
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMaxY)
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMass)
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMax)
+#: step/configure_controller.ui:119 step/configure_graph.ui:151
+#: step/configure_graph.ui:203 step/create_gas_particles.ui:125
+#: step/create_softbody_items.ui:78
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: step/configure_controller.ui:132
+msgid "Shortcuts"
+msgstr "快捷键"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: step/configure_controller.ui:138
+msgid "Decrease:"
+msgstr "减小："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: step/configure_controller.ui:148
+msgid "Increase:"
+msgstr "增大："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: step/configure_controller.ui:179
+msgid "Increment:"
+msgstr "增量："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditIncrement)
+#: step/configure_controller.ui:192
+msgid "0.1"
+msgstr "0.1"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: step/configure_graph.ui:34 step/configure_graph.ui:109
+msgid "X :"
+msgstr "X："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: step/configure_graph.ui:51 step/configure_graph.ui:161
+msgid "Y :"
+msgstr "Y："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: step/configure_graph.ui:71
+msgid "Ranges"
+msgstr "范围"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxAutoX)
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxAutoY)
+#: step/configure_graph.ui:122 step/configure_graph.ui:174
+msgid "auto"
+msgstr "自动"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: step/configure_graph.ui:216 step/configure_meter.ui:47
+#: step/create_gas_particles.ui:28 step/create_softbody_items.ui:28
+msgid "Options"
+msgstr "选项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxShowLines)
+#: step/configure_graph.ui:222
+msgid "Show lines"
+msgstr "显示线条"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxShowPoints)
+#: step/configure_graph.ui:229
+msgid "Show points"
+msgstr "显示点"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: step/configure_meter.ui:53
+msgid "Number of digits:"
+msgstr "位数："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: step/configure_step_general.ui:16
+msgid "Display precision:"
+msgstr "显示精度："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showAxes)
+#: step/configure_step_general.ui:52
+msgid "Show scene axes"
+msgstr "显示场景坐标"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showCreationTips)
+#: step/configure_step_general.ui:59
+msgid "Show tips when creating objects"
+msgstr "创建对象时显示提示"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableOpenGL)
+#: step/configure_step_general.ui:66
+msgid "Enable OpenGL (EXPERIMENTAL)"
+msgstr "启用 OpenGL(实验性)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_wikiExternal)
+#: step/configure_step_general.ui:73
+msgid "Open wikipedia in external browser"
+msgstr "在外部浏览器中打开维基百科"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: step/create_gas_particles.ui:34
+msgid "Area"
+msgstr "区域"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, lineEditVolume)
+#: step/create_gas_particles.ui:41
+msgid "The area the gas takes"
+msgstr "气体作用范围"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: step/create_gas_particles.ui:61
+msgid "Particle count:"
+msgstr "粒子数量："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, lineEditCount)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, lineEditCount)
+#: step/create_gas_particles.ui:68 step/create_gas_particles.ui:71
+msgid "The number of particles of this gas."
+msgstr "这些气体的粒子数量。"
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditCount)
+#: step/create_gas_particles.ui:74
+msgid "20"
+msgstr "20"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: step/create_gas_particles.ui:91
+msgid "Concentration:"
+msgstr "浓度："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: step/create_gas_particles.ui:112
+msgid "Particle mass:"
+msgstr "粒子质量："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, lineEditMass)
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, lineEditMass)
+#: step/create_gas_particles.ui:119 step/create_gas_particles.ui:122
+msgid "The mass of one particle"
+msgstr "单个粒子的质量"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: step/create_gas_particles.ui:142
+msgid "Temperature:"
+msgstr "温度："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditTemperature)
+#: step/create_gas_particles.ui:149
+msgid "1e21"
+msgstr "1e21"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: step/create_gas_particles.ui:166
+msgid "Mean velocity:"
+msgstr "平均速度："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditPosition)
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditMeanVelocity)
+#: step/create_gas_particles.ui:173 step/create_softbody_items.ui:44
+msgid "(0,0)"
+msgstr "(0,0)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: step/create_softbody_items.ui:37
+msgid "Position:"
+msgstr "位置："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: step/create_softbody_items.ui:54
+msgid "Body size:"
+msgstr "物体大小："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditSize)
+#: step/create_softbody_items.ui:61
+msgid "(1,1)"
+msgstr "(1,1)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: step/create_softbody_items.ui:71
+msgid "Body mass:"
+msgstr "物体质量："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: step/create_softbody_items.ui:88
+msgid "Young's modulus:"
+msgstr "杨氏系数："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditYoungModulus)
+#: step/create_softbody_items.ui:95
+msgid "15"
+msgstr "15"
+
+#. i18n: ectx: property (text), widget (QLabel, label1)
+#: step/create_softbody_items.ui:105
+msgid "Body damping:"
+msgstr "物体衰减："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditBodyDamping)
+#: step/create_softbody_items.ui:112
+msgid "0.3"
+msgstr "0.3"
+
+#. i18n: ectx: property (text), widget (QLabel, label2)
+#: step/create_softbody_items.ui:122
+msgid "Body split counts:"
+msgstr "物体分裂数目："
+
+#. i18n: ectx: property (text), widget (QLineEdit, lineEditSplit)
+#: step/create_softbody_items.ui:129
+msgid "(4,4)"
+msgstr "(4,4)"
+
+#: step/gasgraphics.cc:45
+#, kde-format
+msgid ""
+"Press left mouse button to position\n"
+"top left corner of a region for %1"
+msgstr ""
+"按下鼠标左键来确定\n"
+"%1 区域的左上角位置"
+
+#: step/gasgraphics.cc:57 step/motorgraphics.cc:41 step/motorgraphics.cc:222
+#: step/polygongraphics.cc:162 step/polygongraphics.cc:287
+#: step/polygongraphics.cc:432 step/softbodygraphics.cc:57
+#: step/worldgraphics.cc:73 step/worldgraphics.cc:123
+#, kde-format
+msgid "Create %1"
+msgstr "创建 %1"
+
+#: step/gasgraphics.cc:73
+#, kde-format
+msgid ""
+"Move mouse and release left mouse button to position\n"
+"bottom right corner of the region for %1"
+msgstr ""
+"拖动并释放鼠标左键来确定\n"
+"%1 区域的右下角位置"
+
+#: step/gasgraphics.cc:99
+msgid "Please fill in the parameters for the gas particles."
+msgstr "请填入气体粒子的参数。"
+
+#: step/gasgraphics.cc:108 step/polygongraphics.cc:197
+#: step/polygongraphics.cc:327 step/polygongraphics.cc:482
+#: step/softbodygraphics.cc:74 step/worldgraphics.cc:90
+#: step/worldgraphics.cc:137 step/worldgraphics.cc:172
+#, kde-format
+msgid "%1 named '%2' created"
+msgstr "已创建命名为“%2”的 %1"
+
+#: step/gasgraphics.cc:312
+msgid "Create particles..."
+msgstr "创建粒子..."
+
+#: step/gasgraphics.cc:336
+msgid "Create gas particles"
+msgstr "创建气体粒子"
+
+#: step/gasgraphics.cc:399
+msgid ""
+"You are trying to create a very large number of particles. This will make "
+"simulation very slow. Do you want to continue?"
+msgstr "您正尝试创建数量庞大的粒子。这会使模拟过程变得非常慢，您想要继续吗？"
+
+#: step/gasgraphics.cc:401 step/mainwindow.cc:364 step/mainwindow.cc:420
+msgid "Warning - Step"
+msgstr "警告 - Step"
+
+#: step/gasgraphics.cc:412
+#, kde-format
+msgid "Create particles for %1"
+msgstr "为 %1 创建粒子"
+
+#: step/infobrowser.cc:38
+msgid "Context info"
+msgstr "相关信息"
+
+#: step/infobrowser.cc:56
+msgid "Back"
+msgstr "后退"
+
+#: step/infobrowser.cc:58
+msgid "Forward"
+msgstr "前进"
+
+#: step/infobrowser.cc:62
+msgid "Sync selection"
+msgstr "同步选择"
+
+#: step/infobrowser.cc:64
+msgid "Follow selection"
+msgstr "跟随选择"
+
+#: step/infobrowser.cc:69
+msgid "Open in browser"
+msgstr "在浏览器中打开"
+
+#: step/infobrowser.cc:153
+msgid "Documentation"
+msgstr "文档"
+
+#: step/infobrowser.cc:158
+msgid "No current object."
+msgstr "没有当前对象。"
+
+#: step/infobrowser.cc:178
+msgid "Documentation error"
+msgstr "文档错误"
+
+#: step/infobrowser.cc:183
+#, kde-format
+msgid "Documentation for %1 not available. "
+msgstr "%1 的文档不可用。"
+
+#: step/infobrowser.cc:184
+msgid ""
+"You can help <a href=\"http://edu.kde.org/step\">Step</a> by writing it!"
+msgstr "您可以通过撰写它来帮助 <a href=\"http://edu.kde.org/step\">Step</a>！"
+
+#: step/infobrowser.cc:199
+msgid "Wikipedia"
+msgstr "维基百科"
+
+#: step/infobrowser.cc:203
+msgid "Fetching Wikipedia Information..."
+msgstr "正在获取维基百科信息..."
+
+#: step/infobrowser.cc:297
+msgid "Wikipedia error"
+msgstr "维基百科错误"
+
+#: step/infobrowser.cc:301
+msgid ""
+"Information could not be retrieved because the server was not reachable."
+msgstr "因服务器不可达，信息无法取回。"
+
+#: step/infobrowser.cc:395
+msgid "Wikipedia Information"
+msgstr "维基百科信息"
+
+#: step/infobrowser.cc:408
+msgid "Wikipedia Other Languages"
+msgstr "维基百科其他语言"
+
+#: step/itempalette.cc:192
+msgid "Palette"
+msgstr "工具箱"
+
+#: step/itempalette.cc:211
+msgid "Pointer"
+msgstr "指针"
+
+#: step/itempalette.cc:212
+msgid "Selection pointer"
+msgstr "指针选择"
+
+#: step/itempalette.cc:235
+msgid "Show text"
+msgstr "显示文本"
+
+#: step/jointgraphics.cc:172 step/springgraphics.cc:42
+#, kde-format
+msgid "Move end of %1"
+msgstr "移动 %1 的结束位置"
+
+#: step/latexformula.cc:42
+#, kde-format
+msgid "can not launch %1"
+msgstr "无法启动 %1"
+
+#: step/latexformula.cc:52
+#, kde-format
+msgid "error running %1"
+msgstr "运行 %1 时出错"
+
+#: step/latexformula.cc:56
+#, kde-format
+msgid ""
+"%1 reported an error (exit status %2):\n"
+"%3"
+msgstr ""
+"%1 报告了一个错误(退出状态 %2)：\n"
+"%3"
+
+#: step/latexformula.cc:61
+#, kde-format
+msgid "%1 did not create output file"
+msgstr "%1 没有创建输出文件"
+
+#: step/latexformula.cc:84
+msgid "can not open temporary file"
+msgstr "无法打开临时文件"
+
+#: step/latexformula.cc:117
+msgid "can not open result file"
+msgstr "无法打开结果文件"
+
+#: step/main.cc:30
+msgid "Interactive physical simulator"
+msgstr "交互式物理仿真模拟器"
+
+#: step/main.cc:36
+msgid "Step"
+msgstr "Step"
+
+#: step/main.cc:37
+msgid "(C) 2007 Vladimir Kuznetsov"
+msgstr "(C) 2007 Vladimir Kuznetsov"
+
+#: step/main.cc:38
+msgid "Vladimir Kuznetsov"
+msgstr "Vladimir Kuznetsov"
+
+#: step/main.cc:38
+msgid "Original author"
+msgstr "原作者"
+
+#: step/main.cc:39
+msgid "Carsten Niehaus"
+msgstr "Carsten Niehaus"
+
+#: step/main.cc:39
+msgid "Code contributions"
+msgstr "代码贡献者"
+
+#: step/main.cc:44
+msgid "Document to open"
+msgstr "要打开的文档"
+
+#: step/mainwindow.cc:150
+msgid "&Open Tutorial..."
+msgstr "打开教程(&O)..."
+
+#: step/mainwindow.cc:155
+msgid "&Open Example..."
+msgstr "打开示例(&O)..."
+
+#: step/mainwindow.cc:160
+msgid "Open Down&loaded Example..."
+msgstr "打开已下载的示例(&L)..."
+
+#: step/mainwindow.cc:165
+msgid "Share C&urrent Experiment..."
+msgstr "分享当前实验方案(&U)..."
+
+#: step/mainwindow.cc:170
+msgid "&Download New Experiments..."
+msgstr "下载新的实验方案(&D)..."
+
+#: step/mainwindow.cc:177
+msgid "Redo"
+msgstr "重做"
+
+#: step/mainwindow.cc:177
+msgid "Undo"
+msgstr "撤销"
+
+#: step/mainwindow.cc:199
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: step/mainwindow.cc:209
+msgid "&Run"
+msgstr "运行(&R)"
+
+#: step/mainwindow.cc:214
+msgid "Execute the program"
+msgstr "运行方案"
+
+#: step/mainwindow.cc:215
+msgid "Run: Execute the program"
+msgstr "运行：运行方案"
+
+#: step/mainwindow.cc:217
+msgctxt "@option:radio"
+msgid "1x Speed"
+msgstr "1 倍速率"
+
+#: step/mainwindow.cc:225
+msgctxt "@option:radio choose the slow speed"
+msgid "2x Speed"
+msgstr "2 倍速率"
+
+#: step/mainwindow.cc:232
+msgctxt "@option:radio"
+msgid "4x Speed"
+msgstr "4 倍速率"
+
+#: step/mainwindow.cc:239
+msgctxt "@option:radio"
+msgid "8x Speed"
+msgstr "8 倍速率"
+
+#: step/mainwindow.cc:246
+msgctxt "@option:radio"
+msgid "16x Speed"
+msgstr "16 倍速率"
+
+#: step/mainwindow.cc:275
+msgctxt "filename"
+msgid "untitled.step"
+msgstr "无标题.step"
+
+#: step/mainwindow.cc:300
+msgid "<new file>"
+msgstr "<新文件>"
+
+#: step/mainwindow.cc:314 step/mainwindow.cc:359
+msgid "*.step|Step files (*.step)"
+msgstr "*.step|Step 文件(*.step)"
+
+#: step/mainwindow.cc:329 step/mainwindow.cc:380 step/toolgraphics.cc:645
+#, kde-format
+msgid "Cannot open file '%1'"
+msgstr "无法打开文件“%1”"
+
+#: step/mainwindow.cc:335
+#, kde-format
+msgid "Cannot parse file '%1': %2"
+msgstr "无法分析文件“%1”：%2"
+
+#: step/mainwindow.cc:347
+#, kde-format
+msgid "<open file: %1>"
+msgstr "<打开文件：%1>"
+
+#: step/mainwindow.cc:363
+#, kde-format
+msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
+msgstr "文件“%1”已存在。您想要覆盖它吗？"
+
+#: step/mainwindow.cc:386
+#, kde-format
+msgid "Cannot save file '%1': %2"
+msgstr "无法保存文件“%1”：%2"
+
+#: step/mainwindow.cc:419
+msgid ""
+"The experiment has been modified.\n"
+"Do you want to save your changes?"
+msgstr ""
+"此实验方案已被修改。\n"
+"您想要保存您的更改吗？"
+
+#: step/mainwindow.cc:464
+msgid "Uploading is still not implemented in kdelibs."
+msgstr "上传特性尚未整合到 kdelibs。"
+
+#: step/mainwindow.cc:465
+msgid "Sorry - Step"
+msgstr "抱歉 - Step"
+
+#: step/mainwindow.cc:498
+msgid "&Stop"
+msgstr "停止(&S)"
+
+#: step/mainwindow.cc:508
+msgid "&Simulate"
+msgstr "模拟(&S)"
+
+#: step/mainwindow.cc:513
+msgid ""
+"Cannot finish this step because local error is greater than local "
+"tolerance.\n"
+"Please check solver settings and try again."
+msgstr ""
+"无法完成这步是因为局部误差大于局部容错程度。\n"
+"请核实求解设置并重试。"
+
+#: step/mainwindow.cc:518
+msgid ""
+"Cannot finish this step because there are collisions which cannot be "
+"resolved automatically.\n"
+"Please move colliding objects apart and try again."
+msgstr ""
+"无法完成这步是因为碰撞无法自行消除。\n"
+"请移动分离碰撞对象并重试。"
+
+#: step/mainwindow.cc:522
+msgid "Cannot finish this step because of an unknown error."
+msgstr "无法完成这步是因为出现未知错误。"
+
+#: step/mainwindow.cc:555
+msgid "&Undo"
+msgstr "撤销(&U)"
+
+#: step/mainwindow.cc:556
+#, kde-format
+msgid "&Undo: %1"
+msgstr "撤销(&U)：%1"
+
+#: step/mainwindow.cc:561
+msgid "Re&do"
+msgstr "重做(&D)"
+
+#: step/mainwindow.cc:562
+#, kde-format
+msgid "Re&do: %1"
+msgstr "重做(&D)：%1"
+
+#: step/mainwindow.cc:593
+msgid "General"
+msgstr "常规"
+
+#: step/motorgraphics.cc:111 step/motorgraphics.cc:289
+#: step/worldgraphics.cc:336 step/worldgraphics.cc:348
+#, kde-format
+msgid "Move %1"
+msgstr "移动 %1"
+
+#: step/polygongraphics.cc:150
+#, kde-format
+msgid "Press left mouse button to position a center of a %1"
+msgstr "按下鼠标左键来确定 %1 的中心位置"
+
+#: step/polygongraphics.cc:171
+#, kde-format
+msgid "Move mouse and release left mouse button to define a radius of the %1"
+msgstr "拖动并释放鼠标左键来确定 %1 的半径"
+
+#: step/polygongraphics.cc:275
+#, kde-format
+msgid ""
+"Press left mouse button to position\n"
+"top left corner of a %1"
+msgstr ""
+"按下鼠标左键来确定\n"
+" %1 的左上角位置"
+
+#: step/polygongraphics.cc:297
+#, kde-format
+msgid ""
+"Move mouse and release left mouse button to position\n"
+"bottom right corner of the %1"
+msgstr ""
+"拖动并释放鼠标左键来确定\n"
+" %1 的右下角位置"
+
+#: step/polygongraphics.cc:420
+#, kde-format
+msgid "Click on the scene to create a first vertex of %1"
+msgstr "在场景中点击来创建 %1 的第一个顶点"
+
+#: step/polygongraphics.cc:468
+msgid "Click on the scene to add new vertex or press Enter to finish"
+msgstr "在场景中点击来添加新的顶点或按下回车来完成"
+
+#: step/propertiesbrowser.cc:283
+msgid "Change solver type"
+msgstr "更改求解类型"
+
+#: step/propertiesbrowser.cc:298 step/propertiesbrowser.cc:304
+#: step/propertiesbrowser.cc:311 step/propertiesbrowser.cc:320
+#: step/propertiesbrowser.cc:404 step/propertiesbrowser.cc:421
+#: step/worldgraphics.cc:529 step/worldgraphics.cc:668
+#, kde-format
+msgid "Change %1.%2"
+msgstr "更改 %1.%2"
+
+#: step/propertiesbrowser.cc:318
+#, kde-format
+msgid "Rename %1 to %2"
+msgstr "重命名 %1 为 %2"
+
+#: step/propertiesbrowser.cc:468
+msgid "Property"
+msgstr "属性"
+
+#: step/propertiesbrowser.cc:469
+msgid "Value"
+msgstr "值"
+
+#: step/propertiesbrowser.cc:534
+msgid "false"
+msgstr "假"
+
+#: step/propertiesbrowser.cc:535
+msgid "true"
+msgstr "真"
+
+#: step/propertiesbrowser.cc:679
+msgid "Properties"
+msgstr "属性"
+
+#: step/softbodygraphics.cc:44 step/worldgraphics.cc:65
+#: step/worldgraphics.cc:109
+#, kde-format
+msgid "Click on the scene to create a %1"
+msgstr "在场景中点击来创建一个 %1"
+
+#: step/softbodygraphics.cc:61
+#, kde-format
+msgid "Please fill in the parameters for %1"
+msgstr "请填入 %1 的参数。"
+
+#: step/softbodygraphics.cc:121
+msgid "Create soft body items"
+msgstr "创建软体项目"
+
+#: step/softbodygraphics.cc:169
+#, kde-format
+msgid "Create items for %1"
+msgstr "为 %1 创建项目"
+
+#. i18n: ectx: label, entry (showCreationTips), group (General)
+#. i18n: ectx: whatsthis, entry (showCreationTips), group (General)
+#: step/step.kcfg:9 step/step.kcfg:10
+msgid "Show tips when creating items"
+msgstr "创建项目时显示提示"
+
+#. i18n: ectx: label, entry (showAxes), group (General)
+#. i18n: ectx: whatsthis, entry (showAxes), group (General)
+#: step/step.kcfg:14 step/step.kcfg:15
+msgid "Show axes on the scene"
+msgstr "显示轴线"
+
+#. i18n: ectx: label, entry (floatDisplayPrecision), group (General)
+#. i18n: ectx: whatsthis, entry (floatDisplayPrecision), group (General)
+#: step/step.kcfg:19 step/step.kcfg:20
+msgid "Display precision of double numbers"
+msgstr "双精度数的显示精度"
+
+#. i18n: ectx: label, entry (enableOpenGL), group (General)
+#. i18n: ectx: whatsthis, entry (enableOpenGL), group (General)
+#: step/step.kcfg:26 step/step.kcfg:27
+msgid "Use OpenGL to accelerate drawing whenever possible"
+msgstr "可能时使用 OpenGL 加速绘图"
+
+#. i18n: ectx: label, entry (wikiExternal), group (InfoBrowser)
+#. i18n: ectx: whatsthis, entry (wikiExternal), group (InfoBrowser)
+#: step/step.kcfg:33 step/step.kcfg:34
+msgid "Browse wikipedia in external browser"
+msgstr "在外部浏览器中浏览维基百科"
+
+#. i18n: ectx: label, entry (showButtonText), group (ItemPalette)
+#. i18n: ectx: whatsthis, entry (showButtonText), group (ItemPalette)
+#: step/step.kcfg:40 step/step.kcfg:41
+msgid "Show text beside icon"
+msgstr "在图标旁显示文本"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: step/stepui.rc:7
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: ToolBar (simulationToolBar)
+#: step/stepui.rc:12
+msgid "Simulation Toolbar"
+msgstr "模拟工具栏"
+
+#. i18n: ectx: Menu (examples)
+#: step/stepui.rc:21
+msgid "&Examples"
+msgstr "示例(&E)"
+
+#. i18n: ectx: Menu (simulation)
+#: step/stepui.rc:32
+msgid "&Simulation"
+msgstr "模拟(&S)"
+
+#. i18n: ectx: Menu (speed)
+#: step/stepui.rc:35
+msgid "&Run Speed"
+msgstr "运行速度(&R)"
+
+#. i18n: ectx: Menu (panels)
+#: step/stepui.rc:45
+msgid "&Panels"
+msgstr "面板(&P)"
+
+#: step/toolgraphics.cc:258
+msgid "Click to enter text"
+msgstr "点击以输入文本"
+
+#: step/toolgraphics.cc:383
+msgid "&Color"
+msgstr "颜色(&C)"
+
+#: step/toolgraphics.cc:385
+msgid "&Bold"
+msgstr "粗体(&B)"
+
+#: step/toolgraphics.cc:387
+msgid "&Italic"
+msgstr "斜体(&I)"
+
+#: step/toolgraphics.cc:389
+msgid "&Underline"
+msgstr "下划线(&U)"
+
+#: step/toolgraphics.cc:392
+msgid "Align &Left"
+msgstr "左对齐(&L)"
+
+#: step/toolgraphics.cc:394
+msgid "Align C&enter"
+msgstr "居中(&E)"
+
+#: step/toolgraphics.cc:396
+msgid "Align &Right"
+msgstr "右对齐(&R)"
+
+#: step/toolgraphics.cc:398
+msgid "Align &Justify"
+msgstr "两端对齐(&J)"
+
+#: step/toolgraphics.cc:401
+msgid "&Align"
+msgstr "对齐(&A)"
+
+#: step/toolgraphics.cc:410
+msgid "&Font"
+msgstr "字体(&F)"
+
+#: step/toolgraphics.cc:411
+msgid "Font &Size"
+msgstr "字体大小(&S)"
+
+#: step/toolgraphics.cc:413
+msgid "Insert &Image"
+msgstr "插入图像(&I)"
+
+#: step/toolgraphics.cc:418
+msgid "Insert &Formula"
+msgstr "插入公式(&F)"
+
+#: step/toolgraphics.cc:529
+#, kde-format
+msgid "Edit %1"
+msgstr "编辑 %1"
+
+#: step/toolgraphics.cc:656
+#, kde-format
+msgid "Cannot parse file '%1'"
+msgstr "无法分析文件“%1”"
+
+#: step/toolgraphics.cc:700
+msgid ""
+"Cannot find latex installation. You need 'latex', 'dvips' and 'gs' "
+"executables installed and accessible from $PATH"
+msgstr ""
+"找不到 latex 的安装。您需要安装“latex”、“dvips”和“gs”程序并使其能从 $PATH 环"
+"境变量中访问"
+
+#: step/toolgraphics.cc:706
+msgid "LaTex Formula - Step"
+msgstr "LaTeX 公式 - Step"
+
+#: step/toolgraphics.cc:707
+msgid "Enter LaTeX formula string"
+msgstr "输入 LaTeX 公式字符串"
+
+#: step/toolgraphics.cc:716
+#, kde-format
+msgid "Cannot compile LaTeX formula: %1"
+msgstr "无法编译 LaTeX 公式： %1"
+
+#: step/toolgraphics.cc:722
+msgid "Cannot parse result image"
+msgstr "无法分析结果图像"
+
+#: step/toolgraphics.cc:783
+msgid "Object name"
+msgstr "对象名称"
+
+#: step/toolgraphics.cc:788
+msgid "Property name"
+msgstr "属性名称"
+
+#: step/toolgraphics.cc:794
+msgid "Vector index"
+msgstr "矢量方向"
+
+#: step/toolgraphics.cc:983 step/toolgraphics.cc:991 step/toolgraphics.cc:1450
+#, kde-format
+msgid "%1.%2"
+msgstr "%1.%2"
+
+#: step/toolgraphics.cc:984 step/toolgraphics.cc:992 step/toolgraphics.cc:1451
+#, kde-format
+msgid "[%1]"
+msgstr "[%1]"
+
+#: step/toolgraphics.cc:988 step/toolgraphics.cc:996 step/toolgraphics.cc:1455
+msgid "[not configured]"
+msgstr "[未配置]"
+
+#: step/toolgraphics.cc:1084
+msgid "Clear graph"
+msgstr "清除图像"
+
+#: step/toolgraphics.cc:1085
+msgid "Configure graph..."
+msgstr "配置图像..."
+
+#: step/toolgraphics.cc:1103
+msgid "Configure graph"
+msgstr "配置图像"
+
+#: step/toolgraphics.cc:1162 step/toolgraphics.cc:1344
+#: step/toolgraphics.cc:1665
+#, kde-format
+msgid "Edit properties of %1"
+msgstr "编辑 %1 的属性"
+
+#: step/toolgraphics.cc:1214
+#, kde-format
+msgid "Clear graph %1"
+msgstr "清除图像 %1"
+
+#: step/toolgraphics.cc:1295
+msgid "Configure meter..."
+msgstr "配置计量器..."
+
+#: step/toolgraphics.cc:1313
+msgid "Configure meter"
+msgstr "配置计量器"
+
+#: step/toolgraphics.cc:1393 step/toolgraphics.cc:1590
+msgid "Increase value"
+msgstr "增大值"
+
+#: step/toolgraphics.cc:1394 step/toolgraphics.cc:1591
+msgid "Decrease value"
+msgstr "减小值"
+
+#: step/toolgraphics.cc:1424 step/toolgraphics.cc:1702
+#, kde-format
+msgid "Decrease controller %1"
+msgstr "减小控制器 %1"
+
+#: step/toolgraphics.cc:1433 step/toolgraphics.cc:1711
+#, kde-format
+msgid "Increase controller %1"
+msgstr "增大控制器 %1"
+
+#: step/toolgraphics.cc:1567
+#, kde-format
+msgid "Change controller %1"
+msgstr "更改控制器 %1"
+
+#: step/toolgraphics.cc:1593
+msgid "Configure controller..."
+msgstr "配置控制器..."
+
+#: step/toolgraphics.cc:1611
+msgid "Configure controller"
+msgstr "配置控制器"
+
+#: step/toolgraphics.cc:1855
+msgid "Clear trace"
+msgstr "清除迹线"
+
+#: step/toolgraphics.cc:1864
+#, kde-format
+msgid "Clear tracer %1"
+msgstr "清除迹线 %1"
+
+#: step/undobrowser.cc:29
+msgid "Undo history"
+msgstr "撤销历史"
+
+#: step/worldbrowser.cc:61
+msgctxt "Object list"
+msgid "World"
+msgstr "对象列表"
+
+#: step/worldgraphics.cc:105
+#, kde-format
+msgid ""
+"Press left mouse button to position first end of a %1\n"
+"then drag and release it to position the second end"
+msgstr ""
+"点击鼠标左键来确定 %1 的第一个结束位置\n"
+"然后拖动并释放左键来确定第二个结束位置"
+
+#: step/worldgraphics.cc:133
+#, kde-format
+msgid "Release left mouse button to position second end of the %1"
+msgstr "释放鼠标左键来确定 %1 的第二个结束位置"
+
+#: step/worldgraphics.cc:348
+msgid "several objects"
+msgstr "多个对象"
+
+#: step/worldgraphics.cc:530 step/worldgraphics.cc:670
+#, kde-format
+msgid "Change %1"
+msgstr "更改 %1"
+
+#: step/worldmodel.cc:622
+#, kde-format
+msgid "Delete %1"
+msgstr "删除 %1"
+
+#: step/worldmodel.cc:623
+msgid "Delete several items"
+msgstr "删除多个项目"
+
+#: step/worldmodel.cc:694 step/worldmodel.cc:701
+msgid "<no object>"
+msgstr "<无对象>"
+
+#: step/worldmodel.cc:696
+msgid "<unnamed>"
+msgstr "<未命名>"
+
+#: step/worldmodel.cc:702
+#, kde-format
+msgid "%1: %2"
+msgstr "%1：%2"
+
+#: step/worldmodel.cc:774
+#, kde-format
+msgid "<nobr><h4><u>%1</u></h4></nobr>"
+msgstr "<nobr><h4><u>%1</u></h4></nobr>"
+
+#: step/worldmodel.cc:802
+#, kde-format
+msgid "<tr><td>%1&nbsp;&nbsp;</td><td>%2</td></tr>"
+msgstr "<tr><td>%1&nbsp;&nbsp;</td><td>%2</td></tr>"
+
+#: step/worldmodel.cc:1000
+#, kde-format
+msgid "Simulate %1 → %2"
+msgstr "模拟 %1 → %2"
+
+#: step/worldmodel.cc:1053
+#, kde-format
+msgid "Cut %1"
+msgstr "剪切 %1"
+
+#: step/worldmodel.cc:1054
+msgid "Cut several items"
+msgstr "剪切多个项目"
+
+#: step/worldmodel.cc:1076
+#, kde-format
+msgid "Pasted %1"
+msgstr "粘贴 %1"
+
+#: step/worldmodel.cc:1077
+msgid "Pasted several items"
+msgstr "粘贴多个项目"
+
+#: step/worldscene.cc:265
+msgid "Objects under mouse:"
+msgstr "鼠标下的对象："
+
+#: step/worldscene.cc:270
+#, kde-format
+msgid "... (1 more item)"
+msgid_plural "... (%1 more items)"
+msgstr[0] "...(另有 %1 项)"
+
+#~ msgid "Create items..."
+#~ msgstr "创建项目..."

@@ -1,0 +1,2710 @@
+# translation of kmail.po to 简体中文
+# Note and phrase to further translation:
+# Copyright (C) 2002,2003, 2004, 2009 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Levin Du <zsdjw@21cn.com>, 2004.
+# Funda Wang <fundawang@linux.net.cn>, 2002,2003,2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+# FengChao <rainofchaos@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmail\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-26 01:44+0000\n"
+"PO-Revision-Date: 2013-01-18 19:58+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: adblock/adblockaddsubscriptiondialog.cpp:31
+#, fuzzy
+#| msgid "Description"
+msgid "Add subscription"
+msgstr "描述"
+
+#: adblock/adblockaddsubscriptiondialog.cpp:35
+msgid "Select List:"
+msgstr ""
+
+#: adblock/adblockblockableitemsdialog.cpp:33
+msgid "Blockable Items"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:50
+msgid "No blockable element found."
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:59 viewer/mimetreemodel.cpp:249
+msgid "Type"
+msgstr "类型"
+
+#: adblock/adblockblockableitemswidget.cpp:59
+msgid "Filter"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:59
+msgid "Address"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:63
+msgid "Search..."
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:90
+msgid "Image"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:93
+msgid "Script"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:96
+msgid "Stylesheet"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:99
+msgid "Font"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:102
+msgid "Frame"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:105
+msgid "XML Request"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:108
+#, fuzzy
+#| msgid "Subject:"
+msgid "Object"
+msgstr "主题："
+
+#: adblock/adblockblockableitemswidget.cpp:111
+msgid "Audio/Video"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:114
+msgid "Popup window"
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:118
+#, fuzzy
+#| msgctxt "Status of message unknown."
+#| msgid "(unknown)"
+msgid "Unknown"
+msgstr "(未知)"
+
+#: adblock/adblockblockableitemswidget.cpp:220
+#, fuzzy
+#| msgid "Copy"
+msgid "Copy url"
+msgstr "复制"
+
+#: adblock/adblockblockableitemswidget.cpp:222
+#, fuzzy
+#| msgid "Copy"
+msgid "Copy filter"
+msgstr "复制"
+
+#: adblock/adblockblockableitemswidget.cpp:223
+msgid "Block item..."
+msgstr ""
+
+#: adblock/adblockblockableitemswidget.cpp:225
+#, fuzzy
+#| msgctxt "to open"
+#| msgid "Open"
+msgid "Open"
+msgstr "打开"
+
+#: adblock/adblockblockableitemswidget.cpp:228
+msgid "Remove filter"
+msgstr ""
+
+#: adblock/adblockcreatefilterdialog.cpp:42
+msgid "Use default"
+msgstr ""
+
+#: adblock/adblockcreatefilterdialog.cpp:43
+msgid "Yes"
+msgstr ""
+
+#: adblock/adblockcreatefilterdialog.cpp:44
+msgid "Not"
+msgstr ""
+
+#: adblock/adblocklistwidget.cpp:61
+#, fuzzy
+#| msgid "Description"
+msgid "Not subscription added..."
+msgstr "描述"
+
+#: adblock/adblockmanager.cpp:294
+msgid "Download new ad-block list was failed."
+msgstr ""
+
+#: adblock/adblockmanager.cpp:301
+msgid "Download new ad-block list was done."
+msgstr ""
+
+#: adblock/adblocksettingwidget.cpp:61
+msgid ""
+"<qt>Filter expression (e.g. <tt>http://www.example.com/ad/*</tt>, <a href="
+"\"filterhelp\">more information</a>):"
+msgstr ""
+
+#: adblock/adblocksettingwidget.cpp:76
+msgid " day"
+msgid_plural " days"
+msgstr[0] ""
+
+#: adblock/adblocksettingwidget.cpp:131
+msgid ""
+"<qt><p>Enter an expression to filter. Filters can be defined as either:"
+"<ul><li>a shell-style wildcard, e.g. <tt>http://www.example.com/ads*</tt>, "
+"the wildcards <tt>*?[]</tt> may be used</li><li>a full regular expression by "
+"surrounding the string with '<tt>/</tt>', e.g. <tt>/\\/(ad|banner)\\./</tt></"
+"li></ul><p>Any filter string can be preceded by '<tt>@@</tt>' to whitelist "
+"(allow) any matching URL, which takes priority over any blacklist (blocking) "
+"filter."
+msgstr ""
+
+#: adblock/adblocksettingwidget.cpp:345
+#, kde-format
+msgid "Do you want to delete list \"%1\"?"
+msgstr ""
+
+#: adblock/adblocksettingwidget.cpp:345
+#, fuzzy
+#| msgid "Delete Attachment"
+msgid "Delete current list"
+msgstr "删除附件"
+
+#: adblock/adblocksettingwidget.cpp:374 adblock/adblocksettingwidget.cpp:405
+msgid "*|all files (*)"
+msgstr ""
+
+#: adblock/adblockshowlistdialog.cpp:38
+#, fuzzy
+#| msgid "Show full \"To\" list"
+msgid "Show adblock list"
+msgstr "显示完整的“寄给”列表"
+
+#: adblock/adblockshowlistdialog.cpp:47
+msgid "Download..."
+msgstr ""
+
+#: adblock/adblockshowlistdialog.cpp:121
+#, kde-format
+msgid "An error occurs during download list: \"%1\""
+msgstr ""
+
+#: adblock/networkaccessmanager.cpp:51
+msgid "Blocked by ad filter"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: adblock/ui/adblockcreatefilterwidget.ui:19
+msgid "Filters:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, blockingFilter)
+#: adblock/ui/adblockcreatefilterwidget.ui:37
+msgid "Blocking filter"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, exceptionFilter)
+#: adblock/ui/adblockcreatefilterwidget.ui:44
+msgid "Exception Filter"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: adblock/ui/adblockcreatefilterwidget.ui:53
+msgid "Pattern"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: adblock/ui/adblockcreatefilterwidget.ui:61
+msgid "custom"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: adblock/ui/adblockcreatefilterwidget.ui:76
+msgid "Accept pattern only"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, atTheBeginning)
+#: adblock/ui/adblockcreatefilterwidget.ui:82
+msgid "At the beginning of the address"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, atTheEnd)
+#: adblock/ui/adblockcreatefilterwidget.ui:89
+msgid "At the end of address"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: adblock/ui/adblockcreatefilterwidget.ui:99 findbar/findbarbase.cpp:77
+#: ui/invitationsettings.ui:94
+msgid "Options"
+msgstr "选项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, firstPartOnly)
+#: adblock/ui/adblockcreatefilterwidget.ui:105
+msgid "First-part only"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, matchCase)
+#: adblock/ui/adblockcreatefilterwidget.ui:112
+msgid "Match case"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, restrictToDomain)
+#: adblock/ui/adblockcreatefilterwidget.ui:121
+msgid "Restrict to domain"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: adblock/ui/adblockcreatefilterwidget.ui:136
+#, fuzzy
+#| msgid "Reply to: "
+msgid "Apply to:"
+msgstr "回复地址："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: adblock/ui/adblockcreatefilterwidget.ui:148
+#, fuzzy
+#| msgid "Collapse quoted text."
+msgid "Collapse blocked:"
+msgstr "折叠引用的文本。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkEnableAdblock)
+#: adblock/ui/settings_adblock.ui:17
+msgid "&Enable Ad Block"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkHideAds)
+#: adblock/ui/settings_adblock.ui:24
+msgid "&Hide filtered elements"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: adblock/ui/settings_adblock.ui:38
+msgid "Automatic Filters"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, addFilters)
+#: adblock/ui/settings_adblock.ui:44
+msgid "Add Filters subscriptions..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, removeSubscription)
+#: adblock/ui/settings_adblock.ui:64
+#, fuzzy
+#| msgid "Description"
+msgid "Remove subscription"
+msgstr "描述"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: adblock/ui/settings_adblock.ui:86
+msgid "Update enabled automatic filters every:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, showList)
+#: adblock/ui/settings_adblock.ui:124
+msgid "Show List..."
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: adblock/ui/settings_adblock.ui:132
+msgid "Manual Filters"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, insertButton)
+#: adblock/ui/settings_adblock.ui:143
+msgid "Add filter expression"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, insertButton)
+#: adblock/ui/settings_adblock.ui:146
+msgid "..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, importFilters)
+#: adblock/ui/settings_adblock.ui:188
+msgid "Import Filters..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, exportFilters)
+#: adblock/ui/settings_adblock.ui:195
+msgid "Export filters..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: adblock/ui/settings_adblock.ui:204
+msgid "Search:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, editFilter)
+#: adblock/ui/settings_adblock.ui:216 viewer/viewer_p.cpp:493
+msgid "Edit"
+msgstr "编辑"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeButton)
+#: adblock/ui/settings_adblock.ui:223
+msgid "Remove filter expression"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: adblock/ui/settings_adblock.ui:226
+msgid "Remove Filter"
+msgstr ""
+
+#: findbar/findbarbase.cpp:48 findbar/findbarbase.cpp:51
+#: widgets/todoedit.cpp:51 widgets/todoedit.cpp:54
+msgid "Close"
+msgstr "关闭"
+
+#: findbar/findbarbase.cpp:57
+msgctxt "Find text"
+msgid "F&ind:"
+msgstr "查找(&I)："
+
+#: findbar/findbarbase.cpp:61
+msgid "Text to search for"
+msgstr "要搜索的文本"
+
+#: findbar/findbarbase.cpp:66
+msgctxt "Find and go to the next search match"
+msgid "Next"
+msgstr "下一项"
+
+#: findbar/findbarbase.cpp:67
+msgid "Jump to next match"
+msgstr "跳转到下一个匹配"
+
+#: findbar/findbarbase.cpp:71
+msgctxt "Find and go to the previous search match"
+msgid "Previous"
+msgstr "上一项"
+
+#: findbar/findbarbase.cpp:72
+msgid "Jump to previous match"
+msgstr "跳转到上一个匹配"
+
+#: findbar/findbarbase.cpp:78
+msgid "Modify search behavior"
+msgstr "修改搜索行为"
+
+#: findbar/findbarbase.cpp:80
+msgid "Case sensitive"
+msgstr "区分大小写"
+
+#: findbar/findbarbase.cpp:147
+#, kde-format
+msgid ""
+"Beginning of message reached.\n"
+"Phrase '%1' could not be found."
+msgstr ""
+
+#: findbar/findbarbase.cpp:149
+#, kde-format
+msgid ""
+"End of message reached.\n"
+"Phrase '%1' could not be found."
+msgstr ""
+
+#: findbar/findbarmailwebview.cpp:32
+msgid "Highlight all matches"
+msgstr "高亮全部匹配"
+
+#: header/briefheaderstyle.cpp:101 header/customheaderstyle.cpp:98
+#: header/entrepriseheaderstyle.cpp:122 header/fancyheaderstyle.cpp:128
+#: header/mobileheaderstyle.cpp:75 header/plainheaderstyle.cpp:91
+msgid "[vCard]"
+msgstr "[vCard]"
+
+#: header/briefheaderstyle.cpp:106 header/customheaderstyle.cpp:110
+#: header/entrepriseheaderstyle.cpp:147 header/fancyheaderstyle.cpp:164
+#: header/plainheaderstyle.cpp:105
+msgid "CC: "
+msgstr "抄送："
+
+#: header/briefheaderstyle.cpp:109 header/customheaderstyle.cpp:115
+#: header/entrepriseheaderstyle.cpp:158 header/fancyheaderstyle.cpp:174
+#: header/plainheaderstyle.cpp:109
+msgid "BCC: "
+msgstr "密送："
+
+#: header/customheadersettingwidget.cpp:39
+msgid "Only show the headers listed below"
+msgstr ""
+
+#: header/customheadersettingwidget.cpp:42
+msgid "Show all but hide the headers listed below"
+msgstr ""
+
+#: header/customheadersettingwidget.cpp:45
+msgid "A&dd..."
+msgstr ""
+
+#: header/customheadersettingwidget.cpp:45
+msgid "Remo&ve"
+msgstr ""
+
+#: header/customheadersettingwidget.cpp:46
+msgid "&Modify..."
+msgstr ""
+
+#: header/customheadersettingwidget.cpp:46
+#, fuzzy
+#| msgctxt "View->"
+#| msgid "&Headers"
+msgid "Header:"
+msgstr "信头(&H)"
+
+#: header/customheaderstyle.cpp:92 header/fancyheaderstyle.cpp:180
+#: header/plainheaderstyle.cpp:80
+msgid "Date: "
+msgstr "日期："
+
+#: header/customheaderstyle.cpp:94 header/entrepriseheaderstyle.cpp:127
+#: header/fancyheaderstyle.cpp:120 header/plainheaderstyle.cpp:87
+msgid "From: "
+msgstr "发件人："
+
+#: header/customheaderstyle.cpp:106 header/plainheaderstyle.cpp:101
+msgctxt "To-field of the mailheader."
+msgid "To: "
+msgstr "收件人："
+
+#: header/customheaderstyle.cpp:120 header/plainheaderstyle.cpp:113
+msgid "Reply to: "
+msgstr "回复地址："
+
+#: header/customheaderstyle.cpp:126
+#, kde-format
+msgid "%1: "
+msgstr ""
+
+#: header/entrepriseheaderstyle.cpp:136
+msgid "To: "
+msgstr "收件人："
+
+#: header/fancyheaderstyle.cpp:123
+#, kde-format
+msgid "(resent from %1)"
+msgstr "(从 %1 重新发出)"
+
+#: header/fancyheaderstyle.cpp:143
+#, kde-format
+msgid "(receiver was %1)"
+msgstr ""
+
+#: header/fancyheaderstyle.cpp:156
+msgctxt "To-field of the mail header."
+msgid "To: "
+msgstr "收件人："
+
+#: header/fancyheaderstyle.cpp:188
+msgid "User-Agent: "
+msgstr "用户代理："
+
+#: header/fancyheaderstyle.cpp:197
+msgid "X-Mailer: "
+msgstr "邮件客户端："
+
+#: header/fancyheaderstyle.cpp:209
+msgid "Bugzilla: "
+msgstr ""
+
+#: header/fancyheaderstyle.cpp:221 header/grantleeheaderformatter.cpp:140
+msgid "Spam Status:"
+msgstr "垃圾信状态："
+
+#: header/grantleeheaderformatter.cpp:84
+#, kde-format
+msgid "Grantlee theme \"%1\" is not valid."
+msgstr ""
+
+#: header/grantleeheaderformatter.cpp:109
+msgid "Subject:"
+msgstr "主题："
+
+#: header/grantleeheaderformatter.cpp:112
+#, fuzzy
+#| msgid "To: "
+msgid "To:"
+msgstr "收件人："
+
+#: header/grantleeheaderformatter.cpp:117
+#, fuzzy
+#| msgid "Reply to: "
+msgid "Reply to:"
+msgstr "回复地址："
+
+#: header/grantleeheaderformatter.cpp:123
+#, fuzzy
+#| msgid "CC: "
+msgid "CC:"
+msgstr "抄送："
+
+#: header/grantleeheaderformatter.cpp:129
+#, fuzzy
+#| msgid "BCC: "
+msgid "BCC:"
+msgstr "密送："
+
+#: header/grantleeheaderformatter.cpp:133
+#, fuzzy
+#| msgid "From:"
+msgid "From:"
+msgstr "发件人："
+
+#: header/grantleeheaderformatter.cpp:143
+#, fuzzy
+#| msgid "Date: "
+msgid "Date:"
+msgstr "日期："
+
+#: header/grantleeheaderformatter.cpp:160
+#, fuzzy
+#| msgid "(resent from %1)"
+msgid "resent from"
+msgstr "(从 %1 重新发出)"
+
+#: header/grantleeheaderformatter.cpp:167
+msgid "receiver was"
+msgid_plural "receivers were"
+msgstr[0] ""
+
+#: header/grantleeheaderformatter.cpp:181
+msgid "Printing mode"
+msgstr ""
+
+#: header/grantleeheaderformatter.cpp:218
+#, fuzzy
+#| msgid "[vCard]"
+msgid "[vcard]"
+msgstr "[vCard]"
+
+#: header/headerstyle_util.cpp:57
+#, fuzzy
+#| msgctxt "Status of message unknown."
+#| msgid "(unknown)"
+msgctxt "Unknown date"
+msgid "Unknown"
+msgstr "(未知)"
+
+#: header/headerstyle_util.cpp:75 header/headerstyle_util.cpp:79
+#: header/headerstyle_util.cpp:90
+msgid "No Subject"
+msgstr "无主题"
+
+#: header/headerstyle_util.cpp:158
+#, kde-format
+msgid ""
+"%1% probability of being spam with confidence %3%.\n"
+"\n"
+"Full report:\n"
+"Probability=%2\n"
+"Confidence=%4"
+msgstr ""
+"是垃圾邮件的可能性为：%1%，可靠性为 %3。\n"
+"\n"
+"完整报告：\n"
+"概率=%2\n"
+"可靠性=%4"
+
+#: header/headerstyle_util.cpp:163
+#, kde-format
+msgid ""
+"%1% probability of being spam.\n"
+"\n"
+"Full report:\n"
+"Probability=%2"
+msgstr ""
+"是垃圾邮件的可能性为：%1%。\n"
+"\n"
+"完整报告：\n"
+"可信度=%2"
+
+#: header/headerstyle_util.cpp:172
+msgid "No Spam agent"
+msgstr "无垃圾信过滤代理"
+
+#: header/headerstyle_util.cpp:175
+msgid "Spam filter score not a number"
+msgstr "垃圾信过滤评分不是一个数字"
+
+#: header/headerstyle_util.cpp:178
+msgid "Threshold not a valid number"
+msgstr "阀值不是一个有效的数值"
+
+#: header/headerstyle_util.cpp:181
+msgid "Spam filter score could not be extracted from header"
+msgstr "无法从信头中得出垃圾信过滤评分"
+
+#: header/headerstyle_util.cpp:184
+msgid "Threshold could not be extracted from header"
+msgstr "无法从信头中得出过滤阀值"
+
+#: header/headerstyle_util.cpp:187
+msgid "Error evaluating spam score"
+msgstr "评估垃圾信得分时出错"
+
+#: header/headerstyle_util.cpp:191
+#, kde-format
+msgid ""
+"%1.\n"
+"\n"
+"Full report:\n"
+"%2"
+msgstr ""
+"%1。\n"
+"\n"
+"完整报告：\n"
+"%2"
+
+#: header/mobileheaderstyle.cpp:137
+#, fuzzy
+#| msgid "sender: "
+msgid "sent: "
+msgstr "发件人："
+
+#: scamdetection/scamcheckshorturl.cpp:62
+msgid "No network connection detected, we cannot expand url."
+msgstr ""
+
+#: scamdetection/scamcheckshorturl.cpp:99
+#, kde-format
+msgid "Short url '%1' redirects to '%2'."
+msgstr ""
+
+#: scamdetection/scamdetection.cpp:55
+#, fuzzy
+#| msgid "Show Details"
+msgid "Details:"
+msgstr "显示细节"
+
+#: scamdetection/scamdetection.cpp:105
+#, kde-format
+msgid ""
+"This email contains a link which reads as '%1' in the text, but actually "
+"points to '%2'. This is often the case in scam emails to mislead the "
+"recipient"
+msgstr ""
+
+#: scamdetection/scamdetection.cpp:113
+#, kde-format
+msgid ""
+"This email contains a link which points to a numerical IP address (%1) "
+"instead of a typical textual website address. This is often the case in scam "
+"emails."
+msgstr ""
+
+#: scamdetection/scamdetection.cpp:116
+#, kde-format
+msgid ""
+"This email contains a link which points to a hexadecimal IP address (%1) "
+"instead of a typical textual website address. This is often the case in scam "
+"emails."
+msgstr ""
+
+#: scamdetection/scamdetection.cpp:119
+#, kde-format
+msgid "This email contains a link (%1) which has a redirection"
+msgstr ""
+
+#: scamdetection/scamdetection.cpp:123
+#, kde-format
+msgid ""
+"This email contains a link (%1) which contains multiple http://. This is "
+"often the case in scam emails."
+msgstr ""
+
+#: scamdetection/scamdetection.cpp:130
+#, kde-format
+msgid "This email contains a shorturl (%1). It can redirect to another server."
+msgstr ""
+
+#: scamdetection/scamdetection.cpp:137
+msgid "Message contains form element. This is often the case in scam emails."
+msgstr ""
+
+#: scamdetection/scamdetectiondetailsdialog.cpp:36
+#, fuzzy
+#| msgid "Show Details"
+msgid "Details"
+msgstr "显示细节"
+
+#: scamdetection/scamdetectionwarningwidget.cpp:36
+msgid "This message may be a scam. <a href=\"scamdetails\">(Details...)</a>"
+msgstr ""
+
+#: scamdetection/scamdetectionwarningwidget.cpp:40
+msgid "Move to Trash"
+msgstr ""
+
+#: scamdetection/scamdetectionwarningwidget.cpp:44
+msgid "I confirm it's not a scam"
+msgstr ""
+
+#: scamdetection/scamdetectionwarningwidget.cpp:48
+msgid "Add email to whitelist"
+msgstr ""
+
+#: scamdetection/scamdetectionwarningwidget.cpp:52
+msgid "Disable scam detection for all messages"
+msgstr ""
+
+#. i18n: ectx: label, entry (PrintSelectedText), group (Print)
+#: settings/messageviewer.kcfg.cmake:12
+msgid "Only print selected text in viewer"
+msgstr ""
+
+#. i18n: ectx: label, entry (RespectExpandCollapseSettings), group (Print)
+#: settings/messageviewer.kcfg.cmake:16
+msgid "Respect expand collapse quote mark defined settings when printing"
+msgstr ""
+
+#. i18n: ectx: label, entry (PrintBackgroundColorImages), group (Print)
+#: settings/messageviewer.kcfg.cmake:20
+msgid ""
+"Specifies whether the background color and images are also drawn when the "
+"page is printed."
+msgstr ""
+
+#. i18n: ectx: label, entry (MinimumFontSize), group (Fonts)
+#: settings/messageviewer.kcfg.cmake:31
+msgid "When we render html do not use font size inferior to minimum size."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowToltecReplacementText), group (Reader)
+#: settings/messageviewer.kcfg.cmake:38
+msgid ""
+"When encountering a Toltec scheduling message, display a custom replacement "
+"text for it."
+msgstr "当遇到 Toltec 消息对象时，显示一段自定义的替换文本。"
+
+#. i18n: ectx: label, entry (ToltecReplacementText), group (Reader)
+#: settings/messageviewer.kcfg.cmake:42
+msgid ""
+"The text that will be displayed as a replacement when encountering Toltec "
+"scheduling messages."
+msgstr "这段文本将会在遇到 Toltec 消息对象时显示为替换文字。"
+
+#. i18n: ectx: label, entry (showColorBar), group (Reader)
+#: settings/messageviewer.kcfg.cmake:53
+msgid "Show HTML status bar"
+msgstr "显示 HTML 状态栏"
+
+#. i18n: ectx: label, entry (showSpamStatus), group (Reader)
+#: settings/messageviewer.kcfg.cmake:57
+msgid "Show spam status in fancy headers"
+msgstr "在亮丽信头中显示垃圾信状态"
+
+#. i18n: ectx: label, entry (ShowEmoticons), group (Reader)
+#: settings/messageviewer.kcfg.cmake:61
+msgid "Replace smileys by emoticons"
+msgstr "将表情以图形方式显示"
+
+#. i18n: ectx: whatsthis, entry (ShowEmoticons), group (Reader)
+#: settings/messageviewer.kcfg.cmake:62
+msgid ""
+"Enable this if you want smileys like :-) appearing in the message text to be "
+"replaced by emoticons (small pictures)."
+msgstr ""
+"如果您想要把邮件文本中类似“:-)”这样的微笑符替换成小尺寸表情图片，请启用此项。"
+
+#. i18n: ectx: label, entry (ShowExpandQuotesMark), group (Reader)
+#: settings/messageviewer.kcfg.cmake:66
+msgid "Show expand/collapse quote marks"
+msgstr "显示展开/折叠的引用标记"
+
+#. i18n: ectx: whatsthis, entry (ShowExpandQuotesMark), group (Reader)
+#: settings/messageviewer.kcfg.cmake:67
+msgid ""
+"Enable this option to show different levels of quoted text. Disable to hide "
+"the levels of quoted text."
+msgstr "启用此项可显示出不同级别的引用文本。禁用则会隐藏引用文本的级别。"
+
+#. i18n: ectx: label, entry (CollapseQuoteLevelSpin), group (Reader)
+#: settings/messageviewer.kcfg.cmake:70
+msgid "Automatic collapse level:"
+msgstr "自动折叠等级："
+
+#. i18n: ectx: label, entry (ShrinkQuotes), group (Reader)
+#: settings/messageviewer.kcfg.cmake:77
+msgid "Reduce font size for quoted text"
+msgstr "引用的文字以较小字体显示"
+
+#. i18n: ectx: whatsthis, entry (ShrinkQuotes), group (Reader)
+#: settings/messageviewer.kcfg.cmake:78
+msgid "Enable this option to show quoted text with a smaller font."
+msgstr "启用此选项可以较小字体显示引用的文字。"
+
+#. i18n: ectx: label, entry (ShowUserAgent), group (Reader)
+#: settings/messageviewer.kcfg.cmake:84
+msgid "Show user agent in fancy headers"
+msgstr "在亮丽信头中显示用户代理"
+
+#. i18n: ectx: whatsthis, entry (ShowUserAgent), group (Reader)
+#: settings/messageviewer.kcfg.cmake:85
+msgid ""
+"Enable this option to get the User-Agent and X-Mailer header lines displayed "
+"when using fancy headers."
+msgstr "如果您使用亮丽信头，启用此项可以在信头行中显示用户代理和邮件客户端。"
+
+#. i18n: ectx: label, entry (AllowAttachmentDeletion), group (Reader)
+#: settings/messageviewer.kcfg.cmake:89
+msgid "Allow to delete attachments of existing mails."
+msgstr "允许删除现存邮件中的附件。"
+
+#. i18n: ectx: label, entry (AllowAttachmentEditing), group (Reader)
+#: settings/messageviewer.kcfg.cmake:93
+msgid "Allow to edit attachments of existing mails."
+msgstr "允许编辑现存邮件中的附件。"
+
+#. i18n: ectx: label, entry (AlwaysDecrypt), group (Reader)
+#: settings/messageviewer.kcfg.cmake:97
+msgid "Always decrypt messages when viewing or ask before decrypting"
+msgstr "在查看密件前总是先行试图解密，还是解密前询问"
+
+#. i18n: ectx: label, entry (MimeTreeLocation), group (Reader)
+#: settings/messageviewer.kcfg.cmake:100
+msgid "Message Structure Viewer Placement"
+msgstr "信件结构查看器放置"
+
+#. i18n: ectx: label, entry (MimeTreeLocation), group (Reader)
+#: settings/messageviewer.kcfg.cmake:103
+msgid "Above the message pane"
+msgstr "位于信件面板上"
+
+#. i18n: ectx: label, entry (MimeTreeLocation), group (Reader)
+#: settings/messageviewer.kcfg.cmake:106
+msgid "Below the message pane"
+msgstr "位于信件面板下"
+
+#. i18n: ectx: label, entry (MimeTreeMode), group (Reader)
+#: settings/messageviewer.kcfg.cmake:112
+msgid "Message Structure Viewer"
+msgstr "信件结构查看器"
+
+#. i18n: ectx: label, entry (MimeTreeMode), group (Reader)
+#: settings/messageviewer.kcfg.cmake:115
+msgid "Show never"
+msgstr "从不显示"
+
+#. i18n: ectx: label, entry (MimeTreeMode), group (Reader)
+#: settings/messageviewer.kcfg.cmake:118
+msgid "Show always"
+msgstr "总是显示"
+
+#. i18n: ectx: label, entry (numberOfAddressesToShow), group (Reader)
+#: settings/messageviewer.kcfg.cmake:124
+msgid "Number of addresses to show before collapsing"
+msgstr "折叠前显示的地址数"
+
+#. i18n: ectx: label, entry (headerStyle), group (Reader)
+#: settings/messageviewer.kcfg.cmake:135
+msgid "What style of headers should be displayed"
+msgstr "信头显示风格"
+
+#. i18n: ectx: label, entry (headerSetDisplayed), group (Reader)
+#: settings/messageviewer.kcfg.cmake:139
+msgid "How much of headers should be displayed"
+msgstr "显示的信头数量"
+
+#. i18n: ectx: label, entry (htmlMail), group (Reader)
+#: settings/messageviewer.kcfg.cmake:143
+msgid "Prefer HTML to plain text"
+msgstr "优先使用 HTML 格式"
+
+#. i18n: ectx: label, entry (htmlLoadExternal), group (Reader)
+#: settings/messageviewer.kcfg.cmake:147
+msgid "Allow messages to load external references from the Internet"
+msgstr "允许信件从网络上加载外部引用"
+
+#. i18n: ectx: label, entry (zoomTextOnly), group (Reader)
+#: settings/messageviewer.kcfg.cmake:151
+msgid "Zoom only text"
+msgstr ""
+
+#. i18n: ectx: label, entry (attachmentStrategy), group (Reader)
+#: settings/messageviewer.kcfg.cmake:155
+msgid "How attachments are shown"
+msgstr "如何显示附件"
+
+#. i18n: ectx: label, entry (RecycleQuoteColors), group (Reader)
+#: settings/messageviewer.kcfg.cmake:159
+msgid "Specifies whether to reuse the quote color, beyond the 3rd level"
+msgstr ""
+
+#. i18n: ectx: label, entry (AccessKeyEnabled), group (Reader)
+#: settings/messageviewer.kcfg.cmake:163
+msgid "Activate Access Key"
+msgstr ""
+
+#. i18n: ectx: label, entry (ScamDetectionEnabled), group (Reader)
+#: settings/messageviewer.kcfg.cmake:167
+msgid ""
+"KMail can analyze messages for suspected email scams by looking for common "
+"techniques used to deceive you"
+msgstr ""
+
+#. i18n: ectx: label, entry (ScamDetectionWhiteList), group (Reader)
+#: settings/messageviewer.kcfg.cmake:171
+msgid "List of emails in scam white list"
+msgstr ""
+
+#. i18n: ectx: label, entry (AdBlockEnabled), group (Reader)
+#: settings/messageviewer.kcfg.cmake:175
+msgid "Enabled ad block"
+msgstr ""
+
+#. i18n: ectx: label, entry (HideAdsEnabled), group (Reader)
+#: settings/messageviewer.kcfg.cmake:179
+msgid "Hide advertisement enabled"
+msgstr ""
+
+#. i18n: ectx: label, entry (AdBlockUpdateInterval), group (Reader)
+#: settings/messageviewer.kcfg.cmake:183
+msgid "Update interval list of adblock"
+msgstr ""
+
+#. i18n: ectx: label, entry (notSendWhenEncrypted), group (MDN)
+#: settings/messageviewer.kcfg.cmake:201
+msgid "Do not send MDNs in response to encrypted messages"
+msgstr "对加密信件的响应不发送 MDNs"
+
+#. i18n: ectx: label, entry (DefaultPolicy), group (MDN)
+#: settings/messageviewer.kcfg.cmake:205
+msgid ""
+"Specifies the default policy to use, for the Message Disposition "
+"Notifications (for internal use only)"
+msgstr ""
+
+#. i18n: ectx: label, entry (QuoteMessage), group (MDN)
+#: settings/messageviewer.kcfg.cmake:209
+msgid ""
+"Specifies the default quoting action to take, when replying to a message "
+"(for internal use only)"
+msgstr ""
+
+#. i18n: ectx: label, entry (LegacyMangleFromToHeaders), group (Invitations)
+#: settings/messageviewer.kcfg.cmake:225
+msgid "Mangle From:/To: headers in replies to replies"
+msgstr "在回复邀请时改动信头中的发件人/收件人"
+
+#. i18n: ectx: whatsthis, entry (LegacyMangleFromToHeaders), group (Invitations)
+#: settings/messageviewer.kcfg.cmake:226
+msgid ""
+"Microsoft Outlook has a number of shortcomings in its implementation of the "
+"iCalendar standard; this option works around one of them. If you have "
+"problems with Outlook users not being able to get your replies, try setting "
+"this option."
+msgstr ""
+"Microsoft Outlook 在实现 iCanlendar 标准时有很多缺陷；此选项用来解决这个问"
+"题。如果 Outlook 用户无法获得您的回复，请试着开启此选项。"
+
+#. i18n: ectx: label, entry (LegacyBodyInvites), group (Invitations)
+#: settings/messageviewer.kcfg.cmake:231
+msgid "Send groupware invitations in the mail body"
+msgstr "在邮件体中发送群件邀请"
+
+#. i18n: ectx: whatsthis, entry (LegacyBodyInvites), group (Invitations)
+#: settings/messageviewer.kcfg.cmake:232
+msgid ""
+"Microsoft Outlook has a number of shortcomings in its implementation of the "
+"iCalendar standard; this option works around one of them. If you have "
+"problems with Outlook users not being able to get your invitations, try "
+"setting this option."
+msgstr ""
+"Microsoft Outlook 在实现 iCanlendar 标准时有很多缺陷；此选项用来解决这个问"
+"题。如果 Outlook 用户无法获得您的邀请，请试着开启此选项。"
+
+#. i18n: ectx: label, entry (ExchangeCompatibleInvitations), group (Invitations)
+#: settings/messageviewer.kcfg.cmake:237
+msgid "Exchange-compatible invitation naming"
+msgstr "Exchange 兼容的邀请命名"
+
+#. i18n: ectx: whatsthis, entry (ExchangeCompatibleInvitations), group (Invitations)
+#: settings/messageviewer.kcfg.cmake:238
+msgid ""
+"Microsoft Outlook, when used in combination with a Microsoft Exchange "
+"server, has a problem understanding standards-compliant groupware email. "
+"Turn this option on to send groupware invitations in a way that Microsoft "
+"Exchange understands."
+msgstr ""
+"Microsoft Outlook 在和 Microsoft Exchange 服务器协同工作时，对标准化群件邮件"
+"的处理有个缺陷。启用此选项可发送能被 Microsoft Exchange 识别的群件邀请。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mOutlookCompatibleInvitationComments)
+#. i18n: ectx: label, entry (OutlookCompatibleInvitationReplyComments), group (Invitations)
+#: settings/messageviewer.kcfg.cmake:243 ui/invitationsettings.ui:58
+msgid "Outlook compatible invitation reply comments"
+msgstr "Outlook 兼容的邀请回复注释"
+
+#. i18n: ectx: whatsthis, entry (OutlookCompatibleInvitationReplyComments), group (Invitations)
+#: settings/messageviewer.kcfg.cmake:244
+msgid ""
+"When replying to invitations, send the reply comment in way that Microsoft "
+"Outlook understands."
+msgstr "当回复邀请时，以 Microsoft Outlook 可解析的形式发送回复内容。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mOutlookCompatibleInvitationComparisons)
+#. i18n: ectx: label, entry (OutlookCompatibleInvitationComparisons), group (Invitations)
+#: settings/messageviewer.kcfg.cmake:249 ui/invitationsettings.ui:71
+msgid "Show invitation update differences in the Outlook style"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, mOutlookCompatibleInvitationComparisons)
+#. i18n: ectx: whatsthis, entry (OutlookCompatibleInvitationComparisons), group (Invitations)
+#: settings/messageviewer.kcfg.cmake:250 ui/invitationsettings.ui:68
+#, fuzzy
+#| msgid ""
+#| "When replying to invitations, send the reply comment in way that "
+#| "Microsoft Outlook understands."
+msgid ""
+"When viewing invitation updates, show the differences in the Microsoft "
+"Outlook style."
+msgstr "当回复邀请时，以 Microsoft Outlook 可解析的形式发送回复内容。"
+
+#. i18n: ectx: label, entry (AutomaticSending), group (Invitations)
+#: settings/messageviewer.kcfg.cmake:255
+msgid "Automatic invitation sending"
+msgstr "自动发送邀请"
+
+#. i18n: ectx: whatsthis, entry (AutomaticSending), group (Invitations)
+#: settings/messageviewer.kcfg.cmake:256
+msgid ""
+"When this is checked, you will not see the mail composer window. Instead, "
+"all invitation mails are sent automatically. If you want to see the mail "
+"before sending it, you can uncheck this option. However, be aware that the "
+"text in the composer window is in iCalendar syntax, and you should not try "
+"modifying it by hand."
+msgstr ""
+"当此项被选中时，您将看不到邮件撰写器窗口。作为替代所有邀请信件都会被自动发"
+"送。如果您想先查看要发送的邮件，可以取消此选项。然而，注意撰写器窗口中的文本"
+"采用了 iCalendar 语法，您最好不要尝试手动修改它。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mDeleteInvitations)
+#. i18n: ectx: label, entry (DeleteInvitationEmailsAfterSendingReply), group (Invitations)
+#: settings/messageviewer.kcfg.cmake:261 ui/invitationsettings.ui:100
+msgid "Delete invitation emails after the reply to them has been sent"
+msgstr "在寄出回复信件后删除邀请函"
+
+#. i18n: ectx: whatsthis, entry (DeleteInvitationEmailsAfterSendingReply), group (Invitations)
+#: settings/messageviewer.kcfg.cmake:262
+msgid ""
+"When this is checked, received invitation emails that have been replied to "
+"will be moved to the Trash folder, once the reply has been successfully sent."
+msgstr "如果选中此项，已回复过的邀请函将被移动到废件箱。"
+
+#. i18n: ectx: label, entry (UseFixedFont), group (Composer)
+#: settings/messageviewer.kcfg.cmake:286 viewer/viewer_p.cpp:1709
+msgid "Use Fi&xed Font"
+msgstr "使用等宽字体(&X)"
+
+#. i18n: ectx: whatsthis, entry (LastSelectedFolder), group (Todo)
+#: settings/messageviewer.kcfg.cmake:311
+msgid "The most recent selected folder using for Todo."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: ui/invitationsettings.ui:17
+msgid "Groupware Compatibility && Legacy Options"
+msgstr "群件兼容性和传统选项"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mLegacyMangleFromTo)
+#: ui/invitationsettings.ui:23
+msgid ""
+"Turn this option on in order to make Outlook(tm) understand your answers to "
+"invitation replies"
+msgstr "启用此选项，才能让 Outlook(tm) 理解您对邀请的回复"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mLegacyMangleFromTo)
+#: ui/invitationsettings.ui:26
+msgid "&Mangle From:/To: headers in replies to invitations"
+msgstr "在回复邀请时改动信头中的发件人/收件人(&M)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mLegacyBodyInvites)
+#: ui/invitationsettings.ui:33
+msgid ""
+"Turn this option on in order to make Outlook(tm) understand your answers to "
+"invitations"
+msgstr "启用此选项，才能让 Outlook(tm) 理解您对邀请的回复"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mLegacyBodyInvites)
+#: ui/invitationsettings.ui:36
+msgid "Send &invitations in the mail body"
+msgstr "在邮件正文中发送邀请(&I)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mExchangeCompatibleInvitations)
+#: ui/invitationsettings.ui:45
+msgid ""
+"Microsoft Outlook, when used in combination with a Microsoft Exchange "
+"server,\n"
+"has a problem understanding standards-compliant groupware email.\n"
+"Turn this option on to send groupware invitations in a way that Microsoft "
+"Exchange understands."
+msgstr ""
+"Microsoft Outlook 在和 Microsoft Exchange 服务器协同工作时，对标准群件邮件\n"
+"的处理有个缺陷。\n"
+"启用此选项可发送能被 Microsoft Exchange 识别的群件邀请。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mExchangeCompatibleInvitations)
+#: ui/invitationsettings.ui:48
+msgid "Exchange-compatible invitation &naming"
+msgstr "Exchange 兼容的邀请名(&N)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mOutlookCompatibleInvitationComments)
+#: ui/invitationsettings.ui:55
+msgid ""
+"Send invitation reply comments in a way that Microsoft Outlook(tm) "
+"understands."
+msgstr "发送 Microsoft Outlook(tm) 兼容的回复注释。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mOutlookCompatibleInvitationComparisons)
+#: ui/invitationsettings.ui:65
+#, fuzzy
+#| msgid ""
+#| "Send invitation reply comments in a way that Microsoft Outlook(tm) "
+#| "understands."
+msgid ""
+"Display invitation update differences in the Microsoft Outlook(tm) style."
+msgstr "发送 Microsoft Outlook(tm) 兼容的回复注释。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mAutomaticSending)
+#: ui/invitationsettings.ui:81
+msgid ""
+"When this is on, the user will not see the mail composer window. Invitation "
+"mails are sent automatically."
+msgstr "开启此选项时，用户将无法看到邮件撰写器窗口。邀请邮件是自动发送的。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mAutomaticSending)
+#: ui/invitationsettings.ui:84
+msgid "&Automatic invitation sending"
+msgstr "自动发送邀请(&A)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mPrintEmptySelectedText)
+#: ui/printingsettings.ui:17
+msgid "Print only selected text"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, respectExpandCollapseSettings)
+#: ui/printingsettings.ui:24
+#, fuzzy
+#| msgid "Show &expand/collapse quote marks"
+msgid "Respect &expand/collapse quote marks settings"
+msgstr "显示展开/折叠的引用标记(&E)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, printBackgroundColorAndImages)
+#: ui/printingsettings.ui:31
+msgid "Print background color and images"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Settings)
+#: ui/settings.ui:31
+msgid "Viewer settings"
+msgstr "查看器设置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccessKeyEnabled)
+#: ui/settings.ui:39
+msgid "Enable access key"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showColorBar)
+#: ui/settings.ui:46
+msgid "Show &HTML status bar"
+msgstr "显示 &HTML 状态栏"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowEmoticons)
+#: ui/settings.ui:53
+msgid "Replace smileys &by emoticons"
+msgstr "将表情以图形方式显示(&B)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShrinkQuotes)
+#: ui/settings.ui:60
+msgid "Reduce font size for &quoted text"
+msgstr "引用的文字以较小字体显示(&Q)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowExpandQuotesMark)
+#: ui/settings.ui:67
+msgid "Show &expand/collapse quote marks"
+msgstr "显示展开/折叠的引用标记(&E)"
+
+#. i18n: ectx: property (text), widget (QLabel, collapseQuoteLevelLabel)
+#: ui/settings.ui:95
+msgid "Au&tomatic collapse level:"
+msgstr "自动折叠等级(&T)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/settings.ui:162
+msgid "Fallback character e&ncoding:"
+msgstr "默认字符编码(&N)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/settings.ui:188
+msgid "&Override character encoding:"
+msgstr "覆盖字符编码(&O)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/settings.ui:208
+msgid "Minimum font size:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, configureCustomHeadersButton)
+#: ui/settings.ui:244
+#, fuzzy
+#| msgctxt "View->headers->"
+#| msgid "&Long Headers"
+msgid "Configure Custom Headers..."
+msgstr "长信头(&L)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showSpamStatus)
+#: ui/settings.ui:251
+msgid "Show spam status &in fancy headers"
+msgstr "在亮丽信头中显示垃圾信状态(&I)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/settings.ui:258
+#, fuzzy
+#| msgctxt "View->"
+#| msgid "&Headers"
+msgid "Headers:"
+msgstr "信头(&H)"
+
+#: utils/util.cpp:84
+#, kde-format
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "名为“%1” 的文件已经存在。您要覆盖它吗？"
+
+#: utils/util.cpp:86
+msgid "Overwrite File?"
+msgstr "覆盖文件吗？"
+
+#: utils/util.cpp:198
+msgid "Save Attachments To"
+msgstr "附件保存至"
+
+#: utils/util.cpp:211
+msgctxt "filename for an unnamed attachment"
+msgid "attachment.1"
+msgstr "附件.1"
+
+#: utils/util.cpp:218
+msgid "Save Attachment"
+msgstr "保存附件"
+
+#: utils/util.cpp:238
+#, kde-format
+msgctxt "filename for the %1-th unnamed attachment"
+msgid "attachment.%1"
+msgstr "附件.%1"
+
+#: utils/util.cpp:321
+#, kde-format
+msgid ""
+"The part %1 of the message is encrypted. Do you want to keep the encryption "
+"when saving?"
+msgstr "信件的第 %1 部分经过加密。您想要在保存时保持加密吗？"
+
+#: utils/util.cpp:323 utils/util.cpp:332
+msgid "KMail Question"
+msgstr "KMail 提问"
+
+#: utils/util.cpp:323
+msgid "Keep Encryption"
+msgstr "保持加密"
+
+#: utils/util.cpp:323 utils/util.cpp:332
+msgid "Do Not Keep"
+msgstr "不保持"
+
+#: utils/util.cpp:330
+#, kde-format
+msgid ""
+"The part %1 of the message is signed. Do you want to keep the signature when "
+"saving?"
+msgstr "信件的第 %1 部分经过签名。您想要在保存时保留签名吗？"
+
+#: utils/util.cpp:332
+msgid "Keep Signature"
+msgstr "保持签名"
+
+#: utils/util.cpp:383 utils/util.cpp:407 utils/util.cpp:425
+#, kde-format
+msgctxt "1 = file name, 2 = error string"
+msgid "<qt>Could not write to the file<br><filename>%1</filename><br><br>%2"
+msgstr "<qt>无法写入文件 <br><filename>%1</filename><br><br>%2"
+
+#: utils/util.cpp:386 utils/util.cpp:410 utils/util.cpp:428
+msgid "Error saving attachment"
+msgstr "保存附件时出错"
+
+#: utils/util.cpp:456
+msgid "Found no attachments to save."
+msgstr "没有发现要保存的附件。"
+
+#: utils/util.cpp:474
+#, fuzzy
+#| msgid "&Save message"
+msgid "message"
+msgstr "保存信件(&S)"
+
+#: utils/util.cpp:479
+msgid ""
+"*.mbox|email messages (*.mbox)\n"
+"*|all files (*)"
+msgstr ""
+
+#: utils/util.cpp:481
+#, fuzzy
+#| msgid "&Save message"
+msgid "Save Message"
+msgid_plural "Save Messages"
+msgstr[0] "保存信件(&S)"
+
+#: utils/util.cpp:506
+#, fuzzy, kde-format
+#| msgid "The message could not be decrypted."
+msgid "File %1 could not be loaded."
+msgstr "无法解密此信件。"
+
+#: utils/util.cpp:506
+#, fuzzy
+#| msgid "Loading message..."
+msgid "Error loading message"
+msgstr "正在装入信件..."
+
+#: utils/util.cpp:508
+#, fuzzy, kde-format
+#| msgid "The message could not be decrypted."
+msgid "File %1 could not be created."
+msgstr "无法解密此信件。"
+
+#: utils/util.cpp:508 utils/util.cpp:520
+#, fuzzy
+#| msgid "Error saving attachment"
+msgid "Error saving message"
+msgstr "保存附件时出错"
+
+#: utils/util.cpp:520
+#, fuzzy
+#| msgid "End of signed message"
+msgid "We cannot save message."
+msgstr "签名信件结束"
+
+#: utils/util.cpp:541
+msgid "Starting Jovie Text-to-Speech Service Failed"
+msgstr ""
+
+#: utils/util.cpp:554
+#, fuzzy, kde-format
+#| msgid "&Open with '%1'"
+msgid "Open &with %1"
+msgstr "用“%1”打开(&O)"
+
+#: utils/util.cpp:556
+#, kde-format
+msgctxt "@item:inmenu Open With, %1 is application name"
+msgid "%1"
+msgstr ""
+
+#: viewer/chiasmuskeyselector.cpp:27
+msgid "Please select the Chiasmus key file to use:"
+msgstr "请选择要使用的 Chiasmus 密钥文件："
+
+#: viewer/chiasmuskeyselector.cpp:37
+msgid "Additional arguments for chiasmus:"
+msgstr "Chiasmus 的额外参数："
+
+#: viewer/editorwatcher.cpp:70
+msgid "Edit with:"
+msgstr "使用编辑器："
+
+#: viewer/editorwatcher.cpp:170
+msgid ""
+"KMail is unable to detect when the chosen editor is closed. To avoid data "
+"loss, editing the attachment will be aborted."
+msgstr ""
+"KMail 无法检测选定的编辑器何时关闭。为避免数据丢失，对附件的编辑会被中止。"
+
+#: viewer/editorwatcher.cpp:172
+msgid "Unable to edit attachment"
+msgstr "无法编辑附件"
+
+#: viewer/mailsourceviewer.cpp:122 viewer/viewer_p.cpp:1808
+msgid "Speak Text"
+msgstr ""
+
+#: viewer/mailsourceviewer.cpp:125 viewer/viewer_p.cpp:642
+msgid "Save As..."
+msgstr "另存为..."
+
+#: viewer/mailsourceviewer.cpp:252
+msgctxt "Unchanged mail message"
+msgid "Raw Source"
+msgstr "源文件"
+
+#: viewer/mailsourceviewer.cpp:253
+msgid "Raw, unmodified mail as it is stored on the filesystem or on the server"
+msgstr "在文件系统或服务器上存储的未经修改的原始邮件"
+
+#: viewer/mailsourceviewer.cpp:256
+msgctxt "Mail message as shown, in HTML format"
+msgid "HTML Source"
+msgstr "源文件"
+
+#: viewer/mailsourceviewer.cpp:257
+msgid "HTML code for displaying the message to the user"
+msgstr "显示消息的 HTML 代码"
+
+#: viewer/mimetreemodel.cpp:70
+msgid "body part"
+msgstr "正文部分"
+
+#: viewer/mimetreemodel.cpp:247
+msgid "Description"
+msgstr "描述"
+
+#: viewer/mimetreemodel.cpp:251
+msgid "Size"
+msgstr "大小"
+
+#: viewer/objecttreeparser.cpp:560 viewer/objecttreeparser.cpp:3027
+msgid "Wrong Crypto Plug-In."
+msgstr "错误的加密插件。"
+
+#: viewer/objecttreeparser.cpp:712 viewer/objecttreeparser.cpp:2268
+msgid "Different results for signatures"
+msgstr "签名结果不同"
+
+#: viewer/objecttreeparser.cpp:816
+msgid "The crypto engine returned no cleartext data."
+msgstr "加密引擎没有明文数据返回。"
+
+#: viewer/objecttreeparser.cpp:819 viewer/objecttreeparser.cpp:2744
+#: viewer/objecttreeparser.cpp:2787
+msgid "Status: "
+msgstr "状态："
+
+#: viewer/objecttreeparser.cpp:826
+msgctxt "Status of message unknown."
+msgid "(unknown)"
+msgstr "(未知)"
+
+#: viewer/objecttreeparser.cpp:837 viewer/objecttreeparser.cpp:1117
+#, kde-format
+msgid "Crypto plug-in \"%1\" is not initialized."
+msgstr "加密算法插件“%1”无法初始化。"
+
+#: viewer/objecttreeparser.cpp:841
+#, kde-format
+msgid "Crypto plug-in \"%1\" cannot verify signatures."
+msgstr "加密算法插件“%1”无法校验签名。"
+
+#: viewer/objecttreeparser.cpp:846 viewer/objecttreeparser.cpp:1125
+msgid "No appropriate crypto plug-in was found."
+msgstr "没有找到合适的加密算法插件。"
+
+#: viewer/objecttreeparser.cpp:849
+#, kde-format
+msgctxt "%1 is either 'OpenPGP' or 'S/MIME'"
+msgid "No %1 plug-in was found."
+msgstr "没有找到 %1 插件。"
+
+#: viewer/objecttreeparser.cpp:853
+#, kde-format
+msgid ""
+"The message is signed, but the validity of the signature cannot be verified."
+"<br />Reason: %1"
+msgstr "信件已签名，但是无法校验签名的有效性。<br />原因：%1"
+
+#: viewer/objecttreeparser.cpp:886
+msgid "This message is encrypted."
+msgstr "信件已加密。"
+
+#: viewer/objecttreeparser.cpp:891
+msgid "Decrypt Message"
+msgstr "解密信件"
+
+#: viewer/objecttreeparser.cpp:915
+msgid "Encrypted data not shown"
+msgstr "未显示加密数据"
+
+#: viewer/objecttreeparser.cpp:931
+#, kde-format
+msgid "Sorry, certificate could not be imported.<br />Reason: %1"
+msgstr "抱歉，证书无法导入。<br />原因：%1"
+
+#: viewer/objecttreeparser.cpp:941
+msgid "Sorry, no certificates were found in this message."
+msgstr "抱歉，此信件内没有找到任何证书。"
+
+#: viewer/objecttreeparser.cpp:944
+msgid "Certificate import status:"
+msgstr "证书导入状态："
+
+#: viewer/objecttreeparser.cpp:946
+#, kde-format
+msgid "1 new certificate was imported."
+msgid_plural "%1 new certificates were imported."
+msgstr[0] "新导入了 %1 个证书。"
+
+#: viewer/objecttreeparser.cpp:949
+#, kde-format
+msgid "1 certificate was unchanged."
+msgid_plural "%1 certificates were unchanged."
+msgstr[0] "%1 个证书没有更改。"
+
+#: viewer/objecttreeparser.cpp:952
+#, kde-format
+msgid "1 new secret key was imported."
+msgid_plural "%1 new secret keys were imported."
+msgstr[0] "新导入了 %1 个绝密密钥。"
+
+#: viewer/objecttreeparser.cpp:955
+#, kde-format
+msgid "1 secret key was unchanged."
+msgid_plural "%1 secret keys were unchanged."
+msgstr[0] "%1 个绝密密钥没有更改。"
+
+#: viewer/objecttreeparser.cpp:965
+msgid "Sorry, no details on certificate import available."
+msgstr "抱歉，没有关于证书导入的详情。"
+
+#: viewer/objecttreeparser.cpp:968
+msgid "Certificate import details:"
+msgstr "证书导入详情："
+
+#: viewer/objecttreeparser.cpp:972
+#, kde-format
+msgctxt "Certificate import failed."
+msgid "Failed: %1 (%2)"
+msgstr "失败：%1(%2)"
+
+#: viewer/objecttreeparser.cpp:976
+#, kde-format
+msgid "New or changed: %1 (secret key available)"
+msgstr "新建或变更：%1 (绝密密钥可用)"
+
+#: viewer/objecttreeparser.cpp:978
+#, kde-format
+msgid "New or changed: %1"
+msgstr "新建或变更：%1"
+
+#: viewer/objecttreeparser.cpp:1015
+msgid "Could not decrypt the data."
+msgstr "无法解密数据。"
+
+#: viewer/objecttreeparser.cpp:1104
+#, kde-format
+msgid "Crypto plug-in \"%1\" could not decrypt the data."
+msgstr "加密插件“%1”无法解密数据。"
+
+#: viewer/objecttreeparser.cpp:1106
+#, kde-format
+msgid "Error: %1"
+msgstr "错误：%1"
+
+#: viewer/objecttreeparser.cpp:1121
+#, kde-format
+msgid "Crypto plug-in \"%1\" cannot decrypt messages."
+msgstr "加密算法插件“%1”无法解密任何信件。"
+
+#: viewer/objecttreeparser.cpp:1242
+msgid ""
+"<b>Note:</b> This HTML message may contain external references to images "
+"etc. For security/privacy reasons external references are not loaded. If you "
+"trust the sender of this message then you can load the external references "
+"for this message <a href=\"kmail:loadExternal\">by clicking here</a>."
+msgstr ""
+"<b>注意：</b>这封 HTML 信件可能包含对外部图像的引用。为安全起见，外部引用不会"
+"装入。如果您信任此信件的发件人，您可以单击<a href=\"kmail:loadExternal\">此处"
+"</a>装入此新建的外部引用。"
+
+#: viewer/objecttreeparser.cpp:1252
+msgid ""
+"<b>Note:</b> This is an HTML message. For security reasons, only the raw "
+"HTML code is shown. If you trust the sender of this message then you can "
+"activate formatted HTML display for this message <a href=\"kmail:showHTML"
+"\">by clicking here</a>."
+msgstr ""
+"<b>注意：</b>这是一封 HTML 信件。为安全起见，仅显示 HTML 源代码。如果您信任此"
+"信件的发件人，您可以单击<a href=\"kmail:showHTML\">此处</a>显示排版后的 "
+"HTML。"
+
+#: viewer/objecttreeparser.cpp:1468
+msgid ""
+"This message is a <i>Toltec</i> Groupware object, it can only be viewed with "
+"Microsoft Outlook in combination with the Toltec connector."
+msgstr ""
+"此消息是一个 <i>Toltec</i> 群件对象，只能在 Microsoft Outlook 中结合 Toltec "
+"连接器来查看。"
+
+#: viewer/objecttreeparser.cpp:1480 viewer/urlhandlermanager.cpp:546
+msgid "Show Raw Message"
+msgstr "显示原始信件"
+
+#: viewer/objecttreeparser.cpp:2067 viewer/viewer_p.cpp:2937
+msgid ""
+"Chiasmus backend does not offer the \"x-obtain-keys\" function. Please "
+"report this bug."
+msgstr "Chiasmus 后端无法提供“x-obtain-keys”功能，请报告此错误。"
+
+#: viewer/objecttreeparser.cpp:2073 viewer/viewer_p.cpp:2939
+#: viewer/viewer_p.cpp:2944 viewer/viewer_p.cpp:2953 viewer/viewer_p.cpp:2962
+#: viewer/viewer_p.cpp:2980 viewer/viewer_p.cpp:2992 viewer/viewer_p.cpp:3032
+msgid "Chiasmus Backend Error"
+msgstr "Chiasmus 后端出错"
+
+#: viewer/objecttreeparser.cpp:2079 viewer/viewer_p.cpp:2950
+msgid ""
+"Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" "
+"function did not return a string list. Please report this bug."
+msgstr ""
+"Chiasmus 后端有意外返回值：“x-obtain-keys”功能未返回字符串列表。请报告此错"
+"误。"
+
+#: viewer/objecttreeparser.cpp:2087 viewer/viewer_p.cpp:2959
+msgid ""
+"No keys have been found. Please check that a valid key path has been set in "
+"the Chiasmus configuration."
+msgstr "未找到密钥。请检查 Chiasmus 配置中是否设定了有效的密钥路径。"
+
+#: viewer/objecttreeparser.cpp:2093 viewer/viewer_p.cpp:2966
+msgid "Chiasmus Decryption Key Selection"
+msgstr "Chiasmus 解密密钥选择"
+
+#: viewer/objecttreeparser.cpp:2106 viewer/viewer_p.cpp:2978
+msgid ""
+"Chiasmus backend does not offer the \"x-decrypt\" function. Please report "
+"this bug."
+msgstr "Chiasmus 后端不提供“x-decrypt”功能。请报告此错误。"
+
+#: viewer/objecttreeparser.cpp:2114 viewer/viewer_p.cpp:2990
+msgid ""
+"The \"x-decrypt\" function does not accept the expected parameters. Please "
+"report this bug."
+msgstr "“x-decrypt”功能不接受意外参数。请报告此错误。"
+
+#: viewer/objecttreeparser.cpp:2120 viewer/viewer_p.cpp:2997
+#: viewer/viewer_p.cpp:3024
+msgid "Chiasmus Decryption Error"
+msgstr "Chiasmus 解密错误"
+
+#: viewer/objecttreeparser.cpp:2126 viewer/viewer_p.cpp:3029
+msgid ""
+"Unexpected return value from Chiasmus backend: The \"x-decrypt\" function "
+"did not return a byte array. Please report this bug."
+msgstr ""
+"Chiasmus 后端返回了意外返回值：“x-decrypt”功能未返回字节数组。请报告此错误。"
+
+#: viewer/objecttreeparser.cpp:2196
+msgctxt "display name for an unnamed attachment"
+msgid "Unnamed"
+msgstr "未命名"
+
+#: viewer/objecttreeparser.cpp:2250
+msgid "Error: Signature not verified"
+msgstr "错误：没有验证签名"
+
+#: viewer/objecttreeparser.cpp:2253
+msgid "Good signature"
+msgstr "有效的签名"
+
+#: viewer/objecttreeparser.cpp:2256
+msgid "<b>Bad</b> signature"
+msgstr "<b>无效</b>签名"
+
+#: viewer/objecttreeparser.cpp:2259
+msgid "No public key to verify the signature"
+msgstr "没有公开密钥可以验证签名"
+
+#: viewer/objecttreeparser.cpp:2262
+msgid "No signature found"
+msgstr "没有找到签名。"
+
+#: viewer/objecttreeparser.cpp:2265
+msgid "Error verifying the signature"
+msgstr "验证签名错误"
+
+#: viewer/objecttreeparser.cpp:2288
+msgid "No status information available."
+msgstr "没有可用的状态信息。"
+
+#: viewer/objecttreeparser.cpp:2295 viewer/objecttreeparser.cpp:2379
+msgid "Good signature."
+msgstr "有效签名。"
+
+#: viewer/objecttreeparser.cpp:2316
+msgid "One key has expired."
+msgstr "有一个密钥已经过期了。"
+
+#: viewer/objecttreeparser.cpp:2320
+msgid "The signature has expired."
+msgstr "签名已过期。"
+
+#: viewer/objecttreeparser.cpp:2325
+msgid "Unable to verify: key missing."
+msgstr "无法验证：缺少密钥。"
+
+#: viewer/objecttreeparser.cpp:2332
+msgid "CRL not available."
+msgstr "CRL 不可用。"
+
+#: viewer/objecttreeparser.cpp:2336
+msgid "Available CRL is too old."
+msgstr "可用的 CRL 过旧。"
+
+#: viewer/objecttreeparser.cpp:2340
+msgid "A policy was not met."
+msgstr "不符合策略。"
+
+#: viewer/objecttreeparser.cpp:2344
+msgid "A system error occurred."
+msgstr "发生系统错误。"
+
+#: viewer/objecttreeparser.cpp:2355
+msgid "One key has been revoked."
+msgstr "一个密钥已经被吊销。"
+
+#: viewer/objecttreeparser.cpp:2381
+msgid "<b>Bad</b> signature."
+msgstr "<b>无效</b>签名。"
+
+#: viewer/objecttreeparser.cpp:2408
+msgid "Invalid signature."
+msgstr "签名无效。"
+
+#: viewer/objecttreeparser.cpp:2411
+msgid "Not enough information to check signature validity."
+msgstr "没有足够的信息检查签名有效性。"
+
+#: viewer/objecttreeparser.cpp:2423
+msgid "Signature is valid."
+msgstr "签名有效。"
+
+#: viewer/objecttreeparser.cpp:2425
+#, kde-format
+msgid "Signed by <a href=\"mailto:%1\">%2</a>."
+msgstr "由 <a href=\"mailto:%1\">%2</a> 签名。"
+
+#: viewer/objecttreeparser.cpp:2430
+msgid "Unknown signature state"
+msgstr "未知的签名状态"
+
+#: viewer/objecttreeparser.cpp:2434
+msgid "Show Details"
+msgstr "显示细节"
+
+#: viewer/objecttreeparser.cpp:2454
+msgid "No Audit Log available"
+msgstr "审核日志不可用"
+
+#: viewer/objecttreeparser.cpp:2456
+#, kde-format
+msgid "Error Retrieving Audit Log: %1"
+msgstr "获取审核日志出错：%1"
+
+#: viewer/objecttreeparser.cpp:2466
+msgctxt "The Audit Log is a detailed error log from the gnupg backend"
+msgid "Show Audit Log"
+msgstr "显示审核日志"
+
+#: viewer/objecttreeparser.cpp:2477
+msgid "Hide Details"
+msgstr "隐藏细节"
+
+#: viewer/objecttreeparser.cpp:2503 viewer/objecttreeparser.cpp:2505
+msgid "Encapsulated message"
+msgstr "封装的信件"
+
+#: viewer/objecttreeparser.cpp:2514
+msgid "Please wait while the message is being decrypted..."
+msgstr "请稍等，正在解密信件..."
+
+#: viewer/objecttreeparser.cpp:2516
+msgid "Encrypted message"
+msgstr "加密的信件"
+
+#: viewer/objecttreeparser.cpp:2518
+msgid "Encrypted message (decryption not possible)"
+msgstr "加密信件(无法解密)"
+
+#: viewer/objecttreeparser.cpp:2520
+#, kde-format
+msgid "Reason: %1"
+msgstr "原因：%1"
+
+#: viewer/objecttreeparser.cpp:2530
+msgid "Please wait while the signature is being verified..."
+msgstr "请稍等，正在校验信件签名..."
+
+#: viewer/objecttreeparser.cpp:2626 viewer/objecttreeparser.cpp:2628
+msgid "certificate"
+msgstr "证书"
+
+#: viewer/objecttreeparser.cpp:2634 viewer/objecttreeparser.cpp:2659
+msgctxt "Start of warning message."
+msgid "Warning:"
+msgstr "警告："
+
+#: viewer/objecttreeparser.cpp:2636
+#, kde-format
+msgid "Sender's mail address is not stored in the %1 used for signing."
+msgstr "用于签名的 %1 中没有存储发件人地址。"
+
+#: viewer/objecttreeparser.cpp:2639
+msgid "sender: "
+msgstr "发件人："
+
+#: viewer/objecttreeparser.cpp:2642
+msgid "stored: "
+msgstr "已存储的："
+
+#: viewer/objecttreeparser.cpp:2661
+#, kde-format
+msgid ""
+"No mail address is stored in the %1 used for signing, so we cannot compare "
+"it to the sender's address %2."
+msgstr ""
+"用于签名的 %1 中没有存储电子邮件地址，所以我们无法比较发件人的地址 %2。"
+
+#: viewer/objecttreeparser.cpp:2685
+#, kde-format
+msgid "Not enough information to check signature. %1"
+msgstr "没有足够的信息检查签名：%1"
+
+#: viewer/objecttreeparser.cpp:2703 viewer/objecttreeparser.cpp:2781
+msgid "Message was signed with unknown key."
+msgstr "信件由未知的密钥签名。"
+
+#: viewer/objecttreeparser.cpp:2705 viewer/objecttreeparser.cpp:2819
+#: viewer/objecttreeparser.cpp:2863
+#, kde-format
+msgid "Message was signed by %1."
+msgstr "信件由 %1 签名。"
+
+#: viewer/objecttreeparser.cpp:2712 viewer/objecttreeparser.cpp:2721
+#: viewer/objecttreeparser.cpp:2732
+#, kde-format
+msgid "Message was signed with key %1."
+msgstr "信件由密钥 %1 签名。"
+
+#: viewer/objecttreeparser.cpp:2715
+#, kde-format
+msgid "Message was signed on %1 with key %2."
+msgstr "信件用密钥 %2 在 %1 签名。"
+
+#: viewer/objecttreeparser.cpp:2724
+#, kde-format
+msgid "Message was signed by %3 on %1 with key %2"
+msgstr "信件由 %3 用密钥 %2 在 %1 签名。"
+
+#: viewer/objecttreeparser.cpp:2735
+#, kde-format
+msgid "Message was signed by %2 with key %1."
+msgstr "信件由 %2 用密钥 %1 签名。"
+
+#: viewer/objecttreeparser.cpp:2773
+#, kde-format
+msgid "Message was signed on %1 with unknown key %2."
+msgstr "信件由未知的密钥 %2 在 %1 签名。"
+
+#: viewer/objecttreeparser.cpp:2777
+#, kde-format
+msgid "Message was signed with unknown key %1."
+msgstr "信件由未知的密钥 %1 签名。"
+
+#: viewer/objecttreeparser.cpp:2783
+msgid "The validity of the signature cannot be verified."
+msgstr "无法校验签名的有效性。"
+
+#: viewer/objecttreeparser.cpp:2815 viewer/objecttreeparser.cpp:2859
+#, kde-format
+msgid "Message was signed by %2 (Key ID: %1)."
+msgstr "信件由 %2 签名(密钥 ID：%1)。"
+
+#: viewer/objecttreeparser.cpp:2825
+msgid "The signature is valid, but the key's validity is unknown."
+msgstr "签名是有效的，但无法确认密钥的有效性。"
+
+#: viewer/objecttreeparser.cpp:2829
+msgid "The signature is valid and the key is marginally trusted."
+msgstr "签名是有效的，而密钥是勉强可信的。"
+
+#: viewer/objecttreeparser.cpp:2833
+msgid "The signature is valid and the key is fully trusted."
+msgstr "签名是有效的，而且密钥完全可信。"
+
+#: viewer/objecttreeparser.cpp:2837
+msgid "The signature is valid and the key is ultimately trusted."
+msgstr "签名是有效的，而且密钥绝对可信。"
+
+#: viewer/objecttreeparser.cpp:2841
+msgid "The signature is valid, but the key is untrusted."
+msgstr "签名是有效的，但是密钥不可信。"
+
+#: viewer/objecttreeparser.cpp:2865
+msgid "Warning: The signature is bad."
+msgstr "错误：坏的签名。"
+
+#: viewer/objecttreeparser.cpp:2889
+msgid "End of signed message"
+msgstr "签名信件结束"
+
+#: viewer/objecttreeparser.cpp:2895
+msgid "End of encrypted message"
+msgstr "加密信件结束"
+
+#: viewer/objecttreeparser.cpp:2902
+msgid "End of encapsulated message"
+msgstr "封装信件结束"
+
+#: viewer/pluginloaderbase.cpp:82
+msgid "Unnamed plugin"
+msgstr "未命名插件"
+
+#: viewer/pluginloaderbase.cpp:88
+msgid "No description available"
+msgstr "无可用描述"
+
+#: viewer/urlhandlermanager.cpp:520
+msgid "Turn on HTML rendering for this message."
+msgstr "使用 HTML 排版此信件。"
+
+#: viewer/urlhandlermanager.cpp:522 viewer/viewer_p.cpp:1805
+msgid "Load external references from the Internet for this message."
+msgstr "允许在这封信中装入 Internet 的外部引用。"
+
+#: viewer/urlhandlermanager.cpp:524
+msgid "Work online."
+msgstr "在线工作。"
+
+#: viewer/urlhandlermanager.cpp:526
+msgid "Make account online."
+msgstr ""
+
+#: viewer/urlhandlermanager.cpp:528
+msgid "Decrypt message."
+msgstr "解密信件。"
+
+#: viewer/urlhandlermanager.cpp:530
+msgid "Show signature details."
+msgstr "显示签名细节。"
+
+#: viewer/urlhandlermanager.cpp:532
+msgid "Hide signature details."
+msgstr "隐藏签名细节。"
+
+#: viewer/urlhandlermanager.cpp:534
+msgid "Show attachment list."
+msgstr "显示附件列表。"
+
+#: viewer/urlhandlermanager.cpp:536
+msgid "Hide attachment list."
+msgstr "隐藏附件列表。"
+
+#: viewer/urlhandlermanager.cpp:538
+msgid "Show full \"To\" list"
+msgstr "显示完整的“寄给”列表"
+
+#: viewer/urlhandlermanager.cpp:540
+msgid "Hide full \"To\" list"
+msgstr "隐藏完整的“寄给”列表"
+
+#: viewer/urlhandlermanager.cpp:542
+msgid "Show full \"Cc\" list"
+msgstr "显示完整的“抄送”列表"
+
+#: viewer/urlhandlermanager.cpp:544
+msgid "Hide full \"Cc\" list"
+msgstr "隐藏完整的“抄送”列表"
+
+#: viewer/urlhandlermanager.cpp:579
+msgid "Expand all quoted text."
+msgstr "展开全部引用文本。"
+
+#: viewer/urlhandlermanager.cpp:582
+msgid "Collapse quoted text."
+msgstr "折叠引用的文本。"
+
+#: viewer/urlhandlermanager.cpp:646
+msgid "Could not start certificate manager. Please check your installation."
+msgstr "无法启动证书管理器。请检查您的安装。"
+
+#: viewer/urlhandlermanager.cpp:648
+msgid "KMail Error"
+msgstr "KMail 错误"
+
+#: viewer/urlhandlermanager.cpp:658
+#, kde-format
+msgid "Show certificate 0x%1"
+msgstr "显示证书 0x%1"
+
+#: viewer/urlhandlermanager.cpp:721
+#, fuzzy
+#| msgid "Copy Link Address"
+msgid "&Open in Address Book"
+msgstr "复制链接地址"
+
+#: viewer/urlhandlermanager.cpp:724
+#, fuzzy
+#| msgid "Copy Email Address"
+msgid "&Copy Email Address"
+msgstr "复制邮件地址"
+
+#: viewer/urlhandlermanager.cpp:737 viewer/viewer_p.cpp:2794
+msgid "Address copied to clipboard."
+msgstr "地址已复制到剪贴板中。"
+
+#: viewer/urlhandlermanager.cpp:749
+msgid "Lookup the contact in KAddressbook"
+msgstr ""
+
+#: viewer/urlhandlermanager.cpp:857
+#, kde-format
+msgid "Attachment: %1"
+msgstr "附件：%1"
+
+#: viewer/urlhandlermanager.cpp:860
+#, kde-format
+msgid "Encapsulated Message (Subject: %1)"
+msgstr "封装的信件(主题：%1)"
+
+#: viewer/urlhandlermanager.cpp:863
+msgid "Encapsulated Message"
+msgstr "封装的信件"
+
+#: viewer/urlhandlermanager.cpp:866
+msgid "Unnamed attachment"
+msgstr "未命名附件"
+
+#: viewer/urlhandlermanager.cpp:897
+msgid "Show GnuPG Audit Log for this operation"
+msgstr "显示此操作的 GnuPG 审核日志"
+
+#: viewer/urlhandlermanager.cpp:934
+msgid "Opening URL..."
+msgstr "正在打开 URL..."
+
+#: viewer/urlhandlermanager.cpp:943
+#, kde-format
+msgctxt "@info"
+msgid "Do you really want to execute <filename>%1</filename>?"
+msgstr "您真的要执行 <filename>%1</filename> 吗？"
+
+#: viewer/urlhandlermanager.cpp:944
+msgid "Execute"
+msgstr "执行"
+
+#: viewer/viewer.cpp:105
+msgid "Loading message..."
+msgstr "正在装入信件..."
+
+#: viewer/viewer_p.cpp:421
+msgid ""
+"Deleting an attachment from an encrypted or old-style mailman message is not "
+"supported."
+msgstr "尚不支持从加密信件或旧式 mailman 信件中删除附件。"
+
+#: viewer/viewer_p.cpp:422 viewer/viewer_p.cpp:428 viewer/viewer_p.cpp:665
+#: viewer/viewer_p.cpp:1914
+msgid "Delete Attachment"
+msgstr "删除附件"
+
+#: viewer/viewer_p.cpp:427
+msgid ""
+"Deleting an attachment might invalidate any digital signature on this "
+"message."
+msgstr "删除附件可能使信件中的任何数字签名失效。"
+
+#: viewer/viewer_p.cpp:492
+msgid ""
+"Modifying an attachment might invalidate any digital signature on this "
+"message."
+msgstr "编辑附件可能使信件中的任何数字签名失效。"
+
+#: viewer/viewer_p.cpp:493 viewer/viewer_p.cpp:659 viewer/viewer_p.cpp:1918
+msgid "Edit Attachment"
+msgstr "编辑附件"
+
+#: viewer/viewer_p.cpp:534
+#, fuzzy
+#| msgid "&Open With..."
+msgctxt "@title:menu"
+msgid "&Open With"
+msgstr "打开方式(&O)..."
+
+#: viewer/viewer_p.cpp:552
+msgctxt "@action:inmenu Open With"
+msgid "&Other..."
+msgstr ""
+
+#: viewer/viewer_p.cpp:554 viewer/viewer_p.cpp:566
+#, fuzzy
+#| msgid "&Open With..."
+msgctxt "@title:menu"
+msgid "&Open With..."
+msgstr "打开方式(&O)..."
+
+#: viewer/viewer_p.cpp:621 viewer/viewer_p.cpp:1891
+msgctxt "to open"
+msgid "Open"
+msgstr "打开"
+
+#: viewer/viewer_p.cpp:629 viewer/viewer_p.cpp:1898
+msgctxt "to view something"
+msgid "View"
+msgstr "查看"
+
+#: viewer/viewer_p.cpp:637
+msgid "Scroll To"
+msgstr "滚动到"
+
+#: viewer/viewer_p.cpp:647 viewer/viewer_p.cpp:1910
+msgid "Copy"
+msgstr "复制"
+
+#: viewer/viewer_p.cpp:672
+msgid "Decrypt With Chiasmus..."
+msgstr "用 Chiasmus 解密..."
+
+#: viewer/viewer_p.cpp:676 viewer/viewer_p.cpp:1923
+msgid "Properties"
+msgstr "属性"
+
+#: viewer/viewer_p.cpp:829
+msgid "The KDE email client."
+msgstr "KDE 电子邮件客户端程序。"
+
+#: viewer/viewer_p.cpp:1407
+#, kde-format
+msgid "View Attachment: %1"
+msgstr "查看附件：%1"
+
+#: viewer/viewer_p.cpp:1569
+msgctxt "View->"
+msgid "&Headers"
+msgstr "信头(&H)"
+
+#: viewer/viewer_p.cpp:1571
+msgid "Choose display style of message headers"
+msgstr "选择信头的显示样式"
+
+#: viewer/viewer_p.cpp:1574
+msgctxt "View->headers->"
+msgid "&Enterprise Headers"
+msgstr "企业信头(&E)"
+
+#: viewer/viewer_p.cpp:1577
+msgid "Show the list of headers in Enterprise style"
+msgstr "使用企业风格显示信头列表"
+
+#: viewer/viewer_p.cpp:1581
+msgctxt "View->headers->"
+msgid "&Fancy Headers"
+msgstr "亮丽信头(&F)"
+
+#: viewer/viewer_p.cpp:1584
+msgid "Show the list of headers in a fancy format"
+msgstr "使用漂亮格式显示信头列表"
+
+#: viewer/viewer_p.cpp:1588
+msgctxt "View->headers->"
+msgid "&Brief Headers"
+msgstr "简要信头(&B)"
+
+#: viewer/viewer_p.cpp:1591
+msgid "Show brief list of message headers"
+msgstr "显示信头的简要列表"
+
+#: viewer/viewer_p.cpp:1595
+msgctxt "View->headers->"
+msgid "&Standard Headers"
+msgstr "标准信头(&S)"
+
+#: viewer/viewer_p.cpp:1598
+msgid "Show standard list of message headers"
+msgstr "显示信头的标准列表"
+
+#: viewer/viewer_p.cpp:1602
+msgctxt "View->headers->"
+msgid "&Long Headers"
+msgstr "长信头(&L)"
+
+#: viewer/viewer_p.cpp:1605
+msgid "Show long list of message headers"
+msgstr "显示信头的长列表"
+
+#: viewer/viewer_p.cpp:1609
+msgctxt "View->headers->"
+msgid "&All Headers"
+msgstr "全部信头(&A)"
+
+#: viewer/viewer_p.cpp:1612
+msgid "Show all message headers"
+msgstr "显示全部信头"
+
+#: viewer/viewer_p.cpp:1616
+#, fuzzy
+#| msgctxt "View->headers->"
+#| msgid "&Long Headers"
+msgctxt "View->headers->"
+msgid "&Custom Headers"
+msgstr "长信头(&L)"
+
+#: viewer/viewer_p.cpp:1619
+#, fuzzy
+#| msgid "Show long list of message headers"
+msgid "Show custom headers"
+msgstr "显示信头的长列表"
+
+#: viewer/viewer_p.cpp:1627
+msgctxt "View->"
+msgid "&Attachments"
+msgstr "附件(&A)"
+
+#: viewer/viewer_p.cpp:1629
+msgid "Choose display style of attachments"
+msgstr "选择附件的显示样式"
+
+#: viewer/viewer_p.cpp:1632
+msgctxt "View->attachments->"
+msgid "&As Icons"
+msgstr "作为图标(&A)"
+
+#: viewer/viewer_p.cpp:1635
+msgid "Show all attachments as icons. Click to see them."
+msgstr "附件以小图标表示，点击打开。"
+
+#: viewer/viewer_p.cpp:1639
+msgctxt "View->attachments->"
+msgid "&Smart"
+msgstr "智能(&S)"
+
+#: viewer/viewer_p.cpp:1642
+msgid "Show attachments as suggested by sender."
+msgstr "附件以发件人建议的方式显示。"
+
+#: viewer/viewer_p.cpp:1646
+msgctxt "View->attachments->"
+msgid "&Inline"
+msgstr "在信件内(&I)"
+
+#: viewer/viewer_p.cpp:1649
+msgid "Show all attachments inline (if possible)"
+msgstr "附件直接显示在信件里(如果可能的话)"
+
+#: viewer/viewer_p.cpp:1653
+msgctxt "View->attachments->"
+msgid "&Hide"
+msgstr "隐藏(&H)"
+
+#: viewer/viewer_p.cpp:1656
+msgid "Do not show attachments in the message viewer"
+msgstr "不在信件查看器中显示附件"
+
+#: viewer/viewer_p.cpp:1660
+msgctxt "View->attachments->"
+msgid "In Header Only"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1664
+#, fuzzy
+#| msgid "Show all attachments as icons. Click to see them."
+msgid "Show Attachments only in the header of the mail"
+msgstr "附件以小图标表示，点击打开。"
+
+#: viewer/viewer_p.cpp:1669
+msgid "&Set Encoding"
+msgstr "设置编码(&S)"
+
+#: viewer/viewer_p.cpp:1675 widgets/configurewidget.cpp:45
+#: widgets/configurewidget.cpp:128
+msgid "Auto"
+msgstr "自动"
+
+#: viewer/viewer_p.cpp:1692
+msgid "Select All Text"
+msgstr "选中所有文本"
+
+#: viewer/viewer_p.cpp:1699 viewer/viewer_p.cpp:2188
+msgid "Copy Link Address"
+msgstr "复制链接地址"
+
+#: viewer/viewer_p.cpp:1704
+msgid "Open URL"
+msgstr "打开 URL"
+
+#: viewer/viewer_p.cpp:1716
+msgid "Zoom Text Only"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1719
+msgid "&Zoom In"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1724
+msgid "Zoom &Out"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1729
+msgid "Reset"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1736
+msgid "Show Message Structure"
+msgstr "显示信件结构"
+
+#: viewer/viewer_p.cpp:1741
+msgid "&View Source"
+msgstr "查看源文件(&V)"
+
+#: viewer/viewer_p.cpp:1746
+#, fuzzy
+#| msgid "&Save message"
+msgid "&Save message..."
+msgstr "保存信件(&S)"
+
+#: viewer/viewer_p.cpp:1752
+msgid "&Save Display Format"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1756
+msgid "&Reset Display Format"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1763
+msgid "Scroll Message Up"
+msgstr "向上滚动信件"
+
+#: viewer/viewer_p.cpp:1769
+msgid "Scroll Message Down"
+msgstr "向下滚动信件"
+
+#: viewer/viewer_p.cpp:1775
+msgid "Scroll Message Up (More)"
+msgstr "向上滚动信件(较大幅度)"
+
+#: viewer/viewer_p.cpp:1781
+msgid "Scroll Message Down (More)"
+msgstr "向下滚动信件(较大幅度)"
+
+#: viewer/viewer_p.cpp:1792
+msgid "Toggle HTML Display Mode"
+msgstr "切换 HTML 显示模式"
+
+#: viewer/viewer_p.cpp:1797
+msgid "Toggle display mode between HTML and plain text"
+msgstr "在 HTML 和纯文本之间切换显示模式"
+
+#: viewer/viewer_p.cpp:1800
+msgid "Load external references"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1814
+msgid "Copy Image Location"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1821
+msgid "Translate..."
+msgstr ""
+
+#: viewer/viewer_p.cpp:1828
+#, fuzzy
+#| msgid "Loading message..."
+msgid "&Find in Message..."
+msgstr "正在装入信件..."
+
+#: viewer/viewer_p.cpp:1835
+msgid "Toggle Caret Browsing"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1842
+msgid "Block image"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1847
+msgid "Open Blockable Items..."
+msgstr ""
+
+#: viewer/viewer_p.cpp:1852
+msgid "Expand Short URL"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1857
+msgid "Create Todo"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1858
+msgid "Create To-do"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1859
+msgid "Allows you to create a calendar to-do or reminder from this message"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1860
+msgid ""
+"This option starts the KOrganizer to-do editor with initial values taken "
+"from the currently selected message. Then you can edit the to-do to your "
+"liking before saving it to your calendar."
+msgstr ""
+
+#: viewer/viewer_p.cpp:1887
+msgid "Save &As..."
+msgstr "另存为(&A)..."
+
+#: viewer/viewer_p.cpp:1897
+msgid "Open With..."
+msgstr "打开方式..."
+
+#: viewer/viewer_p.cpp:1903
+msgid "Save All Attachments..."
+msgstr "保存全部附件..."
+
+#: viewer/viewer_p.cpp:2186
+msgid "Copy Email Address"
+msgstr "复制邮件地址"
+
+#: viewer/viewer_p.cpp:2254
+msgid "Message as Plain Text"
+msgstr "纯文本信件"
+
+#: viewer/viewer_p.cpp:2515
+msgid "Attachments:"
+msgstr "附件："
+
+#: viewer/viewer_p.cpp:2799
+msgid "URL copied to clipboard."
+msgstr "URL 已复制到剪贴板中。"
+
+#: viewer/viewer_p.cpp:3091
+msgid "Hide full address list"
+msgstr "隐藏完整的地址列表"
+
+#: viewer/viewer_p.cpp:3095
+msgid "Show full address list"
+msgstr "显示完整的地址列表"
+
+#: viewer/viewer_p.cpp:3118
+#, kde-format
+msgid "Message loading failed: %1."
+msgstr "信件装入失败：%1。"
+
+#: viewer/viewer_p.cpp:3123
+msgid "Message not found."
+msgstr "信件未找到。"
+
+#: viewer/viewer_p.cpp:3247
+msgid "Caret Browsing will be activated. Switch off with F7 shortcut."
+msgstr ""
+
+#: viewer/viewer_p.cpp:3248
+msgid "Activate Caret Browsing"
+msgstr ""
+
+#: widgets/attachmentdialog.cpp:36
+#, kde-format
+msgid ""
+"Open attachment '%1'?\n"
+"Note that opening an attachment may compromise your system's security."
+msgstr ""
+"打开附件“%1”吗？\n"
+"请注意，打开附件可能会危及您系统的安全。"
+
+#: widgets/attachmentdialog.cpp:42
+msgid "Open Attachment?"
+msgstr "打开附件？"
+
+#: widgets/attachmentdialog.cpp:49
+#, kde-format
+msgid "&Open with '%1'"
+msgstr "用“%1”打开(&O)"
+
+#: widgets/attachmentdialog.cpp:53
+msgid "&Open With..."
+msgstr "打开方式(&O)..."
+
+#: widgets/attachmentdialog.cpp:72
+msgid "Do not ask again"
+msgstr "不要再次询问"
+
+#: widgets/htmlstatusbar.cpp:106
+#, fuzzy
+#| msgctxt "'Plain Message' with html linebreaks between each letter."
+#| msgid ""
+#| "<qt><br />P<br />l<br />a<br />i<br />n<br /> <br />M<br />e<br />s<br /"
+#| ">s<br />a<br />g<br />e<br /></qt>"
+msgctxt ""
+"'HTML Message' with html linebreaks between each letter and in bold text."
+msgid ""
+"<qt><b><br />H<br />T<br />M<br />L<br /> <br />M<br />e<br />s<br />s<br /"
+">a<br />g<br />e</b></qt>"
+msgstr "<qt><b><br />H<br />T<br />M<br />L<br /> <br />信<br />件</b></qt>"
+
+#: widgets/htmlstatusbar.cpp:110
+msgctxt "'No HTML Message' with html linebreaks between each letter."
+msgid ""
+"<qt><br />N<br />o<br /> <br />H<br />T<br />M<br />L<br /> <br />M<br /"
+">e<br />s<br />s<br />a<br />g<br />e</qt>"
+msgstr ""
+"<qt><br />非<br /> <br />H<br />T<br />M<br />L<br /> <br />信<br />件</qt>"
+
+#: widgets/htmlstatusbar.cpp:115
+msgctxt "'Plain Message' with html linebreaks between each letter."
+msgid ""
+"<qt><br />P<br />l<br />a<br />i<br />n<br /> <br />M<br />e<br />s<br /"
+">s<br />a<br />g<br />e<br /></qt>"
+msgstr "<qt><b><br />H<br />T<br />M<br />L<br /> <br />信<br />件</b></qt>"
+
+#: widgets/htmlstatusbar.cpp:129
+msgid "Click to toggle between HTML and plain text."
+msgstr "点击可切换 HTML 和纯文本。"
+
+#: widgets/invitationsettings.cpp:99
+msgid ""
+"<qt>Invitations are normally sent as attachments to a mail. This switch "
+"changes the invitation mails to be sent in the text of the mail instead; "
+"this is necessary to send invitations and replies to Microsoft Outlook.<br /"
+">But, when you do this, you no longer get descriptive text that mail "
+"programs can read; so, to people who have email programs that do not "
+"understand the invitations, the resulting messages look very odd.<br /"
+">People that have email programs that do understand invitations will still "
+"be able to work with this.</qt>"
+msgstr ""
+"<qt>邀请经常以邮件的附件发送。这一开关将把邀请邮件发送为邮件的文本；要与 "
+"Microsoft Outlook 之间发送邀请和回复邀请，必须选中此设置。<br />但是，当您执"
+"行此操作时，您将无法得到邮件程序可阅读的描述性文本；所以，对于那些使用无法理"
+"解邀请的电子邮件程序的人们，最后的信件可能看起来十分差劲。<br />如果用户所使"
+"用的电子邮件程序可以理解邀请，则仍没有什么问题。</qt>"
+
+#: widgets/todoedit.cpp:55
+msgid "Close widget to create new Todo"
+msgstr ""
+
+#: widgets/todoedit.cpp:62
+msgid "Todo:"
+msgstr ""
+
+#: widgets/todoedit.cpp:77
+msgid "Select collection where Todo will stored."
+msgstr ""
+
+#: widgets/todoedit.cpp:145
+#, fuzzy, kde-format
+#| msgid "Reply to: "
+msgid "Reply to \"%1\""
+msgstr "回复地址："
+
+#: widgets/vcardviewer.cpp:44
+#, fuzzy
+#| msgid "VCard Viewer"
+msgid "vCard Viewer"
+msgstr "VCard 查看器"
+
+#: widgets/vcardviewer.cpp:48
+msgid "&Import"
+msgstr "导入(&I)"
+
+#: widgets/vcardviewer.cpp:49
+msgid "&Next Card"
+msgstr "下一张名片(&N)"
+
+#: widgets/vcardviewer.cpp:50
+msgid "&Previous Card"
+msgstr "上一张名片(&P)"
+
+#~ msgid "The message could not be decrypted."
+#~ msgstr "无法解密此信件。"
+
+#, fuzzy
+#~| msgid "&View Source"
+#~ msgid "View Source Error"
+#~ msgstr "查看源文件(&V)"
+
+#, fuzzy
+#~| msgctxt "View->"
+#~| msgid "&Headers"
+#~ msgid "Header to show:"
+#~ msgstr "信头(&H)"
+
+#, fuzzy
+#~| msgid "Message Structure Viewer Placement"
+#~ msgid "Message contains form element"
+#~ msgstr "信件结构查看器放置"
+
+#, fuzzy
+#~| msgid "This message is encrypted."
+#~ msgid "This message may be a scam."
+#~ msgstr "信件已加密。"
+
+#, fuzzy
+#~| msgid "Show Details"
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "显示细节"
+
+#~ msgid "File Already Exists"
+#~ msgstr "文件已存在"
+
+#, fuzzy
+#~| msgid ""
+#~| "A file named <br><filename>%1</filename><br>already exists.<br><br>Do "
+#~| "you want to overwrite it?"
+#~ msgid ""
+#~ "A file named <filename>%1</filename> already exists. Do you want to "
+#~ "overwrite it?"
+#~ msgstr ""
+#~ "名为 <br><filename>%1</filename><br> 的文件已经存在。<br><br>您要覆盖它"
+#~ "吗？"
+
+#~ msgid "&Overwrite"
+#~ msgstr "覆盖(&O)"
+
+#, fuzzy
+#~| msgid "Reply to: "
+#~ msgid "Appl&y to All"
+#~ msgstr "回复地址："
+
+#~ msgid "Overwrite &All"
+#~ msgstr "全部覆盖(&A)"
+
+#, fuzzy
+#~| msgctxt "'HTML Message' with html linebreaks between each letter."
+#~| msgid "<br />M<br />e<br />s<br />s<br />a<br />g<br />e</b></qt>"
+#~ msgctxt ""
+#~ "'HTML Message' with html linebreaks between each letter and in bold text."
+#~ msgid "<b><br />M<br />e<br />s<br />s<br />a<br />g<br />e</b></qt>"
+#~ msgstr "<br />信<br />件</qt>"
+
+#~ msgid "Viewertest_Gui"
+#~ msgstr "查看器界面"
+
+#~ msgid "Test for MessageViewer"
+#~ msgstr "消息查看器测试"
+
+#~ msgid "File containing an email"
+#~ msgstr "包含邮件的文件"
+
+#~ msgid "Header Strategy: [all|rich|standard|brief|custom]"
+#~ msgstr "信头策略：[全部/丰富/标准/简要/自定义]"
+
+#~ msgid "Header Style: [brief|plain|enterprise|mobile|fancy]"
+#~ msgstr "信头风格：[简要/纯文本/企业/手机/亮丽]"

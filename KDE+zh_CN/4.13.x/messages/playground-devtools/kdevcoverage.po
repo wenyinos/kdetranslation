@@ -1,0 +1,529 @@
+# translation of kdevcoverage.po to 简体中文
+# Copyright (C) 2002,2003, 2004, 2008, 2009 Free Software Foundation, Inc.
+#
+# Qi Liang <cavendish@eyou.com>, 2001.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003, 2004.
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevcoverage\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-12-08 03:09+0100\n"
+"PO-Revision-Date: 2009-05-28 12:04+0000\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: annotationmodel.cpp:86
+msgid "Number of times visited."
+msgstr "访问次数。"
+
+#: annotationmodel.cpp:88
+msgid "Line not reachable."
+msgstr "行不可达。"
+
+#: buildpathselection.cpp:40
+msgctxt "@info:whatsthis Appended to the end of another WhatsThis help"
+msgid ""
+"<para>In this case, only projects with a build path set can be selected.</"
+"para>"
+msgstr ""
+
+#: coverageplugin.cpp:45
+msgid "Coverage Support"
+msgstr "覆盖率支持"
+
+#: coverageplugin.cpp:45
+msgid "Support for running coverage tools"
+msgstr "运行覆盖率工具支持"
+
+#: coverageplugin.cpp:54
+msgid "Coverage"
+msgstr "覆盖率"
+
+#. i18n: ectx: label, entry (geninfoPath), group (Code Coverage)
+#: lcovconfig.kcfg:10
+msgid ""
+"Specifies which geninfo executable to use to generate coverage information"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (geninfoPath), group (Code Coverage)
+#: lcovconfig.kcfg:12
+msgid ""
+"The geninfo executable from the lcov toolset is needed to create a "
+"visualizable format from gcov code coverage data.\n"
+"        "
+msgstr ""
+
+#: lcovjob.cpp:75
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Run <command>geninfo</command> on <filename>%1</filename> directory"
+msgstr ""
+
+#: lcovjob.cpp:139
+msgid "Cov verbose output"
+msgstr "Cov 显式输出"
+
+#. i18nc can't be used. It seems that at this moment (2009-09-04) only
+#. plain text can be used in the outputview
+#. errorList << i18nc("@info", "Failed to start <filename>%1</filename>. Make sure that the path to <command>geninfo</command> is specified correctly in <interface>Settings->Configure KDevelop...->Lcov Preferences->geninfo Executable</interface>.", m_lcov->program().first());
+#: lcovjob.cpp:178
+#, kde-format
+msgid ""
+"Failed to start '%1'. Make sure that the path to geninfo is specified "
+"correctly in Settings->Configure KDevelop...->Lcov Preferences->geninfo "
+"Executable."
+msgstr ""
+
+#: lcovjob.cpp:180
+msgid "geninfo process crashed."
+msgstr ""
+
+#: lcovjob.cpp:182
+msgid "geninfo process timed out."
+msgstr ""
+
+#: lcovjob.cpp:184
+msgid "Failed to write to geninfo process."
+msgstr ""
+
+#: lcovjob.cpp:186
+msgid "Failed to read from geninfo process."
+msgstr ""
+
+#: lcovjob.cpp:188
+msgid "Unknown geninfo process error."
+msgstr ""
+
+#: lcovjob.cpp:208
+msgid "geninfo process was killed"
+msgstr ""
+
+#: lcovjobprogress.cpp:39
+msgctxt "@info:progress"
+msgid "Running <command>geninfo</command>"
+msgstr ""
+
+#: lcovjobprogress.cpp:51 removegcdafilesjobprogress.cpp:39
+#, fuzzy
+#| msgid "The directory to scan for .gcda files."
+msgctxt "@info:progress"
+msgid "Scanning for .gcda files"
+msgstr "扫描 .gcda 文件的目录"
+
+#: lcovjobprogress.cpp:56
+msgctxt "@info:progress"
+msgid "Processing .gcda files"
+msgstr ""
+
+#: lcovprefs.cpp:29
+msgid "LCov Settings"
+msgstr "LCov 设置"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
+#: lcovprefswidget.cpp:57 lcovprefswidget.cpp:134 lcovprefswidget.ui:102
+msgctxt "@item:inlistbox Discrete color range type"
+msgid "Discrete"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
+#: lcovprefswidget.cpp:137 lcovprefswidget.ui:107
+msgctxt "@item:inlistbox Gradient color range type"
+msgid "Gradient"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, pathsGroupBox)
+#: lcovprefswidget.ui:17
+msgctxt "@title:group"
+msgid "Paths"
+msgstr "路径"
+
+#. i18n: ectx: property (text), widget (QLabel, geninfoPathLabel)
+#: lcovprefswidget.ui:23
+#, fuzzy
+#| msgid "geninfo Executable:"
+msgctxt "@label:textbox"
+msgid "geninfo Executable:"
+msgstr "geninfo 可执行文件："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_geninfoPath)
+#: lcovprefswidget.ui:33
+msgctxt "@info:tooltip"
+msgid ""
+"Select the geninfo executable to use for extracting visualization from "
+"coverage data"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, colorsGroupBox)
+#: lcovprefswidget.ui:49
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Configuration for coverage report colors.</para>\n"
+"\n"
+"<para>In the directory view of the coverage report, each directory coverage "
+"percentage is represented using a color.</para>\n"
+"\n"
+"<para>The color associated to each percentage is taken from a color range, "
+"made up of several stop points. Stop points represent a color at a specific "
+"percentage.</para>\n"
+"\n"
+"<para>A color range has two different and independent modes: discrete and "
+"gradient. In discrete type, all percentage values between the previous stop "
+"point and the current one have the color of the current one. In gradient "
+"type, the values are interpolated between the previous stop point's color "
+"and the current stop point's color.</para>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, colorsGroupBox)
+#: lcovprefswidget.ui:52
+msgctxt "@title:group"
+msgid "Report colors"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QFrame, colorRangeBarFrame)
+#: lcovprefswidget.ui:70
+msgctxt "@info:tooltip"
+msgid "Current color range"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QFrame, colorRangeBarFrame)
+#: lcovprefswidget.ui:73
+msgctxt "@info:whatsthis"
+msgid ""
+"Representation of the color range to be used in the coverage report colors."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, typeLabel)
+#: lcovprefswidget.ui:88
+msgctxt "@label:listbox"
+msgid "Type:"
+msgstr "类型："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, modeComboBox)
+#: lcovprefswidget.ui:95
+msgctxt "@info:tooltip"
+msgid "Color range type"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, modeComboBox)
+#: lcovprefswidget.ui:98
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose the type of color range to be used in the coverage report colors."
+msgstr ""
+
+#: removegcdafilesjob.cpp:44
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove coverage data from <filename>%1</filename> directory"
+msgstr ""
+
+#: removegcdafilesjobprogress.cpp:34
+#, fuzzy
+#| msgid "Start coverage analysis"
+msgctxt "@info:progress"
+msgid "Removing coverage data"
+msgstr "启动覆盖率分析"
+
+#: removegcdafilesjobprogress.cpp:49
+#, fuzzy
+#| msgid "The directory to scan for .gcda files."
+msgctxt "@info:progress"
+msgid "Removing .gcda files"
+msgstr "扫描 .gcda 文件的目录"
+
+#: reportmodel.cpp:231
+#, fuzzy
+#| msgid "source"
+msgctxt "@title:column Coverage report column"
+msgid "source"
+msgstr "来源"
+
+#: reportmodel.cpp:232
+#, fuzzy
+#| msgid "coverage"
+msgctxt "@title:column Coverage report column"
+msgid "coverage"
+msgstr "覆盖率"
+
+#: reportmodel.cpp:233
+#, fuzzy
+#| msgid "visited"
+msgctxt "@title:column Coverage report column"
+msgid "visited"
+msgstr "已访问"
+
+#: reportmodel.cpp:234
+#, fuzzy
+#| msgid "SLOC"
+msgctxt "@title:column Coverage report column"
+msgid "SLOC"
+msgstr "SLOC"
+
+#: reportwidget.cpp:414
+#, fuzzy
+#| msgid "Start coverage analysis"
+msgctxt "@info:tooltip"
+msgid "Start coverage analysis"
+msgstr "启动覆盖率分析"
+
+#: reportwidget.cpp:415
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Start coverage analysis in the specified path.</para>\n"
+"<para>The directory and, recursively, its subdirectories are scanned for ."
+"gcda files.</para>"
+msgstr ""
+
+#: reportwidget.cpp:422
+#, fuzzy
+#| msgid "Start coverage analysis"
+msgctxt "@info:tooltip"
+msgid "Stop coverage analysis"
+msgstr "启动覆盖率分析"
+
+#: reportwidget.cpp:423
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Stop coverage analysis killing <command>geninfo</command> process.</"
+"para>"
+msgstr ""
+
+#: reportwidget.cpp:430
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Remove all the .gcda files in <filename>%1</filename> directory and, "
+"recursively, in its subdirectories?"
+msgstr ""
+
+#: reportwidget.cpp:431
+#, fuzzy
+#| msgid "The directory to scan for .gcda files."
+msgctxt "@title:window"
+msgid "Remove .gcda files"
+msgstr "扫描 .gcda 文件的目录"
+
+#: reportwidget.cpp:462
+#, fuzzy
+#| msgid "Start coverage analysis"
+msgctxt "@info:tooltip"
+msgid "Remove coverage data"
+msgstr "启动覆盖率分析"
+
+#: reportwidget.cpp:463
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Remove coverage data from the specified path.</para>\n"
+"<para>The .gcda files are removed in the given directory and, recursively, "
+"its subdirectories.</para>"
+msgstr ""
+
+#: reportwidget.cpp:470
+#, fuzzy
+#| msgid "Start coverage analysis"
+msgctxt "@info:tooltip"
+msgid "Stop removing coverage data"
+msgstr "启动覆盖率分析"
+
+#: reportwidget.cpp:471
+msgctxt "@info:whatsthis"
+msgid "<para>Stop removing coverage data from the specified path.</para>"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ReportWidget)
+#: reportwidget.ui:14
+msgid "Coverage Report"
+msgstr "覆盖率汇报"
+
+#. i18n: ectx: property (whatsThis), widget (QWidget, ReportWidget)
+#: reportwidget.ui:21
+msgid ""
+"GCOV code coverage statistics.\n"
+"\n"
+"Set the directory to generate the report for and start the scan. \n"
+"\n"
+"Once finished, you can select the directories in the coverage report to see "
+"their statistics. A more detailed report can be seen for each directory, "
+"showing all the covered files in it. Each file can also be shown in the "
+"editor, annotated with line by line coverage information."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, buildPathTextLabel)
+#: reportwidget.ui:38
+msgid "The directory to scan for .gcda files."
+msgstr "扫描 .gcda 文件的目录"
+
+#. i18n: ectx: property (text), widget (QLabel, buildPathTextLabel)
+#: reportwidget.ui:41
+msgid "Build Path: "
+msgstr "构建路径："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, getFromProjectTextLabel)
+#: reportwidget.ui:66
+msgctxt "@info:tooltip"
+msgid "Use the build path from the selected project"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, getFromProjectTextLabel)
+#: reportwidget.ui:69
+msgctxt "@info:whatsthis"
+msgid ""
+"When one of the opened projects is selected, the directory to scan for "
+"<filename>.gcda</filename> files will be set to the build path of that "
+"project."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, getFromProjectTextLabel)
+#: reportwidget.ui:72
+msgctxt "@label:listbox"
+msgid "Get from project:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, filterBox)
+#: reportwidget.ui:121
+msgid "Filter directories by name"
+msgstr "按名称过滤目录"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, filterBox)
+#: reportwidget.ui:126
+msgid ""
+"When the report is in directory mode, only those containing the specified "
+"text in their path are shown.\n"
+"\n"
+"In file mode, the filter has no effect."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, coverageRatioTextLabel)
+#. i18n: ectx: property (whatsThis), widget (QLabel, coverageRatio)
+#: reportwidget.ui:150 reportwidget.ui:160
+msgid "Percentage of covered lines in the selected directories."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, coverageRatioTextLabel)
+#: reportwidget.ui:153
+msgid "Line Coverage:"
+msgstr "行覆盖率："
+
+#. i18n: ectx: property (text), widget (QLabel, coverageRatio)
+#. i18n: ectx: property (text), widget (QLabel, nrofCoveredLines)
+#. i18n: ectx: property (text), widget (QLabel, sloc)
+#: reportwidget.ui:163 reportwidget.ui:187 reportwidget.ui:211
+msgid "-"
+msgstr "-"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, nrofCoveredLinesTextLabel)
+#. i18n: ectx: property (whatsThis), widget (QLabel, nrofCoveredLines)
+#: reportwidget.ui:172 reportwidget.ui:184
+msgid ""
+"Number of covered lines in the selected directories.\n"
+"\n"
+"Covered lines are those that were executed at least once."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, nrofCoveredLinesTextLabel)
+#: reportwidget.ui:175
+msgid "Covered Lines:"
+msgstr "已覆盖行："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, slocTextLabel)
+#. i18n: ectx: property (whatsThis), widget (QLabel, sloc)
+#: reportwidget.ui:196 reportwidget.ui:208
+msgid ""
+"Total number of lines of code in the selected directories.\n"
+"\n"
+"Note that it only includes executable lines. That is, things like comments, "
+"macros, forward declarations, etc. are not taken into account."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, slocTextLabel)
+#: reportwidget.ui:199
+msgid "Total SLOC:"
+msgstr "总共 SLOC："
+
+#. i18n: ectx: property (whatsThis), widget (Veritas::DrillDownView, table)
+#: reportwidget.ui:259
+msgid ""
+"Coverage report.\n"
+"\n"
+"In directory mode, the report summarizes the coverage with a list of all the "
+"directories that contain at least one covered file. It could include "
+"directories out of the specified path, depending on the files included in "
+"the source code.\n"
+"\n"
+"In file mode, all the files of the selected directory are shown. If several "
+"directories are selected, only the files of the last selected directory are "
+"shown. Double clicking on any of the items shows the associated file in the "
+"editor, annotated with the coverage information.\n"
+"\n"
+"You can change between directory and file mode using left and right keys."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QWidget, StopPointWidget)
+#: stoppointwidget.ui:14
+msgctxt "@info:whatsthis"
+msgid "A stop point in the current color range type."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, colorLabel)
+#: stoppointwidget.ui:33
+msgctxt "@label:chooser The color to be used"
+msgid "Color:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, colorChooser)
+#: stoppointwidget.ui:40
+msgctxt "@info:tooltip"
+msgid "Color for this stop point"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, percentageLabel)
+#: stoppointwidget.ui:47
+msgctxt "@label:spinbox"
+msgid "For percentage:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, percentageSpinBox)
+#: stoppointwidget.ui:54
+msgctxt "@info:tooltip"
+msgid "Percentage for this stop point"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, addButton)
+#: stoppointwidget.ui:64
+msgctxt "@info:tooltip"
+msgid "Add new stop point"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, addButton)
+#: stoppointwidget.ui:67
+msgctxt "@info:whatsthis"
+msgid "Adds a new stop point after this one to the current color range type."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
+#: stoppointwidget.ui:74
+msgctxt "@info:tooltip"
+msgid "Remove this stop point"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, removeButton)
+#: stoppointwidget.ui:77
+msgctxt "@info:whatsthis"
+msgid "Removes this stop point from the current color range type."
+msgstr ""

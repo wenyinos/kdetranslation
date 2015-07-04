@@ -1,0 +1,6727 @@
+# translation of kleopatra.po to zh_CN
+#
+# Levin Du <zsdjw@21cn.com>, 2004.
+# Feng Chao <rainofchaos@gmail.com>, 2010.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Lie Ex <lilith.ex@gmail.com>, 2008-2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kleopatra\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-19 01:33+0000\n"
+"PO-Revision-Date: 2010-07-16 11:31+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: aboutdata.cpp:52
+msgid "Certificate Manager and Unified Crypto GUI"
+msgstr "证书管理器和统一密钥管理界面"
+
+#: aboutdata.cpp:62
+msgid "Current Maintainer"
+msgstr "当前维护者"
+
+#: aboutdata.cpp:63
+msgid "Former Maintainer"
+msgstr "先前维护者"
+
+#: aboutdata.cpp:64 kwatchgnupg/aboutdata.cpp:50
+msgid "Original Author"
+msgstr "最初作者"
+
+#: aboutdata.cpp:69
+msgid "David Faure"
+msgstr "David Faure"
+
+#: aboutdata.cpp:70
+msgid "Backend configuration framework, KIO integration"
+msgstr "后端配置框架，KIO 整合"
+
+#: aboutdata.cpp:72
+msgid "Michel Boyer de la Giroday"
+msgstr "Michel Boyer de la Giroday"
+
+#: aboutdata.cpp:73
+msgid "Key-state dependent colors and fonts in the certificates list"
+msgstr "证书列表中与密钥状态相关的颜色和字体"
+
+#: aboutdata.cpp:75
+msgid "Thomas Moenicke"
+msgstr "Thomas Moenicke"
+
+#: aboutdata.cpp:76
+msgid "Artwork"
+msgstr "美工"
+
+#: aboutdata.cpp:78
+msgid "Frank Osterfeld"
+msgstr "Frank Osterfeld"
+
+#: aboutdata.cpp:79
+msgid "Resident gpgme/win wrangler, UI Server commands and dialogs"
+msgstr "gpgme/win 忠实用户、界面服务器命令和对话框"
+
+#: aboutdata.cpp:81
+msgid "Karl-Heinz Zimmer"
+msgstr "Karl-Heinz Zimmer"
+
+#: aboutdata.cpp:82
+msgid "DN display ordering support, infrastructure"
+msgstr "DN 显示顺序支持，基础设施"
+
+#: aboutdata.cpp:88
+msgid "Kleopatra"
+msgstr "Kleopatra"
+
+#: aboutdata.cpp:90
+msgid ""
+"(c) 2002 Steffen Hansen, Matthias Kalle Dalheimer, "
+"Klarälvdalens Datakonsult AB\n"
+"(c) 2004, 2007, 2008, 2009 Marc Mutz, Klarälvdalens Datakonsult AB"
+msgstr ""
+"(c) 2002 Steffen Hansen、Matthias Kalle Dalheimer、Klarälvdalens Datakonsult "
+"AB\n"
+"(c) 2004、2007、2008、2009 Marc Mutz、Klarälvdalens Datakonsult AB"
+
+#: aboutdata.cpp:104
+msgid ""
+"Gpg4win is an installer package for Windows for EMail and file encryption "
+"using the core component GnuPG for Windows. Both relevant cryptography "
+"standards are supported, OpenPGP and S/MIME. Gpg4win and the software "
+"included with Gpg4win are Free Software."
+msgstr ""
+"Gpg4win 是一个 Windows 平台上的 GnuPG 核心组件安装包，提供了用于邮件和文件加"
+"密的一系列工具，它支持对应于 OpenPGP 和 S/MIME 的两种加密标准。Gpg4win 和其中"
+"包含的的软件都是自由软件。"
+
+#: aboutdata.cpp:111
+msgid ""
+"This Free Software product was developed mostly as part of commercial "
+"contracts by the following companies:<ul><li><a href='http://intevation."
+"net'>Intevation GmbH</a> (Projekt coordination, QA, Compendium)</li><li><a "
+"href='http://www.g10code.com'>g10 Code GmbH</a> (Crypto Funktionality, "
+"GpgOL, GpgEX, GPA)</li> <li><a href='http://www.kdab.com'>KDAB</a> "
+"(Kleopatra)</li></ul>The following persons have contributed (as of 20100706):"
+msgstr ""
+
+#: aboutdata.cpp:120
+msgid ""
+"Till Adam<br>Marcus Brinkmann<br>Brigitte Hamilton<br>Bernhard "
+"Herzog<br>Werner Koch<br>Colin Leroy<br>Marc Mutz<br>Marcel Newmann<br>Frank "
+"Osterfeld<br>Bernhard Reiter<br>Florian v. Samson<br>Emanuel Schütze<br>Dr. "
+"Jan-Oliver Wagner"
+msgstr ""
+
+#: aboutdata.cpp:144 aboutdata.cpp:151
+msgctxt "Version string is a guess"
+msgid "guessed"
+msgstr "猜测"
+
+#: aboutdata.cpp:167
+msgid "Gpg4win"
+msgstr "Gpg4win"
+
+#: commands/adduseridcommand.cpp:218
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to add the user-id: <message>%1</"
+"message></para>"
+msgstr "<para>尝试添加用户编号时出错：<message>%1</message></para>"
+
+#: commands/adduseridcommand.cpp:221
+msgctxt "@title:window"
+msgid "Add User-ID Error"
+msgstr "添加用户编号出错"
+
+#: commands/adduseridcommand.cpp:225
+msgctxt "@info"
+msgid "User-ID successfully added."
+msgstr "用户编号添加成功。"
+
+#: commands/adduseridcommand.cpp:226
+msgctxt "@title:window"
+msgid "Add User-ID Succeeded"
+msgstr "添加用户编号成功"
+
+#: commands/certifycertificatecommand.cpp:181
+msgctxt "@info"
+msgid ""
+"To certify other certificates, you first need to create an OpenPGP "
+"certificate for yourself. Choose <interface>File->New Certificate...</"
+"interface> to create one."
+msgstr ""
+
+#: commands/certifycertificatecommand.cpp:182
+msgid "Certification Not Possible"
+msgstr "证书不可用"
+
+#: commands/changeexpirycommand.cpp:221
+#, kde-format
+msgid ""
+"<p>An error occurred while trying to change the expiry date for <b>%1</b>:</"
+"p><p>%2</p>"
+msgstr "<p>尝试更改 <b>%1</b> 的过期日期时出错：</p><p>%2</p>"
+
+#: commands/changeexpirycommand.cpp:225
+msgid "Expiry Date Change Error"
+msgstr "更改到期日期出错"
+
+#: commands/changeexpirycommand.cpp:229
+msgid "Expiry date changed successfully."
+msgstr "到期日期更改成功。"
+
+#: commands/changeexpirycommand.cpp:230
+msgid "Expiry Date Change Succeeded"
+msgstr "到期日期更改成功"
+
+#: commands/changeownertrustcommand.cpp:219
+#, kde-format
+msgid ""
+"<p>An error occurred while trying to change the owner trust for <b>%1</b>:</"
+"p><p>%2</p>"
+msgstr "<p>尝试更改 <b>%1</b> 的所有者信任等级时出错：</p><p>%2</p>"
+
+#: commands/changeownertrustcommand.cpp:223
+msgid "Owner Trust Change Error"
+msgstr "更改所有者信任等级时出错"
+
+#: commands/changeownertrustcommand.cpp:227
+msgid "Owner trust changed successfully."
+msgstr "所有者信任等级更改成功。"
+
+#: commands/changeownertrustcommand.cpp:228
+msgid "Owner Trust Change Succeeded"
+msgstr "所有者信任等级更改成功"
+
+#: commands/changepassphrasecommand.cpp:184
+#, kde-format
+msgid ""
+"<p>An error occurred while trying to change the passphrase for <b>%1</b>:</"
+"p><p>%2</p>"
+msgstr "<p>尝试更改 <b>%1</b> 的密码句时出错：</p><p>%2</p>"
+
+#: commands/changepassphrasecommand.cpp:188
+msgid "Passphrase Change Error"
+msgstr "更改密码句出错"
+
+#: commands/changepassphrasecommand.cpp:192
+msgid "Passphrase changed successfully."
+msgstr "密码句更改成功。"
+
+#: commands/changepassphrasecommand.cpp:193
+msgid "Passphrase Change Succeeded"
+msgstr "密码句更改成功"
+
+#: commands/changeroottrustcommand.cpp:95
+#, kde-format
+msgid ""
+"Failed to update the trust database:\n"
+"%1"
+msgstr ""
+"更新信任数据库失败：\n"
+"%1"
+
+#: commands/changeroottrustcommand.cpp:97
+msgid "Root Trust Update Failed"
+msgstr "根级信任信息更新失败"
+
+#: commands/changeroottrustcommand.cpp:257
+#, kde-format
+msgid "Cannot open existing file \"%1\" for reading: %2"
+msgstr "无法以读模式打开已有的文件“%1”：%2"
+
+#: commands/changeroottrustcommand.cpp:265
+#, kde-format
+msgid "Cannot open file \"%1\" for reading and writing: %2"
+msgstr "无法以读写模式打开文件“%1”：%2"
+
+#: commands/changeroottrustcommand.cpp:269
+#, kde-format
+msgid "Cannot set restrictive permissions on file %1: %2"
+msgstr "无法对文件 %1 设定受限权限：%2"
+
+#: commands/changeroottrustcommand.cpp:321
+#: crypto/createchecksumscontroller.cpp:559
+#, kde-format
+msgid "Failed to move file %1 to its final destination, %2: %3"
+msgstr ""
+
+#: commands/changeroottrustcommand.cpp:332
+msgid "Could not find gpgconf executable"
+msgstr "找不到 gpgconf 可执行文件"
+
+#: commands/changeroottrustcommand.cpp:343
+#, kde-format
+msgid "\"gpgconf --reload gpg-agent\" failed: %1"
+msgstr "“gpgconf --reload gpg-agent”执行失败：%1"
+
+#: commands/checksumcreatefilescommand.cpp:153
+#: commands/checksumverifyfilescommand.cpp:153
+#: commands/decryptverifyclipboardcommand.cpp:159
+#: commands/decryptverifyfilescommand.cpp:161
+#: commands/encryptclipboardcommand.cpp:145
+#: commands/encryptclipboardcommand.cpp:158
+#: commands/signclipboardcommand.cpp:148 commands/signclipboardcommand.cpp:161
+#: commands/signencryptfilescommand.cpp:231
+#, kde-format
+msgid "An error occurred: %1"
+msgstr "出错：%1"
+
+#: commands/checksumcreatefilescommand.cpp:155
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Create Checksum Progress"
+msgid "Create Checksum Files Error"
+msgstr "创建校验和进程"
+
+#: commands/checksumcreatefilescommand.cpp:166
+#, fuzzy
+#| msgid "Select One or More Files to Decrypt and/or Verify"
+msgid "Select One or More Files to Create Checksums For"
+msgstr "请选择一个或多个要解密/校验的文件"
+
+#: commands/checksumverifyfilescommand.cpp:155
+#, fuzzy
+#| msgid "Decrypt/Verify Files Error"
+msgid "Verify Checksum Files Error"
+msgstr "解密/校验文件错误"
+
+#: commands/checksumverifyfilescommand.cpp:166
+#, fuzzy
+#| msgid "Select One or More Files to Sign and/or Encrypt"
+msgid "Select One or More Checksum Files"
+msgstr "选择一个或多个要签名/加密的文件"
+
+#: commands/clearcrlcachecommand.cpp:62 commands/importcrlcommand.cpp:162
+msgid "Clear CRL Cache Error"
+msgstr "清除 CRL 缓存错误"
+
+#: commands/clearcrlcachecommand.cpp:66
+msgid "Clear CRL Cache Finished"
+msgstr "清除 CRL 缓存完成"
+
+#: commands/clearcrlcachecommand.cpp:70
+#, kde-format
+msgid ""
+"The DirMngr process that tried to clear the CRL cache ended prematurely "
+"because of an unexpected error. Please check the output of %1 for details."
+msgstr ""
+"DirMngr 进程在尝试清除 CRL 缓存时，因非预期错误而提前结束。请检查 %1 的输出了"
+"解详情。"
+
+#: commands/clearcrlcachecommand.cpp:76
+#, kde-format
+msgid ""
+"An error occurred while trying to clear the CRL cache. The output from %1 "
+"was:\n"
+"%2"
+msgstr ""
+"尝试清除 CRL 缓存时出错，输出为：%1\n"
+"%2"
+
+#: commands/clearcrlcachecommand.cpp:81
+msgid "CRL cache cleared successfully."
+msgstr "CRL 缓存清除成功。"
+
+#: commands/decryptverifyclipboardcommand.cpp:145
+msgid "The clipboard does not appear to contain a signature or encrypted text."
+msgstr "剪贴板内似乎未包含证书或加密文本。"
+
+#: commands/decryptverifyclipboardcommand.cpp:147
+#: commands/decryptverifyclipboardcommand.cpp:161
+msgid "Decrypt/Verify Clipboard Error"
+msgstr "解密/校验剪贴板出错"
+
+#: commands/decryptverifyfilescommand.cpp:163
+msgid "Decrypt/Verify Files Error"
+msgstr "解密/校验文件错误"
+
+#: commands/decryptverifyfilescommand.cpp:174
+msgid "Select One or More Files to Decrypt and/or Verify"
+msgstr "请选择一个或多个要解密/校验的文件"
+
+#: commands/deletecertificatescommand.cpp:97
+msgctxt "@title:window"
+msgid "Delete Certificates"
+msgstr "删除证书"
+
+#: commands/deletecertificatescommand.cpp:162
+msgid ""
+"Neither the OpenPGP nor the CMS backends support certificate deletion.\n"
+"Check your installation."
+msgstr ""
+"OpenPGP 和 CMS 后端都不支持证书的删除。\n"
+"请检查您的安装。"
+
+#: commands/deletecertificatescommand.cpp:166
+msgid ""
+"The OpenPGP backend does not support certificate deletion.\n"
+"Check your installation.\n"
+"Only the selected CMS certificates will be deleted."
+msgstr ""
+"OpenPGP 后端不支持证书的删除。\n"
+"请检查您的安装。\n"
+"只有所选的 CMS 证书将被删除。"
+
+#: commands/deletecertificatescommand.cpp:173
+#: commands/deletecertificatescommand.cpp:177
+msgid ""
+"The OpenPGP backend does not support certificate deletion.\n"
+"Check your installation."
+msgstr ""
+"OpenPGP 后端不支持证书的删除。\n"
+"请检查您的安装。"
+
+#: commands/deletecertificatescommand.cpp:183
+msgid ""
+"The CMS backend does not support certificate deletion.\n"
+"Check your installation.\n"
+"Only the selected OpenPGP certificates will be deleted."
+msgstr ""
+"CMS 后端不支持证书的删除。\n"
+"请检查您的安装。\n"
+"只有所选的 OpenPGP 证书将被删除。"
+
+#: commands/deletecertificatescommand.cpp:199
+#: commands/deletecertificatescommand.cpp:212
+msgid ""
+"The CMS backend does not support certificate deletion.\n"
+"Check your installation."
+msgstr ""
+"CMS 后端不支持证书的删除。\n"
+"请检查您的安装。"
+
+#: commands/deletecertificatescommand.cpp:279
+#: commands/deletecertificatescommand.cpp:348
+msgid "Certificate Deletion Failed"
+msgstr "证书删除失败"
+
+#: commands/deletecertificatescommand.cpp:280
+msgid "Certificate Deletion Problem"
+msgstr "证书删除出现问题"
+
+#: commands/deletecertificatescommand.cpp:339
+#, kde-format
+msgid "OpenPGP backend: %1"
+msgstr "OpenPGP 后端：%1"
+
+#: commands/deletecertificatescommand.cpp:342
+#, kde-format
+msgid "CMS backend: %1"
+msgstr "CMS 后端：%1"
+
+#: commands/deletecertificatescommand.cpp:344
+#, kde-format
+msgid ""
+"<qt><p>An error occurred while trying to delete the certificate:</p><p><b>"
+"%1</b></p></qt>"
+msgstr "<qt><p>尝试删除证书时出错：</p><p><b>%1</b></p></qt>"
+
+#: commands/dumpcertificatecommand.cpp:90 commands/dumpcrlcachecommand.cpp:87
+msgctxt "@action:button Update the log text widget"
+msgid "&Update"
+msgstr "更新(&U)"
+
+#: commands/dumpcertificatecommand.cpp:260
+msgid "Certificate Dump"
+msgstr "证书转储"
+
+#: commands/dumpcertificatecommand.cpp:285
+#: commands/dumpcrlcachecommand.cpp:247
+msgid "Unable to start process gpgsm. Please check your installation."
+msgstr "不能启动 gpgsm 进程，请检查您的安装。"
+
+#: commands/dumpcertificatecommand.cpp:287
+#: commands/dumpcertificatecommand.cpp:311
+#: commands/dumpcertificatecommand.cpp:316
+msgid "Dump Certificate Error"
+msgstr "证书转储错误"
+
+#: commands/dumpcertificatecommand.cpp:307
+#, kde-format
+msgid ""
+"The GpgSM process that tried to dump the certificate ended prematurely "
+"because of an unexpected error. Please check the output of gpgsm --dump-cert "
+"%1 for details."
+msgstr ""
+"GpgSM 进程在尝试转储 CRL 缓存时，因非预期错误而提前结束。请检查 gpgsm --dump-"
+"cert %1 命令的输出了解详情。"
+
+#: commands/dumpcertificatecommand.cpp:314
+#, kde-format
+msgid ""
+"An error occurred while trying to dump the certificate. The output from "
+"GpgSM was:\n"
+"%1"
+msgstr ""
+"尝试转储 CRL 缓存时出错。GpgSM 的输出为：\n"
+"%1"
+
+#: commands/dumpcrlcachecommand.cpp:227
+msgid "CRL Cache Dump"
+msgstr "CRL 缓存转储"
+
+#: commands/dumpcrlcachecommand.cpp:249 commands/dumpcrlcachecommand.cpp:272
+#: commands/dumpcrlcachecommand.cpp:277
+msgid "Dump CRL Cache Error"
+msgstr "转储 CRL 缓存出错"
+
+#: commands/dumpcrlcachecommand.cpp:269
+msgid ""
+"The GpgSM process that tried to dump the CRL cache ended prematurely because "
+"of an unexpected error. Please check the output of gpgsm --call-dirmngr "
+"listcrls for details."
+msgstr ""
+"GpgSM 进程在尝试转储 CRL 缓存时，因非预期错误而提前结束。请检查 gpgsm --call-"
+"dirmngr listcrls 命令的输出了解详情。"
+
+#: commands/dumpcrlcachecommand.cpp:275
+#, kde-format
+msgid ""
+"An error occurred while trying to dump the CRL cache. The output from GpgSM "
+"was:\n"
+"%1"
+msgstr ""
+"尝试转储 CRL 缓存时出错。GpgSM 的输出为：\n"
+"%1"
+
+#: commands/encryptclipboardcommand.cpp:147
+#: commands/encryptclipboardcommand.cpp:160
+msgid "Encrypt Clipboard Error"
+msgstr "加密剪贴板错误"
+
+#: commands/exportcertificatecommand.cpp:209
+msgid "Export Certificates"
+msgstr "导出证书..."
+
+#: commands/exportcertificatecommand.cpp:213
+msgid "OpenPGP Certificates"
+msgstr "OpenPGP 证书"
+
+#: commands/exportcertificatecommand.cpp:214
+msgid "S/MIME Certificates"
+msgstr "S/MIME 证书"
+
+#: commands/exportcertificatecommand.cpp:248
+msgid "Exporting certificates..."
+msgstr "正在导出证书..."
+
+#: commands/exportcertificatecommand.cpp:259
+#, kde-format
+msgid ""
+"<qt><p>An error occurred while trying to export the certificate:</p><p><b>"
+"%1</b></p></qt>"
+msgstr "<qt><p>尝试导出证书时出错：</p><p><b>%1</b></p></qt>"
+
+#: commands/exportcertificatecommand.cpp:263
+#: commands/exportcertificatecommand.cpp:306
+msgid "Certificate Export Failed"
+msgstr "证书导出失败"
+
+#: commands/exportcertificatecommand.cpp:305
+#, kde-format
+msgid "Could not write to file %1."
+msgstr "无法写入文件 %1。"
+
+#: commands/exportopenpgpcertstoservercommand.cpp:86
+msgctxt "@info"
+msgid ""
+"<para>No OpenPGP directory services have been configured.</para><para>Since "
+"none is configured, <application>Kleopatra</application> will use "
+"<resource>keys.gnupg.net</resource> as the server to export to.</"
+"para><para>You can configure OpenPGP directory servers in "
+"<application>Kleopatra</application>'s configuration dialog.</para><para>Do "
+"you want to continue with <resource>keys.gnupg.net</resource> as the server "
+"to export to?</para>"
+msgstr ""
+
+#: commands/exportopenpgpcertstoservercommand.cpp:93
+#: commands/exportopenpgpcertstoservercommand.cpp:105
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Export"
+msgstr "OpenPGP 证书导出"
+
+#: commands/exportopenpgpcertstoservercommand.cpp:100
+msgctxt "@info"
+msgid ""
+"<para>When OpenPGP certificates have been exported to a public directory "
+"server, it is nearly impossible to remove them again.</para><para>Before "
+"exporting your certificate to a public directory server, make sure that you "
+"have created a revocation certificate so you can revoke the certificate if "
+"needed later.</para><para>Are you sure you want to continue?</para>"
+msgstr ""
+
+#: commands/exportopenpgpcertstoservercommand.cpp:123
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Export Error"
+msgstr "OpenPGP 证书导出错误"
+
+#: commands/exportopenpgpcertstoservercommand.cpp:127
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Export Finished"
+msgstr "OpenPGP 证书导出完成"
+
+#: commands/exportopenpgpcertstoservercommand.cpp:132
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The GPG process that tried to export OpenPGP certificates ended "
+"prematurely because of an unexpected error.</para><para>Please check the "
+"output of <icode>%1</icode> for details.</para>"
+msgstr ""
+"<para>GPG 进程在尝试导出 OpenPGP 证书时出错，因非预期错误而提前结束。</"
+"para><para>请检查 <icode>%1</icode> 的输出了解详情。</para>"
+
+#: commands/exportopenpgpcertstoservercommand.cpp:139
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to export OpenPGP certificates.</para> "
+"<para>The output from <command>%1</command> was: <message>%2</message></para>"
+msgstr ""
+"<para>尝试导出 OpenPGP 证书时出错。</para><para><command>%1</command>  的输出"
+"为：<message>%2</message></para>"
+
+#: commands/exportopenpgpcertstoservercommand.cpp:145
+msgctxt "@info"
+msgid "OpenPGP certificates exported successfully."
+msgstr "OpenPGP 证书导出成功。"
+
+#: commands/exportsecretkeycommand.cpp:125
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Secret Certificate Export Error"
+msgctxt "@title:window"
+msgid "Secret Key Export Error"
+msgstr "私密证书导出错误"
+
+#: commands/exportsecretkeycommand.cpp:129
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Secret Certificate Export Finished"
+msgctxt "@title:window"
+msgid "Secret Key Export Finished"
+msgstr "私密证书导出完成"
+
+#: commands/exportsecretkeycommand.cpp:134
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "<para>The GPG or GpgSM process that tried to export the secret "
+#| "certificate ended prematurely because of an unexpected error.</"
+#| "para><para>Please check the output of <icode>%1</icode> for details.</"
+#| "para>"
+msgctxt "@info"
+msgid ""
+"<para>The GPG or GpgSM process that tried to export the secret key ended "
+"prematurely because of an unexpected error.</para><para>Please check the "
+"output of <icode>%1</icode> for details.</para>"
+msgstr ""
+"<para>GPG 或 GpgSM 进程在尝试导出私密证书时，因非预期错误而提前结束。</"
+"para><para>请检查 <icode>%1</icode> 的输出了解详情。</para>"
+
+#: commands/exportsecretkeycommand.cpp:141
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "<para>An error occurred while trying to export the secret certificate.</"
+#| "para> <para>The output from <command>%1</command> was: <message>%2</"
+#| "message></para>"
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to export the secret key.</para> "
+"<para>The output from <command>%1</command> was: <message>%2</message></para>"
+msgstr ""
+"<para>尝试导出私密证书时出错。</para><para><command>%1</command> 的输出为："
+"<message>%2</message></para>"
+
+#: commands/exportsecretkeycommand.cpp:147
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "Secret certificate successfully exported."
+msgctxt "@info"
+msgid "Secret key successfully exported."
+msgstr "私密证书导出成功。"
+
+#: commands/gnupgprocesscommand.cpp:132
+#, fuzzy
+#| msgid "Diagnostics:"
+msgid "Subprocess Diagnostics"
+msgstr "诊断："
+
+#: commands/gnupgprocesscommand.cpp:242
+#, kde-format
+msgid "Unable to start process %1. Please check your installation."
+msgstr "不能启动 %1 进程，请检查您的安装。"
+
+#: commands/gnupgprocesscommand.cpp:248
+#, fuzzy, kde-format
+#| msgid "Decrypting: %1..."
+msgid "Starting %1..."
+msgstr "正在解密：%1..."
+
+#: commands/gnupgprocesscommand.cpp:266
+msgid "Process finished"
+msgstr ""
+
+#: commands/importcertificatefromclipboardcommand.cpp:118
+msgid "Clipboard contents do not look like a certificate."
+msgstr "剪贴板内容似乎不是一份证书。"
+
+#: commands/importcertificatefromclipboardcommand.cpp:119
+#: commands/importcertificatefromclipboardcommand.cpp:123
+#: commands/importcertificatefromfilecommand.cpp:138
+#: commands/importcertificatefromfilecommand.cpp:144
+#: commands/importcertificatescommand.cpp:329
+#: commands/importcertificatescommand.cpp:335
+#: commands/importcertificatescommand.cpp:398
+#: commands/importcertificatescommand.cpp:435
+msgid "Certificate Import Failed"
+msgstr "证书导入失败"
+
+#: commands/importcertificatefromclipboardcommand.cpp:123
+msgid "Could not determine certificate type of clipboard contents."
+msgstr "无法确定剪贴板内容的证书类型。"
+
+#: commands/importcertificatefromclipboardcommand.cpp:125 systrayicon.cpp:180
+#: utils/output.cpp:501
+msgid "Clipboard"
+msgstr "剪贴板"
+
+#: commands/importcertificatefromfilecommand.cpp:138
+#, kde-format
+msgid "Could not open file %1 for reading: %2"
+msgstr "无法以读模式打开文件 %1：%2"
+
+#: commands/importcertificatefromfilecommand.cpp:144
+#, kde-format
+msgid "Could not determine certificate type of %1."
+msgstr "无法确定 %1 的证书类型。"
+
+#: commands/importcertificatefromfilecommand.cpp:154
+#: qml/KleopatraActions.qml:70
+msgid "Certificates"
+msgstr "证书"
+
+#: commands/importcertificatefromfilecommand.cpp:155
+msgid "Any files"
+msgstr "任意文件"
+
+#: commands/importcertificatefromfilecommand.cpp:161
+msgid "Select Certificate File"
+msgstr "选择证书文件"
+
+#: commands/importcertificatescommand.cpp:204
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Imported Certificates from %1"
+msgstr "已从 %1 导入证书"
+
+#: commands/importcertificatescommand.cpp:208
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Imported certificates from these sources:<br/>%1"
+msgstr "已从以下来源导入证书：<br/>%1"
+
+#: commands/importcertificatescommand.cpp:215
+msgctxt "@title:tab"
+msgid "Imported Certificates"
+msgstr "已导入证书"
+
+#: commands/importcertificatescommand.cpp:228
+#, kde-format
+msgid "<tr><td align=\"right\">%1</td><td>%2</td></tr>"
+msgstr "<tr><td align=\"right\">%1</td><td>%2</td></tr>"
+
+#: commands/importcertificatescommand.cpp:229
+#, kde-format
+msgid "<tr><td align=\"right\"><b>%1</b></td><td>%2</td></tr>"
+msgstr "<tr><td align=\"right\"><b>%1</b></td><td>%2</td></tr>"
+
+#: commands/importcertificatescommand.cpp:230
+#, kde-format
+msgid "<tr><th colspan=\"2\" align=\"center\">%1</th></tr>"
+msgstr "<tr><th colspan=\"2\" align=\"center\">%1</th></tr>"
+
+#: commands/importcertificatescommand.cpp:237
+msgid "Total number processed:"
+msgstr "已处理总数："
+
+#: commands/importcertificatescommand.cpp:239
+msgid "Imported:"
+msgstr "已导入："
+
+#: commands/importcertificatescommand.cpp:242
+msgid "New signatures:"
+msgstr "新签名："
+
+#: commands/importcertificatescommand.cpp:245
+msgid "New user IDs:"
+msgstr "新用户标识："
+
+#: commands/importcertificatescommand.cpp:248
+msgid "Certificates without user IDs:"
+msgstr "没有用户编号的证书："
+
+#: commands/importcertificatescommand.cpp:251
+msgid "New subkeys:"
+msgstr "新子密钥："
+
+#: commands/importcertificatescommand.cpp:254
+msgid "Newly revoked:"
+msgstr "新近吊销："
+
+#: commands/importcertificatescommand.cpp:257
+msgid "Not imported:"
+msgstr "未导入："
+
+#: commands/importcertificatescommand.cpp:260
+msgid "Unchanged:"
+msgstr "未变更："
+
+#: commands/importcertificatescommand.cpp:263
+#, fuzzy
+#| msgid "Secret certificates processed:"
+msgid "Secret keys processed:"
+msgstr "已处理的私密证书："
+
+#: commands/importcertificatescommand.cpp:266
+#, fuzzy
+#| msgid "Secret certificates imported:"
+msgid "Secret keys imported:"
+msgstr "已导入的私密证书："
+
+#: commands/importcertificatescommand.cpp:270
+#, fuzzy
+#| msgid "Secret certificates <em>not</em> imported:"
+msgid "Secret keys <em>not</em> imported:"
+msgstr "<em>未</em>导入的私密证书："
+
+#: commands/importcertificatescommand.cpp:273
+#, fuzzy
+#| msgid "Secret certificates unchanged:"
+msgid "Secret keys unchanged:"
+msgstr "未变更的私密证书："
+
+#: commands/importcertificatescommand.cpp:286
+msgid "No imports (should not happen, please report a bug)."
+msgstr "未导入任何内容(这种事不该发生，请向我们提交错误报告)。"
+
+#: commands/importcertificatescommand.cpp:290
+#: commands/importcertificatescommand.cpp:295
+#, kde-format
+msgid ""
+"<qt><p>Detailed results of certificate import:</p><table width=\"100%\">%1</"
+"table></qt>"
+msgstr "<qt><p>导入证书的详细结果：</p><table width=\"100%\">%1</table></qt>"
+
+#: commands/importcertificatescommand.cpp:292
+#, kde-format
+msgid ""
+"<qt><p>Detailed results of importing %1:</p><table width=\"100%\">%2</"
+"table></qt>"
+msgstr "<qt><p>导入 %1 的详细结果：</p><table width=\"100%\">%2</table></qt>"
+
+#: commands/importcertificatescommand.cpp:296
+msgid "Totals"
+msgstr "总计"
+
+#: commands/importcertificatescommand.cpp:302
+#: commands/importcertificatescommand.cpp:310
+msgid "Certificate Import Result"
+msgstr "证书导入结果"
+
+#: commands/importcertificatescommand.cpp:317
+#, kde-format
+msgid ""
+"<qt><p>An error occurred while trying to import the certificate:</p><p><b>"
+"%1</b></p></qt>"
+msgstr "<qt><p>尝试导入证书时出错：</p><p><b>%1</b></p></qt>"
+
+#: commands/importcertificatescommand.cpp:321
+#, kde-format
+msgid ""
+"<qt><p>An error occurred while trying to import the certificate %1:</p><p><b>"
+"%2</b></p></qt>"
+msgstr "<qt><p>尝试导入证书 %1 时出错：</p><p><b>%2</b></p></qt>"
+
+#: commands/importcertificatescommand.cpp:396
+#: commands/importcertificatescommand.cpp:433
+#, kde-format
+msgid ""
+"The type of this certificate (%1) is not supported by this Kleopatra "
+"installation."
+msgstr "目前安装的 Kleopatra 不支持此证书类型(%1)。"
+
+#: commands/importcrlcommand.cpp:69
+msgid ""
+"Certificate Revocation Lists, DER encoded (*.crl *.arl *-crl.der *-arl.der)"
+msgstr "证书吊销列表，DER 加密格式(*.crl *.arl *-crl.der *-arl.der)"
+
+#: commands/importcrlcommand.cpp:70
+msgid "Select CRL File to Import"
+msgstr "选择要导入的 CRL 文件"
+
+#: commands/importcrlcommand.cpp:160
+msgid "Unable to start process dirmngr. Please check your installation."
+msgstr "不能启动 dirmngr 进程，请检查您的安装。"
+
+#: commands/importcrlcommand.cpp:178
+msgid ""
+"The GpgSM process that tried to import the CRL file ended prematurely "
+"because of an unexpected error. Please check the output of gpgsm --call-"
+"dirmngr loadcrl &lt;filename&gt; for details."
+msgstr ""
+"GpgSM 进程在尝试导入 CRL 文件时，因非预期错误而提前结束。请检查 gpgsm --call-"
+"dirmngr loadcrl &lt;文件名&gt; 的输出了解详情。"
+
+#: commands/importcrlcommand.cpp:181 commands/importcrlcommand.cpp:185
+msgid "Import CRL Error"
+msgstr "CRL 导入出错"
+
+#: commands/importcrlcommand.cpp:183
+#, kde-format
+msgid ""
+"An error occurred while trying to import the CRL file. The output from gpgsm "
+"was:\n"
+"%1"
+msgstr ""
+"尝试导入 CRL 文件时出错，gpgsm 的输出为：\n"
+"%1"
+
+#: commands/importcrlcommand.cpp:187
+msgid "CRL file imported successfully."
+msgstr "CRL 文件成功导入。"
+
+#: commands/importcrlcommand.cpp:188
+msgid "Import CRL Finished"
+msgstr "CRL 导入完成"
+
+#: commands/learncardkeyscommand.cpp:74
+msgid "Error Learning SmartCard"
+msgstr "智能卡识别出错"
+
+#: commands/learncardkeyscommand.cpp:78
+msgid "Finished Learning SmartCard"
+msgstr "智能卡识别完成"
+
+#: commands/learncardkeyscommand.cpp:83
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The GPG or GpgSM process that tried to learn the smart card ended "
+"prematurely because of an unexpected error.</para><para>Please check the "
+"output of <icode>%1</icode> for details.</para>"
+msgstr ""
+"<para>GPG 或 GpgSM 进程在尝试识别智能卡时，因非预期错误而提前结束。</"
+"para><para>请检查 <icode>%1</icode> 的输出了解详情。</para>"
+
+#: commands/lookupcertificatescommand.cpp:227
+msgid ""
+"<p>You seem to be searching for a fingerPrint or a key-id.</p><p>Different "
+"keyservers expect different ways to search for these. Some require a \"0x\" "
+"prefix, while others require there be no such prefix.</p><p>If your search "
+"does not yield any results, try removing the 0x prefix from your search.</p>"
+msgstr ""
+
+#: commands/lookupcertificatescommand.cpp:231
+msgid ""
+"<p>You seem to be searching for a fingerPrint or a key-id.</p><p>Different "
+"keyservers expect different ways to search for these. Some require a \"0x\" "
+"prefix, while others require there be no such prefix.</p><p>If your search "
+"does not yield any results, try adding the 0x prefix to your search.</p>"
+msgstr ""
+
+#: commands/lookupcertificatescommand.cpp:235
+msgid "Hex-String Search"
+msgstr ""
+
+#: commands/lookupcertificatescommand.cpp:308
+#: commands/lookupcertificatescommand.cpp:313
+#, kde-format
+msgctxt "@title %1:\"OpenPGP\" or \"CMS\""
+msgid "%1 Certificate Server"
+msgstr "%1 证书服务器..."
+
+#: commands/lookupcertificatescommand.cpp:342
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Failed to search on certificate server. The error returned was:\n"
+"%1"
+msgstr ""
+"证书服务器搜索失败。错误信息：\n"
+"%1"
+
+#: commands/lookupcertificatescommand.cpp:350
+msgctxt "@info"
+msgid ""
+"<para>The query result has been truncated.</para><para>Either the local or a "
+"remote limit on the maximum number of returned hits has been exceeded.</"
+"para><para>You can try to increase the local limit in the configuration "
+"dialog, but if one of the configured servers is the limiting factor, you "
+"have to refine your search.</para>"
+msgstr ""
+"<para>查询结果已被截断。</para><para>原因是结果数目超过了本地或远程的返回命中"
+"结果的最大数目限制。</para><para>您可以尝试在配置对话框里提高本地限制，但如果"
+"这是服务器端配置的问题，您只能细化搜索条件。</para>"
+
+#: commands/lookupcertificatescommand.cpp:358
+msgctxt "@title"
+msgid "Result Truncated"
+msgstr "结果已被截断"
+
+#: commands/lookupcertificatescommand.cpp:387
+msgctxt "@info"
+msgid ""
+"<para>You do not have any directory servers configured.</para><para>You need "
+"to configure at least one directory server to search on one.</para><para>You "
+"can configure directory servers here: <interface>Settings->Configure "
+"Kleopatra</interface>.</para>"
+msgstr ""
+
+#: commands/lookupcertificatescommand.cpp:392
+msgctxt "@title"
+msgid "No Directory Servers Configured"
+msgstr "未配置目录服务器"
+
+#: commands/refreshopenpgpcertscommand.cpp:74
+msgctxt "@info"
+msgid ""
+"<para>No OpenPGP directory services have been configured.</para><para>If not "
+"all of the certificates carry the name of their preferred certificate server "
+"(few do), a fallback server is needed to fetch from.</para><para>Since none "
+"is configured, <application>Kleopatra</application> will use <resource>keys."
+"gnupg.net</resource> as the fallback.</para><para>You can configure OpenPGP "
+"directory servers in Kleopatra's configuration dialog.</para><para>Do you "
+"want to continue with <resource>keys.gnupg.net</resource> as fallback server?"
+"</para>"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:83
+#: commands/refreshopenpgpcertscommand.cpp:96
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Refresh"
+msgstr "OpenPGP 证书刷新"
+
+#: commands/refreshopenpgpcertscommand.cpp:90
+msgctxt "@info"
+msgid ""
+"<para>Refreshing OpenPGP certificates implies downloading all certificates "
+"anew, to check if any of them have been revoked in the meantime.</"
+"para><para>This can put a severe strain on your own as well as other "
+"people's network connections, and can take up to an hour or more to "
+"complete, depending on your network connection, and the number of "
+"certificates to check.</para> <para>Are you sure you want to continue?</para>"
+msgstr ""
+
+#: commands/refreshopenpgpcertscommand.cpp:112
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Refresh Error"
+msgstr "OpenPGP 证书刷新错误"
+
+#: commands/refreshopenpgpcertscommand.cpp:116
+msgctxt "@title:window"
+msgid "OpenPGP Certificate Refresh Finished"
+msgstr "OpenPGP 证书刷新完成"
+
+#: commands/refreshopenpgpcertscommand.cpp:121
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The GPG process that tried to refresh OpenPGP certificates ended "
+"prematurely because of an unexpected error.</para><para>Please check the "
+"output of <icode>%1</icode> for details.</para>"
+msgstr ""
+"<para>GPG 进程在尝试刷新 OpenPGP 证书时，因非预期错误而提前结束。</"
+"para><para>请检查 <icode>%1</icode> 的输出了解详情。</para>"
+
+#: commands/refreshopenpgpcertscommand.cpp:128
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to refresh OpenPGP certificates.</para> "
+"<para>The output from <command>%1</command> was: <message>%2</message></para>"
+msgstr ""
+"<para>尝试刷新 OpenPGP 证书时出错。</para><para><command>%1</command> 的输出"
+"为：<message>%2</message></para>"
+
+#: commands/refreshopenpgpcertscommand.cpp:134
+msgctxt "@info"
+msgid "OpenPGP certificates refreshed successfully."
+msgstr "OpenPGP 证书刷新成功。"
+
+#: commands/refreshx509certscommand.cpp:62
+msgctxt "@info"
+msgid ""
+"<para>Refreshing X.509 certificates implies downloading CRLs for all "
+"certificates, even if they might otherwise still be valid.</para><para>This "
+"can put a severe strain on your own as well as other people's network "
+"connections, and can take up to an hour or more to complete, depending on "
+"your network connection, and the number of certificates to check.</para> "
+"<para>Are you sure you want to continue?</para>"
+msgstr ""
+
+#: commands/refreshx509certscommand.cpp:68
+msgctxt "@title:window"
+msgid "X.509 Certificate Refresh"
+msgstr "X.509 证书刷新"
+
+#: commands/refreshx509certscommand.cpp:79
+msgctxt "@title:window"
+msgid "X.509 Certificate Refresh Error"
+msgstr "X.509 证书刷新错误"
+
+#: commands/refreshx509certscommand.cpp:83
+msgctxt "@title:window"
+msgid "X.509 Certificate Refresh Finished"
+msgstr "X.509 证书刷新完成"
+
+#: commands/refreshx509certscommand.cpp:88
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The GpgSM process that tried to refresh X.509 certificates ended "
+"prematurely because of an unexpected error.</para><para>Please check the "
+"output of <icode>%1</icode> for details.</para>"
+msgstr ""
+"<para>GpgSM 进程在尝试刷新 X.509 证书时，因非预期错误而提前结束。</"
+"para><para>请检查 <icode>%1</icode> 的输出了解详情。</para>"
+
+#: commands/refreshx509certscommand.cpp:95
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while trying to refresh X.509 certificates.</"
+"para><para>The output from <command>%1</command> was: <message>%2</message></"
+"para>"
+msgstr ""
+"<para>尝试刷新 X.509 证书时出错。</para><para><command>%1</command>的输出为："
+"<message>%2</message></para>"
+
+#: commands/refreshx509certscommand.cpp:101
+msgctxt "@info"
+msgid "X.509 certificates refreshed successfully."
+msgstr "X.509 证书刷新成功。"
+
+#: commands/setinitialpincommand.cpp:71
+msgctxt "@title"
+msgid "Set Initial Pin"
+msgstr "设定初始 PIN 代码"
+
+#: commands/signclipboardcommand.cpp:150 commands/signclipboardcommand.cpp:163
+msgid "Sign Clipboard Error"
+msgstr "剪贴板签名错误"
+
+#: commands/signencryptfilescommand.cpp:233
+msgid "Sign/Encrypt Files Error"
+msgstr "签名/加密文件出错"
+
+#: commands/signencryptfilescommand.cpp:244
+msgid "Select One or More Files to Sign and/or Encrypt"
+msgstr "选择一个或多个要签名/加密的文件"
+
+#: conf/appearanceconfigwidget.cpp:146
+msgctxt "Key filter without user-assigned name"
+msgid "<unnamed>"
+msgstr "<无名称>"
+
+#: conf/appearanceconfigwidget.cpp:278
+msgid "This parameter has been locked down by the system administrator."
+msgstr "此参数已被系统管理员锁定。"
+
+#: conf/appearanceconfigwidget.cpp:310
+msgid "DN-Attribute Order"
+msgstr "DN 属性序"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AppearanceConfigWidget)
+#: conf/appearanceconfigwidget.ui:13
+msgid "Color && Font Configuration"
+msgstr "颜色和字体配置"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: conf/appearanceconfigwidget.ui:20
+msgid "Tooltips"
+msgstr "工具提示"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/appearanceconfigwidget.ui:26
+msgid "Show the following information in certificate list tooltips:"
+msgstr "在证书列表提示中显示以下信息："
+
+#. i18n: ectx: property (text), widget (QCheckBox, tooltipValidityCheckBox)
+#: conf/appearanceconfigwidget.ui:33
+msgid "Show validity"
+msgstr "显示合法性"
+
+#. i18n: ectx: property (text), widget (QCheckBox, tooltipOwnerCheckBox)
+#: conf/appearanceconfigwidget.ui:40
+msgid "Show owner information"
+msgstr "显示所有者信息"
+
+#. i18n: ectx: property (text), widget (QCheckBox, tooltipDetailsCheckBox)
+#: conf/appearanceconfigwidget.ui:47
+msgid "Show technical details"
+msgstr "显示技术细节"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: conf/appearanceconfigwidget.ui:68
+msgid "Certificate Categories"
+msgstr "证书分类"
+
+#. i18n: ectx: property (text), widget (QPushButton, iconButton)
+#: conf/appearanceconfigwidget.ui:82
+msgid "Set &Icon..."
+msgstr "设定图标(&I)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, foregroundButton)
+#: conf/appearanceconfigwidget.ui:92
+msgid "Set &Text Color..."
+msgstr "设定文本颜色(&T)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, backgroundButton)
+#: conf/appearanceconfigwidget.ui:102
+msgid "Set &Background Color..."
+msgstr "设定背景颜色(&B)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, fontButton)
+#: conf/appearanceconfigwidget.ui:112
+msgid "Set F&ont..."
+msgstr "设定字体(&O)..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, italicCB)
+#: conf/appearanceconfigwidget.ui:122
+msgid "Italic"
+msgstr "斜体"
+
+#. i18n: ectx: property (text), widget (QCheckBox, boldCB)
+#: conf/appearanceconfigwidget.ui:132
+msgid "Bold"
+msgstr "粗体"
+
+#. i18n: ectx: property (text), widget (QCheckBox, strikeoutCB)
+#: conf/appearanceconfigwidget.ui:142
+msgid "Strikeout"
+msgstr "删除线"
+
+#. i18n: ectx: property (text), widget (QPushButton, defaultLookPB)
+#: conf/appearanceconfigwidget.ui:168
+msgid "Default Appearance"
+msgstr "默认外观"
+
+#: conf/configuredialog.cpp:72
+msgid "Configure"
+msgstr "配置"
+
+#. i18n: ectx: attribute (title), widget (QWidget, emailOperationsTab)
+#: conf/cryptooperationsconfigwidget.ui:18
+msgid "EMail Operations"
+msgstr "邮件操作"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, quickSignCB)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, quickEncryptCB)
+#: conf/cryptooperationsconfigwidget.ui:24
+#: conf/cryptooperationsconfigwidget.ui:34
+msgctxt "@info:whatsthis"
+msgid ""
+"When 'Quick Mode' is enabled, no dialog is shown when signing (encrypting) "
+"emails, respectively, unless there is a conflict that needs manual "
+"resolution."
+msgstr ""
+"启用“快速模式”时，签名/加密操作过程中不会显示对话框。除非发生了需要手工处理的"
+"冲突。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, quickSignCB)
+#: conf/cryptooperationsconfigwidget.ui:27
+msgid "Use 'Quick Mode' when signing"
+msgstr "签名时使用“快速模式”"
+
+#. i18n: ectx: property (text), widget (QCheckBox, quickEncryptCB)
+#: conf/cryptooperationsconfigwidget.ui:37
+msgid "Use 'Quick Mode' when encrypting"
+msgstr "加密时使用“快速模式”"
+
+#. i18n: ectx: attribute (title), widget (QWidget, fileOperationsTab)
+#: conf/cryptooperationsconfigwidget.ui:58
+msgid "File Operations"
+msgstr "文件操作"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, pgpFileExtCB)
+#: conf/cryptooperationsconfigwidget.ui:66
+msgctxt "@info:whatsthis"
+msgid ""
+"<p>Check this if you want to have OpenPGP encrypted files created by "
+"Kleopatra have the .pgp file extension.</p>\n"
+"<p>This will not modify any contents of the created files.</p>\n"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, pgpFileExtCB)
+#: conf/cryptooperationsconfigwidget.ui:69
+msgid ""
+"Create OpenPGP encrypted files with \".pgp\" file extensions instead of \"."
+"gpg\""
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label)
+#. i18n: ectx: property (whatsThis), widget (QComboBox, checksumDefinitionCB)
+#: conf/cryptooperationsconfigwidget.ui:80
+#: conf/cryptooperationsconfigwidget.ui:92
+msgctxt "@info:whatsthis"
+msgid ""
+"<p>Choose here which of the configured checksum programs should be used when "
+"creating checksum files.</p>\n"
+"<p>When verifying checksums, the program to use is automatically found, "
+"based on the names of the checksum files found.</p>\n"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/cryptooperationsconfigwidget.ui:83
+msgid "Checksum program to use:"
+msgstr "使用的校验和程序："
+
+#: conf/dirservconfigpage.cpp:171
+msgid "LDAP &timeout (minutes:seconds):"
+msgstr "LDAP 超时(分:秒)(&T)："
+
+#: conf/dirservconfigpage.cpp:181
+msgid "&Maximum number of items returned by query:"
+msgstr "查询所返回的最大项目数(&M)："
+
+#: conf/dirservconfigpage.cpp:191
+msgid "Automatically add &new servers discovered in CRL distribution points"
+msgstr "自动添加在 CRL 发行点钟找到的新服务器(&N)"
+
+#: conf/dirservconfigpage.cpp:385
+#, kde-format
+msgid "Backend error: gpgconf does not seem to know the entry for %1/%2/%3"
+msgstr "后端错误：gpgconf 不知道 %1/%2/%3 的项"
+
+#: conf/dirservconfigpage.cpp:390
+#, kde-format
+msgid "Backend error: gpgconf has wrong type for %1/%2/%3: %4 %5"
+msgstr "后端错误：gpgconf 对 %1/%2/%3 的类型错误：%4 %5"
+
+#: conf/smimevalidationconfigurationwidget.cpp:132
+msgid "This option requires dirmngr >= 0.9.0"
+msgstr "此选项要求 dirmngr >= 0.9.0 的版本"
+
+#. i18n: ectx: property (text), widget (QLabel, systemHTTPProxy)
+#: conf/smimevalidationconfigurationwidget.cpp:269
+#: conf/smimevalidationconfigurationwidget.ui:221
+msgid "no proxy"
+msgstr "无代理"
+
+#: conf/smimevalidationconfigurationwidget.cpp:270
+#, kde-format
+msgid "(Current system setting: %1)"
+msgstr "(当前系统设置：%1)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, intervalRefreshCB)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, intervalRefreshSB)
+#. i18n: ectx: whatsthis, entry (RefreshInterval), group (SMime Validation)
+#: conf/smimevalidationconfigurationwidget.ui:18
+#: conf/smimevalidationconfigurationwidget.ui:31
+#: kcfg/smimevalidationpreferences.kcfg:7
+msgid ""
+"This option enables interval checking of certificate validity. You can also "
+"choose the checking interval (in hours). Note that validation is perfomed "
+"implicitly whenever significant files in ~/.gnupg change. This option "
+"therefore only affects external factors of certificate validity."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, intervalRefreshCB)
+#: conf/smimevalidationconfigurationwidget.ui:21
+msgid "Check certificate validity every"
+msgstr "证书有效性检查间隔"
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, intervalRefreshSB)
+#: conf/smimevalidationconfigurationwidget.ui:37
+msgid "hour"
+msgstr "小时"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, intervalRefreshSB)
+#: conf/smimevalidationconfigurationwidget.ui:40
+msgid " hours"
+msgstr " 小时"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, CRLRB)
+#: conf/smimevalidationconfigurationwidget.ui:68
+msgid ""
+"If this option is selected, S/MIME certificates are validated using "
+"Certificate Revocation Lists (CRLs)."
+msgstr "如果选中此项，将使用证书吊销列表(CRL)检验 S/MIME 证书。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, CRLRB)
+#: conf/smimevalidationconfigurationwidget.ui:71
+msgid "Validate certificates using CRLs"
+msgstr "使用 CRL 校验证书"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, OCSPRB)
+#: conf/smimevalidationconfigurationwidget.ui:81
+msgid ""
+"If this option is selected, S/MIME certificates are validated online using "
+"the Online Certificates Status Protocol (OCSP). Fill in the URL of the OCSP "
+"responder below."
+msgstr ""
+"如果选中此项，程序会用在线证书状态协议(OCSP)校验 S/MIME 证书。请在下面填入 "
+"OCSP 响应者 URL。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, OCSPRB)
+#: conf/smimevalidationconfigurationwidget.ui:84
+msgid "Validate certificates online (OCSP)"
+msgstr "在线使用 OCSP 校验证书"
+
+#. i18n: ectx: property (title), widget (QGroupBox, OCSPGroupBox)
+#: conf/smimevalidationconfigurationwidget.ui:94
+msgid "Online Certificate Validation"
+msgstr "在线证书校验"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: conf/smimevalidationconfigurationwidget.ui:100
+msgid "OCSP responder URL:"
+msgstr "OCSP 响应地址："
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, OCSPResponderURL)
+#: conf/smimevalidationconfigurationwidget.ui:110
+msgid ""
+"Enter here the address of the server for online validation of certificates "
+"(OCSP responder). The URL is usually starting with http://."
+msgstr ""
+"在此输入在线证书校验(OCSP 响应者)服务器的地址。此 URL 通常以 http:// 开头。"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: conf/smimevalidationconfigurationwidget.ui:117
+msgid "OCSP responder signature:"
+msgstr "OCSP 响应签名："
+
+#. i18n: ectx: property (text), widget (QCheckBox, ignoreServiceURLCB)
+#: conf/smimevalidationconfigurationwidget.ui:127
+msgid "Ignore service URL of certificates"
+msgstr "忽略证书的服务 URL"
+
+#. i18n: ectx: property (whatsThis), widget (KleopatraClient::Gui::CertificateRequester, OCSPResponderSignature)
+#: conf/smimevalidationconfigurationwidget.ui:134
+msgid ""
+"Choose here the certificate with which the OCSP server signs its replies."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, doNotCheckCertPolicyCB)
+#: conf/smimevalidationconfigurationwidget.ui:144
+msgid ""
+"By default, GnuPG uses the file ~/.gnupg/policies.txt to check if a "
+"certificate policy is allowed. If this option is selected, policies are not "
+"checked."
+msgstr ""
+"GnuPG 默认使用 ~/.gnupg/policies.txt 文件来检查特定证书策略是否被允许。如果选"
+"中此项，将不会检查策略。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, doNotCheckCertPolicyCB)
+#: conf/smimevalidationconfigurationwidget.ui:147
+msgid "Do not check certificate policies"
+msgstr "不检查证书策略"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, neverConsultCB)
+#: conf/smimevalidationconfigurationwidget.ui:154
+msgid ""
+"If this option is checked, Certificate Revocation Lists are never used to "
+"validate S/MIME certificates."
+msgstr "如果选中此项，将永不使用证书吊销列表校验 S/MIME 证书。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, neverConsultCB)
+#: conf/smimevalidationconfigurationwidget.ui:157
+msgid "Never consult a CRL"
+msgstr "从不考虑 CRL"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, allowMarkTrustedCB)
+#: conf/smimevalidationconfigurationwidget.ui:164
+msgid ""
+"If this option is checked while a root CA certificate is being imported, you "
+"will be asked to confirm its fingerprint and to state whether or not you "
+"consider this root certificate to be trusted. A root certificate needs to be "
+"trusted before the certificates it certified become trusted, but lightly "
+"allowing trusted root certificates into your certificate store will "
+"undermine the security of the system."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, allowMarkTrustedCB)
+#: conf/smimevalidationconfigurationwidget.ui:167
+msgid "Allow to mark root certificates as trusted"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, fetchMissingCB)
+#: conf/smimevalidationconfigurationwidget.ui:174
+msgid ""
+"If this option is checked, missing issuer certificates are fetched when "
+"necessary (this applies to both validation methods, CRLs and OCSP)."
+msgstr ""
+"如果选中此项。程序会在需要时自动获取缺失的发行者证书(对 CRL 和 OCSP 两种校验"
+"方式都有效)。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, fetchMissingCB)
+#: conf/smimevalidationconfigurationwidget.ui:177
+msgid "Fetch missing issuer certificates"
+msgstr "获取缺失的颁发者证书"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabHTTP)
+#: conf/smimevalidationconfigurationwidget.ui:185
+msgid "&HTTP Requests"
+msgstr "&HTTP 请求"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, disableHTTPCB)
+#: conf/smimevalidationconfigurationwidget.ui:191
+msgid "Entirely disables the use of HTTP for S/MIME."
+msgstr "对 S/MIME 完全禁用 HTTP。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, disableHTTPCB)
+#: conf/smimevalidationconfigurationwidget.ui:194
+msgid "Do not perform any HTTP requests"
+msgstr "不执行任何 HTTP 请求"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreHTTPDPCB)
+#: conf/smimevalidationconfigurationwidget.ui:201
+msgid ""
+"When looking for the location of a CRL, the to-be-tested certificate usually "
+"contains what are known as \"CRL Distribution Point\" (DP) entries, which "
+"are URLs describing the way to access the CRL. The first-found DP entry is "
+"used.  With this option, all entries using the HTTP scheme are ignored when "
+"looking for a suitable DP."
+msgstr ""
+"在查询 CRL 的位置时，待测试的证书通常含有一般被称为“CRL 分发点(DP)”的条目，这"
+"是一组包含了访问方式描述信息的 URL。第一个找到的 DP 条目会被使用。如果启用此"
+"项，在查询时将忽略所有使用 HTTP 访问方式的条目。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ignoreHTTPDPCB)
+#: conf/smimevalidationconfigurationwidget.ui:204
+msgid "Ignore HTTP CRL distribution point of certificates"
+msgstr "忽略证书的 HTTP CRL 发布点"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, honorHTTPProxyRB)
+#: conf/smimevalidationconfigurationwidget.ui:211
+msgid ""
+"If this option is selected, the value of the HTTP proxy shown on the right "
+"(which comes from the environment variable http_proxy) will be used for any "
+"HTTP request."
+msgstr ""
+"如果选中此项，右侧显示的 HTTP 代理设定(来自 http_proxy 环境变量)将被用于任何 "
+"HTTP 请求。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, honorHTTPProxyRB)
+#: conf/smimevalidationconfigurationwidget.ui:214
+msgid "Use system HTTP proxy:"
+msgstr "使用系统的 HTTP 代理："
+
+#. i18n: ectx: property (text), widget (QRadioButton, useCustomHTTPProxyRB)
+#: conf/smimevalidationconfigurationwidget.ui:231
+msgid "Use this proxy for HTTP requests: "
+msgstr "对 HTTP 请求使用此代理："
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, customHTTPProxy)
+#: conf/smimevalidationconfigurationwidget.ui:238
+msgid ""
+"<p>If no system proxy is set, or you need to use a different proxy for "
+"GpgSM, you can enter its location here.</p><p>It will be used for all HTTP "
+"requests relating to S/MIME.</p><p>The syntax is host:port, for instance "
+"myproxy.nowhere.com:3128.</p>"
+msgstr ""
+"<p>如果没有指定系统级代理服务器，或者您需要为 GpgSM 选用不同的代理，请在此输"
+"入 HTTP 代理服务器地址。</p><p>它将被用于所有 S/MIME 相关的 HTTP 请求。</"
+"p><p>语法为主机名:端口，例如 myproxy.nowhere.com:3128。</p>"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabLDAP)
+#: conf/smimevalidationconfigurationwidget.ui:259
+msgid "&LDAP Requests"
+msgstr "&LDAP 请求"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, disableLDAPCB)
+#: conf/smimevalidationconfigurationwidget.ui:265
+msgid "Entirely disables the use of LDAP for S/MIME."
+msgstr "对 S/MIME 完全禁用 LDAP。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, disableLDAPCB)
+#: conf/smimevalidationconfigurationwidget.ui:268
+msgid "Do not perform any LDAP requests"
+msgstr "不执行任何 LDAP 请求"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreLDAPDPCB)
+#: conf/smimevalidationconfigurationwidget.ui:275
+msgid ""
+"When looking for the location of a CRL, the to-be-tested certificate usually "
+"contains what are known as \"CRL Distribution Point\" (DP) entries, which "
+"are URLs describing the way to access the CRL. The first found DP entry is "
+"used.  With this option, all entries using the LDAP scheme are ignored when "
+"looking for a suitable DP."
+msgstr ""
+"在查询 CRL 的位置时，待测试的证书通常含有一般被称为“CRL 分发点(DP)”的条目，这"
+"是一组包含了访问方式描述信息的 URL。第一个找到的 DP 条目会被使用。如果启用此"
+"项，在查询时将忽略所有使用 LDAP 访问方式的条目。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ignoreLDAPDPCB)
+#: conf/smimevalidationconfigurationwidget.ui:278
+msgid "Ignore LDAP CRL distribution point of certificates"
+msgstr "忽略证书的 LDAP CRL 发布点"
+
+#. i18n: ectx: property (text), widget (QLabel, customLDAPLabel)
+#: conf/smimevalidationconfigurationwidget.ui:285
+msgid "Primary host for LDAP requests:"
+msgstr "LDAP 请求的首选主机："
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, customLDAPProxy)
+#: conf/smimevalidationconfigurationwidget.ui:296
+msgid ""
+"Entering an LDAP server here will make all LDAP requests go to that server "
+"first. More precisely, this setting overrides any specified host and port "
+"part in a LDAP URL and will also be used if host and port have been omitted "
+"from the URL. Other LDAP servers will be used only if the connection to the "
+"\"proxy\" failed.\n"
+"The syntax is \"HOST\" or \"HOST:PORT\". If PORT is omitted, port 389 "
+"(standard LDAP port) is used."
+msgstr ""
+"在此输入一个 LDAP 服务器可使所有 LDAP 请求优先发往此服务器。确切地说，此设定"
+"会覆盖任何已指定的 LDAP URL 中的主机名和端口值，即使您在 URL 中省略了主机名和"
+"端口也不会抹消此设定。只有当您和代理服务器间的连接失败后才会使用其它 LDAP 服"
+"务器。\n"
+"语法为：“主机名”或“主机名:端口”。如果省略端口，则默认采用标准 LDAP 端口 389。"
+
+#: crlview.cpp:59
+msgid "CRL cache dump:"
+msgstr "CRL 缓存转储："
+
+#: crlview.cpp:69
+msgid "&Update"
+msgstr "更新(&U)"
+
+#: crlview.cpp:115
+msgid "Unable to start gpgsm process. Please check your installation."
+msgstr "不能启动 GpgSM 进程，请检查您的安装。"
+
+#: crlview.cpp:115 crlview.cpp:143
+msgid "Certificate Manager Error"
+msgstr "证书管理器错误"
+
+#: crlview.cpp:143
+msgid "The GpgSM process ended prematurely because of an unexpected error."
+msgstr "GpgSM 进程因非预期错误而提前结束。"
+
+#: crypto/createchecksumscontroller.cpp:84
+msgctxt "@info"
+msgid "No checksum files have been created."
+msgstr "没有创建校验和文件。"
+
+#: crypto/createchecksumscontroller.cpp:85
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "These checksum files have been successfull created:"
+msgctxt "@info"
+msgid "These checksum files have been successfully created:"
+msgstr "这些校验和文件已被成功创建："
+
+#: crypto/createchecksumscontroller.cpp:88
+msgctxt "@info"
+msgid "There were no errors."
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:89
+msgctxt "@info"
+msgid "The following errors were encountered:"
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:280
+msgid ""
+"Create Checksums: input files must be either all checksum files or all files "
+"to be checksummed, not a mixture of both."
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:302 mainwindow_desktop.cpp:495
+msgid "Cancel"
+msgstr "取消"
+
+#: crypto/createchecksumscontroller.cpp:302
+msgid "Initializing..."
+msgstr "正在初始化..."
+
+#: crypto/createchecksumscontroller.cpp:306
+msgctxt "@title:window"
+msgid "Create Checksum Progress"
+msgstr "创建校验和进程"
+
+#: crypto/createchecksumscontroller.cpp:536
+#, kde-format
+msgid "Failed to open file \"%1\" for reading and writing: %2"
+msgstr "无法以读写模式打开文件“%1”：%2"
+
+#: crypto/createchecksumscontroller.cpp:552
+#: crypto/verifychecksumscontroller.cpp:558 utils/output.cpp:476
+#, kde-format
+msgid "Error while running %1: %2"
+msgstr "运行 %1 时出错：%2"
+
+#: crypto/createchecksumscontroller.cpp:555
+#: crypto/verifychecksumscontroller.cpp:561 utils/input.cpp:322
+#: utils/output.cpp:479
+#, kde-format
+msgid "Failed to execute %1: %2"
+msgstr "执行 %1 失败：%2"
+
+#: crypto/createchecksumscontroller.cpp:586
+msgid "No checksum programs defined."
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:598
+#: crypto/verifychecksumscontroller.cpp:594
+msgid "Scanning directories..."
+msgstr "正在扫描目录..."
+
+#: crypto/createchecksumscontroller.cpp:613
+#: crypto/verifychecksumscontroller.cpp:607
+msgid "Calculating total size..."
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:630
+#, kde-format
+msgid "Checksumming (%2) in %1"
+msgstr ""
+
+#: crypto/createchecksumscontroller.cpp:641
+#: crypto/verifychecksumscontroller.cpp:635
+msgid "Done."
+msgstr "完成。"
+
+#: crypto/decryptverifyemailcontroller.cpp:84
+msgid "Status and progress of the crypto operations is shown here."
+msgstr "在此显示的是加密操作的状态和进度。"
+
+#: crypto/decryptverifyemailcontroller.cpp:164
+#: crypto/decryptverifyfilescontroller.cpp:208
+msgid "User canceled"
+msgstr "用户已取消"
+
+#: crypto/decryptverifyemailcontroller.cpp:252
+msgid "Decrypt/Verify E-Mail"
+msgstr "解密/校验邮件"
+
+#: crypto/decryptverifyemailcontroller.cpp:274
+msgid "At least one input needs to be provided"
+msgstr "至少需要提供一个输入"
+
+#: crypto/decryptverifyemailcontroller.cpp:278
+msgid "Informative sender/signed data count mismatch"
+msgstr "发件人信息和被签名数据不匹配"
+
+#: crypto/decryptverifyemailcontroller.cpp:283
+msgid "Signature/signed data count mismatch"
+msgstr "签名和被签名数据不匹配"
+
+#: crypto/decryptverifyemailcontroller.cpp:286
+msgid "Signed data can only be given for detached signature verification"
+msgstr ""
+
+#: crypto/decryptverifyemailcontroller.cpp:292
+msgid "Input/Output count mismatch"
+msgstr "输入和输出不匹配"
+
+#: crypto/decryptverifyemailcontroller.cpp:295
+msgid "Cannot use output and signed data simultaneously"
+msgstr "无法同时使用输出和签名数据"
+
+#: crypto/decryptverifyemailcontroller.cpp:302
+#, kde-format
+msgid "No backend support for %1"
+msgstr "没有 %1 的支持后端"
+
+#: crypto/decryptverifyfilescontroller.cpp:141
+msgid "Cannot determine whether input data is OpenPGP or CMS"
+msgstr ""
+
+#: crypto/decryptverifyfilescontroller.cpp:197
+#, kde-format
+msgid ""
+"Caught unexpected exception in DecryptVerifyFilesController::Private::"
+"slotWizardOperationPrepared: %1"
+msgstr ""
+"在 DecryptVerifyFilesController::Private::slotWizardOperationPrepared 捕捉到"
+"意外异常：%1"
+
+#: crypto/decryptverifyfilescontroller.cpp:201
+msgid ""
+"Caught unknown exception in DecryptVerifyFilesController::Private::"
+"slotWizardOperationPrepared"
+msgstr ""
+"在 DecryptVerifyFilesController::Private::slotWizardOperationPrepared 捕捉到"
+"未知异常"
+
+#: crypto/decryptverifyfilescontroller.cpp:253
+msgid "Decrypt/Verify Files"
+msgstr "解密/校验文件"
+
+#: crypto/decryptverifyfilescontroller.cpp:381
+msgid "No usable inputs found"
+msgstr "找不到可用的输入"
+
+#: crypto/decryptverifytask.cpp:180
+msgid "Error: Signature not verified"
+msgstr "错误：签名未校验"
+
+#: crypto/decryptverifytask.cpp:182
+msgid "Good signature"
+msgstr "完好的签名"
+
+#: crypto/decryptverifytask.cpp:184
+msgid "Bad signature"
+msgstr "损坏的签名"
+
+#: crypto/decryptverifytask.cpp:186
+msgid "Signing certificate revoked"
+msgstr "签名证书已被吊销"
+
+#: crypto/decryptverifytask.cpp:188
+msgid "Signing certificate expired"
+msgstr "签名证书已过期"
+
+#: crypto/decryptverifytask.cpp:190
+msgid "No public certificate to verify the signature"
+msgstr "没有可供校验证书的公共证书"
+
+#: crypto/decryptverifytask.cpp:192
+msgid "Signature expired"
+msgstr "签名已过期"
+
+#: crypto/decryptverifytask.cpp:194
+msgid "Certificate missing"
+msgstr "证书丢失"
+
+#: crypto/decryptverifytask.cpp:196
+msgid "CRL missing"
+msgstr "CRL 丢失"
+
+#: crypto/decryptverifytask.cpp:198
+msgid "CRL too old"
+msgstr "CRL 过旧"
+
+#: crypto/decryptverifytask.cpp:200
+msgid "Bad policy"
+msgstr "损坏的策略"
+
+#: crypto/decryptverifytask.cpp:202
+msgid "System error"
+msgstr "系统错误"
+
+#: crypto/decryptverifytask.cpp:211
+msgid ""
+"The signature is valid but the trust in the certificate's validity is only "
+"marginal."
+msgstr "此证书的签名有效，但对其有效性仅为勉强信任。"
+
+#: crypto/decryptverifytask.cpp:213
+msgid "The signature is valid and the certificate's validity is fully trusted."
+msgstr "此证书的签名有效，且其有效性受到完全信任。"
+
+#: crypto/decryptverifytask.cpp:215
+msgid ""
+"The signature is valid and the certificate's validity is ultimately trusted."
+msgstr "此证书的签名有效，且其有效性受到绝对信任。"
+
+#: crypto/decryptverifytask.cpp:217
+msgid ""
+"The signature is valid but the certificate's validity is <em>not trusted</"
+"em>."
+msgstr "此证书的签名有效，但对其有效性<em>不信任</em>。"
+
+#: crypto/decryptverifytask.cpp:219
+msgid "The signature is valid but the certificate's validity is unknown."
+msgstr "此证书的签名有效，但有效性未知。"
+
+#: crypto/decryptverifytask.cpp:222
+msgid "The signature is valid but the certificate's validity is undefined."
+msgstr "此证书的签名有效，但有效性尚未定义。"
+
+#: crypto/decryptverifytask.cpp:238 crypto/decryptverifytask.cpp:244
+msgid "Unknown certificate"
+msgstr "未知证书"
+
+#: crypto/decryptverifytask.cpp:263
+#, kde-format
+msgid "Signed on %1 with unknown certificate %2."
+msgstr "由未知证书 %2 签署于 %1"
+
+#: crypto/decryptverifytask.cpp:265
+#, kde-format
+msgid "Signed with unknown certificate %1."
+msgstr "由未知证书 %1 签署。"
+
+#: crypto/decryptverifytask.cpp:270
+#, kde-format
+msgctxt "date, key owner, key ID"
+msgid "Signed on %1 by %2 (Key ID: %3)."
+msgstr "由 %2 签署于 %1(密钥号：%3)"
+
+#: crypto/decryptverifytask.cpp:275
+#, kde-format
+msgid "Signed by %1 with certificate %2."
+msgstr "由 %1 使用证书 %2 签署。"
+
+#: crypto/decryptverifytask.cpp:278
+#, kde-format
+msgid "Signed on %1 with certificate %2."
+msgstr "由证书 %2 签署于 %1"
+
+#: crypto/decryptverifytask.cpp:279
+#, kde-format
+msgid "Signed with certificate %1."
+msgstr "由证书 %1 签署。"
+
+#: crypto/decryptverifytask.cpp:290 crypto/signencryptfilestask.cpp:73
+#, kde-format
+msgctxt "Input file --> Output file (rarr is arrow"
+msgid "%1 &rarr; %2"
+msgstr "%1 &rarr; %2"
+
+#: crypto/decryptverifytask.cpp:360
+msgid "<b>Verification canceled.</b>"
+msgstr "<b>校验已中止。</b>"
+
+#: crypto/decryptverifytask.cpp:362
+#, kde-format
+msgid "<b>Verification failed: %1.</b>"
+msgstr "<b>校验失败：%1。</b>"
+
+#: crypto/decryptverifytask.cpp:368
+msgid "<b>No signatures found.</b>"
+msgstr "<b>找不到签名。</b>"
+
+#: crypto/decryptverifytask.cpp:372
+#, kde-format
+msgid "<b>Invalid signature.</b>"
+msgid_plural "<b>%1 invalid signatures.</b>"
+msgstr[0] "<b>%1 个无效签名。</b>"
+
+#: crypto/decryptverifytask.cpp:376
+#, kde-format
+msgid "<b>Not enough information to check signature validity.</b>"
+msgid_plural "<b>%1 signatures could not be verified.</b>"
+msgstr[0] "<b>%1 个签名无法校验。</b>"
+
+#: crypto/decryptverifytask.cpp:383
+msgid "<b>Signature is valid.</b>"
+msgstr "<b>签名有效。</b>"
+
+#: crypto/decryptverifytask.cpp:384
+#, kde-format
+msgid "<b>Signed by %1</b>"
+msgstr "<b>由 %1 签署</b>"
+
+#: crypto/decryptverifytask.cpp:386
+#, kde-format
+msgid ""
+"<br/><b>Warning:</b> The sender's mail address is not stored in the %1 used "
+"for signing."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:387
+msgid "certificate"
+msgstr "证书"
+
+#: crypto/decryptverifytask.cpp:390
+#, kde-format
+msgid "<b>Valid signature.</b>"
+msgid_plural "<b>%1 valid signatures.</b>"
+msgstr[0] "<b>%1 个有效签名。</b>"
+
+#: crypto/decryptverifytask.cpp:392
+msgid ""
+"<br/><b>Warning:</b> The sender's mail address is not stored in the "
+"certificates used for signing."
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:403
+msgid "<b>Decryption canceled.</b>"
+msgstr "<b>解密已中止。</b>"
+
+#: crypto/decryptverifytask.cpp:405 crypto/decryptverifytask.cpp:407
+#, kde-format
+msgid "<b>Decryption failed: %1.</b>"
+msgstr "<b>解密失败：%1。</b>"
+
+#: crypto/decryptverifytask.cpp:408
+msgid "<b>Decryption succeeded.</b>"
+msgstr "<b>解密成功。</b>"
+
+#: crypto/decryptverifytask.cpp:423
+msgid "The signature is bad."
+msgstr "签名损坏。"
+
+#: crypto/decryptverifytask.cpp:425
+msgid "The validity of the signature cannot be verified."
+msgstr "无法确认此签名的有效性。"
+
+#: crypto/decryptverifytask.cpp:426
+#, kde-format
+msgid "The signature is invalid: %1"
+msgstr "签名无效：%1"
+
+#: crypto/decryptverifytask.cpp:438 crypto/decryptverifytask.cpp:455
+#: crypto/signencryptfilestask.cpp:222 crypto/signencryptfilestask.cpp:234
+#, fuzzy, kde-format
+#| msgctxt "e.g. \"Output of tar xf - file\""
+#| msgid "Output of %1"
+msgid "Input error: %1"
+msgstr "%1 的输出"
+
+#: crypto/decryptverifytask.cpp:448
+msgctxt "separator for a list of e-mail addresses"
+msgid ", "
+msgstr ", "
+
+#: crypto/decryptverifytask.cpp:448
+#, kde-format
+msgid ""
+"<p>The sender's address %1 is not stored in the certificate. Stored: %2</p>"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:461
+#, kde-format
+msgid "One unknown recipient."
+msgid_plural "%1 unknown recipients."
+msgstr[0] "%1 个未知收件人。"
+
+#: crypto/decryptverifytask.cpp:465
+msgid "Recipient:"
+msgid_plural "Recipients:"
+msgstr[0] "收件人："
+
+#: crypto/decryptverifytask.cpp:473
+#, kde-format
+msgid "One unknown recipient"
+msgid_plural "%1 unknown recipients"
+msgstr[0] "%1 个未知收件人"
+
+#: crypto/decryptverifytask.cpp:689
+#, kde-format
+msgctxt "label: result example: foo.sig: Verification failed. "
+msgid "%1: %2"
+msgstr "%1：%2"
+
+#: crypto/decryptverifytask.cpp:811 crypto/decryptverifytask.cpp:908
+#: crypto/decryptverifytask.cpp:962 crypto/decryptverifytask.cpp:1061
+#: crypto/decryptverifytask.cpp:1114 crypto/decryptverifytask.cpp:1212
+#: crypto/decryptverifytask.cpp:1260 crypto/decryptverifytask.cpp:1346
+#, kde-format
+msgid "Caught exception: %1"
+msgstr "捕捉到异常：%1"
+
+#: crypto/decryptverifytask.cpp:814 crypto/decryptverifytask.cpp:910
+#: crypto/decryptverifytask.cpp:965 crypto/decryptverifytask.cpp:1063
+#: crypto/decryptverifytask.cpp:1117 crypto/decryptverifytask.cpp:1214
+#: crypto/decryptverifytask.cpp:1262 crypto/decryptverifytask.cpp:1348
+#: uiserver/assuanserverconnection.cpp:1436
+#: uiserver/assuanserverconnection.cpp:1482
+msgid "Caught unknown exception"
+msgstr "捕捉到未知异常"
+
+#: crypto/decryptverifytask.cpp:863
+msgid ""
+"Could not determine whether this is an S/MIME or an OpenPGP signature/"
+"ciphertext - maybe it is neither ciphertext nor a signature?"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:869 crypto/decryptverifytask.cpp:1020
+#, kde-format
+msgid "Decrypting: %1..."
+msgstr "正在解密：%1..."
+
+#: crypto/decryptverifytask.cpp:1014
+msgid ""
+"Could not determine whether this was S/MIME- or OpenPGP-encrypted - maybe it "
+"is not ciphertext at all?"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:1166 crypto/decryptverifytask.cpp:1300
+msgid ""
+"Could not determine whether this is an S/MIME or an OpenPGP signature - "
+"maybe it is not a signature at all?"
+msgstr ""
+
+#: crypto/decryptverifytask.cpp:1172
+#, kde-format
+msgid "Verifying: %1..."
+msgstr "正在校验：%1..."
+
+#: crypto/decryptverifytask.cpp:1311
+#, kde-format
+msgid "Verifying signature: %1..."
+msgstr "正在校验签名：%1..."
+
+#: crypto/encryptemailcontroller.cpp:150
+msgid "Call to EncryptEMailController::protocolAsString() is ambiguous."
+msgstr "对 EncryptEMailController::protocolAsString() 的调用不明确。"
+
+#: crypto/encryptemailcontroller.cpp:169
+#: crypto/newsignencryptemailcontroller.cpp:382
+#: crypto/signemailcontroller.cpp:180
+#: crypto/signencryptfilescontroller.cpp:278
+msgid "User cancel"
+msgstr "用户取消"
+
+#: crypto/encryptemailtask.cpp:84 crypto/signencryptfilestask.cpp:185
+msgid "Encryption canceled."
+msgstr "加密已取消。"
+
+#: crypto/encryptemailtask.cpp:87
+#, kde-format
+msgid "Encryption failed: %1"
+msgstr "加密失败：%1"
+
+#: crypto/encryptemailtask.cpp:89 crypto/signencryptfilestask.cpp:190
+msgid "Encryption succeeded."
+msgstr "加密成功。"
+
+#: crypto/gui/decryptverifyfileswizard.cpp:205
+msgid "<b>Choose operations to be performed</b>"
+msgstr "<b>选择要执行的操作</b>"
+
+#: crypto/gui/decryptverifyfileswizard.cpp:206
+msgid ""
+"Here you can check and, if needed, override the operations Kleopatra "
+"detected for the input given."
+msgstr ""
+
+#: crypto/gui/decryptverifyfileswizard.cpp:209
+msgid "&Decrypt/Verify"
+msgstr "解密/校验(&D)"
+
+#: crypto/gui/decryptverifyfileswizard.cpp:215
+msgid "Create all output files in a single folder"
+msgstr "在单个文件夹内创建所有输出文件"
+
+#: crypto/gui/decryptverifyfileswizard.cpp:216
+msgid "&Output folder:"
+msgstr "输出文件夹(&O)："
+
+#: crypto/gui/decryptverifyoperationwidget.cpp:92
+msgid "Input file:"
+msgstr "输入文件："
+
+#: crypto/gui/decryptverifyoperationwidget.cpp:96
+msgid "&Input file is a detached signature"
+msgstr "输入文件是一个分离的签名(&I)"
+
+#: crypto/gui/decryptverifyoperationwidget.cpp:97
+msgid "&Signed data:"
+msgstr "已签名数据(&S)："
+
+#: crypto/gui/decryptverifyoperationwidget.cpp:102
+#, fuzzy
+#| msgid "&Input file is a detached signature"
+msgid "&Input file is an archive; unpack with:"
+msgstr "输入文件是一个分离的签名(&I)"
+
+#: crypto/gui/encryptemailwizard.cpp:52
+msgid "Encrypt Mail Message"
+msgstr "解密邮件信息"
+
+#: crypto/gui/newresultpage.cpp:101 crypto/gui/resultpage.cpp:91
+msgid "Keep open after operation completed"
+msgstr "操作完成后保留窗口"
+
+#: crypto/gui/newresultpage.cpp:134 crypto/gui/resultpage.cpp:119
+#, kde-format
+msgid "%1: All operations completed."
+msgstr "%1：全部操作完成。"
+
+#: crypto/gui/newresultpage.cpp:136 crypto/gui/resultpage.cpp:121
+msgid "All operations completed."
+msgstr "全部操作完成。"
+
+#: crypto/gui/newresultpage.cpp:160 crypto/gui/resultlistwidget.cpp:223
+#: crypto/gui/resultpage.cpp:138
+#, kde-format
+msgctxt "number, operation description"
+msgid "Operation %1: %2"
+msgstr "操作 %1：%2"
+
+#: crypto/gui/newresultpage.cpp:162 crypto/gui/resultpage.cpp:140
+#, kde-format
+msgctxt "tag( \"OpenPGP\" or \"CMS\"),  operation description"
+msgid "%1: %2"
+msgstr "%1：(%2)"
+
+#: crypto/gui/newresultpage.cpp:167 crypto/gui/resultpage.cpp:145
+msgid "<b>Results</b>"
+msgstr "<b>结果</b>"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:133
+msgctxt "@title:window"
+msgid "Selected Files"
+msgstr "选中的文件"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:212
+msgid "No files selected."
+msgstr "未选中文件。"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:213
+msgid "Selected file:"
+msgid_plural "Selected files:"
+msgstr[0] "选中的文件："
+
+#: crypto/gui/newsignencryptfileswizard.cpp:216
+msgctxt "@action"
+msgid "More..."
+msgstr "更多..."
+
+#: crypto/gui/newsignencryptfileswizard.cpp:346
+msgid "Archive files with:"
+msgstr "归档文件方式："
+
+#: crypto/gui/newsignencryptfileswizard.cpp:348
+#, fuzzy
+#| msgid "Archive name:"
+msgid "Archive name (OpenPGP):"
+msgstr "归档名称："
+
+#: crypto/gui/newsignencryptfileswizard.cpp:350
+#, fuzzy
+#| msgid "Archive name:"
+msgid "Archive name (S/MIME):"
+msgstr "归档名称："
+
+#: crypto/gui/newsignencryptfileswizard.cpp:352
+msgid "Sign and Encrypt (OpenPGP only)"
+msgstr "签名和加密(只用于 OpenPGP)"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:353
+#: newcertificatewizard/newcertificatewizard.cpp:1244
+#: newcertificatewizard/newcertificatewizard.cpp:1268
+msgid "Encrypt"
+msgstr "加密"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:354
+#: newcertificatewizard/newcertificatewizard.cpp:1242
+msgid "Sign"
+msgstr "签名"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:355
+#: crypto/gui/signerresolvepage.cpp:304
+msgid "Text output (ASCII armor)"
+msgstr "文本输出(ASCII 形式)"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:356
+#: crypto/gui/signerresolvepage.cpp:307
+msgid "Remove unencrypted original file when done"
+msgstr "完成后删除未加密的原始文件"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:364
+msgctxt "@title"
+msgid "What do you want to do?"
+msgstr "您想要做什么？"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:366
+msgctxt "@title"
+msgid "Please select here whether you want to sign or encrypt files."
+msgstr "请在此选择是要签名或是加密文件。"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:468
+msgctxt "base name of an archive file, e.g. archive.zip or archive.tar.gz"
+msgid "archive"
+msgstr "归档"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:522
+msgctxt "@info"
+msgid ""
+"<para>Archiving in combination with sign-only currently requires what are "
+"known as opaque signatures - unlike detached ones, these embed the content "
+"in the signature.</para><para>This format is rather unusual. You might want "
+"to archive the files separately, and then sign the archive as one file with "
+"Kleopatra.</para><para>Future versions of Kleopatra are expected to also "
+"support detached signatures in this case.</para>"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:527
+msgctxt "@title:window"
+msgid "Unusual Signature Warning"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:587
+msgid "This operation is not available for S/MIME"
+msgstr "此操作不可用于 S/MIME"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:614
+msgid "Add"
+msgstr "添加"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:615
+msgid "Remove"
+msgstr "删除"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:618
+msgctxt "@title"
+msgid "For whom do you want to encrypt?"
+msgstr "您想要加密什么信息？"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:620
+msgctxt "@title"
+msgid ""
+"Please select for whom you want the files to be encrypted. Do not forget to "
+"pick one of your own certificates."
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:623
+msgctxt "@action"
+msgid "Encrypt"
+msgstr "加密"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:717
+msgctxt "@info"
+msgid ""
+"<para>None of the recipients you are encrypting to seems to be your own.</"
+"para><para>This means that you will not be able to decrypt the data anymore, "
+"once encrypted.</para><para>Do you want to continue, or cancel to change the "
+"recipient selection?</para>"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:720
+#: crypto/gui/newsignencryptfileswizard.cpp:731
+msgctxt "@title:window"
+msgid "Encrypt-To-Self Warning"
+msgstr "自加密警告"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:729
+msgctxt "@info"
+msgid ""
+"<para>You have requested the unencrypted data to be removed after encryption."
+"</para><para>Are you really sure you do not need to access the data anymore "
+"in decrypted form?</para>"
+msgstr ""
+
+#: crypto/gui/newsignencryptfileswizard.cpp:777
+msgid "Sign with OpenPGP"
+msgstr "由 OpenPGP 签署"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:778
+msgid "Sign with S/MIME"
+msgstr "由 S/MIME 签署"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:781
+msgctxt "@title"
+msgid "Who do you want to sign as?"
+msgstr "您想要用于签名的身份是？"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:783
+msgctxt "@title"
+msgid "Please choose an identity with which to sign the data."
+msgstr "请选择一个要用于签名数据的身份。"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:859
+msgctxt "@action"
+msgid "Sign"
+msgstr "签名"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:875
+msgctxt "@action"
+msgid "Sign && Encrypt"
+msgstr "签名和加密"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:918
+msgctxt "@title"
+msgid "Results"
+msgstr "结果"
+
+#: crypto/gui/newsignencryptfileswizard.cpp:920
+msgctxt "@title"
+msgid "Status and progress of the crypto operations is shown here."
+msgstr "在此显示的是加密操作的状态和进度。"
+
+#: crypto/gui/objectspage.cpp:77
+msgid "<b>Objects</b>"
+msgstr "<b>对象</b>"
+
+#: crypto/gui/objectspage.cpp:87 crypto/gui/resolverecipientspage.cpp:433
+msgid "Remove Selected"
+msgstr "删除所选"
+
+#: crypto/gui/objectspage.cpp:99
+msgid "Select File"
+msgstr "选择文件"
+
+#: crypto/gui/resolverecipientspage.cpp:201
+msgid "<i>No certificate selected</i>"
+msgstr "<i>未选择证书</i>"
+
+#: crypto/gui/resolverecipientspage.cpp:208
+#: crypto/gui/signencryptemailconflictdialog.cpp:238
+msgid "..."
+msgstr "..."
+
+#: crypto/gui/resolverecipientspage.cpp:414
+msgid "<b>Recipients</b>"
+msgstr "<b>收件人</b>"
+
+#: crypto/gui/resolverecipientspage.cpp:429
+msgid "Add Recipient..."
+msgstr "添加收件人..."
+
+#: crypto/gui/resolverecipientspage.cpp:444
+#: crypto/gui/signencryptemailconflictdialog.cpp:580 utils/formatting.cpp:408
+msgid "OpenPGP"
+msgstr "OpenPGP"
+
+#: crypto/gui/resolverecipientspage.cpp:448
+#: crypto/gui/signencryptemailconflictdialog.cpp:581
+msgid "S/MIME"
+msgstr "S/MIME"
+
+#: crypto/gui/resolverecipientspage.cpp:463
+msgid ""
+"<b>Warning:</b> None of the selected certificates seem to be your own. You "
+"will not be able to decrypt the encrypted data again."
+msgstr ""
+"<b>警告：</b>所选的证书中没有一个是属于您自己的。您无法再次解密已加密的数据。"
+
+#: crypto/gui/resolverecipientspage.cpp:580
+msgid "Recipient"
+msgstr "收件人"
+
+#: crypto/gui/resolverecipientspage.cpp:582
+#, kde-format
+msgctxt "%1 == number"
+msgid "Recipient (%1)"
+msgstr "收件人(%1)"
+
+#: crypto/gui/resolverecipientspage.cpp:616
+#, fuzzy, kde-format
+#| msgid "<qt><p>Recipients predefined via GnuPG settings:</p>%1"
+msgid "<qt><p>Recipients predefined via GnuPG settings:</p>%1</qt>"
+msgstr "<qt><p>在 GnuPG 设置中预定义的收件人：</p>%1"
+
+#: crypto/gui/resolverecipientspage.cpp:627
+msgid "Sender"
+msgstr "发件人"
+
+#: crypto/gui/resultitemwidget.cpp:104
+msgid "Hide Details"
+msgstr "隐藏细节"
+
+#: crypto/gui/resultitemwidget.cpp:104
+msgid "Show Details"
+msgstr "显示细节"
+
+#: crypto/gui/signemailwizard.cpp:82
+msgid "You need to select a signing certificate to proceed."
+msgstr "您需要选择一个签名证书来继续操作。"
+
+#: crypto/gui/signemailwizard.cpp:88
+#, kde-format
+msgid "You need to select an %1 signing certificate to proceed."
+msgstr "您需要选择一个 %1 签名证书来继续操作。"
+
+#: crypto/gui/signemailwizard.cpp:90
+#, kde-format
+msgid "You need to select %1 and %2 signing certificates to proceed."
+msgstr "您需要选择一个 %1 和 %2 签名证书来继续操作。"
+
+#: crypto/gui/signemailwizard.cpp:118
+msgid "Sign Mail Message"
+msgstr "签名邮件消息"
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:163
+msgid "(no matching certificates found)"
+msgstr "(找不到匹配的证书)"
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:165
+msgid "Please select a certificate"
+msgstr "请选择证书"
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:222
+msgid "(please choose between OpenPGP and S/MIME first)"
+msgstr "(请先选择 OpenPGP 还是 S/MIME)"
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:366
+#, kde-format
+msgid "Please select an encryption certificate for recipient \"%1\""
+msgstr "请为收件人“%1”选择一份加密证书"
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:376
+#, kde-format
+msgid "Please select a signing certificate for sender \"%1\""
+msgstr "您为发件人“%1”选择一份签名证书"
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:386
+msgid ""
+"Kleopatra cannot unambiguously determine matching certificates for all "
+"recipients/senders of the message.\n"
+"Please select the correct certificates for each recipient:"
+msgstr ""
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:389
+msgid ""
+"Kleopatra cannot unambiguously determine matching certificates for the "
+"sender of the message.\n"
+"Please select the correct certificates for the sender:"
+msgstr ""
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:392
+msgid ""
+"Kleopatra cannot unambiguously determine matching certificates for all "
+"recipients of the message.\n"
+"Please select the correct certificates for each recipient:"
+msgstr ""
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:400
+msgid ""
+"Please verify that correct certificates have been selected for each "
+"recipient:"
+msgstr "请验证这些是否是您为收件人选择的证书："
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:401
+#, fuzzy
+#| msgid ""
+#| "Please verify that correct certificates have been selected for each "
+#| "recipient:"
+msgid ""
+"Please verify that the correct certificate has been selected for the sender:"
+msgstr "请验证这些是否是您为收件人选择的证书："
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:579
+msgid "Show all recipients"
+msgstr "显示所有收件人"
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:582
+msgid "Select Signing Certificate"
+msgstr "选择签名证书"
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:583
+msgid "Select Encryption Certificate"
+msgstr "选择加密证书"
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:584
+msgid "Only show this dialog in case of conflicts (experimental)"
+msgstr "只在发生冲突时显示此对话框(实验特性)"
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:605
+msgid "Select Certificates For Message"
+msgstr "选择信件证书"
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:669
+msgid "From:"
+msgstr "发件人："
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:677
+msgid "To:"
+msgstr "收件人："
+
+#: crypto/gui/signencryptemailconflictdialog.cpp:715
+#, kde-format
+msgid "Select Certificates For Message \"%1\""
+msgstr "选择信件“%1”的证书"
+
+#: crypto/gui/signencryptfileswizard.cpp:84
+msgid ""
+"You need to select an OpenPGP signing certificate to perform this operation."
+msgstr "您需要选择一个 OpenPGP 签名证书来执行此操作。"
+
+#: crypto/gui/signencryptfileswizard.cpp:87
+msgid "You need to select at least one signing certificate to proceed."
+msgstr "您需要选择至少一个签名证书来继续操作。"
+
+#: crypto/gui/signencryptfileswizard.cpp:90
+msgid ""
+"Only OpenPGP certificates will be offered for selection because you "
+"specified a combined sign/encrypt operation that is only available for "
+"OpenPGP."
+msgstr ""
+"由于您要执行签名/加密结合操作，所以只能选择 OpenPGP 证书，此功能仅对 OpenPGP "
+"有效。"
+
+#: crypto/gui/signencryptfileswizard.cpp:93
+msgid ""
+"Only OpenPGP certificates will be offered for selection because you only "
+"specified an OpenPGP signing certificate."
+msgstr "由于您只指定了 OpenPGP 签名证书，所以只能从 OpenPGP 证书中选择。"
+
+#: crypto/gui/signencryptfileswizard.cpp:96
+msgid ""
+"Only S/MIME certificates will be offered for selection because you only "
+"specified an S/MIME signing certificate."
+msgstr "由于您只指定了 S/MIME 签名证书，所以只能从 S/MIME 证书中选择。"
+
+#: crypto/gui/signencryptfileswizard.cpp:102
+msgid ""
+"You have selected both OpenPGP and S/MIME signing certificate types, thus "
+"two signatures will be created."
+msgstr "您同时选择 OpenPGP 和 S/MIME 类型的签名证书，因此将创建两个签名。"
+
+#: crypto/gui/signencryptfileswizard.cpp:106
+msgid ""
+"If you select both OpenPGP and S/MIME receipient certificates, two encrypted "
+"files will be created: one for OpenPGP recipients, one for S/MIME recipients."
+msgstr ""
+
+#: crypto/gui/signencryptfileswizard.cpp:131
+#: crypto/signencryptfilescontroller.cpp:159
+msgid "Sign/Encrypt Files"
+msgstr "签名/加密文件"
+
+#: crypto/gui/signencryptfileswizard.cpp:132
+#: crypto/signencryptfilescontroller.cpp:146
+msgid "Sign Files"
+msgstr "签名文件"
+
+#: crypto/gui/signencryptfileswizard.cpp:133
+#: crypto/signencryptfilescontroller.cpp:153
+msgid "Encrypt Files"
+msgstr "加密文件"
+
+#: crypto/gui/signerresolvepage.cpp:87
+#, kde-format
+msgctxt "%1=protocol (S/Mime, OpenPGP), %2=certificate"
+msgid "Sign using %1: %2"
+msgstr "签名协议 %1：%2"
+
+#: crypto/gui/signerresolvepage.cpp:88
+msgid "No certificate selected"
+msgstr "未选择证书"
+
+#: crypto/gui/signerresolvepage.cpp:285
+msgid "Sign and encrypt (OpenPGP only)"
+msgstr "签名和加密(只用于 OpenPGP)"
+
+#: crypto/gui/signerresolvepage.cpp:291
+msgid "Encrypt only"
+msgstr "仅加密"
+
+#: crypto/gui/signerresolvepage.cpp:296
+msgid "Sign only"
+msgstr "仅签名"
+
+#: crypto/gui/signerresolvepage.cpp:301
+msgid "Encryption Options"
+msgstr "加密选项"
+
+#: crypto/gui/signerresolvepage.cpp:313
+msgid "Signing Options"
+msgstr "签名选项"
+
+#: crypto/gui/signerresolvepage.cpp:318
+msgid "Signer:"
+msgstr "签名者："
+
+#: crypto/gui/signerresolvepage.cpp:333
+msgid "Change Signing Certificates..."
+msgstr "更改签名证书..."
+
+#: crypto/gui/signerresolvepage.cpp:492
+msgid "<b>Choose Operation to be Performed</b>"
+msgstr "<b>选择要执行的操作</b>"
+
+#: crypto/gui/signingcertificateselectiondialog.cpp:49
+msgid "Select Signing Certificates"
+msgstr "选择签名证书"
+
+#. i18n: ectx: property (text), widget (QCheckBox, rememberCO)
+#: crypto/gui/signingcertificateselectionwidget.ui:37
+msgid "Remember these as default for future operations"
+msgstr "为将来的操作记住此默认设置"
+
+#. i18n: ectx: property (text), widget (QLabel, pgpLabel)
+#: crypto/gui/signingcertificateselectionwidget.ui:57
+msgid "OpenPGP Signing Certificate:"
+msgstr "OpenPGP 签名证书："
+
+#. i18n: ectx: property (text), widget (QLabel, cmsLabel)
+#: crypto/gui/signingcertificateselectionwidget.ui:67
+msgid "S/MIME Signing Certificate:"
+msgstr "S/MIME 签名证书："
+
+#: crypto/gui/verifychecksumsdialog.cpp:228
+msgid "The following errors and warnings were recorded:"
+msgstr "以下错误和警告已被记录："
+
+#: crypto/gui/verifychecksumsdialog.cpp:229
+msgid "Checksum Verification Errors"
+msgstr "校验失败"
+
+#: crypto/gui/verifychecksumsdialog.cpp:240
+#: crypto/gui/verifychecksumsdialog.cpp:264
+msgid "No errors occurred"
+msgstr "没有出错"
+
+#: crypto/gui/verifychecksumsdialog.cpp:242
+#, kde-format
+msgid "One error occurred"
+msgid_plural "%1 errors occurred"
+msgstr[0] "出现 %1 个错误"
+
+#: crypto/gui/verifychecksumsdialog.cpp:262
+msgid "Progress:"
+msgstr "进度："
+
+#: crypto/gui/verifychecksumsdialog.cpp:265
+msgctxt "Show Errors"
+msgid "Show"
+msgstr "显示"
+
+#: crypto/gui/wizard.cpp:98
+msgid "&Next"
+msgstr "下一个(&N)"
+
+#: crypto/gui/wizard.cpp:136
+msgid "Back"
+msgstr "后退"
+
+#: crypto/newsignencryptemailcontroller.cpp:297
+msgid "Call to NewSignEncryptEMailController::protocolAsString() is ambiguous."
+msgstr "对 NewSignEncryptEMailController::protocolAsString() 的调用不明确。"
+
+#: crypto/newsignencryptemailcontroller.cpp:517
+#: crypto/newsignencryptemailcontroller.cpp:522
+msgctxt "@title:window"
+msgid "Error"
+msgstr "错误"
+
+#: crypto/signemailtask.cpp:85 crypto/signencryptfilestask.cpp:172
+msgid "Signing canceled."
+msgstr "签名已取消。"
+
+#: crypto/signemailtask.cpp:88
+#, kde-format
+msgid "Signing failed: %1"
+msgstr "签名失败：%1"
+
+#: crypto/signemailtask.cpp:90 crypto/signencryptfilestask.cpp:176
+msgid "Signing succeeded."
+msgstr "签名成功。"
+
+#: crypto/signencryptfilescontroller.cpp:144
+msgid "Archive and Sign Files"
+msgstr "归档并签名文件"
+
+#: crypto/signencryptfilescontroller.cpp:151
+msgid "Archive and Encrypt Files"
+msgstr "归档并加密文件"
+
+#: crypto/signencryptfilescontroller.cpp:157
+msgid "Archive and Sign/Encrypt Files"
+msgstr "归档并签名/加密文件"
+
+#: crypto/signencryptfilescontroller.cpp:477
+#, kde-format
+msgid ""
+"Caught unexpected exception in SignEncryptFilesController::Private::"
+"slotWizardOperationPrepared: %1"
+msgstr ""
+"在 SignEncryptFilesController::Private::slotWizardOperationPrepared 调用中捕"
+"捉到不可预料的异常：%1"
+
+#: crypto/signencryptfilescontroller.cpp:481
+msgid ""
+"Caught unknown exception in SignEncryptFilesController::Private::"
+"slotWizardOperationPrepared"
+msgstr ""
+"在 SignEncryptFilesController::Private::slotWizardOperationPrepared 调用中捕"
+"捉到不可预料的异常：%1"
+
+#: crypto/signencryptfilestask.cpp:175
+msgid "Signing failed."
+msgstr "签名失败。"
+
+#: crypto/signencryptfilestask.cpp:188
+msgid "Encryption failed."
+msgstr "加密失败。"
+
+#: crypto/signencryptfilestask.cpp:209
+msgid "Signing and encryption succeeded."
+msgstr "签名和加密成功。"
+
+#: crypto/signencryptfilestask.cpp:224 crypto/signencryptfilestask.cpp:236
+#, fuzzy, kde-format
+#| msgctxt "e.g. \"Output of tar xf - file\""
+#| msgid "Output of %1"
+msgid "Output error: %1"
+msgstr "%1 的输出"
+
+#: crypto/signencryptfilestask.cpp:239
+msgid " Encryption succeeded."
+msgstr " 加密成功。"
+
+#: crypto/signencryptfilestask.cpp:251
+#, kde-format
+msgid "%1: <b>Sign/encrypt canceled.</b>"
+msgstr "%1：<b>签名/加密已取消。</b>"
+
+#: crypto/signencryptfilestask.cpp:251
+#, kde-format
+msgid " %1: Sign/encrypt failed."
+msgstr "%1：签名/加密失败。"
+
+#: crypto/signencryptfilestask.cpp:252
+#, kde-format
+msgctxt "label: result. Example: foo -> foo.gpg: Encryption failed."
+msgid "%1: <b>%2</b>"
+msgstr "%1：<b>%2</b>"
+
+#: crypto/signencryptfilestask.cpp:396
+msgid "Cannot determine protocol for task"
+msgstr "无法确定任务的协议"
+
+#: crypto/task.cpp:168
+msgid "Unknown exception in Task::start()"
+msgstr "Task::start() 抛出未知异常"
+
+#: crypto/verifychecksumscontroller.cpp:217
+msgctxt "@title:window"
+msgid "Verify Checksum Results"
+msgstr ""
+
+#: crypto/verifychecksumscontroller.cpp:456
+#, kde-format
+msgid "Cannot find checksums file for file %1"
+msgstr ""
+
+#: crypto/verifychecksumscontroller.cpp:626
+#, kde-format
+msgid "Verifying checksums (%2) in %1"
+msgstr ""
+
+#: dialogs/adduseriddialog.cpp:69 models/keylistmodel.cpp:247
+#: models/useridlistmodel.cpp:249
+#: newcertificatewizard/newcertificatewizard.cpp:923
+msgid "Name"
+msgstr "名字"
+
+#: dialogs/adduseriddialog.cpp:71
+#: newcertificatewizard/newcertificatewizard.cpp:925
+msgid "Comment"
+msgstr "注释"
+
+#: dialogs/adduseriddialog.cpp:73 models/useridlistmodel.cpp:250
+#: newcertificatewizard/newcertificatewizard.cpp:927
+msgid "EMail"
+msgstr "电子邮件"
+
+#: dialogs/adduseriddialog.cpp:86
+#: newcertificatewizard/newcertificatewizard.cpp:940
+#, kde-format
+msgctxt "Format string for the labels in the \"Your Personal Data\" page"
+msgid "%1 (%2)"
+msgstr "%1(%2)"
+
+#: dialogs/adduseriddialog.cpp:114
+#: newcertificatewizard/newcertificatewizard.cpp:1030
+#, kde-format
+msgctxt "interpunctation for labels"
+msgid "%1:"
+msgstr "%1："
+
+#. i18n: ectx: property (text), widget (QLabel, nameRequiredLB)
+#. i18n: ectx: property (text), widget (QLabel, emailRequiredLB)
+#: dialogs/adduseriddialog.cpp:116 newcertificatewizard/enterdetailspage.ui:26
+#: newcertificatewizard/enterdetailspage.ui:43
+#: newcertificatewizard/newcertificatewizard.cpp:1032
+msgid "(required)"
+msgstr "(必须)"
+
+#. i18n: ectx: property (text), widget (QLabel, commentRequiredLB)
+#: dialogs/adduseriddialog.cpp:116 newcertificatewizard/enterdetailspage.ui:60
+#: newcertificatewizard/newcertificatewizard.cpp:1032
+msgid "(optional)"
+msgstr "(可选)"
+
+#: dialogs/adduseriddialog.cpp:280
+#: newcertificatewizard/newcertificatewizard.cpp:1188
+#, kde-format
+msgctxt "@info"
+msgid "<interface>%1</interface> is required, but empty."
+msgstr "<interface>%1</interface>是必须的，不可缺少。"
+
+#: dialogs/adduseriddialog.cpp:282
+#: newcertificatewizard/newcertificatewizard.cpp:1190
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<interface>%1</interface> is required, but empty.<nl/>Local Admin rule: "
+"<icode>%2</icode>"
+msgstr ""
+
+#: dialogs/adduseriddialog.cpp:288
+#: newcertificatewizard/newcertificatewizard.cpp:1196
+#, kde-format
+msgctxt "@info"
+msgid "<interface>%1</interface> is incomplete."
+msgstr "<interface>%1</interface>不完整。"
+
+#: dialogs/adduseriddialog.cpp:290
+#: newcertificatewizard/newcertificatewizard.cpp:1198
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<interface>%1</interface> is incomplete.<nl/>Local Admin rule: <icode>%2</"
+"icode>"
+msgstr ""
+
+#: dialogs/adduseriddialog.cpp:295
+#: newcertificatewizard/newcertificatewizard.cpp:1203
+#, kde-format
+msgctxt "@info"
+msgid "<interface>%1</interface> is invalid."
+msgstr "<interface>%1</interface>无效。"
+
+#: dialogs/adduseriddialog.cpp:297
+#: newcertificatewizard/newcertificatewizard.cpp:1205
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<interface>%1</interface> is invalid.<nl/>Local Admin rule: <icode>%2</icode>"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, AddUserIDDialog)
+#: dialogs/adduseriddialog.ui:5
+msgid "Add New User-ID"
+msgstr "添加新用户编号"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/adduseriddialog.ui:48
+msgid "This is how the new User-ID will be stored in the certificate:"
+msgstr ""
+
+#: dialogs/certificatedetailsdialog.cpp:249
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>An error occurred while loading the certifications: <message>%1</"
+"message></para>"
+msgstr "<para>尝试装入证书 <message>%1</message> 时出错。</para>"
+
+#: dialogs/certificatedetailsdialog.cpp:252
+msgctxt "@title"
+msgid "Certifications Loading Failed"
+msgstr "证书装入失败"
+
+#: dialogs/certificatedetailsdialog.cpp:275
+msgid "Please wait while generating the dump..."
+msgstr "请等待倾出数据生成完毕..."
+
+#: dialogs/certificatedetailsdialog.cpp:353
+msgid "(please wait while certifications are being loaded)"
+msgstr "(请等待证书装入完成)"
+
+#: dialogs/certificatedetailsdialog.cpp:354
+msgid "Load Certifications (may take a while)"
+msgstr "装入证书(可能需要一点时间)"
+
+#: dialogs/certificatedetailsdialog.cpp:380
+#, kde-format
+msgid "Issuer Certificate Not Found (%1)"
+msgstr "找不到颁发者证书(%1)"
+
+#: dialogs/certificatedetailsdialog.cpp:437
+msgctxt "@title"
+msgid "Subkeys"
+msgstr "子密钥："
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CertificateDetailsDialog)
+#: dialogs/certificatedetailsdialog.ui:14 view/keylistcontroller.cpp:357
+msgid "Certificate Details"
+msgstr "证书明细"
+
+#. i18n: ectx: attribute (title), widget (QWidget, overviewTab)
+#: dialogs/certificatedetailsdialog.ui:21
+msgid "Overview"
+msgstr "概览"
+
+#. i18n: ectx: property (title), widget (QGroupBox, overviewActionsGB)
+#: dialogs/certificatedetailsdialog.ui:27 qml/kleopatra-mobile.qml:84
+#: utils/kleo_kicondialog.cpp:366
+msgid "Actions"
+msgstr "动作"
+
+#. i18n: ectx: property (text), widget (QPushButton, changePassphrasePB)
+#: dialogs/certificatedetailsdialog.ui:33 view/keylistcontroller.cpp:372
+msgid "Change Passphrase..."
+msgstr "更改密码句..."
+
+#. i18n: ectx: property (text), widget (QPushButton, changeTrustLevelPB)
+#: dialogs/certificatedetailsdialog.ui:43
+msgid "Trust Certifications Made by This Certificate..."
+msgstr "信任此证书签署的证书..."
+
+#. i18n: ectx: property (text), widget (QPushButton, changeExpiryDatePB)
+#: dialogs/certificatedetailsdialog.ui:53 view/keylistcontroller.cpp:364
+msgid "Change Expiry Date..."
+msgstr "更改到期日期..."
+
+#. i18n: ectx: property (text), widget (QPushButton, revokeCertificatePB)
+#: dialogs/certificatedetailsdialog.ui:63
+msgid "Revoke This Certificate..."
+msgstr "吊销此证书..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: dialogs/certificatedetailsdialog.ui:111
+msgid "Photo"
+msgstr "照片"
+
+#. i18n: ectx: property (text), widget (QLabel, photoLB)
+#: dialogs/certificatedetailsdialog.ui:121
+msgid ""
+"<p>At the moment, Kleopatra does not support photos in certificates. It has "
+"no support for adding, nor for displaying them. This is for the following "
+"reasons:</p>\n"
+"<ul>\n"
+"<li>Photos give a false sense of security.</li>\n"
+"<li>Photos increase the size of certificates.</li>\n"
+"</ul>"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, certificationsTab)
+#: dialogs/certificatedetailsdialog.ui:138
+msgid "User-IDs && Certifications"
+msgstr "用户编号和证书"
+
+#. i18n: ectx: property (title), widget (QGroupBox, userIDsActionsGB)
+#: dialogs/certificatedetailsdialog.ui:158
+msgid "User-IDs"
+msgstr "用户编号"
+
+#. i18n: ectx: property (text), widget (QPushButton, addUserIDPB)
+#: dialogs/certificatedetailsdialog.ui:164
+msgid "Add..."
+msgstr "添加..."
+
+#. i18n: ectx: property (text), widget (QPushButton, revokeUserIDPB)
+#. i18n: ectx: property (text), widget (QPushButton, revokeCertificationPB)
+#: dialogs/certificatedetailsdialog.ui:174
+#: dialogs/certificatedetailsdialog.ui:203
+msgid "Revoke..."
+msgstr "吊销..."
+
+#. i18n: ectx: property (text), widget (QPushButton, certifyUserIDPB)
+#: dialogs/certificatedetailsdialog.ui:184
+msgid "Certify..."
+msgstr "认证..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, certificationsActionGB)
+#: dialogs/certificatedetailsdialog.ui:197
+msgid "Certifications"
+msgstr "证书"
+
+#. i18n: ectx: property (text), widget (QPushButton, expandAllCertificationsPB)
+#: dialogs/certificatedetailsdialog.ui:229 view/tabwidget.cpp:407
+msgid "Expand All"
+msgstr "全部展开"
+
+#. i18n: ectx: property (text), widget (QPushButton, collapseAllCertificationsPB)
+#: dialogs/certificatedetailsdialog.ui:239 view/tabwidget.cpp:409
+msgid "Collapse All"
+msgstr "全部折叠"
+
+#. i18n: ectx: attribute (title), widget (QWidget, detailsTab)
+#. i18n: ectx: attribute (title), widget (QWidget, technicalTab)
+#: dialogs/certificatedetailsdialog.ui:264
+#: newcertificatewizard/advancedsettingsdialog.ui:21
+msgid "Technical Details"
+msgstr "技术细节"
+
+#. i18n: ectx: attribute (title), widget (QWidget, chainTab)
+#: dialogs/certificatedetailsdialog.ui:297
+msgid "Chain"
+msgstr "信任链"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, chainTW)
+#: dialogs/certificatedetailsdialog.ui:310
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: attribute (title), widget (QWidget, dumpTab)
+#: dialogs/certificatedetailsdialog.ui:319
+msgid "Dump"
+msgstr "转储"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/certificatedetailsdialog.ui:325
+msgid ""
+"This is a dump of all information the backend has about this certificate:"
+msgstr ""
+
+#: dialogs/certificateselectiondialog.cpp:110
+msgid "Please select one or more of the following certificates:"
+msgstr "请从下面选择一个或多个证书："
+
+#: dialogs/certificateselectiondialog.cpp:111
+msgid "Please select one of the following certificates:"
+msgstr "请从下面选择一个证书："
+
+#: dialogs/certificateselectiondialog.cpp:148
+msgid "Reload"
+msgstr "重新载入"
+
+#: dialogs/certificateselectiondialog.cpp:149
+msgid "Lookup..."
+msgstr "查询..."
+
+#: dialogs/certificateselectiondialog.cpp:150
+msgid "New..."
+msgstr "新建..."
+
+#: dialogs/certificateselectiondialog.cpp:152
+msgctxt "@info:tooltip"
+msgid "Lookup certificates on server"
+msgstr "在服务器上查询证书"
+
+#: dialogs/certificateselectiondialog.cpp:153
+msgctxt "@info:tooltip"
+msgid "Refresh certificate list"
+msgstr "刷新证书列表"
+
+#: dialogs/certificateselectiondialog.cpp:154
+msgctxt "@info:tooltip"
+msgid "Create a new certificate"
+msgstr "新建证书"
+
+#: dialogs/certificateselectiondialog.cpp:180
+msgid "Certificate Selection"
+msgstr "证书选择"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: dialogs/certificationoptionswidget.ui:16
+msgid "<b>Step 2:</b> Choose how to certify."
+msgstr "<b>第二步：</b>请选择认证方式。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: dialogs/certificationoptionswidget.ui:30
+msgid "Choose which of your certificates to sign with:"
+msgstr "选择要将哪份证书用于签名："
+
+#. i18n: ectx: property (text), widget (QLabel, singleKeyLabel)
+#: dialogs/certificationoptionswidget.ui:44
+#: dialogs/certifycertificatedialog.cpp:197
+#, no-c-format, kde-format
+msgid "Certification will be performed using certificate %1."
+msgstr "将使用证书 %1 进行认证。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, localSignatureRB)
+#: dialogs/certificationoptionswidget.ui:60
+msgid "Certify only for myself"
+msgstr "只认证自己"
+
+#. i18n: ectx: property (text), widget (QRadioButton, exportableSignatureRB)
+#: dialogs/certificationoptionswidget.ui:70
+msgid "Certify for everyone to see"
+msgstr "认证所有可查看证书的人"
+
+#. i18n: ectx: property (text), widget (QCheckBox, sendToServerCB)
+#: dialogs/certificationoptionswidget.ui:98
+msgid "Send certified certificate to server afterwards"
+msgstr "稍后将认证过的证书发送到服务器"
+
+#: dialogs/certifycertificatedialog.cpp:129
+msgid "<b>Step 1:</b> Please select the user IDs you wish to certify."
+msgstr "<b>第一步：</b>请选择要认证的用户编号。"
+
+#: dialogs/certifycertificatedialog.cpp:138
+msgid "I have verified the fingerprint"
+msgstr ""
+
+#: dialogs/certifycertificatedialog.cpp:157
+#, kde-format
+msgid ""
+"Certificate: %1\n"
+"Fingerprint: %2"
+msgstr ""
+"证书：%1\n"
+"指纹：%2"
+
+#: dialogs/certifycertificatedialog.cpp:184
+#: newcertificatewizard/newcertificatewizard.cpp:1247
+msgid "Certify"
+msgstr "认证"
+
+#: dialogs/certifycertificatedialog.cpp:227
+msgid "Signed user IDs:"
+msgstr "已签名用户编号："
+
+#: dialogs/certifycertificatedialog.cpp:230
+msgid "<b>Summary:</b>"
+msgstr "<b>概要：</b>"
+
+#: dialogs/certifycertificatedialog.cpp:234
+msgid "Check level:"
+msgstr "检查等级："
+
+#: dialogs/certifycertificatedialog.cpp:239
+#, fuzzy
+#| msgid "Selected secret certificate:"
+msgid "Selected secret key:"
+msgstr "已选中私密证书："
+
+#: dialogs/certifycertificatedialog.cpp:258
+msgid "Default certificate"
+msgstr "默认证书"
+
+#: dialogs/certifycertificatedialog.cpp:262
+msgid "No statement made"
+msgstr "未发出指令"
+
+#: dialogs/certifycertificatedialog.cpp:265
+msgid "Not checked"
+msgstr "不检查"
+
+#: dialogs/certifycertificatedialog.cpp:268
+msgid "Casually checked"
+msgstr "粗略检查"
+
+#: dialogs/certifycertificatedialog.cpp:271
+msgid "Thoroughly checked"
+msgstr "彻底检查"
+
+#: dialogs/certifycertificatedialog.cpp:286
+msgid ""
+"The certificate was not certified because it was already certified by the "
+"same certificate."
+msgstr "无法认证此证书，因为它已被同一份证书认证过了。"
+
+#: dialogs/certifycertificatedialog.cpp:288
+#, kde-format
+msgid "The certificate could not be certified. <b>Error</b>: %1"
+msgstr "无法认证证书。<b>错误</b>：%1"
+
+#: dialogs/certifycertificatedialog.cpp:290
+msgid "Certification canceled."
+msgstr "认证中止。"
+
+#: dialogs/certifycertificatedialog.cpp:292
+msgid "Certification successful."
+msgstr "认证成功。"
+
+#: dialogs/certifycertificatedialog.cpp:367
+#, kde-format
+msgctxt "arg is name, email of certificate holder"
+msgid "Certify Certificate: %1"
+msgstr "认证证书：%1"
+
+#: dialogs/deletecertificatesdialog.cpp:94
+msgid "These are the certificates you have selected for deletion:"
+msgstr "这些是您所选的要删除的证书："
+
+#: dialogs/deletecertificatesdialog.cpp:96
+msgid ""
+"These certificates will be deleted even though you did <emphasis>not</"
+"emphasis><nl/> explicitly select them (<a href=\"whatsthis://\">Why?</a>):"
+msgstr ""
+
+#: dialogs/deletecertificatesdialog.cpp:117
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Why do you want to delete more certificates than I selected?</"
+"title><para>When you delete CA certificates (both root CAs and intermediate "
+"CAs), the certificates issued by them will also be deleted.</para><para>This "
+"can be nicely seen in <application>Kleopatra</application>'s hierarchical "
+"view mode: In this mode, if you delete a certificate that has children, "
+"those children will also be deleted. Think of CA certificates as folders "
+"containing other certificates: When you delete the folder, you delete its "
+"contents, too.</para>"
+msgstr ""
+
+#: dialogs/deletecertificatesdialog.cpp:129
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "删除"
+
+#: dialogs/deletecertificatesdialog.cpp:189
+msgid ""
+"The certificate to be deleted is your own. It contains private key material, "
+"which is needed to decrypt past communication encrypted to the certificate, "
+"and should therefore not be deleted."
+msgid_plural ""
+"All of the certificates to be deleted are your own. They contain private key "
+"material, which is needed to decrypt past communication encrypted to the "
+"certificate, and should therefore not be deleted."
+msgstr[0] ""
+
+#: dialogs/deletecertificatesdialog.cpp:203
+msgid ""
+"One of the certificates to be deleted is your own. It contains private key "
+"material, which is needed to decrypt past communication encrypted to the "
+"certificate, and should therefore not be deleted."
+msgid_plural ""
+"Some of the certificates to be deleted are your own. They contain private "
+"key material, which is needed to decrypt past communication encrypted to the "
+"certificate, and should therefore not be deleted."
+msgstr[0] ""
+
+#: dialogs/deletecertificatesdialog.cpp:218
+#, fuzzy
+#| msgid "Secret Key Files"
+msgid "Secret Key Deletion"
+msgstr "绝密密钥文件"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Kleo::Dialogs::ExpiryDialog)
+#: dialogs/expirydialog.ui:14
+msgid "Change Certificate Date of Expiry"
+msgstr "更改证书过期日期"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/expirydialog.ui:20
+msgid "Please select when to expire this certificate:"
+msgstr "请选择证书何时过期："
+
+#. i18n: ectx: property (text), widget (QRadioButton, neverRB)
+#: dialogs/expirydialog.ui:27
+msgid "Never"
+msgstr "永不"
+
+#. i18n: ectx: property (text), widget (QRadioButton, inRB)
+#: dialogs/expirydialog.ui:39
+msgid "In"
+msgstr "于"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inCB)
+#: dialogs/expirydialog.ui:63
+msgid "Days"
+msgstr "天后"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inCB)
+#: dialogs/expirydialog.ui:68
+msgid "Weeks"
+msgstr "周后"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inCB)
+#: dialogs/expirydialog.ui:73
+msgid "Months"
+msgstr "月后"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inCB)
+#: dialogs/expirydialog.ui:78
+msgid "Years"
+msgstr "年后"
+
+#. i18n: ectx: property (text), widget (QRadioButton, onRB)
+#: dialogs/expirydialog.ui:101
+msgid "On this day:"
+msgstr "于此日："
+
+#: dialogs/exportcertificatesdialog.cpp:67
+msgid "Export"
+msgstr "导出"
+
+#: dialogs/exportcertificatesdialog.cpp:71
+msgid " OpenPGP export file:"
+msgstr "OpenPGP 导出文件："
+
+#: dialogs/exportcertificatesdialog.cpp:77
+msgid "S/MIME export file:"
+msgstr "S/MIME 导出文件："
+
+#: dialogs/exportsecretkeydialog.cpp:103
+msgid "Secret Key Files"
+msgstr "绝密密钥文件"
+
+#: dialogs/exportsecretkeydialog.cpp:124
+#, kde-format
+msgctxt "@info"
+msgid "Please select export options for %1:"
+msgstr "请选择 %1 的导出选项："
+
+#: dialogs/exportsecretkeydialog.cpp:138
+msgid "Secret Key Files (*.pem *.p12 *.gpg *.asc *.pgp)"
+msgstr "绝密密钥文件(*.pem *.p12 *.gpg *.asc *.pgp)"
+
+#: dialogs/exportsecretkeydialog.cpp:206
+msgctxt "@info"
+msgid "You have to enter an output filename."
+msgstr "您需要输入一个输出文件名。"
+
+#: dialogs/exportsecretkeydialog.cpp:207 dialogs/exportsecretkeydialog.cpp:216
+msgctxt "@title"
+msgid "Incomplete data"
+msgstr "不完整数据"
+
+#: dialogs/exportsecretkeydialog.cpp:215
+msgctxt "@info"
+msgid "You have to choose a passphrase character set."
+msgstr "您需要设定一个密钥字符。"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, ExportSecretKeyDialog)
+#: dialogs/exportsecretkeydialog.ui:13
+msgid "Export Secret Certificate"
+msgstr "导出私密证书"
+
+#. i18n: ectx: property (text), widget (QLabel, outputFileLB)
+#: dialogs/exportsecretkeydialog.ui:26
+msgid "Output file:"
+msgstr "输出文件："
+
+#. i18n: ectx: property (text), widget (QLabel, charsetLB)
+#: dialogs/exportsecretkeydialog.ui:36
+msgid "Passphrase charset:"
+msgstr "密码句字符集："
+
+#. i18n: ectx: property (text), widget (QCheckBox, armorCB)
+#: dialogs/exportsecretkeydialog.ui:66
+msgid "ASCII armor"
+msgstr "ASCII 形式"
+
+#: dialogs/lookupcertificatesdialog.cpp:117
+msgid "Import"
+msgstr "导入"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, LookupCertificatesDialog)
+#: dialogs/lookupcertificatesdialog.ui:13
+msgid "Certificate Server Certificate Lookup"
+msgstr "证书服务器证书查询"
+
+#. i18n: ectx: property (text), widget (QPushButton, findPB)
+#: dialogs/lookupcertificatesdialog.ui:24
+msgid "Search"
+msgstr "搜索"
+
+#. i18n: ectx: property (text), widget (QPushButton, detailsPB)
+#: dialogs/lookupcertificatesdialog.ui:44
+msgid "Details..."
+msgstr "细节..."
+
+#. i18n: ectx: property (text), widget (QPushButton, saveAsPB)
+#: dialogs/lookupcertificatesdialog.ui:57 kgpgconf/mainwindow.cpp:67
+msgid "Save As..."
+msgstr "另存为..."
+
+#. i18n: ectx: property (text), widget (QPushButton, selectAllPB)
+#: dialogs/lookupcertificatesdialog.ui:70
+msgid "Select All"
+msgstr "全部选择"
+
+#. i18n: ectx: property (text), widget (QPushButton, deselectAllPB)
+#: dialogs/lookupcertificatesdialog.ui:96
+msgid "Deselect All"
+msgstr "全部取消选择"
+
+#. i18n: ectx: property (text), widget (QLabel, findLB)
+#: dialogs/lookupcertificatesdialog.ui:106
+msgid "Find:"
+msgstr "查找："
+
+#: dialogs/ownertrustdialog.cpp:55
+msgid "(unknown certificate)"
+msgstr "(未知证书)"
+
+#: dialogs/ownertrustdialog.cpp:109
+#, kde-format
+msgctxt "@title"
+msgid "Change Trust Level of %1"
+msgstr "更改 %1 的信任等级"
+
+#: dialogs/ownertrustdialog.cpp:110
+#, kde-format
+msgctxt "@info"
+msgid ""
+"How much do you trust certifications made by <b>%1</b> to correctly verify "
+"authenticity of certificates?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, unknownRB)
+#: dialogs/ownertrustdialog.ui:29
+msgid "I do not know"
+msgstr "我不知道"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: dialogs/ownertrustdialog.ui:42
+msgid "<i>(unknown trust)</i>"
+msgstr "<i>(信任等级未知)</i>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/ownertrustdialog.ui:75
+msgid ""
+"<font size=\"-1\">Choose this if you have no opinion about the "
+"trustworthyness of the certificate's owner.<br>Certifications at this trust "
+"level are ignored when checking the validity of OpenPGP certificates.</font>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, neverRB)
+#: dialogs/ownertrustdialog.ui:89
+msgid "I do NOT trust them"
+msgstr "我不信任"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: dialogs/ownertrustdialog.ui:99
+msgid "<i>(never trust)</i>"
+msgstr "<i>(不信任)</i>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/ownertrustdialog.ui:132
+msgid ""
+"<font size=\"-1\">Choose this if you explicitly do <em>not</em> trust the "
+"certificate owner, e.g. because you have knowledge of him certifying without "
+"checking or without the certificate owner's consent.<br>Certifications at "
+"this trust level are ignored when checking the validity of OpenPGP "
+"certificates.</font>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, marginalRB)
+#: dialogs/ownertrustdialog.ui:146
+msgid "I believe checks are casual"
+msgstr "我暂时相信"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: dialogs/ownertrustdialog.ui:156
+msgid "<i>(marginal trust)</i>"
+msgstr "<i>(勉强信任)</i>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/ownertrustdialog.ui:189
+msgid ""
+"<font size=\"-1\">Choose this if you trust certifications are not done "
+"blindly, but not very accuratly, either.<br>Certificates will only become "
+"valid with multiple certifications (typically three) at this trust level. "
+"This is usually a good choice.</font>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, fullRB)
+#: dialogs/ownertrustdialog.ui:203
+msgid "I believe checks are very accurate"
+msgstr "我完全相信"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: dialogs/ownertrustdialog.ui:213
+msgid "<i>(full trust)</i>"
+msgstr "<i>(完全信任)</i>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: dialogs/ownertrustdialog.ui:246
+msgid ""
+"<font size=\"-1\">Choose this if you trust certifications are done very "
+"accurately.<br>Certificates will become valid with just a single "
+"certification at this trust level, so assign this much trust with care.</"
+"font>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, ultimateRB)
+#: dialogs/ownertrustdialog.ui:263
+msgid "This is my certificate"
+msgstr "这是我的证书"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: dialogs/ownertrustdialog.ui:273
+msgid "<i>(ultimate trust)</i>"
+msgstr "<i>(绝对信任)</i>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: dialogs/ownertrustdialog.ui:306
+msgid ""
+"<font size=\"-1\">Choose this if and only if this is your certificate. This "
+"is the default if the secret key is available, but if you imported this "
+"certificate, you might need to adjust the trust level yourself."
+"<br>Certificates will become valid with just a single certification at this "
+"trust level.</font>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/selectchecklevelwidget.ui:16
+msgid ""
+"<b>Step 2:</b> How thoroughly have you checked that this certificate "
+"actually belongs to the person it claims it is from?"
+msgstr "<b>第二步：</b>您用什么方式检查过此证书确实属于它所宣称的来源方？"
+
+#. i18n: ectx: property (text), widget (QRadioButton, checkLevelNotCheckedRB)
+#: dialogs/selectchecklevelwidget.ui:26
+msgid "I have not checked at all"
+msgstr "我还未检查过"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/selectchecklevelwidget.ui:52
+msgid "Describe semantics here..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, checkLevelCasualRB)
+#: dialogs/selectchecklevelwidget.ui:62
+msgid "I have checked casually"
+msgstr "我已粗略检查过"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/selectchecklevelwidget.ui:88
+msgid ""
+"Choose this if you know the person, and have asked them whether this was "
+"their certificate, but you have not verified they are actually in possession "
+"of the secret certificate."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, checkLevelThoroughlyRB)
+#: dialogs/selectchecklevelwidget.ui:98
+msgid "I have checked very thoroughly"
+msgstr "我已彻底检查过"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: dialogs/selectchecklevelwidget.ui:124
+msgid ""
+"Choose this if you have, for instance, checked the ID card of the person, "
+"and have verified that they are in possession of the secret key (e.g. by "
+"sending them encrypted mail and asking for it to be decrypted)."
+msgstr ""
+
+#: dialogs/selftestdialog.cpp:97
+msgid "Skipped"
+msgstr "跳过"
+
+#: dialogs/selftestdialog.cpp:98
+msgid "Passed"
+msgstr "通过"
+
+#: dialogs/selftestdialog.cpp:115
+msgid "Test Name"
+msgstr "测试项"
+
+#. i18n: ectx: property (title), widget (QGroupBox, resultGB)
+#: dialogs/selftestdialog.cpp:116 newcertificatewizard/resultpage.ui:16
+msgid "Result"
+msgstr "结果"
+
+#: dialogs/selftestdialog.cpp:241
+msgid "(select test first)"
+msgstr "(先选择测试)"
+
+#: dialogs/selftestdialog.cpp:287
+msgid "Rerun Tests"
+msgstr "重新运行测试"
+
+#: dialogs/selftestdialog.cpp:292
+msgid "Continue"
+msgstr "继续"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SelfTestDialog)
+#: dialogs/selftestdialog.ui:13
+msgid "Kleopatra Self-Test Results"
+msgstr "Kleopatra 自检结果"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/selftestdialog.ui:22
+msgctxt "@info"
+msgid ""
+"<para>These are the results of the Kleopatra self-test suite. Click on a "
+"test for details.</para><para>Note that all but the first failure might be "
+"due to prior tests failing.</para>"
+msgstr ""
+"<para>这是 Kleopatra 自检套件的结果报告。点击任一检测项目可获得详细信息。</"
+"para><para>注意：除第一个测试项外，后面的失败可能缘于第一个测试失败的连锁反"
+"应。</para>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAllCB)
+#: dialogs/selftestdialog.ui:61
+msgid "Show all test results"
+msgstr "显示全部测试结果"
+
+#. i18n: ectx: property (title), widget (QGroupBox, detailsGB)
+#: dialogs/selftestdialog.ui:69 models/keylistmodel.cpp:252
+msgid "Details"
+msgstr "细节"
+
+#. i18n: ectx: property (title), widget (QGroupBox, proposedCorrectiveActionGB)
+#: dialogs/selftestdialog.ui:117
+msgid "Proposed Corrective Action"
+msgstr "建议的纠正动作"
+
+#. i18n: ectx: property (text), widget (QPushButton, doItPB)
+#: dialogs/selftestdialog.ui:182
+msgid "Do It"
+msgstr "立刻实行！"
+
+#. i18n: ectx: property (text), widget (QCheckBox, runAtStartUpCB)
+#: dialogs/selftestdialog.ui:195
+msgid "Run these tests at startup"
+msgstr "启动时运行测试"
+
+#: dialogs/setinitialpindialog.cpp:89
+msgctxt "@info"
+msgid ""
+"No NullPin found. <warning>If this PIN was not set by you personally, the "
+"card might have been tampered with.</warning>"
+msgstr ""
+
+#: dialogs/setinitialpindialog.cpp:94
+msgctxt "@info"
+msgid "Canceled setting PIN."
+msgstr "中止 PIN 设置。"
+
+#: dialogs/setinitialpindialog.cpp:97
+#, kde-format
+msgctxt "@info"
+msgid "There was an error setting the PIN: <message>%1</message>."
+msgstr "设置 PIN 时出错：<message>%1</message>。"
+
+#: dialogs/setinitialpindialog.cpp:100
+msgctxt "@info"
+msgid "PIN set successfully."
+msgstr "PIN 设定成功。"
+
+#. i18n: ectx: property (text), widget (QLabel, mainLB)
+#: dialogs/setinitialpindialog.ui:13
+msgid ""
+"<p>On this SmartCard, there is space for two certificates:\n"
+"<ol>\n"
+"<li>A normal certificate</li>\n"
+"<li>A special certificate for making <em>qualified signatures</em> according "
+"to the German Signaturgesetz</li>\n"
+"</ol>\n"
+"You need to set initial PINs for both of them.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, nksLB)
+#: dialogs/setinitialpindialog.ui:27
+msgid "Step 1: Set the initial PIN for the first certificate (\"NKS\"):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, nksPB)
+#: dialogs/setinitialpindialog.ui:34
+msgid "Set Initial PIN (NKS)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, sigGLB)
+#: dialogs/setinitialpindialog.ui:71
+msgid ""
+"Step 2: Set the initial PIN for the qualified signature certificate (\"SigG"
+"\"):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, sigGPB)
+#: dialogs/setinitialpindialog.ui:81
+msgid "Set Initial PIN (SigG)"
+msgstr ""
+
+#. i18n: ectx: label, entry (QuickSignEMail), group (EMailOperations)
+#: kcfg/emailoperationspreferences.kcfg:10
+msgid "Quick Sign EMail"
+msgstr "快速签名邮件"
+
+#. i18n: ectx: whatsthis, entry (QuickSignEMail), group (EMailOperations)
+#: kcfg/emailoperationspreferences.kcfg:11
+msgid ""
+"Minimize the number of steps when signing emails, use preset defaults unless "
+"problems occur."
+msgstr "对电子邮件签名时采取最简化的步骤，除非出现问题，否则使用默认设定。"
+
+#. i18n: ectx: label, entry (QuickEncryptEMail), group (EMailOperations)
+#: kcfg/emailoperationspreferences.kcfg:15
+msgid "Quick Encrypt EMail"
+msgstr "快速加密邮件"
+
+#. i18n: ectx: whatsthis, entry (QuickEncryptEMail), group (EMailOperations)
+#: kcfg/emailoperationspreferences.kcfg:16
+msgid ""
+"Minimize the number of steps when encrypting emails, use preset defaults "
+"unless problems occur."
+msgstr "对电子邮件加密时采取最简化的步骤，除非出现问题，否则使用默认设定。"
+
+#. i18n: ectx: label, entry (DecryptVerifyPopupGeometry), group (EMailOperations)
+#: kcfg/emailoperationspreferences.kcfg:20
+msgid "Decrypt/Verify Popup Geometry"
+msgstr "解密/校验弹出窗口尺寸"
+
+#. i18n: ectx: whatsthis, entry (DecryptVerifyPopupGeometry), group (EMailOperations)
+#: kcfg/emailoperationspreferences.kcfg:21
+msgid ""
+"The remembered size and position of the Decrypt/Verify Result Popup used by "
+"clients which do not support inline display of D/V results, such as MS "
+"Outlook."
+msgstr ""
+
+#. i18n: ectx: label, entry (UsePGPFileExt), group (FileOperations)
+#: kcfg/fileoperationspreferences.kcfg:10
+msgid "Use pgp as the default extension for generated OpenPGP files"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UsePGPFileExt), group (FileOperations)
+#: kcfg/fileoperationspreferences.kcfg:11
+msgid ""
+"Set this to make kleopatra default to pgp file extensions for OpenPGP files."
+msgstr ""
+
+#. i18n: ectx: label, entry (RefreshInterval), group (SMime Validation)
+#: kcfg/smimevalidationpreferences.kcfg:6
+msgid "Certificate refresh interval (in hours). Zero (0) disables."
+msgstr "证书刷新间隔(小时)。0 代表禁用。"
+
+#. i18n: ectx: label, entry (ShowValidity), group (Tooltip)
+#: kcfg/tooltippreferences.kcfg:9
+msgid "Show certificate validity"
+msgstr "显示证书合法性"
+
+#. i18n: ectx: whatsthis, entry (ShowValidity), group (Tooltip)
+#: kcfg/tooltippreferences.kcfg:10
+msgid ""
+"Show validity information for certificates in tooltip, such as whether the "
+"certificate is expired or revoked."
+msgstr "在工具提示中显示证书合法性信息，如证书是否已过期或被吊销。"
+
+#. i18n: ectx: label, entry (ShowOwnerInformation), group (Tooltip)
+#: kcfg/tooltippreferences.kcfg:14
+msgid "Show certificate owner information"
+msgstr "显示证书所有者信息"
+
+#. i18n: ectx: whatsthis, entry (ShowOwnerInformation), group (Tooltip)
+#: kcfg/tooltippreferences.kcfg:15
+msgid ""
+"Show owner information for certificates in tooltip, such as User IDs, "
+"subject and issuers."
+msgstr "在工具提示中显示证书所有者信息，如用户编号、主题和颁发者。"
+
+#. i18n: ectx: label, entry (ShowCertificateDetails), group (Tooltip)
+#: kcfg/tooltippreferences.kcfg:19
+msgid "Show certificate details"
+msgstr "显示证书明细"
+
+#. i18n: ectx: whatsthis, entry (ShowCertificateDetails), group (Tooltip)
+#: kcfg/tooltippreferences.kcfg:20
+msgid ""
+"Show more certificate details, such as fingerprint, key length and "
+"expiration dates"
+msgstr "显示证书明细，如指纹、密钥长度和到期时间。"
+
+#: kgpgconf/configreader.cpp:234
+#, fuzzy, kde-format
+#| msgid "Parse error on gpgconf --list-config output:"
+msgid "Parse error on gpgconf --list-config output: %1"
+msgstr "gpgconf --list-config 的输出解析出错："
+
+#: kgpgconf/configreader.cpp:239
+#, kde-format
+msgid "gpgconf --list-config: Unknown component: %1"
+msgstr "gpgconf --list-config：未知组件：%1"
+
+#: kgpgconf/configreader.cpp:244
+#, kde-format
+msgid "gpgconf --list-config: Unknown entry: %1:%2"
+msgstr "gpgconf --list-config：未知条目：%1：%2"
+
+#: kgpgconf/configreader.cpp:250
+#, kde-format
+msgid "gpgconf --list-config: Invalid entry: value must start with '\"': %1"
+msgstr "gpgconf --list-config：无效条目：值必须以“\"”开头：%1"
+
+#: kgpgconf/configreader.cpp:283
+#, fuzzy, kde-format
+#| msgid "Parse error on gpgconf --list-components. output:"
+msgid "Parse error on gpgconf --list-components. output: %1"
+msgstr "gpgconf --list-components 解析出错。输出："
+
+#: kgpgconf/configreader.cpp:311
+msgid "gpgconf not found or cannot be started"
+msgstr "找不到或无法运行 gpgconf 程序"
+
+#: kgpgconf/configreader.cpp:313
+msgid "gpgconf terminated unexpectedly"
+msgstr "gpgconf 意外终止"
+
+#: kgpgconf/configreader.cpp:315
+msgid "timeout while executing gpgconf"
+msgstr "gpgconf 执行超时"
+
+#: kgpgconf/configreader.cpp:317
+msgid "error while writing to gpgconf"
+msgstr "写入 gpgconf 时出错"
+
+#: kgpgconf/configreader.cpp:319
+msgid "error while reading from gpgconf"
+msgstr "从 gpgconf 读入数据时出错"
+
+#: kgpgconf/configreader.cpp:322
+msgid "Unknown error while executing gpgconf"
+msgstr "执行 gpgconf 时出现未知错误"
+
+#: kgpgconf/configuration.cpp:345
+msgctxt "as in \"verbosity level\""
+msgid "Level"
+msgstr "详细级别"
+
+#: kgpgconf/configuration.cpp:345
+msgid "Set/Unset"
+msgstr "设置/取消设置"
+
+#: kgpgconf/configuration.cpp:347
+msgid "String List"
+msgstr "字符串列表"
+
+#: kgpgconf/configuration.cpp:347
+msgid "String"
+msgstr "字符串"
+
+#: kgpgconf/configuration.cpp:349
+msgid "List of Integers"
+msgstr "整数列表"
+
+#: kgpgconf/configuration.cpp:349
+msgid "Integer"
+msgstr "整数"
+
+#: kgpgconf/configuration.cpp:351
+msgid "List of Unsigned Integers"
+msgstr "无符号整数列表"
+
+#: kgpgconf/configuration.cpp:351
+msgid "Unsigned Integer "
+msgstr "无符号整数"
+
+#: kgpgconf/configuration.cpp:353
+msgid "Path List"
+msgstr "路径列表"
+
+#: kgpgconf/configuration.cpp:353
+msgid "Path"
+msgstr "路径"
+
+#: kgpgconf/configuration.cpp:355
+msgid "List of URLs"
+msgstr "URL 列表"
+
+#: kgpgconf/configuration.cpp:355
+msgid "URL"
+msgstr "URL"
+
+#: kgpgconf/configuration.cpp:357
+msgid "List of LDAP URLs"
+msgstr "LDAP 地址列表"
+
+#: kgpgconf/configuration.cpp:357
+msgid "LDAP URL"
+msgstr "LDAP 地址"
+
+#: kgpgconf/configuration.cpp:359
+msgid "Directory Path List"
+msgstr "目录路径列表"
+
+#: kgpgconf/configuration.cpp:359
+msgid "Directory Path"
+msgstr "目录路径"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: kgpgconf/mainwidget.ui:17
+msgid "Option"
+msgstr "选项"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
+#: kgpgconf/mainwidget.ui:22
+msgid "Impose"
+msgstr "强制"
+
+#. i18n: ectx: property (text), widget (QLabel, componentLabelLabel)
+#: kgpgconf/mainwidget.ui:38
+msgid "Component:"
+msgstr "组件"
+
+#. i18n: ectx: property (text), widget (QLabel, optionLabelLabel)
+#: kgpgconf/mainwidget.ui:62
+msgid "Option:"
+msgstr "选项："
+
+#. i18n: ectx: property (text), widget (QLabel, descriptionLabelLabel)
+#: kgpgconf/mainwidget.ui:89
+msgid "Description:"
+msgstr "描述："
+
+#. i18n: ectx: property (text), widget (QLabel, typeLabelLabel)
+#: kgpgconf/mainwidget.ui:122
+msgid "Type:"
+msgstr "类型："
+
+#. i18n: ectx: property (text), widget (QRadioButton, useDefaultRB)
+#: kgpgconf/mainwidget.ui:147
+msgid "Reset user settings to built-in default"
+msgstr "重置为默认设置"
+
+#. i18n: ectx: property (text), widget (QRadioButton, useCustomRB)
+#: kgpgconf/mainwidget.ui:157
+msgid "Custom value:"
+msgstr "自定义值："
+
+#. i18n: ectx: property (text), widget (QCheckBox, readOnlyBox)
+#: kgpgconf/mainwidget.ui:177
+msgid "Impose setting on all users"
+msgstr "对所有用户启用强制设定"
+
+#. i18n: ectx: Menu (file)
+#: kgpgconf/mainwindow.cpp:66 kleopatra.rc:5 kwatchgnupg/kwatchgnupgui.rc:4
+msgid "&File"
+msgstr "文件(&F)"
+
+#: kgpgconf/mainwindow.cpp:69
+msgid "Quit"
+msgstr "退出"
+
+#: kgpgconf/mainwindow.cpp:85
+msgid "Setup Error"
+msgstr "设置错误"
+
+#: kgpgconf/mainwindow.cpp:85
+#, kde-format
+msgid ""
+"KGpgConf could not execute gpgconf.exe.\n"
+"\n"
+"Error: %1\n"
+"Error Code: %2"
+msgstr ""
+"KGpgConf 无法执行 gpgconf.exe。\n"
+"\n"
+"错误： %1\n"
+"错误代码：%2"
+
+#: kgpgconf/mainwindow.cpp:90
+msgid "Parsing Error"
+msgstr "解析出错"
+
+#: kgpgconf/mainwindow.cpp:90 kgpgconf/mainwindow.cpp:95
+#, kde-format
+msgid ""
+"An error occurred while reading the current configuration.\n"
+"\n"
+"Error: %1"
+msgstr ""
+"读取当前配置时时出错。\n"
+"\n"
+"错误：%1"
+
+#: kgpgconf/mainwindow.cpp:95
+msgid "Error"
+msgstr "错误"
+
+#: kgpgconf/mainwindow.cpp:212 kgpgconf/mainwindow.cpp:231
+msgid "Write Error"
+msgstr "写入错误"
+
+#: kgpgconf/mainwindow.cpp:212
+#, kde-format
+msgid ""
+"Could not open file %1 for writing. You might not have the permission to "
+"write to that file."
+msgstr "无法以写模式打开文件 %1。您可能没有对此文件的写入权限。"
+
+#: kgpgconf/mainwindow.cpp:231
+#, kde-format
+msgid "Error while writing to file %1."
+msgstr "写入文件 %1 时出错。"
+
+#: kgpgconf/mainwindow.cpp:237
+msgid "Save As"
+msgstr "另存为"
+
+#. i18n: ectx: Menu (view)
+#: kleopatra.rc:24
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: Menu (certMenu)
+#. i18n: ectx: Menu (listview_popup)
+#: kleopatra.rc:36 kleopatra.rc:102
+msgid "&Certificates"
+msgstr "证书(&C)"
+
+#. i18n: ectx: Menu (tools)
+#: kleopatra.rc:51
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: Menu (settings)
+#: kleopatra.rc:65
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: Menu (window)
+#: kleopatra.rc:69
+msgid "&Window"
+msgstr "窗口(&W)"
+
+#. i18n: ectx: Menu (help)
+#: kleopatra.rc:80
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kleopatra.rc:86 kwatchgnupg/kwatchgnupgui.rc:13
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: ToolBar (searchToolBar)
+#: kleopatra.rc:97
+msgid "Search Toolbar"
+msgstr "搜索工具栏"
+
+#: kleopatraapplication.cpp:95
+msgid "Run UI server only, hide main window"
+msgstr "只运行界面服务器，隐藏主窗口"
+
+#: kleopatraapplication.cpp:96
+msgid "Use OpenPGP for the following operation"
+msgstr "对以下操作使用 OpenPGP"
+
+#: kleopatraapplication.cpp:97
+msgid "Use CMS (X.509, S/MIME) for the following operation"
+msgstr "对以下操作使用 CMS(X.509、S/MIME)"
+
+#: kleopatraapplication.cpp:98
+msgid "Import certificate file(s)"
+msgstr "导入证书文件"
+
+#: kleopatraapplication.cpp:99
+msgid "Encrypt file(s)"
+msgstr "加密文件"
+
+#: kleopatraapplication.cpp:100
+msgid "Sign file(s)"
+msgstr "签名文件"
+
+#: kleopatraapplication.cpp:101
+msgid "Sign and/or encrypt file(s)"
+msgstr "签名/加密文件"
+
+#: kleopatraapplication.cpp:102
+msgid "Same as --sign-encrypt, do not use"
+msgstr "和 --sign-encrypt 一致，现不使用"
+
+#: kleopatraapplication.cpp:103
+msgid "Decrypt file(s)"
+msgstr "解密文件"
+
+#: kleopatraapplication.cpp:104
+msgid "Verify file/signature"
+msgstr "校验文件/签名"
+
+#: kleopatraapplication.cpp:105
+msgid "Decrypt and/or verify file(s)"
+msgstr "解密/校验文件"
+
+#: kleopatraapplication.cpp:106
+#, fuzzy
+#| msgid ""
+#| "Certificate: %1\n"
+#| "Fingerprint: %2"
+msgid "Search for Certificate by fingerprint"
+msgstr ""
+"证书：%1\n"
+"指纹：%2"
+
+#: kleopatraapplication.cpp:107
+msgid "Parent Window Id for dialogs"
+msgstr ""
+
+#: kleopatraapplication.cpp:115
+msgid "Location of the socket the ui server is listening on"
+msgstr "界面服务器要监听的套接字地址"
+
+#: kleopatraapplication.cpp:122
+msgid "File(s) to process"
+msgstr "待处理的文件"
+
+#: kwatchgnupg/aboutdata.cpp:40
+msgid "GnuPG log viewer"
+msgstr "GnuPG 日志查看器"
+
+#: kwatchgnupg/aboutdata.cpp:50
+msgid "Steffen Hansen"
+msgstr "Steffen Hansen"
+
+#: kwatchgnupg/aboutdata.cpp:61
+msgid "KWatchGnuPG"
+msgstr "KWatchGnuPG"
+
+#: kwatchgnupg/aboutdata.cpp:63
+msgid "(c) 2004 Klarälvdalens Datakonsult AB\n"
+msgstr "(c) 2004 Klarälvdalens Datakonsult AB\n"
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:75
+msgid "Configure KWatchGnuPG"
+msgstr "配置 KWatchGnuPG"
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:90
+msgid "WatchGnuPG"
+msgstr "WatchGnuPG"
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:101
+msgid "&Executable:"
+msgstr "可执行程序(&E)："
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:110
+msgid "&Socket:"
+msgstr "套接字(&S)："
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:119
+msgid "None"
+msgstr "无"
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:120
+msgid "Basic"
+msgstr "基本"
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:121
+msgid "Advanced"
+msgstr "进阶"
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:122
+msgid "Expert"
+msgstr "专家"
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:123
+msgid "Guru"
+msgstr "权威"
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:124
+msgid "Default &log level:"
+msgstr "默认日志等级(&L)："
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:132
+msgid "Log Window"
+msgstr "日志窗口"
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:145
+msgctxt "history size spinbox suffix"
+msgid " line"
+msgid_plural " lines"
+msgstr[0] " 行"
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:146
+msgid "unlimited"
+msgstr "无限制"
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:147
+msgid "&History size:"
+msgstr "历史长度(&H)："
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:151
+msgid "Set &Unlimited"
+msgstr "设为无限制(&U)"
+
+#: kwatchgnupg/kwatchgnupgconfig.cpp:158
+msgid "Enable &word wrapping"
+msgstr "允许自动换行(&W)"
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:99
+#, kde-format
+msgid "[%1] Log cleared"
+msgstr "[%1] 日志已清除"
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:106
+msgid "C&lear History"
+msgstr "清除历史(&L)"
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:137
+#, kde-format
+msgid "[%1] Log stopped"
+msgstr "[%1] 日志已停止"
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:152
+msgid ""
+"The watchgnupg logging process could not be started.\n"
+"Please install watchgnupg somewhere in your $PATH.\n"
+"This log window is unable to display any useful information."
+msgstr ""
+"watchgnupg 日志记录进程无法启动。\n"
+"请正确安装 watchgnupg 程序并确保它在 $PATH 中。\n"
+"此日志窗口现在无法显示任何有用的信息。"
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:154
+#, kde-format
+msgid "[%1] Log started"
+msgstr "[%1] 日志已启动"
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:189
+msgid "There are no components available that support logging."
+msgstr "当前没有可用的支持日志记录的组件。"
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:195
+msgid ""
+"The watchgnupg logging process died.\n"
+"Do you want to try to restart it?"
+msgstr ""
+"watchgnupg 日志进程已经僵死。\n"
+"您是否希望尝试重新启动它？"
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:195
+msgid "Try Restart"
+msgstr "尝试重新启动"
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:195
+msgid "Do Not Try"
+msgstr "什么也不做"
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:196
+msgid "====== Restarting logging process ====="
+msgstr "====== 正在重新启动日志进程 ====="
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:199
+msgid ""
+"The watchgnupg logging process is not running.\n"
+"This log window is unable to display any useful information."
+msgstr ""
+"watchgnupg 日志进程未在运行。\n"
+"此日志窗口现在无法显示任何有用的信息。"
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:230
+msgid "Save Log to File"
+msgstr "日志另存为文件"
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:235
+#, kde-format
+msgid ""
+"The file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "名为“%1”的文件已经存在，您确定要覆盖它吗？"
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:238
+msgid "Overwrite File"
+msgstr "覆盖文件"
+
+#: kwatchgnupg/kwatchgnupgmainwin.cpp:245
+#, kde-format
+msgid "Could not save file %1: %2"
+msgstr "无法保存文件 %1：%2"
+
+#: kwatchgnupg/tray.cpp:57
+msgid "KWatchGnuPG Log Viewer"
+msgstr "KWatchGnuPG 日志查看器"
+
+#: main.cpp:145
+msgid "Performing Self-Check..."
+msgstr "正在执行自检..."
+
+#: main.cpp:162
+msgctxt "did not pass"
+msgid "Self-Check Failed"
+msgstr "自检失败"
+
+#: main.cpp:167
+msgid "Self-Check Passed"
+msgstr "自检通过"
+
+#: main.cpp:184
+msgid "Loading certificate cache..."
+msgstr "正在装入证书缓存..."
+
+#: main.cpp:191
+msgid "Certificate cache loaded."
+msgstr "已装入证书缓存。"
+
+#: main.cpp:230
+msgctxt "@info"
+msgid ""
+"<para>The version of the <application>GpgME</application> library you are "
+"running against is older than the one that the <application>GpgME++</"
+"application> library was built against.</para><para><application>Kleopatra</"
+"application> will not function in this setting.</para><para>Please ask your "
+"administrator for help in resolving this issue.</para>"
+msgstr ""
+
+#: main.cpp:234
+msgctxt "@title"
+msgid "GpgME Too Old"
+msgstr "GpgME 版本太旧"
+
+#: main.cpp:332
+msgid "GPG UI Server Error"
+msgstr "GPG 界面服务器错误"
+
+#: main.cpp:333
+#, kde-format
+msgid ""
+"<qt>The Kleopatra GPG UI Server Module could not be initialized.<br/>The "
+"error given was: <b>%1</b><br/>You can use Kleopatra as a certificate "
+"manager, but cryptographic plugins that rely on a GPG UI Server being "
+"present might not work correctly, or at all.</qt>"
+msgstr ""
+"<qt>无法初始化 Kleopatra GPG 界面服务器模块。<br/>错误信息：<b>%1</b><br/>您"
+"仍然可以将 Kleopatra 用作证书管理器，但依赖于 GPG 界面服务器的密钥插件可能无"
+"法正常工作，或完全不工作。</qt>"
+
+#: mainwindow_desktop.cpp:116 mainwindow_mobile.cpp:140
+#, kde-format
+msgctxt "Quit [ApplicationName]"
+msgid "&Quit %1"
+msgstr "退出 %1(&Q)"
+
+#: mainwindow_desktop.cpp:122 mainwindow_mobile.cpp:146
+msgid "Only &Close Window"
+msgstr "只关闭窗口(&C)"
+
+#: mainwindow_desktop.cpp:156
+#, kde-format
+msgid ""
+"%1 may be used by other applications as a service.\n"
+"You may instead want to close this window without exiting %1."
+msgstr ""
+
+#: mainwindow_desktop.cpp:158
+msgid "Really Quit?"
+msgstr "真要退出吗？"
+
+#: mainwindow_desktop.cpp:186 mainwindow_mobile.cpp:192
+msgid ""
+"Could not start the GnuPG Log Viewer (kwatchgnupg). Please check your "
+"installation."
+msgstr "不能启动 GnuPG 日志查看器(kwatchgnupg)，请检查您的安装。"
+
+#: mainwindow_desktop.cpp:188 mainwindow_mobile.cpp:194
+msgid "Error Starting KWatchGnuPG"
+msgstr "启动 KWatchGnuPG 出错"
+
+#: mainwindow_desktop.cpp:193 mainwindow_mobile.cpp:199
+msgid ""
+"Could not start the GnuPG Administrative Console (kgpgconf). Please check "
+"your installation."
+msgstr "不能启动 GnuPG 管理控制台(kgpgconf)，请检查您的安装。"
+
+#: mainwindow_desktop.cpp:195 mainwindow_mobile.cpp:201
+msgid "Error Starting KGpgConf"
+msgstr "启动 KGPGConf 时出错"
+
+#: mainwindow_desktop.cpp:304
+msgid "GnuPG Log Viewer"
+msgstr "GnuPG 日志查看器"
+
+#: mainwindow_desktop.cpp:308
+msgid "GnuPG Administrative Console"
+msgstr "GnuPG 管理控制台"
+
+#: mainwindow_desktop.cpp:313
+msgid "Configure GnuPG Backend..."
+msgstr "配置 GnuPG 后端..."
+
+#: mainwindow_desktop.cpp:317 mainwindow_mobile.cpp:267
+msgid "Perform Self-Test"
+msgstr "执行自检"
+
+#: mainwindow_desktop.cpp:321
+msgid "About Gpg4win"
+msgstr "关于 Gpg4win"
+
+#: mainwindow_desktop.cpp:349
+msgid "Could not configure the cryptography backend (gpgconf tool not found)"
+msgstr "无法配置密钥后端(找不到 gpgconf 工具)"
+
+#: mainwindow_desktop.cpp:349
+msgid "Configuration Error"
+msgstr "配置错误"
+
+#: mainwindow_desktop.cpp:381 mainwindow_mobile.cpp:334
+msgid ""
+"There are still some background operations ongoing. These will be terminated "
+"when closing the window. Proceed?"
+msgstr ""
+"还有其它一些后台操作在运行中。当关闭此窗口后这些操作也将被终止，继续进行吗？"
+
+#: mainwindow_desktop.cpp:384 mainwindow_mobile.cpp:337
+msgid "Ongoing Background Tasks"
+msgstr "运行中的后台任务"
+
+#: mainwindow_desktop.cpp:482
+msgid "Sign/Encrypt..."
+msgstr "签名/加密..."
+
+#: mainwindow_desktop.cpp:483 systrayicon.cpp:185
+msgid "Decrypt/Verify..."
+msgstr "解密/校验..."
+
+#: mainwindow_desktop.cpp:487
+msgid "Import Certificates"
+msgstr "导入证书"
+
+#: mainwindow_desktop.cpp:488
+msgid "Import CRLs"
+msgstr "导入 CRL..."
+
+#: models/keycache.cpp:955
+#, fuzzy
+#| msgid "Listing public X.509 certificates"
+msgid "Listing X.509 certificates"
+msgstr "列出公开的 X.509 证书"
+
+#: models/keycache.cpp:956
+#, fuzzy
+#| msgid "Listing public OpenPGP certificates"
+msgid "Listing OpenPGP certificates"
+msgstr "列出公开的 OpenPGP 证书"
+
+#: models/keylistmodel.cpp:249
+msgid "E-Mail"
+msgstr "电子邮件"
+
+#: models/keylistmodel.cpp:250 models/subkeylistmodel.cpp:158
+#: models/useridlistmodel.cpp:251
+msgid "Valid From"
+msgstr "有效期开始自"
+
+#: models/keylistmodel.cpp:251 models/subkeylistmodel.cpp:159
+#: models/useridlistmodel.cpp:252
+msgid "Valid Until"
+msgstr "有效期结束于"
+
+#: models/keylistmodel.cpp:253 utils/formatting.cpp:301
+msgid "Key-ID"
+msgstr "密钥标识"
+
+#: models/subkeylistmodel.cpp:156 models/useridlistmodel.cpp:248
+msgid "ID"
+msgstr "编号"
+
+#: models/subkeylistmodel.cpp:157
+msgid "Type"
+msgstr "类型"
+
+#: models/subkeylistmodel.cpp:160 models/useridlistmodel.cpp:253
+#: utils/kleo_kicondialog.cpp:377
+msgid "Status"
+msgstr "状态"
+
+#: models/subkeylistmodel.cpp:161
+msgid "Strength"
+msgstr "强度"
+
+#: models/useridlistmodel.cpp:304 utils/formatting.cpp:445
+#: utils/formatting.cpp:457
+msgid "revoked"
+msgstr "已吊销"
+
+#: models/useridlistmodel.cpp:306 utils/formatting.cpp:447
+#: utils/formatting.cpp:483
+msgid "expired"
+msgstr "已过期"
+
+#: models/useridlistmodel.cpp:308 utils/formatting.cpp:449
+msgid "disabled"
+msgstr "已禁用"
+
+#: models/useridlistmodel.cpp:310 utils/formatting.cpp:451
+#: utils/formatting.cpp:459 utils/formatting.cpp:482
+msgid "invalid"
+msgstr "有效"
+
+#: models/useridlistmodel.cpp:311
+msgid "good"
+msgstr "完好"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, Kleo::NewCertificateUi::AdvancedSettingsDialog)
+#: newcertificatewizard/advancedsettingsdialog.ui:14
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: newcertificatewizard/advancedsettingsdialog.ui:27
+msgid "Key Material"
+msgstr "密钥类型"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rsaRB)
+#: newcertificatewizard/advancedsettingsdialog.ui:33
+msgid "RSA"
+msgstr "RSA"
+
+#. i18n: ectx: property (text), widget (QRadioButton, dsaRB)
+#: newcertificatewizard/advancedsettingsdialog.ui:56
+msgid "DSA"
+msgstr "DSA"
+
+#. i18n: ectx: property (text), widget (QCheckBox, elgCB)
+#: newcertificatewizard/advancedsettingsdialog.ui:66
+msgid "+ Elgamal"
+msgstr "+ Elgamal"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: newcertificatewizard/advancedsettingsdialog.ui:109
+msgid "Certificate Usage"
+msgstr "证书用途"
+
+#. i18n: ectx: property (text), widget (QCheckBox, expiryCB)
+#: newcertificatewizard/advancedsettingsdialog.ui:117
+msgid "Valid until:"
+msgstr "有效期结束于"
+
+#. i18n: ectx: property (text), widget (QCheckBox, certificationCB)
+#: newcertificatewizard/advancedsettingsdialog.ui:139
+msgid "Certification"
+msgstr "证书"
+
+#. i18n: ectx: property (text), widget (QCheckBox, signingCB)
+#: newcertificatewizard/advancedsettingsdialog.ui:146
+msgid "Signing"
+msgstr "签名"
+
+#. i18n: ectx: property (text), widget (QCheckBox, encryptionCB)
+#: newcertificatewizard/advancedsettingsdialog.ui:156
+msgid "Encryption"
+msgstr "仅加密"
+
+#. i18n: ectx: property (text), widget (QCheckBox, authenticationCB)
+#: newcertificatewizard/advancedsettingsdialog.ui:166
+msgid "Authentication"
+msgstr "验证"
+
+#. i18n: ectx: attribute (title), widget (QWidget, personalTab)
+#: newcertificatewizard/advancedsettingsdialog.ui:190
+#: newcertificatewizard/newcertificatewizard.cpp:1454
+msgid "Personal Details"
+msgstr "个人细节"
+
+#. i18n: ectx: property (title), widget (QGroupBox, uidGB)
+#: newcertificatewizard/advancedsettingsdialog.ui:196
+msgid "Additional User-IDs"
+msgstr "额外用户编号"
+
+#. i18n: ectx: property (title), widget (QGroupBox, emailGB)
+#: newcertificatewizard/advancedsettingsdialog.ui:208
+msgid "EMail Addresses"
+msgstr "电子邮件地址"
+
+#. i18n: ectx: property (title), widget (QGroupBox, dnsGB)
+#: newcertificatewizard/advancedsettingsdialog.ui:220
+msgid "DNS Names"
+msgstr "DNS 名"
+
+#. i18n: ectx: property (title), widget (QGroupBox, uriGB)
+#: newcertificatewizard/advancedsettingsdialog.ui:232
+msgid "URIs"
+msgstr "地址"
+
+#. i18n: ectx: property (title), widget (QWizardPage, Kleo::NewCertificateUi::ChooseProtocolPage)
+#: newcertificatewizard/chooseprotocolpage.ui:13
+msgctxt "@title"
+msgid "Choose Certificate Format"
+msgstr "选择证书格式"
+
+#. i18n: ectx: property (subTitle), widget (QWizardPage, Kleo::NewCertificateUi::ChooseProtocolPage)
+#: newcertificatewizard/chooseprotocolpage.ui:16
+msgid "Please choose which type of certificate you want to create. "
+msgstr "请选择您要创建哪种类型的证书。"
+
+#. i18n: ectx: property (text), widget (QCommandLinkButton, pgpCLB)
+#: newcertificatewizard/chooseprotocolpage.ui:25
+msgid "Create a personal OpenPGP key pair"
+msgstr "创建个人 OpenPGP 密钥对"
+
+#. i18n: ectx: property (description), widget (QCommandLinkButton, pgpCLB)
+#: newcertificatewizard/chooseprotocolpage.ui:34
+msgid ""
+"OpenPGP key pairs are created locally, and certified by your friends and "
+"acquaintances. There is no central certification authority; instead, every "
+"individual creates a personal Web of Trust by certifying other users' key "
+"pairs with their own certificate."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCommandLinkButton, x509CLB)
+#: newcertificatewizard/chooseprotocolpage.ui:41
+msgid "Create a personal X.509 key pair and certification request "
+msgstr "创建个人 X.509 密钥对及证书请求"
+
+#. i18n: ectx: property (description), widget (QCommandLinkButton, x509CLB)
+#: newcertificatewizard/chooseprotocolpage.ui:50
+msgid ""
+"X.509 key pairs are created locally, but certified centrally by a "
+"certification authority (CA). CAs can certify other CAs, creating a central, "
+"hierarchical chain of trust."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QWizardPage, Kleo::NewCertificateUi::EnterDetailsPage)
+#: newcertificatewizard/enterdetailspage.ui:5
+msgctxt "@title"
+msgid "Enter Details"
+msgstr "输入细节"
+
+#. i18n: ectx: property (subTitle), widget (QWizardPage, Kleo::NewCertificateUi::EnterDetailsPage)
+#: newcertificatewizard/enterdetailspage.ui:8
+msgid ""
+"Please enter your personal details below. If you want more control over the "
+"certificate parameters, click on the Advanced Settings button."
+msgstr ""
+"请在下面输入您的个人详细信息。如果您想要控制更多证书参数，请点击高级设置按"
+"钮。"
+
+#. i18n: ectx: property (text), widget (QLabel, nameLB)
+#: newcertificatewizard/enterdetailspage.ui:16
+msgid "Real name:"
+msgstr "真实姓名："
+
+#. i18n: ectx: property (text), widget (QLabel, emailLB)
+#: newcertificatewizard/enterdetailspage.ui:33
+msgid "EMail address:"
+msgstr "电子邮件地址："
+
+#. i18n: ectx: property (text), widget (QLabel, commentLB)
+#: newcertificatewizard/enterdetailspage.ui:50
+#: newcertificatewizard/newcertificatewizard.cpp:1303
+msgid "Comment:"
+msgstr "注释："
+
+#. i18n: ectx: property (text), widget (QCheckBox, addEmailToDnCB)
+#: newcertificatewizard/enterdetailspage.ui:95
+msgid "Add email address to DN (only needed for broken CAs)"
+msgstr "将电子邮件加入 DN(只对损坏的 CA 有必要)"
+
+#. i18n: ectx: property (text), widget (QPushButton, advancedPB)
+#: newcertificatewizard/enterdetailspage.ui:154
+msgid "Advanced Settings..."
+msgstr "高级设置..."
+
+#. i18n: ectx: property (title), widget (QWizardPage, Kleo::NewCertificateUi::KeyCreationPage)
+#: newcertificatewizard/keycreationpage.ui:5
+msgctxt "@title"
+msgid "Creating Key..."
+msgstr "正在创建密钥..."
+
+#. i18n: ectx: property (subTitle), widget (QWizardPage, Kleo::NewCertificateUi::KeyCreationPage)
+#: newcertificatewizard/keycreationpage.ui:8
+msgid "Your key is being created."
+msgstr "您的密钥已被创建。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: newcertificatewizard/keycreationpage.ui:17
+msgid ""
+"The process of creating a key requires large amounts of random numbers. To "
+"foster this process, you can use the entry field below to enter some "
+"gibberish. The text itself does not matter - only the inter-character "
+"timing. You can also move this window around with your mouse, or start some "
+"disk-intensive application."
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:262
+msgid "new email"
+msgstr "新电子邮件"
+
+#: newcertificatewizard/newcertificatewizard.cpp:263
+msgid "new dns name"
+msgstr "新 DNS 名称"
+
+#: newcertificatewizard/newcertificatewizard.cpp:264
+msgid "new uri"
+msgstr "新地址"
+
+#: newcertificatewizard/newcertificatewizard.cpp:513
+msgctxt "@action"
+msgid "Create Key"
+msgstr "创建密钥"
+
+#: newcertificatewizard/newcertificatewizard.cpp:564
+#, kde-format
+msgid "Could not start certificate creation: %1"
+msgstr "不能开始创建证书：%1"
+
+#: newcertificatewizard/newcertificatewizard.cpp:579
+msgid "Operation canceled."
+msgstr "操作中止。"
+
+#: newcertificatewizard/newcertificatewizard.cpp:580
+#, kde-format
+msgid "Could not create certificate: %1"
+msgstr "不能创建证书：%1"
+
+#: newcertificatewizard/newcertificatewizard.cpp:587
+#, kde-format
+msgid ""
+"Certificate created successfully.\n"
+"Fingerprint: %1"
+msgstr ""
+"证书创建成功。\n"
+"指纹：%1"
+
+#: newcertificatewizard/newcertificatewizard.cpp:593
+#, kde-format
+msgid "Could not write output file %1: %2"
+msgstr "无法写入输出文件 %1：%2"
+
+#: newcertificatewizard/newcertificatewizard.cpp:601
+msgid "Certificate created successfully."
+msgstr "证书创建成功。"
+
+#: newcertificatewizard/newcertificatewizard.cpp:640
+msgctxt "@title"
+msgid "Key Creation Failed"
+msgstr "密钥创建失败"
+
+#: newcertificatewizard/newcertificatewizard.cpp:641
+msgid "Key pair creation failed. Please find details about the failure below."
+msgstr "密钥对创建失败。请根据下面的信息查找问题详情。"
+
+#: newcertificatewizard/newcertificatewizard.cpp:643
+msgctxt "@title"
+msgid "Key Pair Successfully Created"
+msgstr "密钥对已成功创建"
+
+#: newcertificatewizard/newcertificatewizard.cpp:644
+msgid ""
+"Your new key pair was created successfully. Please find details on the "
+"result and some suggested next steps below."
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:705
+msgctxt "@title"
+msgid "Save Request"
+msgstr "请求另存为"
+
+#: newcertificatewizard/newcertificatewizard.cpp:706
+msgid "PKCS#10 Requests (*.p10)"
+msgstr "PKCS#10 证书请求(*.p10)"
+
+#: newcertificatewizard/newcertificatewizard.cpp:715
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Could not copy temporary file <filename>%1</filename> to file <filename>%2</"
+"filename>: <message>%3</message>"
+msgstr ""
+"无法将临时文件 <filename>%1</filename> 复制到 <filename>%2</filename>："
+"<message>%3</message>"
+
+#: newcertificatewizard/newcertificatewizard.cpp:718
+msgctxt "@title"
+msgid "Error Saving Request"
+msgstr "保存请求出错"
+
+#: newcertificatewizard/newcertificatewizard.cpp:722
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Successfully wrote request to <filename>%1</filename>.</para><para>You "
+"should now send the request to the Certification Authority (CA).</para>"
+msgstr ""
+"<para>请求已成功写入文件 <filename>%1</filename>。</para><para>您现在应该将此"
+"请求发送到证书认证中心(CA)。</para>"
+
+#: newcertificatewizard/newcertificatewizard.cpp:725
+msgctxt "@title"
+msgid "Request Saved"
+msgstr "请求已保存"
+
+#: newcertificatewizard/newcertificatewizard.cpp:733
+msgid "Please process this certificate."
+msgstr "请处理此证书。"
+
+#: newcertificatewizard/newcertificatewizard.cpp:734
+msgid ""
+"Please process this certificate and inform the sender about the location to "
+"fetch the resulting certificate.\n"
+"\n"
+"Thanks,\n"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:758
+msgid "My new OpenPGP certificate"
+msgstr "我的新 OpenPGP 证书"
+
+#: newcertificatewizard/newcertificatewizard.cpp:759
+msgid "Please find attached my new OpenPGP certificate."
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:790
+msgctxt "@info"
+msgid ""
+"<para><application>Kleopatra</application> tried to send a mail via your "
+"default mail client.</para><para>Some mail clients are known not to support "
+"attachments when invoked this way.</para><para>If your mail client does not "
+"have an attachment, then drag the <application>Kleopatra</application> icon "
+"and drop it on the message compose window of your mail client.</"
+"para><para>If that does not work, either, save the request to a file, and "
+"then attach that.</para>"
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:794
+msgctxt "@title"
+msgid "Sending Mail"
+msgstr "正在发送邮件"
+
+#: newcertificatewizard/newcertificatewizard.cpp:831
+msgctxt "@info"
+msgid ""
+"This operation will delete the certification request. Please make sure that "
+"you have sent or saved it before proceeding."
+msgstr ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:833
+msgctxt "@title"
+msgid "Certification Request About To Be Deleted"
+msgstr "证书请求将被删除"
+
+#: newcertificatewizard/newcertificatewizard.cpp:864
+msgctxt "@title"
+msgid "Certificate Creation Wizard"
+msgstr "证书创建向导"
+
+#: newcertificatewizard/newcertificatewizard.cpp:1249
+msgid "Authenticate"
+msgstr "验证"
+
+#: newcertificatewizard/newcertificatewizard.cpp:1299
+msgid "Name:"
+msgstr "名称："
+
+#: newcertificatewizard/newcertificatewizard.cpp:1300
+msgid "Email Address:"
+msgstr "电子邮件地址："
+
+#: newcertificatewizard/newcertificatewizard.cpp:1305
+msgid "Subject-DN:"
+msgstr "主题 DN："
+
+#: newcertificatewizard/newcertificatewizard.cpp:1308
+msgid "Key Type:"
+msgstr "密钥类型："
+
+#: newcertificatewizard/newcertificatewizard.cpp:1310
+#: newcertificatewizard/newcertificatewizard.cpp:1312
+msgid "Key Strength:"
+msgstr "密钥强度："
+
+#: newcertificatewizard/newcertificatewizard.cpp:1310
+#: newcertificatewizard/newcertificatewizard.cpp:1317
+#, kde-format
+msgid "1 bit"
+msgid_plural "%1 bits"
+msgstr[0] "%1 比特"
+
+#: newcertificatewizard/newcertificatewizard.cpp:1312
+#: newcertificatewizard/newcertificatewizard.cpp:1319
+msgid "default"
+msgstr "默认"
+
+#: newcertificatewizard/newcertificatewizard.cpp:1313
+msgid "Certificate Usage:"
+msgstr "证书用途："
+
+#: newcertificatewizard/newcertificatewizard.cpp:1313
+#: newcertificatewizard/newcertificatewizard.cpp:1320
+msgctxt "separator for key usages"
+msgid ",&nbsp;"
+msgstr ",&nbsp;"
+
+#: newcertificatewizard/newcertificatewizard.cpp:1315
+msgid "Subkey Type:"
+msgstr "子密钥类型："
+
+#: newcertificatewizard/newcertificatewizard.cpp:1317
+#: newcertificatewizard/newcertificatewizard.cpp:1319
+msgid "Subkey Strength:"
+msgstr "子密钥强度："
+
+#: newcertificatewizard/newcertificatewizard.cpp:1320
+msgid "Subkey Usage:"
+msgstr "子密钥用途："
+
+#: newcertificatewizard/newcertificatewizard.cpp:1324
+msgid "Valid Until:"
+msgstr "有效期结束于"
+
+#: newcertificatewizard/newcertificatewizard.cpp:1327
+msgid "Add. Email Address:"
+msgstr "添加电子邮件地址："
+
+#: newcertificatewizard/newcertificatewizard.cpp:1329
+msgid "DNS Name:"
+msgstr "DNS 名："
+
+#: newcertificatewizard/newcertificatewizard.cpp:1331
+msgid "URI:"
+msgstr "地址："
+
+#: newcertificatewizard/newcertificatewizard.cpp:1389
+#, kde-format
+msgctxt "%2: some admin-supplied text, %1: key size in bits"
+msgid "%2 (1 bit; default)"
+msgid_plural "%2 (%1 bits; default)"
+msgstr[0] ""
+
+#: newcertificatewizard/newcertificatewizard.cpp:1390
+#, kde-format
+msgctxt "%2: some admin-supplied text, %1: key size in bits"
+msgid "%2 (1 bit)"
+msgid_plural "%2 (%1 bits)"
+msgstr[0] "%2 (%1 比特)"
+
+#: newcertificatewizard/newcertificatewizard.cpp:1392
+#, kde-format
+msgctxt "%1: key size in bits"
+msgid "1 bit (default)"
+msgid_plural "%1 bits (default)"
+msgstr[0] "%1 比特(默认)"
+
+#: newcertificatewizard/newcertificatewizard.cpp:1393
+#, kde-format
+msgctxt "%1: key size in bits"
+msgid "1 bit"
+msgid_plural "%1 bits"
+msgstr[0] "%1 比特"
+
+#: newcertificatewizard/newcertificatewizard.cpp:1458
+msgctxt "@info:tooltip"
+msgid "Adding more than one User ID is not yet implemented."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QWizardPage, Kleo::NewCertificateUi::OverviewPage)
+#: newcertificatewizard/overviewpage.ui:5
+msgctxt "@title"
+msgid "Review Certificate Parameters"
+msgstr "审核证书参数"
+
+#. i18n: ectx: property (subTitle), widget (QWizardPage, Kleo::NewCertificateUi::OverviewPage)
+#: newcertificatewizard/overviewpage.ui:8
+msgid ""
+"Please review the certificate parameters before proceeding to create the "
+"certificate."
+msgstr "请在决定创建此证书前先审核此证书的参数。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAllDetailsCB)
+#: newcertificatewizard/overviewpage.ui:21
+msgid "Show all details"
+msgstr "显示全部细节"
+
+#. i18n: ectx: property (toolTip), widget (Kleo::DragQueen, dragQueen)
+#: newcertificatewizard/resultpage.ui:28
+msgid ""
+"Drag this icon to your mail application's composer to attach the request to "
+"a mail."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, restartWizardPB)
+#: newcertificatewizard/resultpage.ui:41
+msgid "Restart This Wizard (Keeps Your Parameters)"
+msgstr "重新启动此向导(保留参数)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, nextStepsGB)
+#: newcertificatewizard/resultpage.ui:48
+msgid "Next Steps"
+msgstr "下一步"
+
+#. i18n: ectx: property (text), widget (QPushButton, saveRequestToFilePB)
+#: newcertificatewizard/resultpage.ui:54
+msgid "Save Certificate Request To File..."
+msgstr "证书请求保存为文件..."
+
+#. i18n: ectx: property (text), widget (QPushButton, sendRequestByEMailPB)
+#: newcertificatewizard/resultpage.ui:61
+msgid "Send Certificate Request By EMail..."
+msgstr "通过邮件发送证书请求..."
+
+#. i18n: ectx: property (text), widget (QPushButton, makeBackupPB)
+#: newcertificatewizard/resultpage.ui:68
+msgid "Make a Backup Of Your Key Pair..."
+msgstr "生成您的密钥对的副本..."
+
+#. i18n: ectx: property (text), widget (QPushButton, sendCertificateByEMailPB)
+#: newcertificatewizard/resultpage.ui:75
+msgid "Send Certificate By EMail..."
+msgstr "通过邮件发送证书..."
+
+#. i18n: ectx: property (text), widget (QPushButton, uploadToKeyserverPB)
+#: newcertificatewizard/resultpage.ui:82
+msgid "Upload Certificate To Directory Service..."
+msgstr "将证书上传到目录服务..."
+
+#. i18n: ectx: property (text), widget (QPushButton, createRevocationRequestPB)
+#: newcertificatewizard/resultpage.ui:89
+msgid "Create Revocation Request..."
+msgstr "创建吊销请求..."
+
+#. i18n: ectx: property (text), widget (QPushButton, createSigningCertificatePB)
+#: newcertificatewizard/resultpage.ui:96
+msgid "Create Signing Certificate With Same Parameters"
+msgstr "使用相同参数创建签名证书"
+
+#. i18n: ectx: property (text), widget (QPushButton, createEncryptionCertificatePB)
+#: newcertificatewizard/resultpage.ui:103
+msgid "Create Encryption Certificate With Same Parameters"
+msgstr "使用相同参数创建加密证书"
+
+#: qml/kleopatra-mobile.qml:73
+#, fuzzy
+#| msgid "No certificate selected"
+msgid "No certificates loaded yet."
+msgstr "未选择证书"
+
+#: qml/KleopatraActions.qml:48
+#, fuzzy
+#| msgid "&File"
+msgid "File"
+msgstr "文件(&F)"
+
+#: qml/KleopatraActions.qml:61
+#, fuzzy
+#| msgid "&View"
+msgid "View"
+msgstr "查看(&V)"
+
+#: qml/KleopatraActions.qml:95
+#, fuzzy
+#| msgid "&Settings"
+msgid "Settings"
+msgstr "设置(&S)"
+
+#: selftest/enginecheck.cpp:71
+msgctxt "@title"
+msgid "GPG (OpenPGP Backend) installation"
+msgstr "GPG(OpenPGP 后端) 安装"
+
+#: selftest/enginecheck.cpp:72
+msgctxt "@title"
+msgid "GpgSM (S/MIME Backend) installation"
+msgstr "GpgSM(S/MIME 后端) 安装"
+
+#: selftest/enginecheck.cpp:73
+msgctxt "@title"
+msgid "GpgConf (Configuration) installation"
+msgstr "GpgConf(配置工具) 安装"
+
+#: selftest/enginecheck.cpp:98
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>A problem was detected with the <application>%1</application> backend."
+"</para>"
+msgstr "<para>检测 <application>%1</application> 后端时出现问题。</para>"
+
+#: selftest/enginecheck.cpp:103
+msgid "not supported"
+msgstr "未支持"
+
+#: selftest/enginecheck.cpp:105
+msgctxt "@info"
+msgid ""
+"<para>It seems that the <icode>gpgme</icode> library was compiled without "
+"support for this backend.</para>"
+msgstr ""
+"<para>似乎 <icode>gpgme</icode> 类库在编译时未引入对此后端的支持。</para>"
+
+#: selftest/enginecheck.cpp:108
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Replace the <icode>gpgme</icode> library with a version compiled with "
+"<application>%1</application> support.</para>"
+msgstr ""
+"<para>将 <icode>gpgme</icode> 类库替换为一个编译支持 <application>%1</"
+"application> 的版本。</para>"
+
+#: selftest/enginecheck.cpp:112
+msgid "not properly installed"
+msgstr "未正确安装"
+
+#: selftest/enginecheck.cpp:114
+#, kde-format
+msgctxt "@info"
+msgid "<para>Backend <command>%1</command> is not installed properly.</para>"
+msgstr "<para>后端 <command>%1</command> 未正确安装。</para>"
+
+#: selftest/enginecheck.cpp:116
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Please check the output of <command>%1 --version</command> manually.</"
+"para>"
+msgstr "<para>请手动检查 <command>%1 --version</command> 命令的输出。</para>"
+
+#: selftest/enginecheck.cpp:119
+msgid "too old"
+msgstr "过旧"
+
+#: selftest/enginecheck.cpp:121
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Backend <command>%1</command> is installed in version %2, but at least "
+"version %3 is required.</para>"
+msgstr ""
+"<para>已安装的后端 <command>%1</command> 版本为 %2，但要求至少为 %3 版本。</"
+"para>"
+
+#: selftest/enginecheck.cpp:127 selftest/enginecheck.cpp:203
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Install <application>%1</application> version %2 or higher.</para>"
+msgstr "<para>安装 <application>%1</application> %2 或更新版本。</para>"
+
+#: selftest/enginecheck.cpp:130
+msgid "unknown problem"
+msgstr "未知的问题"
+
+#: selftest/enginecheck.cpp:132
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Make sure <application>%1</application> is installed and in "
+"<envar>PATH</envar>.</para>"
+msgstr ""
+"<para>请确保已安装 <application>%1</application>，并且在 <envar>PATH</envar> "
+"环境变量中。</para>"
+
+#: selftest/enginecheck.cpp:200
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para><application>%1</application> v%2.%3.%4 is required for this test, but "
+"only %5 is installed.</para>"
+msgstr ""
+"<para>执行此测试需要 <application>%1</application> v%2.%3.%4，但只安装了 %5。"
+"</para>"
+
+#: selftest/enginecheck.cpp:208
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para><application>%1</application> is required for this test, but does not "
+"seem available.</para><para>See tests further up for more information.</para>"
+msgstr ""
+"<para>执行此测试需要 <application>%1</application>，但此程序似乎不可用。</"
+"para><para>请参阅进一步的测试信息。</para>"
+
+#: selftest/enginecheck.cpp:212
+#, kde-format
+msgctxt "@info %1: test name"
+msgid "<para>See \"%1\" above.</para>"
+msgstr "<para>请查阅“%1”。</para>"
+
+#: selftest/gpgagentcheck.cpp:63
+msgctxt "@title"
+msgid "Gpg-Agent Connectivity"
+msgstr "Gpg 代理连接"
+
+#: selftest/gpgagentcheck.cpp:73
+msgid "GpgME library too old"
+msgstr "GpgME 类库太旧"
+
+#: selftest/gpgagentcheck.cpp:75
+msgctxt "@info"
+msgid ""
+"Either the GpgME library itself is too old, or the GpgME++ library was "
+"compiled against an older GpgME that did not support connecting to gpg-agent."
+msgstr ""
+"可能是因为 GpgME 类库本身太旧，或者 GpgME++ 类库是基于较老的不支持 gpg 代理连"
+"接的 GpgME 版本编译的。"
+
+#: selftest/gpgagentcheck.cpp:79
+msgctxt "@info"
+msgid ""
+"Upgrade to <application>gpgme</application> 1.2.0 or higher, and ensure that "
+"gpgme++ was compiled against it."
+msgstr ""
+"升级到 <application>gpgme</application> 1.2.0 或更高版本，并确保 gpgme++ 是基"
+"于这个 gpgme 版本编译的。"
+
+#: selftest/gpgagentcheck.cpp:86
+msgid "GpgME does not support gpg-agent"
+msgstr "GpgME 不支持 gpg-agent 代理程序"
+
+#: selftest/gpgagentcheck.cpp:88
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The <application>GpgME</application> library is new enough to support "
+"<application>gpg-agent</application>, but does not seem to do so in this "
+"installation.</para><para>The error returned was: <message>%1</message>.</"
+"para>"
+msgstr ""
+"<para><application>GpgME</application> 类库是支持 <application>gpg-agent</"
+"application> 功能的新版本，但实际上似乎无法执行此特性。</para><para>错误输出"
+"是：<message>%1</message>。</para>"
+
+#: selftest/gpgagentcheck.cpp:101 selftest/uiservercheck.cpp:79
+msgid "not reachable"
+msgstr "不可达"
+
+#: selftest/gpgagentcheck.cpp:103
+#, kde-format
+msgctxt "@info"
+msgid "Could not connect to GpgAgent: <message>%1</message>"
+msgstr "无法连接到 Gpg 代理程序：<message>%1</message>"
+
+#: selftest/gpgagentcheck.cpp:106
+msgctxt "@info"
+msgid ""
+"<para>Check that gpg-agent is running and that the "
+"<environment>GPG_AGENT_INFO</environment> variable is set and up-to-date.</"
+"para>"
+msgstr ""
+"<para>请检查 gpg-agent 程序是否已经运行，且已设定了最新的 "
+"<environment>GPG_AGENT_INFO</environment> 环境变量。</para>"
+
+#: selftest/gpgagentcheck.cpp:110
+msgid "unexpected error"
+msgstr "不可预料的错误"
+
+#: selftest/gpgagentcheck.cpp:112
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Unexpected error while asking <application>gpg-agent</application> for "
+"its version.</para><para>The error returned was: <message>%1</message>.</"
+"para>"
+msgstr ""
+"<para>在查询 <application>gpg-agent</application> 程序的版本时发生不可预料的"
+"错误。</para><para>错误输出为：<message>%1</message></para>"
+
+#: selftest/gpgconfcheck.cpp:62
+#, kde-format
+msgctxt "@title"
+msgid "%1 Configuration Check"
+msgstr "%1 配置检查"
+
+#: selftest/gpgconfcheck.cpp:116
+msgid "The process terminated prematurely"
+msgstr "进程被提前终止"
+
+#: selftest/gpgconfcheck.cpp:121
+msgctxt "self-test did not pass"
+msgid "Failed"
+msgstr "失败"
+
+#: selftest/gpgconfcheck.cpp:123
+#, kde-format
+msgid ""
+"There was an error executing the GnuPG configuration self-check for %2:\n"
+"  %1\n"
+"You might want to execute \"gpgconf %3\" on the command line.\n"
+msgstr ""
+
+#: selftest/gpgconfcheck.cpp:128
+msgid "Diagnostics:"
+msgstr "诊断："
+
+#: selftest/gpgconfcheck.cpp:133
+msgctxt "self-check did not pass"
+msgid "Failed"
+msgstr "失败"
+
+#: selftest/gpgconfcheck.cpp:136
+#, kde-format
+msgctxt "Self-test did not pass"
+msgid ""
+"The GnuPG configuration self-check failed.\n"
+"\n"
+"Error code: %1\n"
+"Diagnostics:"
+msgstr ""
+"GnuPG 配置自检失败。\n"
+"\n"
+"错误代码：%1\n"
+"诊断："
+
+#: selftest/gpgconfcheck.cpp:141
+#, kde-format
+msgctxt "self-check did not pass"
+msgid ""
+"The GnuPG configuration self-check failed with error code %1.\n"
+"No output was received."
+msgstr ""
+"GnuPG 配置自检以错误代码 %1 失败。\n"
+"无输出。"
+
+#: selftest/libkleopatrarccheck.cpp:59
+msgctxt "@title"
+msgid "Config File 'libkleopatrarc'"
+msgstr ""
+
+#: selftest/libkleopatrarccheck.cpp:73
+msgid "Errors found"
+msgstr ""
+
+#: selftest/libkleopatrarccheck.cpp:77
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Kleopatra detected the following errors in the libkleopatrarc "
+"configuration:</para>%1"
+msgstr ""
+
+#: selftest/registrycheck.cpp:60
+msgctxt "@title"
+msgid "Windows Registry"
+msgstr "Windows 注册表"
+
+#: selftest/registrycheck.cpp:72
+msgid "Obsolete registry entries found"
+msgstr "找到废弃的注册表条目"
+
+#: selftest/registrycheck.cpp:76
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Kleopatra detected an obsolete registry key (<resource>%1\\%2</"
+"resource>), added by either a previous <application>Gpg4win</application> "
+"version or applications such as <application>WinPT</application> or "
+"<application>EnigMail</application>.</para><para>Keeping the entry might "
+"lead to an old GnuPG backend being used.</para>"
+msgstr ""
+
+#: selftest/registrycheck.cpp:82
+#, kde-format
+msgctxt "@info"
+msgid "<para>Delete registry key <resource>%1\\%2</resource>.</para>"
+msgstr "<para>删除注册键 <resource>%1\\%2</resource>。</para>"
+
+#: selftest/registrycheck.cpp:102
+#, kde-format
+msgctxt "@info"
+msgid "Could not delete the registry key <resource>%1\\%2</resource>"
+msgstr "无法删除注册键 <resource>%1\\%2</resource>"
+
+#: selftest/registrycheck.cpp:104
+msgctxt "@title"
+msgid "Error Deleting Registry Key"
+msgstr "删除注册键时出错"
+
+#: selftest/uiservercheck.cpp:61
+msgctxt "@title"
+msgid "UiServer Connectivity"
+msgstr "界面服务器连接"
+
+#: selftest/uiservercheck.cpp:81
+#, kde-format
+msgctxt "@info"
+msgid "Could not connect to UiServer: <message>%1</message>"
+msgstr "无法连接到界面服务器：<message>%1</message>"
+
+#: selftest/uiservercheck.cpp:84
+msgctxt "@info"
+msgid ""
+"<para>Check that your firewall is not set to block local connections (allow "
+"connections to <resource>localhost</resource> or <resource>127.0.0.1</"
+"resource>).</para>"
+msgstr ""
+"<para>请检查您的防火墙是否阻挡了对本地的连接(应该允许到 <resource>localhost</"
+"resource> 或 <resource>127.0.0.1</resource> 的连接)。</para>"
+
+#: selftest/uiservercheck.cpp:88
+msgid "multiple instances"
+msgstr "多实例"
+
+#: selftest/uiservercheck.cpp:90
+#, kde-format
+msgctxt "@info"
+msgid ""
+"It seems another <application>Kleopatra</application> is running (with "
+"process-id %1)"
+msgstr "似乎有另一个 <application>Kleopatra</application> 已经运行(进程号 %1)"
+
+#: selftest/uiservercheck.cpp:93
+msgctxt "@info"
+msgid ""
+"Quit any other running instances of <application>Kleopatra</application>."
+msgstr "退出所有其它运行中的 <application>Kleopatra</application> 实例。"
+
+#: systrayicon.cpp:176
+msgid "&Open Certificate Manager..."
+msgstr "打开证书管理器(&O)..."
+
+#: systrayicon.cpp:177
+#, kde-format
+msgid "&Configure %1..."
+msgstr "配置 %1(&C)..."
+
+#: systrayicon.cpp:178
+#, kde-format
+msgid "&About %1..."
+msgstr "关于 %1(&A)..."
+
+#: systrayicon.cpp:179
+msgid "&Shutdown Kleopatra"
+msgstr "关闭 Kleopatra(&S)"
+
+#: systrayicon.cpp:181
+msgid "Certificate Import"
+msgstr "证书导入"
+
+#: systrayicon.cpp:182
+msgid "Encrypt..."
+msgstr "加密..."
+
+#: systrayicon.cpp:183
+msgid "S/MIME-Sign..."
+msgstr "S/MIME 签名..."
+
+#: systrayicon.cpp:184
+msgid "OpenPGP-Sign..."
+msgstr "OpenPGP 签名..."
+
+#: systrayicon.cpp:186
+msgid "SmartCard"
+msgstr "智能卡"
+
+#: systrayicon.cpp:187
+msgid "Update Card Status"
+msgstr ""
+
+#: systrayicon.cpp:188
+msgid "Set NetKey v3 Initial PIN..."
+msgstr "设定 NetKey v3 的初始 PIN 代码..."
+
+#: systrayicon.cpp:189
+msgid "Learn NetKey v3 Card Certificates"
+msgstr "识别 NetKey v3 智能卡证书"
+
+#: uiserver/assuanserverconnection.cpp:193
+msgid "No option name given"
+msgstr "未给出选项名"
+
+#: uiserver/assuanserverconnection.cpp:365
+msgid "Parse error"
+msgstr "解析出错"
+
+#: uiserver/assuanserverconnection.cpp:374
+msgid "Parse error: numeric session id too large"
+msgstr "解析错误：会话 ID 过长"
+
+#: uiserver/assuanserverconnection.cpp:392
+msgid "CAPABILITIES does not take arguments"
+msgstr "CAPABILITIES 命令不接受参数"
+
+#: uiserver/assuanserverconnection.cpp:430
+msgid "Unknown value for WHAT"
+msgstr "WHAT 的值未知"
+
+#: uiserver/assuanserverconnection.cpp:445
+msgid "START_KEYMANAGER does not take arguments"
+msgstr "START_KEYMANAGER 命令不接受参数"
+
+#: uiserver/assuanserverconnection.cpp:463
+msgid "START_CONFDIALOG does not take arguments"
+msgstr "START_CONFDIALOG 命令不接受参数"
+
+#: uiserver/assuanserverconnection.cpp:521
+#, kde-format
+msgid "Message #%1"
+msgstr "信件 #%1"
+
+#: uiserver/assuanserverconnection.cpp:532
+msgid "Empty file path"
+msgstr "空文件路径"
+
+#: uiserver/assuanserverconnection.cpp:535
+#: uiserver/assuanserverconnection.cpp:610
+msgid "Only absolute file paths are allowed"
+msgstr "只允许绝对的文件路径"
+
+#: uiserver/assuanserverconnection.cpp:537
+msgid "Only files are allowed in INPUT/OUTPUT FILE"
+msgstr "INPUT/OUTPUT FILE 参数只接受文件"
+
+#: uiserver/assuanserverconnection.cpp:624
+msgid "unknown exception caught"
+msgstr "捕捉到未知异常"
+
+#: uiserver/assuanserverconnection.cpp:682
+msgid "Cannot mix --info with non-info SENDER or RECIPIENT"
+msgstr "无法将 --info 选项和无信息的 SENDER 或 RECIPIENT 参数结合使用"
+
+#: uiserver/assuanserverconnection.cpp:686
+msgid "Argument is not a valid RFC-2822 mailbox"
+msgstr "参数不是一个有效的 RFC-2822 邮件箱"
+
+#: uiserver/assuanserverconnection.cpp:689
+msgid "Garbage after valid RFC-2822 mailbox detected"
+msgstr "在有效的 RFC-2822 邮件箱中检测到垃圾数据"
+
+#: uiserver/assuanserverconnection.cpp:1123
+#, kde-format
+msgid "Caught unexpected exception: %1"
+msgstr "捕捉到未知异常：%1"
+
+#: uiserver/assuanserverconnection.cpp:1127
+msgid "Caught unknown exception - please report this error to the developers."
+msgstr "捕捉到未知异常 - 请向开发者报告此错误。"
+
+#: uiserver/assuanserverconnection.cpp:1253
+#, fuzzy, kde-format
+#| msgid "Can not send \"%1\" status"
+msgid "Cannot send \"%1\" status"
+msgstr "无法发送“%1”状态"
+
+#: uiserver/assuanserverconnection.cpp:1260
+#, fuzzy
+#| msgid "Can not send data"
+msgid "Cannot send data"
+msgstr "无法发送数据"
+
+#: uiserver/assuanserverconnection.cpp:1263
+#, fuzzy
+#| msgid "Can not flush data"
+msgid "Cannot flush data"
+msgstr "无法刷新数据"
+
+#: uiserver/assuanserverconnection.cpp:1503
+msgid "Required --mode option missing"
+msgstr "丢失所需的 --mode 选项"
+
+#: uiserver/assuanserverconnection.cpp:1510
+#, kde-format
+msgid "invalid mode: \"%1\""
+msgstr "无效的模式：“%1”"
+
+#: uiserver/assuanserverconnection.cpp:1531
+msgid "Required --protocol option missing"
+msgstr "丢失所需的 --protocol 选项"
+
+#: uiserver/assuanserverconnection.cpp:1536
+msgid "--protocol is not allowed here"
+msgstr "不能在此使用 --protocol 选项"
+
+#: uiserver/assuanserverconnection.cpp:1543
+#, kde-format
+msgid "invalid protocol \"%1\""
+msgstr "无效的协议“%1”"
+
+#: uiserver/createchecksumscommand.cpp:78
+#: uiserver/decryptverifycommandfilesbase.cpp:165
+#: uiserver/signencryptfilescommand.cpp:83
+#: uiserver/verifychecksumscommand.cpp:80
+msgid "At least one FILE must be present"
+msgstr "必须存在至少一个 FILE 命令"
+
+#: uiserver/decryptverifycommandemailbase.cpp:145
+#, fuzzy
+#| msgid "Can not use non-info SENDER"
+msgid "Cannot use non-info SENDER"
+msgstr "无法使用不包含信息的 SENDER 命令"
+
+#: uiserver/decryptverifycommandemailbase.cpp:149
+#, fuzzy
+#| msgid "Can not use non-info RECIPIENT"
+msgid "Cannot use non-info RECIPIENT"
+msgstr "无法使用不包含信息的 RECIPIENT 命令"
+
+#: uiserver/decryptverifycommandemailbase.cpp:164
+msgid "FILES present"
+msgstr "FILES 命令已存在"
+
+#: uiserver/decryptverifycommandemailbase.cpp:168
+msgid "At least one INPUT needs to be provided"
+msgstr "需要至少提供一个 INPUT 命令"
+
+#: uiserver/decryptverifycommandemailbase.cpp:173
+msgid "INPUT/SENDER --info count mismatch"
+msgstr "INPUT 和 SENDER --info 的数量不匹配"
+
+#: uiserver/decryptverifycommandemailbase.cpp:178
+msgid "INPUT/MESSAGE count mismatch"
+msgstr "INPUT 和 MESSAGE 的数量不匹配"
+
+#: uiserver/decryptverifycommandemailbase.cpp:181
+msgid "MESSAGE can only be given for detached signature verification"
+msgstr ""
+
+#: uiserver/decryptverifycommandemailbase.cpp:187
+#: uiserver/encryptcommand.cpp:106 uiserver/signcommand.cpp:102
+msgid "INPUT/OUTPUT count mismatch"
+msgstr "INPUT 和 OUTPUT 数量不匹配"
+
+#: uiserver/decryptverifycommandemailbase.cpp:190
+#, fuzzy
+#| msgid "Can not use OUTPUT and MESSAGE simultaneously"
+msgid "Cannot use OUTPUT and MESSAGE simultaneously"
+msgstr "无法同时使用 OUTPUT 和 MESSAGE"
+
+#: uiserver/decryptverifycommandemailbase.cpp:198
+msgid "No backend support for OpenPGP"
+msgstr "没有支持 OpenPGP 的后端"
+
+#: uiserver/decryptverifycommandemailbase.cpp:199
+msgid "No backend support for S/MIME"
+msgstr "没有支持 S/MIME 的后端"
+
+#: uiserver/decryptverifycommandfilesbase.cpp:146
+#, fuzzy
+#| msgid "Can not use SENDER"
+msgid "Cannot use SENDER"
+msgstr "无法使用 SENDER"
+
+#: uiserver/decryptverifycommandfilesbase.cpp:150
+#, fuzzy
+#| msgid "Can not use RECIPIENT"
+msgid "Cannot use RECIPIENT"
+msgstr "无法使用 RECIPIENT"
+
+#: uiserver/decryptverifycommandfilesbase.cpp:157
+msgid "INPUT present"
+msgstr "INPUT 命令已存在"
+
+#: uiserver/decryptverifycommandfilesbase.cpp:159
+msgid "MESSAGE present"
+msgstr "MESSAGE 命令已存在"
+
+#: uiserver/decryptverifycommandfilesbase.cpp:161
+msgid "OUTPUT present"
+msgstr "OUTPUT 命令已存在"
+
+#: uiserver/decryptverifycommandfilesbase.cpp:168
+msgid "DECRYPT/VERIFY_FILES cannot use directories as input"
+msgstr "不能将目录作为 DECRYPT/VERIFY_FILES 命令的输入来源"
+
+#: uiserver/echocommand.cpp:159 uiserver/signcommand.cpp:217
+#, kde-format
+msgid ""
+"Caught unexpected exception in SignCommand::Private::slotMicAlgDetermined: %1"
+msgstr "在 SignCommand::Private::slotMicAlgDetermined 中捕捉到意外异常：%1"
+
+#: uiserver/echocommand.cpp:163 uiserver/signcommand.cpp:221
+msgid "Caught unknown exception in SignCommand::Private::slotMicAlgDetermined"
+msgstr "在 SignCommand::Private::slotMicAlgDetermined 中捕捉到未知异常"
+
+#: uiserver/encryptcommand.cpp:90
+msgid ""
+"ENCRYPT is an email mode command, connection seems to be in filmanager mode"
+msgstr "ENCRYPT 是电子邮件模式命令，但现在的连接似乎是在文件管理模式下"
+
+#: uiserver/encryptcommand.cpp:94
+msgid "SENDER may not be given prior to ENCRYPT, except with --info"
+msgstr "SENDER 不能在 ENCRYPT 之前使用，除非和 --info 结合使用"
+
+#: uiserver/encryptcommand.cpp:98 uiserver/signcommand.cpp:98
+msgid "At least one INPUT must be present"
+msgstr "至少需要一个 INPUT"
+
+#: uiserver/encryptcommand.cpp:102
+msgid "At least one OUTPUT must be present"
+msgstr "至少需要一个 OUTPUT"
+
+#: uiserver/encryptcommand.cpp:110
+msgid "MESSAGE command is not allowed before ENCRYPT"
+msgstr "在 ENCRYPT 命令之前不允许使用 MESSAGE 命令"
+
+#: uiserver/encryptcommand.cpp:119
+msgid "Protocol given conflicts with protocol determined by PREP_ENCRYPT"
+msgstr "PREP_ENCRYPT 所确定的协议和指定的协议冲突"
+
+#: uiserver/encryptcommand.cpp:123
+msgid "New recipients added after PREP_ENCRYPT command"
+msgstr "在 PREP_ENCRYPT 命令新添加了收件人"
+
+#: uiserver/encryptcommand.cpp:126
+msgid "New senders added after PREP_ENCRYPT command"
+msgstr "在 PREP_ENCRYPT 命令新添加了发件人"
+
+#: uiserver/encryptcommand.cpp:132 uiserver/prepencryptcommand.cpp:93
+msgid "No recipients given, or only with --info"
+msgstr "未给定收件人，或只出了 --info 选项"
+
+#: uiserver/encryptcommand.cpp:199
+#, kde-format
+msgid ""
+"Caught unexpected exception in EncryptCommand::Private::"
+"slotRecipientsResolved: %1"
+msgstr ""
+"在 EncryptCommand::Private::slotRecipientsResolved 函数中捕捉到不可预料的异"
+"常：%1"
+
+#: uiserver/encryptcommand.cpp:203
+msgid ""
+"Caught unknown exception in EncryptCommand::Private::slotRecipientsResolved"
+msgstr ""
+"在 EncryptCommand::Private::slotRecipientsResolved 调用中捕捉到未知异常"
+
+#: uiserver/prepencryptcommand.cpp:81
+msgid "INPUT/OUTPUT/MESSAGE may only be given after PREP_ENCRYPT"
+msgstr "INPUT/OUTPUT/MESSAGE 只能在 PREP_ENCRYPT 之后使用"
+
+#: uiserver/prepencryptcommand.cpp:85
+msgid ""
+"PREP_ENCRYPT is an email mode command, connection seems to be in filemanager "
+"mode"
+msgstr "PREP_ENCRYPT 是电子邮件模式命令，但现在的连接似乎是在文件管理模式下"
+
+#: uiserver/prepencryptcommand.cpp:89
+msgid "SENDER may not be given prior to PREP_ENCRYPT, except with --info"
+msgstr "SENDER 不能在 PREP_ENCRYPT 之前使用，除非和 --info 结合使用"
+
+#: uiserver/prepencryptcommand.cpp:141
+#, kde-format
+msgid ""
+"Caught unexpected exception in PrepEncryptCommand::Private::"
+"slotRecipientsResolved: %1"
+msgstr ""
+"在 PrepEncryptCommand::Private::slotRecipientsResolved 捕捉到不可预料的异常："
+"%1"
+
+#: uiserver/prepencryptcommand.cpp:145
+msgid ""
+"Caught unknown exception in PrepEncryptCommand::Private::"
+"slotRecipientsResolved"
+msgstr ""
+"在 PrepEncryptCommand::Private::slotRecipientsResolved 捕捉到未知的异常：%1"
+
+#: uiserver/prepsigncommand.cpp:84
+msgid "INPUT/OUTPUT/MESSAGE may only be given after PREP_SIGN"
+msgstr "INPUT/OUTPUT/MESSAGE 只能在 PREP_SIGN 之后使用"
+
+#: uiserver/prepsigncommand.cpp:88
+msgid ""
+"PREP_SIGN is an email mode command, connection seems to be in filemanager "
+"mode"
+msgstr "PREP_SIGN 是电子邮件模式的命令，但连接似乎采用的是文件管理器模式"
+
+#: uiserver/prepsigncommand.cpp:92
+msgid "No SENDER given"
+msgstr "没有指定 SENDER"
+
+#: uiserver/prepsigncommand.cpp:101 uiserver/signcommand.cpp:114
+msgid ""
+"Protocol given conflicts with protocol determined by PREP_ENCRYPT in this "
+"session"
+msgstr "在本次会话中，PREP_ENCRYPT 所确定的协议和指定的协议冲突"
+
+#: uiserver/prepsigncommand.cpp:169
+#, kde-format
+msgid ""
+"Caught unexpected exception in PrepSignCommand::Private::"
+"slotRecipientsResolved: %1"
+msgstr ""
+"在 PrepSignCommand::Private::slotRecipientsResolved 函数中捕捉到不可预料的异"
+"常：%1"
+
+#: uiserver/prepsigncommand.cpp:173
+msgid ""
+"Caught unknown exception in PrepSignCommand::Private::slotRecipientsResolved"
+msgstr ""
+"在 PrepSignCommand::Private::slotRecipientsResolved 函数中捕捉到未知异常"
+
+#: uiserver/selectcertificatecommand.cpp:174
+#, kde-format
+msgid ""
+"Caught unexpected exception in SelectCertificateCommand::Private::"
+"slotDialogAccepted: %1"
+msgstr ""
+"在 SelectCertificateCommand::Private::slotDialogAccepted 捕捉到意外异常：%1"
+
+#: uiserver/selectcertificatecommand.cpp:178
+msgid ""
+"Caught unknown exception in SelectCertificateCommand::Private::"
+"slotDialogAccepted"
+msgstr ""
+"在 SelectCertificateCommand::Private::slotDialogAccepted 捕捉到未知异常"
+
+#: uiserver/signcommand.cpp:90
+msgid ""
+"SIGN is an email mode command, connection seems to be in filemanager mode"
+msgstr "SIGN 是电子邮件模式的命令，但连接似乎采用的是文件管理器模式"
+
+#: uiserver/signcommand.cpp:94
+msgid "RECIPIENT may not be given prior to SIGN, except with --info"
+msgstr "RECIPIENT 不能在 SIGN 之前使用，除非和 --info 结合选项"
+
+#: uiserver/signcommand.cpp:106
+msgid "MESSAGE command is not allowed before SIGN"
+msgstr "SIGN 命令之前使用不允许出现 MESSAGE 命令"
+
+#: uiserver/signcommand.cpp:127
+msgid "No senders given, or only with --info"
+msgstr "未指定发件人，或只有 --info 选项"
+
+#: uiserver/signcommand.cpp:195
+#, kde-format
+msgid ""
+"Caught unexpected exception in SignCommand::Private::slotRecipientsResolved: "
+"%1"
+msgstr ""
+"在 SignCommand::Private::slotRecipientsResolved 函数中捕捉到不可预料的异常："
+"%1"
+
+#: uiserver/signcommand.cpp:199
+msgid ""
+"Caught unknown exception in SignCommand::Private::slotRecipientsResolved"
+msgstr "在 SignCommand::Private::slotRecipientsResolved 函数中捕捉到未知异常"
+
+#: uiserver/signencryptfilescommand.cpp:88
+#: uiserver/signencryptfilescommand.cpp:93
+#: uiserver/signencryptfilescommand.cpp:99
+#: uiserver/signencryptfilescommand.cpp:104
+#: uiserver/signencryptfilescommand.cpp:109
+#, kde-format
+msgid ""
+"%1 is a filemanager mode command, connection seems to be in email mode (%2 "
+"present)"
+msgstr ""
+"%1 是在文件管理器模式中使用的命令，而当前连接似乎是在邮件模式(现在是 %2)下。"
+
+#: uiserver/uiserver.cpp:238
+msgid ""
+"Could not determine the GnuPG home directory. Consider setting the GNUPGHOME "
+"environment variable."
+msgstr "无法确定 GnuPG 的主目录。请指定 GNUPGHOME 环境变量。"
+
+#: uiserver/uiserver.cpp:248
+#, kde-format
+msgid ""
+"Cannot determine the GnuPG home directory: %1 exists but is not a directory."
+msgstr "无法确定 GnuPG 的主目录：%1 存在，但它不是一个目录。"
+
+#: uiserver/uiserver.cpp:254
+#, kde-format
+msgid "Could not create GnuPG home directory %1: %2"
+msgstr "无法创建 GnuPG 主目录 %1：%2"
+
+#: uiserver/uiserver.cpp:266
+#, kde-format
+msgid "Detected another running gnupg UI server listening at %1."
+msgstr "检测到另一个监听在 %1 的 gnupg 界面服务器。"
+
+#: uiserver/uiserver_unix.cpp:68 uiserver/uiserver_win.cpp:65
+#, kde-format
+msgid "Could not create socket: %1"
+msgstr "无法创建套接字：%1"
+
+#: uiserver/uiserver_unix.cpp:81 uiserver/uiserver_win.cpp:74
+#, kde-format
+msgid "Could not bind to socket: %1"
+msgstr "无法绑定到套接字：%1"
+
+#: uiserver/uiserver_unix.cpp:87 uiserver/uiserver_win.cpp:77
+#, kde-format
+msgid "Could not get socket nonce: %1"
+msgstr "无法获得目前的套接字：%1"
+
+#: uiserver/uiserver_unix.cpp:92 uiserver/uiserver_win.cpp:81
+#, kde-format
+msgid "Could not listen to socket: %1"
+msgstr "无法监听套接字：%1"
+
+#: uiserver/uiserver_unix.cpp:95 uiserver/uiserver_win.cpp:84
+#, kde-format
+msgid ""
+"Could not pass socket to Qt: %1. This should not happen, please report this "
+"bug."
+msgstr "无法将套接字传递给 Qt：%1。这种事不该发生，请报告错误。"
+
+#: utils/archivedefinition.cpp:105
+#, kde-format
+msgid "Error in archive definition %1: %2"
+msgstr "归档定义 %1 中出错：%2"
+
+#: utils/archivedefinition.cpp:150
+#, fuzzy, kde-format
+#| msgid "Cannot use both %f and |"
+msgid "Cannot use both %f and | in '%1'"
+msgstr "无法同时使用 %f 和 |"
+
+#: utils/archivedefinition.cpp:158
+#, fuzzy, kde-format
+#| msgid "Quoting error"
+msgid "Quoting error in '%1' entry"
+msgstr "引用出错"
+
+#: utils/archivedefinition.cpp:160
+#, fuzzy, kde-format
+#| msgid "Command too complex (would need shell)"
+msgid "'%1' too complex (would need shell)"
+msgstr "命令太复杂(需要 shell 来操作)"
+
+#: utils/archivedefinition.cpp:163 utils/archivedefinition.cpp:208
+#: utils/archivedefinition.cpp:220 utils/archivedefinition.cpp:230
+#, fuzzy, kde-format
+#| msgid "'command' entry is empty/missing"
+msgid "'%1' entry is empty/missing"
+msgstr "“command”字段为空或缺失"
+
+#: utils/archivedefinition.cpp:170
+#, fuzzy, kde-format
+#| msgid "Command empty or not found"
+msgid "'%1' empty or not found"
+msgstr "命令为空或找不到"
+
+#: utils/archivedefinition.cpp:263 utils/archivedefinition.cpp:273
+msgid "cannot use argument passing on standard input for unpack-command"
+msgstr ""
+
+#: utils/archivedefinition.cpp:318
+#, kde-format
+msgid ""
+"Cannot find common base directory for these files:\n"
+"%1"
+msgstr ""
+
+#: utils/archivedefinition.cpp:371
+#, kde-format
+msgid "Caught unknown exception in group %1"
+msgstr "在 %1 组中捕捉到未知异常"
+
+#: utils/auditlog.cpp:62
+msgid "No Audit Log available"
+msgstr "无审核日志"
+
+#: utils/auditlog.cpp:64
+#, kde-format
+msgid "Error Retrieving Audit Log: %1"
+msgstr "获取审核日志出错：%1"
+
+#: utils/auditlog.cpp:71
+msgctxt "The Audit Log is a detailed error log from the gnupg backend"
+msgid "Show Audit Log"
+msgstr "显示审核日志"
+
+#: utils/formatting.cpp:205 utils/formatting.cpp:208
+#, kde-format
+msgid "<tr><th>%1:</th><td>%2</td></tr>"
+msgstr "<tr><th>%1：</th><td>%2</td></tr>"
+
+#: utils/formatting.cpp:217
+#, kde-format
+msgid "%1-bit %2 (secret key available)"
+msgstr "%1 位 %2(绝密密钥可用)"
+
+#: utils/formatting.cpp:219
+#, kde-format
+msgid "%1-bit %2"
+msgstr "%1 位 %2"
+
+#: utils/formatting.cpp:226
+msgid "Signing EMails and Files (Qualified)"
+msgstr "签名邮件和文件(已许可)"
+
+#: utils/formatting.cpp:228
+msgid "Signing EMails and Files"
+msgstr "签名邮件和文件"
+
+#: utils/formatting.cpp:231
+msgid "Encrypting EMails and Files"
+msgstr "加密邮件和文件"
+
+#: utils/formatting.cpp:233
+msgid "Certifying other Certificates"
+msgstr "认证其它证书"
+
+#: utils/formatting.cpp:235
+msgid "Authenticate against Servers"
+msgstr "认证对象服务器"
+
+#: utils/formatting.cpp:261
+msgid "This certificate has been revoked."
+msgstr "此证书已被吊销。"
+
+#: utils/formatting.cpp:263
+msgid "This certificate has expired."
+msgstr "此证书已经过期。"
+
+#: utils/formatting.cpp:265
+msgid "This certificate has been disabled locally."
+msgstr "此证书已在本地被禁用。"
+
+#: utils/formatting.cpp:267
+msgid "This certificate is currently valid."
+msgstr "此证书目前有效。"
+
+#: utils/formatting.cpp:269
+msgid "The validity of this certificate cannot be checked at the moment."
+msgstr "目前不能校验此证书的有效性。"
+
+#: utils/formatting.cpp:276
+msgid "Serial number"
+msgstr "序列号"
+
+#: utils/formatting.cpp:278
+msgid "Issuer"
+msgstr "颁发者"
+
+#: utils/formatting.cpp:284
+msgid "Subject"
+msgstr "主题"
+
+#: utils/formatting.cpp:285
+msgid "User-ID"
+msgstr "用户编号"
+
+#: utils/formatting.cpp:289
+msgid "a.k.a."
+msgstr "又名"
+
+#: utils/formatting.cpp:292
+msgid "Validity"
+msgstr "有效"
+
+#: utils/formatting.cpp:294
+#, kde-format
+msgid "from %1 until forever"
+msgstr "从 %1 开始，无限期"
+
+#: utils/formatting.cpp:295
+#, kde-format
+msgid "from %1 through %2"
+msgstr "从 %1 到 %2"
+
+#: utils/formatting.cpp:297
+msgid "Certificate type"
+msgstr "证书类型"
+
+#: utils/formatting.cpp:299
+msgid "Certificate usage"
+msgstr "证书用途"
+
+#: utils/formatting.cpp:303
+msgid "Fingerprint"
+msgstr "指纹"
+
+#: utils/formatting.cpp:306
+msgid "Ownertrust"
+msgstr "所有者信任"
+
+#: utils/formatting.cpp:308
+msgid "Trusted issuer?"
+msgstr "是否是可信的发布人？"
+
+#: utils/formatting.cpp:309
+msgid "Yes"
+msgstr "是"
+
+#: utils/formatting.cpp:310
+msgid "No"
+msgstr "否"
+
+#: utils/formatting.cpp:313 utils/formatting.cpp:315
+msgid "Stored"
+msgstr "已存储"
+
+#: utils/formatting.cpp:313
+#, kde-format
+msgctxt "stored..."
+msgid "on SmartCard with serial no. %1"
+msgstr "于智能卡上，序列号 no. %1"
+
+#: utils/formatting.cpp:315
+msgctxt "stored..."
+msgid "on this computer"
+msgstr "在此电脑上"
+
+#: utils/formatting.cpp:406
+msgctxt "X.509/CMS encryption standard"
+msgid "X.509"
+msgstr "X.509"
+
+#: utils/formatting.cpp:409
+msgctxt "Unknown encryption protocol"
+msgid "Unknown"
+msgstr "未知"
+
+#: utils/formatting.cpp:430 utils/formatting.cpp:461
+msgctxt "unknown trust level"
+msgid "unknown"
+msgstr "未知"
+
+#: utils/formatting.cpp:431 utils/formatting.cpp:463
+msgid "untrusted"
+msgstr "不信任"
+
+#: utils/formatting.cpp:432 utils/formatting.cpp:464
+msgctxt "marginal trust"
+msgid "marginal"
+msgstr "勉强信任"
+
+#: utils/formatting.cpp:433 utils/formatting.cpp:465
+msgctxt "full trust"
+msgid "full"
+msgstr "完全信任"
+
+#: utils/formatting.cpp:434 utils/formatting.cpp:466
+msgctxt "ultimate trust"
+msgid "ultimate"
+msgstr "绝对信任"
+
+#: utils/formatting.cpp:435 utils/formatting.cpp:462
+msgctxt "undefined trust"
+msgid "undefined"
+msgstr "未定义"
+
+#: utils/formatting.cpp:452
+msgctxt "as in good/valid signature"
+msgid "good"
+msgstr "完好"
+
+#: utils/formatting.cpp:476
+#, kde-format
+msgid "class %1"
+msgstr "类别 %1"
+
+#: utils/formatting.cpp:478
+msgctxt "good/valid signature"
+msgid "good"
+msgstr "完好"
+
+#: utils/formatting.cpp:484
+msgid "certificate expired"
+msgstr "证书已过期"
+
+#: utils/formatting.cpp:485
+msgctxt "fake/invalid signature"
+msgid "bad"
+msgstr "损坏"
+
+#: utils/formatting.cpp:502
+#, kde-format
+msgctxt "name, email, key id"
+msgid "%1 %2 (%3)"
+msgstr "%1 %2 (%3)："
+
+#: utils/formatting.cpp:544
+#, kde-format
+msgid "Bad signature by unknown certificate %1: %2"
+msgstr "损坏的签名，由未知证书 %1 签署：%2"
+
+#: utils/formatting.cpp:546
+#, kde-format
+msgid "Bad signature by an unknown certificate: %1"
+msgstr "损坏的签名，由未知证书签署：%1"
+
+#: utils/formatting.cpp:548
+#, kde-format
+msgid "Bad signature by %1: %2"
+msgstr "损坏的签名，签署自 %1：%2"
+
+#: utils/formatting.cpp:553
+#, kde-format
+msgid "Good signature by unknown certificate %1."
+msgstr "完好的签名，由未知证书签署 %1。"
+
+#: utils/formatting.cpp:555
+msgid "Good signature by an unknown certificate."
+msgstr "完好的签名，由未知证书签署。"
+
+#: utils/formatting.cpp:557
+#, kde-format
+msgid "Good signature by %1."
+msgstr "完好的签名，签署自 %1。"
+
+#: utils/formatting.cpp:562
+#, kde-format
+msgid "Invalid signature by unknown certificate %1: %2"
+msgstr "无效的签名，由未知证书 %1 签署：%2"
+
+#: utils/formatting.cpp:564
+#, kde-format
+msgid "Invalid signature by an unknown certificate: %1"
+msgstr "无效的签名，由未知证书签署：%1"
+
+#: utils/formatting.cpp:566
+#, kde-format
+msgid "Invalid signature by %1: %2"
+msgstr "无效的签名，签署自 %1：%2"
+
+#: utils/formatting.cpp:579
+msgid "This certificate was imported from the following sources:"
+msgstr "此证书导入自以下来源："
+
+#: utils/formatting.cpp:589
+msgid "The import of this certificate was canceled."
+msgstr "已中止导入此证书。"
+
+#: utils/formatting.cpp:591
+#, kde-format
+msgid "An error occurred importing this certificate: %1"
+msgstr "导入证书 %1 时出错"
+
+#: utils/formatting.cpp:597
+msgid "This certificate was new to your keystore. The secret key is available."
+msgstr "此证书是新的，可使用绝密密钥。"
+
+#: utils/formatting.cpp:598
+msgid "This certificate is new to your keystore."
+msgstr "此证书是新的。"
+
+#: utils/formatting.cpp:602
+msgid "New user-ids were added to this certificate by the import."
+msgstr "经过导入，新的用户编号已被添加到此证书内。"
+
+#: utils/formatting.cpp:604
+msgid "New signatures were added to this certificate by the import."
+msgstr "经过导入，新的签名已被添加到此证书内。"
+
+#: utils/formatting.cpp:606
+msgid "New subkeys were added to this certificate by the import."
+msgstr "经过导入，新的子密钥已被添加到此证书内。"
+
+#: utils/formatting.cpp:609
+msgid "The import contained no new data for this certificate. It is unchanged."
+msgstr "导入内容未给证书引入新数据，证书未改变。"
+
+#: utils/hex.cpp:55
+#, kde-format
+msgid "Invalid hex char '%1' in input stream."
+msgstr "输入流中有无效的十六进制字符“%1”。"
+
+#: utils/hex.cpp:68 utils/hex.cpp:73
+msgid "Premature end of hex-encoded char in input stream"
+msgstr "输入流中有过早出现的十六进制结束字符"
+
+#: utils/input.cpp:94
+msgid "No input device"
+msgstr ""
+
+#: utils/input.cpp:187
+#, kde-format
+msgid "Could not open FD %1 for reading"
+msgstr "无法以读模式打开文件描述符 %1"
+
+#: utils/input.cpp:216 utils/input.cpp:232
+#, kde-format
+msgid "Could not open file \"%1\" for reading"
+msgstr "无法以读模式打开文件“%1”"
+
+#: utils/input.cpp:229
+#, kde-format
+msgid "File \"%1\" is already open, but not for reading"
+msgstr "文件“%1”已经存在，但不可读取"
+
+#: utils/input.cpp:288 utils/output.cpp:451
+#, fuzzy
+#| msgid "Command not found in filesystem"
+msgid "Command not specified"
+msgstr "文件系统中找不到命令"
+
+#: utils/input.cpp:293 utils/output.cpp:457
+#, kde-format
+msgid "Could not start %1 process: %2"
+msgstr "无法启动 %1 进程：%2"
+
+#: utils/input.cpp:298
+#, kde-format
+msgid "Failed to write input to %1 process: %2"
+msgstr "无法将输入写入 %1 进程：%2"
+
+#: utils/input.cpp:309
+#, kde-format
+msgctxt "e.g. \"Output of tar xf - file1 ...\""
+msgid "Output of %1 ..."
+msgstr "%1 的输出..."
+
+#: utils/input.cpp:311
+#, kde-format
+msgctxt "e.g. \"Output of tar xf - file\""
+msgid "Output of %1"
+msgstr "%1 的输出"
+
+#: utils/input.cpp:319
+#, fuzzy, kde-format
+#| msgid "Error while running %1: %2"
+msgid ""
+"Error while running %1:\n"
+"%2"
+msgstr "运行 %1 时出错：%2"
+
+#: utils/input.cpp:347
+msgid "Could not open clipboard for reading"
+msgstr "无法以读模式打开剪贴板"
+
+#: utils/input.cpp:357
+msgid "Clipboard contents"
+msgstr "剪贴板内容"
+
+#: utils/input.cpp:359
+msgid "FindBuffer contents"
+msgstr "查找缓冲区内容"
+
+#: utils/input.cpp:361
+msgid "Current selection"
+msgstr "当前选择内容"
+
+#: utils/kleo_kicondialog.cpp:272 utils/kleo_kicondialog.cpp:284
+msgid "Select Icon"
+msgstr "选择图标"
+
+#: utils/kleo_kicondialog.cpp:305
+msgid "Icon Source"
+msgstr "图标来源"
+
+#: utils/kleo_kicondialog.cpp:315
+msgid "S&ystem icons:"
+msgstr "系统图标(&Y)："
+
+#: utils/kleo_kicondialog.cpp:321
+msgid "O&ther icons:"
+msgstr "其它图标(&T)："
+
+#: utils/kleo_kicondialog.cpp:325
+msgid "&Browse..."
+msgstr "浏览(&B)..."
+
+#: utils/kleo_kicondialog.cpp:338
+msgid "&Search:"
+msgstr "搜索(&S)："
+
+#: utils/kleo_kicondialog.cpp:345
+msgid "Search interactively for icon names (e.g. folder)."
+msgstr "交互搜索图标名称(如文件夹)。"
+
+#: utils/kleo_kicondialog.cpp:367
+msgid "Animations"
+msgstr "动画"
+
+#: utils/kleo_kicondialog.cpp:368
+msgid "Applications"
+msgstr "程序"
+
+#: utils/kleo_kicondialog.cpp:369
+msgid "Categories"
+msgstr "分类"
+
+#: utils/kleo_kicondialog.cpp:370
+msgid "Devices"
+msgstr "设备"
+
+#: utils/kleo_kicondialog.cpp:371
+msgid "Emblems"
+msgstr "徽章"
+
+#: utils/kleo_kicondialog.cpp:372
+msgid "Emotes"
+msgstr "表情"
+
+#: utils/kleo_kicondialog.cpp:373
+msgid "Filesystems"
+msgstr "文件系统"
+
+#: utils/kleo_kicondialog.cpp:374
+msgid "International"
+msgstr "国际表示"
+
+#: utils/kleo_kicondialog.cpp:375
+msgid "Mimetypes"
+msgstr "MIME 类型"
+
+#: utils/kleo_kicondialog.cpp:376
+msgid "Places"
+msgstr "位置"
+
+#: utils/kleo_kicondialog.cpp:584
+msgid "Open"
+msgstr "打开"
+
+#: utils/kleo_kicondialog.cpp:584
+msgid "Icon Files (*.png *.xpm *.svg *.svgz)"
+msgstr "图标文件(*.png *.xpm *.svg *.svgz)"
+
+#: utils/log.cpp:160
+#, kde-format
+msgid "Log Error: Could not open log file \"%1\" for writing."
+msgstr "日志错误：无法以写模式打开日志文件“%1”。"
+
+#: utils/output.cpp:215
+msgid "No output device"
+msgstr ""
+
+#: utils/output.cpp:334
+#, kde-format
+msgid "Could not open FD %1 for writing"
+msgstr "无法以写模式打开文件描述符 %1"
+
+#: utils/output.cpp:359
+#, kde-format
+msgid "Could not create temporary file for output \"%1\""
+msgstr "无法为输出“%1”创建临时文件"
+
+#: utils/output.cpp:365
+#, kde-format
+msgid ""
+"The file <b>%1</b> already exists.\n"
+"Overwrite?"
+msgstr ""
+"文件 <b>%1</b> 已存在。\n"
+"覆盖吗？"
+
+#: utils/output.cpp:367
+msgid "Overwrite Existing File?"
+msgstr "覆盖已有文件吗？"
+
+#: utils/output.cpp:369
+msgid "Overwrite All"
+msgstr "全部覆盖"
+
+#: utils/output.cpp:407
+msgid "Overwriting declined"
+msgstr "覆盖被拒绝"
+
+#: utils/output.cpp:413
+#, kde-format
+msgid "Could not remove file \"%1\" for overwriting."
+msgstr "无法为覆盖而删除文件“%1”。"
+
+#: utils/output.cpp:425
+#, kde-format
+msgid "Could not rename file \"%1\" to \"%2\""
+msgstr "无法重命名文件“%1”为“%2”"
+
+#: utils/output.cpp:466
+#, fuzzy, kde-format
+#| msgctxt "e.g. \"Output of tar xf - file1 ...\""
+#| msgid "Output of %1 ..."
+msgctxt "e.g. \"Input to tar xf - file1 ...\""
+msgid "Input to %1 ..."
+msgstr "%1 的输出..."
+
+#: utils/output.cpp:468
+#, fuzzy, kde-format
+#| msgctxt "e.g. \"Output of tar xf - file\""
+#| msgid "Output of %1"
+msgctxt "e.g. \"Input to tar xf - file\""
+msgid "Input to %1"
+msgstr "%1 的输出"
+
+#: utils/output.cpp:495
+msgid "Could not write to clipboard"
+msgstr "无法向剪贴板写入"
+
+#: utils/output.cpp:503
+msgid "Find buffer"
+msgstr "查找缓冲"
+
+#: utils/output.cpp:505
+msgid "Selection"
+msgstr "选择"
+
+#: utils/output.cpp:517
+msgid "Could not find clipboard"
+msgstr "无法查找剪贴板"
+
+#: utils/path-helper.cpp:103
+#, kde-format
+msgid "Cannot remove directory %1"
+msgstr "无法删除目录 %1"
+
+#: utils/path-helper.cpp:107
+#, kde-format
+msgid "Cannot remove file %1: %2"
+msgstr "无法删除文件 %1：%2"
+
+#: view/keylistcontroller.cpp:332
+msgid "New Certificate..."
+msgstr "新建证书..."
+
+#: view/keylistcontroller.cpp:334
+msgid "Export Certificates..."
+msgstr "导出证书..."
+
+#: view/keylistcontroller.cpp:336
+msgid "Export Certificates to Server..."
+msgstr "导出证书到服务器..."
+
+#: view/keylistcontroller.cpp:338
+msgid "Export Secret Keys..."
+msgstr "导出绝密密钥..."
+
+#: view/keylistcontroller.cpp:340
+msgid "Lookup Certificates on Server..."
+msgstr "在服务器上查询证书..."
+
+#: view/keylistcontroller.cpp:342
+msgid "Import Certificates..."
+msgstr "导入证书..."
+
+#: view/keylistcontroller.cpp:344
+msgid "Decrypt/Verify Files..."
+msgstr "解密/校验文件..."
+
+#: view/keylistcontroller.cpp:346
+msgid "Sign/Encrypt Files..."
+msgstr "签名/加密文件..."
+
+#: view/keylistcontroller.cpp:348
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Create Checksum Progress"
+msgid "Create Checksum Files..."
+msgstr "创建校验和进程"
+
+#: view/keylistcontroller.cpp:350
+#, fuzzy
+#| msgid "Decrypt/Verify Files..."
+msgid "Verify Checksum Files..."
+msgstr "解密/校验文件..."
+
+#: view/keylistcontroller.cpp:353
+msgid "Redisplay"
+msgstr "重新显示"
+
+#: view/keylistcontroller.cpp:355
+msgid "Stop Operation"
+msgstr "停止操作"
+
+#: view/keylistcontroller.cpp:360
+msgid "Delete"
+msgstr "删除"
+
+#: view/keylistcontroller.cpp:362
+msgid "Certify Certificate..."
+msgstr "认证证书..."
+
+#: view/keylistcontroller.cpp:366
+msgid "Change Owner Trust..."
+msgstr "更改所有者信任等级..."
+
+#: view/keylistcontroller.cpp:368
+msgid "Trust Root Certificate"
+msgstr "受信任的根证书"
+
+#: view/keylistcontroller.cpp:370
+msgid "Distrust Root Certificate"
+msgstr "不信任的根证书"
+
+#: view/keylistcontroller.cpp:374
+msgid "Add User-ID..."
+msgstr "添加用户编号..."
+
+#: view/keylistcontroller.cpp:376
+msgid "Dump Certificate"
+msgstr "转储证书"
+
+#: view/keylistcontroller.cpp:379
+msgid "Refresh X.509 Certificates"
+msgstr "刷新 X.509 证书"
+
+#: view/keylistcontroller.cpp:381
+msgid "Refresh OpenPGP Certificates"
+msgstr "刷新 OpenPGP 证书"
+
+#: view/keylistcontroller.cpp:384
+msgid "Clear CRL Cache"
+msgstr "清除 CRL 缓存"
+
+#: view/keylistcontroller.cpp:386
+msgid "Dump CRL Cache"
+msgstr "转储 CRL 缓存"
+
+#: view/keylistcontroller.cpp:389
+msgid "Import CRL From File..."
+msgstr "从文件导入 CRL..."
+
+#: view/searchbar.cpp:90
+msgid "&Find:"
+msgstr "查找(&F)："
+
+#: view/tabwidget.cpp:388
+msgid "New Tab"
+msgstr "新建标签"
+
+#: view/tabwidget.cpp:388
+msgid "Open a new tab"
+msgstr "打开新标签"
+
+#: view/tabwidget.cpp:389
+msgid "CTRL+SHIFT+N"
+msgstr "CTRL+SHIFT+N"
+
+#: view/tabwidget.cpp:395
+msgid "Rename Tab..."
+msgstr "重命名标签..."
+
+#: view/tabwidget.cpp:395
+msgid "Rename this tab"
+msgstr "重命名此标签"
+
+#: view/tabwidget.cpp:396
+msgid "CTRL+SHIFT+R"
+msgstr "CTRL+SHIFT+R"
+
+#: view/tabwidget.cpp:397
+msgid "Duplicate Tab"
+msgstr "复制标签"
+
+#: view/tabwidget.cpp:397
+msgid "Duplicate this tab"
+msgstr "复制此标签"
+
+#: view/tabwidget.cpp:398
+msgid "CTRL+SHIFT+D"
+msgstr "CTRL+SHIFT+D"
+
+#: view/tabwidget.cpp:399
+msgid "Close Tab"
+msgstr "关闭标签"
+
+#: view/tabwidget.cpp:399
+msgid "Close this tab"
+msgstr "关闭此标签"
+
+#: view/tabwidget.cpp:400
+msgid "CTRL+SHIFT+W"
+msgstr "CTRL+SHIFT+W"
+
+#: view/tabwidget.cpp:401
+msgid "Move Tab Left"
+msgstr "标签左移"
+
+#: view/tabwidget.cpp:402
+msgid "CTRL+SHIFT+LEFT"
+msgstr "CTRL+SHIFT+LEFT"
+
+#: view/tabwidget.cpp:403
+msgid "Move Tab Right"
+msgstr "标签右移"
+
+#: view/tabwidget.cpp:404
+msgid "CTRL+SHIFT+RIGHT"
+msgstr "CTRL+SHIFT+RIGHT"
+
+#: view/tabwidget.cpp:405
+msgid "Hierarchical Certificate List"
+msgstr "层次证书列表"
+
+#: view/tabwidget.cpp:408
+msgid "CTRL+."
+msgstr "CTRL+."
+
+#: view/tabwidget.cpp:410
+msgid "CTRL+,"
+msgstr "CTRL+,"
+
+#: view/tabwidget.cpp:535
+msgid "Rename Tab"
+msgstr "重命名标签"
+
+#: view/tabwidget.cpp:535
+msgid "New tab title:"
+msgstr "新标签标题："
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#, fuzzy
+#~| msgid "&Tools"
+#~ msgid "Tools"
+#~ msgstr "工具(&T)"
+
+#~ msgid "Listing private X.509 certificates"
+#~ msgstr "列出私有的 X.509 证书"
+
+#~ msgid "Listing private OpenPGP certificates"
+#~ msgstr "列出私有的 OpenPGP 证书"
+
+#~ msgid "qttest"
+#~ msgstr "qttest"
+
+#~ msgid "VerificationResultDialog Test"
+#~ msgstr "验证结果对话框测试"
+
+#~ msgid "Signature file"
+#~ msgstr "签名文件"
+
+#~ msgid "Data file"
+#~ msgstr "数据文件"
+
+#~ msgid "FlatKeyListModel Test"
+#~ msgstr "平坦密钥列表模型测试"
+
+#~ msgid "Perform flat certificate listing"
+#~ msgstr "执行平坦证书列表操作"
+
+#~ msgid "Perform hierarchical certificate listing"
+#~ msgstr "执行分层证书列表操作"
+
+#~ msgid "Do not list SMIME certificates"
+#~ msgstr "不列出 SMIME 证书"
+
+#~ msgid "List secret keys only"
+#~ msgstr "只列出绝密密钥"
+
+#~ msgid "UserIDListModel Test"
+#~ msgstr "用户编号列表模型测试"
+
+#~ msgid "OpenPGP certificate to look up"
+#~ msgstr "要查阅的 OpenPGP 证书"
+
+#~ msgid "X.509 certificate to look up"
+#~ msgstr "要查阅的 X.509 证书"
+
+#~ msgid "Secret Certificate Deletion"
+#~ msgstr "私密证书删除"
+
+#~ msgid "'extensions' entry is empty/missing"
+#~ msgstr "“extensions”字段为空或缺失"

@@ -1,0 +1,2348 @@
+# translation of cupsdconf4.po to Chinese Simplified
+# Copyright (C) 2007 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.net.cn>, 2001
+# Wang Fuchuan <wangfuchuan@intasect.com>,2002
+# Liu Songhe <jackliu9999@263.net>, 2002.
+# Funda Wang <fundawang@linux.net.cn>, 2004
+# Liang Qi <cavendish.qi@gmail.com>, 2007
+msgid ""
+msgstr ""
+"Project-Id-Version: cupsdconf4\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 06:00+0200\n"
+"PO-Revision-Date: 2007-09-16 10:23+0200\n"
+"Last-Translator: Liang Qi <cavendish.qi@gmail.com>\n"
+"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: addressdialog.cpp:32
+msgid "ACL Address"
+msgstr "ACL 地址"
+
+#: addressdialog.cpp:43 browsedialog.cpp:47
+msgid "Allow"
+msgstr "允许"
+
+#: addressdialog.cpp:44 browsedialog.cpp:48
+msgid "Deny"
+msgstr "拒绝"
+
+#: addressdialog.cpp:46 browsedialog.cpp:52
+msgid "Type:"
+msgstr "类型："
+
+#: addressdialog.cpp:47 portdialog.cpp:50
+msgid "Address:"
+msgstr "地址："
+
+#: browsedialog.cpp:46
+msgid "Send"
+msgstr "发送"
+
+#: browsedialog.cpp:49
+msgid "Relay"
+msgstr "轮换"
+
+#: browsedialog.cpp:50
+msgid "Poll"
+msgstr "轮询"
+
+#: browsedialog.cpp:53
+msgid "From:"
+msgstr "来自："
+
+#: browsedialog.cpp:54
+msgid "To:"
+msgstr "寄给："
+
+#: browsedialog.cpp:69
+msgid "Browse Address"
+msgstr "浏览地址"
+
+#: cupsd.conf.template.cpp:1
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Server name (ServerName)</b>\n"
+"<p>\n"
+"The hostname of your server, as advertised to the world.\n"
+"By default CUPS will use the hostname of the system.</p>\n"
+"<p>\n"
+"To set the default server used by clients, see the client.conf file.</p>\n"
+"<p>\n"
+"<i>ex</i>: myhost.domain.com</p>\n"
+msgstr ""
+"<b>服务器名称(ServerName)</b>\n"
+"<p>\n"
+"您的服务器公布给全世界的主机名。\n"
+"默认情况下，CUPS 将会使用系统的主机名。</p>\n"
+"<p>\n"
+"要设置客户端所用的默认服务器，请参考 client.conf 文件。</p>\n"
+"<p>\n"
+"<i>如</i>：myhost.domain.com</p>\n"
+
+#: cupsd.conf.template.cpp:11
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Server administrator (ServerAdmin)</b>\n"
+"<p>\n"
+"The email address to send all complaints or problems to.\n"
+"By default CUPS will use \"root@hostname\".</p>\n"
+"<p>\n"
+"<i>ex</i>: root@myhost.com</p>\n"
+msgstr ""
+"<b>服务器管理员(ServerAdmin)</b>\n"
+"<p>\n"
+"用于接收所有抱怨和问题所使用的电子邮件地址。\n"
+"默认情况下，CUPS 将会使用“root@主机名”。</p>\n"
+"<p>\n"
+"<i>如</i>：root@myhost.com</p>\n"
+
+#: cupsd.conf.template.cpp:19
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Access log (AccessLog)</b>\n"
+"<p>\n"
+"The access log file; if this does not start with a leading /\n"
+"then it is assumed to be relative to ServerRoot.  By default set to\n"
+"\"/var/log/cups/access_log\".</p>\n"
+"<p>\n"
+"You can also use the special name <b>syslog</b> to send the output to the\n"
+"syslog file or daemon.</p>\n"
+"<p>\n"
+"<i>ex</i>: /var/log/cups/access_log</p>\n"
+msgstr ""
+"<b>访问日志(AccessLog)</b>\n"
+"<p>\n"
+"访问日志文件；如果它没有以/开始，\n"
+"那么将会假设它是相对于ServerRoot的。默认情况下会被设置为\n"
+"“/var/log/cups/access_log”。</p>\n"
+"<p>\n"
+"您还可以使用特定的名称<b>syslog</b>，这样可以把输出发送到\n"
+"syslog文件或者进程。</p>\n"
+"<p>\n"
+"<i>如</i>：/var/log/cups/access_log</p>\n"
+
+#: cupsd.conf.template.cpp:31
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Data directory (DataDir)</b>\n"
+"<p>\n"
+"The root directory for the CUPS data files.\n"
+"By default /usr/share/cups.</p>\n"
+"<p>\n"
+"<i>ex</i>: /usr/share/cups</p>\n"
+msgstr ""
+"<b>数据目录(DataDir)</b>\n"
+"<p>\n"
+"用于存放 CUPS 数据文件的根目录。\n"
+"默认情况下是 /usr/share/cups 。</p>\n"
+"<p>\n"
+"<i>如</i>：/usr/share/cups</p>\n"
+
+#: cupsd.conf.template.cpp:39
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Default character set (DefaultCharset)</b>\n"
+"<p>\n"
+"The default character set to use. If not specified,\n"
+"defaults to utf-8.  Note that this can also be overridden in\n"
+"HTML documents...</p>\n"
+"<p>\n"
+"<i>ex</i>: utf-8</p>\n"
+msgstr ""
+"<b>默认字符集(DefaultCharset)</b>\n"
+"<p>\n"
+"所使用的默认字符集。如果没有被指定，\n"
+"默认使用 utf-8。注意这个选项会被HTML文档中的设置覆盖。</p>\n"
+"<p>\n"
+"<i>如</i>：utf-8</p>\n"
+
+#: cupsd.conf.template.cpp:48
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Default language (DefaultLanguage)</b>\n"
+"<p>\n"
+"The default language if not specified by the browser.\n"
+"If not specified, the current locale is used.</p>\n"
+"<p>\n"
+"<i>ex</i>: en</p>\n"
+msgstr ""
+"<b>默认语言(DefaultLanguage)</b>\n"
+"<p>\n"
+"如果浏览器没有指定的情况下，使用的默认语言。\n"
+"如果没有指定，将会使用当前的区域设置。</p>\n"
+"<p>\n"
+"<i>如</i>：en</p>\n"
+
+#: cupsd.conf.template.cpp:56
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Document directory (DocumentRoot)</b>\n"
+"<p>\n"
+"The root directory for HTTP documents that are served.\n"
+"By default the compiled-in directory.</p>\n"
+"<p>\n"
+"<i>ex</i>: /usr/share/cups/doc</p>\n"
+msgstr ""
+"<b>文档目录(DocumentRoot)</b>\n"
+"<p>\n"
+"用于存放 HTTP 文档的根目录。\n"
+"默认使用源代码中固定的目录。</p>\n"
+"<p>\n"
+"<i>如</i>：/usr/share/cups/doc</p>\n"
+
+#: cupsd.conf.template.cpp:64
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Error log (ErrorLog)</b>\n"
+"<p>\n"
+"The error log file; if this does not start with a leading /\n"
+"then it is assumed to be relative to ServerRoot.  By default set to\n"
+"\"/var/log/cups/error_log\".</p>\n"
+"<p>\n"
+"You can also use the special name <b>syslog</b> to send the output to the\n"
+"syslog file or daemon.</p>\n"
+"<p>\n"
+"<i>ex</i>: /var/log/cups/error_log</p>\n"
+msgstr ""
+"<b>错误日志(ErrorLog)</b>\n"
+"<p>\n"
+"错误日志文件；如果它没有以/开始，\n"
+"那么将会假设它是相对于ServerRoot的。默认情况下会被设置为\n"
+"“/var/log/cups/error_log”。</p>\n"
+"<p>\n"
+"您还可以使用特定的名称<b>syslog</b>，这样可以把输出发送到\n"
+"syslog文件或者进程。</p>\n"
+"<p>\n"
+"<i>如</i>：/var/log/cups/error_log</p>\n"
+
+#: cupsd.conf.template.cpp:76
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Font path (FontPath)</b>\n"
+"<p>\n"
+"The path to locate all font files (currently only for pstoraster).\n"
+"By default /usr/share/cups/fonts.</p>\n"
+"<p>\n"
+"<i>ex</i>: /usr/share/cups/fonts</p>\n"
+msgstr ""
+"<b>字体路径(FontPath)</b>\n"
+"<p>\n"
+"用于定位所有字体文件的路径(当前只用于 pstoraster)。\n"
+"默认情况下使用 /usr/share/cups/fonts。</p>\n"
+"<p>\n"
+"<i>如</i>：/usr/share/cups/fonts</p>\n"
+
+#: cupsd.conf.template.cpp:84
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Log level (LogLevel)</b>\n"
+"<p>\n"
+"Controls the number of messages logged to the ErrorLog\n"
+"file and can be one of the following:</p>\n"
+"<ul type=circle>\n"
+"<li><i>debug2</i>:     Log everything.</li>\n"
+"<li><i>debug</i>:     Log almost everything.</li>\n"
+"<li><i>info</i>:      Log all requests and state changes.</li>\n"
+"<li><i>warn</i>:      Log errors and warnings.</li>\n"
+"<li><i>error</i>:     Log only errors.</li>\n"
+"<li><i>none</i>:      Log nothing.</li>\n"
+"</ul><p>\n"
+"<i>ex</i>: info</p>\n"
+msgstr ""
+"<b>日志等级(LogLevel)</b>\n"
+"<p>\n"
+"用于控制记录到错误日志文件中的消息数量，\n"
+"它可以是下列各值中的一个：</p>\n"
+"<ul type=circle>\n"
+"<li><i>debug2</i>：    记录全部。</li>\n"
+"<li><i>debug</i>：    记录几乎全部。</li>\n"
+"<li><i>info</i>：     记录所有的请求和状态变化。</li>\n"
+"<li><i>warn</i>：     记录错误和警告。</li>\n"
+"<li><i>error</i>：    仅记录错误</li>\n"
+"<li><i>none</i>：     什么都不记录。</li>\n"
+"</ul><p>\n"
+"<i>如</i>：info</p>\n"
+
+#: cupsd.conf.template.cpp:99
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Max log size (MaxLogSize)</b>\n"
+"<p>\n"
+"Controls the maximum size of each log file before they are\n"
+"rotated.  Defaults to 1048576 (1MB).  Set to 0 to disable log rotating.</p>\n"
+"<p>\n"
+"<i>ex</i>: 1048576</p>\n"
+msgstr ""
+"<b>最大日志大小(MaxLogSize)</b>\n"
+"<p>\n"
+"在切换日志文件之前，用于控制每一个日志文件的大小。\n"
+"默认为1048576(1MB)。设置为 0 会禁止切换日志文件。</p>\n"
+"<p>\n"
+"<i>如</i>：1048576</p>\n"
+
+#: cupsd.conf.template.cpp:107
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Page log (PageLog)</b>\n"
+"<p>\n"
+"The page log file; if this does not start with a leading /\n"
+"then it is assumed to be relative to ServerRoot.  By default set to\n"
+"\"/var/log/cups/page_log\".</p>\n"
+"<p>\n"
+"You can also use the special name <b>syslog</b> to send the output to the\n"
+"syslog file or daemon.</p>\n"
+"<p>\n"
+"<i>ex</i>: /var/log/cups/page_log</p>\n"
+msgstr ""
+"<b>页面日志(PageLog)</b>\n"
+"<p>\n"
+"页面日志文件；如果它没有以/开始，\n"
+"那么将会假设它是相对于ServerRoot的。默认情况下会被设置为\n"
+"“/var/log/cups/page_log”。</p>\n"
+"<p>\n"
+"您还可以使用特定的名称<b>syslog</b>，这样可以把输出发送到\n"
+"syslog文件或者进程。</p>\n"
+"<p>\n"
+"<i>如</i>：/var/log/cups/page_log</p>\n"
+
+#: cupsd.conf.template.cpp:119
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Preserve job history (PreserveJobHistory)</b>\n"
+"<p>\n"
+"Whether or not to preserve the job history after a\n"
+"job is completed, canceled, or stopped.  Default is Yes.</p>\n"
+"<p>\n"
+"<i>ex</i>: Yes</p>\n"
+msgstr ""
+"<b>保存任务历史(PreserveJobHistory)</b>\n"
+"<p>\n"
+"在任务完成、取消或者停止之后，\n"
+"是否保存任务历史。默认是 Yes (保存)。</p>\n"
+"<p>\n"
+"<i>如</i>：Yes</p>\n"
+
+#: cupsd.conf.template.cpp:127
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Preserve job files (PreserveJobFiles)</b>\n"
+"<p>\n"
+"Whether or not to preserve the job files after a\n"
+"job is completed, canceled, or stopped.  Default is No.</p>\n"
+"<p>\n"
+"<i>ex</i>: No</p>\n"
+msgstr ""
+"<b>保存任务文件(PreserveJobFiles)</b>\n"
+"<p>\n"
+"在任务完成、取消或者停止之后，\n"
+"是否保存任务文件。默认是 No (不保存)。</p>\n"
+"<p>\n"
+"<i>如</i>：No</p>\n"
+
+#: cupsd.conf.template.cpp:135
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Printcap file (Printcap)</b>\n"
+"<p>\n"
+"The name of the printcap file.  Default is no filename.\n"
+"Leave blank to disable printcap file generation.</p>\n"
+"<p>\n"
+"<i>ex</i>: /etc/printcap</p>\n"
+msgstr ""
+"<b>Printcap 文件(Printcap)</b>\n"
+"<p>\n"
+"Printcap 文件的名称。默认没有文件名。\n"
+"保留空白会禁止 printcap 文件的产生。</p>\n"
+"<p>\n"
+"<i>如</i>：/etc/printcap</p>\n"
+
+#: cupsd.conf.template.cpp:143
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Request directory (RequestRoot)</b>\n"
+"<p>\n"
+"The directory where request files are stored.\n"
+"By default /var/spool/cups.</p>\n"
+"<p>\n"
+"<i>ex</i>: /var/spool/cups</p>\n"
+msgstr ""
+"<b>请求目录(RequestRoot)</b>\n"
+"<p>\n"
+"用于保存请求文件的目录。\n"
+"默认是 /var/spool/cups。</p>\n"
+"<p>\n"
+"<i>如</i>：/var/spool/cups</p>\n"
+
+#: cupsd.conf.template.cpp:151
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Remote root user (RemoteRoot)</b>\n"
+"<p>\n"
+"The name of the user assigned to unauthenticated accesses\n"
+"from remote systems.  By default \"remroot\".</p>\n"
+"<p>\n"
+"<i>ex</i>: remroot</p>\n"
+msgstr ""
+"<b>远程根用户(RemoteRoot)</b>\n"
+"<p>\n"
+"为来自远程系统未经验证的访问指定的用户名。\n"
+"默认是“remroot”。</p>\n"
+"<p>\n"
+"<i>如</i>：remroot</p>\n"
+
+#: cupsd.conf.template.cpp:159
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Server binaries (ServerBin)</b>\n"
+"<p>\n"
+"The root directory for the scheduler executables.\n"
+"By default /usr/lib/cups or /usr/lib32/cups (IRIX 6.5).</p>\n"
+"<p>\n"
+"<i>ex</i>: /usr/lib/cups</p>\n"
+msgstr ""
+"<b>服务器二进制(ServerBin)</b>\n"
+"<p>\n"
+"可执行的调度程序的根目录。\n"
+"默认是 /usr/lib/cups 或 /usr/lib32/cups(IRIX 6.5)。</p>\n"
+"<p>\n"
+"<i>如</i>：/usr/lib/cups</p>\n"
+
+#: cupsd.conf.template.cpp:167
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Server files (ServerRoot)</b>\n"
+"<p>\n"
+"The root directory for the scheduler.\n"
+"By default /etc/cups.</p>\n"
+"<p>\n"
+"<i>ex</i>: /etc/cups</p>\n"
+msgstr ""
+"<b>服务器文件(ServerRoot)</b>\n"
+"<p>\n"
+"调度程序的根目录。\n"
+"默认是 /etc/cups。</p>\n"
+"<p>\n"
+"<i>如</i>：/etc/cups</p>\n"
+
+#: cupsd.conf.template.cpp:175
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>User (User)</b>\n"
+"<p>\n"
+"The user the server runs under.  Normally this\n"
+"must be <b>lp</b>, however you can configure things for another user\n"
+"as needed.</p>\n"
+"<p>\n"
+"Note: the server must be run initially as root to support the\n"
+"default IPP port of 631.  It changes users whenever an external\n"
+"program is run...</p>\n"
+"<p>\n"
+"<i>ex</i>: lp</p>\n"
+msgstr ""
+"<b>用户(User)</b>\n"
+"<p>\n"
+"服务器运行中所使用的用户。通常这个用户\n"
+"必须是 <b>lp</b>，不过如果需要的话，\n"
+"你也可以配置为另外一个用户。</p>\n"
+"<p>\n"
+"注意：这个服务器初始运行的时候需要使用 root，这样才能\n"
+"默认的 IPP 端口 631。只要一个外部程序被运行的时候，\n"
+"它就会改变用户。</p>\n"
+"<p>\n"
+"<i>如</i>：lp</p>\n"
+
+#: cupsd.conf.template.cpp:188
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Group (Group)</b>\n"
+"<p>\n"
+"The group the server runs under.  Normally this\n"
+"must be <b>sys</b>, however you can configure things for another\n"
+"group as needed.</p>\n"
+"<p>\n"
+"<i>ex</i>: sys</p>\n"
+msgstr ""
+"<b>群组(Group)</b>\n"
+"<p>\n"
+"服务器运行中所使用的群组。通常这个群组\n"
+"必须是 <b>sys</b>，不过如果需要的话，\n"
+"你也可以配置为另外一个群组。</p>\n"
+"<p>\n"
+"<i>如</i>：sys</p>\n"
+
+#: cupsd.conf.template.cpp:197
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>RIP cache (RIPCache)</b>\n"
+"<p>\n"
+"The amount of memory that each RIP should use to cache\n"
+"bitmaps.  The value can be any real number followed by \"k\" for\n"
+"kilobytes, \"m\" for megabytes, \"g\" for gigabytes, or \"t\" for tiles\n"
+"(1 tile = 256x256 pixels).  Defaults to \"8m\" (8 megabytes).</p>\n"
+"<p>\n"
+"<i>ex</i>: 8m</p>\n"
+msgstr ""
+"<b>RIP 缓存(RIPCache)</b>\n"
+"<p>\n"
+"用于缓存位图的每一个RIP的内存总量。\n"
+"这个值可以是任何一个真实的数值后面加“k”(代表k字节)、\n"
+"后面加“m”(代表m字节)、后面加“g”(代表g字节)、\n"
+"或者后面加“t”(代表瓦块，1 瓦块 = 256x256 像素)。默认是“8m”(8m字节)。</p>\n"
+"<p>\n"
+"<i>如</i>：8m</p>\n"
+
+#: cupsd.conf.template.cpp:207
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Temporary files (TempDir)</b>\n"
+"<p>\n"
+"The directory to put temporary files in. This directory must be\n"
+"writable by the user defined above!  Defaults to \"/var/spool/cups/tmp\" or\n"
+"the value of the TMPDIR environment variable.</p>\n"
+"<p>\n"
+"<i>ex</i>: /var/spool/cups/tmp</p>\n"
+msgstr ""
+"<b>临时文件(TempDir)</b>\n"
+"<p>\n"
+"用于存放临时文件的目录。这个文件对于上面定义的用户\n"
+"必须是可写的！默认是“/var/spool/cups/tmp”或者是\n"
+"TMPDIR 环境变量的值。</p>\n"
+"<p>\n"
+"<i>如</i>：/var/spool/cups/tmp</p>\n"
+
+#: cupsd.conf.template.cpp:216
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Filter limit (FilterLimit)</b>\n"
+"<p>\n"
+"Sets the maximum cost of all job filters that can be run\n"
+"at the same time.  A limit of 0 means no limit.  A typical job may need\n"
+"a filter limit of at least 200; limits less than the minimum required\n"
+"by a job force a single job to be printed at any time.</p>\n"
+"<p>\n"
+"The default limit is 0 (unlimited).</p>\n"
+"<p>\n"
+"<i>ex</i>: 200</p>\n"
+msgstr ""
+"<b>过滤器限制(FilterLimit)</b>\n"
+"<p>\n"
+"设置同一时间可以运行的针对所有任务的过滤器的最大花费。\n"
+"限制为 0 意味着没有限制。一个典型的任务通常需要\n"
+"过滤器限制至少为 200；如果限制小于一个任务所要求的最小数值，\n"
+"那么这个单一任务在任何时间都可以被打印。</p>\n"
+"<p>\n"
+"默认限制为 0 (没有限制)。</p>\n"
+"<p>\n"
+"<i>如</i>：200</p>\n"
+
+#: cupsd.conf.template.cpp:228
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Listen to (Port/Listen)</b>\n"
+"<p>\n"
+"Ports/addresses that are listened to.  The default port 631 is reserved\n"
+"for the Internet Printing Protocol (IPP) and is what is used here.</p>\n"
+"<p>\n"
+"You can have multiple Port/Listen lines to listen to more than one\n"
+"port or address, or to restrict access.</p>\n"
+"<p>\n"
+"Note: Unfortunately, most web browsers don't support TLS or HTTP Upgrades\n"
+"for encryption.  If you want to support web-based encryption you will\n"
+"probably need to listen on port 443 (the \"HTTPS\" port...).</p>\n"
+"<p>\n"
+"<i>ex</i>: 631, myhost:80, 1.2.3.4:631</p>\n"
+msgstr ""
+"<b>监听(Port/Listen)</b>\n"
+"<p>\n"
+"被监听的端口/地址。默认端口 631 就是为互联网打印协议(IPP)预留的，\n"
+"也正是这里所要使用的。</p>\n"
+"<p>\n"
+"你可以有多个 Port/Listen 行来监听一个以上的端口或者地址，\n"
+"或者用来限制访问。</p>\n"
+"<p>\n"
+"注意：不幸的是，绝大多数网页浏览器对于加密都不支持\n"
+"TLS 或者升级的 HTTP。如果你想支持基于网页的加密，\n"
+"你也许需要监听 443 端口(“HTTPS”端口)。.</p>\n"
+"<p>\n"
+"<i>如</i>：631、myhost:80、1.2.3.4:631</p>\n"
+
+#: cupsd.conf.template.cpp:243
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Hostname lookups (HostNameLookups)</b>\n"
+"<p>\n"
+"Whether or not to do lookups on IP addresses to get a\n"
+"fully-qualified hostname.  This defaults to Off for performance reasons...</"
+"p>\n"
+"<p>\n"
+"<i>ex</i>: On</p>\n"
+msgstr ""
+"<b>主机名查询(HostNameLookups)</b>\n"
+"<p>\n"
+"是否对 IP 地址进行查询得到一个完全有资格的主机名。\n"
+"因为性能等原因，这里默认值为 Off (不查询)。</p>\n"
+"<p>\n"
+"<i>如</i>：On</p>\n"
+
+#: cupsd.conf.template.cpp:251
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Keep alive (KeepAlive)</b>\n"
+"<p>\n"
+"Whether or not to support the Keep-Alive connection\n"
+"option.  Default is on.</p>\n"
+"<p>\n"
+"<i>ex</i>: On</p>\n"
+msgstr ""
+"<b>保持连接(KeepAlive)</b>\n"
+"<p>\n"
+"是否支持保持连接选项。\n"
+"默认是 On (支持)。</p>\n"
+"<p>\n"
+"<i>如</i>：On</p>\n"
+
+#: cupsd.conf.template.cpp:259
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Keep-alive timeout (KeepAliveTimeout)</b>\n"
+"<p>\n"
+"The timeout (in seconds) before Keep-Alive connections are\n"
+"automatically closed.  Default is 60 seconds.</p>\n"
+"<p>\n"
+"<i>ex</i>: 60</p>\n"
+msgstr ""
+"<b>保持连接超时(KeepAliveTimeout)</b>\n"
+"<p>\n"
+"保持的连接被自动关闭之前的时间限制(以秒为单位)。\n"
+"默认是 60 秒。</p>\n"
+"<p>\n"
+"<i>如</i>：60</p>\n"
+
+#: cupsd.conf.template.cpp:267
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Max clients (MaxClients)</b>\n"
+"<p>\n"
+"Controls the maximum number of simultaneous clients that\n"
+"will be handled.  Defaults to 100.</p>\n"
+"<p>\n"
+"<i>ex</i>: 100</p>\n"
+msgstr ""
+"<b>最大客户端数量(MaxClients)</b>\n"
+"<p>\n"
+"用于控制可以被处理的并发客户端的最大数量。\n"
+"默认是 100。</p>\n"
+"<p>\n"
+"<i>如</i>：100</p>\n"
+
+#: cupsd.conf.template.cpp:275
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Max request size (MaxRequestSize)</b>\n"
+"<p>\n"
+"Controls the maximum size of HTTP requests and print files.\n"
+"Set to 0 to disable this feature (defaults to 0).</p>\n"
+"<p>\n"
+"<i>ex</i>: 0</p>\n"
+msgstr ""
+"<b>最大请求大小(MaxRequestSize)</b>\n"
+"<p>\n"
+"用于控制 HTTP 请求和打印文件的最大大小。\n"
+"设置为 0 意味着关闭这个特性(默认为 0)。</p>\n"
+"<p>\n"
+"<i>如</i>：0</p>\n"
+
+#: cupsd.conf.template.cpp:283
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Client timeout (Timeout)</b>\n"
+"<p>\n"
+"The timeout (in seconds) before requests time out.  Default is 300 seconds.</"
+"p>\n"
+"<p>\n"
+"<i>ex</i>: 300</p>\n"
+msgstr ""
+"<b>客户端超时(Timeout)</b>\n"
+"<p>\n"
+"在请求超时之前的时间限制(以秒为单位)。默认是 300 秒。</p>\n"
+"<p>\n"
+"<i>如</i>：300</p>\n"
+
+#: cupsd.conf.template.cpp:290
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Use browsing (Browsing)</b>\n"
+"<p>\n"
+"Whether or not to <b>listen</b> to printer \n"
+"information from other CUPS servers.  \n"
+"</p>\n"
+"<p>\n"
+"Enabled by default.\n"
+"</p>\n"
+"<p>\n"
+"Note: to enable the <b>sending</b> of browsing\n"
+"information from this CUPS server to the LAN,\n"
+"specify a valid <i>BrowseAddress</i>.\n"
+"</p>\n"
+"<p>\n"
+"<i>ex</i>: On</p>\n"
+msgstr ""
+"<b>使用浏览(Browsing)</b>\n"
+"<p>\n"
+"是否<b>监听</b>来自于其它 CUPS 服务器的\n"
+"打印机信息。\n"
+"</p>\n"
+"<p>\n"
+"默认是打开的。\n"
+"</p>\n"
+"<p>\n"
+"注意：为了从这个 CUPS 服务器向局域网<b>发送</b>\n"
+"浏览信息，需要指定一个有效的<i>浏览地址(BrowseAddress)</i>。\n"
+"</p>\n"
+"<p>\n"
+"<i>如</i>：On</p>\n"
+
+#: cupsd.conf.template.cpp:307
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Use short names (BrowseShortNames)</b>\n"
+"<p>\n"
+"Whether or not to use \"short\" names for remote printers\n"
+"when possible (e.g. \"printer\" instead of \"printer@host\").  Enabled by\n"
+"default.</p>\n"
+"<p>\n"
+"<i>ex</i>: Yes</p>\n"
+msgstr ""
+"<b>使用简称(BrowseShortNames)</b>\n"
+"<p>\n"
+"如果可能的话，是否为远程打印机使用\n"
+"“简称”(例如，用“printer”代替“printer@host”)。\n"
+"默认是打开的。</p>\n"
+"<p>\n"
+"<i>如</i>：Yes</p>\n"
+
+#: cupsd.conf.template.cpp:316
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Browse addresses (BrowseAddress)</b>\n"
+"<p>\n"
+"Specifies a broadcast address to be used.  By\n"
+"default browsing information is broadcast to all active interfaces.</p>\n"
+"<p>\n"
+"Note: HP-UX 10.20 and earlier do not properly handle broadcast unless\n"
+"you have a Class A, B, C, or D netmask (i.e. no CIDR support).</p>\n"
+"<p>\n"
+"<i>ex</i>: x.y.z.255, x.y.255.255</p>\n"
+msgstr ""
+"<b>浏览地址(BrowseAddress)</b>\n"
+"<p>\n"
+"指定一个用于广播的地址。默认情况下，\n"
+"浏览信息会向所有激活的接口广播。</p>\n"
+"<p>\n"
+"注意：HP-UX 10.20 和更早的版本不能够正确处理广播，\n"
+"除非你使用 Class A 、B、C 或者 D 网络掩码(例如，没有 CIDR 支持)。</p>\n"
+"<p>\n"
+"<i>如</i>：x.y.z.255、x.y.255.255</p>\n"
+
+#: cupsd.conf.template.cpp:327
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Browse allow/deny (BrowseAllow/BrowseDeny)</b>\n"
+"<p>\n"
+"<u>BrowseAllow</u>: specifies an address mask to allow for incoming browser\n"
+"packets. The default is to allow packets from all addresses.</p>\n"
+"<p>\n"
+"<u>BrowseDeny</u>: specifies an address mask to deny for incoming browser\n"
+"packets. The default is to deny packets from no addresses.</p>\n"
+"<p>\n"
+"Both \"BrowseAllow\" and \"BrowseDeny\" accept the following notations for\n"
+"addresses:</p>\n"
+"<pre>\n"
+"All\n"
+"None\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"</pre><p>\n"
+"The hostname/domainname restrictions only work if you have turned hostname\n"
+"lookups on!</p>\n"
+msgstr ""
+"<b>浏览允许/拒绝(BrowseAllow/BrowseDeny)</b>\n"
+"<p>\n"
+"<u>BrowseAllow</u>：指定一个允许进入的浏览器包的地址掩码。\n"
+"默认是允许来自所有地址的包。</p>\n"
+"<p>\n"
+"<u>BrowseDeny</u>：: 指定一个拒绝进入的浏览器包的地址掩码。\n"
+"默认是不拒绝来自任一地址的包。</p>\n"
+"<p>\n"
+"“BrowseAllow”和“BrowseDeny”都接受地址符号：</p>\n"
+"<pre>\n"
+"All\n"
+"None\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"</pre><p>\n"
+"主机名或者域名限制只有在你打开主机名查询选项的时候才能工作！</p>\n"
+
+#: cupsd.conf.template.cpp:354
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Browse interval (BrowseInterval)</b>\n"
+"<p>\n"
+"The time between browsing updates in seconds.  Default\n"
+"is 30 seconds.</p>\n"
+"<p>\n"
+"Note that browsing information is sent whenever a printer's state changes\n"
+"as well, so this represents the maximum time between updates.</p>\n"
+"<p>\n"
+"Set this to 0 to disable outgoing broadcasts so your local printers are\n"
+"not advertised but you can still see printers on other hosts.</p>\n"
+"<p>\n"
+"<i>ex</i>: 30</p>\n"
+msgstr ""
+"<b>浏览时间间隔(BrowseInterval)</b>\n"
+"<p>\n"
+"浏览更新的时间间隔(单位是秒)。\n"
+"默认是 30 秒。</p>\n"
+"<p>\n"
+"注意只要一个打印进的状态发生改变，那么浏览信息就会被发送。\n"
+"所以这个参数代表的是两次更新之间的最大时间。</p>\n"
+"<p>\n"
+"设置这个参数为 0 就禁止了向外广播，这样您的本地打印机\n"
+"就不会被外人所知，但是您仍然可以看到其它主机上的打印机。</p>\n"
+"<p>\n"
+"<i>如</i>：30</p>\n"
+
+#: cupsd.conf.template.cpp:368
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Browse order (BrowseOrder)</b>\n"
+"<p>\n"
+"Specifies the order of BrowseAllow/BrowseDeny comparisons.</p>\n"
+"<p>\n"
+"<i>ex</i>: allow,deny</p>\n"
+msgstr ""
+"<b>浏览顺序(BrowseOrder)</b>\n"
+"<p>\n"
+"指定 BrowseAllow/BrowseDeny 比较的顺序。</p>\n"
+"<p>\n"
+"<i>如</i>：allow,deny</p>\n"
+
+#: cupsd.conf.template.cpp:375
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Browse poll (BrowsePoll)</b>\n"
+"<p>\n"
+"Poll the named server(s) for printers.</p>\n"
+"<p>\n"
+"<i>ex</i>: myhost:631</p>\n"
+msgstr ""
+"<b>浏览轮询(BrowsePoll)</b>\n"
+"<p>\n"
+"通过给定的服务器轮询打印机信息。</p>\n"
+"<p>\n"
+"<i>如</i>：myhost:631</p>\n"
+
+#: cupsd.conf.template.cpp:382
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Browse port (BrowsePort)</b>\n"
+"<p>\n"
+"The port used for UDP broadcasts.  By default this is\n"
+"the IPP port; if you change this you need to do it on all servers.\n"
+"Only one BrowsePort is recognized.</p>\n"
+"<p>\n"
+"<i>ex</i>: 631</p>\n"
+msgstr ""
+"<b>浏览端口(BrowsePort)</b>\n"
+"<p>\n"
+"用于 UDP 广播的端口。默认是 IPP 端口；\n"
+"如果你改变了这个选项，你还需要对所有服务器做相同的变化。\n"
+"只有一个 BrowsePort 会被识别。</p>\n"
+"<p>\n"
+"<i>如</i>：631</p>\n"
+
+#: cupsd.conf.template.cpp:391
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Browse relay (BrowseRelay)</b>\n"
+"<p>\n"
+"Relay browser packets from one address/network to another.</p>\n"
+"<p>\n"
+"<i>ex</i>: src-address dest-address</p>\n"
+msgstr ""
+"<b>浏览轮换(BrowseRelay)</b>\n"
+"<p>\n"
+"从一个地址或者网络把浏览器包轮换到另外一个。</p>\n"
+"<p>\n"
+"<i>如</i>：src-address dest-address</p>\n"
+
+#: cupsd.conf.template.cpp:398
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Browse timeout (BrowseTimeout)</b>\n"
+"<p>\n"
+"The timeout (in seconds) for network printers - if we don't\n"
+"get an update within this time the printer will be removed\n"
+"from the printer list.  This number definitely should not be\n"
+"less the BrowseInterval value for obvious reasons.  Defaults\n"
+"to 300 seconds.</p>\n"
+"<p>\n"
+"<i>ex</i>: 300</p>\n"
+msgstr ""
+"<b>浏览超时(BrowseTimeout)</b>\n"
+"<p>\n"
+"网络打印机的超时时间(以秒为单位)——如果我们在这个时间内，\n"
+"没有得到一个打印进的更新，那么我们将会从打印机列表中移除它。\n"
+"显而易见，这个数字的定义必须不小于 BrowseInterval 值。\n"
+"默认是 300 秒。</p>\n"
+"<p>\n"
+"<i>如</i>：300</p>\n"
+
+#: cupsd.conf.template.cpp:409
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Implicit classes (ImplicitClasses)</b>\n"
+"<p>\n"
+"Whether or not to use implicit classes.</p>\n"
+"<p>\n"
+"Printer classes can be specified explicitly in the classes.conf\n"
+"file, implicitly based upon the printers available on the LAN, or\n"
+"both.</p>\n"
+"<p>\n"
+"When ImplicitClasses is On, printers on the LAN with the same name\n"
+"(e.g. Acme-LaserPrint-1000) will be put into a class with the same\n"
+"name. This allows you to setup multiple redundant queues on a LAN\n"
+"without a lot of administrative difficulties.  If a user sends a\n"
+"job to Acme-LaserPrint-1000, the job will go to the first available\n"
+"queue.</p>\n"
+"<p>\n"
+"Enabled by default.</p>\n"
+msgstr ""
+"<b>隐含类(ImplicitClasses)</b>\n"
+"<p>\n"
+"是否使用隐含类。</p>\n"
+"<p>\n"
+"打印机类可以在 classes.conf 文件中显示地指定，\n"
+"隐含地基于本地局域网可用的打印机，或者\n"
+"两个都有。</p>\n"
+"<p>\n"
+"当 ImplicitClasses 为 On(打开)时，在本地局域网中有\n"
+"相同名称(例如 Acme-LaserPrint-1000)的打印机将会被放到\n"
+"使用这个名称的类中。这样可以允许您在不需要大量的管理难度\n"
+"情况下在本地局域网中设置多个冗余队列。如果一个用户\n"
+"向 Acme-LaserPrint-1000 发送一个任务，这个任务会被发送\n"
+"到第一个可用的队列中。</p>\n"
+"<p>\n"
+"默认是打开的。</p>\n"
+
+#: cupsd.conf.template.cpp:427
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>System group (SystemGroup)</b>\n"
+"<p>\n"
+"The group name for \"System\" (printer administration)\n"
+"access.  The default varies depending on the operating system, but\n"
+"will be <b>sys</b>, <b>system</b>, or <b>root</b> (checked for in that "
+"order).</p>\n"
+"<p>\n"
+"<i>ex</i>: sys</p>\n"
+msgstr ""
+"<b>系统群组(SystemGroup)</b>\n"
+"<p>\n"
+"用于“系统”(打印机管理员)访问的群组。\n"
+"默认依赖于操作系统，但是应该是<b>sys</b>、\n"
+"<b>system</b>或者<b>root</b>(按这个顺序检查)。</p>\n"
+"<p>\n"
+"<i>如</i>：sys</p>\n"
+
+#: cupsd.conf.template.cpp:436
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Encryption certificate (ServerCertificate)</b>\n"
+"<p>\n"
+"The file to read containing the server's certificate.\n"
+"Defaults to \"/etc/cups/ssl/server.crt\".</p>\n"
+"<p>\n"
+"<i>ex</i>: /etc/cups/ssl/server.crt</p>\n"
+msgstr ""
+"<b>加密证书(ServerCertificate)</b>\n"
+"<p>\n"
+"用于读取包含这个服务器的证书的文件。\n"
+"默认是“/etc/cups/ssl/server.crt”。</p>\n"
+"<p>\n"
+"<i>如</i>：/etc/cups/ssl/server.crt</p>\n"
+
+#: cupsd.conf.template.cpp:444
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Encryption key (ServerKey)</b>\n"
+"<p>\n"
+"The file to read containing the server's key.\n"
+"Defaults to \"/etc/cups/ssl/server.key\".</p>\n"
+"<p>\n"
+"<i>ex</i>: /etc/cups/ssl/server.key</p>\n"
+msgstr ""
+"<b>加密密钥(ServerKey)</b>\n"
+"<p>\n"
+"用于读取包含这个服务器密钥的文件。\n"
+"默认是“/etc/cups/ssl/server.key”。</p>\n"
+"<p>\n"
+"<i>如</i>：/etc/cups/ssl/server.key</p>\n"
+
+#: cupsd.conf.template.cpp:452
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"Access permissions\n"
+"# Access permissions for each directory served by the scheduler.\n"
+"Locations are relative to DocumentRoot...\n"
+"# AuthType: the authorization to use:\n"
+"#    None   - Perform no authentication\n"
+"Basic  - Perform authentication using the HTTP Basic method.\n"
+"Digest - Perform authentication using the HTTP Digest method.\n"
+"#    (Note: local certificate authentication can be substituted by\n"
+"the client for Basic or Digest when connecting to the\n"
+"localhost interface)\n"
+"# AuthClass: the authorization class; currently only Anonymous, User,\n"
+"System (valid user belonging to group SystemGroup), and Group\n"
+"(valid user belonging to the specified group) are supported.\n"
+"# AuthGroupName: the group name for \"Group\" authorization.\n"
+"# Order: the order of Allow/Deny processing.\n"
+"# Allow: allows access from the specified hostname, domain, IP address, or\n"
+"network.\n"
+"# Deny: denies access from the specified hostname, domain, IP address, or\n"
+"network.\n"
+"# Both \"Allow\" and \"Deny\" accept the following notations for addresses:\n"
+"#     All\n"
+"None\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"# The host and domain address require that you enable hostname lookups\n"
+"with \"HostNameLookups On\" above.\n"
+"# Encryption: whether or not to use encryption; this depends on having\n"
+"the OpenSSL library linked into the CUPS library and scheduler.\n"
+"# Possible values:\n"
+"#     Always       - Always use encryption (SSL)\n"
+"Never        - Never use encryption\n"
+"Required     - Use TLS encryption upgrade\n"
+"IfRequested  - Use encryption if the server requests it\n"
+"# The default value is \"IfRequested\".\n"
+msgstr ""
+"访问权限\n"
+"# 由调度器所提供的每一个目录的访问权限。\n"
+"位置是相对于 DocumentRoot 的。\n"
+"# AuthType：可以使用的验证：\n"
+"#    None   - 不执行验证\n"
+"Basic  - 使用 HTTP 基本方式进行验证。\n"
+"Digest - 使用 HTTP 摘要方式进行验证。\n"
+"#    (注意：对于 Basic 或者 Digest，当连接到 localhost 接口时，\n"
+"本地证书验证会被客户端替代。)\n"
+"# AuthClass：验证类；当前只有 Anonymous、User、\n"
+"System(属于 SystemGroup 群组的有效用户)和 Group\n"
+"(属于特定群组的有效用户)是被支持的。\n"
+"# AuthGroupName：用于“群组”验证的群组名称。\n"
+"# Order：允许或者拒绝处理的顺序。\n"
+"# Allow：允许来自于指定的主机名、域名、IP 地址或者网络的访问。\n"
+"# Deny：拒绝来自于指定的主机名、域名、IP 地址或者网络的访问。\n"
+"# “Allow”和“Deny”都支持如下地址标记：\n"
+"#     All\n"
+"None\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"# 主机名和域名地址需要您使用上述的“HostNameLookups On”\n"
+"选项打开主机名查询。\n"
+"# Encryption：是否使用加密；这个选项依赖于 CUPS 库和调度器\n"
+"是否链接了 OpenSSL 库。\n"
+"# 可能的值有：\n"
+"#     Always       - 总是使用加密(SSL)\n"
+"Never        - 从不使用加密\n"
+"Required     - 使用 TLS 加密升级\n"
+"IfRequested  - 如果服务器需要，就使用加密\n"
+"# 默认值是“IfRequested”。\n"
+
+#: cupsd.conf.template.cpp:495
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Authentication (AuthType)</b>\n"
+"<p>\n"
+"The authorization to use:<p>\n"
+"<ul type=circle>\n"
+"<li><i>None</i>   - Perform no authentication.</li>\n"
+"<li><i>Basic</i>  - Perform authentication using the HTTP Basic method.</"
+"li>\n"
+"<li><i>Digest</i> - Perform authentication using the HTTP Digest method.</"
+"li>\n"
+"</ul><p>\n"
+"Note: local certificate authentication can be substituted by\n"
+"the client for <i>Basic</i> or <i>Digest</i> when connecting to the\n"
+"localhost interface.</p>\n"
+msgstr ""
+"<b>验证(AuthType)</b>\n"
+"<p>\n"
+"可以使用的验证有：<p>\n"
+"<ul type=circle>\n"
+"<li><i>None</i>   - 不执行验证。</li>\n"
+"<li><i>Basic</i>  - 使用 HTTP 基本方式进行验证。</li>\n"
+"<li><i>Digest</i> - 使用 HTTP 摘要方式进行验证。</li>\n"
+"</ul><p>\n"
+"注意：对于 <i>Basic</i> 或者 <i>Digest</i>，当连接到 localhost 接口时，\n"
+"本地证书验证会被客户端替代。</p>\n"
+
+#: cupsd.conf.template.cpp:508
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Class (AuthClass)</b>\n"
+"<p>\n"
+"The authorization class; currently only <i>Anonymous</i>, <i>User</i>,\n"
+"<i>System</i> (valid user belonging to group SystemGroup), and <i>Group</i>\n"
+"(valid user belonging to the specified group) are supported.</p>\n"
+msgstr ""
+"<b>类(AuthClass)</b>\n"
+"<p>\n"
+"这是一个验证类；当前只有 <i>Anonymous</i>、<i>User</i>、\n"
+"<i>System</i>(属于 SystemGroup 群组的有效用户)和 <i>Group</i>\n"
+"(属于特定组的有效用户)被支持。</p>\n"
+
+#: cupsd.conf.template.cpp:515
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<p>The user/group names allowed to access the resource. The format is a\n"
+"comma separated list.</p>\n"
+msgstr ""
+"<p>允许访问这个资源的用户/群组名称。格式是\n"
+"一个由逗号分隔的列表。</p>\n"
+
+#: cupsd.conf.template.cpp:519
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Satisfy (Satisfy)</b>\n"
+"<p>\n"
+"This directive controls whether all specified conditions must\n"
+"be satisfied to allow access to the resource. If set to \"all\",\n"
+"then all authentication and access control conditions must be\n"
+"satisfied to allow access.\n"
+"</p>\n"
+"<p>\n"
+"Setting Satisfy to \"any\" allows a user to gain access if the\n"
+"authentication <i>or</i> access control requirements are satisfied.\n"
+"For example, you might require authentication for remote access,\n"
+"but allow local access without authentication.\n"
+"</p>\n"
+"<p>\n"
+"The default is \"all\".\n"
+"</p> \n"
+msgstr ""
+"<b>满足条件(Satisfy)</b>\n"
+"<p>\n"
+"这个指令控制是否必须满足允许访问这个资源的\n"
+"所有指定条件。如果被设置为“all”，那么允许访问\n"
+"的所有验证和访问控制条件都必须被满足。\n"
+"</p>\n"
+"<p>\n"
+"设置满去条件为“any”，允许用户在满足验证<i>或者</i>\n"
+"访问控制需求的情况下获得访问权限。例如，\n"
+"您也许需要对于远程访问的验证，但是\n"
+"允许无验证情况下的本地访问。\n"
+"</p>\n"
+"<p>\n"
+"默认是“all”。\n"
+"</p> \n"
+
+#: cupsd.conf.template.cpp:537
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Authentication group name (AuthGroupName)</b>\n"
+"<p>\n"
+"The group name for <i>Group</i> authorization.</p>\n"
+msgstr ""
+"<b>验证群组名称(AuthGroupName)</b>\n"
+"<p>\n"
+"用于<i>群组</i>验证的群组名称。</p>\n"
+
+#: cupsd.conf.template.cpp:542
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>ACL order (Order)</b>\n"
+"<p>\n"
+"The order of Allow/Deny processing.</p>\n"
+msgstr ""
+"<b>ACL 顺序(Order)</b>\n"
+"<p>\n"
+"允许或者拒绝处理的顺序。</p>\n"
+
+#: cupsd.conf.template.cpp:547
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Allow</b>\n"
+"<p>\n"
+"Allows access from the specified hostname, domain, IP address, or\n"
+"network. Possible values are:</p>\n"
+"<pre>\n"
+"All\n"
+"None\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"</pre><p>\n"
+"The host and domain address require that you enable hostname lookups\n"
+"with \"HostNameLookups On\" above.</p>\n"
+msgstr ""
+"<b>允许</b>\n"
+"<p>\n"
+"允许来自指定的主机名、域名、IP 地址\n"
+"或网络的访问。可能的值有：</p>\n"
+"<pre>\n"
+"All\n"
+"None\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"</pre><p>\n"
+"主机和域名地址需要您使用前面提到的“HostNameLookups On”\n"
+"选项打开主机名查询。</p>\n"
+
+#: cupsd.conf.template.cpp:568
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>ACL addresses (Allow/Deny)</b>\n"
+"<p>\n"
+"Allows/Denies access from the specified hostname, domain, IP address, or\n"
+"network. Possible values are:</p>\n"
+"<pre>\n"
+"All\n"
+"None\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"</pre><p>\n"
+"The host and domain address require that you enable hostname lookups\n"
+"with \"HostNameLookups On\" above.</p>\n"
+msgstr ""
+"<b>ACL 地址(Allow/Deny)</b>\n"
+"<p>\n"
+"允许或者拒绝来自指定的主机名、域名、IP 地址\n"
+"或网络的访问。可能的值有：</p>\n"
+"<pre>\n"
+"All\n"
+"None\n"
+"*.domain.com\n"
+".domain.com\n"
+"host.domain.com\n"
+"nnn.*\n"
+"nnn.nnn.*\n"
+"nnn.nnn.nnn.*\n"
+"nnn.nnn.nnn.nnn\n"
+"nnn.nnn.nnn.nnn/mm\n"
+"nnn.nnn.nnn.nnn/mmm.mmm.mmm.mmm\n"
+"</pre><p>\n"
+"主机和域名地址需要您使用前面提到的“HostNameLookups On”\n"
+"选项打开主机名查询。</p>\n"
+
+#: cupsd.conf.template.cpp:589
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Encryption (Encryption)</b>\n"
+"<p>\n"
+"Whether or not to use encryption; this depends on having\n"
+"the OpenSSL library linked into the CUPS library and scheduler.</p>\n"
+"<p>\n"
+"Possible values:</p>\n"
+"<ul type=circle>\n"
+"<li><i>Always</i>       - Always use encryption (SSL)</li>\n"
+"<li><i>Never</i>        - Never use encryption</li>\n"
+"<li><i>Required</i>     - Use TLS encryption upgrade</li>\n"
+"<li><i>IfRequested</i>  - Use encryption if the server requests it</li>\n"
+"</ul><p>\n"
+"The default value is \"IfRequested\".</p>\n"
+msgstr ""
+"<b>加密(Encryption)</b>\n"
+"<p>\n"
+"是否使用加密；这依赖于 CUPS 库和调度器是否\n"
+"链接了 OpenSSL 库。</p>\n"
+"<p>\n"
+"可能的值：</p>\n"
+"<ul type=circle>\n"
+"<li><i>Always</i>       - 总是使用加密(SSL)</li>\n"
+"<li><i>Never</i>        - 从不使用加密</li>\n"
+"<li><i>Required</i>     - 使用 TLS 加密升级</li>\n"
+"<li><i>IfRequested</i>  - 如果服务器请求的话，则使用加密</li>\n"
+"</ul><p>\n"
+"默认值是“IfRequested”。</p>\n"
+
+#: cupsd.conf.template.cpp:604
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Access permissions</b>\n"
+"<p>\n"
+"Access permissions for each directory served by the scheduler.\n"
+"Locations are relative to DocumentRoot...</p>\n"
+msgstr ""
+"<b>访问权限</b>\n"
+"<p>\n"
+"由调度器所提供的每一个目录的访问权限。\n"
+"位置是相对于 DocumentRoot 的。</p>\n"
+
+#: cupsd.conf.template.cpp:610
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Auto purge jobs (AutoPurgeJobs)</b>\n"
+"<p>\n"
+"Automatically purge jobs when not needed for quotas.\n"
+"Default is No.</p>\n"
+msgstr ""
+"<b>自动净化任务(AutoPurgeJobs)</b>\n"
+"<p>\n"
+"因为配额的原因，自动净化不被需要的任务。\n"
+"默认是 No(不自动净化)。</p>\n"
+
+#: cupsd.conf.template.cpp:616
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Browse protocols (BrowseProtocols)</b>\n"
+"<p>\n"
+"Which protocols to use for browsing.  Can be\n"
+"any of the following separated by whitespace and/or commas:</p>\n"
+"<ul type=circle>\n"
+"<li><i>all</i>  - Use all supported protocols.</li>\n"
+"<li><i>cups</i> - Use the CUPS browse protocol.</li>\n"
+"<li><i>slp</i>  - Use the SLPv2 protocol.</li>\n"
+"</ul><p>\n"
+"The default is <b>cups</b>.</p>\n"
+"<p>\n"
+"Note: If you choose to use SLPv2, it is <b>strongly</b> recommended that\n"
+"you have at least one SLP Directory Agent (DA) on your\n"
+"network.  Otherwise, browse updates can take several seconds,\n"
+"during which the scheduler will not response to client\n"
+"requests.</p>\n"
+msgstr ""
+"<b>浏览协议(BrowseProtocols)</b>\n"
+"<p>\n"
+"浏览使用哪一中协议。可以是下列中的一个或\n"
+"多个(由空格和/或逗号分隔)：</p>\n"
+"<ul type=circle>\n"
+"<li><i>all</i>  - 使用全部支持的协议。</li>\n"
+"<li><i>cups</i> - 使用 CUPS 浏览协议。</li>\n"
+"<li><i>slp</i>  - 使用 SLPv2 协议。</li>\n"
+"</ul><p>\n"
+"默认是 <b>cups</b>。</p>\n"
+"<p>\n"
+"注意：如果您选择使用 SLPv2，<b>强烈</b>建议您\n"
+"在您的网络中至少有一个 SLP 目录代理(DA)。\n"
+"否则，在调度器不能响应客户端请求期间内，\n"
+"浏览更新会占用好几秒的时间。</p>\n"
+
+#: cupsd.conf.template.cpp:634
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Classification (Classification)</b>\n"
+"<p>\n"
+"The classification level of the server.  If set, this\n"
+"classification is displayed on all pages, and raw printing is disabled.\n"
+"The default is the empty string.</p>\n"
+"<p>\n"
+"<i>ex</i>: confidential\n"
+msgstr ""
+"<b>分类(Classification)</b>\n"
+"<p>\n"
+"服务器的分类水平。如果被设置，这个分类\n"
+"将会在所有页面上显示，并且未加工打印是被禁止的。\n"
+"默认是空白字符串。</p>\n"
+"<p>\n"
+"<i>如：</i>：confidential\n"
+
+#: cupsd.conf.template.cpp:643
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Allow overrides (ClassifyOverride)</b>\n"
+"<p>\n"
+"Whether to allow users to override the classification\n"
+"on printouts. If enabled, users can limit banner pages to before or\n"
+"after the job, and can change the classification of a job, but cannot\n"
+"completely eliminate the classification or banners.</p>\n"
+"<p>\n"
+"The default is off.</p>\n"
+msgstr ""
+"<b>允许覆盖(ClassifyOverride)</b>\n"
+"<p>\n"
+"是否允许用户覆盖打印输出中的分类。\n"
+"如果允许，用户可以限制在任务之前\n"
+"或者之后的横幅页，并且可以改变一个任务的分类，\n"
+"但是不能完全地取消这个分类或者横幅。</p>\n"
+"<p>\n"
+"默认是关闭的。</p>\n"
+
+#: cupsd.conf.template.cpp:653
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Hide implicit members (HideImplicitMembers)</b>\n"
+"<p>\n"
+"Whether or not to show the members of an\n"
+"implicit class.</p>\n"
+"<p>\n"
+"When HideImplicitMembers is On, any remote printers that are\n"
+"part of an implicit class are hidden from the user, who will\n"
+"then only see a single queue even though many queues will be\n"
+"supporting the implicit class.</p>\n"
+"<p>\n"
+"Enabled by default.</p>\n"
+msgstr ""
+"<b>隐藏隐含成员(HideImplicitMembers)</b>\n"
+"<p>\n"
+"是否显示一个隐含类的成员。</p>\n"
+"<p>\n"
+"当 HideImplicitMembers 为 On(打开)时，一个隐含类中的\n"
+"任何一个远程打印机都会对这个用户隐藏，然后该用户只能\n"
+"看到一个单一的队列，尽管在这个隐含类中支持\n"
+"许多队列。</p>\n"
+"<p>\n"
+"默认是允许的。</p>\n"
+
+#: cupsd.conf.template.cpp:666
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Use &quot;any&quot; classes (ImplicitAnyClasses)</b>\n"
+"<p>\n"
+"Whether or not to create <b>AnyPrinter</b> implicit\n"
+"classes.</p>\n"
+"<p>\n"
+"When ImplicitAnyClasses is On and a local queue of the same name\n"
+"exists, e.g. \"printer\", \"printer@server1\", \"printer@server1\", then\n"
+"an implicit class called \"Anyprinter\" is created instead.</p>\n"
+"<p>\n"
+"When ImplicitAnyClasses is Off, implicit classes are not created\n"
+"when there is a local queue of the same name.</p>\n"
+"<p>\n"
+"Disabled by default.</p>\n"
+msgstr ""
+"<b>使用“任意”类(ImplicitAnyClasses)</b>\n"
+"<p>\n"
+"是否创建 <b>AnyPrinter</b> 隐含类。</p>\n"
+"<p>\n"
+"当 ImplicitAnyClasses 为 On(打开)时并且有一个同名的本地队列\n"
+"存在时，例如“printer”、“printer@server1”、“printer@server1”，那么\n"
+"一个被称作“Anyprinter”的隐含类会被创建。</p>\n"
+"<p>\n"
+"当 ImplicitAnyClasses 为 Off(关闭)时，当一个同名的本地队列\n"
+"存在时，隐含类将不会被创建。</p>\n"
+"<p>\n"
+"默认是禁止的。</p>\n"
+
+#: cupsd.conf.template.cpp:681
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Max jobs (MaxJobs)</b>\n"
+"<p>\n"
+"Maximum number of jobs to keep in memory (active and completed).\n"
+"Default is 0 (no limit).</p>\n"
+msgstr ""
+"<b>最大任务数(MaxJobs)</b>\n"
+"<p>\n"
+"保留在内存中的(活动的和完成的)任务的最大数量。\n"
+"默认是 0 (没有限制)。</p>\n"
+
+#: cupsd.conf.template.cpp:687
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Max jobs per user (MaxJobsPerUser)</b>\n"
+"<p>\n"
+"The MaxJobsPerUser directive controls the maximum number of <i>active</i>\n"
+"jobs that are allowed for each user. Once a user reaches the limit, new\n"
+"jobs will be rejected until one of the active jobs is completed, stopped,\n"
+"aborted, or canceled.</p>\n"
+"<p>\n"
+"Setting the maximum to 0 disables this functionality.\n"
+"Default is 0 (no limit).\n"
+"</p>\n"
+msgstr ""
+"<b>每用户最大任务数(MaxJobsPerUser)</b>\n"
+"<p>\n"
+"MaxJobsPerUser 指令控制着每个用户所允许的\n"
+"<i>活动</i>任务的最大数量。一旦一个用户\n"
+"达到了这个限制，那么新的任务将会被拒绝，直到活动的任务中\n"
+"的一个完成、停止、放弃或者取消。</p>\n"
+"<p>\n"
+"设置这个最大值为 0 就禁止了这项功能。\n"
+"默认是 0 (没有限制)。\n"
+"</p>\n"
+
+#: cupsd.conf.template.cpp:699
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Max jobs per printer (MaxJobsPerPrinter)</b>\n"
+"<p>\n"
+"The MaxJobsPerPrinter directive controls the maximum number of <i>active</"
+"i>\n"
+"jobs that are allowed for each printer or class. Once a printer or class\n"
+"reaches the limit, new jobs will be rejected until one of the active jobs\n"
+"is completed, stopped, aborted, or canceled.</p>\n"
+"<p>\n"
+"Setting the maximum to 0 disables this functionality.\n"
+"Default is 0 (no limit).\n"
+"</p>\n"
+msgstr ""
+"<b>每台打印机最大任务数(MaxJobsPerPrinter)</b>\n"
+"<p>\n"
+"MaxJobsPerPrinter 指令控制着每台打印机或者类所允许的\n"
+"<i>活动</i>任务的最大数量。一旦一台打印机或者一个类\n"
+"达到了这个限制，那么新的任务将会被拒绝，直到活动的任务中\n"
+"的一个完成、停止、放弃或者取消。</p>\n"
+"<p>\n"
+"设置这个最大值为 0 就禁止了这项功能。\n"
+"默认是 0 (没有限制)。\n"
+"</p>\n"
+
+#: cupsd.conf.template.cpp:711
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Port</b>\n"
+"<p>\n"
+"The port value that the CUPS daemon is listening to. Default is 631.</p>\n"
+msgstr ""
+"<b>端口</b>\n"
+"<p>\n"
+"这是 CUPS 守护进程正在监听的端口。默认是 631。</p>\n"
+
+#: cupsd.conf.template.cpp:716
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<b>Address</b>\n"
+"<p>\n"
+"The address that the CUPS daemon is listening at. Leave it empty or use\n"
+"an asterisk (*) to specify a port value on the entire subnetwork.</p>\n"
+msgstr ""
+"<b>地址</b>\n"
+"<p>\n"
+"这是 CUPS 守护进程正在监听的地址。您可以设置它为空或者使用\n"
+"一个星号(*)并指定特定端口值，这样就可以监听整个子网了。</p>\n"
+
+#: cupsd.conf.template.cpp:722
+msgctxt ""
+"Do not translate the keyword between brackets (e.g. ServerName, ServerAdmin, "
+"etc.)"
+msgid ""
+"<p>Check this box if you want to use SSL encryption with this address/port.\n"
+"</p>\n"
+msgstr ""
+"<p>如果您对于这个地址/端口想使用 SSL 加密，请选中这个框。\n"
+"</p>\n"
+
+#: cupsdbrowsingpage.cpp:36
+msgid "Browsing"
+msgstr "浏览"
+
+#: cupsdbrowsingpage.cpp:37
+msgid "Browsing Settings"
+msgstr "浏览设置"
+
+#: cupsdbrowsingpage.cpp:43
+msgid "Use browsing"
+msgstr "使用浏览"
+
+#: cupsdbrowsingpage.cpp:48
+msgid "Implicit classes"
+msgstr "隐式类"
+
+#: cupsdbrowsingpage.cpp:49
+msgid "Hide implicit members"
+msgstr "隐藏隐式成员"
+
+#: cupsdbrowsingpage.cpp:50
+msgid "Use short names"
+msgstr "使用简称"
+
+#: cupsdbrowsingpage.cpp:51
+msgid "Use \"any\" classes"
+msgstr "使用“任何”类"
+
+#: cupsdbrowsingpage.cpp:53 locationdialog.cpp:71
+msgid "Allow, Deny"
+msgstr "允许，拒绝"
+
+#: cupsdbrowsingpage.cpp:54 locationdialog.cpp:72
+msgid "Deny, Allow"
+msgstr "拒绝，允许"
+
+#: cupsdbrowsingpage.cpp:60 cupsdbrowsingpage.cpp:63 cupsdnetworkpage.cpp:52
+#: cupsdnetworkpage.cpp:60
+msgid " sec"
+msgstr " 秒"
+
+#: cupsdbrowsingpage.cpp:65
+msgid "Browse port:"
+msgstr "浏览端口："
+
+#: cupsdbrowsingpage.cpp:66
+msgid "Browse interval:"
+msgstr "浏览时间间隔："
+
+#: cupsdbrowsingpage.cpp:67
+msgid "Browse timeout:"
+msgstr "浏览超时设定："
+
+#: cupsdbrowsingpage.cpp:68
+msgid "Browse addresses:"
+msgstr "浏览地址："
+
+#: cupsdbrowsingpage.cpp:69
+msgid "Browse order:"
+msgstr "浏览顺序："
+
+#: cupsdbrowsingpage.cpp:70
+msgid "Browse options:"
+msgstr "浏览选项："
+
+#: cupsdconf.cpp:760 cupsdconf.cpp:783 cupsdconf.cpp:796
+msgctxt "Base"
+msgid "Root"
+msgstr "根"
+
+#: cupsdconf.cpp:760 cupsdconf.cpp:780 cupsdconf.cpp:798
+msgid "All printers"
+msgstr "全部打印机"
+
+#: cupsdconf.cpp:760 cupsdconf.cpp:781 cupsdconf.cpp:799
+msgid "All classes"
+msgstr "全部类"
+
+#: cupsdconf.cpp:760 cupsdconf.cpp:782 cupsdconf.cpp:801
+msgid "Print jobs"
+msgstr "打印任务"
+
+#: cupsdconf.cpp:761 cupsdconf.cpp:779 cupsdconf.cpp:797
+msgid "Administration"
+msgstr "管理"
+
+#: cupsdconf.cpp:762 cupsdconf.cpp:787 cupsdconf.cpp:789 cupsdconf.cpp:807
+msgid "Class"
+msgstr "类"
+
+#: cupsdconf.cpp:763 cupsdconf.cpp:784 cupsdconf.cpp:786 cupsdconf.cpp:803
+msgid "Printer"
+msgstr "打印机"
+
+#: cupsdconf.cpp:800
+msgid "Root"
+msgstr "根"
+
+#: cupsddialog.cpp:114
+msgid "CUPS Server Configuration"
+msgstr "CUPS 服务器配置"
+
+#: cupsddialog.cpp:116
+msgid "Short Help"
+msgstr "简短帮助"
+
+#: cupsddialog.cpp:175
+msgid "Error while loading configuration file."
+msgstr "在载入配置文件时发生错误。"
+
+#: cupsddialog.cpp:175 cupsddialog.cpp:194 cupsddialog.cpp:252
+#: cupsddialog.cpp:299
+msgid "CUPS Configuration Error"
+msgstr "CUPS 配置错误"
+
+#: cupsddialog.cpp:183
+msgid ""
+"Some options were not recognized by this configuration tool. They will be "
+"left untouched and you won't be able to change them."
+msgstr ""
+"某些选项无法被此配置工具识别。这些选项将不会被改变，并且您将不能更改这些选"
+"项。"
+
+#: cupsddialog.cpp:185
+msgid "Unrecognized Options"
+msgstr "未识别的选项"
+
+#: cupsddialog.cpp:205
+msgid "Unable to find a running CUPS server"
+msgstr "无法找到正在运行的 CUPS 服务器"
+
+#: cupsddialog.cpp:215
+#, kde-format
+msgid "Unable to restart CUPS server (pid = %1)"
+msgstr "无法重新启动 CUPS 服务器 (PID = %1)"
+
+#: cupsddialog.cpp:235
+msgid ""
+"Unable to retrieve configuration file from the CUPS server. You probably "
+"don't have the access permissions to perform this operation."
+msgstr "无法从 CUPS 服务器获取配置文件。您也许没有执行这个操作所需的访问权限。"
+
+#: cupsddialog.cpp:244
+#, kde-format
+msgid "Internal error: file '%1' not readable/writable."
+msgstr "内部错误：文件“%1”不可读或不可写。"
+
+#: cupsddialog.cpp:247
+#, kde-format
+msgid "Internal error: empty file '%1'."
+msgstr "内部错误：空文件“%1”。"
+
+#: cupsddialog.cpp:261
+msgid ""
+"The config file has not been uploaded to the CUPS server. The daemon will "
+"not be restarted."
+msgstr ""
+"这个配置文件还没有被上传到这个 CUPS 服务器。这个守护进程将不会被重新启动。"
+
+#: cupsddialog.cpp:264
+msgid ""
+"Unable to upload the configuration file to CUPS server. You probably don't "
+"have the access permissions to perform this operation."
+msgstr ""
+"不能把配置文件上传到 CUPS 服务器。您也许没有执行这个操作所需的访问权限。"
+
+#: cupsddialog.cpp:267
+msgid "CUPS configuration error"
+msgstr "CUPS 配置错误"
+
+#: cupsddialog.cpp:295
+#, kde-format
+msgid "Unable to write configuration file %1"
+msgstr "无法写入配置文件 %1"
+
+#: cupsddirpage.cpp:33
+msgid "Folders"
+msgstr "文件夹"
+
+#: cupsddirpage.cpp:34
+msgid "Folders Settings"
+msgstr "文件夹设置"
+
+#: cupsddirpage.cpp:45
+msgid "Data folder:"
+msgstr "数据文件夹："
+
+#: cupsddirpage.cpp:46
+msgid "Document folder:"
+msgstr "文档文件夹："
+
+#: cupsddirpage.cpp:47
+msgid "Font path:"
+msgstr "字体路径："
+
+#: cupsddirpage.cpp:48
+msgid "Request folder:"
+msgstr "请求文件夹："
+
+#: cupsddirpage.cpp:49
+msgid "Server binaries:"
+msgstr "服务器二进制："
+
+#: cupsddirpage.cpp:50
+msgid "Server files:"
+msgstr "服务器文件："
+
+#: cupsddirpage.cpp:51
+msgid "Temporary files:"
+msgstr "临时文件："
+
+#: cupsdfilterpage.cpp:35
+msgid "Filter"
+msgstr "过滤器"
+
+#: cupsdfilterpage.cpp:36
+msgid "Filter Settings"
+msgstr "过滤器设置"
+
+#: cupsdfilterpage.cpp:45 cupsdjobspage.cpp:46 cupsdjobspage.cpp:48
+#: cupsdjobspage.cpp:51 cupsdnetworkpage.cpp:51 cupsdnetworkpage.cpp:59
+#: sizewidget.cpp:41
+msgid "Unlimited"
+msgstr "无限制"
+
+#: cupsdfilterpage.cpp:48
+msgid "User:"
+msgstr "用户："
+
+#: cupsdfilterpage.cpp:49
+msgid "Group:"
+msgstr "群组："
+
+#: cupsdfilterpage.cpp:50
+msgid "RIP cache:"
+msgstr "RIP 缓存："
+
+#: cupsdfilterpage.cpp:51
+msgid "Filter limit:"
+msgstr "过滤器限制："
+
+#: cupsdjobspage.cpp:33
+msgid "Jobs"
+msgstr "任务"
+
+#: cupsdjobspage.cpp:34
+msgid "Print Jobs Settings"
+msgstr "打印任务设置"
+
+#: cupsdjobspage.cpp:37
+msgid "Preserve job history"
+msgstr "保留任务历史"
+
+#: cupsdjobspage.cpp:38
+msgid "Preserve job files"
+msgstr "保留任务文件"
+
+#: cupsdjobspage.cpp:39
+msgid "Auto purge jobs"
+msgstr "自动净化任务"
+
+#: cupsdjobspage.cpp:54
+msgid "Max jobs:"
+msgstr "最大任务数："
+
+#: cupsdjobspage.cpp:55
+msgid "Max jobs per printer:"
+msgstr "每台打印机的最大任务数："
+
+#: cupsdjobspage.cpp:56
+msgid "Max jobs per user:"
+msgstr "每用户的最大任务数："
+
+#: cupsdlogpage.cpp:35
+msgid "Log"
+msgstr "日志"
+
+#: cupsdlogpage.cpp:36
+msgid "Log Settings"
+msgstr "日志设置"
+
+#: cupsdlogpage.cpp:45
+msgid "Detailed Debugging"
+msgstr "详细调试"
+
+#: cupsdlogpage.cpp:46
+msgid "Debug Information"
+msgstr "调试信息"
+
+#: cupsdlogpage.cpp:47
+msgid "General Information"
+msgstr "常规信息"
+
+#: cupsdlogpage.cpp:48
+msgid "Warnings"
+msgstr "警告"
+
+#: cupsdlogpage.cpp:49
+msgid "Errors"
+msgstr "错误"
+
+#: cupsdlogpage.cpp:50
+msgid "No Logging"
+msgstr "无日志"
+
+#: cupsdlogpage.cpp:57
+msgid "Access log:"
+msgstr "访问日志："
+
+#: cupsdlogpage.cpp:58
+msgid "Error log:"
+msgstr "错误日志："
+
+#: cupsdlogpage.cpp:59
+msgid "Page log:"
+msgstr "页面日志："
+
+#: cupsdlogpage.cpp:60
+msgid "Max log size:"
+msgstr "最大日志文件大小："
+
+#: cupsdlogpage.cpp:61
+msgid "Log level:"
+msgstr "日志级别："
+
+#: cupsdnetworkpage.cpp:37
+msgid "Network"
+msgstr "网络"
+
+#: cupsdnetworkpage.cpp:38
+msgid "Network Settings"
+msgstr "网络设置"
+
+#: cupsdnetworkpage.cpp:41
+msgid "Keep alive"
+msgstr "保持活动"
+
+#: cupsdnetworkpage.cpp:62
+msgid "Off"
+msgstr "关闭"
+
+#: cupsdnetworkpage.cpp:63
+msgid "On"
+msgstr "打开"
+
+#: cupsdnetworkpage.cpp:64
+msgid "Double"
+msgstr "双向"
+
+#: cupsdnetworkpage.cpp:66
+msgid "Hostname lookups:"
+msgstr "主机名查阅："
+
+#: cupsdnetworkpage.cpp:67
+msgid "Keep-alive timeout:"
+msgstr "保持活动状态超时："
+
+#: cupsdnetworkpage.cpp:68
+msgid "Max clients:"
+msgstr "最大客户数："
+
+#: cupsdnetworkpage.cpp:69
+msgid "Max request size:"
+msgstr "最大请求大小："
+
+#: cupsdnetworkpage.cpp:70
+msgid "Client timeout:"
+msgstr "客户端超时："
+
+#: cupsdnetworkpage.cpp:71
+msgid "Listen to:"
+msgstr "监听："
+
+#: cupsdsecuritypage.cpp:37
+msgid "Security"
+msgstr "安全"
+
+#: cupsdsecuritypage.cpp:38
+msgid "Security Settings"
+msgstr "安全设置"
+
+#: cupsdsecuritypage.cpp:47
+msgid "Remote root user:"
+msgstr "远程 root 用户名："
+
+#: cupsdsecuritypage.cpp:48
+msgid "System group:"
+msgstr "系统群组："
+
+#: cupsdsecuritypage.cpp:49
+msgid "Encryption certificate:"
+msgstr "加密证书："
+
+#: cupsdsecuritypage.cpp:50
+msgid "Encryption key:"
+msgstr "加密密钥："
+
+#: cupsdsecuritypage.cpp:51
+msgid "Locations:"
+msgstr "位置："
+
+#: cupsdsecuritypage.cpp:133
+msgid ""
+"This location is already defined. Do you want to replace the existing one?"
+msgstr "此位置已定义。您想要替换现有位置吗？"
+
+#: cupsdsecuritypage.cpp:133
+msgid "Replace"
+msgstr "替换"
+
+#: cupsdserverpage.cpp:42
+msgid "Server"
+msgstr "服务器"
+
+#: cupsdserverpage.cpp:43
+msgid "Server Settings"
+msgstr "服务器设置"
+
+#: cupsdserverpage.cpp:54
+msgid "Allow overrides"
+msgstr "允许覆盖"
+
+#: cupsdserverpage.cpp:56 locationdialog.cpp:54 locationdialog.cpp:58
+msgid "None"
+msgstr "无"
+
+#: cupsdserverpage.cpp:57
+msgid "Classified"
+msgstr "已分类"
+
+#: cupsdserverpage.cpp:58
+msgid "Confidential"
+msgstr "信任"
+
+#: cupsdserverpage.cpp:59
+msgid "Secret"
+msgstr "安全"
+
+#: cupsdserverpage.cpp:60
+msgid "Top Secret"
+msgstr "最安全"
+
+#: cupsdserverpage.cpp:61
+msgid "Unclassified"
+msgstr "未分类"
+
+#: cupsdserverpage.cpp:62
+msgid "Other"
+msgstr "其它"
+
+#: cupsdserverpage.cpp:82
+msgid "Server name:"
+msgstr "服务器名："
+
+#: cupsdserverpage.cpp:83
+msgid "Server administrator:"
+msgstr "服务器管理员："
+
+#: cupsdserverpage.cpp:84
+msgid "Classification:"
+msgstr "类别："
+
+#: cupsdserverpage.cpp:85
+msgid "Default character set:"
+msgstr "默认字符集："
+
+#: cupsdserverpage.cpp:86
+msgid "Default language:"
+msgstr "默认语言："
+
+#: cupsdserverpage.cpp:87
+msgid "Printcap file:"
+msgstr "打印性能(Printcap)文件："
+
+#: cupsdserverpage.cpp:88
+msgid "Printcap format:"
+msgstr "打印性能(Printcap)格式："
+
+#: cupsdsplash.cpp:31
+msgid "Welcome to the CUPS Server Configuration Tool"
+msgstr "欢迎使用 CUPS 服务器配置工具"
+
+#: cupsdsplash.cpp:32
+msgid "Welcome"
+msgstr "欢迎"
+
+#: cupsdsplash.cpp:54
+#, fuzzy
+#| msgid ""
+#| "<p>This tool will help you to configure graphically the server of the "
+#| "CUPS printing system. The available options are grouped into sets of "
+#| "related topics and can be accessed quickly through the icon view located "
+#| "on the left. Each option has a default value that is shown if it has not "
+#| "been previously set. This default value should be OK in most cases.</"
+#| "p><br /><p>You can access a short help message for each option using "
+#| "either the '?' button in the the title bar, or the button at the bottom "
+#| "of this dialog.</p>"
+msgid ""
+"<p>This tool will help you to configure graphically the server of the CUPS "
+"printing system. The available options are grouped into sets of related "
+"topics and can be accessed quickly through the icon view located on the "
+"left. Each option has a default value that is shown if it has not been "
+"previously set. This default value should be OK in most cases.</p><br /"
+"><p>You can access a short help message for each option using either the '?' "
+"button in the title bar, or the button at the bottom of this dialog.</p>"
+msgstr ""
+"<p>本工具将以图形化形式帮助您配置 CUPS 打印系统服务器。可用的选项按不同的主题"
+"分类，可以从左边的图标视图上快速地访问。每个选项都有默认值，如果尚未设置的"
+"话，就会显示默认值。绝大多数情况下默认值都应该为“确定”。</p><br /><p>如果您想"
+"要获取关于每个选项的简要帮助，既可以使用标题栏上的“?”按钮，也可以使用此对话框"
+"下方的按钮。</p>"
+
+#: editlist.cpp:33
+msgid "Add..."
+msgstr "添加..."
+
+#: editlist.cpp:34
+msgid "Edit..."
+msgstr "编辑..."
+
+#: editlist.cpp:35
+msgid "Delete"
+msgstr "删除"
+
+#: editlist.cpp:36
+msgid "Default List"
+msgstr "默认列表"
+
+#: locationdialog.cpp:55
+msgid "Basic"
+msgstr "基本"
+
+#: locationdialog.cpp:56
+msgid "Digest"
+msgstr "摘要"
+
+#: locationdialog.cpp:59
+msgid "User"
+msgstr "用户"
+
+#: locationdialog.cpp:60
+msgid "System"
+msgstr "系统"
+
+#: locationdialog.cpp:61
+msgid "Group"
+msgstr "群组"
+
+#: locationdialog.cpp:63
+msgid "Always"
+msgstr "总是"
+
+#: locationdialog.cpp:64
+msgid "Never"
+msgstr "从不"
+
+#: locationdialog.cpp:65
+msgid "Required"
+msgstr "必需的"
+
+#: locationdialog.cpp:66
+msgid "If Requested"
+msgstr "如果被请求"
+
+#: locationdialog.cpp:68
+msgid "All"
+msgstr "全部"
+
+#: locationdialog.cpp:69
+msgid "Any"
+msgstr "任何"
+
+#: locationdialog.cpp:77
+msgid "Resource:"
+msgstr "资源："
+
+#: locationdialog.cpp:78
+msgid "Authentication:"
+msgstr "身份验证："
+
+#: locationdialog.cpp:79
+msgid "Class:"
+msgstr "类："
+
+#: locationdialog.cpp:80
+msgid "Names:"
+msgstr "名称："
+
+#: locationdialog.cpp:81
+msgid "Encryption:"
+msgstr "加密："
+
+#: locationdialog.cpp:82
+msgid "Satisfy:"
+msgstr "满足条件："
+
+#: locationdialog.cpp:83
+msgid "ACL order:"
+msgstr "ACL 顺序："
+
+#: locationdialog.cpp:84
+msgid "ACL addresses:"
+msgstr "ACL 地址："
+
+#: locationdialog.cpp:107
+msgid "Location"
+msgstr "位置"
+
+#: portdialog.cpp:48
+msgid "Use SSL encryption"
+msgstr "使用 SSL 加密"
+
+#: portdialog.cpp:51
+msgid "Port:"
+msgstr "端口："
+
+#: portdialog.cpp:66
+msgid "Listen To"
+msgstr "监听"
+
+#: sizewidget.cpp:36
+msgid "KB"
+msgstr "KB"
+
+#: sizewidget.cpp:37
+msgid "MB"
+msgstr "MB"
+
+#: sizewidget.cpp:38
+msgid "GB"
+msgstr "GB"
+
+#: sizewidget.cpp:39
+msgid "Tiles"
+msgstr "瓦块"

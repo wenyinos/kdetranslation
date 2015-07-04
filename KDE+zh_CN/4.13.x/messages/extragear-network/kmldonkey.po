@@ -1,0 +1,2077 @@
+# translation of kmldonkey.po to 简体中文
+# Copyright (C) 2003, 2008, 2009 YEAR Free Software Foundation, Inc.
+#
+# WolfMei <wolfmei@msn.com>, 2003.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmldonkey\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 02:58+0200\n"
+"PO-Revision-Date: 2009-04-05 14:15+0000\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#: addserver.cpp:47
+msgid "Add Server"
+msgstr "添加服务器"
+
+#: addserver.cpp:59
+msgid "&Address:"
+msgstr "地址(&A)："
+
+#: addserver.cpp:67
+msgid "&Port:"
+msgstr "端口(&P)："
+
+#: addserver.cpp:78
+msgid "&Network:"
+msgstr "网络(&N)："
+
+#: availability.cpp:214
+#, kde-format
+msgctxt "percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: availability.cpp:216
+msgid "Unknown file."
+msgstr "未知文件。"
+
+#: clientlist.cpp:60 clientlist.cpp:69 clientlist.cpp:81 clientlist.cpp:112
+msgid "Unknown"
+msgstr "未知"
+
+#: clientlist.cpp:75
+msgid "Normal"
+msgstr "正常"
+
+#: clientlist.cpp:77
+msgid "Friend"
+msgstr "好友"
+
+#: clientlist.cpp:79
+msgid "Contact"
+msgstr "联系"
+
+#: clientlist.cpp:89
+msgid "Not connected"
+msgstr "没有连接"
+
+#: clientlist.cpp:91
+msgid "Connecting"
+msgstr "连接中"
+
+#: clientlist.cpp:93
+msgid "Initiating"
+msgstr "初始化中"
+
+#: clientlist.cpp:95
+msgid "Downloading"
+msgstr "下载中"
+
+#: clientlist.cpp:98
+msgid "Connected"
+msgstr "已连接"
+
+#: clientlist.cpp:100
+#, kde-format
+msgid "Queued: %1"
+msgstr "已排队：%1"
+
+#: clientlist.cpp:102
+msgid "New host"
+msgstr "新主机"
+
+#: clientlist.cpp:104
+msgid "Removed"
+msgstr "已删除"
+
+#: clientlist.cpp:106
+msgid "Blacklisted"
+msgstr "已列入黑名单"
+
+#: clientlist.cpp:108
+#, kde-format
+msgid "Unknown: %1"
+msgstr "未知：%1"
+
+#: clientlist.cpp:116
+#, kde-format
+msgctxt "eMule mod appended to client software tag"
+msgid " (%1)"
+msgstr " (%1)"
+
+#: clientlist.cpp:118
+#, kde-format
+msgctxt "Client software release appended to client software tag"
+msgid " %1"
+msgstr " %1"
+
+#: clientlist.cpp:208 friendpage.cpp:67 uploadersmodel.cpp:137
+msgid "Name"
+msgstr "名字"
+
+#: clientlist.cpp:209 downloadpage.cpp:104 downloadpage.cpp:116
+#: friendpage.cpp:68 friendpage.cpp:300 searchtabresult.cpp:173
+#: serverpage.cpp:61 sharedfilemodel.cpp:120 uploadersmodel.cpp:141
+msgid "Network"
+msgstr "网络"
+
+#: clientlist.cpp:210 friendpage.cpp:69
+msgid "Type"
+msgstr "类型"
+
+#: clientlist.cpp:211 friendpage.cpp:70
+msgid "Location"
+msgstr "位置"
+
+#: clientlist.cpp:212 friendpage.cpp:71
+msgid "State"
+msgstr "状态"
+
+#: clientlist.cpp:213 downloadpage.cpp:105 prefs/prefs.cpp:169
+#: searchtabresult.cpp:172
+msgid "Availability"
+msgstr "可用性"
+
+#: clientlist.cpp:214 uploadersmodel.cpp:144
+msgid "Software"
+msgstr "软件"
+
+#: clientlist.cpp:215
+msgid "Currently downloading"
+msgstr "当前下载中"
+
+#: clientlist.cpp:238 infodialog.cpp:164 prefs/prefs.cpp:208
+msgid "Sources"
+msgstr "源"
+
+#: clientlist.cpp:240
+msgid "&Add to Friends"
+msgstr "添加为好友(&A)"
+
+#: consolepage.cpp:42
+msgid ""
+"<h2>WARNING</h2>\n"
+"<p>Peer-to-peer networks, particularly those accessible via KMLDonkey, may "
+"contain material which you may be legally prohibited from downloading or "
+"redistributing. It is your responsibility to verify that any material you "
+"download from any peer-to-peer network is being made available to you "
+"lawfully. It is also your responsibility to verify that you have the legal "
+"right to redistribute any material which you make available to others via "
+"any peer-to-peer networks. In short, it is your responsibility to use this "
+"software in accordance with applicable laws where you live, including "
+"copyright law.</p>\n"
+"<h3>RESTRICTIONS</h3>\n"
+"<p>The authors of this software intend it to be used for the lawful exchange "
+"of data, art, software and other documents or works which may be lawfully "
+"distributed to third parties. The authors will not support, and strongly "
+"discourage, any use of this software to violate copyright or other "
+"intellectual property laws. In particular, the authors discourage any "
+"transmission of any material in violation of any applicable intellectual "
+"property law or regulation. Each user is assumed to comply with such rules "
+"and restrictions as well as the rules and restrictions applicable to the P2P "
+"networks or services connected directly or indirectly to this software.</p>\n"
+"<h3>DISCLAIMER OF LIABILITY</h3>\n"
+"<p>The authors of this software do not and cannot exercise any control "
+"whatsoever over the content of the information exchanged using this "
+"software. The authors make no warranties of any kind, whether expressed or "
+"implied, for the service this software is providing or for the data "
+"exchanged with the assistance of this software. The authors cannot be held "
+"responsible for any claims resulting from the user's conduct and/or use of "
+"the software which is in any manner unlawful or which damages such user or "
+"any other party.</p>"
+msgstr ""
+
+#: consolepage.cpp:85
+#, fuzzy
+#| msgid ""
+#| "<p><b>KMLDonkey</b>, Copyright 2003-2007 Petter Stokke, Sebastian Sauer "
+#| "and Christian Muehlhaeuser</p>"
+msgid ""
+"<p><b>KMLDonkey</b>, Copyright 2003-2009 Petter Stokke, Sebastian Sauer, "
+"Gioacchino Mazzurco and Christian Muehlhaeuser</p>"
+msgstr ""
+"<p><b>KMLDonkey</b>，版权所有 2003-2007 Petter Stokke、Sebastian Sauer 和 "
+"Christian Muehlhaeuser</p>"
+
+#: consolepage.cpp:86
+msgid ""
+"<p>This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.</p><p>This program is distributed in the hope that it "
+"will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty "
+"of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+"Public License for more details.</p><p>You should have received a copy of "
+"the GNU General Public License along with this program; if not, write to the "
+"Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
+"02110-1301  USA</p>"
+msgstr ""
+
+#: consolepage.cpp:125
+msgid "Activate Console Page"
+msgstr "激活控制台页面"
+
+#: consolepage.cpp:126 kmldonkey.cpp:329
+msgid "Console"
+msgstr "控制台"
+
+#: downloadpage.cpp:96 downloadpage.cpp:113 searchtabresult.cpp:170
+#: sharedfilemodel.cpp:119 uploadersmodel.cpp:136
+msgid "File name"
+msgstr "文件名"
+
+#: downloadpage.cpp:97
+msgid "Speed"
+msgstr "速度"
+
+#: downloadpage.cpp:98
+msgid "Progress %"
+msgstr ""
+
+#: downloadpage.cpp:99
+msgid "Received"
+msgstr "已传输"
+
+#: downloadpage.cpp:100 downloadpage.cpp:114 friendpage.cpp:301
+#: searchtabresult.cpp:171
+msgid "Size"
+msgstr "大小"
+
+#: downloadpage.cpp:101
+msgid "ETA"
+msgstr "估计完成时间"
+
+#: downloadpage.cpp:102 shareddirs.cpp:108
+msgid "Priority"
+msgstr "优先级"
+
+#: downloadpage.cpp:103 serverpage.cpp:62 uploadersmodel.cpp:140
+msgid "Status"
+msgstr "状态"
+
+#: downloadpage.cpp:106 downloadpage.cpp:117 friendpage.cpp:304
+#: searchtabresult.cpp:177
+msgid "Hash"
+msgstr "哈希"
+
+#: downloadpage.cpp:107
+msgid "Last seen"
+msgstr "最后一次"
+
+#: downloadpage.cpp:108
+msgid "Age"
+msgstr "年龄"
+
+#: downloadpage.cpp:109 downloadpage.cpp:118 searchtabresult.cpp:174
+#: sharedfilemodel.cpp:123 uploadersmodel.cpp:145
+msgid "File type"
+msgstr "文件类型"
+
+#: downloadpage.cpp:115 friendpage.cpp:302 searchtabresult.cpp:175
+msgid "Format"
+msgstr "格式"
+
+#: downloadpage.cpp:236
+msgid "&Pause"
+msgstr "暂停(&P)"
+
+#: downloadpage.cpp:241
+msgid "&Resume"
+msgstr "继续(&R)"
+
+#: downloadpage.cpp:246
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#: downloadpage.cpp:251
+msgid "Re&name"
+msgstr "重命名(&N)"
+
+#: downloadpage.cpp:257
+msgid "Ren&ame To..."
+msgstr "重命名为(&A)..."
+
+#: downloadpage.cpp:262
+msgid "Re&try Connect"
+msgstr "重试连接(&T)"
+
+#: downloadpage.cpp:267
+msgid "Pre&view"
+msgstr "预览(&V)"
+
+#: downloadpage.cpp:272
+msgid "Verify Chunks"
+msgstr "验证块"
+
+#: downloadpage.cpp:277
+msgid "Get &Format Info"
+msgstr "获取格式信息(&F)"
+
+#: downloadpage.cpp:282
+msgid "&Hide Paused Downloads"
+msgstr "隐藏以暂停的下载(&H)"
+
+#: downloadpage.cpp:286
+msgid "Show Only Paused Downloads"
+msgstr "只显示已暂停的下载"
+
+#: downloadpage.cpp:290
+msgid "Sort Downloading Files First"
+msgstr "首先排序正在下载的文件"
+
+#: downloadpage.cpp:294
+msgid "Sort Paused Files Last"
+msgstr "已暂停的文件排到最后"
+
+#: downloadpage.cpp:298
+msgid "Priorit&y"
+msgstr "优先级(&Y)"
+
+#: downloadpage.cpp:303
+msgid "Very L&ow Priority"
+msgstr "非常低优先级(&O)"
+
+#: downloadpage.cpp:308
+msgid "&Low Priority"
+msgstr "低优先级(&L)"
+
+#: downloadpage.cpp:313
+msgid "&Normal Priority"
+msgstr "标准优先级(&N)"
+
+#: downloadpage.cpp:318
+msgid "&High Priority"
+msgstr "高优先级(&H)"
+
+#: downloadpage.cpp:323
+msgid "&Very High Priority"
+msgstr "非常高优先级(&V)"
+
+#: downloadpage.cpp:328
+msgid "&Open"
+msgstr "打开(&O)"
+
+#: downloadpage.cpp:333
+msgid "&Commit"
+msgstr "提交(&C)"
+
+#: downloadpage.cpp:338
+msgid "Commit &As..."
+msgstr "提交为(&A)..."
+
+#: downloadpage.cpp:343
+msgid "Activate Downloads Page"
+msgstr "激活下载页面"
+
+#. i18n: ectx: Menu (download_actions)
+#: downloadpage.cpp:344 kmldonkey.cpp:325 kmldonkeyui.rc:135
+msgid "Downloads"
+msgstr "下载"
+
+#: downloadpage.cpp:606
+msgid "Are you sure you want to cancel these files?"
+msgstr "您决定要取消那些文件吗？"
+
+#: downloadpage.cpp:607
+msgid "Cancel Downloads"
+msgstr "取消下载"
+
+#: downloadpage.cpp:890
+#, kde-format
+msgid "Download completed: %1"
+msgstr "下载完成：%1"
+
+#: downloadpage.cpp:939
+#, kde-format
+msgid "Download added: %1"
+msgstr "下载添加：%1"
+
+#: friendpage.cpp:192
+msgid "&Search for Friend..."
+msgstr "搜索好友...(&S)"
+
+#: friendpage.cpp:197
+msgid "C&onnect to Friend"
+msgstr "连接到好友(&O)"
+
+#: friendpage.cpp:203
+msgid "Open Friend &Chat"
+msgstr "打开好友对话(&C)"
+
+#: friendpage.cpp:208
+msgid "&Remove Friend"
+msgstr "删除好友(&R)"
+
+#: friendpage.cpp:213
+msgid "Remove All Friends"
+msgstr "删除所有好友"
+
+#: friendpage.cpp:218
+msgid "Activate Friends Page"
+msgstr "激活好友页面"
+
+#. i18n: ectx: Menu (friend_actions)
+#: friendpage.cpp:219 kmldonkey.cpp:327 kmldonkeyui.rc:212
+msgid "Friends"
+msgstr "好友"
+
+#: friendpage.cpp:299
+msgid "Filename"
+msgstr "文件名"
+
+#: friendpage.cpp:303 searchtabresult.cpp:176
+msgid "Comment"
+msgstr "评论"
+
+#: friendpage.cpp:379
+msgid "Search for Friend"
+msgstr "搜索好友"
+
+#: friendpage.cpp:380
+msgid "Enter the name of the friend you are searching for:"
+msgstr "输入您需要搜索的好友的名字："
+
+#: friendpage.cpp:398
+msgid "Should all friends be removed?"
+msgstr "要删除所有的好友吗？"
+
+#: friendpage.cpp:399
+msgid "Remove all Friends"
+msgstr "删除所有好友"
+
+#: friendpage.cpp:532 searchtabresult.cpp:258
+msgid "Download As"
+msgstr "下载为"
+
+#: friendpage.cpp:533 searchtabresult.cpp:259
+msgid "Choose a filename for the new download:"
+msgstr "为新的下载选择一个文件名："
+
+#: infodialog.cpp:64
+msgid "File Information"
+msgstr "文件信息"
+
+#: infodialog.cpp:73
+#, fuzzy
+#| msgid "&File"
+msgid "File"
+msgstr "文件(&F)"
+
+#: infodialog.cpp:76 renamedialog.cpp:61
+msgid "Name:"
+msgstr "名称："
+
+#: infodialog.cpp:77
+msgid "Complete:"
+msgstr "完成："
+
+#: infodialog.cpp:78
+msgid "Downloaded:"
+msgstr "已下载："
+
+#: infodialog.cpp:79
+msgid "Speed:"
+msgstr "速度："
+
+#: infodialog.cpp:80 renamedialog.cpp:63
+msgid "Hash:"
+msgstr "哈希："
+
+#: infodialog.cpp:81 renamedialog.cpp:64 searchcorewidgets.cpp:474
+msgid "Format:"
+msgstr "格式："
+
+#: infodialog.cpp:82
+msgid "Comment:"
+msgstr "评论："
+
+#: infodialog.cpp:83
+msgid "Alt. names:"
+msgstr "别名："
+
+#: infodialog.cpp:102 renamedialog.cpp:62
+msgid "Size:"
+msgstr "大小："
+
+#: infodialog.cpp:109 searchcore.cpp:142
+msgid "Network:"
+msgstr "网络："
+
+#: infodialog.cpp:126
+msgid "ETA:"
+msgstr "估计完成时间："
+
+#: infodialog.cpp:187
+msgid "Preview"
+msgstr "预览"
+
+#: infodialog.cpp:203
+msgid "eMugle"
+msgstr "eMugle"
+
+#: infodialog.cpp:221
+#, kde-format
+msgctxt "Dialog window caption: (percent complete) filename"
+msgid "%1"
+msgstr "%1"
+
+#: infodialog.cpp:250
+#, kde-format
+msgctxt "download speed in bytes per second"
+msgid "%1b/s"
+msgstr "%1b/s"
+
+#: infodialog.cpp:261
+msgid "Alternative Names"
+msgstr "别名"
+
+#: infodialog.cpp:262
+msgid "Use This &Name"
+msgstr "使用这个名字(&N)"
+
+#: infolist.cpp:93 kmldview.cpp:125
+msgid "Show"
+msgstr "显示"
+
+#: infolist.cpp:727 infolist.cpp:994 infolist.cpp:1400
+msgid "Unknown file"
+msgstr "未知文件"
+
+#: infolist.cpp:729 infolist.cpp:996 infolist.cpp:1093 infolist.cpp:1272
+#: infolist.cpp:1402
+msgctxt "signifies absence of data in list columns"
+msgid "-"
+msgstr "-"
+
+#: infolist.cpp:753
+msgctxt "looking for file sources"
+msgid "Looking"
+msgstr "寻找中"
+
+#: infolist.cpp:754
+msgctxt "file is being downloaded"
+msgid "Downloading"
+msgstr "下载中"
+
+#: infolist.cpp:756
+msgctxt "file is paused"
+msgid "Paused"
+msgstr "已暂停"
+
+#: infolist.cpp:757
+msgctxt "file is complete"
+msgid "Complete"
+msgstr "完成"
+
+#: infolist.cpp:758
+msgctxt "file is being shared"
+msgid "Shared"
+msgstr "共享"
+
+#: infolist.cpp:759
+msgctxt "file has been canceled"
+msgid "Canceled"
+msgstr "已取消"
+
+#: infolist.cpp:760
+msgctxt "new file added to list"
+msgid "New"
+msgstr "新文件"
+
+#: infolist.cpp:761
+#, kde-format
+msgctxt "file has been aborted with a reason"
+msgid "Aborted: %1"
+msgstr "中止：%1"
+
+#: infolist.cpp:762
+msgctxt "file has been queued"
+msgid "Queued"
+msgstr "排队中"
+
+#: infolist.cpp:763 infolist.cpp:1126 infolist.cpp:1323 uploadersmodel.cpp:95
+#, kde-format
+msgctxt "unknown host state (unknown ID code)"
+msgid "Unknown (%1)"
+msgstr "未知(%1)"
+
+#: infolist.cpp:766
+msgctxt "unknown file state"
+msgid "Unknown"
+msgstr "未知"
+
+#: infolist.cpp:1091
+msgid "Unknown server"
+msgstr "未知服务器"
+
+#: infolist.cpp:1107 infolist.cpp:1301 uploadersmodel.cpp:66
+msgctxt "not connected to host"
+msgid "Not connected"
+msgstr "未连接"
+
+#: infolist.cpp:1109 infolist.cpp:1303 uploadersmodel.cpp:69
+msgctxt "connecting to host"
+msgid "Connecting"
+msgstr "连接中"
+
+#: infolist.cpp:1111 infolist.cpp:1305 uploadersmodel.cpp:72
+msgctxt "initiating connection to host"
+msgid "Initiating"
+msgstr "初始化中"
+
+#: infolist.cpp:1113 infolist.cpp:1307 uploadersmodel.cpp:75
+msgctxt "downloading from host"
+msgid "Downloading"
+msgstr "下载中"
+
+#: infolist.cpp:1117 infolist.cpp:1310 uploadersmodel.cpp:79
+msgctxt "connected to host"
+msgid "Connected"
+msgstr "已连接"
+
+#: infolist.cpp:1119 infolist.cpp:1316 uploadersmodel.cpp:86
+msgctxt "new host added to list"
+msgid "New host"
+msgstr "新主机"
+
+#: infolist.cpp:1121 infolist.cpp:1318 uploadersmodel.cpp:89
+msgctxt "host has been removed"
+msgid "Removed"
+msgstr "已删除"
+
+#: infolist.cpp:1123 infolist.cpp:1320 uploadersmodel.cpp:92
+msgctxt "host is blacklisted"
+msgid "Blacklisted"
+msgstr "已列入黑名单"
+
+#: infolist.cpp:1142
+msgid "high"
+msgstr "高"
+
+#: infolist.cpp:1144
+msgid "normal"
+msgstr "正常"
+
+#: infolist.cpp:1146
+msgid "low"
+msgstr "低"
+
+#: infolist.cpp:1149
+msgid "Yes"
+msgstr "是"
+
+#: infolist.cpp:1270
+msgid "Unknown client"
+msgstr "未知的客户端"
+
+#: infolist.cpp:1285
+msgctxt "a normal client"
+msgid "Normal"
+msgstr "正常"
+
+#: infolist.cpp:1287
+msgctxt "a client on the friend list"
+msgid "Friend"
+msgstr "好友"
+
+#: infolist.cpp:1289
+msgctxt "a client on the contact list"
+msgid "Contact"
+msgstr "联系"
+
+#: infolist.cpp:1292
+msgctxt "client type is unknown"
+msgid "Unknown"
+msgstr "未知"
+
+#: infolist.cpp:1307 infolist.cpp:1310 infolist.cpp:1312
+msgctxt "this friend's file list is present"
+msgid "Files listed"
+msgstr "已列出文件"
+
+#: infolist.cpp:1313 uploadersmodel.cpp:82
+#, kde-format
+msgctxt "we're at this position in client's queue"
+msgid "Queued: %1"
+msgstr "排队：%1"
+
+#: kmldonkey.cpp:127
+msgctxt "Core version string not (yet) available"
+msgid "Not Available"
+msgstr "不可用"
+
+#: kmldonkey.cpp:303
+msgid "Server connected/total"
+msgstr "服务器连接/总共"
+
+#: kmldonkey.cpp:304
+msgid "Files downloading/finished"
+msgstr "已完成/下载中的文件"
+
+#: kmldonkey.cpp:305
+msgid "Shared files total"
+msgstr "共享文件总共"
+
+#: kmldonkey.cpp:306
+msgid "Transfer down/up"
+msgstr "下载/上传传输"
+
+#: kmldonkey.cpp:307
+msgid "Speed down/up"
+msgstr "下载/上传速度"
+
+#: kmldonkey.cpp:308
+msgid "Bandwidth limit down/up"
+msgstr ""
+
+#. i18n: ectx: Menu (server_actions)
+#: kmldonkey.cpp:323 kmldonkeyui.rc:101 serverpage.cpp:179
+msgid "Servers"
+msgstr "服务器"
+
+#. i18n: ectx: Menu (search_actions)
+#: kmldonkey.cpp:324 kmldonkeyui.rc:120 prefs/prefs.cpp:136
+#: prefs/prefs.cpp:286 search.cpp:144
+msgid "Search"
+msgstr "搜索"
+
+#: kmldonkey.cpp:326 sharepage.cpp:194
+msgid "Uploads"
+msgstr "上传"
+
+#: kmldonkey.cpp:328
+msgid "Statistics"
+msgstr "统计"
+
+#: kmldonkey.cpp:345
+msgid "&Show Toolbar"
+msgstr "显示工具栏(&S)"
+
+#: kmldonkey.cpp:357
+msgid "Connections..."
+msgstr "连接..."
+
+#: kmldonkey.cpp:358
+msgid "Connections"
+msgstr "连接"
+
+#: kmldonkey.cpp:362
+msgid "&Connect to Core"
+msgstr "连接到核心(&C)"
+
+#: kmldonkey.cpp:363
+msgid "Connect"
+msgstr "连接"
+
+#: kmldonkey.cpp:368
+msgid "Toggle Band&width"
+msgstr ""
+
+#: kmldonkey.cpp:369
+msgid "Toggle Bandwidth"
+msgstr ""
+
+#: kmldonkey.cpp:374
+msgid "&Disconnect From Core"
+msgstr "从核心断开连接(&D)"
+
+#: kmldonkey.cpp:375
+msgid "Disconnect"
+msgstr "断开"
+
+#: kmldonkey.cpp:380
+msgid "&Kill Core"
+msgstr "杀死核心(&K)"
+
+#: kmldonkey.cpp:381
+msgid "Kill"
+msgstr "杀死"
+
+#: kmldonkey.cpp:386
+msgid "&Submit URLs..."
+msgstr "提交 URL(&S)..."
+
+#: kmldonkey.cpp:387
+msgid "Submit"
+msgstr "提交"
+
+#: kmldonkey.cpp:393
+msgid "Submit Collection File..."
+msgstr "提交收藏文件..."
+
+#: kmldonkey.cpp:394
+msgid "Collection"
+msgstr "收藏"
+
+#: kmldonkey.cpp:399
+#, fuzzy
+#| msgid "Submit Collection File..."
+msgid "Submit Torrent File..."
+msgstr "提交收藏文件..."
+
+#: kmldonkey.cpp:400
+msgid "Torrent"
+msgstr ""
+
+#: kmldonkey.cpp:405
+msgid "Configure MLDonkey..."
+msgstr "配置 MLDonkey..."
+
+#: kmldonkey.cpp:413
+#, kde-format
+msgid "Activate Page %1"
+msgstr "激活页面 %1"
+
+#: kmldonkey.cpp:419
+msgid "Next Page"
+msgstr "下一页"
+
+#: kmldonkey.cpp:420
+msgid "Next"
+msgstr "下一页"
+
+#: kmldonkey.cpp:425
+msgid "Previous Page"
+msgstr "上一页"
+
+#: kmldonkey.cpp:426
+msgid "Prev"
+msgstr "上一页"
+
+#: kmldonkey.cpp:435
+msgid "Copy to Clipboard as &URL"
+msgstr "以 URL 的形式复制到剪贴板(&U)"
+
+#: kmldonkey.cpp:436 kmldonkey.cpp:439 kmldonkey.cpp:440
+msgid "Copy"
+msgstr "复制"
+
+#: kmldonkey.cpp:439
+msgid "Copy to Clipboard as HTML"
+msgstr "以 HTML 的形式复制到剪贴板"
+
+#: kmldonkey.cpp:440
+msgid "Copy to Clipboard as Hash"
+msgstr "以 Hash 的形式复制到剪贴板"
+
+#: kmldonkey.cpp:441 kmldonkey.cpp:443
+msgid "Download"
+msgstr "下载"
+
+#: kmldonkey.cpp:442
+msgid "Force Download"
+msgstr "强行下载"
+
+#: kmldonkey.cpp:442
+msgid "Force"
+msgstr "强行"
+
+#: kmldonkey.cpp:443
+msgid "Download As..."
+msgstr "下载为..."
+
+#: kmldonkey.cpp:444
+msgid "File Information..."
+msgstr "文件信息..."
+
+#: kmldonkey.cpp:444
+msgid "Info"
+msgstr "信息"
+
+#: kmldonkey.cpp:662
+msgid ""
+"Really kill the MLDonkey-Core?\n"
+"\n"
+"Be warned, that you cannot restart the core with KMLDonkey."
+msgstr ""
+"真的要杀死 MLDonkey 核心吗？\n"
+"\n"
+"警告，您不能用 KMLDonkey 重新启动该核心。"
+
+#: kmldonkey.cpp:663
+msgid "Kill Core"
+msgstr "杀死核心"
+
+#: kmldonkey.cpp:680
+msgid "Open Collection File"
+msgstr "打开收藏文件"
+
+#: kmldonkey.cpp:694
+#, kde-format
+msgid "Failed to open collection file %1."
+msgstr "打开收藏文件 %1 失败。"
+
+#: kmldonkey.cpp:700
+#, fuzzy
+#| msgid "Open Collection File"
+msgid "Open Torrent File"
+msgstr "打开收藏文件"
+
+#: kmldonkey.cpp:990
+msgid ""
+"You must connect to a running MLDonkey core before you can configure it."
+msgstr "在你配置之前你一定要连接到正在运行的 MLDonkey 核心。"
+
+#: kmldonkey.cpp:1027
+#, kde-format
+msgid "Connecting with %1 ..."
+msgstr "正在与 %1 连接..."
+
+#: kmldonkey.cpp:1037
+msgid "<b>Disconnected.</b>"
+msgstr "<b>已断开。</b>"
+
+#: kmldonkey.cpp:1049
+msgid "Authentication error. Incorrect name or password."
+msgstr "身份验证错误。错误的用户名或密码。"
+
+#: kmldonkey.cpp:1055
+msgid "Connection to the core was refused. Are you sure it is running?"
+msgstr "被拒绝连接到核心。请确定核心是否正在运行。"
+
+#: kmldonkey.cpp:1067
+#, kde-format
+msgid "Host '%1' not found."
+msgstr "无法找到主机“%1”。"
+
+#: kmldonkey.cpp:1067
+msgid "No Host defined."
+msgstr "没有定义主机。"
+
+#: kmldonkey.cpp:1076
+msgid ""
+"Your mldonkey core uses an obsolete communication protocol. Please upgrade "
+"it to a more recent version."
+msgstr "您的核心使用了过时的通讯协议。请升级您的核心。"
+
+#: kmldonkey.cpp:1084
+msgid ""
+"A read error occurred when communicating with the core. The connection has "
+"been terminated."
+msgstr "与核心通信时发生读取错误。连接已被终止。"
+
+#: kmldonkey.cpp:1110
+#, kde-format
+msgid ""
+"Hostname: <b>%1</b><br>Host Address: <b>%2</b><br>Host Port: <b>%3</"
+"b><br>Username: <b>%4</b><br>Core Version: <b>%7</b><br>Current GUI "
+"Protocol: <b>%5</b><br>Core's GUI Protocol: <b>%6</b>"
+msgstr ""
+"主机名：<b>%1</b><br>主机地址：<b>%2</b><br>主机端口：<b>%3</b><br>用户名："
+"<b>%4</b><br>核心版本：<b>%7</b><br>当前 GUI 协议：<b>%5</b><br>核心 GUI 协"
+"议：<b>%6</b>"
+
+#: kmldonkey.cpp:1131
+#, kde-format
+msgid "Connected %1"
+msgstr "已连接 %1"
+
+#: kmldonkey.cpp:1163
+#, kde-format
+msgid "Server %1"
+msgstr "服务器 %1"
+
+#: kmldonkey.cpp:1164
+#, kde-format
+msgid "Files %1"
+msgstr "文件 %1"
+
+#: kmldonkey.cpp:1165
+#, kde-format
+msgid "Shared %1"
+msgstr "共享 %1"
+
+#: kmldonkey.cpp:1166
+#, kde-format
+msgid "Transfer %1"
+msgstr "传输 %1"
+
+#: kmldonkey.cpp:1167
+#, kde-format
+msgid "Speed %1"
+msgstr "速度 %1"
+
+#: kmldonkey.cpp:1190
+msgid ""
+"Unable to construct a GUI element. Your KMLDonkey installation is incomplete."
+msgstr "不能创建 GUI 元素。您的 KMLDonkey 安装不完整。"
+
+#: kmldonkey.cpp:1192
+msgid ""
+"Unable to construct a requested GUI element. This is most likely because the "
+"GUI specification data file (kmldonkeyui.rc) has been installed in the wrong "
+"location, or has not been installed at all. If you installed KMLDonkey from "
+"a binary package, please report this to the packager at once. If you "
+"installed from source, check that you configured KMLDonkey to use the same "
+"install prefix as your KDE installation (see the README file accompanying "
+"the KMLDonkey source for details), and that your system does not keep KDE "
+"files in non-standard locations (Mandriva Linux systems, in particular, are "
+"known to do this)."
+msgstr ""
+"我不能创建所需要的 GUI 元素。这很有可能是 GUI 的指定数据文件(kmldonkeyui.rc)"
+"被安装到了错误的位置，或者根本没有被安装。如果您是从二进制软件包安装 "
+"KMLDonkey，请马上通知打包者。如果您是从原代码编译安装 KMLDonkey，请检查您是否"
+"使用了和 KDE 安装时相同的 perfix (详细资料请查看 KMLDonkey 原代码所附带的说明"
+"文件)，您的系统把 KDE 安装件在一个不标准的位置(Mandrakelinux 系统，通常都会这"
+"么做)。"
+
+#: kmldonkey.cpp:1286
+#, kde-format
+msgid "Bandwidth %1"
+msgstr ""
+
+#. i18n: ectx: Menu (file)
+#: kmldonkeyui.rc:5
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (edit)
+#: kmldonkeyui.rc:19
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (servers)
+#: kmldonkeyui.rc:25
+msgid "Se&rvers"
+msgstr "服务器(&R)"
+
+#. i18n: ectx: Menu (downloads)
+#: kmldonkeyui.rc:41
+msgid "&Downloads"
+msgstr "下载(&D)"
+
+#. i18n: ectx: Menu (uploads)
+#: kmldonkeyui.rc:71
+msgid "Sh&ares"
+msgstr "共享(&A)"
+
+#. i18n: ectx: Menu (friends)
+#: kmldonkeyui.rc:78
+msgid "Fr&iends"
+msgstr "好友(&I)"
+
+#. i18n: ectx: Menu (settings)
+#: kmldonkeyui.rc:88
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: Menu (downloaded_actions)
+#: kmldonkeyui.rc:162
+msgid "Completed Files"
+msgstr "已完成的文件"
+
+#. i18n: ectx: Menu (upload_actions)
+#: kmldonkeyui.rc:174
+msgid "Shared Files"
+msgstr "共享的文件"
+
+#. i18n: ectx: Menu (uploaders_actions)
+#: kmldonkeyui.rc:185
+msgid "Uploaders"
+msgstr "上传者"
+
+#. i18n: ectx: Menu (friend_share_actions)
+#: kmldonkeyui.rc:222
+msgid "Friend Shares"
+msgstr "好友共享"
+
+#: listeditor.cpp:100 shareddirs.cpp:119
+msgid "&Add"
+msgstr "添加(&A)"
+
+#: listeditor.cpp:101
+msgid "Add a new item to the list"
+msgstr "向列表增加一个新项目"
+
+#: listeditor.cpp:104 shareddirs.cpp:125
+msgid "&Remove"
+msgstr "删除(&R)"
+
+#: listeditor.cpp:105
+msgid "Remove selected item from list"
+msgstr "从列表删除所选的项目"
+
+#: listeditor.cpp:108
+msgid "&Up"
+msgstr "上移(&U)"
+
+#: listeditor.cpp:109
+msgid "Move selected item up"
+msgstr "上移所选的项目"
+
+#: listeditor.cpp:112
+msgid "&Down"
+msgstr "下移(&D)"
+
+#: listeditor.cpp:113
+msgid "Move selected item down"
+msgstr "下移所选的项目"
+
+#: listeditor.cpp:263
+msgid "Search for"
+msgstr "搜索"
+
+#: listeditor.cpp:263
+msgid "Search for regular expression..."
+msgstr "搜索正则表达式..."
+
+#: listeditor.cpp:264
+msgid "Replace with"
+msgstr "替换为"
+
+#: listeditor.cpp:264
+msgid "Replace searched regular expression with..."
+msgstr "将搜索到的正规表达式替换为..."
+
+#: main.cpp:40
+msgid "KMLDonkey"
+msgstr "KMLDonkey"
+
+#: main.cpp:41
+msgid "An MLDonkey frontend for the KDE desktop."
+msgstr "一个 MLDonkey 的 KDE 桌面前端。"
+
+#: main.cpp:43
+#, fuzzy
+#| msgid "Copyright (C) 2003 - 2008 The KMLDonkey Authors"
+msgid "Copyright (C) 2003 - 2011 The KMLDonkey Authors"
+msgstr "版权所有 (C) 2003 - 2008 KMLDonkey 作者"
+
+#: main.cpp:44
+msgid "Sebastian Sauer"
+msgstr "Sebastian Sauer"
+
+#: main.cpp:44
+msgid "Maintainer & Developer"
+msgstr "维护者和开发者"
+
+#: main.cpp:45
+msgid "Gioacchino Mazzurco"
+msgstr "Gioacchino Mazzurco"
+
+#: main.cpp:45 main.cpp:46 main.cpp:47
+msgid "Developer"
+msgstr "开发者"
+
+#: main.cpp:46
+msgid "Christian Muehlhaeuser"
+msgstr "Christian Muehlhaeuser"
+
+#: main.cpp:47
+msgid "Eduard Huguet"
+msgstr ""
+
+#: main.cpp:48
+msgid "Petter Stokke"
+msgstr "Petter Stokke"
+
+#: main.cpp:48
+msgid "Developer & Project Founder"
+msgstr "开发者和项目创建者"
+
+#: mlconfig.cpp:71
+msgid "MLDonkey Configuration"
+msgstr "MLDonkey 配置"
+
+#: mlconfig.cpp:93
+msgctxt "mldonkey config: network options page"
+msgid "Networks"
+msgstr "网络"
+
+#: optioneditor.cpp:91
+msgid "Option"
+msgstr "选项"
+
+#: optioneditor.cpp:91
+msgid "Value"
+msgstr "值"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KMLDonkeyPrefGeneralPage)
+#: prefs/generalpage.ui:20
+msgid "General Preferences"
+msgstr "常规首选项"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: prefs/generalpage.ui:28
+msgid "Interface Settings"
+msgstr "界面设置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showToolbarCheckbox)
+#: prefs/generalpage.ui:34
+msgid "Show the &toolbar"
+msgstr "显示工具栏(&T)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showStatusbarCheckbox)
+#: prefs/generalpage.ui:41
+msgid "Show the &status bar"
+msgstr "显示状态栏(&S)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, statusbarLabelsCheckbox)
+#: prefs/generalpage.ui:48
+msgid "Show &labels in the status bar"
+msgstr "在状态栏显示标签(&L)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showTrayiconCheckBox)
+#: prefs/generalpage.ui:55
+msgid "Show tray icon"
+msgstr "显示托盘图标"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showTrayOnCloseCheckBox)
+#: prefs/generalpage.ui:62
+msgid "Minimize to tray icon on close"
+msgstr "关闭时最小化至托盘"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, persistentReconnectCheckbox)
+#: prefs/generalpage.ui:69
+msgid ""
+"If connection to the core fails or is lost, should KMLDonkey keep trying to "
+"reestablish contact until it succeeds?"
+msgstr ""
+"如果连接到核心失败或丢失，KMLDonkey 是否应该尝试重新建立联系直到成功连接？"
+
+#. i18n: ectx: property (text), widget (QCheckBox, persistentReconnectCheckbox)
+#: prefs/generalpage.ui:72
+msgid "Always stay &connected"
+msgstr "总是保持连接(&C)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: prefs/generalpage.ui:81
+msgid "Page View Mode:"
+msgstr "页面视图模式："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, pageViewModeComboBox)
+#: prefs/generalpage.ui:101
+msgid "List"
+msgstr "列表"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, pageViewModeComboBox)
+#: prefs/generalpage.ui:106
+msgid "Tree"
+msgstr "树形"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, pageViewModeComboBox)
+#: prefs/generalpage.ui:111
+msgid "Tabbed"
+msgstr "标签"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: prefs/generalpage.ui:132
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#. i18n: ectx: property (text), widget (QLabel, encodingLabel)
+#: prefs/generalpage.ui:146
+msgid "Text &encoding:"
+msgstr "文本编码(&E)："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, encodingSelector)
+#: prefs/generalpage.ui:159
+msgid "The character set to use to decode the strings sent by the core."
+msgstr "用于解码核心所发送字符串的字符集。"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, encodingSelector)
+#: prefs/generalpage.ui:164
+msgid ""
+"<p>Although MLDonkey does not understand about character encodings, you may "
+"well encounter text on the Donkey network that has been encoded in various "
+"national character sets. While you should, in general, use the ISO 8859-1 "
+"encoding - the de-facto network standard - you can choose a different "
+"character encoding here if you expect most of the text you encounter to be "
+"encoded in a certain national character set.</p>\n"
+"<p><b>Note:</b> Changing this causes KMLDonkey to reconnect to the core. "
+"Changing it to something incompatible with the ISO 8859-1 character set "
+"<em>may</em> cause unpredictable behavior.</p>\n"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableStatsCheckbox)
+#: prefs/generalpage.ui:173
+msgid "Enable the statistics page"
+msgstr "启用统计页面"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableStatsCheckbox)
+#: prefs/generalpage.ui:176
+msgid "Enable st&atistics"
+msgstr "启用统计(&A)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, advancedConfigCheckbox)
+#: prefs/generalpage.ui:183
+msgid ""
+"Enable the advanced MLDonkey configuration dialog that lets you configure "
+"more MLDonkey options."
+msgstr "启用高级 MLDonkey 配置对话框以让您配置更多的 MLDonkey 选项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, advancedConfigCheckbox)
+#: prefs/generalpage.ui:186
+msgid "Enable &advanced configuration options"
+msgstr "启用高级配置选项(&A)"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KMLDonkeyPrefListsPage)
+#: prefs/listspage.ui:14 prefs/prefs.cpp:279
+msgid "List Configuration"
+msgstr "列表配置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: prefs/listspage.ui:20
+msgid "Server List"
+msgstr "服务器列表"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, hideDisconnectedServersCheckbox)
+#: prefs/listspage.ui:26
+msgid ""
+"If you turn this on, disconnected servers will be hidden in the server list."
+msgstr "如果您启用它，断开的服务器将会从服务器列表中隐藏。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, hideDisconnectedServersCheckbox)
+#: prefs/listspage.ui:29
+msgid "Hide disconnected servers"
+msgstr "隐藏断开的服务器"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, hideBlacklistedServersCheckbox)
+#: prefs/listspage.ui:39
+msgid ""
+"If you turn this on, blacklisted servers will be hidden in the server list."
+msgstr "如果您启用它，黑名单服务器将会从服务器列表中隐藏。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, hideBlacklistedServersCheckbox)
+#: prefs/listspage.ui:42
+msgid "Hide blacklisted servers"
+msgstr "隐藏黑名单服务器"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoServerResortCheckbox)
+#: prefs/listspage.ui:51
+msgid "Automatically re-sort server list:"
+msgstr "自动重新排列服务器列表："
+
+#. i18n: ectx: property (suffix), widget (KIntNumInput, serverResortEntry)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, downloadResortEntry)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, updateFrequencyEntry)
+#: prefs/listspage.ui:67 prefs/listspage.ui:150 prefs/listspage.ui:192
+msgid " seconds"
+msgstr " 秒"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
+#: prefs/listspage.ui:82
+msgid "Download List"
+msgstr "下载列表"
+
+#. i18n: ectx: property (text), widget (QCheckBox, progressbarCheckBox)
+#: prefs/listspage.ui:88
+msgid "Display progress bar in percentage column"
+msgstr "以百分数柱状图显示进度栏"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, hidePausedCheckbox)
+#: prefs/listspage.ui:95
+msgid ""
+"If you turn this on, paused downloads will be hidden in the download list."
+msgstr "如果您启用它，已暂停的下载将会从下载列表中隐藏。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, hidePausedCheckbox)
+#: prefs/listspage.ui:98
+msgid "Hide &paused downloads"
+msgstr "隐藏已暂停的下载(&P)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, hideUnpausedCheckbox)
+#: prefs/listspage.ui:105
+msgid ""
+"If you turn this on, only paused downloads will be shown in the download "
+"list - unless you also turn on \"Hide paused downloads,\" which will give "
+"you an empty list."
+msgstr ""
+"如果您启用它，只有已暂停的下载将会显示在下载列表中 - 除非您同时启用会显示空列"
+"表的“隐藏已暂停的下载”。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, hideUnpausedCheckbox)
+#: prefs/listspage.ui:108
+msgid "Show only paused downloads"
+msgstr "只显示已暂停的下载"
+
+#. i18n: ectx: property (text), widget (QCheckBox, SortDownloadingFirstCheckBox)
+#: prefs/listspage.ui:115
+msgid "Sort downloading files first"
+msgstr "首先排序正在下载的文件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, SortPausedLastCheckBox)
+#: prefs/listspage.ui:125
+msgid "Sort paused files last"
+msgstr "已暂停的文件排到最后"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoDownloadResortCheckbox)
+#: prefs/listspage.ui:134
+msgid "Automatically re-sort download list:"
+msgstr "自动重新排序下载列表："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: prefs/listspage.ui:165
+msgid "Upload Lists"
+msgstr "上传列表"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, autoUpdateCheckbox)
+#: prefs/listspage.ui:173
+msgid ""
+"The lists on the upload page can be updated manually (to save bandwidth) or "
+"automatically."
+msgstr "上传页面中的列表可以手动(以节省带宽)或自动更新。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoUpdateCheckbox)
+#: prefs/listspage.ui:176
+msgid "Automatically &update upload lists:"
+msgstr "自动更新上传列表(&U)："
+
+#. i18n: ectx: property (toolTip), widget (KIntNumInput, updateFrequencyEntry)
+#: prefs/listspage.ui:186
+msgid "How often the upload lists should be updated."
+msgstr "上传列表应该更新的频度。"
+
+#: prefs/prefs.cpp:84
+msgid "&Enable automatic renaming of downloading files"
+msgstr "启用下载文件自动重命名(&E)"
+
+#: prefs/prefs.cpp:85
+msgid ""
+"Should downloading files be automatically renamed according to the search "
+"and replace list?"
+msgstr ""
+
+#: prefs/prefs.cpp:109
+msgid "&Colored list"
+msgstr "着色列表(&C)"
+
+#: prefs/prefs.cpp:110
+msgid "Colorize items in the lists according to their status"
+msgstr ""
+
+#: prefs/prefs.cpp:126
+msgid "Server"
+msgstr "服务器"
+
+#: prefs/prefs.cpp:130 prefs/prefs.cpp:213
+msgid "&Not connected:"
+msgstr "未连接(&N)："
+
+#: prefs/prefs.cpp:130
+#, fuzzy
+#| msgid "Hide disconnected servers"
+msgid "Color for disconnected servers"
+msgstr "隐藏断开的服务器"
+
+#: prefs/prefs.cpp:131 prefs/prefs.cpp:214
+msgid "&Blacklisted:"
+msgstr "已列入黑名单(&B)："
+
+#: prefs/prefs.cpp:131
+#, fuzzy
+#| msgid "Hide blacklisted servers"
+msgid "Color for blacklisted servers"
+msgstr "隐藏黑名单服务器"
+
+#: prefs/prefs.cpp:132 prefs/prefs.cpp:215
+msgid "Connectin&g:"
+msgstr "连接中(&G)："
+
+#: prefs/prefs.cpp:132
+msgid "Color for connecting or initiating servers"
+msgstr ""
+
+#: prefs/prefs.cpp:133
+msgid "C&onnected:"
+msgstr "已连接(&O)："
+
+#: prefs/prefs.cpp:133
+#, fuzzy
+#| msgid "Hide disconnected servers"
+msgid "Color for connected servers"
+msgstr "隐藏断开的服务器"
+
+#: prefs/prefs.cpp:141 prefs/prefs.cpp:174
+msgid "&Few sources:"
+msgstr "缺少来源(&F)："
+
+#: prefs/prefs.cpp:141 prefs/prefs.cpp:174
+msgid "The color indicating few sources"
+msgstr ""
+
+#: prefs/prefs.cpp:142 prefs/prefs.cpp:175
+msgid "&Many sources:"
+msgstr "许多来源(&M)："
+
+#: prefs/prefs.cpp:142 prefs/prefs.cpp:175
+msgid "The color indicating many sources"
+msgstr ""
+
+#: prefs/prefs.cpp:143
+msgid "&Already done:"
+msgstr "已完成(&A)："
+
+#: prefs/prefs.cpp:143
+msgid "Color for already downloaded sources"
+msgstr ""
+
+#: prefs/prefs.cpp:149 prefs/prefs.cpp:183
+msgid "Threshold:"
+msgstr ""
+
+#: prefs/prefs.cpp:155 prefs/prefs.cpp:188
+msgid "The number of sources that will produce the full 'many sources' color"
+msgstr ""
+
+#: prefs/prefs.cpp:158 uploadersmodel.cpp:138
+msgid "Downloaded"
+msgstr "已下载"
+
+#: prefs/prefs.cpp:162 prefs/prefs.cpp:217
+msgid "&Downloading:"
+msgstr "下载中(&D)："
+
+#: prefs/prefs.cpp:162
+msgid "Color for active downloads (receiving data)"
+msgstr ""
+
+#: prefs/prefs.cpp:163
+msgid "&Looking:"
+msgstr "寻找中(&L)："
+
+#: prefs/prefs.cpp:163
+msgid "Color for inactive downloads (looking for sources)"
+msgstr ""
+
+#: prefs/prefs.cpp:164
+msgid "Not &available:"
+msgstr "不可用(&A)："
+
+#: prefs/prefs.cpp:164
+msgid "Color for downloads that are not available"
+msgstr ""
+
+#: prefs/prefs.cpp:165 prefs/prefs.cpp:216
+msgid "&Queued:"
+msgstr "排队中(&Q)："
+
+#: prefs/prefs.cpp:165
+#, fuzzy
+#| msgid "Show only paused downloads"
+msgid "Color for queued downloads"
+msgstr "只显示已暂停的下载"
+
+#: prefs/prefs.cpp:166
+msgid "&Paused:"
+msgstr "已暂停(&P)："
+
+#: prefs/prefs.cpp:166
+#, fuzzy
+#| msgid "Show only paused downloads"
+msgid "Color for paused downloads"
+msgstr "只显示已暂停的下载"
+
+#: prefs/prefs.cpp:176
+msgid "&Complete:"
+msgstr "已完成(&C)："
+
+#: prefs/prefs.cpp:176
+msgid "The color indicating a complete chunk"
+msgstr ""
+
+#: prefs/prefs.cpp:177
+msgid "&No sources:"
+msgstr "没有来源(&N)："
+
+#: prefs/prefs.cpp:177
+msgid "The color indicating no sources found"
+msgstr ""
+
+#: prefs/prefs.cpp:192
+msgid "Shaded availability display"
+msgstr ""
+
+#: prefs/prefs.cpp:193
+msgid "Draw a fancier looking shaded availability display bar."
+msgstr ""
+
+#: prefs/prefs.cpp:199
+msgid "Shading depth:"
+msgstr ""
+
+#: prefs/prefs.cpp:204
+msgid "The depth of the availability bar shading - more is darker."
+msgstr ""
+
+#: prefs/prefs.cpp:213
+#, fuzzy
+#| msgid "Hide disconnected servers"
+msgid "Color for disconnected sources"
+msgstr "隐藏断开的服务器"
+
+#: prefs/prefs.cpp:214
+#, fuzzy
+#| msgid "Hide blacklisted servers"
+msgid "Color for blacklisted sources"
+msgstr "隐藏黑名单服务器"
+
+#: prefs/prefs.cpp:215
+msgid "Color for connecting or initiating sources"
+msgstr ""
+
+#: prefs/prefs.cpp:216
+msgid "Color for queued sources"
+msgstr ""
+
+#: prefs/prefs.cpp:217
+msgid "Color for sources being downloaded from"
+msgstr ""
+
+#: prefs/prefs.cpp:239
+msgid "Console font:"
+msgstr "控制台字体："
+
+#: prefs/prefs.cpp:241
+msgid "Font used for the console"
+msgstr "用于控制台的字体"
+
+#: prefs/prefs.cpp:244
+msgid "List font:"
+msgstr "列表字体："
+
+#: prefs/prefs.cpp:246
+msgid "Font used for the lists"
+msgstr "用于列表的字体"
+
+#: prefs/prefs.cpp:256
+msgid "KMLDonkey Preferences"
+msgstr "KMLDonkey 首选项"
+
+#: prefs/prefs.cpp:264
+msgid "General"
+msgstr "常规"
+
+#: prefs/prefs.cpp:266
+msgid "General Configuration"
+msgstr "常规配置"
+
+#: prefs/prefs.cpp:277
+msgid "Lists"
+msgstr "列表"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KMLDonkeyPrefSearchPage)
+#: prefs/prefs.cpp:288 prefs/searchpage.ui:14
+msgid "Search Configuration"
+msgstr "搜索配置"
+
+#: prefs/prefs.cpp:295
+msgid "Autorename"
+msgstr "自动重命名"
+
+#: prefs/prefs.cpp:297
+msgid "Autorename Configuration"
+msgstr "自动重命名配置"
+
+#: prefs/prefs.cpp:302
+msgid "Colors"
+msgstr "着色"
+
+#: prefs/prefs.cpp:304
+msgid "Color Configuration"
+msgstr "着色配置"
+
+#: prefs/prefs.cpp:309
+msgid "Fonts"
+msgstr "字体"
+
+#: prefs/prefs.cpp:311
+msgid "Font Configuration"
+msgstr "字体配置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: prefs/searchpage.ui:20
+msgid "Search Settings"
+msgstr "搜索设置"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, activateNewTabsCheckbox)
+#: prefs/searchpage.ui:26
+msgid ""
+"When a new search is started, open the search page in front of any other "
+"pages."
+msgstr "当开始新搜索时，在其它页面前打开搜索页面。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, activateNewTabsCheckbox)
+#: prefs/searchpage.ui:29
+msgid "Open new search pages in &front"
+msgstr "在前台打开新搜索页面(&F)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, closeTabsOnDisconnectCheckbox)
+#: prefs/searchpage.ui:36
+msgid "Close all open searches if KMLDonkey is disconnected from the core."
+msgstr "如果 KMLDonkey 从核心断开，则关闭所有打开的搜索。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, closeTabsOnDisconnectCheckbox)
+#: prefs/searchpage.ui:39
+msgid "&Close search pages on disconnect"
+msgstr "断开连接时关闭搜索页面(&C)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showNumbersOnTabsCheckbox)
+#: prefs/searchpage.ui:46
+msgid "Show number of search &results in tab title"
+msgstr "在标签标题中显示搜索结果数(&R)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showSubmitURLCheckbox)
+#: prefs/searchpage.ui:53
+msgid "Show the \"Submit &URL\" entry box"
+msgstr "显示“提交 &URL”条目框"
+
+#: renamedialog.cpp:42
+msgid "Select File Name"
+msgstr "选择文件名"
+
+#: renamedialog.cpp:55
+msgid "&Preview"
+msgstr "预览(&P)"
+
+#: renamedialog.cpp:65
+msgid "New name:"
+msgstr "新名称："
+
+#: search.cpp:77
+msgid "Submit URL:"
+msgstr "提交 URL："
+
+#: search.cpp:143
+msgid "Activate Search Page"
+msgstr "激活搜索页面"
+
+#: search.cpp:148
+msgid "Close Current Search"
+msgstr "关闭当前搜索"
+
+#: search.cpp:149
+msgid "Close"
+msgstr "关闭"
+
+#: search.cpp:153
+msgid "Close All Searches"
+msgstr "关闭所有搜索"
+
+#: search.cpp:154
+msgid "Close All"
+msgstr "关闭所有"
+
+#: searchcore.cpp:119
+msgid "Max hits:"
+msgstr "最高点击："
+
+#: searchcore.cpp:130
+msgctxt "search type"
+msgid "Type:"
+msgstr "类型："
+
+#: searchcore.cpp:133
+msgctxt "remote search"
+msgid "Remote"
+msgstr "远程"
+
+#: searchcore.cpp:134
+msgctxt "local search"
+msgid "Local"
+msgstr "本地"
+
+#: searchcore.cpp:135
+msgctxt "subscription search"
+msgid "Subscribe"
+msgstr "订阅"
+
+#: searchcore.cpp:145
+msgid "All Networks"
+msgstr "所有网络"
+
+#: searchcore.cpp:150
+msgctxt "start a search"
+msgid "Search"
+msgstr "搜索"
+
+#: searchcorewidgets.cpp:401
+msgid "Keywords:"
+msgstr "关键字："
+
+#: searchcorewidgets.cpp:427
+msgid "Min size:"
+msgstr "最小的大小"
+
+#: searchcorewidgets.cpp:450
+msgid "Max size:"
+msgstr "最大的大小："
+
+#: searchcorewidgets.cpp:499
+msgid "Media:"
+msgstr "媒体："
+
+#: searchcorewidgets.cpp:523
+msgid "Artist:"
+msgstr "艺术家："
+
+#: searchcorewidgets.cpp:547
+msgid "Title:"
+msgstr "标题："
+
+#: searchcorewidgets.cpp:571
+msgid "Album:"
+msgstr "专辑："
+
+#: searchcorewidgets.cpp:595
+msgid "Bitrate:"
+msgstr "比特率："
+
+#: searchtabresult.cpp:190
+msgid "Filter"
+msgstr "过滤器"
+
+#: searchtabresult.cpp:196
+msgctxt "zero of zero search results"
+msgid "0/0"
+msgstr "0/0"
+
+#: serverpage.cpp:60
+msgid "Server name"
+msgstr "服务器名称"
+
+#: serverpage.cpp:63
+msgid "Users"
+msgstr "用户"
+
+#: serverpage.cpp:64
+msgid "Files"
+msgstr "文件"
+
+#: serverpage.cpp:65
+msgid "Description"
+msgstr "描述"
+
+#: serverpage.cpp:66
+msgid "Address"
+msgstr "地址"
+
+#: serverpage.cpp:67
+msgid "Port"
+msgstr "端口"
+
+#: serverpage.cpp:68
+msgid "Score"
+msgstr "评分"
+
+#: serverpage.cpp:69
+msgid "ID"
+msgstr "ID"
+
+#: serverpage.cpp:70
+msgid "Preferred"
+msgstr "首选的"
+
+#: serverpage.cpp:125
+msgid "&Connect to Server"
+msgstr "连接到服务器(&C)"
+
+#: serverpage.cpp:131
+msgid "&Disconnect From Server"
+msgstr "断开服务器(&D)"
+
+#: serverpage.cpp:137
+msgid "&Add Server..."
+msgstr "添加服务器(&A)..."
+
+#: serverpage.cpp:144
+msgid "&Remove Server"
+msgstr "删除服务器(&R)"
+
+#: serverpage.cpp:150
+msgid "Remove &Old Servers"
+msgstr "删除旧的服务器(&O)"
+
+#: serverpage.cpp:155
+msgid "&Blacklist Server"
+msgstr "黑名单服务器(&B)"
+
+#: serverpage.cpp:160
+msgid "Re&name Server"
+msgstr "重命名服务器(&N)"
+
+#: serverpage.cpp:165
+msgid "Toggle &Preferred"
+msgstr "总共优先的(&P)"
+
+#: serverpage.cpp:170
+msgid "&Hide Disconnected Servers"
+msgstr "隐藏断开的服务器(&H)"
+
+#: serverpage.cpp:174
+msgid "Hide B&lacklisted Servers"
+msgstr "隐藏黑名单服务器(&L)"
+
+#: serverpage.cpp:178
+msgid "Activate Servers Page"
+msgstr "激活服务器页面"
+
+#: shareddirs.cpp:54
+msgid "Messages from core about applied changes."
+msgstr "来自核心的关于应用更改的消息。"
+
+#: shareddirs.cpp:54 shareddirs.cpp:81
+msgid "Shared Folders"
+msgstr "共享的文件夹"
+
+#: shareddirs.cpp:107
+msgid "Folder"
+msgstr "文件夹"
+
+#: shareddirs.cpp:121
+msgid "Add shared folder"
+msgstr "添加共享文件夹"
+
+#: shareddirs.cpp:127
+msgid "Remove shared folder"
+msgstr "删除共享文件夹"
+
+#: shareddirs.cpp:146
+msgid "Folder:"
+msgstr "文件夹："
+
+#: shareddirs.cpp:152
+msgid "Browse folders"
+msgstr "浏览文件夹"
+
+#: shareddirs.cpp:161
+msgid "Priority:"
+msgstr "优先级："
+
+#: shareddirs.cpp:243
+msgid "Select Folder"
+msgstr "选择文件夹"
+
+#: sharedfilemodel.cpp:121
+msgid "Requests"
+msgstr "请求"
+
+#: sharedfilemodel.cpp:122 uploadersmodel.cpp:139
+msgid "Uploaded"
+msgstr "上传"
+
+#: sharepage.cpp:180
+msgid "&Refresh Shared File List"
+msgstr "刷新共享文件列表(&R)"
+
+#: sharepage.cpp:184
+msgid "Refresh U&ploaders List"
+msgstr "刷新上传者列表(&P)"
+
+#: sharepage.cpp:188
+msgid "&Shared Folders..."
+msgstr "共享的文件夹(&S)..."
+
+#: sharepage.cpp:193
+msgid "Activate Uploads Page"
+msgstr "活动的上传页面"
+
+#: statspage.cpp:60
+msgid "Rates"
+msgstr "评价"
+
+#: statspage.cpp:177
+msgid "Clients"
+msgstr "客户端"
+
+#: statspageovernet.cpp:99
+msgid "Search filehash"
+msgstr "搜索文件 hash"
+
+#: statspageovernet.cpp:108
+msgid "Search keyword"
+msgstr "搜索关键字"
+
+#: statspageovernet.cpp:142
+#, kde-format
+msgid "Search hits: %1"
+msgstr "搜索点击：%1"
+
+#: statspageovernet.cpp:144
+#, kde-format
+msgid "Source hits: %1"
+msgstr "资源点击：%1"
+
+#: statspageovernet.cpp:166
+#, kde-format
+msgid "Size: %1"
+msgstr "大小：%1"
+
+#: statspageovernet.cpp:167
+#, kde-format
+msgid "Max size: %1"
+msgstr "最大大小：%1"
+
+#: submitdialog.cpp:37
+msgid "Submit URLs"
+msgstr "提交 URL"
+
+#: tools/fontselector.cpp:56
+msgid "Choose..."
+msgstr "选择..."
+
+#: uploadersmodel.cpp:142
+msgid "Rating"
+msgstr "等级"
+
+#: uploadersmodel.cpp:143
+msgid "Time"
+msgstr "时间"
+
+#: webbrowser.cpp:70
+msgid "Move backward through the page history"
+msgstr "通过页面历史向后移动"
+
+#: webbrowser.cpp:73
+msgid "Move forward through the page history"
+msgstr "通过页面历史向前移动"
+
+#: webbrowser.cpp:76
+msgid "Go to the original page"
+msgstr "去到原始的页面"
+
+#: webservices.cpp:48
+#, kde-format
+msgid "Do you want to rename \"%1\" to \"%2\"?"
+msgstr "您需要把“%1”重命名为“%2”吗？"
+
+#: webservices.cpp:49
+msgid "Rename download"
+msgstr "重命名下载"
+
+#~ msgid "%"
+#~ msgstr "%"
+
+#~ msgid "Clear filter"
+#~ msgstr "清除过滤"
+
+#~ msgid "Unknown share"
+#~ msgstr "未知的共享"
+
+#~ msgid "Bytes"
+#~ msgstr "字节"
+
+#~ msgid "Enter space-separated terms to filter the download list"
+#~ msgstr "输入空格分割的检索词以过滤下载列表"
+
+#, fuzzy
+#~| msgid "Failed to open collection file %1."
+#~ msgid "Failed to open torrent file %1."
+#~ msgstr "打开收藏文件 %1 失败。"

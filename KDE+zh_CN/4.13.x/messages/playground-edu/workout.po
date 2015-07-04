@@ -1,0 +1,937 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-10-30 06:35+0100\n"
+"PO-Revision-Date: 2011-06-06 10:19+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: label, entry, group (Workout)
+#: src/config.kcfg:11
+msgctxt "@label"
+msgid "Show the application's status bar"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, ConfigureOptionsDialog)
+#: src/config/configureoptionsdialog.ui:14
+msgid "Configure Workout"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (GeneralPageWidget, generalPageWidget)
+#: src/config/configureoptionsdialog.ui:24
+msgctxt "configure page tab header"
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/config/configurepagegeneral.ui:17
+#, fuzzy
+#| msgid "Energy:"
+msgctxt "configure page section header"
+msgid "Energy Unit"
+msgstr "能量："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/config/configurepagegeneral.ui:23
+msgid "Unit:"
+msgstr "单位："
+
+#. i18n: ectx: property (text), widget (QRadioButton, jouleRadio)
+#: src/config/configurepagegeneral.ui:30
+msgid "Joule (kJ)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, caloriesRadio)
+#: src/config/configurepagegeneral.ui:37
+msgid "Calories (kCal)"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: src/config/configurepagegeneral.ui:47
+msgid "Export"
+msgstr "导出"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/config/configurepagegeneral.ui:53
+msgid "KML export:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kmlExportPoints)
+#: src/config/configurepagegeneral.ui:62
+msgid "Include Points"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kmlExportSummary)
+#: src/config/configurepagegeneral.ui:69
+msgid "Include Summary"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/config/configurepagegeneral.ui:81
+msgctxt "configure page section header"
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/config/configurepagegeneral.ui:87
+msgid "Ascent/descent calculation threshold:"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, heightCalcThresholdSpin)
+#: src/config/configurepagegeneral.ui:94
+msgid " mm"
+msgstr " 毫米"
+
+#. i18n: ectx: attribute (title), widget (QWidget, aboutTab)
+#: src/gui/aboutdialog.ui:116
+msgid "&About"
+msgstr "关于(&A)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, authorTab)
+#: src/gui/aboutdialog.ui:142
+msgid "A&uthor"
+msgstr "作者(&U)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_17)
+#: src/gui/activitypage.ui:62
+msgctxt "activity name"
+msgid "Name:"
+msgstr "名称："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, nameEdit)
+#: src/gui/activitypage.ui:78
+msgid "The activity's name."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_19)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/gui/activitypage.ui:85 src/gui/athletelogpage.ui:56
+msgid "Date:"
+msgstr "日期："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, dateEdit)
+#: src/gui/activitypage.ui:101
+msgid "The date the activity took place."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_25)
+#: src/gui/activitypage.ui:111
+msgid "Time:"
+msgstr "时间："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, timeEdit)
+#: src/gui/activitypage.ui:127
+msgid "The time the activity took place."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: src/gui/activitypage.ui:140
+msgid "Category:"
+msgstr "分类："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, categoryCombo)
+#: src/gui/activitypage.ui:156
+msgid "The category this activity was filed under."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_22)
+#: src/gui/activitypage.ui:163
+msgid "Equipment:"
+msgstr "装备："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, equipmentCombo)
+#: src/gui/activitypage.ui:179
+msgid "The equipment used for this activity"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_16)
+#: src/gui/activitypage.ui:186
+msgid "Distance:"
+msgstr "距离："
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, distanceSpin)
+#: src/gui/activitypage.ui:202
+msgid "The distance covered during this activity."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_18)
+#: src/gui/activitypage.ui:215
+msgid "Max. speed:"
+msgstr "最大速度："
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, maxSpeedSpin)
+#: src/gui/activitypage.ui:231
+msgid "The maximum speed achieved during this activity."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_23)
+#: src/gui/activitypage.ui:244
+#, fuzzy
+#| msgid "Max. speed:"
+msgid "Avg. speed:"
+msgstr "最大速度："
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, avgSpeedSpin)
+#: src/gui/activitypage.ui:260
+msgid "The average speed during this activity."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: src/gui/activitypage.ui:273
+msgid "Ascent:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, ascentSpin)
+#: src/gui/activitypage.ui:289
+msgid "The total climb during this activity."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_21)
+#: src/gui/activitypage.ui:302
+msgid "Descent:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, descentSpin)
+#: src/gui/activitypage.ui:318
+msgid "The total descent during this activity."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: src/gui/activitypage.ui:331
+msgid "Avg. pace:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, avgPaceEdit)
+#: src/gui/activitypage.ui:347
+msgid "The average time per distance unit during this activity."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: src/gui/activitypage.ui:357
+#, fuzzy
+#| msgid "Max. speed:"
+msgid "Max. HR:"
+msgstr "最大速度："
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, maxHeartRateSpin)
+#: src/gui/activitypage.ui:373
+msgid "The maximum heart rate during this activity."
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, maxHeartRateSpin)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, avgHeartRateSpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, hrRestingSpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, hrMaxSpin)
+#: src/gui/activitypage.ui:379 src/gui/activitypage.ui:411
+#: src/gui/athletelogpage.ui:228 src/gui/athletelogpage.ui:350
+msgid " bpm"
+msgstr "BPM"
+
+#. i18n: ectx: property (text), widget (QLabel, label_24)
+#: src/gui/activitypage.ui:389
+msgid "Avg. HR:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, avgHeartRateSpin)
+#: src/gui/activitypage.ui:405
+msgid "The average heart rate during this activity."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: src/gui/activitypage.ui:421
+msgid "Energy:"
+msgstr "能量："
+
+#. i18n: ectx: property (text), widget (QLabel, label_15)
+#: src/gui/activitypage.ui:434
+msgid "Weather:"
+msgstr "天气："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, weatherDescriptionEdit)
+#: src/gui/activitypage.ui:458
+msgid ""
+"Additional weather information for this activity, for example wind speed and "
+"direction."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, temperatureSpin)
+#: src/gui/activitypage.ui:474
+msgid "The temperature during this activity."
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, temperatureSpin)
+#: src/gui/activitypage.ui:477
+msgid " °C"
+msgstr " °C"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, weatherCombo)
+#: src/gui/activitypage.ui:502
+msgid "The weather conditions during this activity."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: src/gui/activitypage.ui:511
+msgid "Avg. cadence:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, avgCadenceSpin)
+#: src/gui/activitypage.ui:527
+msgid "The average cadence during this activity."
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, avgCadenceSpin)
+#: src/gui/activitypage.ui:533
+msgid " rpm"
+msgstr " rpm"
+
+#. i18n: ectx: property (text), widget (QLabel, label_20)
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: src/gui/activitypage.ui:543 src/gui/athletelogpage.ui:468
+msgid "Notes:"
+msgstr "备注："
+
+#. i18n: ectx: property (toolTip), widget (KTextEdit, notesEdit)
+#: src/gui/activitypage.ui:559
+msgid "Notes for this activity."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, energySpin)
+#: src/gui/activitypage.ui:572
+msgid "The energy used during this activity."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KDateEdit, athleteLogDateEdit)
+#: src/gui/athletelogpage.ui:74
+msgid "This log entry's date."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: src/gui/athletelogpage.ui:96
+#, fuzzy
+msgid "Weight:"
+msgstr "粗细："
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, weightSpin)
+#: src/gui/athletelogpage.ui:109
+msgid "The athlete's weight for this date."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addAthleteLogButton)
+#: src/gui/athletelogpage.ui:146
+msgid "Add a new log entry."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeAthleteLogButton)
+#: src/gui/athletelogpage.ui:156
+msgid "Delete the selected log entry."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/gui/athletelogpage.ui:165
+msgid "Body fat:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, bodyFatSpin)
+#: src/gui/athletelogpage.ui:187
+msgid "The body fat value for this date."
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, bodyFatSpin)
+#: src/gui/athletelogpage.ui:190
+#, no-c-format
+msgid " %"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/gui/athletelogpage.ui:203
+msgid "Heart rate (resting):"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, hrRestingSpin)
+#: src/gui/athletelogpage.ui:225
+msgid "The resting heart rate for this date."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, athleteLogPhotoButton)
+#: src/gui/athletelogpage.ui:287
+msgid "A picture for this athlete log entry."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/gui/athletelogpage.ui:331
+msgid "Heart rate(max):"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, hrMaxSpin)
+#: src/gui/athletelogpage.ui:347
+msgid "The maximum heart rate for this date."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/gui/athletelogpage.ui:363
+msgid "Blood pressure:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, bpSystolicSpin)
+#: src/gui/athletelogpage.ui:381
+msgid "The systolic blood pressure value for this date."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, bpDiastolicSpin)
+#: src/gui/athletelogpage.ui:404
+msgid "The diastolic blood pressure value for this date."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: src/gui/athletelogpage.ui:429
+#, fuzzy
+#| msgid "Energy:"
+msgctxt ""
+"Energy intake (what goes IN, how much is being eaten -- versus consumption, "
+"i.e. what is used)"
+msgid "Energy intake:"
+msgstr "能量："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: src/gui/athletelogpage.ui:442
+msgid "Sleep duration:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QTimeEdit, sleepDurationTime)
+#: src/gui/athletelogpage.ui:458
+msgid "The sleep duration for this date."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KTextEdit, athleteLogNotesEdit)
+#: src/gui/athletelogpage.ui:481
+msgid "Notes for this athlete log entry."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, energyConsumptionSpin)
+#: src/gui/athletelogpage.ui:494
+msgid "The energy consumed for this date."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/gui/bloodpressureeditor.ui:30
+msgid "/"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, categoriesTree)
+#. i18n: ectx: attribute (title), widget (QWidget, tabActivities)
+#: src/gui/categoriesdockwidget.ui:27 src/gui/mainwindow.ui:22
+msgid "Activities"
+msgstr "活动"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, ChooseProfileDialog)
+#: src/gui/chooseprofiledialog.ui:14
+msgid "Choose a Profile"
+msgstr "选择一个配置"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, athletePhotoButton)
+#: src/gui/editprofileathletepage.ui:60
+msgid ""
+"A picture showing the athlete this profile belongs to. Click to set or "
+"modify."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/gui/editprofileathletepage.ui:104
+msgctxt "athlete name, birth date etc."
+msgid "Name:"
+msgstr "名称："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, athleteNameEdit)
+#: src/gui/editprofileathletepage.ui:123
+msgid "The name for this profile (usually the athlete's name)."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/gui/editprofileathletepage.ui:130
+msgctxt "athlete name, birth date etc."
+msgid "Date of birth:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KDateEdit, birthDateEdit)
+#: src/gui/editprofileathletepage.ui:145
+msgid "Date of birth for the athlete."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/gui/editprofileathletepage.ui:167
+msgctxt "athlete name, birth date etc."
+msgid "Gender:"
+msgstr "性别："
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, maleRadio)
+#. i18n: ectx: property (toolTip), widget (QRadioButton, femaleRadio)
+#: src/gui/editprofileathletepage.ui:177 src/gui/editprofileathletepage.ui:187
+msgid "The athlete's gender."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, maleRadio)
+#: src/gui/editprofileathletepage.ui:180
+msgctxt "the gender, as in \"a male athlete\""
+msgid "Male"
+msgstr "男"
+
+#. i18n: ectx: property (text), widget (QRadioButton, femaleRadio)
+#: src/gui/editprofileathletepage.ui:190
+msgctxt "the gender, as in \"a male athlete\""
+msgid "Female"
+msgstr "女"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/gui/editprofileathletepage.ui:197
+msgctxt "athlete name, birth date etc."
+msgid "Height:"
+msgstr "高度："
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, heightSpinBox)
+#: src/gui/editprofileathletepage.ui:209
+msgid "The athlete's body height."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addCategoryButton)
+#: src/gui/editprofilecategoriespage.ui:45
+msgid "Add a new category."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeCategoryButton)
+#: src/gui/editprofilecategoriespage.ui:55
+msgid "Delete the selected category."
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, athleteTab)
+#: src/gui/editprofiledialog.ui:21
+msgid "Athlete"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, categoriesTab)
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, categoriesDock)
+#: src/gui/editprofiledialog.ui:31 src/gui/mainwindow.ui:57
+msgid "Categories"
+msgstr "类别"
+
+#. i18n: ectx: attribute (title), widget (QWidget, equipmentTab)
+#: src/gui/editprofiledialog.ui:41
+msgid "Equipment"
+msgstr "装备"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, equipmentTree)
+#: src/gui/editprofileequipmentpage.ui:39
+msgctxt "equipment"
+msgid "Name"
+msgstr "名称"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, equipmentTree)
+#: src/gui/editprofileequipmentpage.ui:44
+msgctxt "equipment"
+msgid "Total Use"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, equipmentTree)
+#: src/gui/editprofileequipmentpage.ui:49
+msgctxt "equipment"
+msgid "Last Used"
+msgstr "最后使用"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, equipmentTree)
+#: src/gui/editprofileequipmentpage.ui:54
+msgctxt "equipment"
+msgid "Status"
+msgstr "状态"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addEquipmentButton)
+#: src/gui/editprofileequipmentpage.ui:80
+msgid "Add a new piece of equipment."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeEquipmentButton)
+#: src/gui/editprofileequipmentpage.ui:90
+msgid "Delete the selected piece of equipment."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/gui/editprofileequipmentpage.ui:99
+msgctxt "equipment"
+msgid "Purchase date:"
+msgstr "购买日期："
+
+#. i18n: ectx: property (toolTip), widget (KDateEdit, purchaseDateEdit)
+#: src/gui/editprofileequipmentpage.ui:117
+msgid "Date the equipment was bought on."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: src/gui/editprofileequipmentpage.ui:139
+msgctxt "equipment"
+msgid "Status:"
+msgstr "状态："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, statusCheckBox)
+#: src/gui/editprofileequipmentpage.ui:155
+msgid "Check if the equipment is currently being used."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, statusCheckBox)
+#: src/gui/editprofileequipmentpage.ui:158
+msgid "In use"
+msgstr "使用中"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: src/gui/editprofileequipmentpage.ui:165
+msgctxt "equipment"
+msgid "Brand:"
+msgstr "品牌："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, brandEdit)
+#: src/gui/editprofileequipmentpage.ui:181
+msgid "The equipment's brand."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/gui/editprofileequipmentpage.ui:188
+msgctxt "equipment"
+msgid "Model:"
+msgstr "型号："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, modelEdit)
+#: src/gui/editprofileequipmentpage.ui:204
+msgid "The equipment's model name."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: src/gui/editprofileequipmentpage.ui:211
+msgctxt "equipment"
+msgid "Type:"
+msgstr "类型："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, typeEdit)
+#: src/gui/editprofileequipmentpage.ui:227
+msgid "The equipment's type."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: src/gui/editprofileequipmentpage.ui:234
+#, fuzzy
+msgctxt "equipment"
+msgid "Weight:"
+msgstr "粗细："
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, weightSpin)
+#: src/gui/editprofileequipmentpage.ui:247
+msgid "The equipment's weight."
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, weightSpin)
+#: src/gui/editprofileequipmentpage.ui:250
+msgid " kg"
+msgstr "kg"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: src/gui/editprofileequipmentpage.ui:263
+msgctxt "equipment"
+msgid "Notes:"
+msgstr "备注："
+
+#. i18n: ectx: property (toolTip), widget (KTextEdit, notesEdit)
+#: src/gui/editprofileequipmentpage.ui:281
+msgid "Notes regarding the equipment."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, equipmentPhotoButton)
+#: src/gui/editprofileequipmentpage.ui:325
+msgid "A picture of the equipment. Click to set or modify."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/gui/graphdockwidget.ui:17
+msgid "Graph Type"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, speedRadio)
+#: src/gui/graphdockwidget.ui:23
+msgid "Speed"
+msgstr "速度"
+
+#. i18n: ectx: property (text), widget (QRadioButton, altitudeRadio)
+#: src/gui/graphdockwidget.ui:30
+msgid "Altitude"
+msgstr "海拔"
+
+#. i18n: ectx: property (text), widget (QRadioButton, cadenceRadio)
+#: src/gui/graphdockwidget.ui:37
+msgid "Cadence"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, heartRateRadio)
+#: src/gui/graphdockwidget.ui:44
+msgid "Heart Rate"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, ImportDialog)
+#: src/gui/importdialog.ui:14
+msgid "Select Activities For Import"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, selectAllButton)
+#: src/gui/importdialog.ui:66
+msgid "Click to select all entries."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, selectAllButton)
+#: src/gui/importdialog.ui:69
+msgid "Select All"
+msgstr "全部选中"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, unselectAllButton)
+#: src/gui/importdialog.ui:76
+msgid "Click to unselect all entries."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, unselectAllButton)
+#: src/gui/importdialog.ui:79
+msgid "Unselect All"
+msgstr "全部不选"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/gui/importdialog.ui:119
+#, fuzzy
+#| msgid "Categories"
+msgid "Set all categories:"
+msgstr "类别"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, allCategoriesCombo)
+#: src/gui/importdialog.ui:126
+msgid "Set a category for all entries."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/gui/importdialog.ui:133
+#, fuzzy
+#| msgid "Equipment:"
+msgid "Set all equipment:"
+msgstr "装备："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, allEquipmentCombo)
+#: src/gui/importdialog.ui:140
+msgid "Set an equipment for all entries."
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabAthleteLog)
+#: src/gui/mainwindow.ui:32
+msgid "Athlete Log"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, profileDock)
+#: src/gui/mainwindow.ui:46
+msgid "Profile"
+msgstr "配置"
+
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, graphDock)
+#: src/gui/mainwindow.ui:68
+msgid "Graphs"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, calendarDock)
+#: src/gui/mainwindow.ui:79
+msgid "Calendar"
+msgstr "日历"
+
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, mapDock)
+#: src/gui/mainwindow.ui:88
+#, fuzzy
+msgid "Map"
+msgstr "映射"
+
+#. i18n: ectx: property (title), widget (QMenu, profileMenu)
+#: src/gui/mainwindow.ui:106
+msgid "&Profile"
+msgstr "配置(&P)"
+
+#. i18n: ectx: property (title), widget (QMenu, editMenu)
+#: src/gui/mainwindow.ui:111
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: property (title), widget (QMenu, viewMenu)
+#: src/gui/mainwindow.ui:116
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: property (title), widget (QMenu, toolsMenu)
+#: src/gui/mainwindow.ui:121
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: property (title), widget (QMenu, settingsMenu)
+#: src/gui/mainwindow.ui:126
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: property (title), widget (QMenu, helpMenu)
+#: src/gui/mainwindow.ui:131
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: property (windowTitle), widget (QToolBar, mainToolbar)
+#: src/gui/mainwindow.ui:143
+msgctxt "name of the toolbar"
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: property (windowTitle), widget (QToolBar, editToolbar)
+#: src/gui/mainwindow.ui:162
+msgctxt "name of the toolbar"
+msgid "Edit Toolbar"
+msgstr "编辑工具栏"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, moveUpButton)
+#: src/gui/mapdockwidget.ui:84
+msgctxt "move map view in direction"
+msgid "Up"
+msgstr "上"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, moveLeftButton)
+#: src/gui/mapdockwidget.ui:95
+msgctxt "move map view in direction"
+msgid "Left"
+msgstr "左"
+
+#. i18n: ectx: property (shortcut), widget (QToolButton, moveLeftButton)
+#: src/gui/mapdockwidget.ui:102
+msgid "Left"
+msgstr "左"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, goHomeButton)
+#: src/gui/mapdockwidget.ui:109
+msgid "Zoom in and center on the currently selected activity's map."
+msgstr ""
+
+#. i18n: ectx: property (shortcut), widget (QToolButton, goHomeButton)
+#: src/gui/mapdockwidget.ui:116
+msgid "Home"
+msgstr "主页"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, moveRightButton)
+#: src/gui/mapdockwidget.ui:123
+msgctxt "move map view in direction"
+msgid "Right"
+msgstr "右"
+
+#. i18n: ectx: property (shortcut), widget (QToolButton, moveRightButton)
+#: src/gui/mapdockwidget.ui:130
+msgid "Right"
+msgstr "右"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, moveDownButton)
+#: src/gui/mapdockwidget.ui:137
+msgctxt "move map view in direction"
+msgid "Down"
+msgstr "下"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, zoomInButton)
+#: src/gui/mapdockwidget.ui:148
+msgctxt "zoom map view"
+msgid "Zoom In"
+msgstr "放大"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, zoomOutButton)
+#: src/gui/mapdockwidget.ui:162
+msgctxt "zoom map view"
+msgid "Zoom Out"
+msgstr "缩小"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, autoCenterCheckBox)
+#: src/gui/mapdockwidget.ui:195
+msgid ""
+"Automatically center to and zoom in on a map when an activity is selected."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoCenterCheckBox)
+#: src/gui/mapdockwidget.ui:198
+msgid "Auto-Center"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, photoButton)
+#: src/gui/profiledockwidget.ui:44
+msgid "Click to edit the profile."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/gui/profiledockwidget.ui:92
+msgid "Date of birth:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/gui/profiledockwidget.ui:105
+msgid "Gender:"
+msgstr "性别："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/gui/profiledockwidget.ui:118
+msgid "Height:"
+msgstr "高度："
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SyncSourceDialog)
+#: src/gui/syncsourcedialog.ui:14
+msgid "Choose a Device To Synchronize With"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, refreshButton)
+#: src/gui/syncsourcedialog.ui:36
+msgid "Rescan for devices to import from."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, refreshButton)
+#: src/gui/syncsourcedialog.ui:39
+msgid "Refresh"
+msgstr "刷新"
+
+#. i18n: ectx: ToolBar (editToolBar)
+#: src/gui/workoutui.rc:6
+msgctxt "@title:menu turn on and off edit toolbar"
+msgid "Edit Toolbar"
+msgstr "编辑工具栏"
+
+#. i18n: ectx: Menu (view)
+#: src/gui/workoutui.rc:26
+msgctxt "@title:menu"
+msgid "View"
+msgstr "查看"
+
+#: src/main.cpp:45
+msgid "Workout"
+msgstr ""
+
+#: src/main.cpp:47
+msgid "KDE Sports and Activity Tracker"
+msgstr ""
+
+#: src/main.cpp:49
+msgid "(c) 2010 Volker Lanz"
+msgstr "(c) 2010 Volker Lanz"
+
+#: src/main.cpp:52
+msgid "Volker Lanz"
+msgstr "Volker Lanz"

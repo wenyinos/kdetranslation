@@ -1,0 +1,97 @@
+# translation of khtmlsettingsplugin.po to 简体中文
+# Copyright (C) 2003, 2009 Free Software Foundation, Inc.
+#
+# Mai Hao Hui <mhh@126.com> ,2001.
+# Yan Shuangchun <yahzee@d3eye.com>, 2003.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: khtmlsettingsplugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 03:23+0200\n"
+"PO-Revision-Date: 2011-07-06 21:07+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: Menu (tools)
+#: khtmlsettingsplugin.rc:4
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: ToolBar (extraToolBar)
+#: khtmlsettingsplugin.rc:8
+msgid "Extra Toolbar"
+msgstr "额外工具栏"
+
+#: settingsplugin.cpp:43 settingsplugin.cpp:54
+msgid "HTML Settings"
+msgstr "HTML 设置"
+
+#: settingsplugin.cpp:59
+msgid "Java&Script"
+msgstr "Java&Script"
+
+#: settingsplugin.cpp:64
+msgid "&Java"
+msgstr "&Java"
+
+#: settingsplugin.cpp:69
+msgid "&Cookies"
+msgstr "&Cookies"
+
+#: settingsplugin.cpp:74
+msgid "&Plugins"
+msgstr "插件(&P)"
+
+#: settingsplugin.cpp:79
+msgid "Autoload &Images"
+msgstr "自动载入图像(&I)"
+
+#: settingsplugin.cpp:86
+msgid "Enable Pro&xy"
+msgstr "启用代理服务器(&X)"
+
+#: settingsplugin.cpp:91
+msgid "Enable Cac&he"
+msgstr "启用缓存(&H)"
+
+#: settingsplugin.cpp:97
+msgid "Cache Po&licy"
+msgstr "缓存策略(&L)"
+
+#: settingsplugin.cpp:99
+msgid "&Keep Cache in Sync"
+msgstr "保持缓存同步(&K)"
+
+#: settingsplugin.cpp:100
+msgid "&Use Cache if Possible"
+msgstr "尽可能使用缓存(&U)"
+
+#: settingsplugin.cpp:101
+msgid "&Offline Browsing Mode"
+msgstr "离线浏览模式(&O)"
+
+#: settingsplugin.cpp:195
+msgid ""
+"Cookies could not be enabled, because the cookie daemon could not be started."
+msgstr "因为 cookie 守护进程无法被启动，无法启用 cookie。"
+
+#: settingsplugin.cpp:197
+msgctxt "@title:window"
+msgid "Cookies Disabled"
+msgstr "Cookies 被禁用"

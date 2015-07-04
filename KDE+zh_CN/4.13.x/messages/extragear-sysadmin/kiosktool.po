@@ -1,0 +1,1229 @@
+# Chinese translations for kiosktool package
+# kiosktool 软件包的简体中文翻译.
+# Copyright (C) 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the kiosktool package.
+# Eleanor Chen <chenyueg@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kiosktool HEAD\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-21 01:45+0000\n"
+"PO-Revision-Date: 2010-03-15 17:28+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: Chinese (simplified) <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Eleanor Chen"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "chenyueg@gmail.com"
+
+#: componentPage.cpp:52
+#, kde-format
+msgid "&Setup %1"
+msgstr "设置 %1(&S)"
+
+#: componentPage.cpp:53
+#, kde-format
+msgid "&Preview %1"
+msgstr "预览 %1(&P)"
+
+#: componentPage.cpp:93
+msgid ""
+"Selecting the Setup or Preview option may cause the panel and/or the desktop "
+"to be temporarily shut down. To prevent data loss please make sure you are "
+"not actively using these components."
+msgstr ""
+"选择设置或预览可能导致面板或者桌面暂时退出，为了防止数据丢失，请确认这些组件"
+"不在使用中。"
+
+#: componentPage.cpp:95
+msgid "Attention"
+msgstr "注意"
+
+#: componentPage.cpp:114
+#, kde-format
+msgid "Setup %1"
+msgstr "设置 %1"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: componentPage_ui.ui:17
+msgid "Enable &restrictions:"
+msgstr "启用限制(&R)："
+
+#. i18n: ectx: property (text), widget (KPushButton, pbSetup)
+#: componentPage_ui.ui:65
+msgid "&Setup XXX"
+msgstr "设置 XXX(&S)"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbPreview)
+#: componentPage_ui.ui:72
+msgid "&Preview XXX"
+msgstr "预览 XXX(&P)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, defaultValueGroup)
+#: componentPage_ui.ui:102
+msgid "Default Value:"
+msgstr "默认值："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: componentPage_ui.ui:110
+msgid "Value:"
+msgstr "值："
+
+#. i18n: ectx: property (text), widget (QRadioButton, normalKey)
+#: componentPage_ui.ui:131
+msgid "Normal"
+msgstr "普通"
+
+#. i18n: ectx: property (text), widget (QRadioButton, shellExpansionKey)
+#: componentPage_ui.ui:141
+msgid "Expand Shell Variables"
+msgstr "展开 Shell 变量"
+
+#. i18n: ectx: property (text), widget (QRadioButton, deletedKey)
+#: componentPage_ui.ui:148
+msgid "Delete Key"
+msgstr "删除键"
+
+#. i18n: ectx: property (text), widget (QCheckBox, imutableKey)
+#: componentPage_ui.ui:155
+msgid "Imutable"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, pbSetup)
+#: componentSelectionPage_ui.ui:18
+msgid "&Setup Component"
+msgstr "设置组件(&S)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: componentSelectionPage_ui.ui:77
+msgid "Select &component:"
+msgstr "选择组件(&C)："
+
+#: kiosk_data.cpp:1
+msgid "General"
+msgstr "常规"
+
+#: kiosk_data.cpp:2
+msgid "Generic restrictions"
+msgstr "常规限制"
+
+#: kiosk_data.cpp:3
+msgid "Disable Window Manager context menu (Alt-F3)"
+msgstr "禁用窗口上下文菜单(Alt-F3)"
+
+#: kiosk_data.cpp:4
+msgid ""
+"The Window Manager context menu is normally shown when Alt-F3 is pressed or "
+"when the menu button on the window frame is pressed."
+msgstr ""
+"通常情况下按下 Alt-F3 或者点击窗口边框上的菜单按钮时会弹出窗口上下文菜单。"
+
+#: kiosk_data.cpp:5 kiosk_data.cpp:173
+msgid "Disable Bookmarks"
+msgstr "禁用书签"
+
+#: kiosk_data.cpp:6
+msgid "Disable Bookmarks in all applications."
+msgstr "在所有应用程序中禁用书签。"
+
+#: kiosk_data.cpp:7 kiosk_data.cpp:55
+msgid "Disable all tasks and applications that require root access"
+msgstr "禁用需要 root 权限的应用程序"
+
+#: kiosk_data.cpp:8
+msgid ""
+"In multi-user environments the users normally do not know the root password; "
+"in such a case, it may be desirable to use this option to remove the tasks "
+"and applications from the menus that the users cannot use."
+msgstr ""
+"当处在多用户环境中时，因为大多数用户不知道 root 密码，建议启用此选项将需要 "
+"root 权限的程序从菜单中移除。"
+
+#: kiosk_data.cpp:9
+msgid "Disable access to a command shell"
+msgstr "禁用命令行"
+
+#: kiosk_data.cpp:10
+msgid ""
+"In an environment where the desktop is dedicated to a defined set of tasks "
+"it may be desirable to disable access to a command shell to prevent users "
+"from engaging in tasks that were not intended or authorized; hence, it is "
+"strongly recommended to disable access to a command shell if the desktop is "
+"to act as a public terminal."
+msgstr ""
+"当系统仅用于特定的任务时，建议启用此选项，防止用户运行许可之外的程序。强烈建"
+"议在公共电脑上启用。"
+
+#: kiosk_data.cpp:11
+msgid "Disable Logout option"
+msgstr "禁用注销选项"
+
+#: kiosk_data.cpp:12
+msgid ""
+"This prevents the user from logging out. To make this option effective it is "
+"important to ensure that key-combinations to terminate the X-server, such as "
+"Alt-Ctrl-Backspace, are disabled in the configuration of the X-server."
+msgstr "阻止用户注销。须同时禁用终止 X 服务器的快捷键，如 Alt-Ctrl-Backspace。"
+
+#: kiosk_data.cpp:13
+msgid "Disable Lock Screen option"
+msgstr "禁用锁屏幕选项"
+
+#: kiosk_data.cpp:14
+msgid ""
+"When the desktop is to act as a public terminal or is to be shared by "
+"different users it may be desirable to prevent locking of the screen to "
+"ensure that the system remains accessible if a user leaves the terminal."
+msgstr "建议对公用电脑启用此项，保证下一个用户可以正常访问系统。"
+
+#: kiosk_data.cpp:15
+msgid "Disable \"Run Command\" option (Alt-F2)"
+msgstr "禁用“运行命令”选项(Alt-F2)"
+
+#: kiosk_data.cpp:16
+msgid ""
+"The \"Run Command\" option can normally be used to execute arbitrary "
+"commands; however, when access to a command shell is restricted only "
+"applications and services defined by a .desktop file can be started this "
+"way. Disabling \"Run Command\" here hides the option completely."
+msgstr ""
+"“运行命令”选项可用于执行任何的命令，不过当命令行被禁用时，只能执行 .desktop "
+"文件定义过的应用程序和服务。在此禁用后将彻底隐藏该选项。"
+
+#: kiosk_data.cpp:17
+msgid "Disable toolbar moving"
+msgstr "禁止移动工具栏"
+
+#: kiosk_data.cpp:18
+msgid ""
+"Normally toolbars in applications can be moved around; when this option is "
+"chosen all toolbars are fixed in their original positions."
+msgstr ""
+"通常情况下应用程序中的工具栏可以任意移动。启用此选项时所有工具栏将被固定在最"
+"初的位置。"
+
+#: kiosk_data.cpp:19
+msgid "Disable execution of arbitrary .desktop files"
+msgstr "禁止执行 .desktop 文件"
+
+#: kiosk_data.cpp:20
+msgid ""
+"This option defines whether users may execute .desktop files that are not "
+"part of the system-wide desktop icons, KDE menu, registered services or "
+"autostart services. When access to a command shell is restricted it is "
+"recommended to disable the execution of arbitrary .desktop files as well "
+"since such .desktop files can be used to circumvent the command shell "
+"restriction."
+msgstr ""
+"此选项允许/禁止用户执行系统范围的桌面图标、KDE 菜单、已注册服务和自启动服务以"
+"外的 .desktop 文件。建议和禁用命令行一起使用，因为 .desktop 文件可以突破禁用"
+"命令行的限制。"
+
+#: kiosk_data.cpp:21
+msgid "Disable starting of a second X session"
+msgstr "禁止多个 X 会话。"
+
+#: kiosk_data.cpp:22
+msgid ""
+"KDM has the possibility to login a second user in parallel to the current "
+"session. Note that this can also be configured as part of the KDM settings "
+"in which case the setting here should be left enabled."
+msgstr ""
+"默认 KDM 可以同时打开多个会话。也可以在 KDM 里进行此项设置(须在这里不启用此"
+"项)。"
+
+#: kiosk_data.cpp:23
+msgid "Disable input line history"
+msgstr "禁用输入项历史"
+
+#: kiosk_data.cpp:24
+msgid ""
+"If a single account is used by multiple people it may be desirable to "
+"disable the input line history out of privacy considerations."
+msgstr "禁用输入项历史。出于保护个人隐私的考虑，建议对公用用户启用此选项。"
+
+#: kiosk_data.cpp:25
+msgid "Enforce DRM restrictions"
+msgstr "强制执行 DRM 限制"
+
+#: kiosk_data.cpp:26
+msgid ""
+"Some KDE applications can enforce DRM restrictions on content. You may want "
+"to enable this if your organisation relies on such restrictions or if local "
+"law requires it."
+msgstr ""
+"强制对内容使用 DRM(对部分 KDE 应用程序有效)。建议在本地法律要求或者需要时启"
+"用。"
+
+#: kiosk_data.cpp:27
+msgid "Prevent Downloading"
+msgstr "禁止下载"
+
+#: kiosk_data.cpp:28
+msgid ""
+"Some KDE applications can prevent the user from downloading or uploading "
+"files. The normal web browsing experience will not be affected. Note that "
+"you still have to set up the unix file permissions correctly - treat this as "
+"merely cosmetic for security."
+msgstr "禁止用户上传下载(对部分 KDE 应用程序有效)，普通的网页浏览不会受影响。"
+
+#: kiosk_data.cpp:29
+msgid "Desktop Icons"
+msgstr "桌面图标"
+
+#: kiosk_data.cpp:30
+msgid "Desktop Icons are provided by \"kdesktop\"."
+msgstr "请使用“kdesktop”管理桌面图标。"
+
+#: kiosk_data.cpp:31
+msgid "Lock down Desktop Settings"
+msgstr "锁定桌面设置"
+
+#: kiosk_data.cpp:32
+msgid ""
+"When the desktop settings are locked down the user can no longer change how "
+"the desktop behaves or what it looks like. This does not affect the ability "
+"to add new files or shortcuts to the desktop."
+msgstr "使用户无法修改桌面外观和行为。在桌面上添加文件和快捷方式不受此影响。"
+
+#: kiosk_data.cpp:33
+msgid "Disable context menus"
+msgstr "禁用上下文菜单"
+
+#: kiosk_data.cpp:34
+msgid ""
+"When checked the user will no longer get any context menu. Normally the user "
+"can get a context menu by clicking with the right mouse button."
+msgstr "禁用右击弹出的上下文菜单。"
+
+#: kiosk_data.cpp:35
+msgid "Lock down all Desktop icons"
+msgstr "锁定所有桌面图标"
+
+#: kiosk_data.cpp:36
+msgid ""
+"When checked the user will not be able to remove or edit any existing icons "
+"or files on the Desktop, or add any new icons or files."
+msgstr ""
+"选中后用户无法删除和编辑桌面上现有的图标和文件，也无法添加新的图标或文件。"
+
+#: kiosk_data.cpp:37
+msgid "Lock down system-wide Desktop icons"
+msgstr "锁定系统全局内的桌面图标。"
+
+#: kiosk_data.cpp:38
+msgid ""
+"When checked the user will not be able to remove or edit any of the system-"
+"wide icons but will still be able to add, remove or edit personal icons or "
+"files on the desktop."
+msgstr ""
+"选中后用户无法删除或编辑系统全局的图标，但仍然可以添加、删除和编辑桌面上的个"
+"人图标和文件。"
+
+#: kiosk_data.cpp:39
+msgid "Add additional vendor specific icons"
+msgstr "增加额外的默认图标"
+
+#: kiosk_data.cpp:40
+msgid ""
+"When this option is checked users will get additional icons copied to their "
+"Desktop when they first log in. These icons do not appear in the preview."
+msgstr ""
+"选中后，在用户首次登录时，指定的图标自动添加到他/她的桌面上。注意预览中不会显"
+"示这些图标。"
+
+#: kiosk_data.cpp:41
+msgid "Desktop Background"
+msgstr "桌面背景"
+
+#: kiosk_data.cpp:42
+msgid "Set up the Desktop Background also known as Wallpaper."
+msgstr "设置桌面背景。"
+
+#: kiosk_data.cpp:43
+msgid "Lock down Desktop Background Settings"
+msgstr "锁定桌面背景设置"
+
+#: kiosk_data.cpp:44
+msgid ""
+"When the desktop background settings are locked down the user can no longer "
+"change them."
+msgstr "使用户无法更改桌面背景。"
+
+#: kiosk_data.cpp:45
+msgid "Screen Saver"
+msgstr "屏幕保护程序"
+
+#: kiosk_data.cpp:46
+msgid "Set up Screen Saver"
+msgstr "设置屏幕保护程序"
+
+#: kiosk_data.cpp:47
+msgid "Lock down Screen Saver Settings"
+msgstr "锁定屏幕保护程序设置"
+
+#: kiosk_data.cpp:48
+msgid ""
+"When the Screen Saver settings are locked down the user can no longer change "
+"them."
+msgstr "使用户无法更改屏幕保护程序设置。"
+
+#: kiosk_data.cpp:49
+msgid "Disable OpenGL-based Screen Savers"
+msgstr "禁用基于 OpenGL 的屏幕保护程序。"
+
+#: kiosk_data.cpp:50
+msgid ""
+"OpenGL-based screen savers may cause problems on systems without decent "
+"OpenGL support; with this option all such screensavers can be disabled."
+msgstr ""
+"基于 OpenGL 的屏幕保护程序在不支持 OpenGL 的系统上可能会出现问题，此选项将禁"
+"用所有这类屏幕保护程序。"
+
+#: kiosk_data.cpp:51
+#, fuzzy
+msgid "Discreet Screen Savers Only"
+msgstr "只使用安全的屏幕保护程序"
+
+#: kiosk_data.cpp:52
+msgid ""
+"Some screensavers do not hide the complete screen content and may leave "
+"possible sensitive information visible. This option disables all such "
+"screensavers and only enables those screensavers that completely hide the "
+"original content of the screen."
+msgstr ""
+"一些屏幕保护程序不会将屏幕上的内容完全隐藏起来，可能露出一些敏感信息。此选项"
+"将禁用所有这样的屏幕保护程序，只允许能将屏幕上的内容全部隐藏的屏幕保护程序。"
+
+#: kiosk_data.cpp:53
+msgid "KDE Menu"
+msgstr "KDE 菜单"
+
+#: kiosk_data.cpp:54
+msgid "The KDE Application menu"
+msgstr "KDE 应用程序菜单"
+
+#: kiosk_data.cpp:56
+msgid ""
+"This option disables all menu items that require root access and that will "
+"ask the user for the root password."
+msgstr "禁用所有要求 root 权限的菜单项(即会向用户询问 root 密码的)。"
+
+#: kiosk_data.cpp:57
+msgid "Disable menu editing"
+msgstr "禁止编辑菜单"
+
+#: kiosk_data.cpp:58
+msgid ""
+"This disables the menu-option to edit the KDE Application Menu. When "
+"disabled, users will no longer be able to make changes to their personal "
+"application menu."
+msgstr "使用户无法编辑他/她们的应用程序菜单。"
+
+#: kiosk_data.cpp:59
+msgid "Theming"
+msgstr "主题"
+
+#: kiosk_data.cpp:60
+msgid "Set up of Fonts, Colors and Style"
+msgstr "设置字体、颜色、风格"
+
+#: kiosk_data.cpp:61
+msgid "Lock down Style Settings"
+msgstr "锁定风格设置"
+
+#: kiosk_data.cpp:62
+msgid ""
+"When the Style settings are locked down the user can no longer change them."
+msgstr "使用户无法修改风格设置。"
+
+#: kiosk_data.cpp:63
+msgid "Lock down Color Settings"
+msgstr "锁定颜色设置"
+
+#: kiosk_data.cpp:64
+msgid ""
+"When the Color settings are locked down the user can no longer change them."
+msgstr "使用户无法修改颜色设置。"
+
+#: kiosk_data.cpp:65
+msgid "Lock down Font Settings"
+msgstr "锁定字体设置"
+
+#: kiosk_data.cpp:66
+msgid ""
+"When the Font settings are locked down the user can no longer change them."
+msgstr "使用户无法修改字体设置。"
+
+#: kiosk_data.cpp:67
+msgid "Lock down Window Decoration Settings"
+msgstr "锁定窗口装饰设置"
+
+#: kiosk_data.cpp:68
+msgid ""
+"When the Window Decoration settings are locked down the user can no longer "
+"change them."
+msgstr "使用户无法修改窗口装饰设置。"
+
+#: kiosk_data.cpp:69
+msgid "Panel"
+msgstr "面板"
+
+#: kiosk_data.cpp:70
+msgid "The KDE panel \"kicker\" is normally found at the bottom of the screen."
+msgstr "KDE 面板“kicker”通常在屏幕底部。"
+
+#: kiosk_data.cpp:71
+msgid "Lock down panel"
+msgstr "锁定面板"
+
+#: kiosk_data.cpp:72
+msgid ""
+"This option can be used to lock down the panel. The user will then no longer "
+"be able to add, remove or change any of the permanent panel items."
+msgstr "使用户无法添加、删除、修改面板项。"
+
+#: kiosk_data.cpp:73
+msgid "Disable Context Menus"
+msgstr "禁用上下文菜单"
+
+#: kiosk_data.cpp:74
+msgid ""
+"This option disables the context menus that one normally gets when pressing "
+"the right mouse button in the panel."
+msgstr "此选项将禁用上下文菜单。"
+
+#: kiosk_data.cpp:75
+msgid "Network Proxy"
+msgstr "网络代理"
+
+#: kiosk_data.cpp:76
+msgid "Set up of Network Proxy settings"
+msgstr "设置网络代理"
+
+#: kiosk_data.cpp:77
+msgid "Lock down Proxy Settings"
+msgstr "锁定代理设置"
+
+#: kiosk_data.cpp:78
+msgid ""
+"When the Proxy settings are locked down the user can no longer change them."
+msgstr "使用户无法修改代理设置"
+
+#: kiosk_data.cpp:79
+msgid "Konqueror"
+msgstr "Konqueror"
+
+#: kiosk_data.cpp:80
+msgid "Konqueror is a combined web- and filebrowser."
+msgstr "Konqueror 是内置的网页和文件浏览器。"
+
+#: kiosk_data.cpp:81
+msgid "Disable Properties in context menu"
+msgstr "禁用右键菜单中的属性"
+
+#: kiosk_data.cpp:82
+msgid ""
+"This option can be used to disable the <i>Properties</i> option in the "
+"context menu for files."
+msgstr "禁用文件右键弹出菜单中的<i>属性</i>。"
+
+#: kiosk_data.cpp:83
+msgid "Disable Open With action"
+msgstr "禁止打开方式动作"
+
+#: kiosk_data.cpp:84
+msgid "This option can be used to disable the <i>Open With</i> menu option."
+msgstr "禁止<i>打开方式</i>菜单项。"
+
+#: kiosk_data.cpp:85
+msgid "Disable Open In New Tab action"
+msgstr "禁止在新标签页中打开"
+
+#: kiosk_data.cpp:86
+msgid ""
+"This option can be used to disable the <i>Open In New Tab</i> menu option."
+msgstr "禁用<i>在新标签中打开</i>选项。"
+
+#: kiosk_data.cpp:87
+msgid "Disable file-browsing outside home directory"
+msgstr "禁止浏览用户目录以外的文件。"
+
+#: kiosk_data.cpp:88
+msgid ""
+"This option can be used to prevent the user from browsing the file system "
+"outside his or her own home directory."
+msgstr "使用户无法浏览用户目录以外的文件。"
+
+#: kiosk_data.cpp:89
+msgid "Menu Actions"
+msgstr "菜单行为"
+
+#: kiosk_data.cpp:90
+msgid "Common menu actions found in applications."
+msgstr "应用程序常见的菜单行为。"
+
+#: kiosk_data.cpp:91 kiosk_data.cpp:93 kiosk_data.cpp:95 kiosk_data.cpp:97
+#: kiosk_data.cpp:99 kiosk_data.cpp:101 kiosk_data.cpp:103 kiosk_data.cpp:105
+#: kiosk_data.cpp:107 kiosk_data.cpp:109 kiosk_data.cpp:111
+#, c-format
+msgid "Disable File -> %action"
+msgstr "禁用文件 -> %action"
+
+#: kiosk_data.cpp:92 kiosk_data.cpp:96 kiosk_data.cpp:98 kiosk_data.cpp:100
+#: kiosk_data.cpp:102 kiosk_data.cpp:104 kiosk_data.cpp:108 kiosk_data.cpp:110
+#, c-format
+msgid ""
+"This option can be used to remove the <i>File -> %action</i> menu-option "
+"from all applications."
+msgstr "此选项将从所有应用程序中移除<i>文件 -> %action</i>菜单项。"
+
+#: kiosk_data.cpp:94
+#, c-format
+msgid ""
+"This option can be used to remove the <i>File -> %action</i> menu-option "
+"from all applications. See also <i>Open Recent</i>"
+msgstr ""
+"此选项将从所有应用程序中移除<i>文件 -> %action</i>菜单项，包括<i>最近打开</"
+"i>。"
+
+#: kiosk_data.cpp:106
+#, c-format
+msgid ""
+"This option can be used to remove the <i>File -> %action</i> menu-option "
+"from all applications. See also <i>Print Preview</i>"
+msgstr ""
+"此选项将从所有应用程序中移除<i>文件 -> %action</i>菜单项，包括<i>打印预览</"
+"i>。"
+
+#: kiosk_data.cpp:112
+#, c-format
+msgid ""
+"This option can be used to remove the <i>File -> %action</i> menu-option "
+"from all applications. This option has been added for completeness. Usually "
+"the application can be terminated via the window manager as well."
+msgstr ""
+"此选项将从所有应用程序中移除<i>文件 -> %action</i>菜单项，但添加这个选项只是"
+"为了完整性，即便启用，也可以使用窗口管理器来关闭应用程序。"
+
+#: kiosk_data.cpp:113 kiosk_data.cpp:115 kiosk_data.cpp:117 kiosk_data.cpp:119
+#: kiosk_data.cpp:121 kiosk_data.cpp:123 kiosk_data.cpp:125 kiosk_data.cpp:127
+#: kiosk_data.cpp:129 kiosk_data.cpp:131 kiosk_data.cpp:133
+#, c-format
+msgid "Disable Edit -> %action"
+msgstr "禁用编辑 -> %action"
+
+#: kiosk_data.cpp:114 kiosk_data.cpp:116 kiosk_data.cpp:118 kiosk_data.cpp:120
+#: kiosk_data.cpp:122 kiosk_data.cpp:124 kiosk_data.cpp:126 kiosk_data.cpp:128
+#: kiosk_data.cpp:130 kiosk_data.cpp:132 kiosk_data.cpp:134
+#, c-format
+msgid ""
+"This option can be used to remove the <i>Edit -> %action</i> menu-option "
+"from all applications."
+msgstr "此选项将从所有应用程序中移除<i>编辑 -> %action</i>菜单项。"
+
+#: kiosk_data.cpp:135 kiosk_data.cpp:137 kiosk_data.cpp:139 kiosk_data.cpp:141
+#: kiosk_data.cpp:143 kiosk_data.cpp:145 kiosk_data.cpp:147 kiosk_data.cpp:149
+#, c-format
+msgid "Disable View -> %action"
+msgstr "禁用查看 -> %action"
+
+#: kiosk_data.cpp:136 kiosk_data.cpp:138 kiosk_data.cpp:140 kiosk_data.cpp:142
+#: kiosk_data.cpp:144 kiosk_data.cpp:146 kiosk_data.cpp:148 kiosk_data.cpp:150
+#, c-format
+msgid ""
+"This option can be used to remove the <i>View -> %action</i> menu-option "
+"from all applications."
+msgstr "此选项将从所有应用程序中禁用<i>查看 -> %action</i>菜单项。"
+
+#: kiosk_data.cpp:151 kiosk_data.cpp:153 kiosk_data.cpp:155 kiosk_data.cpp:157
+#: kiosk_data.cpp:159 kiosk_data.cpp:161 kiosk_data.cpp:163 kiosk_data.cpp:165
+#: kiosk_data.cpp:167 kiosk_data.cpp:169 kiosk_data.cpp:171
+#, c-format
+msgid "Disable Go -> %action"
+msgstr "禁用转到 -> %action"
+
+#: kiosk_data.cpp:152 kiosk_data.cpp:154 kiosk_data.cpp:156 kiosk_data.cpp:158
+#: kiosk_data.cpp:160 kiosk_data.cpp:162 kiosk_data.cpp:164 kiosk_data.cpp:166
+#: kiosk_data.cpp:168 kiosk_data.cpp:170 kiosk_data.cpp:172
+#, c-format
+msgid ""
+"This option can be used to remove the <i>Go -> %action</i> menu-option from "
+"all applications."
+msgstr "此选项将从所有应用程序中禁用<i>转到 -> %action</i>菜单项。"
+
+#: kiosk_data.cpp:174
+msgid ""
+"This option can be used to completely disable bookmarks in all applications."
+msgstr "在所有应用程序中完全禁用书签。"
+
+#: kiosk_data.cpp:175 kiosk_data.cpp:177
+#, c-format
+msgid "Disable Bookmarks -> %action"
+msgstr "禁用书签 -> %action"
+
+#: kiosk_data.cpp:176
+msgid "This option can be used to prevent users from creating new bookmarks."
+msgstr "禁止用户创建新的书签。"
+
+#: kiosk_data.cpp:178
+msgid "This option can be used to prevent users from editing bookmarks."
+msgstr "禁止用户编辑书签。"
+
+#: kiosk_data.cpp:179
+#, c-format
+msgid "Disable Tools -> %action"
+msgstr "禁用工具 -> %action"
+
+#: kiosk_data.cpp:180
+#, c-format
+msgid ""
+"This option can be used to remove the <i>Tools -> %action</i> menu-option "
+"from all applications."
+msgstr "此选项将从所有应用程序中移除<i>工具 -> %action</i>菜单项。"
+
+#: kiosk_data.cpp:181 kiosk_data.cpp:183 kiosk_data.cpp:185 kiosk_data.cpp:187
+#: kiosk_data.cpp:189 kiosk_data.cpp:193 kiosk_data.cpp:195 kiosk_data.cpp:197
+#, c-format
+msgid "Disable Settings -> %action"
+msgstr "禁用设置 -> %action"
+
+#: kiosk_data.cpp:182 kiosk_data.cpp:184 kiosk_data.cpp:186 kiosk_data.cpp:188
+#: kiosk_data.cpp:190 kiosk_data.cpp:194 kiosk_data.cpp:196 kiosk_data.cpp:198
+#, c-format
+msgid ""
+"This option can be used to remove the <i>Settings -> %action</i> menu-option "
+"from all applications."
+msgstr "此选项将从所有应用程序中禁用<i>设置 -> %action</i>菜单项。"
+
+#: kiosk_data.cpp:191
+msgid "Disable Settings -> Configure <Application>"
+msgstr "禁用设置 -> 配置<应用程序>"
+
+#: kiosk_data.cpp:192
+msgid ""
+"This option can be used to remove the <i>Settings -> Configure &lt;"
+"Application&gt;</i> menu-option from all applications."
+msgstr "从所有应用程序中移除<i>设置 -> 配置&lt;应用程序&gt;</i>菜单项。"
+
+#: kiosk_data.cpp:199
+msgid "Disable Help"
+msgstr "禁用帮助"
+
+#: kiosk_data.cpp:200
+msgid "You can use this to completely disable the help menu"
+msgstr "完全禁用帮助菜单"
+
+#: kiosk_data.cpp:201
+msgid "Disable Help -> <Application> Handbook"
+msgstr "禁用帮助 -> <应用程序>手册"
+
+#: kiosk_data.cpp:202
+msgid ""
+"This option can be used to remove the <i>Help -> &lt;Application&gt; "
+"Handbook</i> menu-option from all applications."
+msgstr "从所有应用程序中移除<i>帮助 -> &lt;应用程序&gt;手册 </i> 菜单项。"
+
+#: kiosk_data.cpp:203 kiosk_data.cpp:205 kiosk_data.cpp:209
+#, c-format
+msgid "Disable Help -> %action"
+msgstr "禁用帮助 -> %action"
+
+#: kiosk_data.cpp:204 kiosk_data.cpp:206 kiosk_data.cpp:210
+#, c-format
+msgid ""
+"This option can be used to remove the <i>Help -> %action</i> menu-option "
+"from all applications."
+msgstr "此选项将从所有应用程序中禁用<i>帮助 -> %action</i>菜单项。"
+
+#: kiosk_data.cpp:207
+msgid "Disable Help -> About <Application>"
+msgstr "禁用帮助 -> 关于<应用程序>"
+
+#: kiosk_data.cpp:208
+msgid ""
+"This option can be used to remove the <i>Help -> About &lt;Application&gt;</"
+"i> menu-option from all applications."
+msgstr "从所有应用程序中移除<i>帮助 -> 关于 &lt;应用程序&gt;</i>菜单项。"
+
+#: kiosk_data.cpp:211
+msgid "Desktop Sharing"
+msgstr "桌面共享"
+
+#: kiosk_data.cpp:212
+msgid "Remote Desktop Sharing"
+msgstr "远程桌面共享"
+
+#: kiosk_data.cpp:213
+msgid "Lock down Desktop Sharing Settings"
+msgstr "锁定桌面共享设置"
+
+#: kiosk_data.cpp:214
+msgid ""
+"When the setting for remote desktop sharing are locked down the user can no "
+"longer change them."
+msgstr "使用户无法修改远程桌面共享设置。"
+
+#: kiosk_data.cpp:215
+msgid "File Associations"
+msgstr "文件关联"
+
+#: kiosk_data.cpp:216
+msgid "Configure the applications used for opening files."
+msgstr "配置用于打开文件的应用程序。"
+
+#: kiosk_data.cpp:217
+msgid "Lock down File Associations Settings"
+msgstr "锁定文件关联设置。"
+
+#: kiosk_data.cpp:218
+msgid ""
+"When the setting for file associations are locked down the user can no "
+"longer change the default applications used for opening files."
+msgstr "使用户无法修改打开文件使用的应用程序。"
+
+#: kiosk_data.cpp:219
+msgid "Disable \"Edit file type\" in properties dialog"
+msgstr "在属性对话框中禁用“编辑文件类型”"
+
+#: kiosk_data.cpp:220
+msgid ""
+"The \"Edit file type\" can be used to change how files are recognized and "
+"with which applications such files are opened."
+msgstr "“编辑文件类型”可用于修改打开该文件的应用程序。"
+
+#: kioskConfigDialog.cpp:40
+msgid "Configure Kiosk Admin Tool"
+msgstr "配置 Kiosk 管理员工具"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkProfilePrefix)
+#: kioskConfigDialog_ui.ui:19
+msgid "Store all &profiles under the same base directory"
+msgstr "将所有用户模板存储在同一个基本目录下(&P)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: kioskConfigDialog_ui.ui:46
+msgid "&Base directory:"
+msgstr "基准目录(&B)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkUpload)
+#: kioskConfigDialog_ui.ui:70
+msgid "On exit, &upload profiles to remote server"
+msgstr "退出时，将用户模板上传到远程服务器(&U)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: kioskConfigDialog_ui.ui:97
+msgid "&Server URL:"
+msgstr "服务器地址(&S)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: kioskConfigDialog_ui.ui:117
+msgid "Strip off the following directory prefix when uploading:"
+msgstr "上传时跳过带有下列前缀的目录："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: kioskConfigDialog_ui.ui:134
+msgid "Example:"
+msgstr "示例："
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkUID)
+#: kioskConfigDialog_ui.ui:181
+msgid "Do not show users with a UID lower than"
+msgstr "不显示低于该 UID 的用户"
+
+#: kioskgui.cpp:120
+#, kde-format
+msgid ""
+"<qt>Your system contains KDE configuration settings in the skeleton "
+"directory <b>%1</b>. These files are copied to the personal KDE settings "
+"directory of newly created users.<p>This may interfere with the correct "
+"operation of user profiles.<p>Unless a setting has been locked down, "
+"settings that have been copied to the personal KDE settings directory of a "
+"user will override a default setting configured in a profile.<p><b>If this "
+"is not the intended behavior, please remove the offending files from the "
+"skeleton folder on all systems that you want to administer with user "
+"profiles.</b><p>The following files were found under <b>%2</b>:"
+msgstr ""
+"<qt>您的系统在模板目录 <b>%1</b> 中存储有 KDE 配置文件，它们将被复制到新创建"
+"用户的个人 KDE 设置目录中。<p>这也许会影响用户模板的正常工作。<p>除非某个设置"
+"被锁定，这些设置将覆盖用户模板中的设置。<p><b>如果这不是有意的，请删除这些文"
+"件，以保证您可以正常的使用用户模板进行管理。</b><p>在 <b>%2</b> 中找到了下列"
+"文件："
+
+#: kioskgui.cpp:154
+msgid "Upload &All Profiles"
+msgstr "上传所有用户模板(&A)"
+
+#: kioskgui.cpp:209
+#, kde-format
+msgid ""
+"<qt>You are about to delete the profile <b>%1</b>.<p>Are you sure you want "
+"to do this?"
+msgstr "<qt>确认删除用户模板 <b>%1</b> 吗"
+
+#: kioskgui.cpp:211
+msgid "Delete"
+msgstr "删除"
+
+#: kioskgui.cpp:293
+msgid "Error accessing Kiosk data"
+msgstr "访问 Kiosk 数据时发生错误"
+
+#: kioskgui.cpp:349 kioskgui.cpp:350
+msgid "Main Menu"
+msgstr "主菜单"
+
+#: kioskgui.cpp:354 kioskgui.cpp:355
+msgid "Add New Profile"
+msgstr "添加新的用户模板"
+
+#: kioskgui.cpp:359 kioskgui.cpp:360
+msgid "Profile Properties"
+msgstr "用户模板属性"
+
+#: kioskgui.cpp:364
+#, kde-format
+msgid "Setup Profile \"%1\""
+msgstr "设置用户模板“%1”"
+
+#: kioskgui.cpp:365
+msgid "Setup Profile"
+msgstr "设置用户模板"
+
+#: kioskgui.cpp:373 userManagement.cpp:44 userManagement.cpp:283
+msgid "Assign Profiles"
+msgstr "指派用户模板"
+
+#: kioskgui.cpp:566
+msgid "Your changes could not be saved, do you want to quit anyway?"
+msgstr "您的修改不会被保存，确认退出？"
+
+#: kioskgui.cpp:579
+#, kde-format
+msgid "<qt>Do you want to upload the profiles to <b>%1</b> ?</qt>"
+msgstr "<qt>确认更新 <b>%1</b> 的用户模板吗？</qt>"
+
+#: kioskgui.cpp:622
+#, kde-format
+msgid "<qt>All profiles have been successfully uploaded to <b>%1</b>"
+msgstr "<qt>所有用户模板已成功更新至 <b>%1</b>"
+
+#: kioskrun.cpp:729
+msgid "Setting Up Configuration Environment"
+msgstr "设置配置环境"
+
+#: kioskrun.cpp:730
+msgid "Setting up configuration environment."
+msgstr "设置配置环境。"
+
+#: kioskrun.cpp:917
+#, kde-format
+msgid ""
+"<qt>The directory <b>%1</b> does not yet exist. Do you want to create it?"
+msgstr "<qt>目录 <b>%1</b> 不存在。您想要创建它吗？"
+
+#: kioskrun.cpp:919
+msgid "Create &Dir"
+msgstr "创建目录(&D)"
+
+#: kioskrun.cpp:1083
+msgid "Default profile"
+msgstr "默认用户模板"
+
+#: kioskrun.cpp:1167
+#, kde-format
+msgid ""
+"<qt>The profile directory <b>%1</b> contains the following files, do you "
+"wish to delete these files?"
+msgstr "<qt>用户模板目录 <b>%1</b> 包含下列文件，是否删除？"
+
+#: kioskrun.cpp:1170
+msgid "Deleting Profile"
+msgstr "删除用户模板"
+
+#: kioskrun.cpp:1172
+msgid "&Keep Files"
+msgstr "保留文件(&K)"
+
+#: kiosksync.cpp:155
+#, kde-format
+msgid "Directory <b>%1</b> does not exist."
+msgstr "目录 <b>%1</b> 不存在。"
+
+#: kiosksync.cpp:160
+#, kde-format
+msgid "Directory <b>%1</b> is not readable."
+msgstr "目录 <b>%1</b> 不可读。"
+
+#: kiosktool-kdedirs.cpp:117
+msgid "kiosktool-kdedirs"
+msgstr "kiosktool-kdedirs"
+
+#: kiosktool-kdedirs.cpp:117
+msgid "A tool to set $KDEDIRS according to the current user profile."
+msgstr "一个根据当前用户模板设置 $KDEDIRS 的工具。"
+
+#: kiosktool-kdedirs.cpp:117
+msgid "(C) 2004 Waldo Bastian"
+msgstr "(C) 2004 Waldo Bastian"
+
+#: kiosktool-kdedirs.cpp:122
+msgid "Output currently active prefixes"
+msgstr "输出当前目录前缀"
+
+#: main.cpp:37 main.cpp:38
+msgid "KIOSK Admin Tool"
+msgstr "KIOSK 管理员工具"
+
+#: main.cpp:39
+msgid "(c) 2003-2009 KioskTool Maintainers"
+msgstr "(c) 2003-2009 Kiosk 工具维护团队"
+
+#: main.cpp:40
+msgid "Ian Reinhart Geiser"
+msgstr "Ian Reihart Geiser"
+
+#: main.cpp:40
+msgid "Maintainer"
+msgstr "维护者"
+
+#: main.cpp:41
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#: main.cpp:41
+msgid "Original Author"
+msgstr "原作者"
+
+#: main.cpp:42
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:42
+msgid "Port to KDE4"
+msgstr "KDE4 移植"
+
+#: main.cpp:48
+msgid "kderc file to save settings to"
+msgstr "设置要保存到的 kderc 文件"
+
+#. i18n: ectx: property (text), widget (QLabel, subCaptionLabel)
+#: mainview.ui:59
+msgid "TextLabel"
+msgstr "文本标签"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbHelp)
+#: mainview.ui:95
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbDiscard)
+#: mainview.ui:118
+msgid "&Discard XXX"
+msgstr "撤销 XXX(&D)"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbFinished)
+#: mainview.ui:141
+msgid "&Finished"
+msgstr "完成(&F)"
+
+#: profilePropsPage.cpp:156
+#, kde-format
+msgid "<qt>The user <b>%1</b> is not an existing user.</qt>"
+msgstr "<qt>用户 <b>%1</b> 不存在。</qt>"
+
+#: profilePropsPage.cpp:185
+#, kde-format
+msgid ""
+"<qt>The directory for this profile has changed from <b>%1</b> to <b>%2</b>."
+"<p>The following files under <b>%3</b> will be moved to <b>%4</b>"
+msgstr ""
+"<qt>此用户模板的目录已由 <b>%1</b> 变更为 <b>%2</b>。<p><b>%3</b> 下的文件将"
+"被移动到 <b>%4</b>"
+
+#: profilePropsPage.cpp:190
+msgid "Profile Directory Changed"
+msgstr "用户模板目录更改"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: profilePropsPage_ui.ui:60
+msgid "&Profile name:"
+msgstr "配置名(&P)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: profilePropsPage_ui.ui:99
+msgid "Short &description:"
+msgstr "短描述(&D)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#: profilePropsPage_ui.ui:138
+msgid "&Files in this profile will be owned by:"
+msgstr "此配置内的文件属于(&F)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: profilePropsPage_ui.ui:170
+msgid "&Directory for this profile:"
+msgstr "此配置的目录(&D)："
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ProfileSelectionPageUI)
+#: profileSelectionPage_ui.ui:13
+msgid "Page1"
+msgstr "页1"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, listProfile)
+#. i18n: ectx: property (text), widget (QTreeWidget, listGroups)
+#. i18n: ectx: property (text), widget (QTreeWidget, listUsers)
+#: profileSelectionPage_ui.ui:35 userManagement_ui.ui:75
+#: userManagement_ui.ui:135
+msgid "Profile"
+msgstr "模板"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, listProfile)
+#: profileSelectionPage_ui.ui:40
+msgid "Description"
+msgstr "描述"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonAdd)
+#: profileSelectionPage_ui.ui:50
+msgid "Add &New Profile"
+msgstr "添加新配置(&N)"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonSetup)
+#: profileSelectionPage_ui.ui:57
+msgid "&Setup Profile"
+msgstr "设置用户配置(&S)"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonUsers)
+#: profileSelectionPage_ui.ui:64
+msgid "&Assign Profiles"
+msgstr "指派配置(&A)"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonProperty)
+#: profileSelectionPage_ui.ui:87
+msgid "&Profile Properties"
+msgstr "配置属性(&P)"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonDelete)
+#: profileSelectionPage_ui.ui:94
+msgid "&Delete Profile"
+msgstr "删除配置(&D)"
+
+#: userManagement.cpp:147
+msgid "Add Group Policy"
+msgstr "添加组策略"
+
+#: userManagement.cpp:171
+#, kde-format
+msgid ""
+"<qt>You already have a profile defined for group <b>%1</b>. Do you want to "
+"replace it?</qt>"
+msgstr "<qt>您已经为组 <b>%1</b> 指定了用户模板，想要替换它吗？</qt>"
+
+#: userManagement.cpp:173 userManagement.cpp:248
+msgid "Duplicate Warning"
+msgstr "冲突警告"
+
+#: userManagement.cpp:174 userManagement.cpp:249
+msgid "&Replace"
+msgstr "替换(&R)"
+
+#: userManagement.cpp:217
+msgid "Add User Policy"
+msgstr "添加用户策略"
+
+#: userManagement.cpp:246
+#, kde-format
+msgid ""
+"<qt>You already have a profile defined for user <b>%1</b>. Do you want to "
+"replace it?</<qt>"
+msgstr "<qt>您已经为用户 <b>%1</b> 指定了用户模板，想要替换它吗？</qt>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: userManagement_ui.ui:16
+msgid "Default Policy"
+msgstr "默认策略"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: userManagement_ui.ui:28
+msgid "Profile used for users with no assigned profile:"
+msgstr "为未指派用户模板的用户使用模板："
+
+#. i18n: ectx: property (text), widget (KLineEdit, kLineEdit1)
+#: userManagement_ui.ui:38
+msgid "default"
+msgstr "默认"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: userManagement_ui.ui:51
+msgid "Group Policies"
+msgstr "组策略"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, listGroups)
+#: userManagement_ui.ui:70
+msgid "Group"
+msgstr "组"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonAddGroup)
+#: userManagement_ui.ui:85
+msgid "&Add Group Policy..."
+msgstr "添加组策略(&A)..."
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonDeleteGroup)
+#: userManagement_ui.ui:92
+msgid "&Delete Group Policy"
+msgstr "删除组策略(&D)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: userManagement_ui.ui:120
+msgid "Individual User Policies"
+msgstr "用户策略"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, listUsers)
+#: userManagement_ui.ui:130
+msgid "User"
+msgstr "用户"
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonAddUser)
+#: userManagement_ui.ui:145
+msgid "&Add User Policy..."
+msgstr "添加用户策略(&A)..."
+
+#. i18n: ectx: property (text), widget (KPushButton, buttonDeleteUser)
+#: userManagement_ui.ui:152
+msgid "&Delete User Policy"
+msgstr "删除用户策略(&D)"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCaption)
+#: userManagementGroup_ui.ui:19
+msgid "Select the profile to use for all users in the specified group."
+msgstr "为同一用户组的用户使用相同配置。"
+
+#. i18n: ectx: property (text), widget (QLabel, labelGroup)
+#: userManagementGroup_ui.ui:47
+msgid "Group:"
+msgstr "组："
+
+#. i18n: ectx: property (text), widget (QLabel, labelProfile)
+#: userManagementGroup_ui.ui:76 userManagementUser_ui.ui:76
+msgid "Profile:"
+msgstr "配置："
+
+#. i18n: ectx: property (text), widget (QLabel, labelCaption)
+#: userManagementUser_ui.ui:19
+msgid "Select the profile to use for the specified user."
+msgstr "为特定用户使用指定的模板。"
+
+#. i18n: ectx: property (text), widget (QLabel, labelUser)
+#: userManagementUser_ui.ui:47
+msgid "User:"
+msgstr "用户："

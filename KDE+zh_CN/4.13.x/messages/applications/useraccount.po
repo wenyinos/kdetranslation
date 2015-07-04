@@ -1,0 +1,295 @@
+#
+# Funda Wang <fundawang@linux.net.cn>, 2004,2005.
+# Lie Ex <lilith.ex@gmail.com>, 2008-2010.
+# Feng Chao <chaofeng111@gmail.com>, 2010, 2011, 2012, 2014.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: useraccount\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-06-15 01:27+0000\n"
+"PO-Revision-Date: 2014-02-22 12:28+0800\n"
+"Last-Translator: Feng Chao <chaofeng111@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国, Feng Chao"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org, chaofeng111@gmail.com"
+
+#: chfacedlg.cpp:56
+msgctxt "@title:window"
+msgid "Change your Face"
+msgstr "更改您的头像"
+
+#: chfacedlg.cpp:60
+msgid "Custom Image..."
+msgstr "自定义图像..."
+
+#: chfacedlg.cpp:61
+msgid "Remove Image"
+msgstr "删除图像"
+
+#: chfacedlg.cpp:78
+msgid "&Acquire Image..."
+msgstr "获取图像(&A)..."
+
+#: chfacedlg.cpp:98
+msgid "(Custom)"
+msgstr "(自定义)"
+
+#: chfacedlg.cpp:117
+msgid "There was an error loading the image."
+msgstr "装入图像出错。"
+
+#: chfacedlg.cpp:135 chfacedlg.cpp:177
+#, kde-format
+msgid ""
+"There was an error saving the image:\n"
+"%1"
+msgstr ""
+"保存图像出错：\n"
+"%1"
+
+#: chfacedlg.cpp:146
+msgid "&Save copy in custom faces folder for future use"
+msgstr "将副本保存至自定义头像文件夹(&S)"
+
+#: chfacedlg.cpp:152
+msgctxt "@title:window"
+msgid "Choose Image"
+msgstr "选择图像"
+
+#. i18n: ectx: property (text), widget (QLabel, header)
+#: faceDlg.ui:25
+msgid "Select a new face:"
+msgstr "选择新头像："
+
+#. i18n: ectx: label, entry (FaceSize), group (X-*-Greeter)
+#: kcm_useraccount.kcfg:24
+msgid "The size of login images"
+msgstr "登录图像的大小"
+
+#. i18n: ectx: label, entry (DefaultFile), group (X-*-Greeter)
+#: kcm_useraccount.kcfg:28
+msgid "The default image file"
+msgstr "默认图像文件"
+
+#. i18n: ectx: label, entry (CustomFaceFile), group (X-*-Greeter)
+#: kcm_useraccount.kcfg:32
+msgid "The filename of the user's custom image file"
+msgstr "用户自定义图像文件的文件名"
+
+#. i18n: ectx: label, entry (FaceFile), group (X-*-Greeter)
+#: kcm_useraccount.kcfg:36
+msgid "The user's login image"
+msgstr "用户的登录图像"
+
+#. i18n: ectx: label, entry (EchoMode), group (Passwords)
+#: kcm_useraccount_pass.kcfg:9
+msgid "Password echo type"
+msgstr "密码回显形态"
+
+#: main.cpp:74
+msgid "Change &Password..."
+msgstr "更改密码(&P)..."
+
+#: main.cpp:92
+msgid "Password & User Information"
+msgstr "密码和用户信息"
+
+#: main.cpp:94
+msgid "(C) 2002, Braden MacDonald, (C) 2004 Ravikiran Rajagopal"
+msgstr "(C) 2002，Braden MacDonald，(C) 2004 Ravikiran Rajagopal"
+
+#: main.cpp:97
+msgid "Frans Englich"
+msgstr "Frans Englich"
+
+#: main.cpp:97
+msgid "Maintainer"
+msgstr "维护者"
+
+#: main.cpp:98
+msgid "Ravikiran Rajagopal"
+msgstr "Ravikiran Rajagopal"
+
+#: main.cpp:99
+msgid "Michael Häckel"
+msgstr "Michael Häckel"
+
+#: main.cpp:101
+msgid "Braden MacDonald"
+msgstr "Braden MacDonald"
+
+#: main.cpp:101
+msgid "Face editor"
+msgstr "头像编辑器"
+
+#: main.cpp:102
+msgid "Geert Jansen"
+msgstr "Geert Jansen"
+
+#: main.cpp:102
+msgid "Password changer"
+msgstr "密码更改器"
+
+#: main.cpp:104
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: main.cpp:105
+msgid "Alex Zepeda"
+msgstr "Alex Zepeda"
+
+#: main.cpp:106
+msgid "Hans Karlsson"
+msgstr "Hans Karlsson"
+
+#: main.cpp:106 main.cpp:107
+msgid "Icons"
+msgstr "图标"
+
+#: main.cpp:107
+msgid "Hermann Thomas"
+msgstr "Hermann Thomas"
+
+#: main.cpp:110
+msgid ""
+"<qt>Here you can change your personal information, which will be used, for "
+"instance, in mail programs and word processors. You can change your login "
+"password by clicking <em>Change Password...</em>.</qt>"
+msgstr ""
+"<qt>您可在此更改您的个人信息，这些信息将会在邮件程序和字处理器中使用。如果您"
+"想要更改您的登录密码，请单击<em>更改密码...</em>。</qt>"
+
+#: main.cpp:124
+msgid ""
+"A program error occurred: the internal program 'kdepasswd' could not be "
+"found. You will not be able to change your password."
+msgstr "发生了程序错误：找不到内部程序“kdepasswd”。您无法更改您的密码。"
+
+#: main.cpp:185
+msgid "Please enter your password in order to save your settings:"
+msgstr "请输入您的密码，以便保存您的设置："
+
+#: main.cpp:188
+msgid "You must enter your password in order to change your information."
+msgstr "要更改您的信息，您必须输入您的密码。"
+
+#: main.cpp:198
+msgid "You must enter a correct password."
+msgstr "您必须输入正确的密码。"
+
+#: main.cpp:202
+#, kde-format
+msgid ""
+"An error occurred and your name has probably not been changed. The error "
+"message was:\n"
+"%1"
+msgstr ""
+"发生了错误，您的姓名可能未更改。错误消息是：\n"
+"%1"
+
+#: main.cpp:222
+#, kde-format
+msgid "There was an error saving the image: %1"
+msgstr "保存图像时出错：%1"
+
+#: main.cpp:240
+#, kde-format
+msgid "There was an error setting the image: %1"
+msgstr "设置图像时出错：%1"
+
+#: main.cpp:247
+#, kde-format
+msgid "There was an error deleting the image: %1"
+msgstr "删除图像时出错：%1"
+
+#: main.cpp:326
+#, kde-format
+msgid ""
+"%1 does not appear to be an image file.\n"
+"Please use files with these extensions:\n"
+"%2"
+msgstr ""
+"%1 好像不是图像文件。\n"
+"请使用带有下列扩展名的文件：\n"
+"%2"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, btnChangeFace)
+#: main_widget.ui:44
+msgid "Change your image"
+msgstr "更改您的图像"
+
+#. i18n: ectx: property (text), widget (QLabel, lblClickButtonInfo)
+#: main_widget.ui:72
+msgid "<i>Click to change your image</i>"
+msgstr "<i>单击这里更改您的图像</i>"
+
+#. i18n: ectx: property (text), widget (KPushButton, btnChangePassword)
+#: main_widget.ui:87
+msgid "Change Password..."
+msgstr "更改密码..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpUserInformation)
+#: main_widget.ui:116
+msgid "User Information"
+msgstr "用户信息"
+
+#. i18n: ectx: property (text), widget (QLabel, lblRealName)
+#: main_widget.ui:122
+msgid "&Name:"
+msgstr "姓名(&N)："
+
+#. i18n: ectx: property (text), widget (QLabel, lblOrganisation)
+#: main_widget.ui:145
+msgid "&Organization:"
+msgstr "组织(&O)："
+
+#. i18n: ectx: property (text), widget (QLabel, lblEmail)
+#: main_widget.ui:168
+msgid "&Email address:"
+msgstr "电子邮件(&E)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: main_widget.ui:191
+msgid "&SMTP server:"
+msgstr "发信(&SMTP)服务器："
+
+#. i18n: ectx: property (text), widget (QLabel, lblUIDTell)
+#: main_widget.ui:214
+msgid "User ID:"
+msgstr "用户 ID："
+
+#. i18n: ectx: property (title), widget (KButtonGroup, kcfg_EchoMode)
+#: main_widget.ui:240
+msgid "At Password Prompt"
+msgstr "在密码提示时"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rdbOneStar)
+#: main_widget.ui:246
+msgid "Show one bullet for each letter"
+msgstr "每个字母用一颗星表示"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rdbThreeStars)
+#: main_widget.ui:253
+msgid "Show three bullets for each letter"
+msgstr "每个字母用三颗星表示"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rdbShowPassword)
+#: main_widget.ui:260
+msgid "Show nothing"
+msgstr "不显示"
+
+#~ msgid "Your administrator has disallowed changing your image."
+#~ msgstr "您的管理员禁止您更改图像。"

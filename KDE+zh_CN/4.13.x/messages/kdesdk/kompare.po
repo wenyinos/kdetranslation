@@ -1,0 +1,1093 @@
+# translation of kompare.po to 简体中文
+# Copyright (C) 2002,2003, 2004, 2008, 2009 Free Software Foundation, Inc.
+#
+# Li Zongliang <li-zongliang@21cn.com>, 2001,2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Levin Du <zsdjw@21cn.com>, 2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010, 2012.
+# Lie Ex <lilith.ex@gmail.com>, 2008, 2009.
+# FengChao <rainofchaos@gmail.com>, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kompare\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-07-30 01:42+0000\n"
+"PO-Revision-Date: 2012-05-28 11:20+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: kompare_shell.cpp:77
+msgid "Could not load our KompareViewPart."
+msgstr "无法加载部件 KompareViewPart。"
+
+#: kompare_shell.cpp:81
+msgid "Navigation"
+msgstr "导航"
+
+#: kompare_shell.cpp:98
+msgid "Could not load our KompareNavigationPart."
+msgstr "无法加载部件 KompareNavigationPart。"
+
+#: kompare_shell.cpp:199
+msgid "&Open Diff..."
+msgstr "打开 diff 文件(&O)..."
+
+#: kompare_shell.cpp:202
+msgid "&Compare Files..."
+msgstr "比较文件(&C)..."
+
+#: kompare_shell.cpp:205
+msgid "&Blend URL with Diff..."
+msgstr "合并 diff 到 URL(&B)..."
+
+#: kompare_shell.cpp:211
+msgid "Show T&ext View"
+msgstr "显示文本视图(&E)"
+
+#: kompare_shell.cpp:224
+msgid " 0 of 0 differences "
+msgstr "无差异"
+
+#: kompare_shell.cpp:225
+msgid " 0 of 0 files "
+msgstr "无文件"
+
+#: kompare_shell.cpp:240
+#, kde-format
+msgid " %2 of %1 file "
+msgid_plural " %2 of %1 files "
+msgstr[0] " %1 个文件中的 %2 个 "
+
+#: kompare_shell.cpp:242
+#, kde-format
+msgid " %1 file "
+msgid_plural " %1 files "
+msgstr[0] " %1 个文件 "
+
+#: kompare_shell.cpp:245
+#, kde-format
+msgid " %2 of %1 difference, %3 applied "
+msgid_plural " %2 of %1 differences, %3 applied "
+msgstr[0] " %1 个差异中的 %2 个，%3 个已应用 "
+
+#: kompare_shell.cpp:248
+#, kde-format
+msgid " %1 difference "
+msgid_plural " %1 differences "
+msgstr[0] " %1 个差异 "
+
+#: kompare_shell.cpp:330
+msgid "Blend File/Folder with diff Output"
+msgstr "合并 diff 输出到文件/文件夹"
+
+#: kompare_shell.cpp:331
+msgid "File/Folder"
+msgstr "文件/文件夹"
+
+#: kompare_shell.cpp:332
+msgid "Diff Output"
+msgstr "Diff 输出"
+
+#: kompare_shell.cpp:334
+msgid "Blend"
+msgstr "合并"
+
+#: kompare_shell.cpp:334
+msgid "Blend this file or folder with the diff output"
+msgstr "合并 diff 输出到此文件或文件夹"
+
+#: kompare_shell.cpp:334
+msgid ""
+"If you have entered a file or folder name and a file that contains diff "
+"output in the fields in this dialog then this button will be enabled and "
+"pressing it will open kompare's main view where the output of the entered "
+"file or files from the folder are mixed with the diff output so you can then "
+"apply the difference(s) to a file or to the files. "
+msgstr ""
+"如果您在此对话框中输入了文件或文件夹名称，以及包含 diff 输出的文件，则此按钮"
+"可以使用。单击此按钮后，将打开 kompare 的主视图，输入的文件或文件夹中的文件将"
+"会与 diff 输出混合，这样您就可以将差异应用到文件了。"
+
+#: kompare_shell.cpp:359 main.cpp:201
+msgid "Compare Files or Folders"
+msgstr "比较文件或文件夹"
+
+#: kompare_shell.cpp:360 main.cpp:202
+msgid "Source"
+msgstr "源文件"
+
+#: kompare_shell.cpp:361 main.cpp:203
+msgid "Destination"
+msgstr "目标文件"
+
+#: kompare_shell.cpp:363 main.cpp:205
+msgid "Compare"
+msgstr "比较"
+
+#: kompare_shell.cpp:363
+msgid "Compare these files or folders"
+msgstr "比较这些文件或文件夹"
+
+#: kompare_shell.cpp:363 main.cpp:205
+msgid ""
+"If you have entered 2 filenames or 2 folders in the fields in this dialog "
+"then this button will be enabled and pressing it will start a comparison of "
+"the entered files or folders. "
+msgstr ""
+"在对话框的字段中输入了两个文件名或文件夹名，此按钮才可用，\n"
+"按下它，将开始比较所输入的文件或文件夹。"
+
+#: kompare_shell.cpp:399
+msgid "Text View"
+msgstr "文本视图"
+
+#: komparenavtreepart/komparenavtreepart.cpp:63
+msgid "Source Folder"
+msgstr "源文件夹"
+
+#: komparenavtreepart/komparenavtreepart.cpp:69
+msgid "Destination Folder"
+msgstr "目标文件夹"
+
+#: komparenavtreepart/komparenavtreepart.cpp:75
+msgid "Source File"
+msgstr "源文件"
+
+#: komparenavtreepart/komparenavtreepart.cpp:75
+msgid "Destination File"
+msgstr "目标文件"
+
+#: komparenavtreepart/komparenavtreepart.cpp:82
+msgid "Source Line"
+msgstr "源文件行"
+
+#: komparenavtreepart/komparenavtreepart.cpp:82
+msgid "Destination Line"
+msgstr "目标文件行"
+
+#: komparenavtreepart/komparenavtreepart.cpp:82
+msgid "Difference"
+msgstr "差异"
+
+#: komparenavtreepart/komparenavtreepart.cpp:456
+#, fuzzy, kde-format
+#| msgid "Applied: Changes made to %1 line undone"
+#| msgid_plural "Applied: Changes made to  %1 lines undone"
+msgid "Applied: Changes made to %1 line undone"
+msgid_plural "Applied: Changes made to %1 lines undone"
+msgstr[0] "应用结果：未完成 %1 行的修改"
+
+#: komparenavtreepart/komparenavtreepart.cpp:459
+#, kde-format
+msgid "Changed %1 line"
+msgid_plural "Changed %1 lines"
+msgstr[0] "更改了 %1 行"
+
+#: komparenavtreepart/komparenavtreepart.cpp:464
+#, kde-format
+msgid "Applied: Insertion of %1 line undone"
+msgid_plural "Applied: Insertion of %1 lines undone"
+msgstr[0] "应用结果：未完成 %1 行的插入"
+
+#: komparenavtreepart/komparenavtreepart.cpp:467
+#, kde-format
+msgid "Inserted %1 line"
+msgid_plural "Inserted %1 lines"
+msgstr[0] "插入了 %1 行"
+
+#: komparenavtreepart/komparenavtreepart.cpp:472
+#, kde-format
+msgid "Applied: Deletion of %1 line undone"
+msgid_plural "Applied: Deletion of %1 lines undone"
+msgstr[0] "应用结果：未完成 %1 行的删除"
+
+#: komparenavtreepart/komparenavtreepart.cpp:475
+#, kde-format
+msgid "Deleted %1 line"
+msgid_plural "Deleted %1 lines"
+msgstr[0] "删除了 %1 行"
+
+#: komparenavtreepart/komparenavtreepart.cpp:629
+#: komparepart/kompare_part.cpp:855
+msgid "Unknown"
+msgstr "未知"
+
+#: komparenavtreepart/komparenavtreepart.cpp:769
+msgid "KompareNavTreePart"
+msgstr "KompareNavTreePart"
+
+#: komparenavtreepart/komparenavtreepart.cpp:770
+#: komparepart/kompare_part.cpp:635 main.cpp:62
+msgid "John Firebaugh"
+msgstr "John Firebaugh"
+
+#: komparenavtreepart/komparenavtreepart.cpp:770
+#: komparenavtreepart/komparenavtreepart.cpp:771
+#: komparepart/kompare_part.cpp:635 komparepart/kompare_part.cpp:636
+#: komparepart/kompare_part.cpp:637 main.cpp:62 main.cpp:63
+msgid "Author"
+msgstr "作者"
+
+#: komparenavtreepart/komparenavtreepart.cpp:771
+#: komparepart/kompare_part.cpp:636 main.cpp:63
+msgid "Otto Bruggeman"
+msgstr "Otto Bruggeman"
+
+#: komparepart/kompare_part.cpp:175
+msgid "Save &All"
+msgstr "全部保存(&A)"
+
+#: komparepart/kompare_part.cpp:177
+msgid "Save &Diff..."
+msgstr "保存差异文件(&D)..."
+
+#: komparepart/kompare_part.cpp:179
+msgid "Swap Source with Destination"
+msgstr "交换源文件和目标文件"
+
+#: komparepart/kompare_part.cpp:181
+msgid "Show Statistics"
+msgstr "显示统计信息"
+
+#: komparepart/kompare_part.cpp:184
+msgid "Refresh Diff"
+msgstr "刷新 Diff"
+
+#: komparepart/kompare_part.cpp:292 komparepart/kompare_part.cpp:303
+#, kde-format
+msgid "<qt>The URL <b>%1</b> cannot be downloaded.</qt>"
+msgstr "<qt>URL <b>%1</b> 无法下载。</qt>"
+
+#: komparepart/kompare_part.cpp:341
+#, kde-format
+msgid "<qt>The URL <b>%1</b> does not exist on your system.</qt>"
+msgstr "<qt>URL <b>%1</b> 在您的系统上不存在。</qt>"
+
+#: komparepart/kompare_part.cpp:533
+msgid "Diff Options"
+msgstr "Diff 选项"
+
+#: komparepart/kompare_part.cpp:551
+msgid "*.diff *.dif *.patch|Patch Files"
+msgstr "*.diff *.dif *.patch|补丁文件"
+
+#: komparepart/kompare_part.cpp:551
+msgid "Save .diff"
+msgstr "保存 .diff 文件"
+
+#: komparepart/kompare_part.cpp:554
+msgid "The file exists or is write-protected; do you want to overwrite it?"
+msgstr "文件已经存在或有写保护，要覆盖吗？"
+
+#: komparepart/kompare_part.cpp:554
+msgid "File Exists"
+msgstr "文件已存在"
+
+#: komparepart/kompare_part.cpp:554
+msgid "Overwrite"
+msgstr "覆盖"
+
+#: komparepart/kompare_part.cpp:554
+msgid "Do Not Overwrite"
+msgstr "不覆盖"
+
+#: komparepart/kompare_part.cpp:634
+msgid "KomparePart"
+msgstr "KomparePart"
+
+#: komparepart/kompare_part.cpp:637 main.cpp:65
+msgid "Kevin Kofler"
+msgstr "Kevin Kofler"
+
+#: komparepart/kompare_part.cpp:647
+msgid "Running diff..."
+msgstr "运行 diff..."
+
+#: komparepart/kompare_part.cpp:650
+msgid "Parsing diff output..."
+msgstr "分析 diff 输出..."
+
+#: komparepart/kompare_part.cpp:699
+#, kde-format
+msgid "Comparing file %1 with file %2"
+msgstr "正在比较文件 %1 和 %2"
+
+#: komparepart/kompare_part.cpp:704
+#, kde-format
+msgid "Comparing files in %1 with files in %2"
+msgstr "正在比较 %1 和 %2 中的文件"
+
+#: komparepart/kompare_part.cpp:709
+#, kde-format
+msgid "Viewing diff output from %1"
+msgstr "查看 %1 的 diff 结果"
+
+#: komparepart/kompare_part.cpp:712
+#, kde-format
+msgid "Blending diff output from %1 into file %2"
+msgstr "合并 %1 的 diff 结果到文件 %2"
+
+#: komparepart/kompare_part.cpp:717
+#, kde-format
+msgid "Blending diff output from %1 into folder %2"
+msgstr "合并 %1 的 diff 结果到文件夹 %2"
+
+#: komparepart/kompare_part.cpp:768 komparepart/kompare_part.cpp:799
+#: komparepart/kompare_part.cpp:914
+msgid ""
+"You have made changes to the destination file(s).\n"
+"Would you like to save them?"
+msgstr ""
+"目标文件已经修改,\n"
+"要保存吗？"
+
+#: komparepart/kompare_part.cpp:770 komparepart/kompare_part.cpp:801
+#: komparepart/kompare_part.cpp:916
+msgid "Save Changes?"
+msgstr "保存修改？"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_UnifiedRB)
+#: komparepart/kompare_part.cpp:839 komparepart/komparesaveoptionsbase.ui:229
+#: libdialogpages/diffpage.cpp:243
+msgid "Unified"
+msgstr "统一"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_ContextRB)
+#: komparepart/kompare_part.cpp:842 komparepart/komparesaveoptionsbase.ui:201
+#: libdialogpages/diffpage.cpp:237
+msgid "Context"
+msgstr "上下文"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_RCSRB)
+#: komparepart/kompare_part.cpp:845 komparepart/komparesaveoptionsbase.ui:222
+msgid "RCS"
+msgstr "RCS"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_EdRB)
+#: komparepart/kompare_part.cpp:848 komparepart/komparesaveoptionsbase.ui:208
+msgid "Ed"
+msgstr "Ed"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_NormalRB)
+#: komparepart/kompare_part.cpp:851 komparepart/komparesaveoptionsbase.ui:215
+#: libdialogpages/diffpage.cpp:240
+msgid "Normal"
+msgstr "正常"
+
+#: komparepart/kompare_part.cpp:871
+msgid ""
+"No diff file, or no 2 files have been diffed. Therefore no stats are "
+"available."
+msgstr "没有 diff 文件，或没有比较两个文件，因为统计信息不可用。"
+
+#: komparepart/kompare_part.cpp:873 komparepart/kompare_part.cpp:887
+#: komparepart/kompare_part.cpp:903
+msgid "Diff Statistics"
+msgstr "Diff 统计"
+
+#: komparepart/kompare_part.cpp:877
+#, kde-format
+msgid ""
+"Statistics:\n"
+"\n"
+"Old file: %1\n"
+"New file: %2\n"
+"\n"
+"Format: %3\n"
+"Number of hunks: %4\n"
+"Number of differences: %5"
+msgstr ""
+"统计：\n"
+"\n"
+"旧文件：%1\n"
+"新文件：%2\n"
+"\n"
+"格式：%3\n"
+"相同个数：%4\n"
+"差异个数：%5"
+
+#: komparepart/kompare_part.cpp:890
+#, kde-format
+msgid ""
+"Statistics:\n"
+"\n"
+"Number of files in diff file: %1\n"
+"Format: %2\n"
+"\n"
+"Current old file: %3\n"
+"Current new file: %4\n"
+"\n"
+"Number of hunks: %5\n"
+"Number of differences: %6"
+msgstr ""
+"统计：\n"
+"\n"
+"diff结果中的文件个数：%1\n"
+"格式：%2\n"
+"\n"
+"当前旧文件：%3\n"
+"当前新文件：%4\n"
+"\n"
+"相同个数：%5\n"
+"差异个数：%6"
+
+#. i18n: ectx: Menu (file)
+#: komparepart/komparepartui.rc:4 kompareui.rc:4
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (difference)
+#: komparepart/komparepartui.rc:17
+msgid "&Difference"
+msgstr "差异(&D)"
+
+#. i18n: ectx: Menu (settings)
+#: komparepart/komparepartui.rc:29 kompareui.rc:14
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#: komparepart/kompareprefdlg.cpp:35
+msgid "Preferences"
+msgstr "首选项"
+
+#: komparepart/kompareprefdlg.cpp:45
+msgid "View"
+msgstr "视图"
+
+#: komparepart/kompareprefdlg.cpp:47
+msgid "View Settings"
+msgstr "视图设置"
+
+#: komparepart/kompareprefdlg.cpp:51 kompareurldialog.cpp:52
+#: libdialogpages/diffpage.cpp:218
+msgid "Diff"
+msgstr "Diff"
+
+#: komparepart/kompareprefdlg.cpp:53
+msgid "Diff Settings"
+msgstr "Diff 设置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
+#: komparepart/komparesaveoptionsbase.ui:30
+msgid "Run Diff In"
+msgstr "运行 diff 在"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_CommandLineGB)
+#: komparepart/komparesaveoptionsbase.ui:65
+msgid "Command Line"
+msgstr "命令行"
+
+#. i18n: ectx: property (text), widget (QLabel, m_CommandLineLabel)
+#: komparepart/komparesaveoptionsbase.ui:80
+msgid "cd dir && diff -udHprNa -- source destination"
+msgstr "cd 目录 && diff -udHprNa -- 源 目标"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_OptionsGB)
+#: komparepart/komparesaveoptionsbase.ui:93 libdialogpages/diffpage.cpp:358
+msgid "Options"
+msgstr "选项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_SmallerChangesCB)
+#: komparepart/komparesaveoptionsbase.ui:105
+msgid "Look for smaller changes"
+msgstr "查找较小的改动"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_LargeFilesCB)
+#: komparepart/komparesaveoptionsbase.ui:115
+msgid "Optimize for large files"
+msgstr "优化大文件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreCaseCB)
+#: komparepart/komparesaveoptionsbase.ui:125
+msgid "Ignore changes in case"
+msgstr "忽略大小写的变化"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_ExpandTabsCB)
+#: komparepart/komparesaveoptionsbase.ui:132
+msgid "Expand tabs to spaces"
+msgstr "将制表符扩展成空格"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreEmptyLinesCB)
+#: komparepart/komparesaveoptionsbase.ui:139
+msgid "Ignore added or removed empty lines"
+msgstr "忽略新增或删除的空行"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_IgnoreWhiteSpaceCB)
+#: komparepart/komparesaveoptionsbase.ui:146
+msgid "Ignore changes in whitespace"
+msgstr "忽略空白的变化"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_FunctionNamesCB)
+#: komparepart/komparesaveoptionsbase.ui:153
+msgid "Show function names"
+msgstr "显示函数名称"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_RecursiveCB)
+#: komparepart/komparesaveoptionsbase.ui:163
+msgid "Compare folders recursively"
+msgstr "递归比较文件夹"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_NewFilesCB)
+#: komparepart/komparesaveoptionsbase.ui:173
+msgid "Treat new files as empty"
+msgstr "新文件作为空文件处理"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_FormatGB)
+#: komparepart/komparesaveoptionsbase.ui:189 libdialogpages/diffpage.cpp:268
+msgid "Format"
+msgstr "格式"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_SideBySideRB)
+#: komparepart/komparesaveoptionsbase.ui:239
+msgid "Side-by-side"
+msgstr "并排"
+
+#. i18n: ectx: property (text), widget (QLabel, m_ContextLinesLabel)
+#: komparepart/komparesaveoptionsbase.ui:257 libdialogpages/diffpage.cpp:256
+msgid "Number of context lines:"
+msgstr "上下文行数："
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kompareui.rc:27
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: kompareurldialog.cpp:44
+msgid "Files"
+msgstr "文件"
+
+#: kompareurldialog.cpp:46
+msgid "Here you can enter the files you want to compare."
+msgstr "您可以在这里输入想要比较的文件。"
+
+#: kompareurldialog.cpp:54
+msgid "Here you can change the options for comparing the files."
+msgstr "您可以在这里更改文件比较的选项。"
+
+#: kompareurldialog.cpp:60 libdialogpages/viewpage.cpp:124
+msgid "Appearance"
+msgstr "外观"
+
+#: kompareurldialog.cpp:62
+msgid "Here you can change the options for the view."
+msgstr "您可以在这里更改视图选项。"
+
+#: kompareurldialog.cpp:105
+msgid ""
+"File used for excluding files cannot be found, please specify another file."
+msgstr "找不到用于排除的文件。请另行指定文件。"
+
+#: libdialogpages/diffpage.cpp:207
+msgid "Diff Program"
+msgstr "diff 程序"
+
+#: libdialogpages/diffpage.cpp:212
+msgid ""
+"You can select a different diff program here. On Solaris the standard diff "
+"program does not support all the options that the GNU version does. This way "
+"you can select that version."
+msgstr ""
+"在此可以选择另外一个 diff 程序。在 Solaris 上，标准 diff 程序不支持 GNU 版本"
+"的所有选项，因此可以选择 GNU 版本。"
+
+#: libdialogpages/diffpage.cpp:231
+msgid ""
+"Select the format of the output generated by diff. Unified is the one that "
+"is used most frequently because it is very readable. The KDE developers like "
+"this format the best so use it for sending patches."
+msgstr ""
+"选择 diff 产生结果的格式。统一(unified)是种经常使用的格式，它非常容易阅读，因"
+"此 KDE 开发者发送补丁时最喜欢这种格式。"
+
+#: libdialogpages/diffpage.cpp:234
+msgid "Output Format"
+msgstr "输出格式"
+
+#: libdialogpages/diffpage.cpp:252
+msgid "Lines of Context"
+msgstr "上下文行数"
+
+#: libdialogpages/diffpage.cpp:253 libdialogpages/diffpage.cpp:258
+#: libdialogpages/diffpage.cpp:262
+msgid ""
+"The number of context lines is normally 2 or 3. This makes the diff readable "
+"and applicable in most cases. More than 3 lines will only bloat the diff "
+"unnecessarily."
+msgstr ""
+"上下文的行数通常是 2 或 3，这样使得 diff 容易阅读，且能应用于大多数场合。多"
+"于 3 行一般是不需要的。"
+
+#: libdialogpages/diffpage.cpp:282
+msgid "General"
+msgstr "常规"
+
+#: libdialogpages/diffpage.cpp:285
+msgid "&Treat new files as empty"
+msgstr "将新文件作为空文件处理(&T)"
+
+#: libdialogpages/diffpage.cpp:286
+msgid "This option corresponds to the -N diff option."
+msgstr "对应于 diff 的 -N 选项。"
+
+#: libdialogpages/diffpage.cpp:287
+msgid ""
+"With this option enabled diff will treat a file that only exists in one of "
+"the directories as empty in the other directory. This means that the file is "
+"compared with an empty file and because of this will appear as one big "
+"insertion or deletion."
+msgstr ""
+"启用此选项时，差异对比程序会将仅存在于两个目录之一，另一个目录里不存在的文件"
+"当作空文件处理。这就意味着此文件可能会在差异对比结果中产生较大的新增或删除内"
+"容。"
+
+#: libdialogpages/diffpage.cpp:290
+msgid "&Look for smaller changes"
+msgstr "查找较小的修改(&L)"
+
+#: libdialogpages/diffpage.cpp:291
+msgid "This corresponds to the -d diff option."
+msgstr "对应于 diff 的 -d 选项。"
+
+#: libdialogpages/diffpage.cpp:292
+msgid ""
+"With this option enabled diff will try a little harder (at the cost of more "
+"memory) to find fewer changes."
+msgstr ""
+"启用此选项时，差异对比程序会试图使用内存开销较大的算法去查找较小的修改。"
+
+#: libdialogpages/diffpage.cpp:294
+msgid "O&ptimize for large files"
+msgstr "优化大文件(&P)"
+
+#: libdialogpages/diffpage.cpp:295
+msgid "This corresponds to the -H diff option."
+msgstr "对应于 diff 的 -H 选项。"
+
+#: libdialogpages/diffpage.cpp:296
+msgid ""
+"This option lets diff makes better diffs when using large files. The "
+"definition of large is nowhere to be found though."
+msgstr "启用此选项时，差异对比程序会优化大文件。"
+
+#: libdialogpages/diffpage.cpp:298
+msgid "&Ignore changes in case"
+msgstr "忽略大小写变化(&I)"
+
+#: libdialogpages/diffpage.cpp:299
+msgid "This corresponds to the -i diff option."
+msgstr "对应于 diff 的 -i 选项。"
+
+#: libdialogpages/diffpage.cpp:300
+msgid ""
+"With this option to ignore changes in case enabled, diff will not indicate a "
+"difference when something in one file is changed into SoMEthing in the other "
+"file."
+msgstr ""
+"启用此选项时，差异对比程序会忽略大小写的变化，比如一个文件中的 something 单词"
+"在另一个文件中是 SoMEthing 时，程序不会将其视作不同。"
+
+#: libdialogpages/diffpage.cpp:309
+msgid "Ignore regexp:"
+msgstr "忽略正则表达式："
+
+#: libdialogpages/diffpage.cpp:310
+msgid "This option corresponds to the -I diff option."
+msgstr "对应于 diff 的 -I 选项。"
+
+#: libdialogpages/diffpage.cpp:311
+msgid ""
+"When this checkbox is enabled, an option to diff is given that will make "
+"diff ignore lines that match the regular expression."
+msgstr ""
+"启用此选项时，将对差异对比程序给定一个正则表达式，符合此表达式的行会被差异对"
+"比程序忽略。"
+
+#: libdialogpages/diffpage.cpp:315
+msgid ""
+"Add the regular expression here that you want to use\n"
+"to ignore lines that match it."
+msgstr "在此添加正则表达式，匹配到的行将被忽略。"
+
+#: libdialogpages/diffpage.cpp:321
+msgid "&Edit..."
+msgstr "编辑(&E)..."
+
+#: libdialogpages/diffpage.cpp:323
+msgid ""
+"Clicking this will open a regular expression dialog where\n"
+"you can graphically create regular expressions."
+msgstr ""
+"点击这里会打开对话框，\n"
+"可以图形化地创建正则表达式。"
+
+#: libdialogpages/diffpage.cpp:331
+msgid "Whitespace"
+msgstr "空白"
+
+#: libdialogpages/diffpage.cpp:334
+msgid "E&xpand tabs to spaces in output"
+msgstr "输出时将制表符扩展成空格(&X)"
+
+#: libdialogpages/diffpage.cpp:335
+msgid "This option corresponds to the -t diff option."
+msgstr "对应于 diff 的 -t 选项。"
+
+#: libdialogpages/diffpage.cpp:336
+msgid ""
+"This option does not always produce the right result. Due to this expansion "
+"Kompare may have problems applying the change to the destination file."
+msgstr ""
+"此选项有时可能产生不正确的结果，因此 Kompare 在将差异结果应用到目标文件时可能"
+"会有问题。"
+
+#: libdialogpages/diffpage.cpp:338
+msgid "I&gnore added or removed empty lines"
+msgstr "忽略增加或删除的空行(&G)"
+
+#: libdialogpages/diffpage.cpp:339
+msgid "This option corresponds to the -B diff option."
+msgstr "对应于 diff 的 -B 选项。"
+
+#: libdialogpages/diffpage.cpp:340
+msgid ""
+"This can be very useful in situations where code has been reorganized and "
+"empty lines have been added or removed to improve legibility."
+msgstr ""
+"当为易读性考虑，有人代码进行过格式重排，以及增减过空行的情况下，此选项十分有"
+"用。"
+
+#: libdialogpages/diffpage.cpp:342
+msgid "Ig&nore changes in the amount of whitespace"
+msgstr "忽略空白字符个数的变化(&N)"
+
+#: libdialogpages/diffpage.cpp:343
+msgid "This option corresponds to the -b diff option."
+msgstr "对应于 diff 的 -b 选项。"
+
+#: libdialogpages/diffpage.cpp:344
+msgid ""
+"If you are uninterested in differences arising due to, for example, changes "
+"in indentation, then use this option."
+msgstr "如果您对诸如缩进数量不同一类差异不感兴趣时，可使用此选项。"
+
+#: libdialogpages/diffpage.cpp:346
+msgid "Ign&ore all whitespace"
+msgstr "忽略所有空白字符(&O)"
+
+#: libdialogpages/diffpage.cpp:347
+msgid "This option corresponds to the -w diff option."
+msgstr "对应于 diff 的 -w 选项。"
+
+#: libdialogpages/diffpage.cpp:348
+msgid ""
+"This is useful for seeing the significant changes without being overwhelmed "
+"by all the white space changes."
+msgstr "如果您想忽略空白字符修改，只要查看最关键的文件改变时，此选项十分有用。"
+
+#: libdialogpages/diffpage.cpp:350
+msgid "Igno&re changes due to tab expansion"
+msgstr "忽略制表符扩展所带来的变化(&R)"
+
+#: libdialogpages/diffpage.cpp:351
+msgid "This option corresponds to the -E diff option."
+msgstr "对应于 diff 的 -E 选项。"
+
+#: libdialogpages/diffpage.cpp:352
+msgid ""
+"If there is a change because tabs have been expanded into spaces in the "
+"other file, then this option will make sure that these do not show up. "
+"Kompare currently has some problems applying such changes so be careful when "
+"you use this option."
+msgstr ""
+"如果在一个文件中发生过诸如制表符被扩展为空格等改变时，此选项会确保此类改变不"
+"被显现出来。Kompare 现在在应用这类差异时可能会有一些问题，如果您使用此选项，"
+"请务必小心。"
+
+#: libdialogpages/diffpage.cpp:372
+msgid "File Pattern to Exclude"
+msgstr "要排除的文件模式"
+
+#: libdialogpages/diffpage.cpp:373
+msgid ""
+"If this is checked you can enter a shell pattern in the text box on the "
+"right or select entries from the list."
+msgstr "如果选上，可以在右边文本框输入 shell 模式或从列表中选择。"
+
+#: libdialogpages/diffpage.cpp:379
+msgid ""
+"Here you can enter or remove a shell pattern or select one or more entries "
+"from the list."
+msgstr "这里可以输入或删除 shell 模式或从列表中选择一个或多个模式。"
+
+#: libdialogpages/diffpage.cpp:389
+msgid "File with Filenames to Exclude"
+msgstr "要排除的文件名称"
+
+#: libdialogpages/diffpage.cpp:390
+msgid "If this is checked you can enter a filename in the combo box below."
+msgstr "如果选上，可以在下面的组合框输入文件名。"
+
+#: libdialogpages/diffpage.cpp:394
+msgid ""
+"Here you can enter the URL of a file with shell patterns to ignore during "
+"the comparison of the folders."
+msgstr "这里可以输入在文件夹比较时要忽略的文件的 URL，该 URL 含有 shell 模式。"
+
+#: libdialogpages/diffpage.cpp:398
+msgid ""
+"Any file you select in the dialog that pops up when you click it will be put "
+"in the dialog to the left of this button."
+msgstr "任何在弹出的对话框中点击选择的文件将会放入此按钮左边的对话框中。"
+
+#: libdialogpages/diffpage.cpp:406
+msgid "Exclude"
+msgstr "排除"
+
+#: libdialogpages/filespage.cpp:60
+msgid "Encoding"
+msgstr "编码"
+
+#: libdialogpages/viewpage.cpp:57
+msgid "Colors"
+msgstr "颜色"
+
+#: libdialogpages/viewpage.cpp:63
+msgid "Removed color:"
+msgstr "删除文本的颜色："
+
+#: libdialogpages/viewpage.cpp:70
+msgid "Changed color:"
+msgstr "改变文本的颜色："
+
+#: libdialogpages/viewpage.cpp:77
+msgid "Added color:"
+msgstr "新增文本的颜色："
+
+#: libdialogpages/viewpage.cpp:84
+msgid "Applied color:"
+msgstr "应用文本的颜色："
+
+#: libdialogpages/viewpage.cpp:94
+msgid "Mouse Wheel"
+msgstr "鼠标滚轮"
+
+#: libdialogpages/viewpage.cpp:98
+msgid "Number of lines:"
+msgstr "行数："
+
+#: libdialogpages/viewpage.cpp:110
+msgid "Tabs to Spaces"
+msgstr "将制表符扩展成空格"
+
+#: libdialogpages/viewpage.cpp:114
+msgid "Number of spaces to convert a tab character to:"
+msgstr "制表符转换成空格的个数："
+
+#: libdialogpages/viewpage.cpp:134
+msgid "Text Font"
+msgstr "文本字体"
+
+#: libdialogpages/viewpage.cpp:138
+msgid "Font:"
+msgstr "字体："
+
+#: libdialogpages/viewpage.cpp:145
+msgid "Size:"
+msgstr "大小："
+
+#: libdialogpages/viewpage.cpp:155
+msgid "Fonts"
+msgstr "字体"
+
+#: main.cpp:43
+msgid ""
+"A program to view the differences between files and optionally generate a "
+"diff"
+msgstr "本程序查看文件间的差异，并可以生成 diff 结果"
+
+#: main.cpp:59
+msgid "Kompare"
+msgstr "Kompare"
+
+#: main.cpp:61
+msgid ""
+"(c) 2001-2004 John Firebaugh, (c) 2001-2005,2009 Otto Bruggeman, (c) "
+"2004-2005 Jeff Snyder, (c) 2007-2012 Kevin Kofler"
+msgstr ""
+"(c) 2001-2004 John Firebaugh，(c) 2001-2005,2009 Otto Bruggeman，(c) "
+"2004-2005 Jeff Snyder 和 (c) 2007-2012 Kevin Kofler"
+
+#: main.cpp:64
+msgid "Jeff Snyder"
+msgstr "Jeff Snyder"
+
+#: main.cpp:64
+msgid "Developer"
+msgstr "开发者"
+
+#: main.cpp:65
+msgid "Maintainer"
+msgstr "维护者"
+
+#: main.cpp:66
+msgid "Chris Luetchford"
+msgstr "Chris Luetchford"
+
+#: main.cpp:66
+msgid "Kompare icon artist"
+msgstr "Kompare 图标制作者"
+
+#: main.cpp:67
+msgid "Malte Starostik"
+msgstr "Malte Starostik"
+
+#: main.cpp:67
+msgid "A lot of good advice"
+msgstr "许多好建议"
+
+#: main.cpp:68
+msgid "Bernd Gehrmann"
+msgstr "Bernd Gehrmann"
+
+#: main.cpp:68
+msgid "Cervisia diff viewer"
+msgstr "Cervisia diff 查看器"
+
+#: main.cpp:73
+msgid "This will compare URL1 with URL2"
+msgstr "这将比较 URL1 和 URL2"
+
+#: main.cpp:74
+msgid ""
+"This will open URL1 and expect it to be diff output. URL1 can also be a '-' "
+"and then it will read from standard input. Can be used for instance for cvs "
+"diff | kompare -o -. Kompare will do a check to see if it can find the "
+"original file(s) and then blend the original file(s) into the diffoutput and "
+"show that in the viewer. -n disables the check."
+msgstr ""
+"这将打开 URL1，并假定其为 diff 结果。URL1 亦可以是“-”，表示从标准输入读取，应"
+"用例子为“cvs diff | kompare -o -”。Kompare 会检查能否找到原始文件，然后合并原"
+"始文件并将结果显示在查看器中，“-n”选项关闭此检查。"
+
+#: main.cpp:75
+msgid ""
+"This will blend URL2 into URL1, URL2 is expected to be diff output and URL1 "
+"the file or folder that the diffoutput needs to be blended into. "
+msgstr ""
+"这将合并 URL2 到 URL1，URL2 应为 diff 结果而 URL1 则是要被合并的文件或文件"
+"夹。"
+
+#: main.cpp:76
+msgid ""
+"Disables the check for automatically finding the original file(s) when using "
+"'-' as URL with the -o option."
+msgstr "当使用“-o”选项且 URL 为“-”时，不自动检查原始文件的存在。"
+
+#: main.cpp:77
+msgid ""
+"Use this to specify the encoding when calling it from the command line. It "
+"will default to the local encoding if not specified."
+msgstr ""
+"使用此处指定从命令行调用时所用的编码。如果未指定，则默认为系统的本地编码。"
+
+#: main.cpp:205
+msgid "Compare these files or folder"
+msgstr "比较这些文件或文件夹"
+
+#~ msgid "&Apply Difference"
+#~ msgstr "应用差异(&A)"
+
+#~ msgid "Un&apply Difference"
+#~ msgstr "不应用差异(&A)"
+
+#~ msgid "App&ly All"
+#~ msgstr "全部应用(&L)"
+
+#~ msgid "&Unapply All"
+#~ msgstr "全部不应用(&U)"
+
+#~ msgid "P&revious File"
+#~ msgstr "上一个文件(&R)"
+
+#~ msgid "N&ext File"
+#~ msgstr "下一个文件(&E)"
+
+#~ msgid "&Previous Difference"
+#~ msgstr "上一处差异(&P)"
+
+#~ msgid "&Next Difference"
+#~ msgstr "下一处差异(&N)"
+
+#~ msgid ""
+#~ "<qt>No models or no differences, this file: <b>%1</b>, is not a valid "
+#~ "diff file.</qt>"
+#~ msgstr ""
+#~ "<qt>没有模型(model)或比较结果，此文件：<b>%1</b>不是合法的 diff 文件。</"
+#~ "qt>"
+
+#~ msgid ""
+#~ "<qt>There were problems applying the diff <b>%1</b> to the file <b>%2</b>."
+#~ "</qt>"
+#~ msgstr "<qt>应用 diff 结果<b>%1</b>到文件<b>%2</b>时出现问题。</qt>"
+
+#~ msgid ""
+#~ "<qt>There were problems applying the diff <b>%1</b> to the folder <b>%2</"
+#~ "b>.</qt>"
+#~ msgstr "<qt>应用 diff 结果<b>%1</b>到文件夹<b>%2</b>时出现问题。</qt>"
+
+#~ msgid "Could not open a temporary file."
+#~ msgstr "无法打开临时文件。"
+
+#~ msgid ""
+#~ "<qt>Could not write to the temporary file <b>%1</b>, deleting it.</qt>"
+#~ msgstr "<qt>无法写入临时文件<b>%1</b>，将删除该文件。</qt>"
+
+#~ msgid ""
+#~ "<qt>Could not create destination directory <b>%1</b>.\n"
+#~ "The file has not been saved.</qt>"
+#~ msgstr ""
+#~ "<qt>无法创建目标目录 <b>%1</b>。\n"
+#~ "文件未保存。</qt>"
+
+#~ msgid ""
+#~ "<qt>Could not upload the temporary file to the destination location <b>"
+#~ "%1</b>. The temporary file is still available under: <b>%2</b>. You can "
+#~ "manually copy it to the right place.</qt>"
+#~ msgstr ""
+#~ "<qt>无法上传临时文件到目标位置<b>%1</b>。在<b>%2</b>下的临时文件仍然可用，"
+#~ "可以手工复制到正确的地方。</qt>"
+
+#~ msgid "Could not parse diff output."
+#~ msgstr "无法分析 diff 输出。"
+
+#~ msgid "The files are identical."
+#~ msgstr "文件是相同的。"
+
+#~ msgid "Could not write to the temporary file."
+#~ msgstr "无法写入临时文件。"
+
+#~ msgid ""
+#~ "The diff is malformed. Some lines could not be parsed and will not be "
+#~ "displayed in the diff view."
+#~ msgstr "diff 无效。某些行无法解析并且不会显示在 diff 视图中。"
+
+#~ msgid "Could not find our KompareViewPart."
+#~ msgstr "找不到部件 KompareViewPart。"
+
+#~ msgid "Could not find our KompareNavigationPart."
+#~ msgstr "找不到部件 KompareNavigationPart。"

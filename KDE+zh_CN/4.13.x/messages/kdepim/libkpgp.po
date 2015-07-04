@@ -1,0 +1,706 @@
+# Lie Ex <lilith.ex@gmail.com>, 2007-2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:26+0200\n"
+"PO-Revision-Date: 2010-07-14 16:09+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: kpgp.cpp:198
+msgid ""
+"Could not find PGP executable.\n"
+"Please check your PATH is set correctly."
+msgstr ""
+"找不到 PGP 可执行程序。\n"
+"请检查您的 PATH 环境变量是否设置正确。"
+
+#: kpgp.cpp:217
+msgid "OpenPGP Security Check"
+msgstr "OpenPGP 安全检查"
+
+#: kpgp.cpp:228
+msgid "Passphrase is too long, it must contain fewer than 1024 characters."
+msgstr "密码句过长，它必须在 1024 个字符以下。"
+
+#: kpgp.cpp:230
+msgid "Out of memory."
+msgstr "内存不足。"
+
+#: kpgp.cpp:303
+msgid ""
+"You just entered an invalid passphrase.\n"
+"Do you want to try again, or cancel and view the message undecrypted?"
+msgstr ""
+"您输入了无效的密码句。\n"
+"您想要重试，还是中止操作并查看未解密的信件？"
+
+#: kpgp.cpp:306 kpgp.cpp:369 kpgp.cpp:402 kpgp.cpp:425 kpgp.cpp:455
+#: kpgp.cpp:640 kpgp.cpp:663
+msgid "PGP Warning"
+msgstr "PGP 警告"
+
+#: kpgp.cpp:306 kpgp.cpp:370
+msgid "&Retry"
+msgstr "重试(&R)"
+
+#: kpgp.cpp:362
+msgid ""
+"You entered an invalid passphrase.\n"
+"Do you want to try again, continue and leave the message unsigned, or cancel "
+"sending the message?"
+msgstr ""
+"您输入了无效的密码句。\n"
+"您想要重试，还是继续对未签名的信件操作，或是中止发送信件？"
+
+#: kpgp.cpp:371 kpgp.cpp:403
+msgid "Send &Unsigned"
+msgstr "不签名发送(&U)"
+
+#: kpgp.cpp:395
+#, kde-format
+msgctxt "%1 = 'signing failed' error message"
+msgid ""
+"%1\n"
+"Do you want to send the message unsigned, or cancel sending the message?"
+msgstr ""
+"%1\n"
+"您想要发送未签名的信件，还是中止发送？"
+
+#: kpgp.cpp:417
+#, kde-format
+msgctxt "%1 = 'bad keys' error message"
+msgid ""
+"%1\n"
+"Do you want to encrypt anyway, leave the message as-is, or cancel sending "
+"the message?"
+msgstr ""
+"%1\n"
+"您想要强制加密信件，还是保留信件明文，或是中止发送？"
+
+#: kpgp.cpp:426 kpgp.cpp:664
+msgid "Send &Encrypted"
+msgstr "加密发送(&E)"
+
+#: kpgp.cpp:427 kpgp.cpp:641 kpgp.cpp:665
+msgid "Send &Unencrypted"
+msgstr "不加密发送(&U)"
+
+#: kpgp.cpp:448
+#, kde-format
+msgctxt "%1 = 'missing keys' error message"
+msgid ""
+"%1\n"
+"Do you want to leave the message as-is, or cancel sending the message?"
+msgstr ""
+"%1\n"
+"您想要保留信件原样，还是中止发送？"
+
+#: kpgp.cpp:456
+msgid "&Send As-Is"
+msgstr "原样发送(&S)"
+
+#: kpgp.cpp:469
+#, kde-format
+msgid ""
+"The following error occurred:\n"
+"%1"
+msgstr ""
+"发生以下错误：\n"
+"%1"
+
+#: kpgp.cpp:471
+#, kde-format
+msgid ""
+"This is the error message of %1:\n"
+"%2"
+msgstr ""
+"%1 的错误消息：\n"
+"%2"
+
+#: kpgp.cpp:630
+msgid ""
+"You did not select an encryption key for the recipient of this message; "
+"therefore, the message will not be encrypted."
+msgstr "您没有选择给该信件收件人的加密密钥，因此无法加密此信件。"
+
+#: kpgp.cpp:633
+msgid ""
+"You did not select an encryption key for any of the recipients of this "
+"message; therefore, the message will not be encrypted."
+msgstr "您没有选择给任何该信件收件人的加密密钥，因此无法加密此信件。"
+
+#: kpgp.cpp:653
+msgid ""
+"You did not select an encryption key for one of the recipients; this person "
+"will not be able to decrypt the message if you encrypt it."
+msgstr ""
+"您没有选择给该信件收件人其中之一的加密密钥，如果您加密此信件，此收件人无法将"
+"其解密。"
+
+#: kpgp.cpp:656
+msgid ""
+"You did not select encryption keys for some of the recipients; these persons "
+"will not be able to decrypt the message if you encrypt it."
+msgstr ""
+"您没有选择给一部分收件人的加密密钥，如果您加密此信件，这些人无法将其解密。"
+
+#: kpgp.cpp:938
+msgid ""
+"This feature is\n"
+"still missing"
+msgstr "此特性仍然缺失"
+
+#: kpgp.cpp:986 kpgp.cpp:1021 kpgp.cpp:1057
+msgid ""
+"You either do not have GnuPG/PGP installed or you chose not to use GnuPG/PGP."
+msgstr "您没有安装 GnuPG/PGP，因此无法使用它们。"
+
+#: kpgp.cpp:1270 kpgp.cpp:1334 kpgp.cpp:1360 kpgpui.cpp:1533 kpgpui.cpp:1545
+msgid "Encryption Key Selection"
+msgstr "加密密钥选择"
+
+#: kpgp.cpp:1274
+#, kde-format
+msgctxt ""
+"if in your language something like 'key(s)' isn't possible please use the "
+"plural in the translation"
+msgid ""
+"There is a problem with the encryption key(s) for \"%1\".\n"
+"\n"
+"Please re-select the key(s) which should be used for this recipient."
+msgstr ""
+"要传送给“%1”的加密密钥有问题。\n"
+"\n"
+"请重新选择给收件人的密钥。"
+
+#: kpgp.cpp:1338
+#, kde-format
+msgctxt ""
+"if in your language something like 'key(s)' isn't possible please use the "
+"plural in the translation"
+msgid ""
+"No valid and trusted OpenPGP key was found for \"%1\".\n"
+"\n"
+"Select the key(s) which should be used for this recipient."
+msgstr ""
+"找不到给“%1”的有效且可信任的 OpenPGP 密钥。\n"
+"\n"
+"请选择给收件人的密钥。"
+
+#: kpgp.cpp:1364
+#, kde-format
+msgctxt ""
+"if in your language something like 'key(s)' isn't possible please use the "
+"plural in the translation"
+msgid ""
+"More than one key matches \"%1\".\n"
+"\n"
+"Select the key(s) which should be used for this recipient."
+msgstr ""
+"有不止一个密钥匹配“%1”。\n"
+"\n"
+"请选择给收件人的密钥。"
+
+#: kpgpbase2.cpp:137 kpgpbaseG.cpp:151
+#, kde-format
+msgid ""
+"Could not find public keys matching the userid(s)\n"
+"%1;\n"
+"the message is not encrypted."
+msgstr ""
+"找不到匹配用户 ID %1 的公共密钥。\n"
+"将不会加密此信件。"
+
+#: kpgpbase2.cpp:142 kpgpbaseG.cpp:156
+#, kde-format
+msgid ""
+"Could not find public keys matching the userid(s)\n"
+"%1;\n"
+"these persons will not be able to read the message."
+msgstr ""
+"找不到匹配用户 ID %1 的公共密钥。\n"
+"这些收件人将无法阅读此信件。"
+
+#: kpgpbase2.cpp:168
+#, kde-format
+msgid ""
+"Public keys not certified with trusted signature for userid(s)\n"
+"%1.\n"
+"The message is not encrypted."
+msgstr ""
+"用户 ID 为 %1 的公共密钥尚未经信任签名的认证。\n"
+"将不会加密此信件。"
+
+#: kpgpbase2.cpp:174
+#, kde-format
+msgid ""
+"Public keys not certified with trusted signature for userid(s)\n"
+"%1;\n"
+"these persons will not be able to read the message."
+msgstr ""
+"用户 ID 为 %1 的公共密钥尚未经信任签名的认证。\n"
+"这些收件人将无法阅读此信件。"
+
+#: kpgpbase2.cpp:195
+msgid "Bad passphrase; could not sign."
+msgstr "无效密码句，不能签名。"
+
+#: kpgpbase2.cpp:203
+msgid ""
+"Signing failed: please check your PGP User Identity, the PGP setup, and the "
+"key rings."
+msgstr "签名失败：请检查您的 PGP 用户身份、PGP 设置和密钥串。"
+
+#: kpgpbase2.cpp:211
+msgid "Encryption failed: please check your PGP setup and the key rings."
+msgstr "加密失败：请检查您的 PGP 设置和密钥串。"
+
+#: kpgpbase2.cpp:257 kpgpbase6.cpp:57 kpgpbase6.cpp:351
+msgid "error running PGP"
+msgstr "运行 PGP 时出错"
+
+#: kpgpbase2.cpp:297 kpgpbase5.cpp:224 kpgpbase6.cpp:82 kpgpbaseG.cpp:261
+msgid "Bad passphrase; could not decrypt."
+msgstr "无效密码句，不能加密。"
+
+#: kpgpbase2.cpp:308 kpgpbase5.cpp:235 kpgpbaseG.cpp:282
+msgid "You do not have the secret key needed to decrypt this message."
+msgstr "您没有解密此信件所需的私有密钥。"
+
+#: kpgpbase2.cpp:448
+#, kde-format
+msgid ""
+"The keyring file %1 does not exist.\n"
+"Please check your PGP setup."
+msgstr ""
+"密钥串文件 %1 不存在。\n"
+"请检查您的 PGP 设置。"
+
+#: kpgpbase2.cpp:454
+msgid "Unknown error"
+msgstr "未知的错误"
+
+#: kpgpbase5.cpp:86
+msgid "Neither recipients nor passphrase specified."
+msgstr "没有指定收信人和密码句。"
+
+#: kpgpbase5.cpp:129
+msgid "The passphrase you entered is invalid."
+msgstr "您输入的密码句无效。"
+
+#: kpgpbase5.cpp:155
+msgid ""
+"The key(s) you want to encrypt your message to are not trusted. No "
+"encryption done."
+msgstr "您选用来加密此信件的密钥是未受信任的。未执行加密。"
+
+#: kpgpbase5.cpp:158
+#, kde-format
+msgid ""
+"The following key(s) are not trusted:\n"
+"%1\n"
+"Their owner(s) will not be able to decrypt the message."
+msgstr ""
+"以下密钥未受信任：\n"
+"%1\n"
+"它们的所有者将无法解密此信件。"
+
+#: kpgpbase5.cpp:170
+#, kde-format
+msgid ""
+"Missing encryption key(s) for:\n"
+"%1"
+msgstr "丢失了给 %1 的加密密钥"
+
+#: kpgpbase5.cpp:205
+msgid "Error running PGP"
+msgstr "运行 PGP 时出错。"
+
+#: kpgpbase6.cpp:90
+msgid "You do not have the secret key for this message."
+msgstr "您没有此信件的私有密钥。"
+
+#: kpgpbase6.cpp:167
+msgid "??? (file ~/.pgp/pubring.pkr not found)"
+msgstr "???(找不到文件 ~/.pgp/pubring.pkr)"
+
+#: kpgpbaseG.cpp:118
+msgid "Unknown error."
+msgstr "未知的错误。"
+
+#: kpgpbaseG.cpp:181
+msgid "Signing failed because the passphrase is wrong."
+msgstr "签名因密码句错误而失败。"
+
+#: kpgpbaseG.cpp:188
+msgid "Signing failed because your secret key is unusable."
+msgstr "签名因私有密钥不可用而失败。"
+
+#: kpgpbaseG.cpp:219
+msgid "Error running gpg"
+msgstr "运行 gpg 时出错"
+
+#: kpgpbaseG.cpp:289
+msgid "The passphrase dialog was cancelled."
+msgstr "密码句对话框已关闭。"
+
+#: kpgpbaseG.cpp:366
+msgid "??? (file ~/.gnupg/pubring.gpg not found)"
+msgstr "???(找不到文件 ~/.gnupg/pubring.gpg)"
+
+#: kpgpui.cpp:81
+msgid "Please enter your OpenPGP passphrase:"
+msgstr "请输入您的 OpenPGP 密码句："
+
+#: kpgpui.cpp:83
+#, kde-format
+msgid ""
+"Please enter the OpenPGP passphrase for\n"
+"\"%1\":"
+msgstr "请输入 %1 的 OpenPGP 密码句："
+
+#: kpgpui.cpp:112
+msgid "Warning"
+msgstr "警告"
+
+#: kpgpui.cpp:117
+msgid ""
+"Please check if encryption really works before you start using it seriously. "
+"Also note that attachments are not encrypted by the PGP/GPG module."
+msgstr ""
+"请您在严肃场合使用加密功能前检查它是否可以正常工作。同时望注意 PGP/GPG 模块不"
+"会加密附件。"
+
+#: kpgpui.cpp:130
+msgid "Encryption Tool"
+msgstr "加密工具"
+
+#: kpgpui.cpp:136
+msgid "Select encryption tool to &use:"
+msgstr "选择要使用的加密工具(&U)："
+
+#: kpgpui.cpp:140
+msgid "Autodetect"
+msgstr "自动检测"
+
+#: kpgpui.cpp:141
+msgid "GnuPG - Gnu Privacy Guard"
+msgstr "GnuPG - Gnu 隐私保护工具"
+
+#: kpgpui.cpp:142
+msgid "PGP Version 2.x"
+msgstr "PGP 2.x 版本"
+
+#: kpgpui.cpp:143
+msgid "PGP Version 5.x"
+msgstr "PGP 5.x 版本"
+
+#: kpgpui.cpp:144
+msgid "PGP Version 6.x"
+msgstr "PGP 6.x 版本"
+
+#: kpgpui.cpp:145
+msgid "Do not use any encryption tool"
+msgstr "不使用任何加密工具"
+
+#: kpgpui.cpp:154
+msgid "Options"
+msgstr "选项"
+
+#: kpgpui.cpp:157
+msgid "&Keep passphrase in memory"
+msgstr "在内存中保留密码(&K)"
+
+#: kpgpui.cpp:162
+msgid ""
+"<qt><p>When this option is enabled, the passphrase of your private key will "
+"be remembered by the application as long as the application is running. Thus "
+"you will only have to enter the passphrase once.</p><p>Be aware that this "
+"could be a security risk. If you leave your computer, others can use it to "
+"send signed messages and/or read your encrypted messages. If a core dump "
+"occurs, the contents of your RAM will be saved onto disk, including your "
+"passphrase.</p><p>Note that when using KMail, this setting only applies if "
+"you are not using gpg-agent. It is also ignored if you are using crypto "
+"plugins.</p></qt>"
+msgstr ""
+"<qt><p>启用此选项后，程序会在运行周期里记住您的私有密钥。这样您就只需输入一次"
+"自己的密码句。</p><p>请当心这样做会有安全风险。如果您离开了电脑，其他人可以使"
+"用您的私有密钥发送签名信件并/或阅读您的加密信件。此外一旦发生内存吐核错误，您"
+"的内存数据会被保存到磁盘上，其中会含有您的密码句。</p><p>注意在您使用 KMail "
+"时，如果您不使用 gpg-agent 此设定就不会生效，如果您启用了加密插件，此设定也会"
+"被忽略。</p></qt>"
+
+#: kpgpui.cpp:175
+msgid "Always encr&ypt to self"
+msgstr "总是给自己加密(&Y)"
+
+#: kpgpui.cpp:180
+msgid ""
+"<qt><p>When this option is enabled, the message/file will not only be "
+"encrypted with the receiver's public key, but also with your key. This will "
+"enable you to decrypt the message/file at a later time. This is generally a "
+"good idea.</p></qt>"
+msgstr ""
+"<qt><p>启用此选项后，对信件或文件不仅会用收信人的公共密钥加密，同时也会使用自"
+"己的公共密钥加密。这样以后您就可以自行解密此信件或文件，通常这是个好主意。</"
+"p></qt>"
+
+#: kpgpui.cpp:189
+msgid "&Show signed/encrypted text after composing"
+msgstr "撰写后显示签名/加密的文字(&S)"
+
+#: kpgpui.cpp:195
+msgid ""
+"<qt><p>When this option is enabled, the signed/encrypted text will be shown "
+"in a separate window, enabling you to know how it will look before it is "
+"sent. This is a good idea when you are verifying that your encryption system "
+"works.</p></qt>"
+msgstr ""
+"<qt><p>启用此选项后，签名或加密后的文本会在一个单独的窗口内显示，让您在发送之"
+"前知道它在加密以后的样子。如果您要验证自己的加密功能是否正常工作，启用它是个"
+"好主意。</p></qt>"
+
+#: kpgpui.cpp:201
+msgid "Always show the encryption keys &for approval"
+msgstr "总是显示候选的加密密钥(&F)"
+
+#: kpgpui.cpp:206
+msgid ""
+"<qt><p>When this option is enabled, the application will always show you a "
+"list of public keys from which you can choose the one it will use for "
+"encryption. If it is off, the application will only show the dialog if it "
+"cannot find the right key or if there are several which could be used. </p></"
+"qt>"
+msgstr ""
+"<qt><p>启用此选项后，程序总是会显示一份公共密钥的清单，供您在加密时从中选用。"
+"如果不启用，只有当程序找不到正确的密钥，或同时有多个可用密钥时才会显示此对话"
+"框。</p></qt>"
+
+#: kpgpui.cpp:340
+msgid "&Search for:"
+msgstr "搜索(&S)："
+
+#: kpgpui.cpp:352
+msgid "Key ID"
+msgstr "密钥 ID"
+
+#: kpgpui.cpp:353
+msgid "User ID"
+msgstr "用户 ID"
+
+#: kpgpui.cpp:368
+msgid "Remember choice"
+msgstr "记住选择"
+
+#: kpgpui.cpp:371
+msgid ""
+"<qt><p>If you check this box your choice will be stored and you will not be "
+"asked again.</p></qt>"
+msgstr "<qt><p>如果您选中此项，程序将储存您的选择，不会再次询问。</p></qt>"
+
+#: kpgpui.cpp:407
+msgid "&Reread Keys"
+msgstr "重新读取密钥(&R)"
+
+#: kpgpui.cpp:482
+#, kde-format
+msgid "Fingerprint: %1"
+msgstr "指纹：%1"
+
+#: kpgpui.cpp:517
+msgid "Revoked"
+msgstr "已吊销"
+
+#: kpgpui.cpp:520
+msgid "Expired"
+msgstr "已过期"
+
+#: kpgpui.cpp:523
+msgid "Disabled"
+msgstr "已禁用"
+
+#: kpgpui.cpp:526
+msgid "Invalid"
+msgstr "无效"
+
+#: kpgpui.cpp:532
+msgid "Undefined trust"
+msgstr "信任度未定义"
+
+#: kpgpui.cpp:535
+msgid "Untrusted"
+msgstr "不信任"
+
+#: kpgpui.cpp:538
+msgid "Marginally trusted"
+msgstr "勉强信任"
+
+#: kpgpui.cpp:541
+msgid "Fully trusted"
+msgstr "完全信任"
+
+#: kpgpui.cpp:544
+msgid "Ultimately trusted"
+msgstr "极端信任"
+
+#: kpgpui.cpp:548
+msgid "Unknown"
+msgstr "未知"
+
+#: kpgpui.cpp:551
+msgid "Secret key available"
+msgstr "私有密钥有效"
+
+#: kpgpui.cpp:554
+msgid "Sign only key"
+msgstr "签名专用密钥"
+
+#: kpgpui.cpp:557
+msgid "Encryption only key"
+msgstr "加密专用密钥"
+
+#: kpgpui.cpp:565
+#, kde-format
+msgctxt "creation date and status of an OpenPGP key"
+msgid "Creation date: %1, Status: %2"
+msgstr "创建时间：%1，状态：%2"
+
+#: kpgpui.cpp:571
+#, kde-format
+msgctxt "creation date, status and remark of an OpenPGP key"
+msgid "Creation date: %1, Status: %2 (%3)"
+msgstr "创建时间：%1，状态：%2 (%3)"
+
+#: kpgpui.cpp:1009
+msgid "Checking Keys"
+msgstr "正在检查密钥"
+
+#: kpgpui.cpp:1010
+msgid "Checking key 0xMMMMMMMM..."
+msgstr "正在检查密钥 0xMMMMMMMM..."
+
+#: kpgpui.cpp:1021
+#, kde-format
+msgid "Checking key 0x%1..."
+msgstr "正在检查密钥 0x%1..."
+
+#: kpgpui.cpp:1046
+msgid "Recheck Key"
+msgstr "重新检查密钥"
+
+#: kpgpui.cpp:1179
+msgid "OpenPGP Key Selection"
+msgstr "OpenPGP 密钥选择"
+
+#: kpgpui.cpp:1180
+msgid "Please select an OpenPGP key to use."
+msgstr "请选择一个要使用的 OpenPGP 密钥。"
+
+#: kpgpui.cpp:1200
+msgid "Clear"
+msgstr "清除"
+
+#: kpgpui.cpp:1203 kpgpui.cpp:1401 kpgpui.cpp:1458
+msgid "Change..."
+msgstr "更改..."
+
+#: kpgpui.cpp:1339
+msgid "Encryption Key Approval"
+msgstr "候选加密密钥"
+
+#: kpgpui.cpp:1358
+msgid "The following keys will be used for encryption:"
+msgstr "以下密钥会被用于加密："
+
+#: kpgpui.cpp:1381
+msgid "Your keys:"
+msgstr "您的密钥："
+
+#: kpgpui.cpp:1384 kpgpui.cpp:1441
+msgctxt "@info"
+msgid "<placeholder>none</placeholder> means 'no key'"
+msgstr "<placeholder>无</placeholder>意味着“没有密钥”"
+
+#: kpgpui.cpp:1432
+msgid "Recipient:"
+msgstr "收件人："
+
+#: kpgpui.cpp:1438
+msgid "Encryption keys:"
+msgstr "加密密钥："
+
+#: kpgpui.cpp:1467
+msgid "Encryption preference:"
+msgstr "加密首选项："
+
+#: kpgpui.cpp:1469
+msgctxt "@item:inlistbox"
+msgid "<placeholder>none</placeholder>"
+msgstr "<placeholder>无</placeholder>"
+
+#: kpgpui.cpp:1470
+msgctxt "@item:inlistbox"
+msgid "Never Encrypt with This Key"
+msgstr "永不用此密钥加密"
+
+#: kpgpui.cpp:1471
+msgctxt "@item:inlistbox"
+msgid "Always Encrypt with This Key"
+msgstr "总是用此密钥加密"
+
+#: kpgpui.cpp:1472
+msgctxt "@item:inlistbox"
+msgid "Encrypt Whenever Encryption is Possible"
+msgstr "只要情况允许就加密"
+
+#: kpgpui.cpp:1473
+msgctxt "@item:inlistbox"
+msgid "Always Ask"
+msgstr "总是询问"
+
+#: kpgpui.cpp:1474
+msgctxt "@item:inlistbox"
+msgid "Ask Whenever Encryption is Possible"
+msgstr "情况允许加密时询问"
+
+#: kpgpui.cpp:1537
+msgctxt ""
+"if in your language something like 'key(s)' isn't possible please use the "
+"plural in the translation"
+msgid ""
+"Select the key(s) which should be used to encrypt the message to yourself."
+msgstr "选择给自己的加密信件所用的密钥。"
+
+#: kpgpui.cpp:1549
+#, kde-format
+msgctxt ""
+"if in your language something like 'key(s)' isn't possible please use the "
+"plural in the translation"
+msgid ""
+"Select the key(s) which should be used to encrypt the message for\n"
+"%1"
+msgstr "选择给“%1”发送加密信件时所用的密钥。"
+
+#: kpgpui.cpp:1626
+msgid "OpenPGP Information"
+msgstr "OpenPGP 信息"
+
+#: kpgpui.cpp:1637
+msgid "Result of the last encryption/sign operation:"
+msgstr "上次加密/签名操作的结果："
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "KDE 中国"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "kde-china@kde.org"

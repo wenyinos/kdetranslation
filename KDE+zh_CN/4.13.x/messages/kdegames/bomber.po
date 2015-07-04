@@ -1,0 +1,216 @@
+# translation of bomber.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2012.
+# Lie Ex <lilith.ex@gmail.com>, 2008,2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: bomber\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 03:43+0200\n"
+"PO-Revision-Date: 2012-06-17 19:38+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: src/bomber.cpp:45 src/bomber.cpp:186
+#, kde-format
+msgctxt "Used to display the current level of play to the user"
+msgid "Level: %1"
+msgstr "级别：%1"
+
+#: src/bomber.cpp:46 src/bomber.cpp:192
+#, kde-format
+msgctxt "Used to inform the user of their current score"
+msgid "Score: %1"
+msgstr "得分：%1"
+
+#: src/bomber.cpp:47 src/bomber.cpp:199
+#, kde-format
+msgctxt "Used to tell the user how many lives they have left"
+msgid "Lives: %1"
+msgstr "命数：%1"
+
+#: src/bomber.cpp:89
+msgctxt "Menu item used to disable or enable sound"
+msgid "&Play Sounds"
+msgstr "播放声音(&P)"
+
+#: src/bomber.cpp:94
+msgctxt "The name of the action used for dropping bombs"
+msgid "&Drop bomb"
+msgstr "丢炸弹(&D)"
+
+#: src/bomber.cpp:95
+msgctxt "The tool tip text for the action used to drop bombs"
+msgid "Drop bomb"
+msgstr "丢炸弹"
+
+#: src/bomber.cpp:97
+msgctxt "Description of the action used to drop bombs"
+msgid "Makes the plane drop a bomb while flying"
+msgstr "让飞机丢下一颗炸弹"
+
+#: src/bomber.cpp:144
+msgctxt ""
+"Message displayed when play tries to quit a game that is currently running"
+msgid "Do you really want to close the running game?"
+msgstr "您真的要关闭进行中的游戏吗？"
+
+#: src/bomber.cpp:217
+#, kde-format
+msgctxt "Game over messaged displayed in the status bar"
+msgid "Game over. Press '%1' for a new game"
+msgstr "游戏结束。按“%1”开始新游戏"
+
+#. i18n: ectx: label, entry (PlaySounds), group (Sound)
+#: src/bomber.kcfg:9
+msgid "Whether game sounds are played."
+msgstr "游戏时是否播放声音。"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/bomberui.rc:14
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: src/bomberwidget.cpp:305
+msgctxt "Message show to the user when the game is loaded"
+msgid ""
+"Welcome to Bomber.\n"
+"Click to start a game"
+msgstr ""
+"欢迎进入 Bomber。\n"
+" 点击这里开始新游戏"
+
+#: src/bomberwidget.cpp:308
+msgctxt "Message show to the user while the game is paused"
+msgid "Paused"
+msgstr "已暂停"
+
+#: src/bomberwidget.cpp:311
+#, kde-format
+msgctxt "Message telling user which level they just completed"
+msgid "You have successfully cleared level %1\n"
+msgstr "您已经成功通过了级别 %1\n"
+
+#: src/bomberwidget.cpp:312
+#, kde-format
+msgctxt "Message telling user which level they are about to start"
+msgid "On to level %1."
+msgstr "进入级别 %1。"
+
+#: src/bomberwidget.cpp:315
+msgctxt "Used to tell the user that the game is over"
+msgid "Game over."
+msgstr "游戏结束。"
+
+#: src/main.cpp:24
+msgid "Arcade bombing game"
+msgstr "街机上的投弹游戏"
+
+#: src/main.cpp:30
+msgid "Bomber"
+msgstr "Bomber"
+
+#: src/main.cpp:31
+msgid "(C) 2007 John-Paul Stanford"
+msgstr "(C) 2007 John-Paul Stanford"
+
+#: src/main.cpp:33
+msgid "John-Paul Stanford"
+msgstr "John-Paul Stanford"
+
+#: src/main.cpp:35
+msgid "Mehmet Emre"
+msgstr "Mehmet Emre"
+
+#: src/main.cpp:35
+msgid "Porting to QGraphicsView."
+msgstr "移植到 QGraphicsView。"
+
+#~ msgid "The graphical theme to be used."
+#~ msgstr "要使用的图形主题。"
+
+#~ msgid "Theme"
+#~ msgstr "主题"
+
+#~ msgid "Background color:"
+#~ msgstr "背景颜色："
+
+#~ msgid "Choose a new background color"
+#~ msgstr "选择新背景颜色"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Change the <span style="
+#~ "\" font-weight:600;\">background</span> color by clicking here and choose "
+#~ "the new <span style=\" color:#ff0000;\">color</span> in the <span style="
+#~ "\" font-style:italic;\">color dialog</span>.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">点击这里可以更改<span "
+#~ "style=\" font-weight:600;\">背景</span>颜色，也可以在<span style=\" font-"
+#~ "style:italic;\">颜色对话框</span>中选择新<span style=\" color:#ff0000;\">"
+#~ "颜色</span>。</p></body></html>"
+
+#~ msgid "Project age:"
+#~ msgstr "工程时间："
+
+#~ msgid "Foreground color:"
+#~ msgstr "前景颜色："
+
+#~ msgid "Choose a new foreground color"
+#~ msgstr "选择新前景颜色"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Change the <span style="
+#~ "\" font-weight:600;\">foreground</span> color by clicking here and choose "
+#~ "the new <span style=\" color:#ff0000;\">color</span> in the <span style="
+#~ "\" font-style:italic;\">color dialog</span>.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">点击这里可以更改<span "
+#~ "style=\" font-weight:600;\">前景</span>颜色，也可以在<span style=\" font-"
+#~ "style:italic;\">颜色对话框</span>中选择新<span style=\" color:#ff0000;\">"
+#~ "颜色</span>。</p></body></html>"
+
+#~ msgid "Set the project age (in days)"
+#~ msgstr "设定工程时间(按天计)"
+
+#~ msgid "Change the project age (in days) by choosing a new number of days."
+#~ msgstr "以天为单位更改工程时间。"

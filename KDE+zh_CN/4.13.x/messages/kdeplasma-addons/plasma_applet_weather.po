@@ -1,0 +1,282 @@
+# translation of plasma_applet_weather.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_weather\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-09-10 04:43+0200\n"
+"PO-Revision-Date: 2010-01-02 14:16+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: weatherapplet.cpp:104
+msgctxt "Shown when you have not set a weather provider"
+msgid "Please Configure"
+msgstr "请配置"
+
+#: weatherapplet.cpp:113
+#, kde-format
+msgctxt ""
+"%1 is the weather condition, %2 is the temperature, both come from the "
+"weather provider"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: weatherapplet.cpp:150 weatherapplet.cpp:157
+msgctxt "Degree, unit symbol"
+msgid "°"
+msgstr "°"
+
+#: weatherapplet.cpp:150 weatherapplet.cpp:152 weatherapplet.cpp:157
+#: weatherapplet.cpp:159
+#, kde-format
+msgctxt "temperature, unit"
+msgid "%1%2"
+msgstr "%1%2"
+
+#: weatherapplet.cpp:205
+#, kde-format
+msgctxt "High & Low temperature"
+msgid "H: %1 L: %2"
+msgstr "最高：%1 最低：%2"
+
+#: weatherapplet.cpp:207
+#, kde-format
+msgctxt "Low temperature"
+msgid "Low: %1"
+msgstr "最低温度：%1"
+
+#: weatherapplet.cpp:209
+#, kde-format
+msgctxt "High temperature"
+msgid "High: %1"
+msgstr "最高温度：%1"
+
+#: weatherapplet.cpp:284
+#, kde-format
+msgctxt "certain weather condition, probability percentage"
+msgid "%1 (%2%)"
+msgstr "%1 (%2%)"
+
+#: weatherapplet.cpp:293 weatherapplet.cpp:304
+msgctxt "Short for no data available"
+msgid "-"
+msgstr "-"
+
+#: weatherapplet.cpp:327
+#, kde-format
+msgctxt "Forecast period timeframe"
+msgid "1 Day"
+msgid_plural "%1 Days"
+msgstr[0] "%1 天"
+
+#: weatherapplet.cpp:346
+#, kde-format
+msgctxt "windchill, unit"
+msgid "Windchill: %1"
+msgstr "风寒：%1"
+
+#: weatherapplet.cpp:354
+#, kde-format
+msgctxt "humidex, unit"
+msgid "Humidex: %1"
+msgstr "湿润度：%1"
+
+#: weatherapplet.cpp:360
+#, kde-format
+msgctxt "ground temperature, unit"
+msgid "Dewpoint: %1"
+msgstr "露点：%1"
+
+#: weatherapplet.cpp:367
+#, kde-format
+msgctxt "pressure, unit"
+msgid "Pressure: %1 %2"
+msgstr "气压：%1 %2"
+
+#: weatherapplet.cpp:374
+#, kde-format
+msgctxt "pressure tendency, rising/falling/steady"
+msgid "Pressure Tendency: %1"
+msgstr "气压趋势：%1"
+
+#: weatherapplet.cpp:384
+#, kde-format
+msgctxt "distance, unit"
+msgid "Visibility: %1 %2"
+msgstr "能见度：%1 %2"
+
+#: weatherapplet.cpp:387
+#, kde-format
+msgctxt "visibility from distance"
+msgid "Visibility: %1"
+msgstr "能见度：%1"
+
+#: weatherapplet.cpp:394
+#, kde-format
+msgctxt "content of water in air"
+msgid "Humidity: %1%2"
+msgstr "湿度：%1%2"
+
+#: weatherapplet.cpp:395
+msgctxt "Precent, measure unit"
+msgid "%"
+msgstr "%"
+
+#: weatherapplet.cpp:403
+msgctxt "Not available"
+msgid "N/A"
+msgstr "未知"
+
+#: weatherapplet.cpp:407
+#, kde-format
+msgctxt "wind direction, speed"
+msgid "%1 %2 %3"
+msgstr "%1 %2 %3"
+
+#: weatherapplet.cpp:410
+msgctxt "Wind condition"
+msgid "Calm"
+msgstr "平缓"
+
+#: weatherapplet.cpp:421
+#, kde-format
+msgctxt "winds exceeding wind speed briefly"
+msgid "Wind Gust: %1 %2"
+msgstr "阵风：%1 %2"
+
+#~ msgctxt "current weather information"
+#~ msgid "Details"
+#~ msgstr "详情"
+
+#~ msgctxt "weather warnings"
+#~ msgid "Warnings Issued:"
+#~ msgstr "发布警告："
+
+#~ msgctxt "weather watches"
+#~ msgid "Watches Issued:"
+#~ msgstr "留意事项："
+
+#~ msgctxt "weather notices"
+#~ msgid "Notices"
+#~ msgstr "注意"
+
+#~ msgid "Found Places"
+#~ msgstr "找到地点"
+
+#~ msgid "Found places"
+#~ msgstr "找到地点"
+
+#~ msgid "Locations"
+#~ msgstr "位置"
+
+#~ msgid "S&ource:"
+#~ msgstr "来源(&O)："
+
+#~ msgid "City:"
+#~ msgstr "城市："
+
+#~ msgid "&Search"
+#~ msgstr "搜索(&S)："
+
+#~ msgid "Selected city:"
+#~ msgstr "所选城市："
+
+#~ msgid "Update every:"
+#~ msgstr "更新间隔："
+
+#~ msgid "Weather Units"
+#~ msgstr "天气单位"
+
+#~ msgid "&Temperature unit:"
+#~ msgstr "温度单位(&T)："
+
+#~ msgid "&Wind unit:"
+#~ msgstr "风力单位(&W)："
+
+#~ msgid "&Pressure unit:"
+#~ msgstr "气压单位(&P)："
+
+#~ msgid "&Visibility unit:"
+#~ msgstr "能见度单位(&V)："
+
+#~ msgid ""
+#~ "The applet was not able to contact the server, please try again later"
+#~ msgstr "小程序无法连接到服务器，请稍后重试"
+
+#~ msgid ""
+#~ "The data source received a malformed string and was not able to process "
+#~ "your request"
+#~ msgstr "数据源接收到无效字符串并且无法处理您的请求"
+
+#~ msgid ""
+#~ "The place '%1' is not valid. The data source is not able to find this "
+#~ "place."
+#~ msgstr "地点“%1”无效。数据源无法找到此地点。"
+
+#~ msgid "Invalid Place"
+#~ msgstr "无效的地点"
+
+#~ msgid "Location"
+#~ msgstr "位置"
+
+#~ msgid "Units"
+#~ msgstr "单位"
+
+#~ msgid "Kilometers Per Hour (km/h)"
+#~ msgstr "千米/小时(km/h)"
+
+#~ msgid "Metres Per Second (m/s)"
+#~ msgstr "米/秒(m/s)"
+
+#~ msgid "Miles Per Hour (mph)"
+#~ msgstr "英里/小时(mph)"
+
+#~ msgid "Knots (kt)"
+#~ msgstr "海里/小时(kt)"
+
+#~ msgid "Beaufort Scale"
+#~ msgstr "蒲福风级"
+
+#~ msgid "Celsius"
+#~ msgstr "摄氏度"
+
+#~ msgid "Fahrenheit"
+#~ msgstr "华氏度"
+
+#~ msgid "Kelvin"
+#~ msgstr "开尔文"
+
+#~ msgid "Kilopascals (kPa)"
+#~ msgstr "千帕(kPa)"
+
+#~ msgid "Inches of Mercury (inHg)"
+#~ msgstr "英寸汞柱(inHg)"
+
+#~ msgid "Millibars (mb)"
+#~ msgstr "毫巴(mb)"
+
+#~ msgid "Hectopascals (hPa)"
+#~ msgstr "百帕(hPa)"
+
+#~ msgid "Kilometers"
+#~ msgstr "千米"
+
+#~ msgid "Miles"
+#~ msgstr "英里"
+
+#~ msgid " minute"
+#~ msgid_plural " minutes"
+#~ msgstr[0] " 分钟"
+
+#~ msgid "&Add"
+#~ msgstr "添加(&A)"

@@ -1,0 +1,1209 @@
+# translation of kdevteamwork.po to 简体中文
+# Copyright (C) 2002,2003, 2004, 2008, 2009 Free Software Foundation, Inc.
+#
+# Qi Liang <cavendish@eyou.com>, 2001.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003, 2004.
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevteamwork\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-21 01:56+0000\n"
+"PO-Revision-Date: 2009-02-20 09:57+0000\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#: collaborationmanager.cpp:42
+msgid "Stop Collaboration"
+msgstr "停止协作"
+
+#: collaborationmanager.cpp:50
+msgid "Accept Collaboration"
+msgstr "接受协作"
+
+#: collaborationmanager.cpp:52
+msgid "Start a collaboration-session with the user."
+msgstr "与用户开始协作会话。"
+
+#: collaborationmanager.cpp:54
+msgid "Refuse Collaboration"
+msgstr "拒绝协作"
+
+#: collaborationmanager.cpp:56
+msgid "Refuse collaborating with the user."
+msgstr "拒绝与用户的会话。"
+
+#: collaborationmanager.cpp:58
+msgid "Request Collaboration"
+msgstr "请求协作"
+
+#: collaborationmanager.cpp:60
+msgid "Request a collaboration-session to the selected user."
+msgstr "向所选用户请求协作会话。"
+
+#: collaborationmanager.cpp:72
+msgid "Stop collaborating with the selected developer."
+msgstr "停止与所选开发者的协作。"
+
+#: conversationmanager.cpp:571
+msgid "Show in Document"
+msgstr "在文档中显示"
+
+#: conversationmanager.cpp:573
+msgid "Open the document and jump to the references position."
+msgstr "打开文档并跳转到参考位置。"
+
+#: conversationmanager.cpp:740 kdevteamwork.cpp:329
+msgid "User Info"
+msgstr "用户信息"
+
+#: conversationmanager.cpp:742
+msgid "Show information about the selected user."
+msgstr "显示关于所选用户的信息。"
+
+#: conversationmanager.cpp:746
+msgid "Hide"
+msgstr "隐藏"
+
+#: conversationmanager.cpp:748
+msgid "Hide this conversation."
+msgstr "隐藏此对话。"
+
+#: documentwrapper.cpp:183
+#, kde-format
+msgid "The buffer of %1 is modified, should the content be replaced?"
+msgstr "%1 的缓存被修改，要替换内容吗？"
+
+#: editpatch.cpp:309
+#, kde-format
+msgid ""
+"You are about to unapply a dynamic patch created by the command \"%1\". That "
+"can be very dangerous. If the same command will not produce the same text "
+"after the unapply, the patch cannot be reapplied and all data may be lost. \n"
+"Recommendation: Make the patch a file-patch before unapplying it."
+msgstr ""
+
+#: editpatch.cpp:309
+msgid "Warning"
+msgstr "警告"
+
+#: filecollaborationmanager.cpp:86
+msgid "Start File-Collaboration"
+msgstr "开始文件协作"
+
+#. i18n: ectx: property (text), widget (QToolButton, logFilter)
+#: kdevteamwork.cpp:222 kdevteamwork_interface.ui:835
+msgid "Filter"
+msgstr "过滤"
+
+#: kdevteamwork.cpp:301
+msgid "Send Message"
+msgstr "发送消息"
+
+#: kdevteamwork.cpp:303
+msgid "Send a text-message to the selected user."
+msgstr "向所选用户发送文本消息。"
+
+#: kdevteamwork.cpp:305
+msgid "Answer"
+msgstr "回复"
+
+#: kdevteamwork.cpp:307
+msgid "Send an answer to this message."
+msgstr "对此消息发送回复。"
+
+#: kdevteamwork.cpp:309
+msgid "Disconnect"
+msgstr "断开"
+
+#: kdevteamwork.cpp:311
+msgid "Disconnect from the selected server."
+msgstr "从所选服务器断开。"
+
+#: kdevteamwork.cpp:313 kdevteamwork.cpp:325
+msgid "Disconnect All"
+msgstr "全部断开"
+
+#: kdevteamwork.cpp:315
+msgid "Disconnect from all connected servers."
+msgstr "从全部所选服务器断开。"
+
+#: kdevteamwork.cpp:317
+msgid "Kick"
+msgstr "踢出"
+
+#: kdevteamwork.cpp:319
+msgid "Kick the selected client."
+msgstr "踢出所选客户端。"
+
+#: kdevteamwork.cpp:321
+msgid "Ban"
+msgstr "屏蔽"
+
+#: kdevteamwork.cpp:323
+msgid "Ban the selected client (stop him from reconnecting)."
+msgstr "踢出所选客户端(防止他重新连接)。"
+
+#: kdevteamwork.cpp:327
+msgid "Disconnect all connected clients from the local server."
+msgstr "从本地服务器断开全部已连接的客户端。"
+
+#: kdevteamwork.cpp:331
+msgid "Show information about the user."
+msgstr "显示关于用户的信息。"
+
+#: kdevteamwork.cpp:333
+msgid "Show Patches"
+msgstr "显示补丁"
+
+#: kdevteamwork.cpp:335
+msgid "Show the available patches published by the selected user."
+msgstr "显示由所选用户公布的可用补丁。"
+
+#. i18n: ectx: property (text), widget (QToolButton, answeringToButton)
+#: kdevteamwork.cpp:1146 kdevteamwork_interface.ui:414
+msgid "Answer To"
+msgstr "回复到"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, EditPatch)
+#: kdevteamwork_editpatch.ui:13
+msgid "Edit Patch"
+msgstr "编辑补丁"
+
+#. i18n: ectx: attribute (title), widget (QWidget, fileTab)
+#: kdevteamwork_editpatch.ui:29
+msgid "File"
+msgstr "文件"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kdevteamwork_editpatch.ui:48
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">File:</span></"
+"p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">文件：</"
+"span></p></body></html>"
+
+#. i18n: ectx: attribute (title), widget (QWidget, commandTab)
+#: kdevteamwork_editpatch.ui:59
+msgid "command-output"
+msgstr "命令行输出"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: kdevteamwork_editpatch.ui:79
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Command:</"
+"span></p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">命令：</"
+"span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, commandToFile)
+#: kdevteamwork_editpatch.ui:97
+msgid "To File"
+msgstr "到文件"
+
+#. i18n: ectx: property (title), widget (QGroupBox, filesGroup)
+#: kdevteamwork_editpatch.ui:110
+msgid "Files"
+msgstr "文件"
+
+#. i18n: ectx: property (text), widget (QPushButton, highlightFiles)
+#: kdevteamwork_editpatch.ui:145
+msgid "Highlight"
+msgstr "突出显示"
+
+#. i18n: ectx: property (text), widget (QPushButton, previousHunk)
+#: kdevteamwork_editpatch.ui:160
+msgid "Previous Hunk"
+msgstr "上个代码块"
+
+#. i18n: ectx: property (text), widget (QPushButton, nextHunk)
+#: kdevteamwork_editpatch.ui:175
+msgid "Next Hunk"
+msgstr "下个代码块"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: kdevteamwork_editpatch.ui:195
+msgid "Author:"
+msgstr "作者："
+
+#. i18n: ectx: property (text), widget (QLabel, user)
+#. i18n: ectx: property (text), widget (QPushButton, userButton)
+#: kdevteamwork_editpatch.ui:205 kdevteamwork_textmessage.ui:352
+msgid "User"
+msgstr "用户"
+
+#. i18n: ectx: property (text), widget (QPushButton, determineState)
+#: kdevteamwork_editpatch.ui:230
+msgid "Determine"
+msgstr "决定"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: kdevteamwork_editpatch.ui:245
+msgid "State:"
+msgstr "状态："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kdevteamwork_editpatch.ui:263
+msgid "Access:"
+msgstr "访问："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: kdevteamwork_editpatch.ui:278
+msgid "recommended unapply-command:"
+msgstr "推荐的非应用命令："
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: kdevteamwork_editpatch.ui:288
+msgid "Dependencies:"
+msgstr "依赖："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: kdevteamwork_editpatch.ui:298
+msgid "recommended apply-command:"
+msgstr "推荐的应用命令："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: kdevteamwork_editpatch.ui:313
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\">N<span style=\" font-weight:600;\">ame:</span></"
+"p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">名称：</"
+"span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kdevteamwork_editpatch.ui:323
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">Type:</span></"
+"p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">类型：</"
+"span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, chooseType)
+#: kdevteamwork_editpatch.ui:333
+msgid "Choose"
+msgstr "选择"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kdevteamwork_editpatch.ui:342
+msgid "Description:"
+msgstr "描述："
+
+#. i18n: ectx: property (text), widget (QPushButton, applyButton)
+#: kdevteamwork_editpatch.ui:368
+msgid "Apply"
+msgstr "应用"
+
+#. i18n: ectx: property (text), widget (QPushButton, unApplyButton)
+#: kdevteamwork_editpatch.ui:375
+msgid "Unapply"
+msgstr "不应用"
+
+#. i18n: ectx: property (text), widget (QPushButton, showButton)
+#: kdevteamwork_editpatch.ui:382 messagemanager.cpp:33 patchesmanager.cpp:96
+msgid "Show"
+msgstr "显示"
+
+#. i18n: ectx: property (text), widget (QPushButton, okButton)
+#: kdevteamwork_editpatch.ui:402
+msgid "Close"
+msgstr "关闭"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, NewFileCollaborationSession)
+#: kdevteamwork_filecollaborationsession.ui:13
+msgid "Dialog"
+msgstr "对话框"
+
+#. i18n: ectx: property (text), widget (QCheckBox, allowSentDocuments)
+#: kdevteamwork_filecollaborationsession.ui:19
+msgid "Allow collaborators to add own documents"
+msgstr "允许协作者添加自己的文档"
+
+#. i18n: ectx: property (text), widget (QLabel, files)
+#: kdevteamwork_filecollaborationsession.ui:31
+msgid ""
+"Files:\n"
+"File 1\n"
+"File 2"
+msgstr ""
+"文件：\n"
+"文件 1\n"
+"文件 2"
+
+#. i18n: ectx: property (text), widget (QLabel, users)
+#: kdevteamwork_filecollaborationsession.ui:38
+msgid "Invite users:"
+msgstr "邀请用户："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kdevteamwork_filecollaborationsession.ui:45
+msgid "Session-Name:"
+msgstr "会话名称："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: kdevteamwork_indocumentcontextlines.ui:33
+msgid "Context-Lines:"
+msgstr "上下文行："
+
+#. i18n: ectx: property (text), widget (QPushButton, jumpToPosition)
+#: kdevteamwork_indocumentmessagebuttons.ui:22
+msgid "Jump to Position"
+msgstr "跳转到位置"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kdevteamwork_indocumentmessagestate.ui:41
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">File</span>:</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">文件</span>：</p></body></html>"
+
+#. i18n: ectx: property (text), widget (KUrlLabel, file)
+#: kdevteamwork_indocumentmessagestate.ui:51
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration: underline;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-"
+"decoration:none;\">file</span></p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration: underline;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-"
+"decoration:none;\">文件</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kdevteamwork_indocumentmessagestate.ui:69
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-family:Sans;\"><span "
+"style=\" font-weight:600;\">Position</span>: </p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-family:Sans;\"><span "
+"style=\" font-weight:600;\">位置</span>：</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, position)
+#: kdevteamwork_indocumentmessagestate.ui:76
+msgid "position"
+msgstr "位置"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: kdevteamwork_indocumentmessagestate.ui:104
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-family:Sans;\"><span "
+"style=\" font-weight:600;\">Context</span>: </p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-family:Sans;\"><span "
+"style=\" font-weight:600;\">上下文</span>：</p></body></html>"
+
+#. i18n: ectx: property (text), widget (KUrlLabel, context)
+#: kdevteamwork_indocumentmessagestate.ui:114
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration: underline;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-"
+"decoration:none;\">Context</span></p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration: underline;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" text-"
+"decoration:none;\">上下文</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kdevteamwork_indocumentmessagestate.ui:132
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Reference-Type</span>: </p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">参考类型</span>：</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, referenceType)
+#: kdevteamwork_indocumentmessagestate.ui:139
+msgid "referenceType"
+msgstr "参考类型"
+
+#. i18n: ectx: attribute (label), widget (QWidget, connection)
+#: kdevteamwork_interface.ui:46
+msgid "Connection"
+msgstr "连接"
+
+#. i18n: ectx: attribute (title), widget (QWidget, localTab)
+#: kdevteamwork_interface.ui:95
+msgid "Local server"
+msgstr "本地服务器"
+
+#. i18n: ectx: property (text), widget (QLabel, connectedClientsLabel)
+#: kdevteamwork_interface.ui:122
+msgid "Connected clients:"
+msgstr "已连接的客户端："
+
+#. i18n: ectx: property (text), widget (QCheckBox, allowIncoming)
+#: kdevteamwork_interface.ui:129
+msgid "Allow incoming"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, remoteTab)
+#: kdevteamwork_interface.ui:137
+msgid "Servers"
+msgstr "服务器"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, loginPassword)
+#: kdevteamwork_interface.ui:164
+msgid "the password for logging into the server"
+msgstr "登录服务器的密码"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, connectServer)
+#: kdevteamwork_interface.ui:177
+msgid ""
+"connect to the given server using the given login-information(if the name is "
+"blank the local name is used)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, connectServer)
+#: kdevteamwork_interface.ui:180
+msgid "Connect"
+msgstr "连接"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, serverBox)
+#: kdevteamwork_interface.ui:187
+msgid "the server to connect"
+msgstr "要连接的服务器"
+
+#. i18n: ectx: property (text), widget (QLabel, connectedServersLabel)
+#: kdevteamwork_interface.ui:197
+msgid "Connected servers:"
+msgstr "已连接的服务器："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, loginName)
+#: kdevteamwork_interface.ui:204
+msgid "the user-name for logging into the server"
+msgstr "登录服务器的用户名"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: attribute (label), widget (QWidget, developers)
+#: kdevteamwork_interface.ui:224 kdevteamwork_messagehistory.ui:236
+msgid "Developers"
+msgstr "开发者"
+
+#. i18n: ectx: property (text), widget (QLabel, availableLabel)
+#: kdevteamwork_interface.ui:248
+msgid "Available:"
+msgstr "可用："
+
+#. i18n: ectx: property (text), widget (QLabel, connectedLabel)
+#: kdevteamwork_interface.ui:329
+msgid "Collaborating:"
+msgstr "协作："
+
+#. i18n: ectx: attribute (label), widget (QWidget, messaging)
+#: kdevteamwork_interface.ui:345
+msgid "Messaging"
+msgstr "消息"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, messageTargetUser)
+#: kdevteamwork_interface.ui:392
+msgid "target-user"
+msgstr "目标用户"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, typeLabel)
+#: kdevteamwork_interface.ui:458 kdevteamwork_messagehistory.ui:174
+msgid "Type:"
+msgstr "类型："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, messageType)
+#: kdevteamwork_interface.ui:469
+msgid "Message"
+msgstr "消息"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, messageType)
+#: kdevteamwork_interface.ui:474
+msgid "Comment"
+msgstr "注释"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, messageType)
+#: kdevteamwork_interface.ui:479
+msgid "Source-discussion"
+msgstr "来源讨论"
+
+#. i18n: ectx: property (text), widget (QLabel, contextLabel)
+#: kdevteamwork_interface.ui:512
+msgid "Thread:"
+msgstr "线索："
+
+#. i18n: ectx: property (text), widget (QLabel, referenceLabel)
+#: kdevteamwork_interface.ui:547
+msgid "Reference:"
+msgstr "参考："
+
+#. i18n: ectx: property (text), widget (QPushButton, clearMessageButton)
+#. i18n: ectx: property (text), widget (QPushButton, clearMessages)
+#. i18n: ectx: property (text), widget (QPushButton, clearLog)
+#: kdevteamwork_interface.ui:576 kdevteamwork_interface.ui:743
+#: kdevteamwork_interface.ui:821
+msgid "Clear"
+msgstr "清除"
+
+#. i18n: ectx: property (text), widget (QPushButton, sendMessage)
+#: kdevteamwork_interface.ui:596
+msgid "&Send message"
+msgstr "发送消息(&S)"
+
+#. i18n: ectx: property (shortcut), widget (QPushButton, sendMessage)
+#: kdevteamwork_interface.ui:599
+msgid "S"
+msgstr "S"
+
+#. i18n: ectx: property (toolTip), widget (KTextEdit, messageText)
+#: kdevteamwork_interface.ui:608
+msgid "the message you wish to send"
+msgstr "您想要发送的消息"
+
+#. i18n: ectx: attribute (label), widget (QWidget, localstate)
+#: kdevteamwork_interface.ui:624
+msgid "Local state"
+msgstr "本地状态"
+
+#. i18n: ectx: property (text), widget (QPushButton, managePatches)
+#: kdevteamwork_interface.ui:648
+msgid "Manage local patches"
+msgstr "管理本地补丁"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: attribute (title), widget (QWidget, messagesTab)
+#: kdevteamwork_interface.ui:663 kdevteamwork_messagehistory.ui:34
+msgid "Messages"
+msgstr "消息"
+
+#. i18n: ectx: attribute (title), widget (QWidget, allUsersTab)
+#: kdevteamwork_interface.ui:691
+msgid "All Users"
+msgstr "全部用户"
+
+#. i18n: ectx: property (text), widget (QPushButton, historyButton)
+#. i18n: ectx: property (text), widget (QPushButton, messageHistory)
+#: kdevteamwork_interface.ui:750 kdevteamwork_textmessage.ui:85
+#: kdevteamwork_userinfo.ui:65
+msgid "History"
+msgstr "历史"
+
+#. i18n: ectx: attribute (title), widget (QWidget, logTab)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: kdevteamwork_interface.ui:760 kdevteamwork_vectortimestampwidget.ui:64
+msgid "Log"
+msgstr "日志"
+
+#. i18n: ectx: property (text), widget (QPushButton, saveLog)
+#: kdevteamwork_interface.ui:828
+msgid "Save"
+msgstr "保存"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableCollaboration)
+#: kdevteamwork_interface.ui:850
+msgid "Enable Collaboration"
+msgstr "启用协作"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, InternalMessage)
+#: kdevteamwork_internalmessage.ui:13
+msgid "Internal Message"
+msgstr "内部消息"
+
+#. i18n: ectx: property (text), widget (QToolButton, actionsButton)
+#: kdevteamwork_internalmessage.ui:67
+msgid "actions"
+msgstr "动作"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ManagePatches)
+#: kdevteamwork_managepatches.ui:13 patchesmanager.cpp:139
+msgid "Manage Patches"
+msgstr "管理补丁"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kdevteamwork_managepatches.ui:54
+msgid "Available patches:"
+msgstr "可用补丁："
+
+#. i18n: ectx: property (text), widget (QPushButton, add)
+#: kdevteamwork_managepatches.ui:98
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (text), widget (QPushButton, edit)
+#: kdevteamwork_managepatches.ui:105
+msgid "Edit"
+msgstr "编辑"
+
+#. i18n: ectx: property (text), widget (QPushButton, remove)
+#: kdevteamwork_managepatches.ui:112
+msgid "Remove"
+msgstr "删除"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kdevteamwork_messagehistory.ui:98
+msgid "From:"
+msgstr "从："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kdevteamwork_messagehistory.ui:114
+msgid "Until:"
+msgstr "到："
+
+#. i18n: ectx: property (text), widget (QPushButton, allMessagesButton)
+#. i18n: ectx: property (text), widget (QPushButton, allDevelopersButton)
+#: kdevteamwork_messagehistory.ui:128 kdevteamwork_messagehistory.ui:263
+msgid "All"
+msgstr "全部"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kdevteamwork_messagehistory.ui:190
+msgid "Context:"
+msgstr "上下文："
+
+#. i18n: ectx: property (text), widget (QPushButton, menuButton)
+#: kdevteamwork_textmessage.ui:78 kdevteamwork_userinfo.ui:45
+msgid "Menu"
+msgstr "菜单"
+
+#. i18n: ectx: property (text), widget (QPushButton, isReplyToButton)
+#: kdevteamwork_textmessage.ui:129
+msgid "Is Reply To"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, textBox)
+#. i18n: ectx: property (text), widget (QLabel, text)
+#: kdevteamwork_textmessage.ui:179 kdevteamwork_textmessage.ui:202
+msgid "Text"
+msgstr "文本"
+
+#. i18n: ectx: property (text), widget (QLabel, state_2)
+#: kdevteamwork_textmessage.ui:270
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">State</span>: </p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">状态</span>：</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, state)
+#: kdevteamwork_textmessage.ui:277 kdevteamwork_userinfo.ui:255
+msgid "State"
+msgstr "状态"
+
+#. i18n: ectx: property (text), widget (QLabel, time_2)
+#: kdevteamwork_textmessage.ui:305
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Time</span>: </p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">时间</span>：</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, time)
+#: kdevteamwork_textmessage.ui:312
+msgid "Time"
+msgstr "时间"
+
+#. i18n: ectx: property (text), widget (QLabel, user_2)
+#: kdevteamwork_textmessage.ui:330
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">User</span>:</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">用户</span>：</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, direction_2)
+#: kdevteamwork_textmessage.ui:370
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Direction</span>: </p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">方向</span>：</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, direction)
+#: kdevteamwork_textmessage.ui:377
+msgid "Direction"
+msgstr "方向"
+
+#. i18n: ectx: property (text), widget (QPushButton, tail)
+#: kdevteamwork_timestampwidget.ui:38
+msgid "Tail"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, none)
+#: kdevteamwork_timestampwidget.ui:53
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (text), widget (QPushButton, enableAll)
+#: kdevteamwork_timestampwidget.ui:68
+msgid "Enable All(x)"
+msgstr "全部启用(x)"
+
+#. i18n: ectx: property (text), widget (QLabel, stampCount)
+#: kdevteamwork_timestampwidget.ui:104
+msgid "(last stamp)"
+msgstr "(上个时间戳)"
+
+#. i18n: ectx: property (text), widget (QLabel, lastDate)
+#: kdevteamwork_timestampwidget.ui:131
+msgid "(last date)"
+msgstr "(上个日期)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableBox)
+#: kdevteamwork_timestampwidget.ui:146
+msgid "Enable"
+msgstr "启用"
+
+#. i18n: ectx: property (text), widget (QLabel, replacementText)
+#: kdevteamwork_timestampwidget.ui:156
+msgid "replacement-text"
+msgstr "替换文本"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: kdevteamwork_userinfo.ui:96
+msgid "Description"
+msgstr "描述"
+
+#. i18n: ectx: property (text), widget (QLabel, name_2)
+#: kdevteamwork_userinfo.ui:181
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Name</span>:</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">名称</span>：</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, name)
+#: kdevteamwork_userinfo.ui:188
+msgid "Name"
+msgstr "名称"
+
+#. i18n: ectx: property (text), widget (QLabel, email_2)
+#: kdevteamwork_userinfo.ui:206
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">E-Mail</span>:</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">电子邮件</span>：</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, email)
+#: kdevteamwork_userinfo.ui:213
+msgid "E-Mail"
+msgstr "电子邮件"
+
+#. i18n: ectx: property (text), widget (QLabel, state_2)
+#: kdevteamwork_userinfo.ui:241
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">State</span>:</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">状态</span>：</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, ipadress)
+#: kdevteamwork_userinfo.ui:248
+msgid "IP-Address"
+msgstr "IP 地址"
+
+#. i18n: ectx: property (text), widget (QLabel, ipadress_2)
+#: kdevteamwork_userinfo.ui:273
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">IP-Adress</span>:</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">IP 地址</span>：</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, rights_2)
+#: kdevteamwork_userinfo.ui:301
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Rights</span>: </p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">权限</span>：</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, rights)
+#: kdevteamwork_userinfo.ui:308
+msgid "Rights"
+msgstr "权限"
+
+#. i18n: ectx: property (title), widget (QGroupBox, timestampsGroup)
+#: kdevteamwork_vectortimestampwidget.ui:57
+msgid "Timestamps"
+msgstr "时间戳"
+
+#. i18n: ectx: property (text), widget (QPushButton, toTailTimestamp)
+#: kdevteamwork_vectortimestampwidget.ui:127
+#, fuzzy
+#| msgid "Local state"
+msgid "To Tail State"
+msgstr "本地状态"
+
+#. i18n: ectx: property (text), widget (QPushButton, clearLog)
+#: kdevteamwork_vectortimestampwidget.ui:140
+msgid "Clear Log"
+msgstr "清除日志"
+
+#. i18n: ectx: property (text), widget (QLabel, stateInfo)
+#: kdevteamwork_vectortimestampwidget.ui:147
+msgid "Current State:    Tail State: "
+msgstr ""
+
+#: kdevteamworkplugin.cpp:49 kdevteamworkplugin.cpp:61
+#: kdevteamworkplugin.cpp:91
+msgid "Teamwork"
+msgstr "团队工作"
+
+#: kdevteamworkplugin.cpp:49
+msgid "Collaboration support"
+msgstr "协作支持"
+
+#: lib/libdiff2/komparemodellist.cpp:238 lib/libdiff2/komparemodellist.cpp:262
+#, kde-format
+msgid ""
+"<qt>No models or no differences, this file: <b>%1</b>, is not a valid diff "
+"file.</qt>"
+msgstr "<qt>无模型或无差异，该文件：<b>%1</b>，不是有效的 diff 文件。</qt>"
+
+#: lib/libdiff2/komparemodellist.cpp:246
+#, kde-format
+msgid ""
+"<qt>There were problems applying the diff <b>%1</b> to the file <b>%2</b>.</"
+"qt>"
+msgstr "<qt>对文件 <b>%2</b> 应用 diff <b>%1</b> 发生问题。</qt>"
+
+#: lib/libdiff2/komparemodellist.cpp:271
+#, kde-format
+msgid ""
+"<qt>There were problems applying the diff <b>%1</b> to the folder <b>%2</b>."
+"</qt>"
+msgstr "<qt>对文件夹 <b>%2</b> 应用 diff <b>%1</b> 发生问题。</qt>"
+
+#: lib/libdiff2/komparemodellist.cpp:299 lib/libdiff2/komparemodellist.cpp:575
+msgid "Could not open a temporary file."
+msgstr "无法打开临时文件"
+
+#: lib/libdiff2/komparemodellist.cpp:350
+#, kde-format
+msgid "<qt>Could not write to the temporary file <b>%1</b>, deleting it.</qt>"
+msgstr "<qt>无法写入临时文件 <b>%1</b>，删除它。</qt>"
+
+#: lib/libdiff2/komparemodellist.cpp:368
+#, kde-format
+msgid ""
+"<qt>Could not create destination directory <b>%1</b>.\n"
+"The file has not been saved.</qt>"
+msgstr ""
+"<qt>无法创建目标目录 <b>%1</b>。\n"
+"文件未保存。</qt>"
+
+#: lib/libdiff2/komparemodellist.cpp:383
+#, kde-format
+msgid ""
+"<qt>Could not upload the temporary file to the destination location <b>%1</"
+"b>. The temporary file is still available under: <b>%2</b>. You can manually "
+"copy it to the right place.</qt>"
+msgstr ""
+"<qt>无法上传临时文件至目标位置 <b>%1</b>。临时文件仍可用，位于：<b>%2</b>。您"
+"可以手动将其复制到正确的位置。</qt>"
+
+#: lib/libdiff2/komparemodellist.cpp:428 lib/libdiff2/komparemodellist.cpp:541
+msgid "Could not parse diff output."
+msgstr "无法解析 diff 输出。"
+
+#: lib/libdiff2/komparemodellist.cpp:444
+msgid "The files are identical."
+msgstr "文件是相同的。"
+
+#: lib/libdiff2/komparemodellist.cpp:607
+msgid "Could not write to the temporary file."
+msgstr "无法写入临时文件。"
+
+#: messagemanager.cpp:36
+msgid "Show the message."
+msgstr "显示消息。"
+
+#: patchesmanager.cpp:98
+msgid "Request and show the selected file."
+msgstr "请求并显示所选文件。"
+
+#: patchesmanager.cpp:100
+msgid "Show Info"
+msgstr "显示信息"
+
+#: patchesmanager.cpp:102
+msgid "Show Information about the selected file."
+msgstr "显示所选文件的信息。"
+
+#: patchesmanager.cpp:104
+msgid "Download Item"
+msgstr "下载项目"
+
+#: patchesmanager.cpp:106
+msgid "Download the item and store it into the list of local items."
+msgstr "下载项目并将其存储到本地项目列表中。"
+
+#: patchesmanager.cpp:108
+msgid "Apply Locally"
+msgstr "本地应用"
+
+#: patchesmanager.cpp:110
+msgid ""
+"Apply the item/patch to the local workspace/project and store it into the "
+"list of local patches."
+msgstr "对本地工作空间/工程应用项目/补丁并将其存储到本地补丁列表中。"
+
+#: patchesmanager.cpp:112
+msgid "Allow"
+msgstr "允许"
+
+#: patchesmanager.cpp:114
+msgid "Send the requested patch to the user."
+msgstr "向用户发送请求的补丁。"
+
+#: patchesmanager.cpp:116
+msgid "Deny"
+msgstr "拒绝"
+
+#: patchesmanager.cpp:118
+msgid "Do not send the requested patch to the user."
+msgstr "不向用户发送请求的补丁。"
+
+#: patchesmanager.cpp:120
+msgid "Show Patch-Info"
+msgstr "显示补丁信息"
+
+#: patchesmanager.cpp:122
+msgid "Show the requested patch."
+msgstr "显示请求的补丁。"
+
+#: vectortimestampeditor.cpp:104
+#, kde-format
+msgid "Enable Disabled (%1)"
+msgstr "启用已禁用(%1)"

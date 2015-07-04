@@ -1,0 +1,137 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-19 02:50+0200\n"
+"PO-Revision-Date: 2012-10-06 04:20-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, app_label)
+#: authdetails.ui:22 authdetails.ui:76
+msgid "Application:"
+msgstr "应用程序："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (KUrlLabel, action_label)
+#: authdetails.ui:29 authdetails.ui:56
+msgid "Action:"
+msgstr "动作："
+
+#. i18n: ectx: property (text), widget (QLabel, vendorL)
+#. i18n: ectx: property (text), widget (KUrlLabel, vendorUL)
+#: authdetails.ui:36 authdetails.ui:43
+msgid "Vendor:"
+msgstr "发行商："
+
+#: AuthDialog.cpp:151
+msgid "Password for root:"
+msgstr "root 密码："
+
+#: AuthDialog.cpp:153
+#, kde-format
+msgid "Password for %1:"
+msgstr "%1 的密码："
+
+#. i18n: ectx: property (text), widget (QLabel, lblPassword)
+#: AuthDialog.cpp:157 AuthDialog.ui:100
+msgid "Password:"
+msgstr "密码："
+
+#: AuthDialog.cpp:163
+msgid "Password or swipe finger for root:"
+msgstr "root 的密码或指纹验证："
+
+#: AuthDialog.cpp:165
+#, kde-format
+msgid "Password or swipe finger for %1:"
+msgstr " %1 的密码或指纹验证："
+
+#: AuthDialog.cpp:169
+msgid "Password or swipe finger:"
+msgstr "密码或指纹验证："
+
+#: AuthDialog.cpp:179
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr "一个程序正请求进行需要更高权限的操作。需要验证才能继续操作。"
+
+#: AuthDialog.cpp:194
+msgid "Select User"
+msgstr "选择用户"
+
+#: AuthDialog.cpp:213
+#, kde-format
+msgctxt "%1 is the full user name, %2 is the user login name"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: AuthDialog.cpp:279
+msgid "Authentication failure, please try again."
+msgstr "验证失败，请重试。"
+
+#: AuthDialog.cpp:302
+msgid "Switch to dialog"
+msgstr "切换到对话框"
+
+#: AuthDialog.cpp:302
+msgid "Cancel"
+msgstr "取消"
+
+#: AuthDialog.cpp:334
+#, kde-format
+msgctxt ""
+"%1 is the name of a detail about the current action provided by polkit"
+msgid "%1:"
+msgstr "%1："
+
+#: AuthDialog.cpp:344
+#, kde-format
+msgid "Click to edit %1"
+msgstr "点击编辑 %1"
+
+#: AuthDialog.cpp:352 AuthDialog.cpp:356
+#, kde-format
+msgid "Click to open %1"
+msgstr "点击打开 %1"
+
+#: main.cpp:30 main.cpp:31
+msgid "PolicyKit1-KDE"
+msgstr "PolicyKit1-KDE"
+
+#: main.cpp:32
+msgid "(c) 2009 Red Hat, Inc."
+msgstr "(c) 2009 Red Hat, Inc."
+
+#: main.cpp:33
+msgid "Jaroslav Reznik"
+msgstr "Jaroslav Reznik"
+
+#: main.cpp:33
+msgid "Maintainer"
+msgstr "维护者"
+
+#: policykitlistener.cpp:74
+msgid "Another client is already authenticating, please try again later."
+msgstr "另一个客户端正在验证，请稍后重试。"

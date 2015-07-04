@@ -1,0 +1,195 @@
+# translation of kio_sftp.po to 简体中文
+# Copyright (C) 2002, 2009 Free Software Foundation, Inc.
+#
+# Xiong Jiang <jxiong@offtopic.org>, 2002.
+# Mai Hao Hui <mhh@ricetons.com>, 2001,2003,2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2012.
+# Lie Ex <lilith.ex@gmail.com>, 2009-2010.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+# FengChao <rainofchaos@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_sftp\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-14 01:41+0000\n"
+"PO-Revision-Date: 2013-07-27 15:18+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: kio_sftp.cpp:203
+msgid "Incorrect or invalid passphrase"
+msgstr "密码不正确或无效"
+
+#: kio_sftp.cpp:274 kio_sftp.cpp:276 kio_sftp.cpp:809
+msgid "SFTP Login"
+msgstr "SFTP 登录"
+
+#: kio_sftp.cpp:291
+msgid "Use the username input field to answer this question."
+msgstr "使用此用户名输入字段来回答响应。"
+
+#: kio_sftp.cpp:304
+msgid "Please enter your password."
+msgstr "请输入您的密码。"
+
+#: kio_sftp.cpp:309 kio_sftp.cpp:812
+msgid "Site:"
+msgstr "站点："
+
+#: kio_sftp.cpp:459
+msgid "Could not allocate callbacks"
+msgstr "无法分配回调空间"
+
+#: kio_sftp.cpp:476
+msgid "Could not set log verbosity."
+msgstr "无法设定日志级别。"
+
+#: kio_sftp.cpp:482
+#, fuzzy
+#| msgid "Could not set log verbosity."
+msgid "Could not set log userdata."
+msgstr "无法设定日志级别。"
+
+#: kio_sftp.cpp:488
+#, fuzzy
+#| msgid "Could not allocate callbacks"
+msgid "Could not set log callback."
+msgstr "无法分配回调空间"
+
+#: kio_sftp.cpp:527
+msgid "Could not create a new SSH session."
+msgstr "无法新建 SSH 会话"
+
+#: kio_sftp.cpp:538 kio_sftp.cpp:543
+msgid "Could not set a timeout."
+msgstr "无法设定超时。"
+
+#: kio_sftp.cpp:550 kio_sftp.cpp:556
+msgid "Could not set compression."
+msgstr "无法设定压缩。"
+
+#: kio_sftp.cpp:563
+msgid "Could not set host."
+msgstr "无法设定主机。"
+
+#: kio_sftp.cpp:570
+msgid "Could not set port."
+msgstr "无法设定端口。"
+
+#: kio_sftp.cpp:579
+msgid "Could not set username."
+msgstr "无法设定用户名。"
+
+#: kio_sftp.cpp:587
+msgid "Could not parse the config file."
+msgstr "无法解析配置文件。"
+
+#: kio_sftp.cpp:617
+#, kde-format
+msgid "Opening SFTP connection to host %1:<numid>%2</numid>"
+msgstr "正在打开到主机 %1 的 SFTP 连接：<numid>%2</numid>"
+
+#: kio_sftp.cpp:674
+msgid "Could not create hash from server public key"
+msgstr ""
+
+#: kio_sftp.cpp:688
+#, kde-format
+msgid ""
+"The host key for this server was not found, but another type of key exists.\n"
+"An attacker might change the default server key to confuse your client into "
+"thinking the key does not exist.\n"
+"Please contact your system administrator.\n"
+"%1"
+msgstr ""
+"找不到此服务器的主机密钥，但发现有其它类型的密钥。\n"
+"可能是因为攻击者篡改了服务器的默认密钥，诱使客户端以为服务器密钥不存在。\n"
+"请联系您的系统管理员。\n"
+"%1"
+
+#: kio_sftp.cpp:699
+#, kde-format
+msgid ""
+"The host key for the server %1 has changed.\n"
+"This could either mean that DNS SPOOFING is happening or the IP address for "
+"the host and its host key have changed at the same time.\n"
+"The fingerprint for the key sent by the remote host is:\n"
+" %2\n"
+"Please contact your system administrator.\n"
+"%3"
+msgstr ""
+"服务器 %1 的主机密钥已被篡改。\n"
+"这可能意味着发生了 DNS 欺骗，或是此主机的 IP 地址和主机密钥同时被修改。\n"
+"远程主机发送的密钥指纹是：\n"
+" %2\n"
+"请联系您的系统管理员。\n"
+"%3"
+
+#: kio_sftp.cpp:712
+msgid "Warning: Cannot verify host's identity."
+msgstr "警告：不能检验主机的身份。"
+
+#: kio_sftp.cpp:713
+#, kde-format
+msgid ""
+"The authenticity of host %1 cannot be established.\n"
+"The key fingerprint is: %2\n"
+"Are you sure you want to continue connecting?"
+msgstr ""
+"无法和主机 %1 建立验证。\n"
+"密钥指纹是：%2\n"
+"您确认要继续连接吗？"
+
+#: kio_sftp.cpp:744 kio_sftp.cpp:767 kio_sftp.cpp:784 kio_sftp.cpp:800
+#: kio_sftp.cpp:855 kio_sftp.cpp:866
+msgid "Authentication failed."
+msgstr "认证失败。"
+
+#: kio_sftp.cpp:752
+msgid ""
+"Authentication failed. The server didn't send any authentication methods"
+msgstr "认证失败。服务器未发送任何认证方式"
+
+#: kio_sftp.cpp:810
+msgid "Please enter your username and password."
+msgstr "请输入您的用户名和密码。"
+
+#: kio_sftp.cpp:821
+msgid "Incorrect username or password"
+msgstr "用户名或密码不正确"
+
+#: kio_sftp.cpp:875
+msgid ""
+"Unable to request the SFTP subsystem. Make sure SFTP is enabled on the "
+"server."
+msgstr "无法请求 SFTP 子系统。请确认服务器上启用了 SFTP。"
+
+#: kio_sftp.cpp:883
+msgid "Could not initialize the SFTP session."
+msgstr "无法初始化 SFTP 会话。"
+
+#: kio_sftp.cpp:888
+#, kde-format
+msgid "Successfully connected to %1"
+msgstr "成功连接到 %1"
+
+#: kio_sftp.cpp:1841
+#, kde-format
+msgid "Could not read link: %1"
+msgstr "无法读取链接：%1"
+
+#: kio_sftp.cpp:2239
+#, kde-format
+msgid ""
+"Could not change permissions for\n"
+"%1"
+msgstr "无法更改 %1 的权限"
+
+#~ msgid "No hostname specified."
+#~ msgstr "没有指定主机名。"

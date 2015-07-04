@@ -1,0 +1,1669 @@
+#
+# Funda Wang <fundawang@linux.net.cn>, 2006.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-30 01:37+0000\n"
+"PO-Revision-Date: 2011-11-19 01:59+0800\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: ksysguardprocesslist.cpp:157 ksysguardprocesslist.cpp:413
+msgid "Set Priority..."
+msgid_plural "Set Priority..."
+msgstr[0] "设定优先级..."
+
+#: ksysguardprocesslist.cpp:159 ksysguardprocesslist.cpp:508
+msgid "Jump to Parent Process"
+msgstr "跳转到父进程"
+
+#: ksysguardprocesslist.cpp:161
+msgid "Jump to Process Debugging This One"
+msgstr "跳转到正在调试此进程的进程"
+
+#: ksysguardprocesslist.cpp:162
+msgid "Show Application Window"
+msgstr "显示应用程序窗口"
+
+#: ksysguardprocesslist.cpp:163
+msgid "Resume Stopped Process"
+msgstr "恢复待机的进程"
+
+#: ksysguardprocesslist.cpp:164
+msgid "End Process"
+msgid_plural "End Processes"
+msgstr[0] "结束进程"
+
+#: ksysguardprocesslist.cpp:167 ksysguardprocesslist.cpp:414
+msgid "Forcibly Kill Process"
+msgid_plural "Forcibly Kill Processes"
+msgstr[0] "强制关闭进程"
+
+#: ksysguardprocesslist.cpp:171
+msgid "Suspend (STOP)"
+msgstr "待机(STOP)"
+
+#: ksysguardprocesslist.cpp:172
+msgid "Continue (CONT)"
+msgstr "继续(CONT)"
+
+#: ksysguardprocesslist.cpp:173
+msgid "Hangup (HUP)"
+msgstr "挂起(HUP)"
+
+#: ksysguardprocesslist.cpp:174
+msgid "Interrupt (INT)"
+msgstr "中断(INT)"
+
+#: ksysguardprocesslist.cpp:175
+msgid "Terminate (TERM)"
+msgstr "终止(TERM)"
+
+#: ksysguardprocesslist.cpp:176
+msgid "Kill (KILL)"
+msgstr "杀死(KILL)"
+
+#: ksysguardprocesslist.cpp:177
+msgid "User 1 (USR1)"
+msgstr "用户 1(USR1)"
+
+#: ksysguardprocesslist.cpp:178
+msgid "User 2 (USR2)"
+msgstr "用户 2(USR2)"
+
+#: ksysguardprocesslist.cpp:181
+msgid "Focus on Quick Search"
+msgstr "快速搜索"
+
+#: ksysguardprocesslist.cpp:335
+msgid ""
+"<qt>End the selected process. Warning - you may lose unsaved work.<br>Right "
+"click on a process to send other signals.<br>See What's This for technical "
+"information.<br>To target a specific window to kill, press Ctrl+Alt+Esc at "
+"any time."
+msgstr ""
+"<qt>结束所选进程。警告 - 未保存的工作将会丢失。<br>右键单击一个进程可向其发送"
+"其它信号。<br>查阅“这是什么”帮助可了解技术信息。<br>如果您想杀苏一个特定窗"
+"口，可随时按下 Ctrl+Alt+Esc 组合键来进行。"
+
+#: ksysguardprocesslist.cpp:415
+msgctxt "Context menu"
+msgid "End Process"
+msgid_plural "End Processes"
+msgstr[0] "结束进程"
+
+#: ksysguardprocesslist.cpp:451
+msgid "Send Signal"
+msgstr "发送信号"
+
+#: ksysguardprocesslist.cpp:471
+#, kde-format
+msgid "Jump to Parent Process (%1)"
+msgstr "跳转到父进程(%1)"
+
+#: ksysguardprocesslist.cpp:609
+#, kde-format
+msgid "Hide Column '%1'"
+msgstr "隐藏列“%1”"
+
+#: ksysguardprocesslist.cpp:625
+#, kde-format
+msgid "Show Column '%1'"
+msgstr "显示列“%1”"
+
+#: ksysguardprocesslist.cpp:653
+msgid "Display Units"
+msgstr "显示单位"
+
+#: ksysguardprocesslist.cpp:657
+msgid "Mixed"
+msgstr "混合"
+
+#: ksysguardprocesslist.cpp:663
+msgid "Kilobytes per second"
+msgstr "每秒 KB"
+
+#: ksysguardprocesslist.cpp:663
+msgid "Kilobytes"
+msgstr "KB"
+
+#: ksysguardprocesslist.cpp:669
+msgid "Megabytes per second"
+msgstr "每秒 MB"
+
+#: ksysguardprocesslist.cpp:669
+msgid "Megabytes"
+msgstr "MB"
+
+#: ksysguardprocesslist.cpp:675
+msgid "Gigabytes per second"
+msgstr "每秒 GB"
+
+#: ksysguardprocesslist.cpp:675
+msgid "Gigabytes"
+msgstr "GB"
+
+#: ksysguardprocesslist.cpp:684
+msgid "Percentage"
+msgstr "百分比"
+
+#: ksysguardprocesslist.cpp:713
+msgid "Display command line options"
+msgstr "显示命令行选项"
+
+#: ksysguardprocesslist.cpp:720
+msgid "Divide CPU usage by number of CPUs"
+msgstr "CPU 利用率除以 CPU 数量"
+
+#: ksysguardprocesslist.cpp:727
+msgid "Displayed Information"
+msgstr "已显示信息"
+
+#: ksysguardprocesslist.cpp:730
+msgid "Characters read/written"
+msgstr "字符数读写"
+
+#: ksysguardprocesslist.cpp:735
+msgid "Number of Read/Write operations"
+msgstr "读写操作数"
+
+#: ksysguardprocesslist.cpp:740
+msgid "Bytes actually read/written"
+msgstr "实际读写字节数"
+
+#: ksysguardprocesslist.cpp:746
+msgid "Show I/O rate"
+msgstr "显示 I/O 比率"
+
+#: ksysguardprocesslist.cpp:773
+msgid "Show Tooltips"
+msgstr "显示工具提示"
+
+#: ksysguardprocesslist.cpp:1035
+#, kde-format
+msgid ""
+"You do not have the permission to renice the process and there was a problem "
+"trying to run as root.  Error %1 %2"
+msgstr ""
+"您没有权限更改此进程的运行优先级，而尝试以 root 身份进行时遇到问题。错误 %1 "
+"%2"
+
+#: ksysguardprocesslist.cpp:1065 ksysguardprocesslist.cpp:1310
+msgid "You must select a process first."
+msgstr "您必须先选择一个进程。"
+
+#: ksysguardprocesslist.cpp:1204
+#, kde-format
+msgid ""
+"You do not have the permission to change the I/O priority of the process and "
+"there was a problem trying to run as root.  Error %1 %2"
+msgstr ""
+"您没有权限更改此进程的 I/O 优先级，而尝试以 root 身份进行时遇到问题。错误 %1 "
+"%2"
+
+#: ksysguardprocesslist.cpp:1239
+#, kde-format
+msgid ""
+"You do not have the permission to change the CPU Scheduler for the process "
+"and there was a problem trying to run as root.  Error %1 %2"
+msgstr ""
+"您没有权限更改此进程的 CPU 调度方式，而尝试以 root 身份进行时遇到问题。错误 "
+"%1 %2"
+
+#: ksysguardprocesslist.cpp:1274
+#, kde-format
+msgid ""
+"You do not have the permission to kill the process and there was a problem "
+"trying to run as root. %1"
+msgstr "您没有权限杀死此进程，而尝试以 root 身份进行时遇到问题。%1"
+
+#: ksysguardprocesslist.cpp:1278
+#, kde-format
+msgid ""
+"You do not have the permission to kill the process and there was a problem "
+"trying to run as root.  Error %1 %2"
+msgstr "您没有权限杀死此进程，而尝试以 root 身份进行时遇到问题。错误 %1 %2"
+
+#: ksysguardprocesslist.cpp:1319
+#, kde-format
+msgid ""
+"Are you sure you want to end this process?  Any unsaved work may be lost."
+msgid_plural ""
+"Are you sure you want to end these %1 processes?  Any unsaved work may be "
+"lost"
+msgstr[0] "您确定要结束这 %1 个进程吗？所有尚未保存的工作都会丢失。"
+
+#: ksysguardprocesslist.cpp:1322
+#, kde-format
+msgctxt "Dialog title"
+msgid "End Process"
+msgid_plural "End %1 Processes"
+msgstr[0] "结束 %1 个进程"
+
+#: ksysguardprocesslist.cpp:1324
+msgid "End"
+msgstr "结束"
+
+#: ksysguardprocesslist.cpp:1326
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to <b>immediately and forcibly kill</b> this "
+"process?  Any unsaved work may be lost."
+msgid_plural ""
+"<qt>Are you sure you want to <b>immediately and forcibly kill</b> these %1 "
+"processes?  Any unsaved work may be lost"
+msgstr[0] ""
+"<qt>您确定要<b>立即强制杀死</b>这 %1 个进程吗？所有尚未保存的工作都会丢失。"
+
+#: ksysguardprocesslist.cpp:1329
+#, kde-format
+msgctxt "Dialog title"
+msgid "Forcibly Kill Process"
+msgid_plural "Forcibly Kill %1 Processes"
+msgstr[0] "强制关闭 %1 进程"
+
+#: ksysguardprocesslist.cpp:1331
+msgid "Kill"
+msgstr "结束"
+
+#: ProcessModel.cpp:65
+#, kde-format
+msgid "%1 K"
+msgstr "%1 K"
+
+#: ProcessModel.cpp:66
+#, kde-format
+msgid "%1 M"
+msgstr "%1 M"
+
+#: ProcessModel.cpp:67
+#, kde-format
+msgid "%1 G"
+msgstr "%1 G"
+
+#: ProcessModel.cpp:68
+#, kde-format
+msgid "%1 T"
+msgstr "%1 T"
+
+#: ProcessModel.cpp:69
+#, kde-format
+msgid "%1 P"
+msgstr "%1 P"
+
+#: ProcessModel.cpp:583
+msgid "- Process is doing some work."
+msgstr "- 进程正在执行工作。"
+
+#: ProcessModel.cpp:585
+msgid "- Process is waiting for something to happen."
+msgstr "- 进程正在等候事件发生。"
+
+#: ProcessModel.cpp:587
+msgid ""
+"- Process has been stopped. It will not respond to user input at the moment."
+msgstr "- 进程已停止。此时不会响应用户输入。"
+
+#: ProcessModel.cpp:589
+msgid ""
+"- Process has finished and is now dead, but the parent process has not "
+"cleaned up."
+msgstr "- 进程已完成并僵死，但父进程未将其清理。"
+
+#: ProcessModel.cpp:938
+msgid "The process name."
+msgstr "进程名称。"
+
+#: ProcessModel.cpp:940
+msgid "The user who owns this process."
+msgstr "此进程的所属用户。"
+
+#: ProcessModel.cpp:942
+msgid "The controlling terminal on which this process is running."
+msgstr "控制此进程运行的终端。"
+
+#: ProcessModel.cpp:944
+msgid ""
+"The priority with which this process is being run. For the normal scheduler, "
+"this ranges from 19 (very nice, least priority) to -19 (top priority)."
+msgstr "此进程的运行优先级。对一般调度器来说，范围从最低的 19 到最高的 -19。"
+
+#: ProcessModel.cpp:947
+msgid "The current CPU usage of the process."
+msgstr "此进程当前的 CPU 使用率。"
+
+#: ProcessModel.cpp:952
+#, kde-format
+msgid ""
+"The current total CPU usage of the process, divided by the %1 processor core "
+"in the machine."
+msgid_plural ""
+"The current total CPU usage of the process, divided by the %1 processor "
+"cores in the machine."
+msgstr[0] "此进程当前的 CPU 总使用率，除以系统中 %1 个处理器核心所得的值。"
+
+#: ProcessModel.cpp:954
+msgid "The current total CPU usage of the process."
+msgstr "此进程当前的 CPU 总使用率。"
+
+#: ProcessModel.cpp:956
+msgid ""
+"<qt>The total user and system time that this process has been running for, "
+"displayed as minutes:seconds."
+msgstr "<qt>此进程已经运行的系统和用户时间总计，显示为分钟:秒数。"
+
+#: ProcessModel.cpp:958
+msgid ""
+"<qt>This is the amount of virtual memory space that the process is using, "
+"included shared libraries, graphics memory, files on disk, and so on. This "
+"number is almost meaningless.</qt>"
+msgstr ""
+"<qt>这是此进程在使用的虚拟内存空间总量，包含共享库、显存、磁盘上的文件等。这"
+"个数值基本没有意义。</qt>"
+
+#: ProcessModel.cpp:960
+msgid ""
+"<qt>This is the amount of real physical memory that this process is using by "
+"itself, and approximates the Private memory usage of the process.<br>It does "
+"not include any swapped out memory, nor the code size of its shared "
+"libraries.<br>This is often the most useful figure to judge the memory use "
+"of a program.  See What's This for more information.</qt>"
+msgstr ""
+"<qt>这是此进程本身在使用的物理内存总量，和此进程的私有内存占用量近似。<br>其"
+"中不包含交换空间和共享库代码的占用。<br>通常这就是判断一个程序所占用内存的最"
+"实用数值。您可参阅“这是什么”帮助了解更多信息。</qt>"
+
+#: ProcessModel.cpp:962
+msgid ""
+"<qt>This is approximately the amount of real physical memory that this "
+"process's shared libraries are using.<br>This memory is shared among all "
+"processes that use this library.</qt>"
+msgstr ""
+"<qt>这大约是此进程的共享库在使用的物理内存总量。<br>所有使用此库的进程都会共"
+"享这部分内存。</qt>"
+
+#: ProcessModel.cpp:964
+msgid "<qt>The command with which this process was launched.</qt>"
+msgstr "<qt>启动此进程的命令。</qt>"
+
+#: ProcessModel.cpp:966
+msgid "<qt>The amount of pixmap memory that this process is using.</qt>"
+msgstr "<qt>此进程所使用的位图内存的总量。</qt>"
+
+#: ProcessModel.cpp:968
+msgid "<qt>The title of any windows that this process is showing.</qt>"
+msgstr "<qt>此进程所显示的任意窗口的标题。</qt>"
+
+#: ProcessModel.cpp:970
+msgid "The unique Process ID that identifies this process."
+msgstr "标识此进程的唯一进程号(UID)。"
+
+#: ProcessModel.cpp:972
+msgid "The number of bytes read.  See What's This for more information."
+msgstr "读取的字节数。参阅“这是什么”可获取更多信息。"
+
+#: ProcessModel.cpp:974
+msgid "The number of bytes written.  See What's This for more information."
+msgstr "写入的字节数。参阅“这是什么”可获取更多信息。"
+
+#: ProcessModel.cpp:983
+msgid ""
+"<qt><i>Technical information: </i>The kernel process name is a maximum of 8 "
+"characters long, so the full command is examined.  If the first word in the "
+"full command line starts with the process name, the first word of the "
+"command line is shown, otherwise the process name is used."
+msgstr ""
+"<qt><i>技术信息：</i>内核进程名的字符长度最大为 8，因此这里显示的完整命令会经"
+"过内部审核。如果一个完整命令行第一个单词是其进程名，则显示这个单词，否则会显"
+"示进程名。"
+
+#: ProcessModel.cpp:985
+msgid ""
+"<qt>The user who owns this process.  If the effective, setuid etc user is "
+"different, the user who owns the process will be shown, followed by the "
+"effective user.  The ToolTip contains the full information.  "
+"<p><table><tr><td>Login Name/Group</td><td>The username of the Real User/"
+"Group who created this process</td></tr><tr><td>Effective User/Group</"
+"td><td>The process is running with privileges of the Effective User/Group.  "
+"This is shown if different from the real user.</td></tr><tr><td>Setuid User/"
+"Group</td><td>The saved username of the binary.  The process can escalate "
+"its Effective User/Group to the Setuid User/Group.</td></tr><tr><td>File "
+"System User/Group</td><td>Accesses to the filesystem are checked with the "
+"File System User/Group.  This is a Linux specific call. See setfsuid(2) for "
+"more information.</td></tr></table>"
+msgstr ""
+"<qt>进程的所属用户。工具提示中包含更完整的信息。  <p><table><tr><td>登录用户"
+"名/属组</td><td>创建此进程的真实用户名/属组</td></tr><tr><td>有效用户名/属组"
+"</td><td>此进程的有效运行权限所对应的用户/属组，仅当和真实用户不同时才显示。"
+"</td></tr><tr><td>SetUID 用户/属组</td><td>进程的双重用户身份。一个进程可以通"
+"过 SetUID/GID 特性来提升权限。</td></tr><tr><td>文件系统用户名/属组</td><td>"
+"此进程对文件系统的访问都会经过此用户名/属组的校验。这是一个 Linux 上特有的系"
+"统调用。请参阅 setfsuid(2) 手册页了解更多信息。"
+
+#: ProcessModel.cpp:995
+msgid ""
+"<qt>This is the size of allocated address space - not memory, but address "
+"space. This value in practice means next to nothing. When a process requests "
+"a large memory block from the system but uses only a small part of it, the "
+"real usage will be low, VIRT will be high. <p><i>Technical information: </"
+"i>This is VmSize in proc/*/status and VIRT in top."
+msgstr ""
+"<qt>这是为进程分配的地址空间(不是内存)，这个值的实际意义非常有限。如果一个进"
+"程请求了很大的内存区块，但实际利用的很少，看上去 VIRT 值就会很高。<p><i>技术"
+"信息：</i>此数值在 proc/*/status 文件中体现为 VmSize，在 top 命令中体现为 "
+"VIRT。"
+
+#: ProcessModel.cpp:997
+msgid ""
+"<qt><i>Technical information: </i>This is an approximation of the Private "
+"memory usage, calculated as VmRSS - Shared, from /proc/*/statm.  This tends "
+"to underestimate the true Private memory usage of a process (by not "
+"including i/o backed memory pages), but is the best estimation that is fast "
+"to determine.  This is sometimes known as URSS (Unique Resident Set Size). "
+"For an individual process, see \"Detailed  Memory Information\" for a more "
+"accurate, but slower, calculation of the true Private memory usage."
+msgstr ""
+"<qt><i>技术信息：</i>这是私有内存的使用量(VmRSS)，根据 /proc/*/statm 计算得"
+"来。这个数据实质上低估了进程真实占用的私有内存用量(因为未计 I/O 回写所需的内"
+"存页)，但它仍然是一个可供快速估测实际用量的参考值。有时这个数据也被称为 URSS"
+"(唯一常驻集大小)。对于单个进程而言，查阅“详细内存信息”可以得到更精确的私有内"
+"存用量，不过速度相对较慢。"
+
+#: ProcessModel.cpp:999
+msgid "The CPU usage of a process and all of its threads."
+msgstr "一个进程及其所有线程的 CPU 利用率。"
+
+#: ProcessModel.cpp:1001
+msgid ""
+"<qt>The total system and user time that a process and all of its threads "
+"have been running on the CPU for. This can be greater than the wall clock "
+"time if the process has been across multiple CPU cores."
+msgstr ""
+"<qt>某个进程及其所有线程在此 CPU 上执行所花费的系统与用户时间总计。如果此进程"
+"分布在多个 CPU 核心上执行，此时间可能略大于现实时间。"
+
+#: ProcessModel.cpp:1003
+msgid ""
+"<qt><i>Technical information: </i>This is an approximation of the Shared "
+"memory, called SHR in top.  It is the number of pages that are backed by a "
+"file (see kernel Documentation/filesystems/proc.txt).  For an individual "
+"process, see \"Detailed Memory Information\" for a more accurate, but "
+"slower, calculation of the true Shared memory usage."
+msgstr ""
+"<qt><i>技术信息：</i>这里表示共享内存，在 top 命令中以 SHR 表示。它表示由文件"
+"写回的内存页数量(参见内核文档 Documentation/filesystems/proc.txt)。对于单个进"
+"程而言查阅“详细内存信息”可以得到更精确的私有内存用量，不过速度相对较慢。"
+
+#: ProcessModel.cpp:1005
+msgid "<qt><i>Technical information: </i>This is from /proc/*/cmdline"
+msgstr "<qt><i>技术信息：</i>此数据来源于 /proc/*/cmdline"
+
+#: ProcessModel.cpp:1007
+msgid ""
+"<qt><i>Technical information: </i>This is the amount of memory used by the "
+"Xorg process for images for this process.  This is memory used in addition "
+"to Memory and Shared Memory.<br><i>Technical information: </i>This only "
+"counts the pixmap memory, and does not include resource memory used by "
+"fonts, cursors, glyphsets etc.  See the <code>xrestop</code> program for a "
+"more detailed breakdown."
+msgstr ""
+"<qt><i>技术信息：</i>这是 Xorg 进程绘图时所占用的内存总量，其中排除了一般内存"
+"和共享内存的用量。<br><i>技术信息：</i>这里只计算位图内存，不包含字体、光标和"
+"符号集等的占用。查阅 <code>xrestop</code> 程序可以了解这些内存占用信息的详"
+"情。"
+
+#: ProcessModel.cpp:1009
+msgid ""
+"<qt><i>Technical information: </i>For each X11 window, the X11 property "
+"_NET_WM_PID is used to map the window to a PID.  If a process' windows are "
+"not shown, then that application incorrectly is not setting _NET_WM_PID."
+msgstr ""
+"<qt><i>技术信息：</i>每一个 X11 窗口都有用于和进程号实现映射的 _NET_WM_PID 属"
+"性。如果某个进程的窗口不能显示，相应的问题程序就不会设置 _NET_WM_PID 属性。"
+
+#: ProcessModel.cpp:1011
+msgid ""
+"<qt><i>Technical information: </i>This is the Process ID.  A multi-threaded "
+"application is treated a single process, with all threads sharing the same "
+"PID.  The CPU usage etc will be the total, accumulated, CPU usage of all the "
+"threads."
+msgstr ""
+"<qt><i>技术信息：</i>这里是进程号(PID)，多线程程序也会被当作单一进程来对待，"
+"它所有的线程都会共享相同的进程号。而 CPU 利用率则是所有线程用到的总计值。"
+
+#: ProcessModel.cpp:1014
+msgid ""
+"<qt>This column shows the IO statistics for each process. The tooltip "
+"provides the following information:<br><table><tr><td>Characters Read</"
+"td><td>The number of bytes which this task has caused to be read from "
+"storage. This is simply the sum of bytes which this process passed to read() "
+"and pread(). It includes things like tty IO and it is unaffected by whether "
+"or not actual physical disk IO was required (the read might have been "
+"satisfied from pagecache).</td></tr><tr><td>Characters Written</td><td>The "
+"number of bytes which this task has caused, or shall cause to be written to "
+"disk. Similar caveats apply here as with Characters Read.</td></"
+"tr><tr><td>Read Syscalls</td><td>The number of read I/O operations, i.e. "
+"syscalls like read() and pread().</td></tr><tr><td>Write Syscalls</"
+"td><td>The number of write I/O operations, i.e. syscalls like write() and "
+"pwrite().</td></tr><tr><td>Actual Bytes Read</td><td>The number of bytes "
+"which this process really did cause to be fetched from the storage layer. "
+"Done at the submit_bio() level, so it is accurate for block-backed "
+"filesystems. This may not give sensible values for NFS and CIFS filesystems."
+"</td></tr><tr><td>Actual Bytes Written</td><td>Attempt to count the number "
+"of bytes which this process caused to be sent to the storage layer. This is "
+"done at page-dirtying time.</td></table><p>The number in brackets shows the "
+"rate at which each value is changing, determined from taking the difference "
+"between the previous value and the new value, and dividing by the update "
+"interval.<p><i>Technical information: </i>This data is collected from /proc/"
+"*/io and is documented further in Documentation/accounting and Documentation/"
+"filesystems/proc.txt in the kernel source."
+msgstr ""
+"此栏目显示的是每个进程的 IO 状态，它提供以下的信息。<br><table><tr><td>读取字"
+"符数</td><td>此任务从存储介质上读取到的字符数，这个数据是相应进程流经过 read"
+"() 和 pread() 系统调用的所有字节数的简单相加和，其中也包括终端 IO 和其它不涉"
+"及真实磁盘读写的内容(如页面缓存字节)。</td></tr><tr><td>写入字符数</td><td>此"
+"任务向存储介质上已写入的字符数，数据来源和读取字符数类似。</td></tr><tr><td>"
+"读取调用数</td><td>执行读取 I/O 操作系统调用数量，例如 read() 和 pread()。</"
+"td></tr><tr><td>写入调用数</td><td>执行写入 I/O 操作的系统调用数量，例如 "
+"write() 和 pwrite()。</td></tr><tr><td>实际读取字节数</td><td>此进程实际从存"
+"储介质获取到的字节数量，由 submit_bio() 一级的系统调用完成。对于使用块设备存"
+"储的文件系统而言，这是一个精确的参考值，但对于 NFS 和 CIFS 等网络文件系统而言"
+"可能意义不大。</td></tr><tr><td>实际写入字节数</td><td>由此进程发送给存储介质"
+"的字符数统计，其数据是根据脏内存页处理时间得来。</td></table><p>括号内的数字"
+"显示的是各统计值的更新比率，它是由两次数据变化之间的差异除以更新时间间隔得来"
+"的。<p><i>技术信息：</i>此数据来源于 /proc/*/io，更详细的说明文档请参见内核树"
+"中 Documentation/accounting 和 Documentation/filesystems/proc.txt。"
+
+#: ProcessModel.cpp:1101
+#, kde-format
+msgid "Login Name: %1<br/>"
+msgstr "登录名：%1<br />"
+
+#: ProcessModel.cpp:1105
+msgid "This user is not recognized for some reason."
+msgstr "因为某些原因，无法识别此用户。"
+
+#: ProcessModel.cpp:1108
+#, kde-format
+msgid "<b>%1</b><br/>"
+msgstr "<b>%1</b><br/>"
+
+#: ProcessModel.cpp:1109
+#, kde-format
+msgid "Login Name: %1 (uid: %2)<br/>"
+msgstr "登录名：%1 (uid：%2)<br/>"
+
+#: ProcessModel.cpp:1111
+#, kde-format
+msgid "  Room Number: %1<br/>"
+msgstr "  房间号：%1<br/>"
+
+#: ProcessModel.cpp:1113
+#, kde-format
+msgid "  Work Phone: %1<br/>"
+msgstr "  工作电话：%1<br/>"
+
+#: ProcessModel.cpp:1120
+#, kde-format
+msgid "Effective User: %1<br/>"
+msgstr "有效用户：%1<br/>"
+
+#: ProcessModel.cpp:1122
+#, kde-format
+msgid "Setuid User: %1<br/>"
+msgstr "SetUid 用户：%1<br/>"
+
+#: ProcessModel.cpp:1124
+#, kde-format
+msgid "File System User: %1<br/>"
+msgstr "文件系统用户：%1<br />"
+
+#: ProcessModel.cpp:1128
+#, kde-format
+msgid "Group: %1"
+msgstr "组：%1"
+
+#: ProcessModel.cpp:1133
+#, kde-format
+msgid "<br/>Effective Group: %1"
+msgstr "<br/>有效用户组：%1"
+
+#: ProcessModel.cpp:1135
+#, kde-format
+msgid "<br/>Setuid Group: %1"
+msgstr "<br/>Setuid 用户组：%1"
+
+#: ProcessModel.cpp:1137
+#, kde-format
+msgid "<br/>File System Group: %1"
+msgstr "<br/>文件系统用户组：%1"
+
+#: ProcessModel.cpp:1144
+#, kde-format
+msgctxt "Short description of a process. PID, name, user"
+msgid "<numid>%1</numid>: %2, owned by user %3"
+msgstr "<numid>%1</numid>：%2，所属用户为 %3"
+
+#: ProcessModel.cpp:1151
+#, kde-format
+msgid "%1 (gid: <numid>%2</numid>)"
+msgstr "%1 (gid：<numid>%2</numid>)"
+
+#: ProcessModel.cpp:1172
+#, kde-format
+msgid "%1 (uid: %2)"
+msgstr "%1 (uid：%2)"
+
+#: ProcessModel.cpp:1210
+msgctxt "scheduler"
+msgid "Idle"
+msgstr "空闲"
+
+#: ProcessModel.cpp:1212
+#, kde-format
+msgctxt "scheduler"
+msgid "(Batch) %1"
+msgstr "(批处理) %1"
+
+#: ProcessModel.cpp:1214
+#, kde-format
+msgctxt "Round robin scheduler"
+msgid "RR %1"
+msgstr "RR %1"
+
+#: ProcessModel.cpp:1217
+msgctxt "Real Time scheduler"
+msgid "RT"
+msgstr "RT"
+
+#: ProcessModel.cpp:1219
+#, kde-format
+msgctxt "First in first out scheduler"
+msgid "FIFO %1"
+msgstr "先进先出(FIFO) %1"
+
+#: ProcessModel.cpp:1221
+#, kde-format
+msgctxt "scheduler"
+msgid "(IA) %1"
+msgstr "(IA) %1"
+
+#: ProcessModel.cpp:1278 ProcessModel.cpp:1286 ProcessModel.cpp:1304
+#: ProcessModel.cpp:1312
+#, kde-format
+msgid "%1/s"
+msgstr "%1/秒"
+
+#: ProcessModel.cpp:1345
+#, kde-format
+msgctxt "tooltip. name,pid "
+msgid "This process is being debugged by %1 (<numid>%2</numid>)"
+msgstr "此进程正在被 %1 (<numid>%2</numid>) 调试"
+
+#: ProcessModel.cpp:1366
+msgid ""
+"<b>Init</b> is the parent of all other processes and cannot be killed.<br/>"
+msgstr "<b>Init</b> 是所有其它进程的父进程，不能杀死。<br/>"
+
+#: ProcessModel.cpp:1368
+msgid ""
+"<b>KThreadd</b> manages kernel threads. The children processes run in the "
+"kernel, controlling hard disk access, etc.<br/>"
+msgstr ""
+"<b>KThreadd</b> 用于管理内核线程。其子进程在内核中运行，可控制硬盘访问等种种"
+"工作。<br/>"
+
+#: ProcessModel.cpp:1370
+#, kde-format
+msgctxt "name column tooltip. first item is the name"
+msgid "<b>%1</b><br />Process ID: <numid>%2</numid>"
+msgstr "<b>%1</b><br />进程号：<numid>%2</numid>"
+
+#: ProcessModel.cpp:1375
+#, kde-format
+msgctxt "name column tooltip. first item is the name"
+msgid ""
+"<b>%1</b><br />Process ID: <numid>%2</numid><br />Parent: %3<br />Parent's "
+"ID: <numid>%4</numid>"
+msgstr ""
+"<b>%1</b><br />进程号：<numid>%2</numid><br />父进程：<numid>%3</numid><br />"
+"父进程号：%4"
+
+#: ProcessModel.cpp:1377
+#, kde-format
+msgctxt "name column tooltip. first item is the name"
+msgid ""
+"<b>%1</b><br />Process ID: <numid>%2</numid><br />Parent's ID: <numid>%3</"
+"numid>"
+msgstr ""
+"<b>%1</b><br />进程号：<numid>%2</numid><br />父进程号：<numid>%3</numid>"
+
+#: ProcessModel.cpp:1381 ProcessModel.cpp:1445
+#, kde-format
+msgid "<br/>Number of threads: %1"
+msgstr "<br/>线程数：%1"
+
+#: ProcessModel.cpp:1383
+#, kde-format
+msgid "<br/>Command: %1"
+msgstr "<br/>命令：%1"
+
+#: ProcessModel.cpp:1386
+#, kde-format
+msgid "<br />Running on: %1"
+msgstr "<br />运行在：%1"
+
+#: ProcessModel.cpp:1394
+#, kde-format
+msgid "<qt>This process was run with the following command:<br />%1"
+msgstr "<qt>启动此进程的命令：<br />%1"
+
+#: ProcessModel.cpp:1396
+#, kde-format
+msgid "<br /><br />Running on: %1"
+msgstr "<br /><br />运行在：%1"
+
+#: ProcessModel.cpp:1411
+#, kde-format
+msgid "Nice level: %1 (%2)"
+msgstr "优先级：%1 (%2)"
+
+#: ProcessModel.cpp:1415
+#, kde-format
+msgid "This is a real time process.<br>Scheduler priority: %1"
+msgstr "这是实时进程。<br>调度优先级：%1"
+
+#: ProcessModel.cpp:1421
+#, kde-format
+msgid "<br/>Scheduler: %1"
+msgstr "<br/>调度器：%1"
+
+#: ProcessModel.cpp:1425 ProcessModel.cpp:1467
+#, kde-format
+msgid "<br/>I/O Nice level: %1 (%2)"
+msgstr "<br/>I/O 优先级：%1 (%2)"
+
+#: ProcessModel.cpp:1426 ProcessModel.cpp:1468
+#, kde-format
+msgid "<br/>I/O Class: %1"
+msgstr "<br/>I/O 类别：%1"
+
+#: ProcessModel.cpp:1434
+#, kde-format
+msgid ""
+"<qt><p style='white-space:pre'>Process status: %1 %2<br />User CPU usage: "
+"%3%<br />System CPU usage: %4%"
+msgstr ""
+"<qt><p style='white-space:pre'>进程状态：%1 %2<br />用户 CPU 使用率：%3%<br /"
+">系统 CPU 使用率：%4%</qt>"
+
+#: ProcessModel.cpp:1447
+#, kde-format
+msgid ""
+"<br />Number of children: %1<br />Total User CPU usage: %2%<br />Total "
+"System CPU usage: %3%<br />Total CPU usage: %4%"
+msgstr ""
+"<br />子进程数量：%1<br />用户 CPU 使用率总计：%2%<br />系统 CPU 使用率总计："
+"%3%<br />CPU 使用率总计：%4%"
+
+#: ProcessModel.cpp:1456
+#, kde-format
+msgid "<br /><br />CPU time spent running as user: %1 seconds"
+msgstr "<br /><br />花费在用户空间的 CPU 时间：%1 秒"
+
+#: ProcessModel.cpp:1460
+#, kde-format
+msgid "<br />CPU time spent running in kernel: %1 seconds"
+msgstr "<br />花费在内核空间的 CPU 时间：%1 秒"
+
+#: ProcessModel.cpp:1464
+#, kde-format
+msgid "<br />Nice level: %1 (%2)"
+msgstr "<br />优先级：%1 (%2)"
+
+#: ProcessModel.cpp:1483
+#, kde-format
+msgid "Memory usage: %1 out of %2  (%3 %)<br />"
+msgstr "内存用量：%1，共 %2 (%3%)<br />"
+
+#: ProcessModel.cpp:1485
+#, kde-format
+msgid "Memory usage: %1<br />"
+msgstr "内存用量：%1<br />"
+
+#: ProcessModel.cpp:1488
+#, kde-format
+msgid "RSS Memory usage: %1 out of %2  (%3 %)"
+msgstr "RSS 内存用量：%1，共 %2 (%3%)"
+
+#: ProcessModel.cpp:1490
+#, kde-format
+msgid "RSS Memory usage: %1"
+msgstr "RSS 内存用量：%1"
+
+#: ProcessModel.cpp:1496
+msgid ""
+"Your system does not seem to have this information available to be read."
+msgstr "您的系统似乎没有提供给我们这方面的信息。"
+
+#: ProcessModel.cpp:1500
+#, kde-format
+msgid "Shared library memory usage: %1 out of %2  (%3 %)"
+msgstr "共享库内存用量：%1，共 %2 (%3%)"
+
+#: ProcessModel.cpp:1502
+#, kde-format
+msgid "Shared library memory usage: %1"
+msgstr "共享库内存用量：%1"
+
+#: ProcessModel.cpp:1510
+#, kde-format
+msgid ""
+"Characters read: %1 (%2 KiB/s)<br>Characters written: %3 (%4 KiB/s)<br>Read "
+"syscalls: %5 (%6 s⁻¹)<br>Write syscalls: %7 (%8 s⁻¹)<br>Actual bytes read: "
+"%9 (%10 KiB/s)<br>Actual bytes written: %11 (%12 KiB/s)"
+msgstr ""
+"读取字符：%1(%2 KiB/秒)<br>写入字符：%3(%4 KiB/秒)<br>读取系统调用：%5(%6 "
+"s⁻¹)<br>写入系统调用：%7(%8 s⁻¹)<br>实际读取字节：%9(%10 KiB/秒)<br>实际写入"
+"字节：%11(%12 KiB/秒)"
+
+#: ProcessModel.cpp:1802
+msgctxt "process heading"
+msgid "Name"
+msgstr "名称"
+
+#: ProcessModel.cpp:1803
+msgctxt "process heading"
+msgid "Username"
+msgstr "用户名"
+
+#: ProcessModel.cpp:1804
+msgctxt "process heading"
+msgid "PID"
+msgstr "进程号"
+
+#: ProcessModel.cpp:1805
+msgctxt "process heading"
+msgid "TTY"
+msgstr "终端"
+
+#: ProcessModel.cpp:1806
+msgctxt "process heading"
+msgid "Niceness"
+msgstr "优先级"
+
+#: ProcessModel.cpp:1808
+#, no-c-format
+msgctxt "process heading"
+msgid "CPU %"
+msgstr "CPU %"
+
+#: ProcessModel.cpp:1809
+msgctxt "process heading"
+msgid "CPU Time"
+msgstr "CPU 时间"
+
+#: ProcessModel.cpp:1810
+msgctxt "process heading"
+msgid "IO Read"
+msgstr "IO 读取"
+
+#: ProcessModel.cpp:1811
+msgctxt "process heading"
+msgid "IO Write"
+msgstr "IO 写入"
+
+#: ProcessModel.cpp:1812
+msgctxt "process heading"
+msgid "Virtual Size"
+msgstr "虚拟大小"
+
+#: ProcessModel.cpp:1813
+msgctxt "process heading"
+msgid "Memory"
+msgstr "内存"
+
+#: ProcessModel.cpp:1814
+msgctxt "process heading"
+msgid "Shared Mem"
+msgstr "共享内存"
+
+#: ProcessModel.cpp:1815
+msgctxt "process heading"
+msgid "Command"
+msgstr "命令"
+
+#: ProcessModel.cpp:1817
+msgctxt "process heading"
+msgid "X11 Memory"
+msgstr "X11 内存"
+
+#: ProcessModel.cpp:1818
+msgctxt "process heading"
+msgid "Window Title"
+msgstr "窗口标题"
+
+#: ProcessModel.cpp:1937
+#, kde-format
+msgid "%1%"
+msgstr "%1%"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnKillProcess)
+#: ProcessWidgetUI.ui:39
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Attempt to kill the "
+"currently selected process by sending it the SIGTERM signal.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">Technical information: </span><br />The SIGTERM signal is sent to "
+"the given process. If there are insufficient privileges to do so, by default "
+"a password is requested.<br />By running the program <span style=\" font-"
+"family:'Courier New,courier';\">polkit-kde-authorization</span> you can give "
+"certain (or all) users permission to kill any process, without requiring a "
+"password. </p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">尝试以发送 SIGTERM 信号的方"
+"式杀死当前所选进程。</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">Technical information: </span><br />SIGTERM 信号将被发送到给定进"
+"程，如果权限不足，默认将会请求一个密码。<br />通过 <span style=\" font-"
+"family:'Courier New,courier';\">polkit-kde-authorization</span> 这个程序，您"
+"可以授予指定(或所有)用户不需密码就杀死任何进程的权限。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnKillProcess)
+#: ProcessWidgetUI.ui:42
+msgid "&End Process..."
+msgstr "结束进程(&E)..."
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, txtFilter)
+#: ProcessWidgetUI.ui:66
+msgid ""
+"Filter which processes are shown by the text given here.  The text can be a "
+"partial string match of the Name, Command or Window Title of the process.  "
+"It can also be a Username or a Process ID number.<p>\n"
+"For example:\n"
+"\n"
+"<table>\n"
+"<tr><th>ksys</th><td>Show processes containing \"<b>ksys</b>\" in the name, "
+"for example the processes \"<i>ksysguard</i>\" and \"<i>ksysguardd</i>\"."
+"<td></tr>\n"
+"<tr><th>root</th><td>Show processes owned by <b>root</b>.  For example "
+"<i>init</i></td></tr>\n"
+"<tr><th>1234</th><td>Show the processes with the PID or Parent PID of "
+"<b>1234</b>.</td></th></tr>\n"
+"</table>\n"
+msgstr ""
+"在此输入进程显示过滤文字。它可以是进程名、进程命令或是窗口标题文字中的一部"
+"分，也可以是进程用户名或进程号。<p>\n"
+"示例：\n"
+"\n"
+"<table>\n"
+"<tr><th>ksys</th><td>显示所有包含 “<b>ksys</b>” 字串的进程，例如 "
+"“<i>ksysguard</i>” 和 “<i>ksysguardd</i>”<td></tr>\n"
+"<td></tr>\n"
+"<tr><th>root</th><td>显示所有属于 <b>root</b> 用户的进程。例如 <i>init</i></"
+"td></tr>\n"
+"<tr><th>1234</th><td>显示所有进程号或其父进程号是 <b>1234</b> 的进程。 </"
+"td></th></tr>\n"
+"</table>\n"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, txtFilter)
+#: ProcessWidgetUI.ui:72
+msgid "Quick search"
+msgstr "快速搜索"
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, cmbFilter)
+#: ProcessWidgetUI.ui:101
+msgid ""
+"<qt>Change which processes are shown, and how they are shown.  The processes "
+"can be further filtered by using the Quick Search text filter.<p>\n"
+"<table>\n"
+"<tr><td>All Processes</td><td>Show all the processes on the system.</td></"
+"tr>\n"
+"<tr><td>All Processes, tree</td><td>Show all the processes on the system, in "
+"a hierarchical manner using the parent PID information.</td></tr>\n"
+"<tr><td>System Processes</td><td>Show processes running as root and as a "
+"user who cannot login.</td></tr>\n"
+"<tr><td>User Processes</td><td>Show processes running as a non-root user who "
+"can login.</td></tr>\n"
+"<tr><td>Own Processes</td><td>Show processes owned by the same user that "
+"this process is owned by.</td></tr>\n"
+"<tr><td>Programs Only</td><td>Show processes which are running as a user who "
+"can login and are either attached to a TTY or have at least one X11 Window.</"
+"td></tr>\n"
+"</table>\n"
+"<p>\n"
+"<i>Technical Information:</i><br>\n"
+"Processes with multiple threads are just shown as a single process, and not "
+"treated any differently.<br>\n"
+"Kernel threads are shown as normal processes, but are actually running "
+"inside the kernel and are not real processes.  As such, many of the fields "
+"(such as Username) do not apply.\n"
+msgstr ""
+"<qt>设定要显示哪些进程，以及怎样显示。您可以通过快速搜索过滤器来做到这些。"
+"<p>\n"
+"<table>\n"
+"<tr><td>所有进程</td><td>显示系统上的所有进程</td></tr>\n"
+"<tr><td>所有进程，树状</td><td>使用进程号按树状层级显示系统上的所有进程。</"
+"td></tr>\n"
+"<tr><td>系统进程</td><td>显示所有以 root 和其它以不可登录用户身份运行的进程。"
+"</td></tr>\n"
+"<tr><td>用户进程</td><td>显示所有以非 root 的可登录用户身份运行的进程。</"
+"td></tr>\n"
+"<tr><td>自属进程</td><td>显示所有当前用户身份所属的进程。</td></tr>\n"
+"<tr><td>程序进程</td><td>显示所有以可登录用户身份运行，并且已挂接到一个终端，"
+"或是拥有至少一个 X11 窗口的进程。</td></tr>\n"
+"</table>\n"
+"<p>\n"
+"<i>技术信息：</i><br>\n"
+"多线程进程只会显示为单一进程，不会被作为特例对待。<br>\n"
+"内核线程会被显示为普通进程，但只能在内核线程中运行，并非实际进程，因此有些字"
+"段(如用户名)不可用。\n"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
+#: ProcessWidgetUI.ui:111
+msgid "All Processes"
+msgstr "全部进程"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
+#: ProcessWidgetUI.ui:116
+msgid "All Processes, Tree"
+msgstr "全部进程，树形"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
+#: ProcessWidgetUI.ui:121
+msgid "System Processes"
+msgstr "系统进程"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
+#: ProcessWidgetUI.ui:126
+msgid "User Processes"
+msgstr "用户进程"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
+#: ProcessWidgetUI.ui:131
+msgid "Own Processes"
+msgstr "自有进程"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbFilter)
+#: ProcessWidgetUI.ui:136
+msgid "Programs Only"
+msgstr "只有程序"
+
+#: ReniceDlg.cpp:40
+msgid "Set Priority"
+msgstr "设定优先级"
+
+#: ReniceDlg.cpp:70
+msgctxt "Scheduler"
+msgid "Interactive"
+msgstr "交互"
+
+#. i18n: ectx: property (text), widget (QLabel, lblMessage1)
+#: ReniceDlgUi.ui:23
+msgid "Change scheduling priority for:"
+msgstr "更改调度优先级："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ReniceDlgUi.ui:100
+msgid "CPU Scheduler"
+msgstr "CPU 调度器"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioNormal)
+#: ReniceDlgUi.ui:129
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">The standard time-sharing "
+"scheduler for processes without special requirements.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">标准的进程分时调度器，没有"
+"特殊需求。</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioNormal)
+#: ReniceDlgUi.ui:136
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Normal Scheduling: Default Linux time-sharing  (Other)</span></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;"
+"\">Normal<span style=\" font-weight:400;\"> is the standard Linux time-"
+"sharing scheduler that is intended for all processes that do not  require "
+"special static priority real-time mechanisms. The process to run is chosen "
+"from the list of other</span> Normal<span style=\" font-weight:400;\"> or </"
+"span>Batch<span style=\" font-weight:400;\"> processes based on a dynamic "
+"priority that is determined only inside this list. The dynamic priority is "
+"based on the priority level given and increased for each time-quantum the "
+"process is ready to run, but denied to run by the scheduler. This ensures "
+"fair progress among all Normal processes.</span></p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">普通调度：使用Linux 默认的分时调度器(其它)</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;\">普通<span "
+"style=\" font-weight:400;\">的 Linux 标准分时调度器可供所有无特定实时优先级要"
+"求的进程使用。要运行的进程会从其它的</span>普通<span style=\" font-"
+"weight:400;\">或</span>批处理<span style=\" font-weight:400;\">进程列表中选"
+"择，选择依据于独立的动态优先级来决定，而这动态优先级则依据给定的优先级及进程"
+"的等待时间而非调度器来决定。这样可确保公平地调度所有常规意义上的进程。</"
+"span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioNormal)
+#. i18n: ectx: property (text), widget (QRadioButton, radioIONormal)
+#: ReniceDlgUi.ui:139 ReniceDlgUi.ui:303
+msgid "Normal"
+msgstr "普通"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioBatch)
+#: ReniceDlgUi.ui:149
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">For CPU-intensive non-"
+"interactive processes.  Process is mildly disfavored in scheduling decisions."
+"</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">对和非交互式进程不同的 CPU "
+"密集型进程而言，在调度时这些进程会被予以适度搁置。</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioBatch)
+#: ReniceDlgUi.ui:156
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Batch Scheduling</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;\"><span "
+"style=\" font-weight:400; font-style:italic;\">(Since Linux 2.6.16.)</"
+"span><span style=\" font-weight:400;\"> This policy is similar to </"
+"span>Normal<span style=\" font-weight:400;\">, except that this policy will "
+"cause the scheduler to always assume that the process is CPU-intensive.  "
+"Consequently, the scheduler will apply a small scheduling penalty so that "
+"this process is mildly disfavored in scheduling decisions. This policy is "
+"useful for workloads that are non-interactive, but do not want to lower "
+"their nice value, and for workloads that want a deterministic scheduling "
+"policy without interactivity causing extra preemptions (between the "
+"workload's tasks).</span></p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">批处理调度</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;\"><span "
+"style=\" font-weight:400; font-style:italic;\">(自 Linux 2.6.16 以后)</"
+"span><span style=\" font-weight:400;\">和</span>普通<span style=\" font-"
+"weight:400;\">调度规则近似，区别在于这种规则会假设进程都是 CPU 密集型的。因此"
+"在这种方案下，相应进程会在调度中受到一定的 CPU 等待时间惩罚, 但优先级不会低"
+"于 nice 设定值。如果您需要一种固定的调度顺序，并且不希望因交互式规则导致其它"
+"进程额外抢占过多的 CPU 时间，这种规则会很有用。</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioBatch)
+#: ReniceDlgUi.ui:159
+msgid "Batch"
+msgstr "批处理"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioRR)
+#: ReniceDlgUi.ui:169
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Process will run whenever "
+"runnable.  Higher priority than Normal or Batch.  Has Timeslicing.</p></"
+"body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">只要可以，进程就将运行。进"
+"程会有时间片动作，其优先级比普通或批处理模式都要高。</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioRR)
+#: ReniceDlgUi.ui:176
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Round Robin Scheduling</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Round Robin</span> is a simple enhancement of <span style=\" "
+"font-weight:600;\">FIFO</span>.  Everything described below for <span style="
+"\" font-weight:600;\">FIFO</span> also applies to <span style=\" font-"
+"weight:600;\">Round Robin</span>, except that each process is only allowed "
+"to run for a maximum time quantum.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">轮询调度</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">轮询</span>调度是基于<span style=\"font-weight:600;\">先进先出"
+"(FIFO)</span>原理的轻量增强型规则。下面关于<span style=\" font-weight:600;\">"
+"先进先出(FIFO)</span>的描述也适用于<span style=\" font-weight:600;\">轮询</"
+"span>，差别在于轮询时每个进程只能运行固定的最大时间段。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioRR)
+#: ReniceDlgUi.ui:179
+msgid "Round robin"
+msgstr "轮询"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioFIFO)
+#: ReniceDlgUi.ui:189
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Process will run whenever "
+"runnable.  Higher priority than Normal or Batch.  No timeslicing.</p></"
+"body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Process will run whenever "
+"right:0px; -qt-block-indent:0; text-indent:0px;\">只要可以，进程就将运行。进"
+"程不会有时间片动作，其优先级比普通或批处理模式都要高。</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioFIFO)
+#: ReniceDlgUi.ui:196
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">First In-First Out Scheduling</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">When  a  <span style=\" "
+"font-weight:600;\">FIFO</span> process  becomes  runnable,  it  will always "
+"immediately preempt any currently running <span style=\" font-weight:600;"
+"\">Normal</span> or <span style=\" font-weight:600;\">Batch</span> process.</"
+"p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">先进先出调度</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">当一个<span style=\" font-"
+"weight:600;\">先进先出(FIFO)</span>进程可运行时，它会立即抢占任何当前已在运行"
+"的<span style=\" font-weight:600;\">普通</span>或<span style=\" font-"
+"weight:600;\">批处理</span>进程。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioFIFO)
+#: ReniceDlgUi.ui:199
+msgid "FIFO"
+msgstr "先进先出"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ReniceDlgUi.ui:264
+msgid "I/O Scheduler"
+msgstr "I/O 调度器"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioIONormal)
+#: ReniceDlgUi.ui:293
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Process's priority is "
+"based on the CPU priority.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">进程优先级基于 CPU 优先级。"
+"</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioIONormal)
+#: ReniceDlgUi.ui:300
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Normal Scheduling</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">This is the same as <span "
+"style=\" font-weight:600;\">Best Effort</span> scheduling, except that the "
+"priority is calculated automatically based on the CPU priority.  Processes "
+"with a higher priority will take priority for access to the hard disk.  "
+"Programs running at the same <span style=\" font-weight:600;\">Best Effort/"
+"Normal</span> priority are served in a <span style=\" font-weight:600;"
+"\">Round Robin</span> fashion.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">普通调度</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">和<span style=\" font-"
+"weight:600;\">最佳</span>式调度基本一样，差别在于进程优先级会根据 CPU 优先级"
+"自动计算生成，优先级越高的进程对磁盘的访问优先级也越高。以相同的<span style="
+"\" font-weight:600;\">最佳/普通</span>优先级运行的程序会以<span style=\" "
+"font-weight:600;\">轮询</span>方式交替运行。</p></body></html>"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioIdle)
+#: ReniceDlgUi.ui:313
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Process can only use the "
+"hard disk when no other process has used it very recently.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">只有在没有其它进程最近使用"
+"过磁盘的情况下，进程才被允许访问磁盘。</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioIdle)
+#: ReniceDlgUi.ui:320
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Idle Scheduling</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">A  program running with "
+"<span style=\" font-weight:600;\">Idle</span> I/O priority will only get "
+"disk time when no other program has asked for disk I/O for a defined grace "
+"period. The impact of <span style=\" font-weight:600;\">Idle</span> I/O "
+"processes on normal system activity should be zero. Priority is not "
+"applicable to this scheduling class.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">空闲调度</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">如果程序以<span style=\" "
+"font-weight:600;\">空闲</span> I/O 优先级运行，只当没有其它程序在预定的一段时"
+"间内请求过磁盘 I/O 的情况下，此程序才被允许获得对磁盘的访问优先权。使用<span "
+"style=\" font-weight:600;\">空闲</span> I/O 调度的进程对常规系统活动基本没有"
+"影响，而且进程优先级对它没有意义。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioIdle)
+#: ReniceDlgUi.ui:323
+msgid "Idle"
+msgstr "空闲"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioBestEffort)
+#: ReniceDlgUi.ui:333
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Process is given higher "
+"priority to access the hard disk than Normal.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">与普通调度相比，进程会被给"
+"予更高的对磁盘访问的优先级。</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioBestEffort)
+#: ReniceDlgUi.ui:340
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Best Effort Scheduling</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Processes with a higher "
+"priority will take priority for access to the hard disk.  Programs running "
+"at the same <span style=\" font-weight:600;\">Best Effort/Normal</span> "
+"priority are served in a <span style=\" font-weight:600;\">Round Robin</"
+"span> fashion.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">最佳调度</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">优先级越高的进程对磁盘访问"
+"的优先级也越高。以相同的<span style=\" font-weight:600;\">最佳/普通</span>优"
+"先级运行的程序会以<span style=\" font-weight:600;\">轮询</span>方式交替运行。"
+"</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioBestEffort)
+#: ReniceDlgUi.ui:343
+msgid "Best effort"
+msgstr "最佳"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioRealTime)
+#: ReniceDlgUi.ui:353
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Process gets immediate "
+"access to the hard disk whenever needed, regardless of what else is going on."
+"</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">在需要时进程可立即获得对磁"
+"盘的访问权，不管是否有其它进程在操作。</p></body></html>"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, radioRealTime)
+#: ReniceDlgUi.ui:360
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Real Time Scheduling</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">The <span style=\" font-"
+"weight:600;\">Real Time</span> scheduling class is given first access to the "
+"disk, regardless of what else is going on in the system. Thus the <span "
+"style=\" font-weight:600;\">Real Time</span> class needs to be used with "
+"some care, as it can starve other processes. As with the <span style=\" font-"
+"weight:600;\">Best Effort</span> class, 8 priority levels are defined "
+"denoting how big a time slice a given process will receive on each "
+"scheduling window.</p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">实时调度</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">实时调度</span>进程会获得对磁盘访问的第一优先级，不管系统中是否"
+"有其它进程在操作。因此您应该小心地使用<span style=\" font-weight:600;\">实时"
+"</span>调度，它会阻塞其它进程对磁盘的操作。当与<span style=\" font-"
+"weight:600;\">最佳</span>方式一同使用时，可以定义八种优先级别，以指定每个调度"
+"窗口中要给予进程多大的时间片。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioRealTime)
+#: ReniceDlgUi.ui:363
+msgid "Real time"
+msgstr "实时"
+
+#. i18n: ectx: property (text), widget (QLabel, lblCpuLow)
+#. i18n: ectx: property (text), widget (QLabel, lblIOLow)
+#: ReniceDlgUi.ui:399 ReniceDlgUi.ui:464
+msgid "Low Priority"
+msgstr "低优先级"
+
+#. i18n: ectx: property (text), widget (QLabel, lblCpuHigh)
+#. i18n: ectx: property (text), widget (QLabel, lblIOHigh)
+#: ReniceDlgUi.ui:406 ReniceDlgUi.ui:471
+msgid "High Priority"
+msgstr "高优先级"
+
+#~ msgid "End Process..."
+#~ msgid_plural "End Processes..."
+#~ msgstr[0] "结束进程..."
+
+#~ msgid ""
+#~ "You do not have sufficient privileges to change the CPU scheduler. "
+#~ "Aborting."
+#~ msgstr "您没有权限更改 CPU 调度器。已中止。"
+
+#~ msgid ""
+#~ "You do not have sufficient privileges to change the CPU priority. "
+#~ "Aborting."
+#~ msgstr "您没有权限更改 CPU 优先级。已放弃。"
+
+#~ msgid ""
+#~ "You do not have sufficient privileges to change the IO scheduler and "
+#~ "priority. Aborting."
+#~ msgstr "您没有权限更改 IO 调度器和优先级。已放弃。"

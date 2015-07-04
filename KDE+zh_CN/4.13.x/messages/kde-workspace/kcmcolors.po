@@ -1,0 +1,1084 @@
+# translation of kcmcolors.po to 简体中文
+# Message Translation for kcmcolors.
+# Copyright (C) 2000,2003, 2008 Free Software Foundation, Inc.
+#
+# Gou Zhuang <gouzhuang@bigfoot.com>, 2000,2005.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2010, 2012.
+# Lie Ex <lilith.ex@gmail.com>, 2009.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmcolors\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-12 01:42+0000\n"
+"PO-Revision-Date: 2012-09-01 10:30+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: attribute (title), widget (QWidget, pageColors)
+#: colorscm.cpp:83 colorsettings.ui:267
+msgid "Colors"
+msgstr "颜色"
+
+#: colorscm.cpp:85
+msgid "(c) 2007 Matthew Woehlke"
+msgstr "(c) 2007 Matthew Woehlke"
+
+#: colorscm.cpp:87
+msgid "Matthew Woehlke"
+msgstr "Matthew Woehlke"
+
+#: colorscm.cpp:89
+msgid "Jeremy Whiting"
+msgstr "Jeremy Whiting"
+
+#: colorscm.cpp:140 colorscm.cpp:268 colorscm.cpp:1274
+msgctxt "Default color scheme"
+msgid "Default"
+msgstr "默认"
+
+#: colorscm.cpp:145 colorscm.cpp:280 colorscm.cpp:1098 colorscm.cpp:1184
+msgctxt "Current color scheme"
+msgid "Current"
+msgstr "当前"
+
+#: colorscm.cpp:252
+msgid "Selecting another scheme will discard any changes you have made"
+msgstr "选择其它方案会丢弃所有您之前的更改"
+
+#: colorscm.cpp:253
+msgid "Are you sure?"
+msgstr "您确定吗？"
+
+#: colorscm.cpp:319
+msgid "You do not have permission to delete that scheme"
+msgstr "您没有权限删除这个方案"
+
+#: colorscm.cpp:319 colorscm.cpp:535
+msgid "Error"
+msgstr "错误"
+
+#: colorscm.cpp:327
+msgid "Import Color Scheme"
+msgstr "导入配色方案"
+
+#: colorscm.cpp:340
+msgid ""
+"The scheme you have selected appears to be a KDE3 scheme.\n"
+"\n"
+"KDE will attempt to import this scheme, however many color roles have been "
+"added since KDE3. Some manual work will likely be required.\n"
+"\n"
+"This scheme will not be saved automatically."
+msgstr ""
+"您选择的是 KDE3 配色方案。\n"
+"\n"
+"KDE 将会尝试导入此方案，然而许多色彩规则是在 KDE3 之后新增的，您可能仍需要手"
+"动修改一些东西。\n"
+"\n"
+"此方案不会被自动保存。"
+
+#: colorscm.cpp:344
+msgid "Notice"
+msgstr "注意"
+
+#: colorscm.cpp:416
+msgid "Please save the color scheme before uploading it."
+msgstr "请在上传前先保存此配色方案。"
+
+#: colorscm.cpp:417
+msgid "Please save"
+msgstr "请保存"
+
+#: colorscm.cpp:447 colorscm.cpp:478
+msgid "Save Color Scheme"
+msgstr "保存配色方案"
+
+#: colorscm.cpp:448
+msgid "&Enter a name for the color scheme:"
+msgstr "输入配色方案的名称(&E)："
+
+#: colorscm.cpp:477
+msgid ""
+"A color scheme with that name already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+"同名的配色方案已经存在。\n"
+"您想要覆盖它吗？"
+
+#: colorscm.cpp:535
+msgid "You do not have permission to overwrite that scheme"
+msgstr "您没有权限覆盖这个方案"
+
+#: colorscm.cpp:738 colorscm.cpp:754
+msgid "Varies"
+msgstr "可变"
+
+#: colorscm.cpp:779
+msgid "Normal Background"
+msgstr "正常背景"
+
+#: colorscm.cpp:780
+msgid "Alternate Background"
+msgstr "交替背景"
+
+#: colorscm.cpp:781
+msgid "Normal Text"
+msgstr "普通文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorscm.cpp:782 colorsettings.ui:540
+msgid "Inactive Text"
+msgstr "非活动文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorscm.cpp:783 colorsettings.ui:545
+msgid "Active Text"
+msgstr "活动文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorscm.cpp:784 colorsettings.ui:550
+msgid "Link Text"
+msgstr "链接文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorscm.cpp:785 colorsettings.ui:555
+msgid "Visited Text"
+msgstr "已访问文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorscm.cpp:786 colorsettings.ui:560
+msgid "Negative Text"
+msgstr "负面文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorscm.cpp:787 colorsettings.ui:565
+msgid "Neutral Text"
+msgstr "中性文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorscm.cpp:788 colorsettings.ui:570
+msgid "Positive Text"
+msgstr "正面文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorscm.cpp:789 colorsettings.ui:575
+msgid "Focus Decoration"
+msgstr "焦点装饰"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorscm.cpp:790 colorsettings.ui:580
+msgid "Hover Decoration"
+msgstr "悬停装饰"
+
+#. i18n: ectx: attribute (title), widget (QWidget, pageScheme)
+#: colorsettings.ui:24
+msgid "&Scheme"
+msgstr "方案(&S)"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, schemeKnsButton)
+#: colorsettings.ui:48
+msgid "Get new color schemes from the Internet"
+msgstr "从互联网获得新配色方案"
+
+#. i18n: ectx: property (text), widget (KPushButton, schemeKnsButton)
+#: colorsettings.ui:51
+msgid "Get &New Schemes..."
+msgstr "获取新方案(&N)..."
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, schemeKnsUploadButton)
+#: colorsettings.ui:61
+msgid "Share the selected scheme on the Internet"
+msgstr "在互联网上分享所选方案"
+
+#. i18n: ectx: property (text), widget (KPushButton, schemeKnsUploadButton)
+#: colorsettings.ui:64
+msgid "&Upload Scheme..."
+msgstr "上传方案(&U)..."
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, schemeImportButton)
+#: colorsettings.ui:71
+msgid "Import a color scheme from a file"
+msgstr "从文件导入配色方案"
+
+#. i18n: ectx: property (text), widget (KPushButton, schemeImportButton)
+#: colorsettings.ui:74
+msgid "Import Scheme..."
+msgstr "导入方案..."
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, schemeSaveButton)
+#: colorsettings.ui:81
+msgid "Save the current color scheme"
+msgstr "保存当前配色方案"
+
+#. i18n: ectx: property (text), widget (KPushButton, schemeSaveButton)
+#: colorsettings.ui:84
+msgid "Save Scheme..."
+msgstr "保存方案..."
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, schemeRemoveButton)
+#: colorsettings.ui:94
+msgid "Remove the selected scheme"
+msgstr "删除选择的方案"
+
+#. i18n: ectx: property (text), widget (KPushButton, schemeRemoveButton)
+#: colorsettings.ui:97
+msgid "Remove Scheme"
+msgstr "删除方案"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: colorsettings.ui:125 colorsettings.ui:672 colorsettings.ui:959
+#: colorsettings.ui:1209
+msgid "Preview"
+msgstr "预览"
+
+#. i18n: ectx: attribute (title), widget (QWidget, pageOptions)
+#: colorsettings.ui:151
+msgid "Options"
+msgstr "选项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useInactiveEffects)
+#: colorsettings.ui:157
+msgid "Apply inactive window color &effects"
+msgstr "将颜色应用到非活动窗口(&E)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, inactiveSelectionEffect)
+#: colorsettings.ui:164
+msgid "In&active selection changes color"
+msgstr "取消选区时更改颜色(&A)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, shadeSortedColumn)
+#: colorsettings.ui:171
+msgid "Shade sorted column &in lists"
+msgstr "为排序过的列表添加阴影(&I)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, applyToAlien)
+#: colorsettings.ui:181
+msgid "Apply colors to &non-KDE4 applications"
+msgstr "将颜色应用到非 KDE4 应用程序(&N)"
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_5)
+#: colorsettings.ui:188
+msgid "Shading of frames and lighting (\"3D\") effects"
+msgstr "框架阴影以及 3D 光亮特效"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: colorsettings.ui:191
+msgid "Shading"
+msgstr "阴影"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: colorsettings.ui:203
+msgid "Minimum"
+msgstr "最小"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: colorsettings.ui:223
+msgid "Maximum"
+msgstr "最大"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: colorsettings.ui:230
+msgid "Contrast"
+msgstr "对比度"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: colorsettings.ui:279
+msgid "Color set:"
+msgstr "颜色设定："
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, colorSet)
+#: colorsettings.ui:292
+msgid "Colorset to view/modify"
+msgstr "要查看/修改的配色集"
+
+#. i18n: 'Common' here means &quot;frequent/not rare&quot;, not &quot;shared&quot;
+#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
+#: colorsettings.ui:296
+msgctxt "color-sets"
+msgid "Common Colors"
+msgstr "通用颜色"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
+#: colorsettings.ui:301
+msgctxt "color-sets"
+msgid "View"
+msgstr "查看"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
+#: colorsettings.ui:306
+msgctxt "color-sets"
+msgid "Window"
+msgstr "窗口"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
+#: colorsettings.ui:311
+msgctxt "color-sets"
+msgid "Button"
+msgstr "按钮"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
+#: colorsettings.ui:316
+msgctxt "color-sets"
+msgid "Selection"
+msgstr "选区"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), item, widget (QComboBox, colorSet)
+#: colorsettings.ui:321
+msgctxt "color-sets"
+msgid "Tooltip"
+msgstr "工具提示"
+
+#. i18n: ectx: property (text), widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:355 colorsettings.ui:360 colorsettings.ui:365
+#: colorsettings.ui:370 colorsettings.ui:375 colorsettings.ui:380
+#: colorsettings.ui:385 colorsettings.ui:390 colorsettings.ui:395
+#: colorsettings.ui:400 colorsettings.ui:405 colorsettings.ui:410
+#: colorsettings.ui:415 colorsettings.ui:420 colorsettings.ui:425
+#: colorsettings.ui:430 colorsettings.ui:435 colorsettings.ui:440
+#: colorsettings.ui:445 colorsettings.ui:450 colorsettings.ui:455
+#: colorsettings.ui:460 colorsettings.ui:465 colorsettings.ui:470
+#: colorsettings.ui:475 colorsettings.ui:480
+msgid "New Row"
+msgstr "新行"
+
+#. i18n: ectx: property (text), widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:485
+msgid "0"
+msgstr "0"
+
+#. i18n: ectx: property (text), widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:490
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:495
+msgid "View Background"
+msgstr "查看背景"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:500
+msgid "View Text"
+msgstr "查看文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:505
+msgid "Window Background"
+msgstr "窗口背景"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:510
+msgid "Window Text"
+msgstr "窗口文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:515
+msgid "Button Background"
+msgstr "按钮背景"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:520
+msgid "Button Text"
+msgstr "按钮文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:525
+msgid "Selection Background"
+msgstr "选区背景"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:530
+msgid "Selection Text"
+msgstr "选区文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:535
+msgid "Selection Inactive Text"
+msgstr "选区的非活动文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:585
+msgid "Tooltip Background"
+msgstr "工具提示背景"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:590
+msgid "Tooltip Text"
+msgstr "工具提示文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:595
+msgid "Active Titlebar"
+msgstr "活动标题栏"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:600
+msgid "Active Titlebar Text"
+msgstr "活动标题栏文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:605
+msgid "Active Titlebar Secondary"
+msgstr "活动标题栏副标题"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:610
+msgid "Inactive Titlebar"
+msgstr "非活动标题栏"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:615
+msgid "Inactive Titlebar Text"
+msgstr "非活动标题栏文字"
+
+#. i18n: ectx: property (text), item, widget (QTableWidget, commonColorTable)
+#: colorsettings.ui:620
+msgid "Inactive Titlebar Secondary"
+msgstr "非活动标题栏副标题"
+
+#. i18n: ectx: attribute (title), widget (QWidget, pageInactice)
+#: colorsettings.ui:735
+msgctxt "@title:tab color transformations on inactive elements"
+msgid "Inactive"
+msgstr "非活动区域"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: colorsettings.ui:741 colorsettings.ui:991
+msgid "Intensity:"
+msgstr "强度："
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, inactiveIntensityBox)
+#: colorsettings.ui:751
+msgid "Inactive intensity effect type"
+msgstr "非活动区域的强度效果类型"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
+#: colorsettings.ui:755
+msgctxt "no inactive intensity effect"
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
+#: colorsettings.ui:760
+msgctxt "inactive intensity effect"
+msgid "Shade"
+msgstr "阴影"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
+#: colorsettings.ui:765
+msgctxt "inactive intensity effect"
+msgid "Darken"
+msgstr "模糊"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveIntensityBox)
+#: colorsettings.ui:770
+msgctxt "inactive intensity effect"
+msgid "Lighten"
+msgstr "光亮"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, inactiveIntensitySlider)
+#: colorsettings.ui:781
+msgid "Inactive intensity effect amount"
+msgstr "非活动区域的强度效果份量"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: colorsettings.ui:813 colorsettings.ui:1063
+msgid "Color:"
+msgstr "颜色："
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, inactiveColorBox)
+#: colorsettings.ui:823
+msgid "Inactive color effect type"
+msgstr "非活动区域的颜色效果类型"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
+#: colorsettings.ui:827
+msgctxt "no inactive color effect"
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
+#: colorsettings.ui:832
+msgctxt "inactive color effect"
+msgid "Desaturate"
+msgstr "减饱和"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
+#: colorsettings.ui:837
+msgctxt "inactive color effect"
+msgid "Fade"
+msgstr "淡出"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveColorBox)
+#: colorsettings.ui:842
+msgctxt "inactive color effect"
+msgid "Tint"
+msgstr "染色"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, inactiveColorSlider)
+#: colorsettings.ui:853
+msgid "Inactive color amount"
+msgstr "非活动区域的颜色份量"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, inactiveColorButton)
+#: colorsettings.ui:872
+msgid "Inactive color"
+msgstr "非活动区域的颜色"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: colorsettings.ui:879 colorsettings.ui:1129
+msgid "Contrast:"
+msgstr "对比度："
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, inactiveContrastBox)
+#: colorsettings.ui:889
+msgid "Inactive contrast effect type"
+msgstr "非活动区域的对比度效果类型"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
+#: colorsettings.ui:893
+msgctxt "no inactive contrast effect"
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
+#: colorsettings.ui:898
+msgctxt "inactive contrast effect"
+msgid "Fade"
+msgstr "淡出"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, inactiveContrastBox)
+#: colorsettings.ui:903
+msgctxt "inactive contrast effect"
+msgid "Tint"
+msgstr "染色"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, inactiveContrastSlider)
+#: colorsettings.ui:914
+msgid "Inactive contrast effect amount"
+msgstr "非活动区域的对比度效果份量"
+
+#. i18n: ectx: attribute (title), widget (QWidget, pageDisabled)
+#: colorsettings.ui:985
+msgctxt "@title:tab color transformations on disabled elements"
+msgid "Disabled"
+msgstr "禁用区域"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, disabledIntensityBox)
+#: colorsettings.ui:1001
+msgid "Disabled intensity effect type"
+msgstr "禁用区域的强度效果类型"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
+#: colorsettings.ui:1005
+msgctxt "no disabled intensity effect"
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
+#: colorsettings.ui:1010
+msgctxt "disabled intensity effect"
+msgid "Shade"
+msgstr "阴影"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
+#: colorsettings.ui:1015
+msgctxt "disabled intensity effect"
+msgid "Darken"
+msgstr "模糊"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledIntensityBox)
+#: colorsettings.ui:1020
+msgctxt "disabled intensity effect"
+msgid "Lighten"
+msgstr "光亮"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, disabledIntensitySlider)
+#: colorsettings.ui:1031
+msgid "Disabled intensity effect amount"
+msgstr "禁用区域的强度效果份量"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, disabledColorBox)
+#: colorsettings.ui:1073
+msgid "Disabled color effect type"
+msgstr "禁用区域的颜色效果类型"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
+#: colorsettings.ui:1077
+msgctxt "no disabled color effect"
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
+#: colorsettings.ui:1082
+msgctxt "disabled color effect"
+msgid "Desaturate"
+msgstr "减饱和"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
+#: colorsettings.ui:1087
+msgctxt "disabled color effect"
+msgid "Fade"
+msgstr "淡出"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledColorBox)
+#: colorsettings.ui:1092
+msgctxt "disabled color effect"
+msgid "Tint"
+msgstr "染色"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, disabledColorSlider)
+#: colorsettings.ui:1103
+msgid "Disabled color effect amount"
+msgstr "禁用区域的颜色效果份量"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, disabledColorButton)
+#: colorsettings.ui:1122
+msgid "Disabled color"
+msgstr "禁用区域的颜色"
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, disabledContrastBox)
+#: colorsettings.ui:1139
+msgid "Disabled contrast type"
+msgstr "禁用区域的对比度类型"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
+#: colorsettings.ui:1143
+msgctxt "no disabled contrast"
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
+#: colorsettings.ui:1148
+msgctxt "disabled contrast"
+msgid "Fade"
+msgstr "淡出"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, disabledContrastBox)
+#: colorsettings.ui:1153
+msgctxt "disabled contrast"
+msgid "Tint"
+msgstr "染色"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, disabledContrastSlider)
+#: colorsettings.ui:1164
+msgid "Disabled contrast amount"
+msgstr "禁用区域的对比度份量"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#: preview.ui:29
+msgid "Window text on Window Background"
+msgstr "窗口背景上的窗口文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: preview.ui:32
+msgctxt "color-kcm-preview"
+msgid "Window text"
+msgstr "窗口文字"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelView0)
+#: preview.ui:63
+msgid "View Normal Text against View Normal Background"
+msgstr "在正常背景下查看正常文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelView0)
+#: preview.ui:66
+msgctxt "color-kcm-preview"
+msgid "Normal text"
+msgstr "普通文字"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelView3)
+#: preview.ui:78
+msgid "View Link Text against View Normal Background"
+msgstr "在正常背景下查看链接文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelView3)
+#. i18n: ectx: property (text), widget (QLabel, labelSelection3)
+#: preview.ui:81 preview.ui:199
+msgctxt "color-kcm-preview"
+msgid "link"
+msgstr "链接"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelView4)
+#: preview.ui:93
+msgid "View Visited Text against View Normal Background"
+msgstr "在正常背景下查看已访问文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelView4)
+#. i18n: ectx: property (text), widget (QLabel, labelSelection4)
+#: preview.ui:96 preview.ui:214
+msgctxt "color-kcm-preview"
+msgid "visited"
+msgstr "已访问链接"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelView2)
+#: preview.ui:103
+msgid "View Active Text against View Normal Background"
+msgstr "在正常背景下查看活动文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelView2)
+#. i18n: ectx: property (text), widget (QLabel, labelSelection2)
+#: preview.ui:106 preview.ui:224
+msgctxt "color-kcm-preview"
+msgid "a"
+msgstr "a"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelView1)
+#: preview.ui:113
+msgid "View Inactive Text against View Normal Background"
+msgstr "在正常背景下查看非活动文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelView1)
+#. i18n: ectx: property (text), widget (QLabel, labelSelection1)
+#: preview.ui:116 preview.ui:234
+msgctxt "color-kcm-preview"
+msgid "i"
+msgstr "i"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelView5)
+#: preview.ui:123
+msgid "View Negative Text against View Normal Background"
+msgstr "在正常背景下查看负面文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelView5)
+#. i18n: ectx: property (text), widget (QLabel, labelSelection5)
+#: preview.ui:126 preview.ui:244
+msgctxt "color-kcm-preview"
+msgid "!"
+msgstr "!"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelView6)
+#: preview.ui:133
+msgid "View Neutral Text against View Normal Background"
+msgstr "在正常背景下查看中性文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelView6)
+#. i18n: ectx: property (text), widget (QLabel, labelSelection6)
+#: preview.ui:136 preview.ui:254
+msgctxt "color-kcm-preview"
+msgid "="
+msgstr "="
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelView7)
+#: preview.ui:143
+msgid "View Positive Text against View Normal Background"
+msgstr "在正常背景下查看正面文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelView7)
+#. i18n: ectx: property (text), widget (QLabel, labelSelection7)
+#: preview.ui:146 preview.ui:264
+msgctxt "color-kcm-preview"
+msgid "+"
+msgstr "+"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelSelection0)
+#: preview.ui:181
+msgid "Selection Normal Text against Selection Normal Background"
+msgstr "查看选择正常背景时的正常文字效果"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelSelection0)
+#: preview.ui:184
+msgctxt "color-kcm-preview"
+msgid "Selected text"
+msgstr "选中文字"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelSelection3)
+#: preview.ui:196
+msgid "Selection Link Text against Selection Normal Background"
+msgstr "查看选择正常背景时的链接文字效果"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelSelection4)
+#: preview.ui:211
+msgid "Selection Visited Text against Selection Normal Background"
+msgstr "查看选择正常背景时的已访问文字效果"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelSelection2)
+#: preview.ui:221
+msgid "Selection Active Text against Selection Normal Background"
+msgstr "查看选择正常背景时的活动文字效果"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelSelection1)
+#: preview.ui:231
+msgid "Selection Inactive Text against Selection Normal Background"
+msgstr "查看选择正常背景时的非活动文字效果"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelSelection5)
+#: preview.ui:241
+msgid "Selection Negative Text against Selection Normal Background"
+msgstr "查看选择正常背景时的负面文字效果"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelSelection6)
+#: preview.ui:251
+msgid "Selection Neutral Text against Selection Normal Background"
+msgstr "查看选择正常背景时的中性文字效果"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelSelection7)
+#: preview.ui:261
+msgid "Selection Positive Text against Selection Normal Background"
+msgstr "查看选择正常背景时的正面文字效果"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, pushButton)
+#: preview.ui:293
+msgid "Button text on Button Background"
+msgstr "按钮背景上的按钮文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#: preview.ui:296
+msgctxt "color-kcm-preview"
+msgid "Push Button"
+msgstr "按下的按钮"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelFore0)
+#. i18n: ectx: property (toolTip), widget (QLabel, labelBack0)
+#: setpreview.ui:35 setpreview.ui:189
+msgid "Normal Text on Normal Background"
+msgstr "正常背景上的正常文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelFore0)
+#. i18n: ectx: property (text), widget (QLabel, labelBack0)
+#: setpreview.ui:38 setpreview.ui:192
+msgctxt "color-kcm-set-preview"
+msgid "normal"
+msgstr "正常"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelFore3)
+#: setpreview.ui:56
+msgid "Link Text on Normal Background"
+msgstr "正常背景上的链接文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelFore3)
+#. i18n: ectx: property (text), widget (QLabel, labelBack3)
+#: setpreview.ui:59 setpreview.ui:214
+msgctxt "color-kcm-set-preview"
+msgid "link"
+msgstr "链接"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelFore4)
+#: setpreview.ui:77
+msgid "Visited Text on Normal Background"
+msgstr "正常背景上的已访问文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelFore4)
+#. i18n: ectx: property (text), widget (QLabel, labelBack4)
+#: setpreview.ui:80 setpreview.ui:236
+msgctxt "color-kcm-set-preview"
+msgid "visited"
+msgstr "已访问"
+
+#. i18n: ectx: property (toolTip), widget (QWidget, widgetFore2)
+#: setpreview.ui:90
+msgid "Active Text on Normal Background"
+msgstr "正常背景上的活动文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelFore2)
+#. i18n: ectx: property (text), widget (QLabel, labelBack2)
+#: setpreview.ui:96 setpreview.ui:253
+msgctxt "color-kcm-set-preview"
+msgid "active"
+msgstr "活动"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelFore1)
+#: setpreview.ui:109
+msgid "Inactive Text on Normal Background"
+msgstr "正常背景上的非活动文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelFore1)
+#: setpreview.ui:112
+msgctxt "color-kcm-set-preview"
+msgid "inactive"
+msgstr "非活动"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelFore5)
+#: setpreview.ui:125
+msgid "Negative Text on Normal Background"
+msgstr "正常背景上的正面文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelFore5)
+#. i18n: ectx: property (text), widget (QLabel, labelBack5)
+#: setpreview.ui:128 setpreview.ui:286
+msgctxt "color-kcm-set-preview"
+msgid "negative"
+msgstr "负面"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelFore6)
+#: setpreview.ui:141
+msgid "Neutral Text on Normal Background"
+msgstr "正常背景上的中性文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelFore6)
+#. i18n: ectx: property (text), widget (QLabel, labelBack6)
+#: setpreview.ui:144 setpreview.ui:303
+msgctxt "color-kcm-set-preview"
+msgid "neutral"
+msgstr "中性"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelFore7)
+#: setpreview.ui:157
+msgid "Positive Text on Normal Background"
+msgstr "正常背景上的正面文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelFore7)
+#. i18n: ectx: property (text), widget (QLabel, labelBack7)
+#: setpreview.ui:160 setpreview.ui:320
+msgctxt "color-kcm-set-preview"
+msgid "positive"
+msgstr "正面"
+
+#. i18n: ectx: property (toolTip), widget (QWidget, widgetFore8)
+#: setpreview.ui:170
+msgid "Hover on Normal Background"
+msgstr "在正常背景上悬停鼠标"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelFore8)
+#: setpreview.ui:176
+msgctxt "color-kcm-set-preview"
+msgid "hover"
+msgstr "悬停"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelBack3)
+#: setpreview.ui:211
+msgid ""
+"Link Text on Link Background\n"
+"(Note: Link Background is derived from Link Text and cannot be separately "
+"configured at this time)"
+msgstr ""
+"链接背景下的链接文字\n"
+"(注意：链接背景是由链接文字而产生，此时不能被分离)"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelBack4)
+#: setpreview.ui:233
+msgid ""
+"Visited Text on Visited Background\n"
+"(Note: Visited Background is derived from Visited Text and cannot be "
+"separately configured at this time)"
+msgstr ""
+"已访问背景下的已访问文字\n"
+"(注意：已访问背景是由已访问文字而产生，此时不能被分离)"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelBack2)
+#: setpreview.ui:250
+msgid ""
+"Active Text on Active Background\n"
+"(Note: Active Background is derived from Active Text and cannot be "
+"separately configured at this time)"
+msgstr ""
+"活动背景下的活动文字\n"
+"(注意：活动背景是由活动文字而产生，此时不能被分离)"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelBack1)
+#: setpreview.ui:266
+msgid "Inactive Text on Alternate Background"
+msgstr "交替背景上的非活动文字"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelBack1)
+#: setpreview.ui:269
+msgctxt "color-kcm-set-preview"
+msgid "alternate"
+msgstr "交替"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelBack5)
+#: setpreview.ui:283
+msgid ""
+"Negative Text on Negative Background\n"
+"(Note: Negative Background is derived from Negative Text and cannot be "
+"separately configured at this time)"
+msgstr ""
+"负面背景下的负面文字\n"
+"(注意：负面背景是由负面文字而产生，此时不能被分离)"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelBack6)
+#: setpreview.ui:300
+msgid ""
+"Neutral Text on Neutral Background\n"
+"(Note: Neutral Background is derived from Neutral Text and cannot be "
+"separately configured at this time)"
+msgstr ""
+"中性背景下的中性文字\n"
+"(注意：中性背景是由中性文字而产生，此时不能被分离)"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelBack7)
+#: setpreview.ui:317
+msgid ""
+"Positive Text on Positive Background\n"
+"(Note: Positive Background is derived from Positive Text and cannot be "
+"separately configured at this time)"
+msgstr ""
+"正面背景下的正面文字\n"
+"(注意：正面背景是由正面文字而产生，此时不能被分离)"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelFore9)
+#: setpreview.ui:333
+msgid "Focus on Normal Background"
+msgstr "正常背景上的焦点"
+
+#. i18n: see kdebase/workspace/kcontrol/colors/README.i18n
+#. i18n: ectx: property (text), widget (QLabel, labelFore9)
+#: setpreview.ui:336
+msgctxt "color-kcm-set-preview"
+msgid "focus"
+msgstr "焦点"
+
+#~ msgid "Contrast used for 3D objects"
+#~ msgstr "3D 物体的对比度"

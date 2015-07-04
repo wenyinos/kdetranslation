@@ -1,0 +1,221 @@
+# Copyright (C) 2003 the KDE Team.
+# Funda Wang <fundawang@linux.net.cn>, 2003
+# Lie_Ex <lilith.ex@gmail.com>, 2007
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmwallet 3.2\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-08 01:37+0000\n"
+"PO-Revision-Date: 2009-05-18 10:49+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: konfigurator.cpp:52
+msgid "kcmkwallet"
+msgstr "kcmkwallet"
+
+#: konfigurator.cpp:53 konfigurator.cpp:275 konfigurator.cpp:277
+msgid "KDE Wallet Control Module"
+msgstr "KDE 钱包控制模块"
+
+#: konfigurator.cpp:55
+msgid "(c) 2003 George Staikos"
+msgstr "(c) 2003 George Staikos"
+
+#: konfigurator.cpp:56
+msgid "George Staikos"
+msgstr "George Staikos"
+
+#: konfigurator.cpp:124
+msgid "New Wallet"
+msgstr "新建钱包"
+
+#: konfigurator.cpp:125
+msgid "Please choose a name for the new wallet:"
+msgstr "请选择新钱包的名称："
+
+#: konfigurator.cpp:243 konfigurator.cpp:316
+msgid "Always Allow"
+msgstr "总是允许"
+
+#: konfigurator.cpp:246 konfigurator.cpp:253 konfigurator.cpp:329
+msgid "Always Deny"
+msgstr "总是拒绝"
+
+#: konfigurator.cpp:275
+msgid "Sorry, the system security policy didn't allow you to save the changes."
+msgstr "抱歉，系统安全策略不允许保存更改。"
+
+#: konfigurator.cpp:365
+msgid ""
+"This configuration module allows you to configure the KDE wallet system."
+msgstr "此配置模块允许您配置 KDE 钱包系统。"
+
+#: konfigurator.cpp:374
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab1)
+#: walletconfigwidget.ui:16
+msgid "Wallet Preferences"
+msgstr "钱包首选项"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, _enabled)
+#: walletconfigwidget.ui:22
+#, fuzzy
+#| msgid ""
+#| "<p>The wallet subsystem provides a convenient and secure way to manage "
+#| "all your passwords.  This option specifies whether or not you want to use "
+#| "it.</p>"
+msgid ""
+"<p>The wallet subsystem provides a convenient and secure way to manage all "
+"your passwords. This option specifies whether or not you want to use it.</p>"
+msgstr ""
+"<p>钱包子系统提供了一种方便安全的途径让您管理所有密码。您可以用此选项决定是否"
+"要使用此系统。</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _enabled)
+#: walletconfigwidget.ui:25
+msgid "&Enable the KDE wallet subsystem"
+msgstr "启用 KDE 钱包子系统(&E)"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox2)
+#: walletconfigwidget.ui:35
+msgid ""
+"It is best to close your wallets when you are not using them to prevent "
+"others from viewing or using them."
+msgstr "建议您不再使用钱包时就关闭钱包，这样就没人可以看到或使用您的钱包了。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: walletconfigwidget.ui:38
+msgid "Close Wallet"
+msgstr "关闭钱包"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, _closeIdle)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, _idleTime)
+#: walletconfigwidget.ui:46 walletconfigwidget.ui:59
+msgid ""
+"<p><b>Close wallet after a period of inactivity.</b><br>When a wallet is "
+"closed the password is needed to access it again.</p>"
+msgstr ""
+"<p><b>关闭钱包前等待的时间段</b><br>钱包关闭后，仍需要密码才能再次打开。</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _closeIdle)
+#: walletconfigwidget.ui:49
+msgid "Close when unused for:"
+msgstr "关闭钱包前等："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, _idleTime)
+#: walletconfigwidget.ui:62
+msgid " min"
+msgstr " 分"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, _screensaverLock)
+#: walletconfigwidget.ui:99
+msgid ""
+"<p><b>Close wallet as soon as the screensaver starts.</b><br>When a wallet "
+"is closed the password is needed to access it again.</p>"
+msgstr ""
+"<p><b>只要屏幕保护程序一启动，就关闭钱包。</b><br>钱包关闭后，仍需要密码才能"
+"再次打开。</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _screensaverLock)
+#: walletconfigwidget.ui:102
+msgid "Close when screensaver starts"
+msgstr "屏幕保护程序启动后关闭"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, _autoclose)
+#: walletconfigwidget.ui:109
+msgid ""
+"<p><b>Close wallet as soon as applications that use it have stopped.</"
+"b><br>Note that your wallet will only be closed when all applications that "
+"use it have stopped.<br>When a wallet is closed the password is needed to "
+"access it again.</p>"
+msgstr ""
+"<p><b>应用程序停止使用钱包后立即关闭钱包。</b><br>请注意，仅当使用钱包的全部"
+"程序关闭后，您的钱包才会关闭。<br>钱包关闭后，仍需要密码才能再次打开。</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _autoclose)
+#: walletconfigwidget.ui:112
+msgid "Close when last application stops using it"
+msgstr "最后一个应用程序不再使用钱包后关闭"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
+#: walletconfigwidget.ui:122
+msgid "Automatic Wallet Selection"
+msgstr "自动选择钱包"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: walletconfigwidget.ui:128
+msgid "Select wallet to use as default:"
+msgstr "选择要使用的默认钱包："
+
+#. i18n: ectx: property (text), widget (QPushButton, _newWallet)
+#. i18n: ectx: property (text), widget (QPushButton, _newLocalWallet)
+#: walletconfigwidget.ui:161 walletconfigwidget.ui:191
+msgid "New..."
+msgstr "新建..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, _localWalletSelected)
+#: walletconfigwidget.ui:168
+msgid "Different wallet for local passwords:"
+msgstr "本地密码的默认钱包："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: walletconfigwidget.ui:201
+msgid "Wallet Manager"
+msgstr "钱包管理器"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _launchManager)
+#: walletconfigwidget.ui:207
+msgid "Show manager in system tray"
+msgstr "在系统托盘中显示管理器"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _autocloseManager)
+#: walletconfigwidget.ui:235
+msgid "Hide system tray icon when last wallet closes"
+msgstr "最后一个钱包关闭后隐藏系统托盘图标"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab2)
+#: walletconfigwidget.ui:280
+msgid "Access Control"
+msgstr "访问控制"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _openPrompt)
+#: walletconfigwidget.ui:286
+msgid "&Prompt when an application accesses a wallet"
+msgstr "应用程序访问钱包时提示(&P)"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, _accessList)
+#: walletconfigwidget.ui:300
+msgid "Wallet"
+msgstr "钱包"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, _accessList)
+#: walletconfigwidget.ui:311
+msgid "Application"
+msgstr "应用程序"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, _accessList)
+#: walletconfigwidget.ui:322
+msgid "Policy"
+msgstr "策略"
+
+#. i18n: ectx: property (text), widget (QPushButton, _launch)
+#: walletconfigwidget.ui:358
+msgid "&Launch Wallet Manager"
+msgstr "调用钱包管理器(&L)"

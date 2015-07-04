@@ -1,0 +1,172 @@
+# translation of libphonon.po to Chinese Simplified
+# Copyright (C) 2007 Free Software Foundation, Inc.
+#
+# Funda Wang <fundawang@gmail.com>, 2007.
+# Liang Qi <cavendish.qi@gmail.com>, 2007.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010, 2011.
+# Phoenix Nemo <phoenixlzx>, 2013.
+# FengChao <rainofchaos@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: libphonon\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-08 01:42+0000\n"
+"PO-Revision-Date: 2013-02-13 22:14+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: audiooutput.cpp:481 audiooutput.cpp:519
+#, qt-format
+msgid ""
+"<html>The audio playback device <b>%1</b> does not work.<br/>Falling back to "
+"<b>%2</b>.</html>"
+msgstr "<html>音频播放设备 <b>%1</b> 不工作。<br/>换回 <b>%2</b>。</html>"
+
+#: audiooutput.cpp:494
+#, qt-format
+msgid ""
+"<html>Switching to the audio playback device <b>%1</b><br/>which just became "
+"available and has higher preference.</html>"
+msgstr ""
+"<html>正在切换到音频播放设备 <b>%1</b><br/>，它正好可用并且选择级别更高。</"
+"html>"
+
+#: audiooutput.cpp:497 audiooutput.cpp:515
+#, qt-format
+msgid "Revert back to device '%1'"
+msgstr "换回设备“%1”"
+
+#: audiooutput.cpp:512
+#, qt-format
+msgid ""
+"<html>Switching to the audio playback device <b>%1</b><br/>which has higher "
+"preference or is specifically configured for this stream.</html>"
+msgstr ""
+"<html>正在切换到音频回放设备 <b>%1</b><br/>，它具有更高的选择级别或者为此媒体"
+"流所特定指派。</html>"
+
+#: factory.cpp:421
+msgid "Restart Application"
+msgstr "重启应用程序"
+
+#: factory.cpp:422
+#, qt-format
+msgid ""
+"You changed the backend of the Phonon multimedia system.\n"
+"\n"
+"To apply this change you will need to restart '%1'."
+msgstr ""
+"您更改了 Phonon 多媒体系统的后端。\n"
+"\n"
+"您需要重启“%1”以应用此更改。"
+
+#: mediacontroller.cpp:158
+msgid "Main Menu"
+msgstr "主菜单"
+
+#: mediacontroller.cpp:160
+msgid "Title Menu"
+msgstr "标题菜单"
+
+#: mediacontroller.cpp:162
+msgid "Audio Menu"
+msgstr "音频菜单"
+
+#: mediacontroller.cpp:164
+msgid "Subtitle Menu"
+msgstr "字幕菜单"
+
+#: mediacontroller.cpp:166
+msgid "Chapter Menu"
+msgstr "章节菜单"
+
+#: mediacontroller.cpp:168
+msgid "Angle Menu"
+msgstr "角度菜单"
+
+#: mediaobject.cpp:426
+#, qt-format
+msgid "%0 by %1"
+msgstr "%1 的 %0"
+
+#: phononnamespace.cpp:55
+msgctxt "Phonon::"
+msgid "Notifications"
+msgstr "通知"
+
+#: phononnamespace.cpp:57
+msgctxt "Phonon::"
+msgid "Music"
+msgstr "音乐"
+
+#: phononnamespace.cpp:59
+msgctxt "Phonon::"
+msgid "Video"
+msgstr "视频"
+
+#: phononnamespace.cpp:61 phononnamespace.cpp:77
+msgctxt "Phonon::"
+msgid "Communication"
+msgstr "通讯"
+
+#: phononnamespace.cpp:63
+msgctxt "Phonon::"
+msgid "Games"
+msgstr "游戏"
+
+#: phononnamespace.cpp:65
+msgctxt "Phonon::"
+msgid "Accessibility"
+msgstr "辅助功能"
+
+#: phononnamespace.cpp:79
+msgctxt "Phonon::"
+msgid "Recording"
+msgstr "录制"
+
+#: phononnamespace.cpp:81
+msgctxt "Phonon::"
+msgid "Control"
+msgstr "控制"
+
+#: pulsesupport.cpp:274 pulsesupport.cpp:285
+msgid "PulseAudio Sound Server"
+msgstr "PulseAudio 声音服务"
+
+#: volumeslider.cpp:40 volumeslider.cpp:58 volumeslider.cpp:187
+#: volumeslider.cpp:202
+#, qt-format
+msgid "Volume: %1%"
+msgstr "音量：%1%"
+
+#: volumeslider.cpp:43 volumeslider.cpp:61 volumeslider.cpp:115
+#, qt-format
+msgid ""
+"Use this slider to adjust the volume. The leftmost position is 0%, the "
+"rightmost is %1%"
+msgstr "使用这个滑块调节音量。最左侧的位置是 0%，最右侧的位置是 %1%"
+
+#: volumeslider.cpp:182
+msgid "Muted"
+msgstr "静音"
+
+#, fuzzy
+#~| msgctxt "Phonon::"
+#~| msgid "Communication"
+#~ msgctxt "Phonon::"
+#~ msgid "CaptureCommunication"
+#~ msgstr "通讯"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "KDE 中国"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "kde-china@kde.org"

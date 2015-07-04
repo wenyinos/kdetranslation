@@ -1,0 +1,250 @@
+# translation of plasma_applet_battery.po to 简体中文
+#
+# Funda Wang <fundawang@linux.net.cn>, 2006.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010, 2012.
+# Feng Chao <rainofchaos@gmail.com>, 2010, 2011, 2013.
+# Weng Xuetian <wengxt@gmail.com>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_battery\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-12 01:39+0000\n"
+"PO-Revision-Date: 2013-06-18 22:22+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: contents/code/logic.js:99 contents/code/logic.js:101
+msgid "Fully Charged"
+msgstr "充电完成"
+
+#: contents/code/logic.js:100
+msgid "Discharging"
+msgstr "正在用电"
+
+#: contents/code/logic.js:102
+msgid "Charging"
+msgstr "正在充电"
+
+#: contents/code/logic.js:105
+msgctxt "Battery is currently not present in the bay"
+msgid "Not present"
+msgstr "不可用"
+
+#: contents/code/logic.js:156
+msgid "No batteries available"
+msgstr "没有可用的电池"
+
+#: contents/code/logic.js:165
+#, kde-format
+msgctxt "Placeholder is battery name"
+msgid "%1:"
+msgstr "%1:"
+
+#: contents/code/logic.js:168 contents/ui/BatteryItem.qml:185
+#, kde-format
+msgctxt "Placeholder is battery percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/code/logic.js:170
+msgid "N/A"
+msgstr "不可用"
+
+#: contents/code/logic.js:191
+msgid "Power management is disabled"
+msgstr "电源管理已被禁用"
+
+#: contents/ui/BatteryItem.qml:225
+msgid "Time To Full:"
+msgstr "充满时间："
+
+#: contents/ui/BatteryItem.qml:225
+msgid "Time To Empty:"
+msgstr "耗尽时间："
+
+#: contents/ui/BatteryItem.qml:230
+msgid "Capacity:"
+msgstr "容量："
+
+#: contents/ui/BatteryItem.qml:235
+msgid "Vendor:"
+msgstr "厂商："
+
+#: contents/ui/BatteryItem.qml:240
+msgid "Model:"
+msgstr "型号："
+
+#: contents/ui/BatteryItem.qml:257
+#, kde-format
+msgctxt "Placeholder is battery capacity"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/batterymonitor.qml:172
+msgid "The battery applet has enabled system-wide inhibition"
+msgstr "电池小程序已经禁止了系统休眠"
+
+#: contents/ui/BrightnessItem.qml:88
+#, kde-format
+msgctxt "Placeholder is brightness percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/CompactRepresentation.qml:88
+#, kde-format
+msgctxt "battery percentage below battery icon"
+msgid "%1%"
+msgstr "%1%"
+
+#: contents/ui/PopupDialog.qml:126
+msgid "Display Brightness"
+msgstr "显示亮度"
+
+#: contents/ui/PopupDialog.qml:137
+msgid "Keyboard Brightness"
+msgstr "键盘亮度"
+
+#: contents/ui/PopupDialog.qml:155
+msgid "No screen or keyboard brightness controls available"
+msgstr ""
+
+#: contents/ui/PowerManagementItem.qml:55
+msgid "Enable Power Management"
+msgstr "启用电源管理"
+
+#~ msgid "Not Charging"
+#~ msgstr "未充电"
+
+#~ msgid "1 hour "
+#~ msgid_plural "%1 hours "
+#~ msgstr[0] "%1 小时 "
+
+#~ msgid "1 minute"
+#~ msgid_plural "%1 minutes"
+#~ msgstr[0] "%1 分钟"
+
+#, fuzzy
+#~| msgid "AC Adapter:"
+#~ msgid "AC Adapter"
+#~ msgstr "交流适配器："
+
+#, fuzzy
+#~| msgid "Plugged in"
+#~ msgid "Plugged In"
+#~ msgstr "已插入 "
+
+#, fuzzy
+#~| msgid "Not plugged in"
+#~ msgid "Not Plugged In"
+#~ msgstr "未插入"
+
+#, fuzzy
+#~| msgctxt "Label for remaining time"
+#~| msgid "Time Remaining:"
+#~ msgid "Time remaining until full: %1"
+#~ msgstr "剩余时间："
+
+#, fuzzy
+#~| msgctxt "Label for remaining time"
+#~| msgid "Time Remaining:"
+#~ msgid "Time remaining until empty: %1"
+#~ msgstr "剩余时间："
+
+#, fuzzy
+#~| msgid "<b>%1% (charged)</b>"
+#~ msgid "%1% (charged)"
+#~ msgstr "<b>%1% (已充满)</b>"
+
+#~ msgctxt "tooltip"
+#~ msgid "AC Adapter:"
+#~ msgstr "交流适配器："
+
+#~ msgctxt "tooltip"
+#~ msgid "<b>Plugged in</b>"
+#~ msgstr "<b>已插入</b>"
+
+#~ msgctxt "tooltip"
+#~ msgid "<b>Not plugged in</b>"
+#~ msgstr "<b>未插入</b>"
+
+#~ msgctxt "overlay on the battery, needs to be really tiny"
+#~ msgid "%1%"
+#~ msgstr "%1%"
+
+#~ msgid "Configure Battery Monitor"
+#~ msgstr "配置电池监视器"
+
+#~ msgid "Show charge &information"
+#~ msgstr "显示电量信息(&I)"
+
+#~ msgid "Screen Brightness:"
+#~ msgstr "屏幕亮度："
+
+#~ msgctxt "Suspend the computer to RAM; translation should be short"
+#~ msgid "Sleep"
+#~ msgstr "睡眠"
+
+#~ msgctxt "Suspend the computer to disk; translation should be short"
+#~ msgid "Hibernate"
+#~ msgstr "休眠"
+
+#~ msgctxt "Battery is not plugged in"
+#~ msgid "<b>Not present</b>"
+#~ msgstr "<b>不可用</b>"
+
+#~ msgid "Battery:"
+#~ msgstr "电池："
+
+#~ msgctxt "tooltip: placeholder is the battery ID"
+#~ msgid "Battery %1:"
+#~ msgstr "电池 %1："
+
+#~ msgid "Show the state for &each battery present"
+#~ msgstr "显示每个电池的状态(&E)"
+
+#~ msgctxt "Placeholder is the battery ID"
+#~ msgid "Battery %1:"
+#~ msgstr "电池 %1："
+
+#~ msgid "<b>Battery:</b>"
+#~ msgstr "<b>电池：</b>"
+
+#~ msgctxt "tooltip"
+#~ msgid "<b>AC Adapter:</b>"
+#~ msgstr "<b>交流适配器：</b>"
+
+#~ msgctxt "tooltip"
+#~ msgid "Plugged in"
+#~ msgstr "已插入 "
+
+#~ msgctxt "tooltip"
+#~ msgid "Not plugged in"
+#~ msgstr "未插入"
+
+#~ msgid "Show remaining time for the battery"
+#~ msgstr "显示电池的剩余时间"
+
+#~ msgctxt "tooltip: placeholder is the battery ID"
+#~ msgid "<b>Battery %1:</b>"
+#~ msgstr "<b>电池 %1：</b>"
+
+#~ msgid "General"
+#~ msgstr "常规"
+
+#~ msgid "Power Settings"
+#~ msgstr "电源设置"
+
+#~ msgid "Power Profile:"
+#~ msgstr "电源配置："
+
+#~ msgid "AC Adapter: "
+#~ msgstr "交流适配器："
+
+#~ msgid "<b>Battery:</b> "
+#~ msgstr "<b>电池：</b> "

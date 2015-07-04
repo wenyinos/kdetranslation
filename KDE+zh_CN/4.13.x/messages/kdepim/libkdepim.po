@@ -1,0 +1,659 @@
+#
+# Funda Wang <fundawang@linux.net.cn>, 2002-2005.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2009.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkdepim\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-22 01:41+0000\n"
+"PO-Revision-Date: 2013-01-22 15:33-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: addressline/addresseelineedit.cpp:116
+#, fuzzy, kde-format
+#| msgid "LDAP server %1"
+msgid "LDAP server: %1"
+msgstr "LDAP 服务器 %1"
+
+#: addressline/addresseelineedit.cpp:288
+msgctxt "@title:group"
+msgid "Contacts found in your data"
+msgstr ""
+
+#: addressline/addresseelineedit.cpp:1273
+msgid "Configure Completion Order..."
+msgstr "编辑补全顺序..."
+
+#: addressline/completionordereditor.cpp:77
+#, kde-format
+msgid "LDAP server %1"
+msgstr "LDAP 服务器 %1"
+
+#: addressline/completionordereditor.cpp:198
+msgid "Edit Completion Order"
+msgstr "编辑完成顺序"
+
+#: addressline/recentaddresses.cpp:184
+msgid "Edit Recent Addresses"
+msgstr "编辑最近使用的地址"
+
+#: addressline/recentaddresses.cpp:209
+msgid "&Add"
+msgstr "添加(&A)"
+
+#: addressline/recentaddresses.cpp:213
+msgid "&Remove"
+msgstr "删除(&R)"
+
+#: job/addcontactjob.cpp:65
+#, fuzzy
+#| msgid ""
+#| "The VCard's primary email address is already in your address book; "
+#| "however, you may save the VCard into a file and import it into the "
+#| "address book manually."
+msgctxt "@info"
+msgid ""
+"The vCard's primary email address is already in your address book; however, "
+"you may save the vCard into a file and import it into the address book "
+"manually."
+msgstr ""
+"VCard 的主邮件地址已经在您的地址簿中；但是，您仍然可以将 VCard 保存到文件，并"
+"将其手动导入到地址簿中。"
+
+#: job/addcontactjob.cpp:120
+#, fuzzy
+#| msgid ""
+#| "The VCard was added to your address book; you can add more information to "
+#| "this entry by opening the address book."
+msgctxt "@info"
+msgid ""
+"The vCard was added to your address book; you can add more information to "
+"this entry by opening the address book."
+msgstr "VCard 已经添加到您的地址簿中，您打开地址簿后可以为此项添加更多信息。"
+
+#: job/addemailaddressjob.cpp:86
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>The email address <b>%1</b> is already in your address book.</qt>"
+msgctxt "@info"
+msgid ""
+"A contact with the email address <email>%1</email> is already in your "
+"address book."
+msgstr "<qt>电子邮件地址 <b>%1</b> 已经在您的地址簿中。</qt>"
+
+#: job/addemailaddressjob.cpp:140 job/addemaildisplayjob.cpp:164
+msgctxt "@info"
+msgid ""
+"You must create an address book before adding a contact. Do you want to "
+"create an address book?"
+msgstr ""
+
+#: job/addemailaddressjob.cpp:141 job/addemaildisplayjob.cpp:165
+msgctxt "@title:window"
+msgid "No Address Book Available"
+msgstr "无可用地址簿"
+
+#: job/addemailaddressjob.cpp:143 job/addemaildisplayjob.cpp:167
+msgid "Add Address Book"
+msgstr "添加地址簿"
+
+#: job/addemailaddressjob.cpp:225
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>The email address <b>%1</b> is already in your address book.</qt>"
+msgctxt "@info"
+msgid ""
+"<para>A contact for <email>%1</email> was successfully added to your address "
+"book.</para><para>Do you want to edit this new contact now?</para>"
+msgstr "<qt>电子邮件地址 <b>%1</b> 已经在您的地址簿中。</qt>"
+
+#: job/addemailaddressjob.cpp:253
+#, kde-format
+msgid "Contact cannot be stored: %1"
+msgstr ""
+
+#: job/addemailaddressjob.cpp:253
+msgid "Failed to store contact"
+msgstr ""
+
+#: job/addemailaddressjob.cpp:258
+msgid "Contact created successfully"
+msgstr ""
+
+#: ldap/addhostdialog.cpp:34
+msgid "Add Host"
+msgstr "添加主机"
+
+#: ldap/kcmldap.cpp:89
+msgid "kcmldap"
+msgstr "kcmldap"
+
+#: ldap/kcmldap.cpp:90
+msgid "LDAP Server Settings"
+msgstr "LDAP 服务器设置"
+
+#: ldap/kcmldap.cpp:92
+msgid "(c) 2009 - 2010 Tobias Koenig"
+msgstr "(c) 2009 - 2010 Tobias Koenig"
+
+#: ldap/kcmldap.cpp:94
+msgid "Tobias Koenig"
+msgstr "Tobias Koenig"
+
+#: ldap/kcmldap.cpp:159
+msgid "Edit Host"
+msgstr "编辑主机"
+
+#: ldap/kcmldap.cpp:174
+#, kde-format
+msgid "Do you want to remove setting for host \"%1\"?"
+msgstr ""
+
+#: ldap/kcmldap.cpp:174
+#, fuzzy
+#| msgid "&Remove Host"
+msgid "Remove Host"
+msgstr "删除主机(&R)"
+
+#: ldap/kcmldap.cpp:314
+msgid "LDAP Servers"
+msgstr "LDAP 服务器"
+
+#: ldap/kcmldap.cpp:318
+msgid "Check all servers that should be used:"
+msgstr "检查应使用的全部服务器："
+
+#: ldap/kcmldap.cpp:346
+msgid "&Add Host..."
+msgstr "添加主机(&A)..."
+
+#: ldap/kcmldap.cpp:348
+msgid "&Edit Host..."
+msgstr "编辑主机(&E)..."
+
+#: ldap/kcmldap.cpp:351
+msgid "&Remove Host"
+msgstr "删除主机(&R)"
+
+#: ldap/ldapclientsearchconfig.cpp:107
+msgid ""
+"LDAP password is stored as clear text, do you want to store it in kwallet?"
+msgstr ""
+
+#: ldap/ldapclientsearchconfig.cpp:108
+msgid "Store clear text password in KWallet"
+msgstr ""
+
+#: ldap/ldapsearchdialog.cpp:99
+msgctxt "@item LDAP search key"
+msgid "Title"
+msgstr "头衔"
+
+#: ldap/ldapsearchdialog.cpp:100 ldap/ldapsearchdialog.cpp:309
+msgid "Full Name"
+msgstr "全名"
+
+#: ldap/ldapsearchdialog.cpp:101
+msgctxt "@item LDAP search key"
+msgid "Email"
+msgstr "电子邮件"
+
+#: ldap/ldapsearchdialog.cpp:102 ldap/ldapsearchdialog.cpp:144
+#: ldap/ldapsearchdialog.cpp:315
+msgid "Home Number"
+msgstr "宅电"
+
+#: ldap/ldapsearchdialog.cpp:103 ldap/ldapsearchdialog.cpp:146
+#: ldap/ldapsearchdialog.cpp:318
+msgid "Work Number"
+msgstr "办公电话"
+
+#: ldap/ldapsearchdialog.cpp:104 ldap/ldapsearchdialog.cpp:321
+msgid "Mobile Number"
+msgstr "移动电话"
+
+#: ldap/ldapsearchdialog.cpp:105 ldap/ldapsearchdialog.cpp:324
+msgid "Fax Number"
+msgstr "传真"
+
+#: ldap/ldapsearchdialog.cpp:106
+msgid "Pager"
+msgstr "寻呼机"
+
+#: ldap/ldapsearchdialog.cpp:107 ldap/ldapsearchdialog.cpp:333
+msgid "Street"
+msgstr "街道"
+
+#: ldap/ldapsearchdialog.cpp:108
+msgctxt "@item LDAP search key"
+msgid "State"
+msgstr "州/省"
+
+#: ldap/ldapsearchdialog.cpp:109 ldap/ldapsearchdialog.cpp:340
+msgid "Country"
+msgstr "国家"
+
+#: ldap/ldapsearchdialog.cpp:110 ldap/ldapsearchdialog.cpp:349
+msgid "City"
+msgstr "城市"
+
+#: ldap/ldapsearchdialog.cpp:111 ldap/ldapsearchdialog.cpp:330
+msgid "Organization"
+msgstr "组织"
+
+#: ldap/ldapsearchdialog.cpp:112 ldap/ldapsearchdialog.cpp:327
+msgid "Company"
+msgstr "公司"
+
+#: ldap/ldapsearchdialog.cpp:113 ldap/ldapsearchdialog.cpp:352
+msgid "Department"
+msgstr "部门"
+
+#: ldap/ldapsearchdialog.cpp:114 ldap/ldapsearchdialog.cpp:343
+msgid "Zip Code"
+msgstr "邮编"
+
+#: ldap/ldapsearchdialog.cpp:115 ldap/ldapsearchdialog.cpp:346
+msgid "Postal Address"
+msgstr "邮政地址"
+
+#: ldap/ldapsearchdialog.cpp:116 ldap/ldapsearchdialog.cpp:355
+msgid "Description"
+msgstr "描述"
+
+#: ldap/ldapsearchdialog.cpp:117 ldap/ldapsearchdialog.cpp:358
+msgid "User ID"
+msgstr "用户编号"
+
+#: ldap/ldapsearchdialog.cpp:137
+msgctxt "Search attribute: Name of contact"
+msgid "Name"
+msgstr "名称"
+
+#: ldap/ldapsearchdialog.cpp:142
+msgctxt "Search attribute: Email of the contact"
+msgid "Email"
+msgstr "电子邮件"
+
+#: ldap/ldapsearchdialog.cpp:312
+msgctxt "@title:column Column containing email addresses"
+msgid "Email"
+msgstr "电子邮件"
+
+#: ldap/ldapsearchdialog.cpp:337
+msgctxt "@title:column Column containing the residential state of the address"
+msgid "State"
+msgstr "州/省"
+
+#: ldap/ldapsearchdialog.cpp:361
+msgctxt "@title:column Column containing title of the person"
+msgid "Title"
+msgstr "头衔"
+
+#: ldap/ldapsearchdialog.cpp:519
+msgid "Import Contacts from LDAP"
+msgstr "从 LDAP 导入联系人"
+
+#: ldap/ldapsearchdialog.cpp:531
+msgid "Search for Addresses in Directory"
+msgstr "在目录中搜索地址"
+
+#: ldap/ldapsearchdialog.cpp:538
+msgid "Search for:"
+msgstr "搜索："
+
+#: ldap/ldapsearchdialog.cpp:546
+msgctxt "In LDAP attribute"
+msgid "in"
+msgstr "于"
+
+#: ldap/ldapsearchdialog.cpp:550
+msgctxt "@item:inlistbox Name of the contact"
+msgid "Name"
+msgstr "名称"
+
+#: ldap/ldapsearchdialog.cpp:551
+msgctxt "@item:inlistbox email address of the contact"
+msgid "Email"
+msgstr "电子邮件"
+
+#: ldap/ldapsearchdialog.cpp:552
+msgctxt "@item:inlistbox"
+msgid "Home Number"
+msgstr "宅电"
+
+#: ldap/ldapsearchdialog.cpp:553
+msgctxt "@item:inlistbox"
+msgid "Work Number"
+msgstr "办公电话"
+
+#: ldap/ldapsearchdialog.cpp:557 ldap/ldapsearchdialog.cpp:787
+msgid "Stop"
+msgstr "停止"
+
+#: ldap/ldapsearchdialog.cpp:559 ldap/ldapsearchdialog.cpp:829
+msgctxt "@action:button Start searching"
+msgid "&Search"
+msgstr "搜索(&S)"
+
+#: ldap/ldapsearchdialog.cpp:568
+msgid "Recursive search"
+msgstr "递归搜索"
+
+#: ldap/ldapsearchdialog.cpp:573
+msgid "Contains"
+msgstr "包含"
+
+#: ldap/ldapsearchdialog.cpp:574
+msgid "Starts With"
+msgstr "开始于"
+
+#: ldap/ldapsearchdialog.cpp:604
+#, fuzzy
+#| msgctxt "@action:button Start searching"
+#| msgid "&Search"
+msgid "Searching..."
+msgstr "搜索(&S)"
+
+#: ldap/ldapsearchdialog.cpp:608
+msgid "Select All"
+msgstr "全部选择"
+
+#: ldap/ldapsearchdialog.cpp:610
+msgid "Unselect All"
+msgstr "全部取消选择"
+
+#: ldap/ldapsearchdialog.cpp:617
+msgid "Add Selected"
+msgstr "添加所选项"
+
+#: ldap/ldapsearchdialog.cpp:618
+msgid "Configure LDAP Servers..."
+msgstr "配置 LDAP 服务器..."
+
+#: ldap/ldapsearchdialog.cpp:656
+msgid "Copy"
+msgstr ""
+
+#: ldap/ldapsearchdialog.cpp:779
+msgid "You must select an LDAP server before searching."
+msgstr "在搜索前您必须选择 LDAP 服务器。"
+
+#: ldap/ldapsearchdialog.cpp:878
+#, kde-format
+msgctxt "arguments are host name, datetime"
+msgid "Imported from LDAP directory %1 on %2"
+msgstr "已从 %2 的 LDAP 目录 %1 导入"
+
+#: ldap/ldapsearchdialog.cpp:895
+msgid "Configure the Address Book LDAP Settings"
+msgstr "配置地址簿 LDAP 设置"
+
+#: misc/broadcaststatus.cpp:74
+#, kde-format
+msgctxt "%1 is a time, %2 is a status message"
+msgid "[%1] %2"
+msgstr "[%1] %2"
+
+#: misc/broadcaststatus.cpp:89
+#, kde-format
+msgid ""
+"Transmission complete. %1 new message (%2 KB). %3 KB remaining on the server."
+msgid_plural ""
+"Transmission complete. %1 new messages (%2 KB). %3 KB remaining on the "
+"server."
+msgstr[0] "传送完成。%1 封新信件(%2 KB)，服务器上还剩 %3 KB。"
+
+#: misc/broadcaststatus.cpp:97
+#, kde-format
+msgid "Transmission complete. %1 message (%2 KB)."
+msgid_plural "Transmission complete. %1 messages (%2 KB)."
+msgstr[0] "传送完成。%1 封信信件(%2 KB)。"
+
+#: misc/broadcaststatus.cpp:103
+#, kde-format
+msgid "Transmission complete. %1 new message."
+msgid_plural "Transmission complete. %1 new messages."
+msgstr[0] "传送完成。%1 封新信件。"
+
+#: misc/broadcaststatus.cpp:108
+msgid "Transmission complete. No new messages."
+msgstr "传送完成。没有新信件。"
+
+#: misc/broadcaststatus.cpp:130
+#, kde-format
+msgid ""
+"Transmission for account %4 complete. %1 new message (%2 KB). %3 KB "
+"remaining on the server."
+msgid_plural ""
+"Transmission for account %4 complete. %1 new messages (%2 KB). %3 KB "
+"remaining on the server."
+msgstr[0] "账户 %4 传送完成。%1 封新信件(%2 KB)，服务器上还剩 %3 KB。"
+
+#: misc/broadcaststatus.cpp:141
+#, kde-format
+msgid "Transmission for account %3 complete. %1 message (%2 KB)."
+msgid_plural "Transmission for account %3 complete. %1 messages (%2 KB)."
+msgstr[0] "账户 %3 传送完成。%1 封信信件(%2 KB)。"
+
+#: misc/broadcaststatus.cpp:150
+#, kde-format
+msgid "Transmission for account %2 complete. %1 new message."
+msgid_plural "Transmission for account %2 complete. %1 new messages."
+msgstr[0] "账户 %2 传送完成。%1 封新信件。"
+
+#: misc/broadcaststatus.cpp:158
+#, kde-format
+msgid "Transmission for account %1 complete. No new messages."
+msgstr "账户 %1 传送完成。没有新信件。"
+
+#: misc/maillistdrag.cpp:247
+msgid "Retrieving and storing messages..."
+msgstr "正在获取并存储信件..."
+
+#: misc/statisticsproxymodel.cpp:107
+msgid "Total Messages"
+msgstr "全部消息"
+
+#: misc/statisticsproxymodel.cpp:108
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#: misc/statisticsproxymodel.cpp:119
+msgid "Quota"
+msgstr "配额"
+
+#: misc/statisticsproxymodel.cpp:127
+msgid "Storage Size"
+msgstr "存储大小"
+
+#: misc/statisticsproxymodel.cpp:136
+msgid "Subfolder Storage Size"
+msgstr "子文件夹存储大小"
+
+#: misc/statisticsproxymodel.cpp:442
+msgctxt "collection size"
+msgid "Size"
+msgstr "大小"
+
+#: misc/statisticsproxymodel.cpp:444
+msgctxt "number of entities in the collection"
+msgid "Total"
+msgstr "总共"
+
+#: misc/statisticsproxymodel.cpp:446
+msgctxt "number of unread entities in the collection"
+msgid "Unread"
+msgstr "未读"
+
+#: multiplyingline/multiplyinglineview_p.cpp:76
+msgid "We can not add more recipients. We have reached maximum recipients"
+msgstr ""
+
+#: prefs/kprefsdialog.cpp:246
+msgid "Choose..."
+msgstr "选择..."
+
+#: prefs/kprefsdialog.cpp:784
+msgid "Preferences"
+msgstr "首选项"
+
+#: prefs/kprefsdialog.cpp:892
+msgid ""
+"You are about to set all preferences to default values. All custom "
+"modifications will be lost."
+msgstr "您将要用默认值设置所有参数。所有自定义的修改都将丢失。"
+
+#: prefs/kprefsdialog.cpp:894
+msgid "Setting Default Preferences"
+msgstr "设置默认首选项"
+
+#: prefs/kprefsdialog.cpp:895
+msgid "Reset to Defaults"
+msgstr "恢复至默认值"
+
+#: progresswidget/progressdialog.cpp:171
+msgid "Cancel this operation."
+msgstr "取消此操作。"
+
+#: progresswidget/progressmanager.cpp:135
+msgid "Aborting..."
+msgstr "正在终止..."
+
+#: progresswidget/ssllabel.cpp:62
+msgid "Connection is encrypted"
+msgstr "连接已加密"
+
+#: progresswidget/ssllabel.cpp:67
+msgid "Connection is unencrypted"
+msgstr "连接未加密"
+
+#: progresswidget/statusbarprogresswidget.cpp:91
+msgid "Open detailed progress dialog"
+msgstr "打开详细进度对话框"
+
+#: progresswidget/statusbarprogresswidget.cpp:297
+msgid "Hide detailed progress window"
+msgstr "隐藏详细的进度窗口"
+
+#: progresswidget/statusbarprogresswidget.cpp:301
+msgid "Show detailed progress window"
+msgstr "显示详细进度对话框"
+
+#: widgets/kdatepickerpopup.cpp:99
+msgctxt "@option today"
+msgid "&Today"
+msgstr "今天(&T)"
+
+#: widgets/kdatepickerpopup.cpp:100
+msgctxt "@option tomorrow"
+msgid "To&morrow"
+msgstr "明天(&M)"
+
+#: widgets/kdatepickerpopup.cpp:101
+msgctxt "@option next week"
+msgid "Next &Week"
+msgstr "下周(&W)"
+
+#: widgets/kdatepickerpopup.cpp:102
+msgctxt "@option next month"
+msgid "Next M&onth"
+msgstr "下个月(&O)"
+
+#: widgets/kdatepickerpopup.cpp:109
+msgctxt "@option do not specify a date"
+msgid "No Date"
+msgstr "无日期"
+
+#: widgets/kwidgetlister.cpp:128
+msgctxt "more widgets"
+msgid "More"
+msgstr "更多"
+
+#: widgets/kwidgetlister.cpp:132
+msgctxt "fewer widgets"
+msgid "Fewer"
+msgstr "更少"
+
+#: widgets/selectedcollectiondialog.cpp:46
+msgctxt "@title:window"
+msgid "Select Address Book"
+msgstr "选择地址簿"
+
+#: widgets/selectedcollectiondialog.cpp:49
+msgctxt "@info"
+msgid "Select the address book where the contact will be saved:"
+msgstr "选择联系人要保存到的地址簿："
+
+#: widgets/spellchecklineedit.cpp:211
+msgid "Spell Checking Language"
+msgstr ""
+
+#~ msgid "&Configure"
+#~ msgstr "配置(&C)"
+
+#~ msgid ""
+#~ "You do not have the semantic desktop system enabled. The following "
+#~ "features will not work correctly:<ul><li>%1</li></ul>"
+#~ msgstr ""
+#~ "您未启用语义学桌面系统。下列功能将无法正常工作：<ul><li>%1</li></ul>"
+
+#~ msgid "Send SMS"
+#~ msgstr "发送短消息"
+
+#~ msgid "Message"
+#~ msgstr "消息"
+
+#~ msgid "Recipient:"
+#~ msgstr "收件人："
+
+#~ msgid "Send"
+#~ msgstr "发送"
+
+#~ msgid "Select the address book the new contact shall be saved in:"
+#~ msgstr "选择新联系人要保存到的地址簿："
+
+#~ msgid ""
+#~ "<qt>The email address <b>%1</b> was added to your address book; you can "
+#~ "add more information to this entry by opening the address book.</qt>"
+#~ msgstr ""
+#~ "<qt>电子邮件地址 <b>%1</b> 已添加到您的地址簿中；您打开地址簿后可以为此项"
+#~ "添加更多信息。</qt>"
+
+#~ msgctxt "the day after today"
+#~ msgid "tomorrow"
+#~ msgstr "明天"
+
+#~ msgctxt "this day"
+#~ msgid "today"
+#~ msgstr "今天"
+
+#~ msgctxt "the day before today"
+#~ msgid "yesterday"
+#~ msgstr "昨天"
+
+#, fuzzy
+#~| msgctxt "this day"
+#~| msgid "today"
+#~ msgctxt "@info/plain"
+#~ msgid "today"
+#~ msgstr "今天"
+
+#~ msgid "Recent Addresses"
+#~ msgstr "最近使用的地址"

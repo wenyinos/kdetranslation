@@ -1,0 +1,325 @@
+# translation of kcmaudiocd.po to 简体中文
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Lou Bingyong <loubingyong@hotmail.com>, 2001.
+# Liu Songhe <jackliu9999@263.net>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2002
+# Ni Hui <shuizhuyuanluo@126.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmaudiocd\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:10+0200\n"
+"PO-Revision-Date: 2011-03-03 16:13+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabGeneral)
+#: audiocdconfig.ui:27
+msgid "&General"
+msgstr "常规(&G)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, encoderPriority)
+#: audiocdconfig.ui:49
+msgid "Encoder Priority"
+msgstr "编码器优先级"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: audiocdconfig.ui:74
+msgid "Highest"
+msgstr "最高"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: audiocdconfig.ui:84
+msgid "Lowest"
+msgstr "最低"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: audiocdconfig.ui:97
+msgid "Normal"
+msgstr "普通"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, cd_device_string)
+#: audiocdconfig.ui:116
+msgid ""
+"Specify a location for the drive you want to use. Normally, this is a file "
+"inside the /dev folder representing your CD or DVD drive."
+msgstr ""
+"指定您想使用的设备位置。通常它是一个文件，位于 /dev 文件夹下，用来表示您的 "
+"CD 或 DVD 驱动器。"
+
+#. i18n: ectx: property (text), widget (QLineEdit, cd_device_string)
+#: audiocdconfig.ui:119
+msgid "/dev/cdrom"
+msgstr "/dev/cdrom"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cd_autosearch_check)
+#: audiocdconfig.ui:126
+msgid ""
+"Uncheck this if you want to specify a CD device different from the one "
+"autoprobed"
+msgstr "如果您想指定不同于自动检测到的其它 CD 设备，请选中此项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cd_autosearch_check)
+#: audiocdconfig.ui:129
+msgid "&Specify CD Device:"
+msgstr "指定 CD 设备(&S)："
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ec_enable_check)
+#: audiocdconfig.ui:136
+msgid ""
+"If you uncheck this option, the slave will not try to use error correction "
+"which can be useful for reading damaged CDs. However, this feature can be "
+"problematic in some cases, so you can switch it off here."
+msgstr ""
+"如果您选择该选项，后端将不使用纠错特性，该特性对于读取损坏的 CD 也许有用。但"
+"是，它在某些情况下可能会有问题，因此您可以在这里关闭它。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ec_enable_check)
+#: audiocdconfig.ui:139
+msgid "Use &error correction when reading the CD"
+msgstr "读取 CD 时使用错误纠正(&E)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ec_skip_check)
+#: audiocdconfig.ui:149
+msgid "&Skip on errors"
+msgstr "跳过错误(&S)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabNames)
+#: audiocdconfig.ui:176
+msgid "&Names"
+msgstr "名称(&N)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, fileNameGroupBox)
+#: audiocdconfig.ui:182
+msgid "File Name (without extension)"
+msgstr "文件名(无扩展名)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: ectx: property (text), widget (QLabel, fileNameLabel_2)
+#. i18n: ectx: property (text), widget (QLabel, fileNameLabel_3)
+#: audiocdconfig.ui:188 audiocdconfig.ui:354 audiocdconfig.ui:485
+msgid "The following macros will be expanded:"
+msgstr "下列宏将被展开："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel13)
+#. i18n: ectx: property (text), widget (QLabel, textLabel21)
+#. i18n: ectx: property (text), widget (QLabel, textLabel21_2)
+#: audiocdconfig.ui:200 audiocdconfig.ui:396 audiocdconfig.ui:527
+msgid "Genre"
+msgstr "流派"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel10)
+#. i18n: ectx: property (text), widget (QLabel, textLabel16)
+#. i18n: ectx: property (text), widget (QLabel, textLabel16_2)
+#: audiocdconfig.ui:210 audiocdconfig.ui:386 audiocdconfig.ui:517
+#, no-c-format
+msgid "%{year}"
+msgstr "%{year}"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_3)
+#: audiocdconfig.ui:220
+#, no-c-format
+msgid "%{title}"
+msgstr "%{title}"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#. i18n: ectx: property (text), widget (QLabel, textLabel18)
+#. i18n: ectx: property (text), widget (QLabel, textLabel18_2)
+#: audiocdconfig.ui:230 audiocdconfig.ui:416 audiocdconfig.ui:547
+msgid "Album Title"
+msgstr "专辑标题"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel11)
+#. i18n: ectx: property (text), widget (QLabel, textLabel20)
+#. i18n: ectx: property (text), widget (QLabel, textLabel20_2)
+#: audiocdconfig.ui:240 audiocdconfig.ui:366 audiocdconfig.ui:497
+msgid "Year"
+msgstr "年份"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_4)
+#: audiocdconfig.ui:250
+msgid "Track Artist"
+msgstr "曲目艺人"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_3)
+#: audiocdconfig.ui:260
+msgid "Track Title"
+msgstr "曲目标题"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel9)
+#. i18n: ectx: property (text), widget (QLabel, textLabel19)
+#. i18n: ectx: property (text), widget (QLabel, textLabel19_2)
+#: audiocdconfig.ui:270 audiocdconfig.ui:406 audiocdconfig.ui:537
+msgid "Album Artist"
+msgstr "专辑艺人"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#. i18n: ectx: property (text), widget (QLabel, textLabel15)
+#. i18n: ectx: property (text), widget (QLabel, textLabel15_2)
+#: audiocdconfig.ui:280 audiocdconfig.ui:376 audiocdconfig.ui:507
+#, no-c-format
+msgid "%{albumartist}"
+msgstr "%{albumartist}"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel12)
+#. i18n: ectx: property (text), widget (QLabel, textLabel17)
+#. i18n: ectx: property (text), widget (QLabel, textLabel17_2)
+#: audiocdconfig.ui:290 audiocdconfig.ui:426 audiocdconfig.ui:557
+#, no-c-format
+msgid "%{genre}"
+msgstr "%{genre}"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: audiocdconfig.ui:300
+#, no-c-format
+msgid "%{trackartist}"
+msgstr "%{trackartist}"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#. i18n: ectx: property (text), widget (QLabel, textLabel14)
+#. i18n: ectx: property (text), widget (QLabel, textLabel14_2)
+#: audiocdconfig.ui:310 audiocdconfig.ui:436 audiocdconfig.ui:567
+#, no-c-format
+msgid "%{albumtitle}"
+msgstr "%{albumtitle}"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: audiocdconfig.ui:320
+msgid "Track Number"
+msgstr "曲目编号"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
+#: audiocdconfig.ui:330
+#, no-c-format
+msgid "%{number}"
+msgstr "%{number}"
+
+#. i18n: ectx: property (title), widget (QGroupBox, albumNameGroupBox)
+#: audiocdconfig.ui:348
+msgid "Album Name"
+msgstr "专辑名称"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, fileLocationGroupBox)
+#: audiocdconfig.ui:470
+#, no-c-format
+msgid ""
+"This defines where files will appear in relation to the encoder root, you "
+"can use / to create subdirectories. E.g: %{albumartist}/%{albumtitle} "
+msgstr ""
+"这里定义了文件相对于编码器根目录的位置，您可以使用 / 来创建子目录。例如："
+"%{albumartist}/%{albumtitle}"
+
+#. i18n: ectx: property (title), widget (QGroupBox, fileLocationGroupBox)
+#: audiocdconfig.ui:473
+msgid "Files Location"
+msgstr "文件位置"
+
+#. i18n: ectx: property (text), widget (KLineEdit, fileLocationLineEdit)
+#: audiocdconfig.ui:595
+#, no-c-format
+msgid "%{albumtitle}/%{albumartist}"
+msgstr "%{albumtitle}/%{albumartist}"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: audiocdconfig.ui:605
+msgid "Name Regular Expression Replacement"
+msgstr "名称正则表达式替换"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: audiocdconfig.ui:611
+msgid "Selection:"
+msgstr "选择："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: audiocdconfig.ui:622
+msgid ""
+"Regular expression used on all file names. For example using selection \" \" "
+"and replace with \"_\" would replace all the spaces with underlines.\n"
+msgstr ""
+"在全部文件名上使用的正则表达式。例如，使用选择 \" \"，并将其替换为为 \"_\"，"
+"意味着将全部空格替换为下划线。\n"
+
+#. i18n: ectx: property (text), widget (QLabel, inputlabel)
+#: audiocdconfig.ui:635
+msgid "Input:"
+msgstr "输入："
+
+#. i18n: ectx: property (text), widget (QLabel, outputLabel)
+#: audiocdconfig.ui:645
+msgid "Output:"
+msgstr "输出："
+
+#. i18n: ectx: property (text), widget (QLabel, exampleLabel)
+#: audiocdconfig.ui:655
+msgid "Example"
+msgstr "示例"
+
+#. i18n: ectx: property (text), widget (QLabel, exampleOutput)
+#. i18n: ectx: property (text), widget (QLineEdit, example)
+#: audiocdconfig.ui:665 audiocdconfig.ui:675 kcmaudiocd.cpp:153
+#: kcmaudiocd.cpp:230
+msgid "Cool artist - example audio file.wav"
+msgstr "艺人 - 曲名.wav"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#: audiocdconfig.ui:688
+msgid "Replace with:"
+msgstr "替换为："
+
+#: kcmaudiocd.cpp:65
+#, kde-format
+msgid "%1 Encoder"
+msgstr "%1 编码器"
+
+#: kcmaudiocd.cpp:101
+msgid "kcmaudiocd"
+msgstr "kcmaudiocd"
+
+#: kcmaudiocd.cpp:101
+msgid "KDE Audio CD IO Slave"
+msgstr "KDE 音频 CD 输入输出后端"
+
+#: kcmaudiocd.cpp:103
+msgid "(c) 2000 - 2005 Audio CD developers"
+msgstr "(c) 2000 - 2005 音频 CD 开发者"
+
+#: kcmaudiocd.cpp:105
+msgid "Benjamin C. Meyer"
+msgstr "Benjamin C. Meyer"
+
+#: kcmaudiocd.cpp:105
+msgid "Former Maintainer"
+msgstr "前任维护者"
+
+#: kcmaudiocd.cpp:106
+msgid "Carsten Duvenhorst"
+msgstr "Carsten Duvenhorst"
+
+#: kcmaudiocd.cpp:274
+msgid ""
+"<h1>Audio CDs</h1> The Audio CD IO-Slave enables you to easily create wav, "
+"MP3 or Ogg Vorbis files from your audio CD-ROMs or DVDs. The slave is "
+"invoked by typing <i>\"audiocd:/\"</i> in Konqueror's location bar. In this "
+"module, you can configure encoding, and device settings. Note that MP3 and "
+"Ogg Vorbis encoding are only available if KDE was built with a recent "
+"version of the LAME or Ogg Vorbis libraries."
+msgstr ""
+"<h1>音频 CD</h1> 音频 CD 输入输出后端让您可以轻松地从您的音频 CD-ROM 或 DVD "
+"中创建 wav、MP3 或 Ogg Vorbis 文件。在 Konqueror 的地址栏中输入"
+"<i>“audiocd:/”</i>就可以启动它。在这个模块中，您可以配置编码和设备设置。注意 "
+"MP3 和 Ogg Vorbis 编码只有在 KDE 是用较新版本的 LAME 或者 Ogg Vorbis 库编译的"
+"前提下才是可用的。"

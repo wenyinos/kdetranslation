@@ -1,0 +1,308 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Feng Chao <rainofchaos@gmail.com>, 2011, 2013.
+# Ni Hui <shuizhuyuanluo@126.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-22 01:24+0000\n"
+"PO-Revision-Date: 2013-01-20 20:29+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: configwidget.cpp:40
+msgid "Build"
+msgstr "构建"
+
+#: configwidget.cpp:41
+msgid "Configure"
+msgstr "配置"
+
+#: configwidget.cpp:42
+msgid "Install"
+msgstr "安装"
+
+#: configwidget.cpp:43
+msgid "Clean"
+msgstr "清理"
+
+#: configwidget.cpp:44
+msgid "Prune"
+msgstr "净化"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: configwidget.ui:28
+msgid "Build Directory:"
+msgstr "构建目录："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, buildDir)
+#: configwidget.ui:36
+msgid ""
+"Select the directory where the tools are being executed in.\n"
+"If this is the same as the source directory you can leave it empty."
+msgstr ""
+"选择工具运行的目录。\n"
+"如果与源代码目录相同，可以留空。"
+
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, buildDir)
+#: configwidget.ui:42
+msgid "The directory where the tools are executed"
+msgstr "工具运行的目录"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: configwidget.ui:54
+msgid "Build Tools"
+msgstr "构建工具"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: configwidget.ui:60
+msgid "Action:"
+msgstr "动作："
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: configwidget.ui:70
+msgid "Enable:"
+msgstr "启用："
+
+#. i18n: ectx: property (text), widget (QLabel, execLabel)
+#: configwidget.ui:87
+msgid "Executable:"
+msgstr "可执行文件："
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, actionExecutable)
+#: configwidget.ui:97
+msgid ""
+"This is the executable that should be executed when selecting the action "
+"from the Project menu"
+msgstr "从工程菜单中选择动作时要执行的可执行文件"
+
+#. i18n: ectx: property (text), widget (QLabel, argLabel)
+#: configwidget.ui:107
+msgid "Arguments:"
+msgstr "参数："
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, actionArguments)
+#: configwidget.ui:117
+msgid "The arguments that the tool needs to execute properly."
+msgstr "工具正确执行所需的参数。"
+
+#. i18n: ectx: property (text), widget (QLabel, envLabel)
+#: configwidget.ui:127
+msgid "Environment:"
+msgstr "环境："
+
+#. i18n: ectx: property (toolTip), widget (KDevelop::EnvironmentSelectionWidget, actionEnvironment)
+#: configwidget.ui:137
+msgid "Choose a pre-configured environment for your tool"
+msgstr "为您的工具选择预配置环境"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: configwidget.ui:147
+msgid "Path-specific language parameters"
+msgstr "路径特定的语言参数"
+
+#: custombuildjob.cpp:46
+msgid "Building:"
+msgstr "正在构建："
+
+#: custombuildjob.cpp:50
+msgid "Cleaning:"
+msgstr "正在清理："
+
+#: custombuildjob.cpp:54
+msgid "Installing:"
+msgstr "正在安装："
+
+#: custombuildjob.cpp:58
+msgid "Configuring:"
+msgstr "正在配置："
+
+#: custombuildjob.cpp:62
+msgid "Pruning:"
+msgstr "正在净化："
+
+#: custombuildjob.cpp:86
+msgid "Undefined Build type"
+msgstr "未定义的构建类型"
+
+#: custombuildjob.cpp:90
+msgid "No command given"
+msgstr "未指定命令"
+
+#: custombuildjob.cpp:94
+msgid "This command is disabled"
+msgstr "此命令已禁用"
+
+#: custombuildjob.cpp:105
+msgid ""
+"The given arguments would need a real shell, this is not supported currently."
+msgstr "给定的参数需要一个真实的 shell，现在尚未支持。"
+
+#: custombuildjob.cpp:150
+msgid "Failed to start command."
+msgstr "启动命令失败。"
+
+#: custombuildjob.cpp:153
+msgid "Command crashed."
+msgstr "命令已崩溃。"
+
+#: custombuildjob.cpp:156
+msgid "Unknown error executing command."
+msgstr "执行命令时发生未知错误。"
+
+#: custombuildjob.cpp:173
+msgid "*** Failed ***"
+msgstr "*** 已失败 ***"
+
+#: custombuildjob.cpp:175
+msgid "*** Finished ***"
+msgstr "*** 已完成 ***"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: custombuildsystemconfigwidget.ui:19
+msgid "Build Configuration:"
+msgstr "构建配置："
+
+#. i18n: ectx: property (text), widget (KPushButton, addIncludePath)
+#. i18n: ectx: property (text), widget (KPushButton, addPath)
+#. i18n: ectx: property (text), widget (KPushButton, addConfig)
+#: custombuildsystemconfigwidget.ui:42 includeswidget.ui:38
+#: projectpathswidget.ui:35
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeIncludePath)
+#. i18n: ectx: property (text), widget (KPushButton, removePath)
+#. i18n: ectx: property (text), widget (KPushButton, removeConfig)
+#: custombuildsystemconfigwidget.ui:49 includeswidget.ui:56
+#: projectpathswidget.ui:68
+msgid "Remove"
+msgstr "删除"
+
+#: custombuildsystemplugin.cpp:53
+msgid "Custom Build System"
+msgstr "自定义构建系统"
+
+#: custombuildsystemplugin.cpp:53
+msgid "Support for building and managing custom build systems"
+msgstr "构建和管理自定义构建系统支持"
+
+#: custombuildsystemplugin.cpp:53
+msgid "Copyright 2010 Andreas Pakulat <apaku@gmx.de>"
+msgstr "Copyright 2010 Andreas Pakulat <apaku@gmx.de>"
+
+#: definesmodel.cpp:44
+msgid "Double-click here to insert a new define to be used for the path"
+msgstr "在此处双击以插入一个为路径使用的新的定义"
+
+#: definesmodel.cpp:80
+msgid "Define"
+msgstr "定义"
+
+#: definesmodel.cpp:82
+msgid "Value"
+msgstr "值"
+
+#: defineswidget.cpp:45
+msgid "Delete Define"
+msgstr "删除定义"
+
+#: includeswidget.cpp:64 includeswidget.cpp:116
+msgid "Delete Include Path"
+msgstr "删除包含路径"
+
+#: includeswidget.cpp:116
+#, kde-format
+msgid "Are you sure you want to remove the selected include path '%1'?"
+msgstr "您确认要删除选中的包含路径“%1”吗？"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, includePathRequester)
+#: includeswidget.ui:22
+msgid ""
+"Add the currently displayed URL to the list of includes if it is not in the "
+"list yet."
+msgstr "如果当前显示的 URL 未包括在列表中，将其添加至包含列表。"
+
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, includePathRequester)
+#: includeswidget.ui:25
+msgid "A new include path to use for parsing files under given directory"
+msgstr "用来在给定目录下解析文件的新包含路径"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, addIncludePath)
+#: includeswidget.ui:35
+msgid "Create a new include path entry from this URL."
+msgstr "从此 URL 建立一个新的包含路径条目。"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, removeIncludePath)
+#: includeswidget.ui:53
+msgid "Delete current include path entry."
+msgstr "删除当前的包含路径条目。"
+
+#: projectpathswidget.cpp:155
+#, kde-format
+msgid "Are you sure you want to remove the configuration for the path '%1'?"
+msgstr "您确认要删除路径“%1”的配置吗？"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, addPath)
+#: projectpathswidget.ui:32
+msgid "Add a new sub-project path entry."
+msgstr "添加一个子项目路径条目。"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, replacePath)
+#: projectpathswidget.ui:47
+msgid ""
+"Replace the currently selected path with a new value keeping the includes "
+"and defines currently set for the selected path."
+msgstr "用新值替换当前选择的路径，保留为选择的路径设置的包含路径与定义。"
+
+#. i18n: ectx: property (text), widget (KPushButton, replacePath)
+#: projectpathswidget.ui:50
+msgid "Replace"
+msgstr "替换"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, removePath)
+#: projectpathswidget.ui:65
+msgid "Delete current sub-project path entry."
+msgstr "删除当前子项目路径条目。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, includePathsPage)
+#: projectpathswidget.ui:95
+msgid "Includes/Imports"
+msgstr "包含/导入"
+
+#. i18n: ectx: attribute (title), widget (QWidget, definesPage)
+#: projectpathswidget.ui:118
+msgid "Defines"
+msgstr "定义"
+
+#, fuzzy
+#~| msgid "Custom BuildSystem"
+#~ msgid "CustomBuildSystem Config Ui Test App"
+#~ msgstr "自定义构建系统"
+
+#, fuzzy
+#~| msgid "Copyright 2010 Andreas Pakulat <apaku@gmx.de>"
+#~ msgid "(C) 2012 Andreas Pakulat"
+#~ msgstr "Copyright 2010 Andreas Pakulat <apaku@gmx.de>"
+
+#~ msgid "Delete Project Path"
+#~ msgstr "删除工程路径"
+
+#~ msgid "Directories/Files:"
+#~ msgstr "目录/文件："

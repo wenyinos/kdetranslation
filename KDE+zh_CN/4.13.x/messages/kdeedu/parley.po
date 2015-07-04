@@ -1,0 +1,3801 @@
+# translation of parley.po to 简体中文
+# translation of parley.po to
+# Copyright (C) 2002, 2007, 2008 Free Software Foundation, Inc.
+#
+# Xiong Jiang <jxiong@offtopic.org>, 2002.
+# yuanjiayj <yuanjiayj@gmail.com>, 2007.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008.
+# Lie Ex <lilith.ex@gmail.com>, 2007-2010.
+# Feng Chao <chaofeng111@gmail.com>, 2011, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: parley\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-26 01:40+0000\n"
+"PO-Revision-Date: 2014-02-22 20:42+0800\n"
+"Last-Translator: Feng Chao <chaofeng111@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plasmoid/config.ui:18
+msgid "Vocabulary collection:"
+msgstr "词汇收藏库："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: plasmoid/config.ui:30
+msgid "Language Selection"
+msgstr "语言选择"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: plasmoid/config.ui:38
+msgid "Top:"
+msgstr "顶部："
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: plasmoid/config.ui:45
+msgid "Bottom:"
+msgstr "底部："
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: plasmoid/config.ui:81 src/practice/practicesummarywidget.ui:38
+msgid "Solution"
+msgstr "答案"
+
+#. i18n: ectx: property (text), widget (QRadioButton, solutionOnHover)
+#: plasmoid/config.ui:87
+msgid "Reveal solution when mouse cursor is over the widget"
+msgstr "当鼠标指针悬停在此部件上时透露答案"
+
+#. i18n: ectx: property (text), widget (QRadioButton, solutionAlways)
+#: plasmoid/config.ui:97
+msgid "Always show the solution"
+msgstr "总是显示答案"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plasmoid/config.ui:112
+msgid "Update interval:"
+msgstr "更新间隔："
+
+#. i18n: ectx: property (text), widget (KPushButton, fontSelectButton)
+#: plasmoid/config.ui:153
+msgid "Select Font..."
+msgstr "选择字体..."
+
+#: plasmoid/parley_plasma.cpp:183
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " 秒"
+
+#: plasmoid/parley_plasma.cpp:187
+msgid "*.kvtml|Vocabulary Collections"
+msgstr "*.kvtml|词汇收藏库"
+
+#: plugins/example.py:14 src/vocabulary/lessonview.cpp:37
+msgid "New Lesson"
+msgstr "新课程"
+
+#: plugins/example.py:26
+msgid "Move to new lesson"
+msgstr ""
+
+#: plugins/example.py:27
+#, fuzzy
+#| msgid "Save the active vocabulary collection"
+msgid "Moves the selected vocabulary to a new lesson"
+msgstr "保存当前的词汇收藏库"
+
+#: plugins/example.py:32
+msgid "Mark as known (highest grade)"
+msgstr ""
+
+#: plugins/example.py:33
+msgid "Sets the grade for the selected words to 7 (highest grade)"
+msgstr ""
+
+#: plugins/google_images.py:47
+msgid ""
+"Error: ui file not found.\n"
+"Check your installation."
+msgstr ""
+"错误：找不到界面定义(ui)文件。\n"
+"请检查您的安装。"
+
+#: plugins/google_images.py:47 plugins/google_images.py:244
+#: plugins/google_images.py:250
+msgid "Fetch Image"
+msgstr "获取图像"
+
+#: plugins/google_images.py:244
+msgid ""
+"No Selection:\n"
+"Select a word to fetch an image for it"
+msgstr ""
+"没有选中的单词：\n"
+"请选择一个要为其获取图像的单词"
+
+#: plugins/google_images.py:251
+msgid "Fetches an image for the selected translation"
+msgstr "获取所选翻译的图像"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/google_images.ui:49
+msgid "Give a keyword to search for an image related to it:"
+msgstr "提供一个用于搜索的图像关键词："
+
+#. i18n: ectx: property (text), widget (QPushButton, searchButton)
+#: plugins/google_images.ui:61
+msgid "Search"
+msgstr "搜索"
+
+#. i18n: ectx: property (text), widget (QCheckBox, freeImageCheckBox)
+#: plugins/google_images.ui:72
+msgid "Free images only (creative commons, gpl, ...)"
+msgstr "只搜索自由授权的图像(通用创作协议、GPL 协议等)"
+
+#. i18n: ectx: property (text), widget (QPushButton, previousButton)
+#: plugins/google_images.ui:103
+msgid "Previous"
+msgstr "上一个"
+
+#. i18n: ectx: property (text), widget (QPushButton, nextButton)
+#: plugins/google_images.ui:116 src/editor/declensionwidget.ui:477
+msgid "Next"
+msgstr "下一个"
+
+#: plugins/wiktionary/wiktionary_sound.py:112
+#, fuzzy
+#| msgid "Sound"
+msgid "Fetch Sound"
+msgstr "声音"
+
+#: plugins/wiktionary/wiktionary_sound.py:113
+msgid "Fetches a sound file from commons.wikimedia.org for the selected word"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: src/configure-practice/advancedpracticeoptions.ui:17
+msgid "Correction"
+msgstr "纠正"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_IgnoreAccentMistakes)
+#: src/configure-practice/advancedpracticeoptions.ui:23
+msgid "Answers with wrong accents are still counted as correct."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreAccentMistakes)
+#: src/configure-practice/advancedpracticeoptions.ui:26
+msgid "Ignore Accents"
+msgstr "忽略重音"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_IgnoreCapitalizationMistakes)
+#: src/configure-practice/advancedpracticeoptions.ui:36
+msgid "Any captitalization in the answer is counted as correct."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreCapitalizationMistakes)
+#: src/configure-practice/advancedpracticeoptions.ui:39
+msgid "Ignore Capitalization"
+msgstr "忽略大小写"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowHints)
+#: src/configure-practice/advancedpracticeoptions.ui:49
+msgid ""
+"During the practice you can use the hint button to see parts of the solution."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHints)
+#: src/configure-practice/advancedpracticeoptions.ui:52
+msgid "Enable Hints"
+msgstr "启用提示"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AltLearn)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AltLearn)
+#: src/configure-practice/advancedpracticeoptions.ui:62
+#: src/configure-practice/advancedpracticeoptions.ui:65
+msgid ""
+"Requires you to answer each question correctly 3 times in a row for it to be "
+"counted as correct."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AltLearn)
+#: src/configure-practice/advancedpracticeoptions.ui:68
+msgid "Require 3 consecutive correct answers"
+msgstr "需要连续答对三次"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: src/configure-practice/advancedpracticeoptions.ui:78
+#, fuzzy
+#| msgid "Image for Solution"
+msgid "Images and Sound"
+msgstr "答案图片"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FlashcardsFrontImage)
+#: src/configure-practice/advancedpracticeoptions.ui:84
+msgid "During the practice, images are shown for the question."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlashcardsFrontImage)
+#: src/configure-practice/advancedpracticeoptions.ui:87
+msgid "Image for Question"
+msgstr "问题图片"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FlashcardsBackImage)
+#: src/configure-practice/advancedpracticeoptions.ui:97
+msgid "During the practice, images are shown for the solution."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlashcardsBackImage)
+#: src/configure-practice/advancedpracticeoptions.ui:100
+msgid "Image for Solution"
+msgstr "答案图片"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AllowImageInsteadOfWord)
+#: src/configure-practice/advancedpracticeoptions.ui:110
+#, fuzzy
+#| msgid "Show images on the back of the flashcard."
+msgid "Allow using images instead of words in flashcards."
+msgstr "在题卡背面显示图像。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowImageInsteadOfWord)
+#: src/configure-practice/advancedpracticeoptions.ui:113
+msgid "Allow images instead of words"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PracticeSoundEnabled)
+#: src/configure-practice/advancedpracticeoptions.ui:123
+msgid "Enable playing of pronunciation sound files during the practice."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PracticeSoundEnabled)
+#: src/configure-practice/advancedpracticeoptions.ui:126
+#: src/editor/editor.cpp:334
+msgid "Sound"
+msgstr "声音"
+
+#. i18n: ectx: property (text), widget (QLabel, synonymLabel)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/configure-practice/advancedpracticeoptions.ui:139
+#: src/editor/editor.cpp:243 src/editor/synonymwidget.ui:16
+msgid "Synonyms"
+msgstr "同义词"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/configure-practice/advancedpracticeoptions.ui:145
+msgid ""
+"By default you are asked to enter synonyms until you enter the one that is "
+"associated directly with the current word. With this option enabled any "
+"synonym is accepted."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CountSynonymsAsCorrect)
+#: src/configure-practice/advancedpracticeoptions.ui:155
+msgid "Accept any Synonym"
+msgstr "接受任何同义词"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (text), widget (QRadioButton, multipleChoice)
+#: src/configure-practice/advancedpracticeoptions.ui:165
+#: src/editor/editor.cpp:228 src/statistics/statisticsmainwindow.ui:115
+msgid "Multiple Choice"
+msgstr "多项选择"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_MultipleChoiceWordTypeConsistancy)
+#: src/configure-practice/advancedpracticeoptions.ui:171
+msgid ""
+"When creating multiple choice practices, try to show answers of the same "
+"word type."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MultipleChoiceWordTypeConsistancy)
+#: src/configure-practice/advancedpracticeoptions.ui:174
+msgid "Use choices of the same word type"
+msgstr "使用同一个词性的选择"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/configure-practice/advancedpracticeoptions.ui:189
+msgid "Number of choices:"
+msgstr "选项数量："
+
+#: src/configure-practice/blockoptions.cpp:42
+msgid "Do not Care"
+msgstr "不考虑"
+
+#: src/configure-practice/blockoptions.cpp:45
+msgid "30 Min"
+msgstr "30 分钟"
+
+#: src/configure-practice/blockoptions.cpp:46
+msgid "1 Hour"
+msgstr "1 小时"
+
+#: src/configure-practice/blockoptions.cpp:47
+msgid "2 Hours"
+msgstr "2 小时"
+
+#: src/configure-practice/blockoptions.cpp:48
+msgid "4 Hours"
+msgstr "4 小时"
+
+#: src/configure-practice/blockoptions.cpp:49
+msgid "8 Hours"
+msgstr "8 小时"
+
+#: src/configure-practice/blockoptions.cpp:50
+msgid "12 Hours"
+msgstr "12 小时"
+
+#: src/configure-practice/blockoptions.cpp:51
+msgid "18 Hours"
+msgstr "18 小时"
+
+#: src/configure-practice/blockoptions.cpp:53
+msgid "1 Day"
+msgstr "1 天"
+
+#: src/configure-practice/blockoptions.cpp:54
+msgid "2 Days"
+msgstr "2 天"
+
+#: src/configure-practice/blockoptions.cpp:55
+msgid "3 Days"
+msgstr "3 天"
+
+#: src/configure-practice/blockoptions.cpp:56
+msgid "4 Days"
+msgstr "4 天"
+
+#: src/configure-practice/blockoptions.cpp:57
+msgid "5 Days"
+msgstr "5 天"
+
+#: src/configure-practice/blockoptions.cpp:58
+msgid "6 Days"
+msgstr "6 天"
+
+#: src/configure-practice/blockoptions.cpp:60
+msgid "1 Week"
+msgstr "1 周"
+
+#: src/configure-practice/blockoptions.cpp:61
+msgid "2 Weeks"
+msgstr "2 周"
+
+#: src/configure-practice/blockoptions.cpp:62
+msgid "3 Weeks"
+msgstr "3 周"
+
+#: src/configure-practice/blockoptions.cpp:63
+msgid "4 Weeks"
+msgstr "4 周"
+
+#: src/configure-practice/blockoptions.cpp:65
+msgid "1 Month"
+msgstr "1 个月"
+
+#: src/configure-practice/blockoptions.cpp:66
+msgid "2 Months"
+msgstr "2 个月"
+
+#: src/configure-practice/blockoptions.cpp:67
+msgid "3 Months"
+msgstr "3 个月"
+
+#: src/configure-practice/blockoptions.cpp:68
+msgid "4 Months"
+msgstr "4 个月"
+
+#: src/configure-practice/blockoptions.cpp:69
+msgid "5 Months"
+msgstr "5 个月"
+
+#: src/configure-practice/blockoptions.cpp:70
+msgid "6 Months"
+msgstr "6 个月"
+
+#: src/configure-practice/blockoptions.cpp:71
+msgid "10 Months"
+msgstr "10 个月"
+
+#: src/configure-practice/blockoptions.cpp:72
+msgid "12 Months"
+msgstr "12 个月"
+
+#: src/configure-practice/blockoptions.cpp:243
+msgid "Illogical blocking times.\n"
+msgstr "无意义的封存时间。\n"
+
+#: src/configure-practice/blockoptions.cpp:245
+#: src/configure-practice/blockoptions.cpp:261
+#, kde-format
+msgid "The time for level %1 should be lower than the time for level %2.\n"
+msgstr "等级 %1 的时间应少于等级 %2 的时间。\n"
+
+#: src/configure-practice/blockoptions.cpp:259
+msgid ""
+"\n"
+"Illogical expiration times.\n"
+msgstr ""
+"\n"
+"无意义的过期时间。\n"
+
+#: src/configure-practice/blockoptions.cpp:278
+msgid ""
+"\n"
+"Illogical blocking vs. expiration times.\n"
+msgstr ""
+"\n"
+"无意义的封存与过期时间。\n"
+
+#: src/configure-practice/blockoptions.cpp:280
+#, kde-format
+msgid ""
+"The blocking time at level %1 should be lower than the expiration time.\n"
+msgstr "等级 %1 的封存时间应少于过期时间。\n"
+
+#: src/configure-practice/blockoptions.cpp:286
+msgid "Illogical Values"
+msgstr "无意义的数值"
+
+#. i18n: ectx: property (text), widget (QLabel, l_lev2)
+#: src/configure-practice/blockoptions.ui:40
+msgid "Level &2:"
+msgstr "等级 &2："
+
+#. i18n: ectx: property (text), widget (QLabel, l_lev5)
+#: src/configure-practice/blockoptions.ui:53
+msgid "Level &5:"
+msgstr "等级 &5："
+
+#. i18n: ectx: property (text), widget (QLabel, l_lev6)
+#: src/configure-practice/blockoptions.ui:63
+msgid "Level &6:"
+msgstr "等级 &6："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Expire)
+#: src/configure-practice/blockoptions.ui:79
+msgid "E&xpiring"
+msgstr "过期(&X)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Block)
+#: src/configure-practice/blockoptions.ui:95
+msgid "Bl&ocking"
+msgstr "封存(&O)"
+
+#. i18n: ectx: property (text), widget (QLabel, l_lev4)
+#: src/configure-practice/blockoptions.ui:118
+msgid "Level &4:"
+msgstr "等级 &4："
+
+#. i18n: ectx: property (text), widget (QLabel, l_lev7)
+#: src/configure-practice/blockoptions.ui:128
+msgid "Level &7:"
+msgstr "等级 &7："
+
+#. i18n: ectx: property (text), widget (QLabel, l_lev1)
+#: src/configure-practice/blockoptions.ui:150
+msgid "Level &1:"
+msgstr "等级 &1："
+
+#. i18n: ectx: property (text), widget (QLabel, l_lev3)
+#: src/configure-practice/blockoptions.ui:192
+msgid "Level &3:"
+msgstr "等级 &3："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/configure-practice/blockoptions.ui:218
+msgid "Do not practice vocabulary that has been asked within:"
+msgstr "不要练习已在此问过的词汇："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/configure-practice/blockoptions.ui:228
+msgid "Vocabulary drops one grade after this much time:"
+msgstr "词汇要降低一个等级需要经过多少次："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComparisonIncludeAdjective)
+#: src/configure-practice/comparisonoptionswidget.ui:16
+msgid "Include Adjectives"
+msgstr "引入形容词"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComparisonIncludeAdverb)
+#: src/configure-practice/comparisonoptionswidget.ui:23
+msgid "Include Adverbs"
+msgstr "引入副词"
+
+#: src/configure-practice/configurepracticedialog.cpp:31
+msgctxt "@title:window"
+msgid "Configure Practice"
+msgstr "配置练习"
+
+#: src/configure-practice/configurepracticedialog.cpp:36
+msgctxt ""
+"@title:group vocabulary can be set to be blocked for a certain amount of time"
+msgid "Blocking"
+msgstr "封存"
+
+#: src/configure-practice/configurepracticedialog.cpp:36
+msgid "Blocking Settings"
+msgstr "封存设定"
+
+#: src/configure-practice/configurepracticedialog.cpp:39
+msgctxt ""
+"@title:group ignore vocabulary based on some properties like word type"
+msgid "Thresholds"
+msgstr "条件"
+
+#: src/configure-practice/configurepracticedialog.cpp:39
+msgid "Threshold Settings"
+msgstr "条件设定"
+
+#: src/configure-practice/configurepracticedialog.cpp:42
+msgctxt ""
+"@title:group Configure advanced settings for practicing vocabulary, short "
+"title in config dialog."
+msgid "Advanced"
+msgstr "高级"
+
+#: src/configure-practice/configurepracticedialog.cpp:42
+msgctxt "Configure advanced settings for practicing vocabulary."
+msgid "Advanced Practice Settings"
+msgstr "高级练习设定"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: src/configure-practice/thresholdoptions.ui:17
+msgid "Only practice vocabulary that fulfills the following conditions:"
+msgstr "仅练习符合以下条件的词汇："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/configure-practice/thresholdoptions.ui:26
+msgid "At least"
+msgstr "至少"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/configure-practice/thresholdoptions.ui:33
+msgid "At most"
+msgstr "最多"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/configure-practice/thresholdoptions.ui:43
+msgid "Grade"
+msgstr "等级"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/configure-practice/thresholdoptions.ui:53
+msgid "Times practiced"
+msgstr "练习次数"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/configure-practice/thresholdoptions.ui:80
+msgid "Answered incorrectly"
+msgstr "回答不正确"
+
+#. i18n: ectx: property (text), widget (QPushButton, playButton)
+#: src/editor/audiowidget.ui:18 src/practice/audiobutton.cpp:26
+#: src/practice/audiobutton.cpp:27 src/practice/audiobutton.cpp:71
+#: src/practice/audiobutton.cpp:72
+msgid "Play"
+msgstr "播放"
+
+#. i18n: ectx: property (text), widget (QPushButton, recordButton)
+#: src/editor/audiowidget.ui:25
+msgid "Record"
+msgstr "记录"
+
+#. i18n: ectx: property (text), widget (QPushButton, showCurrentButton)
+#: src/editor/browserwidget.ui:18
+msgid "Lookup Current"
+msgstr "搜索当前的"
+
+#. i18n: ectx: property (text), widget (QCheckBox, followTableCheckBox)
+#: src/editor/browserwidget.ui:33
+msgid "Follow Table"
+msgstr "之后的表格"
+
+#: src/editor/comparisonwidget.cpp:87
+msgid "Could not determine word type of adjectives"
+msgstr "无法决定形容词的词性"
+
+#: src/editor/comparisonwidget.cpp:106
+msgid "Could not determine word type of adverbs"
+msgstr "无法决定副词的词性"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, absoluteLabel)
+#. i18n: ectx: property (toolTip), widget (QLabel, comparativeLabel)
+#: src/editor/comparisonwidget.ui:24 src/editor/comparisonwidget.ui:56
+msgid "The comparative is used to compare nouns or verbs (faster)"
+msgstr "比较级用于比较名词或动词(更快)"
+
+#. i18n: ectx: property (text), widget (QLabel, absoluteLabel)
+#: src/editor/comparisonwidget.ui:27
+msgid "Absolute:"
+msgstr "原形："
+
+#. i18n: ectx: property (text), widget (QLabel, comparativeLabel)
+#: src/editor/comparisonwidget.ui:59
+msgid "Comparative:"
+msgstr "比较级："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, superlativeLabel)
+#: src/editor/comparisonwidget.ui:88
+msgid "The superlative (fastest)"
+msgstr "最高级(如 fastest)"
+
+#. i18n: ectx: property (text), widget (QLabel, superlativeLabel)
+#: src/editor/comparisonwidget.ui:91
+msgid "Superlative:"
+msgstr "最高级："
+
+#. i18n: ectx: property (text), widget (QPushButton, makeAdjectiveButton)
+#: src/editor/comparisonwidget.ui:116 src/editor/inflectionwidget.cpp:46
+#: src/parleydocument.cpp:330 src/vocabulary/wordtypeview.cpp:106
+msgid "Adjective"
+msgstr "形容词"
+
+#. i18n: ectx: property (text), widget (QPushButton, makeAdverbButton)
+#: src/editor/comparisonwidget.ui:123 src/parleydocument.cpp:334
+#: src/vocabulary/wordtypeview.cpp:114
+msgid "Adverb"
+msgstr "副词"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConjugationWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, FromToEntryPageForm)
+#. i18n: ectx: property (windowTitle), widget (QWidget, DeclensionWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, DocumentProperties)
+#. i18n: ectx: property (windowTitle), widget (QWidget, OptionListForm)
+#: src/editor/conjugationwidget.ui:26 src/editor/declensionwidget.ui:26
+#: src/editor/FromToEntryPageForm.ui:20 src/settings/documentproperties.ui:19
+#: src/settings/optionlistform.ui:19
+msgid "-"
+msgstr "-"
+
+#. i18n: ectx: property (title), widget (QGroupBox, layout)
+#: src/editor/conjugationwidget.ui:32
+#, fuzzy
+#| msgid "Conjugations"
+msgid "Conjugation Forms"
+msgstr "词形变化"
+
+#. i18n: ectx: property (text), widget (QLabel, singularFirstPersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, dualFirstPersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, pluralFirstPersonLabel)
+#: src/editor/conjugationwidget.ui:38 src/editor/conjugationwidget.ui:132
+#: src/editor/conjugationwidget.ui:209
+msgid "First"
+msgstr "第一人称"
+
+#. i18n: ectx: property (text), widget (QLabel, singularSecondPersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, dualSecondPersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, pluralSecondPersonLabel)
+#: src/editor/conjugationwidget.ui:61 src/editor/conjugationwidget.ui:148
+#: src/editor/conjugationwidget.ui:225
+msgid "Second"
+msgstr "第二人称"
+
+#. i18n: ectx: property (text), widget (QLabel, singularThirdMalePersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, dualThirdMalePersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, pluralThirdMalePersonLabel)
+#: src/editor/conjugationwidget.ui:84 src/editor/conjugationwidget.ui:164
+#: src/editor/conjugationwidget.ui:241
+msgid "Third Male"
+msgstr "第三人称雄性"
+
+#. i18n: ectx: property (text), widget (QLabel, singularThirdFemalePersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, dualThirdFemalePersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, pluralThirdFemalePersonLabel)
+#: src/editor/conjugationwidget.ui:100 src/editor/conjugationwidget.ui:177
+#: src/editor/conjugationwidget.ui:260
+msgid "Third Female"
+msgstr "第三人称雌性"
+
+#. i18n: ectx: property (text), widget (QLabel, singularThirdNeutralPersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, dualThirdNeutralPersonLabel)
+#. i18n: ectx: property (text), widget (QLabel, pluralThirdNeutralPersonLabel)
+#: src/editor/conjugationwidget.ui:116 src/editor/conjugationwidget.ui:193
+#: src/editor/conjugationwidget.ui:279
+msgid "Third Neutral"
+msgstr "第三人称中性"
+
+#. i18n: ectx: property (text), widget (QPushButton, nextTenseButton)
+#: src/editor/conjugationwidget.ui:317
+msgid "Ne&xt"
+msgstr "下一个(&X)"
+
+#. i18n: ectx: property (text), widget (QLabel, tenselabel)
+#: src/editor/conjugationwidget.ui:330
+msgid "&Tense:"
+msgstr "时态(&T)："
+
+#. i18n: ectx: property (text), widget (QLabel, singularLabel)
+#. i18n: ectx: property (text), item, widget (QComboBox, numberSelection)
+#. i18n: ectx: property (text), widget (QLabel, male_label_3)
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_2)
+#: src/editor/conjugationwidget.ui:349 src/editor/declensionwidget.cpp:134
+#: src/editor/declensionwidget.ui:459
+#: src/settings/languagepropertiespage.ui:378
+#: src/settings/languagepropertiespage.ui:486
+msgid "Singular"
+msgstr "单数"
+
+#. i18n: ectx: property (text), widget (QLabel, dualLabel)
+#. i18n: ectx: property (text), item, widget (QComboBox, numberSelection)
+#: src/editor/conjugationwidget.ui:368 src/editor/declensionwidget.cpp:135
+#: src/editor/declensionwidget.ui:464
+#: src/settings/languagepropertiespage.ui:493
+msgid "Dual"
+msgstr "复数"
+
+#. i18n: ectx: property (text), widget (QLabel, pluralLabel)
+#. i18n: ectx: property (text), item, widget (QComboBox, numberSelection)
+#. i18n: ectx: property (text), widget (QLabel, male_label_4)
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_3)
+#: src/editor/conjugationwidget.ui:387 src/editor/declensionwidget.cpp:136
+#: src/editor/declensionwidget.ui:469
+#: src/settings/languagepropertiespage.ui:388
+#: src/settings/languagepropertiespage.ui:500
+msgid "Plural"
+msgstr "复数"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/editor/declensionwidget.cpp:167 src/editor/declensionwidget.ui:185
+#: src/editor/inflectionwidget.cpp:121 src/parleydocument.cpp:316
+msgid "Masculine"
+msgstr "阳性"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/editor/declensionwidget.cpp:168 src/editor/declensionwidget.ui:271
+#: src/editor/inflectionwidget.cpp:123 src/parleydocument.cpp:319
+msgid "Feminine"
+msgstr "阴性"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/editor/declensionwidget.cpp:169 src/editor/declensionwidget.ui:357
+#: src/editor/inflectionwidget.cpp:122 src/parleydocument.cpp:322
+msgid "Neuter"
+msgstr "中性"
+
+#. i18n: ectx: property (title), widget (QGroupBox, declensionGroupBox)
+#: src/editor/declensionwidget.ui:38
+msgid "Declension Forms"
+msgstr "变格表单"
+
+#. i18n: ectx: property (text), widget (QLabel, nominativeLabel)
+#: src/editor/declensionwidget.ui:52
+msgctxt "one of the seven cases (grammatical)"
+msgid "Nominative"
+msgstr "主格"
+
+#. i18n: ectx: property (text), widget (QLabel, genitivLabel)
+#: src/editor/declensionwidget.ui:71
+msgctxt "one of the seven cases (grammatical)"
+msgid "Genitive"
+msgstr "所有格"
+
+#. i18n: ectx: property (text), widget (QLabel, dativLabel)
+#: src/editor/declensionwidget.ui:90
+msgctxt "one of the seven cases (grammatical)"
+msgid "Dative"
+msgstr "与格"
+
+#. i18n: ectx: property (text), widget (QLabel, accusativeLabel)
+#: src/editor/declensionwidget.ui:109
+msgctxt "one of the seven cases (grammatical)"
+msgid "Accusative"
+msgstr "宾格"
+
+#. i18n: ectx: property (text), widget (QLabel, ablativLabel)
+#: src/editor/declensionwidget.ui:128
+msgctxt "one of the seven cases (grammatical)"
+msgid "Ablative"
+msgstr "夺格"
+
+#. i18n: ectx: property (text), widget (QLabel, locativeLabel)
+#: src/editor/declensionwidget.ui:147
+msgctxt "one of the seven cases (grammatical)"
+msgid "Locative"
+msgstr "方位格"
+
+#. i18n: ectx: property (text), widget (QLabel, vocativeLabel)
+#: src/editor/declensionwidget.ui:166
+msgctxt "one of the seven cases (grammatical)"
+msgid "Vocative"
+msgstr "呼格"
+
+#. i18n: ectx: property (text), widget (QLabel, numberLabel)
+#: src/editor/declensionwidget.ui:445
+msgid "Number:"
+msgstr ""
+
+#: src/editor/editor.cpp:150
+msgid "Lessons"
+msgstr "课程"
+
+#: src/editor/editor.cpp:160
+msgid ""
+"Right click to add, delete, or rename lessons. \n"
+"With the checkboxes you can select which lessons you want to practice. \n"
+"Only checked lessons [x] will be asked in the tests!"
+msgstr ""
+"右键点击以添加、删除或重命令课程。\n"
+"您也可以在复选框加点选您要练习的课程。\n"
+"只有选中的课程才会在测验中问到！"
+
+#: src/editor/editor.cpp:175
+msgid "Word Types"
+msgstr "词性"
+
+#: src/editor/editor.cpp:196
+msgid "Inflection (verbs, adjectives, nouns)"
+msgstr ""
+
+#: src/editor/editor.cpp:212
+msgid "Comparison forms"
+msgstr "比较级"
+
+#: src/editor/editor.cpp:257
+msgid "Antonyms"
+msgstr "反义词"
+
+#: src/editor/editor.cpp:272
+msgid "False Friends"
+msgstr "易混淆词"
+
+#: src/editor/editor.cpp:288
+msgid "Phonetic Symbols"
+msgstr "音标"
+
+#: src/editor/editor.cpp:303
+msgid "Image"
+msgstr "图像"
+
+#: src/editor/editor.cpp:319
+msgid "Summary"
+msgstr "摘要"
+
+#: src/editor/editor.cpp:350
+msgid "Internet"
+msgstr "互联网"
+
+#: src/editor/editor.cpp:367
+msgid "LaTeX"
+msgstr "LaTeX"
+
+#: src/editor/editor.cpp:403 src/editor/editor.cpp:404
+msgid "Practice"
+msgstr "练习"
+
+#: src/editor/editor.cpp:440
+msgid "Enter search terms here"
+msgstr "在此输入查找条件"
+
+#: src/editor/editor.cpp:444
+msgid "S&earch:"
+msgstr "搜索(&E)："
+
+#. i18n: ectx: Menu (file)
+#: src/editor/editorui.rc:7 src/practice/practicesummaryui.rc:7
+#: src/practice/practiceui.rc:7 src/statistics/statisticsui.rc:7
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (edit)
+#: src/editor/editorui.rc:12
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (view)
+#: src/editor/editorui.rc:23 src/practice/practiceui.rc:12
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: Menu (lesson)
+#: src/editor/editorui.rc:49
+msgid "&Lesson"
+msgstr "课程(&L)"
+
+#. i18n: ectx: Menu (learning)
+#: src/editor/editorui.rc:62 src/practice/practicesummaryui.rc:12
+#: src/statistics/statisticsui.rc:12
+msgid "&Practice"
+msgstr "练习(&P)"
+
+#. i18n: ectx: Menu (scripts)
+#: src/editor/editorui.rc:67
+msgid "&Scripts"
+msgstr "脚本(&S)"
+
+#. i18n: ectx: ToolBar (editorToolBar)
+#: src/editor/editorui.rc:76 src/parleyui.rc:27
+msgid "Editor Toolbar"
+msgstr "编辑器工具栏"
+
+#: src/editor/FromToEntryPage.cpp:160
+#, kde-format
+msgid "Grades from %1 to %2"
+msgstr "从等级 %1 到 %2"
+
+#. i18n: ectx: property (title), widget (QGroupBox, direc_label)
+#: src/editor/FromToEntryPageForm.ui:26
+msgid "Properties From Original"
+msgstr "来自原文的属性"
+
+#. i18n: ectx: property (text), widget (QLabel, grade_label)
+#: src/editor/FromToEntryPageForm.ui:72
+msgid "&Grade:"
+msgstr "等级(&G)："
+
+#. i18n: ectx: property (text), widget (QLabel, fauxami_label)
+#: src/editor/FromToEntryPageForm.ui:95
+msgid "&False friend:"
+msgstr "易混淆(&F)："
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox3)
+#: src/editor/FromToEntryPageForm.ui:110
+msgid "Practice &Counts"
+msgstr "练习计数(&C)"
+
+#. i18n: ectx: property (text), widget (QLabel, bcount_label)
+#: src/editor/FromToEntryPageForm.ui:142
+msgid "&Wrong:"
+msgstr "错误(&W)："
+
+#. i18n: ectx: property (text), widget (QLabel, qcount_label)
+#: src/editor/FromToEntryPageForm.ui:155
+msgid "Tot&al:"
+msgstr "总共(&A)："
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
+#: src/editor/FromToEntryPageForm.ui:171
+msgid "&Last Practiced"
+msgstr "上次练习(&L)"
+
+#. i18n: ectx: property (text), widget (QPushButton, never)
+#: src/editor/FromToEntryPageForm.ui:183
+msgid "&Never"
+msgstr "从未(&N)"
+
+#. i18n: ectx: property (text), widget (QPushButton, today)
+#: src/editor/FromToEntryPageForm.ui:190
+msgid "T&oday"
+msgstr "今天(&O)"
+
+#. i18n: ectx: property (toolTip), widget (QDateEdit, queryDateEdit)
+#: src/editor/FromToEntryPageForm.ui:206
+msgid "The date this expression was last practiced"
+msgstr "此词语上次练习的日期"
+
+#. i18n: ectx: property (specialValueText), widget (QDateEdit, queryDateEdit)
+#: src/editor/FromToEntryPageForm.ui:209
+msgid "Not Practiced Yet"
+msgstr "从未练习"
+
+#. i18n: ectx: property (displayFormat), widget (QDateEdit, queryDateEdit)
+#: src/editor/FromToEntryPageForm.ui:229
+msgid "dd.MM.yyyy"
+msgstr "yyyy-MM-dd"
+
+#. i18n: ectx: property (text), widget (QPushButton, resetGradesButton)
+#: src/editor/FromToEntryPageForm.ui:260
+msgid "&Reset Grades"
+msgstr "重置等级(&R)"
+
+#: src/editor/inflectionwidget.cpp:36 src/parleydocument.cpp:326
+#: src/vocabulary/wordtypeview.cpp:123
+msgid "Verb"
+msgstr "动词"
+
+#: src/editor/inflectionwidget.cpp:41 src/parleydocument.cpp:312
+#: src/vocabulary/wordtypeview.cpp:74
+msgid "Noun"
+msgstr "名词"
+
+#: src/editor/inflectionwidget.cpp:87
+#, fuzzy, kde-format
+#| msgid "\"%1\" is a verb"
+msgid "\"%1\" is a:"
+msgstr "“%1”是动词"
+
+#: src/editor/inflectionwidget.cpp:117
+msgid "Please select the noun's gender"
+msgstr ""
+
+#: src/editor/latexwidget.cpp:30
+msgid "Enter LaTeX code here."
+msgstr "在此输入 LaTeX 代码。"
+
+#. i18n: ectx: property (text), widget (QLabel, texLabel)
+#: src/editor/latexwidget.ui:17
+msgid "LaTeX code"
+msgstr "LaTeX 模式"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/editor/latexwidget.ui:37
+#: src/settings/kgametheme/kgamethemeselector.ui:55
+msgid "Preview"
+msgstr "预览"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mathModeCheckBox)
+#: src/editor/latexwidget.ui:57
+msgid "Math mode"
+msgstr "数学模式"
+
+#. i18n: ectx: property (text), widget (QPushButton, addChoiceButton)
+#: src/editor/multiplechoicewidget.ui:21
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeChoiceButton)
+#: src/editor/multiplechoicewidget.ui:28
+msgid "Remove"
+msgstr "删除"
+
+#. i18n: ectx: property (text), widget (QLabel, languageLabel)
+#: src/editor/summarywordwidget.ui:16
+msgid "Language"
+msgstr "语言"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/editor/summarywordwidget.ui:32 src/vocabulary/containermodel.cpp:170
+msgid "Lesson"
+msgstr "课程"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/editor/summarywordwidget.ui:42
+msgid "Word type"
+msgstr "词性"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/editor/summarywordwidget.ui:55 src/vocabulary/vocabularymodel.cpp:292
+msgid "Pronunciation"
+msgstr "发音"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/editor/summarywordwidget.ui:71 src/vocabulary/vocabularymodel.cpp:300
+msgid "Example"
+msgstr "例句"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/editor/summarywordwidget.ui:87 src/vocabulary/vocabularymodel.cpp:304
+msgid "Paraphrase"
+msgstr "解释"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/editor/summarywordwidget.ui:103 src/vocabulary/vocabularymodel.cpp:302
+msgid "Comment"
+msgstr "注释"
+
+#: src/editor/synonymwidget.cpp:60
+msgid "Select Synonyms"
+msgstr "所选同义词"
+
+#: src/editor/synonymwidget.cpp:66
+#, kde-format
+msgid "%1 and %2 are not Synonyms"
+msgstr "%1 和 %2 不是一对同义词"
+
+#: src/editor/synonymwidget.cpp:68
+#, kde-format
+msgid "%1 and %2 are Synonyms"
+msgstr "%1 和 %2 是一对同义词"
+
+#: src/editor/synonymwidget.cpp:73
+#, kde-format
+msgid "%1 and %2 are not Antonyms"
+msgstr "%1 和 %2 不是一对反义词"
+
+#: src/editor/synonymwidget.cpp:75
+#, kde-format
+msgid "%1 and %2 are Antonyms"
+msgstr "%1 和 %2 是一对反义词"
+
+#: src/editor/synonymwidget.cpp:80
+#, kde-format
+msgid "%1 and %2 are not False Friends"
+msgstr "%1 和 %2 不是一对易混淆词"
+
+#: src/editor/synonymwidget.cpp:82
+#, kde-format
+msgid "%1 and %2 are False Friends"
+msgstr "%1 和 %2 是一对易混淆词"
+
+#: src/editor/synonymwidget.cpp:91
+#, kde-format
+msgctxt "Title for a list of synonyms for a word"
+msgid "Synonyms of %1:"
+msgstr "%1 的同义词："
+
+#: src/editor/synonymwidget.cpp:94
+#, kde-format
+msgctxt "Title for a list of antonyms (opposites) for a word"
+msgid "Antonyms of %1:"
+msgstr "%1 的反义词："
+
+#: src/editor/synonymwidget.cpp:97
+#, kde-format
+msgctxt ""
+"Title for a list of false friend (things that sound similar but have "
+"different meanings) for a word"
+msgid "False Friends of %1:"
+msgstr "%1 的易混淆词："
+
+#. i18n: ectx: property (text), widget (QPushButton, synonymButton)
+#: src/editor/synonymwidget.ui:26 src/vocabulary/vocabularymodel.cpp:296
+msgid "Synonym"
+msgstr "同义词"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExportOptions)
+#: src/export/exportdialog.cpp:46 src/export/exportdialog.ui:14
+msgid "Export"
+msgstr "导出"
+
+#: src/export/exportdialog.cpp:72
+msgid "HTML document"
+msgstr "HTML 文档"
+
+#: src/export/exportdialog.cpp:95
+#, fuzzy, kde-format
+#| msgid "Could not start practice"
+msgid "Could not write to file \"%1\""
+msgstr "无法开始练习"
+
+#: src/export/exportdialog.cpp:110 src/parleydocument.cpp:238
+#: src/parleymainwindow.cpp:139
+msgid "Untitled"
+msgstr "无标题"
+
+#: src/export/exportdialog.cpp:111
+msgid "Export As"
+msgstr "导出为"
+
+#. i18n: ectx: property (text), widget (QRadioButton, flashCardRadio)
+#: src/export/exportdialog.ui:20
+#, fuzzy
+#| msgid "Front and back sides for printing learning cards."
+msgid "Flash Cards - to print learning cards (HTML)"
+msgstr "适用于打印，学习卡的正反面。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, tableRadio)
+#: src/export/exportdialog.ui:30
+msgid "A vocabulary list that works in a web-browser and can be printed (HTML)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, csvRadio)
+#: src/export/exportdialog.ui:40
+msgid "Comma separated values (CSV)"
+msgstr "逗号分隔格式 (CSV)"
+
+#: src/main.cpp:36
+msgid "Vocabulary Trainer"
+msgstr "词汇练习器"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, WelcomeScreen)
+#: src/main.cpp:40 src/welcomescreen/welcomescreen.ui:14
+msgid "Parley"
+msgstr "Parley"
+
+#: src/main.cpp:44
+msgid ""
+"© 1999-2002\tEwald Arnold\n"
+"© 2001-2002\tThe KDE team\n"
+"© 2004-2007\tPeter Hedlund\n"
+"© 2007-2010\tFrederik Gladhorn\n"
+msgstr ""
+"© 1999-2002\tEwald Arnold\n"
+"© 2001-2002\tKDE 开发团队\n"
+"© 2004-2007\tPeter Hedlund\n"
+"© 2007-2010\tFrederik Gladhorn\n"
+
+#: src/main.cpp:48
+msgid "Helps you train your vocabulary"
+msgstr "帮助您练习词汇"
+
+#: src/main.cpp:52
+msgid "Frederik Gladhorn"
+msgstr "Frederik Gladhorn"
+
+#: src/main.cpp:53
+msgid "Developer and maintainer"
+msgstr "开发者和维护者"
+
+#: src/main.cpp:56
+msgid "Daniel Laidig"
+msgstr "Daniel Laidig"
+
+#: src/main.cpp:57
+msgid "Developer"
+msgstr "开发者"
+
+#: src/main.cpp:60
+msgid "David Capel"
+msgstr "David Capel"
+
+#: src/main.cpp:61
+msgid "Practice Dialogs"
+msgstr "练习对话框"
+
+#: src/main.cpp:64
+msgid "Avgoustinos Kadis"
+msgstr "Avgoustinos Kadis"
+
+#: src/main.cpp:65
+msgid "Scripting"
+msgstr "脚本"
+
+#: src/main.cpp:68
+msgid "Peter Hedlund"
+msgstr "Peter Hedlund"
+
+#: src/main.cpp:69
+msgid "Countless fixes, former maintainer, port to KDE4"
+msgstr "无数修正、前任维护者及 KDE4 移植"
+
+#: src/main.cpp:72
+msgid "Ewald Arnold"
+msgstr "Ewald Arnold"
+
+#: src/main.cpp:72
+msgid "Original Author"
+msgstr "原作者"
+
+#: src/main.cpp:76
+msgid "Lee Olson"
+msgstr "Lee Olson"
+
+#: src/main.cpp:77
+msgid "Artwork and Oxygen Icons"
+msgstr "美工与 Oxygen 图标设计"
+
+#: src/main.cpp:79
+msgid "Anne-Marie Mahfouf"
+msgstr "Anne-Marie Mahfouf"
+
+#: src/main.cpp:80
+msgid "Port to KConfig XT"
+msgstr "移植到 Kconfig XT"
+
+#: src/main.cpp:82
+msgid "Jeremy Whiting"
+msgstr "Jeremy Whiting"
+
+#: src/main.cpp:83
+msgid "Rewriting the kvtml library for KDE4"
+msgstr "为 KDE4 重写 kvtml 库"
+
+#: src/main.cpp:85
+msgid "Markus Büchele"
+msgstr "Markus Büchele"
+
+#: src/main.cpp:86
+msgid "Bug reports and testing on the way to KDE4"
+msgstr "漏洞举报与 KDE4 开发版测试"
+
+#: src/main.cpp:88
+msgid "Ramona Knapp"
+msgstr "Ramona Knapp"
+
+#: src/main.cpp:89
+msgid "Conceived the name Parley"
+msgstr "想出了 Parley 这个名字"
+
+#: src/main.cpp:95
+msgid "Start practice instead of editor"
+msgstr "开始练习而不是开启编辑器"
+
+#: src/main.cpp:96
+msgid "+[file]"
+msgstr "+[文件]"
+
+#: src/main.cpp:96
+msgid "Document file to open"
+msgstr "要打开的文档文件"
+
+#: src/parleyactions.cpp:71
+msgid "Creates a new vocabulary collection"
+msgstr "创建新的词汇收藏库"
+
+#: src/parleyactions.cpp:75
+msgid "Opens an existing vocabulary collection"
+msgstr "打开已有的词汇收藏库"
+
+#: src/parleyactions.cpp:79
+msgid "Open &Downloaded Vocabularies..."
+msgstr "打开下载的词汇表(&D)..."
+
+#: src/parleyactions.cpp:80
+msgid "Open downloaded vocabulary collections"
+msgstr "打开下载的词汇收藏库"
+
+#: src/parleyactions.cpp:84
+msgid "Save the active vocabulary collection"
+msgstr "保存当前的词汇收藏库"
+
+#: src/parleyactions.cpp:89
+msgid "Save the active vocabulary collection with a different name"
+msgstr "另存当前的词汇收藏库"
+
+#: src/parleyactions.cpp:93
+msgid "&Export..."
+msgstr "导出(&E)..."
+
+#: src/parleyactions.cpp:94
+msgid "Export to HTML or CSV"
+msgstr "导出为 HTML 或 CSV"
+
+#: src/parleyactions.cpp:98
+msgid "&Properties..."
+msgstr "属性(&P)..."
+
+#: src/parleyactions.cpp:99
+msgid "Edit document properties"
+msgstr "编辑文档属性"
+
+#: src/parleyactions.cpp:103
+msgid "&Start Page"
+msgstr "起始页(&S)"
+
+#: src/parleyactions.cpp:104
+msgid "Close the current vocabulary collection and show the start page"
+msgstr "关闭当前词汇收藏库并显示起始页"
+
+#: src/parleyactions.cpp:108
+msgid "Quit Parley"
+msgstr "退出 Parley"
+
+#: src/parleyactions.cpp:112
+msgid "Show the configuration dialog"
+msgstr "显示配置对话框"
+
+#: src/parleyactions.cpp:116
+msgid "&Languages..."
+msgstr "语言(&L)..."
+
+#: src/parleyactions.cpp:117
+msgid ""
+"Edit which languages are in the collection and their grammar properties."
+msgstr "编辑收藏中有的语言及其语法属性。"
+
+#: src/parleyactions.cpp:121
+msgid "Remove Grades"
+msgstr "删除等级"
+
+#: src/parleyactions.cpp:122
+msgid "Remove all grades from the current document"
+msgstr "从当前文档中删除所有等级"
+
+#: src/parleyactions.cpp:129
+msgid "Show Entries from Child Lessons"
+msgstr "显示子课程中的条目"
+
+#: src/parleyactions.cpp:130
+msgid "Enable to also see the entries of child lessons in each lesson."
+msgstr "允许在每次课程中查看子课程的条目。"
+
+#: src/parleyactions.cpp:136
+msgid "Automatic Translation"
+msgstr "自动翻译"
+
+#. i18n: ectx: label, entry (AutomaticTranslation), group (General)
+#: src/parleyactions.cpp:137 src/settings/parley.kcfg:50
+msgid "Enable automatic translation of the lesson entries."
+msgstr "允许自动翻译课程条目。"
+
+#: src/parleyactions.cpp:143
+msgid "Start Practice..."
+msgstr "开始练习..."
+
+#: src/parleyactions.cpp:144
+msgid "Start practicing"
+msgstr "开始练习"
+
+#: src/parleyactions.cpp:148
+msgid "Configure Practice..."
+msgstr "配置练习..."
+
+#: src/parleyactions.cpp:149
+msgid "Change practice settings"
+msgstr "更改练习设定"
+
+#: src/parleyactions.cpp:153
+msgid "Export results..."
+msgstr "导出结果..."
+
+#: src/parleyactions.cpp:154
+msgid "Write a file with the results of the practice"
+msgstr ""
+
+#: src/parleyactions.cpp:158
+msgid "Editor"
+msgstr "编辑器"
+
+#: src/parleyactions.cpp:159
+msgid "Switch to vocabulary editor"
+msgstr "切换到词汇收藏库"
+
+#: src/parleyactions.cpp:163
+msgid "Show Se&arch"
+msgstr "显示查找(&A)"
+
+#: src/parleyactions.cpp:164
+msgid "Toggle display of the search bar"
+msgstr "切换显示查找工具栏"
+
+#: src/parleyactions.cpp:173
+msgid "&Script Manager"
+msgstr "脚本管理器(&S)"
+
+#: src/parleyactions.cpp:174
+msgid "Enable and disable scripts"
+msgstr "启用和禁用脚本"
+
+#: src/parleyactions.cpp:190
+msgid "Download New Vocabularies..."
+msgstr "下载新的词汇表..."
+
+#: src/parleyactions.cpp:192
+msgid "Downloads new vocabulary collections"
+msgstr "下载新的词汇收藏库"
+
+#: src/parleyactions.cpp:198
+msgid "&Upload Vocabulary Document..."
+msgstr "上传词汇文档(&U)..."
+
+#: src/parleyactions.cpp:199
+msgid "Share the current vocabulary collection with other users"
+msgstr "和他人共享当前的词汇收藏库。"
+
+#: src/parleydocument.cpp:126 src/parleydocument.cpp:415
+#, kde-format
+msgctxt "@title:window document properties"
+msgid "Properties for %1"
+msgstr "%1 的属性"
+
+#: src/parleydocument.cpp:160
+msgid "Open in practice &mode"
+msgstr "在练习模式中打开(&M)"
+
+#: src/parleydocument.cpp:163
+msgid "Open Vocabulary Collection"
+msgstr "打开词汇收藏库"
+
+#: src/parleydocument.cpp:195
+#, kde-format
+msgid "Could not read collection from \"%1\""
+msgstr ""
+
+#: src/parleydocument.cpp:195
+#, fuzzy
+#| msgid "Last Opened Collections"
+msgctxt "@title:window"
+msgid "Open Collection"
+msgstr "最后打开的收藏库"
+
+#: src/parleydocument.cpp:229
+msgid "Open Downloaded Vocabulary Collection"
+msgstr "打开下载的词汇收藏库"
+
+#: src/parleydocument.cpp:254 src/parleydocument.cpp:304
+#, kde-format
+msgid "Writing file \"%1\" resulted in an error: %2"
+msgstr "写入“%1”时发生错误：%2"
+
+#: src/parleydocument.cpp:255 src/parleydocument.cpp:305
+#, fuzzy
+#| msgid "Save File"
+msgctxt "@title:window"
+msgid "Save File"
+msgstr "保存文件"
+
+#: src/parleydocument.cpp:273
+msgid "Save Vocabulary As"
+msgstr "词汇表另存为"
+
+#: src/parleydocument.cpp:282
+#, kde-format
+msgid ""
+"<qt>The file<p><b>%1</b></p>already exists. Do you want to overwrite it?</qt>"
+msgstr ""
+"文件已经存在。\n"
+"您要覆盖“%1”吗？"
+
+#: src/parleydocument.cpp:288
+#, kde-format
+msgctxt "@info:status saving a file"
+msgid "Saving %1"
+msgstr "保存 %1"
+
+#: src/parleydocument.cpp:338 src/vocabulary/wordtypeview.cpp:131
+#, fuzzy
+#| msgid "Conjugation"
+msgid "Conjunction"
+msgstr "词形变化"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
+#: src/parleydocument.cpp:351 src/settings/documentproperties.ui:221
+msgid "Public Domain"
+msgstr "公共领域"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#. i18n: ectx: property (title), widget (QGroupBox, languageGroupBox)
+#: src/parleydocument.cpp:352 src/settings/documentproperties.ui:167
+#: src/settings/documentproperties.ui:237
+msgid "Languages"
+msgstr "语言"
+
+#: src/parleydocument.cpp:360
+msgid "A Second Language"
+msgstr "第二语言"
+
+#: src/parleydocument.cpp:363
+msgid "Lesson 1"
+msgstr "课程 1"
+
+#: src/parleydocument.cpp:402
+#, fuzzy, kde-format
+#| msgid "Downloads new vocabulary collections"
+msgid "Could not open vocabulary collection \"%1\""
+msgstr "下载新的词汇收藏库"
+
+#: src/parleymainwindow.cpp:202
+msgid ""
+"Vocabulary is modified.\n"
+"\n"
+"Save file before exit?\n"
+msgstr ""
+"词汇表已改变。\n"
+"\n"
+"退出前要保存文件吗？\n"
+
+#. i18n: ectx: Menu (help)
+#: src/parleyui.rc:19
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/parleyui.rc:24
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: ToolBar (practiceToolBar)
+#: src/parleyui.rc:32 src/practice/practiceui.rc:18
+msgid "Practice Toolbar"
+msgstr "练习工具栏"
+
+#. i18n: ectx: ToolBar (statisticsToolBar)
+#: src/parleyui.rc:36 src/statistics/statisticsui.rc:19
+msgid "Statistics Toolbar"
+msgstr "统计工具栏"
+
+#. i18n: ectx: ToolBar (practiceSummaryToolBar)
+#: src/parleyui.rc:43 src/practice/practicesummaryui.rc:20
+msgid "Practice Summary Toolbar"
+msgstr "练习摘要工具栏"
+
+#: src/practice/audiobutton.cpp:66 src/practice/audiobutton.cpp:67
+msgid "Stop"
+msgstr "停止"
+
+#: src/practice/comparisonbackendmode.cpp:69
+msgid "All comparison forms were right."
+msgstr "比较级全部正确。"
+
+#: src/practice/comparisonbackendmode.cpp:74
+#, kde-format
+msgctxt ""
+"the user entered the wrong absolute form when practicing comparison forms of "
+"adjectives (the base form of the adjective is wrong)"
+msgid "\"%1\" is the wrong word."
+msgstr "“%1”是个错词。"
+
+#: src/practice/comparisonbackendmode.cpp:78
+msgctxt ""
+"the user entered the wrong comparison forms when practicing comparison forms "
+"of adjectives (good, better, best)"
+msgid "Both comparison forms (comparative and superlative) are wrong."
+msgstr "比较级和最高级都错了。"
+
+#: src/practice/comparisonbackendmode.cpp:81
+msgctxt ""
+"the user entered the wrong comparison forms when practicing comparison forms "
+"of adjectives (second form wrong - better)"
+msgid "The comparative is wrong."
+msgstr "比较级错误。"
+
+#: src/practice/comparisonbackendmode.cpp:84
+msgctxt ""
+"the user entered the wrong comparison forms when practicing comparison forms "
+"of adjectives (third form wrong - best)"
+msgid "The superlative is wrong."
+msgstr "最高级错误。"
+
+#: src/practice/comparisonmodewidget.cpp:72
+msgid "Enter the comparison forms."
+msgstr "输入比较级。"
+
+#: src/practice/conjugationbackendmode.cpp:102
+msgid "All conjugation forms were right."
+msgstr "词性变化全部正确。"
+
+#: src/practice/conjugationbackendmode.cpp:105
+#, kde-format
+msgctxt "You did not get the conjugation forms right."
+msgid "You answered %1 conjugation form correctly."
+msgid_plural "You answered %1 conjugation forms correctly."
+msgstr[0] "您答对了 %1 个词性变化。"
+
+#: src/practice/conjugationmodewidget.cpp:116
+msgid "Enter all conjugation forms."
+msgstr "输入所有词形变化。"
+
+#: src/practice/entryfilter.cpp:82
+msgid ""
+"The vocabulary document contains no entries that can be used for the chosen "
+"type of practice."
+msgstr "词汇表文档里不包含任何可用于所选练习类型的内容条目。"
+
+#: src/practice/entryfilter.cpp:117
+msgid "Start Practice"
+msgstr "开始练习"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/practice/entryfilter.ui:22
+msgid ""
+"<p>Your selection of vocabulary for the practice is empty.</p><p>Below you "
+"can choose to ignore some of your configuration settings to start a practice "
+"anyway.</p>"
+msgstr ""
+"<p>您选择要练习的词汇表为空。</p><p>接下来您可以选择忽略某些配置设定以强制开"
+"始练习。</p>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/practice/entryfilter.ui:32
+msgid "Ignore Configuration for:"
+msgstr "忽略的配置："
+
+#. i18n: ectx: property (text), widget (QCheckBox, lessonCheckBox)
+#: src/practice/entryfilter.ui:38
+msgid "Ignore Lessons"
+msgstr "忽略课程"
+
+#. i18n: ectx: property (text), widget (QCheckBox, wordTypeCheckBox)
+#: src/practice/entryfilter.ui:58
+msgid "Ignore Word Types"
+msgstr "忽略词性"
+
+#. i18n: ectx: property (text), widget (QCheckBox, blockedCheckBox)
+#: src/practice/entryfilter.ui:78
+msgid "Ignore Blocked"
+msgstr "忽略封存项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, timesWrongCheckBox)
+#: src/practice/entryfilter.ui:98
+msgid "Ignore Times Answered Incorrectly"
+msgstr "忽略不正确的回答次数"
+
+#. i18n: ectx: property (text), widget (QCheckBox, timesPracticedCheckBox)
+#: src/practice/entryfilter.ui:118
+msgid "Ignore Times Practiced"
+msgstr "忽略练习次数"
+
+#. i18n: ectx: property (text), widget (QCheckBox, minMaxGradeCheckBox)
+#: src/practice/entryfilter.ui:138
+msgid "Ignore Minimum/Maximum Grade"
+msgstr "忽略最小/最大等级"
+
+#. i18n: ectx: property (text), widget (QLabel, lessonLabel_2)
+#: src/practice/entryfilter.ui:158
+#, fuzzy
+#| msgid "Number of choices:"
+msgid "Number of Affected Words"
+msgstr "选项数量："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/practice/entryfilter.ui:173
+msgid "Total number of entries:"
+msgstr "总条目数："
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: src/practice/entryfilter.ui:194
+msgid "Resulting number of words to practice:"
+msgstr "练习单词的实际数量："
+
+#: src/practice/genderbackendmode.cpp:59
+#, kde-format
+msgid "Choose the right article for \"%1\""
+msgstr "选择“%1”的正确冠词"
+
+#: src/practice/genderbackendmode.cpp:81
+#, kde-format
+msgctxt "@label the gender of the word: masculine"
+msgid "%1 is masculine"
+msgstr "%1 是男性词"
+
+#: src/practice/genderbackendmode.cpp:86
+#, kde-format
+msgctxt "@label the gender of the word: feminine"
+msgid "%1 is feminine"
+msgstr "%1 是女性词"
+
+#: src/practice/genderbackendmode.cpp:91
+#, kde-format
+msgctxt "@label the gender of the word: neuter"
+msgid "%1 is neuter"
+msgstr "%1 是中性词"
+
+#: src/practice/guifrontend.cpp:129
+#, kde-format
+msgctxt "Display of the current lesson during practice"
+msgid "Lesson: %1"
+msgstr "课程：%1"
+
+#: src/practice/guifrontend.cpp:193
+#, fuzzy, kde-format
+#| msgid ""
+#| "You answered %2 of a total of %1 word.\n"
+#| "You are %3% done."
+#| msgid_plural ""
+#| "You answered %2 of a total of %1 words.\n"
+#| "You are %3% done."
+msgid ""
+"You answered correctly %2 of a total of %1 word.\n"
+"You are %3% done."
+msgid_plural ""
+"You answered correctly %2 of a total of %1 words.\n"
+"You are %3% done."
+msgstr[0] ""
+"您一共回答了 %2/%1 个单词。\n"
+"完成率 %3%"
+
+#: src/practice/latexrenderer.cpp:54
+msgid "Rendering..."
+msgstr "渲染中..."
+
+#: src/practice/latexrenderer.cpp:142
+msgid "LaTeX error."
+msgstr "LaTeX 错误。"
+
+#: src/practice/multiplechoicebackendmode.cpp:105
+#: src/practice/writtenbackendmode.cpp:145
+msgid "You revealed the answer by using too many hints."
+msgstr "您在这个答案上用了太多次提示了。"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, answerLaterButton)
+#: src/practice/practice_mainwindow.ui:118
+msgid "Skip this word for now and ask again later"
+msgstr "跳过此单词，之后再提问"
+
+#. i18n: ectx: property (text), widget (QPushButton, answerLaterButton)
+#: src/practice/practice_mainwindow.ui:121
+msgid "Answer Later"
+msgstr "稍后回答"
+
+#. i18n: ectx: property (text), widget (QPushButton, hintButton)
+#: src/practice/practice_mainwindow.ui:131
+msgid "Hint"
+msgstr "提示"
+
+#. i18n: ectx: property (text), widget (QPushButton, continueButton)
+#: src/practice/practice_mainwindow.ui:192
+msgid "Continue"
+msgstr "继续"
+
+#. i18n: ectx: property (text), widget (QPushButton, countAsWrongButton)
+#: src/practice/practice_mainwindow.ui:209
+msgid "I did not know it"
+msgstr "我不知道"
+
+#. i18n: ectx: property (text), widget (QPushButton, countAsCorrectButton)
+#: src/practice/practice_mainwindow.ui:216
+msgid "I knew it"
+msgstr "我知道"
+
+#. i18n: ectx: property (format), widget (QProgressBar, totalProgress)
+#: src/practice/practice_mainwindow.ui:290
+#, no-c-format
+msgid "%v/%m"
+msgstr "%v/%m"
+
+#. i18n: ectx: property (text), widget (QLabel, absoluteLabel)
+#: src/practice/practice_widget_comparison.ui:35
+msgid "absolute"
+msgstr "原形"
+
+#. i18n: ectx: property (text), widget (QLabel, comparativeLabel)
+#: src/practice/practice_widget_comparison.ui:80
+msgid "comparative"
+msgstr "比较级"
+
+#. i18n: ectx: property (text), widget (QLabel, superlativeLabel)
+#: src/practice/practice_widget_comparison.ui:125
+msgid "superlative"
+msgstr "最高级"
+
+#: src/practice/practicemainwindow.cpp:75
+msgid "Stop Practice"
+msgstr "停止练习"
+
+#: src/practice/practicemainwindow.cpp:77
+msgid "Stop practicing"
+msgstr "停止练习"
+
+#: src/practice/practicemainwindow.cpp:87
+msgid "Change answer to right/wrong"
+msgstr ""
+
+#: src/practice/practicemainwindow.cpp:88
+msgid ""
+"When you answered, Parley will display that the answer was right or wrong.\n"
+"This shortcut changes how the answer is counted."
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:65
+#, kde-format
+msgctxt "number of words, minutes, seconds"
+msgid "You practiced %1 in %2 and %3."
+msgstr "您在 %2分%3秒内练习了 %1 个单词。"
+
+#: src/practice/practicesummarycomponent.cpp:66
+#, kde-format
+msgid "one word"
+msgid_plural "%1 words"
+msgstr[0] "%1 个单词"
+
+#: src/practice/practicesummarycomponent.cpp:67
+#, kde-format
+msgid "one minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 分钟"
+
+#: src/practice/practicesummarycomponent.cpp:68
+#, kde-format
+msgid "one second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 秒"
+
+#: src/practice/practicesummarycomponent.cpp:85
+#: src/practice/practicesummarycomponent.cpp:86
+msgid "Practice Again"
+msgstr "再次练习"
+
+#: src/practice/practicesummarycomponent.cpp:155
+msgid "HTML Files"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:155
+#, fuzzy
+#| msgid "General Document Properties"
+msgid "OpenDocument text files"
+msgstr "常规文档属性"
+
+#: src/practice/practicesummarycomponent.cpp:163
+#, fuzzy
+#| msgid "Practice &Counts"
+msgid "Practice results"
+msgstr "练习计数(&C)"
+
+#: src/practice/practicesummarycomponent.cpp:168
+#, kde-format
+msgid "Answered questions: %1\n"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:169
+#, kde-format
+msgid "Correct answers: %1\n"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:170
+#, kde-format
+msgid "Wrong answers: %1\n"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:177
+#, fuzzy
+#| msgid "Attempts"
+msgid "<b>Attempts</b>"
+msgstr "尝试"
+
+#: src/practice/practicesummarycomponent.cpp:178
+#, fuzzy
+#| msgid "Question"
+msgid "<b>Question</b>"
+msgstr "问题"
+
+#: src/practice/practicesummarycomponent.cpp:179
+msgid "<b>Correct answer</b>"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:180
+msgid "<b>Your errors</b>"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:194
+#, fuzzy, kde-format
+#| msgid "Could not start practice"
+msgid "Could not write to %1"
+msgstr "无法开始练习"
+
+#: src/practice/practicesummarycomponent.cpp:195
+#, fuzzy
+#| msgid "Could not start practice"
+msgid "Could not write file"
+msgstr "无法开始练习"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: src/practice/practicesummarywidget.ui:28
+msgid "Attempts"
+msgstr "尝试"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: src/practice/practicesummarywidget.ui:33
+msgid "Question"
+msgstr "问题"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: src/practice/practicesummarywidget.ui:43
+msgid "Your Answer"
+msgstr "您的回答"
+
+#: src/practice/statustoggle.cpp:86
+msgid ""
+"This answer will be counted as correct.\n"
+"Words will only be counted as correct if they are answered correctly on the "
+"first attempt."
+msgstr ""
+
+#: src/practice/statustoggle.cpp:87
+msgid "Count this answer as wrong"
+msgstr "将此答案计为错误"
+
+#: src/practice/statustoggle.cpp:90
+msgid ""
+"This answer will be counted as wrong.\n"
+"Words will only be counted as correct if they are answered correctly on the "
+"first attempt."
+msgstr ""
+
+#: src/practice/statustoggle.cpp:91
+#, fuzzy
+#| msgid "Count this word as correct"
+msgid "Count this answer as correct"
+msgstr "将这个单词计为正确"
+
+#: src/practice/summarybarwidget.cpp:85
+#, kde-format
+msgctxt "test results"
+msgid "%1 % correct"
+msgstr "%1% 正确率"
+
+#: src/practice/summarybarwidget.cpp:87
+#, kde-format
+msgctxt "test results"
+msgid "%1 % wrong"
+msgstr "%1% 错误率"
+
+#: src/practice/summarybarwidget.cpp:89
+#, kde-format
+msgctxt "test results"
+msgid "%1 % not answered"
+msgstr "%1% 未答"
+
+#: src/practice/summarybarwidget.cpp:148
+#, kde-format
+msgid "Answered correctly on the first attempt: %1 of %2 (%3 %)"
+msgstr "一次性答对率：%2 中的 %1 个(%3%)"
+
+#: src/practice/summarybarwidget.cpp:155
+#, kde-format
+msgid "Answered wrong on the first attempt: %1 of %2 (%3 %)"
+msgstr "首次答错率：%2 中的 %1 个(%3%)"
+
+#: src/practice/summarybarwidget.cpp:162
+#, kde-format
+msgid "Not answered during this practice: %1 of %2 (%3 %)"
+msgstr "此次练习中未回答率：%2 中的 %1 个(%3%)"
+
+#: src/practice/testentrymanager.cpp:61
+msgid "Could not start practice"
+msgstr "无法开始练习"
+
+#: src/practice/testentrymanager.cpp:61
+msgid "The vocabulary collection contains fewer than two languages."
+msgstr "此词汇收藏库中包含的语言少于两种。"
+
+#: src/practice/writtenbackendmode.cpp:78
+#, fuzzy
+#| msgid "Your answer was a synonym."
+msgid "Your answer was wrong."
+msgstr "您的答案是一个同义词。"
+
+#: src/practice/writtenbackendmode.cpp:92
+#, fuzzy
+#| msgid ""
+#| "Your answer was wrong as synonyms are not accepted. Please try again."
+msgid ""
+"Your answer was a synonym. Please enter another word with the same "
+"translation."
+msgstr "您答错了，这里不能用同义词，请重试。"
+
+#: src/practice/writtenbackendmode.cpp:96
+msgid "Your answer was an already entered synonym."
+msgstr "您的答案是一个已经输入过的同义词。"
+
+#: src/practice/writtenbackendmode.cpp:99
+msgid "Your answer was a synonym and your capitalization was wrong."
+msgstr "您的答案是一个同义词，且大小写错了。"
+
+#: src/practice/writtenbackendmode.cpp:101
+msgid "Your answer was a synonym and accents were wrong."
+msgstr "您的答案是一个同义词，且重音错了。"
+
+#: src/practice/writtenbackendmode.cpp:103
+msgid "Your answer was a synonym."
+msgstr "您的答案是一个同义词。"
+
+#: src/practice/writtenbackendmode.cpp:111
+msgid ""
+"Your answer was wrong as capitalization mistakes are not accepted. Please "
+"try again."
+msgstr "您答错了，因为大小写和正确的不同，请重试。"
+
+#: src/practice/writtenbackendmode.cpp:113
+msgid ""
+"Your answer was wrong as accent mistakes are not accepted. Please try again."
+msgstr "您答错了，因为重音和正确的不同，请重试。"
+
+#: src/practice/writtenbackendmode.cpp:115
+msgid "Your answer was wrong. Please try again."
+msgstr "您答错了，请重试。"
+
+#: src/practice/writtenbackendmode.cpp:122
+#, fuzzy
+#| msgid ""
+#| "Your answer was right on the first attempt, but your capitalization was "
+#| "wrong."
+msgid "Your answer was right, but your capitalization was wrong."
+msgstr "您第一次尝试的答案正确，但是大小写错了。"
+
+#: src/practice/writtenbackendmode.cpp:124
+#, fuzzy
+#| msgid "Your answer was right on the first attempt, but accents were wrong."
+msgid "Your answer was right, but accents were wrong."
+msgstr "您第一次尝试的答案正确，但是重音错了。"
+
+#: src/practice/writtenbackendmode.cpp:126
+#, fuzzy
+#| msgid "Your answer was a synonym."
+msgid "Your answer was right."
+msgstr "您的答案是一个同义词。"
+
+#: src/practice/writtenbackendmode.cpp:130
+msgid ""
+"Your answer was right... but not on the first try and your capitalization "
+"was wrong."
+msgstr "您答对了……但不是一次答对，而且大小写错了。"
+
+#: src/practice/writtenbackendmode.cpp:132
+msgid ""
+"Your answer was right... but not on the first try and accents were wrong."
+msgstr "您答对了……但不是一次答对，而且重音错了。"
+
+#: src/practice/writtenbackendmode.cpp:134
+msgid "Your answer was right... but not on the first try."
+msgstr "您答对了……但不是一次答对。"
+
+#: src/practice/writtenbackendmode.cpp:154
+#, kde-format
+msgid "The solution starts with: %1"
+msgstr "解答开始于：%1"
+
+#: src/practice/writtenpracticewidget.cpp:138
+msgid "Synonym: "
+msgstr "同义词："
+
+#: src/scripts/script.cpp:51
+msgid "The script file does not exist."
+msgstr "脚本文件不存在。"
+
+#: src/scripts/script.cpp:82
+#, kde-format
+msgid "Error in file %1 at line %2:"
+msgstr "文件 %1 出错于行 %2："
+
+#: src/scripts/script.cpp:84
+msgctxt "debug information in error message"
+msgid "Backtrace:"
+msgstr "回溯跟踪："
+
+#: src/scripts/scriptdialog.cpp:33
+msgid "Script Dialog"
+msgstr "脚本对话框"
+
+#: src/scripts/scriptmanager.cpp:131
+#, kde-format
+msgid "A script could not be activated and has been disabled."
+msgid_plural "%1 scripts could not be activated and have been disabled."
+msgstr[0] "无法激活脚本 %1，因此它已被禁用。"
+
+#: src/scripts/scriptmanager.cpp:131
+msgid ""
+"This probably means that there are errors in the script or that the required "
+"packages are not installed."
+msgstr "可能是因为脚本中有错误，或者所需的软件包未安装。"
+
+#: src/scripts/scriptmanager.cpp:133
+msgid "Script Activation"
+msgstr "脚本激活"
+
+#. i18n: ectx: property (title), widget (QGroupBox, tiltle_group)
+#: src/settings/documentproperties.ui:25
+msgid "General Document Properties"
+msgstr "常规文档属性"
+
+#. i18n: ectx: property (text), widget (QLabel, label_title)
+#: src/settings/documentproperties.ui:37
+msgid "&Title:"
+msgstr "标题(&T)："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, titleLineEdit)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, authorLineEdit)
+#: src/settings/documentproperties.ui:56 src/settings/documentproperties.ui:82
+msgid "A title for your document."
+msgstr "您的文档标题。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_author)
+#: src/settings/documentproperties.ui:63
+msgid "&Author:"
+msgstr "作者(&A)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_author_2)
+#: src/settings/documentproperties.ui:89
+msgid "&Email:"
+msgstr "电子邮件(&E)："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, contactLineEdit)
+#: src/settings/documentproperties.ui:108
+msgid "A way to contact you (email or a webpage)."
+msgstr "某种联系方式(电子邮件或网页)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_remark)
+#: src/settings/documentproperties.ui:115
+msgid "&Comment:"
+msgstr "注释(&C)："
+
+#. i18n: ectx: property (toolTip), widget (KTextEdit, commentTextEdit)
+#: src/settings/documentproperties.ui:134
+msgid "Any additional information."
+msgstr "任何附加信息。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/settings/documentproperties.ui:147
+msgid "Cat&egory"
+msgstr "类别(&E)"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, categoryComboBox)
+#: src/settings/documentproperties.ui:160
+msgid "A general category into which your document belongs."
+msgstr "您的文档所属的常规类别"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: src/settings/documentproperties.ui:172
+msgid "Music"
+msgstr "音乐"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: src/settings/documentproperties.ui:177
+msgid "Geography"
+msgstr "地理学"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: src/settings/documentproperties.ui:182
+msgid "Anatomy"
+msgstr "解剖学"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: src/settings/documentproperties.ui:187
+msgid "History"
+msgstr "历史学"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#: src/settings/documentproperties.ui:192
+msgid "Test Preparation"
+msgstr "预习"
+
+#. i18n: ectx: property (text), widget (QLabel, label_license)
+#: src/settings/documentproperties.ui:200
+msgid "&License:"
+msgstr "许可协议(&L)："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, licenseComboBox)
+#: src/settings/documentproperties.ui:214
+msgid ""
+"The license under which your document will be.\n"
+"If you consider contributing your file to KDE in the future, an appropriate "
+"license is required."
+msgstr ""
+"您的文档所遵从的许可。\n"
+"如果您考虑将您的文件以后捐献给 KDE 的话，那就需要一个合适的许可协议。"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
+#: src/settings/documentproperties.ui:226
+msgid "GPLv2+ (GNU General Public License version 2 or later)"
+msgstr "GPLv2+ (GNU 通用公共许可证第二版或更新版本)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_language_1)
+#: src/settings/documentproperties.ui:243
+msgid "&First language:"
+msgstr "第一语言(&F)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_language_2)
+#: src/settings/documentproperties.ui:269
+msgid "&Second language:"
+msgstr "第二语言(&S)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, grammarCheckBox)
+#: src/settings/documentproperties.ui:298
+msgid "&Setup Grammar Details"
+msgstr "设置语法细节(&S)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, downloadGrammarCheckBox)
+#: src/settings/documentproperties.ui:308
+msgctxt "Attept to download grammar properties for the selected languages"
+msgid "Download Grammar"
+msgstr "下载语法"
+
+#. i18n: ectx: label, entry (ConjugationTenses), group (Document $(fileurl))
+#. i18n: ectx: whatsthis, entry (ConjugationTenses), group (Document $(fileurl))
+#. i18n: ectx: label, entry (ConjugationTenses), group (Locale $(locale))
+#. i18n: ectx: whatsthis, entry (ConjugationTenses), group (Locale $(locale))
+#: src/settings/documentsettings.kcfg:11 src/settings/documentsettings.kcfg:12
+#: src/settings/languagesettings.kcfg:23 src/settings/languagesettings.kcfg:24
+msgid "Selected tenses for conjugation practice."
+msgstr "词性练习的时态。"
+
+#. i18n: ectx: label, entry (VisibleColumns), group (Document $(fileurl))
+#. i18n: ectx: whatsthis, entry (VisibleColumns), group (Document $(fileurl))
+#. i18n: ectx: label, entry (VisibleColumns), group (Locale $(locale))
+#. i18n: ectx: whatsthis, entry (VisibleColumns), group (Locale $(locale))
+#: src/settings/documentsettings.kcfg:16 src/settings/documentsettings.kcfg:17
+#: src/settings/languagesettings.kcfg:28 src/settings/languagesettings.kcfg:29
+msgid "Visible columns in the main editor window."
+msgstr "编辑器主窗口中的可见栏。"
+
+#: src/settings/generaloptions.cpp:59
+msgctxt "CSV separator"
+msgid ";"
+msgstr ";"
+
+#: src/settings/generaloptions.cpp:60
+msgctxt "CSV separator"
+msgid "#"
+msgstr "#"
+
+#: src/settings/generaloptions.cpp:61
+msgctxt "CSV separator"
+msgid "!"
+msgstr "!"
+
+#: src/settings/generaloptions.cpp:62
+msgctxt "CSV separator"
+msgid "|"
+msgstr "|"
+
+#: src/settings/generaloptions.cpp:63
+msgctxt "CSV separator"
+msgid ","
+msgstr ","
+
+#: src/settings/generaloptions.cpp:64
+msgctxt "CSV separator: tabulator"
+msgid "TAB"
+msgstr "制表符"
+
+#: src/settings/generaloptions.cpp:65
+msgctxt "CSV separator"
+msgid ">= 2 SPACES"
+msgstr "2 个以上空格"
+
+#: src/settings/generaloptions.cpp:66
+msgctxt "CSV separator"
+msgid " : "
+msgstr " : "
+
+#: src/settings/generaloptions.cpp:67
+msgctxt "CSV separator"
+msgid " :: "
+msgstr " :: "
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/settings/generaloptionsbase.ui:17
+msgid "Open/Save"
+msgstr "打开/保存"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoOpenLast)
+#: src/settings/generaloptionsbase.ui:23
+msgid "Always open the collection that was active when quitting Parley"
+msgstr "总是打开之前关闭 Parley 时还在使用中的收藏库"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoOpenLast)
+#: src/settings/generaloptionsbase.ui:26
+msgid ""
+"When this option is checked, the last active collection will be loaded "
+"automatically when starting Parley instead of showing the welcome screen."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoOpenLast)
+#: src/settings/generaloptionsbase.ui:29
+msgid "Always load the last opened collection on start"
+msgstr "启动时装载最后打开的收藏库"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoSave)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoBackup)
+#: src/settings/generaloptionsbase.ui:39 src/settings/generaloptionsbase.ui:60
+msgid "Allow automatic saving of your work"
+msgstr "允许自动保存您的工作"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoSave)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoBackup)
+#: src/settings/generaloptionsbase.ui:42 src/settings/generaloptionsbase.ui:63
+msgid "Your work will be automatically saved if you check this option"
+msgstr "如果勾选此项，您的工作将自动得到保存"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoSave)
+#: src/settings/generaloptionsbase.ui:45
+msgid "&Save vocabularies automatically on close and quit"
+msgstr "在关闭和退出时自动保存词汇表(&S)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoBackup)
+#: src/settings/generaloptionsbase.ui:66
+msgid "&Create a backup every"
+msgstr "创建备份间隔(&C)"
+
+#. i18n: ectx: property (text), widget (QLabel, lblBackupInterva)
+#: src/settings/generaloptionsbase.ui:89
+msgid "minutes"
+msgstr "分钟"
+
+#. i18n: ectx: property (text), widget (QLabel, label_sep)
+#: src/settings/generaloptionsbase.ui:100
+msgid "Sep&arator for text file import/export (CSV):"
+msgstr "文本文件导入/导出时用的分隔符(CSV)(&A)"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_SeparatorCombo)
+#: src/settings/generaloptionsbase.ui:116
+msgid ""
+"Choose which separator you want to use to separate your data when importing "
+"and exporting text."
+msgstr "选择在导入导出文本文件时所要用的分隔符。"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_SeparatorCombo)
+#: src/settings/generaloptionsbase.ui:119
+msgid ""
+"Choose the separator to use to divide the parts of an expression when "
+"importing or exporting data as text."
+msgstr "选择分隔符的目的是在导入导出文本数据时区分词语的不同部分。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/settings/generaloptionsbase.ui:144
+msgid "Editing"
+msgstr "编辑"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SmartAppend)
+#: src/settings/generaloptionsbase.ui:162
+msgid "&Append new rows automatically when editing"
+msgstr "编辑时自动追加新行(&A)"
+
+#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
+#: src/settings/kgametheme/kgamethemeselector.ui:40
+msgid "&Get New Themes..."
+msgstr "获得新主题(&G)..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/settings/kgametheme/kgamethemeselector.ui:97
+msgid "Theme Details"
+msgstr "主题细节"
+
+#. i18n: ectx: property (text), widget (QLabel, labelContact)
+#: src/settings/kgametheme/kgamethemeselector.ui:131
+msgid "Contact:"
+msgstr "联系人："
+
+#. i18n: ectx: property (text), widget (QLabel, labelDescription)
+#: src/settings/kgametheme/kgamethemeselector.ui:166
+msgid "Description:"
+msgstr "描述："
+
+#. i18n: ectx: property (text), widget (QLabel, labelAuthor)
+#: src/settings/kgametheme/kgamethemeselector.ui:201
+msgid "Author:"
+msgstr "作者："
+
+#: src/settings/languageproperties.cpp:28
+msgid "Edit Languages"
+msgstr "编辑语言"
+
+#: src/settings/languageproperties.cpp:32
+msgid "Add language"
+msgstr "添加语言"
+
+#: src/settings/languageproperties.cpp:34
+msgid "Remove language"
+msgstr "删除语言"
+
+#: src/settings/languageproperties.cpp:49
+msgid "New Language"
+msgstr "新建语言"
+
+#: src/settings/languageproperties.cpp:59
+#, kde-format
+msgctxt "Edit language properties"
+msgid "Properties for %1"
+msgstr "%1 的属性"
+
+#: src/settings/languageproperties.cpp:88
+#, kde-format
+msgid "Really delete language: %1?"
+msgstr "真的要删除语言：%1 吗？"
+
+#: src/settings/languageproperties.cpp:88
+msgid "Remove Language"
+msgstr "删除语言"
+
+#: src/settings/languagepropertiespage.cpp:94
+msgid "No KDE keyboard selector found."
+msgstr ""
+
+#: src/settings/languagepropertiespage.cpp:362
+#: src/settings/languagepropertiespage.cpp:384
+msgid "Tense Name"
+msgstr "时态名称"
+
+#: src/settings/languagepropertiespage.cpp:362
+#: src/settings/languagepropertiespage.cpp:384
+msgid "Enter name of tense:"
+msgstr "输入时态名称："
+
+#: src/settings/languagepropertiespage.cpp:413
+msgid ""
+"The selected user defined tense could not be deleted\n"
+"because it is in use."
+msgstr ""
+"无法删除选中的用户自定义时态，\n"
+"因为它正在被使用。"
+
+#: src/settings/languagepropertiespage.cpp:413
+msgid "Deleting Tense Description"
+msgstr "删除时态说明"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: src/settings/languagepropertiespage.ui:21
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: src/settings/languagepropertiespage.ui:30
+msgid "Name:"
+msgstr "名称："
+
+#. i18n: ectx: property (text), widget (QLabel, keyboardLayoutLabel)
+#: src/settings/languagepropertiespage.ui:46
+msgid "Keyboard layout:"
+msgstr "键盘布局："
+
+#. i18n: ectx: property (text), widget (QPushButton, downloadGrammarButton)
+#: src/settings/languagepropertiespage.ui:75
+msgid "&Download Grammar"
+msgstr "下载语法(&D)"
+
+#. i18n: ectx: property (text), widget (QLabel, spellcheckerLabel)
+#: src/settings/languagepropertiespage.ui:88
+msgid "Spell checker:"
+msgstr "拼写检查器："
+
+#. i18n: ectx: property (text), widget (QLabel, localeSelectionLabel)
+#: src/settings/languagepropertiespage.ui:101
+msgid "Language:"
+msgstr "语言："
+
+#. i18n: ectx: property (text), widget (QLabel, fontLabel_2)
+#: src/settings/languagepropertiespage.ui:117
+msgid "Font (practice):"
+msgstr "字体(练习)："
+
+#. i18n: ectx: property (text), widget (QLabel, fontLabel_3)
+#: src/settings/languagepropertiespage.ui:127
+msgid "Font (editor):"
+msgstr "字体(编辑器)："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: src/settings/languagepropertiespage.ui:141
+msgid "Articles"
+msgstr "冠词"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
+#: src/settings/languagepropertiespage.ui:153
+#: src/settings/languagepropertiespage.ui:404
+msgid "Definite"
+msgstr "定冠词"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2)
+#: src/settings/languagepropertiespage.ui:160
+#: src/settings/languagepropertiespage.ui:411
+msgid "Indefinite"
+msgstr "不定冠词"
+
+#. i18n: ectx: property (text), widget (QLabel, male_label)
+#. i18n: ectx: property (text), widget (QLabel, male_label_2)
+#: src/settings/languagepropertiespage.ui:167
+#: src/settings/languagepropertiespage.ui:365
+msgid "&Male:"
+msgstr "阳性(&M)："
+
+#. i18n: ectx: property (text), widget (QLabel, female_label)
+#. i18n: ectx: property (text), widget (QLabel, female_label_2)
+#: src/settings/languagepropertiespage.ui:190
+#: src/settings/languagepropertiespage.ui:352
+msgid "&Female:"
+msgstr "阴性(&F)："
+
+#. i18n: ectx: property (text), widget (QLabel, natural_label)
+#. i18n: ectx: property (text), widget (QLabel, natural_label_2)
+#: src/settings/languagepropertiespage.ui:223
+#: src/settings/languagepropertiespage.ui:339
+msgid "&Neutral:"
+msgstr "中性(&N)："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: src/settings/languagepropertiespage.ui:451
+msgid "Personal Pronouns"
+msgstr "人称代词"
+
+#. i18n: ectx: property (text), widget (QLabel, pers1_label)
+#: src/settings/languagepropertiespage.ui:507
+msgid "&1. Person:"
+msgstr "第一人称(&1)："
+
+#. i18n: ectx: property (text), widget (QLabel, pers2_label)
+#: src/settings/languagepropertiespage.ui:543
+msgid "&2. Person:"
+msgstr "第二人称(&2)："
+
+#. i18n: ectx: property (text), widget (QLabel, pers3_label)
+#: src/settings/languagepropertiespage.ui:579
+msgid "3. Person:"
+msgstr "第三人称："
+
+#. i18n: ectx: property (text), widget (QLabel, male_c_label)
+#: src/settings/languagepropertiespage.ui:589
+msgid "M&ale:"
+msgstr "阳性(&A)："
+
+#. i18n: ectx: property (text), widget (QLabel, female_c_label)
+#: src/settings/languagepropertiespage.ui:625
+msgid "F&emale:"
+msgstr "阴性(&E)："
+
+#. i18n: ectx: property (text), widget (QLabel, natural_c_label)
+#: src/settings/languagepropertiespage.ui:661
+msgid "Neu&ter:"
+msgstr "中性(&T)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, dualCheckBox)
+#: src/settings/languagepropertiespage.ui:697
+msgid "Dual conjugations"
+msgstr "复数类词性变化"
+
+#. i18n: ectx: property (text), widget (QCheckBox, neutralCheckBox)
+#: src/settings/languagepropertiespage.ui:704
+msgid "A neutral conjugation form exists"
+msgstr "存在中性词性变化表。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, maleFemaleDifferCheckBox)
+#: src/settings/languagepropertiespage.ui:717
+msgid "Male/female have different conjugations"
+msgstr "对男性/女性有不同的词性变化"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: src/settings/languagepropertiespage.ui:725
+#: src/statistics/conjugationoptions.cpp:35
+msgid "Tenses"
+msgstr "时态"
+
+#. i18n: ectx: property (text), widget (QPushButton, newButton)
+#: src/settings/languagepropertiespage.ui:752
+#: src/settings/optionlistform.ui:63
+msgid "&New..."
+msgstr "新建(&N)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, modifyButton)
+#: src/settings/languagepropertiespage.ui:765
+#: src/settings/optionlistform.ui:78
+msgid "&Modify..."
+msgstr "修改(&M)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: src/settings/languagepropertiespage.ui:778
+#: src/settings/optionlistform.ui:93
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#. i18n: ectx: label, entry (KeyboardLayout), group (Locale $(locale))
+#. i18n: ectx: whatsthis, entry (KeyboardLayout), group (Locale $(locale))
+#: src/settings/languagesettings.kcfg:12 src/settings/languagesettings.kcfg:13
+msgid "Keyboard layout for this locale"
+msgstr "此语系的键盘布局"
+
+#. i18n: ectx: label, entry (SpellChecker), group (Locale $(locale))
+#. i18n: ectx: whatsthis, entry (SpellChecker), group (Locale $(locale))
+#: src/settings/languagesettings.kcfg:17 src/settings/languagesettings.kcfg:18
+msgid "Spell checker for this language"
+msgstr ""
+
+#. i18n: ectx: label, entry (PracticeFont), group (Locale $(locale))
+#: src/settings/languagesettings.kcfg:32
+msgid "The font used during practice"
+msgstr "练习时使用的字体"
+
+#. i18n: ectx: label, entry (EditorFont), group (Locale $(locale))
+#: src/settings/languagesettings.kcfg:36
+msgid "The font used in the editor"
+msgstr "编辑器中使用的字体"
+
+#. i18n: ectx: property (text), widget (QPushButton, cleanUpButton)
+#: src/settings/optionlistform.ui:124
+msgid "&Clean Up"
+msgstr "清理(&C)"
+
+#. i18n: ectx: label, entry (Theme), group (General)
+#: src/settings/parley.kcfg:11
+msgid "Theme to use for practice and welcome screen"
+msgstr "练习和欢迎屏幕的主题"
+
+#. i18n: ectx: label, entry (NumPreSetting), group (General)
+#: src/settings/parley.kcfg:15
+msgid "Number of stored setting profiles"
+msgstr "已保存配置集的数量"
+
+#. i18n: ectx: label, entry (SmartAppend), group (General)
+#: src/settings/parley.kcfg:19
+msgid ""
+"If true, when using the entry dialog, new rows will be appended as needed"
+msgstr "如果选中，当使用条目对话框时，新行会按需自动追加"
+
+#. i18n: ectx: label, entry (Separator), group (General)
+#: src/settings/parley.kcfg:23
+msgid "This sets the separator used when copying/pasting text, default is Tab"
+msgstr "在此设置复制/粘贴文字时用的分隔符，默认为制表符 Tab。"
+
+#. i18n: ectx: label, entry (EntriesPerLesson), group (General)
+#: src/settings/parley.kcfg:27
+msgid "The number of entries per lesson"
+msgstr "每个课程中的条目数"
+
+#. i18n: ectx: label, entry (AutoOpenLast), group (General)
+#: src/settings/parley.kcfg:31
+msgid "If true, on each application start the last opened file will be loaded"
+msgstr "如果选中，每启动一个程序时都会自动装载上次打开的文件"
+
+#. i18n: ectx: label, entry (AutoSave), group (General)
+#: src/settings/parley.kcfg:35
+msgid "If true, vocabularies are automatically saved on close and exit"
+msgstr "如果选中，在关闭和退出时会自动保存词汇表"
+
+#. i18n: ectx: label, entry (AutoBackup), group (General)
+#: src/settings/parley.kcfg:42
+msgid "If true, a backup is saved every BackupTime minutes"
+msgstr "如果选中，将自动定时保存文档备份"
+
+#. i18n: ectx: label, entry (BackupTime), group (General)
+#: src/settings/parley.kcfg:46
+msgid "Time interval between two automatic backups"
+msgstr "自动备份间隔"
+
+#. i18n: ectx: label, entry (FlashcardsFrontImage), group (PracticeOptions)
+#: src/settings/parley.kcfg:57
+msgid "Show images on the front of the flashcard."
+msgstr "在题卡正面显示图像。"
+
+#. i18n: ectx: label, entry (FlashcardsBackImage), group (PracticeOptions)
+#: src/settings/parley.kcfg:61
+msgid "Show images on the back of the flashcard."
+msgstr "在题卡背面显示图像。"
+
+#. i18n: ectx: label, entry (Block), group (PracticeOptions)
+#: src/settings/parley.kcfg:65
+msgid "In Blocking Query Tab Dialog, if checked then the Query is blocked"
+msgstr ""
+
+#. i18n: ectx: label, entry (Expire), group (PracticeOptions)
+#: src/settings/parley.kcfg:69
+msgid ""
+"In Blocking Query Tab Dialog, if checked then the Query accepts an expiring "
+"time"
+msgstr ""
+
+#. i18n: ectx: label, entry (AltLearn), group (PracticeOptions)
+#: src/settings/parley.kcfg:73
+msgid "Use the Leitner learning method"
+msgstr "使用 Leitner 学习法"
+
+#. i18n: ectx: label, entry (TestOrderLesson), group (PracticeOptions)
+#: src/settings/parley.kcfg:77
+msgid ""
+"Append new vocabulary in a test in order of their lessons. Note that this "
+"will not be a hard transition, but a slow mix from one lesson to the next."
+msgstr ""
+
+#. i18n: ectx: label, entry (TestNumberOfEntries), group (PracticeOptions)
+#: src/settings/parley.kcfg:81
+msgid ""
+"The number of entries that are practiced at the same time. If one of these "
+"is answered correctly another entry will be appended."
+msgstr "同时练习的条目数量，当答出一条后下一条将自动被添加。"
+
+#. i18n: ectx: label, entry (SwapDirection), group (PracticeOptions)
+#: src/settings/parley.kcfg:85
+msgid "Swap direction randomly"
+msgstr "随机交换方向"
+
+#. i18n: ectx: label, entry (PracticeTimeout), group (PracticeOptions)
+#: src/settings/parley.kcfg:90
+msgid "Limit the time for the user to answer in a test."
+msgstr "测验答题时限。"
+
+#. i18n: ectx: label, entry (PracticeTimeoutMode), group (PracticeOptions)
+#: src/settings/parley.kcfg:94
+msgid ""
+"Show - show the solution after the given time; Continue - go to the next "
+"question after the given time."
+msgstr "显示 - 在指定时间后显示答案，一旦超时就转到下一个问题。"
+
+#. i18n: ectx: label, entry (PracticeTimeoutTimePerAnswer), group (PracticeOptions)
+#: src/settings/parley.kcfg:102
+msgid "Maximum time allowed to answer."
+msgstr "回答的最大允许时间。"
+
+#. i18n: ectx: label, entry (Suggestions), group (PracticeOptions)
+#: src/settings/parley.kcfg:107
+msgid "Enable suggestion lists in written practice."
+msgstr "在书写练习中启用猜测列表。"
+
+#. i18n: ectx: label, entry (ShowHints), group (PracticeOptions)
+#: src/settings/parley.kcfg:111
+msgid "Enable the showing of hints."
+msgstr "允许显示提示。"
+
+#. i18n: ectx: label, entry (IgnoreAccentMistakes), group (PracticeOptions)
+#: src/settings/parley.kcfg:115
+msgid "Count answers as right when only the accentuation is wrong."
+msgstr "如果只答错重音，按答对处理。"
+
+#. i18n: ectx: label, entry (IgnoreCapitalizationMistakes), group (PracticeOptions)
+#: src/settings/parley.kcfg:119
+msgid "Count answers as right when only the capitalization is wrong."
+msgstr "如果只答错大小写顺序，按答对处理。"
+
+#. i18n: ectx: label, entry (SplitTranslations), group (PracticeOptions)
+#: src/settings/parley.kcfg:124
+msgid "Split translations in written practice."
+msgstr "书写练习中分隔翻译。"
+
+#. i18n: ectx: label, entry (Periods), group (PracticeOptions)
+#: src/settings/parley.kcfg:128
+msgid "Split translations at periods."
+msgstr "用点分隔翻译。"
+
+#. i18n: ectx: label, entry (Colons), group (PracticeOptions)
+#: src/settings/parley.kcfg:132
+msgid "Split translations at colons."
+msgstr "用冒号分隔翻译。"
+
+#. i18n: ectx: label, entry (Semicolons), group (PracticeOptions)
+#: src/settings/parley.kcfg:136
+msgid "Split translations at semicolons."
+msgstr "用分号分隔翻译。"
+
+#. i18n: ectx: label, entry (Commas), group (PracticeOptions)
+#: src/settings/parley.kcfg:140
+msgid "Split translations at commas."
+msgstr "用逗号分隔翻译。"
+
+#. i18n: ectx: label, entry (ShowMore), group (PracticeOptions)
+#: src/settings/parley.kcfg:146
+msgid ""
+"Enable Show More button to reveal parts of the solution in written practice."
+msgstr "在书写练习中，启用显示更多按钮给出部分答案。"
+
+#. i18n: ectx: label, entry (SkipKnownEnabled), group (PracticeOptions)
+#: src/settings/parley.kcfg:150
+msgid "Enable Skip (I Know It) button in written practice."
+msgstr "在书写练习中启用“我知道”按钮(&B)"
+
+#. i18n: ectx: label, entry (CountSynonymsAsCorrect), group (PracticeOptions)
+#: src/settings/parley.kcfg:154
+msgid ""
+"When the synonym instead of the word was entered, does it count as correct?"
+msgstr "如果输入了同义词而非原词，是否计为正确？"
+
+#. i18n: ectx: label, entry (PracticeImagesEnabled), group (PracticeOptions)
+#: src/settings/parley.kcfg:158
+msgid "Enable image display in the practice dialogs."
+msgstr "在练习对话框中启用图像显示。"
+
+#. i18n: ectx: label, entry (PracticeSoundEnabled), group (PracticeOptions)
+#: src/settings/parley.kcfg:162
+msgid "Enable sound playback in the practice dialogs."
+msgstr "在练习对话框中启用声音回放。"
+
+#. i18n: ectx: label, entry (AllowImageInsteadOfWord), group (PracticeOptions)
+#: src/settings/parley.kcfg:166
+msgid ""
+"Check this if you want to practice with images instead of words in "
+"flashcards."
+msgstr ""
+
+#. i18n: ectx: label, entry (MultipleChoiceWordTypeConsistancy), group (PracticeOptions)
+#: src/settings/parley.kcfg:170
+msgid ""
+"Use the same word type as the solution for the incorrect answers in a "
+"multiple choice practice."
+msgstr ""
+
+#. i18n: ectx: label, entry (NumberMultipleChoiceAnswers), group (PracticeOptions)
+#: src/settings/parley.kcfg:174
+msgid ""
+"How many answers are provided for a multiple choice question, including the "
+"correct answer."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowSearch), group (Appearance)
+#: src/settings/parley.kcfg:181
+msgid "Toggle display of the search bar."
+msgstr "切换搜索栏的显示。"
+
+#. i18n: ectx: label, entry (ShowSublessonentries), group (Appearance)
+#: src/settings/parley.kcfg:186
+msgid "When enabled a lesson also shows entries from its sublessons."
+msgstr "启用此项时，子课程内的条目也会被显示。"
+
+#. i18n: ectx: label, entry (TableLessonColumnVisible), group (Appearance)
+#: src/settings/parley.kcfg:191
+msgid "Show/hide the lesson column."
+msgstr "显示/隐藏课程栏。"
+
+#. i18n: ectx: label, entry (TableActiveColumnVisible), group (Appearance)
+#: src/settings/parley.kcfg:196
+msgid "Show/hide the active column."
+msgstr "显示/隐藏活动项栏。"
+
+#. i18n: ectx: label, entry (LessonEditingSelection), group (Appearance)
+#: src/settings/parley.kcfg:201
+msgid "Select which lessons are displayed for editing"
+msgstr "选择要进行编辑的课程"
+
+#. i18n: ectx: label, entry (MainWindowSplitter), group (Appearance)
+#: src/settings/parley.kcfg:211
+msgid "How the main window is divided."
+msgstr "主窗口切分方式。"
+
+#. i18n: ectx: label, entry (PracticeFont), group (Appearance)
+#: src/settings/parley.kcfg:215
+msgid "The font used in the vocabulary table"
+msgstr "词汇表使用的字体"
+
+#. i18n: ectx: label, entry (IPAFont), group (Appearance)
+#: src/settings/parley.kcfg:219
+msgid "The font used for phonetics"
+msgstr "音标使用的字体"
+
+#. i18n: ectx: label, entry (CurrentCol), group (Appearance)
+#: src/settings/parley.kcfg:223
+msgid "Currently selected column"
+msgstr "当前选中的列"
+
+#. i18n: ectx: label, entry (CurrentRow), group (Appearance)
+#: src/settings/parley.kcfg:227
+msgid "Currently selected row"
+msgstr "当前选中的行"
+
+#. i18n: ectx: label, entry (GradeColor), group (Appearance)
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GradeColor)
+#: src/settings/parley.kcfg:231 src/settings/viewoptionsbase.ui:102
+#, fuzzy
+#| msgid "Colors used to display different grades"
+msgid "Color used to display the grades"
+msgstr "显示不同级别使用的颜色"
+
+#. i18n: ectx: label, entry (PracticeMinimumTimesAsked), group (Thresholds)
+#: src/settings/parley.kcfg:239
+msgid ""
+"The entry must have been asked at least this often to be included in the "
+"practice."
+msgstr ""
+
+#. i18n: ectx: label, entry (PracticeMaximumTimesAsked), group (Thresholds)
+#: src/settings/parley.kcfg:243
+msgid ""
+"The entry must have been asked at most this often to be included in the "
+"practice."
+msgstr ""
+
+#. i18n: ectx: label, entry (PracticeMinimumWrongCount), group (Thresholds)
+#: src/settings/parley.kcfg:248
+msgid ""
+"The entry must have been answered incorrectly at least this often to be "
+"included in the practice."
+msgstr ""
+
+#. i18n: ectx: label, entry (PracticeMaximumWrongCount), group (Thresholds)
+#: src/settings/parley.kcfg:252
+msgid ""
+"The entry must have been answered incorrectly at most this often to be "
+"included in the practice."
+msgstr ""
+
+#. i18n: ectx: label, entry (PracticeMinimumGrade), group (Thresholds)
+#: src/settings/parley.kcfg:257
+msgid ""
+"The entry must have at least this grade to be included in the practice "
+"(0..7)."
+msgstr ""
+
+#. i18n: ectx: label, entry (PracticeMaximumGrade), group (Thresholds)
+#: src/settings/parley.kcfg:261
+msgid ""
+"The entry must have at most this grade to be included in the practice (0..7)."
+msgstr ""
+
+#. i18n: ectx: label, entry (WordTypesInPracticeEnabled), group (Thresholds)
+#: src/settings/parley.kcfg:265
+msgid "Only selected word types will be included in practice."
+msgstr "只有选中的词性会被包括在练习中。"
+
+#. i18n: ectx: label, entry (WordTypesInPractice), group (Thresholds)
+#. i18n: ectx: whatsthis, entry (WordTypesInPractice), group (Thresholds)
+#: src/settings/parley.kcfg:269 src/settings/parley.kcfg:270
+msgid "Selected word types for practices."
+msgstr "练习所需的词性。"
+
+#. i18n: ectx: label, entry (SubWordTypesInPractice), group (Thresholds)
+#. i18n: ectx: whatsthis, entry (SubWordTypesInPractice), group (Thresholds)
+#: src/settings/parley.kcfg:273 src/settings/parley.kcfg:274
+msgid "Selected sub word types for practices."
+msgstr "练习所需的同义词。"
+
+#. i18n: ectx: label, entry (QuestionLanguage), group (PracticeManager)
+#: src/settings/parley.kcfg:280
+msgid "The language that is displayed in a test."
+msgstr "测验中的显示语言。"
+
+#. i18n: ectx: label, entry (SolutionLanguage), group (PracticeManager)
+#: src/settings/parley.kcfg:284
+msgid "The language in which the user has to answer."
+msgstr "用户要解答的语言。"
+
+#. i18n: ectx: label, entry (ShowSolutionAfterAnswer), group (PracticeManager)
+#: src/settings/parley.kcfg:289
+msgid "Show the solution after an answer was given."
+msgstr "回答后显示答案。"
+
+#. i18n: ectx: label, entry (ShowSolutionAfterAnswerTime), group (PracticeManager)
+#: src/settings/parley.kcfg:293
+msgid "The time the solution is shown (seconds). 0 is unlimited."
+msgstr "答案的显示时间(以秒计)。0 代表无限。"
+
+#. i18n: ectx: label, entry (PracticeMode), group (PracticeManager)
+#: src/settings/parley.kcfg:308
+msgid "The practice mode that is currently selected."
+msgstr "当前所选的练习模式。"
+
+#. i18n: ectx: label, entry (BlockItem$(Grade)), group (PracticeManager)
+#: src/settings/parley.kcfg:314
+msgid "Amount of time different grades should be blocked"
+msgstr "不同等级间停留的时间"
+
+#. i18n: ectx: label, entry (ExpireItem$(Grade)), group (PracticeManager)
+#: src/settings/parley.kcfg:325
+#, fuzzy
+#| msgid "Amount of time different grades should be blocked"
+msgid "Amount of time after which different grades should expire"
+msgstr "不同等级间停留的时间"
+
+#. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
+#: src/settings/parley.kcfg:337
+msgid "The Providers path for Parley"
+msgstr "Parley 服务提供方的路径"
+
+#. i18n: ectx: label, entry (InstallationCommand), group (KNewStuff)
+#: src/settings/parley.kcfg:341
+msgid "The command used to start a downloaded vocabulary"
+msgstr "开始下载词汇的命令"
+
+#. i18n: ectx: label, entry (InstallPath), group (KNewStuff)
+#: src/settings/parley.kcfg:345
+msgid "The folder where downloaded vocabularies are saved by default"
+msgstr "保存下载词汇的默认目录"
+
+#: src/settings/parleyprefs.cpp:38
+msgid "Theme"
+msgstr "主题"
+
+#: src/settings/parleyprefs.cpp:41
+msgctxt "title:window general settings"
+msgid "General"
+msgstr "常规"
+
+#: src/settings/parleyprefs.cpp:41
+msgid "General Settings"
+msgstr "常规设定"
+
+#: src/settings/parleyprefs.cpp:44
+msgid "View"
+msgstr "查看"
+
+#: src/settings/parleyprefs.cpp:44
+msgid "View Settings"
+msgstr "查看设定"
+
+#. i18n: ectx: property (whatsThis), widget (KFontRequester, kcfg_IPAFont)
+#: src/settings/viewoptionsbase.ui:47
+msgid ""
+"Specify which font to use for displaying pronunciations using phonetic "
+"symbols."
+msgstr "指定音标使用的字体"
+
+#. i18n: ectx: property (text), widget (QLabel, IPAFontLabel)
+#: src/settings/viewoptionsbase.ui:54
+#, fuzzy
+#| msgid "Pronunciation"
+msgid "&Pronunciation symbols font:"
+msgstr "发音"
+
+#. i18n: ectx: property (text), widget (QLabel, gradeColorLabel)
+#: src/settings/viewoptionsbase.ui:83
+#, fuzzy
+#| msgid "Colors used to display different grades"
+msgid "Base color for displaying grades:"
+msgstr "显示不同级别使用的颜色"
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GradeColor)
+#: src/settings/viewoptionsbase.ui:105
+#, fuzzy
+#| msgid "Click here to change the color for grade 7."
+msgid "Click here to change the color used to display the grades."
+msgstr "点击此处以改变等级 7 的颜色。"
+
+#. i18n: ectx: property (text), widget (KColorButton, kcfg_GradeColor)
+#: src/settings/viewoptionsbase.ui:108
+msgid "&Base"
+msgstr ""
+
+#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_GradeColor)
+#: src/settings/viewoptionsbase.ui:111
+#, fuzzy
+#| msgid "Alt+7"
+msgid "Alt+0"
+msgstr "Alt+7"
+
+#: src/statistics/lessonstatistics.cpp:101
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove &Grades from this lesson"
+msgstr "从此课程中删除所有等级"
+
+#: src/statistics/lessonstatistics.cpp:103
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove grades from this lesson"
+msgstr "从此课程中删除所有等级"
+
+#: src/statistics/lessonstatistics.cpp:111
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove &Grades from this lesson and all sub-lessons"
+msgstr "从此课程中删除所有等级"
+
+#: src/statistics/lessonstatistics.cpp:113
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove grades from this lesson and all sub-lessons"
+msgstr "从此课程中删除所有等级"
+
+#: src/statistics/statisticsmainwindow.cpp:56
+#, kde-format
+msgctxt "caption for an overview of the grades for a document"
+msgid "Statistics for \"%1\""
+msgstr "“%1”的统计"
+
+#: src/statistics/statisticsmainwindow.cpp:166
+#: src/statistics/statisticsmainwindow.cpp:177
+#, kde-format
+msgctxt "pair of two languages that the user chooses to practice"
+msgid "%1 to %2"
+msgstr "%1 - %2"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/statistics/statisticsmainwindow.ui:23
+msgid "Languages:"
+msgstr "语言："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/statistics/statisticsmainwindow.ui:91
+msgid "Practice Mode:"
+msgstr "练习模式："
+
+#. i18n: ectx: property (text), widget (QRadioButton, flashCard)
+#: src/statistics/statisticsmainwindow.ui:98
+msgid "Flash Cards"
+msgstr "题卡"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mixedLetters)
+#: src/statistics/statisticsmainwindow.ui:108
+msgid "Mixed Letters"
+msgstr "混合字母"
+
+#. i18n: ectx: property (text), widget (QRadioButton, written)
+#: src/statistics/statisticsmainwindow.ui:122
+msgid "Written"
+msgstr "已写入"
+
+#. i18n: ectx: property (text), widget (QRadioButton, exampleSentence)
+#: src/statistics/statisticsmainwindow.ui:132
+msgid "Example Sentences"
+msgstr "例句"
+
+#. i18n: ectx: property (text), widget (QRadioButton, gender)
+#: src/statistics/statisticsmainwindow.ui:142
+msgid "Gender of Nouns"
+msgstr "中性名词"
+
+#. i18n: ectx: property (text), widget (QRadioButton, comparisonForms)
+#: src/statistics/statisticsmainwindow.ui:152
+msgid "Comparison Forms"
+msgstr "比较级"
+
+#. i18n: ectx: property (text), widget (QRadioButton, conjugations)
+#: src/statistics/statisticsmainwindow.ui:162
+msgid "Conjugations"
+msgstr "词形变化"
+
+#: src/statistics/statisticsmodel.cpp:31
+#, kde-format
+msgctxt "Grade in language, table header"
+msgid "Grade (%1)"
+msgstr "等级(%1)"
+
+#: src/vocabulary/basiccontainermodel.cpp:145
+msgid "None"
+msgstr "无"
+
+#: src/vocabulary/containermodel.cpp:178
+msgid "Number of entries in this lesson."
+msgstr "此课程中的条目数。"
+
+#: src/vocabulary/leitnerview.cpp:117 src/vocabulary/lessonview.cpp:172
+msgid "The root lesson cannot be deleted."
+msgstr "不能删除根课程。"
+
+#: src/vocabulary/leitnerview.cpp:126 src/vocabulary/lessonview.cpp:181
+#, kde-format
+msgid "There is %1 word left in this lesson. Do you want to delete it?"
+msgid_plural ""
+"There are %1 words left in this lesson. Do you want to delete them?"
+msgstr[0] "本课程中还有 %1 个词汇。您是否想要删除它们？"
+
+#: src/vocabulary/lessonmodel.cpp:61
+#, kde-format
+msgctxt "display of the name of the vocabulary collection"
+msgid "Collection: %1"
+msgstr "收藏：%1"
+
+#: src/vocabulary/lessonview.cpp:39
+msgid "Add a new lesson to your document"
+msgstr "在您的文档中添加新课程"
+
+#: src/vocabulary/lessonview.cpp:45
+msgid "Rename Lesson"
+msgstr "重命名课程"
+
+#: src/vocabulary/lessonview.cpp:53
+msgid "Delete Lesson"
+msgstr "删除课程"
+
+#: src/vocabulary/lessonview.cpp:55
+msgid "Delete the selected lesson."
+msgstr "删除所选中的课程。"
+
+#: src/vocabulary/lessonview.cpp:61
+msgid "Split Lesson into Smaller Lessons"
+msgstr "将课程分为更小的课程"
+
+#: src/vocabulary/lessonview.cpp:63
+msgid "Make multiple smaller lessons out of one big lesson."
+msgstr "将多个小课程合并为一个大课程"
+
+#: src/vocabulary/lessonview.cpp:69
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove Grades from this Lesson"
+msgstr "从此课程中删除所有等级"
+
+#: src/vocabulary/lessonview.cpp:71
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove grades from this lesson."
+msgstr "从此课程中删除所有等级"
+
+#: src/vocabulary/lessonview.cpp:77
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove Grades from this Lesson and all Sub-Lessons"
+msgstr "从此课程中删除所有等级"
+
+#: src/vocabulary/lessonview.cpp:79
+#, fuzzy
+#| msgid "Remove all grades from this lesson"
+msgid "Remove grades from this lesson and all sub-lessons."
+msgstr "从此课程中删除所有等级"
+
+#: src/vocabulary/lessonview.cpp:195
+msgid "Entries per Lesson"
+msgstr "每课程的条目数"
+
+#: src/vocabulary/lessonview.cpp:195
+msgid ""
+"The lesson will be split into smaller lessons. How many entries in each "
+"lesson do you want?"
+msgstr "此课程将被分成多个小课程。您希望在每个课程中出现多少条目？"
+
+#: src/vocabulary/vocabularycolumnsdialog.cpp:53
+msgid "Vocabulary Columns"
+msgstr "词汇栏"
+
+#: src/vocabulary/vocabularycolumnsdialog.cpp:62
+msgid "Enable/Disable the columns for each language"
+msgstr "启用/禁用每一种语言栏"
+
+#: src/vocabulary/vocabularymodel.cpp:197
+msgid "You can drag and drop words onto their word type."
+msgstr "您可以将单词拖放到各自的词性上。"
+
+#: src/vocabulary/vocabularymodel.cpp:199
+msgid "Enable the synonym view to edit synonyms."
+msgstr "启用同义词视图以便编辑。"
+
+#: src/vocabulary/vocabularymodel.cpp:201
+msgid "Enable the antonym view to edit antonyms."
+msgstr "启用反义词视图以便编辑。"
+
+#: src/vocabulary/vocabularymodel.cpp:294
+msgid "Word Type"
+msgstr "词性"
+
+#: src/vocabulary/vocabularymodel.cpp:298
+msgid "Antonym"
+msgstr "反义词"
+
+#: src/vocabulary/vocabularymodel.cpp:323
+msgid "Please use Edit -> Languages to set up your document."
+msgstr "请使用编辑->语言选项设置您的文档。"
+
+#: src/vocabulary/vocabularymodel.cpp:323
+msgid "No Languages Defined"
+msgstr "未定义语言"
+
+#: src/vocabulary/vocabularymodel.cpp:328
+msgid "Select a lesson before adding vocabulary."
+msgstr "请在添加词汇前选择一个课程。"
+
+#: src/vocabulary/vocabularymodel.cpp:328
+msgid "No Lesson Selected"
+msgstr "未选择课程"
+
+#: src/vocabulary/vocabularyview.cpp:87
+msgid "&Add New Entry"
+msgstr "添加新条目(&A)"
+
+#: src/vocabulary/vocabularyview.cpp:90
+msgid "Append a new row to the vocabulary"
+msgstr "添加新条目到词汇表中"
+
+#: src/vocabulary/vocabularyview.cpp:98
+msgid "&Delete Entry"
+msgstr "删除条目(&D)"
+
+#: src/vocabulary/vocabularyview.cpp:101
+msgid "Delete the selected rows"
+msgstr "删除选中的行"
+
+#: src/vocabulary/vocabularyview.cpp:111
+msgid "Copy"
+msgstr "复制"
+
+#: src/vocabulary/vocabularyview.cpp:117
+msgid "Cut"
+msgstr "剪切"
+
+#: src/vocabulary/vocabularyview.cpp:123
+msgid "Paste"
+msgstr "粘贴"
+
+#: src/vocabulary/vocabularyview.cpp:129
+msgid "Select all rows"
+msgstr "选取所有行"
+
+#: src/vocabulary/vocabularyview.cpp:134
+msgid "Deselect all rows"
+msgstr "取消选择所有行"
+
+#: src/vocabulary/vocabularyview.cpp:142
+msgid "Vocabulary Columns..."
+msgstr "词汇栏..."
+
+#: src/vocabulary/vocabularyview.cpp:143
+msgid "Toggle display of individual vocabulary columns"
+msgstr "切换个人词汇栏的显示"
+
+#: src/vocabulary/vocabularyview.cpp:250
+#, kde-format
+msgid "Do you really want to delete the selected entry?"
+msgid_plural "Do you really want to delete the selected %1 entries?"
+msgstr[0] "您真的要删除所选的 %1 个条目吗？"
+
+#: src/vocabulary/vocabularyview.cpp:250
+msgid "Delete"
+msgstr "删除"
+
+#: src/vocabulary/vocabularyview.cpp:359
+msgid "Nothing to spell check."
+msgstr "没有可供检查拼写的内容。"
+
+#: src/vocabulary/vocabularyview.cpp:384
+msgctxt "@title of a popup"
+msgid "No Spell Checker Available"
+msgstr "无可用的拼写检查器"
+
+#: src/vocabulary/vocabularyview.cpp:384
+#, kde-format
+msgctxt "@popupmessage"
+msgid ""
+"Either the language set up is incorrect or no spellchecker was installed for "
+"this locale: %1."
+msgstr "语言设置不正确，或者没有为 %1 语系安装拼写检查器。"
+
+#: src/vocabulary/wordtypeview.cpp:41
+msgid "New"
+msgstr "新建"
+
+#: src/vocabulary/wordtypeview.cpp:43
+msgid "Add a new word type to your document"
+msgstr "在您的文档中添加新词性"
+
+#: src/vocabulary/wordtypeview.cpp:49
+msgid "Rename"
+msgstr "重命名"
+
+#: src/vocabulary/wordtypeview.cpp:51
+msgid "Rename the selected word type"
+msgstr "重命名所选词性"
+
+#: src/vocabulary/wordtypeview.cpp:57
+msgid "Delete Word Type"
+msgstr "删除词性"
+
+#: src/vocabulary/wordtypeview.cpp:59
+msgid "Delete the selected word type."
+msgstr "删除所选词性。"
+
+#: src/vocabulary/wordtypeview.cpp:65
+msgctxt ""
+"Let the user select what grammatical meaning is connected to a word type "
+"(nouns have gender, verbs conjugations etc)"
+msgid "Grammar"
+msgstr "语法"
+
+#: src/vocabulary/wordtypeview.cpp:67
+msgid "To let Parley know the grammatical meaning of a word type."
+msgstr "使 Parley 了解词性的语法含义。"
+
+#: src/vocabulary/wordtypeview.cpp:76
+msgid "This word type folder contains nouns."
+msgstr "词性文件夹含有名词。"
+
+#: src/vocabulary/wordtypeview.cpp:82
+msgid "Masculine Noun"
+msgstr "阳性名词"
+
+#: src/vocabulary/wordtypeview.cpp:84
+msgid "This word type folder contains masculine nouns."
+msgstr "词性文件夹含有阳性名词。"
+
+#: src/vocabulary/wordtypeview.cpp:90
+msgid "Feminine Noun"
+msgstr "阴性名词"
+
+#: src/vocabulary/wordtypeview.cpp:92
+msgid "This word type folder contains feminine nouns."
+msgstr "词性文件夹含有阴性名词。"
+
+#: src/vocabulary/wordtypeview.cpp:98
+msgid "Neuter Noun"
+msgstr "中性名词"
+
+#: src/vocabulary/wordtypeview.cpp:100
+msgid "This word type folder contains neuter nouns."
+msgstr "词性文件夹含有中性名词。"
+
+#: src/vocabulary/wordtypeview.cpp:108
+msgid "This word type folder contains adjectives."
+msgstr "词性文件夹含有形容词。"
+
+#: src/vocabulary/wordtypeview.cpp:116
+msgid "This word type folder contains adverbs."
+msgstr "词性文件夹含有副词。"
+
+#: src/vocabulary/wordtypeview.cpp:125
+msgid "This word type folder contains verbs."
+msgstr "词性文件夹含有动词。"
+
+#: src/vocabulary/wordtypeview.cpp:133
+#, fuzzy
+#| msgid "This word type folder contains nouns."
+msgid "This word type folder contains conjunctions."
+msgstr "词性文件夹含有名词。"
+
+#: src/vocabulary/wordtypeview.cpp:139
+msgid "No Special Type"
+msgstr "不特定"
+
+#: src/vocabulary/wordtypeview.cpp:142
+msgid "This word type folder contains no word type with special meaning."
+msgstr "词性文件夹含有不特定含义的词性。"
+
+#: src/vocabulary/wordtypeview.cpp:232
+msgid "The root word type cannot be deleted."
+msgstr "不能删除根词性。"
+
+#: src/vocabulary/wordtypeview.cpp:241
+#, kde-format
+msgid ""
+"There is a word left with this word type. It will lose its type. Continue?"
+msgid_plural ""
+"There are %1 words left with this word type. They will lose their word type. "
+"Continue?"
+msgstr[0] "还有 %1 个属于此词性的单词。它们将丢失自己的词性，继续吗？"
+
+#: src/welcomescreen/buttondelegate.cpp:33
+msgid "Open this vocabulary collection in the editor"
+msgstr "在编辑器中打开此词汇收藏库"
+
+#. i18n: ectx: property (text), widget (QLabel, recentLabel)
+#: src/welcomescreen/welcomescreen.cpp:112
+#: src/welcomescreen/welcomescreen.ui:64
+msgid "Last Opened Collections"
+msgstr "最后打开的收藏库"
+
+#. i18n: ectx: property (text), widget (QLabel, headingLabel)
+#: src/welcomescreen/welcomescreen.ui:20
+msgid "<h1>Parley</h1>"
+msgstr "<h1>Parley</h1>"
+
+#. i18n: ectx: property (text), widget (KPushButton, newButton)
+#: src/welcomescreen/welcomescreen.ui:27
+msgid "Create a New Collection"
+msgstr "创建一个新的收藏库"
+
+#. i18n: ectx: property (text), widget (KPushButton, openButton)
+#: src/welcomescreen/welcomescreen.ui:34
+msgid "Open an Existing Collection"
+msgstr "打开已有的收藏库"
+
+#. i18n: ectx: property (text), widget (KPushButton, ghnsButton)
+#: src/welcomescreen/welcomescreen.ui:41
+msgid "Download New Collections"
+msgstr "下载新的收藏库"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:2
+msgid ""
+"<p>Parley enables you to edit many additional properties of the words you "
+"enter.</p>\n"
+"<p>Use \"Settings\" -> \"Tools\" to enable different tools that will help "
+"you set additional information for your vocabulary. These include images, "
+"sound, word types and many more. Choose the ones you like.</p>\n"
+msgstr ""
+"<p>Parley 允许您编辑所输入单词的更多额外属性。</p>\n"
+"<p>使用“设置”->“工具”对话框来打开词汇额外属性设置工具，这类属性包括图像、读"
+"音、词性等。请从中选择自己想要的。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:9
+msgid ""
+"<p>To <em>search</em> for a word, simply type it into the search bar.</p>\n"
+msgstr "<p>要<em>搜索</em>一个单词，直接在搜索栏上键入即可。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:15
+msgid ""
+"<p>If you do not want to see the answer again after pressing enter when "
+"practicing, you can configure Parley to directly skip to the next entry.</"
+"p>\n"
+"<p>You can even choose to display the answer for a fixed amount of time. Use "
+"\"Configure Practice...\" -> \"Advanced\" -> \"Show solution after answering"
+"\".</p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:22
+msgid ""
+"<p>If you want to see all words of a certain word type (e.g. nouns), simply "
+"select the word type in the list.</p>\n"
+"<p>To show the word type list, use \"Settings\" -> \"Tools\" -> \"Word Types"
+"\" in the menu.</p>\n"
+msgstr ""
+"<p>如果您想要查看特定词性(如名词)下的所有单词，只需简单地列表中选择词性。</"
+"p>\n"
+"<p>要显示词性列表，请使用“设置”->“工具”->“词性”菜单项。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:29
+msgid ""
+"<p>You can drag and drop your lessons to change their order or even make a "
+"lesson a child of another lesson.</p>\n"
+msgstr ""
+"<p>您可以拖放课程来改变其排列顺序，或使一个课程成为另一个课程的子课程。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:35
+msgid ""
+"<p>You can simply drag a word into the word types list to change its type.</"
+"p>\n"
+"<p>You can even select multiple words at the same time.</p>\n"
+msgstr ""
+"<p>您可以简单地将一个单词拖放到词性列表中改变它的词性。</p>\n"
+"<p>您也可以一次性选择多个单词。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:42
+msgid ""
+"<p><em>Setting Images</em></p>\n"
+"<p>A fast way to set an image for a word is to simply drop it onto the image "
+"dock.</p>\n"
+msgstr ""
+"<p><em>设置图像</em></p>\n"
+"<p>快速设置单词图像的方式是直接将其拖放到图像停靠区。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:49
+msgid ""
+"<p><em>Word Types</em></p>\n"
+"<p>You can set a special tag to some word types to let Parley know their "
+"grammatical meaning.</p>\n"
+"<p>For verbs for example you can then enter conjugations.</p>\n"
+msgstr ""
+"<p><em>词性</em></p>\n"
+"<p>您可以对一些词性设置特定的标签，让 Parley 知道其语法含义。</p>\n"
+"<p>比如您可以对动词输入其词性变化。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:57
+msgid ""
+"<p><em>Multiple Choice</em></p>\n"
+"<p>For some vocabularies multiple choice tests work best. You can add "
+"choices to a word that will always be displayed in Multiple Choice mode. "
+"Otherwise random choices are generated from the other entries in the "
+"document. (Use the Multiple Choice tool for that.)</p>\n"
+msgstr ""
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:64
+msgid ""
+"<p>Want to enter pronunciation symbols quickly? <em>Double-click</em> the "
+"symbol you need to directly add it.</p>\n"
+msgstr ""
+"<p>要快速输入音标吗？只需<em>双击</em>音标符号即可，无需直接添加。</p>\n"
+
+#. i18n: ectx: @info:tipoftheday
+#: tips:70
+msgid ""
+"<p>You can use the \"Download New Vocabulary\" dialog or visit the website "
+"listing many vocabulary documents:\n"
+"<a href=\"http://edu.kde.org/contrib/kvtml2.php\">http://edu.kde.org/contrib/"
+"kvtml2.php</a>.</p>\n"
+msgstr ""
+"<p>您可以使用“下载新词汇”对话框或访问下面的汇集文档获取更多词汇包：\n"
+"<a href=\"http://edu.kde.org/contrib/kvtml2.php\">http://edu.kde.org/contrib/"
+"kvtml2.php</a>。</p>\n"
+
+#~ msgid "Remove &Grades"
+#~ msgstr "删除等级(&G)"
+
+#~ msgid "Use your own colors"
+#~ msgstr "使用个人颜色"
+
+#~ msgid "Grade Colors"
+#~ msgstr "等级颜色"
+
+#~ msgid ""
+#~ "If it is unchecked, you will just have black on white for the grades; if "
+#~ "it is checked, the colors below will be chosen."
+#~ msgstr ""
+#~ "如果此处没有勾选，您的等级将只用黑字白底表示；如果此处勾选，则下面的颜色可"
+#~ "以随意选择。"
+
+#~ msgid "&Use colors"
+#~ msgstr "使用颜色(&U)"
+
+#~ msgid "Color for the grade 7"
+#~ msgstr "等级 7 的颜色"
+
+#~ msgid "&7"
+#~ msgstr "&7"
+
+#~ msgid "Color for the grade 6"
+#~ msgstr "等级 6 的颜色"
+
+#~ msgid "Click here to change the color for grade 6."
+#~ msgstr "点击此处以改变等级 6 的颜色。"
+
+#~ msgid "&6"
+#~ msgstr "&6"
+
+#~ msgid "Alt+6"
+#~ msgstr "Alt+6"
+
+#~ msgid "Color for the grade 5"
+#~ msgstr "等级 5 的颜色"
+
+#~ msgid "Click here to change the color for grade 5."
+#~ msgstr "点击此处以改变等级 5 的颜色。"
+
+#~ msgid "&5"
+#~ msgstr "&5"
+
+#~ msgid "Alt+5"
+#~ msgstr "Alt+5"
+
+#~ msgid "Color for the grade 4"
+#~ msgstr "等级 4 的颜色"
+
+#~ msgid "Click here to change the color for grade 4."
+#~ msgstr "点击此处以改变等级 4 的颜色。"
+
+#~ msgid "&4"
+#~ msgstr "&4"
+
+#~ msgid "Alt+4"
+#~ msgstr "Alt+4"
+
+#~ msgid "Color for the grade 3"
+#~ msgstr "等级 3 的颜色"
+
+#~ msgid "Click here to change the color for grade 3."
+#~ msgstr "点击此处以改变等级 3 的颜色。"
+
+#~ msgid "&3"
+#~ msgstr "&3"
+
+#~ msgid "Alt+3"
+#~ msgstr "Alt+3"
+
+#~ msgid "Color for the grade 2"
+#~ msgstr "等级 2 的颜色 "
+
+#~ msgid "Click here to change the color for grade 2."
+#~ msgstr "点击此处以改变等级 2 的颜色。"
+
+#~ msgid "&2"
+#~ msgstr "&2"
+
+#~ msgid "Alt+2"
+#~ msgstr "Alt+2"
+
+#~ msgid "Color for the grade 1"
+#~ msgstr "等级 1 的颜色"
+
+#~ msgid "Click here to change the color for grade 1."
+#~ msgstr "点击此处以改变等级 1 的颜色。"
+
+#~ msgid "&1"
+#~ msgstr "&1"
+
+#~ msgid "Alt+1"
+#~ msgstr "Alt+1"
+
+#~ msgid "Not &practiced:"
+#~ msgstr "尚未练习(&P)："
+
+#~ msgid "&N"
+#~ msgstr "&N"
+
+#~ msgid "Words"
+#~ msgstr "单词"
+
+#~ msgid "Could not determine word type of verbs"
+#~ msgstr "无法决定动词的词性"
+
+#~ msgid "\"%1\" is a noun"
+#~ msgstr "“%1”是名词"
+
+#~ msgid "Could not determine word type of nouns"
+#~ msgstr "无法决定名词的词性"
+
+#~ msgid "Conjugation"
+#~ msgstr "词形变化"
+
+#~ msgid "Turn the selected word into a verb."
+#~ msgstr "将所选单词转换为动词。"
+
+#~ msgid "Turn the selected word into a noun."
+#~ msgstr "将所选单词转换为名词。"
+
+#~ msgid "&IPA font:"
+#~ msgstr "国际音标字体(&I)："
+
+#~ msgid "&Table font:"
+#~ msgstr "表格字体(&T)："
+
+#~ msgid "Specify which font to use for editing of the main table."
+#~ msgstr "指定主表格编辑字体。"
+
+#~ msgid "Your answer was right on the first attempt."
+#~ msgstr "您第一次尝试的答案正确。"
+
+#~ msgid "Export Options"
+#~ msgstr "导出选项"
+
+#~ msgid "List"
+#~ msgstr "列表"
+
+#~ msgid "A vocabulary list."
+#~ msgstr "词汇列表。"
+
+#~ msgid "CSV"
+#~ msgstr "CSV"
+
+#~ msgid "General Options"
+#~ msgstr "常规选项"
+
+#~ msgid "Show images with the question"
+#~ msgstr "出问题时显示图像"
+
+#~ msgid "Show images with the solution"
+#~ msgstr "出回答时显示图像"
+
+#~ msgid "Enable Sound"
+#~ msgstr "启用音效"
+
+#~ msgid "Accept synonyms as correct"
+#~ msgstr "同义词也视为正确"
+
+#~ msgid ""
+#~ "When practicing, new words will be chosen loosely in lesson order if this "
+#~ "is selected.  Otherwise, they will be chosen completely at random."
+#~ msgstr ""
+#~ "如果选择此项，则练习时新单词的出现则会基本按照课程顺序。但没有选择此项的"
+#~ "话，顺序则将完全随机。"
+
+#~ msgid "&Practice in lesson order"
+#~ msgstr "按课程顺序练习(&P)"
+
+#~ msgid ""
+#~ "The number of times vocabulary will show up repeatedly until it is "
+#~ "answered correctly."
+#~ msgstr "词汇会反复出现，直到本次回答正确为止。"
+
+#~ msgid "&Active entries during practice:"
+#~ msgstr "练习过程中启用的条目(&A)"

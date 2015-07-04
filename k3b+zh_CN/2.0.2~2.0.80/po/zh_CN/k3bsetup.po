@@ -1,0 +1,123 @@
+# translation of k3bsetup.po to 简体中文
+#
+# Funda Wang <fundawang@linux.net.cn>, 2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+# Feng Chao <rainofchaos@gmail.com>, 2010.
+# Jeff Bai <jeffbaichina@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: k3bsetup\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2011-01-11 14:34+0100\n"
+"PO-Revision-Date: 2014-02-25 14:05-0700\n"
+"Last-Translator: Jeff Bai <jeffbaichina@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.6.3\n"
+"Language: zh_CN\n"
+
+#: k3bsetup.cpp:77
+msgid "K3bSetup"
+msgstr "K3bSetup"
+
+#: k3bsetup.cpp:79
+msgid "(C) 2003-2007 Sebastian Trueg"
+msgstr "(C) 2003-2007 Sebastian Trueg"
+
+#: k3bsetup.cpp:80
+msgid "Sebastian Trueg"
+msgstr "Sebastian Trueg"
+
+#: k3bsetup.cpp:88
+msgid ""
+"<p>This simple setup assistant is able to set the permissions needed by K3b "
+"in order to burn CDs and DVDs. <p>It does not take things like devfs or "
+"resmgr into account. In most cases this is not a problem but on some systems "
+"the permissions may be altered the next time you login or restart your "
+"computer. In those cases it is best to consult the distribution "
+"documentation.<p><b>Caution:</b> Although K3b::Setup should not be able to "
+"mess up your system no guarantee can be given."
+msgstr ""
+"<p>这个简单的设置向导可设置 K3b 刻录 CD 和 DVD 所需的权限。<p>它并不考虑 "
+"devfs、resmgr 或类似的东西。在大多数情况下，这并不会造成困扰，但是在某些系统"
+"中权限可能会在您下次登录或重新启动计算机后被篡改。如果是这样的话，您应该咨询"
+"您的发行版文档。<p><b>小心：</b>尽管 K3b::Setup 不应该损坏您的系统，但对此我"
+"们并不做出任何保证。"
+
+#: k3bsetup.cpp:145
+msgid ""
+"<h2>K3b::Setup</h2><p>This simple setup assistant is able to set the "
+"permissions needed by K3b in order to burn CDs and DVDs.<p>It does not take "
+"into account devfs or resmgr, or similar. In most cases this is not a "
+"problem, but on some systems the permissions may be altered the next time "
+"you login or restart your computer. In these cases it is best to consult the "
+"distribution's documentation.<p>The important task that K3b::Setup performs "
+"is grant write access to the CD and DVD devices.<p><b>Caution:</b> Although "
+"K3b::Setup should not be able to damage your system, no guarantee can be "
+"given."
+msgstr ""
+"<h2>K3b::Setup</h2><p>这个简单的设置向导可设置 K3b 刻录 CD 和 DVD 所需的权"
+"限。<p>它并不考虑 devfs、resmgr 或类似的东西。在大多数情况下，这并不会造成困"
+"扰，但是在某些系统中权限可能会在您下次登录或重新启动计算机后被篡改。如果是这"
+"样的话，您应该咨询您的发行版文档。<p>K3b::Setup 所执行的最重要的任务是为 CD "
+"和 DVD 指派写访问许可。<p><b>小心：</b>尽管 K3b::Setup 不应该损坏您的系统，但"
+"对此我们并不做出任何保证。"
+
+#: k3bsetup.cpp:188
+#, kde-format
+msgid "There is no group \"%1\"."
+msgstr "没有组“%1”。"
+
+#: k3bsetup.cpp:228
+msgid "Cannot run worker."
+msgstr "无法运行工作程序。"
+
+#: k3bsetup.cpp:238
+msgid "Following devices and programs could not be updated:"
+msgstr "无法更新如下设备和程序："
+
+#: k3bsetupdevicesmodel.cpp:170 k3bsetupdevicesmodel.cpp:177
+#: k3bsetupprogramsmodel.cpp:266
+msgid "no change"
+msgstr "无更改"
+
+#: k3bsetupdevicesmodel.cpp:237
+msgid "Device"
+msgstr "设备"
+
+#: k3bsetupdevicesmodel.cpp:238
+msgid "Devicenode"
+msgstr "设备节点"
+
+#: k3bsetupdevicesmodel.cpp:239 k3bsetupprogramsmodel.cpp:324
+msgid "Permissions"
+msgstr "权限"
+
+#: k3bsetupdevicesmodel.cpp:240 k3bsetupprogramsmodel.cpp:325
+msgid "New permissions"
+msgstr "新建权限"
+
+#: k3bsetupprogramsmodel.cpp:321
+msgid "Program"
+msgstr "程序"
+
+#: k3bsetupprogramsmodel.cpp:322
+msgid "Version"
+msgstr "版本"
+
+#: k3bsetupprogramsmodel.cpp:323
+msgid "Path"
+msgstr "路径"
+
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国, 安同开源社区"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org, aosc@members.fsf.org"

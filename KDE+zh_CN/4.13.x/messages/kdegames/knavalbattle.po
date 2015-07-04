@@ -1,0 +1,476 @@
+# translation of kbattleship.po to Simplified Chinese
+# Copyright (C) 2003, 2007 Free Software Foundation, Inc.
+#
+#
+# Albert.Lew <albert_lew2002@eyou.com>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# dalin <dalin.lin@gmail.com>, 2007.
+# Lie Ex <lilith.ex@gmail.com>, 2008-2009.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+# Ni Hui <shuizhuyuanluo@126.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kbattleship\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-07 01:40+0000\n"
+"PO-Revision-Date: 2011-11-27 12:01+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: controller.cpp:52
+msgid "Computer"
+msgstr "电脑"
+
+#. i18n: ectx: label, entry (Hostname), group (network)
+#: knavalbattle.kcfg:9
+msgid "Default hostname for multiplayer games."
+msgstr "多人游戏的默认主机名。"
+
+#. i18n: ectx: label, entry (Port), group (network)
+#: knavalbattle.kcfg:13
+msgid "Default port for multiplayer games."
+msgstr "多人游戏的默认端口。"
+
+#. i18n: ectx: label, entry (Nickname), group (general)
+#: knavalbattle.kcfg:19
+msgid "User nickname."
+msgstr "用户昵称。"
+
+#. i18n: ectx: label, entry (EnableSounds), group (general)
+#: knavalbattle.kcfg:22
+msgid "Whether sound effects should be played."
+msgstr "是否播放音效。"
+
+#. i18n: ectx: label, entry (AdjacentShips), group (general)
+#: knavalbattle.kcfg:26
+msgid "Allow the ships to be adjacent without one empty space between them."
+msgstr ""
+
+#. i18n: ectx: label, entry (SeveralShips), group (general)
+#: knavalbattle.kcfg:30
+msgid ""
+"Allow multiple ships of any size, default: 4 of 1, 3 of 2, 2 of 3, 1 of 4."
+msgstr ""
+
+#. i18n: ectx: ToolBar (gameToolbar)
+#: knavalbattleui.rc:29
+msgid "Game Toolbar"
+msgstr "游戏工具栏"
+
+#: main.cpp:24
+msgid "Naval Battle"
+msgstr "Naval Battle"
+
+#: main.cpp:25
+#, fuzzy
+#| msgid "The KDE Battleship clone"
+msgid "The KDE ship sinking game"
+msgstr "KDE 下的 Battleship 克隆游戏"
+
+#: main.cpp:26
+msgid ""
+"(c) 2000-2005  Nikolas Zimmermann, Daniel Molkentin\n"
+"(c) 2007 Paolo Capriotti"
+msgstr ""
+"(c) 2000-2005  Nikolas Zimmermann, Daniel Molkentin\n"
+"(c) 2007 Paolo Capriotti"
+
+#: main.cpp:29
+msgid "Paolo Capriotti"
+msgstr "Paolo Capriotti"
+
+#: main.cpp:29
+msgid "Current maintainer"
+msgstr "当前维护者"
+
+#: main.cpp:30
+msgid "Nikolas Zimmermann"
+msgstr "Nikolas Zimmermann"
+
+#: main.cpp:30
+msgid "Project Founder, GUI Handling, Client/Server"
+msgstr "项目创始人、GUI 处理、客户端/服务器"
+
+#: main.cpp:31
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#: main.cpp:31
+msgid "Dialog Stuff, Client/Server"
+msgstr "客户端/服务器的对话框设计"
+
+#: main.cpp:32
+msgid "Kevin Krammer"
+msgstr "Kevin Krammer"
+
+#: main.cpp:32
+msgid "Computer Player"
+msgstr "电脑玩家设计"
+
+#: main.cpp:34
+msgid "Johann Ollivier Lapeyre"
+msgstr "Johann Ollivier Lapeyre"
+
+#: main.cpp:34
+msgid "Game artwork"
+msgstr "游戏美工"
+
+#: main.cpp:35
+msgid "Eugene Trounev"
+msgstr "Eugene Trounev"
+
+#: main.cpp:35
+msgid "Background"
+msgstr "背景"
+
+#: main.cpp:36
+msgid "Robert Wadley"
+msgstr "Robert Wadley"
+
+#: main.cpp:36
+msgid "Artwork for some of the ships"
+msgstr "某些舰艇的设计"
+
+#: main.cpp:37
+msgid "Riccardo Iaconelli"
+msgstr "Riccardo Iaconelli"
+
+#: main.cpp:37
+msgid "Welcome screen"
+msgstr "欢迎屏幕"
+
+#: main.cpp:38
+msgid "Benjamin Adler"
+msgstr "Benjamin Adler"
+
+#: main.cpp:38
+msgid "Icon"
+msgstr "图标"
+
+#: main.cpp:39
+msgid "Nils Trzebin"
+msgstr "Nils Trzebin"
+
+#: main.cpp:39
+msgid "Sounds"
+msgstr "音效"
+
+#: main.cpp:40
+msgid "Elmar Hoefner"
+msgstr "Elmar Hoefner"
+
+#: main.cpp:40
+msgid "GFX"
+msgstr "GFX 设计"
+
+#: main.cpp:41
+msgid "Lukas Tinkl"
+msgstr "Lukas Tinkl"
+
+#: main.cpp:41
+msgid "Non-Latin1 Support"
+msgstr "非 Latin1 语言支持"
+
+#: main.cpp:42
+msgid "Malte Starostik"
+msgstr "Malte Starostik"
+
+#: main.cpp:42
+msgid "Various improvements"
+msgstr "各种改进"
+
+#: main.cpp:43
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#: main.cpp:43 main.cpp:44
+msgid "Various improvements and bugfixes"
+msgstr "各种改进和除错"
+
+#: main.cpp:44
+msgid "John Tapsell"
+msgstr "John Tapsell"
+
+#: main.cpp:45
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#: main.cpp:45
+msgid "Bugfixes and refactoring"
+msgstr "除错和重构"
+
+#: main.cpp:46
+msgid "Jakub Stachowski"
+msgstr "Jakub Stachowski"
+
+#: main.cpp:46
+msgid "DNS-SD discovery"
+msgstr "DNS-SD 探索"
+
+#: main.cpp:47
+msgid "Roney Gomes"
+msgstr ""
+
+#: main.cpp:47
+msgid "Porting to KGameRenderer and QGraphicsView"
+msgstr ""
+
+#: main.cpp:52
+msgid "URL of a Naval Battle game server to connect to after startup"
+msgstr "Naval Battle 启动后要连接到的游戏服务器地址"
+
+#: mainwindow.cpp:63
+msgid "&Single Player"
+msgstr "单人游戏(&S)"
+
+#: mainwindow.cpp:66
+msgid "&Host Game..."
+msgstr "建立游戏主机(&H)..."
+
+#: mainwindow.cpp:69
+msgid "&Connect to Game..."
+msgstr "连接到游戏(&C)..."
+
+#: mainwindow.cpp:73
+msgid "Change &Nickname..."
+msgstr "更改昵称(&N)..."
+
+#: mainwindow.cpp:76
+msgid "&Play Sounds"
+msgstr "播放声音(&P)"
+
+#: mainwindow.cpp:80
+msgid "&Adjacent Ships"
+msgstr ""
+
+#: mainwindow.cpp:85
+msgid "&Multiple Ships"
+msgstr ""
+
+#: mainwindow.cpp:90
+msgid "Show End-of-Game Message"
+msgstr "显示游戏结束信息"
+
+#: mainwindow.cpp:95
+msgid "Show &Left Grid"
+msgstr "显示左侧网格(&L)"
+
+#: mainwindow.cpp:99
+msgid "Show &Right Grid"
+msgstr "显示右侧网格(&R)"
+
+#: networkdialog.cpp:53
+msgid "&Nickname:"
+msgstr "昵称(&N)："
+
+#: networkdialog.cpp:66
+msgid "&Join game:"
+msgstr "加入游戏(&J)："
+
+#: networkdialog.cpp:82
+msgid "&Hostname:"
+msgstr "主机名(&H)："
+
+#: networkdialog.cpp:95 networkdialog.cpp:125
+msgid "&Port:"
+msgstr "端口(&P)："
+
+#: networkdialog.cpp:110
+msgid "&Enter server address manually"
+msgstr "手动输入服务器地址(&E)"
+
+#: networkdialog.cpp:140
+msgid "Network Parameters"
+msgstr "网络参数"
+
+#: networkdialog.cpp:205
+msgid "Connecting to remote host..."
+msgstr "正在连接到远程主机..."
+
+#: networkdialog.cpp:212
+msgid "Waiting for an incoming connection..."
+msgstr "正在等待一个接入连接..."
+
+#: networkdialog.cpp:235
+msgid "Could not connect to host"
+msgstr "无法连接到主机"
+
+#: networkentity.cpp:185
+msgid "You have "
+msgstr ""
+
+#: networkentity.cpp:191
+msgid ", "
+msgstr ""
+
+#: networkentity.cpp:280
+msgid "You can place ships adjacent to each other"
+msgstr ""
+
+#: networkentity.cpp:283
+msgid "You must leave a space between ships"
+msgstr ""
+
+#: playerentity.cpp:200
+#, kde-format
+msgid "Your opponent is now known as %1"
+msgstr "您的对手改名为 %1"
+
+#: playerentity.cpp:205
+msgid "Your opponent disconnected from the game"
+msgstr "您的对手已掉线"
+
+#: playfield.cpp:170 playfield.cpp:190
+msgid "Shots"
+msgstr "发射数"
+
+#: playfield.cpp:171 playfield.cpp:191
+msgid "Hits"
+msgstr "命中数"
+
+#: playfield.cpp:172 playfield.cpp:192
+msgid "Misses"
+msgstr "未命中数"
+
+#: playfield.cpp:210
+msgid "You win!"
+msgstr "您赢了！"
+
+#: playfield.cpp:212
+msgid "You win. Excellent!"
+msgstr "您赢了。棒极了！"
+
+#: playfield.cpp:216
+msgid "You lose."
+msgstr "您输了。"
+
+#: playfield.cpp:218
+#, fuzzy
+#| msgid "You lose. Try harder next time!"
+msgid "You lose. Better luck next time!"
+msgstr "您输了。请下次努力！"
+
+#: playfield.cpp:228
+msgid "Change Nickname"
+msgstr "更改昵称"
+
+#: playfield.cpp:228
+msgid "Enter new nickname:"
+msgstr "输入新昵称："
+
+#: playfield.cpp:256
+msgid "Restart game"
+msgstr "重新开始"
+
+#: playfield.cpp:257
+msgid "Your opponent has requested to restart the game. Do you accept?"
+msgstr "您的对手请求重新开始游戏。您是否同意？"
+
+#: playfield.cpp:266
+#, fuzzy
+#| msgid ""
+#| "Your opponent is using a pre-KDE4 version of Naval Battle. Note that, "
+#| "according to the rules enforced by old clients, ships cannot be placed "
+#| "adjacent to one another."
+msgid ""
+"Your opponent is using a pre-KDE4 version of Naval Battle. Note that, "
+"according to the rules enforced by old clients, ships cannot be placed "
+"adjacent to one another and only one ship of each size is allowed."
+msgstr ""
+"您的对手用的是 KDE4 以前版本的 Naval Battle。请注意，根据旧版的规则，两艘舰艇"
+"不能放在相邻的地方。"
+
+#: playfield.cpp:279
+msgid "Enemy has shot. Shoot now!"
+msgstr "敌军已经射击。立即射击！"
+
+#: playfield.cpp:283
+msgid "Waiting for enemy to shoot..."
+msgstr "正在等待敌军射击..."
+
+#: playfield.cpp:292
+msgid "Ships placed. Now shoot on the enemy field!"
+msgstr "舰艇已放置好。现在请向敌军阵地开火！"
+
+#: playfield.cpp:295
+msgid "Waiting for other player to start the game..."
+msgstr "正在等待其他玩家开始游戏..."
+
+#: playfield.cpp:299
+msgid "Waiting for other player to place his ships..."
+msgstr "正在等待其他玩家放置舰艇..."
+
+#: playfield.cpp:313
+#, fuzzy, kde-format
+#| msgid "Place your ships. Use the right mouse button to rotate them."
+msgid "Place your %1 ships. Use the right mouse button to rotate them."
+msgstr "请放置您的舰艇。使用鼠标右键来旋转。"
+
+#: playfield.cpp:319
+msgid "You can't place your remaining ships."
+msgstr ""
+
+#: playfield.cpp:321
+#, fuzzy
+#| msgid "Restart game"
+msgid "Restart"
+msgstr "重新开始"
+
+#: playfield.cpp:322
+msgid "Abort"
+msgstr ""
+
+#: playfield.cpp:323
+msgid ""
+"You can't place your remaining ships. Please restart placing ships or abort "
+"game"
+msgstr ""
+
+#: playfield.cpp:323
+msgid "Restart placing ships"
+msgstr ""
+
+#: simplemenu.cpp:43
+msgid "Single Player"
+msgstr "单人游戏"
+
+#: simplemenu.cpp:44
+msgid "Host Network Game"
+msgstr "建立网络游戏主机"
+
+#: simplemenu.cpp:45
+msgid "Connect to Network Game"
+msgstr "连接到网络游戏"
+
+#: simplemenu.cpp:131 simplemenu.cpp:148
+msgid "Remote player"
+msgstr "远程玩家"
+
+#~ msgid "Game difficulty."
+#~ msgstr "游戏难度。"
+
+#~ msgid "KBattleship"
+#~ msgstr "KBattleship"
+
+#~ msgid "Single player"
+#~ msgstr "单人游戏"
+
+#~ msgid "&Game"
+#~ msgstr "游戏(&G)"
+
+#~ msgid "&Settings"
+#~ msgstr "设置(&S)"

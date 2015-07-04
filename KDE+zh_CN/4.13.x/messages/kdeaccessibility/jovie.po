@@ -1,0 +1,1198 @@
+# translation of kttsd.po to 简体中文
+# Copyright (C) 2008 Free Software Foundation, Inc.
+#
+# Zhang Zhongli <zhang-zhongli@tom.com>, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2010.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kttsd\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-30 01:33+0000\n"
+"PO-Revision-Date: 2010-11-10 14:03+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.1\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: filters/main.cpp:36
+msgid "testfilter"
+msgstr "测试过滤器"
+
+#: filters/main.cpp:37
+msgid "A utility for testing Jovie filter plugins."
+msgstr "用于测试 Jovie 过滤器插件的工具。"
+
+#: filters/main.cpp:38
+msgid "Copyright 2005, Gary Cramblitt &lt;garycramblitt@comcast.net&gt;"
+msgstr "版权 2005，Gary Cramblitt &lt;garycramblitt@comcast.net&gt;"
+
+#: filters/main.cpp:39 jovie/main.cpp:45 kcmkttsmgr/kcmkttsmgr.cpp:678
+msgid "Gary Cramblitt"
+msgstr "Gary Cramblitt"
+
+#: filters/main.cpp:39 kcmkttsmgr/kcmkttsmgr.cpp:678
+msgid "Maintainer"
+msgstr "维护者"
+
+#: filters/main.cpp:45
+msgid "Name of a Jovie filter plugin (required)"
+msgstr "Jovie 过滤器插件的名称(必须)"
+
+#: filters/main.cpp:47
+msgid "Talker code passed to filter"
+msgstr "传递到过滤器的朗读者代码"
+
+#: filters/main.cpp:49
+msgid "D-Bus application ID passed to filter"
+msgstr "传递到过滤器的 D-Bus 应用程序 ID"
+
+#: filters/main.cpp:51
+msgid "Config file group name passed to filter"
+msgstr "传递到过滤器的配置文件组名"
+
+#: filters/main.cpp:52
+msgid "Display list of available Filter PlugIns and exit"
+msgstr "显示可用过滤器插件列表并退出"
+
+#: filters/main.cpp:54
+msgid "Display tabs as \\t, otherwise they are removed"
+msgstr "将制表符显示为 \\t，或是将它们删除"
+
+#: filters/main.cpp:55
+msgid "Display list of available filter plugins and exit"
+msgstr "显示可用过滤器插件列表并退出"
+
+#. i18n: ectx: property (title), widget (QGroupBox, typeGroupBox)
+#: filters/stringreplacer/editreplacementwidget.ui:23
+msgid "&Type"
+msgstr "类型(&T)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, wordRadioButton)
+#: filters/stringreplacer/editreplacementwidget.ui:35
+msgid "&Word"
+msgstr "单词(&W)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, regexpRadioButton)
+#: filters/stringreplacer/editreplacementwidget.ui:45
+msgid "Regular &expression"
+msgstr "正则表达式(&E)"
+
+#. i18n: ectx: property (text), widget (QLabel, matchLabel)
+#: filters/stringreplacer/editreplacementwidget.ui:63
+msgid "&Match:"
+msgstr "匹配(&M)："
+
+#. i18n: ectx: property (text), widget (QLabel, substLabel)
+#: filters/stringreplacer/editreplacementwidget.ui:76
+msgid "&Replace with:"
+msgstr "替换为(&R)："
+
+#. i18n: ectx: property (text), widget (KPushButton, matchButton)
+#. i18n: ectx: property (text), widget (KPushButton, languageBrowseButton)
+#. i18n: ectx: property (text), widget (KPushButton, reEditorButton)
+#. i18n: ectx: property (text), widget (KPushButton, talkerButton)
+#: filters/stringreplacer/editreplacementwidget.ui:119
+#: filters/stringreplacer/stringreplacerconfwidget.ui:143
+#: filters/talkerchooser/talkerchooserconfwidget.ui:143
+#: filters/talkerchooser/talkerchooserconfwidget.ui:206
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, matchCaseCheckBox)
+#: filters/stringreplacer/editreplacementwidget.ui:133
+msgid "Match &case"
+msgstr "匹配大小写(&C)"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:128
+msgid "Unable to open file."
+msgstr "不能打开文件。"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:134
+msgid "File not in proper XML format."
+msgstr "文件不是正确的 XML 格式。"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:226
+#: filters/stringreplacer/stringreplacerconf.cpp:573
+msgctxt "Abbreviation for 'Regular Expression'"
+msgid "RegExp"
+msgstr "正则式"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:226
+#: filters/stringreplacer/stringreplacerconf.cpp:312
+#: filters/stringreplacer/stringreplacerconf.cpp:386
+#: filters/stringreplacer/stringreplacerconf.cpp:541
+#: filters/stringreplacer/stringreplacerconf.cpp:571
+msgid "Word"
+msgstr "单词"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:229
+#: filters/stringreplacer/stringreplacerconf.cpp:318
+#: filters/stringreplacer/stringreplacerconf.cpp:546
+#: filters/stringreplacer/stringreplacerconf.cpp:574
+msgctxt "Yes or no"
+msgid "Yes"
+msgstr "是"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:229
+#: filters/stringreplacer/stringreplacerconf.cpp:574
+msgctxt "Yes or no"
+msgid "No"
+msgstr "否"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:267
+msgid "Unable to open file "
+msgstr "不能打开文件"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:354
+#: filters/stringreplacer/stringreplacerconf.cpp:376
+msgid "String Replacer"
+msgstr "字符串替换"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:374
+#: filters/stringreplacer/stringreplacerconf.cpp:415
+#: filters/stringreplacer/stringreplacerconf.cpp:419
+msgid "Multiple Languages"
+msgstr "多国语言"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:387
+msgctxt "Abbreviation for 'Regular Expresion'"
+msgid "RegExp"
+msgstr "正则式"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:389
+msgid "Error"
+msgstr "错误"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:396
+msgid "Select Languages"
+msgstr "选择语言"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:562
+msgid "Edit String Replacement"
+msgstr "编辑替换字符串"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:661
+#: filters/stringreplacer/stringreplacerconf.cpp:677
+msgid "String Replacer Word List (*.xml)"
+msgstr "字符串替换单词列表(*.xml)"
+
+#: filters/stringreplacer/stringreplacerconf.cpp:668
+#: filters/stringreplacer/stringreplacerconf.cpp:684
+msgid "Error Opening File"
+msgstr "打开文件错误"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, StringReplacerConfWidget)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:15
+msgid "Configure String Replacer"
+msgstr "配置字符串替换器"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, nameLabel)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:35
+#: filters/talkerchooser/talkerchooserconfwidget.ui:35
+msgctxt "What's this text"
+msgid "Enter any name you like for this filter."
+msgstr "为此过滤器输入任何您喜欢的名称。"
+
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:38
+#: filters/talkerchooser/talkerchooserconfwidget.ui:38
+#: filters/xmltransformer/xmltransformerconfwidget.ui:92
+msgid "&Name:"
+msgstr "名称(&N)："
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, nameLineEdit)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:51
+#: filters/talkerchooser/talkerchooserconfwidget.ui:51
+msgid "Enter any name you like for this filter."
+msgstr "为此过滤器输入任何您喜欢的名称。"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, applyGroupBox)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:60
+#: filters/talkerchooser/talkerchooserconfwidget.ui:60
+#: filters/xmltransformer/xmltransformerconfwidget.ui:139
+msgid "These settings determines when the filter is applied to text."
+msgstr "这些设置用于决定该何时对文本应用过滤器。"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, languageLabel)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:80
+msgctxt "What's this text"
+msgid ""
+"This filter is applied to text jobs of the specified language.  You may "
+"select more than one language by clicking the browse button and Ctrl-"
+"clicking on more than one in the list.  If blank the filter applies to all "
+"text jobs of any language."
+msgstr ""
+"此过滤器将应用于指定语言的文本任务。要选中多种语言，您可以单击浏览按钮并使用 "
+"Ctrl 单击列表中的语言。如果为空的话，此过滤器将应用于任何语言的文本任务。"
+
+#. i18n: ectx: property (text), widget (QLabel, languageLabel)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:83
+msgid "Lan&guage is:"
+msgstr "语言为(&G)："
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, appIdLabel)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:96
+#: filters/talkerchooser/talkerchooserconfwidget.ui:99
+msgid ""
+"Enter a D-Bus Application ID.  This filter will only apply to text jobs "
+"queued by that application.  You may enter more than one ID separated by "
+"commas.  If blank, this filter applies to text jobs queued by all "
+"applications.  Tip: Use kdcop from the command line to get the Application "
+"IDs of running applications.  Example: \"konversation, kvirc,ksirc,kopete\""
+msgstr ""
+"输入 D-Bus 应用程序 ID。此过滤器仅应用于该应用程序排入的文本任务。您可以用逗"
+"号分隔多个 ID。如果为空的话，此过滤器将应用于所有应用程序排入的文本任务。提"
+"示：在命令行使用 kdcop 可获得正在运行的应用程序的应用程序 ID。例"
+"如“konversation,kvirc,ksirc,kopete”"
+
+#. i18n: ectx: property (text), widget (QLabel, appIdLabel)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:99
+#: filters/talkerchooser/talkerchooserconfwidget.ui:102
+msgid "Application &ID contains:"
+msgstr "应用程序 &ID 包含："
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, languageLineEdit)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:133
+msgid ""
+"This filter is applied to text jobs of the specified language.  You may "
+"select more than one language by clicking the browse button and Ctrl-"
+"clicking on more than one in the list.  If blank the filter applies to all "
+"text jobs of any language."
+msgstr ""
+"此过滤器将应用于指定语言的文本任务。要选中多种语言，您可以单击浏览按钮并使用 "
+"Ctrl 单击列表中的语言。如果为空的话，过滤器将应用于任何语言的文本任务。"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, languageBrowseButton)
+#. i18n: ectx: property (whatsThis), widget (KPushButton, reEditorButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:140
+#: filters/talkerchooser/talkerchooserconfwidget.ui:140
+msgid ""
+"Click to select one or more languages.  This filter will be applied to text "
+"jobs of those languages."
+msgstr "点击可选择一种或多种语言。此过滤器会对那些语言的文本加以应用。"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, appIdLineEdit)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:152
+#: filters/talkerchooser/talkerchooserconfwidget.ui:152
+msgid ""
+"<qt>Enter a D-Bus Application ID.  This filter will only apply to text jobs "
+"queued by that application.  You may enter more than one ID separated by "
+"commas.  Use <b>knotify</b> to match all messages sent as KDE "
+"notifications.  If blank, this filter applies to text jobs queued by all "
+"applications.  Tip: Use kdcop from the command line to get the Application "
+"IDs of running applications.  Example: \"konversation, kvirc,ksirc,kopete\"</"
+"qt>"
+msgstr ""
+"<qt>输入 D-Bus 应用程序 ID。此过滤器仅应用于该应用程序排入的文本任务。您可以"
+"用逗号分隔多个 ID。使用 <b>knotify</b> 可以匹配发送为 KDE 通知的所有消息。如"
+"果为空的话，此过滤器将应用于所有应用程序排入的文本任务。提示：在命令行使用 "
+"kdcop 可获得正在运行的应用程序的应用程序 ID。例如“konversation,kvirc,ksirc,"
+"kopete”</qt>"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, loadButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:180
+msgid "Click to load a word list from a file."
+msgstr "点击可从文件装入单词列表。"
+
+#. i18n: ectx: property (text), widget (KPushButton, loadButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:183
+msgctxt "Load a word list from a file"
+msgid "Load"
+msgstr "装载"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, saveButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:198
+msgid "Click to save word list to a file."
+msgstr "点击可将单词列表保存到文件。"
+
+#. i18n: ectx: property (text), widget (KPushButton, saveButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:201
+msgid "&Save"
+msgstr "保存(&S)"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, clearButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:216
+msgid "Click to empty the word list."
+msgstr "点击可清空单词列表。"
+
+#. i18n: ectx: property (text), widget (KPushButton, clearButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:219
+msgctxt "Clear the word list"
+msgid "Clear"
+msgstr "清除"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, addButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:252
+msgid "Click to add another word or regular expression to the list."
+msgstr "点击可添加新单词或正则表达式到列表。"
+
+#. i18n: ectx: property (text), widget (KPushButton, addButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:255
+msgid "&Add"
+msgstr "添加(&A)"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, upButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:270
+msgid ""
+"Click to move selected word up in the list.  Words higher in the list are "
+"applied first."
+msgstr "点击可将选中的单词在列表中上移。列表中越往上的单词会被越早应用。"
+
+#. i18n: ectx: property (text), widget (QPushButton, upButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:273
+msgid "&Up"
+msgstr "上移(&U)"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, downButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:288
+msgid ""
+"Click to move a word down in the list.  Words lower in the list are applied "
+"last."
+msgstr "点击可将选中的单词在列表中下移。列表中越往下的单词会被越晚应用。"
+
+#. i18n: ectx: property (text), widget (KPushButton, lowerTalkerPriorityButton)
+#. i18n: ectx: property (text), widget (KPushButton, lowerFilterPriorityButton)
+#. i18n: ectx: property (text), widget (QPushButton, downButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:291
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:117 kcmkttsmgr/kcmkttsmgrwidget.ui:238
+msgid "Do&wn"
+msgstr "向下(&W)"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, editButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:309
+msgid "Click to modify an existing word or regular expression in the list."
+msgstr "点击可修改列表中已经存在的单词或正则表达式。"
+
+#. i18n: ectx: property (text), widget (KPushButton, editButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:312
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, removeButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:330
+msgid "Click to remove a word or regular expression from the list."
+msgstr "点击可从列表中删除一个单词或正则表达式。"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeTalkerButton)
+#. i18n: ectx: property (text), widget (KPushButton, removeFilterButton)
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:333
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:155 kcmkttsmgr/kcmkttsmgrwidget.ui:276
+msgid "&Remove"
+msgstr "删除(&R)"
+
+#. i18n: ectx: property (text), widget (QTableWidget, substLView)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:371
+msgid "Type"
+msgstr "类型"
+
+#. i18n: ectx: property (text), widget (QTableWidget, substLView)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:376
+msgid "Match Case"
+msgstr "匹配大小写"
+
+#. i18n: ectx: property (text), widget (QTableWidget, substLView)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:381
+msgid "Match"
+msgstr "匹配"
+
+#. i18n: ectx: property (text), widget (QTableWidget, substLView)
+#: filters/stringreplacer/stringreplacerconfwidget.ui:386
+msgid "Replace With"
+msgstr "替换为"
+
+#: filters/talkerchooser/talkerchooserconf.cpp:135
+msgid "Talker Chooser"
+msgstr "朗读者选择器"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SelectTalkerWidget)
+#: filters/talkerchooser/talkerchooserconf.cpp:196 jovie/jovietrayicon.cpp:103
+#: libkttsd/selecttalkerdlg.h:59 libkttsd/selecttalkerwidget.ui:21
+msgid "Select Talker"
+msgstr "选择朗读者"
+
+#: filters/talkerchooser/talkerchooserconf.cpp:212
+#: filters/talkerchooser/talkerchooserconf.cpp:226
+msgid "Talker Chooser Config (*rc)"
+msgstr "朗读者选择器配置(*rc)"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, TalkerChooserConfWidget)
+#: filters/talkerchooser/talkerchooserconfwidget.ui:15
+msgid "Configure Talker Chooser"
+msgstr "配置朗读者选择器"
+
+#. i18n: ectx: property (title), widget (QGroupBox, applyGroupBox)
+#: filters/talkerchooser/talkerchooserconfwidget.ui:63
+msgid "&Apply This Filter When"
+msgstr "应用此过滤器的时机(&A)"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, reLabel)
+#: filters/talkerchooser/talkerchooserconfwidget.ui:83
+msgctxt "What's this text"
+msgid ""
+"This filter is applied to text jobs of the specified language.  You may "
+"select more than one language by clicking the browse button and Ctrl-"
+"clicking on more than one in the list.  If blank, the filter applies to all "
+"text jobs of any language."
+msgstr ""
+"此过滤器将应用于指定语言的文本任务。要选中多种语言，您可以单击浏览按钮并使用 "
+"Ctrl 单击列表中的语言。如果为空的话，此过滤器将应用于任何语言的文本任务。"
+
+#. i18n: ectx: property (text), widget (QLabel, reLabel)
+#: filters/talkerchooser/talkerchooserconfwidget.ui:86
+msgid "Te&xt contains:"
+msgstr "文本包含(&X)："
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, reLineEdit)
+#: filters/talkerchooser/talkerchooserconfwidget.ui:133
+msgid ""
+"This filter is applied to text jobs of the specified language.  You may "
+"select more than one language by clicking the browse button and Ctrl-"
+"clicking on more than one in the list.  If blank, the filter applies to all "
+"text jobs of any language."
+msgstr ""
+"此过滤器将应用于指定语言的文本任务。要选中多种语言，您可以单击浏览按钮并使用 "
+"Ctrl 单击列表中的语言。如果为空的话，此过滤器将应用于任何语言的文本任务。"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, talkerLabel)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, talkerLineEdit)
+#: filters/talkerchooser/talkerchooserconfwidget.ui:180
+#: filters/talkerchooser/talkerchooserconfwidget.ui:196
+msgid ""
+"The new Talker that will be used when the conditions above are met.  The "
+"default Talker is the topmost in the Talkers tab.  Click the button to "
+"choose a Talker."
+msgstr ""
+"符合上述条件时使用的新朗读者。默认朗读者是朗读者标签中最上面的一个。单击按钮"
+"可选择朗读者。"
+
+#. i18n: ectx: property (text), widget (QLabel, talkerLabel)
+#: filters/talkerchooser/talkerchooserconfwidget.ui:183
+msgid "&Talker:"
+msgstr "朗读者(&T)："
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, talkerButton)
+#: filters/talkerchooser/talkerchooserconfwidget.ui:203
+msgid "Click to select a Talker."
+msgstr "点击可选择一个朗读者。"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, loadButton)
+#: filters/talkerchooser/talkerchooserconfwidget.ui:231
+msgid "Click to load a Talker Chooser configuration from a file."
+msgstr "点击可从文件装入朗读者选择器的配置。"
+
+#. i18n: ectx: property (text), widget (KPushButton, loadButton)
+#: filters/talkerchooser/talkerchooserconfwidget.ui:234
+msgid "&Load..."
+msgstr "装入(&L)..."
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, saveButton)
+#: filters/talkerchooser/talkerchooserconfwidget.ui:249
+msgid "Click to save this Talker Chooser to a file."
+msgstr "点击可将此朗读者选择器保存到文件。"
+
+#. i18n: ectx: property (text), widget (KPushButton, saveButton)
+#: filters/talkerchooser/talkerchooserconfwidget.ui:252
+msgid "&Save..."
+msgstr "保存(&S)..."
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, clearButton)
+#: filters/talkerchooser/talkerchooserconfwidget.ui:267
+msgid "Click to clear everything."
+msgstr "点击可清除所有设置。"
+
+#. i18n: ectx: property (text), widget (KPushButton, clearButton)
+#: filters/talkerchooser/talkerchooserconfwidget.ui:270
+msgid "Cl&ear"
+msgstr "清除(&E)"
+
+#: filters/xmltransformer/xmltransformerconf.cpp:115
+msgid "XML Transformer"
+msgstr "XML 转换器"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, XmlTransformerConfWidget)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:14
+msgid "Configure XML Transformer"
+msgstr "配置 XML 转换器"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, nameLineEdit)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:42
+msgid "Enter any descriptive name you like for this filter."
+msgstr "为此过滤器输入任何您喜欢的名称。"
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, xsltPath)
+#. i18n: ectx: property (whatsThis), widget (QLabel, xsltLabel)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:57
+#: filters/xmltransformer/xmltransformerconfwidget.ui:105
+msgid ""
+"Enter the full path to an XML Style Language - Transforms (XSLT) stylesheet "
+"file.  XSLT files usually end with extension .xsl."
+msgstr ""
+"输入 XML 样式语言 - 转换样式表(XSLT)文件的完整路径。XSLT 文件通常以 .xsl 为扩"
+"展名。"
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, xsltprocPath)
+#. i18n: ectx: property (whatsThis), widget (QLabel, xsltprocLabel)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:72
+#: filters/xmltransformer/xmltransformerconfwidget.ui:121
+msgid ""
+"Enter the path to the xsltproc executable program.  If it is in the PATH "
+"environment variable, just enter \"xsltproc\"."
+msgstr ""
+"输入 xsltproc 可执行程序的完整路径。如果它在 PATH 环境变量中，只需输"
+"入“xsltporc”。"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, nameLabel)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:89
+msgctxt "What's this text"
+msgid "Enter any descriptive name you like for this filter."
+msgstr "为此过滤器输入任何您喜欢的描述。"
+
+#. i18n: ectx: property (text), widget (QLabel, xsltLabel)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:108
+msgid "&XSLT file:"
+msgstr "&XSLT 文件："
+
+#. i18n: ectx: property (text), widget (QLabel, xsltprocLabel)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:124
+msgid "xsltproc &executable:"
+msgstr "xsltproc 可执行程序(&E)："
+
+#. i18n: ectx: property (title), widget (QGroupBox, applyGroupBox)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:142
+msgid "Apply This &Filter When"
+msgstr "应用此过滤器的时机(&F)"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, rootElementLineEdit)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:170
+msgid ""
+"This filter will be applied only to text having the specified XML root "
+"element.  If blank, applies to all text.  You may enter more than one root "
+"element separated by commas.  Example: \"html\"."
+msgstr ""
+"此过滤器只应用于含有指定 XML 根元素的文本。如果留空，则对所有文本生效。您可以"
+"用逗号分隔输入的多个根元素。例如：“html”。"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, doctypeLineEdit)
+#. i18n: ectx: property (whatsThis), widget (QLabel, doctypeLabel)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:185
+#: filters/xmltransformer/xmltransformerconfwidget.ui:233
+msgid ""
+"This filter will be applied only to text having the specified DOCTYPE "
+"specification.  If blank, applies to all text.  You may enter more than one "
+"DOCTYPE separated by commas.  Example: \"xhtml\"."
+msgstr ""
+"此过滤器只应用于含有指定 DOCTYPE 声明的文本。如果留空，则对所有文本生效。您可"
+"以用逗号分隔输入的多个 DOCTYPE。例如：“xhtml”。"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, appIdLineEdit)
+#. i18n: ectx: property (whatsThis), widget (QLabel, appIdLabel)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:200
+#: filters/xmltransformer/xmltransformerconfwidget.ui:249
+msgid ""
+"<qt>Enter a D-Bus Application ID.  This filter will only apply to text "
+"queued by that application.  You may enter more than one ID separated by "
+"commas.  Use <b>knotify</b> to match all messages sent as KDE "
+"notifications.  If blank, this filter applies to text queued by all "
+"applications.  Tip: Use kdcop from the command line to get the Application "
+"IDs of running applications.  Example: \"konversation, kvirc,ksirc,kopete\"</"
+"qt>"
+msgstr ""
+"<qt>输入 D-Bus 应用程序 ID。此过滤器仅应用于该应用程序排入的文本任务。您可以"
+"用逗号分隔多个 ID。使用 <b>knotify</b> 可以匹配发送为 KDE 通知的所有消息。如"
+"果为空的话，此过滤器将应用于所有应用程序排入的文本任务。提示：在命令行使用 "
+"kdcop 可获得正在运行的应用程序的应用程序 ID。例如“konversation,kvirc,ksirc,"
+"kopete”</qt>"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, rootElementLabel)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:217
+msgctxt "What's this text"
+msgid ""
+"This filter will be applied only to text having the specified XML root "
+"element.  If blank, applies to all text.  You may enter more than one root "
+"element separated by commas.  Example: \"html\"."
+msgstr ""
+"此过滤器只应用于含有指定 XML 根元素的文本。如果留空，则对所有文本生效。您可以"
+"用逗号分隔输入的多个根元素。例如：“html”。"
+
+#. i18n: ectx: property (text), widget (QLabel, rootElementLabel)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:220
+msgid "&Root element is:"
+msgstr "根元素为(&R)："
+
+#. i18n: ectx: property (text), widget (QLabel, doctypeLabel)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:236
+msgid "or DOC&TYPE is:"
+msgstr "或者 DOC&TYPE 声明为："
+
+#. i18n: ectx: property (text), widget (QLabel, appIdLabel)
+#: filters/xmltransformer/xmltransformerconfwidget.ui:252
+msgid "and Application &ID contains:"
+msgstr "以及应用程序 &ID 包含："
+
+#: jovie/jovie.cpp:480 jovie/jovietrayicon.cpp:224
+msgid "KDE Text-to-Speech"
+msgstr "KDE 语音合成"
+
+#: jovie/jovietrayicon.cpp:64
+msgid "KDE Text-to-Speech Manager"
+msgstr "KDE 语音合成管理器"
+
+#: jovie/jovietrayicon.cpp:72
+msgid "&Stop/Delete"
+msgstr "停止/删除(&S)"
+
+#: jovie/jovietrayicon.cpp:78
+msgid "&Pause"
+msgstr "暂停(&P)"
+
+#: jovie/jovietrayicon.cpp:84
+msgid "&Resume"
+msgstr "恢复(&R)"
+
+#: jovie/jovietrayicon.cpp:90
+msgid "R&epeat"
+msgstr "重复(&E)"
+
+#: jovie/jovietrayicon.cpp:99
+msgid "Spea&k Clipboard Contents"
+msgstr "朗读剪贴板里的内容(&K)"
+
+#: jovie/main.cpp:40
+msgid "Jovie"
+msgstr "Jovie"
+
+#: jovie/main.cpp:41
+msgid "Text-to-speech synthesis daemon"
+msgstr "语音合成守护进程"
+
+#: jovie/main.cpp:42
+msgid "(C) 2002, José Pablo Ezequiel Fernández"
+msgstr "(C) 2002，José Pablo Ezequiel Fernández"
+
+#: jovie/main.cpp:43
+msgid "Jeremy Whiting"
+msgstr "Jeremy Whiting"
+
+#: jovie/main.cpp:43
+msgid "Current Maintainer"
+msgstr "当前维护者"
+
+#: jovie/main.cpp:44 kcmkttsmgr/kcmkttsmgr.cpp:677
+msgid "José Pablo Ezequiel Fernández"
+msgstr "José Pablo Ezequiel Fernández"
+
+#: jovie/main.cpp:44
+msgid "Original Author"
+msgstr "原作者"
+
+#: jovie/main.cpp:45
+msgid "Previous Maintainer"
+msgstr "先前维护者"
+
+#: jovie/main.cpp:46
+msgid "Gunnar Schmi Dt"
+msgstr "Gunnar Schmi Dt"
+
+#: jovie/main.cpp:46 jovie/main.cpp:47 jovie/main.cpp:48 jovie/main.cpp:49
+#: kcmkttsmgr/kcmkttsmgr.cpp:679 kcmkttsmgr/kcmkttsmgr.cpp:680
+msgid "Contributor"
+msgstr "贡献者"
+
+#: jovie/main.cpp:47 kcmkttsmgr/kcmkttsmgr.cpp:679
+msgid "Olaf Schmidt"
+msgstr "Olaf Schmidt"
+
+#: jovie/main.cpp:48 kcmkttsmgr/kcmkttsmgr.cpp:680
+msgid "Paul Giannaros"
+msgstr "Paul Giannaros"
+
+#: jovie/main.cpp:49
+msgid "Simion Ploscariu"
+msgstr ""
+
+#: jovie/main.cpp:50
+msgid "Jorge Luis Arzola"
+msgstr "Jorge Luis Arzola"
+
+#: jovie/main.cpp:50 jovie/main.cpp:51
+msgid "Testing"
+msgstr "测试中"
+
+#: jovie/main.cpp:51
+msgid "David Powell"
+msgstr "David Powell"
+
+#: kcmkttsmgr/addtalker.cpp:39
+msgid "Add Talker"
+msgstr "添加朗读者"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:184 kcmkttsmgr/kcmkttsmgr.cpp:804
+msgid "Filter"
+msgstr "过滤器"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:623
+msgid ""
+"You have made changes to the configuration but have not saved them yet.  "
+"Click Apply to save the changes or Cancel to abandon the changes."
+msgstr ""
+"您已经对配置进行了更改，但尚未保存。单击应用可保存更改，单击取消可丢弃更改。"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:664
+msgid ""
+"<h1>Text-to-Speech</h1><p>This is the configuration for the text-to-speech D-"
+"Bus service</p><p>This allows other applications to access text-to-speech "
+"resources</p><p>Be sure to configure a default language for the language you "
+"are using as this will be the language used by most of the applications</p>"
+msgstr ""
+"<h1>文本到语音</h1><p>这里可配置文本到语音 D-Bus 服务</p><p>允许其它应用程序"
+"访问文本到语音资源</p><p>请确定已将您正在使用的语言配置为默认语言，因为该语言"
+"将会由大部分应用程序所使用</p>"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:673
+msgid "jovie"
+msgstr "jovie"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:673
+msgid "KCMKttsMgr"
+msgstr "KCMKttsMgr"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:675
+msgid "(c) 2010, Jeremy Whiting"
+msgstr "(c) 2010，Jeremy Whiting"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:677
+msgid "Author"
+msgstr "作者"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:803
+msgid "Select Filter"
+msgstr "选择过滤器"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, kttsjobmgr)
+#: kcmkttsmgr/kcmkttsmgr.cpp:1098 kcmkttsmgr/kttsjobmgr.ui:14
+msgid "Jobs"
+msgstr "任务"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:1120
+#, kde-format
+msgid "Jovie Version: %1"
+msgstr "Jovie 版本：%1"
+
+#. i18n: ectx: property (text), widget (QLabel, kttsdVersion)
+#: kcmkttsmgr/kcmkttsmgr.cpp:1160 kcmkttsmgr/kcmkttsmgrwidget.ui:40
+msgid "Jovie not running"
+msgstr "Jovie 没有运行"
+
+#: kcmkttsmgr/kcmkttsmgr.cpp:1269
+msgid "Filter Configuration"
+msgstr "过滤器配置"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:34
+msgctxt "General, as title of window"
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, enableJovieCheckBox)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:63
+msgid "Check to start the Jovie Daemon and enable Text-to-Speech."
+msgstr "选中可启动 Jovie 守护进程和语音合成系统。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableJovieCheckBox)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:66
+msgid "&Enable Text-to-Speech System (Jovie)"
+msgstr "打开语音合成系统 Jovie (&E)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:74
+msgid "Talkers"
+msgstr "朗读者"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, addTalkerButton)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:88
+msgid "Click to add and configure a new Talker (speech synthesizer)."
+msgstr "点击可添加并配置新的朗读者(即语音合成器)。"
+
+#. i18n: ectx: property (text), widget (KPushButton, addTalkerButton)
+#. i18n: ectx: property (text), widget (KPushButton, addFilterButton)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:91 kcmkttsmgr/kcmkttsmgrwidget.ui:206
+msgid "Add..."
+msgstr "添加..."
+
+#. i18n: ectx: property (text), widget (KPushButton, higherTalkerPriorityButton)
+#. i18n: ectx: property (text), widget (KPushButton, higherFilterPriorityButton)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:104 kcmkttsmgr/kcmkttsmgrwidget.ui:222
+msgid "U&p"
+msgstr "向上(&P)"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, configureTalkerButton)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:133
+msgid "Click to configure options for the highlighted Talker."
+msgstr "点击可配置选中的朗读者。"
+
+#. i18n: ectx: property (text), widget (KPushButton, configureTalkerButton)
+#. i18n: ectx: property (text), widget (KPushButton, configureFilterButton)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:136 kcmkttsmgr/kcmkttsmgrwidget.ui:257
+msgid "&Edit..."
+msgstr "编辑(&E)..."
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, removeTalkerButton)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:152
+msgid "Click to remove the highlighted Talker."
+msgstr "点击可删除选中的朗读者。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, TabPage)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:184
+msgid "Filters"
+msgstr "过滤器"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, addFilterButton)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:203
+msgid "Click to add and configure a new Filter."
+msgstr "点击可添加并配置新过滤器。"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, higherFilterPriorityButton)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:219
+msgid ""
+"Click to move selected filter up in the list.  Filters higher in the list "
+"are applied first."
+msgstr "点击可将选中的过滤器在列表中上移。列表中越往上的过滤器会被越早应用。"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, lowerFilterPriorityButton)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:235
+msgid ""
+"Click to move a filter down in the list.  Filters lower in the list are "
+"applied last."
+msgstr "点击可将选中的过滤器在列表中下移。列表中越往下的过滤器会被越晚应用。"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, configureFilterButton)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:254
+msgid "Click to configure options for the highlighted Filter."
+msgstr "点击可配置选中过滤器的选项。"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, removeFilterButton)
+#: kcmkttsmgr/kcmkttsmgrwidget.ui:273
+msgid "Click to remove the highlighted Filter."
+msgstr "点击可删除选中的过滤器。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: kcmkttsmgr/kttsjobmgr.ui:20
+msgid "Speech Control"
+msgstr "朗读控制"
+
+#. i18n: ectx: property (text), widget (KPushButton, stopButton)
+#: kcmkttsmgr/kttsjobmgr.ui:31
+msgid "Stop"
+msgstr "停止"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, cancelButton)
+#: kcmkttsmgr/kttsjobmgr.ui:41
+msgid ""
+"<p>Deletes the job.  If it is currently speaking, it stops speaking.  The "
+"next speakable job in the list begins speaking.</p>"
+msgstr ""
+"<p>删除任务。如果该任务正在朗读，则停止朗读。列表中的下一个可朗读任务开始朗"
+"读。</p>"
+
+#. i18n: ectx: property (text), widget (KPushButton, cancelButton)
+#: kcmkttsmgr/kttsjobmgr.ui:44
+msgid "Cancel"
+msgstr "取消"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, pauseButton)
+#: kcmkttsmgr/kttsjobmgr.ui:54
+msgid ""
+"<p>Changes a job to Paused state.  If currently speaking, the job stops "
+"speaking. Paused jobs prevent jobs that follow them from speaking, so either "
+"click <b>Resume</b> to make the job speakable, or click <b>Later</b> to move "
+"it down in the list.</p>"
+msgstr ""
+"<p>将任务更改为暂停状态。如果该任务正在朗读，则任务停止朗读。暂停某一任务也会"
+"使得其后的任务停止朗读，所以请点击<b>恢复</b>使当前任务重新开始，或者单击<b>"
+"稍候</b>将其移至列表从下方。</p>"
+
+#. i18n: ectx: property (text), widget (KPushButton, pauseButton)
+#: kcmkttsmgr/kttsjobmgr.ui:57
+msgid "Pause"
+msgstr "暂停"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, resumeButton)
+#: kcmkttsmgr/kttsjobmgr.ui:67
+msgid ""
+"<p>Resumes a paused job or changes a Queued job to Waiting.  If the job is "
+"the top speakable job in the list, it begins speaking.</p>"
+msgstr ""
+"<p>恢复暂停的任务，或将对列表中的任务更改为等待。如果该任务是列表中第一个可读"
+"的任务，则开始朗读。</p>"
+
+#. i18n: ectx: property (text), widget (KPushButton, resumeButton)
+#: kcmkttsmgr/kttsjobmgr.ui:70
+msgid "Resume"
+msgstr "恢复"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, speak_clipboard)
+#: kcmkttsmgr/kttsjobmgr.ui:81
+msgid ""
+"<p>Queues the current contents of the clipboard for speaking and sets its "
+"state to Waiting.  If the job is the topmost in the list, it begins "
+"speaking.  The job will be spoken by the topmost Talker in the <b>Talkers</"
+"b> tab.</p>"
+msgstr ""
+"<p>将剪贴板的当前内容排至朗读队列中，并将其状态设置为等待。如果该任务是列表中"
+"第一个可读的任务，则开始朗读。该任务将会使用<b>朗读者</b>标签中设置的第一个朗"
+"读者的声音进行朗读。</p>"
+
+#. i18n: ectx: property (text), widget (KPushButton, speak_clipboard)
+#: kcmkttsmgr/kttsjobmgr.ui:84
+msgid "&Speak Clipboard"
+msgstr "读出剪贴板内容(&S)"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, speak_file)
+#: kcmkttsmgr/kttsjobmgr.ui:91
+msgid ""
+"<p>Prompts you for a file name and queues the contents of the file for "
+"speaking.  You must click the <b>Resume</b> button before the job will be "
+"speakable.  The job will be spoken by the topmost Talker in the <b>Talkers</"
+"b> tab.</p>"
+msgstr ""
+"<p>提示您文件名并将该文件的内容排入朗读队列中。要让该任务可朗读，您必须单击"
+"<b>恢复</b>按钮。该任务将会使用<b>朗读者</b>标签中设置的第一个朗读者的声音进"
+"行朗读。</p>"
+
+#. i18n: ectx: property (text), widget (KPushButton, speak_file)
+#: kcmkttsmgr/kttsjobmgr.ui:94
+msgid "Spea&k File"
+msgstr "读出文件(&K)"
+
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: kcmkttsmgr/talkerwidget.ui:21
+msgid "&Name"
+msgstr "名称(&N)"
+
+#. i18n: ectx: property (text), widget (QTableWidget, AvailableTalkersTable)
+#: kcmkttsmgr/talkerwidget.ui:68 libkttsd/selectlanguagedlg.cpp:56
+#: libkttsd/talkerlistmodel.cpp:132
+msgid "Language"
+msgstr "语言"
+
+#. i18n: ectx: property (text), widget (QTableWidget, AvailableTalkersTable)
+#: kcmkttsmgr/talkerwidget.ui:73 libkttsd/talkerlistmodel.cpp:133
+msgid "Synthesizer"
+msgstr "合成器"
+
+#. i18n: ectx: property (text), widget (QTableWidget, AvailableTalkersTable)
+#: kcmkttsmgr/talkerwidget.ui:78
+#, fuzzy
+#| msgid "Voice Type"
+msgid "Voice Name"
+msgstr "语音类型"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kcmkttsmgr/talkerwidget.ui:86
+msgid "Voice &Type"
+msgstr "语音类型(&T)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
+#: kcmkttsmgr/talkerwidget.ui:97
+msgid "Male 1"
+msgstr "男性 1"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
+#: kcmkttsmgr/talkerwidget.ui:102 libkttsd/talkercode.cpp:252
+msgid "Male 2"
+msgstr "男性 2"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
+#: kcmkttsmgr/talkerwidget.ui:107 libkttsd/talkercode.cpp:253
+msgid "Male 3"
+msgstr "男性 3"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
+#: kcmkttsmgr/talkerwidget.ui:112
+msgid "Female 1"
+msgstr "女性 1"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
+#: kcmkttsmgr/talkerwidget.ui:117 libkttsd/talkercode.cpp:255
+msgid "Female 2"
+msgstr "女性 2"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
+#: kcmkttsmgr/talkerwidget.ui:122 libkttsd/talkercode.cpp:256
+msgid "Female 3"
+msgstr "女性 3"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
+#: kcmkttsmgr/talkerwidget.ui:127
+msgid "Male Child"
+msgstr "男童"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, voiceComboBox)
+#: kcmkttsmgr/talkerwidget.ui:132
+msgid "Female Child"
+msgstr "女童"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kcmkttsmgr/talkerwidget.ui:140
+msgid "&Speed"
+msgstr "速度(&S)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kcmkttsmgr/talkerwidget.ui:186
+msgid "&Pitch"
+msgstr "音调(&P)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: kcmkttsmgr/talkerwidget.ui:232
+msgid "&Volume"
+msgstr "音量(&V)"
+
+#: libkttsd/selectlanguagedlg.cpp:57
+msgid "Code"
+msgstr "代码"
+
+#: libkttsd/selectlanguagedlg.h:66
+msgid "Select Language"
+msgstr "选择语言"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, useDefaultRadioButton)
+#: libkttsd/selecttalkerwidget.ui:58
+msgid ""
+"When checked, will use the default Talker, which is the topmost Talker "
+"listed in the Talkers tab."
+msgstr "如果选中此项，将使用默认朗读者，即在朗读者标签中列在最顶端的那个。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, useDefaultRadioButton)
+#: libkttsd/selecttalkerwidget.ui:61
+msgid "&Use default Talker"
+msgstr "使用默认朗读者(&U)"
+
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, useSpecificTalkerRadioButton)
+#: libkttsd/selecttalkerwidget.ui:68
+msgid ""
+"When checked, will use the specific Talker (if it is still configured), "
+"otherwise the Talker most closely matching."
+msgstr ""
+"如果选中此项，将使用指定的朗读者(如果已经配置过)，否则会使用最接近的朗读者。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, useSpecificTalkerRadioButton)
+#: libkttsd/selecttalkerwidget.ui:71
+msgid "Use specific &Talker"
+msgstr "使用指定的朗读者(&T)"
+
+#: libkttsd/talkercode.cpp:243
+msgctxt "Default language code"
+msgid "default"
+msgstr "默认"
+
+#: libkttsd/talkercode.cpp:251
+msgctxt "The name of the first Male voice"
+msgid "Male 1"
+msgstr "男性 1"
+
+#: libkttsd/talkercode.cpp:254
+msgctxt "The name of the first Female voice"
+msgid "Female 1"
+msgstr "女性"
+
+#: libkttsd/talkercode.cpp:257
+msgctxt "The name of the male child voice"
+msgid "Boy"
+msgstr "男孩"
+
+#: libkttsd/talkercode.cpp:258
+msgctxt "The name of the female child voice"
+msgid "Girl"
+msgstr "女孩"
+
+#: libkttsd/talkercode.cpp:260
+msgctxt ""
+"Somehow user has gotten a voice type that is not valid, i.e. not Male1, "
+"Male2, etc."
+msgid "Invalid voice type"
+msgstr "无效的语音类型"
+
+#: libkttsd/talkercode.cpp:288
+msgctxt "Other language"
+msgid "Other"
+msgstr "其它"
+
+#: libkttsd/talkercode.cpp:298
+msgctxt "full country name"
+msgid "United States of America"
+msgstr "美利坚合众国"
+
+#: libkttsd/talkercode.cpp:299
+msgctxt "abbreviated country name"
+msgid "USA"
+msgstr "USA"
+
+#: libkttsd/talkercode.cpp:300
+msgctxt "full country name"
+msgid "United Kingdom"
+msgstr "大不列颠及北爱尔兰联合王国"
+
+#: libkttsd/talkercode.cpp:301
+msgctxt "abbreviated country name"
+msgid "UK"
+msgstr "UK"
+
+#: libkttsd/talkerlistmodel.cpp:131
+msgid "Name"
+msgstr "名称"
+
+#: libkttsd/talkerlistmodel.cpp:134
+msgid "Voice Type"
+msgstr "语音类型"
+
+#: libkttsd/talkerlistmodel.cpp:135
+msgctxt "Volume of noise"
+msgid "Volume"
+msgstr "音量"
+
+#: libkttsd/talkerlistmodel.cpp:136
+msgid "Speed"
+msgstr "速度"
+
+#: libkttsd/talkerlistmodel.cpp:137
+msgid "Pitch"
+msgstr "音调"
+
+#~ msgid "&Configure"
+#~ msgstr "配置(&C)"
+
+#~ msgid "Jovie &Handbook"
+#~ msgstr "Jovie 手册(&H)"
+
+#~ msgid "&About Jovie"
+#~ msgstr "关于 Jovie(&A)"
+
+#~ msgid ""
+#~ "<p>Prompts you with a list of your configured Talkers from the "
+#~ "<b>Talkers</b> tab.  The job will be spoken using the selected Talker.</p>"
+#~ msgstr ""
+#~ "<p>为您列出<b>朗读者</b>标签中的所配置的朗读者。任务将会使用选中朗读者的声"
+#~ "音进行朗读。</p>"
+
+#~ msgid "Change Talker"
+#~ msgstr "更改朗读者"
+
+#~ msgid "Output Module"
+#~ msgstr "输出模块"
+
+#~ msgid "Voice"
+#~ msgstr "语音"

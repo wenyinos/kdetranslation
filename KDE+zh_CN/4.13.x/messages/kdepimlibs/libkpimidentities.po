@@ -1,0 +1,133 @@
+# Funda Wang <fundawang@linux.net.cn>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-09-07 01:39+0000\n"
+"PO-Revision-Date: 2008-11-29 13:58+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: identitymanager.cpp:126
+#, kde-format
+msgctxt ""
+"%1: name; %2: number appended to it to make it unique among a list of names"
+msgid "%1 #%2"
+msgstr "%1 #%2"
+
+#: identitymanager.cpp:395
+msgid "Unnamed"
+msgstr "未命名"
+
+#: identitymanager.cpp:520
+msgctxt "use default address from control center"
+msgid "Default"
+msgstr "默认"
+
+#: identitymanager.cpp:545
+msgctxt "Default name for new email accounts/identities."
+msgid "Unnamed"
+msgstr "未命名"
+
+#: signature.cpp:192
+#, kde-format
+msgid "<qt>Failed to execute signature script<p><b>%1</b>:</p><p>%2</p></qt>"
+msgstr "<qt>执行签名脚本 <p><b>%1</b> 失败：</p><p>%2</p></qt>"
+
+#: signatureconfigurator.cpp:94
+msgid "&Enable signature"
+msgstr "启用签名(&E)"
+
+#: signatureconfigurator.cpp:96
+msgid ""
+"Check this box if you want KMail to append a signature to mails written with "
+"this identity."
+msgstr "如果您想要 KMail 在以此身份撰写的信件里追加签名，请选中此项。"
+
+#: signatureconfigurator.cpp:106
+msgid "Click on the widgets below to obtain help on the input methods."
+msgstr "点击下面的构件可获得输入法相关帮助。"
+
+#: signatureconfigurator.cpp:110
+msgctxt "continuation of \"obtain signature text from\""
+msgid "Input Field Below"
+msgstr "输入下方字段"
+
+#: signatureconfigurator.cpp:112
+msgctxt "continuation of \"obtain signature text from\""
+msgid "File"
+msgstr "文件"
+
+#: signatureconfigurator.cpp:114
+msgctxt "continuation of \"obtain signature text from\""
+msgid "Output of Command"
+msgstr "命令输出"
+
+#: signatureconfigurator.cpp:115
+msgid "Obtain signature &text from:"
+msgstr "签名文本获取来源(&T)："
+
+#: signatureconfigurator.cpp:162
+msgid "Use this field to enter an arbitrary static signature."
+msgstr "使用此字段输入任意的静态签名。"
+
+#: signatureconfigurator.cpp:210 signatureconfigurator.cpp:444
+msgid "&Use HTML"
+msgstr "使用 HTML(&U)"
+
+#: signatureconfigurator.cpp:228
+msgid ""
+"Use this requester to specify a text file that contains your signature. It "
+"will be read every time you create a new mail or append a new signature."
+msgstr ""
+"在此指定一个包含您的签名的文本文件。每次您新建信件或追加新签名时都会用到它。"
+
+#: signatureconfigurator.cpp:231
+msgid "S&pecify file:"
+msgstr "指定文件(&P)："
+
+#: signatureconfigurator.cpp:238
+msgid "Edit &File"
+msgstr "编辑文件(&F)"
+
+#: signatureconfigurator.cpp:239
+msgid "Opens the specified file in a text editor."
+msgstr "在文本编辑器中打开指定文件。"
+
+#: signatureconfigurator.cpp:259
+msgid ""
+"You can add an arbitrary command here, either with or without path depending "
+"on whether or not the command is in your Path. For every new mail, KMail "
+"will execute the command and use what it outputs (to standard output) as a "
+"signature. Usual commands for use with this mechanism are \"fortune\" or "
+"\"ksig -random\"."
+msgstr ""
+"您可在此添加任意一个命令，是否要写全其路径取决于此命令是否在您的 PATH 环境变"
+"量中。KMail 每次新建信件时，都会执行此命令并将其标准输出导入为签名。用来配合"
+"此机制工作的命令通常是“fortune”或“ksig -random”。"
+
+#: signatureconfigurator.cpp:264
+msgid "S&pecify command:"
+msgstr "指定命令(&P)："
+
+#: signatureconfigurator.cpp:455
+msgid "&Use HTML (disabling removes formatting)"
+msgstr "使用 HTML(禁用此项会去除格式)(&H)"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "KDE 中国"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "kde-china@kde.org"
+
+#~ msgctxt "show default identity"
+#~ msgid "Default"
+#~ msgstr "默认"

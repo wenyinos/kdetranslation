@@ -1,0 +1,253 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+# FengChao <rainofchaos@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-21 01:50+0000\n"
+"PO-Revision-Date: 2012-11-22 21:11+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: backupsettingspage.ui:20
+msgid "Backup Path"
+msgstr "备份路径"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: backupsettingspage.ui:26
+msgctxt "@info"
+msgid ""
+"Please choose a file for the backup. Make sure that enough hard disk space "
+"is available."
+msgstr "请选择一个备份文件，并确保剩余的硬盘空间足够。"
+
+#: backupwizardpages.cpp:45 backupwizardpages.cpp:77 backupwizardpages.cpp:251
+#: backupwizardpages.cpp:307 backupwizardpages.cpp:341
+msgid "Nepomuk Backup"
+msgstr "Nepomuk 备份"
+
+#: backupwizardpages.cpp:46
+msgid "Please choose one of the following options"
+msgstr "请从以下选项中选择"
+
+#: backupwizardpages.cpp:78
+msgid "Performing backup"
+msgstr "进行备份"
+
+#: backupwizardpages.cpp:93
+#, kde-format
+msgctxt "@info"
+msgid "Writing Nepomuk database backup to <filename>%1</filename>..."
+msgstr "正在将 Nepomuk 数据库备份写到 <filename>%1</filename>..."
+
+#: backupwizardpages.cpp:111
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Backup of the Nepomuk database successfully written to <filename>%1</"
+"filename>."
+msgstr "Nepomuk 数据库备份已成功写到 <filename>%1</filename>。"
+
+#: backupwizardpages.cpp:113
+msgid "Backup completed successfully"
+msgstr "备份已成功完成"
+
+#: backupwizardpages.cpp:137
+msgctxt "@info"
+msgid "No system backups found. Please select a custom backup path."
+msgstr "找不到系统备份。请自定义一个备份路径。"
+
+#: backupwizardpages.cpp:197 backupwizardpages.cpp:204
+msgid "Restoring Backup"
+msgstr "还原备份"
+
+#: backupwizardpages.cpp:205
+msgid "The backup is being restored..."
+msgstr "正在恢复备份..."
+
+#: backupwizardpages.cpp:252
+msgid "Please configure the Nepomuk backup"
+msgstr "请配置 Nepomuk 备份"
+
+#: backupwizardpages.cpp:308
+msgid ""
+"The following files were not found. Please either discard them or find them "
+"manually"
+msgstr "如下文件未找到，请丢弃或手动查找"
+
+#: backupwizardpages.cpp:342
+msgid "The Backup has been successfully restored"
+msgstr "已经成功恢复备份"
+
+#. i18n: ectx: property (windowTitle), widget (QWizardPage, ErrorPage)
+#: errorpage.ui:14
+msgid "WizardPage"
+msgstr "向导页"
+
+#: fileconflictwidget.cpp:42
+msgid "Discard"
+msgstr "丢弃"
+
+#: fileconflictwidget.cpp:43
+msgid "Resolve"
+msgstr "解决"
+
+#: fileconflictwidget.cpp:147
+msgid "Find the url"
+msgstr "查找 URL"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: intropage.ui:44
+msgctxt "@info"
+msgid ""
+"Create a backup of the current Nepomuk database including all manually "
+"created data. This backup can later be restored by choosing the "
+"<interface>Restore</interface> option below."
+msgstr ""
+"创建包括所有手动创建数据的当前 Nepomuk 数据库的备份。这个备份可用在之后由下面"
+"的<interface>恢复</interface>选项恢复。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: intropage.ui:120
+msgctxt "@info"
+msgid ""
+"Restore an automated Nepomuk system backup or a manual backup created with "
+"the <interface>Backup</interface> tool above."
+msgstr "恢复一个自动生成的Nepomuk 系统备份或一个用上面备份工具手动生成的备份。"
+
+#: main.cpp:40
+msgid "NepomukBackup"
+msgstr "NepomukBackup"
+
+#: main.cpp:42
+msgid "Nepomuk Backup Tool"
+msgstr "Nepomuk 备份工具"
+
+#: main.cpp:44
+msgid "(c) 2010, Nepomuk-KDE Team"
+msgstr "(c) 2010，Nepomuk-KDE 团队"
+
+#: main.cpp:47
+msgid "Vishesh Handa"
+msgstr "Vishesh Handa"
+
+#: main.cpp:47
+msgid "Maintainer"
+msgstr "维护者"
+
+#: main.cpp:48
+msgid "Sebastian Trüg"
+msgstr "Sebastian Trüg"
+
+#: main.cpp:48
+msgid "Developer"
+msgstr "开发者"
+
+#: main.cpp:53
+msgid "Start the application in backup mode"
+msgstr "以备份模式启动应用程序"
+
+#: main.cpp:54
+msgid "Start the application in restore mode"
+msgstr "以还原模式启动应用程序"
+
+#: main.cpp:55
+msgid "Start the application in conflict resolution mode"
+msgstr "以冲突解决模式启动应用程序"
+
+#: main.cpp:76
+msgctxt "@info"
+msgid ""
+"Nepomuk does not seem to be running. Backups cannot be handled without it."
+msgstr "Nepomuk 似乎未运行，无法实施备份工作。"
+
+#. i18n: ectx: property (title), widget (QWizardPage, RestoreSelection)
+#: restoreselection.ui:6
+msgid "Restore Nepomuk Database"
+msgstr "还原 Nepomuk 数据库"
+
+#. i18n: ectx: property (subTitle), widget (QWizardPage, RestoreSelection)
+#: restoreselection.ui:9
+msgid ""
+"Please choose a backup from a list of known backups below. Or choose a "
+"custom backup path."
+msgstr "请选择下面列表中的一个已知备份。或者选择一个自定义备份路径。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: restoreselection.ui:18
+msgctxt "@info"
+msgid ""
+"Please select one of the system backups generated by the Nepomuk backup "
+"service or choose a custom backup file which has been created by this tool."
+msgstr ""
+"请选择一个由 Nepomuk 备份服务生成的系统备份，或者一个由这个工具创建的自定义备"
+"份。"
+
+#. i18n: ectx: property (text), widget (KPushButton, m_customBackupButton)
+#: restoreselection.ui:53
+msgid "Open Backup..."
+msgstr "打开备份..."
+
+#~ msgid "Invalid backup file"
+#~ msgstr "无效的备份文件"
+
+#~ msgctxt "@info"
+#~ msgid "Merging the backup into the local Nepomuk database..."
+#~ msgstr "正在将备份数据合并到本地 Nepomuk 数据库..."
+
+#~ msgctxt "@info"
+#~ msgid "Backup restored successfully"
+#~ msgstr "备份恢复完成"
+
+#~ msgctxt ""
+#~ "@item:inlistbox Refers to a set of metadata that has been identified as "
+#~ "beloging to file file at %1. %1 is a URL or part of it."
+#~ msgid "Identified as: %1"
+#~ msgstr "标识符：%1"
+
+#~ msgctxt ""
+#~ "@item:inlistbox The item in this row has been discarded, ie. should be "
+#~ "ignored in the following steps"
+#~ msgid "Discarded"
+#~ msgstr "已忽略"
+
+#~ msgctxt ""
+#~ "@item:inlistbox The item in this row has not been identified yet, ie. the "
+#~ "file corresponding to it has not been chosen yet."
+#~ msgid "Not identified"
+#~ msgstr "未提供标识"
+
+#~ msgid ""
+#~ "Not all files in the backup could be identified. Please resolve the "
+#~ "conflicts by choosing the corresponding file or discarding the data."
+#~ msgstr ""
+#~ "备份中的文件并非都包含标识信息。请手动选择相关文件来解决冲突，或者忽略此数"
+#~ "据。"
+
+#~ msgid "Discard All"
+#~ msgstr "全部忽略"
+
+#~ msgid "Restoring the Backup"
+#~ msgstr "还原备份"
+
+#~ msgid "Please wait while the backup is being restored"
+#~ msgstr "备份正在恢复，请稍候"

@@ -1,0 +1,5064 @@
+# translation of zh_CN.po to
+# translation of zh_CN.po to zh_CN
+# translation of smb4k_CN.po to zh_CN
+# translation of smb4k.po to zh_CN
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# bamfox <bamfox@163.com>, 2004, 2005.
+# root <root@nick>, 2004.
+# Feng Chao <rainofchaos@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: zh_CN\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-24 01:47+0000\n"
+"PO-Revision-Date: 2010-06-11 23:56+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: label, entry (ShowCustomBookmarkLabel), group (UserInterface)
+#: smb4k.kcfg:17
+msgid "Show custom bookmark label if available"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (ShowCustomBookmarkLabel), group (UserInterface)
+#: smb4k.kcfg:18
+msgid ""
+"Do not show the name of the share that is represented by the bookmark but "
+"the custom label that was defined in the bookmark editor."
+msgstr ""
+
+#. i18n: ectx: label, entry (StartMainWindowDocked), group (UserInterface)
+#: smb4k.kcfg:22
+msgid "Start docked"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (StartMainWindowDocked), group (UserInterface)
+#: smb4k.kcfg:23
+msgid ""
+"Start the application docked to the system tray, i.e. only the system tray "
+"widget is shown and the main window is hidden. You can bring the main window "
+"up by clicking on the system tray widget or by choosing \"Restore\" from its "
+"popup menu."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowNotifications), group (UserInterface)
+#: smb4k.kcfg:27
+#, fuzzy
+#| msgid "Authentication"
+msgid "Show notifications"
+msgstr "身份验证"
+
+#. i18n: ectx: whatsthis, entry (ShowNotifications), group (UserInterface)
+#: smb4k.kcfg:28
+msgid ""
+"Notify the user about actions that were performed, e.g. the mounting or "
+"unmounting of a share. If you do not want to be disturbed too often, you "
+"might want to switch this option off. Warnings and error messages are not "
+"affected by this option."
+msgstr ""
+
+#. i18n: ectx: label, entry (SharesIconView), group (UserInterface)
+#: smb4k.kcfg:32
+msgid "Show mounted shares in an icon view"
+msgstr "用图标视图显示挂载的共享"
+
+#. i18n: ectx: whatsthis, entry (SharesIconView), group (UserInterface)
+#: smb4k.kcfg:33
+msgid "The mounted shares will be displayed in an icon view."
+msgstr "用图标视图显示挂载的共享"
+
+#. i18n: ectx: label, entry (SharesListView), group (UserInterface)
+#: smb4k.kcfg:37
+msgid "Show mounted shares in a list view"
+msgstr "用列表视图显示挂载的共享"
+
+#. i18n: ectx: whatsthis, entry (SharesListView), group (UserInterface)
+#: smb4k.kcfg:38
+msgid "The mounted shares will be displayed in a list view."
+msgstr "用列表视图显示挂载的共享"
+
+#. i18n: ectx: label, entry (ShowPrinterShares), group (UserInterface)
+#: smb4k.kcfg:42
+msgid "Show printer shares"
+msgstr "显示打印机共享"
+
+#. i18n: ectx: whatsthis, entry (ShowPrinterShares), group (UserInterface)
+#: smb4k.kcfg:43
+#, fuzzy
+#| msgid "The mounted shares will be displayed in a list view."
+msgid "Printer shares will be displayed in the network browser."
+msgstr "用列表视图显示挂载的共享"
+
+#. i18n: ectx: label, entry (ShowHiddenShares), group (UserInterface)
+#: smb4k.kcfg:47
+msgid "Show hidden shares"
+msgstr "显示隐藏共享"
+
+#. i18n: ectx: whatsthis, entry (ShowHiddenShares), group (UserInterface)
+#: smb4k.kcfg:48
+#, fuzzy
+#| msgid "The mounted shares will be displayed in a list view."
+msgid ""
+"Hidden shares will be displayed in the network browser. Hidden shares are "
+"ending with a $ sign, e.g. Musik$ or IPC$."
+msgstr "用列表视图显示挂载的共享"
+
+#. i18n: ectx: label, entry (ShowType), group (UserInterface)
+#: smb4k.kcfg:52
+msgid "Show the type of the share"
+msgstr "显示共享类型"
+
+#. i18n: ectx: whatsthis, entry (ShowType), group (UserInterface)
+#: smb4k.kcfg:53
+msgid ""
+"The type of a share will be displayed in a separate column in the network "
+"browser. It can either be Disk, Print or IPC."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowIPAddress), group (UserInterface)
+#: smb4k.kcfg:57
+#, fuzzy
+msgid "Show the IP address of the server"
+msgstr "显示 IP 地址。"
+
+#. i18n: ectx: whatsthis, entry (ShowIPAddress), group (UserInterface)
+#: smb4k.kcfg:58
+#, fuzzy
+#| msgid "The mounted shares will be displayed in a list view."
+msgid ""
+"The IP address of the server will be displayed in a separate column in the "
+"network browser."
+msgstr "用列表视图显示挂载的共享"
+
+#. i18n: ectx: label, entry (ShowComment), group (UserInterface)
+#: smb4k.kcfg:62
+#, fuzzy
+msgid "Show the comment"
+msgstr "显示注释。"
+
+#. i18n: ectx: whatsthis, entry (ShowComment), group (UserInterface)
+#: smb4k.kcfg:63
+#, fuzzy
+#| msgid "The mounted shares will be displayed in a list view."
+msgid ""
+"The comment describing the server or share will be displayed in a separate "
+"column in the network browser."
+msgstr "用列表视图显示挂载的共享"
+
+#. i18n: ectx: label, entry (ShowNetworkItemToolTip), group (UserInterface)
+#: smb4k.kcfg:67
+msgid "Show a tooltip with information about the network item"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (ShowNetworkItemToolTip), group (UserInterface)
+#: smb4k.kcfg:68
+msgid "The tooltip shows various information about the current network item."
+msgstr ""
+
+#. i18n: ectx: label, entry (AutoExpandNetworkItems), group (UserInterface)
+#: smb4k.kcfg:72
+msgid "Automatically expand domains and hosts"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (AutoExpandNetworkItems), group (UserInterface)
+#: smb4k.kcfg:73
+msgid ""
+"Automatically expand domain and host items when a list of associated network "
+"items (domain members or shares) is added or updated. Please note that a "
+"domain or host item will always be expanded when you execute it."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowMountPoint), group (UserInterface)
+#: smb4k.kcfg:77
+#, fuzzy
+msgid "Show the mount point instead of the share name"
+msgstr "显示挂载点，而非共享名。"
+
+#. i18n: ectx: whatsthis, entry (ShowMountPoint), group (UserInterface)
+#: smb4k.kcfg:78
+msgid ""
+"A share is normally displayed with its name in the shares view. Choosing "
+"this feature will cause the exchange of the share name by the mount point."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowAllShares), group (UserInterface)
+#: smb4k.kcfg:82
+#, fuzzy
+msgid "Show all shares that are mounted on the system"
+msgstr "显示挂载于系统上的全部共享。"
+
+#. i18n: ectx: whatsthis, entry (ShowAllShares), group (UserInterface)
+#: smb4k.kcfg:83
+msgid ""
+"You will not only see the shares that were mounted and are owned by you, but "
+"also all other mounts using the SMBFS and CIFS file system that are present "
+"on the system."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowShareToolTip), group (UserInterface)
+#: smb4k.kcfg:87
+msgid "Show a tooltip with information about the share"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (ShowShareToolTip), group (UserInterface)
+#: smb4k.kcfg:88
+msgid "The tooltip shows various information about the current share."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowOwner), group (UserInterface)
+#: smb4k.kcfg:92
+msgid "Show the owner and group"
+msgstr "显示用户和组"
+
+#. i18n: ectx: whatsthis, entry (ShowOwner), group (UserInterface)
+#: smb4k.kcfg:93
+msgid "Show the UID and GID that own all files on the mounted file system."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowLoginName), group (UserInterface)
+#: smb4k.kcfg:97
+#, fuzzy
+msgid "Show the login name"
+msgstr "显示注释。"
+
+#. i18n: ectx: whatsthis, entry (ShowLoginName), group (UserInterface)
+#: smb4k.kcfg:98
+msgid ""
+"Show the login name that was used to authenticate to the server. The column "
+"will only contain an entry if the share was mounted with the CIFS file "
+"system."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowFileSystem), group (UserInterface)
+#: smb4k.kcfg:102
+msgid "Show the file system"
+msgstr "显示文件系统"
+
+#. i18n: ectx: whatsthis, entry (ShowFileSystem), group (UserInterface)
+#: smb4k.kcfg:103
+#, fuzzy
+msgid "Show the file system that was used for mounting the share."
+msgstr "用下列文件系统挂载远程共享："
+
+#. i18n: ectx: label, entry (ShowFreeDiskSpace), group (UserInterface)
+#: smb4k.kcfg:107
+#, fuzzy
+msgid "Show the free disk space"
+msgstr "显示隐藏共享。"
+
+#. i18n: ectx: whatsthis, entry (ShowFreeDiskSpace), group (UserInterface)
+#: smb4k.kcfg:108
+#, fuzzy
+msgid "Show the free disk space that is left on the share."
+msgstr "用下列文件系统挂载远程共享："
+
+#. i18n: ectx: label, entry (ShowUsedDiskSpace), group (UserInterface)
+#: smb4k.kcfg:112
+#, fuzzy
+msgid "Show the used disk space"
+msgstr "显示隐藏共享。"
+
+#. i18n: ectx: whatsthis, entry (ShowUsedDiskSpace), group (UserInterface)
+#: smb4k.kcfg:113
+#, fuzzy
+msgid "Show the disk space that is already used on the share."
+msgstr "显示挂载于系统上的全部共享。"
+
+#. i18n: ectx: label, entry (ShowTotalDiskSpace), group (UserInterface)
+#: smb4k.kcfg:117
+#, fuzzy
+msgid "Show the total disk space"
+msgstr "显示隐藏共享。"
+
+#. i18n: ectx: whatsthis, entry (ShowTotalDiskSpace), group (UserInterface)
+#: smb4k.kcfg:118
+#, fuzzy
+msgid "Show the total disk space of the share."
+msgstr "显示隐藏共享。"
+
+#. i18n: ectx: label, entry (ShowDiskUsage), group (UserInterface)
+#: smb4k.kcfg:122
+#, fuzzy
+msgid "Show the disk usage"
+msgstr "显示隐藏共享。"
+
+#. i18n: ectx: whatsthis, entry (ShowDiskUsage), group (UserInterface)
+#: smb4k.kcfg:123
+#, fuzzy
+msgid "Show the space that is used on the share (as a percentage.)"
+msgstr "显示挂载于系统上的全部共享。"
+
+#. i18n: ectx: label, entry (PreviewHiddenItems), group (UserInterface)
+#: smb4k.kcfg:127
+msgid "Preview hidden files and directories"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (PreviewHiddenItems), group (UserInterface)
+#: smb4k.kcfg:128
+msgid ""
+"Display hidden files and directories in the preview dialog. The hidden files "
+"and directories are those whose names begin with a period. They are usually "
+"needed for very specific purposes (storing the configuration information for "
+"an application, etc.). Since they are not of any importance for your regular "
+"work, you normally do not need to enable this feature."
+msgstr ""
+
+#. i18n: ectx: label, entry (LookupDomains), group (Network)
+#: smb4k.kcfg:137
+#, fuzzy
+#| msgid "Advanced Network Neighborhood Browser"
+msgid "Scan the network neighborhood for available workgroups and domains"
+msgstr "高级网上邻居浏览器"
+
+#. i18n: ectx: whatsthis, entry (LookupDomains), group (Network)
+#: smb4k.kcfg:138
+msgid ""
+"This is the default method to retrieve the initial browse list. It discovers "
+"all workgroups and domains by looking for all known master browsers on your "
+"network neighborhood."
+msgstr ""
+
+#. i18n: ectx: label, entry (QueryCurrentMaster), group (Network)
+#: smb4k.kcfg:142
+#, fuzzy
+msgid "Query the current workgroup master browser"
+msgstr "查询主机以获取浏览列表。"
+
+#. i18n: ectx: whatsthis, entry (QueryCurrentMaster), group (Network)
+#: smb4k.kcfg:143
+#, fuzzy
+msgid ""
+"This method queries the current master browser of your workgroup or domain "
+"to retrieve the initial browse list."
+msgstr "扫描网络以获取浏览列表。"
+
+#. i18n: ectx: label, entry (QueryCustomMaster), group (Network)
+#: smb4k.kcfg:147
+#, fuzzy
+msgid "Query this custom master browser:"
+msgstr "伪主服务器："
+
+#. i18n: ectx: whatsthis, entry (QueryCustomMaster), group (Network)
+#: smb4k.kcfg:148
+#, fuzzy
+msgid ""
+"This method queries a custom master browser to retrieve the initial browse "
+"list."
+msgstr "扫描网络以获取浏览列表。"
+
+#. i18n: ectx: label, entry (CustomMasterBrowser), group (Network)
+#: smb4k.kcfg:152
+#, fuzzy
+msgid "A custom master browser that is to be queried"
+msgstr "用下列文件系统挂载远程共享："
+
+#. i18n: ectx: whatsthis, entry (CustomMasterBrowser), group (Network)
+#: smb4k.kcfg:153
+#, fuzzy
+msgid ""
+"Enter the name or IP address of a master browser here that should be queried "
+"to compile the initial browse list."
+msgstr "扫描网络以获取浏览列表。"
+
+#. i18n: ectx: label, entry (ScanBroadcastAreas), group (Network)
+#: smb4k.kcfg:157
+msgid "Scan these broadcast areas:"
+msgstr "扫描如下广播区域："
+
+#. i18n: ectx: whatsthis, entry (ScanBroadcastAreas), group (Network)
+#: smb4k.kcfg:158
+msgid ""
+"This method will scan the given broadcast areas and look for all registered "
+"hosts."
+msgstr ""
+
+#. i18n: ectx: label, entry (BroadcastAreas), group (Network)
+#: smb4k.kcfg:162
+msgid "A custom list of broadcast addresses"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (BroadcastAreas), group (Network)
+#: smb4k.kcfg:163
+msgid ""
+"Enter a comma-separated list of broadcast addresses here (e.g. "
+"192.168.0.255, 192.168.1.255). It is used to scan for all known hosts in the "
+"respective broadcast areas."
+msgstr ""
+
+#. i18n: ectx: label, entry (MasterBrowsersRequireAuth), group (Network)
+#: smb4k.kcfg:167
+#, fuzzy
+msgid "The master browsers require authentication to return the browse list"
+msgstr "在获取浏览列表时，发生错误！"
+
+#. i18n: ectx: whatsthis, entry (MasterBrowsersRequireAuth), group (Network)
+#: smb4k.kcfg:168
+msgid ""
+"The master browsers in your network neighborhood require a login to return "
+"the browse list. This setting is rarely needed and might even cause a master "
+"browser to return an empty browse list. It will not have any effect when you "
+"let Smb4K scan broadcast areas."
+msgstr ""
+
+#. i18n: ectx: label, entry (PeriodicScanning), group (Network)
+#: smb4k.kcfg:172
+#, fuzzy
+#| msgid "Advanced Network Neighborhood Browser"
+msgid "Scan the network neighborhood periodically"
+msgstr "高级网上邻居浏览器"
+
+#. i18n: ectx: whatsthis, entry (PeriodicScanning), group (Network)
+#: smb4k.kcfg:173
+#, fuzzy
+#| msgid "Advanced Network Neighborhood Browser"
+msgid ""
+"Scan the network neighborhood periodically for all available workgroups, "
+"hosts and shares."
+msgstr "高级网上邻居浏览器"
+
+#. i18n: ectx: label, entry (ScanInterval), group (Network)
+#: smb4k.kcfg:177
+msgid "Interval between scans:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (ScanInterval), group (Network)
+#: smb4k.kcfg:178
+#, fuzzy
+#| msgid "Advanced Network Neighborhood Browser"
+msgid ""
+"This is the time in minutes that elapses until Smb4K rescans the network "
+"neighborhood for new workgroups, hosts and shares."
+msgstr "高级网上邻居浏览器"
+
+#. i18n: ectx: label, entry (EnableWakeOnLAN), group (Network)
+#: smb4k.kcfg:184
+msgid "Enable Wake-On-LAN features"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (EnableWakeOnLAN), group (Network)
+#: smb4k.kcfg:185
+msgid ""
+"Wake-on-LAN (WOL) is an ethernet computer networking standard that allows a "
+"computer to be turned on or woken up by a network message. Smb4K uses a "
+"magic package send via a UDP socket to wake up remote servers. If you want "
+"to take advantage of the Wake-On-LAN feature, you need to enable this option."
+msgstr ""
+
+#. i18n: ectx: label, entry (WakeOnLANWaitingTime), group (Network)
+#: smb4k.kcfg:189
+msgid "Waiting time:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (WakeOnLANWaitingTime), group (Network)
+#: smb4k.kcfg:190
+msgid ""
+"This is the waiting time in seconds between the sending of the magic Wake-On-"
+"LAN packages and the scanning of the network neighborhood or the mounting of "
+"a share."
+msgstr ""
+
+#. i18n: ectx: label, entry (MountPrefix), group (Shares)
+#: smb4k.kcfg:201
+#, fuzzy
+msgid "Mount prefix:"
+msgstr "挂载共享："
+
+#. i18n: ectx: whatsthis, entry (MountPrefix), group (Shares)
+#: smb4k.kcfg:202
+msgid ""
+"This is the prefix where Smb4K will create the mount points and mount the "
+"remote shares."
+msgstr ""
+
+#. i18n: ectx: label, entry (ForceLowerCaseSubdirs), group (Shares)
+#: smb4k.kcfg:206
+#, fuzzy
+msgid "Force generated subdirectories to be lower case"
+msgstr "强制生成的子目录为小写。"
+
+#. i18n: ectx: whatsthis, entry (ForceLowerCaseSubdirs), group (Shares)
+#: smb4k.kcfg:207
+#, fuzzy
+msgid ""
+"All names of the subdirectories created by Smb4K below the mount prefix will "
+"be lowercase."
+msgstr "强制生成的子目录为小写。"
+
+#. i18n: ectx: label, entry (UnmountSharesOnExit), group (Shares)
+#: smb4k.kcfg:211
+#, fuzzy
+msgid "Unmount all personal shares on exit"
+msgstr "退出时卸载全部共享。"
+
+#. i18n: ectx: whatsthis, entry (UnmountSharesOnExit), group (Shares)
+#: smb4k.kcfg:212
+msgid ""
+"Unmount all shares that belong to you when the program exits. Shares that "
+"are owned by other users are ignored."
+msgstr ""
+
+#. i18n: ectx: label, entry (RemountShares), group (Shares)
+#: smb4k.kcfg:216
+#, fuzzy
+msgid "Remount recently used shares on program start"
+msgstr "启动时挂载最近使用过的共享。"
+
+#. i18n: ectx: whatsthis, entry (RemountShares), group (Shares)
+#: smb4k.kcfg:217
+msgid ""
+"Remount all your shares that were mounted when you exited the program. If a "
+"remount fails, Smb4K will retry the next time it is started. Shares that "
+"were mounted by other users are ignored."
+msgstr ""
+
+#. i18n: ectx: label, entry (RemountAttempts), group (Shares)
+#: smb4k.kcfg:221
+msgid "Number of remount attempts:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (RemountAttempts), group (Shares)
+#: smb4k.kcfg:222
+msgid ""
+"Set the number of attempts that are made to remount shares before Smb4K "
+"gives up."
+msgstr ""
+
+#. i18n: ectx: label, entry (RemountInterval), group (Shares)
+#: smb4k.kcfg:228
+msgid "Interval between remount attempts:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (RemountInterval), group (Shares)
+#: smb4k.kcfg:229
+msgid "Set the time that elapses between attempts to remount shares."
+msgstr ""
+
+#. i18n: ectx: label, entry (UnmountForeignShares), group (Shares)
+#: smb4k.kcfg:235
+#, fuzzy
+msgid "Allow the unmounting of shares that are owned by other users"
+msgstr "允许挂载其它用户的共享。"
+
+#. i18n: ectx: whatsthis, entry (UnmountForeignShares), group (Shares)
+#: smb4k.kcfg:236
+#, fuzzy
+msgid ""
+"Allow the unmounting of shares that were mounted by other users. Please "
+"think before you enable this option."
+msgstr "允许挂载其它用户的共享。"
+
+#. i18n: ectx: label, entry (ForceUnmountInaccessible), group (Shares)
+#: smb4k.kcfg:240
+#, fuzzy
+msgid "Force the unmounting of inaccessible shares"
+msgstr "使用超级用户特权加载或卸载共享。"
+
+#. i18n: ectx: whatsthis, entry (ForceUnmountInaccessible), group (Shares)
+#: smb4k.kcfg:241
+msgid ""
+"Force the unmounting of inaccessible shares (Linux only). In case a share is "
+"inaccessible, a lazy unmount is performed. Before the actual unmount is "
+"performed, a warning dialog is shown asking to approve the unmount."
+msgstr ""
+
+#. i18n: ectx: label, entry (CheckInterval), group (Shares)
+#: smb4k.kcfg:245
+msgid "Interval between checks:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (CheckInterval), group (Shares)
+#: smb4k.kcfg:246
+msgid ""
+"This is the time in milliseconds that elapses until Smb4K checks again for "
+"new mounts and unmounts. The lower limit is 500 ms, the upper one 300000 ms. "
+"Please note that the smaller the interval gets the higher is your system "
+"load."
+msgstr ""
+
+#. i18n: ectx: label, entry (UseWallet), group (Authentication)
+#: smb4k.kcfg:257
+#, fuzzy
+msgid "Save logins in a wallet"
+msgstr "请为 %1键入登录数据."
+
+#. i18n: ectx: whatsthis, entry (UseWallet), group (Authentication)
+#: smb4k.kcfg:258
+msgid ""
+"Use a wallet to store the login. The username and password are stored "
+"encrypted on your hard drive. If this setting is disabled, the login is not "
+"stored permanently but only temporarily."
+msgstr ""
+
+#. i18n: ectx: label, entry (UseDefaultLogin), group (Authentication)
+#: smb4k.kcfg:262
+msgid "Use a default login"
+msgstr "使用缺省身份登录"
+
+#. i18n: ectx: whatsthis, entry (UseDefaultLogin), group (Authentication)
+#: smb4k.kcfg:263
+msgid ""
+"Enable the usage of a default login. The provided data is used by default to "
+"authenticate to a remote server. This is very useful e.g. if you are working "
+"in an Active Directory environment or an NT domain."
+msgstr ""
+
+#. i18n: ectx: label, entry (NetBIOSName), group (Samba)
+#: smb4k.kcfg:272
+msgid "NetBIOS name:"
+msgstr "NetBIOS 名："
+
+#. i18n: ectx: whatsthis, entry (NetBIOSName), group (Samba)
+#: smb4k.kcfg:273
+msgid ""
+"This is the NetBIOS name of this computer that is used by Smb4K. By default, "
+"it is either the NetBIOS name that is defined in the smb.conf file or the "
+"host name."
+msgstr ""
+
+#. i18n: ectx: label, entry (DomainName), group (Samba)
+#: smb4k.kcfg:277
+msgid "Domain:"
+msgstr "域："
+
+#. i18n: ectx: whatsthis, entry (DomainName), group (Samba)
+#: smb4k.kcfg:278
+msgid ""
+"This is the workgroup or domain this computer is or should be in. By "
+"default, it is the workgroup that is defined in the smb.conf file."
+msgstr ""
+
+#. i18n: ectx: label, entry (SocketOptions), group (Samba)
+#: smb4k.kcfg:282
+msgid "Socket options:"
+msgstr "套接字选项："
+
+#. i18n: ectx: whatsthis, entry (SocketOptions), group (Samba)
+#: smb4k.kcfg:283
+msgid ""
+"These are the TCP socket options that are used by nmblookup and smbclient. "
+"Socket options are controls on the networking layer of the operating systems "
+"which allow the connection to be tuned. See the manual page of smb.conf for "
+"more information."
+msgstr ""
+
+#. i18n: ectx: label, entry (NetBIOSScope), group (Samba)
+#: smb4k.kcfg:287
+msgid "NetBIOS scope:"
+msgstr "NetBIOS 范围："
+
+#. i18n: ectx: whatsthis, entry (NetBIOSScope), group (Samba)
+#: smb4k.kcfg:288
+msgid ""
+"This sets the NetBIOS scope that nmblookup and smbclient will operate under. "
+"It should not be set unless every machine on your network neighborhood sets "
+"this value."
+msgstr ""
+
+#. i18n: ectx: label, entry (RemoteSMBPort), group (Samba)
+#: smb4k.kcfg:292
+msgid "SMB port:"
+msgstr "SMB 端口："
+
+#. i18n: ectx: whatsthis, entry (RemoteSMBPort), group (Samba)
+#: smb4k.kcfg:293
+msgid ""
+"This is the port that is used for connecting to remote servers with the "
+"client programs net, smbclient and smbtree. The default value is 139 "
+"(NetBIOS). This setting is not used for mounting."
+msgstr ""
+
+#. i18n: ectx: label, entry (RemoteFileSystemPort), group (Samba)
+#: smb4k.kcfg:299
+msgid "File system port:"
+msgstr "文件系统端口："
+
+#. i18n: ectx: whatsthis, entry (RemoteFileSystemPort), group (Samba)
+#: smb4k.kcfg:300
+msgid ""
+"This is the port that is exclusively used to mount shares from remote "
+"servers. The default value is 445 (CIFS file system)."
+msgstr ""
+
+#. i18n: ectx: label, entry (UseKerberos), group (Samba)
+#: smb4k.kcfg:306
+#, fuzzy
+msgid "Try to authenticate with Kerberos"
+msgstr "试图用 Kerberos 验证身份。"
+
+#. i18n: ectx: whatsthis, entry (UseKerberos), group (Samba)
+#: smb4k.kcfg:307
+msgid ""
+"Try to authenticate with Kerberos. This is only useful in an Active "
+"Directory environment. The setting affects the smbclient and smbtree command."
+msgstr ""
+
+#. i18n: ectx: label, entry (MachineAccount), group (Samba)
+#: smb4k.kcfg:311
+#, fuzzy
+msgid "Authenticate with local machine account"
+msgstr "身份验证"
+
+#. i18n: ectx: whatsthis, entry (MachineAccount), group (Samba)
+#: smb4k.kcfg:312
+msgid ""
+"Make queries to the remote server using the machine account of the local "
+"server. The setting affects the net, smbclient, and smbtree command."
+msgstr ""
+
+#. i18n: ectx: label, entry (UseWinbindCCache), group (Samba)
+#: smb4k.kcfg:316
+#, fuzzy
+msgid "Use Winbind ccache for authentication"
+msgstr "该 master browser 需要认证。"
+
+#. i18n: ectx: whatsthis, entry (UseWinbindCCache), group (Samba)
+#: smb4k.kcfg:317
+msgid ""
+"Use the Winbind ccache for authentication. This setting affects smbclient "
+"and smbtree command."
+msgstr ""
+
+#. i18n: ectx: label, entry (SigningState), group (Samba)
+#: smb4k.kcfg:321
+msgid "Signing state:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (SigningState), group (Samba)
+#: smb4k.kcfg:322
+msgid ""
+"Set the signing state. This setting affects the smbclient and smbtree "
+"command."
+msgstr ""
+
+#. i18n: ectx: label, entry (SigningState), group (Samba)
+#: smb4k.kcfg:325
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: label, entry (SigningState), group (Samba)
+#: smb4k.kcfg:328
+msgid "On"
+msgstr "开"
+
+#. i18n: ectx: label, entry (SigningState), group (Samba)
+#: smb4k.kcfg:331
+msgid "Off"
+msgstr "关"
+
+#. i18n: ectx: label, entry (SigningState), group (Samba)
+#: smb4k.kcfg:334
+msgid "Required"
+msgstr "必需"
+
+#. i18n: ectx: label, entry (EncryptSMBTransport), group (Samba)
+#: smb4k.kcfg:340
+msgid "Encrypt SMB transport"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (EncryptSMBTransport), group (Samba)
+#: smb4k.kcfg:341
+msgid ""
+"Encrypt the SMB transport (Unix extended servers only). This setting affects "
+"the smbclient and smbtree command."
+msgstr ""
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:345
+#, fuzzy
+msgid "Client character set:"
+msgstr "Linux 语言字符集："
+
+#. i18n: ectx: whatsthis, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:346
+msgid ""
+"This is the character set that is used by the client side (i.e. your side) "
+"either to convert local path names to and from Unicode (CIFS, Linux) or for "
+"codepage to charset translations (SMBFS, FreeBSD). If you keep the default "
+"setting, Smb4K will try to automatically determine the charset by looking up "
+"the \"unix charset\" option in the smb.conf."
+msgstr ""
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:349 smb4k.kcfg:425
+msgid "default"
+msgstr "缺省登录"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:352
+msgid "iso8859-1"
+msgstr "iso8859-1"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:355
+msgid "iso8859-2"
+msgstr "iso8859-2"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:358
+msgid "iso8859-3"
+msgstr "iso8859-3"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:361
+msgid "iso8859-4"
+msgstr "iso8859-4"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:364
+msgid "iso8859-5"
+msgstr "iso8859-5"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:367
+msgid "iso8859-6"
+msgstr "iso8859-6"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:370
+msgid "iso8859-7"
+msgstr "iso8859-7"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:373
+msgid "iso8859-8"
+msgstr "iso8859-8"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:376
+msgid "iso8859-9"
+msgstr "iso8859-9"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:379
+msgid "iso8859-13"
+msgstr "iso8859-13"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:382
+msgid "iso8859-14"
+msgstr "iso8859-14"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:385
+msgid "iso8859-15"
+msgstr "iso8859-15"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:388
+msgid "utf8"
+msgstr "utf8"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:391
+msgid "koi8-r"
+msgstr "koi8-r"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:394
+msgid "koi8-u"
+msgstr "koi8-u"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:397
+msgid "koi8-ru"
+msgstr "koi8-ru"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:400 smb4k.kcfg:497
+msgid "cp1251"
+msgstr "cp1251"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:403
+msgid "gb2312"
+msgstr "gb2312"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:406
+msgid "big5"
+msgstr "big5"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:409
+msgid "euc-jp"
+msgstr "euc-jp"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:412
+msgid "euc-kr"
+msgstr "euc-kr"
+
+#. i18n: ectx: label, entry (ClientCharset), group (Samba)
+#: smb4k.kcfg:415
+msgid "tis-620"
+msgstr "tis-620"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:421
+msgid "Server codepage:"
+msgstr "服务器编码："
+
+#. i18n: ectx: whatsthis, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:422
+msgid ""
+"This is the codepage that is used by the server. The setting is only "
+"available with the SMBFS file system. If you keep the default setting, Smb4K "
+"will try to automatically determine the codepage by looking up the \"dos "
+"charset\" option in the smb.conf file."
+msgstr ""
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:428
+msgid "cp437"
+msgstr "cp437"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:431
+msgid "cp720"
+msgstr "cp720"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:434
+msgid "cp737"
+msgstr "cp737"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:437
+msgid "cp775"
+msgstr "cp775"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:440
+msgid "cp850"
+msgstr "cp850"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:443
+msgid "cp852"
+msgstr "cp852"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:446
+msgid "cp855"
+msgstr "cp855"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:449
+msgid "cp857"
+msgstr "cp857"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:452
+msgid "cp858"
+msgstr "cp858"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:455
+msgid "cp860"
+msgstr "cp860"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:458
+msgid "cp861"
+msgstr "cp861"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:461
+msgid "cp862"
+msgstr "cp862"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:464
+msgid "cp863"
+msgstr "cp863"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:467
+msgid "cp864"
+msgstr "cp864"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:470
+msgid "cp865"
+msgstr "cp865"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:473
+msgid "cp866"
+msgstr "cp866"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:476
+msgid "cp869"
+msgstr "cp869"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:479
+msgid "cp874"
+msgstr "cp874"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:482
+msgid "cp932"
+msgstr "cp932"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:485
+msgid "cp936"
+msgstr "cp936"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:488
+msgid "cp949"
+msgstr "cp949"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:491
+msgid "cp950"
+msgstr "cp950"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:494
+msgid "cp1250"
+msgstr "cp1250"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:500
+msgid "cp1252"
+msgstr "cp1252"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:503
+msgid "cp1253"
+msgstr "cp1253"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:506
+msgid "cp1254"
+msgstr "cp1254"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:509
+msgid "cp1255"
+msgstr "cp1255"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:512
+msgid "cp1256"
+msgstr "cp1256"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:515
+msgid "cp1257"
+msgstr "cp1257"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:518
+msgid "cp1258"
+msgstr "cp1258"
+
+#. i18n: ectx: label, entry (ServerCodepage), group (Samba)
+#: smb4k.kcfg:521
+msgid "unicode"
+msgstr "Unicode"
+
+#. i18n: ectx: label, entry (UserID), group (Samba)
+#: smb4k.kcfg:527 smb4kcustomoptionsmanager_p.cpp:436
+msgid "User ID:"
+msgstr "用户 ID："
+
+#. i18n: ectx: whatsthis, entry (UserID), group (Samba)
+#: smb4k.kcfg:528
+msgid ""
+"This is the user ID (a number) that the files and directories of the mounted "
+"share will have. If you are using the CIFS file system and the remote server "
+"supports the CIFS Unix Extensions, this setting will be ignored."
+msgstr ""
+
+#. i18n: ectx: label, entry (GroupID), group (Samba)
+#: smb4k.kcfg:532 smb4kcustomoptionsmanager_p.cpp:459
+msgid "Group ID:"
+msgstr "组 ID："
+
+#. i18n: ectx: whatsthis, entry (GroupID), group (Samba)
+#: smb4k.kcfg:533
+msgid ""
+"This is the group ID (a number) that the files and directories of the "
+"mounted share will have. If you are using the CIFS file system and the "
+"remote server supports the CIFS Unix Extensions, this setting will be "
+"ignored."
+msgstr ""
+
+#. i18n: ectx: label, entry (FileMask), group (Samba)
+#: smb4k.kcfg:537
+msgid "File mask:"
+msgstr "文件掩码："
+
+#. i18n: ectx: whatsthis, entry (FileMask), group (Samba)
+#: smb4k.kcfg:538
+msgid ""
+"This is the mask that will be used for creating files. It must be defined in "
+"octal. In case the CIFS file system is used, this setting only takes effect "
+"if the server does not support the CIFS Unix Extensions."
+msgstr ""
+
+#. i18n: ectx: label, entry (DirectoryMask), group (Samba)
+#: smb4k.kcfg:542
+msgid "Directory mask:"
+msgstr "目录掩码："
+
+#. i18n: ectx: whatsthis, entry (DirectoryMask), group (Samba)
+#: smb4k.kcfg:543
+msgid ""
+"This is the mask that will be used for creating directories. It must be "
+"defined in octal. In case the CIFS file system is used, this setting only "
+"takes effect if the server does not support the CIFS Unix Extensions."
+msgstr ""
+
+#. i18n: ectx: label, entry (WriteAccess), group (Samba)
+#: smb4k.kcfg:547
+msgid "Write access:"
+msgstr "写入访问："
+
+#. i18n: ectx: whatsthis, entry (WriteAccess), group (Samba)
+#: smb4k.kcfg:548
+msgid ""
+"Here you can choose if the shares should be mounted in read-write or read-"
+"only mode."
+msgstr ""
+
+#. i18n: ectx: label, entry (WriteAccess), group (Samba)
+#: smb4k.kcfg:551
+msgid "read-write"
+msgstr "读-写"
+
+#. i18n: ectx: label, entry (WriteAccess), group (Samba)
+#: smb4k.kcfg:554
+msgid "read-only"
+msgstr "只读"
+
+#. i18n: ectx: label, entry (PermissionChecks), group (Samba)
+#: smb4k.kcfg:560
+#, fuzzy
+msgid "Do permission checks"
+msgstr "许可证"
+
+#. i18n: ectx: whatsthis, entry (PermissionChecks), group (Samba)
+#: smb4k.kcfg:561
+msgid ""
+"The client side (i.e. your side) will check if you have the right UID/GID to "
+"manipulate a file or directory. You might want to switch this feature off if "
+"the server(s) support the CIFS Unix Extensions and you are not allowed to "
+"access the files and directories. This setting does not affect the normal "
+"ACL check."
+msgstr ""
+
+#. i18n: ectx: label, entry (ClientControlsIDs), group (Samba)
+#: smb4k.kcfg:565
+msgid "Attempt to set UID and GID"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (ClientControlsIDs), group (Samba)
+#: smb4k.kcfg:566
+msgid ""
+"In case the server supports the CIFS Unix Extensions, the client side (i.e. "
+"your side) attempts to set the effective UID and GID of the current process "
+"on newly created files, directories and devices. If this feature is turned "
+"off, the default UID and GID defined for the share will be used. It is "
+"recommended that you read the manual page of mount.cifs before you change "
+"this setting."
+msgstr ""
+
+#. i18n: ectx: label, entry (ServerInodeNumbers), group (Samba)
+#: smb4k.kcfg:570
+msgid "Use server inode numbers"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (ServerInodeNumbers), group (Samba)
+#: smb4k.kcfg:571
+msgid ""
+"Use inode numbers (unique persistent file identifiers) returned by the "
+"server instead of automatically generating temporary inode numbers on the "
+"client side."
+msgstr ""
+
+#. i18n: ectx: label, entry (NoInodeDataCaching), group (Samba)
+#: smb4k.kcfg:575
+msgid "Do not cache inode data"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (NoInodeDataCaching), group (Samba)
+#: smb4k.kcfg:576
+msgid ""
+"Directly read from and write to files opened on the share. In some cases "
+"this can provide better performance than the default behavior which caches "
+"reads and writes."
+msgstr ""
+
+#. i18n: ectx: label, entry (TranslateReservedChars), group (Samba)
+#: smb4k.kcfg:580
+msgid "Translate reserved characters"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (TranslateReservedChars), group (Samba)
+#: smb4k.kcfg:581
+msgid ""
+"Translate six of the seven reserved characters (including the colon, "
+"question mark, pipe, asterisk, greater than and less than characters but not "
+"the backslash) to remap range (above 0xF000). This allows you to open files "
+"that were created with such characters. This has no effect if the server "
+"does not support Unicode."
+msgstr ""
+
+#. i18n: ectx: label, entry (NoLocking), group (Samba)
+#: smb4k.kcfg:585
+msgid "Do not use locking"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (NoLocking), group (Samba)
+#: smb4k.kcfg:586
+msgid "Do not use locking. Do not start lockd."
+msgstr ""
+
+#. i18n: ectx: label, entry (CustomCIFSOptions), group (Samba)
+#: smb4k.kcfg:590
+msgid "Additional options:"
+msgstr "其它选项："
+
+#. i18n: ectx: whatsthis, entry (CustomCIFSOptions), group (Samba)
+#: smb4k.kcfg:591
+msgid ""
+"Here you can enter advanced options for the CIFS file system in a comma-"
+"separated list (refer to the manual page of mount.cifs to learn more). The "
+"list will be added AS IS to the \"-o\" argument of mount.cifs. Please do not "
+"enter options that have already been defined in the configuration dialog."
+msgstr ""
+
+#. i18n: ectx: label, entry (ProtocolHint), group (Samba)
+#: smb4k.kcfg:595
+#, fuzzy
+#| msgid "Protocol"
+msgid "Protocol hint:"
+msgstr "协议"
+
+#. i18n: ectx: whatsthis, entry (ProtocolHint), group (Samba)
+#: smb4k.kcfg:596
+msgid ""
+"Here you can choose the protocol that will be used by the net command for "
+"the communication with remote servers if appropriate. In most cases the "
+"automatic detection will work fine and you should not need to change the "
+"default setting. However, if you experience problems, use the RPC protocol "
+"for newer operating systems (Windows NT4 and above) and the RAP protocol for "
+"older ones (Windows 98/NT3 and below). Functions that need the ADS protocol "
+"(for Active Directory environments) have not been implemented yet, so you "
+"can ignore that one for now."
+msgstr ""
+
+#. i18n: ectx: label, entry (ProtocolHint), group (Samba)
+#: smb4k.kcfg:599
+msgid "Automatic detection"
+msgstr "自动检测"
+
+#. i18n: ectx: label, entry (ProtocolHint), group (Samba)
+#: smb4k.kcfg:602
+#, fuzzy
+msgid "RPC: Modern operating systems"
+msgstr "文件系统"
+
+#. i18n: ectx: label, entry (ProtocolHint), group (Samba)
+#: smb4k.kcfg:605
+#, fuzzy
+msgid "RAP: Older operating systems"
+msgstr "文件系统"
+
+#. i18n: ectx: label, entry (ProtocolHint), group (Samba)
+#: smb4k.kcfg:608
+#, fuzzy
+msgid "ADS: Active Directory environment (LDAP/Kerberos)"
+msgstr "活动目录"
+
+#. i18n: ectx: label, entry (NameResolveOrder), group (Samba)
+#: smb4k.kcfg:614
+msgid "Name resolve order:"
+msgstr "名称解析顺序："
+
+#. i18n: ectx: whatsthis, entry (NameResolveOrder), group (Samba)
+#: smb4k.kcfg:615
+msgid ""
+"This option is used to determine what naming services and in what order are "
+"used to resolve host names and IP addresses. It takes a space-separated list "
+"of up to four different name resolution options. Those are: lmhost, host, "
+"wins, bcast. See the manual page of smbclient for further information."
+msgstr ""
+
+#. i18n: ectx: label, entry (BufferSize), group (Samba)
+#: smb4k.kcfg:619
+msgid "Buffer size:"
+msgstr "缓存大小："
+
+#. i18n: ectx: whatsthis, entry (BufferSize), group (Samba)
+#: smb4k.kcfg:620
+msgid ""
+"This option changes the transmit/send buffer size when getting or putting a "
+"file from/to the server. The default is 65520 bytes. Setting this value "
+"smaller has been observed to speed up file transfers to and from Windows 9x "
+"servers."
+msgstr ""
+
+#. i18n: ectx: label, entry (BroadcastAddress), group (Samba)
+#: smb4k.kcfg:626
+msgid "Broadcast address:"
+msgstr "广播地址："
+
+#. i18n: ectx: whatsthis, entry (BroadcastAddress), group (Samba)
+#: smb4k.kcfg:627
+msgid ""
+"Queries performed with nmblookup will be send to the given broadcast "
+"address. Without this option the default behavior is to send the queries to "
+"the broadcast address of the network interface that was either auto-detected "
+"or defined in the \"interfaces\" parameter of the smb.conf file."
+msgstr ""
+
+#. i18n: ectx: label, entry (UsePort137), group (Samba)
+#: smb4k.kcfg:631
+msgid "Try and bind to UDP port 137 to send and receive UDP datagrams"
+msgstr "尝试绑定 UDP 端口 137 进行 UDP 报文的发送和接收作业"
+
+#. i18n: ectx: whatsthis, entry (UsePort137), group (Samba)
+#: smb4k.kcfg:632
+msgid ""
+"Try and bind to UDP port 137 to send and receive UDP datagrams. The reason "
+"for this option is a bug in Windows 95 where it ignores the source port of "
+"the requesting packet and only replies to UDP port 137. Unfortunately, on "
+"most Unix systems super user privileges are needed to bind to this port. "
+"Please read the manual page of nmblookup for more information."
+msgstr ""
+
+#. i18n: ectx: label, entry (SmbtreeSendBroadcasts), group (Samba)
+#: smb4k.kcfg:636
+msgid "Send requests as broadcasts"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (SmbtreeSendBroadcasts), group (Samba)
+#: smb4k.kcfg:637
+msgid ""
+"Let smbtree query the network nodes by sending requests as broadcasts "
+"instead of querying the local master browser."
+msgstr ""
+
+#. i18n: ectx: label, entry (SecurityMode), group (Samba)
+#: smb4k.kcfg:641
+msgid "Security mode:"
+msgstr "安全模式："
+
+#. i18n: ectx: whatsthis, entry (SecurityMode), group (Samba)
+#: smb4k.kcfg:642
+msgid ""
+"Security mode for mount.cifs. To be able to use this mode, the CIFS kernel "
+"module 1.40 or later is required."
+msgstr ""
+
+#. i18n: ectx: label, entry (SecurityMode), group (Samba)
+#: smb4k.kcfg:645
+msgid "Connect as a null user (no name)"
+msgstr ""
+
+#. i18n: ectx: label, entry (SecurityMode), group (Samba)
+#: smb4k.kcfg:648
+#, fuzzy
+msgid "Kerberos 5 authentication"
+msgstr "该 master browser 需要认证。"
+
+#. i18n: ectx: label, entry (SecurityMode), group (Samba)
+#: smb4k.kcfg:651
+#, fuzzy
+msgid "Kerberos 5 authentication and packet signing"
+msgstr "该 master browser 需要认证。"
+
+#. i18n: ectx: label, entry (SecurityMode), group (Samba)
+#: smb4k.kcfg:654
+#, fuzzy
+#| msgid "Protocol"
+msgid "NTLM protocol"
+msgstr "协议"
+
+#. i18n: ectx: label, entry (SecurityMode), group (Samba)
+#: smb4k.kcfg:657
+#, fuzzy
+msgid "NTLM protocol and packet signing"
+msgstr "该 master browser 需要认证。"
+
+#. i18n: ectx: label, entry (SecurityMode), group (Samba)
+#: smb4k.kcfg:660
+#, fuzzy
+#| msgid "Protocol"
+msgid "NTLMv2 protocol"
+msgstr "协议"
+
+#. i18n: ectx: label, entry (SecurityMode), group (Samba)
+#: smb4k.kcfg:663
+#, fuzzy
+msgid "NTLMv2 protocol and packet signing"
+msgstr "该 master browser 需要认证。"
+
+#. i18n: ectx: label, entry (SecurityMode), group (Samba)
+#: smb4k.kcfg:666
+#, fuzzy
+#| msgid "Protocol"
+msgid "NTLMSSP protocol"
+msgstr "协议"
+
+#. i18n: ectx: label, entry (SecurityMode), group (Samba)
+#: smb4k.kcfg:669
+#, fuzzy
+msgid "NTLMSSP protocol and packet signing"
+msgstr "该 master browser 需要认证。"
+
+#. i18n: ectx: label, entry (RsyncPrefix), group (Synchronization)
+#: smb4k.kcfg:683
+#, fuzzy
+msgid "Synchronization prefix:"
+msgstr "法语翻译"
+
+#. i18n: ectx: whatsthis, entry (RsyncPrefix), group (Synchronization)
+#: smb4k.kcfg:684
+msgid ""
+"Under this prefix the destination directory for the synchronization will be "
+"created. However, if you want to store the data of a particular share "
+"elsewhere, you will be able to choose a different path before the actual "
+"synchronization begins."
+msgstr ""
+
+#. i18n: ectx: label, entry (ArchiveMode), group (Synchronization)
+#: smb4k.kcfg:688
+msgid "Archive mode"
+msgstr "存档模式"
+
+#. i18n: ectx: whatsthis, entry (ArchiveMode), group (Synchronization)
+#: smb4k.kcfg:689
+msgid "Use archive mode (-a, --archive). This is a short form of -rlptgoD."
+msgstr ""
+
+#. i18n: ectx: label, entry (RecurseIntoDirectories), group (Synchronization)
+#: smb4k.kcfg:693
+msgid "Recurse into subdirectories"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (RecurseIntoDirectories), group (Synchronization)
+#: smb4k.kcfg:694
+msgid "Recurse into directories (-r, --recursive)."
+msgstr ""
+
+#. i18n: ectx: label, entry (UpdateTarget), group (Synchronization)
+#: smb4k.kcfg:698
+msgid "Update files"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UpdateTarget), group (Synchronization)
+#: smb4k.kcfg:699
+msgid ""
+"Update files in the destination directory that are older than in the source "
+"directory (-u, --update)."
+msgstr ""
+
+#. i18n: ectx: label, entry (UpdateInPlace), group (Synchronization)
+#: smb4k.kcfg:703
+msgid "Update files in place"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UpdateInPlace), group (Synchronization)
+#: smb4k.kcfg:704
+msgid ""
+"Update destination files in-place (--inplace). By default, rsync first "
+"creates a new copy of a file and moves it into place after its transfer "
+"finished. If you enable this feature, no copy will be created but the "
+"destination file will immediately be overwritten instead. An exception to "
+"this is if you combine this option with --backup."
+msgstr ""
+
+#. i18n: ectx: label, entry (RelativePathNames), group (Synchronization)
+#: smb4k.kcfg:708
+msgid "Use relative path names"
+msgstr "使用相对路径名"
+
+#. i18n: ectx: whatsthis, entry (RelativePathNames), group (Synchronization)
+#: smb4k.kcfg:709
+msgid ""
+"Use relative paths (-R, --relative). This means that the full path names "
+"specified on the command line are sent to the server rather than just the "
+"last parts of the file names."
+msgstr ""
+
+#. i18n: ectx: label, entry (NoImpliedDirectories), group (Synchronization)
+#: smb4k.kcfg:713
+msgid "Do not send implied directories"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (NoImpliedDirectories), group (Synchronization)
+#: smb4k.kcfg:714
+msgid ""
+"Do not send implied directories with --relative (--no-implied-dirs). This "
+"means that the corresponding path elements on the destination system are "
+"left unchanged if they exist, and any missing implied directories are "
+"created with default attributes. This even allows these implied path "
+"elements to have big differences, such as being a symlink to a directory on "
+"one side of the transfer, and a real directory on the other side."
+msgstr ""
+
+#. i18n: ectx: label, entry (TransferDirectories), group (Synchronization)
+#: smb4k.kcfg:718
+msgid "Transfer directories without recursing"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (TransferDirectories), group (Synchronization)
+#: smb4k.kcfg:719
+msgid ""
+"Transfer directories without recursing (-d, --dirs). This means that all top-"
+"level subdirectories are transferred but without their contents."
+msgstr ""
+
+#. i18n: ectx: label, entry (CompressData), group (Synchronization)
+#: smb4k.kcfg:724
+#, fuzzy
+#| msgid "Delete files during transfer"
+msgid "Compress data during transfer"
+msgstr "传输时删除文件"
+
+#. i18n: ectx: whatsthis, entry (CompressData), group (Synchronization)
+#: smb4k.kcfg:725
+msgid ""
+"Compress data during transfer (-z, --compress). This significantly reduces "
+"the amount of data that is being transferred. You may want to use this "
+"option, if you have a slow connection."
+msgstr ""
+
+#. i18n: ectx: label, entry (PreserveSymlinks), group (Synchronization)
+#: smb4k.kcfg:729
+#, fuzzy
+msgid "Preserve symlinks"
+msgstr "许可证"
+
+#. i18n: ectx: whatsthis, entry (PreserveSymlinks), group (Synchronization)
+#: smb4k.kcfg:730
+msgid "Copy symlinks as symlinks (-l, --links)."
+msgstr ""
+
+#. i18n: ectx: label, entry (TransformSymlinks), group (Synchronization)
+#: smb4k.kcfg:734
+#, fuzzy
+msgid "Transform symlinks"
+msgstr "许可证"
+
+#. i18n: ectx: whatsthis, entry (TransformSymlinks), group (Synchronization)
+#: smb4k.kcfg:735
+msgid ""
+"Transform symlinks into the items they are pointing to (-L, --copy-links)."
+msgstr ""
+
+#. i18n: ectx: label, entry (TransformUnsafeSymlinks), group (Synchronization)
+#: smb4k.kcfg:739
+#, fuzzy
+msgid "Only transform unsafe symlinks"
+msgstr "许可证"
+
+#. i18n: ectx: whatsthis, entry (TransformUnsafeSymlinks), group (Synchronization)
+#: smb4k.kcfg:740
+msgid ""
+"Transform unsafe symlinks into the items they are pointing to (--copy-unsafe-"
+"links). This means that only those symlinks are transformed that point to "
+"items that are outside the copied tree. Absolute symlinks are treated the "
+"same way. This option has no additional effect if --copy-links has also been "
+"specified."
+msgstr ""
+
+#. i18n: ectx: label, entry (IgnoreUnsafeSymlinks), group (Synchronization)
+#: smb4k.kcfg:744
+#, fuzzy
+msgid "Ignore unsafe symlinks"
+msgstr "许可证"
+
+#. i18n: ectx: whatsthis, entry (IgnoreUnsafeSymlinks), group (Synchronization)
+#: smb4k.kcfg:745
+msgid ""
+"Ignore symlinks that point outside the copied tree (--safe-links). All "
+"absolute symlinks are also ignored. If you use this option in conjunction "
+"with --relative you might get unexpected results."
+msgstr ""
+
+#. i18n: ectx: label, entry (PreserveHardLinks), group (Synchronization)
+#: smb4k.kcfg:749
+#, fuzzy
+msgid "Preserve hard links"
+msgstr "许可证"
+
+#. i18n: ectx: whatsthis, entry (PreserveHardLinks), group (Synchronization)
+#: smb4k.kcfg:750
+msgid ""
+"Preserve hard links (-H, --hard-links). This options causes rsync to "
+"preserve the hard links that are found during the transfer. Without it, hard "
+"links are treated as though they were separate files."
+msgstr ""
+
+#. i18n: ectx: label, entry (KeepDirectorySymlinks), group (Synchronization)
+#: smb4k.kcfg:754
+#, fuzzy
+msgid "Keep directory symlinks"
+msgstr "许可证"
+
+#. i18n: ectx: whatsthis, entry (KeepDirectorySymlinks), group (Synchronization)
+#: smb4k.kcfg:755
+msgid ""
+"Treat symlinked directories on the receiving side as though they were real "
+"ones (-K, --keep-dirlinks). This only works if the symlink matches a real "
+"directory from the sending side. Without this option, the receiver's symlink "
+"will be deleted and replaced with a real directory."
+msgstr ""
+
+#. i18n: ectx: label, entry (PreservePermissions), group (Synchronization)
+#: smb4k.kcfg:759
+#, fuzzy
+msgid "Preserve permissions"
+msgstr "许可证"
+
+#. i18n: ectx: whatsthis, entry (PreservePermissions), group (Synchronization)
+#: smb4k.kcfg:760
+msgid ""
+"Preserve permissions (-p, --perms). The permissions of the destination file "
+"will be same as the source file. For what happens if this option is switched "
+"off, please read rsync's manual page."
+msgstr ""
+
+#. i18n: ectx: label, entry (PreserveGroup), group (Synchronization)
+#: smb4k.kcfg:764
+#, fuzzy
+msgid "Preserve group"
+msgstr "许可证"
+
+#. i18n: ectx: whatsthis, entry (PreserveGroup), group (Synchronization)
+#: smb4k.kcfg:765
+msgid ""
+"Preserve the group (-g, --group). The group of the destination file will be "
+"set to the same value as the source file."
+msgstr ""
+
+#. i18n: ectx: label, entry (PreserveOwner), group (Synchronization)
+#: smb4k.kcfg:769
+#, fuzzy
+msgid "Preserve owner"
+msgstr "许可证"
+
+#. i18n: ectx: whatsthis, entry (PreserveOwner), group (Synchronization)
+#: smb4k.kcfg:770
+msgid ""
+"Preserve the owner (-o, --owner). The owner of the destination file will be "
+"set to the same value as the source file, but only if the receiving rsync is "
+"run as the super user. Without this option, the owner is set to the invoking "
+"user on the receiving side."
+msgstr ""
+
+#. i18n: ectx: label, entry (PreserveDevicesAndSpecials), group (Synchronization)
+#: smb4k.kcfg:774
+#, fuzzy
+msgid "Preserve device and special files"
+msgstr "许可证"
+
+#. i18n: ectx: whatsthis, entry (PreserveDevicesAndSpecials), group (Synchronization)
+#: smb4k.kcfg:775
+msgid ""
+"Preserve device and special files (-D, --devices --specials). This option "
+"causes rsync to transfer character and block devices as well as special "
+"files such as named sockets and fifos. It works only partially if rsync is "
+"not run as super user and the --super option is not specified."
+msgstr ""
+
+#. i18n: ectx: label, entry (PreserveTimes), group (Synchronization)
+#: smb4k.kcfg:779
+#, fuzzy
+msgid "Preserve times"
+msgstr "许可证"
+
+#. i18n: ectx: whatsthis, entry (PreserveTimes), group (Synchronization)
+#: smb4k.kcfg:780
+msgid ""
+"Preserve times (-t, --times). The modification times are transferred along "
+"with the files. For what happens if this option is switched off, please read "
+"rsync's manual page."
+msgstr ""
+
+#. i18n: ectx: label, entry (OmitDirectoryTimes), group (Synchronization)
+#: smb4k.kcfg:784
+msgid "Omit directories when preserving times"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (OmitDirectoryTimes), group (Synchronization)
+#: smb4k.kcfg:785
+msgid ""
+"Omit directories when preserving times (-O, --omit-dir-times). This means "
+"that directories are omitted when modification times are being preserved. "
+"Thus, this feature only works in conjunction with --times."
+msgstr ""
+
+#. i18n: ectx: label, entry (RemoveSourceFiles), group (Synchronization)
+#: smb4k.kcfg:789
+msgid "Remove synchronized source files"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (RemoveSourceFiles), group (Synchronization)
+#: smb4k.kcfg:790
+msgid ""
+"Remove all synchronized source files (--remove-source-files). This tells "
+"rsync to remove from the sending side the non-directory items that are a "
+"part of the transfer and have been successfully duplicated on the receiving "
+"side."
+msgstr ""
+
+#. i18n: ectx: label, entry (DeleteExtraneous), group (Synchronization)
+#: smb4k.kcfg:794
+#, fuzzy
+#| msgid "Delete files after transfer"
+msgid "Delete extraneous files"
+msgstr "传输后删除文件"
+
+#. i18n: ectx: whatsthis, entry (DeleteExtraneous), group (Synchronization)
+#: smb4k.kcfg:795
+msgid ""
+"Delete extraneous files from destination (--delete). This tells rsync to "
+"delete all files from the receiving side that are not present on the sending "
+"side, but only for the directories that are being synchronized."
+msgstr ""
+
+#. i18n: ectx: label, entry (DeleteBefore), group (Synchronization)
+#: smb4k.kcfg:799
+msgid "Delete files before transfer"
+msgstr "传输前删除文件"
+
+#. i18n: ectx: whatsthis, entry (DeleteBefore), group (Synchronization)
+#: smb4k.kcfg:800
+msgid ""
+"Delete files on the receiving side before the transfer starts (--delete-"
+"before). This is the default behavior if --delete or --delete-excluded is "
+"specified without one of the --delete-WHEN options."
+msgstr ""
+
+#. i18n: ectx: label, entry (DeleteAfter), group (Synchronization)
+#: smb4k.kcfg:804
+msgid "Delete files after transfer"
+msgstr "传输后删除文件"
+
+#. i18n: ectx: whatsthis, entry (DeleteAfter), group (Synchronization)
+#: smb4k.kcfg:805
+msgid ""
+"Delete files on the receiving side after the transfer has completed (--"
+"delete-after, --del)."
+msgstr ""
+
+#. i18n: ectx: label, entry (DeleteDuring), group (Synchronization)
+#: smb4k.kcfg:809
+msgid "Delete files during transfer"
+msgstr "传输时删除文件"
+
+#. i18n: ectx: whatsthis, entry (DeleteDuring), group (Synchronization)
+#: smb4k.kcfg:810
+msgid ""
+"Delete files on the receiving side during the transfer (--delete-during). "
+"This method is faster than --delete-before or --delete-after, but it is only "
+"supported with rsync 2.6.4 or later."
+msgstr ""
+
+#. i18n: ectx: label, entry (DeleteExcluded), group (Synchronization)
+#: smb4k.kcfg:814
+#, fuzzy
+#| msgid "Delete files after transfer"
+msgid "Also delete excluded files"
+msgstr "传输后删除文件"
+
+#. i18n: ectx: whatsthis, entry (DeleteExcluded), group (Synchronization)
+#: smb4k.kcfg:815
+msgid ""
+"Also delete excluded files from destination directory (--delete-excluded). "
+"In addition to deleting the files on the receiving side that are not on the "
+"sending side, this tells rsync to also delete any files on the receiving "
+"side that are excluded. Refer to rsync's manual page for further information."
+msgstr ""
+
+#. i18n: ectx: label, entry (IgnoreErrors), group (Synchronization)
+#: smb4k.kcfg:819
+msgid "Delete even if I/O errors occur"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (IgnoreErrors), group (Synchronization)
+#: smb4k.kcfg:820
+msgid ""
+"Delete even if I/O errors occur (--ignore-errors). This option has to be "
+"specified in conjunction with --delete to take effect."
+msgstr ""
+
+#. i18n: ectx: label, entry (ForceDirectoryDeletion), group (Synchronization)
+#: smb4k.kcfg:824
+msgid "Force deletion of non-void directories"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (ForceDirectoryDeletion), group (Synchronization)
+#: smb4k.kcfg:825
+msgid ""
+"Force deletion of directories even if they are not empty (--force). This "
+"option tells rsync to delete a non-empty directory when it is to be replaced "
+"by a non-directory. This is only relevant if deletions are not active."
+msgstr ""
+
+#. i18n: ectx: label, entry (UseMaximumDelete), group (Synchronization)
+#: smb4k.kcfg:829
+msgid "Do not delete more than this many files:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UseMaximumDelete), group (Synchronization)
+#: smb4k.kcfg:830
+msgid ""
+"Only delete as many files as defined here (--max-delete=NUM). This tells "
+"rsync not to delete more than NUM files or directories (NUM must be non-"
+"zero). This is useful when mirroring very large trees to prevent disasters."
+msgstr ""
+
+#. i18n: ectx: label, entry (MaximumDeleteValue), group (Synchronization)
+#: smb4k.kcfg:834
+msgid "Value for DeleteMaximum config entry"
+msgstr ""
+
+#. i18n: ectx: label, entry (UseMinimalTransferSize), group (Synchronization)
+#: smb4k.kcfg:840
+msgid "Do not transfer any file smaller than:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UseMinimalTransferSize), group (Synchronization)
+#: smb4k.kcfg:841
+msgid ""
+"This option causes rsync to not transfer any file that is smaller than the "
+"specified size (--min-size=SIZE)."
+msgstr ""
+
+#. i18n: ectx: label, entry (MinimalTransferSize), group (Synchronization)
+#: smb4k.kcfg:845
+msgid "Value for MinimalTransferSize config entry"
+msgstr ""
+
+#. i18n: ectx: label, entry (UseMaximalTransferSize), group (Synchronization)
+#: smb4k.kcfg:851
+msgid "Do not transfer any file larger than:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UseMaximalTransferSize), group (Synchronization)
+#: smb4k.kcfg:852
+msgid ""
+"This option causes rsync to not transfer any file that is larger than the "
+"specified size (--max-size=SIZE)."
+msgstr ""
+
+#. i18n: ectx: label, entry (MaximalTransferSize), group (Synchronization)
+#: smb4k.kcfg:856
+msgid "Value for MaximalTransferSize config entry"
+msgstr ""
+
+#. i18n: ectx: label, entry (KeepPartial), group (Synchronization)
+#: smb4k.kcfg:862
+msgid "Keep partially transferred files"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (KeepPartial), group (Synchronization)
+#: smb4k.kcfg:863
+msgid ""
+"Keep partially transferred files (--partial). The default behavior is that "
+"any partially transferred file is deleted if the transfer is interrupted."
+msgstr ""
+
+#. i18n: ectx: label, entry (UsePartialDirectory), group (Synchronization)
+#: smb4k.kcfg:867
+msgid "Put partially transferred files into:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UsePartialDirectory), group (Synchronization)
+#: smb4k.kcfg:868
+msgid ""
+"Put a partially transferred file into this directory (--partial-dir=DIR). "
+"This is a better way than the --partial option to keep partial files, "
+"because the partially transferred file is kept in a different directory and "
+"the destination file is not overwritten."
+msgstr ""
+
+#. i18n: ectx: label, entry (PartialDirectory), group (Synchronization)
+#: smb4k.kcfg:872
+msgid "The data for the UsePartialDirectory option"
+msgstr ""
+
+#. i18n: ectx: label, entry (UseCVSExclude), group (Synchronization)
+#: smb4k.kcfg:877
+msgid "Auto-ignore files in the same way CVS does"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UseCVSExclude), group (Synchronization)
+#: smb4k.kcfg:878
+msgid ""
+"Auto-ignore files in the same way CVS does (-C, --cvs-exclude). This is a "
+"useful shorthand for excluding a broad range of files that you often do not "
+"want to transfer between systems. This option uses the same algorithm that "
+"CVS uses to determine if a file should be ignored."
+msgstr ""
+
+#. i18n: ectx: label, entry (UseExcludePattern), group (Synchronization)
+#: smb4k.kcfg:882
+msgid "Exclude files matching this pattern:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UseExcludePattern), group (Synchronization)
+#: smb4k.kcfg:883
+msgid ""
+"Exclude files that match a certain pattern (--exclude=PATTERN). This is a "
+"special filter rule. For further information on filter rules see rsync's "
+"manual page."
+msgstr ""
+
+#. i18n: ectx: label, entry (ExcludePattern), group (Synchronization)
+#: smb4k.kcfg:887
+msgid "Pattern that is used for file exclusion"
+msgstr ""
+
+#. i18n: ectx: label, entry (UseExcludeFrom), group (Synchronization)
+#: smb4k.kcfg:892
+msgid "Read exclude patterns from:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UseExcludeFrom), group (Synchronization)
+#: smb4k.kcfg:893
+msgid ""
+"Read exclude patterns from a file (--exclude-from=FILE). This option is "
+"similar to the --exclude=PATTERN option except that the exclude patterns are "
+"read from a file. This is a special filter rule. For further information on "
+"filter rules see rsync's manual page."
+msgstr ""
+
+#. i18n: ectx: label, entry (ExcludeFrom), group (Synchronization)
+#: smb4k.kcfg:897
+msgid "The file from which the exclude patterns are read"
+msgstr ""
+
+#. i18n: ectx: label, entry (UseIncludePattern), group (Synchronization)
+#: smb4k.kcfg:902
+msgid "Do not exclude files matching this pattern:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UseIncludePattern), group (Synchronization)
+#: smb4k.kcfg:903
+msgid ""
+"Do not exclude files matching a certain pattern (--include=PATTERN). This is "
+"a special filter rule. For further information on filter rules see rsync's "
+"manual page."
+msgstr ""
+
+#. i18n: ectx: label, entry (IncludePattern), group (Synchronization)
+#: smb4k.kcfg:907
+msgid "Pattern that is used for file inclusion"
+msgstr ""
+
+#. i18n: ectx: label, entry (UseIncludeFrom), group (Synchronization)
+#: smb4k.kcfg:912
+msgid "Read include patterns from:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UseIncludeFrom), group (Synchronization)
+#: smb4k.kcfg:913
+msgid ""
+"Read include patterns from a file (--include-from=FILE). This option is "
+"similar to the --include=PATTERN option except that the include patterns are "
+"read from a file. This is a special filter rule. For further information on "
+"filter rules see rsync's manual page."
+msgstr ""
+
+#. i18n: ectx: label, entry (IncludeFrom), group (Synchronization)
+#: smb4k.kcfg:917
+msgid "The file from which the include patterns are read"
+msgstr ""
+
+#. i18n: ectx: label, entry (CustomFilteringRules), group (Synchronization)
+#: smb4k.kcfg:922
+#, fuzzy
+#| msgid "Filter Rules"
+msgid "Custom filter rules:"
+msgstr "过滤规则"
+
+#. i18n: ectx: whatsthis, entry (CustomFilteringRules), group (Synchronization)
+#: smb4k.kcfg:923
+msgid ""
+"Add custom file-filtering rules (-f, --filter=RULE). This option allows you "
+"to add rules to selectively exclude certain files from the list of files to "
+"be transferred. These rules will be added to the rsync command as they are. "
+"Thus, each rule has to start with the --filter=... argument."
+msgstr ""
+
+#. i18n: ectx: label, entry (UseFFilterRule), group (Synchronization)
+#: smb4k.kcfg:927
+msgid "Use --filter='dir-merge /.rsync-filter' filter rule"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UseFFilterRule), group (Synchronization)
+#: smb4k.kcfg:928
+msgid ""
+"This filter rule tells rsync to look for per-directory .rsync-filter files "
+"that have been sprinkled through the hierarchy and use their rules to filter "
+"the files in the transfer. It has no effect, if you also choose to use the --"
+"filter='exclude .rsync-filter' rule."
+msgstr ""
+
+#. i18n: ectx: label, entry (UseFFFilterRule), group (Synchronization)
+#: smb4k.kcfg:932
+msgid "Use --filter='exclude .rsync-filter' filter rule"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UseFFFilterRule), group (Synchronization)
+#: smb4k.kcfg:933
+msgid ""
+"This rule filters out the .rsync-filter files from the transfer. These files "
+"normally contain filter rules that can be activated by choosing the --"
+"filter='dir-merge /.rsync-filter' rule and deselecting this one."
+msgstr ""
+
+#. i18n: ectx: label, entry (EfficientSparseFileHandling), group (Synchronization)
+#: smb4k.kcfg:937
+msgid "Handle sparse files efficiently"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (EfficientSparseFileHandling), group (Synchronization)
+#: smb4k.kcfg:938
+msgid ""
+"Handle sparse files efficiently (-S, --sparse) so that they take up less "
+"space on the destination. This option conflicts with --inplace. For further "
+"information read rsync's manual page."
+msgstr ""
+
+#. i18n: ectx: label, entry (CopyFilesWhole), group (Synchronization)
+#: smb4k.kcfg:942
+msgid "Copy files whole (no rsync algorithm)"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (CopyFilesWhole), group (Synchronization)
+#: smb4k.kcfg:943
+msgid ""
+"Copy files whole (-W, --whole-file). With this option the incremental rsync "
+"algorithm is not used and the whole file is sent as-is instead."
+msgstr ""
+
+#. i18n: ectx: label, entry (OneFileSystem), group (Synchronization)
+#: smb4k.kcfg:947
+msgid "Do not cross file system boundaries"
+msgstr "不跨越文件系统边界"
+
+#. i18n: ectx: whatsthis, entry (OneFileSystem), group (Synchronization)
+#: smb4k.kcfg:948
+msgid ""
+"Do not cross file system boundaries (-x, --one-file-system). This tells "
+"rsync to avoid crossing a filesystem boundary when recursing. For further "
+"information on this option, read the manual page."
+msgstr ""
+
+#. i18n: ectx: label, entry (UpdateExisting), group (Synchronization)
+#: smb4k.kcfg:952
+msgid "Only update files that already exist"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UpdateExisting), group (Synchronization)
+#: smb4k.kcfg:953
+msgid ""
+"Skip creating new files on the receiving side (--existing). This tells rsync "
+"to skip creating files (including directories) that do not exist yet on the "
+"destination. If this option is combined with the --ignore-existing option, "
+"no files will be updated (which can be useful if all you want to do is to "
+"delete extraneous files)."
+msgstr ""
+
+#. i18n: ectx: label, entry (IgnoreExisting), group (Synchronization)
+#: smb4k.kcfg:957
+msgid "Ignore files that already exist"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (IgnoreExisting), group (Synchronization)
+#: smb4k.kcfg:958
+msgid ""
+"Skip updating files that already exist on the receiving side (--ignore-"
+"existing). Existing directories are not ignored."
+msgstr ""
+
+#. i18n: ectx: label, entry (DelayUpdates), group (Synchronization)
+#: smb4k.kcfg:962
+#, fuzzy
+#| msgid "Delete files before transfer"
+msgid "Delay updates until the end of transfer"
+msgstr "传输前删除文件"
+
+#. i18n: ectx: whatsthis, entry (DelayUpdates), group (Synchronization)
+#: smb4k.kcfg:963
+msgid ""
+"Delay updates until the end of the transfer (--delay-updates). This option "
+"puts the temporary file from each updated file into a holding directory "
+"until the end of the transfer, at which time all the files are renamed and "
+"copied into place in rapid succession."
+msgstr ""
+
+#. i18n: ectx: label, entry (MakeBackups), group (Synchronization)
+#: smb4k.kcfg:967
+msgid "Make backups"
+msgstr "生成备份"
+
+#. i18n: ectx: whatsthis, entry (MakeBackups), group (Synchronization)
+#: smb4k.kcfg:968
+msgid ""
+"Make backups (-b, --backup). With this option, preexisting destination files "
+"are renamed as each file is transferred or deleted. You can control where "
+"the backup file goes and what (if any) suffix gets appended using the --"
+"backup-dir=DIR and --suffix=SUFFIX options."
+msgstr ""
+
+#. i18n: ectx: label, entry (UseBackupSuffix), group (Synchronization)
+#: smb4k.kcfg:972
+#, fuzzy
+#| msgid "Backup"
+msgid "Backup suffix:"
+msgstr "备份"
+
+#. i18n: ectx: whatsthis, entry (UseBackupSuffix), group (Synchronization)
+#: smb4k.kcfg:973
+msgid "Use this suffix for backups (--suffix=SUFFIX)."
+msgstr ""
+
+#. i18n: ectx: label, entry (BackupSuffix), group (Synchronization)
+#: smb4k.kcfg:977
+#, fuzzy
+#| msgid "Backup"
+msgid "Backup suffix"
+msgstr "备份"
+
+#. i18n: ectx: label, entry (UseBackupDirectory), group (Synchronization)
+#: smb4k.kcfg:982
+msgid "Backup directory:"
+msgstr "备份目录："
+
+#. i18n: ectx: whatsthis, entry (UseBackupDirectory), group (Synchronization)
+#: smb4k.kcfg:983
+msgid "Store backups in this directory (--backup-dir=DIR)."
+msgstr ""
+
+#. i18n: ectx: label, entry (BackupDirectory), group (Synchronization)
+#: smb4k.kcfg:987
+msgid "Backup directory"
+msgstr "备份目录"
+
+#. i18n: ectx: label, entry (UseBlockSize), group (Synchronization)
+#: smb4k.kcfg:992
+msgid "Force fixed checksum block size:"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UseBlockSize), group (Synchronization)
+#: smb4k.kcfg:993
+msgid ""
+"Force a fixed checksum block-size (-B, --block-size=SIZE). This forces the "
+"block size used in the rsync algorithm to a fixed value."
+msgstr ""
+
+#. i18n: ectx: label, entry (BlockSize), group (Synchronization)
+#: smb4k.kcfg:997
+msgid "The block size"
+msgstr ""
+
+#. i18n: ectx: label, entry (UseChecksumSeed), group (Synchronization)
+#: smb4k.kcfg:1003
+#, fuzzy
+msgid "Set block/file checksum seed:"
+msgstr "访问被拒"
+
+#. i18n: ectx: whatsthis, entry (UseChecksumSeed), group (Synchronization)
+#: smb4k.kcfg:1004
+msgid ""
+"Set block/file checksum seed (--checksum-seed=NUM). Set the MD4 checksum "
+"seed to this integer. This 4 byte checksum seed is included in each block "
+"and file MD4 checksum calculation. By default the checksum seed is generated "
+"by the server and defaults to the current time."
+msgstr ""
+
+#. i18n: ectx: label, entry (ChecksumSeed), group (Synchronization)
+#: smb4k.kcfg:1008
+#, fuzzy
+msgid "The checksum seed"
+msgstr "访问被拒"
+
+#. i18n: ectx: label, entry (UseChecksum), group (Synchronization)
+#: smb4k.kcfg:1014
+msgid "Skip files based on checksum"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (UseChecksum), group (Synchronization)
+#: smb4k.kcfg:1015
+msgid ""
+"Skip files based on a checksum and not based on modification time and size (-"
+"c, --checksum). For further information on how this feature works read "
+"rsync's manual page."
+msgstr ""
+
+#. i18n: ectx: label, entry (UnmountWhenSleepButtonPressed), group (LaptopSupport)
+#: smb4k.kcfg:1025
+#, fuzzy
+msgid "Unmount all shares when the sleep button is pressed"
+msgstr "退出时卸载全部共享。"
+
+#. i18n: ectx: whatsthis, entry (UnmountWhenSleepButtonPressed), group (LaptopSupport)
+#: smb4k.kcfg:1026
+msgid ""
+"Unmount all mounted shares after the hardware sleep button is pressed. The "
+"shares will automatically be remounted after the computer wakes up again."
+msgstr ""
+
+#. i18n: ectx: label, entry (UnmountWhenLidButtonPressed), group (LaptopSupport)
+#: smb4k.kcfg:1030
+#, fuzzy
+msgid "Unmount all shares when the lid is closed"
+msgstr "退出时卸载全部共享。"
+
+#. i18n: ectx: whatsthis, entry (UnmountWhenLidButtonPressed), group (LaptopSupport)
+#: smb4k.kcfg:1031
+msgid ""
+"Unmount all mounted shares after the lid of the laptop is closed. The shares "
+"will automatically be remounted after the computer wakes up again."
+msgstr ""
+
+#. i18n: ectx: label, entry (UnmountWhenPowerButtonPressed), group (LaptopSupport)
+#: smb4k.kcfg:1035
+#, fuzzy
+msgid "Unmount all shares when the power button is pressed"
+msgstr "退出时卸载全部共享。"
+
+#. i18n: ectx: whatsthis, entry (UnmountWhenPowerButtonPressed), group (LaptopSupport)
+#: smb4k.kcfg:1036
+msgid ""
+"Unmount all mounted shares after the hardware power button is pressed. The "
+"shares will automatically be remounted after the computer wakes up again."
+msgstr ""
+
+#. i18n: ectx: label, entry (UnmountWhenNetworkDisconnected), group (LaptopSupport)
+#: smb4k.kcfg:1040
+#, fuzzy
+msgid "Unmount all shares when the network is disconnected"
+msgstr "退出时卸载全部共享。"
+
+#. i18n: ectx: whatsthis, entry (UnmountWhenNetworkDisconnected), group (LaptopSupport)
+#: smb4k.kcfg:1041
+msgid ""
+"Unmount all mounted shares when the user disconnects from the network or the "
+"connection is lost due to a different reason. Using this option in "
+"combination with sleep and/or hibernation might lead to unwanted side "
+"effects. In this case you should unmount the shares manually before you "
+"suspend the computer."
+msgstr ""
+
+#: smb4kbookmarkhandler.cpp:434 smb4kcustomoptionsmanager.cpp:306
+#, kde-format
+msgid "The format of %1 is not supported."
+msgstr ""
+
+#: smb4kbookmarkhandler_p.cpp:58
+msgid "Add Bookmarks"
+msgstr "添加书签"
+
+#: smb4kbookmarkhandler_p.cpp:104
+msgid ""
+"All listed shares will be bookmarked. To edit the label or group, click the "
+"respective bookmark entry."
+msgstr ""
+
+#: smb4kbookmarkhandler_p.cpp:125 smb4kbookmarkhandler_p.cpp:454
+#, fuzzy
+#| msgid "Label"
+msgid "Label:"
+msgstr "标签"
+
+#: smb4kbookmarkhandler_p.cpp:129 smb4kbookmarkhandler_p.cpp:466
+#, fuzzy
+#| msgid "Group ID:"
+msgid "Group:"
+msgstr "组 ID："
+
+#: smb4kbookmarkhandler_p.cpp:339
+#, fuzzy
+#| msgid "&Edit Bookmarks"
+msgid "Edit Bookmarks"
+msgstr "编辑书签(&E)"
+
+#: smb4kbookmarkhandler_p.cpp:438 smb4kbookmarkhandler_p.cpp:963
+#, fuzzy
+#| msgid "Group ID:"
+msgid "Add Group"
+msgstr "组 ID："
+
+#: smb4kbookmarkhandler_p.cpp:439
+msgid "Remove"
+msgstr "删除"
+
+#: smb4kbookmarkhandler_p.cpp:440
+#, fuzzy
+#| msgid "Bookmarks"
+msgid "Clear Bookmarks"
+msgstr "书签"
+
+#: smb4kbookmarkhandler_p.cpp:458
+msgid "Login:"
+msgstr "登录："
+
+#: smb4kbookmarkhandler_p.cpp:462 smb4kcustomoptionsmanager_p.cpp:131
+#: smb4kmounter_p.cpp:1366 smb4kprint_p.cpp:416
+msgid "IP Address:"
+msgstr "IP 地址:"
+
+#: smb4kbookmarkhandler_p.cpp:963
+#, fuzzy
+#| msgid "Group ID:"
+msgid "Group name:"
+msgstr "组 ID："
+
+#: smb4kcustomoptionsmanager_p.cpp:52
+msgid "Custom Options"
+msgstr "自定义选项"
+
+#: smb4kcustomoptionsmanager_p.cpp:98
+#, fuzzy, kde-format
+msgid ""
+"<p>Define custom options for host <b>%1</b> and all the shares it provides.</"
+"p>"
+msgstr "目录 %1 无法被创建."
+
+#: smb4kcustomoptionsmanager_p.cpp:104
+#, fuzzy, kde-format
+msgid "<p>Define custom options for share <b>%1</b> at host <b>%2</b>.</p>"
+msgstr "目录 %1 无法被创建."
+
+#: smb4kcustomoptionsmanager_p.cpp:122
+msgid "General"
+msgstr "常规"
+
+#: smb4kcustomoptionsmanager_p.cpp:127 smb4kmounter_p.cpp:1355
+#: smb4kprint_p.cpp:414
+msgid "UNC Address:"
+msgstr "UNC 地址:"
+
+#: smb4kcustomoptionsmanager_p.cpp:156
+#, fuzzy
+#| msgid "SMB Port"
+msgid "SMB Port:"
+msgstr "SMB 端口"
+
+#: smb4kcustomoptionsmanager_p.cpp:165
+#, fuzzy
+#| msgid "File system port:"
+msgid "Filesystem Port:"
+msgstr "文件系统端口："
+
+#: smb4kcustomoptionsmanager_p.cpp:173
+#, fuzzy
+#| msgid "Write Access"
+msgid "Write Access:"
+msgstr "写入访问"
+
+#: smb4kcustomoptionsmanager_p.cpp:224
+#, fuzzy
+#| msgid "Security mode:"
+msgid "Security Mode:"
+msgstr "安全模式："
+
+#: smb4kcustomoptionsmanager_p.cpp:359
+#, fuzzy
+#| msgid "Protocol"
+msgid "Protocol Hint:"
+msgstr "协议"
+
+#: smb4kcustomoptionsmanager_p.cpp:535
+msgid "Samba"
+msgstr "Samba"
+
+#: smb4kcustomoptionsmanager_p.cpp:547
+#, fuzzy
+#| msgid "IP address:"
+msgid "MAC Address:"
+msgstr "IP 地址："
+
+#: smb4kcustomoptionsmanager_p.cpp:553
+msgid "Send magic package before scanning the network neighborhood"
+msgstr ""
+
+#: smb4kcustomoptionsmanager_p.cpp:557
+#, fuzzy
+msgid "Send magic package before mounting a share"
+msgstr "用下列文件系统挂载远程共享："
+
+#: smb4kcustomoptionsmanager_p.cpp:567
+msgid "Wake-On-LAN"
+msgstr ""
+
+#: smb4khomesshareshandler.cpp:175
+#, kde-format
+msgid "%1 is not a version 1.0 file."
+msgstr ""
+
+#: smb4khomesshareshandler_p.cpp:80
+msgid "Specify User"
+msgstr "确认用户"
+
+#: smb4khomesshareshandler_p.cpp:83
+msgid "Clear List"
+msgstr "清除列表"
+
+#: smb4khomesshareshandler_p.cpp:127
+#, fuzzy
+#| msgid "Please specify a user name."
+msgid "Please specify a username."
+msgstr "请确认用户名。"
+
+#: smb4khomesshareshandler_p.cpp:142
+msgid "User:"
+msgstr "用户名："
+
+#: smb4kmounter.cpp:1088 smb4kmounter.cpp:1215
+#, kde-format
+msgid ""
+"<qt><p>The share <b>%1</b> is mounted to <br><b>%2</b> and owned by user <b>"
+"%3</b>.</p><p>Do you really want to unmount it?</p></qt>"
+msgstr ""
+
+#: smb4kmounter.cpp:1091 smb4kmounter.cpp:1218
+#, fuzzy
+#| msgid "Mount Share"
+msgid "Foreign Share"
+msgstr "挂载共享"
+
+#: smb4kmounter.cpp:1476 smb4kmounter.cpp:1515
+#, fuzzy
+#| msgid "Unmounting share %1..."
+msgid "Remounting shares. Please wait."
+msgstr "正在卸载共享 %1..."
+
+#: smb4kmounter.cpp:1781
+#, fuzzy
+#| msgid "Unmounting share %1..."
+msgid "Unmounting shares. Please wait."
+msgstr "正在卸载共享 %1..."
+
+#: smb4kmounter_p.cpp:1296
+msgid "Mount Share"
+msgstr "挂载共享"
+
+#: smb4kmounter_p.cpp:1341
+msgid ""
+"Enter the location (UNC address) and optionally the IP address and workgroup "
+"to mount a share."
+msgstr ""
+
+#: smb4kmounter_p.cpp:1357
+#, fuzzy
+msgid ""
+"The Uniform Naming Convention (UNC) address describes the location of the "
+"share. It has the following syntax: //[USER@]HOST/SHARE. The username is "
+"optional."
+msgstr "共享路径输入错误，应遵循以下形式//HOST/SHARE."
+
+#: smb4kmounter_p.cpp:1368
+msgid ""
+"The Internet Protocol (IP) address identifies the host in the network and "
+"indicates where it is. It has two valid formats, the one known as IP version "
+"4 (e.g. 192.168.2.11) and the version 6 format (e.g. "
+"2001:0db8:85a3:08d3:1319:8a2e:0370:7334)."
+msgstr ""
+
+#: smb4kmounter_p.cpp:1377 smb4kprint_p.cpp:420
+msgid "Workgroup:"
+msgstr "工作组："
+
+#: smb4kmounter_p.cpp:1379
+msgid ""
+"The workgroup or domain identifies the peer-to-peer computer network the "
+"host is located in."
+msgstr ""
+
+#: smb4kmounter_p.cpp:1393
+msgid "Add this share to the bookmarks"
+msgstr "将该共享加入书签"
+
+#: smb4kmounter_p.cpp:1394
+msgid ""
+"If you tick this checkbox, the share will be bookmarked and you can access "
+"it e.g. through the \"Bookmarks\" menu entry in the main window."
+msgstr ""
+
+#: smb4knotification.cpp:81
+#, fuzzy, kde-format
+msgid "<p>The share <b>%1</b> has been mounted to <b>%2</b>.</p>"
+msgstr "目录 %1 无法被创建."
+
+#: smb4knotification.cpp:87
+#, fuzzy
+#| msgid "On"
+msgid "Open"
+msgstr "开"
+
+#: smb4knotification.cpp:106
+#, fuzzy, kde-format
+msgid "<p>The share <b>%1</b> has been unmounted from <b>%2</b>.</p>"
+msgstr "目录 %1 无法被创建."
+
+#: smb4knotification.cpp:129
+#, fuzzy, kde-format
+msgid "<p>%1 share out of %2 has been mounted.</p>"
+msgid_plural "<p>%1 shares out of %2 have been mounted.</p>"
+msgstr[0] "目录 %1 无法被创建."
+
+#: smb4knotification.cpp:140
+#, fuzzy
+msgid "<p>All shares have been mounted.</p>"
+msgstr "目录 %1 无法被创建."
+
+#: smb4knotification.cpp:163
+#, fuzzy, kde-format
+msgid "<p>%1 share out of %2 has been unmounted.</p>"
+msgid_plural "<p>%1 shares out of %2 have been unmounted.</p>"
+msgstr[0] "目录 %1 无法被创建."
+
+#: smb4knotification.cpp:174
+#, fuzzy
+msgid "<p>All shares have been unmounted.</p>"
+msgstr "目录 %1 无法被创建."
+
+#: smb4knotification.cpp:198
+#, fuzzy, kde-format
+msgid "<p>Opening the wallet <b>%1</b> failed.</p>"
+msgstr "打印文件"
+
+#: smb4knotification.cpp:211
+msgid ""
+"<p>The logins stored in the wallet could not be accessed. There is either no "
+"wallet available or it could not be opened.</p>"
+msgstr ""
+
+#: smb4knotification.cpp:225
+#, fuzzy, kde-format
+msgid ""
+"<p>The mimetype <b>%1</b> is not supported for printing. Please convert the "
+"file to PDF or Postscript and try again.</p>"
+msgstr "不支持 MIME 类型 \"%1\"！请把文件转换成 PostScript 或者 PDF。"
+
+#: smb4knotification.cpp:239
+#, kde-format
+msgid "<p>The bookmark for share <b>%1</b> already exists and will be skipped."
+msgstr ""
+
+#: smb4knotification.cpp:252
+#, kde-format
+msgid ""
+"<p>The label <b>%1</b> of the bookmark for the share <b>%2</b> is already "
+"being used and will automatically be renamed.</p>"
+msgstr ""
+
+#: smb4knotification.cpp:266
+msgid ""
+"The entry of the custom master browser is empty. Smb4K is going to try to "
+"query the current master browser of your workgroup or domain instead."
+msgstr ""
+
+#: smb4knotification.cpp:287
+#, fuzzy, kde-format
+msgid ""
+"<p>Retrieving the list of available domains failed:</p><p><tt>%1</tt></p>"
+msgstr "正在搜索主机..."
+
+#: smb4knotification.cpp:291
+#, fuzzy
+msgid "<p>Retrieving the list of available domains failed.</p>"
+msgstr "正在搜索主机..."
+
+#: smb4knotification.cpp:311
+#, fuzzy, kde-format
+#| msgid "Scan these broadcast areas:"
+msgid "<p>Scanning the defined broadcast area(s) failed:</p><p><tt>%1</tt></p>"
+msgstr "扫描如下广播区域："
+
+#: smb4knotification.cpp:315
+#, fuzzy
+#| msgid "Scan these broadcast areas:"
+msgid "<p>Scanning the defined broadcast area(s) failed.</p>"
+msgstr "扫描如下广播区域："
+
+#: smb4knotification.cpp:335
+#, fuzzy, kde-format
+msgid ""
+"<p>Retrieving the list of servers belonging to domain <b>%1</b> failed.</"
+"p><p><tt>%2</tt></p>"
+msgstr "正在搜索主机..."
+
+#: smb4knotification.cpp:339
+#, fuzzy, kde-format
+msgid ""
+"<p>Retrieving the list of servers belonging to domain <b>%1</b> failed.</p>"
+msgstr "正在搜索主机..."
+
+#: smb4knotification.cpp:359
+#, fuzzy, kde-format
+msgid ""
+"<p>Retrieving the list of shares from <b>%1</b> failed:</p><p><tt>%2</tt></p>"
+msgstr "正在搜索主机..."
+
+#: smb4knotification.cpp:363
+#, fuzzy, kde-format
+msgid "<p>Retrieving the list of shares from <b>%1</b> failed.</p>"
+msgstr "正在搜索主机..."
+
+#: smb4knotification.cpp:383
+#, fuzzy, kde-format
+msgid "<p>Retrieving the preview of <b>%1</b> failed:</p><p><tt>%2</tt></p>"
+msgstr "检索相关预览..."
+
+#: smb4knotification.cpp:387
+#, fuzzy, kde-format
+msgid "<p>Retrieving the preview of <b>%1</b> failed.</p>"
+msgstr "检索相关预览..."
+
+#: smb4knotification.cpp:407
+#, fuzzy, kde-format
+msgid "<p>Mounting the share <b>%1</b> failed:</p><p><tt>%2</tt></p>"
+msgstr "打印文件"
+
+#: smb4knotification.cpp:411
+#, fuzzy, kde-format
+msgid "<p>Mounting the share <b>%1</b> failed.</p>"
+msgstr "打印文件"
+
+#: smb4knotification.cpp:431
+#, fuzzy, kde-format
+msgid ""
+"<p>Unmounting the share <b>%1</b> from <b>%2</b> failed:</p><p><tt>%3</tt></"
+"p>"
+msgstr "打印文件"
+
+#: smb4knotification.cpp:435
+#, fuzzy, kde-format
+msgid "<p>Unmounting the share <b>%1</b> from <b>%2</b> failed.</p>"
+msgstr "打印文件"
+
+#: smb4knotification.cpp:453
+#, fuzzy, kde-format
+msgid ""
+"<p>You are not allowed to unmount the share <b>%1</b> from <b>%2</b>. It is "
+"owned by the user <b>%3</b>.</p>"
+msgstr "不允许卸载该共享！"
+
+#: smb4knotification.cpp:469
+#, fuzzy, kde-format
+msgid "<p>Printing on printer <b>%1</b> failed:</p><p><tt>%2</tt></p>"
+msgstr "打印文件"
+
+#: smb4knotification.cpp:473
+#, fuzzy, kde-format
+msgid "<p>Printing on printer <b>%1</b> failed.</p>"
+msgstr "打印文件"
+
+#: smb4knotification.cpp:493
+#, fuzzy, kde-format
+msgid "<p>Synchronizing <b>%1</b> with <b>%2</b> failed:</p><p><tt>%3</tt></p>"
+msgstr "打印文件"
+
+#: smb4knotification.cpp:497
+#, fuzzy, kde-format
+msgid "<p>Synchronizing <b>%1</b> with <b>%2</b> failed.</p>"
+msgstr "打印文件"
+
+#: smb4knotification.cpp:517
+#, fuzzy, kde-format
+msgid ""
+"<p>Searching the network neighborhood for the search item <b>%1</b> failed:</"
+"p><p><tt>%2</tt></p>"
+msgstr "正在搜索主机..."
+
+#: smb4knotification.cpp:521
+#, fuzzy, kde-format
+msgid ""
+"<p>Searching the network neighborhood for the search item <b>%1</b> failed.</"
+"p>"
+msgstr "正在搜索主机..."
+
+#: smb4knotification.cpp:539
+#, fuzzy, kde-format
+msgid ""
+"<p>The command <b>%1</b> could not be found. Please check your installation."
+"</p>"
+msgstr "找不到命令%1."
+
+#: smb4knotification.cpp:554
+#, fuzzy, kde-format
+msgid "<p>The share <b>%1</b> is a printer and cannot be bookmarked.</p>"
+msgstr "不能将打印机加入书签！"
+
+#: smb4knotification.cpp:572
+#, fuzzy, kde-format
+msgid "<p>The file <b>%1</b> could not be found.</p>"
+msgstr "找不到命令%1."
+
+#: smb4knotification.cpp:587
+#, fuzzy, kde-format
+msgid "<p>Opening the file <b>%1</b> failed:</p><p><tt>%2</tt></p>"
+msgstr "打印文件"
+
+#: smb4knotification.cpp:591
+#, fuzzy, kde-format
+msgid "<p>Opening the file <b>%1</b> failed.</p>"
+msgstr "打印文件"
+
+#: smb4knotification.cpp:611 smb4knotification.cpp:617
+#, fuzzy, kde-format
+msgid "<p>Reading from file <b>%1</b> failed:</p><p><tt>%2</tt></p>"
+msgstr "打印文件"
+
+#: smb4knotification.cpp:621
+#, fuzzy, kde-format
+msgid "<p>Reading from file <b>%1</b> failed.</p>"
+msgstr "打印文件"
+
+#: smb4knotification.cpp:641
+#, fuzzy, kde-format
+msgid "<p>The following directory could not be created:</p><p><tt>%1</tt></p>"
+msgstr "找不到文件 %1 ."
+
+#: smb4knotification.cpp:658
+#, fuzzy, kde-format
+#| msgid "The permission was denied. "
+msgid "<p>The process failed to start (error code: <tt>%1</tt>).</p>"
+msgstr "权限不足"
+
+#: smb4knotification.cpp:663
+#, fuzzy, kde-format
+#| msgid "The permission was denied. "
+msgid "<p>The process crashed (error code: <tt>%1</tt>).</p>"
+msgstr "权限不足"
+
+#: smb4knotification.cpp:668
+#, fuzzy, kde-format
+#| msgid "The permission was denied. "
+msgid "<p>The process timed out (error code: <tt>%1</tt>).</p>"
+msgstr "权限不足"
+
+#: smb4knotification.cpp:673
+#, fuzzy, kde-format
+#| msgid "The permission was denied. "
+msgid "<p>Could not write to the process (error code: <tt>%1</tt>).</p>"
+msgstr "权限不足"
+
+#: smb4knotification.cpp:678
+#, fuzzy, kde-format
+#| msgid "The permission was denied. "
+msgid "<p>Could not read from the process (error code: <tt>%1</tt>).</p>"
+msgstr "权限不足"
+
+#: smb4knotification.cpp:684
+msgid "<p>The process reported an unknown error.</p>"
+msgstr ""
+
+#: smb4knotification.cpp:716 smb4knotification.cpp:720
+#: smb4knotification.cpp:725
+#, fuzzy, kde-format
+msgid "<p>The system call <b>%1</b> failed:</p><p><tt>%2</tt></p>"
+msgstr "打印文件"
+
+#: smb4knotification.cpp:793
+#, fuzzy, kde-format
+#| msgid "The permission was denied. "
+msgid ""
+"<p>Executing an action with root privileges failed (error code:<tt>%1</tt>)."
+"</p>"
+msgstr "权限不足"
+
+#: smb4knotification.cpp:797
+#, fuzzy
+msgid "<p>Executing an action with root privileges failed.</p>"
+msgstr "正在搜索主机..."
+
+#: smb4knotification.cpp:815
+msgid "<p>The URL that was passed is invalid.</p>"
+msgstr ""
+
+#: smb4knotification.cpp:828
+#, fuzzy
+msgid "<p>There are no broadcast areas defined.</p>"
+msgstr "目录 %1 无法被创建."
+
+#: smb4kpreviewer_p.cpp:552
+msgid "Preview"
+msgstr "预览"
+
+#: smb4kpreviewer_p.cpp:600
+msgid "The preview is displayed here."
+msgstr ""
+
+#: smb4kpreviewer_p.cpp:606
+msgid "Reload"
+msgstr "重新装入"
+
+#: smb4kpreviewer_p.cpp:609
+msgid "Abort"
+msgstr "中止"
+
+#: smb4kpreviewer_p.cpp:612
+msgid "Back"
+msgstr "后退"
+
+#: smb4kpreviewer_p.cpp:615
+msgid "Forward"
+msgstr "前进"
+
+#: smb4kpreviewer_p.cpp:618
+msgid "Up"
+msgstr "向上"
+
+#: smb4kpreviewer_p.cpp:624
+msgid ""
+"The current UNC address is shown here. You can also choose one of the "
+"previously visited locations from the drop-down menu that will then be "
+"displayed in the view above."
+msgstr ""
+
+#: smb4kprint_p.cpp:355
+msgid "Print File"
+msgstr "打印文件"
+
+#: smb4kprint_p.cpp:361 smb4kprint_p.cpp:455
+msgid "Options"
+msgstr "选项"
+
+#: smb4kprint_p.cpp:399 smb4kshare.cpp:352
+msgid "Printer"
+msgstr "打印机"
+
+#: smb4kprint_p.cpp:418
+msgid "unknown"
+msgstr "未知"
+
+#: smb4kprint_p.cpp:438
+msgid "File"
+msgstr "文件"
+
+#: smb4kprint_p.cpp:443
+msgid "File:"
+msgstr "文件："
+
+#: smb4kprint_p.cpp:446
+msgid ""
+"This is the file you want to print on the remote printer. Currently only a "
+"few mimetypes are supported such as PDF, Postscript, plain text, and images. "
+"If the file's mimetype is not supported, you need to convert it."
+msgstr ""
+
+#: smb4kprint_p.cpp:461
+msgid "Copies:"
+msgstr "份数："
+
+#: smb4kprint_p.cpp:464
+msgid "This is the number of copies you want to print."
+msgstr ""
+
+#: smb4kshare.cpp:347
+msgid "Disk"
+msgstr "磁盘"
+
+#: smb4ksynchronizer_p.cpp:648 smb4ksynchronizer_p.cpp:800
+#, fuzzy
+msgid "Synchronizing"
+msgstr "法语翻译"
+
+#: smb4ksynchronizer_p.cpp:649 smb4ksynchronizer_p.cpp:801
+#, fuzzy
+#| msgid "Source:"
+msgid "Source"
+msgstr "来源："
+
+#: smb4ksynchronizer_p.cpp:650 smb4ksynchronizer_p.cpp:802
+#, fuzzy
+#| msgid "Destination:"
+msgid "Destination"
+msgstr "目标："
+
+#: smb4ksynchronizer_p.cpp:864
+msgid "Synchronization"
+msgstr "同步"
+
+#: smb4ksynchronizer_p.cpp:869
+msgid "Synchronize"
+msgstr "同步"
+
+#: smb4ksynchronizer_p.cpp:870
+msgid "Synchronize the destination with the source"
+msgstr ""
+
+#: smb4ksynchronizer_p.cpp:871
+msgid "Swap Paths"
+msgstr "交换路径"
+
+#: smb4ksynchronizer_p.cpp:872
+msgid "Swap source and destination"
+msgstr "交换源和目的"
+
+#: smb4ksynchronizer_p.cpp:886
+msgid ""
+"Please provide the source and destination directory for the synchronization."
+msgstr ""
+
+#: smb4ksynchronizer_p.cpp:899
+msgid "Source:"
+msgstr "来源："
+
+#: smb4ksynchronizer_p.cpp:906
+msgid ""
+"This is the source directory. The data that it contains is to be written to "
+"the destination directory."
+msgstr ""
+
+#: smb4ksynchronizer_p.cpp:909
+msgid "Destination:"
+msgstr "目标："
+
+#: smb4ksynchronizer_p.cpp:916
+msgid ""
+"This is the destination directory. It will be updated with the data from the "
+"source directory."
+msgstr ""
+
+#: smb4kwalletmanager_p.cpp:55
+#, fuzzy, kde-format
+msgid "<qt>Please enter a username and a password for the host <b>%1</b>.</qt>"
+msgstr "请为 %1键入登录数据."
+
+#: smb4kwalletmanager_p.cpp:82 smb4kwalletmanager_p.cpp:86
+#, fuzzy, kde-format
+msgid ""
+"<qt>Please enter a username and a password for the share <b>%1</b>.</qt>"
+msgstr "请为 %1键入登录数据."
+
+#~ msgid "Show hidden IPC$ shares"
+#~ msgstr "显示隐藏 IPC$ 共享"
+
+#, fuzzy
+#~| msgid "The mounted shares will be displayed in a list view."
+#~ msgid "Hidden IPC$ shares will be displayed in the network browser."
+#~ msgstr "用列表视图显示挂载的共享"
+
+#~ msgid "Show hidden ADMIN$ shares"
+#~ msgstr "显示隐藏 ADMIN$ 共享"
+
+#, fuzzy
+#~| msgid "The mounted shares will be displayed in a list view."
+#~ msgid "Hidden ADMIN$ shares will be displayed in the network browser."
+#~ msgstr "用列表视图显示挂载的共享"
+
+#, fuzzy
+#~| msgid "Show details"
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "显示细节"
+
+#, fuzzy
+#~ msgid "The mount process crashed."
+#~ msgstr "挂载共享："
+
+#, fuzzy
+#~ msgid "The mount process could not be started."
+#~ msgstr "目录 %1 无法被创建."
+
+#, fuzzy
+#~ msgid "The mountpoint is invalid."
+#~ msgstr "显示挂载点，而非共享名。"
+
+#, fuzzy
+#~ msgid "The unmount process could not be started."
+#~ msgstr "目录 %1 无法被创建."
+
+#~ msgid "Network"
+#~ msgstr "网络"
+
+#~ msgid "Type"
+#~ msgstr "类型"
+
+#~ msgid "IP Address"
+#~ msgstr "IP 地址"
+
+#~ msgid "Comment"
+#~ msgstr "注释"
+
+#~ msgid "Scan Netwo&rk"
+#~ msgstr "扫描网络(&R)"
+
+#~ msgid "&Abort"
+#~ msgstr "中止(&A)"
+
+#~ msgid "Au&thentication"
+#~ msgstr "用户验证(&T)"
+
+#~ msgid "&Custom Options"
+#~ msgstr "自定义选项(&C)"
+
+#~ msgid "Add &Bookmark"
+#~ msgstr "添加书签(&B)"
+
+#~ msgid "Pre&view"
+#~ msgstr "预览(&V)"
+
+#~ msgid "&Print File"
+#~ msgstr "打印文件(&P)"
+
+#~ msgid "&Mount"
+#~ msgstr "挂载(&M)"
+
+#~ msgid "&Unmount"
+#~ msgstr "卸载(&U)"
+
+#~ msgid "Smb4KNetworkBrowserPart"
+#~ msgstr "Smb4KNetworkBrowserPart"
+
+#, fuzzy
+#~| msgid "\\u00A9 2007-2009, Alexander Reinholdt"
+#~ msgid "\\u00A9 2007-2014, Alexander Reinholdt"
+#~ msgstr "\\u00A9 2007-2009, Alexander Reinholdt"
+
+#~ msgid "Scan Wo&rkgroup"
+#~ msgstr "扫描工作组(&R)"
+
+#, fuzzy
+#~ msgid "Looking for workgroups and domains..."
+#~ msgstr "查询主机以获取浏览列表。"
+
+#, fuzzy
+#~ msgid "Looking for hosts in domain %1..."
+#~ msgstr "查询主机以获取浏览列表。"
+
+#, fuzzy
+#~| msgid "Looking for IP addresses..."
+#~ msgid "Looking for shares provided by host %1..."
+#~ msgstr "正在查找 IP 地址..."
+
+#, fuzzy
+#~ msgid "Looking for more information about host %1..."
+#~ msgstr "查询主机以获取浏览列表。"
+
+#~ msgid "Done."
+#~ msgstr "完毕。"
+
+#~ msgid "&Network"
+#~ msgstr "网络(&N)"
+
+#~ msgid "Password Storage"
+#~ msgstr "密码存储"
+
+#~ msgid "Default Login"
+#~ msgstr "缺省登录"
+
+#~ msgid "General Settings"
+#~ msgstr "常规设置"
+
+#~ msgid "Load"
+#~ msgstr "装入"
+
+#~ msgid "Save"
+#~ msgstr "保存"
+
+#~ msgid "Show details"
+#~ msgstr "显示细节"
+
+#, fuzzy
+#~ msgid "Show the details of the selected entry."
+#~ msgstr "显示 IP 地址。"
+
+#~ msgid "Edit"
+#~ msgstr "编辑"
+
+#~ msgid "Undo"
+#~ msgstr "撤消"
+
+#, fuzzy
+#~| msgid "Remove Entries"
+#~ msgid "Wallet Entries"
+#~ msgstr "删除项目"
+
+#~ msgid "Entry"
+#~ msgstr "条目"
+
+#~ msgid "Workgroup"
+#~ msgstr "工作组"
+
+#~ msgid "Login"
+#~ msgstr "登录"
+
+#~ msgid "Password"
+#~ msgstr "密码"
+
+#~ msgid "User Interface"
+#~ msgstr "用户界面"
+
+#~ msgid "Shares"
+#~ msgstr "共享"
+
+#~ msgid "Authentication"
+#~ msgstr "身份验证"
+
+#~ msgid "Laptop Support"
+#~ msgstr "笔记本支持"
+
+#, fuzzy
+#~ msgid "Remount this share"
+#~ msgstr "挂载共享(&s)"
+
+#, fuzzy
+#~| msgid "IP address:"
+#~ msgid "MAC address:"
+#~ msgstr "IP 地址："
+
+#~ msgid "Hardware"
+#~ msgstr "硬件"
+
+#~ msgid "Browse List"
+#~ msgstr "浏览列表"
+
+#~ msgid "Default Destination"
+#~ msgstr "默认目标"
+
+#~ msgid "Links"
+#~ msgstr "链接"
+
+#, fuzzy
+#~ msgid "File Permissions, etc."
+#~ msgstr "许可证"
+
+#~ msgid "Copying"
+#~ msgstr "复制"
+
+#~ msgid "File Deletion"
+#~ msgstr "文件删除"
+
+#, fuzzy
+#~ msgid "Restrictions"
+#~ msgstr "行为"
+
+#~ msgid "File Transfer"
+#~ msgstr "文件传送"
+
+#, fuzzy
+#~ msgid "File Deletion && Transfer"
+#~ msgstr "文件掩码："
+
+#~ msgid "Filter Rules"
+#~ msgstr "过滤规则"
+
+#~ msgid "Filtering"
+#~ msgstr "过滤"
+
+#~ msgid "Backup"
+#~ msgstr "备份"
+
+#~ msgid "Checksums"
+#~ msgstr "校验和"
+
+#, fuzzy
+#~| msgid "Advanced Options"
+#~ msgid "Advanced Settings"
+#~ msgstr "高级选项"
+
+#~ msgid "General Options"
+#~ msgstr "常规选项"
+
+#~ msgid "Remote Ports"
+#~ msgstr "远程端口"
+
+#, fuzzy
+#~| msgid "Security mode:"
+#~ msgid "Security"
+#~ msgstr "安全模式："
+
+#~ msgid "Common Options"
+#~ msgstr "通用选项"
+
+#~ msgid "Advanced Options"
+#~ msgstr "高级选项"
+
+#~ msgid "Mounting"
+#~ msgstr "挂载"
+
+#~ msgid "net"
+#~ msgstr "网络"
+
+#~ msgid "smbclient"
+#~ msgstr "smbclient"
+
+#~ msgid " Bytes"
+#~ msgstr " 字节"
+
+#~ msgid "nmblookup"
+#~ msgstr "nmblookup"
+
+#~ msgid "smbtree"
+#~ msgstr "smbtree"
+
+#, fuzzy
+#~| msgid "Client Programs"
+#~ msgid "Utility Programs"
+#~ msgstr "客户端程序"
+
+#~ msgid "Directories"
+#~ msgstr "目录"
+
+#~ msgid "Mounting && Unmounting"
+#~ msgstr "挂载/卸载"
+
+#~ msgid "Checks"
+#~ msgstr "检测"
+
+#, fuzzy
+#~ msgid "Notifications"
+#~ msgstr "行为"
+
+#~ msgid "Bookmarks"
+#~ msgstr "书签"
+
+#~ msgid "Remote Shares"
+#~ msgstr "远程共享"
+
+#~ msgid "Columns"
+#~ msgstr "列"
+
+#~ msgid "Tooltips"
+#~ msgstr "工具提示"
+
+#, fuzzy
+#~ msgid "Network Neighborhood"
+#~ msgstr "网络搜索"
+
+#~ msgid "View"
+#~ msgstr "查看"
+
+#, fuzzy
+#~ msgid "Mounted Shares"
+#~ msgstr "挂载共享(&s)"
+
+#~ msgid "Preview Dialog"
+#~ msgstr "预览对话框"
+
+#, fuzzy
+#~| msgid "\\u00A9 2007-2009, Alexander Reinholdt"
+#~ msgid "\\u00A9 2003-2014 Alexander Reinholdt"
+#~ msgstr "\\u00A9 2007-2009, Alexander Reinholdt"
+
+#~ msgid "Smb4K"
+#~ msgstr "Smb4K"
+
+#~ msgid "Alexander Reinholdt"
+#~ msgstr "Alexander Reinholdt"
+
+#~ msgid "Developer"
+#~ msgstr "开发者"
+
+#~ msgid "Search item:"
+#~ msgstr "搜索条目："
+
+#, fuzzy
+#~ msgid "Enter the search string here."
+#~ msgstr "进入主机"
+
+#~ msgid "&Search"
+#~ msgstr "搜索(&S)"
+
+#~ msgid "&Clear"
+#~ msgstr "清除(&C)"
+
+#~ msgid "Search Results"
+#~ msgstr "搜索结果"
+
+#, fuzzy
+#~| msgid "Smb4KNetworkBrowserPart"
+#~ msgid "Smb4KNetworkSearchPart"
+#~ msgstr "Smb4KNetworkBrowserPart"
+
+#~ msgid "Searching for \"%1\"..."
+#~ msgstr "正在搜索“%1”..."
+
+#~ msgid "Search"
+#~ msgstr "搜索"
+
+#~ msgid "Item"
+#~ msgstr "项目"
+
+#~ msgid "File System"
+#~ msgstr "文件系统"
+
+#~ msgid "Owner"
+#~ msgstr "所有者"
+
+#~ msgid "Free"
+#~ msgstr "空闲"
+
+#~ msgid "Used"
+#~ msgstr "已用"
+
+#~ msgid "Total"
+#~ msgstr "总计"
+
+#~ msgid "Usage"
+#~ msgstr "用法"
+
+#~ msgid "U&nmount All"
+#~ msgstr "全部卸载(&N)"
+
+#~ msgid "S&ynchronize"
+#~ msgstr "同步(&Y)"
+
+#, fuzzy
+#~| msgid "Open with Konso&le"
+#~ msgid "Open With"
+#~ msgstr "用 Konso&le 打开"
+
+#~ msgid "Open with Konso&le"
+#~ msgstr "用 Konso&le 打开"
+
+#~ msgid "Open with F&ile Manager"
+#~ msgstr "用文件管理器打开(&I)"
+
+#~ msgid "Smb4KSharesViewPart"
+#~ msgstr "Smb4KSharesViewPart"
+
+#~ msgid "Mounting share %1..."
+#~ msgstr "正在挂载共享 %1..."
+
+#~ msgid "Unmounting share %1..."
+#~ msgstr "正在卸载共享 %1..."
+
+#~ msgid "&Shares"
+#~ msgstr "共享(&S)"
+
+#~ msgid "&File"
+#~ msgstr "文件(&F)"
+
+#~ msgid "Sh&ares"
+#~ msgstr "共享(&A)"
+
+#~ msgid "&Bookmarks"
+#~ msgstr "书签(&B)"
+
+#~ msgid "&Settings"
+#~ msgstr "设置(&S)"
+
+#~ msgid "Network Toolbar"
+#~ msgstr "网络工具栏"
+
+#~ msgid "Search Toolbar"
+#~ msgstr "搜索工具栏"
+
+#~ msgid "Shares Toolbar"
+#~ msgstr "共享工具栏"
+
+#, fuzzy
+#~| msgid "Main Toolbar"
+#~ msgid "Alternative Main Toolbar"
+#~ msgstr "主工具栏"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "主工具栏"
+
+#~ msgid "&Edit Bookmarks"
+#~ msgstr "编辑书签(&E)"
+
+#, fuzzy
+#~| msgid "Add Bookmarks"
+#~ msgid "Mount All Bookmarks"
+#~ msgstr "添加书签"
+
+#, fuzzy
+#~ msgid "Dock Widgets"
+#~ msgstr "标签"
+
+#~ msgid "Shares View"
+#~ msgstr "Shares View"
+
+#~ msgid "Icon View"
+#~ msgstr "图标视图"
+
+#~ msgid "List View"
+#~ msgstr "列表视图"
+
+#, fuzzy
+#~ msgid "The network browser could not be created."
+#~ msgstr "目录 %1 无法被创建."
+
+#~ msgid "Network Search"
+#~ msgstr "网络搜索"
+
+#, fuzzy
+#~ msgid "The search dialog could not be created."
+#~ msgstr "目录 %1 无法被创建."
+
+#, fuzzy
+#~ msgid "The shares view could not be created."
+#~ msgstr "目录 %1 无法被创建."
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>Closing the main window will keep Smb4K running in the system tray. "
+#~ "Use 'Quit' from the 'File' menu to quit the application.</p>"
+#~ msgstr ""
+#~ "<qt>关闭主框口后 Smb4K 将在系统托盘中继续运行。可用文件菜单中的退出来退出"
+#~ "程序</qt>"
+
+#~ msgid "Docking"
+#~ msgstr "停靠"
+
+#, fuzzy
+#~ msgid "There are currently no shares mounted."
+#~ msgstr "目录 %1 无法被创建."
+
+#, fuzzy
+#~ msgid "There is currently %1 share mounted."
+#~ msgid_plural "There are currently %1 shares mounted."
+#~ msgstr[0] "目录 %1 无法被创建."
+
+#, fuzzy
+#~| msgid "Opening host..."
+#~ msgid "Waking up host %1..."
+#~ msgstr "正在打开主机..."
+
+#, fuzzy
+#~ msgid "Mounting %1 failed."
+#~ msgstr "打印文件"
+
+#~ msgid "Unmounting %1 failed."
+#~ msgstr "卸载 %1 失败。"
+
+#~ msgid "Sending file to printer %1..."
+#~ msgstr "发送文件到打印机%1..."
+
+#, fuzzy
+#~ msgid "Synchronizing %1"
+#~ msgstr "法语翻译"
+
+#, fuzzy
+#~ msgid "Retrieving preview from %1..."
+#~ msgstr "检索相关预览..."
+
+#, fuzzy
+#~ msgid "Unmount"
+#~ msgstr "卸载(&U)"
+
+#, fuzzy
+#~| msgid "Add Bookmarks"
+#~ msgid "Add Bookmark"
+#~ msgstr "添加书签"
+
+#, fuzzy
+#~| msgid "Open with Konso&le"
+#~ msgid "Open with Konsole"
+#~ msgstr "用 Konso&le 打开"
+
+#, fuzzy
+#~| msgid "Open with F&ile Manager"
+#~ msgid "Open with File Manager"
+#~ msgstr "用文件管理器打开(&I)"
+
+#~ msgid "Advanced Network Neighborhood Browser"
+#~ msgstr "高级网上邻居浏览器"
+
+#~ msgid "yes"
+#~ msgstr "是"
+
+#~ msgid "no"
+#~ msgstr "否"
+
+#, fuzzy
+#~| msgid "Master browser:"
+#~ msgid "Master browser"
+#~ msgstr "主浏览器："
+
+#~ msgid "Host"
+#~ msgstr "主机"
+
+#, fuzzy
+#~| msgid "WINS server"
+#~ msgid "Server"
+#~ msgstr "WINS 服务器"
+
+#, fuzzy
+#~| msgid "Operating system:"
+#~ msgid "Operating system"
+#~ msgstr "操作系统："
+
+#, fuzzy
+#~| msgid "Share"
+#~ msgid "Share (%1)"
+#~ msgstr "共享"
+
+#, fuzzy
+#~| msgid "Mounted:"
+#~ msgid "Mounted"
+#~ msgstr "已挂载"
+
+#, fuzzy
+#~| msgid "Mount point:"
+#~ msgid "Mountpoint"
+#~ msgstr "挂载点："
+
+#, fuzzy
+#~| msgid "File system:"
+#~ msgid "File system"
+#~ msgstr "文件系统："
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "文件："
+
+#, fuzzy
+#~| msgid "&Rescan"
+#~ msgid "Rescan"
+#~ msgstr "重新扫描(&R)"
+
+#, fuzzy
+#~| msgid "Mounting"
+#~ msgid "Mount Dialog"
+#~ msgstr "挂载"
+
+#, fuzzy
+#~| msgid "<font size=+2><b>Network</b></font>"
+#~ msgid "<font size=\"-1\">on %1</font>"
+#~ msgstr "<font size=+2><b>网络</b></font>"
+
+#, fuzzy
+#~| msgid "U&nmount All"
+#~ msgid "Unmount All"
+#~ msgstr "全部卸载(&N)"
+
+#, fuzzy
+#~| msgid "Unmounting share %1..."
+#~ msgid "Retrying to mount shares. Please wait."
+#~ msgstr "正在卸载共享 %1..."
+
+#, fuzzy
+#~ msgid "Use default security mode"
+#~ msgstr "使用默认网络写缓存大小。"
+
+#~ msgid "IP address:"
+#~ msgstr "IP 地址："
+
+#~ msgid "Mount"
+#~ msgstr "挂载"
+
+#~ msgid "Advanced"
+#~ msgstr "高级"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>Do you really want to force the unmounting of the share <b>%1</b> "
+#~ "from <b>%2</b>?</p></qt>"
+#~ msgstr "您是否要强制卸载该共享?"
+
+#, fuzzy
+#~| msgid "&Force Unmounting"
+#~ msgid "Force Unmounting"
+#~ msgstr "强制卸载(&F)"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>Do you really want to force the unmounting of all inaccessible "
+#~ "shares?</p></qt>"
+#~ msgstr "您是否要强制卸载该共享?"
+
+#, fuzzy
+#~| msgid ""
+#~| "\\u00A9 2003-2009 Alexander Reinholdt\n"
+#~| "\\u00A9 2004-2007 Massimo Callegari"
+#~ msgid ""
+#~ "\\u00A9 2003-2011 Alexander Reinholdt\n"
+#~ "\\u00A9 2004-2007 Massimo Callegari"
+#~ msgstr ""
+#~ "\\u00A9 2003-2009 Alexander Reinholdt\n"
+#~ "\\u00A9 2004-2007 Massimo Callegari"
+
+#~ msgid "&Force Unmounting"
+#~ msgstr "强制卸载(&F)"
+
+#, fuzzy
+#~ msgid "<qt>Please enter a username and a password.</qt>"
+#~ msgstr "请为 %1键入登录数据."
+
+#~ msgid "UNC Address"
+#~ msgstr "UNC 地址"
+
+#~ msgid "Write Access"
+#~ msgstr "写入访问"
+
+#~ msgid "Kerberos"
+#~ msgstr "Kerberos"
+
+#~ msgid "User ID"
+#~ msgstr "用户 ID"
+
+#~ msgid "Group ID"
+#~ msgstr "组 ID"
+
+#~ msgid "SMB Port"
+#~ msgstr "SMB 端口"
+
+#~ msgid "File System Port"
+#~ msgstr "文件系统端口"
+
+#~ msgid "Automatic"
+#~ msgstr "自动"
+
+#~ msgid "Massimo Callegari"
+#~ msgstr "Massimo Callegari"
+
+#~ msgid "A&dd"
+#~ msgstr "添加(&D)"
+
+#~ msgid "automatic"
+#~ msgstr "自动"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The format of the UNC address you entered is not correct. It must "
+#~ "have the form //[USER@]HOST/SHARE."
+#~ msgstr "共享路径输入错误，应遵循以下形式//HOST/SHARE."
+
+#~ msgid "M&ount Manually"
+#~ msgstr "手动挂载(&O)"
+
+#~ msgid "Share"
+#~ msgstr "共享"
+
+#~ msgid "Bookmark Editor"
+#~ msgstr "书签编辑器"
+
+#~ msgid "Bookmark"
+#~ msgstr "书签编辑器"
+
+#, fuzzy
+#~| msgid "Print File"
+#~ msgid "Printing"
+#~ msgstr "打印文件"
+
+#, fuzzy
+#~| msgid "Converting file to Postscript..."
+#~ msgid "Converting File to PostScript"
+#~ msgstr "将文件转换为 PostScript..."
+
+#, fuzzy
+#~| msgid "Print File"
+#~ msgid "Input File"
+#~ msgstr "打印文件"
+
+#, fuzzy
+#~ msgid "Location"
+#~ msgstr "行为"
+
+#~ msgid "Files transferred:"
+#~ msgstr "传输的文件："
+
+#~ msgid "Transfer rate:"
+#~ msgstr "传输速度："
+
+#, fuzzy
+#~| msgid "Actions"
+#~ msgid "NoSuchAction"
+#~ msgstr "行为"
+
+#, fuzzy
+#~| msgid "The permission was denied. "
+#~ msgid "The authentication action was denied."
+#~ msgstr "权限不足"
+
+#, fuzzy
+#~| msgid "The permission was denied. "
+#~ msgid "The authentication was denied."
+#~ msgstr "权限不足"
+
+#, fuzzy
+#~ msgid "The directory <b>%1</b> could not be created."
+#~ msgstr "目录 %1 无法被创建."
+
+#, fuzzy
+#~| msgid "Links"
+#~ msgid "List"
+#~ msgstr "链接"
+
+#, fuzzy
+#~ msgid "A system call failed."
+#~ msgstr "搜索 %1 失败。"
+
+#~ msgid "\\u00A9 2007-2009, Alexander Reinholdt"
+#~ msgstr "\\u00A9 2007-2009, Alexander Reinholdt"
+
+#~ msgid "Share:"
+#~ msgstr "共享："
+
+#~ msgid "Owner:"
+#~ msgstr "所有者："
+
+#~ msgid "Free:"
+#~ msgstr "剩余："
+
+#~ msgid "Used:"
+#~ msgstr "已用："
+
+#~ msgid "Total:"
+#~ msgstr "总计："
+
+#~ msgid "Usage:"
+#~ msgstr "使用率："
+
+#, fuzzy
+#~ msgid "Pseudo master browser:"
+#~ msgstr "伪主服务器："
+
+#~ msgid "Host:"
+#~ msgstr "主机："
+
+#~ msgid "Comment:"
+#~ msgstr "注释："
+
+#~ msgid "Server string:"
+#~ msgstr "服务器字符串："
+
+#~ msgid "Type:"
+#~ msgstr "类型："
+
+#, fuzzy
+#~| msgid "Italian translation"
+#~ msgid "Invalid action"
+#~ msgstr "意大利语翻译"
+
+#~ msgid "Smb4KSearchDialogPart"
+#~ msgstr "Smb4KSearchDialogPart"
+
+#~ msgid "Remove Entries"
+#~ msgstr "删除项目"
+
+#~ msgid "Super User"
+#~ msgstr "超级用户登录"
+
+#, fuzzy
+#~ msgid "Writing to the <b>sudoers</b> file failed."
+#~ msgstr "打印文件"
+
+#, fuzzy
+#~| msgid "(c) 2008, Alexander Reinholdt"
+#~ msgid "(C) 2010, Alexander Reinholdt"
+#~ msgstr "(c) 2008, Alexander Reinholdt"
+
+#, fuzzy
+#~| msgid "smb4k_sudowriter"
+#~ msgid "smb4k_mount"
+#~ msgstr "smb4k_sudowriter"
+
+#, fuzzy
+#~ msgid "Username to authenticate with"
+#~ msgstr "试图用 Kerberos 验证身份。"
+
+#, fuzzy
+#~ msgid "The UNC of the remote share"
+#~ msgstr "显示 IP 地址。"
+
+#, fuzzy
+#~ msgid "The mountpoint for the remote share"
+#~ msgstr "显示挂载点，而非共享名。"
+
+#~ msgid "Aborting."
+#~ msgstr "中止。"
+
+#, fuzzy
+#~| msgid "An error occurred."
+#~ msgid "An error occurred:"
+#~ msgstr "发生了错误！"
+
+#, fuzzy
+#~| msgid "(c) 2008, Alexander Reinholdt"
+#~ msgid "(C) 2008-2010, Alexander Reinholdt"
+#~ msgstr "(c) 2008, Alexander Reinholdt"
+
+#~ msgid "smb4k_sudowriter"
+#~ msgstr "smb4k_sudowriter"
+
+#, fuzzy
+#~ msgid "The lock file could not be created."
+#~ msgstr "目录 %1 无法被创建."
+
+#, fuzzy
+#~ msgid "The sudoers file is currently being edited."
+#~ msgstr "目录 %1 无法被创建."
+
+#, fuzzy
+#~| msgid "smb4k_sudowriter"
+#~ msgid "smb4k_umount"
+#~ msgstr "smb4k_sudowriter"
+
+#, fuzzy
+#~ msgid "The mountpoint of the share"
+#~ msgstr "显示挂载点，而非共享名。"
+
+#, fuzzy
+#~ msgid "Use super user privileges to mount and unmount shares"
+#~ msgstr "使用超级用户特权加载或卸载共享。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The name of your computer could not be determined by using the "
+#~ "gethostname() system call.</p><p>Detailed information cannot be provided "
+#~ "because there was no error message.</p></qt>"
+#~ msgstr "不能确定磁盘使用状态。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The name of your computer could not be determined by using the "
+#~ "gethostname() system call.</p><p>Read the error message under \"Details\" "
+#~ "to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid "<qt>This feature has not been enabled.</qt>"
+#~ msgstr "不能激活该功能！"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>An error occurred while parsing the XML file \"%1\".</"
+#~ "p><p>Detailed information cannot be provided because there was no error "
+#~ "message.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>An error occurred while parsing the XML file \"%1\".</p><p>Read "
+#~ "the error message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>An unknown error occurred.</p><p>Detailed information cannot be "
+#~ "provided because there was no error message.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>An unknown error occurred.</p><p>Read the error message under "
+#~ "\"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#~ msgid "<qt>The file \"%1\" could not be found.</qt>"
+#~ msgstr "<qt>找不到文件“%1”</qt>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>Either your PATH environment variable is not set properly or there "
+#~ "are the following programs missing on your system:</p><p>%1</p><p>Please "
+#~ "correct this and restart Smb4K.</p></qt>"
+#~ msgstr ""
+#~ "您的 PATH 变量设置不正确，或者是您的系统缺少下面的程序：\n"
+#~ "%1\n"
+#~ "请纠正该错误并重新启动 Smb4k。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>An error occurred while writing to the sudoers file.</"
+#~ "p><p>Detailed information cannot be provided because there was no error "
+#~ "message.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>An error occurred while writing to the sudoers file.</p><p>Read "
+#~ "the error message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The temporary file could not be created.</p><p>Detailed "
+#~ "information cannot be provided because there was no error message.</p></"
+#~ "qt>"
+#~ msgstr "不能确定磁盘使用状态。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The temporary file could not be created.</p><p>Read the error "
+#~ "message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#~ msgid "<qt>The file \"%1\" could not be opened.</qt>"
+#~ msgstr "<qt>无法打开文件“%1”</qt>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The file \"%1\" could not be opened.</p><p>Read the error message "
+#~ "under \"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The share %1 could not be unmounted.</p><p>Detailed information "
+#~ "cannot be provided because there was no error message.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The share %1 could not be unmounted.</p><p>Read the error message "
+#~ "under \"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The file \"%1\" could not be printed.</p></p>Detailed information "
+#~ "cannot be provided because there was no error message.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The file \"%1\" could not be printed.</p><p>Read the error message "
+#~ "under \"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt></p>The synchronization could not be finished successfully.</"
+#~ "p><p>Detailed information cannot be provided because there was no error "
+#~ "message.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The synchronization could not be finished successfully.</p><p>Read "
+#~ "the error message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The search could not be finished successfully.</p><p>Detailed "
+#~ "information cannot be provided because there was no error message.</p></"
+#~ "qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The search could not be finished successfully.</p><p>Read the "
+#~ "error message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of registered IP addresses within the given broadcast "
+#~ "areas could not be retrieved.</p><p>Detailed information cannot be "
+#~ "provided because there was no error message.</p></qt>"
+#~ msgstr "不能确定磁盘使用状态。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of registered IP addresses within the given broadcast "
+#~ "areas could not be retrieved.</p><p>Read the error message under \"Details"
+#~ "\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of servers could not be retrieved.</p><p>Detailed "
+#~ "information cannot be provided because there was no error message.</p></"
+#~ "qt>"
+#~ msgstr "不能确定磁盘使用状态。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of servers could not be retrieved.</p><p>Read the error "
+#~ "message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of shares could not be retrieved.</p><p>Detailed "
+#~ "information cannot be provided because there was no error message.</p></"
+#~ "qt>"
+#~ msgstr "不能确定磁盘使用状态。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of shares could not be retrieved.</p><p>Read the error "
+#~ "message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The preview could not be compiled.</p><p>Detailed information "
+#~ "cannot be provided because there was no error message.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The preview could not be compiled.</p><p>Read the error message "
+#~ "under \"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The share %1 could not be mounted.</p><p>Detailed information "
+#~ "cannot be provided because there was no error message.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The share %1 could not be mounted.</p><p>Read the error message "
+#~ "under \"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The share could not be unmounted, because the mount point string was "
+#~ "empty.</qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of mounted shares could not be imported.</p><p>Detailed "
+#~ "information cannot be provided because there was no error message.</p></"
+#~ "qt>"
+#~ msgstr "不能确定磁盘使用状态。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of mounted shares could not be imported.</p><p>Read the "
+#~ "error message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The list of arguments for the \"net\" command could not be assembled."
+#~ "</qt>"
+#~ msgstr "不能确定主机名。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of workgroups and domains could not be retrieved.</"
+#~ "p><p>Detailed information cannot be provided because there was no error "
+#~ "message.</p></qt>"
+#~ msgstr "不能确定磁盘使用状态。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><p>The list of workgroups and domains could not be retrieved.</"
+#~ "p><p>Read the error message under \"Details\" to find out more.</p></qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>You previously chose to use \"%1\", but now it is missing on your "
+#~ "system. Smb4K will disable this feature.</qt>"
+#~ msgstr "您之前选择使用 %1，但它在您现有系统上不存在。Smb4K 将关闭该功能。"
+
+#~ msgid "Main Window"
+#~ msgstr "主窗口"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The wallet \"%1\" could not be opened. KWallet support will be "
+#~ "disabled for this session.</qt>"
+#~ msgstr "找不到文件 %1 ."
+
+#~ msgid "System Tray"
+#~ msgstr "系统托盘"
+
+#, fuzzy
+#~ msgid "Main Window && System Tray"
+#~ msgstr "停靠在系统托盘中"
+
+#, fuzzy
+#~ msgid "none"
+#~ msgstr "无"
+
+#, fuzzy
+#~ msgid "on"
+#~ msgstr "无"
+
+#, fuzzy
+#~| msgid "Preview"
+#~ msgid "The preview"
+#~ msgstr "预览"
+
+#, fuzzy
+#~ msgid "The source directory"
+#~ msgstr "活动目录"
+
+#, fuzzy
+#~ msgid "The workgroup where the host is located"
+#~ msgstr "目录 %1 无法被创建."
+
+#, fuzzy
+#~ msgid "The UNC address of the host"
+#~ msgstr "显示 IP 地址。"
+
+#, fuzzy
+#~ msgid "The port used for communicating with servers"
+#~ msgstr "与服务器通讯时使用 unicode 编码。"
+
+#, fuzzy
+#~ msgid "The user ID"
+#~ msgstr "用户名："
+
+#, fuzzy
+#~ msgid "The group ID"
+#~ msgstr "组："
+
+#, fuzzy
+#~ msgid "The IPv4 or IPv6 address"
+#~ msgstr "显示 IP 地址。"
+
+#, fuzzy
+#~| msgid "Bookmark Editor"
+#~ msgid "Bookmark this share"
+#~ msgstr "书签编辑器"
+
+#, fuzzy
+#~ msgid "Try to authenticate with Kerberos (Active Directory)"
+#~ msgstr "试图用 Kerberos 验证身份。"
+
+#, fuzzy
+#~ msgid "Port"
+#~ msgstr "打印机："
+
+#, fuzzy
+#~ msgid "[Shares] The mount prefix is empty."
+#~ msgstr "挂载共享："
+
+#, fuzzy
+#~ msgid "[Samba] The file mask is empty."
+#~ msgstr "挂载共享："
+
+#, fuzzy
+#~ msgid "[Synchronization] The rsync prefix is empty."
+#~ msgstr "挂载共享："
+
+#, fuzzy
+#~ msgid "There are currently %1 shares mounted."
+#~ msgstr "目录 %1 无法被创建."
+
+#~ msgid "Catalan translation"
+#~ msgstr "西班牙语翻译"
+
+#~ msgid "Polish translation"
+#~ msgstr "波兰语翻译"
+
+#~ msgid "Chinese Simplified translation"
+#~ msgstr "简体中文翻译"
+
+#~ msgid "Russian translation"
+#~ msgstr "俄语翻译"
+
+#~ msgid "Swedish translation and intensive testing"
+#~ msgstr "瑞典语翻译"
+
+#~ msgid "Brazilian Portuguese translation"
+#~ msgstr "巴西葡萄牙语翻译"
+
+#~ msgid "Ukrainian translation"
+#~ msgstr "乌克兰语翻译"
+
+#~ msgid "Hungarian translation"
+#~ msgstr "匈牙利语翻译"
+
+#~ msgid "Spanish translation"
+#~ msgstr "西班牙语翻译"
+
+#~ msgid "Slovak translation"
+#~ msgstr "斯洛法克语翻译"
+
+#~ msgid "French translation"
+#~ msgstr "法语翻译"
+
+#~ msgid "Japanese translation"
+#~ msgstr "日语翻译"
+
+#~ msgid "Bulgarian translation"
+#~ msgstr "保加利亚语翻译"
+
+#~ msgid "Norwegian translations"
+#~ msgstr "挪威语翻译"
+
+#~ msgid "Czech translation"
+#~ msgstr "捷克语翻译"
+
+#~ msgid "Turkish translation"
+#~ msgstr "土耳其语翻译"
+
+#, fuzzy
+#~ msgid "Chinese Traditional translation"
+#~ msgstr "简体中文翻译"
+
+#, fuzzy
+#~ msgid "Icelandic translation"
+#~ msgstr "意大利语翻译"
+
+#, fuzzy
+#~ msgid "Danish translation"
+#~ msgstr "西班牙语翻译"
+
+#, fuzzy
+#~ msgid "Dutch translation"
+#~ msgstr "捷克语翻译"
+
+#~ msgid "Testing of Smb4K under FreeBSD"
+#~ msgstr "FreeBSD 下的 Smb4k 测试"
+
+#, fuzzy
+#~| msgid "This share has already been mounted."
+#~ msgid "The share was successfully mounted."
+#~ msgstr "此共享已被挂载！"
+
+#, fuzzy
+#~| msgid "This share has already been mounted."
+#~ msgid "The share was successfully unmounted."
+#~ msgstr "此共享已被挂载！"
+
+#~ msgid "The access was denied. "
+#~ msgstr "访问被拒"
+
+#, fuzzy
+#~ msgid "The password is not correct. "
+#~ msgstr "密码不正确。"
+
+#~ msgid "An authentication error occurred. "
+#~ msgstr "发生了认证错误！"
+
+#~ msgid "The logon failed. "
+#~ msgstr "登录失败。"
+
+#, fuzzy
+#~ msgid "Please enter authentication data for server %1."
+#~ msgstr "请为 %1键入登录数据."
+
+#, fuzzy
+#~ msgid "Scan Network"
+#~ msgstr "网络"
+
+#, fuzzy
+#~ msgid "Samba Browser"
+#~ msgstr "Smb4K 选项"
+
+#, fuzzy
+#~ msgid "Search Dialog"
+#~ msgstr "正在搜索..."
+
+#~ msgid "You haven't specified a file."
+#~ msgstr "您没有指定文件！"
+
+#, fuzzy
+#~ msgid "Querying master browser for workgroups and domains..."
+#~ msgstr "查询主机以获取浏览列表。"
+
+#, fuzzy
+#~ msgid "Scanning broadcast areas for workgroups and domains..."
+#~ msgstr "查询主机以获取浏览列表。"
+
+#, fuzzy
+#~ msgid "Looking for workgroup members..."
+#~ msgstr "查询主机以获取浏览列表。"
+
+#, fuzzy
+#~ msgid "Querying host for list of shares..."
+#~ msgstr "在获取共享列表时，发生错误！"
+
+#, fuzzy
+#~ msgid "Querying host for additional information..."
+#~ msgstr "检索相关信息..."
+
+#, fuzzy
+#~ msgid "Generating preview..."
+#~ msgstr "检索相关预览..."
+
+#, fuzzy
+#~ msgid "Searching..."
+#~ msgstr "正在搜索网络..."
+
+#, fuzzy
+#~ msgid "Buffer size exceeded"
+#~ msgstr "缓存大小："
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Some file permissions could not be determined.\n"
+#~ "Detailed information cannot be provided because there was no error "
+#~ "message.</qt>"
+#~ msgstr "不能确定磁盘使用状态。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>Some file permissions could not be determined.\n"
+#~ "Read the error message under \"Details\" to find out more.</qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The file \"%1\" is currently being edited by user %2. To avoid any "
+#~ "problems, access to this file is denied at the moment. Please try again "
+#~ "later.</qt>"
+#~ msgstr "其他用户正在编辑一个Smb4K要写入的系统文件. 请稍后重试."
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The temporary file \"%1\" could not be created.\n"
+#~ "Detailed information cannot be provided because there was no error "
+#~ "message.</qt>"
+#~ msgstr "不能确定磁盘使用状态。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The temporary file \"%1\" could not be created.\n"
+#~ "Read the error message under \"Details\" to find out more.</qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid "<qt>The directory \"%1\" could not be found.</qt>"
+#~ msgstr "找不到文件 %1 ."
+
+#, fuzzy
+#~ msgid "<qt>The file \"%1\" could not be closed.</qt>"
+#~ msgstr "找不到文件 %1 ."
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The file \"%1\" could not be closed.\n"
+#~ "Read the error message under \"Details\" to find out more.</qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The list of supplementary group IDs could not be determined.</qt>"
+#~ msgstr "不能确定主机名。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>The list of supplementary group IDs could not be determined.\n"
+#~ "Read the error message under \"Details\" to find out more.</qt>"
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#~ msgid "Use the following program to gain super user privileges:"
+#~ msgstr "使用下面的程序来获得超级用户权限："
+
+#~ msgid "sudo"
+#~ msgstr "sudo"
+
+#, fuzzy
+#~ msgid "super"
+#~ msgstr "用户"
+
+#~ msgid "Programs"
+#~ msgstr "程序"
+
+#~ msgid "Network Browser"
+#~ msgstr "网络浏览器"
+
+#, fuzzy
+#~ msgid "Port:"
+#~ msgstr "打印机："
+
+#~ msgid "CIFS"
+#~ msgstr "CIFS"
+
+#~ msgid "Caching time of directory listings:"
+#~ msgstr "缓存目录列表的时间："
+
+#, fuzzy
+#~ msgid "Use large file support"
+#~ msgstr "使用大文件系统支持。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>NOTE: You might need to enable support for either <i>sudo</i> or "
+#~ "<i>super</i> in the Super User page.</qt>"
+#~ msgstr ""
+#~ "如果您选择 CIFS 文件系统，您可能需要超级用户权限来执行挂载（mount）命令。"
+
+#, fuzzy
+#~ msgid "User && Group"
+#~ msgstr "用户和组"
+
+#, fuzzy
+#~ msgid "Charset && Codepage"
+#~ msgstr "字符集编码"
+
+#~ msgid "Permissions"
+#~ msgstr "许可证"
+
+#, fuzzy
+#~ msgid "Allow dragging of shares"
+#~ msgstr "显示打印机共享。"
+
+#, fuzzy
+#~ msgid "Drag && Drop"
+#~ msgstr "用户和组"
+
+#, fuzzy
+#~ msgid "Open with &Konqueror"
+#~ msgstr "Konqueror(&K)"
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "KDE 简体中文翻译组 Nick Chen, Bamfox"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr ""
+#~ "i18n-translation@lists.linux.net.cn, nick.chen@360degreeweb.com , "
+#~ "bamfox@163.com"
+
+#, fuzzy
+#~ msgid "Remove &All"
+#~ msgstr "全部删除"
+
+#, fuzzy
+#~ msgid ""
+#~ "Up to KDE 3.3.x, KIO and Konqueror cannot handle CIFS shares. Konqueror "
+#~ "will hang if you try to access it.\n"
+#~ "Do you want to continue?"
+#~ msgstr ""
+#~ "至少升级至 KDE 3.3.1，KIO 和 Konqueror 不能处理 CIFS 共享。如果您试图访问 "
+#~ "CIFS 共享，Konqueror 将挂起。您想继续吗？"
+
+#, fuzzy
+#~ msgid "Show the comment of a share"
+#~ msgstr "显示隐藏共享。"
+
+#, fuzzy
+#~ msgid "Show the mount point of a share instead of its name"
+#~ msgstr "显示挂载点，而非共享名。"
+
+#, fuzzy
+#~ msgid "Allow the dragging of share icons"
+#~ msgstr "显示打印机共享。"
+
+#, fuzzy
+#~ msgid "Force the subdirectories created by Smb4K to be lowercase"
+#~ msgstr "强制生成的子目录为小写。"
+
+#, fuzzy
+#~ msgid "Allow the unmounting of shares owned by other users"
+#~ msgstr "允许挂载其它用户的共享。"
+
+#, fuzzy
+#~ msgid "Use a wallet to store authentication data"
+#~ msgstr "请为 %1键入登录数据."
+
+#, fuzzy
+#~ msgid "The socket options"
+#~ msgstr "套接字选项："
+
+#, fuzzy
+#~ msgid "The NetBIOS scope"
+#~ msgstr "NetBIOS 名："
+
+#, fuzzy
+#~ msgid "The remote SMB port"
+#~ msgstr "远程 SMB 端口："
+
+#, fuzzy
+#~ msgid "Use machine account for login"
+#~ msgstr "使用缺省身份登录。"
+
+#, fuzzy
+#~ msgid "The group ID that is to be used for mounting"
+#~ msgstr "用下列文件系统挂载远程共享："
+
+#, fuzzy
+#~ msgid "Long file support"
+#~ msgstr "使用大文件系统支持。"
+
+#, fuzzy
+#~ msgid "Prefix for synchronization"
+#~ msgstr "缺省登录"
+
+#, fuzzy
+#~ msgid "The program that should be used to gain super user privileges"
+#~ msgstr "使用下面的程序来获得超级用户权限："
+
+#, fuzzy
+#~ msgid "Use super user privileges to unmount inaccessible shares"
+#~ msgstr "使用超级用户特权加载或卸载共享。"
+
+#, fuzzy
+#~ msgid ""
+#~ "The browse list could not be retrieved.\n"
+#~ "Detailed information cannot be provided because there was no error "
+#~ "message."
+#~ msgstr "不能确定磁盘使用状态。"
+
+#, fuzzy
+#~ msgid ""
+#~ "The browse list could not be retrieved.\n"
+#~ "Read the error message under \"Details\" to find out more."
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid "The file \"%1\" could not be read."
+#~ msgstr "不能读取文件 %1！"
+
+#, fuzzy
+#~ msgid ""
+#~ "The file \"%1\" could not be read.\n"
+#~ "Read the error message under \"Details\" to find out more."
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid "The file \"%1\" could not be written."
+#~ msgstr "不能读取文件 %1！"
+
+#, fuzzy
+#~ msgid ""
+#~ "IP addresses are not supported with this search method. Please choose "
+#~ "\"Use nmblookup\" in the configuration dialog and try again."
+#~ msgstr ""
+#~ "你选择的搜索方法（smbclient）不能正确处理IP地址，请在配置对话框中选择\"使"
+#~ "用nmblookup\"并重试。"
+
+#, fuzzy
+#~ msgid "Shares Vie&w"
+#~ msgstr "共享视图"
+
+#, fuzzy
+#~ msgid "List Vie&w"
+#~ msgstr "共享视图"
+
+#, fuzzy
+#~ msgid "Jump to shares view"
+#~ msgstr "共享视图"
+
+#, fuzzy
+#~ msgid "Jump to network browser"
+#~ msgstr "网络浏览器"
+
+#, fuzzy
+#~ msgid "Jump to search dialog"
+#~ msgstr "正在搜索..."
+
+#~ msgid "Docking in System Tray"
+#~ msgstr "停靠在系统托盘中"
+
+#~ msgid "Exiting..."
+#~ msgstr "正在退出..."
+
+#, fuzzy
+#~ msgid "Querying current master browser..."
+#~ msgstr "查询主机以获取浏览列表。"
+
+#, fuzzy
+#~ msgid "Querying master browser %1..."
+#~ msgstr "查询主机以获取浏览列表。"
+
+#, fuzzy
+#~ msgid "Scanning broadcast areas..."
+#~ msgstr "广播地址："
+
+#~ msgid "Opening workgroup..."
+#~ msgstr "正在打开工作组..."
+
+#, fuzzy
+#~ msgid "If no wallet is used, remember authentication data during run time"
+#~ msgstr "请为 %1键入登录数据."
+
+#, fuzzy
+#~ msgid "Use default login"
+#~ msgstr "使用缺省身份登录。"
+
+#, fuzzy
+#~ msgid "Show IPC$ shares"
+#~ msgstr "显示 IPC$ 共享。"
+
+#, fuzzy
+#~ msgid "Show ADMIN$ shares"
+#~ msgstr "显示 ADMIN$ 共享。"
+
+#, fuzzy
+#~ msgid "Show type"
+#~ msgstr "显示类型。"
+
+#, fuzzy
+#~ msgid ""
+#~ "Smb4K uses \"nmblookup\" by default to search for remote hosts. This "
+#~ "method is very reliable but fails sometimes if your network neighborhood "
+#~ "is configured uncommonly. In this case you should try to use \"smbclient"
+#~ "\"."
+#~ msgstr ""
+#~ "Smb4K缺省使用<i>nmblookup</i>来进行网络搜索。该方法非常可靠，当如果你的网"
+#~ "络邻居使用了非通用设置，可能导致其失败，在这种情况下，您应尝试使用"
+#~ "<i>smbclient</i>。"
+
+#, fuzzy
+#~ msgid "Use nmblookup (recommended)"
+#~ msgstr "使用nmblookup。(推荐)"
+
+#, fuzzy
+#~ msgid "Smb4KConfigDialog"
+#~ msgstr "Smb4K挂载对话框"
+
+#, fuzzy
+#~ msgid "Rsync prefix:"
+#~ msgstr "挂载共享："
+
+#, fuzzy
+#~ msgid ""
+#~ "NOTE: You might need to enable support for either \"super\" or \"sudo\" "
+#~ "in the Super User page."
+#~ msgstr ""
+#~ "如果您选择 CIFS 文件系统，您可能需要超级用户权限来执行挂载（mount）命令。"
+
+#, fuzzy
+#~ msgid "Use large file system support"
+#~ msgstr "使用大文件系统支持。"
+
+#, fuzzy
+#~ msgid "Custom"
+#~ msgstr "Smb4K 选项"
+
+#, fuzzy
+#~ msgid "The default user name for authentication"
+#~ msgstr "该 master browser 需要认证。"
+
+#, fuzzy
+#~ msgid "The default password for authentication"
+#~ msgstr "该 master browser 需要认证。"
+
+#, fuzzy
+#~ msgid "Querying %1..."
+#~ msgstr "正在搜索网络..."
+
+#, fuzzy
+#~ msgid "Retrieving browse list from current master browser..."
+#~ msgstr "检索相关预览..."
+
+#, fuzzy
+#~ msgid "Querying %1 to compose browse list..."
+#~ msgstr "查询主机以获取浏览列表。"
+
+#, fuzzy
+#~ msgid "Scanning network to retrieve browse list..."
+#~ msgstr "扫描网络以获取浏览列表。"
+
+#, fuzzy
+#~ msgid "Show shares as list instead of as icons"
+#~ msgstr "将共享显示为列表，而非图标。"
+
+#~ msgid ""
+#~ "Smb4K is an SMB/CIFS share browser for KDE.\n"
+#~ "It uses Samba to access the local network neighborhood."
+#~ msgstr ""
+#~ "Smb4K 是一个 KDE 下的 SMB/CIFS 共享浏览器。\n"
+#~ "它使用 Samba 访问局域网的网上邻居。"
+
+#, fuzzy
+#~ msgid "Scan netwo&rk"
+#~ msgstr "网络"
+
+#, fuzzy
+#~ msgid "&Custom options"
+#~ msgstr "Smb4K 选项"
+
+#, fuzzy
+#~ msgid "&Print file"
+#~ msgstr "打印文件(&P)"
+
+#, fuzzy
+#~ msgid "Broadcast addresses for IP scan:"
+#~ msgstr "广播地址："
+
+#, fuzzy
+#~ msgid ""
+#~ "Smb4K uses <i>nmblookup</i> by default to do network searches. This "
+#~ "method is very reliable but fails sometimes if your network neighborhood "
+#~ "is configured uncommonly. In this case you should try to use "
+#~ "<i>smbclient</i>."
+#~ msgstr ""
+#~ "Smb4K缺省使用<i>nmblookup</i>来进行网络搜索。该方法非常可靠，当如果你的网"
+#~ "络邻居使用了非通用设置，可能导致其失败，在这种情况下，您应尝试使用"
+#~ "<i>smbclient</i>。"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use super user privileges to force the unmounting of (broken) shares\n"
+#~ "(Requires Linux kernel 2.4.11 or later)"
+#~ msgstr ""
+#~ "使用超级用户特权强制卸载已不存在（broken）共享。 \n"
+#~ "（需要 Linux kernel 2.4.11 或更高版本的支持。）"
+
+#~ msgid "Samba Options"
+#~ msgstr "Smb4K 选项"
+
+#~ msgid "Super User Privileges"
+#~ msgstr "超级用户权限"
+
+#~ msgid ""
+#~ "You forgot to enter the host you want to query to retrieve the browse "
+#~ "list.\n"
+#~ "Do you want to enter it now?"
+#~ msgstr ""
+#~ "你忘记输入你要检索的浏览列表的主机名.\n"
+#~ "你要现在输入它吗?"
+
+#, fuzzy
+#~ msgid ""
+#~ "You forgot to enter the broadcast address(es) for the IP scan.\n"
+#~ "Do you want to enter them now?"
+#~ msgstr ""
+#~ "您还没有输入您的缺省密码。\n"
+#~ "您现在要输入吗？"
+
+#, fuzzy
+#~ msgid ""
+#~ "You forgot to enter the mount prefix.\n"
+#~ "Do you want to enter it now?"
+#~ msgstr ""
+#~ "您还没有输入您最新的缺省登录名。\n"
+#~ "您现在要输入吗？"
+
+#, fuzzy
+#~ msgid "Only transform unsafe links"
+#~ msgstr "许可证"
+
+#, fuzzy
+#~ msgid "Preserve owner (root only)"
+#~ msgstr "许可证"
+
+#, fuzzy
+#~ msgid "Domain (workgroup):"
+#~ msgstr "SMB 域（工作组）"
+
+#, fuzzy
+#~ msgid "Scope (Read manual page):"
+#~ msgstr "范围（请先阅读用户手册页）："
+
+#~ msgid "Active Directory"
+#~ msgstr "活动目录"
+
+#, fuzzy
+#~ msgid "Linux charset:"
+#~ msgstr "Linux 语言字符集："
+
+#, fuzzy
+#~ msgid "Use unicode when communicating with the server"
+#~ msgstr "与服务器通讯时使用 unicode 编码。"
+
+#, fuzzy
+#~ msgid "Use default network read size"
+#~ msgstr "使用默认网络读缓存大小。"
+
+#, fuzzy
+#~ msgid "Auto"
+#~ msgstr "Smb4K 选项"
+
+#, fuzzy
+#~ msgid "Active Directory (LDAP/Kerberos)"
+#~ msgstr "活动目录"
+
+#, fuzzy
+#~ msgid "RAP (older systems)"
+#~ msgstr "文件系统"
+
+#, fuzzy
+#~ msgid "Resolve order:"
+#~ msgstr "取消序列："
+
+#, fuzzy
+#~ msgid "The user IDs present on the system"
+#~ msgstr "显示挂载于系统上的全部共享。"
+
+#~ msgid "This login will be used, if none has been defined for a share."
+#~ msgstr "如果没有定义共享，将使用它登录。"
+
+#~ msgid ""
+#~ "You forgot to enter the default login and password.\n"
+#~ "Do you want to enter them now?"
+#~ msgstr ""
+#~ "您还没有输入您最新的缺省登录名和密码。\n"
+#~ "您现在要输入吗？"
+
+#~ msgid ""
+#~ "You forgot to enter the default login.\n"
+#~ "Do you want to enter it now?"
+#~ msgstr ""
+#~ "您还没有输入您最新的缺省登录名。\n"
+#~ "您现在要输入吗？"
+
+#~ msgid ""
+#~ "You forgot to enter the default password.\n"
+#~ "Do you want to enter it now?"
+#~ msgstr ""
+#~ "您还没有输入您的缺省密码。\n"
+#~ "您现在要输入吗？"
+
+#~ msgid "Printer:"
+#~ msgstr "打印机："
+
+#~ msgid "Copies"
+#~ msgstr "份数"
+
+#, fuzzy
+#~ msgid "Preparing Synchronization ..."
+#~ msgstr "法语翻译"
+
+#, fuzzy
+#~ msgid ""
+#~ "The disk usage could not be determined.\n"
+#~ "Detailed information cannot be provided because there was no error "
+#~ "message."
+#~ msgstr "不能确定磁盘使用状态。"
+
+#, fuzzy
+#~ msgid ""
+#~ "The disk usage could not be determined.\n"
+#~ "Read the error message under 'Details' to find out more."
+#~ msgstr "无法卸载该共享！挂载点为空。"
+
+#, fuzzy
+#~ msgid "The kernel (%1) does not support this operation."
+#~ msgstr "您的内核(%1)不支持该操作！"
+
+#~ msgid "Smb4K - The SMB/CIFS Share Browser"
+#~ msgstr "Smb4K - SMB/CIFS 共享浏览器"
+
+#, fuzzy
+#~ msgid "Jump to Search Dialog (Alternative)"
+#~ msgstr "正在搜索..."
+
+#~ msgid "Browse list retrieval"
+#~ msgstr "浏览获取的列表"
+
+#~ msgid "Version"
+#~ msgstr "版本"
+
+#, fuzzy
+#~ msgid "Master"
+#~ msgstr "主服务器："
+
+#~ msgid "Mounted &Shares"
+#~ msgstr "挂载共享(&s)"
+
+#, fuzzy
+#~ msgid "Range Scan"
+#~ msgstr "重新扫描(&R)"
+
+#, fuzzy
+#~ msgid ""
+#~ "You forgot to enter the IP address ranges you want to scan to retrieve "
+#~ "the browse list.\n"
+#~ "Do you want to enter them now?"
+#~ msgstr ""
+#~ "你忘记输入你要检索的浏览列表的主机名.\n"
+#~ "你要现在输入它吗?"
+
+#~ msgid "Set the UID to:"
+#~ msgstr "设置 UID 为："
+
+#~ msgid "Set the GID to:"
+#~ msgstr "设置 GID 为："
+
+#, fuzzy
+#~ msgid "IP address"
+#~ msgstr "IP 地址:"
+
+#, fuzzy
+#~ msgid "Workgroup/Domain"
+#~ msgstr "工作组"
+
+#~ msgid "Mount shares:"
+#~ msgstr "挂载共享："
+
+#~ msgid "An error occurred while trying to get the list of workgroup members."
+#~ msgstr "在获取工作组成员列表时，发生错误！"
+
+#~ msgid "An error occurred while trying to get the preview."
+#~ msgstr "在预览时，发生错误！"
+
+#~ msgid "An error occurred while trying to mount the share."
+#~ msgstr "在挂载共享时，发生错误！"
+
+#~ msgid "An error occurred while trying to unmount the share."
+#~ msgstr "在卸载共享时，发生错误！"
+
+#~ msgid "An error occurred while trying to unmount all shares."
+#~ msgstr "在卸载全部共享时，发生错误！"
+
+#~ msgid "The file %1 could not be written successfully."
+#~ msgstr "不能成功的写入文件 %1！"
+
+#, fuzzy
+#~ msgid "An error occurred while trying to print."
+#~ msgstr "在预览时，发生错误！"
+
+#, fuzzy
+#~ msgid "An error occurred while trying to create a temporary directory."
+#~ msgstr "在预览时，发生错误！"
+
+#, fuzzy
+#~ msgid "An error occurred while trying to create a temporary file."
+#~ msgstr "在预览时，发生错误！"
+
+#, fuzzy
+#~ msgid "An error occurred while determining file permissions."
+#~ msgstr "在预览时，发生错误！"
+
+#, fuzzy
+#~ msgid "An error occurred during synchronization."
+#~ msgstr "在预览时，发生错误！"
+
+#, fuzzy
+#~ msgid ""
+#~ "An error occurred while compiling the list arguments for the 'net' "
+#~ "command: %1"
+#~ msgstr "在获取共享列表时，发生错误！"
+
+#~ msgid ""
+#~ "You forgot to enter the path where Smb4K will mount the shares to.\n"
+#~ "Do you want to enter it now?"
+#~ msgstr ""
+#~ "你忘记输入将 Smb4K 的共享加载到什么路径下.\n"
+#~ "你要现在输入吗?"
+
+#, fuzzy
+#~ msgid ""
+#~ "(c) 2003, Alexander Reinholdt \n"
+#~ "(c) 2004, Alexander Reinholdt, Franck Babin \n"
+#~ "(c) 2005, Alexander Reinholdt & the Smb4K team"
+#~ msgstr ""
+#~ "(c) 2003, Alexander Reinholdt\n"
+#~ "(c) 2004-2005, Alexander Reinholdt, Franck Babin"
+
+#~ msgid "Documentation"
+#~ msgstr "文档"
+
+#~ msgid "This computer is already in the list."
+#~ msgstr "该计算机已在列表中！"
+
+#~ msgid "This share cannot be added."
+#~ msgstr "无法加入该共享！"
+
+#~ msgid "file to open"
+#~ msgstr "要打开的文件"
+
+#~ msgid "Show network tab"
+#~ msgstr "显示网络标签页"
+
+#~ msgid "Show Search tab"
+#~ msgstr "显示搜索标签页"
+
+#~ msgid ""
+#~ "As of version 0.5.0, the entries in the super.tab file are stored in a "
+#~ "different format. Smb4K is now going to convert the old ones."
+#~ msgstr ""
+#~ "从 0.5.0 版起，超大.tab文件中的条目将以另外的格式存储。Smb4K 正在转换老格"
+#~ "式的条目。"
+
+#~ msgid "Input"
+#~ msgstr "输入"
+
+#~ msgid ""
+#~ "The mimetype (%1) indicates that this is a text file. Printing it, "
+#~ "however, might fail. Do you want to continue?"
+#~ msgstr ""
+#~ "MIME 类型(%1)指明该文件为一个文本文件。可是，打印它可能失败。您想继续吗？"
+
+#~ msgid "Smb4KBookmarkEditor"
+#~ msgstr "Smb4K 书签编辑器"
+
+#~ msgid "NetBIOS name/IP address:"
+#~ msgstr "NetBIOS 名称/IP地址："
+
+#, fuzzy
+#~ msgid "Use authentication when querying the workgroup master browsers"
+#~ msgstr "在查询工作组主浏览器时使用认证。"
+
+#~ msgid "WINS server used by the system:"
+#~ msgstr "系统使用的 WINS 服务器："
+
+#~ msgid "OS:"
+#~ msgstr "操作系统："
+
+#~ msgid "S&earch"
+#~ msgstr "搜索(&E)"
+
+#~ msgid ""
+#~ "This is the directory under which the shares will be mounted. Adjust it "
+#~ "according to your wishes."
+#~ msgstr "该目录为供 Smb4K 挂载 SMB 共享的默认目录。请根据需要进行调整。"
+
+#~ msgid "<font size=+2><b>Share</b></font>"
+#~ msgstr "<font size=+2><b>共享</b></font>"
+
+#~ msgid "Contents:"
+#~ msgstr "内容："
+
+#~ msgid "%1 Item   "
+#~ msgstr "%1 项   "
+
+#~ msgid "%1 Items   "
+#~ msgstr "%1 项   "
+
+#~ msgid "(%1 Directory, "
+#~ msgstr "(%1 个目录，"
+
+#~ msgid "(%1 Directories, "
+#~ msgstr "(%1 个目录，"
+
+#~ msgid "%1 File)"
+#~ msgstr "%1 个文件)"
+
+#~ msgid "%1 Files)"
+#~ msgstr "%1 个文件)"
+
+#~ msgid "super (recommended)"
+#~ msgstr "super (推荐)"
+
+#~ msgid "SMBFS (default)"
+#~ msgstr "SMBFS （默认）"
+
+#~ msgid ""
+#~ "An error occurred while trying to get additional information from the "
+#~ "host."
+#~ msgstr "在获取主机附加信息时，发生错误！"
+
+#~ msgid "Use authentication for all shares."
+#~ msgstr "对全部共享都使用身份验证。"
+
+#~ msgid "Hosts and Shares"
+#~ msgstr "主机和共享"
+
+#~ msgid ""
+#~ "You left the following entries blank:\n"
+#~ "%1\n"
+#~ "Please fill them out."
+#~ msgstr ""
+#~ "你未填写以下项目:\n"
+#~ "%1\n"
+#~ "请将其填写完！"
+
+#~ msgid ""
+#~ "Authentication data for this share is already in the list.\n"
+#~ "Do you want to replace it?"
+#~ msgstr ""
+#~ "该共享的认证数据已在列表中.\n"
+#~ "你是否要替换它？"
+
+#~ msgid ""
+#~ "You forgot to commit the authentication data you entered last.\n"
+#~ "Do you want to do it now?"
+#~ msgstr ""
+#~ "您还没有提交您上次填入的认证数据。\n"
+#~ "您现在要提交吗？"

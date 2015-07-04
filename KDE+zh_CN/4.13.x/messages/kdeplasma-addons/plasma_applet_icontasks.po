@@ -1,0 +1,470 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2012.
+# Weng Xuetian <wengxt@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-01-10 03:20+0100\n"
+"PO-Revision-Date: 2012-12-12 11:00-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. i18n: ectx: property (text), widget (QLabel, style_label)
+#: appearanceconfig.ui:20
+msgid "Style:"
+msgstr "样式："
+
+#. i18n: ectx: property (text), widget (QLabel, rotate_label)
+#: appearanceconfig.ui:30
+msgid "Rotate vertical frames:"
+msgstr "旋转垂直边框："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, rotate)
+#: appearanceconfig.ui:40
+msgid ""
+"<p>Controls whether the frames drawn around taskbar entries should be "
+"rotated 90-degrees counter-clockwise when the taskbar is in a vertical panel."
+"</p>"
+msgstr "<p>当任务条在纵向面板中时，控制任务条中项目的边框是否要旋转90度。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, toolTips_label)
+#: appearanceconfig.ui:50
+msgid "Tooltips:"
+msgstr "工具提示："
+
+#. i18n: ectx: property (text), widget (QLabel, previewSize_label)
+#: appearanceconfig.ui:66
+msgid "Window preview size:"
+msgstr "窗口预览大小："
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, previewSize)
+#: appearanceconfig.ui:76
+msgid "<p>Controls the width of window previews with tooltips.</p>"
+msgstr "<p>控制工具提示中窗口预览图的宽度。</p>"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, previewSize)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, spacing)
+#: appearanceconfig.ui:79 appearanceconfig.ui:148
+msgid "px"
+msgstr "像素"
+
+#. i18n: ectx: property (text), widget (QLabel, launcherIcons_label)
+#: appearanceconfig.ui:89
+msgid "Always use launcher icons:"
+msgstr "总是使用启动器图标："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, launcherIcons)
+#: appearanceconfig.ui:102
+msgid ""
+"<p>Enabling this item forces the icon for a running application to be the "
+"same as that used for the launcher. This resolves some oddities where the "
+"launcher icon is different from the application icon - as happens with "
+"LibreOffice.</p>"
+msgstr ""
+"<p>启用此项将会强制运行的程序使用和启动器一样的图标。这可以解决一些程序的图标"
+"和启动器不一致的问题 - 例如LibreOffice。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, iconScale_label)
+#: appearanceconfig.ui:112
+msgid "Scale icons to:"
+msgstr "图标缩放至："
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, iconScale)
+#: appearanceconfig.ui:122
+msgid ""
+"<p>Controls the scaling of the taskbar icon. When set to \"Automatic\", the "
+"taskbar will attempt to determine the optimal size.</p>"
+msgstr ""
+"<p>控制任务栏图标的缩放。设定为“自动”时，任务栏将尝试决定最优尺寸。</p>"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, iconScale)
+#: appearanceconfig.ui:125
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (text), widget (QLabel, spacing_label)
+#: appearanceconfig.ui:135
+msgid "Spacing:"
+msgstr "间距："
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, spacing)
+#: appearanceconfig.ui:145
+msgid "<p>Set the amount of extra spacing between items.</p>"
+msgstr "<p>设置项目间额外的留空值。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, maxRows_label)
+#: appearanceconfig.ui:161
+msgid "Maximum rows:"
+msgstr "最大行数："
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, maxRows)
+#: appearanceconfig.ui:174
+msgid ""
+"<p>Controls the maximum number of rows (for a horizontal taskbar), or "
+"columns (for a vertical taskbar), that will be used.</p>"
+msgstr "<p>控制最大行数 (横向任务栏) 或者列数 (纵向任务栏)。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, sortingStrategy_label)
+#: appearanceconfig.ui:187
+msgid "Sorting:"
+msgstr "排序："
+
+#. i18n: ectx: property (text), widget (QLabel, showSeparator_label)
+#: appearanceconfig.ui:210
+msgid "Separator:"
+msgstr "分隔符："
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, showSeparator)
+#: appearanceconfig.ui:220
+msgid ""
+"<p>When enabled, and there is only 1 row/column, then a separator will be "
+"drawn between the launchers/tasks-with-launchers and non-launcher tasks.</p>"
+msgstr "<p>启用并且只有1行/列时，将会在启动器和非启动器之间显示分隔符。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, highlightWindows_label)
+#: appearanceconfig.ui:227
+msgid "Highlight windows:"
+msgstr "突出显示窗口："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: behaviourconfig.ui:20
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (text), widget (QLabel, showProgress_label)
+#: behaviourconfig.ui:26
+msgid "Show job progress on task icon:"
+msgstr "在图标上显示任务进度："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showProgress)
+#: behaviourconfig.ui:36
+msgid ""
+"<p>When enabled, a progressbar will be drawn over the applications icons to "
+"represent its overall job progress.</p>"
+msgstr "<p>启用后将在应用程序图标上绘制进度条以展示总体任务进度。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, mediaButtons_label)
+#: behaviourconfig.ui:46
+msgid "Show control buttons on media player tooltips:"
+msgstr "在媒体播放器工具条上显示控制按钮："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, mediaButtons)
+#: behaviourconfig.ui:56
+msgid ""
+"<p>When enabled - previous, play/pause, and next buttons will be shown in "
+"the tooltips for media players.</p>"
+msgstr ""
+"<p>启用后将为媒体播放器工具提示中显示上一首、播放/暂停、下一首按钮。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, unity_label)
+#: behaviourconfig.ui:66
+msgid "Enable support for Unity features:"
+msgstr "启用 Unity 特性支持："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, unity)
+#: behaviourconfig.ui:76
+msgid "<p>Toggles support for the Unity D-Bus API.</p>"
+msgstr "<p>切换是否启用 Unity D-Bus API 支持。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, recentDocuments_label)
+#: behaviourconfig.ui:86
+msgid "Show recent documents:"
+msgstr "显示最近文档："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, recentDocuments)
+#: behaviourconfig.ui:96
+msgid ""
+"<p>Toggles support for listing an application's recent documents in its "
+"popup menu.</p>"
+msgstr "<p>切换是否在应用程序弹出菜单中列出最近的文档。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, groupClick_label)
+#: behaviourconfig.ui:106
+msgid "Group click action:"
+msgstr "分组点击动作："
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, groupClick)
+#: behaviourconfig.ui:119
+msgid "<p>Configures what should occur when a task group is clicked.</p>"
+msgstr "<p>配置点击任务分组时的动作。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, middleClick_label)
+#: behaviourconfig.ui:126
+msgid "Middle-click action:"
+msgstr "中键点击动作："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: behaviourconfig.ui:142
+msgid "Filters"
+msgstr "过滤"
+
+#. i18n: ectx: property (text), widget (QLabel, showOnlyCurrentScreen_label)
+#: behaviourconfig.ui:151
+msgid "Only show tasks from the current screen:"
+msgstr "只显示当前屏幕的任务："
+
+#. i18n: ectx: property (text), widget (QLabel, showOnlyCurrentDesktop_label)
+#: behaviourconfig.ui:171
+msgid "Only show tasks from the current desktop:"
+msgstr "只显示当前桌面的任务："
+
+#. i18n: ectx: property (text), widget (QLabel, showOnlyCurrentActivity_label)
+#: behaviourconfig.ui:191
+msgid "Only show tasks from the current activity:"
+msgstr "只显示当前活动的任务："
+
+#: dockconfig.cpp:66
+msgid "Dock Manager"
+msgstr "停靠管理器"
+
+#: dockconfig.cpp:165
+msgid "Open"
+msgstr "打开"
+
+#: dockconfig.cpp:184
+#, kde-format
+msgid ""
+"Sorry, failed to download\n"
+"%1"
+msgstr ""
+"抱歉，下载失败\n"
+"%1"
+
+#: dockconfig.cpp:258
+msgid "<p>Contents of metadata file are invalid.<ul>"
+msgstr "<p>元数据文件内容无效。<ul>"
+
+#: dockconfig.cpp:260
+msgid "<li><i>Name</i> field is missing.</li>"
+msgstr "<li>缺少 <i>Name</i> 字段。</li>"
+
+#: dockconfig.cpp:263
+msgid "<li><i>Description</i> field is missing.</li>"
+msgstr "<li>缺少 <i>Description</i> 字段。</li>"
+
+#: dockconfig.cpp:268
+msgid "<p>Metadata file does not contain <i>DockmanagerHelper</i> group.</p>"
+msgstr "<p>元数据文件未包含 <i>DockmanagerHelper</i> 组。</p>"
+
+#: dockconfig.cpp:272 dockconfig.cpp:341
+msgid "Invalid DockManager plugin."
+msgstr "无效的停靠管理器插件。"
+
+#: dockconfig.cpp:275
+#, kde-format
+msgid "<p>A Plugin named <b>%1</b> already exists.</p><p>Overwrite?</p>"
+msgstr "<p>名为 <b>%1</b> 的插件已存在。</p><p>覆盖吗？</p>"
+
+#: dockconfig.cpp:278
+msgid "Overwrite?"
+msgstr "覆盖？"
+
+#: dockconfig.cpp:282 dockconfig.cpp:287
+#, kde-format
+msgid ""
+"<p>Sorry, failed to remove previous plugin metadata file.</p><p><i>%1</i></p>"
+msgstr "<p>抱歉，删除以前的插件元数据文件失败。</p><p><i>%1</i></p>"
+
+#: dockconfig.cpp:292
+#, kde-format
+msgid "<p>Sorry, failed to create scripts folder.</p><p><i>%1</i></p>"
+msgstr "<p>抱歉，创建脚本文件夹失败。</p><p><i>%1</i></p>"
+
+#: dockconfig.cpp:297
+#, kde-format
+msgid "<p>Sorry, failed to create metadata folder.</p><p><i>%1</i></p>"
+msgstr "<p>抱歉，创建元数据文件夹失败。</p><p><i>%1</i></p>"
+
+#: dockconfig.cpp:304
+msgid "Sorry, failed to install script file."
+msgstr "抱歉，安装脚本文件失败。"
+
+#: dockconfig.cpp:311
+msgid "Sorry, failed to install metadata file."
+msgstr "抱歉，安装元数据文件失败。"
+
+#: dockconfig.cpp:335
+msgid "<li>Script file is missing.</li>"
+msgstr "<li>缺少脚本文件。</li>"
+
+#: dockconfig.cpp:338
+msgid "<li>Metadata file is missing.</li>"
+msgstr "<li>缺少元数据文件。</li>"
+
+#: dockconfig.cpp:358
+#, kde-format
+msgid "<p>Are you sure you wish to delete <b>%1</b></p><p><i>(%2)</i></p>"
+msgstr "<p>您确定要删除 <b>%1</b></p><p><i>(%2)</i></p>"
+
+#: dockconfig.cpp:360
+msgid "Remove Script"
+msgstr "删除脚本"
+
+#: dockconfig.cpp:376
+#, kde-format
+msgid "<p>Failed to delete the script file.</p><p><i>%1</i></p>"
+msgstr "<p>删除脚本文件失败。</p><p><i>%1</i></p>"
+
+#: dockconfig.cpp:586
+#, kde-format
+msgid "<tr><td align=\"right\">Script File:</td><td>%1</td></tr>"
+msgstr "<tr><td align=\"right\">脚本文件：</td><td>%1</td></tr>"
+
+#: dockconfig.cpp:587
+#, kde-format
+msgid "<tr><td align=\"right\">Location:</td><td>%1</td></tr>"
+msgstr "<tr><td align=\"right\">位置：</td><td>%1</td></tr>"
+
+#: dockconfig.cpp:588
+#, kde-format
+msgid "<tr><td align=\"right\">Application:</td><td>%1</td></tr>"
+msgstr "<tr><td align=\"right\">应用程序：</td><td>%1</td></tr>"
+
+#: dockconfig.cpp:589
+#, kde-format
+msgid "<tr><td align=\"right\">D-Bus:</td><td>%1</td></tr>"
+msgstr "<tr><td align=\"right\">D-Bus：</td><td>%1</td></tr>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enable)
+#: dockconfig.ui:20
+msgid "Enable DockManager Plugins"
+msgstr "启用停靠管理器插件"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: dockconfig.ui:34
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: dockconfig.ui:41
+msgid "Remove"
+msgstr "删除"
+
+#: recentdocuments.cpp:154
+msgid "Recent Documents"
+msgstr "最近文档"
+
+#: tasks.cpp:563
+msgid "Appearance"
+msgstr "外观"
+
+#: tasks.cpp:564
+msgid "Behaviour"
+msgstr "行为"
+
+#: tasks.cpp:566
+msgid "Do Not Show"
+msgstr "不显示"
+
+#: tasks.cpp:567
+msgid "Show Immediately"
+msgstr "立即显示"
+
+#: tasks.cpp:568
+msgid "Show After Delay"
+msgstr "延迟显示"
+
+#: tasks.cpp:574
+msgid "Minimize/Restore"
+msgstr "最小化/还原"
+
+#: tasks.cpp:575
+msgid "Present Windows Effect"
+msgstr "展现窗口效果"
+
+#: tasks.cpp:576
+msgid "Show Popup Menu"
+msgstr "显示弹出菜单"
+
+#: tasks.cpp:579
+msgid "Use Workspace Theme"
+msgstr "使用工作空间主题"
+
+#: tasks.cpp:580
+msgid "Use Indicators"
+msgstr "使用指示器"
+
+#: tasks.cpp:581
+msgid "Use Indicators & Colored Background"
+msgstr "使用指示器和背景混色"
+
+#: tasks.cpp:583
+msgid "Never Show"
+msgstr "从不显示"
+
+#: tasks.cpp:584
+msgid "Show When Required"
+msgstr "按需显示"
+
+#: tasks.cpp:585
+msgid "Always Show"
+msgstr "总是显示"
+
+#: tasks.cpp:587
+msgid "Start New Instance"
+msgstr "启动新实例"
+
+#: tasks.cpp:588
+msgid "Close Application"
+msgstr "关闭应用程序"
+
+#: tasks.cpp:589
+msgid "Move To Current Desktop"
+msgstr "移到当前桌面"
+
+#: tasks.cpp:590
+msgid "Nothing"
+msgstr "不排序"
+
+#: tasks.cpp:605
+msgid "Automatic"
+msgstr "自动"
+
+#: tasks.cpp:610
+msgid "Manually"
+msgstr "手动"
+
+#: tasks.cpp:611
+msgid "Alphabetically"
+msgstr "按字母"
+
+#: tasks.cpp:612
+msgid "By Desktop"
+msgstr "按桌面"
+
+#: tasks.cpp:717
+msgid "Unlock Launchers"
+msgstr "解锁启动器"
+
+#: tasks.cpp:723
+msgid "Lock Launchers"
+msgstr "锁定启动器"
+
+#: tasks.cpp:731
+msgid "Refresh"
+msgstr "刷新"
+
+#: tooltips/windowpreview.cpp:387
+msgid "(On All Desktops)"
+msgstr "(在全部桌面)"
+
+#: tooltips/windowpreview.cpp:388
+#, kde-format
+msgctxt "Which virtual desktop a window is currently on"
+msgid "(On %1)"
+msgstr "(在%1)"
+
+#: tooltips/windowpreview.cpp:408
+#, kde-format
+msgid "Plus %1 more..."
+msgstr "以及 %1 个其它窗口..."

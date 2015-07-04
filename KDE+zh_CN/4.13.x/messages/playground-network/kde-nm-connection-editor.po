@@ -1,0 +1,290 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Feng Chao <rainofchaos@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-13 02:14+0000\n"
+"PO-Revision-Date: 2013-10-15 20:57+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国, Feng Chao"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org, rainofchaos@gmail.com"
+
+#: connectioneditor.cpp:69
+msgid "Add"
+msgstr "添加"
+
+#: connectioneditor.cpp:74
+msgid "Hardware"
+msgstr "硬件"
+
+#: connectioneditor.cpp:77 connectiontypeitem.cpp:37
+msgid "DSL"
+msgstr "DSL"
+
+#: connectioneditor.cpp:80
+msgid "InfiniBand"
+msgstr "InfiniBand"
+
+#: connectioneditor.cpp:84
+msgid "Mobile Broadband..."
+msgstr "移动宽带..."
+
+#: connectioneditor.cpp:88 connectiontypeitem.cpp:61
+#, fuzzy
+msgid "Wired"
+msgstr "有线连接"
+
+#: connectioneditor.cpp:92
+msgid "Wired (shared)"
+msgstr ""
+
+#: connectioneditor.cpp:96 connectiontypeitem.cpp:64
+#, fuzzy
+msgid "Wireless"
+msgstr "无线"
+
+#: connectioneditor.cpp:100
+msgid "Wireless (shared)"
+msgstr ""
+
+#: connectioneditor.cpp:104 connectiontypeitem.cpp:59
+msgid "WiMAX"
+msgstr "WiMAX"
+
+#: connectioneditor.cpp:109
+msgid "Virtual"
+msgstr "虚拟"
+
+#: connectioneditor.cpp:111 connectiontypeitem.cpp:43
+msgid "Bond"
+msgstr ""
+
+#: connectioneditor.cpp:114 connectiontypeitem.cpp:45
+#, fuzzy
+msgid "Bridge"
+msgstr "网桥"
+
+#: connectioneditor.cpp:117 connectiontypeitem.cpp:54
+msgid "VLAN"
+msgstr "VLAN"
+
+#: connectioneditor.cpp:121 connectiontypeitem.cpp:67
+msgid "Team"
+msgstr ""
+
+#: connectioneditor.cpp:127 connectiontypeitem.cpp:56
+msgid "VPN"
+msgstr "VPN"
+
+#: connectioneditor.cpp:141
+msgid "Edit"
+msgstr "编辑"
+
+#: connectioneditor.cpp:146
+#, fuzzy
+msgid "Delete"
+msgstr "删除"
+
+#: connectioneditor.cpp:152
+msgid "Import VPN..."
+msgstr "导入 VPN..."
+
+#: connectioneditor.cpp:156
+msgid "Export VPN..."
+msgstr "导出 VPN..."
+
+#: connectioneditor.cpp:390
+#, kde-format
+msgid "Do you want to remove the connection '%1'?"
+msgstr ""
+
+#: connectioneditor.cpp:390
+msgid "Remove Connection"
+msgstr "删除连接"
+
+#: connectioneditor.cpp:480
+#, kde-format
+msgid "Connection %1 has been added"
+msgstr ""
+
+#: connectioneditor.cpp:494
+#, kde-format
+msgid "Connection %1 has been removed"
+msgstr ""
+
+#: connectioneditor.cpp:519
+#, kde-format
+msgid "Connection %1 has been updated"
+msgstr ""
+
+#: connectioneditor.cpp:540
+msgid "Import VPN Connection"
+msgstr "导入 VPN 连接"
+
+#: connectioneditor.cpp:567
+#, kde-format
+msgid ""
+"Importing VPN connection %1 failed\n"
+"%2"
+msgstr ""
+
+#: connectioneditor.cpp:608
+msgid "Export is not supported by this VPN type"
+msgstr ""
+
+#: connectioneditor.cpp:614
+msgid "Export VPN Connection"
+msgstr "导出 VPN 连接"
+
+#: connectioneditor.cpp:619
+#, kde-format
+msgid ""
+"Exporting VPN connection %1 failed\n"
+"%2"
+msgstr ""
+
+#: connectioneditor.cpp:624
+#, kde-format
+msgid "VPN connection %1 exported successfully"
+msgstr ""
+
+#: connectiontypeitem.cpp:34
+msgid "ADSL"
+msgstr "ADSL"
+
+#: connectiontypeitem.cpp:40
+msgid "Bluetooth"
+msgstr "蓝牙"
+
+#: connectiontypeitem.cpp:47
+msgid "Mobile broadband"
+msgstr "移动宽带"
+
+#: connectiontypeitem.cpp:50
+msgid "Infiniband"
+msgstr "Infiniband"
+
+#: connectiontypeitem.cpp:52
+msgid "Olpc mesh"
+msgstr "Olpc mesh"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, connectionsWidget)
+#. i18n: ectx: Menu (connection)
+#: kde-nm-connection-editorui.rc:16 ui/connectioneditor.ui:94
+msgid "Connection"
+msgstr "连接"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kde-nm-connection-editorui.rc:24
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: main.cpp:38
+msgid "Connection editor"
+msgstr "连接编辑器"
+
+#: main.cpp:39
+msgid "Manage your network connections"
+msgstr ""
+
+#: main.cpp:40
+msgid "(C) 2013-2014 Jan Grulich and Lukáš Tinkl"
+msgstr ""
+
+#: main.cpp:41
+#, kde-format
+msgid ""
+"This application allows you to create, edit and delete network connections.\n"
+"\n"
+"Using NM version: %1"
+msgstr ""
+
+#: main.cpp:43
+msgid "Jan Grulich"
+msgstr ""
+
+#: main.cpp:43 main.cpp:44
+#, fuzzy
+msgid "Developer"
+msgstr "开发者"
+
+#: main.cpp:44
+msgid "Lukáš Tinkl"
+msgstr "Lukáš Tinkl"
+
+#: main.cpp:45
+msgid "Lamarque Souza"
+msgstr ""
+
+#: main.cpp:45
+msgid "libnm-qt author"
+msgstr ""
+
+#: main.cpp:46
+msgid "Daniel Nicoletti"
+msgstr "Daniel Nicoletti"
+
+#: main.cpp:46
+#, fuzzy
+msgid "various bugfixes"
+msgstr "各种臭虫补丁"
+
+#: main.cpp:47
+msgid "Will Stephenson"
+msgstr "Will Stephenson"
+
+#: main.cpp:47 main.cpp:48
+msgid "VPN plugins"
+msgstr "VPN 插件"
+
+#: main.cpp:48
+msgid "Ilia Kats"
+msgstr "Ilia Kats"
+
+#: main.cpp:54
+msgid "Edit connection"
+msgstr "编辑连接"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConnectionEditor)
+#: ui/connectioneditor.ui:20
+#, fuzzy
+msgid "Connection Editor"
+msgstr "连接编辑器"
+
+#. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, ktreewidgetsearchline)
+#: ui/connectioneditor.ui:32
+msgid "Search connections..."
+msgstr "搜索连接"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, connectionsWidget)
+#: ui/connectioneditor.ui:99
+#, fuzzy
+msgid "Last used"
+msgstr "最后使用"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "Label for last used time for a network connection used the previous day"
+#~ msgid "Yesterday"
+#~ msgstr "昨天"
+
+#~ msgctxt ""
+#~ "Label for last used time for a network connection that has never been used"
+#~ msgid "Never"
+#~ msgstr "未曾使用"

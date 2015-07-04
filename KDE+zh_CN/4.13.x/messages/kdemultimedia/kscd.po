@@ -1,0 +1,391 @@
+# translation of kscd.po to 简体中文
+# Copyright (C) 2002,2003, 2008, 2009 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
+# Liu Songhe <jackliu9999@263.net>, 2002,2003.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kscd\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-02-22 12:51+0100\n"
+"PO-Revision-Date: 2011-03-06 16:41+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EjectOnFinish)
+#: generalSettings.ui:18
+msgid "Eject CD when finished playing"
+msgstr "播放结束后弹出 CD"
+
+#: gui/kscdwindow.cpp:361
+msgid "loop track  "
+msgstr "循环曲目  "
+
+#: gui/kscdwindow.cpp:367
+msgid "loop disc  "
+msgstr "循环盘片  "
+
+#: gui/kscdwindow.cpp:376
+msgctxt "This action allow the user to listen a random track"
+msgid "random"
+msgstr "随机"
+
+#: gui/panel.cpp:58
+msgid "WELCOME!"
+msgstr "欢迎！"
+
+#: gui/panel.cpp:77
+msgid ":"
+msgstr ":"
+
+#: gui/panel.cpp:271
+msgid "eject CD"
+msgstr "弹出 CD"
+
+#: gui/panel.cpp:327
+#, kde-format
+msgid "%1 %2 : %3 %4"
+msgstr "%1 %2：%3 %4"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, trackListDlgUI)
+#: gui/trackListDlgUI.ui:19
+msgid "KsCD - TrackList"
+msgstr "KsCD - 曲目列表"
+
+#. i18n: ectx: property (text), widget (QLabel, albumLbl)
+#: gui/trackListDlgUI.ui:50
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:12pt; font-weight:600;\">Album</span></p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"size:12pt; font-weight:600;\">专辑</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, yearLbl)
+#: gui/trackListDlgUI.ui:60
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">Year</span></p></body></html>"
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">年份</span></p></body></html>"
+
+#. i18n: ectx: property (text), widget (QTableWidget, trackTable)
+#: gui/trackListDlgUI.ui:105
+msgid "Track"
+msgstr "音轨"
+
+#. i18n: ectx: property (text), widget (QTableWidget, trackTable)
+#: gui/trackListDlgUI.ui:110
+msgid "Title"
+msgstr "标题"
+
+#. i18n: ectx: property (text), widget (QTableWidget, trackTable)
+#: gui/trackListDlgUI.ui:115
+msgid "Length"
+msgstr "长度"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: interfaceSettings.ui:37
+msgid "Text font:"
+msgstr "文本字体："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: interfaceSettings.ui:54
+msgid "Text color:"
+msgstr "文本颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: interfaceSettings.ui:64
+msgid "URL:"
+msgstr "URL："
+
+#: kscd.cpp:41
+msgid "KDE CD player"
+msgstr "KDE CD 播放器"
+
+#: kscd.cpp:92 kscd.cpp:93
+msgid "Configure Shortcuts..."
+msgstr "配置快捷键..."
+
+#: kscd.cpp:102 kscd.cpp:103
+msgid "Configure..."
+msgstr "配置..."
+
+#: kscd.cpp:108 kscd.cpp:109
+msgid "Download Info"
+msgstr "下载信息"
+
+#: kscd.cpp:115
+msgid "Upload Info"
+msgstr "上传信息"
+
+#: kscd.cpp:121
+msgid "Play/Pause"
+msgstr "播放/暂停"
+
+#: kscd.cpp:128
+msgid "Stop"
+msgstr "停止"
+
+#: kscd.cpp:135
+msgctxt "This action allow user to pass to the following track"
+msgid "Next"
+msgstr "下一首"
+
+#: kscd.cpp:142
+msgctxt "This action allow the user to pass to the preceding track"
+msgid "Previous"
+msgstr "上一首"
+
+#: kscd.cpp:149
+msgctxt " This action allow to eject the inserted disc"
+msgid "Eject"
+msgstr "弹出"
+
+#: kscd.cpp:156
+msgid "Volume Up"
+msgstr "增大音量"
+
+#: kscd.cpp:163
+msgid "Volume Down"
+msgstr "减小音量"
+
+#: kscd.cpp:170
+msgctxt "This action allow the user to listen a random track list"
+msgid "Random"
+msgstr "随机"
+
+#: kscd.cpp:177
+msgid "Repeat Track"
+msgstr "重复音轨"
+
+#: kscd.cpp:184
+msgid "Repeat Album"
+msgstr "重复专辑"
+
+#: kscd.cpp:191
+msgid "Show Tracklist"
+msgstr "显示曲目列表"
+
+#: kscd.cpp:197
+msgid "Mute/Unmute"
+msgstr "静音/取消静音"
+
+#: kscd.cpp:203
+msgid "Minimize"
+msgstr "最小化"
+
+#: kscd.cpp:504 kscd.cpp:554 kscd.cpp:588
+msgid "No disc"
+msgstr "无盘片"
+
+#: kscd.cpp:508 kscd.cpp:558 kscd.cpp:592
+msgid "Invalid disc"
+msgstr "无效的盘片"
+
+#: kscd.cpp:769 kscd.cpp:786
+msgctxt "General option in the configuration dialog"
+msgid "General"
+msgstr "常规"
+
+#: kscd.cpp:776 kscd.cpp:781
+msgid "Settings"
+msgstr "设置"
+
+#: kscd.cpp:800
+msgid "Appearance"
+msgstr "外观"
+
+#: kscd.cpp:843
+msgid "KsCD"
+msgstr "KsCD"
+
+#: kscd.cpp:846
+msgid ""
+"(c) 2001, Dirk Försterling\n"
+"(c) 2003, Aaron J. Seigo"
+msgstr ""
+"(c) 2001，Dirk Försterling\n"
+"(c) 2003，Aaron J. Seigo"
+
+#: kscd.cpp:847
+msgid "Amine Bouchikhi"
+msgstr "Amine Bouchikhi"
+
+#: kscd.cpp:847
+msgid "Current maintainer, Solid/Phonon Upgrade, QDBus connection"
+msgstr "当前维护者，Solid/Phonon 升级，QDBus 连接"
+
+#: kscd.cpp:848
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: kscd.cpp:848
+msgid "Previous maintainer"
+msgstr "前任维护者"
+
+#: kscd.cpp:849
+msgid "Alexander Kern"
+msgstr "Alexander Kern"
+
+#: kscd.cpp:849
+msgid "Workman library update, CDTEXT, CDDA"
+msgstr "随身听库更新，CDTEXT，CDDA"
+
+#: kscd.cpp:850
+msgid "Bernd Johannes Wuebben"
+msgstr "Bernd Johannes Wuebben"
+
+#: kscd.cpp:851
+msgid "Dirk Försterling"
+msgstr "Dirk Försterling"
+
+#: kscd.cpp:851
+msgid "Workman library, previous maintainer"
+msgstr "随身听库，以前的维护者"
+
+#: kscd.cpp:852
+msgid "Wilfried Huss"
+msgstr "Wilfried Huss"
+
+#: kscd.cpp:852
+msgid "Patches galore"
+msgstr "补丁管理"
+
+#: kscd.cpp:853
+msgid "Steven Grimm"
+msgstr "Steven Grimm"
+
+#: kscd.cpp:853
+msgid "Workman library"
+msgstr "随身听库"
+
+#: kscd.cpp:854
+msgid "Sven Lueppken"
+msgstr "Sven Lueppken"
+
+#: kscd.cpp:854
+msgid "UI Work"
+msgstr "用户界面工作"
+
+#: kscd.cpp:855
+msgid "freedb.org"
+msgstr "freedb.org"
+
+#: kscd.cpp:855
+msgid "Special thanks to freedb.org for providing a free CDDB-like CD database"
+msgstr "特别致谢 freedb.org 组织提供了类似 CDDB 的自由 CD 数据库"
+
+#: kscd.cpp:861
+msgid "Start playing"
+msgstr "开始播放"
+
+#. i18n: ectx: label, entry (Autoplay), group (General)
+#: kscd.kcfg:10
+msgid "Start playing when a CD is inserted."
+msgstr "插入 CD 时就开始播放。"
+
+#. i18n: ectx: whatsthis, entry (Autoplay), group (General)
+#: kscd.kcfg:11
+msgid ""
+"When this option is selected the CD will start playing automatically upon "
+"being inserted into the CD-ROM."
+msgstr "当该选项被选中的时候，CD 一旦被插入 CD-ROM 将自动开始播放。"
+
+#. i18n: ectx: label, entry (EjectOnFinish), group (General)
+#: kscd.kcfg:15
+msgid "Eject CD when playing is finished."
+msgstr "播放结束后弹出 CD。"
+
+#. i18n: ectx: whatsthis, entry (EjectOnFinish), group (General)
+#: kscd.kcfg:16
+msgid ""
+"When this option is selected the CD will automatically eject when it is "
+"finished."
+msgstr "当该选项被选中的时候，CD 一旦播放完毕将自动弹出。"
+
+#. i18n: ectx: label, entry (TextColor), group (Appearance)
+#: kscd.kcfg:22
+msgid "The text color that will be used in the panel."
+msgstr "用于面板的文本颜色。"
+
+#. i18n: ectx: whatsthis, entry (TextColor), group (Appearance)
+#: kscd.kcfg:23
+msgid "Change the color of the text in the panel"
+msgstr "更改面板中的文本颜色"
+
+#. i18n: ectx: label, entry (TextFont), group (Appearance)
+#: kscd.kcfg:27
+msgid "The font that will be used for the panel."
+msgstr "用于面板的字体。"
+
+#. i18n: ectx: whatsthis, entry (TextFont), group (Appearance)
+#: kscd.kcfg:28
+msgid "Change the font of the text in the panel"
+msgstr "更改面板中的文本字体"
+
+#. i18n: ectx: label, entry (url), group (Appearance)
+#: kscd.kcfg:32
+msgid "The skin that will be use for the application"
+msgstr "用于应用程序的皮肤"
+
+#. i18n: ectx: whatsthis, entry (url), group (Appearance)
+#: kscd.kcfg:33
+msgid "Change the skin of the application"
+msgstr "更改应用程序的皮肤"
+
+#: mbmanager.cpp:141 mbmanager.cpp:162 mbmanager.cpp:169
+msgid "Unknown album"
+msgstr "未知专辑"
+
+#: mbmanager.cpp:142 mbmanager.cpp:163 mbmanager.cpp:170
+msgid "Unknown artist"
+msgstr "未知艺人"
+
+#: mbmanager.cpp:148
+msgid "Unknown title"
+msgstr "未知标题"
+
+#: mbmanager.cpp:164 mbmanager.cpp:171
+msgid "No Disc"
+msgstr "无盘片"

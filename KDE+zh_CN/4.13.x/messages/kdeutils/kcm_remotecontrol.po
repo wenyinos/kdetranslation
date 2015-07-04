@@ -1,0 +1,468 @@
+# Chinese translations for kcm_remotecontrol package
+# kcm_remotecontrol 软件包的简体中文翻译.
+# Copyright (C) 2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcm_remotecontrol package.
+#
+# Funda Wang <fundawang@gmail.com>, 2010.
+# Lie Ex <lilith.ex@gmail.com>, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_remotecontrol 4.5\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-09-04 01:43+0000\n"
+"PO-Revision-Date: 2012-11-17 17:24+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AddAction)
+#. i18n: ectx: property (windowTitle), widget (QWidget, EditDBusAction)
+#: addaction.ui:26 editdbusaction.ui:14
+msgid "Dialog"
+msgstr "对话框"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: addaction.ui:32
+msgid "How do you wish to create the action?"
+msgstr "您希望怎样创建动作？"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbTemplate)
+#: addaction.ui:39
+msgid "Create an action using a template"
+msgstr "使用模板创建动作"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: addaction.ui:56
+msgid ""
+"Use this if you cannot find a template for the desired action. Here you can "
+"browse the whole D-Bus session bus and execute any function using common "
+"data types.<br>\n"
+"<i>Note that an application must be running in order to be shown here.</i>"
+msgstr ""
+"如果您找不到想要的动作模板，请选择此项。您可以在这里浏览完整的 D-Bus 会话总线"
+"并使用常规数据类型执行任何函数。<br>\n"
+"<i>请注意，需要有一个程序在运行才能显示这些总线。</i>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: addaction.ui:81
+msgid ""
+"This is the recommended way if you would like to control the most common "
+"applications. It is the easiest way for adding actions, but also limited to "
+"the available templates."
+msgstr ""
+"推荐您使用这种方式控制最常用的程序，可以很轻易地添加动作，不过受限于模板。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbDBus)
+#: addaction.ui:94
+msgid "Create an action browsing D-Bus"
+msgstr "创建浏览 D-Bus 的动作"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbKeypressAction)
+#: addaction.ui:101
+msgid "Create a keypress action"
+msgstr "创建按键动作"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: addaction.ui:114
+msgid ""
+"This type of action offers to generate keypress events. You can execute "
+"keyboard shortcuts or type whole sentences with just one button press."
+msgstr "这类动作可产生按键动作。一键就能执行键盘快捷键或输入整句话。"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConfigurationWidget)
+#: configurationwidget.ui:15
+msgid "Linux Infrared Remote Control"
+msgstr "Linux 红外遥控"
+
+#. i18n: ectx: property (text), widget (QLabel, lNoRemotesWarning)
+#: configurationwidget.ui:21
+msgid ""
+"There are no remote controls available. Please make sure lircd is configured "
+"correctly."
+msgstr "目前无可用遥控器。请确定 lircd 配置正确。"
+
+#. i18n: ectx: property (text), widget (QLabel, lRemotes)
+#: configurationwidget.ui:34
+msgid "Available remotes:"
+msgstr "可用的遥控器："
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, pbAddMode)
+#: configurationwidget.ui:87
+msgid "Add mode"
+msgstr "添加模式"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, pbAddAction)
+#: configurationwidget.ui:125
+msgid "Add action"
+msgstr "添加动作"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, pbRemoveMode)
+#: configurationwidget.ui:147 kcmremotecontrol.cpp:257
+msgid "Remove mode"
+msgstr "删除模式"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, pbRemoveAction)
+#: configurationwidget.ui:169
+msgid "Remove action"
+msgstr "删除动作"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, pbEditMode)
+#: configurationwidget.ui:191
+msgid "Edit mode"
+msgstr "编辑模式"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, pbEditAction)
+#: configurationwidget.ui:213
+msgid "Edit action"
+msgstr "编辑动作"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, pbMoveModeUp)
+#: configurationwidget.ui:235
+msgid "Move mode up"
+msgstr "模式上移"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, pbCopyAction)
+#: configurationwidget.ui:257
+msgid "Duplicate action"
+msgstr "复制动作"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, pbMoveModeDown)
+#: configurationwidget.ui:279
+msgid "Move mode down"
+msgstr "模式下移"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, pbAutoPopulate)
+#: configurationwidget.ui:298
+msgid "Automatically create actions using a profile"
+msgstr "使用配置文件自动创建动作"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, pbMoveActionUp)
+#: configurationwidget.ui:333
+msgid "Move action up"
+msgstr "动作上移"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, pbMoveActionDown)
+#: configurationwidget.ui:355
+msgid "Move action down"
+msgstr "动作下移"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbTrayIcon)
+#: configurationwidget.ui:375
+msgid "Show tray icon"
+msgstr "显示托盘图标"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ActionContainer)
+#: editactioncontainer.ui:14
+msgid "Edit Action"
+msgstr "编辑动作"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: editactioncontainer.ui:20
+msgctxt "Button on the remote control"
+msgid "Button:"
+msgstr "按钮："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: editdbusaction.ui:36
+msgid "Application and function"
+msgstr "应用程序和函数"
+
+#. i18n: ectx: property (text), widget (QLabel, lDBusServices)
+#: editdbusaction.ui:66
+msgid "D-Bus Services:"
+msgstr "D-Bus 服务："
+
+#. i18n: ectx: property (text), widget (QLabel, lFunctions)
+#: editdbusaction.ui:73
+msgid "Functions:"
+msgstr "函数："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: editdbusaction.ui:80
+msgid "Parameters:"
+msgstr "参数："
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: editdbusaction.ui:88
+msgid "Options"
+msgstr "选项"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbRepeat)
+#: editdbusaction.ui:94 editkeypressaction.ui:20
+msgid "Repeat action if button is held down"
+msgstr "按住按钮不放时重复动作"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbAutostart)
+#: editdbusaction.ui:101
+msgid "Start the application if not running"
+msgstr "如果应用程序未运行则启动"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: editdbusaction.ui:117
+msgid "If multiple instances of this application are running..."
+msgstr "如果此应用程序的多个实例已运行..."
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbTop)
+#: editdbusaction.ui:124
+msgid "send the action to the top-level instance"
+msgstr "将动作发送给顶级实例"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbBottom)
+#: editdbusaction.ui:131
+msgid "send the action to the lowest instance"
+msgstr "将动作发送给最低的实例"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbAll)
+#: editdbusaction.ui:138
+msgid "send the action to all instances"
+msgstr "将动作发送给全部实例"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rbNone)
+#: editdbusaction.ui:145
+msgid "do not send the action"
+msgstr "不发送实例"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: editkeypressaction.ui:27
+msgid "Keypresses to be generated"
+msgstr "产生的按键"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbAdd)
+#: editkeypressaction.ui:47
+msgid "&Add"
+msgstr "添加(&A)"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbRemove)
+#: editkeypressaction.ui:54
+msgid "&Remove"
+msgstr "删除(&R)"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbUp)
+#: editkeypressaction.ui:61
+msgid "Move Up"
+msgstr "上移"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbDown)
+#: editkeypressaction.ui:68
+msgid "Move Down"
+msgstr "下移"
+
+#: editprofileaction.cpp:30
+msgid "Profiles:"
+msgstr "配置文件："
+
+#: editprofileaction.cpp:36
+msgid "Action templates:"
+msgstr "动作模板："
+
+#: kcmremotecontrol.cpp:50
+msgid "KRemoteControl"
+msgstr "KRemoteControl"
+
+#: kcmremotecontrol.cpp:51
+msgid "The KDE Remote Control System"
+msgstr "KDE 远程控制系统"
+
+#: kcmremotecontrol.cpp:52
+msgid "2010 Michael Zanetti, 2010 Frank Scheffold"
+msgstr "2010 Michael Zanetti, 2010 Frank Scheffold"
+
+#: kcmremotecontrol.cpp:53
+msgid ""
+"Use this to configure KDE's remote control system in order to control any "
+"KDE application with your remote control."
+msgstr "使用此功能配置 KDE 远程控制系统，以便用遥控器控制任何 KDE 应用程序。"
+
+#: kcmremotecontrol.cpp:55
+msgid ""
+"<h1>Remote Controls</h1><p>This module allows you to configure bindings "
+"between your remote controls and KDE applications. Simply select your remote "
+"control and click Add next to the Actions/Buttons list to create new action "
+"for button presses.</p>"
+msgstr ""
+"<h1>远程控制</h1><p>此模块允许您配置遥控器和 KDE 应用程序之间的绑定。只需选择"
+"您的遥控器，然后单击下一步使用动作/按钮列表创建于按钮对应的新动作。</p>"
+
+#: kcmremotecontrol.cpp:246
+msgid ""
+"Are you sure you want to remove this remote and all of its modes and actions?"
+msgstr "您确定想要删除此遥控及其全部模式和动作吗？"
+
+#: kcmremotecontrol.cpp:246
+msgid "Remove remote"
+msgstr "删除遥控"
+
+#: kcmremotecontrol.cpp:257
+msgid "Are you sure you want to remove this mode and all contained actions?"
+msgstr "您确定想要删除此模式及其全部动作吗？"
+
+#: kcmremotecontrol.cpp:354
+#, kde-format
+msgid "Configured actions for %1:"
+msgstr "%1 配置的动作："
+
+#: kcmremotecontrol.cpp:356
+#, kde-format
+msgid "Configured actions for %1 in mode %2:"
+msgstr "%1 在 %2 模式中配置的动作："
+
+#: kcmremotecontrol.cpp:433
+msgid ""
+"The remote control daemon failed to load. Your remote controls will not work."
+msgstr "遥控守护程序装入失败。您的遥控器无法工作。"
+
+#: kcmremotecontrol.cpp:433
+msgid "Failed to load daemon"
+msgstr "装入守护程序失败"
+
+#: modedialog.cpp:47
+msgid "No button"
+msgstr "无按钮"
+
+#: modedialog.cpp:161
+msgid ""
+"Using the cycle function will remove all duplicate button assignments from "
+"your modes. Are you sure that you would like to proceed?"
+msgstr "使用圆键可从您的设定模式中清除所有重复的按键指派。您确认要这样做吗？"
+
+#: modedialog.cpp:161
+msgid "Change mode switch behavior"
+msgstr "更改模式切换行为"
+
+#: modedialog.cpp:173
+msgid "No Button"
+msgstr "无按钮"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ModeDialog)
+#: modedialog.ui:14
+msgid "New Mode"
+msgstr "新建模式"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbSetDefault)
+#: modedialog.ui:41
+msgid "Set mode as default"
+msgstr "将模式设为默认"
+
+#. i18n: ectx: property (text), widget (QLabel, lButton)
+#: modedialog.ui:53
+msgid "Button:"
+msgstr "按钮："
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbModeCycle)
+#: modedialog.ui:63
+msgid "Enable mode cycling (disables mode grouping)"
+msgstr "允许模式循环(禁用模式分组)"
+
+#. i18n: ectx: property (text), widget (QLabel, lCycleForward)
+#: modedialog.ui:72
+msgid "Forward button"
+msgstr "前进按钮"
+
+#. i18n: ectx: property (text), widget (QLabel, lCycleBackward)
+#: modedialog.ui:79
+msgid "Backward button"
+msgstr "后退按钮"
+
+#: model.cpp:55
+msgctxt "Header in a table holding DBus functions"
+msgid "Application / Node"
+msgstr "应用程序/节点"
+
+#: model.cpp:243 model.cpp:788
+msgid "Function"
+msgstr "功能"
+
+#: model.cpp:245
+msgid "Parameters"
+msgstr "参数"
+
+#: model.cpp:277 model.cpp:556
+msgid "Description"
+msgstr "描述"
+
+#: model.cpp:279
+msgid "Value"
+msgstr "值"
+
+#: model.cpp:334
+msgctxt "Value is true"
+msgid "True"
+msgstr "真"
+
+#: model.cpp:335
+msgctxt "Value is false"
+msgid "False"
+msgstr "假"
+
+#: model.cpp:342 model.cpp:458
+msgid "A comma-separated list of Strings"
+msgstr "逗号分割的字符串列表"
+
+#: model.cpp:492
+msgid "Profile Name"
+msgstr "配置文件名称"
+
+#: model.cpp:499
+#, kde-format
+msgid "Author: %1 (Version: %2)"
+msgstr "作者：%1 (版本：%2)"
+
+#: model.cpp:554
+msgctxt "Profile name"
+msgid "Name"
+msgstr "名称"
+
+#: model.cpp:624
+msgid "Remotes and modes"
+msgstr "遥控和模式"
+
+#: model.cpp:624 model.cpp:788
+msgid "Button"
+msgstr "按钮"
+
+#: model.cpp:781
+msgid "This remote control is currently not available."
+msgstr "目前没有可用的遥控器。"
+
+#: model.cpp:788
+msgid "Application"
+msgstr "应用程序"
+
+#: selectprofile.cpp:32
+msgid ""
+"Select a profile to automatically generate actions for your remote control:"
+msgstr "选择一个用于远程控制的动作自动生成方案："
+
+#: selectprofile.cpp:35
+msgid "Available profiles"
+msgstr "可用的配置文件"
+
+#: selectprofile.cpp:49
+msgid "Auto-Populate"
+msgstr "自动分配"
+
+#: selectprofile.cpp:88
+msgid "Remote supports all defined buttons in selected profile"
+msgstr "远程设备支持所选方案中所有的预定义按键"
+
+#: selectprofile.cpp:92
+msgid "Remote does not support all defined buttons in selected profile"
+msgstr "远程设备不完全支持所选方案中所有的预定义按键"
+
+#: selectprofile.cpp:96
+msgid "Remote supports none of the defined buttons in selected profile"
+msgstr "远程设备完全不支持所选方案中的任何按键"

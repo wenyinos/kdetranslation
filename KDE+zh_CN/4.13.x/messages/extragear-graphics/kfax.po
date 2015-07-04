@@ -1,0 +1,394 @@
+# translation of kfax.po to 简体中文
+# Copyright (C) 2002, 2008 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
+# Xiong Jiang <jxiong@offtopic.org>, 2002.
+# Funda Wang <fundawang@linux.net.cn>, 2002,2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: kfax\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 02:42+0200\n"
+"PO-Revision-Date: 2008-11-22 11:36+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Translator: Wang Jian <lark@linux.net.cn>\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: faxinput.cpp:61 faxinput.cpp:114 faxinput.cpp:151 faxinput.cpp:295
+#: faxinput.cpp:300 faxinput.cpp:334 faxinput.cpp:467
+msgid "Sorry"
+msgstr "抱歉"
+
+#: faxinput.cpp:61
+msgid "Out of memory\n"
+msgstr "内存溢出\n"
+
+#: faxinput.cpp:113
+#, kde-format
+msgid ""
+"Unable to open:\n"
+"%1\n"
+msgstr ""
+"无法打开：\n"
+"%1\n"
+
+#: faxinput.cpp:150
+#, kde-format
+msgid ""
+"Invalid tiff file:\n"
+"%1\n"
+msgstr ""
+"无效的 tiff 文件：\n"
+"%1\n"
+
+#: faxinput.cpp:252
+#, kde-format
+msgid ""
+"In file %1\n"
+"StripsPerImage tag 273=%2,tag279=%3\n"
+msgstr ""
+"在文件 %1\n"
+"StripsPerImage 标记 272=%2，标记 279=%3\n"
+
+#: faxinput.cpp:254 faxinput.cpp:453
+msgid "Message"
+msgstr "消息"
+
+#: faxinput.cpp:295
+msgid ""
+"Due to patent reasons KFax can not handle LZW (Lempel-Ziv & Welch) "
+"compressed Fax files.\n"
+msgstr ""
+"由于许可证的原因，KFax 不能处理 LZW (Lempel-Ziv & Welch) 压缩过的传真文件。\n"
+
+#: faxinput.cpp:300
+msgid "This version can only handle Fax files\n"
+msgstr "本版本只能处理传真文件\n"
+
+#: faxinput.cpp:334
+msgid "Bad Fax File"
+msgstr "坏掉的传真文件"
+
+#: faxinput.cpp:423
+#, kde-format
+msgid ""
+"Trying to expand too many strips\n"
+"%1\n"
+msgstr ""
+"尝试展开过多的条目\n"
+"%1\n"
+
+#: faxinput.cpp:424
+msgid "Warning"
+msgstr "警告"
+
+#: faxinput.cpp:451
+#, kde-format
+msgid ""
+"Only the first page of the PC Research multipage file\n"
+"%1\n"
+"will be shown\n"
+msgstr ""
+"只显示 PC Research 多页面文件\n"
+"%1\n"
+"的第一页\n"
+
+#: faxinput.cpp:466
+#, kde-format
+msgid ""
+"No fax found in file:\n"
+"%1\n"
+msgstr ""
+"未找到传真于文件：\n"
+"%1\n"
+
+#: kfax.cpp:259
+msgid "A&dd..."
+msgstr "添加(&D)..."
+
+#: kfax.cpp:273
+msgid "&Rotate Page"
+msgstr "旋转页面(&R)"
+
+#: kfax.cpp:276
+msgid "Mirror Page"
+msgstr "镜像页面"
+
+#: kfax.cpp:279
+msgid "&Flip Page"
+msgstr "翻转页面(&F)"
+
+#: kfax.cpp:298
+msgid "w: 00000 h: 00000"
+msgstr "w：00000 h：00000"
+
+#: kfax.cpp:299
+msgid "Res: XXXXX"
+msgstr "分辨率：XXXXX"
+
+#: kfax.cpp:300
+msgid "Type: XXXXXXX"
+msgstr "类型：XXXXXXX"
+
+#: kfax.cpp:301
+msgid "Page: XX of XX"
+msgstr "第XX页共XX页"
+
+#: kfax.cpp:691
+msgid "There is no document active."
+msgstr "没有活动的文档。"
+
+#: kfax.cpp:700 kfax.cpp:701 kfax.cpp:1423 kfax.cpp:1676
+msgid "KFax"
+msgstr "KFax"
+
+#: kfax.cpp:825 kfax.cpp:845
+msgid "Malformed URL"
+msgstr "不正确的 URL"
+
+#: kfax.cpp:829
+msgid "Saving..."
+msgstr "正在保存..."
+
+#: kfax.cpp:837
+msgid ""
+"Failure in 'copy file()'\n"
+"Could not save file!"
+msgstr ""
+"“copy file()”失败\n"
+"无法保存文件!"
+
+#: kfax.cpp:851
+#, kde-format
+msgid "Loading '%1'"
+msgstr "正在装入“%1”"
+
+#: kfax.cpp:858
+msgid "Downloading..."
+msgstr "正在下载..."
+
+#: kfax.cpp:1494
+#, kde-format
+msgid "Page: %1 of %2"
+msgstr "第 %1 页共 %2页"
+
+#: kfax.cpp:1499
+#, kde-format
+msgid "W: %1 H: %2"
+msgstr "宽：%1 高：%2"
+
+#: kfax.cpp:1503 options.cpp:124
+msgid "Fine"
+msgstr "高质量"
+
+#: kfax.cpp:1503 options.cpp:129
+msgid "Normal"
+msgstr "普通"
+
+#: kfax.cpp:1503
+#, kde-format
+msgid "Res: %1"
+msgstr "分辨率：%1"
+
+#: kfax.cpp:1512
+msgid "Type: Tiff "
+msgstr "类型：Tiff "
+
+#: kfax.cpp:1515
+msgid "Type: Raw "
+msgstr "类型：Raw "
+
+#: kfax.cpp:1672
+msgid "KDE G3/G4 Fax Viewer"
+msgstr "KDE G3/G4 传真查看器"
+
+#: kfax.cpp:1678
+msgid "(c) 1997-98 Bernd Johannes Wuebben"
+msgstr "(c) 1997-98 Bernd Johannes Wuebben"
+
+#: kfax.cpp:1679
+msgid "Bernd Johannes Wuebben"
+msgstr "Bernd Johannes Wuebben"
+
+#: kfax.cpp:1680
+msgid "Nadeem Hasan"
+msgstr "Nadeem Hasan"
+
+#: kfax.cpp:1680
+msgid "UI Rewrite, lots of code cleanups and fixes"
+msgstr "UI 重写，大量代码清理和修改"
+
+#: kfax.cpp:1682
+msgid "Helge Deller"
+msgstr "Helge Deller"
+
+#: kfax.cpp:1682
+msgid "Printing Rewrite, lots of code cleanups and fixes"
+msgstr "打印重写，大量代码清理和修改"
+
+#: kfax.cpp:1689
+msgid "Fine resolution"
+msgstr "高分辨率"
+
+#: kfax.cpp:1691
+msgid "Normal resolution"
+msgstr "普通分辨率"
+
+#: kfax.cpp:1692
+msgid "Height (number of fax lines)"
+msgstr "高度(传真线数)"
+
+#: kfax.cpp:1694
+msgid "Width (dots per fax line)"
+msgstr "宽度(传真每线点数)"
+
+#: kfax.cpp:1696
+msgid "Turn image 90 degrees (landscape mode)"
+msgstr "页面旋转 90 度(横向模式)"
+
+#: kfax.cpp:1698
+msgid "Turn image upside down"
+msgstr "上下颠倒图像"
+
+#: kfax.cpp:1700
+msgid "Invert black and white"
+msgstr "黑白反转"
+
+#: kfax.cpp:1702
+msgid "Limit memory use to 'bytes'"
+msgstr "限制内存的使用数量(字节)"
+
+#: kfax.cpp:1704
+msgid "Fax data is packed lsb first"
+msgstr "传真数据以 LSB 在前的方式封装"
+
+#: kfax.cpp:1705
+msgid "Raw files are g3-2d"
+msgstr "原始文件是 g3-2d"
+
+#: kfax.cpp:1706
+msgid "Raw files are g4"
+msgstr "原始文件是 g4"
+
+#: kfax.cpp:1707
+msgid "Fax file(s) to show"
+msgstr "要显示的传真文件"
+
+#: kfax_printsettings.cpp:32
+msgid ""
+"<qt><p><strong>'Ignore Paper Margins'</strong></p><p>If this checkbox is "
+"enabled, the paper margins will be ignored and the fax will be printed on "
+"the full paper size.</p><p>If this checkbox is disabled, KFax will respect "
+"the standard paper margins and print the fax inside this printable area.</p> "
+"</qt>"
+msgstr ""
+
+#: kfax_printsettings.cpp:43
+msgid ""
+"<qt><p><strong>'Horizontal centered'</strong></p><p>If this checkbox is "
+"enabled, the fax will be centered horizontally on the page.</p><p>If this "
+"checkbox is disabled, the fax will be printed at the left side of the page.</"
+"p> </qt>"
+msgstr ""
+
+#: kfax_printsettings.cpp:54
+msgid ""
+"<qt><p><strong>'Vertical centered'</strong></p><p>If this checkbox is "
+"enabled, the fax will be centered vertically on the page.</p><p>If this "
+"checkbox is disabled, the fax will be printed at the top of the page.</p> </"
+"qt>"
+msgstr ""
+
+#: kfax_printsettings.cpp:66
+msgid "&Layout"
+msgstr "布局(&L)"
+
+#: kfax_printsettings.cpp:68
+msgid "Ignore paper margins"
+msgstr "忽略纸张边距"
+
+#: kfax_printsettings.cpp:70
+msgid "Horizontal centered"
+msgstr "水平居中"
+
+#: kfax_printsettings.cpp:72
+msgid "Vertical centered"
+msgstr "垂直居中"
+
+#. i18n: ectx: Menu (file)
+#: kfaxui.rc:4
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (view)
+#: kfaxui.rc:7
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kfaxui.rc:14
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: options.cpp:58
+msgid "Configure"
+msgstr "配置"
+
+#: options.cpp:80
+msgid "Display options:"
+msgstr "显示选项："
+
+#: options.cpp:85
+msgid "Landscape"
+msgstr "景物"
+
+#: options.cpp:91
+msgid "Upside down"
+msgstr "上下颠倒"
+
+#: options.cpp:97
+msgid "Invert"
+msgstr "颜色反转"
+
+#: options.cpp:115
+msgid "Raw fax resolution:"
+msgstr "原始传真分辨率："
+
+#: options.cpp:119 options.cpp:207
+msgid "Auto"
+msgstr "自动"
+
+#: options.cpp:139
+msgid "Raw fax data are:"
+msgstr "原始传真数据是："
+
+#: options.cpp:144
+msgid "LS-Bit first"
+msgstr "LS-位 在前"
+
+#: options.cpp:161
+msgid "Raw fax format:"
+msgstr "原始传真格式："
+
+#: options.cpp:189
+msgid "Raw fax width:"
+msgstr "原始传真宽度："
+
+#: options.cpp:198
+msgid "Height:"
+msgstr "高度："

@@ -1,0 +1,1187 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-21 01:58+0000\n"
+"PO-Revision-Date: 2011-06-06 16:11+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: src/lintv.cpp:112 src/lintv.cpp:706
+msgid "Show LinTV"
+msgstr ""
+
+#: src/lintv.cpp:118
+msgid "Open LinTV Scheduler"
+msgstr ""
+
+#: src/lintv.cpp:126
+msgid "Cancel Recording"
+msgstr ""
+
+#: src/lintv.cpp:133
+#, kde-format
+msgid "LinTV is currently recording \"%1\" to file: \"%2\""
+msgstr ""
+
+#: src/lintv.cpp:143
+#, kde-format
+msgid "Started Recording \"%1\" at %2"
+msgstr ""
+
+#: src/lintv.cpp:263
+msgid ""
+"Mplayer or mencoder executable could not be found.\n"
+"You must install Mplayer and mencoder in order to use LinTV."
+msgstr ""
+
+#: src/lintv.cpp:266
+msgid "Missing Dependencies"
+msgstr ""
+
+#: src/lintv.cpp:640
+#, kde-format
+msgid "Are you sure you want to cancel the current recording (\"%1\")?\n"
+msgstr ""
+
+#: src/lintv.cpp:643
+msgid "Are you sure?"
+msgstr "您确定吗？"
+
+#: src/lintv.cpp:711
+msgid "Hide LinTV"
+msgstr ""
+
+#: src/lintv.cpp:765
+#, kde-format
+msgid "User canceled \"%1\""
+msgstr "用户已取消 \"%1\""
+
+#: src/lintv.cpp:768
+#, kde-format
+msgid "Finished Recording \"%1\" at %2"
+msgstr ""
+
+#: src/lintv.cpp:833
+msgid ""
+"LinTV is currently recording: all recordings must be stopped before exiting "
+"LinTV."
+msgstr ""
+
+#: src/lintv.cpp:835
+msgid "Stop recording before exiting"
+msgstr ""
+
+#. i18n: ectx: label, entry (RecordDirectory), group (Recording)
+#: src/lintv.kcfg:10
+msgid "The directory where TV recordings are stored."
+msgstr ""
+
+#. i18n: ectx: label, entry (VideoFormat), group (Recording)
+#: src/lintv.kcfg:14
+msgid "The format of the video. Can be mp1, mp2, mp4, mjpeg, or wmv."
+msgstr ""
+
+#. i18n: ectx: label, entry (VideoFramerate), group (Recording)
+#: src/lintv.kcfg:19
+msgid ""
+"The framerate of the video. The decimal point is moved 2 places \n"
+"             to the left for loading and 2 to the right for saving."
+msgstr ""
+
+#. i18n: ectx: label, entry (VideoBitrateType), group (Recording)
+#: src/lintv.kcfg:23
+msgid "Either Constant or Variable. Only applies for PVR devices."
+msgstr ""
+
+#. i18n: ectx: label, entry (VideoBitrate), group (Recording)
+#: src/lintv.kcfg:27
+msgid "The bitrate at which to record TV."
+msgstr ""
+
+#. i18n: ectx: label, entry (RecordVideoWidth), group (Recording)
+#: src/lintv.kcfg:31
+msgid "The width of the recorded video."
+msgstr ""
+
+#. i18n: ectx: label, entry (RecordVideoHeight), group (Recording)
+#: src/lintv.kcfg:35
+msgid "The height of the recorded video."
+msgstr ""
+
+#. i18n: ectx: label, entry (PeakVideoBitrate), group (Recording)
+#: src/lintv.kcfg:40
+msgid ""
+"The peak recording bitrate for variable bitrate setting.\n"
+"             Only applies for PVR devices."
+msgstr ""
+
+#. i18n: ectx: label, entry (AudioFormat), group (Recording)
+#: src/lintv.kcfg:44
+msgid "The format of the audio. Can be mp2, mp3, or ac3."
+msgstr ""
+
+#. i18n: ectx: label, entry (AudioBitrate), group (Recording)
+#: src/lintv.kcfg:48
+msgid "The bitrate of the audio."
+msgstr ""
+
+#. i18n: ectx: label, entry (AudioChannels), group (Recording)
+#: src/lintv.kcfg:52
+msgid "The number of channels in the audio."
+msgstr ""
+
+#. i18n: ectx: label, entry (AudioFrequency), group (Recording)
+#: src/lintv.kcfg:56
+msgid "The frequency of the audio. Can be 48000, 44100, or 38000."
+msgstr ""
+
+#. i18n: ectx: label, entry (AudioInput), group (Audio)
+#: src/lintv.kcfg:63
+msgid "The audio input to use to capture audio."
+msgstr ""
+
+#. i18n: ectx: label, entry (CountryRegion), group (Video)
+#: src/lintv.kcfg:70
+msgid "The country which the user selected in the video settings."
+msgstr ""
+
+#. i18n: ectx: label, entry (VideoStandard), group (Video)
+#: src/lintv.kcfg:74
+msgid "The selected video standard."
+msgstr ""
+
+#. i18n: ectx: label, entry (VideoCropTop), group (Video)
+#: src/lintv.kcfg:78
+msgid "The number of pixels to crop on the top side of the video."
+msgstr ""
+
+#. i18n: ectx: label, entry (VideoCropLeft), group (Video)
+#: src/lintv.kcfg:82
+msgid "The number of pixels to crop on the left side of the video."
+msgstr ""
+
+#. i18n: ectx: label, entry (VideoCropRight), group (Video)
+#: src/lintv.kcfg:86
+msgid "The number of pixels to crop on the right side of the video."
+msgstr ""
+
+#. i18n: ectx: label, entry (VideoCropBottom), group (Video)
+#: src/lintv.kcfg:90
+msgid "The number of pixels to crop on bottom side of the video."
+msgstr ""
+
+#. i18n: ectx: label, entry (VideoWidth), group (Video)
+#: src/lintv.kcfg:94
+msgid "The width of the video."
+msgstr ""
+
+#. i18n: ectx: label, entry (VideoHeight), group (Video)
+#: src/lintv.kcfg:98
+msgid "The height of the video."
+msgstr ""
+
+#. i18n: ectx: label, entry (CropRecordings), group (Video)
+#: src/lintv.kcfg:102
+msgid "Whether or not to crop video recordings."
+msgstr ""
+
+#. i18n: ectx: label, entry (ScreenshotDirectory), group (Screenshots)
+#: src/lintv.kcfg:109
+msgid "The directory in which to save screenshots."
+msgstr ""
+
+#. i18n: ectx: label, entry (ScreenshotWidth), group (Screenshots)
+#: src/lintv.kcfg:113
+msgid "The width of the screenshot"
+msgstr ""
+
+#. i18n: ectx: label, entry (ScreenshotHeight), group (Screenshots)
+#: src/lintv.kcfg:117
+msgid "The height of the screenshot"
+msgstr ""
+
+#. i18n: ectx: label, entry (ScreenshotFormat), group (Screenshots)
+#: src/lintv.kcfg:121
+msgid "The format of the screenshot (PNG, JPG, or BMP)"
+msgstr ""
+
+#. i18n: ectx: label, entry (ScreenshotNames), group (Screenshots)
+#: src/lintv.kcfg:125
+msgid "A list of screenshots the user has taken with LinTV."
+msgstr ""
+
+#. i18n: ectx: label, entry (Width), group (Program)
+#: src/lintv.kcfg:131
+msgid "Width of the main window."
+msgstr ""
+
+#. i18n: ectx: label, entry (Height), group (Program)
+#: src/lintv.kcfg:135
+msgid "Height of the main window."
+msgstr ""
+
+#. i18n: ectx: label, entry (LastInput), group (Program)
+#: src/lintv.kcfg:139
+msgid "The input last selected by the user."
+msgstr ""
+
+#. i18n: ectx: label, entry (Volume), group (Program)
+#: src/lintv.kcfg:142
+msgid "The last volume selected by the user."
+msgstr ""
+
+#. i18n: ectx: label, entry (Muted), group (Program)
+#: src/lintv.kcfg:146
+msgid "Whether or not LinTV was muted at exit..."
+msgstr ""
+
+#: src/lintvmain.cpp:25
+msgid ""
+"A KDE 4 application for viewing\n"
+"and recording TV."
+msgstr ""
+
+#. i18n: ectx: Menu (lintv_context)
+#: src/lintvmain.cpp:31 src/lintvui.rc:5
+msgid "LinTV"
+msgstr ""
+
+#: src/lintvmain.cpp:32
+msgid "(C) 2009 Zamora Studios"
+msgstr ""
+
+#: src/lintvmain.cpp:33
+msgid "Jesse L. Zamora"
+msgstr ""
+
+#: src/lintvmain.cpp:37
+msgid "Starts recording in the background until <time> expires."
+msgstr ""
+
+#: src/lintvmain.cpp:38
+msgid "Sets the name of the recording to <filename>"
+msgstr ""
+
+#: src/lintvmain.cpp:39
+msgid "Record from the <input> index"
+msgstr ""
+
+#: src/lintvmain.cpp:40
+msgid "The name of the device to record from."
+msgstr ""
+
+#: src/lintvmain.cpp:41
+msgid "The channel to record from."
+msgstr ""
+
+#. i18n: ectx: Menu (select_device)
+#: src/lintvui.rc:7
+#, fuzzy
+#| msgid "Device:"
+msgid "Select Device"
+msgstr "设备："
+
+#. i18n: ectx: attribute (title), widget (QWidget, videoParametersTab)
+#. i18n: ectx: Menu (video)
+#: src/lintvui.rc:11 src/ui/lintvconfigdialog.cpp:51
+#: src/ui/record_settings.ui:137 src/ui/wintv_record_settings.ui:144
+msgid "Video"
+msgstr "视频"
+
+#. i18n: ectx: Menu (help)
+#: src/lintvui.rc:18 src/lintvui.rc:34
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: Menu (screenshot_context)
+#: src/lintvui.rc:30
+msgid "Screenshot"
+msgstr "屏幕截图"
+
+#. i18n: ectx: property (title), widget (QGroupBox, audioInputGroupBox)
+#: src/ui/audio_settings.ui:16
+msgid "Audio Channels"
+msgstr "声道"
+
+#. i18n: ectx: property (text), widget (QLabel, audioMixerLabel)
+#: src/ui/audio_settings.ui:22
+msgid "Audio Mixer:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, cardTpyeLabel)
+#: src/ui/device_info.ui:28
+msgid "Device:"
+msgstr "设备："
+
+#. i18n: ectx: property (text), widget (QLabel, driverNameLabel)
+#: src/ui/device_info.ui:73
+msgid "Driver:"
+msgstr "驱动："
+
+#. i18n: ectx: property (text), widget (QLabel, deviceNodeLabel)
+#: src/ui/device_info.ui:100
+msgid "Device Node:"
+msgstr "设备节点："
+
+#. i18n: ectx: property (text), widget (QToolButton, detailToolButton)
+#: src/ui/device_info.ui:127 src/ui/lintvdeviceinfodialog.cpp:70
+msgid "Details >>"
+msgstr "细节 >>"
+
+#. i18n: ectx: property (text), widget (QPushButton, donePushButton)
+#: src/ui/device_info.ui:134
+msgid "Done"
+msgstr "完成"
+
+#: src/ui/lintvcolordialog.cpp:42
+msgid "Brightness:"
+msgstr "亮度："
+
+#: src/ui/lintvcolordialog.cpp:43
+msgid "Contrast:"
+msgstr "对比度："
+
+#: src/ui/lintvcolordialog.cpp:44
+msgid "Hue:"
+msgstr "色调："
+
+#: src/ui/lintvcolordialog.cpp:45
+msgid "Saturation:"
+msgstr "饱和度："
+
+#: src/ui/lintvconfigdialog.cpp:33
+msgid "Settings"
+msgstr "设置"
+
+#: src/ui/lintvconfigdialog.cpp:36
+msgid "Snapshots"
+msgstr ""
+
+#: src/ui/lintvconfigdialog.cpp:37
+msgid "Snapshot Settings"
+msgstr ""
+
+#: src/ui/lintvconfigdialog.cpp:41
+msgid "Record"
+msgstr "记录"
+
+#: src/ui/lintvconfigdialog.cpp:42
+msgid "Video and Audio Recording Parameters"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, audioParametersTab)
+#: src/ui/lintvconfigdialog.cpp:46 src/ui/record_settings.ui:396
+#: src/ui/wintv_record_settings.ui:452
+msgid "Audio"
+msgstr "音频"
+
+#: src/ui/lintvconfigdialog.cpp:47
+msgid "Audio Mixer Settings"
+msgstr ""
+
+#: src/ui/lintvconfigdialog.cpp:52
+msgid "Video Standard and Cropping Settings"
+msgstr ""
+
+#: src/ui/lintvdeviceinfodialog.cpp:35
+msgid "Device Information"
+msgstr "设备信息"
+
+#: src/ui/lintvdeviceinfodialog.cpp:65
+msgid "Details <<"
+msgstr "细节 <<"
+
+#: src/ui/lintvpages.cpp:85
+msgid "Standard DVD (NTSC) resolution."
+msgstr ""
+
+#: src/ui/lintvpages.cpp:87
+msgid "Standard SVCD (NTSC) resolution."
+msgstr ""
+
+#: src/ui/lintvpages.cpp:89
+msgid "Standard VCD (NTSC) resolution."
+msgstr ""
+
+#: src/ui/lintvpages.cpp:682
+#, kde-format
+msgid "<b>%1x%2</b>"
+msgstr "<b>%1x%2</b>"
+
+#: src/ui/lintvrenamedialog.cpp:17
+msgctxt "@title:window"
+msgid "Rename Item"
+msgstr "重命名项目"
+
+#: src/ui/lintvrenamedialog.cpp:21
+msgctxt "@action:button"
+msgid "Rename"
+msgstr "重命名"
+
+#: src/ui/lintvrenamedialog.cpp:31
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the item <filename>%1</filename> to:"
+msgstr "将项目 <filename>%1</filename> 重命名为："
+
+#: src/ui/lintvscreenshotwidgets.cpp:130
+msgid "View Screenshot"
+msgstr ""
+
+#: src/ui/lintvscreenshotwidgets.cpp:134
+msgid "Save As..."
+msgstr "另存为..."
+
+#: src/ui/lintvscreenshotwidgets.cpp:142
+msgid "Rename"
+msgstr "重命名"
+
+#: src/ui/lintvscreenshotwidgets.cpp:147
+msgid "Delete"
+msgstr "删除"
+
+#: src/ui/lintvscreenshotwidgets.cpp:153
+msgid "Delete All"
+msgstr "全部删除"
+
+#: src/ui/lintvscreenshotwidgets.cpp:159
+msgid "Properties"
+msgstr "属性"
+
+#: src/ui/lintvscreenshotwidgets.cpp:168
+msgid "Open With..."
+msgstr "打开方式..."
+
+#: src/ui/lintvscreenshotwidgets.cpp:220
+msgctxt "@info"
+msgid "No image format selected."
+msgstr "没有选中文档。"
+
+#: src/ui/lintvscreenshotwidgets.cpp:229
+#, kde-format
+msgctxt "@info"
+msgid ""
+"A file named <filename>%1</filename> already exists.\n"
+"Are you sure you want to overwrite it?"
+msgstr ""
+"和 <filename>%1</filename> 同名的文件已经存在。\n"
+"您想要覆盖它吗？"
+
+#: src/ui/lintvscreenshotwidgets.cpp:542
+msgid "Other Application..."
+msgstr "其它应用程序..."
+
+#: src/ui/lintvscreenshotwidgets.cpp:550
+msgid "Screenshot Operations"
+msgstr ""
+
+#: src/ui/lintvscreenshotwidgets.cpp:578 src/ui/lintvview.cpp:297
+msgid "Return to TV"
+msgstr ""
+
+#: src/ui/lintvstatuswidget.cpp:116
+#, kde-format
+msgid "%1"
+msgstr ""
+
+#: src/ui/lintvview.cpp:286
+msgid "Toggle TV Mode"
+msgstr ""
+
+#: src/ui/lintvview.cpp:306
+msgid "Adjust Video Colors"
+msgstr ""
+
+#: src/ui/lintvview.cpp:315
+msgid "View Device Info"
+msgstr ""
+
+#: src/ui/lintvview.cpp:330
+msgid "No devices detected..."
+msgstr ""
+
+#: src/ui/lintvview.cpp:334
+msgid "Default Size"
+msgstr ""
+
+#: src/ui/lintvview.cpp:448
+#, kde-format
+msgid "Ch %1"
+msgstr "Ch %1"
+
+#: src/ui/lintvview.cpp:552
+#, kde-format
+msgid "%1 %"
+msgstr ""
+
+#: src/ui/lintvview.cpp:553
+#, kde-format
+msgid "Volume %1%"
+msgstr "音量 %1%"
+
+#: src/ui/lintvview.cpp:574
+msgid "Click to un-pause the video..."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, pauseToolButton)
+#: src/ui/lintvview.cpp:576 src/ui/lintvview_base.ui:632
+msgid "Click to pause the video..."
+msgstr ""
+
+#: src/ui/lintvview.cpp:633
+msgid "Click to stop recording..."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, recordToolButton)
+#: src/ui/lintvview.cpp:635 src/ui/lintvview_base.ui:660
+msgid "Click to start recording..."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, lintvview_base)
+#: src/ui/lintvview_base.ui:19
+msgid "kapp4_base"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, tvModePushButton)
+#: src/ui/lintvview_base.ui:93
+#, fuzzy
+#| msgid "Toggle Mute"
+msgid "Toggle \"TV Mode\""
+msgstr "切换静音"
+
+#. i18n: ectx: property (text), widget (QPushButton, tvModePushButton)
+#. i18n: ectx: property (text), widget (QPushButton, mutePushButton)
+#: src/ui/lintvview_base.ui:96 src/ui/lintvview_base.ui:421
+msgid "M"
+msgstr "M"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, alwaysOnTopPushButton)
+#: src/ui/lintvview_base.ui:127
+msgid "Toggle \"Always on Top\""
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, alwaysOnTopPushButton)
+#: src/ui/lintvview_base.ui:130
+msgid "A"
+msgstr "A"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, upChannelPushButton)
+#: src/ui/lintvview_base.ui:174
+msgid "Channel Up"
+msgstr "频道+"
+
+#. i18n: ectx: property (text), widget (QPushButton, upChannelPushButton)
+#: src/ui/lintvview_base.ui:177
+msgid "U"
+msgstr "U"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, downChannelPushButton)
+#: src/ui/lintvview_base.ui:202
+msgid "Channel Down"
+msgstr "频道-"
+
+#. i18n: ectx: property (text), widget (QPushButton, downChannelPushButton)
+#: src/ui/lintvview_base.ui:205
+msgid "D"
+msgstr "D"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, configurePushButton)
+#: src/ui/lintvview_base.ui:249
+msgid "Configure LinTV"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, configurePushButton)
+#: src/ui/lintvview_base.ui:252
+msgid "C"
+msgstr "C"
+
+#. i18n: ectx: property (text), widget (QLabel, screenshotLabel)
+#: src/ui/lintvview_base.ui:279
+#, fuzzy
+#| msgid "Screenshot"
+msgid "Snapshots:"
+msgstr "屏幕截图"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, takeScreenshotButton)
+#: src/ui/lintvview_base.ui:302
+msgid "Take a snapshot."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, takeScreenshotButton)
+#: src/ui/lintvview_base.ui:305
+msgid "T"
+msgstr "T"
+
+#. i18n: ectx: property (text), widget (QLabel, channelLabel)
+#: src/ui/lintvview_base.ui:338
+msgid "Ch 3"
+msgstr "Ch 3"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, volumeSlider)
+#: src/ui/lintvview_base.ui:387
+#, no-c-format
+msgid "Volume: 100%"
+msgstr "音量：100%"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, mutePushButton)
+#: src/ui/lintvview_base.ui:418
+msgid "Toggle Mute"
+msgstr "切换静音"
+
+#. i18n: ectx: property (text), widget (QLabel, volumeLabel)
+#: src/ui/lintvview_base.ui:442
+#, no-c-format
+msgid "100%"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, inputsLabel)
+#: src/ui/lintvview_base.ui:578
+msgid "Input:"
+msgstr "输入："
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, inputSelector)
+#: src/ui/lintvview_base.ui:591
+msgid "Click here to select a device input..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, pauseToolButton)
+#. i18n: ectx: property (text), widget (QToolButton, recordToolButton)
+#: src/ui/lintvview_base.ui:635 src/ui/lintvview_base.ui:663
+msgid "..."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, recordSettingsPage)
+#. i18n: ectx: property (windowTitle), widget (QWidget, wintvRecordSettingsPage)
+#: src/ui/record_settings.ui:25 src/ui/wintv_record_settings.ui:26
+#, fuzzy
+#| msgid "Record"
+msgid "Recording Page"
+msgstr "记录"
+
+#. i18n: ectx: property (title), widget (QGroupBox, recordLocationGroupBox)
+#: src/ui/record_settings.ui:31 src/ui/wintv_record_settings.ui:38
+msgid "Record Location"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, recordQualityGroupBox)
+#: src/ui/record_settings.ui:55 src/ui/wintv_record_settings.ui:62
+msgid "Record Quality Presets"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, presetsLabel)
+#: src/ui/record_settings.ui:70 src/ui/wintv_record_settings.ui:77
+msgid "Presets:"
+msgstr "预设："
+
+#. i18n: ectx: property (text), item, widget (QListWidget, presetsListWidget)
+#: src/ui/record_settings.ui:90 src/ui/wintv_record_settings.ui:97
+msgid "SVCD Long Play"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QListWidget, presetsListWidget)
+#: src/ui/record_settings.ui:95 src/ui/wintv_record_settings.ui:102
+msgid "SVCD Standard Play"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QListWidget, presetsListWidget)
+#: src/ui/record_settings.ui:100 src/ui/wintv_record_settings.ui:107
+msgid "DVD Extra Long Play"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QListWidget, presetsListWidget)
+#: src/ui/record_settings.ui:105 src/ui/wintv_record_settings.ui:112
+msgid "DVD Long Play"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QListWidget, presetsListWidget)
+#: src/ui/record_settings.ui:110 src/ui/wintv_record_settings.ui:117
+msgid "DVD Standard Play"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, customRadioButton)
+#. i18n: ectx: property (text), item, widget (QListWidget, presetsListWidget)
+#. i18n: ectx: property (text), widget (QRadioButton, customResRadioButton)
+#: src/ui/record_settings.ui:115 src/ui/record_settings.ui:284
+#: src/ui/snapshot_settings.ui:103 src/ui/video_settings.ui:372
+#: src/ui/wintv_record_settings.ui:122 src/ui/wintv_record_settings.ui:340
+msgid "Custom"
+msgstr "自定义"
+
+#. i18n: ectx: property (text), widget (QPushButton, savePresetPushButton)
+#: src/ui/record_settings.ui:123 src/ui/wintv_record_settings.ui:130
+msgid "Save Preset..."
+msgstr "保存预设..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, bitrateDetailsGroupBox)
+#: src/ui/record_settings.ui:143 src/ui/wintv_record_settings.ui:150
+msgid "Bitrate Details (KB/s)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, bitrateLabel)
+#: src/ui/record_settings.ui:149 src/ui/wintv_record_settings.ui:173
+msgid "Bitrate:"
+msgstr "比特率："
+
+#. i18n: ectx: property (text), widget (QLabel, framerateLabel)
+#: src/ui/record_settings.ui:175
+msgid "Fps:"
+msgstr "帧/秒"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, frameratesComboBox)
+#: src/ui/record_settings.ui:212 src/ui/wintv_record_settings.ui:249
+msgid "15"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, frameratesComboBox)
+#: src/ui/record_settings.ui:217 src/ui/wintv_record_settings.ui:254
+msgid "20"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, frameratesComboBox)
+#: src/ui/record_settings.ui:222 src/ui/wintv_record_settings.ui:259
+msgid "25"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, frameratesComboBox)
+#: src/ui/record_settings.ui:227 src/ui/wintv_record_settings.ui:264
+msgid "29.97"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, frameratesComboBox)
+#: src/ui/record_settings.ui:232 src/ui/wintv_record_settings.ui:269
+msgid "30"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, frameratesComboBox)
+#: src/ui/record_settings.ui:237 src/ui/wintv_record_settings.ui:274
+msgid "35"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, resolutionGroupBox)
+#: src/ui/record_settings.ui:248 src/ui/video_settings.ui:336
+#: src/ui/wintv_record_settings.ui:304
+msgid "Resolution"
+msgstr "分辨率"
+
+#. i18n: ectx: property (text), widget (QRadioButton, largeResRadioButton)
+#: src/ui/record_settings.ui:260 src/ui/video_settings.ui:348
+#: src/ui/wintv_record_settings.ui:316
+msgid "720x480"
+msgstr "720x480"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mediumResRadioButton)
+#: src/ui/record_settings.ui:270 src/ui/video_settings.ui:358
+#: src/ui/wintv_record_settings.ui:326
+msgid "480x480"
+msgstr "480x480"
+
+#. i18n: ectx: property (text), widget (QRadioButton, smallResRadioButton)
+#: src/ui/record_settings.ui:277 src/ui/video_settings.ui:365
+#: src/ui/wintv_record_settings.ui:333
+msgid "352x240"
+msgstr "352x240"
+
+#. i18n: ectx: property (text), widget (QLabel, xLabel)
+#: src/ui/record_settings.ui:315 src/ui/snapshot_settings.ui:129
+#: src/ui/video_settings.ui:403 src/ui/wintv_record_settings.ui:371
+msgid "x"
+msgstr "x"
+
+#. i18n: ectx: property (text), widget (QLabel, recordFormatLabel)
+#: src/ui/record_settings.ui:356 src/ui/wintv_record_settings.ui:412
+#, fuzzy
+#| msgid "Record"
+msgid "Record Format:"
+msgstr "记录"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, formatsComboBox)
+#: src/ui/record_settings.ui:367 src/ui/wintv_record_settings.ui:423
+msgid "MPEG-1"
+msgstr "MPEG-1"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, formatsComboBox)
+#: src/ui/record_settings.ui:372 src/ui/wintv_record_settings.ui:428
+msgid "MPEG-2 (DVD / SVCD / VCD)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, formatsComboBox)
+#: src/ui/record_settings.ui:377 src/ui/wintv_record_settings.ui:433
+msgid "MPEG-4 (DivX 4/5)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, formatsComboBox)
+#: src/ui/record_settings.ui:382 src/ui/wintv_record_settings.ui:438
+msgid "MJPEG"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, formatsComboBox)
+#: src/ui/record_settings.ui:387 src/ui/wintv_record_settings.ui:443
+msgid "WMV (Windows Media Video)"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, audioTypeGroupBox)
+#: src/ui/record_settings.ui:402 src/ui/wintv_record_settings.ui:458
+#, fuzzy
+#| msgid "Audio"
+msgid "Audio Type"
+msgstr "音频"
+
+#. i18n: ectx: property (text), widget (QRadioButton, stereoRadioButton)
+#: src/ui/record_settings.ui:417
+msgid "Stereo (Default)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, monoRadioButton)
+#: src/ui/record_settings.ui:427 src/ui/wintv_record_settings.ui:497
+msgid "Mono"
+msgstr "单声道"
+
+#. i18n: ectx: property (text), widget (QRadioButton, noSoundRadioButton)
+#: src/ui/record_settings.ui:447
+msgid "No Sound"
+msgstr "无声音"
+
+#. i18n: ectx: property (title), widget (QGroupBox, audioBitrateGroupBox)
+#: src/ui/record_settings.ui:457 src/ui/wintv_record_settings.ui:507
+msgid "Audio Bitrate (KB/s)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, audioBitrateComboBox)
+#: src/ui/record_settings.ui:476 src/ui/wintv_record_settings.ui:526
+msgid "32"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, audioBitrateComboBox)
+#: src/ui/record_settings.ui:481 src/ui/wintv_record_settings.ui:531
+msgid "64"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, audioBitrateComboBox)
+#: src/ui/record_settings.ui:486 src/ui/wintv_record_settings.ui:536
+msgid "96"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, audioBitrateComboBox)
+#: src/ui/record_settings.ui:491 src/ui/wintv_record_settings.ui:541
+msgid "128"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, audioBitrateComboBox)
+#: src/ui/record_settings.ui:496 src/ui/wintv_record_settings.ui:546
+msgid "196"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, audioBitrateComboBox)
+#: src/ui/record_settings.ui:501
+#, fuzzy
+#| msgid "352x240"
+msgid "224"
+msgstr "352x240"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, audioBitrateComboBox)
+#: src/ui/record_settings.ui:506 src/ui/wintv_record_settings.ui:551
+msgid "256"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, audioBitrateComboBox)
+#: src/ui/record_settings.ui:511 src/ui/wintv_record_settings.ui:556
+msgid "384"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, audioBitrateComboBox)
+#: src/ui/record_settings.ui:516
+#, fuzzy
+#| msgid "480x480"
+msgid "448"
+msgstr "480x480"
+
+#. i18n: ectx: property (title), widget (QGroupBox, audioFormatGroupBox)
+#: src/ui/record_settings.ui:540 src/ui/wintv_record_settings.ui:584
+msgid "Audio Format"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, mp3RadioButton)
+#: src/ui/record_settings.ui:552 src/ui/wintv_record_settings.ui:596
+msgid "MPEG Layer 3 (mp3)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, mp2RadioButton)
+#: src/ui/record_settings.ui:568 src/ui/wintv_record_settings.ui:606
+msgid "MPEG Layer 2 (mp2)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, ac3RadioButton)
+#: src/ui/record_settings.ui:575 src/ui/wintv_record_settings.ui:613
+msgid "Dolby Digital (ac3)"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, audioRateGroupBox)
+#: src/ui/record_settings.ui:585 src/ui/wintv_record_settings.ui:623
+#, fuzzy
+#| msgid "Audio Channels"
+msgid "Audio Rate"
+msgstr "声道"
+
+#. i18n: ectx: property (text), widget (QRadioButton, highRateRadioButton)
+#: src/ui/record_settings.ui:597 src/ui/wintv_record_settings.ui:635
+msgid "48000 (48 khz)"
+msgstr "48000 (48 khz)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mediumRateRadioButton)
+#: src/ui/record_settings.ui:604 src/ui/wintv_record_settings.ui:642
+msgid "44100 (44.1 khz)"
+msgstr "44100 (44.1 khz)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, lowRateRadioButton)
+#: src/ui/record_settings.ui:614 src/ui/wintv_record_settings.ui:652
+msgid "38000 (38 khz)"
+msgstr "38000 (38 khz)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, snapshotDirectoryGroupBox)
+#: src/ui/snapshot_settings.ui:19
+msgid "Snapshot Directory"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, dimensionsGroupBox)
+#: src/ui/snapshot_settings.ui:43
+msgid "Snapshot Dimensions"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, _1600x1200_radioButton)
+#: src/ui/snapshot_settings.ui:49
+msgid "1600x1200"
+msgstr "1600x1200"
+
+#. i18n: ectx: property (text), widget (QRadioButton, _1280x1024_radioButton)
+#: src/ui/snapshot_settings.ui:56
+msgid "1280x1024"
+msgstr "1280x1024"
+
+#. i18n: ectx: property (text), widget (QRadioButton, _1024x768_radioButton)
+#: src/ui/snapshot_settings.ui:63
+msgid "1024x768 (Default)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, _800x600_radioButton)
+#: src/ui/snapshot_settings.ui:73
+msgid "800x600"
+msgstr "800x600"
+
+#. i18n: ectx: property (text), widget (QRadioButton, _640x480_radioButton)
+#: src/ui/snapshot_settings.ui:80
+msgid "640x480"
+msgstr "640x480"
+
+#. i18n: ectx: property (text), widget (QRadioButton, _320x240_radioButton)
+#: src/ui/snapshot_settings.ui:87
+msgid "320x240"
+msgstr "320x240"
+
+#. i18n: ectx: property (text), widget (QRadioButton, actualSizeRadioButton)
+#: src/ui/snapshot_settings.ui:94
+msgid "Actual Size"
+msgstr "实际大小"
+
+#. i18n: ectx: property (text), widget (QLabel, pxLabel)
+#. i18n: ectx: property (text), widget (QLabel, pixelLabel1)
+#. i18n: ectx: property (text), widget (QLabel, pixelLabel1_4)
+#. i18n: ectx: property (text), widget (QLabel, pixelLabel1_2)
+#. i18n: ectx: property (text), widget (QLabel, pixelLabel1_3)
+#: src/ui/snapshot_settings.ui:155 src/ui/video_settings.ui:195
+#: src/ui/video_settings.ui:219 src/ui/video_settings.ui:243
+#: src/ui/video_settings.ui:267
+msgid "px."
+msgstr "px."
+
+#. i18n: ectx: property (title), widget (QGroupBox, formatGroupBox)
+#: src/ui/snapshot_settings.ui:167
+msgid "Snapshot Format"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, pngRadioButton)
+#: src/ui/snapshot_settings.ui:179
+msgid "PNG (Default)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, jpgRadioButton)
+#: src/ui/snapshot_settings.ui:189
+msgid "JPG"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, bmpRadioButton)
+#: src/ui/snapshot_settings.ui:196
+msgid "BMP"
+msgstr "BMP"
+
+#. i18n: ectx: property (title), widget (QGroupBox, videoStandardGroupBox)
+#: src/ui/video_settings.ui:16
+msgid "Select Video Standard"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, countryRegionRadioButton)
+#: src/ui/video_settings.ui:25
+msgid "By Country/Region"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, standardRadioButton)
+#: src/ui/video_settings.ui:37
+msgid "By Standard"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, standardComboBox)
+#: src/ui/video_settings.ui:54
+msgid "NTSC"
+msgstr "NTSC"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, standardComboBox)
+#: src/ui/video_settings.ui:59
+msgid "PAL"
+msgstr "PAL"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, standardComboBox)
+#: src/ui/video_settings.ui:64
+msgid "SECAM"
+msgstr "SECAM"
+
+#. i18n: ectx: property (text), widget (QLabel, secamStandardNotice)
+#: src/ui/video_settings.ui:76
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600; font-style:italic;\">Note: </span>Videos recorded from SECAM "
+"tuners are saved as PAL, as there is no SECAM MPEG file format.</p></body></"
+"html>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, videoCropGroupBox)
+#: src/ui/video_settings.ui:162
+msgid "Video Crop Area"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, videoCropLabel)
+#: src/ui/video_settings.ui:168
+msgid ""
+"Select how many pixels on each side of the video you would like to crop:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, topCropLabel)
+#: src/ui/video_settings.ui:178
+msgid "Top:"
+msgstr "顶部："
+
+#. i18n: ectx: property (text), widget (QLabel, leftCropLabel)
+#: src/ui/video_settings.ui:202
+msgid "Left:"
+msgstr "左："
+
+#. i18n: ectx: property (text), widget (QLabel, bottomCropLabel)
+#: src/ui/video_settings.ui:226
+msgid "Bottom:"
+msgstr "底部："
+
+#. i18n: ectx: property (text), widget (QLabel, rightCropLabel)
+#: src/ui/video_settings.ui:250
+msgid "Right:"
+msgstr "右："
+
+#. i18n: ectx: property (text), widget (QPushButton, resetDefaultPushButton)
+#: src/ui/video_settings.ui:274
+msgid "&Reset Defaults"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, videoDimensionsLabel)
+#: src/ui/video_settings.ui:285
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">704x480</span></p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cropRecordingsCheckBox)
+#: src/ui/video_settings.ui:314
+msgid "Check this to also crop video recordings."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cropRecordingsCheckBox)
+#: src/ui/video_settings.ui:317
+msgid "Also crop video recordings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, constantBitrateRadioButton)
+#: src/ui/wintv_record_settings.ui:156
+msgid "Constant"
+msgstr "常量"
+
+#. i18n: ectx: property (text), widget (QRadioButton, variableBitrateRadioButton)
+#: src/ui/wintv_record_settings.ui:166
+msgid "Variable"
+msgstr "变量"
+
+#. i18n: ectx: property (text), widget (QLabel, peakBitrateLabel)
+#: src/ui/wintv_record_settings.ui:202
+#, fuzzy
+#| msgid "Bitrate:"
+msgid "Peak Bitrate:"
+msgstr "比特率："
+
+#. i18n: ectx: property (text), widget (QLabel, framerateLabel)
+#: src/ui/wintv_record_settings.ui:212
+msgid "Frame rate:"
+msgstr "帧速率："
+
+#. i18n: ectx: property (text), widget (QRadioButton, stereoRadioButton)
+#: src/ui/wintv_record_settings.ui:473
+msgid "Stereo (default)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, jointStereoRadioButton)
+#: src/ui/wintv_record_settings.ui:483
+msgid "Joint-Stereo"
+msgstr "联合立体声"
+
+#. i18n: ectx: property (text), widget (QRadioButton, dualRadioButton)
+#: src/ui/wintv_record_settings.ui:490
+msgid "Dual"
+msgstr "双声道"
+
+#. i18n: ectx: property (text), widget (QLabel, averageSizeLabel)
+#: src/ui/wintv_record_settings.ui:568
+msgid ""
+"\n"
+"Average audio size: \n"
+"1.2 MB / minute\n"
+"72 MB / hour\n"
+msgstr ""

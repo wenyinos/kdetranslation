@@ -1,0 +1,2323 @@
+# translation of akregator.po to 简体中文
+#
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2012.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+# Feng Chao <rainofchaos@gmail.com>, 2011, 2013.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+# Yichao Yu <yyc1992@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: akregator\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-22 01:40+0000\n"
+"PO-Revision-Date: 2013-09-15 20:06+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: configuration/akregator_config_advanced.cpp:48
+msgid "kcmakradvancedconfig"
+msgstr "kcmakradvancedconfig"
+
+#: configuration/akregator_config_advanced.cpp:49
+msgid "Advanced Feed Reader Settings"
+msgstr "高级种子阅读器设置"
+
+#: configuration/akregator_config_advanced.cpp:51
+#: configuration/akregator_config_appearance.cpp:75
+#: configuration/akregator_config_archive.cpp:66
+#: configuration/akregator_config_browser.cpp:57
+#: configuration/akregator_config_general.cpp:61
+msgid "(c), 2004 - 2008 Frank Osterfeld"
+msgstr "(c)，2004 - 2008 Frank Osterfeld"
+
+#: configuration/akregator_config_advanced.cpp:53
+#: configuration/akregator_config_appearance.cpp:77
+#: configuration/akregator_config_archive.cpp:68
+#: configuration/akregator_config_browser.cpp:59
+#: configuration/akregator_config_general.cpp:63 src/aboutdata.cpp:42
+msgid "Frank Osterfeld"
+msgstr "Frank Osterfeld"
+
+#: configuration/akregator_config_appearance.cpp:72
+msgid "kcmakrappearanceconfig"
+msgstr "kcmakrappearanceconfig"
+
+#: configuration/akregator_config_appearance.cpp:73
+msgid "Configure Feed Reader Appearance"
+msgstr "配置种子阅读器外观"
+
+#: configuration/akregator_config_archive.cpp:55
+msgctxt "Limit feed archive size to:"
+msgid " article"
+msgid_plural " articles"
+msgstr[0] " 篇文章"
+
+#: configuration/akregator_config_archive.cpp:56
+msgctxt "Delete articles older than:"
+msgid " day"
+msgid_plural " days"
+msgstr[0] " 天"
+
+#: configuration/akregator_config_archive.cpp:63
+msgid "kcmakrarchiveconfig"
+msgstr "kcmakrarchiveconfig"
+
+#: configuration/akregator_config_archive.cpp:64
+msgid "Configure Feed Reader Archive"
+msgstr "配置种子阅读器存档"
+
+#: configuration/akregator_config_browser.cpp:54
+msgid "kcmakrbrowserconfig"
+msgstr "kcmakrbrowserconfig"
+
+#: configuration/akregator_config_browser.cpp:55
+msgid "Configure Feed Reader Browser"
+msgstr "配置种子阅读器浏览器"
+
+#: configuration/akregator_config_general.cpp:51
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " 分钟"
+
+#: configuration/akregator_config_general.cpp:58
+msgid "kcmakrgeneralconfig"
+msgstr "kcmakrgeneralconfig"
+
+#: configuration/akregator_config_general.cpp:59
+msgid "Configure Feeds"
+msgstr "配置种子"
+
+#: configuration/settings_advanced.cpp:61
+msgctxt "Mark selected article read after"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " 秒"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: configuration/settings_advancedbase.ui:10
+msgid "Archive"
+msgstr "存档"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: configuration/settings_advancedbase.ui:18
+msgid "Archive backend:"
+msgstr "存档后端："
+
+#. i18n: ectx: property (text), widget (QPushButton, pbBackendConfigure)
+#: configuration/settings_advancedbase.ui:28
+msgid "&Configure..."
+msgstr "配置(&C)..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: configuration/settings_advancedbase.ui:53
+msgid "Article List"
+msgstr "文章列表"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseMarkReadDelay)
+#: configuration/settings_advancedbase.ui:61
+msgid "Mar&k selected article read after"
+msgstr "将选中文章标为已读前等(&K)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResetQuickFilterOnNodeChange)
+#: configuration/settings_advancedbase.ui:96
+msgid "Reset search bar when changing feeds"
+msgstr "更改种子时重置搜索栏。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: configuration/settings_appearance.ui:10
+msgid "Article List Colors"
+msgstr "文章列表颜色"
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_unreadArticles)
+#: configuration/settings_appearance.ui:37
+msgid "Unread articles:"
+msgstr "已读文章："
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_newArticles)
+#: configuration/settings_appearance.ui:54
+msgid "New articles:"
+msgstr "新文章："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseCustomColors)
+#: configuration/settings_appearance.ui:70
+msgid "Use custom colors"
+msgstr "使用自定义颜色"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: configuration/settings_appearance.ui:80
+msgid "Font Size"
+msgstr "字体大小"
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_MinimumFontSize)
+#: configuration/settings_appearance.ui:86
+msgid "Minimum font size:"
+msgstr "最小字体大小："
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_MediumFontSize)
+#: configuration/settings_appearance.ui:126
+msgid "Medium font size:"
+msgstr "中等字体大小："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: configuration/settings_appearance.ui:169
+msgid "Fonts"
+msgstr "字体"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: configuration/settings_appearance.ui:175
+msgid "Standard font:"
+msgstr "标准字体："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#: configuration/settings_appearance.ui:185
+msgid "Fixed font:"
+msgstr "等宽字体："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: configuration/settings_appearance.ui:195
+msgid "Serif font:"
+msgstr "衬线字体："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: configuration/settings_appearance.ui:205
+msgid "Sans serif font:"
+msgstr "无衬线字体："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UnderlineLinks)
+#: configuration/settings_appearance.ui:218
+msgid "&Underline links"
+msgstr "链接加下划线(&U)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: configuration/settings_archive.ui:10
+msgid "Default Archive Settings"
+msgstr "默认存档设置"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_DisableArchiving)
+#: configuration/settings_archive.ui:16
+msgid "Disable archiving"
+msgstr "禁用存档"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_KeepAllArticles)
+#: configuration/settings_archive.ui:23
+msgid "Keep all articles"
+msgstr "保留全部文章"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_LimitArticleNumber)
+#: configuration/settings_archive.ui:35
+msgid "Limit feed archive size to:"
+msgstr "种子文章数限制为："
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_LimitArticleAge)
+#: configuration/settings_archive.ui:62
+msgid "Delete articles older than: "
+msgstr "删除指定时间前的文章："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DoNotExpireImportantArticles)
+#: configuration/settings_archive.ui:100
+msgid "Do not expire important articles"
+msgstr "重要文章不过期"
+
+#. i18n: ectx: property (text), widget (QLabel, LMBlabel)
+#: configuration/settings_browser.ui:12
+msgid "Left mouse click:"
+msgstr "鼠标左键点击："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LMBBehaviour)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MMBBehaviour)
+#: configuration/settings_browser.ui:20 configuration/settings_browser.ui:46
+#: src/actionmanagerimpl.cpp:303
+msgid "Open in Tab"
+msgstr "在标签中打开"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LMBBehaviour)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MMBBehaviour)
+#: configuration/settings_browser.ui:25 configuration/settings_browser.ui:51
+#: src/actionmanagerimpl.cpp:309
+msgid "Open in Background Tab"
+msgstr "在后台标签中打开"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LMBBehaviour)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_MMBBehaviour)
+#: configuration/settings_browser.ui:30 configuration/settings_browser.ui:56
+#: src/actionmanagerimpl.cpp:315
+msgid "Open in External Browser"
+msgstr "在外部浏览器中打开"
+
+#. i18n: ectx: property (text), widget (QLabel, MMBlabel)
+#: configuration/settings_browser.ui:38
+msgid "Middle mouse click:"
+msgstr "鼠标中键点击："
+
+#. i18n: ectx: property (title), widget (QGroupBox, externalBrowserGroupBox)
+#: configuration/settings_browser.ui:66
+msgid "External Browsing"
+msgstr "在外部浏览"
+
+#. i18n: ectx: property (text), widget (KLineEdit, kcfg_ExternalBrowserCustomCommand)
+#: configuration/settings_browser.ui:75
+#, no-c-format
+msgid "firefox %u"
+msgstr "firefox %u"
+
+#. i18n: ectx: label, entry, group (Browser)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExternalBrowserUseCustomCommand)
+#: configuration/settings_browser.ui:82 interfaces/akregator.kcfg:176
+msgid "Use this command:"
+msgstr "使用此命令："
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExternalBrowserUseKdeDefault)
+#: configuration/settings_browser.ui:89
+msgid "Use default web browser"
+msgstr "使用默认网络浏览器"
+
+#. i18n: ectx: property (title), widget (QGroupBox, tabsGroupBox)
+#: configuration/settings_browser.ui:102
+msgid "Tabs"
+msgstr "标签"
+
+#. i18n: ectx: label, entry, group (Browser)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AlwaysShowTabBar)
+#: configuration/settings_browser.ui:108 interfaces/akregator.kcfg:156
+msgid "Always show the tab bar"
+msgstr "总是显示标签栏"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CloseButtonOnTabs)
+#: configuration/settings_browser.ui:115
+msgid "Show close button on each tab"
+msgstr "在每个标签上显示关闭按钮"
+
+#. i18n: ectx: label, entry, group (Browser)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_NewWindowInTab)
+#: configuration/settings_browser.ui:122 interfaces/akregator.kcfg:166
+msgid "Open links in new tab instead of in new window"
+msgstr "在新标签而不是新窗口中打开链接"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: configuration/settings_general.ui:10
+msgctxt "global settings"
+msgid "Global"
+msgstr "全局"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTrayIcon)
+#: configuration/settings_general.ui:16
+msgid "Show tra&y icon"
+msgstr "显示托盘图标(&Y)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableTrayIconUnreadArticleCount)
+#: configuration/settings_general.ui:47
+msgid "Display an unread article &count in the tray icon"
+msgstr "在托盘图标显示未读文章数(&C)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseNotifications)
+#: configuration/settings_general.ui:59
+msgid "Select this if you want to get notified when there are new articles."
+msgstr "选中以在新文章到达时收到通知。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseNotifications)
+#: configuration/settings_general.ui:62
+msgid "Use &notifications for all feeds"
+msgstr "为全部种子使用通知(&N)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseIntervalFetch)
+#: configuration/settings_general.ui:69
+msgid "&Use interval fetching"
+msgstr "使用间隔性获取(&U)"
+
+#. i18n: ectx: property (text), widget (QLabel, autoFetchIntervalLabel)
+#: configuration/settings_general.ui:97
+msgid "Fetch feeds every:"
+msgstr "种子获取间隔："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: configuration/settings_general.ui:138
+msgid "Startup"
+msgstr "启动"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MarkAllFeedsReadOnStartup)
+#: configuration/settings_general.ui:144
+msgid "Mark &all feeds as read on startup"
+msgstr "启动时将全部种子标为已读(&A)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FetchOnStartup)
+#: configuration/settings_general.ui:151
+msgid "Fetch all fee&ds on startup"
+msgstr "启动时获取全部种子(&D)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: configuration/settings_general.ui:161
+msgid "Network"
+msgstr "网络"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseHTMLCache)
+#: configuration/settings_general.ui:167
+msgid "Use the &browser cache (less network traffic)"
+msgstr "使用浏览器缓存(可降低网络浏览)(&B)"
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:9 src/actionmanagerimpl.cpp:297
+msgid "Show Quick Filter"
+msgstr "显示快速过滤器"
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:10
+msgid "Show Quick Filter Bar"
+msgstr "显示快速过滤器"
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:14
+msgid "Status Filter"
+msgstr "状态过滤器"
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:15
+msgid "Stores the last status filter setting"
+msgstr "存储最后一次状态过滤设置"
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:19
+msgid "Text Filter"
+msgstr "文本过滤器"
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:20
+msgid "Stores the last search line text"
+msgstr "存储最后一次搜索行文本"
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:23
+msgid "View Mode"
+msgstr "视图模式"
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:24
+msgid "Article display mode."
+msgstr "文章显示模式。"
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:28
+msgid "Sizes for first splitter"
+msgstr "第一个分隔栏尺寸"
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:29
+msgid "First (usually vertical) splitter widget sizes."
+msgstr "第一个分隔栏(通常是垂直的)部件尺寸。"
+
+#. i18n: ectx: label, entry, group (View)
+#: interfaces/akregator.kcfg:33
+msgid "Sizes for second splitter"
+msgstr "第二个分隔栏尺寸"
+
+#. i18n: ectx: whatsthis, entry, group (View)
+#: interfaces/akregator.kcfg:34
+msgid "Second (usually horizontal) splitter widget sizes."
+msgstr "第二个分隔栏(通常是水平的)部件尺寸。"
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:64
+msgid "Archive Mode"
+msgstr "存档模式"
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:68
+msgid "Keep All Articles"
+msgstr "保留全部文章"
+
+#. i18n: ectx: whatsthis, entry, group (Archive)
+#: interfaces/akregator.kcfg:69
+msgid "Save an unlimited number of articles."
+msgstr "无数量限制地保存文章。"
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:72
+msgid "Limit Number of Articles"
+msgstr "保留有限数量的文章"
+
+#. i18n: ectx: whatsthis, entry, group (Archive)
+#: interfaces/akregator.kcfg:73
+msgid "Limit the number of articles in a feed"
+msgstr "限制单个种子中的文章数量"
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:76
+msgid "Delete Expired Articles"
+msgstr "删除过期文章"
+
+#. i18n: ectx: whatsthis, entry, group (Archive)
+#: interfaces/akregator.kcfg:77
+msgid "Delete expired articles"
+msgstr "删除过期文章"
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:80
+msgid "Disable Archiving"
+msgstr "禁用存档"
+
+#. i18n: ectx: whatsthis, entry, group (Archive)
+#: interfaces/akregator.kcfg:81
+msgid "Do not save any articles"
+msgstr "不保留任何文章"
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:86
+msgid "Expiry Age"
+msgstr "过期时间"
+
+#. i18n: ectx: whatsthis, entry, group (Archive)
+#: interfaces/akregator.kcfg:87
+msgid "Default expiry age for articles in days."
+msgstr "默认的文章过期天数。"
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:91
+msgid "Article Limit"
+msgstr "文章限制"
+
+#. i18n: ectx: whatsthis, entry, group (Archive)
+#: interfaces/akregator.kcfg:92
+msgid "Number of articles to keep per feed."
+msgstr "每个种子保留的文章数量。"
+
+#. i18n: ectx: label, entry, group (Archive)
+#: interfaces/akregator.kcfg:96
+msgid "Do Not Expire Important Articles"
+msgstr "重要种子不过期"
+
+#. i18n: ectx: whatsthis, entry, group (Archive)
+#: interfaces/akregator.kcfg:97
+msgid ""
+"When this option is enabled, articles you marked as important will not be "
+"removed when limit the archive size by either age or number of the articles."
+msgstr ""
+"当启用此选项时，您标记为重要的文章将不会随存档限制的过期期限或文章数量超出而"
+"被删除。"
+
+#. i18n: ectx: label, entry, group (Network)
+#: interfaces/akregator.kcfg:103
+msgid "Concurrent Fetches"
+msgstr "同时获取"
+
+#. i18n: ectx: whatsthis, entry, group (Network)
+#: interfaces/akregator.kcfg:104
+msgid "Number of concurrent fetches"
+msgstr "同时获取的数量"
+
+#. i18n: ectx: label, entry, group (Network)
+#: interfaces/akregator.kcfg:108
+msgid "Use HTML Cache"
+msgstr "使用 HTML 缓存"
+
+#. i18n: ectx: whatsthis, entry, group (Network)
+#: interfaces/akregator.kcfg:109
+msgid ""
+"Use the KDE-wide HTML cache settings when downloading feeds, to avoid "
+"unnecessary traffic. Disable only when necessary."
+msgstr ""
+"下载种子时使用 KDE 全局 HTML 缓存设置，以避免不需要的通讯流量。请仅在必须时禁"
+"用。"
+
+#. i18n: ectx: whatsthis, entry, group (Network)
+#: interfaces/akregator.kcfg:113
+msgid ""
+"This option allows user to specify custom user-agent string instead of using "
+"the default one. This is here because some proxies may interrupt the "
+"connection because of having \"gator\" in the name."
+msgstr ""
+"此选项允许用户指定自定义的用户代理字符串代替默认值。之所以这里要有这个是因为"
+"有些代理可能会由于名称中含有“特殊关键字”而中断连接。"
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:119
+msgid "Fetch on startup"
+msgstr "启动时获取"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: interfaces/akregator.kcfg:120
+msgid "Fetch feedlist on startup."
+msgstr "启动时获取种子列表。"
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:124
+msgid "Mark all feeds as read on startup"
+msgstr "启动时将全部种子标为已读"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: interfaces/akregator.kcfg:125
+msgid "Mark all feeds as read on startup."
+msgstr "启动时将全部种子标为已读。"
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:129
+msgid "Use interval fetching"
+msgstr "使用间隔性获取"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: interfaces/akregator.kcfg:130
+#, no-c-format, kde-format
+msgid "Fetch all feeds every %1 minutes."
+msgstr "每隔 %1 分钟获取全部种子。"
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:134
+msgid "Interval for autofetching"
+msgstr "自动获取间隔"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: interfaces/akregator.kcfg:135
+msgid "Interval for autofetching in minutes."
+msgstr "自动获取间隔分钟数。"
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:139
+msgid "Use notifications"
+msgstr "使用通知"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: interfaces/akregator.kcfg:140
+msgid "Specifies if the balloon notifications are used or not."
+msgstr "指定是否使用弹出式气球通知。"
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:144
+msgid "Show tray icon"
+msgstr "显示托盘图标"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: interfaces/akregator.kcfg:145
+msgid "Specifies if the tray icon is shown or not."
+msgstr "指定是否显示托盘图标。"
+
+#. i18n: ectx: label, entry, group (General)
+#: interfaces/akregator.kcfg:149
+msgid "Display an unread article count in the tray icon"
+msgstr "在托盘图标显示未读文章数"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: interfaces/akregator.kcfg:150
+msgid ""
+"Whether or not to show the number of unread articles in the tray icon. "
+"Disable this if you find the unread article count distracting."
+msgstr "是否在托盘显示未读文章数。如果您认为这个数字使您分心，可以禁用此项。"
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:157
+msgid "Always show the tab bar, even when only one tab is open"
+msgstr "总是显示标签栏，即使只打开了一个标签"
+
+#. i18n: ectx: label, entry, group (Browser)
+#: interfaces/akregator.kcfg:161
+msgid "Show close buttons on tabs"
+msgstr "在标签上显示关闭按钮"
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:162
+msgid "Show close buttons on tabs instead of icons"
+msgstr "在标签上显示关闭按钮而不是图标"
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:167
+msgid ""
+"Open a link which would normally open in a new window (external browser) in "
+"a new tab instead"
+msgstr "在新窗口(外部浏览器)中打开的连接将会以新标签打开"
+
+#. i18n: ectx: label, entry, group (Browser)
+#: interfaces/akregator.kcfg:171
+msgid "Use default KDE web browser"
+msgstr "使用 KDE 默认网络浏览器"
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:172
+msgid "Use KDE web browser when opening in external browser."
+msgstr "在外部浏览器打开时使用 KDE 网络浏览器。"
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:177
+msgid "Use the specified command when opening in external browser."
+msgstr "在外部浏览器打开时使用指定的命令。"
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:181
+#, fuzzy, no-c-format
+#| msgid "Command to launch external browser.  URL will substitute for %u."
+msgid "Command to launch external browser. URL will substitute for %u."
+msgstr "启动外部浏览器的命令。 URL 地址以 %u 代替。"
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:185
+msgid "What the click with left mouse button should do."
+msgstr "鼠标左键点击应该做的事情。"
+
+#. i18n: ectx: whatsthis, entry, group (Browser)
+#: interfaces/akregator.kcfg:194
+msgid "What the click with middle mouse button should do."
+msgstr "鼠标中键点击应该做的事情。"
+
+#. i18n: ectx: label, entry, group (Advanced)
+#: interfaces/akregator.kcfg:219
+msgid "Archive Backend"
+msgstr "存档后端"
+
+#. i18n: ectx: whatsthis, entry (UseMarkReadDelay), group (Advanced)
+#: interfaces/akregator.kcfg:223
+msgid "Whether to delay before marking an article as read upon selecting it."
+msgstr "是否将选中文章标为已读前延迟等待。"
+
+#. i18n: ectx: whatsthis, entry (MarkReadDelay), group (Advanced)
+#: interfaces/akregator.kcfg:227
+msgid ""
+"Configurable delay between selecting an article and it being marked as read."
+msgstr "配置选中文章和标为已读之间的延迟。"
+
+#. i18n: ectx: whatsthis, entry, group (Advanced)
+#: interfaces/akregator.kcfg:231
+msgid "Resets the quick filter when changing feeds."
+msgstr "更改种子时重置快速过滤器。"
+
+#: plugins/mk4storage/storagefactorymk4impl.cpp:48
+msgid "Metakit"
+msgstr "Metakit"
+
+#: plugins/onlinesync/akregator_config_onlinesync.cpp:47
+msgid "kcmakronlinesyncconfig"
+msgstr "kcmakronlinesyncconfig"
+
+#: plugins/onlinesync/akregator_config_onlinesync.cpp:48
+msgid "Configure Online Readers"
+msgstr "配置在线阅读器"
+
+#: plugins/onlinesync/akregator_config_onlinesync.cpp:50
+msgid "(c), 2008 Didier Hoarau"
+msgstr "(c)，2008 Didier Hoarau"
+
+#: plugins/onlinesync/akregator_config_onlinesync.cpp:52
+msgid "Didier Hoarau"
+msgstr "Didier Hoarau"
+
+#. i18n: ectx: Menu (file)
+#: plugins/onlinesync/akregator_onlinesync_plugin.rc:4
+#: src/akregator_shell.rc:4
+msgid "&File"
+msgstr "文件(&F)"
+
+#: plugins/onlinesync/onlinesyncplugin.cpp:60
+msgid "Synchronize Feeds"
+msgstr "同步种子"
+
+#: plugins/onlinesync/onlinesyncplugin.cpp:95
+#, kde-format
+msgid "Get from %1"
+msgstr "从 %1 获取"
+
+#: plugins/onlinesync/onlinesyncplugin.cpp:104
+#, kde-format
+msgid "Send to %1"
+msgstr "发送至 %1"
+
+#: plugins/onlinesync/onlinesyncplugin.cpp:113
+msgid "Manage..."
+msgstr "管理..."
+
+#. i18n: ectx: label, entry, group (Foo)
+#: plugins/onlinesync/onlinesyncsettings.kcfg:9
+msgid "Bar Settings"
+msgstr "栏设置"
+
+#. i18n: ectx: whatsthis, entry, group (Foo)
+#: plugins/onlinesync/onlinesyncsettings.kcfg:10
+msgid "Bar!"
+msgstr "栏！"
+
+#: plugins/onlinesync/sync/feedsync.cpp:156
+msgid ""
+"Some categories and feeds have been marked for removal. Do you want to "
+"delete them?"
+msgstr "一些目录和种子已标记为删除。您想要删除它们吗？"
+
+#: plugins/onlinesync/sync/feedsync.cpp:158
+msgid "Remove nothing"
+msgstr "不删除"
+
+#: plugins/onlinesync/sync/feedsync.cpp:159
+msgid "Remove only categories"
+msgstr "仅删除目录"
+
+#: plugins/onlinesync/sync/feedsync.cpp:160
+msgid "Remove feeds"
+msgstr "删除种子"
+
+#: plugins/onlinesync/sync/feedsync.cpp:212
+msgid "An error occurred, synchronization aborted."
+msgstr "发生错误，同步中止。"
+
+#: plugins/onlinesync/sync/googlereader.cpp:276
+msgid "Authentication failed, synchronization aborted."
+msgstr "验证失败，同步中止。"
+
+#: plugins/onlinesync/ui/configurationdialog.cpp:37
+msgid "Online Reader Configuration"
+msgstr "在线阅读器配置"
+
+#: plugins/onlinesync/ui/configurationdialogadd.cpp:41
+msgid "Modify Online Reader Account"
+msgstr "修改在线阅读器账户"
+
+#: plugins/onlinesync/ui/configurationdialogadd.cpp:42
+msgid "Google Reader"
+msgstr "Google 阅读器"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/onlinesync/ui/configurationdialogadd.ui:27
+msgid "Type:"
+msgstr "类型："
+
+#. i18n: ectx: property (text), widget (QLabel, lAccountGoogleReader)
+#: plugins/onlinesync/ui/configurationdialogadd.ui:52
+msgid "Login:"
+msgstr "登录："
+
+#. i18n: ectx: property (text), widget (QLabel, lPasswordGoogleReader)
+#: plugins/onlinesync/ui/configurationdialogadd.ui:69
+msgid "Password:"
+msgstr "密码："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/onlinesync/ui/configurationdialogadd.ui:87
+msgid "File:"
+msgstr "文件："
+
+#: plugins/onlinesync/ui/configurationwidget.cpp:42
+msgid "Nothing"
+msgstr "无"
+
+#: plugins/onlinesync/ui/configurationwidget.cpp:43
+msgid "Categories"
+msgstr "目录"
+
+#: plugins/onlinesync/ui/configurationwidget.cpp:44 src/akregator_part.cpp:97
+msgid "Feeds"
+msgstr "种子"
+
+#: plugins/onlinesync/ui/configurationwidget.cpp:45
+msgid "Ask"
+msgstr "询问"
+
+#. i18n: ectx: property (text), widget (QLabel, lConfigName)
+#: plugins/onlinesync/ui/configurationwidget.ui:18
+msgid "Online reader accounts:"
+msgstr "在线阅读器账户："
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list_readerList)
+#: plugins/onlinesync/ui/configurationwidget.ui:36
+msgid "Type"
+msgstr "类型"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, list_readerList)
+#: plugins/onlinesync/ui/configurationwidget.ui:41
+msgid "Description"
+msgstr "描述"
+
+#. i18n: ectx: property (text), widget (QPushButton, b_add)
+#: plugins/onlinesync/ui/configurationwidget.ui:51
+msgid "Add..."
+msgstr "添加..."
+
+#. i18n: ectx: property (text), widget (QPushButton, b_update)
+#: plugins/onlinesync/ui/configurationwidget.ui:58
+msgid "Modify..."
+msgstr "修改..."
+
+#. i18n: ectx: property (text), widget (QPushButton, b_remove)
+#: plugins/onlinesync/ui/configurationwidget.ui:65
+msgid "Remove"
+msgstr "删除"
+
+#. i18n: ectx: property (text), widget (QLabel, lDeletePolicy)
+#: plugins/onlinesync/ui/configurationwidget.ui:94
+msgid "Delete feeds:"
+msgstr "删除种子："
+
+#: plugins/sharemicroblog/akregator_config_sharemicroblog.cpp:48
+msgid "kcmakrshareconfig"
+msgstr "kcmakrshareconfig"
+
+#: plugins/sharemicroblog/akregator_config_sharemicroblog.cpp:49
+msgid "Configure Share Services"
+msgstr "配置共享服务"
+
+#: plugins/sharemicroblog/akregator_config_sharemicroblog.cpp:51
+msgid "(c), 2010 Artur Duque de Souza"
+msgstr "(c)，2010 Artur Duque de Souza"
+
+#: plugins/sharemicroblog/akregator_config_sharemicroblog.cpp:53
+msgid "Artur Duque de Souza"
+msgstr "Artur Duque de Souza"
+
+#. i18n: ectx: Menu (article)
+#: plugins/sharemicroblog/akregator_sharemicroblog_plugin.rc:4
+#: src/akregator_part.rc:57 src/akregator_shell.rc:31
+msgid "&Article"
+msgstr "文章(&A)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: plugins/sharemicroblog/configurationwidget.ui:23
+msgid "Login"
+msgstr "登录"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: plugins/sharemicroblog/configurationwidget.ui:65
+msgid "Service"
+msgstr "服务"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/sharemicroblog/configurationwidget.ui:72
+msgctxt "login identify for blog account"
+msgid "Username:"
+msgstr "用户名："
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: plugins/sharemicroblog/configurationwidget.ui:88
+msgid "Service URL:"
+msgstr "服务 URL："
+
+#: plugins/sharemicroblog/sharemicroblogplugin.cpp:86
+#: plugins/sharemicroblog/sharemicroblogplugin.cpp:92
+msgid "Share Article"
+msgstr "共享文章"
+
+#: plugins/sharemicroblog/sharemicroblogplugin.cpp:145
+msgid "Please, configure the share service before using it."
+msgstr "请在使用共享服务之前进行配置。"
+
+#: plugins/sharemicroblog/sharemicroblogplugin.cpp:146
+msgid "Service not configured"
+msgstr "服务未配置"
+
+#: plugins/sharemicroblog/sharemicroblogplugin.cpp:163
+#, kde-format
+msgid "Sorry, could not share the article: %1"
+msgstr "抱歉，无法共享文章：%1"
+
+#: plugins/sharemicroblog/sharemicroblogplugin.cpp:164
+msgid "Error during article share"
+msgstr "共享文章时出错"
+
+#. i18n: ectx: label, entry, group (ShareService)
+#: plugins/sharemicroblog/sharesettings.kcfg:9
+msgid "Service URL"
+msgstr "服务 URL："
+
+#. i18n: ectx: label, entry, group (ShareService)
+#: plugins/sharemicroblog/sharesettings.kcfg:12
+msgctxt "login identify for blog account"
+msgid "Username"
+msgstr "用户名"
+
+#: src/aboutdata.cpp:37 src/articleviewer.cpp:692 src/trayicon.cpp:59
+#: src/trayicon.cpp:60 src/trayicon.cpp:73
+msgid "Akregator"
+msgstr "Akregator"
+
+#: src/aboutdata.cpp:37
+msgid "A KDE Feed Reader"
+msgstr "KDE 信息源采集器"
+
+#: src/aboutdata.cpp:38
+msgid "Copyright © 2004–2010 Akregator authors"
+msgstr "(C) 2004-2010 Akregator 开发者"
+
+#: src/aboutdata.cpp:42
+msgid "Maintainer"
+msgstr "维护者"
+
+#: src/aboutdata.cpp:43
+msgid "Teemu Rytilahti"
+msgstr "Teemu Rytilahti"
+
+#: src/aboutdata.cpp:43 src/aboutdata.cpp:44 src/aboutdata.cpp:45
+#: src/aboutdata.cpp:46
+msgid "Developer"
+msgstr "开发者"
+
+#: src/aboutdata.cpp:44
+msgid "Sashmit Bhaduri"
+msgstr "Sashmit Bhaduri"
+
+#: src/aboutdata.cpp:45
+msgid "Pierre Habouzit"
+msgstr "Pierre Habouzit"
+
+#: src/aboutdata.cpp:46
+msgid "Stanislav Karchebny"
+msgstr "Stanislav Karchebny"
+
+#: src/aboutdata.cpp:47
+msgid "Gary Cramblitt"
+msgstr "Gary Cramblitt"
+
+#: src/aboutdata.cpp:47 src/aboutdata.cpp:48 src/aboutdata.cpp:49
+msgid "Contributor"
+msgstr "贡献者"
+
+#: src/aboutdata.cpp:48
+msgid "Stephan Binner"
+msgstr "Stephan Binner"
+
+#: src/aboutdata.cpp:49
+msgid "Christof Musik"
+msgstr "Christof Musik"
+
+#: src/aboutdata.cpp:50
+msgid "Anne-Marie Mahfouf"
+msgstr "Anne-Marie Mahfouf"
+
+#: src/aboutdata.cpp:50
+msgid "Handbook"
+msgstr "手册"
+
+#: src/aboutdata.cpp:51
+msgid "Frerich Raabe"
+msgstr "Frerich Raabe"
+
+#: src/aboutdata.cpp:51
+msgid "Author of librss"
+msgstr "librss 作者"
+
+#: src/aboutdata.cpp:52
+msgid "Eckhart Woerner"
+msgstr "Eckhart Woerner"
+
+#: src/aboutdata.cpp:52
+msgid "Bug tracker management, Usability improvements"
+msgstr "错误报告管理、可用性改进"
+
+#: src/aboutdata.cpp:53
+msgid "Heinrich Wendel"
+msgstr "Heinrich Wendel"
+
+#: src/aboutdata.cpp:53
+msgid "Tons of bug fixes"
+msgstr "错误修复"
+
+#: src/aboutdata.cpp:54
+msgid "Eike Hein"
+msgstr "Eike Hein"
+
+#: src/aboutdata.cpp:54
+msgid "'Delayed mark as read' feature"
+msgstr "“延迟标为已读”特性"
+
+#: src/aboutdata.cpp:55
+msgid "Marcel Dierkes"
+msgstr "Marcel Dierkes"
+
+#: src/aboutdata.cpp:55
+msgid "Icons"
+msgstr "图标"
+
+#: src/aboutdata.cpp:56
+msgid "George Staikos"
+msgstr "George Staikos"
+
+#: src/aboutdata.cpp:56
+msgid "Insomnia"
+msgstr "为 Akregator 劳累过"
+
+#: src/aboutdata.cpp:57
+msgid "Philipp Droessler"
+msgstr "Philipp Droessler"
+
+#: src/aboutdata.cpp:57
+msgid "Gentoo Ebuild"
+msgstr "Gentoo Ebuild"
+
+#: src/actionmanagerimpl.cpp:77 src/actionmanagerimpl.cpp:266
+msgid "&Fetch Feed"
+msgstr "获取种子(&F)"
+
+#: src/actionmanagerimpl.cpp:78 src/actionmanagerimpl.cpp:234
+msgid "&Delete Feed"
+msgstr "删除种子(&D)"
+
+#: src/actionmanagerimpl.cpp:79 src/actionmanagerimpl.cpp:240
+msgid "&Edit Feed..."
+msgstr "编辑种子(&E)..."
+
+#: src/actionmanagerimpl.cpp:80 src/actionmanagerimpl.cpp:285
+msgid "&Mark Feed as Read"
+msgstr "将种子标为已读(&M)"
+
+#: src/actionmanagerimpl.cpp:94
+msgid "&Fetch Feeds"
+msgstr "获取种子(&F)"
+
+#: src/actionmanagerimpl.cpp:95
+msgid "&Delete Folder"
+msgstr "删除文件夹(&D)"
+
+#: src/actionmanagerimpl.cpp:96
+msgid "&Rename Folder"
+msgstr "重命名文件夹(&R)"
+
+#: src/actionmanagerimpl.cpp:97
+msgid "&Mark Feeds as Read"
+msgstr "将种子标为已读(&M)"
+
+#: src/actionmanagerimpl.cpp:177
+msgid "&Import Feeds..."
+msgstr "导入种子(&I)..."
+
+#: src/actionmanagerimpl.cpp:181
+msgid "&Export Feeds..."
+msgstr "导出种子(&E)..."
+
+#: src/actionmanagerimpl.cpp:186
+msgid "&Configure Akregator..."
+msgstr "配置 Akregator(&C)..."
+
+#: src/actionmanagerimpl.cpp:209
+msgid "&Open Homepage"
+msgstr "打开主页(&O)"
+
+#: src/actionmanagerimpl.cpp:215
+msgid "Reload All Tabs"
+msgstr "重新装入全部标签"
+
+#: src/actionmanagerimpl.cpp:222
+msgid "&Add Feed..."
+msgstr "添加种子(&A)..."
+
+#: src/actionmanagerimpl.cpp:228
+msgid "Ne&w Folder..."
+msgstr "新建文件夹(&W)..."
+
+#: src/actionmanagerimpl.cpp:247
+msgid "&Normal View"
+msgstr "普通视图(&N)"
+
+#: src/actionmanagerimpl.cpp:253
+msgid "&Widescreen View"
+msgstr "宽屏视图(&W)"
+
+#: src/actionmanagerimpl.cpp:259
+msgid "C&ombined View"
+msgstr "组合视图(&O)"
+
+#: src/actionmanagerimpl.cpp:272
+msgid "Fe&tch All Feeds"
+msgstr "获取全部种子(&T)"
+
+#: src/actionmanagerimpl.cpp:278
+msgid "C&ancel Feed Fetches"
+msgstr "取消获取种子(&A)"
+
+#: src/actionmanagerimpl.cpp:291
+msgid "Ma&rk All Feeds as Read"
+msgstr "将全部种子标为已读(&R)"
+
+#: src/actionmanagerimpl.cpp:320 src/actionmanagerimpl.cpp:552
+msgid "Copy Link Address"
+msgstr "复制链接地址"
+
+#: src/actionmanagerimpl.cpp:325
+msgid "Pre&vious Unread Article"
+msgstr "上篇未读文章(&V)"
+
+#: src/actionmanagerimpl.cpp:331
+msgid "Ne&xt Unread Article"
+msgstr "下篇未读文章(&X)"
+
+#: src/actionmanagerimpl.cpp:337
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: src/actionmanagerimpl.cpp:342
+msgid "&Mark As"
+msgstr "标记为(&M)"
+
+#: src/actionmanagerimpl.cpp:347
+msgid "&Speak Selected Articles"
+msgstr "朗读所选文章(&S)"
+
+#: src/actionmanagerimpl.cpp:352
+msgid "&Stop Speaking"
+msgstr "停止朗读(&S)"
+
+#: src/actionmanagerimpl.cpp:361
+msgctxt "as in: mark as read"
+msgid "&Read"
+msgstr "已读(&R)"
+
+#: src/actionmanagerimpl.cpp:363
+msgid "Mark selected article as read"
+msgstr "将选中文章标为已读"
+
+#: src/actionmanagerimpl.cpp:369
+msgctxt "as in: mark as new"
+msgid "&New"
+msgstr "新建(&N)"
+
+#: src/actionmanagerimpl.cpp:372
+msgid "Mark selected article as new"
+msgstr "将选中文章标为新文章"
+
+#: src/actionmanagerimpl.cpp:378
+msgctxt "as in: mark as unread"
+msgid "&Unread"
+msgstr "未读文章(&U)"
+
+#: src/actionmanagerimpl.cpp:380
+msgid "Mark selected article as unread"
+msgstr "将选中文章标为未读"
+
+#: src/actionmanagerimpl.cpp:386
+msgid "&Mark as Important"
+msgstr "标为重要(&M)"
+
+#: src/actionmanagerimpl.cpp:391
+msgid "Remove &Important Mark"
+msgstr "删除重要标记(&I)"
+
+#: src/actionmanagerimpl.cpp:395
+msgid "Move Node Up"
+msgstr "节点上移"
+
+#: src/actionmanagerimpl.cpp:400
+msgid "Move Node Down"
+msgstr "节点下移"
+
+#: src/actionmanagerimpl.cpp:404 src/actionmanagerimpl.cpp:405
+msgid "Move Node Left"
+msgstr "节点左移"
+
+#: src/actionmanagerimpl.cpp:410
+msgid "Move Node Right"
+msgstr "节点右移"
+
+#: src/actionmanagerimpl.cpp:416
+msgid "Send &Link Address..."
+msgstr "发送链接地址(&L)..."
+
+#: src/actionmanagerimpl.cpp:421
+msgid "Send &File..."
+msgstr "发送文件(&F)..."
+
+#: src/actionmanagerimpl.cpp:455
+msgid "&Previous Article"
+msgstr "上篇文章(&P)"
+
+#: src/actionmanagerimpl.cpp:459
+msgid "&Next Article"
+msgstr "下篇文章(&N)"
+
+#: src/actionmanagerimpl.cpp:474
+msgid "&Previous Feed"
+msgstr "上个种子(&P)"
+
+#: src/actionmanagerimpl.cpp:479
+msgid "&Next Feed"
+msgstr "下个种子(&N)"
+
+#: src/actionmanagerimpl.cpp:485
+msgid "N&ext Unread Feed"
+msgstr "下个未读种子(&E)"
+
+#: src/actionmanagerimpl.cpp:491
+msgid "Prev&ious Unread Feed"
+msgstr "上个未读种子(&I)"
+
+#: src/actionmanagerimpl.cpp:496
+msgid "Go to Top of Tree"
+msgstr "转到树的顶端"
+
+#: src/actionmanagerimpl.cpp:501
+msgid "Go to Bottom of Tree"
+msgstr "转到树的底端"
+
+#: src/actionmanagerimpl.cpp:506
+msgid "Go Left in Tree"
+msgstr "在树中向左"
+
+#: src/actionmanagerimpl.cpp:511
+msgid "Go Right in Tree"
+msgstr "在树中向右"
+
+#: src/actionmanagerimpl.cpp:516
+msgid "Go Up in Tree"
+msgstr "在树中向上"
+
+#: src/actionmanagerimpl.cpp:521
+msgid "Go Down in Tree"
+msgstr "在树中向下"
+
+#: src/actionmanagerimpl.cpp:536
+msgid "Select Next Tab"
+msgstr "选择下个标签"
+
+#: src/actionmanagerimpl.cpp:541
+msgid "Select Previous Tab"
+msgstr "选择上个标签"
+
+#: src/actionmanagerimpl.cpp:547
+msgid "Detach Tab"
+msgstr "漂移标签"
+
+#: src/actionmanagerimpl.cpp:557
+msgid "Close Tab"
+msgstr "关闭标签"
+
+#: src/actionmanagerimpl.cpp:563
+msgid "Enlarge Font"
+msgstr "增大字体"
+
+#: src/actionmanagerimpl.cpp:569
+msgid "Shrink Font"
+msgstr "减小字体"
+
+#: src/actionmanagerimpl.cpp:576
+#, kde-format
+msgid "Activate Tab %1"
+msgstr "激活标签 %1"
+
+#: src/actionmanagerimpl.cpp:594
+msgctxt "Go forward in browser history"
+msgid "Forward"
+msgstr "前进"
+
+#: src/actionmanagerimpl.cpp:601
+msgctxt "Go back in browser history"
+msgid "Back"
+msgstr "后退"
+
+#: src/actionmanagerimpl.cpp:610
+msgctxt "Reload current page"
+msgid "Reload"
+msgstr "重新装入"
+
+#: src/actionmanagerimpl.cpp:615
+msgid "Stop"
+msgstr "停止"
+
+#: src/actions.cpp:35
+msgid "Open Link in New &Tab"
+msgstr "在新标签中打开链接(&T)"
+
+#: src/actions.cpp:44
+msgid "Open Link in External &Browser"
+msgstr "在外部浏览器中打开链接(&B)"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::AddFeedWidgetBase)
+#: src/addfeeddialog.cpp:73 src/addfeedwidgetbase.ui:14
+msgid "Add Feed"
+msgstr "添加种子"
+
+#: src/addfeeddialog.cpp:112
+#, kde-format
+msgid "Downloading %1"
+msgstr "下载 %1"
+
+#: src/addfeeddialog.cpp:131
+#, kde-format
+msgid "Feed not found from %1."
+msgstr "%1 未找到种子。"
+
+#: src/addfeeddialog.cpp:137
+msgid "Feed found, downloading..."
+msgstr "找到了种子，正在下载..."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: src/addfeedwidgetbase.ui:95
+msgid "Add New Source"
+msgstr "添加新源"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: src/addfeedwidgetbase.ui:108
+msgid "Feed &URL:"
+msgstr "种子 &URL："
+
+#. i18n: ectx: property (text), widget (KSqueezedTextLabel, statusLabel)
+#: src/addfeedwidgetbase.ui:122
+msgid "KSqueezedTextLabel"
+msgstr "KSqueezedTextLabel"
+
+#: src/akregator_options.h:37 src/akregator_options.h:41
+msgid "Add a feed with the given URL"
+msgstr "通过指定地址添加一个种子"
+
+#: src/akregator_options.h:39
+msgid "When adding feeds, place them in this group"
+msgstr "在添加种子时将其放入此分组"
+
+#: src/akregator_options.h:40
+msgid "Hide main window on startup"
+msgstr "启动时隐藏主窗口"
+
+#: src/akregator_part.cpp:124
+msgid "KDE Dot News"
+msgstr "KDE Dot 新闻"
+
+#: src/akregator_part.cpp:129
+msgid "Linux.com"
+msgstr "Linux.com"
+
+#: src/akregator_part.cpp:134
+msgid "Planet KDE"
+msgstr "KDE 贡献人博客"
+
+#: src/akregator_part.cpp:139
+msgid "Planet KDE PIM"
+msgstr "KDE PIM 贡献人博客"
+
+#: src/akregator_part.cpp:144
+msgid "KDE Apps"
+msgstr "KDE 软件网站"
+
+#: src/akregator_part.cpp:149
+msgid "KDE Look"
+msgstr "KDE 美化网站"
+
+#: src/akregator_part.cpp:155
+msgid "Hungarian feeds"
+msgstr "匈牙利种子"
+
+#: src/akregator_part.cpp:159
+msgid "KDE.HU"
+msgstr "KDE.HU"
+
+#: src/akregator_part.cpp:165
+msgid "Spanish feeds"
+msgstr "西班牙种子"
+
+#: src/akregator_part.cpp:169
+msgid "Planet KDE España"
+msgstr "KDE 贡献人博客 (西班牙)"
+
+#: src/akregator_part.cpp:243
+#, kde-format
+msgid "Unable to load storage backend plugin \"%1\". No feeds are archived."
+msgstr "无法装入存储后端插件“%1”。未存档种子。"
+
+#: src/akregator_part.cpp:243
+msgid "Plugin error"
+msgstr "插件错误"
+
+#: src/akregator_part.cpp:498
+#, kde-format
+msgid ""
+"Access denied: Cannot save feed list to <b>%1</b>. Please check your "
+"permissions."
+msgstr "访问被禁止：无法保存种子列表至 <b>%1</b>。请检查您的权限。"
+
+#: src/akregator_part.cpp:499 src/akregator_part.cpp:558
+msgid "Write Error"
+msgstr "写错误"
+
+#: src/akregator_part.cpp:534 src/loadfeedlistcommand.cpp:79
+msgid "OPML Parsing Error"
+msgstr "OPML 分析错误"
+
+#: src/akregator_part.cpp:534
+#, kde-format
+msgid "Could not import the file %1 (no valid OPML)"
+msgstr "无法导入文件 %1(无有效的 OPML)"
+
+#: src/akregator_part.cpp:537 src/loadfeedlistcommand.cpp:148
+msgid "Read Error"
+msgstr "读取错误"
+
+#: src/akregator_part.cpp:537
+#, kde-format
+msgid ""
+"The file %1 could not be read, check if it exists or if it is readable for "
+"the current user."
+msgstr "无法读取文件 %1，请检查该文件是否存在，或者当前用户是否可读取该文件。"
+
+#: src/akregator_part.cpp:551
+#, kde-format
+msgid "The file %1 already exists; do you want to overwrite it?"
+msgstr "文件 %1 已存在；您是否想要覆盖？"
+
+#: src/akregator_part.cpp:552
+msgid "Export"
+msgstr "导出"
+
+#: src/akregator_part.cpp:558
+#, kde-format
+msgid "Access denied: cannot write to file %1. Please check your permissions."
+msgstr "访问被禁止：无法写入文件 %1。请检查您的权限。"
+
+#: src/akregator_part.cpp:581 src/akregator_part.cpp:591
+msgid "OPML Outlines (*.opml, *.xml)"
+msgstr "OPML 大纲(*.opml, *.xml)"
+
+#: src/akregator_part.cpp:582 src/akregator_part.cpp:592
+msgid "All Files"
+msgstr "全部文件"
+
+#: src/akregator_part.cpp:738
+msgid "Imported Folder"
+msgstr "导入的文件夹"
+
+#: src/akregator_part.cpp:788
+msgid ""
+"Akregator did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr "Akregator 未正常关闭。是否恢复上次的会话？"
+
+#: src/akregator_part.cpp:789
+msgid "Restore Session?"
+msgstr "恢复会话吗？"
+
+#: src/akregator_part.cpp:790
+msgid "Restore Session"
+msgstr "恢复会话"
+
+#: src/akregator_part.cpp:791
+msgid "Do Not Restore"
+msgstr "不回复"
+
+#: src/akregator_part.cpp:792
+msgid "Ask Me Later"
+msgstr "稍后再询问我"
+
+#. i18n: ectx: Menu (edit)
+#: src/akregator_part.rc:14 src/akregator_shell.rc:11
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (view)
+#: src/akregator_part.rc:21 src/akregator_shell.rc:16
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: Menu (go)
+#: src/akregator_part.rc:31 src/akregator_shell.rc:21 src/pageviewer.rc:34
+msgid "&Go"
+msgstr "转到(&G)"
+
+#. i18n: ectx: Menu (feed)
+#: src/akregator_part.rc:44 src/akregator_shell.rc:26
+msgid "Fee&d"
+msgstr "种子(&D)"
+
+#. i18n: ectx: Menu (settings)
+#: src/akregator_part.rc:74 src/akregator_shell.rc:36
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/akregator_part.rc:85 src/akregator_shell.rc:47
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: ToolBar (browserToolBar)
+#: src/akregator_part.rc:95 src/akregator_shell.rc:51
+msgid "Browser Toolbar"
+msgstr "浏览器工具栏"
+
+#. i18n: ectx: ToolBar (textToSpeechToolBar)
+#: src/akregator_part.rc:103 src/akregator_shell.rc:54
+msgid "Speech Toolbar"
+msgstr "语音工具栏"
+
+#: src/articleformatter.cpp:57
+#, kde-format
+msgid "(%1, %2)"
+msgstr "(%1，%2)"
+
+#: src/articleformatter.cpp:62
+#, kde-format
+msgid "<a href=\"%1\">%2</a> %3"
+msgstr "<a href=\"%1\">%2</a> %3"
+
+#: src/articleformatter.cpp:108 src/articleformatter.cpp:150
+msgid " (no unread articles)"
+msgstr " (无未读文章)"
+
+#: src/articleformatter.cpp:110 src/articleformatter.cpp:152
+#, kde-format
+msgid " (1 unread article)"
+msgid_plural " (%1 unread articles)"
+msgstr[0] " (%1 篇未读文章)"
+
+#: src/articleformatter.cpp:128
+#, kde-format
+msgid "<b>Description:</b> %1<br /><br />"
+msgstr "<b>描述：</b> %1<br /><br />"
+
+#: src/articleformatter.cpp:135
+#, kde-format
+msgid "<b>Homepage:</b> <a href=\"%1\">%2</a>"
+msgstr "<b>主页：</b> <a href=\"%1\">%2</a>"
+
+#: src/articleformatter.cpp:189 src/articleformatter.cpp:190
+#: src/articleformatter.cpp:385 src/articleformatter.cpp:386
+msgid "Date"
+msgstr "日期"
+
+#: src/articleformatter.cpp:197 src/articleformatter.cpp:198
+#: src/articleformatter.cpp:394 src/articleformatter.cpp:395
+msgid "Author"
+msgstr "作者"
+
+#: src/articleformatter.cpp:205 src/articleformatter.cpp:206
+#: src/articleformatter.cpp:402 src/articleformatter.cpp:403
+msgid "Enclosure"
+msgstr "附件"
+
+#: src/articleformatter.cpp:237 src/articleformatter.cpp:434
+msgid "Comments"
+msgstr "评论"
+
+#: src/articleformatter.cpp:246 src/articleformatter.cpp:444
+msgid "Enclosure:"
+msgstr "附件："
+
+#: src/articleformatter.cpp:260 src/articleformatter.cpp:458
+msgid "Complete Story"
+msgstr "完整内容"
+
+#: src/articlejobs.cpp:188
+msgid "The feed to be listed was already removed."
+msgstr "列出的种子已被删除。"
+
+#: src/articlelistview.cpp:186 src/subscriptionlistview.cpp:182
+msgid "Columns"
+msgstr "栏"
+
+#: src/articlelistview.cpp:373
+#, fuzzy
+#| msgid ""
+#| "<h2>Article list</h2>Here you can browse articles from the currently "
+#| "selected feed. You can also manage articles, as marking them as "
+#| "persistent (\"Keep Article\") or delete them, using the right mouse "
+#| "button menu.To view the web page of the article, you can open the article "
+#| "internally in a tab or in an external browser window."
+msgid ""
+"<h2>Article list</h2>Here you can browse articles from the currently "
+"selected feed. You can also manage articles, as marking them as persistent "
+"(\"Mark as Important\") or delete them, using the right mouse button menu. "
+"To view the web page of the article, you can open the article internally in "
+"a tab or in an external browser window."
+msgstr ""
+"<h2>文章列表</h2>您可在此浏览目前所选种子的文章。您还可以使用鼠标右键菜单管理"
+"文章，将其设置为永久(“保留文章”)或删除文章。要查看文章所属网页，您可以在内部"
+"标签中打开文章，或者在外部浏览器窗口中打开。"
+
+#: src/articlelistview.cpp:440
+msgid ""
+"<div align=center><h3>No matches</h3>Filter does not match any articles, "
+"please change your criteria and try again.</div>"
+msgstr ""
+"<div align=center><h3>无匹配</h3>过滤器不匹配任何文章，请更改您的条件然后再试"
+"一次。</div>"
+
+#: src/articlelistview.cpp:451
+msgid ""
+"<div align=center><h3>No feed selected</h3>This area is article list. Select "
+"a feed from the feed list and you will see its articles here.</div>"
+msgstr ""
+"<div align=center><h3>未选中种子</h3>此区域是文章列表。从种子列表中选择种子，"
+"您将在此看到其文章。</div>"
+
+#: src/articlemodel.cpp:107
+msgctxt "Articlelist's column header"
+msgid "Title"
+msgstr "标题"
+
+#: src/articlemodel.cpp:109
+msgctxt "Articlelist's column header"
+msgid "Feed"
+msgstr "种子"
+
+#: src/articlemodel.cpp:111
+msgctxt "Articlelist's column header"
+msgid "Date"
+msgstr "日期"
+
+#: src/articlemodel.cpp:113
+msgctxt "Articlelist's column header"
+msgid "Author"
+msgstr "作者"
+
+#: src/articlemodel.cpp:115
+msgctxt "Articlelist's column header"
+msgid "Description"
+msgstr "描述"
+
+#: src/articlemodel.cpp:117
+msgctxt "Articlelist's column header"
+msgid "Content"
+msgstr "内容"
+
+#: src/articleviewer.cpp:136
+msgid "Copy &Link Address"
+msgstr "复制链接地址(&L)"
+
+#: src/articleviewer.cpp:140
+msgid "&Save Link As..."
+msgstr "链接另存为(&S)..."
+
+#: src/articleviewer.cpp:676
+#, kde-format
+msgctxt "%1: Akregator version; %2: homepage URL; --- end of comment ---"
+msgid ""
+"<h2 style='margin-top: 0px;'>Welcome to Akregator %1</h2><p>Akregator is a "
+"KDE news feed reader. Feed readers provide a convenient way to browse "
+"different kinds of content, including news, blogs, and other content from "
+"online sites. Instead of checking all your favorite web sites manually for "
+"updates, Akregator collects the content for you.</p><p>For more information "
+"about using Akregator, check the <a href=\"%2\">Akregator website</a>. If "
+"you do not want to see this page anymore, <a href=\"config:/"
+"disable_introduction\">click here</a>.</p><p>We hope that you will enjoy "
+"Akregator.</p>\n"
+"<p>Thank you,</p>\n"
+"<p style='margin-bottom: 0px'>&nbsp; &nbsp; The Akregator Team</p>\n"
+msgstr ""
+"<h2 style='margin-top: 0px;'>欢迎使用 Akregator %1</h2><p>Akregator 是 KDE 桌"
+"面环境下的 RSS 种子收集器。种子收集器提供了一种浏览不同内容的便捷途径，这些内"
+"容可以是新闻、博客日志以及在线网站的其它内容。由于 Akregator 会自动帮您收集网"
+"站内容，您再也不必手动检查您所喜爱的网站是否有更新内容。</p><p>要获得关于使"
+"用 Akregator 的更多信息，请检查 <a href=\"%2\">Akregator 网站</a>。如果您不想"
+"再显示此页，请<a href=\"config:/disable_introduction\">单击此处</a>。</p><p>"
+"我们希望您使用 Akregator 愉快。</p>\n"
+"<p>此致，敬礼</p>\n"
+"<p style='margin-bottom: 0px'>&nbsp; &nbsp; Akregator 团队</p>\n"
+
+#: src/articleviewer.cpp:694
+msgid "A KDE news feed reader."
+msgstr "KDE 新闻信息源采集器"
+
+#: src/articleviewer.cpp:731
+msgid "Disable"
+msgstr "禁用"
+
+#: src/articleviewer.cpp:733
+msgid "Keep Enabled"
+msgstr "保持启用"
+
+#: src/articleviewer.cpp:734
+msgid "Are you sure you want to disable this introduction page?"
+msgstr "您确定想要禁用此介绍页吗？"
+
+#: src/articleviewer.cpp:734
+msgid "Disable Introduction Page"
+msgstr "禁用介绍页"
+
+#: src/createfoldercommand.cpp:66
+msgid "Add Folder"
+msgstr "添加文件夹"
+
+#: src/createfoldercommand.cpp:67
+msgid "Folder name:"
+msgstr "文件夹名称："
+
+#: src/deletesubscriptioncommand.cpp:53
+msgid ""
+"<qt>Are you sure you want to delete this folder and its feeds and subfolders?"
+"</qt>"
+msgstr "<qt>您确定想要删除次文件夹及其中的种子和子文件夹吗？</qt>"
+
+#: src/deletesubscriptioncommand.cpp:54
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to delete folder <b>%1</b> and its feeds and "
+"subfolders?</qt>"
+msgstr "<qt>您确定想要删除文件夹 <b>%1</b> 及其中的种子和子文件夹吗？</qt>"
+
+#: src/deletesubscriptioncommand.cpp:58
+msgid "Delete Folder"
+msgstr "删除文件夹"
+
+#: src/deletesubscriptioncommand.cpp:73
+msgid "<qt>Are you sure you want to delete this feed?</qt>"
+msgstr "<qt>您确定想要删除此种子吗？</qt>"
+
+#: src/deletesubscriptioncommand.cpp:75
+#, kde-format
+msgid "<qt>Are you sure you want to delete feed <b>%1</b>?</qt>"
+msgstr "<qt>您确定想要删除种子 <b>%1</b> 吗？</qt>"
+
+#: src/deletesubscriptioncommand.cpp:79
+msgid "Delete Feed"
+msgstr "删除种子"
+
+#: src/dummystorage/storagefactorydummyimpl.cpp:48
+msgid "No Archive"
+msgstr "无存档"
+
+#: src/feedlist.cpp:177
+msgid "All Feeds"
+msgstr "全部种子"
+
+#: src/feedpropertiesdialog.cpp:71 src/feedpropertiesdialog.cpp:96
+msgid "Minute"
+msgid_plural "Minutes"
+msgstr[0] "分钟"
+
+#: src/feedpropertiesdialog.cpp:72 src/feedpropertiesdialog.cpp:97
+msgid "Hour"
+msgid_plural "Hours"
+msgstr[0] "小时"
+
+#: src/feedpropertiesdialog.cpp:73 src/feedpropertiesdialog.cpp:98
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "天"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Akregator::FeedPropertiesWidgetBase)
+#: src/feedpropertiesdialog.cpp:88 src/feedpropertiesdialog.cpp:131
+#: src/feedpropertieswidgetbase.ui:20
+msgid "Feed Properties"
+msgstr "种子属性"
+
+#: src/feedpropertiesdialog.cpp:100
+msgctxt "never fetch new articles"
+msgid "Never"
+msgstr "从不"
+
+#: src/feedpropertiesdialog.cpp:101
+msgid " day"
+msgid_plural " days"
+msgstr[0] " 天"
+
+#: src/feedpropertiesdialog.cpp:102
+msgid " article"
+msgid_plural " articles"
+msgstr[0] " 篇文章"
+
+#: src/feedpropertiesdialog.cpp:132
+#, kde-format
+msgid "Properties of %1"
+msgstr "%1 的属性"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab1)
+#: src/feedpropertieswidgetbase.ui:42
+msgid "&General"
+msgstr "常规(&G)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cb_updateInterval)
+#: src/feedpropertieswidgetbase.ui:54
+msgid "U&se a custom update interval"
+msgstr "使用自定义更新间隔(&S)"
+
+#. i18n: ectx: property (text), widget (QLabel, updateLabel)
+#: src/feedpropertieswidgetbase.ui:88
+msgid "Update &every:"
+msgstr "更新频率(&E)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_useNotification)
+#: src/feedpropertieswidgetbase.ui:114
+msgid "Notify when new articles arri&ve"
+msgstr "新文章到达时通知(&V)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: src/feedpropertieswidgetbase.ui:129
+msgid "&URL:"
+msgstr "&URL："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: src/feedpropertieswidgetbase.ui:139
+msgid "&Name:"
+msgstr "名称(&N)："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, feedNameEdit)
+#: src/feedpropertieswidgetbase.ui:155
+msgid "Display name of RSS column"
+msgstr "RSS 列的显示名称"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab2)
+#: src/feedpropertieswidgetbase.ui:181
+msgid "Ar&chive"
+msgstr "存档(&C)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_globalDefault)
+#: src/feedpropertieswidgetbase.ui:193
+msgid "&Use default settings"
+msgstr "使用默认设置(&U)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_disableArchiving)
+#: src/feedpropertieswidgetbase.ui:203
+msgid "Di&sable archiving"
+msgstr "禁用存档(&S)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_limitArticleNumber)
+#: src/feedpropertieswidgetbase.ui:234
+msgid "Limit archi&ve to:"
+msgstr "存档限制为(&V)："
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_limitArticleAge)
+#: src/feedpropertieswidgetbase.ui:264
+msgid "&Delete articles older than:"
+msgstr "删除指定时间前的文章(&D)："
+
+#. i18n: ectx: property (text), widget (QRadioButton, rb_keepAllArticles)
+#: src/feedpropertieswidgetbase.ui:319
+msgid "&Keep all articles"
+msgstr "保留全部文章(&K)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab3)
+#: src/feedpropertieswidgetbase.ui:327
+msgid "Adva&nced"
+msgstr "高级(&N)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_loadWebsite)
+#: src/feedpropertieswidgetbase.ui:360
+msgid "Load the &full website when reading articles"
+msgstr "阅读文章时装入整个网站(&F)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_markRead)
+#: src/feedpropertieswidgetbase.ui:367
+msgid "Mar&k articles as read when they arrive"
+msgstr "文章到达时将其标为已读(&K)"
+
+#: src/frame.cpp:101
+msgid "Untitled"
+msgstr "无标题"
+
+#: src/frame.cpp:161
+msgid "Loading..."
+msgstr "正在装入..."
+
+#: src/frame.cpp:182
+msgid "Loading canceled"
+msgstr "装入已取消"
+
+#: src/frame.cpp:196
+msgid "Loading completed"
+msgstr "装入已完成"
+
+#: src/importfeedlistcommand.cpp:64
+msgid "Imported Feeds"
+msgstr "导入种子"
+
+#: src/importfeedlistcommand.cpp:96
+msgid "Add Imported Folder"
+msgstr "添加导入的文件夹"
+
+#: src/importfeedlistcommand.cpp:97
+msgid "Imported folder name:"
+msgstr "导入的文件夹名称："
+
+#: src/loadfeedlistcommand.cpp:73
+#, kde-format
+msgid ""
+"<qt>The standard feed list is corrupted (invalid OPML). A backup was created:"
+"<p><b>%1</b></p></qt>"
+msgstr "<qt>标准种子列表已损坏(无效的 OPML)。备份创建于：<p><b>%1</b></p></qt>"
+
+#: src/loadfeedlistcommand.cpp:75
+msgid ""
+"<qt>The standard feed list is corrupted (invalid OPML). Could not create a "
+"backup.</qt>"
+msgstr "<qt>标准种子列表已损坏(无效的 OPML)。无法创建备份。</qt>"
+
+#: src/loadfeedlistcommand.cpp:127
+msgid "Opening Feed List..."
+msgstr "正在打开种子列表..."
+
+#: src/loadfeedlistcommand.cpp:147
+#, kde-format
+msgid "<qt>Could not open feed list (%1) for reading.</qt>"
+msgstr "<qt>无法读取种子列表(%1)。</qt>"
+
+#: src/loadfeedlistcommand.cpp:160
+msgctxt "error message window caption"
+msgid "XML Parsing Error"
+msgstr "XML 解析错误"
+
+#: src/loadfeedlistcommand.cpp:162
+#, kde-format
+msgid ""
+"<qt><p>XML parsing error in line <numid>%1</numid>, column <numid>%2</numid> "
+"of %3:</p><p>%4</p></qt>"
+msgstr ""
+"<qt><p>XML 解析错误，位于 %3 的第 <numid>%1</numid> 行第 <numid>%2</numid> "
+"列：</p><p>%4</p></qt>"
+
+#: src/loadfeedlistcommand.cpp:170
+#, kde-format
+msgid ""
+"<qt>The standard feed list is corrupted (invalid XML). A backup was created:"
+"<p><b>%1</b></p></qt>"
+msgstr "<qt>标准种子列表已损坏(无效的 XML)。备份创建于：<p><b>%1</b></p></qt>"
+
+#: src/loadfeedlistcommand.cpp:172
+msgid ""
+"<qt>The standard feed list is corrupted (invalid XML). Could not create a "
+"backup.</qt>"
+msgstr "<qt>标准种子列表已损坏(无效的 XML)。无法创建备份。</qt>"
+
+#: src/mainwidget.cpp:181
+msgid "You can view multiple articles in several open tabs."
+msgstr "您可以在多个打开的标签内查看多篇文章。"
+
+#: src/mainwidget.cpp:185
+msgid "Articles list."
+msgstr "文章列表。"
+
+#: src/mainwidget.cpp:249
+msgid "Browsing area."
+msgstr "浏览区域。"
+
+#: src/mainwidget.cpp:254 src/mainwidget.cpp:621
+msgid "Articles"
+msgstr "文章"
+
+#: src/mainwidget.cpp:270
+msgid "About"
+msgstr "关于"
+
+#: src/mainwidget.cpp:788 src/mainwidget.cpp:796 src/mainwidget.cpp:1198
+msgid "Networking is not available."
+msgstr "网络不可用。"
+
+#: src/mainwidget.cpp:803
+msgid "Fetching Feeds..."
+msgstr "正在获取种子..."
+
+#: src/mainwidget.cpp:995
+#, kde-format
+msgid "<qt>Are you sure you want to delete article <b>%1</b>?</qt>"
+msgstr "<qt>您确定想要删除文章 <b>%1</b> 吗？</qt>"
+
+#: src/mainwidget.cpp:998
+#, kde-format
+msgid "<qt>Are you sure you want to delete the selected article?</qt>"
+msgid_plural ""
+"<qt>Are you sure you want to delete the %1 selected articles?</qt>"
+msgstr[0] "<qt>您确定想要删除这 %1 篇文章吗？</qt>"
+
+#: src/mainwidget.cpp:1002
+msgid "Delete Article"
+msgstr "删除文章"
+
+#: src/mainwidget.cpp:1192
+msgid "Networking is available now."
+msgstr "网络现在可用。"
+
+#: src/mainwindow.cpp:103
+#, kde-format
+msgid ""
+"Could not find the Akregator part; please check your installation.\n"
+"%1"
+msgstr ""
+"找不到 Akregator 部件；请检查您的安装。\n"
+"%1"
+
+#: src/notificationmanager.cpp:78
+#, kde-format
+msgid ""
+"Feed added:\n"
+" %1"
+msgstr ""
+"种子已添加：\n"
+" %1"
+
+#: src/notificationmanager.cpp:86
+#, kde-format
+msgid ""
+"Feeds added:\n"
+" %1"
+msgstr ""
+"种子已添加：\n"
+" %1"
+
+#: src/pluginmanager.cpp:164
+msgctxt "Name of the plugin"
+msgid "Name"
+msgstr "名称"
+
+#: src/pluginmanager.cpp:165
+msgctxt "Library name"
+msgid "Library"
+msgstr "库"
+
+#: src/pluginmanager.cpp:166
+msgctxt "Plugin authors"
+msgid "Authors"
+msgstr "作者"
+
+#: src/pluginmanager.cpp:167
+msgctxt "Plugin authors' emaila addresses"
+msgid "Email"
+msgstr "电子邮件"
+
+#: src/pluginmanager.cpp:168
+msgctxt "Plugin version"
+msgid "Version"
+msgstr "版本"
+
+#: src/pluginmanager.cpp:169
+msgctxt "Framework version plugin requires"
+msgid "Framework Version"
+msgstr "框架版本"
+
+#: src/pluginmanager.cpp:173
+msgid "Plugin Information"
+msgstr "插件信息"
+
+#: src/progressmanager.cpp:176
+msgid "Fetch completed"
+msgstr "获取完成"
+
+#: src/progressmanager.cpp:186
+msgid "Fetch error"
+msgstr "获取出错"
+
+#: src/progressmanager.cpp:196
+msgid "Fetch aborted"
+msgstr "获取中止"
+
+#: src/searchbar.cpp:77
+msgctxt "Title of article searchbar"
+msgid "S&earch:"
+msgstr "搜索(&E)："
+
+#: src/searchbar.cpp:88
+msgid "Status:"
+msgstr "状态："
+
+#: src/searchbar.cpp:97
+msgid "All Articles"
+msgstr "全部文章"
+
+#: src/searchbar.cpp:98
+msgctxt "Unread articles filter"
+msgid "Unread"
+msgstr "未读文章"
+
+#: src/searchbar.cpp:99
+msgctxt "New articles filter"
+msgid "New"
+msgstr "新文章"
+
+#: src/searchbar.cpp:100
+msgctxt "Important articles filter"
+msgid "Important"
+msgstr "重要"
+
+#: src/searchbar.cpp:102
+msgid "Enter space-separated terms to filter article list"
+msgstr "输入以空格分隔的术语来过滤文章列表"
+
+#: src/searchbar.cpp:103
+msgid "Choose what kind of articles to show in article list"
+msgstr "选择要在文章列表中显示哪类文章"
+
+#: src/speechclient.cpp:113
+msgid "Next Article: "
+msgstr "下篇文章："
+
+#: src/subscriptionlistjobs.cpp:64
+msgid "Feed list was deleted"
+msgstr "种子列表已被删除"
+
+#: src/subscriptionlistjobs.cpp:75
+msgid "Node or destination folder not found"
+msgstr "节点或目标文件夹未找到"
+
+#: src/subscriptionlistjobs.cpp:83
+#, kde-format
+msgid "Cannot move folder %1 to its own subfolder %2"
+msgstr "不能移动文件夹 %1 到其子文件夹 %2"
+
+#: src/subscriptionlistmodel.cpp:60
+msgid "Timeout on remote server"
+msgstr "远程服务器超时"
+
+#: src/subscriptionlistmodel.cpp:62
+msgid "Unknown host"
+msgstr "未知主机"
+
+#: src/subscriptionlistmodel.cpp:64
+msgid "Feed file not found on remote server"
+msgstr "远程服务器上未能找到种子。"
+
+#: src/subscriptionlistmodel.cpp:66
+msgid "Could not read feed (invalid XML)"
+msgstr "无法读入种子(无效的 XML)"
+
+#: src/subscriptionlistmodel.cpp:68
+msgid "Could not read feed (unknown format)"
+msgstr "无法读入种子(未知格式)"
+
+#: src/subscriptionlistmodel.cpp:70
+msgid "Could not read feed (invalid feed)"
+msgstr "无法读入种子(无效的种子)"
+
+#: src/subscriptionlistmodel.cpp:157
+#, kde-format
+msgid "Could not fetch feed: %1"
+msgstr "无法获取种子：%1"
+
+#: src/subscriptionlistmodel.cpp:213
+msgctxt "Feedlist's column header"
+msgid "Feeds"
+msgstr "种子"
+
+#: src/subscriptionlistmodel.cpp:215
+msgctxt "Feedlist's column header"
+msgid "Unread"
+msgstr "未读文章"
+
+#: src/subscriptionlistmodel.cpp:217
+msgctxt "Feedlist's column header"
+msgid "Total"
+msgstr "合计"
+
+#: src/tabwidget.cpp:114
+msgid "Close the current tab"
+msgstr "关闭当前标签"
+
+#: src/tabwidget.cpp:117
+msgid "Close tab"
+msgstr "关闭标签"
+
+#: src/trayicon.cpp:73
+msgid "There are no unread articles"
+msgstr " 无未读文章"
+
+#: src/trayicon.cpp:73
+#, kde-format
+msgid "1 unread article"
+msgid_plural "%1 unread articles"
+msgstr[0] "%1 篇未读文章"
+
+#~ msgid "<b>Open Link in New Tab</b><p>Opens current link in a new tab.</p>"
+#~ msgstr "<b>在新标签中打开链接</b><p>在新标签中打开当前链接。</p>"
+
+#~ msgid "Open Page in External Browser"
+#~ msgstr "在外部浏览器中打开页面"
+
+#~ msgid "Add to Konqueror Bookmarks"
+#~ msgstr "添加到 Konqueror 书签"
+
+#, fuzzy
+#~| msgid "Feeds"
+#~ msgid "Feed List"
+#~ msgstr "种子"
+
+#~ msgid "Akregator - Feed Reader"
+#~ msgstr "Akregator - RSS 种子阅读器"
+
+#~ msgid "Akregator - 1 unread article"
+#~ msgid_plural "Akregator - %1 unread articles"
+#~ msgstr[0] "Akregator - %1 篇未读文章"
+
+#~ msgid ""
+#~ "<qt><p>Closing the main window will keep Akregator running in the system "
+#~ "tray. Use 'Quit' from the 'File' menu to quit the application.</"
+#~ "p><p><center>%1</center></p></qt>"
+#~ msgstr ""
+#~ "<qt><p>关闭主窗口仍然会使得 Akregator 在系统托盘运行。使用“文件”菜单中"
+#~ "的“退出”可以退出应用程序。</p><p><center>%1</center></p></qt>"
+
+#~ msgid "Docking in System Tray"
+#~ msgstr "在系统托盘停靠"
+
+#~ msgid "An RSS feed reader for the K Desktop Environment."
+#~ msgstr "K 桌面环境的 RSS 种子阅读器。"
+
+#~ msgid "Akregator News"
+#~ msgstr "Akregator 新闻"
+
+#~ msgid "Akregator Blog"
+#~ msgstr "Akregator 博客"
+
+#~ msgid "&Increase Font Sizes"
+#~ msgstr "增大字体(&I)"
+
+#~ msgid "&Decrease Font Sizes"
+#~ msgstr "减小字体(&D)"
+
+#~ msgid "&Scroll Up"
+#~ msgstr "向上滚动(&S)"
+
+#~ msgid "&Scroll Down"
+#~ msgstr "向下滚动(&S)"
+
+#~ msgid " articles"
+#~ msgstr " 篇文章"
+
+#~ msgid " days"
+#~ msgstr " 天"
+
+#~ msgid " minutes"
+#~ msgstr " 分钟"
+
+#~ msgid "General"
+#~ msgstr "常规"
+
+#~ msgid "ExternalBrowser"
+#~ msgstr "外部浏览器"
+
+#~ msgid "&Abort Fetches"
+#~ msgstr "中止获取(&A)"
+
+#~ msgid ""
+#~ "<qt><p>Closing the main window will keep Akregator running in the system "
+#~ "tray. Use 'Quit' from the 'File' menu to quit the application.</"
+#~ "p><p><center><img source=\"systray_shot\" /></center></p></qt>"
+#~ msgstr ""
+#~ "<qt><p>关闭主窗口仍然会使得 Akregator 在系统托盘运行。使用“文件”菜单中"
+#~ "的“退出”可以退出应用程序。</p><p><center><img source=\"systray_shot\"></"
+#~ "center></p></qt>"
+
+#~ msgid "&View Mode"
+#~ msgstr "视图模式(&V)"
+
+#~ msgid "&Feed"
+#~ msgstr "种子(&F)"
+
+#~ msgid "F&eed"
+#~ msgstr "种子(&E)"
+
+#~ msgid "Show tab close button on hover"
+#~ msgstr "悬停时显示关闭标签按钮"
+
+#~ msgid ""
+#~ "<p>KLibLoader could not load the plugin:<br/><i>%1</i></p><p>Error "
+#~ "message:<br/><i>%2</i></p>"
+#~ msgstr ""
+#~ "<p>KLibLoader 无法装入插件：<br/><i>%1</i></p><p>错误消息：<br/><i>%2</"
+#~ "i></p>"
+
+#~ msgid ""
+#~ "<h2>Feeds tree</h2>Here you can browse tree of feeds. You can also add "
+#~ "feeds or feed groups (folders) using right-click menu, or reorganize them "
+#~ "using drag and drop."
+#~ msgstr ""
+#~ "<h2>种子树</h2>您可在此浏览种子的树形列表。您也可以添加种子或使用右键菜单"
+#~ "获取种子组(文件夹)，还可以通过拖放重新组织它们。"
+
+#~ msgid ""
+#~ "<qt>The standard feed list is corrupted (no valid OPML). A backup of the "
+#~ "previous list was created:<p><b>%1</b></p></qt>"
+#~ msgstr ""
+#~ "<qt>标准种子列表已损坏(无效的 OPML)。先前列表的备份创建于：<p><b>%1</b></"
+#~ "p></qt>"
+
+#~ msgid ""
+#~ "<qt>The standard feed list is corrupted (no valid OPML). Could not create "
+#~ "a backup!></p></qt>"
+#~ msgstr "<qt>标准种子列表已损坏(无效的 OPML)。无法创建备份！</p></qt>"
+
+#~ msgid "Write error"
+#~ msgstr "写错误"

@@ -1,0 +1,132 @@
+#
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kwin_lib\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-15 01:46+0000\n"
+"PO-Revision-Date: 2012-12-04 15:35-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: kcommondecoration.cpp:310
+#, kde-format
+msgid "<center><b>%1</b></center>"
+msgstr "<center><b>%1</b></center>"
+
+#: kcommondecoration.cpp:402
+msgctxt "Button showing window actions menu"
+msgid "Window Menu"
+msgstr "窗口菜单"
+
+#: kcommondecoration.cpp:417
+msgctxt "Button showing application menu"
+msgid "Application Menu"
+msgstr "应用程序菜单"
+
+#: kcommondecoration.cpp:439 kcommondecoration.cpp:657
+msgid "Not on all desktops"
+msgstr "不在全部桌面上"
+
+#: kcommondecoration.cpp:439 kcommondecoration.cpp:658
+msgid "On all desktops"
+msgstr "在全部桌面上"
+
+#: kcommondecoration.cpp:454
+msgid "Help"
+msgstr "帮助"
+
+#: kcommondecoration.cpp:467
+msgid "Minimize"
+msgstr "最小化"
+
+#: kcommondecoration.cpp:482 kcommondecoration.cpp:645
+msgid "Restore"
+msgstr "恢复"
+
+#: kcommondecoration.cpp:482 kcommondecoration.cpp:644
+msgid "Maximize"
+msgstr "最大化"
+
+#: kcommondecoration.cpp:497
+msgid "Close"
+msgstr "关闭"
+
+#: kcommondecoration.cpp:511 kcommondecoration.cpp:698
+msgid "Do not keep above others"
+msgstr "不常居顶端"
+
+#: kcommondecoration.cpp:511 kcommondecoration.cpp:698
+#: kcommondecoration.cpp:719
+msgid "Keep above others"
+msgstr "常居顶端"
+
+#: kcommondecoration.cpp:527 kcommondecoration.cpp:713
+msgid "Do not keep below others"
+msgstr "不常居底端"
+
+#: kcommondecoration.cpp:527 kcommondecoration.cpp:704
+#: kcommondecoration.cpp:713
+msgid "Keep below others"
+msgstr "常居底端"
+
+#: kcommondecoration.cpp:543 kcommondecoration.cpp:669
+msgid "Unshade"
+msgstr "展开"
+
+#: kcommondecoration.cpp:543 kcommondecoration.cpp:670
+msgid "Shade"
+msgstr "卷起"
+
+#: kdecoration_plugins_p.cpp:114
+msgid "Loading of window decoration plugin library disabled in configuration."
+msgstr "配置中禁止装入窗口装饰插件库。"
+
+#: kdecoration_plugins_p.cpp:155
+#, kde-format
+msgid "The library %1 has wrong API version %2"
+msgstr "库 %1 的 API 版本 %2 错误。"
+
+#: kdecoration_plugins_p.cpp:166
+#, kde-format
+msgid "The library %1 is not a KWin plugin."
+msgstr "库 %1 不是 KWin 插件。"
+
+#: kdecoration_plugins_p.cpp:203 kdecoration_plugins_p.cpp:220
+msgid "The default decoration plugin is corrupt and could not be loaded."
+msgstr "默认的装饰插件已经损坏，无法装入。"
+
+#: kdecoration_plugins_p.cpp:215
+#, kde-format
+msgid ""
+"The library %1 was attempted to be loaded as a decoration plugin but it is "
+"NOT"
+msgstr "库 %1 尝试作为边框插件被加载但是它并不是边框插件"
+
+#~ msgid "Menu"
+#~ msgstr "菜单"
+
+#~ msgid "No window decoration plugin library was found."
+#~ msgstr "未找到窗口装饰插件库。"
+
+#~ msgid ""
+#~ "******\n"
+#~ "\n"
+#~ "The library %1 has no API version\n"
+#~ "Please use the KWIN_DECORATION or future versions of kwin will no longer "
+#~ "load this decoration!\n"
+#~ "*******"
+#~ msgstr ""
+#~ "******\n"
+#~ "\n"
+#~ "库 %1 没有包含 API 版本\n"
+#~ "请使用 KWIN_DECORATION 否则新版本的 kwin 将不会加载这个边框！\n"
+#~ "*******"

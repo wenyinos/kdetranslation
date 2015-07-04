@@ -1,0 +1,1227 @@
+# Levin <zsdjw@21cn.com>, 2004
+# Lie Ex <lilith.ex@gmail.com>, 2007-2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libkleopatra\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-06-18 01:37+0000\n"
+"PO-Revision-Date: 2010-07-14 16:13+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: backends/chiasmus/chiasmusbackend.cpp:286
+msgid "General"
+msgstr "常规"
+
+#: backends/chiasmus/chiasmusbackend.cpp:341
+#: backends/chiasmus/chiasmusbackend.cpp:440
+msgid "Chiasmus"
+msgstr "Chiasmus"
+
+#: backends/chiasmus/chiasmusbackend.cpp:386
+msgid "Chiasmus command line tool"
+msgstr "Chiasmus 命令行工具"
+
+#: backends/chiasmus/chiasmusbackend.cpp:460
+#: backends/chiasmus/chiasmusbackend.cpp:466
+#: backends/chiasmus/chiasmusbackend.cpp:495
+#: backends/qgpgme/qgpgmebackend.cpp:380
+#, kde-format
+msgid "Unsupported protocol \"%1\""
+msgstr "不支持的协议“%1”"
+
+#: backends/chiasmus/chiasmusbackend.cpp:482
+#, kde-format
+msgid "File \"%1\" does not exist or is not executable."
+msgstr "文件“%1”不存在或不可执行。"
+
+#: backends/chiasmus/chiasmusjob.cpp:166
+msgid "Output from chiasmus"
+msgstr "chiasmus 的输出"
+
+#: backends/chiasmus/chiasmusjob.cpp:208 ui/messagebox.cpp:257
+#, kde-format
+msgid "Encryption failed: %1"
+msgstr "加密失败：%1"
+
+#: backends/chiasmus/chiasmusjob.cpp:209
+#, kde-format
+msgid "Decryption failed: %1"
+msgstr "解密失败：%1"
+
+#: backends/chiasmus/chiasmusjob.cpp:211
+#, kde-format
+msgid ""
+"The following was received on stderr:\n"
+"%1"
+msgstr ""
+"标准错误设备收到以下信息：\n"
+"%1"
+
+#: backends/chiasmus/chiasmuslibrary.cpp:75
+#: backends/chiasmus/chiasmuslibrary.cpp:86
+#, kde-format
+msgid "Failed to load %1: %2"
+msgstr "装入 %1 失败：%2"
+
+#: backends/chiasmus/chiasmuslibrary.cpp:87
+msgid "Library does not contain the symbol \"Chiasmus\"."
+msgstr "库中不包含“Chiasmus”符号。"
+
+#: backends/chiasmus/obtainkeysjob.cpp:95
+#, kde-format
+msgid "Scanning directory %1..."
+msgstr "正在扫描目录 %1..."
+
+#: backends/qgpgme/qgpgmebackend.cpp:89 ui/keyselectiondialog.cpp:256
+#: ui/keyselectiondialog.cpp:258 ui/keyselectiondialog.cpp:265
+#: ui/keyselectiondialog.cpp:267 ui/keyselectiondialog.cpp:268
+msgid "unknown"
+msgstr "未知"
+
+#: backends/qgpgme/qgpgmebackend.cpp:330
+msgid "GpgME"
+msgstr "GpgME"
+
+#: backends/qgpgme/qgpgmebackend.cpp:354
+#, kde-format
+msgid "GPGME was compiled without support for %1."
+msgstr "GPGME 编译时没有加入 %1 支持。"
+
+#: backends/qgpgme/qgpgmebackend.cpp:356
+#, kde-format
+msgid "Engine %1 is not installed properly."
+msgstr "引擎 %1 没有正确安装。"
+
+#: backends/qgpgme/qgpgmebackend.cpp:358
+#, kde-format
+msgid "Engine %1 version %2 installed, but at least version %3 is required."
+msgstr "引擎 %1 版本 %2 已经安装，但至少需要版本 %3。"
+
+#: backends/qgpgme/qgpgmebackend.cpp:362
+#, kde-format
+msgid "Unknown problem with engine for protocol %1."
+msgstr "处理协议 %1 时引擎出现未知错误。"
+
+#: backends/qgpgme/qgpgmecryptoconfig.cpp:112
+msgid "program terminated unexpectedly"
+msgstr "程序意外终止"
+
+#: backends/qgpgme/qgpgmecryptoconfig.cpp:114
+msgid "program not found or cannot be started"
+msgstr "找不到或无法启动程序"
+
+#: backends/qgpgme/qgpgmecryptoconfig.cpp:117
+#: backends/qgpgme/qgpgmenewcryptoconfig.cpp:97
+#, kde-format
+msgid "<qt>Failed to execute gpgconf:<p>%1</p></qt>"
+msgstr "<qt>执行 gpgconf 失败：<p>%1</p></qt>"
+
+#: backends/qgpgme/qgpgmecryptoconfig.cpp:367
+msgid ""
+"Could not start gpgconf.\n"
+"Check that gpgconf is in the PATH and that it can be started."
+msgstr ""
+"不能启动 gpgconf。\n"
+"请检查 gpgconf 在 PATH 中，并且能够启动。"
+
+#: backends/qgpgme/qgpgmecryptoconfig.cpp:373
+#: backends/qgpgme/qgpgmenewcryptoconfig.cpp:208
+#, kde-format
+msgid "Error from gpgconf while saving configuration: %1"
+msgstr "gpgconf 保存配置时出错：%1"
+
+#: backends/qgpgme/qgpgmekeylistjob.cpp:152
+#: backends/qgpgme/qgpgmelistallkeysjob.cpp:154 ui/keyrequester.cpp:231
+#: ui/keyselectiondialog.cpp:599
+#, kde-format
+msgid ""
+"<qt><p>An error occurred while fetching the keys from the backend:</p><p><b>"
+"%1</b></p></qt>"
+msgstr "<qt><p>从后端获取密钥时发生错误：</p><p><b>%1</b></p></qt>"
+
+#: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:50
+msgid "Generating DSA key..."
+msgstr "生成 DSA 密钥..."
+
+#: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:54
+msgid "Generating ElGamal key..."
+msgstr "生成 ElGamal 密钥..."
+
+#: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:59
+msgid "Searching for a large prime number..."
+msgstr "搜索一个大的素数..."
+
+#: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:63
+msgid ""
+"Waiting for new entropy from random number generator (you might want to "
+"exercise the harddisks or move the mouse)..."
+msgstr "正在等待随机数生成器中的熵(您可能要读写硬盘或移动鼠标)..."
+
+#: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:67
+msgid "Please wait..."
+msgstr "请稍候..."
+
+#: backends/qgpgme/qgpgmeprogresstokenmapper.cpp:71
+msgid ""
+"Starting gpg-agent (you should consider starting a global instance "
+"instead)..."
+msgstr "正在启动 gpg-agent (您应该考虑启动一个全局的实例)..."
+
+#: kleo/checksumdefinition.cpp:105
+#, kde-format
+msgid "Error in checksum definition %1: %2"
+msgstr "校验和代码 %1 中有错误：%2"
+
+#: kleo/checksumdefinition.cpp:150
+#, kde-format
+msgid "Cannot use both %f and | in '%1'"
+msgstr "在“%1”中不能同时使用 %f 和 |"
+
+#: kleo/checksumdefinition.cpp:158
+#, kde-format
+msgid "Quoting error in '%1' entry"
+msgstr "在“%1”条目中存在引用错误"
+
+#: kleo/checksumdefinition.cpp:160
+#, kde-format
+msgid "'%1' too complex (would need shell)"
+msgstr "“%1”过于复杂(需要 shell 来处理)"
+
+#: kleo/checksumdefinition.cpp:163
+#, kde-format
+msgid "'%1' entry is empty/missing"
+msgstr "“%1”条目为空或丢失"
+
+#: kleo/checksumdefinition.cpp:170
+#, kde-format
+msgid "'%1' empty or not found"
+msgstr "“%1”为空或找不到"
+
+#: kleo/checksumdefinition.cpp:206
+msgid "'id' entry is empty/missing"
+msgstr "“id”字段为空或丢失"
+
+#: kleo/checksumdefinition.cpp:208
+msgid "'output-file' entry is empty/missing"
+msgstr "“output-file”字段为空或丢失"
+
+#: kleo/checksumdefinition.cpp:210
+msgid "'file-patterns' entry is empty/missing"
+msgstr "“file-patterns”字段为空或丢失"
+
+#: kleo/checksumdefinition.cpp:356
+#, kde-format
+msgid "Caught unknown exception in group %1"
+msgstr "在组“%1”中捕捉到未知异常"
+
+#: kleo/cryptobackendfactory.cpp:172
+#, kde-format
+msgid "While scanning for %1 support in backend %2:"
+msgstr "在后端 %2 中检测 %1 支持时："
+
+#: kleo/dn.cpp:458
+msgid "Common name"
+msgstr "一般名称"
+
+#: kleo/dn.cpp:459
+msgid "Surname"
+msgstr "姓氏"
+
+#: kleo/dn.cpp:460
+msgid "Given name"
+msgstr "名字"
+
+#: kleo/dn.cpp:461
+msgid "Location"
+msgstr "住址"
+
+#: kleo/dn.cpp:462
+msgid "Title"
+msgstr "衔头"
+
+#: kleo/dn.cpp:463
+msgid "Organizational unit"
+msgstr "组织单元"
+
+#: kleo/dn.cpp:464
+msgid "Organization"
+msgstr "组织"
+
+#: kleo/dn.cpp:465
+msgid "Postal code"
+msgstr "邮政编码"
+
+#: kleo/dn.cpp:466
+msgid "Country code"
+msgstr "国家代码"
+
+#: kleo/dn.cpp:467
+msgid "State or province"
+msgstr "省份"
+
+#: kleo/dn.cpp:468
+msgid "Domain component"
+msgstr "域组件"
+
+#: kleo/dn.cpp:469
+msgid "Business category"
+msgstr "商业目录"
+
+#: kleo/dn.cpp:470
+msgid "Email address"
+msgstr "电子邮件地址"
+
+#: kleo/dn.cpp:471
+msgid "Mail address"
+msgstr "邮件地址"
+
+#: kleo/dn.cpp:472
+msgid "Mobile phone number"
+msgstr "移动电话号码"
+
+#: kleo/dn.cpp:473
+msgid "Telephone number"
+msgstr "电话号码"
+
+#: kleo/dn.cpp:474
+msgid "Fax number"
+msgstr "传真号码"
+
+#: kleo/dn.cpp:475
+msgid "Street address"
+msgstr "街道地址"
+
+#: kleo/dn.cpp:476
+msgid "Unique ID"
+msgstr "唯一标识"
+
+#: kleo/enum.cpp:46
+msgid "Inline OpenPGP (deprecated)"
+msgstr "内联 OpenPGP(过时)"
+
+#: kleo/enum.cpp:49
+msgid "OpenPGP/MIME"
+msgstr "OpenPGP/MIME"
+
+#: kleo/enum.cpp:52
+msgid "S/MIME"
+msgstr "S/MIME"
+
+#: kleo/enum.cpp:55
+msgid "S/MIME Opaque"
+msgstr "非透明 S/MIME"
+
+#: kleo/enum.cpp:80
+msgid "Any"
+msgstr "任意"
+
+#: kleo/enum.cpp:142
+msgid "Never Encrypt"
+msgstr "从不加密"
+
+#: kleo/enum.cpp:144
+msgid "Always Encrypt"
+msgstr "总是加密"
+
+#: kleo/enum.cpp:146
+msgid "Always Encrypt If Possible"
+msgstr "尽可能加密"
+
+#: kleo/enum.cpp:148 kleo/enum.cpp:200
+msgid "Ask"
+msgstr "询问"
+
+#: kleo/enum.cpp:150 kleo/enum.cpp:202
+msgid "Ask Whenever Possible"
+msgstr "有可能时询问"
+
+#: kleo/enum.cpp:152
+msgctxt "no specific preference"
+msgid "<placeholder>none</placeholder>"
+msgstr "<placeholder>无</placeholder>"
+
+#: kleo/enum.cpp:194
+msgid "Never Sign"
+msgstr "从不签名"
+
+#: kleo/enum.cpp:196
+msgid "Always Sign"
+msgstr "总是签名"
+
+#: kleo/enum.cpp:198
+msgid "Always Sign If Possible"
+msgstr "尽可能签名"
+
+#: kleo/enum.cpp:204
+msgctxt "no specific preference"
+msgid "<none>"
+msgstr "<无>"
+
+#: kleo/hierarchicalkeylistjob.cpp:130 kleo/multideletejob.cpp:91
+#, kde-format
+msgctxt "progress info: \"%1 of %2\""
+msgid "%1/%2"
+msgstr "%1/%2"
+
+#: kleo/keyfiltermanager.cpp:81
+msgid "All Certificates"
+msgstr "全部证书"
+
+#: kleo/keyfiltermanager.cpp:95
+msgid "My Certificates"
+msgstr "我的证书"
+
+#: kleo/keyfiltermanager.cpp:112
+msgid "Trusted Certificates"
+msgstr "信任的证书"
+
+#: kleo/keyfiltermanager.cpp:128
+msgid "Other Certificates"
+msgstr "其它证书"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, AddDirectoryServiceDialog)
+#: ui/adddirectoryservicedialog.ui:13
+msgid "Add or Change Directory Service"
+msgstr "添加或改变目录服务"
+
+#. i18n: ectx: property (text), widget (QLabel, serverNameLA)
+#: ui/adddirectoryservicedialog.ui:25
+msgid "&Server name:"
+msgstr "服务器名称(&S)："
+
+#. i18n: ectx: property (text), widget (QLineEdit, portED)
+#: ui/adddirectoryservicedialog.ui:38
+msgid "389"
+msgstr "389"
+
+#. i18n: ectx: property (text), widget (QLabel, usernameLA)
+#: ui/adddirectoryservicedialog.ui:48
+msgid "&User name (optional):"
+msgstr "用户名称(可选)(&S)："
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLA)
+#: ui/adddirectoryservicedialog.ui:74
+msgid "Pass&word (optional):"
+msgstr "密码(可选)(&W)："
+
+#. i18n: ectx: property (text), widget (QPushButton, PushButton3)
+#: ui/adddirectoryservicedialog.ui:84
+msgid "&OK"
+msgstr "确定(&O)"
+
+#. i18n: ectx: property (text), widget (QPushButton, PushButton4)
+#: ui/adddirectoryservicedialog.ui:94
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#. i18n: ectx: property (text), widget (QLabel, descriptionLA)
+#: ui/adddirectoryservicedialog.ui:140
+msgid "&Base DN:"
+msgstr "基本 DN(&B)："
+
+#. i18n: ectx: property (text), widget (QLabel, portLA)
+#: ui/adddirectoryservicedialog.ui:150
+msgid "&Port:"
+msgstr "端口(&P)："
+
+#: ui/cryptoconfigdialog.cpp:40
+msgid "Configure GnuPG Backend"
+msgstr "配置 GnuPG 后端"
+
+#: ui/cryptoconfigdialog.cpp:44
+msgid "&Reset"
+msgstr "重置(&R)"
+
+#: ui/cryptoconfigmodule.cpp:155
+msgid "GpgConf Error"
+msgstr "GpgConf 错误"
+
+#: ui/cryptoconfigmodule.cpp:208
+#, kde-format
+msgid ""
+"The gpgconf tool used to provide the information for this dialog does not "
+"seem to be installed properly. It did not return any components. Try running "
+"\"%1\" on the command line for more information."
+msgstr ""
+"用于为此对话框提供信息的 gpgconf 工具似乎没有正确安装，因此无法返回任何组件。"
+"请在命令行下运行“%1”获取更多信息。"
+
+#: ui/cryptoconfigmodule.cpp:470
+msgctxt ""
+"Translate this to 'yes' or 'no' (use the English words!) depending on "
+"whether your language uses Sentence style capitalisation in GUI labels (yes) "
+"or not (no). Context: We get some backend strings in that have the wrong "
+"capitalizaion (in English, at least) so we need to force the first character "
+"to upper-case. It is this behaviour you can control for your language with "
+"this translation."
+msgid "yes"
+msgstr "yes"
+
+#: ui/cryptoconfigmodule.cpp:519
+msgid "0 - None (no debugging at all)"
+msgstr "0 - 无(完全关闭调试)"
+
+#: ui/cryptoconfigmodule.cpp:520
+msgid "1 - Basic (some basic debug messages)"
+msgstr "1 - 基本(基本调试信息)"
+
+#: ui/cryptoconfigmodule.cpp:521
+msgid "2 - Advanced (more verbose debug messages)"
+msgstr "2 - 进阶(略多调试信息)"
+
+#: ui/cryptoconfigmodule.cpp:522
+msgid "3 - Expert (even more detailed messages)"
+msgstr "3 - 专家(更多调试信息)"
+
+#: ui/cryptoconfigmodule.cpp:523
+msgid "4 - Guru (all of the debug messages you can get)"
+msgstr "4 - 权威(所有调试信息)"
+
+#: ui/cryptoconfigmodule.cpp:532
+msgid "Set the debugging level to"
+msgstr "调试级别"
+
+#: ui/cryptoconfigmodule.cpp:857
+msgid "Show..."
+msgstr "显示..."
+
+#: ui/cryptoconfigmodule.cpp:857 ui/cryptoconfigmodule.cpp:926
+msgid "Edit..."
+msgstr "编辑..."
+
+#: ui/cryptoconfigmodule.cpp:889
+msgid "Configure LDAP Servers"
+msgstr "配置 LDAP 服务器"
+
+#: ui/cryptoconfigmodule.cpp:911
+msgid "No server configured yet"
+msgstr "尚未配置服务器"
+
+#: ui/cryptoconfigmodule.cpp:913
+#, kde-format
+msgid "1 server configured"
+msgid_plural "%1 servers configured"
+msgstr[0] "已配置 %1 个服务器"
+
+#: ui/cryptoconfigmodule.cpp:930
+msgid "Use keyserver at"
+msgstr "使用密钥服务器"
+
+#: ui/cryptoconfigmodule.cpp:1006
+msgid "Configure Keyservers"
+msgstr "配置密钥服务器"
+
+#: ui/directoryserviceswidget.cpp:65
+msgctxt "default server name, keep it a valid domain name, ie. no spaces"
+msgid "server"
+msgstr "服务器"
+
+#: ui/directoryserviceswidget.cpp:86
+msgid "hkp"
+msgstr "hkp"
+
+#: ui/directoryserviceswidget.cpp:87
+msgid "http"
+msgstr "http"
+
+#: ui/directoryserviceswidget.cpp:88
+msgid "https"
+msgstr "https"
+
+#: ui/directoryserviceswidget.cpp:89
+msgid "ftp"
+msgstr "ftp"
+
+#: ui/directoryserviceswidget.cpp:90
+msgid "ftps"
+msgstr "ftps"
+
+#: ui/directoryserviceswidget.cpp:91
+msgid "ldap"
+msgstr "ldap"
+
+#: ui/directoryserviceswidget.cpp:92
+msgid "ldaps"
+msgstr "ldaps"
+
+#: ui/directoryserviceswidget.cpp:508
+msgctxt "New X.509 Directory Server"
+msgid "X.509"
+msgstr "X.509"
+
+#: ui/directoryserviceswidget.cpp:509
+msgctxt "New OpenPGP Directory Server"
+msgid "OpenPGP"
+msgstr "OpenPGP"
+
+#: ui/directoryserviceswidget.cpp:628
+msgid "Scheme"
+msgstr "模式定义"
+
+#: ui/directoryserviceswidget.cpp:629
+msgid "Server Name"
+msgstr "服务器名称"
+
+#: ui/directoryserviceswidget.cpp:630
+msgid "Server Port"
+msgstr "服务器端口"
+
+#: ui/directoryserviceswidget.cpp:631
+msgid "Base DN"
+msgstr "基本 DN"
+
+#: ui/directoryserviceswidget.cpp:632
+msgid "User Name"
+msgstr "用户名称"
+
+#: ui/directoryserviceswidget.cpp:633
+msgid "Password"
+msgstr "密码"
+
+#: ui/directoryserviceswidget.cpp:634
+msgid "X.509"
+msgstr "X.509"
+
+#: ui/directoryserviceswidget.cpp:635
+msgid "OpenPGP"
+msgstr "OpenPGP"
+
+#: ui/directoryserviceswidget.cpp:654
+msgid "(read-only)"
+msgstr "(只读)"
+
+#: ui/directoryserviceswidget.cpp:656
+#, kde-format
+msgctxt "amended tooltip; %1: original tooltip"
+msgid "%1 (read-only)"
+msgstr "%1(只读)"
+
+#: ui/directoryserviceswidget.cpp:838
+msgid ""
+"Select the access protocol (scheme) that the directory service is available "
+"through."
+msgstr "选择对目录服务的访问协议(模式定义)。"
+
+#: ui/directoryserviceswidget.cpp:840
+msgid ""
+"Enter the name or IP address of the server hosting the directory service."
+msgstr "输入目录服务主机的主机名或 IP 地址。"
+
+#: ui/directoryserviceswidget.cpp:842
+msgid ""
+"<b>(Optional, the default is fine in most cases)</b> Pick the port number "
+"the directory service is listening on."
+msgstr "<b>(可选项，通常使用默认值即可)</b>选定目录服务的监听端口号。"
+
+#: ui/directoryserviceswidget.cpp:845
+msgid ""
+"<b>(Only for LDAP)</b> Enter the base DN for this LDAP server to limit "
+"searches to only that subtree of the directory."
+msgstr "<b>(仅针对 LDAP)</b>输入在 LDAP 服务器上进行搜索的基准 DN 目录。"
+
+#: ui/directoryserviceswidget.cpp:848
+msgid "<b>(Optional)</b> Enter your user name here, if needed."
+msgstr "<b>(可选项)</b>如果需要，在此输入用户名。"
+
+#: ui/directoryserviceswidget.cpp:850
+msgid ""
+"<b>(Optional, not recommended)</b> Enter your password here, if needed. Note "
+"that the password will be saved in the clear in a config file in your home "
+"directory."
+msgstr ""
+"<b>(可选项，不推荐)</b>如果需要，在此输入密码。注意此密码将被明文保存在您主目"
+"录下的配置文件内。"
+
+#: ui/directoryserviceswidget.cpp:854
+msgid ""
+"Check this column if this directory service is providing S/MIME (X.509) "
+"certificates."
+msgstr "如果目录服务提供了 S/MIME(X.509) 证书，请选中此处。"
+
+#: ui/directoryserviceswidget.cpp:856
+msgid ""
+"Check this column if this directory service is providing OpenPGP "
+"certificates."
+msgstr "如果目录服务提供了 OpenPGP 证书，请选中此处。"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DirectoryServicesWidget)
+#: ui/directoryserviceswidget.ui:14
+msgid "Directory Services Configuration"
+msgstr "目录服务配置"
+
+#. i18n: ectx: property (text), widget (QLabel, x500LA)
+#: ui/directoryserviceswidget.ui:26
+msgid "Directory services:"
+msgstr "目录服务："
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, treeView)
+#: ui/directoryserviceswidget.ui:35
+msgid ""
+"This is a list of all directory services that are configured for use with "
+"X.509 and OpenPGP."
+msgstr "这是已配置为 X.509 和 OpenPGP 使用的所有目录服务列表。"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, newTB)
+#: ui/directoryserviceswidget.ui:62
+msgid "Click to add a service"
+msgstr "点击添加服务"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, newTB)
+#: ui/directoryserviceswidget.ui:65
+msgid ""
+"Click this button to create a new directory service entry as a clone of the "
+"currently selected one (or with default values, if no other is selected). "
+"You can then configure details in the table on the left hand."
+msgstr ""
+"点击此按钮可新建一个所选目录服务条目的克隆项(如果未选择任何项，则使用默认"
+"值)。您可以在左侧的表格中配置其细节。"
+
+#. i18n: ectx: property (text), widget (QToolButton, newTB)
+#: ui/directoryserviceswidget.ui:68
+msgid "New"
+msgstr "新建"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deleteTB)
+#: ui/directoryserviceswidget.ui:90
+msgid "Click to remove the currently selected service"
+msgstr "点击删除选中的服务"
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, deleteTB)
+#: ui/directoryserviceswidget.ui:93
+msgid ""
+"Click this button to remove the currently selected directory service. The "
+"change will only take effect once you acknowledge the main configuration "
+"dialog."
+msgstr ""
+"点击此按钮可删除当前所选的目录服务。更改要到下次主配置对话框弹出时生效。"
+
+#. i18n: ectx: property (text), widget (QToolButton, deleteTB)
+#: ui/directoryserviceswidget.ui:96
+msgid "Delete"
+msgstr "删除"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showUserAndPasswordCB)
+#: ui/directoryserviceswidget.ui:126
+msgid ""
+"Use this option to switch display of username and password information on or "
+"off in the above table."
+msgstr "使用此选项可以决定是否在上面的表格里显示用户名和密码信息。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showUserAndPasswordCB)
+#: ui/directoryserviceswidget.ui:129
+msgid "Show user and password information"
+msgstr "显示用户和密码信息"
+
+#: ui/dnattributeorderconfigwidget.cpp:74
+msgid "Description"
+msgstr "描述"
+
+#: ui/dnattributeorderconfigwidget.cpp:93
+msgid "Available attributes:"
+msgstr "可用属性："
+
+#: ui/dnattributeorderconfigwidget.cpp:94
+msgid "Current attribute order:"
+msgstr "当前属性顺序："
+
+#: ui/dnattributeorderconfigwidget.cpp:117
+msgid "All others"
+msgstr "其它全部"
+
+#: ui/dnattributeorderconfigwidget.cpp:133
+msgid "Move to top"
+msgstr "移至顶端"
+
+#: ui/dnattributeorderconfigwidget.cpp:134
+msgid "Move one up"
+msgstr "上移"
+
+#: ui/dnattributeorderconfigwidget.cpp:135
+msgid "Remove from current attribute order"
+msgstr "从当前属性顺序中删除"
+
+#: ui/dnattributeorderconfigwidget.cpp:136
+msgid "Add to current attribute order"
+msgstr "添加到当前属性顺序中"
+
+#: ui/dnattributeorderconfigwidget.cpp:137
+msgid "Move one down"
+msgstr "下移"
+
+#: ui/dnattributeorderconfigwidget.cpp:138
+msgid "Move to bottom"
+msgstr "移至底端"
+
+#: ui/keyapprovaldialog.cpp:85
+msgid "<placeholder>none</placeholder>"
+msgstr "<placeholder>无</placeholder>"
+
+#: ui/keyapprovaldialog.cpp:86
+msgid "Never Encrypt with This Key"
+msgstr "从不使用该密钥加密"
+
+#: ui/keyapprovaldialog.cpp:87
+msgid "Always Encrypt with This Key"
+msgstr "总是使用该密钥加密"
+
+#: ui/keyapprovaldialog.cpp:88
+msgid "Encrypt Whenever Encryption is Possible"
+msgstr "能加密时就加密"
+
+#: ui/keyapprovaldialog.cpp:89
+msgid "Always Ask"
+msgstr "总是询问"
+
+#: ui/keyapprovaldialog.cpp:90
+msgid "Ask Whenever Encryption is Possible"
+msgstr "能加密时就询问"
+
+#: ui/keyapprovaldialog.cpp:111
+msgid "Encryption Key Approval"
+msgstr "加密密钥认可"
+
+#: ui/keyapprovaldialog.cpp:123
+msgid "The following keys will be used for encryption:"
+msgstr "以下密钥将作加密之用："
+
+#: ui/keyapprovaldialog.cpp:143
+msgid "Your keys:"
+msgstr "您的密钥："
+
+#: ui/keyapprovaldialog.cpp:155
+msgid "Recipient:"
+msgstr "接收方："
+
+#: ui/keyapprovaldialog.cpp:160
+msgid "Encryption keys:"
+msgstr "加密密钥："
+
+#: ui/keyapprovaldialog.cpp:167
+msgid "Encryption preference:"
+msgstr "加密首选项："
+
+#: ui/keyrequester.cpp:123
+msgid "Clear"
+msgstr "清除"
+
+#: ui/keyrequester.cpp:126
+msgid "Change..."
+msgstr "更改..."
+
+#: ui/keyrequester.cpp:219 ui/keyselectiondialog.cpp:228
+msgid "<placeholder>unknown</placeholder>"
+msgstr "<placeholder>未知</placeholder>"
+
+#: ui/keyrequester.cpp:236 ui/keyrequester.cpp:265 ui/keyrequester.cpp:289
+#: ui/keyselectiondialog.cpp:571 ui/keyselectiondialog.cpp:604
+msgid "Key Listing Failed"
+msgstr "密钥列出时失败"
+
+#: ui/keyrequester.cpp:263
+msgid ""
+"The OpenPGP backend does not support listing keys. Check your installation."
+msgstr "OpenPGP 后端不支持列出密钥，请检查您的安装。"
+
+#: ui/keyrequester.cpp:287
+msgid ""
+"The S/MIME backend does not support listing keys. Check your installation."
+msgstr "S/MIME 后端不支持列出密钥，请检查您的安装。"
+
+#: ui/keyrequester.cpp:398
+msgid "OpenPGP Key Selection"
+msgstr "OpenPGP 密码选择"
+
+#: ui/keyrequester.cpp:399
+msgid "Please select an OpenPGP key to use."
+msgstr "请选择要使用的 OpenPGP 密钥。"
+
+#: ui/keyrequester.cpp:401
+msgid "S/MIME Key Selection"
+msgstr "S/MIME 密钥选择"
+
+#: ui/keyrequester.cpp:402
+msgid "Please select an S/MIME key to use."
+msgstr "请选择要使用的 S/MIME 密钥。"
+
+#: ui/keyrequester.cpp:404
+msgid "Key Selection"
+msgstr "密钥选择"
+
+#: ui/keyrequester.cpp:405
+msgid "Please select an (OpenPGP or S/MIME) key to use."
+msgstr "请选择要使用的密钥(OpenPGP 或 S/MIME)。"
+
+#: ui/keyselectiondialog.cpp:204
+msgid "Key ID"
+msgstr "密钥标识"
+
+#: ui/keyselectiondialog.cpp:205
+msgid "User ID"
+msgstr "用户标识"
+
+#: ui/keyselectiondialog.cpp:249
+msgid "never"
+msgstr "从不"
+
+#: ui/keyselectiondialog.cpp:252
+#, kde-format
+msgid ""
+"OpenPGP key for %1\n"
+"Created: %2\n"
+"Expiry: %3\n"
+"Fingerprint: %4"
+msgstr ""
+"%1 的 OpenPGP 密钥\n"
+"创建：%2\n"
+"过期：%3\n"
+"指纹：%4"
+
+#: ui/keyselectiondialog.cpp:260
+#, kde-format
+msgid ""
+"S/MIME key for %1\n"
+"Created: %2\n"
+"Expiry: %3\n"
+"Fingerprint: %4\n"
+"Issuer: %5"
+msgstr ""
+"%1 的 S/MIME 密钥\n"
+"创建：%2\n"
+"过期：%3\n"
+"指纹：%4\n"
+"发布者：%5"
+
+#: ui/keyselectiondialog.cpp:407
+#, fuzzy
+#| msgid "Other Certificates"
+msgid "Search for &External Certificates"
+msgstr "其它证书"
+
+#: ui/keyselectiondialog.cpp:423
+msgid "&Search for:"
+msgstr "搜索(&S)："
+
+#: ui/keyselectiondialog.cpp:447
+msgid "&Remember choice"
+msgstr "记住选择(&R)"
+
+#: ui/keyselectiondialog.cpp:450
+msgid ""
+"<qt><p>If you check this box your choice will be stored and you will not be "
+"asked again.</p></qt>"
+msgstr "<qt><p>如果选中该项，您的选择将会储存起来，不会再提问。</p></qt>"
+
+#: ui/keyselectiondialog.cpp:467
+msgid "&Reread Keys"
+msgstr "重读密钥(&R)"
+
+#: ui/keyselectiondialog.cpp:468
+msgid "&Start Certificate Manager"
+msgstr "启动证书管理器(&S)"
+
+#: ui/keyselectiondialog.cpp:569
+msgid "No backends found for listing keys. Check your installation."
+msgstr "没有找到可以列出密钥的后端，请检查您的安装。"
+
+#: ui/keyselectiondialog.cpp:588
+msgid "Could not start certificate manager; please check your installation."
+msgstr "无法启动证书管理器，请检查您的安装。"
+
+#: ui/keyselectiondialog.cpp:590
+msgid "Certificate Manager Error"
+msgstr "证书管理器错误"
+
+#: ui/keyselectiondialog.cpp:640
+msgid "Checking selected keys..."
+msgstr "正在检查选中的密钥..."
+
+#: ui/keyselectiondialog.cpp:640
+msgid "Fetching keys..."
+msgstr "正在获取密钥..."
+
+#: ui/keyselectiondialog.cpp:665
+#, kde-format
+msgid ""
+"<qt>One backend returned truncated output.<p>Not all available keys are "
+"shown</p></qt>"
+msgid_plural ""
+"<qt>%1 backends returned truncated output.<p>Not all available keys are "
+"shown</p></qt>"
+msgstr[0] ""
+"<qt>有 %1 个后端程序返回截断了的输出。<p>可用的密钥没有全部列出</p></qt>"
+
+#: ui/keyselectiondialog.cpp:670
+msgid "Key List Result"
+msgstr "密钥列表结果"
+
+#: ui/keyselectiondialog.cpp:777
+msgid "Recheck Key"
+msgstr "重新检查密钥"
+
+#: ui/messagebox.cpp:67
+msgid "&Save to Disk..."
+msgstr "保存到磁盘(&S)..."
+
+#: ui/messagebox.cpp:73
+msgid "&Copy to Clipboard"
+msgstr "复制到剪贴板(&C)"
+
+#: ui/messagebox.cpp:73
+msgid "Copy Audit Log to Clipboard"
+msgstr "复制审核日志到剪贴板"
+
+#: ui/messagebox.cpp:78
+msgid "&Show Audit Log"
+msgstr "显示审核日志(&S)"
+
+#: ui/messagebox.cpp:88
+msgid "View GnuPG Audit Log"
+msgstr "查看 GnuPG 审核日志"
+
+#: ui/messagebox.cpp:136 ui/messagebox.cpp:138
+msgid "Choose File to Save GnuPG Audit Log to"
+msgstr "选择要将 GnuPG 审核日志保存到的文件"
+
+#: ui/messagebox.cpp:161
+#, kde-format
+msgid "Could not save to file \"%1\": %2"
+msgstr "无法保存到文件“%1”：%2"
+
+#: ui/messagebox.cpp:163
+msgid "File Save Error"
+msgstr "文件保存错误"
+
+#: ui/messagebox.cpp:201
+msgid "Your system does not have support for GnuPG Audit Logs"
+msgstr "您的系统不支持 GnuPG 审核日志"
+
+#: ui/messagebox.cpp:202
+msgid "System Error"
+msgstr "系统错误"
+
+#: ui/messagebox.cpp:209
+#, kde-format
+msgid ""
+"An error occurred while trying to retrieve the GnuPG Audit Log:\n"
+"%1"
+msgstr ""
+"尝试获取 GnuPG 审核日志时发生错误：\n"
+"%1"
+
+#: ui/messagebox.cpp:211
+msgid "GnuPG Audit Log Error"
+msgstr "GnuPG 审核日志错误"
+
+#: ui/messagebox.cpp:218
+msgid "No GnuPG Audit Log available for this operation."
+msgstr "此操作没有 GnuPG 审核日志"
+
+#: ui/messagebox.cpp:219
+msgid "No GnuPG Audit Log"
+msgstr "无 GnuPG 审核日志"
+
+#: ui/messagebox.cpp:237 ui/messagebox.cpp:242
+msgid "GnuPG Audit Log Viewer"
+msgstr "GnuPG 审核日志查看器"
+
+#: ui/messagebox.cpp:247
+#, kde-format
+msgid "Signing failed: %1"
+msgstr "签名失败：%1"
+
+#: ui/messagebox.cpp:248
+msgid "Signing successful"
+msgstr "签名成功"
+
+#: ui/messagebox.cpp:258
+msgid "Encryption successful"
+msgstr "加密成功"
+
+#: ui/messagebox.cpp:275
+msgid "Signing Result"
+msgstr "签名结果"
+
+#: ui/messagebox.cpp:285
+msgid "Signing Error"
+msgstr "签名错误"
+
+#: ui/messagebox.cpp:295 ui/messagebox.cpp:315
+msgid "Encryption Result"
+msgstr "加密结果"
+
+#: ui/messagebox.cpp:305 ui/messagebox.cpp:325
+msgid "Encryption Error"
+msgstr "加密错误"
+
+#: ui/progressdialog.cpp:89
+#, kde-format
+msgid "%1: %2"
+msgstr "%1：%2"
+
+#~ msgid "'%1' not found in filesystem"
+#~ msgstr "文件系统中找不到“%1”"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "KDE 中国"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "kde-china@kde.org"
+
+#~ msgid "failed"
+#~ msgstr "失败"
+
+#~ msgctxt ""
+#~ "Items in Kleo::BackendConfigWidget listview (1: protocol; 2: "
+#~ "implementation name)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1(%2)"
+
+#~ msgid "Available Backends"
+#~ msgstr "可用的后端"
+
+#~ msgid "Confi&gure..."
+#~ msgstr "配置(&G)..."
+
+#~ msgid "Rescan"
+#~ msgstr "重新扫描"
+
+#~ msgid "The following problems where encountered during scanning:"
+#~ msgstr "扫描时遇到下列问题："
+
+#~ msgctxt "@title:window Results of the scanning"
+#~ msgid "Scan Results"
+#~ msgstr "扫描结果"
+
+#~ msgid "(Unknown Protocol)"
+#~ msgstr "(未知协议)"
+
+#~ msgid "Error while initializing plugin \"%1\""
+#~ msgstr "初始化插件时出错“%1”"
+
+#~ msgid "Can't start decrypt job"
+#~ msgstr "无法启动解密任务"
+
+#~ msgid "Can't start combined decrypt/verify operation"
+#~ msgstr "无法启动联合解密/验证操作"
+
+#~ msgid "Can't start encrypt job"
+#~ msgstr "无法启动加密任务"
+
+#~ msgid "Error adding signer %1."
+#~ msgstr "添加签名者 %1 时出错。"
+
+#~ msgid ""
+#~ "You need a passphrase to unlock the secret key for user:<br/> %1 (retry)"
+#~ msgstr "您需要一个密码句来解锁用户的密钥：<br/>%1 (重试)"
+
+#~ msgid "You need a passphrase to unlock the secret key for user:<br/> %1"
+#~ msgstr "您需要一个密码句来解锁用户的密钥：<br/>%1"
+
+#~ msgid ""
+#~ "This dialog will reappear every time the passphrase is needed. For a more "
+#~ "secure solution that also allows caching the passphrase, use gpg-agent."
+#~ msgstr ""
+#~ "每次需要密码句的时候，这个对话框就会出现。如果需要更安全的解决方案而又想缓"
+#~ "存密码句，请安装 gpg-agent。"
+
+#~ msgid "gpg-agent was found in %1, but does not appear to be running."
+#~ msgstr "%1 中未找到 gpg-agent，而 gpg-agent 似乎也未在运行。"
+
+#~ msgid "gpg-agent is part of gnupg-%1, which you can download from %2"
+#~ msgstr "gpg-agent 是 gunpg-%1 的一部分，可以在 %2 处下载"
+
+#~ msgid "For information on how to set up gpg-agent, see %1"
+#~ msgstr "要获得关于如何设置 gpg-agent 的信息，请查看 %1"
+
+#~ msgid "Enter passphrase:"
+#~ msgstr "输入密码句："
+
+#~ msgid "Passphrase Dialog"
+#~ msgstr "密码句对话框"
+
+#~ msgid "Can't start combined sign-encrypt job"
+#~ msgstr "无法启动联合签名加密任务"
+
+#~ msgid "Can't start sign job"
+#~ msgstr "无法启动签名任务"
+
+#~ msgid "Can't start detached signature verification"
+#~ msgstr "无法启动分离签名验证任务"
+
+#~ msgid "Can't start opaque signature verification"
+#~ msgstr "无法启动不透明签名验证任务"
+
+#~ msgid "Configure"
+#~ msgstr "配置"
+
+#~ msgid "Select Directory Services to Use Here"
+#~ msgstr "选择要使用的目录服务"
+
+#~ msgid ""
+#~ "<qt>\n"
+#~ "<h1>X.500 Directory Services</h1>\n"
+#~ "You can use X.500 directory services to retrieve certificates and "
+#~ "certificate revocation lists that are not saved locally. Ask your local "
+#~ "administrator if you want to make use of this feature and are unsure "
+#~ "which directory service you can use.\n"
+#~ "<p>\n"
+#~ "If you do not use a directory service, you can still use local "
+#~ "certificates.\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>\n"
+#~ "<h1>X.500 目录服务</h1>\n"
+#~ "您可以选择 X.500 目录服务来获取本地尚未保存的证书和\n"
+#~ "吊销证书列表。如果您需要使用这项功能却又不清楚要用哪种\n"
+#~ "目录服务，请向本地管理员咨询。\n"
+#~ "<p>\n"
+#~ "如果不使用目录服务，您仍然可以使用本地证书。\n"
+#~ "</qt>"
+
+#~ msgid "Port"
+#~ msgstr "端口"
+
+#~ msgid ""
+#~ "<qt>\n"
+#~ "<h1>Add a Directory Service</h1>\n"
+#~ "By clicking this button, you can select a new directory service to be "
+#~ "used for retrieving certificates and CRLs. You will be asked for the "
+#~ "server name and an optional description.\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>\n"
+#~ "<h1>添加目录服务</h1>\n"
+#~ "点击此按钮，可以选择使用新的目录服务来获取证书和吊销证书列表，\n"
+#~ "需要提供服务器名称和其描述(可选)。\n"
+#~ "</qt>"
+
+#~ msgid "&Add Service..."
+#~ msgstr "添加服务(&A)..."
+
+#~ msgid ""
+#~ "<qt>\n"
+#~ "<h1>Remove Directory Service</h1>\n"
+#~ "By clicking this button, you can remove the currently selected directory "
+#~ "service in the list above. You will have a chance to rethink your "
+#~ "decision before the entry is deleted from the list.\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>\n"
+#~ "<h1>删除目录服务</h1>\n"
+#~ "点击此按钮，得到您的确认后将删除当前选中的目录服务。\n"
+#~ "</qt>"
+
+#~ msgid "&Remove Service"
+#~ msgstr "远程服务(&R)"
+
+#~ msgid "<placeholder>unnamed</placeholder>"
+#~ msgstr "<placeholder>未命名</placeholder>"

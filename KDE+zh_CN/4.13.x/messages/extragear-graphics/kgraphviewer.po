@@ -1,0 +1,1189 @@
+# translation of kgraphviewer.po to 简体中文
+# Copyright (C) 2007, 2008, 2009 Free Software Foundation, Inc.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kgraphviewer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-19 03:06+0200\n"
+"PO-Revision-Date: 2010-11-16 13:38+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.1\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#: kgrapheditor.cpp:148
+msgid "Do you want to reload files from previous session?"
+msgstr "您想要重新装入上次会话中的文件吗？"
+
+#: kgrapheditor.cpp:149 kgraphviewer.cpp:123
+msgid "Session Restore"
+msgstr "会话还原"
+
+#: kgrapheditor.cpp:243
+msgid "Create a New Vertex"
+msgstr "创建新顶点"
+
+#: kgrapheditor.cpp:248
+msgid "Create a New Edge"
+msgstr "创建新边缘"
+
+#: kgrapheditor.cpp:518
+msgid "Save current graph to..."
+msgstr "将当前图保存到..."
+
+#: kgrapheditorConfigDialog.cpp:65 kgraphviewerConfigDialog.cpp:73
+msgid "Parsing"
+msgstr "正在解析"
+
+#: kgrapheditorConfigDialog.cpp:66 kgraphviewerConfigDialog.cpp:74
+msgid "Reloading"
+msgstr "正在重新装入"
+
+#: kgrapheditorConfigDialog.cpp:67 kgraphviewerConfigDialog.cpp:75
+msgid "Opening"
+msgstr "正在打开"
+
+#: kgrapheditorConfigDialog.cpp:68 kgraphviewerConfigDialog.cpp:76
+msgid "Session Management"
+msgstr "会话管理"
+
+#: KGraphEditorElementTreeWidget.cpp:51 KGraphEditorNodesTreeWidget.cpp:56
+msgid "Add a new attribute"
+msgstr "添加新属性"
+
+#: KGraphEditorElementTreeWidget.cpp:58 KGraphEditorNodesTreeWidget.cpp:63
+msgid "Remove this attribute"
+msgstr "删除此属性"
+
+#: kgrapheditormain.cpp:40 main.cpp:38
+msgid "A Graphviz dot graph viewer for KDE"
+msgstr "一款 KDE 的 Graphviz dot 图查看器"
+
+#: kgrapheditormain.cpp:46
+msgid "KGraphEditor"
+msgstr "KGraphEditor"
+
+#: kgrapheditormain.cpp:47 main.cpp:45
+msgid "(C) 2005-2010 Gaël de Chalendar"
+msgstr "(C) 2005-2010 Gaël de Chalendar"
+
+#: kgrapheditormain.cpp:48 main.cpp:46
+msgid "Gaël de Chalendar"
+msgstr "Gaël de Chalendar"
+
+#: kgrapheditormain.cpp:52 main.cpp:55
+msgid "Dot graph to open"
+msgstr "要打开的 Dot 图"
+
+#: kgrapheditormain.cpp:84
+msgid ""
+"A KGraphEditor window is already open, where do you want to open this file?"
+msgstr ""
+
+#: kgrapheditormain.cpp:85 main.cpp:88
+msgid "Opening in new window confirmation"
+msgstr "在新窗口打开确认"
+
+#: kgrapheditormain.cpp:86 main.cpp:89
+msgctxt "Where to open a file"
+msgid "Existing window"
+msgstr "已有窗口"
+
+#: kgrapheditormain.cpp:87 main.cpp:90
+msgctxt "Where to open a file"
+msgid "New window"
+msgstr "新窗口"
+
+#: KGraphEditorNodesTreeWidget.cpp:69
+msgid "Remove this node"
+msgstr "删除此节点"
+
+#. i18n: ectx: label, entry (reloadOnChangeMode), group (Notification Messages)
+#: kgrapheditorsettings.kcfg:7 kgraphviewersettings.kcfg:7
+msgid "The answer to the question 'File modified, do you want to reload it'"
+msgstr "问题“文件已更改，您想要重新装入它吗？”的回答"
+
+#. i18n: ectx: label, entry (parsingMode), group (Notification Messages)
+#: kgrapheditorsettings.kcfg:11 kgraphviewersettings.kcfg:11
+msgid ""
+"To choose whether to parse using an external command (usually dot) or the "
+"graphviz library"
+msgstr ""
+
+#. i18n: ectx: label, entry (openInExistingWindowMode), group (Notification Messages)
+#: kgrapheditorsettings.kcfg:15 kgraphviewersettings.kcfg:15
+#, fuzzy
+#| msgid ""
+#| "The answer to the question 'If another window already exist when "
+#| "launching kgraphviewer, should we open in it, open a new window or ask ?'"
+msgid ""
+"The answer to the question 'If another window already exist when launching "
+"kgraphviewer, should we open in it, open a new window or ask?'"
+msgstr ""
+"问题“如果启动 kgraphviewer 时已存在其它窗口，我们应该在其中打开、打开新窗口还"
+"是进行询问？”的回答"
+
+#. i18n: ectx: label, entry (reopenPreviouslyOpenedFilesMode), group (Notification Messages)
+#: kgrapheditorsettings.kcfg:19 kgraphviewersettings.kcfg:19
+#, fuzzy
+#| msgid ""
+#| "The answer to the question 'Should the files that were opened in previous "
+#| "sessions be reopened at startup ?'"
+msgid ""
+"The answer to the question 'Should the files that were opened in previous "
+"sessions be reopened at startup?'"
+msgstr "问题“上次会话中打开过的文件应该在启动时重新打开吗？”的回答"
+
+#. i18n: ectx: label, entry (birdsEyeViewEnabled), group (Notification Messages)
+#: kgrapheditorsettings.kcfg:23 kgraphviewersettings.kcfg:23
+#: part/kgraphviewer_partsettings.kcfg:9
+msgid "If true, the bird's eye view will be shown if needed."
+msgstr "如果为真，则会在需要时显示鸟瞰视图。"
+
+#. i18n: ectx: label, entry (PreviouslyOpenedFiles), group (Notification Messages)
+#: kgrapheditorsettings.kcfg:27 kgraphviewersettings.kcfg:27
+msgid "The list of files that were opened in past instances of kgraphviewer"
+msgstr "过去在 kgraphviewer 实例中打开过的文件列表"
+
+#. i18n: ectx: Menu (file)
+#: kgrapheditorui.rc:4 kgraphviewerui.rc:4
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (edit)
+#: kgrapheditorui.rc:14
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (view)
+#: kgrapheditorui.rc:19 kgraphviewerui.rc:12
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: Menu (settings)
+#: kgrapheditorui.rc:22 kgraphviewerui.rc:15
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kgrapheditorui.rc:34 kgraphviewerui.rc:27
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: ToolBar (viewToolBar)
+#: kgrapheditorui.rc:41 kgraphviewerui.rc:32
+msgid "View Toolbar"
+msgstr "查看工具栏"
+
+#. i18n: ectx: ToolBar (helpToolBar)
+#: kgrapheditorui.rc:44 kgraphviewerui.rc:35
+msgid "Help Toolbar"
+msgstr "帮助工具栏"
+
+#. i18n: ectx: ToolBar (editToolBar)
+#: kgrapheditorui.rc:49
+msgid "Edit Toolbar"
+msgstr "编辑工具栏"
+
+#: kgraphviewer.cpp:122
+msgid "Do you want to reload files from the previous session?"
+msgstr "您想要重新装入上次会话中的文件吗？"
+
+#: kgraphviewer.cpp:181
+msgid "Could not find the KGraphViewer part."
+msgstr "无法找到 KGraphViewer 部件。"
+
+#: kgraphviewer.cpp:216
+#, fuzzy
+#| msgid "Open the print preview window"
+msgid "Opens a new empty KGraphViewer window."
+msgstr "打开打印预览窗口"
+
+#: kgraphviewer.cpp:219
+msgid "Shows the file open dialog to choose a GraphViz dot file to open."
+msgstr ""
+
+#: kgraphviewer.cpp:223
+msgid ""
+"This lists files which you have opened recently, and allows you to easily "
+"open them again."
+msgstr "这里列出了您最近打开过的文件，让您方便地重新打开它们。"
+
+#: kgraphviewer.cpp:229
+msgid "Quits KGraphViewer."
+msgstr "退出 KGraphViewer。"
+
+#: kgraphviewer.cpp:232
+msgid "Shows or hides the status bar."
+msgstr "显示或隐藏状态栏。"
+
+#: kgraphviewer.cpp:235
+msgid "Configure the bindings between keys and actions."
+msgstr "配置按键和动作间的绑定。"
+
+#: kgraphviewer.cpp:238
+msgid "Toolbar configuration."
+msgstr "工具栏配置。"
+
+#: kgraphviewer.cpp:241
+msgid "Main KGraphViewer configuration options."
+msgstr "主要 KGraphviewer 配置选项。"
+
+#: kgraphviewerConfigDialog.cpp:72
+msgid "Appearance"
+msgstr "外观"
+
+#. i18n: ectx: label, entry (backgroundColor), group (Appearance)
+#: kgraphviewersettings.kcfg:32
+msgid "Background color of the graph view."
+msgstr ""
+
+#: main.cpp:44
+msgid "KGraphViewer"
+msgstr "KGraphViewer"
+
+#: main.cpp:46
+msgid "Original Author and current maintainer"
+msgstr "原作者和当前维护者"
+
+#: main.cpp:47
+msgid "Reimar Döffinger"
+msgstr "Reimar Döffinger"
+
+#: main.cpp:47 main.cpp:48 main.cpp:49 main.cpp:50
+msgid "Contributor"
+msgstr "贡献者"
+
+#: main.cpp:48
+msgid "Matthias Peinhardt"
+msgstr "Matthias Peinhardt"
+
+#: main.cpp:49
+msgid "Sandro Andrade"
+msgstr "Sandro Andrade"
+
+#: main.cpp:50
+msgid "Milian Wolff"
+msgstr "Milian Wolff"
+
+#: main.cpp:87
+msgid ""
+"A KGraphViewer window is already open, where do you want to open this file?"
+msgstr ""
+
+#: part/canvasedge.cpp:69
+#, kde-format
+msgid ""
+"%1 -> %2\n"
+"label='%3'"
+msgstr ""
+"%1 -> %2\n"
+"label=“%3”"
+
+#: part/canvasedge.cpp:74
+msgid "Remove selected edge(s)"
+msgstr "删除所选边缘"
+
+#: part/canvaselement.cpp:94
+msgid "Remove selected element(s)"
+msgstr "删除所选元素"
+
+#: part/canvasnode.cpp:69
+#, kde-format
+msgid ""
+"id='%1'\n"
+"label='%2'"
+msgstr ""
+"id=“%1”\n"
+"label=“%2”"
+
+#: part/dotgraph.cpp:279
+#, kde-format
+msgid "Unable to start %1."
+msgstr "无法启动 %1。"
+
+#: part/dotgraph.cpp:279 part/dotgraph.cpp:282 part/dotgraph.cpp:285
+#: part/dotgraph.cpp:288 part/dotgraph.cpp:291 part/dotgraph.cpp:294
+msgid "Layout process failed"
+msgstr "布局处理失败"
+
+#: part/dotgraph.cpp:282
+#, kde-format
+msgid "%1 crashed."
+msgstr "%1 已崩溃。"
+
+#: part/dotgraph.cpp:285
+#, kde-format
+msgid "%1 timed out."
+msgstr "%1 已超时。"
+
+#: part/dotgraph.cpp:288
+#, kde-format
+msgid "Was not able to write data to the %1 process."
+msgstr "无法向 %1 进程写入数据。"
+
+#: part/dotgraph.cpp:291
+#, kde-format
+msgid "Was not able to read data from the %1 process."
+msgstr "无法从 %1 进程读取数据。"
+
+#: part/dotgraph.cpp:294
+#, kde-format
+msgid "Unknown error running %1."
+msgstr "运行 %1 发生未知错误。"
+
+#: part/dotgraphview.cpp:417
+msgid "Select Layout Algo"
+msgstr ""
+
+#: part/dotgraphview.cpp:421
+msgid " "
+msgstr " "
+
+#: part/dotgraphview.cpp:422 part/dotgraphview.cpp:473
+msgid ""
+"Specify yourself the layout command to use. Given a dot file, it should "
+"produce an xdot file on its standard output."
+msgstr ""
+
+#: part/dotgraphview.cpp:426
+msgid "Dot"
+msgstr "Dot"
+
+#: part/dotgraphview.cpp:427
+msgid "Layout the graph using the dot program."
+msgstr "使用 dot 程序布局图。"
+
+#: part/dotgraphview.cpp:431
+msgid "Neato"
+msgstr "Neato"
+
+#: part/dotgraphview.cpp:432
+msgid "Layout the graph using the neato program."
+msgstr "使用 neato 程序布局图。"
+
+#: part/dotgraphview.cpp:436
+msgid "Twopi"
+msgstr "Twopi"
+
+#: part/dotgraphview.cpp:437
+msgid "Layout the graph using the twopi program."
+msgstr "使用 twopi 程序布局图。"
+
+#: part/dotgraphview.cpp:441
+msgid "Fdp"
+msgstr "Fdp"
+
+#: part/dotgraphview.cpp:442
+msgid "Layout the graph using the fdp program."
+msgstr "使用 fdp 程序布局图。"
+
+#: part/dotgraphview.cpp:446
+msgid "Circo"
+msgstr "Circo"
+
+#: part/dotgraphview.cpp:447
+msgid "Layout the graph using the circo program."
+msgstr "使用 circo 程序布局图。"
+
+#: part/dotgraphview.cpp:460
+msgid "Choose a GraphViz layout algorithm or edit your own one."
+msgstr "选择 GraphViz 布局算法或编辑您自己的实现。"
+
+#: part/dotgraphview.cpp:462
+msgid ""
+"Choose a GraphViz layout algorithm or type in your own command that will "
+"generate a graph in the xdot format on its standard output. For example, to "
+"manually specify the <tt>G</tt> option to the dot command, type in: <tt>dot -"
+"Gname=MyGraphName -Txdot </tt>"
+msgstr ""
+
+#: part/dotgraphview.cpp:470
+msgid "Layout"
+msgstr "布局"
+
+#: part/dotgraphview.cpp:472
+msgid "Specify layout command"
+msgstr "指定布局命令"
+
+#: part/dotgraphview.cpp:474
+msgid "Reset layout command to default"
+msgstr "重置布局命令为默认值"
+
+#: part/dotgraphview.cpp:475
+msgid ""
+"Resets the layout command to use to the default depending on the graph type "
+"(directed or not)."
+msgstr ""
+
+#: part/dotgraphview.cpp:477
+msgid "Zoom In"
+msgstr "放大"
+
+#: part/dotgraphview.cpp:478
+msgid "Zoom Out"
+msgstr "缩小"
+
+#: part/dotgraphview.cpp:482
+msgid "Export Graph"
+msgstr "导出图形"
+
+#: part/dotgraphview.cpp:484
+msgid "Allows the graph to be exported in another format."
+msgstr "允许将图导出为其它格式。"
+
+#: part/dotgraphview.cpp:486
+msgid ""
+"Use the Export Graph menu to export the graph in another format. There is "
+"currently only one export format supported: as a PNG image."
+msgstr ""
+
+#: part/dotgraphview.cpp:491
+msgid "As Image..."
+msgstr "为图像..."
+
+#: part/dotgraphview.cpp:492
+#, fuzzy
+#| msgid "Export the graph to an image file (currently PNG only.)"
+msgid "Export the graph to an image file."
+msgstr "导出图为图像文件(目前只支持 PNG。)"
+
+#: part/dotgraphview.cpp:503
+msgid "Enable Bird's-eye View"
+msgstr ""
+
+#: part/dotgraphview.cpp:506
+msgid "Enables or disables the Bird's-eye View"
+msgstr ""
+
+#: part/dotgraphview.cpp:514
+msgid "Birds-eye View"
+msgstr ""
+
+#: part/dotgraphview.cpp:515
+msgid "Allows the Bird's-eye View to be setup."
+msgstr ""
+
+#: part/dotgraphview.cpp:519
+msgid "Top Left"
+msgstr "左上"
+
+#: part/dotgraphview.cpp:520
+msgid "Puts the Bird's-eye View in the top-left corner."
+msgstr ""
+
+#: part/dotgraphview.cpp:525
+msgid "Top Right"
+msgstr "右上"
+
+#: part/dotgraphview.cpp:526
+msgid "Puts the Bird's-eye View in the top-right corner."
+msgstr ""
+
+#: part/dotgraphview.cpp:531
+msgid "Bottom Left"
+msgstr "左下"
+
+#: part/dotgraphview.cpp:532
+msgid "Puts the Bird's-eye View in the bottom-left corner."
+msgstr ""
+
+#: part/dotgraphview.cpp:537
+msgid "Bottom Right"
+msgstr "右下"
+
+#: part/dotgraphview.cpp:538
+msgid "Puts the Bird's-eye View in the bottom-right corner."
+msgstr ""
+
+#: part/dotgraphview.cpp:543
+msgid "Automatic"
+msgstr "自动"
+
+#: part/dotgraphview.cpp:544
+msgid ""
+"Let KGraphViewer automatically choose the position of the Bird's-eye View."
+msgstr ""
+
+#: part/dotgraphview.cpp:594
+msgid "Graph SVG Generated by KGraphViewer"
+msgstr ""
+
+#: part/dotgraphview.cpp:595
+msgid "Graph SVG Generated by KGraphViewer."
+msgstr ""
+
+#: part/dotgraphview.cpp:648
+msgid ""
+"<h1>GraphViz dot format graph visualization</h1><p>If the graph is larger "
+"than the widget area, an overview panner is shown in one edge. Choose "
+"through the context menu if the optimal position of this overview should be "
+"automatically computed or put it where you want.</p><h2>How to work with it?"
+"</h2><ul><li>To move the graph, you can:  <ul>    <li>click & drag it</"
+"li>    <li>use the elevators</li>    <li>press the arrows keys</li>    "
+"<li>click somewhere in the panner view</li>    <li>use the mouse wheel (up "
+"and down with no modifier, left and right with the <Alt> key pressed)</"
+"li>    <li>or click & drag the panner view</li>  </ul></li><li>To zoom, you "
+"can either use the zoom in and zoom out toolbar buttons, or click on the "
+"<Shift> key while rolling your mouse wheel.</li><li>Try the contextual menu "
+"(usually by right-clicking) to discover other possibilities.</li><li>Try the "
+"<tt>Print preview</tt> or the <tt>Page setup</tt> buttons to explore the "
+"printing options.</li></ul>"
+msgstr ""
+
+#: part/dotgraphview.cpp:750
+msgid "no graph loaded"
+msgstr "未装入图"
+
+#: part/dotgraphview.cpp:872 part/dotgraphview.cpp:893
+#, kde-format
+msgid "graph %1 is getting loaded..."
+msgstr "正在装入图 %1..."
+
+#: part/dotgraphview.cpp:881
+#, kde-format
+msgid "error parsing file %1"
+msgstr "解析文件 %1 出错"
+
+#: part/dotgraphview.cpp:1630
+#, fuzzy, kde-format
+#| msgid ""
+#| "The file %1 has been modified on disk.\n"
+#| "Do you want to reload it ?"
+msgid ""
+"The file %1 has been modified on disk.\n"
+"Do you want to reload it?"
+msgstr ""
+"磁盘上的文件 %1 已更改。\n"
+"您想要重新装入它吗？"
+
+#: part/dotgraphview.cpp:1631
+msgid "Reload Confirmation"
+msgstr "重新装入确认"
+
+#: part/dotgraphview.cpp:1724
+msgid "Layout Command"
+msgstr "布局命令"
+
+#: part/dotgraphview.cpp:1725
+msgid "Type in a layout command for the current graph:"
+msgstr ""
+
+#: part/dotgraphview.cpp:1731
+msgid ""
+"Specify here the command that will be used to layout the graph.\n"
+"The command MUST write its results on stdout in xdot format."
+msgstr ""
+
+#: part/kgraphviewer_part.cpp:111
+msgid "Closes the current tab"
+msgstr "关闭当前标签"
+
+#: part/kgraphviewer_part.cpp:114
+msgid "Print the graph using current page setup settings"
+msgstr ""
+
+#: part/kgraphviewer_part.cpp:118
+msgid "Open the print preview window"
+msgstr "打开打印预览窗口"
+
+#: part/kgraphviewer_part.cpp:123
+msgid "Page setup"
+msgstr "页面设置"
+
+#: part/kgraphviewer_part.cpp:124
+msgid "Opens the Page Setup dialog to allow graph printing to be setup"
+msgstr ""
+
+#: part/kgraphviewer_part.cpp:127
+msgid "Reload the current graph from file"
+msgstr "重新从文件装入当前图"
+
+#: part/kgraphviewer_part.cpp:132
+#, no-c-format
+msgid "Zoom in by 10% on the currently viewed graph"
+msgstr ""
+
+#: part/kgraphviewer_part.cpp:137
+#, no-c-format
+msgid "Zoom out by 10% from the currently viewed graph"
+msgstr ""
+
+#: part/kgraphviewer_part.cpp:445
+msgid "KGraphViewerPart"
+msgstr "KGraphViewerPart"
+
+#: part/kgraphviewer_part.cpp:446
+msgid "GraphViz dot files viewer"
+msgstr "Graphviz dot 文件查看器"
+
+#: part/kgraphviewer_part.cpp:448
+msgid "(c) 2005-2006, Gaël de Chalendar &lt;kleag@free.fr&gt;"
+msgstr "(c) 2005-2006，Gaël de Chalendar &lt;kleag@free.fr&gt;"
+
+#: part/KgvPageLayout.cpp:86
+msgctxt "Page size"
+msgid "ISO A3"
+msgstr "ISO A3"
+
+#: part/KgvPageLayout.cpp:87
+msgctxt "Page size"
+msgid "ISO A4"
+msgstr "ISO A4"
+
+#: part/KgvPageLayout.cpp:88
+msgctxt "Page size"
+msgid "ISO A5"
+msgstr "ISO A5"
+
+#: part/KgvPageLayout.cpp:89
+msgctxt "Page size"
+msgid "US Letter"
+msgstr "美国信封"
+
+#: part/KgvPageLayout.cpp:90
+msgctxt "Page size"
+msgid "US Legal"
+msgstr "美国法定"
+
+#: part/KgvPageLayout.cpp:91
+msgctxt "Page size"
+msgid "Screen"
+msgstr "屏幕"
+
+#: part/KgvPageLayout.cpp:92
+msgctxt "Page size"
+msgid "Custom"
+msgstr "自定义"
+
+#: part/KgvPageLayout.cpp:93
+msgctxt "Page size"
+msgid "ISO B5"
+msgstr "ISO B5"
+
+#: part/KgvPageLayout.cpp:95
+msgctxt "Page size"
+msgid "US Executive"
+msgstr ""
+
+#: part/KgvPageLayout.cpp:96
+msgctxt "Page size"
+msgid "ISO A0"
+msgstr "ISO A0"
+
+#: part/KgvPageLayout.cpp:97
+msgctxt "Page size"
+msgid "ISO A1"
+msgstr "ISO A1"
+
+#: part/KgvPageLayout.cpp:98
+msgctxt "Page size"
+msgid "ISO A2"
+msgstr "ISO A2"
+
+#: part/KgvPageLayout.cpp:99
+msgctxt "Page size"
+msgid "ISO A6"
+msgstr "ISO A6"
+
+#: part/KgvPageLayout.cpp:100
+msgctxt "Page size"
+msgid "ISO A7"
+msgstr "ISO A7"
+
+#: part/KgvPageLayout.cpp:101
+msgctxt "Page size"
+msgid "ISO A8"
+msgstr "ISO A8"
+
+#: part/KgvPageLayout.cpp:102
+msgctxt "Page size"
+msgid "ISO A9"
+msgstr "ISO A9"
+
+#: part/KgvPageLayout.cpp:103
+msgctxt "Page size"
+msgid "ISO B0"
+msgstr "ISO B0"
+
+#: part/KgvPageLayout.cpp:104
+msgctxt "Page size"
+msgid "ISO B1"
+msgstr "ISO B1"
+
+#: part/KgvPageLayout.cpp:105
+msgctxt "Page size"
+msgid "ISO B10"
+msgstr "ISO B10"
+
+#: part/KgvPageLayout.cpp:106
+msgctxt "Page size"
+msgid "ISO B2"
+msgstr "ISO B2"
+
+#: part/KgvPageLayout.cpp:107
+msgctxt "Page size"
+msgid "ISO B3"
+msgstr "ISO B3"
+
+#: part/KgvPageLayout.cpp:108
+msgctxt "Page size"
+msgid "ISO B4"
+msgstr "ISO B4"
+
+#: part/KgvPageLayout.cpp:109
+msgctxt "Page size"
+msgid "ISO B6"
+msgstr "ISO B6"
+
+#: part/KgvPageLayout.cpp:110
+msgctxt "Page size"
+msgid "ISO C5"
+msgstr "ISO C5"
+
+#: part/KgvPageLayout.cpp:111
+msgctxt "Page size"
+msgid "US Common 10"
+msgstr "美国通用 10"
+
+#: part/KgvPageLayout.cpp:112
+msgctxt "Page size"
+msgid "ISO DL"
+msgstr "ISO DL"
+
+#: part/KgvPageLayout.cpp:113
+msgctxt "Page size"
+msgid "US Folio"
+msgstr ""
+
+#: part/KgvPageLayout.cpp:114
+#, fuzzy
+#| msgid "US Letter"
+msgctxt "Page size"
+msgid "US Ledger"
+msgstr "美国信封"
+
+#: part/KgvPageLayout.cpp:115
+msgctxt "Page size"
+msgid "US Tabloid"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: part/KgvPageLayoutColumnsBase.ui:29
+msgid "Columns:"
+msgstr "列："
+
+#. i18n: ectx: property (text), widget (QLabel, labelSpacing)
+#: part/KgvPageLayoutColumnsBase.ui:39
+msgid "Column spacing:"
+msgstr "列间距："
+
+#: part/KgvPageLayoutDia.cpp:62
+msgid "Page Preview"
+msgstr "页面预览"
+
+#: part/KgvPageLayoutDia.cpp:279
+msgid "Page Size & Margins"
+msgstr "页面大小和页边距"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: part/KgvPageLayoutHeaderBase.ui:19
+msgid "Header"
+msgstr "页眉"
+
+#. i18n: ectx: property (text), widget (QCheckBox, rhFirst)
+#: part/KgvPageLayoutHeaderBase.ui:25
+msgid "Different header for the first page"
+msgstr "首页使用不同的页眉"
+
+#. i18n: ectx: property (text), widget (QCheckBox, rhEvenOdd)
+#: part/KgvPageLayoutHeaderBase.ui:32
+msgid "Different header for even and odd pages"
+msgstr "对偶数页和奇数页使用不同的页眉"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: part/KgvPageLayoutHeaderBase.ui:60
+msgid "Spacing between header and body:"
+msgstr "页眉与正文间距："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: part/KgvPageLayoutHeaderBase.ui:82
+msgid "Footer"
+msgstr "页脚"
+
+#. i18n: ectx: property (text), widget (QCheckBox, rfFirst)
+#: part/KgvPageLayoutHeaderBase.ui:88
+msgid "Different footer for the first page"
+msgstr "首页使用不同的页脚"
+
+#. i18n: ectx: property (text), widget (QCheckBox, rfEvenOdd)
+#: part/KgvPageLayoutHeaderBase.ui:95
+msgid "Different footer for even and odd pages"
+msgstr "对偶数页和奇数页使用不同的页脚"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: part/KgvPageLayoutHeaderBase.ui:123
+msgid "Spacing between footer and body:"
+msgstr "页脚与正文间距："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: part/KgvPageLayoutHeaderBase.ui:145
+msgid "Footnote/Endnote"
+msgstr "脚注/尾注"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: part/KgvPageLayoutHeaderBase.ui:167
+msgid "Spacing between footnote and body:"
+msgstr "脚注与正文间距："
+
+#: part/KgvPageLayoutSize.cpp:67
+msgid "Unit:"
+msgstr "单位："
+
+#: part/KgvPageLayoutSize.cpp:81
+#, kde-format
+msgid "All values are given in %1."
+msgstr ""
+
+#: part/KgvPageLayoutSize.cpp:86
+msgid "Page Size"
+msgstr "页面大小"
+
+#: part/KgvPageLayoutSize.cpp:95
+msgid "&Size:"
+msgstr "大小(&S)："
+
+#: part/KgvPageLayoutSize.cpp:116
+msgid "&Width:"
+msgstr "宽度(&W)："
+
+#: part/KgvPageLayoutSize.cpp:127
+msgid "&Height:"
+msgstr "高度(&H)："
+
+#: part/KgvPageLayoutSize.cpp:141
+msgid "Orientation"
+msgstr "方向"
+
+#: part/KgvPageLayoutSize.cpp:149
+msgid "&Portrait"
+msgstr "纵向(&P)"
+
+#: part/KgvPageLayoutSize.cpp:157
+msgid "La&ndscape"
+msgstr "横向(&N)"
+
+#: part/KgvPageLayoutSize.cpp:165
+msgid "Margins"
+msgstr "页边距"
+
+#: part/KgvPageLayoutSize.cpp:378
+msgid "The page width is smaller than the left and right margins."
+msgstr ""
+
+#: part/KgvPageLayoutSize.cpp:379 part/KgvPageLayoutSize.cpp:385
+msgid "Page Layout Problem"
+msgstr "页面布局问题"
+
+#: part/KgvPageLayoutSize.cpp:384
+msgid "The page height is smaller than the top and bottom margins."
+msgstr ""
+
+#: part/KgvUnit.cpp:53
+msgid "Millimeters (mm)"
+msgstr "毫米(mm)"
+
+#: part/KgvUnit.cpp:55
+msgid "Centimeters (cm)"
+msgstr "厘米(cm)"
+
+#: part/KgvUnit.cpp:57
+msgid "Decimeters (dm)"
+msgstr "分米(dm)"
+
+#: part/KgvUnit.cpp:59
+msgid "Inches (in)"
+msgstr "英寸(in)"
+
+#: part/KgvUnit.cpp:61
+msgid "Pica (pi)"
+msgstr "12 点活字(pi)"
+
+#: part/KgvUnit.cpp:63
+msgid "Didot (dd)"
+msgstr "迪道点活字(dd)"
+
+#: part/KgvUnit.cpp:65
+msgid "Cicero (cc)"
+msgstr ""
+
+#: part/KgvUnit.cpp:67
+msgid "Points (pt)"
+msgstr ""
+
+#: part/KgvUnit.cpp:69
+msgid "Error."
+msgstr "错误。"
+
+#: part/pannerview.cpp:64
+msgid "View of the complete graph. Click and drag to move the visible part."
+msgstr ""
+
+#: part/pannerview.cpp:65
+msgid ""
+"<h1>View of the Complete Graph</h1><p>Single clicking somewhere without the "
+"red square will move the center of the view to where the mouse was clicked.</"
+"p><p>Clicking and dragging within the red square will cause the view to "
+"follow the movement.</p>"
+msgstr ""
+
+#: part/simpleprintingcommand.cpp:102
+msgid "Print Preview"
+msgstr "打印预览"
+
+#: part/simpleprintingengine.cpp:222 part/simpleprintpreviewwindow.cpp:229
+#: part/simpleprintpreviewwindow.cpp:248
+#, kde-format
+msgctxt "Page (number) of (total)"
+msgid "Page %1 of %2"
+msgstr "第 %1 页，共 %2 页"
+
+#: part/simpleprintingengine.cpp:226
+#, kde-format
+msgid "Page %1"
+msgstr "第 %1 页"
+
+#: part/simpleprintingpagesetup.cpp:109
+msgid "Print Preview..."
+msgstr "打印预览..."
+
+#: part/simpleprintingpagesetup.cpp:114
+msgid "Changes font for title text."
+msgstr "更改标题文本的字体。"
+
+#: part/simpleprintingpagesetup.cpp:122
+#, kde-format
+msgid "<qt><h2>Page Setup for Printing Graph \"%1\"</h2></qt>"
+msgstr ""
+
+#: part/simpleprintingpagesetup.cpp:130
+msgid "Saves settings for this setup as default."
+msgstr "将此设置保存为默认设置。"
+
+#: part/simpleprintingpagesetup.cpp:133
+msgid "Adds date and time to the header."
+msgstr "向页眉添加日期和时间。"
+
+#: part/simpleprintingpagesetup.cpp:134
+msgid "Adds page numbers to the footer."
+msgstr "向页脚添加页数。"
+
+#: part/simpleprintingpagesetup.cpp:135
+msgid "Adds table borders."
+msgstr "添加表格边框。"
+
+#: part/simpleprintingpagesetup.cpp:143
+msgid "Changes page size and margins."
+msgstr "更改页面大小和页边距。"
+
+#: part/simpleprintingpagesetup.cpp:214
+msgid "Chosen font looks like this"
+msgstr ""
+
+#: part/simpleprintingpagesetup.cpp:234
+msgid "Portrait"
+msgstr "纵向"
+
+#: part/simpleprintingpagesetup.cpp:234
+msgid "Landscape"
+msgstr "横向"
+
+#: part/simpleprintingpagesetup.cpp:235
+msgid "margins:"
+msgstr "页边距："
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KGVSimplePrintingPageSetupBase)
+#: part/simpleprintingpagesetupbase.ui:36
+msgid "."
+msgstr "."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: part/simpleprintingpagesetupbase.ui:140
+msgid "Page &font:"
+msgstr "页面字体(&F)："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: part/simpleprintingpagesetupbase.ui:201
+msgid "Page Size && Margins"
+msgstr "页面大小和页边距"
+
+#. i18n: ectx: property (text), widget (QCheckBox, addTableBordersCheckbox)
+#: part/simpleprintingpagesetupbase.ui:257
+msgid "Add &borders"
+msgstr "添加边框(&B)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, addDateTimeCheckbox)
+#: part/simpleprintingpagesetupbase.ui:264
+msgid "Add date and time"
+msgstr "添加日期和时间"
+
+#. i18n: ectx: property (text), widget (QCheckBox, addPageNumbersCheckbox)
+#: part/simpleprintingpagesetupbase.ui:290
+msgid "Add page numbers"
+msgstr "添加页数"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
+#: part/simpleprintingpagesetupbase.ui:314
+msgid "Number of pages to fit on"
+msgstr "适合页面数量"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: part/simpleprintingpagesetupbase.ui:365
+msgid "Horizontally"
+msgstr "水平"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: part/simpleprintingpagesetupbase.ui:382
+msgid "Vertically"
+msgstr "垂直"
+
+#. i18n: ectx: property (text), widget (QRadioButton, naturalSizeRadioButton)
+#: part/simpleprintingpagesetupbase.ui:417
+msgid "Natural size"
+msgstr "自然大小"
+
+#. i18n: ectx: property (text), widget (QRadioButton, fitToOnePageRadioButton)
+#: part/simpleprintingpagesetupbase.ui:424
+msgid "Fit to one page"
+msgstr "适合一个页面"
+
+#. i18n: ectx: property (text), widget (QRadioButton, fitToSeveralPagesRadioButton)
+#: part/simpleprintingpagesetupbase.ui:431
+msgid "Fit to several pages"
+msgstr "适合多个页面"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: part/simpleprintingpagesetupbase.ui:459
+msgid "Related actions:"
+msgstr "相关动作："
+
+#. i18n: ectx: property (text), widget (QPushButton, closeButton)
+#: part/simpleprintingpagesetupbase.ui:531
+msgid "Close"
+msgstr "关闭"
+
+#: part/simpleprintpreviewwindow.cpp:71
+#, kde-format
+msgid "%1 - Print Preview - %2"
+msgstr "%1 - 打印预览 - %2"
+
+#: part/simpleprintpreviewwindow.cpp:87
+msgid "&Page setup"
+msgstr "页面设置(&P)"
+
+#: part/simpleprintpreviewwindow.cpp:129
+msgid "Previous Page"
+msgstr "上一页"
+
+#: part/simpleprintpreviewwindow.cpp:140
+msgid "Next Page"
+msgstr "下一页"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: preferencesAppearance.ui:44
+msgid "Default background color:"
+msgstr "默认背景颜色："
+
+#. i18n: ectx: property (html), widget (QTextEdit, textEdit)
+#: preferencesAppearance.ui:100
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Note:</span> this will be overriden if the graph has its own "
+"background color</p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, openInExistingWindowMode)
+#: preferencesOpenInExistingWindow.ui:41
+msgid "Open in existing window"
+msgstr "在已有窗口中打开"
+
+#. i18n: ectx: property (text), widget (QRadioButton, yes)
+#: preferencesOpenInExistingWindow.ui:53 preferencesReload.ui:56
+#: preferencesReopenPreviouslyOpenedFiles.ui:78
+msgid "&Yes"
+msgstr "是(&Y)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, no)
+#: preferencesOpenInExistingWindow.ui:66 preferencesReload.ui:69
+#: preferencesReopenPreviouslyOpenedFiles.ui:62
+msgid "No"
+msgstr "否"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ask)
+#: preferencesOpenInExistingWindow.ui:82
+#: preferencesReopenPreviouslyOpenedFiles.ui:91
+msgid "As&k"
+msgstr "询问(&K)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, parsingMode)
+#: preferencesParsing.ui:35
+msgid "Parse using:"
+msgstr "解析使用："
+
+#. i18n: ectx: property (text), widget (QRadioButton, external)
+#: preferencesParsing.ui:50
+msgid "&External command"
+msgstr "外部命令(&E)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, internal)
+#: preferencesParsing.ui:63
+msgid "Internal library"
+msgstr "内部库"
+
+#. i18n: ectx: property (title), widget (QGroupBox, reloadOnChangeMode)
+#: preferencesReload.ui:41
+msgid "Reload files modified on disk"
+msgstr "重新装入磁盘上已修改的文件"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ask)
+#: preferencesReload.ui:85
+msgid "Ask"
+msgstr "询问"
+
+#. i18n: ectx: property (title), widget (QGroupBox, reopenPreviouslyOpenedFilesMode)
+#: preferencesReopenPreviouslyOpenedFiles.ui:41
+msgid "Reopen previously opened files"
+msgstr "重新打开上次打开过的文件"
+
+#~ msgid ""
+#~ "The answer to the question 'Should the files that where opened in "
+#~ "previous sessions be reopened at startup ?'"
+#~ msgstr "问题“上次会话中打开过的文件应该在启动时重新打开吗？”的回答"
+
+#~ msgid "Page Size && &Margins"
+#~ msgstr "页面大小和页边距(&M)"
+
+#~ msgid "kgraphviewerPart"
+#~ msgstr "kgraphviewerPart"

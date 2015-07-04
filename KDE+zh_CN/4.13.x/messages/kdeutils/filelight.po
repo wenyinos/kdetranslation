@@ -1,0 +1,500 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: filelight\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-08-07 01:42+0000\n"
+"PO-Revision-Date: 2013-06-21 16:46-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#. i18n: ectx: ToolBar (viewToolBar)
+#: misc/filelightpartui.rc:12
+msgid "View Toolbar"
+msgstr "查看工具栏"
+
+#. i18n: ectx: Menu (file)
+#: misc/filelightui.rc:4
+msgid "&Scan"
+msgstr "扫描(&S)"
+
+#. i18n: ectx: Menu (view)
+#: misc/filelightui.rc:18
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: misc/filelightui.rc:21
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: ToolBar (locationToolBar)
+#: misc/filelightui.rc:29
+msgid "Location Toolbar"
+msgstr "位置工具栏"
+
+#: src/app/historyAction.cpp:64
+msgctxt "Go to the last path viewed"
+msgid "Back"
+msgstr "后退"
+
+#: src/app/historyAction.cpp:65
+msgctxt "Go to forward in the history of paths viewed"
+msgid "Forward"
+msgstr "前进"
+
+#: src/app/main.cpp:36
+msgid "Graphical disk-usage information"
+msgstr "图形化磁盘使用信息"
+
+#: src/app/main.cpp:38
+msgid ""
+"(C) 2006 Max Howell\n"
+"        (C) 2008-2013 Martin Sandsmark"
+msgstr ""
+"(C) 2006 Max Howell\n"
+"        (C) 2008-2013 Martin Sandsmark"
+
+#: src/app/main.cpp:48
+msgid "Martin Sandsmark"
+msgstr "Martin Sandsmark"
+
+#: src/app/main.cpp:48
+msgid "Maintainer"
+msgstr "维护者"
+
+#: src/app/main.cpp:49
+msgid "Max Howell"
+msgstr "Max Howell"
+
+#: src/app/main.cpp:49
+msgid "Original author"
+msgstr "原作者"
+
+#: src/app/main.cpp:50
+msgid "Lukas Appelhans"
+msgstr "Lukas Appelhans"
+
+#: src/app/main.cpp:50
+msgid "Help and support"
+msgstr "帮助和支持"
+
+#: src/app/main.cpp:51
+msgid "Steffen Gerlach"
+msgstr "Steffen Gerlach"
+
+#: src/app/main.cpp:51
+msgid "Inspiration"
+msgstr "启发"
+
+#: src/app/main.cpp:52
+msgid "Mike Diehl"
+msgstr "Mike Diehl"
+
+#: src/app/main.cpp:52
+msgid "Original documentation"
+msgstr "原文档"
+
+#: src/app/main.cpp:53
+msgid "Sune Vuorela"
+msgstr "Sune Vuorela"
+
+#: src/app/main.cpp:53 src/app/main.cpp:54
+msgid "Icon"
+msgstr "图标"
+
+#: src/app/main.cpp:54
+msgid "Nuno Pinheiro"
+msgstr "Nuno Pinheiro"
+
+#: src/app/main.cpp:60
+msgctxt "Path in the file system to scan"
+msgid "+[path]"
+msgstr "+[路径]"
+
+#: src/app/main.cpp:60
+msgid "Scan 'path'"
+msgstr "扫描“路径”"
+
+#: src/app/mainWindow.cpp:62
+msgid ""
+"Unable to load the Filelight Part.\n"
+"Please make sure Filelight was correctly installed."
+msgstr ""
+"无法装入 Filelight 部件。\n"
+"请确保 Filelight 已正确安装。"
+
+#: src/app/mainWindow.cpp:87
+msgid "Unable to create part widget."
+msgstr "无法创建部件。"
+
+#: src/app/mainWindow.cpp:113
+msgid "Scan &Home Folder"
+msgstr "扫描主文件夹(&H)"
+
+#: src/app/mainWindow.cpp:118
+msgid "Scan &Root Folder"
+msgstr "扫描根文件夹(&R)"
+
+#: src/app/mainWindow.cpp:122
+msgid "Rescan"
+msgstr "重新扫描"
+
+#: src/app/mainWindow.cpp:128
+msgid "Stop"
+msgstr "停止"
+
+#: src/app/mainWindow.cpp:133
+msgid "Go"
+msgstr "开始"
+
+#: src/app/mainWindow.cpp:137
+msgid "Location Bar"
+msgstr "位置栏"
+
+#: src/app/mainWindow.cpp:141
+msgid "Scan Folder"
+msgstr "扫描文件夹"
+
+#: src/app/mainWindow.cpp:144
+msgid "&Recent Scans"
+msgstr "最近的扫描(&R)"
+
+#: src/app/mainWindow.cpp:188 src/part/settingsDialog.cpp:155
+msgid "Select Folder to Scan"
+msgstr "选择要扫描的文件夹"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Dialog)
+#: src/part/dialog.ui:14
+msgid "Settings - Filelight"
+msgstr "设置 - Filelight"
+
+#. i18n: ectx: attribute (title), widget (QWidget, Widget2)
+#: src/part/dialog.ui:36
+msgid "Scannin&g"
+msgstr "扫描(&G)"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: src/part/dialog.ui:48
+msgid "Do &not scan these folders:"
+msgstr "不扫描这些文件夹(&N)："
+
+#. i18n: ectx: property (text), widget (QPushButton, m_removeButton)
+#: src/part/dialog.ui:88
+msgid "R&emove"
+msgstr "删除(&E)"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_addButton)
+#: src/part/dialog.ui:98
+msgid "&Add..."
+msgstr "添加(&A)..."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, dontScanRemoteMounts)
+#: src/part/dialog.ui:174
+msgid ""
+"Prevents scanning of filesystems that are not on this computer, e.g. NFS or "
+"Samba mounts."
+msgstr "防止扫描不位于本计算机上的文件系统，例如 NFS 或 Samba 挂载。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dontScanRemoteMounts)
+#: src/part/dialog.ui:177
+msgid "Exclude remote files&ystems"
+msgstr "排除远程文件系统(&Y)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, scanAcrossMounts)
+#: src/part/dialog.ui:184
+msgid ""
+"Allows scans to enter directories that are part of other filesystems. For "
+"example, when unchecked, this will usually prevent the contents of <b>/mnt</"
+"b> from being scanned if you scan <b>/</b>."
+msgstr ""
+"允许进入位于其它文件系统的目录扫描。例如，当未选中时， <b>/mnt</b> 的内容会在"
+"您扫描 <b>/</b> 时被排除在外。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, scanAcrossMounts)
+#: src/part/dialog.ui:187
+msgid "Scan across filesystem &boundaries"
+msgstr "跨文件系统范围扫描(&B)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, dontScanRemovableMedia)
+#: src/part/dialog.ui:200
+msgid "Prevents Filelight from scanning removable media (eg. CD-ROMs)."
+msgstr "防止 Filelight 扫描可移动媒体(例如 CD-ROM)。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dontScanRemovableMedia)
+#: src/part/dialog.ui:203
+msgid "E&xclude removable media"
+msgstr "排除可移动媒体(&X)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, Widget3)
+#: src/part/dialog.ui:213
+msgid "&Appearance"
+msgstr "外观(&A)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/part/dialog.ui:225
+msgid "Color scheme"
+msgstr "配色方案"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: src/part/dialog.ui:251
+msgid "Co&ntrast"
+msgstr "对比度(&N)"
+
+#. i18n: ectx: property (whatsThis), widget (QSlider, contrastSlider)
+#: src/part/dialog.ui:273
+msgid "Here you can vary the contrast of the filemap in realtime."
+msgstr "您可在此实时调整文件图示的对比度。"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, useAntialiasing)
+#: src/part/dialog.ui:294
+msgid ""
+"Anti-aliasing the filemap makes it clearer and prettier, unfortunately it "
+"also makes rendering very slow."
+msgstr "抗锯齿可使文件图示更加清晰好看，不幸的是这样会使得渲染变得非常缓慢。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useAntialiasing)
+#: src/part/dialog.ui:297
+msgid "&Use anti-aliasing"
+msgstr "使用抗锯齿(&U)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showSmallFiles)
+#: src/part/dialog.ui:304
+msgid ""
+"Some files are too small to be rendered on the filemap. Selecting this "
+"option makes these files visible by merging them all into a single \"multi-"
+"segment\"."
+msgstr ""
+"某些文件实在太小而无法在文件图示上渲染。选中此选项可让这些文件合并为一个单独"
+"的“多段”来显示出来。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showSmallFiles)
+#: src/part/dialog.ui:307
+msgid "Show small files"
+msgstr "显示小文件"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, varyLabelFontSizes)
+#: src/part/dialog.ui:317
+msgid ""
+"The font size of exploded labels can be varied relative to the depth of the "
+"directories they represent. This helps you spot the important labels more "
+"easily. Set a sensible minimum font size."
+msgstr ""
+"分散标签的字体大小可以随所展示目录的相对深度而变化。这能帮您更容易地聚焦重要"
+"的标签。 请设定一个合理的最小字体大小。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, varyLabelFontSizes)
+#: src/part/dialog.ui:320
+msgid "Var&y label font sizes"
+msgstr "可变化标签字体大小(&Y)"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, minFontPitchLabel)
+#: src/part/dialog.ui:357
+msgid "The smallest font size Filelight can use to render labels."
+msgstr "Filelight 用于渲染标签的最小字体大小。"
+
+#. i18n: ectx: property (text), widget (QLabel, minFontPitchLabel)
+#: src/part/dialog.ui:360
+msgid "Minimum font si&ze:"
+msgstr "最小字体大小(&Z)："
+
+#: src/part/part.cpp:59
+msgid "Displays file usage in an easy to understand way."
+msgstr "以方便易懂的方式显示文件使用。"
+
+#: src/part/part.cpp:61
+msgid ""
+"(c) 2002-2004 Max Howell\n"
+"                (c) 2008-2013 Martin T. Sandsmark"
+msgstr ""
+"(c) 2002-2004 Max Howell\n"
+"                (c) 2008-2013 Martin T. Sandsmark"
+
+#: src/part/part.cpp:114
+msgid "Configure Filelight..."
+msgstr "配置 Filelight..."
+
+#: src/part/part.cpp:168
+msgid "The entered URL cannot be parsed; it is invalid."
+msgstr "无法解析所输入的 URL；该 URL 无效。"
+
+#: src/part/part.cpp:172
+#, kde-format
+msgid "Filelight only accepts absolute paths, eg. /%1"
+msgstr "Filelight 只接受绝对路径，例如 /%1"
+
+#: src/part/part.cpp:176
+#, kde-format
+msgid "Folder not found: %1"
+msgstr "未找到文件夹：%1"
+
+#: src/part/part.cpp:180
+#, kde-format
+msgid ""
+"Unable to enter: %1\n"
+"You do not have access rights to this location."
+msgstr ""
+"无法进入：%1\n"
+"您没有访问此位置的权限。"
+
+#: src/part/part.cpp:201
+msgid "Aborting Scan..."
+msgstr "正在中止扫描..."
+
+#: src/part/part.cpp:256
+#, kde-format
+msgid "Scanning: %1"
+msgstr "正在扫描：%1"
+
+#: src/part/part.cpp:292
+msgid "Scan completed, generating map..."
+msgstr "扫描已完成，正在生成图示..."
+
+#: src/part/part.cpp:302
+#, kde-format
+msgid "Scan failed: %1"
+msgstr "扫描失败：%1"
+
+#: src/part/part.cpp:320
+msgid "No files."
+msgstr "没有文件。"
+
+#: src/part/part.cpp:321
+#, kde-format
+msgid "1 file"
+msgid_plural "%1 files"
+msgstr[0] "%1 个文件"
+
+#: src/part/progressBox.cpp:92
+#, kde-format
+msgid "%1 File"
+msgid_plural "%1 Files"
+msgstr[0] "%1 个文件"
+
+#: src/part/radialMap/builder.cpp:152
+#, kde-format
+msgid "1 file, with an average size of %2"
+msgid_plural "%1 files, with an average size of %2"
+msgstr[0] "%1 个文件，平均大小为 %2"
+
+#: src/part/radialMap/widgetEvents.cpp:74
+msgctxt "We messed up, the user needs to initiate a rescan."
+msgid ""
+"Internal representation is invalid,\n"
+"please rescan."
+msgstr ""
+"内部表示无效，\n"
+"请重新扫描。"
+
+#: src/part/radialMap/widgetEvents.cpp:159
+#, kde-format
+msgid "File: %1"
+msgid_plural "Files: %1"
+msgstr[0] "文件：%1"
+
+#: src/part/radialMap/widgetEvents.cpp:166
+msgid ""
+"\n"
+"Click to go up to parent directory"
+msgstr ""
+"\n"
+"点击这里回到上层目录"
+
+#: src/part/radialMap/widgetEvents.cpp:219
+msgid "Open &File Manager Here"
+msgstr "在此打开文件管理器(&F)"
+
+#: src/part/radialMap/widgetEvents.cpp:222
+msgid "Open &Terminal Here"
+msgstr "在此打开终端(&T)"
+
+#: src/part/radialMap/widgetEvents.cpp:226
+msgid "&Center Map Here"
+msgstr "在此居中图示(&C)"
+
+#: src/part/radialMap/widgetEvents.cpp:230
+msgctxt "Scan/open the path of the selected element"
+msgid "&Open"
+msgstr "打开(&O)"
+
+#: src/part/radialMap/widgetEvents.cpp:233
+msgid "&Copy to clipboard"
+msgstr "复制到剪贴板(&C)"
+
+#: src/part/radialMap/widgetEvents.cpp:236
+#: src/part/radialMap/widgetEvents.cpp:260
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: src/part/radialMap/widgetEvents.cpp:256
+#, kde-format
+msgid ""
+"<qt>The folder at <i>'%1'</i> will be <b>recursively</b> and <b>permanently</"
+"b> deleted.</qt>"
+msgstr "<qt>位于<i>“%1”</i>的文件夹将以<b>递归</b>方式被<b>永久</b>删除。</qt>"
+
+#: src/part/radialMap/widgetEvents.cpp:257
+#, kde-format
+msgid "<qt><i>'%1'</i> will be <b>permanently</b> deleted.</qt>"
+msgstr "<qt><i>“%1”</i>将被<b>永久</b>删除。</qt>"
+
+#: src/part/radialMap/widgetEvents.cpp:306
+msgid "Error while deleting"
+msgstr "删除时出错"
+
+#: src/part/settingsDialog.cpp:41
+msgid "Rainbow"
+msgstr "彩虹"
+
+#: src/part/settingsDialog.cpp:42
+msgid "System Colors"
+msgstr "系统颜色"
+
+#: src/part/settingsDialog.cpp:43
+msgid "High Contrast"
+msgstr "高对比度"
+
+#: src/part/settingsDialog.cpp:171
+msgid "That folder is already set to be excluded from scans"
+msgstr "该文件夹已经被设定为从扫描中排除"
+
+#: src/part/summaryWidget.cpp:113
+msgctxt "Free space on the disks/partitions"
+msgid "Free"
+msgstr "空闲"
+
+#: src/part/summaryWidget.cpp:114
+msgctxt "Used space on the disks/partitions"
+msgid "Used"
+msgstr "已用"
+
+#: src/part/summaryWidget.cpp:135
+#, kde-format
+msgctxt "Percent used disk space on the partition"
+msgid "</b> (%1% Used)"
+msgstr "</b> (%1% 已用)"
+
+#~ msgid "Filelight"
+#~ msgstr "Filelight"
+
+#~ msgctxt "&Up: /home/mxcl"
+#~ msgid "%1: %2"
+#~ msgstr "%1：%2"

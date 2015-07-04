@@ -1,0 +1,861 @@
+# translation of kcmcrypto.po to Chinese Simplified
+# Copyright (C) 2007 Free Software Foundation, Inc.
+#
+# Gou Zhuang <gouzhuang@bigfoot.com>, 2000.
+# Wang Jian <lark@linux.net.cn>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Liang Qi <cavendish.qi@gmail.com>, 2007.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmcrypto\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:01+0200\n"
+"PO-Revision-Date: 2010-06-11 20:38+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.0\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: certexport.cpp:49
+msgid "X509 Certificate Export"
+msgstr "X509 证书导出"
+
+#: certexport.cpp:51
+msgid "Format"
+msgstr "格式"
+
+#: certexport.cpp:53
+msgid "&PEM"
+msgstr "&PEM"
+
+#: certexport.cpp:55
+msgid "&Netscape"
+msgstr "&Netscape"
+
+#: certexport.cpp:57
+msgid "&DER/ASN1"
+msgstr "&DER/ASN1"
+
+#: certexport.cpp:59
+msgid "&Text"
+msgstr "文本(&T)"
+
+#: certexport.cpp:64
+msgid "Filename:"
+msgstr "文件名："
+
+#: certexport.cpp:75
+msgid "&Export"
+msgstr "导出(&E)"
+
+#: certexport.cpp:80
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#: certexport.cpp:103
+msgid "Internal error. Please report to kfm-devel@kde.org."
+msgstr "内部错误。请报告给 kfm-devel@kde.org。"
+
+#: certexport.cpp:103 certexport.cpp:118 certexport.cpp:126 crypto.cpp:841
+#: crypto.cpp:1294 crypto.cpp:1323 crypto.cpp:1340 crypto.cpp:1342
+#: crypto.cpp:1533 crypto.cpp:1550 crypto.cpp:1605 crypto.cpp:1644
+#: crypto.cpp:1646 crypto.cpp:1856 crypto.cpp:1876 crypto.cpp:1940
+#: crypto.cpp:1947 crypto.cpp:1963 crypto.cpp:2016
+msgid "SSL"
+msgstr "SSL"
+
+#: certexport.cpp:118
+msgid "Error converting the certificate into the requested format."
+msgstr "转换证书到请求的格式时发生错误。"
+
+#: certexport.cpp:126
+msgid "Error opening file for output."
+msgstr "打开文件写时出错。"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, D_GenCert)
+#: certgen.ui:14
+msgid "Certificate Creation Wizard"
+msgstr "证书创建向导"
+
+#. i18n: ectx: property (text), widget (QLabel, T_CertType)
+#: certgen.ui:22
+msgid "Certificate type:"
+msgstr "证书类型："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: certgen.ui:32
+msgid "Passphrase:"
+msgstr "密码短语："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2_2)
+#: certgen.ui:49
+msgid "Passphrase (verify):"
+msgstr "密码短语(确认)："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#: certgen.ui:69
+msgid "Country code:"
+msgstr "国家代码："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#: certgen.ui:83
+msgid "State or province (in full):"
+msgstr "州或省(全名)："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: certgen.ui:97
+msgid "City:"
+msgstr "城市："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: certgen.ui:111
+msgid "Organization name:"
+msgstr "组织名称："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel7)
+#: certgen.ui:125
+msgid "Organizational unit/group:"
+msgstr "组织单位："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel8)
+#: certgen.ui:139
+msgid "Full hostname of the server:"
+msgstr "服务器的完整主机名称："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel9)
+#: certgen.ui:153
+msgid "Email address:"
+msgstr "电子邮件地址："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel10)
+#: certgen.ui:167
+msgid "Days valid:"
+msgstr "有效天数："
+
+#. i18n: ectx: property (text), widget (QCheckBox, CheckBox1)
+#: certgen.ui:191
+msgid "Self sign"
+msgstr "自我签署"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel11)
+#: certgen.ui:201
+msgid "Digest:"
+msgstr "摘要："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel12)
+#: certgen.ui:211
+msgid "Alias:"
+msgstr "别名："
+
+#. i18n: ectx: property (text), widget (QCheckBox, CheckBox2)
+#: certgen.ui:221
+msgid "Use DSA instead of RSA"
+msgstr "使用 DSA 代替 RSA"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel13)
+#: certgen.ui:228
+msgid "Bit strength:"
+msgstr "二进制位强度："
+
+#: crypto.cpp:109
+#, kde-format
+msgid "%1 (%2 of %3 bits)"
+msgstr "%1 (%3 的 %2 位)"
+
+#: crypto.cpp:229
+msgid ""
+"<h1>Crypto</h1> This module allows you to configure SSL for use with most "
+"KDE applications, as well as manage your personal certificates and the known "
+"certificate authorities."
+msgstr ""
+"<h1>加密</h1> 此模块允许您为大部分 KDE 应用程序配置 SSL，同时管理您个人的证书"
+"和已知的证书发放权威机构。"
+
+#: crypto.cpp:238
+msgid "KCMCrypto"
+msgstr "KCMCrypto"
+
+#: crypto.cpp:239
+msgid "KDE Crypto Control Module"
+msgstr "KDE 加密控制模块"
+
+#: crypto.cpp:240
+msgid "(c) 2000 - 2001 George Staikos"
+msgstr "(C) 2000 - 2001 George Staikos"
+
+#: crypto.cpp:241
+msgid "George Staikos"
+msgstr "George Staikos"
+
+#: crypto.cpp:242
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: crypto.cpp:273
+msgid "SSL Ciphers to Use"
+msgstr "使用的 SSL 加密算法"
+
+#: crypto.cpp:274
+msgid ""
+"Select the ciphers you wish to enable when using the SSL protocol. The "
+"actual protocol used will be negotiated with the server at connection time."
+msgstr ""
+"选择使用 SSL 协议时允许使用的加密算法。实际采用的协议将在连接时与服务器协商决"
+"定。"
+
+#: crypto.cpp:290
+msgid "Cipher Wizard"
+msgstr "加密算法向导"
+
+#: crypto.cpp:295
+msgid "Strong Ciphers Only"
+msgstr "仅强加密算法"
+
+#: crypto.cpp:296
+msgid "Export Ciphers Only"
+msgstr "仅出口加密算法"
+
+#: crypto.cpp:297
+msgid "Enable All"
+msgstr "全部启用"
+
+#: crypto.cpp:299
+msgid ""
+"<qt>Use these preconfigurations to more easily configure the SSL encryption "
+"settings. You can choose among the following modes:<ul><li><b>Strong Ciphers "
+"Only:</b> Select only the strong (&gt;= 128 bit) encryption ciphers.</"
+"li><li><b>Export Ciphers Only:</b> Select only the weak ciphers (&lt;= 56 "
+"bit).</li><li><b>Enable All:</b> Select all SSL ciphers and methods.</li></"
+"ul></qt>"
+msgstr ""
+"<qt>使用这些预定义的设置可以更容易地设置 SSL 加密。您可以在如下模式中选择："
+"<ul><li><b>仅强加密算法：</b>仅选择强(&gt;= 128 位)加密算法。</li><li><b>仅出"
+"口加密算法：</b>仅选择弱加密算法(&lt;= 56 位)。</li><li><b>全部启用：</b>选择"
+"所有的 SSL 加密算法和方法。</li></ul></qt>"
+
+#: crypto.cpp:316
+msgid "Warn on &entering SSL mode"
+msgstr "进入 SSL 模式时警告(&E)"
+
+#: crypto.cpp:319
+msgid "If selected, you will be notified when entering an SSL enabled site"
+msgstr "如果选中的话，进入启用了 SSL 的站点时将提醒您。"
+
+#: crypto.cpp:323
+msgid "Warn on &leaving SSL mode"
+msgstr "离开 SSL 模式时警告(&L)"
+
+#: crypto.cpp:326
+msgid "If selected, you will be notified when leaving an SSL based site."
+msgstr "如果选中的话，离开启用了 SSL 的站点时将提醒您。"
+
+#: crypto.cpp:330
+msgid "Warn on sending &unencrypted data"
+msgstr "发送未加密数据时警告(&U)"
+
+#: crypto.cpp:333
+msgid ""
+"If selected, you will be notified before sending unencrypted data via a web "
+"browser."
+msgstr "如果选中的话，在通过浏览器发送未加密数据之前将提醒您。"
+
+#: crypto.cpp:338
+msgid "Warn on &mixed SSL/non-SSL pages"
+msgstr "警告混合 SSL 和非 SSL 的网页(&M)"
+
+#: crypto.cpp:341
+msgid ""
+"If selected, you will be notified if you view a page that has both encrypted "
+"and non-encrypted parts."
+msgstr "如果选中的话，在浏览既有加密部分又有未加密部分的混合网页时将提醒您。"
+
+#: crypto.cpp:354
+msgid "Path to OpenSSL Shared Libraries"
+msgstr "OpenSSL 动态库的路径"
+
+#: crypto.cpp:361
+msgid "&Test"
+msgstr "测试(&T)"
+
+#: crypto.cpp:372
+msgid "Use EGD"
+msgstr "使用 EGD"
+
+#: crypto.cpp:374
+msgid "Use entropy file"
+msgstr "使用熵文件"
+
+#: crypto.cpp:381 crypto.cpp:2260
+msgid "Path to EGD:"
+msgstr "EGD 路径："
+
+#: crypto.cpp:388
+msgid ""
+"If selected, OpenSSL will be asked to use the entropy gathering daemon (EGD) "
+"for initializing the pseudo-random number generator."
+msgstr ""
+"如果选中的话，OpenSSL 将被要求使用熵收集服务器(EGD)来初始化伪随机数发生器。"
+
+#: crypto.cpp:391
+msgid ""
+"If selected, OpenSSL will be asked to use the given file as entropy for "
+"initializing the pseudo-random number generator."
+msgstr ""
+"如果选中的话，OpenSSL 将被要求使用指定的文件作为熵输入来初始化伪随机数发生"
+"器。"
+
+#: crypto.cpp:394
+msgid ""
+"Enter the path to the socket created by the entropy gathering daemon (or the "
+"entropy file) here."
+msgstr "输入熵收集服务器创建的套接字路径(或者熵文件)。"
+
+#: crypto.cpp:397
+msgid "Click here to browse for the EGD socket file."
+msgstr "浏览并查找 EGD 套接字文件。"
+
+#: crypto.cpp:418
+msgid ""
+"This list box shows which certificates of yours KDE knows about. You can "
+"easily manage them from here."
+msgstr "此列表框列出 KDE 所知的您的证书。您可以在此方便的管理它们。"
+
+#: crypto.cpp:423 crypto.cpp:604 crypto.cpp:740
+msgid "Common Name"
+msgstr "通用名"
+
+#: crypto.cpp:423
+msgid "Email Address"
+msgstr "电子邮件地址"
+
+#: crypto.cpp:431 crypto.cpp:743
+msgid "I&mport..."
+msgstr "导入(&M)..."
+
+#: crypto.cpp:435 crypto.cpp:609
+msgid "&Export..."
+msgstr "导出(&E)..."
+
+#: crypto.cpp:440 crypto.cpp:559
+msgid "Remo&ve"
+msgstr "删除(&V)"
+
+#: crypto.cpp:445
+msgid "&Unlock"
+msgstr "解锁(&U)"
+
+#: crypto.cpp:450
+msgid "Verif&y"
+msgstr "校验(&Y)"
+
+#: crypto.cpp:455
+msgid "Chan&ge Password..."
+msgstr "更改密码(&G)..."
+
+#: crypto.cpp:470 crypto.cpp:644
+msgid "This is the information known about the owner of the certificate."
+msgstr "这是关于证书所有者的信息。"
+
+#: crypto.cpp:471 crypto.cpp:646
+msgid "This is the information known about the issuer of the certificate."
+msgstr "这是关于证书签发者的信息。"
+
+#: crypto.cpp:477 crypto.cpp:649
+msgid "Valid from:"
+msgstr "有效期从："
+
+#: crypto.cpp:478 crypto.cpp:650
+msgid "Valid until:"
+msgstr "有效期至："
+
+#: crypto.cpp:479 crypto.cpp:659
+msgid "The certificate is valid starting at this date."
+msgstr "证书自该日起有效。"
+
+#: crypto.cpp:480 crypto.cpp:661
+msgid "The certificate is valid until this date."
+msgstr "证书至该日止有效。"
+
+#: crypto.cpp:483 crypto.cpp:709 crypto.cpp:774
+msgid "MD5 digest:"
+msgstr "MD5 码值："
+
+#: crypto.cpp:484 crypto.cpp:712 crypto.cpp:777
+msgid "A hash of the certificate used to identify it quickly."
+msgstr "用于快速证明证书有效性的散列值。"
+
+#: crypto.cpp:487
+msgid "On SSL Connection..."
+msgstr "在 SSL 连接时..."
+
+#: crypto.cpp:488
+msgid "&Use default certificate"
+msgstr "使用默认的证书(&U)"
+
+#: crypto.cpp:489
+msgid "&List upon connection"
+msgstr "在连接时列出(&L)"
+
+#: crypto.cpp:490
+msgid "&Do not use certificates"
+msgstr "不使用证书(&D)"
+
+#: crypto.cpp:494 crypto.cpp:578 crypto.cpp:716 crypto.cpp:781
+msgid ""
+"SSL certificates cannot be managed because this module was not linked with "
+"OpenSSL."
+msgstr "此模块未与 OpenSSL 库连接，因此不能管理 SSL 证书。"
+
+#: crypto.cpp:510
+msgid "Default Action"
+msgstr "默认动作"
+
+#: crypto.cpp:513
+msgid "&Send"
+msgstr "发送(&S)"
+
+#: crypto.cpp:516 crypto.cpp:700
+msgid "&Prompt"
+msgstr "提示(&P)"
+
+#: crypto.cpp:519
+msgid "Do &not send"
+msgstr "不发送(&N)"
+
+#: crypto.cpp:524
+msgid "Default certificate:"
+msgstr "默认证书："
+
+#: crypto.cpp:530
+msgid "Host authentication:"
+msgstr "主机验证："
+
+#: crypto.cpp:535
+msgid "Host"
+msgstr "主机"
+
+#: crypto.cpp:535
+msgid "Certificate"
+msgstr "证书"
+
+#: crypto.cpp:535 crypto.cpp:691
+msgid "Policy"
+msgstr "策略"
+
+#: crypto.cpp:536
+msgid "Host:"
+msgstr "主机："
+
+#: crypto.cpp:537
+msgid "Certificate:"
+msgstr "证书："
+
+#: crypto.cpp:544
+msgid "Action"
+msgstr "动作"
+
+#: crypto.cpp:547 crypto.h:184
+msgid "Send"
+msgstr "发送"
+
+#: crypto.cpp:550 crypto.h:190
+msgid "Prompt"
+msgstr "提示"
+
+#: crypto.cpp:553
+msgid "Do not send"
+msgstr "不发送"
+
+#: crypto.cpp:558
+msgid "Ne&w"
+msgstr "新建(&W)"
+
+#: crypto.cpp:601
+msgid ""
+"This list box shows which site and person certificates KDE knows about. You "
+"can easily manage them from here."
+msgstr "此列表框列出 KDE 所知的站点和个人的证书。您可以在此方便的管理它们。"
+
+#: crypto.cpp:604 crypto.cpp:738
+msgid "Organization"
+msgstr "组织"
+
+#: crypto.cpp:612
+msgid ""
+"This button allows you to export the selected certificate to a file of "
+"various formats."
+msgstr "该按钮允许您将选中的证书导出为各种格式的文件。"
+
+#: crypto.cpp:616 crypto.cpp:747 crypto.cpp:822
+msgid "&Remove"
+msgstr "删除(&R)"
+
+#: crypto.cpp:619
+msgid ""
+"This button removes the selected certificate from the certificate cache."
+msgstr "该按钮从证书缓存中删除选中的证书。"
+
+#: crypto.cpp:623
+msgid "&Verify"
+msgstr "校验(&V)"
+
+#: crypto.cpp:626
+msgid "This button tests the selected certificate for validity."
+msgstr "该按钮测试选中的证书的有效性。"
+
+#: crypto.cpp:664
+msgid "Cache"
+msgstr "缓存"
+
+#: crypto.cpp:667
+msgid "Permanentl&y"
+msgstr "永久地(&Y)"
+
+#: crypto.cpp:670
+msgid "&Until"
+msgstr "至(&U)"
+
+#: crypto.cpp:684
+msgid "Select here to make the cache entry permanent."
+msgstr "使缓存项永久有效。"
+
+#: crypto.cpp:686
+msgid "Select here to make the cache entry temporary."
+msgstr "使缓存项临时有效。"
+
+#: crypto.cpp:688
+msgid "The date and time until the certificate cache entry should expire."
+msgstr "证书缓存项失效的日期和时间。"
+
+#: crypto.cpp:694
+msgid "Accep&t"
+msgstr "接受(&T)"
+
+#: crypto.cpp:697
+msgid "Re&ject"
+msgstr "拒绝(&J)"
+
+#: crypto.cpp:706
+msgid "Select this to always accept this certificate."
+msgstr "总是接受该证书。"
+
+#: crypto.cpp:707
+msgid "Select this to always reject this certificate."
+msgstr "总是拒绝该证书。"
+
+#: crypto.cpp:708
+msgid ""
+"Select this if you wish to be prompted for action when receiving this "
+"certificate."
+msgstr "当收到该证书时提示。"
+
+#: crypto.cpp:733
+msgid ""
+"This list box shows which certificate authorities KDE knows about. You can "
+"easily manage them from here."
+msgstr ""
+"此列表框列出 KDE 所知的证书发放权威机构(CA)。您可以在此方便的管理它们。"
+
+#: crypto.cpp:739
+msgid "Organizational Unit"
+msgstr "组织单元"
+
+#: crypto.cpp:752
+msgid "Res&tore"
+msgstr "恢复(&T)"
+
+#: crypto.cpp:762
+msgid "Accept for site signing"
+msgstr "接受用于站点签名"
+
+#: crypto.cpp:763
+msgid "Accept for email signing"
+msgstr "接受用于电子邮件签名"
+
+#: crypto.cpp:764
+msgid "Accept for code signing"
+msgstr "接受用于代码签名"
+
+#: crypto.cpp:796
+msgid "Warn on &self-signed certificates or unknown CA's"
+msgstr "遇到自签发证书或未知 CA 时警告(&S)"
+
+#: crypto.cpp:798
+msgid "Warn on &expired certificates"
+msgstr "遇到过期证书时警告(&E)"
+
+#: crypto.cpp:800
+msgid "Warn on re&voked certificates"
+msgstr "遇到已吊销证书时警告(&V)"
+
+#: crypto.cpp:810
+msgid ""
+"This list box shows which sites you have decided to accept a certificate "
+"from even though the certificate might fail the validation procedure."
+msgstr "此列表框列出您决定认可其证书的站点，即使其证书可能无法通过验证。"
+
+#: crypto.cpp:818
+msgid "&Add"
+msgstr "添加(&A)"
+
+#: crypto.cpp:831
+msgid ""
+"These options are not configurable because this module was not linked with "
+"OpenSSL."
+msgstr "此模块未与 OpenSSL 库连接，因此无法配置这些选项。"
+
+#: crypto.cpp:843 crypto.cpp:2240 crypto.cpp:2248 crypto.cpp:2252
+msgid "OpenSSL"
+msgstr "OpenSSL"
+
+#: crypto.cpp:845
+msgid "Your Certificates"
+msgstr "您的证书"
+
+#: crypto.cpp:846
+msgid "Authentication"
+msgstr "验证"
+
+#: crypto.cpp:847
+msgid "Peer SSL Certificates"
+msgstr "对方的 SSL 证书"
+
+#: crypto.cpp:848
+msgid "SSL Signers"
+msgstr "SSL 签名者"
+
+#: crypto.cpp:851
+msgid "Validation Options"
+msgstr "验证选项"
+
+#: crypto.cpp:1061
+msgid "If you do not select at least one cipher, SSL will not work."
+msgstr "如果您没有至少选择一个加密算法，SSL 将不工作。"
+
+#: crypto.cpp:1063
+msgid "SSL Ciphers"
+msgstr "SSL 加密算法"
+
+#: crypto.cpp:1293
+msgid "Could not open the certificate."
+msgstr "无法打开证书。"
+
+#: crypto.cpp:1323
+msgid "Error obtaining the certificate."
+msgstr "获取证书时发生错误。"
+
+#: crypto.cpp:1340 crypto.cpp:1644
+msgid "This certificate passed the verification tests successfully."
+msgstr "该证书通过了校验测试。"
+
+#: crypto.cpp:1342 crypto.cpp:1646
+msgid "This certificate has failed the tests and should be considered invalid."
+msgstr "该证书没有通过校验测试，应该被认为无效。"
+
+#: crypto.cpp:1525
+msgid "Certificate Password"
+msgstr "证书密码"
+
+#: crypto.cpp:1526
+msgid "Certificate password"
+msgstr "证书密码"
+
+#: crypto.cpp:1533
+msgid "The certificate file could not be loaded. Try a different password?"
+msgstr "无法载入证书文件。要尝试另外的密码吗？"
+
+#: crypto.cpp:1533
+msgid "Try"
+msgstr "尝试"
+
+#: crypto.cpp:1533
+msgid "Do Not Try"
+msgstr "不尝试"
+
+#: crypto.cpp:1550
+msgid ""
+"A certificate with that name already exists. Are you sure that you wish to "
+"replace it?"
+msgstr "同名的证书已存在。您确认要替代它吗？"
+
+#: crypto.cpp:1550
+msgid "Replace"
+msgstr "替换"
+
+#: crypto.cpp:1584 crypto.cpp:1620 crypto.cpp:1673
+msgid "Enter the certificate password:"
+msgstr "输入证书密码："
+
+#: crypto.cpp:1585 crypto.cpp:1621 crypto.cpp:1674 crypto.cpp:1784
+#, kde-format
+msgid "Password For '%1'"
+msgstr "“%1”的密码"
+
+#: crypto.cpp:1594 crypto.cpp:1631 crypto.cpp:1684 crypto.cpp:1793
+msgid "Decoding failed. Please try again:"
+msgstr "解码失败。请重试："
+
+#: crypto.cpp:1605
+msgid "Export failed."
+msgstr "导出错误。"
+
+#: crypto.cpp:1783
+msgid "Enter the OLD password for the certificate:"
+msgstr "输入证书的旧密码："
+
+#: crypto.cpp:1801
+msgid "Enter the new certificate password"
+msgstr "输入新的证书密码"
+
+#: crypto.cpp:1853 crypto.cpp:1946
+msgid "This is not a signer certificate."
+msgstr "这不是一个签名证书。"
+
+#: crypto.cpp:1873 crypto.cpp:1962
+msgid "You already have this signer certificate installed."
+msgstr "您已经安装了这个签名证书。"
+
+#: crypto.cpp:1939
+msgid "The certificate file could not be loaded."
+msgstr "无法载入证书文件。"
+
+#: crypto.cpp:1995
+msgid "Do you want to make this certificate available to KMail as well?"
+msgstr "您是否想要为 KMail 启用此证书？"
+
+#: crypto.cpp:1995
+msgid "Make Available"
+msgstr "启用"
+
+#: crypto.cpp:1995
+msgid "Do Not Make Available"
+msgstr "不启用"
+
+#: crypto.cpp:1998
+msgid ""
+"Could not execute Kleopatra. You might have to install or update the kdepim "
+"package."
+msgstr "无法执行 Kleopatra。您可能需要安装或更新 kdepim 软件包。"
+
+#: crypto.cpp:2016
+msgid ""
+"This will revert your certificate signers database to the KDE default.\n"
+"This operation cannot be undone.\n"
+"Are you sure you wish to continue?"
+msgstr ""
+"这会还原您的证书签名者到 KDE 默认设置。\n"
+"这个操作不能取消。\n"
+"您确定要继续吗？"
+
+#: crypto.cpp:2016
+msgid "Revert"
+msgstr "复原"
+
+#: crypto.cpp:2238 crypto.cpp:2246
+msgid "Failed to load OpenSSL."
+msgstr "无法载入 OpenSSL。"
+
+#: crypto.cpp:2239
+msgid "libssl was not found or successfully loaded."
+msgstr "没有找到 libssl 或成功载入。"
+
+#: crypto.cpp:2247
+msgid "libcrypto was not found or successfully loaded."
+msgstr "没有找到 libcrypto 或成功载入。"
+
+#: crypto.cpp:2252
+msgid "OpenSSL was successfully loaded."
+msgstr "成功载入 OpenSSL。"
+
+#: crypto.cpp:2271
+msgid "Path to entropy file:"
+msgstr "熵文件路径："
+
+#: crypto.cpp:2284
+msgid "Personal SSL"
+msgstr "个人 SSL"
+
+#: crypto.cpp:2285
+msgid "Server SSL"
+msgstr "服务器 SSL"
+
+#: crypto.cpp:2286
+msgid "S/MIME"
+msgstr "S/MIME"
+
+#: crypto.cpp:2287
+msgid "PGP"
+msgstr "PGP"
+
+#: crypto.cpp:2288
+msgid "GPG"
+msgstr "GPG"
+
+#: crypto.cpp:2289
+msgid "SSL Personal Request"
+msgstr "SSL 个人请求"
+
+#: crypto.cpp:2290
+msgid "SSL Server Request"
+msgstr "SSL 服务器请求"
+
+#: crypto.cpp:2291
+msgid "Netscape SSL"
+msgstr "Netscape SSL"
+
+#: crypto.cpp:2292
+msgctxt "Server certificate authority"
+msgid "Server CA"
+msgstr "服务器 CA"
+
+#: crypto.cpp:2293
+msgctxt "Personal certificate authority"
+msgid "Personal CA"
+msgstr "个人 CA"
+
+#: crypto.cpp:2294
+msgctxt "Secure MIME certificate authority"
+msgid "S/MIME CA"
+msgstr "S/MIME CA"
+
+#: crypto.cpp:2355
+msgctxt "No Certificates on List"
+msgid "None"
+msgstr "无"
+
+#: crypto.h:187
+msgid "Don't Send"
+msgstr "不发送"
+
+#: kdatetimedlg.cpp:46
+msgctxt "Select Time and Date"
+msgid "Date & Time Selector"
+msgstr "日期和时间选择器"
+
+#: kdatetimedlg.cpp:51
+msgctxt "Set Hours of Time"
+msgid "Hour:"
+msgstr "小时："
+
+#: kdatetimedlg.cpp:57
+msgctxt "Set Minutes of Time"
+msgid "Minute:"
+msgstr "分钟："
+
+#: kdatetimedlg.cpp:63
+msgctxt "Set Seconds of Time"
+msgid "Second:"
+msgstr "秒："

@@ -1,0 +1,116 @@
+# Mai Haohui <mhh@126.com>, 2001.
+# Lie Ex <lilith.ex@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kio_nntp\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-27 01:37+0000\n"
+"PO-Revision-Date: 2009-12-18 16:20+0800GMT\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: nntp.cpp:125 nntp.cpp:491
+#, kde-format
+msgid "Selecting group %1..."
+msgstr "正在选择组 %1..."
+
+#: nntp.cpp:140
+msgid "Downloading article..."
+msgstr "正在下载文章..."
+
+#: nntp.cpp:198
+#, kde-format
+msgid "Invalid special command %1"
+msgstr "不正确的命令 %1"
+
+#: nntp.cpp:206
+msgid "Sending article..."
+msgstr "正在发送文章..."
+
+#: nntp.cpp:356
+msgid "Downloading group list..."
+msgstr "正在下载组列表..."
+
+#: nntp.cpp:361
+msgid "Looking for new groups..."
+msgstr "正在查找新组..."
+
+#: nntp.cpp:427
+msgid "Downloading group descriptions..."
+msgstr "正在下载组描述..."
+
+#: nntp.cpp:513
+#, kde-format
+msgid ""
+"Could not extract message serial numbers from server response:\n"
+"%1"
+msgstr ""
+"无法从服务器响应中提取邮件号：\n"
+"%1"
+
+#: nntp.cpp:533
+msgid "Downloading new headers..."
+msgstr "正在下载新信头..."
+
+#: nntp.cpp:564
+#, kde-format
+msgid ""
+"Could not extract first message id from server response:\n"
+"%1"
+msgstr ""
+"无法从服务器响应中提取第一个邮件 ID：\n"
+"%1"
+
+#: nntp.cpp:590
+#, kde-format
+msgid ""
+"Could not extract message id from server response:\n"
+"%1"
+msgstr ""
+"无法从服务器响应中提取邮件 ID：\n"
+"%1"
+
+#: nntp.cpp:741
+msgid "Connecting to server..."
+msgstr "正在连接到服务器..."
+
+#: nntp.cpp:775
+msgid "This server does not support TLS"
+msgstr "此服务器不支持 TLS"
+
+#: nntp.cpp:779
+msgid "TLS negotiation failed"
+msgstr "TLS 协商失败"
+
+#: nntp.cpp:894
+#, kde-format
+msgid ""
+"The server %1 could not handle your request.\n"
+"Please try again now, or later if the problem persists."
+msgstr ""
+"服务器 %1 无法处理您的请求。\n"
+"请立即重新尝试，如果问题依然存在，则稍后再试。服务器 %1 无法处理您的请求。\n"
+"请立即重新尝试，如果问题依然存在，则稍后再试。"
+
+#: nntp.cpp:899
+msgid "You need to authenticate to access the requested resource."
+msgstr "访问请求的资源需要验证。"
+
+#: nntp.cpp:903
+msgid "The supplied login and/or password are incorrect."
+msgstr "提供的登录用户和/或密码不正确。"
+
+#: nntp.cpp:909
+#, kde-format
+msgid ""
+"Unexpected server response to %1 command:\n"
+"%2"
+msgstr ""
+"服务器对命令 %1 的异常响应：\n"
+"%2"

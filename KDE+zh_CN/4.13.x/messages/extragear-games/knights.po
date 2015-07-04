@@ -1,0 +1,1088 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Feng Chao <rainofchaos@gmail.com>, 2011, 2012.
+# marguerite <i@marguerite.su>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-10-30 04:00+0100\n"
+"PO-Revision-Date: 2013-08-07 14:34+0800\n"
+"Last-Translator: marguerite <i@marguerite.su>\n"
+"Language-Team: Chinese Simplified <opensuse-zh@opensuse.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: board.cpp:694
+msgid "Promote"
+msgstr "升变"
+
+#: board.cpp:695
+msgid "Promotion"
+msgstr "升变"
+
+#. i18n: ectx: property (text), widget (QRadioButton, colorBlack)
+#. i18n: ectx: property (title), widget (QGroupBox, groupB)
+#: clockwidget.ui:17 gamedialog.ui:113
+msgid "Black"
+msgstr "黑"
+
+#. i18n: ectx: property (text), widget (QRadioButton, colorWhite)
+#. i18n: ectx: property (title), widget (QGroupBox, groupW)
+#: clockwidget.ui:44 gamedialog.ui:100
+msgid "White"
+msgstr "白"
+
+#. i18n: ectx: property (text), widget (QLabel, searchDepthLabel)
+#: customdifficultydialog.ui:20
+msgid "Search &depth:"
+msgstr "搜索深度(&D)："
+
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, searchDepthIntSpinBox)
+#: customdifficultydialog.ui:30
+msgctxt "Let the engine determine the search depth"
+msgid "Engine default"
+msgstr "默认引擎"
+
+#. i18n: ectx: property (text), widget (QLabel, memorySizeLabel)
+#: customdifficultydialog.ui:37
+msgid "Memory &size:"
+msgstr "内存大小(&S)："
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, memorySizeIntSpinBox)
+#: customdifficultydialog.ui:47
+msgctxt "Megabytes"
+msgid " MB"
+msgstr " MB"
+
+#: enginesettings.cpp:78
+msgid "Invalid interface"
+msgstr "无效接口"
+
+#: enginesettings.cpp:81 enginesettings.cpp:140
+msgctxt "Protocol name"
+msgid "XBoard"
+msgstr "XBoard"
+
+#: enginesettings.cpp:84 enginesettings.cpp:140
+msgctxt "Protocol name"
+msgid "UCI"
+msgstr "UCI"
+
+#. i18n: ectx: property (text), widget (KPushButton, addButton)
+#: enginesettings.ui:19
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: enginesettings.ui:26
+msgid "Remove"
+msgstr "移除"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: enginesettings.ui:61
+msgid "Name"
+msgstr "名称"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: enginesettings.ui:66
+msgid "Command"
+msgstr "命令"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: enginesettings.ui:71
+msgid "Protocol"
+msgstr "协议"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: enginesettings.ui:76
+msgid "Installed"
+msgstr "已安装"
+
+#: gamedialog.cpp:271
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " 分钟"
+
+#: gamedialog.cpp:272
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] "秒钟"
+
+#: gamedialog.cpp:273 gamemanager.cpp:923
+msgid " move"
+msgid_plural " moves"
+msgstr[0] " 步"
+
+#. i18n: ectx: property (title), widget (QGroupBox, player1Box)
+#: gamedialog.ui:29
+msgid "Player 1"
+msgstr "一号玩家"
+
+#. i18n: ectx: property (text), widget (QRadioButton, player1Human)
+#: gamedialog.ui:35
+msgid "Human (You)"
+msgstr "人类 (您)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, player1Comp)
+#. i18n: ectx: property (text), widget (QRadioButton, player2Comp)
+#: gamedialog.ui:47 gamedialog.ui:157
+msgid "Computer engine:"
+msgstr "电脑引擎："
+
+#. i18n: ectx: property (text), widget (KPushButton, player1Engines)
+#. i18n: ectx: property (text), widget (QToolButton, player2Engines)
+#: gamedialog.ui:70 gamedialog.ui:167
+msgid "Configure Engines"
+msgstr "配置引擎"
+
+#. i18n: ectx: property (title), widget (QGroupBox, colorGroup)
+#: gamedialog.ui:88
+msgid "Player 1's Color"
+msgstr "一号玩家的颜色"
+
+#. i18n: ectx: property (text), widget (QRadioButton, colorRandom)
+#: gamedialog.ui:126
+msgid "Choose randomly"
+msgstr "随机选择"
+
+#. i18n: ectx: property (title), widget (QGroupBox, player2Box)
+#: gamedialog.ui:139
+msgid "Player 2"
+msgstr "二号玩家"
+
+#. i18n: ectx: property (text), widget (QRadioButton, player2Human)
+#: gamedialog.ui:145
+msgid "Human"
+msgstr "人类"
+
+#. i18n: ectx: property (text), widget (QRadioButton, player2Fics)
+#: gamedialog.ui:191
+msgid "Chess server:"
+msgstr "国际象棋服务器："
+
+#. i18n: ectx: property (title), widget (QGroupBox, timeGroup)
+#: gamedialog.ui:213
+msgid "Use Time Control"
+msgstr "使用时间控制"
+
+#. i18n: ectx: property (text), widget (QLabel, numberOfMovesLabel)
+#: gamedialog.ui:228
+msgid "Time control period"
+msgstr "时间控制周期"
+
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, numberOfMoves)
+#: gamedialog.ui:244
+msgctxt "Time control mode"
+msgid "Timer Only"
+msgstr "仅计时器"
+
+#. i18n: ectx: property (text), widget (QLabel, timeLimitLabel)
+#: gamedialog.ui:257
+msgid "Initial time limit"
+msgstr "初始时间限制"
+
+#. i18n: ectx: property (text), widget (QLabel, timeIncrementLabel)
+#: gamedialog.ui:280
+msgid "Increment per move"
+msgstr "每步增量"
+
+#: gamemanager.cpp:466
+msgctxt "The player of this color"
+msgid "White"
+msgstr "白"
+
+#: gamemanager.cpp:467
+msgctxt "The player of this color"
+msgid "Black"
+msgstr "黑"
+
+#: gamemanager.cpp:587
+#, kde-format
+msgid "%1 offers you a draw"
+msgstr "%1 提请和局"
+
+#: gamemanager.cpp:590
+#, kde-format
+msgid "%2 would like to take back a half move"
+msgid_plural "%2 would like to take back %1 half moves"
+msgstr[0] "%2 想要反悔 %1 个半步"
+
+#: gamemanager.cpp:593
+#, kde-format
+msgid "%1 would like to adjourn the game"
+msgstr "%1 想要暂停游戏"
+
+#: gamemanager.cpp:596
+#, kde-format
+msgid "%1 would like to abort the game"
+msgstr "%1 想要中止游戏"
+
+#: gamemanager.cpp:710
+#, kde-format
+msgctxt "string to be spoken when the opponent castles queenside"
+msgid "%1 castles queenside"
+msgstr "%1 后翼易位"
+
+#: gamemanager.cpp:715
+#, kde-format
+msgctxt "string to be spoken when the opponent castles queenside"
+msgid "%1 castles kingside"
+msgstr "%1 王翼易位"
+
+#: gamemanager.cpp:721
+#, kde-format
+msgctxt "string to be spoken when the opponent makes a normal  move"
+msgid "%1 to %2"
+msgstr "%1 到 %2"
+
+#: gamemanager.cpp:733
+msgctxt "Your king is under attack"
+msgid "Check"
+msgstr "将军"
+
+#: gamemanager.cpp:737
+msgctxt "Your king is dead"
+msgid "Checkmate"
+msgstr "将死"
+
+#. i18n: ectx: property (text), widget (QLabel, notationLabel)
+#: historywidget.ui:25
+msgid "&Notation:"
+msgstr "标示法(&N)："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, notationComboBox)
+#: historywidget.ui:36
+msgid "Short Algebraic"
+msgstr "短代数"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, notationComboBox)
+#: historywidget.ui:41
+msgid "Long Algebraic"
+msgstr "长代数"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, notationComboBox)
+#: historywidget.ui:46
+msgid "Coordinate"
+msgstr "座标"
+
+#. i18n: ectx: property (text), widget (KPushButton, saveButton)
+#: historywidget.ui:56
+msgid "&Save History"
+msgstr "保存历史(&S)"
+
+#: knights.cpp:87
+msgid "Custom"
+msgstr "自定义"
+
+#: knights.cpp:130
+msgid "Resign"
+msgstr "认输"
+
+#: knights.cpp:131
+msgid "Admit your inevitable defeat"
+msgstr "承认您的必输之局"
+
+#: knights.cpp:136
+msgid "Undo"
+msgstr "悔棋"
+
+#: knights.cpp:137
+msgid "Take back your last move"
+msgstr "回到您的上一步"
+
+#: knights.cpp:143
+msgid "Redo"
+msgstr "重下"
+
+#: knights.cpp:144
+msgid "Repeat your last move"
+msgstr "重复您的上一步"
+
+#: knights.cpp:150
+msgid "Offer &Draw"
+msgstr "提请和局(&D)"
+
+#: knights.cpp:151
+msgid "Offer a draw to your opponent"
+msgstr "向您的对手提请和局"
+
+#: knights.cpp:156
+msgid "Adjourn"
+msgstr "暂停"
+
+#: knights.cpp:157
+msgid "Continue this game at a later time"
+msgstr "稍后再继续此局游戏"
+
+#: knights.cpp:162
+msgid "Abort"
+msgstr "中止"
+
+#: knights.cpp:163
+msgid "End the game immediately"
+msgstr "立即终结游戏"
+
+#: knights.cpp:167
+msgid "Show Clock"
+msgstr "显示时钟"
+
+#: knights.cpp:173
+msgid "Show History"
+msgstr "显示历史"
+
+#: knights.cpp:180
+msgid "Show White Console"
+msgstr "显示白方控制台"
+
+#: knights.cpp:186
+msgid "Show Black Console"
+msgstr "显示黑方控制台"
+
+#: knights.cpp:192
+msgid "Show Chat"
+msgstr "显示聊天界面"
+
+#: knights.cpp:214
+msgid "New Game"
+msgstr "新游戏"
+
+#: knights.cpp:235 knights.cpp:646 knights.cpp:661
+msgid "*.pgn | Portable game notation"
+msgstr "*.pgn | 便携游戏标示格式"
+
+#: knights.cpp:259 knights.cpp:271
+msgid "This feature is not yet implemented in Knights"
+msgstr "此功能尚未在 Knights 中实现"
+
+#: knights.cpp:438
+msgid "Clock"
+msgstr "时钟"
+
+#: knights.cpp:472
+msgid "Move History"
+msgstr "回合历史"
+
+#: knights.cpp:500
+msgid "General"
+msgstr "常规"
+
+#: knights.cpp:504
+msgid "Computer Engines"
+msgstr "电脑引擎"
+
+#: knights.cpp:509
+msgid "Accessibility"
+msgstr "辅助功能"
+
+#: knights.cpp:512
+msgid "Theme"
+msgstr "主题"
+
+#: knights.cpp:598
+#, kde-format
+msgid "%1 vs. %2"
+msgstr "%1 对 %2"
+
+#: knights.cpp:623
+msgid ""
+"This will end your game.\n"
+"Would you like to save the move history?"
+msgstr ""
+"这将结束您的游戏。\n"
+"您想要保存回合历史吗？"
+
+#. i18n: ectx: label, entry (Theme), group (KGameTheme)
+#: knights.kcfg:9
+msgid "Theme file for the board"
+msgstr "用于棋盘的主题文件"
+
+#. i18n: ectx: label, entry (askDiscard), group (Notification Messages)
+#: knights.kcfg:15
+msgid "whether to show a confirmation dialog before discarding game history"
+msgstr "是否在丢弃游戏历史前显示确认对话框"
+
+#. i18n: ectx: label, entry (dontAskInternal), group (Notification Messages)
+#: knights.kcfg:19
+msgid "internal variable controlling the confirm dialog"
+msgstr "内部变量控制着确认对话框"
+
+#. i18n: ectx: label, entry (animationSpeed), group (Preferences)
+#: knights.kcfg:31
+msgid "Moves animation speed"
+msgstr "回合动画速度"
+
+#. i18n: ectx: label, entry (animateBoard), group (Preferences)
+#: knights.kcfg:35
+msgid "whether the Board is animated during rotating and resizing"
+msgstr "在旋转和缩放时棋盘是否有动画"
+
+#. i18n: ectx: label, entry (flipBoard), group (Preferences)
+#: knights.kcfg:39
+msgid "whether to rotate the board when in local two-player mode"
+msgstr "在本地双人模式时是否旋转棋盘"
+
+#. i18n: ectx: label, entry (borderDisplayType), group (Preferences)
+#: knights.kcfg:48
+msgid "chessboard border type"
+msgstr "棋盘边缘类型"
+
+#. i18n: ectx: label, entry (showDanger), group (Preferences)
+#: knights.kcfg:52
+msgid "show check marker"
+msgstr "显示将军记分员"
+
+#. i18n: ectx: label, entry (showMarker), group (Preferences)
+#: knights.kcfg:56
+msgid "show legal moves marker"
+msgstr "显示合法回合记分员"
+
+#. i18n: ectx: label, entry (showMotion), group (Preferences)
+#: knights.kcfg:60
+msgid "show opponents move marker"
+msgstr "显示对手步数记分员"
+
+#. i18n: ectx: label, entry (showClock), group (Preferences)
+#: knights.kcfg:64
+msgid "show clocks when time control is in use"
+msgstr "当使用时间控制时显示时钟"
+
+#. i18n: ectx: label, entry (showChat), group (Preferences)
+#: knights.kcfg:68
+msgid "show chat window, if supported by the protocol"
+msgstr "若协议支持则显示聊天窗口"
+
+#. i18n: ectx: label, entry (showConsole), group (Preferences)
+#: knights.kcfg:72
+msgid "show the text console, if supported by the protocol"
+msgstr "若协议支持则显示文本控制台"
+
+#. i18n: ectx: label, entry (showHistory), group (Preferences)
+#: knights.kcfg:76
+msgid "show move history"
+msgstr "显示回合历史"
+
+#. i18n: ectx: label, entry (timeLimit), group (Time Control)
+#: knights.kcfg:82
+msgid "initial time limit for both players"
+msgstr "双方选手的初始时间限制"
+
+#. i18n: ectx: label, entry (timeIncrement), group (Time Control)
+#: knights.kcfg:86
+msgid "time increment per move (for Incremental time control)"
+msgstr "每步时间增量 (用于增量时间控制)"
+
+#. i18n: ectx: label, entry (numberOfMoves), group (Time Control)
+#: knights.kcfg:90
+msgid ""
+"the number of moves the player has to make in the specified time (for "
+"Conventional time control)"
+msgstr "特定时间内玩家需走出的步数 (用于常规时间控制)"
+
+#. i18n: ectx: label, entry (timeEnabled), group (Time Control)
+#: knights.kcfg:94
+msgid "whether time limits are enabled and displayed"
+msgstr "是否启用和显示时间限制"
+
+#. i18n: ectx: label, entry (player1Protocol), group (Protocols)
+#. i18n: ectx: label, entry (player2Protocol), group (Protocols)
+#: knights.kcfg:104 knights.kcfg:113
+msgid "protocol to be used for player 1"
+msgstr "要为一号玩家使用的协议"
+
+#. i18n: ectx: label, entry (color), group (Protocols)
+#: knights.kcfg:122
+msgid ""
+"the local human player's color in a game against a computer or over the "
+"Internet."
+msgstr ""
+"游戏中本地人类玩家相对电脑玩家的颜色或网络对战中相对其它人类玩家的颜色。"
+
+#. i18n: ectx: label, entry (programs), group (Protocols)
+#: knights.kcfg:126
+msgid "list of programs to run for playing against the computer"
+msgstr "与电脑对战的程序列表"
+
+#. i18n: ectx: label, entry (player1Program), group (Protocols)
+#: knights.kcfg:130
+msgid "the last selected program for player 1"
+msgstr "为一号玩家最后选取的程序"
+
+#. i18n: ectx: label, entry (player2Program), group (Protocols)
+#: knights.kcfg:134
+msgid "the last selected program for player 2"
+msgstr "为二号玩家最后选取的程序"
+
+#. i18n: ectx: label, entry (computerSearchDepth), group (Protocols)
+#: knights.kcfg:138
+msgid ""
+"the search depth of computer engines, when the difficulty is set to "
+"Configurable"
+msgstr "当难度设为可配置时电脑引擎的搜索深度"
+
+#. i18n: ectx: label, entry (computerMemorySize), group (Protocols)
+#: knights.kcfg:142
+msgid ""
+"the memory size used by computer engines, when the difficulty is set to "
+"Configurable"
+msgstr "当难度设为可配置时电脑引擎所用的内存大小"
+
+#. i18n: ectx: label, entry (servers), group (Protocols)
+#: knights.kcfg:146
+msgid "list of servers for playing over the Internet"
+msgstr "网络对战所用的服务器列表"
+
+#. i18n: ectx: label, entry (currentServer), group (Protocols)
+#: knights.kcfg:150
+msgid "the last selected server"
+msgstr "最后选取的服务器"
+
+#. i18n: ectx: label, entry (ficsUsername), group (Protocols)
+#: knights.kcfg:154
+msgid "username for the Free Internet Chess Server"
+msgstr "自由互联网国际象棋服务器的用户名"
+
+#. i18n: ectx: label, entry (guest), group (Protocols)
+#: knights.kcfg:158
+msgid "whether to log in as guest"
+msgstr "是否以访客模式登录"
+
+#. i18n: ectx: label, entry (autoLogin), group (Protocols)
+#: knights.kcfg:162
+msgid "whether to log in to chess server automatically"
+msgstr "是否自动登录到国际象棋服务器"
+
+#. i18n: ectx: label, entry (computerDelay), group (Protocols)
+#: knights.kcfg:166
+msgid "delay before a computer's move is reported, in milliseconds"
+msgstr "以毫秒计的电脑行为的播报前延迟"
+
+#. i18n: ectx: label, entry (engineConfigurations), group (Protocols)
+#: knights.kcfg:170
+msgid "stored configurations of engine-specific settings"
+msgstr "引擎特殊设置的已保存配置"
+
+#. i18n: ectx: label, entry (speakOpponentsMoves), group (Accessibility)
+#: knights.kcfg:176
+msgid "whether opponents' moves are spoken by Jovie"
+msgstr "是否使用 Jovie 播放对手行为"
+
+#. i18n: ectx: label, entry (allowExternalControl), group (Accessibility)
+#: knights.kcfg:180
+msgid "whether commands over D-Bus are accepted"
+msgstr "是否接受通过 D-Bus 过来的命令"
+
+#. i18n: ectx: Menu (move)
+#: knightsui.rc:21
+msgid "Move"
+msgstr "步"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: knightsui.rc:37
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: ToolBar (actionsToolbar)
+#: knightsui.rc:44
+msgid "Game Actions Toolbar"
+msgstr "游戏行为工具栏"
+
+#. i18n: ectx: ToolBar (dockToolBar)
+#: knightsui.rc:55
+msgid "Dockable Windows Toolbar"
+msgstr "可停靠的窗口工具栏"
+
+#: knightsview.cpp:129
+msgid "Game over"
+msgstr "游戏结束"
+
+#: knightsview.cpp:134
+msgid "The game ended in a draw"
+msgstr "游戏以和局结束"
+
+#: knightsview.cpp:144
+msgctxt "White as in the player with white pieces"
+msgid "The game ended with a victory for <emphasis>White</emphasis>"
+msgstr "游戏以<emphasis>白方</emphasis>获胜结束"
+
+#: knightsview.cpp:149
+msgctxt "Black as in the player with black pieces"
+msgid "The game ended with a victory for <emphasis>Black</emphasis>"
+msgstr "游戏以<emphasis>黑方</emphasis>获胜结束"
+
+#: knightsview.cpp:157
+#, kde-format
+msgctxt "Player name, then <White as in the player with white pieces"
+msgid ""
+"The game ended with a victory for <emphasis>%1</emphasis>, playing White"
+msgstr "游戏以 <emphasis>%1</emphasis> 执白胜出结束"
+
+#: knightsview.cpp:162
+#, kde-format
+msgctxt "Player name, then Black as in the player with black pieces"
+msgid ""
+"The game ended with a victory for <emphasis>%1</emphasis>, playing Black"
+msgstr "游戏以 <emphasis>%1</emphasis> 执黑胜出结束"
+
+#: knightsview.cpp:180
+msgid "Settings changed"
+msgstr "设置已更改"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KnightsView)
+#: knightsview_base.ui:14 main.cpp:36
+msgid "Knights"
+msgstr "Knights"
+
+#: main.cpp:30
+msgid "Chess board based on KDE Development Platform 4"
+msgstr "基于 KDE 开发平台第 4 版的国际象棋游戏"
+
+#: main.cpp:37
+msgid "(C) 2009-2011 Miha Čančula"
+msgstr "(C) 2009-2011 Miha Čančula"
+
+#: main.cpp:38
+msgid "Miha Čančula"
+msgstr "Miha Čančula"
+
+#: main.cpp:39
+msgid "Troy Corbin"
+msgstr "Troy Corbin"
+
+#: main.cpp:39
+msgid "Original Knights for KDE3 and theme author"
+msgstr "KDE 3 下原始 Knights 的开发者和主题作者"
+
+#: main.cpp:40
+msgid "Dave Kaye"
+msgstr "Dave Kaye"
+
+#: main.cpp:40
+msgid "Help with new theme features and rendering without KGameRenderer"
+msgstr "帮助开发了新的主题功能和不使用 KGameRenderer 的渲染"
+
+#: main.cpp:41
+msgid "Thomas Kamps"
+msgstr "Thomas Kamps"
+
+#: main.cpp:41
+msgid "Clock displaying the remaining time"
+msgstr "开发了显示剩余时间的时钟"
+
+#: main.cpp:45
+msgid "Document to open"
+msgstr "要打开的文档"
+
+#. i18n: ectx: property (text), widget (KPushButton, acceptButton)
+#: offerwidget.cpp:35 popup.ui:37 proto/ficsprotocol.cpp:132
+#: proto/ficsprotocol.cpp:212
+msgid "Accept"
+msgstr "接受"
+
+#. i18n: ectx: property (text), widget (KPushButton, declineButton)
+#: offerwidget.cpp:38 popup.ui:44 proto/ficsprotocol.cpp:208
+msgid "Decline"
+msgstr "拒绝"
+
+#. i18n: ectx: property (text), widget (KPushButton, closeButton)
+#: popup.ui:51
+msgid "Close"
+msgstr "关闭"
+
+#. i18n: ectx: property (title), widget (QGroupBox, external_box)
+#: prefs_access.ui:17
+msgid "External Programs"
+msgstr "外部程序"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_speakOpponentsMoves)
+#: prefs_access.ui:23
+msgid "Speak opponent's moves"
+msgstr "播报对手行为"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowExternalControl)
+#: prefs_access.ui:30
+msgid "Allow other programs to control Knights"
+msgstr "允许其它程序控制 Knights"
+
+#. i18n: ectx: property (title), widget (QGroupBox, animationGroup)
+#: prefs_base.ui:17
+msgid "Animations"
+msgstr "动画"
+
+#. i18n: ectx: property (text), widget (QLabel, animationSpeedLabel)
+#: prefs_base.ui:23
+msgid "Animation &speed:"
+msgstr "动画速度(&S)："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_animationSpeed)
+#: prefs_base.ui:34
+msgid "Instant (no animation)"
+msgstr "即时(无动画)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_animationSpeed)
+#: prefs_base.ui:39
+msgid "Fast"
+msgstr "快速"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_animationSpeed)
+#: prefs_base.ui:44
+msgid "Normal"
+msgstr "正常"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_animationSpeed)
+#: prefs_base.ui:49
+msgid "Slow"
+msgstr "慢速"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_animateBoard)
+#: prefs_base.ui:57
+msgid "Animate the board as well"
+msgstr "同时使用棋盘动画"
+
+#. i18n: ectx: property (title), widget (QGroupBox, appearanceGroup)
+#: prefs_base.ui:67
+msgid "Appearance"
+msgstr "外观"
+
+#. i18n: ectx: property (text), widget (QLabel, showMarkersForLabel)
+#: prefs_base.ui:76
+msgid "Show &markers for:"
+msgstr "显示下列记分员(&M)："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showMarker)
+#: prefs_base.ui:86
+msgctxt "Option to show markers for"
+msgid "Legal moves"
+msgstr "合法回合"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showMotion)
+#: prefs_base.ui:99
+msgctxt "Option to show markers for"
+msgid "Opponent's move"
+msgstr "对手回合"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_showDanger)
+#: prefs_base.ui:109
+msgctxt "Option to show markers for"
+msgid "Check"
+msgstr "将军"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: prefs_base.ui:119
+msgid "Border display:"
+msgstr "边缘显示："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_borderDisplayType)
+#: prefs_base.ui:127
+msgid "No borders"
+msgstr "无边框"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_borderDisplayType)
+#: prefs_base.ui:132
+msgid "Only borders"
+msgstr "仅边框"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_borderDisplayType)
+#: prefs_base.ui:137
+msgid "Borders and notation"
+msgstr "边框和标示法"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: prefs_base.ui:148
+msgid "Behavior"
+msgstr "行为"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_flipBoard)
+#: prefs_base.ui:154
+msgid "Flip the board in local matches between humans"
+msgstr "本地人类竞赛时旋转棋盘"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_askDiscard)
+#: prefs_base.ui:161
+msgid "Show confirmation dialog before closing"
+msgstr "关闭前显示确认对话框"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PromotionWidget)
+#: promotiondialog.ui:14
+msgid "Pawn Promotion"
+msgstr "兵升变"
+
+#. i18n: ectx: property (text), widget (QLabel, labelPawn)
+#: promotiondialog.ui:26
+msgid "Promote pawn to:"
+msgstr "将兵升变为："
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonQueen)
+#: promotiondialog.ui:36
+msgid "Queen"
+msgstr "后"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonRook)
+#: promotiondialog.ui:46
+msgid "Rook"
+msgstr "车"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonBishop)
+#: promotiondialog.ui:53
+msgid "Bishop"
+msgstr "象"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonKnight)
+#: promotiondialog.ui:60
+msgid "Knight"
+msgstr "马"
+
+#: proto/chatwidget.cpp:88
+msgid " says: "
+msgstr " 说："
+
+#: proto/chatwidget.cpp:125
+msgid "You: "
+msgstr "您："
+
+#. i18n: ectx: property (text), widget (KPushButton, sendButton)
+#: proto/chatwidget.ui:20
+msgid "Send"
+msgstr "发送"
+
+#. i18n: ectx: property (text), widget (QToolButton, toolButton)
+#: proto/chatwidget.ui:51
+msgid "..."
+msgstr "..."
+
+#: proto/computerprotocol.cpp:56
+#, kde-format
+msgid ""
+"Program <code>%1</code> could not be started, please check that it is "
+"installed."
+msgstr "程序 <code>%1</code> 无法启动，请检查它是否安装。"
+
+#: proto/computerprotocol.cpp:73
+#, kde-format
+msgid "Console for %1 (%2)"
+msgstr "用于 %1 的控制台 (%2)"
+
+#: proto/ficsdialog.cpp:79
+msgid "Session started"
+msgstr "会话启动"
+
+#: proto/ficsdialog.cpp:93
+msgid "Logging in..."
+msgstr "正在登录..."
+
+#: proto/ficsdialog.cpp:124 proto/ficsdialog.cpp:133
+msgid "H:mm:ss"
+msgstr "H:mm:ss"
+
+#: proto/ficsdialog.cpp:151
+#, kde-format
+msgctxt "PlayerName (rating)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: proto/ficsdialog.cpp:230
+#, kde-format
+msgid "<font color='red'>Error: %1</font>"
+msgstr "<font color='red'>错误：%1</font>"
+
+#. i18n: ectx: attribute (title), widget (QWidget, accountTab)
+#: proto/ficsdialog.ui:36
+msgid "Account"
+msgstr "账户"
+
+#. i18n: ectx: attribute (toolTip), widget (QWidget, accountTab)
+#: proto/ficsdialog.ui:39
+msgid "Log in to the chess server"
+msgstr "登入到国际象棋服务器"
+
+#. i18n: ectx: property (text), widget (QLabel, usernameLabel)
+#: proto/ficsdialog.ui:58
+msgid "&Username"
+msgstr "用户名(&U)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, registeredCheckBox)
+#: proto/ficsdialog.ui:78
+msgid "This is a registered account"
+msgstr "这是一个已注册的账户"
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: proto/ficsdialog.ui:88
+msgid "&Password"
+msgstr "密码(&P)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, rememberCheckBox)
+#: proto/ficsdialog.ui:111
+msgid "Log me in automatically"
+msgstr "自动登录"
+
+#. i18n: ectx: property (text), widget (KPushButton, logInButton)
+#: proto/ficsdialog.ui:118
+msgid "Log in"
+msgstr "登录"
+
+#. i18n: ectx: property (text), widget (KPushButton, registerButton)
+#: proto/ficsdialog.ui:138
+msgid "Create an account"
+msgstr "创建账户"
+
+#. i18n: ectx: attribute (title), widget (QWidget, joinTab)
+#: proto/ficsdialog.ui:162
+msgid "Seek List"
+msgstr "查询列表"
+
+#. i18n: ectx: attribute (toolTip), widget (QWidget, joinTab)
+#: proto/ficsdialog.ui:165
+msgid "Current ads arranged in a list"
+msgstr "目前列表中的战书"
+
+#. i18n: ectx: property (text), widget (QTableWidget, offerTable)
+#: proto/ficsdialog.ui:202
+msgid "Player"
+msgstr "玩家"
+
+#. i18n: ectx: property (text), widget (QTableWidget, offerTable)
+#: proto/ficsdialog.ui:207
+msgid "Rating"
+msgstr "等级"
+
+#. i18n: ectx: property (text), widget (QTableWidget, offerTable)
+#: proto/ficsdialog.ui:212
+msgid "Time"
+msgstr "时间"
+
+#. i18n: ectx: property (text), widget (QTableWidget, offerTable)
+#: proto/ficsdialog.ui:217
+msgid "Increment"
+msgstr "增量"
+
+#. i18n: ectx: property (text), widget (QTableWidget, offerTable)
+#: proto/ficsdialog.ui:222
+msgid "Rated"
+msgstr "等级"
+
+#. i18n: ectx: property (text), widget (QTableWidget, offerTable)
+#: proto/ficsdialog.ui:227
+msgid "Variant"
+msgstr "变体"
+
+#. i18n: ectx: property (text), widget (QTableWidget, offerTable)
+#: proto/ficsdialog.ui:232
+msgid "Your color"
+msgstr "您的颜色"
+
+#. i18n: ectx: attribute (title), widget (QWidget, graphTab)
+#: proto/ficsdialog.ui:241
+msgid "Seek Graph"
+msgstr "查询图像"
+
+#. i18n: ectx: attribute (toolTip), widget (QWidget, graphTab)
+#: proto/ficsdialog.ui:244
+msgid "Current ads arranged by rating and duration"
+msgstr "目前按等级和持续时间排列的战书"
+
+#. i18n: ectx: attribute (title), widget (QWidget, challengeTab)
+#: proto/ficsdialog.ui:261
+msgid "Challenges"
+msgstr "邀战"
+
+#. i18n: ectx: attribute (toolTip), widget (QWidget, challengeTab)
+#: proto/ficsdialog.ui:264
+msgid "Post an ad for other players"
+msgstr "向其它玩家发出战书"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ratedCheckBox)
+#: proto/ficsdialog.ui:270
+msgid "Rated match"
+msgstr "等级匹配"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoCheckBox)
+#: proto/ficsdialog.ui:277
+msgid "Automatically start the game"
+msgstr "自动开始游戏"
+
+#. i18n: ectx: property (text), widget (QPushButton, seekButton)
+#: proto/ficsdialog.ui:284 proto/ficsprotocol.cpp:130
+msgctxt "Start searching for opponents"
+msgid "Seek"
+msgstr "查询"
+
+#. i18n: ectx: attribute (title), widget (QWidget, consoleTab)
+#: proto/ficsdialog.ui:298
+msgid "Console"
+msgstr "控制台"
+
+#. i18n: ectx: attribute (toolTip), widget (QWidget, consoleTab)
+#: proto/ficsdialog.ui:301
+msgid "Use custom commands"
+msgstr "使用自定义命令"
+
+#: proto/ficsprotocol.cpp:131
+msgctxt "Stop searching for opponents"
+msgid "Unseek"
+msgstr "取消查询"
+
+#: proto/ficsprotocol.cpp:133
+msgid "Help"
+msgstr "帮助"
+
+#: proto/ficsprotocol.cpp:153
+msgid "Server Console"
+msgstr "服务器控制台"
+
+#: proto/ficsprotocol.cpp:166
+#, kde-format
+msgid "Chat with %1"
+msgstr "与 %1 聊天"
+
+#: proto/ficsprotocol.cpp:199
+msgid "Login failed"
+msgstr "登录失败"
+
+#: proto/ficsprotocol.cpp:205
+msgid "Chess server"
+msgstr "国际象棋服务器"
+
+#: proto/ficsprotocol.cpp:315
+msgid "Invalid Password"
+msgstr "无效密码"
+
+#: proto/protocol.cpp:79
+msgid "No Error"
+msgstr "无错误"
+
+#: proto/protocol.cpp:82
+msgid "User Canceled"
+msgstr "用户取消"
+
+#: proto/protocol.cpp:85
+msgid "Network Error"
+msgstr "网络错误"
+
+#: proto/protocol.cpp:88
+msgid "Unknown Error"
+msgstr "未知错误"
+
+#: proto/protocol.cpp:91
+msgid "Program Error"
+msgstr "程序错误"
+
+#: proto/seekgraph.cpp:42
+msgid "Time limit [minutes]"
+msgstr "时间限制 [分钟]"
+
+#: proto/seekgraph.cpp:43
+msgid "Opponent's rating"
+msgstr "对手等级"

@@ -1,0 +1,379 @@
+# translation of kdf.po to zh_CN
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Li Zongliang <li-zongliang@21cn.com>, 2001
+# Xiong Jiang <jxiong@offtopic.org>, 2003
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdf\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-01-20 03:19+0100\n"
+"PO-Revision-Date: 2009-12-21 14:38+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: disklist.cpp:347
+#, kde-format
+msgid "could not execute [%1]"
+msgstr "无法执行 [%1]"
+
+#: disks.cpp:278
+#, kde-format
+msgid ""
+"Called: %1\n"
+"\n"
+msgstr ""
+"调用：%1\n"
+"\n"
+
+#: disks.cpp:299
+#, kde-format
+msgid "could not execute %1"
+msgstr "无法执行 %1"
+
+#: kcmdf.cpp:56
+msgid ""
+"A right mouse button click opens a context menu to mount/unmount a device or "
+"to open it in the file manager."
+msgstr ""
+"鼠标右键单击可打开一个菜单，可供您挂载/卸载设备，或是在文件管理器里打开它们。"
+
+#: kconftest.cpp:43
+msgid "A test application"
+msgstr "一个测试程序"
+
+#: kdf.cpp:38
+msgid "KDE free disk space utility"
+msgstr "KDE 剩余磁盘空间工具"
+
+#: kdf.cpp:50
+msgctxt "Update action"
+msgid "&Update"
+msgstr "更新(&U)"
+
+#: kdf.cpp:74
+msgid "KDiskFree"
+msgstr "KDiskFree"
+
+#: kdf.cpp:76
+msgid "(c) 1998-2001, Michael Kropfberger"
+msgstr "(c) 1998-2001，Michael Kropfberger"
+
+#: kdf.cpp:78 kwikdisk.cpp:320
+msgid "Michael Kropfberger"
+msgstr "Michael Kropfberger"
+
+#: kdfconfig.cpp:56
+msgctxt "TODO"
+msgid "Icon"
+msgstr "图标"
+
+#: kdfconfig.cpp:57 kdfwidget.cpp:72
+msgctxt "Device of the storage"
+msgid "Device"
+msgstr "设备"
+
+#: kdfconfig.cpp:58 kdfwidget.cpp:73
+msgctxt "Filesystem on storage"
+msgid "Type"
+msgstr "文件系统"
+
+#: kdfconfig.cpp:59 kdfwidget.cpp:74
+msgctxt "Total size of the storage"
+msgid "Size"
+msgstr "大小"
+
+#: kdfconfig.cpp:60
+msgctxt "Mount point of the storage"
+msgid "Mount Point"
+msgstr "挂载点"
+
+#: kdfconfig.cpp:61 kdfwidget.cpp:76
+msgctxt "Free space in storage"
+msgid "Free"
+msgstr "空闲"
+
+#: kdfconfig.cpp:62 kdfwidget.cpp:77
+msgctxt "Used storage space in %"
+msgid "Full %"
+msgstr "全部 %"
+
+#: kdfconfig.cpp:63 kdfwidget.cpp:78
+msgctxt "Usage graphical bar"
+msgid "Usage"
+msgstr "利用率"
+
+#: kdfconfig.cpp:88 kdfconfig.cpp:191
+msgctxt "Visible items on device information columns (enable|disable)"
+msgid "visible"
+msgstr "可见"
+
+#: kdfconfig.cpp:171
+msgctxt "Are items on device information columns visible?"
+msgid "visible"
+msgstr "可见"
+
+#: kdfconfig.cpp:172
+msgctxt "Are items on device information columns hidden?"
+msgid "hidden"
+msgstr "隐藏"
+
+#: kdfconfig.cpp:208
+msgctxt "Device information item is hidden"
+msgid "hidden"
+msgstr "隐藏"
+
+#: kdfconfig.cpp:209
+msgctxt "Device information item is visible"
+msgid "visible"
+msgstr "可见"
+
+#. i18n: ectx: property (text), widget (QLabel, updateLabel)
+#: kdfconfig.ui:35
+msgid "Update frequency:"
+msgstr "更新频率："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_updateSpinBox)
+#: kdfconfig.ui:42
+msgid " sec"
+msgstr " 秒"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mOpenMountCheck)
+#: kdfconfig.ui:55
+msgid "Open file manager automatically on mount"
+msgstr "挂载时自动打开文件管理器"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mPopupFullCheck)
+#: kdfconfig.ui:62
+msgid "Pop up a window when a disk gets critically full"
+msgstr "当磁盘被严重占满时弹出窗口"
+
+#. i18n: ectx: property (text), widget (QLabel, fileManagerEdit)
+#: kdfconfig.ui:69
+#, no-c-format
+msgid "File manager (e.g. konsole -e mc %m):"
+msgstr "文件管理器(如 konsole -e mc %m)："
+
+#. i18n: ectx: Menu (file)
+#: kdfui.rc:5
+msgid "&File"
+msgstr "文件(&F)"
+
+#: kdfwidget.cpp:75
+msgctxt "Mount point of storage"
+msgid "Mount Point"
+msgstr "挂载点"
+
+#: kdfwidget.cpp:314 kdfwidget.cpp:315
+msgid "N/A"
+msgstr "N/A"
+
+#: kdfwidget.cpp:371 kwikdisk.cpp:281
+#, kde-format
+msgid "Device [%1] on [%2] is critically full."
+msgstr "[%2]上的设备[%1]严重占满。"
+
+#: kdfwidget.cpp:373
+msgctxt "Warning device getting critically full"
+msgid "Warning"
+msgstr "警告"
+
+#: kdfwidget.cpp:421
+msgid "Mount Device"
+msgstr "挂载设备"
+
+#: kdfwidget.cpp:422
+msgid "Unmount Device"
+msgstr "卸载设备"
+
+#: kdfwidget.cpp:424
+msgid "Open in File Manager"
+msgstr "在文件管理器中打开"
+
+#: kdfwidget.cpp:441 kdfwidget.cpp:444
+msgid "MOUNTING"
+msgstr "正在挂载"
+
+#: kwikdisk.cpp:55
+msgid "KDE Free disk space utility"
+msgstr "KDE 剩余磁盘空间工具"
+
+#: kwikdisk.cpp:70 kwikdisk.cpp:316
+msgid "KwikDisk"
+msgstr "KwikDisk"
+
+#: kwikdisk.cpp:88
+msgid "&Start KDiskFree"
+msgstr "启动 KDiskFree(&S)"
+
+#: kwikdisk.cpp:92
+msgid "&Configure KwikDisk..."
+msgstr "配置 KwikDisk(&C)..."
+
+#: kwikdisk.cpp:196
+msgctxt "Unmount the storage device"
+msgid "Unmount"
+msgstr "卸载"
+
+#: kwikdisk.cpp:196
+msgctxt "Mount the storage device"
+msgid "Mount"
+msgstr "挂载"
+
+#: kwikdisk.cpp:218
+msgid "You must login as root to mount this disk"
+msgstr "你必须以 root 用户登录才能挂载磁盘"
+
+#: kwikdisk.cpp:283
+msgctxt "Device is getting critically full"
+msgid "Warning"
+msgstr "警告"
+
+#: kwikdisk.cpp:317
+msgid "(C) 2004 Stanislav Karchebny"
+msgstr "(C) 2004 Stanislav Karchebny"
+
+#: kwikdisk.cpp:320
+msgid "Original author"
+msgstr "原作者"
+
+#: kwikdisk.cpp:322
+msgid "Espen Sand"
+msgstr "Espen Sand"
+
+#: kwikdisk.cpp:322
+msgid "KDE 2 changes"
+msgstr "KDE 2 迁移"
+
+#: kwikdisk.cpp:323
+msgid "Stanislav Karchebny"
+msgstr "Stanislav Karchebny"
+
+#: kwikdisk.cpp:323
+msgid "KDE 3 changes"
+msgstr "KDE 3 迁移"
+
+#: mntconfig.cpp:70 mntconfig.cpp:75
+msgid "Device"
+msgstr "设备"
+
+#: mntconfig.cpp:71 mntconfig.cpp:77
+msgid "Mount Point"
+msgstr "挂载点"
+
+#: mntconfig.cpp:71
+msgid "Mount Command"
+msgstr "挂载命令"
+
+#: mntconfig.cpp:71
+msgid "Unmount Command"
+msgstr "卸载命令"
+
+#: mntconfig.cpp:76
+msgctxt "No device is selected"
+msgid "None"
+msgstr "无"
+
+#: mntconfig.cpp:78
+msgctxt "No mount point is selected"
+msgid "None"
+msgstr "无"
+
+#: mntconfig.cpp:262
+msgid "Only local files supported."
+msgstr "只支持本地文件。"
+
+#: mntconfig.cpp:278
+msgid "Only local files are currently supported."
+msgstr "目前只支持本地文件。"
+
+#. i18n: ectx: property (text), widget (QLabel, iconNameLabel)
+#: mntconfig.ui:20
+msgid "Icon name:"
+msgstr "图标名称："
+
+#. i18n: ectx: property (text), widget (QLabel, mountLabel)
+#: mntconfig.ui:30
+msgid "Mount Command:"
+msgstr "挂载命令："
+
+#. i18n: ectx: property (text), widget (QLabel, umountLabel)
+#: mntconfig.ui:40
+msgid "Unmount Command:"
+msgstr "卸载命令："
+
+#. i18n: ectx: property (text), widget (QPushButton, mDefaultIconButton)
+#: mntconfig.ui:50
+msgid "Default Icon"
+msgstr "默认图标"
+
+#. i18n: ectx: property (text), widget (QPushButton, mMountButton)
+#. i18n: ectx: property (text), widget (QPushButton, mUmountButton)
+#: mntconfig.ui:57 mntconfig.ui:64
+msgid "Get Command..."
+msgstr "获取命令..."
+
+#: optiondialog.cpp:31
+msgid "Configure"
+msgstr "配置"
+
+#: optiondialog.cpp:39
+msgid "General Settings"
+msgstr "常规设置"
+
+#: optiondialog.cpp:43
+msgid "Mount Commands"
+msgstr "挂载命令"
+
+#~ msgid ""
+#~ "<h3>Hardware Information</h3><br /> All the information modules return "
+#~ "information about a certain aspect of your computer hardware or your "
+#~ "operating system. Not all modules are available on all hardware "
+#~ "architectures and/or operating systems."
+#~ msgstr ""
+#~ "<h3>硬件信息</h3><br /> 所有的信息模块都会返回关于您的计算机硬件或操作系统"
+#~ "某一方面的信息。不同硬件体系结构和操作系统上的模块并不相同。"
+
+#~ msgid "Update frequency [seconds]. The value 0 disables update"
+#~ msgstr "更新频率[秒]。0 值代表禁止更新"
+
+#~ msgid "Mount command:"
+#~ msgstr "挂载命令："
+
+#~ msgid "Unmount command:"
+#~ msgstr "卸载命令："
+
+#~ msgid ""
+#~ "This filename is not valid: %1\n"
+#~ "It must end with \"_mount\" or \"_unmount\"."
+#~ msgstr ""
+#~ "文件名无效：%1\n"
+#~ "它必须以“_mount”或“_unmount”结尾。"
+
+#~ msgid "%1 (%2) %3 on %4"
+#~ msgstr "%4 上的 %1(%2) %3"
+
+#~ msgctxt "Storage device icon"
+#~ msgid "Icon"
+#~ msgstr "图标"
+
+#~ msgctxt "Item on the device information column is visible"
+#~ msgid "visible"
+#~ msgstr "可见"
+
+#~ msgid "Get Unmount Command"
+#~ msgstr "获取卸载命令"

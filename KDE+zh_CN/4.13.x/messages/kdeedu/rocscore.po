@@ -1,0 +1,2129 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2010, 2011.
+# Lie Ex <lilith.ex@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: rocs\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-18 01:37+0000\n"
+"PO-Revision-Date: 2011-11-13 19:21+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: Data.cpp:491
+#, kde-format
+msgid "Could not set data type for node %1: data type does not exist."
+msgstr ""
+
+#: Data.xml:9
+msgctxt "Scripting API Description"
+msgid ""
+"\n"
+"An abstract data element is a unit of information that belongs to an "
+"abstract data structure and possibly is connected to other data elements by "
+"pointers.\n"
+msgstr ""
+
+#: Data.xml:12 DataStructure.xml:12 DataStructures/Graph/GraphEdge.xml:12
+#: DataStructures/Graph/GraphNode.xml:12
+#: DataStructures/Graph/GraphStructure.xml:12
+#: DataStructures/LinkedList/ListNode.xml:12
+#: DataStructures/LinkedList/ListStructure.xml:12 Pointer.xml:10
+msgctxt "Scripting API Description"
+msgid "\n"
+msgstr ""
+
+#: Data.xml:16
+msgctxt "Scripting API Description"
+msgid "The unique identifier of this data element."
+msgstr ""
+
+#: Data.xml:21
+#, fuzzy
+#| msgid "Show values in:"
+msgctxt "Scripting API Description"
+msgid "The x-coordinate of this data element."
+msgstr "值显示于："
+
+#: Data.xml:26
+#, fuzzy
+#| msgid "Show values in:"
+msgctxt "Scripting API Description"
+msgid "The y-coordinate of this data element."
+msgstr "值显示于："
+
+#: Data.xml:31
+#, fuzzy
+#| msgid "Show values in:"
+msgctxt "Scripting API Description"
+msgid "The size of this data element."
+msgstr "值显示于："
+
+#: Data.xml:36
+msgctxt "Scripting API Description"
+msgid "The color of this data element stated as hexadecimal value."
+msgstr ""
+
+#: DataStructure.xml:9
+msgctxt "Scripting API Description"
+msgid ""
+"\n"
+"An abstract data structure defines a set of data elements and possible "
+"connections between them.\n"
+msgstr ""
+
+#: DataStructure.xml:16
+#, fuzzy
+#| msgid "Data Structure"
+msgctxt "Scripting API Description"
+msgid "The unique name of this data structure."
+msgstr "数据结构"
+
+#: DataStructures/Graph/GraphEdge.xml:9
+msgctxt "Scripting API Description"
+msgid ""
+"\n"
+"An Edge is the connection of two GraphNodes. Edges can be directed or "
+"undirected, depending on their type.\n"
+msgstr ""
+
+#: DataStructures/Graph/GraphNode.cpp:91 DataStructures/Graph/GraphNode.cpp:99
+#: DataStructures/Graph/GraphNode.cpp:107
+#: DataStructures/Graph/GraphNode.cpp:118
+#: DataStructures/Graph/GraphNode.cpp:126
+#: DataStructures/Graph/GraphNode.cpp:134
+#: DataStructures/LinkedList/ListStructure.cpp:152
+#: DataStructures/LinkedList/ListStructure.cpp:160
+#, kde-format
+msgid "The method \"%1\" is deprecated, please use \"%2\" instead."
+msgstr ""
+
+#: DataStructures/Graph/GraphNode.xml:9
+msgctxt "Scripting API Description"
+msgid ""
+"\n"
+"A node is the data element of a graph.\n"
+msgstr ""
+
+#: DataStructures/Graph/GraphNode.xml:19
+msgctxt "Scripting API Description"
+msgid ""
+"Return list all nodes connected to this node. This method respects if edges "
+"are directed."
+msgstr ""
+
+#: DataStructures/Graph/GraphNode.xml:28
+msgctxt "Scripting API Description"
+msgid "Return a list of all edges (incoming and outgoing) of this node."
+msgstr ""
+
+#: DataStructures/Graph/GraphNode.xml:37
+msgctxt "Scripting API Description"
+msgid ""
+"Return a list of all edges (incoming and outgoing) of this node of a "
+"specified type."
+msgstr ""
+
+#: DataStructures/Graph/GraphNode.xml:51
+msgctxt "Scripting API Description"
+msgid "Return a list of incoming edges of this node."
+msgstr ""
+
+#: DataStructures/Graph/GraphNode.xml:60
+msgctxt "Scripting API Description"
+msgid "Return a list of all incoming edges of this node of a specified type."
+msgstr ""
+
+#: DataStructures/Graph/GraphNode.xml:74
+msgctxt "Scripting API Description"
+msgid "Return a list of all outgoing edges of this node."
+msgstr ""
+
+#: DataStructures/Graph/GraphNode.xml:83
+msgctxt "Scripting API Description"
+msgid "Return a list of all outgoing edges of this node of a specified type."
+msgstr ""
+
+#: DataStructures/Graph/GraphNode.xml:97
+msgctxt "Scripting API Description"
+msgid "Return a list of all edges of this node to the specified node."
+msgstr ""
+
+#: DataStructures/Graph/GraphPlugin.cpp:36
+msgctxt "@title Displayed plugin name"
+msgid "Graph Structure"
+msgstr "图形结构"
+
+#: DataStructures/Graph/GraphPlugin.cpp:94
+msgctxt "coordinate axis"
+msgid "x"
+msgstr "x"
+
+#: DataStructures/Graph/GraphPlugin.cpp:95
+msgctxt "coordinate axis"
+msgid "y"
+msgstr "y"
+
+#: DataStructures/Graph/GraphPlugin.cpp:96
+msgid "Size"
+msgstr "大小"
+
+#: DataStructures/Graph/GraphPlugin.cpp:113
+msgid "Graph Type:"
+msgstr "图类型："
+
+#: DataStructures/Graph/GraphPlugin.cpp:115
+msgctxt "@label:inlistbox"
+msgid "Graph"
+msgstr "图形"
+
+#: DataStructures/Graph/GraphPlugin.cpp:117
+#, fuzzy
+#| msgid "Multigraph"
+msgctxt ""
+"@label:inlistbox graph for which several edges between same nodes may exist"
+msgid "Multigraph"
+msgstr "多图"
+
+#: DataStructures/Graph/GraphStructure.cpp:156
+msgid "Cannot create edge: nodes are not defined."
+msgstr ""
+
+#: DataStructures/Graph/GraphStructure.cpp:160
+#, kde-format
+msgid "Cannot create edge: pointer type %1 not defined"
+msgstr ""
+
+#: DataStructures/Graph/GraphStructure.cpp:179
+#: DataStructures/Graph/GraphStructure.cpp:187
+#: DataStructures/Graph/GraphStructure.cpp:195
+#: DataStructures/Graph/GraphStructure.cpp:203
+#: DataStructures/Graph/GraphStructure.cpp:211
+#: DataStructures/Graph/GraphStructure.cpp:219
+#: DataStructures/Graph/GraphStructure.cpp:229
+#: DataStructures/Graph/GraphStructure.cpp:237 QtScriptBackend.cpp:265
+#: QtScriptBackend.cpp:271
+#, kde-format
+msgid "The global method \"%1\" is deprecated, please use \"%2\" instead."
+msgstr ""
+
+#: DataStructures/Graph/GraphStructure.cpp:390
+msgid "This action will probably remove some edges. Do you want to continue?"
+msgstr "此动作可能会删除边，是否继续？"
+
+#: DataStructures/Graph/GraphStructure.cpp:430
+#, kde-format
+msgid "Could not add back-edge (%1->%2) to undirected graph."
+msgstr ""
+
+#: DataStructures/Graph/GraphStructure.cpp:441
+#, kde-format
+msgid "Could not add existing edge (%1->%2): this graph is no multigraph."
+msgstr ""
+
+#: DataStructures/Graph/GraphStructure.xml:9
+msgctxt "Scripting API Description"
+msgid ""
+"\n"
+"A graph objects holds the information of a data structure of type \"Graph"
+"\".\n"
+msgstr ""
+
+#: DataStructures/Graph/GraphStructure.xml:19
+msgctxt "Scripting API Description"
+msgid "Return list all nodes in the graph."
+msgstr ""
+
+#: DataStructures/Graph/GraphStructure.xml:28
+msgctxt "Scripting API Description"
+msgid "Return list all nodes in the graph of specified type."
+msgstr ""
+
+#: DataStructures/Graph/GraphStructure.xml:37
+msgctxt "Scripting API Description"
+msgid "Return list all edges in the graph."
+msgstr ""
+
+#: DataStructures/Graph/GraphStructure.xml:46
+msgctxt "Scripting API Description"
+msgid "Return list all edges in the graph of specified type."
+msgstr ""
+
+#: DataStructures/Graph/GraphStructure.xml:60
+#: DataStructures/LinkedList/ListStructure.xml:42
+msgctxt "Scripting API Description"
+msgid ""
+"Create a new node of the specified type and return the created node. If the "
+"type is not registered, no node is created."
+msgstr ""
+
+#: DataStructures/Graph/GraphStructure.xml:74
+#: DataStructures/LinkedList/ListStructure.xml:56
+#, fuzzy
+#| msgid "Creates a new node at the click position on the drawing area."
+msgctxt "Scripting API Description"
+msgid "Create a new node of default type and return the created node."
+msgstr "在绘制区域上的点击位置创建一个新节点。"
+
+#: DataStructures/Graph/GraphStructure.xml:83
+msgctxt "Scripting API Description"
+msgid ""
+"Create an edge from node \"from\" to node \"to\" of the specified type and "
+"return the created edge. If the type is not registered, no edge is created."
+msgstr ""
+
+#: DataStructures/Graph/GraphStructure.xml:107
+msgctxt "Scripting API Description"
+msgid ""
+"Create an edge from node \"from\" to node \"to\" of default type and return "
+"the created edge."
+msgstr ""
+
+#: DataStructures/Graph/GraphStructure.xml:126
+msgctxt "Scripting API Description"
+msgid ""
+"Returns an array of shortest path lengths from this node to every other node "
+"in the graph."
+msgstr ""
+
+#: DataStructures/LinkedList/ListNode.xml:9
+msgctxt "Scripting API Description"
+msgid ""
+"\n"
+"A node is the data element of a linked list.\n"
+msgstr ""
+
+#: DataStructures/LinkedList/ListNode.xml:19
+msgctxt "Scripting API Description"
+msgid "Set pointer of this list node to the target node."
+msgstr ""
+
+#: DataStructures/LinkedList/ListPlugin.cpp:41
+#, fuzzy
+#| msgid "Linked List Structure"
+msgctxt "@title Displayed plugin name"
+msgid "Linked List Structure"
+msgstr "链表结构"
+
+#: DataStructures/LinkedList/ListPlugin.cpp:82
+msgid "Front value"
+msgstr "前端值"
+
+#: DataStructures/LinkedList/ListPlugin.cpp:101
+#, kde-format
+msgid "Data '%1' has more than one out pointer."
+msgstr ""
+
+#: DataStructures/LinkedList/ListPlugin.cpp:109
+#: DataStructures/RootedTree/RootedTreePlugin.cpp:129
+#, kde-format
+msgid "Cannot convert document '%1'"
+msgstr "无法转换文档“%1”"
+
+#: DataStructures/LinkedList/ListStructure.xml:9
+msgctxt "Scripting API Description"
+msgid ""
+"\n"
+"A list objects holds the information of a data structure of type \"Linked "
+"List\".\n"
+msgstr ""
+
+#: DataStructures/LinkedList/ListStructure.xml:19
+msgctxt "Scripting API Description"
+msgid "Return head node of the list."
+msgstr ""
+
+#: DataStructures/LinkedList/ListStructure.xml:28
+msgctxt "Scripting API Description"
+msgid "Set the head of the list."
+msgstr ""
+
+#: DataStructures/RootedTree/RootedTreePlugin.cpp:36
+#, fuzzy
+#| msgid "Data Structure"
+msgctxt "@title Displayed plugin name"
+msgid "RootedTree Structure"
+msgstr "数据结构"
+
+#: DataStructures/RootedTree/RootedTreePlugin.cpp:86
+#, fuzzy
+#| msgid "Show values in:"
+msgctxt "@option:check"
+msgid "Show all pointers"
+msgstr "值显示于："
+
+#: DataStructures/RootedTree/RootedTreePlugin.cpp:116
+#, kde-format
+msgid "There are cycles at node %1. Data will be lost by conversion."
+msgstr ""
+
+#: DataType.cpp:42
+#, fuzzy
+#| msgid "Node Properties"
+msgid "Element"
+msgstr "节点属性"
+
+#: DocumentManager.cpp:227
+msgctxt ""
+"document that contains graphs or data structures as a visual representation"
+msgid "Document"
+msgstr "文档"
+
+#: EngineModules/Console/Console.xml:7
+msgctxt "Scripting API Description"
+msgid ""
+"The Console object allows you to print messages of different importance to a "
+"log."
+msgstr ""
+
+#: EngineModules/Console/Console.xml:8
+msgctxt "Scripting API Description"
+msgid ""
+"Console is not a constructor. All properties and methods of Console can be "
+"called by using Console as an object, without creating it."
+msgstr ""
+
+#: EngineModules/Console/Console.xml:11
+msgctxt "Scripting API Description"
+msgid ""
+"Console.log(\"This is a program message.\"); // print a program message\n"
+"Console.debug(\"A debug message.\"); // print a debug message"
+msgstr ""
+
+#: EngineModules/Console/Console.xml:18
+msgctxt "Scripting API Description"
+msgid "Print the given message of normal severity."
+msgstr ""
+
+#: EngineModules/Console/Console.xml:32
+msgctxt "Scripting API Description"
+msgid "Print the given debug message."
+msgstr ""
+
+#: EngineModules/Console/Console.xml:46
+msgctxt "Scripting API Description"
+msgid "Print the given error message of high severity."
+msgstr ""
+
+#: Group.cpp:53
+msgid "Group"
+msgstr ""
+
+#: IncludeManager.cpp:98
+#, kde-format
+msgid "Cannot open file %1."
+msgstr "无法打开文件 %1。"
+
+#: IncludeManager.cpp:128
+#, fuzzy, kde-format
+#| msgid ""
+#| "debug(\"Invalid include directive: %1. Can't find file in directive.\")"
+msgid "Invalid include directive: %1. Cannot find file in directive."
+msgstr "debug(\"无效的包含指令：%1。找不到文件。\")"
+
+#: LoadSave/Plugins/dotFileFormat/DotFileFormatPlugin.cpp:41
+msgctxt "@title Displayed plugin name"
+msgid "Graphviz Graph File Backend"
+msgstr "Graphviz 图形文件后端"
+
+#: LoadSave/Plugins/dotFileFormat/DotFileFormatPlugin.cpp:43
+msgid "Read and write Graphviz graph files."
+msgstr "读写 Graphviz 图形文件。"
+
+#: LoadSave/Plugins/dotFileFormat/DotFileFormatPlugin.cpp:65
+msgid "*.dot *.gv|Graphviz Format"
+msgstr "*.dot *.gv|Graphviz 格式文件"
+
+#: LoadSave/Plugins/dotFileFormat/DotFileFormatPlugin.cpp:71
+#: LoadSave/Plugins/gmlFileFormat/GmlFileFormatPlugin.cpp:65
+#: LoadSave/Plugins/kmlFileFormat/KmlFileFormatPlugin.cpp:144
+msgid "Import"
+msgstr "导入"
+
+#: LoadSave/Plugins/dotFileFormat/DotFileFormatPlugin.cpp:77
+#: LoadSave/Plugins/gmlFileFormat/GmlFileFormatPlugin.cpp:71
+#: LoadSave/Plugins/tgfFileFormat/TgfFileFormatPlugin.cpp:72
+#: LoadSave/RocsGraphFileFormatPlugin.cpp:85
+#, kde-format
+msgid "Could not open file \"%1\" in read mode: %2"
+msgstr "只读模式下无法打开文件 “%1”：%2"
+
+#: LoadSave/Plugins/dotFileFormat/DotFileFormatPlugin.cpp:83
+#: LoadSave/Plugins/gmlFileFormat/GmlFileFormatPlugin.cpp:77
+#, kde-format
+msgid "Could not parse file \"%1\"."
+msgstr "无法解析文件 “%1”。"
+
+#: LoadSave/Plugins/dotFileFormat/DotFileFormatPlugin.cpp:99
+#: LoadSave/Plugins/gmlFileFormat/GmlFileFormatPlugin.cpp:91
+msgid "No active graph in this document."
+msgstr "此文档中没有活动图像。"
+
+#: LoadSave/Plugins/dotFileFormat/DotFileFormatPlugin.cpp:107
+#: LoadSave/Plugins/gmlFileFormat/GmlFileFormatPlugin.cpp:98
+#, kde-format
+msgid "Cannot open file %1 to write document. Error: %2"
+msgstr "无法打开文件 %1 以供写入文档。错误：%2"
+
+#: LoadSave/Plugins/gmlFileFormat/GmlFileFormatPlugin.cpp:38
+msgctxt "@title Displayed plugin name"
+msgid "GML File Backend"
+msgstr "GML 文件后端"
+
+#: LoadSave/Plugins/gmlFileFormat/GmlFileFormatPlugin.cpp:40
+msgid "Read and write Graph Markup Language (GML) files."
+msgstr "读写 Graph 标记语言(GML)文件。"
+
+#: LoadSave/Plugins/gmlFileFormat/GmlFileFormatPlugin.cpp:60
+msgid "*.gml|Graph Markup Language Format"
+msgstr ".gml|Graph 标记语言格式"
+
+#: LoadSave/Plugins/kmlFileFormat/KmlFileFormatPlugin.cpp:40
+msgctxt "@title Displayed plugin name"
+msgid "KML File Backend"
+msgstr "KML 文件后端"
+
+#: LoadSave/Plugins/kmlFileFormat/KmlFileFormatPlugin.cpp:42
+msgid "Read and write Keyhole Markup Language (KML) files."
+msgstr "读写 Keyhole 标记语言(KML)文件。"
+
+#: LoadSave/Plugins/kmlFileFormat/KmlFileFormatPlugin.cpp:62
+msgid "*.kml|Keyhole Markup Language Format"
+msgstr "*.kml|Keyhole 标记语言格式"
+
+#: LoadSave/Plugins/kmlFileFormat/KmlFileFormatPlugin.cpp:72
+#, kde-format
+msgid "Cannot open file %1: %2"
+msgstr "无法打开文件 %1：%2"
+
+#: LoadSave/Plugins/tgfFileFormat/TgfFileFormatPlugin.cpp:35
+msgctxt "@title Displayed plugin name"
+msgid "TGF File Backend"
+msgstr "TGF 文件后端"
+
+#: LoadSave/Plugins/tgfFileFormat/TgfFileFormatPlugin.cpp:37
+msgid "Read and write Trivial Graph Format (TGF) files."
+msgstr "读写 Trivial 图形格式(TGF)文件。"
+
+#: LoadSave/Plugins/tgfFileFormat/TgfFileFormatPlugin.cpp:56
+msgid "*.tgf|Trivial Graph Format"
+msgstr "*.tgf|Trivial 图形格式"
+
+#: LoadSave/Plugins/tgfFileFormat/TgfFileFormatPlugin.cpp:91
+#, kde-format
+msgid "Could not parse file. Identifier \"%1\" is used more than once."
+msgstr "无法解析文件。%1 的文件描述符已被其它进程使用。"
+
+#: LoadSave/Plugins/tgfFileFormat/TgfFileFormatPlugin.cpp:103
+#, kde-format
+msgid "Could not parse file. Edge from \"%1\" to \"%2\" uses undefined nodes."
+msgstr ""
+
+#: LoadSave/Plugins/tgfFileFormat/TgfFileFormatPlugin.cpp:121
+#: LoadSave/Plugins/tikzFileFormat/TikzFileFormatPlugin.cpp:75
+#: LoadSave/RocsGraphFileFormatPlugin.cpp:301
+#, kde-format
+msgid "Could not open file \"%1\" in write mode: %2"
+msgstr "无法已可写模式打开文件 “%1”：%2"
+
+#: LoadSave/Plugins/tgfFileFormat/TgfFileFormatPlugin.cpp:128
+#: LoadSave/Plugins/tikzFileFormat/TikzFileFormatPlugin.cpp:82
+msgid "No data structure specified for output in this document."
+msgstr "此文档没有指定输出数据的结构。"
+
+#: LoadSave/Plugins/tikzFileFormat/TikzFileFormatPlugin.cpp:33
+msgctxt "@title Displayed plugin name"
+msgid "PGF/TikZ Export File Backend"
+msgstr "PGF/TikZ 文件导出后端"
+
+#: LoadSave/Plugins/tikzFileFormat/TikzFileFormatPlugin.cpp:35
+msgid "Export graph documents in PGF/TikZ format."
+msgstr "以 PGF/TikZ 格式导出图形文档。"
+
+#: LoadSave/Plugins/tikzFileFormat/TikzFileFormatPlugin.cpp:54
+msgid "*.pgf|TikZ (PGF) Format"
+msgstr "*.pgf|TikZ(PGF 格式)"
+
+#: LoadSave/RocsGraphFileFormatPlugin.cpp:39
+msgctxt "@title Displayed plugin name"
+msgid "Rocs Graph File Backend"
+msgstr "Rocs 图形文件后端"
+
+#: LoadSave/RocsGraphFileFormatPlugin.cpp:41
+msgid "Read and write Rocs Graph Files"
+msgstr "读写 Rocs 图形文件"
+
+#: LoadSave/RocsGraphFileFormatPlugin.cpp:70
+msgid "*.graph|Rocs Graph File Format"
+msgstr "*.graph|Rocs 图形文件格式"
+
+#: LoadSave/RocsGraphFileFormatPlugin.cpp:312
+#, kde-format
+msgid "Could not write data, aborting. Error: %1."
+msgstr "写数据意外中止。错误：%1。"
+
+#: Pointer.cpp:300
+msgid "Could not set pointer type: pointer type does not exist."
+msgstr ""
+
+#: Pointer.xml:7
+msgctxt "Scripting API Description"
+msgid ""
+"A pointer connects two data elements and can itself hold information by its "
+"properties."
+msgstr ""
+
+#: Pointer.xml:14
+msgctxt "Scripting API Description"
+msgid "Start of the connection."
+msgstr ""
+
+#: Pointer.xml:19
+#, fuzzy
+#| msgid "Connection Type"
+msgctxt "Scripting API Description"
+msgid "End of the connection"
+msgstr "连接类型"
+
+#: Pointer.xml:24
+msgctxt "Scripting API Description"
+msgid ""
+"If true, the connection is directed. Otherwise is connection is undirected."
+msgstr ""
+
+#: Pointer.xml:29
+msgctxt "Scripting API Description"
+msgid "ID of the connection type."
+msgstr ""
+
+#: Pointer.xml:34
+msgctxt "Scripting API Description"
+msgid "The width of the connection."
+msgstr ""
+
+#: Pointer.xml:42
+msgctxt "Scripting API Description"
+msgid "Remove this connection."
+msgstr ""
+
+#: Pointer.xml:51
+msgctxt "Scripting API Description"
+msgid "Add a new property to the connection."
+msgstr ""
+
+#: Pointer.xml:70
+msgctxt "Scripting API Description"
+msgid "Remove an existing property from the connection."
+msgstr ""
+
+#: PointerType.cpp:39
+msgid "Connection"
+msgstr "连接"
+
+#: QtScriptBackend.cpp:189
+msgid "Rocs Console script"
+msgstr "Rocs 控制台脚本"
+
+#: QtScriptBackend.cpp:191 QtScriptBackend.cpp:235
+#, kde-format
+msgid "Script Error: %1"
+msgstr ""
+
+#: QtScriptBackend.cpp:195 QtScriptBackend.cpp:240
+msgctxt "@info status message after successful script execution"
+msgid "<i>Execution Finished</i>"
+msgstr "<i>执行完毕</i>"
+
+#: QtScriptBackend.cpp:298
+#, fuzzy, kde-format
+#| msgid "<b style=\"color: red\"> Error in include file %1</b>"
+msgid "Script error in included file %1"
+msgstr "<b style=\"color: red\">包含文件 %1 时出错</b>"
+
+#, fuzzy
+#~| msgid "Unique"
+#~ msgctxt "dynamic property that is present exactly once"
+#~ msgid "Unique"
+#~ msgstr "单一"
+
+#, fuzzy
+#~| msgid "Multiple"
+#~ msgctxt "dynamic property that is present multiple times"
+#~ msgid "Multiple"
+#~ msgstr "多个"
+
+#, fuzzy
+#~| msgid "Global"
+#~ msgctxt "dynamic property that is present at all elements"
+#~ msgid "Global"
+#~ msgstr "全局"
+
+#~ msgctxt "type of dynamic property"
+#~ msgid "None"
+#~ msgstr "无"
+
+#, fuzzy
+#~| msgid "Add Edge"
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Add Edge"
+#~ msgstr "添加边"
+
+#, fuzzy
+#~| msgid "Creates a new edge between 2 nodes"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Creates a new edge between 2 nodes"
+#~ msgstr "在两个节点间创建一条新边"
+
+#, fuzzy
+#~| msgid "Data"
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Add Data"
+#~ msgstr "数据"
+
+#, fuzzy
+#~| msgid "Creates a new node at the click position on the drawing area."
+#~ msgctxt "@info:tooltip"
+#~ msgid "Creates a new node at the click position."
+#~ msgstr "在绘制区域上的点击位置创建一个新节点。"
+
+#~ msgid "untitled"
+#~ msgstr "无标题"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Delete"
+#~ msgstr "删除"
+
+#, fuzzy
+#~| msgid "Delete items by clicking on them."
+#~ msgctxt "@info:tooltip"
+#~ msgid "Delete items by clicking on them."
+#~ msgstr "通过点击项目来删除。"
+
+#, fuzzy
+#~| msgid "Edge Properties"
+#~ msgctxt "@title:window"
+#~ msgid "Data Type Properties"
+#~ msgstr "边属性"
+
+#, fuzzy
+#~| msgid "Node Properties"
+#~ msgctxt "@title:window"
+#~ msgid "Pointer Type Properties"
+#~ msgstr "节点属性"
+
+#, fuzzy
+#~| msgid "Move"
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Move"
+#~ msgstr "移动"
+
+#, fuzzy
+#~| msgid "Zoom"
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Zoom"
+#~ msgstr "缩放"
+
+#, fuzzy
+#~| msgid "Zoom the canvas by the wheel, or by dragging."
+#~ msgctxt "@info:tooltip"
+#~ msgid "Zoom the canvas by the wheel, or by dragging."
+#~ msgstr "通过滚轮或拖拽缩放界面"
+
+#, fuzzy
+#~| msgid "Properties"
+#~ msgctxt "@action:button"
+#~ msgid "Properties"
+#~ msgstr "属性"
+
+#, fuzzy
+#~| msgid "New Graph"
+#~ msgctxt "@label:listbox"
+#~ msgid "Graph Document:"
+#~ msgstr "新建图"
+
+#~ msgid "Data Structure:"
+#~ msgstr "数据结构："
+
+#, fuzzy
+#~| msgid "Data Structure"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Add a new data structure."
+#~ msgstr "数据结构"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Remove selected data structure."
+#~ msgstr "选择"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Edit Data Types"
+#~ msgstr "选择"
+
+#, fuzzy
+#~| msgid "Edge Properties"
+#~ msgctxt "@title:window"
+#~ msgid "Data Element Properties"
+#~ msgstr "边属性"
+
+#, fuzzy
+#~| msgid "Edge Properties"
+#~ msgid "Data Properties"
+#~ msgstr "边属性"
+
+#, fuzzy
+#~| msgid "Properties"
+#~ msgid "Static Properties"
+#~ msgstr "属性"
+
+#~ msgid "Node color"
+#~ msgstr "节点颜色"
+
+#~ msgid "Color:"
+#~ msgstr "颜色："
+
+#, fuzzy
+#~| msgid "Type"
+#~ msgid "Type:"
+#~ msgstr "类型"
+
+#, fuzzy
+#~| msgid "Properties"
+#~ msgid "Dynamic Properties"
+#~ msgstr "属性"
+
+#~ msgid "Name:"
+#~ msgstr "名称："
+
+#, fuzzy
+#~| msgid "Data Structure:"
+#~ msgid "Data Structure Plugin:"
+#~ msgstr "数据结构："
+
+#, fuzzy
+#~| msgid "Data Structure"
+#~ msgid "Data Structure Plugin Properties"
+#~ msgstr "数据结构"
+
+#, fuzzy
+#~| msgid "Data Structure"
+#~ msgctxt "@title:tab"
+#~ msgid "Data Structure"
+#~ msgstr "数据结构"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgctxt "@title:tab"
+#~ msgid "Data Types"
+#~ msgstr "选择"
+
+#, fuzzy
+#~| msgid "Node Properties"
+#~ msgctxt "@title:tab"
+#~ msgid "Pointer Types"
+#~ msgstr "节点属性"
+
+#, fuzzy
+#~| msgid "Data Structure"
+#~ msgctxt "@title:window"
+#~ msgid "Data Structure Properties"
+#~ msgstr "数据结构"
+
+#~ msgid "Name"
+#~ msgstr "名称"
+
+#, fuzzy
+#~| msgid "Data Color:"
+#~ msgid "Default Value"
+#~ msgstr "数据颜色："
+
+#, fuzzy
+#~| msgid "Property"
+#~ msgctxt "Property identifier, only a-Z and no spaces"
+#~ msgid "property%1"
+#~ msgstr "属性"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Data Type"
+#~ msgstr "选择"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select Data Type:"
+#~ msgstr "选择"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Remove selected data type."
+#~ msgstr "选择"
+
+#, fuzzy
+#~| msgid "Data Structure"
+#~ msgid "Add new data type."
+#~ msgstr "数据结构"
+
+#, fuzzy
+#~| msgid "Data Color:"
+#~ msgid "Default Color:"
+#~ msgstr "数据颜色："
+
+#, fuzzy
+#~| msgid "Edge Properties"
+#~ msgid "Data Type Properties"
+#~ msgstr "边属性"
+
+#, fuzzy
+#~| msgid "Node Properties"
+#~ msgctxt "@title:window"
+#~ msgid "Document Properties"
+#~ msgstr "节点属性"
+
+#~ msgid "Property"
+#~ msgstr "属性"
+
+#~ msgid "Value"
+#~ msgstr "值"
+
+#, fuzzy
+#~| msgid "Node Properties"
+#~ msgid "Edit Pointer Types"
+#~ msgstr "节点属性"
+
+#, fuzzy
+#~| msgid "Node Properties"
+#~ msgctxt "@title:window"
+#~ msgid "Pointer Properties"
+#~ msgstr "节点属性"
+
+#, fuzzy
+#~| msgid "Node Properties"
+#~ msgid "Pointer Properties"
+#~ msgstr "节点属性"
+
+#~ msgid "Width:"
+#~ msgstr "宽度："
+
+#, fuzzy
+#~| msgid "solid"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "solid line"
+#~ msgstr "实线"
+
+#, fuzzy
+#~| msgid "dash"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "dash line"
+#~ msgstr "虚线"
+
+#, fuzzy
+#~| msgid "dash dot"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "dash dot line"
+#~ msgstr "点划线"
+
+#, fuzzy
+#~| msgid "Connection Type"
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Connection"
+#~ msgstr "连接类型"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select Pointer Type:"
+#~ msgstr "选择"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Remove selected pointer type."
+#~ msgstr "选择"
+
+#, fuzzy
+#~| msgid "Connection Type"
+#~ msgid "Direction:"
+#~ msgstr "连接类型"
+
+#~ msgid "Style:"
+#~ msgstr "样式："
+
+#, fuzzy
+#~| msgid "Node Properties"
+#~ msgid "Pointer Type Properties"
+#~ msgstr "节点属性"
+
+#, fuzzy
+#~| msgid "Data Structure"
+#~ msgctxt "@title:menu"
+#~ msgid "Data Structure"
+#~ msgstr "数据结构"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgctxt "@title:menu"
+#~ msgid "Selected"
+#~ msgstr "选择"
+
+#, fuzzy
+#~| msgid "Zoom"
+#~ msgctxt "@title:menu"
+#~ msgid "Zoom"
+#~ msgstr "缩放"
+
+#, fuzzy
+#~ msgctxt "@action:inmenu Zoom"
+#~ msgid "In"
+#~ msgstr "接近"
+
+#, fuzzy
+#~| msgid "Output"
+#~ msgctxt "@action:inmenu Zoom"
+#~ msgid "Out"
+#~ msgstr "远离"
+
+#, fuzzy
+#~| msgid "Reset"
+#~ msgctxt "@action:inmenu Zoom"
+#~ msgid "Reset"
+#~ msgstr "重置"
+
+#~ msgid "Align"
+#~ msgstr "对齐"
+
+#, fuzzy
+#~| msgid "Bottom"
+#~ msgctxt "@action:inmenu align elements at bottom"
+#~ msgid "Bottom"
+#~ msgstr "底部"
+
+#, fuzzy
+#~| msgid "Center"
+#~ msgctxt "@action:inmenu align elements at center"
+#~ msgid "Center"
+#~ msgstr "居中"
+
+#, fuzzy
+#~| msgid "Top"
+#~ msgctxt "@action:inmenu align elements at top"
+#~ msgid "Top"
+#~ msgstr "顶部"
+
+#, fuzzy
+#~| msgid "Left"
+#~ msgctxt "@action:inmenu align elements left"
+#~ msgid "Left"
+#~ msgstr "左"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgctxt "@action:inmenu align elements right"
+#~ msgid "Right"
+#~ msgstr "右"
+
+#, fuzzy
+#~| msgid "Circle"
+#~ msgctxt "@action:inmenu align elements as a circle"
+#~ msgid "Circle"
+#~ msgstr "圆形"
+
+#, fuzzy
+#~| msgid "Minimize Crossing Edges"
+#~ msgctxt ""
+#~ "@action:inmenu align elements such that crossing edges are minimized"
+#~ msgid "Minimize Crossing Edges"
+#~ msgstr "最小交叉边"
+
+#, fuzzy
+#~| msgid "Properties"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Properties"
+#~ msgstr "属性"
+
+#, fuzzy
+#~| msgid "Values"
+#~ msgctxt "@title:menu Assign values"
+#~ msgid "Values"
+#~ msgstr "数值"
+
+#, fuzzy
+#~| msgid "generate"
+#~ msgctxt "@action:inmenu Value"
+#~ msgid "Enumerate"
+#~ msgstr "生成"
+
+#, fuzzy
+#~| msgid "Random Integers"
+#~ msgctxt "@action:inmenu Value"
+#~ msgid "Random Integers"
+#~ msgstr "随机整数"
+
+#, fuzzy
+#~| msgid "Random Graph"
+#~ msgctxt "@action:inmenu Value"
+#~ msgid "Random Reals"
+#~ msgstr "随机图"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Delete"
+#~ msgstr "删除"
+
+#, fuzzy
+#~| msgid "Assign Values"
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Assign Values"
+#~ msgstr "赋值"
+
+#~ msgid "Assign Values"
+#~ msgstr "赋值"
+
+#~ msgid "Data Structure"
+#~ msgstr "数据结构"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">List of all data "
+#~ "structures that are of type <span style=\" font-style:italic;\">Graph</"
+#~ "span>.</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">所有<span style=\" font-"
+#~ "style:italic;\">图</span>类型的数据结构列表。</p></body></html>"
+
+#~ msgid "Nodes"
+#~ msgstr "节点"
+
+#~ msgid "Edges"
+#~ msgstr "边"
+
+#~ msgid "Start ID"
+#~ msgstr "开始 ID"
+
+#~ msgid "Lower Limit"
+#~ msgstr "下限"
+
+#~ msgid "Upper Limit"
+#~ msgstr "上限"
+
+#~ msgid "Generator Seed"
+#~ msgstr "生成器种子"
+
+#, fuzzy
+#~| msgid "generate"
+#~ msgid "Enumerate Items"
+#~ msgstr "生成"
+
+#~ msgid "Assign Random Integers"
+#~ msgstr "赋随机整数"
+
+#, fuzzy
+#~| msgid "Random Graph"
+#~ msgid "Assign Random Reals"
+#~ msgstr "随机图"
+
+#, fuzzy
+#~| msgid "Generate Graph"
+#~ msgctxt "@Title Displayed plugin name"
+#~ msgid "Generate Graph"
+#~ msgstr "生成图"
+
+#, fuzzy
+#~| msgid "Generate Graph"
+#~ msgctxt "@title:window"
+#~ msgid "Generate Graph"
+#~ msgstr "生成图"
+
+#~ msgid "Mesh Graph"
+#~ msgstr "节点图"
+
+#~ msgid "Star Graph"
+#~ msgstr "星图"
+
+#~ msgid "Circle Graph"
+#~ msgstr "圈图"
+
+#, fuzzy
+#~| msgid "Random Graph"
+#~ msgid "RandomGraph"
+#~ msgstr "随机图"
+
+#~ msgid "Generate Graph"
+#~ msgstr "生成图"
+
+#~ msgid "Random Graph"
+#~ msgstr "随机图"
+
+#~ msgid "Number of Columns:"
+#~ msgstr "列数："
+
+#~ msgid "Number of Rows:"
+#~ msgstr "行数："
+
+#~ msgid "Satellite Nodes:"
+#~ msgstr "卫星节点："
+
+#~ msgid "Number of Nodes:"
+#~ msgstr "节点数："
+
+#~ msgid "Nodes:"
+#~ msgstr "节点："
+
+#~ msgid "Edges:"
+#~ msgstr "边："
+
+#~ msgid "Generator Seed:"
+#~ msgstr "生成器种子："
+
+#, fuzzy
+#~| msgid "Nodes:"
+#~ msgid "Nodes (n):"
+#~ msgstr "节点："
+
+#, fuzzy
+#~| msgid "Transform Edges"
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Transform Edges"
+#~ msgstr "转换边"
+
+#, fuzzy
+#~| msgid "Transform Edges"
+#~ msgctxt "@title:window"
+#~ msgid "Transform Edges"
+#~ msgstr "转换边"
+
+#~ msgid "Transform Edges"
+#~ msgstr "转换边"
+
+#~ msgid "Complete Graph"
+#~ msgstr "完全图"
+
+#, fuzzy
+#~| msgid "Remove Edges"
+#~ msgid "Remove all Edges"
+#~ msgstr "删除边"
+
+#, fuzzy
+#~| msgid "Remove Edges"
+#~ msgid "Reverse all Edges"
+#~ msgstr "删除边"
+
+#~ msgid ""
+#~ "A KDE Text Editor could not be found, \n"
+#~ " please, check your installation"
+#~ msgstr ""
+#~ "无法找到 KDE 文本编辑器，\n"
+#~ "请检查您的安装"
+
+#~ msgid "Default Information Display"
+#~ msgstr "默认信息显示"
+
+#~ msgid "Node Information"
+#~ msgstr "节点信息"
+
+#~ msgid "centered"
+#~ msgstr "居中"
+
+#~ msgid "below"
+#~ msgstr "下方"
+
+#~ msgid "above"
+#~ msgstr "上方"
+
+#~ msgid "Edge Information"
+#~ msgstr "边信息"
+
+#, fuzzy
+#~| msgid "Show values in:"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set visibility of pointers"
+#~ msgstr "值显示于："
+
+#~ msgid "*|All files"
+#~ msgstr "*|全部文件"
+
+#, fuzzy
+#~| msgid "Export"
+#~ msgctxt "@action:button"
+#~ msgid "Export"
+#~ msgstr "导出"
+
+#, fuzzy
+#~| msgid "Export graphs to file"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Export graphs to file"
+#~ msgstr "将图导出到文件"
+
+#, fuzzy
+#~| msgid "Open Script"
+#~ msgctxt "@title:window"
+#~ msgid "Import Graph File into Project"
+#~ msgstr "打开脚本"
+
+#~ msgid "*.js|Script files"
+#~ msgstr "*.js|脚本文件"
+
+#~ msgid "Rocs Script Files"
+#~ msgstr "Rocs 脚本文件"
+
+#, fuzzy
+#~| msgid "Program Messages"
+#~ msgctxt "@item:inlistbox Select output"
+#~ msgid "Program Messages"
+#~ msgstr "程序信息"
+
+#, fuzzy
+#~| msgid "Debug Messages"
+#~ msgctxt "@item:inlistbox Select output"
+#~ msgid "Debug Messages"
+#~ msgstr "调试信息"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgctxt "@label:listbox"
+#~ msgid "Select output:"
+#~ msgstr "选择"
+
+#, fuzzy
+#~| msgid "Run"
+#~ msgctxt "@action:intoolbar Script Execution"
+#~ msgid "Run"
+#~ msgstr "运行"
+
+#, fuzzy
+#~| msgid "Stop"
+#~ msgctxt "@action:intoolbar Script Execution"
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#, fuzzy
+#~| msgid "Data"
+#~ msgctxt "@title:menu"
+#~ msgid "Add Data"
+#~ msgstr "数据"
+
+#, fuzzy
+#~| msgid "Show values in:"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Add new data element"
+#~ msgstr "值显示于："
+
+#, fuzzy
+#~| msgid "Connection Type"
+#~ msgctxt "@action:intoolbar"
+#~ msgid "Add Connection"
+#~ msgstr "连接类型"
+
+#, fuzzy
+#~| msgid "Center"
+#~ msgctxt "@action:intoolbar Alignment"
+#~ msgid "Center"
+#~ msgstr "居中"
+
+#, fuzzy
+#~| msgid "Top"
+#~ msgctxt "@action:intoolbar Alignment"
+#~ msgid "Top"
+#~ msgstr "顶部"
+
+#, fuzzy
+#~| msgid "Left"
+#~ msgctxt "@action:intoolbar Alignment"
+#~ msgid "Left"
+#~ msgstr "左"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgctxt "@action:intoolbar Alignment"
+#~ msgid "Right"
+#~ msgstr "右"
+
+#, fuzzy
+#~| msgid "Circle"
+#~ msgctxt "@action:intoolbar Alignment"
+#~ msgid "Circle"
+#~ msgstr "圆形"
+
+#, fuzzy
+#~| msgid "Minimize Crossing Edges"
+#~ msgctxt "@action:intoolbar Alignment"
+#~ msgid "Minimize Crossing Edges"
+#~ msgstr "最小交叉边"
+
+#, fuzzy
+#~| msgid "Node Properties"
+#~ msgctxt "@action:inmenu"
+#~ msgid "New Project"
+#~ msgstr "节点属性"
+
+#, fuzzy
+#~| msgid "Save Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Project"
+#~ msgstr "保存脚本"
+
+#, fuzzy
+#~| msgid "Open Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Open Project"
+#~ msgstr "打开脚本"
+
+#, fuzzy
+#~| msgid "Open Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Recent Projects"
+#~ msgstr "打开脚本"
+
+#, fuzzy
+#~| msgid "Save Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Project as"
+#~ msgstr "保存脚本"
+
+#, fuzzy
+#~| msgid "New Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "New Graph Document"
+#~ msgstr "新建图"
+
+#, fuzzy
+#~| msgid "New Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "New Script File"
+#~ msgstr "新建脚本"
+
+#, fuzzy
+#~| msgid "Complete Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Import Graph"
+#~ msgstr "完全图"
+
+#, fuzzy
+#~| msgid "Export Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Export Graph as"
+#~ msgstr "导出图表"
+
+#, fuzzy
+#~| msgid "Download Examples"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Download Examples"
+#~ msgstr "下载示例"
+
+#, fuzzy
+#~| msgid "Upload script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Upload project"
+#~ msgstr "上传脚本"
+
+#, fuzzy
+#~| msgid "Possible Includes"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Possible Includes"
+#~ msgstr "可能的包含"
+
+#, fuzzy
+#~| msgid "Complete Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Import Script"
+#~ msgstr "完全图"
+
+#, fuzzy
+#~| msgid "Complete Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Export Script as"
+#~ msgstr "完全图"
+
+#, fuzzy
+#~| msgid "Includes"
+#~ msgctxt "@title:tab"
+#~ msgid "Include Manager"
+#~ msgstr "包含"
+
+#, fuzzy
+#~| msgid "This does not seem to be a graph file."
+#~ msgctxt "@info"
+#~ msgid "This does not seem to be a graph file."
+#~ msgstr "这似乎不是一个图文件。"
+
+#, fuzzy
+#~| msgid "Invalid file"
+#~ msgctxt "@title:window"
+#~ msgid "Invalid File"
+#~ msgstr "无效的文件"
+
+#, fuzzy
+#~| msgid ""
+#~| "*.graph|Graph files\n"
+#~| "*|All files"
+#~ msgid ""
+#~ "*.rocs|Rocs project files\n"
+#~ "*.rocsz|Compressed Rocs project files\n"
+#~ "*|All files"
+#~ msgstr ""
+#~ "*.graph|图文件\n"
+#~ "*.*|所有文件"
+
+#, fuzzy
+#~| msgid "Save Script"
+#~ msgctxt "@title:window"
+#~ msgid "Save Project"
+#~ msgstr "保存脚本"
+
+#, fuzzy
+#~| msgid "Node Properties"
+#~ msgctxt "@title:window"
+#~ msgid "Open Project Files"
+#~ msgstr "节点属性"
+
+#, fuzzy
+#~| msgid "untitled"
+#~ msgctxt "caption text for temporary project"
+#~ msgid "[ untitled ]"
+#~ msgstr "无标题"
+
+#, fuzzy
+#~| msgid "Script"
+#~ msgid "ScriptName"
+#~ msgstr "脚本"
+
+#, fuzzy
+#~| msgid ""
+#~| "*.graph|Graph files\n"
+#~| "*|All files"
+#~ msgid ""
+#~ "*.graph|Rocs graph documents\n"
+#~ "*|All files"
+#~ msgstr ""
+#~ "*.graph|图文件\n"
+#~ "*.*|所有文件"
+
+#, fuzzy
+#~| msgid "Save Graph"
+#~ msgctxt "@title:window"
+#~ msgid "Save Graph Document"
+#~ msgstr "保存图"
+
+#, fuzzy
+#~| msgid "graph name here"
+#~ msgid "Graph name"
+#~ msgstr "图形名称"
+
+#, fuzzy
+#~| msgid "New Graph"
+#~ msgid "Enter the name of the Graph"
+#~ msgstr "新建图"
+
+#, fuzzy
+#~| msgid "Possible Includes"
+#~ msgid "Possible Includes for Script Engine"
+#~ msgstr "可能的包含"
+
+#, fuzzy
+#~| msgid "Rocs"
+#~ msgctxt "@title Displayed program name"
+#~ msgid "Rocs"
+#~ msgstr "Rocs"
+
+#, fuzzy
+#~| msgid "Graph Theory Tool"
+#~ msgctxt "@title KAboutData: short program description"
+#~ msgid "Graph Theory Tool"
+#~ msgstr "图论工具"
+
+#, fuzzy
+#~| msgid "Rocs - Data Structure Training"
+#~ msgctxt "@title Short program description"
+#~ msgid "Rocs - Data Structure Analysis"
+#~ msgstr "Rocs - 数据结构训练"
+
+#, fuzzy
+#~| msgid "Tomaz Canabrava"
+#~ msgctxt "@info:credit Developer name"
+#~ msgid "Tomaz Canabrava"
+#~ msgstr "Tomaz Canabrava"
+
+#, fuzzy
+#~| msgid "Developer"
+#~ msgctxt "@info:credit Role"
+#~ msgid "Developer"
+#~ msgstr "开发者"
+
+#, fuzzy
+#~| msgid "Wagner Reck"
+#~ msgctxt "@info:credit Developer name"
+#~ msgid "Wagner Reck"
+#~ msgstr "Wagner Reck"
+
+#, fuzzy
+#~| msgid "Andreas Cord-Landwehr"
+#~ msgctxt "@info:credit Developer name"
+#~ msgid "Andreas Cord-Landwehr"
+#~ msgstr "Andreas Cord-Landwehr"
+
+#~ msgid "Show text beside icon"
+#~ msgstr "在图标旁显示文本"
+
+#~ msgid "Path where include manager seek for includes."
+#~ msgstr "包含管理器的搜索路径。"
+
+#, fuzzy
+#~| msgid "Save Script"
+#~ msgid "Script Document"
+#~ msgstr "保存脚本"
+
+#, fuzzy
+#~| msgid "New Script"
+#~ msgid "Script File"
+#~ msgstr "新建脚本"
+
+#, fuzzy
+#~| msgid "New Graph"
+#~ msgid "Graph Document"
+#~ msgstr "新建图"
+
+#, fuzzy
+#~| msgid "Graph Files"
+#~ msgid "Graph File"
+#~ msgstr "图文件"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Edit Selected Data"
+#~ msgstr "选择"
+
+#~ msgid "Layout"
+#~ msgstr "布局"
+
+#~ msgid "Tools"
+#~ msgstr "工具"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "主工具栏"
+
+#~ msgid "Layout Toolbar"
+#~ msgstr "布局工具栏"
+
+#~ msgid "Untitled"
+#~ msgstr "无标题"
+
+#~ msgid "New File"
+#~ msgstr "新建文件"
+
+#~ msgid "Untitled%1"
+#~ msgstr "无标题%1"
+
+#, fuzzy
+#~| msgid "Data Structure"
+#~ msgid "Data structure name"
+#~ msgstr "数据结构"
+
+#, fuzzy
+#~| msgid "Delete the current active graph: delete all nodes and edges"
+#~ msgid ""
+#~ "Delete the current data structure: delete all data elements and all "
+#~ "pointers"
+#~ msgstr "删除当前活动的图：删除全部节点和边"
+
+#, fuzzy
+#~| msgid "Data Structure"
+#~ msgctxt "@action:button"
+#~ msgid "Add Data Structure"
+#~ msgstr "数据结构"
+
+#, fuzzy
+#~| msgid "Open Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Export Project"
+#~ msgstr "打开脚本"
+
+#, fuzzy
+#~| msgid "Open Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Import Project"
+#~ msgstr "打开脚本"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Set Name"
+#~ msgstr "名称"
+
+#, fuzzy
+#~| msgid "Save Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Graph"
+#~ msgstr "保存图"
+
+#, fuzzy
+#~| msgid "Save Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Script"
+#~ msgstr "保存脚本"
+
+#, fuzzy
+#~| msgid "Save Script as"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Script as"
+#~ msgstr "脚本另存为"
+
+#, fuzzy
+#~| msgid "Save Script"
+#~ msgctxt "@title:window"
+#~ msgid "Set Project Name"
+#~ msgstr "保存脚本"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "@label:textbox name of the project"
+#~ msgid "Name:"
+#~ msgstr "名称："
+
+#, fuzzy
+#~| msgid "Save Script"
+#~ msgctxt "@title:window"
+#~ msgid "Save Script Document"
+#~ msgstr "保存脚本"
+
+#, fuzzy
+#~| msgid "Open Script"
+#~ msgctxt "@title:window"
+#~ msgid "Export Project"
+#~ msgstr "打开脚本"
+
+#~ msgid "Edge Properties"
+#~ msgstr "边属性"
+
+#~ msgid "Edge name"
+#~ msgstr "边名称"
+
+#~ msgid "Edge color"
+#~ msgstr "边颜色"
+
+#~ msgid "Value:"
+#~ msgstr "值："
+
+#~ msgid "Edge value"
+#~ msgstr "边值"
+
+#~ msgid "Edge width"
+#~ msgstr "边宽度"
+
+#~ msgid "Show"
+#~ msgstr "显示"
+
+#~ msgid "Show/hide edge name"
+#~ msgstr "显示/隐藏边名称"
+
+#~ msgid "Show/add edge value"
+#~ msgstr "显示/添加边值"
+
+#~ msgid "Add Property"
+#~ msgstr "添加属性"
+
+#~ msgid "Global"
+#~ msgstr "全局"
+
+#~ msgid "add"
+#~ msgstr "增加"
+
+#~ msgid "%1"
+#~ msgstr "%1"
+
+#~ msgid "v=%1"
+#~ msgstr "v=%1"
+
+#, fuzzy
+#~| msgid "Untitled%1"
+#~ msgctxt "Property keyword only caracters from a to z (no spaces)"
+#~ msgid "untitled%1"
+#~ msgstr "无标题%1"
+
+#~ msgid "Node Properties"
+#~ msgstr "节点属性"
+
+#, fuzzy
+#~| msgid "Disable Color"
+#~ msgid "Enable Color"
+#~ msgstr "禁用颜色"
+
+#, fuzzy
+#~| msgid "Data Structure"
+#~ msgid "Data Structure Specific Properties"
+#~ msgstr "数据结构"
+
+#, fuzzy
+#~| msgid "Show values in:"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Show values of data elements"
+#~ msgstr "值显示于："
+
+#, fuzzy
+#~| msgid "Show names in:"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Show names of pointers"
+#~ msgstr "名称显示于："
+
+#, fuzzy
+#~| msgid "Show values in:"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Show values of pointers"
+#~ msgstr "值显示于："
+
+#~ msgid "Delete"
+#~ msgstr "删除"
+
+#~ msgid "Type"
+#~ msgstr "类型"
+
+#~ msgid "Edge style"
+#~ msgstr "边样式"
+
+#~ msgid "dot"
+#~ msgstr "点线"
+
+#, fuzzy
+#~| msgid "Undirected Graph"
+#~ msgctxt "@label:inlistbox"
+#~ msgid "Undirected Graph"
+#~ msgstr "无向图"
+
+#, fuzzy
+#~| msgid "Directed Graph"
+#~ msgctxt "@label:inlistbox"
+#~ msgid "Directed Graph"
+#~ msgstr "有向图"
+
+#, fuzzy
+#~| msgid "Undirected Graph"
+#~ msgctxt ""
+#~ "@label:inlistbox Undirected graph for which several edges between same "
+#~ "nodes may exist"
+#~ msgid "Undirected Multigraph"
+#~ msgstr "无向图"
+
+#, fuzzy
+#~| msgid "Directed Graph"
+#~ msgctxt ""
+#~ "@label:inlistbox Directed graph for which several same orientated edges "
+#~ "between same nodes may exist"
+#~ msgid "Directed Multigraph"
+#~ msgstr "有向图"
+
+#, fuzzy
+#~| msgid "Open and Save GML files"
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Open and Save GML files"
+#~ msgstr "打开和保存 GML 文件"
+
+#~ msgid ""
+#~ "*.graph|Graph files\n"
+#~ "*|All files"
+#~ msgstr ""
+#~ "*.graph|图文件\n"
+#~ "*.*|所有文件"
+
+#, fuzzy
+#~| msgid "Complete Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Import Rocs Graph"
+#~ msgstr "完全图"
+
+#, fuzzy
+#~| msgid "Save Graph as"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Graph as"
+#~ msgstr "另存图"
+
+#, fuzzy
+#~| msgid "Can't Open the file: %1. Error %2"
+#~ msgid "Cannot open the file: %1. Error %2"
+#~ msgstr "无法打开文件：%1。错误 %2"
+
+#, fuzzy
+#~| msgid "Open and Save Plain TXT files"
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Open and Save Plain TXT files"
+#~ msgstr "打开和保存纯文本文件"
+
+#~ msgid "*.txt|Plain TXT Files"
+#~ msgstr "*.txt|纯文本文件"
+
+#, fuzzy
+#~| msgid "Add"
+#~ msgctxt "@action:button"
+#~ msgid "Add"
+#~ msgstr "添加"
+
+#~ msgid "Add Node"
+#~ msgstr "添加节点"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "name of the project"
+#~ msgid "Name:"
+#~ msgstr "名称："
+
+#, fuzzy
+#~| msgid "Center"
+#~ msgctxt "align elements at center"
+#~ msgid "Center"
+#~ msgstr "居中"
+
+#, fuzzy
+#~| msgid "Top"
+#~ msgctxt "align elements at top"
+#~ msgid "Top"
+#~ msgstr "顶部"
+
+#, fuzzy
+#~| msgid "Left"
+#~ msgctxt "align elements left"
+#~ msgid "Left"
+#~ msgstr "左"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgctxt "align elements right"
+#~ msgid "Right"
+#~ msgstr "右"
+
+#, fuzzy
+#~| msgid "Circle"
+#~ msgctxt "align elements as a circle"
+#~ msgid "Circle"
+#~ msgstr "圆形"
+
+#, fuzzy
+#~| msgid "Minimize Crossing Edges"
+#~ msgctxt "align elements such that crossing edges are minimized"
+#~ msgid "Minimize Crossing Edges"
+#~ msgstr "最小交叉边"
+
+#, fuzzy
+#~| msgid "Type"
+#~ msgid "Type Icon:"
+#~ msgstr "类型"
+
+#, fuzzy
+#~| msgid "Export graphs to file"
+#~ msgid "Export as new Type"
+#~ msgstr "将图导出到文件"
+
+#~ msgid "Open Script"
+#~ msgstr "打开脚本"
+
+#~ msgid "Edit"
+#~ msgstr "编辑"
+
+#, fuzzy
+#~| msgid "Pointers"
+#~ msgid "Pointer"
+#~ msgstr "光标"
+
+#~ msgid "Delete the active graph"
+#~ msgstr "删除活动的图"
+
+#~ msgctxt "@action:button"
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Apply to all nodes"
+#~ msgstr "应用于全部节点"
+
+#~ msgid "Close"
+#~ msgstr "关闭"
+
+#~ msgid "Image"
+#~ msgstr "图像"
+
+#~ msgid "Untitled0"
+#~ msgstr "无标题0"
+
+#~ msgid "Open Graph"
+#~ msgstr "打开图"
+
+#~ msgid "Save All"
+#~ msgstr "全部保存"
+
+#~ msgid "New"
+#~ msgstr "新建"
+
+#~ msgid "Color for new nodes"
+#~ msgstr "新节点的颜色"
+
+#~ msgid "Pointer Color:"
+#~ msgstr "光标颜色："
+
+#~ msgid "Color for new edges"
+#~ msgstr "新边的颜色"
+
+#~ msgid "Apply the current color to all nodes"
+#~ msgstr "对全部节点应用当前颜色"
+
+#~ msgid "Apply the current color to all nodes on the drawing area"
+#~ msgstr "对绘制区域上的全部节点应用当前颜色"
+
+#~ msgid "All"
+#~ msgstr "全部"
+
+#~ msgid "Apply the current color to all edges"
+#~ msgstr "对全部边应用当前颜色"
+
+#~ msgid "Apply the current color to all edges on the drawing area"
+#~ msgstr "对绘制区域上的全部边应用当前颜色"
+
+#~ msgid "Align on the base"
+#~ msgstr "向下对齐"
+
+#~ msgid "Align on the center"
+#~ msgstr "居中对齐"
+
+#~ msgid "Align on the top"
+#~ msgstr "向上对齐"
+
+#~ msgid "Align on the left"
+#~ msgstr "向左对齐"
+
+#~ msgid "Align on the right"
+#~ msgstr "向右对齐"
+
+#, fuzzy
+#~| msgid "Align on the left"
+#~ msgid "Align on a circle"
+#~ msgstr "向左对齐"
+
+#~ msgid "Tree"
+#~ msgstr "树"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Ignoring line: %1"
+#~ msgstr "忽略行：%1"
+
+#~ msgid "debug(\"Cannot open file %1.\")"
+#~ msgstr "debug(\"无法打开文件 %1。\")"
+
+#~ msgid "debug(\"Cannot open file %1.\")\n"
+#~ msgstr "debug(\"无法打开文件 %1。\")\n"
+
+#~ msgid "(c) 2009"
+#~ msgstr "(c) 2009"
+
+#~ msgid "Do you want to save your unsaved document?"
+#~ msgstr "您想要保存尚未保存的文档吗？"
+
+#~ msgid "Select Items by clicking on them."
+#~ msgstr "通过点击项目来选择。"
+
+#~ msgid "Moves a node around the drawing area."
+#~ msgstr "使节点在绘制区域周围移动。"
+
+#~ msgid "Make Complete"
+#~ msgstr "图形补全"
+
+#~ msgid "cancel"
+#~ msgstr "取消"
+
+#~ msgid "assign values"
+#~ msgstr "赋值"
+
+#~ msgid "Dialog"
+#~ msgstr "对话框"
+
+#~ msgid "Radius:"
+#~ msgstr "半径："
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Complete"
+#~ msgstr "完全"
+
+#~ msgctxt "Do not translate, X is for delete"
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Graph is oriented"
+#~ msgstr "有向图"
+
+#~ msgid "Name: %1"
+#~ msgstr "名称：%1"
+
+#~ msgid "Value: %1"
+#~ msgstr "值：%1"
+
+#~ msgid "Save Graph As..."
+#~ msgstr "图另存为..."
+
+#~ msgid "Save Script As..."
+#~ msgstr "脚本另存为..."
+
+#, fuzzy
+#~| msgid "Graph"
+#~ msgid "Ring Graph"
+#~ msgstr "图"
+
+#, fuzzy
+#~| msgid "Untitled"
+#~ msgid "UntitledDoc"
+#~ msgstr "无标题"
+
+#~ msgid "Thanks to Ugo Sangiori"
+#~ msgstr "感谢 Ugo Sangiori"
+
+#~ msgid "Edge Color:"
+#~ msgstr "边颜色："
+
+#~ msgid "X-coordinate "
+#~ msgstr "X-坐标"
+
+#~ msgid "Y-coordinate "
+#~ msgstr "Y-坐标"
+
+#~ msgid "Node size"
+#~ msgstr "节点大小"
+
+#~ msgid "Begin"
+#~ msgstr "开始"
+
+#~ msgid "End"
+#~ msgstr "结束"
+
+#~ msgid "Graph is Automate"
+#~ msgstr "图形为自动生成"

@@ -1,0 +1,164 @@
+# translation of plasma_applet_twitter.po to 简体中文
+# Copyright (C) 2007, 2008, 2009 Free Software Foundation, Inc.
+#
+# Liang Qi <cavendish.qi@gmail.com>, 2007.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_twitter\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-06-29 01:41+0000\n"
+"PO-Revision-Date: 2012-12-12 10:57-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: configuration.ui:23
+msgid "Login"
+msgstr "登录"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: configuration.ui:30
+msgid "Password:"
+msgstr "密码："
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: configuration.ui:59
+msgid "Appearance"
+msgstr "外观"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: configuration.ui:66
+msgid "Timeline size:"
+msgstr "时间线大小："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: configuration.ui:106
+msgid "Timeline refresh:"
+msgstr "时间线刷新间隔："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: configuration.ui:146
+msgid "Show friends:"
+msgstr "显示朋友："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: configuration.ui:204
+msgid "Service"
+msgstr "服务"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: configuration.ui:211
+msgid "Username:"
+msgstr "用户名："
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: configuration.ui:227
+msgid "Service URL:"
+msgstr "服务 URL："
+
+#: microblog.cpp:234
+msgid "Timeline"
+msgstr "时间线"
+
+#: microblog.cpp:235
+msgid "Replies"
+msgstr "回复"
+
+#: microblog.cpp:236
+msgid "Messages"
+msgstr "消息"
+
+#: microblog.cpp:261
+msgid "Failed to load twitter DataEngine"
+msgstr "装入 twitter 数据引擎失败"
+
+#: microblog.cpp:275
+msgid "Unable to load the widget"
+msgstr "无法装入部件"
+
+#: microblog.cpp:523
+msgid "Your password is required."
+msgstr "需要您的密码。"
+
+#: microblog.cpp:552
+msgid "Your account information is incomplete."
+msgstr "您的账户信息不完整。"
+
+#: microblog.cpp:562
+msgid "Failed to access kwallet. Store password in config file instead?"
+msgstr "访问 kwallet 失败。那么在配置文件中保存密码？"
+
+#: microblog.cpp:581 microblog.cpp:935
+msgid "Refreshing timeline..."
+msgstr "刷新时间线"
+
+#: microblog.cpp:608
+#, kde-format
+msgid "1 new tweet"
+msgid_plural "%1 new tweets"
+msgstr[0] "%1 个新鸣叫(tweet)"
+
+#: microblog.cpp:750
+msgid " message"
+msgid_plural " messages"
+msgstr[0] " 条消息"
+
+#: microblog.cpp:752
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " 分钟"
+
+#: microblog.cpp:755
+msgid "General"
+msgstr "常规"
+
+#: microblog.cpp:803
+#, kde-format
+msgid "%1 character left"
+msgid_plural "%1 characters left"
+msgstr[0] "剩余 %1 个字符"
+
+#: microblog.cpp:895
+msgctxt "Repeat of the post also called retweet"
+msgid "Repeat completed"
+msgstr "转发完成"
+
+#: microblog.cpp:897
+msgid "Repeat failed"
+msgstr "转发失败"
+
+#: postwidget.cpp:102
+#, kde-format
+msgctxt ""
+"%1 is a time string like '1 hour ago' - %2 is the name of a microblogging "
+"client"
+msgid "%1 from %2"
+msgstr "%1 来自 %2"
+
+#: postwidget.cpp:155
+msgid "Less than a minute ago"
+msgstr "少于 1 分钟之前"
+
+#: postwidget.cpp:157
+#, kde-format
+msgid "1 minute ago"
+msgid_plural "%1 minutes ago"
+msgstr[0] "%1 分钟之前"
+
+#: postwidget.cpp:159
+msgid "Over an hour ago"
+msgstr "多于 1 小时之前"
+
+#: postwidget.cpp:161
+#, kde-format
+msgid "1 hour ago"
+msgid_plural "%1 hours ago"
+msgstr[0] "%1 小时之前"

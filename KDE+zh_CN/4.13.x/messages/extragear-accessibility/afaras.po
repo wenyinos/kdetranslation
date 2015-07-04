@@ -1,0 +1,113 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# FengChao <rainofchaos@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-12-22 02:02+0100\n"
+"PO-Revision-Date: 2012-04-22 14:43+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: afarasview.cpp:80
+#, kde-format
+msgctxt "%1 is the path to the prompts file"
+msgid "Could not open input prompts: %1"
+msgstr "无法打开输入提示：%1"
+
+#: afarasview.cpp:139
+msgid "Prompts file is empty or has an invalid format"
+msgstr "提示文件空或者包含错误格式"
+
+#: afarasview.cpp:194
+msgid "Could not open blacklist file for reading"
+msgstr "无法读取黑名单文件"
+
+#: afarasview.cpp:208
+#, kde-format
+msgid "Sample %1 of %2"
+msgstr "采样 %1，共有 %2"
+
+#: main.cpp:28
+msgid "An automatic sample review tool"
+msgstr "自动采样审查工具"
+
+#: main.cpp:32
+msgid "afaras"
+msgstr "afaras"
+
+#: main.cpp:33
+msgid "(C) 2011 Peter Grasch"
+msgstr "(C) 2011 Peter Grasch"
+
+#: main.cpp:34
+msgid "Peter Grasch"
+msgstr "Peter Grasch"
+
+#. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
+#: main.ui:14
+#, fuzzy
+#| msgid "afaras"
+msgid "Afaras"
+msgstr "afaras"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: main.ui:30
+msgid "Input prompts:"
+msgstr "输入提示："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: main.ui:40
+msgid "Path prefix:"
+msgstr "路径前缀："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: main.ui:54
+msgid "Output (blacklist):"
+msgstr "输出(黑名单)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: main.ui:68
+msgid "Sam build log (optional):"
+msgstr "Sam 建立日志(可选)："
+
+#. i18n: ectx: property (text), widget (KPushButton, pbStartReview)
+#: main.ui:98
+msgid "Start review"
+msgstr "开始审阅"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbBack)
+#: main.ui:133
+msgid "Back"
+msgstr "后退"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbPreviousSample)
+#: main.ui:147
+msgid "Previous sample"
+msgstr "上一采样"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbBlacklistSample)
+#: main.ui:167
+msgid "Blacklist sample"
+msgstr "屏蔽采样"
+
+#. i18n: ectx: property (text), widget (KPushButton, pbNextSample)
+#: main.ui:190
+msgid "Next sample"
+msgstr "下一采样"

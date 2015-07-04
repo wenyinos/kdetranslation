@@ -1,0 +1,1113 @@
+# translation of karm.po to zh_CN
+# translation of karm.po to Simplified Chinese
+# Copyright (C) 2002,2003 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Funda Wang <fundawnag@linux.net.cn>, 2002,2004,2005.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2009.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-06 01:41+0000\n"
+"PO-Revision-Date: 2013-01-23 16:00-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enabled)
+#: cfgbehavior.ui:16
+msgid "Detect desktop as idle after:"
+msgstr "桌面空闲等待时间："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_period)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_autoSavePeriod)
+#: cfgbehavior.ui:23 cfgstorage.ui:35
+msgid " min"
+msgstr " 分钟"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cfgbehavior.ui:36
+msgid "Minimum desktop active time:"
+msgstr "最少桌面活动时间："
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_minActiveTime)
+#: cfgbehavior.ui:43
+msgid " sec"
+msgstr " 秒"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_promptDelete)
+#: cfgbehavior.ui:56
+msgid "Prompt before deleting tasks"
+msgstr "删除任务前询问"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_uniTasking)
+#: cfgbehavior.ui:63
+msgid ""
+"Unitasking - allow only one task to be timed at a time. Does not stop any "
+"timer."
+msgstr "单任务 - 同一时刻只允许对一个任务计时。不要停止任何计时器。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_uniTasking)
+#: cfgbehavior.ui:66
+msgid "Allow only one timer at a time"
+msgstr "同一时刻只允许一个计时器"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_trayIcon)
+#: cfgbehavior.ui:73
+msgid "Place an icon to the system tray"
+msgstr "在系统托盘内放置图标"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: cfgdisplay.ui:19
+msgctxt "title of group box, general options"
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_decimalFormat)
+#: cfgdisplay.ui:25
+msgid "Decimal number format"
+msgstr "十进制数字格式"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_configPDA)
+#: cfgdisplay.ui:32
+msgid ""
+"Choose this if you have a touchscreen and your screen real estate is "
+"precious. It will disable the search bar and every click will pop up a "
+"context menu."
+msgstr ""
+"如果您使用触摸屏并且您的屏幕空间非常宝贵，请选中此项。它将禁用搜索栏并且每次"
+"点击都会弹出菜单。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_configPDA)
+#: cfgdisplay.ui:35
+msgctxt ""
+"Choose this if you have a touchscreen and your screen real estate is "
+"precious."
+msgid "Configuration for PDA"
+msgstr "PDA 配置"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: cfgdisplay.ui:45
+msgid "Columns Displayed"
+msgstr "显示的列："
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displaySessionTime)
+#: cfgdisplay.ui:51
+msgid "Session time"
+msgstr "会话时间"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTime)
+#: cfgdisplay.ui:58
+msgid "Cumulative task time"
+msgstr "累计任务时间"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTotalSessionTime)
+#: cfgdisplay.ui:65
+msgid "Total session time"
+msgstr "会话时间合计"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayTotalTime)
+#: cfgdisplay.ui:72
+msgid "Total task time"
+msgstr "任务时间合计"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayPriority)
+#: cfgdisplay.ui:79 taskview.cpp:183
+msgid "Priority"
+msgstr "优先级"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayPercentComplete)
+#: cfgdisplay.ui:86
+msgid "Percent complete"
+msgstr "完成百分比"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoSave)
+#: cfgstorage.ui:28
+msgid "Save tasks every:"
+msgstr "保存任务间隔："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, combodecimalminutes)
+#: csvexportdialog.cpp:91 csvexportdialog_base.ui:176
+msgctxt "format to display times"
+msgid "Decimal"
+msgstr "十进制"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, combosessiontimes)
+#: csvexportdialog.cpp:106 csvexportdialog_base.ui:203
+msgid "Session Times"
+msgstr "会话时间"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboalltasks)
+#: csvexportdialog.cpp:107 csvexportdialog_base.ui:220
+msgid "All Tasks"
+msgstr "全部任务"
+
+#: csvexportdialog.h:37
+msgctxt "@action:button"
+msgid "&Export"
+msgstr "导出(&E)"
+
+#: csvexportdialog.h:38
+msgctxt "@action:button"
+msgid "E&xport to Clipboard"
+msgstr "导出至剪贴板(&X)"
+
+#. i18n: ectx: property (windowTitle), widget (KDialog, CSVExportDialogBase)
+#: csvexportdialog_base.ui:13
+msgid "CSV Export"
+msgstr "CSV 导出"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#: csvexportdialog_base.ui:36
+msgid "Export to:"
+msgstr "导出至："
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, urlExportTo)
+#: csvexportdialog_base.ui:46
+msgid "The file where KTimeTracker will write the data."
+msgstr "KTimeTracker 写入数据的文件。"
+
+#. i18n: ectx: property (text), widget (QLabel, quotesLabel)
+#: csvexportdialog_base.ui:64
+msgid "Quotes:"
+msgstr "引号："
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, cboQuote)
+#: csvexportdialog_base.ui:85
+msgid "All fields are quoted in the output."
+msgstr "全部域都将带引号输出。"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboQuote)
+#: csvexportdialog_base.ui:89
+msgid "\""
+msgstr "\""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cboQuote)
+#: csvexportdialog_base.ui:94
+msgid "'"
+msgstr "'"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpDateRange)
+#: csvexportdialog_base.ui:105
+msgid "Date Range"
+msgstr "日期范围"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, grpDateRange)
+#: csvexportdialog_base.ui:108
+msgid ""
+"<p>An inclusive date range for reporting on time card history.  Not enabled "
+"when reporting on totals.</p>"
+msgstr ""
+"<p>所包含的日期用于根据时间卡历史进行报告。在按照总计进行报告时无效。</p>"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: csvexportdialog_base.ui:114
+msgid "From:"
+msgstr "从："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: csvexportdialog_base.ui:139
+msgid "To:"
+msgstr "到："
+
+#. i18n: ectx: property (text), item, widget (QComboBox, combodecimalminutes)
+#: csvexportdialog_base.ui:181
+msgid "Hours:Minutes"
+msgstr "小时:分钟"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, combosessiontimes)
+#: csvexportdialog_base.ui:198
+msgid "All Times"
+msgstr "全部时间"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboalltasks)
+#: csvexportdialog_base.ui:225
+msgid "Only Selected"
+msgstr "只对选中项"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpDelimiter)
+#: csvexportdialog_base.ui:241
+msgid "Delimiter"
+msgstr "分隔符"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, grpDelimiter)
+#: csvexportdialog_base.ui:244
+msgid "The character used to separate one field from another in the output."
+msgstr "在输出中用来分隔不同字段的字符。"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioTab)
+#: csvexportdialog_base.ui:256
+msgctxt "tabulator delimiter"
+msgid "Tab"
+msgstr "跳格"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioOther)
+#: csvexportdialog_base.ui:263
+msgctxt "user can set an user defined delimiter"
+msgid "Other:"
+msgstr "其它："
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioSpace)
+#: csvexportdialog_base.ui:270
+msgid "Space"
+msgstr "空格"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioComma)
+#: csvexportdialog_base.ui:277
+msgid "Comma"
+msgstr "逗号"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioSemicolon)
+#: csvexportdialog_base.ui:314
+msgid "Semicolon"
+msgstr "分号"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, EditTaskDialog)
+#: edittaskdialog.ui:14
+msgid "Add/Edit a task"
+msgstr "添加/编辑任务"
+
+#. i18n: ectx: property (text), widget (QLabel, tasknamelabel)
+#: edittaskdialog.ui:26
+msgid "Task Name:"
+msgstr "任务名称："
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, tasknamelineedit)
+#: edittaskdialog.ui:44
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Enter the name of the task "
+"here. You can choose it freely.</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">Example:</span> phone with mother</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">在此输入任务名称，可任意指"
+"定。</p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">示例：</span>和母亲通电话</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: edittaskdialog.ui:51
+msgid "Description:"
+msgstr "描述："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: edittaskdialog.ui:74
+msgid "Change time (in minutes, e.g. -60)"
+msgstr "更改时间 (以分钟计，例如 -60)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, autotrackinggroupbox)
+#: edittaskdialog.ui:103
+msgid "Auto Tracking"
+msgstr "自动跟踪"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, edittimespushbutton)
+#: edittaskdialog.ui:133
+msgid "To change this task's time, you have to edit its event history."
+msgstr "要更改任务时间，您需要编辑事件历史。"
+
+#. i18n: ectx: property (text), widget (QPushButton, edittimespushbutton)
+#: edittaskdialog.ui:136
+msgid "Edit Times"
+msgstr "编辑时间"
+
+#: historydialog.cpp:81 timekard.cpp:65
+msgid "Task"
+msgstr "任务"
+
+#: historydialog.cpp:81
+msgid "StartTime"
+msgstr "开始时间"
+
+#: historydialog.cpp:81
+msgid "EndTime"
+msgstr "结束时间"
+
+#: historydialog.cpp:82
+msgid "Comment"
+msgstr "注释"
+
+#: historydialog.cpp:118
+msgid "You can change this task's comment, start time and end time."
+msgstr "您可以更改此任务的注释、开始时间和结束时间。"
+
+#: historydialog.cpp:190 historydialog.cpp:213
+msgid "This is not a valid Date/Time."
+msgstr "不是有效的日期/时间。"
+
+#: historydialog.cpp:264
+msgid "Please select a task to delete."
+msgstr "请选择要删除的任务。"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, historydialog)
+#: historydialog.ui:14
+msgid "Edit History"
+msgstr "编辑历史"
+
+#. i18n: ectx: property (text), widget (QPushButton, deletepushbutton)
+#: historydialog.ui:23
+msgid "Delete"
+msgstr "删除"
+
+#. i18n: ectx: property (text), widget (QPushButton, okpushbutton)
+#: historydialog.ui:33
+msgid "Close"
+msgstr "关闭"
+
+#: idletimedetector.cpp:112
+#, kde-format
+msgid "Desktop has been idle since %1. What do you want to do ?"
+msgstr "桌面自 %1 起就保持空闲。您想要做什么？"
+
+#: idletimedetector.cpp:117
+#, kde-format
+msgid "Continue timing. Timing has started at %1"
+msgstr "继续计时，计时启动于 %1。"
+
+#: idletimedetector.cpp:118
+#, kde-format
+msgid "Stop timing and revert back to the time at %1."
+msgstr "停止计时并倒转时间到 %1"
+
+#: idletimedetector.cpp:119
+msgid "Continue timing."
+msgstr "继续计时。"
+
+#: idletimedetector.cpp:120
+msgid "Revert timing"
+msgstr "倒转计时"
+
+#: karm.cpp:45 karm.cpp:46
+msgid "KArmReminder"
+msgstr "KArmReminder"
+
+#: karm.cpp:47
+msgid "(c) 2006"
+msgstr "(c) 2006"
+
+#: karm.cpp:52
+msgid "Someone, probably you, has called karm.\n"
+msgstr "过去人们称它为 karm。\n"
+
+#: karm.cpp:53
+msgid ""
+"KArm has been renamed to KTimeTracker. This makes it easier to recognize.\n"
+"Compatibility advice: Do not give ktimetracker files to karm users. Using "
+"karm files with ktimetracker is possible.\n"
+msgstr ""
+"现在，KArm 已改名为 KTimeTracker。这个名称更亲切。\n"
+"兼容性建议：不要把 ktimetracker 文件传给 karm 用户，反之则无妨。\n"
+
+#: karm.cpp:54
+msgid ""
+"Please learn to call ktimetracker as this reminder may be removed in the "
+"future.\n"
+msgstr "请对 ktimetracker 这个新名称习惯起来，以后可能就不再提醒了^^。\n"
+
+#: karm.cpp:55
+msgid ""
+"Someone, probably you, has called karm. KArm has been renamed to "
+"KTimeTracker. This makes it easier to recognize. Compatibility advice: Do "
+"not give ktimetracker files to karm users. Using karm files with "
+"ktimetracker is possible. Please learn to call ktimetracker as this reminder "
+"may be removed in the future."
+msgstr ""
+"过去人们称它为 karm。现在，KArm 已改名为 KTimeTracker。这个名称更亲切。兼容性"
+"建议：不要把 ktimetracker 文件传给 karm 用户，反之则无妨。请对 ktimetracker "
+"这个新名称习惯起来，以后可能就不再提醒了^^。"
+
+#: karm.cpp:55
+msgid "KArm is now ktimetracker"
+msgstr "KArm 现在是 ktimetracker"
+
+#: ktimetrackerpart.cpp:74
+msgid "ktimetracker"
+msgstr "ktimetracker"
+
+#: ktimetrackerpart.cpp:87 mainwindow.cpp:175
+msgid "Configure key bindings"
+msgstr "配置按键绑定"
+
+#: ktimetrackerpart.cpp:88 mainwindow.cpp:176
+msgid ""
+"This will let you configure keybindings which are specific to ktimetracker"
+msgstr "这里可以配置 ktimetracker 的键盘关联"
+
+#. i18n: ectx: Menu (file)
+#: ktimetrackerui.rc:5
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (import)
+#: ktimetrackerui.rc:14
+msgid "&Import"
+msgstr "导入(&I)"
+
+#. i18n: ectx: Menu (export)
+#: ktimetrackerui.rc:18
+msgid "&Export"
+msgstr "导出(&E)"
+
+#. i18n: ectx: Menu (clock)
+#: ktimetrackerui.rc:27
+msgid "&Clock"
+msgstr "计时(&C)"
+
+#. i18n: ectx: Menu (task)
+#: ktimetrackerui.rc:34
+msgid "&Task"
+msgstr "任务(&T)"
+
+#. i18n: ectx: Menu (settings)
+#: ktimetrackerui.rc:45
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: ktimetrackerui.rc:50
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: ToolBar (taskToolBar)
+#: ktimetrackerui.rc:59
+msgid "Tasks"
+msgstr "任务"
+
+#: main.cpp:42
+msgid "KDE Time tracker tool"
+msgstr "KDE 时间跟踪工具"
+
+#: main.cpp:46
+msgid "Just caught a software interrupt."
+msgstr "刚捕捉到一个软件中断。"
+
+#: main.cpp:85 timetrackerstorage.cpp:996 timetrackerstorage.cpp:1017
+msgid "KTimeTracker"
+msgstr "KTimeTracker"
+
+#: main.cpp:87
+msgid "Copyright © 1997-2012 KDE PIM authors"
+msgstr "版权 © 1997-2012 KDE PIM 作者"
+
+#: main.cpp:90
+msgid "Thorsten Stärk"
+msgstr "Thorsten Stärk"
+
+#: main.cpp:90
+msgid "Current Maintainer"
+msgstr "当前维护者"
+
+#: main.cpp:92
+msgid "Sirtaj Singh Kang"
+msgstr "Sirtaj Singh Kang"
+
+#: main.cpp:92
+msgid "Original Author"
+msgstr "原始作者"
+
+#: main.cpp:94
+msgid "Allen Winter"
+msgstr "Allen Winter"
+
+#: main.cpp:95
+msgid "David Faure"
+msgstr "David Faure"
+
+#: main.cpp:96
+msgid "Mathias Soeken"
+msgstr "Mathias Soeken"
+
+#: main.cpp:97
+msgid "Jesper Pedersen"
+msgstr "Jesper Pedersen"
+
+#: main.cpp:98
+msgid "Kalle Dalheimer"
+msgstr "Kalle Dalheimer"
+
+#: main.cpp:99
+msgid "Mark Bucciarelli"
+msgstr "Mark Bucciarelli"
+
+#: main.cpp:103
+msgid "The iCalendar file to open"
+msgstr "要打开的 iCalendar 文件"
+
+#: main.cpp:104
+msgid "List all tasks as text output"
+msgstr "将所有任务列为文本输出"
+
+#: main.cpp:105
+msgid "Add task <taskname>"
+msgstr "添加任务<taskname>"
+
+#: main.cpp:106
+msgid "Delete task <taskid>"
+msgstr "删除任务<taskid>"
+
+#: main.cpp:107
+msgid "Print the task ids for all tasks named <taskname>"
+msgstr "打印所有名为<taskname>的任务代码"
+
+#: main.cpp:108
+msgid "Start timer for task <taskid>"
+msgstr "对任务<taskid>开始计时"
+
+#: main.cpp:109
+msgid "Stop timer for task <taskid>"
+msgstr "对任务<taskid>停止计时"
+
+#: main.cpp:110
+msgid "Deliver total minutes for task id"
+msgstr "传送此任务的总共时间"
+
+#: main.cpp:111
+msgid "Outputs the version"
+msgstr "输出版本"
+
+#: mainwindow.cpp:91
+msgid "Could not create the KTimeTracker part."
+msgstr "无法创建 KTimeTracker 组件。"
+
+#: mainwindow.cpp:101
+msgid "Could not find the KTimeTracker part."
+msgstr "找不到 KTimeTracker 组件。"
+
+#: mainwindow.cpp:133
+msgid "Configure KTimeTracker..."
+msgstr "配置 KTimeTracker..."
+
+#: mainwindow.cpp:215
+msgid "task_popup"
+msgstr "任务弹出窗口"
+
+#. i18n: ectx: property (title), widget (QMenu, menuFile)
+#: new/mainwindow.ui:50
+msgid "File"
+msgstr "文件"
+
+#. i18n: ectx: property (title), widget (QMenu, menuHelp)
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: new/mainwindow.ui:58 new/mainwindow.ui:104
+msgid "Help"
+msgstr "帮助"
+
+#. i18n: ectx: property (title), widget (QMenu, menuConfigure)
+#: new/mainwindow.ui:64
+msgid "Configure"
+msgstr "配置"
+
+#. i18n: ectx: property (windowTitle), widget (QToolBar, toolBar)
+#: new/mainwindow.ui:75
+msgid "toolBar"
+msgstr "工具栏"
+
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: new/mainwindow.ui:89
+msgid "Load"
+msgstr "装载"
+
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: new/mainwindow.ui:94
+msgid "Save"
+msgstr "保存"
+
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: new/mainwindow.ui:99
+msgid "Quit"
+msgstr "退出"
+
+#. i18n: ectx: property (text), widget (QToolBar, toolBar)
+#: new/mainwindow.ui:109
+msgid "Configure ktimetracker"
+msgstr "配置 ktimetracker"
+
+#: taskview.cpp:181
+msgid "Task Name"
+msgstr "任务名称"
+
+#: taskview.cpp:181
+msgid "Session Time"
+msgstr "会话时间"
+
+#: taskview.cpp:181 timekard.cpp:64
+msgid "Time"
+msgstr "时间"
+
+#: taskview.cpp:182
+msgid "Total Session Time"
+msgstr "会话时间合计"
+
+#: taskview.cpp:182
+msgid "Total Time"
+msgstr "时间合计"
+
+#: taskview.cpp:183
+msgid "Percent Complete"
+msgstr "完成百分比"
+
+#: taskview.cpp:185 timetrackerstorage.cpp:262
+msgid "The task name is what you call the task, it can be chosen freely."
+msgstr "在这里输入任务的名称，此名称仅供您个人查看。"
+
+#: taskview.cpp:186 timetrackerstorage.cpp:263
+msgid ""
+"The session time is the time since you last chose \"start new session.\""
+msgstr "会话时间是自您上次选择“开始新会话”后的时间。"
+
+#: taskview.cpp:187
+msgid ""
+"The total session time is the session time of this task and all its subtasks."
+msgstr "总计会话时间此任务及其全部子任务的会话时间。"
+
+#: taskview.cpp:188
+msgid "The total time is the time of this task and all its subtasks."
+msgstr "总计时间是此任务机器全部子任务的时间。"
+
+#: taskview.cpp:233
+#, kde-format
+msgid "%1 %"
+msgstr "%1 %"
+
+#: taskview.cpp:246
+msgid "unspecified"
+msgstr "未指定"
+
+#: taskview.cpp:249
+msgctxt "combox entry for highest priority"
+msgid "1 (highest)"
+msgstr "1(最高)"
+
+#: taskview.cpp:252
+msgctxt "combox entry for medium priority"
+msgid "5 (medium)"
+msgstr "5(中等)"
+
+#: taskview.cpp:255
+msgctxt "combox entry for lowest priority"
+msgid "9 (lowest)"
+msgstr "9(最低)"
+
+#: taskview.cpp:300 taskview.cpp:895
+msgid ""
+"Error storing new task. Your changes were not saved. Make sure you can edit "
+"your iCalendar file. Also quit all applications using this file and remove "
+"any lock file related to its name from ~/.kde/share/apps/kabc/lock/ "
+msgstr ""
+"存储新任务出错。您的更改未保存。请确定您可以编辑您的 iCalendar 文件。同时，请"
+"退出使用此文件的全部应用程序，并从 ~/.kde/share/apps/kabc/lock/ 删除与其名称"
+"相关的任何锁定文件"
+
+#: taskview.cpp:466
+msgid "Your virtual desktop number is too high, desktop tracking will not work"
+msgstr "您的虚拟桌面过多，桌面追踪功能将无法工作"
+
+#: taskview.cpp:708
+msgid "Could not save. Disk full?"
+msgstr "无法保存。磁盘是否已满？"
+
+#: taskview.cpp:710
+msgid "Could not save."
+msgstr "无法保存。"
+
+#: taskview.cpp:867
+msgid "New Task"
+msgstr "新建任务"
+
+#: taskview.cpp:879 taskview.cpp:953
+msgid "Unnamed Task"
+msgstr "未命名的任务"
+
+#: taskview.cpp:934
+msgid "New Sub Task"
+msgstr "新建子任务"
+
+#: taskview.cpp:947
+msgid "Edit Task"
+msgstr "编辑任务"
+
+#: taskview.cpp:986 taskview.cpp:1027 taskview.cpp:1049
+msgid "No task selected."
+msgstr "没有选择任务。"
+
+#: taskview.cpp:1035
+msgid ""
+"Are you sure you want to delete the selected task and its entire history?\n"
+"NOTE: all subtasks and their history will also be deleted."
+msgstr ""
+"您确定要删除所选任务及其全部历史吗？\n"
+"注意：所有子任务及其历史都将被删除。"
+
+#: taskview.cpp:1039
+msgid "Deleting Task"
+msgstr "删除任务"
+
+#: timekard.cpp:60
+msgid "Task Totals"
+msgstr "任务合计"
+
+#: timekard.cpp:95
+msgctxt "total time of all tasks"
+msgid "Total"
+msgstr "总计"
+
+#: timekard.cpp:98
+msgid "No tasks."
+msgstr "无任务。"
+
+#: timekard.cpp:159
+#, kde-format
+msgid "Week of %1"
+msgstr "%1 周"
+
+#: timetrackerstorage.cpp:189 timetrackerstorage.cpp:279
+#, kde-format
+msgid "Error loading \"%1\": could not find parent (uid=%2)"
+msgstr "载入“%1”出错：不能找到父结点 (uid=%2)"
+
+#: timetrackerstorage.cpp:607
+msgid "Export Progress"
+msgstr "导出进度"
+
+#: timetrackerstorage.cpp:687 timetrackerstorage.cpp:865
+#, kde-format
+msgid "Could not open \"%1\"."
+msgstr "不能打开“%1”。"
+
+#: timetrackerwidget.cpp:106
+msgid "Search or add task"
+msgstr "搜索或添加任务"
+
+#: timetrackerwidget.cpp:107
+msgid ""
+"This is a combined field. As long as you do not type ENTER, it acts as a "
+"filter. Then, only tasks that match your input are shown. As soon as you "
+"type ENTER, your input is used as name to create a new task."
+msgstr ""
+"在这个组合字段中您一般不需要按下回车，它是一个过滤器。您可以只要求显示符合输"
+"入内容的任务。如果按了回车，输入的内容会被引用为新建任务的名称。"
+
+#: timetrackerwidget.cpp:154
+msgid "Cannot create new file."
+msgstr "无法创建新文件。"
+
+#: timetrackerwidget.cpp:214
+msgid "Start &New Session"
+msgstr "开启新会话(&N)"
+
+#: timetrackerwidget.cpp:215
+msgid "Starts a new session"
+msgstr "开启一个新会话"
+
+#: timetrackerwidget.cpp:215
+msgid ""
+"This will reset the session time to 0 for all tasks, to start a new session, "
+"without affecting the totals."
+msgstr ""
+"这将把所有任务的会话时间重置为 0，并在不影响总计时间的情况下开启新会话。"
+
+#: timetrackerwidget.cpp:219
+msgid "Edit History..."
+msgstr "编辑历史..."
+
+#: timetrackerwidget.cpp:220
+msgid "Edits history of all tasks of the current document"
+msgstr "编辑当前文档下所有任务的历史"
+
+#: timetrackerwidget.cpp:220
+msgid ""
+"A window will be opened where you can change start and stop times of tasks "
+"or add a comment to them."
+msgstr "这将打开一个窗口，供您更改任务的开始和停止时间，或添加注释。"
+
+#: timetrackerwidget.cpp:224
+msgid "&Reset All Times"
+msgstr "重置所有时间(&R)"
+
+#: timetrackerwidget.cpp:225
+msgid "Resets all times"
+msgstr "重置所有时间"
+
+#: timetrackerwidget.cpp:225
+msgid ""
+"This will reset the session and total time to 0 for all tasks, to restart "
+"from scratch."
+msgstr "这将把所有任务的总计时间重置为 0 并复位会话，再从头开始。"
+
+#: timetrackerwidget.cpp:228
+msgid "&Start"
+msgstr "开始(&S)"
+
+#: timetrackerwidget.cpp:229
+msgid "Starts timing for selected task"
+msgstr "对选中任务开始计时"
+
+#: timetrackerwidget.cpp:229
+msgid ""
+"This will start timing for the selected task.\n"
+"It is even possible to time several tasks simultanously.\n"
+"\n"
+"You may also start timing of tasks by double clicking the left mouse button "
+"on a given task. This will, however, stop timing of other tasks."
+msgstr ""
+"这将开始对选中任务的计时。\n"
+"您可以同时对多个任务计时。\n"
+"\n"
+"您只需用鼠标左键双击一个任务即可开始计时，不过其它任务的计时将会停止。"
+
+#: timetrackerwidget.cpp:235
+msgid "S&top"
+msgstr "停止(&T)"
+
+#: timetrackerwidget.cpp:236
+msgid "Stops timing of the selected task"
+msgstr "对选中任务停止计时"
+
+#: timetrackerwidget.cpp:238
+msgid "Focus on Searchbar"
+msgstr "聚焦到搜索栏"
+
+#: timetrackerwidget.cpp:239
+msgid "Sets the focus on the searchbar"
+msgstr "焦点设定到搜索栏"
+
+#: timetrackerwidget.cpp:241
+msgid "Stop &All Timers"
+msgstr "停止所有计时器(&A)"
+
+#: timetrackerwidget.cpp:242
+msgid "Stops all of the active timers"
+msgstr "停止所有活动的计时器"
+
+#: timetrackerwidget.cpp:244
+msgid "Track Active Applications"
+msgstr "跟踪活动的程序"
+
+#: timetrackerwidget.cpp:245
+msgid ""
+"Auto-creates and updates tasks when the focus of the current window has "
+"changed"
+msgstr "在当前的焦点窗口更改时，自动创建并更新任务"
+
+#: timetrackerwidget.cpp:246
+msgid ""
+"If the focus of a window changes for the first time when this action is "
+"enabled, a new task will be created with the title of the window as its name "
+"and will be started. If there already exists such an task it will be started."
+msgstr ""
+"如果启用此动作，在第一次发生窗口焦点更改事件时将新建并启动一个任务，其名称取"
+"自窗口标题。如果已经有一个同名任务，则它将启动。"
+
+#: timetrackerwidget.cpp:254
+msgid "&New Task..."
+msgstr "新建任务(&N)..."
+
+#: timetrackerwidget.cpp:254
+msgid "Creates new top level task"
+msgstr "新建顶级任务"
+
+#: timetrackerwidget.cpp:255
+msgid "This will create a new top level task."
+msgstr "这将新建一个顶级任务。"
+
+#: timetrackerwidget.cpp:257
+msgid "New &Subtask..."
+msgstr "新建子任务(&S)..."
+
+#: timetrackerwidget.cpp:258
+msgid "Creates a new subtask to the current selected task"
+msgstr "新建当前选中任务的子任务"
+
+#: timetrackerwidget.cpp:259
+msgid "This will create a new subtask to the current selected task."
+msgstr "这将新建当前选中任务的子任务。"
+
+#: timetrackerwidget.cpp:261
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: timetrackerwidget.cpp:261
+msgid "Deletes selected task"
+msgstr "删除选中任务"
+
+#: timetrackerwidget.cpp:262
+msgid "This will delete the selected task(s) and all subtasks."
+msgstr "这将删除选中任务及其所有子任务。"
+
+#: timetrackerwidget.cpp:265
+msgid "&Edit..."
+msgstr "编辑(&E)..."
+
+#: timetrackerwidget.cpp:266
+msgid "Edits name or times for selected task"
+msgstr "编辑选中任务的名称或时间"
+
+#: timetrackerwidget.cpp:266
+msgid ""
+"This will bring up a dialog box where you may edit the parameters for the "
+"selected task."
+msgstr "这将打开一个对话框供您编辑选中任务的参数。"
+
+#: timetrackerwidget.cpp:269
+msgid "&Mark as Complete"
+msgstr "标记为完成(&M)"
+
+#: timetrackerwidget.cpp:272
+msgid "&Mark as Incomplete"
+msgstr "标记为未完成(&M)"
+
+#: timetrackerwidget.cpp:275
+msgid "&Export Times..."
+msgstr "导出计时(&E)..."
+
+#: timetrackerwidget.cpp:278
+msgid "Export &History..."
+msgstr "导出历史(&H)..."
+
+#: timetrackerwidget.cpp:281
+msgid "Import Tasks From &Planner..."
+msgstr "导入 &Planner 任务..."
+
+#: timetrackerwidget.cpp:284
+msgid "Show Searchbar"
+msgstr "显示搜索栏"
+
+#: timetrackerwidget.cpp:506
+msgid "Settings"
+msgstr "设置"
+
+#: timetrackerwidget.cpp:589
+msgctxt "@info in message box"
+msgid ""
+"There is no history yet. Start and stop a task and you will have an entry in "
+"your history."
+msgstr "现在还没有历史。启动并停止一个任务后，将会向历史中写入条目。"
+
+#: timetrackerwidget.cpp:598
+msgid ""
+"Do you really want to reset the time to zero for all tasks? This will delete "
+"the entire history."
+msgstr "您真的想要将全部任务的时间重置为零吗？这将删除整个历史。"
+
+#: timetrackerwidget.cpp:599
+msgid "Confirmation Required"
+msgstr "请求确认"
+
+#: timetrackerwidget.cpp:599
+msgid "Reset All Times"
+msgstr "重置所有时间"
+
+#: timetrackerwidget.cpp:739
+msgid "Save failed, most likely because the file could not be locked."
+msgstr "保存失败，很可能是文件无法锁定。"
+
+#: timetrackerwidget.cpp:741
+msgid "Could not modify calendar resource."
+msgstr "无法修改日历资源。"
+
+#: timetrackerwidget.cpp:743
+msgid "Out of memory--could not create object."
+msgstr "内存溢出--无法创建对象。"
+
+#: timetrackerwidget.cpp:745
+msgid "UID not found."
+msgstr "UID 未找到。"
+
+#: timetrackerwidget.cpp:747
+msgid "Invalidate date--format is YYYY-MM-DD."
+msgstr "无效的日期--格式为 YYYY-MM-DD。"
+
+#: timetrackerwidget.cpp:749
+msgid "Invalid time--format is YYYY-MM-DDTHH:MM:SS."
+msgstr "无效的时间--格式为YYYY-MM-DDTHH:MM:SS。"
+
+#: timetrackerwidget.cpp:751
+msgid "Invalid task duration--must be greater than zero."
+msgstr "无效的任务持续时间--必须大于零。"
+
+#: timetrackerwidget.cpp:753
+#, kde-format
+msgid "Invalid error number: %1"
+msgstr "无效的错误号：%1"
+
+#: timetrackerwidget.cpp:975
+msgid ""
+"This is ktimetracker, KDE's program to help you track your time. Best, start "
+"with creating your first task - enter it into the field where you see "
+"\"search or add task\"."
+msgstr ""
+"这是 KDE 的时间跟踪程序 ktimetracker。您可以先创建一个自己的任务，就在“搜索或"
+"添加任务”那里输入内容。"
+
+#: timetrackerwidget.cpp:976
+msgid "You have already created a task. You can now start and stop timing"
+msgstr "您已经创建了一个任务。现在可以开始和停止计时。"
+
+#: tray.cpp:143
+msgid "No active tasks"
+msgstr "没有活动的任务"
+
+#: tray.cpp:148
+msgid ", ..."
+msgstr "，..."
+
+#: tray.cpp:164
+msgid ", "
+msgstr "、"
+
+#: treeviewheadercontextmenu.cpp:47
+msgid "Columns"
+msgstr "列数"
+
+#: treeviewheadercontextmenu.cpp:141
+msgid "Show"
+msgstr "显示"
+
+#: treeviewheadercontextmenu.cpp:141
+msgid "Hide"
+msgstr "隐藏"
+
+#~ msgid "Dialog"
+#~ msgstr "对话框"
+
+#~ msgid "This document has not been saved yet. Do you want to save it?"
+#~ msgstr "此文档还未保存。您想要保存它吗？"
+
+#~ msgid "Untitled"
+#~ msgstr "无标题"
+
+#~ msgid "delete"
+#~ msgstr "删除"

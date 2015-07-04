@@ -1,0 +1,100 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-09-27 03:30+0200\n"
+"PO-Revision-Date: 2011-11-21 23:06+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: KPlatoRCPSPlugin.cpp:62
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>RCPS Scheduler</title><para>The Resource Constrained Project "
+"Scheduler (RCPS) focuses on scheduling the project to avoid overbooking "
+"resources. It still respects task dependencies and also tries to fullfill "
+"time constraints. However, time constraints can make it very difficult to "
+"find a good solution, so it may be preferable to use a different scheduler "
+"in these cases.</para>"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:120
+#, kde-format
+msgid "Scheduling halted after %1 generations"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:439
+msgid "Init"
+msgstr "初始化"
+
+#: KPlatoRCPSScheduler.cpp:443
+#, kde-format
+msgid "Re-calculate project from start time: %1"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:445
+#, kde-format
+msgid "Schedule project from start time: %1"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:450
+#, kde-format
+msgid "Schedule project from end time: %1"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:462
+msgid "Failed to build a valid RCPS project"
+msgstr "构建有效的 RCPS 项目失败"
+
+#: KPlatoRCPSScheduler.cpp:467
+msgid "Schedule"
+msgstr "调度"
+
+#: KPlatoRCPSScheduler.cpp:476
+#, kde-format
+msgid "Invalid scheduling solution. Result: %1"
+msgstr "无效的调度方案。结果：%1"
+
+#: KPlatoRCPSScheduler.cpp:562 KPlatoRCPSScheduler.cpp:705
+msgid "No resource request is registered"
+msgstr "未注册资源请求"
+
+#: KPlatoRCPSScheduler.cpp:592 KPlatoRCPSScheduler.cpp:735
+msgid "No resource has been allocated"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:606 KPlatoRCPSScheduler.cpp:749
+#, kde-format
+msgid "Scheduled task to start at %1 and finish at %2"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:654 KPlatoRCPSScheduler.cpp:781
+#, kde-format
+msgid "Project scheduled to start at %1 and finish at %2"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:784
+#, kde-format
+msgid "Must start project early in order to finish in time: %1"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:819
+msgctxt "Project Evaluation and Review Technique"
+msgid "PERT"
+msgstr ""
+
+#: KPlatoRCPSScheduler.cpp:859
+#, kde-format
+msgctxt "1=type of constraint"
+msgid "%1: Failed to meet constraint. Negative float=%2"
+msgstr ""

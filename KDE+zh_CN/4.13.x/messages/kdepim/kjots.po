@@ -1,0 +1,568 @@
+# translation of kjots.po to zh_CN
+# Copyright (C) 2002,2003 Free Software Foundation, Inc.
+# Totally rewritten by Wang Jian <lark@linux.net.cn>
+#
+# Orginal by Dillion Chen <dillon.chen@turbolinux.com.cn>, 1999.
+# Funda Wang <fundawang@en2china.com>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kjots\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-13 01:43+0000\n"
+"PO-Revision-Date: 2013-01-23 15:50-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: aboutdata.cpp:30
+msgid "KJots"
+msgstr "KJots"
+
+#: aboutdata.cpp:32
+msgid "KDE note taking utility"
+msgstr "KDE 笔记工具"
+
+#: aboutdata.cpp:34
+msgid "Copyright © 1997–2010 KJots authors"
+msgstr "版权 © 1997–2010 KJots 作者"
+
+#: aboutdata.cpp:38
+msgid "Stephen Kelly"
+msgstr "Stephen Kelly"
+
+#: aboutdata.cpp:38
+msgid "Current maintainer"
+msgstr "当前维护者"
+
+#: aboutdata.cpp:39
+msgid "Pradeepto K. Bhattacharya"
+msgstr "Pradeepto K. Bhattacharya"
+
+#: aboutdata.cpp:40
+msgid "Jaison Lee"
+msgstr "Jaison Lee"
+
+#: aboutdata.cpp:41
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#: aboutdata.cpp:42
+msgid "Stanislav Kljuhhin"
+msgstr "Stanislav Kljuhhin"
+
+#: aboutdata.cpp:43
+msgid "Christoph Neerfeld"
+msgstr "Christoph Neerfeld"
+
+#: aboutdata.cpp:43
+msgid "Original author"
+msgstr "原作者"
+
+#: aboutdata.cpp:44
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, autoSaveInterval)
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#: confpagemisc.ui:20 confpagemisc.ui:39
+msgid ""
+"This is the number of minutes KJots will wait before automatically saving "
+"changes."
+msgstr "这是 KJots 自动保存更改的间隔(按分钟计)。"
+
+#. i18n: ectx: property (specialValueText), widget (KIntSpinBox, autoSaveInterval)
+#: confpagemisc.ui:23
+msgid "1 minute"
+msgstr "1 分钟"
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, autoSaveInterval)
+#: confpagemisc.ui:26
+msgid " minutes"
+msgstr " 分钟"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: confpagemisc.ui:42
+msgid "S&ave every:"
+msgstr "保存间隔(&A)："
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, autoSave)
+#: confpagemisc.ui:103
+msgid ""
+"When \"Save changes periodically\" is checked, KJots will automatically save "
+"changes made to books at the interval defined below."
+msgstr "选中“启用自动保存”后，KJots 将以下面给定的间隔自动保存对书的更改。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoSave)
+#: confpagemisc.ui:106
+msgid "&Save changes periodically"
+msgstr "定期保存更改(&S)"
+
+#. i18n: ectx: label, entry (SplitterSizes), group (kjots)
+#: kjots.kcfg:10
+msgid "How the main window is divided."
+msgstr "主窗口的拆分方式。"
+
+#. i18n: ectx: label, entry (CurrentSelection), group (kjots)
+#: kjots.kcfg:13
+msgid "The book or page that is currently active."
+msgstr "目前打开的书或页面。"
+
+#. i18n: ectx: label, entry (Font), group (kjots)
+#: kjots.kcfg:16
+msgid "The font used to display the contents of books."
+msgstr "用于显示书内容的字体。"
+
+#. i18n: ectx: label, entry (AutoSave), group (kjots)
+#: kjots.kcfg:20
+msgid "Whether books should be saved automatically."
+msgstr "是否要自动保存书本。"
+
+#. i18n: ectx: label, entry (Unicode), group (kjots)
+#: kjots.kcfg:24
+msgid "Whether UTF-8 encoding should be forced for saving and loading."
+msgstr "是否强制用 UTF-8 编码保存或装入。"
+
+#. i18n: ectx: label, entry (AutoSaveInterval), group (kjots)
+#: kjots.kcfg:28
+msgid "The interval in minutes at which books should be saved automatically."
+msgstr "自动保存书的间隔。"
+
+#. i18n: ectx: label, entry (LastId), group (kjots)
+#: kjots.kcfg:32
+msgid "The last ID that was used for a book or page."
+msgstr "用作书或页面的上一个 ID。"
+
+#. i18n: ectx: label, entry (BookshelfOrder), group (kjots)
+#: kjots.kcfg:36
+msgid "The IDs of the books in the bookshelf."
+msgstr "书架上的书本 ID。"
+
+#. i18n: ectx: label, entry (PageNamePrompt), group (kjots)
+#: kjots.kcfg:40
+msgid "Ask for a name when creating a new page?"
+msgstr "在创建新页时询问名称吗？"
+
+#: kjotslinkdialog.cpp:43
+msgid "Manage Link"
+msgstr "管理链接"
+
+#: kjotslinkdialog.cpp:59
+msgid "Link Text:"
+msgstr "链接文字："
+
+#: kjotslinkdialog.cpp:62
+msgid "Link URL:"
+msgstr "链接地址："
+
+#: kjotspart.cpp:82
+msgid "&Configure KJots..."
+msgstr "配置 KJots(&C)..."
+
+#. i18n: ectx: Menu (format)
+#: kjotspartui.rc:21 kjotsui.rc:21
+msgid "F&ormat"
+msgstr "格式(&O)"
+
+#. i18n: ectx: Menu (go)
+#: kjotspartui.rc:44
+msgid "&Go"
+msgstr "转到(&G)"
+
+#. i18n: ectx: Menu (tools)
+#: kjotspartui.rc:53
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: Menu (settings)
+#: kjotspartui.rc:62
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kjotspartui.rc:70 kjotsui.rc:64
+#, fuzzy
+#| msgid "Main Toobar"
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: ToolBar (textToolBar)
+#: kjotspartui.rc:82 kjotsui.rc:79
+msgid "Text Toolbar"
+msgstr "文字工具栏"
+
+#. i18n: ectx: ToolBar (formatToolBar)
+#: kjotspartui.rc:95 kjotsui.rc:92
+msgid "Format Toolbar"
+msgstr "格式工具栏"
+
+#: kjotsreplacenextdialog.cpp:31 kjotsreplacenextdialog.cpp:35
+msgid "Replace"
+msgstr "替换"
+
+#: kjotsreplacenextdialog.cpp:33
+msgid "&All"
+msgstr "全部(&A)"
+
+#: kjotsreplacenextdialog.cpp:34
+msgid "&Skip"
+msgstr "跳过(&S)"
+
+#: kjotsreplacenextdialog.cpp:49
+#, kde-format
+msgid "Replace '%1' with '%2'?"
+msgstr "用“%2”替换“%1”吗？"
+
+#: kjotstreeview.cpp:113
+msgid "Multiple selections"
+msgstr "多选"
+
+#: kjotstreeview.cpp:149
+msgid "Rename Page"
+msgstr "重命名页面"
+
+#: kjotstreeview.cpp:150
+msgid "Page title:"
+msgstr "页标题："
+
+#: kjotstreeview.cpp:163
+msgid "Rename Book"
+msgstr "重命名书"
+
+#: kjotstreeview.cpp:164
+msgid "Book name:"
+msgstr "书名："
+
+#: kjotswidget.cpp:203
+msgid "Next Book"
+msgstr "下一本书"
+
+#: kjotswidget.cpp:210
+msgid "Previous Book"
+msgstr "上一本书"
+
+#: kjotswidget.cpp:217
+msgid "Next Page"
+msgstr "下一页"
+
+#: kjotswidget.cpp:224
+msgid "Previous Page"
+msgstr "上一页"
+
+#: kjotswidget.cpp:231
+msgid "&New Page"
+msgstr "新建页面(&N)"
+
+#: kjotswidget.cpp:237
+msgid "New &Book..."
+msgstr "新建书(&N)..."
+
+#: kjotswidget.cpp:243
+msgid "&Delete Page"
+msgstr "删除页面(&D)"
+
+#: kjotswidget.cpp:249
+msgid "Delete Boo&k"
+msgstr "删除书(&K)"
+
+#: kjotswidget.cpp:255
+msgid "Delete Selected"
+msgstr "删除选中页面"
+
+#: kjotswidget.cpp:260
+msgid "Manual Save"
+msgstr "手动保存"
+
+#: kjotswidget.cpp:265
+msgid "Auto Bullets"
+msgstr "自动对轴"
+
+#: kjotswidget.cpp:270
+msgid "Auto Decimal List"
+msgstr "自动对列表编号"
+
+#: kjotswidget.cpp:275
+msgid "Link"
+msgstr "链接"
+
+#: kjotswidget.cpp:279
+msgid "Insert Checkmark"
+msgstr "插入点选标记"
+
+#: kjotswidget.cpp:284 kjotswidget.cpp:366
+msgid "Rename..."
+msgstr "重命名..."
+
+#: kjotswidget.cpp:289
+msgid "Insert Date"
+msgstr "插入日期"
+
+#: kjotswidget.cpp:295
+msgid "Change Color..."
+msgstr "更改颜色..."
+
+#: kjotswidget.cpp:298
+msgid "Copy Link Address"
+msgstr "复制链接地址"
+
+#: kjotswidget.cpp:301
+msgid "Lock Selected"
+msgstr "锁定选中项"
+
+#: kjotswidget.cpp:306
+msgid "Unlock Selected"
+msgstr "解锁选中项"
+
+#: kjotswidget.cpp:311
+msgid "Sort children alphabetically"
+msgstr "按字母顺序排列子项目"
+
+#: kjotswidget.cpp:315
+msgid "Sort children by creation date"
+msgstr "按创建日期排序子项目"
+
+#: kjotswidget.cpp:334
+msgid "Copy &into Page Title"
+msgstr "复制到页标题中(&I)"
+
+#: kjotswidget.cpp:342
+msgctxt "@action Paste the text in the clipboard without rich text formatting."
+msgid "Paste Plain Text"
+msgstr "粘贴纯文本"
+
+#: kjotswidget.cpp:348
+msgid "&Bookmarks"
+msgstr "书签(&B)"
+
+#: kjotswidget.cpp:371
+msgid "Export"
+msgstr "导出"
+
+#: kjotswidget.cpp:375
+msgid "To Text File..."
+msgstr "到文本文件..."
+
+#: kjotswidget.cpp:381
+msgid "To HTML File..."
+msgstr "到 HTML 文件..."
+
+#: kjotswidget.cpp:387
+msgid "To Book File..."
+msgstr "到书本文件..."
+
+#: kjotswidget.cpp:445 kjotswidget.cpp:457
+msgid "Search all pages"
+msgstr "搜索全部页面"
+
+#: kjotswidget.cpp:676
+msgid "Settings"
+msgstr "设置"
+
+#: kjotswidget.cpp:713
+msgid "Do you really want to delete all selected books and pages?"
+msgstr "您真的想要删除选中的全部书和页面吗？"
+
+#: kjotswidget.cpp:714
+msgid "Delete?"
+msgstr "删除吗？"
+
+#: kjotswidget.cpp:751
+msgid "This page is locked. You can only delete it when you first unlock it."
+msgstr "此页面已锁定。您需要先对其解锁才能删除它。"
+
+#: kjotswidget.cpp:752 kjotswidget.cpp:785
+msgid "Item is locked"
+msgstr "项目已锁定"
+
+#: kjotswidget.cpp:757
+#, kde-format
+msgctxt "remove the page, by title"
+msgid "<qt>Are you sure you want to delete the page <strong>%1</strong>?</qt>"
+msgstr "<qt>您真的要删除页面 <strong>%1</strong> 吗？</qt>"
+
+#: kjotswidget.cpp:758 kjotswidget.cpp:790
+msgid "Delete"
+msgstr "删除"
+
+#: kjotswidget.cpp:784
+msgid "This book is locked. You can only delete it when you first unlock it."
+msgstr "这本书已经锁定。您需要先对其解锁才能删除它。"
+
+#: kjotswidget.cpp:789
+#, kde-format
+msgctxt "remove the book, by title"
+msgid "<qt>Are you sure you want to delete the book <strong>%1</strong>?</qt>"
+msgstr "<qt>您真的要删除书本 <strong>%1</strong> 吗？</qt>"
+
+#: kjotswidget.cpp:812 localresourcecreator.cpp:114
+msgctxt "The default name for new books."
+msgid "New Book"
+msgstr "新建书"
+
+#: kjotswidget.cpp:895 kjotswidget.cpp:926
+msgctxt "Header for 'Table of contents' section of rendered output"
+msgid "Table of contents"
+msgstr "目录"
+
+#: kjotswidget.cpp:1006
+msgid "Change Theme"
+msgstr "更改主题"
+
+#: kjotswidget.cpp:1043 kjotswidget.cpp:1065 kjotswidget.cpp:1087
+msgid "<qt>Error opening internal file.</qt>"
+msgstr "<qt>打开内部文件时出错。</qt>"
+
+#: kjotswidget.cpp:1131
+msgid "Send To Printer"
+msgstr "发送到打印机"
+
+#: kjotswidget.cpp:1437
+msgid "<qt>No matches found.</qt>"
+msgstr "<qt>没有匹配项。</qt>"
+
+#: kjotswidget.cpp:1610
+#, kde-format
+msgid "<qt>Replaced 1 occurrence.</qt>"
+msgid_plural "<qt>Replaced %1 occurrences.</qt>"
+msgstr[0] "<qt>已替换了 %1 项。</qt>"
+
+#: kjotswidget.cpp:1615
+#, kde-format
+msgid "<qt>Replaced %2 of 1 occurrence.</qt>"
+msgid_plural "<qt>Replaced %2 of %1 occurrences.</qt>"
+msgstr[0] "<qt>已替换了 %2 项中的 %1 项。</qt>"
+
+#: kjotswidget.cpp:1700
+msgid ""
+"<qt>End of search area reached. Do you want to wrap around and continue?</qt>"
+msgstr "<qt>已到达搜索结束区域。您想要反向继续搜索吗？</qt>"
+
+#: knowitimporter.cpp:147
+msgctxt "Name for the top level book created to hold the imported data."
+msgid "KNowIt Import"
+msgstr "KNowIt 导入"
+
+#: localresourcecreator.cpp:149
+msgctxt "The default name for new pages."
+msgid "New Page"
+msgstr "新建页面"
+
+#~ msgctxt "Default name for resource holding notes"
+#~ msgid "Local Notes"
+#~ msgstr "本地便笺"
+
+#~ msgid "Path to maildir"
+#~ msgstr "邮件目录路径"
+
+#~ msgid ""
+#~ "Path points to a folder containing Maildirs instead of to a maildir "
+#~ "itself."
+#~ msgstr "执行包含邮件目录的路径。"
+
+#~ msgid "Do not change the actual backend data."
+#~ msgstr "不更改实际后端数据。"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "杂项"
+
+#~ msgid "Bookshelf"
+#~ msgstr "书架"
+
+#~ msgid ""
+#~ "All pages must be inside a book. Would you like to create a new book to "
+#~ "put the page in, or would you prefer to not move the page at all?"
+#~ msgstr ""
+#~ "所有页面必须都在一本书中。您是想要创建一本新书，将这些新页面全放在里面，还"
+#~ "是根本不移动页面？"
+
+#~ msgid "Create New Book"
+#~ msgstr "创建新书"
+
+#~ msgid "Do Not Move Page"
+#~ msgstr "不移动页面"
+
+#~ msgid "New Book"
+#~ msgstr "创建新书"
+
+#~ msgid "Import..."
+#~ msgstr "导入..."
+
+#~ msgid "<qt>Are you sure you want to delete these entries?</qt>"
+#~ msgstr "<qt>您真的要删除这些条目吗？</qt>"
+
+#~ msgid "Multiple Selections"
+#~ msgstr "多选"
+
+#~ msgid "KJots Books"
+#~ msgstr "KJots 书籍"
+
+#~ msgid "HTML Files"
+#~ msgstr "HTML 文件"
+
+#~ msgid "<qt>Error opening temporary file.</qt>"
+#~ msgstr "<qt>打开临时文件时出错。</qt>"
+
+#~ msgid "KnowIt files"
+#~ msgstr "KnowIt 文件"
+
+#~ msgid ""
+#~ "A duplicate ID was found in the book %1. This can happen if you "
+#~ "manipulate the data files by hand, and will prevent KJots from working "
+#~ "correctly. KJots can attempt to fix this, or you can fix it yourself. In "
+#~ "either case, bookmarks and links between pages may be broken."
+#~ msgstr ""
+#~ "在书本 %1 中发现重复 ID。这可能是因为您手动修改了数据文件，然而程序会因此"
+#~ "不能正常工作。KJots 会尝试为您修正此问题，或者您也可以自行修正。但是书签和"
+#~ "页面之间的链接可能会因此损坏。"
+
+#~ msgid "A duplicate ID was found"
+#~ msgstr "发现重复 ID"
+
+#~ msgid "Exit and fix by hand"
+#~ msgstr "退出并手动修正"
+
+#~ msgid "Fix it automatically"
+#~ msgstr "自动修正"
+
+#~ msgid ""
+#~ "<qt>KJots is having problems saving your data. This might be a "
+#~ "permissions problem, or you may be out of disk space.</qt>"
+#~ msgstr ""
+#~ "<qt>KJots 在保存您的数据时出现问题。可能这是一个权限问题，或者您的磁盘空间"
+#~ "满了。</qt>"
+
+#~ msgid "Table of Contents"
+#~ msgstr "目录"
+
+#~ msgid "Page %1"
+#~ msgstr "第%1页"
+
+#~ msgid "New Page"
+#~ msgstr "新建页面"
+
+#~ msgid "Page name:"
+#~ msgstr "页名："
+
+#~ msgid "Ask for new &page names"
+#~ msgstr "询问新建页名(&P)。"
+
+#~ msgid ""
+#~ "Determines if new pages are given an automatic name, or a prompt is "
+#~ "displayed."
+#~ msgstr "决定对新建页是要自动赋名还是显示提示对话框。"

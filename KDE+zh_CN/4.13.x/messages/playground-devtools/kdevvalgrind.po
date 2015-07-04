@@ -1,0 +1,828 @@
+# translation of kdevvalgrind.po to 简体中文
+# Copyright (C) 2002,2003, 2004, 2008, 2009 Free Software Foundation, Inc.
+#
+# Qi Liang <cavendish@eyou.com>, 2001.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003, 2004.
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevvalgrind\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-21 01:56+0000\n"
+"PO-Revision-Date: 2009-05-28 12:05+0000\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: config/cachegrindconfigpage.cpp:72 config/ui/cachegrindconfig.ui:17
+#: config/ui/valgrindcachegrindconfig.ui:17
+#: config/valgrindcachegrindconfigpage.cpp:44
+#, fuzzy
+#| msgid "&Cachegrind"
+msgid "Cachegrind"
+msgstr "&Cachegrind"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: config/callgrindconfigpage.cpp:73 config/ui/callgrindconfig.ui:17
+#: config/ui/valgrindcallgrindconfig.ui:17
+#: config/valgrindcallgrindconfigpage.cpp:61
+#, fuzzy
+#| msgid "Ca&llgrind"
+msgid "Callgrind"
+msgstr "Ca&llgrind"
+
+#: config/genericconfigpage.cpp:104 config/valgrindgenericconfigpage.cpp:100
+msgid "Global settings"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: config/helgrindconfigpage.cpp:70 config/ui/helgrindconfig.ui:17
+#: config/ui/valgrindhelgrindconfig.ui:17
+#: config/valgrindhelgrindconfigpage.cpp:67
+#, fuzzy
+#| msgid "&Helgrind"
+msgid "Helgrind"
+msgstr "&Helgrind"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: config/massifconfigpage.cpp:88 config/ui/massifconfig.ui:17
+#: config/ui/valgrindmassifconfig.ui:17 config/valgrindmassifconfigpage.cpp:44
+#, fuzzy
+#| msgid "Massi&f"
+msgid "Massif"
+msgstr "Massi&f"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: config/memcheckconfigpage.cpp:128 config/ui/memcheckconfig.ui:17
+#: config/ui/valgrindmemcheckconfig.ui:17
+#: config/valgrindmemcheckconfigpage.cpp:108
+#, fuzzy
+#| msgid "&Memcheck"
+msgid "Memcheck"
+msgstr "内存检查(&M)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, launchKCachegrind)
+#: config/ui/cachegrindconfig.ui:23 config/ui/callgrindconfig.ui:23
+#, fuzzy
+#| msgid "&Cachegrind"
+msgid "Launch KCachegrind"
+msgstr "&Cachegrind"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config/ui/cachegrindconfig.ui:30 config/ui/callgrindconfig.ui:30
+#, fuzzy
+#| msgid "Valgrind Executable:"
+msgid "KCachegrind Executable:"
+msgstr "Valgrind 可执行文件："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: config/ui/cachegrindconfig.ui:47
+#, fuzzy
+#| msgid "Valgrind Executable:"
+msgid "cg_annotate Executable:"
+msgstr "Valgrind 可执行文件："
+
+#. i18n: ectx: property (text), widget (QCheckBox, branchSimulation)
+#: config/ui/cachegrindconfig.ui:61 config/ui/callgrindconfig.ui:61
+#, fuzzy
+#| msgid "Full Cache Simulation"
+msgid "Branch simulation"
+msgstr "完整缓存模拟"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cacheSimulation)
+#: config/ui/cachegrindconfig.ui:71 config/ui/callgrindconfig.ui:71
+#, fuzzy
+#| msgid "Full Cache Simulation"
+msgid "Cache simulation"
+msgstr "完整缓存模拟"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config/ui/cachegrindconfig.ui:87 config/ui/callgrindconfig.ui:87
+#, fuzzy
+#| msgid "Extra &Parameters:"
+msgid "Extra Parameters:"
+msgstr "额外参数(&P)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: config/ui/callgrindconfig.ui:47
+#, fuzzy
+#| msgid "Valgrind Executable:"
+msgid "callgrind_annotate Executable:"
+msgstr "Valgrind 可执行文件："
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, valgrind::CallgrindView)
+#: config/ui/callgrindview.ui:20
+#, fuzzy
+#| msgid "Ca&llgrind"
+msgid "Callgrind view"
+msgstr "Ca&llgrind"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config/ui/callgrindview.ui:31
+msgid "List of functions"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, Informations)
+#: config/ui/callgrindview.ui:55
+msgid "Information"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, percentInformationEnabled)
+#: config/ui/callgrindview.ui:63
+msgid "Show value as percentage"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, Caller)
+#: config/ui/callgrindview.ui:86
+#, fuzzy
+#| msgid "Ca&llgrind"
+msgid "Caller"
+msgstr "Ca&llgrind"
+
+#. i18n: ectx: attribute (title), widget (QWidget, Callee)
+#: config/ui/callgrindview.ui:103
+#, fuzzy
+#| msgid "Ca&llgrind"
+msgid "Callee"
+msgstr "Ca&llgrind"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: config/ui/genericconfig.ui:17 config/ui/valgrindgenericconfig.ui:17
+#: launcher.cpp:125 plugin.cpp:68 plugin.cpp:105
+msgid "Valgrind"
+msgstr "Valgrind"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config/ui/genericconfig.ui:23 config/ui/massifconfig.ui:23
+#: config/ui/memcheckconfig.ui:23 config/ui/valgrindgenericconfig.ui:23
+#: config/ui/valgrindmemcheckconfig.ui:23
+msgid "Extra &Parameters:"
+msgstr "额外参数(&P)："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config/ui/genericconfig.ui:36 config/ui/valgrindgenericconfig.ui:36
+msgid "Display stack to &depth:"
+msgstr "显示深入的堆栈："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config/ui/genericconfig.ui:56 config/ui/valgrindgenericconfig.ui:56
+msgid "Maximum &frame stack size:"
+msgstr "最大框架堆栈大小(&F)："
+
+#. i18n: ectx: property (suffix), widget (KIntNumInput, maxStackSize)
+#. i18n: ectx: property (suffix), widget (KIntNumInput, freeListSize)
+#: config/ui/genericconfig.ui:75 config/ui/memcheckconfig.ui:55
+#: config/ui/valgrindgenericconfig.ui:75
+#: config/ui/valgrindmemcheckconfig.ui:55
+msgid " bytes"
+msgstr " 字节"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: config/ui/genericconfig.ui:82 config/ui/valgrindgenericconfig.ui:82
+msgid "Valgrind Executable:"
+msgstr "Valgrind 可执行文件："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: config/ui/genericconfig.ui:124 config/ui/valgrindgenericconfig.ui:124
+#, fuzzy
+#| msgid "Valgrind"
+msgid "Valgrind tool:"
+msgstr "Valgrind"
+
+#. i18n: ectx: property (text), widget (QCheckBox, limitErrors)
+#: config/ui/genericconfig.ui:131 config/ui/valgrindgenericconfig.ui:131
+msgid "Limit errors if too many"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: config/ui/helgrindconfig.ui:23 config/ui/valgrindhelgrindconfig.ui:23
+msgid "Extra Synchronization Events:"
+msgstr "额外同步事件："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: config/ui/massifconfig.ui:36
+msgid "Snapshot tree depth:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: config/ui/massifconfig.ui:53
+msgid "Threshold:"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, threshold)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, peakInaccuracy)
+#: config/ui/massifconfig.ui:60 config/ui/massifconfig.ui:80
+#, no-c-format
+msgid " %"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: config/ui/massifconfig.ui:73
+msgid "Peak inaccuracy:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, timeUnit)
+#: config/ui/massifconfig.ui:94
+msgid "CPU instructions"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, timeUnit)
+#: config/ui/massifconfig.ui:99
+msgid "Milliseconds"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, timeUnit)
+#: config/ui/massifconfig.ui:104
+msgid "Bytes allocated"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: config/ui/massifconfig.ui:112
+msgid "Time unit:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: config/ui/massifconfig.ui:119
+msgid "Maximum snapshots:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: config/ui/massifconfig.ui:133
+msgid "Detailed snapshot frequency:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, launchMassifVisualizer)
+#: config/ui/massifconfig.ui:147
+#, fuzzy
+#| msgid "Valgrind Executable:"
+msgid "Launch Massif Visualizer"
+msgstr "Valgrind 可执行文件："
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: config/ui/massifconfig.ui:154
+#, fuzzy
+#| msgid "Valgrind Executable:"
+msgid "Massif Visualizer Executable:"
+msgstr "Valgrind 可执行文件："
+
+#. i18n: ectx: property (text), widget (KLineEdit, massifVisualizerExecutable)
+#: config/ui/massifconfig.ui:164
+#, fuzzy
+#| msgid "&Cachegrind"
+msgid "/usr/bin/kcachegrind"
+msgstr "&Cachegrind"
+
+#. i18n: ectx: property (text), widget (QCheckBox, profileHeap)
+#: config/ui/massifconfig.ui:174
+msgid "Profile heap"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, profileStack)
+#: config/ui/massifconfig.ui:184
+msgid "Profile stack (slows profiling down greatly)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: config/ui/memcheckconfig.ui:36 config/ui/valgrindmemcheckconfig.ui:36
+#, fuzzy
+#| msgid "Free block list size:"
+msgid "Freelist size"
+msgstr "空闲内存块列表大小："
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showReachable)
+#: config/ui/memcheckconfig.ui:67
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Cantarell'; font-size:11pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Arial,Geneva,Helvetica,sans-serif'; font-size:medium; color:#202020;"
+"\">When disabled, the memory leak detector only shows \"definitely lost\" "
+"and \"possibly lost\" blocks.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Arial,Geneva,Helvetica,sans-serif'; font-size:medium; color:#202020;"
+"\">When enabled, the leak detector also shows \"reachable\" and \"indirectly "
+"lost\" blocks.</span></p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showReachable)
+#: config/ui/memcheckconfig.ui:70
+#, fuzzy
+#| msgid "Show Reachable Blocks"
+msgid "Show reachable"
+msgstr "显示可用的内存块"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, undefValueErrors)
+#: config/ui/memcheckconfig.ui:80
+msgid "Controls whether Memcheck reports uses of undefined value errors."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, undefValueErrors)
+#: config/ui/memcheckconfig.ui:83
+msgid "Undef Value Errors"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, separateThreadReporting)
+#: config/ui/valgrindcallgrindconfig.ui:23
+msgid "Separate Thread Reporting"
+msgstr "独立线程报告"
+
+#. i18n: ectx: property (text), widget (QCheckBox, fullCacheSimulation)
+#: config/ui/valgrindcallgrindconfig.ui:30
+msgid "Full Cache Simulation"
+msgstr "完整缓存模拟"
+
+#. i18n: ectx: property (text), widget (QCheckBox, simulateHardwarePrefetcher)
+#: config/ui/valgrindcallgrindconfig.ui:37
+msgid "Simulate Hardware Prefetcher"
+msgstr "模拟硬件预取"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showInvalidFree)
+#: config/ui/valgrindmemcheckconfig.ui:62
+msgid ""
+"Whether or not to trace invalid frees (call to free on a non-allocated "
+"address)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showInvalidFree)
+#: config/ui/valgrindmemcheckconfig.ui:65
+msgid "Show invalid frees"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showMismatchedFree)
+#: config/ui/valgrindmemcheckconfig.ui:72
+msgid ""
+"Whether or not to trace mismatched frees (for example, trying to call free "
+"on an area allocated with new)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showMismatchedFree)
+#: config/ui/valgrindmemcheckconfig.ui:75
+msgid "Show mismatched frees"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showInvalidRead)
+#: config/ui/valgrindmemcheckconfig.ui:82
+msgid ""
+"Whether or not to trace invalid reads (dereferencing of a non-allocated "
+"address)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showInvalidRead)
+#: config/ui/valgrindmemcheckconfig.ui:85
+msgid "Show invalid reads"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showInvalidWrite)
+#: config/ui/valgrindmemcheckconfig.ui:92
+msgid ""
+"Whether or not to trace invalid writes (writing to a non-allocated address)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showInvalidWrite)
+#: config/ui/valgrindmemcheckconfig.ui:95
+msgid "Show invalid writes"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showInvalidJump)
+#: config/ui/valgrindmemcheckconfig.ui:102
+msgid ""
+"Whether or not to trace invalid jumps (call to an invalid pointer of "
+"function for example)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showInvalidJump)
+#: config/ui/valgrindmemcheckconfig.ui:105
+msgid "Show invalid jumps"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showOverlap)
+#: config/ui/valgrindmemcheckconfig.ui:112
+msgid "Show overlaps"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showInvalidMemPool)
+#: config/ui/valgrindmemcheckconfig.ui:119
+msgid "Show invalid memory pools"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showUninitCondition)
+#: config/ui/valgrindmemcheckconfig.ui:126
+msgid "Show uninitialized conditions"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showUninitValue)
+#: config/ui/valgrindmemcheckconfig.ui:133
+msgid "Show uninitialized values"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showSyscallParam)
+#: config/ui/valgrindmemcheckconfig.ui:140
+msgid "Show invalid syscall parameters"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showClientCheck)
+#: config/ui/valgrindmemcheckconfig.ui:147
+msgid "Show client checks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showLeakDefinitelyLost)
+#: config/ui/valgrindmemcheckconfig.ui:154
+msgid "Show definitely lost leaks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showLeakIndirectlyLost)
+#: config/ui/valgrindmemcheckconfig.ui:161
+#, fuzzy
+#| msgid "Show Reachable Blocks"
+msgid "Show indirectly lost leaks"
+msgstr "显示可用的内存块"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showLeakStillReachable)
+#: config/ui/valgrindmemcheckconfig.ui:168
+#, fuzzy
+#| msgid "Show Reachable Blocks"
+msgid "Show still reachable leaks"
+msgstr "显示可用的内存块"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showOthers)
+#: config/ui/valgrindmemcheckconfig.ui:175
+msgid "Show others"
+msgstr ""
+
+#: job.cpp:274 job.cpp:291 job.cpp:410
+msgid "job failed"
+msgstr ""
+
+#: job.cpp:280
+#, kde-format
+msgid ""
+"No environment group specified, looks like a broken configuration, please "
+"check run configuration '%1'. Using default environment group."
+msgstr ""
+
+#: job.cpp:326
+#, kde-format
+msgid "job output (pid=%1)"
+msgstr ""
+
+#: job.cpp:333
+#, kde-format
+msgid "job running (pid=%1)"
+msgstr ""
+
+#: job.cpp:360
+#, fuzzy, kde-format
+#| msgid "Failed to start valgrind from \"%1.\""
+msgid "Failed to start valgrind from \"%1\"."
+msgstr "从“%1”启动 valgrind 失败。"
+
+#: job.cpp:360
+msgid "Failed to start Valgrind"
+msgstr "启动 Valgrind 失败"
+
+#: job.cpp:366
+msgid "Valgrind crashed."
+msgstr "Valgrind 已崩溃。"
+
+#: job.cpp:366 job.cpp:369 job.cpp:372 job.cpp:375 job.cpp:378 job.cpp:409
+#: job.cpp:507 parsers/memcheckparser.cpp:126
+msgid "Valgrind Error"
+msgstr "Valgrind 错误"
+
+#: job.cpp:369
+msgid "Valgrind process timed out."
+msgstr "Valgrind 进程超时。"
+
+#: job.cpp:372
+msgid "Write to Valgrind process failed."
+msgstr "写入 Valgrind 进程失败。"
+
+#: job.cpp:375
+msgid "Read from Valgrind process failed."
+msgstr "从 Valgrind 进程读取失败。"
+
+#: job.cpp:378
+msgid "Unknown Valgrind process error."
+msgstr "未知的 Valgrind 进程错误。"
+
+#: job.cpp:387
+#, kde-format
+msgid "job finished (pid=%1,exit=%2)"
+msgstr ""
+
+#: job.cpp:507
+#, kde-format
+msgid "Unable to launch the process %1 (%2)"
+msgstr ""
+
+#: jobs/memcheckjob.cpp:104
+#, kde-format
+msgid "Socket error while communicating with valgrind: \"%1\""
+msgstr "与 valgrind 通信时发生套接字错误：“%1”"
+
+#: jobs/memcheckjob.cpp:105
+msgid "Valgrind communication error"
+msgstr "Valgrind 通信错误"
+
+#. i18n: ectx: Menu (run)
+#: kdevvalgrind.rc:5
+msgctxt "@title:menu"
+msgid "Run"
+msgstr "运行"
+
+#: launcher.cpp:115
+#, fuzzy
+#| msgid "Socket error while communicating with valgrind: \"%1\""
+msgid "Profile application with Valgrind"
+msgstr "与 valgrind 通信时发生套接字错误：“%1”"
+
+#: models/cachegrindmodel.cpp:158 models/callgrindmodel.cpp:97
+msgid "Call name"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:160 models/callgrindmodel.cpp:99
+msgid "File name"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:162 models/callgrindmodel.cpp:101
+msgid "Ir (I cache read)"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:164 models/callgrindmodel.cpp:103
+msgid "I1mr (L1 cache read miss)"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:166 models/callgrindmodel.cpp:105
+msgid "ILmr (LL cache read miss)"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:168 models/callgrindmodel.cpp:107
+msgid "Dr (D cache read)"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:170 models/callgrindmodel.cpp:109
+msgid "D1mr (D1 cache read miss)"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:172 models/callgrindmodel.cpp:111
+msgid "DLmr (DL cache read miss)"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:174 models/callgrindmodel.cpp:113
+msgid "Dw (D cache write)"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:176 models/callgrindmodel.cpp:115
+msgid "D1mw (D1 cache write miss)"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:178 models/callgrindmodel.cpp:117
+msgid "DLmw (DL cache write miss)"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:180 models/callgrindmodel.cpp:119
+msgid "Bc (Conditional branches executed)"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:182 models/callgrindmodel.cpp:121
+msgid "Bcm (conditional branches mispredicted)"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:184 models/callgrindmodel.cpp:123
+msgid "Bi (Indirect branches executed)"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:186 models/callgrindmodel.cpp:125
+msgid "Bim (indirect branches mispredicted)"
+msgstr ""
+
+#: models/cachegrindmodel.cpp:188 models/callgrindmodel.cpp:127
+msgid "???"
+msgstr ""
+
+#: models/massifmodel.cpp:150
+msgid "snapshot"
+msgstr ""
+
+#: models/massifmodel.cpp:152
+msgid "time"
+msgstr ""
+
+#: models/massifmodel.cpp:154
+msgid "mem_heap_B"
+msgstr ""
+
+#: models/massifmodel.cpp:156
+msgid "mem_heap_extra_B"
+msgstr ""
+
+#: models/massifmodel.cpp:158
+msgid "mem_stacks_B"
+msgstr ""
+
+#: models/memcheckmodel.cpp:92
+#, fuzzy, kde-format
+#| msgid "at: %1"
+msgid "at %1: %2"
+msgstr "于：%1"
+
+#: models/memcheckmodel.cpp:94
+#, fuzzy, kde-format
+#| msgid "by: %1"
+msgid "by %1: %2"
+msgstr "由：%1"
+
+#: models/memcheckmodel.cpp:147
+#, kde-format
+msgid "%1:%2"
+msgstr ""
+
+#: models/memcheckmodel.cpp:165
+msgid "Function"
+msgstr "函数"
+
+#: models/memcheckmodel.cpp:167
+msgid "Source"
+msgstr "来源"
+
+#: models/memcheckmodel.cpp:169
+msgid "Object"
+msgstr "对象"
+
+#: parsers/memcheckparser.cpp:126
+#, kde-format
+msgid "Valgrind XML Parsing: error at line %1, column %2: %3"
+msgstr "Valgrind XML 解析：错误位于 行 %1，列 %2：%3"
+
+#: plugin.cpp:68
+#, fuzzy
+#| msgid "Support for running valgrind"
+msgid "Support for running Valgrind"
+msgstr "运行 valgrind 支持"
+
+#: plugin.cpp:110
+msgid ""
+"Launches the currently selected launch configuration with the Valgrind "
+"presets"
+msgstr ""
+
+#: plugin.cpp:111
+#, fuzzy
+#| msgid "Valgrind"
+msgid "Valgrind launch"
+msgstr "Valgrind"
+
+#: views/callgrindview.cpp:125 views/callgrindview.cpp:142
+#, fuzzy
+#| msgid "Function"
+msgid "Function Name"
+msgstr "函数"
+
+#: views/callgrindview.cpp:126 views/callgrindview.cpp:143
+msgid "Ir"
+msgstr ""
+
+#: widget.cpp:73
+msgid "Valgrind Output"
+msgstr "Valgrind 输出"
+
+#: widget.cpp:75
+msgid ""
+"<b>Valgrind</b><p>Shows the output of valgrind. Valgrind detects:<br/>use of "
+"uninitialized memory;<br/>reading/writing memory after it has been free'd;"
+"<br/>reading/writing off the end of malloc'd blocks;<br/>reading/writing "
+"inappropriate areas on the stack;<br/>memory leaks &mdash; where pointers to "
+"malloc'd blocks are lost forever;<br/>passing of uninitialised and/or "
+"unaddressable memory to system calls;<br/>mismatched use of malloc/new/new "
+"[] vs free/delete/delete [];<br/>some abuses of the POSIX pthread API.</p>"
+msgstr ""
+"<b>Valgrind</b><p>显示 Valgrind 的输出。Valgrind 能检测<br/>使用未初始化的内"
+"存<br/>在内存释放后进行读/写<br/>读写超越 malloc 分配的内存块<br/>读写堆栈中"
+"不适当的区域<br/>内存泄露 &mdash; malloc 分配的指针永远丢失的问题<br/>传递未"
+"初始化和/或不可访问的内存给系统调用<br/>对 malloc/new/new [] 和 free/delete/"
+"delete [] 的使用不配对<br/>一些对 POSIX pthread API 的不当使用。</p>"
+
+#: widget.cpp:107
+msgid "job scheduled"
+msgstr ""
+
+#~ msgid "Open Valgrind Output"
+#~ msgstr "打开 Valgrind 输出"
+
+#, fuzzy
+#~| msgid "Could not open valgrind output: %1"
+#~ msgid "Could not open Valgrind output: %1"
+#~ msgstr "无法打开 Valgrind 输出：%1"
+
+#, fuzzy
+#~| msgid "Socket error while communicating with valgrind: \"%1\""
+#~ msgctxt "@title:menu"
+#~ msgid "Profile Launch (Valgrind)"
+#~ msgstr "与 valgrind 通信时发生套接字错误：“%1”"
+
+#, fuzzy
+#~| msgid "&Memcheck"
+#~ msgid "Memcheck settings"
+#~ msgstr "内存检查(&M)"
+
+#, fuzzy
+#~| msgid "&Memcheck"
+#~ msgid "Cachegrind settings"
+#~ msgstr "内存检查(&M)"
+
+#, fuzzy
+#~| msgid "Valgrind Error"
+#~ msgid "Valgrind ($CurrentTool?)"
+#~ msgstr "Valgrind 错误"
+
+#~ msgid "Limit &identical error display"
+#~ msgstr "限制相同错误的显示(&I)"
+
+#~ msgid "Leak Summary:"
+#~ msgstr "泄漏摘要："
+
+#~ msgid "None"
+#~ msgstr "无"
+
+#~ msgid "Summary"
+#~ msgstr "摘要"
+
+#~ msgid "Full"
+#~ msgstr "完整"
+
+#~ msgid "Leak Resolution Matching:"
+#~ msgstr "泄漏解析匹配方式："
+
+#~ msgid "Low"
+#~ msgstr "低"
+
+#~ msgid "Medium"
+#~ msgstr "中"
+
+#~ msgid "High"
+#~ msgstr "高"
+
+#~ msgid "None (Locks Only)"
+#~ msgstr "无(仅锁定)"
+
+#~ msgid "Threads"
+#~ msgstr "线程"
+
+#~ msgid "All"
+#~ msgstr "全部"
+
+#, fuzzy
+#~| msgid "Ca&llgrind"
+#~ msgid "Call Tracing"
+#~ msgstr "Ca&llgrind"
+
+#, fuzzy
+#~| msgid "&Memcheck"
+#~ msgid "Memory Check"
+#~ msgstr "内存检查(&M)"
+
+#~ msgid "Installing via sudo is not yet implemented"
+#~ msgstr "通过 sudo 安装尚未实现"
+
+#~ msgid "Not implemented"
+#~ msgstr "未实现"
+
+#~ msgid "&Valgrind Memory Leak Check"
+#~ msgstr "Valgrind 内存泄露检查(&V)"
+
+#~ msgid "Valgrind memory leak check and other tools"
+#~ msgstr "Valgrind 内存泄露检查和其它工具"
+
+#~ msgid ""
+#~ "<b>Valgrind memory leak check</b><p>Runs Valgrind &mdash; a tool to help "
+#~ "you find memory-management problems in your programs, and which provides "
+#~ "other tools.</p>"
+#~ msgstr ""
+#~ "<b>Valgrind 内存泄露检查</b><p>运行 Valgrind &mdash; 一个帮助您发现程序中"
+#~ "内存管理问题的工具，还提供了一些其它工具。</p>"
+
+#~ msgid "No executable specified"
+#~ msgstr "未指定可执行文件"

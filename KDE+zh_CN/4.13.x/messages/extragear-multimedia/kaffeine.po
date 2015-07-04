@@ -1,0 +1,1272 @@
+# translation of kaffeine.po to 简体中文
+# This file is distributed under the same license as the Kaffeine package.
+#
+#
+# KanKer <kanker@163.com>, 2004.
+# qianzheng <billqian@sohu.com>, 2004, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kaffeine\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-19 03:33+0200\n"
+"PO-Revision-Date: 2011-11-13 12:01+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#: backend-mplayer/mplayermediawidget.cpp:259
+msgid "Cannot start mplayer process."
+msgstr "无法启动 mplayer 进程。"
+
+#: configurationdialog.cpp:37
+msgctxt "@title:window"
+msgid "Configure Kaffeine"
+msgstr "配置 Kaffeine"
+
+#: configurationdialog.cpp:44
+msgctxt "@item:inlistbox 'Startup display mode:'"
+msgid "Normal Mode"
+msgstr "普通模式"
+
+#: configurationdialog.cpp:46
+msgctxt "@item:inlistbox 'Startup display mode:'"
+msgid "Minimal Mode"
+msgstr "迷你模式"
+
+#: configurationdialog.cpp:48
+msgctxt "@item:inlistbox 'Startup display mode:'"
+msgid "Full Screen Mode"
+msgstr "全屏模式"
+
+#: configurationdialog.cpp:50
+msgctxt "@item:inlistbox 'Startup display mode:'"
+msgid "Remember Last Setting"
+msgstr "记住上次的设置"
+
+#: configurationdialog.cpp:54
+msgctxt "@label:listbox"
+msgid "Startup display mode:"
+msgstr "启动显示模式："
+
+#: configurationdialog.cpp:63
+msgctxt "@label:spinbox"
+msgid "Short skip duration:"
+msgstr "短跳转时长："
+
+#: configurationdialog.cpp:72
+msgctxt "@label:spinbox"
+msgid "Long skip duration:"
+msgstr "长跳转时长："
+
+#: configurationdialog.cpp:77
+msgctxt "@title:group"
+msgid "General"
+msgstr "常规"
+
+#: configurationdialog.cpp:84
+msgctxt "@label:textbox"
+msgid "Log messages:"
+msgstr "日志消息："
+
+#: configurationdialog.cpp:87
+msgctxt "@action:button"
+msgid "Show dmesg"
+msgstr "显示 dmesg"
+
+#: configurationdialog.cpp:98
+msgctxt "@title:group"
+msgid "Diagnostics"
+msgstr "诊断"
+
+#: configurationdialog.cpp:127
+msgctxt "@title:window"
+msgid "dmesg"
+msgstr "dmesg"
+
+#: dvb/dvbchanneldialog.cpp:106 dvb/dvbepgdialog.cpp:255
+#: dvb/dvbepgdialog.cpp:364 dvb/dvbrecordingdialog.cpp:242
+#: dvb/dvbscandialog.cpp:207
+msgctxt "@title:column tv show"
+msgid "Channel"
+msgstr "频道"
+
+#: dvb/dvbchanneldialog.cpp:108
+msgctxt "@title:column tv channel"
+msgid "Number"
+msgstr "编号"
+
+#: dvb/dvbchanneldialog.cpp:290 dvb/dvbrecordingdialog.cpp:64
+msgctxt "@action"
+msgid "Edit"
+msgstr "编辑"
+
+#: dvb/dvbchanneldialog.cpp:298 dvb/dvbconfigdialog.cpp:466
+#: dvb/dvbrecordingdialog.cpp:71 playlist/playlisttab.cpp:411
+#: playlist/playlisttab.cpp:431
+msgctxt "@action"
+msgid "Remove"
+msgstr "删除"
+
+#: dvb/dvbchanneldialog.cpp:315
+msgctxt "@info"
+msgid ""
+"The channels will be sorted by number to allow drag and drop.\n"
+"Do you want to continue?"
+msgstr ""
+"频道将按编号排序以便拖放。\n"
+"您想要继续吗？"
+
+#: dvb/dvbchanneldialog.cpp:406
+msgid "Horizontal"
+msgstr "水平"
+
+#: dvb/dvbchanneldialog.cpp:407
+msgid "Vertical"
+msgstr "垂直"
+
+#: dvb/dvbchanneldialog.cpp:408
+msgid "Circular left"
+msgstr "左旋"
+
+#: dvb/dvbchanneldialog.cpp:409
+msgid "Circular right"
+msgstr "右旋"
+
+#: dvb/dvbchanneldialog.cpp:534
+msgctxt "@title:window"
+msgid "Edit Channel"
+msgstr "编辑频道"
+
+#: dvb/dvbchanneldialog.cpp:544
+msgctxt "@label tv channel"
+msgid "Name:"
+msgstr "名称："
+
+#: dvb/dvbchanneldialog.cpp:553
+msgctxt "@label tv channel"
+msgid "Number:"
+msgstr "编号："
+
+#: dvb/dvbchanneldialog.cpp:562
+msgctxt "@label tv channel"
+msgid "Source:"
+msgstr "来源："
+
+#: dvb/dvbchanneldialog.cpp:570 dvb/dvbchanneldialog.cpp:592
+#: dvb/dvbchanneldialog.cpp:610 dvb/dvbchanneldialog.cpp:631
+msgid "Frequency (MHz):"
+msgstr "频率(MHz)："
+
+#: dvb/dvbchanneldialog.cpp:573 dvb/dvbchanneldialog.cpp:594
+msgid "Symbol rate (kS/s):"
+msgstr "符号率(kS/s)："
+
+#: dvb/dvbchanneldialog.cpp:575 dvb/dvbchanneldialog.cpp:600
+#: dvb/dvbchanneldialog.cpp:615 dvb/dvbchanneldialog.cpp:634
+msgid "Modulation:"
+msgstr "调制："
+
+#: dvb/dvbchanneldialog.cpp:577 dvb/dvbchanneldialog.cpp:596
+#: dvb/dvbchanneldialog.cpp:617
+msgid "FEC rate:"
+msgstr "FEC 率："
+
+#: dvb/dvbchanneldialog.cpp:590
+msgid "Polarization:"
+msgstr "偏振："
+
+#: dvb/dvbchanneldialog.cpp:602
+msgid "Roll-off:"
+msgstr "滚降："
+
+#: dvb/dvbchanneldialog.cpp:613
+msgid "Bandwidth:"
+msgstr "带宽："
+
+#: dvb/dvbchanneldialog.cpp:619
+msgid "FEC rate LP:"
+msgstr "FEC 率 LP："
+
+#: dvb/dvbchanneldialog.cpp:621
+msgid "Transmission mode:"
+msgstr "传输模式："
+
+#: dvb/dvbchanneldialog.cpp:623
+msgid "Guard interval:"
+msgstr "安全间隔："
+
+#: dvb/dvbchanneldialog.cpp:625
+msgid "Hierarchy:"
+msgstr "分级："
+
+#: dvb/dvbchanneldialog.cpp:642
+msgid "PMT PID:"
+msgstr "PMT PID："
+
+#: dvb/dvbchanneldialog.cpp:650
+msgid "Video PID:"
+msgstr "视频 PID："
+
+#: dvb/dvbchanneldialog.cpp:655
+msgid "Subtitle PID:"
+msgstr "字幕 PID："
+
+#: dvb/dvbchanneldialog.cpp:665
+msgid "Teletext PID:"
+msgstr "电视电报 PID："
+
+#: dvb/dvbchanneldialog.cpp:676
+msgid "Network ID:"
+msgstr "网络 ID："
+
+#: dvb/dvbchanneldialog.cpp:683
+msgid "Transport stream ID:"
+msgstr "转送流 ID："
+
+#: dvb/dvbchanneldialog.cpp:690
+msgid "Service ID:"
+msgstr "服务 ID："
+
+#: dvb/dvbchanneldialog.cpp:697
+msgid "Audio channel:"
+msgstr "声道："
+
+#: dvb/dvbchanneldialog.cpp:721
+msgid "Scrambled:"
+msgstr "扰频："
+
+#: dvb/dvbconfigdialog.cpp:46
+msgctxt "@title:window"
+msgid "Configure Television"
+msgstr "配置电视"
+
+#: dvb/dvbconfigdialog.cpp:55
+msgid "Recording folder:"
+msgstr "录制文件夹："
+
+#: dvb/dvbconfigdialog.cpp:63 dvb/dvbconfigdialog.cpp:75
+msgid "Select Folder"
+msgstr "选择文件夹"
+
+#: dvb/dvbconfigdialog.cpp:67
+msgid "Time shift folder:"
+msgstr "时间偏移文件夹："
+
+#: dvb/dvbconfigdialog.cpp:81
+msgid "Begin margin (minutes):"
+msgstr "开头预留(分钟)："
+
+#: dvb/dvbconfigdialog.cpp:88
+msgid "End margin (minutes):"
+msgstr "结尾预留(分钟)："
+
+#: dvb/dvbconfigdialog.cpp:97
+msgid "Use ISO 8859-1 charset instead of ISO 6937:"
+msgstr "使用 ISO 8859-1 字符集而不是 ISO 6937："
+
+#: dvb/dvbconfigdialog.cpp:109 dvb/dvbscandialog.cpp:280
+#, kde-format
+msgid "Scan data last updated on %1"
+msgstr "扫描数据上次更新于 %1"
+
+#: dvb/dvbconfigdialog.cpp:112
+msgid "Update scan data over Internet"
+msgstr "通过互联网更新扫描数据"
+
+#: dvb/dvbconfigdialog.cpp:120
+msgid "Your position (only needed for USALS rotor)"
+msgstr "您的位置(仅对 USALS 转轴需要)"
+
+#: dvb/dvbconfigdialog.cpp:123
+msgid "Latitude:"
+msgstr "纬度："
+
+#: dvb/dvbconfigdialog.cpp:124
+msgid "[S -90 ... 90 N]"
+msgstr "[S -90 ... 90 N]"
+
+#: dvb/dvbconfigdialog.cpp:138
+msgid "Longitude:"
+msgstr "经度："
+
+#: dvb/dvbconfigdialog.cpp:139
+msgid "[W -180 ... 180 E]"
+msgstr "[W -180 ... 180 E]"
+
+#: dvb/dvbconfigdialog.cpp:156
+msgid "General Options"
+msgstr "常规选项"
+
+#: dvb/dvbconfigdialog.cpp:168 dvb/dvbconfigdialog.cpp:259
+#: dvb/dvbconfigdialog.cpp:260 dvb/dvbconfigdialog.cpp:286
+#: dvb/dvbconfigdialog.cpp:287 dvb/dvbconfigdialog.cpp:311
+#, kde-format
+msgid "Device %1"
+msgstr "设备 %1"
+
+#: dvb/dvbconfigdialog.cpp:382
+msgid "Update Scan Data"
+msgstr "更新扫描数据"
+
+#: dvb/dvbconfigdialog.cpp:389
+msgid "Downloading scan data"
+msgstr "正在下载扫描数据"
+
+#: dvb/dvbconfigdialog.cpp:432 dvb/dvbconfigdialog.cpp:444
+msgid "Scan data update failed."
+msgstr "更新扫描数据失败。"
+
+#: dvb/dvbconfigdialog.cpp:441
+msgid ""
+"Scan data successfully updated. Changes take\n"
+"effect after you have closed the configuration dialog."
+msgstr ""
+"扫描数据更新成功。\n"
+"关闭配置对话框以使更改生效。"
+
+#: dvb/dvbconfigdialog.cpp:453
+#, kde-format
+msgid "Name: %1"
+msgstr "名称：%1"
+
+#: dvb/dvbconfigdialog.cpp:456
+msgid "Move Left"
+msgstr "左移"
+
+#: dvb/dvbconfigdialog.cpp:461
+msgid "Reset"
+msgstr "重置"
+
+#: dvb/dvbconfigdialog.cpp:471
+msgid "Move Right"
+msgstr "右移"
+
+#: dvb/dvbconfigdialog.cpp:477
+msgid "Device not connected."
+msgstr "设备未连接。"
+
+#: dvb/dvbconfigdialog.cpp:509
+msgid "DVB-C"
+msgstr "DVB-C"
+
+#: dvb/dvbconfigdialog.cpp:525
+msgid "DVB-S2"
+msgstr "DVB-S2"
+
+#: dvb/dvbconfigdialog.cpp:527
+msgid "DVB-S"
+msgstr "DVB-S"
+
+#: dvb/dvbconfigdialog.cpp:534
+msgid "DVB-T"
+msgstr "DVB-T"
+
+#: dvb/dvbconfigdialog.cpp:547
+msgid "ATSC"
+msgstr "ATSC"
+
+#: dvb/dvbconfigdialog.cpp:630
+msgid "Cable"
+msgstr "有线"
+
+#: dvb/dvbconfigdialog.cpp:638
+msgid "Terrestrial"
+msgstr "地面"
+
+#: dvb/dvbconfigdialog.cpp:646
+msgid "Autoscan"
+msgstr "自动扫描"
+
+#: dvb/dvbconfigdialog.cpp:647
+msgid "Autoscan with 167 kHz Offsets"
+msgstr "以偏移 167 kHz 自动扫描"
+
+#: dvb/dvbconfigdialog.cpp:648
+msgid "Autoscan Australia"
+msgstr "自动扫描澳大利亚"
+
+#: dvb/dvbconfigdialog.cpp:649
+msgid "Autoscan Italy"
+msgstr "自动扫描意大利"
+
+#: dvb/dvbconfigdialog.cpp:650
+msgid "Autoscan Taiwan"
+msgstr "自动扫描台湾"
+
+#: dvb/dvbconfigdialog.cpp:653
+msgid "Atsc"
+msgstr "Atsc"
+
+#: dvb/dvbconfigdialog.cpp:662 dvb/dvbconfigdialog.cpp:771
+msgid "Tuner timeout (ms):"
+msgstr "调谐延迟(ms)："
+
+#: dvb/dvbconfigdialog.cpp:671 dvb/dvbscandialog.cpp:270
+msgid "Source:"
+msgstr "来源："
+
+#: dvb/dvbconfigdialog.cpp:674 dvb/dvbconfigdialog.cpp:807
+msgid "No Source"
+msgstr "没有来源"
+
+#: dvb/dvbconfigdialog.cpp:680
+msgid "Name:"
+msgstr "名称："
+
+#: dvb/dvbconfigdialog.cpp:779
+msgid "Configuration:"
+msgstr "配置："
+
+#: dvb/dvbconfigdialog.cpp:782
+msgid "DiSEqC Switch"
+msgstr "DiSEqC 切换"
+
+#: dvb/dvbconfigdialog.cpp:783
+msgid "USALS Rotor"
+msgstr "USALS 旋钮"
+
+#: dvb/dvbconfigdialog.cpp:784
+msgid "Positions Rotor"
+msgstr "位置旋钮"
+
+#: dvb/dvbconfigdialog.cpp:801
+#, kde-format
+msgid "LNB %1 Settings"
+msgstr "LNB %1 设置"
+
+#: dvb/dvbconfigdialog.cpp:820 dvb/dvbconfigdialog.cpp:1067
+msgid "LNB Settings"
+msgstr "LNB 设置"
+
+#: dvb/dvbconfigdialog.cpp:835 dvb/dvbconfigdialog.cpp:847
+msgid "Add Satellite"
+msgstr "添加卫星"
+
+#: dvb/dvbconfigdialog.cpp:855
+msgid "Satellite"
+msgstr "卫星"
+
+#: dvb/dvbconfigdialog.cpp:855
+msgid "Position"
+msgstr "位置"
+
+#: dvb/dvbconfigdialog.cpp:872
+msgid "Remove Satellite"
+msgstr "删除卫星"
+
+#: dvb/dvbconfigdialog.cpp:1076
+msgid "Universal LNB"
+msgstr "通用 LNB"
+
+#: dvb/dvbconfigdialog.cpp:1080
+msgid "C-band LNB"
+msgstr "C-band LNB"
+
+#: dvb/dvbconfigdialog.cpp:1084
+msgid "C-band Multipoint LNB"
+msgstr "C-band 多点 LNB"
+
+#: dvb/dvbconfigdialog.cpp:1088
+msgid "Custom LNB"
+msgstr "自定义 LNB"
+
+#: dvb/dvbconfigdialog.cpp:1099
+msgid "Switch frequency (MHz)"
+msgstr "通信频率(MHz)"
+
+#: dvb/dvbconfigdialog.cpp:1172
+msgid "Low band LOF (MHz)"
+msgstr "低波段 LOF(MHz)"
+
+#: dvb/dvbconfigdialog.cpp:1177
+msgid "High band LOF (MHz)"
+msgstr "高波段 LOF(MHz)"
+
+#: dvb/dvbconfigdialog.cpp:1183
+msgid "Horizontal LOF (MHz)"
+msgstr "水平 LOF(MHz)"
+
+#: dvb/dvbconfigdialog.cpp:1188
+msgid "Vertical LOF (MHz)"
+msgstr "垂直 LOF(MHz)"
+
+#: dvb/dvbconfigdialog.cpp:1194
+msgid "LOF (MHz)"
+msgstr "LOF(MHz)"
+
+#: dvb/dvbepgdialog.cpp:40
+msgctxt "@title:window"
+msgid "Program Guide"
+msgstr "节目导航"
+
+#: dvb/dvbepgdialog.cpp:60
+msgctxt "@action:inmenu tv show"
+msgid "Record Show"
+msgstr "录制节目"
+
+#: dvb/dvbepgdialog.cpp:68
+msgctxt "@label:textbox"
+msgid "Search:"
+msgstr "搜索："
+
+#: dvb/dvbepgdialog.cpp:137
+#, kde-format
+msgctxt "@info tv show title"
+msgid "<font color=#008000 size=\"+1\">%1</font><br>"
+msgstr "<font color=#008000 size=\"+1\">%1</font><br>"
+
+#: dvb/dvbepgdialog.cpp:140
+#, kde-format
+msgctxt "@info tv show subheading"
+msgid "<font color=#808000>%1</font><br>"
+msgstr "<font color=#808000>%1</font><br>"
+
+#: dvb/dvbepgdialog.cpp:146
+#, kde-format
+msgctxt "@info tv show start, end"
+msgid "<font color=#800000>%1 - %2</font><br><br>"
+msgstr "<font color=#800000>%1 - %2</font><br><br>"
+
+#: dvb/dvbepgdialog.cpp:358 dvb/dvbrecordingdialog.cpp:244
+msgctxt "@title:column tv show"
+msgid "Start"
+msgstr "开始"
+
+#: dvb/dvbepgdialog.cpp:360 dvb/dvbrecordingdialog.cpp:246
+msgctxt "@title:column tv show"
+msgid "Duration"
+msgstr "持续时间"
+
+#: dvb/dvbepgdialog.cpp:362
+msgctxt "@title:column tv show"
+msgid "Title"
+msgstr "标题"
+
+#: dvb/dvbliveview.cpp:211
+msgctxt "@info"
+msgid "All devices are used for recordings."
+msgstr "所有设备已用于录制。"
+
+#: dvb/dvbliveview.cpp:214
+msgctxt "@info"
+msgid "No device found."
+msgstr "未找到设备。"
+
+#: dvb/dvbliveview.cpp:365 dvb/dvbscandialog.cpp:429
+msgctxt "message box"
+msgid "No available device found."
+msgstr "未找到可用的设备。"
+
+#: dvb/dvbrecordingdialog.cpp:42
+msgctxt "@title:window"
+msgid "Recording Schedule"
+msgstr "录制时间表"
+
+#: dvb/dvbrecordingdialog.cpp:57 playlist/playlisttab.cpp:421
+msgctxt "@action"
+msgid "New"
+msgstr "新建"
+
+#: dvb/dvbrecordingdialog.cpp:240
+msgctxt "@title:column recording"
+msgid "Name"
+msgstr "名称"
+
+#: dvb/dvbrecordingdialog.cpp:363
+msgctxt "@title:window recording"
+msgid "Edit Schedule Entry"
+msgstr "编辑时间表条目"
+
+#: dvb/dvbrecordingdialog.cpp:371
+msgctxt "@label recording"
+msgid "Name:"
+msgstr "名称："
+
+#: dvb/dvbrecordingdialog.cpp:384
+msgctxt "@label tv show"
+msgid "Channel:"
+msgstr "频道："
+
+#: dvb/dvbrecordingdialog.cpp:394
+msgctxt "@label tv show"
+msgid "Start:"
+msgstr "开始："
+
+#: dvb/dvbrecordingdialog.cpp:402
+msgctxt "@label tv show"
+msgid "Duration:"
+msgstr "持续时间："
+
+#: dvb/dvbrecordingdialog.cpp:411
+msgctxt "@label tv show"
+msgid "End:"
+msgstr "结束："
+
+#: dvb/dvbrecordingdialog.cpp:415
+msgctxt "@label recording"
+msgid "Repeat:"
+msgstr "重复："
+
+#: dvb/dvbrecordingdialog.cpp:419
+msgctxt "@action next to 'Repeat:'"
+msgid "Never"
+msgstr "从不"
+
+#: dvb/dvbrecordingdialog.cpp:423
+msgctxt "@action next to 'Repeat:'"
+msgid "Daily"
+msgstr "每天"
+
+#: dvb/dvbscandialog.cpp:46
+msgid "0%"
+msgstr "0%"
+
+#: dvb/dvbscandialog.cpp:62
+#, kde-format
+msgid "%1%"
+msgstr "%1%"
+
+#: dvb/dvbscandialog.cpp:209
+msgid "Provider"
+msgstr "提供者"
+
+#: dvb/dvbscandialog.cpp:211
+msgid "SNR"
+msgstr "SNR"
+
+#: dvb/dvbscandialog.cpp:220 dvb/dvbscandialog.cpp:225 dvb/dvbtab.cpp:86
+msgid "Channels"
+msgstr "频道"
+
+#: dvb/dvbscandialog.cpp:257 playlist/playlisttab.cpp:415
+msgctxt "remove all items from a list"
+msgid "Clear"
+msgstr "清除"
+
+#: dvb/dvbscandialog.cpp:267
+msgid "Channel Scan"
+msgstr "频道扫描"
+
+#: dvb/dvbscandialog.cpp:275 dvb/dvbscandialog.cpp:388
+msgid "Start Scan"
+msgstr "开始扫描"
+
+#: dvb/dvbscandialog.cpp:287
+msgid "Signal:"
+msgstr "信号："
+
+#: dvb/dvbscandialog.cpp:292
+msgid "SNR:"
+msgstr "信噪比："
+
+#: dvb/dvbscandialog.cpp:297
+msgid "Tuned:"
+msgstr "调谐："
+
+#: dvb/dvbscandialog.cpp:310
+msgid "Filter"
+msgstr "过滤器"
+
+#: dvb/dvbscandialog.cpp:313
+msgid "Free to air"
+msgstr "发送广播"
+
+#: dvb/dvbscandialog.cpp:316
+msgid "Radio"
+msgstr "广播"
+
+#: dvb/dvbscandialog.cpp:319
+msgid "TV"
+msgstr "电视"
+
+#: dvb/dvbscandialog.cpp:322
+msgid "Provider:"
+msgstr "提供者："
+
+#: dvb/dvbscandialog.cpp:330
+msgid "Add Filtered"
+msgstr "添加所过滤的"
+
+#: dvb/dvbscandialog.cpp:334
+msgid "Add Selected"
+msgstr "添加所选择的"
+
+#: dvb/dvbscandialog.cpp:340
+msgid "Scan Results"
+msgstr "扫描结果"
+
+#: dvb/dvbscandialog.cpp:356
+msgid "Current Transponder"
+msgstr "当前应答器"
+
+#: dvb/dvbscandialog.cpp:434
+msgid "Stop Scan"
+msgstr "停止扫描"
+
+#: dvb/dvbtab.cpp:91
+msgid "Program Guide"
+msgstr "节目导航"
+
+#: dvb/dvbtab.cpp:96
+msgid "OSD"
+msgstr "OSD"
+
+#: dvb/dvbtab.cpp:102
+msgctxt "dialog"
+msgid "Recording Schedule"
+msgstr "录制时间表"
+
+#: dvb/dvbtab.cpp:109
+msgid "Instant Record"
+msgstr "即时录制"
+
+#: dvb/dvbtab.cpp:117
+msgctxt "@action:inmenu"
+msgid "Configure Television..."
+msgstr "配置电视..."
+
+#: dvb/dvbtab.cpp:137
+msgid "Search:"
+msgstr "搜索："
+
+#: dvb/dvbtab.cpp:278
+#, kde-format
+msgctxt "osd"
+msgid "Channel: %1_"
+msgstr "频道：%1_"
+
+#: dvb/dvbtab.cpp:290
+msgctxt "message box"
+msgid ""
+"Kaffeine is currently recording programs.\n"
+"Do you really want to close the application?"
+msgstr ""
+"Kaffeine 正在录制节目。\n"
+"您确实想要关闭应用程序吗？"
+
+#: dvb/dvbtab.cpp:300
+msgctxt "message box"
+msgid ""
+"Kaffeine has scheduled recordings.\n"
+"Do you really want to close the application?"
+msgstr ""
+"Kaffeine 已安排了录制任务。\n"
+"您确实想要关闭应用程序吗？"
+
+#: dvb/dvbtab.cpp:366
+msgctxt "osd"
+msgid "Instant Record Started"
+msgstr "即时录制已启动"
+
+#: dvb/dvbtab.cpp:370 dvb/dvbtab.cpp:380
+msgctxt "osd"
+msgid "Instant Record Stopped"
+msgstr "即时录制已停止"
+
+#: main.cpp:66 mainwindow.cpp:305
+msgid "Kaffeine"
+msgstr "Kaffeine"
+
+#: main.cpp:67
+msgid "A media player for KDE with digital TV support."
+msgstr "一款带有数字电视支持的 KDE 媒体播放器。"
+
+#: main.cpp:68
+msgid "(C) 2007-2011 The Kaffeine Authors"
+msgstr "(C) 2007-2011 Kaffeine 作者"
+
+#: main.cpp:71
+msgid "Christoph Pfister"
+msgstr "Christoph Pfister"
+
+#: main.cpp:71
+msgid "Maintainer"
+msgstr "维护者"
+
+#: mainwindow.cpp:85
+msgid "&1 Play File"
+msgstr "播放文件(&1)"
+
+#: mainwindow.cpp:90
+msgid "&2 Play Audio CD"
+msgstr "播放音频 CD(&2)"
+
+#: mainwindow.cpp:95
+msgid "&3 Play Video CD"
+msgstr "播放视频 CD(&3)"
+
+#: mainwindow.cpp:100
+msgid "&4 Play DVD"
+msgstr "播放 DVD(&4)"
+
+#: mainwindow.cpp:106
+msgid "&5 Digital TV"
+msgstr "数字电视(&5)"
+
+#: mainwindow.cpp:155
+msgid "&File"
+msgstr "文件(&F)"
+
+#: mainwindow.cpp:162
+msgctxt "@action:inmenu"
+msgid "Open URL..."
+msgstr "打开 URL..."
+
+#: mainwindow.cpp:173 mainwindow.cpp:382
+msgid "Play Audio CD"
+msgstr "播放音频 CD"
+
+#: mainwindow.cpp:177 mainwindow.cpp:383
+msgid "Play Video CD"
+msgstr "播放视频 CD"
+
+#: mainwindow.cpp:181 mainwindow.cpp:384
+msgid "Play DVD"
+msgstr "播放 DVD"
+
+#: mainwindow.cpp:185
+msgctxt "@action:inmenu"
+msgid "Play DVD Folder"
+msgstr "播放 DVD 文件夹"
+
+#: mainwindow.cpp:195
+msgid "&Playback"
+msgstr "播放(&P)"
+
+#: mainwindow.cpp:198
+msgctxt "menu bar"
+msgid "Play&list"
+msgstr "播放列表(&L)"
+
+#: mainwindow.cpp:202
+msgid "&Television"
+msgstr "电视(&T)"
+
+#: mainwindow.cpp:206
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#: mainwindow.cpp:225
+msgid "Start"
+msgstr "开始"
+
+#: mainwindow.cpp:226
+msgid "Playback"
+msgstr "播放"
+
+#: mainwindow.cpp:227
+msgid "Playlist"
+msgstr "播放列表"
+
+#: mainwindow.cpp:229
+msgid "Television"
+msgstr "电视"
+
+#: mainwindow.cpp:381
+msgid "Start in full screen mode"
+msgstr "以全屏模式启动"
+
+#: mainwindow.cpp:385
+msgctxt "command line option"
+msgid "(deprecated option)"
+msgstr "(不建议使用的选项)"
+
+#: mainwindow.cpp:386
+msgctxt "command line option"
+msgid "Play TV channel"
+msgstr "播放电视频道"
+
+#: mainwindow.cpp:387
+msgctxt "command line option"
+msgid "Play last tuned TV channel"
+msgstr "播放上次调谐的电视频道"
+
+#: mainwindow.cpp:388
+msgctxt "command line option"
+msgid "Dump dvb data (debug option)"
+msgstr "输出 dvb 数据(调试选项)"
+
+#: mainwindow.cpp:389
+msgid "Files or URLs to play"
+msgstr "要播放的文件或 URL"
+
+#: mainwindow.cpp:548
+msgctxt "@title:window"
+msgid "Open URL"
+msgstr "打开 URL"
+
+#: mainwindow.cpp:548
+msgid "Enter a URL:"
+msgstr "输入 URL："
+
+#: mediawidget.cpp:76
+msgid "Previous"
+msgstr "上一首"
+
+#: mediawidget.cpp:84
+msgid "Play"
+msgstr "播放"
+
+#: mediawidget.cpp:85
+msgid "Pause"
+msgstr "暂停"
+
+#: mediawidget.cpp:92
+msgid "Stop"
+msgstr "停止"
+
+#: mediawidget.cpp:98
+msgid "Next"
+msgstr "下一首"
+
+#: mediawidget.cpp:106 mediawidget.cpp:401
+msgctxt "'Playback' menu"
+msgid "Full Screen Mode"
+msgstr "全屏模式"
+
+#: mediawidget.cpp:112 mediawidget.cpp:416
+msgctxt "'Playback' menu"
+msgid "Minimal Mode"
+msgstr "迷你模式"
+
+#: mediawidget.cpp:126
+msgctxt "subtitle selection entry"
+msgid "off"
+msgstr "关闭"
+
+#: mediawidget.cpp:134
+msgctxt "'Playback' menu"
+msgid "Audio"
+msgstr "音频"
+
+#: mediawidget.cpp:137
+msgctxt "'Audio' menu"
+msgid "Increase Volume"
+msgstr "增大音量"
+
+#: mediawidget.cpp:143
+msgctxt "'Audio' menu"
+msgid "Decrease Volume"
+msgstr "减小音量"
+
+#: mediawidget.cpp:148
+msgctxt "'Audio' menu"
+msgid "Mute Volume"
+msgstr "静音"
+
+#: mediawidget.cpp:158
+msgctxt "'Playback' menu"
+msgid "Video"
+msgstr "视频"
+
+#: mediawidget.cpp:163
+msgctxt "'Video' menu"
+msgid "Deinterlace"
+msgstr "反交错"
+
+#: mediawidget.cpp:172
+msgctxt "'Video' menu"
+msgid "Aspect Ratio"
+msgstr "纵横比"
+
+#: mediawidget.cpp:177
+msgctxt "'Aspect Ratio' menu"
+msgid "Automatic"
+msgstr "自动"
+
+#: mediawidget.cpp:183
+msgctxt "'Aspect Ratio' menu"
+msgid "Fit to Window"
+msgstr "适应窗口"
+
+#: mediawidget.cpp:188
+msgctxt "'Aspect Ratio' menu"
+msgid "4:3"
+msgstr "4:3"
+
+#: mediawidget.cpp:193
+msgctxt "'Aspect Ratio' menu"
+msgid "16:9"
+msgstr "16:9"
+
+#: mediawidget.cpp:199
+msgid "Automatic Resize"
+msgstr "自动调整大小"
+
+#: mediawidget.cpp:206
+msgctxt "automatic resize"
+msgid "Off"
+msgstr "关闭"
+
+#: mediawidget.cpp:211
+msgctxt "automatic resize"
+msgid "Original Size"
+msgstr "原始大小"
+
+#: mediawidget.cpp:216
+msgctxt "automatic resize"
+msgid "Double Size"
+msgstr "双倍大小"
+
+#: mediawidget.cpp:241
+msgid "Volume Slider"
+msgstr "音量滑块"
+
+#: mediawidget.cpp:255
+msgctxt "@action:inmenu"
+msgid "Jump to Position..."
+msgstr "跳转到位置..."
+
+#: mediawidget.cpp:260
+msgctxt "playback menu"
+msgid "Skip"
+msgstr "跳过"
+
+#: mediawidget.cpp:272 mediawidget.cpp:279 mediawidget.cpp:880
+#: mediawidget.cpp:888
+#, no-c-format, kde-format
+msgctxt "submenu of 'Skip'"
+msgid "Skip %1s Backward"
+msgstr "向后跳过 %1 秒"
+
+#: mediawidget.cpp:286 mediawidget.cpp:293 mediawidget.cpp:882
+#: mediawidget.cpp:890
+#, no-c-format, kde-format
+msgctxt "submenu of 'Skip'"
+msgid "Skip %1s Forward"
+msgstr "向前跳过 %1 秒"
+
+#: mediawidget.cpp:299 mediawidget.cpp:301
+msgid "Seek Slider"
+msgstr "定位滑块"
+
+#: mediawidget.cpp:311
+msgctxt "dvd navigation"
+msgid "DVD Menu"
+msgstr "DVD 菜单"
+
+#: mediawidget.cpp:315
+msgctxt "dvd navigation"
+msgid "Title"
+msgstr "标题"
+
+#: mediawidget.cpp:321
+msgctxt "dvd navigation"
+msgid "Chapter"
+msgstr "章节"
+
+#: mediawidget.cpp:327
+msgctxt "dvd navigation"
+msgid "Angle"
+msgstr "角度"
+
+#: mediawidget.cpp:333
+msgid "Switch between elapsed and remaining time display"
+msgstr "切换已用时间和剩余时间的显示"
+
+#: mediawidget.cpp:383
+msgctxt "file filter"
+msgid "Supported Media Files"
+msgstr "支持的媒体文件"
+
+#: mediawidget.cpp:384
+msgctxt "file filter"
+msgid "All Files"
+msgstr "全部文件"
+
+#: mediawidget.cpp:407
+msgctxt "'Playback' menu"
+msgid "Exit Full Screen Mode"
+msgstr "退出全屏模式"
+
+#: mediawidget.cpp:420
+msgctxt "'Playback' menu"
+msgid "Exit Minimal Mode"
+msgstr "退出迷你模式"
+
+#: mediawidget.cpp:588
+msgctxt "osd"
+msgid "Stopped"
+msgstr "已停止"
+
+#: mediawidget.cpp:646
+msgctxt "osd"
+msgid "Mute On"
+msgstr "静音"
+
+#: mediawidget.cpp:649
+msgctxt "osd"
+msgid "Mute Off"
+msgstr "未静音"
+
+#: mediawidget.cpp:656
+#, kde-format
+msgctxt "osd"
+msgid "Volume: %1%"
+msgstr "音量：%1%"
+
+#: mediawidget.cpp:705
+msgctxt "osd message"
+msgid "Deinterlacing On"
+msgstr "反交错开启"
+
+#: mediawidget.cpp:707
+msgctxt "osd message"
+msgid "Deinterlacing Off"
+msgstr "反交错关闭"
+
+#: mediawidget.cpp:1069
+msgctxt "osd"
+msgid "Playing"
+msgstr "播放中"
+
+#: mediawidget.cpp:1074
+msgctxt "osd"
+msgid "Paused"
+msgstr "已暂停"
+
+#: mediawidget.cpp:1245
+msgctxt "@title:window"
+msgid "Jump to Position"
+msgstr "跳转到位置"
+
+#: mediawidget.cpp:1250
+msgid "Enter a position:"
+msgstr "输入位置："
+
+#: playlist/playlistmodel.cpp:786
+msgctxt "playlist track"
+msgid "Title"
+msgstr "标题"
+
+#: playlist/playlistmodel.cpp:788
+msgctxt "playlist track"
+msgid "Artist"
+msgstr "艺人"
+
+#: playlist/playlistmodel.cpp:790
+msgctxt "playlist track"
+msgid "Album"
+msgstr "专辑"
+
+#: playlist/playlistmodel.cpp:792
+msgctxt "playlist track"
+msgid "Track Number"
+msgstr "音轨编号"
+
+#: playlist/playlistmodel.cpp:794
+msgctxt "playlist track"
+msgid "Length"
+msgstr "长度"
+
+#: playlist/playlisttab.cpp:372
+msgctxt "playlist browser"
+msgid "Temporary Playlist"
+msgstr "临时播放列表"
+
+#: playlist/playlisttab.cpp:397
+msgctxt "playlist menu"
+msgid "Repeat"
+msgstr "重复"
+
+#: playlist/playlisttab.cpp:402
+msgctxt "playlist menu"
+msgid "Random"
+msgstr "随机"
+
+#: playlist/playlisttab.cpp:407
+msgid "Add Subtitle"
+msgstr "添加字幕"
+
+#: playlist/playlisttab.cpp:426
+msgctxt "rename an entry in a list"
+msgid "Rename"
+msgstr "重命名"
+
+#: playlist/playlisttab.cpp:635
+msgctxt "playlist browser"
+msgid "Unnamed Playlist"
+msgstr "未命名播放列表"
+
+#: playlist/playlisttab.cpp:839
+msgctxt "file filter"
+msgid "Subtitle Files"
+msgstr "字幕文件"
+
+#: playlist/playlisttab.cpp:856
+msgctxt "file filter"
+msgid ""
+"*.xspf|XSPF Playlist\n"
+"*.m3u|M3U Playlist\n"
+"*.pls|PLS Playlist"
+msgstr ""
+"*.xspf|XSPF 播放列表\n"
+"*.m3u|M3U 播放列表\n"
+"*.pls|PLS 播放列表"
+
+#: sqlhelper.cpp:49
+msgctxt "message box"
+msgid "Please install the Qt SQLite plugin."
+msgstr "请安装 Qt SQLite 插件。"
+
+#: sqlhelper.cpp:64
+msgctxt "message box"
+msgid "Cannot open the SQLite database."
+msgstr "无法打开 SQLite 数据库。"
+
+#~ msgctxt "dvd navigation"
+#~ msgid "Toggle Menu"
+#~ msgstr "切换菜单"
+
+#~ msgctxt "program description"
+#~ msgid "Internal utility for Kaffeine."
+#~ msgstr "Kaffeine 的内部工具。"
+
+#~ msgid "Channel Settings"
+#~ msgstr "频道设置"
+
+#~ msgid "Name"
+#~ msgstr "名称"
+
+#~ msgid "Edit"
+#~ msgstr "编辑"
+
+#~ msgctxt "remove an item from a list"
+#~ msgid "Remove"
+#~ msgstr "删除"
+
+#~ msgid "Remove"
+#~ msgstr "删除"
+
+#, fuzzy
+#~| msgid "Begin"
+#~ msgctxt "@title:column tv show"
+#~ msgid "Begin"
+#~ msgstr "开始"
+
+#, fuzzy
+#~| msgid "Begin:"
+#~ msgctxt "@label tv show"
+#~ msgid "Begin:"
+#~ msgstr "开始："
+
+#~ msgctxt "add a new item to a list"
+#~ msgid "New"
+#~ msgstr "新建"
+
+#~ msgid "Duration"
+#~ msgstr "持续时间"

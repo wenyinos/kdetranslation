@@ -1,0 +1,226 @@
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 07:04+0200\n"
+"PO-Revision-Date: 2010-06-13 23:30+0800\n"
+"Last-Translator: Feng Chao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: PackageDetailDockWidget.cpp:42
+msgid "Depends on"
+msgstr "依赖于"
+
+#: PackageDetailDockWidget.cpp:45
+msgid "Required by"
+msgstr ""
+
+#: PackageDetailDockWidget.cpp:48
+#, fuzzy
+msgid "Conflicts with"
+msgstr ": 冲突 "
+
+#: PackageDetailDockWidget.cpp:51
+#, fuzzy
+msgid "Provided by"
+msgstr "提供 :"
+
+#. i18n: ectx: attribute (title), widget (QWidget, detailPage)
+#: PackageDetailDockWidget.cpp:247 PackageDetailDockWidget.ui:118
+msgid "Details"
+msgstr "细节"
+
+#. i18n: ectx: attribute (title), widget (QWidget, filelistPage)
+#: PackageDetailDockWidget.cpp:249 PackageDetailDockWidget.ui:382
+msgid "Filelists"
+msgstr "文件列表"
+
+#. i18n: ectx: attribute (title), widget (QWidget, relationPage)
+#: PackageDetailDockWidget.cpp:252 PackageDetailDockWidget.ui:408
+msgid "Relations"
+msgstr "关系"
+
+#. i18n: ectx: attribute (title), widget (QWidget, changelogTab)
+#: PackageDetailDockWidget.cpp:255 PackageDetailDockWidget.ui:446
+msgid "Changelog"
+msgstr "变更日志"
+
+#: PackageDetailDockWidget.cpp:278
+msgid "Install"
+msgstr "安装"
+
+#. i18n: ectx: property (text), widget (QLabel, actionLabel)
+#: PackageDetailDockWidget.cpp:282 PackageDetailDockWidget.ui:359
+msgid "Uninstall"
+msgstr "卸载"
+
+#: PackageDetailDockWidget.cpp:286
+msgid "Upgrade"
+msgstr "升级"
+
+#: PackageDetailDockWidget.cpp:290
+msgid "NoAction"
+msgstr "无动作"
+
+#: PackageDetailDockWidget.cpp:300
+msgid "Installed"
+msgstr "已安装"
+
+#: PackageDetailDockWidget.cpp:304
+msgid "Not Installed"
+msgstr "未安装"
+
+#: PackageDetailDockWidget.cpp:308
+msgid "Upgradeable"
+msgstr "可升级"
+
+#. i18n: ectx: attribute (title), widget (QWidget, helpPage)
+#: PackageDetailDockWidget.cpp:320 PackageDetailDockWidget.ui:46
+msgid "Help"
+msgstr "帮助"
+
+#: PackageDetailDockWidget.cpp:375
+msgid "Loading information"
+msgstr "正在装入信息"
+
+#: PackageDetailDockWidget.cpp:376
+#, kde-format
+msgid ""
+"Shaman is currently querying %1, the package management system, to cache the "
+"necessary information needed for it to work.\n"
+"This should take just a few seconds, you can see more details about what is "
+"happening in the status bar."
+msgstr ""
+
+#: PackageDetailDockWidget.cpp:384
+msgid ""
+"Shaman is waiting for an exclusive lock on the package management system"
+msgstr ""
+
+#: PackageDetailDockWidget.cpp:385
+#, kde-format
+msgid ""
+"To operate correctly, Shaman must be the only application acting on %1, the "
+"package management system.\n"
+"Shaman detected that another running application, such as another frontend "
+"or a terminal program, is holding a lock on it. Please close it to resume "
+"normal operation"
+msgstr ""
+
+#: PackageDetailDockWidget.cpp:393
+msgid "Choose a package to view detailed information about it here"
+msgstr ""
+
+#: PackageDetailDockWidget.cpp:394
+msgid ""
+"Shaman is able to provide extended information about a package, such as "
+"packages requiring it, its dependencies, a list of the files contained in "
+"it, and more. Just click on a package to make its details be shown here"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, PackageDetailDockWidget)
+#: PackageDetailDockWidget.ui:17
+msgid "Package Information"
+msgstr "软件包信息"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: PackageDetailDockWidget.ui:133
+msgid "abs"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: PackageDetailDockWidget.ui:204
+msgid "Repository:"
+msgstr "仓库："
+
+#. i18n: ectx: property (text), widget (QLabel, repoLabel)
+#: PackageDetailDockWidget.ui:211
+msgid "core"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: PackageDetailDockWidget.ui:224
+msgid "Version:"
+msgstr "版本："
+
+#. i18n: ectx: property (text), widget (QLabel, versionLabel)
+#: PackageDetailDockWidget.ui:231
+msgid "5.0alpha4"
+msgstr "5.0alpha4"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: PackageDetailDockWidget.ui:244
+msgid "Status:"
+msgstr "状态："
+
+#. i18n: ectx: property (text), widget (QLabel, statusIconLabel)
+#: PackageDetailDockWidget.ui:259
+msgid "<StatusIcon>"
+msgstr "<StatusIcon>"
+
+#. i18n: ectx: property (text), widget (QLabel, statusLabel)
+#: PackageDetailDockWidget.ui:272
+msgid "NotInstalled"
+msgstr "未安装"
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: PackageDetailDockWidget.ui:304
+msgid "Package Groups:"
+msgstr "软件包组："
+
+#. i18n: ectx: property (text), widget (QLabel, grpLabel)
+#: PackageDetailDockWidget.ui:311
+msgid "kdemod4, kdemod4-complete"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: PackageDetailDockWidget.ui:324
+msgid "Available Version:"
+msgstr "可用版本："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: PackageDetailDockWidget.ui:337
+msgid "Action:"
+msgstr "动作："
+
+#. i18n: ectx: property (text), widget (QLabel, actionIconLabel)
+#: PackageDetailDockWidget.ui:352
+msgid "<ActionIcon>"
+msgstr "<ActionIcon>"
+
+#. i18n: ectx: property (text), widget (QLabel, availableVersionLabel)
+#: PackageDetailDockWidget.ui:368
+msgid "5.0alpha5"
+msgstr "5.0alpha5"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, filelistTreeWidget)
+#. i18n: ectx: property (text), widget (QTreeWidget, relationTreeWidget)
+#: PackageDetailDockWidget.ui:397 PackageDetailDockWidget.ui:427
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, relationTreeWidget)
+#: PackageDetailDockWidget.ui:432
+msgid "2"
+msgstr "2"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, relationTreeWidget)
+#: PackageDetailDockWidget.ui:437
+msgid "3"
+msgstr "3"

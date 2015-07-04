@@ -1,0 +1,433 @@
+# translation of domtreeviewer.po to 简体中文
+# Copyright (C) 2008, 2009 Free Software Foundation, Inc.
+#
+# Mai Hao Hui <mhh@126.com>, 2001.
+# Sarah Smith <sarahs@redhat.com>, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+# FengChao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: domtreeviewer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 03:23+0200\n"
+"PO-Revision-Date: 2011-11-06 10:23+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: attributeeditwidget.ui:24
+msgid "Attribute &name:"
+msgstr "属性名称(&N)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: attributeeditwidget.ui:42
+msgid "Attribute &value:"
+msgstr "属性值(&V)："
+
+#: domtreecommands.cpp:33
+msgid "No error"
+msgstr "无错误"
+
+#: domtreecommands.cpp:34
+msgid "Index size exceeded"
+msgstr "达到索引大小限制"
+
+#: domtreecommands.cpp:35
+msgid "DOMString size exceeded"
+msgstr "达到 DOMString 大小限制"
+
+#: domtreecommands.cpp:36
+msgid "Hierarchy request error"
+msgstr "层次请求错误"
+
+#: domtreecommands.cpp:37
+msgid "Wrong document"
+msgstr "错误的文档"
+
+#: domtreecommands.cpp:38
+msgid "Invalid character"
+msgstr "无效的字符"
+
+#: domtreecommands.cpp:39
+msgid "No data allowed"
+msgstr "不允许数据"
+
+#: domtreecommands.cpp:40
+msgid "No modification allowed"
+msgstr "不允许修改"
+
+#: domtreecommands.cpp:41
+msgid "Not found"
+msgstr "未找到"
+
+#: domtreecommands.cpp:42
+msgid "Not supported"
+msgstr "不支持"
+
+#: domtreecommands.cpp:43
+msgid "Attribute in use"
+msgstr "使用中的属性"
+
+#: domtreecommands.cpp:44
+msgid "Invalid state"
+msgstr "无效的状态"
+
+#: domtreecommands.cpp:45
+msgid "Syntax error"
+msgstr "语法错误"
+
+#: domtreecommands.cpp:46
+msgid "Invalid modification"
+msgstr "无效的修改"
+
+#: domtreecommands.cpp:47
+msgid "Namespace error"
+msgstr "命名空间错误"
+
+#: domtreecommands.cpp:48
+msgid "Invalid access"
+msgstr "无效的访问"
+
+#: domtreecommands.cpp:56
+#, kde-format
+msgid "Unknown Exception %1"
+msgstr "未知的意外 %1"
+
+#: domtreecommands.cpp:300
+msgid "Add attribute"
+msgstr "添加属性"
+
+#: domtreecommands.cpp:330
+msgid "Change attribute value"
+msgstr "更改属性值"
+
+#: domtreecommands.cpp:361
+msgid "Remove attribute"
+msgstr "删除属性"
+
+#: domtreecommands.cpp:393
+msgid "Rename attribute"
+msgstr "重命名属性"
+
+#: domtreecommands.cpp:429
+msgid "Change textual content"
+msgstr "复制文本性内容"
+
+#: domtreecommands.cpp:491
+msgid "Insert node"
+msgstr "插入节点"
+
+#: domtreecommands.cpp:519
+msgid "Remove node"
+msgstr "删除节点"
+
+#: domtreecommands.cpp:565
+msgid "Move node"
+msgstr "移动节点"
+
+#: domtreeview.cpp:70
+msgctxt "@title:window"
+msgid "Edit Element"
+msgstr "编辑元素"
+
+#: domtreeview.cpp:72 domtreeview.cpp:92
+msgid "&Append as Child"
+msgstr "追加为子节点(&A)"
+
+#: domtreeview.cpp:73 domtreeview.cpp:93
+msgid "Insert &Before Current"
+msgstr "在当前节点前插入(&B)"
+
+#: domtreeview.cpp:90
+msgctxt "@title:window"
+msgid "Edit Text"
+msgstr "编辑文本"
+
+#: domtreeview.cpp:110
+msgctxt "@title:window"
+msgid "Edit Attribute"
+msgstr "编辑属性"
+
+#: domtreeview.cpp:172
+#, kde-format
+msgctxt "@title:window"
+msgid "DOM Tree for %1"
+msgstr "%1 的 DOM 树"
+
+#: domtreeview.cpp:172
+msgctxt "@title:window"
+msgid "DOM Tree"
+msgstr "DOM 树"
+
+#: domtreeview.cpp:514
+msgid "Move Nodes"
+msgstr "移动节点"
+
+#: domtreeview.cpp:579
+msgid "Save DOM Tree as HTML"
+msgstr "把 DOM 树保存为 HTML"
+
+#: domtreeview.cpp:584
+msgctxt "@title:window"
+msgid "File Exists"
+msgstr "文件已存在"
+
+#: domtreeview.cpp:585
+#, kde-format
+msgid ""
+"Do you really want to overwrite: \n"
+"%1?"
+msgstr ""
+"你真的想覆盖：\n"
+"%1 吗？"
+
+#: domtreeview.cpp:586
+msgid "Overwrite"
+msgstr "覆盖"
+
+#: domtreeview.cpp:599
+msgctxt "@title:window"
+msgid "Unable to Open File"
+msgstr "无法打开文件"
+
+#: domtreeview.cpp:600
+#, kde-format
+msgid ""
+"Unable to open \n"
+" %1 \n"
+" for writing"
+msgstr ""
+"无法打开\n"
+" %1\n"
+" 来写入"
+
+#: domtreeview.cpp:604
+msgctxt "@title:window"
+msgid "Invalid URL"
+msgstr "无效的 URL"
+
+#: domtreeview.cpp:605
+#, kde-format
+msgid ""
+"This URL \n"
+" %1 \n"
+" is not valid."
+msgstr ""
+"URL\n"
+" %1\n"
+" 无效。"
+
+#: domtreeview.cpp:823
+msgid "Delete Nodes"
+msgstr "删除节点"
+
+#: domtreeview.cpp:1034
+msgid "<Click to add>"
+msgstr "<单击添加>"
+
+#: domtreeview.cpp:1366
+msgid "Delete Attributes"
+msgstr "删除属性"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DOMTreeViewBase)
+#: domtreeviewbase.ui:19
+msgid "DOM Tree Viewer"
+msgstr "DOM 树查看器"
+
+#. i18n: ectx: property (text), widget (KPushButton, messageListBtn)
+#: domtreeviewbase.ui:61
+msgid "&List"
+msgstr "列表(&L)"
+
+#. i18n: ectx: property (text), widget (KPushButton, messageHideBtn)
+#: domtreeviewbase.ui:92
+msgid "H&ide"
+msgstr "隐藏(&H)"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_listView)
+#: domtreeviewbase.ui:115
+msgid "DOM Tree"
+msgstr "DOM 树"
+
+#. i18n: ectx: attribute (title), widget (QWidget, domTab)
+#: domtreeviewbase.ui:127
+msgid "DOM Node"
+msgstr "DOM 节点"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3)
+#: domtreeviewbase.ui:138
+msgid "Node &value:"
+msgstr "节点值(&V):"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
+#: domtreeviewbase.ui:151
+msgid "Node &type:"
+msgstr "节点类型(&T)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: domtreeviewbase.ui:164
+msgid "Namespace &URI:"
+msgstr "命名空间 &URI："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: domtreeviewbase.ui:177
+msgid "Node &name:"
+msgstr "节点名称(&N)："
+
+#. i18n: ectx: property (text), widget (QTreeWidget, nodeAttributes)
+#: domtreeviewbase.ui:249
+msgid "Name"
+msgstr "名称"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, nodeAttributes)
+#. i18n: ectx: property (text), widget (QTreeWidget, cssProperties)
+#: domtreeviewbase.ui:254 domtreeviewbase.ui:344
+msgid "Value"
+msgstr "值"
+
+#. i18n: ectx: property (text), widget (QPushButton, applyContent)
+#: domtreeviewbase.ui:287
+msgid "Appl&y"
+msgstr "应用(&Y)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, cssTab)
+#: domtreeviewbase.ui:320
+msgid "Computed Style"
+msgstr "估算样式"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, cssProperties)
+#: domtreeviewbase.ui:339
+msgid "Property"
+msgstr "属性"
+
+#. i18n: ectx: attribute (title), widget (QWidget, styleSheetsTab)
+#: domtreeviewbase.ui:353
+msgid "Stylesheets"
+msgstr "样式表"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, styleSheetsTree)
+#: domtreeviewbase.ui:366
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: Menu (file)
+#: domtreeviewerui.rc:4
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (edit)
+#: domtreeviewerui.rc:6
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (view)
+#: domtreeviewerui.rc:8
+msgid "&View"
+msgstr "查看(&V)"
+
+#. i18n: ectx: Menu (go)
+#: domtreeviewerui.rc:19
+msgid "&Go"
+msgstr "转到(&G)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: domtreeviewerui.rc:23
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#. i18n: ectx: ToolBar (treeToolBar)
+#: domtreeviewerui.rc:25
+msgid "Tree Toolbar"
+msgstr "树工具栏"
+
+#: domtreewindow.cpp:62
+msgctxt "@title:window"
+msgid "Message Log"
+msgstr "消息日志"
+
+#: domtreewindow.cpp:169
+msgid "Pure DOM Tree"
+msgstr "纯 DOM 树"
+
+#: domtreewindow.cpp:175
+msgid "Show DOM Attributes"
+msgstr "显示 DOM 属性"
+
+#: domtreewindow.cpp:182
+msgid "Highlight HTML"
+msgstr "突出显示 HTML"
+
+#: domtreewindow.cpp:190
+msgid "Show Message Log"
+msgstr "显示消息日志"
+
+#: domtreewindow.cpp:202
+msgid "Expand"
+msgstr "展开"
+
+#: domtreewindow.cpp:205
+msgid "Increase expansion level"
+msgstr "增加展开级别"
+
+#: domtreewindow.cpp:208
+msgid "Collapse"
+msgstr "折叠"
+
+#: domtreewindow.cpp:211
+msgid "Decrease expansion level"
+msgstr "减少展开级别"
+
+#: domtreewindow.cpp:217 domtreewindow.cpp:235
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: domtreewindow.cpp:220
+msgid "Delete nodes"
+msgstr "删除节点"
+
+#: domtreewindow.cpp:225
+msgid "New &Element..."
+msgstr "新建元素(&E)..."
+
+#: domtreewindow.cpp:229
+msgid "New &Text Node..."
+msgstr "新建文本节点(&T)..."
+
+#: domtreewindow.cpp:238
+msgid "Delete attributes"
+msgstr "删除属性"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: elementeditwidget.ui:24
+msgid "Element &name:"
+msgstr "元素名称(&N)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: elementeditwidget.ui:47
+msgid "Element &namespace:"
+msgstr "元素命名空间(&N)："
+
+#: plugin_domtreeviewer.cpp:24
+msgid "Show &DOM Tree"
+msgstr "显示 &DOM 树"
+
+#. i18n: ectx: Menu (tools)
+#: plugin_domtreeviewer.rc:4
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: ToolBar (extraToolBar)
+#: plugin_domtreeviewer.rc:8
+msgid "Extra Toolbar"
+msgstr "额外工具栏"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: texteditwidget.ui:19
+msgid "Edit &text for text node:"
+msgstr "编辑文本节点的文本(&T)："

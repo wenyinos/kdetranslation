@@ -1,0 +1,394 @@
+# translation of kshisen.po to 简体中文
+# Copyright (C) 2003, 2009 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2009.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2011.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kshisen\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-21 01:35+0000\n"
+"PO-Revision-Date: 2011-11-27 12:05+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: src/app.cpp:91 src/app.cpp:331
+msgid "Select a tile"
+msgstr "选择一张牌"
+
+#: src/app.cpp:94
+msgid "Time: 0:00:00"
+msgstr "时间：0:00:00"
+
+#: src/app.cpp:97
+msgid "Removed: 0/0"
+msgstr "消去：0/0"
+
+#: src/app.cpp:100
+msgid "Cheat mode"
+msgstr "作弊模式"
+
+#: src/app.cpp:119
+msgid "Play Sounds"
+msgstr "播放声音"
+
+#: src/app.cpp:246
+#, kde-format
+msgctxt "time string: hh:mm:ss"
+msgid "%1:%2:%3"
+msgstr "%1:%2:%3"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Gravity)
+#: src/app.cpp:255 src/app.cpp:363 src/settings.ui:26
+msgid "Gravity"
+msgstr "重力"
+
+#: src/app.cpp:258
+msgid "Yes"
+msgstr "是"
+
+#: src/app.cpp:260
+msgid "No"
+msgstr "否"
+
+#: src/app.cpp:265
+msgid ""
+"\n"
+"You could have been in the highscores\n"
+"if you did not use Undo or Hint.\n"
+"Try without them next time."
+msgstr ""
+"\n"
+"如果您不使用撤消或提示，\n"
+"高分榜才会收录您的名字。\n"
+"下次不妨试着不要用这些。"
+
+#: src/app.cpp:266 src/app.cpp:274
+msgid "End of Game"
+msgstr "游戏结束"
+
+#: src/app.cpp:269
+msgid ""
+"Congratulations!\n"
+"You made it into the hall of fame."
+msgstr ""
+"恭喜！\n"
+"您的成绩已经进入了名人堂。"
+
+#: src/app.cpp:273
+#, kde-format
+msgctxt "%1 - time string like hh:mm:ss"
+msgid "You made it in %1"
+msgstr "您在 %1 内完成了游戏"
+
+#: src/app.cpp:288
+#, kde-format
+msgid "Your time: %1:%2:%3 %4"
+msgstr "您的时间：%1:%2:%3 %4"
+
+#: src/app.cpp:292
+msgid "(Paused) "
+msgstr "(暂停) "
+
+#: src/app.cpp:302
+#, kde-format
+msgid "Removed: %1/%2 "
+msgstr "消去：%1/%2 "
+
+#: src/app.cpp:336
+msgid "Select a matching tile"
+msgstr "选择一张匹配牌"
+
+#: src/app.cpp:341
+msgid "Select the move you want by clicking on the blue line"
+msgstr "选择点击蓝线时要移动的牌"
+
+#: src/app.cpp:346
+msgid "This tile did not match the one you selected"
+msgstr "此牌和您选中的不匹配"
+
+#: src/app.cpp:351
+msgid "You cannot make this move"
+msgstr "此移动无法进行"
+
+#: src/app.cpp:380
+msgid "General"
+msgstr "常规"
+
+#: src/board.cpp:690
+msgid ""
+"Game Paused\n"
+"Click to resume game."
+msgstr ""
+"游戏暂停\n"
+"点击恢复游戏。"
+
+#: src/board.cpp:694
+msgid ""
+"Game Stuck\n"
+"No more moves possible."
+msgstr ""
+"完了\n"
+"无法再走了。"
+
+#: src/board.cpp:697
+msgid ""
+"Game Over\n"
+"Click to start a new game."
+msgstr ""
+"游戏结束\n"
+"点击开始新游戏。"
+
+#. i18n: ectx: label, entry (TileSet), group (General)
+#: src/kshisen.kcfg:9
+msgid "The tile set to use."
+msgstr "要使用的牌样。"
+
+#. i18n: ectx: label, entry (Background), group (General)
+#: src/kshisen.kcfg:12
+msgid "The background to use."
+msgstr "要使用的背景。"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: src/kshisenui.rc:13
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: src/main.cpp:31
+msgid "A KDE game similar to Mahjongg"
+msgstr "KDE 连连看游戏"
+
+#: src/main.cpp:35
+msgid "Shisen-Sho"
+msgstr "连连看"
+
+#: src/main.cpp:37
+msgid "(c) 1997, Mario Weilguni"
+msgstr "(c) 1997，Mario Weilguni"
+
+#: src/main.cpp:38
+msgid "Frederik Schwarzer"
+msgstr "Frederik Schwarzer"
+
+#: src/main.cpp:38
+msgid "Current Maintainer"
+msgstr "当前维护者"
+
+#: src/main.cpp:39
+msgid "Dave Corrie"
+msgstr "Dave Corrie"
+
+#: src/main.cpp:39
+msgid "Former Maintainer"
+msgstr "前任维护者"
+
+#: src/main.cpp:40
+msgid "Mario Weilguni"
+msgstr "Mario Weilguni"
+
+#: src/main.cpp:40
+msgid "Original Author"
+msgstr "原作者"
+
+#: src/main.cpp:41
+msgid "Mauricio Piacentini"
+msgstr "Mauricio Piacentini"
+
+#: src/main.cpp:41
+msgid "KMahjonggLib integration for KDE4"
+msgstr "KDE4 中的 KMahjonggLib 集成"
+
+#: src/main.cpp:42
+msgid "Jason Lane"
+msgstr "Jason Lane"
+
+#: src/main.cpp:42
+msgid ""
+"Added 'tiles removed' counter<br/>Tile smooth-scaling and window resizing"
+msgstr "增加“消去的块数”计数<br/>牌面平滑放缩和改变窗口大小"
+
+#: src/main.cpp:43
+msgid "Thanks also to everyone who should be listed here but is not!"
+msgstr "同时感谢没能在此列出的各位朋友！"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Gravity)
+#: src/settings.ui:23
+msgid ""
+"<b>Gravity</b><p>Checking this makes the game even harder: If a tile is "
+"removed, all tiles lying above it will fall down one step.</p>"
+msgstr ""
+"<b>重力</b><p>选中此项会增加游戏难度：只要消去一张牌，所有在它上面的牌都会下"
+"降一格。</p>"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Solvable)
+#: src/settings.ui:33
+msgid ""
+"<b>Create solvable games only</b><p>If checked, you will only be presented "
+"with games that are possible to solve.</p><p>Note: Even in solvable games "
+"you can fail to complete if you remove the tiles in the wrong order.</p>"
+msgstr ""
+"<b>只创建可解的游戏</b><p>如果选中此项，您将要面对的游戏是可解的。</p><p>注"
+"意：即使在可解的游戏中，如果您消去牌的顺序错误还是可能无法完成游戏。</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Solvable)
+#: src/settings.ui:36
+msgid "Create solvable games only"
+msgstr "只创建可解的游戏"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ChineseStyle)
+#: src/settings.ui:43
+msgid ""
+"<b>Use Chinese style: any flower match any flower, any season match any "
+"season</b><p>Use the traditional rules for matching the tiles. Previous "
+"version of the game used to allow only exact tiles matches, which is "
+"inconsistent with Mah-jongg rules. It is recommended to keep this option "
+"checked.</p>"
+msgstr ""
+"<b>使用中国风格：各种花样和各种季节牌之间都可配对</b><p>采用传统的牌匹配规"
+"则。上一个游戏版本只允许精确的牌样间相互配对，而这和传统麻将规则不一致。推荐"
+"您选中此项。</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ChineseStyle)
+#: src/settings.ui:46
+msgid ""
+"Use Chinese style: any flower match any flower, any season match any season"
+msgstr "使用中国风格：各种花样和各种季节牌之间都可配对"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_TilesCanSlide)
+#: src/settings.ui:53
+msgid ""
+"<b>Tiles can slide, but you can connect only in 2 lines instead of 3</"
+"b><p>This option changes the rules to the point where it almost becomes a "
+"completely different game. When it is active, you can only remove the tiles "
+"if they can be connected by a line consisting of only two segments instead "
+"of the customary three. However, you are allowed to slide the tiles on the "
+"board, if the row or column where they are placed has some empty space. To "
+"make a sliding move, you have to click on the tile containing the column or "
+"row that can slide, and then on the matching tile. If there are two possible "
+"sliding moves, you will have to click on one of the two connecting lines to "
+"choose your preferred move.</p>"
+msgstr ""
+"<b>使牌可以滑动，但您只能在 2 条线以内连接牌而不是 3 条</b><p>此选项会更改牌"
+"点连接的规则，使其几乎变成另一种全然不同的游戏。启用此项后，您在连接牌时只能"
+"用一条包含两个节段的连接线，而不是通常的三段。然而，版面上的牌可以滑动，前提"
+"是牌所在的行或列有空余。要实行滑动，您需要在有空余的行或列上点击一张牌，如果"
+"存在以上两种可能的滑动方式，您就可以点击其中之一完成您想要的滑动。</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TilesCanSlide)
+#: src/settings.ui:56
+msgid "Tiles can slide, but you can connect only in 2 lines instead of 3"
+msgstr "牌可滑动，但您只能在 2 条线以内连接牌而不是 3 条"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, difficulty_groupBox)
+#: src/settings.ui:63
+msgid ""
+"<b>Board Difficulty</b><p>The slider controls the difficulty of the board "
+"from Easy to Hard.</p>"
+msgstr "<b>版面难度</b><p>此滑动条从易到难控制版面的游戏难度。</p>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, difficulty_groupBox)
+#: src/settings.ui:66
+msgid "Board Difficulty"
+msgstr "版面难度"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: src/settings.ui:93
+msgid "Easy"
+msgstr "简单"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: src/settings.ui:113
+msgid "Hard"
+msgstr "困难"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, speed_groupBox)
+#: src/settings.ui:128
+msgid ""
+"<b>Piece Removal Speed</b><p>Adjusting this slider alters the speed at which "
+"the pieces are removed from the screen after a match has been made.</p>"
+msgstr ""
+"<b>消掉块的速度</b><p>调整在完成一次匹配后，牌块从屏幕上消失的速度。</p>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, speed_groupBox)
+#: src/settings.ui:131
+msgid "Piece Removal Speed"
+msgstr "消掉块的速度"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: src/settings.ui:158
+msgid "Slow"
+msgstr "慢"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: src/settings.ui:178
+msgid "Fast"
+msgstr "快"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, size_groupBox)
+#: src/settings.ui:193
+msgid ""
+"<b>Board Size</b><p>This slider allows you to change the number of tiles on "
+"the board. The more tiles you have, the harder (and longer) the game will be."
+"</p>"
+msgstr ""
+"<b>牌面大小</b><p>此滑动条允许您更改版面上的牌的大小。牌越多，游戏就越难。</"
+"p>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, size_groupBox)
+#: src/settings.ui:196
+msgid "Board Size"
+msgstr "牌面大小"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#: src/settings.ui:226
+msgid "14x6"
+msgstr "14x6"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel9)
+#: src/settings.ui:246
+msgid "16x9"
+msgstr "16x9"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: src/settings.ui:269
+msgid "18x8"
+msgstr "18x8"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel10)
+#: src/settings.ui:292
+msgid "24x12"
+msgstr "24x12"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel11)
+#: src/settings.ui:315
+msgid "26x14"
+msgstr "26x14"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel12)
+#: src/settings.ui:338
+msgid "30x16"
+msgstr "30x16"
+
+#~ msgctxt "Menu title"
+#~ msgid "&Move"
+#~ msgstr "移动(&M)"
+
+#~ msgid "Congratulation!"
+#~ msgstr "恭喜！"

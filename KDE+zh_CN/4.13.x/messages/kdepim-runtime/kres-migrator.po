@@ -1,0 +1,352 @@
+# translation of kres-migrator.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+# Lie Ex <lilith.ex@gmail.com>, 2009-2010.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kres-migrator\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-14 01:33+0000\n"
+"PO-Revision-Date: 2011-11-19 06:02+0800\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: ../kmigratorbase.cpp:123
+#, kde-format
+msgid "Creating instance of type %1"
+msgstr "正在创建 %1 类型的实例"
+
+#: ../migratorbase.cpp:138
+msgid "Missing Identifier"
+msgstr ""
+
+#: ../migratorbase.cpp:151
+msgid "Failed to start migration because migrator is not ready"
+msgstr ""
+
+#: ../migratorbase.cpp:157
+#, fuzzy
+#| msgid "Starting migration of %1 journal"
+#| msgid_plural "Starting migration of %1 journals"
+msgid "Starting migration..."
+msgstr "开始迁移 %1 日记"
+
+#: ../migratorbase.cpp:198
+msgid "Migration complete"
+msgstr ""
+
+#: ../migratorbase.cpp:202
+msgid "Migration aborted"
+msgstr ""
+
+#: ../migratorbase.cpp:208
+msgid "Migration failed"
+msgstr ""
+
+#: ../migratorbase.cpp:212
+msgid "Migration paused"
+msgstr ""
+
+#: ../migratorbase.cpp:242
+msgid "This migration has already been started once but was aborted"
+msgstr ""
+
+#: ../migratorbase.cpp:278
+msgctxt "@info:status"
+msgid "Not started"
+msgstr ""
+
+#: ../migratorbase.cpp:279
+msgctxt "@info:status"
+msgid "Running..."
+msgstr ""
+
+#: ../migratorbase.cpp:280
+msgctxt "@info:status"
+msgid "Complete"
+msgstr ""
+
+#: ../migratorbase.cpp:281
+msgctxt "@info:status"
+msgid "Aborted"
+msgstr ""
+
+#: ../migratorbase.cpp:282
+msgctxt "@info:status"
+msgid "Paused"
+msgstr ""
+
+#: ../migratorbase.cpp:283
+msgctxt "@info:status"
+msgid "Needs Update"
+msgstr ""
+
+#: ../migratorbase.cpp:284
+msgctxt "@info:status"
+msgid "Failed"
+msgstr ""
+
+#: kabcmigrator.cpp:53
+#, kde-format
+msgid ""
+"Unsupported file format found. The file format '%1' is no longer supported, "
+"please convert to another one."
+msgstr "找到不支持的文件格式。文件格式“%1”不再受支持，请将其转换为其它格式。"
+
+#: kabcmigrator.cpp:57
+#, kde-format
+msgid "File format '%1' is not yet supported natively."
+msgstr "尚未实现对文件格式“%1”的原生支持。"
+
+#: kabcmigrator.cpp:67 kcalmigrator.cpp:59 knotesmigrator.cpp:61
+#, kde-format
+msgid "Failed to create resource: %1"
+msgstr "创建资源失败：%1"
+
+#: kabcmigrator.cpp:73
+msgid "Migrated Addressbook"
+msgstr ""
+
+#: kabcmigrator.cpp:78 kcalmigrator.cpp:70 kcalmigrator.cpp:99
+#: kcalmigrator.cpp:140 knotesmigrator.cpp:91
+msgid "Failed to obtain D-Bus interface for remote configuration."
+msgstr "通过 D-Bus 接口获取远程配置失败。"
+
+#: kcalmigrator.cpp:65
+msgid "Migrated Calendar"
+msgstr ""
+
+#: kcalmigrator.cpp:87
+#, kde-format
+msgid "Failed to create birthdays resource: %1"
+msgstr "创建生日资源失败：%1"
+
+#: kcalmigrator.cpp:93
+msgid "Migrated Birthdays"
+msgstr ""
+
+#: kcalmigrator.cpp:114
+#, kde-format
+msgid "Failed to create DAV resource: %1"
+msgstr "创建 DAV 资源失败：%1"
+
+#: kcalmigrator.cpp:120
+msgid "Migrated GroupDAV"
+msgstr ""
+
+#: kcalmigrator.cpp:125
+msgid "Failed to find the configuration file for the GroupDAV KResource"
+msgstr "无法找到 GroupDAV 资源的配置文件"
+
+#: kcalmigrator.cpp:131
+msgid "Apparently invalid configuration file for the GroupDAV KResource"
+msgstr "GroupDAV 资源的配置文件似乎无效"
+
+#: kcalmigrator.cpp:148
+msgid "Empty username or URL in GroupDAV KResource configuration"
+msgstr "GroupDAV 资源配置中用户名或 URL 为空"
+
+#: knotesmigrator.cpp:82
+#, kde-format
+msgid "Failed to open file for reading: %1"
+msgstr "打开文件进行读取失败：%1"
+
+#: knotesmigrator.cpp:112
+#, kde-format
+msgid "Instance \"%1\" synchronized"
+msgstr "实例“%1”已同步"
+
+#: knotesmigrator.cpp:121
+msgid "Root fetch finished"
+msgstr "根获取完成"
+
+#: knotesmigrator.cpp:123
+#, kde-format
+msgctxt "A job to fetch akonadi resources failed. %1 is the error string."
+msgid "Fetching resources failed: %1"
+msgstr "获取资源失败：%1"
+
+#: knotesmigrator.cpp:129
+msgid "Received root collections"
+msgstr "已收到根收藏"
+
+#: knotesmigrator.cpp:137
+#, kde-format
+msgid "Could not find root collection for resource \"%1\""
+msgstr "找不到资源“%1”的根收藏"
+
+#: knotesmigrator.cpp:145
+#, kde-format
+msgid "Starting migration of %1 journal"
+msgid_plural "Starting migration of %1 journals"
+msgstr[0] "开始迁移 %1 日记"
+
+#: kresmigrator.h:86
+msgid "Client-side bridge already set up."
+msgstr "已设置客户端的桥。"
+
+#: kresmigrator.h:93
+#, kde-format
+msgid "Trying to migrate '%1'..."
+msgstr "正在尝试迁移“%1”..."
+
+#: kresmigrator.h:104
+#, kde-format
+msgid "No native backend for '%1' available."
+msgstr "没有“%1”可用的本地后端。"
+
+#: kresmigrator.h:114
+#, kde-format
+msgid "'%1' has already been migrated."
+msgstr "“%1”已被迁移。"
+
+#: kresmigrator.h:149
+#, kde-format
+msgid ""
+"No Akonadi agent identifier specified for previously bridged resource '%1'"
+msgstr "先前的桥接资源“%1”未指定 Akonadi 代理标识符"
+
+#: kresmigrator.h:157
+#, kde-format
+msgid "Bridged resource %1 does not exist anymore, trying a direct migration"
+msgstr "桥接资源 %1 不存在，尝试直接迁移"
+
+#: kresmigrator.h:193
+#, kde-format
+msgid "Bridged resource '%1' has no standard resource."
+msgstr "桥接资源“%1”没有标准的资源。"
+
+#: kresmigrator.h:199
+#, kde-format
+msgid "Trying to migrate '%1' from compatibility bridge to native backend..."
+msgstr "正在尝试将“%1”从兼容桥迁移到本地后端..."
+
+#: kresmigrator.h:203
+#, kde-format
+msgid "No native backend available, keeping compatibility bridge for '%1'."
+msgstr "没有可用的本地后端，现保留用于“%1”的兼容桥。"
+
+#: kresmigrator.h:242
+#, kde-format
+msgid "Migration of '%1' to compatibility bridge succeeded."
+msgstr "成功将“%1”迁移到兼容桥。"
+
+#: kresmigrator.h:264
+msgid "Setting up client-side bridge..."
+msgstr "设置客户端桥..."
+
+#: kresmigrator.h:268
+msgid "Akonadi Compatibility Resource"
+msgstr "Akonadi 兼容资源"
+
+#: kresmigrator.h:271
+msgid "Client-side bridge set up successfully."
+msgstr "已成功设置客户端桥。"
+
+#: kresmigrator.h:273
+msgid ""
+"Could not create client-side bridge, check if Akonadi KResource bridge is "
+"installed."
+msgstr "无法创建客户端桥，请检查是否已安装 Akonadi KResource 桥组件。"
+
+#: kresmigratorbase.cpp:55
+#, kde-format
+msgid "Trying to migrate '%1' to compatibility bridge..."
+msgstr "正在尝试将“%1”迁移到兼容桥..."
+
+#: kresmigratorbase.cpp:64
+#, kde-format
+msgid "Unable to create compatibility bridge: %1"
+msgstr "无法创建兼容桥：%1"
+
+#: kresmigratorbase.cpp:100
+#, kde-format
+msgid "Migration of '%1' to compatibility bridge failed: %2"
+msgstr "将“%1”迁移到兼容桥失败：%2"
+
+#: kresmigratorbase.cpp:103
+#, kde-format
+msgid "Migration of '%1' to native backend failed: %2"
+msgstr "将“%1”迁移到本地后端失败：%2"
+
+#: kresmigratorbase.cpp:142
+#, kde-format
+msgid "Migration of '%1' succeeded."
+msgstr "“%1”迁移成功。"
+
+#: kresmigratorbase.cpp:150
+msgid "Attempting to create kolab resource"
+msgstr "尝试创建 kolab 资源"
+
+#: kresmigratorbase.cpp:167
+msgid "Failed to create kolab proxy resource."
+msgstr "创建 kolab 代理服务器资源。"
+
+#: main.cpp:45
+msgid "KResource Migration Tool"
+msgstr "KResource 迁移工具"
+
+#: main.cpp:47
+msgid "Migration of KResource settings and application to Akonadi"
+msgstr "将 KResource 设置和应用程序迁移到 Akonadi"
+
+#: main.cpp:49
+msgid "(c) 2008 the Akonadi developers"
+msgstr "(c) 2008 Akonadi 开发者"
+
+#: main.cpp:53
+msgid "Volker Krause"
+msgstr "Volker Krause"
+
+#: main.cpp:53
+msgid "Author"
+msgstr "作者"
+
+#: main.cpp:59
+msgid "Only migrate to Akonadi KResource bridges"
+msgstr "只迁移到 Akonadi KResource 桥"
+
+#: main.cpp:60
+msgid "Omit setting up of the client side compatibility bridges"
+msgstr "忽略客户端兼容桥的设置"
+
+#: main.cpp:61
+msgid "Only migrate contact resources"
+msgstr "仅迁移联系人资源"
+
+#: main.cpp:62
+msgid "Only migrate calendar resources"
+msgstr "仅迁移日历资源"
+
+#: main.cpp:63
+msgid "Only migrate knotes resources"
+msgstr "仅迁 knotes 人资源"
+
+#: main.cpp:64
+msgid "Only migrate the specified types (supported: contact, calendar, notes)"
+msgstr "仅迁移指定类型(支持：联系人、日历、便笺)"
+
+#: main.cpp:66
+msgid "Show reporting dialog"
+msgstr "显示报告对话框"
+
+#: main.cpp:67
+msgid "Show report only if changes were made"
+msgstr "只有发生更改时才显示报告"

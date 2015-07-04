@@ -1,0 +1,434 @@
+#
+# Funda Wang <fundawang@linux.net.cn>, 2006.
+# Lie Ex <lilith.ex@gmail.com>, 2007-2009.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+# Phoenix Nemo <phoenixlzx@archlinuxcn.org>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-01-08 12:33+0100\n"
+"PO-Revision-Date: 2013-02-18 12:21+0800\n"
+"Last-Translator: Phoenix Nemo <phoenixlzx@archlinuxcn.org>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: src/inputformatimpls.cpp:46
+msgid "Interprets input as a unique KABC contact identifier"
+msgstr "将输入解析为唯一的 KABC 联系人标识符"
+
+#: src/inputformatimpls.cpp:104
+msgid "Interprets input as vCard data"
+msgstr "将输入解析为 VCard 数据"
+
+#: src/inputformatimpls.cpp:134
+#, kde-format
+msgid ""
+"Warning: using codec '%1' with input format vcard, but vCards are usually "
+"expected to be in UTF-8."
+msgstr "警告：现使用“%1”编码处理 vCard 输入数据，但一般应该使用 UTF-8 编码。"
+
+#: src/inputformatimpls.cpp:180
+msgid "Interprets input as email and optional name"
+msgstr "将输入解析为电子邮件地址和可选的姓名"
+
+#: src/inputformatimpls.cpp:244
+msgid ""
+"Tries to get email and name from input,\n"
+"\t\totherwise sets input text for both"
+msgstr ""
+"尝试从输入获取电子邮件地址和姓名，\n"
+"\t\t否则将输入文字同时设定为这两类内容"
+
+#: src/inputformatimpls.cpp:317
+msgid ""
+"Interprets the input as a name.\n"
+"\t\tRecommended format is 'lastname, firstname middlename'"
+msgstr ""
+"将输入解析为姓名。\n"
+"\t\t推荐格式为“姓, 名 教名”"
+
+#: src/inputformatimpls.cpp:381
+msgid "Interprets the input as a delimiter separated list of fields."
+msgstr "将输入解析为含有分隔符的列表。"
+
+#: src/inputformatimpls.cpp:401 src/outputformatimpls.cpp:718
+msgid "Specify one of the following CSV templates:"
+msgstr "在以下 CSV 模板中指定一个："
+
+#: src/inputformatimpls.cpp:569
+msgid "Select contacts in a dialog instead of reading input text"
+msgstr "从对话框中选择联系人，而非从输入文字中读取"
+
+#: src/kabcclient.cpp:48
+msgid "Saving modifications to address book failed"
+msgstr "保存更改到地址簿失败"
+
+#: src/kabcclient.cpp:49
+#, kde-format
+msgid ""
+"Input number %1 matches more than one contact. Skipping it to avoid "
+"undesired results"
+msgstr "输入的编号 %1 和多于一个联系人相匹配，为避免意外结果已将其忽略"
+
+#: src/kabcclient.cpp:92
+#, kde-format
+msgid "Input format '%1' not usable with operation '%2'"
+msgstr "输入的格式“%1”不能和“%2”操作配合使用"
+
+#: src/main.cpp:63
+msgid "KABC client"
+msgstr "KABC 客户端"
+
+#: src/main.cpp:64
+msgid "KDE address book command-line client"
+msgstr "KDE 地址簿的命令行客户端"
+
+#: src/main.cpp:67 src/main.cpp:426
+msgid "Kevin Krammer"
+msgstr "Kevin Krammer"
+
+#: src/main.cpp:67 src/main.cpp:424
+msgid "Primary Author"
+msgstr "主要作者"
+
+#: src/main.cpp:73
+msgid "Add input data as new address book entries"
+msgstr "将输入数据添加为新地址簿条目"
+
+#: src/main.cpp:77
+msgid "Remove entries matching the input data"
+msgstr "删除符合输入数据的条目"
+
+#: src/main.cpp:81
+msgid "Merge input data into the address book"
+msgstr "将输入数据合并到地址簿"
+
+#: src/main.cpp:85
+msgid "Search for entries matching the input data"
+msgstr "搜索符合输入数据的条目"
+
+#: src/main.cpp:89
+msgid "List all entries in address book"
+msgstr "列出地址簿中的所有条目"
+
+#: src/main.cpp:91
+msgid "Do not save changes to the address book on add/remove operations"
+msgstr "进行添加/删除操作时，不将更改保存到地址簿"
+
+#: src/main.cpp:95
+msgid "How to interpret the input data."
+msgstr "如何解析输入数据。"
+
+#: src/main.cpp:99
+msgid "Input options for the selected format"
+msgstr "所选格式的输入选项"
+
+#: src/main.cpp:103
+msgid "How to present the output data."
+msgstr "如何描述输出数据。"
+
+#: src/main.cpp:107
+msgid "Output options for the selected format"
+msgstr "所选格式的输出选项"
+
+#: src/main.cpp:111
+msgid "How to convert the input text."
+msgstr "如何转换输入文字。"
+
+#: src/main.cpp:115
+msgid "How to convert the output text."
+msgstr "如何转换输出文字。"
+
+#: src/main.cpp:117
+msgid "Match key fields case sensitive. UID is always matched case sensitive"
+msgstr "匹配键值字段时对大小写敏感，UID 必定是大小写敏感的。"
+
+#: src/main.cpp:119
+msgid "+[input data]"
+msgstr "+[输入数据]"
+
+#: src/main.cpp:119
+msgid "Input to use instead of reading stdin"
+msgstr "使用输入的数据，而不从标准输入读取"
+
+#: src/main.cpp:159
+msgid "No operation specified, assuming --search"
+msgstr "未指定操作，默认为 --search"
+
+#: src/main.cpp:166 src/main.cpp:297
+#, kde-format
+msgid "Invalid input format \"%1\". See --input-format help"
+msgstr "无效的输入格式“%1”。请参看 --input-format 的帮助"
+
+#: src/main.cpp:176
+#, kde-format
+msgid ""
+"Invalid options for input format \"%1\". See --input-format-options help"
+msgstr "无效的输入格式“%1”的选项。请参看 --input-format-options 的帮助"
+
+#: src/main.cpp:185 src/main.cpp:351
+#, kde-format
+msgid "Invalid output format \"%1\". See --output-format help"
+msgstr "无效的输出格式“%1”。请参看 --output-format 的帮助"
+
+#: src/main.cpp:195
+#, kde-format
+msgid ""
+"Invalid options for output format \"%1\". See --output-format-options help"
+msgstr "无效的输出格式“%1”的选项。请参看 --output-format-options 的帮助"
+
+#: src/main.cpp:208
+#, kde-format
+msgid "Invalid input codec \"%1\""
+msgstr "无效的输入编码“%1”"
+
+#: src/main.cpp:219
+#, kde-format
+msgid "Invalid output codec \"%1\""
+msgstr "无效的输出编码“%1”"
+
+#: src/main.cpp:251 src/main.cpp:491
+msgid "Unable to perform requested operation"
+msgstr "无法执行请求的操作"
+
+#: src/main.cpp:269
+msgid "The following input formats are available:"
+msgstr "以下输入格式可用："
+
+#: src/main.cpp:282 src/main.cpp:336
+msgid "No description available"
+msgstr "无可用描述"
+
+#: src/main.cpp:308
+#, kde-format
+msgid "No options available for input format %1"
+msgstr "输入格式 %1 无可用选项"
+
+#: src/main.cpp:309
+#, kde-format
+msgid "The following options are available for input format %1:"
+msgstr "输入格式 %1 有以下可用选项："
+
+#: src/main.cpp:323
+msgid "The following output formats are available:"
+msgstr "以下输出格式可用："
+
+#: src/main.cpp:362
+#, kde-format
+msgid "No options available for output format %1"
+msgstr "输出格式 %1 无可用选项"
+
+#: src/main.cpp:363
+#, kde-format
+msgid "The following options are available for output format %1:"
+msgstr "输出格式 %1 有以下可用选项："
+
+#: src/main.cpp:385
+msgid ""
+"The input codec transforms the input text data into an universal internal "
+"format"
+msgstr "输入编码会将输入的文字数据转换为通用的内部格式"
+
+#: src/main.cpp:387
+msgid ""
+"Default input encoding is 'local' unless input format is 'vcard', in which "
+"case the default encoding will be 'utf8'."
+msgstr ""
+"在输入格式为“vcard”以外的情况下，默认输入编码是“local”，vcard 则是“utf8”。"
+
+#: src/main.cpp:395
+msgid ""
+"The output codec transforms the output text data from the internal format to "
+"an 8-bit text format"
+msgstr "输出编码会将输出的文字数据从内部格式转换为 8 位文本格式"
+
+#: src/main.cpp:397
+msgid ""
+"Default output encoding is 'local' unless output format is 'vcard', in which "
+"case the default encoding will be 'utf8'."
+msgstr ""
+"在输出格式为“vcard”以外的情况下，默认输入编码是“local”，vcard 则是“utf8”。"
+
+#: src/main.cpp:403
+msgid ""
+"Built-in codecs are UTF8 and LOCAL, respectively using the 8-bit unicode "
+"format or your local encoding"
+msgstr "内建编码是 UTF8 和 LOCAL，分别代表 8 位 Unicode 格式和本地编码"
+
+#: src/main.cpp:407
+msgid ""
+"Other codecs can be specified by their ISO code, for example 'ISO 8859-15' "
+"for western european languages, including the Euro sign"
+msgstr "您可以根据 ISO 代号指定其它的编码，如用“ISO 8859-15”指定西欧语言编码"
+
+#: src/main.cpp:420
+msgid "kabc2mutt"
+msgstr "kabc2mutt"
+
+#: src/main.cpp:421
+msgid "kabc - mutt converter"
+msgstr "kabc - Mutt 转换器"
+
+#: src/main.cpp:424
+msgid "Tobias König"
+msgstr "Tobias König"
+
+#: src/main.cpp:426
+msgid "Contributor"
+msgstr "贡献者"
+
+#: src/main.cpp:431
+msgid ""
+"Only show contacts where name or address matches <placeholder>substring</"
+"placeholder>"
+msgstr "只显示姓名或地址符合<placeholder>子字符串</placeholder>的联系人"
+
+#: src/main.cpp:433
+msgid ""
+"Default format is 'alias'. 'query' returns email[tab]name[tab], as needed by "
+"mutt's query_command"
+msgstr ""
+"默认格式为“alias”，“query”会返回“邮件地址[tab]姓名[tab]”这样的格式，以满足 "
+"Mutt 邮件客户端中 query 指令的格式需要"
+
+#: src/main.cpp:436
+msgid "Default key format is 'JohDoe', this option turns it into 'jdoe'"
+msgstr "默认的键值格式为“JohDoe”，此选项可将其转换为“jdoe”"
+
+#: src/main.cpp:438
+msgid "Make queries case insensitive"
+msgstr "使查询对大小写敏感"
+
+#: src/main.cpp:440
+msgid "Return all mail addresses, not just the preferred one"
+msgstr "返回所有电子邮件地址，不仅是首选条目"
+
+#: src/main.cpp:496
+msgid "Searching KDE address book"
+msgstr "正在搜索 KDE 地址簿"
+
+#: src/main.cpp:502
+msgid "No matches in KDE address book"
+msgstr "在 KDE 地址簿中找不到匹配项"
+
+#: src/outputformatimpls.cpp:55
+msgid "Writes the unique KABC contact identifier"
+msgstr "写入唯一的 KABC 联系人标识符"
+
+#: src/outputformatimpls.cpp:126
+msgid "Exports to vCard format"
+msgstr "导出为 VCard 格式"
+
+#: src/outputformatimpls.cpp:146
+#, kde-format
+msgid "Optionally use a different vCard version (default is %1)"
+msgstr "选用不同的 vCard 版本(默认为 %1)"
+
+#: src/outputformatimpls.cpp:152
+msgid "Uses the vCard version 2.1"
+msgstr "使用 vCard 2.1 版本"
+
+#: src/outputformatimpls.cpp:169
+#, kde-format
+msgid ""
+"Warning: using codec '%1' with output format vcard, but vCards are usually "
+"expected to be in UTF-8."
+msgstr "警告：现使用“%1”编码输出 vCard，但一般应该使用 UTF-8 编码。"
+
+#: src/outputformatimpls.cpp:263
+msgid "Writes email address or formatted name &lt;email address&gt;"
+msgstr "写入邮件地址或“格式化姓名的&lt;邮件地址&gt;”"
+
+#: src/outputformatimpls.cpp:291
+msgid "Comma separated list of: allemails, withname"
+msgstr "在包含所有邮件地址和姓名的列表中，使用逗号作为分隔符"
+
+#: src/outputformatimpls.cpp:296 src/outputformatimpls.cpp:453
+msgid "List all email addresses of each contact"
+msgstr "列出每一名联系人的邮件地址"
+
+#: src/outputformatimpls.cpp:301
+msgid ""
+"Prepend formatted name, e.g\n"
+"\t\tJohn Doe &lt;jdoe@foo.com&gt;"
+msgstr ""
+"前置的格式化姓名，如\n"
+"\t\tJohn Doe &lt;jdoe@foo.com&gt;"
+
+#: src/outputformatimpls.cpp:404
+msgid "Formats output as needed by the mail client mutt"
+msgstr "按 Mutt 邮件客户端的需要格式化输出"
+
+#: src/outputformatimpls.cpp:447
+msgid ""
+"Comma separated list of: allemails, query, alias, altkeys, prefernick, "
+"alsonick. Default is alias"
+msgstr "可用逗号分隔的列表：所有邮件地址、查询、别名、备用键位。默认为别名"
+
+#: src/outputformatimpls.cpp:458
+msgid ""
+"Use mutt's query format, e.g.\n"
+"\t\tjdoe@foo.com [tab] John Doe\n"
+"\t\tConflicts with alias"
+msgstr ""
+"使用 Mutt 的查询格式，如\n"
+"\t\tjdoe@foo.com [tab] John Doe\n"
+"\t\t与别名冲突"
+
+#: src/outputformatimpls.cpp:465
+msgid ""
+"Use mutt's alias format, e.g.\n"
+"\t\talias JohDoe[tab]John Doe &lt;jdoe@foo.com&gt;\n"
+"\t\tConflicts with query"
+msgstr ""
+"使用 Mutt 的别名格式，如\n"
+"\t\talias JohDoe[tab]John Doe &lt;jdoe@foo.com&gt;\n"
+"\t\t与查询冲突"
+
+#: src/outputformatimpls.cpp:472
+msgid ""
+"Use alternative keys with alias format, e.g.\n"
+"\t\talias jdoe[tab]John Doe &lt;jdoe@foo.com&gt;"
+msgstr ""
+"别名中使用备选键位，如\n"
+"\t\talias jdoe[tab]John Doe &lt;jdoe@foo.com&gt;"
+
+#: src/outputformatimpls.cpp:478
+msgid ""
+"If a nick name exists use it instead of the key, e.g.\n"
+"\t\talias johnny[tab]John Doe &lt;jdoe@foo.com&gt;"
+msgstr ""
+"别名中使用备选键位，如\n"
+"\t\talias johnny[tab]John Doe &lt;jdoe@foo.com&gt;"
+
+#: src/outputformatimpls.cpp:484
+msgid ""
+"Generate additional aliases with the nick name as the key, e.g.\n"
+"\t\talias johnny[tab]John Doe &lt;jdoe@foo.com&gt;\n"
+"\t\tDeactivates 'prefernick' to avoid duplicates"
+msgstr ""
+"使用昵称生成额外的别名，例如\n"
+"\t\talias johnny[tab]John Doe &lt;jdoe@foo.com&gt;\n"
+"\t\t取消‘偏好昵称’来避免重复"
+
+#: src/outputformatimpls.cpp:560
+msgid "preferred"
+msgstr "首选"
+
+#: src/outputformatimpls.cpp:698
+msgid "Writes the data as a delimiter separated list of values"
+msgstr "写入以分隔符分隔的数据列表"

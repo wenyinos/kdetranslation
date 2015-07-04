@@ -1,0 +1,446 @@
+# translation of dragonplayer.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010, 2011, 2012.
+# FengChao <rainofchaos@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: dragonplayer\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-11 04:36+0200\n"
+"PO-Revision-Date: 2013-06-23 18:31+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#. i18n: ectx: Menu (file)
+#: misc/dragonplayerui.rc:4
+msgid "&Play"
+msgstr "播放(&P)"
+
+#. i18n: ectx: Menu (settings)
+#: misc/dragonplayerui.rc:15
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: misc/dragonplayerui.rc:31
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: src/app/actions.cpp:35
+msgid "Play"
+msgstr "播放"
+
+#: src/app/actions.cpp:36
+msgid "Pause"
+msgstr "暂停"
+
+#: src/app/actions.cpp:53
+msgctxt "Volume of sound output"
+msgid "Volume"
+msgstr "音量"
+
+#: src/app/adjustSizeButton.cpp:56
+msgid "Preferred Scale"
+msgstr "首选缩放"
+
+#: src/app/adjustSizeButton.cpp:60
+msgid "Scale 100%"
+msgstr "缩放 100%"
+
+#: src/app/adjustSizeButton.cpp:69
+msgid "<b>Adjust video scale?</b>"
+msgstr "<b>调整视频缩放吗？</b>"
+
+#: src/app/discSelectionDialog.cpp:54
+#, kde-format
+msgctxt ""
+"%1 is the disc type, %2 is the name of the disc that the user can choose. "
+"Ex. 'DVD: OfficeSpace'"
+msgid "%1: %2"
+msgstr "%1：%2"
+
+#: src/app/discSelectionDialog.cpp:75
+msgctxt "Digital Versatile Disc, but keep it short"
+msgid "DVD"
+msgstr "DVD"
+
+#: src/app/discSelectionDialog.cpp:77
+msgid "Video CD"
+msgstr "视频 CD"
+
+#: src/app/discSelectionDialog.cpp:79
+msgid "Audio CD"
+msgstr "音频 CD"
+
+#: src/app/discSelectionDialog.cpp:81
+msgid "Data CD"
+msgstr "数据 CD"
+
+#: src/app/discSelectionDialog.cpp:93
+msgid "Select a Disc"
+msgstr "选择盘片"
+
+#: src/app/discSelectionDialog.cpp:95
+msgid "Select a disc to play."
+msgstr "选择一张要播放的盘片。"
+
+#. i18n: ectx: property (text), widget (KPushButton, m_playFileButton)
+#: src/app/loadView.ui:19
+msgid "Play File"
+msgstr "播放文件"
+
+#. i18n: ectx: property (text), widget (KPushButton, m_playDiskButton)
+#: src/app/loadView.ui:26 src/app/playDialog.cpp:68
+msgid "Play Disc"
+msgstr "播放盘片"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_playStreamButton)
+#: src/app/loadView.ui:33
+msgid "Play Stream"
+msgstr "播放流"
+
+#: src/app/main.cpp:30 src/app/part.cpp:108
+msgid "Dragon Player"
+msgstr "Dragon Player"
+
+#: src/app/main.cpp:31 src/app/part.cpp:109
+msgid "A video player that has a usability focus"
+msgstr "一款专注于易用性的视频播放器"
+
+#: src/app/main.cpp:32 src/app/part.cpp:110
+msgid ""
+"Copyright 2006, Max Howell\n"
+"Copyright 2007, Ian Monroe"
+msgstr ""
+"Copyright 2006，Max Howell\n"
+"Copyright 2007，Ian Monroe"
+
+#: src/app/main.cpp:32
+msgid ""
+"IRC:\n"
+"irc.freenode.net #dragonplayer\n"
+"\n"
+"Feedback:\n"
+"imonroe@kde.org"
+msgstr ""
+"IRC：\n"
+"irc.freenode.net #dragonplayer\n"
+"\n"
+"反馈：\n"
+"imonroe@kde.org"
+
+#: src/app/main.cpp:38
+msgid "David Edmundson"
+msgstr "David Edmundson"
+
+#: src/app/main.cpp:38
+msgid "Improvements and polish"
+msgstr "改善和优化"
+
+#: src/app/main.cpp:39
+msgid "Matthias Kretz"
+msgstr "Matthias Kretz"
+
+#: src/app/main.cpp:39
+msgid "Creator of Phonon"
+msgstr "Phonon 的创始人"
+
+#: src/app/main.cpp:40
+msgid "Eugene Trounev"
+msgstr "Eugene Trounev"
+
+#: src/app/main.cpp:40
+msgid "Dragon Player icon"
+msgstr "Dragon Player 图标"
+
+#: src/app/main.cpp:41
+msgid "Mike Diehl"
+msgstr "Mike Diehl"
+
+#: src/app/main.cpp:41
+msgid "Handbook"
+msgstr "手册"
+
+#: src/app/main.cpp:42
+msgid "The Kaffeine Developers"
+msgstr "Kaffeine 开发者"
+
+#: src/app/main.cpp:42
+msgid "Great reference code"
+msgstr "大量的可参考代码"
+
+#: src/app/main.cpp:43
+msgid "Greenleaf"
+msgstr "Greenleaf"
+
+#: src/app/main.cpp:43
+msgid "Yatta happened to be the only video on my laptop to test with. :)"
+msgstr "这恰巧是我笔记本上唯一用于测试的视频。:)"
+
+#: src/app/main.cpp:44
+msgid "Eike Hein"
+msgstr "Eike Hein"
+
+#: src/app/main.cpp:44
+msgid "MPRIS v2 support"
+msgstr "MPRIS v2 支持"
+
+#: src/app/main.cpp:49
+msgid "Play 'URL'"
+msgstr "播放“URL”"
+
+#: src/app/main.cpp:50
+msgid "Play DVD Video"
+msgstr "播放 DVD 视频"
+
+#: src/app/mainWindow.cpp:154
+msgid "Aspect &Ratio"
+msgstr "纵横比(&R)"
+
+#: src/app/mainWindow.cpp:155
+msgid "&Audio Channels"
+msgstr "声道(&A)"
+
+#: src/app/mainWindow.cpp:156
+msgid "&Subtitles"
+msgstr "字幕(&S)"
+
+#: src/app/mainWindow.cpp:172
+msgid "Determine &Automatically"
+msgstr "自适应(&A)"
+
+#: src/app/mainWindow.cpp:173
+msgid "&4:3"
+msgstr "&4:3"
+
+#: src/app/mainWindow.cpp:174
+msgid "Ana&morphic (16:9)"
+msgstr "宽屏(16:9)(&M)"
+
+#: src/app/mainWindow.cpp:175
+msgid "&Window Size"
+msgstr "窗口大小(&W)"
+
+#: src/app/mainWindow.cpp:225
+msgid ""
+"<qt>Phonon could not be successfully initialized. Dragon Player will now "
+"exit.</qt>"
+msgstr "<qt>Phonon 初始化失败。Dragon Player 将立即退出。</qt>"
+
+#: src/app/mainWindow.cpp:281
+msgid "Play &Media..."
+msgstr "播放媒体(&M)..."
+
+#: src/app/mainWindow.cpp:300
+msgctxt "@action"
+msgid "Increase Volume"
+msgstr "增大音量"
+
+#: src/app/mainWindow.cpp:305
+msgctxt "@action"
+msgid "Decrease Volume"
+msgstr "减小音量"
+
+#: src/app/mainWindow.cpp:310
+msgid "Stop"
+msgstr "停止"
+
+#: src/app/mainWindow.cpp:316
+msgctxt "Mute the sound output"
+msgid "Mute"
+msgstr "静音"
+
+#: src/app/mainWindow.cpp:322
+msgid "Reset Video Scale"
+msgstr "重置视频缩放设定"
+
+#: src/app/mainWindow.cpp:328
+msgid "Menu Toggle"
+msgstr "菜单切换"
+
+#: src/app/mainWindow.cpp:334 src/app/part.cpp:66
+msgid "Position Slider"
+msgstr "位置滑动器"
+
+#: src/app/mainWindow.cpp:339
+msgid "Video Settings"
+msgstr "视频设置"
+
+#: src/app/mainWindow.cpp:348
+msgctxt ""
+"@action:inmenu Whether only one instance of dragon can be started and will "
+"be reused when the user tries to play another file."
+msgid "One Instance Only"
+msgstr "单实例"
+
+#: src/app/mainWindow.cpp:355
+msgid "Previous Chapter"
+msgstr "上一章节"
+
+#: src/app/mainWindow.cpp:361
+msgid "Next Chapter"
+msgstr "下一章节"
+
+#: src/app/mainWindow.cpp:368
+#, no-c-format
+msgid "Return 10% Back"
+msgstr "后退 10%"
+
+#: src/app/mainWindow.cpp:375
+#, no-c-format
+msgid "Go 10% Forward"
+msgstr "前进 10%"
+
+#: src/app/mainWindow.cpp:381
+msgid "Return 10 Seconds Back"
+msgstr "后退 10 秒"
+
+#: src/app/mainWindow.cpp:387
+msgid "Go 10 Seconds Forward"
+msgstr "前进 10 秒"
+
+#: src/app/mainWindow.cpp:481
+msgctxt "Mute the sound output"
+msgid "Mute "
+msgstr "静音 "
+
+#: src/app/mainWindow.cpp:559
+msgid "Dragon Player was asked to open an empty URL; it cannot."
+msgstr "Dragon Player 要求打开一个空的 URL；无法做到。"
+
+#: src/app/mainWindow.cpp:646
+msgid "Select File to Play"
+msgstr "选择要播放的文件"
+
+#: src/app/mainWindow.cpp:671
+msgctxt "@title:window"
+msgid "Stream to Play"
+msgstr "要播放的流"
+
+#: src/app/mainWindow.cpp:671
+msgid "Stream:"
+msgstr "流媒体："
+
+#: src/app/mainWindow.cpp:846
+msgid "Sorry, no media was found in the drop"
+msgstr "抱歉，未在指定位置找到媒体"
+
+#: src/app/mainWindow.cpp:915
+msgid "No media loaded"
+msgstr "未装入媒体"
+
+#: src/app/mainWindow.cpp:919
+msgid "Paused"
+msgstr "已暂停"
+
+#: src/app/playDialog.cpp:46
+msgid "Play Media"
+msgstr "播放媒体"
+
+#: src/app/playDialog.cpp:56
+msgid "What media would you like to play?"
+msgstr "您想要播放什么媒体？"
+
+#: src/app/playDialog.cpp:64
+msgid "Play File..."
+msgstr "播放文件..."
+
+#: src/app/playlistFile.cpp:50
+msgid "The file is not a playlist"
+msgstr "此文件不是播放列表"
+
+#: src/app/playlistFile.cpp:58
+#, kde-format
+msgid "Dragon Player could not download the remote playlist: %1"
+msgstr "Dragon Player 无法下载远程播放列表：%1"
+
+#: src/app/playlistFile.cpp:74
+#, kde-format
+msgid ""
+"<qt>The playlist, <i>'%1'</i>, could not be interpreted. Perhaps it is empty?"
+"</qt>"
+msgstr "<qt>无法解析播放列表<i>“%1”</i>。也许它是空的？</qt>"
+
+#: src/app/playlistFile.cpp:78
+#, kde-format
+msgid "Dragon Player could not open the file: %1"
+msgstr "Dragon Player 无法打开文件：%1"
+
+#: src/app/recentlyPlayedList.cpp:81
+msgid "Remove Entry"
+msgstr "删除条目"
+
+#: src/app/recentlyPlayedList.cpp:82
+msgid "Clear List"
+msgstr "清除列表"
+
+#: src/app/recentlyPlayedList.cpp:116
+msgid ""
+"This file could not be found. Would you like to remove it from the playlist?"
+msgstr "未找到此文件。您想从播放列表中删除它吗？"
+
+#: src/app/recentlyPlayedList.cpp:117
+msgid "File not found"
+msgstr "文件未找到"
+
+#. i18n: ectx: property (text), widget (QLabel, brightnessLabel)
+#: src/app/videoSettingsWidget.ui:19
+msgid "Brightness:"
+msgstr "亮度："
+
+#. i18n: ectx: property (text), widget (QLabel, contrastLabel)
+#: src/app/videoSettingsWidget.ui:42
+msgid "Contrast:"
+msgstr "对比度："
+
+#. i18n: ectx: property (text), widget (QLabel, hueLabel)
+#: src/app/videoSettingsWidget.ui:65
+msgid "Hue:"
+msgstr "色调："
+
+#. i18n: ectx: property (text), widget (QLabel, saturationLabel)
+#: src/app/videoSettingsWidget.ui:88
+msgid "Saturation:"
+msgstr "饱和度："
+
+#. i18n: ectx: property (text), widget (QPushButton, defaultsButton)
+#: src/app/videoSettingsWidget.ui:128
+msgid "Restore Defaults"
+msgstr "恢复默认"
+
+#. i18n: ectx: property (text), widget (QPushButton, closeButton)
+#: src/app/videoSettingsWidget.ui:135
+msgid "Close"
+msgstr "关闭"
+
+#: src/app/videoWindow.cpp:126
+msgid "&DVD Subtitle Selection"
+msgstr "&DVD 字幕选择"
+
+#: src/app/videoWindow.cpp:136
+msgid "&Auto"
+msgstr "自动(&A)"
+
+#~ msgid ""
+#~ "<qt>xine could not be successfully initialised. Dragon Player will now "
+#~ "exit. You can try to identify what is wrong with your xine installation "
+#~ "using the <b>xine-check</b> command at a command-prompt.</qt>"
+#~ msgstr ""
+#~ "<qt>xine 初始化失败。Dragon Player 现在将退出。您可以尝试在命令行提示中使"
+#~ "用 <b>xine-check</b> 命令来验证您的 xine 安装错误。</qt>"

@@ -1,0 +1,649 @@
+# translation of kcminput.po to zh_CN
+# translation of kcminput.po to Simplified Chinese
+# Copyright (C) 2002,2003 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Funda Wang <fundawang@linux.net.cn>, 2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-18 01:42+0000\n"
+"PO-Revision-Date: 2011-11-18 23:02+0800\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: core/themepage.cpp:54
+msgid "Select the cursor theme you want to use:"
+msgstr "选择您想要使用的鼠标指针主题："
+
+#: core/themepage.cpp:59 xcursor/thememodel.cpp:74
+msgid "Name"
+msgstr "名称"
+
+#: core/themepage.cpp:59 xcursor/thememodel.cpp:77
+msgid "Description"
+msgstr "描述"
+
+#: core/themepage.cpp:100 xcursor/themepage.cpp:330
+msgid "You have to restart KDE for these changes to take effect."
+msgstr "要让这些更改生效，您必须重新启动 KDE。"
+
+#: core/themepage.cpp:101 xcursor/themepage.cpp:331
+msgid "Cursor Settings Changed"
+msgstr "鼠标指针设置已更改"
+
+#: core/themepage.cpp:151
+msgid "Small black"
+msgstr "小黑鼠标指针"
+
+#: core/themepage.cpp:152
+msgid "Small black cursors"
+msgstr "小黑鼠标指针"
+
+#: core/themepage.cpp:158
+msgid "Large black"
+msgstr "大黑鼠标指针"
+
+#: core/themepage.cpp:159
+msgid "Large black cursors"
+msgstr "大黑鼠标指针"
+
+#: core/themepage.cpp:165
+msgid "Small white"
+msgstr "小白鼠标指针"
+
+#: core/themepage.cpp:166
+msgid "Small white cursors"
+msgstr "小白鼠标指针"
+
+#: core/themepage.cpp:172
+msgid "Large white"
+msgstr "大白鼠标指针"
+
+#: core/themepage.cpp:173
+msgid "Large white cursors"
+msgstr "大白鼠标指针"
+
+#: kcmcursortheme.cpp:41
+msgid "Cursor Theme"
+msgstr "光标主题"
+
+#: kcmcursortheme.cpp:42
+msgid "(c) 2003-2007 Fredrik Höglund"
+msgstr "(c) 2003-2007 Fredrik Höglund"
+
+#: kcmcursortheme.cpp:43
+msgid "Fredrik Höglund"
+msgstr "Fredrik Höglund"
+
+#. i18n: ectx: property (title), widget (QGroupBox, handedBox)
+#: kmousedlg.ui:27
+msgid "Button Order"
+msgstr "按钮顺序"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rightHanded)
+#: kmousedlg.ui:36
+msgid "Righ&t handed"
+msgstr "右手习惯(&T)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, leftHanded)
+#: kmousedlg.ui:46
+msgid "Le&ft handed"
+msgstr "左手习惯(&F)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbScrollPolarity)
+#: kmousedlg.ui:72
+msgid ""
+"Change the direction of scrolling for the mouse wheel or the 4th and 5th "
+"mouse buttons."
+msgstr "更改鼠标滚轮或鼠标第 4、5 键的滚动方向。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbScrollPolarity)
+#: kmousedlg.ui:75
+msgid "Re&verse scroll direction"
+msgstr "反转滚动方向(&V)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#: kmousedlg.ui:105
+msgid "Icons"
+msgstr "图标"
+
+#. i18n: ectx: property (text), widget (QRadioButton, doubleClick)
+#: kmousedlg.ui:111
+msgid "Dou&ble-click to open files and folders (select icons on first click)"
+msgstr "双击打开文件和文件夹(单击选中图标)(&B)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, singleClick)
+#: kmousedlg.ui:121
+msgid "&Single-click to open files and folders"
+msgstr "单击打开文件和文件夹(&S)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cb_pointershape)
+#: kmousedlg.ui:151
+msgid "Cha&nge pointer shape over icons"
+msgstr "位于图标上时改变指针的形状(&N)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbAutoSelect)
+#: kmousedlg.ui:161
+msgid "A&utomatically select icons"
+msgstr "自动选择图标(&U)"
+
+#. i18n: ectx: property (label), widget (KIntNumInput, slAutoSelect)
+#: kmousedlg.ui:195
+msgctxt "label. delay (on milliseconds) to automatically select icons"
+msgid "Delay"
+msgstr "延时"
+
+#. i18n: ectx: property (suffix), widget (KIntNumInput, slAutoSelect)
+#: kmousedlg.ui:207
+msgctxt "milliseconds. time to automatically select the items"
+msgid " ms"
+msgstr " 毫秒"
+
+#: logitechmouse.cpp:46 logitechmouse.cpp:88
+#, kde-format
+msgid "Mouse type: %1"
+msgstr "鼠标类型：%1"
+
+#: logitechmouse.cpp:226
+msgid ""
+"RF channel 1 has been set. Please press Connect button on mouse to re-"
+"establish link"
+msgstr "设置了 RF 通道 1。请按连接鼠标上的连接按钮以便重新建立连接"
+
+#: logitechmouse.cpp:226 logitechmouse.cpp:230
+msgid "Press Connect Button"
+msgstr "请按连接按钮"
+
+#: logitechmouse.cpp:230
+msgid ""
+"RF channel 2 has been set. Please press Connect button on mouse to re-"
+"establish link"
+msgstr "设置了 RF 通道 2。请按连接鼠标上的连接按钮以便重新建立连接"
+
+#: logitechmouse.cpp:360
+msgctxt "no cordless mouse"
+msgid "none"
+msgstr "无"
+
+#: logitechmouse.cpp:363 logitechmouse.cpp:393
+msgid "Cordless Mouse"
+msgstr "无限旋貂"
+
+#: logitechmouse.cpp:366 logitechmouse.cpp:372 logitechmouse.cpp:375
+msgid "Cordless Wheel Mouse"
+msgstr "带滚轮的无限旋貂"
+
+#: logitechmouse.cpp:369
+msgid "Cordless MouseMan Wheel"
+msgstr "无限银貂"
+
+#: logitechmouse.cpp:378
+msgid "Cordless TrackMan Wheel"
+msgstr "无限火星"
+
+#: logitechmouse.cpp:381
+msgid "TrackMan Live"
+msgstr "简报飞貂"
+
+#: logitechmouse.cpp:384
+msgid "Cordless TrackMan FX"
+msgstr "无限金星"
+
+#: logitechmouse.cpp:387
+msgid "Cordless MouseMan Optical"
+msgstr "无限飞貂极光版"
+
+#: logitechmouse.cpp:390
+msgid "Cordless Optical Mouse"
+msgstr "无限天貂"
+
+#: logitechmouse.cpp:396
+msgid "Cordless MouseMan Optical (2ch)"
+msgstr "无限飞貂极光版(双通道)"
+
+#: logitechmouse.cpp:399
+msgid "Cordless Optical Mouse (2ch)"
+msgstr "无限天貂(双通道)"
+
+#: logitechmouse.cpp:402
+msgid "Cordless Mouse (2ch)"
+msgstr "无限旋貂(双通道)"
+
+#: logitechmouse.cpp:405
+msgid "Cordless Optical TrackMan"
+msgstr "无限水星"
+
+#: logitechmouse.cpp:408
+msgid "MX700 Cordless Optical Mouse"
+msgstr "无限云貂极光版"
+
+#: logitechmouse.cpp:411
+msgid "MX700 Cordless Optical Mouse (2ch)"
+msgstr "无限云貂极光版(双通道)"
+
+#: logitechmouse.cpp:414
+msgid "Unknown mouse"
+msgstr "未知鼠标"
+
+#. i18n: ectx: property (text), widget (QLabel, cordlessNameLabel)
+#: logitechmouse_base.ui:8
+msgid "Cordless Name"
+msgstr "无线名称"
+
+#. i18n: ectx: property (title), widget (QGroupBox, resolutionSelector)
+#: logitechmouse_base.ui:21
+msgid "Sensor Resolution"
+msgstr "传感器分辨率"
+
+#. i18n: ectx: property (text), widget (QRadioButton, button400cpi)
+#: logitechmouse_base.ui:27
+msgid "400 counts per inch"
+msgstr "400 CPI"
+
+#. i18n: ectx: property (text), widget (QRadioButton, button800cpi)
+#: logitechmouse_base.ui:37
+msgid "800 counts per inch"
+msgstr "800 CPI"
+
+#. i18n: ectx: property (title), widget (QGroupBox, batteryBox)
+#: logitechmouse_base.ui:53
+msgid "Battery Level"
+msgstr "电池级别"
+
+#. i18n: ectx: property (title), widget (QGroupBox, channelSelector)
+#: logitechmouse_base.ui:72
+msgid "RF Channel"
+msgstr "RF 通道"
+
+#. i18n: ectx: property (text), widget (QRadioButton, channel1)
+#: logitechmouse_base.ui:78
+msgid "Channel 1"
+msgstr "通道 1"
+
+#. i18n: ectx: property (text), widget (QRadioButton, channel2)
+#: logitechmouse_base.ui:94
+msgid "Channel 2"
+msgstr "通道 2"
+
+#. i18n: ectx: property (text), widget (QLabel, permissionProblemText)
+#: logitechmouse_base.ui:107
+msgid ""
+"You have a Logitech Mouse connected, and libusb was found at compile time, "
+"but it was not possible to access this mouse. This is probably caused by a "
+"permissions problem - you should consult the manual on how to fix this."
+msgstr ""
+"您连接了罗技鼠标，并且编译时找到了 libusb，但现在无法访问此鼠标。这很可能是权"
+"限问题 - 您应该查看手册中如何纠正此问题的部分。"
+
+#: mouse.cpp:91
+msgid ""
+"<h1>Mouse</h1> This module allows you to choose various options for the way "
+"in which your pointing device works. Your pointing device may be a mouse, "
+"trackball, or some other hardware that performs a similar function."
+msgstr ""
+"<h1>鼠标</h1>这个模块允许您使用各种选项来选择指点设备工作的方式。您的指点设备"
+"可能是鼠标，跟踪球，或其它能够完成相似功能的其它硬件。"
+
+#: mouse.cpp:110
+msgid "&General"
+msgstr "常规(&G)"
+
+#: mouse.cpp:120
+msgid ""
+"If you are left-handed, you may prefer to swap the functions of the left and "
+"right buttons on your pointing device by choosing the 'left-handed' option. "
+"If your pointing device has more than two buttons, only those that function "
+"as the left and right buttons are affected. For example, if you have a three-"
+"button mouse, the middle button is unaffected."
+msgstr ""
+"如果您是左手习惯，您也许希望选择“左手习惯”选项来交换指点设备的左键和右键的功"
+"能。如果您的指点设备有多于两个的按钮，只有具有左键或右键功能的按钮才会受到影"
+"响。例如，如果您有三键鼠标，中键不受影响。"
+
+#: mouse.cpp:130
+msgid ""
+"The default behavior in KDE is to select and activate icons with a single "
+"click of the left button on your pointing device. This behavior is "
+"consistent with what you would expect when you click links in most web "
+"browsers. If you would prefer to select with a single click, and activate "
+"with a double click, check this option."
+msgstr ""
+"KDE 的默认行为是指点设备的左按钮单击选中并激活图标。这和您在大多数 web 浏览器"
+"中单击链接时的行为是一致的。如果您希望单击选中，双击激活，使用这个选项。"
+
+#: mouse.cpp:138
+msgid "Activates and opens a file or folder with a single click."
+msgstr "用单击激活并打开文件或文件夹。"
+
+#: mouse.cpp:144
+msgid ""
+"If you check this option, pausing the mouse pointer over an icon on the "
+"screen will automatically select that icon. This may be useful when single "
+"clicks activate icons, and you want only to select the icon without "
+"activating it."
+msgstr ""
+"如果您使用这个选项，鼠标指针在屏幕上的图标上停留会自动选中图标。这在单击激活"
+"图标，而您只想选择而不是激活图标时是非常有用的。"
+
+#: mouse.cpp:150
+msgid ""
+"If you have checked the option to automatically select icons, this slider "
+"allows you to select how long the mouse pointer must be paused over the icon "
+"before it is selected."
+msgstr ""
+"如果您已经使用自动选中图标的选项，这个滑动条允许您指定在图标被选中前鼠标指针"
+"必须在图标上停留多长时间。"
+
+#: mouse.cpp:186
+msgid "Advanced"
+msgstr "高级"
+
+#: mouse.cpp:191
+msgid " x"
+msgstr " x"
+
+#: mouse.cpp:192
+msgid "Pointer acceleration:"
+msgstr "指针加速："
+
+#: mouse.cpp:195
+msgid ""
+"<p>This option allows you to change the relationship between the distance "
+"that the mouse pointer moves on the screen and the relative movement of the "
+"physical device itself (which may be a mouse, trackball, or some other "
+"pointing device.)</p><p> A high value for the acceleration will lead to "
+"large movements of the mouse pointer on the screen even when you only make a "
+"small movement with the physical device. Selecting very high values may "
+"result in the mouse pointer flying across the screen, making it hard to "
+"control.</p>"
+msgstr ""
+"<p>这个选项允许您改变鼠标指针在屏幕上移动和实际的设备(可能是鼠标、跟踪球或其"
+"它的指点设备)移动之间的关系。</p><p>大的加速值将导致即使您的物理设备做很小的"
+"移动也会使鼠标指针移动很大距离。选择非常大的值将使鼠标指针在屏幕上掠过，很难"
+"控制。</p>"
+
+#: mouse.cpp:210
+msgid "Pointer threshold:"
+msgstr "指针快速移动阈值："
+
+#: mouse.cpp:215
+msgid ""
+"<p>The threshold is the smallest distance that the mouse pointer must move "
+"on the screen before acceleration has any effect. If the movement is smaller "
+"than the threshold, the mouse pointer moves as if the acceleration was set "
+"to 1X;</p><p> thus, when you make small movements with the physical device, "
+"there is no acceleration at all, giving you a greater degree of control over "
+"the mouse pointer. With larger movements of the physical device, you can "
+"move the mouse pointer rapidly to different areas on the screen.</p>"
+msgstr ""
+"<p>加速阈值是加速生效前鼠标必须在屏幕上移动的最小距离。如果移动小于加速阈值，"
+"鼠标指针就象加速设为 1X；</p><p> 这样，当您用物理设备做很小的移动时，您可以很"
+"好地控制鼠标指针。当物理设备移动较大时，您可以快速地在屏幕的不同区域移动。</"
+"p>"
+
+#: mouse.cpp:230 mouse.cpp:245 mouse.cpp:291 mouse.cpp:296 mouse.cpp:301
+msgid " msec"
+msgstr " 毫秒"
+
+#: mouse.cpp:232
+msgid "Double click interval:"
+msgstr "双击间隔："
+
+#: mouse.cpp:235
+msgid ""
+"The double click interval is the maximal time (in milliseconds) between two "
+"mouse clicks which turns them into a double click. If the second click "
+"happens later than this time interval after the first click, they are "
+"recognized as two separate clicks."
+msgstr ""
+"双击间隔时间是鼠标双击的两次点击的最大间隔时间(毫秒)。如果第二次点击在第一次"
+"点击后的此时间间隔后，这两次点击将被认为是两次单击。"
+
+#: mouse.cpp:247
+msgid "Drag start time:"
+msgstr "拖动起始时间："
+
+#: mouse.cpp:250
+msgid ""
+"If you click with the mouse (e.g. in a multi-line editor) and begin to move "
+"the mouse within the drag start time, a drag operation will be initiated."
+msgstr ""
+"如果您用鼠标点击(例如在多行编辑器里)并在拖动起始时间内开始移动鼠标，就开始拖"
+"动操作。"
+
+#: mouse.cpp:258
+msgid "Drag start distance:"
+msgstr "拖动起始距离："
+
+#: mouse.cpp:263
+msgid ""
+"If you click with the mouse and begin to move the mouse at least the drag "
+"start distance, a drag operation will be initiated."
+msgstr "如果您用鼠标点击并在拖动起始距离内开始移动鼠标，就开始拖动操作。"
+
+#: mouse.cpp:271
+msgid "Mouse wheel scrolls by:"
+msgstr "鼠标滚轮卷动单位："
+
+#: mouse.cpp:276
+msgid ""
+"If you use the wheel of a mouse, this value determines the number of lines "
+"to scroll for each wheel movement. Note that if this number exceeds the "
+"number of visible lines, it will be ignored and the wheel movement will be "
+"handled as a page up/down movement."
+msgstr ""
+"如果您使用滚轮鼠标，该值确定滚轮每次运动要卷动的行数。注意如果该值超过了可见"
+"的行数时，该值会被忽略，滚轮动作将被作为一次上页(或下页)动作。"
+
+#: mouse.cpp:282
+msgid "Mouse Navigation"
+msgstr "鼠标导航"
+
+#: mouse.cpp:286
+msgid "&Move pointer with keyboard (using the num pad)"
+msgstr "用键盘(数字键盘)移动鼠标指针(&M)"
+
+#: mouse.cpp:292
+msgid "&Acceleration delay:"
+msgstr "加速延时(&A)："
+
+#: mouse.cpp:297
+msgid "R&epeat interval:"
+msgstr "重复间隔(&E)："
+
+#: mouse.cpp:302
+msgid "Acceleration &time:"
+msgstr "加速时间(&T)："
+
+#: mouse.cpp:306
+msgid " pixel/sec"
+msgstr " 像素/秒"
+
+#: mouse.cpp:307
+msgid "Ma&ximum speed:"
+msgstr "最大速度(&X)："
+
+#: mouse.cpp:311
+msgid "Acceleration &profile:"
+msgstr "加速曲线参数(&P)："
+
+#: mouse.cpp:378
+msgid "Mouse"
+msgstr "鼠标"
+
+#: mouse.cpp:379
+msgid "(c) 1997 - 2005 Mouse developers"
+msgstr "(c) 1997 - 2005 鼠标模块开发者"
+
+#: mouse.cpp:380
+msgid "Patrick Dowler"
+msgstr "Patrick Dowler"
+
+#: mouse.cpp:381
+msgid "Dirk A. Mueller"
+msgstr "Dirk A. Mueller"
+
+#: mouse.cpp:382
+msgid "David Faure"
+msgstr "David Faure"
+
+#: mouse.cpp:383
+msgid "Bernd Gehrmann"
+msgstr "Bernd Gehrmann"
+
+#: mouse.cpp:384
+msgid "Rik Hemsley"
+msgstr "Rik Hemsley"
+
+#: mouse.cpp:385
+msgid "Brad Hughes"
+msgstr "Brad Hughes"
+
+#: mouse.cpp:386
+msgid "Ralf Nolden"
+msgstr "Ralf Nolden"
+
+#: mouse.cpp:387
+msgid "Brad Hards"
+msgstr "Brad Hards"
+
+#: mouse.cpp:688 mouse.cpp:693
+msgid " pixel"
+msgid_plural " pixels"
+msgstr[0] " 像素"
+
+#: mouse.cpp:698
+msgid " line"
+msgid_plural " lines"
+msgstr[0] " 行"
+
+#: xcursor/themepage.cpp:155
+msgctxt "@item:inlistbox size"
+msgid "resolution dependent"
+msgstr "依赖于分辨率"
+
+#: xcursor/themepage.cpp:446
+msgid "Drag or Type Theme URL"
+msgstr "拖曳或输入主题地址"
+
+#: xcursor/themepage.cpp:457
+#, kde-format
+msgid "Unable to find the cursor theme archive %1."
+msgstr "找不到鼠标指针主题存档 %1。"
+
+#: xcursor/themepage.cpp:460
+#, kde-format
+msgid ""
+"Unable to download the cursor theme archive; please check that the address "
+"%1 is correct."
+msgstr "无法下载鼠标指针主题存档；请检查地址 %1 是否正确。"
+
+#: xcursor/themepage.cpp:469
+#, kde-format
+msgid "The file %1 does not appear to be a valid cursor theme archive."
+msgstr "文件 %1 好像不是有效的鼠标指针主题存档。"
+
+#: xcursor/themepage.cpp:484
+msgid ""
+"<qt>You cannot delete the theme you are currently using.<br />You have to "
+"switch to another theme first.</qt>"
+msgstr ""
+"<qt>您无法删除目前正在使用的主题。<br />您必须是先切换到另外一种主题。</qt>"
+
+#: xcursor/themepage.cpp:490
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
+"will delete all the files installed by this theme.</qt>"
+msgstr ""
+"<qt>您确定要删除 <i>%1</i> 鼠标指针主题吗？<br />这将删除此主题安装的全部文"
+"件。</qt>"
+
+#: xcursor/themepage.cpp:496
+msgid "Confirmation"
+msgstr "确认"
+
+#: xcursor/themepage.cpp:553
+#, kde-format
+msgid ""
+"A theme named %1 already exists in your icon theme folder. Do you want "
+"replace it with this one?"
+msgstr "已经在您的图标主题文件夹中存在名为 %1 的主题。您是否想要将其覆盖？"
+
+#: xcursor/themepage.cpp:557
+msgid "Overwrite Theme?"
+msgstr "覆盖主题吗？"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: xcursor/themepage.ui:17
+msgid "Select the cursor theme you want to use (hover preview to test cursor):"
+msgstr "选择您想要使用的鼠标指针主题(悬停在预览区可测试指针)："
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, installKnsButton)
+#: xcursor/themepage.ui:56
+msgid "Get new color schemes from the Internet"
+msgstr "从互联网获得新配色方案"
+
+#. i18n: ectx: property (text), widget (KPushButton, installKnsButton)
+#: xcursor/themepage.ui:59
+msgid "Get New Theme..."
+msgstr "获取新主题..."
+
+#. i18n: ectx: property (text), widget (KPushButton, installButton)
+#: xcursor/themepage.ui:66
+msgid "Install From File..."
+msgstr "从文件安装..."
+
+#. i18n: ectx: property (text), widget (KPushButton, removeButton)
+#: xcursor/themepage.ui:73
+msgid "Remove Theme"
+msgstr "删除主题"
+
+#. i18n: ectx: property (text), widget (QLabel, sizeLabel)
+#: xcursor/themepage.ui:99
+msgctxt "@label:listbox cursor size"
+msgid "Size:"
+msgstr "大小："
+
+#: xcursor/xcursortheme.cpp:74
+#, kde-format
+msgctxt ""
+"@info/plain The argument is the list of available sizes (in pixel). Example: "
+"'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
+msgid "(Available sizes: %1)"
+msgstr "(可用大小：%1)"
+
+#~ msgid "KDE Classic"
+#~ msgstr "KDE 经典"
+
+#~ msgid "The default cursor theme in KDE 2 and 3"
+#~ msgstr "KDE 2 和 KDE 3 中的默认鼠标指针主题"
+
+#~ msgid "No description available"
+#~ msgstr "没有可用的描述"
+
+#~ msgid "Short"
+#~ msgstr "短"
+
+#~ msgid "Long"
+#~ msgstr "长"

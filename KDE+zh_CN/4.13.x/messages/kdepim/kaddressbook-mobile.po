@@ -1,0 +1,1026 @@
+# translation of kcontactmanager.po to 简体中文
+# Funda Wang <fundawang@linux.net.cn>, 2006.
+# sanfanling <xujia19@gmail.com>, 2007.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+# Lie Ex <lilith.ex@gmail.com>, 2008-2010.
+# Phoenix Nemo <phoenixlzx@archlinuxcn.org>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcontactmanager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-10 01:34+0000\n"
+"PO-Revision-Date: 2013-02-18 12:41+0800\n"
+"Last-Translator: Phoenix Nemo <phoenixlzx@archlinuxcn.org>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: BulkActionComponent.qml:31
+#, kde-format
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "目录 %1"
+
+#: ConfigDialog.qml:65
+msgid "OK"
+msgstr "确定"
+
+#: ConfigDialog.qml:77
+msgid "Cancel"
+msgstr "取消"
+
+#: configwidget.cpp:44
+msgid "None"
+msgstr "空"
+
+#: configwidget.cpp:45
+msgid "OpenStreetMap"
+msgstr "OpenStreet 地图"
+
+#: configwidget.cpp:46
+msgid "Google Maps"
+msgstr "谷歌地图"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: configwidget.ui:25
+msgid "Contact Actions"
+msgstr "联系人动作"
+
+#. i18n: ectx: property (text), widget (QLabel, showAddressOnLabel)
+#: configwidget.ui:50
+msgid "Show address on:"
+msgstr "显示地址到："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: configwidget.ui:72
+msgid "LDAP Servers"
+msgstr "LDAP 服务器"
+
+#: contact-editor.qml:52
+msgid "Business"
+msgstr "商务"
+
+#: contact-editor.qml:74
+msgid "Location"
+msgstr "位置"
+
+#: contact-editor.qml:96
+msgid "Crypto"
+msgstr "加密"
+
+#: contact-editor.qml:118
+msgid "More"
+msgstr "更多"
+
+#: contacteditorview.cpp:211 contactgroupeditorview.cpp:167 main.cpp:38
+msgid "Kontact Touch Contacts"
+msgstr "Kontact Touch 联系人"
+
+#: contactsexporthandler.cpp:51
+#, kde-format
+msgid "Do you want to overwrite file \"%1\"?"
+msgstr "您希望覆盖文件“%1”吗？"
+
+#: contactsexporthandler.cpp:67
+msgid "Which contacts shall be exported?"
+msgstr "要导出哪些联系人？"
+
+#: contactsexporthandler.cpp:72
+msgid "All Contacts"
+msgstr "所有联系人"
+
+#: contactsexporthandler.cpp:77
+msgid "Contacts in current folder"
+msgstr "当前目录下的联系人"
+
+#: contactsexporthandler.cpp:105
+msgid ""
+"You have selected a list of contacts, shall they be exported to several "
+"files?"
+msgstr "您选择了一系列联系人，他们应当被导出为多个文件吗？"
+
+#: contactsexporthandler.cpp:108
+msgid "Export to Several Files"
+msgstr "导出为多个文件"
+
+#: contactsexporthandler.cpp:109
+msgid "Export to One File"
+msgstr "导出为单一文件"
+
+#: contactsimporthandler.cpp:36
+msgid "Select vCard to Import"
+msgstr "选择 vCard 文件以导入"
+
+#: contactsimporthandler.cpp:41 mainview.cpp:411
+msgid "Select the address book the imported contact(s) shall be saved in:"
+msgstr "选择要保存联系人的地址簿："
+
+#: contactsimporthandler.cpp:46 mainview.cpp:410
+msgid "Select Address Book"
+msgstr "选择地址簿"
+
+#: contactsimporthandler.cpp:51
+#, kde-format
+msgid "Importing one contact to %2"
+msgid_plural "Importing %1 contacts to %2"
+msgstr[0] "正在将 %1 的联系人导入 %2"
+
+#: contactsimporthandler.cpp:56 mainview.cpp:91
+msgid "Import Contacts"
+msgstr "导入联系人"
+
+#: contactsimporthandler.cpp:83
+msgid "vCard Import Failed"
+msgstr "vCard 导入失败"
+
+#: contactsimporthandler.cpp:85
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>When trying to read the vCard, there was an error opening the file "
+"<filename>%1</filename>:</para><para>%2</para>"
+msgstr ""
+"<para>尝试读取 vCard 文件时，打开文件 <filename>%1</filename> 错误：</"
+"para><para>%2</para>"
+
+#: contactsimporthandler.cpp:96
+msgid "No contacts were imported, due to errors with the vCards."
+msgstr "由于 vCard 文件错误，没有联系人被导入。"
+
+#: contactsimporthandler.cpp:98
+msgid "The vCard does not contain any contacts."
+msgstr "vCard 文件不包含任何联系人"
+
+#: customfieldeditordialog.cpp:35
+msgid "Edit Custom Field"
+msgstr "编辑自定义字段"
+
+#: customfieldeditordialog.cpp:46
+msgid "Use field for all contacts"
+msgstr "对所有联系人使用此字段"
+
+#: customfieldeditordialog.cpp:48
+msgctxt "The title of a custom field"
+msgid "Title"
+msgstr "标题"
+
+#: customfieldeditordialog.cpp:49
+msgctxt "The type of a custom field"
+msgid "Type"
+msgstr "类型"
+
+#: customfieldeditordialog.cpp:54
+msgid "Key"
+msgstr "密钥"
+
+#: customfieldeditordialog.cpp:57
+msgctxt "@label Opens the advanced dialog"
+msgid "Advanced"
+msgstr "高级"
+
+#: customfieldeditordialog.cpp:59
+msgid "Text"
+msgstr "文字"
+
+#: customfieldeditordialog.cpp:60
+msgid "Numeric"
+msgstr "数字"
+
+#: customfieldeditordialog.cpp:61
+msgid "Boolean"
+msgstr "逻辑"
+
+#: customfieldeditordialog.cpp:62
+msgid "Date"
+msgstr "日期"
+
+#: customfieldeditordialog.cpp:63
+msgid "Time"
+msgstr "时间"
+
+#: customfieldeditordialog.cpp:64
+msgid "DateTime"
+msgstr "日期和时间"
+
+#: customfieldeditwidget.cpp:27 KAddressBookActions.qml:76
+#: KAddressBookActions.qml:118
+msgid "Edit"
+msgstr "编辑"
+
+#: customfieldeditwidget.cpp:31 editorlocation.cpp:146
+msgid "Delete"
+msgstr "删除"
+
+#: displaynameeditwidget.cpp:59
+msgid "Short Name"
+msgstr "短名"
+
+#: displaynameeditwidget.cpp:60
+msgid "Full Name"
+msgstr "全名"
+
+#: displaynameeditwidget.cpp:61
+msgid "Reverse Name with Comma"
+msgstr "姓氏在前并加上逗号"
+
+#: displaynameeditwidget.cpp:62
+msgid "Reverse Name"
+msgstr "姓氏在前"
+
+#: displaynameeditwidget.cpp:63
+msgid "Organization"
+msgstr "组织"
+
+#: displaynameeditwidget.cpp:64
+msgctxt "@item:inlistbox A custom name format"
+msgid "Custom"
+msgstr "自定义"
+
+#. i18n: ectx: property (text), widget (QLabel, organizationLabel)
+#: editorbusiness.ui:24
+msgid "Organization:"
+msgstr "组织："
+
+#. i18n: ectx: property (text), widget (QLabel, professionLabel)
+#: editorbusiness.ui:34
+msgid "Profession:"
+msgstr "职业："
+
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#: editorbusiness.ui:44
+msgid "Title:"
+msgstr "头衔："
+
+#. i18n: ectx: property (text), widget (QLabel, departmentLabel)
+#: editorbusiness.ui:54
+msgid "Department:"
+msgstr "部门："
+
+#. i18n: ectx: property (text), widget (QLabel, officeLabel)
+#: editorbusiness.ui:64
+msgid "Office:"
+msgstr "办公室："
+
+#. i18n: ectx: property (text), widget (QLabel, managerSNameLabel)
+#: editorbusiness.ui:74
+msgid "Manager:"
+msgstr "经理："
+
+#. i18n: ectx: property (text), widget (QLabel, assistantSNameLabel)
+#: editorbusiness.ui:84
+msgid "Assistant:"
+msgstr "助手："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: editorbusiness.ui:142
+msgid "Notes:"
+msgstr "备注："
+
+#: editorcontactgroup.cpp:280
+msgctxt "@info:status"
+msgid "Loading..."
+msgstr "装载中..."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QPushButton, namePageButton)
+#: editorcontactgroup.ui:19 editorgeneral.ui:19 editormore.ui:19
+msgid "Name"
+msgstr "姓名"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: editorcontactgroup.ui:29
+msgid "Recipient"
+msgstr "收件人"
+
+#. i18n: ectx: property (text), widget (QPushButton, addRecipientButton)
+#. i18n: ectx: property (text), widget (QPushButton, addEmailButton)
+#. i18n: ectx: property (text), widget (QPushButton, addPhoneButton)
+#: editorcontactgroup.ui:42 editorgeneral.ui:55 editorgeneral.ui:81
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (text), widget (QPushButton, launchAccountWizardButton)
+#: editorcontactgroup.ui:72 editorgeneral.ui:121
+msgid "New Address Book"
+msgstr "新建地址簿"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: editorcrypto.ui:17
+msgid "Allow the following protocols:"
+msgstr "允许以下协议："
+
+#. i18n: ectx: property (text), widget (QCheckBox, inlineOpenPGPCheckBox)
+#: editorcrypto.ui:42
+msgid "Inline OpenPGP (deprecated)"
+msgstr "内联 OpenPGP(已废弃)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, openPGPCheckBox)
+#: editorcrypto.ui:69
+msgid "OpenPGP / MIME"
+msgstr "OpenPGP/MIME"
+
+#. i18n: ectx: property (text), widget (QCheckBox, smimeCheckBox)
+#: editorcrypto.ui:96
+msgid "S/MIME"
+msgstr "S/MIME"
+
+#. i18n: ectx: property (text), widget (QCheckBox, smimeOpaqueCheckBox)
+#: editorcrypto.ui:123
+msgid "S/MIME Opaque"
+msgstr "不分离的 S/MIME"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: editorcrypto.ui:132
+msgid "Preferred Open/PGP encryption key:"
+msgstr "首选 OpenPGP 加密密钥："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: editorcrypto.ui:162
+msgid "Preferred S/MIME encryption certificate:"
+msgstr "首选 S/MIME 加密证书："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: editorcrypto.ui:192
+msgid "Message Preference:"
+msgstr "消息首选项："
+
+#. i18n: ectx: property (text), widget (QLabel, encryptLabel)
+#: editorcrypto.ui:222
+msgid "Encrypt:"
+msgstr "加密："
+
+#. i18n: ectx: property (text), widget (QLabel, signLabel)
+#: editorcrypto.ui:232
+msgid "Sign:"
+msgstr "签名："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: editorgeneral.ui:42
+msgid "E-Mail"
+msgstr "电子邮件"
+
+#. i18n: ectx: property (text), widget (QLabel, phoneLabel)
+#: editorgeneral.ui:62
+msgid "Phone"
+msgstr "电话"
+
+#: editorlocation.cpp:38
+msgctxt "street/postal"
+msgid "New Address"
+msgstr "新建地址"
+
+#: editorlocation.cpp:46
+msgctxt "street/postal"
+msgid "Address Types"
+msgstr "地址类型"
+
+#: editorlocation.cpp:144
+msgid "Do you really want to delete this address?"
+msgstr "您真的想要删除这个地址吗？"
+
+#: editorlocation.cpp:145
+msgid "Delete Address"
+msgstr "删除地址"
+
+#. i18n: ectx: property (text), widget (QLabel, addressTypeLabel)
+#: editorlocation.ui:25
+msgid "Show address:"
+msgstr "显示地址："
+
+#. i18n: ectx: property (text), widget (QPushButton, addAddressButton)
+#: editorlocation.ui:48
+msgid "Add new"
+msgstr "添加新项"
+
+#. i18n: ectx: property (text), widget (QLabel, streetLabel)
+#: editorlocation.ui:75
+msgid "Street:"
+msgstr "街道："
+
+#. i18n: ectx: property (text), widget (QLabel, postOfficeBoxLabel)
+#: editorlocation.ui:90
+msgid ""
+"Post Office\n"
+"Box:"
+msgstr "邮箱："
+
+#. i18n: ectx: property (text), widget (QLabel, localityLabel)
+#: editorlocation.ui:100
+msgid "Locality:"
+msgstr "位置："
+
+#. i18n: ectx: property (text), widget (QLabel, regionLabel)
+#: editorlocation.ui:110
+msgid "Region:"
+msgstr "地区："
+
+#. i18n: ectx: property (text), widget (QLabel, postalCodeLabel)
+#: editorlocation.ui:120
+msgid "Postal Code:"
+msgstr "邮政编码："
+
+#. i18n: ectx: property (text), widget (QLabel, countryLabel)
+#: editorlocation.ui:130
+msgid "Country:"
+msgstr "国家："
+
+#. i18n: ectx: property (text), widget (QLabel, editLabelLabel)
+#: editorlocation.ui:140
+msgid "Edit Label:"
+msgstr "编辑标签："
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteAddressButton)
+#: editorlocation.ui:154
+msgid "Delete this address"
+msgstr "删除此地址"
+
+#. i18n: ectx: property (text), widget (QPushButton, internetPageButton)
+#: editormore.ui:26
+msgid "Internet"
+msgstr "互联网"
+
+#. i18n: ectx: property (text), widget (QPushButton, personalPageButton)
+#: editormore.ui:33
+msgid "Personal"
+msgstr "个人"
+
+#. i18n: ectx: property (text), widget (QPushButton, customFieldsPageButton)
+#: editormore.ui:40
+msgid "Custom Fields"
+msgstr "自定义字段"
+
+#. i18n: ectx: property (text), widget (QCheckBox, inCategories)
+#. i18n: ectx: property (text), widget (QPushButton, categoriesPageButton)
+#: editormore.ui:47 searchwidget.ui:81
+msgid "Categories"
+msgstr "分类"
+
+#. i18n: ectx: property (text), widget (QLabel, categoriesLabel)
+#: editormore_categoriespage.ui:20
+msgid "Categories:"
+msgstr "分类："
+
+#. i18n: ectx: property (text), widget (QToolButton, categoriesButton)
+#: editormore_categoriespage.ui:52
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QPushButton, addCustomFieldButton)
+#: editormore_customfieldspage.ui:22
+msgid "Add new custom field"
+msgstr "添加新自定义字段"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: editormore_internetpage.ui:17
+msgid "Homepage:"
+msgstr "主页："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: editormore_internetpage.ui:47
+msgid "Blog:"
+msgstr "博客："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: editormore_internetpage.ui:77
+msgid "Messaging:"
+msgstr "消息："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: editormore_namepage.ui:17
+msgid "Nickname:"
+msgstr "昵名："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: editormore_namepage.ui:47
+msgid "Name parts:"
+msgstr "姓名部分："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: editormore_namepage.ui:77
+msgid "Display name as:"
+msgstr "显示名："
+
+#. i18n: ectx: property (text), widget (QLabel, pronunciationTitle)
+#: editormore_namepage.ui:107
+msgid "Pronunciation:"
+msgstr "读音："
+
+#. i18n: ectx: property (text), widget (QLabel, pronunciationLabel)
+#: editormore_namepage.ui:132
+msgid "<a href=\"play://name\">Listen to Name</a>"
+msgstr "<a href=\"play://name\">读出名字</a>"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: editormore_personalpage.ui:17
+msgid "Birthday:"
+msgstr "生日："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: editormore_personalpage.ui:47
+msgid "Anniversary (Wedding):"
+msgstr "纪念日(如结婚纪念日)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: editormore_personalpage.ui:77
+msgid "Partner's name:"
+msgstr "搭档姓名："
+
+#: imagewidget.cpp:84
+msgid "This contact's image cannot be found."
+msgstr "找不到联系人图像。"
+
+#: imagewidget.cpp:156
+msgid "The photo of the contact (click to change)"
+msgstr "联系人照片(点击可更改)"
+
+#: imagewidget.cpp:158
+msgid "The logo of the company (click to change)"
+msgstr "公司徽标(点击可更改)"
+
+#: imagewidget.cpp:262
+msgid "Change photo..."
+msgstr "更改照片..."
+
+#: imagewidget.cpp:265
+msgid "Save photo..."
+msgstr "保存照片..."
+
+#: imagewidget.cpp:268
+msgid "Remove photo"
+msgstr "删除照片"
+
+#: imagewidget.cpp:272
+msgid "Change logo..."
+msgstr "更改徽标..."
+
+#: imagewidget.cpp:275
+msgid "Save logo..."
+msgstr "保存徽标..."
+
+#: imagewidget.cpp:278
+msgid "Remove logo"
+msgstr "删除徽标"
+
+#: kaddressbook-mobile.qml:165
+#, kde-format
+msgctxt ""
+"%1 is e.g. 3 address books, %2 is e.g. from 2 accounts, %3 is e.g. 9 contacts"
+msgid ""
+"You have selected \n"
+"%1\n"
+"%2\n"
+"%3"
+msgstr ""
+"您选择了\n"
+"%1\n"
+"%2\n"
+"%3"
+
+#: kaddressbook-mobile.qml:166
+#, kde-format
+msgid "1 address book"
+msgid_plural "%1 address books"
+msgstr[0] "地址簿 %1"
+
+#: kaddressbook-mobile.qml:167
+#, kde-format
+msgid "from 1 account"
+msgid_plural "from %1 accounts"
+msgstr[0] "从 %1 帐户"
+
+#: kaddressbook-mobile.qml:168
+#, kde-format
+msgid "1 contact"
+msgid_plural "%1 contacts"
+msgstr[0] "%1 联系人"
+
+#: kaddressbook-mobile.qml:186
+msgid "Select"
+msgstr "选择"
+
+#: kaddressbook-mobile.qml:186
+msgid "Change Selection"
+msgstr "更改选择范围"
+
+#: kaddressbook-mobile.qml:213 mainview.cpp:318
+msgid "New Contact"
+msgstr "新建联系人"
+
+#: kaddressbook-mobile.qml:221
+msgid "New Contact Group"
+msgstr "新建联系人组"
+
+#: kaddressbook-mobile.qml:240
+msgid "No contacts in this address book"
+msgstr "此地址簿中没有联系人"
+
+#: kaddressbook-mobile.qml:309
+msgid "Actions"
+msgstr "动作"
+
+#: kaddressbook-mobile.qml:407
+#, kde-format
+msgid "One contact found"
+msgid_plural "%1 contacts found"
+msgstr[0] "找到 %1 联系人"
+
+#: KAddressBookActions.qml:38
+msgid "Home"
+msgstr "主页"
+
+#: KAddressBookActions.qml:40
+msgid "Select Multiple Address Books"
+msgstr "选择多个地址簿"
+
+#: KAddressBookActions.qml:50
+msgid "Accounts"
+msgstr "帐户"
+
+#: KAddressBookActions.qml:58
+msgid "Account"
+msgstr "帐户"
+
+#: KAddressBookActions.qml:68
+msgid "Folder"
+msgstr "目录"
+
+#: KAddressBookActions.qml:87 KAddressBookActions.qml:103
+msgid "View"
+msgstr "查看"
+
+#: KAddressBookActions.qml:88 KAddressBookActions.qml:104
+msgid "Add View As Favorite"
+msgstr "保存到收藏夹"
+
+#: KAddressBookActions.qml:89 KAddressBookActions.qml:106
+msgid "Switch To Editing Mode"
+msgstr "切换到编辑模式"
+
+#: KAddressBookActions.qml:95
+msgid "Folders"
+msgstr "目录"
+
+#: KAddressBookActions.qml:105
+msgid "Select Address Books"
+msgstr "选择地址簿"
+
+#: KAddressBookActions.qml:129 mainview.cpp:85
+msgid "Contacts"
+msgstr "联系人"
+
+#: KAddressBookActions.qml:135
+msgid "Configure Contacts"
+msgstr "配置联系人"
+
+#: mainview.cpp:95
+msgid "Export Contacts From This Account"
+msgstr "从该帐户中导出联系人"
+
+#: mainview.cpp:99
+msgid "Export Displayed Contacts"
+msgstr "导出显示的联系人"
+
+#: mainview.cpp:103
+msgid "Export Contact"
+msgstr "导出联系人"
+
+#: mainview.cpp:107
+msgid "Send mail to"
+msgstr "发送邮件到"
+
+#: mainview.cpp:112
+msgid "Search in LDAP directory"
+msgstr "在 LDAP 目录中搜索"
+
+#: mainview.cpp:116
+msgid "Configure Categories"
+msgstr "配置分类"
+
+#: mainview.cpp:310
+msgid "New Sub Address Book"
+msgstr "新建子地址簿"
+
+#: mainview.cpp:312
+msgid "Synchronize This Address Book"
+msgid_plural "Synchronize These Address Books"
+msgstr[0] "同步这些地址簿"
+
+#: mainview.cpp:313
+msgid "Address Book Properties"
+msgstr "地址簿属性"
+
+#: mainview.cpp:314
+msgid "Delete Address Book"
+msgid_plural "Delete Address Books"
+msgstr[0] "删除地址簿"
+
+#: mainview.cpp:315
+msgid "Move Address Book To"
+msgstr "移动地址簿到"
+
+#: mainview.cpp:316
+msgid "Copy Address Book To"
+msgstr "复制地址簿到"
+
+#: mainview.cpp:319
+msgid "New Group Of Contacts"
+msgstr "新建联系人组"
+
+#: mainview.cpp:320 mainview.cpp:342
+msgid "Edit Contact"
+msgstr "编辑联系人"
+
+#: mainview.cpp:321 mainview.cpp:340
+msgid "Delete Contact"
+msgid_plural "Delete Contacts"
+msgstr[0] "删除联系人"
+
+#: mainview.cpp:322 mainview.cpp:341
+msgid "Move Contact To"
+msgstr "移动联系人到"
+
+#: mainview.cpp:323 mainview.cpp:339
+msgid "Copy Contact To"
+msgstr "复制联系人到"
+
+#: mainview.cpp:325
+msgid "Synchronize All Accounts"
+msgstr "同步所有联系人"
+
+#: mainview.cpp:338
+#, kde-format
+msgid "Copy Contact"
+msgid_plural "Copy %1 Contacts"
+msgstr[0] "复制 %1 联系人"
+
+#: mainview.cpp:344
+#, kde-format
+msgid "Copy Group Of Contacts"
+msgid_plural "Copy %1 Groups Of Contacts"
+msgstr[0] "复制 %1 联系人组"
+
+#: mainview.cpp:345
+msgid "Copy Group Of Contacts To"
+msgstr "复制联系人组到"
+
+#: mainview.cpp:346
+#, kde-format
+msgid "Delete Group Of Contacts"
+msgid_plural "Delete %1 Groups Of Contacts"
+msgstr[0] "删除 %1 联系人组"
+
+#: mainview.cpp:347
+msgid "Move Group Of Contacts To"
+msgstr "移动联系人组到"
+
+#: mainview.cpp:348
+msgid "Edit Group Of Contacts"
+msgstr "编辑联系人组"
+
+#: mainview.cpp:357
+msgctxt "@title:window"
+msgid "New Account"
+msgstr "新建帐户"
+
+#: mainview.cpp:359
+#, kde-format
+msgid "Could not create account: %1"
+msgstr "无法创建帐户：%1"
+
+#: mainview.cpp:361
+msgid "Account creation failed"
+msgstr "创建帐户失败"
+
+#: mainview.cpp:364
+msgctxt "@title:window"
+msgid "Delete Account?"
+msgstr "删除帐户？"
+
+#: mainview.cpp:366
+msgid "Do you really want to delete the selected account?"
+msgstr "您真的想要删除已选择的帐户吗？"
+
+#: namepartseditwidget.cpp:52
+msgid "Honorific prefixes:"
+msgstr "敬语前缀："
+
+#: namepartseditwidget.cpp:53
+msgid "Given name:"
+msgstr "教名："
+
+#: namepartseditwidget.cpp:54
+msgid "Additional names:"
+msgstr "曾用名："
+
+#: namepartseditwidget.cpp:55
+msgid "Family names:"
+msgstr "姓："
+
+#: namepartseditwidget.cpp:56
+msgid "Honorific suffixes:"
+msgstr "敬语后缀："
+
+#: namepartseditwidget.cpp:60
+msgid "Dr."
+msgstr "博士"
+
+#: namepartseditwidget.cpp:61
+msgid "Miss"
+msgstr "小姐"
+
+#: namepartseditwidget.cpp:62
+msgid "Mr."
+msgstr "先生"
+
+#: namepartseditwidget.cpp:63
+msgid "Mrs."
+msgstr "夫人"
+
+#: namepartseditwidget.cpp:64
+msgid "Ms."
+msgstr "女士"
+
+#: namepartseditwidget.cpp:65
+msgid "Prof."
+msgstr "教授"
+
+#: namepartseditwidget.cpp:70
+msgid "I"
+msgstr "I"
+
+#: namepartseditwidget.cpp:71
+msgid "II"
+msgstr "II"
+
+#: namepartseditwidget.cpp:72
+msgid "III"
+msgstr "III"
+
+#: namepartseditwidget.cpp:73
+msgid "Jr."
+msgstr "小"
+
+#: namepartseditwidget.cpp:74
+msgid "Sr."
+msgstr "老"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: searchwidget.ui:17
+msgid "Search for:"
+msgstr "搜索："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: searchwidget.ui:31
+msgid "In:"
+msgstr "在："
+
+#. i18n: ectx: property (text), widget (QCheckBox, inNames)
+#: searchwidget.ui:53
+msgid "Names"
+msgstr "姓名"
+
+#. i18n: ectx: property (text), widget (QCheckBox, inEmailAddresses)
+#: searchwidget.ui:60
+msgid "Email Addresses"
+msgstr "电子邮件地址"
+
+#. i18n: ectx: property (text), widget (QCheckBox, inPostalAddresses)
+#: searchwidget.ui:67
+msgid "Postal Addresses"
+msgstr "邮政编码"
+
+#. i18n: ectx: property (text), widget (QCheckBox, inPhoneNumbers)
+#: searchwidget.ui:74
+msgid "Phone Numbers"
+msgstr "电话号码"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: searchwidget.ui:91
+msgid "Located in:"
+msgstr "位于"
+
+#. i18n: ectx: property (text), widget (QRadioButton, locatedInAnyCollection)
+#: searchwidget.ui:113
+msgid "any folder"
+msgstr "任何目录"
+
+#. i18n: ectx: property (text), widget (QRadioButton, locatedInSpecificCollection)
+#: searchwidget.ui:123
+msgid "only in folder"
+msgstr "仅目录内"
+
+#~ msgid "Search For Contacts"
+#~ msgstr "搜索联系人"
+
+#, fuzzy
+#~| msgid "New Contact"
+#~ msgid "KDE Contacts"
+#~ msgstr "新建联系人"
+
+#~ msgid "KAddressBook Mobile"
+#~ msgstr "手机地址簿"
+
+#, fuzzy
+#~| msgid "New Contact"
+#~ msgid "Contact"
+#~ msgstr "新建联系人"
+
+#, fuzzy
+#~| msgid "Form"
+#~ msgid "Form"
+#~ msgstr "表单"
+
+#, fuzzy
+#~| msgid "Delete Address"
+#~ msgid "Select Addressbooks"
+#~ msgstr "删除地址"
+
+#, fuzzy
+#~| msgid "New Address Book"
+#~ msgid "Configure Addressbook"
+#~ msgstr "新建地址簿"
+
+#, fuzzy
+#~| msgid "New Contact"
+#~ msgid "Edit account"
+#~ msgstr "新建联系人"
+
+#, fuzzy
+#~| msgid "Delete Address"
+#~ msgid "Delete folder"
+#~ msgid_plural "Delete folders"
+#~ msgstr[0] "删除地址"
+
+#, fuzzy
+#~| msgid "Delete Address"
+#~ msgid "Select Folders"
+#~ msgstr "删除地址"
+
+#~ msgid "Save"
+#~ msgstr "保存"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"play://name"
+#~ "\"><span style=\" text-decoration: underline; color:#0057ae;\">Listen to "
+#~ "Name</span></a></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#~ "REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Sans Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><a href=\"play://name"
+#~ "\"><span style=\" text-decoration: underline; color:#0057ae;\">聆听姓名读"
+#~ "音</span></a></p></body></html>"
+
+#, fuzzy
+#~| msgid "New Address Book"
+#~ msgid "KAddressBook"
+#~ msgstr "新建地址簿"
+
+#, fuzzy
+#~| msgid "New Address Book"
+#~ msgid "Add Address Book"
+#~ msgstr "新建地址簿"
+
+#, fuzzy
+#~| msgid "New Address Book"
+#~ msgctxt "@title:window"
+#~ msgid "New Address Book"
+#~ msgstr "新建地址簿"
+
+#, fuzzy
+#~| msgid "New Address Book"
+#~ msgid "Address Books"
+#~ msgstr "新建地址簿"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Select..."
+#~ msgstr "选择"
+
+#~ msgid "New Group"
+#~ msgstr "新建组"

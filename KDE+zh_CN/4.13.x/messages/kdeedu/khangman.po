@@ -1,0 +1,754 @@
+# translation of khangman.po to
+# Copyright (C) 2003, 2007 Free Software Foundation, Inc.
+#
+# Wu XiaoGuang <woohsiaokuang@yahoo.com.cn>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Yan Shuangchun <yahzee@d3eye.com>, 2003.
+# yuanjiayj <yuanjiayj@gmail.com>, 2007.
+# Lie Ex <lilith.ex@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: khangman\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-10-18 04:29+0200\n"
+"PO-Revision-Date: 2009-12-29 14:41+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: tag theme attribute uiname
+#: ../../themes/standardthemes.xml:4
+msgid "Sea Theme"
+msgstr "海洋主题"
+
+#. i18n: tag theme attribute uiname
+#: ../../themes/standardthemes.xml:20
+#, fuzzy
+#| msgid "Sea Theme"
+msgid "Winter Theme"
+msgstr "海洋主题"
+
+#. i18n: tag theme attribute uiname
+#: ../../themes/standardthemes.xml:36
+#, fuzzy
+#| msgid "Sea Theme"
+msgid "Bee Theme"
+msgstr "海洋主题"
+
+#. i18n: tag theme attribute uiname
+#: ../../themes/standardthemes.xml:52
+msgid "Desert Theme"
+msgstr "沙漠主题"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox6)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: advanced.ui:36 languageui.ui:19
+msgid "Spanish, Portuguese, Catalan"
+msgstr "西班牙语，葡萄牙语，加泰罗尼亚语"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccentedLetters)
+#: advanced.ui:48
+msgid "Type accented &letters"
+msgstr "输入重音字母(&L)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AccentedLetters)
+#: advanced.ui:51 languageui.ui:25
+msgid ""
+"If this is checked, you have to type accented letters yourself (i.e. they "
+"are differentiated from the corresponding unaccented letter)."
+msgstr "如果勾选此项，您就必须自己输入重音字母（它们与其它非重音字母是不同的）"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AccentedLetters)
+#: advanced.ui:55 languageui.ui:29
+msgid ""
+"If this is <b>disabled</b>, the selected language does not support it. If "
+"this is <b>enabled</b> and if you check it, then you should type accented "
+"letters on their own. If it is not checked, accented letters will be "
+"displayed with normal letters (default).<br>\n"
+"For example, in Catalan, if this is unchecked and you type \"o\", the o and "
+"ò will be displayed in the word <b>xenofòbia</b>. If this option is checked, "
+"when you type \"o\", only \"o\" will be displayed and you will have to type "
+"\"ò\" for this letter to be displayed."
+msgstr ""
+"如果此选项失效的话，就表示您所选的语言不被支持。如果此选项可用，而您又勾选了"
+"它，那么您就必须输入其重音字母。如果您没有勾选此项，重音字母将与一般字母一样"
+"显示（默认）。\n"
+"例如，在加泰罗尼亚语中，如果它没有被选中的话，当单词为<b>xenofòbia</b>时，字"
+"母“o”将显示出来。而如果它被选中的话，只有当您输入\"o\"时，\"o\"才会被显示出"
+"来。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
+#: advanced.ui:73
+msgid "German"
+msgstr "德语"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UpperCase)
+#: advanced.ui:85
+msgid "Play in upper case letters"
+msgstr "全部以大写字母显示"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_UpperCase)
+#: advanced.ui:88
+msgid "If checked, the word will be displayed all in upper case letters"
+msgstr "如果勾选，单词将都以大写字母显示"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UpperCase)
+#: advanced.ui:92
+msgid ""
+"If this is checked, the word will be displayed in upper case letters, even "
+"if you enter them in lower case. If this is unchecked (default), the word "
+"will be in lower case.<br>\n"
+"This setting is currently only available for the German language."
+msgstr ""
+"如果被勾选的话，单词都将以大写字母显示，即使您输入小写字母输入它也会以大写字"
+"母显示。如果它没被勾选，单词则都将以小写字母显示。<br>\n"
+"此设定项目前只对德语有效。"
+
+#: data.i18n:2
+msgctxt "NOTE_TO_THE_TRANSLATORS"
+msgid ""
+"The translators have the opportunity to translate the\n"
+"words in the game.\n"
+"See the file README.languages in khangman's source directory\n"
+"for more information on how to do that.\n"
+"(translate this message as \"DONE\" when you have translated\n"
+"the words; otherwise leave it untranslated as a reminder)"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QWidget, generalui)
+#: generalui.ui:14
+msgid "Here you can choose settings for all languages."
+msgstr "您可以在此处配置针对所有语言的设定项。"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_OneLetter)
+#. i18n: ectx: label, entry (OneLetter), group (General)
+#: generalui.ui:22 khangman.kcfg:44
+msgid ""
+"Check this if you do not want to discover each instance of the same letter."
+msgstr "如果您想要注意每个相同的字母的出现的话，请勾选此项。"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_OneLetter)
+#: generalui.ui:28
+msgid ""
+"If you check this box, only the first letter will be written if the letter "
+"is found in several places in the word. Then you have to rechoose the same "
+"letter, to replace the second instance in the word until there are no more "
+"instances of this letter.\n"
+"For example, the word to guess is \"potato\". If this option is unchecked, "
+"when you try \"o\", the two instances of \"o\" in the word will be "
+"discovered at the same time. If this is checked, you will need to try \"o\" "
+"twice.\n"
+"\n"
+"Default is that for one letter typed, all instances of that letter in the "
+"word are discovered."
+msgstr ""
+"如果您勾选了此项，若在单词中多处出现某字母的话，只有第一个字母会出现。到了下"
+"一处（有相同字母的话），您也只能通过输入才能令它出现。\n"
+"例如，要猜的单词是“potato”。如果您没有勾选该选项，那么当您输入“o”时，这两个位"
+"置上的“o”字母都会显示出来。而您要是勾选了该选项，那么您必须重复输入它们两次"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_OneLetter)
+#: generalui.ui:31
+msgid "Require more guesses for duplicate letters"
+msgstr "重复的字母需要进行多次的猜测"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableAnimations)
+#: generalui.ui:38
+msgid "Enable animations"
+msgstr "启用动画"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Hint)
+#: generalui.ui:45
+msgid "Enable hints globally"
+msgstr "全局启用提示"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: generalui.ui:52
+msgid "Sounds"
+msgstr "声音"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Sound)
+#. i18n: ectx: label, entry (Sound), group (General)
+#: generalui.ui:58 khangman.kcfg:52
+msgid "If checked, sounds will be played for New Game and Win Game"
+msgstr "在开始游戏和赢得游戏时启用音效"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Sound)
+#: generalui.ui:62
+msgid ""
+"If this box is checked, you will have some sounds played for each new game "
+"and when you win a game. If this is not checked, there will be no sound in "
+"KHangMan.\n"
+"Default is no sound."
+msgstr ""
+"如果此处勾选，您将在每次游戏开始或当您赢得游戏时播放声音。如果此处没有被勾"
+"选，则在KHangMan中将不会有声音。\n"
+"默认无声。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Sound)
+#: generalui.ui:65
+msgid "Enable sounds"
+msgstr "启用声音"
+
+#: khangman.cpp:97
+msgid "Play with a new word"
+msgstr "重新开始游戏"
+
+#: khangman.cpp:100
+msgid "Opens an existing vocabulary document"
+msgstr "打开已有的词汇文档"
+
+#: khangman.cpp:103
+msgid "&Show Hint"
+msgstr "显示提示(&S)"
+
+#: khangman.cpp:104
+msgid "Show/Hide the hint to help guessing the word"
+msgstr "显示/隐藏帮助猜单词的提示"
+
+#: khangman.cpp:112
+msgid "&Get Words in New Language..."
+msgstr "获得新语言的数据(&G)..."
+
+#: khangman.cpp:120
+msgid "&Category"
+msgstr "类别(&C)"
+
+#: khangman.cpp:123
+msgid "Choose the category"
+msgstr "选择类别"
+
+#: khangman.cpp:124
+msgid "Choose the category of words"
+msgstr "选择单词类别"
+
+#: khangman.cpp:127
+msgid "&Language"
+msgstr "语言(&L)"
+
+#: khangman.cpp:132 khangman.cpp:133
+msgid "Choose the language"
+msgstr "选择语言"
+
+#: khangman.cpp:138
+msgid "L&ook"
+msgstr "外观(&L)"
+
+#: khangman.cpp:144 khangman.cpp:145
+msgid "Choose the look and feel"
+msgstr "选择观感"
+
+#: khangman.cpp:150
+msgid "You can open last opened files"
+msgstr "您可以打开最后使用过的文件"
+
+#: khangman.cpp:253
+msgctxt "@item:inlistbox no language for that locale"
+msgid "None"
+msgstr "无"
+
+#: khangman.cpp:348
+msgid "General"
+msgstr "常规"
+
+#: khangman.cpp:353
+msgid "Languages"
+msgstr "语言"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: khangman.cpp:358 timerui.ui:19
+msgid "Timers"
+msgstr "计时"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccentedLetters)
+#: khangman.cpp:527 languageui.ui:32
+msgid "Type accented letters"
+msgstr "输入重音字母"
+
+#: khangman.cpp:555 khangmanview.cpp:725
+#, kde-format
+msgid "Losses: %1"
+msgstr "输局数：%1"
+
+#: khangman.cpp:566
+msgid "Open Vocabulary Document"
+msgstr "打开词汇文档"
+
+#. i18n: ectx: label, entry (CurrentLevel), group (Language)
+#: khangman.kcfg:10
+msgid "Level"
+msgstr "等级"
+
+#. i18n: ectx: label, entry (ShowCharToolbar), group (Language)
+#: khangman.kcfg:17
+msgid "Show the characters toolbar"
+msgstr "显示字母工具条"
+
+#. i18n: ectx: label, entry (SelectedLanguage), group (Language)
+#: khangman.kcfg:21
+msgid "The language selected by the user"
+msgstr "用户所选择的语言"
+
+#. i18n: ectx: label, entry (Mode), group (Look)
+#: khangman.kcfg:37
+msgid "Background theme"
+msgstr "背景主题"
+
+#. i18n: ectx: label, entry (EnableAnimations), group (General)
+#: khangman.kcfg:48
+msgid "Enable Animations"
+msgstr "启用动画"
+
+#. i18n: ectx: label, entry (Hint), group (General)
+#: khangman.kcfg:57
+msgid ""
+"If checked, hints will always been displayed. If this is not checked "
+"(default) \n"
+"            hints will be displayed only per word when the user chooses to "
+"show the hint."
+msgstr ""
+"如果启用此项，程序将总会显示提示信息，否则只当用户需要对某个单词给出提示时才"
+"显示(默认)。"
+
+#. i18n: ectx: label, entry (hintHideTime), group (General)
+#: khangman.kcfg:61
+msgid ""
+"This setting allows you to set in seconds how long KHangMan's hint bubble is "
+"shown."
+msgstr ""
+
+#. i18n: ectx: label, entry (resolveTime), group (General)
+#: khangman.kcfg:65
+msgid ""
+"This setting allows you to set in seconds how much time is available for "
+"resolving the word."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSlider, kcfg_MissedTimer)
+#. i18n: ectx: label, entry (MissedTimer), group (General)
+#: khangman.kcfg:69 timerui.ui:41
+msgid "Time during which the \"Already Guessed\" tooltip is displayed."
+msgstr "“已猜”帮助条的显示时间"
+
+#. i18n: ectx: label, entry (AccentedLetters), group (Advanced)
+#: khangman.kcfg:76
+msgid "Type accented letters separately from normal letters"
+msgstr "输入时区分重音字母和一般字母"
+
+#. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
+#: khangman.kcfg:83
+msgid "The Providers path for KHangMan"
+msgstr "KHangMan的提供者路径"
+
+#. i18n: ectx: Menu (file)
+#: khangmanui.rc:5
+msgid "&Game"
+msgstr "游戏(&G)"
+
+#. i18n: ectx: Menu (settings)
+#: khangmanui.rc:19
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: khangmanui.rc:30
+msgid "Main"
+msgstr "主要"
+
+#. i18n: ectx: ToolBar (specialCharToolBar)
+#: khangmanui.rc:38
+msgid "Special Characters"
+msgstr "特殊字符"
+
+#. i18n: ectx: ToolBar (themeToolBar)
+#: khangmanui.rc:41
+msgid "Look"
+msgstr "外观"
+
+#. i18n: ectx: ToolBar (languageToolBar)
+#: khangmanui.rc:45
+msgid "Language"
+msgstr "语言"
+
+#: khangmanview.cpp:73
+msgid "G&uess"
+msgstr "猜测(&U)"
+
+#: khangmanview.cpp:77
+msgid "&Play again"
+msgstr "再来一次(&P)"
+
+#: khangmanview.cpp:320
+msgid "Misses"
+msgstr "失误"
+
+#: khangmanview.cpp:351
+msgid "Hint"
+msgstr "提示"
+
+#: khangmanview.cpp:380
+#, kde-format
+msgid "You lost. The word was \"%1\"."
+msgstr "您输了。这个单词其实是 %1。"
+
+#: khangmanview.cpp:380
+msgid "Congratulations! You won!"
+msgstr "恭喜！您赢了！"
+
+#: khangmanview.cpp:509 main.cpp:38
+msgid "KHangMan"
+msgstr "KHangMan"
+
+#: khangmanview.cpp:509
+msgid "This letter has already been guessed."
+msgstr "该字母已经被猜过。"
+
+#: khangmanview.cpp:591
+#, kde-format
+msgid ""
+"File $KDEDIR/share/apps/kvtml/%1/%2 not found.\n"
+"Please check your installation."
+msgstr ""
+"找不到 $KDEDIR/share/apps/kvtml/%1/%2 文件！\n"
+"请检查您的安装！"
+
+#: khangmanview.cpp:595
+msgid "Error"
+msgstr "错误"
+
+#: khangmanview.cpp:724
+#, kde-format
+msgid "Wins: %1"
+msgstr "赢局数：%1"
+
+#. i18n: ectx: property (toolTip), widget (QWidget, languageui)
+#: languageui.ui:13
+msgid "Here you can choose special settings for some languages."
+msgstr "在此处您可以配置对某些语言的特殊设定"
+
+#: main.cpp:34
+msgid "Classical hangman game for KDE"
+msgstr "KDE中的古典绞刑吏游戏"
+
+#: main.cpp:40
+#, fuzzy
+#| msgid "(c) 2001-2009, Anne-Marie Mahfouf"
+msgid "(c) 2001-2011, Anne-Marie Mahfouf"
+msgstr "(c) 2001-2009，Anne-Marie Mahfouf"
+
+#: main.cpp:42
+msgid "Primoz Anzur"
+msgstr "Primoz Anzur"
+
+#: main.cpp:42
+msgid "Previous maintainer"
+msgstr "前任维护者"
+
+#: main.cpp:47
+msgid "Anne-Marie Mahfouf"
+msgstr "Anne-Marie Mahfouf"
+
+#: main.cpp:47
+msgid "Current maintainer, author"
+msgstr "当前维护者、作者"
+
+#: main.cpp:49
+msgid "Stefan Böhmann"
+msgstr "Stefan Böhmann"
+
+#: main.cpp:50 main.cpp:95 main.cpp:97 main.cpp:99
+msgid "Coding help"
+msgstr "编程帮助"
+
+#: main.cpp:51
+msgid "Stefan Asserhäll"
+msgstr "Stefan Asserh二世"
+
+#: main.cpp:52
+msgid "Swedish data files, coding help, transparent pictures and i18n fixes"
+msgstr "瑞典语数据文件，编程帮助，透明图片和 i18n 修正"
+
+#: main.cpp:54
+msgid "eXParTaKus"
+msgstr "eXParTaKus"
+
+#: main.cpp:55
+msgid "Spanish data files"
+msgstr "西班牙语数据文件"
+
+#: main.cpp:56
+msgid "Erik Kjær Pedersenn"
+msgstr "Erik Kjær Pedersenn"
+
+#: main.cpp:57
+msgid "Danish data files"
+msgstr "丹麦语数据文件"
+
+#: main.cpp:58
+msgid "Niko Lewman"
+msgstr "Niko Lewman"
+
+#: main.cpp:59
+msgid "Finnish data files"
+msgstr "芬兰语数据文件"
+
+#: main.cpp:60
+msgid "João Sebastião de Oliveira Bueno"
+msgstr "João Sebastião de Oliveira Bueno"
+
+#: main.cpp:61
+msgid "Brazilian Portuguese data files"
+msgstr "巴西葡萄牙语数据文件"
+
+#: main.cpp:62
+msgid "Antoni Bella"
+msgstr "Antoni Bella"
+
+#: main.cpp:63
+msgid "Catalan data files"
+msgstr "加泰罗尼亚语数据文件"
+
+#: main.cpp:64
+msgid "Giovanni Venturi"
+msgstr "Giovanni Venturi"
+
+#: main.cpp:65
+msgid "Italian data files"
+msgstr "意大利语数据文件"
+
+#: main.cpp:66
+msgid "Rinse"
+msgstr "Rinse"
+
+#: main.cpp:67
+msgid "Dutch data files"
+msgstr "荷兰语数据文件"
+
+#: main.cpp:68
+msgid "Lukáš Tinkl"
+msgstr "Lukáš Tinkl"
+
+#: main.cpp:69
+msgid "Czech data files"
+msgstr "捷克斯洛伐克语数据文件"
+
+#: main.cpp:70
+msgid "Kristóf Kiszel"
+msgstr ""
+
+#: main.cpp:71
+msgid "Hungarian data files"
+msgstr "匈牙利语数据文件"
+
+#: main.cpp:72
+msgid "Torger Åge Sinnes"
+msgstr "Torger Åge Sinnes"
+
+#: main.cpp:73
+msgid "Norwegian (Bokmål) data files"
+msgstr "挪威语数据文件"
+
+#: main.cpp:74
+msgid "Roger Kovacs"
+msgstr "Roger Kovacs"
+
+#: main.cpp:75
+msgid "Tajik data files"
+msgstr "塔吉克语数据文件"
+
+#: main.cpp:76
+msgid "Chusslove Illich"
+msgstr "Chusslove Illich"
+
+#: main.cpp:77
+msgid "Serbian (Cyrillic and Latin) data files"
+msgstr "塞尔维亚语数据文件"
+
+#: main.cpp:78
+msgid "Jure Repinc"
+msgstr "Jure Repinc"
+
+#: main.cpp:79
+msgid "Slovenian data files"
+msgstr "斯洛文尼亚语数据文件"
+
+#: main.cpp:80
+msgid "Pedro Morais"
+msgstr "Pedro Morais"
+
+#: main.cpp:81
+msgid "Portuguese data files"
+msgstr "葡萄牙语数据文件"
+
+#: main.cpp:82
+msgid "Gaute Hvoslef Kvalnes"
+msgstr "Gaute Hvoslef Kvalnes"
+
+#: main.cpp:83
+msgid "Norwegian (Nynorsk) data files"
+msgstr "挪威尼诺斯克语数据文件"
+
+#: main.cpp:84
+msgid "Mehmet Özel"
+msgstr "Mehmet Özel"
+
+#: main.cpp:85
+msgid "Turkish data files"
+msgstr "土尔其语数据文件"
+
+#: main.cpp:86
+msgid "Черепанов Андрей"
+msgstr "Черепанов Андрей"
+
+#: main.cpp:87
+msgid "Russian data files"
+msgstr "俄罗斯语数据文件"
+
+#: main.cpp:88
+msgid "Radostin Radnev"
+msgstr "Radostin Radnev"
+
+#: main.cpp:89
+msgid "Bulgarian data files"
+msgstr "保加利亚语数据文件"
+
+#: main.cpp:90
+msgid "Kevin Patrick Scannell"
+msgstr "Kevin Patrick Scannell"
+
+#: main.cpp:91
+msgid "Irish (Gaelic) data files"
+msgstr "爱尔兰盖尔语数据文件"
+
+#: main.cpp:92
+msgid "Matt Howe"
+msgstr "Matt Howe"
+
+#: main.cpp:93
+msgid "Softer Hangman Pictures"
+msgstr "Softer Hangman 图片"
+
+#: main.cpp:94
+msgid "Benjamin Meyer"
+msgstr "Benjamin Meyer"
+
+#: main.cpp:96
+msgid "Robert Gogolok"
+msgstr "Robert Gogolok"
+
+#: main.cpp:98
+msgid "Lubos Lunàk"
+msgstr "Lubos Lunàk"
+
+#: main.cpp:100
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#: main.cpp:101
+msgid "Coding help, fixed a lot of things"
+msgstr "编程帮助，并解决了大量问题"
+
+#: main.cpp:102
+msgid "Peter Hedlund"
+msgstr "Peter Hedlund"
+
+#: main.cpp:103
+msgid "Code for generating icons for the characters toolbar"
+msgstr "字符工具条产生图标的代码"
+
+#: main.cpp:104
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#: main.cpp:105
+msgid "Code cleaning"
+msgstr "代码清理"
+
+#: timer.cpp:37 timer.cpp:45
+#, kde-format
+msgid "1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 秒钟"
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox)
+#: timerui.ui:16
+msgid ""
+"Here you can set the display times for hints and the \"Already Guessed\" "
+"tooltip."
+msgstr "在此处您可以设定提示和“已猜字母”工具贴士的显示时间。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: timerui.ui:34
+msgid "Time for displaying the <b>Already Guessed Letter</b> tooltip:"
+msgstr "<b>已猜字母</b>帮助条的显示时间："
+
+#. i18n: ectx: property (whatsThis), widget (QSlider, kcfg_MissedTimer)
+#: timerui.ui:44
+msgid ""
+"You can set the time for displaying the \"Already Guessed\" tooltip after "
+"you tried a letter that was already guessed. Default is 1 second but younger "
+"children might need longer time to be able to understand they are trying a "
+"letter that was already guessed."
+msgstr ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
+"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\">您可以设定显示“已猜字母”工具贴士的显示时间。默认"
+"为1秒钟，但小孩子需要更长的时间以别理解到他们正在尝试的字母已被猜过了。</p></"
+"body></html>"
+
+#~ msgid "Tamas Szanto"
+#~ msgstr "Tamas Szanto"
+
+#~ msgid ""
+#~ "File '%1' not found.\n"
+#~ "Please reinstall '%2'. Going back to English."
+#~ msgstr ""
+#~ "%1 文件没有找到。\n"
+#~ "请重新安装 %2。将回到英语界面下！"
+
+#~ msgid "Local file"
+#~ msgstr "本地文件"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\">Time for displaying the <span style=\" font-"
+#~ "weight:600;\">Already Guessed Letter</span> tooltip:</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\">设定显示 <span style=\" font-weight:600;"
+#~ "\">“已猜字母”</span> 工具贴士的时间：</p></body></html>"
+
+#~ msgid "Theme"
+#~ msgstr "主题"
+
+#~ msgid "NOTE_TO_THE_TRANSLATORS"
+#~ msgstr "对译者的提醒"
+
+#~ msgid "Allow Only One Instance of Each Letter to be replaced in the word"
+#~ msgstr "单词中的每只字母都只允许猜一次"
+
+#~ msgid "Enable Sounds on New Game and Win Game"
+#~ msgstr "在开始游戏和赢得游戏时启用音效"
+
+#~ msgid "the time to display the Missed KPassivePopup, in seconds"
+#~ msgstr "显示Missed KPassivePopup的时间(秒)"

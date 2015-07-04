@@ -1,0 +1,939 @@
+# translation of libtemplateparser.po to 简体中文
+# Note and phrase to further translation:
+# Copyright (C) 2002,2003, 2004, 2009 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Levin Du <zsdjw@21cn.com>, 2004.
+# Funda Wang <fundawang@linux.net.cn>, 2002,2003,2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: libtemplateparser\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-18 01:33+0000\n"
+"PO-Revision-Date: 2010-07-25 18:11+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.1\n"
+
+#: customtemplates.cpp:93 customtemplates.cpp:142
+msgctxt "Message->"
+msgid "Universal"
+msgstr "通用"
+
+#: customtemplates.cpp:94 customtemplates.cpp:148
+msgctxt "Message->"
+msgid "Reply"
+msgstr "回复"
+
+#: customtemplates.cpp:95 customtemplates.cpp:151
+msgctxt "Message->"
+msgid "Reply to All"
+msgstr "全部回复"
+
+#: customtemplates.cpp:96 customtemplates.cpp:154
+msgctxt "Message->"
+msgid "Forward"
+msgstr "转发"
+
+#: customtemplates.cpp:98 templatesconfiguration.cpp:78
+msgid "<a href=\"whatsthis\">How does this work?</a>"
+msgstr "<a href=\"whatsthis\">工作方式解释</a>"
+
+#: customtemplates.cpp:108
+#, fuzzy
+#| msgid ""
+#| "<qt><p>Here you can add, edit, and delete custom message templates to use "
+#| "when you compose a reply or forwarding message. Create the custom "
+#| "template by selecting it using the right mouse  button menu or toolbar "
+#| "menu. Also, you can bind a keyboard combination to the template for "
+#| "faster operations.</p><p>Message templates support substitution commands, "
+#| "by simply typing them or selecting them from the <i>Insert command</i> "
+#| "menu.</p><p>There are four types of custom templates: used to <i>Reply</"
+#| "i>, <i>Reply to All</i>, <i>Forward</i>, and <i>Universal</i> which can "
+#| "be used for all kinds of operations. You cannot bind a keyboard shortcut "
+#| "to <i>Universal</i> templates.</p></qt>"
+msgid ""
+"<qt><p>Here you can add, edit, and delete custom message templates to use "
+"when you compose a reply or forwarding message. Create the custom template "
+"by typing the name into the input box and press the '+' button. Also, you "
+"can bind a keyboard combination to the template for faster operations.</"
+"p><p>Message templates support substitution commands, by simply typing them "
+"or selecting them from the <i>Insert command</i> menu.</p><p>There are four "
+"types of custom templates: used to <i>Reply</i>, <i>Reply to All</i>, "
+"<i>Forward</i>, and <i>Universal</i> which can be used for all kinds of "
+"operations. You cannot bind a keyboard shortcut to <i>Universal</i> "
+"templates.</p></qt>"
+msgstr ""
+"<qt><p>您可以在这里添加、编辑和删除自定义邮件模板，以便在撰写回复或转发信件时"
+"使用。要创建自定义模板，请右键选中它或使用工具栏菜单。另外，为快捷操作考虑，"
+"您也可以绑定键盘组合键到任一模板上。</p><p>邮件模板支持替换命令，您可以简单地"
+"直接输入它们或在<i>插入命令</i>菜单下操作。</p><p>自定义模板共有四类：<i>回复"
+"模板</i>、<i>全部回复模板</i>、<i>转发模板</i>以及适用各种场合的<i>通用模板</"
+"i>。注意您不能对<i>通用模板</i>绑定键盘快捷键。</p></qt>"
+
+#: customtemplates.cpp:157
+msgctxt "Message->"
+msgid "Unknown"
+msgstr "未知"
+
+#: customtemplates.cpp:275
+msgid "A template with same name already exists."
+msgstr ""
+
+#: customtemplates.cpp:276
+#, fuzzy
+#| msgid "(no custom templates)"
+msgid "Cannot create template"
+msgstr "(无自定义模板)"
+
+#: customtemplates.cpp:379
+#, kde-format
+msgctxt "@info"
+msgid "Do you really want to remove template \"%1\"?"
+msgstr ""
+
+#: customtemplates.cpp:380
+msgctxt "@title:window"
+msgid "Remove Template?"
+msgstr ""
+
+#: customtemplatesmenu.cpp:39
+msgid "With Custom Template"
+msgstr "使用自定义模板"
+
+#: customtemplatesmenu.cpp:43
+msgid "Reply With Custom Template"
+msgstr "用自定义模板回复"
+
+#: customtemplatesmenu.cpp:47
+msgid "Reply to All With Custom Template"
+msgstr "用自定义模板全部回复"
+
+#: customtemplatesmenu.cpp:179 customtemplatesmenu.cpp:185
+#: customtemplatesmenu.cpp:191
+msgid "(no custom templates)"
+msgstr "(无自定义模板)"
+
+#: defaulttemplates.cpp:29
+msgid "Default new message template"
+msgstr "默认新建信件模板"
+
+#: defaulttemplates.cpp:35
+msgid "Default reply template"
+msgstr "默认回复模板"
+
+#: defaulttemplates.cpp:39
+#, kde-format
+msgctxt ""
+"Default reply template.%1: date of original message, %2: time of original "
+"message, %3: quoted text of original message, %4: cursor Position"
+msgid ""
+"On %1 %2 you wrote:\n"
+"%3\n"
+"%4"
+msgstr ""
+"在 %1 %2，您写道：\n"
+"%3\n"
+"%4"
+
+#: defaulttemplates.cpp:47
+msgid "Default reply all template"
+msgstr "默认全部回复模板"
+
+#: defaulttemplates.cpp:50
+#, kde-format
+msgctxt ""
+"Default reply all template: %1: date, %2: time, %3: name of original sender, "
+"%4: quoted text of original message, %5: cursor position"
+msgid ""
+"On %1 %2 %3 wrote:\n"
+"%4\n"
+"%5"
+msgstr ""
+"在 %1 %2，%3 写道：\n"
+"%4\n"
+"%5"
+
+#: defaulttemplates.cpp:59
+msgid "Default forward template"
+msgstr "默认转发模板"
+
+#: defaulttemplates.cpp:65
+#, kde-format
+msgctxt ""
+"Default forward template: %1: subject of original message, %2: date of "
+"original message, %3: time of original message, %4: mail address of original "
+"sender, %5: original message text"
+msgid ""
+"\n"
+"----------  Forwarded Message  ----------\n"
+"\n"
+"Subject: %1\n"
+"Date: %2, %3\n"
+"From: %4\n"
+"%OADDRESSEESADDR\n"
+"\n"
+"%5\n"
+"-----------------------------------------"
+msgstr ""
+"\n"
+"----------  转发的信件  ----------\n"
+"\n"
+"主题：%1\n"
+"日期：%2\n"
+"发件人：%3\n"
+"收件人：%4\n"
+"%OADDRESSEESADDR\n"
+"\n"
+"%5\n"
+"-------------------------------------------------------"
+
+#. i18n: ectx: label, entry (Content), group (CTemplates #$(name))
+#: settings/customtemplates_kfg.kcfg:13
+msgid "Template content"
+msgstr "模板内容"
+
+#. i18n: ectx: label, entry (Shortcut), group (CTemplates #$(name))
+#: settings/customtemplates_kfg.kcfg:17
+msgid "Template shortcut"
+msgstr "模板快捷键"
+
+#. i18n: ectx: label, entry (Type), group (CTemplates #$(name))
+#: settings/customtemplates_kfg.kcfg:21
+msgid "Template type"
+msgstr "模板类型"
+
+#. i18n: ectx: label, entry (StripSignature), group (TemplateParser)
+#: settings/templateparser.kcfg:12
+msgid "Remove the signature when replying"
+msgstr "回复时删除签名"
+
+#. i18n: ectx: label, entry (SmartQuote), group (TemplateParser)
+#: settings/templateparser.kcfg:16
+msgid "Use smart &quoting"
+msgstr "使用智能引用(&Q)"
+
+#. i18n: ectx: label, entry (ReplyUsingHtml), group (TemplateParser)
+#: settings/templateparser.kcfg:20
+msgid "Reply or forward using HTML if present"
+msgstr ""
+
+#. i18n: ectx: label, entry (TemplateNewMessage), group (TemplateParser)
+#: settings/templateparser.kcfg:27
+msgid "Message template for new message"
+msgstr "新信件模板"
+
+#. i18n: ectx: label, entry (TemplateReply), group (TemplateParser)
+#: settings/templateparser.kcfg:31
+msgid "Message template for reply"
+msgstr "回复信件模板"
+
+#. i18n: ectx: label, entry (TemplateReplyAll), group (TemplateParser)
+#: settings/templateparser.kcfg:35
+msgid "Message template for reply to all"
+msgstr "回复全部信件模板"
+
+#. i18n: ectx: label, entry (TemplateForward), group (TemplateParser)
+#: settings/templateparser.kcfg:39
+msgid "Message template for forward"
+msgstr "转发信件模板"
+
+#. i18n: ectx: label, entry (QuoteString), group (TemplateParser)
+#: settings/templateparser.kcfg:43
+msgid "Quote characters"
+msgstr "引用字符"
+
+#: templateparser.cpp:339 templateparser.cpp:378
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Cannot insert content from file %1: %2"
+msgctxt "@info"
+msgid "Cannot insert content from file %1: %2"
+msgstr "无法从文件“%1”插入内容：%2"
+
+#: templateparser.cpp:560
+#, fuzzy
+#| msgid "To:"
+msgctxt "@item:intext email To"
+msgid "To:"
+msgstr "收件人："
+
+#: templateparser.cpp:571
+#, fuzzy
+#| msgid "CC:"
+msgctxt "@item:intext email CC"
+msgid "CC:"
+msgstr "抄送："
+
+#: templateparser.cpp:1312
+#, fuzzy, kde-format
+#| msgid "Attachment %1"
+msgctxt "@item:intext"
+msgid "Attachment %1"
+msgstr "附件 %1"
+
+#: templateparser.cpp:1542
+#, kde-format
+msgctxt "@info"
+msgid "Pipe command <command>%1</command> failed."
+msgstr "管道命令 <command>%1</command> 失败。"
+
+#: templatesconfiguration.cpp:55
+msgid ""
+"<p>Here you can create and manage templates to use when composing new "
+"messages, replies or forwarded messages.</p><p>The message templates support "
+"substitution commands, either simply type them or select them from the "
+"<i>Insert command</i> menu.</p>"
+msgstr ""
+"<p>您可以在这里创建和管理邮件模板，以便在撰写新邮件、回复或转发件时使用。</"
+"p><p>邮件模板支持替换命令，您可以简单地直接输入它们或在<i>插入命令</i>菜单下"
+"操作。</p>"
+
+#: templatesconfiguration.cpp:63
+msgid ""
+"<p>Templates specified here are folder-specific. They override both global "
+"templates and per-identity templates.</p>"
+msgstr ""
+"<p>在此指定的模板都是文件夹对应的。它们会覆盖全局模板和身份对应模板。</p>"
+
+#: templatesconfiguration.cpp:68
+msgid ""
+"<p>Templates specified here are identity-specific. They override global "
+"templates, but can be overridden by per-folder templates if they are "
+"specified.</p>"
+msgstr ""
+"<p>在此指定的模板都是身份对应的。它们会覆盖全局模板，但会被文件夹对应的模板覆"
+"盖(如果指定了的话)。</p>"
+
+#: templatesconfiguration.cpp:73
+msgid ""
+"<p>These are global (default) templates. They can be overridden by per-"
+"identity templates or per-folder templates if they are specified.</p>"
+msgstr ""
+"<p>这些是默认全局模板。它们会被身份对应的模板或文件夹对应的模板覆盖(如果指定"
+"了的话)。</p>"
+
+#: templatesconfiguration.cpp:98
+msgid "Do you want to reset current template or all templates to default?"
+msgstr ""
+
+#: templatesconfiguration.cpp:99
+msgid "Reset to default"
+msgstr ""
+
+#: templatesconfiguration.cpp:100
+#, fuzzy
+#| msgid "With Custom Template"
+msgid "Reset Current Template"
+msgstr "使用自定义模板"
+
+#: templatesconfiguration.cpp:101
+#, fuzzy
+#| msgid "Reply to All With Custom Template"
+msgid "Reset All Templates"
+msgstr "用自定义模板全部回复"
+
+#: templatesconfiguration.cpp:355
+msgid ""
+"Use of \"Reply using plain text\" and \"Reply using HTML text\" in pairs is "
+"not correct. Use only one of the aforementioned commands with \" Reply as "
+"Quoted Message command\" as per your need\n"
+"(a)Reply using plain text for quotes to be strictly in plain text\n"
+"(b)Reply using HTML text for quotes being in HTML format if present"
+msgstr ""
+
+#: templatesinsertcommand.cpp:50
+msgid "Quoted Message Text"
+msgstr "引用的信件内容"
+
+#: templatesinsertcommand.cpp:54
+msgid "Message Text as Is"
+msgstr "信件原文"
+
+#: templatesinsertcommand.cpp:58
+msgid "Message Id"
+msgstr "信件编号"
+
+#: templatesinsertcommand.cpp:62 templatesinsertcommand.cpp:170
+msgid "Date"
+msgstr "日期"
+
+#: templatesinsertcommand.cpp:66 templatesinsertcommand.cpp:174
+msgid "Date in Short Format"
+msgstr "短格式日期"
+
+#: templatesinsertcommand.cpp:70 templatesinsertcommand.cpp:178
+msgid "Date in C Locale"
+msgstr "C 语言环境日期"
+
+#: templatesinsertcommand.cpp:74 templatesinsertcommand.cpp:182
+msgid "Day of Week"
+msgstr "周中的日"
+
+#: templatesinsertcommand.cpp:78 templatesinsertcommand.cpp:186
+msgid "Time"
+msgstr "时间"
+
+#: templatesinsertcommand.cpp:82 templatesinsertcommand.cpp:190
+msgid "Time in Long Format"
+msgstr "长格式时间"
+
+#: templatesinsertcommand.cpp:86 templatesinsertcommand.cpp:194
+msgid "Time in C Locale"
+msgstr "C 语言环境时间"
+
+#: templatesinsertcommand.cpp:90 templatesinsertcommand.cpp:196
+msgid "To Field Address"
+msgstr "收件人字段邮件地址"
+
+#: templatesinsertcommand.cpp:94 templatesinsertcommand.cpp:200
+msgid "To Field Name"
+msgstr "收件人字段姓名"
+
+#: templatesinsertcommand.cpp:98 templatesinsertcommand.cpp:204
+msgid "To Field First Name"
+msgstr "收件人字段姓"
+
+#: templatesinsertcommand.cpp:102 templatesinsertcommand.cpp:208
+msgid "To Field Last Name"
+msgstr "收件人字段名"
+
+#: templatesinsertcommand.cpp:106 templatesinsertcommand.cpp:212
+msgid "CC Field Address"
+msgstr "抄送字段地址"
+
+#: templatesinsertcommand.cpp:110 templatesinsertcommand.cpp:216
+msgid "CC Field Name"
+msgstr "抄送字段姓名"
+
+#: templatesinsertcommand.cpp:114 templatesinsertcommand.cpp:220
+msgid "CC Field First Name"
+msgstr "抄送字段姓"
+
+#: templatesinsertcommand.cpp:118 templatesinsertcommand.cpp:224
+msgid "CC Field Last Name"
+msgstr "抄送字段名"
+
+#: templatesinsertcommand.cpp:122 templatesinsertcommand.cpp:228
+msgid "From Field Address"
+msgstr "发件人字段邮件地址"
+
+#: templatesinsertcommand.cpp:126
+msgid "From Field Name"
+msgstr "发件人字段姓名"
+
+#: templatesinsertcommand.cpp:130 templatesinsertcommand.cpp:236
+msgid "From Field First Name"
+msgstr "发件人字段姓"
+
+#: templatesinsertcommand.cpp:134 templatesinsertcommand.cpp:240
+msgid "From Field Last Name"
+msgstr "发件人字段名"
+
+#: templatesinsertcommand.cpp:137
+msgid "Addresses of all recipients"
+msgstr "全部收件人的地址"
+
+#: templatesinsertcommand.cpp:141
+msgctxt "Template value for subject of the message"
+msgid "Subject"
+msgstr "主题"
+
+#: templatesinsertcommand.cpp:145
+msgid "Quoted Headers"
+msgstr "引用信头"
+
+#: templatesinsertcommand.cpp:149
+msgid "Headers as Is"
+msgstr "信头原文"
+
+#: templatesinsertcommand.cpp:153 templatesinsertcommand.cpp:248
+msgid "Header Content"
+msgstr "信头内容"
+
+#: templatesinsertcommand.cpp:157
+msgid "Reply as Quoted Plain Text"
+msgstr ""
+
+#: templatesinsertcommand.cpp:161
+msgid "Reply as Quoted HTML Text"
+msgstr ""
+
+#: templatesinsertcommand.cpp:232
+msgid "From field Name"
+msgstr "收件人字段姓名"
+
+#: templatesinsertcommand.cpp:244
+msgctxt "Template subject command."
+msgid "Subject"
+msgstr "主题"
+
+#: templatesinsertcommand.cpp:256
+msgid "Pipe Original Message Body and Insert Result as Quoted Text"
+msgstr "管道输送原始信件正文并以引用文本形式插入处理后的输出"
+
+#: templatesinsertcommand.cpp:260
+msgid "Pipe Original Message Body and Insert Result as Is"
+msgstr "管道输送原始信件正文并按原格式插入处理后的输出"
+
+#: templatesinsertcommand.cpp:264
+msgid "Pipe Original Message with Headers and Insert Result as Is"
+msgstr "管道输送带信头的原始信件正文并按原格式插入处理后的输出"
+
+#: templatesinsertcommand.cpp:268
+msgid "Pipe Current Message Body and Insert Result as Is"
+msgstr "管道输送当前信件正文并按原格式插入处理后的输出"
+
+#: templatesinsertcommand.cpp:272
+msgid "Pipe Current Message Body and Replace with Result"
+msgstr "管道输送当前信件正文并将其替换为处理后的输出"
+
+#: templatesinsertcommand.cpp:282
+msgctxt "Inserts user signature, also known as footer, into message"
+msgid "Signature"
+msgstr "签名"
+
+#: templatesinsertcommand.cpp:286
+msgid "Insert File Content"
+msgstr "插入文件内容"
+
+#: templatesinsertcommand.cpp:292
+msgctxt ""
+"All characters, up to and including the next newline, are discarded without "
+"performing any macro expansion"
+msgid "Discard to Next Line"
+msgstr "丢至下一行"
+
+#: templatesinsertcommand.cpp:296
+msgid "Template Comment"
+msgstr "模板注释"
+
+#: templatesinsertcommand.cpp:300
+msgid "No Operation"
+msgstr "不作操作"
+
+#: templatesinsertcommand.cpp:304
+msgid "Clear Generated Message"
+msgstr "清除生成的信件"
+
+#: templatesinsertcommand.cpp:308
+msgid "Turn Debug On"
+msgstr "启用调试模式"
+
+#: templatesinsertcommand.cpp:312
+msgid "Turn Debug Off"
+msgstr "关闭调试模式"
+
+#: templatesinsertcommand.cpp:316
+msgid "Cursor position"
+msgstr ""
+
+#: templatesinsertcommand.cpp:320
+msgid "Blank text"
+msgstr ""
+
+#: templatesinsertcommand.cpp:345
+msgid "&Insert Command"
+msgstr "插入命令(&I)"
+
+#: templatesinsertcommand.cpp:354
+msgid "Insert Command"
+msgstr "插入命令"
+
+#: templatesinsertcommand.cpp:357
+msgctxt "@info:tooltip"
+msgid "Select a command to insert into the template"
+msgstr ""
+
+#: templatesinsertcommand.cpp:360
+msgctxt "@info:whatsthis"
+msgid ""
+"Traverse this menu to find a command to insert into the current template "
+"being edited.  The command will be inserted at the cursor location, so you "
+"want to move your cursor to the desired insertion point first."
+msgstr ""
+
+#: templatesinsertcommand.cpp:365
+msgid "Original Message"
+msgstr "原始信件"
+
+#: templatesinsertcommand.cpp:377
+msgid "Current Message"
+msgstr "当前信件"
+
+#: templatesinsertcommand.cpp:388
+msgid "Process with External Programs"
+msgstr "用外部程序处理"
+
+#: templatesinsertcommand.cpp:399
+msgctxt "Miscellaneous template commands menu"
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, mName)
+#: ui/customtemplates_base.ui:59
+#, fuzzy
+#| msgid "(no custom templates)"
+msgctxt "@info:tooltip"
+msgid "Enter a name for the custom template"
+msgstr "(无自定义模板)"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, mName)
+#: ui/customtemplates_base.ui:62
+msgctxt "@info:whatsthis"
+msgid ""
+"To create a custom template, first enter a name for that template and press "
+"the '+' button."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, mAdd)
+#: ui/customtemplates_base.ui:69
+#, fuzzy
+#| msgid "(no custom templates)"
+msgctxt "@info:tooltip"
+msgid "Add a new custom template"
+msgstr "(无自定义模板)"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, mAdd)
+#: ui/customtemplates_base.ui:72
+msgctxt "@info:whatsthis"
+msgid ""
+"Press this button if you want to create a new custom template with the "
+"specified name"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, mRemove)
+#: ui/customtemplates_base.ui:79
+#, fuzzy
+#| msgid "Reply With Custom Template"
+msgctxt "@info:tooltip"
+msgid "Remove the selected custom template"
+msgstr "用自定义模板回复"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, mRemove)
+#: ui/customtemplates_base.ui:82
+msgctxt "@info:whatsthis"
+msgid ""
+"Press this button if you want to remove the currently selected custom "
+"template"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, mDuplicate)
+#: ui/customtemplates_base.ui:89
+#, fuzzy
+#| msgid "Reply With Custom Template"
+msgctxt "@info:tooltip"
+msgid "Duplicate the selected custom template"
+msgstr "用自定义模板回复"
+
+#. i18n: ectx: property (whatsThis), widget (KPushButton, mDuplicate)
+#: ui/customtemplates_base.ui:92
+msgctxt "@info:whatsthis"
+msgid ""
+"Press this button if you want to duplicate the currently selected custom "
+"template"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QTreeWidget, mList)
+#: ui/customtemplates_base.ui:107
+#, fuzzy
+#| msgid "(no custom templates)"
+msgctxt "@info:tooltip"
+msgid "List of custom templates available"
+msgstr "(无自定义模板)"
+
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, mList)
+#: ui/customtemplates_base.ui:110
+msgctxt "@info:whatsthis"
+msgid "This is a list of all the custom templates available."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, mList)
+#: ui/customtemplates_base.ui:120
+#, fuzzy
+#| msgid "Type"
+msgctxt "@title:column Type of custom template"
+msgid "Type"
+msgstr "类型"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, mList)
+#: ui/customtemplates_base.ui:125
+#, fuzzy
+#| msgctxt "Name of the custom template."
+#| msgid "Name"
+msgctxt "@title:column Name of the custom template."
+msgid "Name"
+msgstr "名称"
+
+#. i18n: ectx: property (text), widget (QLabel, mToLabel)
+#: ui/customtemplates_base.ui:156
+msgctxt "@label:textbox Recipient mail address"
+msgid "To:"
+msgstr "收件人："
+
+#. i18n: ectx: property (text), widget (QLabel, mCCLabel)
+#: ui/customtemplates_base.ui:163
+#, fuzzy
+#| msgid "CC:"
+msgctxt "@label"
+msgid "CC:"
+msgstr "抄送："
+
+#. i18n: ectx: property (toolTip), widget (MessageCore::EmailAddressRequester, mToEdit)
+#: ui/customtemplates_base.ui:180
+#, fuzzy
+#| msgid "Additional recipients of the message"
+msgctxt "@info:tooltip"
+msgid "Additional recipients of the message"
+msgstr "信件的额外收件人"
+
+#. i18n: ectx: property (whatsThis), widget (MessageCore::EmailAddressRequester, mToEdit)
+#: ui/customtemplates_base.ui:183
+#, fuzzy
+#| msgid ""
+#| "When using this template, the default recipients are those you enter "
+#| "here. This is a comma-separated list of mail addresses."
+msgctxt "@info:whatsthis"
+msgid ""
+"When using this template, the default recipients are those you enter here.  "
+"This is a comma-separated list of mail addresses."
+msgstr ""
+"当使用此模板时，您在这里输入的收件人将会是默认收件人，多个邮件地址之间用逗号"
+"分隔。"
+
+#. i18n: ectx: property (toolTip), widget (MessageCore::EmailAddressRequester, mCCEdit)
+#: ui/customtemplates_base.ui:196
+#, fuzzy
+#| msgid "Additional recipients who get a copy of the message"
+msgctxt "@info:tooltip"
+msgid "Additional recipients who get a copy of the message"
+msgstr "要额外发送信件副本的收件人"
+
+#. i18n: ectx: property (whatsThis), widget (MessageCore::EmailAddressRequester, mCCEdit)
+#: ui/customtemplates_base.ui:199
+#, fuzzy
+#| msgid ""
+#| "When using this template, the recipients you enter here will by default "
+#| "get a copy of this message. This is a comma-separated list of mail "
+#| "addresses."
+msgctxt "@info:whatsthis"
+msgid ""
+"When using this template, the recipients you enter here will by default get "
+"a copy of this message.  This is a comma-separated list of mail addresses."
+msgstr ""
+"当使用此模板进行时，您在这里输入的收件人将默认会收到这封信件的抄送副本。多个"
+"邮件地址之间用逗号分隔。"
+
+#. i18n: ectx: property (toolTip), widget (TemplateParser::TemplatesTextEdit, mEdit)
+#: ui/customtemplates_base.ui:216
+#, fuzzy
+#| msgid "(no custom templates)"
+msgctxt "@info:tooltip"
+msgid "The custom template"
+msgstr "(无自定义模板)"
+
+#. i18n: ectx: property (whatsThis), widget (TemplateParser::TemplatesTextEdit, mEdit)
+#: ui/customtemplates_base.ui:219
+msgctxt "@info:whatsthis"
+msgid "This area contains the associated custom template."
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mType)
+#: ui/customtemplates_base.ui:238
+#, fuzzy
+#| msgctxt "Message->"
+#| msgid "Universal"
+msgctxt "@item:inlistbox Universal custom template type."
+msgid "Universal"
+msgstr "通用"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mType)
+#: ui/customtemplates_base.ui:243
+#, fuzzy
+#| msgid "Reply"
+msgctxt "@item:inlistbox Custom template type for message replies"
+msgid "Reply"
+msgstr "回复"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mType)
+#: ui/customtemplates_base.ui:248
+#, fuzzy
+#| msgid "Reply to All"
+msgctxt "@item:inlistbox Custom template type for reply-to-all messages"
+msgid "Reply to All"
+msgstr "全部回复"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, mType)
+#: ui/customtemplates_base.ui:253
+#, fuzzy
+#| msgctxt "Message->"
+#| msgid "Forward"
+msgctxt "@item:inlistbox Custom template type for messsage forwards"
+msgid "Forward"
+msgstr "转发"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: ui/customtemplates_base.ui:261
+#, fuzzy
+#| msgid "Shortc&ut:"
+msgctxt "@label"
+msgid "Shortc&ut:"
+msgstr "快捷键(&U)："
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/customtemplates_base.ui:280
+#, fuzzy
+#| msgid "&Template type:"
+msgctxt "@label"
+msgid "&Template type:"
+msgstr "模板类型(&T)："
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, TemplatesConfigurationBase)
+#: ui/templatesconfiguration_base.ui:26
+msgctxt "@title:window"
+msgid "Template Configuration"
+msgstr "模板配置"
+
+#. i18n: ectx: attribute (label), widget (QWidget, page_new)
+#: ui/templatesconfiguration_base.ui:68
+msgctxt "@title Message template"
+msgid "New Message"
+msgstr "新信件"
+
+#. i18n: ectx: property (toolTip), widget (TemplateParser::TemplatesTextEdit, textEdit_new)
+#: ui/templatesconfiguration_base.ui:80
+#, fuzzy
+#| msgid "Message template for new message"
+msgctxt "@info:tooltip"
+msgid "Create the template for new messages"
+msgstr "新信件模板"
+
+#. i18n: ectx: property (whatsThis), widget (TemplateParser::TemplatesTextEdit, textEdit_new)
+#: ui/templatesconfiguration_base.ui:83
+msgctxt "@info:whatsthis"
+msgid ""
+"In this area you create the template for new email messages.  For more "
+"information about how to create the template, press the \"How does this work?"
+"\" link on this dialog."
+msgstr ""
+
+#. i18n: ectx: attribute (label), widget (QWidget, page_reply)
+#: ui/templatesconfiguration_base.ui:102
+msgctxt "@title Message template"
+msgid "Reply to Sender"
+msgstr "回复给发件人"
+
+#. i18n: ectx: property (toolTip), widget (TemplateParser::TemplatesTextEdit, textEdit_reply)
+#: ui/templatesconfiguration_base.ui:131
+#, fuzzy
+#| msgid "Message template for new message"
+msgctxt "@info:tooltip"
+msgid "Create the template for message replies"
+msgstr "新信件模板"
+
+#. i18n: ectx: property (whatsThis), widget (TemplateParser::TemplatesTextEdit, textEdit_reply)
+#: ui/templatesconfiguration_base.ui:134
+msgctxt "@info:whatsthis"
+msgid ""
+"In this area you create the template for messages replies. For more "
+"information about how to create the template, press the \"How does this work?"
+"\" link on this dialog."
+msgstr ""
+
+#. i18n: ectx: attribute (label), widget (QWidget, page_reply_all)
+#: ui/templatesconfiguration_base.ui:153
+msgctxt "@title Message template"
+msgid "Reply to All / Reply to List"
+msgstr "回复所有人/回复到邮件列表"
+
+#. i18n: ectx: property (toolTip), widget (TemplateParser::TemplatesTextEdit, textEdit_reply_all)
+#: ui/templatesconfiguration_base.ui:182
+msgctxt "@info:tooltip"
+msgid "Create the template for replying to all recipients or to a mailing list"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (TemplateParser::TemplatesTextEdit, textEdit_reply_all)
+#: ui/templatesconfiguration_base.ui:185
+msgctxt "@info:whatsthis"
+msgid ""
+"In this area you create the template for reply-to-all messages or replies to "
+"a mailing list.  For more information about how to create the template, "
+"press the \"How does this work?\" link on this dialog."
+msgstr ""
+
+#. i18n: ectx: attribute (label), widget (QWidget, page_forward)
+#: ui/templatesconfiguration_base.ui:204
+msgctxt "@title Message template"
+msgid "Forward Message"
+msgstr "转发的信件"
+
+#. i18n: ectx: property (toolTip), widget (TemplateParser::TemplatesTextEdit, textEdit_forward)
+#: ui/templatesconfiguration_base.ui:233
+#, fuzzy
+#| msgid "Message template for forward"
+msgctxt "@info:tooltip"
+msgid "Create the template for message forwards"
+msgstr "转发信件模板"
+
+#. i18n: ectx: property (whatsThis), widget (TemplateParser::TemplatesTextEdit, textEdit_forward)
+#: ui/templatesconfiguration_base.ui:236
+msgctxt "@info:whatsthis"
+msgid ""
+"In this area you create the template for message forwards.  For more "
+"information about how to create the template, press the \"How does this work?"
+"\" link on this dialog."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: ui/templatesconfiguration_base.ui:270
+msgctxt "@label:textbox Prefix for quoted message lines"
+msgid "&Quote indicator:"
+msgstr "引文符号(&Q)："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, lineEdit_quote)
+#: ui/templatesconfiguration_base.ui:283
+#, fuzzy
+#| msgid "Message template for new message"
+msgctxt "@info:tooltip"
+msgid "Set the Prefix for quoted message lines"
+msgstr "新信件模板"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, lineEdit_quote)
+#: ui/templatesconfiguration_base.ui:293
+#, no-c-format
+msgctxt "@info:whatsthis"
+msgid ""
+"\n"
+"             <qt>The following placeholders are supported in the quote "
+"indicator:\n"
+"             <ul>\n"
+"             <li>%f: sender's initials</li>\n"
+"             <li>%%: percent sign</li>\n"
+"             <li>%_: space</li>\n"
+"             </ul></qt>\n"
+"           "
+msgstr ""
+"\n"
+"             <qt>引文中支持以下占位符：\n"
+"             <ul>\n"
+"             <li>%f: 发件人姓名首字母</li>\n"
+"             <li>%%: 百分号</li>\n"
+"             <li>%_: 空格</li>\n"
+"             </ul></qt>\n"
+"           "
+
+#~ msgctxt "Universal custom template type."
+#~ msgid "Universal"
+#~ msgstr "通用"
+
+#~ msgctxt "Template type for forwarding messages."
+#~ msgid "Forward"
+#~ msgstr "转发"

@@ -1,0 +1,217 @@
+# translation of plasma_scriptengine_qscript.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010.
+# Lie Ex <lilith.ex@gmail.com>, 2009-2010.
+# Feng Chao <rainofchaos@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_scriptengine_qscript\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-11-24 02:56+0100\n"
+"PO-Revision-Date: 2010-11-19 11:09+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.1\n"
+
+#: common/javascriptaddonpackagestructure.cpp:30
+msgid "Images"
+msgstr "图像"
+
+#: common/javascriptaddonpackagestructure.cpp:35
+msgid "Configuration Definitions"
+msgstr "配置定义"
+
+#: common/javascriptaddonpackagestructure.cpp:40
+msgid "User Interface"
+msgstr "用户界面"
+
+#: common/javascriptaddonpackagestructure.cpp:43
+msgid "Data Files"
+msgstr "数据文件"
+
+#: common/javascriptaddonpackagestructure.cpp:45
+msgid "Executable Scripts"
+msgstr "可执行脚本"
+
+#: common/javascriptaddonpackagestructure.cpp:50
+msgid "Translations"
+msgstr "翻译"
+
+#: common/javascriptaddonpackagestructure.cpp:52
+msgid "Animation scripts"
+msgstr "动画脚本"
+
+#: common/javascriptaddonpackagestructure.cpp:54
+#: common/javascriptaddonpackagestructure.cpp:64
+msgid "Main Script File"
+msgstr "主脚本文件"
+
+#: common/scriptenv.cpp:121
+#, kde-format
+msgid "Unable to load script file: %1"
+msgstr "无法装载脚本文件：%1"
+
+#: common/scriptenv.cpp:260
+msgid "debug takes one argument"
+msgstr "debug 需要一个参数"
+
+#: common/scriptenv.cpp:280
+msgid "print() takes one argument"
+msgstr "print() 需要一个参数"
+
+#: common/scriptenv.cpp:290
+msgid "listAddons takes one argument: addon type"
+msgstr "listAddons 需要一个参数：插件类型"
+
+#: common/scriptenv.cpp:318 common/scriptenv.cpp:325
+msgid "loadAddon takes two arguments: addon type and addon name to load"
+msgstr "loadAddon 需要两个参数：要加载插件的类型和名称"
+
+#: common/scriptenv.cpp:333
+#, kde-format
+msgid "Failed to find Addon %1 of type %2"
+msgstr "无法找到类型为 %2 的附加组件 %1"
+
+#: common/scriptenv.cpp:343
+#, kde-format
+msgid "Failed to open script file for Addon %1: %2"
+msgstr "无法打开插件 %1 的脚本：%2"
+
+#: dataengine/javascriptdataengine.cpp:112
+msgid "setData() takes at least one argument"
+msgstr "setData() 至少需要一个参数"
+
+#: dataengine/javascriptdataengine.cpp:167
+msgid "Could not extract the DataEngineObject"
+msgstr "无法引用 DataEngineObject 对象"
+
+#: dataengine/javascriptdataengine.cpp:171
+msgid "Could not extract the DataEngine"
+msgstr "无法引用 DataEngine 对象"
+
+#: dataengine/javascriptdataengine.cpp:181
+msgid "removeAllData() takes at least one argument (the source name)"
+msgstr "removeAllData() 需要至少一个参数(数据来源名)"
+
+#: dataengine/javascriptdataengine.cpp:199
+msgid "removeData() takes at least two arguments (the source and key names)"
+msgstr "removeData() 至少需要两个参数(数据来源名和键名)"
+
+#: dataengine/javascriptdataengine.cpp:237
+#: dataengine/javascriptdataengine.cpp:242
+msgid "Service requires at least one parameter: the name of the service"
+msgstr "服务至少需要一个参数：服务的名字"
+
+#: dataengine/javascriptdataengine.cpp:252
+#, kde-format
+msgid "Requested service %1 was not found in the Package."
+msgstr "包中未找到请求的服务 %1。"
+
+#: plasmoid/appletauthorization.cpp:37
+#, kde-format
+msgid "Authorization for required extension '%1' was denied."
+msgstr "对所需扩展“%1”的验证请求被拒绝。"
+
+#: plasmoid/declarativeappletscript.cpp:232
+#: plasmoid/simplejavascriptapplet.cpp:719
+msgid "loadui() takes one argument"
+msgstr "loadui() 需要一个参数"
+
+#: plasmoid/declarativeappletscript.cpp:238
+#: plasmoid/simplejavascriptapplet.cpp:725
+#, kde-format
+msgid "Unable to open '%1'"
+msgstr "无法打开“%1”"
+
+#: plasmoid/declarativeappletscript.cpp:251
+#: plasmoid/declarativeappletscript.cpp:275
+#: plasmoid/simplejavascriptapplet.cpp:738
+#: plasmoid/simplejavascriptapplet.cpp:756
+msgid "Constructor takes at least 1 argument"
+msgstr "Constructor 至少需要 1 个参数"
+
+#: plasmoid/declarativeappletscript.cpp:507
+#: plasmoid/simplejavascriptapplet.cpp:590
+msgid "dataEngine() takes one argument"
+msgstr "dataEngine() 需要一个参数"
+
+#: plasmoid/declarativeappletscript.cpp:512
+#: plasmoid/declarativeappletscript.cpp:534
+#: plasmoid/declarativeappletscript.cpp:554
+#: plasmoid/simplejavascriptapplet.cpp:595
+#: plasmoid/simplejavascriptapplet.cpp:617
+#: plasmoid/simplejavascriptapplet.cpp:637
+msgid "Could not extract the Applet"
+msgstr "无法释放 Applet"
+
+#: plasmoid/declarativeappletscript.cpp:527
+#: plasmoid/simplejavascriptapplet.cpp:610
+msgid "service() takes two arguments"
+msgstr "service() 需要两个参数"
+
+#: plasmoid/declarativeappletscript.cpp:547
+#: plasmoid/simplejavascriptapplet.cpp:630
+msgid "service() takes one argument"
+msgstr "service() 需要一个参数"
+
+#: plasmoid/simplejavascriptapplet.cpp:128
+#, kde-format
+msgid "Error in %1 on line %2.<br><br>%3"
+msgstr "错误发生于 %1，行 %2。<br><br>%3"
+
+#: plasmoid/simplejavascriptapplet.cpp:649
+msgid "animation() takes one argument"
+msgstr "animation() 需要一个参数"
+
+#: plasmoid/simplejavascriptapplet.cpp:693
+#, kde-format
+msgid "%1 is not a known animation type"
+msgstr "%1 不是一个已知的动画类型"
+
+#: simplebindings/i18n.cpp:33
+msgid "i18n() takes at least one argument"
+msgstr "i18n() 至少需要一个参数"
+
+#: simplebindings/i18n.cpp:52
+msgid "i18nc() takes at least two arguments"
+msgstr "i18nc() 至少需要两个参数"
+
+#: simplebindings/i18n.cpp:72
+msgid "i18np() takes at least two arguments"
+msgstr "i18np() 至少需要两个参数"
+
+#: simplebindings/i18n.cpp:97
+msgid "i18ncp() takes at least three arguments"
+msgstr "i18ncp() 至少需要三个参数"
+
+#~ msgid "The parent must be a QGraphicsLayoutItem"
+#~ msgstr "父对象必须是 QGraphicsLayoutItem"
+
+#~ msgid ""
+#~ "Script failure on line %1:\n"
+#~ "%2"
+#~ msgstr ""
+#~ "脚本在 %1 行出错：\n"
+#~ "%2"
+
+#~ msgid "This operation was not supported, %1"
+#~ msgstr "不支持此操作，%1"
+
+#~ msgid "Could not extract the AppletObject"
+#~ msgstr "无法释放 AppletObject"
+
+#~ msgid "CreateWidget takes one argument"
+#~ msgstr "CreateWidget 需要一个参数"
+
+#~ msgid "The parent must be a QGraphicsWidget"
+#~ msgstr "父对象必须是 QGraphicsWidget"
+
+#~ msgid "LinearLayout requires a parent"
+#~ msgstr "LinearLayout 需要一个父对象"

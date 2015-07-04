@@ -1,0 +1,760 @@
+# translation of ginkgo.po to Chinese Simplified
+# Copyright (C) 2007 Free Software Foundation, Inc.
+#
+# Funda Wang <fundawang@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs4\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-05-21 02:00+0000\n"
+"PO-Revision-Date: 2010-06-03 11:01+0800\n"
+"Last-Translator: Funda Wang <fundawang@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ginkgo:34
+#, fuzzy
+#| msgid "Link to"
+msgid "Ginkgo"
+msgstr "链接到"
+
+#: ginkgo:35
+msgid "(c) 2010, Mandriva, Stéphane Laurière"
+msgstr ""
+
+#: ginkgo:37
+msgid "Ginkgo is a navigator for Nepomuk, the KDE semantic toolkit."
+msgstr ""
+
+#: ginkgo:39
+msgid ""
+"Ginkgo lets you create and explore links between your personal data such as "
+"e-mails, contacts, files, Web pages."
+msgstr ""
+
+#: ginkgo:44
+msgid "Stéphane Laurière"
+msgstr ""
+
+#: ginkgo:44
+msgid "Developer"
+msgstr ""
+
+#: ginkgo:46
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+#: ginkgo:46
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: ginkgo:51
+msgid "The URI of the resource annotate"
+msgstr ""
+
+#: src/ginkgo/dialogs/exportdialog.py:73
+msgid "Export to File"
+msgstr ""
+
+#: src/ginkgo/dialogs/exportdialog.py:87
+#, fuzzy
+#| msgid "&Relation type:"
+msgid "&Destination file:"
+msgstr "关系类型(&R)："
+
+#: src/ginkgo/dialogs/exportdialog.py:94
+msgid "Browse..."
+msgstr ""
+
+#: src/ginkgo/dialogs/exportdialog.py:102
+msgid "&Format:"
+msgstr ""
+
+#: src/ginkgo/dialogs/exportdialog.py:107
+msgid "Custom"
+msgstr ""
+
+#: src/ginkgo/dialogs/exportdialog.py:114
+#, fuzzy
+#| msgid "&Type:"
+msgid "&Template:"
+msgstr "类型(&T)："
+
+#: src/ginkgo/dialogs/livesearchdialog.py:35
+msgid "Open Resource"
+msgstr "打开资源"
+
+#: src/ginkgo/dialogs/livesearchdialog.py:36
+#: src/ginkgo/views/resourcesbytypetable.py:47
+#: src/ginkgo/views/resourcestable.py:302
+#: src/ginkgo/views/typepropertiestable.py:152
+#: src/ginkgo/views/typestable.py:72
+msgid "Name"
+msgstr "名称"
+
+#: src/ginkgo/dialogs/livesearchdialog.py:39
+msgid "&Object"
+msgstr "对象(&O)"
+
+#: src/ginkgo/dialogs/livesearchdialog.py:63
+#: src/ginkgo/dialogs/livesearchdialog.py:186
+msgid "All"
+msgstr "全部"
+
+#: src/ginkgo/dialogs/livesearchdialog.py:146
+msgid "&Relation type:"
+msgstr "关系类型(&R)："
+
+#: src/ginkgo/dialogs/livesearchdialog.py:181
+msgid "&Type:"
+msgstr "类型(&T)："
+
+#: src/ginkgo/dialogs/livesearchdialog.py:188
+#: src/ginkgo/dialogs/livesearchdialog.py:192
+msgid "Filter by type"
+msgstr "根据类型过滤"
+
+#: src/ginkgo/dialogs/livesearchdialog.py:196
+msgid "&All"
+msgstr "全部(&A)"
+
+#: src/ginkgo/dialogs/livesearchdialog.py:210
+msgid "Matching items:"
+msgstr "匹配项："
+
+#: src/ginkgo/dialogs/resourcechooserdialog.py:61 src/ginkgo/mainwindow.py:125
+#: src/ginkgo/mainwindow.py:126
+msgid "Link to..."
+msgstr "链接到..."
+
+#: src/ginkgo/dialogs/tasktreedialog.py:47
+msgid "Task Selection"
+msgstr "任务选中内容"
+
+#: src/ginkgo/dialogs/typechooserdialog.py:81 src/ginkgo/mainwindow.py:104
+msgid "Types"
+msgstr "类型"
+
+#: src/ginkgo/editors/classeditor.py:53
+#, fuzzy
+#| msgid "Type properties"
+msgid "Type Properties"
+msgstr "类型属性"
+
+#: src/ginkgo/editors/contacteditor.py:71
+msgid "First Name"
+msgstr "名"
+
+#: src/ginkgo/editors/contacteditor.py:86
+msgid "Last Name"
+msgstr "姓"
+
+#: src/ginkgo/editors/contacteditor.py:91
+msgid "E-mail"
+msgstr "电子邮件"
+
+#: src/ginkgo/editors/contacteditor.py:99
+msgid "Phone"
+msgstr "电话"
+
+#: src/ginkgo/editors/fileeditor.py:50
+#: src/ginkgo/editors/resourceeditor.py:458
+#: src/ginkgo/editors/websiteeditor.py:57
+msgid "Open"
+msgstr "打开"
+
+#: src/ginkgo/editors/propertyeditor.py:127
+msgid "Domain"
+msgstr ""
+
+#: src/ginkgo/editors/propertyeditor.py:131
+#: src/ginkgo/editors/propertyeditor.py:169
+#, fuzzy
+#| msgid "Range"
+msgid "Change"
+msgstr "范围"
+
+#: src/ginkgo/editors/propertyeditor.py:138
+#: src/ginkgo/views/typepropertiestable.py:152
+msgid "Range"
+msgstr "范围"
+
+#: src/ginkgo/editors/propertyeditor.py:140
+msgid "literal"
+msgstr ""
+
+#: src/ginkgo/editors/propertyeditor.py:153
+msgid "Literal"
+msgstr ""
+
+#: src/ginkgo/editors/resourceeditor.py:67
+msgid "Select Icon - Ginkgo"
+msgstr "选择图标 - Ginkgo"
+
+#: src/ginkgo/editors/resourceeditor.py:67
+msgid "Images (*.png *.jpg *.jpeg *.bmp)"
+msgstr "图像 (*.png *.jpg *.jpeg *.bmp)"
+
+#: src/ginkgo/editors/resourceeditor.py:154
+msgid "Query results"
+msgstr "查询结果"
+
+#: src/ginkgo/editors/resourceeditor.py:175
+#, fuzzy
+#| msgid "Relations"
+msgid "Suggestions"
+msgstr "关系"
+
+#: src/ginkgo/editors/resourceeditor.py:307 src/ginkgo/mainwindow.py:633
+msgid "Relations"
+msgstr "关系"
+
+#: src/ginkgo/editors/resourceeditor.py:308
+msgid "Properties"
+msgstr "属性"
+
+#: src/ginkgo/editors/resourceeditor.py:382
+msgid "Type(s): "
+msgstr "类型："
+
+#: src/ginkgo/editors/resourceeditor.py:448
+#, fuzzy
+#| msgid "URL"
+msgid "&URL"
+msgstr "URL"
+
+#: src/ginkgo/editors/taskeditor.py:140
+msgid "Parent Task"
+msgstr "父任务"
+
+#: src/ginkgo/editors/taskeditor.py:141
+msgid "Non&e"
+msgstr "无(&E)"
+
+#: src/ginkgo/editors/taskeditor.py:142
+msgid "&Other"
+msgstr "其它(&O)"
+
+#: src/ginkgo/editors/taskeditor.py:149
+msgid "Select..."
+msgstr "选择..."
+
+#: src/ginkgo/editors/taskeditor.py:158
+msgid "Priority"
+msgstr "优先级"
+
+#: src/ginkgo/editors/taskeditor.py:159
+msgid "&Low"
+msgstr "低(&L)"
+
+#: src/ginkgo/editors/taskeditor.py:160
+msgid "&Medium"
+msgstr "中(&M)"
+
+#: src/ginkgo/editors/taskeditor.py:161
+msgid "&High"
+msgstr "高(&H)"
+
+#: src/ginkgo/editors/taskeditor.py:170
+msgid "Due date"
+msgstr "到期日期"
+
+#: src/ginkgo/editors/taskeditor.py:181
+#, fuzzy
+#| msgid "Save"
+msgid "State"
+msgstr "保存"
+
+#: src/ginkgo/editors/taskeditor.py:182 src/ginkgo/mainwindow.py:182
+#: src/ginkgo/mainwindow.py:183
+msgid "New"
+msgstr "新建"
+
+#: src/ginkgo/editors/taskeditor.py:183
+msgid "Running"
+msgstr ""
+
+#: src/ginkgo/editors/taskeditor.py:184
+msgid "Completed"
+msgstr ""
+
+#: src/ginkgo/editors/websiteeditor.py:50
+msgid "URL"
+msgstr "URL"
+
+#: src/ginkgo/mainwindow.py:111
+msgid "&Save"
+msgstr "保存(&S)"
+
+#: src/ginkgo/mainwindow.py:111
+msgid "Save"
+msgstr "保存"
+
+#: src/ginkgo/mainwindow.py:112
+msgid "&Export"
+msgstr ""
+
+#: src/ginkgo/mainwindow.py:112
+msgid "Export"
+msgstr ""
+
+#: src/ginkgo/mainwindow.py:114
+msgid "&Open"
+msgstr "打开(&O)"
+
+#: src/ginkgo/mainwindow.py:114
+msgid "Open a resource"
+msgstr "打开资源"
+
+#: src/ginkgo/mainwindow.py:115
+msgid "New &Tab"
+msgstr "新建标签(&T)"
+
+#: src/ginkgo/mainwindow.py:115
+msgid "Create new tab"
+msgstr "创建新标签"
+
+#: src/ginkgo/mainwindow.py:116
+msgid "Close Tab"
+msgstr "关闭标签"
+
+#: src/ginkgo/mainwindow.py:116
+msgid "Close tab"
+msgstr "关闭标签"
+
+#: src/ginkgo/mainwindow.py:117
+msgid "&Quit"
+msgstr "退出(&Q)"
+
+#: src/ginkgo/mainwindow.py:117
+msgid "Close the application"
+msgstr "关闭应用程序"
+
+#: src/ginkgo/mainwindow.py:120
+msgid "&Duplicate"
+msgstr ""
+
+#: src/ginkgo/mainwindow.py:120
+#, fuzzy
+#| msgid "Set the current resource as context"
+msgid "Duplicate the current resource"
+msgstr "将当前资源设定为环境关闭当前文档。"
+
+#: src/ginkgo/mainwindow.py:132
+msgid "Link to"
+msgstr "链接到"
+
+#: src/ginkgo/mainwindow.py:134
+msgid "&Resource"
+msgstr "资源(&R)"
+
+#: src/ginkgo/mainwindow.py:135 src/ginkgo/mainwindow.py:148
+#: src/ginkgo/mainwindow.py:691
+msgid "&File"
+msgstr "文件(&F)"
+
+#: src/ginkgo/mainwindow.py:140
+msgid "Set resource as context"
+msgstr "将资源设定为环境"
+
+#: src/ginkgo/mainwindow.py:140
+msgid "Set the current resource as context"
+msgstr "将当前资源设定为环境关闭当前文档。"
+
+#: src/ginkgo/mainwindow.py:142
+msgid "Stop query"
+msgstr "停止查询"
+
+#: src/ginkgo/mainwindow.py:144
+msgid "View data types"
+msgstr "查看数据类型"
+
+#: src/ginkgo/mainwindow.py:144
+msgid "Display the available data types"
+msgstr "显示可用的数据类型"
+
+#: src/ginkgo/mainwindow.py:146
+msgid "Recent"
+msgstr "最近"
+
+#: src/ginkgo/mainwindow.py:146
+msgid "Show recently modified resources"
+msgstr "显示最近修改的资源"
+
+#: src/ginkgo/mainwindow.py:150
+msgid "&New"
+msgstr "新建(&N)"
+
+#: src/ginkgo/mainwindow.py:163 src/ginkgo/views/objectcontextmenu.py:54
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: src/ginkgo/mainwindow.py:163
+msgid "Delete"
+msgstr "删除"
+
+#: src/ginkgo/mainwindow.py:165
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#: src/ginkgo/mainwindow.py:172
+msgid "&View"
+msgstr "查看(&V)"
+
+#: src/ginkgo/mainwindow.py:175
+msgid "Toolbar"
+msgstr "工具栏"
+
+#: src/ginkgo/mainwindow.py:218 src/ginkgo/mainwindow.py:222
+msgid "Search"
+msgstr "搜索"
+
+#: src/ginkgo/mainwindow.py:223
+msgid "Full-text search"
+msgstr "全文搜索"
+
+#: src/ginkgo/mainwindow.py:309
+msgid "New Task"
+msgstr "新建任务"
+
+#: src/ginkgo/mainwindow.py:316
+msgid "New Type"
+msgstr "新建类型"
+
+#: src/ginkgo/mainwindow.py:324
+msgid "New Property"
+msgstr "新建属性"
+
+#: src/ginkgo/mainwindow.py:378
+msgid "New %1"
+msgstr "新建 %1"
+
+#: src/ginkgo/mainwindow.py:457
+msgid "Warning"
+msgstr "警告"
+
+#: src/ginkgo/mainwindow.py:457
+msgid "No e-mail address was found for %1."
+msgstr ""
+
+#: src/ginkgo/mainwindow.py:458
+msgid "&Continue"
+msgstr ""
+
+#: src/ginkgo/mainwindow.py:486
+msgid "Resource removal"
+msgstr "资源删除"
+
+#: src/ginkgo/mainwindow.py:487
+msgid "Are you sure you want to delete <i>%1</i>?"
+msgstr "您确定想要删除 <i>%1</i> 吗？"
+
+#: src/ginkgo/mainwindow.py:570
+msgid "New Relation"
+msgstr "新建关系"
+
+#: src/ginkgo/mainwindow.py:585
+msgid "Select File - Ginkgo"
+msgstr "选择文件 - Ginkgo"
+
+#: src/ginkgo/mainwindow.py:622
+msgid "Places"
+msgstr "位置"
+
+#: src/ginkgo/mainwindow.py:682
+msgid "&Contact"
+msgstr "联系(&C)"
+
+#: src/ginkgo/mainwindow.py:682
+msgid "&Contacts"
+msgstr "联系(&C)"
+
+#: src/ginkgo/mainwindow.py:682
+msgid "Create new contact"
+msgstr "创建联系"
+
+#: src/ginkgo/mainwindow.py:683
+msgid "&Project"
+msgstr "工程(&P)"
+
+#: src/ginkgo/mainwindow.py:683
+msgid "&Projects"
+msgstr "工程(&P)"
+
+#: src/ginkgo/mainwindow.py:683
+msgid "Create new project"
+msgstr "创建新工程"
+
+#: src/ginkgo/mainwindow.py:684
+msgid "&Task"
+msgstr "任务(&T)"
+
+#: src/ginkgo/mainwindow.py:684
+msgid "&Tasks"
+msgstr "任务(&T)"
+
+#: src/ginkgo/mainwindow.py:684
+msgid "Create new task"
+msgstr "创建新任务"
+
+#: src/ginkgo/mainwindow.py:685
+msgid "&Organization"
+msgstr "组织(&O)"
+
+#: src/ginkgo/mainwindow.py:685
+msgid "&Organizations"
+msgstr "组织(&O)"
+
+#: src/ginkgo/mainwindow.py:685
+msgid "Create new organization"
+msgstr "创建新组织"
+
+#: src/ginkgo/mainwindow.py:686
+msgid "&Topic"
+msgstr "主题(&T)"
+
+#: src/ginkgo/mainwindow.py:686
+msgid "&Topics"
+msgstr "主题(&T)"
+
+#: src/ginkgo/mainwindow.py:686
+msgid "Create new topic"
+msgstr "创建新主题"
+
+#: src/ginkgo/mainwindow.py:687
+msgid "&Event"
+msgstr "事件(&E)"
+
+#: src/ginkgo/mainwindow.py:687
+msgid "&Events"
+msgstr "事件(&E)"
+
+#: src/ginkgo/mainwindow.py:687
+msgid "Create new event"
+msgstr "创建新事件"
+
+#: src/ginkgo/mainwindow.py:688
+msgid "&Location"
+msgstr "位置(&L)"
+
+#: src/ginkgo/mainwindow.py:688
+msgid "&Locations"
+msgstr "位置(&L)"
+
+#: src/ginkgo/mainwindow.py:688
+msgid "Create new location"
+msgstr "创建新位置"
+
+#: src/ginkgo/mainwindow.py:689
+msgid "&WebPage"
+msgstr "网页(&W)"
+
+#: src/ginkgo/mainwindow.py:689
+msgid "&Web Pages"
+msgstr "网页(&W)"
+
+#: src/ginkgo/mainwindow.py:689
+msgid "Create new Web page"
+msgstr "创建新网页"
+
+#: src/ginkgo/mainwindow.py:690
+msgid "&Note"
+msgstr "备忘(&N)"
+
+#: src/ginkgo/mainwindow.py:690
+msgid "&Notes"
+msgstr "备忘(&N)"
+
+#: src/ginkgo/mainwindow.py:690
+msgid "Create new note"
+msgstr "创建备忘"
+
+#: src/ginkgo/mainwindow.py:691
+msgid "&Files"
+msgstr "文件(&F)"
+
+#: src/ginkgo/mainwindow.py:691
+msgid "Create new file"
+msgstr "创建新文件"
+
+#: src/ginkgo/mainwindow.py:797 src/ginkgo/mainwindow.py:799
+msgid "Context - Ginkgo"
+msgstr "环境 - Ginkgo"
+
+#: src/ginkgo/mainwindow.py:797
+msgid "The context has been succesfully updated to <i>%1</i>."
+msgstr "环境已经成功更新到 <i>%1</i>。"
+
+#: src/ginkgo/mainwindow.py:799
+msgid "An error occurred while updating the context."
+msgstr "更新环境时出错。"
+
+#: src/ginkgo/mainwindow.py:918
+msgid "What's New"
+msgstr "新增内容"
+
+#: src/ginkgo/mainwindow.py:932
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: src/ginkgo/mainwindow.py:1109
+msgid "Error"
+msgstr ""
+
+#: src/ginkgo/mainwindow.py:1109
+msgid ""
+"An error occurred during the export, please consider filing a bug. Error "
+"description: %1\n"
+msgstr ""
+
+#: src/ginkgo/mainwindow.py:1156
+msgid "Move &up"
+msgstr "上移(&U)"
+
+#: src/ginkgo/mainwindow.py:1159
+msgid "Move &down"
+msgstr "下移(&D)"
+
+#: src/ginkgo/mainwindow.py:1162
+msgid "&Remove entry"
+msgstr "删除条目(&R)"
+
+#: src/ginkgo/views/objectcontextmenu.py:48
+msgid "&Open in new tab"
+msgstr "在新标签中打开(&O)"
+
+#: src/ginkgo/views/objectcontextmenu.py:56
+msgid "Delete this resource from the Nepomuk database"
+msgstr "从 Nepomuk 数据库中删除此资源"
+
+#: src/ginkgo/views/objectcontextmenu.py:64
+msgid "Open &file"
+msgstr "打开文件(&F)"
+
+#: src/ginkgo/views/objectcontextmenu.py:69
+msgid "Open &page"
+msgstr "打开页面(&P)"
+
+#: src/ginkgo/views/objectcontextmenu.py:81
+msgid "&Write e-mail to"
+msgstr "编写电子邮件(&W)"
+
+#: src/ginkgo/views/objectcontextmenu.py:87
+msgid "Set as &context"
+msgstr "设定为环境(&C)"
+
+#: src/ginkgo/views/relationstable.py:188
+#: src/ginkgo/views/resourcesbytypetable.py:47
+#: src/ginkgo/views/resourcestable.py:302
+msgid "Date"
+msgstr "日期"
+
+#: src/ginkgo/views/relationstable.py:188
+msgid "Title"
+msgstr "标题"
+
+#: src/ginkgo/views/relationstable.py:188
+#: src/ginkgo/views/resourcestable.py:302
+msgid "Type"
+msgstr "类型"
+
+#: src/ginkgo/views/relationstable.py:344
+msgid "&Remove relation(s)"
+msgstr "删除关系(&R)"
+
+#: src/ginkgo/views/resourcepropertiestable.py:46
+msgid "&Copy value to clipboard"
+msgstr "将值复制到剪贴板(&C)"
+
+#: src/ginkgo/views/resourcepropertiestable.py:51
+#, fuzzy
+#| msgid "&New property"
+msgid "&Add property"
+msgstr "新建属性(&N)"
+
+#: src/ginkgo/views/resourcepropertiestable.py:154
+msgid "Property"
+msgstr "属性"
+
+#: src/ginkgo/views/resourcepropertiestable.py:154
+msgid "Value"
+msgstr "值"
+
+#: src/ginkgo/views/resourcestree.py:387
+msgid "&New type"
+msgstr "新建类型(&N)"
+
+#: src/ginkgo/views/resourcestree.py:391
+msgid "New &instance"
+msgstr "新建实例(&I)"
+
+#: src/ginkgo/views/resourcestree.py:396
+msgid "&Add to places"
+msgstr "添加到位置(&A)"
+
+#: src/ginkgo/views/resourcestree.py:403
+msgid "&New sub-type"
+msgstr "新建子任务(&N)"
+
+#: src/ginkgo/views/suggestionview.py:176
+#, fuzzy
+#| msgid "&Remove relation(s)"
+msgid "&Create relation(s)"
+msgstr "删除关系(&R)"
+
+#: src/ginkgo/views/tasktree.py:326
+msgid "&New sub-task"
+msgstr "新建子任务(&N)"
+
+#: src/ginkgo/views/typepropertiestable.py:47
+msgid "&New property"
+msgstr "新建属性(&N)"
+
+#: src/ginkgo/views/typepropertiestable.py:152
+msgid "Inherited from"
+msgstr "继承自"
+
+#: src/ginkgo/views/typestable.py:72
+msgid "Ontology"
+msgstr ""
+
+#: src/ginkgo/views/typestable.py:152
+#, fuzzy
+#| msgid "&Remove entry"
+msgid "&Remove type"
+msgstr "删除条目(&R)"
+
+#: src/ginkgo/views/typestable.py:158
+#, fuzzy
+#| msgid "&Add to places"
+msgid "&Add type"
+msgstr "添加到位置(&A)"
+
+#: src/ginkgo/views/typesview.py:38
+msgid "Ontologies:"
+msgstr ""
+
+#~ msgid "Select type(s)"
+#~ msgstr "选择类型"
+
+#~ msgid "&Unlink from %1"
+#~ msgstr "从 %1 取消链接(&U)"
+
+#~ msgid "Relation"
+#~ msgstr "关系"
+
+#~ msgid "&Type"
+#~ msgstr "类型(&T)"
+
+#~ msgid "&Types"
+#~ msgstr "类型(&T)"
+
+#~ msgid "Create new type"
+#~ msgstr "创建新类型"

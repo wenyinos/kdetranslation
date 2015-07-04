@@ -1,0 +1,2245 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2010, 2011.
+# Lie Ex <lilith.ex@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: rocs\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-06-12 01:37+0000\n"
+"PO-Revision-Date: 2011-11-13 19:21+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: Actions/AddConnectionHandAction.cpp:39
+#, fuzzy
+#| msgid "Add Edge"
+msgctxt "@action:intoolbar"
+msgid "Add Edge"
+msgstr "添加边"
+
+#: Actions/AddConnectionHandAction.cpp:40
+#: Actions/AddConnectionHandAction.cpp:55
+#, fuzzy
+#| msgid "Creates a new edge between 2 nodes"
+msgctxt "@info:tooltip"
+msgid "Creates a new edge between 2 nodes"
+msgstr "在两个节点间创建一条新边"
+
+#: Actions/AddConnectionHandAction.cpp:54 Actions/AddDataHandAction.cpp:45
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Add %1"
+msgstr ""
+
+#: Actions/AddDataAction.cpp:33 Actions/AddDataHandAction.cpp:35
+#: Interface/EditorToolbar.cpp:59
+#, fuzzy
+#| msgid "Data"
+msgctxt "@action:intoolbar"
+msgid "Add Data"
+msgstr "数据"
+
+#: Actions/AddDataAction.cpp:34
+#, fuzzy
+#| msgid "Creates a new node at the click position on the drawing area."
+msgctxt "@info:tooltip"
+msgid "Creates a new node at the click position."
+msgstr "在绘制区域上的点击位置创建一个新节点。"
+
+#: Actions/AddDataHandAction.cpp:36 Actions/AddDataHandAction.cpp:46
+#, fuzzy
+#| msgid "Creates a new node at the click position on the drawing area."
+msgctxt "@info:tooltip"
+msgid "Creates a new node at the click position on the drawing area."
+msgstr "在绘制区域上的点击位置创建一个新节点。"
+
+#: Actions/AddDataHandAction.cpp:58
+#, kde-format
+msgid "Add %1"
+msgstr ""
+
+#: Actions/DeleteHandAction.cpp:36
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@action:intoolbar"
+msgid "Delete"
+msgstr "删除"
+
+#: Actions/DeleteHandAction.cpp:37
+#, fuzzy
+#| msgid "Delete items by clicking on them."
+msgctxt "@info:tooltip"
+msgid "Delete items by clicking on them."
+msgstr "通过点击项目来删除。"
+
+#: Actions/PropertiesDialogAction.cpp:169
+#, fuzzy
+#| msgid "Edge Properties"
+msgctxt "@title:window"
+msgid "Data Type Properties"
+msgstr "边属性"
+
+#: Actions/PropertiesDialogAction.cpp:190
+#, fuzzy
+#| msgid "Node Properties"
+msgctxt "@title:window"
+msgid "Pointer Type Properties"
+msgstr "节点属性"
+
+#: Actions/SelectMoveHandAction.cpp:41
+#, fuzzy
+#| msgid "Move"
+msgctxt "@action:intoolbar"
+msgid "Move"
+msgstr "移动"
+
+#: Actions/SelectMoveHandAction.cpp:42
+msgctxt "@info:tooltip"
+msgid "Select and move items."
+msgstr ""
+
+#: Actions/ZoomAction.cpp:39
+#, fuzzy
+#| msgid "Zoom"
+msgctxt "@action:intoolbar"
+msgid "Zoom"
+msgstr "缩放"
+
+#: Actions/ZoomAction.cpp:40
+#, fuzzy
+#| msgid "Zoom the canvas by the wheel, or by dragging."
+msgctxt "@info:tooltip"
+msgid "Zoom the canvas by the wheel, or by dragging."
+msgstr "通过滚轮或拖拽缩放界面"
+
+#: GraphVisualEditor.cpp:138 GraphVisualEditor.cpp:236
+#: GraphVisualEditor.cpp:297 GraphVisualEditor.cpp:313
+#, fuzzy
+#| msgid "Properties"
+msgctxt "@action:button"
+msgid "Properties"
+msgstr "属性"
+
+#: GraphVisualEditor.cpp:163
+#, fuzzy
+#| msgid "New Graph"
+msgctxt "@label:listbox"
+msgid "Graph Document:"
+msgstr "新建图"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: GraphVisualEditor.cpp:173 Tools/TransformEdges/TransformEdgesWidget.ui:20
+msgid "Data Structure:"
+msgstr "数据结构："
+
+#: GraphVisualEditor.cpp:184
+#, fuzzy
+#| msgid "Data Structure"
+msgctxt "@info:tooltip"
+msgid "Add a new data structure."
+msgstr "数据结构"
+
+#: GraphVisualEditor.cpp:190
+#, fuzzy
+#| msgid "Select"
+msgctxt "@info:tooltip"
+msgid "Remove selected data structure."
+msgstr "选择"
+
+#: GraphVisualEditor.cpp:281
+msgctxt "@action:intoolbar Alignment"
+msgid "Base"
+msgstr ""
+
+#: GraphVisualEditor.cpp:282 GraphVisualEditor.cpp:285
+#, fuzzy
+#| msgid "Center"
+msgctxt "@action:intoolbar Alignment"
+msgid "Center"
+msgstr "居中"
+
+#: GraphVisualEditor.cpp:283
+#, fuzzy
+#| msgid "Top"
+msgctxt "@action:intoolbar Alignment"
+msgid "Top"
+msgstr "顶部"
+
+#: GraphVisualEditor.cpp:284
+#, fuzzy
+#| msgid "Left"
+msgctxt "@action:intoolbar Alignment"
+msgid "Left"
+msgstr "左"
+
+#: GraphVisualEditor.cpp:286
+#, fuzzy
+#| msgid "Right"
+msgctxt "@action:intoolbar Alignment"
+msgid "Right"
+msgstr "右"
+
+#: GraphVisualEditor.cpp:287
+#, fuzzy
+#| msgid "Circle"
+msgctxt "@action:intoolbar Alignment"
+msgid "Circle"
+msgstr "圆形"
+
+#: GraphVisualEditor.cpp:288
+#, fuzzy
+#| msgid "Minimize Crossing Edges"
+msgctxt "@action:intoolbar Alignment"
+msgid "Minimize Crossing Edges"
+msgstr "最小交叉边"
+
+#: GraphVisualEditor.cpp:349
+#, kde-format
+msgctxt "@info:tooltip current zoom factor for graph editor"
+msgid "Zoom: %1\\%"
+msgstr ""
+
+#: Interface/DataPropertiesWidget.cpp:39
+#, fuzzy
+#| msgid "Select"
+msgid "Edit Data Types"
+msgstr "选择"
+
+#: Interface/DataPropertiesWidget.cpp:45
+#, fuzzy
+#| msgid "Edge Properties"
+msgctxt "@title:window"
+msgid "Data Element Properties"
+msgstr "边属性"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DataPropertiesWidget)
+#: Interface/DataPropertiesWidget.ui:26
+#, fuzzy
+#| msgid "Edge Properties"
+msgid "Data Properties"
+msgstr "边属性"
+
+#. i18n: ectx: property (title), widget (QGroupBox, Appearance)
+#: Interface/DataPropertiesWidget.ui:38
+#: Interface/PointerPropertiesWidget.ui:38
+#, fuzzy
+#| msgid "Properties"
+msgid "Static Properties"
+msgstr "属性"
+
+#. i18n: ectx: property (toolTip), widget (KColorCombo, _color)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_6)
+#: Interface/DataPropertiesWidget.ui:46 Interface/DataPropertiesWidget.ui:59
+#: Interface/PointerPropertiesWidget.ui:56
+#: Interface/PointerPropertiesWidget.ui:69
+msgid "Node color"
+msgstr "节点颜色"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: Interface/DataPropertiesWidget.ui:62
+#: Interface/PointerPropertiesWidget.ui:72
+msgid "Color:"
+msgstr "颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: Interface/DataPropertiesWidget.ui:84
+#: Interface/PointerPropertiesWidget.ui:97
+#, fuzzy
+#| msgid "Type"
+msgid "Type:"
+msgstr "类型"
+
+#. i18n: ectx: property (title), widget (QGroupBox, DynamicProperties)
+#: Interface/DataPropertiesWidget.ui:150
+#: Interface/PointerPropertiesWidget.ui:163
+#, fuzzy
+#| msgid "Properties"
+msgid "Dynamic Properties"
+msgstr "属性"
+
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: Interface/DataStructurePage.ui:22 Interface/DataTypePage.ui:127
+#: Interface/PointerTypePage.ui:102
+msgid "Name:"
+msgstr "名称："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: Interface/DataStructurePage.ui:38
+#, fuzzy
+#| msgid "Data Structure:"
+msgid "Data Structure Plugin:"
+msgstr "数据结构："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: Interface/DataStructurePage.ui:53
+#, fuzzy
+#| msgid "Data Structure"
+msgid "Data Structure Plugin Properties"
+msgstr "数据结构"
+
+#: Interface/DataStructurePropertiesDialog.cpp:50
+#, fuzzy
+#| msgid "Data Structure"
+msgctxt "@title:tab"
+msgid "Data Structure"
+msgstr "数据结构"
+
+#: Interface/DataStructurePropertiesDialog.cpp:51
+#: Interface/DocumentPropertiesDialog.cpp:36
+#, fuzzy
+#| msgid "Select"
+msgctxt "@title:tab"
+msgid "Data Types"
+msgstr "选择"
+
+#: Interface/DataStructurePropertiesDialog.cpp:52
+#: Interface/DocumentPropertiesDialog.cpp:37
+#, fuzzy
+#| msgid "Node Properties"
+msgctxt "@title:tab"
+msgid "Pointer Types"
+msgstr "节点属性"
+
+#: Interface/DataStructurePropertiesDialog.cpp:56
+#, fuzzy
+#| msgid "Data Structure"
+msgctxt "@title:window"
+msgid "Data Structure Properties"
+msgstr "数据结构"
+
+#: Interface/DataTypePage.cpp:68 Interface/PointerTypePage.cpp:68
+msgid "Name"
+msgstr "名称"
+
+#: Interface/DataTypePage.cpp:69 Interface/PointerTypePage.cpp:69
+#, fuzzy
+#| msgid "Data Color:"
+msgid "Default Value"
+msgstr "数据颜色："
+
+#: Interface/DataTypePage.cpp:70 Interface/PointerTypePage.cpp:70
+msgid "Display"
+msgstr ""
+
+#: Interface/DataTypePage.cpp:206 Interface/DataTypePage.cpp:327
+#: Interface/DataTypePage.cpp:340 Interface/PointerTypePage.cpp:219
+#: Interface/PointerTypePage.cpp:277 Interface/PointerTypePage.cpp:332
+#: Tools/GenerateGraph/GenerateGraphWidget.cpp:116
+#: Tools/GenerateGraph/GenerateGraphWidget.cpp:127
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "%1 (ID %2)"
+msgstr ""
+
+#: Interface/DataTypePage.cpp:250 Interface/DataTypePage.cpp:252
+#: Interface/PointerTypePage.cpp:305 Interface/PointerTypePage.cpp:307
+#, fuzzy, kde-format
+#| msgid "Property"
+msgctxt "Property identifier, only a-Z and no spaces"
+msgid "property%1"
+msgstr "属性"
+
+#: Interface/DataTypePage.cpp:336
+#, fuzzy
+#| msgid "Select"
+msgctxt "@item:inlistbox"
+msgid "Data Type"
+msgstr "选择"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: Interface/DataTypePage.ui:26
+#, fuzzy
+#| msgid "Select"
+msgid "Select Data Type:"
+msgstr "选择"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, deleteType)
+#: Interface/DataTypePage.ui:55
+#, fuzzy
+#| msgid "Select"
+msgid "Remove selected data type."
+msgstr "选择"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, addType)
+#: Interface/DataTypePage.ui:83
+#, fuzzy
+#| msgid "Data Structure"
+msgid "Add new data type."
+msgstr "数据结构"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, typeName)
+#: Interface/DataTypePage.ui:117 Interface/PointerTypePage.ui:115
+msgid "Insert a name for this type"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, typeDefaultColorLabel)
+#: Interface/DataTypePage.ui:137 Interface/PointerTypePage.ui:86
+#, fuzzy
+#| msgid "Data Color:"
+msgid "Default Color:"
+msgstr "数据颜色："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: Interface/DataTypePage.ui:216
+#, fuzzy
+#| msgid "Edge Properties"
+msgid "Data Type Properties"
+msgstr "边属性"
+
+#: Interface/DocumentPropertiesDialog.cpp:41
+#, fuzzy
+#| msgid "Node Properties"
+msgctxt "@title:window"
+msgid "Document Properties"
+msgstr "节点属性"
+
+#: Interface/EditorToolbar.cpp:58
+#, fuzzy
+#| msgid "Data"
+msgctxt "@title:menu"
+msgid "Add Data"
+msgstr "数据"
+
+#: Interface/EditorToolbar.cpp:60
+#, fuzzy
+#| msgid "Show values in:"
+msgctxt "@info:tooltip"
+msgid "Add new data element"
+msgstr "值显示于："
+
+#: Interface/EditorToolbar.cpp:64
+#, fuzzy
+#| msgid "Connection Type"
+msgctxt "@title:menu"
+msgid "Add Connection"
+msgstr "连接类型"
+
+#: Interface/EditorToolbar.cpp:65
+#, fuzzy
+#| msgid "Connection Type"
+msgctxt "@action:intoolbar"
+msgid "Add Connection"
+msgstr "连接类型"
+
+#: Interface/EditorToolbar.cpp:66
+msgctxt "@info:tooltip"
+msgid "Add a new connection between two data elements of selected type"
+msgstr ""
+
+#: Interface/model_GraphProperties.cpp:88
+msgid "Property"
+msgstr "属性"
+
+#: Interface/model_GraphProperties.cpp:89
+msgid "Value"
+msgstr "值"
+
+#: Interface/PointerPropertiesWidget.cpp:36
+#, fuzzy
+#| msgid "Node Properties"
+msgid "Edit Pointer Types"
+msgstr "节点属性"
+
+#: Interface/PointerPropertiesWidget.cpp:42
+#, fuzzy
+#| msgid "Node Properties"
+msgctxt "@title:window"
+msgid "Pointer Properties"
+msgstr "节点属性"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PointerPropertiesWidget)
+#: Interface/PointerPropertiesWidget.ui:26
+#, fuzzy
+#| msgid "Node Properties"
+msgid "Pointer Properties"
+msgstr "节点属性"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: Interface/PointerPropertiesWidget.ui:46
+msgid "Width:"
+msgstr "宽度："
+
+#: Interface/PointerTypePage.cpp:174
+#, fuzzy
+#| msgid "solid"
+msgctxt "@item:inlistbox"
+msgid "solid line"
+msgstr "实线"
+
+#: Interface/PointerTypePage.cpp:175
+#, fuzzy
+#| msgid "dash"
+msgctxt "@item:inlistbox"
+msgid "dash line"
+msgstr "虚线"
+
+#: Interface/PointerTypePage.cpp:176
+msgctxt "@item:inlistbox"
+msgid "dot line "
+msgstr ""
+
+#: Interface/PointerTypePage.cpp:177
+#, fuzzy
+#| msgid "dash dot"
+msgctxt "@item:inlistbox"
+msgid "dash dot line"
+msgstr "点划线"
+
+#: Interface/PointerTypePage.cpp:180
+msgctxt "@item:inlistbox"
+msgid "Unidirectional"
+msgstr ""
+
+#: Interface/PointerTypePage.cpp:181
+msgctxt "@item:inlistbox"
+msgid "Bidirectional"
+msgstr ""
+
+#: Interface/PointerTypePage.cpp:328
+#, fuzzy
+#| msgid "Connection Type"
+msgctxt "@item:inlistbox"
+msgid "Connection"
+msgstr "连接类型"
+
+#. i18n: ectx: property (toolTip), widget (KPushButton, deleteType)
+#: Interface/PointerTypePage.ui:38
+#, fuzzy
+#| msgid "Data Structure"
+msgid "Add new pointer type."
+msgstr "数据结构"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: Interface/PointerTypePage.ui:51
+#, fuzzy
+#| msgid "Select"
+msgid "Select Pointer Type:"
+msgstr "选择"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addType)
+#: Interface/PointerTypePage.ui:64
+#, fuzzy
+#| msgid "Select"
+msgid "Remove selected pointer type."
+msgstr "选择"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: Interface/PointerTypePage.ui:125
+#, fuzzy
+#| msgid "Connection Type"
+msgid "Direction:"
+msgstr "连接类型"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, typePointerDirection)
+#: Interface/PointerTypePage.ui:135
+msgid ""
+"<html><head/><body><p>Select if pointers of this type is unidirectional or "
+"bidirectional. Changing this value changes directions of all pointers of "
+"this type.</p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: Interface/PointerTypePage.ui:142
+msgid "Style:"
+msgstr "样式："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: Interface/PointerTypePage.ui:166
+#, fuzzy
+#| msgid "Node Properties"
+msgid "Pointer Type Properties"
+msgstr "节点属性"
+
+#: Scene/GraphScene.cpp:340
+#, fuzzy
+#| msgid "Data Structure"
+msgctxt "@title:menu"
+msgid "Data Structure"
+msgstr "数据结构"
+
+#: Scene/GraphScene.cpp:341
+#, fuzzy
+#| msgid "Select"
+msgctxt "@title:menu"
+msgid "Selected"
+msgstr "选择"
+
+#: Scene/GraphScene.cpp:363
+#, fuzzy
+#| msgid "Zoom"
+msgctxt "@title:menu"
+msgid "Zoom"
+msgstr "缩放"
+
+#: Scene/GraphScene.cpp:365
+#, fuzzy
+msgctxt "@action:inmenu Zoom"
+msgid "In"
+msgstr "接近"
+
+#: Scene/GraphScene.cpp:366
+#, fuzzy
+#| msgid "Output"
+msgctxt "@action:inmenu Zoom"
+msgid "Out"
+msgstr "远离"
+
+#: Scene/GraphScene.cpp:367
+#, fuzzy
+#| msgid "Reset"
+msgctxt "@action:inmenu Zoom"
+msgid "Reset"
+msgstr "重置"
+
+#: Scene/GraphScene.cpp:376 Scene/GraphScene.cpp:409
+msgid "Align"
+msgstr "对齐"
+
+#: Scene/GraphScene.cpp:377 Scene/GraphScene.cpp:410
+#, fuzzy
+#| msgid "Bottom"
+msgctxt "@action:inmenu align elements at bottom"
+msgid "Bottom"
+msgstr "底部"
+
+#: Scene/GraphScene.cpp:378 Scene/GraphScene.cpp:411
+#, fuzzy
+#| msgid "Center"
+msgctxt "@action:inmenu align elements at center"
+msgid "Center"
+msgstr "居中"
+
+#: Scene/GraphScene.cpp:379 Scene/GraphScene.cpp:412
+#, fuzzy
+#| msgid "Top"
+msgctxt "@action:inmenu align elements at top"
+msgid "Top"
+msgstr "顶部"
+
+#: Scene/GraphScene.cpp:380 Scene/GraphScene.cpp:413
+#, fuzzy
+#| msgid "Left"
+msgctxt "@action:inmenu align elements left"
+msgid "Left"
+msgstr "左"
+
+#: Scene/GraphScene.cpp:381 Scene/GraphScene.cpp:414
+#, fuzzy
+#| msgid "Right"
+msgctxt "@action:inmenu align elements right"
+msgid "Right"
+msgstr "右"
+
+#: Scene/GraphScene.cpp:382 Scene/GraphScene.cpp:415
+#, fuzzy
+#| msgid "Circle"
+msgctxt "@action:inmenu align elements as a circle"
+msgid "Circle"
+msgstr "圆形"
+
+#: Scene/GraphScene.cpp:383 Scene/GraphScene.cpp:416
+#, fuzzy
+#| msgid "Minimize Crossing Edges"
+msgctxt "@action:inmenu align elements such that crossing edges are minimized"
+msgid "Minimize Crossing Edges"
+msgstr "最小交叉边"
+
+#: Scene/GraphScene.cpp:396 Scene/GraphScene.cpp:454 Scene/GraphScene.cpp:459
+#, fuzzy
+#| msgid "Properties"
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "属性"
+
+#: Scene/GraphScene.cpp:418 Scene/GraphScene.cpp:423
+#, fuzzy
+#| msgid "Values"
+msgctxt "@title:menu Assign values"
+msgid "Values"
+msgstr "数值"
+
+#: Scene/GraphScene.cpp:419 Scene/GraphScene.cpp:424
+#, fuzzy
+#| msgid "generate"
+msgctxt "@action:inmenu Value"
+msgid "Enumerate"
+msgstr "生成"
+
+#: Scene/GraphScene.cpp:420 Scene/GraphScene.cpp:425
+#, fuzzy
+#| msgid "Random Integers"
+msgctxt "@action:inmenu Value"
+msgid "Random Integers"
+msgstr "随机整数"
+
+#: Scene/GraphScene.cpp:421 Scene/GraphScene.cpp:426
+#, fuzzy
+#| msgid "Random Graph"
+msgctxt "@action:inmenu Value"
+msgid "Random Reals"
+msgstr "随机图"
+
+#: Scene/GraphScene.cpp:433 Scene/GraphScene.cpp:434 Scene/GraphScene.cpp:435
+#, fuzzy
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "删除"
+
+#: Tools/AssignValues/AssignValuesToolsPlugin.cpp:42
+#, fuzzy
+#| msgid "Assign Values"
+msgctxt "@title Displayed plugin name"
+msgid "Assign Values"
+msgstr "赋值"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AssignValuesWidget)
+#: Tools/AssignValues/AssignValuesWidget.cpp:61
+#: Tools/AssignValues/AssignValuesWidget.ui:32
+msgid "Assign Values"
+msgstr "赋值"
+
+#: Tools/AssignValues/AssignValuesWidget.cpp:68
+#, fuzzy
+#| msgid "Select"
+msgid "All Data Types"
+msgstr "选择"
+
+#: Tools/AssignValues/AssignValuesWidget.cpp:72
+#, fuzzy
+#| msgid "Connection Type"
+msgid "All Connection Types"
+msgstr "连接类型"
+
+#: Tools/AssignValues/AssignValuesWidget.cpp:92
+#, fuzzy
+#| msgid "Node Properties"
+msgid "Enter Property Name"
+msgstr "节点属性"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: Tools/AssignValues/AssignValuesWidget.ui:40
+#, fuzzy
+#| msgid "Node Properties"
+msgid "Choose Properties"
+msgstr "节点属性"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonShowAdvanced)
+#: Tools/AssignValues/AssignValuesWidget.ui:59
+#, fuzzy
+#| msgid "Show values in:"
+msgid "Show advanced options."
+msgstr "值显示于："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: Tools/AssignValues/AssignValuesWidget.ui:74
+msgid "Assignment Method"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, IDlabelStartValue)
+#. i18n: ectx: property (text), widget (QLabel, LabelAlphaNumericID)
+#: Tools/AssignValues/AssignValuesWidget.ui:98
+#: Tools/AssignValues/AssignValuesWidget.ui:158
+msgid "Start ID"
+msgstr "开始 ID"
+
+#. i18n: ectx: property (text), widget (QLabel, LabelInitialString)
+#: Tools/AssignValues/AssignValuesWidget.ui:133
+msgid "Initial string"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLineEdit, LineEditInitialString)
+#: Tools/AssignValues/AssignValuesWidget.ui:140
+msgid "a"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, LabelAlphaNumericPrefix)
+#: Tools/AssignValues/AssignValuesWidget.ui:175
+msgid "Prefix"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: Tools/AssignValues/AssignValuesWidget.ui:196
+#: Tools/AssignValues/AssignValuesWidget.ui:264
+msgid "Lower Limit"
+msgstr "下限"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: Tools/AssignValues/AssignValuesWidget.ui:216
+#: Tools/AssignValues/AssignValuesWidget.ui:271
+msgid "Upper Limit"
+msgstr "上限"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: Tools/AssignValues/AssignValuesWidget.ui:223
+#: Tools/AssignValues/AssignValuesWidget.ui:278
+msgid "Generator Seed"
+msgstr "生成器种子"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: Tools/AssignValues/AssignValuesWidget.ui:338
+msgid "Constant"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboBoxMethod)
+#: Tools/AssignValues/AssignValuesWidget.ui:355
+#, fuzzy
+#| msgid "generate"
+msgid "Enumerate Items"
+msgstr "生成"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboBoxMethod)
+#: Tools/AssignValues/AssignValuesWidget.ui:360
+#, fuzzy
+#| msgid "generate"
+msgid "Enumerate Alpha"
+msgstr "生成"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboBoxMethod)
+#: Tools/AssignValues/AssignValuesWidget.ui:365
+#, fuzzy
+#| msgid "generate"
+msgid "Enumerate Alpha-Numeric"
+msgstr "生成"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboBoxMethod)
+#: Tools/AssignValues/AssignValuesWidget.ui:370
+msgid "Assign Random Integers"
+msgstr "赋随机整数"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboBoxMethod)
+#: Tools/AssignValues/AssignValuesWidget.ui:375
+#, fuzzy
+#| msgid "Random Graph"
+msgid "Assign Random Reals"
+msgstr "随机图"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboBoxMethod)
+#: Tools/AssignValues/AssignValuesWidget.ui:380
+#, fuzzy
+#| msgid "Assign Values"
+msgid "Assign Constant Value"
+msgstr "赋值"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: Tools/AssignValues/AssignValuesWidget.ui:400
+msgid "Overwrite existing values"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelData)
+#: Tools/AssignValues/AssignValuesWidget.ui:427
+#, fuzzy
+#| msgid "Data"
+msgid "Data"
+msgstr "数据"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, dataStructuresCombo)
+#: Tools/AssignValues/AssignValuesWidget.ui:444
+#: Tools/TransformEdges/TransformEdgesWidget.ui:31
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">List of all data "
+"structures that are of type <span style=\" font-style:italic;\">Graph</span>."
+"</p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">所有<span style=\" font-"
+"style:italic;\">图</span>类型的数据结构列表。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QLabel, labelDataStructure)
+#: Tools/AssignValues/AssignValuesWidget.ui:454
+msgid "Data Structure"
+msgstr "数据结构"
+
+#. i18n: ectx: property (text), widget (QLabel, labelProperty)
+#: Tools/AssignValues/AssignValuesWidget.ui:464
+#, fuzzy
+#| msgid "Property"
+msgid "Property Name"
+msgstr "属性"
+
+#. i18n: ectx: property (text), widget (QLabel, labelConnection)
+#: Tools/AssignValues/AssignValuesWidget.ui:477
+#, fuzzy
+#| msgid "Connection Type"
+msgid "Connection"
+msgstr "连接类型"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, applyToConnections)
+#: Tools/AssignValues/AssignValuesWidget.ui:499
+#, fuzzy
+#| msgid "Show values in:"
+msgid "Assign values to selected connections."
+msgstr "值显示于："
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, applyToDataElements)
+#: Tools/AssignValues/AssignValuesWidget.ui:526
+#, fuzzy
+#| msgid "Show values in:"
+msgid "Assign values to selected data elements."
+msgstr "值显示于："
+
+#: Tools/GenerateGraph/GenerateGraphToolsPlugin.cpp:32
+#, fuzzy
+#| msgid "Generate Graph"
+msgctxt "@Title Displayed plugin name"
+msgid "Generate Graph"
+msgstr "生成图"
+
+#: Tools/GenerateGraph/GenerateGraphWidget.cpp:85
+#, fuzzy
+#| msgid "Generate Graph"
+msgctxt "@title:window"
+msgid "Generate Graph"
+msgstr "生成图"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, GenerateGraphWidget)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:14
+msgid "Generate Graph"
+msgstr "生成图"
+
+#. i18n: ectx: property (text), widget (QLabel, labelGenerator)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:20
+#, fuzzy
+#| msgid "graph name here"
+msgid "Graph Generator"
+msgstr "图形名称"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelDataType)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:27
+msgid "The node type to create the nodes of the graph with"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelDataType)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:30
+#, fuzzy
+#| msgid "Select"
+msgid "Data type"
+msgstr "选择"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, comboGraphGenerator)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:46
+#, fuzzy
+#| msgid "graph name here"
+msgid "Select the graph generator."
+msgstr "图形名称"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:50
+msgid "Mesh Graph"
+msgstr "节点图"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:55
+msgid "Star Graph"
+msgstr "星图"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:60
+msgid "Circle Graph"
+msgstr "圈图"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:65
+msgid "Random Graph"
+msgstr "随机图"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:70
+msgid "Erdös-Renyi Graph"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, comboGraphGenerator)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:75
+#, fuzzy
+#| msgid "Random Graph"
+msgid "Random Tree Graph"
+msgstr "随机图"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonShowAdvanced)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:95
+#, fuzzy
+#| msgid "Show values in:"
+msgid "Show advanced settings."
+msgstr "值显示于："
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelIdentifier)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:110
+msgid "The identifier of the created graph (used for scripting)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelIdentifier)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:113
+msgid "Identifier"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_columns)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:132
+msgid "Number of Columns:"
+msgstr "列数："
+
+#. i18n: ectx: property (text), widget (QLabel, label_rows)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:152
+msgid "Number of Rows:"
+msgstr "行数："
+
+#. i18n: ectx: property (text), widget (QLabel, label_numberSatellite)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:180
+msgid "Satellite Nodes:"
+msgstr "卫星节点："
+
+#. i18n: ectx: property (text), widget (QLabel, label_numberCircle)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:208
+msgid "Number of Nodes:"
+msgstr "节点数："
+
+#. i18n: ectx: property (text), widget (QLabel, label_randomNodes)
+#. i18n: ectx: property (text), widget (QLabel, label_randomTreeNodes)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:236
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:388
+msgid "Nodes:"
+msgstr "节点："
+
+#. i18n: ectx: property (text), widget (QLabel, label_randomEdges)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:256
+msgid "Edges:"
+msgstr "边："
+
+#. i18n: ectx: property (text), widget (QLabel, label_randomSelfEdges)
+#. i18n: ectx: property (text), widget (QLabel, label_GNPSelfEdges)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:270
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:316
+msgid "Allow self-edges:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_randomGeneratorSeed)
+#. i18n: ectx: property (text), widget (QLabel, label_GNPGeneratorSeed)
+#. i18n: ectx: property (text), widget (QLabel, label_randomTreeGeneratorSeed)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:277
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:340
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:405
+msgid "Generator Seed:"
+msgstr "生成器种子："
+
+#. i18n: ectx: property (text), widget (QLabel, label_GNPNodes)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:309
+#, fuzzy
+#| msgid "Nodes:"
+msgid "Nodes (n):"
+msgstr "节点："
+
+#. i18n: ectx: property (text), widget (QLabel, label_GNPEdgeProbability)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:333
+msgid "Edge Probability (p):"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelPointerType)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:428
+msgid "The pointer type to create the pointers of the graph with"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelPointerType)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:431
+#, fuzzy
+#| msgid "Node Properties"
+msgid "Pointer type"
+msgstr "节点属性"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, dataTypeSelector)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:438
+msgid "Select the data type for data elements of the generated graph."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, pointerTypeSelector)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:445
+msgid "Select the pointer type for connections of the generated graph."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, identifier)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:452
+msgid "Set the unique identifier of the generated graph."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLineEdit, identifier)
+#: Tools/GenerateGraph/GenerateGraphWidget.ui:455
+#, fuzzy
+#| msgid "Graph"
+msgid "Graph"
+msgstr "图"
+
+#: Tools/TransformEdges/TransformEdgesToolsPlugin.cpp:43
+#, fuzzy
+#| msgid "Transform Edges"
+msgctxt "@title Displayed plugin name"
+msgid "Transform Edges"
+msgstr "转换边"
+
+#: Tools/TransformEdges/TransformEdgesWidget.cpp:62
+#, fuzzy
+#| msgid "Transform Edges"
+msgctxt "@title:window"
+msgid "Transform Edges"
+msgstr "转换边"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, TransformEdgesWidget)
+#: Tools/TransformEdges/TransformEdgesWidget.ui:14
+msgid "Transform Edges"
+msgstr "转换边"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioButtonMakeComplete)
+#: Tools/TransformEdges/TransformEdgesWidget.ui:47
+msgid ""
+"This option connects all nodes of the given graph. The new edges do not have "
+"any preset weights."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonMakeComplete)
+#: Tools/TransformEdges/TransformEdgesWidget.ui:50
+msgid "Complete Graph"
+msgstr "完全图"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioButtonEraseEdges)
+#: Tools/TransformEdges/TransformEdgesWidget.ui:60
+msgid "This option removes all edges from the given graph."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonEraseEdges)
+#: Tools/TransformEdges/TransformEdgesWidget.ui:63
+#, fuzzy
+#| msgid "Remove Edges"
+msgid "Remove all Edges"
+msgstr "删除边"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioButtonReverseEdges)
+#: Tools/TransformEdges/TransformEdgesWidget.ui:70
+msgid ""
+"This option reverses all edges of a directed graph. Note that this does not "
+"apply to undirected graphs."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonReverseEdges)
+#: Tools/TransformEdges/TransformEdgesWidget.ui:73
+#, fuzzy
+#| msgid "Remove Edges"
+msgid "Reverse all Edges"
+msgstr "删除边"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, radioButtonMakeSpanningtree)
+#: Tools/TransformEdges/TransformEdgesWidget.ui:84
+#, fuzzy
+#| msgid ""
+#| "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+#| "REC-html40/strict.dtd\">\n"
+#| "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#| "css\">\n"
+#| "p, li { white-space: pre-wrap; }\n"
+#| "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; "
+#| "font-weight:400; font-style:normal;\">\n"
+#| "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#| "right:0px; -qt-block-indent:0; text-indent:0px;\">List of all data "
+#| "structures that are of type <span style=\" font-style:italic;\">Graph</"
+#| "span>.</p></body></html>"
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">This option executes <span "
+"style=\" font-style:italic;\">Prim's Minimal Spanning Tree Algorithm</span> "
+"at the graph. All edges without given weights are assumed to have weights "
+"equals 1. Directed and undirected graphs are processed accordingly.</p></"
+"body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">所有<span style=\" font-"
+"style:italic;\">图</span>类型的数据结构列表。</p></body></html>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButtonMakeSpanningtree)
+#: Tools/TransformEdges/TransformEdgesWidget.ui:87
+msgid "Spanning Tree Transformation"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Random Graph"
+#~ msgid "RandomGraph"
+#~ msgstr "随机图"
+
+#~ msgid "Graph Type:"
+#~ msgstr "图类型："
+
+#~ msgid "untitled"
+#~ msgstr "无标题"
+
+#~ msgid "Nodes"
+#~ msgstr "节点"
+
+#~ msgid "Edges"
+#~ msgstr "边"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "document that contains graphs or data structures as a visual "
+#~ "representation"
+#~ msgid "Document"
+#~ msgstr "文档"
+
+#, fuzzy
+#~| msgid "Unique"
+#~ msgctxt "dynamic property that is present exactly once"
+#~ msgid "Unique"
+#~ msgstr "单一"
+
+#, fuzzy
+#~| msgid "Multiple"
+#~ msgctxt "dynamic property that is present multiple times"
+#~ msgid "Multiple"
+#~ msgstr "多个"
+
+#, fuzzy
+#~| msgid "Global"
+#~ msgctxt "dynamic property that is present at all elements"
+#~ msgid "Global"
+#~ msgstr "全局"
+
+#~ msgctxt "type of dynamic property"
+#~ msgid "None"
+#~ msgstr "无"
+
+#~ msgid ""
+#~ "A KDE Text Editor could not be found, \n"
+#~ " please, check your installation"
+#~ msgstr ""
+#~ "无法找到 KDE 文本编辑器，\n"
+#~ "请检查您的安装"
+
+#~ msgid "Default Information Display"
+#~ msgstr "默认信息显示"
+
+#~ msgid "Node Information"
+#~ msgstr "节点信息"
+
+#~ msgid "centered"
+#~ msgstr "居中"
+
+#~ msgid "below"
+#~ msgstr "下方"
+
+#~ msgid "above"
+#~ msgstr "上方"
+
+#~ msgid "Edge Information"
+#~ msgstr "边信息"
+
+#~ msgid "Execution Options"
+#~ msgstr "执行选项"
+
+#, fuzzy
+#~| msgid "Show values in:"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Set visibility of pointers"
+#~ msgstr "值显示于："
+
+#, fuzzy
+#~| msgid "Node Properties"
+#~ msgid "Element Types"
+#~ msgstr "节点属性"
+
+#~ msgid "*|All files"
+#~ msgstr "*|全部文件"
+
+#, fuzzy
+#~| msgid "Export"
+#~ msgctxt "@action:button"
+#~ msgid "Export"
+#~ msgstr "导出"
+
+#, fuzzy
+#~| msgid "Export graphs to file"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Export graphs to file"
+#~ msgstr "将图导出到文件"
+
+#, fuzzy
+#~| msgid "Open Script"
+#~ msgctxt "@title:window"
+#~ msgid "Import Graph File into Project"
+#~ msgstr "打开脚本"
+
+#~ msgid "*.js|Script files"
+#~ msgstr "*.js|脚本文件"
+
+#~ msgid "Rocs Script Files"
+#~ msgstr "Rocs 脚本文件"
+
+#, fuzzy
+#~| msgid "Program Messages"
+#~ msgctxt "@item:inlistbox Select output"
+#~ msgid "Program Messages"
+#~ msgstr "程序信息"
+
+#, fuzzy
+#~| msgid "Debug Messages"
+#~ msgctxt "@item:inlistbox Select output"
+#~ msgid "Debug Messages"
+#~ msgstr "调试信息"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgctxt "@label:listbox"
+#~ msgid "Select output:"
+#~ msgstr "选择"
+
+#, fuzzy
+#~| msgid "Run"
+#~ msgctxt "@action:intoolbar Script Execution"
+#~ msgid "Run"
+#~ msgstr "运行"
+
+#, fuzzy
+#~| msgid "Stop"
+#~ msgctxt "@action:intoolbar Script Execution"
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#, fuzzy
+#~| msgid "Node Properties"
+#~ msgctxt "@action:inmenu"
+#~ msgid "New Project"
+#~ msgstr "节点属性"
+
+#, fuzzy
+#~| msgid "Save Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Project"
+#~ msgstr "保存脚本"
+
+#, fuzzy
+#~| msgid "Open Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Open Project"
+#~ msgstr "打开脚本"
+
+#, fuzzy
+#~| msgid "Open Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Recent Projects"
+#~ msgstr "打开脚本"
+
+#, fuzzy
+#~| msgid "Save Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Project as"
+#~ msgstr "保存脚本"
+
+#, fuzzy
+#~| msgid "New Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "New Graph Document"
+#~ msgstr "新建图"
+
+#, fuzzy
+#~| msgid "New Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "New Script File"
+#~ msgstr "新建脚本"
+
+#, fuzzy
+#~| msgid "Complete Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Import Graph"
+#~ msgstr "完全图"
+
+#, fuzzy
+#~| msgid "Export Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Export Graph as"
+#~ msgstr "导出图表"
+
+#, fuzzy
+#~| msgid "Download Examples"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Download Examples"
+#~ msgstr "下载示例"
+
+#, fuzzy
+#~| msgid "Upload script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Upload project"
+#~ msgstr "上传脚本"
+
+#, fuzzy
+#~| msgid "Possible Includes"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Possible Includes"
+#~ msgstr "可能的包含"
+
+#, fuzzy
+#~| msgid "Complete Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Import Script"
+#~ msgstr "完全图"
+
+#, fuzzy
+#~| msgid "Complete Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Export Script as"
+#~ msgstr "完全图"
+
+#, fuzzy
+#~| msgid "Includes"
+#~ msgctxt "@title:tab"
+#~ msgid "Include Manager"
+#~ msgstr "包含"
+
+#, fuzzy
+#~| msgid "This does not seem to be a graph file."
+#~ msgctxt "@info"
+#~ msgid "This does not seem to be a graph file."
+#~ msgstr "这似乎不是一个图文件。"
+
+#, fuzzy
+#~| msgid "Invalid file"
+#~ msgctxt "@title:window"
+#~ msgid "Invalid File"
+#~ msgstr "无效的文件"
+
+#, fuzzy
+#~| msgid ""
+#~| "*.graph|Graph files\n"
+#~| "*|All files"
+#~ msgid ""
+#~ "*.rocs|Rocs project files\n"
+#~ "*.rocsz|Compressed Rocs project files\n"
+#~ "*|All files"
+#~ msgstr ""
+#~ "*.graph|图文件\n"
+#~ "*.*|所有文件"
+
+#, fuzzy
+#~| msgid "Save Script"
+#~ msgctxt "@title:window"
+#~ msgid "Save Project"
+#~ msgstr "保存脚本"
+
+#, fuzzy
+#~| msgid "Node Properties"
+#~ msgctxt "@title:window"
+#~ msgid "Open Project Files"
+#~ msgstr "节点属性"
+
+#, fuzzy
+#~| msgid "untitled"
+#~ msgctxt "caption text for temporary project"
+#~ msgid "[ untitled ]"
+#~ msgstr "无标题"
+
+#, fuzzy
+#~| msgid "Script"
+#~ msgid "ScriptName"
+#~ msgstr "脚本"
+
+#, fuzzy
+#~| msgid ""
+#~| "*.graph|Graph files\n"
+#~| "*|All files"
+#~ msgid ""
+#~ "*.graph|Rocs graph documents\n"
+#~ "*|All files"
+#~ msgstr ""
+#~ "*.graph|图文件\n"
+#~ "*.*|所有文件"
+
+#, fuzzy
+#~| msgid "Save Graph"
+#~ msgctxt "@title:window"
+#~ msgid "Save Graph Document"
+#~ msgstr "保存图"
+
+#, fuzzy
+#~| msgid "New Graph"
+#~ msgid "Enter the name of the Graph"
+#~ msgstr "新建图"
+
+#, fuzzy
+#~| msgid "Possible Includes"
+#~ msgid "Possible Includes for Script Engine"
+#~ msgstr "可能的包含"
+
+#, fuzzy
+#~| msgid "No active graph in this document."
+#~ msgid "Read and write Graphviz graph files."
+#~ msgstr "此文档中没有活动图像。"
+
+#, fuzzy
+#~| msgid "*.dot|Graphviz Files"
+#~ msgid "*.dot *.gv|Graphviz Format"
+#~ msgstr "*.dot|Graphviz 文件"
+
+#, fuzzy
+#~| msgid "Import"
+#~ msgid "Import"
+#~ msgstr "导入"
+
+#, fuzzy
+#~| msgid "Cannot open file %1: %2"
+#~ msgid "Could not open file \"%1\" in read mode: %2"
+#~ msgstr "无法打开文件 %1：%2"
+
+#, fuzzy
+#~| msgid "cannot parse the file %1."
+#~ msgid "Could not parse file \"%1\"."
+#~ msgstr "无法解析文件 %1。"
+
+#~ msgid "No active graph in this document."
+#~ msgstr "此文档中没有活动图像。"
+
+#, fuzzy
+#~| msgid "Can't open file %1 to write document. Error: %2"
+#~ msgid "Cannot open file %1 to write document. Error: %2"
+#~ msgstr "无法打开文件 %1 以供写入文档。错误：%2"
+
+#, fuzzy
+#~| msgid "Open and Save Keyhole Markup Language files"
+#~ msgid "Read and write Graph Markup Language (GML) files."
+#~ msgstr "打开并保存 Keyhole 标记语言文件"
+
+#, fuzzy
+#~| msgid "*.kml|Keyhole Markup Language Files"
+#~ msgid "*.gml|Graph Markup Language Format"
+#~ msgstr ".kml|Keyhole 标记语言文件"
+
+#, fuzzy
+#~| msgid "Open and Save Keyhole Markup Language files"
+#~ msgid "Read and write Keyhole Markup Language (KML) files."
+#~ msgstr "打开并保存 Keyhole 标记语言文件"
+
+#, fuzzy
+#~| msgid "*.kml|Keyhole Markup Language Files"
+#~ msgid "*.kml|Keyhole Markup Language Format"
+#~ msgstr ".kml|Keyhole 标记语言文件"
+
+#~ msgid "Cannot open file %1: %2"
+#~ msgstr "无法打开文件 %1：%2"
+
+#, fuzzy
+#~| msgid "No active graph in this document."
+#~ msgid "Read and write Trivial Graph Format (TGF) files."
+#~ msgstr "此文档中没有活动图像。"
+
+#, fuzzy
+#~| msgid "Can't open file %1 to write document. Error: %2"
+#~ msgid "Could not open file \"%1\" in write mode: %2"
+#~ msgstr "无法打开文件 %1 以供写入文档。错误：%2"
+
+#, fuzzy
+#~| msgid "No active graph in this document."
+#~ msgid "No data structure specified for output in this document."
+#~ msgstr "此文档中没有活动图像。"
+
+#, fuzzy
+#~| msgid ""
+#~| "*.graph|Graph files\n"
+#~| "*|All files"
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Rocs Graph File Backend"
+#~ msgstr ""
+#~ "*.graph|图文件\n"
+#~ "*.*|所有文件"
+
+#, fuzzy
+#~| msgid "Open and Save Graphviz files"
+#~ msgid "Read and write Rocs Graph Files"
+#~ msgstr "打开和保存 Graphviz 文件"
+
+#, fuzzy
+#~| msgid ""
+#~| "*.graph|Graph files\n"
+#~| "*|All files"
+#~ msgid "*.graph|Rocs Graph File Format"
+#~ msgstr ""
+#~ "*.graph|图文件\n"
+#~ "*.*|所有文件"
+
+#, fuzzy
+#~| msgid "Rocs"
+#~ msgctxt "@title Displayed program name"
+#~ msgid "Rocs"
+#~ msgstr "Rocs"
+
+#, fuzzy
+#~| msgid "Graph Theory Tool"
+#~ msgctxt "@title KAboutData: short program description"
+#~ msgid "Graph Theory Tool"
+#~ msgstr "图论工具"
+
+#, fuzzy
+#~| msgid "Rocs - Data Structure Training"
+#~ msgctxt "@title Short program description"
+#~ msgid "Rocs - Data Structure Analysis"
+#~ msgstr "Rocs - 数据结构训练"
+
+#, fuzzy
+#~| msgid "Tomaz Canabrava"
+#~ msgctxt "@info:credit Developer name"
+#~ msgid "Tomaz Canabrava"
+#~ msgstr "Tomaz Canabrava"
+
+#, fuzzy
+#~| msgid "Developer"
+#~ msgctxt "@info:credit Role"
+#~ msgid "Developer"
+#~ msgstr "开发者"
+
+#, fuzzy
+#~| msgid "Wagner Reck"
+#~ msgctxt "@info:credit Developer name"
+#~ msgid "Wagner Reck"
+#~ msgstr "Wagner Reck"
+
+#, fuzzy
+#~| msgid "Andreas Cord-Landwehr"
+#~ msgctxt "@info:credit Developer name"
+#~ msgid "Andreas Cord-Landwehr"
+#~ msgstr "Andreas Cord-Landwehr"
+
+#, fuzzy
+#~| msgid "Graph Structure"
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Graph Structure"
+#~ msgstr "图结构"
+
+#, fuzzy
+#~| msgid "x"
+#~ msgctxt "coordinate axis"
+#~ msgid "x"
+#~ msgstr "x"
+
+#, fuzzy
+#~| msgid "y"
+#~ msgctxt "coordinate axis"
+#~ msgid "y"
+#~ msgstr "y"
+
+#~ msgid "Size"
+#~ msgstr "大小"
+
+#, fuzzy
+#~| msgid "Multigraph"
+#~ msgctxt ""
+#~ "@label:inlistbox graph for which several edges between same nodes may "
+#~ "exist"
+#~ msgid "Multigraph"
+#~ msgstr "多图"
+
+#~ msgid ""
+#~ "This action will probably remove some edges. Do you want to continue?"
+#~ msgstr "此动作可能会删除边，是否继续？"
+
+#, fuzzy
+#~| msgid "Linked List Structure"
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Linked List Structure"
+#~ msgstr "链表结构"
+
+#~ msgid "Front value"
+#~ msgstr "前端值"
+
+#~ msgid "Cannot convert document '%1'"
+#~ msgstr "无法转换文档“%1”"
+
+#, fuzzy
+#~| msgid "Data Structure"
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "RootedTree Structure"
+#~ msgstr "数据结构"
+
+#, fuzzy
+#~| msgid "Show values in:"
+#~ msgctxt "@option:check"
+#~ msgid "Show all pointers"
+#~ msgstr "值显示于："
+
+#~ msgid "Show text beside icon"
+#~ msgstr "在图标旁显示文本"
+
+#~ msgid "Path where include manager seek for includes."
+#~ msgstr "包含管理器的搜索路径。"
+
+#, fuzzy
+#~| msgid "Save Script"
+#~ msgid "Script Document"
+#~ msgstr "保存脚本"
+
+#, fuzzy
+#~| msgid "New Script"
+#~ msgid "Script File"
+#~ msgstr "新建脚本"
+
+#, fuzzy
+#~| msgid "New Graph"
+#~ msgid "Graph Document"
+#~ msgstr "新建图"
+
+#, fuzzy
+#~| msgid "Graph Files"
+#~ msgid "Graph File"
+#~ msgstr "图文件"
+
+#, fuzzy
+#~| msgid "Select"
+#~ msgid "Edit Selected Data"
+#~ msgstr "选择"
+
+#~ msgid "Layout"
+#~ msgstr "布局"
+
+#~ msgid "Tools"
+#~ msgstr "工具"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "主工具栏"
+
+#~ msgid "Layout Toolbar"
+#~ msgstr "布局工具栏"
+
+#, fuzzy
+#~| msgid "Cannot open file %2."
+#~ msgid "Cannot open file %1."
+#~ msgstr "无法打开文件 %2。"
+
+#, fuzzy
+#~| msgid ""
+#~| "debug(\"Invalid include directive: %1. Can't find file in directive.\")"
+#~ msgid "Invalid include directive: %1. Cannot find file in directive."
+#~ msgstr "debug(\"无效的包含指令：%1。找不到文件。\")"
+
+#~ msgid "Untitled"
+#~ msgstr "无标题"
+
+#~ msgid "New File"
+#~ msgstr "新建文件"
+
+#~ msgid "Untitled%1"
+#~ msgstr "无标题%1"
+
+#, fuzzy
+#~| msgid "Data Structure"
+#~ msgid "Data structure name"
+#~ msgstr "数据结构"
+
+#, fuzzy
+#~| msgid "Data Structure"
+#~ msgid "Delete this data structure"
+#~ msgstr "数据结构"
+
+#, fuzzy
+#~| msgid "Delete the current active graph: delete all nodes and edges"
+#~ msgid ""
+#~ "Delete the current data structure: delete all data elements and all "
+#~ "pointers"
+#~ msgstr "删除当前活动的图：删除全部节点和边"
+
+#, fuzzy
+#~| msgid "Data Structure"
+#~ msgctxt "@action:button"
+#~ msgid "Add Data Structure"
+#~ msgstr "数据结构"
+
+#, fuzzy
+#~| msgid "Open Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Export Project"
+#~ msgstr "打开脚本"
+
+#, fuzzy
+#~| msgid "Open Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Import Project"
+#~ msgstr "打开脚本"
+
+#, fuzzy
+#~| msgid "Name"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Set Name"
+#~ msgstr "名称"
+
+#, fuzzy
+#~| msgid "Save Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Graph"
+#~ msgstr "保存图"
+
+#, fuzzy
+#~| msgid "Save Script"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Script"
+#~ msgstr "保存脚本"
+
+#, fuzzy
+#~| msgid "Save Script as"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Script as"
+#~ msgstr "脚本另存为"
+
+#, fuzzy
+#~| msgid "Save Script"
+#~ msgctxt "@title:window"
+#~ msgid "Set Project Name"
+#~ msgstr "保存脚本"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "@label:textbox name of the project"
+#~ msgid "Name:"
+#~ msgstr "名称："
+
+#, fuzzy
+#~| msgid "Save Script"
+#~ msgctxt "@title:window"
+#~ msgid "Save Script Document"
+#~ msgstr "保存脚本"
+
+#, fuzzy
+#~| msgid "Open Script"
+#~ msgctxt "@title:window"
+#~ msgid "Export Project"
+#~ msgstr "打开脚本"
+
+#~ msgid "Edge Properties"
+#~ msgstr "边属性"
+
+#~ msgid "Edge name"
+#~ msgstr "边名称"
+
+#~ msgid "Edge color"
+#~ msgstr "边颜色"
+
+#~ msgid "Value:"
+#~ msgstr "值："
+
+#~ msgid "Edge value"
+#~ msgstr "边值"
+
+#~ msgid "Edge width"
+#~ msgstr "边宽度"
+
+#~ msgid "Show"
+#~ msgstr "显示"
+
+#~ msgid "Show/hide edge name"
+#~ msgstr "显示/隐藏边名称"
+
+#~ msgid "Show/add edge value"
+#~ msgstr "显示/添加边值"
+
+#~ msgid "Add Property"
+#~ msgstr "添加属性"
+
+#~ msgid "Global"
+#~ msgstr "全局"
+
+#~ msgid "add"
+#~ msgstr "增加"
+
+#~ msgid "%1"
+#~ msgstr "%1"
+
+#~ msgid "v=%1"
+#~ msgstr "v=%1"
+
+#, fuzzy
+#~| msgid "Untitled%1"
+#~ msgctxt "Property keyword only caracters from a to z (no spaces)"
+#~ msgid "untitled%1"
+#~ msgstr "无标题%1"
+
+#, fuzzy
+#~| msgid "Disable Color"
+#~ msgid "Enable Color"
+#~ msgstr "禁用颜色"
+
+#, fuzzy
+#~| msgid "Data Structure"
+#~ msgid "Data Structure Specific Properties"
+#~ msgstr "数据结构"
+
+#, fuzzy
+#~| msgid "Show values in:"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Show names of data elements"
+#~ msgstr "值显示于："
+
+#, fuzzy
+#~| msgid "Show names in:"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Show names of pointers"
+#~ msgstr "名称显示于："
+
+#~ msgid "Delete"
+#~ msgstr "删除"
+
+#~ msgid "Type"
+#~ msgstr "类型"
+
+#~ msgid "Edge style"
+#~ msgstr "边样式"
+
+#~ msgid "dot"
+#~ msgstr "点线"
+
+#, fuzzy
+#~| msgid "Undirected Graph"
+#~ msgctxt "@label:inlistbox"
+#~ msgid "Undirected Graph"
+#~ msgstr "无向图"
+
+#, fuzzy
+#~| msgid "Directed Graph"
+#~ msgctxt "@label:inlistbox"
+#~ msgid "Directed Graph"
+#~ msgstr "有向图"
+
+#, fuzzy
+#~| msgid "Undirected Graph"
+#~ msgctxt ""
+#~ "@label:inlistbox Undirected graph for which several edges between same "
+#~ "nodes may exist"
+#~ msgid "Undirected Multigraph"
+#~ msgstr "无向图"
+
+#, fuzzy
+#~| msgid "Directed Graph"
+#~ msgctxt ""
+#~ "@label:inlistbox Directed graph for which several same orientated edges "
+#~ "between same nodes may exist"
+#~ msgid "Directed Multigraph"
+#~ msgstr "有向图"
+
+#, fuzzy
+#~| msgid "Open and Save GML files"
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Open and Save GML files"
+#~ msgstr "打开和保存 GML 文件"
+
+#~ msgid ""
+#~ "*.graph|Graph files\n"
+#~ "*|All files"
+#~ msgstr ""
+#~ "*.graph|图文件\n"
+#~ "*.*|所有文件"
+
+#, fuzzy
+#~| msgid "Complete Graph"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Import Rocs Graph"
+#~ msgstr "完全图"
+
+#, fuzzy
+#~| msgid "Save Graph as"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Save Graph as"
+#~ msgstr "另存图"
+
+#, fuzzy
+#~| msgid "Can't Open the file: %1. Error %2"
+#~ msgid "Cannot open the file: %1. Error %2"
+#~ msgstr "无法打开文件：%1。错误 %2"
+
+#, fuzzy
+#~| msgid "Open and Save Plain TXT files"
+#~ msgctxt "@title Displayed plugin name"
+#~ msgid "Open and Save Plain TXT files"
+#~ msgstr "打开和保存纯文本文件"
+
+#~ msgid "*.txt|Plain TXT Files"
+#~ msgstr "*.txt|纯文本文件"
+
+#, fuzzy
+#~| msgid "Add"
+#~ msgctxt "@action:button"
+#~ msgid "Add"
+#~ msgstr "添加"
+
+#~ msgid "Add Node"
+#~ msgstr "添加节点"
+
+#, fuzzy
+#~| msgid "Name:"
+#~ msgctxt "name of the project"
+#~ msgid "Name:"
+#~ msgstr "名称："
+
+#, fuzzy
+#~| msgid "Center"
+#~ msgctxt "align elements at center"
+#~ msgid "Center"
+#~ msgstr "居中"
+
+#, fuzzy
+#~| msgid "Top"
+#~ msgctxt "align elements at top"
+#~ msgid "Top"
+#~ msgstr "顶部"
+
+#, fuzzy
+#~| msgid "Left"
+#~ msgctxt "align elements left"
+#~ msgid "Left"
+#~ msgstr "左"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgctxt "align elements right"
+#~ msgid "Right"
+#~ msgstr "右"
+
+#, fuzzy
+#~| msgid "Circle"
+#~ msgctxt "align elements as a circle"
+#~ msgid "Circle"
+#~ msgstr "圆形"
+
+#, fuzzy
+#~| msgid "Minimize Crossing Edges"
+#~ msgctxt "align elements such that crossing edges are minimized"
+#~ msgid "Minimize Crossing Edges"
+#~ msgstr "最小交叉边"
+
+#, fuzzy
+#~| msgid "Type"
+#~ msgid "Type Icon:"
+#~ msgstr "类型"
+
+#, fuzzy
+#~| msgid "Export graphs to file"
+#~ msgid "Export as new Type"
+#~ msgstr "将图导出到文件"
+
+#~ msgid "Open Script"
+#~ msgstr "打开脚本"
+
+#~ msgid "Edit"
+#~ msgstr "编辑"
+
+#, fuzzy
+#~| msgid "Pointers"
+#~ msgid "Pointer"
+#~ msgstr "光标"
+
+#~ msgid "Delete the active graph"
+#~ msgstr "删除活动的图"
+
+#~ msgctxt "@action:button"
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Apply to all nodes"
+#~ msgstr "应用于全部节点"
+
+#~ msgid "Close"
+#~ msgstr "关闭"
+
+#~ msgid "Image"
+#~ msgstr "图像"
+
+#~ msgid "Untitled0"
+#~ msgstr "无标题0"
+
+#~ msgid "Open Graph"
+#~ msgstr "打开图"
+
+#~ msgid "Save All"
+#~ msgstr "全部保存"
+
+#~ msgid "New"
+#~ msgstr "新建"
+
+#~ msgid "Color for new nodes"
+#~ msgstr "新节点的颜色"
+
+#~ msgid "Pointer Color:"
+#~ msgstr "光标颜色："
+
+#~ msgid "Color for new edges"
+#~ msgstr "新边的颜色"
+
+#~ msgid "Apply the current color to all nodes"
+#~ msgstr "对全部节点应用当前颜色"
+
+#~ msgid "Apply the current color to all nodes on the drawing area"
+#~ msgstr "对绘制区域上的全部节点应用当前颜色"
+
+#~ msgid "All"
+#~ msgstr "全部"
+
+#~ msgid "Apply the current color to all edges"
+#~ msgstr "对全部边应用当前颜色"
+
+#~ msgid "Apply the current color to all edges on the drawing area"
+#~ msgstr "对绘制区域上的全部边应用当前颜色"
+
+#~ msgid "Align on the base"
+#~ msgstr "向下对齐"
+
+#~ msgid "Align on the center"
+#~ msgstr "居中对齐"
+
+#~ msgid "Align on the top"
+#~ msgstr "向上对齐"
+
+#~ msgid "Align on the left"
+#~ msgstr "向左对齐"
+
+#~ msgid "Align on the right"
+#~ msgstr "向右对齐"
+
+#, fuzzy
+#~| msgid "Align on the left"
+#~ msgid "Align on a circle"
+#~ msgstr "向左对齐"
+
+#~ msgid "Tree"
+#~ msgstr "树"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Ignoring line: %1"
+#~ msgstr "忽略行：%1"
+
+#~ msgid "debug(\"Cannot open file %1.\")"
+#~ msgstr "debug(\"无法打开文件 %1。\")"
+
+#~ msgid "debug(\"Cannot open file %1.\")\n"
+#~ msgstr "debug(\"无法打开文件 %1。\")\n"
+
+#~ msgid "(c) 2009"
+#~ msgstr "(c) 2009"
+
+#~ msgid "Do you want to save your unsaved document?"
+#~ msgstr "您想要保存尚未保存的文档吗？"
+
+#~ msgid "Select Items by clicking on them."
+#~ msgstr "通过点击项目来选择。"
+
+#~ msgid "Moves a node around the drawing area."
+#~ msgstr "使节点在绘制区域周围移动。"
+
+#~ msgid "Make Complete"
+#~ msgstr "图形补全"
+
+#~ msgid "cancel"
+#~ msgstr "取消"
+
+#~ msgid "assign values"
+#~ msgstr "赋值"
+
+#~ msgid "Dialog"
+#~ msgstr "对话框"
+
+#~ msgid "Radius:"
+#~ msgstr "半径："
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Complete"
+#~ msgstr "完全"
+
+#~ msgctxt "Do not translate, X is for delete"
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Graph is oriented"
+#~ msgstr "有向图"
+
+#~ msgid "Name: %1"
+#~ msgstr "名称：%1"
+
+#~ msgid "Value: %1"
+#~ msgstr "值：%1"
+
+#~ msgid "Save Graph As..."
+#~ msgstr "图另存为..."
+
+#~ msgid "Save Script As..."
+#~ msgstr "脚本另存为..."
+
+#, fuzzy
+#~| msgid "Graph"
+#~ msgid "Ring Graph"
+#~ msgstr "图"
+
+#, fuzzy
+#~| msgid "Untitled"
+#~ msgid "UntitledDoc"
+#~ msgstr "无标题"
+
+#~ msgid "Thanks to Ugo Sangiori"
+#~ msgstr "感谢 Ugo Sangiori"
+
+#~ msgid "Edge Color:"
+#~ msgstr "边颜色："
+
+#~ msgid "X-coordinate "
+#~ msgstr "X-坐标"
+
+#~ msgid "Y-coordinate "
+#~ msgstr "Y-坐标"
+
+#~ msgid "Node size"
+#~ msgstr "节点大小"
+
+#~ msgid "Begin"
+#~ msgstr "开始"
+
+#~ msgid "End"
+#~ msgstr "结束"
+
+#~ msgid "Graph is Automate"
+#~ msgstr "图形为自动生成"

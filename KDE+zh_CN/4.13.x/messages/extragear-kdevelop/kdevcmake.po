@@ -1,0 +1,558 @@
+# translation of kdevcmake.po to 简体中文
+# Copyright (C) 2002,2003, 2004, 2008, 2009 Free Software Foundation, Inc.
+#
+# Qi Liang <cavendish@eyou.com>, 2001.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003, 2004.
+# Funda Wang <fundawang@linux.net.cn>, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010, 2011.
+# FengChao <rainofchaos@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevcmake\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-05 01:28+0000\n"
+"PO-Revision-Date: 2013-01-18 09:19+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "shuizhuyuanluo@126.com"
+
+#: cmakebuilddirchooser.cpp:61
+msgid "Configure a build directory"
+msgstr "配置构建目录"
+
+#: cmakebuilddirchooser.cpp:103
+#, kde-format
+msgid "Configure a build directory for %1"
+msgstr "为 %1 配置构建目录"
+
+#: cmakebuilddirchooser.cpp:146
+msgid "You need to select a cmake binary."
+msgstr "您需要选择一个 cmake 二进制文件。"
+
+#: cmakebuilddirchooser.cpp:189
+msgid "You need to specify a build directory."
+msgstr "您需要指定一个构建目录。"
+
+#: cmakebuilddirchooser.cpp:196
+msgid "Using an already created build directory."
+msgstr "使用创建过的构建目录。"
+
+#: cmakebuilddirchooser.cpp:207
+msgid "Creating a new build directory."
+msgstr "创建新的构建目录。"
+
+#: cmakebuilddirchooser.cpp:213
+msgid "Build directory already configured."
+msgstr "构建目录已配置。"
+
+#: cmakebuilddirchooser.cpp:215
+#, kde-format
+msgid "This build directory is for %1, but the project directory is %2."
+msgstr "构建目录用于 %1，但是工程目录是 %2。"
+
+#: cmakebuilddirchooser.cpp:218
+msgid "You may not select a relative build directory."
+msgstr "您可能不用选择一个相对构建目录。"
+
+#: cmakebuilddirchooser.cpp:220
+msgid "The selected build directory is not empty."
+msgstr "所选构建目录为空。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: cmakebuilddirchooser.ui:26
+msgid "CMake &Binary:"
+msgstr "CMake 二进制文件(&B)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: cmakebuilddirchooser.ui:49
+msgid "&Build Directory:"
+msgstr "构建目录(&B)："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cmakebuilddirchooser.ui:65
+msgid "&Installation Prefix:"
+msgstr "安装根路径(&I)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: cmakebuilddirchooser.ui:88
+msgid "Build &type:"
+msgstr "构建类型(&T)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: cmakebuilddirchooser.ui:154
+msgid "Extra Arguments:"
+msgstr "额外参数："
+
+#: cmakecodecompletionmodel.cpp:194
+msgid "INVALID"
+msgstr "无效"
+
+#: cmakecodecompletionmodel.cpp:202
+msgid "Command"
+msgstr "命令"
+
+#: cmakecodecompletionmodel.cpp:203
+msgid "Variable"
+msgstr "变量"
+
+#: cmakecodecompletionmodel.cpp:204
+msgid "Macro"
+msgstr "宏"
+
+#: cmakecodecompletionmodel.cpp:205
+msgid "Path"
+msgstr "路径"
+
+#: cmakecodecompletionmodel.cpp:206
+msgid "Target"
+msgstr "目标"
+
+#: cmakecodecompletionmodel.cpp:248
+msgid "wrong"
+msgstr ""
+
+#: cmakedocumentation.cpp:43
+msgid "CMake Documentation"
+msgstr "CMake 文档"
+
+#: cmakedocumentation.cpp:43
+msgid "Support for CMake documentation"
+msgstr "CMake 文档支持"
+
+#: cmakedocumentation.cpp:71 cmakemanager.cpp:118
+msgid "cmake is not installed"
+msgstr "未安装 cmake"
+
+#: cmakedocumentation.cpp:141
+#, kde-format
+msgid "<br /><em>Cache Value:</em> %1\n"
+msgstr "<br /><em>缓存值：</em>%1\n"
+
+#: cmakedocumentation.cpp:144
+#, kde-format
+msgid "<br /><em>Cache Documentation:</em> %1\n"
+msgstr "<br /><em>缓存文档：</em>%1\n"
+
+#: cmakehelpdocumentation.cpp:33
+msgid "Commands"
+msgstr "命令"
+
+#: cmakehelpdocumentation.cpp:33
+msgid "Variables"
+msgstr "变量"
+
+#: cmakehelpdocumentation.cpp:33
+msgid "Modules"
+msgstr "模块"
+
+#: cmakehelpdocumentation.cpp:33
+msgid "Properties"
+msgstr "属性"
+
+#: cmakehelpdocumentation.cpp:33
+msgid "Policies"
+msgstr "策略"
+
+#: cmakehelpdocumentation.cpp:42
+msgid "CMake Content Page"
+msgstr "CMake 内容页面"
+
+#: cmakemanager.cpp:82
+msgid "CMake Manager"
+msgstr "CMake 管理器"
+
+#: cmakemanager.cpp:82
+msgid "Support for managing CMake projects"
+msgstr "管理 CMake 工程支持"
+
+#: cmakemanager.cpp:84
+msgid "KDevelop - CMake Support"
+msgstr "KDevelop - CMake 支持"
+
+#: cmakemanager.cpp:469
+#, fuzzy
+#| msgid "Jump to target definition"
+msgid "Jump to Target Definition"
+msgstr "跳转到目标定义"
+
+#: cmakemanager.cpp:504
+msgid "Move files and folders within CMakeLists as follows:"
+msgstr "从 CMakeLists 中按如下方式移动文件和文件夹："
+
+#: cmakemanager.cpp:543
+msgid "Changes to CMakeLists failed, abort move?"
+msgstr "CMakeLists 更改失败，中止移动吗？"
+
+#: cmakemanager.cpp:598
+msgid "Remove files and folders from CMakeLists as follows:"
+msgstr "从 CMakeLists 中按如下方式删除文件和文件夹："
+
+#: cmakemanager.cpp:608
+msgid "Changes to CMakeLists failed, abort deletion?"
+msgstr "CMakeLists 更改失败，中止删除吗？"
+
+#: cmakemanager.cpp:629
+msgid "Modify project targets as follows:"
+msgstr "按如下方式修改项目目标："
+
+#: cmakemanager.cpp:650
+#, kde-format
+msgid "Create folder '%1':"
+msgstr "创建文件夹“%1”："
+
+#: cmakemanager.cpp:661
+msgid "Could not save the change."
+msgstr "无法保存更改。"
+
+#: cmakemanager.cpp:709
+#, kde-format
+msgid "Modify target '%1' as follows:"
+msgstr "按如下方式修改目标“%1”："
+
+#: cmakemanager.cpp:716
+msgid "CMakeLists changes failed."
+msgstr "CMakeLists 更改失败。"
+
+#: cmakemanager.cpp:728
+#, kde-format
+msgid "Rename '%1' to '%2':"
+msgstr "重命名“%1”为“%2”："
+
+#: cmakemanager.cpp:755
+msgid "Changes to CMakeLists failed, abort rename?"
+msgstr "CMakeLists 更改失败，中止重命名吗？"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: cmakepossibleroots.ui:16
+#, fuzzy
+#| msgid ""
+#| "KDevelop has found several possible project root for your project, please "
+#| "select the correct one."
+msgid ""
+"KDevelop has found several possible root directories for your project, "
+"please select the correct one."
+msgstr "KDevelop 在您的工程中找到多个可能的工程根路径，请选择一个当前根路径。"
+
+#: parser/cmakeprojectvisitor.cpp:2357
+#, kde-format
+msgid "%1 is a deprecated command and should not be used"
+msgstr "%1 是个不赞成使用的命令且不应使用"
+
+#: parser/cmakeprojectvisitor.cpp:2375
+msgid "Unfinished function. "
+msgstr "未完成的函数。"
+
+#. i18n: ectx: property (text), widget (QPushButton, addBuildDir)
+#: settings/cmakebuildsettings.ui:34
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeBuildDir)
+#: settings/cmakebuildsettings.ui:47
+msgid "Remove"
+msgstr "删除"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settings/cmakebuildsettings.ui:56
+msgid "Cache Values"
+msgstr "缓存变量"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: settings/cmakebuildsettings.ui:71
+msgid "Comment:"
+msgstr "注释："
+
+#. i18n: ectx: property (text), widget (QPushButton, showAdvanced)
+#: settings/cmakebuildsettings.ui:88
+msgid "Show Advanced"
+msgstr "显示高级"
+
+#. i18n: ectx: property (title), widget (QGroupBox, advancedBox)
+#: settings/cmakebuildsettings.ui:107 settings/cmakecachemodel.cpp:53
+msgid "Advanced"
+msgstr "高级"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/cmakebuildsettings.ui:116
+msgid "Configure Environment"
+msgstr "配置环境"
+
+#. i18n: ectx: property (toolTip), widget (KDevelop::EnvironmentSelectionWidget, environment)
+#: settings/cmakebuildsettings.ui:131
+msgid "Select an environment to be used"
+msgstr "选择要使用的环境"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showInternal)
+#: settings/cmakebuildsettings.ui:143
+msgid "Show Advanced Values"
+msgstr "显示高级变量"
+
+#: settings/cmakecachemodel.cpp:49
+msgid "Name"
+msgstr "名称"
+
+#: settings/cmakecachemodel.cpp:50
+msgid "Type"
+msgstr "类型"
+
+#: settings/cmakecachemodel.cpp:51
+msgid "Value"
+msgstr "值"
+
+#: settings/cmakecachemodel.cpp:52
+msgid "Comment"
+msgstr "注释"
+
+#: settings/cmakepreferences.cpp:148
+#, kde-format
+msgid ""
+"Could not write CMake settings to file '%1'.\n"
+"Check that you have write access to it"
+msgstr ""
+"无法将 CMake 设置写入文件“%1”。\n"
+"请检查您有写访问权限。"
+
+#: settings/cmakepreferences.cpp:326
+#, kde-format
+msgid ""
+"The %1 directory is about to be removed in KDevelop's list.\n"
+"Do you want KDevelop to remove it in the file system as well?"
+msgstr ""
+"%1 目录即将从 KDevelop 的列表中删除。\n"
+"您想让 KDevelop 同时从文件系统中删除它吗？"
+
+#: settings/cmakepreferences.cpp:332
+#, kde-format
+msgid "Could not remove: %1.\n"
+msgstr "无法删除：%1。\n"
+
+#: testing/ctestfindjob.cpp:38
+#, kde-format
+msgid "Parse test suite %1"
+msgstr "解析测试套件 %1"
+
+#: testing/ctestrunjob.cpp:93
+msgid "CTest"
+msgstr "CTest"
+
+#~ msgid "CMake Directory"
+#~ msgstr "CMake 目录"
+
+#~ msgid "The build directory did not exist and could not be created."
+#~ msgstr "构建目录不存在并且无法创建。"
+
+#~ msgid "Error creating build directory"
+#~ msgstr "创建构建目录出错"
+
+#~ msgid "Error"
+#~ msgstr "错误"
+
+#~ msgid "Add a file called '%1' to target '%2'."
+#~ msgstr "向目标“%2”添加名为“%1”的文件。"
+
+#~ msgid "Cannot save the change."
+#~ msgstr "无法保存更改。"
+
+#~ msgid "Remove a file called '%1'."
+#~ msgstr "删除名为“%1”的文件。"
+
+#~ msgid "Rename a folder called '%1'."
+#~ msgstr "重命名名为“%1”的文件夹。"
+
+#~ msgid "Swi&tch Colors"
+#~ msgstr "切换颜色(&T)"
+
+#~ msgid "General"
+#~ msgstr "常规"
+
+#~ msgid "This project is one day old"
+#~ msgid_plural "This project is %1 days old"
+#~ msgstr[0] "这个工程已存在了 %1 天"
+
+#~ msgid "Settings changed"
+#~ msgstr "设置已更改"
+
+#~ msgid "A KDE 4 Application"
+#~ msgstr "KDE 4 应用程序"
+
+#~ msgid "kde4app"
+#~ msgstr "kde4app"
+
+#~ msgid "(C) 2007 %{AUTHOR}"
+#~ msgstr "(C) 2007 %{AUTHOR}"
+
+#~ msgid "%{AUTHOR}"
+#~ msgstr "%{AUTHOR}"
+
+#~ msgid "Document to open"
+#~ msgstr "要打开的文档"
+
+#~ msgid "&Move"
+#~ msgstr "移动(&M)"
+
+#~ msgid "kapp4_base"
+#~ msgstr "kapp4_base"
+
+#~ msgid "hello, world"
+#~ msgstr "hello, world"
+
+#~ msgid "Background color:"
+#~ msgstr "背景色："
+
+#~ msgid "Choose a new background color"
+#~ msgstr "选择一种新背景颜色"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Change the <span style="
+#~ "\" font-weight:600;\">background</span> color by clicking here and choose "
+#~ "the new <span style=\" color:#ff0000;\">color</span> in the <span style="
+#~ "\" font-style:italic;\">color dialog</span>.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">可通过点击此处并在<span "
+#~ "style=\" font-style:italic;\">颜色对话框</span>中选择新的<span style=\" "
+#~ "color:#ff0000;\">颜色</span>以更改<span style=\" font-weight:600;\">背景</"
+#~ "span>颜色。</p></body></html>"
+
+#~ msgid "Project age:"
+#~ msgstr "工程年龄："
+
+#~ msgid "Foreground color:"
+#~ msgstr "前景色："
+
+#~ msgid "Choose a new foreground color"
+#~ msgstr "选择一种新前景颜色"
+
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">Change the <span style="
+#~ "\" font-weight:600;\">foreground</span> color by clicking here and choose "
+#~ "the new <span style=\" color:#ff0000;\">color</span> in the <span style="
+#~ "\" font-style:italic;\">color dialog</span>.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Serif'; font-size:9pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+#~ "right:0px; -qt-block-indent:0; text-indent:0px;\">可通过点击此处并在<span "
+#~ "style=\" font-style:italic;\">颜色对话框</span>中选择新的<span style=\" "
+#~ "color:#ff0000;\">颜色</span>以更改<span style=\" font-weight:600;\">前景</"
+#~ "span>颜色。</p></body></html>"
+
+#~ msgid "Set the project age (in days)"
+#~ msgstr "设定工程年龄(天数)"
+
+#~ msgid "Change the project age (in days) by choosing a new number of days."
+#~ msgstr "选择新的天数来更改工程年龄(天数)。"
+
+#~ msgid "Remove a folder called '%1'."
+#~ msgstr "删除名为“%1”的文件夹。"
+
+#~ msgid "Could not create the directory's CMakeLists.txt file."
+#~ msgstr "无法创建目录的 CMakeLists.txt 文件。"
+
+#~ msgid "debug"
+#~ msgstr "调试"
+
+#~ msgid "release"
+#~ msgstr "发行"
+
+#~ msgid "RelWithDebInfo"
+#~ msgstr "带调试信息的发行"
+
+#~ msgid "MinSizeRel"
+#~ msgstr "最小发行"
+
+#~ msgid "Status:"
+#~ msgstr "状态："
+
+#~ msgid "Cannot remove the file."
+#~ msgstr "无法删除文件。"
+
+#~ msgid "Text"
+#~ msgstr "文本"
+
+#~ msgid "Action"
+#~ msgstr "动作"
+
+#~ msgid "Change"
+#~ msgstr "更改"
+
+#~ msgid "Insert"
+#~ msgstr "插入"
+
+#~ msgid "Choose CMake Build Directory"
+#~ msgstr "选择 CMake 构建目录"
+
+#~ msgid "TextLabel"
+#~ msgstr "文本标签"
+
+#~ msgid "Generator:"
+#~ msgstr "生成器："
+
+#~ msgid "Run"
+#~ msgstr "运行"
+
+#~ msgid ""
+#~ "The %1 build directory is not valid. It will be removed from the list"
+#~ msgstr "%1 构建目录无效。它将从列表中删除"
+
+#~ msgid ""
+#~ "The %1 directory does not exist, but is needed before the build directory "
+#~ "is created.\n"
+#~ "Do you want KDevelop to create it for you?"
+#~ msgstr ""
+#~ "%1 目录不存在，但是在创建构建目录前需要它。\n"
+#~ "您想让 KDevelop 为您创建它吗？"
+
+#~ msgid "Running"
+#~ msgstr "运行中"
+
+#~ msgid "&Cancel"
+#~ msgstr "取消(&C)"
+
+#~ msgid "&Run"
+#~ msgstr "运行(&R)"
+
+#~ msgid "CMake process killed"
+#~ msgstr "已杀死 CMake 进程"
+
+#~ msgid "Created successfully"
+#~ msgstr "已成功创建"
+
+#~ msgid "An error occurred"
+#~ msgstr "遇到错误"
+
+#~ msgid "Already used build directory"
+#~ msgstr "已使用的构建目录"

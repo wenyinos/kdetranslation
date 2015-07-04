@@ -1,0 +1,938 @@
+# translation of kmix.po to 简体中文
+# Copyright (C) 1998-2003, 2009 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
+# Wang Jian <lark@linux.net.cn>, 2002.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Liu Songhe <jackliu9999@263.net>, 2003.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010, 2011, 2012, 2013.
+# Weng Xuetian <wengxt@gmail.com>, 2011, 2013.
+# FengChao <rainofchaos@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmix\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-01 01:35+0000\n"
+"PO-Revision-Date: 2013-02-17 18:46+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: apps/kmix.cpp:193
+msgid "Audio Setup"
+msgstr "音频设置"
+
+#: apps/kmix.cpp:197
+msgid "Hardware &Information"
+msgstr "硬件信息(&I)"
+
+#: apps/kmix.cpp:200
+msgid "Hide Mixer Window"
+msgstr "隐藏混音器窗口"
+
+#: apps/kmix.cpp:204
+msgid "Configure &Channels..."
+msgstr "配置声道(&C)..."
+
+#: apps/kmix.cpp:207 gui/kmixdockwidget.cpp:149
+msgid "Select Master Channel..."
+msgstr "选择主声道..."
+
+#: apps/kmix.cpp:212
+msgid "Save volume profile 1"
+msgstr "保存音量配置 1"
+
+#: apps/kmix.cpp:217
+msgid "Save volume profile 2"
+msgstr "保存音量配置 2"
+
+#: apps/kmix.cpp:222
+msgid "Save volume profile 3"
+msgstr "保存音量配置 3"
+
+#: apps/kmix.cpp:227
+msgid "Save volume profile 4"
+msgstr "保存音量配置 4"
+
+#: apps/kmix.cpp:232
+msgid "Load volume profile 1"
+msgstr "装入音量配置 1"
+
+#: apps/kmix.cpp:237
+msgid "Load volume profile 2"
+msgstr "装入音量配置 2"
+
+#: apps/kmix.cpp:242
+msgid "Load volume profile 3"
+msgstr "装入音量配置 3"
+
+#: apps/kmix.cpp:247
+msgid "Load volume profile 4"
+msgstr "装入音量配置 4"
+
+#: apps/kmix.cpp:261 gui/mdwslider.cpp:167
+msgid "Increase Volume"
+msgstr "增大音量"
+
+#: apps/kmix.cpp:267 gui/mdwslider.cpp:174
+msgid "Decrease Volume"
+msgstr "减小音量"
+
+#: apps/kmix.cpp:273
+msgid "Mute"
+msgstr "静音"
+
+#: apps/kmix.cpp:818
+msgid "Cannot add view - GUIProfile is invalid."
+msgstr "无法添加视图 - GUI 配置文件无效。"
+
+#: apps/kmix.cpp:826
+msgid "View already exists. Cannot add View."
+msgstr "视图已存在。无法添加视图。"
+
+#: apps/kmix.cpp:949 apps/kmixd.cpp:302
+#, kde-format
+msgid ""
+"The soundcard containing the master device was unplugged. Changing to "
+"control %1 on card %2."
+msgstr "包含主设备的声卡未插入。已改为声卡 %2 上的控制 %1。"
+
+#: apps/kmix.cpp:959 apps/kmixd.cpp:312
+msgid "The last soundcard was unplugged."
+msgstr "上一块声卡未插入。"
+
+#: apps/kmix.cpp:1271
+msgid "Mixer Hardware Information"
+msgstr "混音器硬件信息"
+
+#: apps/kmix.cpp:1290
+msgid "The helper application is either not installed or not working."
+msgstr "辅助应用程序未安装或不工作。"
+
+#: apps/kmix.cpp:1306
+msgid "Error"
+msgstr "错误"
+
+#: apps/kmix.cpp:1336 gui/dialogaddview.cpp:132
+#: gui/dialogchoosebackends.cpp:88 gui/dialogselectmaster.cpp:113
+msgid "No sound card is installed or currently plugged in."
+msgstr "未安装声卡或声卡未插入。"
+
+#: apps/kmix.cpp:1349
+msgid "KDE Mixer"
+msgstr "KDE 混音器"
+
+#: apps/kmixctrl.cpp:37
+msgid "kmixctrl - kmix volume save/restore utility"
+msgstr "kmixctrl - kmix 音量保存和恢复工具"
+
+#: apps/kmixctrl.cpp:42
+msgid "KMixCtrl"
+msgstr "KMixCtrl"
+
+#: apps/kmixctrl.cpp:44
+msgid "(c) 2000 by Stefan Schimanski"
+msgstr "(c) 2000 作者 Stefan Schimanski"
+
+#: apps/kmixctrl.cpp:46 apps/main.cpp:53
+msgid "Stefan Schimanski"
+msgstr "Stefan Schimanski"
+
+#: apps/kmixctrl.cpp:52
+msgid "Save current volumes as default"
+msgstr "将当前音量保存为默认值"
+
+#: apps/kmixctrl.cpp:54
+msgid "Restore default volumes"
+msgstr "恢复默认音量"
+
+#: apps/main.cpp:33
+msgid "KMix - KDE's full featured mini mixer"
+msgstr "KMix - KDE 的全功能迷你混音器"
+
+#: apps/main.cpp:37
+msgid "KMix"
+msgstr "KMix"
+
+#: apps/main.cpp:39
+msgid "(c) 1996-2013 The KMix Authors"
+msgstr "(c) 1996-2013 KMix 作者"
+
+#: apps/main.cpp:42
+msgid "Christian Esken"
+msgstr "Christian Esken"
+
+#: apps/main.cpp:42
+msgid "Original author and current maintainer"
+msgstr "原作者和当前维护者"
+
+#: apps/main.cpp:43
+msgid "Colin Guthrie"
+msgstr "Colin Guthrie"
+
+#: apps/main.cpp:43
+msgid "PulseAudio support"
+msgstr "PulseAudio 支持"
+
+#: apps/main.cpp:44
+msgid "Helio Chissini de Castro"
+msgstr "Helio Chissini de Castro"
+
+#: apps/main.cpp:44
+msgid "ALSA 0.9x port"
+msgstr "ALSA 0.9x 移植"
+
+#: apps/main.cpp:45
+msgid "Brian Hanson"
+msgstr "Brian Hanson"
+
+#: apps/main.cpp:45
+msgid "Solaris support"
+msgstr "Solaris 支持"
+
+#: apps/main.cpp:52
+msgid "Igor Poboiko"
+msgstr "Igor Poboiko"
+
+#: apps/main.cpp:52
+msgid "Plasma Dataengine"
+msgstr "Plasma 数据引擎"
+
+#: apps/main.cpp:53
+msgid "Temporary maintainer"
+msgstr "临时维护者"
+
+#: apps/main.cpp:54
+msgid "Sebestyen Zoltan"
+msgstr "Sebestyen Zoltan"
+
+#: apps/main.cpp:54 apps/main.cpp:55
+msgid "*BSD fixes"
+msgstr "*BSD 修正"
+
+#: apps/main.cpp:55
+msgid "Lennart Augustsson"
+msgstr "Lennart Augustsson"
+
+#: apps/main.cpp:56
+msgid "Nadeem Hasan"
+msgstr "Nadeem Hasan"
+
+#: apps/main.cpp:56
+msgid "Mute and volume preview, other fixes"
+msgstr "静音和音量预览，其他修正"
+
+#: apps/main.cpp:57
+msgid "Erwin Mascher"
+msgstr "Erwin Mascher"
+
+#: apps/main.cpp:57
+msgid "Improving support for emu10k1 based soundcards"
+msgstr "改进了对基于 emu10k1 芯片声卡的支持"
+
+#: apps/main.cpp:58
+msgid "Valentin Rusu"
+msgstr "Valentin Rusu"
+
+#: apps/main.cpp:58
+msgid "TerraTec DMX6Fire support"
+msgstr "TerraTec DMX6Fire 支持"
+
+#: apps/main.cpp:63
+msgid ""
+"Inhibits the unhiding of the KMix main window, if KMix is already running."
+msgstr "如果 KMix 还在运行，禁止取消对其主窗口的隐藏。"
+
+#: backends/mixer_alsa9.cpp:958
+msgid ""
+"You do not have permission to access the alsa mixer device.\n"
+"Please verify if all alsa devices are properly created."
+msgstr ""
+"您没有权限访问 ALSA 混音器设备。\n"
+"请校验是否所有的 ALSA 设备都被正确创建了。"
+
+#: backends/mixer_alsa9.cpp:962
+msgid ""
+"Alsa mixer cannot be found.\n"
+"Please check that the soundcard is installed and the\n"
+"soundcard driver is loaded.\n"
+msgstr ""
+"未找到 ALSA 混音器。\n"
+"请检查是否安装了声卡\n"
+"并装入了声卡驱动程序。\n"
+
+#: backends/mixer_backend.cpp:305
+msgid ""
+"kmix:You do not have permission to access the mixer device.\n"
+"Please check your operating systems manual to allow the access."
+msgstr ""
+"kmix：您没有权限访问混音器设备。\n"
+"请查看您的操作系统手册，了解打开访问权限的方法。"
+
+#: backends/mixer_backend.cpp:309
+msgid "kmix: Could not write to mixer."
+msgstr "kmix：无法写入混音器。"
+
+#: backends/mixer_backend.cpp:312
+msgid "kmix: Could not read from mixer."
+msgstr "kmix：无法读取混音器。"
+
+#: backends/mixer_backend.cpp:315
+msgid ""
+"kmix: Mixer cannot be found.\n"
+"Please check that the soundcard is installed and that\n"
+"the soundcard driver is loaded.\n"
+msgstr ""
+"kmix：未找到混音器。\n"
+"请检查是否安装了声卡并装入了声卡驱动程序。\n"
+
+#: backends/mixer_backend.cpp:320
+msgid "kmix: Unknown error. Please report how you produced this error."
+msgstr "kmix：未知错误。请报告您是如何产生这个错误的。"
+
+#: backends/mixer_backend_i18n.cpp:24
+msgid "Recording level of the microphone input."
+msgstr "话筒输入的录制等级。"
+
+#: backends/mixer_backend_i18n.cpp:25
+msgid ""
+"Controls the volume of the front speakers or all speakers (depending on your "
+"soundcard model). If you use a digital output, you might need to also use "
+"other controls like ADC or DAC. For headphones, soundcards often supply a "
+"Headphone control."
+msgstr ""
+"控制前端扬声器或所有扬声器(具体取决于您的声卡型号)的音量。如果选择数字输出，"
+"您可能还需要使用其它如 ADC 或 DAC 这样的控制模式。对于耳机来说，声卡通常会提"
+"供一个对应的耳机控制模式。"
+
+#: backends/mixer_backend_i18n.cpp:26
+msgid ""
+"Most media, such as MP3s or Videos, are played back using the PCM channel. "
+"As such, the playback volume of such media is controlled by both this and "
+"the Master or Headphone channels."
+msgstr ""
+"大多数媒体格式，如 MP3 或视频等都使用 PCM 通道播放声音。因此这些媒体在播放时"
+"的音量是同时由 PCM 通道和主通道/耳机通道控制的。"
+
+#: backends/mixer_backend_i18n.cpp:27
+msgid ""
+"Controls the headphone volume. Some soundcards include a switch that must be "
+"manually activated to enable the headphone output."
+msgstr "控制耳机音量。有些带有开关的声卡必须手动切换到耳机输出模式。"
+
+#: backends/mixer_backend_i18n.cpp:28
+msgid "---"
+msgstr "---"
+
+#: backends/mixer_mpris2.cpp:52 backends/mixer_pulse.cpp:1081
+msgid "Playback Streams"
+msgstr "回放流"
+
+#: backends/mixer_oss.cpp:58
+msgid "Volume"
+msgstr "音量"
+
+#: backends/mixer_oss.cpp:58
+msgid "Bass"
+msgstr "低音"
+
+#: backends/mixer_oss.cpp:58
+msgid "Treble"
+msgstr "高音"
+
+#: backends/mixer_oss.cpp:59
+msgid "Synth"
+msgstr "合成器"
+
+#: backends/mixer_oss.cpp:59
+msgid "Pcm"
+msgstr "PCM"
+
+#: backends/mixer_oss.cpp:59
+msgid "Speaker"
+msgstr "扬声器"
+
+#: backends/mixer_oss.cpp:60
+msgid "Line"
+msgstr "线路"
+
+#: backends/mixer_oss.cpp:60 backends/mixer_sun.cpp:73
+msgid "Microphone"
+msgstr "话筒"
+
+#: backends/mixer_oss.cpp:60 backends/mixer_sun.cpp:75
+msgid "CD"
+msgstr "CD"
+
+#: backends/mixer_oss.cpp:61
+msgid "Mix"
+msgstr "混音器"
+
+#: backends/mixer_oss.cpp:61
+msgid "Pcm2"
+msgstr "PCM2"
+
+#: backends/mixer_oss.cpp:61
+msgid "RecMon"
+msgstr "录音监视"
+
+#: backends/mixer_oss.cpp:62
+msgid "IGain"
+msgstr "输入增益"
+
+#: backends/mixer_oss.cpp:62
+msgid "OGain"
+msgstr "输出增益"
+
+#: backends/mixer_oss.cpp:62
+msgid "Line1"
+msgstr "线路1"
+
+#: backends/mixer_oss.cpp:63
+msgid "Line2"
+msgstr "线路2"
+
+#: backends/mixer_oss.cpp:63
+msgid "Line3"
+msgstr "线路3"
+
+#: backends/mixer_oss.cpp:63
+msgid "Digital1"
+msgstr "数字化输入1"
+
+#: backends/mixer_oss.cpp:64
+msgid "Digital2"
+msgstr "数字化输入2"
+
+#: backends/mixer_oss.cpp:64
+msgid "Digital3"
+msgstr "数字化输入3"
+
+#: backends/mixer_oss.cpp:64
+msgid "PhoneIn"
+msgstr "话筒输入"
+
+#: backends/mixer_oss.cpp:65
+msgid "PhoneOut"
+msgstr "话筒输出"
+
+#: backends/mixer_oss.cpp:65
+msgid "Video"
+msgstr "视频"
+
+#: backends/mixer_oss.cpp:65
+msgid "Radio"
+msgstr "收音机"
+
+#: backends/mixer_oss.cpp:66
+msgid "Monitor"
+msgstr "监视器"
+
+#: backends/mixer_oss.cpp:66
+msgid "3D-depth"
+msgstr "3D 深度"
+
+#: backends/mixer_oss.cpp:66
+msgid "3D-center"
+msgstr "3D 中心"
+
+#: backends/mixer_oss.cpp:67 backends/mixer_oss.cpp:68 core/mixdevice.cpp:133
+msgid "unknown"
+msgstr "未知"
+
+#: backends/mixer_oss.cpp:68
+msgid "unused"
+msgstr "未使用"
+
+#: backends/mixer_oss.cpp:233 backends/mixer_oss4.cpp:496
+msgid ""
+"kmix: You do not have permission to access the mixer device.\n"
+"Login as root and do a 'chmod a+rw /dev/mixer*' to allow the access."
+msgstr ""
+"kmix：您没有权限访问混音器设备。\n"
+"以超级用户身份登录并运行“chmod a+rw /dev/mixer*”命令来打开访问权限。"
+
+#: backends/mixer_oss.cpp:237
+msgid ""
+"kmix: Mixer cannot be found.\n"
+"Please check that the soundcard is installed and the\n"
+"soundcard driver is loaded.\n"
+"On Linux you might need to use 'insmod' to load the driver.\n"
+"Use 'soundon' when using commercial OSS."
+msgstr ""
+"kmix：未找到混音器设备。\n"
+"请检查是否安装了声卡并装入了声卡驱动程序。\n"
+"在 Linux 上您可能需要使用“insmod”来装入驱动。\n"
+"如果使用商业的 OSS，则使用“soundon”。"
+
+#: backends/mixer_oss4.cpp:500
+msgid ""
+"kmix: Mixer cannot be found.\n"
+"Please check that the soundcard is installed and the\n"
+"soundcard driver is loaded.\n"
+"On Linux you might need to use 'insmod' to load the driver.\n"
+"Use 'soundon' when using OSS4 from 4front."
+msgstr ""
+"kmix：未找到混音器设备。\n"
+"请检查是否安装了声卡并装入了声卡驱动程序。\n"
+"在 Linux 上您可能需要使用“insmod”来装入驱动。\n"
+"如果使用 4front 的 OSS4，则使用“soundon”。"
+
+#: backends/mixer_pulse.cpp:337 backends/mixer_pulse.cpp:396
+msgid "Unknown Application"
+msgstr "未知应用程序"
+
+#: backends/mixer_pulse.cpp:444 backends/mixer_pulse.cpp:480
+msgid "Event Sounds"
+msgstr "事件声音"
+
+#: backends/mixer_pulse.cpp:1067
+msgid "Playback Devices"
+msgstr "回放设备"
+
+#: backends/mixer_pulse.cpp:1074
+msgid "Capture Devices"
+msgstr "抓取设备"
+
+#: backends/mixer_pulse.cpp:1090
+msgid "Capture Streams"
+msgstr "抓取流"
+
+#: backends/mixer_pulse.cpp:1190
+msgid "Volume Control Feedback Sound"
+msgstr "音量控制反馈声音"
+
+#: backends/mixer_sun.cpp:68
+msgid "Master Volume"
+msgstr "主音量"
+
+#: backends/mixer_sun.cpp:69
+msgid "Internal Speaker"
+msgstr "内部扬声器"
+
+#: backends/mixer_sun.cpp:70
+msgid "Headphone"
+msgstr "耳机"
+
+#: backends/mixer_sun.cpp:71
+msgid "Line Out"
+msgstr "线路输出"
+
+#: backends/mixer_sun.cpp:72
+msgid "Record Monitor"
+msgstr "录音监视器"
+
+#: backends/mixer_sun.cpp:74
+msgid "Line In"
+msgstr "线路输入"
+
+#: backends/mixer_sun.cpp:240
+msgid ""
+"kmix: You do not have permission to access the mixer device.\n"
+"Ask your system administrator to fix /dev/audioctl to allow access."
+msgstr ""
+"kmix：您没有权限访问混音器设备。\n"
+"请求您的系统管理员修改 /dev/audioctl 以便允许访问。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, customColors)
+#: colorwidget.ui:20
+msgid "&Use custom colors"
+msgstr "使用自定义颜色(&U)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, activeColors)
+#: colorwidget.ui:30
+msgid "Active"
+msgstr "活动的"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#: colorwidget.ui:52
+msgid "&Silent:"
+msgstr "减小音量(&S)："
+
+#. i18n: ectx: property (text), widget (QLabel, labelLoad)
+#: colorwidget.ui:96
+msgid "&Loud:"
+msgstr "增大音量(&L)："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#: colorwidget.ui:112
+msgid "&Background:"
+msgstr "背景(&B)："
+
+#. i18n: ectx: property (title), widget (QGroupBox, mutedColors)
+#: colorwidget.ui:131
+msgid "Muted"
+msgstr "已静音"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: colorwidget.ui:143
+msgid "Lou&d:"
+msgstr "增大音量(&D)："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel8)
+#: colorwidget.ui:159
+msgid "Backgrou&nd:"
+msgstr "背景(&N)："
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel7)
+#: colorwidget.ui:175
+msgid "Silen&t:"
+msgstr "减小音量(&T)："
+
+#: core/mixertoolbox.cpp:282
+msgid "Sound drivers supported:"
+msgstr "支持的声音驱动程序："
+
+#: core/mixertoolbox.cpp:283
+msgid "Sound drivers used:"
+msgstr "使用的声音驱动程序："
+
+#: gui/dialogaddview.cpp:52
+msgid "All controls"
+msgstr "所有控制"
+
+#: gui/dialogaddview.cpp:53
+msgid "Only playback controls"
+msgstr "仅播放控制"
+
+#: gui/dialogaddview.cpp:54
+msgid "Only capture controls"
+msgstr "仅抓取控制"
+
+#: gui/dialogaddview.cpp:61
+msgid "Add View"
+msgstr "添加视图"
+
+#: gui/dialogaddview.cpp:99
+msgid "Select mixer:"
+msgstr "选择混音器："
+
+#: gui/dialogaddview.cpp:118 gui/dialogselectmaster.cpp:99
+msgid "Current mixer"
+msgstr "当前混音器"
+
+#: gui/dialogaddview.cpp:125
+msgid "Select the design for the new view:"
+msgstr "选择新视图的样式："
+
+#: gui/dialogchoosebackends.cpp:81
+msgid "Select the Mixers to display in the sound menu"
+msgstr "选择在声音菜单中要显示的混音器"
+
+#: gui/dialogchoosebackends.cpp:104
+msgid "Select Mixers"
+msgstr "选择混音器"
+
+#: gui/dialogselectmaster.cpp:42 gui/dialogselectmaster.cpp:155
+msgid "Select Master Channel"
+msgstr "选择主声道"
+
+#: gui/dialogselectmaster.cpp:80
+msgid "Current mixer:"
+msgstr "当前混音器："
+
+#: gui/dialogselectmaster.cpp:106
+msgid "Select the channel representing the master volume:"
+msgstr "选择代表主音量的声道："
+
+#: gui/dialogviewconfiguration.cpp:161 gui/viewbase.cpp:102
+msgid "Configure Channels"
+msgstr "配置声道"
+
+#: gui/dialogviewconfiguration.cpp:175
+msgid "Configuration of the channels. Drag icon to update."
+msgstr "声道的配置。拖拽图标以更新。"
+
+#: gui/dialogviewconfiguration.cpp:267 gui/dialogviewconfiguration.cpp:365
+msgid "Visible channels"
+msgstr "可见声道"
+
+#: gui/dialogviewconfiguration.cpp:270 gui/dialogviewconfiguration.cpp:366
+msgid "Available channels"
+msgstr "可用声道"
+
+#: gui/dialogviewconfiguration.cpp:363
+msgid "Show the selected channel"
+msgstr "显示选择的声道"
+
+#: gui/dialogviewconfiguration.cpp:364
+msgid "Hide the selected channel"
+msgstr "隐藏选择的通道"
+
+#: gui/kmixdockwidget.cpp:57
+msgid "Volume Control"
+msgstr "音量控制"
+
+#: gui/kmixdockwidget.cpp:142
+msgid "M&ute"
+msgstr "静音(&U)"
+
+#: gui/kmixdockwidget.cpp:175
+msgid "Mixer cannot be found"
+msgstr "找不到混音器"
+
+#: gui/kmixdockwidget.cpp:183
+#, kde-format
+msgid "Volume at %1%"
+msgstr "音量为 %1%"
+
+#: gui/kmixdockwidget.cpp:185
+msgid " (Muted)"
+msgstr " (已静音)"
+
+#: gui/kmixprefdlg.cpp:58
+msgid "Configure"
+msgstr "配置"
+
+#: gui/kmixprefdlg.cpp:81
+msgid "General"
+msgstr ""
+
+#: gui/kmixprefdlg.cpp:82
+#, fuzzy
+#| msgid "Startup"
+msgid "Start"
+msgstr "启动"
+
+#: gui/kmixprefdlg.cpp:83
+msgid "Sound Menu"
+msgstr ""
+
+#: gui/kmixprefdlg.cpp:122
+msgid "Startup"
+msgstr "启动"
+
+#: gui/kmixprefdlg.cpp:125
+msgid "Restore volumes on login"
+msgstr "登录时恢复音量"
+
+#: gui/kmixprefdlg.cpp:126
+msgid "Restore all volume levels and switches."
+msgstr "恢复全部音量级别和开关。"
+
+#: gui/kmixprefdlg.cpp:129
+msgid "Dynamic controls from Pulseaudio and MPRIS2 will not be restored."
+msgstr "来自 Pulseaudio 和 MPRIS2 的动态控制将不会恢复。"
+
+#: gui/kmixprefdlg.cpp:133
+msgid "Autostart"
+msgstr "自动启动"
+
+#: gui/kmixprefdlg.cpp:135
+msgid "Enables the KMix autostart service (kmix_autostart.desktop)"
+msgstr "启用 KMix 自动启动服务 (kmix_autostart.desktop)"
+
+#: gui/kmixprefdlg.cpp:139
+msgid ""
+"Autostart can not be enabled, as the autostart file kmix_autostart.desktop "
+"is not installed."
+msgstr "自动启动无法启用，因为没有安装自动启动文件 kmix_autostart.desktop。"
+
+#: gui/kmixprefdlg.cpp:151
+msgid "&Horizontal"
+msgstr "水平(&H)"
+
+#: gui/kmixprefdlg.cpp:152
+msgid "&Vertical"
+msgstr "垂直(&V)"
+
+#: gui/kmixprefdlg.cpp:192
+msgid "Behavior"
+msgstr "行为"
+
+#: gui/kmixprefdlg.cpp:196
+msgid "Volume Feedback"
+msgstr "音量反馈"
+
+#: gui/kmixprefdlg.cpp:199
+msgid "Volume feedback is only available for Pulseaudio."
+msgstr "音量反馈只适用于 Pulseaudio。"
+
+#: gui/kmixprefdlg.cpp:204
+msgid "Volume Overdrive"
+msgstr ""
+
+#: gui/kmixprefdlg.cpp:206
+msgid "You must restart KMix for this setting to take effect."
+msgstr ""
+
+#: gui/kmixprefdlg.cpp:211
+msgid "Visual"
+msgstr "可视化"
+
+#: gui/kmixprefdlg.cpp:215
+msgid "Show &tickmarks"
+msgstr "显示刻度(&T)"
+
+#: gui/kmixprefdlg.cpp:216
+msgid "Enable/disable tickmark scales on the sliders"
+msgstr "启用/禁用滑块的刻度值"
+
+#: gui/kmixprefdlg.cpp:218
+msgid "Show &labels"
+msgstr "显示标签(&L)"
+
+#: gui/kmixprefdlg.cpp:219
+msgid "Enables/disables description labels above the sliders"
+msgstr "启用/禁用滑块上的描述标签"
+
+#: gui/kmixprefdlg.cpp:223
+msgid "Show On Screen Display (&OSD)"
+msgstr "开启屏幕显示OSD(&O)"
+
+#: gui/kmixprefdlg.cpp:231
+msgid "Slider orientation: "
+msgstr "滑块方向："
+
+#: gui/kmixprefdlg.cpp:236
+msgid "Slider orientation (System tray volume control):"
+msgstr "滑动条方向(系统托盘音量控制)："
+
+#: gui/kmixprefdlg.cpp:247
+msgid "&Dock in system tray"
+msgstr "停靠到系统托盘(&D)"
+
+#: gui/kmixprefdlg.cpp:249
+msgid "Docks the mixer into the KDE system tray"
+msgstr "将混音器停靠到 KDE 系统托盘"
+
+#: gui/mdwenum.cpp:60 gui/mdwslider.cpp:109
+msgid "&Hide"
+msgstr "隐藏(&H)"
+
+#: gui/mdwenum.cpp:63 gui/mdwslider.cpp:132
+msgid "C&onfigure Shortcuts..."
+msgstr "配置快捷键(&O)..."
+
+#: gui/mdwslider.cpp:103
+msgid "&Split Channels"
+msgstr "拆分左右声道(&S)"
+
+#: gui/mdwslider.cpp:116
+msgid "&Muted"
+msgstr "已静音(&M)"
+
+#: gui/mdwslider.cpp:122
+msgid "Set &Record Source"
+msgstr "设置录音源(&R)"
+
+#: gui/mdwslider.cpp:127
+msgid "Mo&ve"
+msgstr "移动(&V)"
+
+#: gui/mdwslider.cpp:181
+msgid "Toggle Mute"
+msgstr "切换静音"
+
+#: gui/mdwslider.cpp:294
+msgid "capture"
+msgstr "抓取"
+
+#: gui/mdwslider.cpp:298
+#, kde-format
+msgid "Capture/Uncapture %1"
+msgstr "抓取/取消抓取 %1"
+
+#: gui/mdwslider.cpp:314
+#, kde-format
+msgid "Mute/Unmute %1"
+msgstr "静音/取消静音 %1"
+
+#: gui/mdwslider.cpp:573
+msgid "Capture"
+msgstr "抓取"
+
+#: gui/mdwslider.cpp:610
+#, kde-format
+msgid "%1 (capture)"
+msgstr "%1(抓取)"
+
+#: gui/mdwslider.cpp:1208
+msgid "Automatic According to Category"
+msgstr "根据分类自动选择"
+
+#: gui/viewbase.cpp:163
+msgid "&Channels"
+msgstr "声道(&C)"
+
+#: gui/viewbase.cpp:216
+msgid "Device Settings"
+msgstr "设备设置"
+
+#: gui/viewdockareapopup.cpp:346
+msgid "Mixer"
+msgstr "混音器"
+
+#: gui/viewdockareapopup.cpp:379
+#, kde-format
+msgid "Load volume profile %1"
+msgstr "装入音量配置 %1"
+
+#: gui/viewsliders.cpp:225
+msgid "Nothing is capturing audio."
+msgstr "没有抓取音频。"
+
+#: gui/viewsliders.cpp:227 gui/viewsliders.cpp:233
+msgid "Nothing is playing audio."
+msgstr "没有播放音频。"
+
+#: gui/viewsliders.cpp:229
+msgid "No capture devices."
+msgstr "无抓取设备。"
+
+#: gui/viewsliders.cpp:231
+msgid "No playback devices."
+msgstr "无回放设备。"
+
+#. i18n: ectx: Menu (file)
+#: kmixui.rc:10
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (help)
+#: kmixui.rc:21
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#~ msgid "Enable system tray &volume control"
+#~ msgstr "启用系统托盘音量控制(&V)"
+
+#~ msgid "Allows to control the volume from the system tray"
+#~ msgstr "允许从系统托盘控制音量"
+
+#~ msgid "Media player '%1' is not compatible with KMix. Integration skipped."
+#~ msgstr "媒体播放器“%1”不兼容 KMix。跳过整合。"
+
+#~ msgid "Invalid mixer"
+#~ msgstr "无效的混音器"
+
+#~ msgid ""
+#~ "(c) 1996-2007 Christian Esken\n"
+#~ "(c) 2000-2003 Stefan Schimanski\n"
+#~ "(c) 2002-2005 Helio Chissini de Castro"
+#~ msgstr ""
+#~ "(c) 1996-2007 Christian Esken\n"
+#~ "(c) 2000-2003 Christian Esken、Stefan Schimanski\n"
+#~ "(c) 2002-2005 Christian Esken、Helio Chissini de Castro"
+
+#~ msgid "Co-maintainer, Alsa 0.9x port"
+#~ msgstr "共同维护者，ALSA 0.9x 移植"
+
+#~ msgid "Nick Lopez"
+#~ msgstr "Nick Lopez"
+
+#~ msgid "Audio setup (&Pulseaudio)"
+#~ msgstr "音频设置(&Pulseaudio)"

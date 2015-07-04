@@ -1,0 +1,253 @@
+# translation of akonadi_kolabproxy_resource.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+# Weng Xuetian <wengxt@gmail.com>, 2011, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_kolabproxy_resource\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-01 01:37+0000\n"
+"PO-Revision-Date: 2013-01-22 01:25-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: changeformat.ui:23
+msgid ""
+"Please select the format which should be used to write new Kolab objects "
+"according to your Kolab Groupware Server's version. You may close this "
+"window after selecting your version."
+msgstr ""
+"请按照您的 Kolab 群件服务器版本选择写入新 Kolab 对象使用的格式。您可以在选择"
+"版本后关闭窗口。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: changeformat.ui:33
+msgid "Kolab Format Version:"
+msgstr "Kolab 格式版本："
+
+#. i18n: ectx: property (title), widget (QGroupBox, upgradeGroupBox)
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#. i18n: ectx: property (text), widget (QPushButton, upgradeFormatButton)
+#: changeformat.ui:62 changeformat.ui:115 kolabsettings.ui:134
+msgid "Change Format Version"
+msgstr "更改格式版本"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: changeformat.ui:74
+msgid ""
+"This allows you to upgrade your Kolab account to a different format version. "
+"This is normally not required and you should contact your administrator "
+"before doing so."
+msgstr ""
+"这允许您更新您的 Kolab 帐户到一个不同的格式版本。通常这不是必须的，并且在这样"
+"做之前您应该先联系您的系统管理员。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: changeformat.ui:84
+msgid "Status:"
+msgstr "状态："
+
+#. i18n: ectx: property (text), widget (QLabel, statusLabel)
+#: changeformat.ui:91
+msgid "Not Started"
+msgstr "未启动"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: changeformat.ui:105
+msgid ""
+"Attention: Changing the format version will rewrite all Kolab objects. Make "
+"sure you have a backup of your data, and the account is fully synchronized "
+"and connected to the server."
+msgstr ""
+"注意：更改格式版本将会重写所有 Kolab 对象。确认您已经备份了您的数据，账户已经"
+"完全同步，并且已经连接到服务器。"
+
+#: freebusyupdatehandler.cpp:108
+#, kde-format
+msgid "Could not trigger Free/Busy information update: %1."
+msgstr "无法触发忙/闲信息更新：%1。"
+
+#: kolabdefs.cpp:33
+msgid "Contacts"
+msgstr "联系人"
+
+#: kolabdefs.cpp:34
+msgid "Calendar"
+msgstr "日历"
+
+#: kolabdefs.cpp:35
+msgid "Tasks"
+msgstr "任务"
+
+#: kolabdefs.cpp:36
+msgid "Journal"
+msgstr "日记"
+
+#: kolabdefs.cpp:37
+msgid "Notes"
+msgstr "备注"
+
+#: kolabproxyresource.cpp:154
+msgid "Kolab"
+msgstr "Kolab"
+
+#: kolabproxyresource.cpp:327 kolabproxyresource.cpp:344
+#: kolabproxyresource.cpp:368
+msgid "An error occured while writing the item to the backend."
+msgstr ""
+
+#: kolabproxyresource.cpp:776
+msgid "My Data"
+msgstr "我的数据"
+
+#: kolabproxyresource.cpp:781 kolabproxyresource.cpp:789
+#, kde-format
+msgid "Kolab (%1)"
+msgstr "Kolab(%1)"
+
+#. i18n: ectx: label, entry (ReadOnly), group (General)
+#: kolabproxyresource.kcfg:10
+msgid "Do not change the actual backend data."
+msgstr "不更改真实的后端数据。"
+
+#. i18n: ectx: label, entry (UpdateFreeBusy), group (General)
+#: kolabproxyresource.kcfg:14
+msgid ""
+"Trigger a free/busy update on the server, when a calendar collection changes."
+msgstr "当日历收藏变化时，在服务器上触发忙碌/空闲状态更新。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kolabsettings.ui:26
+msgid "Account Type: Kolab Account"
+msgstr "账户类型：Kolab 账户"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: kolabsettings.ui:43
+msgid "The kolab resource needs an Imap resource."
+msgstr "kolab 资源需要一个 Imap 资源。"
+
+#. i18n: ectx: property (text), widget (QPushButton, launchWizard)
+#: kolabsettings.ui:50
+msgid "Add Imap Resource"
+msgstr "添加 Imap 资源"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kolabsettings.ui:63
+msgid "Select IMAP-Account:"
+msgstr "选择 IMAP 账户："
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, imapAccountComboBox)
+#: kolabsettings.ui:73
+msgid "IMAP-Account used for Kolab-Groupware."
+msgstr "Kolab 群件使用的 IMAP 账户。"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: kolabsettings.ui:88
+msgid "Account Settings"
+msgstr "账户设置"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: kolabsettings.ui:100
+msgid "Create/Recover KolabFolders in IMAP-Account:"
+msgstr "在 IMAP 账户中创建/恢复 Kolab文件夹："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, createKolabFolderButton)
+#: kolabsettings.ui:107
+msgid "Ensure that Kolab-Groupware-Folders are existing in IMAP-Account."
+msgstr "请确认 IMAP 账户中存在 Kolab 群件文件夹。"
+
+#. i18n: ectx: property (text), widget (QPushButton, createKolabFolderButton)
+#: kolabsettings.ui:110
+msgid "Create Kolab Folders"
+msgstr "创建 Kolab 文件夹"
+
+#. i18n: ectx: property (text), widget (QLabel, formatVersionLabel)
+#: kolabsettings.ui:117
+msgid "Current Format Version:"
+msgstr "当前格式版本："
+
+#. i18n: ectx: property (text), widget (QLabel, upgradeLabel)
+#: kolabsettings.ui:124
+msgid "Change the Kolab-Format Version:"
+msgstr "更改 Kolab 格式版本："
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, upgradeFormatButton)
+#: kolabsettings.ui:131
+msgid "Convert Account to different format version."
+msgstr "转换账户到不同的格式版本。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: kolabsettings.ui:151
+msgid ""
+"Note that the Kolab-Resource will use all available IMAP accounts that "
+"contain Kolab folders to provide Groupware-Data. The selection below applies "
+"to the settings only."
+msgstr ""
+"注意 Kolab 资源将使用所有包含 Kolab 文件夹的 IMAP 帐号来提供群件的数据。下面"
+"的选择仅对设置有效。"
+
+#: setupdefaultfoldersjob.cpp:87
+msgid "Could not find valid parent collection."
+msgstr ""
+
+#: setupkolab.cpp:125
+#, fuzzy
+#| msgid "Not Started"
+msgid "Started"
+msgstr "未启动"
+
+#: setupkolab.cpp:151
+msgid "Error"
+msgstr ""
+
+#: setupkolab.cpp:154
+msgid "Could not complete the upgrade process: "
+msgstr "无法完成更新："
+
+#: setupkolab.cpp:155
+msgid "Error during Upgrade Process"
+msgstr "更新过程中出错"
+
+#: setupkolab.cpp:158
+msgid "Complete"
+msgstr ""
+
+#: setupkolab.cpp:170
+#, fuzzy
+#| msgid "Kolab Format Version:"
+msgid "Kolab Format v2"
+msgstr "Kolab 格式版本："
+
+#: setupkolab.cpp:172
+#, fuzzy
+#| msgid "Kolab Format Version:"
+msgid "Kolab Format v3"
+msgstr "Kolab 格式版本："
+
+#: setupkolab.cpp:207
+msgid "Could not start the account wizard. Please check your installation."
+msgstr "无法启动账户向导。请检查您的安装。"
+
+#: setupkolab.cpp:209
+msgid "Unable to start account wizard"
+msgstr "无法启动账户向导"
+
+#~ msgid "Copy of: %1"
+#~ msgstr "副本：%1"
+
+#~ msgid ""
+#~ "An error occurred while reading/writing a Kolab-Groupware-Object(akonadi "
+#~ "id %1): \n"
+#~ "%2"
+#~ msgstr ""
+#~ "读/写 Kolab 群件对象时发生错误 (akonadi id %1)：\n"
+#~ "%2"

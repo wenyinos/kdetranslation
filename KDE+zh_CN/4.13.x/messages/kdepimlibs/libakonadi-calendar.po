@@ -1,0 +1,1312 @@
+# translation of libakonadi-calendar.po to 简体中文
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010, 2011.
+# Lie Ex <lilith.ex@gmail.com>, 2009.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+# FengChao <rainofchaos@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: libakonadi-calendar\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-31 01:33+0000\n"
+"PO-Revision-Date: 2013-07-27 14:54+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: calendarbase.cpp:263
+msgid "Could not find incidence to update, it probably was deleted recently."
+msgstr ""
+
+#: calendarclipboard.cpp:87
+msgid "Error performing deletion."
+msgstr "删除出错。"
+
+#: calendarclipboard.cpp:92
+msgid "Error performing copy."
+msgstr "复制出错。"
+
+#: calendarclipboard.cpp:116
+#, kde-format
+msgid "Can't find item: %1"
+msgstr "无法复制条目：%1"
+
+#: calendarclipboard.cpp:132 calendarclipboard.cpp:150
+msgid "Error while removing relations."
+msgstr "删除关系时出错."
+
+#: calendarclipboard.cpp:177
+#, kde-format
+msgid "Error while deleting incidences: %1"
+msgstr "删除事件时出错：%1"
+
+#: calendarclipboard.cpp:200
+#, kde-format
+msgid ""
+"The item \"%1\" has sub-to-dos. Do you want to cut just this item and make "
+"all its sub-to-dos independent, or cut the to-do with all its sub-to-dos?"
+msgstr ""
+
+#: calendarclipboard.cpp:205 calendarclipboard.cpp:244
+msgid "KOrganizer Confirmation"
+msgstr "KOrganizer 确认"
+
+#: calendarclipboard.cpp:206
+msgid "Cut Only This"
+msgstr "仅剪切这个"
+
+#: calendarclipboard.cpp:207
+msgid "Cut All"
+msgstr "全部剪切"
+
+#: calendarclipboard.cpp:240
+#, kde-format
+msgid ""
+"The item \"%1\" has sub-to-dos. Do you want to copy just this item or copy "
+"the to-do with all its sub-to-dos?"
+msgstr ""
+
+#: calendarclipboard.cpp:245
+msgid "Copy Only This"
+msgstr "仅复制这个"
+
+#: calendarclipboard.cpp:246
+msgid "Copy All"
+msgstr "全部复制"
+
+#: calendarmodel.cpp:229
+msgctxt "@title:column calendar event summary"
+msgid "Summary"
+msgstr "摘要"
+
+#: calendarmodel.cpp:231
+msgctxt "@title:column calendar event start date and time"
+msgid "Start Date and Time"
+msgstr "开始日期和时间"
+
+#: calendarmodel.cpp:233
+msgctxt "@title:column calendar event end date and time"
+msgid "End Date and Time"
+msgstr "结束日期和时间"
+
+#: calendarmodel.cpp:235
+msgctxt "@title:column calendar event type"
+msgid "Type"
+msgstr "类型"
+
+#: calendarmodel.cpp:237
+msgctxt "@title:column todo item due date and time"
+msgid "Due Date and Time"
+msgstr "到期日期和时间"
+
+#: calendarmodel.cpp:239
+msgctxt "@title:column todo item priority"
+msgid "Priority"
+msgstr "优先级"
+
+#: calendarmodel.cpp:241
+msgctxt "@title:column todo item completion in percent"
+msgid "Complete"
+msgstr "完成"
+
+#: calendarmodel.cpp:250
+msgctxt "@title:column calendar title"
+msgid "Calendar"
+msgstr "日历"
+
+#. i18n: ectx: label, entry (FreeBusyPublishUrl), group (FreeBusy Publish)
+#: calendarsettings.kcfg:23
+msgid "Free/Busy Publish URL"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (FreeBusyPublishUrl), group (FreeBusy Publish)
+#: calendarsettings.kcfg:24
+msgid "URL for publishing free/busy information"
+msgstr ""
+
+#. i18n: ectx: label, entry (FreeBusyPublishUser), group (FreeBusy Publish)
+#: calendarsettings.kcfg:28
+msgid "Free/Busy Publish Username"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (FreeBusyPublishUser), group (FreeBusy Publish)
+#: calendarsettings.kcfg:29
+msgid "Username for publishing free/busy information"
+msgstr ""
+
+#. i18n: ectx: label, entry (FreeBusyPublishPassword), group (FreeBusy Publish)
+#: calendarsettings.kcfg:33
+msgid "Free/Busy Publish Password"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (FreeBusyPublishPassword), group (FreeBusy Publish)
+#: calendarsettings.kcfg:34
+msgid "Password for publishing free/busy information"
+msgstr ""
+
+#. i18n: ectx: label, entry (FreeBusyRetrieveAuto), group (FreeBusy Retrieve)
+#: calendarsettings.kcfg:45
+msgid "Enable Automatic Free/Busy Retrieval"
+msgstr ""
+
+#. i18n: ectx: label, entry (FreeBusyFullDomainRetrieval), group (FreeBusy Retrieve)
+#: calendarsettings.kcfg:50
+msgid "Use full email address for retrieval"
+msgstr "使用完整的电子邮件地址获取"
+
+#. i18n: ectx: whatsthis, entry (FreeBusyFullDomainRetrieval), group (FreeBusy Retrieve)
+#: calendarsettings.kcfg:51
+msgid ""
+"With this setting, you can change the filename that will be fetched from the "
+"server. With this checked, it will download a free/busy file called "
+"user@domain.ifb, for example nn@kde.org.ifb. Without this set, it will "
+"download user.ifb, for example nn.ifb."
+msgstr ""
+
+#. i18n: ectx: label, entry (FreeBusyRetrieveUrl), group (FreeBusy Retrieve)
+#: calendarsettings.kcfg:56
+msgid "Free/Busy Retrieval URL"
+msgstr ""
+
+#. i18n: ectx: label, entry (FreeBusyRetrieveUser), group (FreeBusy Retrieve)
+#: calendarsettings.kcfg:60
+msgid "Free/Busy Retrieval Username"
+msgstr ""
+
+#. i18n: ectx: label, entry (FreeBusyRetrievePassword), group (FreeBusy Retrieve)
+#: calendarsettings.kcfg:64
+msgid "Free/Busy Retrieval Password"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (FreeBusyRetrievePassword), group (FreeBusy Retrieve)
+#: calendarsettings.kcfg:65
+msgid "Password for retrieving free/busy information"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Group Scheduling)
+#: calendarsettings.kcfg:76
+msgid "Send copy to owner when mailing events"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry, group (Group Scheduling)
+#: calendarsettings.kcfg:77
+msgid ""
+"Check this box to get a copy of all e-mail messages that KOrganizer sends at "
+"your request to event attendees."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Group Scheduling)
+#: calendarsettings.kcfg:82
+msgid "Mail transport to use for sending e-mail messages"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry, group (Group Scheduling)
+#: calendarsettings.kcfg:83
+msgid ""
+"If specified all, groupware e-mails will use this transport. Otherwise, the "
+"default one will be used."
+msgstr ""
+
+#. i18n: ectx: label, entry (OutlookCompatCounterProposals), group (Hidden Options)
+#: calendarsettings.kcfg:91
+msgid "Send Outlook-like pseudo counter proposals"
+msgstr ""
+
+#. i18n: ectx: label, entry (FreeBusyCheckHostname), group (Hidden Options)
+#: calendarsettings.kcfg:96
+msgid "Check whether hostname and retrieval email address match"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (FreeBusyCheckHostname), group (Hidden Options)
+#: calendarsettings.kcfg:97
+msgid ""
+"With this setting you can configure whether the domain part of the free/busy "
+"URL has to match the domain part of the user ID you are looking for. For "
+"example, if this option is set, then looking for the free/busy data of "
+"joe@mydomain.com on the server www.yourdomain.com will fail."
+msgstr ""
+
+#: freebusymanager.cpp:409
+#, kde-format
+msgid ""
+"Failed to download free/busy data from: %1\n"
+"Reason: %2"
+msgstr ""
+
+#: freebusymanager.cpp:411 freebusymanager.cpp:435
+msgid "Free/busy retrieval error"
+msgstr ""
+
+#: freebusymanager.cpp:433
+#, kde-format
+msgid "Failed to parse free/busy information that was retrieved from: %1"
+msgstr ""
+
+#: freebusymanager.cpp:450
+#, kde-format
+msgid ""
+"<qt><p>The software could not upload your free/busy list to the URL '%1'. "
+"There might be a problem with the access rights, or you specified an "
+"incorrect URL. The system said: <em>%2</em>.</p><p>Please check the URL or "
+"contact your system administrator.</p></qt>"
+msgstr ""
+
+#: freebusymanager.cpp:657
+msgid "The free/busy information was successfully sent."
+msgstr ""
+
+#: freebusymanager.cpp:658 itiphandler_p.cpp:158
+msgid "Sending Free/Busy"
+msgstr ""
+
+#: freebusymanager.cpp:662
+#, kde-format
+msgid "Unable to publish the free/busy data: %1"
+msgstr ""
+
+#: freebusymanager.cpp:793
+msgid ""
+"<qt><p>No URL configured for uploading your free/busy list. Please set it in "
+"KOrganizer's configuration dialog, on the \"Free/Busy\" page.</p><p>Contact "
+"your system administrator for the exact URL and the account details.</p></qt>"
+msgstr ""
+"<qt><p>没有配置可供上传忙闲列表的 URL。请在 KOrganizer 的“忙/闲”配置对话框中"
+"设定它。</p><p>您可以联系您的系统管理员获悉这个 URL 及其账户细节。</p></qt>"
+
+#: freebusymanager.cpp:798
+msgid "No Free/Busy Upload URL"
+msgstr ""
+
+#: freebusymanager.cpp:809
+#, kde-format
+msgid "<qt>The target URL '%1' provided is invalid.</qt>"
+msgstr "<qt>提供的目标“%1”无效。</qt>"
+
+#: freebusymanager.cpp:810
+msgid "Invalid URL"
+msgstr "无效的 URL"
+
+#: history_p.cpp:84
+msgid "General error"
+msgstr "常规错误"
+
+#: history_p.cpp:94
+#, kde-format
+msgctxt "%1 is event, todo or journal"
+msgid "%1 creation"
+msgstr "%1 创建"
+
+#: history_p.cpp:166
+#, kde-format
+msgctxt "%1 is event, todo or journal"
+msgid "%1 deletion"
+msgstr "%1 删除"
+
+#: history_p.cpp:251
+#, kde-format
+msgctxt "%1 is event, todo or journal"
+msgid "%1 modification"
+msgstr "%1 修改"
+
+#: icalimporter.cpp:104
+#, fuzzy, kde-format
+#| msgid "Could not create calendar: %1"
+msgid "Error creating ical resource: %1"
+msgstr "无法创建日历：%1"
+
+#: icalimporter.cpp:113
+msgid "Failed to obtain D-Bus interface for remote configuration."
+msgstr ""
+
+#: icalimporter.cpp:137
+msgid "Could not download remote file."
+msgstr ""
+
+#: icalimporter.cpp:158 icalimporter.cpp:178
+msgid "An import task is already in progress."
+msgstr ""
+
+#: icalimporter.cpp:183
+msgid "Empty filename. Will not import ical file."
+msgstr ""
+
+#: icalimporter.cpp:188
+msgid "Url to import is malformed."
+msgstr ""
+
+#: icalimporter.cpp:194
+msgid "The specified file doesn't exist, aborting import."
+msgstr ""
+
+#: icalimporter.cpp:202
+msgid "Failed to load ical file, check permissions."
+msgstr ""
+
+#: icalimporter.cpp:210
+msgid "The ical file to merge is empty."
+msgstr ""
+
+#: icalimporter.cpp:228
+msgid "Merge ical file into existing calendar."
+msgstr ""
+
+#: incidencechanger.cpp:287
+#, fuzzy, kde-format
+#| msgid "Could not create calendar folder: %1"
+msgid "Error while trying to create calendar item. Error was: %1"
+msgstr "无法创建日历文件夹：%1"
+
+#: incidencechanger.cpp:336
+#, fuzzy, kde-format
+#| msgid "Could not delete calendar folder: %1"
+msgid "Error while trying to delete calendar item. Error was: %1"
+msgstr "无法删除日历文件夹：%1"
+
+#: incidencechanger.cpp:393
+#, fuzzy, kde-format
+#| msgid "Could not delete calendar folder: %1"
+msgid "Error while trying to modify calendar item. Error was: %1"
+msgstr "无法删除日历文件夹：%1"
+
+#: incidencechanger.cpp:761 incidencechanger.cpp:871
+msgid "That calendar item was already deleted, or currently being deleted."
+msgstr ""
+
+#: incidencechanger.cpp:1088
+msgid "Operation can not be performed due to ACL restrictions"
+msgstr ""
+
+#: incidencechanger.cpp:1091
+msgid "The chosen collection is invalid"
+msgstr ""
+
+#: incidencechanger.cpp:1094
+msgid ""
+"Default collection is invalid or doesn't have proper ACLs and "
+"DestinationPolicyNeverAsk was used"
+msgstr ""
+
+#: incidencechanger.cpp:1098
+msgid "Duplicate item id in a group operation"
+msgstr ""
+
+#: incidencechanger.cpp:1101
+msgid ""
+"One change belonging to a group of changes failed. All changes are being "
+"rolled back."
+msgstr ""
+
+#: incidencechanger.cpp:1106
+msgid "Unknown error"
+msgstr "未知错误"
+
+#: itiphandler.cpp:98
+msgid "Error loading calendar."
+msgstr "装入日历时出错。"
+
+#: itiphandler.cpp:106
+#, kde-format
+msgid "Error message: %1"
+msgstr "错误信息：%1"
+
+#: itiphandler.cpp:107
+msgid "Unknown error while parsing iCal invitation"
+msgstr ""
+
+#: itiphandler.cpp:113
+msgid "Error while processing an invitation or update."
+msgstr "处理邀请或更新时出现错误。"
+
+#: itiphandler.cpp:130
+#, fuzzy
+#| msgid "Invalid action: %1"
+msgid "Invalid incidence"
+msgstr "无效动作：%1"
+
+#: itiphandler.cpp:199
+#, kde-format
+msgid "Invalid action: %1"
+msgstr "无效动作：%1"
+
+#: itiphandler.cpp:222
+#, fuzzy
+#| msgid "Error sending e-mail: "
+msgid "Error sending counter proposal"
+msgstr "发送邮件时出错："
+
+#: itiphandler.cpp:229
+msgid "Could not start editor to edit counter proposal"
+msgstr ""
+
+#: itiphandler.cpp:262
+#, kde-format
+msgid ""
+"The item '%1' has no attendees. Therefore no groupware message will be sent."
+msgstr ""
+
+#: itiphandler.cpp:265
+msgid "Message Not Sent"
+msgstr "未发出信息"
+
+#: itiphandler_p.cpp:73 itiphandler_p.cpp:76 itiphandler_p.cpp:145
+#: itiphandlerhelper_p.cpp:408
+#, kde-format
+msgid "Error: %1"
+msgstr "错误：%1"
+
+#: itiphandler_p.cpp:99
+#, kde-format
+msgid "Error loading calendar: %1"
+msgstr "装入日历时出错：%1"
+
+#: itiphandler_p.cpp:154
+#, kde-format
+msgid ""
+"The groupware message for item '%1' was successfully sent.\n"
+"Method: %2"
+msgstr ""
+"项目“%1”的群件消息已经成功发送。\n"
+"方法：%2"
+
+#: itiphandler_p.cpp:165
+#, kde-format
+msgctxt ""
+"Groupware message sending failed. %2 is request/reply/add/cancel/counter/etc."
+msgid ""
+"Unable to send the item '%1'.\n"
+"Method: %2"
+msgstr ""
+"无法发送项目“%1”。\n"
+"方法：%2"
+
+#: itiphandler_p.cpp:182 itiphandler_p.cpp:204
+msgid "The item information was successfully sent."
+msgstr ""
+
+#: itiphandler_p.cpp:183
+msgid "Publishing"
+msgstr "发布"
+
+#: itiphandler_p.cpp:188
+#, kde-format
+msgid "Unable to publish the item '%1'"
+msgstr ""
+
+#: itiphandler_p.cpp:205
+msgid "Forwarding"
+msgstr "转发"
+
+#: itiphandler_p.cpp:212
+#, kde-format
+msgid "Unable to forward the item '%1'"
+msgstr ""
+
+#: itiphandler_p.cpp:214
+msgid "Forwarding Error"
+msgstr "转发错误"
+
+#: itiphandlerhelper_p.cpp:52
+#, kde-format
+msgid "Proposed new meeting time: %1 - %2"
+msgstr ""
+
+#: itiphandlerhelper_p.cpp:77
+msgid "Group Scheduling Email"
+msgstr "分组调度邮件"
+
+#: itiphandlerhelper_p.cpp:109
+msgid "<placeholder>No summary given</placeholder>"
+msgstr "<placeholder>无摘要</placeholder>"
+
+#: itiphandlerhelper_p.cpp:196
+#, kde-format
+msgid ""
+"The event \"%1\" includes other people.\n"
+"Do you want to email the invitation to the attendees?"
+msgstr ""
+"事件“%1”中还包括其他人。\n"
+"您想要向这些参与者们邮寄邀请信吗？"
+
+#: itiphandlerhelper_p.cpp:200
+#, kde-format
+msgid ""
+"The todo \"%1\" includes other people.\n"
+"Do you want to email the invitation to the attendees?"
+msgstr ""
+"待办“%1”中还包括其他人。\n"
+"您想要向这些参与者们邮寄邀请信吗？"
+
+#: itiphandlerhelper_p.cpp:204
+msgid ""
+"This incidence includes other people. Should an email be sent to the "
+"attendees?"
+msgstr "此事件包括了其他人。是否要向参与者们发送信件？"
+
+#: itiphandlerhelper_p.cpp:220
+msgid ""
+"You are not the organizer of this event. Editing it will bring your calendar "
+"out of sync with the organizer's calendar. Do you really want to edit it?"
+msgstr ""
+"您不是事件的组织者，因此编辑本事件会使得它与组织者的日程不同步。您确认要编辑"
+"它吗？"
+
+#: itiphandlerhelper_p.cpp:251
+#, kde-format
+msgid ""
+"You changed the invitation \"%1\".\n"
+"Do you want to email the attendees an update message?"
+msgstr ""
+"您已经更改了邀请“%1”。\n"
+"您想要向参与者们发送通知信件吗？"
+
+#: itiphandlerhelper_p.cpp:255 itiphandlerhelper_p.cpp:270
+#: itiphandlerhelper_p.cpp:279 itiphandlerhelper_p.cpp:331
+#: itiphandlerhelper_p.cpp:351
+msgid "Send Update"
+msgstr "发送更新"
+
+#: itiphandlerhelper_p.cpp:268 itiphandlerhelper_p.cpp:326
+msgid "Do you want to send a status update to the organizer of this task?"
+msgstr "您想要向任务的组织者发送状态更新通知信吗？"
+
+#: itiphandlerhelper_p.cpp:277
+msgid ""
+"Your status as an attendee of this event changed. Do you want to send a "
+"status update to the event organizer?"
+msgstr "您在此事件中的参与状态已经改变。您想要向事件组织者发送通知信吗？"
+
+#: itiphandlerhelper_p.cpp:299
+#, kde-format
+msgid ""
+"You removed the invitation \"%1\".\n"
+"Do you want to email the attendees that the event is canceled?"
+msgstr ""
+"您已经删除了邀请“%1”。\n"
+"您想要向参与者们发送事件取消通知信吗？"
+
+#: itiphandlerhelper_p.cpp:303
+#, kde-format
+msgid ""
+"You removed the invitation \"%1\".\n"
+"Do you want to email the attendees that the todo is canceled?"
+msgstr ""
+"您已经删除了邀请“%1”。\n"
+"您想要向参与者们发送待办取消通知信吗？"
+
+#: itiphandlerhelper_p.cpp:307
+#, kde-format
+msgid ""
+"You removed the invitation \"%1\".\n"
+"Do you want to email the attendees that the journal is canceled?"
+msgstr ""
+
+#: itiphandlerhelper_p.cpp:328
+msgid "Do you want to send a status update to the organizer of this journal?"
+msgstr ""
+
+#: itiphandlerhelper_p.cpp:348
+msgid ""
+"You had previously accepted an invitation to this event. Do you want to send "
+"an updated response to the organizer declining the invitation?"
+msgstr ""
+
+#: itiphandlerhelper_p.cpp:376 mailscheduler_p.cpp:116
+#, kde-format
+msgid "Counter proposal: %1"
+msgstr "反对：%1"
+
+#: itiphandlerhelper_p.cpp:394
+msgid "Sending group scheduling email failed."
+msgstr ""
+
+#: itiphandlerhelper_p.cpp:395
+msgid "Abort Update"
+msgstr "中止更新"
+
+#: itiphandlerhelper_p.h:171
+#, fuzzy
+#| msgctxt "recipient email"
+#| msgid "Email:"
+msgid "Send Email"
+msgstr "电子邮件："
+
+#: itiphandlerhelper_p.h:172
+#, fuzzy
+#| msgctxt "@option"
+#| msgid "Do Not Send"
+msgid "Do Not Send"
+msgstr "不发送"
+
+#: mailclient_p.cpp:68 mailclient_p.cpp:112
+msgid "There are no attendees to e-mail"
+msgstr ""
+
+#: mailclient_p.cpp:129
+msgid "Free Busy Object"
+msgstr ""
+
+#: mailclient_p.cpp:153 mailclient_p.cpp:174
+msgid "Free Busy Message"
+msgstr ""
+
+#: mailclient_p.cpp:209
+msgid "Error while creating transport"
+msgstr ""
+
+#: mailclient_p.cpp:242
+msgid "Error fetching transport. Unable to send invitations"
+msgstr ""
+
+#: mailclient_p.cpp:395
+#, kde-format
+msgid "Error queuing message in outbox: %1"
+msgstr ""
+
+#: mailscheduler_p.cpp:192
+msgid "Error sending e-mail: "
+msgstr "发送邮件时出错："
+
+#: publishdialog.cpp:38
+msgid "Select Addresses"
+msgstr "选择地址"
+
+#: publishdialog.cpp:49
+msgid "Send email to these recipients"
+msgstr "向这些接收人发送电子邮件"
+
+#: publishdialog.cpp:50
+msgid ""
+"Clicking the <b>Ok</b> button will cause an email to be sent to the "
+"recipients you have entered."
+msgstr "点击<b>确认</b>按钮即可向输入的这些接收人发送电子邮件。"
+
+#: publishdialog.cpp:53
+msgid "Cancel recipient selection and the email"
+msgstr "取消接收人选择和邮件发送"
+
+#: publishdialog.cpp:54
+msgid ""
+"Clicking the <b>Cancel</b> button will cause the email operation to be "
+"terminated."
+msgstr "点击<b>取消</b>按钮即可终止电子邮件操作。"
+
+#: publishdialog.cpp:57
+msgid ""
+"Click the <b>Help</b> button to read more information about Group Scheduling."
+msgstr "点击<b>帮助</b>按钮可阅读更多有关分组安排的信息。"
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, mListWidget)
+#: publishdialog_base.ui:23
+msgid "The list of addressees to receive the invitation"
+msgstr "要接收邀请的地址列表"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, mListWidget)
+#: publishdialog_base.ui:26
+msgid ""
+"This is a list of all the addresses you have currently selected to receive "
+"the iCalendar invitation."
+msgstr "这是您现在所选的将收到 iCalendar 邀请的邮箱地址。"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, mNew)
+#: publishdialog_base.ui:37
+msgid "Create a new recipient"
+msgstr "创建新收件人"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, mNew)
+#: publishdialog_base.ui:40
+msgid ""
+"Click this button and you will be able to enter a name and email for a new "
+"addressee to add to the recipients list"
+msgstr "点击此按钮以输入一个新的姓名和邮件地址并添加到收件人列表中"
+
+#. i18n: ectx: property (text), widget (QPushButton, mNew)
+#: publishdialog_base.ui:43
+msgid "&New"
+msgstr "新建(&N)"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, mRemove)
+#: publishdialog_base.ui:50
+msgid "Remove the recipient currently selected"
+msgstr "删除当前选中的收件人"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, mRemove)
+#: publishdialog_base.ui:53
+msgid ""
+"Click this button to remove the recipient currently selected from the list"
+msgstr "点此按钮删除列表中当前选中的收件人"
+
+#. i18n: ectx: property (text), widget (QPushButton, mRemove)
+#: publishdialog_base.ui:56
+msgid "&Remove"
+msgstr "移除(&R)"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, mSelectAddressee)
+#: publishdialog_base.ui:63
+msgid "Select a recipient from your address book"
+msgstr "从地址簿中选择收件人"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, mSelectAddressee)
+#: publishdialog_base.ui:66
+msgid ""
+"Click this button to show another dialog where you will be able to select a "
+"recipient from your address book"
+msgstr "点击此按钮以显示用于从您的地址簿添加收件人的对话框。"
+
+#. i18n: ectx: property (text), widget (QPushButton, mSelectAddressee)
+#: publishdialog_base.ui:69
+msgid "&Select..."
+msgstr "选择(&S)..."
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: publishdialog_base.ui:98
+msgctxt "recipient name"
+msgid "Name:"
+msgstr "名字："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, mNameLineEdit)
+#: publishdialog_base.ui:108
+msgid "The recipient's name"
+msgstr "收件人姓名"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, mNameLineEdit)
+#: publishdialog_base.ui:111
+msgid "This field contains the name of the recipient"
+msgstr "此字段包含了收件人姓名"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: publishdialog_base.ui:128
+msgctxt "recipient email"
+msgid "Email:"
+msgstr "电子邮件："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, mEmailLineEdit)
+#: publishdialog_base.ui:138
+msgid "The recipient's email address"
+msgstr "收件人的邮箱地址："
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, mEmailLineEdit)
+#: publishdialog_base.ui:141
+msgid "This field contains the email address of the recipient"
+msgstr "此字段包含了收件人的邮箱地址"
+
+#: publishdialog_p.cpp:44
+msgid "(EmptyName)"
+msgstr "(空名称)"
+
+#: publishdialog_p.cpp:45
+msgid "(EmptyEmail)"
+msgstr "(空电子邮件)"
+
+#: scheduler_p.cpp:148 scheduler_p.cpp:257
+msgid "Error: Assigning different incidence types."
+msgstr ""
+
+#: scheduler_p.cpp:243 scheduler_p.cpp:290
+msgid "This isn't an update. The found incidence was modified more recently."
+msgstr ""
+
+#: scheduler_p.cpp:282 scheduler_p.cpp:569 scheduler_p.cpp:584
+#, fuzzy
+#| msgid "Error while deleting incidences: %1"
+msgid "Error modifying incidence"
+msgstr "删除事件时出错：%1"
+
+#: scheduler_p.cpp:307
+msgctxt "@info"
+msgid ""
+"<para>You accepted an invitation update, but an earlier version of the item "
+"could not be found in your calendar.</para><para>This may have occurred "
+"because:<list><item>the organizer did not include you in the original "
+"invitation</item><item>you did not accept the original invitation yet</"
+"item><item>you deleted the original invitation from your calendar</"
+"item><item>you no longer have access to the calendar containing the "
+"invitation</item></list></para><para>This is not a problem, but we thought "
+"you should know.</para>"
+msgstr ""
+"<para>您接受了一个邀请的更新，但是已经无法在您的日历中找到之前的版本。</"
+"para><para>这可能是由于：<list><item>组织者并未将您包含于原始邀请当中</"
+"item><item>您并未接受原始邀请</item><item>您从日历中删除了原始邀请</"
+"item><item>您不再有对包含邀请的日历有访问权限</item></list></para><para>这没"
+"有什么问题，但我们认为你应该知道。</para>"
+
+#: scheduler_p.cpp:316
+msgctxt "@title"
+msgid "Cannot find invitation to be updated"
+msgstr "无法找到需更新的邀请"
+
+#: scheduler_p.cpp:322
+#, fuzzy
+#| msgid "Error while deleting incidences: %1"
+msgid "Error adding incidence"
+msgstr "删除事件时出错：%1"
+
+#: scheduler_p.cpp:358
+msgid "Could not find incidence to delete."
+msgstr ""
+
+#: scheduler_p.cpp:413
+#, fuzzy
+#| msgid "Error performing deletion."
+msgid "Error recording exception"
+msgstr "删除出错。"
+
+#: scheduler_p.cpp:432
+msgctxt "@info"
+msgid ""
+"The event or task could not be removed from your calendar. Maybe it has "
+"already been deleted or is not owned by you. Or it might belong to a read-"
+"only or disabled calendar."
+msgstr ""
+"无法从日历中移除此事件或任务。可能是因为它已被删除、或是不属于您，也可能它属"
+"于一个只读或被禁用的日历中。"
+
+#: scheduler_p.cpp:442 scheduler_p.cpp:457 scheduler_p.cpp:603
+#: scheduler_p.cpp:609
+msgid "Generic Error"
+msgstr "常规错误。"
+
+#: scheduler_p.cpp:509
+#, kde-format
+msgctxt "@info"
+msgid "%1 wants to attend %2 but was not invited."
+msgstr "%1 想参加 %2，但没有被邀请。"
+
+#: scheduler_p.cpp:512
+#, kde-format
+msgctxt "@info"
+msgid "%1 wants to attend %2 on behalf of %3."
+msgstr "%1 想代表 %3 参加 %2。"
+
+#: scheduler_p.cpp:516
+msgctxt "@title"
+msgid "Uninvited attendee"
+msgstr "未邀请的参与者"
+
+#: scheduler_p.cpp:517
+msgctxt "@option"
+msgid "Accept Attendance"
+msgstr "接受参与者"
+
+#: scheduler_p.cpp:518
+msgctxt "@option"
+msgid "Reject Attendance"
+msgstr "拒绝参与者"
+
+#: scheduler_p.cpp:521
+msgctxt "@info"
+msgid "The organizer rejected your attendance at this meeting."
+msgstr "组织者拒绝您参加此次会议。"
+
+#: scheduler_p.cpp:544
+msgctxt "@info"
+msgid ""
+"An attendee was added to the incidence. Do you want to email the attendees "
+"an update message?"
+msgstr "一个参与者已经被添加到事件中。您想要向所有参与者发送通知信件吗？"
+
+#: scheduler_p.cpp:546
+msgctxt "@title"
+msgid "Attendee Added"
+msgstr "参与者已添加"
+
+#: scheduler_p.cpp:547
+msgctxt "@option"
+msgid "Send Messages"
+msgstr "发送信件"
+
+#: scheduler_p.cpp:548
+msgctxt "@option"
+msgid "Do Not Send"
+msgstr "不发送"
+
+#: scheduler_p.cpp:593
+msgid "No incidence for scheduling."
+msgstr ""
+
+#: scheduler_p.cpp:616
+msgid "No Free Busy Cache"
+msgstr ""
+
+#: scheduler_p.cpp:635
+msgid "Error saving freebusy object"
+msgstr ""
+
+#: standardcalendaractionmanager.cpp:68
+msgid "Add Calendar Folder..."
+msgstr "添加日历文件夹..."
+
+#: standardcalendaractionmanager.cpp:70
+msgid "Add a new calendar folder to the currently selected calendar folder."
+msgstr "在当前所选的日历文件夹中添加新日历文件夹。"
+
+#: standardcalendaractionmanager.cpp:73
+msgctxt "@title:window"
+msgid "New Calendar Folder"
+msgstr "新建日历文件夹"
+
+#: standardcalendaractionmanager.cpp:77
+#, kde-format
+msgid "Could not create calendar folder: %1"
+msgstr "无法创建日历文件夹：%1"
+
+#: standardcalendaractionmanager.cpp:81
+msgid "Calendar folder creation failed"
+msgstr "日历文件夹创建失败"
+
+#: standardcalendaractionmanager.cpp:86
+#, kde-format
+msgid "Copy Calendar Folder"
+msgid_plural "Copy %1 Calendar Folders"
+msgstr[0] "复制 %1 个日历文件夹"
+
+#: standardcalendaractionmanager.cpp:88
+msgid "Copy the selected calendar folders to the clipboard."
+msgstr "将选中的日历文件夹复制到剪贴板。"
+
+#: standardcalendaractionmanager.cpp:92
+#, kde-format
+msgid "Delete Calendar Folder"
+msgid_plural "Delete %1 Calendar Folders"
+msgstr[0] "删除 %1 个日历文件夹"
+
+#: standardcalendaractionmanager.cpp:94
+msgid "Delete the selected calendar folders from the calendar."
+msgstr "从日历中删除选中的日历文件夹。"
+
+#: standardcalendaractionmanager.cpp:97
+#, kde-format
+msgid ""
+"Do you really want to delete this calendar folder and all its sub-folders?"
+msgid_plural ""
+"Do you really want to delete %1 calendar folders and all their sub-folders?"
+msgstr[0] "您确定要删除 %1 个日历文件夹及其子文件夹吗？"
+
+#: standardcalendaractionmanager.cpp:102
+msgctxt "@title:window"
+msgid "Delete calendar folder?"
+msgid_plural "Delete calendar folders?"
+msgstr[0] "删除日历文件夹吗？"
+
+#: standardcalendaractionmanager.cpp:106
+#, kde-format
+msgid "Could not delete calendar folder: %1"
+msgstr "无法删除日历文件夹：%1"
+
+#: standardcalendaractionmanager.cpp:110
+msgid "Calendar folder deletion failed"
+msgstr "日历文件夹删除失败"
+
+#: standardcalendaractionmanager.cpp:115
+#, kde-format
+msgid "Update Calendar Folder"
+msgid_plural "Update %1 Calendar Folders"
+msgstr[0] "更新 %1 个日历文件夹"
+
+#: standardcalendaractionmanager.cpp:117
+msgid "Update the content of the selected calendar folders."
+msgstr "更新选中的日历文件夹内容。"
+
+#: standardcalendaractionmanager.cpp:122
+#, kde-format
+msgid "Cut Calendar Folder"
+msgid_plural "Cut %1 Calendar Folders"
+msgstr[0] "剪切 %1 个日历文件夹"
+
+#: standardcalendaractionmanager.cpp:124
+msgid "Cut the selected calendar folders from the calendar."
+msgstr "从日历中剪切选中的日历文件夹。"
+
+#: standardcalendaractionmanager.cpp:128
+msgid "Folder Properties..."
+msgstr "文件夹属性..."
+
+#: standardcalendaractionmanager.cpp:130
+msgid "Open a dialog to edit the properties of the selected calendar folder."
+msgstr "打开对话框以编辑选中日历文件夹的属性。"
+
+#: standardcalendaractionmanager.cpp:133
+#, kde-format
+msgctxt "@title:window"
+msgid "Properties of Calendar Folder %1"
+msgstr "日历文件夹 %1 的属性"
+
+#: standardcalendaractionmanager.cpp:137 standardcalendaractionmanager.cpp:345
+#, kde-format
+msgid "Copy Event"
+msgid_plural "Copy %1 Events"
+msgstr[0] "复制 %1 个事件"
+
+#: standardcalendaractionmanager.cpp:139
+msgid "Copy the selected events to the clipboard."
+msgstr "将所选事件复制到剪贴板。"
+
+#: standardcalendaractionmanager.cpp:144 standardcalendaractionmanager.cpp:355
+#, kde-format
+msgid "Delete Event"
+msgid_plural "Delete %1 Events"
+msgstr[0] "删除 %1 个事件"
+
+#: standardcalendaractionmanager.cpp:146
+msgid "Delete the selected events from the calendar."
+msgstr "从日历中删除选中的事件。"
+
+#: standardcalendaractionmanager.cpp:149
+#, kde-format
+msgid "Do you really want to delete the selected event?"
+msgid_plural "Do you really want to delete %1 events?"
+msgstr[0] "您真的想要删除 %1 个事件吗？"
+
+#: standardcalendaractionmanager.cpp:154
+msgctxt "@title:window"
+msgid "Delete Event?"
+msgid_plural "Delete Events?"
+msgstr[0] "删除事件吗？"
+
+#: standardcalendaractionmanager.cpp:158
+#, kde-format
+msgid "Could not delete event: %1"
+msgstr "无法删除事件：%1"
+
+#: standardcalendaractionmanager.cpp:162
+msgid "Event deletion failed"
+msgstr "事件删除失败"
+
+#: standardcalendaractionmanager.cpp:167 standardcalendaractionmanager.cpp:359
+#, kde-format
+msgid "Cut Event"
+msgid_plural "Cut %1 Events"
+msgstr[0] "剪切 %1 个事件"
+
+#: standardcalendaractionmanager.cpp:169
+msgid "Cut the selected events from the calendar."
+msgstr "从日历中剪切选中的事件。"
+
+#: standardcalendaractionmanager.cpp:173
+msgid "Add &Calendar..."
+msgstr "添加日历(&C)..."
+
+#: standardcalendaractionmanager.cpp:175
+msgid ""
+"Add a new calendar<p>You will be presented with a dialog where you can "
+"select the type of the calendar that shall be added.</p>"
+msgstr "添加新日历<p>将会展示一个让您选择要添加日历类型的对话框。</p>"
+
+#: standardcalendaractionmanager.cpp:180
+msgctxt "@title:window"
+msgid "Add Calendar"
+msgstr "添加日历"
+
+#: standardcalendaractionmanager.cpp:184
+#, kde-format
+msgid "Could not create calendar: %1"
+msgstr "无法创建日历：%1"
+
+#: standardcalendaractionmanager.cpp:188
+msgid "Calendar creation failed"
+msgstr "日历创建失败"
+
+#: standardcalendaractionmanager.cpp:194
+#, kde-format
+msgid "&Delete Calendar"
+msgid_plural "&Delete %1 Calendars"
+msgstr[0] "删除 %1 个日历(&D)"
+
+#: standardcalendaractionmanager.cpp:196
+msgid ""
+"Delete the selected calendars<p>The currently selected calendars will be "
+"deleted, along with all the events, todos and journals they contain.</p>"
+msgstr ""
+"删除选中的日历<p>当前所选的日历以及所包含的时间，待办事宜和日记将被删除。</p>"
+
+#: standardcalendaractionmanager.cpp:201
+#, kde-format
+msgid "Do you really want to delete this calendar?"
+msgid_plural "Do you really want to delete %1 calendars?"
+msgstr[0] "您确定要删除 %1 个日历吗？"
+
+#: standardcalendaractionmanager.cpp:206
+msgctxt "@title:window"
+msgid "Delete Calendar?"
+msgid_plural "Delete Calendars?"
+msgstr[0] "删除日历吗？"
+
+#: standardcalendaractionmanager.cpp:211
+msgid "Calendar Properties..."
+msgstr "日历属性..."
+
+#: standardcalendaractionmanager.cpp:213
+msgid "Open a dialog to edit properties of the selected calendar."
+msgstr "打开对话框以编辑选中日历的属性。"
+
+#: standardcalendaractionmanager.cpp:218
+#, kde-format
+msgid "Update Calendar"
+msgid_plural "Update %1 Calendars"
+msgstr[0] "更新 %1 个日历"
+
+#: standardcalendaractionmanager.cpp:220
+msgid "Updates the content of all folders of the selected calendars."
+msgstr "更新选中的日历中所有文件夹的内容。"
+
+#: standardcalendaractionmanager.cpp:224
+msgid "&Copy to Calendar"
+msgstr "复制到日历(&C)"
+
+#: standardcalendaractionmanager.cpp:226
+msgid "Copy the selected event to a different calendar."
+msgstr "将选中的事件复制到另一个日历"
+
+#: standardcalendaractionmanager.cpp:230
+msgid "&Move to Calendar"
+msgstr "移动到日历(&M)"
+
+#: standardcalendaractionmanager.cpp:232
+msgid "Move the selected event to a different calendar."
+msgstr "将选中的事件移动到另一个日历"
+
+#: standardcalendaractionmanager.cpp:237
+#, kde-format
+msgid "Could not paste event: %1"
+msgstr "无法粘贴事件：%1"
+
+#: standardcalendaractionmanager.cpp:241
+msgid "Paste failed"
+msgstr "粘贴失败"
+
+#: standardcalendaractionmanager.cpp:348 standardcalendaractionmanager.cpp:351
+msgid "Copy Event To"
+msgstr "复制事件到"
+
+#: standardcalendaractionmanager.cpp:362 standardcalendaractionmanager.cpp:365
+msgid "Move Event To"
+msgstr "移动事件到"
+
+#: standardcalendaractionmanager.cpp:368
+msgid "Edit Event..."
+msgstr "编辑事件..."
+
+#: standardcalendaractionmanager.cpp:373
+#, kde-format
+msgid "Copy To-do"
+msgid_plural "Copy %1 To-dos"
+msgstr[0] "复制 %1 条待办事宜"
+
+#: standardcalendaractionmanager.cpp:376 standardcalendaractionmanager.cpp:379
+msgid "Copy To-do To"
+msgstr "复制待办事宜到"
+
+#: standardcalendaractionmanager.cpp:383
+#, kde-format
+msgid "Delete To-do"
+msgid_plural "Delete %1 To-dos"
+msgstr[0] "删除 %1 条待办事宜"
+
+#: standardcalendaractionmanager.cpp:387
+#, kde-format
+msgid "Cut To-do"
+msgid_plural "Cut %1 To-dos"
+msgstr[0] "剪切 %1 条待办事宜"
+
+#: standardcalendaractionmanager.cpp:390 standardcalendaractionmanager.cpp:393
+msgid "Move To-do To"
+msgstr "移动待办事宜到"
+
+#: standardcalendaractionmanager.cpp:396
+msgid "Edit To-do..."
+msgstr "编辑待办事宜..."
+
+#: standardcalendaractionmanager.cpp:401
+#, kde-format
+msgid "Copy Journal"
+msgid_plural "Copy %1 Journals"
+msgstr[0] "复制 %1 条日记"
+
+#: standardcalendaractionmanager.cpp:404 standardcalendaractionmanager.cpp:407
+msgid "Copy Journal To"
+msgstr "复制日记到"
+
+#: standardcalendaractionmanager.cpp:411
+#, kde-format
+msgid "Delete Journal"
+msgid_plural "Delete %1 Journals"
+msgstr[0] "删除 %1 条日记"
+
+#: standardcalendaractionmanager.cpp:415
+#, kde-format
+msgid "Cut Journal"
+msgid_plural "Cut %1 Journals"
+msgstr[0] "剪切 %1 条日记"
+
+#: standardcalendaractionmanager.cpp:418 standardcalendaractionmanager.cpp:421
+msgid "Move Journal To"
+msgstr "移动日记到"
+
+#: standardcalendaractionmanager.cpp:424
+msgid "Edit Journal..."
+msgstr "编辑日记..."
+
+#: standardcalendaractionmanager.cpp:559
+msgid "New E&vent..."
+msgstr "新建事件(&V)..."
+
+#: standardcalendaractionmanager.cpp:560
+msgid "Create a new event"
+msgstr "创建新事件"
+
+#: standardcalendaractionmanager.cpp:568
+msgid "New &To-do..."
+msgstr "新建待办事宜(&T)..."
+
+#: standardcalendaractionmanager.cpp:569
+msgid "Create a new To-do"
+msgstr "新建待办事宜"
+
+#: standardcalendaractionmanager.cpp:577
+msgid "New Su&b-to-do..."
+msgstr "新建子待办事宜(&B)..."
+
+#: standardcalendaractionmanager.cpp:578
+msgid "Create a new Sub-to-do"
+msgstr "创建新子待办事宜"
+
+#: standardcalendaractionmanager.cpp:586
+msgid "New &Journal..."
+msgstr "新建日记(&J)..."
+
+#: standardcalendaractionmanager.cpp:587
+msgid "Create a new Journal"
+msgstr "创建一篇新日记"
+
+#: standardcalendaractionmanager.cpp:594
+msgid "&Edit..."
+msgstr "编辑(&E)..."
+
+#: standardcalendaractionmanager.cpp:595
+msgid "Edit the selected incidence."
+msgstr "编辑所选事件。"
+
+#: todopurger.cpp:76
+msgid "Purging completed to-dos"
+msgstr ""
+
+#~ msgid "&Make Default"
+#~ msgstr "设为默认(&M)"
+
+#~ msgid "&Add Calendar to Favorites"
+#~ msgstr "将日历添加到收藏夹(&A)"
+
+#~ msgid "&Remove Calendar from Favorites"
+#~ msgstr "从收藏夹中删除日历(&R)"
+
+#~ msgid "&Rename Favorite"
+#~ msgstr "重命名收藏夹(&R)"
+
+#~ msgid "&Publish Item Information"
+#~ msgstr "公布项目信息(&P)"
+
+#~ msgid "Send &Invitations"
+#~ msgstr "发送邀请(&I)"

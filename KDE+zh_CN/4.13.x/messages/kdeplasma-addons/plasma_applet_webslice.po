@@ -1,0 +1,72 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 04:43+0200\n"
+"PO-Revision-Date: 2010-01-02 15:28+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: webslice.cpp:119
+msgctxt "displayed in the widget while loading"
+msgid "<h1>Loading...</h1>"
+msgstr "<h1>正在装入...</h1>"
+
+#: webslice.cpp:134
+msgid ""
+"<p>The Webslice Widget allows you to display a part of a webpage on your "
+"desktop or in a panel. The webslice is fully interactive.</p><p>Specify the "
+"URL of the webpage in the URL field.In the <em>Element to Show</em> field, "
+"fill in a CSS identifier (for example #mybox for elements with the id \"mybox"
+"\").  This is the preferred method as it works best with layout changes on "
+"the webpage.</p><p>Alternatively, you can specify a rectangle on the webpage "
+"to use as slice. Use \"x,y,width,height\" in pixels, for example <em>"
+"\"100,80,300,360\"</em>. This method is a fallback for webpages that do not "
+"provide enough semantic markup for the above mechanism.</p>If both methods "
+"(element and geometry) are used, the element will take precedence."
+msgstr ""
+"<p>网页切片部件允许您在桌面或面板上显示网页的一部分。网页切片是完全可交互的。"
+"</p><p>在 URL 字段中置顶网页的 URL。在<em>要显示的元素</em>字段中填入 CSS 标"
+"示(例如 #mybox 对应于标示为“mybox”的元素)。这是首选方式因为这样可以在网页布局"
+"更改时很好地工作。</p><p>除此之外，您页可以指定网页中的一块矩形作为切片。使用"
+"像素值“x,y,width,height”，例如<em>“100,80,300,360”</em>。这是种后备方案，用于"
+"那些没有为上述机制提供足够 语义学标记的网页。</p>如果同时使用两种方法(元素和"
+"几何位置)，则优先使用元素。"
+
+#: webslice.cpp:143
+msgctxt "informational page"
+msgid "Info"
+msgstr "信息"
+
+#: webslice.cpp:147
+msgctxt "general config page"
+msgid "Webpage"
+msgstr "网页"
+
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#: websliceConfig.ui:29
+msgid "URL:"
+msgstr "URL："
+
+#. i18n: ectx: property (text), widget (QLabel, elementLabel)
+#: websliceConfig.ui:50
+msgid "Element to show:"
+msgstr "要显示的元素："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: websliceConfig.ui:60
+msgid "Geometry:"
+msgstr "几何形状："
+
+#~ msgid "Configure the System Bar"
+#~ msgstr "配置系统栏"

@@ -1,0 +1,164 @@
+# translation of kcm_autostart.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2010.
+# Feng Chao <rainofchaos@gmail.com>, 2010.
+# Weng Xuetian <wengxt@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_autostart\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-03 01:33+0000\n"
+"PO-Revision-Date: 2012-12-04 15:11-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国,Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org,shuizhuyuanluo@126.com"
+
+#: addscriptdialog.cpp:40
+msgid "Shell script path:"
+msgstr "Shell 脚本路径："
+
+#: addscriptdialog.cpp:44
+msgid "Create as symlink"
+msgstr "创建为符号链接"
+
+#: addscriptdialog.cpp:79
+#, kde-format
+msgid "\"%1\" is not an absolute path."
+msgstr "“%1” 不是绝对路径。"
+
+#: addscriptdialog.cpp:82
+#, kde-format
+msgid "\"%1\" does not exist."
+msgstr "“%1” 不存在。"
+
+#: addscriptdialog.cpp:85
+#, kde-format
+msgid "\"%1\" is not a file."
+msgstr "“%1” 不是文件。"
+
+#: addscriptdialog.cpp:88
+#, kde-format
+msgid "\"%1\" is not readable."
+msgstr "“%1” 不可读。"
+
+#: advanceddialog.cpp:32
+msgid "Autostart only in KDE"
+msgstr "仅在 KDE 中自动启动"
+
+#: autostart.cpp:55
+msgid "Name"
+msgstr "名称"
+
+#: autostart.cpp:56
+msgid "Command"
+msgstr "命令"
+
+#: autostart.cpp:57
+msgid "Status"
+msgstr "状态"
+
+#: autostart.cpp:58
+msgctxt ""
+"@title:column The name of the column that decides if the program is run on "
+"kde startup, on kde shutdown, etc"
+msgid "Run On"
+msgstr "运行于"
+
+#: autostart.cpp:75
+msgid "KDE Autostart Manager"
+msgstr "KDE 自动启动管理器"
+
+#: autostart.cpp:77
+msgid "KDE Autostart Manager Control Panel Module"
+msgstr "KDE 自动启动管理器控制面板模块"
+
+#: autostart.cpp:79
+msgid "Copyright © 2006–2010 Autostart Manager team"
+msgstr "Copyright © 2006–2010 自动启动管理器开发组"
+
+#: autostart.cpp:80
+msgid "Stephen Leaf"
+msgstr "Stephen Leaf"
+
+#: autostart.cpp:81
+msgid "Montel Laurent"
+msgstr "Montel Laurent"
+
+#: autostart.cpp:81
+msgid "Maintainer"
+msgstr "维护者"
+
+#: autostart.cpp:108 autostart.cpp:122
+msgctxt "The program won't be run"
+msgid "Disabled"
+msgstr "已禁用"
+
+#: autostart.cpp:110 autostart.cpp:122 autostartitem.cpp:77
+msgctxt "The program will be run"
+msgid "Enabled"
+msgstr "已启用"
+
+#: autostart.cpp:146
+msgid "Startup"
+msgstr "启动"
+
+#: autostart.cpp:147
+msgid "Shutdown"
+msgstr "停止"
+
+#: autostart.cpp:148
+msgid "Pre-KDE startup"
+msgstr "KDE 启动前"
+
+#: autostart.cpp:153
+msgid "Desktop File"
+msgstr "桌面定义文件"
+
+#: autostart.cpp:161
+msgid "Script File"
+msgstr "脚本文件"
+
+#: autostart.cpp:416
+msgid ""
+"Only files with “.sh” extensions are allowed for setting up the environment."
+msgstr "只允许使用带有“.sh”扩展名的文件来设置环境。"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddProgram)
+#: autostartconfig.ui:26
+msgid "Add Program..."
+msgstr "添加程序..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAddScript)
+#: autostartconfig.ui:33
+msgid "Add Script..."
+msgstr "添加脚本..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnRemove)
+#: autostartconfig.ui:40
+msgid "&Remove"
+msgstr "删除(&R)"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnProperties)
+#: autostartconfig.ui:47
+msgid "&Properties..."
+msgstr "属性(&P)..."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
+#: autostartconfig.ui:74
+msgid "Advanced..."
+msgstr "高级..."

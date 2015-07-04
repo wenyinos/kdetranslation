@@ -1,0 +1,194 @@
+#
+# Xuedong Zhang <zxd@bu.edu>, 2000,2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010, 2013.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkclock\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-18 01:42+0000\n"
+"PO-Revision-Date: 2013-02-17 18:54+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: dateandtime.ui:22
+msgid "Date and Time"
+msgstr "日期和时间"
+
+#. i18n: ectx: property (text), widget (QCheckBox, setDateTimeAuto)
+#: dateandtime.ui:30
+msgid "Set date and time &automatically:"
+msgstr "自动设定日期和时间(&A)："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dateandtime.ui:53
+msgid "Time server:"
+msgstr "时间服务器："
+
+#. i18n: ectx: property (whatsThis), widget (KDatePicker, cal)
+#: dateandtime.ui:83
+msgid "Here you can change the system date's day of the month, month and year."
+msgstr "您可以在这里更改系统日期的年月日。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: dateandtime.ui:116
+msgid "Time Zone"
+msgstr "时区"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dateandtime.ui:122
+msgid "To change the local time zone, select your area from the list below."
+msgstr "如果要修改本地时区设置，请从下面列表中选择您的时区。"
+
+#. i18n: ectx: property (text), widget (QLabel, m_local)
+#: dateandtime.ui:145
+msgid "Current local time zone:"
+msgstr "当前本地时区："
+
+#. i18n: ectx: property (placeholderText), widget (KTreeWidgetSearchLine, tzonesearch)
+#: dateandtime.ui:155
+msgid "Search"
+msgstr "搜索"
+
+#: dtime.cpp:79
+msgid ""
+"No NTP utility has been found. Install 'ntpdate' or 'rdate' command to "
+"enable automatic updating of date and time."
+msgstr ""
+"未找到 NTP 工具。请安装“ntpdate”或“rdate”命令以启用日期和时间的自动更新功能。"
+
+#: dtime.cpp:106
+msgid ""
+"Here you can change the system time. Click into the hours, minutes or "
+"seconds field to change the relevant value, either using the up and down "
+"buttons to the right or by entering a new value."
+msgstr ""
+"您可以在这里更改系统时间。点击相应的时、分、秒区域，然后用右边的上下按钮或直"
+"接输入新的数值进行修改。"
+
+#: dtime.cpp:128
+#, kde-format
+msgctxt "%1 is name of time zone"
+msgid "Current local time zone: %1"
+msgstr "当前本地时区：%1"
+
+#: dtime.cpp:132
+#, kde-format
+msgctxt "%1 is name of time zone, %2 is its abbreviation"
+msgid "Current local time zone: %1 (%2)"
+msgstr "当前本地时区：%1 (%2)"
+
+#: dtime.cpp:199
+msgid ""
+"Public Time Server (pool.ntp.org),asia.pool.ntp.org,europe.pool.ntp.org,"
+"north-america.pool.ntp.org,oceania.pool.ntp.org"
+msgstr ""
+"公开时间服务器(pool.ntp.org),asia.pool.ntp.org,europe.pool.ntp.org,north-"
+"america.pool.ntp.org,oceania.pool.ntp.org"
+
+#: dtime.cpp:278
+#, kde-format
+msgid "Unable to contact time server: %1."
+msgstr "无法连接时间服务器：%1。"
+
+#: dtime.cpp:282
+msgid "Can not set date."
+msgstr "无法设置日期。"
+
+#: dtime.cpp:285
+msgid "Error setting new time zone."
+msgstr "设置新时区时发生错误。"
+
+#: dtime.cpp:286
+msgid "Time zone Error"
+msgstr "时区错误"
+
+#: dtime.cpp:303
+msgid ""
+"<h1>Date & Time</h1> This system settings module can be used to set the "
+"system date and time. As these settings do not only affect you as a user, "
+"but rather the whole system, you can only change these settings when you "
+"start the System Settings as root. If you do not have the root password, but "
+"feel the system time should be corrected, please contact your system "
+"administrator."
+msgstr ""
+"<h1>日期和时间</h1>该控制模块可以用来设置系统时间。由于这些设置不仅会影响您，"
+"还会影响整个系统，您只有在以管理员(root)身份启动系统设置时才能更改这些设置。"
+"如果您没有管理员的密码但需要更正系统时间，请与系统管理员联系。"
+
+#: main.cpp:52
+msgid "kcmclock"
+msgstr "kcmclock"
+
+#: main.cpp:52
+msgid "KDE Clock Control Module"
+msgstr "KDE 时钟控制模块"
+
+#: main.cpp:54
+msgid "(c) 1996 - 2001 Luca Montecchiani"
+msgstr "(c) 1996 - 2001 Luca Montecchiani"
+
+#: main.cpp:56
+msgid "Luca Montecchiani"
+msgstr "Luca Montecchiani"
+
+#: main.cpp:56
+msgid "Original author"
+msgstr "原作者"
+
+#: main.cpp:57
+msgid "Paul Campbell"
+msgstr "Paul Campbell"
+
+#: main.cpp:57
+msgid "Current Maintainer"
+msgstr "当前维护者"
+
+#: main.cpp:58
+msgid "Benjamin Meyer"
+msgstr "Benjamin Meyer"
+
+#: main.cpp:58
+msgid "Added NTP support"
+msgstr "添加了 NTP 支持"
+
+#: main.cpp:60
+msgid ""
+"<h1>Date & Time</h1> This control module can be used to set the system date "
+"and time. As these settings do not only affect you as a user, but rather the "
+"whole system, you can only change these settings when you start the System "
+"Settings as root. If you do not have the root password, but feel the system "
+"time should be corrected, please contact your system administrator."
+msgstr ""
+"<h1>日期和时间</h1>该控制模块可以用来设置系统时间。由于这些设置不仅会影响您，"
+"还会影响整个系统，您只有在以管理员(root)身份启动系统设置时才能更改这些设置。"
+"如果您没有管理员的密码但需要更正系统时间，请与系统管理员联系。"
+
+#: main.cpp:94
+#, kde-format
+msgid "Unable to authenticate/execute the action: %1, %2"
+msgstr "无法认证/执行动作：%1，%2"
+
+#~ msgid "NTP"
+#~ msgstr "NTP"
+
+#~ msgid "Failed to set system date/time/time zone."
+#~ msgstr "设置系统日期/时间/时区失败。"
+
+#~ msgid "Date/Time Error"
+#~ msgstr "日期/时间错误"

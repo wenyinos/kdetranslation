@@ -1,0 +1,284 @@
+# translation of ktron.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010, 2012.
+# Lie Ex <lilith.ex@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: ktron\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 03:44+0200\n"
+"PO-Revision-Date: 2012-06-17 19:34+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gameTypeGroup)
+#: general.ui:35
+msgid "Game Type"
+msgstr "游戏类型"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_GameType)
+#: general.ui:42
+msgid "KSnakeDuel: Player vs Computer"
+msgstr "KSnakeDuel：玩家对电脑"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_GameType)
+#: general.ui:47
+msgid "KSnakeDuel: Player vs Player"
+msgstr "KSnakeDuel：玩家对玩家"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_GameType)
+#: general.ui:52
+msgid "KSnake: Single player"
+msgstr "KSnake：单个玩家"
+
+#. i18n: ectx: property (text), widget (QLabel, gameTypeLabel)
+#: general.ui:60
+msgid "Game type:"
+msgstr "游戏类型："
+
+#. i18n: ectx: property (title), widget (QGroupBox, behaviorGroup)
+#: general.ui:73
+msgid "Behavior"
+msgstr "行为"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AcceleratorBlocked)
+#: general.ui:79
+msgid "&Disable acceleration"
+msgstr "禁用加速(&D)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, playerNamesGroup)
+#: general.ui:89
+msgid "Player Names"
+msgstr "玩家名称"
+
+#. i18n: ectx: property (text), widget (QLabel, namePlayer1Label)
+#: general.ui:101
+msgid "Right player / KSnake:"
+msgstr "右侧玩家/KSnake："
+
+#. i18n: ectx: property (text), widget (QLabel, namePlayer2Label)
+#: general.ui:111
+msgid "Left player:"
+msgstr "左侧玩家："
+
+#: ktron.cpp:75
+msgid "Right Player / KSnake: Up"
+msgstr "右侧玩家/电脑贪吃蛇：上"
+
+#: ktron.cpp:81
+msgid "Right Player / KSnake: Down"
+msgstr "右侧玩家/电脑贪吃蛇：下"
+
+#: ktron.cpp:87
+msgid "Right Player / KSnake: Right"
+msgstr "右侧玩家/电脑贪吃蛇：右"
+
+#: ktron.cpp:93
+msgid "Right Player / KSnake: Left"
+msgstr "右侧玩家/电脑贪吃蛇：左"
+
+#: ktron.cpp:99
+msgid "Right Player: Accelerator"
+msgstr "右侧玩家/加速"
+
+#: ktron.cpp:105
+msgid "Left Player: Up"
+msgstr "左侧玩家：上"
+
+#: ktron.cpp:111
+msgid "Left Player: Down"
+msgstr "左侧玩家：下"
+
+#: ktron.cpp:117
+msgid "Left Player: Right"
+msgstr "左侧玩家：右"
+
+#: ktron.cpp:123
+msgid "Left Player: Left"
+msgstr "左侧玩家：左"
+
+#: ktron.cpp:129
+msgid "Left Player: Accelerator"
+msgstr "左侧玩家：加速"
+
+#: ktron.cpp:169
+#, kde-format
+msgid "Failed to load \"%1\" theme. Please check your installation."
+msgstr "装入“%1”主题失败。请检查您的安装。"
+
+#: ktron.cpp:188
+#, kde-format
+msgid "%1 has won!"
+msgstr "%1 赢了！"
+
+#: ktron.cpp:191 tron.cpp:339
+msgid "Game paused"
+msgstr "游戏已暂停"
+
+#: ktron.cpp:260
+msgid "Player Name:"
+msgstr "玩家名称："
+
+#: ktron.cpp:261
+msgid "Opponent:"
+msgstr "对手："
+
+#: ktron.cpp:264
+msgid "Right Player:"
+msgstr "右侧玩家："
+
+#: ktron.cpp:265
+msgid "Left Player:"
+msgstr "左侧玩家："
+
+#: ktron.cpp:269
+msgid "General"
+msgstr "常规"
+
+#: ktron.cpp:270
+msgid "Theme"
+msgstr "主题"
+
+#. i18n: ectx: label, entry (Theme), group (General)
+#: ktron.kcfg:9
+msgid "The graphical theme to be used."
+msgstr "要使用的图形主题。"
+
+#. i18n: ectx: label, entry (AcceleratorBlocked), group (Game)
+#: ktron.kcfg:15
+msgid "Whether to disable acceleration."
+msgstr "是否禁用加速。"
+
+#. i18n: ectx: label, entry (NamePlayer1), group (Game)
+#: ktron.kcfg:19
+msgid "The name of player 1."
+msgstr "玩家 1 的名称。"
+
+#. i18n: ectx: label, entry (NamePlayer2), group (Game)
+#: ktron.kcfg:22
+msgid "The name of player 2."
+msgstr "玩家 2 的名称。"
+
+#. i18n: ectx: label, entry, group (Game)
+#: ktron.kcfg:25
+msgid "Type of the game"
+msgstr "游戏的类型"
+
+#: main.cpp:33
+msgid "A race in hyperspace"
+msgstr "超空间竞速"
+
+#: main.cpp:34
+msgid ""
+"(c) 1998-2000, Matthias Kiefer\n"
+"(c) 2005, Benjamin Meyer\n"
+"(c) 2008-2009, Stas Verberkt\n"
+"\n"
+"Parts of the algorithms for the computer player are from\n"
+"xtron-1.1 by Rhett D. Jacobs <rhett@hotel.canberra.edu.au>"
+msgstr ""
+"(c) 1998-2000，Matthias Kiefer\n"
+"(c) 2005，Benjamin Meyer\n"
+"(c) 2008-2009，Stas Verberkt\n"
+"\n"
+"电脑玩家的部分算法来自\n"
+"Rhett D. Jacobs <rhett@hotel.canberra.edu.au> 的 xtron-1.1"
+
+#: main.cpp:44 player.cpp:95
+msgid "KSnakeDuel"
+msgstr "KSnakeDuel"
+
+#: main.cpp:46
+msgid "Matthias Kiefer"
+msgstr "Matthias Kiefer"
+
+#: main.cpp:46
+msgid "Original author"
+msgstr "原作者"
+
+#: main.cpp:47
+msgid "Benjamin Meyer"
+msgstr "Benjamin Meyer"
+
+#: main.cpp:47
+msgid "Various improvements"
+msgstr "各种改善"
+
+#: main.cpp:48
+msgid "Stas Verberkt"
+msgstr "Stas Verberkt"
+
+#: main.cpp:48
+msgid "KDE 4 Port, interface revision and KSnake mode"
+msgstr "KDE 4 移植，界面修订和 KSnake 模式"
+
+#: main.cpp:53
+msgid "Start in KSnake mode"
+msgstr "以 KSnake 模式开始"
+
+#: player.cpp:116
+#, kde-format
+msgid "Player %1"
+msgstr "玩家 %1"
+
+#: tron.cpp:359
+#, kde-format
+msgid "%1 has won versus %2 with %4 versus %3 point!"
+msgid_plural "%1 has won versus %2 with %4 versus %3 points!"
+msgstr[0] "%1 战胜了 %2，比分为 %4 比 %3！"
+
+#: tron.cpp:370
+#, kde-format
+msgctxt "%2 = 'x points' [player %1], %4 = 'x points' [player %3]"
+msgid "%1 (%2) versus %3 (%4)"
+msgstr "%1(%2 分)战胜了 %3(%4 分)"
+
+#: tron.cpp:371 tron.cpp:372
+#, kde-format
+msgid "%1 point"
+msgid_plural "%1 points"
+msgstr[0] "%1 分"
+
+#: tron.cpp:380
+#, kde-format
+msgid "KSnake game ended with 1 point"
+msgid_plural "KSnake game ended with %1 points"
+msgstr[0] "KSnake 游戏结束，得分为 %1"
+
+#: tron.cpp:385
+msgid ""
+"The game starts when each player has pressed one of their direction keys!"
+msgstr "当每位玩家按下方向键后，游戏就会开始！"
+
+#: tron.cpp:388
+msgid "Press any of your direction keys to start!"
+msgstr "按下任意方向键开始游戏！"
+
+#~ msgid "The difficulty level."
+#~ msgstr "难度等级。"
+
+#~ msgid "KTron"
+#~ msgstr "KTron"
+
+#~ msgid "Start in KTron mode"
+#~ msgstr "以 KTron 模式开始"
+
+#~ msgid "%1 (%2 point) versus %3 (%4 points)"
+#~ msgid_plural "%1 (%2 points) versus %3 (%4 points)"
+#~ msgstr[0] "%1(%2 分)战胜了 %3(%4 分)"

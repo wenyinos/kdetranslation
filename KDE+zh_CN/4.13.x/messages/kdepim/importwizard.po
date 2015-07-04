@@ -1,0 +1,345 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Weng Xuetian <wengxt@gmail.com>, 2012.
+# Phoenix Nemo <phoenixlzx@archlinuxcn.org>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-01-04 01:34+0000\n"
+"PO-Revision-Date: 2013-02-18 12:19+0800\n"
+"Last-Translator: Phoenix Nemo <phoenixlzx@archlinuxcn.org>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: abstractaddressbook.cpp:42
+msgid "Creating new contact..."
+msgstr "新建联系人..."
+
+#: abstractaddressbook.cpp:49
+msgid "Select Address Book"
+msgstr "选择地址簿"
+
+#: abstractaddressbook.cpp:50
+msgid "Select the address book the new contact shall be saved in:"
+msgstr "选择新联系人要保存到的地址簿："
+
+#: abstractaddressbook.cpp:55
+msgid "Address Book was not selected."
+msgstr "未选中地址簿。"
+
+#: abstractaddressbook.cpp:91
+#, kde-format
+msgid "Error during contact creation: %1"
+msgstr "创建联系人时发生错误： %1 "
+
+#: abstractaddressbook.cpp:94
+msgid "Contact creation complete"
+msgstr "联系人创建完成"
+
+#: abstractimporter.cpp:82
+#, kde-format
+msgid "1 filter was imported from \"%2\""
+msgid_plural "%1 filters were imported from \"%2\""
+msgstr[0] "已从“%2”中导入 %1 个过滤器"
+
+#: abstractimporter.cpp:85
+msgid "Filters file was not found"
+msgstr "过滤器文件未找到"
+
+#: abstractsettings.cpp:54
+msgid "Setting up identity..."
+msgstr "正在设置身份..."
+
+#: abstractsettings.cpp:62
+msgid "Identity set up."
+msgstr "身份已设置。"
+
+#: abstractsettings.cpp:79
+msgid "Setting up transport..."
+msgstr "设置传输..."
+
+#: abstractsettings.cpp:90
+msgid "Transport set up."
+msgstr "传输已设置。"
+
+#: balsa/balsaimportdata.cpp:62 claws-mail/clawsmailimportdata.cpp:62
+#: evolutionv1/evolutionv1importdata.cpp:57
+#: evolutionv2/evolutionv2importdata.cpp:58
+#: evolutionv3/evolutionv3importdata.cpp:80 mailapp/mailappimportdata.cpp:62
+#: oe/oeimportdata.cpp:62 opera/operaimportdata.cpp:61
+#: pmail/pmailimportdata.cpp:62 sylpheed/sylpheedimportdata.cpp:74
+#: thebat/thebatimportdata.cpp:62 thunderbird/thunderbirdimportdata.cpp:93
+msgid "Import in progress"
+msgstr "导入中"
+
+#: balsa/balsaimportdata.cpp:68 claws-mail/clawsmailimportdata.cpp:69
+#: evolutionv1/evolutionv1importdata.cpp:64
+#: evolutionv2/evolutionv2importdata.cpp:65
+#: evolutionv3/evolutionv3importdata.cpp:87 mailapp/mailappimportdata.cpp:68
+#: oe/oeimportdata.cpp:68 opera/operaimportdata.cpp:68
+#: pmail/pmailimportdata.cpp:68 sylpheed/sylpheedimportdata.cpp:81
+#: thebat/thebatimportdata.cpp:68 thunderbird/thunderbirdimportdata.cpp:100
+msgid "Import finished"
+msgstr "导入完成"
+
+#: claws-mail/clawsmailimportdata.cpp:90
+msgid "Claws Mail settings not found."
+msgstr "未找到 Claws Mail 配置。"
+
+#: evolutionv3/evolutionaddressbook.cpp:37
+msgid ""
+"Evolution address book will be exported as vCard. Import vCard in "
+"KAddressBook."
+msgstr ""
+"Evolution 的地址簿将导出为 vCard 格式导出。导入 vCard 到 KAddressBook。"
+
+#: evolutionv3/evolutionaddressbook.cpp:37
+msgid "Export Evolution Address Book"
+msgstr "导出 Evolution 地址簿"
+
+#: evolutionv3/evolutionaddressbook.cpp:39
+msgid "Select the directory where vCards will be stored."
+msgstr "选择保存 vCard 文件的目录。"
+
+#: evolutionv3/evolutionaddressbook.cpp:91
+#, kde-format
+msgid "Address book \"%1\" exported."
+msgstr "地址簿“%1”已导出。"
+
+#: evolutionv3/evolutionaddressbook.cpp:93
+#, kde-format
+msgid "Failed to export address book \"%1\"."
+msgstr "导出地址簿“%1”失败。"
+
+#: evolutionv3/evolutionv3importdata.cpp:69
+msgid "Evolution settings not found."
+msgstr "未找到 Evolution 配置。"
+
+#: evolutionv3/evolutionv3importdata.cpp:112
+msgid "Evolution calendar not found."
+msgstr "未找到 Evolution 日历。"
+
+#: importwizard.cpp:58 main.cpp:35
+msgid "PIM Import Tool"
+msgstr "个人信息管理导入工具"
+
+#: importwizard.cpp:68
+msgid "Detect program"
+msgstr "检测程序"
+
+#: importwizard.cpp:72
+msgid "Select material to import"
+msgstr "选择导入来源"
+
+#: importwizard.cpp:76
+msgid "Import mail messages"
+msgstr "导入信件"
+
+#: importwizard.cpp:80
+msgid "Import mail filters"
+msgstr "导入信件过滤器"
+
+#. i18n: ectx: property (text), widget (QPushButton, importSettings)
+#: importwizard.cpp:84 ui/importsettingpage.ui:35
+msgid "Import settings"
+msgstr "导入设置"
+
+#: importwizard.cpp:88
+msgid "Import addressbooks"
+msgstr "导入地址簿"
+
+#: importwizard.cpp:92
+msgid "Import calendars"
+msgstr "导入日历"
+
+#: importwizard.cpp:97
+msgid "Finish"
+msgstr "完成"
+
+#: importwizard.cpp:143
+msgid ""
+"Close KMail before importing data. Some plugins will modify KMail config "
+"file."
+msgstr "请在导入数据前关闭 KMail。有些导入插件会修改 KMail 配置文件。"
+
+#: importwizard.cpp:160
+#, kde-format
+msgid "Import addressbook from %1..."
+msgstr "从 %1 导入地址簿..."
+
+#: importwizard.cpp:168
+#, kde-format
+msgid "Import filters from %1..."
+msgstr "从 %1 导入过滤器..."
+
+#: importwizard.cpp:176
+#, kde-format
+msgid "Import mails from %1..."
+msgstr "从 %1 导入信件..."
+
+#: importwizard.cpp:184
+#, kde-format
+msgid "Import settings from %1..."
+msgstr "从 %1 导入设置..."
+
+#: importwizard.cpp:192
+#, kde-format
+msgid "Import calendar from %1..."
+msgstr "从 %1 导入日历..."
+
+#: main.cpp:34
+msgid "importwizard"
+msgstr "导入向导"
+
+#: main.cpp:36
+#, fuzzy
+#| msgid "Copyright © 2012-2013 importwizard authors"
+msgid "Copyright © 2012-2013-2014 importwizard authors"
+msgstr "Copyright © 2012-2013 导入向导作者"
+
+#: main.cpp:37
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: main.cpp:37
+msgid "Maintainer"
+msgstr "维护者"
+
+#: sylpheed/sylpheedaddressbook.cpp:69
+#, kde-format
+msgid "No contact found in %1"
+msgstr "在 %1 中未找到联系人"
+
+#: sylpheed/sylpheedimportdata.cpp:63
+msgid "Sylpheed settings not found."
+msgstr "未找到 Sylpheed 配置。"
+
+#: thunderbird/thunderbirdimportdata.cpp:79
+msgid "Thunderbird settings not found."
+msgstr "未找到 Thunderbird 配置。"
+
+#. i18n: ectx: property (text), widget (QPushButton, importAddressBook)
+#: ui/importaddressbookpage.ui:35
+msgid "Import addressbook"
+msgstr "导入地址簿"
+
+#. i18n: ectx: property (text), widget (QPushButton, importCalendar)
+#: ui/importcalendarpage.ui:35
+msgid "Import calendar"
+msgstr "导入日历"
+
+#. i18n: ectx: property (text), widget (QPushButton, importFilters)
+#: ui/importfilterpage.ui:35
+msgid "Import Filters"
+msgstr "导入信件过滤器"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/importfinishpage.ui:17
+msgid "Summary:"
+msgstr "合计："
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/importmailpage.ui:20
+msgid "Please select the folder to import to:"
+msgstr "请选择要导入的目录："
+
+#. i18n: ectx: property (text), widget (QPushButton, importMails)
+#: ui/importmailpage.ui:48
+msgid "Import Mails"
+msgstr "导入邮件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mails)
+#: ui/selectcomponentpage.ui:37
+msgid "Mails"
+msgstr "邮件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, filters)
+#: ui/selectcomponentpage.ui:47
+msgid "Filters"
+msgstr "过滤器"
+
+#. i18n: ectx: property (text), widget (QCheckBox, settings)
+#: ui/selectcomponentpage.ui:57
+msgid "Settings"
+msgstr "设置"
+
+#. i18n: ectx: property (text), widget (QCheckBox, addressbooks)
+#: ui/selectcomponentpage.ui:67
+msgid "Address Books"
+msgstr "地址簿"
+
+#. i18n: ectx: property (text), widget (QCheckBox, calendars)
+#: ui/selectcomponentpage.ui:77
+msgid "Calendars"
+msgstr "日历"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/selectcomponentpage.ui:114
+msgid ""
+"This wizard will import mail messages, addressbook entries, filters and/or "
+"settings from other mail programs into KMail"
+msgstr ""
+"本向导可帮助您从其他邮件程序中导入信件、地址簿、过滤器以及配置等数据到 KMail "
+"中。"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/selectcomponentpage.ui:124
+msgid "Or select types of material to import:"
+msgstr "或者选择要导入的项目"
+
+#. i18n: ectx: property (text), widget (QCheckBox, everything)
+#: ui/selectcomponentpage.ui:131
+msgid "Import Everything"
+msgstr "全部导入"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/selectprogrampage.ui:26
+msgid "Please select the program from which you like to import:"
+msgstr "请选择要导入数据的程序"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/selectprogrampage.ui:44
+msgid "No program found"
+msgstr "未找到程序"
+
+#~ msgid "Resource type '%1' is not available."
+#~ msgstr "资源类型‘%1’不可用。"
+
+#~ msgid "Resource '%1' is already set up."
+#~ msgstr "资源‘%1’已设置。"
+
+#~ msgid "Creating resource instance for '%1'..."
+#~ msgstr "正在创建‘%1’的资源实例..."
+
+#~ msgid "Configuring resource instance..."
+#~ msgstr "正在配置资源实例..."
+
+#~ msgid "Unable to configure resource instance."
+#~ msgstr "无法配置资源实例。"
+
+#~ msgid "Could not convert value of setting '%1' to required type %2."
+#~ msgstr "无法将设置值‘%1’转换为所需类型 %2。"
+
+#~ msgid "Could not set setting '%1': %2"
+#~ msgstr "无法设置‘%1’: %2"
+
+#~ msgid "Resource setup completed."
+#~ msgstr "资源设置完成。"
+
+#~ msgid "Failed to create resource instance: %1"
+#~ msgstr "创建资源实例失败：%1"

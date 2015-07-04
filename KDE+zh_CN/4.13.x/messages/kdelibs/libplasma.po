@@ -1,0 +1,734 @@
+# translation of libplasma.po to 简体中文
+#
+# Funda Wang <fundawang@linux.net.cn>, 2007.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010, 2011.
+# Lie Ex <lilith.ex@gmail.com>, 2009-2010.
+# Weng Xuetian <wengxt@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: libplasma\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-12-14 01:32+0000\n"
+"PO-Revision-Date: 2013-06-21 16:43-0400\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: animations/animationscriptengine.cpp:144
+msgid "animation() takes one argument"
+msgstr "animation() 函数需要一个参数"
+
+#: animations/animationscriptengine.cpp:169
+#, kde-format
+msgid "%1 is not a known animation type"
+msgstr "%1 不是一个已知的动画类型"
+
+#: applet.cpp:250
+msgid "Script initialization failed"
+msgstr "脚本初始化失败"
+
+#: applet.cpp:414
+msgid "Unable to load the widget"
+msgstr "无法装入部件"
+
+#: applet.cpp:816
+msgid "Panel"
+msgstr "面板"
+
+#: applet.cpp:818
+msgid "Unknown"
+msgstr "未知"
+
+#: applet.cpp:823
+msgid "Unknown Widget"
+msgstr "未知部件"
+
+#: applet.cpp:864 applet.cpp:2382 applet.cpp:2383
+msgctxt "misc category"
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#: applet.cpp:1051
+msgid "Configure..."
+msgstr "配置..."
+
+#: applet.cpp:1102
+msgid "&OK"
+msgstr "确定(&O)"
+
+#: applet.cpp:1110
+msgid "&Yes"
+msgstr "是(&Y)"
+
+#: applet.cpp:1117
+msgid "&No"
+msgstr "否(&N)"
+
+#: applet.cpp:1124
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#: applet.cpp:1161
+msgid "OK"
+msgstr "确认"
+
+#: applet.cpp:1560
+#, kde-format
+msgid "Activate %1 Widget"
+msgstr "激活 %1 部件"
+
+#: applet.cpp:1750
+msgid "Widget Settings"
+msgstr "部件设置"
+
+#: applet.cpp:1757
+msgid "Remove this Widget"
+msgstr "删除此部件"
+
+#: applet.cpp:1764
+msgid "Run the Associated Application"
+msgstr "运行关联应用程序"
+
+#: applet.cpp:1941
+msgid "Settings"
+msgstr "设置"
+
+#: applet.cpp:1941
+#, kde-format
+msgid "%1 Settings"
+msgstr "%1设置"
+
+#: applet.cpp:2025
+#, kde-format
+msgctxt "@title:window"
+msgid "%1 Settings"
+msgstr "%1设置"
+
+#: applet.cpp:2033
+msgid "Accessibility"
+msgstr "辅助功能"
+
+#: applet.cpp:2034
+msgid "Application Launchers"
+msgstr "应用程序启动器"
+
+#: applet.cpp:2035
+msgid "Astronomy"
+msgstr "天文"
+
+#: applet.cpp:2036
+msgid "Date and Time"
+msgstr "日期和时间"
+
+#: applet.cpp:2037
+msgid "Development Tools"
+msgstr "开发工具"
+
+#: applet.cpp:2038
+msgid "Education"
+msgstr "教学"
+
+#: applet.cpp:2039
+msgid "Environment and Weather"
+msgstr "环境和天气"
+
+#: applet.cpp:2040
+msgid "Examples"
+msgstr "示例"
+
+#: applet.cpp:2041
+msgid "File System"
+msgstr "文件系统"
+
+#: applet.cpp:2042
+msgid "Fun and Games"
+msgstr "娱乐和游戏"
+
+#: applet.cpp:2043
+msgid "Graphics"
+msgstr "图像"
+
+#: applet.cpp:2044
+msgid "Language"
+msgstr "语言"
+
+#: applet.cpp:2045
+msgid "Mapping"
+msgstr "映射"
+
+#: applet.cpp:2046
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#: applet.cpp:2047
+msgid "Multimedia"
+msgstr "多媒体"
+
+#: applet.cpp:2048
+msgid "Online Services"
+msgstr "在线服务"
+
+#: applet.cpp:2049
+msgid "Productivity"
+msgstr "生产力"
+
+#: applet.cpp:2050
+msgid "System Information"
+msgstr "系统信息"
+
+#: applet.cpp:2051
+msgid "Utilities"
+msgstr "工具"
+
+#: applet.cpp:2052
+msgid "Windows and Tasks"
+msgstr "窗口和任务"
+
+#: applet.cpp:2095
+msgid "Keyboard Shortcut"
+msgstr "键盘快捷键"
+
+#: applet.cpp:2128 package.cpp:804
+#, kde-format
+msgctxt ""
+"%1 is the name of a plasmoid, %2 the name of the machine that plasmoid is "
+"published on"
+msgid "%1 on %2"
+msgstr "%1 于 %2"
+
+#: applet.cpp:2732 containment.cpp:176
+#, kde-format
+msgctxt "%1 is the name of the applet"
+msgid "Remove this %1"
+msgstr "删除%1"
+
+#: applet.cpp:2737 containment.cpp:181
+#, kde-format
+msgctxt "%1 is the name of the applet"
+msgid "%1 Settings"
+msgstr "%1设置"
+
+#: applet.cpp:2778
+#, kde-format
+msgctxt ""
+"API or programming language the widget was written in, name of the widget"
+msgid "Could not create a %1 ScriptEngine for the %2 widget."
+msgstr "无法为 %2 部件创建 %1 脚本引擎。"
+
+#: applet.cpp:2783
+#, kde-format
+msgctxt "Package file, name of the widget"
+msgid "Could not open the %1 package required for the %2 widget."
+msgstr "无法打开 %2 部件所需的 %1 包。"
+
+#: applet.cpp:2937
+msgid "This object could not be created."
+msgstr "无法创建此对象。"
+
+#: applet.cpp:2941
+#, kde-format
+msgid ""
+"This object could not be created for the following reason:<p><b>%1</b></p>"
+msgstr "无法创建此对象，原因如下：<p><b>%1</b></p>"
+
+#: containment.cpp:244
+msgid "Remove this Panel"
+msgstr "删除此面板"
+
+#: containment.cpp:246
+msgid "Remove this Activity"
+msgstr "删除此活动项"
+
+#: containment.cpp:252
+msgid "Activity Settings"
+msgstr "活动项设置"
+
+#: containment.cpp:258
+msgid "Add Widgets..."
+msgstr "添加部件..."
+
+#: containment.cpp:264
+msgid "Next Widget"
+msgstr "下一个部件"
+
+#: containment.cpp:270
+msgid "Previous Widget"
+msgstr "上一个部件"
+
+#: containment.cpp:704
+#, kde-format
+msgctxt "%1 is the name of the containment"
+msgid "%1 Options"
+msgstr "%1的选项"
+
+#: containment.cpp:1341
+msgid "Fetching file type..."
+msgstr "正在获取文件类型..."
+
+#: containment.cpp:1532
+msgid "Widgets"
+msgstr "部件"
+
+#: containment.cpp:1545
+msgid "Icon"
+msgstr "图标"
+
+#: containment.cpp:1549
+msgid "Wallpaper"
+msgstr "墙纸"
+
+#: containment.cpp:2111
+#, kde-format
+msgctxt "@title:window %1 is the name of the containment"
+msgid "Remove %1"
+msgstr "删除 %1"
+
+#: containment.cpp:2115
+#, kde-format
+msgctxt "%1 is the name of the containment"
+msgid "Do you really want to remove this %1?"
+msgstr "您真的想要删除 %1 吗？"
+
+#: containment.cpp:2229
+#, kde-format
+msgid "Could not find requested component: %1"
+msgstr "无法找到所需都组件：%1"
+
+#: containment.cpp:2408
+msgid "This plugin needs to be configured"
+msgstr "此插件需要配置"
+
+#: containmentactions.cpp:142
+msgid "Unknown ContainmentActions"
+msgstr "未知的容器动作"
+
+#: corona.cpp:683 corona.cpp:823
+msgid "Lock Widgets"
+msgstr "锁定部件"
+
+#: corona.cpp:683
+msgid "Unlock Widgets"
+msgstr "解锁部件"
+
+#: corona.cpp:835
+msgid "Shortcut Settings"
+msgstr "快捷设置"
+
+#: dataengine.cpp:526 dataengine.cpp:532
+msgid "Unnamed"
+msgstr "未命名"
+
+#: extenders/extendergroup.cpp:70
+msgid "Show this group."
+msgstr "显示此分组。"
+
+#: extenders/extendergroup.cpp:76
+msgid "Hide this group."
+msgstr "隐藏此分组。"
+
+#: extenders/extenderitem.cpp:610
+msgid "Expand this widget"
+msgstr "展开此部件"
+
+#: extenders/extenderitem.cpp:610
+msgid "Collapse this widget"
+msgstr "折叠此部件"
+
+#: extenders/extenderitem.cpp:947
+msgid "Reattach"
+msgstr "重新挂接"
+
+#: extenders/extenderitem.cpp:973
+msgid "Close"
+msgstr "关闭"
+
+#: glapplet.cpp:76 glapplet.cpp:87
+msgid "This system does not support OpenGL widgets."
+msgstr "此系统不支持 OpenGL 部件。"
+
+#: glapplet.cpp:184
+msgid "Your machine does not support OpenGL widgets."
+msgstr "您的计算机不支持 OpenGL 部件。"
+
+#: packagestructure.h:85
+msgctxt "A non-functional package"
+msgid "Invalid"
+msgstr "无效"
+
+#: private/associatedapplicationmanager.cpp:132
+msgid ""
+"There was an error attempting to exec the associated application with this "
+"widget."
+msgstr "尝试执行和此部件相关的应用程序时发生错误。"
+
+#: private/joliemessagehelper_p.h:56
+msgctxt "Error message, access to a remote service failed."
+msgid "Invalid token."
+msgstr "无效的令牌。"
+
+#: private/joliemessagehelper_p.h:59
+msgctxt "Error message, access to a remote service failed."
+msgid "Matching password required."
+msgstr "要求正确的密码。"
+
+#: private/joliemessagehelper_p.h:62
+msgctxt "Error message, access to a remote service failed."
+msgid "Access denied."
+msgstr "访问被拒绝。"
+
+#: private/joliemessagehelper_p.h:64
+msgid "Unknown error."
+msgstr "未知错误。"
+
+#: private/packages.cpp:58 private/packages.cpp:291
+msgid "Images"
+msgstr "图像"
+
+#: private/packages.cpp:59
+msgid "Themed Images"
+msgstr "主题化的图像"
+
+#: private/packages.cpp:65
+msgid "Configuration Definitions"
+msgstr "配置定义"
+
+#: private/packages.cpp:70
+msgid "User Interface"
+msgstr "用户界面"
+
+#: private/packages.cpp:73 private/packages.cpp:133
+msgid "Data Files"
+msgstr "日期文件"
+
+#: private/packages.cpp:75 private/packages.cpp:135
+msgid "Executable Scripts"
+msgstr "可执行脚本"
+
+#: private/packages.cpp:80 private/packages.cpp:143
+msgid "Translations"
+msgstr "翻译"
+
+#: private/packages.cpp:82
+msgid "Main Config UI File"
+msgstr "主配置界面文件"
+
+#: private/packages.cpp:83
+msgid "Configuration XML file"
+msgstr "配置 XML 文件"
+
+#: private/packages.cpp:84 private/packages.cpp:106 private/packages.cpp:145
+#: private/packages.cpp:159
+msgid "Main Script File"
+msgstr "主脚本文件"
+
+#: private/packages.cpp:85
+msgid "Default configuration"
+msgstr "默认配置"
+
+#: private/packages.cpp:86 private/packages.cpp:180
+msgid "Animation scripts"
+msgstr "动画脚本"
+
+#: private/packages.cpp:140
+msgid "Service Descriptions"
+msgstr "服务描述"
+
+#: private/packages.cpp:167
+msgid "Images for dialogs"
+msgstr "对话框的图像"
+
+#: private/packages.cpp:170 private/packages.cpp:172
+msgid "Generic dialog background"
+msgstr "常规对话框背景"
+
+#: private/packages.cpp:175 private/packages.cpp:177
+msgid "Theme for the logout dialog"
+msgstr "注销对话框主题"
+
+#: private/packages.cpp:179
+msgid "Wallpaper packages"
+msgstr "壁纸包"
+
+#: private/packages.cpp:182 private/packages.cpp:246
+msgid "Images for widgets"
+msgstr "部件的图像"
+
+#: private/packages.cpp:185 private/packages.cpp:187
+msgid "Background image for widgets"
+msgstr "部件的背景图像"
+
+#: private/packages.cpp:190 private/packages.cpp:192
+msgid "Analog clock face"
+msgstr "模拟时钟表面"
+
+#: private/packages.cpp:195 private/packages.cpp:197
+msgid "Background image for panels"
+msgstr "面板的背景图像"
+
+#: private/packages.cpp:200 private/packages.cpp:202
+msgid "Background for graphing widgets"
+msgstr "图形化部件的背景"
+
+#: private/packages.cpp:205 private/packages.cpp:207
+msgid "Background image for tooltips"
+msgstr "工具提示的背景图像"
+
+#: private/packages.cpp:209
+msgid "Opaque images for dialogs"
+msgstr "对话框的透明图像"
+
+#: private/packages.cpp:212 private/packages.cpp:214
+msgid "Opaque generic dialog background"
+msgstr "常规透明对话框背景"
+
+#: private/packages.cpp:217 private/packages.cpp:219
+msgid "Opaque theme for the logout dialog"
+msgstr "注销对话框的透明主题"
+
+#: private/packages.cpp:221
+msgid "Opaque images for widgets"
+msgstr "部件的透明图像"
+
+#: private/packages.cpp:224 private/packages.cpp:226
+msgid "Opaque background image for panels"
+msgstr "面板的透明背景图像"
+
+#: private/packages.cpp:229 private/packages.cpp:231
+msgid "Opaque background image for tooltips"
+msgstr "工具提示的透明背景图像"
+
+#: private/packages.cpp:234
+msgid "Low color images for dialogs"
+msgstr "对话框的低色彩图像"
+
+#: private/packages.cpp:237 private/packages.cpp:239
+msgid "Low color generic dialog background"
+msgstr "低色彩常规对话框背景"
+
+#: private/packages.cpp:242 private/packages.cpp:244
+msgid "Low color theme for the logout dialog"
+msgstr "注销对话框的低色彩主题"
+
+#: private/packages.cpp:249 private/packages.cpp:251
+msgid "Low color background image for widgets"
+msgstr "部件的低色彩背景图像"
+
+#: private/packages.cpp:254 private/packages.cpp:256
+msgid "Low color analog clock face"
+msgstr "低色彩的模拟时钟表面"
+
+#: private/packages.cpp:259 private/packages.cpp:261
+msgid "Low color background image for panels"
+msgstr "面板的低色彩背景图像"
+
+#: private/packages.cpp:264 private/packages.cpp:266
+msgid "Low color background for graphing widgets"
+msgstr "图形化部件的低色彩背景"
+
+#: private/packages.cpp:269 private/packages.cpp:271
+msgid "Low color background image for tooltips"
+msgstr "工具提示的低色彩背景图像"
+
+#: private/packages.cpp:273
+msgid "KColorScheme configuration file"
+msgstr "KColorScheme 配置文件"
+
+#: private/packages.cpp:293
+msgid "Screenshot"
+msgstr "屏幕截图"
+
+#: private/packages.cpp:337 private/packages.cpp:389
+msgid "Recommended wallpaper file"
+msgstr "推荐的壁纸文件"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: private/pinpairing.ui:41
+msgid ""
+"Enter a password below. Enter the same password on the device to which you "
+"are trying to connect."
+msgstr "在下面输入一个密码，然后在您要连接到的设备上输入同样的密码。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, allServicesCheckbox)
+#: private/pinpairing.ui:64
+msgid "Allow this user access to any service"
+msgstr "允许此用户访问任何服务"
+
+#. i18n: ectx: property (text), widget (QCheckBox, persistentCheckbox)
+#: private/pinpairing.ui:71
+msgid "Remember this user"
+msgstr "记住此用户"
+
+#: private/pinpairingdialog.cpp:44
+msgid "Incoming connection request"
+msgstr "收到连接请求"
+
+#: private/pinpairingdialog.cpp:49
+msgid "Connect with remote widget"
+msgstr "连接远程部件"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: private/publish.ui:17
+msgid ""
+"Sharing a widget on the network allows you to access this widget from "
+"another computer as a remote control."
+msgstr "部件网络共享可以让您在其它计算器上也能远程访问此部件。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, publishCheckbox)
+#: private/publish.ui:27
+msgid "Share this widget on the network"
+msgstr "在网络上共享此部件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, allUsersCheckbox)
+#: private/publish.ui:37
+msgid "Allow everybody to freely access this widget"
+msgstr "允许任何人自由访问此部件"
+
+#: private/remoteservicejob.cpp:119
+msgid "Job no longer valid, operation is not enabled."
+msgstr "任务失效，不允许操作。"
+
+#: private/remoteservicejob.cpp:129
+msgid "Job no longer valid, invalid parameters."
+msgstr "任务失效，无效的参数。"
+
+#: private/remoteservicejob.cpp:172
+msgid "Timeout."
+msgstr "超时。"
+
+#: private/service_p.h:54
+msgctxt "Error message, tried to start an invalid service"
+msgid "Invalid (null) service, can not perform any operations."
+msgstr "无效的服务，无法执行任何操作。"
+
+#: remote/accessappletjob.cpp:82
+#, kde-format
+msgid "The \"%1\" widget is not installed."
+msgstr "未安装部件“%1”。"
+
+#: remote/accessappletjob.cpp:96
+msgid "Server sent an invalid plasmoid package."
+msgstr "服务器发送了无效的 Plasma 部件包。"
+
+#: remote/accessappletjob.cpp:112
+msgid "You are about to open a remote widget on your system.<br>"
+msgstr "您即将在您系统上打开一个远程部件。<br>"
+
+#: remote/accessappletjob.cpp:113
+msgid "<table width=\"100%\">"
+msgstr "<table width=\"100%\">"
+
+#: remote/accessappletjob.cpp:114
+#, kde-format
+msgid "<tr><td align=\"right\"><b>Name:</b></td><td>&nbsp; %1</td></tr>"
+msgstr "<tr><td align=\"right\"><b>名称：</b></td><td>&nbsp; %1</td></tr>"
+
+#: remote/accessappletjob.cpp:115
+#, kde-format
+msgid "<tr><td align=\"right\"><b>Description:</b></td><td>&nbsp; %1</td></tr>"
+msgstr "<tr><td align=\"right\"><b>描述：</b></td><td>&nbsp; %1</td></tr>"
+
+#: remote/accessappletjob.cpp:116
+#, kde-format
+msgid ""
+"<tr><td align=\"right\"><b>Author:</b></td><td>&nbsp; %1 &lt;%2&gt;</td></tr>"
+msgstr ""
+"<tr><td align=\"right\"><b>作者：</b></td><td>&nbsp; %1 &lt;%2&gt;</td></tr>"
+
+#: remote/accessappletjob.cpp:119
+#, kde-format
+msgid "<tr><td align=\"right\"><b>Server:</b></td><td>&nbsp; %1</td></tr>"
+msgstr "<tr><td align=\"right\"><b>服务器：</b></td><td>&nbsp; %1</td></tr>"
+
+#: remote/accessappletjob.cpp:120
+msgid "</table>"
+msgstr "</table>"
+
+#: remote/accessappletjob.cpp:121
+msgid "<br><br>Are you sure you want to open this widget on your system?"
+msgstr "<br><br>您确定想要在您系统上打开此部件吗？"
+
+#: remote/accessappletjob.cpp:124
+msgid "Remote Widget"
+msgstr "远程部件"
+
+#: remote/accessappletjob.cpp:126
+msgid "Open Widget"
+msgstr "打开部件"
+
+#: remote/accessappletjob.cpp:127
+msgid "Reject Widget"
+msgstr "拒绝部件"
+
+#: remote/accessappletjob.cpp:136
+msgid "User rejected"
+msgstr "用户已拒绝"
+
+#: remote/accessappletjob.cpp:164
+msgid "Timeout"
+msgstr "超时"
+
+#: remote/accessappletjob.cpp:200
+msgid ""
+"Your system does not provide support for the 'remote widgets' feature. "
+"Access Failed."
+msgstr "系统未提供远程部件的特性支持。访问失败。"
+
+#: remote/authorizationrule.cpp:98
+#, kde-format
+msgid "Allow everybody access to %1."
+msgstr "允许任何人访问 %1。"
+
+#: remote/authorizationrule.cpp:100
+#, kde-format
+msgid "Deny everybody access to %1"
+msgstr "拒绝任何人访问 %1"
+
+#: remote/authorizationrule.cpp:102
+#, kde-format
+msgid "Allow %1 access to all services."
+msgstr "允许 %1 访问所有服务。"
+
+#: remote/authorizationrule.cpp:104
+#, kde-format
+msgid "Deny %1 access to all services."
+msgstr "拒绝 %1 访问所有服务。"
+
+#: remote/authorizationrule.cpp:106
+#, kde-format
+msgid "Allow access to %1, by %2."
+msgstr "允许经由 %2 访问 %1。"
+
+#: remote/authorizationrule.cpp:108
+#, kde-format
+msgid "Deny access to %1, by %2."
+msgstr "拒绝经由 %2 访问 %1。"
+
+#: remote/authorizationrule.cpp:110
+#, kde-format
+msgid "Allow access to %1, by %2?"
+msgstr "是否允许经由 %2 访问 %1？"
+
+#: remote/clientpinrequest.cpp:57
+#, kde-format
+msgid "You have requested access to the %1 hosted at %2."
+msgstr "您已经请求访问 %2 上的 %1。"
+
+#: runnersyntax.cpp:103
+msgid "search term"
+msgstr "搜索短语"
+
+#: wallpaper.cpp:245
+msgid "Unknown Wallpaper"
+msgstr "未知墙纸"
+
+#~ msgid "Share"
+#~ msgstr "共享"
+
+#~ msgctxt "Package file, name of the widget"
+#~ msgid "Could not locate the %1 package required for the %2 widget."
+#~ msgstr "找不到 %2 部件所需的 %1 包。"

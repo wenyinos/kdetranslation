@@ -1,0 +1,1784 @@
+# translation of kcontactmanager.po to 简体中文
+# Funda Wang <fundawang@linux.net.cn>, 2006.
+# sanfanling <xujia19@gmail.com>, 2007.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009, 2010.
+# Lie Ex <lilith.ex@gmail.com>, 2008-2010.
+# Weng Xuetian <wengxt@gmail.com>, 2011, 2013.
+# FengChao <rainofchaos@gmail.com>, 2013.
+# Phoenix Nemo <phoenixlzx@archlinuxcn.org>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcontactmanager\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-22 01:40+0000\n"
+"PO-Revision-Date: 2013-02-18 13:43+0800\n"
+"Last-Translator: Phoenix Nemo <phoenixlzx@archlinuxcn.org>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: aboutdata.cpp:28
+msgid "KAddressBook"
+msgstr "KAddressBook"
+
+#: aboutdata.cpp:29
+msgid "The KDE Address Book Application"
+msgstr "KDE 地址簿程序"
+
+#: aboutdata.cpp:31
+#, fuzzy
+#| msgid "Copyright © 2007–2013 KAddressBook authors"
+msgid "Copyright © 2007–2014 KAddressBook authors"
+msgstr "版权 © 2007–2013 KAddressBook 作者"
+
+#: aboutdata.cpp:33
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: aboutdata.cpp:33
+msgid "Current maintainer"
+msgstr "当前维护者"
+
+#: aboutdata.cpp:34
+msgid "Tobias Koenig"
+msgstr "Tobias Koenig"
+
+#: aboutdata.cpp:34
+#, fuzzy
+#| msgid "Current maintainer"
+msgid "Previous maintainer"
+msgstr "当前维护者"
+
+#: contactfields.cpp:29
+msgctxt "@item Undefined import field type"
+msgid "Undefined"
+msgstr "未定义"
+
+#: contactfields.cpp:56
+#, fuzzy
+#| msgid "Anniversary"
+msgctxt "The wedding anniversary of a contact"
+msgid "Anniversary"
+msgstr "纪念日"
+
+#: contactfields.cpp:125
+msgctxt "Preferred email address"
+msgid "EMail (preferred)"
+msgstr "电子邮件(首选)"
+
+#: contactfields.cpp:128
+msgctxt "Second email address"
+msgid "EMail (2)"
+msgstr "电子邮件(2)"
+
+#: contactfields.cpp:131
+msgctxt "Third email address"
+msgid "EMail (3)"
+msgstr "电子邮件(3)"
+
+#: contactfields.cpp:134
+msgctxt "Fourth email address"
+msgid "EMail (4)"
+msgstr "电子邮件(4)"
+
+#: contactfields.cpp:155
+msgid "Blog Feed"
+msgstr "博客种子(Feed)"
+
+#: contactfields.cpp:158
+msgid "Profession"
+msgstr "职业"
+
+#: contactfields.cpp:161
+msgid "Office"
+msgstr "办公处"
+
+#: contactfields.cpp:164
+msgid "Manager"
+msgstr "经理"
+
+#: contactfields.cpp:167
+msgid "Assistant"
+msgstr "助手"
+
+#: contactfields.cpp:170
+msgid "Spouse"
+msgstr "配偶"
+
+#: contactselectiondialog.cpp:29 merge/searchduplicatecontactwizard.cpp:34
+msgid "Select Contacts"
+msgstr "选择联系人"
+
+#: contactselectionwidget.cpp:114
+msgctxt "@option:radio"
+msgid "All contacts"
+msgstr "全部联系人"
+
+#: contactselectionwidget.cpp:116
+msgctxt "@info:tooltip"
+msgid "All contacts from all your address books"
+msgstr "所有地址簿中的全部联系人"
+
+#: contactselectionwidget.cpp:119
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose this option you want to select all your contacts from all your "
+"address books."
+msgstr "如果您希望选择您所有地址簿中的全部联系人，请选择此项。"
+
+#: contactselectionwidget.cpp:122
+msgctxt "@option:radio"
+msgid "Selected contacts"
+msgstr "选中的联系人"
+
+#: contactselectionwidget.cpp:124
+msgctxt "@info:tooltip"
+msgid "Only the contacts currently selected"
+msgstr "仅当前选择的联系人"
+
+#: contactselectionwidget.cpp:127
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose this option if you want only the contacts you have already selected "
+"in the graphical interface."
+msgstr "如果您仅想要在图形界面中选择的联系人，请选择此项。"
+
+#: contactselectionwidget.cpp:130
+msgctxt "@option:radio"
+msgid "All contacts from:"
+msgstr "全部联系人，从："
+
+#: contactselectionwidget.cpp:132
+msgctxt "@info:tooltip"
+msgid "All contacts from a chosen address book"
+msgstr "已选择的地址簿中的所有联系人"
+
+#: contactselectionwidget.cpp:135
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose this option if you want to select all the contacts from only one of "
+"your address books.  Once this option is clicked you will be provided a drop "
+"down box listing all those address books and permitted to select the one you "
+"want."
+msgstr ""
+"如果您希望选择一个地址簿中的所有联系人，请选择此项。一旦此项被点击，将会弹出"
+"一个包含所有地址簿的下拉框以供从中选择。"
+
+#: contactselectionwidget.cpp:144
+msgctxt "@option:check"
+msgid "Include Subfolders"
+msgstr "包括子文件夹"
+
+#: contactselectionwidget.cpp:146
+msgctxt "@info:tooltip"
+msgid "Select all subfolders including the top-level folder"
+msgstr "选择包含顶级目录的所有子目录"
+
+#: contactselectionwidget.cpp:149
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to select all contacts from this folder, "
+"including all subfolders.  If you only want the contacts from the top-level "
+"folder then leave this box unchecked."
+msgstr ""
+"如果你希望选择此目录下的所有联系人，包括所有的子目录，请选择此项。如果您希望"
+"仅选择顶级目录下的联系人，请勿选择此项。"
+
+#: contactswitcher.cpp:34
+msgctxt "@action:button Previous contact"
+msgid "Previous"
+msgstr "上一个"
+
+#: contactswitcher.cpp:36
+msgctxt "@info:tooltip"
+msgid "Move to the previous contact in the list"
+msgstr "移动到列表中的前一联系人"
+
+#: contactswitcher.cpp:39
+msgctxt "@info:whatsthis"
+msgid "Press this button to move to the previous contact in the list."
+msgstr "点击此按钮来移动到列表中的前一联系人"
+
+#: contactswitcher.cpp:41
+msgctxt "@action:button Next contact"
+msgid "Next"
+msgstr "下一个"
+
+#: contactswitcher.cpp:43
+msgctxt "@info:tooltip"
+msgid "Move to the next contact in the list"
+msgstr "移到列表中下一个联系人"
+
+#: contactswitcher.cpp:46
+msgctxt "@info:whatsthis"
+msgid "Press this button to move to the next contact in the list."
+msgstr "点击此按钮来移动到列表中的后一联系人"
+
+#: contactswitcher.cpp:130
+#, kde-format
+msgctxt "@info:status"
+msgid "%1 out of %2"
+msgstr "%1 个，共 %2 个"
+
+#: kaddressbook_options.h:27
+#, fuzzy
+#| msgid "Import CSV file..."
+msgid "Import the given file"
+msgstr "导入 CSV 文件..."
+
+#: kaddressbook_options.h:29
+msgid "files or urls. The user will be asked whether to import."
+msgstr ""
+
+#: kaddressbookpart.cpp:64
+msgid "&Configure KAddressBook..."
+msgstr "配置 KAddressBook(&C)..."
+
+#. i18n: ectx: Menu (file)
+#: kaddressbookui.rc:5
+msgid "&File"
+msgstr "文件(&F)"
+
+#. i18n: ectx: Menu (file_new)
+#: kaddressbookui.rc:7
+msgid "&New"
+msgstr "新建(&N)"
+
+#. i18n: ectx: Menu (file_import)
+#: kaddressbookui.rc:15
+msgid "&Import"
+msgstr "导入(&I)"
+
+#. i18n: ectx: Menu (file_export)
+#: kaddressbookui.rc:23
+msgid "&Export"
+msgstr "导出(&E)"
+
+#. i18n: ectx: Menu (edit)
+#: kaddressbookui.rc:40
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#. i18n: ectx: Menu (view)
+#: kaddressbookui.rc:51
+msgid "&View"
+msgstr "视图(&V)"
+
+#. i18n: ectx: Menu (settings)
+#: kaddressbookui.rc:61
+msgid "&Settings"
+msgstr "设置(&S)"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kaddressbookui.rc:94
+msgid "Main Toolbar"
+msgstr "主工具栏"
+
+#: mainwidget.cpp:537
+msgid "&Themes"
+msgstr ""
+
+#: mainwidget.cpp:548
+msgctxt "@info:whatsthis"
+msgid "Print the complete address book or a selected number of contacts."
+msgstr "打印完整地址簿或是选择的一部分联系人。"
+
+#: mainwidget.cpp:554
+msgid "Quick search"
+msgstr "快速搜索"
+
+#: mainwidget.cpp:558
+msgid "Select All"
+msgstr "全部选择"
+
+#: mainwidget.cpp:560
+msgid "Select all contacts in the current address book view."
+msgstr "在当前地址簿视图中选择所有联系人。"
+
+#: mainwidget.cpp:566
+msgid "Show QR Codes"
+msgstr "显示 QR 码"
+
+#: mainwidget.cpp:567
+msgid "Show QR Codes in the contact."
+msgstr "在联系人中显示 QR 码。"
+
+#: mainwidget.cpp:573
+msgctxt "@action:inmenu"
+msgid "Simple (one column)"
+msgstr "简易(单列)"
+
+#: mainwidget.cpp:577
+msgid "Show a simple mode of the address book view."
+msgstr "显示简易模式的地址簿视图。"
+
+#: mainwidget.cpp:580
+msgctxt "@action:inmenu"
+msgid "Two Columns"
+msgstr "两列"
+
+#: mainwidget.cpp:586
+msgctxt "@action:inmenu"
+msgid "Three Columns"
+msgstr "三列"
+
+#: mainwidget.cpp:596
+msgid "Import vCard..."
+msgstr "导入 vCard..."
+
+#: mainwidget.cpp:597
+msgid "Import contacts from a vCard file."
+msgstr "从 vCard 文件导入联系人。"
+
+#: mainwidget.cpp:601
+msgid "Import CSV file..."
+msgstr "导入 CSV 文件..."
+
+#: mainwidget.cpp:602
+msgid "Import contacts from a file in comma separated value format."
+msgstr "从以逗号分隔各条目的文件中导入联系人。"
+
+#: mainwidget.cpp:606
+msgid "Import LDIF file..."
+msgstr "导入 LDIF 文件..."
+
+#: mainwidget.cpp:607
+msgid "Import contacts from an LDIF file."
+msgstr "从 LDIF 文件导入联系人。"
+
+#: mainwidget.cpp:611
+#, fuzzy
+#| msgid "Import from LDAP server..."
+msgid "Import From LDAP server..."
+msgstr "从 LDAP 服务器导入..."
+
+#: mainwidget.cpp:612
+msgid "Import contacts from an LDAP server."
+msgstr "从 LDAP 服务器导入联系人。"
+
+#: mainwidget.cpp:616
+msgid "Import GMX file..."
+msgstr "导入 GMX 文件..."
+
+#: mainwidget.cpp:617
+msgid "Import contacts from a GMX address book file."
+msgstr "从 GMX 地址簿文件导入联系人。"
+
+#: mainwidget.cpp:622
+msgid "Export vCard 3.0..."
+msgstr "导出 vCard 3.0 文件..."
+
+#: mainwidget.cpp:623
+msgid "Export contacts to a vCard 3.0 file."
+msgstr "导出联系人为 vCard 3.0 文件。"
+
+#: mainwidget.cpp:627
+msgid "Export vCard 2.1..."
+msgstr "导出 vCard 2.1 文件..."
+
+#: mainwidget.cpp:628
+msgid "Export contacts to a vCard 2.1 file."
+msgstr "导出联系人为 vCard 2.1 文件。"
+
+#: mainwidget.cpp:632
+msgid "Export CSV file..."
+msgstr "导出 CSV 文件..."
+
+#: mainwidget.cpp:633
+msgid "Export contacts to a file in comma separated value format."
+msgstr "导出联系人为以逗号分隔各条目的文件(CSV)。"
+
+#: mainwidget.cpp:637
+msgid "Export LDIF file..."
+msgstr "导出 LDIF 文件..."
+
+#: mainwidget.cpp:638
+msgid "Export contacts to an LDIF file."
+msgstr "导出联系人为 LDIF 文件。"
+
+#: mainwidget.cpp:642
+msgid "Export GMX file..."
+msgstr "导出 GMX 文件..."
+
+#: mainwidget.cpp:643
+msgid "Export contacts to a GMX address book file."
+msgstr "导出联系人为 GMX 地址簿文件。"
+
+#: mainwidget.cpp:651
+#, fuzzy
+#| msgid "New &Contact..."
+msgid "Merge Contacts..."
+msgstr "新建联系人(&C)..."
+
+#: mainwidget.cpp:655
+#, fuzzy
+#| msgid "Select Contacts"
+msgid "Search Duplicate Contacts..."
+msgstr "选择联系人"
+
+#: mainwidget.cpp:658
+msgid "Set Focus to Quick Search"
+msgstr ""
+
+#: mainwidget.cpp:668 mainwidget.cpp:685
+msgid "Address Book"
+msgstr "地址簿"
+
+#: mainwidget.cpp:692 printing/printingwizard.cpp:59
+msgid "Print Contacts"
+msgstr "打印联系人"
+
+#: mainwindow.cpp:68
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can configure the application-"
+"wide shortcuts."
+msgstr "这将显示一个对话框，供您配置程序的快捷方式。"
+
+#: merge/mergecontactsdialog.cpp:34
+#, fuzzy
+#| msgid "Select Contacts"
+msgid "Select Contacts to merge"
+msgstr "选择联系人"
+
+#: merge/mergecontactsdialog.cpp:41
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "You must assign at least one column."
+msgid "You must select at least two elements."
+msgstr "您至少需要分配一列。"
+
+#: merge/mergecontactsdialog.cpp:44
+#, kde-format
+msgid "You selected %1 and some item has not the same name"
+msgstr ""
+
+#: merge/mergecontactsdialog.cpp:46
+#, kde-format
+msgid "You selected %1"
+msgstr ""
+
+#: merge/potentialduplicatecontactswidget.cpp:81
+#, fuzzy
+#| msgid "Select Contacts"
+msgid "No duplicate contact found."
+msgstr "选择联系人"
+
+#: merge/searchduplicatecontactwizard.cpp:32
+msgid "Search potential duplicate contacts"
+msgstr ""
+
+#: merge/searchduplicatecontactwizard.cpp:39
+#, fuzzy
+#| msgid "Select Contacts"
+msgid "Potential Duplicate Contacts"
+msgstr "选择联系人"
+
+#: modelcolumnmanager.cpp:78
+msgid "Full Name"
+msgstr "全名"
+
+#: modelcolumnmanager.cpp:84
+msgid "Family Name"
+msgstr "姓"
+
+#: modelcolumnmanager.cpp:89
+msgid "Given Name"
+msgstr "名"
+
+#: modelcolumnmanager.cpp:99 printing/detailled/detailledstyle.cpp:156
+msgid "Home Address"
+msgstr "家庭地址"
+
+#: modelcolumnmanager.cpp:104
+msgid "Business Address"
+msgstr "工作地址"
+
+#: modelcolumnmanager.cpp:109
+msgid "Phone Numbers"
+msgstr "电话号码"
+
+#: modelcolumnmanager.cpp:114
+msgid "Preferred EMail"
+msgstr "首选邮件地址"
+
+#: modelcolumnmanager.cpp:119
+msgid "All EMails"
+msgstr "所有电子邮件"
+
+#: printing/compact/compactstyle.cpp:135
+msgid "Compact Style"
+msgstr "简洁风格"
+
+#: printing/compact/compactstyle.cpp:192
+#: printing/detailled/detailledstyle.cpp:298
+#: printing/grantlee/grantleeprintstyle.cpp:107
+#: printing/mike/mikesstyle.cpp:129
+#: printing/ringbinder/ringbinderstyle.cpp:183
+msgid "Setting up document"
+msgstr "设置文档"
+
+#: printing/compact/compactstyle.cpp:199
+#: printing/detailled/detailledstyle.cpp:305
+#: printing/grantlee/grantleeprintstyle.cpp:114
+#: printing/mike/mikesstyle.cpp:136
+#: printing/ringbinder/ringbinderstyle.cpp:216
+msgid "Printing"
+msgstr "打印中"
+
+#: printing/compact/compactstyle.cpp:203
+#: printing/detailled/detailledstyle.cpp:309
+#: printing/grantlee/grantleeprintstyle.cpp:118
+#: printing/mike/mikesstyle.cpp:140
+#: printing/ringbinder/ringbinderstyle.cpp:220
+msgctxt "Finished printing"
+msgid "Done"
+msgstr "完成"
+
+#: printing/compact/compactstyle.cpp:226
+msgid "Compact Printing Style"
+msgstr "简洁打印风格"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CompactStyleForm_Base)
+#. i18n: ectx: property (windowTitle), widget (QWidget, RingBinderStyleAppearanceForm_Base)
+#: printing/compact/compactstyle.ui:14
+#: printing/ringbinder/rbs_appearance.ui:14
+msgid "Appearance"
+msgstr "外观"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbFields)
+#: printing/compact/compactstyle.ui:26
+msgid "Fields"
+msgstr "字段"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbWithHomeAddress)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbWithHomeAddress)
+#: printing/compact/compactstyle.ui:34 printing/compact/compactstyle.ui:37
+msgid "Print the home address, with home phone number and mobile phone number"
+msgstr "打印家庭住址，包括家庭电话号码和移动电话号码"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbWithHomeAddress)
+#: printing/compact/compactstyle.ui:40
+msgid "with home address"
+msgstr "附加家庭地址"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbWithBusinessAddress)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbWithBusinessAddress)
+#: printing/compact/compactstyle.ui:47 printing/compact/compactstyle.ui:50
+msgid "print the business address, with business phone number"
+msgstr "打印公司住址，包括公司电话号码"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbWithBusinessAddress)
+#: printing/compact/compactstyle.ui:53
+msgid "with business address"
+msgstr "附加工作地址"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbWithBirthday)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbWithBirthday)
+#: printing/compact/compactstyle.ui:60 printing/compact/compactstyle.ui:63
+msgid "Print the birthday"
+msgstr "打印生日"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbWithBirthday)
+#: printing/compact/compactstyle.ui:66
+msgid "with birthday"
+msgstr "附加生日"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbWithEMail)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbWithEMail)
+#: printing/compact/compactstyle.ui:73 printing/compact/compactstyle.ui:76
+msgid "Print the e-mail and e-mail2 fields"
+msgstr "打印电子邮件和第二电子邮件地址"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbWithEMail)
+#: printing/compact/compactstyle.ui:79
+msgid "with e-mail"
+msgstr "包括电子邮件"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, lbCbFirst)
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbCbFirst)
+#: printing/compact/compactstyle.ui:103 printing/compact/compactstyle.ui:106
+msgid "the first color, if alternating color is checked"
+msgstr "选用变换颜色特性时的首选颜色"
+
+#. i18n: ectx: property (text), widget (QLabel, lbCbFirst)
+#: printing/compact/compactstyle.ui:109
+msgid "first color"
+msgstr "首选颜色"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, lbCbSecond)
+#. i18n: ectx: property (whatsThis), widget (QLabel, lbCbSecond)
+#: printing/compact/compactstyle.ui:116 printing/compact/compactstyle.ui:119
+msgid "the second color, if alternating color is checked"
+msgstr "选用变换颜色特性时的次选颜色"
+
+#. i18n: ectx: property (text), widget (QLabel, lbCbSecond)
+#: printing/compact/compactstyle.ui:122
+msgid "second color"
+msgstr "次选颜色"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbAlternating)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAlternating)
+#: printing/compact/compactstyle.ui:129 printing/compact/compactstyle.ui:132
+msgid "Change the background color of every row"
+msgstr "改变每一行的背景色"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbAlternating)
+#: printing/compact/compactstyle.ui:135
+msgid "Alternating the background color"
+msgstr "变换背景色"
+
+#: printing/detailled/detailledstyle.cpp:96
+msgid "Organization:"
+msgstr "组织："
+
+#: printing/detailled/detailledstyle.cpp:105
+msgid "Email address:"
+msgstr "电子邮件地址："
+
+#: printing/detailled/detailledstyle.cpp:106
+msgid "Email addresses:"
+msgstr "电子邮件地址："
+
+#: printing/detailled/detailledstyle.cpp:117
+msgid "Telephone:"
+msgstr "电话："
+
+#: printing/detailled/detailledstyle.cpp:118
+msgid "Telephones:"
+msgstr "电话："
+
+#: printing/detailled/detailledstyle.cpp:130
+msgid "Web page:"
+msgstr "网页："
+
+#: printing/detailled/detailledstyle.cpp:144
+msgid "Domestic Address"
+msgstr "国内地址"
+
+#: printing/detailled/detailledstyle.cpp:147
+msgid "International Address"
+msgstr "国际地址"
+
+#: printing/detailled/detailledstyle.cpp:150
+msgid "Postal Address"
+msgstr "邮寄地址"
+
+#: printing/detailled/detailledstyle.cpp:153
+msgid "Parcel Address"
+msgstr "快递地址"
+
+#: printing/detailled/detailledstyle.cpp:159
+msgid "Work Address"
+msgstr "工作地址"
+
+#: printing/detailled/detailledstyle.cpp:163
+msgid "Preferred Address"
+msgstr "首选地址"
+
+#: printing/detailled/detailledstyle.cpp:174
+msgid "Notes:"
+msgstr "备注："
+
+#. i18n: ectx: property (text), widget (QLabel, labelHeader)
+#: printing/detailled/detailledstyle.cpp:261
+#: printing/detailled/ds_appearance.ui:49
+msgid "Detailed Print Style - Appearance"
+msgstr "详细打印风格 - 外观"
+
+#: printing/detailled/detailledstyle.cpp:281
+msgid "Setting up colors"
+msgstr "设定颜色"
+
+#: printing/detailled/detailledstyle.cpp:324
+msgid "Detailed Style"
+msgstr "细节风格"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AppearancePage_Base)
+#: printing/detailled/ds_appearance.ui:14
+msgid "Appearance Page"
+msgstr "外观页面"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbHeadline)
+#: printing/detailled/ds_appearance.ui:68
+msgid "Contact Headers"
+msgstr "联系人标题"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcbHeaderBGColor)
+#: printing/detailled/ds_appearance.ui:92
+msgid "Select the headline text background color"
+msgstr "选择标题文本背景色"
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcbHeaderBGColor)
+#: printing/detailled/ds_appearance.ui:95
+msgid ""
+"Click this button to start a color chooser that will allow you set to the "
+"color for the headline background color."
+msgstr "点击此按钮以启动颜色选择器来选择标题文字的背景颜色"
+
+#. i18n: ectx: property (text), widget (QLabel, tlBackgroundColor)
+#: printing/detailled/ds_appearance.ui:112
+msgid "Headline background color:"
+msgstr "大标题背景色："
+
+#. i18n: ectx: property (text), widget (QLabel, tlHeaderColor)
+#: printing/detailled/ds_appearance.ui:122
+msgid "Headline text color:"
+msgstr "大标题文字颜色："
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcbHeaderTextColor)
+#: printing/detailled/ds_appearance.ui:135
+msgid "Select the headline text color"
+msgstr "选择标题文本颜色"
+
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcbHeaderTextColor)
+#: printing/detailled/ds_appearance.ui:138
+msgid ""
+"Click this button to start a color chooser that will allow you set to the "
+"color for the headline text."
+msgstr "点击此按钮以启动颜色选择器来选择标题文字的颜色"
+
+#: printing/mike/mikesstyle.cpp:155
+msgid "Mike's Printing Style"
+msgstr "Mike 打印风格"
+
+#: printing/printingwizard.cpp:63
+msgid "Which contacts do you want to print?"
+msgstr "您想要打印哪名联系人？"
+
+#: printing/printingwizard.cpp:66
+msgid "Choose Contacts to Print"
+msgstr "选择要打印的联系人"
+
+#: printing/printingwizard.cpp:72
+msgid "Choose Printing Style"
+msgstr "选择打印风格"
+
+#: printing/printingwizard.cpp:222
+msgid "Print Progress"
+msgstr "打印进度"
+
+#: printing/printprogress.cpp:41
+msgid "Printing: Progress"
+msgstr "打印：进行中"
+
+#: printing/printprogress.cpp:65
+msgid "Progress"
+msgstr "进度"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
+#: printing/ringbinder/rbs_appearance.ui:26
+msgid "Print Contact's Information"
+msgstr "打印联系人信息"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbPhoneNumbers)
+#: printing/ringbinder/rbs_appearance.ui:32
+msgid "Print contact phone numbers"
+msgstr "打印联系人电话号码"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbPhoneNumbers)
+#: printing/ringbinder/rbs_appearance.ui:35
+msgid "Check this box if you want contact phone numbers to be printed."
+msgstr "如果您希望打印联系人电话号码，请选择此项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbPhoneNumbers)
+#: printing/ringbinder/rbs_appearance.ui:38
+msgid "Phone numbers"
+msgstr "电话号码"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbEmails)
+#: printing/ringbinder/rbs_appearance.ui:48
+msgid "Print contact email addresses"
+msgstr "打印联系人电子邮件地址"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbEmails)
+#: printing/ringbinder/rbs_appearance.ui:51
+msgid "Check this box if you want contact email addresses to be printed."
+msgstr "如果您希望打印联系人电子邮件，请选择此项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbEmails)
+#: printing/ringbinder/rbs_appearance.ui:54
+msgid "Email addresses"
+msgstr "电子邮件地址"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbStreetAddresses)
+#: printing/ringbinder/rbs_appearance.ui:64
+msgid "Print contact street addresses"
+msgstr "打印联系人街道地址"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbStreetAddresses)
+#: printing/ringbinder/rbs_appearance.ui:67
+msgid "Check this box if you want contact street addresses to be printed."
+msgstr "如果您希望打印联系人街道地址，请选择此项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStreetAddresses)
+#: printing/ringbinder/rbs_appearance.ui:70
+msgid "Postal addresses"
+msgstr "邮寄地址"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbOrganization)
+#: printing/ringbinder/rbs_appearance.ui:80
+msgid "Print contact organizations"
+msgstr "打印联系人组织"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbOrganization)
+#: printing/ringbinder/rbs_appearance.ui:83
+msgid "Check this box if you want contact organizations to be printed."
+msgstr "如果您希望打印联系人组织，请选择此项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbOrganization)
+#: printing/ringbinder/rbs_appearance.ui:86
+msgid "Organization"
+msgstr "组织"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbBirthday)
+#: printing/ringbinder/rbs_appearance.ui:93
+msgid "Print contact birthdays"
+msgstr "打印联系生日"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbBirthday)
+#: printing/ringbinder/rbs_appearance.ui:96
+msgid "Check this box if you want contact birthdays to be printed."
+msgstr "如果您希望打印联系人生日，请选择此项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbBirthday)
+#: printing/ringbinder/rbs_appearance.ui:99
+msgid "Birthday"
+msgstr "生日"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbNote)
+#: printing/ringbinder/rbs_appearance.ui:106
+msgid "Print contact notes"
+msgstr "打印联系备忘"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbNote)
+#: printing/ringbinder/rbs_appearance.ui:109
+msgid "Check this box if you want contact notes to be printed."
+msgstr "如果您希望打印联系人备注，请选择此项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbNote)
+#: printing/ringbinder/rbs_appearance.ui:112
+msgid "Note"
+msgstr "备注"
+
+#: printing/ringbinder/ringbinderstyle.cpp:149
+msgid "Ring Binder Printing Style - Appearance"
+msgstr "活页夹式风格 - 外观"
+
+#: printing/ringbinder/ringbinderstyle.cpp:167
+msgid "Setting up fields"
+msgstr "设置字段"
+
+#: printing/ringbinder/ringbinderstyle.cpp:235
+msgid "Printout for Ring Binders"
+msgstr "活页夹风格打印"
+
+#: printing/stylepage.cpp:53
+msgctxt "@item:inlistbox Ascending sort order"
+msgid "Ascending"
+msgstr "升序"
+
+#: printing/stylepage.cpp:54
+msgctxt "@item:inlistbox Descending sort order"
+msgid "Descending"
+msgstr "降序"
+
+#: printing/stylepage.cpp:66
+msgctxt "@label"
+msgid "(No preview available.)"
+msgstr "(没有可用的预览。)"
+
+#: printing/stylepage.cpp:128
+msgctxt "@title:window"
+msgid "Choose Printing Style"
+msgstr "选择打印风格"
+
+#: printing/stylepage.cpp:137
+msgctxt "@label:textbox"
+msgid ""
+"What should the print look like?\n"
+"KAddressBook has several printing styles, designed for different purposes.\n"
+"Choose the style that suits your needs below."
+msgstr ""
+"您希望采用什么样的打印外观？\n"
+"为不同目的考虑，KDE 地址簿提供多种打印风格。\n"
+"请在下面选择适合自己需要的风格。"
+
+#: printing/stylepage.cpp:142
+msgctxt "@title:group"
+msgid "Sorting"
+msgstr "排序"
+
+#: printing/stylepage.cpp:149
+msgctxt "@label:listbox"
+msgid "Criterion:"
+msgstr "准则："
+
+#: printing/stylepage.cpp:154
+msgctxt "@info:tooltip"
+msgid "Select the primary sort field"
+msgstr "选择首选排序依据"
+
+#: printing/stylepage.cpp:157
+msgctxt "@info:whatsthis"
+msgid ""
+"From this list you can select the field on which your contacts are sorted in "
+"the print output.  Use the sorting order option to determine if the sort "
+"will be in ascending or descending order."
+msgstr ""
+"您可以在此列表中选择您的联系人在打印输出中应如何排序。使用排序顺序选项来确定"
+"排序应为升序或降序。"
+
+#: printing/stylepage.cpp:162
+msgctxt "@label:listbox"
+msgid "Order:"
+msgstr "次序："
+
+#: printing/stylepage.cpp:167
+msgctxt "@info:tooltip"
+msgid "Select the sorting order"
+msgstr "选择排序顺序"
+
+#: printing/stylepage.cpp:170
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose if you want to sort your contacts in ascending or descending order. "
+"Use the sorting criterion option to specify on which contact field the "
+"sorting will be performed."
+msgstr ""
+"请选择您希望联系人以升序或降序进行排列。使用排序标准来指定按照何种标准来排序"
+"联系人。"
+
+#: printing/stylepage.cpp:177
+msgctxt "@title:group"
+msgid "Print Style"
+msgstr "打印风格"
+
+#: printing/stylepage.cpp:185
+msgctxt "@info:tooltip"
+msgid "Select the print style"
+msgstr "选择打印风格"
+
+#: printing/stylepage.cpp:188
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose your desired printing style. See the preview image to help you decide."
+msgstr "选择您想要的打印风格。查看预览图片有助于您作出选择。"
+
+#: quicksearchwidget.cpp:39
+msgctxt "@label Search contacts in list"
+msgid "Search...<ALT+Q>"
+msgstr ""
+
+#: quicksearchwidget.cpp:42
+msgctxt "@info:tooltip"
+msgid "Search contacts in list"
+msgstr "在列表中搜索联系人"
+
+#: quicksearchwidget.cpp:45
+msgctxt "@info:whatsthis"
+msgid ""
+"Start typing a search string in this box and the list of contacts matching "
+"that string will be displayed.  This is a quick way of searching for "
+"contacts of interest."
+msgstr ""
+"在此区域中输入一个搜索字符串，符合该字符串的联系人列表将会显示。这是一种寻找"
+"联系人的快捷方法。"
+
+#: xxport/csv/csv_xxport.cpp:67 xxport/gmx/gmx_xxport.cpp:371
+#: xxport/ldif/ldif_xxport.cpp:106
+#, kde-format
+msgid "<qt>Unable to open file <b>%1</b></qt>"
+msgstr "<qt>无法打开文件 <b>%1</b></qt>"
+
+#: xxport/csv/csv_xxport.cpp:80 xxport/gmx/gmx_xxport.cpp:385
+#: xxport/ldif/ldif_xxport.cpp:137
+#, kde-format
+msgid "<qt>Unable to open file <b>%1</b>.</qt>"
+msgstr "<qt>无法打开文件 <b>%1</b>。</qt>"
+
+#: xxport/csv/csvimportdialog.cpp:178
+msgctxt "@title:window"
+msgid "CSV Import Dialog"
+msgstr "CSV 导入对话框"
+
+#: xxport/csv/csvimportdialog.cpp:229
+msgctxt "@label"
+msgid "Importing contacts"
+msgstr "导入联系人"
+
+#: xxport/csv/csvimportdialog.cpp:286
+msgctxt "@label"
+msgid "File to import:"
+msgstr "要导入的文件"
+
+#: xxport/csv/csvimportdialog.cpp:293
+msgctxt "@info:tooltip"
+msgid "Select a csv file to import"
+msgstr "选择要导入的 csv 文件"
+
+#: xxport/csv/csvimportdialog.cpp:296
+msgctxt "@info:whatsthis"
+msgid ""
+"Click this button to start a file chooser that will allow you to select a "
+"csv file to import."
+msgstr "点击此按钮以启动选择器来选择要导入的 CSV 文件。"
+
+#: xxport/csv/csvimportdialog.cpp:303
+msgctxt "@title:group"
+msgid "Delimiter"
+msgstr "分隔符"
+
+#: xxport/csv/csvimportdialog.cpp:314
+msgctxt "@option:radio Field separator"
+msgid "Comma"
+msgstr "逗号"
+
+#: xxport/csv/csvimportdialog.cpp:316
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a comma"
+msgstr "设置分隔符为逗号"
+
+#: xxport/csv/csvimportdialog.cpp:319
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the comma as a field separator."
+msgstr "如果您的 CSV 文件使用逗号作为分隔符，请选择此项。"
+
+#: xxport/csv/csvimportdialog.cpp:324
+msgctxt "@option:radio Field separator"
+msgid "Semicolon"
+msgstr "分号"
+
+#: xxport/csv/csvimportdialog.cpp:326
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a semicolon"
+msgstr "设置分隔符为分号"
+
+#: xxport/csv/csvimportdialog.cpp:329
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the semicolon as a field separator."
+msgstr "如果您的 CSV 文件使用分号作为分隔符，请选择此项。"
+
+#: xxport/csv/csvimportdialog.cpp:333
+msgctxt "@option:radio Field separator"
+msgid "Tabulator"
+msgstr "制表符"
+
+#: xxport/csv/csvimportdialog.cpp:335
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a tab character"
+msgstr "设置分隔符为制表符"
+
+#: xxport/csv/csvimportdialog.cpp:338
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the tab character as a field "
+"separator."
+msgstr "如果您的 CSV 文件使用制表符作为分隔符，请选择此项。"
+
+#: xxport/csv/csvimportdialog.cpp:342
+msgctxt "@option:radio Field separator"
+msgid "Space"
+msgstr "空格"
+
+#: xxport/csv/csvimportdialog.cpp:344
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a space character"
+msgstr "设置分隔符为空格"
+
+#: xxport/csv/csvimportdialog.cpp:347
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the space character as a field "
+"separator."
+msgstr "如果您的 CSV 文件使用空格作为分隔符，请选择此项。"
+
+#: xxport/csv/csvimportdialog.cpp:351
+msgctxt "@option:radio Custum field separator"
+msgid "Other"
+msgstr "其它"
+
+#: xxport/csv/csvimportdialog.cpp:353
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a custom character"
+msgstr "设置分隔符为自定义符号"
+
+#: xxport/csv/csvimportdialog.cpp:356
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if to use some other character as the field delimiter for "
+"the data in your csv file."
+msgstr "如果您的 CSV 文件使用其他符号作为分隔符，请选择此项。"
+
+#: xxport/csv/csvimportdialog.cpp:364
+msgctxt "@info:tooltip"
+msgid "Set the custom delimiter character"
+msgstr "设置自定义分隔符"
+
+#: xxport/csv/csvimportdialog.cpp:367
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter a custom character to use as the delimiter character. If you enter "
+"more than 1 character, only the first will be used and the remaining "
+"characters will be ignored."
+msgstr ""
+"输入您的自定义符号作为分隔符。如果您输入多余1个符号，将仅使用第一个，之后的将"
+"被忽略。"
+
+#: xxport/csv/csvimportdialog.cpp:373
+msgctxt "@label:listbox"
+msgid "Text quote:"
+msgstr "文本引用符号："
+
+#: xxport/csv/csvimportdialog.cpp:378
+msgctxt "@info:tooltip"
+msgid "Select the quote character"
+msgstr "选择引用字符"
+
+#: xxport/csv/csvimportdialog.cpp:381
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose the character that your csv data uses to \"quote\" the field "
+"delimiter if that character happens to occur within the data.  For example, "
+"if the comma is the field delimiter, then any comma occurring with the data "
+"will be \"quoted\" by the character specified here."
+msgstr ""
+"选择“引用”您 CSV 文件数据中分割符的符号。举例说明，如果使用逗号作为分隔符，则"
+"在数据中出现的所有逗号都将被此处指定的符号“引用”起来。"
+
+#: xxport/csv/csvimportdialog.cpp:386
+msgctxt "@item:inlistbox Qoute character option"
+msgid "\""
+msgstr "\""
+
+#: xxport/csv/csvimportdialog.cpp:387
+msgctxt "@item:inlistbox Quote character option"
+msgid "'"
+msgstr "'"
+
+#: xxport/csv/csvimportdialog.cpp:388
+msgctxt "@item:inlistbox Quote character option"
+msgid "None"
+msgstr "无"
+
+#: xxport/csv/csvimportdialog.cpp:392
+msgctxt "@label:listbox"
+msgid "Date format:"
+msgstr "日期格式："
+
+#: xxport/csv/csvimportdialog.cpp:399
+msgctxt "@info:tooltip"
+msgid ""
+"<para><list><item>y: year with 2 digits</item><item>Y: year with 4 digits</"
+"item><item>m: month with 1 or 2 digits</item><item>M: month with 2 digits</"
+"item><item>d: day with 1 or 2 digits</item><item>D: day with 2 digits</"
+"item><item>H: hours with 2 digits</item><item>I: minutes with 2 digits</"
+"item><item>S: seconds with 2 digits</item></list></para>"
+msgstr ""
+"<para><list><item>y：两个数位表示的年份</item><item>Y：四个数位表示的年份</"
+"item><item>m：一个或两个数位表示的月份</item><item>M：两个数位表示的月份</"
+"item><item>d：一个或两个数位表示的天数</item><item>D：两个数位表示的天数</"
+"item><item>H：两个数位表示的小时</item><item>I：两个数位表示的分钟</item></"
+"list></para>"
+
+#: xxport/csv/csvimportdialog.cpp:411
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Specify a format to use for dates included in your csv data. Use the "
+"following sequences to help you define the format:</"
+"para><para><list><item>y: year with 2 digits</item><item>Y: year with 4 "
+"digits</item><item>m: month with 1 or 2 digits</item><item>M: month with 2 "
+"digits</item><item>d: day with 1 or 2 digits</item><item>D: day with 2 "
+"digits</item><item>H: hours with 2 digits</item><item>I: minutes with 2 "
+"digits</item><item>S: seconds with 2 digits</item></list></"
+"para><para>Example: \"Y-M-D\" corresponds to a date like \"2012-01-04\"</"
+"para>"
+msgstr ""
+"<para>指定在 csv 数据中日期的格式。可以使用下列符号帮助定义格式：</"
+"para><para><list><item>y：两个数位表示的年份</item><item>Y：四个数位表示的年"
+"份</item><item>m：一个或两个数位表示的月份</item><item>M：两个数位表示的月份"
+"</item><item>d：一个或两个数位表示的天数</item><item>D：两个数位表示的天数</"
+"item><item>H：两个数位表示的小时</item><item>I：两个数位表示的分钟</item></"
+"list></para>"
+
+#: xxport/csv/csvimportdialog.cpp:427
+msgctxt "@label:listbox"
+msgid "Text codec:"
+msgstr "文字编码："
+
+#: xxport/csv/csvimportdialog.cpp:432
+msgctxt "@info:tooltip"
+msgid "Select the text codec"
+msgstr "选择文字编码"
+
+#: xxport/csv/csvimportdialog.cpp:435
+msgctxt "@info:whatsthis"
+msgid "Choose the character encoding of the data in your csv file."
+msgstr "选择您的 CSV 文件的字符编码"
+
+#: xxport/csv/csvimportdialog.cpp:439
+msgctxt "@option:check"
+msgid "Skip first row of file"
+msgstr "跳过文件的首行"
+
+#: xxport/csv/csvimportdialog.cpp:441
+msgctxt "@info:tooltip"
+msgid "Skip first row of csv file when importing"
+msgstr "导入时跳过 csv 文件的首行"
+
+#: xxport/csv/csvimportdialog.cpp:444
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want the import to skip over the first row of the csv "
+"data. In many cases, the first line of a csv file will be a comment line "
+"describing the order of the data fields included in the file."
+msgstr ""
+"如果您希望跳过导入 CSV 文件的第一行，请选择此项。在许多案例中，CSV 文件的首行"
+"是一行用于描述文件包含数据的顺序的注释文字。"
+
+#: xxport/csv/csvimportdialog.cpp:459
+msgctxt "@action:button"
+msgid "Apply Template..."
+msgstr "应用模板..."
+
+#: xxport/csv/csvimportdialog.cpp:460
+msgctxt "@action:button"
+msgid "Save Template..."
+msgstr "保存模板..."
+
+#: xxport/csv/csvimportdialog.cpp:479
+#, kde-format
+msgctxt "@item:inlistbox Codec setting"
+msgid "Local (%1)"
+msgstr "本地编码(%1)"
+
+#: xxport/csv/csvimportdialog.cpp:481
+msgctxt "@item:inlistbox Codec setting"
+msgid "Latin1"
+msgstr "Latin1"
+
+#: xxport/csv/csvimportdialog.cpp:482
+msgctxt "@item:inlistbox Codec setting"
+msgid "Unicode"
+msgstr "Unicode"
+
+#: xxport/csv/csvimportdialog.cpp:483
+msgctxt "@item:inlistbox Codec setting"
+msgid "Microsoft Unicode"
+msgstr "Microsoft Unicode"
+
+#: xxport/csv/csvimportdialog.cpp:579
+msgctxt "@info:status"
+msgid "You must assign at least one column."
+msgstr "您至少需要分配一列。"
+
+#: xxport/csv/csvimportdialog.cpp:598
+msgctxt "@label"
+msgid "There are no templates available yet."
+msgstr "尚无可用模板。"
+
+#: xxport/csv/csvimportdialog.cpp:599
+msgctxt "@title:window"
+msgid "No templates available"
+msgstr "没有可用的模板"
+
+#: xxport/csv/csvimportdialog.cpp:665
+msgctxt "@title:window"
+msgid "Template Name"
+msgstr "模板名称"
+
+#: xxport/csv/csvimportdialog.cpp:666
+msgctxt "@info"
+msgid "Please enter a name for the template:"
+msgstr "请为此模板输入一个名称："
+
+#: xxport/csv/csvimportdialog.cpp:712
+msgctxt "@info:status"
+msgid "Cannot open input file."
+msgstr "无法打开输入文件。"
+
+#: xxport/csv/qcsvreader.cpp:111
+msgid "Device is not open"
+msgstr ""
+
+#: xxport/csv/templateselectiondialog.cpp:186
+#, kde-format
+msgctxt "@label"
+msgid "Do you really want to delete template '%1'?"
+msgstr "您真的想要删除模板“%1”吗？"
+
+#: xxport/csv/templateselectiondialog.cpp:204
+msgctxt "@title:window"
+msgid "Template Selection"
+msgstr "模板选择"
+
+#: xxport/csv/templateselectiondialog.cpp:210
+msgctxt "@info"
+msgid "Please select a template, that matches the CSV file:"
+msgstr "请选择适合此 CSV 文件的模板："
+
+#: xxport/gmx/gmx_xxport.cpp:96
+msgid "GMX address book file (*.gmxa)"
+msgstr "GMX 地址簿文件(*.gmxa)"
+
+#: xxport/gmx/gmx_xxport.cpp:137 xxport/ldif/ldif_xxport.cpp:78
+#, kde-format
+msgid "<qt>Unable to open <b>%1</b> for reading.</qt>"
+msgstr "<qt>无法以读模式打开 <b>%1</b>。</qt>"
+
+#: xxport/gmx/gmx_xxport.cpp:152
+#, kde-format
+msgid "%1 is not a GMX address book file."
+msgstr "%1 不是一个 GMX 地址簿文件。"
+
+#: xxport/vcard/vcard_xxport.cpp:142
+msgctxt "@info"
+msgid ""
+"You have selected a list of contacts, shall they be exported to several "
+"files?"
+msgstr "您已经选择了一个联系人列表，要将他们导出到若干文件中吗？"
+
+#: xxport/vcard/vcard_xxport.cpp:145
+msgctxt "@action:button"
+msgid "Export to One File"
+msgstr "导出到一个文件"
+
+#: xxport/vcard/vcard_xxport.cpp:146
+msgctxt "@action:button"
+msgid "Export to Several Files"
+msgstr "导出到若干文件"
+
+#: xxport/vcard/vcard_xxport.cpp:208
+msgid ""
+"*.vcf|Vcard (*.vcf)\n"
+"*|all files (*)"
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:214
+msgctxt "@title:window"
+msgid "Select vCard to Import"
+msgstr "选择要导入的 vCard 文件"
+
+#: xxport/vcard/vcard_xxport.cpp:221
+msgctxt "@title:window"
+msgid "vCard Import Failed"
+msgstr "vCard 导入失败"
+
+#: xxport/vcard/vcard_xxport.cpp:243
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>When trying to read the vCard, there was an error opening the file "
+"<filename>%1</filename>:</para><para>%2</para>"
+msgstr ""
+"<para>在尝试打开并读取 vCard 文件 <filename>%1</filename> 时发生错误：</"
+"para><para>%2</para>"
+
+#: xxport/vcard/vcard_xxport.cpp:254
+#, kde-format
+msgctxt "@info"
+msgid "<para>Unable to access vCard:</para><para>%1</para>"
+msgstr "<para>无法访问 vCard 文件：</para><para>%1</para>"
+
+#: xxport/vcard/vcard_xxport.cpp:266
+msgctxt "@info"
+msgid "No contacts were imported, due to errors with the vCards."
+msgstr "因为 vCards 错误，没有导入联系人。"
+
+#: xxport/vcard/vcard_xxport.cpp:270
+msgctxt "@info"
+msgid "The vCard does not contain any contacts."
+msgstr "vCard 中未包含任何联系人信息。"
+
+#: xxport/vcard/vcard_xxport.cpp:496
+msgctxt "@title:window"
+msgid "Import vCard"
+msgstr "导入 vCard"
+
+#: xxport/vcard/vcard_xxport.cpp:513
+msgctxt "@info"
+msgid "Do you want to import this contact into your address book?"
+msgstr "您真的想要将此联系人导入到您的地址簿中吗？"
+
+#: xxport/vcard/vcard_xxport.cpp:523
+msgctxt "@action:button"
+msgid "Import All..."
+msgstr "导入全部..."
+
+#: xxport/vcard/vcard_xxport.cpp:614
+msgctxt "@title:window"
+msgid "Select vCard Fields"
+msgstr "选择 vCard 字段"
+
+#: xxport/vcard/vcard_xxport.cpp:628
+msgctxt "@title:group"
+msgid "Fields to be exported"
+msgstr "要导出的字段"
+
+#: xxport/vcard/vcard_xxport.cpp:632
+msgctxt "@option:check"
+msgid "Private fields"
+msgstr "私有字段"
+
+#: xxport/vcard/vcard_xxport.cpp:634
+msgctxt "@info:tooltip"
+msgid "Export private fields"
+msgstr "导出私有字段"
+
+#: xxport/vcard/vcard_xxport.cpp:637
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's private fields to the "
+"vCard output file."
+msgstr "如果您希望将联系人隐私数据导出到 vCard 文件，请选择此项。"
+
+#: xxport/vcard/vcard_xxport.cpp:641
+msgctxt "@option:check"
+msgid "Business fields"
+msgstr "商务字段"
+
+#: xxport/vcard/vcard_xxport.cpp:643
+msgctxt "@info:tooltip"
+msgid "Export business fields"
+msgstr "导出商务字段"
+
+#: xxport/vcard/vcard_xxport.cpp:646
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's business fields to the "
+"vCard output file."
+msgstr "如果您希望将联系人公司隐私数据导出到 vCard 文件，请选择此项。"
+
+#: xxport/vcard/vcard_xxport.cpp:650
+msgctxt "@option:check"
+msgid "Other fields"
+msgstr "其它字段"
+
+#: xxport/vcard/vcard_xxport.cpp:652
+msgctxt "@info:tooltip"
+msgid "Export other fields"
+msgstr "导出其它字段"
+
+#: xxport/vcard/vcard_xxport.cpp:655
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's other fields to the vCard "
+"output file."
+msgstr "如果您希望将联系人其他数据导出到 vCard 文件，请选择此项。"
+
+#: xxport/vcard/vcard_xxport.cpp:659
+msgctxt "@option:check"
+msgid "Encryption keys"
+msgstr "加密密钥"
+
+#: xxport/vcard/vcard_xxport.cpp:661
+msgctxt "@info:tooltip"
+msgid "Export encryption keys"
+msgstr "导出加密密钥"
+
+#: xxport/vcard/vcard_xxport.cpp:664
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's encryption keys to the "
+"vCard output file."
+msgstr "如果您希望将联系人加密密钥导出到 vCard 文件，请选择此项。"
+
+#: xxport/vcard/vcard_xxport.cpp:668
+msgctxt "@option:check"
+msgid "Pictures"
+msgstr "图片"
+
+#: xxport/vcard/vcard_xxport.cpp:670
+msgctxt "@info:tooltip"
+msgid "Export pictures"
+msgstr "导出图片"
+
+#: xxport/vcard/vcard_xxport.cpp:673
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's picture to the vCard "
+"output file."
+msgstr "如果您希望导出联系人头像到 vCard 文件，请选择此项。"
+
+#: xxport/vcard/vcard_xxport.cpp:678
+msgctxt "@title:group"
+msgid "Export options"
+msgstr "导出选项"
+
+#: xxport/vcard/vcard_xxport.cpp:682
+msgctxt "@option:check"
+msgid "Display name as full name"
+msgstr "名称显示为全名"
+
+#: xxport/vcard/vcard_xxport.cpp:684
+msgctxt "@info:tooltip"
+msgid "Export display name as full name"
+msgstr "将显示名称作为全名导出"
+
+#: xxport/vcard/vcard_xxport.cpp:687
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want to export the contact's display name in the "
+"vCard's full name field.  This may be required to get the name shown "
+"correctly in GMail or Android."
+msgstr ""
+"如果您希望将联系人显示姓名导出到 vCard 全名区域，请选择此项。GMail 或 "
+"Android 中可能需要此设置以正确显示姓名。"
+
+#: xxportmanager.cpp:126
+msgid "Select Address Book"
+msgstr "选择地址簿"
+
+#: xxportmanager.cpp:128
+msgid "Select the address book the imported contact(s) shall be saved in:"
+msgstr "选择导入的联系人要保存到的地址簿："
+
+#: xxportmanager.cpp:140
+msgid "Import Contacts"
+msgstr "导入联系人"
+
+#: xxportmanager.cpp:142
+#, kde-format
+msgid "Importing one contact to %2"
+msgid_plural "Importing %1 contacts to %2"
+msgstr[0] "正在将 %1 个联系人导入到 %2"
+
+#: xxportmanager.cpp:186
+msgid "Which contact do you want to export?"
+msgstr "您想要导出哪一位联系人？"
+
+#: xxportmanager.cpp:197
+msgid "You have not selected any contacts to export."
+msgstr "您还没有选择任何要导出的联系人。"
+
+#~ msgctxt "@label Search contacts in list"
+#~ msgid "Search"
+#~ msgstr "搜索"
+
+#~ msgid "Kontact integration"
+#~ msgstr "Kontact 集成"
+
+#, fuzzy
+#~| msgid "Compact Printing Style"
+#~ msgid "Grantlee Printing Style"
+#~ msgstr "简洁打印风格"
+
+#~ msgid "Emails"
+#~ msgstr "电子邮件"
+
+#~ msgid "Website"
+#~ msgstr "网站"
+
+#~ msgid "Department"
+#~ msgstr "部门"
+
+#~ msgid "Manager's Name"
+#~ msgstr "经理姓名"
+
+#~ msgid "Assistant's Name"
+#~ msgstr "助手姓名"
+
+#~ msgid "Partner's Name"
+#~ msgstr "爱人姓名"
+
+#~ msgid "IM Address"
+#~ msgstr "IM 地址"
+
+#~ msgctxt "Boolean value"
+#~ msgid "yes"
+#~ msgstr "是"
+
+#~ msgctxt "Boolean value"
+#~ msgid "no"
+#~ msgstr "否"
+
+#~ msgid "Do you want to overwrite file \"%1\""
+#~ msgstr "您想要覆盖文件“%1”吗"
+
+#~ msgctxt "@info"
+#~ msgid "Do you want to overwrite file \"%1\""
+#~ msgstr "您想要覆盖文件“%1”吗"
+
+#~ msgid "Show Simple View"
+#~ msgstr "显示简易视图"
+
+#~ msgid "Click on the color button to change the header's text color."
+#~ msgstr "点击颜色按钮即可更改信头的文字色。"
+
+#~ msgid "Select the fields which shall be exported in the vCard."
+#~ msgstr "选择要导出到 vCard 文件的字段。"
+
+#~ msgid "Show Address Books View"
+#~ msgstr "显示地址簿视图"
+
+#~ msgid "Toggle whether the address books view shall be visible."
+#~ msgstr "切换地址簿视图是否可见。"
+
+#~ msgid "Hide Address Books View"
+#~ msgstr "隐藏地址簿视图"
+
+#~ msgid "Show Contacts View"
+#~ msgstr "显示联系人视图"
+
+#~ msgid "Toggle whether the contacts view shall be visible."
+#~ msgstr "切换联系人视图是否可见。"
+
+#~ msgid "Hide Contacts View"
+#~ msgstr "隐藏联系人视图"
+
+#~ msgid "Show Details View"
+#~ msgstr "显示细节视图"
+
+#~ msgid "Toggle whether the details view shall be visible."
+#~ msgstr "切换细节视图是否可见。"
+
+#~ msgid "Hide Details View"
+#~ msgstr "隐藏细节视图"
+
+#~ msgid "Add Address Book Folder..."
+#~ msgstr "添加地址簿文件夹..."
+
+#~ msgid ""
+#~ "Add a new address book folder to the currently selected address book "
+#~ "folder."
+#~ msgstr "将新的地址簿文件夹添加到当前所选的文件夹。"
+
+#~ msgid "Copy Address Book Folder"
+#~ msgid_plural "Copy %1 Address Book Folders"
+#~ msgstr[0] "复制 %1 个地址簿文件夹"
+
+#~ msgid "Copy the selected address book folders to the clipboard."
+#~ msgstr "将所选的地址簿文件夹复制到剪贴板。"
+
+#~ msgid "Delete Address Book Folder"
+#~ msgstr "删除地址簿文件夹"
+
+#~ msgid "Delete the selected address book folders from the address book."
+#~ msgstr "从地址簿中删除所选的文件夹。"
+
+#~ msgid "Update Address Book Folder"
+#~ msgstr "更新地址簿文件夹"
+
+#~ msgid "Update the content of the address book folder"
+#~ msgstr "更新地址簿文件夹的内容"
+
+#~ msgid "Cut Address Book Folder"
+#~ msgid_plural "Cut %1 Address Book Folders"
+#~ msgstr[0] "剪切 %1 个地址簿文件夹"
+
+#~ msgid "Cut the selected address book folders from the address book."
+#~ msgstr "从地址簿中剪切所选的文件夹。"
+
+#~ msgid "Folder Properties..."
+#~ msgstr "文件夹属性..."
+
+#~ msgid ""
+#~ "Open a dialog to edit the properties of the selected address book folder."
+#~ msgstr "打开所选地址簿文件夹的属性对话框以供编辑。"
+
+#~ msgid "Copy Contact"
+#~ msgid_plural "Copy %1 Contacts"
+#~ msgstr[0] "复制 %1 个联系人"
+
+#~ msgid "Delete Contact"
+#~ msgid_plural "Delete %1 Contacts"
+#~ msgstr[0] "删除 %1 个联系人"
+
+#~ msgid "Delete the selected contacts from the address book."
+#~ msgstr "从地址簿删除所选联系人。"
+
+#~ msgid "Cut Contact"
+#~ msgid_plural "Cut %1 Contacts"
+#~ msgstr[0] "剪切 %1 个联系人"
+
+#~ msgid "Edit Contact..."
+#~ msgstr "编辑联系人..."
+
+#~ msgid "Copy Group"
+#~ msgid_plural "Copy %1 Groups"
+#~ msgstr[0] "复制 %1 个组"
+
+#~ msgid "Delete Group"
+#~ msgid_plural "Delete %1 Groups"
+#~ msgstr[0] "删除 %1 个组"
+
+#~ msgid "Cut Group"
+#~ msgid_plural "Cut %1 Groups"
+#~ msgstr[0] "剪切 %1 个组"
+
+#~ msgid "Edit Group..."
+#~ msgstr "编辑组..."
+
+#~ msgid "Add Address Book"
+#~ msgstr "添加地址簿"
+
+#~ msgid "Could not add address book: %1"
+#~ msgstr "无法添加地址簿：%1"
+
+#~ msgid "Adding Address Book failed"
+#~ msgstr "添加地址簿失败"
+
+#~ msgid "Do you really want to delete address book '%1'?"
+#~ msgstr "您真的想要删除地址簿“%1”吗？"
+
+#~ msgid "Delete Address Book?"
+#~ msgstr "删除地址簿吗？"
+
+#~ msgid ""
+#~ "Create a new contact<p>You will be presented with a dialog where you can "
+#~ "add data about a person, including addresses and phone numbers.</p>"
+#~ msgstr ""
+#~ "创建新联系人<p>这将显示一个对话框，供您添加所有和这人有关的数据，其中包括"
+#~ "地址和电话等。</p>"
+
+#~ msgid "New &Group..."
+#~ msgstr "新建组(&G)..."
+
+#~ msgid ""
+#~ "Create a new group<p>You will be presented with a dialog where you can "
+#~ "add a new group of contacts.</p>"
+#~ msgstr "创建新组<p>这将显示一个对话框，供您添加一个新的联系人组。</p>"
+
+#~ msgid ""
+#~ "Edit the selected contact<p>You will be presented with a dialog where you "
+#~ "can edit the data stored about a person, including addresses and phone "
+#~ "numbers.</p>"
+#~ msgstr ""
+#~ "编辑所选联系人<p>这将显示一个对话框，供您编辑所有和这人有关的数据，其中包"
+#~ "括地址和电话等。</p>"
+
+#~ msgid ""
+#~ "Add a new address book<p>You will be presented with a dialog where you "
+#~ "can select the type of the address book that shall be added.</p>"
+#~ msgstr "添加新地址簿<p>这将显示一个对话框，供您添加一个新的联系人组。</p>"
+
+#~ msgid "&Delete Address Book"
+#~ msgstr "删除地址簿(&D)"
+
+#~ msgid ""
+#~ "Delete the selected address book<p>The currently selected address book "
+#~ "will be deleted, along with all the contacts and contact groups it "
+#~ "contains.</p>"
+#~ msgstr ""
+#~ "删除所选的地址簿<p>这会将当前选中的地址簿连同所包含的联系人及组一起删除。"
+#~ "</p>"
+
+#~ msgid "Address Book Properties..."
+#~ msgstr "地址簿属性..."
+
+#~ msgid "Open a dialog to edit properties of the selected address book."
+#~ msgstr "打开所选地址簿的属性对话框以供编辑。"

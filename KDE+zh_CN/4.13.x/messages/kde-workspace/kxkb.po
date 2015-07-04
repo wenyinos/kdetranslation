@@ -1,0 +1,334 @@
+# Message Translation for kxkb.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+#
+# Gou Zhuang <gouzhuang@bigfoot.com>, 2000.
+# QAed by Funda Wang <fundawang@linux.net.cn>, 2004.
+# Dick Zhang <netwind2003@263.net>, 2005.
+# Ni Hui <shuizhuyuanluo@126.com>, 2010.
+# Lie Ex <lilith.ex@gmail.com>, 2008-2010.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+# Weng Xuetian <wengxt@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-19 01:37+0000\n"
+"PO-Revision-Date: 2012-12-04 15:36-0500\n"
+"Last-Translator: Weng Xuetian <wengxt@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: bindings.cpp:34
+msgid "Switch to Next Keyboard Layout"
+msgstr "切换到下一个键盘布局"
+
+#: bindings.cpp:35
+msgid "KDE Keyboard Layout Switcher"
+msgstr "KDE 键盘布局切换器"
+
+#: bindings.cpp:68
+#, kde-format
+msgid "Switch keyboard layout to %1"
+msgstr "切换到键盘布局 %1"
+
+#: flags.cpp:138
+#, kde-format
+msgctxt "short layout label - full layout name"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: flags.cpp:146
+#, kde-format
+msgctxt "layout - variant"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: kcm_add_layout_dialog.cpp:55
+msgid "Any language"
+msgstr "任意语言"
+
+#: kcm_add_layout_dialog.cpp:134 kcm_view_models.cpp:308
+msgctxt "variant"
+msgid "Default"
+msgstr "默认"
+
+#: kcm_keyboard.cpp:51
+msgid "KDE Keyboard Control Module"
+msgstr "KDE 键盘布局模块"
+
+#: kcm_keyboard.cpp:53
+msgid "(c) 2010 Andriy Rysin"
+msgstr "(c) 2010 Andriy Rysin"
+
+#: kcm_keyboard.cpp:56
+msgid ""
+"<h1>Keyboard</h1> This control module can be used to configure keyboard "
+"parameters and layouts."
+msgstr "<h1>键盘</h1> 此控制模块用于配置键盘参数和布局。"
+
+#: kcm_keyboard_widget.cpp:214
+msgctxt "unknown keyboard model vendor"
+msgid "Unknown"
+msgstr "未知"
+
+#: kcm_keyboard_widget.cpp:216
+#, kde-format
+msgctxt "vendor | keyboard model"
+msgid "%1 | %2"
+msgstr "%1|%2"
+
+#: kcm_keyboard_widget.cpp:226
+#, kde-format
+msgid "Only up to %1 keyboard layout is supported"
+msgid_plural "Only up to %1 keyboard layouts are supported"
+msgstr[0] "最多支持 %1 种键盘布局"
+
+#: kcm_keyboard_widget.cpp:374
+msgid "No layout selected "
+msgstr "无选中布局"
+
+#: kcm_keyboard_widget.cpp:604
+msgctxt "no shortcuts defined"
+msgid "None"
+msgstr "无"
+
+#: kcm_keyboard_widget.cpp:620
+#, kde-format
+msgid "%1 shortcut"
+msgid_plural "%1 shortcuts"
+msgstr[0] "%1 快捷键"
+
+#: kcm_view_models.cpp:224
+msgctxt "layout map name"
+msgid "Map"
+msgstr "映射"
+
+#: kcm_view_models.cpp:224
+msgid "Layout"
+msgstr "布局"
+
+#: kcm_view_models.cpp:224
+msgid "Variant"
+msgstr "变形"
+
+#: kcm_view_models.cpp:224
+msgid "Label"
+msgstr "标签"
+
+#: kcm_view_models.cpp:224
+msgid "Shortcut"
+msgstr "快捷键"
+
+#: keyboard_applet.cpp:52
+msgid "XKB extension failed to initialize"
+msgstr "XKB 扩展初始化失败"
+
+#: layout_tray_icon.cpp:46 layout_tray_icon.cpp:47
+msgctxt "tooltip title"
+msgid "Keyboard Layout"
+msgstr "键盘布局"
+
+#: layouts_menu.cpp:137
+msgid "Configure..."
+msgstr "配置..."
+
+#~ msgid "Layout Name"
+#~ msgstr "布局名称"
+
+#~ msgid "Multiple keys"
+#~ msgstr "多键"
+
+#~ msgid "Defined"
+#~ msgstr "已定义"
+
+#~ msgid "A utility to switch keyboard maps"
+#~ msgstr "转换键盘映射表的工具"
+
+#~ msgid "Group %1"
+#~ msgstr "组 %1"
+
+#~ msgid "KDE will configure layouts and start layout indicator"
+#~ msgstr "KDE 将配置布局并启动布局指示器"
+
+#~ msgid "&Enable keyboard layouts"
+#~ msgstr "启用键盘布局(&E)"
+
+#~ msgid "KDE will start indicator but will use existing layout configuration"
+#~ msgstr "KDE 将启动指示器但将使用现有布局配置"
+
+#~ msgid "Indicator only"
+#~ msgstr "只有指示器"
+
+#~ msgid "KDE will not configure or show keyboard layouts"
+#~ msgstr "KDE 将不会配置或显示键盘布局"
+
+#~ msgid "Disable keyboard layouts"
+#~ msgstr "禁用键盘布局"
+
+#~ msgid "Indicator Options"
+#~ msgstr "指示器选项"
+
+#~ msgid "Show indicator for single layout"
+#~ msgstr "显示单独布局的指示器"
+
+#~ msgid "Shows country flag on background of layout name in tray icon"
+#~ msgstr "在托盘图标的布局名称背景处显示国旗"
+
+#~ msgid "Show country flag"
+#~ msgstr "显示国旗"
+
+#~ msgid ""
+#~ "<h1>Keyboard Layout</h1> Here you can choose your keyboard layout and "
+#~ "model. The 'model' refers to the type of keyboard that is connected to "
+#~ "your computer, while the keyboard layout defines \"which key does what\" "
+#~ "and may be different for different countries."
+#~ msgstr ""
+#~ "<h1>键盘布局</h1> 您可以在这里选择所用键盘的布局和型号。“型号”是指连接到您"
+#~ "计算机的键盘的类型，而布局定义了“每个键做什么”，并随国家的不同而不同。"
+
+#~ msgid "Keyboard &model:"
+#~ msgstr "键盘型号(&M)："
+
+#~ msgid ""
+#~ "Here you can choose a keyboard model. This setting is independent of your "
+#~ "keyboard layout and refers to the \"hardware\" model, i.e. the way your "
+#~ "keyboard is manufactured. Modern keyboards that come with your computer "
+#~ "usually have two extra keys and are referred to as \"104-key\" models, "
+#~ "which is probably what you want if you do not know what kind of keyboard "
+#~ "you have.\n"
+#~ msgstr ""
+#~ "您可以在这里选择键盘型号。此设置指的是“硬件”型号，也就是您的键盘的生产方"
+#~ "式，这和您键盘的布局无关。通常您计算机所带有的新式键盘有两个额外的键，并被"
+#~ "称为“104键”型号。如果您不知道您所用的键盘的型号，那么有可能就是这种型"
+#~ "号。\n"
+
+#~ msgid "Available layouts:"
+#~ msgstr "可用布局："
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "Active layouts:"
+#~ msgstr "当前布局："
+
+#~ msgid "Command:"
+#~ msgstr "命令："
+
+#~ msgid ""
+#~ "This is the command which will be executed to initialize configured "
+#~ "layouts."
+#~ msgstr "这是用于初始化已配置布局的命令。"
+
+#~ msgid "Layout variant:"
+#~ msgstr "布局变形："
+
+#~ msgid ""
+#~ "Here you can choose a variant of selected keyboard layout. Layout "
+#~ "variants usually represent different key maps for the same language. For "
+#~ "example, Ukrainian layout might have four variants: basic, winkeys (as in "
+#~ "Windows), typewriter (as in typewriters) and phonetic (each Ukrainian "
+#~ "letter is placed on a transliterated latin one).\n"
+#~ msgstr ""
+#~ "这里您可以为所选的附加键盘布局选择一种变体。变体布局通常代表同一种语言的不"
+#~ "同键盘映射。例如，乌克兰布局可能有四种变体：基本、Windows 键盘(Windows "
+#~ "中)、打字键盘(打字机)和注音键盘(每个乌克兰语的字母都对应一个同音的拉丁字"
+#~ "母)。\n"
+
+#~ msgid "Label:"
+#~ msgstr "标签："
+
+#~ msgid "Switching Options"
+#~ msgstr "切换选项"
+
+#~ msgid ""
+#~ "If you select \"Application\" or \"Window\" switching policy, changing "
+#~ "the keyboard layout will only affect the current application or window."
+#~ msgstr ""
+#~ "如果您选择了“应用程序”或“Windows”切换策略，更改键盘布局将只会影响到当前应"
+#~ "用程序或窗口。"
+
+#~ msgid "Switching Policy"
+#~ msgstr "切换策略"
+
+#~ msgid "&Global"
+#~ msgstr "全局(&G)"
+
+#~ msgid "&Desktop"
+#~ msgstr "桌面(&D)"
+
+#~ msgid "&Application"
+#~ msgstr "应用程序(&A)"
+
+#~ msgid "&Window"
+#~ msgstr "窗口(&W)"
+
+#~ msgid "Shortcuts for Switching Layout"
+#~ msgstr "切换布局的快捷键"
+
+#~ msgid ""
+#~ "This is a shortcut for switching layouts which is handled by X.org. It "
+#~ "allows modifier-only shortcuts."
+#~ msgstr "这是用于切换由 X.org 所处理布局的快捷键。它允许只使用修饰键的组合。"
+
+#~ msgid "3rd level shortcuts:"
+#~ msgstr "第三层快捷键："
+
+#~ msgid ""
+#~ "This is a shortcut for switching to a third level of the active layout "
+#~ "(if it has one) which is handled by X.org. It allows modifier-only "
+#~ "shortcuts."
+#~ msgstr ""
+#~ "这是用于切换由 X.org 所处理的第三层活动布局的快捷键。它允许只使用修饰键的"
+#~ "组合。"
+
+#~ msgid "Alternative shortcut:"
+#~ msgstr "备选快捷键："
+
+#~ msgid ""
+#~ "This is a shortcut for switching layouts which is handled by KDE. It does "
+#~ "not support modifier-only shortcuts and also may not work in some "
+#~ "situations (e.g. if popup is active or from screensaver)."
+#~ msgstr ""
+#~ "这是用于切换由 KDE 所处理布局的快捷键。它不支持只使用修饰键的组合，且在一"
+#~ "些特定场合下无效(例如对弹出窗口，或在屏幕保护状态中)。"
+
+#~ msgid "Advanced"
+#~ msgstr "高级"
+
+#~ msgid "&Reset old options"
+#~ msgstr "重置旧选项(&R)"
+
+#~ msgid ""
+#~ "This is the command which will be executed to initialize configured "
+#~ "options."
+#~ msgstr "这是初始化所配置选项时要执行的命令。"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "KDE 中国"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "kde-china@kde.org"
+
+#~ msgid ""
+#~ "Here you can set xkb extension options instead of, or in addition to, "
+#~ "specifying them in the X11 configuration file."
+#~ msgstr "您可以在此设置 xkb 扩展选项。或者在 X11 配置文件中指定这些选项。"
+
+#~ msgid "Xkb Options"
+#~ msgstr "Xkb 选项"
+
+#~ msgid "Help"
+#~ msgstr "帮助"
+
+#~ msgid "Add >>"
+#~ msgstr "添加 >>"
+
+#~ msgid "<< Remove"
+#~ msgstr "<< 删除"

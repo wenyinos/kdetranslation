@@ -1,0 +1,415 @@
+# translation of kate-ctags-plugin.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2010.
+# Lie Ex <lilith.ex@gmail.com>, 2008-2009.
+# Feng Chao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kate-ctags-plugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-11-07 01:24+0000\n"
+"PO-Revision-Date: 2011-11-06 10:23+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.2\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: CTagsGlobalConfig.ui:9
+msgid "Session-global index targets"
+msgstr "会话性全局索引目标"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: CTagsGlobalConfig.ui:33 kate_ctags.ui:65
+msgid "Add"
+msgstr "添加"
+
+#. i18n: ectx: property (text), widget (QPushButton, delButton)
+#: CTagsGlobalConfig.ui:40 kate_ctags.ui:72
+msgid "Remove"
+msgstr "删除"
+
+#. i18n: ectx: property (text), widget (KPushButton, updateDB)
+#: CTagsGlobalConfig.ui:54
+msgid "Update"
+msgstr "更新"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (text), widget (QLabel, cmdLabel)
+#: CTagsGlobalConfig.ui:66 kate_ctags.ui:119
+msgid "CTags command"
+msgstr "CTags 命令"
+
+#: ctagskinds.cpp:29
+msgctxt "Tag Type"
+msgid "define"
+msgstr "预定义"
+
+#: ctagskinds.cpp:30 ctagskinds.cpp:97
+msgctxt "Tag Type"
+msgid "label"
+msgstr "标签"
+
+#: ctagskinds.cpp:31 ctagskinds.cpp:60 ctagskinds.cpp:126
+msgctxt "Tag Type"
+msgid "macro"
+msgstr "宏"
+
+#: ctagskinds.cpp:37 ctagskinds.cpp:44 ctagskinds.cpp:62 ctagskinds.cpp:94
+#: ctagskinds.cpp:120 ctagskinds.cpp:132 ctagskinds.cpp:146 ctagskinds.cpp:153
+#: ctagskinds.cpp:166 ctagskinds.cpp:173 ctagskinds.cpp:180 ctagskinds.cpp:186
+#: ctagskinds.cpp:199
+msgctxt "Tag Type"
+msgid "function"
+msgstr "函数"
+
+#: ctagskinds.cpp:38 ctagskinds.cpp:102 ctagskinds.cpp:139 ctagskinds.cpp:159
+msgctxt "Tag Type"
+msgid "subroutine"
+msgstr "子程序"
+
+#: ctagskinds.cpp:50
+msgctxt "Tag Type"
+msgid "fragment definition"
+msgstr "分段定义"
+
+#: ctagskinds.cpp:51
+msgctxt "Tag Type"
+msgid "any pattern"
+msgstr "任意模式"
+
+#: ctagskinds.cpp:52
+msgctxt "Tag Type"
+msgid "slot"
+msgstr "槽"
+
+#: ctagskinds.cpp:53
+msgctxt "Tag Type"
+msgid "pattern"
+msgstr "模式"
+
+#: ctagskinds.cpp:59 ctagskinds.cpp:83 ctagskinds.cpp:110 ctagskinds.cpp:145
+#: ctagskinds.cpp:152 ctagskinds.cpp:165
+msgctxt "Tag Type"
+msgid "class"
+msgstr "类"
+
+#: ctagskinds.cpp:61
+msgctxt "Tag Type"
+msgid "enumerator"
+msgstr "枚举集合"
+
+#: ctagskinds.cpp:63
+msgctxt "Tag Type"
+msgid "enumeration"
+msgstr "枚举"
+
+#: ctagskinds.cpp:64
+msgctxt "Tag Type"
+msgid "member"
+msgstr "成员"
+
+#: ctagskinds.cpp:65 ctagskinds.cpp:187
+msgctxt "Tag Type"
+msgid "namespace"
+msgstr "命名空间"
+
+#: ctagskinds.cpp:66
+msgctxt "Tag Type"
+msgid "prototype"
+msgstr "原型"
+
+#: ctagskinds.cpp:67
+msgctxt "Tag Type"
+msgid "struct"
+msgstr "结构体"
+
+#: ctagskinds.cpp:68
+msgctxt "Tag Type"
+msgid "typedef"
+msgstr "类型定义"
+
+#: ctagskinds.cpp:69
+msgctxt "Tag Type"
+msgid "union"
+msgstr "共用体"
+
+#: ctagskinds.cpp:70 ctagskinds.cpp:104
+msgctxt "Tag Type"
+msgid "variable"
+msgstr "变量"
+
+#: ctagskinds.cpp:71
+msgctxt "Tag Type"
+msgid "external variable"
+msgstr "外部变量"
+
+#: ctagskinds.cpp:77
+msgctxt "Tag Type"
+msgid "paragraph"
+msgstr "段落"
+
+#: ctagskinds.cpp:84
+msgctxt "Tag Type"
+msgid "feature"
+msgstr "功能"
+
+#: ctagskinds.cpp:85
+msgctxt "Tag Type"
+msgid "local entity"
+msgstr "本地实体"
+
+#: ctagskinds.cpp:91
+msgctxt "Tag Type"
+msgid "block"
+msgstr "块"
+
+#: ctagskinds.cpp:92
+msgctxt "Tag Type"
+msgid "common"
+msgstr "公用块"
+
+#: ctagskinds.cpp:93
+msgctxt "Tag Type"
+msgid "entry"
+msgstr "条目"
+
+#: ctagskinds.cpp:95 ctagskinds.cpp:112
+msgctxt "Tag Type"
+msgid "interface"
+msgstr "接口"
+
+#: ctagskinds.cpp:96
+msgctxt "Tag Type"
+msgid "type component"
+msgstr "类型组件"
+
+#: ctagskinds.cpp:98
+msgctxt "Tag Type"
+msgid "local"
+msgstr "本地"
+
+#: ctagskinds.cpp:99
+msgctxt "Tag Type"
+msgid "module"
+msgstr "模块"
+
+#: ctagskinds.cpp:100
+msgctxt "Tag Type"
+msgid "namelist"
+msgstr "名称列表"
+
+#: ctagskinds.cpp:101
+msgctxt "Tag Type"
+msgid "program"
+msgstr "程序"
+
+#: ctagskinds.cpp:103
+msgctxt "Tag Type"
+msgid "type"
+msgstr "类型"
+
+#: ctagskinds.cpp:111
+msgctxt "Tag Type"
+msgid "field"
+msgstr "字段"
+
+#: ctagskinds.cpp:113
+msgctxt "Tag Type"
+msgid "method"
+msgstr "方法"
+
+#: ctagskinds.cpp:114
+msgctxt "Tag Type"
+msgid "package"
+msgstr "包"
+
+#: ctagskinds.cpp:133 ctagskinds.cpp:193
+msgctxt "Tag Type"
+msgid "procedure"
+msgstr "过程"
+
+#: ctagskinds.cpp:167
+msgctxt "Tag Type"
+msgid "mixin"
+msgstr "混入"
+
+#: ctagskinds.cpp:174
+msgctxt "Tag Type"
+msgid "set"
+msgstr "集合"
+
+#. i18n: ectx: attribute (title), widget (QWidget, widget)
+#: kate_ctags.ui:13
+msgid "Lookup"
+msgstr "查询"
+
+#. i18n: ectx: property (text), widget (KPushButton, updateButton)
+#. i18n: ectx: property (text), widget (QPushButton, updateButton2)
+#: kate_ctags.ui:26 kate_ctags.ui:92
+msgid "Update Index"
+msgstr "更新索引"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, tagTreeWidget)
+#: kate_ctags.ui:37
+msgid "Tag"
+msgstr "标记"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, tagTreeWidget)
+#: kate_ctags.ui:42
+msgid "Type"
+msgstr "类型"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, tagTreeWidget)
+#: kate_ctags.ui:47
+msgid "File"
+msgstr "文件"
+
+#. i18n: ectx: attribute (title), widget (QWidget, targets)
+#: kate_ctags.ui:56
+msgid "Index Targets"
+msgstr "索引目标"
+
+#. i18n: ectx: attribute (title), widget (QWidget, database)
+#: kate_ctags.ui:100
+msgid "Database"
+msgstr "数据库"
+
+#. i18n: ectx: property (text), widget (QLabel, fileLabel)
+#: kate_ctags.ui:109
+msgid "CTags database file"
+msgstr "CTags 数据库文件"
+
+#. i18n: ectx: property (text), widget (QToolButton, resetCMD)
+#: kate_ctags.ui:152
+msgid "..."
+msgstr "..."
+
+#: kate_ctags_plugin.cpp:40 kate_ctags_plugin.cpp:41
+msgid "CTags Plugin"
+msgstr "CTags 插件"
+
+#: kate_ctags_plugin.cpp:69 kate_ctags_view.cpp:42 kate_ctags_view.cpp:69
+msgid "CTags"
+msgstr "CTags"
+
+#: kate_ctags_plugin.cpp:76
+msgid "CTags Settings"
+msgstr "CTags 设置"
+
+#: kate_ctags_plugin.cpp:102 kate_ctags_view.cpp:82
+msgid "Add a directory to index."
+msgstr "添加要索引的目录。"
+
+#: kate_ctags_plugin.cpp:105 kate_ctags_view.cpp:85
+msgid "Remove a directory."
+msgstr "删除目录。"
+
+#: kate_ctags_plugin.cpp:108
+msgid "(Re-)generate the common CTags database."
+msgstr "(重新)生成通用 CTags 数据库。"
+
+#: kate_ctags_plugin.cpp:228 kate_ctags_view.cpp:553
+#, kde-format
+msgid "Failed to run \"%1\". exitStatus = %2"
+msgstr "运行“%1”失败。退出状态 = %2"
+
+#: kate_ctags_plugin.cpp:239 kate_ctags_view.cpp:566
+msgid "The CTags executable crashed."
+msgstr "CTags 可执行程序已崩溃。"
+
+#: kate_ctags_plugin.cpp:242
+#, kde-format
+msgid "The CTags command exited with code %1"
+msgstr "CTags 命令以代码 %1 退出"
+
+#: kate_ctags_view.cpp:49
+msgid "Jump back one step"
+msgstr "后退一步"
+
+#: kate_ctags_view.cpp:54
+msgid "Go to Declaration"
+msgstr "跳转到声明"
+
+#: kate_ctags_view.cpp:59
+msgid "Go to Definition"
+msgstr "跳转到定义"
+
+#: kate_ctags_view.cpp:64
+msgid "Lookup Current Text"
+msgstr "查询当前文本"
+
+#: kate_ctags_view.cpp:72 kate_ctags_view.cpp:144
+#, kde-format
+msgid "Go to Declaration: %1"
+msgstr "跳转到声明：%1"
+
+#: kate_ctags_view.cpp:73 kate_ctags_view.cpp:145
+#, kde-format
+msgid "Go to Definition: %1"
+msgstr "跳转到定义：%1"
+
+#: kate_ctags_view.cpp:74 kate_ctags_view.cpp:146
+#, kde-format
+msgid "Lookup: %1"
+msgstr "查询：%1"
+
+#: kate_ctags_view.cpp:88 kate_ctags_view.cpp:91
+msgid "(Re-)generate the session specific CTags database."
+msgstr "(重新)生成会话特定的 CTags 数据库。"
+
+#: kate_ctags_view.cpp:96
+msgid "Select new or existing database file."
+msgstr "选择新的或已存在的数据库文件。"
+
+#: kate_ctags_view.cpp:278 kate_ctags_view.cpp:313
+msgid "No hits found"
+msgstr "未发现记录"
+
+#: kate_ctags_view.cpp:568
+#, kde-format
+msgid "The CTags program exited with code %1"
+msgstr "CTags 程序以代码 %1 退出"
+
+#~ msgid "Load a CTags database file."
+#~ msgstr "装入一个 CTags 数据库文件。"
+
+#~ msgid "Create a CTags database file."
+#~ msgstr "创建一个 CTags 数据库文件。"
+
+#~ msgctxt "Button text for creating a new CTags database file."
+#~ msgid "Create New"
+#~ msgstr "新建"
+
+#~ msgid "Select a location and create a new CTags database."
+#~ msgstr "选择一个位置，并新建 CTags 数据库。"
+
+#~ msgctxt "Button text for loading a CTags database file"
+#~ msgid "Load"
+#~ msgstr "装入"
+
+#~ msgid "No CTags database is loaded."
+#~ msgstr "未装入 CTags 数据库。"
+
+#~ msgid "CTags Database Location"
+#~ msgstr "CTags 数据库位置"
+
+#~ msgid "Tags"
+#~ msgstr "标记"
+
+#~ msgid "Settings"
+#~ msgstr "设置"

@@ -1,0 +1,642 @@
+# translation of knotes.po to zh_CN
+# translation of knotes.po to Simplified Chinese
+# Copyright (C) 2002,2003 Free Software Foundation, Inc.
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998
+# Funda Wang <fundawang@linux.net.cn>, 2002, 2003
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003
+# Lie Ex <lilith.ex@gmail.com>, 2007-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: knotes\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-02-26 01:44+0000\n"
+"PO-Revision-Date: 2009-06-01 10:40+0800\n"
+"Last-Translator: Lie Ex <lilith.ex@gmail.com>\n"
+"Language-Team: zh_CN <kde-china@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#: apps/knotes_options.h:29
+msgid "Suppress creation of a new note on a non-unique instance."
+msgstr "禁止在非唯一的实例上新建便笺。"
+
+#: apps/knotesakonaditray.cpp:33 apps/knotestray.cpp:31
+msgid "KNotes: Sticky notes for KDE"
+msgstr "KNotes：KDE 的粘性便笺"
+
+#: apps/knotesapp.cpp:113
+msgid "New Note"
+msgstr "新建便笺"
+
+#: apps/knotesapp.cpp:119
+msgid "New Note From Clipboard"
+msgstr "从剪贴板新建便笺"
+
+#: apps/knotesapp.cpp:124
+msgid "Show All Notes"
+msgstr "显示全部便笺"
+
+#: apps/knotesapp.cpp:130
+msgid "Hide All Notes"
+msgstr "隐藏全部便笺"
+
+#: apps/knotesapp.cpp:136
+#, fuzzy
+#| msgid "Print Note"
+#| msgid_plural "Print %1 notes"
+msgctxt "@action:inmenu"
+msgid "Print Selected Notes..."
+msgstr "打印 %1 个便笺"
+
+#: apps/knotesapp.cpp:416
+msgid "No Notes"
+msgstr "无便笺"
+
+#: apps/knotesapp.cpp:468
+msgid "Settings"
+msgstr "设置"
+
+#. i18n: ectx: Menu (knotes_context)
+#: apps/main.cpp:44 data/knotesappui.rc:5 data/knotesappui.rc:6
+msgid "KNotes"
+msgstr "KNotes"
+
+#: apps/main.cpp:46
+msgid "KDE Notes"
+msgstr "KDE 便笺"
+
+#: apps/main.cpp:48
+#, fuzzy
+#| msgid "Copyright © 1997–2010 KNotes authors"
+msgid "Copyright © 1997–2014 KNotes authors"
+msgstr "版权 © 1997–2010 KNotes 作者"
+
+#: apps/main.cpp:104
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#: apps/main.cpp:105
+msgid "Maintainer"
+msgstr "维护者"
+
+#: apps/main.cpp:107
+msgid "Guillermo Antonio Amaral Bastidas"
+msgstr "Guillermo Antonio Amaral Bastidas"
+
+#: apps/main.cpp:108 apps/main.cpp:111
+msgid "Previous Maintainer"
+msgstr "先前维护者"
+
+#: apps/main.cpp:110
+msgid "Michael Brade"
+msgstr "Michael Brade"
+
+#: apps/main.cpp:113
+msgid "Bernd Johannes Wuebben"
+msgstr "Bernd Johannes Wuebben"
+
+#: apps/main.cpp:114
+msgid "Original KNotes Author"
+msgstr "KNotes 原作者"
+
+#: apps/main.cpp:116
+msgid "Wynn Wilkes"
+msgstr "Wynn Wilkes"
+
+#: apps/main.cpp:117
+msgid "Ported KNotes to KDE 2"
+msgstr "移植 KNotes 到 KDE 2"
+
+#: apps/main.cpp:119
+msgid "Daniel Martin"
+msgstr "Daniel Martin"
+
+#: apps/main.cpp:120
+msgid "Network Interface"
+msgstr "网络接口"
+
+#: apps/main.cpp:122
+msgid "Bo Thorsen"
+msgstr "Bo Thorsen"
+
+#: apps/main.cpp:123
+msgid "Started KDE Resource Framework Integration"
+msgstr "和 KDE 资源框架集成的起步工作"
+
+#: apps/main.cpp:125
+msgid "Bera Debajyoti"
+msgstr "Bera Debajyoti"
+
+#: apps/main.cpp:126
+msgid "Idea and initial code for the new look & feel"
+msgstr "创意和新观感的初始代码"
+
+#: apps/main.cpp:128
+msgid "Matthias Ettrich"
+msgstr "Matthias Ettrich"
+
+#: apps/main.cpp:131
+msgid "David Faure"
+msgstr "David Faure"
+
+#: apps/main.cpp:134
+msgid "Matthias Kiefer"
+msgstr "Matthias Kiefer"
+
+#: apps/main.cpp:137
+msgid "Luboš Luňák"
+msgstr "Luboš Luňák"
+
+#: apps/main.cpp:140
+msgid "Dirk A. Mueller"
+msgstr "Dirk A. Mueller"
+
+#: apps/main.cpp:143
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: apps/main.cpp:146
+msgid "Harri Porten"
+msgstr "Harri Porten"
+
+#: apps/main.cpp:149
+msgid "Espen Sand"
+msgstr "Espen Sand"
+
+#: configdialog/knotecollectionconfigwidget.cpp:53
+msgid "Select which KNotes folders to show:"
+msgstr ""
+
+#: configdialog/knotecollectionconfigwidget.cpp:86
+#: finddialog/knotefinddialog.cpp:77
+msgid "Search..."
+msgstr ""
+
+#: configdialog/knotecollectionconfigwidget.cpp:103
+#, fuzzy
+#| msgid "Select recipient:"
+msgid "&Select All"
+msgstr "选择接收方："
+
+#: configdialog/knotecollectionconfigwidget.cpp:107
+msgid "&Unselect All"
+msgstr ""
+
+#: configdialog/knoteconfigdialog.cpp:211
+msgid "Show number of notes in tray icon"
+msgstr ""
+
+#: configdialog/knoteconfigdialog.cpp:240
+msgid "Theme:"
+msgstr ""
+
+#: configdialog/knoteconfigdialog.cpp:250
+#, fuzzy
+#| msgid "Print Note"
+#| msgid_plural "Print %1 notes"
+msgid "Download new printing themes"
+msgstr "打印 %1 个便笺"
+
+#: configdialog/knotedisplayconfigwidget.cpp:45
+msgid "&Text color:"
+msgstr "文字颜色(&T)："
+
+#: configdialog/knotedisplayconfigwidget.cpp:54
+msgid "&Background color:"
+msgstr "背景颜色(&B)："
+
+#: configdialog/knotedisplayconfigwidget.cpp:65
+msgid "&Show note in taskbar"
+msgstr "在任务栏显示便笺(&S)"
+
+#: configdialog/knotedisplayconfigwidget.cpp:69
+msgid "&Remember desktop"
+msgstr "记住桌面(&R)"
+
+#: configdialog/knotedisplayconfigwidget.cpp:73
+msgid "Default &width:"
+msgstr "默认宽度(&W)："
+
+#: configdialog/knotedisplayconfigwidget.cpp:84
+msgid "Default &height:"
+msgstr "默认高度(&H)："
+
+#: configdialog/knoteeditorconfigwidget.cpp:39
+msgid "&Tab size:"
+msgstr "制表符宽度(&T)："
+
+#: configdialog/knoteeditorconfigwidget.cpp:49
+msgid "Auto &indent"
+msgstr "自动缩进(&I)"
+
+#: configdialog/knoteeditorconfigwidget.cpp:54
+msgid "&Rich text"
+msgstr "丰富文本(&R)"
+
+#: configdialog/knoteeditorconfigwidget.cpp:58
+msgid "Text font:"
+msgstr "文字字体："
+
+#: configdialog/knoteeditorconfigwidget.cpp:67
+msgid "Title font:"
+msgstr "标题字体："
+
+#: configdialog/knotesimpleconfigdialog.cpp:52
+msgid "Editor Settings"
+msgstr "编辑器设置"
+
+#: configdialog/knotesimpleconfigdialog.cpp:55
+msgid "Display Settings"
+msgstr "显示设置"
+
+#. i18n: ectx: Menu (help)
+#: data/knotesappui.rc:20
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#. i18n: ectx: Menu (notes_menu)
+#: data/knotesappui.rc:32 data/knotesappui.rc:33
+msgid "Notes"
+msgstr "便笺"
+
+#: dialog/knoteselectednotesdialog.cpp:29
+#: print/knoteprintselectednotesdialog.cpp:34
+#, fuzzy
+#| msgid "Select recipient:"
+msgid "Select notes"
+msgstr "选择接收方："
+
+#: dialog/knoteskeydialog.cpp:28
+msgid "Configure Shortcuts"
+msgstr "配置快捷键"
+
+#: dialog/knoteskeydialog.cpp:61
+msgid "Note Actions"
+msgstr "便笺动作"
+
+#: finddialog/knotefinddialog.cpp:33
+#, fuzzy
+#| msgid "Select recipient:"
+msgid "Search Notes"
+msgstr "选择接收方："
+
+#: finddialog/knotefinddialog.cpp:68
+#, fuzzy
+#| msgid "Select recipient:"
+msgid "Search notes:"
+msgstr "选择接收方："
+
+#: knoteedit.cpp:62
+msgid "Bold"
+msgstr "粗体"
+
+#: knoteedit.cpp:67
+msgid "Italic"
+msgstr "斜体"
+
+#: knoteedit.cpp:71
+msgid "Underline"
+msgstr "下划线"
+
+#: knoteedit.cpp:75
+msgid "Strike Out"
+msgstr "删除线"
+
+#: knoteedit.cpp:88
+msgid "Align Left"
+msgstr "左对齐"
+
+#: knoteedit.cpp:95
+msgid "Align Center"
+msgstr "居中对齐"
+
+#: knoteedit.cpp:101
+msgid "Align Right"
+msgstr "右对齐"
+
+#: knoteedit.cpp:107
+msgid "Align Block"
+msgstr "两端对齐"
+
+#: knoteedit.cpp:119
+msgid "List"
+msgstr "列表"
+
+#: knoteedit.cpp:124
+msgid "Superscript"
+msgstr "上标"
+
+#: knoteedit.cpp:128
+msgid "Subscript"
+msgstr "下标"
+
+#: knoteedit.cpp:135
+msgid "Increase Indent"
+msgstr "增加缩进"
+
+#: knoteedit.cpp:143
+msgid "Decrease Indent"
+msgstr "减少缩进"
+
+#: knoteedit.cpp:156
+msgid "Text Color..."
+msgstr "文字颜色..."
+
+#: knoteedit.cpp:161
+msgid "Text Background Color..."
+msgstr "文字背景颜色..."
+
+#: knoteedit.cpp:165
+msgid "Text Font"
+msgstr "文本字体"
+
+#: knoteedit.cpp:170
+msgid "Text Size"
+msgstr "文本大小"
+
+#: knoteedit.cpp:175
+msgid "Uppercase"
+msgstr ""
+
+#: knoteedit.cpp:179
+msgid "Lowercase"
+msgstr ""
+
+#: knoteedit.cpp:183
+msgid "Insert Date"
+msgstr "插入日期"
+
+#: knoteedit.cpp:225
+msgid "Change case..."
+msgstr ""
+
+#: notes/knote.cpp:167
+#, kde-format
+msgid "<qt>Do you really want to delete note <b>%1</b>?</qt>"
+msgstr "<qt>您真要删除便笺 <b>%1</b> 吗？</qt>"
+
+#: notes/knote.cpp:169
+msgid "Confirm Delete"
+msgstr "确认删除"
+
+#: notes/knote.cpp:170
+msgid "&Delete"
+msgstr "删除(&D)"
+
+#: notes/knote.cpp:272
+msgid "Please enter the new name:"
+msgstr "请输入新的名字："
+
+#: notes/knote.cpp:476
+msgid "Save note as plain text"
+msgstr "将便笺另存为纯文本"
+
+#: notes/knote.cpp:481
+msgid "Save As"
+msgstr "另存为"
+
+#: notes/knote.cpp:497
+#, kde-format
+msgid ""
+"<qt>A file named <b>%1</b> already exists.<br />Are you sure you want to "
+"overwrite it?</qt>"
+msgstr "<qt>已经存在名为 <b>%1</b> 的文件。<br />您确定想要覆盖吗？</qt>"
+
+#: notes/knote.cpp:601
+msgid "&All Desktops"
+msgstr "所有桌面(&A)"
+
+#: notes/knote.cpp:642
+msgid "New"
+msgstr "新建"
+
+#: notes/knote.cpp:646
+msgid "Rename..."
+msgstr "重命名..."
+
+#: notes/knote.cpp:651
+msgid "Lock"
+msgstr "锁定"
+
+#: notes/knote.cpp:655
+msgid "Unlock"
+msgstr "取消锁定"
+
+#: notes/knote.cpp:657
+msgid "Hide"
+msgstr "隐藏"
+
+#: notes/knote.cpp:662
+msgid "Delete"
+msgstr "删除"
+
+#: notes/knote.cpp:666
+msgid "Set Alarm..."
+msgstr "设定提醒..."
+
+#: notes/knote.cpp:671
+msgid "Send..."
+msgstr "发送..."
+
+#: notes/knote.cpp:675
+msgid "Mail..."
+msgstr "邮寄..."
+
+#: notes/knote.cpp:679
+msgid "Save As..."
+msgstr "另存为..."
+
+#: notes/knote.cpp:690
+msgid "Preferences..."
+msgstr "首选项..."
+
+#: notes/knote.cpp:696
+msgid "Keep Above Others"
+msgstr "常居顶端"
+
+#: notes/knote.cpp:702
+msgid "Keep Below Others"
+msgstr "常居底端"
+
+#: notes/knote.cpp:708
+msgid "To Desktop"
+msgstr "移到桌面"
+
+#: notes/knote.cpp:718
+msgid "Walk Through Notes"
+msgstr "便笺漫游"
+
+#: print/knoteprinter.cpp:142
+#, kde-format
+msgid "Print Note"
+msgid_plural "Print %1 notes"
+msgstr[0] "打印 %1 个便笺"
+
+#: print/knoteprinter.cpp:149
+msgid "Printing theme was not found."
+msgstr ""
+
+#: print/knoteprinter.cpp:149
+msgid "Printing error"
+msgstr ""
+
+#: print/knoteprintselectednotesdialog.cpp:47
+#, fuzzy
+#| msgid "Print Note"
+#| msgid_plural "Print %1 notes"
+msgid "Printing theme:"
+msgstr "打印 %1 个便笺"
+
+#: print/knoteprintselectednotesdialog.cpp:54
+msgid "Preview"
+msgstr ""
+
+#: print/knoteprintselectednotesdialog.cpp:56
+#, fuzzy
+#| msgid "Print %1"
+msgid "Print"
+msgstr "打印 %1"
+
+#: print/knoteprintselectthemedialog.cpp:29
+#, fuzzy
+#| msgid "Select recipient:"
+msgid "Select theme"
+msgstr "选择接收方："
+
+#: print/knoteprintselectthemedialog.cpp:36
+msgid "Themes:"
+msgstr ""
+
+#: utils/knoteutils.cpp:68
+msgid ""
+"<b>Thanks for using KNotes!</b><p>KNotes uses a new storage technology that "
+"requires migration of your current KNotes data and configuration.</p>\n"
+"<p>The conversion process can take a lot of time (depending on the amount of "
+"notes you have) and it <em>must not be interrupted</em>.</p>\n"
+"<p>You can:</p><ul><li>Migrate now (be prepared to wait)</li><li>Skip the "
+"migration and start with fresh data and configuration</li><li>Cancel and "
+"exit KNotes.</li></ul><p><a href=\"http://userbase.kde.org/Akonadi\">More "
+"Information...</a></p>"
+msgstr ""
+
+#: utils/knoteutils.cpp:77
+#, fuzzy
+#| msgid "Note Actions"
+msgid "KNotes Migration"
+msgstr "便笺动作"
+
+#: utils/knoteutils.cpp:77
+msgid "Migrate Now"
+msgstr ""
+
+#: utils/knoteutils.cpp:77
+msgid "Skip Migration"
+msgstr ""
+
+#: utils/knoteutils.cpp:110
+msgid ""
+"Migration to KNotes failed. In case you want to try again, run 'knotes-"
+"migrator --interactive' manually."
+msgstr ""
+
+#: utils/knoteutils.cpp:111
+msgid "Migration Failed"
+msgstr ""
+
+#~ msgid "Scheduled Alarm"
+#~ msgstr "计划提醒"
+
+#~ msgid "&No alarm"
+#~ msgstr "无提醒(&N)"
+
+#~ msgid "Alarm &at:"
+#~ msgstr "提醒于(&A)："
+
+#, fuzzy
+#~| msgid "Select recipient:"
+#~ msgctxt "@title:window"
+#~ msgid "Select Note Folder"
+#~ msgstr "选择接收方："
+
+#~ msgid "The following notes triggered alarms:"
+#~ msgstr "下列便笺触发了提醒："
+
+#~ msgid "Alarm"
+#~ msgstr "提醒"
+
+#~ msgid "Display"
+#~ msgstr "显示"
+
+#~ msgid "Editor"
+#~ msgstr "编辑器"
+
+#~ msgid ""
+#~ "<qt>Unable to save the notes to <b>%1</b>. Check that there is sufficient "
+#~ "disk space.<br />There should be a backup in the same directory though.</"
+#~ "qt>"
+#~ msgstr ""
+#~ "<qt>无法将便笺保存到 <b>%1</b>。请检查是否有足够的磁盘空间。<br />但是，应"
+#~ "该在同一目录中有备份。</qt>"
+
+#~ msgid "Location:"
+#~ msgstr "位置："
+
+#~ msgid "&Mail action:"
+#~ msgstr "邮寄动作(&M)："
+
+#~ msgid "Incoming Notes"
+#~ msgstr "收到的便笺"
+
+#~ msgid "Accept incoming notes"
+#~ msgstr "接受收到的便笺"
+
+#~ msgid "Outgoing Notes"
+#~ msgstr "发出的便笺"
+
+#~ msgid "&Sender ID:"
+#~ msgstr "发送者 ID(&S)："
+
+#~ msgid "&Port:"
+#~ msgstr "端口(&P)："
+
+#~ msgid "Select recipient:"
+#~ msgstr "选择接收方："
+
+#~ msgid "Hostname or IP address:"
+#~ msgstr "主机名或 IP 地址："
+
+#~ msgid "The port KNotes will listen on and send notes to."
+#~ msgstr "KNotes 将监听并发送便笺的端口。"
+
+#~ msgid "Unable to start the mail process."
+#~ msgstr "无法启动邮件进程。"
+
+#~ msgid "Send \"%1\""
+#~ msgstr "发送“%1”"
+
+#~ msgid "The host cannot be empty."
+#~ msgstr "主机名不能为空。"
+
+#~ msgid "Communication error: %1"
+#~ msgstr "通讯错误：%1"
+
+#~ msgid "Alarm &in:"
+#~ msgstr "提醒在(&I)："
+
+#~ msgid "&Style:"
+#~ msgstr "样式(&S)："
+
+#~ msgid "Plain"
+#~ msgstr "无格式"

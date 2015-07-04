@@ -1,0 +1,4411 @@
+# translation of kpackagekit.po to 简体中文
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+# Feng Chao <rainofchaos@gmail.com>, 2010, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: kpackagekit\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-10-28 01:27+0000\n"
+"PO-Revision-Date: 2012-12-15 11:51+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国,Ni Hui"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org,shuizhuyuanluo@126.com"
+
+#: Apper/BackendDetails.cpp:34
+msgid "Backend Details"
+msgstr "后端详情"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: Apper/BackendDetails.ui:39
+msgid "About Backend"
+msgstr "关于后端"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: Apper/BackendDetails.ui:45
+msgid "Backend name:"
+msgstr "后端名称："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: Apper/BackendDetails.ui:59
+msgid "Backend description:"
+msgstr "后端描述："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: Apper/BackendDetails.ui:73
+msgid "Backend author:"
+msgstr "后端作者："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: Apper/BackendDetails.ui:87
+msgid "Distribution ID:"
+msgstr "发行 ID："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: Apper/BackendDetails.ui:107
+msgid "Methods"
+msgstr "方法"
+
+#. i18n: ectx: property (text), widget (QCheckBox, getUpdatesCB)
+#: Apper/BackendDetails.ui:116
+msgid "Get Updates"
+msgstr "获取更新"
+
+#. i18n: ectx: property (text), widget (QCheckBox, refreshCacheCB)
+#: Apper/BackendDetails.ui:126 ApperKCM/Settings/Settings.cpp:52
+msgid "Refresh Cache"
+msgstr "刷新缓存"
+
+#. i18n: ectx: property (text), widget (QCheckBox, searchNameCB)
+#: Apper/BackendDetails.ui:136
+msgid "Search Name"
+msgstr "搜索名称"
+
+#. i18n: ectx: property (text), widget (QCheckBox, getDependsCB)
+#: Apper/BackendDetails.ui:146
+msgid "Get Package Depends"
+msgstr "获取软件包依赖"
+
+#. i18n: ectx: property (text), widget (QCheckBox, searchDetailsCB)
+#: Apper/BackendDetails.ui:156
+msgid "Search Details"
+msgstr "搜索详情"
+
+#. i18n: ectx: property (text), widget (QCheckBox, getRequiresCB)
+#: Apper/BackendDetails.ui:166
+msgid "Get Package Requires"
+msgstr "获取需要的软件包"
+
+#. i18n: ectx: property (text), widget (QCheckBox, searchGroupCB)
+#: Apper/BackendDetails.ui:176
+msgid "Search Group"
+msgstr "搜索分组"
+
+#. i18n: ectx: property (text), widget (QCheckBox, getUpdateDetailCB)
+#: Apper/BackendDetails.ui:186
+msgid "Get Update Detail"
+msgstr "获取更新详情"
+
+#. i18n: ectx: property (text), widget (QCheckBox, searchFileCB)
+#: Apper/BackendDetails.ui:196
+msgid "Search File"
+msgstr "搜索文件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, getDescriptionCB)
+#: Apper/BackendDetails.ui:206
+msgid "Get Package Description"
+msgstr "获取软件包描述"
+
+#. i18n: ectx: property (text), widget (QCheckBox, getFilesCB)
+#: Apper/BackendDetails.ui:216
+msgid "Get Package Files"
+msgstr "获取软件包文件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, getDistroUpgradesCB)
+#: Apper/BackendDetails.ui:226
+msgid "Get Distro Upgrades"
+msgstr "获取发行版升级"
+
+#. i18n: ectx: property (text), widget (QCheckBox, installPackageCB)
+#: Apper/BackendDetails.ui:236
+msgid "Install Packages"
+msgstr "安装软件包"
+
+#. i18n: ectx: property (text), widget (QCheckBox, updatePackageCB)
+#: Apper/BackendDetails.ui:246
+msgid "Update Packages"
+msgstr "更新软件包"
+
+#. i18n: ectx: property (text), widget (QCheckBox, removePackageCB)
+#: Apper/BackendDetails.ui:256
+msgid "Remove Packages"
+msgstr "删除软件包"
+
+#. i18n: ectx: property (text), widget (QCheckBox, installFileCB)
+#: Apper/BackendDetails.ui:266
+msgid "Install Files"
+msgstr "安装文件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, resolveCB)
+#: Apper/BackendDetails.ui:276
+msgid "Resolve"
+msgstr "解决"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cancelCB)
+#: Apper/BackendDetails.ui:286
+msgid "Cancel"
+msgstr "取消"
+
+#. i18n: ectx: property (text), widget (QCheckBox, repairSystemCB)
+#: Apper/BackendDetails.ui:296
+msgid "Repair System"
+msgstr "修复系统"
+
+#. i18n: ectx: property (text), widget (QCheckBox, upgradeSystemCB)
+#: Apper/BackendDetails.ui:306
+msgid "Upgrade System"
+msgstr "升级系统"
+
+#. i18n: ectx: property (text), widget (QCheckBox, getPackagesCB)
+#: Apper/BackendDetails.ui:316
+msgid "Get Packages"
+msgstr "获取软件包"
+
+#. i18n: ectx: property (text), widget (QCheckBox, whatProvidesCB)
+#: Apper/BackendDetails.ui:326
+#, fuzzy
+#| msgid "WhatProvides"
+msgid "What Provides"
+msgstr "所提供"
+
+#. i18n: ectx: property (text), widget (QCheckBox, repositorySetEnableCB)
+#: Apper/BackendDetails.ui:336
+msgid "Set Repository Data"
+msgstr "设置仓库数据"
+
+#. i18n: ectx: property (text), widget (QCheckBox, repositoryEnableCB)
+#: Apper/BackendDetails.ui:346
+msgid "Enable Repository"
+msgstr "启用仓库"
+
+#. i18n: ectx: property (text), widget (QCheckBox, getRepositoryListCB)
+#: Apper/BackendDetails.ui:356
+msgid "Get Repository List"
+msgstr "获取仓库列表"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (text), widget (QToolButton, filtersTB)
+#: Apper/BackendDetails.ui:366 ApperKCM/ApperKCM.ui:98
+msgid "Filters"
+msgstr "过滤"
+
+#. i18n: ectx: property (text), widget (QCheckBox, installedCB)
+#: Apper/BackendDetails.ui:375 ApperKCM/FiltersMenu.cpp:60
+#: libapper/PkStrings.cpp:379
+msgid "Installed"
+msgstr "已安装"
+
+#. i18n: ectx: property (text), widget (QCheckBox, developmentCB)
+#: Apper/BackendDetails.ui:385 ApperKCM/FiltersMenu.cpp:90
+msgid "Development"
+msgstr "开发"
+
+#. i18n: ectx: property (text), widget (QCheckBox, visibleCB)
+#: Apper/BackendDetails.ui:395
+msgid "Package is visible"
+msgstr "软件包可见"
+
+#. i18n: ectx: property (text), widget (QCheckBox, newestCB)
+#: Apper/BackendDetails.ui:405
+msgid "Newest"
+msgstr "最新"
+
+#. i18n: ectx: property (text), widget (QCheckBox, guiCB)
+#: Apper/BackendDetails.ui:415
+msgid "GUI"
+msgstr "图形界面"
+
+#. i18n: ectx: property (text), widget (QCheckBox, freeCB)
+#: Apper/BackendDetails.ui:425
+msgid "Free software"
+msgstr "自由软件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, supportedCB)
+#: Apper/BackendDetails.ui:435
+msgid "Supported"
+msgstr "受支持"
+
+#. i18n: ectx: property (text), widget (QCheckBox, archCB)
+#: Apper/BackendDetails.ui:445
+msgid "Only native"
+msgstr "仅原生软件"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: Apper/BackendDetails.ui:455
+#, fuzzy
+#| msgid "KPackageKit"
+msgid "PackageKit"
+msgstr "KPackageKit"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: Apper/BackendDetails.ui:461
+#, fuzzy
+#| msgid "Version"
+msgid "Version:"
+msgstr "版本"
+
+#: Apper/main.cpp:54 PkSession/main.cpp:34
+msgid "Apper"
+msgstr "Apper"
+
+#: Apper/main.cpp:56
+msgid "Apper is an Application to Get and Manage Software"
+msgstr "Apper 是一个获取和管理软件的应用程序"
+
+#: Apper/main.cpp:58 ApperKCM/ApperKCM.cpp:90 PkSession/main.cpp:38
+#, fuzzy
+#| msgid "(C) 2008-2011 Daniel Nicoletti"
+msgid "(C) 2008-2013 Daniel Nicoletti"
+msgstr "(C) 2008-2011 Daniel Nicoletti"
+
+#: Apper/main.cpp:60 PkSession/main.cpp:40
+msgid "Daniel Nicoletti"
+msgstr "Daniel Nicoletti"
+
+#: Apper/main.cpp:61 PkSession/main.cpp:43
+msgid "Adrien Bustany"
+msgstr "Adrien Bustany"
+
+#: Apper/main.cpp:61 PkSession/main.cpp:43
+msgid "libpackagekit-qt and other stuff"
+msgstr "libpackagekit-qt 和其它工作"
+
+#: Apper/main.cpp:67
+msgid "Show updates"
+msgstr "显示更新"
+
+#: Apper/main.cpp:68
+msgid "Show settings"
+msgstr "显示设置"
+
+#: Apper/main.cpp:69
+msgid "Show backend details"
+msgstr "显示后端详情"
+
+#: Apper/main.cpp:70
+msgid "Mime type installer"
+msgstr "Mime 类型安装器"
+
+#: Apper/main.cpp:71
+msgid "Package name installer"
+msgstr "软件包名称安装器"
+
+#: Apper/main.cpp:72
+msgid "Single file installer"
+msgstr "单一文件安装器"
+
+#: Apper/main.cpp:73
+msgid "Font resource installer"
+msgstr "字体安装程序"
+
+#: Apper/main.cpp:74
+msgid "Catalog installer"
+msgstr "分类安装器"
+
+#: Apper/main.cpp:75
+msgid "Single package remover"
+msgstr "单一软件包删除器"
+
+#: Apper/main.cpp:76
+msgid "Package file to install"
+msgstr "要安装的软件包文件"
+
+#: apperd/DistroUpgrade.cpp:91
+msgid "Distribution upgrade available"
+msgstr "发行版升级可用"
+
+#: apperd/DistroUpgrade.cpp:95
+msgid "Start upgrade now"
+msgstr "立即开始升级"
+
+#: apperd/DistroUpgrade.cpp:146
+msgid "Distribution upgrade finished. "
+msgstr "发行版升级失败。"
+
+#: apperd/DistroUpgrade.cpp:149 ApperKCM/Updater/DistroUpgrade.cpp:93
+#, kde-format
+msgid "Distribution upgrade process exited with code %1."
+msgstr "发行版升级处理以代码 %1 退出。"
+
+#: apperd/DistroUpgrade.cpp:167 ApperKCM/Updater/DistroUpgrade.cpp:105
+msgid "The distribution upgrade process failed to start."
+msgstr "发行版升级处理启动失败。"
+
+#: apperd/DistroUpgrade.cpp:170 ApperKCM/Updater/DistroUpgrade.cpp:109
+msgid ""
+"The distribution upgrade process crashed some time after starting "
+"successfully."
+msgstr "发行版升级处理在成功开始后某个时间崩溃。"
+
+#: apperd/DistroUpgrade.cpp:173 ApperKCM/Updater/DistroUpgrade.cpp:113
+msgid "The distribution upgrade process failed with an unknown error."
+msgstr "发行版升级处理以未知错误失败。"
+
+#: apperd/TransactionWatcher.cpp:134
+msgid "The system update has completed"
+msgstr "系统更新已完成"
+
+#: apperd/TransactionWatcher.cpp:141 apperd/TransactionWatcher.cpp:183
+msgid "Restart"
+msgstr "重启"
+
+#: apperd/TransactionWatcher.cpp:174
+#, kde-format
+msgid "Package: %2"
+msgid_plural "Packages: %2"
+msgstr[0] "软件包：%2"
+
+#: apperd/TransactionWatcher.cpp:236 ApperKCM/TransactionModel.cpp:48
+#: AppSetup/SetupWizard.cpp:202
+msgid "Details"
+msgstr "详情"
+
+#: apperd/Updater.cpp:160
+msgid "Updates are being automatically installed."
+msgstr "正在自动安装更新。"
+
+#: apperd/Updater.cpp:170
+msgid "Security updates are being automatically installed."
+msgstr "正在自动安装安全更新。"
+
+#: apperd/Updater.cpp:180
+#, fuzzy
+#| msgid "Updates are being automatically installed."
+msgid "Updates are being automatically downloaded."
+msgstr "正在自动安装更新。"
+
+#: apperd/Updater.cpp:214
+msgid "System update was successful."
+msgstr "系统已成功更新。"
+
+#: apperd/Updater.cpp:221
+#, fuzzy
+#| msgid "The automated software update failed."
+msgid "The software update failed."
+msgstr "软件自动更新失败。"
+
+#: apperd/Updater.cpp:275
+#, fuzzy, kde-format
+#| msgid "Check for new updates"
+msgid "There is one new update"
+msgid_plural "There are %1 new updates"
+msgstr[0] "检查更新"
+
+#: apperd/Updater.cpp:290
+#, fuzzy
+#| msgid "Review Changes"
+msgid "Review"
+msgstr "复查更改"
+
+#: apperd/Updater.cpp:292 AppSetup/SetupWizard.cpp:337
+#: libapper/ApplicationsDelegate.cpp:40
+msgid "Install"
+msgstr "安装"
+
+#: ApperKCM/ApperKCM.cpp:86
+msgid "Application Manager"
+msgstr "应用程序管理器"
+
+#: ApperKCM/ApperKCM.cpp:88
+msgid "KDE interface for managing software"
+msgstr "管理软件的 KDE 界面"
+
+#: ApperKCM/ApperKCM.cpp:117 ApperKCM/ApperKCM.cpp:308
+msgid "Find"
+msgstr "查找"
+
+#: ApperKCM/ApperKCM.cpp:212 ApperKCM/ApperKCM.cpp:553
+msgid "History"
+msgstr "历史"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, Settings)
+#: ApperKCM/ApperKCM.cpp:218 ApperKCM/ApperKCM.cpp:509
+#: ApperKCM/Settings/Settings.ui:14
+msgid "Settings"
+msgstr "设置"
+
+#: ApperKCM/ApperKCM.cpp:285 ApperKCM/ApperKCM.cpp:286
+#: ApperKCM/ApperKCM.cpp:287 ApperKCM/ApperKCM.cpp:288
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#. i18n: ectx: property (text), widget (CategorizedView, changesView)
+#: ApperKCM/ApperKCM.cpp:295 ApperKCM/ApperKCM.ui:346
+msgid "Find by &name"
+msgstr "按名称查找(&N)"
+
+#. i18n: ectx: property (text), widget (CategorizedView, changesView)
+#: ApperKCM/ApperKCM.cpp:296 ApperKCM/ApperKCM.ui:356
+msgid "Find by f&ile name"
+msgstr "按文件名查找(&I)"
+
+#. i18n: ectx: property (text), widget (CategorizedView, changesView)
+#: ApperKCM/ApperKCM.cpp:297 ApperKCM/ApperKCM.ui:351
+msgid "Find by &description"
+msgstr "按描述查找(&D)"
+
+#: ApperKCM/ApperKCM.cpp:447
+msgid ""
+"The settings of the current module have changed.\n"
+"Do you want to apply the changes or discard them?"
+msgstr ""
+"当前模块的设置已经被修改。\n"
+"您想要应用还是丢弃更改？"
+
+#: ApperKCM/ApperKCM.cpp:449
+msgid "Apply Settings"
+msgstr "应用设置"
+
+#: ApperKCM/ApperKCM.cpp:536 ApperKCM/CategoryModel.cpp:58
+msgid "Updates"
+msgstr "更新"
+
+#. i18n: ectx: property (text), widget (QPushButton, changesPB)
+#: ApperKCM/ApperKCM.cpp:607 ApperKCM/ApperKCM.ui:127
+msgid "Pending Changes"
+msgstr "待完成修改"
+
+#: ApperKCM/ApperKCM.cpp:692 ApperKCM/CategoryModel.cpp:50
+msgid "Installed Software"
+msgstr "已安装软件"
+
+#: ApperKCM/ApperKCM.cpp:704
+msgid "Could not find an application that matched this category"
+msgstr "无法在此分类中找到任何程序"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ApperKCM)
+#: ApperKCM/ApperKCM.ui:20
+msgid "Add and Remove Software"
+msgstr "添加和删除软件"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, searchKLE)
+#: ApperKCM/ApperKCM.ui:58
+msgid "Search packages"
+msgstr "搜索软件包"
+
+#. i18n: ectx: property (text), widget (QPushButton, checkUpdatesPB)
+#: ApperKCM/ApperKCM.ui:161
+msgid "Check for new Updates"
+msgstr "检查更新"
+
+#. i18n: ectx: property (text), widget (QPushButton, generalSettingsPB)
+#: ApperKCM/ApperKCM.ui:195
+msgid "General Settings"
+msgstr "常规设置"
+
+#. i18n: ectx: property (text), widget (QPushButton, repoSettingsPB)
+#: ApperKCM/ApperKCM.ui:214
+msgid "Software Origins"
+msgstr "软件来源"
+
+#. i18n: ectx: property (text), widget (QToolButton, backTB)
+#: ApperKCM/ApperKCM.ui:267 AppSetup/SetupWizard.cpp:152
+msgid "Back"
+msgstr "后退"
+
+#: ApperKCM/BrowseView.cpp:90 ApperKCM/Updater/Updater.cpp:104
+msgid "Show Versions"
+msgstr "显示版本"
+
+#: ApperKCM/BrowseView.cpp:97 ApperKCM/Updater/Updater.cpp:118
+msgid "Show Architectures"
+msgstr "显示构架"
+
+#: ApperKCM/BrowseView.cpp:104 ApperKCM/Updater/Updater.cpp:125
+msgid "Show Origins"
+msgstr "显示来源"
+
+#: ApperKCM/BrowseView.cpp:111 ApperKCM/Updater/Updater.cpp:132
+msgid "Show Sizes"
+msgstr "显示大小"
+
+#. i18n: ectx: property (text), widget (QPushButton, exportInstalledPB)
+#: ApperKCM/BrowseView.ui:140
+msgid "Export Installed Package List..."
+msgstr "导出安装的软件包列表..."
+
+#. i18n: ectx: property (text), widget (QPushButton, importInstalledPB)
+#: ApperKCM/BrowseView.ui:150
+msgid "Install Packages from List..."
+msgstr "从列表安装软件包..."
+
+#: ApperKCM/CategoryModel.cpp:53 ApperKCM/CategoryModel.cpp:61
+msgid "Lists"
+msgstr "列表"
+
+#: ApperKCM/CategoryModel.cpp:161 ApperKCM/CategoryModel.cpp:359
+msgid "Categories"
+msgstr "类别"
+
+#: ApperKCM/CategoryModel.cpp:218
+msgid "Groups"
+msgstr "分组"
+
+#: ApperKCM/FiltersMenu.cpp:37
+msgid "Collections"
+msgstr "集合"
+
+#: ApperKCM/FiltersMenu.cpp:44
+msgid "Only collections"
+msgstr "仅集合"
+
+#: ApperKCM/FiltersMenu.cpp:51
+msgid "Exclude collections"
+msgstr "排除集合"
+
+#: ApperKCM/FiltersMenu.cpp:67
+msgid "Only installed"
+msgstr "仅安装的"
+
+#: ApperKCM/FiltersMenu.cpp:74
+msgid "Only available"
+msgstr "仅可用的"
+
+#: ApperKCM/FiltersMenu.cpp:81 ApperKCM/FiltersMenu.cpp:111
+#: ApperKCM/FiltersMenu.cpp:141 ApperKCM/FiltersMenu.cpp:171
+#: ApperKCM/FiltersMenu.cpp:202 ApperKCM/FiltersMenu.cpp:233
+msgid "No filter"
+msgstr "无过滤"
+
+#: ApperKCM/FiltersMenu.cpp:97
+msgid "Only development"
+msgstr "仅开发"
+
+#: ApperKCM/FiltersMenu.cpp:104
+msgid "Only end user files"
+msgstr "仅最终用户文件"
+
+#: ApperKCM/FiltersMenu.cpp:120
+msgid "Graphical"
+msgstr "图像的"
+
+#: ApperKCM/FiltersMenu.cpp:127
+msgid "Only graphical"
+msgstr "仅图像的"
+
+#: ApperKCM/FiltersMenu.cpp:134
+msgid "Only text"
+msgstr "仅文本"
+
+#: ApperKCM/FiltersMenu.cpp:150
+msgctxt "Filter for free packages"
+msgid "Free"
+msgstr "自由软件"
+
+#: ApperKCM/FiltersMenu.cpp:157
+msgid "Only free software"
+msgstr "仅自由软件"
+
+#: ApperKCM/FiltersMenu.cpp:164
+msgid "Only non-free software"
+msgstr "仅非自由软件"
+
+#: ApperKCM/FiltersMenu.cpp:181
+msgctxt "Filter for supported packages"
+msgid "Supported"
+msgstr "受支持"
+
+#: ApperKCM/FiltersMenu.cpp:188
+msgid "Only supported software"
+msgstr "仅支持的软件"
+
+#: ApperKCM/FiltersMenu.cpp:195
+msgid "Only non-supported software"
+msgstr "仅非支持的软件"
+
+#: ApperKCM/FiltersMenu.cpp:212
+msgctxt "Filter for source packages"
+msgid "Source"
+msgstr "源码"
+
+#: ApperKCM/FiltersMenu.cpp:219
+msgid "Only sourcecode"
+msgstr "仅源码"
+
+#: ApperKCM/FiltersMenu.cpp:226
+msgid "Only non-sourcecode"
+msgstr "仅非源码"
+
+#: ApperKCM/FiltersMenu.cpp:248
+msgid "Hide Subpackages"
+msgstr "隐藏子软件包"
+
+#: ApperKCM/FiltersMenu.cpp:250
+msgid "Only show one package, not subpackages"
+msgstr "仅显示一个软件包，无子软件包"
+
+#: ApperKCM/FiltersMenu.cpp:257
+msgid "Only Newest Packages"
+msgstr "仅最新的软件"
+
+#: ApperKCM/FiltersMenu.cpp:262
+msgid "Only show the newest available package"
+msgstr "仅显示最新的可用软件包"
+
+#: ApperKCM/FiltersMenu.cpp:269
+msgid "Only Native Packages"
+msgstr "仅原生软件"
+
+#: ApperKCM/FiltersMenu.cpp:274
+msgid "Only show packages matching the machine architecture"
+msgstr "仅显示与机器架构匹配的软件包"
+
+#: ApperKCM/FiltersMenu.cpp:283
+msgid "Only Show Applications"
+msgstr "仅显示应用程序"
+
+#: ApperKCM/FiltersMenu.cpp:286
+msgid "Hide packages that are not applications"
+msgstr "隐藏不是应用程序的软件包"
+
+#: ApperKCM/PackageDetails.cpp:86
+msgid "Display"
+msgstr "显示"
+
+#: ApperKCM/PackageDetails.cpp:93 AppSetup/SetupWizard.cpp:259
+msgid "Description"
+msgstr "描述"
+
+#: ApperKCM/PackageDetails.cpp:101
+msgid "Depends On"
+msgstr "依赖"
+
+#: ApperKCM/PackageDetails.cpp:130
+msgid "Required By"
+msgstr "引入方"
+
+#: ApperKCM/PackageDetails.cpp:159
+msgid "File List"
+msgstr "文件列表"
+
+#: ApperKCM/PackageDetails.cpp:509
+msgid "No files were found."
+msgstr "未找到文件。"
+
+#: ApperKCM/PackageDetails.cpp:557
+msgid "Could not fetch software details"
+msgstr "无法获取软件详情"
+
+#: ApperKCM/PackageDetails.cpp:599
+msgid "Applications"
+msgstr "应用程序"
+
+#. i18n: ectx: property (text), widget (QLabel, licenseL)
+#: ApperKCM/PackageDetails.ui:146
+msgid "License:"
+msgstr "许可协议："
+
+#. i18n: ectx: property (text), widget (QToolButton, hideTB)
+#: ApperKCM/PackageDetails.ui:359 ApperKCM/Updater/UpdateDetails.ui:20
+msgid "Hide"
+msgstr "隐藏"
+
+#: ApperKCM/ScreenShotViewer.cpp:90
+msgid "Could not find screen shot."
+msgstr "无法找到屏幕截图。"
+
+#: ApperKCM/Settings/OriginModel.cpp:36
+msgid "Origin of Packages"
+msgstr "软件包来源"
+
+#: ApperKCM/Settings/Settings.cpp:56
+msgid "A repository was changed, it's highly recommended to refresh the cache"
+msgstr ""
+
+#: ApperKCM/Settings/Settings.cpp:88
+#, fuzzy
+#| msgctxt "Never refresh package cache"
+#| msgid "Never"
+msgctxt "Inform about distribution upgrades"
+msgid "Never"
+msgstr "从不"
+
+#: ApperKCM/Settings/Settings.cpp:91
+#, fuzzy
+#| msgid "Only installed"
+msgctxt "Inform about distribution upgrades"
+msgid "Only stable"
+msgstr "仅安装的"
+
+#: ApperKCM/Settings/Settings.cpp:96
+#, fuzzy
+#| msgid "Only development"
+msgctxt "Inform about distribution upgrades"
+msgid "Stable and development"
+msgstr "仅开发"
+
+#: ApperKCM/Settings/Settings.cpp:100
+msgctxt "Hourly refresh the package cache"
+msgid "Hourly"
+msgstr "每小时"
+
+#: ApperKCM/Settings/Settings.cpp:101
+msgctxt "Daily refresh the package cache"
+msgid "Daily"
+msgstr "每天"
+
+#: ApperKCM/Settings/Settings.cpp:102
+msgctxt "Weekly refresh the package cache"
+msgid "Weekly"
+msgstr "每周"
+
+#: ApperKCM/Settings/Settings.cpp:103
+msgctxt "Monthly refresh the package cache"
+msgid "Monthly"
+msgstr "每月"
+
+#: ApperKCM/Settings/Settings.cpp:104
+msgctxt "Never refresh package cache"
+msgid "Never"
+msgstr "从不"
+
+#: ApperKCM/Settings/Settings.cpp:106
+msgctxt "No updates will be automatically installed"
+msgid "None"
+msgstr "无"
+
+#: ApperKCM/Settings/Settings.cpp:107
+#, fuzzy
+#| msgid "Downloading"
+msgid "Download only"
+msgstr "正在下载"
+
+#: ApperKCM/Settings/Settings.cpp:108
+msgid "Security only"
+msgstr "仅安全"
+
+#: ApperKCM/Settings/Settings.cpp:109
+msgid "All updates"
+msgstr "全部更新"
+
+#. i18n: ectx: property (text), widget (QLabel, intervalL)
+#: ApperKCM/Settings/Settings.ui:53
+#, fuzzy
+#| msgid "Check for new updates"
+msgid "Check for new updates:"
+msgstr "检查更新"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkUpdatesMobileCB)
+#. i18n: ectx: property (text), widget (QCheckBox, installUpdatesMobileCB)
+#: ApperKCM/Settings/Settings.ui:94 ApperKCM/Settings/Settings.ui:162
+msgid "when on a mobile broadband network connection"
+msgstr "位于移动网络连接时"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkUpdatesBatteryCB)
+#. i18n: ectx: property (text), widget (QCheckBox, installUpdatesBatteryCB)
+#: ApperKCM/Settings/Settings.ui:101 ApperKCM/Settings/Settings.ui:155
+msgid "when running on battery"
+msgstr "使用电池时"
+
+#. i18n: ectx: property (text), widget (QLabel, autoInsL)
+#: ApperKCM/Settings/Settings.ui:120
+#, fuzzy
+#| msgid "Automatically install:"
+msgid "Automatically update:"
+msgstr "自动安装："
+
+#. i18n: ectx: property (text), widget (QCheckBox, appLauncherCB)
+#: ApperKCM/Settings/Settings.ui:178
+msgid "Show application launcher after installing new applications"
+msgstr "安装新应用后显示程序启动器"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoConfirmCB)
+#: ApperKCM/Settings/Settings.ui:185
+msgid "Show confirmation dialog when installing or updating packages"
+msgstr "安装或更新软件包前显示确认对话框"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ApperKCM/Settings/Settings.ui:192
+#, fuzzy
+#| msgctxt "The role of the transaction, in past tense"
+#| msgid "Got distribution upgrades"
+msgid "Check for distribution upgrades:"
+msgstr "已获取发行版升级"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showOriginsCB)
+#: ApperKCM/Settings/Settings.ui:233
+msgid "&Show origins of debug and development packages"
+msgstr "显示调试和开发软件包根源(&S)"
+
+#. i18n: ectx: property (text), widget (QPushButton, editOriginsPB)
+#: ApperKCM/Settings/Settings.ui:253
+msgid "Edit Origins"
+msgstr "编辑来源"
+
+#: ApperKCM/TransactionHistory.cpp:66
+msgid "Refresh transactions list"
+msgstr "刷新变更交易列表"
+
+#: ApperKCM/TransactionHistory.cpp:87
+#, kde-format
+msgid "Time since last cache refresh: %1"
+msgstr "自上次缓存刷新时间：%1"
+
+#: ApperKCM/TransactionModel.cpp:46
+msgid "Date"
+msgstr "日期"
+
+#: ApperKCM/TransactionModel.cpp:47 libapper/PackageModel.cpp:224
+msgid "Action"
+msgstr "动作"
+
+#: ApperKCM/TransactionModel.cpp:49
+msgctxt "Machine user who issued the transaction"
+msgid "Username"
+msgstr "用户名"
+
+#: ApperKCM/TransactionModel.cpp:50
+msgid "Application"
+msgstr "应用程序"
+
+#: ApperKCM/Updater/DistroUpgrade.cpp:40
+#, fuzzy
+#| msgid "Upgrade to %1"
+msgid "Upgrade"
+msgstr "升级到 %1"
+
+#: ApperKCM/Updater/DistroUpgrade.cpp:51
+#, fuzzy, kde-format
+#| msgid "Distribution upgrade available"
+msgid "Distribution upgrade available: %1"
+msgstr "发行版升级可用"
+
+#: ApperKCM/Updater/DistroUpgrade.cpp:65
+msgid ""
+"You are about to upgrade your distribution to the latest version. This is "
+"usually a very lengthy process and takes a lot longer than simply upgrading "
+"your packages."
+msgstr ""
+"您即将升级您的发行版至最新版本。这通常是个漫长的过程，比简单升级您的软件包长"
+"很多。"
+
+#: ApperKCM/Updater/DistroUpgrade.cpp:70
+msgid "It is recommended to plug in your computer before proceeding."
+msgstr ""
+
+#: ApperKCM/Updater/DistroUpgrade.cpp:72
+msgid ""
+"It is recommended that you keep your computer plugged in while the upgrade "
+"is being performed."
+msgstr ""
+
+#: ApperKCM/Updater/DistroUpgrade.cpp:91
+msgid "Distribution upgrade complete."
+msgstr "发行版升级完成。"
+
+#: ApperKCM/Updater/UpdateDetails.cpp:191
+msgid "This update will add new features and expand functionality."
+msgstr "此更新将添加新功能。"
+
+#: ApperKCM/Updater/UpdateDetails.cpp:195
+msgid "This update will fix bugs and other non-critical problems."
+msgstr "此更新将修复缺陷和其它非关键文件。"
+
+#: ApperKCM/Updater/UpdateDetails.cpp:199
+msgid "This update is important as it may solve critical problems."
+msgstr ""
+
+#: ApperKCM/Updater/UpdateDetails.cpp:203
+msgid ""
+"This update is needed to fix a security vulnerability with this package."
+msgstr ""
+
+#: ApperKCM/Updater/UpdateDetails.cpp:207
+msgid "This update is blocked."
+msgstr ""
+
+#: ApperKCM/Updater/UpdateDetails.cpp:214
+#, kde-format
+msgid "This notification was issued on %1 and last updated on %2."
+msgstr ""
+
+#: ApperKCM/Updater/UpdateDetails.cpp:220
+#, kde-format
+msgid "This notification was issued on %1."
+msgstr ""
+
+#: ApperKCM/Updater/UpdateDetails.cpp:239
+msgid "For more information about this update please visit this website:"
+msgid_plural ""
+"For more information about this update please visit these websites:"
+msgstr[0] ""
+
+#: ApperKCM/Updater/UpdateDetails.cpp:249
+msgid ""
+"For more information about bugs fixed by this update please visit this "
+"website:"
+msgid_plural ""
+"For more information about bugs fixed by this update please visit these "
+"websites:"
+msgstr[0] ""
+
+#: ApperKCM/Updater/UpdateDetails.cpp:259
+msgid ""
+"For more information about this security update please visit this website:"
+msgid_plural ""
+"For more information about this security update please visit these websites:"
+msgstr[0] ""
+
+#: ApperKCM/Updater/UpdateDetails.cpp:269
+msgid ""
+"The computer will have to be restarted after the update for the changes to "
+"take effect."
+msgstr ""
+
+#: ApperKCM/Updater/UpdateDetails.cpp:273
+msgid ""
+"You will need to log out and back in after the update for the changes to "
+"take effect."
+msgstr "注销并再次登录后修改才会生效。"
+
+#: ApperKCM/Updater/UpdateDetails.cpp:280
+msgid ""
+"The classification of this update is unstable which means it is not designed "
+"for production use."
+msgstr ""
+
+#: ApperKCM/Updater/UpdateDetails.cpp:284
+msgid ""
+"This is a test update, and is not designed for normal use. Please report any "
+"problems or regressions you encounter."
+msgstr ""
+
+#: ApperKCM/Updater/UpdateDetails.cpp:294
+msgid ""
+"The developer logs will be shown as no description is available for this "
+"update:"
+msgstr "更新无可用描述，将使用开发者的日志。"
+
+#: ApperKCM/Updater/UpdateDetails.cpp:302
+msgid "Updates:"
+msgstr "更新："
+
+#: ApperKCM/Updater/UpdateDetails.cpp:312
+msgid "Obsoletes:"
+msgstr "废弃："
+
+#: ApperKCM/Updater/UpdateDetails.cpp:322
+#, kde-format
+msgid "Repository: %1"
+msgstr "仓库：%1"
+
+#: ApperKCM/Updater/UpdateDetails.cpp:344
+msgid "No update description was found."
+msgstr "未找到更新描述。"
+
+#: ApperKCM/Updater/Updater.cpp:111
+msgid "Show Current Versions"
+msgstr "显示当前版本"
+
+#: ApperKCM/Updater/Updater.cpp:239
+#, kde-format
+msgid "Estimated download size: %1"
+msgstr "预估下载大小：%1"
+
+#: ApperKCM/Updater/Updater.cpp:358
+msgid "Check for new updates"
+msgstr "检查更新"
+
+#. i18n: ectx: property (text), widget (QRadioButton, acceptedRB)
+#: AppSetup/LicensePage.ui:98
+msgid "I agree to the above terms and conditions"
+msgstr "我同意上述条款"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rejectedRB)
+#: AppSetup/LicensePage.ui:111
+msgid "I don't agree"
+msgstr "我不同意"
+
+#: AppSetup/main.cpp:34 AppSetup/main.cpp:35
+msgid "KDE Application Installer"
+msgstr "KDE 应用安装程序"
+
+#: AppSetup/main.cpp:36
+msgid "(C) 2012, Matthias Klumpp"
+msgstr "(C) 2012, Matthias Klumpp"
+
+#: AppSetup/main.cpp:38
+msgctxt "@info:credit"
+msgid "Daniel Nicoletti"
+msgstr "Daniel Nicoletti"
+
+#: AppSetup/main.cpp:38 AppSetup/main.cpp:40
+msgid "Developer"
+msgstr "开发者"
+
+#: AppSetup/main.cpp:40
+msgctxt "@info:credit"
+msgid "Matthias Klumpp"
+msgstr "Matthias Klumpp"
+
+#: AppSetup/main.cpp:47
+msgid "Show verbose information"
+msgstr "显示详细信息"
+
+#: AppSetup/main.cpp:48
+msgid "IPK package filename"
+msgstr "IPK 软件包文件名"
+
+#: AppSetup/main.cpp:72
+msgid "Sorry, we didn't get an existing IPK package as parameter."
+msgstr ""
+
+#: AppSetup/main.cpp:73
+msgid "Package not found!"
+msgstr "软件包未找到！"
+
+#: AppSetup/SetupWizard.cpp:87
+msgid "Installation finished!"
+msgstr "安装完成！"
+
+#: AppSetup/SetupWizard.cpp:88
+#, kde-format
+msgid "%1 has been installed successfully!"
+msgstr "成功安装 %1！"
+
+#: AppSetup/SetupWizard.cpp:102 libapper/PkTransaction.cpp:143
+#: libapper/PkTransaction.cpp:161 libapper/PkTransaction.cpp:180
+#: libapper/PkTransaction.cpp:203
+msgid "Error"
+msgstr "错误"
+
+#: AppSetup/SetupWizard.cpp:103 AppSetup/SetupWizard.cpp:117
+msgid "An error occurred"
+msgstr "发生了一个错误"
+
+#: AppSetup/SetupWizard.cpp:150 libapper/Requirements.cpp:59
+#: PkSession/SessionTask.cpp:71
+msgid "Continue"
+msgstr "继续"
+
+#: AppSetup/SetupWizard.cpp:190
+msgid "Welcome!"
+msgstr "欢迎！"
+
+#: AppSetup/SetupWizard.cpp:191
+#, kde-format
+msgid "Welcome to the installation of %1!"
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:192
+msgid ""
+"Please be careful while installing 3rd-party applications.<br>They may "
+"eventually <b>damage</b> your system or have <b>malicious behaviour</b>, "
+"like spying out your passwords.<br>Please do only install this software if "
+"you <b>trust the publisher and the author</b> of it."
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:203
+msgid "Details about this installation"
+msgstr "此次安装的详情"
+
+#: AppSetup/SetupWizard.cpp:240
+msgid "Install for all users"
+msgstr "为所有用户安装"
+
+#: AppSetup/SetupWizard.cpp:258
+msgid "Application description"
+msgstr "应用程序描述"
+
+#: AppSetup/SetupWizard.cpp:270
+msgid "Software license"
+msgstr "显示许可协议"
+
+#: AppSetup/SetupWizard.cpp:271
+msgid "Please read the following terms and conditions carefully!"
+msgstr "请仔细阅读以下内容和条件。"
+
+#: AppSetup/SetupWizard.cpp:280
+msgid "Running installation"
+msgstr "正在执行安装"
+
+#: AppSetup/SetupWizard.cpp:281
+#, kde-format
+msgid "Installing %1..."
+msgstr "正在安装 %1..."
+
+#: AppSetup/SetupWizard.cpp:316
+msgid ""
+"Installing this package will make the following native packages obsolete. "
+"You might consider removing them manually."
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:317
+#, fuzzy
+#| msgid "Simulate Update Packages"
+msgid "Similar native packages found"
+msgstr "模拟更新软件包"
+
+#: AppSetup/SetupWizard.cpp:417
+msgid ""
+"You want to install this application as root!\n"
+"This can damage your system or install malicious software for all users.\n"
+"Please only proceed, if you really know what you're doing!\n"
+"Continue?"
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:420
+msgid "Really install as superuser?"
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:438
+#, kde-format
+msgid "This package has the following security level: <b>%1</b>"
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:440
+#, kde-format
+msgid "It was signed with a key belonging to these user-ids: %1"
+msgstr ""
+
+#: AppSetup/SetupWizard.cpp:444
+msgid "Security hints"
+msgstr "安全提示"
+
+#: libapper/ApplicationLauncher.cpp:96
+#, fuzzy
+#| msgid "No network connection available"
+msgid "New application available"
+msgid_plural "New applications available"
+msgstr[0] "无可用的网络连接"
+
+#: libapper/ApplicationLauncher.cpp:99
+msgid "The following application was just installed. Click on it to launch:"
+msgid_plural ""
+"The following applications were just installed. Click on them to launch:"
+msgstr[0] "下列软件包刚刚完成安装。点击它们可以启动程序："
+
+#. i18n: ectx: property (text), widget (QCheckBox, showCB)
+#: libapper/ApplicationLauncher.ui:72
+msgid "Do not show this dialog again"
+msgstr "不再显示此对话框"
+
+#: libapper/ApplicationsDelegate.cpp:42
+msgid "Remove"
+msgstr "删除"
+
+#: libapper/ApplicationsDelegate.cpp:44 libapper/ChangesDelegate.cpp:51
+msgid "Deselect"
+msgstr "取消选择"
+
+#: libapper/ChangesDelegate.cpp:47
+msgid "Do not Install"
+msgstr "不安装"
+
+#: libapper/ChangesDelegate.cpp:49
+msgid "Do not Remove"
+msgstr "不删除"
+
+#: libapper/CustomProgressBar.cpp:38
+#, kde-format
+msgid "%1 remaining"
+msgstr "剩余 %1"
+
+#: libapper/LicenseAgreement.cpp:40
+msgid "Accept Agreement"
+msgstr "接受协议"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, LicenseAgreement)
+#: libapper/LicenseAgreement.cpp:41 libapper/LicenseAgreement.ui:14
+msgid "License Agreement Required"
+msgstr "需要同意许可证协议"
+
+#: libapper/LicenseAgreement.cpp:42
+#, kde-format
+msgid "License required for %1 by %2"
+msgstr "%1 需要 %2 的许可证"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libapper/LicenseAgreement.ui:40
+msgid "Please read the following important information before continuing:"
+msgstr "在继续前请阅读以下重要信息："
+
+#: libapper/PackageModel.cpp:205
+msgid "Name"
+msgstr "名称"
+
+#: libapper/PackageModel.cpp:209
+msgid "Version"
+msgstr "版本"
+
+#: libapper/PackageModel.cpp:212
+msgid "Installed Version"
+msgstr "安装的版本"
+
+#: libapper/PackageModel.cpp:215
+msgid "Arch"
+msgstr "架构"
+
+#: libapper/PackageModel.cpp:218
+msgid "Origin"
+msgstr "来源"
+
+#: libapper/PackageModel.cpp:221
+msgid "Size"
+msgstr "大小"
+
+#: libapper/PackageModel.cpp:319
+#, kde-format
+msgid ""
+"Version: %1\n"
+"Architecture: %2"
+msgstr ""
+"版本：%1\n"
+"架构：%2"
+
+#: libapper/PackageModel.cpp:365
+msgid "To be Removed"
+msgstr "已删除"
+
+#: libapper/PackageModel.cpp:367
+msgid "To be Installed"
+msgstr "将被安装"
+
+#: libapper/PkStrings.cpp:36
+msgctxt "This is when the transaction status is not known"
+msgid "Unknown state"
+msgstr "未知状态"
+
+#: libapper/PkStrings.cpp:39
+msgctxt "transaction state, the daemon is in the process of starting"
+msgid "Waiting for service to start"
+msgstr "正在等待服务启动"
+
+#: libapper/PkStrings.cpp:42
+msgctxt "transaction state, the transaction is waiting for another to complete"
+msgid "Waiting for other tasks"
+msgstr "正在等待其它任务"
+
+#: libapper/PkStrings.cpp:45
+msgctxt "transaction state, just started"
+msgid "Running task"
+msgstr "正在运行任务"
+
+#: libapper/PkStrings.cpp:48
+msgctxt "transaction state, is querying data"
+msgid "Querying"
+msgstr "正在查询"
+
+#: libapper/PkStrings.cpp:51
+msgctxt "transaction state, getting data from a server"
+msgid "Getting information"
+msgstr "正在获取信息"
+
+#: libapper/PkStrings.cpp:54
+msgctxt "transaction state, removing packages"
+msgid "Removing packages"
+msgstr "正在删除软件包"
+
+#: libapper/PkStrings.cpp:58
+#, kde-format
+msgctxt "transaction state, downloading package files"
+msgid "Downloading at %1/s, %2 remaining"
+msgstr "下载速度 %1/s, 还剩余 %2"
+
+#: libapper/PkStrings.cpp:63
+#, kde-format
+msgctxt "transaction state, downloading package files"
+msgid "Downloading at %1/s"
+msgstr "下载速度 %1/s"
+
+#: libapper/PkStrings.cpp:67
+#, kde-format
+msgctxt "transaction state, downloading package files"
+msgid "Downloading, %1 remaining"
+msgstr "正在下载, 还剩余 %1 "
+
+#: libapper/PkStrings.cpp:71
+msgctxt "transaction state, downloading package files"
+msgid "Downloading"
+msgstr "正在下载"
+
+#: libapper/PkStrings.cpp:75
+msgctxt "transaction state, installing packages"
+msgid "Installing packages"
+msgstr "正在安装软件包"
+
+#: libapper/PkStrings.cpp:78
+msgctxt "transaction state, refreshing internal lists"
+msgid "Refreshing software list"
+msgstr "正在刷新软件列表"
+
+#: libapper/PkStrings.cpp:81
+msgctxt "transaction state, installing updates"
+msgid "Updating packages"
+msgstr "正在更新软件包"
+
+#: libapper/PkStrings.cpp:84
+msgctxt "transaction state, removing old packages, and cleaning config files"
+msgid "Cleaning up packages"
+msgstr "正在清理软件包"
+
+#: libapper/PkStrings.cpp:87
+msgctxt "transaction state, obsoleting old packages"
+msgid "Obsoleting packages"
+msgstr "正在弃用软件包"
+
+#: libapper/PkStrings.cpp:90
+msgctxt "transaction state, checking the transaction before we do it"
+msgid "Resolving dependencies"
+msgstr "正在解析依赖关系"
+
+#: libapper/PkStrings.cpp:93
+msgctxt ""
+"transaction state, checking if we have all the security keys for the "
+"operation"
+msgid "Checking signatures"
+msgstr "正在检查签名"
+
+#: libapper/PkStrings.cpp:96
+msgctxt "transaction state, when we're doing a test transaction"
+msgid "Testing changes"
+msgstr "正在测试更改"
+
+#: libapper/PkStrings.cpp:99
+msgctxt "transaction state, when we're writing to the system package database"
+msgid "Committing changes"
+msgstr "正在提交更改"
+
+#: libapper/PkStrings.cpp:102
+msgctxt "transaction state, requesting data from a server"
+msgid "Requesting data"
+msgstr "正在请求数据"
+
+#: libapper/PkStrings.cpp:105
+msgctxt "transaction state, all done!"
+msgid "Finished"
+msgstr "已完成"
+
+#: libapper/PkStrings.cpp:108
+msgctxt "transaction state, in the process of cancelling"
+msgid "Cancelling"
+msgstr "正在取消"
+
+#: libapper/PkStrings.cpp:111
+msgctxt "transaction state, downloading metadata"
+msgid "Downloading repository information"
+msgstr "正在下载仓库信息"
+
+#: libapper/PkStrings.cpp:114
+msgctxt "transaction state, downloading metadata"
+msgid "Downloading list of packages"
+msgstr "正在下载软件包列表"
+
+#: libapper/PkStrings.cpp:117
+msgctxt "transaction state, downloading metadata"
+msgid "Downloading file lists"
+msgstr "正在下载文件列表"
+
+#: libapper/PkStrings.cpp:120
+msgctxt "transaction state, downloading metadata"
+msgid "Downloading lists of changes"
+msgstr "正在下载更改列表"
+
+#: libapper/PkStrings.cpp:123
+msgctxt "transaction state, downloading metadata"
+msgid "Downloading groups"
+msgstr "正在下载分组"
+
+#: libapper/PkStrings.cpp:126
+msgctxt "transaction state, downloading metadata"
+msgid "Downloading update information"
+msgstr "正在下载更新信息"
+
+#: libapper/PkStrings.cpp:129
+msgctxt "transaction state, repackaging delta files"
+msgid "Repackaging files"
+msgstr "正在重新打包文件"
+
+#: libapper/PkStrings.cpp:132
+msgctxt "transaction state, loading databases"
+msgid "Loading cache"
+msgstr "正在装入缓存"
+
+#: libapper/PkStrings.cpp:135
+msgctxt "transaction state, scanning for running processes"
+msgid "Scanning installed applications"
+msgstr "正在扫描已安装的程序"
+
+#: libapper/PkStrings.cpp:138
+msgctxt ""
+"transaction state, generating a list of packages installed on the system"
+msgid "Generating package lists"
+msgstr "正在生成软件包列表"
+
+#: libapper/PkStrings.cpp:141
+msgctxt "transaction state, when we're waiting for the native tools to exit"
+msgid "Waiting for package manager lock"
+msgstr "正在等候软件包管理器锁定"
+
+#: libapper/PkStrings.cpp:144
+msgctxt "waiting for user to type in a password"
+msgid "Waiting for authentication"
+msgstr "正在等待其它任务"
+
+#: libapper/PkStrings.cpp:147
+msgctxt "we are updating the list of processes"
+msgid "Updating the list of running applications"
+msgstr "正在更新运行程序的列表"
+
+#: libapper/PkStrings.cpp:150
+msgctxt "we are checking executable files in use"
+msgid "Checking for applications currently in use"
+msgstr "正在检查正在使用的程序"
+
+#: libapper/PkStrings.cpp:153
+msgctxt "we are checking for libraries in use"
+msgid "Checking for libraries currently in use"
+msgstr "正在检查正在使用的库"
+
+#: libapper/PkStrings.cpp:156
+msgctxt "we are copying package files to prepare to install"
+msgid "Copying files"
+msgstr "正在复制文件"
+
+#: libapper/PkStrings.cpp:166
+msgctxt "The action of the package, in past tense"
+msgid "Downloaded"
+msgstr "已下载"
+
+#: libapper/PkStrings.cpp:168
+msgctxt "The action of the package, in past tense"
+msgid "Updated"
+msgstr "已更新"
+
+#: libapper/PkStrings.cpp:170
+msgctxt "The action of the package, in past tense"
+msgid "Installed"
+msgstr "已安装"
+
+#: libapper/PkStrings.cpp:172
+msgctxt "The action of the package, in past tense"
+msgid "Removed"
+msgstr "已删除"
+
+#: libapper/PkStrings.cpp:174
+msgctxt "The action of the package, in past tense"
+msgid "Cleaned Up"
+msgstr "已清理"
+
+#: libapper/PkStrings.cpp:176
+msgctxt "The action of the package, in past tense"
+msgid "Obsoleted"
+msgstr "已废弃"
+
+#: libapper/PkStrings.cpp:188
+msgctxt "The role of the transaction, in present tense"
+msgid "Unknown role type"
+msgstr "未知进度类型"
+
+#: libapper/PkStrings.cpp:190
+msgctxt "The role of the transaction, in present tense"
+msgid "Getting dependencies"
+msgstr "正在获取依赖关系"
+
+#: libapper/PkStrings.cpp:192
+msgctxt "The role of the transaction, in present tense"
+msgid "Getting update detail"
+msgstr "正在获取更新详情"
+
+#: libapper/PkStrings.cpp:194
+msgctxt "The role of the transaction, in present tense"
+msgid "Getting details"
+msgstr "正在获取详情"
+
+#: libapper/PkStrings.cpp:196
+msgctxt "The role of the transaction, in present tense"
+msgid "Getting requires"
+msgstr "正在获取所需"
+
+#: libapper/PkStrings.cpp:198
+msgctxt "The role of the transaction, in present tense"
+msgid "Getting updates"
+msgstr "正在获取更新"
+
+#: libapper/PkStrings.cpp:200
+msgctxt "The role of the transaction, in present tense"
+msgid "Searching details"
+msgstr "正在搜索详情"
+
+#: libapper/PkStrings.cpp:202
+msgctxt "The role of the transaction, in present tense"
+msgid "Searching for file"
+msgstr "正在搜索文件"
+
+#: libapper/PkStrings.cpp:204
+msgctxt "The role of the transaction, in present tense"
+msgid "Searching groups"
+msgstr "正在搜索分组"
+
+#: libapper/PkStrings.cpp:206
+msgctxt "The role of the transaction, in present tense"
+msgid "Searching by package name"
+msgstr "正在搜索软件包名称"
+
+#: libapper/PkStrings.cpp:209
+#, fuzzy
+#| msgctxt "The role of the transaction, in present tense"
+#| msgid "Simulating the remove"
+msgctxt "The role of the transaction, in present tense"
+msgid "Simulating removal"
+msgstr "正在模拟删除"
+
+#: libapper/PkStrings.cpp:211 libapper/PkStrings.cpp:218
+#: libapper/PkStrings.cpp:258
+msgctxt "The role of the transaction, in present tense"
+msgid "Downloading packages"
+msgstr "正在下载软件包"
+
+#: libapper/PkStrings.cpp:213
+msgctxt "The role of the transaction, in present tense"
+msgid "Removing"
+msgstr "正在删除"
+
+#: libapper/PkStrings.cpp:216
+#, fuzzy
+#| msgctxt "The role of the transaction, in present tense"
+#| msgid "Simulating the install"
+msgctxt "The role of the transaction, in present tense"
+msgid "Simulating install"
+msgstr "正在模拟安装"
+
+#: libapper/PkStrings.cpp:220
+msgctxt "The role of the transaction, in present tense"
+msgid "Installing"
+msgstr "正在安装"
+
+#: libapper/PkStrings.cpp:223
+#, fuzzy
+#| msgctxt "The role of the transaction, in present tense"
+#| msgid "Simulating the install"
+msgctxt "The role of the transaction, in present tense"
+msgid "Simulating file install"
+msgstr "正在模拟安装"
+
+#: libapper/PkStrings.cpp:225
+#, fuzzy
+#| msgctxt "The role of the transaction, in present tense"
+#| msgid "Downloading packages"
+msgctxt "The role of the transaction, in present tense"
+msgid "Downloading required packages"
+msgstr "正在下载软件包"
+
+#: libapper/PkStrings.cpp:227
+msgctxt "The role of the transaction, in present tense"
+msgid "Installing file"
+msgstr "正在安装文件"
+
+#: libapper/PkStrings.cpp:229
+msgctxt "The role of the transaction, in present tense"
+msgid "Refreshing package cache"
+msgstr "正在刷新软件包缓存"
+
+#: libapper/PkStrings.cpp:232
+#, fuzzy
+#| msgctxt "The role of the transaction, in present tense"
+#| msgid "Simulating the update"
+msgctxt "The role of the transaction, in present tense"
+msgid "Simulating update"
+msgstr "正在模拟更新"
+
+#: libapper/PkStrings.cpp:234
+#, fuzzy
+#| msgctxt "The role of the transaction, in present tense"
+#| msgid "Downloading packages"
+msgctxt "The role of the transaction, in present tense"
+msgid "Downloading updates"
+msgstr "正在下载软件包"
+
+#: libapper/PkStrings.cpp:236
+msgctxt "The role of the transaction, in present tense"
+msgid "Updating packages"
+msgstr "正在更新软件包"
+
+#: libapper/PkStrings.cpp:238
+msgctxt "The role of the transaction, in present tense"
+msgid "Canceling"
+msgstr "正在取消"
+
+#: libapper/PkStrings.cpp:240
+msgctxt "The role of the transaction, in present tense"
+msgid "Getting list of repositories"
+msgstr "正在获取仓库列表"
+
+#: libapper/PkStrings.cpp:242
+msgctxt "The role of the transaction, in present tense"
+msgid "Enabling repository"
+msgstr "正在启用仓库"
+
+#: libapper/PkStrings.cpp:244
+msgctxt "The role of the transaction, in present tense"
+msgid "Setting repository data"
+msgstr "正在设置仓库数据"
+
+#: libapper/PkStrings.cpp:246
+msgctxt "The role of the transaction, in present tense"
+msgid "Resolving"
+msgstr "正在解决"
+
+#: libapper/PkStrings.cpp:248
+msgctxt "The role of the transaction, in present tense"
+msgid "Getting file list"
+msgstr "正在获取文件列表"
+
+#: libapper/PkStrings.cpp:250
+msgctxt "The role of the transaction, in present tense"
+msgid "Getting what provides"
+msgstr "正在获取所提供"
+
+#: libapper/PkStrings.cpp:252
+msgctxt "The role of the transaction, in present tense"
+msgid "Installing signature"
+msgstr "正在安装签名"
+
+#: libapper/PkStrings.cpp:254
+msgctxt "The role of the transaction, in present tense"
+msgid "Getting package lists"
+msgstr "正在获取软件包列表"
+
+#: libapper/PkStrings.cpp:256
+msgctxt "The role of the transaction, in present tense"
+msgid "Accepting EULA"
+msgstr "正在接受最终用户许可条例"
+
+#: libapper/PkStrings.cpp:260
+msgctxt "The role of the transaction, in present tense"
+msgid "Getting distribution upgrade information"
+msgstr "正在获取发行版升级信息"
+
+#: libapper/PkStrings.cpp:262
+msgctxt "The role of the transaction, in present tense"
+msgid "Getting categories"
+msgstr "正在获取分类"
+
+#: libapper/PkStrings.cpp:264
+msgctxt "The role of the transaction, in present tense"
+msgid "Getting old transactions"
+msgstr "正在获取旧的变更交易"
+
+#: libapper/PkStrings.cpp:266
+msgctxt "The role of the transaction, in present tense"
+msgid "Upgrading system"
+msgstr "正在更新系统"
+
+#: libapper/PkStrings.cpp:268
+msgctxt "The role of the transaction, in present tense"
+msgid "Repairing system"
+msgstr "正在修复系统"
+
+#: libapper/PkStrings.cpp:278
+msgctxt "The role of the transaction, in past tense"
+msgid "Unknown role type"
+msgstr "未知进度类型"
+
+#: libapper/PkStrings.cpp:280
+msgctxt "The role of the transaction, in past tense"
+msgid "Got dependencies"
+msgstr "已获取依赖关系"
+
+#: libapper/PkStrings.cpp:282
+msgctxt "The role of the transaction, in past tense"
+msgid "Got update detail"
+msgstr "已获取更新详情"
+
+#: libapper/PkStrings.cpp:284
+msgctxt "The role of the transaction, in past tense"
+msgid "Got details"
+msgstr "已获取详情"
+
+#: libapper/PkStrings.cpp:286
+msgctxt "The role of the transaction, in past tense"
+msgid "Got requires"
+msgstr "已获取所需"
+
+#: libapper/PkStrings.cpp:288
+msgctxt "The role of the transaction, in past tense"
+msgid "Got updates"
+msgstr "已获取更新"
+
+#: libapper/PkStrings.cpp:290
+msgctxt "The role of the transaction, in past tense"
+msgid "Searched for package details"
+msgstr "已搜索软件包名称"
+
+#: libapper/PkStrings.cpp:292
+msgctxt "The role of the transaction, in past tense"
+msgid "Searched for file"
+msgstr "已搜索文件"
+
+#: libapper/PkStrings.cpp:294
+msgctxt "The role of the transaction, in past tense"
+msgid "Searched groups"
+msgstr "已搜索分组"
+
+#: libapper/PkStrings.cpp:296
+msgctxt "The role of the transaction, in past tense"
+msgid "Searched for package name"
+msgstr "已搜索软件包名称"
+
+#: libapper/PkStrings.cpp:298
+msgctxt "The role of the transaction, in past tense"
+msgid "Removed packages"
+msgstr "已删除软件包"
+
+#: libapper/PkStrings.cpp:300
+msgctxt "The role of the transaction, in past tense"
+msgid "Installed packages"
+msgstr "已安装软件包"
+
+#: libapper/PkStrings.cpp:302
+msgctxt "The role of the transaction, in past tense"
+msgid "Installed local files"
+msgstr "已安装本地文件"
+
+#: libapper/PkStrings.cpp:304
+msgctxt "The role of the transaction, in past tense"
+msgid "Refreshed package cache"
+msgstr "已刷新软件包缓存"
+
+#: libapper/PkStrings.cpp:306
+msgctxt "The role of the transaction, in past tense"
+msgid "Updated packages"
+msgstr "已更新软件包"
+
+#: libapper/PkStrings.cpp:308
+msgctxt "The role of the transaction, in past tense"
+msgid "Canceled"
+msgstr "已取消"
+
+#: libapper/PkStrings.cpp:310
+msgctxt "The role of the transaction, in past tense"
+msgid "Got list of repositories"
+msgstr "已获取仓库列表"
+
+#: libapper/PkStrings.cpp:312
+msgctxt "The role of the transaction, in past tense"
+msgid "Enabled repository"
+msgstr "已启用仓库"
+
+#: libapper/PkStrings.cpp:314
+msgctxt "The role of the transaction, in past tense"
+msgid "Set repository data"
+msgstr "已设置仓库数据"
+
+#: libapper/PkStrings.cpp:316
+msgctxt "The role of the transaction, in past tense"
+msgid "Resolved"
+msgstr "已解决"
+
+#: libapper/PkStrings.cpp:318
+msgctxt "The role of the transaction, in past tense"
+msgid "Got file list"
+msgstr "已获取文件列表"
+
+#: libapper/PkStrings.cpp:320
+msgctxt "The role of the transaction, in past tense"
+msgid "Got what provides"
+msgstr "已获取所提供"
+
+#: libapper/PkStrings.cpp:322
+msgctxt "The role of the transaction, in past tense"
+msgid "Installed signature"
+msgstr "已安装签名"
+
+#: libapper/PkStrings.cpp:324
+msgctxt "The role of the transaction, in past tense"
+msgid "Got package lists"
+msgstr "已获取软件包列表"
+
+#: libapper/PkStrings.cpp:326
+msgctxt "The role of the transaction, in past tense"
+msgid "Accepted EULA"
+msgstr "已接受最终用户许可条例"
+
+#: libapper/PkStrings.cpp:328
+msgctxt "The role of the transaction, in past tense"
+msgid "Downloaded packages"
+msgstr "已下载软件包"
+
+#: libapper/PkStrings.cpp:330
+msgctxt "The role of the transaction, in past tense"
+msgid "Got distribution upgrades"
+msgstr "已获取发行版升级"
+
+#: libapper/PkStrings.cpp:332
+msgctxt "The role of the transaction, in past tense"
+msgid "Got categories"
+msgstr "已获取分类"
+
+#: libapper/PkStrings.cpp:334
+msgctxt "The role of the transaction, in past tense"
+msgid "Got old transactions"
+msgstr "已获取旧的变更交易"
+
+#: libapper/PkStrings.cpp:336
+msgctxt "The role of the transaction, in past tense"
+msgid "Upgraded system"
+msgstr "已更新系统"
+
+#: libapper/PkStrings.cpp:338
+msgctxt "The role of the transaction, in past tense"
+msgid "Repaired system"
+msgstr "已修复系统"
+
+#: libapper/PkStrings.cpp:348
+msgid "Downloading"
+msgstr "正在下载"
+
+#: libapper/PkStrings.cpp:350
+msgid "Updating"
+msgstr "正在更新"
+
+#: libapper/PkStrings.cpp:352
+msgid "Installing"
+msgstr "正在安装"
+
+#: libapper/PkStrings.cpp:354
+msgid "Removing"
+msgstr "正在删除"
+
+#: libapper/PkStrings.cpp:356
+msgid "Cleaning up"
+msgstr "正在清理"
+
+#: libapper/PkStrings.cpp:358
+msgid "Obsoleting"
+msgstr "正在弃用"
+
+#: libapper/PkStrings.cpp:360
+msgid "Reinstalling"
+msgstr "重新安装"
+
+#: libapper/PkStrings.cpp:362
+msgid "Preparing"
+msgstr "正准备"
+
+#: libapper/PkStrings.cpp:364
+msgid "Decompressing"
+msgstr "正在解压缩"
+
+#: libapper/PkStrings.cpp:375
+msgid "Downloaded"
+msgstr "已下载"
+
+#: libapper/PkStrings.cpp:377
+msgid "Updated"
+msgstr "已更新"
+
+#: libapper/PkStrings.cpp:381
+msgid "Removed"
+msgstr "已删除"
+
+#: libapper/PkStrings.cpp:383
+msgid "Cleaned up"
+msgstr "已清理"
+
+#: libapper/PkStrings.cpp:385
+msgid "Obsoleted"
+msgstr "已废弃"
+
+#: libapper/PkStrings.cpp:387
+msgid "Reinstalled"
+msgstr "重新安装"
+
+#: libapper/PkStrings.cpp:389
+msgid "Prepared"
+msgstr "已经准备好"
+
+#: libapper/PkStrings.cpp:391
+msgid "Decompressed"
+msgstr "完成解压缩"
+
+#: libapper/PkStrings.cpp:402
+msgid "No network connection available"
+msgstr "无可用的网络连接"
+
+#: libapper/PkStrings.cpp:404
+msgid "No package cache is available"
+msgstr "无软件包缓存可用"
+
+#: libapper/PkStrings.cpp:406
+msgid "Out of memory"
+msgstr "内存耗尽"
+
+#: libapper/PkStrings.cpp:408
+msgid "Failed to create a thread"
+msgstr "创建线程失败"
+
+#: libapper/PkStrings.cpp:410
+msgid "Not supported by this backend"
+msgstr "此后端不支持"
+
+#: libapper/PkStrings.cpp:412
+msgid "An internal system error has occurred"
+msgstr "发生内部系统错误"
+
+#: libapper/PkStrings.cpp:414
+msgid "A security trust relationship is not present"
+msgstr "安全信任关系不存在"
+
+#: libapper/PkStrings.cpp:416
+msgid "The package is not installed"
+msgstr "软件包未安装"
+
+#: libapper/PkStrings.cpp:418
+msgid "The package was not found"
+msgstr "软件包未找到"
+
+#: libapper/PkStrings.cpp:420
+msgid "The package is already installed"
+msgstr "软件包已安装"
+
+#: libapper/PkStrings.cpp:422
+msgid "The package download failed"
+msgstr "软件包下载失败"
+
+#: libapper/PkStrings.cpp:424
+msgid "The group was not found"
+msgstr "分组未找到"
+
+#: libapper/PkStrings.cpp:426
+msgid "The group list was invalid"
+msgstr "分组列表无效"
+
+#: libapper/PkStrings.cpp:428
+msgid "Dependency resolution failed"
+msgstr "依赖关系解决失败"
+
+#: libapper/PkStrings.cpp:430
+msgid "Search filter was invalid"
+msgstr "搜索过滤规则无效"
+
+#: libapper/PkStrings.cpp:432
+msgid "The package identifier was not well formed"
+msgstr "软件包标识符未良好排列"
+
+#: libapper/PkStrings.cpp:434
+msgid "Transaction error"
+msgstr "变更交易错误"
+
+#: libapper/PkStrings.cpp:436
+msgid "Repository name was not found"
+msgstr "仓库名称未找到"
+
+#: libapper/PkStrings.cpp:438
+msgid "Could not remove a protected system package"
+msgstr "无法删除受保护的系统软件包"
+
+#: libapper/PkStrings.cpp:440
+msgid "The task was canceled"
+msgstr "任务已取消"
+
+#: libapper/PkStrings.cpp:442
+msgid "The task was forcibly canceled"
+msgstr "任务已被强制取消"
+
+#: libapper/PkStrings.cpp:444
+msgid "Reading the config file failed"
+msgstr "读取配置文件失败"
+
+#: libapper/PkStrings.cpp:446
+msgid "The task cannot be cancelled"
+msgstr "任务无法取消"
+
+#: libapper/PkStrings.cpp:448
+msgid "Source packages cannot be installed"
+msgstr "无法安装源码软件包"
+
+#: libapper/PkStrings.cpp:450
+msgid "The license agreement failed"
+msgstr "许可证同意失败"
+
+#: libapper/PkStrings.cpp:452
+msgid "Local file conflict between packages"
+msgstr "本地文件于软件包间冲突"
+
+#: libapper/PkStrings.cpp:454
+msgid "Packages are not compatible"
+msgstr "软件包不兼容"
+
+#: libapper/PkStrings.cpp:456
+msgid "Problem connecting to a software origin"
+msgstr "连接到软件源出问题"
+
+#: libapper/PkStrings.cpp:458
+msgid "Failed to initialize"
+msgstr "初始化失败"
+
+#: libapper/PkStrings.cpp:460
+msgid "Failed to finalize"
+msgstr "完成化失败"
+
+#: libapper/PkStrings.cpp:462
+msgid "Cannot get lock"
+msgstr "无法获得锁定"
+
+#: libapper/PkStrings.cpp:464
+msgid "No packages to update"
+msgstr "没有可更新的软件包"
+
+#: libapper/PkStrings.cpp:466
+msgid "Cannot write repository configuration"
+msgstr "无法写入仓库配置"
+
+#: libapper/PkStrings.cpp:468
+msgid "Local install failed"
+msgstr "本地安装失败"
+
+#: libapper/PkStrings.cpp:470
+msgid "Bad GPG signature"
+msgstr "损坏的 GPG 签名"
+
+#: libapper/PkStrings.cpp:472
+msgid "Missing GPG signature"
+msgstr "缺失的 GPG 签名"
+
+#: libapper/PkStrings.cpp:474
+msgid "Repository configuration invalid"
+msgstr "仓库配置无效"
+
+#: libapper/PkStrings.cpp:476
+msgid "Invalid package file"
+msgstr "无效的软件包文件"
+
+#: libapper/PkStrings.cpp:478
+msgid "Package install blocked"
+msgstr "软件包安装已屏蔽"
+
+#: libapper/PkStrings.cpp:480
+msgid "Package is corrupt"
+msgstr "软件包损坏"
+
+#: libapper/PkStrings.cpp:482
+msgid "All packages are already installed"
+msgstr "已经安装全部软件包"
+
+#: libapper/PkStrings.cpp:484
+msgid "The specified file could not be found"
+msgstr "指定的文件未找到"
+
+#: libapper/PkStrings.cpp:486
+msgid "No more mirrors are available"
+msgstr "无更多的镜像可用"
+
+#: libapper/PkStrings.cpp:488
+msgid "No distribution upgrade data is available"
+msgstr "无发行版升级数据可用"
+
+#: libapper/PkStrings.cpp:490
+msgid "Package is incompatible with this system"
+msgstr "软件包与本系统不兼容"
+
+#: libapper/PkStrings.cpp:492
+msgid "No space is left on the disk"
+msgstr "磁盘没有剩余空间"
+
+#: libapper/PkStrings.cpp:494 libapper/PkTransaction.cpp:446
+msgid "A media change is required"
+msgstr "需要更改媒体"
+
+#: libapper/PkStrings.cpp:496
+msgid "Authorization failed"
+msgstr "身份验证失败"
+
+#: libapper/PkStrings.cpp:498
+msgid "Update not found"
+msgstr "更新未找到"
+
+#: libapper/PkStrings.cpp:500
+msgid "Cannot install from untrusted origin"
+msgstr "无法从不信任的源安装软件包"
+
+#: libapper/PkStrings.cpp:502
+msgid "Cannot update from untrusted origin"
+msgstr "无法从不信任的源升级"
+
+#: libapper/PkStrings.cpp:504
+msgid "Cannot get the file list"
+msgstr "无法获取文件列表"
+
+#: libapper/PkStrings.cpp:506
+msgid "Cannot get package requires"
+msgstr "获取需要的软件包："
+
+#: libapper/PkStrings.cpp:508
+msgid "Cannot disable origin"
+msgstr "无法禁用源"
+
+#: libapper/PkStrings.cpp:510
+msgid "The download failed"
+msgstr "下载软件包失败"
+
+#: libapper/PkStrings.cpp:512
+msgid "Package failed to configure"
+msgstr "配置软件包失败"
+
+#: libapper/PkStrings.cpp:514
+msgid "Package failed to build"
+msgstr "构建软件包失败"
+
+#: libapper/PkStrings.cpp:516
+msgid "Package failed to install"
+msgstr "安装软件包失败"
+
+#: libapper/PkStrings.cpp:518
+msgid "Package failed to be removed"
+msgstr "删除软件包失败"
+
+#: libapper/PkStrings.cpp:520
+msgid "Update failed due to running process"
+msgstr "升级失败，因为有进程正在运行"
+
+#: libapper/PkStrings.cpp:522
+msgid "The package database was changed"
+msgstr "软件包数据库已更改"
+
+#: libapper/PkStrings.cpp:524
+msgid "Virtual provide type is not supported"
+msgstr ""
+
+#: libapper/PkStrings.cpp:526
+msgid "Install root is invalid"
+msgstr ""
+
+#: libapper/PkStrings.cpp:528
+msgid "Cannot fetch install sources"
+msgstr "无法获得安装源"
+
+#: libapper/PkStrings.cpp:530
+msgid "Rescheduled due to priority"
+msgstr ""
+
+#: libapper/PkStrings.cpp:532
+msgid "Unfinished transaction"
+msgstr "未完成的变更"
+
+#: libapper/PkStrings.cpp:534
+msgid "Lock required"
+msgstr "需要获得锁"
+
+#: libapper/PkStrings.cpp:536
+msgid "Unknown error"
+msgstr "未知错误"
+
+#: libapper/PkStrings.cpp:546
+msgid ""
+"There is no network connection available.\n"
+"Please check your connection settings and try again"
+msgstr ""
+"没有可用的网络连接。\n"
+"请检查您的连接设置并重试"
+
+#: libapper/PkStrings.cpp:549
+msgid ""
+"The package list needs to be rebuilt.\n"
+"This should have been done by the backend automatically."
+msgstr ""
+"软件包列表需要重建。\n"
+"这应该由后端自动进行。"
+
+#: libapper/PkStrings.cpp:552
+msgid ""
+"The service that is responsible for handling user requests is out of "
+"memory.\n"
+"Please close some programs or restart your computer."
+msgstr ""
+"负责处理用户请求的服务内存耗尽。\n"
+"请关闭一些程序和重启您的计算机。"
+
+#: libapper/PkStrings.cpp:555
+msgid "A thread could not be created to service the user request."
+msgstr "无法创建线程以应对用户请求。"
+
+#: libapper/PkStrings.cpp:557
+msgid ""
+"The action is not supported by this backend.\n"
+"Please report a bug as this should not have happened."
+msgstr ""
+"您的后端不支持该动作。\n"
+"请汇报错误，因为这不应该发生。"
+
+#: libapper/PkStrings.cpp:560
+msgid ""
+"A problem that we were not expecting has occurred.\n"
+"Please report this bug with the error description."
+msgstr ""
+
+#: libapper/PkStrings.cpp:563
+msgid ""
+"A security trust relationship could not be made with the software origin.\n"
+"Please check your software signature settings."
+msgstr ""
+
+#: libapper/PkStrings.cpp:566
+msgid ""
+"The package that is trying to be removed or updated is not already installed."
+msgstr ""
+
+#: libapper/PkStrings.cpp:568
+#, fuzzy
+#| msgid "The package could not be found in any software source"
+#| msgid_plural "The packages could not be found in any software source"
+msgid ""
+"The package that is being modified was not found on your system or in any "
+"software origin."
+msgstr "未在任何软件源中找到软件包"
+
+#: libapper/PkStrings.cpp:570
+msgid "The package that is trying to be installed is already installed."
+msgstr "尝试安装的软件包已经安装过了。"
+
+#: libapper/PkStrings.cpp:572
+msgid ""
+"The package download failed.\n"
+"Please check your network connectivity."
+msgstr ""
+"软件包下载失败。\n"
+"请检查您的网络连接性。"
+
+#: libapper/PkStrings.cpp:575
+msgid ""
+"The group type was not found.\n"
+"Please check your group list and try again."
+msgstr ""
+"未找到分组类型。\n"
+"请检查您的分组列表并重试。"
+
+#: libapper/PkStrings.cpp:578
+msgid ""
+"The group list could not be loaded.\n"
+"Refreshing your cache may help, although this is normally a software origin "
+"error."
+msgstr ""
+
+#: libapper/PkStrings.cpp:582
+msgid ""
+"A package dependency could not be found.\n"
+"More information is available in the detailed report."
+msgstr ""
+
+#: libapper/PkStrings.cpp:585
+msgid "The search filter was not correctly formed."
+msgstr ""
+
+#: libapper/PkStrings.cpp:587
+msgid ""
+"The package identifier was not well formed when sent to the system daemon.\n"
+"This normally indicates an internal bug and should be reported."
+msgstr ""
+
+#: libapper/PkStrings.cpp:590
+msgid ""
+"An error occurred while running the transaction.\n"
+"More information is available in the detailed report."
+msgstr ""
+
+#: libapper/PkStrings.cpp:593
+msgid ""
+"The remote software origin name was not found.\n"
+"You may need to enable an item in Software Origins."
+msgstr ""
+
+#: libapper/PkStrings.cpp:596
+msgid "Removing a protected system package is not allowed."
+msgstr "不允许删除受保护的系统软件包。"
+
+#: libapper/PkStrings.cpp:598
+msgid "The task was canceled successfully and no packages were changed."
+msgstr "任务已成功取消并且未更改任何软件包。"
+
+#: libapper/PkStrings.cpp:600
+msgid ""
+"The task was canceled successfully and no packages were changed.\n"
+"The backend did not exit cleanly."
+msgstr ""
+"任务已成功取消并且未更改任何软件包。\n"
+"后端未干净退出。"
+
+#: libapper/PkStrings.cpp:603
+msgid ""
+"The native package configuration file could not be opened.\n"
+"Please make sure your system's configuration is valid."
+msgstr ""
+
+#: libapper/PkStrings.cpp:606
+msgid "The task is not safe to be cancelled at this time."
+msgstr "任务在此刻取消是不安全的。"
+
+#: libapper/PkStrings.cpp:608
+msgid ""
+"Source packages are not normally installed this way.\n"
+"Check the extension of the file you are trying to install."
+msgstr ""
+
+#: libapper/PkStrings.cpp:611
+msgid ""
+"The license agreement was not agreed to.\n"
+"To use this software you have to accept the license."
+msgstr ""
+
+#: libapper/PkStrings.cpp:614
+msgid ""
+"Two packages provide the same file.\n"
+"This is usually due to mixing packages for different software origins."
+msgstr ""
+
+#: libapper/PkStrings.cpp:617
+msgid ""
+"Multiple packages exist that are not compatible with each other.\n"
+"This is usually due to mixing packages from different software origins."
+msgstr ""
+
+#: libapper/PkStrings.cpp:620
+msgid ""
+"There was a (possibly temporary) problem connecting to a software origins.\n"
+"Please check the detailed error for further details."
+msgstr ""
+
+#: libapper/PkStrings.cpp:623
+msgid ""
+"Failed to initialize packaging backend.\n"
+"This may occur if other packaging tools are being used simultaneously."
+msgstr ""
+
+#: libapper/PkStrings.cpp:626
+msgid ""
+"Failed to close down the backend instance.\n"
+"This error can normally be ignored."
+msgstr ""
+
+#: libapper/PkStrings.cpp:629
+msgid ""
+"Cannot get the exclusive lock on the packaging backend.\n"
+"Please close any other legacy packaging tools that may be open."
+msgstr ""
+
+#: libapper/PkStrings.cpp:632
+msgid "None of the selected packages could be updated."
+msgstr ""
+
+#: libapper/PkStrings.cpp:634
+msgid "The repository configuration could not be modified."
+msgstr "无法修改仓库配置。"
+
+#: libapper/PkStrings.cpp:636
+msgid ""
+"Installing the local file failed.\n"
+"More information is available in the detailed report."
+msgstr ""
+
+#: libapper/PkStrings.cpp:639
+msgid "The package signature could not be verified."
+msgstr "无法验证软件包签名。"
+
+#: libapper/PkStrings.cpp:641
+msgid ""
+"The package signature was missing and this package is untrusted.\n"
+"This package was not signed with a GPG key when created."
+msgstr ""
+
+#: libapper/PkStrings.cpp:644
+msgid "Repository configuration was invalid and could not be read."
+msgstr "仓库配置无效且无法读取。"
+
+#: libapper/PkStrings.cpp:646
+msgid ""
+"The package you are attempting to install is not valid.\n"
+"The package file could be corrupt, or not a proper package."
+msgstr ""
+
+#: libapper/PkStrings.cpp:649
+msgid ""
+"Installation of this package was prevented by your packaging system's "
+"configuration."
+msgstr ""
+
+#: libapper/PkStrings.cpp:651
+msgid ""
+"The package that was downloaded is corrupt and needs to be downloaded again."
+msgstr ""
+
+#: libapper/PkStrings.cpp:653
+msgid ""
+"All of the packages selected for install are already installed on the system."
+msgstr ""
+
+#: libapper/PkStrings.cpp:655
+msgid ""
+"The specified file could not be found on the system.\n"
+"Check that the file still exists and has not been deleted."
+msgstr ""
+
+#: libapper/PkStrings.cpp:658
+msgid ""
+"Required data could not be found on any of the configured software origins.\n"
+"There were no more download mirrors that could be tried."
+msgstr ""
+
+#: libapper/PkStrings.cpp:661
+msgid ""
+"Required upgrade data could not be found in any of the configured software "
+"origins.\n"
+"The list of distribution upgrades will be unavailable."
+msgstr ""
+
+#: libapper/PkStrings.cpp:664
+msgid ""
+"The package that is trying to be installed is incompatible with this system."
+msgstr ""
+
+#: libapper/PkStrings.cpp:666
+msgid ""
+"There is insufficient space on the device.\n"
+"Free some space on the system disk to perform this operation."
+msgstr ""
+
+#: libapper/PkStrings.cpp:669
+msgid "Additional media is required to complete the transaction."
+msgstr ""
+
+#: libapper/PkStrings.cpp:671
+msgid ""
+"You have failed to provide correct authentication.\n"
+"Please check any passwords or account settings."
+msgstr ""
+
+#: libapper/PkStrings.cpp:674
+msgid ""
+"The specified update could not be found.\n"
+"It could have already been installed or no longer available on the remote "
+"server."
+msgstr ""
+
+#: libapper/PkStrings.cpp:677
+msgid "The package could not be installed from untrusted origin."
+msgstr "无法从不信任的源安装软件包。"
+
+#: libapper/PkStrings.cpp:679
+msgid "The package could not be updated from untrusted origin."
+msgstr "无法从不信任的源更新软件包。"
+
+#: libapper/PkStrings.cpp:681
+#, fuzzy
+#| msgid "The file could not be found in any packages"
+#| msgid_plural "The files could not be found in any packages"
+msgid "The file list is not available for this package."
+msgstr "未在任何软件包中找到文件"
+
+#: libapper/PkStrings.cpp:683
+msgid "The information about what requires this package could not be obtained."
+msgstr ""
+
+#: libapper/PkStrings.cpp:685
+#, fuzzy
+#| msgid "The specified file could not be found"
+msgid "The specified software origin could not be disabled."
+msgstr "指定的文件未找到"
+
+#: libapper/PkStrings.cpp:687
+msgid ""
+"The download could not be done automatically and should be done manually.\n"
+"More information is available in the detailed report."
+msgstr ""
+
+#: libapper/PkStrings.cpp:690
+msgid ""
+"One of the selected packages failed to configure correctly.\n"
+"More information is available in the detailed report."
+msgstr ""
+
+#: libapper/PkStrings.cpp:693
+msgid ""
+"One of the selected packages failed to build correctly.\n"
+"More information is available in the detailed report."
+msgstr ""
+
+#: libapper/PkStrings.cpp:696
+msgid ""
+"One of the selected packages failed to install correctly.\n"
+"More information is available in the detailed report."
+msgstr ""
+
+#: libapper/PkStrings.cpp:699
+msgid ""
+"One of the selected packages failed to be removed correctly.\n"
+"More information is available in the detailed report."
+msgstr ""
+
+#: libapper/PkStrings.cpp:702
+msgid ""
+"A program is running that has to be closed before the update can proceed.\n"
+"More information is available in the detailed report."
+msgstr ""
+
+#: libapper/PkStrings.cpp:705
+msgid "The package database was changed while the request was running."
+msgstr ""
+
+#: libapper/PkStrings.cpp:707
+msgid "The virtual provide type is not supported by this system."
+msgstr ""
+
+#: libapper/PkStrings.cpp:709
+msgid "The install root is invalid. Please contact your administrator."
+msgstr ""
+
+#: libapper/PkStrings.cpp:711
+#, fuzzy
+#| msgid "The specified file could not be found"
+msgid "The list of software could not be downloaded."
+msgstr "指定的文件未找到"
+
+#: libapper/PkStrings.cpp:713
+msgid ""
+"The transaction has been cancelled and will be retried when the system is "
+"idle."
+msgstr ""
+
+#: libapper/PkStrings.cpp:715
+msgid "A previous package management transaction was interrupted."
+msgstr ""
+
+#: libapper/PkStrings.cpp:717
+#, fuzzy
+#| msgid "A media change is required"
+msgid "A package manager lock is required."
+msgstr "需要更改媒体"
+
+#: libapper/PkStrings.cpp:719
+msgid ""
+"Unknown error, please report a bug.\n"
+"More information is available in the detailed report."
+msgstr ""
+
+#: libapper/PkStrings.cpp:730
+msgctxt "The group type"
+msgid "Accessibility"
+msgstr "辅助"
+
+#: libapper/PkStrings.cpp:732
+msgctxt "The group type"
+msgid "Accessories"
+msgstr "附件"
+
+#: libapper/PkStrings.cpp:734
+msgctxt "The group type"
+msgid "Education"
+msgstr "教育"
+
+#: libapper/PkStrings.cpp:736
+msgctxt "The group type"
+msgid "Games"
+msgstr "游戏"
+
+#: libapper/PkStrings.cpp:738
+msgctxt "The group type"
+msgid "Graphics"
+msgstr "图像"
+
+#: libapper/PkStrings.cpp:740
+msgctxt "The group type"
+msgid "Internet"
+msgstr "互联网"
+
+#: libapper/PkStrings.cpp:742
+msgctxt "The group type"
+msgid "Office"
+msgstr "办公"
+
+#: libapper/PkStrings.cpp:744
+msgctxt "The group type"
+msgid "Others"
+msgstr "其它"
+
+#: libapper/PkStrings.cpp:746
+msgctxt "The group type"
+msgid "Development"
+msgstr "开发"
+
+#: libapper/PkStrings.cpp:748
+msgctxt "The group type"
+msgid "Multimedia"
+msgstr "多媒体"
+
+#: libapper/PkStrings.cpp:750
+msgctxt "The group type"
+msgid "System"
+msgstr "系统"
+
+#: libapper/PkStrings.cpp:752
+msgctxt "The group type"
+msgid "GNOME desktop"
+msgstr "GNOME 桌面"
+
+#: libapper/PkStrings.cpp:754
+msgctxt "The group type"
+msgid "KDE desktop"
+msgstr "KDE 桌面"
+
+#: libapper/PkStrings.cpp:756
+msgctxt "The group type"
+msgid "XFCE desktop"
+msgstr "XFCE 桌面"
+
+#: libapper/PkStrings.cpp:758
+msgctxt "The group type"
+msgid "Other desktops"
+msgstr "其它桌面"
+
+#: libapper/PkStrings.cpp:760
+msgctxt "The group type"
+msgid "Publishing"
+msgstr "出版"
+
+#: libapper/PkStrings.cpp:762
+msgctxt "The group type"
+msgid "Servers"
+msgstr "服务器"
+
+#: libapper/PkStrings.cpp:764
+msgctxt "The group type"
+msgid "Fonts"
+msgstr "字体"
+
+#: libapper/PkStrings.cpp:766
+msgctxt "The group type"
+msgid "Admin tools"
+msgstr "系统工具"
+
+#: libapper/PkStrings.cpp:768
+msgctxt "The group type"
+msgid "Legacy"
+msgstr "继承"
+
+#: libapper/PkStrings.cpp:770
+msgctxt "The group type"
+msgid "Localization"
+msgstr "本地化"
+
+#: libapper/PkStrings.cpp:772
+msgctxt "The group type"
+msgid "Virtualization"
+msgstr "虚拟化"
+
+#: libapper/PkStrings.cpp:774
+msgctxt "The group type"
+msgid "Security"
+msgstr "安全"
+
+#: libapper/PkStrings.cpp:776
+msgctxt "The group type"
+msgid "Power management"
+msgstr "电源管理"
+
+#: libapper/PkStrings.cpp:778
+msgctxt "The group type"
+msgid "Communication"
+msgstr "通讯"
+
+#: libapper/PkStrings.cpp:780
+msgctxt "The group type"
+msgid "Network"
+msgstr "网络"
+
+#: libapper/PkStrings.cpp:782
+msgctxt "The group type"
+msgid "Maps"
+msgstr "地图"
+
+#: libapper/PkStrings.cpp:784
+msgctxt "The group type"
+msgid "Software sources"
+msgstr "软件来源"
+
+#: libapper/PkStrings.cpp:786
+msgctxt "The group type"
+msgid "Science"
+msgstr "科学"
+
+#: libapper/PkStrings.cpp:788
+msgctxt "The group type"
+msgid "Documentation"
+msgstr "文档"
+
+#: libapper/PkStrings.cpp:790
+msgctxt "The group type"
+msgid "Electronics"
+msgstr "电子学"
+
+#: libapper/PkStrings.cpp:792
+msgctxt "The group type"
+msgid "Package collections"
+msgstr "软件包集合"
+
+#: libapper/PkStrings.cpp:794
+msgctxt "The group type"
+msgid "Vendor"
+msgstr "供应商"
+
+#: libapper/PkStrings.cpp:796
+msgctxt "The group type"
+msgid "Newest packages"
+msgstr "最新的软件包"
+
+#: libapper/PkStrings.cpp:798
+msgctxt "The group type"
+msgid "Unknown group"
+msgstr "未知分组"
+
+#: libapper/PkStrings.cpp:809
+msgctxt "The type of update"
+msgid "Trivial update"
+msgstr "次要更新"
+
+#: libapper/PkStrings.cpp:811
+msgctxt "The type of update"
+msgid "Normal update"
+msgstr "常规更新"
+
+#: libapper/PkStrings.cpp:813
+msgctxt "The type of update"
+msgid "Important update"
+msgstr "重要更新"
+
+#: libapper/PkStrings.cpp:815
+msgctxt "The type of update"
+msgid "Security update"
+msgstr "安全更新"
+
+#: libapper/PkStrings.cpp:817
+msgctxt "The type of update"
+msgid "Bug fix update"
+msgstr "错误修复更新"
+
+#: libapper/PkStrings.cpp:819
+msgctxt "The type of update"
+msgid "Enhancement update"
+msgstr "增强更新"
+
+#: libapper/PkStrings.cpp:821
+msgctxt "The type of update"
+msgid "Blocked update"
+msgstr "已屏蔽的更新"
+
+#: libapper/PkStrings.cpp:824
+msgctxt "The type of update"
+msgid "Installed"
+msgstr "已安装"
+
+#: libapper/PkStrings.cpp:827
+msgctxt "The type of update"
+msgid "Available"
+msgstr "可用"
+
+#: libapper/PkStrings.cpp:829
+msgctxt "The type of update"
+msgid "Unknown update"
+msgstr "未知更新"
+
+#: libapper/PkStrings.cpp:840
+msgid "No Updates Available"
+msgstr "无可用更新"
+
+#: libapper/PkStrings.cpp:843
+#, kde-format
+msgctxt "Some updates were selected on the view"
+msgid "1 Update Selected"
+msgid_plural "%1 Updates Selected"
+msgstr[0] "已选择 %1 个更新"
+
+#: libapper/PkStrings.cpp:847
+#, kde-format
+msgctxt "Some updates are being shown on the screen"
+msgid "1 Update"
+msgid_plural "%1 Updates"
+msgstr[0] "%1 个更新"
+
+#: libapper/PkStrings.cpp:850
+#, kde-format
+msgctxt "Type of update, in the case it's just an update"
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: libapper/PkStrings.cpp:851
+#, kde-format
+msgctxt "Part of: %1 Updates, %1 Selected"
+msgid "%1 Update"
+msgid_plural "%1 Updates"
+msgstr[0] "%1 个更新"
+
+#: libapper/PkStrings.cpp:852
+#, kde-format
+msgctxt "Part of: %1 Updates, %1 Selected"
+msgid "%1 Selected"
+msgid_plural "%1 Selected"
+msgstr[0] "选中 %1 个"
+
+#: libapper/PkStrings.cpp:856
+msgid "No Packages"
+msgstr "无软件包"
+
+#: libapper/PkStrings.cpp:858
+#, kde-format
+msgid "1 Package"
+msgid_plural "%1 Packages"
+msgstr[0] "%1 软件包"
+
+#: libapper/PkStrings.cpp:866
+msgid "No restart is necessary"
+msgstr "不需要重启"
+
+#: libapper/PkStrings.cpp:868
+msgid "You will be required to restart this application"
+msgstr "您需要重启应用程序"
+
+#: libapper/PkStrings.cpp:870
+msgid "You will be required to log out and back in"
+msgstr "您需要注销并再次登录"
+
+#: libapper/PkStrings.cpp:872
+msgid "A restart will be required"
+msgstr "需要重启"
+
+#: libapper/PkStrings.cpp:874
+msgid "You will be required to log out and back in due to a security update."
+msgstr "由于进行了安全更新，您需要注销并再次登录。"
+
+#: libapper/PkStrings.cpp:876
+msgid "A restart will be required due to a security update."
+msgstr "由于进行了安全更新，需要重启。"
+
+#: libapper/PkStrings.cpp:889
+msgid "No restart is required"
+msgstr "不需要重启"
+
+#: libapper/PkStrings.cpp:891
+msgid "A restart is required"
+msgstr "需要重启"
+
+#: libapper/PkStrings.cpp:893
+msgid "You need to log out and log back in"
+msgstr "您需要注销并再次登录"
+
+#: libapper/PkStrings.cpp:895
+msgid "You need to restart the application"
+msgstr "您需要重启应用程序"
+
+#: libapper/PkStrings.cpp:897
+msgid "You need to log out and log back in to remain secure."
+msgstr "为保证安全，您需要注销并再次登录。"
+
+#: libapper/PkStrings.cpp:899
+msgid "A restart is required to remain secure."
+msgstr "为保证安全，需要重新启动。"
+
+#: libapper/PkStrings.cpp:912
+msgid "Stable"
+msgstr "稳定"
+
+#: libapper/PkStrings.cpp:914
+msgid "Unstable"
+msgstr "不稳定"
+
+#: libapper/PkStrings.cpp:916
+msgid "Testing"
+msgstr "测试"
+
+#: libapper/PkStrings.cpp:929
+#, kde-format
+msgid "Please insert the CD labeled '%1', and press continue."
+msgstr "请插入标签为“%1”的 CD，并按继续。"
+
+#: libapper/PkStrings.cpp:931
+#, kde-format
+msgid "Please insert the DVD labeled '%1', and press continue."
+msgstr "请插入标签为“%1”的 DVD，并按继续。"
+
+#: libapper/PkStrings.cpp:933
+#, kde-format
+msgid "Please insert the disc labeled '%1', and press continue."
+msgstr "请插入标签为“%1”的盘片，并按继续。"
+
+#: libapper/PkStrings.cpp:935 libapper/PkStrings.cpp:938
+#, kde-format
+msgid "Please insert the medium labeled '%1', and press continue."
+msgstr "请插入标签为“%1”的媒体，并按继续。"
+
+#: libapper/PkStrings.cpp:945
+msgid "A mirror is possibly broken"
+msgstr "镜像可能未能同步"
+
+#: libapper/PkStrings.cpp:947
+msgid "The connection was refused"
+msgstr "连接被拒绝"
+
+#: libapper/PkStrings.cpp:949
+msgid "The parameter was invalid"
+msgstr "参数无效"
+
+#: libapper/PkStrings.cpp:951
+msgid "The priority was invalid"
+msgstr "优先级无效"
+
+#: libapper/PkStrings.cpp:953
+msgid "Backend warning"
+msgstr "后端警告"
+
+#: libapper/PkStrings.cpp:955
+msgid "Daemon warning"
+msgstr "守护进程警告"
+
+#: libapper/PkStrings.cpp:957
+msgid "The package list cache is being rebuilt"
+msgstr "正在重建软件包列表缓存"
+
+#: libapper/PkStrings.cpp:959
+msgid "An untrusted package was installed"
+msgstr "安装了一个不受信任的软件包"
+
+#: libapper/PkStrings.cpp:961
+msgid "A newer package exists"
+msgstr "存在新版本软件包"
+
+#: libapper/PkStrings.cpp:963
+msgid "Could not find package"
+msgstr "无法找到软件包"
+
+#: libapper/PkStrings.cpp:965
+msgid "Configuration files were changed"
+msgstr "配置文件已更改"
+
+#: libapper/PkStrings.cpp:967
+msgid "Package is already installed"
+msgstr "软件包已安装"
+
+#: libapper/PkStrings.cpp:969
+msgid "Automatic cleanup is being ignored"
+msgstr "即将忽略自动清理"
+
+#: libapper/PkStrings.cpp:971
+msgid "Software source download failed"
+msgstr "软件源下载失败"
+
+#: libapper/PkStrings.cpp:973
+msgid "This software source is for developers only"
+msgstr "此软件源仅供开发者使用"
+
+#: libapper/PkStrings.cpp:975
+msgid "Other updates have been held back"
+msgstr "已经暂停其它更新"
+
+#: libapper/PkStrings.cpp:989
+msgid "You do not have the necessary privileges to perform this action."
+msgstr "您没有进行此操作的必需的权限。"
+
+#: libapper/PkStrings.cpp:991
+msgid "Could not get a transaction id from packagekitd."
+msgstr "无法从 packagekitd 获得交易 id。"
+
+#: libapper/PkStrings.cpp:993
+msgid "Cannot connect to this transaction id."
+msgstr "无法连接到交易 ID。"
+
+#: libapper/PkStrings.cpp:995
+msgid "This action is unknown."
+msgstr "此操作未知。"
+
+#: libapper/PkStrings.cpp:997
+msgid "The packagekitd service could not be started."
+msgstr "无法启动 packagekitd 服务。"
+
+#: libapper/PkStrings.cpp:999
+msgid "The query is not valid."
+msgstr "查询无效。"
+
+#: libapper/PkStrings.cpp:1001
+msgid "The file is not valid."
+msgstr "文件无效。"
+
+#: libapper/PkStrings.cpp:1003
+msgid "This function is not yet supported."
+msgstr "此功能尚未支持。"
+
+#: libapper/PkStrings.cpp:1005
+msgid "Could not talk to packagekitd."
+msgstr "无法与 packagekitd 对话。"
+
+#: libapper/PkStrings.cpp:1007
+#, fuzzy
+#| msgid "Could not talk to packagekitd."
+msgid "Error talking to packagekitd."
+msgstr "无法与 packagekitd 对话。"
+
+#: libapper/PkStrings.cpp:1010 libapper/PkStrings.cpp:1013
+msgid "An unknown error happened."
+msgstr "发生了未知错误。"
+
+#: libapper/PkStrings.cpp:1027
+msgid "Your system is up to date"
+msgstr "系统已为最新"
+
+#: libapper/PkStrings.cpp:1029
+msgid "You have no updates"
+msgstr "无升级"
+
+#: libapper/PkStrings.cpp:1031
+msgid "Last check for updates was more than a month ago"
+msgstr "距离上次检查更新时间已经超过一个月"
+
+#: libapper/PkStrings.cpp:1039
+#, kde-format
+msgid "Verified %1 ago"
+msgstr "%1前检查"
+
+#: libapper/PkStrings.cpp:1041
+msgid "It's strongly recommended that you check for new updates now"
+msgstr "强烈建议现在就检查是否有更新"
+
+#: libapper/PkTransaction.cpp:139
+msgid "Failed to simulate file install"
+msgstr "模拟安装软件包失败"
+
+#: libapper/PkTransaction.cpp:143
+msgid "Current backend does not support installing files."
+msgstr "当前后端不支持安装文件。"
+
+#: libapper/PkTransaction.cpp:157
+msgid "Failed to simulate package install"
+msgstr "模拟更新软件包失败"
+
+#: libapper/PkTransaction.cpp:161
+msgid "Current backend does not support installing packages."
+msgstr "当前后端不支持安装软件包。"
+
+#: libapper/PkTransaction.cpp:176
+msgid "Failed to simulate package removal"
+msgstr "模拟删除软件包失败"
+
+#: libapper/PkTransaction.cpp:180
+msgid "The current backend does not support removing packages."
+msgstr "当前后端不支持删除软件包。"
+
+#: libapper/PkTransaction.cpp:199
+msgid "Failed to simulate package update"
+msgstr "模拟更新软件包失败"
+
+#: libapper/PkTransaction.cpp:203
+msgid "The current backend does not support updating packages."
+msgstr "当前后端不支持更新软件包。"
+
+#: libapper/PkTransaction.cpp:254
+msgid "Failed to install package"
+msgstr "安装软件包失败"
+
+#: libapper/PkTransaction.cpp:264 PkSession/PkInstallProvideFiles.cpp:101
+msgid "Failed to install file"
+msgid_plural "Failed to install files"
+msgstr[0] "安装文件失败"
+
+#: libapper/PkTransaction.cpp:275
+msgid "Failed to remove package"
+msgstr "删除软件包失败"
+
+#: libapper/PkTransaction.cpp:285
+msgid "Failed to update package"
+msgstr "更新软件包失败"
+
+#: libapper/PkTransaction.cpp:356
+msgid ""
+"You are about to install unsigned packages that can compromise your system, "
+"as it is impossible to verify if the software came from a trusted source.\n"
+"\n"
+"Are you sure you want to proceed with the installation?"
+msgstr ""
+
+#: libapper/PkTransaction.cpp:359
+msgid "Installing unsigned software"
+msgstr "正在安装未签名的软件"
+
+#: libapper/PkTransaction.cpp:404 libapper/PkTransaction.cpp:491
+msgid "Failed to install signature"
+msgstr "安装签名失败"
+
+#: libapper/PkTransactionWidget.cpp:229 libapper/PkTransactionWidget.cpp:242
+#, kde-format
+msgid "%1 (%2%)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libapper/PkTransactionWidget.ui:38
+msgid "icon"
+msgstr "图标"
+
+#. i18n: ectx: property (text), widget (QLabel, currentL)
+#: libapper/PkTransactionWidget.ui:64
+msgid "Downloading Packages"
+msgstr "正在下载软件包"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, RepoSig)
+#: libapper/RepoSig.cpp:52 libapper/RepoSig.ui:14
+msgid "Software signature is required"
+msgstr "需要软件签名"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libapper/RepoSig.ui:23
+msgid "Do you trust the origin of packages?"
+msgstr "您信任软件包根源吗？"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: libapper/RepoSig.ui:47
+msgid "Repository name:"
+msgstr "仓库名称："
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: libapper/RepoSig.ui:73
+msgid "Signature URL:"
+msgstr "签名 URL："
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: libapper/RepoSig.ui:99
+msgid "Signature user identifier:"
+msgstr "签名用户标识符："
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: libapper/RepoSig.ui:125
+msgid "Signature identifier:"
+msgstr "签名标识符："
+
+#: libapper/Requirements.cpp:56
+msgid "Additional changes"
+msgstr "附加更改"
+
+#: libapper/Requirements.cpp:82
+#, kde-format
+msgid "1 package to remove"
+msgid_plural "%1 packages to remove"
+msgstr[0] "要删除 %1 个软件包"
+
+#: libapper/Requirements.cpp:97
+#, kde-format
+msgid "1 package to downgrade"
+msgid_plural "%1 packages to downgrade"
+msgstr[0] "要降级 %1 个软件包"
+
+#: libapper/Requirements.cpp:112
+#, kde-format
+msgid "1 package to reinstall"
+msgid_plural "%1 packages to reinstall"
+msgstr[0] "要重新安装 %1 个软件包"
+
+#: libapper/Requirements.cpp:125
+#, kde-format
+msgid "1 package to install"
+msgid_plural "%1 packages to install"
+msgstr[0] "要安装 %1 个软件包"
+
+#: libapper/Requirements.cpp:138
+#, kde-format
+msgid "1 package to update"
+msgid_plural "%1 packages to update"
+msgstr[0] "要升级 %1 个软件包"
+
+#: libapper/Requirements.cpp:151
+#, kde-format
+msgid "1 untrusted package"
+msgid_plural "%1 untrusted packages"
+msgstr[0] "%1 个不可信软件包"
+
+#: libapper/Requirements.cpp:200
+#, kde-format
+msgctxt "how many bytes are required for download"
+msgid "Need to get %1 of archives"
+msgstr ""
+
+#: libapper/Requirements.cpp:260
+msgid ""
+"You are about to install unsigned packages that can compromise your system, "
+"as it is impossible to verify if the software came from a trusted source."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: libapper/Requirements.ui:31
+msgid "Additional changes are required to complete the task"
+msgstr "要完成任务需要额外的更改"
+
+#. i18n: ectx: property (text), widget (QCheckBox, confirmCB)
+#: libapper/Requirements.ui:87
+msgid "Do not confirm when installing or updating additional packages"
+msgstr "安装或更新额外软件时不请求确认"
+
+#. i18n: ectx: property (text), widget (QLabel, descriptionL)
+#: PkSession/IntroDialog.ui:65
+msgid "TextLabel"
+msgstr "文本标签"
+
+#: PkSession/main.cpp:36
+msgid "Apper PackageKit Session helper"
+msgstr ""
+
+#: PkSession/main.cpp:41
+msgid "Trever Fischer"
+msgstr "Trever Fischer"
+
+#: PkSession/PkInstallCatalogs.cpp:46
+msgid "Install Packages Catalogs"
+msgstr "安装软件包分类"
+
+#: PkSession/PkInstallCatalogs.cpp:65
+msgid "You can drop more catalogs in here"
+msgstr "此处可用放入更多分类"
+
+#: PkSession/PkInstallCatalogs.cpp:85
+msgid "No supported catalog was found"
+msgstr "未找到提供的分类"
+
+#: PkSession/PkInstallCatalogs.cpp:87
+msgid "Do you want to install this catalog?"
+msgid_plural "Do you want to install these catalogs?"
+msgstr[0] "您想要安装这些分类吗？"
+
+#: PkSession/PkInstallCatalogs.cpp:96
+msgid "An application wants to install a catalog"
+msgid_plural "An application wants to install catalogs"
+msgstr[0] "一个程序想要安装分类"
+
+#: PkSession/PkInstallCatalogs.cpp:100
+#, kde-format
+msgid "The application <i>%2</i> wants to install a catalog"
+msgid_plural "The application <i>%2</i> wants to install catalogs"
+msgstr[0] "%2 想要安装分类"
+
+#: PkSession/PkInstallCatalogs.cpp:137
+msgid "Not supported"
+msgstr "不支持"
+
+#: PkSession/PkInstallCatalogs.cpp:138
+msgid ""
+"Your backend does not support any of the needed methods to install a catalog"
+msgstr "您的后端不支持安装软件包目录"
+
+#: PkSession/PkInstallCatalogs.cpp:177
+msgid "Catalog not found"
+msgstr "未找到分类"
+
+#: PkSession/PkInstallCatalogs.cpp:178
+msgid "Could not find a catalog to install"
+msgstr "无法找到要安装的分类"
+
+#: PkSession/PkInstallCatalogs.cpp:185
+#, kde-format
+msgid "Catalog %2 failed to open"
+msgid_plural "Catalogs %2 failed to open"
+msgstr[0] "打开目录 %2 失败"
+
+#: PkSession/PkInstallCatalogs.cpp:189
+msgid "Failed to open"
+msgstr "打开失败"
+
+#: PkSession/PkInstallCatalogs.cpp:195
+msgid "Catalog is Empty"
+msgstr "分类为空"
+
+#: PkSession/PkInstallCatalogs.cpp:196
+msgid "Could not find any package to install in this catalog"
+msgstr "无法在此分类中找到任何软件包"
+
+#: PkSession/PkInstallCatalogs.cpp:280 PkSession/PkInstallPackageNames.cpp:97
+#: PkSession/PkIsInstalled.cpp:46
+msgid "Failed to start resolve transaction"
+msgstr "启动解决变更交易失败"
+
+#: PkSession/PkInstallFontconfigResources.cpp:41
+msgid "Installs new Fonts"
+msgstr "安装新字体"
+
+#: PkSession/PkInstallFontconfigResources.cpp:73
+msgid "Could interpret request"
+msgstr "无法解释请求内容"
+
+#: PkSession/PkInstallFontconfigResources.cpp:73
+msgid "Please verify if the request was valid"
+msgstr "请确认请求是否正确"
+
+#: PkSession/PkInstallFontconfigResources.cpp:107
+#, fuzzy
+#| msgid "Do you want to search for and install this package now?"
+#| msgid_plural "Do you want to search for and install these packages now?"
+msgid ""
+"An additional font is required to view this document correctly.\n"
+"Do you want to search for a suitable package now?"
+msgid_plural ""
+"Additional fonts are required to view this document correctly.\n"
+"Do you want to search for suitable packages now?"
+msgstr[0] "您想要即刻搜索并安装这些软件包吗？"
+
+#: PkSession/PkInstallFontconfigResources.cpp:117
+msgid "A program wants to install a font"
+msgid_plural "A program wants to install fonts"
+msgstr[0] "一个程序想要安装字体"
+
+#: PkSession/PkInstallFontconfigResources.cpp:121
+#, kde-format
+msgid "The application %2 wants to install a font"
+msgid_plural "The application %2 wants to install fonts"
+msgstr[0] "应用程序 %2 想要安装字体"
+
+#: PkSession/PkInstallFontconfigResources.cpp:145
+#: PkSession/PkInstallFontconfigResources.cpp:166
+#: PkSession/PkInstallGStreamerResources.cpp:136
+#: PkSession/PkInstallMimeTypes.cpp:92
+#: PkSession/PkInstallPlasmaResources.cpp:101
+#: PkSession/PkInstallPrinterDrivers.cpp:74
+msgid "Failed to search for provides"
+msgstr "搜索所提供失败"
+
+#: PkSession/PkInstallFontconfigResources.cpp:155
+#: PkSession/PkInstallFontconfigResources.cpp:164
+msgid "Failed to find font"
+msgstr "查找字体失败"
+
+#: PkSession/PkInstallFontconfigResources.cpp:157
+#, fuzzy
+#| msgid "No new fonts can be found for this document"
+msgid "No new fonts could be found for this document"
+msgstr "未找到此文档的新字体"
+
+#: PkSession/PkInstallGStreamerResources.cpp:39
+msgid "Install GStreamer Resources"
+msgstr "安装 GStreamer 资源"
+
+#: PkSession/PkInstallGStreamerResources.cpp:68
+#, fuzzy
+#| msgid "Do you want to search for this now?"
+#| msgid_plural "Do you want to search for these now?"
+msgid "The following plugin is required. Do you want to search for this now?"
+msgid_plural ""
+"The following plugins are required. Do you want to search for these now?"
+msgstr[0] "您想要即刻搜索这些文件吗？"
+
+#: PkSession/PkInstallGStreamerResources.cpp:80
+msgid "A program requires an additional plugin to decode this file"
+msgid_plural "A program requires additional plugins to decode this file"
+msgstr[0] "程序需要额外插件才能解码此文件"
+
+#: PkSession/PkInstallGStreamerResources.cpp:85
+msgid "A program requires an additional plugin to encode this file"
+msgid_plural "A program requires additional plugins to encode this file"
+msgstr[0] "程序需要额外插件才能编码此文件"
+
+#: PkSession/PkInstallGStreamerResources.cpp:90
+msgid "A program requires an additional plugin for this operation"
+msgid_plural "A program requires additional plugins for this operation"
+msgstr[0] "程序需要额外插件才能执行此操作"
+
+#: PkSession/PkInstallGStreamerResources.cpp:97
+#, kde-format
+msgid "%2 requires an additional plugin to decode this file"
+msgid_plural "%2 requires additional plugins to decode this file"
+msgstr[0] ""
+
+#: PkSession/PkInstallGStreamerResources.cpp:103
+#, kde-format
+msgid "%2 requires an additional plugin to encode this file"
+msgid_plural "%2 requires additional plugins to encode this file"
+msgstr[0] ""
+
+#: PkSession/PkInstallGStreamerResources.cpp:109
+#, kde-format
+msgid "%2 requires an additional plugin for this operation"
+msgid_plural "%2 requires additional plugins for this operation"
+msgstr[0] ""
+
+#: PkSession/PkInstallGStreamerResources.cpp:147
+msgid "No results found"
+msgstr "无结果"
+
+#: PkSession/PkInstallGStreamerResources.cpp:149
+msgid "Could not find plugin in any configured software source"
+msgstr "未在任何软件源中找到插件"
+
+#: PkSession/PkInstallMimeTypes.cpp:39
+msgid "Install Support for File Types"
+msgstr "安装文件类型支持"
+
+#: PkSession/PkInstallMimeTypes.cpp:50
+#, fuzzy
+#| msgid ""
+#| "Do you want to search for packages containing this file and remove it now?"
+#| msgid_plural ""
+#| "Do you want to search for packages containing these files and remove them "
+#| "now?"
+msgid "Do you want to search for a program that can open this file type?"
+msgid_plural ""
+"Do you want to search for a program that can open these file types?"
+msgstr[0] "您想要即刻搜索包含这些文件的软件包并删除它们吗？"
+
+#: PkSession/PkInstallMimeTypes.cpp:55
+#, fuzzy
+#| msgid "No files were found."
+msgid "No valid file types were provided"
+msgstr "未找到文件。"
+
+#: PkSession/PkInstallMimeTypes.cpp:62
+#, fuzzy
+#| msgid "A program requires an additional plugin to decode this file"
+#| msgid_plural "A program requires additional plugins to decode this file"
+msgid "A program is requiring support to open this kind of files"
+msgid_plural "A program is requiring support to open these kinds of files"
+msgstr[0] "程序需要额外插件才能解码此文件"
+
+#: PkSession/PkInstallMimeTypes.cpp:66
+#, fuzzy, kde-format
+#| msgid "A program requires an additional plugin to decode this file"
+#| msgid_plural "A program requires additional plugins to decode this file"
+msgid "The application %2 is requiring support to open this kind of files"
+msgid_plural ""
+"The application %2 is requiring support to open these kinds of files"
+msgstr[0] "程序需要额外插件才能解码此文件"
+
+#: PkSession/PkInstallMimeTypes.cpp:101
+#, fuzzy
+#| msgid "Failed to find software"
+msgid "Could not find software"
+msgstr "查找软件失败"
+
+#: PkSession/PkInstallMimeTypes.cpp:103
+msgid "No new applications can be found to handle this type of file"
+msgstr "未找到能够处理此文件类型的新应用程序"
+
+#: PkSession/PkInstallPackageFiles.cpp:38
+msgid "Install Packages Files"
+msgstr "安装软件包文件"
+
+#: PkSession/PkInstallPackageFiles.cpp:42
+#: PkSession/PkRemovePackageByFiles.cpp:43
+msgid "You can drop more files in here"
+msgstr "此处无法再放入更多的文件"
+
+#: PkSession/PkInstallPackageFiles.cpp:52
+msgid "Not Supported"
+msgstr "不支持"
+
+#: PkSession/PkInstallPackageFiles.cpp:53
+msgid "Your current backend does not support installing files"
+msgstr "当前后端不支持安装文件"
+
+#: PkSession/PkInstallPackageFiles.cpp:68
+#: PkSession/PkRemovePackageByFiles.cpp:64
+msgid "No supported files were provided"
+msgstr "未找到支持的文件。"
+
+#: PkSession/PkInstallPackageFiles.cpp:70
+msgid "Press <i>Continue</i> if you want to install this file"
+msgid_plural "Press <i>Continue</i> if you want to install these files"
+msgstr[0] "您想要安装这些文件请点击“继续”"
+
+#: PkSession/PkInstallPackageFiles.cpp:79
+#: PkSession/PkInstallPackageNames.cpp:71
+msgid "An application wants to install a package"
+msgid_plural "An application wants to install packages"
+msgstr[0] "一个程序想要安装软件包"
+
+#: PkSession/PkInstallPackageFiles.cpp:83
+#: PkSession/PkInstallPackageNames.cpp:75
+#, kde-format
+msgid "The application <i>%2</i> wants to install a package"
+msgid_plural "The application <i>%2</i> wants to install packages"
+msgstr[0] "%2 想要安装软件包"
+
+#: PkSession/PkInstallPackageFiles.cpp:106
+msgid "Installation Complete"
+msgstr "安装完成"
+
+#: PkSession/PkInstallPackageFiles.cpp:107
+msgid "File was installed successfully"
+msgid_plural "Files were installed successfully"
+msgstr[0] "文件安装成功"
+
+#: PkSession/PkInstallPackageFiles.cpp:118
+msgid "Failed to install files"
+msgstr "安装文件失败"
+
+#: PkSession/PkInstallPackageFiles.cpp:119
+#: PkSession/PkInstallPackageFiles.cpp:121
+msgid "Could not install files"
+msgstr "安装文件失败"
+
+#: PkSession/PkInstallPackageNames.cpp:41
+msgid "Install Packages by Name"
+msgstr "按名称安装软件包"
+
+#: PkSession/PkInstallPackageNames.cpp:58
+msgid "No package names were provided"
+msgstr "未提供文件名"
+
+#: PkSession/PkInstallPackageNames.cpp:61
+msgid "Do you want to search for and install this package now?"
+msgid_plural "Do you want to search for and install these packages now?"
+msgstr[0] "您想要即刻搜索并安装这些软件包吗？"
+
+#: PkSession/PkInstallPackageNames.cpp:109
+msgid "Failed to install packages"
+msgstr "安装软件包失败"
+
+#: PkSession/PkInstallPackageNames.cpp:110
+#, kde-format
+msgid "The package %2 is already installed"
+msgid_plural "The packages %2 are already installed"
+msgstr[0] "软件包 %2 已安装"
+
+#: PkSession/PkInstallPackageNames.cpp:118
+#: PkSession/PkRemovePackageByFiles.cpp:149 PkSession/PkSearchFile.cpp:89
+#, kde-format
+msgid "Could not find %1"
+msgstr "无法找到 %1"
+
+#: PkSession/PkInstallPackageNames.cpp:119
+msgid "The package could not be found in any software source"
+msgid_plural "The packages could not be found in any software source"
+msgstr[0] "未在任何软件源中找到软件包"
+
+#: PkSession/PkInstallPlasmaResources.cpp:40
+msgid "Install Plasma Resources"
+msgstr "安装离子资源"
+
+#: PkSession/PkInstallPlasmaResources.cpp:53
+#, kde-format
+msgid "%1 data engine"
+msgstr "%1 数据引擎"
+
+#: PkSession/PkInstallPlasmaResources.cpp:55
+#, kde-format
+msgid "%1 script engine"
+msgstr "%1 脚本引擎"
+
+#: PkSession/PkInstallPlasmaResources.cpp:67
+msgid "No supported resources were provided"
+msgstr "未提供支持的资源"
+
+#: PkSession/PkInstallPlasmaResources.cpp:69
+msgid "The following service is required. Do you want to search for this now?"
+msgid_plural ""
+"The following services are required. Do you want to search for these now?"
+msgstr[0] "需要如下服务，现在就查找它们吗？"
+
+#: PkSession/PkInstallPlasmaResources.cpp:78
+msgid "Plasma requires an additional service for this operation"
+msgid_plural "Plasma requires additional services for this operation"
+msgstr[0] "离子需要额外服务才能执行此操作"
+
+#: PkSession/PkInstallPlasmaResources.cpp:112
+msgid "Failed to search for Plasma service"
+msgstr "搜索离子服务失败"
+
+#: PkSession/PkInstallPlasmaResources.cpp:115
+msgid "Could not find service in any configured software source"
+msgstr "未在任何配置的软件源中找到服务"
+
+#: PkSession/PkInstallPrinterDrivers.cpp:39
+msgid "Install Printer Drivers"
+msgstr "安装打印驱动"
+
+#: PkSession/PkInstallPrinterDrivers.cpp:87
+msgid "Failed to search for printer driver"
+msgstr "无法找到打印驱动"
+
+#: PkSession/PkInstallPrinterDrivers.cpp:88
+msgid "Could not find printer driver in any configured software source"
+msgstr "未在任何软件源中找到打印驱动"
+
+#: PkSession/PkInstallProvideFiles.cpp:39
+msgid "Install Packages that Provides Files"
+msgstr "安装软件包以获得文件"
+
+#: PkSession/PkInstallProvideFiles.cpp:49
+msgid "No files were provided"
+msgstr "未提供文件"
+
+#: PkSession/PkInstallProvideFiles.cpp:52
+msgid "Do you want to search for this now?"
+msgid_plural "Do you want to search for these now?"
+msgstr[0] "要即刻搜索这些软件包吗？"
+
+#: PkSession/PkInstallProvideFiles.cpp:62
+msgid "A program wants to install a file"
+msgid_plural "A program wants to install files"
+msgstr[0] "一个程序想要安装文件"
+
+#: PkSession/PkInstallProvideFiles.cpp:66
+#, kde-format
+msgid "The application %2 is asking to install a file"
+msgid_plural "The application %2 is asking to install files"
+msgstr[0] "%2 想要安装文件"
+
+#: PkSession/PkInstallProvideFiles.cpp:88
+#: PkSession/PkRemovePackageByFiles.cpp:128 PkSession/PkSearchFile.cpp:55
+msgid "Failed to start search file transaction"
+msgstr "启动文件变更交易搜索失败"
+
+#: PkSession/PkInstallProvideFiles.cpp:102
+#, kde-format
+msgid "The %1 package already provides this file"
+msgstr "软件包 %1 已提供该文件"
+
+#: PkSession/PkInstallProvideFiles.cpp:108
+msgid "Failed to find package"
+msgstr "查找软件包失败"
+
+#: PkSession/PkInstallProvideFiles.cpp:109
+msgid "The file could not be found in any packages"
+msgid_plural "The files could not be found in any packages"
+msgstr[0] "未在任何软件包中找到文件"
+
+#: PkSession/PkIsInstalled.cpp:36
+msgid "Querying if a Package is Installed"
+msgstr "查询软件包是否被安装"
+
+#: PkSession/PkIsInstalled.cpp:67
+msgid "User canceled the transaction"
+msgstr "用户取消了交易"
+
+#: PkSession/PkIsInstalled.cpp:69
+msgid "An unknown error happened"
+msgstr "发生了未知错误"
+
+#: PkSession/PkRemovePackageByFiles.cpp:40
+msgid "Remove Packages that Provides Files"
+msgstr "删除提供所说文件的软件包"
+
+#: PkSession/PkRemovePackageByFiles.cpp:67
+msgid "Do you want to remove the following application?"
+msgid_plural "Do you want to remove the following applications?"
+msgstr[0] "确定要删除以下程序吗？"
+
+#: PkSession/PkRemovePackageByFiles.cpp:71
+#, fuzzy
+#| msgid ""
+#| "Do you want to search for packages containing this file and remove it now?"
+#| msgid_plural ""
+#| "Do you want to search for packages containing these files and remove them "
+#| "now?"
+msgid "Do you want to search for a package providing this file?"
+msgid_plural "Do you want to search for a package providing these files?"
+msgstr[0] "您想要即刻搜索包含这些文件的软件包并删除它们吗？"
+
+#: PkSession/PkRemovePackageByFiles.cpp:82
+#, fuzzy
+#| msgid "%2 wants to install a package"
+#| msgid_plural "%2 wants to install packages"
+msgid "An application is asking to remove an application"
+msgid_plural "An application is asking to remove applications"
+msgstr[0] "%2 想要安装软件包"
+
+#: PkSession/PkRemovePackageByFiles.cpp:86
+#, fuzzy
+#| msgid "%2 wants to install a package"
+#| msgid_plural "%2 wants to install packages"
+msgid "An application is asking to remove a file"
+msgid_plural "An application is asking to remove files"
+msgstr[0] "%2 想要安装软件包"
+
+#: PkSession/PkRemovePackageByFiles.cpp:92
+#, fuzzy, kde-format
+#| msgid "%2 wants to install a package"
+#| msgid_plural "%2 wants to install packages"
+msgid "The application <i>%2</i> is asking to remove an application"
+msgid_plural "The application <i>%2</i> is asking to remove applications"
+msgstr[0] "%2 想要安装软件包"
+
+#: PkSession/PkRemovePackageByFiles.cpp:97
+#, kde-format
+msgid "The application <i>%2</i> is asking to remove a file"
+msgid_plural "The application <i>%2</i> is asking to remove files"
+msgstr[0] "程序 %2 想要删除软件包"
+
+#: PkSession/PkRemovePackageByFiles.cpp:103
+msgid "No application was found"
+msgstr "未找到应用程序"
+
+#: PkSession/PkRemovePackageByFiles.cpp:150
+msgid "The file could not be found in any installed package"
+msgid_plural "The files could not be found in any installed package"
+msgstr[0] "未在任何已安装的软件包中找到文件"
+
+#: PkSession/PkSearchFile.cpp:38
+msgid "Search Packages that Provides Files"
+msgstr "搜索提供所说文件的软件包"
+
+#: PkSession/PkSearchFile.cpp:88
+msgid "The file name could not be found in any software source"
+msgstr "未在任何软件源中找到文件名"
+
+#: PkSession/ReviewChanges.cpp:50
+msgid "The following package was found"
+msgid_plural "The following packages were found"
+msgstr[0] "找到下列软件包"
+
+#: PkSession/SessionTask.cpp:367
+msgid "There are no packages to Install or Remove"
+msgstr "无需要安装或删除的软件包"
+
+#: PkSession/SessionTask.cpp:368
+msgid "This action should not happen"
+msgstr "不应该执行此动作"
+
+#: PkSession/SessionTask.cpp:399
+msgid "Could not find"
+msgstr "无法找到"
+
+#: PkSession/SessionTask.cpp:400 PkSession/SessionTask.cpp:409
+msgid "No packages were found that meet the request"
+msgstr "未找到要满足要求的软件包"
+
+#: PkSession/SessionTask.cpp:408
+msgid "Failed to find"
+msgstr "查找失败"
+
+#: PkSession/SessionTask.cpp:430
+msgid "Transaction did not finish with success"
+msgstr "交易未成功完成"
+
+#: PkSession/SessionTask.cpp:436
+msgid "Task completed"
+msgstr "任务完成"
+
+#: PkSession/SessionTask.cpp:436
+msgid "All operations were committed successfully"
+msgstr "全部操作成功执行"
+
+#, fuzzy
+#~| msgid "(C) 2008-2011 Daniel Nicoletti"
+#~ msgid "(C) 2008-2012 Daniel Nicoletti"
+#~ msgstr "(C) 2008-2011 Daniel Nicoletti"
+
+#~ msgid "(C) 2008-2011 Daniel Nicoletti"
+#~ msgstr "(C) 2008-2011 Daniel Nicoletti"
+
+#~ msgid "You have one update"
+#~ msgid_plural "You have %1 updates"
+#~ msgstr[0] "您有 %1 个可用更新"
+
+#~ msgid "Failed to set origin data"
+#~ msgstr "设定原始数据失败"
+
+#~ msgid "Software Updater"
+#~ msgstr "软件更新程序"
+
+#~ msgid "Click to upgrade to %1"
+#~ msgstr "点击以升级到 %1"
+
+#~ msgid "Review Updates"
+#~ msgstr "复查更新"
+
+#~ msgid "Configure"
+#~ msgstr "配置"
+
+#~ msgid "Apper Sentinel"
+#~ msgstr "Apper 卫士"
+
+#~ msgid "Check for updates:"
+#~ msgstr "检查更新："
+
+#~ msgctxt "transaction state, downloading package files"
+#~ msgid "Downloading packages"
+#~ msgstr "正在下载软件包"
+
+#~ msgid "Packages: %1"
+#~ msgstr "软件包：%1"
+
+#~ msgid "Ignore"
+#~ msgstr "忽略"
+
+#~ msgid "Transactions"
+#~ msgstr "变更交易"
+
+#~ msgid "%1% - %2"
+#~ msgstr "%1% - %2"
+
+#~ msgid "%1"
+#~ msgstr "%1"
+
+#~ msgid "Hide this icon"
+#~ msgstr "隐藏此图标"
+
+#~ msgid "Software Manager Messages"
+#~ msgstr "软件管理器消息"
+
+#~ msgid "One message from the software manager"
+#~ msgid_plural "%1 messages from the software manager"
+#~ msgstr[0] "软件管理器发出 %1 条消息"
+
+#~ msgid "Show messages"
+#~ msgstr "显示消息"
+
+#, fuzzy
+#~| msgid "Failed to remove package"
+#~ msgid "Failed to refresh package cache"
+#~ msgstr "删除软件包失败"
+
+#~ msgid ""
+#~ "Allows you to hide the window whilst keeping the transaction task running."
+#~ msgstr "允许您隐藏窗口而保持运行变更交易任务。"
+
+#~ msgid "Package"
+#~ msgstr "软件包"
+
+#, fuzzy
+#~| msgid "Configure"
+#~ msgctxt "Shown when you have not set a weather provider"
+#~ msgid "Please Configure"
+#~ msgstr "配置"
+
+#~ msgctxt "The role of the transaction, in present tense"
+#~ msgid "Updating system"
+#~ msgstr "正在更新系统"
+
+#~ msgctxt "The role of the transaction, in past tense"
+#~ msgid "Updated system"
+#~ msgstr "已更新系统"
+
+#~ msgid "Update System"
+#~ msgstr "更新系统"
+
+#~ msgctxt "transaction state, when we return to a previous system state"
+#~ msgid "Rolling back"
+#~ msgstr "正在回滚"
+
+#~ msgctxt "The role of the transaction, in present tense"
+#~ msgid "Rolling back"
+#~ msgstr "正在回滚"
+
+#~ msgctxt "The role of the transaction, in present tense"
+#~ msgid "Simulating the install of files"
+#~ msgstr "正在模拟安装文件"
+
+#~ msgctxt "The role of the transaction, in past tense"
+#~ msgid "Rolled back"
+#~ msgstr "已回滚"
+
+#~ msgctxt "The role of the transaction, in past tense"
+#~ msgid "Simulated the install of files"
+#~ msgstr "已经模拟安装了文件"
+
+#~ msgctxt "The role of the transaction, in past tense"
+#~ msgid "Simulated the install"
+#~ msgstr "已经模拟安装"
+
+#~ msgctxt "The role of the transaction, in past tense"
+#~ msgid "Simulated the remove"
+#~ msgstr "已经模拟删除"
+
+#~ msgctxt "The role of the transaction, in past tense"
+#~ msgid "Simulated the update"
+#~ msgstr "已经模拟更新"
+
+#~ msgid "Simulate Install Files"
+#~ msgstr "模拟安装文件"
+
+#~ msgid "Simulate Install Packages"
+#~ msgstr "模拟安装软件包"
+
+#~ msgid "Simulate Remove Packages"
+#~ msgstr "模拟删除软件包"
+
+#~ msgid "Simulate Update Packages"
+#~ msgstr "模拟更新软件包"
+
+#, fuzzy
+#~| msgid "Update settings"
+#~ msgid "Update Settings"
+#~ msgstr "更新设置"
+
+#~ msgid "Notify when updates are available"
+#~ msgstr "当更新可用时通知"
+
+#, fuzzy
+#~| msgid "Failed to start setup transaction"
+#~ msgid "Failed to commit transaction"
+#~ msgstr "启动设置交易失败"
+
+#, fuzzy
+#~| msgid "Failed to open"
+#~ msgid "Failed to accept EULA"
+#~ msgstr "打开失败"
+
+#~ msgid "Actions"
+#~ msgstr "动作"
+
+#~ msgid "(C) 2008-2010 Daniel Nicoletti"
+#~ msgstr "(C) 2008-2010 Daniel Nicoletti"
+
+#, fuzzy
+#~| msgid "Do you want to install this file?"
+#~| msgid_plural "Do you want to install these files?"
+#~ msgid "Press <i>Continue</i> if you want to remove"
+#~ msgstr "您想要安装这些文件吗？"
+
+#, fuzzy
+#~| msgid "Failed to remove package"
+#~ msgid "Do you want to remove a package:"
+#~ msgid_plural "Do you want to remove packages:"
+#~ msgstr[0] "删除软件包失败"
+
+#~ msgid "%2 wants to install a font"
+#~ msgid_plural "%2 wants to install fonts"
+#~ msgstr[0] "%2 想要安装字体"
+
+#~ msgid "Application that can open this type of file"
+#~ msgid_plural "Applications that can open this type of file"
+#~ msgstr[0] "能够打开此文件类型的应用程序"
+
+#~ msgid "Failed to search for plugin"
+#~ msgstr "搜索插件失败"
+
+#~ msgid "A program requires a new mime type"
+#~ msgid_plural "A program requires new mime types"
+#~ msgstr[0] "一个程序需要新的 mime 类型"
+
+#~ msgid "%2 requires a new mime type"
+#~ msgid_plural "%2 requires new mime types"
+#~ msgstr[0] "%2 需要新的 mime 类型"
+
+#~ msgctxt "Search for a new mime type"
+#~ msgid "Search"
+#~ msgstr "搜索"
+
+#, fuzzy
+#~| msgid "A program wants to install a package"
+#~| msgid_plural "A program wants to install packages"
+#~ msgid "An application wants to install a package:"
+#~ msgid_plural "An application wants to install packages:"
+#~ msgstr[0] "一个程序想要安装软件包"
+
+#, fuzzy
+#~| msgid "%2 wants to install a package"
+#~| msgid_plural "%2 wants to install packages"
+#~ msgid "The application <i>%2</i> wants to install a package:"
+#~ msgid_plural "The application <i>%2</i> wants to install packages:"
+#~ msgstr[0] "%2 想要安装软件包"
+
+#~ msgid "Install catalog"
+#~ msgid_plural "Install catalogs"
+#~ msgstr[0] "安装目录"
+
+#~ msgctxt "Parse the catalog search and install it"
+#~ msgid "Install"
+#~ msgstr "安装"
+
+#~ msgid "%2 wants to install a file"
+#~ msgid_plural "%2 wants to install files"
+#~ msgstr[0] "%2 想要安装文件"
+
+#~ msgctxt "Search for a package that provides these files and install it"
+#~ msgid "Install"
+#~ msgstr "安装"
+
+#~ msgid "A program wants to remove a file"
+#~ msgid_plural "A program wants to remove files"
+#~ msgstr[0] "一个程序想要删除文件"
+
+#~ msgid "%2 wants to remove a file"
+#~ msgid_plural "%2 wants to remove files"
+#~ msgstr[0] "%2 想要删除文件"
+
+#~ msgid "The following file is going to be removed:"
+#~ msgid_plural "The following files are going to be removed:"
+#~ msgstr[0] "将删除下列文件："
+
+#~ msgctxt "Search for a package and remove"
+#~ msgid "Search"
+#~ msgstr "搜索"
+
+#~ msgid "KPackageKit Error"
+#~ msgstr "KPackageKit 错误"
+
+#, fuzzy
+#~| msgid "Do you want to search for and install this package now?"
+#~| msgid_plural "Do you want to search for and install these packages now?"
+#~ msgid ""
+#~ "An additional package is required: <ul><li>%2</li></ul>Do you want to "
+#~ "search for and install this package now?"
+#~ msgid_plural ""
+#~ "Additional packages are required: <ul><li>%2</li></ul>Do you want to "
+#~ "search for and install these packages now?"
+#~ msgstr[0] "您想要即刻搜索并安装这些软件包吗？"
+
+#~ msgid "A program wants to install a package"
+#~ msgid_plural "A program wants to install packages"
+#~ msgstr[0] "一个程序想要安装软件包"
+
+#~ msgid "%2 wants to install a package"
+#~ msgid_plural "%2 wants to install packages"
+#~ msgstr[0] "%2 想要安装软件包"
+
+#~ msgctxt "Search for a package and install it"
+#~ msgid "Install"
+#~ msgstr "安装"
+
+#, fuzzy
+#~| msgid "Architectures"
+#~ msgid "Architecture"
+#~ msgstr "构架"
+
+#~ msgctxt "Search for packages"
+#~ msgid "Search"
+#~ msgstr "搜索"
+
+#~ msgid "This item is not supported by your backend, or it is not a file. "
+#~ msgid_plural ""
+#~ "These items are not supported by your backend, or they are not files."
+#~ msgstr[0] "您的后端不支持这些项目，或者它们不是文件。"
+
+#~ msgid "Impossible to install"
+#~ msgstr "无法安装"
+
+#~ msgid "Install?"
+#~ msgstr "安装吗？"
+
+#~ msgid "The file was not installed"
+#~ msgid_plural "The files were not installed"
+#~ msgstr[0] "文件未安装"
+
+#, fuzzy
+#~| msgid "KPackageKit Tray Icon"
+#~ msgid "Apper Tray Icon"
+#~ msgstr "KPackageKit 托盘图表"
+
+#~ msgid "Refresh package list"
+#~ msgstr "刷新软件包列表"
+
+#~ msgid "Logout"
+#~ msgstr "注销"
+
+#, fuzzy
+#~| msgid "Settings"
+#~ msgid "Application Manager Settings"
+#~ msgstr "设置"
+
+#, fuzzy
+#~| msgid "UpdateSystem"
+#~ msgid "Update Software"
+#~ msgstr "更新系统"
+
+#, fuzzy
+#~| msgid "Review Updates"
+#~ msgid "Review and Update Software"
+#~ msgstr "复查更新"
+
+#, fuzzy
+#~| msgid "Add and Remove Software"
+#~ msgid "Get and Remove Software"
+#~ msgstr "添加和删除软件"
+
+#~ msgid "KPackageKit settings"
+#~ msgstr "KPackageKit 设置"
+
+#~ msgid "Only native architectures"
+#~ msgstr "仅原生构架"
+
+#~ msgid "Only non-native architectures"
+#~ msgstr "仅非原生构架"
+
+#, fuzzy
+#~| msgid "Hide subpackages"
+#~ msgid "Hide packages"
+#~ msgstr "隐藏子软件包"
+
+#~ msgid "Message"
+#~ msgstr "消息"
+
+#~ msgid "(C) 2008-2009 Daniel Nicoletti"
+#~ msgstr "(C) 2008-2009 Daniel Nicoletti"
+
+#, fuzzy
+#~| msgctxt "Type of update, in the case it's just an update"
+#~| msgid "1 update selected"
+#~| msgid_plural "%1 updates selected"
+#~ msgctxt "Type of update, in the case it's just an update"
+#~ msgid "%1 Updates, %2 Selected"
+#~ msgstr "已选择 %1 个更新"
+
+#~ msgid "Rollback"
+#~ msgstr "回滚"
+
+#~ msgctxt "The transaction finished it's job"
+#~ msgid "Finished"
+#~ msgstr "已完成"
+
+#~ msgid "Type filter"
+#~ msgstr "类型过滤"
+
+#~ msgid "Time since last cache refresh: 5 hours"
+#~ msgstr "自上次缓存刷新时间：5 小时"
+
+#~ msgid "KDE interface for updating software"
+#~ msgstr "更新软件的 KDE 界面"
+
+#~ msgid "Home Page"
+#~ msgstr "主页"
+
+#~ msgctxt "Group of the package"
+#~ msgid "Group"
+#~ msgstr "分组"
+
+#, fuzzy
+#~| msgctxt "The role of the transaction, in past tense"
+#~| msgid "Installed packages"
+#~ msgid "Installed Packages"
+#~ msgstr "已安装软件包"
+
+#~ msgid "The following package will be installed"
+#~ msgid_plural "The following packages will be installed"
+#~ msgstr[0] "将安装下列软件包"
+
+#~ msgid "The following package will be installed:"
+#~ msgid_plural "The following packages will be installed:"
+#~ msgstr[0] "将安装下列软件包："
+
+#~ msgid "Install Now"
+#~ msgstr "立即安装"
+
+#~ msgid "The following package will be removed:"
+#~ msgid_plural "The following packages will be removed:"
+#~ msgstr[0] "将删除下列软件包："
+
+#~ msgid "Remove Now"
+#~ msgstr "立即删除"
+
+#~ msgid "The following package will be removed and installed:"
+#~ msgid_plural "The following packages will be removed and installed:"
+#~ msgstr[0] "将删除并安装下列软件包："
+
+#~ msgid "Apply Now"
+#~ msgstr "立即应用"
+
+#~ msgid "The following file is required:"
+#~ msgid_plural "The following files are required:"
+#~ msgstr[0] "需要下列文件："
+
+#~ msgid "%1 wants to install a file"
+#~ msgid_plural "%1 wants to install files"
+#~ msgstr[0] "%1 想要安装文件"
+
+#~ msgid "backend name here"
+#~ msgstr "这里是后端名称"
+
+#~ msgid "backend author name here"
+#~ msgstr "这里是后端作者"
+
+#~ msgid "backend description here"
+#~ msgstr "这里是后端描述"
+
+#~ msgid "InstallPackage"
+#~ msgstr "安装软件包"
+
+#~ msgid "RepositoryEnable"
+#~ msgstr "仓库启用"
+
+#~ msgid "RepositorySetEnable"
+#~ msgstr "仓库设为启用"
+
+#~ msgid "GetDepends"
+#~ msgstr "获取依赖"
+
+#~ msgid "GetRequires"
+#~ msgstr "所需"
+
+#~ msgid "GetFiles"
+#~ msgstr "获取文件"
+
+#~ msgid "Not now"
+#~ msgstr "不是现在"
+
+#~ msgid "Do you recognise the user and trust this key?"
+#~ msgstr "您认识该用户并信任此密钥吗？"
+
+#~ msgid "Type"
+#~ msgstr "类型"
+
+#~ msgctxt "State of the upgrade (ie testing, unstable..)"
+#~ msgid "State"
+#~ msgstr "状态"
+
+#~ msgid "Issued"
+#~ msgstr "已发行"
+
+#~ msgid "New version"
+#~ msgstr "新版本"
+
+#~ msgid "Changes"
+#~ msgstr "更改"
+
+#~ msgid "Vendor"
+#~ msgstr "销售商"
+
+#~ msgid "Bugzilla"
+#~ msgstr "Bugzilla"
+
+#~ msgid "CVE"
+#~ msgstr "CVE"
+
+#~ msgid "Notice"
+#~ msgstr "注意"
+
+#~ msgid "1 trivial update"
+#~ msgid_plural "%1 trivial updates"
+#~ msgstr[0] "%1 个不重要更新"
+
+#~ msgid "1 important update"
+#~ msgid_plural "%1 important updates"
+#~ msgstr[0] "%1 个重要更新"
+
+#~ msgid "1 security update"
+#~ msgid_plural "%1 security updates"
+#~ msgstr[0] "%1 个安全更新"
+
+#~ msgid "1 bug fix update"
+#~ msgid_plural "%1 bug fix updates"
+#~ msgstr[0] "%1 个错误修复更新"
+
+#~ msgid "1 enhancement update"
+#~ msgid_plural "%1 enhancement updates"
+#~ msgstr[0] "%1 个增强更新"
+
+#~ msgid "1 blocked update"
+#~ msgid_plural "%1 blocked updates"
+#~ msgstr[0] "%1 个已屏蔽的更新"
+
+#~ msgid "1 available package"
+#~ msgid_plural "%1 available packages"
+#~ msgstr[0] "%1 个可用软件包"
+
+#~ msgid "1 unknown update"
+#~ msgid_plural "%1 unknown updates"
+#~ msgstr[0] "%1 个未知更新"
+
+#~ msgid "1 trivial update selected"
+#~ msgid_plural "%1 trivial updates selected"
+#~ msgstr[0] "已选择 %1 个次要更新"
+
+#~ msgid "1 important update selected"
+#~ msgid_plural "%1 important updates selected"
+#~ msgstr[0] "已选择 %1 个重要更新"
+
+#~ msgid "1 security update selected"
+#~ msgid_plural "%1 security updates selected"
+#~ msgstr[0] "已选择 %1 个安全更新"
+
+#~ msgid "1 bug fix update selected"
+#~ msgid_plural "%1 bug fix updates selected"
+#~ msgstr[0] "已选择 %1 个错误修复更新"
+
+#~ msgid "1 enhancement update selected"
+#~ msgid_plural "%1 enhancement updates selected"
+#~ msgstr[0] "已选择 %1 个增强更新"
+
+#~ msgid "1 installed package selected to be removed"
+#~ msgid_plural "%1 installed packages selected to be removed"
+#~ msgstr[0] "已选择 %1 个要删除的已安装软件包"
+
+#~ msgid "1 available package selected to be installed"
+#~ msgid_plural "%1 available packages selected to be installed"
+#~ msgstr[0] "已选择 %1 个要安装的可用软件包"
+
+#~ msgid "%1 trivial update"
+#~ msgid_plural "%1 trivial updates, %2 selected"
+#~ msgstr[0] "%1 个次要更新，已选择 %2 个"
+
+#~ msgid "%1 important update"
+#~ msgid_plural "%1 important updates, %2 selected"
+#~ msgstr[0] "%1 个重要更新，已选择 %2 个"
+
+#~ msgid "%1 security update"
+#~ msgid_plural "%1 security updates, %2 selected"
+#~ msgstr[0] "%1 个安全更新，已选择 %2 个"
+
+#~ msgid "%1 bug fix update"
+#~ msgid_plural "%1 bug fix updates, %2 selected"
+#~ msgstr[0] "%1 个错误修复更新，已选择 %2 个"
+
+#~ msgid "%1 enhancement update"
+#~ msgid_plural "%1 enhancement updates, %2 selected"
+#~ msgstr[0] "%1 个增强更新，已选择 %2 个"
+
+#~ msgid "%1 blocked update"
+#~ msgid_plural "%1 blocked updates"
+#~ msgstr[0] "%1 个已屏蔽的更新"
+
+#~ msgid "%1 installed package"
+#~ msgid_plural "%1 installed packages, %2 selected to be removed"
+#~ msgstr[0] "%1 个已安装软件包，已选择 %2 个要删除的软件包"
+
+#~ msgid "%1 available package"
+#~ msgid_plural "%1 available packages, %2 selected to be installed"
+#~ msgstr[0] "%1 个可用软件包，已选择 %2 个要安装的软件包"
+
+#~ msgid "%1 unknown update"
+#~ msgid_plural "%1 unknown updates"
+#~ msgstr[0] "%1 个未知更新"
+
+#~ msgctxt "Type of update, in the case it's just an update"
+#~ msgid "%1 update"
+#~ msgid_plural "%1 updates, %2 selected"
+#~ msgstr[0] "%1 个更新，已选择 %2 个"
+
+#~ msgid "Add and remove software"
+#~ msgstr "添加和删除软件"
+
+#~ msgid "Text search"
+#~ msgstr "文字搜索"
+
+#~ msgid "List of changes"
+#~ msgstr "更改列表"
+
+#~ msgctxt "Groups of packages"
+#~ msgid "Group:"
+#~ msgid_plural "Groups:"
+#~ msgstr[0] "分组："
+
+#~ msgid "View in groups"
+#~ msgstr "分组查看"
+
+#~ msgid "Display packages in groups according to status"
+#~ msgstr "根据状态分组显示软件包"
+
+#~ msgid "All Packages"
+#~ msgstr "全部软件包"
+
+#~ msgid "Select All Updates"
+#~ msgstr "选择全部更新"
+
+#, fuzzy
+#~| msgid "Finished in %1."
+#~ msgctxt "The time that the transaction took to complete"
+#~ msgid "Finished in %1."
+#~ msgstr "在 %1 内完成。"
+
+#~ msgid "Refresh"
+#~ msgstr "刷新"
+
+#~ msgid "Transaction"
+#~ msgstr "交易"
+
+#~ msgid "libfoo"
+#~ msgstr "libfoo"
+
+#, fuzzy
+#~| msgid "Show updates"
+#~ msgid "Show Updates View"
+#~ msgstr "显示更新"
+
+#~ msgid "You have %1"
+#~ msgstr "您有 %1"
+
+#~ msgid "<br /><i>And another update</i>"
+#~ msgid_plural "<br /><i>And %1 more updates</i>"
+#~ msgstr[0] "<br /><i>以及 %1 个其它更新</i>"

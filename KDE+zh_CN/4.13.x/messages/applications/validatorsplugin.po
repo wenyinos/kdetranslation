@@ -1,0 +1,296 @@
+# translation of validatorsplugin.po to 简体中文
+# Copyright (C) 2008, 2009 Free Software Foundation, Inc.
+#
+# Mai Hao Hui <mhh@126.com>, 2001.
+# Sarah Smith <sarahs@redhat.com>, 2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2008, 2009.
+# FengChao <rainofchaos@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: validatorsplugin\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-20 03:23+0200\n"
+"PO-Revision-Date: 2011-11-06 11:26+0800\n"
+"Last-Translator: FengChao <rainofchaos@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "KDE 中国"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-china@kde.org"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: internalvalidator.ui:18
+msgid "Accessibility validation level:"
+msgstr "辅助验证级别："
+
+#. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
+#: internalvalidator.ui:26
+msgid "0 (No check)"
+msgstr "0(不检查)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
+#: internalvalidator.ui:31
+msgid "1"
+msgstr "1"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
+#: internalvalidator.ui:36
+msgid "2"
+msgstr "2"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, accessibilityLevel)
+#: internalvalidator.ui:41
+msgid "3"
+msgstr "3"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, runAfterLoading)
+#: internalvalidator.ui:49
+msgid ""
+"If this option is enabled, the internal HTML validator is executed after a "
+"webpage has been loaded."
+msgstr "如果启用此选项，内部 HTML 校验器将在网页装入后执行。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, runAfterLoading)
+#: internalvalidator.ui:52
+msgid "Run after loading"
+msgstr "装入后运行"
+
+#: plugin_validators.cpp:60
+msgid "Validate Web Page"
+msgstr "校验网页"
+
+#: plugin_validators.cpp:131
+msgid "&Validate Web Page"
+msgstr "校验网页(&V)"
+
+#: plugin_validators.cpp:137
+msgid "Validate HTML (by URI)"
+msgstr "校验 HTML(通过 URI)"
+
+#: plugin_validators.cpp:141
+msgid "Validate HTML (by Upload)"
+msgstr "校验 HTML(通过上传)"
+
+#: plugin_validators.cpp:145
+msgid "Validate CSS (by URI)"
+msgstr "校验 CSS(通过 URI)"
+
+#: plugin_validators.cpp:149
+msgid "Validate CSS (by Upload)"
+msgstr "校验 CSS(通过上传)"
+
+#: plugin_validators.cpp:154
+msgid "Validate &Links"
+msgstr "校验链接(&L)"
+
+#: plugin_validators.cpp:160
+msgid "Validate Page"
+msgstr "校验页面"
+
+#: plugin_validators.cpp:164
+msgid "View Validator Report"
+msgstr "查看校验报告"
+
+#: plugin_validators.cpp:172
+msgid "C&onfigure Validator..."
+msgstr "配置校验器(&O)..."
+
+#: plugin_validators.cpp:318 validatorsdialog.cpp:49
+msgid "Remote Validation"
+msgstr "远程校验"
+
+#: plugin_validators.cpp:325
+msgid "Local Validation"
+msgstr "本地校验"
+
+#: plugin_validators.cpp:364 plugin_validators.cpp:385
+#: plugin_validators.cpp:391 plugin_validators.cpp:402
+#: plugin_validators.cpp:410
+#, kde-format
+msgid "1 error"
+msgid_plural "%1 errors"
+msgstr[0] "%1 个错误"
+
+#: plugin_validators.cpp:365 plugin_validators.cpp:386
+#: plugin_validators.cpp:392 plugin_validators.cpp:403
+#: plugin_validators.cpp:411
+#, kde-format
+msgid "1 warning"
+msgid_plural "%1 warnings"
+msgstr[0] "%1 个警告"
+
+#: plugin_validators.cpp:366 plugin_validators.cpp:387
+#: plugin_validators.cpp:404
+#, kde-format
+msgid "1 accessibility warning"
+msgid_plural "%1 accessibility warnings"
+msgstr[0] "%1 个辅助警告"
+
+#: plugin_validators.cpp:368
+#, kde-format
+msgctxt "%1 is the error count string, %2 the warning count string"
+msgid "%1, %2"
+msgstr "%1，%2"
+
+#: plugin_validators.cpp:370
+msgid "HTML tidy results:"
+msgstr "HTML tidy 结果："
+
+#: plugin_validators.cpp:384
+#, kde-format
+msgctxt ""
+"%1 is the error count string, %2 the warning count string, %3 the "
+"accessibility warning string"
+msgid "Page: %1, %2, %3"
+msgstr "页：%1，%2，%3"
+
+#: plugin_validators.cpp:390
+#, kde-format
+msgctxt "%1 is the error count string, %2 the warning count string"
+msgid "Page: %1, %2"
+msgstr "页：%1，%2"
+
+#: plugin_validators.cpp:400
+#, kde-format
+msgctxt ""
+"%1 is the HTML frame name, %2 is the error count string, %3 the warning "
+"count string, %4 the accessibility warning string"
+msgid "Frame '%1': %2, %3, %4"
+msgstr "框架“%1”：%2，%3，%4"
+
+#: plugin_validators.cpp:408
+#, kde-format
+msgctxt ""
+"%1 is the HTML frame name, %2 is the error count string, %3 the warning "
+"count string"
+msgid "Frame '%1': %2, %3"
+msgstr "框架“%1”：%2，%3"
+
+#: plugin_validators.cpp:461
+#, kde-format
+msgid ""
+"<qt>The selected URL cannot be verified because it contains a password. "
+"Sending this URL to <b>%1</b> would put the security of <b>%2</b> at risk.</"
+"qt>"
+msgstr ""
+"<qt>无法校验选定的 URL，原因是它包含密码。将该 URL 发送给 <b>%1</b> 会危害 "
+"<b>%2</b> 的安全。</qt>"
+
+#: plugin_validators.cpp:534
+msgctxt "@title:window"
+msgid "Cannot Validate Source"
+msgstr "无法校验源文件"
+
+#: plugin_validators.cpp:535
+msgid "You cannot validate anything except web pages with this plugin."
+msgstr "本插件只能校验网页。"
+
+#: plugin_validators.cpp:546
+msgctxt "@title:window"
+msgid "Malformed URL"
+msgstr "格式异常的 URL"
+
+#: plugin_validators.cpp:547
+msgid "The URL you entered is not valid, please correct it and try again."
+msgstr "您输入的 URL 无效，请更正后再试。"
+
+#: plugin_validators.cpp:573
+msgid "Validation"
+msgstr "校验"
+
+#. i18n: ectx: Menu (tools)
+#: plugin_validators.rc:4
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#. i18n: ectx: ToolBar (extraToolBar)
+#: plugin_validators.rc:8
+msgid "Extra Toolbar"
+msgstr "额外工具栏"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: remotevalidators.ui:16
+msgid "HTML/XML Validator"
+msgstr "HTML/XML 校验器"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: remotevalidators.ui:22 remotevalidators.ui:71 remotevalidators.ui:120
+msgid "URL:"
+msgstr "URL："
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: remotevalidators.ui:42 remotevalidators.ui:91
+msgid "Upload:"
+msgstr "上传："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: remotevalidators.ui:65
+msgid "CSS Validator"
+msgstr "CSS 校验器"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: remotevalidators.ui:114
+msgid "Link Validator"
+msgstr "链接校验器"
+
+#: reportdialog.cpp:63
+msgctxt "@title:window"
+msgid "Validation Report"
+msgstr "校验报告"
+
+#: reportdialog.cpp:77
+msgctxt "Validation status"
+msgid "Error"
+msgstr "错误"
+
+#: reportdialog.cpp:85
+msgctxt "Validation status"
+msgid "Warning"
+msgstr "警告"
+
+#: reportdialog.cpp:93
+msgctxt "Validation status"
+msgid "Accessibility warning"
+msgstr "辅助警告"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
+#: reportwidget.ui:34
+msgid "Frame"
+msgstr "框架"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
+#: reportwidget.ui:39
+msgid "Row"
+msgstr "行"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
+#: reportwidget.ui:44
+msgid "Column"
+msgstr "列"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, reportsView)
+#: reportwidget.ui:49
+msgid "Message"
+msgstr "消息"
+
+#: validatorsdialog.cpp:35
+msgctxt "@title:window"
+msgid "Configure Validator Plugin"
+msgstr "配置校验插件"
+
+#: validatorsdialog.cpp:42
+msgid "Internal Validation"
+msgstr "内部校验"

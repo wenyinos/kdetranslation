@@ -1,0 +1,685 @@
+# translation of akonadi_pop3_resource.po to 简体中文
+# Note and phrase to further translation:
+# Copyright (C) 2002,2003, 2004, 2009 Free Software Foundation, Inc.
+#
+# Wang Jian <lark@linux.ustc.edu.cn>, 1998.
+# Xiong Jiang <jxiong@offtopic.org>, 2002,2003.
+# Levin Du <zsdjw@21cn.com>, 2004.
+# Funda Wang <fundawang@linux.net.cn>, 2002,2003,2004.
+# Ni Hui <shuizhuyuanluo@126.com>, 2009, 2010, 2012.
+# Lie_Ex <lilith.ex@gmail.com>, 2007-2010.
+# Weng Xuetian <wengxt@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: akonadi_pop3_resource\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2013-07-06 01:37+0000\n"
+"PO-Revision-Date: 2012-05-28 12:07+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: accountdialog.cpp:82
+msgid "POP3 Account Settings"
+msgstr "POP3 帐号设置"
+
+#: accountdialog.cpp:107
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] " 分钟"
+
+#: accountdialog.cpp:168
+msgid "POP3 Account"
+msgstr "POP3 账户"
+
+#: accountdialog.cpp:241
+msgid "Wallet disabled in system settings"
+msgstr "钱包系统在系统设置中已禁用"
+
+#: accountdialog.cpp:270
+msgid "Unable to open wallet"
+msgstr "无法打开钱包"
+
+#: accountdialog.cpp:334
+msgid ""
+"The server does not seem to support unique message numbers, but this is a "
+"requirement for leaving messages on the server.\n"
+"Since some servers do not correctly announce their capabilities you still "
+"have the possibility to turn leaving fetched messages on the server on."
+msgstr ""
+"服务器似乎不支持唯一信件号，但是要在服务器上保留信件，必须使用此特性。\n"
+"由于某些服务器无法正确声明其能力，您仍然有机会关闭在服务器上保留信件的功能。"
+
+#: accountdialog.cpp:350
+msgid ""
+"The server does not seem to support fetching message headers, but this is a "
+"requirement for filtering messages on the server.\n"
+"Since some servers do not correctly announce their capabilities you still "
+"have the possibility to turn filtering messages on the server on."
+msgstr ""
+"服务器似乎不支持获取信件头，但是要在服务器上过滤信件，必须使用此特性。\n"
+"由于某些服务器无法正确声明其能力，您仍然有机会关闭在服务器上过滤信件的功能。"
+
+#: accountdialog.cpp:365
+msgid ""
+"Please note that this feature can cause some POP3 servers that do not "
+"support pipelining to send corrupted mail;\n"
+"this is configurable, though, because some servers support pipelining but do "
+"not announce their capabilities. To check whether your POP3 server announces "
+"pipelining support use the \"Check What the Server Supports\" button at the "
+"bottom of the dialog;\n"
+"if your server does not announce it, but you want more speed, then you "
+"should do some testing first by sending yourself a batch of mail and "
+"downloading it."
+msgstr ""
+"请注意该特性可能会引起不支持流水线的 POP3 服务器发送损坏的邮件；\n"
+"这是可以配置的，因为有些服务器支持流水线但是没有声明它们具有这种能力。要检查"
+"您的 POP3 服务器是否声明支持流水线，请点对话框底部的“检查服务器的支持情况”按"
+"钮；\n"
+"如果您的服务器并未声明支持，而您又希望得到更快的速度，您应该先测试一下，发送"
+"一批邮件给您自己，然后下载这些邮件看流水线方式是否正常。"
+
+#: accountdialog.cpp:393
+msgid "Please specify a server and port on the General tab first."
+msgstr "请先在常规标签中指定服务器和端口。"
+
+#: accountdialog.cpp:427
+msgid "Unable to connect to the server, please verify the server address."
+msgstr "无法连接到服务器，请检查服务器地址"
+
+#: accountdialog.cpp:468
+msgid ""
+"The server does not seem to support pipelining; therefore, this option has "
+"been disabled.\n"
+"Since some servers do not correctly announce their capabilities you still "
+"have the possibility to turn pipelining on. But please note that this "
+"feature can cause some POP servers that do not support pipelining to send "
+"corrupt messages. So before using this feature with important mail you "
+"should first test it by sending yourself a larger number of test messages "
+"which you all download in one go from the POP server."
+msgstr ""
+"服务器似乎不支持流水线；因此，此选项已被禁用。\n"
+"由于某些服务器无法正确声明其能力，您仍然有机会关闭流水线特性。但是请注意，此"
+"特性可能导致某些不支持流水线的 POP 服务器发送损坏的信件。所以，在此使用此特性"
+"处理重要邮件之前，您应该先向您自己发送大量测试信件，然后从 POP 服务器一次性收"
+"取。"
+
+#: accountdialog.cpp:489
+msgid ""
+"The server does not seem to support unique message numbers, but this is a "
+"requirement for leaving messages on the server; therefore, this option has "
+"been disabled.\n"
+"Since some servers do not correctly announce their capabilities you still "
+"have the possibility to turn leaving fetched messages on the server on."
+msgstr ""
+"服务器似乎不支持唯一信件号，但是要在服务器上保留信件，必须使用此特性；因此，"
+"此选项已被禁用。\n"
+"由于某些服务器无法正确声明其能力，您仍然有机会关闭在服务器上保留信件的功能。"
+
+#: accountdialog.cpp:504
+msgid ""
+"The server does not seem to support fetching message headers, but this is a "
+"requirement for filtering messages on the server; therefore, this option has "
+"been disabled.\n"
+"Since some servers do not correctly announce their capabilities you still "
+"have the possibility to turn filtering messages on the server on."
+msgstr ""
+"服务器似乎不支持获取信件头，但是要在服务器上过滤信件，必须使用此特性；因此，"
+"此选项已被禁用。\n"
+"由于某些服务器无法正确声明其能力，您仍然有机会关闭在服务器上过滤信件的功能。"
+
+#: accountdialog.cpp:539
+msgid " day"
+msgid_plural " days"
+msgstr[0] " 天"
+
+#: accountdialog.cpp:545
+msgid " message"
+msgid_plural " messages"
+msgstr[0] " 封信件"
+
+#: accountdialog.cpp:551
+msgid " byte"
+msgid_plural " bytes"
+msgstr[0] " 字节"
+
+#: jobs.cpp:285
+msgid "Unable to create POP3 slave, aborting mail check."
+msgstr "无法创建 POP 从设备，中止邮件检查操作。"
+
+#: pop3resource.cpp:104
+msgid "Mail check aborted."
+msgstr "邮件检查已中止。"
+
+#: pop3resource.cpp:110
+msgid "Mail check was canceled manually."
+msgstr "邮件检查已被手动取消。"
+
+#: pop3resource.cpp:143
+#, kde-format
+msgid "Please enter the username and password for account '%1'."
+msgstr "请输入账户“%1”的用户名和密码。"
+
+#: pop3resource.cpp:169
+msgid ""
+"You are asked here because the password could not be loaded from the wallet."
+msgstr "询问您账户的原因是无法从钱包中装载密码。"
+
+#: pop3resource.cpp:208
+msgid "Account:"
+msgstr "账户："
+
+#: pop3resource.cpp:225
+msgid "No username and password supplied."
+msgstr "未提供用户名和密码。"
+
+#: pop3resource.cpp:248
+#, kde-format
+msgid "Preparing transmission from \"%1\"."
+msgstr "正在准备从“%1”传送。"
+
+#: pop3resource.cpp:275
+msgid "Executing precommand."
+msgstr "正在执行前置命令。"
+
+#: pop3resource.cpp:307
+msgid "You are asked here because the previous login was not successful."
+msgstr "询问您账户的原因是上一次登录未成功。"
+
+#: pop3resource.cpp:309
+msgid "You are asked here because the username you supplied is empty."
+msgstr "询问您账户的原因是提供的用户名为空。"
+
+#: pop3resource.cpp:311
+msgid "You are asked here because the wallet password storage is disabled."
+msgstr "询问您账户的原因是无法从钱包密码存储已禁用。"
+
+#: pop3resource.cpp:345
+msgid "Fetching mail listing."
+msgstr "正在获取邮件列表。"
+
+#: pop3resource.cpp:404
+msgid "Saving downloaded messages."
+msgstr "正在保存已下载的信件。"
+
+#: pop3resource.cpp:419
+msgid "Deleting messages from the server."
+msgstr "正在从服务器上删除信件。"
+
+#: pop3resource.cpp:447
+msgid "Saving password to the wallet."
+msgstr "将密码保存到钱包。"
+
+#: pop3resource.cpp:465
+msgid "Error while trying to get the local inbox folder, aborting mail check."
+msgstr "尝试获取本地收件夹时出错，中止邮件检查。"
+
+#: pop3resource.cpp:471
+#, kde-format
+msgid ""
+"<qt>The folder you deleted was associated with the account <b>%1</b> which "
+"delivered mail into it. The folder the account delivers new mail into was "
+"reset to the main Inbox folder.</qt>"
+msgstr ""
+"<qt>您所删除的文件夹与与账户 <b>%1</b> 关联，发往该账户的邮件将会投递到该文件"
+"夹中。发往该账户的新邮件已重置为主收件箱文件夹。</qt>"
+
+#: pop3resource.cpp:491
+msgid ""
+"Error while trying to get the folder for incoming mail, aborting mail check."
+msgstr "尝试获取新收件的文件夹时出错，中止邮件检查。"
+
+#: pop3resource.cpp:504
+msgid "Could not find folder for incoming mail, aborting mail check."
+msgstr "找不到新收件的文件夹，中止邮件检查。"
+
+#: pop3resource.cpp:516
+msgid "Error while executing precommand."
+msgstr "执行前置命令时出错。"
+
+#: pop3resource.cpp:531
+#, kde-format
+msgid "Unable to login to the server %1."
+msgstr "无法登录到服务器 %1。"
+
+#: pop3resource.cpp:542
+msgid "Error while getting the list of messages on the server."
+msgstr "获取服务器上的信件列表时出错。"
+
+#: pop3resource.cpp:557
+msgid "Error while getting list of unique mail identifiers from the server."
+msgstr "从服务器获取信件唯一标识符列表时出错。"
+
+#: pop3resource.cpp:572
+#, kde-format
+msgid ""
+"Your POP3 server (Account: %1) does not support the UIDL command: this "
+"command is required to determine, in a reliable way, which of the mails on "
+"the server KMail has already seen before;\n"
+"the feature to leave the mails on the server will therefore not work "
+"properly."
+msgstr ""
+"您的 POP3 服务器(账户：%1)不支持 UIDL 命令：Kmail 需要该命令来可靠地判断服务"
+"器上哪些邮件 KMail 已经下载过；\n"
+"因此把邮件保留在服务器上的功能无法正常工作。"
+
+#: pop3resource.cpp:586
+msgid "Error while fetching mails from the server."
+msgstr "从服务器获取信件时出错。"
+
+#: pop3resource.cpp:655
+#, kde-format
+msgid ""
+"Fetching message %1 of %2 (%3 of %4 KB) for %5 (%6 KB remain on the server)."
+msgstr ""
+"正在获取 %5 的信件，已获取 %1 封，共 %2 封(%3/%4 KB，服务器上剩余 %6 KB)。"
+
+#: pop3resource.cpp:663
+#, kde-format
+msgid "Fetching message %1 of %2 (%3 of %4 KB) for %5"
+msgstr "正在获取 %5 的信件，已获取 %1 封，共 %2 封(%3/%4 KB)"
+
+#: pop3resource.cpp:684
+msgid "Unable to store downloaded mails."
+msgstr "无法存储已下载的邮件。"
+
+#: pop3resource.cpp:815
+msgid "Failed to delete the messages from the server."
+msgstr "从服务器删除信件失败。"
+
+#: pop3resource.cpp:855
+msgid "Finished mail check, no message downloaded."
+msgstr "邮件检查完成，没有新下载的信件。"
+
+#: pop3resource.cpp:857
+#, kde-format
+msgid "Finished mail check, 1 message downloaded."
+msgid_plural "Finished mail check, %1 messages downloaded."
+msgstr[0] "邮件检查完成，下载了 %1 封信件。"
+
+#: pop3resource.cpp:867
+msgid "Unable to complete the mail fetch."
+msgstr "无法完成获取邮件操作。"
+
+#: pop3resource.cpp:1005
+msgid "Mail check already in progress, unable to start a second check."
+msgstr "邮件检查还在进行，无法重复开始检查。"
+
+#: pop3resource.cpp:1018
+msgid "Ready"
+msgstr "就绪"
+
+#: pop3resource.cpp:1021
+msgid "Mail check aborted after going offline."
+msgstr "离线后邮件检查已中止。"
+
+#: pop3resource.cpp:1023
+msgid "Offline"
+msgstr "离线"
+
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#: popsettings.ui:23
+msgid "Account Type: POP Account"
+msgstr "账户类型：POP 账户"
+
+#. i18n: ectx: attribute (title), widget (QWidget, page1)
+#: popsettings.ui:46
+msgid "General"
+msgstr "常规"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: popsettings.ui:65
+msgid "Mail Checking Options"
+msgstr "邮件检查选项"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, intervalCheck)
+#: popsettings.ui:71
+msgid ""
+"If active, the POP3 account will be checked for new mail every x minutes"
+msgstr "如果启用此项，POP3 账户会每隔一定分钟数检查新邮件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, intervalCheck)
+#: popsettings.ui:74
+msgid "Enable &interval mail checking"
+msgstr "启用定时邮件检查(&I)"
+
+#. i18n: ectx: property (text), widget (QLabel, intervalLabel)
+#: popsettings.ui:83
+msgid "Check mail interval:"
+msgstr "邮件检查间隔："
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: popsettings.ui:111
+msgid "Account Information"
+msgstr "账户名信息"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, loginEdit)
+#: popsettings.ui:120 popsettings.ui:176
+msgid ""
+"Your Internet Service Provider gave you a <em>user name</em> which is used "
+"to authenticate you with their servers. It usually is the first part of your "
+"email address (the part before <em>@</em>)."
+msgstr ""
+"您的互联网服务提供商(ISP)会给您一个<em>用户名</em>，您可以使用该用户名向他们"
+"的服务器验证自己。该用户名通常是您电子邮件地址的第一部分(<em>@</em>前面的部"
+"分)。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: popsettings.ui:123
+msgid "Account &name:"
+msgstr "账户名(&N)："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, nameEdit)
+#: popsettings.ui:133
+msgid "Name displayed in the list of accounts"
+msgstr "账户列表中显示的名称"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, nameEdit)
+#: popsettings.ui:136
+msgid "Account name: This defines the name displayed in the account list."
+msgstr "账户名：定义了在账户列表中显示的名称。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: popsettings.ui:143
+msgid "Incoming mail &server:"
+msgstr "收信服务器(&S)："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, hostEdit)
+#: popsettings.ui:153
+msgid "Address of the mail POP3 server"
+msgstr "POP3 邮件服务器地址"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, hostEdit)
+#: popsettings.ui:156
+msgid ""
+"The address of the POP3 server, e.g. pop3.yourprovider.org. You should get "
+"this address from your mail provider."
+msgstr ""
+"POP3 服务器的地址，比如 pop3.yourprovider.org。您应该可以从邮件服务提供方处获"
+"得此地址。"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: popsettings.ui:163
+msgid "Username:"
+msgstr "用户名："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, loginEdit)
+#: popsettings.ui:173
+msgid "The username that identifies you against the mail server"
+msgstr "您在邮件服务器上的用户名"
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: popsettings.ui:183
+msgid "P&assword:"
+msgstr "密码(&A)："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, passwordEdit)
+#: popsettings.ui:193
+msgid "Password for access to the mail server"
+msgstr "访问邮件服务器所需的密码"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, passwordEdit)
+#: popsettings.ui:196
+msgid "Password: The password given to you by your mail provider."
+msgstr "密码：密码应该由您的邮件服务提供方提供。"
+
+#. i18n: ectx: attribute (title), widget (QWidget, page2)
+#: popsettings.ui:210
+msgid "Advanced"
+msgstr "高级"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: popsettings.ui:216
+msgid "POP Settings"
+msgstr "POP 设置"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, leaveOnServerCheck)
+#: popsettings.ui:222
+msgid "If checked the message is not deleted from the mail server"
+msgstr "如果选中此项，KMail 将不会在邮件服务器上删除邮件"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, leaveOnServerCheck)
+#: popsettings.ui:225
+msgid ""
+"Check this option if you want to fetch only copies of the mails and leave "
+"the original mails on the server."
+msgstr "如果您只想从服务器上获取邮件副本，并将原件保留在服务器上，请选中此项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, leaveOnServerCheck)
+#: popsettings.ui:228
+msgid "Lea&ve fetched messages on the server"
+msgstr "在服务器上保留已取的信件(&V)"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, leaveOnServerDaysCheck)
+#: popsettings.ui:241
+msgid "The original message is deleted from the server after x days"
+msgstr "在指定天数后删除服务器上的原始信件"
+
+#. i18n: ectx: property (text), widget (QCheckBox, leaveOnServerDaysCheck)
+#: popsettings.ui:244
+msgid "Days to leave messages on the server:"
+msgstr "在服务器上保留新建的天数："
+
+#. i18n: ectx: property (suffix), widget (KIntNumInput, leaveOnServerDaysSpin)
+#: popsettings.ui:263
+msgctxt "Number of days that the message will be left on the server."
+msgid " days"
+msgstr " 天"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, leaveOnServerCountCheck)
+#: popsettings.ui:270
+msgid "Only the x most recent messages are kept on the server"
+msgstr "在服务器上只保留最近一定数量的信件"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, leaveOnServerCountCheck)
+#: popsettings.ui:273
+msgid ""
+"Check this option if you want to only keep the x most recent messages on the "
+"server and delete all older."
+msgstr ""
+"如果您想只在服务器上保留最近一定数量的信件，并删除较旧的信件，请选中此项。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, leaveOnServerCountCheck)
+#: popsettings.ui:276
+msgid "Number of messages to keep:"
+msgstr "保留的信件数："
+
+#. i18n: ectx: property (suffix), widget (KIntNumInput, leaveOnServerCountSpin)
+#: popsettings.ui:295
+msgid " messages"
+msgstr " 封信件"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, leaveOnServerSizeCheck)
+#: popsettings.ui:302
+msgid "Keep most recent messages within the quota and delete oldest"
+msgstr "如果信件量超过配额限制，则删除最旧的信件"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, leaveOnServerSizeCheck)
+#: popsettings.ui:305
+msgid ""
+"If active, most recent messages are kept until the quota is reached and "
+"oldest messages are deleted."
+msgstr "如果启用此项。信件将保留到达到配额限制为止，然后会删除最旧的信件。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, leaveOnServerSizeCheck)
+#: popsettings.ui:308
+msgid "Maximum megabytes to keep:"
+msgstr "保留的最大字节数："
+
+#. i18n: ectx: property (suffix), widget (KIntNumInput, leaveOnServerSizeSpin)
+#: popsettings.ui:327
+msgid " MB"
+msgstr " MB"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, filterOnServerCheck)
+#. i18n: ectx: property (whatsThis), widget (KIntNumInput, filterOnServerSizeSpin)
+#: popsettings.ui:334 popsettings.ui:347
+msgid ""
+"If you select this option, POP Filters will be used to decide what to do "
+"with messages. You can then select to download, delete or keep them on the "
+"server."
+msgstr ""
+"如果您选中此选项，POP 过滤器将由此决定要对信件进行何种操作。您可以选择下载、"
+"从服务器删除，或是保留在服务器上。"
+
+#. i18n: ectx: property (text), widget (QCheckBox, filterOnServerCheck)
+#: popsettings.ui:337
+msgid "&Filter messages larger than:"
+msgstr "过滤信件，如果信件大于(&F)："
+
+#. i18n: ectx: property (suffix), widget (KIntNumInput, filterOnServerSizeSpin)
+#: popsettings.ui:362
+msgid " bytes"
+msgstr " 字节"
+
+#. i18n: ectx: property (text), widget (QCheckBox, usePipeliningCheck)
+#: popsettings.ui:369
+msgid "&Use pipelining for faster mail download"
+msgstr "使用流水线特性加快邮件下载(&U)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: popsettings.ui:384
+msgid "Destination folder:"
+msgstr "目标文件夹："
+
+#. i18n: ectx: property (text), widget (QLabel, preCommandLabel)
+#: popsettings.ui:391
+msgid "Pre-com&mand:"
+msgstr "前置命令(&M)："
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, precommand)
+#: popsettings.ui:407
+msgid "Command that is executed before checking mail"
+msgstr "检查邮件前执行的命令"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, safeImap)
+#: popsettings.ui:435
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'HandelGotDLig'; font-size:10pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">SSL/TLS</span><span style=\" font-"
+"family:'Sans Serif';\"> is safe IMAP over port 993;</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">STARTTLS</span><span style=\" font-"
+"family:'Sans Serif';\"> will operate on port 143 and switch to a secure "
+"connection directly after connecting;</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">None</span><span style=\" font-"
+"family:'Sans Serif';\"> will connect to port 143 but not switch to a secure "
+"connection. This setting is not recommended.</span></p></body></html>"
+msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'HandelGotDLig'; font-size:10pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">SSL/TLS</span><span style=\" font-"
+"family:'Sans Serif';\"> 是在 933 端口上安全的 IMAP；</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">STARTTLS</span><span style=\" font-"
+"family:'Sans Serif';\"> 将在 143 端口上操作，连接后会直接切换到安全连接；</"
+"span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Sans Serif'; font-weight:600;\">无</span><span style=\" font-"
+"family:'Sans Serif';\">将连接到 143 端口，但不会切换到安全连接。不推荐使用此"
+"设置。</span></p></body></html>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, safeImap)
+#: popsettings.ui:438
+msgid "Connection Settings"
+msgstr "连接设置"
+
+#. i18n: ectx: property (text), widget (KPushButton, checkCapabilities)
+#: popsettings.ui:451
+msgid "Auto Detect"
+msgstr "自动检测"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: popsettings.ui:478
+msgid "Encryption:"
+msgstr "加密："
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionNone)
+#: popsettings.ui:487
+msgid "None"
+msgstr "无"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionSSL)
+#: popsettings.ui:497
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionTLS)
+#: popsettings.ui:504
+msgid "STARTTLS"
+msgstr "STARTTLS"
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: popsettings.ui:513
+msgid "Authentication:"
+msgstr "验证方式："
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: popsettings.ui:523
+msgid "Port:"
+msgstr "端口："
+
+#. i18n: ectx: label, entry (authenticationMethod), group (General)
+#: settings.kcfg:26
+msgid "Defines the authentication type to use"
+msgstr "定义要使用的身份验证方式"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid ""
+#~ "You are asked here because you choose to not store the password in the "
+#~ "wallet."
+#~ msgstr "询问您账户的原因是您没有在钱包中保存密码。"
+
+#~ msgid ""
+#~ "The server refused the supplied username and password. Do you want to go "
+#~ "to the settings, have another attempt at logging in, or do nothing?\n"
+#~ "\n"
+#~ "%1"
+#~ msgstr ""
+#~ "服务器拒绝了您提供的用户名和密码。您想要重新设置账户、重试登录，还是什么也"
+#~ "不做？\n"
+#~ "%1"
+
+#~ msgid "Could Not Authenticate"
+#~ msgstr "无法进行验证"
+
+#~ msgid "Settings"
+#~ msgstr "设置"
+
+#~ msgctxt "Input username/password manually and not store them"
+#~ msgid "Single Input"
+#~ msgstr "输入一次"
+
+#~ msgid "Include this account when clicking on the toolbar button"
+#~ msgstr "点击工具栏按钮时，操作包含此账户"
+
+#~ msgid "Include in man&ual mail check"
+#~ msgstr "手动检查邮件时包含(&U)"
